@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 13
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 732.3702
+Precursor charge: 2+
+Ground truth: IDNIC+57.021AIFDINR
+Ground truth (normalized): IDNIC+57.021AIFDINR
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 41
+Used for reranking: 41
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 41 (4.1%)
+Database matches: 9 (0.9%)
+Prosit predictions: 32 (3.2%)
+Failed: 0 (0.0%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 4/1000
+Rank by similarity: 1/1000
+Similarity: 0.9355
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     LDNLC+57.021ALFDLNR      0.9355      Database    -5.1616     1462.7238   ✓       ✓
+2     LDNLC+57.021ALFDLNR      0.9355      Database    -5.8243     1462.7238   ✓       ✓
+3     LDNLC+57.021ALFDLNR      0.9355      Database    -7.6636     1462.7238   ✓       ✓
+4     LDNLC+57.021ALFDLNR      0.9355      Database    -8.3140     1462.7238   ✓       ✓
+5     LDNLC+57.021ALFDLNR      0.9355      Database    -8.3262     1462.7238   ✓       ✓
+6     LDNLC+57.021ALFDLNR      0.9355      Database    -8.3689     1462.7238   ✓       ✓
+7     LDNLC+57.021ALFDLNR      0.9355      Database    -8.9646     1462.7238   ✓       ✓
+8     LDNLC+57.021ALFDLNR      0.9355      Database    -8.9767     1462.7238   ✓       ✓
+9     LDNLC+57.021ALFDLNR      0.9355      Database    -9.0316     1462.7238   ✓       ✓
+10    LDN+0.984LLALFQLFR       0.4913      Prosit      -8.5880     1462.8184   ✓       
+11    LDN+0.984LLALFQLFR       0.4913      Prosit      -9.2507     1462.8184   ✓       
+12    LDTLC+57.021ALFQLNR      0.4712      Prosit      -7.1568     1462.7602   ✓       
+13    LDTLC+57.021ALFQLNR      0.4712      Prosit      -7.8195     1462.7602   ✓       
+14    LN+0.984NLC+57.021ALFDLNR0.4609      Prosit      -9.0052     1462.7238   ✓       
+15    LDN+0.984LC+57.021ALFQ+0.984LVR0.4606      Prosit      -7.6574     1462.7490   ✓       
+16    LDN+0.984LC+57.021ALFQ+0.984LVR0.4606      Prosit      -8.3201     1462.7490   ✓       
+17    LDN+0.984VC+57.021ALFQLNR0.4585      Prosit      -9.4445     1462.7239   ✓       
+18    LDN+0.984LC+57.021ALFDLLR0.4580      Prosit      -9.3919     1462.7490   ✓       
+19    LDNLC+57.021ALFN+0.984LNR0.4448      Prosit      -8.8578     1462.7238   ✓       
+20    LDNLFALFQLNR             0.4421      Prosit      -9.4461     1462.7932   ✓       
+21    LDN+0.984LC+57.021AVFQLNR0.4403      Prosit      -5.0832     1462.7239   ✓       
+22    LDN+0.984LC+57.021AVFQLNR0.4403      Prosit      -5.7459     1462.7239   ✓       
+23    LDNLC+57.021AVFQ+0.984LNR0.4403      Prosit      -7.1314     1462.7238   ✓       
+24    LDN+0.984LC+57.021AVFQLNR0.4403      Prosit      -7.5852     1462.7239   ✓       
+25    LDNLC+57.021AVFQ+0.984LNR0.4403      Prosit      -7.7941     1462.7238   ✓       
+26    LDN+0.984LC+57.021AVFQLNR0.4403      Prosit      -8.2356     1462.7239   ✓       
+27    LDN+0.984LC+57.021AVFQLNR0.4403      Prosit      -8.2479     1462.7239   ✓       
+28    LDN+0.984LC+57.021AVFQLNR0.4403      Prosit      -8.2905     1462.7239   ✓       
+29    LDN+0.984LC+57.021AVFQLNR0.4403      Prosit      -8.8863     1462.7239   ✓       
+30    LDN+0.984LC+57.021AVFQLNR0.4403      Prosit      -8.8983     1462.7239   ✓       
+31    LDN+0.984LC+57.021AVFQLNR0.4403      Prosit      -8.9532     1462.7239   ✓       
+32    LDN+0.984LC+57.021AVFQLNR0.4403      Prosit      -11.6797    1462.7239   ✓       
+33    LN+0.984N+0.984LC+57.021AVFQLNR0.4347      Prosit      -8.9268     1462.7239   ✓       
+34    LDDLC+57.021AVFQLNR      0.4287      Prosit      -8.7577     1462.7239   ✓       
+35    LDDLC+57.021AVFQLNR      0.4287      Prosit      -9.4204     1462.7239   ✓       
+36    LDNLC+57.021AVFELNR      0.4262      Prosit      -9.3922     1462.7238   ✓       
+37    +43.006DNLC+57.021QLFQLNR0.4230      Prosit      -11.6780    1462.6987   ✓       
+38    LDNLQAVFQLFR             0.4083      Prosit      -7.4949     1462.7932   ✓       
+39    LDNLQAVFQLFR             0.4083      Prosit      -8.1576     1462.7932   ✓       
+40    LDN+0.984LC+57.021ALQQLFK0.4003      Prosit      -9.0871     1462.7490   ✓       
+41    LDNLC+57.021AVQDLFR      0.3941      Prosit      -9.2921     1462.7238   ✓       
+42    LDN+0.984LQ+0.984ALFQLNR -1.0000     NotChecked  -4.6093     1445.7514   ✗       
+43    LDNLQ+0.984ALFQLNR       -1.0000     NotChecked  -4.7023     1444.7674   ✗       
+44    LDNLC+57.021AVFQLNR      -1.0000     NotChecked  -5.1762     1461.7398   ✗       
+45    LDN+0.984LQALFQLNR       -1.0000     NotChecked  -5.2385     1444.7674   ✗       
+46    LDN+0.984LQ+0.984ALFQLNR -1.0000     NotChecked  -5.2720     1445.7514   ✗       
+47    LDNLQALFQLNR             -1.0000     NotChecked  -5.3315     1443.7834   ✗       
+48    LDNLQ+0.984ALFQLNR       -1.0000     NotChecked  -5.3650     1444.7674   ✗       
+49    LDN+0.984LC+57.021ALQQLNR-1.0000     NotChecked  -5.4901     1457.7297   ✗       
+50    LDNLC+57.021ALQQLNR      -1.0000     NotChecked  -5.5831     1456.7456   ✗       
+51    LDN+0.984SC+57.021ALFQLNR-1.0000     NotChecked  -5.6531     1450.6875   ✗       
+52    LDN+0.984LC+57.021ALFQLVR-1.0000     NotChecked  -5.7022     1461.7650   ✗       
+53    LDNSC+57.021ALFQLNR      -1.0000     NotChecked  -5.7461     1449.7034   ✗       
+54    LDNLC+57.021ALFQLVR      -1.0000     NotChecked  -5.7952     1460.7810   ✗       
+55    LDNLC+57.021AVFQLNR      -1.0000     NotChecked  -5.8389     1461.7398   ✗       
+56    LDN+0.984LQALFQLNR       -1.0000     NotChecked  -5.9012     1444.7674   ✗       
+57    LDNLQALFQLNR             -1.0000     NotChecked  -5.9942     1443.7834   ✗       
+58    LDN+0.984LC+57.021ALQQLNR-1.0000     NotChecked  -6.1528     1457.7297   ✗       
+59    LDN+0.984LQ+0.984ALFDLNR -1.0000     NotChecked  -6.1549     1432.7198   ✗       
+60    LDN+0.984LQ+0.984AVFQLNR -1.0000     NotChecked  -6.1696     1431.7358   ✗       
+61    LDNLC+57.021ALQQLNR      -1.0000     NotChecked  -6.2458     1456.7456   ✗       
+62    LDNLQ+0.984ALFDLNR       -1.0000     NotChecked  -6.2479     1431.7358   ✗       
+63    LDNLQ+0.984AVFQLNR       -1.0000     NotChecked  -6.2625     1430.7518   ✗       
+64    LDN+0.984SC+57.021ALFQLNR-1.0000     NotChecked  -6.3158     1450.6875   ✗       
+65    LDN+0.984LC+57.021ALFQLVR-1.0000     NotChecked  -6.3649     1461.7650   ✗       
+66    LDNSC+57.021ALFQLNR      -1.0000     NotChecked  -6.4088     1449.7034   ✗       
+67    LDNLC+57.021ALFQLVR      -1.0000     NotChecked  -6.4579     1460.7810   ✗       
+68    LDN+0.984LC+57.021ALFQLNK-1.0000     NotChecked  -6.5168     1448.7334   ✗       
+69    LDN+0.984LQ+0.984ALFQ+0.984LNR-1.0000     NotChecked  -6.5646     1446.7355   ✗       
+70    LDN+0.984LQ+0.984ALQQLNR -1.0000     NotChecked  -6.5764     1426.7416   ✗       
+71    LDNLC+57.021ALFQLNK      -1.0000     NotChecked  -6.6098     1447.7493   ✗       
+72    LDN+0.984LC+57.021AVFDLNR-1.0000     NotChecked  -6.6288     1449.6922   ✗       
+73    LDNLQ+0.984ALFQ+0.984LNR -1.0000     NotChecked  -6.6576     1445.7514   ✗       
+74    LDNLQ+0.984ALQQLNR       -1.0000     NotChecked  -6.6694     1425.7576   ✗       
+75    LDNLC+57.021AVFDLNR      -1.0000     NotChecked  -6.7218     1448.7082   ✗       
+76    LDN+0.984SQ+0.984ALFQLNR -1.0000     NotChecked  -6.7394     1419.6994   ✗       
+77    LDN+0.984LQALFDLNR       -1.0000     NotChecked  -6.7841     1431.7358   ✗       
+78    LDN+0.984LQ+0.984ALFQLVR -1.0000     NotChecked  -6.7885     1430.7769   ✗       
+79    LDN+0.984LQAVFQLNR       -1.0000     NotChecked  -6.7987     1430.7518   ✗       
+80    LDN+0.984LQ+0.984ALFDLNR -1.0000     NotChecked  -6.8176     1432.7198   ✗       
+81    LDN+0.984LQ+0.984AVFQLNR -1.0000     NotChecked  -6.8322     1431.7358   ✗       
+82    LDNSQ+0.984ALFQLNR       -1.0000     NotChecked  -6.8324     1418.7154   ✗       
+83    LDNLQALFDLNR             -1.0000     NotChecked  -6.8771     1430.7518   ✗       
+84    LDNLQ+0.984ALFQLVR       -1.0000     NotChecked  -6.8815     1429.7929   ✗       
+85    LDNLQAVFQLNR             -1.0000     NotChecked  -6.8917     1429.7678   ✗       
+86    LDNLQ+0.984ALFDLNR       -1.0000     NotChecked  -6.9106     1431.7358   ✗       
+87    LDNLQ+0.984AVFQLNR       -1.0000     NotChecked  -6.9252     1430.7518   ✗       
+88    LDN+0.984LC+57.021ALQDLNR-1.0000     NotChecked  -7.0357     1444.6980   ✗       
+89    LDN+0.984LC+57.021AVQQLNR-1.0000     NotChecked  -7.0503     1443.7140   ✗       
+90    LDN+0.984LQ+0.984ALFQLNR -1.0000     NotChecked  -7.1113     1445.7514   ✗       
+91    LN+0.984LC+57.021ALFQLNR -1.0000     NotChecked  -7.1245     1361.7126   ✗       
+92    LDNLC+57.021ALQDLNR      -1.0000     NotChecked  -7.1287     1443.7140   ✗       
+93    LDNLC+57.021AVQQLNR      -1.0000     NotChecked  -7.1433     1442.7300   ✗       
+94    LDN+0.984LC+57.021ALFQLNK-1.0000     NotChecked  -7.1795     1448.7334   ✗       
+95    LDN+0.984LQ+0.984ALQQLFR -1.0000     NotChecked  -7.1796     1459.7671   ✗       
+96    LDN+0.984LQALFQ+0.984LNR -1.0000     NotChecked  -7.1937     1445.7514   ✗       
+97    LDN+0.984SC+57.021ALFDLNR-1.0000     NotChecked  -7.1987     1437.6558   ✗       
+98    LDN+0.984LC+57.021ALFQLGR-1.0000     NotChecked  -7.2035     1419.7180   ✗       
+99    LDNLQ+0.984ALFQLNR       -1.0000     NotChecked  -7.2043     1444.7674   ✗       
+100   LDN+0.984LQALQQLNR       -1.0000     NotChecked  -7.2056     1425.7576   ✗       
+101   LDN+0.984SC+57.021AVFQLNR-1.0000     NotChecked  -7.2133     1436.6718   ✗       
+102   LNLC+57.021ALFQLNR       -1.0000     NotChecked  -7.2175     1360.7285   ✗       
+103   LDN+0.984LQ+0.984ALFQ+0.984LNR-1.0000     NotChecked  -7.2272     1446.7355   ✗       
+104   LDN+0.984LQ+0.984ALQQLNR -1.0000     NotChecked  -7.2391     1426.7416   ✗       
+105   LDN+0.984LC+57.021ALFDLVR-1.0000     NotChecked  -7.2478     1448.7334   ✗       
+106   LDN+0.984LC+57.021AVFQLVR-1.0000     NotChecked  -7.2624     1447.7493   ✗       
+107   LDNLC+57.021ALFQLNK      -1.0000     NotChecked  -7.2725     1447.7493   ✗       
+108   LDNLQ+0.984ALQQLFR       -1.0000     NotChecked  -7.2726     1458.7831   ✗       
+109   LDNLQALFQ+0.984LNR       -1.0000     NotChecked  -7.2867     1444.7674   ✗       
+110   LDN+0.984LC+57.021AVFDLNR-1.0000     NotChecked  -7.2915     1449.6922   ✗       
+111   LDNSC+57.021ALFDLNR      -1.0000     NotChecked  -7.2917     1436.6718   ✗       
+112   LDNLC+57.021ALFQLGR      -1.0000     NotChecked  -7.2965     1418.7340   ✗       
+113   LDNLQALQQLNR             -1.0000     NotChecked  -7.2986     1424.7736   ✗       
+114   LDNSC+57.021AVFQLNR      -1.0000     NotChecked  -7.3063     1435.6878   ✗       
+115   LDNLQ+0.984ALFQ+0.984LNR -1.0000     NotChecked  -7.3202     1445.7514   ✗       
+116   LDNLQ+0.984ALQQLNR       -1.0000     NotChecked  -7.3321     1425.7576   ✗       
+117   LDNLC+57.021ALFDLVR      -1.0000     NotChecked  -7.3408     1447.7493   ✗       
+118   LDN+0.984SQ+0.984ALFQLFR -1.0000     NotChecked  -7.3426     1452.7249   ✗       
+119   LDN+0.984LSALFQLNR       -1.0000     NotChecked  -7.3471     1403.7409   ✗       
+120   LDNLC+57.021AVFQLVR      -1.0000     NotChecked  -7.3554     1446.7653   ✗       
+121   LDN+0.984SQALFQLNR       -1.0000     NotChecked  -7.3686     1418.7154   ✗       
+122   LDNLC+57.021AVFDLNR      -1.0000     NotChecked  -7.3845     1448.7082   ✗       
+123   LDN+0.984SQ+0.984ALFQLNR -1.0000     NotChecked  -7.4021     1419.6994   ✗       
+124   LDN+0.984LQALFQLVR       -1.0000     NotChecked  -7.4177     1429.7929   ✗       
+125   LDNSQ+0.984ALFQLFR       -1.0000     NotChecked  -7.4356     1451.7409   ✗       
+126   LDNLSALFQLNR             -1.0000     NotChecked  -7.4401     1402.7569   ✗       
+127   LDN+0.984LC+57.021ALQQ+0.984LNR-1.0000     NotChecked  -7.4453     1458.7137   ✗       
+128   LDN+0.984LQALFDLNR       -1.0000     NotChecked  -7.4468     1431.7358   ✗       
+129   LDN+0.984LQ+0.984ALFQLVR -1.0000     NotChecked  -7.4512     1430.7769   ✗       
+130   LDN+0.984LQAVFQLNR       -1.0000     NotChecked  -7.4614     1430.7518   ✗       
+131   LDNSQALFQLNR             -1.0000     NotChecked  -7.4616     1417.7314   ✗       
+132   LDSLC+57.021ALFQLNR      -1.0000     NotChecked  -7.4666     1448.7446   ✗       
+133   LDNSQ+0.984ALFQLNR       -1.0000     NotChecked  -7.4951     1418.7154   ✗       
+134   LDNLQALFQLVR             -1.0000     NotChecked  -7.5107     1428.8089   ✗       
+135   LDN+0.984LC+57.021ALFQANR-1.0000     NotChecked  -7.5238     1434.6925   ✗       
+136   LDNLC+57.021ALQQ+0.984LNR-1.0000     NotChecked  -7.5383     1457.7297   ✗       
+137   LDNLQALFDLNR             -1.0000     NotChecked  -7.5398     1430.7518   ✗       
+138   LDNLQ+0.984ALFQLVR       -1.0000     NotChecked  -7.5442     1429.7929   ✗       
+139   LLN+0.984LQ+0.984ALFQLNR -1.0000     NotChecked  -7.5481     1443.8086   ✗       
+140   LDNLQAVFQLNR             -1.0000     NotChecked  -7.5544     1429.7678   ✗       
+141   LDN+0.984LQ+0.984ALFQLNK -1.0000     NotChecked  -7.6031     1417.7453   ✗       
+142   LDN+0.984SC+57.021ALFQ+0.984LNR-1.0000     NotChecked  -7.6083     1451.6715   ✗       
+143   LDNLC+57.021ALFQANR      -1.0000     NotChecked  -7.6168     1433.7085   ✗       
+144   LDN+0.984SC+57.021ALQQLNR-1.0000     NotChecked  -7.6202     1431.6776   ✗       
+145   LLNLQ+0.984ALFQLNR       -1.0000     NotChecked  -7.6411     1442.8245   ✗       
+146   LDN+0.984LAALFQLNR       -1.0000     NotChecked  -7.6502     1387.7460   ✗       
+147   LDN+0.984LC+57.021ALQQLVR-1.0000     NotChecked  -7.6693     1442.7552   ✗       
+148   LDNLC+57.021AVFQLNR      -1.0000     NotChecked  -7.6782     1461.7398   ✗       
+149   LDNLQ+0.984ALFQLNK       -1.0000     NotChecked  -7.6961     1416.7613   ✗       
+150   LDN+0.984LC+57.021ALQDLNR-1.0000     NotChecked  -7.6984     1444.6980   ✗       
+151   LDNSC+57.021ALFQ+0.984LNR-1.0000     NotChecked  -7.7013     1450.6875   ✗       
+152   LDN+0.984LC+57.021AVQQLNR-1.0000     NotChecked  -7.7130     1443.7140   ✗       
+153   LDNSC+57.021ALQQLNR      -1.0000     NotChecked  -7.7132     1430.6936   ✗       
+154   LDN+0.984LQ+0.984AVFDLNR -1.0000     NotChecked  -7.7151     1418.7042   ✗       
+155   LN+0.984LC+57.021ALFQLFR -1.0000     NotChecked  -7.7277     1394.7380   ✗       
+156   LDN+0.984LQALFQLNR       -1.0000     NotChecked  -7.7405     1444.7674   ✗       
+157   LDNLAALFQLNR             -1.0000     NotChecked  -7.7432     1386.7619   ✗       
+158   LDNLC+57.021ALFQ+0.984LVR-1.0000     NotChecked  -7.7504     1461.7650   ✗       
+159   LDN+0.984LQ+0.984ALFQLNR -1.0000     NotChecked  -7.7617     1445.7514   ✗       
+160   LDNLC+57.021ALQQLVR      -1.0000     NotChecked  -7.7623     1441.7711   ✗       
+161   LDN+0.984LQ+0.984ALFQLNR -1.0000     NotChecked  -7.7740     1445.7514   ✗       
+162   LDN+0.984LC+57.021ALFLLNR-1.0000     NotChecked  -7.7866     1461.7650   ✗       
+163   LDNLC+57.021ALQDLNR      -1.0000     NotChecked  -7.7914     1443.7140   ✗       
+164   LDNLC+57.021AVQQLNR      -1.0000     NotChecked  -7.8060     1442.7300   ✗       
+165   GDN+0.984LC+57.021ALFQLNR-1.0000     NotChecked  -7.8072     1420.6769   ✗       
+166   LDNLQ+0.984AVFDLNR       -1.0000     NotChecked  -7.8081     1417.7201   ✗       
+167   LDN+0.984LQALQQLFR       -1.0000     NotChecked  -7.8088     1458.7831   ✗       
+168   LDN+0.984LQ+0.984ALFQLNR -1.0000     NotChecked  -7.8166     1445.7514   ✗       
+169   LNLC+57.021ALFQLFR       -1.0000     NotChecked  -7.8207     1393.7540   ✗       
+170   LDLLQ+0.984ALFQLNR       -1.0000     NotChecked  -7.8208     1443.8086   ✗       
+171   LDN+0.984SC+57.021ALFQLVR-1.0000     NotChecked  -7.8323     1435.7130   ✗       
+172   LDNLQALFQLNR             -1.0000     NotChecked  -7.8335     1443.7834   ✗       
+173   LDN+0.984LQ+0.984ALQQLFR -1.0000     NotChecked  -7.8423     1459.7671   ✗       
+174   LDNLQ+0.984ALFQLNR       -1.0000     NotChecked  -7.8547     1444.7674   ✗       
+175   LDN+0.984LQALFQ+0.984LNR -1.0000     NotChecked  -7.8564     1445.7514   ✗       
+176   LDN+0.984SC+57.021ALFDLNR-1.0000     NotChecked  -7.8614     1437.6558   ✗       
+177   LDN+0.984LC+57.021ALFQLGR-1.0000     NotChecked  -7.8662     1419.7180   ✗       
+178   LDNLQ+0.984ALFQLNR       -1.0000     NotChecked  -7.8670     1444.7674   ✗       
+179   LDN+0.984LQALQQLNR       -1.0000     NotChecked  -7.8683     1425.7576   ✗       
+180   LDN+0.984SC+57.021AVFQLNR-1.0000     NotChecked  -7.8760     1436.6718   ✗       
+181   LDNLC+57.021ALFLLNR      -1.0000     NotChecked  -7.8796     1460.7810   ✗       
+182   GDNLC+57.021ALFQLNR      -1.0000     NotChecked  -7.9002     1419.6929   ✗       
+183   LDNLQALQQLFR             -1.0000     NotChecked  -7.9018     1457.7991   ✗       
+184   LDN+0.984LC+57.021ALFQGNR-1.0000     NotChecked  -7.9064     1420.6769   ✗       
+185   LDNLQ+0.984ALFQLNR       -1.0000     NotChecked  -7.9096     1444.7674   ✗       
+186   LDN+0.984LC+57.021ALFDLVR-1.0000     NotChecked  -7.9105     1448.7334   ✗       
+187   LDN+0.984LC+57.021AVFQLVR-1.0000     NotChecked  -7.9251     1447.7493   ✗       
+188   LDNSC+57.021ALFQLVR      -1.0000     NotChecked  -7.9253     1434.7289   ✗       
+189   LDNLQ+0.984ALQQLFR       -1.0000     NotChecked  -7.9353     1458.7831   ✗       
+190   LDNLQALFQ+0.984LNR       -1.0000     NotChecked  -7.9494     1444.7674   ✗       
+191   LDN+0.984LSALFQLFR       -1.0000     NotChecked  -7.9503     1436.7664   ✗       
+192   LDNSC+57.021ALFDLNR      -1.0000     NotChecked  -7.9544     1436.6718   ✗       
+193   LDNLC+57.021ALFQLGR      -1.0000     NotChecked  -7.9592     1418.7340   ✗       
+194   LDNLQALQQLNR             -1.0000     NotChecked  -7.9613     1424.7736   ✗       
+195   LDNSC+57.021AVFQLNR      -1.0000     NotChecked  -7.9690     1435.6878   ✗       
+196   LDN+0.984SQALFQLFR       -1.0000     NotChecked  -7.9718     1451.7409   ✗       
+197   LDN+0.984LLALFQLNR       -1.0000     NotChecked  -7.9848     1429.7929   ✗       
+198   LDN+0.984LC+57.021ALQQLNR-1.0000     NotChecked  -7.9921     1457.7297   ✗       
+199   LDNLC+57.021ALFQGNR      -1.0000     NotChecked  -7.9994     1419.6929   ✗       
+200   LDNLC+57.021ALFDLVR      -1.0000     NotChecked  -8.0035     1447.7493   ✗       
+201   LDN+0.984SQ+0.984ALFQLFR -1.0000     NotChecked  -8.0053     1452.7249   ✗       
+202   LLN+0.984LC+57.021ALFDLNR-1.0000     NotChecked  -8.0074     1461.7650   ✗       
+203   LDN+0.984LSALFQLNR       -1.0000     NotChecked  -8.0098     1403.7409   ✗       
+204   LDNLC+57.021AVFQLVR      -1.0000     NotChecked  -8.0181     1446.7653   ✗       
+205   LLN+0.984LC+57.021AVFQLNR-1.0000     NotChecked  -8.0220     1460.7810   ✗       
+206   LDN+0.984SQALFQLNR       -1.0000     NotChecked  -8.0313     1418.7154   ✗       
+207   LDNLSALFQLFR             -1.0000     NotChecked  -8.0433     1435.7823   ✗       
+208   LDN+0.984LC+57.021ALFDLNK-1.0000     NotChecked  -8.0624     1435.7017   ✗       
+209   LDNSQALFQLFR             -1.0000     NotChecked  -8.0648     1450.7569   ✗       
+210   +43.006DN+0.984LC+57.021ALFQLNR-1.0000     NotChecked  -8.0681     1406.6613   ✗       
+211   LDN+0.984LC+57.021AVFQLNK-1.0000     NotChecked  -8.0770     1434.7177   ✗       
+212   LDNLLALFQLNR             -1.0000     NotChecked  -8.0778     1428.8089   ✗       
+213   LDN+0.984LQALFQLVR       -1.0000     NotChecked  -8.0804     1429.7929   ✗       
+214   LDNLC+57.021ALQQLNR      -1.0000     NotChecked  -8.0851     1456.7456   ✗       
+215   LDNSQ+0.984ALFQLFR       -1.0000     NotChecked  -8.0983     1451.7409   ✗       
+216   LLNLC+57.021ALFDLNR      -1.0000     NotChecked  -8.1004     1460.7810   ✗       
+217   LDNLSALFQLNR             -1.0000     NotChecked  -8.1028     1402.7569   ✗       
+218   LDN+0.984LC+57.021ALQQ+0.984LNR-1.0000     NotChecked  -8.1080     1458.7137   ✗       
+219   LLNLC+57.021AVFQLNR      -1.0000     NotChecked  -8.1150     1459.7970   ✗       
+220   LDN+0.984LQ+0.984ALQDLNR -1.0000     NotChecked  -8.1220     1413.7100   ✗       
+221   LDNSQALFQLNR             -1.0000     NotChecked  -8.1243     1417.7314   ✗       
+222   LDN+0.984LQ+0.984AVFQ+0.984LNR-1.0000     NotChecked  -8.1248     1432.7198   ✗       
+223   LDSLC+57.021ALFQLNR      -1.0000     NotChecked  -8.1293     1448.7446   ✗       
+224   LDN+0.984LQ+0.984AVQQLNR -1.0000     NotChecked  -8.1367     1412.7260   ✗       
+225   LDN+0.984SC+57.021ALFQLNR-1.0000     NotChecked  -8.1551     1450.6875   ✗       
+226   LDNLC+57.021ALFDLNK      -1.0000     NotChecked  -8.1554     1434.7177   ✗       
+227   +43.006DNLC+57.021ALFQLNR-1.0000     NotChecked  -8.1611     1405.6772   ✗       
+228   LDNLC+57.021AVFQLNK      -1.0000     NotChecked  -8.1700     1433.7337   ✗       
+229   LDNLQALFQLVR             -1.0000     NotChecked  -8.1734     1428.8089   ✗       
+230   LLN+0.984LQALFQLNR       -1.0000     NotChecked  -8.1773     1442.8245   ✗       
+231   LDN+0.984LC+57.021ALFTLNR-1.0000     NotChecked  -8.1833     1449.7286   ✗       
+232   LDN+0.984LC+57.021ALFQANR-1.0000     NotChecked  -8.1864     1434.6925   ✗       
+233   LDN+0.984LEALFQLNR       -1.0000     NotChecked  -8.1943     1445.7514   ✗       
+234   LDNLC+57.021ALQQ+0.984LNR-1.0000     NotChecked  -8.2010     1457.7297   ✗       
+235   LDN+0.984LC+57.021ALFQLVR-1.0000     NotChecked  -8.2042     1461.7650   ✗       
+236   LDN+0.984LQ+0.984ALFQLFK -1.0000     NotChecked  -8.2063     1450.7708   ✗       
+237   LN+0.984LQ+0.984ALFQLNR  -1.0000     NotChecked  -8.2108     1330.7245   ✗       
+238   LDNLQ+0.984ALQDLNR       -1.0000     NotChecked  -8.2150     1412.7260   ✗       
+239   LDNLQ+0.984AVFQ+0.984LNR -1.0000     NotChecked  -8.2178     1431.7358   ✗       
+240   LDNLQ+0.984AVQQLNR       -1.0000     NotChecked  -8.2296     1411.7419   ✗       
+241   LDN+0.984LQALFQLNK       -1.0000     NotChecked  -8.2323     1416.7613   ✗       
+242   LDTLQ+0.984ALFQLNR       -1.0000     NotChecked  -8.2431     1431.7722   ✗       
+243   LDNSC+57.021ALFQLNR      -1.0000     NotChecked  -8.2481     1449.7034   ✗       
+244   LDN+0.984LAALFQLFR       -1.0000     NotChecked  -8.2534     1420.7715   ✗       
+245   LDN+0.984LQ+0.984ALFQLNK -1.0000     NotChecked  -8.2658     1417.7453   ✗       
+246   LLNLQALFQLNR             -1.0000     NotChecked  -8.2703     1441.8405   ✗       
+247   LDN+0.984SC+57.021ALFQ+0.984LNR-1.0000     NotChecked  -8.2710     1451.6715   ✗       
+248   LDNLC+57.021ALFTLNR      -1.0000     NotChecked  -8.2763     1448.7446   ✗       
+249   LDNLC+57.021ALFQANR      -1.0000     NotChecked  -8.2794     1433.7085   ✗       
+250   LDLLC+57.021ALFDLNR      -1.0000     NotChecked  -8.2801     1461.7650   ✗       
+251   LDN+0.984SC+57.021ALQQLNR-1.0000     NotChecked  -8.2829     1431.6776   ✗       
+252   LDDLQ+0.984ALFQLNR       -1.0000     NotChecked  -8.2839     1445.7514   ✗       
+253   LDN+0.984SQ+0.984ALFDLNR -1.0000     NotChecked  -8.2850     1406.6678   ✗       
+254   LDNLEALFQLNR             -1.0000     NotChecked  -8.2873     1444.7674   ✗       
+255   LDN+0.984LQ+0.984ALFQLGR -1.0000     NotChecked  -8.2898     1388.7300   ✗       
+256   LDLLC+57.021AVFQLNR      -1.0000     NotChecked  -8.2947     1460.7810   ✗       
+257   LDNLC+57.021ALFQLVR      -1.0000     NotChecked  -8.2971     1460.7810   ✗       
+258   LDNLQ+0.984ALFQLFK       -1.0000     NotChecked  -8.2993     1449.7868   ✗       
+259   LDN+0.984SQ+0.984AVFQLNR -1.0000     NotChecked  -8.2997     1405.6838   ✗       
+260   LNLQ+0.984ALFQLNR        -1.0000     NotChecked  -8.3038     1329.7405   ✗       
+261   LDN+0.984LAALFQLNR       -1.0000     NotChecked  -8.3129     1387.7460   ✗       
+262   LDN+0.984LC+57.021ALQ+0.984QLNR-1.0000     NotChecked  -8.3143     1458.7137   ✗       
+263   LDN+0.984LQ+0.984AVFDLFR -1.0000     NotChecked  -8.3183     1451.7296   ✗       
+264   LDNLQALFQLNK             -1.0000     NotChecked  -8.3253     1415.7773   ✗       
+265   LDNLC+57.021AVFQLNR      -1.0000     NotChecked  -8.3286     1461.7398   ✗       
+266   LDN+0.984LC+57.021ALQQLVR-1.0000     NotChecked  -8.3320     1442.7552   ✗       
+267   LDN+0.984LQ+0.984ALFDLVR -1.0000     NotChecked  -8.3341     1417.7453   ✗       
+268   LDNLC+57.021AVFQLNR      -1.0000     NotChecked  -8.3409     1461.7398   ✗       
+269   LDN+0.984LQAVFDLNR       -1.0000     NotChecked  -8.3443     1417.7201   ✗       
+270   LDNLAALFQLFR             -1.0000     NotChecked  -8.3464     1419.7874   ✗       
+271   LDN+0.984LQ+0.984AVFQLVR -1.0000     NotChecked  -8.3487     1416.7613   ✗       
+272   LDNLQ+0.984ALFQLNK       -1.0000     NotChecked  -8.3588     1416.7613   ✗       
+273   LDNSC+57.021ALFQ+0.984LNR-1.0000     NotChecked  -8.3640     1450.6875   ✗       
+274   LDNSC+57.021ALQQLNR      -1.0000     NotChecked  -8.3759     1430.6936   ✗       
+275   LDN+0.984LQ+0.984AVFDLNR -1.0000     NotChecked  -8.3778     1418.7042   ✗       
+276   LDNSQ+0.984ALFDLNR       -1.0000     NotChecked  -8.3780     1405.6838   ✗       
+277   LDNLQ+0.984ALFQLGR       -1.0000     NotChecked  -8.3828     1387.7460   ✗       
+278   LDNLC+57.021AVFQLNR      -1.0000     NotChecked  -8.3835     1461.7398   ✗       
+279   LDN+0.984LQALFQLNR       -1.0000     NotChecked  -8.3909     1444.7674   ✗       
+280   LDNSQ+0.984AVFQLNR       -1.0000     NotChecked  -8.3927     1404.6997   ✗       
+281   LDN+0.984LQALFQLNR       -1.0000     NotChecked  -8.4032     1444.7674   ✗       
+282   LDNLAALFQLNR             -1.0000     NotChecked  -8.4059     1386.7619   ✗       
+283   LDNLC+57.021ALQ+0.984QLNR-1.0000     NotChecked  -8.4073     1457.7297   ✗       
+284   GDN+0.984LC+57.021ALFQLFR-1.0000     NotChecked  -8.4104     1453.7024   ✗       
+285   LDNLQ+0.984AVFDLFR       -1.0000     NotChecked  -8.4113     1450.7456   ✗       
+286   LDN+0.984LQ+0.984ALFQLNR -1.0000     NotChecked  -8.4124     1445.7514   ✗       
+287   LDNLC+57.021ALFQ+0.984LVR-1.0000     NotChecked  -8.4131     1461.7650   ✗       
+288   +42.011DN+0.984LC+57.021ALFQLNR-1.0000     NotChecked  -8.4212     1405.6660   ✗       
+289   LDN+0.984LQ+0.984ALFQLNR -1.0000     NotChecked  -8.4244     1445.7514   ✗       
+290   LDNLC+57.021ALQQLVR      -1.0000     NotChecked  -8.4250     1441.7711   ✗       
+291   LDNLQ+0.984ALFDLVR       -1.0000     NotChecked  -8.4271     1416.7613   ✗       
+292   LLN+0.984LC+57.021ALQQLNR-1.0000     NotChecked  -8.4289     1455.7868   ✗       
+293   LDGLC+57.021ALFQLNR      -1.0000     NotChecked  -8.4373     1418.7340   ✗       
+294   LDNLQAVFDLNR             -1.0000     NotChecked  -8.4373     1416.7361   ✗       
+295   LDNLQ+0.984AVFQLVR       -1.0000     NotChecked  -8.4417     1415.7773   ✗       
+296   LDN+0.984LQALFQLNR       -1.0000     NotChecked  -8.4458     1444.7674   ✗       
+297   LDN+0.984LC+57.021ALFLLNR-1.0000     NotChecked  -8.4493     1461.7650   ✗       
+298   LDLLQALFQLNR             -1.0000     NotChecked  -8.4500     1442.8245   ✗       
+299   LN+0.984N+0.984LQ+0.984ALFQLNR-1.0000     NotChecked  -8.4530     1445.7514   ✗       
+300   LDNLQ+0.984AVFDLNR       -1.0000     NotChecked  -8.4708     1417.7201   ✗       
+301   LDN+0.984LQALQQLFR       -1.0000     NotChecked  -8.4715     1458.7831   ✗       
+302   LDN+0.984LC+57.021ALFQ+0.984LNK-1.0000     NotChecked  -8.4720     1449.7174   ✗       
+303   LDN+0.984LQ+0.984ALFQLNR -1.0000     NotChecked  -8.4793     1445.7514   ✗       
+304   LDLLQ+0.984ALFQLNR       -1.0000     NotChecked  -8.4835     1443.8086   ✗       
+305   LDNLQALFQLNR             -1.0000     NotChecked  -8.4839     1443.7834   ✗       
+306   LDN+0.984LC+57.021ALQQLNK-1.0000     NotChecked  -8.4839     1429.7235   ✗       
+307   LDN+0.984SC+57.021ALFQLVR-1.0000     NotChecked  -8.4950     1435.7130   ✗       
+308   LDNLQALFQLNR             -1.0000     NotChecked  -8.4962     1443.7834   ✗       
+309   GDNLC+57.021ALFQLFR      -1.0000     NotChecked  -8.5034     1452.7184   ✗       
+310   LDNLQ+0.984ALFQLNR       -1.0000     NotChecked  -8.5054     1444.7674   ✗       
+311   LDN+0.984LC+57.021ALFQGFR-1.0000     NotChecked  -8.5096     1453.7024   ✗       
+312   +42.011DNLC+57.021ALFQLNR-1.0000     NotChecked  -8.5142     1404.6820   ✗       
+313   LDNLQ+0.984ALFQLNR       -1.0000     NotChecked  -8.5174     1444.7674   ✗       
+314   LLNLC+57.021ALQQLNR      -1.0000     NotChecked  -8.5219     1454.8028   ✗       
+315   LDN+0.984LC+57.021LFQLNR -1.0000     NotChecked  -8.5238     1405.7024   ✗       
+316   LDN+0.984LC+57.021ALFQLAR-1.0000     NotChecked  -8.5250     1433.7337   ✗       
+317   LDN+0.984LQ+0.984ALQQ+0.984LNR-1.0000     NotChecked  -8.5317     1427.7256   ✗       
+318   LDNLQALFQLNR             -1.0000     NotChecked  -8.5388     1443.7834   ✗       
+319   LDNLC+57.021ALFLLNR      -1.0000     NotChecked  -8.5423     1460.7810   ✗       
+320   LN+0.984NLQ+0.984ALFQLNR -1.0000     NotChecked  -8.5460     1444.7674   ✗       
+321   LDSLQ+0.984ALFQLNR       -1.0000     NotChecked  -8.5529     1417.7565   ✗       
+322   LDNLQALQQLFR             -1.0000     NotChecked  -8.5645     1457.7991   ✗       
+323   LDNLC+57.021ALFQ+0.984LNK-1.0000     NotChecked  -8.5650     1448.7334   ✗       
+324   LDN+0.984LC+57.021ALFQGNR-1.0000     NotChecked  -8.5691     1420.6769   ✗       
+325   LDNLQ+0.984ALFQLNR       -1.0000     NotChecked  -8.5723     1444.7674   ✗       
+326   LDNLC+57.021ALQQLNK      -1.0000     NotChecked  -8.5769     1428.7395   ✗       
+327   LDNSC+57.021ALFQLVR      -1.0000     NotChecked  -8.5880     1434.7289   ✗       
+328   LLN+0.984SC+57.021ALFQLNR-1.0000     NotChecked  -8.5919     1448.7446   ✗       
+329   LDN+0.984LC+57.021AVQDLNR-1.0000     NotChecked  -8.5959     1430.6824   ✗       
+330   LDNLC+57.021ALFQGFR      -1.0000     NotChecked  -8.6026     1452.7184   ✗       
+331   LDN+0.984LQ+0.984ALFQANR -1.0000     NotChecked  -8.6101     1403.7045   ✗       
+332   LDN+0.984LSALFQLFR       -1.0000     NotChecked  -8.6129     1436.7664   ✗       
+333   LDNLC+57.021LFQLNR       -1.0000     NotChecked  -8.6168     1404.7184   ✗       
+334   LDNLC+57.021ALFQLAR      -1.0000     NotChecked  -8.6180     1432.7497   ✗       
+335   LDNLQ+0.984ALQQ+0.984LNR -1.0000     NotChecked  -8.6247     1426.7416   ✗       
+336   LDN+0.984SQALFQLFR       -1.0000     NotChecked  -8.6345     1451.7409   ✗       
+337   LLN+0.984LC+57.021ALFQLVR-1.0000     NotChecked  -8.6410     1459.8221   ✗       
+338   LDN+0.984LC+57.021ALQQLNR-1.0000     NotChecked  -8.6425     1457.7297   ✗       
+339   LDN+0.984SC+57.021ALFQLNK-1.0000     NotChecked  -8.6469     1422.6813   ✗       
+340   LDN+0.984LLALFQLNR       -1.0000     NotChecked  -8.6475     1429.7929   ✗       
+341   LDN+0.984LC+57.021ALQQLNR-1.0000     NotChecked  -8.6548     1457.7297   ✗       
+342   LDN+0.984LQ+0.984ALFDLNR -1.0000     NotChecked  -8.6569     1432.7198   ✗       
+343   LDNLC+57.021ALFQGNR      -1.0000     NotChecked  -8.6621     1419.6929   ✗       
+344   LN+0.984LC+57.021ALFDLNR -1.0000     NotChecked  -8.6701     1348.6809   ✗       
+345   +43.006DN+0.984LC+57.021ALFQLFR-1.0000     NotChecked  -8.6713     1439.6867   ✗       
+346   LDN+0.984LQ+0.984AVFQLNR -1.0000     NotChecked  -8.6715     1431.7358   ✗       
+347   LDNLLALFQLFR             -1.0000     NotChecked  -8.6810     1461.8344   ✗       
+348   LN+0.984LC+57.021AVFQLNR -1.0000     NotChecked  -8.6847     1347.6969   ✗       
+349   LLNSC+57.021ALFQLNR      -1.0000     NotChecked  -8.6849     1447.7606   ✗       
+350   LDNLC+57.021AVQDLNR      -1.0000     NotChecked  -8.6889     1429.6984   ✗       
+351   LDN+0.984SQ+0.984ALFQ+0.984LNR-1.0000     NotChecked  -8.6947     1420.6834   ✗       
+352   LDN+0.984LC+57.021ALFQLVK-1.0000     NotChecked  -8.6960     1433.7588   ✗       
+353   LDN+0.984LC+57.021ALQQLNR-1.0000     NotChecked  -8.6974     1457.7297   ✗       
+354   LDLLC+57.021ALQQLNR      -1.0000     NotChecked  -8.7016     1455.7868   ✗       
+355   LDTLC+57.021ALFDLNR      -1.0000     NotChecked  -8.7024     1449.7286   ✗       
+356   LDNLQ+0.984ALFQANR       -1.0000     NotChecked  -8.7031     1402.7205   ✗       
+357   LDNLSALFQLFR             -1.0000     NotChecked  -8.7059     1435.7823   ✗       
+358   LDN+0.984SQ+0.984ALQQLNR -1.0000     NotChecked  -8.7065     1400.6896   ✗       
+359   LDTLC+57.021AVFQLNR      -1.0000     NotChecked  -8.7170     1448.7446   ✗       
+360   LDN+0.984LC+57.021ALFDLNK-1.0000     NotChecked  -8.7251     1435.7017   ✗       
+361   LDN+0.984LQ+0.984ALQDLFR -1.0000     NotChecked  -8.7252     1446.7355   ✗       
+362   LDNSQALFQLFR             -1.0000     NotChecked  -8.7275     1450.7569   ✗       
+363   LLNLC+57.021ALFQLVR      -1.0000     NotChecked  -8.7340     1458.8381   ✗       
+364   LDNLC+57.021ALQQLNR      -1.0000     NotChecked  -8.7355     1456.7456   ✗       
+365   LDN+0.984LC+57.021AVFQLNK-1.0000     NotChecked  -8.7397     1434.7177   ✗       
+366   LDN+0.984LQ+0.984AVQQLFR -1.0000     NotChecked  -8.7398     1445.7514   ✗       
+367   LDNSC+57.021ALFQLNK      -1.0000     NotChecked  -8.7399     1421.6973   ✗       
+368   LDNLLALFQLNR             -1.0000     NotChecked  -8.7405     1428.8089   ✗       
+369   LDN+0.984LQ+0.984ALFQ+0.984LVR-1.0000     NotChecked  -8.7437     1431.7609   ✗       
+370   LDNLC+57.021ALQQLNR      -1.0000     NotChecked  -8.7477     1456.7456   ✗       
+371   LDN+0.984LC+57.021ALFDLGR-1.0000     NotChecked  -8.7491     1406.6864   ✗       
+372   LDNLQ+0.984ALFDLNR       -1.0000     NotChecked  -8.7499     1431.7358   ✗       
+373   LDN+0.984LQALQDLNR       -1.0000     NotChecked  -8.7512     1412.7260   ✗       
+374   LDN+0.984LQAVFQ+0.984LNR -1.0000     NotChecked  -8.7540     1431.7358   ✗       
+375   LDN+0.984LQ+0.984ALQQLVR -1.0000     NotChecked  -8.7556     1411.7671   ✗       
+376   LDN+0.984SC+57.021AVFDLNR-1.0000     NotChecked  -8.7589     1423.6402   ✗       
+377   LNLC+57.021ALFDLNR       -1.0000     NotChecked  -8.7631     1347.6969   ✗       
+378   LDN+0.984LC+57.021AVFQLGR-1.0000     NotChecked  -8.7637     1405.7024   ✗       
+379   +43.006DNLC+57.021ALFQLFR-1.0000     NotChecked  -8.7643     1438.7027   ✗       
+380   LDNLQ+0.984AVFQLNR       -1.0000     NotChecked  -8.7645     1430.7518   ✗       
+381   LDN+0.984LQAVQQLNR       -1.0000     NotChecked  -8.7658     1411.7419   ✗       
+382   LDN+0.984LMALFQLNR       -1.0000     NotChecked  -8.7763     1447.7493   ✗       
+383   LNLC+57.021AVFQLNR       -1.0000     NotChecked  -8.7777     1346.7129   ✗       
+384   LDN+0.984LQ+0.984ALQDLNR -1.0000     NotChecked  -8.7847     1413.7100   ✗       
+385   LDN+0.984LQ+0.984AVFQ+0.984LNR-1.0000     NotChecked  -8.7875     1432.7198   ✗       
+386   LDNSQ+0.984ALFQ+0.984LNR -1.0000     NotChecked  -8.7877     1419.6994   ✗       
+387   LDNLC+57.021ALFQLVK      -1.0000     NotChecked  -8.7890     1432.7748   ✗       
+388   LDNLC+57.021ALQQLNR      -1.0000     NotChecked  -8.7904     1456.7456   ✗       
+389   LDN+0.984LQ+0.984AVQQLNR -1.0000     NotChecked  -8.7993     1412.7260   ✗       
+390   LDNSQ+0.984ALQQLNR       -1.0000     NotChecked  -8.7995     1399.7056   ✗       
+391   LDN+0.984LC+57.021AVFDLVR-1.0000     NotChecked  -8.8080     1434.7177   ✗       
+392   LN+0.984LQ+0.984ALFQLFR  -1.0000     NotChecked  -8.8140     1363.7500   ✗       
+393   LDN+0.984SC+57.021ALFQLNR-1.0000     NotChecked  -8.8178     1450.6875   ✗       
+394   LDNLC+57.021ALFDLNK      -1.0000     NotChecked  -8.8181     1434.7177   ✗       
+395   LDNLQ+0.984ALQDLFR       -1.0000     NotChecked  -8.8182     1445.7514   ✗       
+396   LDN+0.984LQ+0.984ALFELNR -1.0000     NotChecked  -8.8253     1446.7355   ✗       
+397   LDNLC+57.021AVFQLNK      -1.0000     NotChecked  -8.8327     1433.7337   ✗       
+398   LDNLQ+0.984AVQQLFR       -1.0000     NotChecked  -8.8328     1444.7674   ✗       
+399   LDN+0.984LQALFQLFK       -1.0000     NotChecked  -8.8355     1449.7868   ✗       
+400   LDNLQ+0.984ALFQ+0.984LVR -1.0000     NotChecked  -8.8367     1430.7769   ✗       
+401   LN+0.984LQALFQLNR        -1.0000     NotChecked  -8.8400     1329.7405   ✗       
+402   LDNLC+57.021ALFDLGR      -1.0000     NotChecked  -8.8421     1405.7024   ✗       
+403   LDNLQALQDLNR             -1.0000     NotChecked  -8.8442     1411.7419   ✗       
+404   LDN+0.984LC+57.021ALFTLNR-1.0000     NotChecked  -8.8460     1449.7286   ✗       
+405   LDNLQAVFQ+0.984LNR       -1.0000     NotChecked  -8.8469     1430.7518   ✗       
+406   LDNLQ+0.984ALQQLVR       -1.0000     NotChecked  -8.8486     1410.7831   ✗       
+407   LDNSC+57.021AVFDLNR      -1.0000     NotChecked  -8.8519     1422.6562   ✗       
+408   LDN+0.984LC+57.021ALFQLVR-1.0000     NotChecked  -8.8546     1461.7650   ✗       
+409   LDNLC+57.021AVFQLGR      -1.0000     NotChecked  -8.8567     1404.7184   ✗       
+410   LDN+0.984LEALFQLNR       -1.0000     NotChecked  -8.8570     1445.7514   ✗       
+411   LDNLQAVQQLNR             -1.0000     NotChecked  -8.8588     1410.7579   ✗       
+412   LDN+0.984SC+57.021ALFQLNR-1.0000     NotChecked  -8.8604     1450.6875   ✗       
+413   LDLSC+57.021ALFQLNR      -1.0000     NotChecked  -8.8646     1448.7446   ✗       
+414   LDN+0.984LC+57.021ALFQLVR-1.0000     NotChecked  -8.8668     1461.7650   ✗       
+415   LDN+0.984LQ+0.984ALFQLFK -1.0000     NotChecked  -8.8690     1450.7708   ✗       
+416   LDNLMALFQLNR             -1.0000     NotChecked  -8.8693     1446.7653   ✗       
+417   LDTLQALFQLNR             -1.0000     NotChecked  -8.8723     1430.7882   ✗       
+418   LDN+0.984LQ+0.984ALFLLNR -1.0000     NotChecked  -8.8729     1430.7769   ✗       
+419   LDNLQ+0.984ALQDLNR       -1.0000     NotChecked  -8.8777     1412.7260   ✗       
+420   LDNLQ+0.984AVFQ+0.984LNR -1.0000     NotChecked  -8.8805     1431.7358   ✗       
+421   LDN+0.984SQ+0.984ALFDLFR -1.0000     NotChecked  -8.8882     1439.6933   ✗       
+422   LDNLQ+0.984AVQQLNR       -1.0000     NotChecked  -8.8923     1411.7419   ✗       
+423   LDN+0.984LSALFDLNR       -1.0000     NotChecked  -8.8927     1390.7092   ✗       
+424   GDN+0.984LQ+0.984ALFQLNR -1.0000     NotChecked  -8.8936     1389.6888   ✗       
+425   LDN+0.984LQALFQLNK       -1.0000     NotChecked  -8.8950     1416.7613   ✗       
+426   LDNLC+57.021AVFDLVR      -1.0000     NotChecked  -8.9010     1433.7337   ✗       
+427   LDN+0.984SQ+0.984AVFQLFR -1.0000     NotChecked  -8.9028     1438.7092   ✗       
+428   LDTLQ+0.984ALFQLNR       -1.0000     NotChecked  -8.9058     1431.7722   ✗       
+429   LNLQ+0.984ALFQLFR        -1.0000     NotChecked  -8.9070     1362.7660   ✗       
+430   LDN+0.984LSAVFQLNR       -1.0000     NotChecked  -8.9073     1389.7252   ✗       
+431   LDN+0.984LC+57.021ALFQLVR-1.0000     NotChecked  -8.9095     1461.7650   ✗       
+432   LDNSC+57.021ALFQLNR      -1.0000     NotChecked  -8.9107     1449.7034   ✗       
+433   LDDLQALFQLNR             -1.0000     NotChecked  -8.9130     1444.7674   ✗       
+434   LDLLC+57.021ALFQLVR      -1.0000     NotChecked  -8.9137     1459.8221   ✗       
+435   LDN+0.984SQALFDLNR       -1.0000     NotChecked  -8.9142     1405.6838   ✗       
+436   LDN+0.984LC+57.021ALEQLNR-1.0000     NotChecked  -8.9153     1458.7137   ✗       
+437   LDN+0.984LAALFQLFR       -1.0000     NotChecked  -8.9160     1420.7715   ✗       
+438   LDNLQ+0.984ALFELNR       -1.0000     NotChecked  -8.9183     1445.7514   ✗       
+439   LDN+0.984SQ+0.984ALFQLVR -1.0000     NotChecked  -8.9186     1404.7249   ✗       
+440   LDN+0.984LQALFQLGR       -1.0000     NotChecked  -8.9190     1387.7460   ✗       
+441   LDNLQALFQLFK             -1.0000     NotChecked  -8.9285     1448.8028   ✗       
+442   LDN+0.984SQAVFQLNR       -1.0000     NotChecked  -8.9288     1404.6997   ✗       
+443   LDN+0.984LQ+0.984ALFQLLR -1.0000     NotChecked  -8.9327     1444.7926   ✗       
+444   LNLQALFQLNR              -1.0000     NotChecked  -8.9330     1328.7565   ✗       
+445   LDNLC+57.021ALFTLNR      -1.0000     NotChecked  -8.9390     1448.7446   ✗       
+446   LDLLC+57.021ALFDLNR      -1.0000     NotChecked  -8.9428     1461.7650   ✗       
+447   LDDLQ+0.984ALFQLNR       -1.0000     NotChecked  -8.9465     1445.7514   ✗       
+448   LDN+0.984LQAVFDLFR       -1.0000     NotChecked  -8.9475     1450.7456   ✗       
+449   LDNLC+57.021ALFQLVR      -1.0000     NotChecked  -8.9476     1460.7810   ✗       
+450   LDN+0.984SQ+0.984ALFDLNR -1.0000     NotChecked  -8.9477     1406.6678   ✗       
+451   LDNLEALFQLNR             -1.0000     NotChecked  -8.9500     1444.7674   ✗       
+452   LDN+0.984LQ+0.984ALFQLGR -1.0000     NotChecked  -8.9525     1388.7300   ✗       
+453   LDNSC+57.021ALFQLNR      -1.0000     NotChecked  -8.9534     1449.7034   ✗       
+454   LDLLC+57.021AVFQLNR      -1.0000     NotChecked  -8.9574     1460.7810   ✗       
+455   LDNLC+57.021ALFQLVR      -1.0000     NotChecked  -8.9598     1460.7810   ✗       
+456   LDNLQ+0.984ALFQLFK       -1.0000     NotChecked  -8.9620     1449.7868   ✗       
+457   LDN+0.984SQ+0.984AVFQLNR -1.0000     NotChecked  -8.9623     1405.6838   ✗       
+458   LDN+0.984LQALFDLVR       -1.0000     NotChecked  -8.9633     1416.7613   ✗       
+459   LDNLQ+0.984ALFLLNR       -1.0000     NotChecked  -8.9659     1429.7929   ✗       
+460   LDN+0.984LC+57.021ALQ+0.984QLNR-1.0000     NotChecked  -8.9770     1458.7137   ✗       
+461   LDN+0.984LQAVFQLVR       -1.0000     NotChecked  -8.9779     1415.7773   ✗       
+462   LDNLC+57.021AVFQLNR      -1.0000     NotChecked  -8.9793     1461.7398   ✗       
+463   LDN+0.984LQ+0.984AVFDLFR -1.0000     NotChecked  -8.9810     1451.7296   ✗       
+464   LDNSQ+0.984ALFDLFR       -1.0000     NotChecked  -8.9812     1438.7092   ✗       
+465   LDNLSALFDLNR             -1.0000     NotChecked  -8.9857     1389.7252   ✗       
+466   GDNLQ+0.984ALFQLNR       -1.0000     NotChecked  -8.9866     1388.7048   ✗       
+467   LDNLQALFQLNK             -1.0000     NotChecked  -8.9880     1415.7773   ✗       
+468   LDNLC+57.021AVFQLNR      -1.0000     NotChecked  -8.9913     1461.7398   ✗       
+469   LDN+0.984LQ+0.984ALFQGNR -1.0000     NotChecked  -8.9927     1389.6888   ✗       
+470   LDNSQ+0.984AVFQLFR       -1.0000     NotChecked  -8.9958     1437.7252   ✗       
+471   LDN+0.984LQ+0.984ALFDLVR -1.0000     NotChecked  -8.9968     1417.7453   ✗       
+472   LDNLSAVFQLNR             -1.0000     NotChecked  -9.0003     1388.7412   ✗       
+473   LDNLC+57.021ALFQLVR      -1.0000     NotChecked  -9.0025     1460.7810   ✗       
+474   LDN+0.984LQ+0.984ALYQLNR -1.0000     NotChecked  -9.0034     1461.7464   ✗       
+475   LDN+0.984LC+57.021AVQQ+0.984LNR-1.0000     NotChecked  -9.0055     1444.6980   ✗       
+476   LDN+0.984LQAVFDLNR       -1.0000     NotChecked  -9.0070     1417.7201   ✗       
+477   LDNSQALFDLNR             -1.0000     NotChecked  -9.0072     1404.6997   ✗       
+478   LDNLC+57.021ALEQLNR      -1.0000     NotChecked  -9.0083     1457.7297   ✗       
+479   LDNLAALFQLFR             -1.0000     NotChecked  -9.0090     1419.7874   ✗       
+480   LDN+0.984LQ+0.984AVFQLVR -1.0000     NotChecked  -9.0114     1416.7613   ✗       
+481   LDNSQ+0.984ALFQLVR       -1.0000     NotChecked  -9.0116     1403.7409   ✗       
+482   LDNLQALFQLGR             -1.0000     NotChecked  -9.0120     1386.7619   ✗       
+483   LDSLC+57.021ALFDLNR      -1.0000     NotChecked  -9.0122     1435.7130   ✗       
+484   LDN+0.984LC+57.021ALFQLNK-1.0000     NotChecked  -9.0188     1448.7334   ✗       
+485   LN+0.984NLC+57.021AVFQLNR-1.0000     NotChecked  -9.0198     1461.7398   ✗       
+486   LDNSQAVFQLNR             -1.0000     NotChecked  -9.0218     1403.7157   ✗       
+487   +42.011DN+0.984LC+57.021ALFQLFR-1.0000     NotChecked  -9.0244     1438.6915   ✗       
+488   LDNLQ+0.984ALFQLLR       -1.0000     NotChecked  -9.0257     1443.8086   ✗       
+489   LDSLC+57.021AVFQLNR      -1.0000     NotChecked  -9.0268     1434.7289   ✗       
+490   LDGLC+57.021ALFQLFR      -1.0000     NotChecked  -9.0404     1451.7595   ✗       
+491   LDNLQAVFDLFR             -1.0000     NotChecked  -9.0405     1449.7616   ✗       
+492   LDNSQ+0.984ALFDLNR       -1.0000     NotChecked  -9.0407     1405.6838   ✗       
+493   LDN+0.984LQALFQLNR       -1.0000     NotChecked  -9.0416     1444.7674   ✗       
+494   LDNLQ+0.984ALFQLGR       -1.0000     NotChecked  -9.0455     1387.7460   ✗       
+495   LDNLC+57.021AVFQLNR      -1.0000     NotChecked  -9.0462     1461.7398   ✗       
+496   LDN+0.984LQALFQLNR       -1.0000     NotChecked  -9.0536     1444.7674   ✗       
+497   LDNSQ+0.984AVFQLNR       -1.0000     NotChecked  -9.0553     1404.6997   ✗       
+498   LDNLQALFDLVR             -1.0000     NotChecked  -9.0563     1415.7773   ✗       
+499   LDN+0.984LQ+0.984ALFQ+0.984LNR-1.0000     NotChecked  -9.0665     1446.7355   ✗       
+500   LDN+0.984LC+57.021ALFDANR-1.0000     NotChecked  -9.0694     1421.6609   ✗       
+501   LDNLC+57.021ALQ+0.984QLNR-1.0000     NotChecked  -9.0700     1457.7297   ✗       
+502   LDNLQAVFQLVR             -1.0000     NotChecked  -9.0709     1414.7932   ✗       
+503   LDNLQ+0.984AVFDLFR       -1.0000     NotChecked  -9.0740     1450.7456   ✗       
+504   LDN+0.984LQ+0.984ALFQLNR -1.0000     NotChecked  -9.0751     1445.7514   ✗       
+505   LDN+0.984LQ+0.984ALQQLNR -1.0000     NotChecked  -9.0784     1426.7416   ✗       
+506   LN+0.984LC+57.021ALFQ+0.984LNR-1.0000     NotChecked  -9.0797     1362.6966   ✗       
+507   LN+0.984N+0.984LQALFQLNR -1.0000     NotChecked  -9.0821     1444.7674   ✗       
+508   LDN+0.984LC+57.021AVFQANR-1.0000     NotChecked  -9.0840     1420.6769   ✗       
+509   LDNLQ+0.984ALFQGNR       -1.0000     NotChecked  -9.0857     1388.7048   ✗       
+510   LDNLQ+0.984ALFDLVR       -1.0000     NotChecked  -9.0898     1416.7613   ✗       
+511   LN+0.984LC+57.021ALQQLNR -1.0000     NotChecked  -9.0916     1342.7027   ✗       
+512   LLN+0.984LQ+0.984ALFDLNR -1.0000     NotChecked  -9.0937     1430.7769   ✗       
+513   LDNLQ+0.984ALYQLNR       -1.0000     NotChecked  -9.0964     1460.7623   ✗       
+514   LDNLC+57.021AVQQ+0.984LNR-1.0000     NotChecked  -9.0985     1443.7140   ✗       
+515   LDGLC+57.021ALFQLNR      -1.0000     NotChecked  -9.1000     1418.7340   ✗       
+516   LDNLQAVFDLNR             -1.0000     NotChecked  -9.1000     1416.7361   ✗       
+517   LDNLQ+0.984AVFQLVR       -1.0000     NotChecked  -9.1044     1415.7773   ✗       
+518   LLN+0.984LQ+0.984AVFQLNR -1.0000     NotChecked  -9.1083     1429.7929   ✗       
+519   LDN+0.984LQALFQLNR       -1.0000     NotChecked  -9.1085     1444.7674   ✗       
+520   LDNLC+57.021ALFQLNK      -1.0000     NotChecked  -9.1118     1447.7493   ✗       
+521   LDALC+57.021ALFQLNR      -1.0000     NotChecked  -9.1122     1432.7497   ✗       
+522   LDLLQALFQLNR             -1.0000     NotChecked  -9.1127     1442.8245   ✗       
+523   LN+0.984N+0.984LQ+0.984ALFQLNR-1.0000     NotChecked  -9.1156     1445.7514   ✗       
+524   +42.011DNLC+57.021ALFQLFR-1.0000     NotChecked  -9.1174     1437.7075   ✗       
+525   LDTLC+57.021ALQQLNR      -1.0000     NotChecked  -9.1239     1443.7504   ✗       
+526   LDN+0.984LC+57.021LFQLFR -1.0000     NotChecked  -9.1270     1438.7279   ✗       
+527   LDN+0.984LC+57.021AVFDLNR-1.0000     NotChecked  -9.1308     1449.6922   ✗       
+528   LDNLQALFQLNR             -1.0000     NotChecked  -9.1346     1443.7834   ✗       
+529   LDN+0.984LC+57.021ALFQ+0.984LNK-1.0000     NotChecked  -9.1347     1449.7174   ✗       
+530   LDN+0.984LQ+0.984ALQQ+0.984LFR-1.0000     NotChecked  -9.1348     1460.7511   ✗       
+531   LDN+0.984AC+57.021ALFQLNR-1.0000     NotChecked  -9.1390     1434.6926   ✗       
+532   LDNLQALFQLNR             -1.0000     NotChecked  -9.1466     1443.7834   ✗       
+533   LDN+0.984LC+57.021ALQQLNK-1.0000     NotChecked  -9.1466     1429.7235   ✗       
+534   LDN+0.984LQ+0.984ALFDLNK -1.0000     NotChecked  -9.1487     1404.7137   ✗       
+535   +43.006DN+0.984LQ+0.984ALFQLNR-1.0000     NotChecked  -9.1544     1375.6732   ✗       
+536   LDSLQ+0.984ALFQLFR       -1.0000     NotChecked  -9.1561     1450.7820   ✗       
+537   LDN+0.984LC+57.021ALFQ+0.984LGR-1.0000     NotChecked  -9.1587     1420.7021   ✗       
+538   LDNLQ+0.984ALFQ+0.984LNR -1.0000     NotChecked  -9.1595     1445.7514   ✗       
+539   LDN+0.984LQALQQ+0.984LNR -1.0000     NotChecked  -9.1608     1426.7416   ✗       
+540   LDNLC+57.021ALFDANR      -1.0000     NotChecked  -9.1624     1420.6769   ✗       
+541   LDN+0.984LQ+0.984AVFQLNK -1.0000     NotChecked  -9.1634     1403.7296   ✗       
+542   LDDLC+57.021ALQQLNR      -1.0000     NotChecked  -9.1646     1457.7297   ✗       
+543   LDN+0.984SC+57.021ALQDLNR-1.0000     NotChecked  -9.1658     1418.6460   ✗       
+544   LDNLQ+0.984ALFQLNR       -1.0000     NotChecked  -9.1681     1444.7674   ✗       
+545   LDN+0.984SC+57.021AVFQ+0.984LNR-1.0000     NotChecked  -9.1686     1437.6558   ✗       
+546   LDN+0.984LC+57.021ALQQLGR-1.0000     NotChecked  -9.1706     1400.7082   ✗       
+547   LDNLQ+0.984ALQQLNR       -1.0000     NotChecked  -9.1714     1425.7576   ✗       
+548   LDN+0.984LC+57.021ALFQGFR-1.0000     NotChecked  -9.1723     1453.7024   ✗       
+549   LNLC+57.021ALFQ+0.984LNR -1.0000     NotChecked  -9.1727     1361.7126   ✗       
+550   LN+0.984NLQALFQLNR       -1.0000     NotChecked  -9.1751     1443.7834   ✗       
+551   LDNLC+57.021AVFQANR      -1.0000     NotChecked  -9.1770     1419.6929   ✗       
+552   LDNLC+57.021ALQQLFK      -1.0000     NotChecked  -9.1801     1461.7650   ✗       
+553   LDN+0.984SC+57.021AVQQLNR-1.0000     NotChecked  -9.1804     1417.6620   ✗       
+554   LDSLQALFQLNR             -1.0000     NotChecked  -9.1821     1416.7725   ✗       
+555   LNLC+57.021ALQQLNR       -1.0000     NotChecked  -9.1846     1341.7187   ✗       
+556   LDN+0.984LC+57.021ALFQLSR-1.0000     NotChecked  -9.1852     1449.7286   ✗       
+557   LDN+0.984LC+57.021LFQLNR -1.0000     NotChecked  -9.1865     1405.7024   ✗       
+558   LLNLQ+0.984ALFDLNR       -1.0000     NotChecked  -9.1867     1429.7929   ✗       
+559   LDN+0.984LC+57.021ALFQLAR-1.0000     NotChecked  -9.1877     1433.7337   ✗       
+560   LDN+0.984LQ+0.984ALQQ+0.984LNR-1.0000     NotChecked  -9.1943     1427.7256   ✗       
+561   LDN+0.984LAALFDLNR       -1.0000     NotChecked  -9.1958     1374.7143   ✗       
+562   LLNLQ+0.984AVFQLNR       -1.0000     NotChecked  -9.2013     1428.8089   ✗       
+563   LDNLQALFQLNR             -1.0000     NotChecked  -9.2015     1443.7834   ✗       
+564   LN+0.984NLQ+0.984ALFQLNR -1.0000     NotChecked  -9.2086     1444.7674   ✗       
+565   LDN+0.984LAAVFQLNR       -1.0000     NotChecked  -9.2104     1373.7303   ✗       
+566   LDN+0.984LQ+0.984ALFQAFR -1.0000     NotChecked  -9.2133     1436.7300   ✗       
+567   LDN+0.984LC+57.021ALQDLVR-1.0000     NotChecked  -9.2149     1429.7235   ✗       
+568   LDSLQ+0.984ALFQLNR       -1.0000     NotChecked  -9.2156     1417.7565   ✗       
+569   LDN+0.984LC+57.021AVFQ+0.984LVR-1.0000     NotChecked  -9.2176     1448.7334   ✗       
+570   LDNLC+57.021LFQLFR       -1.0000     NotChecked  -9.2200     1437.7439   ✗       
+571   LDNLC+57.021AVFDLNR      -1.0000     NotChecked  -9.2238     1448.7082   ✗       
+572   LDNLC+57.021ALFQ+0.984LNK-1.0000     NotChecked  -9.2277     1448.7334   ✗       
+573   LDNLQ+0.984ALQQ+0.984LFR -1.0000     NotChecked  -9.2278     1459.7671   ✗       
+574   LDN+0.984LC+57.021AVQQLVR-1.0000     NotChecked  -9.2295     1428.7395   ✗       
+575   LDNAC+57.021ALFQLNR      -1.0000     NotChecked  -9.2320     1433.7085   ✗       
+576   LDN+0.984LQALFQANR       -1.0000     NotChecked  -9.2393     1402.7205   ✗       
+577   LDNLC+57.021ALQQLNK      -1.0000     NotChecked  -9.2396     1428.7395   ✗       
+578   LDN+0.984SQ+0.984ALFQLNR -1.0000     NotChecked  -9.2414     1419.6994   ✗       
+579   LDNLQ+0.984ALFDLNK       -1.0000     NotChecked  -9.2417     1403.7296   ✗       
+580   +43.006DNLQ+0.984ALFQLNR -1.0000     NotChecked  -9.2474     1374.6892   ✗       
+581   LDN+0.984SC+57.021ALFQLFK-1.0000     NotChecked  -9.2501     1455.7068   ✗       
+582   LDNLC+57.021ALFQ+0.984LGR-1.0000     NotChecked  -9.2517     1419.7180   ✗       
+583   LDNLQALQQ+0.984LNR       -1.0000     NotChecked  -9.2538     1425.7576   ✗       
+584   LN+0.984SC+57.021ALFQLNR -1.0000     NotChecked  -9.2546     1335.6605   ✗       
+585   LDNLQ+0.984AVFQLNK       -1.0000     NotChecked  -9.2563     1402.7456   ✗       
+586   LDN+0.984LC+57.021AVQDLNR-1.0000     NotChecked  -9.2586     1430.6824   ✗       
+587   LDNSC+57.021ALQDLNR      -1.0000     NotChecked  -9.2588     1417.6620   ✗       
+588   LDNSC+57.021AVFQ+0.984LNR-1.0000     NotChecked  -9.2615     1436.6718   ✗       
+589   LDNLC+57.021ALQQLGR      -1.0000     NotChecked  -9.2636     1399.7242   ✗       
+590   LDNLC+57.021ALFQGFR      -1.0000     NotChecked  -9.2653     1452.7184   ✗       
+591   LDN+0.984LQ+0.984ALFTLNR -1.0000     NotChecked  -9.2697     1418.7405   ✗       
+592   LDN+0.984LQ+0.984ALFQANR -1.0000     NotChecked  -9.2728     1403.7045   ✗       
+593   LN+0.984LC+57.021ALFDLFR -1.0000     NotChecked  -9.2732     1381.7064   ✗       
+594   LDNSC+57.021AVQQLNR      -1.0000     NotChecked  -9.2734     1416.6780   ✗       
+595   LDNLC+57.021ALFQLSR      -1.0000     NotChecked  -9.2782     1448.7446   ✗       
+596   LDNLC+57.021LFQLNR       -1.0000     NotChecked  -9.2795     1404.7184   ✗       
+597   LDNLC+57.021ALFQLAR      -1.0000     NotChecked  -9.2807     1432.7497   ✗       
+598   LDN+0.984LC+57.021ALFALNR-1.0000     NotChecked  -9.2857     1419.7180   ✗       
+599   LDN+0.984LQALFDLNR       -1.0000     NotChecked  -9.2861     1431.7358   ✗       
+600   LDTSC+57.021ALFQLNR      -1.0000     NotChecked  -9.2869     1436.7082   ✗       
+601   LDNLQ+0.984ALQQ+0.984LNR -1.0000     NotChecked  -9.2873     1426.7416   ✗       
+602   LN+0.984LC+57.021AVFQLFR -1.0000     NotChecked  -9.2879     1380.7224   ✗       
+603   LDNLAALFDLNR             -1.0000     NotChecked  -9.2888     1373.7303   ✗       
+604   LDN+0.984LQ+0.984ALFQLVR -1.0000     NotChecked  -9.2905     1430.7769   ✗       
+605   LDN+0.984LC+57.021ALQQLNR-1.0000     NotChecked  -9.2932     1457.7297   ✗       
+606   LDN+0.984SQ+0.984ALFQ+0.984LFR-1.0000     NotChecked  -9.2978     1453.7089   ✗       
+607   LDN+0.984LC+57.021ALAQLNR-1.0000     NotChecked  -9.2985     1400.7082   ✗       
+608   LDN+0.984LQAVFQLNR       -1.0000     NotChecked  -9.3007     1430.7518   ✗       
+609   LDN+0.984LSALFQ+0.984LNR -1.0000     NotChecked  -9.3023     1404.7249   ✗       
+610   LDNLAAVFQLNR             -1.0000     NotChecked  -9.3034     1372.7463   ✗       
+611   LN+0.984LC+57.021ALFQLVR -1.0000     NotChecked  -9.3037     1346.7380   ✗       
+612   LDN+0.984LC+57.021ALQQLNR-1.0000     NotChecked  -9.3052     1457.7297   ✗       
+613   LDN+0.984LC+57.021ALLQLNR-1.0000     NotChecked  -9.3054     1442.7552   ✗       
+614   LDNLQ+0.984ALFQAFR       -1.0000     NotChecked  -9.3063     1435.7460   ✗       
+615   LDN+0.984LQ+0.984ALFDLNR -1.0000     NotChecked  -9.3073     1432.7198   ✗       
+616   LDNLC+57.021ALQDLVR      -1.0000     NotChecked  -9.3079     1428.7395   ✗       
+617   LDN+0.984SC+57.021ALFQLNK-1.0000     NotChecked  -9.3096     1422.6813   ✗       
+618   LDN+0.984SQ+0.984ALQQLFR -1.0000     NotChecked  -9.3097     1433.7151   ✗       
+619   LDNLC+57.021AVFQ+0.984LVR-1.0000     NotChecked  -9.3106     1447.7493   ✗       
+620   LDN+0.984LSALQQLNR       -1.0000     NotChecked  -9.3142     1384.7310   ✗       
+621   LDN+0.984LQ+0.984ALFDLNR -1.0000     NotChecked  -9.3196     1432.7198   ✗       
+622   LDN+0.984LQ+0.984AVFQLNR -1.0000     NotChecked  -9.3219     1431.7358   ✗       
+623   LDNLC+57.021AVQQLVR      -1.0000     NotChecked  -9.3225     1427.7555   ✗       
+624   LDN+0.984SQALFQ+0.984LNR -1.0000     NotChecked  -9.3238     1419.6994   ✗       
+625   LDDSC+57.021ALFQLNR      -1.0000     NotChecked  -9.3276     1450.6875   ✗       
+626   LDNLQALFQANR             -1.0000     NotChecked  -9.3323     1401.7365   ✗       
+627   LDN+0.984SC+57.021ALFQLGR-1.0000     NotChecked  -9.3336     1393.6660   ✗       
+628   LN+0.984N+0.984LC+57.021ALQQLNR-1.0000     NotChecked  -9.3337     1457.7297   ✗       
+629   LDN+0.984LQ+0.984AVFQLNR -1.0000     NotChecked  -9.3342     1431.7358   ✗       
+630   LDNSQ+0.984ALFQLNR       -1.0000     NotChecked  -9.3344     1418.7154   ✗       
+631   LDN+0.984SQALQQLNR       -1.0000     NotChecked  -9.3357     1399.7056   ✗       
+632   LDTLC+57.021ALFQLVR      -1.0000     NotChecked  -9.3360     1447.7857   ✗       
+633   LDNSC+57.021ALFQLFK      -1.0000     NotChecked  -9.3431     1454.7228   ✗       
+634   LDNLLALFQLFR             -1.0000     NotChecked  -9.3436     1461.8344   ✗       
+635   LDN+0.984LC+57.021AVFLLNR-1.0000     NotChecked  -9.3468     1447.7493   ✗       
+636   LNSC+57.021ALFQLNR       -1.0000     NotChecked  -9.3476     1334.6765   ✗       
+637   LDNLC+57.021AVQDLNR      -1.0000     NotChecked  -9.3516     1429.6984   ✗       
+638   GDN+0.984LC+57.021ALFDLNR-1.0000     NotChecked  -9.3528     1407.6453   ✗       
+639   LDN+0.984LQALQDLFR       -1.0000     NotChecked  -9.3544     1445.7514   ✗       
+640   LDN+0.984SQ+0.984ALFQ+0.984LNR-1.0000     NotChecked  -9.3573     1420.6834   ✗       
+641   LDN+0.984LC+57.021ALFQLVK-1.0000     NotChecked  -9.3587     1433.7588   ✗       
+642   LDN+0.984LC+57.021ALQQLNR-1.0000     NotChecked  -9.3601     1457.7297   ✗       
+643   LDN+0.984SC+57.021AVFDLFR-1.0000     NotChecked  -9.3621     1456.6657   ✗       
+644   LDN+0.984LQ+0.984ALFDLNR -1.0000     NotChecked  -9.3622     1432.7198   ✗       
+645   LDNLQ+0.984ALFTLNR       -1.0000     NotChecked  -9.3627     1417.7565   ✗       
+646   LDLLC+57.021ALQQLNR      -1.0000     NotChecked  -9.3643     1455.7868   ✗       
+647   LDTLC+57.021ALFDLNR      -1.0000     NotChecked  -9.3651     1449.7286   ✗       
+648   LDNLQ+0.984ALFQANR       -1.0000     NotChecked  -9.3658     1402.7205   ✗       
+649   LNLC+57.021ALFDLFR       -1.0000     NotChecked  -9.3662     1380.7224   ✗       
+650   LDLLQ+0.984ALFDLNR       -1.0000     NotChecked  -9.3664     1430.7769   ✗       
+651   GDN+0.984LC+57.021AVFQLNR-1.0000     NotChecked  -9.3675     1406.6613   ✗       
+652   LDN+0.984LQAVQQLFR       -1.0000     NotChecked  -9.3690     1444.7674   ✗       
+653   LDN+0.984SQ+0.984ALQQLNR -1.0000     NotChecked  -9.3692     1400.6896   ✗       
+654   LDN+0.984LQALFQ+0.984LVR -1.0000     NotChecked  -9.3729     1430.7769   ✗       
+655   LDDLC+57.021ALFQLVR      -1.0000     NotChecked  -9.3767     1461.7650   ✗       
+656   LDN+0.984LQ+0.984AVFQLNR -1.0000     NotChecked  -9.3769     1431.7358   ✗       
+657   LDN+0.984SC+57.021ALFDLVR-1.0000     NotChecked  -9.3779     1422.6813   ✗       
+658   LDNLC+57.021ALFALNR      -1.0000     NotChecked  -9.3787     1418.7340   ✗       
+659   LDNLQALFDLNR             -1.0000     NotChecked  -9.3791     1430.7518   ✗       
+660   LDTLC+57.021AVFQLNR      -1.0000     NotChecked  -9.3797     1448.7446   ✗       
+661   LNLC+57.021AVFQLFR       -1.0000     NotChecked  -9.3809     1379.7384   ✗       
+662   LDLLQ+0.984AVFQLNR       -1.0000     NotChecked  -9.3810     1429.7929   ✗       
+663   LDNLQ+0.984ALFQLVR       -1.0000     NotChecked  -9.3835     1429.7929   ✗       
+664   LDN+0.984LQALQQLVR       -1.0000     NotChecked  -9.3848     1410.7831   ✗       
+665   LDNLC+57.021ALQQLNR      -1.0000     NotChecked  -9.3862     1456.7456   ✗       
+666   LDN+0.984LQ+0.984ALQDLFR -1.0000     NotChecked  -9.3879     1446.7355   ✗       
+667   LDNSQ+0.984ALFQ+0.984LFR -1.0000     NotChecked  -9.3908     1452.7249   ✗       
+668   LDNLC+57.021ALAQLNR      -1.0000     NotChecked  -9.3915     1399.7242   ✗       
+669   LDN+0.984SC+57.021AVFQLVR-1.0000     NotChecked  -9.3925     1421.6973   ✗       
+670   LDNLQAVFQLNR             -1.0000     NotChecked  -9.3937     1429.7678   ✗       
+671   LDNLSALFQ+0.984LNR       -1.0000     NotChecked  -9.3953     1403.7409   ✗       
+672   LNLC+57.021ALFQLVR       -1.0000     NotChecked  -9.3967     1345.7540   ✗       
+673   LDNLC+57.021ALQQLNR      -1.0000     NotChecked  -9.3982     1456.7456   ✗       
+674   LDNLC+57.021ALLQLNR      -1.0000     NotChecked  -9.3984     1441.7711   ✗       
+675   LDNLQ+0.984ALFDLNR       -1.0000     NotChecked  -9.4003     1431.7358   ✗       
+676   LDN+0.984LQ+0.984ALQ+0.984QLNR-1.0000     NotChecked  -9.4006     1427.7256   ✗       
+677   LDN+0.984LQ+0.984AVQQLFR -1.0000     NotChecked  -9.4025     1445.7514   ✗       
+678   LDNSC+57.021ALFQLNK      -1.0000     NotChecked  -9.4026     1421.6973   ✗       
+679   LDNSQ+0.984ALQQLFR       -1.0000     NotChecked  -9.4027     1432.7310   ✗       
+680   LDN+0.984LQ+0.984ALFQ+0.984LVR-1.0000     NotChecked  -9.4064     1431.7609   ✗       
+681   LDN+0.984LC+57.021AVFQLLR-1.0000     NotChecked  -9.4065     1461.7650   ✗       
+682   LDNLSALQQLNR             -1.0000     NotChecked  -9.4072     1383.7470   ✗       
+683   LDN+0.984LC+57.021ALFDLGR-1.0000     NotChecked  -9.4118     1406.6864   ✗       
+684   LDNLQ+0.984ALFDLNR       -1.0000     NotChecked  -9.4126     1431.7358   ✗       
+685   LDN+0.984LQALQDLNR       -1.0000     NotChecked  -9.4139     1412.7260   ✗       
+686   LDNLQ+0.984AVFQLNR       -1.0000     NotChecked  -9.4149     1430.7518   ✗       
+687   LDN+0.984LQAVFQ+0.984LNR -1.0000     NotChecked  -9.4166     1431.7358   ✗       
+688   LDNSQALFQ+0.984LNR       -1.0000     NotChecked  -9.4168     1418.7154   ✗       
+689   LDN+0.984LQ+0.984ALQQLVR -1.0000     NotChecked  -9.4183     1411.7671   ✗       
+690   LDN+0.984SC+57.021AVFDLNR-1.0000     NotChecked  -9.4216     1423.6402   ✗       
+691   LDSLC+57.021ALFQ+0.984LNR-1.0000     NotChecked  -9.4218     1449.7286   ✗       
+692   LDN+0.984LC+57.021AVFQLGR-1.0000     NotChecked  -9.4264     1405.7024   ✗       
+693   LDNSC+57.021ALFQLGR      -1.0000     NotChecked  -9.4266     1392.6820   ✗       
+694   LN+0.984NLC+57.021ALQQLNR-1.0000     NotChecked  -9.4267     1456.7456   ✗       
+695   LDNLQ+0.984AVFQLNR       -1.0000     NotChecked  -9.4272     1430.7518   ✗       
+696   LDN+0.984LQAVQQLNR       -1.0000     NotChecked  -9.4285     1411.7419   ✗       
+697   LDNSQALQQLNR             -1.0000     NotChecked  -9.4287     1398.7215   ✗       
+698   LDSLC+57.021ALQQLNR      -1.0000     NotChecked  -9.4337     1429.7347   ✗       
+699   LDN+0.984LDALFQLNR       -1.0000     NotChecked  -9.4339     1431.7358   ✗       
+700   LDN+0.984LMALFQLNR       -1.0000     NotChecked  -9.4390     1447.7493   ✗       
+701   LDNLC+57.021AVFLLNR      -1.0000     NotChecked  -9.4398     1446.7653   ✗       
+702   LN+0.984LQALFQLFR        -1.0000     NotChecked  -9.4432     1362.7660   ✗       
+703   GDNLC+57.021ALFDLNR      -1.0000     NotChecked  -9.4458     1406.6612   ✗       
+704   LDNLQALQDLFR             -1.0000     NotChecked  -9.4474     1444.7674   ✗       
+705   LDNSQ+0.984ALFQ+0.984LNR -1.0000     NotChecked  -9.4503     1419.6994   ✗       
+706   LDNLC+57.021ALFQLVK      -1.0000     NotChecked  -9.4517     1432.7748   ✗       
+707   LDN+0.984LC+57.021ALFDGNR-1.0000     NotChecked  -9.4520     1407.6453   ✗       
+708   LDNLC+57.021ALQQLNR      -1.0000     NotChecked  -9.4531     1456.7456   ✗       
+709   LDN+0.984LQ+0.984ALFQLNR -1.0000     NotChecked  -9.4533     1445.7514   ✗       
+710   LDN+0.984LC+57.021ALFSLNR-1.0000     NotChecked  -9.4541     1435.7130   ✗       
+711   LDN+0.984LQALFELNR       -1.0000     NotChecked  -9.4545     1445.7514   ✗       
+712   LDNSC+57.021AVFDLFR      -1.0000     NotChecked  -9.4551     1455.6816   ✗       
+713   LDNLQ+0.984ALFDLNR       -1.0000     NotChecked  -9.4552     1431.7358   ✗       
+714   LLN+0.984LC+57.021ALFQLNK-1.0000     NotChecked  -9.4556     1446.7905   ✗       
+715   LDN+0.984SC+57.021ALFQLNR-1.0000     NotChecked  -9.4562     1450.6875   ✗       
+716   DN+0.984LC+57.021ALFQLNR -1.0000     NotChecked  -9.4568     1363.6554   ✗       
+717   GDNLC+57.021AVFQLNR      -1.0000     NotChecked  -9.4605     1405.6772   ✗       
+718   LDNLQAVQQLFR             -1.0000     NotChecked  -9.4620     1443.7834   ✗       
+719   LDNSQ+0.984ALQQLNR       -1.0000     NotChecked  -9.4622     1399.7056   ✗       
+720   LDNLQALFQ+0.984LVR       -1.0000     NotChecked  -9.4659     1429.7929   ✗       
+721   LDN+0.984LC+57.021AVFQGNR-1.0000     NotChecked  -9.4666     1406.6613   ✗       
+722   LDNLQ+0.984AVFQLNR       -1.0000     NotChecked  -9.4698     1430.7518   ✗       
+723   GDN+0.984LQ+0.984ALFQLFR -1.0000     NotChecked  -9.4967     1422.7143   ✗       
+724   +42.011DN+0.984LQ+0.984ALFQLNR-1.0000     NotChecked  -9.5076     1374.6779   ✗       
+725   GDN+0.984LQALFQLNR       -1.0000     NotChecked  -9.5227     1388.7048   ✗       
+726   DNLC+57.021ALFQLNR       -1.0000     NotChecked  -9.5498     1362.6714   ✗       
+727   GDNLQ+0.984ALFQLFR       -1.0000     NotChecked  -9.5897     1421.7303   ✗       
+728   +42.011DNLQ+0.984ALFQLNR -1.0000     NotChecked  -9.6006     1373.6939   ✗       
+729   +43.006DN+0.984LC+57.021ALFDLNR-1.0000     NotChecked  -9.6137     1393.6296   ✗       
+730   GDNLQALFQLNR             -1.0000     NotChecked  -9.6157     1387.7208   ✗       
+731   +43.006DN+0.984LC+57.021AVFQLNR-1.0000     NotChecked  -9.6283     1392.6456   ✗       
+732   +43.006DNLC+57.021ALFDLNR-1.0000     NotChecked  -9.7067     1392.6456   ✗       
+733   +43.006DNLC+57.021AVFQLNR-1.0000     NotChecked  -9.7213     1391.6616   ✗       
+734   +43.006DN+0.984LQ+0.984ALFQLFR-1.0000     NotChecked  -9.7576     1408.6987   ✗       
+735   GDN+0.984LC+57.021ALFQ+0.984LNR-1.0000     NotChecked  -9.7625     1421.6609   ✗       
+736   GDN+0.984LC+57.021ALQQLNR-1.0000     NotChecked  -9.7743     1401.6671   ✗       
+737   +43.006DN+0.984LQALFQLNR -1.0000     NotChecked  -9.7836     1374.6892   ✗       
+738   +43.006DNLQ+0.984ALFQLFR -1.0000     NotChecked  -9.8506     1407.7147   ✗       
+739   GDNLC+57.021ALFQ+0.984LNR-1.0000     NotChecked  -9.8555     1420.6769   ✗       
+740   GDNLC+57.021ALQQLNR      -1.0000     NotChecked  -9.8673     1400.6830   ✗       
+741   +43.006DNLQALFQLNR       -1.0000     NotChecked  -9.8766     1373.7052   ✗       
+742   ADN+0.984LC+57.021ALFQLNR-1.0000     NotChecked  -9.9370     1434.6926   ✗       
+743   GDN+0.984SC+57.021ALFQLNR-1.0000     NotChecked  -9.9373     1394.6249   ✗       
+744   GDN+0.984LC+57.021ALFDLFR-1.0000     NotChecked  -9.9560     1440.6708   ✗       
+745   +42.011DN+0.984LC+57.021ALFDLNR-1.0000     NotChecked  -9.9668     1392.6344   ✗       
+746   GDN+0.984LC+57.021AVFQLFR-1.0000     NotChecked  -9.9706     1439.6867   ✗       
+747   +42.011DN+0.984LC+57.021AVFQLNR-1.0000     NotChecked  -9.9815     1391.6504   ✗       
+748   GDN+0.984LC+57.021ALFQLVR-1.0000     NotChecked  -9.9864     1405.7024   ✗       
+749   +43.006DN+0.984LC+57.021ALFQ+0.984LNR-1.0000     NotChecked  -10.0233    1407.6453   ✗       
+750   ADNLC+57.021ALFQLNR      -1.0000     NotChecked  -10.0300    1433.7085   ✗       
+751   GDNSC+57.021ALFQLNR      -1.0000     NotChecked  -10.0303    1393.6408   ✗       
+752   +43.006DN+0.984LC+57.021ALQQLNR-1.0000     NotChecked  -10.0352    1387.6514   ✗       
+753   GDNLC+57.021ALFDLFR      -1.0000     NotChecked  -10.0490    1439.6867   ✗       
+754   +42.011DNLC+57.021ALFDLNR-1.0000     NotChecked  -10.0598    1391.6504   ✗       
+755   DN+0.984LC+57.021ALFQLFR -1.0000     NotChecked  -10.0600    1396.6809   ✗       
+756   GDNLC+57.021AVFQLFR      -1.0000     NotChecked  -10.0636    1438.7027   ✗       
+757   +42.011DNLC+57.021AVFQLNR-1.0000     NotChecked  -10.0745    1390.6663   ✗       
+758   GDNLC+57.021ALFQLVR      -1.0000     NotChecked  -10.0794    1404.7184   ✗       
+759   +42.011DN+0.984LQ+0.984ALFQLFR-1.0000     NotChecked  -10.1108    1407.7034   ✗       
+760   +43.006DNLC+57.021ALFQ+0.984LNR-1.0000     NotChecked  -10.1163    1406.6613   ✗       
+761   GDN+0.984LQALFQLFR       -1.0000     NotChecked  -10.1259    1421.7303   ✗       
+762   +43.006DNLC+57.021ALQQLNR-1.0000     NotChecked  -10.1282    1386.6674   ✗       
+763   +42.011DN+0.984LQALFQLNR -1.0000     NotChecked  -10.1368    1373.6939   ✗       
+764   DNLC+57.021ALFQLFR       -1.0000     NotChecked  -10.1530    1395.6969   ✗       
+765   +43.006DN+0.984SC+57.021ALFQLNR-1.0000     NotChecked  -10.1982    1380.6092   ✗       
+766   +42.011DNLQ+0.984ALFQLFR -1.0000     NotChecked  -10.2037    1406.7194   ✗       
+767   +43.006DN+0.984LC+57.021ALFDLFR-1.0000     NotChecked  -10.2169    1426.6551   ✗       
+768   GDNLQALFQLFR             -1.0000     NotChecked  -10.2189    1420.7463   ✗       
+769   +42.011DNLQALFQLNR       -1.0000     NotChecked  -10.2297    1372.7099   ✗       
+770   +43.006DN+0.984LC+57.021AVFQLFR-1.0000     NotChecked  -10.2315    1425.6711   ✗       
+771   +43.006DN+0.984LC+57.021ALFQLVR-1.0000     NotChecked  -10.2473    1391.6867   ✗       
+772   +43.006DNSC+57.021ALFQLNR-1.0000     NotChecked  -10.2912    1379.6252   ✗       
+773   GDN+0.984LC+57.021ALFQLNR-1.0000     NotChecked  -10.3092    1420.6769   ✗       
+774   +43.006DNLC+57.021ALFDLFR-1.0000     NotChecked  -10.3099    1425.6711   ✗       
+775   +43.006DNLC+57.021AVFQLFR-1.0000     NotChecked  -10.3245    1424.6871   ✗       
+776   +43.006DNLC+57.021ALFQLVR-1.0000     NotChecked  -10.3403    1390.7027   ✗       
+777   GDN+0.984LC+57.021ALFQ+0.984LFR-1.0000     NotChecked  -10.3656    1454.6864   ✗       
+778   +42.011DN+0.984LC+57.021ALFQ+0.984LNR-1.0000     NotChecked  -10.3765    1406.6500   ✗       
+779   GDN+0.984LC+57.021ALQQLFR-1.0000     NotChecked  -10.3775    1434.6926   ✗       
+780   +43.006DN+0.984LQALFQLFR -1.0000     NotChecked  -10.3868    1407.7147   ✗       
+781   +42.011DN+0.984LC+57.021ALQQLNR-1.0000     NotChecked  -10.3883    1386.6562   ✗       
+782   GDNLC+57.021ALFQLNR      -1.0000     NotChecked  -10.4022    1419.6929   ✗       
+783   GDN+0.984LQ+0.984ALFDLNR -1.0000     NotChecked  -10.4392    1376.6572   ✗       
+784   GDN+0.984LQ+0.984AVFQLNR -1.0000     NotChecked  -10.4538    1375.6732   ✗       
+785   GDNLC+57.021ALFQ+0.984LFR-1.0000     NotChecked  -10.4586    1453.7024   ✗       
+786   +42.011DNLC+57.021ALFQ+0.984LNR-1.0000     NotChecked  -10.4695    1405.6660   ✗       
+787   GDNLC+57.021ALQQLFR      -1.0000     NotChecked  -10.4705    1433.7085   ✗       
+788   +43.006DNLQALFQLFR       -1.0000     NotChecked  -10.4798    1406.7307   ✗       
+789   +42.011DNLC+57.021ALQQLNR-1.0000     NotChecked  -10.4813    1385.6721   ✗       
+790   GDNLQ+0.984ALFDLNR       -1.0000     NotChecked  -10.5322    1375.6732   ✗       
+791   GDN+0.984SC+57.021ALFQLFR-1.0000     NotChecked  -10.5405    1427.6504   ✗       
+792   DN+0.984LQ+0.984ALFQLNR  -1.0000     NotChecked  -10.5432    1332.6674   ✗       
+793   GDNLQ+0.984AVFQLNR       -1.0000     NotChecked  -10.5468    1374.6892   ✗       
+794   +42.011DN+0.984SC+57.021ALFQLNR-1.0000     NotChecked  -10.5514    1379.6140   ✗       
+795   +42.011DN+0.984LC+57.021ALFDLFR-1.0000     NotChecked  -10.5700    1425.6599   ✗       
+796   +43.006DN+0.984LC+57.021ALFQLNR-1.0000     NotChecked  -10.5701    1406.6613   ✗       
+797   +42.011DN+0.984LC+57.021AVFQLFR-1.0000     NotChecked  -10.5846    1424.6758   ✗       
+798   +42.011DN+0.984LC+57.021ALFQLVR-1.0000     NotChecked  -10.6004    1390.6915   ✗       
+799   +43.006DN+0.984LC+57.021ALFQ+0.984LFR-1.0000     NotChecked  -10.6265    1440.6708   ✗       
+800   GDNSC+57.021ALFQLFR      -1.0000     NotChecked  -10.6335    1426.6663   ✗       
+801   DNLQ+0.984ALFQLNR        -1.0000     NotChecked  -10.6361    1331.6834   ✗       
+802   +43.006DN+0.984LC+57.021ALQQLFR-1.0000     NotChecked  -10.6384    1420.6769   ✗       
+803   +42.011DNSC+57.021ALFQLNR-1.0000     NotChecked  -10.6443    1378.6299   ✗       
+804   +42.011DNLC+57.021ALFDLFR-1.0000     NotChecked  -10.6630    1424.6758   ✗       
+805   +43.006DNLC+57.021ALFQLNR-1.0000     NotChecked  -10.6631    1405.6772   ✗       
+806   +42.011DNLC+57.021AVFQLFR-1.0000     NotChecked  -10.6776    1423.6918   ✗       
+807   +42.011DNLC+57.021ALFQLVR-1.0000     NotChecked  -10.6934    1389.7075   ✗       
+808   +43.006DN+0.984LQ+0.984ALFDLNR-1.0000     NotChecked  -10.7000    1362.6416   ✗       
+809   +43.006DN+0.984LQ+0.984AVFQLNR-1.0000     NotChecked  -10.7147    1361.6575   ✗       
+810   +43.006DNLC+57.021ALFQ+0.984LFR-1.0000     NotChecked  -10.7195    1439.6867   ✗       
+811   +43.006DNLC+57.021ALQQLFR-1.0000     NotChecked  -10.7314    1419.6929   ✗       
+812   +42.011DN+0.984LQALFQLFR -1.0000     NotChecked  -10.7399    1406.7194   ✗       
+813   GLN+0.984LC+57.021ALFQLNR-1.0000     NotChecked  -10.7460    1418.7340   ✗       
+814   +43.006DNLQ+0.984ALFDLNR -1.0000     NotChecked  -10.7930    1361.6575   ✗       
+815   GDN+0.984LC+57.021ALFQLNK-1.0000     NotChecked  -10.8010    1392.6708   ✗       
+816   +43.006DN+0.984SC+57.021ALFQLFR-1.0000     NotChecked  -10.8014    1413.6347   ✗       
+817   +43.006DNLQ+0.984AVFQLNR -1.0000     NotChecked  -10.8077    1360.6735   ✗       
+818   +42.011DNLQALFQLFR       -1.0000     NotChecked  -10.8329    1405.7354   ✗       
+819   GLNLC+57.021ALFQLNR      -1.0000     NotChecked  -10.8390    1417.7500   ✗       
+820   GDN+0.984LQ+0.984ALFQ+0.984LNR-1.0000     NotChecked  -10.8488    1390.6729   ✗       
+821   GDN+0.984LQ+0.984ALQQLNR -1.0000     NotChecked  -10.8607    1370.6790   ✗       
+822   GDNLC+57.021ALFQLNK      -1.0000     NotChecked  -10.8940    1391.6867   ✗       
+823   +43.006DNSC+57.021ALFQLFR-1.0000     NotChecked  -10.8944    1412.6507   ✗       
+824   GDN+0.984LC+57.021ALFQLFR-1.0000     NotChecked  -10.9124    1453.7024   ✗       
+825   GDN+0.984LC+57.021AVFDLNR-1.0000     NotChecked  -10.9130    1393.6296   ✗       
+826   +42.011DN+0.984LC+57.021ALFQLNR-1.0000     NotChecked  -10.9232    1405.6660   ✗       
+827   GDNLQ+0.984ALFQ+0.984LNR -1.0000     NotChecked  -10.9418    1389.6888   ✗       
+828   GDNLQ+0.984ALQQLNR       -1.0000     NotChecked  -10.9537    1369.6950   ✗       
+829   GDN+0.984LC+57.021ALFQLNR-1.0000     NotChecked  -10.9596    1420.6769   ✗       
+830   +42.011DN+0.984LC+57.021ALFQ+0.984LFR-1.0000     NotChecked  -10.9796    1439.6755   ✗       
+831   +42.011DN+0.984LC+57.021ALQQLFR-1.0000     NotChecked  -10.9915    1419.6817   ✗       
+832   DN+0.984LC+57.021ALFDLNR -1.0000     NotChecked  -11.0024    1350.6238   ✗       
+833   GDNLC+57.021ALFQLFR      -1.0000     NotChecked  -11.0054    1452.7184   ✗       
+834   GDNLC+57.021AVFDLNR      -1.0000     NotChecked  -11.0060    1392.6456   ✗       
+835   +43.006LN+0.984LC+57.021ALFQLNR-1.0000     NotChecked  -11.0069    1404.7184   ✗       
+836   GDN+0.984LC+57.021ALFQLNR-1.0000     NotChecked  -11.0145    1420.6769   ✗       
+837   +42.011DNLC+57.021ALFQLNR-1.0000     NotChecked  -11.0162    1404.6820   ✗       
+838   DN+0.984LC+57.021AVFQLNR -1.0000     NotChecked  -11.0170    1349.6398   ✗       
+839   GDLLC+57.021ALFQLNR      -1.0000     NotChecked  -11.0187    1418.7340   ✗       
+840   ADN+0.984LQ+0.984ALFQLNR -1.0000     NotChecked  -11.0234    1403.7045   ✗       
+841   GDN+0.984SQ+0.984ALFQLNR -1.0000     NotChecked  -11.0237    1363.6368   ✗       
+842   GDN+0.984LQ+0.984ALFDLFR -1.0000     NotChecked  -11.0423    1409.6827   ✗       
+843   GDNLC+57.021ALFQLNR      -1.0000     NotChecked  -11.0526    1419.6929   ✗       
+844   +42.011DN+0.984LQ+0.984ALFDLNR-1.0000     NotChecked  -11.0532    1361.6463   ✗       
+845   GDN+0.984LQ+0.984AVFQLFR -1.0000     NotChecked  -11.0570    1408.6987   ✗       
+846   +43.006DN+0.984LC+57.021ALFQLNK-1.0000     NotChecked  -11.0619    1378.6551   ✗       
+847   +42.011DN+0.984LQ+0.984AVFQLNR-1.0000     NotChecked  -11.0678    1360.6623   ✗       
+848   GDN+0.984LQALFDLNR       -1.0000     NotChecked  -11.0683    1375.6732   ✗       
+849   +42.011DNLC+57.021ALFQ+0.984LFR-1.0000     NotChecked  -11.0726    1438.6915   ✗       
+850   GDN+0.984LQ+0.984ALFQLVR -1.0000     NotChecked  -11.0728    1374.7143   ✗       
+851   GDN+0.984LQAVFQLNR       -1.0000     NotChecked  -11.0830    1374.6892   ✗       
+852   +42.011DNLC+57.021ALQQLFR-1.0000     NotChecked  -11.0845    1418.6976   ✗       
+853   DNLC+57.021ALFDLNR       -1.0000     NotChecked  -11.0954    1349.6398   ✗       
+854   +43.006LNLC+57.021ALFQLNR-1.0000     NotChecked  -11.0999    1403.7344   ✗       
+855   GDNLC+57.021ALFQLNR      -1.0000     NotChecked  -11.1075    1419.6929   ✗       
+856   +43.006DN+0.984LQ+0.984ALFQ+0.984LNR-1.0000     NotChecked  -11.1097    1376.6572   ✗       
+857   DNLC+57.021AVFQLNR       -1.0000     NotChecked  -11.1100    1348.6558   ✗       
+858   ADNLQ+0.984ALFQLNR       -1.0000     NotChecked  -11.1164    1402.7205   ✗       
+859   GDNSQ+0.984ALFQLNR       -1.0000     NotChecked  -11.1167    1362.6528   ✗       
+860   +43.006DN+0.984LQ+0.984ALQQLNR-1.0000     NotChecked  -11.1215    1356.6634   ✗       
+861   GDNLQ+0.984ALFDLFR       -1.0000     NotChecked  -11.1353    1408.6987   ✗       
+862   +42.011DNLQ+0.984ALFDLNR -1.0000     NotChecked  -11.1462    1360.6623   ✗       
+863   DN+0.984LQ+0.984ALFQLFR  -1.0000     NotChecked  -11.1463    1365.6929   ✗       
+864   GDNLQ+0.984AVFQLFR       -1.0000     NotChecked  -11.1500    1407.7147   ✗       
+865   +42.011DN+0.984SC+57.021ALFQLFR-1.0000     NotChecked  -11.1545    1412.6395   ✗       
+866   +43.006DNLC+57.021ALFQLNK-1.0000     NotChecked  -11.1549    1377.6711   ✗       
+867   +42.011DNLQ+0.984AVFQLNR -1.0000     NotChecked  -11.1608    1359.6783   ✗       
+868   GDNLQALFDLNR             -1.0000     NotChecked  -11.1613    1374.6892   ✗       
+869   GDNLQ+0.984ALFQLVR       -1.0000     NotChecked  -11.1658    1373.7303   ✗       
+870   DN+0.984LQALFQLNR        -1.0000     NotChecked  -11.1723    1331.6834   ✗       
+871   +43.006DN+0.984LC+57.021ALFQLFR-1.0000     NotChecked  -11.1733    1439.6867   ✗       
+872   +43.006DN+0.984LC+57.021AVFDLNR-1.0000     NotChecked  -11.1739    1379.6140   ✗       
+873   GDNLQAVFQLNR             -1.0000     NotChecked  -11.1760    1373.7052   ✗       
+874   +43.006DNLQ+0.984ALFQ+0.984LNR-1.0000     NotChecked  -11.2027    1375.6732   ✗       
+875   LDN+0.984LQ+0.984ALFQLNR -1.0000     NotChecked  -11.2058    1445.7514   ✗       
+876   +43.006DNLQ+0.984ALQQLNR -1.0000     NotChecked  -11.2145    1355.6793   ✗       
+877   +43.006DN+0.984LC+57.021ALFQLNR-1.0000     NotChecked  -11.2205    1406.6613   ✗       
+878   DNLQ+0.984ALFQLFR        -1.0000     NotChecked  -11.2393    1364.7089   ✗       
+879   +42.011DNSC+57.021ALFQLFR-1.0000     NotChecked  -11.2475    1411.6554   ✗       
+880   DNLQALFQLNR              -1.0000     NotChecked  -11.2653    1330.6993   ✗       
+881   +43.006DNLC+57.021ALFQLFR-1.0000     NotChecked  -11.2662    1438.7027   ✗       
+882   +43.006DNLC+57.021AVFDLNR-1.0000     NotChecked  -11.2669    1378.6299   ✗       
+883   +43.006DN+0.984LC+57.021ALFQLNR-1.0000     NotChecked  -11.2754    1406.6613   ✗       
+884   +43.006DLLC+57.021ALFQLNR-1.0000     NotChecked  -11.2796    1404.7184   ✗       
+885   +43.006DN+0.984SQ+0.984ALFQLNR-1.0000     NotChecked  -11.2845    1349.6212   ✗       
+886   LDNLQ+0.984ALFQLNR       -1.0000     NotChecked  -11.2988    1444.7674   ✗       
+887   FDN+0.984LQ+0.984ALQQLNR -1.0000     NotChecked  -11.3005    1460.7260   ✗       
+888   +43.006DN+0.984LQ+0.984ALFDLFR-1.0000     NotChecked  -11.3032    1395.6670   ✗       
+889   +43.006DNLC+57.021ALFQLNR-1.0000     NotChecked  -11.3135    1405.6772   ✗       
+890   +43.006DN+0.984LQ+0.984AVFQLFR-1.0000     NotChecked  -11.3178    1394.6830   ✗       
+891   GDN+0.984LC+57.021ALQDLNR-1.0000     NotChecked  -11.3199    1388.6354   ✗       
+892   GDN+0.984LC+57.021AVFQ+0.984LNR-1.0000     NotChecked  -11.3227    1407.6453   ✗       
+893   +43.006DN+0.984LQALFDLNR -1.0000     NotChecked  -11.3292    1361.6575   ✗       
+894   +43.006DN+0.984LQ+0.984ALFQLVR-1.0000     NotChecked  -11.3336    1360.6987   ✗       
+895   GDN+0.984LC+57.021AVQQLNR-1.0000     NotChecked  -11.3346    1387.6514   ✗       
+896   +43.006DN+0.984LQAVFQLNR -1.0000     NotChecked  -11.3438    1360.6735   ✗       
+897   GLN+0.984LC+57.021ALFQLFR-1.0000     NotChecked  -11.3492    1451.7595   ✗       
+898   +42.011LN+0.984LC+57.021ALFQLNR-1.0000     NotChecked  -11.3600    1403.7231   ✗       
+899   +43.006DNLC+57.021ALFQLNR-1.0000     NotChecked  -11.3684    1405.6772   ✗       
+900   +43.006DNSQ+0.984ALFQLNR -1.0000     NotChecked  -11.3775    1348.6371   ✗       
+901   FDNLQ+0.984ALQQLNR       -1.0000     NotChecked  -11.3935    1459.7419   ✗       
+902   GDN+0.984LQ+0.984ALFQLNR -1.0000     NotChecked  -11.3955    1389.6888   ✗       
+903   +43.006DNLQ+0.984ALFDLFR -1.0000     NotChecked  -11.3962    1394.6830   ✗       
+904   GDN+0.984LC+57.021ALFQLFK-1.0000     NotChecked  -11.4042    1425.6962   ✗       
+905   GLN+0.984LC+57.021ALFQLNR-1.0000     NotChecked  -11.4087    1418.7340   ✗       
+906   +43.006DNLQ+0.984AVFQLFR -1.0000     NotChecked  -11.4108    1393.6990   ✗       
+907   DN+0.984LC+57.021ALFQ+0.984LNR-1.0000     NotChecked  -11.4120    1364.6395   ✗       
+908   GDNLC+57.021ALQDLNR      -1.0000     NotChecked  -11.4129    1387.6514   ✗       
+909   +42.011DN+0.984LC+57.021ALFQLNK-1.0000     NotChecked  -11.4150    1377.6599   ✗       
+910   GDNLC+57.021AVFQ+0.984LNR-1.0000     NotChecked  -11.4157    1406.6612   ✗       
+911   +43.006DNLQALFDLNR       -1.0000     NotChecked  -11.4222    1360.6735   ✗       
+912   DN+0.984LC+57.021ALQQLNR -1.0000     NotChecked  -11.4239    1344.6456   ✗       
+913   +43.006DNLQ+0.984ALFQLVR -1.0000     NotChecked  -11.4266    1359.7147   ✗       
+914   GDNLC+57.021AVQQLNR      -1.0000     NotChecked  -11.4276    1386.6674   ✗       
+915   +43.006DNLQAVFQLNR       -1.0000     NotChecked  -11.4368    1359.6895   ✗       
+916   GDTLC+57.021ALFQLNR      -1.0000     NotChecked  -11.4410    1406.6976   ✗       
+917   GLNLC+57.021ALFQLFR      -1.0000     NotChecked  -11.4422    1450.7755   ✗       
+918   GDN+0.984LQ+0.984ALFQ+0.984LFR-1.0000     NotChecked  -11.4520    1423.6983   ✗       
+919   +42.011LNLC+57.021ALFQLNR-1.0000     NotChecked  -11.4530    1402.7391   ✗       
+920   +42.011DN+0.984LQ+0.984ALFQ+0.984LNR-1.0000     NotChecked  -11.4628    1375.6620   ✗       
+921   FDN+0.984SQ+0.984ALFQLNR -1.0000     NotChecked  -11.4635    1453.6838   ✗       
+922   GDN+0.984LQ+0.984ALQQLFR -1.0000     NotChecked  -11.4638    1403.7045   ✗       
+923   +42.011DN+0.984LQ+0.984ALQQLNR-1.0000     NotChecked  -11.4747    1355.6681   ✗       
+924   GDN+0.984LQALFQ+0.984LNR -1.0000     NotChecked  -11.4780    1389.6888   ✗       
+925   GDDLC+57.021ALFQLNR      -1.0000     NotChecked  -11.4818    1420.6769   ✗       
+926   ADN+0.984LC+57.021ALFDLNR-1.0000     NotChecked  -11.4826    1421.6609   ✗       
+927   GDN+0.984SC+57.021ALFDLNR-1.0000     NotChecked  -11.4829    1381.5932   ✗       
+928   GDN+0.984LC+57.021ALFQLGR-1.0000     NotChecked  -11.4877    1363.6554   ✗       
+929   GDNLQ+0.984ALFQLNR       -1.0000     NotChecked  -11.4885    1388.7048   ✗       
+930   GDN+0.984LQALQQLNR       -1.0000     NotChecked  -11.4898    1369.6950   ✗       
+931   GDNLC+57.021ALFQLFK      -1.0000     NotChecked  -11.4972    1424.7122   ✗       
+932   ADN+0.984LC+57.021AVFQLNR-1.0000     NotChecked  -11.4972    1420.6769   ✗       
+933   GDN+0.984SC+57.021AVFQLNR-1.0000     NotChecked  -11.4976    1380.6092   ✗       
+934   GLNLC+57.021ALFQLNR      -1.0000     NotChecked  -11.5017    1417.7500   ✗       
+935   DNLC+57.021ALFQ+0.984LNR -1.0000     NotChecked  -11.5050    1363.6554   ✗       
+936   +42.011DNLC+57.021ALFQLNK-1.0000     NotChecked  -11.5080    1376.6758   ✗       
+937   GDN+0.984LC+57.021AVFDLFR-1.0000     NotChecked  -11.5162    1426.6551   ✗       
+938   DNLC+57.021ALQQLNR       -1.0000     NotChecked  -11.5169    1343.6616   ✗       
+939   +42.011DN+0.984LC+57.021ALFQLFR-1.0000     NotChecked  -11.5264    1438.6915   ✗       
+940   +42.011DN+0.984LC+57.021AVFDLNR-1.0000     NotChecked  -11.5271    1378.6187   ✗       
+941   GDN+0.984LC+57.021ALFDLVR-1.0000     NotChecked  -11.5320    1392.6708   ✗       
+942   GDNLQ+0.984ALFQ+0.984LFR -1.0000     NotChecked  -11.5450    1422.7143   ✗       
+943   GDN+0.984LC+57.021AVFQLVR-1.0000     NotChecked  -11.5466    1391.6867   ✗       
+944   NDN+0.984LQ+0.984ALFQLNR -1.0000     NotChecked  -11.5517    1446.7103   ✗       
+945   +42.011DNLQ+0.984ALFQ+0.984LNR-1.0000     NotChecked  -11.5558    1374.6779   ✗       
+946   FDNSQ+0.984ALFQLNR       -1.0000     NotChecked  -11.5565    1452.6997   ✗       
+947   GDNLQ+0.984ALQQLFR       -1.0000     NotChecked  -11.5568    1402.7205   ✗       
+948   GDN+0.984LC+57.021ALFQLFR-1.0000     NotChecked  -11.5628    1453.7024   ✗       
+949   +42.011DNLQ+0.984ALQQLNR -1.0000     NotChecked  -11.5677    1354.6841   ✗       
+950   GDNLQALFQ+0.984LNR       -1.0000     NotChecked  -11.5710    1388.7048   ✗       
+951   +42.011DN+0.984LC+57.021ALFQLNR-1.0000     NotChecked  -11.5736    1405.6660   ✗       
+952   ADNLC+57.021ALFDLNR      -1.0000     NotChecked  -11.5756    1420.6769   ✗       
+953   GDNSC+57.021ALFDLNR      -1.0000     NotChecked  -11.5759    1380.6092   ✗       
+954   GDNLC+57.021ALFQLGR      -1.0000     NotChecked  -11.5807    1362.6714   ✗       
+955   +43.006DN+0.984LC+57.021ALQDLNR-1.0000     NotChecked  -11.5808    1374.6198   ✗       
+956   GDNLQALQQLNR             -1.0000     NotChecked  -11.5828    1368.7110   ✗       
+957   +43.006DN+0.984LC+57.021AVFQ+0.984LNR-1.0000     NotChecked  -11.5836    1393.6296   ✗       
+958   DN+0.984SC+57.021ALFQLNR -1.0000     NotChecked  -11.5869    1337.6034   ✗       
+959   ADNLC+57.021AVFQLNR      -1.0000     NotChecked  -11.5902    1419.6929   ✗       
+960   GDNSC+57.021AVFQLNR      -1.0000     NotChecked  -11.5906    1379.6252   ✗       
+961   +43.006DN+0.984LC+57.021AVQQLNR-1.0000     NotChecked  -11.5954    1373.6358   ✗       
+962   DN+0.984LC+57.021ALFDLFR -1.0000     NotChecked  -11.6056    1383.6493   ✗       
+963   GDNLC+57.021AVFDLFR      -1.0000     NotChecked  -11.6092    1425.6711   ✗       
+964   +43.006LN+0.984LC+57.021ALFQLFR-1.0000     NotChecked  -11.6101    1437.7439   ✗       
+965   GDN+0.984LC+57.021ALFQLNR-1.0000     NotChecked  -11.6103    1420.6769   ✗       
+966   GDN+0.984LC+57.021ALFQLFR-1.0000     NotChecked  -11.6177    1453.7024   ✗       
+967   +42.011DNLC+57.021ALFQLFR-1.0000     NotChecked  -11.6194    1437.7075   ✗       
+968   +42.011DNLC+57.021AVFDLNR-1.0000     NotChecked  -11.6200    1377.6347   ✗       
+969   DN+0.984LC+57.021AVFQLFR -1.0000     NotChecked  -11.6202    1382.6653   ✗       
+970   GDLLC+57.021ALFQLFR      -1.0000     NotChecked  -11.6219    1451.7595   ✗       
+971   GDNLC+57.021ALFDLVR      -1.0000     NotChecked  -11.6250    1391.6867   ✗       
+972   ADN+0.984LQ+0.984ALFQLFR -1.0000     NotChecked  -11.6265    1436.7300   ✗       
+973   GDN+0.984SQ+0.984ALFQLFR -1.0000     NotChecked  -11.6268    1396.6623   ✗       
+974   +42.011DN+0.984LC+57.021ALFQLNR-1.0000     NotChecked  -11.6285    1405.6660   ✗       
+975   GDN+0.984LSALFQLNR       -1.0000     NotChecked  -11.6313    1347.6783   ✗       
+976   +42.011DLLC+57.021ALFQLNR-1.0000     NotChecked  -11.6327    1403.7231   ✗       
+977   DN+0.984LC+57.021ALFQLVR -1.0000     NotChecked  -11.6360    1348.6809   ✗       
+978   +42.011DN+0.984SQ+0.984ALFQLNR-1.0000     NotChecked  -11.6377    1348.6259   ✗       
+979   GDNLC+57.021AVFQLVR      -1.0000     NotChecked  -11.6396    1390.7027   ✗       
+980   NDNLQ+0.984ALFQLNR       -1.0000     NotChecked  -11.6447    1445.7263   ✗       
+981   GN+0.984N+0.984LC+57.021ALFQLNR-1.0000     NotChecked  -11.6509    1420.6769   ✗       
+982   ADN+0.984LQALFQLNR       -1.0000     NotChecked  -11.6525    1402.7205   ✗       
+983   GDN+0.984SQALFQLNR       -1.0000     NotChecked  -11.6529    1362.6528   ✗       
+984   GDNLC+57.021ALFQLFR      -1.0000     NotChecked  -11.6558    1452.7184   ✗       
+985   +42.011DN+0.984LQ+0.984ALFDLFR-1.0000     NotChecked  -11.6563    1394.6718   ✗       
+986   +43.006DN+0.984LQ+0.984ALFQLNR-1.0000     NotChecked  -11.6564    1375.6732   ✗       
+987   +43.006DN+0.984LC+57.021ALFQLFK-1.0000     NotChecked  -11.6651    1411.6806   ✗       
+988   +42.011DNLC+57.021ALFQLNR-1.0000     NotChecked  -11.6666    1404.6820   ✗       
+989   +43.006LN+0.984LC+57.021ALFQLNR-1.0000     NotChecked  -11.6696    1404.7184   ✗       
+990   +42.011DN+0.984LQ+0.984AVFQLFR-1.0000     NotChecked  -11.6710    1393.6878   ✗       
+991   GDN+0.984LQALFDLFR       -1.0000     NotChecked  -11.6715    1408.6987   ✗       
+992   +43.006DNLC+57.021ALQDLNR-1.0000     NotChecked  -11.6738    1373.6358   ✗       
+993   +43.006DNLC+57.021AVFQ+0.984LNR-1.0000     NotChecked  -11.6766    1392.6456   ✗       
+994   DNSC+57.021ALFQLNR       -1.0000     NotChecked  -11.6799    1336.6194   ✗       
+995   +42.011DN+0.984LQALFDLNR -1.0000     NotChecked  -11.6823    1360.6623   ✗       
+996   GDN+0.984LQAVFQLFR       -1.0000     NotChecked  -11.6861    1407.7147   ✗       
+997   +42.011DN+0.984LQ+0.984ALFQLVR-1.0000     NotChecked  -11.6868    1359.7034   ✗       
+998   +43.006DNLC+57.021AVQQLNR-1.0000     NotChecked  -11.6884    1372.6517   ✗       
+999   +42.011DN+0.984LQAVFQLNR -1.0000     NotChecked  -11.6970    1359.6783   ✗       
+1000  DNLC+57.021ALFDLFR       -1.0000     NotChecked  -11.6986    1382.6653   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: LDNLC+57.021ALFDLNR
+Similarity: 0.9355
+De Novo Score: -8.9767
+Source: Database
+Correct: ✓
+

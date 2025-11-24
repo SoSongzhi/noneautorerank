@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 165
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 980.9572
+Precursor charge: 2+
+Ground truth: YPIEHGIITNWDDMEK
+Ground truth (normalized): YPIEHGIITNWDDMEK
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 731
+Used for reranking: 731
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 731 (73.1%)
+Database matches: 696 (69.6%)
+Prosit predictions: 7 (0.7%)
+Failed: 28 (2.8%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.9509
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     YPLEHGLLTNWDDMEK         0.9509      Database    -0.9994     1959.9037   ✓       ✓
+2     YPLEHGLLTNWDDMEK         0.9509      Database    -1.8468     1959.9037   ✓       ✓
+3     YPLEHGLLTNWDDMEK         0.9509      Database    -1.8506     1959.9037   ✓       ✓
+4     YPLEHGLLTNWDDMEK         0.9509      Database    -2.6980     1959.9037   ✓       ✓
+5     YPLEHGLLTNWDDMEK         0.9509      Database    -3.3929     1959.9037   ✓       ✓
+6     YPLEHGLLTNWDDMEK         0.9509      Database    -3.7950     1959.9037   ✓       ✓
+7     YPLEHGLLTNWDDMEK         0.9509      Database    -4.2403     1959.9037   ✓       ✓
+8     YPLEHGLLTNWDDMEK         0.9509      Database    -4.2441     1959.9037   ✓       ✓
+9     YPLEHGLLTNWDDMEK         0.9509      Database    -4.3831     1959.9037   ✓       ✓
+10    YPLEHGLLTNWDDMEK         0.9509      Database    -4.6424     1959.9037   ✓       ✓
+11    YPLEHGLLTNWDDMEK         0.9509      Database    -4.6463     1959.9037   ✓       ✓
+12    YPLEHGLLTNWDDMEK         0.9509      Database    -4.6801     1959.9037   ✓       ✓
+13    YPLEHGLLTNWDDMEK         0.9509      Database    -4.8401     1959.9037   ✓       ✓
+14    YPLEHGLLTNWDDMEK         0.9509      Database    -5.0114     1959.9037   ✓       ✓
+15    YPLEHGLLTNWDDMEK         0.9509      Database    -5.0631     1959.9037   ✓       ✓
+16    YPLEHGLLTNWDDMEK         0.9509      Database    -5.0915     1959.9037   ✓       ✓
+17    YPLEHGLLTNWDDMEK         0.9509      Database    -5.2305     1959.9037   ✓       ✓
+18    YPLEHGLLTNWDDMEK         0.9509      Database    -5.2343     1959.9037   ✓       ✓
+19    YPLEHGLLTNWDDMEK         0.9509      Database    -5.4936     1959.9037   ✓       ✓
+20    YPLEHGLLTNWDDMEK         0.9509      Database    -5.5274     1959.9037   ✓       ✓
+21    YPLEHGLLTNWDDMEK         0.9509      Database    -5.5313     1959.9037   ✓       ✓
+22    YPLEHGLLTNWDDMEK         0.9509      Database    -5.6875     1959.9037   ✓       ✓
+23    YPLEHGLLTNWDDMEK         0.9509      Database    -5.6914     1959.9037   ✓       ✓
+24    YPLEHGLLTNWDDMEK         0.9509      Database    -5.8588     1959.9037   ✓       ✓
+25    YPLEHGLLTNWDDMEK         0.9509      Database    -5.8627     1959.9037   ✓       ✓
+26    YPLEHGLLTNWDDMEK         0.9509      Database    -5.9105     1959.9037   ✓       ✓
+27    YPLEHGLLTNWDDMEK         0.9509      Database    -5.9144     1959.9037   ✓       ✓
+28    YPLEHGLLTNWDDMEK         0.9509      Database    -6.0817     1959.9037   ✓       ✓
+29    YPLEHGLLTNWDDMEK         0.9509      Database    -6.1885     1959.9037   ✓       ✓
+30    YPLEHGLLTNWDDMEK         0.9509      Database    -6.3787     1959.9037   ✓       ✓
+31    YPLEHGLLTNWDDMEK         0.9509      Database    -6.5388     1959.9037   ✓       ✓
+32    YPLEHGLLTNWDDMEK         0.9509      Database    -6.7101     1959.9037   ✓       ✓
+33    YPLEHGLLTNWDDMEK         0.9509      Database    -6.7617     1959.9037   ✓       ✓
+34    YPLEHGLLTNWDDMEK         0.9509      Database    -6.7766     1959.9037   ✓       ✓
+35    YPLEHGLLTNWDDMEK         0.9509      Database    -6.9583     1959.9037   ✓       ✓
+36    YPLEHGLLTNWDDMEK         0.9509      Database    -7.0359     1959.9037   ✓       ✓
+37    YPLEHGLLTNWDDMEK         0.9509      Database    -7.0398     1959.9037   ✓       ✓
+38    YPLEHGLLTNWDDMEK         0.9509      Database    -7.0736     1959.9037   ✓       ✓
+39    YPLEHGLLTNWDDMEK         0.9509      Database    -7.1787     1959.9037   ✓       ✓
+40    YPLEHGLLTNWDDMEK         0.9509      Database    -7.2337     1959.9037   ✓       ✓
+41    YPLEHGLLTNWDDMEK         0.9509      Database    -7.4049     1959.9037   ✓       ✓
+42    YPLEHGLLTNWDDMEK         0.9509      Database    -7.4566     1959.9037   ✓       ✓
+43    YPLEHGLLTNWDDMEK         0.9509      Database    -7.4757     1959.9037   ✓       ✓
+44    YPLEHGLLTNWDDMEK         0.9509      Database    -7.5588     1959.9037   ✓       ✓
+45    YPLEHGLLTNWDDMEK         0.9509      Database    -7.6240     1959.9037   ✓       ✓
+46    YPLEHGLLTNWDDMEK         0.9509      Database    -7.6278     1959.9037   ✓       ✓
+47    YPLEHGLLTNWDDMEK         0.9509      Database    -7.6358     1959.9037   ✓       ✓
+48    YPLEHGLLTNWDDMEK         0.9509      Database    -7.8057     1959.9037   ✓       ✓
+49    YPLEHGLLTNWDDMEK         0.9509      Database    -7.8070     1959.9037   ✓       ✓
+50    YPLEHGLLTNWDDMEK         0.9509      Database    -7.8096     1959.9037   ✓       ✓
+51    YPLEHGLLTNWDDMEK         0.9509      Database    -7.8587     1959.9037   ✓       ✓
+52    YPLEHGLLTNWDDMEK         0.9509      Database    -7.8872     1959.9037   ✓       ✓
+53    YPLEHGLLTNWDDMEK         0.9509      Database    -7.9210     1959.9037   ✓       ✓
+54    YPLEHGLLTNWDDMEK         0.9509      Database    -7.9248     1959.9037   ✓       ✓
+55    YPLEHGLLTNWDDMEK         0.9509      Database    -8.0261     1959.9037   ✓       ✓
+56    YPLEHGLLTNWDDMEK         0.9509      Database    -8.0299     1959.9037   ✓       ✓
+57    YPLEHGLLTNWDDMEK         0.9509      Database    -8.0393     1959.9037   ✓       ✓
+58    YPLEHGLLTNWDDMEK         0.9509      Database    -8.0810     1959.9037   ✓       ✓
+59    YPLEHGLLTNWDDMEK         0.9509      Database    -8.0849     1959.9037   ✓       ✓
+60    YPLEHGLLTNWDDMEK         0.9509      Database    -8.2238     1959.9037   ✓       ✓
+61    YPLEHGLLTNWDDMEK         0.9509      Database    -8.2523     1959.9037   ✓       ✓
+62    YPLEHGLLTNWDDMEK         0.9509      Database    -8.2562     1959.9037   ✓       ✓
+63    YPLEHGLLTNWDDMEK         0.9509      Database    -8.3040     1959.9037   ✓       ✓
+64    YPLEHGLLTNWDDMEK         0.9509      Database    -8.3079     1959.9037   ✓       ✓
+65    YPLEHGLLTNWDDMEK         0.9509      Database    -8.3231     1959.9037   ✓       ✓
+66    YPLEHGLLTNWDDMEK         0.9509      Database    -8.3269     1959.9037   ✓       ✓
+67    YPLEHGLLTNWDDMEK         0.9509      Database    -8.3589     1959.9037   ✓       ✓
+68    YPLEHGLLTNWDDMEK         0.9509      Database    -8.3951     1959.9037   ✓       ✓
+69    YPLEHGLLTNWDDMEK         0.9509      Database    -8.4062     1959.9037   ✓       ✓
+70    YPLEHGLLTNWDDMEK         0.9509      Database    -8.4100     1959.9037   ✓       ✓
+71    YPLEHGLLTNWDDMEK         0.9509      Database    -8.4468     1959.9037   ✓       ✓
+72    YPLEHGLLTNWDDMEK         0.9509      Database    -8.4752     1959.9037   ✓       ✓
+73    YPLEHGLLTNWDDMEK         0.9509      Database    -8.4831     1959.9037   ✓       ✓
+74    YPLEHGLLTNWDDMEK         0.9509      Database    -8.4870     1959.9037   ✓       ✓
+75    YPLEHGLLTNWDDMEK         0.9509      Database    -8.5208     1959.9037   ✓       ✓
+76    YPLEHGLLTNWDDMEK         0.9509      Database    -8.6544     1959.9037   ✓       ✓
+77    YPLEHGLLTNWDDMEK         0.9509      Database    -8.6570     1959.9037   ✓       ✓
+78    YPLEHGLLTNWDDMEK         0.9509      Database    -8.6583     1959.9037   ✓       ✓
+79    YPLEHGLLTNWDDMEK         0.9509      Database    -8.6921     1959.9037   ✓       ✓
+80    YPLEHGLLTNWDDMEK         0.9509      Database    -8.7061     1959.9037   ✓       ✓
+81    YPLEHGLLTNWDDMEK         0.9509      Database    -8.7100     1959.9037   ✓       ✓
+82    YPLEHGLLTNWDDMEK         0.9509      Database    -8.7438     1959.9037   ✓       ✓
+83    YPLEHGLLTNWDDMEK         0.9509      Database    -8.7722     1959.9037   ✓       ✓
+84    YPLEHGLLTNWDDMEK         0.9509      Database    -8.8522     1959.9037   ✓       ✓
+85    YPLEHGLLTNWDDMEK         0.9509      Database    -8.8773     1959.9037   ✓       ✓
+86    YPLEHGLLTNWDDMEK         0.9509      Database    -8.8899     1959.9037   ✓       ✓
+87    YPLEHGLLTNWDDMEK         0.9509      Database    -8.8906     1959.9037   ✓       ✓
+88    YPLEHGLLTNWDDMEK         0.9509      Database    -8.9039     1959.9037   ✓       ✓
+89    YPLEHGLLTNWDDMEK         0.9509      Database    -8.9323     1959.9037   ✓       ✓
+90    YPLEHGLLTNWDDMEK         0.9509      Database    -9.0712     1959.9037   ✓       ✓
+91    YPLEHGLLTNWDDMEK         0.9509      Database    -9.0751     1959.9037   ✓       ✓
+92    YPLEHGLLTNWDDMEK         0.9509      Database    -9.0751     1959.9037   ✓       ✓
+93    YPLEHGLLTNWDDMEK         0.9509      Database    -9.1036     1959.9037   ✓       ✓
+94    YPLEHGLLTNWDDMEK         0.9509      Database    -9.1553     1959.9037   ✓       ✓
+95    YPLEHGLLTNWDDMEK         0.9509      Database    -9.1743     1959.9037   ✓       ✓
+96    YPLEHGLLTNWDDMEK         0.9509      Database    -9.2063     1959.9037   ✓       ✓
+97    YPLEHGLLTNWDDMEK         0.9509      Database    -9.2102     1959.9037   ✓       ✓
+98    YPLEHGLLTNWDDMEK         0.9509      Database    -9.2425     1959.9037   ✓       ✓
+99    YPLEHGLLTNWDDMEK         0.9509      Database    -9.2464     1959.9037   ✓       ✓
+100   YPLEHGLLTNWDDMEK         0.9509      Database    -9.2574     1959.9037   ✓       ✓
+101   YPLEHGLLTNWDDMEK         0.9509      Database    -9.2845     1959.9037   ✓       ✓
+102   YPLEHGLLTNWDDMEK         0.9509      Database    -9.2942     1959.9037   ✓       ✓
+103   YPLEHGLLTNWDDMEK         0.9509      Database    -9.2980     1959.9037   ✓       ✓
+104   YPLEHGLLTNWDDMEK         0.9509      Database    -9.3344     1959.9037   ✓       ✓
+105   YPLEHGLLTNWDDMEK         0.9509      Database    -9.3682     1959.9037   ✓       ✓
+106   YPLEHGLLTNWDDMEK         0.9509      Database    -9.3721     1959.9037   ✓       ✓
+107   YPLEHGLLTNWDDMEK         0.9509      Database    -9.5057     1959.9037   ✓       ✓
+108   YPLEHGLLTNWDDMEK         0.9509      Database    -9.5395     1959.9037   ✓       ✓
+109   YPLEHGLLTNWDDMEK         0.9509      Database    -9.5434     1959.9037   ✓       ✓
+110   YPLEHGLLTNWDDMEK         0.9509      Database    -9.5574     1959.9037   ✓       ✓
+111   YPLEHGLLTNWDDMEK         0.9509      Database    -9.5722     1959.9037   ✓       ✓
+112   YPLEHGLLTNWDDMEK         0.9509      Database    -9.5912     1959.9037   ✓       ✓
+113   YPLEHGLLTNWDDMEK         0.9509      Database    -9.5950     1959.9037   ✓       ✓
+114   YPLEHGLLTNWDDMEK         0.9509      Database    -9.6996     1959.9037   ✓       ✓
+115   YPLEHGLLTNWDDMEK         0.9509      Database    -9.7034     1959.9037   ✓       ✓
+116   YPLEHGLLTNWDDMEK         0.9509      Database    -9.7373     1959.9037   ✓       ✓
+117   YPLEHGLLTNWDDMEK         0.9509      Database    -9.7412     1959.9037   ✓       ✓
+118   YPLEHGLLTNWDDMEK         0.9509      Database    -9.7512     1959.9037   ✓       ✓
+119   YPLEHGLLTNWDDMEK         0.9509      Database    -9.7551     1959.9037   ✓       ✓
+120   YPLEHGLLTNWDDMEK         0.9509      Database    -9.8692     1959.9037   ✓       ✓
+121   YPLEHGLLTNWDDMEK         0.9509      Database    -9.9225     1959.9037   ✓       ✓
+122   YPLEHGLLTNWDDMEK         0.9509      Database    -9.9225     1959.9037   ✓       ✓
+123   YPLEHGLLTNWDDMEK         0.9509      Database    -9.9264     1959.9037   ✓       ✓
+124   YPLEHGLLTNWDDMEK         0.9509      Database    -9.9523     1959.9037   ✓       ✓
+125   YPLEHGLLTNWDDMEK         0.9509      Database    -10.0293    1959.9037   ✓       ✓
+126   YPLEHGLLTNWDDMEK         0.9509      Database    -10.0576    1959.9037   ✓       ✓
+127   YPLEHGLLTNWDDMEK         0.9509      Database    -10.0938    1959.9037   ✓       ✓
+128   YPLEHGLLTNWDDMEK         0.9509      Database    -10.1319    1959.9037   ✓       ✓
+129   YPLEHGLLTNWDDMEK         0.9509      Database    -10.1357    1959.9037   ✓       ✓
+130   YPLEHGLLTNWDDMEK         0.9509      Database    -10.1454    1959.9037   ✓       ✓
+131   YPLEHGLLTNWDDMEK         0.9509      Database    -10.2005    1959.9037   ✓       ✓
+132   YPLEHGLLTNWDDMEK         0.9509      Database    -10.2195    1959.9037   ✓       ✓
+133   YPLEHGLLTNWDDMEK         0.9509      Database    -10.2522    1959.9037   ✓       ✓
+134   YPLEHGLLTNWDDMEK         0.9509      Database    -10.3420    1959.9037   ✓       ✓
+135   YPLEHGLLTNWDDMEK         0.9509      Database    -10.3544    1959.9037   ✓       ✓
+136   YPLEHGLLTNWDDMEK         0.9509      Database    -10.3907    1959.9037   ✓       ✓
+137   YPLEHGLLTNWDDMEK         0.9509      Database    -10.4196    1959.9037   ✓       ✓
+138   YPLEHGLLTNWDDMEK         0.9509      Database    -10.4235    1959.9037   ✓       ✓
+139   YPLEHGLLTNWDDMEK         0.9509      Database    -10.4329    1959.9037   ✓       ✓
+140   YPLEHGLLTNWDDMEK         0.9509      Database    -10.4424    1959.9037   ✓       ✓
+141   YPLEHGLLTNWDDMEK         0.9509      Database    -10.5508    1959.9037   ✓       ✓
+142   YPLEHGLLTNWDDMEK         0.9509      Database    -10.5885    1959.9037   ✓       ✓
+143   YPLEHGLLTNWDDMEK         0.9509      Database    -10.6025    1959.9037   ✓       ✓
+144   YPLEHGLLTNWDDMEK         0.9509      Database    -10.6174    1959.9037   ✓       ✓
+145   YPLEHGLLTNWDDMEK         0.9509      Database    -10.6327    1959.9037   ✓       ✓
+146   YPLEHGLLTNWDDMEK         0.9509      Database    -10.6390    1959.9037   ✓       ✓
+147   YPLEHGLLTNWDDMEK         0.9509      Database    -10.7166    1959.9037   ✓       ✓
+148   YPLEHGLLTNWDDMEK         0.9509      Database    -10.7204    1959.9037   ✓       ✓
+149   YPLEHGLLTNWDDMEK         0.9509      Database    -10.7246    1959.9037   ✓       ✓
+150   YPLEHGLLTNWDDMEK         0.9509      Database    -10.7524    1959.9037   ✓       ✓
+151   YPLEHGLLTNWDDMEK         0.9509      Database    -10.7738    1959.9037   ✓       ✓
+152   YPLEHGLLTNWDDMEK         0.9509      Database    -10.7886    1959.9037   ✓       ✓
+153   YPLEHGLLTNWDDMEK         0.9509      Database    -10.7991    1959.9037   ✓       ✓
+154   YPLEHGLLTNWDDMEK         0.9509      Database    -10.7997    1959.9037   ✓       ✓
+155   YPLEHGLLTNWDDMEK         0.9509      Database    -10.8036    1959.9037   ✓       ✓
+156   YPLEHGLLTNWDDMEK         0.9509      Database    -10.8350    1959.9037   ✓       ✓
+157   YPLEHGLLTNWDDMEK         0.9509      Database    -10.8403    1959.9037   ✓       ✓
+158   YPLEHGLLTNWDDMEK         0.9509      Database    -10.8767    1959.9037   ✓       ✓
+159   YPLEHGLLTNWDDMEK         0.9509      Database    -10.8805    1959.9037   ✓       ✓
+160   YPLEHGLLTNWDDMEK         0.9509      Database    -10.9143    1959.9037   ✓       ✓
+161   YPLEHGLLTNWDDMEK         0.9509      Database    -10.9425    1959.9037   ✓       ✓
+162   YPLEHGLLTNWDDMEK         0.9509      Database    -10.9703    1959.9037   ✓       ✓
+163   YPLEHGLLTNWDDMEK         0.9509      Database    -10.9831    1959.9037   ✓       ✓
+164   YPLEHGLLTNWDDMEK         0.9509      Database    -11.0195    1959.9037   ✓       ✓
+165   YPLEHGLLTNWDDMEK         0.9509      Database    -11.0220    1959.9037   ✓       ✓
+166   YPLEHGLLTNWDDMEK         0.9509      Database    -11.0479    1959.9037   ✓       ✓
+167   YPLEHGLLTNWDDMEK         0.9509      Database    -11.0518    1959.9037   ✓       ✓
+168   YPLEHGLLTNWDDMEK         0.9509      Database    -11.0856    1959.9037   ✓       ✓
+169   YPLEHGLLTNWDDMEK         0.9509      Database    -11.0996    1959.9037   ✓       ✓
+170   YPLEHGLLTNWDDMEK         0.9509      Database    -11.1035    1959.9037   ✓       ✓
+171   YPLEHGLLTNWDDMEK         0.9509      Database    -11.1373    1959.9037   ✓       ✓
+172   YPLEHGLLTNWDDMEK         0.9509      Database    -11.1545    1959.9037   ✓       ✓
+173   YPLEHGLLTNWDDMEK         0.9509      Database    -11.1894    1959.9037   ✓       ✓
+174   YPLEHGLLTNWDDMEK         0.9509      Database    -11.1907    1959.9037   ✓       ✓
+175   YPLEHGLLTNWDDMEK         0.9509      Database    -11.1933    1959.9037   ✓       ✓
+176   YPLEHGLLTNWDDMEK         0.9509      Database    -11.2018    1959.9037   ✓       ✓
+177   YPLEHGLLTNWDDMEK         0.9509      Database    -11.2057    1959.9037   ✓       ✓
+178   YPLEHGLLTNWDDMEK         0.9509      Database    -11.2395    1959.9037   ✓       ✓
+179   YPLEHGLLTNWDDMEK         0.9509      Database    -11.2424    1959.9037   ✓       ✓
+180   YPLEHGLLTNWDDMEK         0.9509      Database    -11.2457    1959.9037   ✓       ✓
+181   YPLEHGLLTNWDDMEK         0.9509      Database    -11.2709    1959.9037   ✓       ✓
+182   YPLEHGLLTNWDDMEK         0.9509      Database    -11.2834    1959.9037   ✓       ✓
+183   YPLEHGLLTNWDDMEK         0.9509      Database    -11.2841    1959.9037   ✓       ✓
+184   YPLEHGLLTNWDDMEK         0.9509      Database    -11.2974    1959.9037   ✓       ✓
+185   YPLEHGLLTNWDDMEK         0.9509      Database    -11.3164    1959.9037   ✓       ✓
+186   YPLEHGLLTNWDDMEK         0.9509      Database    -11.3995    1959.9037   ✓       ✓
+187   YPLEHGLLTNWDDMEK         0.9509      Database    -11.4230    1959.9037   ✓       ✓
+188   YPLEHGLLTNWDDMEK         0.9509      Database    -11.4647    1959.9037   ✓       ✓
+189   YPLEHGLLTNWDDMEK         0.9509      Database    -11.4686    1959.9037   ✓       ✓
+190   YPLEHGLLTNWDDMEK         0.9509      Database    -11.4686    1959.9037   ✓       ✓
+191   YPLEHGLLTNWDDMEK         0.9509      Database    -11.4801    1959.9037   ✓       ✓
+192   YPLEHGLLTNWDDMEK         0.9509      Database    -11.4840    1959.9037   ✓       ✓
+193   YPLEHGLLTNWDDMEK         0.9509      Database    -11.4864    1959.9037   ✓       ✓
+194   YPLEHGLLTNWDDMEK         0.9509      Database    -11.4877    1959.9037   ✓       ✓
+195   YPLEHGLLTNWDDMEK         0.9509      Database    -11.4902    1959.9037   ✓       ✓
+196   YPLEHGLLTNWDDMEK         0.9509      Database    -11.5394    1959.9037   ✓       ✓
+197   YPLEHGLLTNWDDMEK         0.9509      Database    -11.5678    1959.9037   ✓       ✓
+198   YPLEHGLLTNWDDMEK         0.9509      Database    -11.5708    1959.9037   ✓       ✓
+199   YPLEHGLLTNWDDMEK         0.9509      Database    -11.5720    1959.9037   ✓       ✓
+200   YPLEHGLLTNWDDMEK         0.9509      Database    -11.5998    1959.9037   ✓       ✓
+201   YPLEHGLLTNWDDMEK         0.9509      Database    -11.6037    1959.9037   ✓       ✓
+202   YPLEHGLLTNWDDMEK         0.9509      Database    -11.6225    1959.9037   ✓       ✓
+203   YPLEHGLLTNWDDMEK         0.9509      Database    -11.6360    1959.9037   ✓       ✓
+204   YPLEHGLLTNWDDMEK         0.9509      Database    -11.6399    1959.9037   ✓       ✓
+205   YPLEHGLLTNWDDMEK         0.9509      Database    -11.6465    1959.9037   ✓       ✓
+206   YPLEHGLLTNWDDMEK         0.9509      Database    -11.6478    1959.9037   ✓       ✓
+207   YPLEHGLLTNWDDMEK         0.9509      Database    -11.6503    1959.9037   ✓       ✓
+208   YPLEHGLLTNWDDMEK         0.9509      Database    -11.6509    1959.9037   ✓       ✓
+209   YPLEHGLLTNWDDMEK         0.9509      Database    -11.6780    1959.9037   ✓       ✓
+210   YPLEHGLLTNWDDMEK         0.9509      Database    -11.6855    1959.9037   ✓       ✓
+211   YPLEHGLLTNWDDMEK         0.9509      Database    -11.6862    1959.9037   ✓       ✓
+212   YPLEHGLLTNWDDMEK         0.9509      Database    -11.6877    1959.9037   ✓       ✓
+213   YPLEHGLLTNWDDMEK         0.9509      Database    -11.6916    1959.9037   ✓       ✓
+214   YPLEHGLLTNWDDMEK         0.9509      Database    -11.6995    1959.9037   ✓       ✓
+215   YPLEHGLLTNWDDMEK         0.9509      Database    -11.7200    1959.9037   ✓       ✓
+216   YPLEHGLLTNWDDMEK         0.9509      Database    -11.7279    1959.9037   ✓       ✓
+217   YPLEHGLLTNWDDMEK         0.9509      Database    -11.7426    1959.9037   ✓       ✓
+218   YPLEHGLLTNWDDMEK         0.9509      Database    -11.7617    1959.9037   ✓       ✓
+219   YPLEHGLLTNWDDMEK         0.9509      Database    -11.7656    1959.9037   ✓       ✓
+220   YPLEHGLLTNWDDMEK         0.9509      Database    -11.7899    1959.9037   ✓       ✓
+221   YPLEHGLLTNWDDMEK         0.9509      Database    -11.7937    1959.9037   ✓       ✓
+222   YPLEHGLLTNWDDMEK         0.9509      Database    -11.8177    1959.9037   ✓       ✓
+223   YPLEHGLLTNWDDMEK         0.9509      Database    -11.8216    1959.9037   ✓       ✓
+224   YPLEHGLLTNWDDMEK         0.9509      Database    -11.8528    1959.9037   ✓       ✓
+225   YPLEHGLLTNWDDMEK         0.9509      Database    -11.8668    1959.9037   ✓       ✓
+226   YPLEHGLLTNWDDMEK         0.9509      Database    -11.8694    1959.9037   ✓       ✓
+227   YPLEHGLLTNWDDMEK         0.9509      Database    -11.8707    1959.9037   ✓       ✓
+228   YPLEHGLLTNWDDMEK         0.9509      Database    -11.8708    1959.9037   ✓       ✓
+229   YPLEHGLLTNWDDMEK         0.9509      Database    -11.8733    1959.9037   ✓       ✓
+230   YPLEHGLLTNWDDMEK         0.9509      Database    -11.8801    1959.9037   ✓       ✓
+231   YPLEHGLLTNWDDMEK         0.9509      Database    -11.8992    1959.9037   ✓       ✓
+232   YPLEHGLLTNWDDMEK         0.9509      Database    -11.9330    1959.9037   ✓       ✓
+233   YPLEHGLLTNWDDMEK         0.9509      Database    -11.9369    1959.9037   ✓       ✓
+234   YPLEHGLLTNWDDMEK         0.9509      Database    -11.9509    1959.9037   ✓       ✓
+235   YPLEHGLLTNWDDMEK         0.9509      Database    -11.9847    1959.9037   ✓       ✓
+236   YPLEHGLLTNWDDMEK         0.9509      Database    -11.9885    1959.9037   ✓       ✓
+237   YPLEHGLLTNWDDMEK         0.9509      Database    -12.0019    1959.9037   ✓       ✓
+238   YPLEHGLLTNWDDMEK         0.9509      Database    -12.0058    1959.9037   ✓       ✓
+239   YPLEHGLLTNWDDMEK         0.9509      Database    -12.0381    1959.9037   ✓       ✓
+240   YPLEHGLLTNWDDMEK         0.9509      Database    -12.0396    1959.9037   ✓       ✓
+241   YPLEHGLLTNWDDMEK         0.9509      Database    -12.0406    1959.9037   ✓       ✓
+242   YPLEHGLLTNWDDMEK         0.9509      Database    -12.0420    1959.9037   ✓       ✓
+243   YPLEHGLLTNWDDMEK         0.9509      Database    -12.0514    1959.9037   ✓       ✓
+244   YPLEHGLLTNWDDMEK         0.9509      Database    -12.0531    1959.9037   ✓       ✓
+245   YPLEHGLLTNWDDMEK         0.9509      Database    -12.0801    1959.9037   ✓       ✓
+246   YPLEHGLLTNWDDMEK         0.9509      Database    -12.0869    1959.9037   ✓       ✓
+247   YPLEHGLLTNWDDMEK         0.9509      Database    -12.0898    1959.9037   ✓       ✓
+248   YPLEHGLLTNWDDMEK         0.9509      Database    -12.0907    1959.9037   ✓       ✓
+249   YPLEHGLLTNWDDMEK         0.9509      Database    -12.0931    1959.9037   ✓       ✓
+250   YPLEHGLLTNWDDMEK         0.9509      Database    -12.0937    1959.9037   ✓       ✓
+251   YPLEHGLLTNWDDMEK         0.9509      Database    -12.0970    1959.9037   ✓       ✓
+252   YPLEHGLLTNWDDMEK         0.9509      Database    -12.1031    1959.9037   ✓       ✓
+253   YPLEHGLLTNWDDMEK         0.9509      Database    -12.1308    1959.9037   ✓       ✓
+254   YPLEHGLLTNWDDMEK         0.9509      Database    -12.1347    1959.9037   ✓       ✓
+255   YPLEHGLLTNWDDMEK         0.9509      Database    -12.1448    1959.9037   ✓       ✓
+256   YPLEHGLLTNWDDMEK         0.9509      Database    -12.1486    1959.9037   ✓       ✓
+257   YPLEHGLLTNWDDMEK         0.9509      Database    -12.1638    1959.9037   ✓       ✓
+258   YPLEHGLLTNWDDMEK         0.9509      Database    -12.1677    1959.9037   ✓       ✓
+259   YPLEHGLLTNWDDMEK         0.9509      Database    -12.1997    1959.9037   ✓       ✓
+260   YPLEHGLLTNWDDMEK         0.9509      Database    -12.2359    1959.9037   ✓       ✓
+261   YPLEHGLLTNWDDMEK         0.9509      Database    -12.2469    1959.9037   ✓       ✓
+262   YPLEHGLLTNWDDMEK         0.9509      Database    -12.2508    1959.9037   ✓       ✓
+263   YPLEHGLLTNWDDMEK         0.9509      Database    -12.2736    1959.9037   ✓       ✓
+264   YPLEHGLLTNWDDMEK         0.9509      Database    -12.2743    1959.9037   ✓       ✓
+265   YPLEHGLLTNWDDMEK         0.9509      Database    -12.2876    1959.9037   ✓       ✓
+266   YPLEHGLLTNWDDMEK         0.9509      Database    -12.3160    1959.9037   ✓       ✓
+267   YPLEHGLLTNWDDMEK         0.9509      Database    -12.3160    1959.9037   ✓       ✓
+268   YPLEHGLLTNWDDMEK         0.9509      Database    -12.3199    1959.9037   ✓       ✓
+269   YPLEHGLLTNWDDMEK         0.9509      Database    -12.3314    1959.9037   ✓       ✓
+270   YPLEHGLLTNWDDMEK         0.9509      Database    -12.3351    1959.9037   ✓       ✓
+271   YPLEHGLLTNWDDMEK         0.9509      Database    -12.3376    1959.9037   ✓       ✓
+272   YPLEHGLLTNWDDMEK         0.9509      Database    -12.3390    1959.9037   ✓       ✓
+273   YPLEHGLLTNWDDMEK         0.9509      Database    -12.3710    1959.9037   ✓       ✓
+274   YPLEHGLLTNWDDMEK         0.9509      Database    -12.3868    1959.9037   ✓       ✓
+275   YPLEHGLLTNWDDMEK         0.9509      Database    -12.3907    1959.9037   ✓       ✓
+276   YPLEHGLLTNWDDMEK         0.9509      Database    -12.4182    1959.9037   ✓       ✓
+277   YPLEHGLLTNWDDMEK         0.9509      Database    -12.4221    1959.9037   ✓       ✓
+278   YPLEHGLLTNWDDMEK         0.9509      Database    -12.4226    1959.9037   ✓       ✓
+279   YPLEHGLLTNWDDMEK         0.9509      Database    -12.4511    1959.9037   ✓       ✓
+280   YPLEHGLLTNWDDMEK         0.9509      Database    -12.4588    1959.9037   ✓       ✓
+281   YPLEHGLLTNWDDMEK         0.9509      Database    -12.4699    1959.9037   ✓       ✓
+282   YPLEHGLLTNWDDMEK         0.9509      Database    -12.4738    1959.9037   ✓       ✓
+283   YPLEHGLLTNWDDMEK         0.9509      Database    -12.4873    1959.9037   ✓       ✓
+284   YPLEHGLLTNWDDMEK         0.9509      Database    -12.4952    1959.9037   ✓       ✓
+285   YPLEHGLLTNWDDMEK         0.9509      Database    -12.4977    1959.9037   ✓       ✓
+286   YPLEHGLLTNWDDMEK         0.9509      Database    -12.4991    1959.9037   ✓       ✓
+287   YPLEHGLLTNWDDMEK         0.9509      Database    -12.5254    1959.9037   ✓       ✓
+288   YPLEHGLLTNWDDMEK         0.9509      Database    -12.5292    1959.9037   ✓       ✓
+289   YPLEHGLLTNWDDMEK         0.9509      Database    -12.5329    1959.9037   ✓       ✓
+290   YPLEHGLLTNWDDMEK         0.9509      Database    -12.5329    1959.9037   ✓       ✓
+291   YPLEHGLLTNWDDMEK         0.9509      Database    -12.5368    1959.9037   ✓       ✓
+292   YPLEHGLLTNWDDMEK         0.9509      Database    -12.5390    1959.9037   ✓       ✓
+293   YPLEHGLLTNWDDMEK         0.9509      Database    -12.5469    1959.9037   ✓       ✓
+294   YPLEHGLLTNWDDMEK         0.9509      Database    -12.5507    1959.9037   ✓       ✓
+295   YPLEHGLLTNWDDMEK         0.9509      Database    -12.5706    1959.9037   ✓       ✓
+296   YPLEHGLLTNWDDMEK         0.9509      Database    -12.5713    1959.9037   ✓       ✓
+297   YPLEHGLLTNWDDMEK         0.9509      Database    -12.5845    1959.9037   ✓       ✓
+298   YPLEHGLLTNWDDMEK         0.9509      Database    -12.5900    1959.9037   ✓       ✓
+299   YPLEHGLLTNWDDMEK         0.9509      Database    -12.5939    1959.9037   ✓       ✓
+300   YPLEHGLLTNWDDMEK         0.9509      Database    -12.6130    1959.9037   ✓       ✓
+301   YPLEHGLLTNWDDMEK         0.9509      Database    -12.6411    1959.9037   ✓       ✓
+302   YPLEHGLLTNWDDMEK         0.9509      Database    -12.6682    1959.9037   ✓       ✓
+303   YPLEHGLLTNWDDMEK         0.9509      Database    -12.6690    1959.9037   ✓       ✓
+304   YPLEHGLLTNWDDMEK         0.9509      Database    -12.7002    1959.9037   ✓       ✓
+305   YPLEHGLLTNWDDMEK         0.9509      Database    -12.7041    1959.9037   ✓       ✓
+306   YPLEHGLLTNWDDMEK         0.9509      Database    -12.7181    1959.9037   ✓       ✓
+307   YPLEHGLLTNWDDMEK         0.9509      Database    -12.7181    1959.9037   ✓       ✓
+308   YPLEHGLLTNWDDMEK         0.9509      Database    -12.7207    1959.9037   ✓       ✓
+309   YPLEHGLLTNWDDMEK         0.9509      Database    -12.7220    1959.9037   ✓       ✓
+310   YPLEHGLLTNWDDMEK         0.9509      Database    -12.7307    1959.9037   ✓       ✓
+311   YPLEHGLLTNWDDMEK         0.9509      Database    -12.7314    1959.9037   ✓       ✓
+312   YPLEHGLLTNWDDMEK         0.9509      Database    -12.7479    1959.9037   ✓       ✓
+313   YPLEHGLLTNWDDMEK         0.9509      Database    -12.7558    1959.9037   ✓       ✓
+314   YPLEHGLLTNWDDMEK         0.9509      Database    -12.7843    1959.9037   ✓       ✓
+315   YPLEHGLLTNWDDMEK         0.9509      Database    -12.8359    1959.9037   ✓       ✓
+316   YPLEHGLLTNWDDMEK         0.9509      Database    -12.8532    1959.9037   ✓       ✓
+317   YPLEHGLLTNWDDMEK         0.9509      Database    -12.8870    1959.9037   ✓       ✓
+318   YPLEHGLLTNWDDMEK         0.9509      Database    -12.8894    1959.9037   ✓       ✓
+319   YPLEHGLLTNWDDMEK         0.9509      Database    -12.8909    1959.9037   ✓       ✓
+320   YPLEHGLLTNWDDMEK         0.9509      Database    -12.9019    1959.9037   ✓       ✓
+321   YPLEHGLLTNWDDMEK         0.9509      Database    -12.9026    1959.9037   ✓       ✓
+322   YPLEHGLLTNWDDMEK         0.9509      Database    -12.9159    1959.9037   ✓       ✓
+323   YPLEHGLLTNWDDMEK         0.9509      Database    -12.9275    1959.9037   ✓       ✓
+324   YPLEHGLLTNWDDMEK         0.9509      Database    -12.9314    1959.9037   ✓       ✓
+325   YPLEHGLLTNWDDMEK         0.9509      Database    -12.9381    1959.9037   ✓       ✓
+326   YPLEHGLLTNWDDMEK         0.9509      Database    -12.9411    1959.9037   ✓       ✓
+327   YPLEHGLLTNWDDMEK         0.9509      Database    -12.9443    1959.9037   ✓       ✓
+328   YPLEHGLLTNWDDMEK         0.9509      Database    -12.9536    1959.9037   ✓       ✓
+329   YPLEHGLLTNWDDMEK         0.9509      Database    -12.9543    1959.9037   ✓       ✓
+330   YPLEHGLLTNWDDMEK         0.9509      Database    -12.9597    1959.9037   ✓       ✓
+331   YPLEHGLLTNWDDMEK         0.9509      Database    -12.9652    1959.9037   ✓       ✓
+332   YPLEHGLLTNWDDMEK         0.9509      Database    -12.9821    1959.9037   ✓       ✓
+333   YPLEHGLLTNWDDMEK         0.9509      Database    -12.9960    1959.9037   ✓       ✓
+334   YPLEHGLLTNWDDMEK         0.9509      Database    -13.0151    1959.9037   ✓       ✓
+335   YPLEHGLLTNWDDMEK         0.9509      Database    -13.0263    1959.9037   ✓       ✓
+336   YPLEHGLLTNWDDMEK         0.9509      Database    -13.0471    1959.9037   ✓       ✓
+337   YPLEHGLLTNWDDMEK         0.9509      Database    -13.0509    1959.9037   ✓       ✓
+338   YPLEHGLLTNWDDMEK         0.9509      Database    -13.0833    1959.9037   ✓       ✓
+339   YPLEHGLLTNWDDMEK         0.9509      Database    -13.0871    1959.9037   ✓       ✓
+340   YPLEHGLLTNWDDMEK         0.9509      Database    -13.0982    1959.9037   ✓       ✓
+341   YPLEHGLLTNWDDMEK         0.9509      Database    -13.1181    1959.9037   ✓       ✓
+342   YPLEHGLLTNWDDMEK         0.9509      Database    -13.1210    1959.9037   ✓       ✓
+343   YPLEHGLLTNWDDMEK         0.9509      Database    -13.1248    1959.9037   ✓       ✓
+344   YPLEHGLLTNWDDMEK         0.9509      Database    -13.1252    1959.9037   ✓       ✓
+345   YPLEHGLLTNWDDMEK         0.9509      Database    -13.1349    1959.9037   ✓       ✓
+346   YPLEHGLLTNWDDMEK         0.9509      Database    -13.1388    1959.9037   ✓       ✓
+347   YPLEHGLLTNWDDMEK         0.9509      Database    -13.1673    1959.9037   ✓       ✓
+348   YPLEHGLLTNWDDMEK         0.9509      Database    -13.1864    1959.9037   ✓       ✓
+349   YPLEHGLLTNWDDMEK         0.9509      Database    -13.2184    1959.9037   ✓       ✓
+350   YPLEHGLLTNWDDMEK         0.9509      Database    -13.2222    1959.9037   ✓       ✓
+351   YPLEHGLLTNWDDMEK         0.9509      Database    -13.2285    1959.9037   ✓       ✓
+352   YPLEHGLLTNWDDMEK         0.9509      Database    -13.2380    1959.9037   ✓       ✓
+353   YPLEHGLLTNWDDMEK         0.9509      Database    -13.2695    1959.9037   ✓       ✓
+354   YPLEHGLLTNWDDMEK         0.9509      Database    -13.2700    1959.9037   ✓       ✓
+355   YPLEHGLLTNWDDMEK         0.9509      Database    -13.2739    1959.9037   ✓       ✓
+356   YPLEHGLLTNWDDMEK         0.9509      Database    -13.2965    1959.9037   ✓       ✓
+357   YPLEHGLLTNWDDMEK         0.9509      Database    -13.3062    1959.9037   ✓       ✓
+358   YPLEHGLLTNWDDMEK         0.9509      Database    -13.3101    1959.9037   ✓       ✓
+359   YPLEHGLLTNWDDMEK         0.9509      Database    -13.3212    1959.9037   ✓       ✓
+360   YPLEHGLLTNWDDMEK         0.9509      Database    -13.3360    1959.9037   ✓       ✓
+361   YPLEHGLLTNWDDMEK         0.9509      Database    -13.3464    1959.9037   ✓       ✓
+362   YPLEHGLLTNWDDMEK         0.9509      Database    -13.3482    1959.9037   ✓       ✓
+363   YPLEHGLLTNWDDMEK         0.9509      Database    -13.3766    1959.9037   ✓       ✓
+364   YPLEHGLLTNWDDMEK         0.9509      Database    -13.3802    1959.9037   ✓       ✓
+365   YPLEHGLLTNWDDMEK         0.9509      Database    -13.3841    1959.9037   ✓       ✓
+366   YPLEHGLLTNWDDMEK         0.9509      Database    -13.3842    1959.9037   ✓       ✓
+367   YPLEHGLLTNWDDMEK         0.9509      Database    -13.3981    1959.9037   ✓       ✓
+368   YPLEHGLLTNWDDMEK         0.9509      Database    -13.4130    1959.9037   ✓       ✓
+369   YPLEHGLLTNWDDMEK         0.9509      Database    -13.4180    1959.9037   ✓       ✓
+370   YPLEHGLLTNWDDMEK         0.9509      Database    -13.4218    1959.9037   ✓       ✓
+371   YPLEHGLLTNWDDMEK         0.9509      Database    -13.4284    1959.9037   ✓       ✓
+372   YPLEHGLLTNWDDMEK         0.9509      Database    -13.4319    1959.9037   ✓       ✓
+373   YPLEHGLLTNWDDMEK         0.9509      Database    -13.4358    1959.9037   ✓       ✓
+374   YPLEHGLLTNWDDMEK         0.9509      Database    -13.4413    1959.9037   ✓       ✓
+375   YPLEHGLLTNWDDMEK         0.9509      Database    -13.5156    1959.9037   ✓       ✓
+376   YPLEHGLLTNWDDMEK         0.9509      Database    -13.5177    1959.9037   ✓       ✓
+377   YPLEHGLLTNWDDMEK         0.9509      Database    -13.5194    1959.9037   ✓       ✓
+378   YPLEHGLLTNWDDMEK         0.9509      Database    -13.5202    1959.9037   ✓       ✓
+379   YPLEHGLLTNWDDMEK         0.9509      Database    -13.5481    1959.9037   ✓       ✓
+380   YPLEHGLLTNWDDMEK         0.9509      Database    -13.5515    1959.9037   ✓       ✓
+381   YPLEHGLLTNWDDMEK         0.9509      Database    -13.5694    1959.9037   ✓       ✓
+382   YPLEHGLLTNWDDMEK         0.9509      Database    -13.5780    1959.9037   ✓       ✓
+383   YPLEHGLLTNWDDMEK         0.9509      Database    -13.5819    1959.9037   ✓       ✓
+384   YPLEHGLLTNWDDMEK         0.9509      Database    -13.5842    1959.9037   ✓       ✓
+385   YPLEHGLLTNWDDMEK         0.9509      Database    -13.5953    1959.9037   ✓       ✓
+386   YPLEHGLLTNWDDMEK         0.9509      Database    -13.5992    1959.9037   ✓       ✓
+387   YPLEHGLLTNWDDMEK         0.9509      Database    -13.6032    1959.9037   ✓       ✓
+388   YPLEHGLLTNWDDMEK         0.9509      Database    -13.6071    1959.9037   ✓       ✓
+389   YPLEHGLLTNWDDMEK         0.9509      Database    -13.6330    1959.9037   ✓       ✓
+390   YPLEHGLLTNWDDMEK         0.9509      Database    -13.6359    1959.9037   ✓       ✓
+391   YPLEHGLLTNWDDMEK         0.9509      Database    -13.7100    1959.9037   ✓       ✓
+392   YPLEHGLLTNWDDMEK         0.9509      Database    -13.7381    1959.9037   ✓       ✓
+393   YPLEHGLLTNWDDMEK         0.9509      Database    -13.7382    1959.9037   ✓       ✓
+394   YPLEHGLLTNWDDMEK         0.9509      Database    -13.7493    1959.9037   ✓       ✓
+395   YPLEHGLLTNWDDMEK         0.9509      Database    -13.7532    1959.9037   ✓       ✓
+396   YPLEHGLLTNWDDMEK         0.9509      Database    -13.7633    1959.9037   ✓       ✓
+397   YPLEHGLLTNWDDMEK         0.9509      Database    -13.7672    1959.9037   ✓       ✓
+398   YPLEHGLLTNWDDMEK         0.9509      Database    -13.7787    1959.9037   ✓       ✓
+399   YPLEHGLLTNWDDMEK         0.9509      Database    -13.7931    1959.9037   ✓       ✓
+400   YPLEHGLLTNWDDMEK         0.9509      Database    -13.8010    1959.9037   ✓       ✓
+401   YPLEHGLLTNWDDMEK         0.9509      Database    -13.8049    1959.9037   ✓       ✓
+402   YPLEHGLLTNWDDMEK         0.9509      Database    -13.8071    1959.9037   ✓       ✓
+403   YPLEHGLLTNWDDMEK         0.9509      Database    -13.8109    1959.9037   ✓       ✓
+404   YPLEHGLLTNWDDMEK         0.9509      Database    -13.8125    1959.9037   ✓       ✓
+405   YPLEHGLLTNWDDMEK         0.9509      Database    -13.8164    1959.9037   ✓       ✓
+406   YPLEHGLLTNWDDMEK         0.9509      Database    -13.8166    1959.9037   ✓       ✓
+407   YPLEHGLLTNWDDMEK         0.9509      Database    -13.8614    1959.9037   ✓       ✓
+408   YPLEHGLLTNWDDMEK         0.9509      Database    -13.8736    1959.9037   ✓       ✓
+409   YPLEHGLLTNWDDMEK         0.9509      Database    -13.8775    1959.9037   ✓       ✓
+410   YPLEHGLLTNWDDMEK         0.9509      Database    -13.8812    1959.9037   ✓       ✓
+411   YPLEHGLLTNWDDMEK         0.9509      Database    -13.8983    1959.9037   ✓       ✓
+412   YPLEHGLLTNWDDMEK         0.9509      Database    -13.9329    1959.9037   ✓       ✓
+413   YPLEHGLLTNWDDMEK         0.9509      Database    -13.9345    1959.9037   ✓       ✓
+414   YPLEHGLLTNWDDMEK         0.9509      Database    -13.9643    1959.9037   ✓       ✓
+415   YPLEHGLLTNWDDMEK         0.9509      Database    -13.9655    1959.9037   ✓       ✓
+416   YPLEHGLLTNWDDMEK         0.9509      Database    -13.9722    1959.9037   ✓       ✓
+417   YPLEHGLLTNWDDMEK         0.9509      Database    -13.9726    1959.9037   ✓       ✓
+418   YPLEHGLLTNWDDMEK         0.9509      Database    -13.9765    1959.9037   ✓       ✓
+419   YPLEHGLLTNWDDMEK         0.9509      Database    -13.9862    1959.9037   ✓       ✓
+420   YPLEHGLLTNWDDMEK         0.9509      Database    -13.9983    1959.9037   ✓       ✓
+421   YPLEHGLLTNWDDMEK         0.9509      Database    -14.0160    1959.9037   ✓       ✓
+422   YPLEHGLLTNWDDMEK         0.9509      Database    -14.0351    1959.9037   ✓       ✓
+423   YPLEHGLLTNWDDMEK         0.9509      Database    -14.0408    1959.9037   ✓       ✓
+424   YPLEHGLLTNWDDMEK         0.9509      Database    -14.0413    1959.9037   ✓       ✓
+425   YPLEHGLLTNWDDMEK         0.9509      Database    -14.0696    1959.9037   ✓       ✓
+426   YPLEHGLLTNWDDMEK         0.9509      Database    -14.0790    1959.9037   ✓       ✓
+427   YPLEHGLLTNWDDMEK         0.9509      Database    -14.0797    1959.9037   ✓       ✓
+428   YPLEHGLLTNWDDMEK         0.9509      Database    -14.0930    1959.9037   ✓       ✓
+429   YPLEHGLLTNWDDMEK         0.9509      Database    -14.1083    1959.9037   ✓       ✓
+430   YPLEHGLLTNWDDMEK         0.9509      Database    -14.1135    1959.9037   ✓       ✓
+431   YPLEHGLLTNWDDMEK         0.9509      Database    -14.1213    1959.9037   ✓       ✓
+432   YPLEHGLLTNWDDMEK         0.9509      Database    -14.1361    1959.9037   ✓       ✓
+433   YPLEHGLLTNWDDMEK         0.9509      Database    -14.1439    1959.9037   ✓       ✓
+434   YPLEHGLLTNWDDMEK         0.9509      Database    -14.1478    1959.9037   ✓       ✓
+435   YPLEHGLLTNWDDMEK         0.9509      Database    -14.1575    1959.9037   ✓       ✓
+436   YPLEHGLLTNWDDMEK         0.9509      Database    -14.1828    1959.9037   ✓       ✓
+437   YPLEHGLLTNWDDMEK         0.9509      Database    -14.1834    1959.9037   ✓       ✓
+438   YPLEHGLLTNWDDMEK         0.9509      Database    -14.1873    1959.9037   ✓       ✓
+439   YPLEHGLLTNWDDMEK         0.9509      Database    -14.1952    1959.9037   ✓       ✓
+440   YPLEHGLLTNWDDMEK         0.9509      Database    -14.1956    1959.9037   ✓       ✓
+441   YPLEHGLLTNWDDMEK         0.9509      Database    -14.1995    1959.9037   ✓       ✓
+442   YPLEHGLLTNWDDMEK         0.9509      Database    -14.2187    1959.9037   ✓       ✓
+443   YPLEHGLLTNWDDMEK         0.9509      Database    -14.2315    1959.9037   ✓       ✓
+444   YPLEHGLLTNWDDMEK         0.9509      Database    -14.2464    1959.9037   ✓       ✓
+445   YPLEHGLLTNWDDMEK         0.9509      Database    -14.2604    1959.9037   ✓       ✓
+446   YPLEHGLLTNWDDMEK         0.9509      Database    -14.2642    1959.9037   ✓       ✓
+447   YPLEHGLLTNWDDMEK         0.9509      Database    -14.2643    1959.9037   ✓       ✓
+448   YPLEHGLLTNWDDMEK         0.9509      Database    -14.2692    1959.9037   ✓       ✓
+449   YPLEHGLLTNWDDMEK         0.9509      Database    -14.2736    1959.9037   ✓       ✓
+450   YPLEHGLLTNWDDMEK         0.9509      Database    -14.2757    1959.9037   ✓       ✓
+451   YPLEHGLLTNWDDMEK         0.9509      Database    -14.2796    1959.9037   ✓       ✓
+452   YPLEHGLLTNWDDMEK         0.9509      Database    -14.2832    1959.9037   ✓       ✓
+453   YPLEHGLLTNWDDMEK         0.9509      Database    -14.3134    1959.9037   ✓       ✓
+454   YPLEHGLLTNWDDMEK         0.9509      Database    -14.3178    1959.9037   ✓       ✓
+455   YPLEHGLLTNWDDMEK         0.9509      Database    -14.3540    1959.9037   ✓       ✓
+456   YPLEHGLLTNWDDMEK         0.9509      Database    -14.3651    1959.9037   ✓       ✓
+457   YPLEHGLLTNWDDMEK         0.9509      Database    -14.3664    1959.9037   ✓       ✓
+458   YPLEHGLLTNWDDMEK         0.9509      Database    -14.3668    1959.9037   ✓       ✓
+459   YPLEHGLLTNWDDMEK         0.9509      Database    -14.3676    1959.9037   ✓       ✓
+460   YPLEHGLLTNWDDMEK         0.9509      Database    -14.3690    1959.9037   ✓       ✓
+461   YPLEHGLLTNWDDMEK         0.9509      Database    -14.3954    1959.9037   ✓       ✓
+462   YPLEHGLLTNWDDMEK         0.9509      Database    -14.3993    1959.9037   ✓       ✓
+463   YPLEHGLLTNWDDMEK         0.9509      Database    -14.4053    1959.9037   ✓       ✓
+464   YPLEHGLLTNWDDMEK         0.9509      Database    -14.4057    1959.9037   ✓       ✓
+465   YPLEHGLLTNWDDMEK         0.9509      Database    -14.4181    1959.9037   ✓       ✓
+466   YPLEHGLLTNWDDMEK         0.9509      Database    -14.4293    1959.9037   ✓       ✓
+467   YPLEHGLLTNWDDMEK         0.9509      Database    -14.4316    1959.9037   ✓       ✓
+468   YPLEHGLLTNWDDMEK         0.9509      Database    -14.4331    1959.9037   ✓       ✓
+469   YPLEHGLLTNWDDMEK         0.9509      Database    -14.4355    1959.9037   ✓       ✓
+470   YPLEHGLLTNWDDMEK         0.9509      Database    -14.4449    1959.9037   ✓       ✓
+471   YPLEHGLLTNWDDMEK         0.9509      Database    -14.4466    1959.9037   ✓       ✓
+472   YPLEHGLLTNWDDMEK         0.9509      Database    -14.4545    1959.9037   ✓       ✓
+473   YPLEHGLLTNWDDMEK         0.9509      Database    -14.4735    1959.9037   ✓       ✓
+474   YPLEHGLLTNWDDMEK         0.9509      Database    -14.4736    1959.9037   ✓       ✓
+475   YPLEHGLLTNWDDMEK         0.9509      Database    -14.4797    1959.9037   ✓       ✓
+476   YPLEHGLLTNWDDMEK         0.9509      Database    -14.4804    1959.9037   ✓       ✓
+477   YPLEHGLLTNWDDMEK         0.9509      Database    -14.4833    1959.9037   ✓       ✓
+478   YPLEHGLLTNWDDMEK         0.9509      Database    -14.4842    1959.9037   ✓       ✓
+479   YPLEHGLLTNWDDMEK         0.9509      Database    -14.4872    1959.9037   ✓       ✓
+480   YPLEHGLLTNWDDMEK         0.9509      Database    -14.4966    1959.9037   ✓       ✓
+481   YPLEHGLLTNWDDMEK         0.9509      Database    -14.5156    1959.9037   ✓       ✓
+482   YPLEHGLLTNWDDMEK         0.9509      Database    -14.5382    1959.9037   ✓       ✓
+483   YPLEHGLLTNWDDMEK         0.9509      Database    -14.5573    1959.9037   ✓       ✓
+484   YPLEHGLLTNWDDMEK         0.9509      Database    -14.5612    1959.9037   ✓       ✓
+485   YPLEHGLLTNWDDMEK         0.9509      Database    -14.5653    1959.9037   ✓       ✓
+486   YPLEHGLLTNWDDMEK         0.9509      Database    -14.5855    1959.9037   ✓       ✓
+487   YPLEHGLLTNWDDMEK         0.9509      Database    -14.5873    1959.9037   ✓       ✓
+488   YPLEHGLLTNWDDMEK         0.9509      Database    -14.5894    1959.9037   ✓       ✓
+489   YPLEHGLLTNWDDMEK         0.9509      Database    -14.5932    1959.9037   ✓       ✓
+490   YPLEHGLLTNWDDMEK         0.9509      Database    -14.6006    1959.9037   ✓       ✓
+491   YPLEHGLLTNWDDMEK         0.9509      Database    -14.6145    1959.9037   ✓       ✓
+492   YPLEHGLLTNWDDMEK         0.9509      Database    -14.6294    1959.9037   ✓       ✓
+493   YPLEHGLLTNWDDMEK         0.9509      Database    -14.6405    1959.9037   ✓       ✓
+494   YPLEHGLLTNWDDMEK         0.9509      Database    -14.6443    1959.9037   ✓       ✓
+495   YPLEHGLLTNWDDMEK         0.9509      Database    -14.6448    1959.9037   ✓       ✓
+496   YPLEHGLLTNWDDMEK         0.9509      Database    -14.6485    1959.9037   ✓       ✓
+497   YPLEHGLLTNWDDMEK         0.9509      Database    -14.6510    1959.9037   ✓       ✓
+498   YPLEHGLLTNWDDMEK         0.9509      Database    -14.6523    1959.9037   ✓       ✓
+499   YPLEHGLLTNWDDMEK         0.9509      Database    -14.6583    1959.9037   ✓       ✓
+500   YPLEHGLLTNWDDMEK         0.9509      Database    -14.6638    1959.9037   ✓       ✓
+501   YPLEHGLLTNWDDMEK         0.9509      Database    -14.6671    1959.9037   ✓       ✓
+502   YPLEHGLLTNWDDMEK         0.9509      Database    -14.6678    1959.9037   ✓       ✓
+503   YPLEHGLLTNWDDMEK         0.9509      Database    -14.6757    1959.9037   ✓       ✓
+504   YPLEHGLLTNWDDMEK         0.9509      Database    -14.6811    1959.9037   ✓       ✓
+505   YPLEHGLLTNWDDMEK         0.9509      Database    -14.6965    1959.9037   ✓       ✓
+506   YPLEHGLLTNWDDMEK         0.9509      Database    -14.7027    1959.9037   ✓       ✓
+507   YPLEHGLLTNWDDMEK         0.9509      Database    -14.7088    1959.9037   ✓       ✓
+508   YPLEHGLLTNWDDMEK         0.9509      Database    -14.7249    1959.9037   ✓       ✓
+509   YPLEHGLLTNWDDMEK         0.9509      Database    -14.7286    1959.9037   ✓       ✓
+510   YPLEHGLLTNWDDMEK         0.9509      Database    -14.7325    1959.9037   ✓       ✓
+511   YPLEHGLLTNWDDMEK         0.9509      Database    -14.7366    1959.9037   ✓       ✓
+512   YPLEHGLLTNWDDMEK         0.9509      Database    -14.7645    1959.9037   ✓       ✓
+513   YPLEHGLLTNWDDMEK         0.9509      Database    -14.7803    1959.9037   ✓       ✓
+514   YPLEHGLLTNWDDMEK         0.9509      Database    -14.7832    1959.9037   ✓       ✓
+515   YPLEHGLLTNWDDMEK         0.9509      Database    -14.7842    1959.9037   ✓       ✓
+516   YPLEHGLLTNWDDMEK         0.9509      Database    -14.7883    1959.9037   ✓       ✓
+517   YPLEHGLLTNWDDMEK         0.9509      Database    -14.8111    1959.9037   ✓       ✓
+518   YPLEHGLLTNWDDMEK         0.9509      Database    -14.8117    1959.9037   ✓       ✓
+519   YPLEHGLLTNWDDMEK         0.9509      Database    -14.8156    1959.9037   ✓       ✓
+520   YPLEHGLLTNWDDMEK         0.9509      Database    -14.8162    1959.9037   ✓       ✓
+521   YPLEHGLLTNWDDMEK         0.9509      Database    -14.8239    1959.9037   ✓       ✓
+522   YPLEHGLLTNWDDMEK         0.9509      Database    -14.8352    1959.9037   ✓       ✓
+523   YPLEHGLLTNWDDMEK         0.9509      Database    -14.8470    1959.9037   ✓       ✓
+524   YPLEHGLLTNWDDMEK         0.9509      Database    -14.8488    1959.9037   ✓       ✓
+525   YPLEHGLLTNWDDMEK         0.9509      Database    -14.8495    1959.9037   ✓       ✓
+526   YPLEHGLLTNWDDMEK         0.9509      Database    -14.8523    1959.9037   ✓       ✓
+527   YPLEHGLLTNWDDMEK         0.9509      Database    -14.8628    1959.9037   ✓       ✓
+528   YPLEHGLLTNWDDMEK         0.9509      Database    -14.8634    1959.9037   ✓       ✓
+529   YPLEHGLLTNWDDMEK         0.9509      Database    -14.8673    1959.9037   ✓       ✓
+530   YPLEHGLLTNWDDMEK         0.9509      Database    -14.8825    1959.9037   ✓       ✓
+531   YPLEHGLLTNWDDMEK         0.9509      Database    -14.8863    1959.9037   ✓       ✓
+532   YPLEHGLLTNWDDMEK         0.9509      Database    -14.8887    1959.9037   ✓       ✓
+533   YPLEHGLLTNWDDMEK         0.9509      Database    -14.8921    1959.9037   ✓       ✓
+534   YPLEHGLLTNWDDMEK         0.9509      Database    -14.8926    1959.9037   ✓       ✓
+535   YPLEHGLLTNWDDMEK         0.9509      Database    -14.8987    1959.9037   ✓       ✓
+536   YPLEHGLLTNWDDMEK         0.9509      Database    -14.9183    1959.9037   ✓       ✓
+537   YPLEHGLLTNWDDMEK         0.9509      Database    -14.9264    1959.9037   ✓       ✓
+538   YPLEHGLLTNWDDMEK         0.9509      Database    -14.9264    1959.9037   ✓       ✓
+539   YPLEHGLLTNWDDMEK         0.9509      Database    -14.9303    1959.9037   ✓       ✓
+540   YPLEHGLLTNWDDMEK         0.9509      Database    -14.9404    1959.9037   ✓       ✓
+541   YPLEHGLLTNWDDMEK         0.9509      Database    -14.9443    1959.9037   ✓       ✓
+542   YPLEHGLLTNWDDMEK         0.9509      Database    -14.9545    1959.9037   ✓       ✓
+543   YPLEHGLLTNWDDMEK         0.9509      Database    -14.9557    1959.9037   ✓       ✓
+544   YPLEHGLLTNWDDMEK         0.9509      Database    -14.9641    1959.9037   ✓       ✓
+545   YPLEHGLLTNWDDMEK         0.9509      Database    -14.9648    1959.9037   ✓       ✓
+546   YPLEHGLLTNWDDMEK         0.9509      Database    -14.9781    1959.9037   ✓       ✓
+547   YPLEHGLLTNWDDMEK         0.9509      Database    -14.9835    1959.9037   ✓       ✓
+548   YPLEHGLLTNWDDMEK         0.9509      Database    -14.9874    1959.9037   ✓       ✓
+549   YPLEHGLLTNWDDMEK         0.9509      Database    -14.9952    1959.9037   ✓       ✓
+550   YPLEHGLLTNWDDMEK         0.9509      Database    -14.9953    1959.9037   ✓       ✓
+551   YPLEHGLLTNWDDMEK         0.9509      Database    -15.0062    1959.9037   ✓       ✓
+552   YPLEHGLLTNWDDMEK         0.9509      Database    -15.0302    1959.9037   ✓       ✓
+553   YPLEHGLLTNWDDMEK         0.9509      Database    -15.0315    1959.9037   ✓       ✓
+554   YPLEHGLLTNWDDMEK         0.9509      Database    -15.0340    1959.9037   ✓       ✓
+555   YPLEHGLLTNWDDMEK         0.9509      Database    -15.0341    1959.9037   ✓       ✓
+556   YPLEHGLLTNWDDMEK         0.9509      Database    -15.0346    1959.9037   ✓       ✓
+557   YPLEHGLLTNWDDMEK         0.9509      Database    -15.0426    1959.9037   ✓       ✓
+558   YPLEHGLLTNWDDMEK         0.9509      Database    -15.0464    1959.9037   ✓       ✓
+559   YPLEHGLLTNWDDMEK         0.9509      Database    -15.0468    1959.9037   ✓       ✓
+560   YPLEHGLLTNWDDMEK         0.9509      Database    -15.0617    1959.9037   ✓       ✓
+561   YPLEHGLLTNWDDMEK         0.9509      Database    -15.0692    1959.9037   ✓       ✓
+562   YPLEHGLLTNWDDMEK         0.9509      Database    -15.0699    1959.9037   ✓       ✓
+563   YPLEHGLLTNWDDMEK         0.9509      Database    -15.0802    1959.9037   ✓       ✓
+564   YPLEHGLLTNWDDMEK         0.9509      Database    -15.0832    1959.9037   ✓       ✓
+565   YPLEHGLLTNWDDMEK         0.9509      Database    -15.0937    1959.9037   ✓       ✓
+566   YPLEHGLLTNWDDMEK         0.9509      Database    -15.0976    1959.9037   ✓       ✓
+567   YPLEHGLLTNWDDMEK         0.9509      Database    -15.1116    1959.9037   ✓       ✓
+568   YPLEHGLLTNWDDMEK         0.9509      Database    -15.1117    1959.9037   ✓       ✓
+569   YPLEHGLLTNWDDMEK         0.9509      Database    -15.1155    1959.9037   ✓       ✓
+570   YPLEHGLLTNWDDMEK         0.9509      Database    -15.1242    1959.9037   ✓       ✓
+571   YPLEHGLLTNWDDMEK         0.9509      Database    -15.1249    1959.9037   ✓       ✓
+572   YPLEHGLLTNWDDMEK         0.9509      Database    -15.1270    1959.9037   ✓       ✓
+573   YPLEHGLLTNWDDMEK         0.9509      Database    -15.1493    1959.9037   ✓       ✓
+574   YPLEHGLLTNWDDMEK         0.9509      Database    -15.1608    1959.9037   ✓       ✓
+575   YPLEHGLLTNWDDMEK         0.9509      Database    -15.1647    1959.9037   ✓       ✓
+576   YPLEHGLLTNWDDMEK         0.9509      Database    -15.1652    1959.9037   ✓       ✓
+577   YPLEHGLLTNWDDMEK         0.9509      Database    -15.1666    1959.9037   ✓       ✓
+578   YPLEHGLLTNWDDMEK         0.9509      Database    -15.1691    1959.9037   ✓       ✓
+579   YPLEHGLLTNWDDMEK         0.9509      Database    -15.2014    1959.9037   ✓       ✓
+580   YPLEHGLLTNWDDMEK         0.9509      Database    -15.2053    1959.9037   ✓       ✓
+581   YPLEHGLLTNWDDMEK         0.9509      Database    -15.2138    1959.9037   ✓       ✓
+582   YPLEHGLLTNWDDMEK         0.9509      Database    -15.2164    1959.9037   ✓       ✓
+583   YPLEHGLLTNWDDMEK         0.9509      Database    -15.2177    1959.9037   ✓       ✓
+584   YPLEHGLLTNWDDMEK         0.9509      Database    -15.2183    1959.9037   ✓       ✓
+585   YPLEHGLLTNWDDMEK         0.9509      Database    -15.2365    1959.9037   ✓       ✓
+586   YPLEHGLLTNWDDMEK         0.9509      Database    -15.2434    1959.9037   ✓       ✓
+587   YPLEHGLLTNWDDMEK         0.9509      Database    -15.2467    1959.9037   ✓       ✓
+588   YPLEHGLLTNWDDMEK         0.9509      Database    -15.2515    1959.9037   ✓       ✓
+589   YPLEHGLLTNWDDMEK         0.9509      Database    -15.2526    1959.9037   ✓       ✓
+590   YPLEHGLLTNWDDMEK         0.9509      Database    -15.2531    1959.9037   ✓       ✓
+591   YPLEHGLLTNWDDMEK         0.9509      Database    -15.2544    1959.9037   ✓       ✓
+592   YPLEHGLLTNWDDMEK         0.9509      Database    -15.2570    1959.9037   ✓       ✓
+593   YPLEHGLLTNWDDMEK         0.9509      Database    -15.2624    1959.9037   ✓       ✓
+594   YPLEHGLLTNWDDMEK         0.9509      Database    -15.2638    1959.9037   ✓       ✓
+595   YPLEHGLLTNWDDMEK         0.9509      Database    -15.2655    1959.9037   ✓       ✓
+596   YPLEHGLLTNWDDMEK         0.9509      Database    -15.2694    1959.9037   ✓       ✓
+597   YPLEHGLLTNWDDMEK         0.9509      Database    -15.2805    1959.9037   ✓       ✓
+598   YPLEHGLLTNWDDMEK         0.9509      Database    -15.2829    1959.9037   ✓       ✓
+599   YPLEHGLLTNWDDMEK         0.9509      Database    -15.2844    1959.9037   ✓       ✓
+600   YPLEHGLLTNWDDMEK         0.9509      Database    -15.2954    1959.9037   ✓       ✓
+601   YPLEHGLLTNWDDMEK         0.9509      Database    -15.3210    1959.9037   ✓       ✓
+602   YPLEHGLLTNWDDMEK         0.9509      Database    -15.3249    1959.9037   ✓       ✓
+603   YPLEHGLLTNWDDMEK         0.9509      Database    -15.3587    1959.9037   ✓       ✓
+604   YPLEHGLLTNWDDMEK         0.9509      Database    -15.4638    1959.9037   ✓       ✓
+605   YPLEHGLLTNWDDMEK         0.9509      Database    -15.4992    1959.9037   ✓       ✓
+606   YPLEHGLLTNWDDMEK         0.9509      Database    -15.5188    1959.9037   ✓       ✓
+607   YPLEHGLLTNWDDMEK         0.9509      Database    -15.6900    1959.9037   ✓       ✓
+608   YPLEHGLLTNWDDMEK         0.9509      Database    -15.7417    1959.9037   ✓       ✓
+609   YPLEHGLLTNWDDMEK         0.9509      Database    -15.7608    1959.9037   ✓       ✓
+610   YPLEHGLLTNWDDMEK         0.9509      Database    -15.8439    1959.9037   ✓       ✓
+611   YPLEHGLLTNWDDMEK         0.9509      Database    -15.9091    1959.9037   ✓       ✓
+612   YPLEHGLLTNWDDMEK         0.9509      Database    -15.9129    1959.9037   ✓       ✓
+613   YPLEHGLLTNWDDMEK         0.9509      Database    -15.9209    1959.9037   ✓       ✓
+614   YPLEHGLLTNWDDMEK         0.9509      Database    -16.0908    1959.9037   ✓       ✓
+615   YPLEHGLLTNWDDMEK         0.9509      Database    -16.0921    1959.9037   ✓       ✓
+616   YPLEHGLLTNWDDMEK         0.9509      Database    -16.0947    1959.9037   ✓       ✓
+617   YPLEHGLLTNWDDMEK         0.9509      Database    -16.1438    1959.9037   ✓       ✓
+618   YPLEHGLLTNWDDMEK         0.9509      Database    -16.1723    1959.9037   ✓       ✓
+619   YPLEHGLLTNWDDMEK         0.9509      Database    -16.2061    1959.9037   ✓       ✓
+620   YPLEHGLLTNWDDMEK         0.9509      Database    -16.2099    1959.9037   ✓       ✓
+621   YPLEHGLLTNWDDMEK         0.9509      Database    -16.3112    1959.9037   ✓       ✓
+622   YPLEHGLLTNWDDMEK         0.9509      Database    -16.3150    1959.9037   ✓       ✓
+623   YPLEHGLLTNWDDMEK         0.9509      Database    -16.3244    1959.9037   ✓       ✓
+624   YPLEHGLLTNWDDMEK         0.9509      Database    -16.3466    1959.9037   ✓       ✓
+625   YPLEHGLLTNWDDMEK         0.9509      Database    -16.3504    1959.9037   ✓       ✓
+626   YPLEHGLLTNWDDMEK         0.9509      Database    -16.3661    1959.9037   ✓       ✓
+627   YPLEHGLLTNWDDMEK         0.9509      Database    -16.3700    1959.9037   ✓       ✓
+628   YPLEHGLLTNWDDMEK         0.9509      Database    -16.5089    1959.9037   ✓       ✓
+629   YPLEHGLLTNWDDMEK         0.9509      Database    -16.5374    1959.9037   ✓       ✓
+630   YPLEHGLLTNWDDMEK         0.9509      Database    -16.5413    1959.9037   ✓       ✓
+631   YPLEHGLLTNWDDMEK         0.9509      Database    -16.5891    1959.9037   ✓       ✓
+632   YPLEHGLLTNWDDMEK         0.9509      Database    -16.5930    1959.9037   ✓       ✓
+633   YPLEHGLLTNWDDMEK         0.9509      Database    -16.6082    1959.9037   ✓       ✓
+634   YPLEHGLLTNWDDMEK         0.9509      Database    -16.6120    1959.9037   ✓       ✓
+635   YPLEHGLLTNWDDMEK         0.9509      Database    -16.6440    1959.9037   ✓       ✓
+636   YPLEHGLLTNWDDMEK         0.9509      Database    -16.6802    1959.9037   ✓       ✓
+637   YPLEHGLLTNWDDMEK         0.9509      Database    -16.6913    1959.9037   ✓       ✓
+638   YPLEHGLLTNWDDMEK         0.9509      Database    -16.6951    1959.9037   ✓       ✓
+639   YPLEHGLLTNWDDMEK         0.9509      Database    -16.7319    1959.9037   ✓       ✓
+640   YPLEHGLLTNWDDMEK         0.9509      Database    -16.7603    1959.9037   ✓       ✓
+641   YPLEHGLLTNWDDMEK         0.9509      Database    -16.7682    1959.9037   ✓       ✓
+642   YPLEHGLLTNWDDMEK         0.9509      Database    -16.7721    1959.9037   ✓       ✓
+643   YPLEHGLLTNWDDMEK         0.9509      Database    -16.8059    1959.9037   ✓       ✓
+644   YPLEHGLLTNWDDMEK         0.9509      Database    -16.9395    1959.9037   ✓       ✓
+645   YPLEHGLLTNWDDMEK         0.9509      Database    -16.9421    1959.9037   ✓       ✓
+646   YPLEHGLLTNWDDMEK         0.9509      Database    -16.9434    1959.9037   ✓       ✓
+647   YPLEHGLLTNWDDMEK         0.9509      Database    -16.9772    1959.9037   ✓       ✓
+648   YPLEHGLLTNWDDMEK         0.9509      Database    -16.9912    1959.9037   ✓       ✓
+649   YPLEHGLLTNWDDMEK         0.9509      Database    -16.9951    1959.9037   ✓       ✓
+650   YPLEHGLLTNWDDMEK         0.9509      Database    -17.0289    1959.9037   ✓       ✓
+651   YPLEHGLLTNWDDMEK         0.9509      Database    -17.0573    1959.9037   ✓       ✓
+652   YPLEHGLLTNWDDMEK         0.9509      Database    -17.1373    1959.9037   ✓       ✓
+653   YPLEHGLLTNWDDMEK         0.9509      Database    -17.1624    1959.9037   ✓       ✓
+654   YPLEHGLLTNWDDMEK         0.9509      Database    -17.1750    1959.9037   ✓       ✓
+655   YPLEHGLLTNWDDMEK         0.9509      Database    -17.1757    1959.9037   ✓       ✓
+656   YPLEHGLLTNWDDMEK         0.9509      Database    -17.1890    1959.9037   ✓       ✓
+657   YPLEHGLLTNWDDMEK         0.9509      Database    -17.1978    1959.9037   ✓       ✓
+658   YPLEHGLLTNWDDMEK         0.9509      Database    -17.2174    1959.9037   ✓       ✓
+659   YPLEHGLLTNWDDMEK         0.9509      Database    -17.3563    1959.9037   ✓       ✓
+660   YPLEHGLLTNWDDMEK         0.9509      Database    -17.3602    1959.9037   ✓       ✓
+661   YPLEHGLLTNWDDMEK         0.9509      Database    -17.3602    1959.9037   ✓       ✓
+662   YPLEHGLLTNWDDMEK         0.9509      Database    -17.3887    1959.9037   ✓       ✓
+663   YPLEHGLLTNWDDMEK         0.9509      Database    -17.4404    1959.9037   ✓       ✓
+664   YPLEHGLLTNWDDMEK         0.9509      Database    -17.4594    1959.9037   ✓       ✓
+665   YPLEHGLLTNWDDMEK         0.9509      Database    -17.4914    1959.9037   ✓       ✓
+666   YPLEHGLLTNWDDMEK         0.9509      Database    -17.4953    1959.9037   ✓       ✓
+667   YPLEHGLLTNWDDMEK         0.9509      Database    -17.5276    1959.9037   ✓       ✓
+668   YPLEHGLLTNWDDMEK         0.9509      Database    -17.5315    1959.9037   ✓       ✓
+669   YPLEHGLLTNWDDMEK         0.9509      Database    -17.5425    1959.9037   ✓       ✓
+670   YPLEHGLLTNWDDMEK         0.9509      Database    -17.5793    1959.9037   ✓       ✓
+671   YPLEHGLLTNWDDMEK         0.9509      Database    -17.5831    1959.9037   ✓       ✓
+672   YPLEHGLLTNWDDMEK         0.9509      Database    -17.6195    1959.9037   ✓       ✓
+673   YPLEHGLLTNWDDMEK         0.9509      Database    -17.6533    1959.9037   ✓       ✓
+674   YPLEHGLLTNWDDMEK         0.9509      Database    -17.6572    1959.9037   ✓       ✓
+675   YPLEHGLLTNWDDMEK         0.9509      Database    -17.7908    1959.9037   ✓       ✓
+676   YPLEHGLLTNWDDMEK         0.9509      Database    -17.8246    1959.9037   ✓       ✓
+677   YPLEHGLLTNWDDMEK         0.9509      Database    -17.8285    1959.9037   ✓       ✓
+678   YPLEHGLLTNWDDMEK         0.9509      Database    -17.8425    1959.9037   ✓       ✓
+679   YPLEHGLLTNWDDMEK         0.9509      Database    -17.8573    1959.9037   ✓       ✓
+680   YPLEHGLLTNWDDMEK         0.9509      Database    -17.8763    1959.9037   ✓       ✓
+681   YPLEHGLLTNWDDMEK         0.9509      Database    -17.8801    1959.9037   ✓       ✓
+682   YPLEHGLLTNWDDMEK         0.9509      Database    -17.8927    1959.9037   ✓       ✓
+683   YPLEHGLLTNWDDMEK         0.9509      Database    -17.9847    1959.9037   ✓       ✓
+684   YPLEHGLLTNWDDMEK         0.9509      Database    -17.9885    1959.9037   ✓       ✓
+685   YPLEHGLLTNWDDMEK         0.9509      Database    -18.0224    1959.9037   ✓       ✓
+686   YPLEHGLLTNWDDMEK         0.9509      Database    -18.0263    1959.9037   ✓       ✓
+687   YPLEHGLLTNWDDMEK         0.9509      Database    -18.0363    1959.9037   ✓       ✓
+688   YPLEHGLLTNWDDMEK         0.9509      Database    -18.0402    1959.9037   ✓       ✓
+689   YPLEHGLLTNWDDMEK         0.9509      Database    -18.1543    1959.9037   ✓       ✓
+690   YPLEHGLLTNWDDMEK         0.9509      Database    -18.2076    1959.9037   ✓       ✓
+691   YPLEHGLLTNWDDMEK         0.9509      Database    -18.2076    1959.9037   ✓       ✓
+692   YPLEHGLLTNWDDMEK         0.9509      Database    -18.2115    1959.9037   ✓       ✓
+693   YPLEHGLLTNWDDMEK         0.9509      Database    -18.2374    1959.9037   ✓       ✓
+694   YPLEHGLLTNWDDMEK         0.9509      Database    -18.2948    1959.9037   ✓       ✓
+695   YPLEHGLLTNWDDMEK         0.9509      Database    -18.3144    1959.9037   ✓       ✓
+696   YPLEHGLLTNWDDMEK         0.9509      Database    -18.3427    1959.9037   ✓       ✓
+697   YPLEHGLLTNWDN+0.984MEK   0.6454      Prosit      -12.6949    1959.9037   ✓       
+698   YPLEHGLLTNWDN+0.984MEK   0.6454      Prosit      -13.5423    1959.9037   ✓       
+699   YPLEHGLLTNWDN+0.984MEK   0.6454      Prosit      -13.5461    1959.9037   ✓       
+700   YPLEHGLLTNWDN+0.984MEK   0.6454      Prosit      -14.3935    1959.9037   ✓       
+701   YPLEHGLLTNWDN+0.984MEK   0.6454      Prosit      -15.0884    1959.9037   ✓       
+702   YPLQ+0.984HGLLTNWDDMEK   0.6395      Prosit      -12.9895    1959.9037   ✓       
+703   YPLQ+0.984HGLLTNWDDMEK   0.6395      Prosit      -13.8407    1959.9037   ✓       
+704   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -4.8929     1945.8880   ✗       
+705   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -5.7403     1945.8880   ✗       
+706   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -5.7442     1945.8880   ✗       
+707   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -6.5916     1945.8880   ✗       
+708   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -7.2864     1945.8880   ✗       
+709   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -7.6885     1945.8880   ✗       
+710   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -8.1338     1945.8880   ✗       
+711   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -8.1377     1945.8880   ✗       
+712   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -8.2766     1945.8880   ✗       
+713   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -8.5359     1945.8880   ✗       
+714   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -8.5398     1945.8880   ✗       
+715   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -8.5736     1945.8880   ✗       
+716   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -8.7337     1945.8880   ✗       
+717   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -8.9050     1945.8880   ✗       
+718   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -8.9566     1945.8880   ✗       
+719   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -8.9851     1945.8880   ✗       
+720   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -9.1240     1945.8880   ✗       
+721   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -9.1279     1945.8880   ✗       
+722   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -9.3872     1945.8880   ✗       
+723   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -9.4210     1945.8880   ✗       
+724   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -9.4249     1945.8880   ✗       
+725   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -9.5811     1945.8880   ✗       
+726   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -9.5850     1945.8880   ✗       
+727   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -9.7524     1945.8880   ✗       
+728   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -9.7562     1945.8880   ✗       
+729   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -9.8040     1945.8880   ✗       
+730   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -9.8079     1945.8880   ✗       
+731   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -9.9753     1945.8880   ✗       
+732   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -10.0821    1945.8880   ✗       
+733   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -10.2723    1945.8880   ✗       
+734   YPLEHGLTNWDDMEK          -1.0000     NotChecked  -10.3825    1846.8196   ✗       
+735   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -10.4323    1945.8880   ✗       
+736   YPLEHGLLTNWDDMQ+0.984K   -1.0000     Failed      -10.4662    1959.9037   ✓       
+737   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -10.6036    1945.8880   ✗       
+738   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -10.6553    1945.8880   ✗       
+739   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -10.6701    1945.8880   ✗       
+740   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -10.8519    1945.8880   ✗       
+741   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -10.9295    1945.8880   ✗       
+742   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -10.9333    1945.8880   ✗       
+743   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -10.9671    1945.8880   ✗       
+744   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -11.0722    1945.8880   ✗       
+745   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -11.1272    1945.8880   ✗       
+746   YPLEHGLTNWDDMEK          -1.0000     NotChecked  -11.2299    1846.8196   ✗       
+747   YPLEHGLTNWDDMEK          -1.0000     NotChecked  -11.2338    1846.8196   ✗       
+748   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -11.2985    1945.8880   ✗       
+749   YPLEHGLLTNWDDMQ+0.984K   -1.0000     Failed      -11.3136    1959.9037   ✓       
+750   YPLEHGLLTNWDDMQ+0.984K   -1.0000     Failed      -11.3174    1959.9037   ✓       
+751   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -11.3502    1945.8880   ✗       
+752   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -11.3692    1945.8880   ✗       
+753   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -11.4523    1945.8880   ✗       
+754   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -11.5175    1945.8880   ✗       
+755   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -11.5214    1945.8880   ✗       
+756   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -11.5293    1945.8880   ✗       
+757   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -11.6992    1945.8880   ✗       
+758   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -11.7006    1945.8880   ✗       
+759   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -11.7031    1945.8880   ✗       
+760   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -11.7523    1945.8880   ✗       
+761   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -11.7807    1945.8880   ✗       
+762   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -11.8145    1945.8880   ✗       
+763   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -11.8184    1945.8880   ✗       
+764   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -11.9196    1945.8880   ✗       
+765   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -11.9235    1945.8880   ✗       
+766   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -11.9329    1945.8880   ✗       
+767   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -11.9746    1945.8880   ✗       
+768   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -11.9785    1945.8880   ✗       
+769   YPLEHGLTNWDDMEK          -1.0000     NotChecked  -12.0811    1846.8196   ✗       
+770   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -12.1174    1945.8880   ✗       
+771   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -12.1459    1945.8880   ✗       
+772   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -12.1497    1945.8880   ✗       
+773   YPLEHGLLTNWDDMQ+0.984K   -1.0000     Failed      -12.1648    1959.9037   ✓       
+774   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -12.1976    1945.8880   ✗       
+775   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -12.2014    1945.8880   ✗       
+776   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -12.2166    1945.8880   ✗       
+777   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -12.2205    1945.8880   ✗       
+778   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -12.2525    1945.8880   ✗       
+779   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -12.2887    1945.8880   ✗       
+780   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -12.2997    1945.8880   ✗       
+781   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -12.3036    1945.8880   ✗       
+782   YPLEHGLLTNWN+0.984DMEK   -1.0000     Failed      -12.3037    1959.9037   ✓       
+783   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -12.3403    1945.8880   ✗       
+784   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -12.3688    1945.8880   ✗       
+785   YPLEHGLLSNWDDMEK         -1.0000     NotChecked  -12.3762    1945.8880   ✗       
+786   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -12.3767    1945.8880   ✗       
+787   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -12.3806    1945.8880   ✗       
+788   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -12.4144    1945.8880   ✗       
+789   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -12.5480    1945.8880   ✗       
+790   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -12.5505    1945.8880   ✗       
+791   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -12.5518    1945.8880   ✗       
+792   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -12.5857    1945.8880   ✗       
+793   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -12.5997    1945.8880   ✗       
+794   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -12.6035    1945.8880   ✗       
+795   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -12.6373    1945.8880   ✗       
+796   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -12.6658    1945.8880   ✗       
+797   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -12.7457    1945.8880   ✗       
+798   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -12.7709    1945.8880   ✗       
+799   YPLEHGLTNWDDMEK          -1.0000     NotChecked  -12.7760    1846.8196   ✗       
+800   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -12.7842    1945.8880   ✗       
+801   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -12.7974    1945.8880   ✗       
+802   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -12.8259    1945.8880   ✗       
+803   YPLEHGLLTNWDDMQ+0.984K   -1.0000     Failed      -12.8597    1959.9037   ✓       
+804   YPLEHGLVTN+0.984WDDMEK   -1.0000     NotChecked  -12.8600    1946.8720   ✗       
+805   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -12.9648    1945.8880   ✗       
+806   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -12.9687    1945.8880   ✗       
+807   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -12.9687    1945.8880   ✗       
+808   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -12.9971    1945.8880   ✗       
+809   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -13.0488    1945.8880   ✗       
+810   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -13.0679    1945.8880   ✗       
+811   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -13.0999    1945.8880   ✗       
+812   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -13.1037    1945.8880   ✗       
+813   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -13.1361    1945.8880   ✗       
+814   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -13.1399    1945.8880   ✗       
+815   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -13.1510    1945.8880   ✗       
+816   YPLEHGLLTNWN+0.984DMEK   -1.0000     Failed      -13.1511    1959.9037   ✓       
+817   YPLEHGLLTNWN+0.984DMEK   -1.0000     Failed      -13.1549    1959.9037   ✓       
+818   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -13.1780    1945.8880   ✗       
+819   YPLEHGLTNWDDMEK          -1.0000     NotChecked  -13.1781    1846.8196   ✗       
+820   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -13.1877    1945.8880   ✗       
+821   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -13.1916    1945.8880   ✗       
+822   YPLEHGLLSNWDDMEK         -1.0000     NotChecked  -13.2236    1945.8880   ✗       
+823   YPLEHGLLSNWDDMEK         -1.0000     NotChecked  -13.2274    1945.8880   ✗       
+824   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -13.2280    1945.8880   ✗       
+825   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -13.2618    1945.8880   ✗       
+826   YPLEHGLLTNWDDMQ+0.984K   -1.0000     Failed      -13.2618    1959.9037   ✓       
+827   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -13.2656    1945.8880   ✗       
+828   YPLEHGVLTNWDDMEK         -1.0000     NotChecked  -13.2872    1945.8880   ✗       
+829   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -13.3992    1945.8880   ✗       
+830   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -13.4330    1945.8880   ✗       
+831   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -13.4369    1945.8880   ✗       
+832   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -13.4509    1945.8880   ✗       
+833   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -13.4658    1945.8880   ✗       
+834   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -13.4847    1945.8880   ✗       
+835   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -13.4886    1945.8880   ✗       
+836   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -13.5931    1945.8880   ✗       
+837   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -13.5970    1945.8880   ✗       
+838   YPLEHGLTNWDDMEK          -1.0000     NotChecked  -13.6234    1846.8196   ✗       
+839   YPLEHGLTNWDDMEK          -1.0000     NotChecked  -13.6273    1846.8196   ✗       
+840   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -13.6448    1945.8880   ✗       
+841   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -13.6487    1945.8880   ✗       
+842   YPLEHGLLTNWDDMQ+0.984K   -1.0000     Failed      -13.7071    1959.9037   ✓       
+843   YPLEHGLVTN+0.984WDDMEK   -1.0000     NotChecked  -13.7074    1946.8720   ✗       
+844   YPLEHGLLTNWDDMQ+0.984K   -1.0000     Failed      -13.7110    1959.9037   ✓       
+845   YPLEHGLVTN+0.984WDDMEK   -1.0000     NotChecked  -13.7112    1946.8720   ✗       
+846   YPLEHGLTTNWDDMEK         -1.0000     NotChecked  -13.7222    1947.8673   ✗       
+847   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -13.7627    1945.8880   ✗       
+848   YPLEHGLTNWDDMEK          -1.0000     NotChecked  -13.7662    1846.8196   ✗       
+849   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -13.8160    1945.8880   ✗       
+850   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -13.8161    1945.8880   ✗       
+851   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -13.8199    1945.8880   ✗       
+852   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -13.8459    1945.8880   ✗       
+853   YPLEHGLLTNWDDMQ+0.984K   -1.0000     Failed      -13.8499    1959.9037   ✓       
+854   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -13.9228    1945.8880   ✗       
+855   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -13.9511    1945.8880   ✗       
+856   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -13.9873    1945.8880   ✗       
+857   YPLEHGLLTNWN+0.984DMEK   -1.0000     Failed      -14.0023    1959.9037   ✓       
+858   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.0254    1945.8880   ✗       
+859   YPLEHGLTNWDDMEK          -1.0000     NotChecked  -14.0255    1846.8196   ✗       
+860   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.0293    1945.8880   ✗       
+861   YPLEHGLTNWDDMEK          -1.0000     NotChecked  -14.0294    1846.8196   ✗       
+862   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.0390    1945.8880   ✗       
+863   YPLEHGLTNWDDMEK          -1.0000     NotChecked  -14.0632    1846.8196   ✗       
+864   YPLEHGLLSNWDDMEK         -1.0000     NotChecked  -14.0748    1945.8880   ✗       
+865   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.0941    1945.8880   ✗       
+866   YPLEHGLLTNWDDMQ+0.984K   -1.0000     Failed      -14.1092    1959.9037   ✓       
+867   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.1130    1945.8880   ✗       
+868   YPLEHGLLTNWDDMQ+0.984K   -1.0000     Failed      -14.1131    1959.9037   ✓       
+869   YPLEHGVLTNWDDMEK         -1.0000     NotChecked  -14.1346    1945.8880   ✗       
+870   YPLEHGVLTNWDDMEK         -1.0000     NotChecked  -14.1384    1945.8880   ✗       
+871   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.1458    1945.8880   ✗       
+872   YPLEHGLLTNWDDMQ+0.984K   -1.0000     Failed      -14.1469    1959.9037   ✓       
+873   YPLEHGLTNWDDMEK          -1.0000     NotChecked  -14.2233    1846.8196   ✗       
+874   YPLEHGLPTNWDDMEK         -1.0000     NotChecked  -14.2275    1943.8724   ✗       
+875   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.2356    1945.8880   ✗       
+876   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.2480    1945.8880   ✗       
+877   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.2843    1945.8880   ✗       
+878   YPLEHGLLTNWDDMQ+0.984K   -1.0000     Failed      -14.3069    1959.9037   ✓       
+879   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.3132    1945.8880   ✗       
+880   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.3170    1945.8880   ✗       
+881   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.3264    1945.8880   ✗       
+882   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.3360    1945.8880   ✗       
+883   YPLEHGLVTNWDDMQ+0.984K   -1.0000     NotChecked  -14.3597    1945.8880   ✗       
+884   YPLEHGLLTLWDDMEK         -1.0000     NotChecked  -14.3903    1958.9448   ✗       
+885   YPLEHGLTNWDDMEK          -1.0000     NotChecked  -14.3945    1846.8196   ✗       
+886   YPLEHGLLTNWDDMLK         -1.0000     NotChecked  -14.4300    1943.9451   ✗       
+887   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.4444    1945.8880   ✗       
+888   YPLEHGLTNWDDMEK          -1.0000     NotChecked  -14.4462    1846.8196   ✗       
+889   YPLEHGLTNWDDMEK          -1.0000     NotChecked  -14.4747    1846.8196   ✗       
+890   YPLEHGLLTNWDDMQ+0.984K   -1.0000     Failed      -14.4782    1959.9037   ✓       
+891   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.4961    1945.8880   ✗       
+892   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.5109    1945.8880   ✗       
+893   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.5263    1945.8880   ✗       
+894   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.5325    1945.8880   ✗       
+895   YPLEHGLLTNWDDMQK         -1.0000     NotChecked  -14.5347    1958.9196   ✗       
+896   YPLEHGLLTNWDDMK          -1.0000     NotChecked  -14.5412    1830.8611   ✗       
+897   YPLEHGLLTNWDDMQ+0.984K   -1.0000     Failed      -14.5583    1959.9037   ✓       
+898   YPLEHGLVTN+0.984WDDMEK   -1.0000     NotChecked  -14.5586    1946.8720   ✗       
+899   YPLEHGLTTNWDDMEK         -1.0000     NotChecked  -14.5696    1947.8673   ✗       
+900   YPLEHGLTTNWDDMEK         -1.0000     NotChecked  -14.5735    1947.8673   ✗       
+901   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.6101    1945.8880   ✗       
+902   YPLEHGLTNWDDMEK          -1.0000     NotChecked  -14.6136    1846.8196   ✗       
+903   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.6140    1945.8880   ✗       
+904   YPLEHGLTNWDDMEK          -1.0000     NotChecked  -14.6174    1846.8196   ✗       
+905   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.6181    1945.8880   ✗       
+906   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.6460    1945.8880   ✗       
+907   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.6673    1945.8880   ✗       
+908   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.6822    1945.8880   ✗       
+909   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.6926    1945.8880   ✗       
+910   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.6932    1945.8880   ✗       
+911   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.6971    1945.8880   ✗       
+912   YPLEHGLLTNWN+0.984DMEK   -1.0000     Failed      -14.6972    1959.9037   ✓       
+913   YPLEHGLLTNWDDMQ+0.984K   -1.0000     Failed      -14.6973    1959.9037   ✓       
+914   YPLEHGLATNWDDMEK         -1.0000     NotChecked  -14.6989    1917.8567   ✗       
+915   YPLEHGLLTNWDDMQ+0.984K   -1.0000     Failed      -14.7011    1959.9037   ✓       
+916   YPLEHLLTNWDDMEK          -1.0000     NotChecked  -14.7127    1902.8822   ✗       
+917   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.7285    1945.8880   ✗       
+918   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.7339    1945.8880   ✗       
+919   YPLEHGLLSNWDDMEK         -1.0000     NotChecked  -14.7697    1945.8880   ✗       
+920   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.7702    1945.8880   ✗       
+921   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.7741    1945.8880   ✗       
+922   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.8079    1945.8880   ✗       
+923   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.8360    1945.8880   ✗       
+924   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.8639    1945.8880   ✗       
+925   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.8767    1945.8880   ✗       
+926   YPLEHGLTNWDDMEK          -1.0000     NotChecked  -14.8768    1846.8196   ✗       
+927   YPLEHGLTNWDDMEK          -1.0000     NotChecked  -14.9106    1846.8196   ✗       
+928   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.9130    1945.8880   ✗       
+929   YPLEHGLTNWDDMEK          -1.0000     NotChecked  -14.9144    1846.8196   ✗       
+930   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.9156    1945.8880   ✗       
+931   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.9415    1945.8880   ✗       
+932   YPLHGLLTNWDDMEK          -1.0000     NotChecked  -14.9422    1830.8611   ✗       
+933   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.9454    1945.8880   ✗       
+934   YPLEHGLLTNWDDMQ+0.984K   -1.0000     Failed      -14.9605    1959.9037   ✓       
+935   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.9792    1945.8880   ✗       
+936   YPLEHGVLTNWDDMEK         -1.0000     NotChecked  -14.9858    1945.8880   ✗       
+937   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.9932    1945.8880   ✗       
+938   YPLEHGLLTNWDDMQ+0.984K   -1.0000     Failed      -14.9943    1959.9037   ✓       
+939   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -14.9970    1945.8880   ✗       
+940   YPLEHGLLTNWDDMQ+0.984K   -1.0000     Failed      -14.9981    1959.9037   ✓       
+941   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -15.0308    1945.8880   ✗       
+942   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -15.0481    1945.8880   ✗       
+943   YPLEHGLTNWDDMEK          -1.0000     NotChecked  -15.0706    1846.8196   ✗       
+944   YPLEHGLTNWDDMEK          -1.0000     NotChecked  -15.0745    1846.8196   ✗       
+945   YPLEHGLPTNWDDMEK         -1.0000     NotChecked  -15.0749    1943.8724   ✗       
+946   YPLEHGLPTNWDDMEK         -1.0000     NotChecked  -15.0788    1943.8724   ✗       
+947   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -15.0829    1945.8880   ✗       
+948   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -15.0843    1945.8880   ✗       
+949   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -15.0868    1945.8880   ✗       
+950   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -15.0953    1945.8880   ✗       
+951   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -15.0992    1945.8880   ✗       
+952   YPLEHGLLTNWN+0.984DMEK   -1.0000     Failed      -15.0993    1959.9037   ✓       
+953   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -15.1330    1945.8880   ✗       
+954   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -15.1360    1945.8880   ✗       
+955   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -15.1393    1945.8880   ✗       
+956   YPLEHGLLTNWDDMQ+0.984K   -1.0000     Failed      -15.1543    1959.9037   ✓       
+957   YPLEHGLLTNWDDMQ+0.984K   -1.0000     Failed      -15.1582    1959.9037   ✓       
+958   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -15.1644    1945.8880   ✗       
+959   YPLEHGLLSNWDDMEK         -1.0000     NotChecked  -15.1718    1945.8880   ✗       
+960   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -15.1777    1945.8880   ✗       
+961   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -15.1909    1945.8880   ✗       
+962   YPLEHGLVTNWDDMQ+0.984K   -1.0000     NotChecked  -15.2071    1945.8880   ✗       
+963   YPLEHGLLTNWNDMEK         -1.0000     NotChecked  -15.2094    1958.9196   ✗       
+964   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -15.2100    1945.8880   ✗       
+965   YPLEHGLVTNWDDMQ+0.984K   -1.0000     NotChecked  -15.2110    1945.8880   ✗       
+966   YPLEHGLLTLWDDMEK         -1.0000     NotChecked  -15.2377    1958.9448   ✗       
+967   YPLEHGLLTLWDDMEK         -1.0000     NotChecked  -15.2416    1958.9448   ✗       
+968   YPLEHGLTNWDDMEK          -1.0000     NotChecked  -15.2419    1846.8196   ✗       
+969   YPLEHGLTNWDDMEK          -1.0000     NotChecked  -15.2458    1846.8196   ✗       
+970   YPLEHGLVTN+0.984WDDMEK   -1.0000     NotChecked  -15.2535    1946.8720   ✗       
+971   YPLEHGLLTNWDDMLK         -1.0000     NotChecked  -15.2774    1943.9451   ✗       
+972   YPLEHGLLTNWDDMLK         -1.0000     NotChecked  -15.2813    1943.9451   ✗       
+973   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -15.2931    1945.8880   ✗       
+974   YPLEHGLTNWDDMEK          -1.0000     NotChecked  -15.2936    1846.8196   ✗       
+975   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -15.5715    1945.8880   ✗       
+976   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -15.9736    1945.8880   ✗       
+977   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -16.4189    1945.8880   ✗       
+978   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -16.4228    1945.8880   ✗       
+979   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -16.5617    1945.8880   ✗       
+980   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -16.8210    1945.8880   ✗       
+981   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -16.8249    1945.8880   ✗       
+982   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -16.8587    1945.8880   ✗       
+983   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -17.0188    1945.8880   ✗       
+984   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -17.1901    1945.8880   ✗       
+985   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -17.2417    1945.8880   ✗       
+986   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -17.2702    1945.8880   ✗       
+987   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -17.4091    1945.8880   ✗       
+988   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -17.4130    1945.8880   ✗       
+989   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -17.6723    1945.8880   ✗       
+990   +42.011PLEHGLLTNWDDMEK   -1.0000     NotChecked  -17.6874    1838.8509   ✗       
+991   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -17.7061    1945.8880   ✗       
+992   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -17.7100    1945.8880   ✗       
+993   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -17.8662    1945.8880   ✗       
+994   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -17.8701    1945.8880   ✗       
+995   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -18.0375    1945.8880   ✗       
+996   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -18.0413    1945.8880   ✗       
+997   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -18.0891    1945.8880   ✗       
+998   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -18.0930    1945.8880   ✗       
+999   YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -18.2604    1945.8880   ✗       
+1000  YPLEHGLVTNWDDMEK         -1.0000     NotChecked  -18.3672    1945.8880   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: YPLEHGLLTNWDDMEK
+Similarity: 0.9509
+De Novo Score: -0.9994
+Source: Database
+Correct: ✓
+

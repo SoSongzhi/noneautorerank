@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 118
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 717.3827
+Precursor charge: 3+
+Ground truth: IHEIIGMWN+0.984HIIDIAAFR
+Ground truth (normalized): IHEIIGMWN+0.984HIIDIAAFR
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 14
+Used for reranking: 14
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 14 (1.4%)
+Database matches: 2 (0.2%)
+Prosit predictions: 11 (1.1%)
+Failed: 1 (0.1%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 223/1000
+Rank by similarity: 1/1000
+Similarity: 0.9175
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     LHELLGMWN+0.984HLLDLAAFR 0.9175      Database    -9.8669     2149.1143   ✓       ✓
+2     LHELLGMWN+0.984HLLDLAAFR 0.9175      Database    -10.3321    2149.1143   ✓       ✓
+3     GHELGLGMWNHLLDLAAFR      0.5909      Prosit      -18.2994    2149.0891   ✓       
+4     KHELVGMWNHLLDLAFAR       0.5404      Prosit      -16.3190    2149.1255   ✓       
+5     KHELVGMWNHLLDLAFAR       0.5404      Prosit      -17.0733    2149.1255   ✓       
+6     KHELVGMWNHLLDLAAFR       0.5369      Prosit      -12.9102    2149.1255   ✓       
+7     KHELVGMWNHLLDLAAFR       0.5369      Prosit      -13.6645    2149.1255   ✓       
+8     KHELVGMWNHLLDLAAFR       0.5369      Prosit      -15.8175    2149.1255   ✓       
+9     KHELVGMWNHLLDLAAFR       0.5369      Prosit      -16.5718    2149.1255   ✓       
+10    KHELVGMWNHLLDLAAFR       0.5369      Prosit      -17.2966    2149.1255   ✓       
+11    KHELVGMWNHLLDLAAFR       0.5369      Prosit      -17.5594    2149.1255   ✓       
+12    KHELVGMWNHLLDLAAFR       0.5369      Prosit      -18.3137    2149.1255   ✓       
+13    KHELVSTWNHLLDLAAFR       0.5085      Prosit      -18.2524    2149.1432   ✓       
+14    LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -1.8780     2134.1146   ✗       
+15    LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -2.3432     2134.1146   ✗       
+16    LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -2.6323     2134.1146   ✗       
+17    LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -3.0975     2134.1146   ✗       
+18    LHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -3.2337     2058.0833   ✗       
+19    LHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -3.6989     2058.0833   ✗       
+20    LHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -3.9880     2058.0833   ✗       
+21    LHELLGMWNHLLDLAAFR       -1.0000     NotChecked  -4.1269     2148.1303   ✗       
+22    LHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -4.4532     2058.0833   ✗       
+23    LHELGVGMWNHLLDLAAAR      -1.0000     NotChecked  -4.4604     2115.1048   ✗       
+24    LHELLGMWNHLLDLAAFR       -1.0000     NotChecked  -4.5921     2148.1303   ✗       
+25    LHELVGTWNHLLDLAAFR       -1.0000     NotChecked  -4.7161     2104.1218   ✗       
+26    LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -4.7853     2134.1146   ✗       
+27    LHELGVGMWNHLLDLAAAR      -1.0000     NotChecked  -4.9256     2115.1048   ✗       
+28    LHELVGTWNHLLDLAAFR       -1.0000     NotChecked  -5.1813     2104.1218   ✗       
+29    LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -5.2505     2134.1146   ✗       
+30    LHELVGMWNHLLDLAFAR       -1.0000     NotChecked  -5.2869     2134.1146   ✗       
+31    LHELVGTWNHLLDLAAFR       -1.0000     NotChecked  -5.4704     2104.1218   ✗       
+32    LHELLGMWNHLLDLAAAR       -1.0000     NotChecked  -5.4826     2072.0990   ✗       
+33    LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -5.5396     2134.1146   ✗       
+34    LHELVSMWNHLLDLAAAR       -1.0000     NotChecked  -5.7378     2088.0939   ✗       
+35    LHELVGMWNHLLDLAFAR       -1.0000     NotChecked  -5.7521     2134.1146   ✗       
+36    LHELVGTWNHLLDLAAFR       -1.0000     NotChecked  -5.9356     2104.1218   ✗       
+37    LHELLGMWNHLLDLAAAR       -1.0000     NotChecked  -5.9478     2072.0990   ✗       
+38    LHELGLGMWNHLLDLAAAR      -1.0000     NotChecked  -5.9549     2129.1204   ✗       
+39    LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -6.0048     2134.1146   ✗       
+40    LHELVGMYNHLLDLAAFR       -1.0000     NotChecked  -6.0291     2111.0986   ✗       
+41    LHELVGMWNHLLDLAFAR       -1.0000     NotChecked  -6.0412     2134.1146   ✗       
+42    LHELVGTWNHLLDLAAAR       -1.0000     NotChecked  -6.0718     2028.0905   ✗       
+43    LHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -6.1410     2058.0833   ✗       
+44    LHELVSMWNHLLDLAAAR       -1.0000     NotChecked  -6.2030     2088.0939   ✗       
+45    LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -6.2645     2134.1146   ✗       
+46    LHELGLGMWNHLLDLAAAR      -1.0000     NotChecked  -6.4201     2129.1204   ✗       
+47    LHELVSMWNHLLDLAAAR       -1.0000     NotChecked  -6.4921     2088.0939   ✗       
+48    LHELVGMYNHLLDLAAFR       -1.0000     NotChecked  -6.4943     2111.0986   ✗       
+49    LHELVGMWNHLLDLAFAR       -1.0000     NotChecked  -6.5064     2134.1146   ✗       
+50    LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -6.5273     2134.1146   ✗       
+51    LHELVGTWNHLLDLAAAR       -1.0000     NotChecked  -6.5370     2028.0905   ✗       
+52    LHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -6.6062     2058.0833   ✗       
+53    LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -6.7297     2134.1146   ✗       
+54    LHELVGMYNHLLDLAAFR       -1.0000     NotChecked  -6.7834     2111.0986   ✗       
+55    LHELVGTWNHLLDLAAAR       -1.0000     NotChecked  -6.8261     2028.0905   ✗       
+56    LHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -6.8953     2058.0833   ✗       
+57    LHELVSMWNHLLDLAAAR       -1.0000     NotChecked  -6.9573     2088.0939   ✗       
+58    LHELGVSMWNHLLDLAAAR      -1.0000     NotChecked  -6.9645     2145.1153   ✗       
+59    LHELLGTWNHLLDLAAFR       -1.0000     NotChecked  -6.9650     2118.1374   ✗       
+60    LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -6.9925     2134.1146   ✗       
+61    LHELGMWNHLLDLAAFR        -1.0000     NotChecked  -7.0188     2035.0462   ✗       
+62    LHELLGMWNHLLDLAAFR       -1.0000     NotChecked  -7.0342     2148.1303   ✗       
+63    LHELVSTWNHLLDLAAFR       -1.0000     NotChecked  -7.2202     2134.1323   ✗       
+64    LHELVGMYNHLLDLAAFR       -1.0000     NotChecked  -7.2486     2111.0986   ✗       
+65    LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -7.2816     2134.1146   ✗       
+66    LHELVGTWNHLLDLAAAR       -1.0000     NotChecked  -7.2913     2028.0905   ✗       
+67    LHELGVGTWNHLLDLAAAR      -1.0000     NotChecked  -7.2985     2085.1119   ✗       
+68    LHELLGMWNHLLDLAAFR       -1.0000     NotChecked  -7.3002     2148.1303   ✗       
+69    LHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -7.3605     2058.0833   ✗       
+70    LHELGVGMWNHLLDLAAAR      -1.0000     NotChecked  -7.3677     2115.1048   ✗       
+71    LHELVGMYNHLLDLAAAR       -1.0000     NotChecked  -7.3847     2035.0673   ✗       
+72    LHELGVSMWNHLLDLAAAR      -1.0000     NotChecked  -7.4297     2145.1153   ✗       
+73    LHELLGTWNHLLDLAAFR       -1.0000     NotChecked  -7.4301     2118.1374   ✗       
+74    LHELGMWNHLLDLAAFR        -1.0000     NotChecked  -7.4840     2035.0462   ✗       
+75    LHELGGMWNHLLDLAAFR       -1.0000     NotChecked  -7.4912     2092.0677   ✗       
+76    LHELLGMWNHLLDLAAFR       -1.0000     NotChecked  -7.4994     2148.1303   ✗       
+77    LHELLGMWNHLLDLAFAR       -1.0000     NotChecked  -7.5357     2148.1303   ✗       
+78    LHELVLGTWNHLLDLAAAR      -1.0000     NotChecked  -7.5663     2141.1745   ✗       
+79    LHELVGMWN+0.984HLLDLAAFR -1.0000     NotChecked  -7.6180     2135.0986   ✗       
+80    LHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -7.6202     2058.0833   ✗       
+81    LHELVGTWNHLLDLAAFR       -1.0000     NotChecked  -7.6234     2104.1218   ✗       
+82    LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -7.6472     2134.1146   ✗       
+83    LHQ+0.984LVGMWNHLLDLAAFR -1.0000     NotChecked  -7.6494     2134.1146   ✗       
+84    LHELVSTWNHLLDLAAFR       -1.0000     NotChecked  -7.6854     2134.1323   ✗       
+85    LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -7.7468     2134.1146   ✗       
+86    LHELGVGTWNHLLDLAAAR      -1.0000     NotChecked  -7.7637     2085.1119   ✗       
+87    LHELLGMWNHLLDLAAFR       -1.0000     NotChecked  -7.7654     2148.1303   ✗       
+88    LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -7.7888     2134.1146   ✗       
+89    LHELGVGMWNHLLDLAAAR      -1.0000     NotChecked  -7.8329     2115.1048   ✗       
+90    LHELVGMYNHLLDLAAAR       -1.0000     NotChecked  -7.8499     2035.0673   ✗       
+91    LHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -7.8830     2058.0833   ✗       
+92    LHELGGMWNHLLDLAAFR       -1.0000     NotChecked  -7.9564     2092.0677   ✗       
+93    LHELVSTWNHLLDLAAFR       -1.0000     NotChecked  -7.9745     2134.1323   ✗       
+94    LHELLSMWNHLLDLAAAR       -1.0000     NotChecked  -7.9867     2102.1095   ✗       
+95    LHELLGMWNHLLDLAFAR       -1.0000     NotChecked  -8.0009     2148.1303   ✗       
+96    LHELVAMWNHLLDLAAFR       -1.0000     NotChecked  -8.0246     2148.1303   ✗       
+97    LHELVLGTWNHLLDLAAAR      -1.0000     NotChecked  -8.0315     2141.1745   ✗       
+98    LHELVGMWN+0.984HLLDLAAFR -1.0000     NotChecked  -8.0832     2135.0986   ✗       
+99    LHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -8.0854     2058.0833   ✗       
+100   LHELVGTWNHLLDLAAFR       -1.0000     NotChecked  -8.0886     2104.1218   ✗       
+101   LHELGGMWNHLLDLAAFR       -1.0000     NotChecked  -8.1118     2092.0677   ✗       
+102   LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -8.1124     2134.1146   ✗       
+103   LHQ+0.984LVGMWNHLLDLAAFR -1.0000     NotChecked  -8.1146     2134.1146   ✗       
+104   LHELVGTWNHLLDLAFAR       -1.0000     NotChecked  -8.1250     2104.1218   ✗       
+105   LHELVGMYNHLLDLAAAR       -1.0000     NotChecked  -8.1390     2035.0673   ✗       
+106   LHELVGMWNHLLDLAFAR       -1.0000     NotChecked  -8.1942     2134.1146   ✗       
+107   LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -8.2540     2134.1146   ✗       
+108   LHELLGMYNHLLDLAAFR       -1.0000     NotChecked  -8.2779     2125.1143   ✗       
+109   LHELLGTWNHLLDLAAAR       -1.0000     NotChecked  -8.3206     2042.1061   ✗       
+110   LHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -8.3482     2058.0833   ✗       
+111   LHELVGMWNHLLN+0.984LAAFR -1.0000     NotChecked  -8.3602     2134.1146   ✗       
+112   LHELVGMWN+0.984HLLDLAAFR -1.0000     NotChecked  -8.3723     2135.0986   ✗       
+113   LHELGMWNHLLDLAAAR        -1.0000     NotChecked  -8.3745     1959.0149   ✗       
+114   LHELVGTWNHLLDLAAFR       -1.0000     NotChecked  -8.3777     2104.1218   ✗       
+115   LHELLGMWNHLLDLAAAR       -1.0000     NotChecked  -8.3899     2072.0990   ✗       
+116   LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -8.4015     2134.1146   ✗       
+117   LHQ+0.984LVGMWNHLLDLAAFR -1.0000     NotChecked  -8.4037     2134.1146   ✗       
+118   LHELVMWNHLLDLAAFR        -1.0000     NotChecked  -8.4059     2077.0931   ✗       
+119   LHELVSTWNHLLDLAAFR       -1.0000     NotChecked  -8.4397     2134.1323   ✗       
+120   LHELLSMWNHLLDLAAAR       -1.0000     NotChecked  -8.4519     2102.1095   ✗       
+121   LHELVAMWNHLLDLAAFR       -1.0000     NotChecked  -8.4898     2148.1303   ✗       
+122   LHELVSMYNHLLDLAAFR       -1.0000     NotChecked  -8.5332     2141.1092   ✗       
+123   LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -8.5431     2134.1146   ✗       
+124   LHELVSTWNHLLDLAAAR       -1.0000     NotChecked  -8.5759     2058.1010   ✗       
+125   LHELGGMWNHLLDLAAFR       -1.0000     NotChecked  -8.5770     2092.0677   ✗       
+126   LHELGGMWNHLLDLAAFR       -1.0000     NotChecked  -8.5842     2092.0677   ✗       
+127   LHELVGTWNHLLDLAFAR       -1.0000     NotChecked  -8.5902     2104.1218   ✗       
+128   LHELVTMWNHLLDLAAAR       -1.0000     NotChecked  -8.5919     2102.1095   ✗       
+129   LHELVGSWNHLLDLAAFR       -1.0000     NotChecked  -8.5934     2090.1061   ✗       
+130   LHELVGMYNHLLDLAAAR       -1.0000     NotChecked  -8.6042     2035.0673   ✗       
+131   LHELGVGMYNHLLDLAAAR      -1.0000     NotChecked  -8.6114     2092.0888   ✗       
+132   LHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -8.6373     2058.0833   ✗       
+133   LHELVSMWNHLLDLAAAR       -1.0000     NotChecked  -8.6451     2088.0939   ✗       
+134   LHELLGMWNHLLDLAAAR       -1.0000     NotChecked  -8.6559     2072.0990   ✗       
+135   LHELVGMWNHLLDLAFAR       -1.0000     NotChecked  -8.6594     2134.1146   ✗       
+136   LHELVGGMWNHLLDLAAAR      -1.0000     NotChecked  -8.7132     2115.1048   ✗       
+137   LHELLGMYNHLLDLAAFR       -1.0000     NotChecked  -8.7431     2125.1143   ✗       
+138   LHELLGMWNHLLDLAAFR       -1.0000     NotChecked  -8.7761     2148.1303   ✗       
+139   LHELVAMWNHLLDLAAFR       -1.0000     NotChecked  -8.7789     2148.1303   ✗       
+140   LHELLGTWNHLLDLAAAR       -1.0000     NotChecked  -8.7858     2042.1061   ✗       
+141   LHELGLGTWNHLLDLAAAR      -1.0000     NotChecked  -8.7930     2099.1276   ✗       
+142   LHELVGMWNHLLN+0.984LAAFR -1.0000     NotChecked  -8.8254     2134.1146   ✗       
+143   LHELVGMWN+0.984HLLDLAAFR -1.0000     NotChecked  -8.8375     2135.0986   ✗       
+144   LHELGMWNHLLDLAAAR        -1.0000     NotChecked  -8.8397     1959.0149   ✗       
+145   LHELVGTWNHLLDLAAFR       -1.0000     NotChecked  -8.8429     2104.1218   ✗       
+146   LHELGGMWNHLLDLAAAR       -1.0000     NotChecked  -8.8468     2016.0364   ✗       
+147   LHELLGMWNHLLDLAAAR       -1.0000     NotChecked  -8.8551     2072.0990   ✗       
+148   LHELGLGMWNHLLDLAAAR      -1.0000     NotChecked  -8.8622     2129.1204   ✗       
+149   LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -8.8667     2134.1146   ✗       
+150   LHELVGTYNHLLDLAAFR       -1.0000     NotChecked  -8.8671     2081.1058   ✗       
+151   LHQ+0.984LVGMWNHLLDLAAFR -1.0000     NotChecked  -8.8689     2134.1146   ✗       
+152   LHELVMWNHLLDLAAFR        -1.0000     NotChecked  -8.8711     2077.0931   ✗       
+153   LHELVLGMYNHLLDLAAAR      -1.0000     NotChecked  -8.8793     2148.1514   ✗       
+154   LHELVGTWNHLLDLAFAR       -1.0000     NotChecked  -8.8793     2104.1218   ✗       
+155   LHELVGMYNHLLDLAAFR       -1.0000     NotChecked  -8.9364     2111.0986   ✗       
+156   LHELVGMWNHLLDLAFAR       -1.0000     NotChecked  -8.9485     2134.1146   ✗       
+157   LHELVGMWN+0.984HLLDLAAAR -1.0000     NotChecked  -8.9737     2059.0673   ✗       
+158   LHELVGTWNHLLDLAAAR       -1.0000     NotChecked  -8.9791     2028.0905   ✗       
+159   LHELVSMYNHLLDLAAFR       -1.0000     NotChecked  -8.9984     2141.1092   ✗       
+160   LHQ+0.984LVGMWNHLLDLAAAR -1.0000     NotChecked  -9.0051     2058.0833   ✗       
+161   LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -9.0083     2134.1146   ✗       
+162   LHELVSTWNHLLDLAAAR       -1.0000     NotChecked  -9.0411     2058.1010   ✗       
+163   LHELGGMWNHLLDLAAFR       -1.0000     NotChecked  -9.0494     2092.0677   ✗       
+164   LHELVTMWNHLLDLAAAR       -1.0000     NotChecked  -9.0571     2102.1095   ✗       
+165   LHELVGSWNHLLDLAAFR       -1.0000     NotChecked  -9.0586     2090.1061   ✗       
+166   LHELGMWNHLLDLAFFR        -1.0000     NotChecked  -9.0720     2111.0775   ✗       
+167   LHELGVGMYNHLLDLAAAR      -1.0000     NotChecked  -9.0766     2092.0888   ✗       
+168   LHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -9.1025     2058.0833   ✗       
+169   LHELVGTWNHLLDLAAFR       -1.0000     NotChecked  -9.1026     2104.1218   ✗       
+170   LHELGVGMWNHLLDLAAAR      -1.0000     NotChecked  -9.1097     2115.1048   ✗       
+171   LHELVSMWNHLLDLAAAR       -1.0000     NotChecked  -9.1103     2088.0939   ✗       
+172   LHELVGMWNHLLN+0.984LAAFR -1.0000     NotChecked  -9.1145     2134.1146   ✗       
+173   LHELLGMWNHLLDLAAAR       -1.0000     NotChecked  -9.1211     2072.0990   ✗       
+174   LHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -9.1445     2058.0833   ✗       
+175   LHELVMWNHLLDLAAFR        -1.0000     NotChecked  -9.1602     2077.0931   ✗       
+176   LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -9.1718     2134.1146   ✗       
+177   LHELVGGMWNHLLDLAAAR      -1.0000     NotChecked  -9.1784     2115.1048   ✗       
+178   LHELLGMWNHLLDLAAFR       -1.0000     NotChecked  -9.2413     2148.1303   ✗       
+179   LHELVAMWNHLLDLAAFR       -1.0000     NotChecked  -9.2441     2148.1303   ✗       
+180   LHELGLGTWNHLLDLAAAR      -1.0000     NotChecked  -9.2582     2099.1276   ✗       
+181   LHELVSMYNHLLDLAAFR       -1.0000     NotChecked  -9.2875     2141.1092   ✗       
+182   LHELGGMWNHLLDLAAAR       -1.0000     NotChecked  -9.3120     2016.0364   ✗       
+183   LHELGLGMWNHLLDLAAAR      -1.0000     NotChecked  -9.3274     2129.1204   ✗       
+184   LHELVSTWNHLLDLAAAR       -1.0000     NotChecked  -9.3302     2058.1010   ✗       
+185   LHELVGTYNHLLDLAAFR       -1.0000     NotChecked  -9.3323     2081.1058   ✗       
+186   LHELVLGMYNHLLDLAAAR      -1.0000     NotChecked  -9.3445     2148.1514   ✗       
+187   LHELVGTWNHLLDLAFAR       -1.0000     NotChecked  -9.3445     2104.1218   ✗       
+188   LHELVTMWNHLLDLAAAR       -1.0000     NotChecked  -9.3462     2102.1095   ✗       
+189   LHELVGSWNHLLDLAAFR       -1.0000     NotChecked  -9.3477     2090.1061   ✗       
+190   LHELVGAWNHLLDLAAFR       -1.0000     NotChecked  -9.3542     2074.1112   ✗       
+191   LHELVGTWNHLLDLAAFR       -1.0000     NotChecked  -9.3654     2104.1218   ✗       
+192   LHELVAMWNHLLDLAAAR       -1.0000     NotChecked  -9.3803     2072.0990   ✗       
+193   LHELVSMWNHLLDLAAAR       -1.0000     NotChecked  -9.3994     2088.0939   ✗       
+194   LHELVGMYNHLLDLAAFR       -1.0000     NotChecked  -9.4016     2111.0986   ✗       
+195   LHELVGMWNHLLDLAFAR       -1.0000     NotChecked  -9.4137     2134.1146   ✗       
+196   LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -9.4346     2134.1146   ✗       
+197   LHELVGMYNHLLDLAFAR       -1.0000     NotChecked  -9.4379     2111.0986   ✗       
+198   LHELVGMWN+0.984HLLDLAAAR -1.0000     NotChecked  -9.4389     2059.0673   ✗       
+199   LHELVGTWNHLLDLAAAR       -1.0000     NotChecked  -9.4443     2028.0905   ✗       
+200   LHELGGMWNHLLDLAAAR       -1.0000     NotChecked  -9.4675     2016.0364   ✗       
+201   LHELLSTWNHLLDLAAFR       -1.0000     NotChecked  -9.4691     2148.1480   ✗       
+202   LHQ+0.984LVGMWNHLLDLAAAR -1.0000     NotChecked  -9.4703     2058.0833   ✗       
+203   LHELSMWNHLLDLAAFR        -1.0000     NotChecked  -9.5229     2065.0568   ✗       
+204   LHELAVGMWNHLLDLAAAR      -1.0000     NotChecked  -9.5304     2129.1204   ✗       
+205   LHELGMWNHLLDLAFFR        -1.0000     NotChecked  -9.5372     2111.0775   ✗       
+206   LHELVGTWNHLLDLAAFR       -1.0000     NotChecked  -9.5678     2104.1218   ✗       
+207   LHELGVGMWNHLLDLAAAR      -1.0000     NotChecked  -9.5749     2115.1048   ✗       
+208   LHELVGMWNHLLN+0.984LAAFR -1.0000     NotChecked  -9.5797     2134.1146   ✗       
+209   LHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -9.6097     2058.0833   ✗       
+210   LHELVGTYNHLLDLAAFR       -1.0000     NotChecked  -9.6214     2081.1058   ✗       
+211   LHELAGMWNHLLDLAAFR       -1.0000     NotChecked  -9.6247     2106.0833   ✗       
+212   LHELVMWNHLLDLAAFR        -1.0000     NotChecked  -9.6254     2077.0931   ✗       
+213   LHELGVMWNHLLDLAAFR       -1.0000     NotChecked  -9.6326     2134.1146   ✗       
+214   LHELLGMYNHLLDLAAAR       -1.0000     NotChecked  -9.6336     2049.0830   ✗       
+215   LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -9.6370     2134.1146   ✗       
+216   LHELVGMWNHLLDLAFAR       -1.0000     NotChecked  -9.6733     2134.1146   ✗       
+217   LHELVGMYNHLLDLAAFR       -1.0000     NotChecked  -9.6907     2111.0986   ✗       
+218   LHELVGMWNHLLDLAFR        -1.0000     NotChecked  -9.7004     2063.0775   ✗       
+219   LHELVGMWNHLLN+0.984LAAAR -1.0000     NotChecked  -9.7159     2058.0833   ✗       
+220   LHELVGMWN+0.984HLLDLAAAR -1.0000     NotChecked  -9.7280     2059.0673   ✗       
+221   LHELSVGMWNHLLDLAAAR      -1.0000     NotChecked  -9.7313     2145.1153   ✗       
+222   LHELVGTWNHLLDLAAAR       -1.0000     NotChecked  -9.7334     2028.0905   ✗       
+223   LHELVSMYNHLLDLAAFR       -1.0000     NotChecked  -9.7527     2141.1092   ✗       
+224   LHQ+0.984LVGMWNHLLDLAAAR -1.0000     NotChecked  -9.7594     2058.0833   ✗       
+225   LHELVMWNHLLDLAAAR        -1.0000     NotChecked  -9.7616     2001.0618   ✗       
+226   LHELVSTWNHLLDLAAAR       -1.0000     NotChecked  -9.7954     2058.1010   ✗       
+227   LHELGVSTWNHLLDLAAAR      -1.0000     NotChecked  -9.8026     2115.1225   ✗       
+228   LHELVTMWNHLLDLAAAR       -1.0000     NotChecked  -9.8114     2102.1095   ✗       
+229   LHELVGSWNHLLDLAAFR       -1.0000     NotChecked  -9.8129     2090.1061   ✗       
+230   LHELVGAWNHLLDLAAFR       -1.0000     NotChecked  -9.8194     2074.1112   ✗       
+231   LHELGVGSWNHLLDLAAFR      -1.0000     NotChecked  -9.8201     2147.1276   ✗       
+232   LHELVGTWNHLLDLAAFR       -1.0000     NotChecked  -9.8306     2104.1218   ✗       
+233   LHELVAMWNHLLDLAAAR       -1.0000     NotChecked  -9.8455     2072.0990   ✗       
+234   LHELGTWNHLLDLAAFR        -1.0000     NotChecked  -9.8569     2005.0534   ✗       
+235   LHELVSMWNHLLDLAAAR       -1.0000     NotChecked  -9.8646     2088.0939   ✗       
+236   LHELGVSMWNHLLDLAAAR      -1.0000     NotChecked  -9.8718     2145.1153   ✗       
+237   LHELLGTWNHLLDLAAFR       -1.0000     NotChecked  -9.8723     2118.1374   ✗       
+238   LHELVSMYNHLLDLAAAR       -1.0000     NotChecked  -9.8889     2065.0779   ✗       
+239   LHELLGMWNHLLDLAAFR       -1.0000     NotChecked  -9.8961     2148.1303   ✗       
+240   LHQ+0.984LLGMWNHLLDLAAFR -1.0000     NotChecked  -9.8982     2148.1303   ✗       
+241   LHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -9.8988     2058.0833   ✗       
+242   LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -9.8998     2134.1146   ✗       
+243   LHELVGMYNHLLDLAFAR       -1.0000     NotChecked  -9.9031     2111.0986   ✗       
+244   LHELGMWNHLLDLAAFR        -1.0000     NotChecked  -9.9261     2035.0462   ✗       
+245   LHELGGMWNHLLDLAAAR       -1.0000     NotChecked  -9.9327     2016.0364   ✗       
+246   LHELLSTWNHLLDLAAFR       -1.0000     NotChecked  -9.9343     2148.1480   ✗       
+247   LHELVGMWNHLLDLAFAR       -1.0000     NotChecked  -9.9362     2134.1146   ✗       
+248   LHELGGMWNHLLDLAAAR       -1.0000     NotChecked  -9.9399     2016.0364   ✗       
+249   LHELVGSWNHLLDLAAAR       -1.0000     NotChecked  -9.9491     2014.0748   ✗       
+250   LHELSMWNHLLDLAAFR        -1.0000     NotChecked  -9.9881     2065.0568   ✗       
+251   LHELGSMWNHLLDLAAFR       -1.0000     NotChecked  -9.9953     2122.0782   ✗       
+252   LHELAVGMWNHLLDLAAAR      -1.0000     NotChecked  -9.9956     2129.1204   ✗       
+253   LHELLVGTWNHLLDLAAAR      -1.0000     NotChecked  -9.9995     2141.1745   ✗       
+254   LHELLGMWNHLLDLAAFR       -1.0000     NotChecked  -10.0376    2148.1303   ✗       
+255   LHELVTTWNHLLDLAAFR       -1.0000     NotChecked  -10.0743    2148.1480   ✗       
+256   LHELVGTYNHLLDLAAFR       -1.0000     NotChecked  -10.0866    2081.1058   ✗       
+257   LHELVGMWNHLLDLALAR       -1.0000     NotChecked  -10.0876    2100.1303   ✗       
+258   LHELAGMWNHLLDLAAFR       -1.0000     NotChecked  -10.0899    2106.0833   ✗       
+259   LHELGVGTYNHLLDLAAFR      -1.0000     NotChecked  -10.0938    2138.1273   ✗       
+260   LHELGVMWNHLLDLAAFR       -1.0000     NotChecked  -10.0978    2134.1146   ✗       
+261   LHELLGMYNHLLDLAAAR       -1.0000     NotChecked  -10.0988    2049.0830   ✗       
+262   LHELGLGMYNHLLDLAAAR      -1.0000     NotChecked  -10.1060    2106.1044   ✗       
+263   LHELVGAWNHLLDLAAFR       -1.0000     NotChecked  -10.1085    2074.1112   ✗       
+264   LHELVGTWNHLLDLAAFR       -1.0000     NotChecked  -10.1197    2104.1218   ✗       
+265   LHELVSMWNHLLDLAAAR       -1.0000     NotChecked  -10.1243    2088.0939   ✗       
+266   LHELVSTWNHLLDLAAFR       -1.0000     NotChecked  -10.1275    2134.1323   ✗       
+267   LHELLGMWNHLLDLAAAR       -1.0000     NotChecked  -10.1318    2072.0990   ✗       
+268   LHELVAMWNHLLDLAAAR       -1.0000     NotChecked  -10.1346    2072.0990   ✗       
+269   LHELLGTWNHLLDLAAFR       -1.0000     NotChecked  -10.1383    2118.1374   ✗       
+270   LHELVGMWNHLLDLAFAR       -1.0000     NotChecked  -10.1385    2134.1146   ✗       
+271   LHELVGMYNHLLDLAAFR       -1.0000     NotChecked  -10.1559    2111.0986   ✗       
+272   LHELVGMWNHLLDLAFR        -1.0000     NotChecked  -10.1656    2063.0775   ✗       
+273   LHELVGMWNHLLN+0.984LAAAR -1.0000     NotChecked  -10.1811    2058.0833   ✗       
+274   LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -10.1889    2134.1146   ✗       
+275   LHELLGMWNHLLDLAAFR       -1.0000     NotChecked  -10.1921    2148.1303   ✗       
+276   LHELVGMYNHLLDLAFAR       -1.0000     NotChecked  -10.1922    2111.0986   ✗       
+277   LHELVGMWN+0.984HLLDLAAAR -1.0000     NotChecked  -10.1932    2059.0673   ✗       
+278   LHELSVGMWNHLLDLAAAR      -1.0000     NotChecked  -10.1965    2145.1153   ✗       
+279   LHELVGTWNHLLDLAAAR       -1.0000     NotChecked  -10.1986    2028.0905   ✗       
+280   LHELGVGMWN+0.984HLLDLAAAR-1.0000     NotChecked  -10.2004    2116.0888   ✗       
+281   LHELGVGTWNHLLDLAAAR      -1.0000     NotChecked  -10.2058    2085.1119   ✗       
+282   LHELLGMWNHLLDLAAFR       -1.0000     NotChecked  -10.2075    2148.1303   ✗       
+283   LHELVGTYNHLLDLAAAR       -1.0000     NotChecked  -10.2228    2005.0745   ✗       
+284   LHQ+0.984LVGMWNHLLDLAAAR -1.0000     NotChecked  -10.2246    2058.0833   ✗       
+285   LHELVAGMWNHLLDLAAAR      -1.0000     NotChecked  -10.2261    2129.1204   ✗       
+286   LHELVMWNHLLDLAAAR        -1.0000     NotChecked  -10.2268    2001.0618   ✗       
+287   LHQ+0.984LGVGMWNHLLDLAAAR-1.0000     NotChecked  -10.2318    2115.1048   ✗       
+288   LHELGVSTWNHLLDLAAAR      -1.0000     NotChecked  -10.2678    2115.1225   ✗       
+289   LHELGVGSWNHLLDLAAFR      -1.0000     NotChecked  -10.2853    2147.1276   ✗       
+290   LHELVGMYNHLLDLAAAR       -1.0000     NotChecked  -10.2921    2035.0673   ✗       
+291   LHELGTWNHLLDLAAFR        -1.0000     NotChecked  -10.3221    2005.0534   ✗       
+292   LHELGGTWNHLLDLAAFR       -1.0000     NotChecked  -10.3292    2062.0748   ✗       
+293   LHELGVSMWNHLLDLAAAR      -1.0000     NotChecked  -10.3370    2145.1153   ✗       
+294   LHELLGTWNHLLDLAAFR       -1.0000     NotChecked  -10.3375    2118.1374   ✗       
+295   LHELVSMYNHLLDLAAAR       -1.0000     NotChecked  -10.3541    2065.0779   ✗       
+296   LHELLGMWNHLLDLAAFR       -1.0000     NotChecked  -10.3613    2148.1303   ✗       
+297   LHQ+0.984LLGMWNHLLDLAAFR -1.0000     NotChecked  -10.3634    2148.1303   ✗       
+298   LHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -10.3640    2058.0833   ✗       
+299   LHELGVGMWNHLLDLAAAR      -1.0000     NotChecked  -10.3712    2115.1048   ✗       
+300   LHELLGTWNHLLDLAFAR       -1.0000     NotChecked  -10.3738    2118.1374   ✗       
+301   LHELVSMWNHLLDLAAAR       -1.0000     NotChecked  -10.3871    2088.0939   ✗       
+302   LHELGMWNHLLDLAAFR        -1.0000     NotChecked  -10.3913    2035.0462   ✗       
+303   LHELGGMWNHLLDLAAFR       -1.0000     NotChecked  -10.3985    2092.0677   ✗       
+304   LHELVGMWNHLLDLAFAR       -1.0000     NotChecked  -10.4014    2134.1146   ✗       
+305   LHELGGMWNHLLDLAAAR       -1.0000     NotChecked  -10.4051    2016.0364   ✗       
+306   LHELVGMWNHLLDLAALR       -1.0000     NotChecked  -10.4122    2100.1303   ✗       
+307   LHELVGSWNHLLDLAAAR       -1.0000     NotChecked  -10.4143    2014.0748   ✗       
+308   LHELVGMYNHLLDLAAFR       -1.0000     NotChecked  -10.4155    2111.0986   ✗       
+309   LHELGMWNHLLDLAFAR        -1.0000     NotChecked  -10.4276    2035.0462   ✗       
+310   LHELLGMWNHLLDLAFAR       -1.0000     NotChecked  -10.4430    2148.1303   ✗       
+311   LHELVGMWNHLLDLAFR        -1.0000     NotChecked  -10.4547    2063.0775   ✗       
+312   LHELVGTWN+0.984HLLDLAAFR -1.0000     NotChecked  -10.4561    2105.1058   ✗       
+313   LHELVGTWNHLLDLAAAR       -1.0000     NotChecked  -10.4583    2028.0905   ✗       
+314   LHELGSMWNHLLDLAAFR       -1.0000     NotChecked  -10.4605    2122.0782   ✗       
+315   LHELLVGTWNHLLDLAAAR      -1.0000     NotChecked  -10.4647    2141.1745   ✗       
+316   LHELVGMWNHLLN+0.984LAAAR -1.0000     NotChecked  -10.4702    2058.0833   ✗       
+317   LHELVLGTWNHLLDLAAAR      -1.0000     NotChecked  -10.4737    2141.1745   ✗       
+318   LHELVGTWNHLLDLAAFR       -1.0000     NotChecked  -10.4853    2104.1218   ✗       
+319   LHQ+0.984LVGTWNHLLDLAAFR -1.0000     NotChecked  -10.4875    2104.1218   ✗       
+320   LHELLGMWNHLLDLAAFR       -1.0000     NotChecked  -10.5028    2148.1303   ✗       
+321   LHELVMWNHLLDLAAAR        -1.0000     NotChecked  -10.5159    2001.0618   ✗       
+322   LHELVGMWN+0.984HLLDLAAFR -1.0000     NotChecked  -10.5253    2135.0986   ✗       
+323   LHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -10.5275    2058.0833   ✗       
+324   LHELVTTWNHLLDLAAFR       -1.0000     NotChecked  -10.5395    2148.1480   ✗       
+325   LHELVGMWNHLLDLALAR       -1.0000     NotChecked  -10.5528    2100.1303   ✗       
+326   LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -10.5545    2134.1146   ✗       
+327   LHQ+0.984LVGMWNHLLDLAAFR -1.0000     NotChecked  -10.5567    2134.1146   ✗       
+328   LHELGVGTYNHLLDLAAFR      -1.0000     NotChecked  -10.5590    2138.1273   ✗       
+329   LHELGLGMYNHLLDLAAAR      -1.0000     NotChecked  -10.5712    2106.1044   ✗       
+330   LHELVGAWNHLLDLAAFR       -1.0000     NotChecked  -10.5737    2074.1112   ✗       
+331   LHELGVGAWNHLLDLAAFR      -1.0000     NotChecked  -10.5809    2131.1327   ✗       
+332   LHELVGTWNHLLDLAAFR       -1.0000     NotChecked  -10.5849    2104.1218   ✗       
+333   LHELVSMWNHLLDLAAAR       -1.0000     NotChecked  -10.5895    2088.0939   ✗       
+334   LHELVSTWNHLLDLAAFR       -1.0000     NotChecked  -10.5927    2134.1323   ✗       
+335   LHELLGMWNHLLDLAAAR       -1.0000     NotChecked  -10.5970    2072.0990   ✗       
+336   LHELVAMWNHLLDLAAAR       -1.0000     NotChecked  -10.5998    2072.0990   ✗       
+337   LHELLGTWNHLLDLAAFR       -1.0000     NotChecked  -10.6035    2118.1374   ✗       
+338   LHELGLGMWNHLLDLAAAR      -1.0000     NotChecked  -10.6042    2129.1204   ✗       
+339   LHELGVAMWNHLLDLAAAR      -1.0000     NotChecked  -10.6069    2129.1204   ✗       
+340   LHELLGMWNHLLN+0.984LAAFR -1.0000     NotChecked  -10.6091    2148.1303   ✗       
+341   LHELGSMWNHLLDLAAFR       -1.0000     NotChecked  -10.6159    2122.0782   ✗       
+342   LHELVGTWNHLLDLAAFR       -1.0000     NotChecked  -10.6269    2104.1218   ✗       
+343   LHELVSTWNHLLDLAFAR       -1.0000     NotChecked  -10.6291    2134.1323   ✗       
+344   LHELVSMYNHLLDLAAAR       -1.0000     NotChecked  -10.6432    2065.0779   ✗       
+345   LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -10.6541    2134.1146   ✗       
+346   LHELLMWNHLLDLAAFR        -1.0000     NotChecked  -10.6548    2091.1088   ✗       
+347   LHELLGMWNHLLDLAAFR       -1.0000     NotChecked  -10.6573    2148.1303   ✗       
+348   LHELVGMYNHLLDLAFAR       -1.0000     NotChecked  -10.6574    2111.0986   ✗       
+349   LHELGVGMWN+0.984HLLDLAAAR-1.0000     NotChecked  -10.6656    2116.0888   ✗       
+350   LHELGVGTWNHLLDLAAAR      -1.0000     NotChecked  -10.6710    2085.1119   ✗       
+351   LHELLGMWNHLLDLAAFR       -1.0000     NotChecked  -10.6727    2148.1303   ✗       
+352   LHELVGMYNHLLDLAAFR       -1.0000     NotChecked  -10.6783    2111.0986   ✗       
+353   LHELVGTYNHLLDLAAAR       -1.0000     NotChecked  -10.6880    2005.0745   ✗       
+354   LHELVGMWNHLLDLAFAR       -1.0000     NotChecked  -10.6905    2134.1146   ✗       
+355   LHELVAGMWNHLLDLAAAR      -1.0000     NotChecked  -10.6913    2129.1204   ✗       
+356   LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -10.6961    2134.1146   ✗       
+357   LHQ+0.984LGVGMWNHLLDLAAAR-1.0000     NotChecked  -10.6970    2115.1048   ✗       
+358   LHELVGSWNHLLDLAAAR       -1.0000     NotChecked  -10.7034    2014.0748   ✗       
+359   LHELLGMWNHLLDLAFAR       -1.0000     NotChecked  -10.7091    2148.1303   ✗       
+360   LHELVGAWNHLLDLAAAR       -1.0000     NotChecked  -10.7099    1998.0799   ✗       
+361   LHELVGTWNHLLDLAAAR       -1.0000     NotChecked  -10.7211    2028.0905   ✗       
+362   LHELVGMYNHLLDLAAAR       -1.0000     NotChecked  -10.7573    2035.0673   ✗       
+363   LHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -10.7903    2058.0833   ✗       
+364   LHELTGMWNHLLDLAAFR       -1.0000     NotChecked  -10.7923    2136.0939   ✗       
+365   LHELGGTWNHLLDLAAFR       -1.0000     NotChecked  -10.7944    2062.0748   ✗       
+366   LHELLSTWNHLLDLAAAR       -1.0000     NotChecked  -10.8248    2072.1167   ✗       
+367   LHELVNMWNHLLDLAAAR       -1.0000     NotChecked  -10.8261    2115.1048   ✗       
+368   LHELVTTWNHLLDLAAFR       -1.0000     NotChecked  -10.8286    2148.1480   ✗       
+369   LHELGVGMWNHLLDLAAAR      -1.0000     NotChecked  -10.8364    2115.1048   ✗       
+370   LHELLGTWNHLLDLAFAR       -1.0000     NotChecked  -10.8390    2118.1374   ✗       
+371   LHELLTMWNHLLDLAAAR       -1.0000     NotChecked  -10.8407    2116.1252   ✗       
+372   LHELVGMWNHLLDLALAR       -1.0000     NotChecked  -10.8419    2100.1303   ✗       
+373   LHELLGSWNHLLDLAAFR       -1.0000     NotChecked  -10.8423    2104.1218   ✗       
+374   LHELVSMWNHLLDLAAAR       -1.0000     NotChecked  -10.8523    2088.0939   ✗       
+375   LHELVMMWNHLLDLAAAR       -1.0000     NotChecked  -10.8587    2132.1023   ✗       
+376   LHELVATWNHLLDLAAFR       -1.0000     NotChecked  -10.8626    2118.1374   ✗       
+377   LHELGGMWNHLLDLAAFR       -1.0000     NotChecked  -10.8637    2092.0677   ✗       
+378   LHELVGMWNHLLDLAALR       -1.0000     NotChecked  -10.8774    2100.1303   ✗       
+379   LHELSMWNHLLDLAAAR        -1.0000     NotChecked  -10.8786    1989.0255   ✗       
+380   LHELVGMYNHLLDLAAFR       -1.0000     NotChecked  -10.8807    2111.0986   ✗       
+381   LHELVSTWNHLLDLAAFR       -1.0000     NotChecked  -10.8818    2134.1323   ✗       
+382   LHELGMWNHLLDLAFAR        -1.0000     NotChecked  -10.8928    2035.0462   ✗       
+383   LHELLSMWNHLLDLAAAR       -1.0000     NotChecked  -10.8940    2102.1095   ✗       
+384   LHELGGMWNHLLDLAFAR       -1.0000     NotChecked  -10.9000    2092.0677   ✗       
+385   LHELLGMWNHLLDLAFAR       -1.0000     NotChecked  -10.9082    2148.1303   ✗       
+386   LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -10.9137    2134.1146   ✗       
+387   LHELVGMWNHLLDLAFR        -1.0000     NotChecked  -10.9199    2063.0775   ✗       
+388   LHELVGTWN+0.984HLLDLAAFR -1.0000     NotChecked  -10.9213    2105.1058   ✗       
+389   LHELVGTWNHLLDLAAAR       -1.0000     NotChecked  -10.9235    2028.0905   ✗       
+390   LHELGVGMWNHLLDLAFR       -1.0000     NotChecked  -10.9271    2120.0990   ✗       
+391   LHELVAMWNHLLDLAAFR       -1.0000     NotChecked  -10.9319    2148.1303   ✗       
+392   LHELVGMWNHLLN+0.984LAAAR -1.0000     NotChecked  -10.9354    2058.0833   ✗       
+393   LHELVLGTWNHLLDLAAAR      -1.0000     NotChecked  -10.9388    2141.1745   ✗       
+394   LHELGVGMWNHLLN+0.984LAAAR-1.0000     NotChecked  -10.9426    2115.1048   ✗       
+395   LHELGGTWNHLLDLAAFR       -1.0000     NotChecked  -10.9499    2062.0748   ✗       
+396   LHELVGTWNHLLDLAAFR       -1.0000     NotChecked  -10.9505    2104.1218   ✗       
+397   LHQ+0.984LVGTWNHLLDLAAFR -1.0000     NotChecked  -10.9527    2104.1218   ✗       
+398   LHELVGTYNHLLDLAAAR       -1.0000     NotChecked  -10.9771    2005.0745   ✗       
+399   LHELAGMWNHLLDLAAAR       -1.0000     NotChecked  -10.9804    2030.0520   ✗       
+400   LHELVMWNHLLDLAAAR        -1.0000     NotChecked  -10.9811    2001.0618   ✗       
+401   LHELGVMWNHLLDLAAAR       -1.0000     NotChecked  -10.9883    2058.0833   ✗       
+402   LHELVGMWN+0.984HLLDLAAFR -1.0000     NotChecked  -10.9905    2135.0986   ✗       
+403   LHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -10.9927    2058.0833   ✗       
+404   LHELVGLWNHLLDLAAFR       -1.0000     NotChecked  -11.0171    2116.1582   ✗       
+405   LHELGGMWNHLLDLAAFR       -1.0000     NotChecked  -11.0191    2092.0677   ✗       
+406   LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -11.0197    2134.1146   ✗       
+407   LHQ+0.984LVGMWNHLLDLAAFR -1.0000     NotChecked  -11.0219    2134.1146   ✗       
+408   LHELALGMWNHLLDLAAAR      -1.0000     NotChecked  -11.0249    2143.1361   ✗       
+409   LHELVGMWN+0.984HLLDLAFAR -1.0000     NotChecked  -11.0269    2135.0986   ✗       
+410   LHELVGTWNHLLDLAFAR       -1.0000     NotChecked  -11.0323    2104.1218   ✗       
+411   LHELGVGAWNHLLDLAAFR      -1.0000     NotChecked  -11.0461    2131.1327   ✗       
+412   LHELVGMYNHLLDLAAAR       -1.0000     NotChecked  -11.0464    2035.0673   ✗       
+413   LHELVGMWNHLLDLAFAR       -1.0000     NotChecked  -11.0561    2134.1146   ✗       
+414   LHQ+0.984LVGMWNHLLDLAFAR -1.0000     NotChecked  -11.0583    2134.1146   ✗       
+415   LHELGLGMWNHLLDLAAAR      -1.0000     NotChecked  -11.0694    2129.1204   ✗       
+416   LHELGVAMWNHLLDLAAAR      -1.0000     NotChecked  -11.0721    2129.1204   ✗       
+417   LHELLGMWNHLLN+0.984LAAFR -1.0000     NotChecked  -11.0743    2148.1303   ✗       
+418   LHELGSMWNHLLDLAAFR       -1.0000     NotChecked  -11.0811    2122.0782   ✗       
+419   LHELGSMWNHLLDLAAFR       -1.0000     NotChecked  -11.0883    2122.0782   ✗       
+420   LHELVGTWNHLLDLAAFR       -1.0000     NotChecked  -11.0921    2104.1218   ✗       
+421   LHELVSTWNHLLDLAFAR       -1.0000     NotChecked  -11.0943    2134.1323   ✗       
+422   LHELVSSWNHLLDLAAFR       -1.0000     NotChecked  -11.0976    2120.1167   ✗       
+423   LHELVSMYNHLLDLAAAR       -1.0000     NotChecked  -11.1084    2065.0779   ✗       
+424   LHELGVSMYNHLLDLAAAR      -1.0000     NotChecked  -11.1155    2122.0993   ✗       
+425   LHELLGTYNHLLDLAAFR       -1.0000     NotChecked  -11.1160    2095.1215   ✗       
+426   LHELLMWNHLLDLAAFR        -1.0000     NotChecked  -11.1200    2091.1088   ✗       
+427   LHELGLMWNHLLDLAAFR       -1.0000     NotChecked  -11.1272    2148.1303   ✗       
+428   LHELSGMWNHLLDLAAFR       -1.0000     NotChecked  -11.1346    2122.0782   ✗       
+429   LHELVSMWNHLLDLAAAR       -1.0000     NotChecked  -11.1414    2088.0939   ✗       
+430   LHELVGMYNHLLDLAAFR       -1.0000     NotChecked  -11.1435    2111.0986   ✗       
+431   LHELVGMWQHLLDLAAFR       -1.0000     NotChecked  -11.1517    2148.1303   ✗       
+432   LHELVGMWNHLLDLAFAR       -1.0000     NotChecked  -11.1557    2134.1146   ✗       
+433   LHELLSMWNHLLDLAAAR       -1.0000     NotChecked  -11.1600    2102.1095   ✗       
+434   LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -11.1613    2134.1146   ✗       
+435   LHELVGMWNHLLDLAALR       -1.0000     NotChecked  -11.1665    2100.1303   ✗       
+436   LHELVGSWNHLLDLAAAR       -1.0000     NotChecked  -11.1686    2014.0748   ✗       
+437   LHELGMYNHLLDLAAFR        -1.0000     NotChecked  -11.1698    2012.0302   ✗       
+438   LHELLGMWNHLLDLAFAR       -1.0000     NotChecked  -11.1743    2148.1303   ✗       
+439   LHELVGAWNHLLDLAAAR       -1.0000     NotChecked  -11.1751    1998.0799   ✗       
+440   LHELGVGSWNHLLDLAAAR      -1.0000     NotChecked  -11.1758    2071.0963   ✗       
+441   LHELLGMYNHLLDLAAFR       -1.0000     NotChecked  -11.1852    2125.1143   ✗       
+442   LHELVGTWNHLLDLAAAR       -1.0000     NotChecked  -11.1863    2028.0905   ✗       
+443   LHELVGMWNHLLDLAFAR       -1.0000     NotChecked  -11.1977    2134.1146   ✗       
+444   LHELVGTWNHLLN+0.984LAAFR -1.0000     NotChecked  -11.1983    2104.1218   ✗       
+445   LHELVGTWN+0.984HLLDLAAFR -1.0000     NotChecked  -11.2104    2105.1058   ✗       
+446   LHELGTWNHLLDLAAAR        -1.0000     NotChecked  -11.2126    1929.0221   ✗       
+447   LHELVGSMWNHLLDLAAAR      -1.0000     NotChecked  -11.2173    2145.1153   ✗       
+448   LHELLGMWN+0.984HLLDLAAAR -1.0000     NotChecked  -11.2226    2073.0830   ✗       
+449   LHELVGMWTHLLDLAAFR       -1.0000     NotChecked  -11.2236    2121.1193   ✗       
+450   LHELLGTWNHLLDLAAAR       -1.0000     NotChecked  -11.2280    2042.1061   ✗       
+451   LHELVGTWNHLLDLAAFR       -1.0000     NotChecked  -11.2396    2104.1218   ✗       
+452   LHQ+0.984LVGTWNHLLDLAAFR -1.0000     NotChecked  -11.2418    2104.1218   ✗       
+453   LHELVTWNHLLDLAAFR        -1.0000     NotChecked  -11.2440    2047.1003   ✗       
+454   LHQ+0.984LLGMWNHLLDLAAAR -1.0000     NotChecked  -11.2539    2072.0990   ✗       
+455   LHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -11.2555    2058.0833   ✗       
+456   LHELVLMWNHLLDLAAAR       -1.0000     NotChecked  -11.2562    2114.1459   ✗       
+457   LHELTGMWNHLLDLAAFR       -1.0000     NotChecked  -11.2575    2136.0939   ✗       
+458   LHELVGVWNHLLDLAAFR       -1.0000     NotChecked  -11.2644    2102.1425   ✗       
+459   LHELVGMWNHLLN+0.984LAAFR -1.0000     NotChecked  -11.2676    2134.1146   ✗       
+460   LHELVGMWN+0.984HLLDLAAFR -1.0000     NotChecked  -11.2796    2135.0986   ✗       
+461   LHELGMWNHLLDLAAAR        -1.0000     NotChecked  -11.2818    1959.0149   ✗       
+462   LHELLSTWNHLLDLAAAR       -1.0000     NotChecked  -11.2900    2072.1167   ✗       
+463   LHELVNMWNHLLDLAAAR       -1.0000     NotChecked  -11.2913    2115.1048   ✗       
+464   LHELVTTWNHLLDLAAFR       -1.0000     NotChecked  -11.2938    2148.1480   ✗       
+465   LHELGLSTWNHLLDLAAAR      -1.0000     NotChecked  -11.2971    2129.1382   ✗       
+466   LHELLTMWNHLLDLAAAR       -1.0000     NotChecked  -11.3059    2116.1252   ✗       
+467   LHELVGMWNHLLDLALAR       -1.0000     NotChecked  -11.3071    2100.1303   ✗       
+468   LHELLGSWNHLLDLAAFR       -1.0000     NotChecked  -11.3075    2104.1218   ✗       
+469   LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -11.3088    2134.1146   ✗       
+470   LHQ+0.984LVGMWNHLLDLAAFR -1.0000     NotChecked  -11.3110    2134.1146   ✗       
+471   LHELLVGMYNHLLDLAAAR      -1.0000     NotChecked  -11.3124    2148.1514   ✗       
+472   LHELVMWNHLLDLAAFR        -1.0000     NotChecked  -11.3133    2077.0931   ✗       
+473   LHELVMMWNHLLDLAAAR       -1.0000     NotChecked  -11.3239    2132.1023   ✗       
+474   LHELVATWNHLLDLAAFR       -1.0000     NotChecked  -11.3278    2118.1374   ✗       
+475   LHELSMWNHLLDLAAAR        -1.0000     NotChecked  -11.3438    1989.0255   ✗       
+476   LHELVSTWNHLLDLAAFR       -1.0000     NotChecked  -11.3470    2134.1323   ✗       
+477   LHELGSMWNHLLDLAAAR       -1.0000     NotChecked  -11.3510    2046.0469   ✗       
+478   LHELLSMWNHLLDLAAAR       -1.0000     NotChecked  -11.3592    2102.1095   ✗       
+479   LHELGGMWNHLLDLAFAR       -1.0000     NotChecked  -11.3652    2092.0677   ✗       
+480   LHELVSTYNHLLDLAAFR       -1.0000     NotChecked  -11.3713    2111.1164   ✗       
+481   LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -11.3789    2134.1146   ✗       
+482   LHELVGTWNHLLDLAAFR       -1.0000     NotChecked  -11.3812    2104.1218   ✗       
+483   LHELVSTWNHLLDLAFAR       -1.0000     NotChecked  -11.3834    2134.1323   ✗       
+484   LHELGVGMWNHLLDLAFR       -1.0000     NotChecked  -11.3923    2120.0990   ✗       
+485   LHELLGMWNHLLDLAAAR       -1.0000     NotChecked  -11.3933    2072.0990   ✗       
+486   LHELVAMWNHLLDLAAFR       -1.0000     NotChecked  -11.3971    2148.1303   ✗       
+487   LHELVGMWNHLLDLFAAR       -1.0000     NotChecked  -11.3988    2134.1146   ✗       
+488   LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -11.4067    2134.1146   ✗       
+489   LHELGVGMWNHLLN+0.984LAAAR-1.0000     NotChecked  -11.4078    2115.1048   ✗       
+490   LHELVGEWNHLLDLAAFR       -1.0000     NotChecked  -11.4109    2132.1167   ✗       
+491   LHELVGMWLHLLDLAAFR       -1.0000     NotChecked  -11.4117    2133.1557   ✗       
+492   LHELGGTWNHLLDLAAFR       -1.0000     NotChecked  -11.4151    2062.0748   ✗       
+493   LHELGGTWNHLLDLAAFR       -1.0000     NotChecked  -11.4223    2062.0748   ✗       
+494   LHELVTTWNHLLDLAAAR       -1.0000     NotChecked  -11.4300    2072.1167   ✗       
+495   LHELVGMYNHLLDLAAFR       -1.0000     NotChecked  -11.4326    2111.0986   ✗       
+496   LHELVAMWNHLLDLAFAR       -1.0000     NotChecked  -11.4334    2148.1303   ✗       
+497   LHELVSMYNHLLDLAAFR       -1.0000     NotChecked  -11.4405    2141.1092   ✗       
+498   LHELVGTYNHLLDLAAAR       -1.0000     NotChecked  -11.4423    2005.0745   ✗       
+499   LHELVLGSWNHLLDLAAAR      -1.0000     NotChecked  -11.4437    2127.1589   ✗       
+500   LHELAGMWNHLLDLAAAR       -1.0000     NotChecked  -11.4456    2030.0520   ✗       
+501   LHELGVGTYNHLLDLAAAR      -1.0000     NotChecked  -11.4495    2062.0960   ✗       
+502   LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -11.4504    2134.1146   ✗       
+503   LHELLGMYNHLLDLAAFR       -1.0000     NotChecked  -11.4512    2125.1143   ✗       
+504   LHELGAGMWNHLLDLAAAR      -1.0000     NotChecked  -11.4528    2087.0735   ✗       
+505   LHELGVMWNHLLDLAAAR       -1.0000     NotChecked  -11.4535    2058.0833   ✗       
+506   LHELVGAWNHLLDLAAAR       -1.0000     NotChecked  -11.4642    1998.0799   ✗       
+507   LHELVGTWNHLLDLAAAR       -1.0000     NotChecked  -11.4754    2028.0905   ✗       
+508   LHELVSMWN+0.984HLLDLAAAR -1.0000     NotChecked  -11.4778    2089.0779   ✗       
+509   LHELVGLWNHLLDLAAFR       -1.0000     NotChecked  -11.4823    2116.1582   ✗       
+510   LHELVSTWNHLLDLAAAR       -1.0000     NotChecked  -11.4832    2058.1010   ✗       
+511   LHELGGMWNHLLDLAAFR       -1.0000     NotChecked  -11.4843    2092.0677   ✗       
+512   LHELALGMWNHLLDLAAAR      -1.0000     NotChecked  -11.4901    2143.1361   ✗       
+513   LHELGGMWNHLLDLAAFR       -1.0000     NotChecked  -11.4915    2092.0677   ✗       
+514   LHELVGMWN+0.984HLLDLAFAR -1.0000     NotChecked  -11.4921    2135.0986   ✗       
+515   LHELLGTWNHLLDLAAAR       -1.0000     NotChecked  -11.4940    2042.1061   ✗       
+516   LHELVGTWNHLLDLAFAR       -1.0000     NotChecked  -11.4975    2104.1218   ✗       
+517   LHELVTMWNHLLDLAAAR       -1.0000     NotChecked  -11.4992    2102.1095   ✗       
+518   LHELVGSWNHLLDLAAFR       -1.0000     NotChecked  -11.5007    2090.1061   ✗       
+519   LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -11.5027    2134.1146   ✗       
+520   LHQ+0.984LVSMWNHLLDLAAAR -1.0000     NotChecked  -11.5092    2088.0939   ✗       
+521   LHELVGMYNHLLDLAAAR       -1.0000     NotChecked  -11.5116    2035.0673   ✗       
+522   LHELGVGMYNHLLDLAAAR      -1.0000     NotChecked  -11.5187    2092.0888   ✗       
+523   LHELGVGMWNHLLDLAAAR      -1.0000     NotChecked  -11.5204    2115.1048   ✗       
+524   LHELGGMWNHLLDLAFAR       -1.0000     NotChecked  -11.5207    2092.0677   ✗       
+525   LHELVGMWNHLLDLAFAR       -1.0000     NotChecked  -11.5213    2134.1146   ✗       
+526   LHQ+0.984LVGMWNHLLDLAFAR -1.0000     NotChecked  -11.5235    2134.1146   ✗       
+527   LHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -11.5446    2058.0833   ✗       
+528   LHELLGMWNHLLDLAAAR       -1.0000     NotChecked  -11.5478    2072.0990   ✗       
+529   LHELVGGTWNHLLDLAAAR      -1.0000     NotChecked  -11.5513    2085.1119   ✗       
+530   LHELGSMWNHLLDLAAFR       -1.0000     NotChecked  -11.5535    2122.0782   ✗       
+531   LHELVSSWNHLLDLAAFR       -1.0000     NotChecked  -11.5628    2120.1167   ✗       
+532   LHELLGMWNHLLDLAAAR       -1.0000     NotChecked  -11.5632    2072.0990   ✗       
+533   LHELVGTWNHLLDLALFR       -1.0000     NotChecked  -11.5700    2146.1687   ✗       
+534   LHELSMWNHLLDLAFFR        -1.0000     NotChecked  -11.5761    2141.0881   ✗       
+535   LHELVNMWNHLLDLAAAR       -1.0000     NotChecked  -11.5804    2115.1048   ✗       
+536   LHELGVSMYNHLLDLAAAR      -1.0000     NotChecked  -11.5807    2122.0993   ✗       
+537   LHELLGTYNHLLDLAAFR       -1.0000     NotChecked  -11.5812    2095.1215   ✗       
+538   LHELGLMWNHLLDLAAFR       -1.0000     NotChecked  -11.5924    2148.1303   ✗       
+539   LHELSGMWNHLLDLAAFR       -1.0000     NotChecked  -11.5998    2122.0782   ✗       
+540   LHELLGAWNHLLDLAAFR       -1.0000     NotChecked  -11.6030    2088.1269   ✗       
+541   LHELVSMWNHLLDLAAAR       -1.0000     NotChecked  -11.6066    2088.0939   ✗       
+542   LHELVSTWNHLLDLAAFR       -1.0000     NotChecked  -11.6067    2134.1323   ✗       
+543   LHELVMMWNHLLDLAAAR       -1.0000     NotChecked  -11.6130    2132.1023   ✗       
+544   LHELGVSMWNHLLDLAAAR      -1.0000     NotChecked  -11.6138    2145.1153   ✗       
+545   LHELLGTWNHLLDLAAFR       -1.0000     NotChecked  -11.6142    2118.1374   ✗       
+546   LHELVGMWQHLLDLAAFR       -1.0000     NotChecked  -11.6169    2148.1303   ✗       
+547   LHELVATWNHLLDLAAFR       -1.0000     NotChecked  -11.6169    2118.1374   ✗       
+548   LHELVGGMWNHLLDLAAAR      -1.0000     NotChecked  -11.6205    2115.1048   ✗       
+549   LHELLSMWNHLLDLAAAR       -1.0000     NotChecked  -11.6252    2102.1095   ✗       
+550   LHELLAMWNHLLDLAAAR       -1.0000     NotChecked  -11.6291    2086.1146   ✗       
+551   LHELVGMWNHLLDLAALR       -1.0000     NotChecked  -11.6317    2100.1303   ✗       
+552   LHELGMYNHLLDLAAFR        -1.0000     NotChecked  -11.6350    2012.0302   ✗       
+553   LHELVGMFNHLLDLAAFR       -1.0000     NotChecked  -11.6403    2095.1037   ✗       
+554   LHELGVGSWNHLLDLAAAR      -1.0000     NotChecked  -11.6410    2071.0963   ✗       
+555   LHELGGMYNHLLDLAAFR       -1.0000     NotChecked  -11.6422    2069.0517   ✗       
+556   LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -11.6453    2134.1146   ✗       
+557   LHELVSMWNHLLDLAAAR       -1.0000     NotChecked  -11.6486    2088.0939   ✗       
+558   LHELLGMYNHLLDLAAFR       -1.0000     NotChecked  -11.6504    2125.1143   ✗       
+559   LHELKGMWNHLLDLAAAR       -1.0000     NotChecked  -11.6616    2087.1098   ✗       
+560   LHELVGMWNHLLDLAFAR       -1.0000     NotChecked  -11.6629    2134.1146   ✗       
+561   LHELVGTWNHLLN+0.984LAAFR -1.0000     NotChecked  -11.6635    2104.1218   ✗       
+562   LHELGMWNHLLDLAAFR        -1.0000     NotChecked  -11.6680    2035.0462   ✗       
+563   LHELVGTWN+0.984HLLDLAAFR -1.0000     NotChecked  -11.6756    2105.1058   ✗       
+564   LHELGTWNHLLDLAAAR        -1.0000     NotChecked  -11.6778    1929.0221   ✗       
+565   LHELVGQWNHLLDLAAFR       -1.0000     NotChecked  -11.6819    2131.1327   ✗       
+566   LHELVGSMWNHLLDLAAAR      -1.0000     NotChecked  -11.6825    2145.1153   ✗       
+567   LHELLGMWNHLLDLAAFR       -1.0000     NotChecked  -11.6834    2148.1303   ✗       
+568   LHELGGTWNHLLDLAAAR       -1.0000     NotChecked  -11.6849    1986.0435   ✗       
+569   LHELVAMWNHLLDLAAFR       -1.0000     NotChecked  -11.6862    2148.1303   ✗       
+570   LHELLGMYNHLLDLAFAR       -1.0000     NotChecked  -11.6868    2125.1143   ✗       
+571   LHELLGMWN+0.984HLLDLAAAR -1.0000     NotChecked  -11.6878    2073.0830   ✗       
+572   LHELVGMWTHLLDLAAFR       -1.0000     NotChecked  -11.6888    2121.1193   ✗       
+573   LHELLGTWNHLLDLAAAR       -1.0000     NotChecked  -11.6931    2042.1061   ✗       
+574   LHELGLGMWN+0.984HLLDLAAAR-1.0000     NotChecked  -11.6949    2130.1044   ✗       
+575   LHELGLGTWNHLLDLAAAR      -1.0000     NotChecked  -11.7003    2099.1276   ✗       
+576   LHELVGTWNHLLDLAAFR       -1.0000     NotChecked  -11.7048    2104.1218   ✗       
+577   LHQ+0.984LVGTWNHLLDLAAFR -1.0000     NotChecked  -11.7070    2104.1218   ✗       
+578   LHELVTWNHLLDLAAFR        -1.0000     NotChecked  -11.7092    2047.1003   ✗       
+579   LHELVLGTYNHLLDLAAAR      -1.0000     NotChecked  -11.7174    2118.1586   ✗       
+580   LHQ+0.984LLGMWNHLLDLAAAR -1.0000     NotChecked  -11.7191    2072.0990   ✗       
+581   LHELVLMWNHLLDLAAAR       -1.0000     NotChecked  -11.7214    2114.1459   ✗       
+582   LHQ+0.984LGLGMWNHLLDLAAAR-1.0000     NotChecked  -11.7263    2129.1204   ✗       
+583   LHELVGMVNHLLDLAAFR       -1.0000     NotChecked  -11.7272    2047.1037   ✗       
+584   LHELVGVWNHLLDLAAFR       -1.0000     NotChecked  -11.7296    2102.1425   ✗       
+585   LHELVGMWNHLLN+0.984LAAFR -1.0000     NotChecked  -11.7327    2134.1146   ✗       
+586   LHELVSGMWNHLLDLAAAR      -1.0000     NotChecked  -11.7360    2145.1153   ✗       
+587   LHELVGMWN+0.984HLLDLAAFR -1.0000     NotChecked  -11.7448    2135.0986   ✗       
+588   LHELGMWNHLLDLAAAR        -1.0000     NotChecked  -11.7470    1959.0149   ✗       
+589   LHELGGMWNHLLDLAAAR       -1.0000     NotChecked  -11.7542    2016.0364   ✗       
+590   LHELGLSTWNHLLDLAAAR      -1.0000     NotChecked  -11.7623    2129.1382   ✗       
+591   LHELVGMYN+0.984HLLDLAAFR -1.0000     NotChecked  -11.7691    2112.0826   ✗       
+592   LHELVGMWNHLLN+0.984LAFAR -1.0000     NotChecked  -11.7691    2134.1146   ✗       
+593   LHELVGMYNHLLDLAAAR       -1.0000     NotChecked  -11.7712    2035.0673   ✗       
+594   LHELVGLWNHLLDLAAFR       -1.0000     NotChecked  -11.7714    2116.1582   ✗       
+595   LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -11.7740    2134.1146   ✗       
+596   LHELVGTYNHLLDLAAFR       -1.0000     NotChecked  -11.7744    2081.1058   ✗       
+597   LHQ+0.984LVGMWNHLLDLAAFR -1.0000     NotChecked  -11.7762    2134.1146   ✗       
+598   LHELLVGMYNHLLDLAAAR      -1.0000     NotChecked  -11.7776    2148.1514   ✗       
+599   LHELVMWNHLLDLAAFR        -1.0000     NotChecked  -11.7785    2077.0931   ✗       
+600   LHELVGMWN+0.984HLLDLAFAR -1.0000     NotChecked  -11.7812    2135.0986   ✗       
+601   LHELVLGMYNHLLDLAAAR      -1.0000     NotChecked  -11.7866    2148.1514   ✗       
+602   LHELVGTWNHLLDLAFAR       -1.0000     NotChecked  -11.7866    2104.1218   ✗       
+603   LHELVGMYNHLLDLAAFR       -1.0000     NotChecked  -11.7983    2111.0986   ✗       
+604   LHQ+0.984LVGMYNHLLDLAAFR -1.0000     NotChecked  -11.8004    2111.0986   ✗       
+605   LHELVGMWNHLLDLAFAR       -1.0000     NotChecked  -11.8104    2134.1146   ✗       
+606   LHELVGTWN+0.984HLLDLAAAR -1.0000     NotChecked  -11.8118    2029.0745   ✗       
+607   LHQ+0.984LVGMWNHLLDLAFAR -1.0000     NotChecked  -11.8126    2134.1146   ✗       
+608   LHELVMWNHLLDLAFAR        -1.0000     NotChecked  -11.8148    2077.0931   ✗       
+609   LHELGSMWNHLLDLAAAR       -1.0000     NotChecked  -11.8162    2046.0469   ✗       
+610   LHELVSTYNHLLDLAAFR       -1.0000     NotChecked  -11.8364    2111.1164   ✗       
+611   LHQ+0.984LVGTWNHLLDLAAAR -1.0000     NotChecked  -11.8432    2028.0905   ✗       
+612   LHELVGTWNHLLDLAAFR       -1.0000     NotChecked  -11.8464    2104.1218   ✗       
+613   LHELVSTWNHLLDLAFAR       -1.0000     NotChecked  -11.8486    2134.1323   ✗       
+614   LHELVSSWNHLLDLAAFR       -1.0000     NotChecked  -11.8519    2120.1167   ✗       
+615   LHELVSAWNHLLDLAAFR       -1.0000     NotChecked  -11.8583    2104.1218   ✗       
+616   LHELLGMWNHLLDLAAAR       -1.0000     NotChecked  -11.8585    2072.0990   ✗       
+617   LHELVGMWNHLLDLFAAR       -1.0000     NotChecked  -11.8640    2134.1146   ✗       
+618   LHELGLGMWNHLLDLAAAR      -1.0000     NotChecked  -11.8657    2129.1204   ✗       
+619   LHELVSTWNHLLDLAAFR       -1.0000     NotChecked  -11.8695    2134.1323   ✗       
+620   LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -11.8719    2134.1146   ✗       
+621   LHELVGEWNHLLDLAAFR       -1.0000     NotChecked  -11.8761    2132.1167   ✗       
+622   LHELVGMWLHLLDLAAFR       -1.0000     NotChecked  -11.8769    2133.1557   ✗       
+623   LHELVGMWN+0.984HLLDLAAAR -1.0000     NotChecked  -11.8810    2059.0673   ✗       
+624   LHELGGTWNHLLDLAAFR       -1.0000     NotChecked  -11.8874    2062.0748   ✗       
+625   LHELVTTWNHLLDLAAAR       -1.0000     NotChecked  -11.8952    2072.1167   ✗       
+626   LHELVGMYNHLLDLAAFR       -1.0000     NotChecked  -11.8978    2111.0986   ✗       
+627   LHELVAMWNHLLDLAFAR       -1.0000     NotChecked  -11.8986    2148.1303   ✗       
+628   LHELVSMYNHLLDLAAFR       -1.0000     NotChecked  -11.9057    2141.1092   ✗       
+629   LHELVGMWQHLLDLAAFR       -1.0000     NotChecked  -11.9060    2148.1303   ✗       
+630   LHELVLGSWNHLLDLAAAR      -1.0000     NotChecked  -11.9089    2127.1589   ✗       
+631   LHELGTWNHLLDLAFFR        -1.0000     NotChecked  -11.9100    2081.0847   ✗       
+632   LHQ+0.984LVGMWNHLLDLAAAR -1.0000     NotChecked  -11.9124    2058.0833   ✗       
+633   LHELGVGTYNHLLDLAAAR      -1.0000     NotChecked  -11.9147    2062.0960   ✗       
+634   LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -11.9156    2134.1146   ✗       
+635   LHELLGMYNHLLDLAAFR       -1.0000     NotChecked  -11.9164    2125.1143   ✗       
+636   LHELGAGMWNHLLDLAAAR      -1.0000     NotChecked  -11.9180    2087.0735   ✗       
+637   LHELVGAWNHLLDLAAAR       -1.0000     NotChecked  -11.9294    1998.0799   ✗       
+638   LHELGVGAWNHLLDLAAAR      -1.0000     NotChecked  -11.9366    2055.1014   ✗       
+639   LHELVGMYNHLLDLAAFR       -1.0000     NotChecked  -11.9398    2111.0986   ✗       
+640   LHELVGTWNHLLDLAAAR       -1.0000     NotChecked  -11.9406    2028.0905   ✗       
+641   LHELVSMYNHLLDLAFAR       -1.0000     NotChecked  -11.9420    2141.1092   ✗       
+642   LHELVSMWN+0.984HLLDLAAAR -1.0000     NotChecked  -11.9430    2089.0779   ✗       
+643   LHELGVGTWNHLLDLAAAR      -1.0000     NotChecked  -11.9478    2085.1119   ✗       
+644   LHELVSTWNHLLDLAAAR       -1.0000     NotChecked  -11.9484    2058.1010   ✗       
+645   LHELLGMWNHLLDLAFR        -1.0000     NotChecked  -11.9492    2077.0931   ✗       
+646   LHELLGMWNHLLDLAAFR       -1.0000     NotChecked  -11.9495    2148.1303   ✗       
+647   LHELVGMWNHLLDLAFAR       -1.0000     NotChecked  -11.9520    2134.1146   ✗       
+648   LHELVGTWNHLLN+0.984LAAFR -1.0000     NotChecked  -11.9526    2104.1218   ✗       
+649   LHELGGMWNHLLDLAAFR       -1.0000     NotChecked  -11.9567    2092.0677   ✗       
+650   LHELLGTWNHLLDLAAAR       -1.0000     NotChecked  -11.9592    2042.1061   ✗       
+651   LHELVGMANHLLDLAAFR       -1.0000     NotChecked  -11.9629    2019.0724   ✗       
+652   LHELVTMWNHLLDLAAAR       -1.0000     NotChecked  -11.9644    2102.1095   ✗       
+653   LHELLGMWNHLLN+0.984LAAAR -1.0000     NotChecked  -11.9648    2072.0990   ✗       
+654   LHELVGSWNHLLDLAAFR       -1.0000     NotChecked  -11.9659    2090.1061   ✗       
+655   LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -11.9679    2134.1146   ✗       
+656   LHELGSMWNHLLDLAAAR       -1.0000     NotChecked  -11.9716    2046.0469   ✗       
+657   LHQ+0.984LVSMWNHLLDLAAAR -1.0000     NotChecked  -11.9744    2088.0939   ✗       
+658   LHELVGMWTHLLDLAAFR       -1.0000     NotChecked  -11.9779    2121.1193   ✗       
+659   LHELGMWNHLLDLAFFR        -1.0000     NotChecked  -11.9793    2111.0775   ✗       
+660   LHELVGTWNHLLDLAAAR       -1.0000     NotChecked  -11.9826    2028.0905   ✗       
+661   LHELGVGMYNHLLDLAAAR      -1.0000     NotChecked  -11.9839    2092.0888   ✗       
+662   LHELGVGMWNHLLDLAAAR      -1.0000     NotChecked  -11.9856    2115.1048   ✗       
+663   LHELGGMWNHLLDLAFAR       -1.0000     NotChecked  -11.9859    2092.0677   ✗       
+664   LHELGGMWNHLLDLAFAR       -1.0000     NotChecked  -11.9930    2092.0677   ✗       
+665   LHELVTWNHLLDLAAFR        -1.0000     NotChecked  -11.9983    2047.1003   ✗       
+666   LHELVGSWNHLLDLAFAR       -1.0000     NotChecked  -12.0023    2090.1061   ✗       
+667   LHELVGMWN+0.984HLLDLAAFR -1.0000     NotChecked  -12.0045    2135.0986   ✗       
+668   LHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -12.0098    2058.0833   ✗       
+669   LHELVGTWNHLLDLAAFR       -1.0000     NotChecked  -12.0099    2104.1218   ✗       
+670   LHELLMWNHLLDLAAAR        -1.0000     NotChecked  -12.0105    2015.0775   ✗       
+671   LHELLGMWNHLLDLAAAR       -1.0000     NotChecked  -12.0130    2072.0990   ✗       
+672   LHELVGGTWNHLLDLAAAR      -1.0000     NotChecked  -12.0165    2085.1119   ✗       
+673   LHELGVGMWNHLLDLAAAR      -1.0000     NotChecked  -12.0170    2115.1048   ✗       
+674   LHELVGVWNHLLDLAAFR       -1.0000     NotChecked  -12.0187    2102.1425   ✗       
+675   LHELVGMWNHLLN+0.984LAAFR -1.0000     NotChecked  -12.0219    2134.1146   ✗       
+676   LHELLGMWNHLLDLAAAR       -1.0000     NotChecked  -12.0284    2072.0990   ✗       
+677   LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -12.0337    2134.1146   ✗       
+678   LHELVGMYNHLLDLAAAR       -1.0000     NotChecked  -12.0340    2035.0673   ✗       
+679   LHELVGTWNHLLDLALFR       -1.0000     NotChecked  -12.0352    2146.1687   ✗       
+680   LHQ+0.984LVGMWNHLLDLAAFR -1.0000     NotChecked  -12.0358    2134.1146   ✗       
+681   LHELSMWNHLLDLAFFR        -1.0000     NotChecked  -12.0413    2141.0881   ✗       
+682   LHELVNMWNHLLDLAAAR       -1.0000     NotChecked  -12.0456    2115.1048   ✗       
+683   LHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -12.0518    2058.0833   ✗       
+684   LHELVMWNHLLDLAAFR        -1.0000     NotChecked  -12.0676    2077.0931   ✗       
+685   LHELLGAWNHLLDLAAFR       -1.0000     NotChecked  -12.0682    2088.1269   ✗       
+686   LHELVSTWNHLLDLAAFR       -1.0000     NotChecked  -12.0719    2134.1323   ✗       
+687   LHELGLGAWNHLLDLAAFR      -1.0000     NotChecked  -12.0754    2145.1483   ✗       
+688   LHELVMMWNHLLDLAAAR       -1.0000     NotChecked  -12.0782    2132.1023   ✗       
+689   LHELGVSMWNHLLDLAAAR      -1.0000     NotChecked  -12.0790    2145.1153   ✗       
+690   LHELLGTWNHLLDLAAFR       -1.0000     NotChecked  -12.0794    2118.1374   ✗       
+691   LHELVATWNHLLDLAAFR       -1.0000     NotChecked  -12.0821    2118.1374   ✗       
+692   LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -12.0830    2134.1146   ✗       
+693   LHELVGGMWNHLLDLAAAR      -1.0000     NotChecked  -12.0857    2115.1048   ✗       
+694   LHELLAMWNHLLDLAAAR       -1.0000     NotChecked  -12.0943    2086.1146   ✗       
+695   LHELGLAMWNHLLDLAAAR      -1.0000     NotChecked  -12.1015    2143.1361   ✗       
+696   LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -12.1034    2134.1146   ✗       
+697   LHELVGMFNHLLDLAAFR       -1.0000     NotChecked  -12.1055    2095.1037   ✗       
+698   LHELGGMYNHLLDLAAFR       -1.0000     NotChecked  -12.1074    2069.0517   ✗       
+699   LHELVSMWNHLLDLAAAR       -1.0000     NotChecked  -12.1138    2088.0939   ✗       
+700   LHELVSTYNHLLDLAAFR       -1.0000     NotChecked  -12.1256    2111.1164   ✗       
+701   LHELKGMWNHLLDLAAAR       -1.0000     NotChecked  -12.1268    2087.1098   ✗       
+702   LHELASMWNHLLDLAAFR       -1.0000     NotChecked  -12.1288    2136.0939   ✗       
+703   LHELGMWNHLLDLAAFR        -1.0000     NotChecked  -12.1332    2035.0462   ✗       
+704   LHELGKGMWNHLLDLAAAR      -1.0000     NotChecked  -12.1339    2144.1313   ✗       
+705   LHELLSMYNHLLDLAAAR       -1.0000     NotChecked  -12.1377    2079.0935   ✗       
+706   LHELGGMWNHLLDLAAFR       -1.0000     NotChecked  -12.1404    2092.0677   ✗       
+707   LHELVGQWNHLLDLAAFR       -1.0000     NotChecked  -12.1471    2131.1327   ✗       
+708   LHELTGMWNHLLDLAAAR       -1.0000     NotChecked  -12.1480    2060.0626   ✗       
+709   LHELLGMWNHLLDLAAFR       -1.0000     NotChecked  -12.1486    2148.1303   ✗       
+710   LHELGGTWNHLLDLAAAR       -1.0000     NotChecked  -12.1501    1986.0435   ✗       
+711   LHELVAMWNHLLDLAAFR       -1.0000     NotChecked  -12.1514    2148.1303   ✗       
+712   LHELLGMYNHLLDLAFAR       -1.0000     NotChecked  -12.1520    2125.1143   ✗       
+713   LHELVGMWNHLLDLFAAR       -1.0000     NotChecked  -12.1531    2134.1146   ✗       
+714   LHELGLGMWN+0.984HLLDLAAAR-1.0000     NotChecked  -12.1601    2130.1044   ✗       
+715   LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -12.1610    2134.1146   ✗       
+716   LHELVGEWNHLLDLAAFR       -1.0000     NotChecked  -12.1652    2132.1167   ✗       
+717   LHELGLGTWNHLLDLAAAR      -1.0000     NotChecked  -12.1655    2099.1276   ✗       
+718   LHELVGMWLHLLDLAAFR       -1.0000     NotChecked  -12.1660    2133.1557   ✗       
+719   LHELVGMSWNHLLDLAAAR      -1.0000     NotChecked  -12.1676    2145.1153   ✗       
+720   LHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -12.1752    2134.1146   ✗       
+721   +42.011HELVGMWNHLLDLAAFR -1.0000     NotChecked  -12.2787    2063.0411   ✗       
+722   +43.006HELVGMWNHLLDLAAFR -1.0000     NotChecked  -12.5963    2064.0364   ✗       
+723   +42.011HELVGMWNHLLDLAAFR -1.0000     NotChecked  -13.0330    2063.0411   ✗       
+724   +42.011LHELVGMWNHLLDLAAAR-1.0000     NotChecked  -13.1692    2100.0939   ✗       
+725   +43.006HELVGMWNHLLDLAAFR -1.0000     NotChecked  -13.3506    2064.0364   ✗       
+726   +43.006LHELVGMWNHLLDLAAAR-1.0000     NotChecked  -13.4868    2101.0891   ✗       
+727   +42.011HELGVGMWNHLLDLAAFR-1.0000     NotChecked  -13.5054    2120.0626   ✗       
+728   +42.011HELVGMWNHLLDLAAAR -1.0000     NotChecked  -13.6344    1987.0098   ✗       
+729   +43.006HELGVGMWNHLLDLAAFR-1.0000     NotChecked  -13.8230    2121.0578   ✗       
+730   +42.011LHELVGMWNHLLDLAAAR-1.0000     NotChecked  -13.9235    2100.0939   ✗       
+731   +43.006HELVGMWNHLLDLAAAR -1.0000     NotChecked  -13.9520    1988.0051   ✗       
+732   +43.006LHELVGMWNHLLDLAAAR-1.0000     NotChecked  -14.2411    2101.0891   ✗       
+733   KHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -14.2658    2073.0942   ✗       
+734   +42.011HELVGMWNHLLDLAFFR -1.0000     NotChecked  -14.3319    2139.0724   ✗       
+735   +42.011HELVGMWNHLLDLAAAR -1.0000     NotChecked  -14.3887    1987.0098   ✗       
+736   +42.011HELLGMWNHLLDLAAFR -1.0000     NotChecked  -14.5275    2077.0568   ✗       
+737   +43.006HELVGMWNHLLDLAFFR -1.0000     NotChecked  -14.6495    2140.0677   ✗       
+738   +42.011LHELVGTWNHLLDLAAFR-1.0000     NotChecked  -14.6516    2146.1324   ✗       
+739   +43.006HELVGMWNHLLDLAAAR -1.0000     NotChecked  -14.7063    1988.0051   ✗       
+740   +42.011HELVSMWNHLLDLAAFR -1.0000     NotChecked  -14.7828    2093.0517   ✗       
+741   +43.006HELLGMWNHLLDLAAFR -1.0000     NotChecked  -14.8451    2078.0520   ✗       
+742   +42.011HELGVGMWNHLLDLAAAR-1.0000     NotChecked  -14.8611    2044.0313   ✗       
+743   +43.006LHELVGTWNHLLDLAAFR-1.0000     NotChecked  -14.9692    2147.1276   ✗       
+744   +42.011HELGLGMWNHLLDLAAFR-1.0000     NotChecked  -14.9999    2134.0782   ✗       
+745   KHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -15.0201    2073.0942   ✗       
+746   NHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -15.0524    2135.0735   ✗       
+747   +42.011HELVGMWNHLLDLAFFR -1.0000     NotChecked  -15.0862    2139.0724   ✗       
+748   +43.006HELVSMWNHLLDLAAFR -1.0000     NotChecked  -15.1004    2094.0469   ✗       
+749   +42.011HELVGTWNHLLDLAAFR -1.0000     NotChecked  -15.1168    2033.0483   ✗       
+750   +42.011HELVLGMWNHLLDLAAAR-1.0000     NotChecked  -15.1289    2100.0939   ✗       
+751   +43.006HELGVGMWNHLLDLAAAR-1.0000     NotChecked  -15.1787    2045.0265   ✗       
+752   +42.011HELVGMWNHLLDLAAFR -1.0000     NotChecked  -15.1860    2063.0411   ✗       
+753   EHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -15.1902    2074.0418   ✗       
+754   +43.006HELGLGMWNHLLDLAAFR-1.0000     NotChecked  -15.3175    2135.0735   ✗       
+755   +43.006HELVGMWNHLLDLAFFR -1.0000     NotChecked  -15.4038    2140.0677   ✗       
+756   +42.011LHELVGTWNHLLDLAAFR-1.0000     NotChecked  -15.4059    2146.1324   ✗       
+757   +42.011LHELLGMWNHLLDLAAAR-1.0000     NotChecked  -15.4180    2114.1095   ✗       
+758   +43.006HELVGTWNHLLDLAAFR -1.0000     NotChecked  -15.4344    2034.0435   ✗       
+759   +43.006HELVLGMWNHLLDLAAAR-1.0000     NotChecked  -15.4465    2101.0891   ✗       
+760   KHELGVGMWNHLLDLAAAR      -1.0000     NotChecked  -15.4925    2130.1157   ✗       
+761   +43.006HELVGMWNHLLDLAAFR -1.0000     NotChecked  -15.5036    2064.0364   ✗       
+762   +42.011HELVSMWNHLLDLAAFR -1.0000     NotChecked  -15.5371    2093.0517   ✗       
+763   GHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -15.5782    2078.0520   ✗       
+764   +42.011LHELVSMWNHLLDLAAAR-1.0000     NotChecked  -15.6733    2130.1044   ✗       
+765   RHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -15.6859    2101.1003   ✗       
+766   +42.011HELVGMWNHLLDLAFAR -1.0000     NotChecked  -15.6876    2063.0411   ✗       
+767   +43.006LHELVGTWNHLLDLAAFR-1.0000     NotChecked  -15.7235    2147.1276   ✗       
+768   +43.006LHELLGMWNHLLDLAAAR-1.0000     NotChecked  -15.7356    2115.1048   ✗       
+769   KHELVGTWNHLLDLAAFR       -1.0000     NotChecked  -15.7482    2119.1327   ✗       
+770   NHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -15.8067    2135.0735   ✗       
+771   +43.006HELVSMWNHLLDLAAFR -1.0000     NotChecked  -15.8547    2094.0469   ✗       
+772   +42.011HELVGTWNHLLDLAAFR -1.0000     NotChecked  -15.8711    2033.0483   ✗       
+773   +42.011HELLGMWNHLLDLAAAR -1.0000     NotChecked  -15.8832    2001.0255   ✗       
+774   +42.011HELVGMWNHLLDLAAFR -1.0000     NotChecked  -15.9403    2063.0411   ✗       
+775   EHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -15.9445    2074.0418   ✗       
+776   +43.006LHELVSMWNHLLDLAAAR-1.0000     NotChecked  -15.9909    2131.0997   ✗       
+777   +43.006HELVGMWNHLLDLAFAR -1.0000     NotChecked  -16.0052    2064.0364   ✗       
+778   +42.011LHELVGTWNHLLDLAAAR-1.0000     NotChecked  -16.0073    2070.1011   ✗       
+779   +42.011LHELVGMWNHLLDLAAAR-1.0000     NotChecked  -16.0765    2100.0939   ✗       
+780   +42.011HELVSMWNHLLDLAAAR -1.0000     NotChecked  -16.1385    2017.0204   ✗       
+781   +43.006HELVGTWNHLLDLAAFR -1.0000     NotChecked  -16.1887    2034.0435   ✗       
+782   +43.006HELLGMWNHLLDLAAAR -1.0000     NotChecked  -16.2008    2002.0207   ✗       
+783   +43.006HELVGMWNHLLDLAAFR -1.0000     NotChecked  -16.2579    2064.0364   ✗       
+784   +43.006LHELVGTWNHLLDLAAAR-1.0000     NotChecked  -16.3249    2071.0963   ✗       
+785   GHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -16.3325    2078.0520   ✗       
+786   +42.011HELGVGTWNHLLDLAAFR-1.0000     NotChecked  -16.3434    2090.0698   ✗       
+787   +42.011HELGLGMWNHLLDLAAAR-1.0000     NotChecked  -16.3556    2058.0469   ✗       
+788   +43.006LHELVGMWNHLLDLAAAR-1.0000     NotChecked  -16.3941    2101.0891   ✗       
+789   NHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -16.4081    2059.0422   ✗       
+790   +42.011HELGVGMWNHLLDLAAFR-1.0000     NotChecked  -16.4127    2120.0626   ✗       
+791   Q+0.984HELVGMWNHLLDLAAAR -1.0000     NotChecked  -16.4156    2074.0418   ✗       
+792   EHELGVGMWNHLLDLAAAR      -1.0000     NotChecked  -16.4169    2131.0633   ✗       
+793   +42.011LHELVSMWNHLLDLAAAR-1.0000     NotChecked  -16.4276    2130.1044   ✗       
+794   +42.011HELVGMYNHLLDLAAFR -1.0000     NotChecked  -16.4297    2040.0251   ✗       
+795   RHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -16.4402    2101.1003   ✗       
+796   +42.011HELVGMWNHLLDLAFAR -1.0000     NotChecked  -16.4419    2063.0411   ✗       
+797   +43.006HELVSMWNHLLDLAAAR -1.0000     NotChecked  -16.4561    2018.0156   ✗       
+798   GLHELVGMWNHLLDLAAAR      -1.0000     NotChecked  -16.4687    2115.1048   ✗       
+799   +42.011HELVGTWNHLLDLAAAR -1.0000     NotChecked  -16.4725    1957.0170   ✗       
+800   KHELVGTWNHLLDLAAFR       -1.0000     NotChecked  -16.5025    2119.1327   ✗       
+801   KHELLGMWNHLLDLAAAR       -1.0000     NotChecked  -16.5147    2087.1098   ✗       
+802   +42.011HELVGMWNHLLDLAAAR -1.0000     NotChecked  -16.5417    1987.0098   ✗       
+803   +42.011HELVLGTWNHLLDLAAFR-1.0000     NotChecked  -16.6113    2146.1324   ✗       
+804   +43.006HELGVGTWNHLLDLAAFR-1.0000     NotChecked  -16.6610    2091.0650   ✗       
+805   +42.011HELVGMWNHLLDLAAFR -1.0000     NotChecked  -16.6651    2063.0411   ✗       
+806   EHELVGTWNHLLDLAAFR       -1.0000     NotChecked  -16.6726    2120.0803   ✗       
+807   +43.006HELGLGMWNHLLDLAAAR-1.0000     NotChecked  -16.6732    2059.0422   ✗       
+808   +43.006HELGVGMWNHLLDLAAFR-1.0000     NotChecked  -16.7303    2121.0578   ✗       
+809   +43.006LHELVSMWNHLLDLAAAR-1.0000     NotChecked  -16.7452    2131.0997   ✗       
+810   +43.006HELVGMYNHLLDLAAFR -1.0000     NotChecked  -16.7473    2041.0204   ✗       
+811   +43.006HELVGMWNHLLDLAFAR -1.0000     NotChecked  -16.7595    2064.0364   ✗       
+812   +42.011LHELVGTWNHLLDLAAAR-1.0000     NotChecked  -16.7616    2070.1011   ✗       
+813   KHELVSMWNHLLDLAAAR       -1.0000     NotChecked  -16.7700    2103.1048   ✗       
+814   +43.006HELVGTWNHLLDLAAAR -1.0000     NotChecked  -16.7901    1958.0122   ✗       
+815   GHELGVGMWNHLLDLAAFR      -1.0000     NotChecked  -16.8049    2135.0735   ✗       
+816   +42.011LHELVGMWNHLLDLAAAR-1.0000     NotChecked  -16.8308    2100.0939   ✗       
+817   +43.006HELVGMWNHLLDLAAAR -1.0000     NotChecked  -16.8593    1988.0051   ✗       
+818   +42.011HELVSMWNHLLDLAAAR -1.0000     NotChecked  -16.8928    2017.0204   ✗       
+819   HHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -16.8948    2082.0581   ✗       
+820   +42.011HELGVGMWNHLLDLAFAR-1.0000     NotChecked  -16.9142    2120.0626   ✗       
+821   +42.011HELVGMWNHLLDLAAFR -1.0000     NotChecked  -16.9280    2063.0411   ✗       
+822   +43.006HELVLGTWNHLLDLAAFR-1.0000     NotChecked  -16.9289    2147.1276   ✗       
+823   GHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -16.9339    2002.0207   ✗       
+824   +42.011LHELGMWNHLLDLAAFR -1.0000     NotChecked  -16.9542    2077.0568   ✗       
+825   +43.006HELVGMWNHLLDLAAFR -1.0000     NotChecked  -16.9827    2064.0364   ✗       
+826   KHELGLGMWNHLLDLAAAR      -1.0000     NotChecked  -16.9871    2144.1313   ✗       
+827   +42.011HELLSMWNHLLDLAAFR -1.0000     NotChecked  -17.0316    2107.0673   ✗       
+828   KHELVGMYNHLLDLAAFR       -1.0000     NotChecked  -17.0612    2126.1095   ✗       
+829   +43.006LHELVGTWNHLLDLAAAR-1.0000     NotChecked  -17.0792    2071.0963   ✗       
+830   KHELVGTWNHLLDLAAAR       -1.0000     NotChecked  -17.1039    2043.1014   ✗       
+831   +43.006LHELVGMWNHLLDLAAAR-1.0000     NotChecked  -17.1484    2101.0891   ✗       
+832   NHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -17.1624    2059.0422   ✗       
+833   RHELVGTWNHLLDLAAFR       -1.0000     NotChecked  -17.1683    2147.1388   ✗       
+834   Q+0.984HELVGMWNHLLDLAAAR -1.0000     NotChecked  -17.1699    2074.0418   ✗       
+835   +42.011HELVGTWNHLLDLAFFR -1.0000     NotChecked  -17.1699    2109.0796   ✗       
+836   KHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -17.1732    2073.0942   ✗       
+837   +42.011HELVGMYNHLLDLAAFR -1.0000     NotChecked  -17.1840    2040.0251   ✗       
+838   +43.006HELVSMWNHLLDLAAAR -1.0000     NotChecked  -17.2104    2018.0156   ✗       
+839   GLHELVGMWNHLLDLAAAR      -1.0000     NotChecked  -17.2230    2115.1048   ✗       
+840   +42.011HELVGTWNHLLDLAAAR -1.0000     NotChecked  -17.2268    1957.0170   ✗       
+841   +43.006HELGVGMWNHLLDLAFAR-1.0000     NotChecked  -17.2318    2121.0578   ✗       
+842   +42.011LHELGVGTWNHLLDLAAAR-1.0000     NotChecked  -17.2339    2127.1225   ✗       
+843   +42.011HELVGMWNHLLDLAFFR -1.0000     NotChecked  -17.2392    2139.0724   ✗       
+844   +43.006HELVGMWNHLLDLAAFR -1.0000     NotChecked  -17.2456    2064.0364   ✗       
+845   +43.006LHELGMWNHLLDLAAFR -1.0000     NotChecked  -17.2718    2078.0520   ✗       
+846   +42.011HELVGMWNHLLDLAAAR -1.0000     NotChecked  -17.2960    1987.0098   ✗       
+847   NHELLGMWNHLLDLAAFR       -1.0000     Failed      -17.3013    2149.0891   ✓       
+848   +42.011LHELVGMYNHLLDLAAAR-1.0000     NotChecked  -17.3202    2077.0779   ✗       
+849   +43.006HELLSMWNHLLDLAAFR -1.0000     NotChecked  -17.3492    2108.0626   ✗       
+850   +42.011HELGVSMWNHLLDLAAAR-1.0000     NotChecked  -17.3652    2074.0418   ✗       
+851   +42.011HELLGTWNHLLDLAAFR -1.0000     NotChecked  -17.3656    2047.0639   ✗       
+852   +42.011HELGMWNHLLDLAAFR  -1.0000     NotChecked  -17.4194    1963.9727   ✗       
+853   +42.011LHELGGMWNHLLDLAAFR-1.0000     NotChecked  -17.4266    2134.0782   ✗       
+854   EHELVGTWNHLLDLAAFR       -1.0000     NotChecked  -17.4269    2120.0803   ✗       
+855   +42.011HELLGMWNHLLDLAAFR -1.0000     NotChecked  -17.4348    2077.0568   ✗       
+856   EHELLGMWNHLLDLAAAR       -1.0000     NotChecked  -17.4391    2088.0575   ✗       
+857   +43.006HELVGTWNHLLDLAFFR -1.0000     NotChecked  -17.4875    2110.0748   ✗       
+858   +43.006HELVGMYNHLLDLAAFR -1.0000     NotChecked  -17.5016    2041.0204   ✗       
+859   KHELVSMWNHLLDLAAAR       -1.0000     NotChecked  -17.5243    2103.1048   ✗       
+860   +43.006HELVGTWNHLLDLAAAR -1.0000     NotChecked  -17.5444    1958.0122   ✗       
+861   +43.006LHELGVGTWNHLLDLAAAR-1.0000     NotChecked  -17.5515    2128.1178   ✗       
+862   +42.011LHELVGMWNHLLDLAAAR-1.0000     NotChecked  -17.5556    2100.0939   ✗       
+863   +43.006HELVGMWNHLLDLAFFR -1.0000     NotChecked  -17.5568    2140.0677   ✗       
+864   +42.011LHELVGTWNHLLDLAAFR-1.0000     NotChecked  -17.5589    2146.1324   ✗       
+865   +42.011HELLVGMWNHLLDLAAAR-1.0000     NotChecked  -17.5620    2100.0939   ✗       
+866   +43.006HELVGMWNHLLDLAAAR -1.0000     NotChecked  -17.6136    1988.0051   ✗       
+867   +42.011HELVSTWNHLLDLAAFR -1.0000     NotChecked  -17.6209    2063.0589   ✗       
+868   +42.011HELVLSMWNHLLDLAAAR-1.0000     NotChecked  -17.6330    2130.1044   ✗       
+869   NHELGVGMWNHLLDLAAAR      -1.0000     NotChecked  -17.6348    2116.0636   ✗       
+870   +42.011HELVTMWNHLLDLAAFR -1.0000     NotChecked  -17.6368    2107.0673   ✗       
+871   +43.006LHELVGMYNHLLDLAAAR-1.0000     NotChecked  -17.6378    2078.0731   ✗       
+872   Q+0.984HELGVGMWNHLLDLAAAR-1.0000     NotChecked  -17.6422    2131.0633   ✗       
+873   HHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -17.6491    2082.0581   ✗       
+874   +42.011HELGVGMYNHLLDLAAFR-1.0000     NotChecked  -17.6564    2097.0466   ✗       
+875   +42.011HELVGMWNHLLDLAAFR -1.0000     NotChecked  -17.6823    2063.0411   ✗       
+876   +43.006HELGVSMWNHLLDLAAAR-1.0000     NotChecked  -17.6828    2075.0371   ✗       
+877   +43.006HELLGTWNHLLDLAAFR -1.0000     NotChecked  -17.6832    2048.0592   ✗       
+878   GHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -17.6882    2002.0207   ✗       
+879   +42.011HELVSMWNHLLDLAAFR -1.0000     NotChecked  -17.6901    2093.0517   ✗       
+880   EHELVSMWNHLLDLAAAR       -1.0000     NotChecked  -17.6943    2104.0524   ✗       
+881   +42.011HELGVGTWNHLLDLAAAR-1.0000     NotChecked  -17.6991    2014.0385   ✗       
+882   +42.011HELLGMWNHLLDLAAFR -1.0000     NotChecked  -17.7009    2077.0568   ✗       
+883   +43.006HELGMWNHLLDLAAFR  -1.0000     NotChecked  -17.7370    1964.9679   ✗       
+884   +43.006LHELGGMWNHLLDLAAFR-1.0000     NotChecked  -17.7442    2135.0735   ✗       
+885   +43.006HELLGMWNHLLDLAAFR -1.0000     NotChecked  -17.7524    2078.0520   ✗       
+886   +42.011HELVGGMWNHLLDLAAFR-1.0000     NotChecked  -17.7582    2120.0626   ✗       
+887   +42.011HELGVGMWNHLLDLAAAR-1.0000     NotChecked  -17.7684    2044.0313   ✗       
+888   +42.011HELVGMYNHLLDLAAAR -1.0000     NotChecked  -17.7854    1963.9938   ✗       
+889   KHELVGMYNHLLDLAAFR       -1.0000     NotChecked  -17.8155    2126.1095   ✗       
+890   +42.011LHELVGMWNHLLDLAAAR-1.0000     NotChecked  -17.8185    2100.0939   ✗       
+891   GHELLGMWNHLLDLAAFR       -1.0000     NotChecked  -17.8271    2092.0677   ✗       
+892   +42.011HELGLGTWNHLLDLAAFR-1.0000     NotChecked  -17.8380    2104.0854   ✗       
+893   KHELVGTWNHLLDLAAAR       -1.0000     NotChecked  -17.8582    2043.1014   ✗       
+894   +43.006LHELVGMWNHLLDLAAAR-1.0000     NotChecked  -17.8732    2101.0891   ✗       
+895   +43.006LHELVGTWNHLLDLAAFR-1.0000     NotChecked  -17.8765    2147.1276   ✗       
+896   +43.006HELLVGMWNHLLDLAAAR-1.0000     NotChecked  -17.8796    2101.0891   ✗       
+897   NHELVGTWNHLLDLAAFR       -1.0000     NotChecked  -17.8905    2105.0806   ✗       
+898   +42.011HELGGMWNHLLDLAAFR -1.0000     NotChecked  -17.8918    2020.9942   ✗       
+899   Q+0.984HELVGTWNHLLDLAAFR -1.0000     NotChecked  -17.8979    2120.0803   ✗       
+900   +42.011HELGLGMWNHLLDLAAFR-1.0000     NotChecked  -17.9072    2134.0782   ✗       
+901   EHELGLGMWNHLLDLAAAR      -1.0000     NotChecked  -17.9114    2145.0789   ✗       
+902   +42.011LHELLSMWNHLLDLAAAR-1.0000     NotChecked  -17.9221    2144.1201   ✗       
+903   RHELVGTWNHLLDLAAFR       -1.0000     NotChecked  -17.9226    2147.1388   ✗       
+904   +42.011HELVGTWNHLLDLAFFR -1.0000     NotChecked  -17.9242    2109.0796   ✗       
+905   KHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -17.9275    2073.0942   ✗       
+906   RHELLGMWNHLLDLAAAR       -1.0000     NotChecked  -17.9348    2115.1160   ✗       
+907   +42.011HELLGMWNHLLDLAFAR -1.0000     NotChecked  -17.9364    2077.0568   ✗       
+908   +43.006HELVSTWNHLLDLAAFR -1.0000     NotChecked  -17.9385    2064.0541   ✗       
+909   +43.006HELVLSMWNHLLDLAAAR-1.0000     NotChecked  -17.9506    2131.0997   ✗       
+910   +43.006HELVTMWNHLLDLAAFR -1.0000     NotChecked  -17.9544    2108.0626   ✗       
+911   NHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -17.9597    2135.0735   ✗       
+912   +42.011HELVLGTWNHLLDLAAAR-1.0000     NotChecked  -17.9670    2070.1011   ✗       
+913   +43.006HELGVGMYNHLLDLAAFR-1.0000     NotChecked  -17.9740    2098.0418   ✗       
+914   EHELVGMYNHLLDLAAFR       -1.0000     NotChecked  -17.9856    2127.0571   ✗       
+915   +42.011HELVGMWNHLLDLAFFR -1.0000     NotChecked  -17.9935    2139.0724   ✗       
+916   KHELLGTWNHLLDLAAFR       -1.0000     NotChecked  -17.9971    2133.1483   ✗       
+917   +43.006HELVGMWNHLLDLAAFR -1.0000     NotChecked  -17.9999    2064.0364   ✗       
+918   +43.006HELVSMWNHLLDLAAFR -1.0000     NotChecked  -18.0077    2094.0469   ✗       
+919   +43.006HELGVGTWNHLLDLAAAR-1.0000     NotChecked  -18.0167    2015.0337   ✗       
+920   +43.006HELLGMWNHLLDLAAFR -1.0000     NotChecked  -18.0185    2078.0520   ✗       
+921   +42.011HELVGMWN+0.984HLLDLAAFR-1.0000     NotChecked  -18.0187    2064.0251   ✗       
+922   +42.011HELVGMWNHLLDLAAAR -1.0000     NotChecked  -18.0208    1987.0098   ✗       
+923   +42.011HELVGTWNHLLDLAAFR -1.0000     NotChecked  -18.0241    2033.0483   ✗       
+924   EHELVGTWNHLLDLAAAR       -1.0000     NotChecked  -18.0283    2044.0490   ✗       
+925   +42.011HELVLGMWNHLLDLAAAR-1.0000     NotChecked  -18.0362    2100.0939   ✗       
+926   +42.011LHELGGMWNHLLDLAAFR-1.0000     NotChecked  -18.0473    2134.0782   ✗       
+927   +42.011HELVGMWNHLLDLAAFR -1.0000     NotChecked  -18.0479    2063.0411   ✗       
+928   +42.011HQ+0.984LVGMWNHLLDLAAFR-1.0000     NotChecked  -18.0500    2063.0411   ✗       
+929   KHELGMWNHLLDLAAFR        -1.0000     NotChecked  -18.0509    2050.0571   ✗       
+930   +42.011LHELVGTWNHLLDLAFAR-1.0000     NotChecked  -18.0604    2146.1324   ✗       
+931   +42.011LHELVGMYNHLLDLAAAR-1.0000     NotChecked  -18.0745    2077.0779   ✗       
+932   +43.006HELVGGMWNHLLDLAAFR-1.0000     NotChecked  -18.0757    2121.0578   ✗       
+933   GHELVSMWNHLLDLAAFR       -1.0000     NotChecked  -18.0823    2108.0626   ✗       
+934   +43.006HELGVGMWNHLLDLAAAR-1.0000     NotChecked  -18.0860    2045.0265   ✗       
+935   EHELVGMWNHLLDLAAAR       -1.0000     NotChecked  -18.0975    2074.0418   ✗       
+936   +43.006HELVGMYNHLLDLAAAR -1.0000     NotChecked  -18.1030    1964.9891   ✗       
+937   HHELGVGMWNHLLDLAAAR      -1.0000     NotChecked  -18.1215    2139.0796   ✗       
+938   +43.006LHELVGMWNHLLDLAAAR-1.0000     NotChecked  -18.1360    2101.0891   ✗       
+939   +42.011HELGVGMWNHLLDLAAFR-1.0000     NotChecked  -18.1546    2120.0626   ✗       
+940   +43.006HELGLGTWNHLLDLAAFR-1.0000     NotChecked  -18.1556    2105.0806   ✗       
+941   GHELGVGMWNHLLDLAAAR      -1.0000     NotChecked  -18.1606    2059.0422   ✗       
+942   +42.011HELVGMWNHLLDLAAFR -1.0000     NotChecked  -18.1895    2063.0411   ✗       
+943   RHELVSMWNHLLDLAAAR       -1.0000     NotChecked  -18.1900    2131.1109   ✗       
+944   +42.011HELVSMWNHLLDLAFAR -1.0000     NotChecked  -18.1917    2093.0517   ✗       
+945   +43.006HELGGMWNHLLDLAAFR -1.0000     NotChecked  -18.2094    2021.9894   ✗       
+946   +43.006HELGLGMWNHLLDLAAFR-1.0000     NotChecked  -18.2248    2135.0735   ✗       
+947   +43.006LHELLSMWNHLLDLAAAR-1.0000     NotChecked  -18.2397    2145.1153   ✗       
+948   +43.006HELVGTWNHLLDLAFFR -1.0000     NotChecked  -18.2418    2110.0748   ✗       
+949   +43.006HELLGMWNHLLDLAFAR -1.0000     NotChecked  -18.2540    2078.0520   ✗       
+950   +42.011LHELLGTWNHLLDLAAAR-1.0000     NotChecked  -18.2561    2084.1167   ✗       
+951   +42.011HELVGMWNHLLDLAAAR -1.0000     NotChecked  -18.2837    1987.0098   ✗       
+952   +43.006HELVLGTWNHLLDLAAAR-1.0000     NotChecked  -18.2846    2071.0963   ✗       
+953   +42.011LHELGMWNHLLDLAAAR -1.0000     NotChecked  -18.3099    2001.0255   ✗       
+954   +43.006HELVGMWNHLLDLAFFR -1.0000     NotChecked  -18.3111    2140.0677   ✗       
+955   +42.011LHELVGTWNHLLDLAAFR-1.0000     NotChecked  -18.3132    2146.1324   ✗       
+956   +42.011LHELLGMWNHLLDLAAAR-1.0000     NotChecked  -18.3253    2114.1095   ✗       
+957   KHELGVGTWNHLLDLAAAR      -1.0000     NotChecked  -18.3306    2100.1228   ✗       
+958   +43.006HELVGMWN+0.984HLLDLAAFR-1.0000     NotChecked  -18.3363    2065.0204   ✗       
+959   +43.006HELVGMWNHLLDLAAAR -1.0000     NotChecked  -18.3384    1988.0051   ✗       
+960   +42.011LHELVMWNHLLDLAAFR -1.0000     NotChecked  -18.3414    2119.1037   ✗       
+961   +43.006HELVGTWNHLLDLAAFR -1.0000     NotChecked  -18.3417    2034.0435   ✗       
+962   +43.006HELVLGMWNHLLDLAAAR-1.0000     NotChecked  -18.3538    2101.0891   ✗       
+963   +43.006LHELGGMWNHLLDLAAFR-1.0000     NotChecked  -18.3648    2135.0735   ✗       
+964   +43.006HELVGMWNHLLDLAAFR -1.0000     NotChecked  -18.3655    2064.0364   ✗       
+965   +43.006HQ+0.984LVGMWNHLLDLAAFR-1.0000     NotChecked  -18.3676    2064.0364   ✗       
+966   +42.011HELVSTWNHLLDLAAFR -1.0000     NotChecked  -18.3752    2063.0589   ✗       
+967   HHELVGTWNHLLDLAAFR       -1.0000     NotChecked  -18.3772    2128.0966   ✗       
+968   +43.006LHELVGTWNHLLDLAFAR-1.0000     NotChecked  -18.3780    2147.1276   ✗       
+969   +42.011HELLSMWNHLLDLAAAR -1.0000     NotChecked  -18.3873    2031.0360   ✗       
+970   +42.011HELVTMWNHLLDLAAFR -1.0000     NotChecked  -18.3911    2107.0673   ✗       
+971   +43.006LHELVGMYNHLLDLAAAR-1.0000     NotChecked  -18.3921    2078.0731   ✗       
+972   KHELGVGMWNHLLDLAAAR      -1.0000     NotChecked  -18.3998    2130.1157   ✗       
+973   +42.011HELGLGMWNHLLDLAFAR-1.0000     NotChecked  -18.4088    2134.0782   ✗       
+974   GHELVGTWNHLLDLAAFR       -1.0000     NotChecked  -18.4163    2048.0592   ✗       
+975   KHELVGMYNHLLDLAAAR       -1.0000     NotChecked  -18.4169    2050.0782   ✗       
+976   +42.011HELVAMWNHLLDLAAFR -1.0000     NotChecked  -18.4252    2077.0568   ✗       
+977   GHELVLGMWNHLLDLAAAR      -1.0000     NotChecked  -18.4285    2115.1048   ✗       
+978   +42.011HELVSMWNHLLDLAAFR -1.0000     NotChecked  -18.4444    2093.0517   ✗       
+979   EHELVSMWNHLLDLAAAR       -1.0000     NotChecked  -18.4486    2104.0524   ✗       
+980   NHELVGMWNHLLDLAFAR       -1.0000     NotChecked  -18.4613    2135.0735   ✗       
+981   +43.006HELGVGMWNHLLDLAAFR-1.0000     NotChecked  -18.4722    2121.0578   ✗       
+982   +42.011HELVGMYNHLLDLAFFR -1.0000     NotChecked  -18.4829    2116.0564   ✗       
+983   GHELVGMWNHLLDLAAFR       -1.0000     NotChecked  -18.4855    2078.0520   ✗       
+984   +43.006HELVGMWNHLLDLAAFR -1.0000     NotChecked  -18.5070    2064.0364   ✗       
+985   +43.006HELVSMWNHLLDLAFAR -1.0000     NotChecked  -18.5093    2094.0469   ✗       
+986   +42.011LHELVSTWNHLLDLAAAR-1.0000     NotChecked  -18.5114    2100.1116   ✗       
+987   +42.011HELGGMWNHLLDLAAFR -1.0000     NotChecked  -18.5125    2020.9942   ✗       
+988   +42.011LHELGGMWNHLLDLAAFR-1.0000     NotChecked  -18.5196    2134.0782   ✗       
+989   KHELGGMWNHLLDLAAFR       -1.0000     NotChecked  -18.5233    2107.0785   ✗       
+990   RHELVGTWNHLLDLAAAR       -1.0000     NotChecked  -18.5240    2071.1075   ✗       
+991   +42.011HELVGTWNHLLDLAFAR -1.0000     NotChecked  -18.5256    2033.0483   ✗       
+992   +42.011LHELVTMWNHLLDLAAAR-1.0000     NotChecked  -18.5273    2144.1201   ✗       
+993   +42.011LHELVGSWNHLLDLAAFR-1.0000     NotChecked  -18.5289    2132.1167   ✗       
+994   +42.011HELVGMYNHLLDLAAAR -1.0000     NotChecked  -18.5397    1963.9938   ✗       
+995   +42.011LHELGVGMYNHLLDLAAAR-1.0000     NotChecked  -18.5469    2134.0993   ✗       
+996   +42.011LHELVGMWNHLLDLAAAR-1.0000     NotChecked  -18.5728    2100.0939   ✗       
+997   +43.006LHELLGTWNHLLDLAAAR-1.0000     NotChecked  -18.5737    2085.1119   ✗       
+998   +42.011HELAVGMWNHLLDLAAFR-1.0000     NotChecked  -18.5754    2134.0782   ✗       
+999   +42.011LHELVSMWNHLLDLAAAR-1.0000     NotChecked  -18.5806    2130.1044   ✗       
+1000  +42.011LHELLGMWNHLLDLAAAR-1.0000     NotChecked  -18.5914    2114.1095   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: LHELLGMWN+0.984HLLDLAAFR
+Similarity: 0.9175
+De Novo Score: -9.8669
+Source: Database
+Correct: ✓
+

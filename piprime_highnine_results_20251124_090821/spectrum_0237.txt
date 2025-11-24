@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 237
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 520.9005
+Precursor charge: 3+
+Ground truth: SGC+57.021NHPDIDVQYR
+Ground truth (normalized): SGC+57.021NHPDIDVQYR
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 448
+Used for reranking: 448
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 448 (44.8%)
+Database matches: 346 (34.6%)
+Prosit predictions: 57 (5.7%)
+Failed: 45 (4.5%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.7594
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     SGC+57.021NHPDLDVQYR     0.7594      Database    -1.0201     1559.6787   ✓       ✓
+2     SGC+57.021NHPDLDVQYR     0.7594      Database    -1.4757     1559.6787   ✓       ✓
+3     SGC+57.021NHPDLDVQYR     0.7594      Database    -1.7827     1559.6787   ✓       ✓
+4     SGC+57.021NHPDLDVQYR     0.7594      Database    -2.2384     1559.6787   ✓       ✓
+5     SGC+57.021NHPDLDVQYR     0.7594      Database    -3.1491     1559.6787   ✓       ✓
+6     SGC+57.021NHPDLDVQYR     0.7594      Database    -3.6048     1559.6787   ✓       ✓
+7     SGC+57.021NHPDLDVQYR     0.7594      Database    -3.9117     1559.6787   ✓       ✓
+8     SGC+57.021NHPDLDVQYR     0.7594      Database    -4.3674     1559.6787   ✓       ✓
+9     SGC+57.021NHPDLDVQYR     0.7594      Database    -4.5543     1559.6787   ✓       ✓
+10    SGC+57.021NHPDLDVQYR     0.7594      Database    -5.0099     1559.6787   ✓       ✓
+11    SGC+57.021NHPDLDVQYR     0.7594      Database    -5.3169     1559.6787   ✓       ✓
+12    SGC+57.021NHPDLDVQYR     0.7594      Database    -5.7726     1559.6787   ✓       ✓
+13    SGC+57.021NHPDLDVQYR     0.7594      Database    -6.6833     1559.6787   ✓       ✓
+14    SGC+57.021NHPDLDVQYR     0.7594      Database    -7.1390     1559.6787   ✓       ✓
+15    SGC+57.021NHPDLDVQYR     0.7594      Database    -7.2351     1559.6787   ✓       ✓
+16    SGC+57.021NHPDLDVQYR     0.7594      Database    -7.2963     1559.6787   ✓       ✓
+17    SGC+57.021NHPDLDVQYR     0.7594      Database    -7.4459     1559.6787   ✓       ✓
+18    SGC+57.021NHPDLDVQYR     0.7594      Database    -7.6412     1559.6787   ✓       ✓
+19    SGC+57.021NHPDLDVQYR     0.7594      Database    -7.6907     1559.6787   ✓       ✓
+20    SGC+57.021NHPDLDVQYR     0.7594      Database    -7.7519     1559.6787   ✓       ✓
+21    SGC+57.021NHPDLDVQYR     0.7594      Database    -7.9016     1559.6787   ✓       ✓
+22    SGC+57.021NHPDLDVQYR     0.7594      Database    -7.9977     1559.6787   ✓       ✓
+23    SGC+57.021NHPDLDVQYR     0.7594      Database    -8.0589     1559.6787   ✓       ✓
+24    SGC+57.021NHPDLDVQYR     0.7594      Database    -8.0968     1559.6787   ✓       ✓
+25    SGC+57.021NHPDLDVQYR     0.7594      Database    -8.4038     1559.6787   ✓       ✓
+26    SGC+57.021NHPDLDVQYR     0.7594      Database    -8.4534     1559.6787   ✓       ✓
+27    SGC+57.021NHPDLDVQYR     0.7594      Database    -8.5146     1559.6787   ✓       ✓
+28    SGC+57.021NHPDLDVQYR     0.7594      Database    -8.8595     1559.6787   ✓       ✓
+29    SGC+57.021NHPDLDVQYR     0.7594      Database    -9.3641     1559.6787   ✓       ✓
+30    SGC+57.021NHPDLDVQYR     0.7594      Database    -9.7702     1559.6787   ✓       ✓
+31    SGC+57.021NHPDLDVQYR     0.7594      Database    -9.8198     1559.6787   ✓       ✓
+32    SGC+57.021NHPDLDVQYR     0.7594      Database    -10.1267    1559.6787   ✓       ✓
+33    SGC+57.021NHPDLDVQYR     0.7594      Database    -10.2258    1559.6787   ✓       ✓
+34    SGC+57.021NHPDLDVQYR     0.7594      Database    -10.5328    1559.6787   ✓       ✓
+35    SGC+57.021NHPDLDVQYR     0.7594      Database    -10.5824    1559.6787   ✓       ✓
+36    SGC+57.021NHPDLDVQYR     0.7594      Database    -10.7693    1559.6787   ✓       ✓
+37    SGC+57.021NHPDLDVQYR     0.7594      Database    -10.8304    1559.6787   ✓       ✓
+38    SGC+57.021NHPDLDVQYR     0.7594      Database    -10.9885    1559.6787   ✓       ✓
+39    SGC+57.021NHPDLDVQYR     0.7594      Database    -11.1753    1559.6787   ✓       ✓
+40    SGC+57.021NHPDLDVQYR     0.7594      Database    -11.2249    1559.6787   ✓       ✓
+41    SGC+57.021NHPDLDVQYR     0.7594      Database    -11.2861    1559.6787   ✓       ✓
+42    SGC+57.021NHPDLDVQYR     0.7594      Database    -11.5319    1559.6787   ✓       ✓
+43    SGC+57.021NHPDLDVQYR     0.7594      Database    -11.5931    1559.6787   ✓       ✓
+44    SGC+57.021NHPDLDVQYR     0.7594      Database    -11.6310    1559.6787   ✓       ✓
+45    SGC+57.021NHPDLDVQYR     0.7594      Database    -11.9380    1559.6787   ✓       ✓
+46    SGC+57.021NHPDLDVQYR     0.7594      Database    -11.9876    1559.6787   ✓       ✓
+47    SGC+57.021NHPDLDVQYR     0.7594      Database    -12.0488    1559.6787   ✓       ✓
+48    SGC+57.021NHPDLDVQYR     0.7594      Database    -12.3937    1559.6787   ✓       ✓
+49    SGC+57.021NHPDLDVQYR     0.7594      Database    -12.8983    1559.6787   ✓       ✓
+50    SGC+57.021NHPDLDVQYR     0.7594      Database    -13.3044    1559.6787   ✓       ✓
+51    SGC+57.021NHPDLDVQYR     0.7594      Database    -13.3540    1559.6787   ✓       ✓
+52    SGC+57.021NHPDLDVQYR     0.7594      Database    -13.5113    1559.6787   ✓       ✓
+53    SGC+57.021NHPDLDVQYR     0.7594      Database    -13.6609    1559.6787   ✓       ✓
+54    SGC+57.021NHPDLDVQYR     0.7594      Database    -13.7600    1559.6787   ✓       ✓
+55    SGC+57.021NHPDLDVQYR     0.7594      Database    -13.9173    1559.6787   ✓       ✓
+56    SGC+57.021NHPDLDVQYR     0.7594      Database    -13.9669    1559.6787   ✓       ✓
+57    SGC+57.021NHPDLDVQYR     0.7594      Database    -14.0670    1559.6787   ✓       ✓
+58    SGC+57.021NHPDLDVQYR     0.7594      Database    -14.1166    1559.6787   ✓       ✓
+59    SGC+57.021NHPDLDVQYR     0.7594      Database    -14.2739    1559.6787   ✓       ✓
+60    SGC+57.021NHPDLDVQYR     0.7594      Database    -14.2962    1559.6787   ✓       ✓
+61    SGC+57.021NHPDLDVQYR     0.7594      Database    -14.3730    1559.6787   ✓       ✓
+62    SGC+57.021NHPDLDVQYR     0.7594      Database    -14.5227    1559.6787   ✓       ✓
+63    SGC+57.021NHPDLDVQYR     0.7594      Database    -14.5720    1559.6787   ✓       ✓
+64    SGC+57.021NHPDLDVQYR     0.7594      Database    -14.6048    1559.6787   ✓       ✓
+65    SGC+57.021NHPDLDVQYR     0.7594      Database    -14.6800    1559.6787   ✓       ✓
+66    SGC+57.021NHPDLDVQYR     0.7594      Database    -14.7296    1559.6787   ✓       ✓
+67    SGC+57.021NHPDLDVQYR     0.7594      Database    -14.7519    1559.6787   ✓       ✓
+68    SGC+57.021NHPDLDVQYR     0.7594      Database    -15.0277    1559.6787   ✓       ✓
+69    SGC+57.021NHPDLDVQYR     0.7594      Database    -15.0588    1559.6787   ✓       ✓
+70    SGC+57.021NHPDLDVQYR     0.7594      Database    -15.0605    1559.6787   ✓       ✓
+71    SGC+57.021NHPDLDVQYR     0.7594      Database    -15.1357    1559.6787   ✓       ✓
+72    SGC+57.021NHPDLDVQYR     0.7594      Database    -15.3347    1559.6787   ✓       ✓
+73    SGC+57.021NHPDLDVQYR     0.7594      Database    -15.3674    1559.6787   ✓       ✓
+74    SGC+57.021NHPDLDVQYR     0.7594      Database    -15.5145    1559.6787   ✓       ✓
+75    SGC+57.021NHPDLDVQYR     0.7594      Database    -15.7904    1559.6787   ✓       ✓
+76    SGC+57.021NHPDLDVQYR     0.7594      Database    -15.8231    1559.6787   ✓       ✓
+77    SGC+57.021NHPDLDVQYR     0.7594      Database    -16.4252    1559.6787   ✓       ✓
+78    SGC+57.021NHPDLDVQYR     0.7594      Database    -16.7011    1559.6787   ✓       ✓
+79    SGC+57.021NHPDLDVQYR     0.7594      Database    -16.7338    1559.6787   ✓       ✓
+80    SGC+57.021NHPDLDVQYR     0.7594      Database    -16.8809    1559.6787   ✓       ✓
+81    SGC+57.021NHPDLDVQYR     0.7594      Database    -17.0454    1559.6787   ✓       ✓
+82    SGC+57.021NHPDLDVQYR     0.7594      Database    -17.0643    1559.6787   ✓       ✓
+83    SGC+57.021NHPDLDVQYR     0.7594      Database    -17.1567    1559.6787   ✓       ✓
+84    SGC+57.021NHPDLDVQYR     0.7594      Database    -17.1879    1559.6787   ✓       ✓
+85    SGC+57.021NHPDLDVQYR     0.7594      Database    -17.1895    1559.6787   ✓       ✓
+86    SGC+57.021NHPDLDVQYR     0.7594      Database    -17.2248    1559.6787   ✓       ✓
+87    SGC+57.021NHPDLDVQYR     0.7594      Database    -17.2874    1559.6787   ✓       ✓
+88    SGC+57.021NHPDLDVQYR     0.7594      Database    -17.4515    1559.6787   ✓       ✓
+89    SGC+57.021NHPDLDVQYR     0.7594      Database    -17.4637    1559.6787   ✓       ✓
+90    SGC+57.021NHPDLDVQYR     0.7594      Database    -17.4964    1559.6787   ✓       ✓
+91    SGC+57.021NHPDLDVQYR     0.7594      Database    -17.5011    1559.6787   ✓       ✓
+92    SGC+57.021NHPDLDVQYR     0.7594      Database    -17.5200    1559.6787   ✓       ✓
+93    SGC+57.021NHPDLDVQYR     0.7594      Database    -17.6435    1559.6787   ✓       ✓
+94    SGC+57.021NHPDLDVQYR     0.7594      Database    -17.6805    1559.6787   ✓       ✓
+95    SGC+57.021NHPDLDVQYR     0.7594      Database    -17.7431    1559.6787   ✓       ✓
+96    SGC+57.021NHPDLDVQYR     0.7594      Database    -17.8081    1559.6787   ✓       ✓
+97    SGC+57.021NHPDLDVQYR     0.7594      Database    -17.8270    1559.6787   ✓       ✓
+98    SGC+57.021NHPDLDVQYR     0.7594      Database    -17.8304    1559.6787   ✓       ✓
+99    SGC+57.021NHPDLDVQYR     0.7594      Database    -17.9072    1559.6787   ✓       ✓
+100   SGC+57.021NHPDLDVQYR     0.7594      Database    -17.9194    1559.6787   ✓       ✓
+101   SGC+57.021NHPDLDVQYR     0.7594      Database    -17.9521    1559.6787   ✓       ✓
+102   SGC+57.021NHPDLDVQYR     0.7594      Database    -17.9875    1559.6787   ✓       ✓
+103   SGC+57.021NHPDLDVQYR     0.7594      Database    -18.0501    1559.6787   ✓       ✓
+104   SGC+57.021NHPDLDVQYR     0.7594      Database    -18.1062    1559.6787   ✓       ✓
+105   SGC+57.021NHPDLDVQYR     0.7594      Database    -18.1390    1559.6787   ✓       ✓
+106   SGC+57.021NHPDLDVQYR     0.7594      Database    -18.2142    1559.6787   ✓       ✓
+107   SGC+57.021NHPDLDVQYR     0.7594      Database    -18.2638    1559.6787   ✓       ✓
+108   SGC+57.021NHPDLDVQYR     0.7594      Database    -18.2827    1559.6787   ✓       ✓
+109   SGC+57.021NHPDLDVQYR     0.7594      Database    -18.2861    1559.6787   ✓       ✓
+110   SGC+57.021NHPDLDVQYR     0.7594      Database    -18.3548    1559.6787   ✓       ✓
+111   SGC+57.021NHPDLDVQYR     0.7594      Database    -18.4432    1559.6787   ✓       ✓
+112   SGC+57.021NHPDLDVQYR     0.7594      Database    -18.5057    1559.6787   ✓       ✓
+113   SGC+57.021NHPDLDVQYR     0.7594      Database    -18.5619    1559.6787   ✓       ✓
+114   SGC+57.021NHPDLDVQYR     0.7594      Database    -18.5930    1559.6787   ✓       ✓
+115   SGC+57.021NHPDLDVQYR     0.7594      Database    -18.5946    1559.6787   ✓       ✓
+116   SGC+57.021NHPDLDVQYR     0.7594      Database    -18.6699    1559.6787   ✓       ✓
+117   SGC+57.021NHPDLDVQYR     0.7594      Database    -18.8105    1559.6787   ✓       ✓
+118   SGC+57.021NHPDLDVQYR     0.7594      Database    -18.8689    1559.6787   ✓       ✓
+119   SGC+57.021NHPDLDVQYR     0.7594      Database    -18.9016    1559.6787   ✓       ✓
+120   SGC+57.021NHPDLDVQYR     0.7594      Database    -19.0487    1559.6787   ✓       ✓
+121   SGC+57.021NHPDLDVQYR     0.7594      Database    -19.0969    1559.6787   ✓       ✓
+122   SGC+57.021NHPDLDVQYR     0.7594      Database    -19.1579    1559.6787   ✓       ✓
+123   SGC+57.021NHPDLDVQYR     0.7594      Database    -19.3246    1559.6787   ✓       ✓
+124   SGC+57.021NHPDLDVQYR     0.7594      Database    -19.3573    1559.6787   ✓       ✓
+125   SGC+57.021NHPDLDVQYR     0.7594      Database    -19.4164    1559.6787   ✓       ✓
+126   SGC+57.021NHPDLDVQYR     0.7594      Database    -19.5526    1559.6787   ✓       ✓
+127   SGC+57.021NHPDLDVQYR     0.7594      Database    -19.6136    1559.6787   ✓       ✓
+128   SGC+57.021NHPDLDVQYR     0.7594      Database    -19.6480    1559.6787   ✓       ✓
+129   SGC+57.021NHPDLDVQYR     0.7594      Database    -19.8595    1559.6787   ✓       ✓
+130   SGC+57.021NHPDLDVQYR     0.7594      Database    -19.8721    1559.6787   ✓       ✓
+131   SGC+57.021NHPDLDVQYR     0.7594      Database    -19.9194    1559.6787   ✓       ✓
+132   SGC+57.021NHPDLDVQYR     0.7594      Database    -19.9206    1559.6787   ✓       ✓
+133   SGC+57.021NHPDLDVQYR     0.7594      Database    -19.9594    1559.6787   ✓       ✓
+134   SGC+57.021NHPDLDVQYR     0.7594      Database    -20.0652    1559.6787   ✓       ✓
+135   SGC+57.021NHPDLDVQYR     0.7594      Database    -20.1036    1559.6787   ✓       ✓
+136   SGC+57.021NHPDLDVQYR     0.7594      Database    -20.1791    1559.6787   ✓       ✓
+137   SGC+57.021NHPDLDVQYR     0.7594      Database    -20.2352    1559.6787   ✓       ✓
+138   SGC+57.021NHPDLDVQYR     0.7594      Database    -20.2680    1559.6787   ✓       ✓
+139   SGC+57.021NHPDLDVQYR     0.7594      Database    -20.3152    1559.6787   ✓       ✓
+140   SGC+57.021NHPDLDVQYR     0.7594      Database    -20.3751    1559.6787   ✓       ✓
+141   SGC+57.021NHPDLDVQYR     0.7594      Database    -20.3762    1559.6787   ✓       ✓
+142   SGC+57.021NHPDLDVQYR     0.7594      Database    -20.4106    1559.6787   ✓       ✓
+143   SGC+57.021NHPDLDVQYR     0.7594      Database    -20.4151    1559.6787   ✓       ✓
+144   SGC+57.021NHPDLDVQYR     0.7594      Database    -20.4838    1559.6787   ✓       ✓
+145   SGC+57.021NHPDLDVQYR     0.7594      Database    -20.5112    1559.6787   ✓       ✓
+146   SGC+57.021NHPDLDVQYR     0.7594      Database    -20.5208    1559.6787   ✓       ✓
+147   SGC+57.021NHPDLDVQYR     0.7594      Database    -20.5693    1559.6787   ✓       ✓
+148   SGC+57.021NHPDLDVQYR     0.7594      Database    -20.5724    1559.6787   ✓       ✓
+149   SGC+57.021NHPDLDVQYR     0.7594      Database    -20.5985    1559.6787   ✓       ✓
+150   SGC+57.021NHPDLDVQYR     0.7594      Database    -20.6347    1559.6787   ✓       ✓
+151   SGC+57.021NHPDLDVQYR     0.7594      Database    -20.6821    1559.6787   ✓       ✓
+152   SGC+57.021NHPDLDVQYR     0.7594      Database    -20.6909    1559.6787   ✓       ✓
+153   SGC+57.021NHPDLDVQYR     0.7594      Database    -20.7220    1559.6787   ✓       ✓
+154   SGC+57.021NHPDLDVQYR     0.7594      Database    -20.7237    1559.6787   ✓       ✓
+155   SGC+57.021NHPDLDVQYR     0.7594      Database    -20.7590    1559.6787   ✓       ✓
+156   SGC+57.021NHPDLDVQYR     0.7594      Database    -20.8198    1559.6787   ✓       ✓
+157   SGC+57.021NHPDLDVQYR     0.7594      Database    -20.8216    1559.6787   ✓       ✓
+158   SGC+57.021NHPDLDVQYR     0.7594      Database    -20.8248    1559.6787   ✓       ✓
+159   SGC+57.021NHPDLDVQYR     0.7594      Database    -20.8278    1559.6787   ✓       ✓
+160   SGC+57.021NHPDLDVQYR     0.7594      Database    -20.8663    1559.6787   ✓       ✓
+161   SGC+57.021NHPDLDVQYR     0.7594      Database    -20.8810    1559.6787   ✓       ✓
+162   SGC+57.021NHPDLDVQYR     0.7594      Database    -20.9173    1559.6787   ✓       ✓
+163   SGC+57.021NHPDLDVQYR     0.7594      Database    -20.9395    1559.6787   ✓       ✓
+164   SGC+57.021NHPDLDVQYR     0.7594      Database    -20.9669    1559.6787   ✓       ✓
+165   SGC+57.021NHPDLDVQYR     0.7594      Database    -20.9979    1559.6787   ✓       ✓
+166   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.0250    1559.6787   ✓       ✓
+167   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.0280    1559.6787   ✓       ✓
+168   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.0306    1559.6787   ✓       ✓
+169   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.0542    1559.6787   ✓       ✓
+170   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.1377    1559.6787   ✓       ✓
+171   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.1777    1559.6787   ✓       ✓
+172   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.1931    1559.6787   ✓       ✓
+173   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.2147    1559.6787   ✓       ✓
+174   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.2259    1559.6787   ✓       ✓
+175   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.2259    1559.6787   ✓       ✓
+176   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.2738    1559.6787   ✓       ✓
+177   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.2755    1559.6787   ✓       ✓
+178   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.2773    1559.6787   ✓       ✓
+179   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.2805    1559.6787   ✓       ✓
+180   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.2835    1559.6787   ✓       ✓
+181   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.2869    1559.6787   ✓       ✓
+182   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.3319    1559.6787   ✓       ✓
+183   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.3350    1559.6787   ✓       ✓
+184   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.3366    1559.6787   ✓       ✓
+185   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.3612    1559.6787   ✓       ✓
+186   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.3729    1559.6787   ✓       ✓
+187   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.4536    1559.6787   ✓       ✓
+188   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.4863    1559.6787   ✓       ✓
+189   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.5018    1559.6787   ✓       ✓
+190   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.5217    1559.6787   ✓       ✓
+191   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.5824    1559.6787   ✓       ✓
+192   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.5842    1559.6787   ✓       ✓
+193   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.5875    1559.6787   ✓       ✓
+194   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.6436    1559.6787   ✓       ✓
+195   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.6488    1559.6787   ✓       ✓
+196   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.6799    1559.6787   ✓       ✓
+197   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.6815    1559.6787   ✓       ✓
+198   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.6816    1559.6787   ✓       ✓
+199   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.7295    1559.6787   ✓       ✓
+200   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.7360    1559.6787   ✓       ✓
+201   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.7426    1559.6787   ✓       ✓
+202   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.7770    1559.6787   ✓       ✓
+203   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.7876    1559.6787   ✓       ✓
+204   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.7907    1559.6787   ✓       ✓
+205   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.8169    1559.6787   ✓       ✓
+206   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.8391    1559.6787   ✓       ✓
+207   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.8890    1559.6787   ✓       ✓
+208   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.9558    1559.6787   ✓       ✓
+209   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.9575    1559.6787   ✓       ✓
+210   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.9774    1559.6787   ✓       ✓
+211   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.9885    1559.6787   ✓       ✓
+212   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.9886    1559.6787   ✓       ✓
+213   SGC+57.021NHPDLDVQYR     0.7594      Database    -21.9987    1559.6787   ✓       ✓
+214   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.0381    1559.6787   ✓       ✓
+215   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.0399    1559.6787   ✓       ✓
+216   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.0431    1559.6787   ✓       ✓
+217   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.0484    1559.6787   ✓       ✓
+218   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.0496    1559.6787   ✓       ✓
+219   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.0993    1559.6787   ✓       ✓
+220   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.1307    1559.6787   ✓       ✓
+221   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.1356    1559.6787   ✓       ✓
+222   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.1917    1559.6787   ✓       ✓
+223   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.1942    1559.6787   ✓       ✓
+224   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.2327    1559.6787   ✓       ✓
+225   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.2644    1559.6787   ✓       ✓
+226   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.2948    1559.6787   ✓       ✓
+227   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.3447    1559.6787   ✓       ✓
+228   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.4114    1559.6787   ✓       ✓
+229   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.4442    1559.6787   ✓       ✓
+230   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.4442    1559.6787   ✓       ✓
+231   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.4543    1559.6787   ✓       ✓
+232   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.4987    1559.6787   ✓       ✓
+233   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.5041    1559.6787   ✓       ✓
+234   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.5053    1559.6787   ✓       ✓
+235   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.5396    1559.6787   ✓       ✓
+236   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.5864    1559.6787   ✓       ✓
+237   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.6018    1559.6787   ✓       ✓
+238   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.6311    1559.6787   ✓       ✓
+239   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.6402    1559.6787   ✓       ✓
+240   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.6499    1559.6787   ✓       ✓
+241   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.6921    1559.6787   ✓       ✓
+242   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.6983    1559.6787   ✓       ✓
+243   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.7201    1559.6787   ✓       ✓
+244   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.7613    1559.6787   ✓       ✓
+245   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.8111    1559.6787   ✓       ✓
+246   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.8326    1559.6787   ✓       ✓
+247   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.8799    1559.6787   ✓       ✓
+248   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.9488    1559.6787   ✓       ✓
+249   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.9506    1559.6787   ✓       ✓
+250   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.9538    1559.6787   ✓       ✓
+251   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.9544    1559.6787   ✓       ✓
+252   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.9568    1559.6787   ✓       ✓
+253   SGC+57.021NHPDLDVQYR     0.7594      Database    -22.9953    1559.6787   ✓       ✓
+254   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.0463    1559.6787   ✓       ✓
+255   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.0575    1559.6787   ✓       ✓
+256   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.0867    1559.6787   ✓       ✓
+257   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.0959    1559.6787   ✓       ✓
+258   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.1478    1559.6787   ✓       ✓
+259   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.1540    1559.6787   ✓       ✓
+260   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.1822    1559.6787   ✓       ✓
+261   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.2170    1559.6787   ✓       ✓
+262   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.2668    1559.6787   ✓       ✓
+263   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.2883    1559.6787   ✓       ✓
+264   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.3221    1559.6787   ✓       ✓
+265   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.3549    1559.6787   ✓       ✓
+266   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.3937    1559.6787   ✓       ✓
+267   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.4029    1559.6787   ✓       ✓
+268   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.4045    1559.6787   ✓       ✓
+269   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.4063    1559.6787   ✓       ✓
+270   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.4095    1559.6787   ✓       ✓
+271   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.4125    1559.6787   ✓       ✓
+272   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.4398    1559.6787   ✓       ✓
+273   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.4536    1559.6787   ✓       ✓
+274   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.4548    1559.6787   ✓       ✓
+275   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.4610    1559.6787   ✓       ✓
+276   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.5020    1559.6787   ✓       ✓
+277   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.5024    1559.6787   ✓       ✓
+278   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.5636    1559.6787   ✓       ✓
+279   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.5953    1559.6787   ✓       ✓
+280   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.5993    1559.6787   ✓       ✓
+281   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.6308    1559.6787   ✓       ✓
+282   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.6378    1559.6787   ✓       ✓
+283   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.6426    1559.6787   ✓       ✓
+284   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.6854    1559.6787   ✓       ✓
+285   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.7114    1559.6787   ✓       ✓
+286   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.7133    1559.6787   ✓       ✓
+287   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.7165    1559.6787   ✓       ✓
+288   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.7778    1559.6787   ✓       ✓
+289   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.8089    1559.6787   ✓       ✓
+290   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.8106    1559.6787   ✓       ✓
+291   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.8459    1559.6787   ✓       ✓
+292   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.8494    1559.6787   ✓       ✓
+293   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.8567    1559.6787   ✓       ✓
+294   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.8585    1559.6787   ✓       ✓
+295   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.8651    1559.6787   ✓       ✓
+296   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.8955    1559.6787   ✓       ✓
+297   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.9056    1559.6787   ✓       ✓
+298   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.9085    1559.6787   ✓       ✓
+299   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.9093    1559.6787   ✓       ✓
+300   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.9104    1559.6787   ✓       ✓
+301   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.9166    1559.6787   ✓       ✓
+302   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.9448    1559.6787   ✓       ✓
+303   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.9581    1559.6787   ✓       ✓
+304   SGC+57.021NHPDLDVQYR     0.7594      Database    -23.9682    1559.6787   ✓       ✓
+305   SGC+57.021NHPDLDVQYR     0.7594      Database    -24.0180    1559.6787   ✓       ✓
+306   SGC+57.021NHPDLDVQYR     0.7594      Database    -24.0193    1559.6787   ✓       ✓
+307   SGC+57.021NHPDLDVQYR     0.7594      Database    -24.0454    1559.6787   ✓       ✓
+308   SGC+57.021NHPDLDVQYR     0.7594      Database    -24.0509    1559.6787   ✓       ✓
+309   SGC+57.021NHPDLDVQYR     0.7594      Database    -24.0550    1559.6787   ✓       ✓
+310   SGC+57.021NHPDLDVQYR     0.7594      Database    -24.0848    1559.6787   ✓       ✓
+311   SGC+57.021NHPDLDVQYR     0.7594      Database    -24.0865    1559.6787   ✓       ✓
+312   SGC+57.021NHPDLDVQYR     0.7594      Database    -24.1035    1559.6787   ✓       ✓
+313   SGC+57.021NHPDLDVQYR     0.7594      Database    -24.1066    1559.6787   ✓       ✓
+314   SGC+57.021NHPDLDVQYR     0.7594      Database    -24.1175    1559.6787   ✓       ✓
+315   SGC+57.021NHPDLDVQYR     0.7594      Database    -24.1277    1559.6787   ✓       ✓
+316   SGC+57.021NHPDLDVQYR     0.7594      Database    -24.1411    1559.6787   ✓       ✓
+317   SGC+57.021NHPDLDVQYR     0.7594      Database    -24.1671    1559.6787   ✓       ✓
+318   SGC+57.021NHPDLDVQYR     0.7594      Database    -24.1689    1559.6787   ✓       ✓
+319   SGC+57.021NHPDLDVQYR     0.7594      Database    -24.1722    1559.6787   ✓       ✓
+320   SGC+57.021NHPDLDVQYR     0.7594      Database    -24.2025    1559.6787   ✓       ✓
+321   SGC+57.021NHPDLDVQYR     0.7594      Database    -24.2162    1559.6787   ✓       ✓
+322   SGC+57.021NHPDLDVQYR     0.7594      Database    -24.2598    1559.6787   ✓       ✓
+323   SGC+57.021NHPDLDVQYR     0.7594      Database    -24.2646    1559.6787   ✓       ✓
+324   SGC+57.021NHPDLDVQYR     0.7594      Database    -24.2650    1559.6787   ✓       ✓
+325   SGC+57.021NHPDLDVQYR     0.7594      Database    -24.3016    1559.6787   ✓       ✓
+326   SGC+57.021NHPDLDVQYR     0.7594      Database    -24.3123    1559.6787   ✓       ✓
+327   SGC+57.021NHPDLDVQYR     0.7594      Database    -24.3207    1559.6787   ✓       ✓
+328   SGC+57.021NHPDLDVQYR     0.7594      Database    -24.6086    1559.6787   ✓       ✓
+329   SGC+57.021NHPDLDVQYR     0.7594      Database    -24.6582    1559.6787   ✓       ✓
+330   SGC+57.021NHPDLDVQYR     0.7594      Database    -25.0642    1559.6787   ✓       ✓
+331   SGC+57.021NHPDLDVQYR     0.7594      Database    -26.9740    1559.6787   ✓       ✓
+332   SGC+57.021NHPDLDVQYR     0.7594      Database    -27.3801    1559.6787   ✓       ✓
+333   SGC+57.021NHPDLDVQYR     0.7594      Database    -27.4297    1559.6787   ✓       ✓
+334   SGC+57.021NHPDLDVQYR     0.7594      Database    -27.7367    1559.6787   ✓       ✓
+335   SGC+57.021NHPDLDVQYR     0.7594      Database    -27.8358    1559.6787   ✓       ✓
+336   SGC+57.021NHPDLDVQYR     0.7594      Database    -28.1428    1559.6787   ✓       ✓
+337   SGC+57.021NHPDLDVQYR     0.7594      Database    -28.1924    1559.6787   ✓       ✓
+338   SGC+57.021NHPDLDVQYR     0.7594      Database    -28.5984    1559.6787   ✓       ✓
+339   SGC+57.021NHPDLDVQYR     0.7594      Database    -30.5009    1559.6787   ✓       ✓
+340   SGC+57.021NHPDLDVQYR     0.7594      Database    -30.7768    1559.6787   ✓       ✓
+341   SGC+57.021NHPDLDVQYR     0.7594      Database    -30.8095    1559.6787   ✓       ✓
+342   SGC+57.021NHPDLDVQYR     0.7594      Database    -30.9566    1559.6787   ✓       ✓
+343   SGC+57.021NHPDLDVQYR     0.7594      Database    -31.2325    1559.6787   ✓       ✓
+344   SGC+57.021NHPDLDVQYR     0.7594      Database    -31.2636    1559.6787   ✓       ✓
+345   SGC+57.021NHPDLDVQYR     0.7594      Database    -31.2652    1559.6787   ✓       ✓
+346   SGC+57.021NHPDLDVQYR     0.7594      Database    -31.5395    1559.6787   ✓       ✓
+347   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -14.4453    1559.6787   ✓       
+348   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -14.9010    1559.6787   ✓       
+349   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -15.2080    1559.6787   ✓       
+350   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -15.6636    1559.6787   ✓       
+351   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -16.5743    1559.6787   ✓       
+352   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -17.0300    1559.6787   ✓       
+353   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -17.3370    1559.6787   ✓       
+354   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -17.7927    1559.6787   ✓       
+355   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -17.9795    1559.6787   ✓       
+356   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -18.4352    1559.6787   ✓       
+357   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -18.7422    1559.6787   ✓       
+358   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -19.1978    1559.6787   ✓       
+359   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -20.1085    1559.6787   ✓       
+360   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -20.5642    1559.6787   ✓       
+361   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -20.6603    1559.6787   ✓       
+362   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -20.7215    1559.6787   ✓       
+363   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -20.8712    1559.6787   ✓       
+364   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -21.0664    1559.6787   ✓       
+365   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -21.1160    1559.6787   ✓       
+366   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -21.1772    1559.6787   ✓       
+367   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -21.3269    1559.6787   ✓       
+368   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -21.4230    1559.6787   ✓       
+369   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -21.4841    1559.6787   ✓       
+370   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -21.5221    1559.6787   ✓       
+371   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -21.8290    1559.6787   ✓       
+372   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -21.8786    1559.6787   ✓       
+373   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -21.9398    1559.6787   ✓       
+374   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -22.2847    1559.6787   ✓       
+375   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -22.7893    1559.6787   ✓       
+376   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -23.1954    1559.6787   ✓       
+377   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -23.2450    1559.6787   ✓       
+378   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -23.5520    1559.6787   ✓       
+379   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -23.6511    1559.6787   ✓       
+380   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -23.9581    1559.6787   ✓       
+381   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -24.0077    1559.6787   ✓       
+382   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -24.1945    1559.6787   ✓       
+383   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -24.2557    1559.6787   ✓       
+384   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -30.6501    1559.6787   ✓       
+385   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -31.1058    1559.6787   ✓       
+386   SGC+57.021NHPDLN+0.984VQYR0.5880      Prosit      -31.4127    1559.6787   ✓       
+387   SGC+57.021NHPDLDVKYR     0.5673      Prosit      -17.8855    1559.7151   ✓       
+388   SGC+57.021NHPDLDVKYR     0.5673      Prosit      -18.3412    1559.7151   ✓       
+389   SGC+57.021NHPDLDVKYR     0.5673      Prosit      -18.6482    1559.7151   ✓       
+390   SGC+57.021NHPDLDVKYR     0.5673      Prosit      -19.1038    1559.7151   ✓       
+391   SGC+57.021NHPDLDVKYR     0.5673      Prosit      -20.0145    1559.7151   ✓       
+392   SGC+57.021NHPDLDVKYR     0.5673      Prosit      -20.4702    1559.7151   ✓       
+393   SGC+57.021NHPDLDVKYR     0.5673      Prosit      -20.7772    1559.7151   ✓       
+394   SGC+57.021NHPDLDVKYR     0.5673      Prosit      -21.2329    1559.7151   ✓       
+395   SGC+57.021NHPDLDVKYR     0.5673      Prosit      -21.4197    1559.7151   ✓       
+396   SGC+57.021NHPDLDVKYR     0.5673      Prosit      -21.8754    1559.7151   ✓       
+397   SGC+57.021NHPDLDVKYR     0.5673      Prosit      -22.1823    1559.7151   ✓       
+398   SGC+57.021NHPDLDVKYR     0.5673      Prosit      -22.6380    1559.7151   ✓       
+399   SGC+57.021NHPDLDVKYR     0.5673      Prosit      -23.5487    1559.7151   ✓       
+400   SGC+57.021NHPDLDVKYR     0.5673      Prosit      -24.0044    1559.7151   ✓       
+401   SGC+57.021NHPDLDVKYR     0.5673      Prosit      -24.1005    1559.7151   ✓       
+402   SGC+57.021NHPDLDVKYR     0.5673      Prosit      -24.1617    1559.7151   ✓       
+403   SGC+57.021NHPDLDVKYR     0.5673      Prosit      -24.3114    1559.7151   ✓       
+404   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -13.9992    1559.6787   ✓       
+405   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -14.4549    1559.6787   ✓       
+406   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -14.7619    1559.6787   ✓       
+407   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -15.2176    1559.6787   ✓       
+408   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -16.1283    1559.6787   ✓       
+409   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -16.5839    1559.6787   ✓       
+410   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -16.8909    1559.6787   ✓       
+411   SGC+57.021NHPDLDVQFR     -1.0000     NotChecked  -17.1343    1543.6838   ✗       
+412   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -17.3466    1559.6787   ✓       
+413   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -17.5334    1559.6787   ✓       
+414   SGC+57.021NHPDLDVQFR     -1.0000     NotChecked  -17.5900    1543.6838   ✗       
+415   SGC+57.021NHPDLDVQFR     -1.0000     NotChecked  -17.8969    1543.6838   ✗       
+416   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -17.9891    1559.6787   ✓       
+417   SGC+57.021NHPDVDVQYR     -1.0000     NotChecked  -18.0867    1545.6630   ✗       
+418   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -18.2961    1559.6787   ✓       
+419   SGC+57.021NHPDLDVQYV     -1.0000     NotChecked  -18.3067    1502.6460   ✗       
+420   SGC+57.021NHPDLDVQFR     -1.0000     NotChecked  -18.3526    1543.6838   ✗       
+421   SGC+57.021NHPDVDVQYR     -1.0000     NotChecked  -18.5424    1545.6630   ✗       
+422   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -18.7518    1559.6787   ✓       
+423   SGC+57.021NHPDLDVQYV     -1.0000     NotChecked  -18.7624    1502.6460   ✗       
+424   SGC+57.021SHPDLDVQYR     -1.0000     NotChecked  -18.7815    1532.6678   ✗       
+425   SGC+57.021NHPDVDVQYR     -1.0000     NotChecked  -18.8494    1545.6630   ✗       
+426   GGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -18.8932    1529.6681   ✗       
+427   SGC+57.021LHPDLDVQYR     -1.0000     NotChecked  -19.0623    1558.7198   ✗       
+428   SGC+57.021NHPDLDVQYV     -1.0000     NotChecked  -19.0693    1502.6460   ✗       
+429   SGC+57.021SHPDLDVQYR     -1.0000     NotChecked  -19.2372    1532.6678   ✗       
+430   SGC+57.021VHPDLDVQYR     -1.0000     NotChecked  -19.2476    1544.7042   ✗       
+431   SGC+57.021NHPDLDVQFR     -1.0000     NotChecked  -19.2633    1543.6838   ✗       
+432   SGC+57.021NHPDLDVQR      -1.0000     NotChecked  -19.2984    1396.6154   ✗       
+433   SGC+57.021NHPDVDVQYR     -1.0000     NotChecked  -19.3051    1545.6630   ✗       
+434   GGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -19.3489    1529.6681   ✗       
+435   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -19.3539    1472.6467   ✗       
+436   SGC+57.021LHPDLDVQYR     -1.0000     NotChecked  -19.5180    1558.7198   ✗       
+437   SGC+57.021NHPDLDVQYV     -1.0000     NotChecked  -19.5250    1502.6460   ✗       
+438   SGC+57.021SHPDLDVQYR     -1.0000     NotChecked  -19.5441    1532.6678   ✗       
+439   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -19.5885    1543.6838   ✗       
+440   SGC+57.021GHPDLDVQYR     -1.0000     NotChecked  -19.5955    1502.6572   ✗       
+441   SGC+57.021NHPDLDVQYK     -1.0000     NotChecked  -19.6023    1531.6725   ✗       
+442   GGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -19.6559    1529.6681   ✗       
+443   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -19.6624    1559.6787   ✓       
+444   SGC+57.021NHPSLDVQYR     -1.0000     NotChecked  -19.6688    1531.6838   ✗       
+445   SGC+57.021VHPDLDVQYR     -1.0000     NotChecked  -19.7033    1544.7042   ✗       
+446   SGC+57.021NHPDLDVQFR     -1.0000     NotChecked  -19.7190    1543.6838   ✗       
+447   SGC+57.021NHPDLDVQR      -1.0000     NotChecked  -19.7541    1396.6154   ✗       
+448   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -19.7938    1514.6572   ✗       
+449   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -19.8095    1472.6467   ✗       
+450   SGC+57.021LHPDLDVQYR     -1.0000     NotChecked  -19.8250    1558.7198   ✗       
+451   SGC+57.021NHPNLDVQYR     -1.0000     NotChecked  -19.9182    1558.6947   ✗       
+452   SGC+57.021NHPDLDVQER     -1.0000     NotChecked  -19.9810    1525.6580   ✗       
+453   SGC+57.021SHPDLDVQYR     -1.0000     NotChecked  -19.9998    1532.6678   ✗       
+454   SGC+57.021VHPDLDVQYR     -1.0000     NotChecked  -20.0103    1544.7042   ✗       
+455   SGC+57.021NHPDLDVQFR     -1.0000     NotChecked  -20.0260    1543.6838   ✗       
+456   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -20.0442    1543.6838   ✗       
+457   SGC+57.021GHPDLDVQYR     -1.0000     NotChecked  -20.0512    1502.6572   ✗       
+458   SGC+57.021NHPDLDVQYK     -1.0000     NotChecked  -20.0580    1531.6725   ✗       
+459   SGC+57.021NHPDLDVQR      -1.0000     NotChecked  -20.0611    1396.6154   ✗       
+460   GGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -20.1115    1529.6681   ✗       
+461   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -20.1165    1472.6467   ✗       
+462   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -20.1181    1559.6787   ✓       
+463   SGC+57.021NHPDLDVLYR     -1.0000     NotChecked  -20.1190    1544.7042   ✗       
+464   SGC+57.021NHPSLDVQYR     -1.0000     NotChecked  -20.1245    1531.6838   ✗       
+465   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -20.1393    1515.6525   ✗       
+466   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -20.2142    1559.6787   ✓       
+467   SGC+57.021NHPDVDVQYR     -1.0000     NotChecked  -20.2158    1545.6630   ✗       
+468   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -20.2495    1514.6572   ✗       
+469   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -20.2754    1559.6787   ✓       
+470   SGC+57.021LHPDLDVQYR     -1.0000     NotChecked  -20.2806    1558.7198   ✗       
+471   SGC+57.021NHPDLDVQYT     -1.0000     NotChecked  -20.3308    1504.6253   ✗       
+472   SGC+57.021NHPDLDVQY      -1.0000     NotChecked  -20.3427    1403.5776   ✗       
+473   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -20.3512    1543.6838   ✗       
+474   SGC+57.021GHPDLDVQYR     -1.0000     NotChecked  -20.3582    1502.6572   ✗       
+475   SGC+57.021NHPDLDVQYK     -1.0000     NotChecked  -20.3649    1531.6725   ✗       
+476   SGC+57.021NHPNLDVQYR     -1.0000     NotChecked  -20.3739    1558.6947   ✗       
+477   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -20.4251    1559.6787   ✓       
+478   SGC+57.021NHPSLDVQYR     -1.0000     NotChecked  -20.4314    1531.6838   ✗       
+479   SGC+57.021NHPDLDVQYV     -1.0000     NotChecked  -20.4357    1502.6460   ✗       
+480   SGC+57.021NHPDLDVQER     -1.0000     NotChecked  -20.4367    1525.6580   ✗       
+481   SGC+57.021VHPDLDVQYR     -1.0000     NotChecked  -20.4659    1544.7042   ✗       
+482   SGC+57.021NHPDLDVQFR     -1.0000     NotChecked  -20.4816    1543.6838   ✗       
+483   SGC+57.021NHPDLNVQYR     -1.0000     NotChecked  -20.5025    1558.6947   ✗       
+484   SGC+57.021NHPDLDVQR      -1.0000     NotChecked  -20.5168    1396.6154   ✗       
+485   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -20.5565    1514.6572   ✗       
+486   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -20.5722    1472.6467   ✗       
+487   SGC+57.021NHPDLDVLYR     -1.0000     NotChecked  -20.5747    1544.7042   ✗       
+488   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -20.5950    1515.6525   ✗       
+489   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -20.6203    1559.6787   ✓       
+490   SGC+57.021NHPDLDVQYQ     -1.0000     NotChecked  -20.6513    1531.6362   ✗       
+491   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -20.6699    1559.6787   ✓       
+492   SGC+57.021NHPDVDVQYR     -1.0000     NotChecked  -20.6714    1545.6630   ✗       
+493   SGC+57.021NHPNLDVQYR     -1.0000     NotChecked  -20.6808    1558.6947   ✗       
+494   SGC+57.021THPDLDVQYR     -1.0000     NotChecked  -20.6857    1546.6834   ✗       
+495   SGC+57.021NHPDLDVQY      -1.0000     NotChecked  -20.7021    1403.5776   ✗       
+496   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -20.7311    1559.6787   ✓       
+497   SGC+57.021NHPDLDVQER     -1.0000     NotChecked  -20.7437    1525.6580   ✗       
+498   SGC+57.021NHPDLDVQYT     -1.0000     NotChecked  -20.7865    1504.6253   ✗       
+499   SC+57.021NHPDLDVQYR      -1.0000     NotChecked  -20.7870    1502.6572   ✗       
+500   SGC+57.021NHPDLDVQY      -1.0000     NotChecked  -20.7984    1403.5776   ✗       
+501   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -20.8068    1543.6838   ✗       
+502   SGC+57.021GHPDLDVQYR     -1.0000     NotChecked  -20.8139    1502.6572   ✗       
+503   SGC+57.021NHPDLDVQYA     -1.0000     NotChecked  -20.8175    1474.6147   ✗       
+504   SGC+57.021NHPDLDVQYK     -1.0000     NotChecked  -20.8206    1531.6725   ✗       
+505   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -20.8808    1559.6787   ✓       
+506   SGC+57.021NHPDLDVLYR     -1.0000     NotChecked  -20.8817    1544.7042   ✗       
+507   SGC+57.021NHPSLDVQYR     -1.0000     NotChecked  -20.8871    1531.6838   ✗       
+508   SGC+57.021NHPDLDVQYV     -1.0000     NotChecked  -20.8914    1502.6460   ✗       
+509   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -20.9020    1515.6525   ✗       
+510   SGC+57.021SHPDLDVQYR     -1.0000     NotChecked  -20.9105    1532.6678   ✗       
+511   SGC+57.021NHPDLNVQYR     -1.0000     NotChecked  -20.9582    1558.6947   ✗       
+512   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -20.9769    1559.6787   ✓       
+513   SGC+57.021NHPDVDVQYR     -1.0000     NotChecked  -20.9784    1545.6630   ✗       
+514   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -21.0122    1514.6572   ✗       
+515   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -21.0381    1559.6787   ✓       
+516   SGC+57.021NHPDLDVNYR     -1.0000     NotChecked  -21.0472    1545.6630   ✗       
+517   SGC+57.021NHPDLDVQLR     -1.0000     NotChecked  -21.0491    1509.6994   ✗       
+518   SGC+57.021NHPDLDVQYG     -1.0000     NotChecked  -21.0533    1460.5990   ✗       
+519   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -21.0760    1559.6787   ✓       
+520   SGC+57.021NHPDLDVQYT     -1.0000     NotChecked  -21.0935    1504.6253   ✗       
+521   SGC+57.021NHPDLDVQY      -1.0000     NotChecked  -21.1054    1403.5776   ✗       
+522   SGC+57.021NHPDLDVQYQ     -1.0000     NotChecked  -21.1070    1531.6362   ✗       
+523   SGC+57.021NHPNLDVQYR     -1.0000     NotChecked  -21.1365    1558.6947   ✗       
+524   SGC+57.021THPDLDVQYR     -1.0000     NotChecked  -21.1414    1546.6834   ✗       
+525   SGC+57.021NHPDLDVQY      -1.0000     NotChecked  -21.1578    1403.5776   ✗       
+526   SGC+57.021LHPDLDVQYR     -1.0000     NotChecked  -21.1913    1558.7198   ✗       
+527   SGC+57.021NHPDLDVQYV     -1.0000     NotChecked  -21.1984    1502.6460   ✗       
+528   SGC+57.021NHPDLDVQER     -1.0000     NotChecked  -21.1994    1525.6580   ✗       
+529   SC+57.021NHPDLDVQYR      -1.0000     NotChecked  -21.2427    1502.6572   ✗       
+530   SGC+57.021NHPTLDVQYR     -1.0000     NotChecked  -21.2543    1545.6994   ✗       
+531   SGC+57.021NHPDLNVQYR     -1.0000     NotChecked  -21.2652    1558.6947   ✗       
+532   SGC+57.021NHPDLDVQYA     -1.0000     NotChecked  -21.2732    1474.6147   ✗       
+533   SGC+57.021NHPDLDVLYR     -1.0000     NotChecked  -21.3373    1544.7042   ✗       
+534   SGC+57.021NHPGLDVQYR     -1.0000     NotChecked  -21.3423    1501.6732   ✗       
+535   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -21.3577    1515.6525   ✗       
+536   SGC+57.021SHPDLDVQYR     -1.0000     NotChecked  -21.3662    1532.6678   ✗       
+537   SGC+57.021VHPDLDVQYR     -1.0000     NotChecked  -21.3766    1544.7042   ✗       
+538   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -21.3830    1559.6787   ✓       
+539   SGC+57.021NHPDLDVQYF     -1.0000     NotChecked  -21.3995    1550.6460   ✗       
+540   SGC+57.021NHPDLDVQYQ     -1.0000     NotChecked  -21.4140    1531.6362   ✗       
+541   SGC+57.021NHPDLDVQR      -1.0000     NotChecked  -21.4274    1396.6154   ✗       
+542   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -21.4326    1559.6787   ✓       
+543   SGC+57.021NHPDVDVQYR     -1.0000     NotChecked  -21.4341    1545.6630   ✗       
+544   SGC+57.021NHSDLDVQYR     -1.0000     NotChecked  -21.4391    1549.6580   ✗       
+545   SGC+57.021NHPDLDAQYR     -1.0000     NotChecked  -21.4477    1531.6474   ✗       
+546   SGC+57.021THPDLDVQYR     -1.0000     NotChecked  -21.4484    1546.6834   ✗       
+547   SGC+57.021NHPDLDVQY      -1.0000     NotChecked  -21.4648    1403.5776   ✗       
+548   SGC+57.021NHPALDVQYR     -1.0000     NotChecked  -21.4762    1515.6889   ✗       
+549   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -21.4937    1559.6787   ✓       
+550   SGC+57.021NHPDLDVNYR     -1.0000     NotChecked  -21.5029    1545.6630   ✗       
+551   SGC+57.021NHPDLDVQLR     -1.0000     NotChecked  -21.5048    1509.6994   ✗       
+552   SGC+57.021NHPDLDVQYG     -1.0000     NotChecked  -21.5090    1460.5990   ✗       
+553   SGC+57.021NHPDLDVQ-17.027YR-1.0000     NotChecked  -21.5198    1542.6521   ✗       
+554   SGC+57.021NHPDLTVQYR     -1.0000     NotChecked  -21.5314    1545.6994   ✗       
+555   SGC+57.021NHPDLDVQYT     -1.0000     NotChecked  -21.5492    1504.6253   ✗       
+556   SC+57.021NHPDLDVQYR      -1.0000     NotChecked  -21.5497    1502.6572   ✗       
+557   SGC+57.021NHPDLDVQC+57.021R-1.0000     NotChecked  -21.5503    1556.6460   ✗       
+558   SGC+57.021NHPDLSVQYR     -1.0000     NotChecked  -21.5513    1531.6838   ✗       
+559   SGC+57.021NHPDLDVQY      -1.0000     NotChecked  -21.5611    1403.5776   ✗       
+560   SGC+57.021NHPDLGVQYR     -1.0000     NotChecked  -21.5763    1501.6732   ✗       
+561   SGC+57.021NHPDLDVQYA     -1.0000     NotChecked  -21.5802    1474.6147   ✗       
+562   SGC+57.021NHPDVDVQYR     -1.0000     NotChecked  -21.6209    1545.6630   ✗       
+563   SGC+57.021LHPDLDVQYR     -1.0000     NotChecked  -21.6470    1558.7198   ✗       
+564   SGC+57.021NHPDLDVQYV     -1.0000     NotChecked  -21.6540    1502.6460   ✗       
+565   SGC+57.021SHPDLDVQYR     -1.0000     NotChecked  -21.6732    1532.6678   ✗       
+566   SGC+57.021NHPTLDVQYR     -1.0000     NotChecked  -21.7099    1545.6994   ✗       
+567   SGC+57.021NHPDLNVQYR     -1.0000     NotChecked  -21.7208    1558.6947   ✗       
+568   SGC+57.021GHPDLDVQYR     -1.0000     NotChecked  -21.7245    1502.6572   ✗       
+569   SGC+57.021NHPDLDVQYK     -1.0000     NotChecked  -21.7313    1531.6725   ✗       
+570   SGC+57.021NHPSLDVQYR     -1.0000     NotChecked  -21.7978    1531.6838   ✗       
+571   SGC+57.021NHPGLDVQYR     -1.0000     NotChecked  -21.7980    1501.6732   ✗       
+572   SGC+57.021NHPDLDVQTR     -1.0000     NotChecked  -21.8034    1497.6630   ✗       
+573   SGC+57.021NHPDLDVNYR     -1.0000     NotChecked  -21.8099    1545.6630   ✗       
+574   SGC+57.021NHPDLDVQLR     -1.0000     NotChecked  -21.8117    1509.6994   ✗       
+575   SGC+57.021NHPDLDVQYG     -1.0000     NotChecked  -21.8159    1460.5990   ✗       
+576   SGC+57.021VHPDLDVQYR     -1.0000     NotChecked  -21.8323    1544.7042   ✗       
+577   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -21.8386    1559.6787   ✓       
+578   SGC+57.021NHPDLDVQYV     -1.0000     NotChecked  -21.8409    1502.6460   ✗       
+579   SGC+57.021NHPDLDVQYF     -1.0000     NotChecked  -21.8552    1550.6460   ✗       
+580   SGC+57.021NHPDLDVQYQ     -1.0000     NotChecked  -21.8696    1531.6362   ✗       
+581   SGC+57.021NHPDLDVQKR     -1.0000     NotChecked  -21.8813    1524.7103   ✗       
+582   SGC+57.021NHPDLDVQR      -1.0000     NotChecked  -21.8831    1396.6154   ✗       
+583   SGC+57.021NHPDLDAQYR     -1.0000     NotChecked  -21.9034    1531.6474   ✗       
+584   SGC+57.021THPDLDVQYR     -1.0000     NotChecked  -21.9040    1546.6834   ✗       
+585   SGC+57.021NHPDLDVQY      -1.0000     NotChecked  -21.9205    1403.5776   ✗       
+586   SGC+57.021NHPDLDVQQR     -1.0000     NotChecked  -21.9293    1524.6739   ✗       
+587   SGC+57.021NHPALDVQYR     -1.0000     NotChecked  -21.9319    1515.6889   ✗       
+588   SGC+57.021LHPDLDVQYR     -1.0000     NotChecked  -21.9540    1558.7198   ✗       
+589   SGC+57.021NHPDLDVQ-17.027YR-1.0000     NotChecked  -21.9754    1542.6521   ✗       
+590   SGC+57.021NHPDLTVQYR     -1.0000     NotChecked  -21.9871    1545.6994   ✗       
+591   SC+57.021NHPDLDVQYR      -1.0000     NotChecked  -22.0054    1502.6572   ✗       
+592   SGC+57.021NHPDLDVQC+57.021R-1.0000     NotChecked  -22.0060    1556.6460   ✗       
+593   SGC+57.021NHPDLSVQYR     -1.0000     NotChecked  -22.0070    1531.6838   ✗       
+594   SGC+57.021NHPTLDVQYR     -1.0000     NotChecked  -22.0169    1545.6994   ✗       
+595   SGC+57.021NHPDLGVQYR     -1.0000     NotChecked  -22.0320    1501.6732   ✗       
+596   SGC+57.021NHPDLDVQYA     -1.0000     NotChecked  -22.0358    1474.6147   ✗       
+597   SGC+57.021NHPNLDVQYR     -1.0000     NotChecked  -22.0472    1558.6947   ✗       
+598   SGC+57.021NHPDVDVQYR     -1.0000     NotChecked  -22.0766    1545.6630   ✗       
+599   SGC+57.021NHADLDVQYR     -1.0000     NotChecked  -22.0770    1533.6630   ✗       
+600   SGC+57.021NHPGLDVQYR     -1.0000     NotChecked  -22.1050    1501.6732   ✗       
+601   SGC+57.021NHPDLDVQER     -1.0000     NotChecked  -22.1101    1525.6580   ✗       
+602   SGC+57.021SHPDLDVQYR     -1.0000     NotChecked  -22.1288    1532.6678   ✗       
+603   SGC+57.021VHPDLDVQYR     -1.0000     NotChecked  -22.1393    1544.7042   ✗       
+604   SGC+57.021NHPDTDVQYR     -1.0000     NotChecked  -22.1500    1547.6423   ✗       
+605   SGC+57.021NHPDLDVQYF     -1.0000     NotChecked  -22.1621    1550.6460   ✗       
+606   SGC+57.021GHPDLDVQYR     -1.0000     NotChecked  -22.1802    1502.6572   ✗       
+607   SGC+57.021NHPDLDVQYK     -1.0000     NotChecked  -22.1870    1531.6725   ✗       
+608   SGC+57.021NHPDLDVQR      -1.0000     NotChecked  -22.1901    1396.6154   ✗       
+609   SGC+57.021NHSDLDVQYR     -1.0000     NotChecked  -22.2017    1549.6580   ✗       
+610   SGC+57.021NHPDLDAQYR     -1.0000     NotChecked  -22.2104    1531.6474   ✗       
+611   SGC+57.021NHPALDVQYR     -1.0000     NotChecked  -22.2388    1515.6889   ✗       
+612   SGC+57.021NHPDLDVLYR     -1.0000     NotChecked  -22.2480    1544.7042   ✗       
+613   SGC+57.021NHPSLDVQYR     -1.0000     NotChecked  -22.2535    1531.6838   ✗       
+614   SGC+57.021NHPDLDVQTR     -1.0000     NotChecked  -22.2591    1497.6630   ✗       
+615   SGC+57.021NHPDLDVNYR     -1.0000     NotChecked  -22.2656    1545.6630   ✗       
+616   SGC+57.021NHPDLDVQLR     -1.0000     NotChecked  -22.2674    1509.6994   ✗       
+617   SGC+57.021NKPDLDVQYR     -1.0000     NotChecked  -22.2690    1550.7147   ✗       
+618   SGC+57.021NHPDLDVQYG     -1.0000     NotChecked  -22.2716    1460.5990   ✗       
+619   SGC+57.021NHPDLDVQ-17.027YR-1.0000     NotChecked  -22.2824    1542.6521   ✗       
+620   SGC+57.021NHPDLTVQYR     -1.0000     NotChecked  -22.2941    1545.6994   ✗       
+621   SGC+57.021NHPDLDVQYV     -1.0000     NotChecked  -22.2966    1502.6460   ✗       
+622   SGC+57.021NHPDLDVQSR     -1.0000     NotChecked  -22.3090    1483.6474   ✗       
+623   SGC+57.021NHPDLDVQC+57.021R-1.0000     NotChecked  -22.3129    1556.6460   ✗       
+624   SGC+57.021NHPDLSVQYR     -1.0000     NotChecked  -22.3139    1531.6838   ✗       
+625   SGC+57.021SHPDLDVQYR     -1.0000     NotChecked  -22.3157    1532.6678   ✗       
+626   SGC+57.021NHPDLDVQKR     -1.0000     NotChecked  -22.3370    1524.7103   ✗       
+627   SGC+57.021NHPDLGVQYR     -1.0000     NotChecked  -22.3390    1501.6732   ✗       
+628   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -22.3433    1559.6787   ✓       
+629   SGC+57.021NHPDVDVQYR     -1.0000     NotChecked  -22.3836    1545.6630   ✗       
+630   SGC+57.021NHPDLDVQQR     -1.0000     NotChecked  -22.3849    1524.6739   ✗       
+631   SGC+57.021LHPDLDVQYR     -1.0000     NotChecked  -22.4097    1558.7198   ✗       
+632   SGC+57.021NHDLDVQYR      -1.0000     NotChecked  -22.4242    1462.6259   ✗       
+633   GGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -22.4274    1529.6681   ✗       
+634   SGC+57.021NHPDLDVQYT     -1.0000     NotChecked  -22.4599    1504.6253   ✗       
+635   SGC+57.021NHPDLDVQY      -1.0000     NotChecked  -22.4718    1403.5776   ✗       
+636   SGC+57.021NHPTLDVQYR     -1.0000     NotChecked  -22.4726    1545.6994   ✗       
+637   SGC+57.021GHPDLDVQYR     -1.0000     NotChecked  -22.4872    1502.6572   ✗       
+638   SGC+57.021NHPDLDVQYK     -1.0000     NotChecked  -22.4940    1531.6725   ✗       
+639   SGC+57.021NHPNLDVQYR     -1.0000     NotChecked  -22.5029    1558.6947   ✗       
+640   SGC+57.021NHPSLDVQYR     -1.0000     NotChecked  -22.5604    1531.6838   ✗       
+641   SGC+57.021NHPGLDVQYR     -1.0000     NotChecked  -22.5606    1501.6732   ✗       
+642   SGC+57.021NHPDLDVQER     -1.0000     NotChecked  -22.5657    1525.6580   ✗       
+643   SGC+57.021NHPDLDVQTR     -1.0000     NotChecked  -22.5660    1497.6630   ✗       
+644   SGC+57.021VHPDLDVQYR     -1.0000     NotChecked  -22.5950    1544.7042   ✗       
+645   SGC+57.021LHPDLDVQYR     -1.0000     NotChecked  -22.5965    1558.7198   ✗       
+646   SGC+57.021NHPDLDVQYV     -1.0000     NotChecked  -22.6035    1502.6460   ✗       
+647   SGC+57.021NHPDTDVQYR     -1.0000     NotChecked  -22.6057    1547.6423   ✗       
+648   SGC+57.021NHPDLDVQYF     -1.0000     NotChecked  -22.6178    1550.6460   ✗       
+649   SGC+57.021NHPDLNVQYR     -1.0000     NotChecked  -22.6315    1558.6947   ✗       
+650   SGC+57.021NHPDLDVQKR     -1.0000     NotChecked  -22.6440    1524.7103   ✗       
+651   SGC+57.021NHPDLDVQR      -1.0000     NotChecked  -22.6458    1396.6154   ✗       
+652   SGC+57.021NHPDLDAQYR     -1.0000     NotChecked  -22.6661    1531.6474   ✗       
+653   SGC+57.021NHPDLDVQQR     -1.0000     NotChecked  -22.6919    1524.6739   ✗       
+654   SGC+57.021NHPALDVQYR     -1.0000     NotChecked  -22.6945    1515.6889   ✗       
+655   SGC+57.021NHPDLDVLYR     -1.0000     NotChecked  -22.7037    1544.7042   ✗       
+656   SGC+57.021NKPDLDVQYR     -1.0000     NotChecked  -22.7247    1550.7147   ✗       
+657   SGC+57.021NHPDLDVQ-17.027YR-1.0000     NotChecked  -22.7381    1542.6521   ✗       
+658   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -22.7493    1559.6787   ✓       
+659   SGC+57.021NHPDLTVQYR     -1.0000     NotChecked  -22.7497    1545.6994   ✗       
+660   SGC+57.021NHPDLDVQSR     -1.0000     NotChecked  -22.7646    1483.6474   ✗       
+661   SGC+57.021NHPDLDVQC+57.021R-1.0000     NotChecked  -22.7686    1556.6460   ✗       
+662   SGC+57.021NHPDLSVQYR     -1.0000     NotChecked  -22.7696    1531.6838   ✗       
+663   SGC+57.021SHPDLDVQYR     -1.0000     NotChecked  -22.7714    1532.6678   ✗       
+664   SGC+57.021NHPDLDVQYQ     -1.0000     NotChecked  -22.7803    1531.6362   ✗       
+665   SGC+57.021VHPDLDVQYR     -1.0000     NotChecked  -22.7818    1544.7042   ✗       
+666   SGC+57.021NHPDADVQYR     -1.0000     NotChecked  -22.7823    1517.6317   ✗       
+667   SGC+57.021NHPDLGVQYR     -1.0000     NotChecked  -22.7947    1501.6732   ✗       
+668   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -22.7989    1559.6787   ✓       
+669   SGC+57.021NHPNLDVQYR     -1.0000     NotChecked  -22.8099    1558.6947   ✗       
+670   SGC+57.021THPDLDVQYR     -1.0000     NotChecked  -22.8147    1546.6834   ✗       
+671   SGC+57.021NHPDLDVQY      -1.0000     NotChecked  -22.8312    1403.5776   ✗       
+672   SGC+57.021NHPDVDVQYR     -1.0000     NotChecked  -22.8393    1545.6630   ✗       
+673   SGC+57.021NHADLDVQYR     -1.0000     NotChecked  -22.8397    1533.6630   ✗       
+674   SGC+57.021NHPDLDVQER     -1.0000     NotChecked  -22.8727    1525.6580   ✗       
+675   GGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -22.8831    1529.6681   ✗       
+676   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -22.8880    1472.6467   ✗       
+677   SGC+57.021NHPDTDVQYR     -1.0000     NotChecked  -22.9127    1547.6423   ✗       
+678   SGC+57.021NHPDLDVQYT     -1.0000     NotChecked  -22.9155    1504.6253   ✗       
+679   SC+57.021NHPDLDVQYR      -1.0000     NotChecked  -22.9161    1502.6572   ✗       
+680   SGC+57.021NHPDLDVQY      -1.0000     NotChecked  -22.9274    1403.5776   ✗       
+681   SGC+57.021GHPDLDVQYR     -1.0000     NotChecked  -22.9429    1502.6572   ✗       
+682   SGC+57.021NHPDLDVQYA     -1.0000     NotChecked  -22.9465    1474.6147   ✗       
+683   SGC+57.021NHPDLDVQYK     -1.0000     NotChecked  -22.9496    1531.6725   ✗       
+684   SGC+57.021NHPDLDVLYR     -1.0000     NotChecked  -23.0107    1544.7042   ✗       
+685   SGC+57.021NHPSLDVQYR     -1.0000     NotChecked  -23.0161    1531.6838   ✗       
+686   SGC+57.021NHPDLDVQTR     -1.0000     NotChecked  -23.0217    1497.6630   ✗       
+687   SGC+57.021NKPDLDVQYR     -1.0000     NotChecked  -23.0317    1550.7147   ✗       
+688   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -23.0404    1472.6467   ✗       
+689   SGC+57.021LHPDLDVQYR     -1.0000     NotChecked  -23.0522    1558.7198   ✗       
+690   SGC+57.021NHPDLDVQYV     -1.0000     NotChecked  -23.0592    1502.6460   ✗       
+691   SGC+57.021NHPDLDVQSR     -1.0000     NotChecked  -23.0716    1483.6474   ✗       
+692   SGC+57.021SHPDLDVQYR     -1.0000     NotChecked  -23.0783    1532.6678   ✗       
+693   SGC+57.021NHPDLNVQYR     -1.0000     NotChecked  -23.0872    1558.6947   ✗       
+694   SGC+57.021NHPDLDVQKR     -1.0000     NotChecked  -23.0996    1524.7103   ✗       
+695   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -23.1059    1559.6787   ✓       
+696   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -23.1227    1543.6838   ✗       
+697   SGC+57.021GHPDLDVQYR     -1.0000     NotChecked  -23.1297    1502.6572   ✗       
+698   SGC+57.021NHPDLDVQYK     -1.0000     NotChecked  -23.1365    1531.6725   ✗       
+699   SGC+57.021NHPDLDVQQR     -1.0000     NotChecked  -23.1476    1524.6739   ✗       
+700   SGC+57.021NHPDLDVNYR     -1.0000     NotChecked  -23.1762    1545.6630   ✗       
+701   SGC+57.021NHPDLDVQLR     -1.0000     NotChecked  -23.1781    1509.6994   ✗       
+702   SGC+57.021NHPDLDVQYG     -1.0000     NotChecked  -23.1823    1460.5990   ✗       
+703   SGC+57.021NHDLDVQYR      -1.0000     NotChecked  -23.1869    1462.6259   ✗       
+704   GGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -23.1900    1529.6681   ✗       
+705   SGC+57.021NHPSLDVQYR     -1.0000     NotChecked  -23.2030    1531.6838   ✗       
+706   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -23.2050    1559.6787   ✓       
+707   SGC+57.021NHPDLDVQYT     -1.0000     NotChecked  -23.2225    1504.6253   ✗       
+708   SGC+57.021NHPDLDVQY      -1.0000     NotChecked  -23.2344    1403.5776   ✗       
+709   SGC+57.021NHPDLDVQYQ     -1.0000     NotChecked  -23.2360    1531.6362   ✗       
+710   SGC+57.021VHPDLDVQYR     -1.0000     NotChecked  -23.2375    1544.7042   ✗       
+711   SGC+57.021NHPDADVQYR     -1.0000     NotChecked  -23.2380    1517.6317   ✗       
+712   SGC+57.021NHPNLDVQYR     -1.0000     NotChecked  -23.2655    1558.6947   ✗       
+713   SGC+57.021THPDLDVQYR     -1.0000     NotChecked  -23.2704    1546.6834   ✗       
+714   SC+57.021NHPDLDVQYR      -1.0000     NotChecked  -23.2793    1502.6572   ✗       
+715   SGC+57.021NHPDLDVQY      -1.0000     NotChecked  -23.2868    1403.5776   ✗       
+716   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -23.3280    1514.6572   ✗       
+717   SGC+57.021NHPDLDVQER     -1.0000     NotChecked  -23.3284    1525.6580   ✗       
+718   SGC+57.021NQPDLDVQYR     -1.0000     NotChecked  -23.3340    1550.6784   ✗       
+719   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -23.3437    1472.6467   ✗       
+720   SGC+57.021NHPDLDVQFR     -1.0000     NotChecked  -23.3493    1543.6838   ✗       
+721   SGC+57.021LHPDLDVQYR     -1.0000     NotChecked  -23.3592    1558.7198   ✗       
+722   SGC+57.021NHPDTDVQYR     -1.0000     NotChecked  -23.3683    1547.6423   ✗       
+723   SC+57.021NHPDLDVQYR      -1.0000     NotChecked  -23.3717    1502.6572   ✗       
+724   SGC+57.021NHPTLDVQYR     -1.0000     NotChecked  -23.3833    1545.6994   ✗       
+725   SGC+57.021NHPDLNVQYR     -1.0000     NotChecked  -23.3942    1558.6947   ✗       
+726   SGC+57.021NHPDLDVQYA     -1.0000     NotChecked  -23.4022    1474.6147   ✗       
+727   SGC+57.021NHPDLDVQFR     -1.0000     NotChecked  -23.4105    1543.6838   ✗       
+728   SGC+57.021NHPNLDVQYR     -1.0000     NotChecked  -23.4524    1558.6947   ✗       
+729   SGC+57.021NHPDLDVLYR     -1.0000     NotChecked  -23.4664    1544.7042   ✗       
+730   SGC+57.021NHPGLDVQYR     -1.0000     NotChecked  -23.4713    1501.6732   ✗       
+731   SGC+57.021NKPDLDVQYR     -1.0000     NotChecked  -23.4874    1550.7147   ✗       
+732   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -23.4960    1472.6467   ✗       
+733   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -23.5010    1472.6467   ✗       
+734   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -23.5120    1559.6787   ✓       
+735   SGC+57.021NHPDLDVQSR     -1.0000     NotChecked  -23.5273    1483.6474   ✗       
+736   SGC+57.021NHPDLDVQYF     -1.0000     NotChecked  -23.5285    1550.6460   ✗       
+737   SGC+57.021SHPDLDVQYR     -1.0000     NotChecked  -23.5340    1532.6678   ✗       
+738   SGC+57.021NHPDLDVQYQ     -1.0000     NotChecked  -23.5430    1531.6362   ✗       
+739   SGC+57.021VHPDLDVQYR     -1.0000     NotChecked  -23.5445    1544.7042   ✗       
+740   SGC+57.021NHPDADVQYR     -1.0000     NotChecked  -23.5449    1517.6317   ✗       
+741   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -23.5616    1559.6787   ✓       
+742   SGC+57.021NHSDLDVQYR     -1.0000     NotChecked  -23.5681    1549.6580   ✗       
+743   SGC+57.021NHPDLDAQYR     -1.0000     NotChecked  -23.5767    1531.6474   ✗       
+744   SGC+57.021THPDLDVQYR     -1.0000     NotChecked  -23.5774    1546.6834   ✗       
+745   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -23.5784    1543.6838   ✗       
+746   SGC+57.021GHPDLDVQYR     -1.0000     NotChecked  -23.5854    1502.6572   ✗       
+747   SGC+57.021NHPDLDVQYK     -1.0000     NotChecked  -23.5922    1531.6725   ✗       
+748   SGC+57.021NHPDLDVQY      -1.0000     NotChecked  -23.5938    1403.5776   ✗       
+749   SGC+57.021NHPALDVQYR     -1.0000     NotChecked  -23.6052    1515.6889   ✗       
+750   SGC+57.021NHPDLDVNYR     -1.0000     NotChecked  -23.6319    1545.6630   ✗       
+751   SGC+57.021NHPDLDVQLR     -1.0000     NotChecked  -23.6338    1509.6994   ✗       
+752   SGC+57.021NHPDLDVQYG     -1.0000     NotChecked  -23.6380    1460.5990   ✗       
+753   GGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -23.6457    1529.6681   ✗       
+754   SGC+57.021NHPDLDVQ-17.027YR-1.0000     NotChecked  -23.6488    1542.6521   ✗       
+755   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -23.6507    1472.6467   ✗       
+756   SGC+57.021NHPDLDVLYR     -1.0000     NotChecked  -23.6532    1544.7042   ✗       
+757   SGC+57.021NHPSLDVQYR     -1.0000     NotChecked  -23.6586    1531.6838   ✗       
+758   SGC+57.021NHPDLTVQYR     -1.0000     NotChecked  -23.6604    1545.6994   ✗       
+759   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -23.6735    1515.6525   ✗       
+760   SGC+57.021NHPDLDVQYT     -1.0000     NotChecked  -23.6782    1504.6253   ✗       
+761   SC+57.021NHPDLDVQYR      -1.0000     NotChecked  -23.6787    1502.6572   ✗       
+762   SGC+57.021NHPDLDVQC+57.021R-1.0000     NotChecked  -23.6793    1556.6460   ✗       
+763   SGC+57.021NHPDLSVQYR     -1.0000     NotChecked  -23.6803    1531.6838   ✗       
+764   SGC+57.021NHPDLDVQY      -1.0000     NotChecked  -23.6901    1403.5776   ✗       
+765   SGC+57.021NHPDLGVQYR     -1.0000     NotChecked  -23.7053    1501.6732   ✗       
+766   SGC+57.021NHPDLDVQYA     -1.0000     NotChecked  -23.7092    1474.6147   ✗       
+767   SC+57.021NHPDLDVQYR      -1.0000     NotChecked  -23.7350    1502.6572   ✗       
+768   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -23.7357    1543.6838   ✗       
+769   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -23.7484    1559.6787   ✓       
+770   SGC+57.021NHPDVDVQYR     -1.0000     NotChecked  -23.7499    1545.6630   ✗       
+771   SGC+57.021NHPDLDVQFR     -1.0000     NotChecked  -23.7554    1543.6838   ✗       
+772   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -23.7837    1514.6572   ✗       
+773   SGC+57.021NNPDLDVQYR     -1.0000     NotChecked  -23.7838    1536.6627   ✗       
+774   SGC+57.021NQPDLDVQYR     -1.0000     NotChecked  -23.7897    1550.6784   ✗       
+775   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -23.8030    1472.6467   ✗       
+776   SGC+57.021NHPDLDVQFR     -1.0000     NotChecked  -23.8050    1543.6838   ✗       
+777   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -23.8096    1559.6787   ✓       
+778   SGC+57.021LHPDLDVQYR     -1.0000     NotChecked  -23.8148    1558.7198   ✗       
+779   SGC+57.021NHPTLDVQYR     -1.0000     NotChecked  -23.8390    1545.6994   ✗       
+780   SGC+57.021NHPDLNVQYR     -1.0000     NotChecked  -23.8498    1558.6947   ✗       
+781   SGC+57.021NHPDLDVQYT     -1.0000     NotChecked  -23.8650    1504.6253   ✗       
+782   SGC+57.021NHPDLDVQFR     -1.0000     NotChecked  -23.8661    1543.6838   ✗       
+783   SGC+57.021NHPDLDVQY      -1.0000     NotChecked  -23.8769    1403.5776   ✗       
+784   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -23.8853    1543.6838   ✗       
+785   SGC+57.021GHPDLDVQYR     -1.0000     NotChecked  -23.8924    1502.6572   ✗       
+786   SGC+57.021NHPDLDVQYK     -1.0000     NotChecked  -23.8991    1531.6725   ✗       
+787   SGC+57.021NHPNLDVQYR     -1.0000     NotChecked  -23.9081    1558.6947   ✗       
+788   SGC+57.021NHPGLDVQYR     -1.0000     NotChecked  -23.9270    1501.6732   ✗       
+789   SGC+57.021NHPDLDVQTR     -1.0000     NotChecked  -23.9324    1497.6630   ✗       
+790   SGC+57.021NHPDLDVNYR     -1.0000     NotChecked  -23.9389    1545.6630   ✗       
+791   SGC+57.021NHPDLDVQLR     -1.0000     NotChecked  -23.9407    1509.6994   ✗       
+792   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -23.9410    1514.6572   ✗       
+793   SGC+57.021NHPDLDVQYG     -1.0000     NotChecked  -23.9450    1460.5990   ✗       
+794   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -23.9567    1472.6467   ✗       
+795   SGC+57.021NHPSLDVQYR     -1.0000     NotChecked  -23.9656    1531.6838   ✗       
+796   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -23.9677    1559.6787   ✓       
+797   SGC+57.021NHPDLDVQYV     -1.0000     NotChecked  -23.9699    1502.6460   ✗       
+798   SGC+57.021NHPDLDVQYF     -1.0000     NotChecked  -23.9842    1550.6460   ✗       
+799   SGC+57.021NHPDLDVQYQ     -1.0000     NotChecked  -23.9987    1531.6362   ✗       
+800   SGC+57.021VHPDLDVQYR     -1.0000     NotChecked  -24.0001    1544.7042   ✗       
+801   SGC+57.021NHPDADVQYR     -1.0000     NotChecked  -24.0006    1517.6317   ✗       
+802   SGC+57.021NHPDLDVQKR     -1.0000     NotChecked  -24.0103    1524.7103   ✗       
+803   SGC+57.021NHPDLDAQYR     -1.0000     NotChecked  -24.0324    1531.6474   ✗       
+804   SGC+57.021THPDLDVQYR     -1.0000     NotChecked  -24.0331    1546.6834   ✗       
+805   SGC+57.021NHPDLNVQYR     -1.0000     NotChecked  -24.0367    1558.6947   ✗       
+806   SC+57.021NHPDLDVQYR      -1.0000     NotChecked  -24.0420    1502.6572   ✗       
+807   SGC+57.021NHPDLDVQY      -1.0000     NotChecked  -24.0495    1403.5776   ✗       
+808   SGC+57.021NHPDLDVQQR     -1.0000     NotChecked  -24.0583    1524.6739   ✗       
+809   SGC+57.021NHPALDVQYR     -1.0000     NotChecked  -24.0609    1515.6889   ✗       
+810   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -24.0907    1514.6572   ✗       
+811   SGC+57.021NQPDLDVQYR     -1.0000     NotChecked  -24.0967    1550.6784   ✗       
+812   SGC+57.021NHPDLDVQ-17.027YR-1.0000     NotChecked  -24.1044    1542.6521   ✗       
+813   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -24.1064    1472.6467   ✗       
+814   SGC+57.021NHPDLDVLYR     -1.0000     NotChecked  -24.1089    1544.7042   ✗       
+815   SGC+57.021NHPDLDVQFR     -1.0000     NotChecked  -24.1119    1543.6838   ✗       
+816   SGC+57.021NHPDLTVQYR     -1.0000     NotChecked  -24.1161    1545.6994   ✗       
+817   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -24.1292    1515.6525   ✗       
+818   SC+57.021NHPDLDVQYR      -1.0000     NotChecked  -24.1344    1502.6572   ✗       
+819   SGC+57.021NHPDLDVQC+57.021R-1.0000     NotChecked  -24.1350    1556.6460   ✗       
+820   SGC+57.021NHPDLSVQYR     -1.0000     NotChecked  -24.1360    1531.6838   ✗       
+821   SGC+57.021NHPTLDVQYR     -1.0000     NotChecked  -24.1459    1545.6994   ✗       
+822   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -24.1545    1559.6787   ✓       
+823   SGC+57.021NHPDLGVQYR     -1.0000     NotChecked  -24.1610    1501.6732   ✗       
+824   SGC+57.021NHPDLDVQYA     -1.0000     NotChecked  -24.1648    1474.6147   ✗       
+825   SGC+57.021NHPDLDVQFR     -1.0000     NotChecked  -24.1731    1543.6838   ✗       
+826   SGC+57.021NHPDLDVQYQ     -1.0000     NotChecked  -24.1855    1531.6362   ✗       
+827   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -24.1913    1543.6838   ✗       
+828   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -24.2041    1559.6787   ✓       
+829   SGC+57.021NHPDVDVQYR     -1.0000     NotChecked  -24.2056    1545.6630   ✗       
+830   SGC+57.021NHADLDVQYR     -1.0000     NotChecked  -24.2060    1533.6630   ✗       
+831   SGC+57.021NHPDLDVQFR     -1.0000     NotChecked  -24.2110    1543.6838   ✗       
+832   SGC+57.021NHPNLDVQYR     -1.0000     NotChecked  -24.2150    1558.6947   ✗       
+833   SGC+57.021THPDLDVQYR     -1.0000     NotChecked  -24.2199    1546.6834   ✗       
+834   SGC+57.021NHPGLDVQYR     -1.0000     NotChecked  -24.2340    1501.6732   ✗       
+835   SGC+57.021NHPDLDVQY      -1.0000     NotChecked  -24.2363    1403.5776   ✗       
+836   SGC+57.021NNPDLDVQYR     -1.0000     NotChecked  -24.2395    1536.6627   ✗       
+837   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -24.2587    1472.6467   ✗       
+838   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -24.2637    1472.6467   ✗       
+839   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -24.2653    1559.6787   ✓       
+840   SGC+57.021NHPDTDVQYR     -1.0000     NotChecked  -24.2790    1547.6423   ✗       
+841   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -24.2865    1515.6525   ✗       
+842   SGC+57.021NHPDLDVQYF     -1.0000     NotChecked  -24.2912    1550.6460   ✗       
+843   SGC+57.021NHPDVDVQYR     -1.0000     NotChecked  -24.3017    1545.6630   ✗       
+844   SGC+57.021NPDLDVQYR      -1.0000     NotChecked  -24.3030    1422.6198   ✗       
+845   SGC+57.021NHPDLDVQYT     -1.0000     NotChecked  -24.3207    1504.6253   ✗       
+846   SC+57.021NHPDLDVQYR      -1.0000     NotChecked  -24.3212    1502.6572   ✗       
+847   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -24.3410    1543.6838   ✗       
+848   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -24.3967    1514.6572   ✗       
+849   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -24.4362    1515.6525   ✗       
+850   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -24.4983    1543.6838   ✗       
+851   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -24.5463    1514.6572   ✗       
+852   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -24.7036    1514.6572   ✗       
+853   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -24.7193    1472.6467   ✗       
+854   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -24.7422    1515.6525   ✗       
+855   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -24.8919    1515.6525   ✗       
+856   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -24.9540    1543.6838   ✗       
+857   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -25.0492    1515.6525   ✗       
+858   GGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -25.1082    1529.6681   ✗       
+859   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -25.1593    1514.6572   ✗       
+860   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -25.5048    1515.6525   ✗       
+861   GGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -25.5143    1529.6681   ✗       
+862   GGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -25.5639    1529.6681   ✗       
+863   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -25.5689    1472.6467   ✗       
+864   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -25.8035    1543.6838   ✗       
+865   GGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -25.8709    1529.6681   ✗       
+866   GGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -25.9700    1529.6681   ✗       
+867   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -25.9749    1472.6467   ✗       
+868   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -26.0088    1514.6572   ✗       
+869   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -26.0245    1472.6467   ✗       
+870   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -26.2096    1543.6838   ✗       
+871   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -26.2592    1543.6838   ✗       
+872   GGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -26.2769    1529.6681   ✗       
+873   GGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -26.3265    1529.6681   ✗       
+874   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -26.3315    1472.6467   ✗       
+875   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -26.3543    1515.6525   ✗       
+876   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -26.4149    1514.6572   ✗       
+877   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -26.4306    1472.6467   ✗       
+878   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -26.4645    1514.6572   ✗       
+879   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -26.5662    1543.6838   ✗       
+880   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -26.5746    1472.6467   ✗       
+881   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -26.6653    1543.6838   ✗       
+882   GGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -26.7326    1529.6681   ✗       
+883   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -26.7376    1472.6467   ✗       
+884   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -26.7604    1515.6525   ✗       
+885   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -26.7715    1514.6572   ✗       
+886   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -26.7872    1472.6467   ✗       
+887   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -26.8100    1515.6525   ✗       
+888   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -26.8706    1514.6572   ✗       
+889   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -26.9722    1543.6838   ✗       
+890   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -27.0218    1543.6838   ✗       
+891   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -27.0302    1472.6467   ✗       
+892   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -27.0352    1472.6467   ✗       
+893   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -27.1170    1515.6525   ✗       
+894   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -27.1776    1514.6572   ✗       
+895   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -27.1933    1472.6467   ✗       
+896   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -27.2161    1515.6525   ✗       
+897   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -27.2272    1514.6572   ✗       
+898   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -27.2699    1543.6838   ✗       
+899   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -27.3372    1472.6467   ✗       
+900   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -27.4279    1543.6838   ✗       
+901   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -27.4752    1514.6572   ✗       
+902   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -27.4909    1472.6467   ✗       
+903   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -27.5231    1515.6525   ✗       
+904   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -27.5727    1515.6525   ✗       
+905   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -27.6332    1514.6572   ✗       
+906   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -27.7255    1543.6838   ✗       
+907   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -27.7929    1472.6467   ✗       
+908   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -27.7979    1472.6467   ✗       
+909   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -27.8207    1515.6525   ✗       
+910   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -27.9309    1514.6572   ✗       
+911   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -27.9788    1515.6525   ✗       
+912   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -28.0325    1543.6838   ✗       
+913   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -28.2378    1514.6572   ✗       
+914   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -28.2535    1472.6467   ✗       
+915   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -28.2764    1515.6525   ✗       
+916   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -28.4882    1543.6838   ✗       
+917   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -28.5833    1515.6525   ✗       
+918   GGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -28.6424    1529.6681   ✗       
+919   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -28.6935    1514.6572   ✗       
+920   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -29.0390    1515.6525   ✗       
+921   GGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -29.0485    1529.6681   ✗       
+922   GGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -29.0981    1529.6681   ✗       
+923   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -29.1030    1472.6467   ✗       
+924   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -29.2554    1472.6467   ✗       
+925   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -29.3377    1543.6838   ✗       
+926   GGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -29.4050    1529.6681   ✗       
+927   GGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -29.5042    1529.6681   ✗       
+928   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -29.5091    1472.6467   ✗       
+929   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -29.5430    1514.6572   ✗       
+930   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -29.5587    1472.6467   ✗       
+931   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -29.6614    1472.6467   ✗       
+932   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -29.7110    1472.6467   ✗       
+933   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -29.7160    1472.6467   ✗       
+934   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -29.7438    1543.6838   ✗       
+935   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -29.7934    1543.6838   ✗       
+936   GGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -29.8111    1529.6681   ✗       
+937   GGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -29.8607    1529.6681   ✗       
+938   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -29.8657    1472.6467   ✗       
+939   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -29.8885    1515.6525   ✗       
+940   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -29.9491    1514.6572   ✗       
+941   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -29.9507    1543.6838   ✗       
+942   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -29.9648    1472.6467   ✗       
+943   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -29.9987    1514.6572   ✗       
+944   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -30.0180    1472.6467   ✗       
+945   GGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -30.0675    1529.6681   ✗       
+946   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -30.1003    1543.6838   ✗       
+947   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -30.1171    1472.6467   ✗       
+948   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -30.1221    1472.6467   ✗       
+949   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -30.1560    1514.6572   ✗       
+950   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -30.1717    1472.6467   ✗       
+951   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -30.1995    1543.6838   ✗       
+952   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -30.2040    1559.6787   ✓       
+953   GGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -30.2668    1529.6681   ✗       
+954   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -30.2718    1472.6467   ✗       
+955   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -30.2946    1515.6525   ✗       
+956   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -30.3057    1514.6572   ✗       
+957   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -30.3214    1472.6467   ✗       
+958   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -30.3442    1515.6525   ✗       
+959   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -30.3567    1543.6838   ✗       
+960   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -30.4048    1514.6572   ✗       
+961   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -30.4063    1543.6838   ✗       
+962   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -30.4241    1472.6467   ✗       
+963   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -30.4737    1472.6467   ✗       
+964   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -30.4787    1472.6467   ✗       
+965   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -30.5015    1515.6525   ✗       
+966   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -30.5064    1543.6838   ✗       
+967   GGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -30.5232    1529.6681   ✗       
+968   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -30.5560    1543.6838   ✗       
+969   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -30.5621    1514.6572   ✗       
+970   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -30.5778    1472.6467   ✗       
+971   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -30.6117    1514.6572   ✗       
+972   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -30.6512    1515.6525   ✗       
+973   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -30.6597    1559.6787   ✓       
+974   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -30.7117    1514.6572   ✗       
+975   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -30.7133    1543.6838   ✗       
+976   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -30.7275    1472.6467   ✗       
+977   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -30.7503    1515.6525   ✗       
+978   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -30.7613    1514.6572   ✗       
+979   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -30.8124    1543.6838   ✗       
+980   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -30.8798    1472.6467   ✗       
+981   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -30.8848    1472.6467   ✗       
+982   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -30.9076    1515.6525   ✗       
+983   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -30.9186    1514.6572   ✗       
+984   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -30.9343    1472.6467   ✗       
+985   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -30.9572    1515.6525   ✗       
+986   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -30.9621    1543.6838   ✗       
+987   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -30.9667    1559.6787   ✓       
+988   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -31.0177    1514.6572   ✗       
+989   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -31.0573    1515.6525   ✗       
+990   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -31.1069    1515.6525   ✗       
+991   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -31.1194    1543.6838   ✗       
+992   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -31.1674    1514.6572   ✗       
+993   AGC+57.021NHPDLDVQYR     -1.0000     NotChecked  -31.1690    1543.6838   ✗       
+994   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -31.2642    1515.6525   ✗       
+995   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -31.3247    1514.6572   ✗       
+996   GC+57.021NHPDLDVQYR      -1.0000     NotChecked  -31.3404    1472.6467   ✗       
+997   +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -31.3633    1515.6525   ✗       
+998   +42.011GC+57.021NHPDLDVQYR-1.0000     NotChecked  -31.3743    1514.6572   ✗       
+999   SGC+57.021NHPN+0.984LDVQYR-1.0000     Failed      -31.4223    1559.6787   ✓       
+1000  +43.006GC+57.021NHPDLDVQYR-1.0000     NotChecked  -31.5129    1515.6525   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: SGC+57.021NHPDLDVQYR
+Similarity: 0.7594
+De Novo Score: -1.0201
+Source: Database
+Correct: ✓
+

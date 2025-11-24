@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 90
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 472.5595
+Precursor charge: 3+
+Ground truth: EEAQQEAKPEEK
+Ground truth (normalized): EEAQQEAKPEEK
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 326
+Used for reranking: 326
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 326 (32.6%)
+Database matches: 43 (4.3%)
+Prosit predictions: 222 (22.2%)
+Failed: 61 (6.1%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.9427
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     EEAQQEAKPEEK             0.9427      Database    -0.0386     1414.6576   ✓       ✓
+2     EEAQQEAKPEEK             0.9427      Database    -3.9754     1414.6576   ✓       ✓
+3     EEAQQEAKPEEK             0.9427      Database    -7.2990     1414.6576   ✓       ✓
+4     EEAQQEAKPEEK             0.9427      Database    -8.4770     1414.6576   ✓       ✓
+5     EEAQQEAKPEEK             0.9427      Database    -9.7965     1414.6576   ✓       ✓
+6     EEAQQEAKPEEK             0.9427      Database    -11.2359    1414.6576   ✓       ✓
+7     EEAQQEAKPEEK             0.9427      Database    -12.4139    1414.6576   ✓       ✓
+8     EEAQQEAKPEEK             0.9427      Database    -12.9959    1414.6576   ✓       ✓
+9     EEAQQEAKPEEK             0.9427      Database    -13.1044    1414.6576   ✓       ✓
+10    EEAQQEAKPEEK             0.9427      Database    -13.6707    1414.6576   ✓       ✓
+11    EEAQQEAKPEEK             0.9427      Database    -13.7333    1414.6576   ✓       ✓
+12    EEAQQEAKPEEK             0.9427      Database    -14.2664    1414.6576   ✓       ✓
+13    EEAQQEAKPEEK             0.9427      Database    -14.2736    1414.6576   ✓       ✓
+14    EEAQQEAKPEEK             0.9427      Database    -14.5963    1414.6576   ✓       ✓
+15    EEAQQEAKPEEK             0.9427      Database    -14.8436    1414.6576   ✓       ✓
+16    EEAQQEAKPEEK             0.9427      Database    -15.0034    1414.6576   ✓       ✓
+17    EEAQQEAKPEEK             0.9427      Database    -15.7324    1414.6576   ✓       ✓
+18    EEAQQEAKPEEK             0.9427      Database    -15.7375    1414.6576   ✓       ✓
+19    EEAQQEAKPEEK             0.9427      Database    -16.1200    1414.6576   ✓       ✓
+20    EEAQQEAKPEEK             0.9427      Database    -16.9328    1414.6576   ✓       ✓
+21    EEAQQEAKPEEK             0.9427      Database    -17.0570    1414.6576   ✓       ✓
+22    EEAQQEAKPEEK             0.9427      Database    -17.6076    1414.6576   ✓       ✓
+23    EEAQQEAKPEEK             0.9427      Database    -18.2033    1414.6576   ✓       ✓
+24    EEAQQEAKPEEK             0.9427      Database    -18.2104    1414.6576   ✓       ✓
+25    EEAQQEAKPEEK             0.9427      Database    -18.2349    1414.6576   ✓       ✓
+26    EEAQQEAKPEEK             0.9427      Database    -18.5033    1414.6576   ✓       ✓
+27    EEAQQEAKPEEK             0.9427      Database    -18.5332    1414.6576   ✓       ✓
+28    EEAQQEAKPEEK             0.9427      Database    -18.7805    1414.6576   ✓       ✓
+29    EEAQQEAKPEEK             0.9427      Database    -18.9402    1414.6576   ✓       ✓
+30    EEAQQEAKPEEK             0.9427      Database    -19.1247    1414.6576   ✓       ✓
+31    EEAQQEAKPEEK             0.9427      Database    -19.2017    1414.6576   ✓       ✓
+32    EEAQQEAKPEEK             0.9427      Database    -19.3369    1414.6576   ✓       ✓
+33    EEAQQEAKPEEK             0.9427      Database    -19.6693    1414.6576   ✓       ✓
+34    EEAQQEAKPEEK             0.9427      Database    -19.6744    1414.6576   ✓       ✓
+35    EEAQQEAKPEEK             0.9427      Database    -20.2564    1414.6576   ✓       ✓
+36    EEAQQEAKPEEK             0.9427      Database    -20.3649    1414.6576   ✓       ✓
+37    EEAQQEAKPEEK             0.9427      Database    -20.9312    1414.6576   ✓       ✓
+38    EEAQQEAKPEEK             0.9427      Database    -20.9938    1414.6576   ✓       ✓
+39    EEAQQEAKPEEK             0.9427      Database    -21.4344    1414.6576   ✓       ✓
+40    EEAQQEAKPEEK             0.9427      Database    -21.5269    1414.6576   ✓       ✓
+41    EEAQQEAKPEEK             0.9427      Database    -21.5340    1414.6576   ✓       ✓
+42    EEAQQEAKPEEK             0.9427      Database    -21.5429    1414.6576   ✓       ✓
+43    EEAQQEAKPEEK             0.9427      Database    -21.8568    1414.6576   ✓       ✓
+44    QEAEQEAKPEEK             0.7311      Prosit      -24.9644    1414.6576   ✓       
+45    QEAQEEAKPEEK             0.7286      Prosit      -22.8056    1414.6576   ✓       
+46    QEAQ+0.984QEAKPEEK       0.7253      Prosit      -17.6941    1414.6576   ✓       
+47    QEAQ+0.984QEAKPEEK       0.7253      Prosit      -21.6310    1414.6576   ✓       
+48    QEAQ+0.984QEAKPEEK       0.7253      Prosit      -24.9546    1414.6576   ✓       
+49    EEAKQEAKPEEK             0.7249      Prosit      -13.1591    1414.6940   ✓       
+50    EEAKQEAKPEEK             0.7249      Prosit      -17.0959    1414.6940   ✓       
+51    EEAKQEAKPEEK             0.7249      Prosit      -20.4195    1414.6940   ✓       
+52    EEAKQEAKPEEK             0.7249      Prosit      -21.5975    1414.6940   ✓       
+53    EEAQKEAKPEEK             0.7236      Prosit      -13.2580    1414.6940   ✓       
+54    EEAQKEAKPEEK             0.7236      Prosit      -17.1949    1414.6940   ✓       
+55    EEAQKEAKPEEK             0.7236      Prosit      -20.5185    1414.6940   ✓       
+56    EEAQKEAKPEEK             0.7236      Prosit      -21.6964    1414.6940   ✓       
+57    EQ+0.984AQKEAKPEEK       0.7224      Prosit      -19.8758    1414.6940   ✓       
+58    EQ+0.984AQQQ+0.984AKPEEK 0.7220      Prosit      -11.4585    1414.6576   ✓       
+59    EQ+0.984AQQQ+0.984AKPEEK 0.7220      Prosit      -15.3954    1414.6576   ✓       
+60    EQ+0.984AQQQ+0.984AKPEEK 0.7220      Prosit      -18.7190    1414.6576   ✓       
+61    EQ+0.984AQQQ+0.984AKPEEK 0.7220      Prosit      -21.2164    1414.6576   ✓       
+62    QEAQ+0.984QQ+0.984AKPEEK 0.7214      Prosit      -22.4963    1414.6576   ✓       
+63    QEAQQ+0.984Q+0.984AKPEEK 0.7214      Prosit      -23.7336    1414.6576   ✓       
+64    Q+0.984EAQ+0.984QQAKPEEK 0.7214      Prosit      -24.1888    1414.6576   ✓       
+65    Q+0.984EAQQ+0.984QAKPEEK 0.7214      Prosit      -25.4261    1414.6576   ✓       
+66    EQ+0.984AQQEAKPEEK       0.7200      Prosit      -6.6563     1414.6576   ✓       
+67    EQ+0.984AQQEAKPEEK       0.7200      Prosit      -10.5932    1414.6576   ✓       
+68    EQ+0.984AQQEAKPEEK       0.7200      Prosit      -13.9168    1414.6576   ✓       
+69    EQ+0.984AQQEAKPEEK       0.7200      Prosit      -16.4142    1414.6576   ✓       
+70    EQ+0.984AQQEAKPEEK       0.7200      Prosit      -17.8537    1414.6576   ✓       
+71    EQAQ+0.984QEAKPEEK       0.7200      Prosit      -18.3711    1414.6576   ✓       
+72    EQ+0.984AQQEAKPEEK       0.7200      Prosit      -18.9674    1414.6576   ✓       
+73    EQAQQ+0.984EAKPEEK       0.7200      Prosit      -19.6085    1414.6576   ✓       
+74    EQ+0.984AQQEAKPEEK       0.7200      Prosit      -19.6137    1414.6576   ✓       
+75    EQ+0.984AQQEAKPEEK       0.7200      Prosit      -19.7222    1414.6576   ✓       
+76    EQ+0.984AQQEAKPEEK       0.7200      Prosit      -20.2885    1414.6576   ✓       
+77    EQ+0.984AQQEAKPEEK       0.7200      Prosit      -20.3511    1414.6576   ✓       
+78    EQ+0.984AQQEAKPEEK       0.7200      Prosit      -20.8842    1414.6576   ✓       
+79    EQ+0.984AQQEAKPEEK       0.7200      Prosit      -20.8913    1414.6576   ✓       
+80    EQ+0.984AQQEAKPEEK       0.7200      Prosit      -21.2141    1414.6576   ✓       
+81    EQ+0.984AQQEAKPEEK       0.7200      Prosit      -21.4614    1414.6576   ✓       
+82    EQ+0.984AQQEAKPEEK       0.7200      Prosit      -21.6212    1414.6576   ✓       
+83    Q+0.984EAKQEAKPEEK       0.7139      Prosit      -19.3100    1414.6940   ✓       
+84    Q+0.984EAKQEAKPEEK       0.7139      Prosit      -23.2469    1414.6940   ✓       
+85    KEAQEEAKPEEK             0.7112      Prosit      -24.3261    1414.6940   ✓       
+86    EKAQ+0.984QEAKPEEK       0.7054      Prosit      -21.1241    1414.6940   ✓       
+87    KEAQ+0.984QEAKPEEK       0.7047      Prosit      -19.2145    1414.6940   ✓       
+88    KEAQQ+0.984EAKPEEK       0.7047      Prosit      -20.4519    1414.6940   ✓       
+89    KEAQ+0.984QEAKPEEK       0.7047      Prosit      -23.1514    1414.6940   ✓       
+90    KEAQQ+0.984EAKPEEK       0.7047      Prosit      -24.3888    1414.6940   ✓       
+91    EEAQQQ+0.984AKPEEK       0.7021      Prosit      -4.8407     1414.6576   ✓       
+92    EEAQQQ+0.984AKPEEK       0.7021      Prosit      -8.7776     1414.6576   ✓       
+93    EEAQQQ+0.984AKPEEK       0.7021      Prosit      -12.1012    1414.6576   ✓       
+94    EEAQQQ+0.984AKPEEK       0.7021      Prosit      -13.2792    1414.6576   ✓       
+95    EEAQQQ+0.984AKPEEK       0.7021      Prosit      -14.5986    1414.6576   ✓       
+96    EEAQQQ+0.984AKPEEK       0.7021      Prosit      -16.0381    1414.6576   ✓       
+97    EEAQQQ+0.984AKPEEK       0.7021      Prosit      -17.2160    1414.6576   ✓       
+98    EEAQQQ+0.984AKPEEK       0.7021      Prosit      -17.7981    1414.6576   ✓       
+99    EEAQQQ+0.984AKPEEK       0.7021      Prosit      -17.9066    1414.6576   ✓       
+100   EEAQ+0.984QQAKPEEK       0.7021      Prosit      -18.0378    1414.6576   ✓       
+101   EEAQQQ+0.984AKPEEK       0.7021      Prosit      -18.4728    1414.6576   ✓       
+102   EEAQQQ+0.984AKPEEK       0.7021      Prosit      -18.5355    1414.6576   ✓       
+103   EEAQQQ+0.984AKPEEK       0.7021      Prosit      -19.0757    1414.6576   ✓       
+104   EEAQQ+0.984QAKPEEK       0.7021      Prosit      -19.2752    1414.6576   ✓       
+105   EEAQQQ+0.984AKPEEK       0.7021      Prosit      -19.3985    1414.6576   ✓       
+106   EEAQQQ+0.984AKPEEK       0.7021      Prosit      -19.6458    1414.6576   ✓       
+107   EEAQQQ+0.984AKPEEK       0.7021      Prosit      -19.8055    1414.6576   ✓       
+108   EEAQQQ+0.984AKPEEK       0.7021      Prosit      -20.5346    1414.6576   ✓       
+109   EEAQQQ+0.984AKPEEK       0.7021      Prosit      -20.5396    1414.6576   ✓       
+110   EEAQQQ+0.984AKPEEK       0.7021      Prosit      -20.9221    1414.6576   ✓       
+111   EEAQQQ+0.984AKPEEK       0.7021      Prosit      -21.7350    1414.6576   ✓       
+112   EEAQQQ+0.984AKPEEK       0.7021      Prosit      -21.8591    1414.6576   ✓       
+113   EEAQ+0.984QQAKPEEK       0.7021      Prosit      -21.9747    1414.6576   ✓       
+114   KEAQ+0.984QQ+0.984AKPEEK 0.7000      Prosit      -24.0167    1414.6940   ✓       
+115   KEAQQ+0.984Q+0.984AKPEEK 0.7000      Prosit      -25.2541    1414.6940   ✓       
+116   Q+0.984EAQKQ+0.984AKPEEK 0.6999      Prosit      -24.2111    1414.6940   ✓       
+117   EEAKQQ+0.984AKPEEK       0.6991      Prosit      -17.9612    1414.6940   ✓       
+118   EEAKQQ+0.984AKPEEK       0.6991      Prosit      -21.8981    1414.6940   ✓       
+119   Q+0.984Q+0.984AQQEAKPEEK 0.6986      Prosit      -12.8073    1414.6576   ✓       
+120   Q+0.984Q+0.984AQQEAKPEEK 0.6986      Prosit      -16.7442    1414.6576   ✓       
+121   Q+0.984Q+0.984AQQEAKPEEK 0.6986      Prosit      -20.0678    1414.6576   ✓       
+122   Q+0.984Q+0.984AQQEAKPEEK 0.6986      Prosit      -22.5652    1414.6576   ✓       
+123   Q+0.984Q+0.984AQQEAKPEEK 0.6986      Prosit      -24.0047    1414.6576   ✓       
+124   QQ+0.984AQ+0.984QEAKPEEK 0.6986      Prosit      -24.3119    1414.6576   ✓       
+125   Q+0.984QAQ+0.984QEAKPEEK 0.6986      Prosit      -24.5221    1414.6576   ✓       
+126   QQ+0.984AQQ+0.984EAKPEEK 0.6986      Prosit      -25.5492    1414.6576   ✓       
+127   EQ+0.984AQQEAQPEEK       0.6984      Prosit      -18.2332    1414.6212   ✓       
+128   EEAQKQ+0.984AKPEEK       0.6978      Prosit      -18.0601    1414.6940   ✓       
+129   EEAQKQ+0.984AKPEEK       0.6978      Prosit      -21.9970    1414.6940   ✓       
+130   +42.011ESAQQEAKPEEK      0.6960      Prosit      -25.3739    1414.6576   ✓       
+131   EEAQQEAQPEEK             0.6949      Prosit      -11.6154    1414.6212   ✓       
+132   EEAQQEAQPEEK             0.6949      Prosit      -15.5523    1414.6212   ✓       
+133   EEAQQEAQPEEK             0.6949      Prosit      -20.0538    1414.6212   ✓       
+134   EEAQQEAQPEEK             0.6949      Prosit      -21.3733    1414.6212   ✓       
+135   EEAQQQ+0.984AQPEEK       0.6946      Prosit      -16.4176    1414.6212   ✓       
+136   EEAQQQ+0.984AQPEEK       0.6946      Prosit      -20.3544    1414.6212   ✓       
+137   Q+0.984EAQQQ+0.984AQPEEK 0.6919      Prosit      -22.5685    1414.6212   ✓       
+138   EEAQ+0.984QKAKPEEK       0.6915      Prosit      -21.4265    1414.6940   ✓       
+139   +42.011SEAQQEAKPEEK      0.6895      Prosit      -23.3252    1414.6576   ✓       
+140   Q+0.984EAQQEAQPEEK       0.6816      Prosit      -17.7664    1414.6212   ✓       
+141   Q+0.984EAQQEAQPEEK       0.6816      Prosit      -21.7032    1414.6212   ✓       
+142   Q+0.984Q+0.984AQQQ+0.984AKPEEK0.6811      Prosit      -17.6095    1414.6576   ✓       
+143   Q+0.984Q+0.984AQQQ+0.984AKPEEK0.6811      Prosit      -21.5463    1414.6576   ✓       
+144   Q+0.984Q+0.984AQQQ+0.984AKPEEK0.6811      Prosit      -24.8700    1414.6576   ✓       
+145   Q+0.984Q+0.984AQQEAQPEEK 0.6719      Prosit      -24.3841    1414.6212   ✓       
+146   QEAQQEAEPEEK             0.6336      Prosit      -24.3476    1414.6212   ✓       
+147   Q+0.984EAQQEAQPQ+0.984EK 0.6265      Prosit      -24.7291    1414.6212   ✓       
+148   Q+0.984EAQQQ+0.984AKPQ+0.984EK0.6251      Prosit      -17.9544    1414.6576   ✓       
+149   Q+0.984EAQQQ+0.984AKPQ+0.984EK0.6251      Prosit      -21.8913    1414.6576   ✓       
+150   Q+0.984EAQQQ+0.984AKPQ+0.984EK0.6251      Prosit      -25.2149    1414.6576   ✓       
+151   Q+0.984EAQQEAKPQ+0.984EK 0.6158      Prosit      -13.1523    1414.6576   ✓       
+152   Q+0.984EAQQEAKPQ+0.984EK 0.6158      Prosit      -17.0892    1414.6576   ✓       
+153   Q+0.984EAQQEAKPQ+0.984EK 0.6158      Prosit      -20.4128    1414.6576   ✓       
+154   Q+0.984EAQQEAKPQ+0.984EK 0.6158      Prosit      -21.5907    1414.6576   ✓       
+155   Q+0.984EAQQEAKPQ+0.984EK 0.6158      Prosit      -22.9102    1414.6576   ✓       
+156   Q+0.984EAQQEAKPQ+0.984EK 0.6158      Prosit      -24.3496    1414.6576   ✓       
+157   QEAQ+0.984QEAKPQ+0.984EK 0.6158      Prosit      -24.6568    1414.6576   ✓       
+158   Q+0.984EAQQEAKPQ+0.984EK 0.6158      Prosit      -25.4633    1414.6576   ✓       
+159   Q+0.984EAQQEAKPQ+0.984EK 0.6158      Prosit      -25.5276    1414.6576   ✓       
+160   EQ+0.984AQQQ+0.984AKPQ+0.984EK0.6065      Prosit      -18.4213    1414.6576   ✓       
+161   EEAQQEAKPEQ+0.984K       0.6049      Prosit      -5.5431     1414.6576   ✓       
+162   EEAQQEAKPEQ+0.984K       0.6049      Prosit      -9.4800     1414.6576   ✓       
+163   EEAQQEAKPEQ+0.984K       0.6049      Prosit      -12.8036    1414.6576   ✓       
+164   EEAQQEAKPEQ+0.984K       0.6049      Prosit      -13.9815    1414.6576   ✓       
+165   EEAQQEAKPEQ+0.984K       0.6049      Prosit      -15.3010    1414.6576   ✓       
+166   EEAQQEAKPEQ+0.984K       0.6049      Prosit      -16.7404    1414.6576   ✓       
+167   EEAQQEAKPEQ+0.984K       0.6049      Prosit      -17.9184    1414.6576   ✓       
+168   EEAQQEAKPEQ+0.984K       0.6049      Prosit      -18.5005    1414.6576   ✓       
+169   EEAQQEAKPEQ+0.984K       0.6049      Prosit      -18.6090    1414.6576   ✓       
+170   EEAQQEAKPEQ+0.984K       0.6049      Prosit      -19.1752    1414.6576   ✓       
+171   EEAQQEAKPEQ+0.984K       0.6049      Prosit      -19.2379    1414.6576   ✓       
+172   EEAQQEAKPEQ+0.984K       0.6049      Prosit      -19.7709    1414.6576   ✓       
+173   EEAQQEAKPEQ+0.984K       0.6049      Prosit      -19.7781    1414.6576   ✓       
+174   EEAQQEAKPEQ+0.984K       0.6049      Prosit      -20.1009    1414.6576   ✓       
+175   EEAQQEAKPEQ+0.984K       0.6049      Prosit      -20.3481    1414.6576   ✓       
+176   EEAQQEAKPEQ+0.984K       0.6049      Prosit      -20.5079    1414.6576   ✓       
+177   EEAQQEAKPEQ+0.984K       0.6049      Prosit      -20.6693    1414.6576   ✓       
+178   EEAQ+0.984QEAKPEQK       0.6049      Prosit      -21.2036    1414.6576   ✓       
+179   EEAQQEAKPEQ+0.984K       0.6049      Prosit      -21.2370    1414.6576   ✓       
+180   EEAQQEAKPEQ+0.984K       0.6049      Prosit      -21.2420    1414.6576   ✓       
+181   EEAQQEAKPEQ+0.984K       0.6049      Prosit      -21.6245    1414.6576   ✓       
+182   EEAQQEAKPQ+0.984EK       0.6001      Prosit      -7.0013     1414.6576   ✓       
+183   EEAQQEAKPQ+0.984EK       0.6001      Prosit      -10.9382    1414.6576   ✓       
+184   EEAQQEAKPQ+0.984EK       0.6001      Prosit      -14.2618    1414.6576   ✓       
+185   EEAQQEAKPQ+0.984EK       0.6001      Prosit      -15.4397    1414.6576   ✓       
+186   EEAQQEAKPQ+0.984EK       0.6001      Prosit      -16.7592    1414.6576   ✓       
+187   EEAQQEAKPQ+0.984EK       0.6001      Prosit      -18.1987    1414.6576   ✓       
+188   EEAQQEAKPQ+0.984EK       0.6001      Prosit      -19.3766    1414.6576   ✓       
+189   EEAQQEAKPQ+0.984EK       0.6001      Prosit      -19.9587    1414.6576   ✓       
+190   EEAQQEAKPQ+0.984EK       0.6001      Prosit      -20.0672    1414.6576   ✓       
+191   EEAQQEAKPQ+0.984EK       0.6001      Prosit      -20.6961    1414.6576   ✓       
+192   EEAQQEAKPQ+0.984EK       0.6001      Prosit      -21.2291    1414.6576   ✓       
+193   EEAQQEAKPQ+0.984EK       0.6001      Prosit      -21.2363    1414.6576   ✓       
+194   EEAQQEAKPQ+0.984EK       0.6001      Prosit      -21.5591    1414.6576   ✓       
+195   EEAQ+0.984QEAKPQEK       0.6001      Prosit      -21.7651    1414.6576   ✓       
+196   EEAQQEAKPQ+0.984EK       0.6001      Prosit      -21.8064    1414.6576   ✓       
+197   EEAQQEAKPQ+0.984EK       0.6001      Prosit      -21.9661    1414.6576   ✓       
+198   EEAQQQ+0.984AKPQ+0.984EK 0.5956      Prosit      -11.8035    1414.6576   ✓       
+199   EEAQQQ+0.984AKPQ+0.984EK 0.5956      Prosit      -15.7404    1414.6576   ✓       
+200   EEAQQQ+0.984AKPQ+0.984EK 0.5956      Prosit      -19.0640    1414.6576   ✓       
+201   EEAQQQ+0.984AKPQ+0.984EK 0.5956      Prosit      -20.2419    1414.6576   ✓       
+202   EEAQQQ+0.984AKPQ+0.984EK 0.5956      Prosit      -21.5614    1414.6576   ✓       
+203   EEAKQEAKPQ+0.984EK       0.5925      Prosit      -20.1218    1414.6940   ✓       
+204   Q+0.984EAQQEAKPEQ+0.984K 0.5904      Prosit      -11.6940    1414.6576   ✓       
+205   Q+0.984EAQQEAKPEQ+0.984K 0.5904      Prosit      -15.6309    1414.6576   ✓       
+206   Q+0.984EAQQEAKPEQ+0.984K 0.5904      Prosit      -18.9545    1414.6576   ✓       
+207   Q+0.984EAQQEAKPEQ+0.984K 0.5904      Prosit      -20.1325    1414.6576   ✓       
+208   Q+0.984EAQQEAKPEQ+0.984K 0.5904      Prosit      -21.4519    1414.6576   ✓       
+209   Q+0.984EAQQEAKPEQ+0.984K 0.5904      Prosit      -22.8914    1414.6576   ✓       
+210   QEAQ+0.984QEAKPEQ+0.984K 0.5904      Prosit      -23.1986    1414.6576   ✓       
+211   Q+0.984EAQQEAKPEQ+0.984K 0.5904      Prosit      -24.0051    1414.6576   ✓       
+212   Q+0.984EAQQEAKPEQ+0.984K 0.5904      Prosit      -24.0693    1414.6576   ✓       
+213   QEAQQ+0.984EAKPEQ+0.984K 0.5904      Prosit      -24.4360    1414.6576   ✓       
+214   Q+0.984EAQQEAKPEQ+0.984K 0.5904      Prosit      -24.6514    1414.6576   ✓       
+215   Q+0.984EAQQEAKPEQ+0.984K 0.5904      Prosit      -24.7599    1414.6576   ✓       
+216   Q+0.984EAQQEAKPEQ+0.984K 0.5904      Prosit      -25.3262    1414.6576   ✓       
+217   Q+0.984EAQQEAKPEQ+0.984K 0.5904      Prosit      -25.3888    1414.6576   ✓       
+218   EEAQKEAKPQ+0.984EK       0.5904      Prosit      -20.2207    1414.6940   ✓       
+219   Q+0.984Q+0.984AQQEAKPQ+0.984EK0.5881      Prosit      -19.7701    1414.6576   ✓       
+220   Q+0.984Q+0.984AQQEAKPQ+0.984EK0.5881      Prosit      -23.7069    1414.6576   ✓       
+221   EQ+0.984AQQEAKPEQ+0.984K 0.5878      Prosit      -12.1609    1414.6576   ✓       
+222   EQ+0.984AQQEAKPEQ+0.984K 0.5878      Prosit      -16.0977    1414.6576   ✓       
+223   EQ+0.984AQQEAKPEQ+0.984K 0.5878      Prosit      -19.4213    1414.6576   ✓       
+224   EQ+0.984AQQEAKPEQ+0.984K 0.5878      Prosit      -21.9188    1414.6576   ✓       
+225   EEAQQEAQPQ+0.984EK       0.5865      Prosit      -18.5782    1414.6212   ✓       
+226   EEAQQQ+0.984AKPEQ+0.984K 0.5839      Prosit      -10.3452    1414.6576   ✓       
+227   EEAQQQ+0.984AKPEQ+0.984K 0.5839      Prosit      -14.2821    1414.6576   ✓       
+228   EEAQQQ+0.984AKPEQ+0.984K 0.5839      Prosit      -17.6057    1414.6576   ✓       
+229   EEAQQQ+0.984AKPEQ+0.984K 0.5839      Prosit      -18.7837    1414.6576   ✓       
+230   EEAQQQ+0.984AKPEQ+0.984K 0.5839      Prosit      -20.1032    1414.6576   ✓       
+231   EEAQQQ+0.984AKPEQ+0.984K 0.5839      Prosit      -21.5426    1414.6576   ✓       
+232   KEAQ+0.984QEAKPEQ+0.984K 0.5811      Prosit      -24.7191    1414.6940   ✓       
+233   Q+0.984Q+0.984AQQQ+0.984AKPQ+0.984EK0.5775      Prosit      -24.5722    1414.6576   ✓       
+234   EQ+0.984AQQQ+0.984AKPEQ+0.984K0.5744      Prosit      -16.9630    1414.6576   ✓       
+235   EQ+0.984AQQQ+0.984AKPEQ+0.984K0.5744      Prosit      -20.8999    1414.6576   ✓       
+236   EEAQKEAKPEQ+0.984K       0.5706      Prosit      -18.7625    1414.6940   ✓       
+237   EEAKQEAKPEQ+0.984K       0.5687      Prosit      -18.6636    1414.6940   ✓       
+238   Q+0.984EAQ+0.984QEAKPKEK 0.5654      Prosit      -25.5207    1414.6940   ✓       
+239   Q+0.984EAQQQ+0.984AKPEQ+0.984K0.5622      Prosit      -16.4962    1414.6576   ✓       
+240   Q+0.984EAQQQ+0.984AKPEQ+0.984K0.5622      Prosit      -20.4331    1414.6576   ✓       
+241   Q+0.984EAQQQ+0.984AKPEQ+0.984K0.5622      Prosit      -23.7567    1414.6576   ✓       
+242   Q+0.984EAQQQ+0.984AKPEQ+0.984K0.5622      Prosit      -24.9346    1414.6576   ✓       
+243   Q+0.984EAQQEAQPEQ+0.984K 0.5607      Prosit      -23.2709    1414.6212   ✓       
+244   EEAQQEAQPEQ+0.984K       0.5595      Prosit      -17.1199    1414.6212   ✓       
+245   EEAQQEAQPEQ+0.984K       0.5595      Prosit      -21.0568    1414.6212   ✓       
+246   Q+0.984Q+0.984AQQEAKPEQ+0.984K0.5529      Prosit      -18.3118    1414.6576   ✓       
+247   Q+0.984Q+0.984AQQEAKPEQ+0.984K0.5529      Prosit      -22.2487    1414.6576   ✓       
+248   Q+0.984Q+0.984AQQEAKPEQ+0.984K0.5529      Prosit      -25.5723    1414.6576   ✓       
+249   Q+0.984EAQQEAKPQ+0.984Q+0.984K0.5515      Prosit      -18.6568    1414.6576   ✓       
+250   Q+0.984EAQQEAKPQ+0.984Q+0.984K0.5515      Prosit      -22.5937    1414.6576   ✓       
+251   EEAQQQ+0.984AQPEQ+0.984K 0.5488      Prosit      -21.9221    1414.6212   ✓       
+252   EEAQQEAKPQ+0.984Q+0.984K 0.5434      Prosit      -12.5058    1414.6576   ✓       
+253   EEAQQEAKPQ+0.984Q+0.984K 0.5434      Prosit      -16.4427    1414.6576   ✓       
+254   EEAQQEAKPQ+0.984Q+0.984K 0.5434      Prosit      -19.7663    1414.6576   ✓       
+255   EEAQQEAKPQ+0.984Q+0.984K 0.5434      Prosit      -20.9443    1414.6576   ✓       
+256   EEAQ+0.984QEAKPKEK       0.5410      Prosit      -19.3697    1414.6940   ✓       
+257   Q+0.984EAKQEAKPEQ+0.984K 0.5223      Prosit      -24.8145    1414.6940   ✓       
+258   EQ+0.984AQQEAKPQ+0.984Q+0.984K0.5222      Prosit      -19.1236    1414.6576   ✓       
+259   Q+0.984EAQKEAKPEQ+0.984K 0.5110      Prosit      -24.9135    1414.6940   ✓       
+260   EEAQQEAKPEEQ             0.4962      Prosit      -16.8320    1414.6212   ✓       
+261   EEAQQEAKPEEQ             0.4962      Prosit      -20.7688    1414.6212   ✓       
+262   Q+0.984Q+0.984AQQQ+0.984AKPEQ+0.984K0.4951      Prosit      -23.1140    1414.6576   ✓       
+263   EEAQQQ+0.984AKPEEQ       0.4875      Prosit      -21.6341    1414.6212   ✓       
+264   Q+0.984Q+0.984AQQEAKPQ+0.984Q+0.984K0.4867      Prosit      -25.2746    1414.6576   ✓       
+265   Q+0.984EAQQEAKPEEQ       0.4850      Prosit      -22.9829    1414.6212   ✓       
+266   Q+0.984EAQQEAKPEEK       -1.0000     Failed      -6.1895     1414.6576   ✓       
+267   Q+0.984EAQQEAKPEEK       -1.0000     Failed      -10.1264    1414.6576   ✓       
+268   +42.011EAQQEAKPEEK       -1.0000     NotChecked  -10.5634    1327.6256   ✗       
+269   QEAQQEAKPEEK             -1.0000     NotChecked  -10.8894    1413.6736   ✗       
+270   Q+0.984EAQQQ+0.984AKPEEK -1.0000     Failed      -10.9917    1414.6576   ✓       
+271   EEAQQQAKPEEK             -1.0000     NotChecked  -11.2331    1413.6736   ✗       
+272   EQAQQEAKPEEK             -1.0000     NotChecked  -11.5664    1413.6736   ✗       
+273   +43.006EAQQEAKPEEK       -1.0000     NotChecked  -12.1633    1328.6208   ✗       
+274   EAQQEAKPEEK              -1.0000     NotChecked  -12.3496    1285.6150   ✗       
+275   KEAQQEAKPEEK             -1.0000     NotChecked  -12.4099    1413.7100   ✗       
+276   EEAQQEAKPKEK             -1.0000     NotChecked  -12.5651    1413.7100   ✗       
+277   EAQQEAKPEEK              -1.0000     NotChecked  -13.1928    1285.6150   ✗       
+278   EEAQQEAKAEEK             -1.0000     NotChecked  -13.3993    1388.6420   ✗       
+279   EEAQQEAKPEK              -1.0000     NotChecked  -13.4432    1285.6150   ✗       
+280   Q+0.984EAQQEAKPEEK       -1.0000     Failed      -13.4500    1414.6576   ✓       
+281   EEAQQEAKPLEK             -1.0000     NotChecked  -13.5239    1398.6991   ✗       
+282   EQ+0.984AQQEAKPQ+0.984EK -1.0000     Failed      -13.6191    1414.6576   ✓       
+283   EDAQQEAKPEEK             -1.0000     NotChecked  -13.6306    1400.6420   ✗       
+284   -17.027EAQQEAKPEEK       -1.0000     NotChecked  -13.8049    1268.5885   ✗       
+285   DEAQQEAKPEEK             -1.0000     NotChecked  -13.8490    1400.6420   ✗       
+286   EEAQPEAKPEEK             -1.0000     NotChecked  -13.9238    1383.6518   ✗       
+287   EAQQEAKPEEK              -1.0000     NotChecked  -14.0105    1285.6150   ✗       
+288   EKAQQEAKPEEK             -1.0000     NotChecked  -14.3195    1413.7100   ✗       
+289   EEAQQEAKPEQK             -1.0000     NotChecked  -14.3990    1413.6736   ✗       
+290   EEAQQEAKPDEK             -1.0000     NotChecked  -14.4577    1400.6420   ✗       
+291   +42.011EAQQEAKPEEK       -1.0000     NotChecked  -14.5003    1327.6256   ✗       
+292   EEAQQKAKPEEK             -1.0000     NotChecked  -14.6218    1413.7100   ✗       
+293   Q+0.984EAQQEAKPEEK       -1.0000     Failed      -14.6279    1414.6576   ✓       
+294   EEAQQAAKPEEK             -1.0000     NotChecked  -14.6998    1356.6521   ✗       
+295   EEAQQDAKPEEK             -1.0000     NotChecked  -14.7144    1400.6420   ✗       
+296   QEAQQEAKPEEK             -1.0000     NotChecked  -14.8263    1413.6736   ✗       
+297   EEAQAEAKPEEK             -1.0000     NotChecked  -14.8778    1357.6361   ✗       
+298   Q+0.984EAQQQ+0.984AKPEEK -1.0000     Failed      -14.9286    1414.6576   ✓       
+299   EEAQQEAKPQEK             -1.0000     NotChecked  -14.9604    1413.6736   ✗       
+300   EEAQQEAKPELK             -1.0000     NotChecked  -15.0396    1398.6991   ✗       
+301   EEAQQEAKEEK              -1.0000     NotChecked  -15.0521    1317.6048   ✗       
+302   EEAQQEAAPEEK             -1.0000     NotChecked  -15.0714    1357.5998   ✗       
+303   EEAQQEAKPEK              -1.0000     NotChecked  -15.1647    1285.6150   ✗       
+304   EEAQQQAKPEEK             -1.0000     NotChecked  -15.1700    1413.6736   ✗       
+305   EEAQQAKPEEK              -1.0000     NotChecked  -15.1983    1285.6150   ✗       
+306   EEAQQEKPEEK              -1.0000     NotChecked  -15.2024    1343.6205   ✗       
+307   EEAQQLAKPEEK             -1.0000     NotChecked  -15.2255    1398.6991   ✗       
+308   +42.011EAQQQ+0.984AKPEEK -1.0000     NotChecked  -15.3656    1327.6256   ✗       
+309   EEAQQEAKGEEK             -1.0000     NotChecked  -15.4389    1374.6263   ✗       
+310   ELAQQEAKPEEK             -1.0000     NotChecked  -15.4905    1398.6991   ✗       
+311   EQAQQEAKPEEK             -1.0000     NotChecked  -15.5033    1413.6736   ✗       
+312   EEAQQEAKPAEK             -1.0000     NotChecked  -15.6037    1356.6521   ✗       
+313   EEAQQEAKPEDK             -1.0000     NotChecked  -15.6064    1400.6420   ✗       
+314   EEAQLEAKPEEK             -1.0000     NotChecked  -15.6202    1399.6831   ✗       
+315   EEAAQEAKPEEK             -1.0000     NotChecked  -15.6910    1357.6361   ✗       
+316   QEAQQQ+0.984AKPEEK       -1.0000     NotChecked  -15.6916    1413.6736   ✗       
+317   EEAQQEAKPEK              -1.0000     NotChecked  -15.8469    1285.6150   ✗       
+318   Q+0.984EAQQEAKPEEK       -1.0000     Failed      -15.9474    1414.6576   ✓       
+319   EEAQQEAKPEPK             -1.0000     NotChecked  -16.0344    1382.6678   ✗       
+320   EEAQQPAKPEEK             -1.0000     NotChecked  -16.0544    1382.6678   ✗       
+321   EEAQQEAKPEGK             -1.0000     NotChecked  -16.0547    1342.6365   ✗       
+322   +42.011EAQQEAKPEQ+0.984K -1.0000     NotChecked  -16.0680    1327.6256   ✗       
+323   +43.006EAQQEAKPEEK       -1.0000     NotChecked  -16.1001    1328.6208   ✗       
+324   EEAQEAKPEEK              -1.0000     NotChecked  -16.1082    1286.5990   ✗       
+325   EEAQQEALPEEK             -1.0000     NotChecked  -16.1276    1399.6467   ✗       
+326   EEAQNEAKPEEK             -1.0000     NotChecked  -16.2680    1400.6420   ✗       
+327   EAQQEAKPEEK              -1.0000     NotChecked  -16.2865    1285.6150   ✗       
+328   KEAQQEAKPEEK             -1.0000     NotChecked  -16.3467    1413.7100   ✗       
+329   EQAQQQ+0.984AKPEEK       -1.0000     NotChecked  -16.3686    1413.6736   ✗       
+330   EEAQQEAKPEAK             -1.0000     NotChecked  -16.3714    1356.6521   ✗       
+331   EEAQQEAKPEK              -1.0000     NotChecked  -16.3762    1285.6150   ✗       
+332   QEAQQEAKPEQ+0.984K       -1.0000     NotChecked  -16.3939    1413.6736   ✗       
+333   EEANQEAKPEEK             -1.0000     NotChecked  -16.4790    1400.6420   ✗       
+334   EEAQQEAKPKEK             -1.0000     NotChecked  -16.5019    1413.7100   ✗       
+335   EEAQQEGKPEEK             -1.0000     NotChecked  -16.5381    1400.6420   ✗       
+336   EEAQQQAKPEQ+0.984K       -1.0000     NotChecked  -16.7376    1413.6736   ✗       
+337   +43.006EAQQQ+0.984AKPEEK -1.0000     NotChecked  -16.9654    1328.6208   ✗       
+338   EEQQEAKPEEK              -1.0000     NotChecked  -17.0413    1343.6205   ✗       
+339   EQAQQEAKPEQ+0.984K       -1.0000     NotChecked  -17.0710    1413.6736   ✗       
+340   EAQQEAKPEEK              -1.0000     NotChecked  -17.1297    1285.6150   ✗       
+341   EAQQQ+0.984AKPEEK        -1.0000     NotChecked  -17.1518    1285.6150   ✗       
+342   +42.011Q+0.984AQQEAKPEEK -1.0000     NotChecked  -17.1812    1327.6256   ✗       
+343   KEAQQQ+0.984AKPEEK       -1.0000     NotChecked  -17.2120    1413.7100   ✗       
+344   EEAQQQ+0.984AKPQ+0.984Q+0.984K-1.0000     Failed      -17.3080    1414.6576   ✓       
+345   EEAQQEAKAEEK             -1.0000     NotChecked  -17.3361    1388.6420   ✗       
+346   EEALQEAKPEEK             -1.0000     NotChecked  -17.3365    1399.6831   ✗       
+347   EEAQQQ+0.984AKPKEK       -1.0000     NotChecked  -17.3672    1413.7100   ✗       
+348   +42.011EAQ+0.984QEAKPEEK -1.0000     NotChecked  -17.3681    1328.6096   ✗       
+349   EEAQQEAKPEK              -1.0000     NotChecked  -17.3801    1285.6150   ✗       
+350   Q+0.984EAQQQAKPEEK       -1.0000     NotChecked  -17.3841    1413.6736   ✗       
+351   Q+0.984EAQQEAKPEEK       -1.0000     Failed      -17.3869    1414.6576   ✓       
+352   EEAQQEAVPEEK             -1.0000     NotChecked  -17.4485    1385.6311   ✗       
+353   EEAQQEAKPLEK             -1.0000     NotChecked  -17.4608    1398.6991   ✗       
+354   EEAQQEAKPEE              -1.0000     NotChecked  -17.4824    1286.5626   ✗       
+355   QQ+0.984AQQEAKPEEK       -1.0000     NotChecked  -17.5072    1413.6736   ✗       
+356   +42.011EAQQEAKPQ+0.984EK -1.0000     NotChecked  -17.5262    1327.6256   ✗       
+357   EQ+0.984AQQEAKPQ+0.984EK -1.0000     Failed      -17.5560    1414.6576   ✓       
+358   EDAQQEAKPEEK             -1.0000     NotChecked  -17.5675    1400.6420   ✗       
+359   +43.006EAQQEAKPEQ+0.984K -1.0000     NotChecked  -17.6678    1328.6208   ✗       
+360   EEAPQEAKPEEK             -1.0000     NotChecked  -17.6853    1383.6518   ✗       
+361   Q+0.984QAQQEAKPEEK       -1.0000     NotChecked  -17.7174    1413.6736   ✗       
+362   -17.027EAQQEAKPEEK       -1.0000     NotChecked  -17.7417    1268.5885   ✗       
+363   DEAQQEAKPEEK             -1.0000     NotChecked  -17.7859    1400.6420   ✗       
+364   +42.011EAQQEAKPEEK       -1.0000     NotChecked  -17.8239    1327.6256   ✗       
+365   EQ+0.984AQQQAKPEEK       -1.0000     NotChecked  -17.8509    1413.6736   ✗       
+366   QEAQQEAKPQ+0.984EK       -1.0000     NotChecked  -17.8522    1413.6736   ✗       
+367   EAQQEAKPEQ+0.984K        -1.0000     NotChecked  -17.8541    1285.6150   ✗       
+368   EEAQPEAKPEEK             -1.0000     NotChecked  -17.8607    1383.6518   ✗       
+369   KEAQQEAKPEQ+0.984K       -1.0000     NotChecked  -17.9144    1413.7100   ✗       
+370   EAQQEAKPEEK              -1.0000     NotChecked  -17.9474    1285.6150   ✗       
+371   EAQQQ+0.984AKPEEK        -1.0000     NotChecked  -17.9950    1285.6150   ✗       
+372   EEAQQEAKPKQ+0.984K       -1.0000     NotChecked  -18.0696    1413.7100   ✗       
+373   QEAQQEAKPEEK             -1.0000     NotChecked  -18.1499    1413.6736   ✗       
+374   EEAQQQAKPQ+0.984EK       -1.0000     NotChecked  -18.1959    1413.6736   ✗       
+375   EEAQQQ+0.984AKAEEK       -1.0000     NotChecked  -18.2014    1388.6420   ✗       
+376   EEAQQQ+0.984AKPEK        -1.0000     NotChecked  -18.2454    1285.6150   ✗       
+377   Q+0.984EAQQQ+0.984AKPEEK -1.0000     Failed      -18.2522    1414.6576   ✓       
+378   EKAQQEAKPEEK             -1.0000     NotChecked  -18.2563    1413.7100   ✗       
+379   EEAQQQ+0.984AKPLEK       -1.0000     NotChecked  -18.3261    1398.6991   ✗       
+380   EEAQQEAKPEQK             -1.0000     NotChecked  -18.3358    1413.6736   ✗       
+381   EEAQQEAKPDEK             -1.0000     NotChecked  -18.3946    1400.6420   ✗       
+382   EDAQQQ+0.984AKPEEK       -1.0000     NotChecked  -18.4328    1400.6420   ✗       
+383   EEAQQQAKPEEK             -1.0000     NotChecked  -18.4936    1413.6736   ✗       
+384   Q+0.984EAQQEAKPEEK       -1.0000     Failed      -18.5006    1414.6576   ✓       
+385   EQAQQEAKPQ+0.984EK       -1.0000     NotChecked  -18.5292    1413.6736   ✗       
+386   EEAQQKAKPEEK             -1.0000     NotChecked  -18.5587    1413.7100   ✗       
+387   Q+0.984EAQQEAKPEEK       -1.0000     Failed      -18.5648    1414.6576   ✓       
+388   +42.011EAQQ+0.984EAKPEEK -1.0000     NotChecked  -18.6055    1328.6096   ✗       
+389   -17.027EAQQQ+0.984AKPEEK -1.0000     NotChecked  -18.6070    1268.5885   ✗       
+390   EEAQQAAKPEEK             -1.0000     NotChecked  -18.6366    1356.6521   ✗       
+391   DEAQQQ+0.984AKPEEK       -1.0000     NotChecked  -18.6512    1400.6420   ✗       
+392   EEAQQDAKPEEK             -1.0000     NotChecked  -18.6513    1400.6420   ✗       
+393   EAQQEAKPEQ+0.984K        -1.0000     NotChecked  -18.6974    1285.6150   ✗       
+394   Q+0.984EAQQEAKPKEK       -1.0000     NotChecked  -18.7160    1413.7100   ✗       
+395   EEAQPQ+0.984AKPEEK       -1.0000     NotChecked  -18.7260    1383.6518   ✗       
+396   +43.006Q+0.984AQQEAKPEEK -1.0000     NotChecked  -18.7811    1328.6208   ✗       
+397   EAQQQ+0.984AKPEEK        -1.0000     NotChecked  -18.8126    1285.6150   ✗       
+398   EEAQAEAKPEEK             -1.0000     NotChecked  -18.8147    1357.6361   ✗       
+399   EQAQQEAKPEEK             -1.0000     NotChecked  -18.8269    1413.6736   ✗       
+400   EEAQQEAKPQEK             -1.0000     NotChecked  -18.8973    1413.6736   ✗       
+401   EEAQQEAKAEQ+0.984K       -1.0000     NotChecked  -18.9038    1388.6420   ✗       
+402   QEAQQ+0.984EAKPEEK       -1.0000     Failed      -18.9315    1414.6576   ✓       
+403   +43.006EAQ+0.984QEAKPEEK -1.0000     NotChecked  -18.9679    1329.6048   ✗       
+404   EEAQQEAKPELK             -1.0000     NotChecked  -18.9765    1398.6991   ✗       
+405   EEAQQEAKEEK              -1.0000     NotChecked  -18.9889    1317.6048   ✗       
+406   +42.011EAQQEAKPEEK       -1.0000     NotChecked  -19.0019    1327.6256   ✗       
+407   EEAQQEAAPEEK             -1.0000     NotChecked  -19.0083    1357.5998   ✗       
+408   KQ+0.984AQQEAKPEEK       -1.0000     NotChecked  -19.0276    1413.7100   ✗       
+409   EEAQQEAKPLQ+0.984K       -1.0000     NotChecked  -19.0284    1398.6991   ✗       
+410   EEAQQEAKPEEL             -1.0000     NotChecked  -19.0294    1399.6467   ✗       
+411   EEAQQEAKPEK              -1.0000     NotChecked  -19.1016    1285.6150   ✗       
+412   EKAQQQ+0.984AKPEEK       -1.0000     NotChecked  -19.1216    1413.7100   ✗       
+413   +43.006EAQQEAKPQ+0.984EK -1.0000     NotChecked  -19.1260    1328.6208   ✗       
+414   EDAQQEAKPEQ+0.984K       -1.0000     NotChecked  -19.1352    1400.6420   ✗       
+415   EEAQQAKPEEK              -1.0000     NotChecked  -19.1352    1285.6150   ✗       
+416   EEAQQEKPEEK              -1.0000     NotChecked  -19.1393    1343.6205   ✗       
+417   Q+0.984EAQQEAKPEEK       -1.0000     Failed      -19.1469    1414.6576   ✓       
+418   EAQ+0.984QEAKPEEK        -1.0000     NotChecked  -19.1543    1286.5990   ✗       
+419   EEAQQEAKPEEP             -1.0000     NotChecked  -19.1578    1383.6154   ✗       
+420   EEAQQLAKPEEK             -1.0000     NotChecked  -19.1624    1398.6991   ✗       
+421   EQ+0.984AQQEAKPKEK       -1.0000     NotChecked  -19.1828    1413.7100   ✗       
+422   EEAQQQ+0.984AKPEQK       -1.0000     NotChecked  -19.2011    1413.6736   ✗       
+423   Q+0.984EAQQEAKPEEK       -1.0000     Failed      -19.2554    1414.6576   ✓       
+424   EEAQQQ+0.984AKPDEK       -1.0000     NotChecked  -19.2599    1400.6420   ✗       
+425   +42.011EAQQQ+0.984AKPEEK -1.0000     NotChecked  -19.3025    1327.6256   ✗       
+426   -17.027EAQQEAKPEQ+0.984K -1.0000     NotChecked  -19.3094    1268.5885   ✗       
+427   EAQQEAKPQ+0.984EK        -1.0000     NotChecked  -19.3124    1285.6150   ✗       
+428   QEAQQEAKPEEK             -1.0000     NotChecked  -19.3279    1413.6736   ✗       
+429   DEAQQEAKPEQ+0.984K       -1.0000     NotChecked  -19.3535    1400.6420   ✗       
+430   KEAQQEAKPQ+0.984EK       -1.0000     NotChecked  -19.3726    1413.7100   ✗       
+431   EEAQQEAKGEEK             -1.0000     NotChecked  -19.3758    1374.6263   ✗       
+432   Q+0.984EAQKEAKPEEK       -1.0000     Failed      -19.4089    1414.6940   ✓       
+433   +43.006EAQQEAKPEEK       -1.0000     NotChecked  -19.4238    1328.6208   ✗       
+434   ELAQQEAKPEEK             -1.0000     NotChecked  -19.4273    1398.6991   ✗       
+435   EEAQPEAKPEQ+0.984K       -1.0000     NotChecked  -19.4284    1383.6518   ✗       
+436   Q+0.984EAQQQ+0.984AKPEEK -1.0000     Failed      -19.4301    1414.6576   ✓       
+437   EAQQEAKPEQ+0.984K        -1.0000     NotChecked  -19.5150    1285.6150   ✗       
+438   EEAQQEAKPAEK             -1.0000     NotChecked  -19.5406    1356.6521   ✗       
+439   EEAQQEAKPEDK             -1.0000     NotChecked  -19.5433    1400.6420   ✗       
+440   Q+0.984EAQQEAKAEEK       -1.0000     NotChecked  -19.5502    1388.6420   ✗       
+441   EEAQLEAKPEEK             -1.0000     NotChecked  -19.5570    1399.6831   ✗       
+442   Q+0.984EAQQEAKPEK        -1.0000     NotChecked  -19.5942    1285.6150   ✗       
+443   EAQQEAKPEEK              -1.0000     NotChecked  -19.6101    1285.6150   ✗       
+444   EEAAQEAKPEEK             -1.0000     NotChecked  -19.6279    1357.6361   ✗       
+445   QEAQQQ+0.984AKPEEK       -1.0000     NotChecked  -19.6285    1413.6736   ✗       
+446   KEAQQEAKPEEK             -1.0000     NotChecked  -19.6703    1413.7100   ✗       
+447   EEAQQQAKPEEK             -1.0000     NotChecked  -19.6716    1413.6736   ✗       
+448   Q+0.984EAQQEAKPLEK       -1.0000     NotChecked  -19.6749    1398.6991   ✗       
+449   EEAQAQ+0.984AKPEEK       -1.0000     NotChecked  -19.6800    1357.6361   ✗       
+450   EEAQQQ+0.984AKPQEK       -1.0000     NotChecked  -19.7626    1413.6736   ✗       
+451   EQ+0.984AKQEAKPEEK       -1.0000     Failed      -19.7768    1414.6940   ✓       
+452   Q+0.984DAQQEAKPEEK       -1.0000     NotChecked  -19.7816    1400.6420   ✗       
+453   EEAQQEAKPEK              -1.0000     NotChecked  -19.7838    1285.6150   ✗       
+454   Q+0.984AQQEAKPEEK        -1.0000     NotChecked  -19.8106    1285.6150   ✗       
+455   Q+0.984EAQQEAKPEEK       -1.0000     Failed      -19.8216    1414.6576   ✓       
+456   EKAQQEAKPEQ+0.984K       -1.0000     NotChecked  -19.8240    1413.7100   ✗       
+457   EEAQQEAKPKEK             -1.0000     NotChecked  -19.8255    1413.7100   ✗       
+458   EEAQQEAKPEE              -1.0000     NotChecked  -19.8409    1286.5626   ✗       
+459   EEAQQQ+0.984AKPELK       -1.0000     NotChecked  -19.8418    1398.6991   ✗       
+460   EEAQQQ+0.984AKEEK        -1.0000     NotChecked  -19.8542    1317.6048   ✗       
+461   EEAQQQ+0.984AAPEEK       -1.0000     NotChecked  -19.8736    1357.5998   ✗       
+462   Q+0.984EAQQEAKPEEK       -1.0000     Failed      -19.8843    1414.6576   ✓       
+463   EEAQQEAKPEEV             -1.0000     NotChecked  -19.9022    1385.6311   ✗       
+464   EEAQQEAKPDQ+0.984K       -1.0000     NotChecked  -19.9622    1400.6420   ✗       
+465   EEAQQQ+0.984AKPEK        -1.0000     NotChecked  -19.9669    1285.6150   ✗       
+466   EEAQQEAKPEPK             -1.0000     NotChecked  -19.9713    1382.6678   ✗       
+467   EEAQQPAKPEEK             -1.0000     NotChecked  -19.9913    1382.6678   ✗       
+468   EEAQQEAKPEGK             -1.0000     NotChecked  -19.9915    1342.6365   ✗       
+469   EAQ+0.984QEAKPEEK        -1.0000     NotChecked  -19.9975    1286.5990   ✗       
+470   EEAQQQ+0.984KPEEK        -1.0000     NotChecked  -20.0046    1343.6205   ✗       
+471   +42.011EAQQEAKPEQ+0.984K -1.0000     NotChecked  -20.0048    1327.6256   ✗       
+472   EQ+0.984AQQEAKAEEK       -1.0000     NotChecked  -20.0170    1388.6420   ✗       
+473   EEAQEAKPEEK              -1.0000     NotChecked  -20.0451    1286.5990   ✗       
+474   EQ+0.984AQQEAKPEK        -1.0000     NotChecked  -20.0610    1285.6150   ✗       
+475   EEAQQEALPEEK             -1.0000     NotChecked  -20.0645    1399.6467   ✗       
+476   Q+0.984EAQPEAKPEEK       -1.0000     NotChecked  -20.0748    1383.6518   ✗       
+477   EEAQQEAKPEET             -1.0000     NotChecked  -20.1136    1387.6103   ✗       
+478   EEAQQKAKPEQ+0.984K       -1.0000     NotChecked  -20.1263    1413.7100   ✗       
+479   EQ+0.984AQQEAKPLEK       -1.0000     NotChecked  -20.1417    1398.6991   ✗       
+480   EAQQEAKPQ+0.984EK        -1.0000     NotChecked  -20.1556    1285.6150   ✗       
+481   Q+0.984AQQEAKPEEK        -1.0000     NotChecked  -20.1614    1285.6150   ✗       
+482   EEAQ+0.984QEAKAEEK       -1.0000     NotChecked  -20.2039    1389.6260   ✗       
+483   EEAQQAAKPEQ+0.984K       -1.0000     NotChecked  -20.2043    1356.6521   ✗       
+484   EEAQNEAKPEEK             -1.0000     NotChecked  -20.2049    1400.6420   ✗       
+485   +43.006EAQQ+0.984EAKPEEK -1.0000     NotChecked  -20.2053    1329.6048   ✗       
+486   EEAQQDAKPEQ+0.984K       -1.0000     NotChecked  -20.2189    1400.6420   ✗       
+487   EEAQQQ+0.984AKGEEK       -1.0000     NotChecked  -20.2411    1374.6263   ✗       
+488   EEAQ+0.984QEAKPEK        -1.0000     NotChecked  -20.2479    1286.5990   ✗       
+489   ELAQQQ+0.984AKPEEK       -1.0000     NotChecked  -20.2926    1398.6991   ✗       
+490   EQAQQQ+0.984AKPEEK       -1.0000     NotChecked  -20.3055    1413.6736   ✗       
+491   EEAQQEAKPEAK             -1.0000     NotChecked  -20.3083    1356.6521   ✗       
+492   EEAQQEAKPEK              -1.0000     NotChecked  -20.3131    1285.6150   ✗       
+493   +42.011EAQQEAKPEEK       -1.0000     NotChecked  -20.3213    1327.6256   ✗       
+494   EEAQ+0.984QEAKPLEK       -1.0000     NotChecked  -20.3286    1399.6831   ✗       
+495   QEAQQEAKPEQ+0.984K       -1.0000     NotChecked  -20.3308    1413.6736   ✗       
+496   EEAQQEAKAQ+0.984EK       -1.0000     NotChecked  -20.3620    1388.6420   ✗       
+497   EEAQAEAKPEQ+0.984K       -1.0000     NotChecked  -20.3823    1357.6361   ✗       
+498   EAQQ+0.984EAKPEEK        -1.0000     NotChecked  -20.3916    1286.5990   ✗       
+499   EEAQQQ+0.984AKPAEK       -1.0000     NotChecked  -20.4059    1356.6521   ✗       
+500   EEAQQEAKPQ+0.984K        -1.0000     NotChecked  -20.4060    1285.6150   ✗       
+501   EEAQQQ+0.984AKPEDK       -1.0000     NotChecked  -20.4086    1400.6420   ✗       
+502   EEANQEAKPEEK             -1.0000     NotChecked  -20.4159    1400.6420   ✗       
+503   Q+0.984EAQQEAKPEEK       -1.0000     Failed      -20.4173    1414.6576   ✓       
+504   EEAQLQ+0.984AKPEEK       -1.0000     NotChecked  -20.4223    1399.6831   ✗       
+505   -17.027Q+0.984AQQEAKPEEK -1.0000     NotChecked  -20.4226    1268.5885   ✗       
+506   Q+0.984EAQQEAKPEEK       -1.0000     Failed      -20.4245    1414.6576   ✓       
+507   EDAQ+0.984QEAKPEEK       -1.0000     NotChecked  -20.4353    1401.6260   ✗       
+508   EAQQEAKPEEK              -1.0000     NotChecked  -20.4533    1285.6150   ✗       
+509   EEAQQEAKPQQ+0.984K       -1.0000     NotChecked  -20.4649    1413.6736   ✗       
+510   DQ+0.984AQQEAKPEEK       -1.0000     NotChecked  -20.4668    1400.6420   ✗       
+511   Q+0.984KAQQEAKPEEK       -1.0000     NotChecked  -20.4704    1413.7100   ✗       
+512   EEAQQEGKPEEK             -1.0000     NotChecked  -20.4749    1400.6420   ✗       
+513   EEAAQQ+0.984AKPEEK       -1.0000     NotChecked  -20.4932    1357.6361   ✗       
+514   EQ+0.984AQPEAKPEEK       -1.0000     NotChecked  -20.5416    1383.6518   ✗       
+515   Q+0.984EAQQEAKPEQK       -1.0000     NotChecked  -20.5499    1413.6736   ✗       
+516   EEAQQEAKEQ+0.984K        -1.0000     NotChecked  -20.5566    1317.6048   ✗       
+517   EEAQQEAAPEQ+0.984K       -1.0000     NotChecked  -20.5759    1357.5998   ✗       
+518   EDAQQEAKPQ+0.984EK       -1.0000     NotChecked  -20.5934    1400.6420   ✗       
+519   +43.006EAQQEAKPEEK       -1.0000     NotChecked  -20.6017    1328.6208   ✗       
+520   EEAQQ+0.984EAKPKEK       -1.0000     Failed      -20.6071    1414.6940   ✓       
+521   Q+0.984EAQQEAKPDEK       -1.0000     NotChecked  -20.6087    1400.6420   ✗       
+522   -17.027EAQ+0.984QEAKPEEK -1.0000     NotChecked  -20.6095    1269.5725   ✗       
+523   QEAQQEAKPEEK             -1.0000     NotChecked  -20.6473    1413.6736   ✗       
+524   EEAQQQ+0.984AKPEK        -1.0000     NotChecked  -20.6491    1285.6150   ✗       
+525   DEAQ+0.984QEAKPEEK       -1.0000     NotChecked  -20.6537    1401.6260   ✗       
+526   EEAQQEAKAEEK             -1.0000     NotChecked  -20.6597    1388.6420   ✗       
+527   EEAQQQAKPEQ+0.984K       -1.0000     NotChecked  -20.6745    1413.6736   ✗       
+528   EEAQQAKPEQ+0.984K        -1.0000     NotChecked  -20.7029    1285.6150   ✗       
+529   EEAQQEAKPEK              -1.0000     NotChecked  -20.7037    1285.6150   ✗       
+530   EEAQQEKPEQ+0.984K        -1.0000     NotChecked  -20.7069    1343.6205   ✗       
+531   EEAQ+0.984PEAKPEEK       -1.0000     NotChecked  -20.7285    1384.6358   ✗       
+532   EEAQQLAKPEQ+0.984K       -1.0000     NotChecked  -20.7300    1398.6991   ✗       
+533   Q+0.984EAQQEAKPEEK       -1.0000     Failed      -20.7473    1414.6576   ✓       
+534   Q+0.984EAQQQ+0.984AKPEEK -1.0000     Failed      -20.7496    1414.6576   ✓       
+535   -17.027EAQQEAKPQ+0.984EK -1.0000     NotChecked  -20.7676    1268.5885   ✗       
+536   Q+0.984EAQQKAKPEEK       -1.0000     NotChecked  -20.7728    1413.7100   ✗       
+537   EEAQQEAKPLEK             -1.0000     NotChecked  -20.7844    1398.6991   ✗       
+538   EAQQEAKPEEK              -1.0000     NotChecked  -20.7880    1285.6150   ✗       
+539   DEAQQEAKPQ+0.984EK       -1.0000     NotChecked  -20.8118    1400.6420   ✗       
+540   EAQ+0.984QEAKPEEK        -1.0000     NotChecked  -20.8152    1286.5990   ✗       
+541   EEAQQQ+0.984AKPEPK       -1.0000     NotChecked  -20.8366    1382.6678   ✗       
+542   KEAQQEAKPEEK             -1.0000     NotChecked  -20.8483    1413.7100   ✗       
+543   Q+0.984EAQQAAKPEEK       -1.0000     NotChecked  -20.8507    1356.6521   ✗       
+544   EEAQQQ+0.984AKPEGK       -1.0000     NotChecked  -20.8568    1342.6365   ✗       
+545   Q+0.984EAQQDAKPEEK       -1.0000     NotChecked  -20.8654    1400.6420   ✗       
+546   +42.011EAQQQ+0.984AKPEQ+0.984K-1.0000     NotChecked  -20.8701    1327.6256   ✗       
+547   EQ+0.984AQQEAKPQ+0.984EK -1.0000     Failed      -20.8796    1414.6576   ✓       
+548   EEAQPEAKPQ+0.984EK       -1.0000     NotChecked  -20.8866    1383.6518   ✗       
+549   EDAQQEAKPEEK             -1.0000     NotChecked  -20.8911    1400.6420   ✗       
+550   +43.006EAQQQ+0.984AKPEEK -1.0000     NotChecked  -20.9023    1328.6208   ✗       
+551   EEAQQ+0.984AKPEEK        -1.0000     NotChecked  -20.9104    1286.5990   ✗       
+552   EEAQQQ+0.984ALPEEK       -1.0000     NotChecked  -20.9298    1399.6467   ✗       
+553   EEAQQEAKGEQ+0.984K       -1.0000     NotChecked  -20.9435    1374.6263   ✗       
+554   EAQQEAKPQ+0.984EK        -1.0000     NotChecked  -20.9732    1285.6150   ✗       
+555   EEAQQQAKPEEK             -1.0000     NotChecked  -20.9910    1413.6736   ✗       
+556   Q+0.984EAQQEAKPEEK       -1.0000     Failed      -20.9946    1414.6576   ✓       
+557   ELAQQEAKPEQ+0.984K       -1.0000     NotChecked  -20.9950    1398.6991   ✗       
+558   EEAQQEAKPKEK             -1.0000     NotChecked  -21.0035    1413.7100   ✗       
+559   EQAQQEAKPEQ+0.984K       -1.0000     NotChecked  -21.0078    1413.6736   ✗       
+560   EQ+0.984AQQEAKPEQK       -1.0000     NotChecked  -21.0168    1413.6736   ✗       
+561   EEGQQEAKPEEK             -1.0000     NotChecked  -21.0229    1400.6420   ✗       
+562   Q+0.984EAQAEAKPEEK       -1.0000     NotChecked  -21.0288    1357.6361   ✗       
+563   -17.027EAQQEAKPEEK       -1.0000     NotChecked  -21.0653    1268.5885   ✗       
+564   EEAQNQ+0.984AKPEEK       -1.0000     NotChecked  -21.0702    1400.6420   ✗       
+565   EQ+0.984AQQEAKPDEK       -1.0000     NotChecked  -21.0755    1400.6420   ✗       
+566   EAQQQ+0.984AKPEEK        -1.0000     NotChecked  -21.0886    1285.6150   ✗       
+567   EEAQQEAKPAQ+0.984K       -1.0000     NotChecked  -21.1082    1356.6521   ✗       
+568   DEAQQEAKPEEK             -1.0000     NotChecked  -21.1095    1400.6420   ✗       
+569   Q+0.984EAQQEAKPQEK       -1.0000     NotChecked  -21.1114    1413.6736   ✗       
+570   +42.011Q+0.984AQQEAKPEEK -1.0000     NotChecked  -21.1181    1327.6256   ✗       
+571   EEAQLEAKPEQ+0.984K       -1.0000     NotChecked  -21.1247    1399.6831   ✗       
+572   KEAQQQ+0.984AKPEEK       -1.0000     NotChecked  -21.1489    1413.7100   ✗       
+573   Q+0.984EAQQEAKPEEK       -1.0000     Failed      -21.1543    1414.6576   ✓       
+574   EEAQQQ+0.984AKPEAK       -1.0000     NotChecked  -21.1736    1356.6521   ✗       
+575   EEAQQQ+0.984AKPEK        -1.0000     NotChecked  -21.1784    1285.6150   ✗       
+576   EEAQPEAKPEEK             -1.0000     NotChecked  -21.1843    1383.6518   ✗       
+577   Q+0.984EAQQEAKPELK       -1.0000     NotChecked  -21.1906    1398.6991   ✗       
+578   EEAAQEAKPEQ+0.984K       -1.0000     NotChecked  -21.1955    1357.6361   ✗       
+579   QEAQQQ+0.984AKPEQ+0.984K -1.0000     NotChecked  -21.1961    1413.6736   ✗       
+580   Q+0.984EAQQEAKEEK        -1.0000     NotChecked  -21.2030    1317.6048   ✗       
+581   Q+0.984EAQQEAAPEEK       -1.0000     NotChecked  -21.2224    1357.5998   ✗       
+582   EAQQ+0.984EAKPEEK        -1.0000     NotChecked  -21.2349    1286.5990   ✗       
+583   EQ+0.984AQQKAKPEEK       -1.0000     NotChecked  -21.2396    1413.7100   ✗       
+584   EEAQQQ+0.984AKPQ+0.984Q+0.984K-1.0000     Failed      -21.2449    1414.6576   ✓       
+585   EEAQ+0.984QEAKPDEK       -1.0000     NotChecked  -21.2624    1401.6260   ✗       
+586   EAQQEAKPEEK              -1.0000     NotChecked  -21.2710    1285.6150   ✗       
+587   EEALQEAKPEEK             -1.0000     NotChecked  -21.2734    1399.6831   ✗       
+588   EEANQQ+0.984AKPEEK       -1.0000     NotChecked  -21.2812    1400.6420   ✗       
+589   EKAQQEAKPQ+0.984EK       -1.0000     NotChecked  -21.2822    1413.7100   ✗       
+590   EEAQQQ+0.984AKPKEK       -1.0000     NotChecked  -21.3041    1413.7100   ✗       
+591   +42.011EAQ+0.984QEAKPEEK -1.0000     NotChecked  -21.3050    1328.6096   ✗       
+592   Q+0.984EAQQEAKPEK        -1.0000     NotChecked  -21.3157    1285.6150   ✗       
+593   EQ+0.984AQQAAKPEEK       -1.0000     NotChecked  -21.3175    1356.6521   ✗       
+594   Q+0.984EAQQQAKPEEK       -1.0000     NotChecked  -21.3210    1413.6736   ✗       
+595   EQAQQEAKPEEK             -1.0000     NotChecked  -21.3244    1413.6736   ✗       
+596   EQ+0.984AQQDAKPEEK       -1.0000     NotChecked  -21.3322    1400.6420   ✗       
+597   EEAQQQ+0.984GKPEEK       -1.0000     NotChecked  -21.3402    1400.6420   ✗       
+598   Q+0.984EAQQAKPEEK        -1.0000     NotChecked  -21.3493    1285.6150   ✗       
+599   EEAQQEAKPQ+0.984K        -1.0000     NotChecked  -21.3514    1285.6150   ✗       
+600   Q+0.984EAQQEKPEEK        -1.0000     NotChecked  -21.3534    1343.6205   ✗       
+601   EEAQQEAKPQ+0.984QK       -1.0000     NotChecked  -21.3617    1413.6736   ✗       
+602   Q+0.984EAQQLAKPEEK       -1.0000     NotChecked  -21.3765    1398.6991   ✗       
+603   EEAQQEAVPEEK             -1.0000     NotChecked  -21.3854    1385.6311   ✗       
+604   EEAQQEAKPEE              -1.0000     NotChecked  -21.4192    1286.5626   ✗       
+605   EEAQQ+0.984EAKAEEK       -1.0000     NotChecked  -21.4413    1389.6260   ✗       
+606   QQ+0.984AQQEAKPEEK       -1.0000     NotChecked  -21.4441    1413.6736   ✗       
+607   +42.011EAQQEAKPQ+0.984EK -1.0000     NotChecked  -21.4631    1327.6256   ✗       
+608   EEAQQ+0.984EAKPEK        -1.0000     NotChecked  -21.4852    1286.5990   ✗       
+609   EQ+0.984AQAEAKPEEK       -1.0000     NotChecked  -21.4956    1357.6361   ✗       
+610   EEAQ+0.984QAAKPEEK       -1.0000     NotChecked  -21.5044    1357.6361   ✗       
+611   EEAQ+0.984QDAKPEEK       -1.0000     NotChecked  -21.5191    1401.6260   ✗       
+612   EEAQQPAKPEQ+0.984K       -1.0000     NotChecked  -21.5590    1382.6678   ✗       
+613   EEAQQ+0.984EAKPLEK       -1.0000     NotChecked  -21.5660    1399.6831   ✗       
+614   EQ+0.984AQQEAKPQEK       -1.0000     NotChecked  -21.5782    1413.6736   ✗       
+615   EKAQQEAKPEEK             -1.0000     NotChecked  -21.5800    1413.7100   ✗       
+616   EEAQQKAKPQ+0.984EK       -1.0000     NotChecked  -21.5846    1413.7100   ✗       
+617   Q+0.984EAQQEAKGEEK       -1.0000     NotChecked  -21.5899    1374.6263   ✗       
+618   +43.006EAQQEAKPEQ+0.984K -1.0000     NotChecked  -21.6047    1328.6208   ✗       
+619   EEAQEAKPEQ+0.984K        -1.0000     NotChecked  -21.6128    1286.5990   ✗       
+620   EEAPQEAKPEEK             -1.0000     NotChecked  -21.6221    1383.6518   ✗       
+621   EAQQEAKPEEK              -1.0000     NotChecked  -21.6313    1285.6150   ✗       
+622   EEAQQEALPEQ+0.984K       -1.0000     NotChecked  -21.6321    1399.6467   ✗       
+623   Q+0.984LAQQEAKPEEK       -1.0000     NotChecked  -21.6414    1398.6991   ✗       
+624   Q+0.984QAQQEAKPEEK       -1.0000     NotChecked  -21.6543    1413.6736   ✗       
+625   EQ+0.984AQQEAKPELK       -1.0000     NotChecked  -21.6574    1398.6991   ✗       
+626   EEAQQEAKPEQK             -1.0000     NotChecked  -21.6595    1413.6736   ✗       
+627   EEAQQAAKPQ+0.984EK       -1.0000     NotChecked  -21.6625    1356.6521   ✗       
+628   EQ+0.984AQQEAKEEK        -1.0000     NotChecked  -21.6698    1317.6048   ✗       
+629   EDAQQ+0.984EAKPEEK       -1.0000     NotChecked  -21.6727    1401.6260   ✗       
+630   EEAQQDAKPQ+0.984EK       -1.0000     NotChecked  -21.6772    1400.6420   ✗       
+631   EEAQ+0.984AEAKPEEK       -1.0000     NotChecked  -21.6825    1358.6202   ✗       
+632   EQ+0.984AQQEAAPEEK       -1.0000     NotChecked  -21.6892    1357.5998   ✗       
+633   EEAQQEAKPDEK             -1.0000     NotChecked  -21.7182    1400.6420   ✗       
+634   Q+0.984EAQQEAKPAEK       -1.0000     NotChecked  -21.7547    1356.6521   ✗       
+635   Q+0.984EAQQEAKPEDK       -1.0000     NotChecked  -21.7574    1400.6420   ✗       
+636   +42.011EAQQQAKPEEK       -1.0000     NotChecked  -21.7580    1326.6416   ✗       
+637   +42.011EAQQEAKPEEK       -1.0000     NotChecked  -21.7608    1327.6256   ✗       
+638   Q+0.984EAQLEAKPEEK       -1.0000     NotChecked  -21.7711    1399.6831   ✗       
+639   EEAQNEAKPEQ+0.984K       -1.0000     NotChecked  -21.7726    1400.6420   ✗       
+640   EQ+0.984AQQEAKPEK        -1.0000     NotChecked  -21.7825    1285.6150   ✗       
+641   EQ+0.984AQQQAKPEEK       -1.0000     NotChecked  -21.7878    1413.6736   ✗       
+642   QEAQQEAKPQ+0.984EK       -1.0000     NotChecked  -21.7891    1413.6736   ✗       
+643   EAQQEAKPEQ+0.984K        -1.0000     NotChecked  -21.7910    1285.6150   ✗       
+644   EQ+0.984AQQAKPEEK        -1.0000     NotChecked  -21.8161    1285.6150   ✗       
+645   EQ+0.984AQQEKPEEK        -1.0000     NotChecked  -21.8202    1343.6205   ✗       
+646   EEAQQEAKAEEK             -1.0000     NotChecked  -21.8377    1388.6420   ✗       
+647   EEAQAEAKPQ+0.984EK       -1.0000     NotChecked  -21.8406    1357.6361   ✗       
+648   Q+0.984EAAQEAKPEEK       -1.0000     NotChecked  -21.8420    1357.6361   ✗       
+649   EQ+0.984AQQLAKPEEK       -1.0000     NotChecked  -21.8433    1398.6991   ✗       
+650   EEQQQ+0.984AKPEEK        -1.0000     NotChecked  -21.8435    1343.6205   ✗       
+651   EEAQ+0.984QEAKPELK       -1.0000     NotChecked  -21.8443    1399.6831   ✗       
+652   -17.027EAQQ+0.984EAKPEEK -1.0000     NotChecked  -21.8469    1269.5725   ✗       
+653   KEAQQEAKPEQ+0.984K       -1.0000     NotChecked  -21.8513    1413.7100   ✗       
+654   EEAQ+0.984QEAKEEK        -1.0000     NotChecked  -21.8567    1318.5889   ✗       
+655   EQAQQQ+0.984AKPEQ+0.984K -1.0000     NotChecked  -21.8731    1413.6736   ✗       
+656   EEAQ+0.984QEAAPEEK       -1.0000     NotChecked  -21.8761    1358.5838   ✗       
+657   EEAQQEAKPEK              -1.0000     NotChecked  -21.8816    1285.6150   ✗       
+658   EEAQQKAKPEEK             -1.0000     NotChecked  -21.8823    1413.7100   ✗       
+659   Q+0.984EAQQEAKPEEK       -1.0000     Failed      -21.8834    1414.6576   ✓       
+660   Q+0.984EAQQEAKPEEK       -1.0000     Failed      -21.8884    1414.6576   ✓       
+661   DEAQQ+0.984EAKPEEK       -1.0000     NotChecked  -21.8910    1401.6260   ✗       
+662   +43.006EAQQEAKPEEK       -1.0000     NotChecked  -21.9212    1328.6208   ✗       
+663   EAQQQ+0.984AKPEEK        -1.0000     NotChecked  -21.9319    1285.6150   ✗       
+664   EEAQQAAKPEEK             -1.0000     NotChecked  -21.9602    1356.6521   ✗       
+665   EEAQQEAKPLEK             -1.0000     NotChecked  -21.9624    1398.6991   ✗       
+666   EEAQ+0.984QEAKPEK        -1.0000     NotChecked  -21.9694    1286.5990   ✗       
+667   EEAQQDAKPEEK             -1.0000     NotChecked  -21.9749    1400.6420   ✗       
+668   +42.011Q+0.984AQQQ+0.984AKPEEK-1.0000     NotChecked  -21.9834    1327.6256   ✗       
+669   EEANQEAKPEQ+0.984K       -1.0000     NotChecked  -21.9835    1400.6420   ✗       
+670   Q+0.984EAQQEAKPEK        -1.0000     NotChecked  -21.9978    1285.6150   ✗       
+671   EEAQQEAKPQ+0.984LK       -1.0000     NotChecked  -22.0024    1398.6991   ✗       
+672   EEAQ+0.984QAKPEEK        -1.0000     NotChecked  -22.0030    1286.5990   ✗       
+673   EEAQQEAKPKQ+0.984K       -1.0000     NotChecked  -22.0065    1413.7100   ✗       
+674   EEAQ+0.984QEKPEEK        -1.0000     NotChecked  -22.0071    1344.6045   ✗       
+675   EEAQQEAKQ+0.984EK        -1.0000     NotChecked  -22.0148    1317.6048   ✗       
+676   EEAQ+0.984QLAKPEEK       -1.0000     NotChecked  -22.0302    1399.6831   ✗       
+677   EEAQQEAAPQ+0.984EK       -1.0000     NotChecked  -22.0342    1357.5998   ✗       
+678   EEAQQEGKPEQ+0.984K       -1.0000     NotChecked  -22.0426    1400.6420   ✗       
+679   EAQQ+0.984EAKPEEK        -1.0000     NotChecked  -22.0525    1286.5990   ✗       
+680   EQ+0.984AQQEAKGEEK       -1.0000     NotChecked  -22.0567    1374.6263   ✗       
+681   QEAQQQAKPEEK             -1.0000     NotChecked  -22.0840    1412.6896   ✗       
+682   QEAQQEAKPEEK             -1.0000     NotChecked  -22.0868    1413.6736   ✗       
+683   +42.011QAQQEAKPEEK       -1.0000     NotChecked  -22.0913    1326.6416   ✗       
+684   +42.011EAQQEAQPEEK       -1.0000     NotChecked  -22.1403    1327.5892   ✗       
+685   KEAQQEAKPEEK             -1.0000     NotChecked  -22.1678    1413.7100   ✗       
+686   +42.011EAQ+0.984QQ+0.984AKPEEK-1.0000     NotChecked  -22.1703    1328.6096   ✗       
+687   Q+0.984EAQQEAKPEPK       -1.0000     NotChecked  -22.1853    1382.6678   ✗       
+688   Q+0.984EAQQQ+0.984AKPEEK -1.0000     Failed      -22.1890    1414.6576   ✓       
+689   Q+0.984EAQQPAKPEEK       -1.0000     NotChecked  -22.2054    1382.6678   ✗       
+690   Q+0.984EAQQEAKPEGK       -1.0000     NotChecked  -22.2056    1342.6365   ✗       
+691   -17.027EAQQEAKPEEK       -1.0000     NotChecked  -22.2433    1268.5885   ✗       
+692   Q+0.984EAQEAKPEEK        -1.0000     NotChecked  -22.2592    1286.5990   ✗       
+693   Q+0.984EAQQEAKPEEK       -1.0000     Failed      -22.2709    1414.6576   ✓       
+694   Q+0.984EAQQEALPEEK       -1.0000     NotChecked  -22.2786    1399.6467   ✗       
+695   DEAQQEAKPEEK             -1.0000     NotChecked  -22.2874    1400.6420   ✗       
+696   QQ+0.984AQQQ+0.984AKPEEK -1.0000     NotChecked  -22.3094    1413.6736   ✗       
+697   +42.011EARQEAKPEEK       -1.0000     NotChecked  -22.3104    1355.6681   ✗       
+698   +42.011EAQQQ+0.984AKPQ+0.984EK-1.0000     NotChecked  -22.3284    1327.6256   ✗       
+699   QQAQQEAKPEEK             -1.0000     NotChecked  -22.4173    1412.6896   ✗       
+700   Q+0.984EAQNEAKPEEK       -1.0000     NotChecked  -22.4190    1400.6420   ✗       
+701   Q+0.984EAQQEAKPEEK       -1.0000     Failed      -22.4374    1414.6576   ✓       
+702   QEAQQEAQPEEK             -1.0000     NotChecked  -22.4663    1413.6372   ✗       
+703   +43.006EAQQQ+0.984AKPEQ+0.984K-1.0000     NotChecked  -22.4700    1328.6208   ✗       
+704   +42.011EAQEEAKPEEK       -1.0000     NotChecked  -22.4796    1328.6096   ✗       
+705   Q+0.984QAQQQ+0.984AKPEEK -1.0000     NotChecked  -22.5196    1413.6736   ✗       
+706   Q+0.984EAQQEAKPEAK       -1.0000     NotChecked  -22.5224    1356.6521   ✗       
+707   Q+0.984EAQQEAKPEK        -1.0000     NotChecked  -22.5272    1285.6150   ✗       
+708   +42.011EAQQ+0.984EAKPEEK -1.0000     NotChecked  -22.5423    1328.6096   ✗       
+709   -17.027EAQQQ+0.984AKPEEK -1.0000     NotChecked  -22.5439    1268.5885   ✗       
+710   DEAQQQ+0.984AKPEEK       -1.0000     NotChecked  -22.5881    1400.6420   ✗       
+711   +42.011EAQQQ+0.984AKPEEK -1.0000     NotChecked  -22.6261    1327.6256   ✗       
+712   Q+0.984EANQEAKPEEK       -1.0000     NotChecked  -22.6300    1400.6420   ✗       
+713   EAQQEAKPEQ+0.984K        -1.0000     NotChecked  -22.6342    1285.6150   ✗       
+714   Q+0.984EAQQEAKPKEK       -1.0000     NotChecked  -22.6529    1413.7100   ✗       
+715   QEAQQQ+0.984AKPQ+0.984EK -1.0000     NotChecked  -22.6543    1413.6736   ✗       
+716   +42.011Q+0.984AQQEAKPEQ+0.984K-1.0000     NotChecked  -22.6857    1327.6256   ✗       
+717   Q+0.984EAQQEGKPEEK       -1.0000     NotChecked  -22.6890    1400.6420   ✗       
+718   KEAQQQ+0.984AKPEQ+0.984K -1.0000     NotChecked  -22.7165    1413.7100   ✗       
+719   +43.006Q+0.984AQQEAKPEEK -1.0000     NotChecked  -22.7179    1328.6208   ✗       
+720   QEAQQ+0.984EAKPEEK       -1.0000     Failed      -22.8683    1414.6576   ✓       
+721   +42.011EAQ+0.984QEAKPEQ+0.984K-1.0000     NotChecked  -22.8726    1328.6096   ✗       
+722   +42.011EAQQEAKPEEK       -1.0000     NotChecked  -22.8745    1327.6256   ✗       
+723   Q+0.984EAQQQAKPEQ+0.984K -1.0000     NotChecked  -22.8886    1413.6736   ✗       
+724   +43.006EAQ+0.984QEAKPEEK -1.0000     NotChecked  -22.9048    1329.6048   ✗       
+725   +42.011EAQQEAKPEEK       -1.0000     NotChecked  -22.9387    1327.6256   ✗       
+726   EAQQEAKPEEK              -1.0000     NotChecked  -22.9508    1285.6150   ✗       
+727   QEAQQQ+0.984AKPEEK       -1.0000     NotChecked  -22.9521    1413.6736   ✗       
+728   KQ+0.984AQQEAKPEEK       -1.0000     NotChecked  -22.9645    1413.7100   ✗       
+729   +42.011EAQQEARPEEK       -1.0000     NotChecked  -22.9715    1355.6317   ✗       
+730   QQ+0.984AQQEAKPEQ+0.984K -1.0000     NotChecked  -23.0117    1413.6736   ✗       
+731   +42.011EAQQEAKPQ+0.984Q+0.984K-1.0000     NotChecked  -23.0307    1327.6256   ✗       
+732   +43.006EAQQEAKPQ+0.984EK -1.0000     NotChecked  -23.0629    1328.6208   ✗       
+733   Q+0.984EAQQEAKPEEK       -1.0000     Failed      -23.0838    1414.6576   ✓       
+734   +42.011EAQQEAKPKEK       -1.0000     NotChecked  -23.0899    1326.6779   ✗       
+735   Q+0.984EQQEAKPEEK        -1.0000     NotChecked  -23.1923    1343.6205   ✗       
+736   QEAQQEAKPEEK             -1.0000     NotChecked  -23.2005    1413.6736   ✗       
+737   Q+0.984EAQQEAKPEEK       -1.0000     Failed      -23.2079    1414.6576   ✓       
+738   Q+0.984QAQQEAKPEQ+0.984K -1.0000     NotChecked  -23.2219    1413.6736   ✗       
+739   -17.027EAQQEAKPEQ+0.984K -1.0000     NotChecked  -23.2463    1268.5885   ✗       
+740   QEAQQEAKPEEK             -1.0000     NotChecked  -23.2647    1413.6736   ✗       
+741   DEAQQEAKPEQ+0.984K       -1.0000     NotChecked  -23.2904    1400.6420   ✗       
+742   Q+0.984EAQQQ+0.984AKPEEK -1.0000     Failed      -23.3027    1414.6576   ✓       
+743   KEAQQEAKPQ+0.984EK       -1.0000     NotChecked  -23.3095    1413.7100   ✗       
+744   +42.011EAQQEAKPEQ+0.984K -1.0000     NotChecked  -23.3284    1327.6256   ✗       
+745   Q+0.984EAQKEAKPEEK       -1.0000     Failed      -23.3458    1414.6940   ✓       
+746   QEAQQEAKPQ+0.984Q+0.984K -1.0000     NotChecked  -23.3567    1413.6736   ✗       
+747   +43.006EAQQQAKPEEK       -1.0000     NotChecked  -23.3578    1327.6368   ✗       
+748   +43.006EAQQEAKPEEK       -1.0000     NotChecked  -23.3606    1328.6208   ✗       
+749   Q+0.984EAQQQ+0.984AKPEEK -1.0000     Failed      -23.3670    1414.6576   ✓       
+750   +42.011EAQQ+0.984Q+0.984AKPEEK-1.0000     NotChecked  -23.4076    1328.6096   ✗       
+751   QEAQQEAKPKEK             -1.0000     NotChecked  -23.4159    1412.7260   ✗       
+752   Q+0.984EAQQQ+0.984AKPQ+0.984Q+0.984K-1.0000     Failed      -23.4590    1414.6576   ✓       
+753   Q+0.984EAQQEAKAEEK       -1.0000     NotChecked  -23.4871    1388.6420   ✗       
+754   Q+0.984EALQEAKPEEK       -1.0000     NotChecked  -23.4874    1399.6831   ✗       
+755   EAQQQ+0.984AKPEQ+0.984K  -1.0000     NotChecked  -23.4995    1285.6150   ✗       
+756   Q+0.984EAQQQ+0.984AKPKEK -1.0000     NotChecked  -23.5182    1413.7100   ✗       
+757   +42.011EAQQEAKPEEK       -1.0000     NotChecked  -23.5208    1327.6256   ✗       
+758   Q+0.984EAQQEAKPEK        -1.0000     NotChecked  -23.5310    1285.6150   ✗       
+759   -17.027EAQQEAKPEEK       -1.0000     NotChecked  -23.5628    1268.5885   ✗       
+760   +43.006Q+0.984AQQQ+0.984AKPEEK-1.0000     NotChecked  -23.5832    1328.6208   ✗       
+761   Q+0.984EAQQEAVPEEK       -1.0000     NotChecked  -23.5994    1385.6311   ✗       
+762   KEAQQQAKPEEK             -1.0000     NotChecked  -23.6044    1412.7260   ✗       
+763   DEAQQEAKPEEK             -1.0000     NotChecked  -23.6069    1400.6420   ✗       
+764   KEAQQEAKPEEK             -1.0000     NotChecked  -23.6072    1413.7100   ✗       
+765   Q+0.984EAQQEAKPLEK       -1.0000     NotChecked  -23.6118    1398.6991   ✗       
+766   +42.011EAQQEAKPEEK       -1.0000     NotChecked  -23.6293    1327.6256   ✗       
+767   Q+0.984EAQQEAKPEE        -1.0000     NotChecked  -23.6333    1286.5626   ✗       
+768   QEAQQEAKPEQ+0.984K       -1.0000     NotChecked  -23.6544    1413.6736   ✗       
+769   +42.011EAQREAKPEEK       -1.0000     NotChecked  -23.6652    1355.6681   ✗       
+770   +42.011EAKQEAKPEEK       -1.0000     NotChecked  -23.6839    1327.6620   ✗       
+771   +43.006QAQQEAKPEEK       -1.0000     NotChecked  -23.6912    1327.6368   ✗       
+772   Q+0.984DAQQEAKPEEK       -1.0000     NotChecked  -23.7185    1400.6420   ✗       
+773   +43.006EAQQEAQPEEK       -1.0000     NotChecked  -23.7401    1328.5844   ✗       
+774   Q+0.984AQQEAKPEEK        -1.0000     NotChecked  -23.7475    1285.6150   ✗       
+775   Q+0.984EAQQEAKPEEK       -1.0000     Failed      -23.7585    1414.6576   ✓       
+776   +43.006EAQ+0.984QQ+0.984AKPEEK-1.0000     NotChecked  -23.7701    1329.6048   ✗       
+777   +42.011EAQKEAKPEEK       -1.0000     NotChecked  -23.7829    1327.6620   ✗       
+778   +42.011EAQQQ+0.984AKPEEK -1.0000     NotChecked  -23.8040    1327.6256   ✗       
+779   KQ+0.984AQQQ+0.984AKPEEK -1.0000     NotChecked  -23.8298    1413.7100   ✗       
+780   Q+0.984EAPQEAKPEEK       -1.0000     NotChecked  -23.8362    1383.6518   ✗       
+781   QEAQQEAKPEEK             -1.0000     NotChecked  -23.8468    1413.6736   ✗       
+782   +43.006EARQEAKPEEK       -1.0000     NotChecked  -23.9103    1356.6634   ✗       
+783   +42.011EAQQEAKAEEK       -1.0000     NotChecked  -23.9241    1301.6099   ✗       
+784   +43.006EAQQQ+0.984AKPQ+0.984EK-1.0000     NotChecked  -23.9282    1328.6208   ✗       
+785   EAQ+0.984QEAKPEEK        -1.0000     NotChecked  -23.9344    1286.5990   ✗       
+786   KQAQQEAKPEEK             -1.0000     NotChecked  -23.9377    1412.7260   ✗       
+787   Q+0.984EAQQQ+0.984AKPEEK -1.0000     Failed      -23.9491    1414.6576   ✓       
+788   QEAQQEAKPEEK             -1.0000     NotChecked  -23.9553    1413.6736   ✗       
+789   +42.011EAQQEAKPEK        -1.0000     NotChecked  -23.9681    1198.5830   ✗       
+790   +42.011Q+0.984AQ+0.984QEAKPEEK-1.0000     NotChecked  -23.9859    1328.6096   ✗       
+791   KEAQQEAQPEEK             -1.0000     NotChecked  -23.9867    1413.6736   ✗       
+792   Q+0.984Q+0.984AQQQAKPEEK -1.0000     NotChecked  -24.0019    1413.6736   ✗       
+793   QEAKQEAKPEEK             -1.0000     NotChecked  -24.0099    1413.7100   ✗       
+794   Q+0.984EAQPEAKPEEK       -1.0000     NotChecked  -24.0117    1383.6518   ✗       
+795   +42.011EAQQEAEPEEK       -1.0000     NotChecked  -24.0216    1328.5732   ✗       
+796   +42.011EAQQEAKPLEK       -1.0000     NotChecked  -24.0488    1311.6670   ✗       
+797   Q+0.984EAQQQ+0.984AKPEEK -1.0000     Failed      -24.0576    1414.6576   ✓       
+798   +43.006EAQEEAKPEEK       -1.0000     NotChecked  -24.0795    1329.6048   ✗       
+799   EAQQEAKPQ+0.984EK        -1.0000     NotChecked  -24.0925    1285.6150   ✗       
+800   Q+0.984AQQEAKPEEK        -1.0000     NotChecked  -24.0983    1285.6150   ✗       
+801   QEAQKEAKPEEK             -1.0000     NotChecked  -24.1088    1413.7100   ✗       
+802   +42.011EAQQ+0.984EAKPEQ+0.984K-1.0000     NotChecked  -24.1100    1328.6096   ✗       
+803   -17.027EAQQQ+0.984AKPEQ+0.984K-1.0000     NotChecked  -24.1115    1268.5885   ✗       
+804   Q+0.984EAKQQ+0.984AKPEEK -1.0000     Failed      -24.1122    1414.6940   ✓       
+805   QEAQQQ+0.984AKPEEK       -1.0000     NotChecked  -24.1300    1413.6736   ✗       
+806   +43.006EAQQ+0.984EAKPEEK -1.0000     NotChecked  -24.1422    1329.6048   ✗       
+807   +42.011Q+0.984AQQEAKPQ+0.984EK-1.0000     NotChecked  -24.1440    1327.6256   ✗       
+808   +42.011DAQQEAKPEEK       -1.0000     NotChecked  -24.1555    1313.6099   ✗       
+809   DEAQQQ+0.984AKPEQ+0.984K -1.0000     NotChecked  -24.1557    1400.6420   ✗       
+810   KEAQQQ+0.984AKPQ+0.984EK -1.0000     NotChecked  -24.1748    1413.7100   ✗       
+811   +42.011EAQQEAKPEEK       -1.0000     NotChecked  -24.1956    1327.6256   ✗       
+812   Q+0.984EAQQEAKPKQ+0.984K -1.0000     NotChecked  -24.2205    1413.7100   ✗       
+813   +43.006EAQQQ+0.984AKPEEK -1.0000     NotChecked  -24.2259    1328.6208   ✗       
+814   QEAQQEAKAEEK             -1.0000     NotChecked  -24.2501    1387.6579   ✗       
+815   +42.011EAQQEAKPEEK       -1.0000     NotChecked  -24.2582    1327.6256   ✗       
+816   +43.006Q+0.984AQQEAKPEQ+0.984K-1.0000     NotChecked  -24.2856    1328.6208   ✗       
+817   QEAQQEAKPEK              -1.0000     NotChecked  -24.2941    1284.6310   ✗       
+818   +42.011EAQ+0.984QEAKPQ+0.984EK-1.0000     NotChecked  -24.3309    1328.6096   ✗       
+819   Q+0.984EAQQQAKPQ+0.984EK -1.0000     NotChecked  -24.3468    1413.6736   ✗       
+820   Q+0.984EAQQQ+0.984AKAEEK -1.0000     NotChecked  -24.3524    1388.6420   ✗       
+821   Q+0.984EAQQEAKPEEK       -1.0000     Failed      -24.3542    1414.6576   ✓       
+822   -17.027Q+0.984AQQEAKPEEK -1.0000     NotChecked  -24.3595    1268.5885   ✗       
+823   Q+0.984EAQQEAKPEEK       -1.0000     Failed      -24.3614    1414.6576   ✓       
+824   QEAQQEAKPLEK             -1.0000     NotChecked  -24.3748    1397.7151   ✗       
+825   Q+0.984EAQQEAKPEEK       -1.0000     Failed      -24.3859    1414.6576   ✓       
+826   EAQQQAKPEEK              -1.0000     NotChecked  -24.3874    1284.6310   ✗       
+827   EAQQEAKPEEK              -1.0000     NotChecked  -24.3902    1285.6150   ✗       
+828   Q+0.984EAQQQ+0.984AKPEK  -1.0000     NotChecked  -24.3963    1285.6150   ✗       
+829   DQ+0.984AQQEAKPEEK       -1.0000     NotChecked  -24.4037    1400.6420   ✗       
+830   Q+0.984KAQQEAKPEEK       -1.0000     NotChecked  -24.4073    1413.7100   ✗       
+831   +42.011Q+0.984AQQEAKPEEK -1.0000     NotChecked  -24.4417    1327.6256   ✗       
+832   +42.011EAQPEAKPEEK       -1.0000     NotChecked  -24.4487    1296.6198   ✗       
+833   QQ+0.984AQQEAKPQ+0.984EK -1.0000     NotChecked  -24.4700    1413.6736   ✗       
+834   +43.006EAQ+0.984QEAKPEQ+0.984K-1.0000     NotChecked  -24.4725    1329.6048   ✗       
+835   KEAQQQ+0.984AKPEEK       -1.0000     NotChecked  -24.4725    1413.7100   ✗       
+836   +43.006EAQQEAKPEEK       -1.0000     NotChecked  -24.4743    1328.6208   ✗       
+837   Q+0.984EAQQQ+0.984AKPLEK -1.0000     NotChecked  -24.4770    1398.6991   ✗       
+838   QDAQQEAKPEEK             -1.0000     NotChecked  -24.4815    1399.6579   ✗       
+839   Q+0.984EAQQEAKPEQK       -1.0000     NotChecked  -24.4868    1413.6736   ✗       
+840   +42.011EAQQEAKPEQ+0.984K -1.0000     NotChecked  -24.5064    1327.6256   ✗       
+841   QEAQQEAKPEEK             -1.0000     NotChecked  -24.5215    1413.6736   ✗       
+842   KQ+0.984AQQEAKPEQ+0.984K -1.0000     NotChecked  -24.5322    1413.7100   ✗       
+843   +42.011AQQEAKPEEK        -1.0000     NotChecked  -24.5354    1198.5830   ✗       
+844   +43.006EAQQEAKPEEK       -1.0000     NotChecked  -24.5386    1328.6208   ✗       
+845   Q+0.984EAQQEAKPDEK       -1.0000     NotChecked  -24.5455    1400.6420   ✗       
+846   -17.027EAQ+0.984QEAKPEEK -1.0000     NotChecked  -24.5464    1269.5725   ✗       
+847   +43.006EAQQEARPEEK       -1.0000     NotChecked  -24.5713    1356.6270   ✗       
+848   Q+0.984DAQQQ+0.984AKPEEK -1.0000     NotChecked  -24.5838    1400.6420   ✗       
+849   QEAQQEAKPEEK             -1.0000     NotChecked  -24.5842    1413.6736   ✗       
+850   DEAQ+0.984QEAKPEEK       -1.0000     NotChecked  -24.5906    1401.6260   ✗       
+851   Q+0.984AQQQ+0.984AKPEEK  -1.0000     NotChecked  -24.6128    1285.6150   ✗       
+852   Q+0.984EAQQQ+0.984AKPEEK -1.0000     Failed      -24.6238    1414.6576   ✓       
+853   +42.011EAQ+0.984QEAKPEEK -1.0000     NotChecked  -24.6286    1328.6096   ✗       
+854   +43.006EAQQEAKPQ+0.984Q+0.984K-1.0000     NotChecked  -24.6306    1328.6208   ✗       
+855   +42.011EAEQEAKPEEK       -1.0000     NotChecked  -24.6384    1328.6096   ✗       
+856   +42.011EAQQEAKPWEK       -1.0000     NotChecked  -24.6395    1384.6623   ✗       
+857   Q+0.984EAQQQAKPEEK       -1.0000     NotChecked  -24.6446    1413.6736   ✗       
+858   Q+0.984EAQQEAKPEEK       -1.0000     Failed      -24.6543    1414.6576   ✓       
+859   Q+0.984QAQQEAKPQ+0.984EK -1.0000     NotChecked  -24.6802    1413.6736   ✗       
+860   Q+0.984EAQQEAKPEEK       -1.0000     Failed      -24.6842    1414.6576   ✓       
+861   Q+0.984EAQQQ+0.984AKPEEK -1.0000     Failed      -24.6865    1414.6576   ✓       
+862   +43.006EAQQEAKPKEK       -1.0000     NotChecked  -24.6898    1327.6732   ✗       
+863   +42.011AEAQQEAKPEEK      -1.0000     NotChecked  -24.6952    1398.6627   ✗       
+864   -17.027EAQQEAKPQ+0.984EK -1.0000     NotChecked  -24.7045    1268.5885   ✗       
+865   Q+0.984EAQQKAKPEEK       -1.0000     NotChecked  -24.7096    1413.7100   ✗       
+866   QAQQEAKPEEK              -1.0000     NotChecked  -24.7207    1284.6310   ✗       
+867   KEAQQEAKPEEK             -1.0000     NotChecked  -24.7209    1413.7100   ✗       
+868   DEAQQEAKPQ+0.984EK       -1.0000     NotChecked  -24.7486    1400.6420   ✗       
+869   QQ+0.984AQQEAKPEEK       -1.0000     NotChecked  -24.7677    1413.6736   ✗       
+870   EAQQEAQPEEK              -1.0000     NotChecked  -24.7697    1285.5786   ✗       
+871   QEAQPEAKPEEK             -1.0000     NotChecked  -24.7747    1382.6678   ✗       
+872   KEAQQEAKPEEK             -1.0000     NotChecked  -24.7852    1413.7100   ✗       
+873   +42.011EAQQEAKPQ+0.984EK -1.0000     NotChecked  -24.7867    1327.6256   ✗       
+874   Q+0.984EAQQAAKPEEK       -1.0000     NotChecked  -24.7876    1356.6521   ✗       
+875   +42.011EAQQEAKPEEK       -1.0000     NotChecked  -24.7913    1327.6256   ✗       
+876   +42.011EAQQEAKPEEK       -1.0000     NotChecked  -24.7984    1327.6256   ✗       
+877   EAQ+0.984QQ+0.984AKPEEK  -1.0000     NotChecked  -24.7997    1286.5990   ✗       
+878   Q+0.984EAQQDAKPEEK       -1.0000     NotChecked  -24.8022    1400.6420   ✗       
+879   +42.011EAQQQ+0.984AKPEQ+0.984K-1.0000     NotChecked  -24.8070    1327.6256   ✗       
+880   QEAQQEAKPEQ+0.984K       -1.0000     NotChecked  -24.8324    1413.6736   ✗       
+881   +42.011KAQQEAKPEEK       -1.0000     NotChecked  -24.8443    1326.6779   ✗       
+882   QAQQEAKPEEK              -1.0000     NotChecked  -24.8613    1284.6310   ✗       
+883   Q+0.984EAQPQ+0.984AKPEEK -1.0000     NotChecked  -24.8770    1383.6518   ✗       
+884   KEAQQEAKPQ+0.984Q+0.984K -1.0000     NotChecked  -24.8771    1413.7100   ✗       
+885   +42.011EAQQEAKPEQK       -1.0000     NotChecked  -24.9238    1326.6416   ✗       
+886   +43.006EAQQEAKPEQ+0.984K -1.0000     NotChecked  -24.9283    1328.6208   ✗       
+887   Q+0.984EAQQEAKPEEK       -1.0000     Failed      -24.9314    1414.6576   ✓       
+888   KEAQQEAKPKEK             -1.0000     NotChecked  -24.9364    1412.7623   ✗       
+889   EARQEAKPEEK              -1.0000     NotChecked  -24.9398    1313.6575   ✗       
+890   EAQQQ+0.984AKPQ+0.984EK  -1.0000     NotChecked  -24.9578    1285.6150   ✗       
+891   Q+0.984AQQQ+0.984AKPEEK  -1.0000     NotChecked  -24.9636    1285.6150   ✗       
+892   +42.011EAQQEEKPEEK       -1.0000     NotChecked  -24.9655    1385.6311   ✗       
+893   Q+0.984EAQAEAKPEEK       -1.0000     NotChecked  -24.9657    1357.6361   ✗       
+894   Q+0.984QAQQEAKPEEK       -1.0000     NotChecked  -24.9779    1413.6736   ✗       
+895   +42.011EAQQEAKPDEK       -1.0000     NotChecked  -24.9826    1313.6099   ✗       
+896   -17.027EAQQQAKPEEK       -1.0000     NotChecked  -24.9994    1267.6044   ✗       
+897   -17.027EAQQEAKPEEK       -1.0000     NotChecked  -25.0022    1268.5885   ✗       
+898   +43.006EAQQ+0.984Q+0.984AKPEEK-1.0000     NotChecked  -25.0075    1329.6048   ✗       
+899   DEAQQQAKPEEK             -1.0000     NotChecked  -25.0436    1399.6579   ✗       
+900   DEAQQEAKPEEK             -1.0000     NotChecked  -25.0464    1400.6420   ✗       
+901   Q+0.984EAQQEAKPQEK       -1.0000     NotChecked  -25.0482    1413.6736   ✗       
+902   Q+0.984EAQQEAKAEQ+0.984K -1.0000     NotChecked  -25.0547    1388.6420   ✗       
+903   Q+0.984EAQQEAKPEEK       -1.0000     Failed      -25.0912    1414.6576   ✓       
+904   +42.011EAQQESKPEEK       -1.0000     NotChecked  -25.0947    1343.6205   ✗       
+905   EAQEEAKPEEK              -1.0000     NotChecked  -25.1091    1286.5990   ✗       
+906   QEAQQEAKPQ+0.984EK       -1.0000     NotChecked  -25.1127    1413.6736   ✗       
+907   QEAQQEAKPEEK             -1.0000     NotChecked  -25.1172    1413.6736   ✗       
+908   +43.006EAQQEAKPEEK       -1.0000     NotChecked  -25.1207    1328.6208   ✗       
+909   +42.011EAQQEAKPEEK       -1.0000     NotChecked  -25.1212    1327.6256   ✗       
+910   +42.011EAQQQ+0.984AKPEEK -1.0000     NotChecked  -25.1235    1327.6256   ✗       
+911   QEAQQEAKPEEK             -1.0000     NotChecked  -25.1244    1413.6736   ✗       
+912   Q+0.984EAQQEAKPELK       -1.0000     NotChecked  -25.1274    1398.6991   ✗       
+913   QEAQQQ+0.984AKPEQ+0.984K -1.0000     NotChecked  -25.1330    1413.6736   ✗       
+914   Q+0.984EAQQEAKEEK        -1.0000     NotChecked  -25.1399    1317.6048   ✗       
+915   +42.011EAQQKAKPEEK       -1.0000     NotChecked  -25.1467    1326.6779   ✗       
+916   Q+0.984EAQQEAAPEEK       -1.0000     NotChecked  -25.1592    1357.5998   ✗       
+917   QKAQQEAKPEEK             -1.0000     NotChecked  -25.1703    1412.7260   ✗       
+918   EAQQ+0.984EAKPEEK        -1.0000     NotChecked  -25.1718    1286.5990   ✗       
+919   KEAQQEAKPEQ+0.984K       -1.0000     NotChecked  -25.1749    1413.7100   ✗       
+920   Q+0.984EAQQEAKPLQ+0.984K -1.0000     NotChecked  -25.1794    1398.6991   ✗       
+921   Q+0.984EAQQEAKPEEL       -1.0000     NotChecked  -25.1804    1399.6467   ✗       
+922   +42.011Q+0.984AQQ+0.984EAKPEEK-1.0000     NotChecked  -25.2232    1328.6096   ✗       
+923   +42.011EAQQAAKPEEK       -1.0000     NotChecked  -25.2246    1269.6201   ✗       
+924   -17.027Q+0.984AQQQ+0.984AKPEEK-1.0000     NotChecked  -25.2248    1268.5885   ✗       
+925   Q+0.984EAQQQ+0.984AKPEEK -1.0000     Failed      -25.2267    1414.6576   ✓       
+926   +43.006EAQQEAKPEEK       -1.0000     NotChecked  -25.2291    1328.6208   ✗       
+927   +42.011EAQQDAKPEEK       -1.0000     NotChecked  -25.2393    1313.6099   ✗       
+928   QEAQQEAKPEQK             -1.0000     NotChecked  -25.2498    1412.6896   ✗       
+929   Q+0.984EAQQEAKPEK        -1.0000     NotChecked  -25.2526    1285.6150   ✗       
+930   EAQQQ+0.984AKPEEK        -1.0000     NotChecked  -25.2555    1285.6150   ✗       
+931   +43.006EAQREAKPEEK       -1.0000     NotChecked  -25.2650    1356.6634   ✗       
+932   DQ+0.984AQQQ+0.984AKPEEK -1.0000     NotChecked  -25.2690    1400.6420   ✗       
+933   Q+0.984KAQQQ+0.984AKPEEK -1.0000     NotChecked  -25.2726    1413.7100   ✗       
+934   Q+0.984EAQQEAKPEEK       -1.0000     Failed      -25.2757    1414.6576   ✓       
+935   QEAQQEAKPEEK             -1.0000     NotChecked  -25.2816    1413.6736   ✗       
+936   +43.006EAKQEAKPEEK       -1.0000     NotChecked  -25.2838    1328.6572   ✗       
+937   Q+0.984DAQQEAKPEQ+0.984K -1.0000     NotChecked  -25.2861    1400.6420   ✗       
+938   Q+0.984EAQQAKPEEK        -1.0000     NotChecked  -25.2862    1285.6150   ✗       
+939   Q+0.984EAQQEKPEEK        -1.0000     NotChecked  -25.2902    1343.6205   ✗       
+940   QEAQQEAKPDEK             -1.0000     NotChecked  -25.3086    1399.6579   ✗       
+941   Q+0.984EAQQEAKPEEP       -1.0000     NotChecked  -25.3088    1383.6154   ✗       
+942   Q+0.984EAQQLAKPEEK       -1.0000     NotChecked  -25.3134    1398.6991   ✗       
+943   Q+0.984AQQEAKPEQ+0.984K  -1.0000     NotChecked  -25.3152    1285.6150   ✗       
+944   -17.027QAQQEAKPEEK       -1.0000     NotChecked  -25.3327    1267.6044   ✗       
+945   Q+0.984Q+0.984AQQEAKPKEK -1.0000     NotChecked  -25.3338    1413.7100   ✗       
+946   +42.011EAQQELKPEEK       -1.0000     NotChecked  -25.3380    1369.6725   ✗       
+947   Q+0.984EAQQQ+0.984AKPEQK -1.0000     NotChecked  -25.3521    1413.6736   ✗       
+948   Q+0.984EAQQEAKPEEK       -1.0000     Failed      -25.3526    1414.6576   ✓       
+949   KEAQQEAKPEEK             -1.0000     NotChecked  -25.3672    1413.7100   ✗       
+950   +42.011EAQQEAKPEEK       -1.0000     NotChecked  -25.3685    1327.6256   ✗       
+951   DQAQQEAKPEEK             -1.0000     NotChecked  -25.3769    1399.6579   ✗       
+952   -17.027EAQQEAQPEEK       -1.0000     NotChecked  -25.3817    1268.5521   ✗       
+953   +43.006EAQKEAKPEEK       -1.0000     NotChecked  -25.3827    1328.6572   ✗       
+954   +42.011EAQQEAKLEEK       -1.0000     NotChecked  -25.3883    1343.6569   ✗       
+955   +42.011EAQAEAKPEEK       -1.0000     NotChecked  -25.4027    1270.6041   ✗       
+956   +43.006EAQQQ+0.984AKPEEK -1.0000     NotChecked  -25.4039    1328.6208   ✗       
+957   +42.011EAQ+0.984Q+0.984EAKPEEK-1.0000     NotChecked  -25.4101    1329.5936   ✗       
+958   Q+0.984EAQQQ+0.984AKPDEK -1.0000     NotChecked  -25.4108    1400.6420   ✗       
+959   -17.027EAQ+0.984QQ+0.984AKPEEK-1.0000     NotChecked  -25.4117    1269.5725   ✗       
+960   DEAQQEAQPEEK             -1.0000     NotChecked  -25.4259    1400.6056   ✗       
+961   QEAQQEAKPEEK             -1.0000     NotChecked  -25.4472    1413.6736   ✗       
+962   QEAQQQ+0.984AKPEEK       -1.0000     NotChecked  -25.4495    1413.6736   ✗       
+963   DEAQ+0.984QQ+0.984AKPEEK -1.0000     NotChecked  -25.4558    1401.6260   ✗       
+964   QEAQQKAKPEEK             -1.0000     NotChecked  -25.4727    1412.7260   ✗       
+965   KEAQQEAKPEEK             -1.0000     NotChecked  -25.4757    1413.7100   ✗       
+966   +42.011MAQQEAKPEEK       -1.0000     NotChecked  -25.4829    1329.6235   ✗       
+967   +42.011EAQQEAKPQEK       -1.0000     NotChecked  -25.4853    1326.6416   ✗       
+968   Q+0.984EAQQEAKPEEK       -1.0000     Failed      -25.4879    1414.6576   ✓       
+969   EAQ+0.984QEAKPEQ+0.984K  -1.0000     NotChecked  -25.5020    1286.5990   ✗       
+970   EAQQEAKPEEK              -1.0000     NotChecked  -25.5039    1285.6150   ✗       
+971   +43.006EAQQEAKAEEK       -1.0000     NotChecked  -25.5240    1302.6052   ✗       
+972   Q+0.984EAQQEAKGEEK       -1.0000     NotChecked  -25.5268    1374.6263   ✗       
+973   +42.011EAQQEAKPEEK       -1.0000     NotChecked  -25.5282    1327.6256   ✗       
+974   +42.011EAQQRAKPEEK       -1.0000     NotChecked  -25.5302    1354.6841   ✗       
+975   KEAKQEAKPEEK             -1.0000     NotChecked  -25.5304    1413.7464   ✗       
+976   +42.011GEAQQEAKPEEK      -1.0000     NotChecked  -25.5379    1384.6470   ✗       
+977   Q+0.984EAQQQ+0.984AKPEEK -1.0000     Failed      -25.5495    1414.6576   ✓       
+978   QEAQQAAKPEEK             -1.0000     NotChecked  -25.5506    1355.6681   ✗       
+979   -17.027EARQEAKPEEK       -1.0000     NotChecked  -25.5518    1296.6310   ✗       
+980   +42.011EAQQEAKPELK       -1.0000     NotChecked  -25.5645    1311.6670   ✗       
+981   QEAQQDAKPEEK             -1.0000     NotChecked  -25.5653    1399.6579   ✗       
+982   +43.006EAQQEAKPEK        -1.0000     NotChecked  -25.5679    1199.5782   ✗       
+983   EAQQEAKPEEK              -1.0000     NotChecked  -25.5682    1285.6150   ✗       
+984   +42.011EAQQ+0.984EAKPQ+0.984EK-1.0000     NotChecked  -25.5682    1328.6096   ✗       
+985   -17.027EAQQQ+0.984AKPQ+0.984EK-1.0000     NotChecked  -25.5698    1268.5885   ✗       
+986   +42.011EAQQEAKEEK        -1.0000     NotChecked  -25.5769    1230.5728   ✗       
+987   Q+0.984LAQQEAKPEEK       -1.0000     NotChecked  -25.5783    1398.6991   ✗       
+988   Q+0.984EAQPEAKPEQ+0.984K -1.0000     NotChecked  -25.5793    1383.6518   ✗       
+989   +43.006Q+0.984AQ+0.984QEAKPEEK-1.0000     NotChecked  -25.5857    1329.6048   ✗       
+990   +42.011EAQQEAAPEEK       -1.0000     NotChecked  -25.5963    1270.5677   ✗       
+991   EAQQEARPEEK              -1.0000     NotChecked  -25.6009    1313.6212   ✗       
+992   +42.011EAQQEAKPREK       -1.0000     NotChecked  -25.6103    1354.6841   ✗       
+993   DEAQQQ+0.984AKPQ+0.984EK -1.0000     NotChecked  -25.6139    1400.6420   ✗       
+994   +43.006EAQQEAEPEEK       -1.0000     NotChecked  -25.6215    1329.5685   ✗       
+995   KEAQKEAKPEEK             -1.0000     NotChecked  -25.6293    1413.7464   ✗       
+996   +43.006EAQQEAKPLEK       -1.0000     NotChecked  -25.6486    1312.6623   ✗       
+997   KEAQQQ+0.984AKPEEK       -1.0000     NotChecked  -25.6505    1413.7100   ✗       
+998   EAQQEAKPQ+0.984Q+0.984K  -1.0000     NotChecked  -25.6601    1285.6150   ✗       
+999   Q+0.984AQQEAKPEQ+0.984K  -1.0000     NotChecked  -25.6660    1285.6150   ✗       
+1000  +42.011EAQQEAKPEK        -1.0000     NotChecked  -25.6896    1198.5830   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: EEAQQEAKPEEK
+Similarity: 0.9427
+De Novo Score: -0.0386
+Source: Database
+Correct: ✓
+

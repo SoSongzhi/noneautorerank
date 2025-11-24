@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 18
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 482.9090
+Precursor charge: 3+
+Ground truth: FTTFDIGGHPQAR
+Ground truth (normalized): FTTFDIGGHPQAR
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 239
+Used for reranking: 239
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 239 (23.9%)
+Database matches: 147 (14.7%)
+Prosit predictions: 77 (7.7%)
+Failed: 15 (1.5%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.9061
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     FTTFDLGGHPQAR            0.9061      Database    -0.3130     1445.7051   ✓       ✓
+2     FTTFDLGGHPQAR            0.9061      Database    -1.4008     1445.7051   ✓       ✓
+3     FTTFDLGGHPQAR            0.9061      Database    -5.2253     1445.7051   ✓       ✓
+4     FTTFDLGGHPQAR            0.9061      Database    -6.3132     1445.7051   ✓       ✓
+5     FTTFDLGGHPQAR            0.9061      Database    -6.5665     1445.7051   ✓       ✓
+6     FTTFDLGGHPQAR            0.9061      Database    -7.5789     1445.7051   ✓       ✓
+7     FTTFDLGGHPQAR            0.9061      Database    -7.6543     1445.7051   ✓       ✓
+8     FTTFDLGGHPQAR            0.9061      Database    -7.8157     1445.7051   ✓       ✓
+9     FTTFDLGGHPQAR            0.9061      Database    -7.8758     1445.7051   ✓       ✓
+10    FTTFDLGGHPQAR            0.9061      Database    -8.6667     1445.7051   ✓       ✓
+11    FTTFDLGGHPQAR            0.9061      Database    -8.9035     1445.7051   ✓       ✓
+12    FTTFDLGGHPQAR            0.9061      Database    -8.9637     1445.7051   ✓       ✓
+13    FTTFDLGGHPQAR            0.9061      Database    -9.4395     1445.7051   ✓       ✓
+14    FTTFDLGGHPQAR            0.9061      Database    -10.2049    1445.7051   ✓       ✓
+15    FTTFDLGGHPQAR            0.9061      Database    -10.2125    1445.7051   ✓       ✓
+16    FTTFDLGGHPQAR            0.9061      Database    -10.9497    1445.7051   ✓       ✓
+17    FTTFDLGGHPQAR            0.9061      Database    -11.2927    1445.7051   ✓       ✓
+18    FTTFDLGGHPQAR            0.9061      Database    -11.3003    1445.7051   ✓       ✓
+19    FTTFDLGGHPQAR            0.9061      Database    -11.4788    1445.7051   ✓       ✓
+20    FTTFDLGGHPQAR            0.9061      Database    -11.5375    1445.7051   ✓       ✓
+21    FTTFDLGGHPQAR            0.9061      Database    -11.8694    1445.7051   ✓       ✓
+22    FTTFDLGGHPQAR            0.9061      Database    -12.0375    1445.7051   ✓       ✓
+23    FTTFDLGGHPQAR            0.9061      Database    -12.4913    1445.7051   ✓       ✓
+24    FTTFDLGGHPQAR            0.9061      Database    -12.5666    1445.7051   ✓       ✓
+25    FTTFDLGGHPQAR            0.9061      Database    -12.6254    1445.7051   ✓       ✓
+26    FTTFDLGGHPQAR            0.9061      Database    -12.6254    1445.7051   ✓       ✓
+27    FTTFDLGGHPQAR            0.9061      Database    -12.7280    1445.7051   ✓       ✓
+28    FTTFDLGGHPQAR            0.9061      Database    -12.7882    1445.7051   ✓       ✓
+29    FTTFDLGGHPQAR            0.9061      Database    -12.9572    1445.7051   ✓       ✓
+30    FTTFDLGGHPQAR            0.9061      Database    -13.5791    1445.7051   ✓       ✓
+31    FTTFDLGGHPQAR            0.9061      Database    -13.6678    1445.7051   ✓       ✓
+32    FTTFDLGGHPQAR            0.9061      Database    -13.8158    1445.7051   ✓       ✓
+33    FTTFDLGGHPQAR            0.9061      Database    -13.8324    1445.7051   ✓       ✓
+34    FTTFDLGGHPQAR            0.9061      Database    -13.8760    1445.7051   ✓       ✓
+35    FTTFDLGGHPQAR            0.9061      Database    -13.9093    1445.7051   ✓       ✓
+36    FTTFDLGGHPQAR            0.9061      Database    -13.9946    1445.7051   ✓       ✓
+37    FTTFDLGGHPQAR            0.9061      Database    -14.0692    1445.7051   ✓       ✓
+38    FTTFDLGGHPQAR            0.9061      Database    -14.1293    1445.7051   ✓       ✓
+39    FTTFDLGGHPQAR            0.9061      Database    -14.3519    1445.7051   ✓       ✓
+40    FTTFDLGGHPQAR            0.9061      Database    -14.7556    1445.7051   ✓       ✓
+41    FTTFDLGGHPQAR            0.9061      Database    -14.8410    1445.7051   ✓       ✓
+42    FTTFDLGGHPQAR            0.9061      Database    -14.9202    1445.7051   ✓       ✓
+43    FTTFDLGGHPQAR            0.9061      Database    -14.9971    1445.7051   ✓       ✓
+44    FTTFDLGGHPQAR            0.9061      Database    -15.0441    1445.7051   ✓       ✓
+45    FTTFDLGGHPQAR            0.9061      Database    -15.0816    1445.7051   ✓       ✓
+46    FTTFDLGGHPQAR            0.9061      Database    -15.0824    1445.7051   ✓       ✓
+47    FTTFDLGGHPQAR            0.9061      Database    -15.1072    1445.7051   ✓       ✓
+48    FTTFDLGGHPQAR            0.9061      Database    -15.1173    1445.7051   ✓       ✓
+49    FTTFDLGGHPQAR            0.9061      Database    -15.1249    1445.7051   ✓       ✓
+50    FTTFDLGGHPQAR            0.9061      Database    -15.1418    1445.7051   ✓       ✓
+51    FTTFDLGGHPQAR            0.9061      Database    -15.1570    1445.7051   ✓       ✓
+52    FTTFDLGGHPQAR            0.9061      Database    -15.2171    1445.7051   ✓       ✓
+53    FTTFDLGGHPQAR            0.9061      Database    -15.3785    1445.7051   ✓       ✓
+54    FTTFDLGGHPQAR            0.9061      Database    -15.5711    1445.7051   ✓       ✓
+55    FTTFDLGGHPQAR            0.9061      Database    -15.6930    1445.7051   ✓       ✓
+56    FTTFDLGGHPQAR            0.9061      Database    -15.8621    1445.7051   ✓       ✓
+57    FTTFDLGGHPQAR            0.9061      Database    -15.9288    1445.7051   ✓       ✓
+58    FTTFDLGGHPQAR            0.9061      Database    -16.1319    1445.7051   ✓       ✓
+59    FTTFDLGGHPQAR            0.9061      Database    -16.1694    1445.7051   ✓       ✓
+60    FTTFDLGGHPQAR            0.9061      Database    -16.1951    1445.7051   ✓       ✓
+61    FTTFDLGGHPQAR            0.9061      Database    -16.2051    1445.7051   ✓       ✓
+62    FTTFDLGGHPQAR            0.9061      Database    -16.2127    1445.7051   ✓       ✓
+63    FTTFDLGGHPQAR            0.9061      Database    -16.2179    1445.7051   ✓       ✓
+64    FTTFDLGGHPQAR            0.9061      Database    -16.2296    1445.7051   ✓       ✓
+65    FTTFDLGGHPQAR            0.9061      Database    -16.4499    1445.7051   ✓       ✓
+66    FTTFDLGGHPQAR            0.9061      Database    -16.4584    1445.7051   ✓       ✓
+67    FTTFDLGGHPQAR            0.9061      Database    -16.4660    1445.7051   ✓       ✓
+68    FTTFDLGGHPQAR            0.9061      Database    -16.4663    1445.7051   ✓       ✓
+69    FTTFDLGGHPQAR            0.9061      Database    -16.6589    1445.7051   ✓       ✓
+70    FTTFDLGGHPQAR            0.9061      Database    -16.7054    1445.7051   ✓       ✓
+71    FTTFDLGGHPQAR            0.9061      Database    -16.9422    1445.7051   ✓       ✓
+72    FTTFDLGGHPQAR            0.9061      Database    -16.9499    1445.7051   ✓       ✓
+73    FTTFDLGGHPQAR            0.9061      Database    -17.0024    1445.7051   ✓       ✓
+74    FTTFDLGGHPQAR            0.9061      Database    -17.2032    1445.7051   ✓       ✓
+75    FTTFDLGGHPQAR            0.9061      Database    -17.3058    1445.7051   ✓       ✓
+76    FTTFDLGGHPQAR            0.9061      Database    -17.4709    1445.7051   ✓       ✓
+77    FTTFDLGGHPQAR            0.9061      Database    -17.4785    1445.7051   ✓       ✓
+78    FTTFDLGGHPQAR            0.9061      Database    -17.5377    1445.7051   ✓       ✓
+79    FTTFDLGGHPQAR            0.9061      Database    -17.5378    1445.7051   ✓       ✓
+80    FTTFDLGGHPQAR            0.9061      Database    -17.5462    1445.7051   ✓       ✓
+81    FTTFDLGGHPQAR            0.9061      Database    -17.5538    1445.7051   ✓       ✓
+82    FTTFDLGGHPQAR            0.9061      Database    -17.5768    1445.7051   ✓       ✓
+83    FTTFDLGGHPQAR            0.9061      Database    -17.7076    1445.7051   ✓       ✓
+84    FTTFDLGGHPQAR            0.9061      Database    -17.7152    1445.7051   ✓       ✓
+85    FTTFDLGGHPQAR            0.9061      Database    -17.7678    1445.7051   ✓       ✓
+86    FTTFDLGGHPQAR            0.9061      Database    -17.7754    1445.7051   ✓       ✓
+87    FTTFDLGGHPQAR            0.9061      Database    -17.7908    1445.7051   ✓       ✓
+88    FTTFDLGGHPQAR            0.9061      Database    -17.7910    1445.7051   ✓       ✓
+89    FTTFDLGGHPQAR            0.9061      Database    -18.1229    1445.7051   ✓       ✓
+90    FTTFDLGGHPQAR            0.9061      Database    -18.2156    1445.7051   ✓       ✓
+91    FTTFDLGGHPQAR            0.9061      Database    -18.2264    1445.7051   ✓       ✓
+92    FTTFDLGGHPQAR            0.9061      Database    -18.2910    1445.7051   ✓       ✓
+93    FTTFDLGGHPQAR            0.9061      Database    -18.4524    1445.7051   ✓       ✓
+94    FTTFDLGGHPQAR            0.9061      Database    -18.5126    1445.7051   ✓       ✓
+95    FTTFDLGGHPQAR            0.9061      Database    -18.5587    1445.7051   ✓       ✓
+96    FTTFDLGGHPQAR            0.9061      Database    -18.5663    1445.7051   ✓       ✓
+97    FTTFDLGGHPQAR            0.9061      Database    -18.5802    1445.7051   ✓       ✓
+98    FTTFDLGGHPQAR            0.9061      Database    -18.6646    1445.7051   ✓       ✓
+99    FTTFDLGGHPQAR            0.9061      Database    -18.7448    1445.7051   ✓       ✓
+100   FTTFDLGGHPQAR            0.9061      Database    -18.7828    1445.7051   ✓       ✓
+101   FTTFDLGGHPQAR            0.9061      Database    -18.7954    1445.7051   ✓       ✓
+102   FTTFDLGGHPQAR            0.9061      Database    -18.8030    1445.7051   ✓       ✓
+103   FTTFDLGGHPQAR            0.9061      Database    -18.8035    1445.7051   ✓       ✓
+104   FTTFDLGGHPQAR            0.9061      Database    -18.8217    1445.7051   ✓       ✓
+105   FTTFDLGGHPQAR            0.9061      Database    -18.8556    1445.7051   ✓       ✓
+106   FTTFDLGGHPQAR            0.9061      Database    -18.8632    1445.7051   ✓       ✓
+107   FTTFDLGGHPQAR            0.9061      Database    -18.8786    1445.7051   ✓       ✓
+108   FTTFDLGGHPQAR            0.9061      Database    -18.8788    1445.7051   ✓       ✓
+109   FTTFDLGGHPQAR            0.9061      Database    -18.8789    1445.7051   ✓       ✓
+110   FTTFDLGGHPQAR            0.9061      Database    -18.9069    1445.7051   ✓       ✓
+111   FTTFDLGGHPQAR            0.9061      Database    -18.9815    1445.7051   ✓       ✓
+112   FTTFDLGGHPQAR            0.9061      Database    -19.0402    1445.7051   ✓       ✓
+113   FTTFDLGGHPQAR            0.9061      Database    -19.0417    1445.7051   ✓       ✓
+114   FTTFDLGGHPQAR            0.9061      Database    -19.1004    1445.7051   ✓       ✓
+115   FTTFDLGGHPQAR            0.9061      Database    -19.1354    1445.7051   ✓       ✓
+116   FTTFDLGGHPQAR            0.9061      Database    -19.2107    1445.7051   ✓       ✓
+117   FTTFDLGGHPQAR            0.9061      Database    -19.3035    1445.7051   ✓       ✓
+118   FTTFDLGGHPQAR            0.9061      Database    -19.3142    1445.7051   ✓       ✓
+119   FTTFDLGGHPQAR            0.9061      Database    -19.3314    1445.7051   ✓       ✓
+120   FTTFDLGGHPQAR            0.9061      Database    -19.3390    1445.7051   ✓       ✓
+121   FTTFDLGGHPQAR            0.9061      Database    -19.3721    1445.7051   ✓       ✓
+122   FTTFDLGGHPQAR            0.9061      Database    -19.4323    1445.7051   ✓       ✓
+123   FTTFDLGGHPQAR            0.9061      Database    -19.5402    1445.7051   ✓       ✓
+124   FTTFDLGGHPQAR            0.9061      Database    -19.6004    1445.7051   ✓       ✓
+125   FTTFDLGGHPQAR            0.9061      Database    -19.6680    1445.7051   ✓       ✓
+126   FTTFDLGGHPQAR            0.9061      Database    -19.7407    1445.7051   ✓       ✓
+127   FTTFDLGGHPQAR            0.9061      Database    -19.7534    1445.7051   ✓       ✓
+128   FTTFDLGGHPQAR            0.9061      Database    -19.8326    1445.7051   ✓       ✓
+129   FTTFDLGGHPQAR            0.9061      Database    -19.8706    1445.7051   ✓       ✓
+130   FTTFDLGGHPQAR            0.9061      Database    -19.8913    1445.7051   ✓       ✓
+131   FTTFDLGGHPQAR            0.9061      Database    -19.8914    1445.7051   ✓       ✓
+132   FTTFDLGGHPQAR            0.9061      Database    -19.9095    1445.7051   ✓       ✓
+133   FTTFDLGGHPQAR            0.9061      Database    -19.9213    1445.7051   ✓       ✓
+134   FTTFDLGGHPQAR            0.9061      Database    -19.9564    1445.7051   ✓       ✓
+135   FTTFDLGGHPQAR            0.9061      Database    -19.9940    1445.7051   ✓       ✓
+136   FTTFDLGGHPQAR            0.9061      Database    -19.9947    1445.7051   ✓       ✓
+137   FTTFDLGGHPQAR            0.9061      Database    -20.0196    1445.7051   ✓       ✓
+138   FTTFDLGGHPQAR            0.9061      Database    -20.0541    1445.7051   ✓       ✓
+139   FTTFDLGGHPQAR            0.9061      Database    -20.0693    1445.7051   ✓       ✓
+140   FTTFDLGGHPQAR            0.9061      Database    -20.0762    1445.7051   ✓       ✓
+141   FTTFDLGGHPQAR            0.9061      Database    -20.1281    1445.7051   ✓       ✓
+142   FTTFDLGGHPQAR            0.9061      Database    -20.1883    1445.7051   ✓       ✓
+143   FTTFDLGGHPQAR            0.9061      Database    -22.5174    1445.7051   ✓       ✓
+144   FTTFDLGGHPQAR            0.9061      Database    -22.5250    1445.7051   ✓       ✓
+145   FTTFDLGGHPQAR            0.9061      Database    -23.2621    1445.7051   ✓       ✓
+146   FTTFDLGGHPQAR            0.9061      Database    -23.7913    1445.7051   ✓       ✓
+147   FTTFDLGGHPQAR            0.9061      Database    -23.8500    1445.7051   ✓       ✓
+148   FTTFN+0.984LGGHPAGAR     0.3840      Prosit      -19.9095    1445.7051   ✓       
+149   FTTFDLGGHPAQR            0.3646      Prosit      -12.9818    1445.7051   ✓       
+150   FTTFDLGGHPAQR            0.3646      Prosit      -14.0696    1445.7051   ✓       
+151   FTTFDLGGHPAQR            0.3646      Prosit      -17.8941    1445.7051   ✓       
+152   FTTFDLGGHPAQR            0.3646      Prosit      -18.9819    1445.7051   ✓       
+153   FTTFDLGGHPAQR            0.3646      Prosit      -19.2353    1445.7051   ✓       
+154   FTTFN+0.984LGGHPAQR      0.3628      Prosit      -18.8928    1445.7051   ✓       
+155   FTTFN+0.984LGGHPAQR      0.3628      Prosit      -19.9807    1445.7051   ✓       
+156   FTTFN+0.984LGGHPKAR      0.3486      Prosit      -17.3794    1445.7415   ✓       
+157   FTTFN+0.984LGGHPKAR      0.3486      Prosit      -18.4672    1445.7415   ✓       
+158   FTTFDLGGHPAGAR           0.3478      Prosit      -13.9985    1445.7051   ✓       
+159   FTTFDLGGHPAGAR           0.3478      Prosit      -15.0863    1445.7051   ✓       
+160   FTTFDLGGHPAGAR           0.3478      Prosit      -18.9108    1445.7051   ✓       
+161   FTTFDLGGHPAGAR           0.3478      Prosit      -19.9986    1445.7051   ✓       
+162   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -6.2241     1445.7051   ✓       
+163   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -7.3119     1445.7051   ✓       
+164   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -11.1364    1445.7051   ✓       
+165   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -12.2242    1445.7051   ✓       
+166   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -12.4776    1445.7051   ✓       
+167   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -13.4900    1445.7051   ✓       
+168   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -13.5654    1445.7051   ✓       
+169   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -13.7268    1445.7051   ✓       
+170   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -13.7869    1445.7051   ✓       
+171   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -14.5778    1445.7051   ✓       
+172   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -14.8146    1445.7051   ✓       
+173   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -14.8747    1445.7051   ✓       
+174   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -15.3506    1445.7051   ✓       
+175   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -16.1160    1445.7051   ✓       
+176   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -16.1236    1445.7051   ✓       
+177   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -16.8608    1445.7051   ✓       
+178   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -17.2038    1445.7051   ✓       
+179   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -17.2114    1445.7051   ✓       
+180   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -17.3899    1445.7051   ✓       
+181   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -17.4486    1445.7051   ✓       
+182   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -17.7805    1445.7051   ✓       
+183   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -17.9486    1445.7051   ✓       
+184   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -18.4024    1445.7051   ✓       
+185   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -18.4777    1445.7051   ✓       
+186   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -18.5364    1445.7051   ✓       
+187   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -18.5365    1445.7051   ✓       
+188   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -18.6391    1445.7051   ✓       
+189   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -18.6993    1445.7051   ✓       
+190   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -18.8683    1445.7051   ✓       
+191   FTTFNLGGHPQ+0.984AR      0.3374      Prosit      -18.9754    1445.7051   ✓       
+192   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -19.4902    1445.7051   ✓       
+193   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -19.5789    1445.7051   ✓       
+194   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -19.7269    1445.7051   ✓       
+195   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -19.7435    1445.7051   ✓       
+196   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -19.7871    1445.7051   ✓       
+197   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -19.8204    1445.7051   ✓       
+198   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -19.9056    1445.7051   ✓       
+199   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -19.9803    1445.7051   ✓       
+200   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -20.0404    1445.7051   ✓       
+201   FTTFNLGGHPQ+0.984AR      0.3374      Prosit      -20.0632    1445.7051   ✓       
+202   FTTFN+0.984LGGHPQAR      0.3374      Prosit      -23.4489    1445.7051   ✓       
+203   FTTFDLGGHPQRA            0.3294      Prosit      -18.5113    1445.7051   ✓       
+204   FTTFDLGGHPQRA            0.3294      Prosit      -19.5991    1445.7051   ✓       
+205   AFTTFDLGGHPQR            0.3265      Prosit      -20.5600    1445.7051   ✓       
+206   GFTTFN+0.984LGGHPAAR     0.3265      Prosit      -23.6745    1445.7051   ✓       
+207   +42.011FTTFDAGGHPQAR     0.3245      Prosit      -23.7404    1445.6688   ✓       
+208   FTTFDLGGHPGAAR           0.3043      Prosit      -14.3236    1445.7051   ✓       
+209   FTTFDLGGHPGAAR           0.3043      Prosit      -14.6913    1445.7051   ✓       
+210   FTTFDLGGHPGAAR           0.3043      Prosit      -14.8802    1445.7051   ✓       
+211   FTTFDLGGHPGAAR           0.3043      Prosit      -15.4114    1445.7051   ✓       
+212   FTTFDLGGHPGAAR           0.3043      Prosit      -15.5166    1445.7051   ✓       
+213   FTTFDLGGHPGAAR           0.3043      Prosit      -15.7792    1445.7051   ✓       
+214   FTTFDLGGHPGAAR           0.3043      Prosit      -15.9680    1445.7051   ✓       
+215   FTTFDLGGHPGAAR           0.3043      Prosit      -16.0714    1445.7051   ✓       
+216   FTTFDLGGHPGAAR           0.3043      Prosit      -16.3533    1445.7051   ✓       
+217   FTTFDLGGHPGAAR           0.3043      Prosit      -16.6044    1445.7051   ✓       
+218   FTTFDLGGHPGAAR           0.3043      Prosit      -17.1592    1445.7051   ✓       
+219   FTTFDLGGHPGAAR           0.3043      Prosit      -17.4411    1445.7051   ✓       
+220   FTTFDLGGHPGAAR           0.3043      Prosit      -19.2360    1445.7051   ✓       
+221   FTTFDLGGHPGAAR           0.3043      Prosit      -19.6037    1445.7051   ✓       
+222   FTTFDLGGHPGAAR           0.3043      Prosit      -19.7926    1445.7051   ✓       
+223   GFTTFDLGGHPAAR           0.2871      Prosit      -17.7634    1445.7051   ✓       
+224   GFTTFDLGGHPAAR           0.2871      Prosit      -22.6758    1445.7051   ✓       
+225   FTTFDLGGHPAAR            -1.0000     NotChecked  -5.6141     1388.6837   ✗       
+226   FTTFDLGGHPAAR            -1.0000     NotChecked  -6.7019     1388.6837   ✗       
+227   FTTFDLGGHPQR             -1.0000     NotChecked  -8.7906     1374.6680   ✗       
+228   FTFDLGGHPQAR             -1.0000     NotChecked  -9.3229     1344.6575   ✗       
+229   FTTFDLGGHPQAQ            -1.0000     NotChecked  -9.7533     1417.6626   ✗       
+230   FTTFDLGGHPQR             -1.0000     NotChecked  -9.8784     1374.6680   ✗       
+231   FTTFDLGGHPQA             -1.0000     NotChecked  -10.0337    1289.6040   ✗       
+232   FTTFDLGGHPAAR            -1.0000     NotChecked  -10.5265    1388.6837   ✗       
+233   FTTFDLGGHPQAQ            -1.0000     NotChecked  -10.8411    1417.6626   ✗       
+234   +42.011TTFDLGGHPQAR      -1.0000     NotChecked  -10.9995    1340.6473   ✗       
+235   FTTFDLGGHPQA             -1.0000     NotChecked  -11.1215    1289.6040   ✗       
+236   LTTFDLGGHPQAR            -1.0000     NotChecked  -11.3476    1411.7208   ✗       
+237   FTSFDLGGHPQAR            -1.0000     NotChecked  -11.3966    1431.6895   ✗       
+238   FTTFDLGGHPKAR            -1.0000     Failed      -11.4683    1445.7415   ✓       
+239   FTTFN+0.984LGGHPAAR      -1.0000     NotChecked  -11.5252    1388.6837   ✗       
+240   FTTFDLGGHPAAR            -1.0000     NotChecked  -11.6143    1388.6837   ✗       
+241   FTTFDVGGHPQAR            -1.0000     NotChecked  -11.8587    1431.6895   ✗       
+242   FTTFDLGGHPAR             -1.0000     NotChecked  -11.8676    1317.6466   ✗       
+243   FPTFDLGGHPQAR            -1.0000     NotChecked  -11.8712    1441.7102   ✗       
+244   FTTFNLGGHPQAR            -1.0000     NotChecked  -12.4334    1444.7211   ✗       
+245   FTSFDLGGHPQAR            -1.0000     NotChecked  -12.4844    1431.6895   ✗       
+246   FTTFDLGGHPKAR            -1.0000     Failed      -12.5561    1445.7415   ✓       
+247   FTTFN+0.984LGGHPAAR      -1.0000     NotChecked  -12.6130    1388.6837   ✗       
+248   FTTFDLGGHPGAR            -1.0000     NotChecked  -12.6537    1374.6680   ✗       
+249   FTTFDLGGHPLAR            -1.0000     NotChecked  -12.6683    1430.7306   ✗       
+250   FTTFDLGGHPAAR            -1.0000     NotChecked  -12.8801    1388.6837   ✗       
+251   FTTFDLGGHPQAG            -1.0000     NotChecked  -12.9197    1346.6255   ✗       
+252   FTTFDVGGHPQAR            -1.0000     NotChecked  -12.9465    1431.6895   ✗       
+253   FTTFDLGGHPAR             -1.0000     NotChecked  -12.9554    1317.6466   ✗       
+254   FPTFDLGGHPQAR            -1.0000     NotChecked  -12.9590    1441.7102   ✗       
+255   FTTFDLGGHPAAR            -1.0000     NotChecked  -13.1168    1388.6837   ✗       
+256   FTTFDLGGHPQAF            -1.0000     NotChecked  -13.1492    1436.6725   ✗       
+257   ATTFDLGGHPQAR            -1.0000     NotChecked  -13.1703    1369.6738   ✗       
+258   FTTFDLGGHPAAR            -1.0000     NotChecked  -13.1770    1388.6837   ✗       
+259   +43.006TTFDLGGHPQAR      -1.0000     NotChecked  -13.2062    1341.6425   ✗       
+260   FTTEDLGGHPQAR            -1.0000     NotChecked  -13.3852    1427.6793   ✗       
+261   FSTFDLGGHPQAR            -1.0000     NotChecked  -13.3982    1431.6895   ✗       
+262   VTTFDLGGHPQAR            -1.0000     NotChecked  -13.3985    1397.7051   ✗       
+263   FTTFDLGGHPQR             -1.0000     NotChecked  -13.4872    1374.6680   ✗       
+264   FTTFNLGGHPQAR            -1.0000     NotChecked  -13.5212    1444.7211   ✗       
+265   FTVFDLGGHPQAR            -1.0000     NotChecked  -13.5376    1443.7259   ✗       
+266   GTTFDLGGHPQAR            -1.0000     NotChecked  -13.5501    1355.6582   ✗       
+267   FTTFSLGGHPQAR            -1.0000     NotChecked  -13.5684    1417.7102   ✗       
+268   FTTFDLGGHQAR             -1.0000     NotChecked  -13.5849    1348.6524   ✗       
+269   FTTFDLGGHPQR             -1.0000     NotChecked  -13.7029    1374.6680   ✗       
+270   TTFDLGGHPQAR             -1.0000     NotChecked  -13.7132    1298.6367   ✗       
+271   FATFDLGGHPQAR            -1.0000     NotChecked  -13.7328    1415.6946   ✗       
+272   FTTFDLGGHPGAR            -1.0000     NotChecked  -13.7415    1374.6680   ✗       
+273   FTTFDLGGHPLAR            -1.0000     NotChecked  -13.7561    1430.7306   ✗       
+274   QTTFDLGGHPQAR            -1.0000     NotChecked  -13.8236    1426.6953   ✗       
+275   FTTDDLGGHPQAR            -1.0000     NotChecked  -13.8489    1413.6637   ✗       
+276   FTTFDLGGHPQAK            -1.0000     NotChecked  -13.8668    1417.6990   ✗       
+277   FTTFDLGGHGQAR            -1.0000     NotChecked  -13.9440    1405.6738   ✗       
+278   FTTFDLGGHPAAR            -1.0000     NotChecked  -13.9679    1388.6837   ✗       
+279   FTTFDLGGHPQAG            -1.0000     NotChecked  -14.0075    1346.6255   ✗       
+280   FTFDLGGHPQAR             -1.0000     NotChecked  -14.0283    1344.6575   ✗       
+281   FTFDLGGHPQAR             -1.0000     NotChecked  -14.0457    1344.6575   ✗       
+282   FTTFDLGGHPAR             -1.0000     NotChecked  -14.0917    1317.6466   ✗       
+283   ETTFDLGGHPQAR            -1.0000     NotChecked  -14.1311    1427.6793   ✗       
+284   FTTFDAGGHPQAR            -1.0000     NotChecked  -14.1418    1403.6582   ✗       
+285   FTTFDLGGHPAAR            -1.0000     NotChecked  -14.2046    1388.6837   ✗       
+286   FTFDLGGHPQAR             -1.0000     NotChecked  -14.2353    1344.6575   ✗       
+287   FTTFDLGGHPQAF            -1.0000     NotChecked  -14.2370    1436.6725   ✗       
+288   FTTFDLGGHPAAR            -1.0000     NotChecked  -14.2648    1388.6837   ✗       
+289   FTTFDLGGHPQAL            -1.0000     NotChecked  -14.3009    1402.6881   ✗       
+290   FTTFDLGGHPQAV            -1.0000     NotChecked  -14.4314    1388.6725   ✗       
+291   FTTEDLGGHPQAR            -1.0000     NotChecked  -14.4730    1427.6793   ✗       
+292   FSTFDLGGHPQAR            -1.0000     NotChecked  -14.4860    1431.6895   ✗       
+293   FTTFDLGGHAQAR            -1.0000     NotChecked  -14.5340    1419.6895   ✗       
+294   FTTFLGGHPQAR             -1.0000     NotChecked  -14.5628    1330.6782   ✗       
+295   FTTFDLGGHPQR             -1.0000     NotChecked  -14.5750    1374.6680   ✗       
+296   FTFDLGGHPAAR             -1.0000     NotChecked  -14.6240    1287.6360   ✗       
+297   FTVFDLGGHPQAR            -1.0000     NotChecked  -14.6254    1443.7259   ✗       
+298   FTTFTLGGHPQAR            -1.0000     NotChecked  -14.6385    1431.7259   ✗       
+299   FTTFSLGGHPQAR            -1.0000     NotChecked  -14.6562    1417.7102   ✗       
+300   FTTFDLGGHPQAQ            -1.0000     NotChecked  -14.6656    1417.6626   ✗       
+301   FTTFDLGGHQAR             -1.0000     NotChecked  -14.6727    1348.6524   ✗       
+302   FTTFN+0.984LGGHPQR       -1.0000     NotChecked  -14.7017    1374.6680   ✗       
+303   FTTFDLGGHPAAR            -1.0000     NotChecked  -14.7406    1388.6837   ✗       
+304   FTTFDLGGHPQR             -1.0000     NotChecked  -14.7907    1374.6680   ✗       
+305   FATFDLGGHPQAR            -1.0000     NotChecked  -14.8206    1415.6946   ✗       
+306   FTTFDLGGNPQAR            -1.0000     NotChecked  -14.8734    1422.6892   ✗       
+307   FTTFGLGGHPQAR            -1.0000     NotChecked  -14.8869    1387.6997   ✗       
+308   FTTFDLGGHSQAR            -1.0000     NotChecked  -14.9218    1435.6844   ✗       
+309   FTTDDLGGHPQAR            -1.0000     NotChecked  -14.9367    1413.6637   ✗       
+310   FTTFDLGGHPQA             -1.0000     NotChecked  -14.9461    1289.6040   ✗       
+311   FTTFDLGGHPQAK            -1.0000     NotChecked  -14.9546    1417.6990   ✗       
+312   FTTFDLGGHGQAR            -1.0000     NotChecked  -15.0318    1405.6738   ✗       
+313   FTTFDLGGHPAAQ            -1.0000     NotChecked  -15.0544    1360.6411   ✗       
+314   FTTFDLGHPQAR             -1.0000     NotChecked  -15.0568    1388.6837   ✗       
+315   FTFDLGGHPQAR             -1.0000     NotChecked  -15.1161    1344.6575   ✗       
+316   FTFDLGGHPQAR             -1.0000     NotChecked  -15.1336    1344.6575   ✗       
+317   FTTFDLGGHPAR             -1.0000     NotChecked  -15.1795    1317.6466   ✗       
+318   +42.011FTTFDLGGHPAAR     -1.0000     NotChecked  -15.2128    1430.6942   ✗       
+319   FTTFDAGGHPQAR            -1.0000     NotChecked  -15.2296    1403.6582   ✗       
+320   FTFN+0.984LGGHPQAR       -1.0000     NotChecked  -15.2340    1344.6575   ✗       
+321   FTTFDLGGHPQ+0.984R       -1.0000     NotChecked  -15.3325    1375.6520   ✗       
+322   FTTFDLGGHPAA             -1.0000     NotChecked  -15.3348    1232.5826   ✗       
+323   FTTFDLGGHPQAL            -1.0000     NotChecked  -15.3887    1402.6881   ✗       
+324   FTTFDLGGKPQAR            -1.0000     NotChecked  -15.4614    1436.7412   ✗       
+325   FTTLDLGGHPQAR            -1.0000     NotChecked  -15.4676    1411.7208   ✗       
+326   FTTFDLGGHPAAR            -1.0000     NotChecked  -15.5060    1388.6837   ✗       
+327   FTTFDLGGHPAAR            -1.0000     NotChecked  -15.5136    1388.6837   ✗       
+328   FTTFDLGGHPQAV            -1.0000     NotChecked  -15.5192    1388.6725   ✗       
+329   FTFDLGGHPQAR             -1.0000     NotChecked  -15.5764    1344.6575   ✗       
+330   FTTFDLGGHPQAP            -1.0000     NotChecked  -15.5920    1386.6568   ✗       
+331   FTTFDLGGHAQAR            -1.0000     NotChecked  -15.6218    1419.6895   ✗       
+332   FTTFLGGHPQAR             -1.0000     NotChecked  -15.6507    1330.6782   ✗       
+333   FTTFN+0.984LGGHPQAQ      -1.0000     NotChecked  -15.6643    1417.6626   ✗       
+334   FFTFDLGGHPAAR            -1.0000     NotChecked  -15.7118    1434.7044   ✗       
+335   FTTFTLGGHPQAR            -1.0000     NotChecked  -15.7263    1431.7259   ✗       
+336   FTTFDLGGHPQAQ            -1.0000     NotChecked  -15.7534    1417.6626   ✗       
+337   FTTFN+0.984LGGHPQR       -1.0000     NotChecked  -15.7895    1374.6680   ✗       
+338   FTTFDGGGHPQAR            -1.0000     NotChecked  -15.8098    1389.6425   ✗       
+339   FTTFDLGGQPQAR            -1.0000     NotChecked  -15.8184    1436.7048   ✗       
+340   FTFDLGGHPQ+0.984AR       -1.0000     NotChecked  -15.8648    1345.6415   ✗       
+341   FTTFDLGGHPQAN            -1.0000     NotChecked  -15.8907    1403.6470   ✗       
+342   FTTFDLGGLPQAR            -1.0000     NotChecked  -15.9069    1421.7303   ✗       
+343   +42.011TTFDLGGHPQAR      -1.0000     NotChecked  -15.9118    1340.6473   ✗       
+344   FTTFN+0.984LGGHPQA       -1.0000     NotChecked  -15.9448    1289.6040   ✗       
+345   FTTFDLGGNPQAR            -1.0000     NotChecked  -15.9613    1422.6892   ✗       
+346   FTTFGLGGHPQAR            -1.0000     NotChecked  -15.9747    1387.6997   ✗       
+347   FTTQDLGGHPQAR            -1.0000     NotChecked  -15.9894    1426.6953   ✗       
+348   FTTFDLGGPPQAR            -1.0000     NotChecked  -16.0026    1405.6990   ✗       
+349   FTTFDLGGHPQAQ            -1.0000     NotChecked  -16.0067    1417.6626   ✗       
+350   FTTFDLGGHSQAR            -1.0000     NotChecked  -16.0096    1435.6844   ✗       
+351   FTTFDLGGHPQA             -1.0000     NotChecked  -16.0339    1289.6040   ✗       
+352   FTTFDLGGHPQR             -1.0000     NotChecked  -16.0565    1374.6680   ✗       
+353   FTTFDLGGHPAAQ            -1.0000     NotChecked  -16.1422    1360.6411   ✗       
+354   FTTFDLGHPQAR             -1.0000     NotChecked  -16.1446    1388.6837   ✗       
+355   FTTTDLGGHPQAR            -1.0000     NotChecked  -16.1538    1399.6844   ✗       
+356   FTTN+0.984DLGGHPQAR      -1.0000     NotChecked  -16.1583    1413.6637   ✗       
+357   LTTFDLGGHPQAR            -1.0000     NotChecked  -16.2600    1411.7208   ✗       
+358   FTTFDLGGHPQA             -1.0000     NotChecked  -16.2872    1289.6040   ✗       
+359   FTTFDLGGHPQR             -1.0000     NotChecked  -16.2933    1374.6680   ✗       
+360   FTTFDLGGHPQ+0.984AQ      -1.0000     NotChecked  -16.2952    1418.6466   ✗       
+361   FTTQ+0.984DLGGHPQAR      -1.0000     NotChecked  -16.2991    1427.6793   ✗       
+362   +42.011TTFDLGGHPAAR      -1.0000     NotChecked  -16.3006    1283.6258   ✗       
+363   FTSFDLGGHPQAR            -1.0000     NotChecked  -16.3090    1431.6895   ✗       
+364   FTTFDLGGHPQR             -1.0000     NotChecked  -16.3534    1374.6680   ✗       
+365   FTTFDLGGHPKAR            -1.0000     Failed      -16.3807    1445.7415   ✓       
+366   FTTFDLGGHPQ+0.984R       -1.0000     NotChecked  -16.4203    1375.6520   ✗       
+367   FTTFDLGGHPAA             -1.0000     NotChecked  -16.4226    1232.5826   ✗       
+368   FTTFN+0.984LGGHPAAR      -1.0000     NotChecked  -16.4375    1388.6837   ✗       
+369   FTTVDLGGHPQAR            -1.0000     NotChecked  -16.4785    1397.7051   ✗       
+370   FTTFDLGGPQAR             -1.0000     NotChecked  -16.5330    1308.6462   ✗       
+371   FTTFDLGGKPQAR            -1.0000     NotChecked  -16.5492    1436.7412   ✗       
+372   FTTLDLGGHPQAR            -1.0000     NotChecked  -16.5554    1411.7208   ✗       
+373   FTTFDLGGHPQ+0.984A       -1.0000     NotChecked  -16.5756    1290.5881   ✗       
+374   FTFDLGGHPQAR             -1.0000     NotChecked  -16.5889    1344.6575   ✗       
+375   FTTFDLGGHPAAR            -1.0000     NotChecked  -16.5938    1388.6837   ✗       
+376   FTTFDLGGHPAAR            -1.0000     NotChecked  -16.6015    1388.6837   ✗       
+377   LTTFDLGGHPAAR            -1.0000     NotChecked  -16.6488    1354.6993   ✗       
+378   FTTFDLGGHPQAP            -1.0000     NotChecked  -16.6798    1386.6568   ✗       
+379   FTFDLGGHPQQR             -1.0000     NotChecked  -16.6906    1401.6789   ✗       
+380   FTSFDLGGHPAAR            -1.0000     NotChecked  -16.6977    1374.6680   ✗       
+381   FTFFDLGGHPAAR            -1.0000     NotChecked  -16.7310    1434.7044   ✗       
+382   FTTFDLGNHPAAR            -1.0000     Failed      -16.7478    1445.7051   ✓       
+383   FTTFN+0.984LGGHPQAQ      -1.0000     NotChecked  -16.7522    1417.6626   ✗       
+384   FTTFDVGGHPQAR            -1.0000     NotChecked  -16.7710    1431.6895   ✗       
+385   FTTFDLGGHPAR             -1.0000     NotChecked  -16.7800    1317.6466   ✗       
+386   FTTFDLGHPQAR             -1.0000     NotChecked  -16.7818    1388.6837   ✗       
+387   FPTFDLGGHPQAR            -1.0000     NotChecked  -16.7835    1441.7102   ✗       
+388   FTFDLGGHPQAR             -1.0000     NotChecked  -16.8256    1344.6575   ✗       
+389   FTTFDLGGHPAAR            -1.0000     NotChecked  -16.8387    1388.6837   ✗       
+390   FTFDLGGHPQAR             -1.0000     NotChecked  -16.8858    1344.6575   ✗       
+391   FTTFDGGGHPQAR            -1.0000     NotChecked  -16.8976    1389.6425   ✗       
+392   FTTFDLGGQPQAR            -1.0000     NotChecked  -16.9062    1436.7048   ✗       
+393   +42.011TTFN+0.984LGGHPQAR-1.0000     NotChecked  -16.9106    1340.6473   ✗       
+394   FTTFELGGHPAAR            -1.0000     NotChecked  -16.9191    1402.6993   ✗       
+395   FTTFDLGGHPQAN            -1.0000     NotChecked  -16.9785    1403.6470   ✗       
+396   FTTFDLGGLPQAR            -1.0000     NotChecked  -16.9947    1421.7303   ✗       
+397   FTTFDLGGHPQAQ            -1.0000     NotChecked  -17.0192    1417.6626   ✗       
+398   FTTFN+0.984LGGHPQA       -1.0000     NotChecked  -17.0326    1289.6040   ✗       
+399   FTTFDLGGDPQAR            -1.0000     NotChecked  -17.0495    1423.6732   ✗       
+400   FTTQDLGGHPQAR            -1.0000     NotChecked  -17.0772    1426.6953   ✗       
+401   FTTFDLGGPPQAR            -1.0000     NotChecked  -17.0904    1405.6990   ✗       
+402   FTTFDLGGHPQAQ            -1.0000     NotChecked  -17.0946    1417.6626   ✗       
+403   FTTFDLGGHPQQ             -1.0000     NotChecked  -17.1209    1346.6255   ✗       
+404   FTTFDLGGHPQR             -1.0000     NotChecked  -17.1443    1374.6680   ✗       
+405   FTTFDVGGHPAAR            -1.0000     NotChecked  -17.1598    1374.6680   ✗       
+406   FTTFDLGGHPAAR            -1.0000     NotChecked  -17.1705    1388.6837   ✗       
+407   FPTFDLGGHPAAR            -1.0000     NotChecked  -17.1723    1384.6888   ✗       
+408   FTTFDLGGHPQGR            -1.0000     NotChecked  -17.1749    1431.6895   ✗       
+409   FTTTDLGGHPQAR            -1.0000     NotChecked  -17.2416    1399.6844   ✗       
+410   FTTN+0.984DLGGHPQAR      -1.0000     NotChecked  -17.2461    1413.6637   ✗       
+411   +42.011TTFDLGGHPQAR      -1.0000     NotChecked  -17.2530    1340.6473   ✗       
+412   FTTFDLGGHPQAQ            -1.0000     NotChecked  -17.2559    1417.6626   ✗       
+413   LTTFN+0.984LGGHPQAR      -1.0000     NotChecked  -17.2587    1411.7208   ✗       
+414   FTTFDLGGHPQA             -1.0000     NotChecked  -17.2997    1289.6040   ✗       
+415   FTSFN+0.984LGGHPQAR      -1.0000     NotChecked  -17.3077    1431.6895   ✗       
+416   FTTFDLGGHPQAQ            -1.0000     NotChecked  -17.3161    1417.6626   ✗       
+417   FTTFNLGGHPQAR            -1.0000     NotChecked  -17.3458    1444.7211   ✗       
+418   FTTFDLGGHPQA             -1.0000     NotChecked  -17.3750    1289.6040   ✗       
+419   FTTFDLGGHPQR             -1.0000     NotChecked  -17.3811    1374.6680   ✗       
+420   FTTFDLGGHPQ+0.984AQ      -1.0000     NotChecked  -17.3830    1418.6466   ✗       
+421   FTTQ+0.984DLGGHPQAR      -1.0000     NotChecked  -17.3870    1427.6793   ✗       
+422   FTSFDLGGHPQAR            -1.0000     NotChecked  -17.3968    1431.6895   ✗       
+423   FTTFDLGGHPQQA            -1.0000     NotChecked  -17.4014    1417.6626   ✗       
+424   +43.006FTTFDLGGHPAAR     -1.0000     NotChecked  -17.4195    1431.6895   ✗       
+425   FTTFDLGGHPQR             -1.0000     NotChecked  -17.4412    1374.6680   ✗       
+426   FTTFDLGGHPKAR            -1.0000     Failed      -17.4685    1445.7415   ✓       
+427   FTTFDLGGHPGQR            -1.0000     NotChecked  -17.5001    1431.6895   ✗       
+428   FTTFN+0.984LGGHPAAR      -1.0000     NotChecked  -17.5254    1388.6837   ✗       
+429   FTTFDLGGHPQA             -1.0000     NotChecked  -17.5364    1289.6040   ✗       
+430   +42.011TTFDLGGHPQ+0.984AR-1.0000     NotChecked  -17.5414    1341.6313   ✗       
+431   FTTFDLGGHPGAR            -1.0000     NotChecked  -17.5661    1374.6680   ✗       
+432   FTTVDLGGHPQAR            -1.0000     NotChecked  -17.5663    1397.7051   ✗       
+433   FTTFDLGGHPLAR            -1.0000     NotChecked  -17.5807    1430.7306   ✗       
+434   FTTFDLGGHPQA             -1.0000     NotChecked  -17.5966    1289.6040   ✗       
+435   LTTFDLGGHPQAR            -1.0000     NotChecked  -17.6011    1411.7208   ✗       
+436   FTTFDLGGPQAR             -1.0000     NotChecked  -17.6208    1308.6462   ✗       
+437   FTSFDLGGHPQAR            -1.0000     NotChecked  -17.6501    1431.6895   ✗       
+438   FTTFDLGGHPQ+0.984A       -1.0000     NotChecked  -17.6635    1290.5881   ✗       
+439   FTFDLGGHPQGAR            -1.0000     NotChecked  -17.7073    1401.6789   ✗       
+440   FTTFDLGGHPKAR            -1.0000     Failed      -17.7218    1445.7415   ✓       
+441   FTTFNLGGHPAAR            -1.0000     NotChecked  -17.7346    1387.6997   ✗       
+442   FTTFN+0.984VGGHPQAR      -1.0000     NotChecked  -17.7697    1431.6895   ✗       
+443   FTTFN+0.984LGGHPAR       -1.0000     NotChecked  -17.7787    1317.6466   ✗       
+444   FPTFN+0.984LGGHPQAR      -1.0000     NotChecked  -17.7823    1441.7102   ✗       
+445   FTSFDLGGHPAAR            -1.0000     NotChecked  -17.7855    1374.6680   ✗       
+446   FTTFDLGGHPAAR            -1.0000     NotChecked  -17.7924    1388.6837   ✗       
+447   FTTFDSGGHPQAR            -1.0000     NotChecked  -17.7997    1419.6531   ✗       
+448   FTFDLGGHPQR              -1.0000     NotChecked  -17.8005    1273.6204   ✗       
+449   FTFFDLGGHPAAR            -1.0000     NotChecked  -17.8188    1434.7044   ✗       
+450   FTTFDLGGHPQAG            -1.0000     NotChecked  -17.8321    1346.6255   ✗       
+451   FTTFDLGNHPAAR            -1.0000     Failed      -17.8356    1445.7051   ✓       
+452   FTTFDVGGHPQAR            -1.0000     NotChecked  -17.8588    1431.6895   ✗       
+453   FTTFDLGGHPAR             -1.0000     NotChecked  -17.8678    1317.6466   ✗       
+454   FTTFDLGGHPGQR            -1.0000     NotChecked  -17.8678    1431.6895   ✗       
+455   FTTFDLGHPQAR             -1.0000     NotChecked  -17.8696    1388.6837   ✗       
+456   FPTFDLGGHPQAR            -1.0000     NotChecked  -17.8713    1441.7102   ✗       
+457   LTTFDLGGHPQ+0.984AR      -1.0000     NotChecked  -17.8896    1412.7048   ✗       
+458   FTTFDLGGHPQR             -1.0000     NotChecked  -17.9171    1374.6680   ✗       
+459   FTTFDLGGHPAAR            -1.0000     NotChecked  -17.9265    1388.6837   ✗       
+460   FTTFDLGGHPAAR            -1.0000     NotChecked  -17.9265    1388.6837   ✗       
+461   FTSFDLGGHPQ+0.984AR      -1.0000     NotChecked  -17.9385    1432.6735   ✗       
+462   FTTFDPGGHPQAR            -1.0000     NotChecked  -17.9509    1429.6738   ✗       
+463   FTTFDLGGHPALR            -1.0000     NotChecked  -17.9928    1430.7306   ✗       
+464   FTTFELGGHPAAR            -1.0000     NotChecked  -18.0069    1402.6993   ✗       
+465   FTTFDLGGHPAAR            -1.0000     NotChecked  -18.0292    1388.6837   ✗       
+466   FTFDLGGHPGQAR            -1.0000     NotChecked  -18.0324    1401.6789   ✗       
+467   FLTFDLGGHPAAR            -1.0000     NotChecked  -18.0367    1400.7201   ✗       
+468   FTTFDLGGHPGQR            -1.0000     NotChecked  -18.0567    1431.6895   ✗       
+469   FTTFDLGGHPQAF            -1.0000     NotChecked  -18.0616    1436.6725   ✗       
+470   ATTFDLGGHPQAR            -1.0000     NotChecked  -18.0826    1369.6738   ✗       
+471   FTTFDLGGHPAAR            -1.0000     NotChecked  -18.0893    1388.6837   ✗       
+472   FTTFDLGGHPQAQ            -1.0000     NotChecked  -18.1070    1417.6626   ✗       
+473   FTTFDVGGHPQAR            -1.0000     NotChecked  -18.1122    1431.6895   ✗       
+474   +43.006TTFDLGGHPQAR      -1.0000     NotChecked  -18.1185    1341.6425   ✗       
+475   FPTFDLGGHPQAR            -1.0000     NotChecked  -18.1247    1441.7102   ✗       
+476   FTTFDLGGDPQAR            -1.0000     NotChecked  -18.1373    1423.6732   ✗       
+477   FQ+0.984TFDLGGHPAAR      -1.0000     NotChecked  -18.1396    1416.6786   ✗       
+478   FTTFDLGGHPQQ             -1.0000     NotChecked  -18.2087    1346.6255   ✗       
+479   FTTFDLGGHPAAG            -1.0000     NotChecked  -18.2208    1289.6040   ✗       
+480   FTTFDVGGHPAAR            -1.0000     NotChecked  -18.2476    1374.6680   ✗       
+481   FTTFDLGGHPAAR            -1.0000     NotChecked  -18.2584    1388.6837   ✗       
+482   FPTFDLGGHPAAR            -1.0000     NotChecked  -18.2601    1384.6888   ✗       
+483   FTTFDLGGHPQGR            -1.0000     NotChecked  -18.2627    1431.6895   ✗       
+484   +42.011TTFDLGGHPQAR      -1.0000     NotChecked  -18.2654    1340.6473   ✗       
+485   FTMFDLGGHPAAR            -1.0000     NotChecked  -18.2907    1418.6765   ✗       
+486   FTTEDLGGHPQAR            -1.0000     NotChecked  -18.2976    1427.6793   ✗       
+487   FSTFDLGGHPQAR            -1.0000     NotChecked  -18.3106    1431.6895   ✗       
+488   VTTFDLGGHPQAR            -1.0000     NotChecked  -18.3109    1397.7051   ✗       
+489   FTLFDLGGHPAAR            -1.0000     NotChecked  -18.3401    1400.7201   ✗       
+490   FTTFDLGGHPQAQ            -1.0000     NotChecked  -18.3438    1417.6626   ✗       
+491   +42.011TTFDLGGHPQQR      -1.0000     NotChecked  -18.3671    1397.6688   ✗       
+492   FTTFDLGGHPQA             -1.0000     NotChecked  -18.3875    1289.6040   ✗       
+493   +42.011FTTFDLGGHPQR      -1.0000     NotChecked  -18.3892    1416.6786   ✗       
+494   FTSFN+0.984LGGHPQAR      -1.0000     NotChecked  -18.3955    1431.6895   ✗       
+495   FTTFDLGGHPQR             -1.0000     NotChecked  -18.3996    1374.6680   ✗       
+496   FTFDLGGHPGQAR            -1.0000     NotChecked  -18.4001    1401.6789   ✗       
+497   FTTFDVGGHPQ+0.984AR      -1.0000     NotChecked  -18.4006    1432.6735   ✗       
+498   FTQ+0.984FDLGGHPAAR      -1.0000     NotChecked  -18.4017    1416.6786   ✗       
+499   FTTFDLGGHPQAQ            -1.0000     NotChecked  -18.4039    1417.6626   ✗       
+500   FPTFDLGGHPQ+0.984AR      -1.0000     NotChecked  -18.4131    1442.6943   ✗       
+501   FTTFDLGGHPQGA            -1.0000     NotChecked  -18.4181    1346.6255   ✗       
+502   FTTFNLGGHPQAR            -1.0000     NotChecked  -18.4336    1444.7211   ✗       
+503   FTVFDLGGHPQAR            -1.0000     NotChecked  -18.4499    1443.7259   ✗       
+504   FTTFDLGGHPAAF            -1.0000     NotChecked  -18.4503    1379.6510   ✗       
+505   GTTFDLGGHPQAR            -1.0000     NotChecked  -18.4625    1355.6582   ✗       
+506   ATTFDLGGHPAAR            -1.0000     NotChecked  -18.4714    1312.6524   ✗       
+507   FTTFSLGGHPQAR            -1.0000     NotChecked  -18.4808    1417.7102   ✗       
+508   FTTFDLGGHPQQA            -1.0000     NotChecked  -18.4892    1417.6626   ✗       
+509   FTTFDLGGHQAR             -1.0000     NotChecked  -18.4972    1348.6524   ✗       
+510   +42.011TTFDLGGHPQAR      -1.0000     NotChecked  -18.5022    1340.6473   ✗       
+511   +43.006TTFDLGGHPAAR      -1.0000     NotChecked  -18.5073    1284.6211   ✗       
+512   FTQFDLGGHPAAR            -1.0000     NotChecked  -18.5501    1415.6946   ✗       
+513   +42.011TTFDLGGHPQAR      -1.0000     NotChecked  -18.5623    1340.6473   ✗       
+514   FTTFN+0.984LGGHPGAR      -1.0000     NotChecked  -18.5648    1374.6680   ✗       
+515   FTTFN+0.984LGGHPLAR      -1.0000     NotChecked  -18.5794    1430.7306   ✗       
+516   FTTFDLGGHPGQR            -1.0000     NotChecked  -18.5879    1431.6895   ✗       
+517   FTFDLGGHPGQAR            -1.0000     NotChecked  -18.5890    1401.6789   ✗       
+518   LTTFDLGGHPQAR            -1.0000     NotChecked  -18.6136    1411.7208   ✗       
+519   FTTFDLGGHPQA             -1.0000     NotChecked  -18.6242    1289.6040   ✗       
+520   TTFDLGGHPQAR             -1.0000     NotChecked  -18.6256    1298.6367   ✗       
+521   FATFDLGGHPQAR            -1.0000     NotChecked  -18.6452    1415.6946   ✗       
+522   FTTFDLGGHPGAR            -1.0000     NotChecked  -18.6539    1374.6680   ✗       
+523   FTSFDLGGHPQAR            -1.0000     NotChecked  -18.6626    1431.6895   ✗       
+524   FTTFDLGGHPLAR            -1.0000     NotChecked  -18.6685    1430.7306   ✗       
+525   FTTFDLGGHPQR             -1.0000     NotChecked  -18.6825    1374.6680   ✗       
+526   FTTFDLGGHPQA             -1.0000     NotChecked  -18.6844    1289.6040   ✗       
+527   FTTEDLGGHPAAR            -1.0000     NotChecked  -18.6863    1370.6579   ✗       
+528   FTTFNLGGHPQAR            -1.0000     NotChecked  -18.6869    1444.7211   ✗       
+529   FTTFDLGGHPQR             -1.0000     NotChecked  -18.6901    1374.6680   ✗       
+530   FTTFDLGGHPGQR            -1.0000     NotChecked  -18.6931    1431.6895   ✗       
+531   FSTFDLGGHPAAR            -1.0000     NotChecked  -18.6993    1374.6680   ✗       
+532   VTTFDLGGHPAAR            -1.0000     NotChecked  -18.6996    1340.6837   ✗       
+533   FTTFDLGGHPKAR            -1.0000     Failed      -18.7343    1445.7415   ✓       
+534   QTTFDLGGHPQAR            -1.0000     NotChecked  -18.7360    1426.6953   ✗       
+535   FTSFDLGGHPQAR            -1.0000     NotChecked  -18.7379    1431.6895   ✗       
+536   FTTFDLGGHPGQA            -1.0000     NotChecked  -18.7432    1346.6255   ✗       
+537   FTTDDLGGHPQAR            -1.0000     NotChecked  -18.7613    1413.6637   ✗       
+538   FTFDLGGHPQAQ             -1.0000     NotChecked  -18.7632    1316.6149   ✗       
+539   FTTFDLGGHPQAK            -1.0000     NotChecked  -18.7791    1417.6990   ✗       
+540   FTTFDLGGHPAR             -1.0000     NotChecked  -18.7883    1317.6466   ✗       
+541   FTTFN+0.984LGGHPAAR      -1.0000     NotChecked  -18.7911    1388.6837   ✗       
+542   FTTFDLGGHPKAR            -1.0000     Failed      -18.8096    1445.7415   ✓       
+543   FTTFNLGGHPAAR            -1.0000     NotChecked  -18.8224    1387.6997   ✗       
+544   FTTFDLGGHPAAR            -1.0000     NotChecked  -18.8238    1388.6837   ✗       
+545   FTTFN+0.984LGGHPQAG      -1.0000     NotChecked  -18.8308    1346.6255   ✗       
+546   FTTFDLGLHPAAR            -1.0000     NotChecked  -18.8347    1444.7463   ✗       
+547   FTVFDLGGHPAAR            -1.0000     NotChecked  -18.8387    1386.7044   ✗       
+548   LTTFDLGGHPQAR            -1.0000     NotChecked  -18.8503    1411.7208   ✗       
+549   GTTFDLGGHPAAR            -1.0000     NotChecked  -18.8513    1298.6367   ✗       
+550   FTTFDLGGHGQAR            -1.0000     NotChecked  -18.8564    1405.6738   ✗       
+551   FTTFN+0.984VGGHPQAR      -1.0000     NotChecked  -18.8576    1431.6895   ✗       
+552   FTTFN+0.984LGGHPAR       -1.0000     NotChecked  -18.8665    1317.6466   ✗       
+553   FTTFSLGGHPAAR            -1.0000     NotChecked  -18.8695    1360.6888   ✗       
+554   FPTFN+0.984LGGHPQAR      -1.0000     NotChecked  -18.8701    1441.7102   ✗       
+555   FTTFDLGGHPQAQ            -1.0000     NotChecked  -18.8798    1417.6626   ✗       
+556   FTTFDLGGHPAAR            -1.0000     NotChecked  -18.8802    1388.6837   ✗       
+557   FTTFDLGGHAAR             -1.0000     NotChecked  -18.8860    1291.6309   ✗       
+558   FTTFDSGGHPQAR            -1.0000     NotChecked  -18.8875    1419.6531   ✗       
+559   FFTFDLGGHPQR             -1.0000     NotChecked  -18.8883    1420.6888   ✗       
+560   FTSFDLGGHPQAR            -1.0000     NotChecked  -18.8993    1431.6895   ✗       
+561   FTTFDLGGHPGAR            -1.0000     NotChecked  -18.9072    1374.6680   ✗       
+562   LTTFDLGGHPQAR            -1.0000     NotChecked  -18.9105    1411.7208   ✗       
+563   FTTFDLGGHPQAG            -1.0000     NotChecked  -18.9199    1346.6255   ✗       
+564   +42.011FTFDLGGHPQAR      -1.0000     NotChecked  -18.9216    1386.6680   ✗       
+565   FTTFDLGGHPLAR            -1.0000     NotChecked  -18.9218    1430.7306   ✗       
+566   FQTFDLGGHPAAR            -1.0000     NotChecked  -18.9322    1415.6946   ✗       
+567   FTFDLGGHPQAR             -1.0000     NotChecked  -18.9406    1344.6575   ✗       
+568   FTTFDLGGHPGQR            -1.0000     NotChecked  -18.9556    1431.6895   ✗       
+569   FTFDLGGHPQAR             -1.0000     NotChecked  -18.9581    1344.6575   ✗       
+570   FTSFDLGGHPQAR            -1.0000     NotChecked  -18.9595    1431.6895   ✗       
+571   FTTFDLGGHPAAR            -1.0000     NotChecked  -18.9689    1388.6837   ✗       
+572   FTTFDLGGHPKAR            -1.0000     Failed      -18.9710    1445.7415   ✓       
+573   FTTFDLGGHPAR             -1.0000     NotChecked  -19.0040    1317.6466   ✗       
+574   TTFDLGGHPAAR             -1.0000     NotChecked  -19.0144    1241.6153   ✗       
+575   FTSFDLGGHPQ+0.984AR      -1.0000     NotChecked  -19.0264    1432.6735   ✗       
+576   FTTFN+0.984LGGHPAAR      -1.0000     NotChecked  -19.0279    1388.6837   ✗       
+577   FTTFDLGGHPKAR            -1.0000     Failed      -19.0312    1445.7415   ✓       
+578   FATFDLGGHPAAR            -1.0000     NotChecked  -19.0339    1358.6731   ✗       
+579   +42.011TTFDLGGHPQAR      -1.0000     NotChecked  -19.0382    1340.6473   ✗       
+580   FTTFDPGGHPQAR            -1.0000     NotChecked  -19.0387    1429.6738   ✗       
+581   ETTFDLGGHPQAR            -1.0000     NotChecked  -19.0434    1427.6793   ✗       
+582   FTFDLGGHPQA              -1.0000     NotChecked  -19.0436    1188.5564   ✗       
+583   FTTFDAGGHPQAR            -1.0000     NotChecked  -19.0541    1403.6582   ✗       
+584   FTTFN+0.984LGGHPQAF      -1.0000     NotChecked  -19.0603    1436.6725   ✗       
+585   FTTFDLGGHPALR            -1.0000     NotChecked  -19.0806    1430.7306   ✗       
+586   ATTFN+0.984LGGHPQAR      -1.0000     NotChecked  -19.0814    1369.6738   ✗       
+587   FTTFN+0.984LGGHPAAR      -1.0000     NotChecked  -19.0880    1388.6837   ✗       
+588   FTTFDLGGHPGQA            -1.0000     NotChecked  -19.1110    1346.6255   ✗       
+589   FTTFDLGGHPAAR            -1.0000     NotChecked  -19.1170    1388.6837   ✗       
+590   +43.006TTFN+0.984LGGHPQAR-1.0000     NotChecked  -19.1172    1341.6425   ✗       
+591   FLTFDLGGHPAAR            -1.0000     NotChecked  -19.1246    1400.7201   ✗       
+592   QTTFDLGGHPAAR            -1.0000     NotChecked  -19.1247    1369.6738   ✗       
+593   FTTFDLGGHPAR             -1.0000     NotChecked  -19.1335    1317.6466   ✗       
+594   FPTFDLGGHPQAR            -1.0000     NotChecked  -19.1371    1441.7102   ✗       
+595   FTTFDLGGHPGQR            -1.0000     NotChecked  -19.1445    1431.6895   ✗       
+596   FTTFDLGGHPQAF            -1.0000     NotChecked  -19.1494    1436.6725   ✗       
+597   FTTDDLGGHPAAR            -1.0000     NotChecked  -19.1500    1356.6422   ✗       
+598   FTEFDLGGHPAAR            -1.0000     NotChecked  -19.1526    1416.6786   ✗       
+599   FTTFDLGGHPQA             -1.0000     NotChecked  -19.1602    1289.6040   ✗       
+600   FTTFDLGGHPAAK            -1.0000     NotChecked  -19.1679    1360.6775   ✗       
+601   FTTFDLGGHPQAG            -1.0000     NotChecked  -19.1732    1346.6255   ✗       
+602   FTTFDLGGHPAAR            -1.0000     NotChecked  -19.1771    1388.6837   ✗       
+603   FTTFDVGGHPQAR            -1.0000     NotChecked  -19.2000    1431.6895   ✗       
+604   FTTFDLGGHPAAR            -1.0000     NotChecked  -19.2104    1388.6837   ✗       
+605   FPTFDLGGHPQAR            -1.0000     NotChecked  -19.2125    1441.7102   ✗       
+606   FTTFDLGGHPQAL            -1.0000     NotChecked  -19.2132    1402.6881   ✗       
+607   FTFDLGGHPQAR             -1.0000     NotChecked  -19.2148    1344.6575   ✗       
+608   FTFDLGGHPQAR             -1.0000     NotChecked  -19.2224    1344.6575   ✗       
+609   FTFDLGGHPGQAR            -1.0000     NotChecked  -19.2254    1401.6789   ✗       
+610   FQ+0.984TFDLGGHPAAR      -1.0000     NotChecked  -19.2274    1416.6786   ✗       
+611   FTTFDLGGHGAAR            -1.0000     NotChecked  -19.2451    1348.6524   ✗       
+612   FTTFDLGGHPGQR            -1.0000     NotChecked  -19.2478    1431.6895   ✗       
+613   FTTFDLGGHPAAR            -1.0000     NotChecked  -19.2957    1388.6837   ✗       
+614   FTTEN+0.984LGGHPQAR      -1.0000     NotChecked  -19.2963    1427.6793   ✗       
+615   FTTFDLGGHPGQA            -1.0000     NotChecked  -19.2998    1346.6255   ✗       
+616   FTTFDLGGHPAAG            -1.0000     NotChecked  -19.3086    1289.6040   ✗       
+617   FSTFN+0.984LGGHPQAR      -1.0000     NotChecked  -19.3093    1431.6895   ✗       
+618   VTTFN+0.984LGGHPQAR      -1.0000     NotChecked  -19.3096    1397.7051   ✗       
+619   FTFDLGGHPAAR             -1.0000     NotChecked  -19.3294    1287.6360   ✗       
+620   FTTFDLGGHPQAV            -1.0000     NotChecked  -19.3438    1388.6725   ✗       
+621   FTFDLGGHPAAR             -1.0000     NotChecked  -19.3469    1287.6360   ✗       
+622   FTTFDVGGHPQAR            -1.0000     NotChecked  -19.3614    1431.6895   ✗       
+623   FTTFDLGGHPAR             -1.0000     NotChecked  -19.3703    1317.6466   ✗       
+624   FPTFDLGGHPQAR            -1.0000     NotChecked  -19.3739    1441.7102   ✗       
+625   FTMFDLGGHPAAR            -1.0000     NotChecked  -19.3785    1418.6765   ✗       
+626   +42.011TTFDLGGHPQGAR     -1.0000     NotChecked  -19.3838    1397.6688   ✗       
+627   FTTEDLGGHPQAR            -1.0000     NotChecked  -19.3854    1427.6793   ✗       
+628   LTTFDLGGHPQAR            -1.0000     NotChecked  -19.3863    1411.7208   ✗       
+629   FTTFN+0.984LGGHPQR       -1.0000     NotChecked  -19.3983    1374.6680   ✗       
+630   FSTFDLGGHPQAR            -1.0000     NotChecked  -19.3984    1431.6895   ✗       
+631   FTTFDLGGHPQAF            -1.0000     NotChecked  -19.4027    1436.6725   ✗       
+632   FTTFDVGGHPQAR            -1.0000     NotChecked  -19.4215    1431.6895   ✗       
+633   ATTFDLGGHPQAR            -1.0000     NotChecked  -19.4238    1369.6738   ✗       
+634   FTTFDLGGHPQR             -1.0000     NotChecked  -19.4273    1374.6680   ✗       
+635   FTLFDLGGHPAAR            -1.0000     NotChecked  -19.4279    1400.7201   ✗       
+636   FTTFDLGGHPAR             -1.0000     NotChecked  -19.4304    1317.6466   ✗       
+637   ETTFDLGGHPAAR            -1.0000     NotChecked  -19.4322    1370.6579   ✗       
+638   FPTFDLGGHPQAR            -1.0000     NotChecked  -19.4340    1441.7102   ✗       
+639   FTTFDLGGHLAAR            -1.0000     NotChecked  -19.4359    1404.7150   ✗       
+640   FTTFDAGGHPAAR            -1.0000     NotChecked  -19.4429    1346.6367   ✗       
+641   FTTFDLGGHAQAR            -1.0000     NotChecked  -19.4463    1419.6895   ✗       
+642   FTVFN+0.984LGGHPQAR      -1.0000     NotChecked  -19.4487    1443.7259   ✗       
+643   +43.006TTFDLGGHPQAR      -1.0000     NotChecked  -19.4596    1341.6425   ✗       
+644   GTTFN+0.984LGGHPQAR      -1.0000     NotChecked  -19.4612    1355.6582   ✗       
+645   FTTFDLGGHPQ+0.984AG      -1.0000     NotChecked  -19.4616    1347.6095   ✗       
+646   FTTFLGGHPQAR             -1.0000     NotChecked  -19.4752    1330.6782   ✗       
+647   +42.011TTFDLGGHPQR       -1.0000     NotChecked  -19.4771    1269.6102   ✗       
+648   FTTFDLGGHPQR             -1.0000     NotChecked  -19.4874    1374.6680   ✗       
+649   FTTFDVGGHPQ+0.984AR      -1.0000     NotChecked  -19.4884    1432.6735   ✗       
+650   FTQ+0.984FDLGGHPAAR      -1.0000     NotChecked  -19.4895    1416.6786   ✗       
+651   FTTFN+0.984LGGHQAR       -1.0000     NotChecked  -19.4960    1348.6524   ✗       
+652   FPTFDLGGHPQ+0.984AR      -1.0000     NotChecked  -19.5009    1442.6943   ✗       
+653   FTTFDLGGHPQGA            -1.0000     NotChecked  -19.5059    1346.6255   ✗       
+654   FTTFDLGGHPGQR            -1.0000     NotChecked  -19.5297    1431.6895   ✗       
+655   FTFDLGGHPAAR             -1.0000     NotChecked  -19.5364    1287.6360   ✗       
+656   FTVFDLGGHPQAR            -1.0000     NotChecked  -19.5377    1443.7259   ✗       
+657   FTTFDLGGHPAAF            -1.0000     NotChecked  -19.5382    1379.6510   ✗       
+658   FTTFTLGGHPQAR            -1.0000     NotChecked  -19.5508    1431.7259   ✗       
+659   FTTFSLGGHPQAR            -1.0000     NotChecked  -19.5686    1417.7102   ✗       
+660   FTTFDLGGHQAR             -1.0000     NotChecked  -19.5851    1348.6524   ✗       
+661   FTTFDLGGHPAAL            -1.0000     NotChecked  -19.6020    1345.6666   ✗       
+662   FTTFN+0.984LGGHPQR       -1.0000     NotChecked  -19.6140    1374.6680   ✗       
+663   FTTYDLGGHPAAR            -1.0000     NotChecked  -19.6240    1404.6786   ✗       
+664   TTFN+0.984LGGHPQAR       -1.0000     NotChecked  -19.6243    1298.6367   ✗       
+665   +42.011FTTFDLGGHPQA      -1.0000     NotChecked  -19.6324    1331.6146   ✗       
+666   FTQFDLGGHPAAR            -1.0000     NotChecked  -19.6379    1415.6946   ✗       
+667   FTTEDLGGHPQAR            -1.0000     NotChecked  -19.6387    1427.6793   ✗       
+668   FATFN+0.984LGGHPQAR      -1.0000     NotChecked  -19.6439    1415.6946   ✗       
+669   FTTFDLGGHPQAQ            -1.0000     NotChecked  -19.6452    1417.6626   ✗       
+670   FSTFDLGGHPQAR            -1.0000     NotChecked  -19.6517    1431.6895   ✗       
+671   VTTFDLGGHPQAR            -1.0000     NotChecked  -19.6520    1397.7051   ✗       
+672   FTTFN+0.984LGGHPGAR      -1.0000     NotChecked  -19.6526    1374.6680   ✗       
+673   FTTFDLGGHPQAQ            -1.0000     NotChecked  -19.6528    1417.6626   ✗       
+674   FTTFDLGGHPAAR            -1.0000     NotChecked  -19.6530    1388.6837   ✗       
+675   FTTFN+0.984LGGHPLAR      -1.0000     NotChecked  -19.6672    1430.7306   ✗       
+676   FTTFDLGGHPQ+0.984AF      -1.0000     NotChecked  -19.6912    1437.6565   ✗       
+677   FTTFNLGGHPQAR            -1.0000     NotChecked  -19.6994    1444.7211   ✗       
+678   +42.011TTFDLGGHPGQAR     -1.0000     NotChecked  -19.7090    1397.6688   ✗       
+679   ATTFDLGGHPQ+0.984AR      -1.0000     NotChecked  -19.7122    1370.6579   ✗       
+680   FTTFDLGGHPAAV            -1.0000     NotChecked  -19.7325    1331.6510   ✗       
+681   FATFDLGGHPQAR            -1.0000     NotChecked  -19.7330    1415.6946   ✗       
+682   QTTFN+0.984LGGHPQAR      -1.0000     NotChecked  -19.7347    1426.6953   ✗       
+683   +43.006TTFDLGGHPQ+0.984AR-1.0000     NotChecked  -19.7481    1342.6266   ✗       
+684   FGTTFDLGGHPAAR           -1.0000     Failed      -19.7503    1445.7051   ✓       
+685   FTSFDLGGHPQAR            -1.0000     NotChecked  -19.7504    1431.6895   ✗       
+686   FTTDN+0.984LGGHPQAR      -1.0000     NotChecked  -19.7600    1413.6637   ✗       
+687   FTTFDLGGHPQR             -1.0000     NotChecked  -19.7703    1374.6680   ✗       
+688   FTTEDLGGHPAAR            -1.0000     NotChecked  -19.7741    1370.6579   ✗       
+689   FTTFNLGGHPQAR            -1.0000     NotChecked  -19.7747    1444.7211   ✗       
+690   FTTFN+0.984LGGHPQAK      -1.0000     NotChecked  -19.7778    1417.6990   ✗       
+691   FTTFDLGGHPQR             -1.0000     NotChecked  -19.7779    1374.6680   ✗       
+692   FTFDLGGHPGQAR            -1.0000     NotChecked  -19.7802    1401.6789   ✗       
+693   FTTFDLGGHPGQR            -1.0000     NotChecked  -19.7809    1431.6895   ✗       
+694   FTTFDLGGNPQAR            -1.0000     NotChecked  -19.7858    1422.6892   ✗       
+695   FSTFDLGGHPAAR            -1.0000     NotChecked  -19.7871    1374.6680   ✗       
+696   FTVFDLGGHPQAR            -1.0000     NotChecked  -19.7911    1443.7259   ✗       
+697   FTTFGLGGHPQAR            -1.0000     NotChecked  -19.7992    1387.6997   ✗       
+698   GTTFDLGGHPQAR            -1.0000     NotChecked  -19.8036    1355.6582   ✗       
+699   FTTFSLGGHPQAR            -1.0000     NotChecked  -19.8219    1417.7102   ✗       
+700   FTTFDLGGHPKAR            -1.0000     Failed      -19.8221    1445.7415   ✓       
+701   LTTFDLGGHPQR             -1.0000     NotChecked  -19.8252    1340.6837   ✗       
+702   FTTFDLGGHPGQA            -1.0000     NotChecked  -19.8310    1346.6255   ✗       
+703   FTTFDLGGHSQAR            -1.0000     NotChecked  -19.8342    1435.6844   ✗       
+704   FTTFDLGGHAAAR            -1.0000     NotChecked  -19.8351    1362.6680   ✗       
+705   FTTFDLGGHQAR             -1.0000     NotChecked  -19.8384    1348.6524   ✗       
+706   FTTDDLGGHPQAR            -1.0000     NotChecked  -19.8491    1413.6637   ✗       
+707   FTTFN+0.984LGGHGQAR      -1.0000     NotChecked  -19.8551    1405.6738   ✗       
+708   FTTFLGGHPAAR             -1.0000     NotChecked  -19.8640    1273.6567   ✗       
+709   FTTFDLGGHPQAK            -1.0000     NotChecked  -19.8669    1417.6990   ✗       
+710   FTSFDLGGHPQR             -1.0000     NotChecked  -19.8742    1360.6524   ✗       
+711   FTTFDLGGHPAR             -1.0000     NotChecked  -19.8761    1317.6466   ✗       
+712   FTTFN+0.984LGGHPAAR      -1.0000     NotChecked  -19.8790    1388.6837   ✗       
+713   FTFFDLGGHPQR             -1.0000     NotChecked  -19.9075    1420.6888   ✗       
+714   FTTFDLGGHPAAR            -1.0000     NotChecked  -19.9116    1388.6837   ✗       
+715   FTTFN+0.984LGGHPQAG      -1.0000     NotChecked  -19.9186    1346.6255   ✗       
+716   FTTFDLGGHPGAR            -1.0000     NotChecked  -19.9197    1374.6680   ✗       
+717   FTTFDLGLHPAAR            -1.0000     NotChecked  -19.9225    1444.7463   ✗       
+718   FTTFDLGNHPQR             -1.0000     NotChecked  -19.9242    1431.6895   ✗       
+719   FTTFDLGGHPQA             -1.0000     NotChecked  -19.9256    1289.6040   ✗       
+720   FTVFDLGGHPAAR            -1.0000     NotChecked  -19.9265    1386.7044   ✗       
+721   FTTEDLGGHPQ+0.984AR      -1.0000     NotChecked  -19.9271    1428.6633   ✗       
+722   FTTFDLGGHPQA             -1.0000     NotChecked  -19.9333    1289.6040   ✗       
+723   FTTFDLGGHPLAR            -1.0000     NotChecked  -19.9343    1430.7306   ✗       
+724   FTTFNLGGHPQAR            -1.0000     NotChecked  -19.9361    1444.7211   ✗       
+725   FTTFDLGGHPGQA            -1.0000     NotChecked  -19.9362    1346.6255   ✗       
+726   FTFN+0.984LGGHPQAR       -1.0000     NotChecked  -19.9394    1344.6575   ✗       
+727   FTTFTLGGHPAAR            -1.0000     NotChecked  -19.9396    1374.7044   ✗       
+728   FSTFDLGGHPQ+0.984AR      -1.0000     NotChecked  -19.9401    1432.6735   ✗       
+729   VTTFDLGGHPQ+0.984AR      -1.0000     NotChecked  -19.9404    1398.6892   ✗       
+730   FTTFDLGGHGQAR            -1.0000     NotChecked  -19.9442    1405.6738   ✗       
+731   FTTFDLGGHPKR             -1.0000     NotChecked  -19.9459    1374.7044   ✗       
+732   FTFN+0.984LGGHPQAR       -1.0000     NotChecked  -19.9568    1344.6575   ✗       
+733   FTTFSLGGHPAAR            -1.0000     NotChecked  -19.9574    1360.6888   ✗       
+734   FTFDLGGHPQAR             -1.0000     NotChecked  -19.9596    1344.6575   ✗       
+735   TTFDLGGHPQAR             -1.0000     NotChecked  -19.9667    1298.6367   ✗       
+736   FTTFDLGGHPAAQ            -1.0000     NotChecked  -19.9667    1360.6411   ✗       
+737   FTTFDLGVHPAAR            -1.0000     NotChecked  -19.9690    1430.7306   ✗       
+738   FTTFDLGHPQAR             -1.0000     NotChecked  -19.9691    1388.6837   ✗       
+739   FTTFDLGGHPRR             -1.0000     NotChecked  -19.9722    1402.7106   ✗       
+740   FTTFDLGGHAAR             -1.0000     NotChecked  -19.9738    1291.6309   ✗       
+741   FTTFDLGGYPAAR            -1.0000     NotChecked  -19.9774    1414.6881   ✗       
+742   LFTTFDLGGHPQA            -1.0000     NotChecked  -19.9806    1402.6881   ✗       
+743   FATFDLGGHPQAR            -1.0000     NotChecked  -19.9863    1415.6946   ✗       
+744   FTSFDLGGHPQAR            -1.0000     NotChecked  -19.9871    1431.6895   ✗       
+745   FTTFDLGGHPGAR            -1.0000     NotChecked  -19.9950    1374.6680   ✗       
+746   FTTFNLGGHPQAR            -1.0000     NotChecked  -19.9963    1444.7211   ✗       
+747   FTTFN+0.984LGGHPAR       -1.0000     NotChecked  -20.0028    1317.6466   ✗       
+748   +42.011FTFDLGGHPQAR      -1.0000     NotChecked  -20.0094    1386.6680   ✗       
+749   FTTFDLGGHPLAR            -1.0000     NotChecked  -20.0096    1430.7306   ✗       
+750   FTTFDLGGHPQR             -1.0000     NotChecked  -20.0151    1374.6680   ✗       
+751   FQTFDLGGHPAAR            -1.0000     NotChecked  -20.0201    1415.6946   ✗       
+752   FTTFDLGGHPGQR            -1.0000     NotChecked  -20.0214    1431.6895   ✗       
+753   FTFDLGGHPQAR             -1.0000     NotChecked  -20.0284    1344.6575   ✗       
+754   FTTFDLGGHPQ+0.984R       -1.0000     NotChecked  -20.0291    1375.6520   ✗       
+755   ETTFN+0.984LGGHPQAR      -1.0000     NotChecked  -20.0422    1427.6793   ✗       
+756   FTFDLGGHPQAR             -1.0000     NotChecked  -20.0459    1344.6575   ✗       
+757   FTSFDLGGHPQAR            -1.0000     NotChecked  -20.0473    1431.6895   ✗       
+758   FTTFN+0.984AGGHPQAR      -1.0000     NotChecked  -20.0528    1403.6582   ✗       
+759   FTTFDLGGHPAAR            -1.0000     NotChecked  -20.0568    1388.6837   ✗       
+760   FTTFDLGGHPKAR            -1.0000     Failed      -20.0588    1445.7415   ✓       
+761   FTFDLGGHPGQAR            -1.0000     NotChecked  -20.0621    1401.6789   ✗       
+762   +42.011TTFDLGGHPGQAR     -1.0000     NotChecked  -20.0767    1397.6688   ✗       
+763   QTTFDLGGHPQAR            -1.0000     NotChecked  -20.0771    1426.6953   ✗       
+764   FTVFDLGGHPQ+0.984AR      -1.0000     NotChecked  -20.0795    1444.7099   ✗       
+765   FTTFDLGGHPAR             -1.0000     NotChecked  -20.0919    1317.6466   ✗       
+766   GTTFDLGGHPQ+0.984AR      -1.0000     NotChecked  -20.0921    1356.6422   ✗       
+767   FTTFELGGHPQR             -1.0000     NotChecked  -20.0955    1388.6837   ✗       
+768   +42.011FTTFDLGGHPAAR     -1.0000     NotChecked  -20.1251    1430.6942   ✗       
+769   TTFDLGGHPQ+0.984AR       -1.0000     NotChecked  -20.2552    1299.6207   ✗       
+770   +42.011TTFDLGGHPGQAR     -1.0000     NotChecked  -20.2656    1397.6688   ✗       
+771   QTTFDLGGHPQ+0.984AR      -1.0000     NotChecked  -20.3656    1427.6793   ✗       
+772   ETTFDLGGHPQAR            -1.0000     NotChecked  -20.3846    1427.6793   ✗       
+773   ATTFDLGGHPQAR            -1.0000     NotChecked  -20.4362    1369.6738   ✗       
+774   +42.011TTFDLGGHPQAQ      -1.0000     NotChecked  -20.4397    1312.6048   ✗       
+775   +43.006TTFDLGGHPQAR      -1.0000     NotChecked  -20.4721    1341.6425   ✗       
+776   ATTFDLGGHPQQR            -1.0000     NotChecked  -20.5379    1426.6953   ✗       
+777   +43.006TTFDLGGHPQQR      -1.0000     NotChecked  -20.5738    1398.6640   ✗       
+778   +43.006FTTFDLGGHPQR      -1.0000     NotChecked  -20.5959    1417.6738   ✗       
+779   VTTFDLGGHPQAR            -1.0000     NotChecked  -20.6645    1397.7051   ✗       
+780   ATTFDLGGHPQAR            -1.0000     NotChecked  -20.6730    1369.6738   ✗       
+781   ETTFDLGGHPQ+0.984AR      -1.0000     NotChecked  -20.6730    1428.6633   ✗       
+782   +43.006TTFDLGGHPQAR      -1.0000     NotChecked  -20.7089    1341.6425   ✗       
+783   +42.011TTFDLGGHPQA       -1.0000     NotChecked  -20.7202    1184.5462   ✗       
+784   ATTFDLGGHPQAR            -1.0000     NotChecked  -20.7331    1369.6738   ✗       
+785   +43.006TTFDLGGHPQAR      -1.0000     NotChecked  -20.7690    1341.6425   ✗       
+786   LTTFDLGGHPQAQ            -1.0000     NotChecked  -20.7879    1383.6783   ✗       
+787   GTTFDLGGHPQAR            -1.0000     NotChecked  -20.8161    1355.6582   ✗       
+788   +42.011TTFDLGGHPQAR      -1.0000     NotChecked  -20.8914    1340.6473   ✗       
+789   +42.011TTFDLGGHPQAR      -1.0000     NotChecked  -20.8990    1340.6473   ✗       
+790   VTTFDLGGHPQAR            -1.0000     NotChecked  -20.9012    1397.7051   ✗       
+791   +42.011TTFDLGGHPGQAR     -1.0000     NotChecked  -20.9020    1397.6688   ✗       
+792   GTTFDLGGHPQQR            -1.0000     NotChecked  -20.9178    1412.6797   ✗       
+793   GFTTFDLGGHPQR            -1.0000     NotChecked  -20.9399    1431.6895   ✗       
+794   VTTFDLGGHPQAR            -1.0000     NotChecked  -20.9614    1397.7051   ✗       
+795   TTFDLGGHPQAR             -1.0000     NotChecked  -20.9792    1298.6367   ✗       
+796   GTTFDLGGHPQAR            -1.0000     NotChecked  -21.0528    1355.6582   ✗       
+797   LTTFDLGGHPQA             -1.0000     NotChecked  -21.0684    1255.6197   ✗       
+798   TTFDLGGHPQQR             -1.0000     NotChecked  -21.0809    1355.6582   ✗       
+799   QTTFDLGGHPQAR            -1.0000     NotChecked  -21.0896    1426.6953   ✗       
+800   AFTFDLGGHPQAR            -1.0000     NotChecked  -21.0924    1415.6946   ✗       
+801   FTTFDLGGHPQR             -1.0000     NotChecked  -21.1030    1374.6680   ✗       
+802   GTTFDLGGHPQAR            -1.0000     NotChecked  -21.1130    1355.6582   ✗       
+803   +42.011FTTFN+0.984LGGHPAAR-1.0000     NotChecked  -21.1239    1430.6942   ✗       
+804   +43.006FTFDLGGHPQAR      -1.0000     NotChecked  -21.1283    1387.6633   ✗       
+805   ATTFDLGGHPQAR            -1.0000     NotChecked  -21.2090    1369.6738   ✗       
+806   +42.011TTFDLGGHPAAR      -1.0000     NotChecked  -21.2129    1283.6258   ✗       
+807   TTFDLGGHPQAR             -1.0000     NotChecked  -21.2159    1298.6367   ✗       
+808   LTTFDLGGHPQAR            -1.0000     NotChecked  -21.2396    1411.7208   ✗       
+809   +43.006TTFDLGGHPQAR      -1.0000     NotChecked  -21.2449    1341.6425   ✗       
+810   LTTFDLGGHPQAR            -1.0000     NotChecked  -21.2472    1411.7208   ✗       
+811   TTFDLGGHPQAR             -1.0000     NotChecked  -21.2761    1298.6367   ✗       
+812   VFTFDLGGHPQAR            -1.0000     NotChecked  -21.3206    1443.7259   ✗       
+813   QTTFDLGGHPQAR            -1.0000     NotChecked  -21.3263    1426.6953   ✗       
+814   QTTFDLGGHPQAR            -1.0000     NotChecked  -21.3865    1426.6953   ✗       
+815   ETTFDLGGHPQAR            -1.0000     NotChecked  -21.3970    1427.6793   ✗       
+816   VTTFDLGGHPQAR            -1.0000     NotChecked  -21.4372    1397.7051   ✗       
+817   +42.011TTFDLGGHPGQAR     -1.0000     NotChecked  -21.4567    1397.6688   ✗       
+818   +42.011FTTFDLGGHPAR      -1.0000     NotChecked  -21.4663    1359.6571   ✗       
+819   GFTFDLGGHPQAR            -1.0000     NotChecked  -21.4722    1401.6789   ✗       
+820   ATTFDLGGHPQGAR           -1.0000     NotChecked  -21.5546    1426.6953   ✗       
+821   LTTFDLGGHPAAR            -1.0000     NotChecked  -21.5611    1354.6993   ✗       
+822   GTTFDLGGHPQAR            -1.0000     NotChecked  -21.5888    1355.6582   ✗       
+823   +43.006TTFDLGGHPQGAR     -1.0000     NotChecked  -21.5905    1398.6640   ✗       
+824   ETTFDLGGHPQAR            -1.0000     NotChecked  -21.6338    1427.6793   ✗       
+825   FTFDLGGHPQAR             -1.0000     NotChecked  -21.6353    1344.6575   ✗       
+826   +42.011TTFDLGGHPQAR      -1.0000     NotChecked  -21.6362    1340.6473   ✗       
+827   ATTFDLGGHPQR             -1.0000     NotChecked  -21.6478    1298.6367   ✗       
+828   +43.006TTFDLGGHPQR       -1.0000     NotChecked  -21.6837    1270.6054   ✗       
+829   ETTFDLGGHPQAR            -1.0000     NotChecked  -21.6939    1427.6793   ✗       
+830   +42.011TTFDLGGHPGQAR     -1.0000     NotChecked  -21.7386    1397.6688   ✗       
+831   TTFDLGGHPQAR             -1.0000     NotChecked  -21.7519    1298.6367   ✗       
+832   AFTTFDLGGHPQA            -1.0000     NotChecked  -21.8032    1360.6411   ✗       
+833   LFTTFDLGGHPAR            -1.0000     NotChecked  -21.8144    1430.7306   ✗       
+834   +42.011TTFN+0.984LGGHPQAR-1.0000     NotChecked  -21.8229    1340.6473   ✗       
+835   +43.006FTTFDLGGHPQA      -1.0000     NotChecked  -21.8391    1332.6099   ✗       
+836   QTTFDLGGHPQAR            -1.0000     NotChecked  -21.8623    1426.6953   ✗       
+837   VTTFDLGGHPQR             -1.0000     NotChecked  -21.8761    1326.6680   ✗       
+838   ATTFDLGGHPGQAR           -1.0000     NotChecked  -21.8798    1426.6953   ✗       
+839   +43.006TTFDLGGHPGQAR     -1.0000     NotChecked  -21.9156    1398.6640   ✗       
+840   GTTFDLGGHPQGAR           -1.0000     NotChecked  -21.9345    1412.6797   ✗       
+841   LTTFDLGGHPQAR            -1.0000     NotChecked  -21.9844    1411.7208   ✗       
+842   GTTFDLGGHPQR             -1.0000     NotChecked  -22.0277    1284.6211   ✗       
+843   VFTTFDLGGHPQA            -1.0000     NotChecked  -22.0314    1388.6725   ✗       
+844   FTTFDLGGHPQAQ            -1.0000     NotChecked  -22.0657    1417.6626   ✗       
+845   +42.011TSFDLGGHPQAR      -1.0000     NotChecked  -22.0831    1326.6317   ✗       
+846   TTFDLGGHPQGAR            -1.0000     NotChecked  -22.0976    1355.6582   ✗       
+847   +42.011TFFDLGGHPQAR      -1.0000     NotChecked  -22.1164    1386.6680   ✗       
+848   +42.011TTFDLGNHPQAR      -1.0000     NotChecked  -22.1331    1397.6688   ✗       
+849   +42.011TTFDLGGHPKAR      -1.0000     NotChecked  -22.1548    1340.6837   ✗       
+850   +42.011TTFDLGGHPQAR      -1.0000     NotChecked  -22.1653    1340.6473   ✗       
+851   ETTFDLGGHPQAR            -1.0000     NotChecked  -22.1698    1427.6793   ✗       
+852   LTTFN+0.984LGGHPQAR      -1.0000     NotChecked  -22.1711    1411.7208   ✗       
+853   AFTFDLGGHPQAR            -1.0000     NotChecked  -22.1802    1415.6946   ✗       
+854   +42.011TTFDLGGHPRAR      -1.0000     NotChecked  -22.1811    1368.6898   ✗       
+855   GFTTFDLGGHPQA            -1.0000     NotChecked  -22.1831    1346.6255   ✗       
+856   TTFDLGGHPQR              -1.0000     NotChecked  -22.1908    1227.5996   ✗       
+857   +42.011TTFN+0.984LGGHPAAR-1.0000     NotChecked  -22.2117    1283.6258   ✗       
+858   +43.006FTFDLGGHPQAR      -1.0000     NotChecked  -22.2161    1387.6633   ✗       
+859   +42.011TTFDLGGHPQAR      -1.0000     NotChecked  -22.2240    1340.6473   ✗       
+860   ATTFDLGGHPGQAR           -1.0000     NotChecked  -22.2475    1426.6953   ✗       
+861   +42.011FTTFDLGGHPGAR     -1.0000     NotChecked  -22.2524    1416.6786   ✗       
+862   GTTFDLGGHPGQAR           -1.0000     NotChecked  -22.2596    1412.6797   ✗       
+863   +43.006TTFDLGGHPGQAR     -1.0000     NotChecked  -22.2834    1398.6640   ✗       
+864   QTTFDLGGHPQR             -1.0000     NotChecked  -22.3012    1355.6582   ✗       
+865   +42.011TTFELGGHPQAR      -1.0000     NotChecked  -22.3044    1354.6629   ✗       
+866   +43.006FTTFDLGGHPAAR     -1.0000     NotChecked  -22.3318    1431.6895   ✗       
+867   FTTFDLGGHPQA             -1.0000     NotChecked  -22.3462    1289.6040   ✗       
+868   VFTFDLGGHPQAR            -1.0000     NotChecked  -22.4084    1443.7259   ✗       
+869   TTFDLGGHPGQAR            -1.0000     NotChecked  -22.4227    1355.6582   ✗       
+870   LTSFDLGGHPQAR            -1.0000     NotChecked  -22.4313    1397.7052   ✗       
+871   ATTFDLGGHPGQAR           -1.0000     NotChecked  -22.4364    1426.6953   ✗       
+872   +42.011TTFDLGGHPQ+0.984AR-1.0000     NotChecked  -22.4538    1341.6313   ✗       
+873   QFTTFDLGGHPQA            -1.0000     NotChecked  -22.4565    1417.6626   ✗       
+874   +43.006TTFDLGGHPGQAR     -1.0000     NotChecked  -22.4722    1398.6640   ✗       
+875   +42.011FTTFDLGGHPAAR     -1.0000     NotChecked  -22.4787    1430.6942   ✗       
+876   LTTFDLGGHPKAR            -1.0000     NotChecked  -22.5030    1411.7572   ✗       
+877   LTTFDLGGHPQAR            -1.0000     NotChecked  -22.5135    1411.7208   ✗       
+878   +42.011FTTFDLGGHPQAG     -1.0000     NotChecked  -22.5184    1388.6361   ✗       
+879   LTTFDLGGHPRAR            -1.0000     NotChecked  -22.5292    1439.7633   ✗       
+880   +42.011TTFDVGGHPQAR      -1.0000     NotChecked  -22.5451    1326.6316   ✗       
+881   +42.011TTFDLGGHPAR       -1.0000     NotChecked  -22.5541    1212.5887   ✗       
+882   +42.011TTFDLGGHPQAR      -1.0000     NotChecked  -22.5559    1340.6473   ✗       
+883   +42.011PTFDLGGHPQAR      -1.0000     NotChecked  -22.5576    1336.6524   ✗       
+884   LTTFN+0.984LGGHPAAR      -1.0000     NotChecked  -22.5598    1354.6993   ✗       
+885   GFTFDLGGHPQAR            -1.0000     NotChecked  -22.5601    1401.6789   ✗       
+886   LTTFDLGGHPQAR            -1.0000     NotChecked  -22.5722    1411.7208   ✗       
+887   ETTFDLGGHPQR             -1.0000     NotChecked  -22.6086    1356.6422   ✗       
+888   ATTFDLGGHPQAQ            -1.0000     NotChecked  -22.6105    1341.6313   ✗       
+889   GTTFDLGGHPGQAR           -1.0000     NotChecked  -22.6274    1412.6797   ✗       
+890   +43.006TTFDLGGHPQAQ      -1.0000     NotChecked  -22.6464    1313.6000   ✗       
+891   LTTFELGGHPQAR            -1.0000     NotChecked  -22.6526    1425.7364   ✗       
+892   +42.011FTTFDLGGHPAAR     -1.0000     NotChecked  -22.7155    1430.6942   ✗       
+893   +42.011TTFDLGGHPQQ+0.984R-1.0000     NotChecked  -22.7172    1398.6528   ✗       
+894   FTFDLGGHPQAR             -1.0000     NotChecked  -22.7232    1344.6575   ✗       
+895   EFTTFDLGGHPQA            -1.0000     NotChecked  -22.7640    1418.6466   ✗       
+896   +42.011FTTFDLGGHPAAR     -1.0000     NotChecked  -22.7756    1430.6942   ✗       
+897   TTFDLGGHPGQAR            -1.0000     NotChecked  -22.7905    1355.6582   ✗       
+898   LTTFDLGGHPQ+0.984AR      -1.0000     NotChecked  -22.8019    1412.7048   ✗       
+899   GTTFDLGGHPGQAR           -1.0000     NotChecked  -22.8162    1412.6797   ✗       
+900   VTTFDLGGHPQAQ            -1.0000     NotChecked  -22.8388    1369.6626   ✗       
+901   FTTFDLGGHPAAR            -1.0000     NotChecked  -22.8389    1388.6837   ✗       
+902   ATTFDLGGHPQA             -1.0000     NotChecked  -22.8910    1213.5727   ✗       
+903   LTTFDVGGHPQAR            -1.0000     NotChecked  -22.8933    1397.7051   ✗       
+904   LTTFDLGGHPAR             -1.0000     NotChecked  -22.9023    1283.6622   ✗       
+905   LTTFDLGGHPQAR            -1.0000     NotChecked  -22.9041    1411.7208   ✗       
+906   LPTFDLGGHPQAR            -1.0000     NotChecked  -22.9058    1407.7259   ✗       
+907   +43.006TTFDLGGHPQA       -1.0000     NotChecked  -22.9269    1185.5414   ✗       
+908   TTFDLGGHPGQAR            -1.0000     NotChecked  -22.9793    1355.6582   ✗       
+909   GTTFDLGGHPQAQ            -1.0000     NotChecked  -22.9904    1327.6157   ✗       
+910   ATTFDLGGHPQAR            -1.0000     NotChecked  -23.0622    1369.6738   ✗       
+911   ATTFDLGGHPQAR            -1.0000     NotChecked  -23.0698    1369.6738   ✗       
+912   ATTFDLGGHPGQAR           -1.0000     NotChecked  -23.0728    1426.6953   ✗       
+913   +42.011FTTFDLGGHPQR      -1.0000     NotChecked  -23.0859    1416.6786   ✗       
+914   +43.006TTFDLGGHPQAR      -1.0000     NotChecked  -23.0981    1341.6425   ✗       
+915   +43.006TTFDLGGHPQAR      -1.0000     NotChecked  -23.1057    1341.6425   ✗       
+916   +43.006TTFDLGGHPGQAR     -1.0000     NotChecked  -23.1087    1398.6640   ✗       
+917   VTTFDLGGHPQA             -1.0000     NotChecked  -23.1192    1241.6040   ✗       
+918   +42.011TTFNLGGHPQAR      -1.0000     NotChecked  -23.1199    1339.6633   ✗       
+919   TTFDLGGHPQAQ             -1.0000     NotChecked  -23.1535    1270.5942   ✗       
+920   +42.011TTFN+0.984LGGHPQAR-1.0000     NotChecked  -23.1640    1340.6473   ✗       
+921   +42.011TTFDLGGHPQAR      -1.0000     NotChecked  -23.1778    1340.6473   ✗       
+922   +42.011FTTFDLGGHQAR      -1.0000     NotChecked  -23.1836    1390.6629   ✗       
+923   +42.011TTFDLGGHPC+57.021AR-1.0000     NotChecked  -23.2282    1372.6194   ✗       
+924   QTTFDLGGHPQAQ            -1.0000     NotChecked  -23.2639    1398.6528   ✗       
+925   GTTFDLGGHPQA             -1.0000     NotChecked  -23.2709    1199.5571   ✗       
+926   +42.011TTFDLGGHPQER      -1.0000     NotChecked  -23.2727    1398.6528   ✗       
+927   +42.011TTFDLGGHPQQR      -1.0000     NotChecked  -23.2795    1397.6688   ✗       
+928   VTTFDLGGHPQAR            -1.0000     NotChecked  -23.2904    1397.7051   ✗       
+929   VTTFDLGGHPQAR            -1.0000     NotChecked  -23.2980    1397.7051   ✗       
+930   +42.011FTTFDLGGHPQR      -1.0000     NotChecked  -23.3016    1416.6786   ✗       
+931   +43.006FTTFN+0.984LGGHPAAR-1.0000     NotChecked  -23.3306    1431.6895   ✗       
+932   +42.011TTFDLGGHPGAR      -1.0000     NotChecked  -23.3402    1269.6102   ✗       
+933   +42.011TTFDLGGHPLAR      -1.0000     NotChecked  -23.3548    1325.6728   ✗       
+934   +42.011TTFDLGGHPQLR      -1.0000     NotChecked  -23.3782    1382.6942   ✗       
+935   ATTFDLGGHPAAR            -1.0000     NotChecked  -23.3837    1312.6524   ✗       
+936   +42.011TTFDLGGHPQAR      -1.0000     NotChecked  -23.4145    1340.6473   ✗       
+937   +43.006TTFDLGGHPAAR      -1.0000     NotChecked  -23.4196    1284.6211   ✗       
+938   +42.011LTFDLGGHPQAR      -1.0000     NotChecked  -23.4221    1352.6837   ✗       
+939   TTFDLGGHPQA              -1.0000     NotChecked  -23.4340    1142.5356   ✗       
+940   GTTFDLGGHPQAR            -1.0000     NotChecked  -23.4421    1355.6582   ✗       
+941   GTTFDLGGHPQAR            -1.0000     NotChecked  -23.4497    1355.6582   ✗       
+942   +42.011TTFN+0.984LGGHPQ+0.984AR-1.0000     NotChecked  -23.4525    1341.6313   ✗       
+943   GTTFDLGGHPGQAR           -1.0000     NotChecked  -23.4527    1412.6797   ✗       
+944   LTTFNLGGHPQAR            -1.0000     NotChecked  -23.4681    1410.7368   ✗       
+945   +42.011TTFDLGGHPQAR      -1.0000     NotChecked  -23.4747    1340.6473   ✗       
+946   LTTFN+0.984LGGHPQAR      -1.0000     NotChecked  -23.5122    1411.7208   ✗       
+947   +42.011Q+0.984TFDLGGHPQAR-1.0000     NotChecked  -23.5250    1368.6422   ✗       
+948   LTTFDLGGHPQAR            -1.0000     NotChecked  -23.5259    1411.7208   ✗       
+949   QTTFDLGGHPQA             -1.0000     NotChecked  -23.5444    1270.5942   ✗       
+950   +42.011TTFDLGGHPEAR      -1.0000     NotChecked  -23.5592    1341.6313   ✗       
+951   +42.011TTFDLGGHPAAR      -1.0000     NotChecked  -23.5665    1283.6258   ✗       
+952   ETTFDLGGHPQAQ            -1.0000     NotChecked  -23.5713    1399.6368   ✗       
+953   LTTFDLGGHPC+57.021AR     -1.0000     NotChecked  -23.5763    1443.6929   ✗       
+954   TTFDLGGHPQAR             -1.0000     NotChecked  -23.6052    1298.6367   ✗       
+955   +42.011TTFDLGGHPQAG      -1.0000     NotChecked  -23.6062    1241.5677   ✗       
+956   VTTFDLGGHPAAR            -1.0000     NotChecked  -23.6120    1340.6837   ✗       
+957   TTFDLGGHPQAR             -1.0000     NotChecked  -23.6128    1298.6367   ✗       
+958   TTFDLGGHPGQAR            -1.0000     NotChecked  -23.6158    1355.6582   ✗       
+959   +42.011YTFDLGGHPQAR      -1.0000     NotChecked  -23.6165    1402.6630   ✗       
+960   +42.011FTFDLGGHPQAR      -1.0000     NotChecked  -23.6270    1386.6680   ✗       
+961   ATTFDLGGHPGQAR           -1.0000     NotChecked  -23.6275    1426.6953   ✗       
+962   AFTTFDLGGHPAR            -1.0000     NotChecked  -23.6371    1388.6837   ✗       
+963   +42.011FTFDLGGHPQAR      -1.0000     NotChecked  -23.6444    1386.6680   ✗       
+964   +43.006TTFDLGGHPGQAR     -1.0000     NotChecked  -23.6634    1398.6640   ✗       
+965   +42.011TTFDLGGHPAQR      -1.0000     NotChecked  -23.6682    1340.6473   ✗       
+966   +43.006FTTFDLGGHPAR      -1.0000     NotChecked  -23.6730    1360.6524   ✗       
+967   +42.011TMFDLGGHPQAR      -1.0000     NotChecked  -23.6760    1370.6401   ✗       
+968   LTTFDLGGHPGAR            -1.0000     NotChecked  -23.6884    1340.6837   ✗       
+969   +42.011FTTFDLGGHPAR      -1.0000     NotChecked  -23.6904    1359.6571   ✗       
+970   LTTFDLGGHPLAR            -1.0000     NotChecked  -23.7030    1396.7463   ✗       
+971   FTSFDLGGHPQAR            -1.0000     NotChecked  -23.7091    1431.6895   ✗       
+972   QTTFDLGGHPQAR            -1.0000     NotChecked  -23.7156    1426.6953   ✗       
+973   QTTFDLGGHPQAR            -1.0000     NotChecked  -23.7232    1426.6953   ✗       
+974   +42.011TLFDLGGHPQAR      -1.0000     NotChecked  -23.7254    1352.6837   ✗       
+975   LTTFDLGGHPQAR            -1.0000     NotChecked  -23.7627    1411.7208   ✗       
+976   GTTFDLGGHPAAR            -1.0000     NotChecked  -23.7636    1298.6367   ✗       
+977   LLTFDLGGHPQAR            -1.0000     NotChecked  -23.7703    1423.7572   ✗       
+978   +42.011TTFDLGGHPAQAR     -1.0000     NotChecked  -23.7709    1411.6844   ✗       
+979   FTTFDLGGHPKAR            -1.0000     Failed      -23.7807    1445.7415   ✓       
+980   +42.011TQ+0.984FDLGGHPQAR-1.0000     NotChecked  -23.7870    1368.6422   ✗       
+981   +42.011TTFDLGGHPQ+0.984AR-1.0000     NotChecked  -23.7949    1341.6313   ✗       
+982   LTTFN+0.984LGGHPQ+0.984AR-1.0000     NotChecked  -23.8007    1412.7048   ✗       
+983   +42.011TTFDLGGHPAAR      -1.0000     NotChecked  -23.8033    1283.6258   ✗       
+984   ATTFDLGGHPQAR            -1.0000     NotChecked  -23.8070    1369.6738   ✗       
+985   LTTFDLGGHPQAR            -1.0000     NotChecked  -23.8229    1411.7208   ✗       
+986   +42.011FTFDLGGHPQAR      -1.0000     NotChecked  -23.8339    1386.6680   ✗       
+987   +42.011TTFDLGGHPQAF      -1.0000     NotChecked  -23.8357    1331.6146   ✗       
+988   FTTFN+0.984LGGHPAAR      -1.0000     NotChecked  -23.8376    1388.6837   ✗       
+989   +43.006TTFDLGGHPQAR      -1.0000     NotChecked  -23.8429    1341.6425   ✗       
+990   ETTFDLGGHPQA             -1.0000     NotChecked  -23.8518    1271.5782   ✗       
+991   +42.011TTFDLGGHPAAR      -1.0000     NotChecked  -23.8634    1283.6258   ✗       
+992   VFTTFDLGGHPAR            -1.0000     NotChecked  -23.8653    1416.7150   ✗       
+993   LQ+0.984TFDLGGHPQAR      -1.0000     NotChecked  -23.8731    1439.7157   ✗       
+994   +42.011FTTFDLGGHPQAL     -1.0000     NotChecked  -23.8996    1444.6987   ✗       
+995   LTTFDLGGHPEAR            -1.0000     NotChecked  -23.9073    1412.7048   ✗       
+996   ATTFDLGGHPGQAR           -1.0000     NotChecked  -23.9094    1426.6953   ✗       
+997   LTTFDLGGHPAAR            -1.0000     NotChecked  -23.9147    1354.6993   ✗       
+998   TTFDLGGHPAAR             -1.0000     NotChecked  -23.9267    1241.6153   ✗       
+999   +42.011TQFDLGGHPQAR      -1.0000     NotChecked  -23.9355    1367.6582   ✗       
+1000  +43.006TTFDLGGHPGQAR     -1.0000     NotChecked  -23.9453    1398.6640   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: FTTFDLGGHPQAR
+Similarity: 0.9061
+De Novo Score: -0.3130
+Source: Database
+Correct: ✓
+

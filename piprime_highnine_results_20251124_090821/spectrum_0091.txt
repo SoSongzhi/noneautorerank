@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 91
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 402.5509
+Precursor charge: 3+
+Ground truth: IAGHPIAQNER
+Ground truth (normalized): IAGHPIAQNER
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 270
+Used for reranking: 270
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 270 (27.0%)
+Database matches: 189 (18.9%)
+Prosit predictions: 72 (7.2%)
+Failed: 9 (0.9%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.8744
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     LAGHPLAQNER              0.8744      Database    -0.0251     1204.6313   ✓       ✓
+2     LAGHPLAQNER              0.8744      Database    -4.3465     1204.6313   ✓       ✓
+3     LAGHPLAQNER              0.8744      Database    -5.2577     1204.6313   ✓       ✓
+4     LAGHPLAQNER              0.8744      Database    -5.6440     1204.6313   ✓       ✓
+5     LAGHPLAQNER              0.8744      Database    -7.1820     1204.6313   ✓       ✓
+6     LAGHPLAQNER              0.8744      Database    -7.4855     1204.6313   ✓       ✓
+7     LAGHPLAQNER              0.8744      Database    -9.7965     1204.6313   ✓       ✓
+8     LAGHPLAQNER              0.8744      Database    -9.9654     1204.6313   ✓       ✓
+9     LAGHPLAQNER              0.8744      Database    -10.1152    1204.6313   ✓       ✓
+10    LAGHPLAQNER              0.8744      Database    -10.1416    1204.6313   ✓       ✓
+11    LAGHPLAQNER              0.8744      Database    -10.8765    1204.6313   ✓       ✓
+12    LAGHPLAQNER              0.8744      Database    -10.9298    1204.6313   ✓       ✓
+13    LAGHPLAQNER              0.8744      Database    -11.1732    1204.6313   ✓       ✓
+14    LAGHPLAQNER              0.8744      Database    -11.2554    1204.6313   ✓       ✓
+15    LAGHPLAQNER              0.8744      Database    -11.5035    1204.6313   ✓       ✓
+16    LAGHPLAQNER              0.8744      Database    -11.8069    1204.6313   ✓       ✓
+17    LAGHPLAQNER              0.8744      Database    -12.4146    1204.6313   ✓       ✓
+18    LAGHPLAQNER              0.8744      Database    -12.5335    1204.6313   ✓       ✓
+19    LAGHPLAQNER              0.8744      Database    -12.7180    1204.6313   ✓       ✓
+20    LAGHPLAQNER              0.8744      Database    -12.7696    1204.6313   ✓       ✓
+21    LAGHPLAQNER              0.8744      Database    -12.8009    1204.6313   ✓       ✓
+22    LAGHPLAQNER              0.8744      Database    -13.1043    1204.6313   ✓       ✓
+23    LAGHPLAQNER              0.8744      Database    -13.6335    1204.6313   ✓       ✓
+24    LAGHPLAQNER              0.8744      Database    -14.1179    1204.6313   ✓       ✓
+25    LAGHPLAQNER              0.8744      Database    -14.4366    1204.6313   ✓       ✓
+26    LAGHPLAQNER              0.8744      Database    -14.4630    1204.6313   ✓       ✓
+27    LAGHPLAQNER              0.8744      Database    -14.4747    1204.6313   ✓       ✓
+28    LAGHPLAQNER              0.8744      Database    -14.6424    1204.6313   ✓       ✓
+29    LAGHPLAQNER              0.8744      Database    -14.6824    1204.6313   ✓       ✓
+30    LAGHPLAQNER              0.8744      Database    -15.0290    1204.6313   ✓       ✓
+31    LAGHPLAQNER              0.8744      Database    -15.2513    1204.6313   ✓       ✓
+32    LAGHPLAQNER              0.8744      Database    -15.3477    1204.6313   ✓       ✓
+33    LAGHPLAQNER              0.8744      Database    -15.3742    1204.6313   ✓       ✓
+34    LAGHPLAQNER              0.8744      Database    -15.4947    1204.6313   ✓       ✓
+35    LAGHPLAQNER              0.8744      Database    -15.5768    1204.6313   ✓       ✓
+36    LAGHPLAQNER              0.8744      Database    -15.7340    1204.6313   ✓       ✓
+37    LAGHPLAQNER              0.8744      Database    -15.9800    1204.6313   ✓       ✓
+38    LAGHPLAQNER              0.8744      Database    -16.0422    1204.6313   ✓       ✓
+39    LAGHPLAQNER              0.8744      Database    -16.1624    1204.6313   ✓       ✓
+40    LAGHPLAQNER              0.8744      Database    -16.4058    1204.6313   ✓       ✓
+41    LAGHPLAQNER              0.8744      Database    -16.4879    1204.6313   ✓       ✓
+42    LAGHPLAQNER              0.8744      Database    -16.5487    1204.6313   ✓       ✓
+43    LAGHPLAQNER              0.8744      Database    -16.7921    1204.6313   ✓       ✓
+44    LAGHPLAQNER              0.8744      Database    -16.8549    1204.6313   ✓       ✓
+45    LAGHPLAQNER              0.8744      Database    -16.8742    1204.6313   ✓       ✓
+46    LAGHPLAQNER              0.8744      Database    -16.9534    1204.6313   ✓       ✓
+47    LAGHPLAQNER              0.8744      Database    -17.0911    1204.6313   ✓       ✓
+48    LAGHPLAQNER              0.8744      Database    -17.1223    1204.6313   ✓       ✓
+49    LAGHPLAQNER              0.8744      Database    -17.2721    1204.6313   ✓       ✓
+50    LAGHPLAQNER              0.8744      Database    -17.2985    1204.6313   ✓       ✓
+51    LAGHPLAQNER              0.8744      Database    -17.4258    1204.6313   ✓       ✓
+52    LAGHPLAQNER              0.8744      Database    -17.9549    1204.6313   ✓       ✓
+53    LAGHPLAQNER              0.8744      Database    -18.0022    1204.6313   ✓       ✓
+54    LAGHPLAQNER              0.8744      Database    -18.0334    1204.6313   ✓       ✓
+55    LAGHPLAQNER              0.8744      Database    -18.0868    1204.6313   ✓       ✓
+56    LAGHPLAQNER              0.8744      Database    -18.3302    1204.6313   ✓       ✓
+57    LAGHPLAQNER              0.8744      Database    -18.3369    1204.6313   ✓       ✓
+58    LAGHPLAQNER              0.8744      Database    -18.3885    1204.6313   ✓       ✓
+59    LAGHPLAQNER              0.8744      Database    -18.3902    1204.6313   ✓       ✓
+60    LAGHPLAQNER              0.8744      Database    -18.4123    1204.6313   ✓       ✓
+61    LAGHPLAQNER              0.8744      Database    -18.6336    1204.6313   ✓       ✓
+62    LAGHPLAQNER              0.8744      Database    -18.7157    1204.6313   ✓       ✓
+63    LAGHPLAQNER              0.8744      Database    -18.7961    1204.6313   ✓       ✓
+64    LAGHPLAQNER              0.8744      Database    -18.8661    1204.6313   ✓       ✓
+65    LAGHPLAQNER              0.8744      Database    -18.9638    1204.6313   ✓       ✓
+66    LAGHPLAQNER              0.8744      Database    -19.0038    1204.6313   ✓       ✓
+67    LAGHPLAQNER              0.8744      Database    -19.1864    1204.6313   ✓       ✓
+68    LAGHPLAQNER              0.8744      Database    -19.2524    1204.6313   ✓       ✓
+69    LAGHPLAQNER              0.8744      Database    -19.6904    1204.6313   ✓       ✓
+70    LAGHPLAQNER              0.8744      Database    -19.7072    1204.6313   ✓       ✓
+71    LAGHPLAQNER              0.8744      Database    -19.8750    1204.6313   ✓       ✓
+72    LAGHPLAQNER              0.8744      Database    -19.9149    1204.6313   ✓       ✓
+73    LAGHPLAQNER              0.8744      Database    -19.9266    1204.6313   ✓       ✓
+74    LAGHPLAQNER              0.8744      Database    -19.9939    1204.6313   ✓       ✓
+75    LAGHPLAQNER              0.8744      Database    -20.0555    1204.6313   ✓       ✓
+76    LAGHPLAQNER              0.8744      Database    -20.0935    1204.6313   ✓       ✓
+77    LAGHPLAQNER              0.8744      Database    -20.2300    1204.6313   ✓       ✓
+78    LAGHPLAQNER              0.8744      Database    -20.2317    1204.6313   ✓       ✓
+79    LAGHPLAQNER              0.8744      Database    -20.2613    1204.6313   ✓       ✓
+80    LAGHPLAQNER              0.8744      Database    -20.3012    1204.6313   ✓       ✓
+81    LAGHPLAQNER              0.8744      Database    -20.3014    1204.6313   ✓       ✓
+82    LAGHPLAQNER              0.8744      Database    -20.3636    1204.6313   ✓       ✓
+83    LAGHPLAQNER              0.8744      Database    -20.4991    1204.6313   ✓       ✓
+84    LAGHPLAQNER              0.8744      Database    -20.7012    1204.6313   ✓       ✓
+85    LAGHPLAQNER              0.8744      Database    -20.7904    1204.6313   ✓       ✓
+86    LAGHPLAQNER              0.8744      Database    -20.8701    1204.6313   ✓       ✓
+87    LAGHPLAQNER              0.8744      Database    -20.8942    1204.6313   ✓       ✓
+88    LAGHPLAQNER              0.8744      Database    -20.9446    1204.6313   ✓       ✓
+89    LAGHPLAQNER              0.8744      Database    -20.9666    1204.6313   ✓       ✓
+90    LAGHPLAQNER              0.8744      Database    -21.0199    1204.6313   ✓       ✓
+91    LAGHPLAQNER              0.8744      Database    -21.0267    1204.6313   ✓       ✓
+92    LAGHPLAQNER              0.8744      Database    -21.0463    1204.6313   ✓       ✓
+93    LAGHPLAQNER              0.8744      Database    -21.0939    1204.6313   ✓       ✓
+94    LAGHPLAQNER              0.8744      Database    -21.1135    1204.6313   ✓       ✓
+95    LAGHPLAQNER              0.8744      Database    -21.1956    1204.6313   ✓       ✓
+96    LAGHPLAQNER              0.8744      Database    -21.2125    1204.6313   ✓       ✓
+97    LAGHPLAQNER              0.8744      Database    -21.2212    1204.6313   ✓       ✓
+98    LAGHPLAQNER              0.8744      Database    -21.2633    1204.6313   ✓       ✓
+99    LAGHPLAQNER              0.8744      Database    -21.2747    1204.6313   ✓       ✓
+100   LAGHPLAQNER              0.8744      Database    -21.2748    1204.6313   ✓       ✓
+101   LAGHPLAQNER              0.8744      Database    -21.2898    1204.6313   ✓       ✓
+102   LAGHPLAQNER              0.8744      Database    -21.3454    1204.6313   ✓       ✓
+103   LAGHPLAQNER              0.8744      Database    -21.3719    1204.6313   ✓       ✓
+104   LAGHPLAQNER              0.8744      Database    -21.5935    1204.6313   ✓       ✓
+105   LAGHPLAQNER              0.8744      Database    -21.5988    1204.6313   ✓       ✓
+106   LAGHPLAQNER              0.8744      Database    -21.6200    1204.6313   ✓       ✓
+107   LAGHPLAQNER              0.8744      Database    -21.6611    1204.6313   ✓       ✓
+108   LAGHPLAQNER              0.8744      Database    -21.7812    1204.6313   ✓       ✓
+109   LAGHPLAQNER              0.8744      Database    -21.8393    1204.6313   ✓       ✓
+110   LAGHPLAQNER              0.8744      Database    -21.9351    1204.6313   ✓       ✓
+111   LAGHPLAQNER              0.8744      Database    -22.0246    1204.6313   ✓       ✓
+112   LAGHPLAQNER              0.8744      Database    -22.0780    1204.6313   ✓       ✓
+113   LAGHPLAQNER              0.8744      Database    -22.1068    1204.6313   ✓       ✓
+114   LAGHPLAQNER              0.8744      Database    -22.1427    1204.6313   ✓       ✓
+115   LAGHPLAQNER              0.8744      Database    -22.1601    1204.6313   ✓       ✓
+116   LAGHPLAQNER              0.8744      Database    -22.1860    1204.6313   ✓       ✓
+117   LAGHPLAQNER              0.8744      Database    -22.3049    1204.6313   ✓       ✓
+118   LAGHPLAQNER              0.8744      Database    -22.4035    1204.6313   ✓       ✓
+119   LAGHPLAQNER              0.8744      Database    -22.4082    1204.6313   ✓       ✓
+120   LAGHPLAQNER              0.8744      Database    -22.5046    1204.6313   ✓       ✓
+121   LAGHPLAQNER              0.8744      Database    -22.5311    1204.6313   ✓       ✓
+122   LAGHPLAQNER              0.8744      Database    -22.5410    1204.6313   ✓       ✓
+123   LAGHPLAQNER              0.8744      Database    -22.6236    1204.6313   ✓       ✓
+124   LAGHPLAQNER              0.8744      Database    -22.6516    1204.6313   ✓       ✓
+125   LAGHPLAQNER              0.8744      Database    -22.7099    1204.6313   ✓       ✓
+126   LAGHPLAQNER              0.8744      Database    -22.7116    1204.6313   ✓       ✓
+127   LAGHPLAQNER              0.8744      Database    -22.7337    1204.6313   ✓       ✓
+128   LAGHPLAQNER              0.8744      Database    -22.8861    1204.6313   ✓       ✓
+129   LAGHPLAQNER              0.8744      Database    -22.8910    1204.6313   ✓       ✓
+130   LAGHPLAQNER              0.8744      Database    -22.9550    1204.6313   ✓       ✓
+131   LAGHPLAQNER              0.8744      Database    -23.0371    1204.6313   ✓       ✓
+132   LAGHPLAQNER              0.8744      Database    -23.1369    1204.6313   ✓       ✓
+133   LAGHPLAQNER              0.8744      Database    -23.1991    1204.6313   ✓       ✓
+134   LAGHPLAQNER              0.8744      Database    -23.3193    1204.6313   ✓       ✓
+135   LAGHPLAQNER              0.8744      Database    -23.3849    1204.6313   ✓       ✓
+136   LAGHPLAQNER              0.8744      Database    -23.4049    1204.6313   ✓       ✓
+137   LAGHPLAQNER              0.8744      Database    -23.4382    1204.6313   ✓       ✓
+138   LAGHPLAQNER              0.8744      Database    -23.4404    1204.6313   ✓       ✓
+139   LAGHPLAQNER              0.8744      Database    -23.4983    1204.6313   ✓       ✓
+140   LAGHPLAQNER              0.8744      Database    -23.5026    1204.6313   ✓       ✓
+141   LAGHPLAQNER              0.8744      Database    -23.5078    1204.6313   ✓       ✓
+142   LAGHPLAQNER              0.8744      Database    -23.5627    1204.6313   ✓       ✓
+143   LAGHPLAQNER              0.8744      Database    -23.5738    1204.6313   ✓       ✓
+144   LAGHPLAQNER              0.8744      Database    -23.6210    1204.6313   ✓       ✓
+145   LAGHPLAQNER              0.8744      Database    -23.6228    1204.6313   ✓       ✓
+146   LAGHPLAQNER              0.8744      Database    -23.6448    1204.6313   ✓       ✓
+147   LAGHPLAQNER              0.8744      Database    -23.6744    1204.6313   ✓       ✓
+148   LAGHPLAQNER              0.8744      Database    -23.6816    1204.6313   ✓       ✓
+149   LAGHPLAQNER              0.8744      Database    -23.7056    1204.6313   ✓       ✓
+150   LAGHPLAQNER              0.8744      Database    -23.7236    1204.6313   ✓       ✓
+151   LAGHPLAQNER              0.8744      Database    -23.7500    1204.6313   ✓       ✓
+152   LAGHPLAQNER              0.8744      Database    -23.7637    1204.6313   ✓       ✓
+153   LAGHPLAQNER              0.8744      Database    -23.8662    1204.6313   ✓       ✓
+154   LAGHPLAQNER              0.8744      Database    -23.9178    1204.6313   ✓       ✓
+155   LAGHPLAQNER              0.8744      Database    -23.9483    1204.6313   ✓       ✓
+156   LAGHPLAQNER              0.8744      Database    -23.9490    1204.6313   ✓       ✓
+157   LAGHPLAQNER              0.8744      Database    -23.9999    1204.6313   ✓       ✓
+158   LAGHPLAQNER              0.8744      Database    -24.0091    1204.6313   ✓       ✓
+159   LAGHPLAQNER              0.8744      Database    -24.0119    1204.6313   ✓       ✓
+160   LAGHPLAQNER              0.8744      Database    -24.0311    1204.6313   ✓       ✓
+161   LAGHPLAQNER              0.8744      Database    -24.1711    1204.6313   ✓       ✓
+162   LAGHPLAQNER              0.8744      Database    -24.2461    1204.6313   ✓       ✓
+163   LAGHPLAQNER              0.8744      Database    -24.2480    1204.6313   ✓       ✓
+164   LAGHPLAQNER              0.8744      Database    -24.2525    1204.6313   ✓       ✓
+165   LAGHPLAQNER              0.8744      Database    -24.3153    1204.6313   ✓       ✓
+166   LAGHPLAQNER              0.8744      Database    -24.3346    1204.6313   ✓       ✓
+167   LAGHPLAQNER              0.8744      Database    -24.4150    1204.6313   ✓       ✓
+168   LAGHPLAQNER              0.8744      Database    -24.4190    1204.6313   ✓       ✓
+169   LAGHPLAQNER              0.8744      Database    -24.4538    1204.6313   ✓       ✓
+170   LAGHPLAQNER              0.8744      Database    -24.4849    1204.6313   ✓       ✓
+171   LAGHPLAQNER              0.8744      Database    -24.5382    1204.6313   ✓       ✓
+172   LAGHPLAQNER              0.8744      Database    -24.5514    1204.6313   ✓       ✓
+173   LAGHPLAQNER              0.8744      Database    -24.5531    1204.6313   ✓       ✓
+174   LAGHPLAQNER              0.8744      Database    -24.5647    1204.6313   ✓       ✓
+175   LAGHPLAQNER              0.8744      Database    -24.5827    1204.6313   ✓       ✓
+176   LAGHPLAQNER              0.8744      Database    -24.5912    1204.6313   ✓       ✓
+177   LAGHPLAQNER              0.8744      Database    -24.6226    1204.6313   ✓       ✓
+178   LAGHPLAQNER              0.8744      Database    -24.7724    1204.6313   ✓       ✓
+179   LAGHPLAQNER              0.8744      Database    -24.7817    1204.6313   ✓       ✓
+180   LAGHPLAQNER              0.8744      Database    -24.7989    1204.6313   ✓       ✓
+181   LAGHPLAQNER              0.8744      Database    -24.8053    1204.6313   ✓       ✓
+182   LAGHPLAQNER              0.8744      Database    -24.8206    1204.6313   ✓       ✓
+183   LAGHPLAQNER              0.8744      Database    -24.8638    1204.6313   ✓       ✓
+184   LAGHPLAQNER              0.8744      Database    -25.0226    1204.6313   ✓       ✓
+185   LAGHPLAQNER              0.8744      Database    -25.1119    1204.6313   ✓       ✓
+186   LAGHPLAQNER              0.8744      Database    -25.1591    1204.6313   ✓       ✓
+187   LAGHPLAQNER              0.8744      Database    -29.1172    1204.6313   ✓       ✓
+188   LAGHPLAQNER              0.8744      Database    -30.6552    1204.6313   ✓       ✓
+189   LAGHPLAQNER              0.8744      Database    -30.9587    1204.6313   ✓       ✓
+190   +42.011AGHPLAQANER       0.5671      Prosit      -30.1884    1204.5949   ✓       
+191   VAGHPLAQQER              0.5615      Prosit      -30.2938    1204.6313   ✓       
+192   LAGHPLAENQR              0.5529      Prosit      -22.2035    1204.6313   ✓       
+193   LAGHPLAQNQ+0.984R        0.5440      Prosit      -6.9962     1204.6313   ✓       
+194   LAGHPLAQNQ+0.984R        0.5440      Prosit      -11.3176    1204.6313   ✓       
+195   LAGHPLAQNQ+0.984R        0.5440      Prosit      -12.2287    1204.6313   ✓       
+196   LAGHPLAQNQ+0.984R        0.5440      Prosit      -12.6151    1204.6313   ✓       
+197   LAGHPLAQNQ+0.984R        0.5440      Prosit      -14.1531    1204.6313   ✓       
+198   LAGHPLAQNQ+0.984R        0.5440      Prosit      -14.4566    1204.6313   ✓       
+199   LAGHPLAQNQ+0.984R        0.5440      Prosit      -16.7676    1204.6313   ✓       
+200   LAGHPLAQNQ+0.984R        0.5440      Prosit      -16.9365    1204.6313   ✓       
+201   LAGHPLAQNQ+0.984R        0.5440      Prosit      -17.0863    1204.6313   ✓       
+202   LAGHPLAQNQ+0.984R        0.5440      Prosit      -17.1127    1204.6313   ✓       
+203   LAGHPLAQN+0.984QR        0.5440      Prosit      -17.2977    1204.6313   ✓       
+204   LAGHPLAQ+0.984NQR        0.5440      Prosit      -17.3573    1204.6313   ✓       
+205   LAGHPLAQNQ+0.984R        0.5440      Prosit      -17.8476    1204.6313   ✓       
+206   LAGHPLAQNQ+0.984R        0.5440      Prosit      -17.9009    1204.6313   ✓       
+207   LAGHPLAQNQ+0.984R        0.5440      Prosit      -18.1443    1204.6313   ✓       
+208   LAGHPLAQNQ+0.984R        0.5440      Prosit      -18.4746    1204.6313   ✓       
+209   LAGHPLAQNQ+0.984R        0.5440      Prosit      -18.7780    1204.6313   ✓       
+210   LAGHPLAQNQ+0.984R        0.5440      Prosit      -19.3857    1204.6313   ✓       
+211   LAGHPLAQNQ+0.984R        0.5440      Prosit      -19.5046    1204.6313   ✓       
+212   LAGHPLAQNQ+0.984R        0.5440      Prosit      -19.6891    1204.6313   ✓       
+213   LAGHPLAQNQ+0.984R        0.5440      Prosit      -19.7407    1204.6313   ✓       
+214   LAGHPLAQNQ+0.984R        0.5440      Prosit      -19.7720    1204.6313   ✓       
+215   LAGHPLAQNQ+0.984R        0.5440      Prosit      -20.0754    1204.6313   ✓       
+216   LAGHPLAQNQ+0.984R        0.5440      Prosit      -20.6046    1204.6313   ✓       
+217   LAGHPLAQNQ+0.984R        0.5440      Prosit      -21.0890    1204.6313   ✓       
+218   LAGHPLAQNQ+0.984R        0.5440      Prosit      -21.4077    1204.6313   ✓       
+219   LAGHPLAQNQ+0.984R        0.5440      Prosit      -21.4341    1204.6313   ✓       
+220   LAGHPLAQNQ+0.984R        0.5440      Prosit      -21.4458    1204.6313   ✓       
+221   LAGHPLAQNQ+0.984R        0.5440      Prosit      -21.6135    1204.6313   ✓       
+222   LAGHPLAQN+0.984QR        0.5440      Prosit      -21.6192    1204.6313   ✓       
+223   LAGHPLAQNQ+0.984R        0.5440      Prosit      -21.6535    1204.6313   ✓       
+224   LAGHPLAQ+0.984NQR        0.5440      Prosit      -21.6787    1204.6313   ✓       
+225   LAGHPLAQNQ+0.984R        0.5440      Prosit      -22.0001    1204.6313   ✓       
+226   LAGHPLAQNQ+0.984R        0.5440      Prosit      -22.2224    1204.6313   ✓       
+227   LAGHPLAQNQ+0.984R        0.5440      Prosit      -22.3188    1204.6313   ✓       
+228   LAGHPLAQNQ+0.984R        0.5440      Prosit      -22.3453    1204.6313   ✓       
+229   LAGHPLAQNQ+0.984R        0.5440      Prosit      -22.4658    1204.6313   ✓       
+230   LAGHPLAQN+0.984QR        0.5440      Prosit      -22.5303    1204.6313   ✓       
+231   LAGHPLAQ+0.984NQR        0.5440      Prosit      -22.5898    1204.6313   ✓       
+232   LAGHPLAQNQ+0.984R        0.5440      Prosit      -22.7051    1204.6313   ✓       
+233   LAGHPLAQN+0.984QR        0.5440      Prosit      -22.9166    1204.6313   ✓       
+234   LAGHPLAQNQ+0.984R        0.5440      Prosit      -22.9511    1204.6313   ✓       
+235   LAGHPLAQ+0.984NQR        0.5440      Prosit      -22.9761    1204.6313   ✓       
+236   LAGHPLAQNQ+0.984R        0.5440      Prosit      -23.0133    1204.6313   ✓       
+237   LAGHPLAQNQ+0.984R        0.5440      Prosit      -23.1335    1204.6313   ✓       
+238   LAGHPLAQNQ+0.984R        0.5440      Prosit      -23.3769    1204.6313   ✓       
+239   LAGHPLAQNQ+0.984R        0.5440      Prosit      -23.5198    1204.6313   ✓       
+240   LAGHPLAQNQ+0.984R        0.5440      Prosit      -23.7632    1204.6313   ✓       
+241   LAGHPLAQNQ+0.984R        0.5440      Prosit      -23.8260    1204.6313   ✓       
+242   LAGHPLAQNQ+0.984R        0.5440      Prosit      -23.9245    1204.6313   ✓       
+243   LAGHPLAQNQ+0.984R        0.5440      Prosit      -24.0622    1204.6313   ✓       
+244   LAGHPLAQNQ+0.984R        0.5440      Prosit      -24.0934    1204.6313   ✓       
+245   LAGHPLAQNQ+0.984R        0.5440      Prosit      -24.2432    1204.6313   ✓       
+246   LAGHPLAQNQ+0.984R        0.5440      Prosit      -24.2696    1204.6313   ✓       
+247   LAGHPLAQNQ+0.984R        0.5440      Prosit      -24.3969    1204.6313   ✓       
+248   LAGHPLAQN+0.984QR        0.5440      Prosit      -24.4547    1204.6313   ✓       
+249   LAGHPLAQ+0.984NQR        0.5440      Prosit      -24.5142    1204.6313   ✓       
+250   LAGHPLAQN+0.984QR        0.5440      Prosit      -24.7581    1204.6313   ✓       
+251   LAGHPLAQ+0.984NQR        0.5440      Prosit      -24.8177    1204.6313   ✓       
+252   LAGHPLAQNQ+0.984R        0.5440      Prosit      -24.9260    1204.6313   ✓       
+253   LAGHPLAQNQ+0.984R        0.5440      Prosit      -24.9733    1204.6313   ✓       
+254   LAGHPLAQNQ+0.984R        0.5440      Prosit      -25.0045    1204.6313   ✓       
+255   LAGHPLAQNQ+0.984R        0.5440      Prosit      -25.0579    1204.6313   ✓       
+256   LAGHPLAQNQ+0.984R        0.5440      Prosit      -30.4694    1204.6313   ✓       
+257   +42.011AAGHPLAQNER       0.5361      Prosit      -27.7337    1204.5949   ✓       
+258   +42.011AAGHPLAQNER       0.5361      Prosit      -30.0843    1204.5949   ✓       
+259   LAGHPLAKNQ+0.984R        0.5022      Prosit      -22.4532    1204.6677   ✓       
+260   LAGHPLAQN+0.984KR        0.3906      Prosit      -24.1660    1204.6677   ✓       
+261   LAGHPLAQ+0.984NKR        0.3906      Prosit      -24.2256    1204.6677   ✓       
+262   LAGHPLAQNQR              -1.0000     NotChecked  -8.7386     1203.6473   ✗       
+263   +42.011AGHPLAQNER        -1.0000     NotChecked  -12.3434    1133.5578   ✗       
+264   +43.006AGHPLAQNER        -1.0000     NotChecked  -12.8326    1134.5530   ✗       
+265   LAGHPLAQNQR              -1.0000     NotChecked  -13.0600    1203.6473   ✗       
+266   VAGHPLAQNER              -1.0000     NotChecked  -13.8007    1190.6156   ✗       
+267   LAGHPLAQNQR              -1.0000     NotChecked  -13.9711    1203.6473   ✗       
+268   LAGHPLAQNQR              -1.0000     NotChecked  -14.3574    1203.6473   ✗       
+269   LAGHPLAQNDR              -1.0000     NotChecked  -14.5453    1190.6156   ✗       
+270   LAGHPLAQNR               -1.0000     NotChecked  -15.0413    1075.5887   ✗       
+271   LAGHPLAQNNR              -1.0000     NotChecked  -15.1464    1189.6316   ✗       
+272   LAGHPLANNER              -1.0000     NotChecked  -15.3844    1190.6156   ✗       
+273   LAGHPLAKNER              -1.0000     Failed      -15.4821    1204.6677   ✓       
+274   LAGHPLAQNKR              -1.0000     NotChecked  -15.6068    1203.6836   ✗       
+275   LAGKPLAQNER              -1.0000     NotChecked  -15.8562    1195.6673   ✗       
+276   LAGHPLAQNQR              -1.0000     NotChecked  -15.8955    1203.6473   ✗       
+277   LAGHPLAQNEK              -1.0000     NotChecked  -15.9333    1176.6251   ✗       
+278   LAGHPLAQNEQ              -1.0000     NotChecked  -16.1411    1176.5887   ✗       
+279   LAGHPLAQNQR              -1.0000     NotChecked  -16.1989    1203.6473   ✗       
+280   LAGHPLAQNEV              -1.0000     NotChecked  -16.5495    1147.5986   ✗       
+281   LAGHPLGQNER              -1.0000     NotChecked  -16.6075    1190.6156   ✗       
+282   LAGHPLAQNE               -1.0000     NotChecked  -16.6975    1048.5302   ✗       
+283   LAGHPLAQNEN              -1.0000     NotChecked  -16.7427    1162.5731   ✗       
+284   LAGHPLAQNED              -1.0000     NotChecked  -16.8203    1163.5571   ✗       
+285   LAGHPLAQNEG              -1.0000     NotChecked  -17.3500    1105.5516   ✗       
+286   LAGHPLAQNR               -1.0000     NotChecked  -17.4024    1075.5887   ✗       
+287   LAGHLAQNER               -1.0000     NotChecked  -17.4142    1107.5785   ✗       
+288   LAHPLAQNER               -1.0000     NotChecked  -17.5755    1147.6098   ✗       
+289   +42.011AGHPLAQNER        -1.0000     NotChecked  -17.5760    1133.5578   ✗       
+290   LAGHALAQNER              -1.0000     NotChecked  -17.6934    1178.6156   ✗       
+291   LAGHPLAQNES              -1.0000     NotChecked  -17.7045    1135.5622   ✗       
+292   LAGHPLAQNEA              -1.0000     NotChecked  -17.7071    1119.5673   ✗       
+293   LAGLPLAQNER              -1.0000     NotChecked  -17.7073    1180.6564   ✗       
+294   LAGHPLAQNGR              -1.0000     NotChecked  -17.8544    1132.6101   ✗       
+295   LAGHPLAQNN+0.984R        -1.0000     NotChecked  -17.8549    1190.6156   ✗       
+296   LAGHPLAQVER              -1.0000     NotChecked  -17.8727    1189.6568   ✗       
+297   LAGQPLAQNER              -1.0000     NotChecked  -17.9109    1195.6309   ✗       
+298   +42.011AGHPLAQNER        -1.0000     NotChecked  -17.9623    1133.5578   ✗       
+299   +43.006AGHPLAQNER        -1.0000     NotChecked  -18.0651    1134.5530   ✗       
+300   LGHPLAQNER               -1.0000     NotChecked  -18.1524    1133.5942   ✗       
+301   LAGHSLAQNER              -1.0000     NotChecked  -18.2783    1194.6105   ✗       
+302   LAGHPLANER               -1.0000     NotChecked  -18.3351    1076.5727   ✗       
+303   LAGHPLALNER              -1.0000     NotChecked  -18.3456    1189.6568   ✗       
+304   LAGHPLAQLER              -1.0000     NotChecked  -18.3993    1203.6724   ✗       
+305   +43.006AGHPLAQNER        -1.0000     NotChecked  -18.4515    1134.5530   ✗       
+306   AAGHPLAQNER              -1.0000     NotChecked  -18.4609    1162.5843   ✗       
+307   LAGHPLAQNQR              -1.0000     NotChecked  -18.5099    1203.6473   ✗       
+308   LAGPPLAQNER              -1.0000     NotChecked  -18.5247    1164.6251   ✗       
+309   LAGHPLAANER              -1.0000     NotChecked  -18.5921    1147.6098   ✗       
+310   LAGHPLAQNQR              -1.0000     NotChecked  -18.6788    1203.6473   ✗       
+311   LAGHPLAQNQR              -1.0000     NotChecked  -18.8286    1203.6473   ✗       
+312   PAGHPLAQNER              -1.0000     NotChecked  -18.8528    1188.6000   ✗       
+313   LAGHPLAQNQR              -1.0000     NotChecked  -18.8551    1203.6473   ✗       
+314   LAGHPLAQNDR              -1.0000     NotChecked  -18.8668    1190.6156   ✗       
+315   VAGHPLAQNER              -1.0000     NotChecked  -19.0333    1190.6156   ✗       
+316   LAGHPPAQNER              -1.0000     NotChecked  -19.0386    1188.6000   ✗       
+317   LAGNPLAQNER              -1.0000     NotChecked  -19.0947    1181.6153   ✗       
+318   LAGVPLAQNER              -1.0000     NotChecked  -19.0998    1166.6408   ✗       
+319   LAGHPLAQER               -1.0000     NotChecked  -19.1654    1090.5883   ✗       
+320   AGHPLAQNER               -1.0000     NotChecked  -19.1769    1091.5472   ✗       
+321   LAGHPVAQNER              -1.0000     NotChecked  -19.2276    1190.6156   ✗       
+322   LAGHPLAQGER              -1.0000     NotChecked  -19.2516    1147.6098   ✗       
+323   +42.011AGHPLAQNQ+0.984R  -1.0000     NotChecked  -19.3145    1133.5578   ✗       
+324   LAGHPLAQNR               -1.0000     NotChecked  -19.3627    1075.5887   ✗       
+325   LAGAPLAQNER              -1.0000     NotChecked  -19.3673    1138.6095   ✗       
+326   VAGHPLAQNER              -1.0000     NotChecked  -19.4196    1190.6156   ✗       
+327   LAGHPLAQNNR              -1.0000     NotChecked  -19.4678    1189.6316   ✗       
+328   +42.011AGHPLAQNER        -1.0000     NotChecked  -19.5003    1133.5578   ✗       
+329   LAGHPLAQNQR              -1.0000     NotChecked  -19.5900    1203.6473   ✗       
+330   LAGHPLAQNQR              -1.0000     NotChecked  -19.6433    1203.6473   ✗       
+331   LAGHPLANNER              -1.0000     NotChecked  -19.7059    1190.6156   ✗       
+332   LAGHPLAQNDR              -1.0000     NotChecked  -19.7779    1190.6156   ✗       
+333   LAGHPLAKNER              -1.0000     Failed      -19.8035    1204.6677   ✓       
+334   +43.006AGHPLAQNQ+0.984R  -1.0000     NotChecked  -19.8037    1134.5530   ✗       
+335   +42.011AGHPLAQNER        -1.0000     NotChecked  -19.8038    1133.5578   ✗       
+336   LAHPLAQNER               -1.0000     NotChecked  -19.8866    1147.6098   ✗       
+337   LAGHPLAQNQR              -1.0000     NotChecked  -19.8867    1203.6473   ✗       
+338   LAGHPLAQNKR              -1.0000     NotChecked  -19.9282    1203.6836   ✗       
+339   LAGHPLASNER              -1.0000     NotChecked  -19.9794    1163.6047   ✗       
+340   +43.006AGHPLAQNER        -1.0000     NotChecked  -19.9895    1134.5530   ✗       
+341   LAGHPLAQNDR              -1.0000     NotChecked  -20.1642    1190.6156   ✗       
+342   LAGKPLAQNER              -1.0000     NotChecked  -20.1776    1195.6673   ✗       
+343   LAGHPLAQNQR              -1.0000     NotChecked  -20.2169    1203.6473   ✗       
+344   LAGHPLAQNEK              -1.0000     NotChecked  -20.2548    1176.6251   ✗       
+345   LAGHPLAQNR               -1.0000     NotChecked  -20.2738    1075.5887   ✗       
+346   +43.006AGHPLAQNER        -1.0000     NotChecked  -20.2930    1134.5530   ✗       
+347   LAGHPLAQNNR              -1.0000     NotChecked  -20.3789    1189.6316   ✗       
+348   LAGHPLAQNEQ              -1.0000     NotChecked  -20.4625    1176.5887   ✗       
+349   LAGHPLAQNQR              -1.0000     NotChecked  -20.5203    1203.6473   ✗       
+350   LAGHPLANNER              -1.0000     NotChecked  -20.6170    1190.6156   ✗       
+351   LAGHPLAQNR               -1.0000     NotChecked  -20.6601    1075.5887   ✗       
+352   LAGHPLAKNER              -1.0000     Failed      -20.7146    1204.6677   ✓       
+353   LAGHPLAQNNR              -1.0000     NotChecked  -20.7652    1189.6316   ✗       
+354   VAGHPLAQNQ+0.984R        -1.0000     NotChecked  -20.7718    1190.6156   ✗       
+355   LAGHPLAQNKR              -1.0000     NotChecked  -20.8394    1203.6836   ✗       
+356   LAGHPLAQNEV              -1.0000     NotChecked  -20.8709    1147.5986   ✗       
+357   +42.011AGHPLAQN+0.984ER  -1.0000     NotChecked  -20.9026    1134.5418   ✗       
+358   LAGHPLGQNER              -1.0000     NotChecked  -20.9289    1190.6156   ✗       
+359   VAGHPLAQNER              -1.0000     NotChecked  -20.9576    1190.6156   ✗       
+360   +42.011AGHPLAQ+0.984NER  -1.0000     NotChecked  -20.9621    1134.5418   ✗       
+361   LGGHPLAQNER              -1.0000     NotChecked  -20.9729    1190.6156   ✗       
+362   LAGHPLANNER              -1.0000     NotChecked  -21.0033    1190.6156   ✗       
+363   LAGHPLAQNE               -1.0000     NotChecked  -21.0189    1048.5302   ✗       
+364   +42.011AGHPLAQNQR        -1.0000     NotChecked  -21.0569    1132.5738   ✗       
+365   LAGHPLAQNEN              -1.0000     NotChecked  -21.0641    1162.5731   ✗       
+366   LAGKPLAQNER              -1.0000     NotChecked  -21.0887    1195.6673   ✗       
+367   LAGHPLAKNER              -1.0000     Failed      -21.1009    1204.6677   ✓       
+368   LAGHPLAQNQR              -1.0000     NotChecked  -21.1280    1203.6473   ✗       
+369   LAGHPLAQNED              -1.0000     NotChecked  -21.1418    1163.5571   ✗       
+370   LAGHPLAQNEK              -1.0000     NotChecked  -21.1659    1176.6251   ✗       
+371   LAGHPLAQNKR              -1.0000     NotChecked  -21.2257    1203.6836   ✗       
+372   LAGHPLAQNQR              -1.0000     NotChecked  -21.2470    1203.6473   ✗       
+373   VAGHPLAQNER              -1.0000     NotChecked  -21.2611    1190.6156   ✗       
+374   LAGHPLAQNEQ              -1.0000     NotChecked  -21.3737    1176.5887   ✗       
+375   +43.006AGHPLAQN+0.984ER  -1.0000     NotChecked  -21.3918    1135.5370   ✗       
+376   LAGHPLAQNQR              -1.0000     NotChecked  -21.4315    1203.6473   ✗       
+377   +43.006AGHPLAQ+0.984NER  -1.0000     NotChecked  -21.4513    1135.5370   ✗       
+378   LAGKPLAQNER              -1.0000     NotChecked  -21.4750    1195.6673   ✗       
+379   LAGHPLAQNQR              -1.0000     NotChecked  -21.4831    1203.6473   ✗       
+380   LAGHPLAQNQR              -1.0000     NotChecked  -21.5143    1203.6473   ✗       
+381   +43.006AGHPLAQNQR        -1.0000     NotChecked  -21.5460    1133.5690   ✗       
+382   LAGHPLAQNEK              -1.0000     NotChecked  -21.5522    1176.6251   ✗       
+383   LAGHPLAQNEG              -1.0000     NotChecked  -21.6714    1105.5516   ✗       
+384   LAGHPLAQNDR              -1.0000     NotChecked  -21.7023    1190.6156   ✗       
+385   LAGHPLAQNR               -1.0000     NotChecked  -21.7238    1075.5887   ✗       
+386   LAGHLAQNER               -1.0000     NotChecked  -21.7356    1107.5785   ✗       
+387   LAGHPLAQNEQ              -1.0000     NotChecked  -21.7600    1176.5887   ✗       
+388   LAGHPLAQNEV              -1.0000     NotChecked  -21.7820    1147.5986   ✗       
+389   LAGHPLAQNQR              -1.0000     NotChecked  -21.8178    1203.6473   ✗       
+390   LAGHPLGQNER              -1.0000     NotChecked  -21.8400    1190.6156   ✗       
+391   LAHPLAQNER               -1.0000     NotChecked  -21.8970    1147.6098   ✗       
+392   LAGHPLAQNE               -1.0000     NotChecked  -21.9300    1048.5302   ✗       
+393   LAGHPLAQNEN              -1.0000     NotChecked  -21.9752    1162.5731   ✗       
+394   LAGHPLAQNDR              -1.0000     NotChecked  -22.0057    1190.6156   ✗       
+395   LAGHALAQNER              -1.0000     NotChecked  -22.0149    1178.6156   ✗       
+396   LAGHPLAQNES              -1.0000     NotChecked  -22.0259    1135.5622   ✗       
+397   LAGHPLAQNEA              -1.0000     NotChecked  -22.0285    1119.5673   ✗       
+398   LAGLPLAQNER              -1.0000     NotChecked  -22.0287    1180.6564   ✗       
+399   LAGHPLAQNED              -1.0000     NotChecked  -22.0529    1163.5571   ✗       
+400   +42.011AGHPLAQNER        -1.0000     NotChecked  -22.1148    1133.5578   ✗       
+401   LAGHPLAQNEV              -1.0000     NotChecked  -22.1684    1147.5986   ✗       
+402   LAGHPLAQNGR              -1.0000     NotChecked  -22.1758    1132.6101   ✗       
+403   LAGHPLAQNN+0.984R        -1.0000     NotChecked  -22.1763    1190.6156   ✗       
+404   LAGHPLAQVER              -1.0000     NotChecked  -22.1941    1189.6568   ✗       
+405   LAGHPLAQNR               -1.0000     NotChecked  -22.1982    1075.5887   ✗       
+406   LAGHPLGQNER              -1.0000     NotChecked  -22.2263    1190.6156   ✗       
+407   LAGQPLAQNER              -1.0000     NotChecked  -22.2323    1195.6309   ✗       
+408   LAGHPLAQNNR              -1.0000     NotChecked  -22.3033    1189.6316   ✗       
+409   LAGHPLAQNE               -1.0000     NotChecked  -22.3163    1048.5302   ✗       
+410   LAGHPLAQNQR              -1.0000     NotChecked  -22.3470    1203.6473   ✗       
+411   LAGHPLANNQ+0.984R        -1.0000     NotChecked  -22.3555    1190.6156   ✗       
+412   VAGHPLAQN+0.984ER        -1.0000     NotChecked  -22.3599    1191.5996   ✗       
+413   LAGHPLAQNEN              -1.0000     NotChecked  -22.3616    1162.5731   ✗       
+414   VAGHPLAQ+0.984NER        -1.0000     NotChecked  -22.4194    1191.5996   ✗       
+415   +42.011AGHPLAQNER        -1.0000     NotChecked  -22.4335    1133.5578   ✗       
+416   LAGHPLAQNED              -1.0000     NotChecked  -22.4392    1163.5571   ✗       
+417   +42.011AGHPLAQNER        -1.0000     NotChecked  -22.4599    1133.5578   ✗       
+418   LGHPLAQNER               -1.0000     NotChecked  -22.4738    1133.5942   ✗       
+419   LAHPLAQNER               -1.0000     NotChecked  -22.4916    1147.6098   ✗       
+420   LAGHPLAQNR               -1.0000     NotChecked  -22.5017    1075.5887   ✗       
+421   VAGHPLAQNQR              -1.0000     NotChecked  -22.5142    1189.6316   ✗       
+422   LAGHPLANNER              -1.0000     NotChecked  -22.5414    1190.6156   ✗       
+423   LAGHPLAQNEG              -1.0000     NotChecked  -22.5826    1105.5516   ✗       
+424   LAGHSLAQNER              -1.0000     NotChecked  -22.5997    1194.6105   ✗       
+425   +43.006AGHPLAQNER        -1.0000     NotChecked  -22.6040    1134.5530   ✗       
+426   LAGHPLAQNNR              -1.0000     NotChecked  -22.6068    1189.6316   ✗       
+427   LAGHPLAQNR               -1.0000     NotChecked  -22.6350    1075.5887   ✗       
+428   LAGHPLAKNER              -1.0000     Failed      -22.6390    1204.6677   ✓       
+429   LAGHLAQNER               -1.0000     NotChecked  -22.6468    1107.5785   ✗       
+430   LGHPLAQNER               -1.0000     NotChecked  -22.6500    1133.5942   ✗       
+431   LAGHPLANER               -1.0000     NotChecked  -22.6565    1076.5727   ✗       
+432   LAGHPLALNER              -1.0000     NotChecked  -22.6670    1189.6568   ✗       
+433   LAGHPLAQLER              -1.0000     NotChecked  -22.7208    1203.6724   ✗       
+434   LAGHPLAQNKR              -1.0000     NotChecked  -22.7638    1203.6836   ✗       
+435   LAHPLAQNER               -1.0000     NotChecked  -22.8081    1147.6098   ✗       
+436   LAGKPLAQNQ+0.984R        -1.0000     NotChecked  -22.8273    1195.6673   ✗       
+437   LAGHPLAQNQR              -1.0000     NotChecked  -22.8314    1203.6473   ✗       
+438   LAGHPLANNER              -1.0000     NotChecked  -22.8448    1190.6156   ✗       
+439   LAGPPLAQNER              -1.0000     NotChecked  -22.8461    1164.6251   ✗       
+440   LAGHPLAQNQ+0.984K        -1.0000     NotChecked  -22.9044    1176.6251   ✗       
+441   LAGHPLAANER              -1.0000     NotChecked  -22.9135    1147.6098   ✗       
+442   +43.006AGHPLAQNER        -1.0000     NotChecked  -22.9227    1134.5530   ✗       
+443   LAGHALAQNER              -1.0000     NotChecked  -22.9260    1178.6156   ✗       
+444   LAGHPLAQNES              -1.0000     NotChecked  -22.9370    1135.5622   ✗       
+445   LAGHPLAQNEA              -1.0000     NotChecked  -22.9396    1119.5673   ✗       
+446   LAGLPLAQNER              -1.0000     NotChecked  -22.9398    1180.6564   ✗       
+447   LAGHPLAKNER              -1.0000     Failed      -22.9424    1204.6677   ✓       
+448   +43.006AGHPLAQNER        -1.0000     NotChecked  -22.9491    1134.5530   ✗       
+449   LAGHPLAQNEG              -1.0000     NotChecked  -22.9689    1105.5516   ✗       
+450   LAGHPLAQNR               -1.0000     NotChecked  -23.0213    1075.5887   ✗       
+451   LAGHLAQNER               -1.0000     NotChecked  -23.0331    1107.5785   ✗       
+452   LAGHPLAQNKR              -1.0000     NotChecked  -23.0672    1203.6836   ✗       
+453   LAGHPLAQNGR              -1.0000     NotChecked  -23.0870    1132.6101   ✗       
+454   LAGHPLAQNN+0.984R        -1.0000     NotChecked  -23.0874    1190.6156   ✗       
+455   LAGHPLAQNEK              -1.0000     NotChecked  -23.0903    1176.6251   ✗       
+456   LAGHPLAQN+0.984DR        -1.0000     NotChecked  -23.1045    1191.5996   ✗       
+457   LAGHPLAQVER              -1.0000     NotChecked  -23.1052    1189.6568   ✗       
+458   LAGHPLAQNQ+0.984Q        -1.0000     NotChecked  -23.1122    1176.5887   ✗       
+459   LAGQPLAQNER              -1.0000     NotChecked  -23.1434    1195.6309   ✗       
+460   LAGHPLAQNQR              -1.0000     NotChecked  -23.1500    1203.6473   ✗       
+461   LAGHPLAQ+0.984NDR        -1.0000     NotChecked  -23.1641    1191.5996   ✗       
+462   LAGHPLAQNQR              -1.0000     NotChecked  -23.1765    1203.6473   ✗       
+463   LAGHPLAQNQR              -1.0000     NotChecked  -23.1881    1203.6473   ✗       
+464   LAHPLAQNER               -1.0000     NotChecked  -23.1944    1147.6098   ✗       
+465   +42.011AGHPLAQNER        -1.0000     NotChecked  -23.1948    1133.5578   ✗       
+466   +42.011AGHPLAQNER        -1.0000     NotChecked  -23.2481    1133.5578   ✗       
+467   LAGHPLAQNEQ              -1.0000     NotChecked  -23.2980    1176.5887   ✗       
+468   LAGHALAQNER              -1.0000     NotChecked  -23.3123    1178.6156   ✗       
+469   LAGKPLAQNER              -1.0000     NotChecked  -23.3165    1195.6673   ✗       
+470   LAGHPLAQNES              -1.0000     NotChecked  -23.3233    1135.5622   ✗       
+471   LAGHPLAQNEA              -1.0000     NotChecked  -23.3259    1119.5673   ✗       
+472   LAGLPLAQNER              -1.0000     NotChecked  -23.3261    1180.6564   ✗       
+473   LAGHPLAQNQR              -1.0000     NotChecked  -23.3559    1203.6473   ✗       
+474   LAGHPPAQNER              -1.0000     NotChecked  -23.3600    1188.6000   ✗       
+475   LAGHPLAQNEK              -1.0000     NotChecked  -23.3937    1176.6251   ✗       
+476   LAGHPLAQNQR              -1.0000     NotChecked  -23.3958    1203.6473   ✗       
+477   LAGNPLAQNER              -1.0000     NotChecked  -23.4162    1181.6153   ✗       
+478   LAGVPLAQNER              -1.0000     NotChecked  -23.4212    1166.6408   ✗       
+479   LAGHPLAQNGR              -1.0000     NotChecked  -23.4733    1132.6101   ✗       
+480   LAGHPLAQNN+0.984R        -1.0000     NotChecked  -23.4738    1190.6156   ✗       
+481   LAGHPLAQER               -1.0000     NotChecked  -23.4869    1090.5883   ✗       
+482   LAGHPLAQVER              -1.0000     NotChecked  -23.4915    1189.6568   ✗       
+483   +42.011AGHPLAQNER        -1.0000     NotChecked  -23.4915    1133.5578   ✗       
+484   LAGHSLAQNER              -1.0000     NotChecked  -23.5108    1194.6105   ✗       
+485   LAGHPLAQNQ+0.984V        -1.0000     NotChecked  -23.5206    1147.5986   ✗       
+486   LAGQPLAQNER              -1.0000     NotChecked  -23.5297    1195.6309   ✗       
+487   LAGHPVAQNER              -1.0000     NotChecked  -23.5490    1190.6156   ✗       
+488   LAGHPLANER               -1.0000     NotChecked  -23.5676    1076.5727   ✗       
+489   VAGHPLAQNER              -1.0000     NotChecked  -23.5721    1190.6156   ✗       
+490   LAGHPLAQGER              -1.0000     NotChecked  -23.5730    1147.6098   ✗       
+491   +42.011AGHPLAQNER        -1.0000     NotChecked  -23.5737    1133.5578   ✗       
+492   LAGHPLALNER              -1.0000     NotChecked  -23.5781    1189.6568   ✗       
+493   LAGHPLGQNQ+0.984R        -1.0000     NotChecked  -23.5785    1190.6156   ✗       
+494   LAGHPLAQN+0.984R         -1.0000     NotChecked  -23.6005    1076.5727   ✗       
+495   LAGHPLAQNEQ              -1.0000     NotChecked  -23.6015    1176.5887   ✗       
+496   LAGHPLAQLER              -1.0000     NotChecked  -23.6319    1203.6724   ✗       
+497   LAGHPLAQ+0.984NR         -1.0000     NotChecked  -23.6600    1076.5727   ✗       
+498   LAGHPLAQNQ+0.984E        -1.0000     NotChecked  -23.6686    1177.5728   ✗       
+499   +43.006AGHPLAQNER        -1.0000     NotChecked  -23.6840    1134.5530   ✗       
+500   LAGAPLAQNER              -1.0000     NotChecked  -23.6887    1138.6095   ✗       
+501   AGHPLAQNER               -1.0000     NotChecked  -23.6935    1091.5472   ✗       
+502   LAGHPLAQN+0.984NR        -1.0000     NotChecked  -23.7056    1190.6156   ✗       
+503   LAGHPLAQNEV              -1.0000     NotChecked  -23.7064    1147.5986   ✗       
+504   LAGHPLAQNQ+0.984N        -1.0000     NotChecked  -23.7138    1162.5731   ✗       
+505   +43.006AGHPLAQNER        -1.0000     NotChecked  -23.7373    1134.5530   ✗       
+506   LAGHPLAQNQR              -1.0000     NotChecked  -23.7425    1203.6473   ✗       
+507   LAGPPLAQNER              -1.0000     NotChecked  -23.7572    1164.6251   ✗       
+508   LAGHPLGQNER              -1.0000     NotChecked  -23.7644    1190.6156   ✗       
+509   LAGHPLAQ+0.984NNR        -1.0000     NotChecked  -23.7651    1190.6156   ✗       
+510   LAGHPLAQNQ+0.984D        -1.0000     NotChecked  -23.7914    1163.5571   ✗       
+511   LAGHPLAANER              -1.0000     NotChecked  -23.8246    1147.6098   ✗       
+512   LAGHPLAQNE               -1.0000     NotChecked  -23.8544    1048.5302   ✗       
+513   VAGHPLAQNER              -1.0000     NotChecked  -23.8908    1190.6156   ✗       
+514   LAGHSLAQNER              -1.0000     NotChecked  -23.8971    1194.6105   ✗       
+515   LAGHPLAQNEN              -1.0000     NotChecked  -23.8996    1162.5731   ✗       
+516   VAGHPLAQNER              -1.0000     NotChecked  -23.9172    1190.6156   ✗       
+517   LAGHPLANN+0.984ER        -1.0000     NotChecked  -23.9436    1191.5996   ✗       
+518   LAGHPLANER               -1.0000     NotChecked  -23.9539    1076.5727   ✗       
+519   LAGHPLALNER              -1.0000     NotChecked  -23.9644    1189.6568   ✗       
+520   LAGHPLAQNQR              -1.0000     NotChecked  -23.9647    1203.6473   ✗       
+521   LAGHPLAQNED              -1.0000     NotChecked  -23.9773    1163.5571   ✗       
+522   +43.006AGHPLAQNER        -1.0000     NotChecked  -23.9807    1134.5530   ✗       
+523   LAGHPLAQNEV              -1.0000     NotChecked  -24.0099    1147.5986   ✗       
+524   LAGHPLAQLER              -1.0000     NotChecked  -24.0182    1203.6724   ✗       
+525   LAGHPLAQNQR              -1.0000     NotChecked  -24.0612    1203.6473   ✗       
+526   +43.006AGHPLAQNER        -1.0000     NotChecked  -24.0628    1134.5530   ✗       
+527   LAGHPLGQNER              -1.0000     NotChecked  -24.0678    1190.6156   ✗       
+528   AAGHPLAQNER              -1.0000     NotChecked  -24.0798    1162.5843   ✗       
+529   PAGHPLAQNER              -1.0000     NotChecked  -24.0853    1188.6000   ✗       
+530   LAGHPLAQNQR              -1.0000     NotChecked  -24.0876    1203.6473   ✗       
+531   LAGHPLANNQR              -1.0000     NotChecked  -24.0979    1189.6316   ✗       
+532   LAGPPLAQNER              -1.0000     NotChecked  -24.1436    1164.6251   ✗       
+533   LAGHPLAQNE               -1.0000     NotChecked  -24.1578    1048.5302   ✗       
+534   LAGHPLAKNQR              -1.0000     NotChecked  -24.1955    1203.6836   ✗       
+535   LAGHPLAQNEN              -1.0000     NotChecked  -24.2031    1162.5731   ✗       
+536   LAHPLAQNER               -1.0000     NotChecked  -24.2080    1147.6098   ✗       
+537   LAGHPLAQNQR              -1.0000     NotChecked  -24.2081    1203.6473   ✗       
+538   LAGHPLAANER              -1.0000     NotChecked  -24.2109    1147.6098   ✗       
+539   LAGHPPAQNER              -1.0000     NotChecked  -24.2711    1188.6000   ✗       
+540   LAGHPLAQNED              -1.0000     NotChecked  -24.2807    1163.5571   ✗       
+541   LAGHPLASNER              -1.0000     NotChecked  -24.3008    1163.6047   ✗       
+542   LAGHPLAQNDR              -1.0000     NotChecked  -24.3167    1190.6156   ✗       
+543   LAGHPLAQNQ+0.984G        -1.0000     NotChecked  -24.3211    1105.5516   ✗       
+544   LAGNPLAQNER              -1.0000     NotChecked  -24.3273    1181.6153   ✗       
+545   LAGVPLAQNER              -1.0000     NotChecked  -24.3324    1166.6408   ✗       
+546   LAGHLAQNQ+0.984R         -1.0000     NotChecked  -24.3853    1107.5785   ✗       
+547   LAGHPLAQER               -1.0000     NotChecked  -24.3980    1090.5883   ✗       
+548   AGHPLAQNER               -1.0000     NotChecked  -24.4094    1091.5472   ✗       
+549   LAGKPLAQN+0.984ER        -1.0000     NotChecked  -24.4154    1196.6513   ✗       
+550   LAGHPLAQNQR              -1.0000     NotChecked  -24.4475    1203.6473   ✗       
+551   LAGHPVAQNER              -1.0000     NotChecked  -24.4601    1190.6156   ✗       
+552   PAGHPLAQNER              -1.0000     NotChecked  -24.4716    1188.6000   ✗       
+553   LAGKPLAQ+0.984NER        -1.0000     NotChecked  -24.4749    1196.6513   ✗       
+554   LAGHPLAQGER              -1.0000     NotChecked  -24.4841    1147.6098   ✗       
+555   LAGHPLAQNDR              -1.0000     NotChecked  -24.4856    1190.6156   ✗       
+556   LAGHPLAQN+0.984EK        -1.0000     NotChecked  -24.4925    1177.6091   ✗       
+557   LAGHPLAQNEG              -1.0000     NotChecked  -24.5069    1105.5516   ✗       
+558   LAHPLAQNQ+0.984R         -1.0000     NotChecked  -24.5466    1147.6098   ✗       
+559   +42.011AGHPLAQNQ+0.984R  -1.0000     NotChecked  -24.5470    1133.5578   ✗       
+560   LAGHPLAQ+0.984NEK        -1.0000     NotChecked  -24.5521    1177.6091   ✗       
+561   LAGHPLAQNR               -1.0000     NotChecked  -24.5593    1075.5887   ✗       
+562   LAGKPLAQNQR              -1.0000     NotChecked  -24.5696    1194.6833   ✗       
+563   LAGHLAQNER               -1.0000     NotChecked  -24.5711    1107.5785   ✗       
+564   LAGAPLAQNER              -1.0000     NotChecked  -24.5998    1138.6095   ✗       
+565   LAGHPLAQNDR              -1.0000     NotChecked  -24.6354    1190.6156   ✗       
+566   LAGHPLAQNQK              -1.0000     NotChecked  -24.6468    1175.6411   ✗       
+567   VAGHPLAQNER              -1.0000     NotChecked  -24.6521    1190.6156   ✗       
+568   LAGHPPAQNER              -1.0000     NotChecked  -24.6575    1188.6000   ✗       
+569   LAGHPLAQNDR              -1.0000     NotChecked  -24.6619    1190.6156   ✗       
+570   LAGHALAQNQ+0.984R        -1.0000     NotChecked  -24.6645    1178.6156   ✗       
+571   LAGHPLAQNQ+0.984S        -1.0000     NotChecked  -24.6755    1135.5622   ✗       
+572   LAGHPLAQNQ+0.984A        -1.0000     NotChecked  -24.6782    1119.5673   ✗       
+573   LAGLPLAQNQ+0.984R        -1.0000     NotChecked  -24.6784    1180.6564   ✗       
+574   LAGHPLAQNQR              -1.0000     NotChecked  -24.6934    1203.6473   ✗       
+575   LAGHPLAQN+0.984EQ        -1.0000     NotChecked  -24.7003    1177.5728   ✗       
+576   VAGHPLAQNER              -1.0000     NotChecked  -24.7054    1190.6156   ✗       
+577   LAGNPLAQNER              -1.0000     NotChecked  -24.7136    1181.6153   ✗       
+578   LAGVPLAQNER              -1.0000     NotChecked  -24.7187    1166.6408   ✗       
+579   LAHPLAQNER               -1.0000     NotChecked  -24.7325    1147.6098   ✗       
+580   +42.011AGHPLAQNER        -1.0000     NotChecked  -24.7329    1133.5578   ✗       
+581   LAGHPLAQNQR              -1.0000     NotChecked  -24.7556    1203.6473   ✗       
+582   LAGHPLAQ+0.984NEQ        -1.0000     NotChecked  -24.7598    1177.5728   ✗       
+583   LAGHPLAQER               -1.0000     NotChecked  -24.7843    1090.5883   ✗       
+584   AGHPLAQNER               -1.0000     NotChecked  -24.7957    1091.5472   ✗       
+585   LAGHPLAQNEG              -1.0000     NotChecked  -24.8104    1105.5516   ✗       
+586   LAGHPLAQNR               -1.0000     NotChecked  -24.8127    1075.5887   ✗       
+587   LAGHPLAQVQ+0.984R        -1.0000     NotChecked  -24.8438    1189.6568   ✗       
+588   LAGHPVAQNER              -1.0000     NotChecked  -24.8465    1190.6156   ✗       
+589   LAGHALAQNER              -1.0000     NotChecked  -24.8504    1178.6156   ✗       
+590   +42.011AGHPLAQNER        -1.0000     NotChecked  -24.8518    1133.5578   ✗       
+591   LAGHPLAQNQ               -1.0000     NotChecked  -24.8546    1047.5461   ✗       
+592   LAGHPLAQNES              -1.0000     NotChecked  -24.8614    1135.5622   ✗       
+593   LAGHPLAQNR               -1.0000     NotChecked  -24.8628    1075.5887   ✗       
+594   LAGHPLAQNEA              -1.0000     NotChecked  -24.8640    1119.5673   ✗       
+595   LAGHPLAQGER              -1.0000     NotChecked  -24.8704    1147.6098   ✗       
+596   LAGHLAQNER               -1.0000     NotChecked  -24.8746    1107.5785   ✗       
+597   LAGHPLAQNQR              -1.0000     NotChecked  -24.8758    1203.6473   ✗       
+598   LAGQPLAQNQ+0.984R        -1.0000     NotChecked  -24.8819    1195.6309   ✗       
+599   LAGHPLAQNNR              -1.0000     NotChecked  -24.9178    1189.6316   ✗       
+600   +42.011AGHPLAQNQ+0.984R  -1.0000     NotChecked  -24.9334    1133.5578   ✗       
+601   VAGHPLAQNER              -1.0000     NotChecked  -24.9488    1190.6156   ✗       
+602   LAGHPLAQNR               -1.0000     NotChecked  -24.9816    1075.5887   ✗       
+603   LAGAPLAQNER              -1.0000     NotChecked  -24.9861    1138.6095   ✗       
+604   LAGHPLAQNGR              -1.0000     NotChecked  -25.0113    1132.6101   ✗       
+605   LAGHPLAQNN+0.984R        -1.0000     NotChecked  -25.0118    1190.6156   ✗       
+606   LAGHPLAQVER              -1.0000     NotChecked  -25.0296    1189.6568   ✗       
+607   VAGHPLAQNER              -1.0000     NotChecked  -25.0310    1190.6156   ✗       
+608   +43.006AGHPLAQNQ+0.984R  -1.0000     NotChecked  -25.0362    1134.5530   ✗       
+609   +42.011AGHPLAQNER        -1.0000     NotChecked  -25.0363    1133.5578   ✗       
+610   +42.011AGAHPLAQNER       -1.0000     Failed      -25.0385    1204.5949   ✓       
+611   LAGHPLAQNNR              -1.0000     NotChecked  -25.0867    1189.6316   ✗       
+612   +42.011AGHPLAQNER        -1.0000     NotChecked  -25.0879    1133.5578   ✗       
+613   LAGHPLAQN+0.984EV        -1.0000     NotChecked  -25.1087    1148.5826   ✗       
+614   LAHPLAQNER               -1.0000     NotChecked  -25.1191    1147.6098   ✗       
+615   +42.011AGHPLAQNER        -1.0000     NotChecked  -25.1192    1133.5578   ✗       
+616   LAGHPLAQNQR              -1.0000     NotChecked  -25.1192    1203.6473   ✗       
+617   LGHPLAQNQ+0.984R         -1.0000     NotChecked  -25.1235    1133.5942   ✗       
+618   LAGHPLAQNR               -1.0000     NotChecked  -25.1313    1075.5887   ✗       
+619   LAGHALAQNER              -1.0000     NotChecked  -25.1538    1178.6156   ✗       
+620   LAGHPLANNER              -1.0000     NotChecked  -25.1558    1190.6156   ✗       
+621   LAGHPLAQNR               -1.0000     NotChecked  -25.1578    1075.5887   ✗       
+622   LAGHPLAQNES              -1.0000     NotChecked  -25.1648    1135.5622   ✗       
+623   LAGHPLGQN+0.984ER        -1.0000     NotChecked  -25.1666    1191.5996   ✗       
+624   LAGHPLAQNEA              -1.0000     NotChecked  -25.1675    1119.5673   ✗       
+625   LAGLPLAQNER              -1.0000     NotChecked  -25.1676    1180.6564   ✗       
+626   LAGHPLAQ+0.984NEV        -1.0000     NotChecked  -25.1682    1148.5826   ✗       
+627   LAGHPLASNER              -1.0000     NotChecked  -25.2119    1163.6047   ✗       
+628   +43.006AGHPLAQNER        -1.0000     NotChecked  -25.2221    1134.5530   ✗       
+629   LAGHPLGQ+0.984NER        -1.0000     NotChecked  -25.2262    1191.5996   ✗       
+630   LAGHPLAQNNR              -1.0000     NotChecked  -25.2364    1189.6316   ✗       
+631   LAGHSLAQNQ+0.984R        -1.0000     NotChecked  -25.2494    1194.6105   ✗       
+632   +43.006AGHPLAQNER        -1.0000     NotChecked  -25.3410    1134.5530   ✗       
+633   +43.006AGHPLAQNQ+0.984R  -1.0000     NotChecked  -25.4225    1134.5530   ✗       
+634   +42.011AGHPLAQNER        -1.0000     NotChecked  -25.4226    1133.5578   ✗       
+635   AAGHPLAQNQ+0.984R        -1.0000     NotChecked  -25.4320    1162.5843   ✗       
+636   +43.006AGHPLAQNER        -1.0000     NotChecked  -25.5255    1134.5530   ✗       
+637   +43.006AGHPLAQNER        -1.0000     NotChecked  -25.5771    1134.5530   ✗       
+638   +43.006AGHPLAQNER        -1.0000     NotChecked  -25.6084    1134.5530   ✗       
+639   AAGHPLAQNER              -1.0000     NotChecked  -25.6179    1162.5843   ✗       
+640   +42.011AGHPLAENER        -1.0000     NotChecked  -25.8084    1134.5418   ✗       
+641   PAGHPLAQNQ+0.984R        -1.0000     NotChecked  -25.8239    1188.6000   ✗       
+642   +43.006AGHPLAQNER        -1.0000     NotChecked  -25.9118    1134.5530   ✗       
+643   AAGHPLAQNER              -1.0000     NotChecked  -25.9213    1162.5843   ✗       
+644   +42.011AGHPLAQNER        -1.0000     NotChecked  -25.9518    1133.5578   ✗       
+645   VAGHPLAQNQ+0.984R        -1.0000     NotChecked  -26.0044    1190.6156   ✗       
+646   PAGHPLAQNER              -1.0000     NotChecked  -26.0097    1188.6000   ✗       
+647   +42.011AGHPLAQN+0.984ER  -1.0000     NotChecked  -26.1351    1134.5418   ✗       
+648   AGHPLAQNQ+0.984R         -1.0000     NotChecked  -26.1480    1091.5472   ✗       
+649   VAGHPLAQNER              -1.0000     NotChecked  -26.1902    1190.6156   ✗       
+650   +42.011AGHPLAQ+0.984NER  -1.0000     NotChecked  -26.1947    1134.5418   ✗       
+651   +42.011AGHPLAQNQR        -1.0000     NotChecked  -26.2894    1132.5738   ✗       
+652   +43.006AGHPLAENER        -1.0000     NotChecked  -26.2976    1135.5370   ✗       
+653   VAGHPLAQNER              -1.0000     NotChecked  -26.3091    1190.6156   ✗       
+654   PAGHPLAQNER              -1.0000     NotChecked  -26.3132    1188.6000   ✗       
+655   AGHPLAQNER               -1.0000     NotChecked  -26.3338    1091.5472   ✗       
+656   VAGHPLAQNQ+0.984R        -1.0000     NotChecked  -26.3907    1190.6156   ✗       
+657   +43.006AGHPLAQNER        -1.0000     NotChecked  -26.4410    1134.5530   ✗       
+658   +42.011AGHPLAQNQ+0.984R  -1.0000     NotChecked  -26.4714    1133.5578   ✗       
+659   VAGHPLAQNER              -1.0000     NotChecked  -26.4936    1190.6156   ✗       
+660   +42.011AGHPLAQN+0.984ER  -1.0000     NotChecked  -26.5215    1134.5418   ✗       
+661   VAGHPLAQNER              -1.0000     NotChecked  -26.5452    1190.6156   ✗       
+662   VAGHPLAQNER              -1.0000     NotChecked  -26.5765    1190.6156   ✗       
+663   +42.011AGHPLAQ+0.984NER  -1.0000     NotChecked  -26.5810    1134.5418   ✗       
+664   +43.006AGHPLAQN+0.984ER  -1.0000     NotChecked  -26.6243    1135.5370   ✗       
+665   AGHPLAQNER               -1.0000     NotChecked  -26.6373    1091.5472   ✗       
+666   +42.011AGHPLAQNQR        -1.0000     NotChecked  -26.6757    1132.5738   ✗       
+667   +43.006AGHPLAQ+0.984NER  -1.0000     NotChecked  -26.6839    1135.5370   ✗       
+668   +42.011AGHPLAQNQ+0.984R  -1.0000     NotChecked  -26.7749    1133.5578   ✗       
+669   +43.006AGHPLAQNQR        -1.0000     NotChecked  -26.7786    1133.5690   ✗       
+670   +42.011AGHPLAQNER        -1.0000     NotChecked  -26.7930    1133.5578   ✗       
+671   +42.011AGHPLAQNDR        -1.0000     NotChecked  -26.8636    1119.5421   ✗       
+672   VAGHPLAQNER              -1.0000     NotChecked  -26.8799    1190.6156   ✗       
+673   +43.006AGHPLAQNQ+0.984R  -1.0000     NotChecked  -26.9606    1134.5530   ✗       
+674   +42.011AGHPLAQNER        -1.0000     NotChecked  -26.9607    1133.5578   ✗       
+675   +42.011AGHPLAQNER        -1.0000     NotChecked  -27.0007    1133.5578   ✗       
+676   +43.006AGHPLAQN+0.984ER  -1.0000     NotChecked  -27.0106    1135.5370   ✗       
+677   AAGHPLAQN+0.984ER        -1.0000     NotChecked  -27.0201    1163.5683   ✗       
+678   +43.006AGHPLAQ+0.984NER  -1.0000     NotChecked  -27.0702    1135.5370   ✗       
+679   AAGHPLAQ+0.984NER        -1.0000     NotChecked  -27.0797    1163.5683   ✗       
+680   +43.006AGHPLAQNQR        -1.0000     NotChecked  -27.1649    1133.5690   ✗       
+681   AAGHPLAQNQR              -1.0000     NotChecked  -27.1744    1161.6003   ✗       
+682   +43.006AGHPLAQNQ+0.984R  -1.0000     NotChecked  -27.2641    1134.5530   ✗       
+683   VAGHPLAENER              -1.0000     NotChecked  -27.2657    1191.5996   ✗       
+684   +43.006AGHPLAQNER        -1.0000     NotChecked  -27.2822    1134.5530   ✗       
+685   +42.011AGHPLAQNER        -1.0000     NotChecked  -27.3473    1133.5578   ✗       
+686   +43.006AGHPLAQNDR        -1.0000     NotChecked  -27.3528    1120.5374   ✗       
+687   +42.011AGHPLAQNR         -1.0000     NotChecked  -27.3596    1004.5152   ✗       
+688   VAGHPLAQNER              -1.0000     NotChecked  -27.4091    1190.6156   ✗       
+689   PAGHPLAQN+0.984ER        -1.0000     NotChecked  -27.4120    1189.5840   ✗       
+690   +43.006AGHPLAQNER        -1.0000     NotChecked  -27.4499    1134.5530   ✗       
+691   +42.011AGHPLAQNNR        -1.0000     NotChecked  -27.4647    1118.5581   ✗       
+692   PAGHPLAQ+0.984NER        -1.0000     NotChecked  -27.4715    1189.5840   ✗       
+693   +43.006AGHPLAQNER        -1.0000     NotChecked  -27.4898    1134.5530   ✗       
+694   +42.011AGHPLSQNER        -1.0000     NotChecked  -27.5034    1149.5527   ✗       
+695   PAGHPLAQNQR              -1.0000     NotChecked  -27.5662    1187.6160   ✗       
+696   VAGHPLAQN+0.984ER        -1.0000     NotChecked  -27.5924    1191.5996   ✗       
+697   VAGHPLAQ+0.984NER        -1.0000     NotChecked  -27.6520    1191.5996   ✗       
+698   +42.011AGHPLAQNER        -1.0000     NotChecked  -27.6660    1133.5578   ✗       
+699   +42.011GAGHPLAQNER       -1.0000     NotChecked  -27.6723    1190.5792   ✗       
+700   +42.011AGHPLAQNER        -1.0000     NotChecked  -27.6925    1133.5578   ✗       
+701   +42.011AGHPLANNER        -1.0000     NotChecked  -27.7027    1119.5421   ✗       
+702   AGHPLAQN+0.984ER         -1.0000     NotChecked  -27.7361    1092.5312   ✗       
+703   VAGHPLAQNQR              -1.0000     NotChecked  -27.7467    1189.6316   ✗       
+704   AGHPLAQ+0.984NER         -1.0000     NotChecked  -27.7956    1092.5312   ✗       
+705   +42.011AGHPLAKNER        -1.0000     NotChecked  -27.8004    1133.5942   ✗       
+706   +43.006AGHPLAQNER        -1.0000     NotChecked  -27.8365    1134.5530   ✗       
+707   +43.006AGHPLAQNR         -1.0000     NotChecked  -27.8488    1005.5104   ✗       
+708   +42.011AGHPLAQN+0.984Q+0.984R-1.0000     NotChecked  -27.8737    1134.5418   ✗       
+709   AGHPLAQNQR               -1.0000     NotChecked  -27.8903    1090.5632   ✗       
+710   +42.011AGHPLAQNKR        -1.0000     NotChecked  -27.9251    1132.6101   ✗       
+711   VAGHPLAQNQ+0.984R        -1.0000     NotChecked  -27.9287    1190.6156   ✗       
+712   +42.011AGHPLAQ+0.984NQ+0.984R-1.0000     NotChecked  -27.9332    1134.5418   ✗       
+713   +43.006AGHPLAQNNR        -1.0000     NotChecked  -27.9539    1119.5534   ✗       
+714   VAGHPLAQN+0.984ER        -1.0000     NotChecked  -27.9788    1191.5996   ✗       
+715   +43.006AGHPLSQNER        -1.0000     NotChecked  -27.9926    1150.5479   ✗       
+716   VAGHPLAQ+0.984NER        -1.0000     NotChecked  -28.0383    1191.5996   ✗       
+717   +42.011AGHPLAQNER        -1.0000     NotChecked  -28.0523    1133.5578   ✗       
+718   +42.011AGHPLAQN+0.984ER  -1.0000     NotChecked  -28.0595    1134.5418   ✗       
+719   +42.011AGHPLAQ+0.984NER  -1.0000     NotChecked  -28.1191    1134.5418   ✗       
+720   VAGHPLAQNQR              -1.0000     NotChecked  -28.1330    1189.6316   ✗       
+721   +43.006AGHPLAQNER        -1.0000     NotChecked  -28.1552    1134.5530   ✗       
+722   +43.006GAGHPLAQNER       -1.0000     NotChecked  -28.1615    1191.5745   ✗       
+723   +42.011AGKPLAQNER        -1.0000     NotChecked  -28.1745    1124.5938   ✗       
+724   +43.006AGHPLAQNER        -1.0000     NotChecked  -28.1816    1134.5530   ✗       
+725   +43.006AGHPLANNER        -1.0000     NotChecked  -28.1919    1120.5374   ✗       
+726   +42.011AGHPLAQNQR        -1.0000     NotChecked  -28.2138    1132.5738   ✗       
+727   VAGHPLAQNQ+0.984R        -1.0000     NotChecked  -28.2322    1190.6156   ✗       
+728   AAGHPLAQNER              -1.0000     NotChecked  -28.2323    1162.5843   ✗       
+729   VAGHPLAQNER              -1.0000     NotChecked  -28.2503    1190.6156   ✗       
+730   +42.011AGHPLAQNEK        -1.0000     NotChecked  -28.2516    1105.5516   ✗       
+731   +43.006AGHPLAKNER        -1.0000     NotChecked  -28.2896    1134.5894   ✗       
+732   +42.011AGHPLAQNER        -1.0000     NotChecked  -28.2983    1133.5578   ✗       
+733   VAGHPLAQNDR              -1.0000     NotChecked  -28.3209    1176.6000   ✗       
+734   +42.011AGHPLAQNER        -1.0000     NotChecked  -28.3605    1133.5578   ✗       
+735   +43.006AGHPLAQN+0.984Q+0.984R-1.0000     NotChecked  -28.3629    1135.5370   ✗       
+736   +42.011AGHPLAQN+0.984ER  -1.0000     NotChecked  -28.3630    1134.5418   ✗       
+737   +43.006AGHPLAQNKR        -1.0000     NotChecked  -28.4143    1133.6054   ✗       
+738   VAGHPLAQNER              -1.0000     NotChecked  -28.4180    1190.6156   ✗       
+739   +43.006AGHPLAQ+0.984NQ+0.984R-1.0000     NotChecked  -28.4224    1135.5370   ✗       
+740   +42.011AGHPLAQ+0.984NER  -1.0000     NotChecked  -28.4225    1134.5418   ✗       
+741   VAGHPLAQNER              -1.0000     NotChecked  -28.4580    1190.6156   ✗       
+742   +42.011AGHPLAQNEQ        -1.0000     NotChecked  -28.4594    1105.5152   ✗       
+743   +42.011AGHPLAQNER        -1.0000     NotChecked  -28.4807    1133.5578   ✗       
+744   +42.011AGHPLAQNQR        -1.0000     NotChecked  -28.5172    1132.5738   ✗       
+745   +43.006AGHPLAQNER        -1.0000     NotChecked  -28.5415    1134.5530   ✗       
+746   +43.006AGHPLAQN+0.984ER  -1.0000     NotChecked  -28.5487    1135.5370   ✗       
+747   AAGHPLAQNER              -1.0000     NotChecked  -28.5510    1162.5843   ✗       
+748   AAGHPLAQNER              -1.0000     NotChecked  -28.5774    1162.5843   ✗       
+749   +43.006AGHPLAQ+0.984NER  -1.0000     NotChecked  -28.6082    1135.5370   ✗       
+750   PAGHPLAQNER              -1.0000     NotChecked  -28.6242    1188.6000   ✗       
+751   +43.006AGKPLAQNER        -1.0000     NotChecked  -28.6637    1125.5891   ✗       
+752   +43.006AGHPLAQNQR        -1.0000     NotChecked  -28.7030    1133.5690   ✗       
+753   +42.011AGHPLAQNER        -1.0000     NotChecked  -28.7241    1133.5578   ✗       
+754   +43.006AGHPLAQNEK        -1.0000     NotChecked  -28.7408    1106.5469   ✗       
+755   +43.006AGHPLAQNER        -1.0000     NotChecked  -28.7875    1134.5530   ✗       
+756   VAGHPLAQNER              -1.0000     NotChecked  -28.8046    1190.6156   ✗       
+757   +42.011AGHPLAQNER        -1.0000     NotChecked  -28.8062    1133.5578   ✗       
+758   VAGHPLAQNR               -1.0000     NotChecked  -28.8169    1061.5730   ✗       
+759   +42.011AGHPLAQQER        -1.0000     NotChecked  -28.8364    1147.5734   ✗       
+760   +43.006AGHPLAQNER        -1.0000     NotChecked  -28.8497    1134.5530   ✗       
+761   +43.006AGHPLAQN+0.984ER  -1.0000     NotChecked  -28.8522    1135.5370   ✗       
+762   +42.011AGHPLAQNER        -1.0000     NotChecked  -28.8670    1133.5578   ✗       
+763   +42.011AGHPLAQNEV        -1.0000     NotChecked  -28.8678    1076.5251   ✗       
+764   +43.006AGHPLAQ+0.984NER  -1.0000     NotChecked  -28.9117    1135.5370   ✗       
+765   +42.011AGYPLAQNER        -1.0000     NotChecked  -28.9159    1159.5622   ✗       
+766   VAGHPLAQNNR              -1.0000     NotChecked  -28.9220    1175.6160   ✗       
+767   +42.011AGHPLGQNER        -1.0000     NotChecked  -28.9258    1119.5421   ✗       
+768   PAGHPLAQNER              -1.0000     NotChecked  -28.9428    1188.6000   ✗       
+769   AGHPLAQNER               -1.0000     NotChecked  -28.9483    1091.5472   ✗       
+770   +43.006AGHPLAQNEQ        -1.0000     NotChecked  -28.9486    1106.5105   ✗       
+771   PAGHPLAQNER              -1.0000     NotChecked  -28.9693    1188.6000   ✗       
+772   +43.006AGHPLAQNER        -1.0000     NotChecked  -28.9699    1134.5530   ✗       
+773   +42.011AGHPLLQNER        -1.0000     NotChecked  -28.9779    1175.6047   ✗       
+774   +43.006AGHPLAQNQR        -1.0000     NotChecked  -29.0064    1133.5690   ✗       
+775   +42.011AGHPLAQNE         -1.0000     NotChecked  -29.0158    977.4567    ✗       
+776   +42.011AGRPLAQNER        -1.0000     NotChecked  -29.0366    1152.6000   ✗       
+777   +42.011AGHPLAQNEN        -1.0000     NotChecked  -29.0610    1091.4996   ✗       
+778   +42.011AGHPLAQNQ+0.984R  -1.0000     NotChecked  -29.0859    1133.5578   ✗       
+779   +42.011AGHPLAQNER        -1.0000     NotChecked  -29.1104    1133.5578   ✗       
+780   VAGHPLAQNER              -1.0000     NotChecked  -29.1233    1190.6156   ✗       
+781   +42.011AGHPLAQDER        -1.0000     NotChecked  -29.1343    1134.5418   ✗       
+782   +42.011AGHPLAQNED        -1.0000     NotChecked  -29.1386    1092.4836   ✗       
+783   VAGHPLAQNER              -1.0000     NotChecked  -29.1498    1190.6156   ✗       
+784   VAGHPLANNER              -1.0000     NotChecked  -29.1600    1176.6000   ✗       
+785   +42.011AGHPLAQNER        -1.0000     NotChecked  -29.1925    1133.5578   ✗       
+786   +43.006AGHPLAQNER        -1.0000     NotChecked  -29.2133    1134.5530   ✗       
+787   VAGHPLAKNER              -1.0000     NotChecked  -29.2577    1190.6520   ✗       
+788   AGHPLAQNER               -1.0000     NotChecked  -29.2669    1091.5472   ✗       
+789   +42.011AGHPLAQNER        -1.0000     NotChecked  -29.2717    1133.5578   ✗       
+790   AGHPLAQNER               -1.0000     NotChecked  -29.2934    1091.5472   ✗       
+791   +43.006AGHPLAQNER        -1.0000     NotChecked  -29.2954    1134.5530   ✗       
+792   AGHPLAQNER               -1.0000     NotChecked  -29.3123    1091.5472   ✗       
+793   +43.006AGHPLAQQER        -1.0000     NotChecked  -29.3256    1148.5687   ✗       
+794   VAGHPLAQN+0.984Q+0.984R  -1.0000     NotChecked  -29.3310    1191.5996   ✗       
+795   +42.011AGHPLAQEER        -1.0000     NotChecked  -29.3504    1148.5574   ✗       
+796   +43.006AGHPLAQNER        -1.0000     NotChecked  -29.3562    1134.5530   ✗       
+797   +43.006AGHPLAQNEV        -1.0000     NotChecked  -29.3570    1077.5203   ✗       
+798   AAGHPLAQNER              -1.0000     NotChecked  -29.3656    1162.5843   ✗       
+799   VAGHPLAQNKR              -1.0000     NotChecked  -29.3824    1189.6680   ✗       
+800   VAGHPLAQ+0.984NQ+0.984R  -1.0000     NotChecked  -29.3905    1191.5996   ✗       
+801   +42.011AGHPLAQNQ+0.984R  -1.0000     NotChecked  -29.4046    1133.5578   ✗       
+802   +43.006AGYPLAQNER        -1.0000     NotChecked  -29.4050    1160.5574   ✗       
+803   +43.006AGHPLGQNER        -1.0000     NotChecked  -29.4149    1120.5374   ✗       
+804   VAGHPLAQNER              -1.0000     NotChecked  -29.4264    1190.6156   ✗       
+805   +42.011AGHPLAQNQ+0.984R  -1.0000     NotChecked  -29.4310    1133.5578   ✗       
+806   +42.011AGHPLARNER        -1.0000     NotChecked  -29.4438    1161.6003   ✗       
+807   +43.006AGHPLLQNER        -1.0000     NotChecked  -29.4671    1176.6000   ✗       
+808   +43.006AGHPLAQNE         -1.0000     NotChecked  -29.5049    978.4519    ✗       
+809   VAGHPLAQNER              -1.0000     NotChecked  -29.5096    1190.6156   ✗       
+810   VAGHPLAQN+0.984ER        -1.0000     NotChecked  -29.5168    1191.5996   ✗       
+811   +42.011AGHPLAQ+0.984N+0.984ER-1.0000     NotChecked  -29.5213    1135.5258   ✗       
+812   +43.006AGRPLAQNER        -1.0000     NotChecked  -29.5258    1153.5952   ✗       
+813   +42.011GAGHPLAQNER       -1.0000     NotChecked  -29.5317    1190.5792   ✗       
+814   +43.006AGHPLAQNEN        -1.0000     NotChecked  -29.5502    1092.4948   ✗       
+815   +42.011AGHPLAQRER        -1.0000     NotChecked  -29.5529    1175.6160   ✗       
+816   +43.006AGHPLAQNQ+0.984R  -1.0000     NotChecked  -29.5751    1134.5530   ✗       
+817   VAGHPLAQ+0.984NER        -1.0000     NotChecked  -29.5764    1191.5996   ✗       
+818   +42.011AGHPLAQNER        -1.0000     NotChecked  -29.5904    1133.5578   ✗       
+819   +43.006AGHPLAQNER        -1.0000     NotChecked  -29.5996    1134.5530   ✗       
+820   AAGHPLAQNER              -1.0000     NotChecked  -29.6091    1162.5843   ✗       
+821   +42.011AGHPLAQN+0.984QR  -1.0000     NotChecked  -29.6160    1133.5578   ✗       
+822   +42.011AGHPLEQNER        -1.0000     NotChecked  -29.6165    1191.5633   ✗       
+823   +42.011AGHPLAQNER        -1.0000     NotChecked  -29.6168    1133.5578   ✗       
+824   +43.006AGHPLAQDER        -1.0000     NotChecked  -29.6234    1135.5370   ✗       
+825   +43.006AGHPLAQNED        -1.0000     NotChecked  -29.6278    1093.4789   ✗       
+826   VAGKPLAQNER              -1.0000     NotChecked  -29.6318    1181.6517   ✗       
+827   +42.011AGHPLAQNEG        -1.0000     NotChecked  -29.6683    1034.4781   ✗       
+828   VAGHPLAQNQR              -1.0000     NotChecked  -29.6711    1189.6316   ✗       
+829   +42.011AGHPLAQ+0.984NQR  -1.0000     NotChecked  -29.6756    1133.5578   ✗       
+830   +43.006AGHPLAQNER        -1.0000     NotChecked  -29.6817    1134.5530   ✗       
+831   AAGHPLAQNER              -1.0000     NotChecked  -29.6912    1162.5843   ✗       
+832   PAGHPLAQNER              -1.0000     NotChecked  -29.7042    1188.6000   ✗       
+833   VAGHPLAQNEK              -1.0000     NotChecked  -29.7089    1162.6095   ✗       
+834   +42.011AGHPLAQNR         -1.0000     NotChecked  -29.7207    1004.5152   ✗       
+835   +42.011AGHLAQNER         -1.0000     NotChecked  -29.7325    1036.5050   ✗       
+836   VAGHPLAQNER              -1.0000     NotChecked  -29.7556    1190.6156   ✗       
+837   PAGHPLAQNER              -1.0000     NotChecked  -29.7575    1188.6000   ✗       
+838   +43.006AGHPLAQNER        -1.0000     NotChecked  -29.7609    1134.5530   ✗       
+839   VAGHPLAQNER              -1.0000     NotChecked  -29.8178    1190.6156   ✗       
+840   VAGHPLAQN+0.984ER        -1.0000     NotChecked  -29.8203    1191.5996   ✗       
+841   +43.006AGHPLAQEER        -1.0000     NotChecked  -29.8395    1149.5527   ✗       
+842   +42.011AGHPLVQNER        -1.0000     NotChecked  -29.8683    1161.5891   ✗       
+843   VAGHPLAQ+0.984NER        -1.0000     NotChecked  -29.8798    1191.5996   ✗       
+844   +43.006AGHPLAQNQ+0.984R  -1.0000     NotChecked  -29.8938    1134.5530   ✗       
+845   +42.011AHPLAQNER         -1.0000     NotChecked  -29.8938    1076.5363   ✗       
+846   VAGHPLAQNEQ              -1.0000     NotChecked  -29.9167    1162.5731   ✗       
+847   +43.006AGHPLAQNQ+0.984R  -1.0000     NotChecked  -29.9202    1134.5530   ✗       
+848   +42.011AGGHPLAQNER       -1.0000     NotChecked  -29.9203    1190.5792   ✗       
+849   +43.006AGHPLARNER        -1.0000     NotChecked  -29.9330    1162.5956   ✗       
+850   VAGHPLAQNER              -1.0000     NotChecked  -29.9380    1190.6156   ✗       
+851   VAGHPLAQNQR              -1.0000     NotChecked  -29.9745    1189.6316   ✗       
+852   +42.011AGHPFAQNER        -1.0000     NotChecked  -29.9971    1167.5421   ✗       
+853   PAGHPLAQNER              -1.0000     NotChecked  -30.0009    1188.6000   ✗       
+854   +43.006AGHPLAQ+0.984N+0.984ER-1.0000     NotChecked  -30.0105    1136.5211   ✗       
+855   +42.011AGHALAQNER        -1.0000     NotChecked  -30.0117    1107.5421   ✗       
+856   +43.006GAGHPLAQNER       -1.0000     NotChecked  -30.0209    1191.5745   ✗       
+857   +42.011AGHPLAQNES        -1.0000     NotChecked  -30.0228    1064.4887   ✗       
+858   +42.011AGHPLAQNEA        -1.0000     NotChecked  -30.0254    1048.4938   ✗       
+859   +42.011AGLPLAQNER        -1.0000     NotChecked  -30.0256    1109.5829   ✗       
+860   AGHPLAQNER               -1.0000     NotChecked  -30.0283    1091.5472   ✗       
+861   +43.006AGHPLAQRER        -1.0000     NotChecked  -30.0421    1176.6112   ✗       
+862   +42.011+43.006AGHPLAQNER -1.0000     NotChecked  -30.0536    1176.5636   ✗       
+863   +43.006AGHPLAQNER        -1.0000     NotChecked  -30.0796    1134.5530   ✗       
+864   AGHPLAQNER               -1.0000     NotChecked  -30.0816    1091.5472   ✗       
+865   PAGHPLAQNER              -1.0000     NotChecked  -30.0830    1188.6000   ✗       
+866   +43.006AGHPLAQN+0.984QR  -1.0000     NotChecked  -30.1052    1134.5530   ✗       
+867   +43.006AGHPLEQNER        -1.0000     NotChecked  -30.1056    1192.5585   ✗       
+868   +43.006AGHPLAQNER        -1.0000     NotChecked  -30.1060    1134.5530   ✗       
+869   +43.006AGHPLAQNEG        -1.0000     NotChecked  -30.1575    1035.4734   ✗       
+870   +42.011AGHPLAQNER        -1.0000     NotChecked  -30.1611    1133.5578   ✗       
+871   +43.006AGHPLAQ+0.984NQR  -1.0000     NotChecked  -30.1648    1134.5530   ✗       
+872   +42.011AGHPLAQNQ+0.984R  -1.0000     NotChecked  -30.1659    1133.5578   ✗       
+873   +42.011AGHPLAQNGR        -1.0000     NotChecked  -30.1727    1061.5366   ✗       
+874   +42.011AGHPLAQNN+0.984R  -1.0000     NotChecked  -30.1732    1119.5421   ✗       
+875   VAGHPLAQNER              -1.0000     NotChecked  -30.1814    1190.6156   ✗       
+876   +42.011AGHPLAQVER        -1.0000     NotChecked  -30.1910    1118.5833   ✗       
+877   +43.006AGHPLAQNR         -1.0000     NotChecked  -30.2099    1005.5104   ✗       
+878   +42.011AGHPLAQNQ+0.984R  -1.0000     NotChecked  -30.2192    1133.5578   ✗       
+879   +43.006AGHLAQNER         -1.0000     NotChecked  -30.2217    1037.5003   ✗       
+880   +42.011AGQPLAQNER        -1.0000     NotChecked  -30.2292    1124.5574   ✗       
+881   VAGHPLAQNER              -1.0000     NotChecked  -30.2635    1190.6156   ✗       
+882   +42.011AGAHPLAQNER       -1.0000     Failed      -30.2710    1204.5949   ✓       
+883   +42.011AGHPLAQNER        -1.0000     NotChecked  -30.3205    1133.5578   ✗       
+884   VAGHPLAQNER              -1.0000     NotChecked  -30.3243    1190.6156   ✗       
+885   AGHPLAQNER               -1.0000     NotChecked  -30.3250    1091.5472   ✗       
+886   VAGHPLAQNEV              -1.0000     NotChecked  -30.3251    1133.5829   ✗       
+887   +42.011AGHPLTQNER        -1.0000     NotChecked  -30.3266    1163.5683   ✗       
+888   +42.011AGHPLAQNER        -1.0000     NotChecked  -30.3517    1133.5578   ✗       
+889   +43.006AGHPLVQNER        -1.0000     NotChecked  -30.3575    1162.5843   ✗       
+890   +43.006AHPLAQNER         -1.0000     NotChecked  -30.3830    1077.5316   ✗       
+891   VAGHPLGQNER              -1.0000     NotChecked  -30.3831    1176.6000   ✗       
+892   +42.011AGHPLAQNER        -1.0000     NotChecked  -30.4051    1133.5578   ✗       
+893   AGHPLAQNER               -1.0000     NotChecked  -30.4071    1091.5472   ✗       
+894   +43.006AGGHPLAQNER       -1.0000     NotChecked  -30.4095    1191.5745   ✗       
+895   +42.011AGHPLAQNQ+0.984R  -1.0000     NotChecked  -30.4626    1133.5578   ✗       
+896   +42.011GHPLAQNER         -1.0000     NotChecked  -30.4707    1062.5207   ✗       
+897   VAGHPLAQNE               -1.0000     NotChecked  -30.4731    1034.5145   ✗       
+898   +43.006AGHPFAQNER        -1.0000     NotChecked  -30.4863    1168.5374   ✗       
+899   +43.006AGHALAQNER        -1.0000     NotChecked  -30.5009    1108.5374   ✗       
+900   +43.006AGHPLAQNES        -1.0000     NotChecked  -30.5119    1065.4839   ✗       
+901   +43.006AGHPLAQNEA        -1.0000     NotChecked  -30.5146    1049.4890   ✗       
+902   +43.006AGLPLAQNER        -1.0000     NotChecked  -30.5147    1110.5782   ✗       
+903   VAGHPLAQNEN              -1.0000     NotChecked  -30.5183    1148.5574   ✗       
+904   +43.006AGHPLAQNER        -1.0000     NotChecked  -30.5428    1134.5530   ✗       
+905   VAGHPLAQNQ+0.984R        -1.0000     NotChecked  -30.5432    1190.6156   ✗       
+906   VAGHPLAQNER              -1.0000     NotChecked  -30.5677    1190.6156   ✗       
+907   VAGHPLAQDER              -1.0000     NotChecked  -30.5916    1191.5996   ✗       
+908   VAGHPLAQNED              -1.0000     NotChecked  -30.5959    1149.5415   ✗       
+909   +42.011AGHSLAQNER        -1.0000     NotChecked  -30.5966    1123.5370   ✗       
+910   +42.011AGHPLAQNER        -1.0000     NotChecked  -30.6485    1133.5578   ✗       
+911   VAGHPLAQNER              -1.0000     NotChecked  -30.6498    1190.6156   ✗       
+912   +43.006+42.011AGHPLAQNER -1.0000     NotChecked  -30.6503    1176.5636   ✗       
+913   +42.011AGHPLANER         -1.0000     NotChecked  -30.6534    1005.4992   ✗       
+914   +43.006AGHPLAQNQ+0.984R  -1.0000     NotChecked  -30.6551    1134.5530   ✗       
+915   +42.011AGHPLAQNER        -1.0000     NotChecked  -30.6552    1133.5578   ✗       
+916   +42.011AGAHPLAQNER       -1.0000     Failed      -30.6574    1204.5949   ✓       
+917   +43.006AGHPLAQNGR        -1.0000     NotChecked  -30.6619    1062.5319   ✗       
+918   +43.006AGHPLAQNN+0.984R  -1.0000     NotChecked  -30.6624    1120.5374   ✗       
+919   +42.011AGHPLALNER        -1.0000     NotChecked  -30.6639    1118.5833   ✗       
+920   AGHPLAQNQ+0.984R         -1.0000     NotChecked  -30.6646    1091.5472   ✗       
+921   +42.011AGHPLAQN+0.984ER  -1.0000     NotChecked  -30.6740    1134.5418   ✗       
+922   +43.006AGHPLAQVER        -1.0000     NotChecked  -30.6802    1119.5785   ✗       
+923   +42.011AGHPLAQNER        -1.0000     NotChecked  -30.7068    1133.5578   ✗       
+924   +43.006AGHPLAQNQ+0.984R  -1.0000     NotChecked  -30.7084    1134.5530   ✗       
+925   +42.011AGHPLAQNER        -1.0000     NotChecked  -30.7085    1133.5578   ✗       
+926   +42.011AGHPEAQNER        -1.0000     NotChecked  -30.7157    1149.5163   ✗       
+927   +42.011AGHPLAQLER        -1.0000     NotChecked  -30.7176    1132.5989   ✗       
+928   +43.006AGQPLAQNER        -1.0000     NotChecked  -30.7183    1125.5527   ✗       
+929   VAGHPLAQNER              -1.0000     NotChecked  -30.7290    1190.6156   ✗       
+930   +42.011AGHPLAQNER        -1.0000     NotChecked  -30.7306    1133.5578   ✗       
+931   +42.011AGHPLAQ+0.984NER  -1.0000     NotChecked  -30.7335    1134.5418   ✗       
+932   +43.006AGHPLAQNER        -1.0000     NotChecked  -30.8097    1134.5530   ✗       
+933   +43.006AGHPLTQNER        -1.0000     NotChecked  -30.8158    1164.5636   ✗       
+934   +42.011AGHPLAQNQR        -1.0000     NotChecked  -30.8282    1132.5738   ✗       
+935   +43.006AGHPLAQNER        -1.0000     NotChecked  -30.8409    1134.5530   ✗       
+936   +42.011AGPPLAQNER        -1.0000     NotChecked  -30.8430    1093.5516   ✗       
+937   AGHPLAQNER               -1.0000     NotChecked  -30.8504    1091.5472   ✗       
+938   +42.011AGHPLMQNER        -1.0000     NotChecked  -30.8610    1193.5611   ✗       
+939   VAGHPLAQNQ+0.984R        -1.0000     NotChecked  -30.8619    1190.6156   ✗       
+940   VAGHPLAQNQ+0.984R        -1.0000     NotChecked  -30.8883    1190.6156   ✗       
+941   +43.006AGHPLAQNER        -1.0000     NotChecked  -30.8942    1134.5530   ✗       
+942   +42.011AGHPLAANER        -1.0000     NotChecked  -30.9104    1076.5363   ✗       
+943   +43.006AGHPLAQNQ+0.984R  -1.0000     NotChecked  -30.9518    1134.5530   ✗       
+944   +42.011AGHPLAQNER        -1.0000     NotChecked  -30.9519    1133.5578   ✗       
+945   +43.006GHPLAQNER         -1.0000     NotChecked  -30.9598    1063.5159   ✗       
+946   AAGHPLAQNER              -1.0000     NotChecked  -30.9693    1162.5843   ✗       
+947   VAGHPLAQ+0.984N+0.984ER  -1.0000     NotChecked  -30.9786    1192.5837   ✗       
+948   +42.011AGHPLAQN+0.984ER  -1.0000     NotChecked  -30.9927    1134.5418   ✗       
+949   +42.011AGHPLAQN+0.984ER  -1.0000     NotChecked  -31.0191    1134.5418   ✗       
+950   +42.011AGHPLAQNER        -1.0000     NotChecked  -31.0340    1133.5578   ✗       
+951   +42.011AGHPLAENER        -1.0000     NotChecked  -31.0409    1134.5418   ✗       
+952   +42.011AGHPMAQNER        -1.0000     NotChecked  -31.0416    1151.5142   ✗       
+953   VAGHPLAQNER              -1.0000     NotChecked  -31.0477    1190.6156   ✗       
+954   AAGHPLAQNQ+0.984R        -1.0000     NotChecked  -31.0509    1162.5843   ✗       
+955   +42.011AGHPLAQ+0.984NER  -1.0000     NotChecked  -31.0522    1134.5418   ✗       
+956   PAGHPLAQNQ+0.984R        -1.0000     NotChecked  -31.0564    1188.6000   ✗       
+957   VAGHPLAQN+0.984QR        -1.0000     NotChecked  -31.0734    1190.6156   ✗       
+958   VAGHPLAQNER              -1.0000     NotChecked  -31.0742    1190.6156   ✗       
+959   +42.011AGHPLAQ+0.984NER  -1.0000     NotChecked  -31.0786    1134.5418   ✗       
+960   +43.006AGHSLAQNER        -1.0000     NotChecked  -31.0857    1124.5323   ✗       
+961   VAGHPLAQNEG              -1.0000     NotChecked  -31.1256    1091.5360   ✗       
+962   VAGHPLAQ+0.984NQR        -1.0000     NotChecked  -31.1329    1190.6156   ✗       
+963   +43.006AGHPLAQNER        -1.0000     NotChecked  -31.1377    1134.5530   ✗       
+964   +43.006AGHPLANER         -1.0000     NotChecked  -31.1426    1006.4944   ✗       
+965   +43.006AGHPLAQNER        -1.0000     NotChecked  -31.1444    1134.5530   ✗       
+966   +42.011AGHPLAQNQR        -1.0000     NotChecked  -31.1469    1132.5738   ✗       
+967   +43.006AGHPLALNER        -1.0000     NotChecked  -31.1530    1119.5785   ✗       
+968   AGHPLAQNER               -1.0000     NotChecked  -31.1538    1091.5472   ✗       
+969   +43.006AGHPLAQN+0.984ER  -1.0000     NotChecked  -31.1632    1135.5370   ✗       
+970   +42.011AGHPLAQNQR        -1.0000     NotChecked  -31.1734    1132.5738   ✗       
+971   VAGHPLAQNR               -1.0000     NotChecked  -31.1780    1061.5730   ✗       
+972   +42.011AGHPLAQNER        -1.0000     NotChecked  -31.1844    1133.5578   ✗       
+973   VAGHLAQNER               -1.0000     NotChecked  -31.1898    1093.5629   ✗       
+974   +43.006AGHPLAQNER        -1.0000     NotChecked  -31.1960    1134.5530   ✗       
+975   +43.006AGHPLAQNER        -1.0000     NotChecked  -31.1977    1134.5530   ✗       
+976   +43.006AGHPEAQNER        -1.0000     NotChecked  -31.2048    1150.5115   ✗       
+977   AAGHPLAQNER              -1.0000     NotChecked  -31.2055    1162.5843   ✗       
+978   +43.006AGHPLAQLER        -1.0000     NotChecked  -31.2068    1133.5942   ✗       
+979   +43.006AGHPLAQNER        -1.0000     NotChecked  -31.2198    1134.5530   ✗       
+980   +43.006AGHPLAQ+0.984NER  -1.0000     NotChecked  -31.2227    1135.5370   ✗       
+981   AAGHPLAQNER              -1.0000     NotChecked  -31.2367    1162.5843   ✗       
+982   PAGHPLAQNER              -1.0000     NotChecked  -31.2423    1188.6000   ✗       
+983   +42.011AGHQ+0.984LAQNER  -1.0000     NotChecked  -31.2829    1165.5476   ✗       
+984   +43.006AGHPLAQNQR        -1.0000     NotChecked  -31.3174    1133.5690   ✗       
+985   +43.006AGPPLAQNER        -1.0000     NotChecked  -31.3322    1094.5469   ✗       
+986   +43.006AGHPLMQNER        -1.0000     NotChecked  -31.3501    1194.5564   ✗       
+987   VAHPLAQNER               -1.0000     NotChecked  -31.3512    1133.5942   ✗       
+988   +42.011AGHPPAQNER        -1.0000     NotChecked  -31.3569    1117.5265   ✗       
+989   PAGHPLAQNER              -1.0000     NotChecked  -31.3612    1188.6000   ✗       
+990   AGHPLAQNQ+0.984R         -1.0000     NotChecked  -31.3805    1091.5472   ✗       
+991   +43.006AGHPLAANER        -1.0000     NotChecked  -31.3996    1077.5316   ✗       
+992   +42.011AGNPLAQNER        -1.0000     NotChecked  -31.4130    1110.5418   ✗       
+993   +42.011AGVPLAQNER        -1.0000     NotChecked  -31.4181    1095.5673   ✗       
+994   +42.011AGHPLAENER        -1.0000     NotChecked  -31.4272    1134.5418   ✗       
+995   +42.011AGHPRAQNER        -1.0000     NotChecked  -31.4329    1176.5748   ✗       
+996   +43.006AGHPLAQNER        -1.0000     NotChecked  -31.4411    1134.5530   ✗       
+997   PAGHPLAQNQ+0.984R        -1.0000     NotChecked  -31.4427    1188.6000   ✗       
+998   +42.011AGHLLAQNER        -1.0000     NotChecked  -31.4527    1149.5891   ✗       
+999   +42.011AGHPKAQNER        -1.0000     NotChecked  -31.4531    1148.5687   ✗       
+1000  VAGHALAQNER              -1.0000     NotChecked  -31.4690    1164.6000   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: LAGHPLAQNER
+Similarity: 0.8744
+De Novo Score: -0.0251
+Source: Database
+Correct: ✓
+

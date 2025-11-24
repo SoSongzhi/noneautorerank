@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 168
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 958.9684
+Precursor charge: 2+
+Ground truth: VVDIADSVAPTDIEEGMR
+Ground truth (normalized): VVDIADSVAPTDIEEGMR
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 346
+Used for reranking: 346
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 346 (34.6%)
+Database matches: 119 (11.9%)
+Prosit predictions: 221 (22.1%)
+Failed: 6 (0.6%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.8754
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     VVDLADSVAPTDLEEGMR       0.8754      Database    -0.2207     1915.9197   ✓       ✓
+2     VVDLADSVAPTDLEEGMR       0.8754      Database    -2.3286     1915.9197   ✓       ✓
+3     VVDLADSVAPTDLEEGMR       0.8754      Database    -4.0684     1915.9197   ✓       ✓
+4     VVDLADSVAPTDLEEGMR       0.8754      Database    -5.9554     1915.9197   ✓       ✓
+5     VVDLADSVAPTDLEEGMR       0.8754      Database    -6.0007     1915.9197   ✓       ✓
+6     VVDLADSVAPTDLEEGMR       0.8754      Database    -6.1763     1915.9197   ✓       ✓
+7     VVDLADSVAPTDLEEGMR       0.8754      Database    -7.2554     1915.9197   ✓       ✓
+8     VVDLADSVAPTDLEEGMR       0.8754      Database    -7.9173     1915.9197   ✓       ✓
+9     VVDLADSVAPTDLEEGMR       0.8754      Database    -8.0633     1915.9197   ✓       ✓
+10    VVDLADSVAPTDLEEGMR       0.8754      Database    -8.1087     1915.9197   ✓       ✓
+11    VVDLADSVAPTDLEEGMR       0.8754      Database    -9.3634     1915.9197   ✓       ✓
+12    VVDLADSVAPTDLEEGMR       0.8754      Database    -9.8031     1915.9197   ✓       ✓
+13    VVDLADSVAPTDLEEGMR       0.8754      Database    -9.8484     1915.9197   ✓       ✓
+14    VVDLADSVAPTDLEEGMR       0.8754      Database    -10.0253    1915.9197   ✓       ✓
+15    VVDLADSVAPTDLEEGMR       0.8754      Database    -10.4893    1915.9197   ✓       ✓
+16    VVDLADSVAPTDLEEGMR       0.8754      Database    -11.1031    1915.9197   ✓       ✓
+17    VVDLADSVAPTDLEEGMR       0.8754      Database    -11.7354    1915.9197   ✓       ✓
+18    VVDLADSVAPTDLEEGMR       0.8754      Database    -11.7650    1915.9197   ✓       ✓
+19    VVDLADSVAPTDLEEGMR       0.8754      Database    -11.9110    1915.9197   ✓       ✓
+20    VVDLADSVAPTDLEEGMR       0.8754      Database    -11.9564    1915.9197   ✓       ✓
+21    VVDLADSVAPTDLEEGMR       0.8754      Database    -12.1111    1915.9197   ✓       ✓
+22    VVDLADSVAPTDLEEGMR       0.8754      Database    -12.5973    1915.9197   ✓       ✓
+23    VVDLADSVAPTDLEEGMR       0.8754      Database    -12.9901    1915.9197   ✓       ✓
+24    VVDLADSVAPTDLEEGMR       0.8754      Database    -13.0355    1915.9197   ✓       ✓
+25    VVDLADSVAPTDLEEGMR       0.8754      Database    -13.2111    1915.9197   ✓       ✓
+26    VVDLADSVAPTDLEEGMR       0.8754      Database    -13.2701    1915.9197   ✓       ✓
+27    VVDLADSVAPTDLEEGMR       0.8754      Database    -13.6520    1915.9197   ✓       ✓
+28    VVDLADSVAPTDLEEGMR       0.8754      Database    -13.6974    1915.9197   ✓       ✓
+29    VVDLADSVAPTDLEEGMR       0.8754      Database    -13.7647    1915.9197   ✓       ✓
+30    VVDLADSVAPTDLEEGMR       0.8754      Database    -13.7709    1915.9197   ✓       ✓
+31    VVDLADSVAPTDLEEGMR       0.8754      Database    -13.8434    1915.9197   ✓       ✓
+32    VVDLADSVAPTDLEEGMR       0.8754      Database    -13.8730    1915.9197   ✓       ✓
+33    VVDLADSVAPTDLEEGMR       0.8754      Database    -14.2190    1915.9197   ✓       ✓
+34    VVDLADSVAPTDLEEGMR       0.8754      Database    -14.4689    1915.9197   ✓       ✓
+35    VVDLADSVAPTDLEEGMR       0.8754      Database    -14.9521    1915.9197   ✓       ✓
+36    VVDLADSVAPTDLEEGMR       0.8754      Database    -15.0003    1915.9197   ✓       ✓
+37    VVDLADSVAPTDLEEGMR       0.8754      Database    -15.0981    1915.9197   ✓       ✓
+38    VVDLADSVAPTDLEEGMR       0.8754      Database    -15.1348    1915.9197   ✓       ✓
+39    VVDLADSVAPTDLEEGMR       0.8754      Database    -15.1435    1915.9197   ✓       ✓
+40    VVDLADSVAPTDLEEGMR       0.8754      Database    -15.2426    1915.9197   ✓       ✓
+41    VVDLADSVAPTDLEEGMR       0.8754      Database    -15.2993    1915.9197   ✓       ✓
+42    VVDLADSVAPTDLEEGMR       0.8754      Database    -15.3780    1915.9197   ✓       ✓
+43    VVDLADSVAPTDLEEGMR       0.8754      Database    -15.5464    1915.9197   ✓       ✓
+44    VVDLADSVAPTDLEEGMR       0.8754      Database    -15.5831    1915.9197   ✓       ✓
+45    VVDLADSVAPTDLEEGMR       0.8754      Database    -15.6591    1915.9197   ✓       ✓
+46    VVDLADSVAPTDLEEGMR       0.8754      Database    -15.7600    1915.9197   ✓       ✓
+47    VVDLADSVAPTDLEEGMR       0.8754      Database    -15.8054    1915.9197   ✓       ✓
+48    VVDLADSVAPTDLEEGMR       0.8754      Database    -15.8727    1915.9197   ✓       ✓
+49    VVDLADSVAPTDLEEGMR       0.8754      Database    -15.8789    1915.9197   ✓       ✓
+50    VVDLADSVAPTDLEEGMR       0.8754      Database    -15.9241    1915.9197   ✓       ✓
+51    VVDLADSVAPTDLEEGMR       0.8754      Database    -15.9588    1915.9197   ✓       ✓
+52    VVDLADSVAPTDLEEGMR       0.8754      Database    -16.1520    1915.9197   ✓       ✓
+53    VVDLADSVAPTDLEEGMR       0.8754      Database    -16.1579    1915.9197   ✓       ✓
+54    VVDLADSVAPTDLEEGMR       0.8754      Database    -16.2240    1915.9197   ✓       ✓
+55    VVDLADSVAPTDLEEGMR       0.8754      Database    -16.2694    1915.9197   ✓       ✓
+56    VVDLADSVAPTDLEEGMR       0.8754      Database    -16.5769    1915.9197   ✓       ✓
+57    VVDLADSVAPTDLEEGMR       0.8754      Database    -16.8378    1915.9197   ✓       ✓
+58    VVDLADSVAPTDLEEGMR       0.8754      Database    -16.8832    1915.9197   ✓       ✓
+59    VVDLADSVAPTDLEEGMR       0.8754      Database    -17.0600    1915.9197   ✓       ✓
+60    VVDLADSVAPTDLEEGMR       0.8754      Database    -17.1083    1915.9197   ✓       ✓
+61    VVDLADSVAPTDLEEGMR       0.8754      Database    -17.1178    1915.9197   ✓       ✓
+62    VVDLADSVAPTDLEEGMR       0.8754      Database    -17.2427    1915.9197   ✓       ✓
+63    VVDLADSVAPTDLEEGMR       0.8754      Database    -17.3506    1915.9197   ✓       ✓
+64    VVDLADSVAPTDLEEGMR       0.8754      Database    -17.4997    1915.9197   ✓       ✓
+65    VVDLADSVAPTDLEEGMR       0.8754      Database    -17.5241    1915.9197   ✓       ✓
+66    VVDLADSVAPTDLEEGMR       0.8754      Database    -17.5451    1915.9197   ✓       ✓
+67    VVDLADSVAPTDLEEGMR       0.8754      Database    -17.6124    1915.9197   ✓       ✓
+68    VVDLADSVAPTDLEEGMR       0.8754      Database    -17.6186    1915.9197   ✓       ✓
+69    VVDLADSVAPTDLEEGMR       0.8754      Database    -17.6207    1915.9197   ✓       ✓
+70    VVDLADSVAPTDLEEGMR       0.8754      Database    -17.6543    1915.9197   ✓       ✓
+71    VVDLADSVAPTDLEEGMR       0.8754      Database    -17.6911    1915.9197   ✓       ✓
+72    VVDLADSVAPTDLEEGMR       0.8754      Database    -17.7671    1915.9197   ✓       ✓
+73    VVDLADSVAPTDLEEGMR       0.8754      Database    -17.8458    1915.9197   ✓       ✓
+74    VVDLADSVAPTDLEEGMR       0.8754      Database    -17.8479    1915.9197   ✓       ✓
+75    VVDLADSVAPTDLEEGMR       0.8754      Database    -17.8670    1915.9197   ✓       ✓
+76    VVDLADSVAPTDLEEGMR       0.8754      Database    -17.8911    1915.9197   ✓       ✓
+77    VVDLADSVAPTDLEEGMR       0.8754      Database    -17.9816    1915.9197   ✓       ✓
+78    VVDLADSVAPTDLEEGMR       0.8754      Database    -18.0320    1915.9197   ✓       ✓
+79    VVDLADSVAPTDLEEGMR       0.8754      Database    -18.0492    1915.9197   ✓       ✓
+80    VVDLADSVAPTDLEEGMR       0.8754      Database    -18.0667    1915.9197   ✓       ✓
+81    VVDLADSVAPTDLEEGMR       0.8754      Database    -18.1860    1915.9197   ✓       ✓
+82    VVDLADSVAPTDLEEGMR       0.8754      Database    -18.2659    1915.9197   ✓       ✓
+83    VVDLADSVAPTDLEEGMR       0.8754      Database    -18.3166    1915.9197   ✓       ✓
+84    VVDLADSVAPTDLEEGMR       0.8754      Database    -18.3320    1915.9197   ✓       ✓
+85    VVDLADSVAPTDLEEGMR       0.8754      Database    -18.3773    1915.9197   ✓       ✓
+86    VVDLADSVAPTDLEEGMR       0.8754      Database    -18.5246    1915.9197   ✓       ✓
+87    VVDLADSVAPTDLEEGMR       0.8754      Database    -18.5259    1915.9197   ✓       ✓
+88    VVDLADSVAPTDLEEGMR       0.8754      Database    -18.6503    1915.9197   ✓       ✓
+89    VVDLADSVAPTDLEEGMR       0.8754      Database    -18.7702    1915.9197   ✓       ✓
+90    VVDLADSVAPTDLEEGMR       0.8754      Database    -18.7998    1915.9197   ✓       ✓
+91    VVDLADSVAPTDLEEGMR       0.8754      Database    -18.8480    1915.9197   ✓       ✓
+92    VVDLADSVAPTDLEEGMR       0.8754      Database    -18.9458    1915.9197   ✓       ✓
+93    VVDLADSVAPTDLEEGMR       0.8754      Database    -18.9825    1915.9197   ✓       ✓
+94    VVDLADSVAPTDLEEGMR       0.8754      Database    -18.9912    1915.9197   ✓       ✓
+95    VVDLADSVAPTDLEEGMR       0.8754      Database    -19.0047    1915.9197   ✓       ✓
+96    VVDLADSVAPTDLEEGMR       0.8754      Database    -19.0501    1915.9197   ✓       ✓
+97    VVDLADSVAPTDLEEGMR       0.8754      Database    -19.0903    1915.9197   ✓       ✓
+98    VVDLADSVAPTDLEEGMR       0.8754      Database    -19.1458    1915.9197   ✓       ✓
+99    VVDLADSVAPTDLEEGMR       0.8754      Database    -19.1469    1915.9197   ✓       ✓
+100   VVDLADSVAPTDLEEGMR       0.8754      Database    -19.2257    1915.9197   ✓       ✓
+101   VVDLADSVAPTDLEEGMR       0.8754      Database    -19.3941    1915.9197   ✓       ✓
+102   VVDLADSVAPTDLEEGMR       0.8754      Database    -19.4321    1915.9197   ✓       ✓
+103   VVDLADSVAPTDLEEGMR       0.8754      Database    -19.4994    1915.9197   ✓       ✓
+104   VVDLADSVAPTDLEEGMR       0.8754      Database    -19.5056    1915.9197   ✓       ✓
+105   VVDLADSVAPTDLEEGMR       0.8754      Database    -19.5447    1915.9197   ✓       ✓
+106   VVDLADSVAPTDLEEGMR       0.8754      Database    -19.5510    1915.9197   ✓       ✓
+107   VVDLADSVAPTDLEEGMR       0.8754      Database    -19.6077    1915.9197   ✓       ✓
+108   VVDLADSVAPTDLEEGMR       0.8754      Database    -19.6320    1915.9197   ✓       ✓
+109   VVDLADSVAPTDLEEGMR       0.8754      Database    -19.6530    1915.9197   ✓       ✓
+110   VVDLADSVAPTDLEEGMR       0.8754      Database    -19.7203    1915.9197   ✓       ✓
+111   VVDLADSVAPTDLEEGMR       0.8754      Database    -19.7266    1915.9197   ✓       ✓
+112   VVDLADSVAPTDLEEGMR       0.8754      Database    -19.7286    1915.9197   ✓       ✓
+113   VVDLADSVAPTDLEEGMR       0.8754      Database    -19.7718    1915.9197   ✓       ✓
+114   VVDLADSVAPTDLEEGMR       0.8754      Database    -19.8077    1915.9197   ✓       ✓
+115   VVDLADSVAPTDLEEGMR       0.8754      Database    -19.9537    1915.9197   ✓       ✓
+116   VVDLADSVAPTDLEEGMR       0.8754      Database    -19.9559    1915.9197   ✓       ✓
+117   VVDLADSVAPTDLEEGMR       0.8754      Database    -19.9750    1915.9197   ✓       ✓
+118   VVDLADSVAPTDLEEGMR       0.8754      Database    -19.9991    1915.9197   ✓       ✓
+119   VVDLADSVAPTDLEEGMR       0.8754      Database    -19.9997    1915.9197   ✓       ✓
+120   +43.006VDLADSVAPTDLEELMR 0.4857      Prosit      -26.2057    1915.9197   ✓       
+121   VVDLADSVAPTDLQ+0.984Q+0.984GMR0.4696      Prosit      -16.1619    1915.9197   ✓       
+122   VVDLADSVAPTDLQ+0.984Q+0.984GMR0.4696      Prosit      -18.2699    1915.9197   ✓       
+123   VVN+0.984LAN+0.984SVAPTDLQ+0.984EGMR0.4673      Prosit      -16.6938    1915.9197   ✓       
+124   VVN+0.984LAN+0.984SVAPTDLQ+0.984EGMR0.4673      Prosit      -18.8018    1915.9197   ✓       
+125   VVDLADSVAPTDLQ+0.984EGMR 0.4671      Prosit      -7.4304     1915.9197   ✓       
+126   VVDLADSVAPTDLQ+0.984EGMR 0.4671      Prosit      -9.5384     1915.9197   ✓       
+127   VVDLADSVAPTDLQ+0.984EGMR 0.4671      Prosit      -11.2781    1915.9197   ✓       
+128   VVDLADSVAPTDLQ+0.984EGMR 0.4671      Prosit      -13.1651    1915.9197   ✓       
+129   VVDLADSVAPTDLQ+0.984EGMR 0.4671      Prosit      -13.2105    1915.9197   ✓       
+130   VVDLADSVAPTDLQ+0.984EGMR 0.4671      Prosit      -13.3861    1915.9197   ✓       
+131   VVDLADSVAPTDLQ+0.984EGMR 0.4671      Prosit      -14.4652    1915.9197   ✓       
+132   VVDLADSVAPTDLQ+0.984EGMR 0.4671      Prosit      -15.1271    1915.9197   ✓       
+133   VVDLADSVAPTDLQ+0.984EGMR 0.4671      Prosit      -15.2731    1915.9197   ✓       
+134   VVDLADSVAPTDLQ+0.984EGMR 0.4671      Prosit      -15.3185    1915.9197   ✓       
+135   VVDLADSVAPTDLQ+0.984EGMR 0.4671      Prosit      -16.5732    1915.9197   ✓       
+136   VVDLADSVAPTDLQ+0.984EGMR 0.4671      Prosit      -17.0128    1915.9197   ✓       
+137   VVDLADSVAPTDLQ+0.984EGMR 0.4671      Prosit      -17.0582    1915.9197   ✓       
+138   VVDLADSVAPTDLQ+0.984EGMR 0.4671      Prosit      -17.2351    1915.9197   ✓       
+139   VVDLADSVAPTDLQ+0.984EGMR 0.4671      Prosit      -17.6991    1915.9197   ✓       
+140   VVDLADSVAPTDLQ+0.984EGMR 0.4671      Prosit      -18.3129    1915.9197   ✓       
+141   VVDLADSVAPTDLQ+0.984EGMR 0.4671      Prosit      -18.9452    1915.9197   ✓       
+142   VVDLADSVAPTDLQ+0.984EGMR 0.4671      Prosit      -18.9748    1915.9197   ✓       
+143   VVDLADSVAPTDLQ+0.984EGMR 0.4671      Prosit      -19.1208    1915.9197   ✓       
+144   VVDLADSVAPTDLQ+0.984EGMR 0.4671      Prosit      -19.1662    1915.9197   ✓       
+145   VVDLADSVAPTDLQ+0.984EGMR 0.4671      Prosit      -19.3208    1915.9197   ✓       
+146   VVDLADSVAPTDLQ+0.984EGMR 0.4671      Prosit      -19.8071    1915.9197   ✓       
+147   VVDLADSVAPTDLEQ+0.984GMR 0.4666      Prosit      -8.9522     1915.9197   ✓       
+148   VVDLADSVAPTDLEQ+0.984GMR 0.4666      Prosit      -11.0601    1915.9197   ✓       
+149   VVDLADSVAPTDLEQ+0.984GMR 0.4666      Prosit      -12.7999    1915.9197   ✓       
+150   VVDLADSVAPTDLEQ+0.984GMR 0.4666      Prosit      -14.6869    1915.9197   ✓       
+151   VVDLADSVAPTDLEQ+0.984GMR 0.4666      Prosit      -14.7322    1915.9197   ✓       
+152   VVDLADSVAPTDLEQ+0.984GMR 0.4666      Prosit      -14.9078    1915.9197   ✓       
+153   VVDLADSVAPTDLEQ+0.984GMR 0.4666      Prosit      -15.9869    1915.9197   ✓       
+154   VVDLADSVAPTDLEQ+0.984GMR 0.4666      Prosit      -16.6488    1915.9197   ✓       
+155   VVDLADSVAPTDLEQ+0.984GMR 0.4666      Prosit      -16.7948    1915.9197   ✓       
+156   VVDLADSVAPTDLEQ+0.984GMR 0.4666      Prosit      -16.8402    1915.9197   ✓       
+157   VVDLADSVAPTDLEQ+0.984GMR 0.4666      Prosit      -18.0949    1915.9197   ✓       
+158   VVDLADSVAPTDLEQ+0.984GMR 0.4666      Prosit      -18.5346    1915.9197   ✓       
+159   VVDLADSVAPTDLEQ+0.984GMR 0.4666      Prosit      -18.5799    1915.9197   ✓       
+160   VVDLADSVAPTDLEQ+0.984GMR 0.4666      Prosit      -18.7568    1915.9197   ✓       
+161   VVDLADSVAPTDLEQ+0.984GMR 0.4666      Prosit      -19.2208    1915.9197   ✓       
+162   VVDLADSVAPTDLEQ+0.984GMR 0.4666      Prosit      -19.8346    1915.9197   ✓       
+163   VVDLAN+0.984SVAPTDLEQ+0.984GMR0.4653      Prosit      -11.5175    1915.9197   ✓       
+164   VVDLAN+0.984SVAPTDLEQ+0.984GMR0.4653      Prosit      -13.6254    1915.9197   ✓       
+165   VVDLAN+0.984SVAPTDLEQ+0.984GMR0.4653      Prosit      -15.3652    1915.9197   ✓       
+166   VVDLAN+0.984SVAPTDLEQ+0.984GMR0.4653      Prosit      -17.2522    1915.9197   ✓       
+167   VVDLAN+0.984SVAPTDLEQ+0.984GMR0.4653      Prosit      -17.2975    1915.9197   ✓       
+168   VVDLAN+0.984SVAPTDLEQ+0.984GMR0.4653      Prosit      -17.4731    1915.9197   ✓       
+169   VVDLAN+0.984SVAPTDLEQ+0.984GMR0.4653      Prosit      -18.5522    1915.9197   ✓       
+170   VVDLAN+0.984SVAPTDLEQ+0.984GMR0.4653      Prosit      -19.2141    1915.9197   ✓       
+171   VVDLAN+0.984SVAPTDLEQ+0.984GMR0.4653      Prosit      -19.3601    1915.9197   ✓       
+172   VVDLAN+0.984SVAPTDLEQ+0.984GMR0.4653      Prosit      -19.4055    1915.9197   ✓       
+173   VVDLAN+0.984SVAPTDLQ+0.984EGMR0.4641      Prosit      -9.9958     1915.9197   ✓       
+174   VVDLAN+0.984SVAPTDLQ+0.984EGMR0.4641      Prosit      -12.1037    1915.9197   ✓       
+175   VVDLAN+0.984SVAPTDLQ+0.984EGMR0.4641      Prosit      -13.8434    1915.9197   ✓       
+176   VVDLAN+0.984SVAPTDLQ+0.984EGMR0.4641      Prosit      -15.7304    1915.9197   ✓       
+177   VVDLAN+0.984SVAPTDLQ+0.984EGMR0.4641      Prosit      -15.7758    1915.9197   ✓       
+178   VVDLAN+0.984SVAPTDLQ+0.984EGMR0.4641      Prosit      -15.9514    1915.9197   ✓       
+179   VVDLAN+0.984SVAPTDLQ+0.984EGMR0.4641      Prosit      -17.0305    1915.9197   ✓       
+180   VVDLAN+0.984SVAPTDLQ+0.984EGMR0.4641      Prosit      -17.6924    1915.9197   ✓       
+181   VVDLAN+0.984SVAPTDLQ+0.984EGMR0.4641      Prosit      -17.8384    1915.9197   ✓       
+182   VVDLAN+0.984SVAPTDLQ+0.984EGMR0.4641      Prosit      -17.8838    1915.9197   ✓       
+183   VVDLAN+0.984SVAPTDLQ+0.984EGMR0.4641      Prosit      -19.1385    1915.9197   ✓       
+184   VVDLAN+0.984SVAPTDLQ+0.984EGMR0.4641      Prosit      -19.5781    1915.9197   ✓       
+185   VVDLAN+0.984SVAPTDLQ+0.984EGMR0.4641      Prosit      -19.6235    1915.9197   ✓       
+186   VVDLAN+0.984SVAPTDLQ+0.984EGMR0.4641      Prosit      -19.8004    1915.9197   ✓       
+187   VVN+0.984LADSVAPTDLQ+0.984EGMR0.4629      Prosit      -14.1285    1915.9197   ✓       
+188   VVN+0.984LADSVAPTDLQ+0.984EGMR0.4629      Prosit      -16.2365    1915.9197   ✓       
+189   VVN+0.984LADSVAPTDLQ+0.984EGMR0.4629      Prosit      -17.9762    1915.9197   ✓       
+190   VVN+0.984LADSVAPTDLQ+0.984EGMR0.4629      Prosit      -19.8632    1915.9197   ✓       
+191   VVN+0.984LADSVAPTDLQ+0.984EGMR0.4629      Prosit      -19.9086    1915.9197   ✓       
+192   VVDLADSVAPTN+0.984LEQ+0.984GMR0.4622      Prosit      -17.8304    1915.9197   ✓       
+193   VVDLADSVAPTN+0.984LEQ+0.984GMR0.4622      Prosit      -19.9383    1915.9197   ✓       
+194   VVN+0.984LADSVAPTDLEQ+0.984GMR0.4597      Prosit      -15.6502    1915.9197   ✓       
+195   VVN+0.984LADSVAPTDLEQ+0.984GMR0.4597      Prosit      -17.7582    1915.9197   ✓       
+196   VVN+0.984LADSVAPTDLEQ+0.984GMR0.4597      Prosit      -19.4979    1915.9197   ✓       
+197   +42.011VDLADSVAPTDLEEGMGR0.4580      Prosit      -23.5716    1915.8833   ✓       
+198   +42.011VDLADSVAPTDLEEGMGR0.4580      Prosit      -25.6796    1915.8833   ✓       
+199   VVDLADSVAPTDLEEMGR       0.4577      Prosit      -16.0077    1915.9197   ✓       
+200   VVDLADSVAPTDLEEMGR       0.4577      Prosit      -18.1157    1915.9197   ✓       
+201   VVDLADSVAPTDLEEMGR       0.4577      Prosit      -19.8554    1915.9197   ✓       
+202   VVN+0.984LAN+0.984SVAPTDLEEGMR0.4509      Prosit      -9.4840     1915.9197   ✓       
+203   VVN+0.984LAN+0.984SVAPTDLEEGMR0.4509      Prosit      -11.5920    1915.9197   ✓       
+204   VVN+0.984LAN+0.984SVAPTDLEEGMR0.4509      Prosit      -13.3317    1915.9197   ✓       
+205   VVN+0.984LAN+0.984SVAPTDLEEGMR0.4509      Prosit      -15.2187    1915.9197   ✓       
+206   VVN+0.984LAN+0.984SVAPTDLEEGMR0.4509      Prosit      -15.2641    1915.9197   ✓       
+207   VVN+0.984LAN+0.984SVAPTDLEEGMR0.4509      Prosit      -15.4397    1915.9197   ✓       
+208   VVN+0.984LAN+0.984SVAPTDLEEGMR0.4509      Prosit      -16.5188    1915.9197   ✓       
+209   VVN+0.984LAN+0.984SVAPTDLEEGMR0.4509      Prosit      -17.1807    1915.9197   ✓       
+210   VVN+0.984LAN+0.984SVAPTDLEEGMR0.4509      Prosit      -17.3267    1915.9197   ✓       
+211   VVN+0.984LAN+0.984SVAPTDLEEGMR0.4509      Prosit      -17.3721    1915.9197   ✓       
+212   VVN+0.984LAN+0.984SVAPTDLEEGMR0.4509      Prosit      -18.6268    1915.9197   ✓       
+213   VVN+0.984LAN+0.984SVAPTDLEEGMR0.4509      Prosit      -19.0664    1915.9197   ✓       
+214   VVN+0.984LAN+0.984SVAPTDLEEGMR0.4509      Prosit      -19.1118    1915.9197   ✓       
+215   VVN+0.984LAN+0.984SVAPTDLEEGMR0.4509      Prosit      -19.2886    1915.9197   ✓       
+216   VVN+0.984LAN+0.984SVAPTDLEEGMR0.4509      Prosit      -19.7527    1915.9197   ✓       
+217   VVN+0.984LADSVAPTDLEEGMR 0.4492      Prosit      -6.9187     1915.9197   ✓       
+218   VVN+0.984LADSVAPTDLEEGMR 0.4492      Prosit      -9.0267     1915.9197   ✓       
+219   VVN+0.984LADSVAPTDLEEGMR 0.4492      Prosit      -10.7664    1915.9197   ✓       
+220   VVN+0.984LADSVAPTDLEEGMR 0.4492      Prosit      -12.6534    1915.9197   ✓       
+221   VVN+0.984LADSVAPTDLEEGMR 0.4492      Prosit      -12.6988    1915.9197   ✓       
+222   VVN+0.984LADSVAPTDLEEGMR 0.4492      Prosit      -12.8744    1915.9197   ✓       
+223   VVN+0.984LADSVAPTDLEEGMR 0.4492      Prosit      -13.9535    1915.9197   ✓       
+224   VVN+0.984LADSVAPTDLEEGMR 0.4492      Prosit      -14.6154    1915.9197   ✓       
+225   VVN+0.984LADSVAPTDLEEGMR 0.4492      Prosit      -14.7614    1915.9197   ✓       
+226   VVN+0.984LADSVAPTDLEEGMR 0.4492      Prosit      -14.8068    1915.9197   ✓       
+227   VVN+0.984LADSVAPTDLEEGMR 0.4492      Prosit      -16.0615    1915.9197   ✓       
+228   VVN+0.984LADSVAPTDLEEGMR 0.4492      Prosit      -16.5011    1915.9197   ✓       
+229   VVN+0.984LADSVAPTDLEEGMR 0.4492      Prosit      -16.5465    1915.9197   ✓       
+230   VVN+0.984LADSVAPTDLEEGMR 0.4492      Prosit      -16.7233    1915.9197   ✓       
+231   VVN+0.984LADSVAPTDLEEGMR 0.4492      Prosit      -17.1874    1915.9197   ✓       
+232   VVN+0.984LADSVAPTDLEEGMR 0.4492      Prosit      -17.8012    1915.9197   ✓       
+233   VVN+0.984LADSVAPTDLEEGMR 0.4492      Prosit      -18.4335    1915.9197   ✓       
+234   VVN+0.984LADSVAPTDLEEGMR 0.4492      Prosit      -18.4631    1915.9197   ✓       
+235   VVN+0.984LADSVAPTDLEEGMR 0.4492      Prosit      -18.6091    1915.9197   ✓       
+236   VVN+0.984LADSVAPTDLEEGMR 0.4492      Prosit      -18.6545    1915.9197   ✓       
+237   VVN+0.984LADSVAPTDLEEGMR 0.4492      Prosit      -18.8091    1915.9197   ✓       
+238   VVN+0.984LADSVAPTDLEEGMR 0.4492      Prosit      -19.2953    1915.9197   ✓       
+239   VVN+0.984LADSVAPTDLEEGMR 0.4492      Prosit      -19.6882    1915.9197   ✓       
+240   VVN+0.984LADSVAPTDLEEGMR 0.4492      Prosit      -19.7335    1915.9197   ✓       
+241   VVN+0.984LADSVAPTDLEEGMR 0.4492      Prosit      -19.9091    1915.9197   ✓       
+242   VVN+0.984LADSVAPTDLEEGMR 0.4492      Prosit      -19.9681    1915.9197   ✓       
+243   VVDLAN+0.984SVAPTN+0.984LEEGMR0.4491      Prosit      -11.6642    1915.9197   ✓       
+244   VVDLAN+0.984SVAPTN+0.984LEEGMR0.4491      Prosit      -13.7721    1915.9197   ✓       
+245   VVDLAN+0.984SVAPTN+0.984LEEGMR0.4491      Prosit      -15.5119    1915.9197   ✓       
+246   VVDLAN+0.984SVAPTN+0.984LEEGMR0.4491      Prosit      -17.3989    1915.9197   ✓       
+247   VVDLAN+0.984SVAPTN+0.984LEEGMR0.4491      Prosit      -17.4442    1915.9197   ✓       
+248   VVDLAN+0.984SVAPTN+0.984LEEGMR0.4491      Prosit      -17.6198    1915.9197   ✓       
+249   VVDLAN+0.984SVAPTN+0.984LEEGMR0.4491      Prosit      -18.6989    1915.9197   ✓       
+250   VVDLAN+0.984SVAPTN+0.984LEEGMR0.4491      Prosit      -19.3608    1915.9197   ✓       
+251   VVDLAN+0.984SVAPTN+0.984LEEGMR0.4491      Prosit      -19.5068    1915.9197   ✓       
+252   VVDLAN+0.984SVAPTN+0.984LEEGMR0.4491      Prosit      -19.5522    1915.9197   ✓       
+253   VVN+0.984LADSVAPTN+0.984LEEGMR0.4471      Prosit      -15.7969    1915.9197   ✓       
+254   VVN+0.984LADSVAPTN+0.984LEEGMR0.4471      Prosit      -17.9049    1915.9197   ✓       
+255   VVN+0.984LADSVAPTN+0.984LEEGMR0.4471      Prosit      -19.6446    1915.9197   ✓       
+256   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -2.7860     1915.9197   ✓       
+257   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -4.8939     1915.9197   ✓       
+258   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -6.6337     1915.9197   ✓       
+259   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -8.5207     1915.9197   ✓       
+260   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -8.5660     1915.9197   ✓       
+261   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -8.7416     1915.9197   ✓       
+262   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -9.8207     1915.9197   ✓       
+263   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -10.4826    1915.9197   ✓       
+264   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -10.6286    1915.9197   ✓       
+265   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -10.6740    1915.9197   ✓       
+266   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -11.9287    1915.9197   ✓       
+267   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -12.3684    1915.9197   ✓       
+268   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -12.4137    1915.9197   ✓       
+269   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -12.5906    1915.9197   ✓       
+270   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -13.0546    1915.9197   ✓       
+271   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -13.6684    1915.9197   ✓       
+272   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -14.3007    1915.9197   ✓       
+273   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -14.3303    1915.9197   ✓       
+274   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -14.4763    1915.9197   ✓       
+275   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -14.5217    1915.9197   ✓       
+276   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -14.6764    1915.9197   ✓       
+277   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -15.1626    1915.9197   ✓       
+278   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -15.5554    1915.9197   ✓       
+279   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -15.6008    1915.9197   ✓       
+280   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -15.7764    1915.9197   ✓       
+281   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -15.8354    1915.9197   ✓       
+282   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -16.2173    1915.9197   ✓       
+283   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -16.2627    1915.9197   ✓       
+284   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -16.3300    1915.9197   ✓       
+285   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -16.3362    1915.9197   ✓       
+286   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -16.4087    1915.9197   ✓       
+287   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -16.4383    1915.9197   ✓       
+288   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -16.7843    1915.9197   ✓       
+289   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -17.0342    1915.9197   ✓       
+290   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -17.5174    1915.9197   ✓       
+291   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -17.5656    1915.9197   ✓       
+292   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -17.6634    1915.9197   ✓       
+293   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -17.7001    1915.9197   ✓       
+294   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -17.7088    1915.9197   ✓       
+295   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -17.8079    1915.9197   ✓       
+296   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -17.8646    1915.9197   ✓       
+297   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -17.9433    1915.9197   ✓       
+298   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -18.1117    1915.9197   ✓       
+299   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -18.1484    1915.9197   ✓       
+300   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -18.2244    1915.9197   ✓       
+301   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -18.3253    1915.9197   ✓       
+302   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -18.3707    1915.9197   ✓       
+303   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -18.4380    1915.9197   ✓       
+304   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -18.4442    1915.9197   ✓       
+305   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -18.4894    1915.9197   ✓       
+306   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -18.5241    1915.9197   ✓       
+307   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -18.7173    1915.9197   ✓       
+308   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -18.7232    1915.9197   ✓       
+309   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -18.7893    1915.9197   ✓       
+310   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -18.8347    1915.9197   ✓       
+311   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -19.1422    1915.9197   ✓       
+312   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -19.4031    1915.9197   ✓       
+313   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -19.4485    1915.9197   ✓       
+314   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -19.6253    1915.9197   ✓       
+315   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -19.6736    1915.9197   ✓       
+316   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -19.6831    1915.9197   ✓       
+317   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -19.8080    1915.9197   ✓       
+318   VVDLAN+0.984SVAPTDLEEGMR 0.4469      Prosit      -19.9159    1915.9197   ✓       
+319   VVDLADSVAPTN+0.984LEEGMR 0.4454      Prosit      -9.0989     1915.9197   ✓       
+320   VVDLADSVAPTN+0.984LEEGMR 0.4454      Prosit      -11.2068    1915.9197   ✓       
+321   VVDLADSVAPTN+0.984LEEGMR 0.4454      Prosit      -12.9466    1915.9197   ✓       
+322   VVDLADSVAPTN+0.984LEEGMR 0.4454      Prosit      -14.8336    1915.9197   ✓       
+323   VVDLADSVAPTN+0.984LEEGMR 0.4454      Prosit      -14.8789    1915.9197   ✓       
+324   VVDLADSVAPTN+0.984LEEGMR 0.4454      Prosit      -15.0545    1915.9197   ✓       
+325   VVDLADSVAPTN+0.984LEEGMR 0.4454      Prosit      -16.1336    1915.9197   ✓       
+326   VVDLADSVAPTN+0.984LEEGMR 0.4454      Prosit      -16.7955    1915.9197   ✓       
+327   VVDLADSVAPTN+0.984LEEGMR 0.4454      Prosit      -16.9415    1915.9197   ✓       
+328   VVDLADSVAPTN+0.984LEEGMR 0.4454      Prosit      -16.9869    1915.9197   ✓       
+329   VVDLADSVAPTN+0.984LEEGMR 0.4454      Prosit      -18.2416    1915.9197   ✓       
+330   VVDLADSVAPTN+0.984LEEGMR 0.4454      Prosit      -18.6813    1915.9197   ✓       
+331   VVDLADSVAPTN+0.984LEEGMR 0.4454      Prosit      -18.7266    1915.9197   ✓       
+332   VVDLADSVAPTN+0.984LEEGMR 0.4454      Prosit      -18.9035    1915.9197   ✓       
+333   VVDLADSVAPTN+0.984LEEGMR 0.4454      Prosit      -19.3675    1915.9197   ✓       
+334   VVDLADSVAPTN+0.984LEEGMR 0.4454      Prosit      -19.9813    1915.9197   ✓       
+335   +42.011VDLAN+0.984SVAPTDLEEGMGR0.4442      Prosit      -26.1369    1915.8833   ✓       
+336   VVDLAN+0.984SVAPTDLEEMGR 0.4381      Prosit      -18.5731    1915.9197   ✓       
+337   VVDLAN+0.984SVAPTN+0.984LQ+0.984EGMR0.4329      Prosit      -18.8740    1915.9197   ✓       
+338   VVDLAN+0.984SVAPTDLQ+0.984Q+0.984GMR0.4285      Prosit      -18.7273    1915.9197   ✓       
+339   VVN+0.984LAN+0.984SVAPTN+0.984LEEGMR0.4275      Prosit      -18.3622    1915.9197   ✓       
+340   +42.011RDLAN+0.984SVAPTDLEEGMR0.3902      Prosit      -25.3892    1915.8945   ✓       
+341   VVDLADSVAPTDLEEGGR       -1.0000     NotChecked  -7.9399     1841.9007   ✗       
+342   VVDLADSVAPTDLEEGGR       -1.0000     NotChecked  -10.0478    1841.9007   ✗       
+343   VVDLAN+0.984SVAPTDLEEGGR -1.0000     NotChecked  -10.5052    1841.9007   ✗       
+344   VVDLADSVAPTDLEEGR        -1.0000     NotChecked  -11.8114    1784.8792   ✗       
+345   VVDLANSVAPTDLEEGMR       -1.0000     NotChecked  -11.9894    1914.9357   ✗       
+346   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -12.0048    1858.8619   ✗       
+347   VVDLADSVAPTDLEEMR        -1.0000     NotChecked  -12.1363    1858.8982   ✗       
+348   +43.006VDLADSVAPTDLEEGMR -1.0000     NotChecked  -12.2292    1859.8571   ✗       
+349   VVDLAN+0.984SVAPTDLEEGGR -1.0000     NotChecked  -12.6131    1841.9007   ✗       
+350   VVDLADSVAPTDLEDGMR       -1.0000     NotChecked  -12.9235    1901.9041   ✗       
+351   VVDLADSVAPTDLEEGNR       -1.0000     NotChecked  -12.9683    1898.9221   ✗       
+352   VVDLADSVAPTDLEEGVR       -1.0000     NotChecked  -13.3776    1883.9476   ✗       
+353   VVNLADSVAPTDLEEGMR       -1.0000     NotChecked  -13.5499    1914.9357   ✗       
+354   VVDLADSVAPTDLEEGPR       -1.0000     NotChecked  -13.6671    1881.9320   ✗       
+355   VVDLADSVAPTDLEEGGR       -1.0000     NotChecked  -13.6745    1841.9007   ✗       
+356   VVDLADSVAPTDLEEGGR       -1.0000     NotChecked  -13.7199    1841.9007   ✗       
+357   VVDVADSVAPTDLEEGMR       -1.0000     NotChecked  -13.7370    1901.9041   ✗       
+358   VVDLADSVAPTDLEEGMV       -1.0000     NotChecked  -13.8675    1858.8870   ✗       
+359   VVDLADSVAPTDLEEGDR       -1.0000     NotChecked  -13.8920    1899.9062   ✗       
+360   VVDLADSVAPTDLEEGR        -1.0000     NotChecked  -13.9194    1784.8792   ✗       
+361   VVGLADSVAPTDLEEGMR       -1.0000     NotChecked  -13.9905    1857.9142   ✗       
+362   VVDLADSVAPTDLEEGER       -1.0000     NotChecked  -14.0429    1913.9218   ✗       
+363   VVVLADSVAPTDLEEGMR       -1.0000     NotChecked  -14.0766    1899.9612   ✗       
+364   VVDLANSVAPTDLEEGMR       -1.0000     NotChecked  -14.0974    1914.9357   ✗       
+365   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -14.1127    1858.8619   ✗       
+366   VVDLADSVAPTDLEEMR        -1.0000     NotChecked  -14.2442    1858.8982   ✗       
+367   +43.006VDLADSVAPTDLEEGMR -1.0000     NotChecked  -14.3372    1859.8571   ✗       
+368   VVDLADSVAPTDLEEGMG       -1.0000     NotChecked  -14.3452    1816.8401   ✗       
+369   VVDLAN+0.984SVAPTDLEEGR  -1.0000     NotChecked  -14.3767    1784.8792   ✗       
+370   VVDLADSVAPTDLEEMR        -1.0000     NotChecked  -14.4053    1858.8982   ✗       
+371   VVDLADSVAPTDLEEGM        -1.0000     NotChecked  -14.5524    1759.8186   ✗       
+372   +42.011VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -14.5701    1858.8619   ✗       
+373   VVN+0.984LADSVAPTDLEEGGR -1.0000     NotChecked  -14.6379    1841.9007   ✗       
+374   VVDLAN+0.984SVAPTDLEEMR  -1.0000     NotChecked  -14.7016    1858.8982   ✗       
+375   +43.006VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -14.7945    1859.8571   ✗       
+376   VVDLGDSVAPTDLEEGMR       -1.0000     NotChecked  -14.7989    1901.9041   ✗       
+377   VVDLADSVAPTDLEQGMR       -1.0000     NotChecked  -14.8552    1914.9357   ✗       
+378   VVDLADSVAPSDLEEGMR       -1.0000     NotChecked  -14.9177    1901.9041   ✗       
+379   VVDLADSVAPTDLEEGGR       -1.0000     NotChecked  -14.9746    1841.9007   ✗       
+380   VVDLADSVAPTDLEDGMR       -1.0000     NotChecked  -15.0315    1901.9041   ✗       
+381   VVDLADSVAPTDLEEGNR       -1.0000     NotChecked  -15.0762    1898.9221   ✗       
+382   VVDLADSVAPTDLQ+0.984EGGR -1.0000     NotChecked  -15.1496    1841.9007   ✗       
+383   VVDLADSVAPTDVEEGMR       -1.0000     NotChecked  -15.3290    1901.9041   ✗       
+384   VADLADSVAPTDLEEGMR       -1.0000     NotChecked  -15.3913    1887.8884   ✗       
+385   VVLLADSVAPTDLEEGMR       -1.0000     NotChecked  -15.4145    1913.9768   ✗       
+386   VVDLADSVAPTDLEEGVR       -1.0000     NotChecked  -15.4856    1883.9476   ✗       
+387   VVDLAN+0.984SVAPTDLEDGMR -1.0000     NotChecked  -15.4888    1901.9041   ✗       
+388   VVDLAN+0.984SVAPTDLEEGNR -1.0000     NotChecked  -15.5336    1898.9221   ✗       
+389   VVDLADSVAPTDLEEGGR       -1.0000     NotChecked  -15.6365    1841.9007   ✗       
+390   VVNLADSVAPTDLEEGMR       -1.0000     NotChecked  -15.6579    1914.9357   ✗       
+391   VVALADSVAPTDLEEGMR       -1.0000     NotChecked  -15.6944    1871.9299   ✗       
+392   VVDLADSVAPTDLQEGMR       -1.0000     NotChecked  -15.7174    1914.9357   ✗       
+393   VVSLADSVAPTDLEEGMR       -1.0000     NotChecked  -15.7678    1887.9248   ✗       
+394   VDLADSVAPTDLEEGMR        -1.0000     NotChecked  -15.7708    1816.8513   ✗       
+395   VVDLADSVAPTDLEEGPR       -1.0000     NotChecked  -15.7750    1881.9320   ✗       
+396   VVDLADSVAPTDLEEGGR       -1.0000     NotChecked  -15.7825    1841.9007   ✗       
+397   VVDLADSVAPTDLEEGGR       -1.0000     NotChecked  -15.8279    1841.9007   ✗       
+398   VVDLANSVAPTDLEEGMR       -1.0000     NotChecked  -15.8371    1914.9357   ✗       
+399   VVDVADSVAPTDLEEGMR       -1.0000     NotChecked  -15.8450    1901.9041   ✗       
+400   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -15.8524    1858.8619   ✗       
+401   VVDLADSVAPTDLEGGMR       -1.0000     NotChecked  -15.8698    1843.8986   ✗       
+402   VVDLATSVAPTDLEEGMR       -1.0000     NotChecked  -15.9223    1901.9404   ✗       
+403   VVDLAN+0.984SVAPTDLEEGVR -1.0000     NotChecked  -15.9429    1883.9476   ✗       
+404   VVDLADSVAPTDLEEGMV       -1.0000     NotChecked  -15.9755    1858.8870   ✗       
+405   VVDLADAVAPTDLEEGMR       -1.0000     NotChecked  -15.9835    1899.9248   ✗       
+406   VVDLADSVAPTDLEEGMK       -1.0000     NotChecked  -15.9844    1887.9136   ✗       
+407   VVDLADSVAPTDLEEGMD       -1.0000     NotChecked  -15.9869    1874.8455   ✗       
+408   VVDLADSVAPTDLEEGDR       -1.0000     NotChecked  -16.0000    1899.9062   ✗       
+409   +43.006VDLADSVAPTDLEEGMR -1.0000     NotChecked  -16.0769    1859.8571   ✗       
+410   VVGLADSVAPTDLEEGMR       -1.0000     NotChecked  -16.0985    1857.9142   ✗       
+411   VVNLAN+0.984SVAPTDLEEGMR -1.0000     NotChecked  -16.1152    1914.9357   ✗       
+412   VVDLADSVAPTDLEEGER       -1.0000     NotChecked  -16.1508    1913.9218   ✗       
+413   VVVLADSVAPTDLEEGMR       -1.0000     NotChecked  -16.1846    1899.9612   ✗       
+414   VVDAADSVAPTDLEEGMR       -1.0000     NotChecked  -16.1880    1873.8728   ✗       
+415   VVDLAN+0.984SVAPTDLEEGPR -1.0000     NotChecked  -16.2324    1881.9320   ✗       
+416   VVDLAN+0.984SVAPTDLEEGGR -1.0000     NotChecked  -16.2398    1841.9007   ✗       
+417   VVDLAN+0.984SVAPTDLEEGGR -1.0000     NotChecked  -16.2852    1841.9007   ✗       
+418   VVDVAN+0.984SVAPTDLEEGMR -1.0000     NotChecked  -16.3023    1901.9041   ✗       
+419   VVDLADSVAPTN+0.984LQ+0.984EGMR-1.0000     Failed      -16.3086    1915.9197   ✓       
+420   VVDLADSVAPTDAEEGMR       -1.0000     NotChecked  -16.4246    1873.8728   ✗       
+421   VVDLAN+0.984SVAPTDLEEGMV -1.0000     NotChecked  -16.4328    1858.8870   ✗       
+422   VGDLADSVAPTDLEEGMR       -1.0000     NotChecked  -16.4464    1873.8728   ✗       
+423   VVDLADSVAPTDLEEGMG       -1.0000     NotChecked  -16.4532    1816.8401   ✗       
+424   VVDLAN+0.984SVAPTDLEEGDR -1.0000     NotChecked  -16.4573    1899.9062   ✗       
+425   VVDLAN+0.984SVAPTDLEEGR  -1.0000     NotChecked  -16.4847    1784.8792   ✗       
+426   VVDLADSVAPTDLEEMR        -1.0000     NotChecked  -16.5133    1858.8982   ✗       
+427   VVDLADSVAPTDPEEGMR       -1.0000     NotChecked  -16.5500    1899.8884   ✗       
+428   VVGLAN+0.984SVAPTDLEEGMR -1.0000     NotChecked  -16.5558    1857.9142   ✗       
+429   AVDLADSVAPTDLEEGMR       -1.0000     NotChecked  -16.5898    1887.8884   ✗       
+430   VVDLAN+0.984SVAPTDLEEGER -1.0000     NotChecked  -16.6082    1913.9218   ✗       
+431   VVDLADGVAPTDLEEGMR       -1.0000     NotChecked  -16.6329    1885.9091   ✗       
+432   VVDLADSVAPTDLESGMR       -1.0000     NotChecked  -16.6413    1873.9091   ✗       
+433   VVVLAN+0.984SVAPTDLEEGMR -1.0000     NotChecked  -16.6419    1899.9612   ✗       
+434   VVDLADSVAPTDLEEGM        -1.0000     NotChecked  -16.6604    1759.8186   ✗       
+435   VVDLADSVAPTDLEQ+0.984GGR -1.0000     NotChecked  -16.6714    1841.9007   ✗       
+436   +42.011VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -16.6780    1858.8619   ✗       
+437   VVDLADSVAPTNLEEGMR       -1.0000     NotChecked  -16.7097    1914.9357   ✗       
+438   VVN+0.984LADSVAPTDLEEGGR -1.0000     NotChecked  -16.7459    1841.9007   ✗       
+439   VVDLADSVAPTDLEDGMR       -1.0000     NotChecked  -16.7712    1901.9041   ✗       
+440   VVDLASSVAPTDLEEGMR       -1.0000     NotChecked  -16.8083    1887.9248   ✗       
+441   VVDLAN+0.984SVAPTDLEEMR  -1.0000     NotChecked  -16.8095    1858.8982   ✗       
+442   VVDLADSVAPTN+0.984LEEGGR -1.0000     NotChecked  -16.8181    1841.9007   ✗       
+443   VVDLADSVAPTDLEEGMQ       -1.0000     NotChecked  -16.9008    1887.8772   ✗       
+444   +43.006VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -16.9025    1859.8571   ✗       
+445   VVDLGDSVAPTDLEEGMR       -1.0000     NotChecked  -16.9069    1901.9041   ✗       
+446   VVDLAN+0.984SVAPTDLEEGMG -1.0000     NotChecked  -16.9105    1816.8401   ✗       
+447   VVDLADSVAPTDLEQGMR       -1.0000     NotChecked  -16.9632    1914.9357   ✗       
+448   VVDLAN+0.984SVAPTDLEEMR  -1.0000     NotChecked  -16.9706    1858.8982   ✗       
+449   VVDLADSVAPSDLEEGMR       -1.0000     NotChecked  -17.0257    1901.9041   ✗       
+450   VVDLADSVAPTDLLEGMR       -1.0000     NotChecked  -17.0439    1899.9612   ✗       
+451   VVDLADSAAPTDLEEGMR       -1.0000     NotChecked  -17.0662    1887.8884   ✗       
+452   VVDLADSVAPTDLEEGGR       -1.0000     NotChecked  -17.0826    1841.9007   ✗       
+453   VVDLAN+0.984SVAPTDLEEGM  -1.0000     NotChecked  -17.1177    1759.8186   ✗       
+454   VVDLADSVAPTDSEEGMR       -1.0000     NotChecked  -17.1187    1889.8677   ✗       
+455   GVDLADSVAPTDLEEGMR       -1.0000     NotChecked  -17.1498    1873.8728   ✗       
+456   VVN+0.984LAN+0.984SVAPTDLEEGGR-1.0000     NotChecked  -17.2032    1841.9007   ✗       
+457   VVDLADSVAPTDLQ+0.984EGGR -1.0000     NotChecked  -17.2576    1841.9007   ✗       
+458   VVDLADVAPTDLEEGMR        -1.0000     NotChecked  -17.3094    1828.8877   ✗       
+459   VVDLADSVAPTDLELGMR       -1.0000     NotChecked  -17.3568    1899.9612   ✗       
+460   VVDLGN+0.984SVAPTDLEEGMR -1.0000     NotChecked  -17.3642    1901.9041   ✗       
+461   VVNLADSVAPTDLEEGMR       -1.0000     NotChecked  -17.3976    1914.9357   ✗       
+462   VVDLADSVAPTDLSEGMR       -1.0000     NotChecked  -17.4097    1873.9091   ✗       
+463   VVDLAN+0.984SVAPTDLEQGMR -1.0000     NotChecked  -17.4205    1914.9357   ✗       
+464   VVDLADSVAPTDVEEGMR       -1.0000     NotChecked  -17.4369    1901.9041   ✗       
+465   VVDLAN+0.984SVAPSDLEEGMR -1.0000     NotChecked  -17.4830    1901.9041   ✗       
+466   VADLADSVAPTDLEEGMR       -1.0000     NotChecked  -17.4993    1887.8884   ✗       
+467   VVLLADSVAPTDLEEGMR       -1.0000     NotChecked  -17.5225    1913.9768   ✗       
+468   VVDLADSAPTDLEEGMR        -1.0000     NotChecked  -17.5297    1816.8513   ✗       
+469   VVDLAN+0.984SVAPTDLEEGGR -1.0000     NotChecked  -17.5399    1841.9007   ✗       
+470   VVDLADSVAPTDLEEGR        -1.0000     NotChecked  -17.5461    1784.8792   ✗       
+471   VVDVADSVAPTDLEEGMR       -1.0000     NotChecked  -17.5847    1901.9041   ✗       
+472   VVDLADSVAPTDLEEGR        -1.0000     NotChecked  -17.5915    1784.8792   ✗       
+473   VVDLAN+0.984SVAPTDLEDGMR -1.0000     NotChecked  -17.5968    1901.9041   ✗       
+474   VVDLADSVAPTDTEEGMR       -1.0000     NotChecked  -17.6112    1903.8833   ✗       
+475   VVDLAN+0.984SVAPTDLEEGNR -1.0000     NotChecked  -17.6416    1898.9221   ✗       
+476   VVDLADSVPTDLEEGMR        -1.0000     NotChecked  -17.6677    1844.8826   ✗       
+477   VVDLADSVAPTDLEEGML       -1.0000     NotChecked  -17.6920    1872.9027   ✗       
+478   VVDLAN+0.984SVAPTDLQ+0.984EGGR-1.0000     NotChecked  -17.7149    1841.9007   ✗       
+479   VVDLADSVAPTDLEEGMV       -1.0000     NotChecked  -17.7152    1858.8870   ✗       
+480   VVDLANSVAPTDLEEGMR       -1.0000     NotChecked  -17.7241    1914.9357   ✗       
+481   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -17.7394    1858.8619   ✗       
+482   VVDLADSVAPTDLEEGGR       -1.0000     NotChecked  -17.7445    1841.9007   ✗       
+483   VVDLANSVAPTDLEEGMR       -1.0000     NotChecked  -17.7695    1914.9357   ✗       
+484   VVDLADSVAPTDLEEGMP       -1.0000     NotChecked  -17.7721    1856.8714   ✗       
+485   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -17.7848    1858.8619   ✗       
+486   VVALADSVAPTDLEEGMR       -1.0000     NotChecked  -17.8024    1871.9299   ✗       
+487   VVDLADSVAPTDLQEGMR       -1.0000     NotChecked  -17.8253    1914.9357   ✗       
+488   VVGLADSVAPTDLEEGMR       -1.0000     NotChecked  -17.8382    1857.9142   ✗       
+489   VVDLADSVAPTDLEEMR        -1.0000     NotChecked  -17.8709    1858.8982   ✗       
+490   VVSLADSVAPTDLEEGMR       -1.0000     NotChecked  -17.8757    1887.9248   ✗       
+491   VDLADSVAPTDLEEGMR        -1.0000     NotChecked  -17.8787    1816.8513   ✗       
+492   VVDLAN+0.984SVAPTDVEEGMR -1.0000     NotChecked  -17.8943    1901.9041   ✗       
+493   VVDLADSVAPTDLEEMR        -1.0000     NotChecked  -17.9163    1858.8982   ✗       
+494   VVVLADSVAPTDLEEGMR       -1.0000     NotChecked  -17.9243    1899.9612   ✗       
+495   VVDLANSVAPTDLEEGMR       -1.0000     NotChecked  -17.9451    1914.9357   ✗       
+496   VADLAN+0.984SVAPTDLEEGMR -1.0000     NotChecked  -17.9566    1887.8884   ✗       
+497   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -17.9604    1858.8619   ✗       
+498   +43.006VDLADSVAPTDLEEGMR -1.0000     NotChecked  -17.9639    1859.8571   ✗       
+499   VVDLADSVAPTDLEGGMR       -1.0000     NotChecked  -17.9778    1843.8986   ✗       
+500   VVLLAN+0.984SVAPTDLEEGMR -1.0000     NotChecked  -17.9798    1913.9768   ✗       
+501   +43.006VDLADSVAPTDLEEGMR -1.0000     NotChecked  -18.0093    1859.8571   ✗       
+502   VVDLADSVAPTDLEKGMR       -1.0000     NotChecked  -18.0251    1914.9721   ✗       
+503   VVDLATSVAPTDLEEGMR       -1.0000     NotChecked  -18.0303    1901.9404   ✗       
+504   VVDLAN+0.984SVAPTDLEEGVR -1.0000     NotChecked  -18.0509    1883.9476   ✗       
+505   VVDLADAVAPTDLEEGMR       -1.0000     NotChecked  -18.0914    1899.9248   ✗       
+506   VVDLADSVAPTDLEEGMK       -1.0000     NotChecked  -18.0924    1887.9136   ✗       
+507   VVDLADSVAPTDLEEGMD       -1.0000     NotChecked  -18.0949    1874.8455   ✗       
+508   VVDLAGSVAPTDLEEGMR       -1.0000     NotChecked  -18.1770    1857.9142   ✗       
+509   +43.006VDLADSVAPTDLEEGMR -1.0000     NotChecked  -18.1849    1859.8571   ✗       
+510   VVDLADSVAPTDLEEGMG       -1.0000     NotChecked  -18.1929    1816.8401   ✗       
+511   VVDLAN+0.984SVAPTDLEEGGR -1.0000     NotChecked  -18.2018    1841.9007   ✗       
+512   VVDLADSVAPTDLEEGR        -1.0000     NotChecked  -18.2085    1784.8792   ✗       
+513   VVDLADSVAPTSLEEGMR       -1.0000     NotChecked  -18.2141    1887.9248   ✗       
+514   VVN+0.984LAN+0.984SVAPTDLEQ+0.984GMR-1.0000     Failed      -18.2155    1915.9197   ✓       
+515   VVNLAN+0.984SVAPTDLEEGMR -1.0000     NotChecked  -18.2232    1914.9357   ✗       
+516   VVDLADSVAPTDLEEMR        -1.0000     NotChecked  -18.2530    1858.8982   ✗       
+517   VVALAN+0.984SVAPTDLEEGMR -1.0000     NotChecked  -18.2597    1871.9299   ✗       
+518   VVDLADSVATDLEEGMR        -1.0000     NotChecked  -18.2600    1818.8669   ✗       
+519   VVDLADSSAPTDLEEGMR       -1.0000     NotChecked  -18.2802    1903.8833   ✗       
+520   VVDLAN+0.984SVAPTDLQEGMR -1.0000     NotChecked  -18.2827    1914.9357   ✗       
+521   VVDAADSVAPTDLEEGMR       -1.0000     NotChecked  -18.2960    1873.8728   ✗       
+522   VVDLADSVAPTVLEEGMR       -1.0000     NotChecked  -18.3327    1899.9612   ✗       
+523   VVSLAN+0.984SVAPTDLEEGMR -1.0000     NotChecked  -18.3331    1887.9248   ✗       
+524   VDLAN+0.984SVAPTDLEEGMR  -1.0000     NotChecked  -18.3361    1816.8513   ✗       
+525   VVDLAN+0.984SVAPTDLEEGPR -1.0000     NotChecked  -18.3403    1881.9320   ✗       
+526   VVDLAN+0.984SVAPTDLEEGGR -1.0000     NotChecked  -18.3478    1841.9007   ✗       
+527   VVDLADSVAPTDLTEGMR       -1.0000     NotChecked  -18.3775    1887.9248   ✗       
+528   VVDLAN+0.984SVAPTDLEEGGR -1.0000     NotChecked  -18.3932    1841.9007   ✗       
+529   VVDLADSVAPTDLEEGM        -1.0000     NotChecked  -18.4001    1759.8186   ✗       
+530   VVDVAN+0.984SVAPTDLEEGMR -1.0000     NotChecked  -18.4103    1901.9041   ✗       
+531   VVDLADSVGPTDLEEGMR       -1.0000     NotChecked  -18.4151    1901.9041   ✗       
+532   VVDLADSVAPTN+0.984LQ+0.984EGMR-1.0000     Failed      -18.4166    1915.9197   ✓       
+533   +42.011VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -18.4178    1858.8619   ✗       
+534   VVDLAN+0.984SVAPTDLEGGMR -1.0000     NotChecked  -18.4351    1843.8986   ✗       
+535   VVDLDSVAPTDLEEGMR        -1.0000     NotChecked  -18.4880    1844.8826   ✗       
+536   VVN+0.984LADSVAPTDLEEGR  -1.0000     NotChecked  -18.5095    1784.8792   ✗       
+537   VVDLADSVAPTDAEEGMR       -1.0000     NotChecked  -18.5325    1873.8728   ✗       
+538   VVDLAN+0.984SVAPTDLEEGMV -1.0000     NotChecked  -18.5408    1858.8870   ✗       
+539   VVDLAN+0.984AVAPTDLEEGMR -1.0000     NotChecked  -18.5488    1899.9248   ✗       
+540   VVDLAN+0.984SVAPTDLEEGMK -1.0000     NotChecked  -18.5497    1887.9136   ✗       
+541   VVDLAN+0.984SVAPTDLEEGMD -1.0000     NotChecked  -18.5522    1874.8455   ✗       
+542   VGDLADSVAPTDLEEGMR       -1.0000     NotChecked  -18.5543    1873.8728   ✗       
+543   VVDLAN+0.984SVAPTDLEEGDR -1.0000     NotChecked  -18.5653    1899.9062   ✗       
+544   VVDLADSVAPTDLAEGMR       -1.0000     NotChecked  -18.5812    1857.9142   ✗       
+545   +43.006VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -18.6422    1859.8571   ✗       
+546   VVDLGDSVAPTDLEEGMR       -1.0000     NotChecked  -18.6466    1901.9041   ✗       
+547   VVDLADSVAPTDPEEGMR       -1.0000     NotChecked  -18.6580    1899.8884   ✗       
+548   VVDLADSVAPTDLEDGMR       -1.0000     NotChecked  -18.6582    1901.9041   ✗       
+549   VVGLAN+0.984SVAPTDLEEGMR -1.0000     NotChecked  -18.6638    1857.9142   ✗       
+550   VVN+0.984LANSVAPTDLEEGMR -1.0000     NotChecked  -18.6875    1914.9357   ✗       
+551   AVDLADSVAPTDLEEGMR       -1.0000     NotChecked  -18.6977    1887.8884   ✗       
+552   +42.011VN+0.984LADSVAPTDLEEGMR-1.0000     NotChecked  -18.7028    1858.8619   ✗       
+553   VVDLADSVAPTDLEQGMR       -1.0000     NotChecked  -18.7029    1914.9357   ✗       
+554   VVDLADSVAPTDLEEGNR       -1.0000     NotChecked  -18.7030    1898.9221   ✗       
+555   VVDLADSVAPTDLEDGMR       -1.0000     NotChecked  -18.7036    1901.9041   ✗       
+556   VVDLAN+0.984SVAPTDLEEGER -1.0000     NotChecked  -18.7162    1913.9218   ✗       
+557   VVDLADGVAPTDLEEGMR       -1.0000     NotChecked  -18.7409    1885.9091   ✗       
+558   VVDLADSVAPTDLEEGNR       -1.0000     NotChecked  -18.7483    1898.9221   ✗       
+559   VVDLADSVAPTDLESGMR       -1.0000     NotChecked  -18.7492    1873.9091   ✗       
+560   VVVLAN+0.984SVAPTDLEEGMR -1.0000     NotChecked  -18.7499    1899.9612   ✗       
+561   VVDAAN+0.984SVAPTDLEEGMR -1.0000     NotChecked  -18.7533    1873.8728   ✗       
+562   VRDLADSVAPTDLEEGGR       -1.0000     NotChecked  -18.7590    1898.9334   ✗       
+563   VVDLADSVAPSDLEEGMR       -1.0000     NotChecked  -18.7654    1901.9041   ✗       
+564   VVDLADSVAPTDLEQ+0.984GGR -1.0000     NotChecked  -18.7793    1841.9007   ✗       
+565   VVDLADSVAPTTLEEGMR       -1.0000     NotChecked  -18.7998    1901.9404   ✗       
+566   VVDLADSVAPTDLVEGMR       -1.0000     NotChecked  -18.8131    1885.9455   ✗       
+567   VVDLADSVAPVDLEEGMR       -1.0000     NotChecked  -18.8162    1913.9404   ✗       
+568   VVDLADSVAPTNLEEGMR       -1.0000     NotChecked  -18.8177    1914.9357   ✗       
+569   VVN+0.984LADSVAPTDLEEMR  -1.0000     NotChecked  -18.8343    1858.8982   ✗       
+570   VVDLADSVAPTDLEEGR        -1.0000     NotChecked  -18.8462    1784.8792   ✗       
+571   VVDLADSVAPTDLEDGMR       -1.0000     NotChecked  -18.8792    1901.9041   ✗       
+572   VVDLADSVAPTALEEGMR       -1.0000     NotChecked  -18.9146    1871.9299   ✗       
+573   VVDLASSVAPTDLEEGMR       -1.0000     NotChecked  -18.9162    1887.9248   ✗       
+574   VVDLADSVAPTN+0.984LEEGGR -1.0000     NotChecked  -18.9260    1841.9007   ✗       
+575   +43.006VN+0.984LADSVAPTDLEEGMR-1.0000     NotChecked  -18.9273    1859.8571   ✗       
+576   VVDLAN+0.984SVAPTDAEEGMR -1.0000     NotChecked  -18.9899    1873.8728   ✗       
+577   VVDLADSVAPTDLEEGMQ       -1.0000     NotChecked  -19.0088    1887.8772   ✗       
+578   VGDLAN+0.984SVAPTDLEEGMR -1.0000     NotChecked  -19.0117    1873.8728   ✗       
+579   VVDLAN+0.984SVAPTDLEEGMG -1.0000     NotChecked  -19.0185    1816.8401   ✗       
+580   VVDLADSVAPTDLQ+0.984EGR  -1.0000     NotChecked  -19.0212    1784.8792   ✗       
+581   VVDLANSVAPTDLEEGMR       -1.0000     NotChecked  -19.0242    1914.9357   ✗       
+582   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -19.0395    1858.8619   ✗       
+583   VVDLAN+0.984SVAPTDLEEMR  -1.0000     NotChecked  -19.0786    1858.8982   ✗       
+584   VVDLADSVAPTDLEEGVR       -1.0000     NotChecked  -19.1123    1883.9476   ✗       
+585   VVDLAN+0.984SVAPTDPEEGMR -1.0000     NotChecked  -19.1153    1899.8884   ✗       
+586   VVDLADSVPTDLEEGMR        -1.0000     NotChecked  -19.1275    1844.8826   ✗       
+587   VVDLADSVAPTDLLEGMR       -1.0000     NotChecked  -19.1519    1899.9612   ✗       
+588   AVDLAN+0.984SVAPTDLEEGMR -1.0000     NotChecked  -19.1551    1887.8884   ✗       
+589   VVDLADSVAPTDLEEGVR       -1.0000     NotChecked  -19.1577    1883.9476   ✗       
+590   VVDLADSVAPTDLEEMR        -1.0000     NotChecked  -19.1710    1858.8982   ✗       
+591   VVDLADSAAPTDLEEGMR       -1.0000     NotChecked  -19.1741    1887.8884   ✗       
+592   VVDLADSVAPTDVEEGMR       -1.0000     NotChecked  -19.1767    1901.9041   ✗       
+593   VVDLAN+0.984GVAPTDLEEGMR -1.0000     NotChecked  -19.1982    1885.9091   ✗       
+594   VVDLANSVAPTDLQ+0.984EGMR -1.0000     NotChecked  -19.1992    1914.9357   ✗       
+595   VVDLAN+0.984SVAPTDLESGMR -1.0000     NotChecked  -19.2066    1873.9091   ✗       
+596   +42.011VDLADSVAPTDLQ+0.984EGMR-1.0000     NotChecked  -19.2145    1858.8619   ✗       
+597   VVDLAN+0.984SVAPTDLEEGM  -1.0000     NotChecked  -19.2257    1759.8186   ✗       
+598   VVDLADSVAPTDSEEGMR       -1.0000     NotChecked  -19.2266    1889.8677   ✗       
+599   VVDLAN+0.984SVAPTDLEQ+0.984GGR-1.0000     NotChecked  -19.2367    1841.9007   ✗       
+600   VADLADSVAPTDLEEGMR       -1.0000     NotChecked  -19.2390    1887.8884   ✗       
+601   GVDLADSVAPTDLEEGMR       -1.0000     NotChecked  -19.2578    1873.8728   ✗       
+602   VVLLADSVAPTDLEEGMR       -1.0000     NotChecked  -19.2622    1913.9768   ✗       
+603   +43.006VDLADSVAPTDLEEGMR -1.0000     NotChecked  -19.2640    1859.8571   ✗       
+604   VVDLAN+0.984SVAPTNLEEGMR -1.0000     NotChecked  -19.2750    1914.9357   ✗       
+605   VVNLADSVAPTDLEEGMR       -1.0000     NotChecked  -19.2846    1914.9357   ✗       
+606   VVN+0.984LAN+0.984SVAPTDLEEGGR-1.0000     NotChecked  -19.3112    1841.9007   ✗       
+607   VVNLADSVAPTDLEEGMR       -1.0000     NotChecked  -19.3300    1914.9357   ✗       
+608   VVDLAN+0.984SVAPTDLEDGMR -1.0000     NotChecked  -19.3365    1901.9041   ✗       
+609   VVDLADSVAPTDLQ+0.984EMR  -1.0000     NotChecked  -19.3460    1858.8982   ✗       
+610   VVDLAN+0.984SVAPTN+0.984LEEGGR-1.0000     NotChecked  -19.3834    1841.9007   ✗       
+611   VVDLADSVAPTDLEEGPR       -1.0000     NotChecked  -19.4017    1881.9320   ✗       
+612   VVDLADVAPTDLEEGMR        -1.0000     NotChecked  -19.4174    1828.8877   ✗       
+613   +43.006VDLADSVAPTDLQ+0.984EGMR-1.0000     NotChecked  -19.4390    1859.8571   ✗       
+614   VVDLADSVAPTDLEEGPR       -1.0000     NotChecked  -19.4471    1881.9320   ✗       
+615   VVDLADSVAPTDLEEGGR       -1.0000     NotChecked  -19.4546    1841.9007   ✗       
+616   VVDLADSVAPADLEEGMR       -1.0000     NotChecked  -19.4603    1885.9091   ✗       
+617   VVDLADSVAPTDLELGMR       -1.0000     NotChecked  -19.4647    1899.9612   ✗       
+618   VVDLAN+0.984SVAPTDLEEGMQ -1.0000     NotChecked  -19.4661    1887.8772   ✗       
+619   VVDVADSVAPTDLEEGMR       -1.0000     NotChecked  -19.4717    1901.9041   ✗       
+620   VVDLGN+0.984SVAPTDLEEGMR -1.0000     NotChecked  -19.4722    1901.9041   ✗       
+621   VVNLADSVAPTDLEEGMR       -1.0000     NotChecked  -19.5056    1914.9357   ✗       
+622   VVDLADSVAPTDLEEGR        -1.0000     NotChecked  -19.5080    1784.8792   ✗       
+623   VVDVADSVAPTDLEEGMR       -1.0000     NotChecked  -19.5171    1901.9041   ✗       
+624   VVDLADSVAPTDLSEGMR       -1.0000     NotChecked  -19.5176    1873.9091   ✗       
+625   VVDLADSVAPPDLEEGMR       -1.0000     NotChecked  -19.5185    1911.9248   ✗       
+626   VVDLAN+0.984SVAPTDLEQGMR -1.0000     NotChecked  -19.5285    1914.9357   ✗       
+627   VVALADSVAPTDLEEGMR       -1.0000     NotChecked  -19.5421    1871.9299   ✗       
+628   VVDLADSVAPTDLQEGMR       -1.0000     NotChecked  -19.5651    1914.9357   ✗       
+629   VVDLAN+0.984SVAPSDLEEGMR -1.0000     NotChecked  -19.5910    1901.9041   ✗       
+630   VVDLADSVAPTDLEEGMV       -1.0000     NotChecked  -19.6022    1858.8870   ✗       
+631   VVDLAN+0.984SVAPTDLLEGMR -1.0000     NotChecked  -19.6092    1899.9612   ✗       
+632   VVSLADSVAPTDLEEGMR       -1.0000     NotChecked  -19.6155    1887.9248   ✗       
+633   VDLADSVAPTDLEEGMR        -1.0000     NotChecked  -19.6185    1816.8513   ✗       
+634   VVN+0.984LADSVAPTDLEDGMR -1.0000     NotChecked  -19.6216    1901.9041   ✗       
+635   VVDLADSVAPTDLEEGDR       -1.0000     NotChecked  -19.6267    1899.9062   ✗       
+636   VVDLAN+0.984SAAPTDLEEGMR -1.0000     NotChecked  -19.6315    1887.8884   ✗       
+637   VVDLADSAPTDLEEGMR        -1.0000     NotChecked  -19.6377    1816.8513   ✗       
+638   VVDLADSVAPTDLEEGMV       -1.0000     NotChecked  -19.6476    1858.8870   ✗       
+639   VVDLAN+0.984SVAPTDLEEGGR -1.0000     NotChecked  -19.6479    1841.9007   ✗       
+640   VVDLADSVAPTDLEEGR        -1.0000     NotChecked  -19.6541    1784.8792   ✗       
+641   VVDLADSVAPTDLEEAGR       -1.0000     NotChecked  -19.6558    1855.9163   ✗       
+642   VVN+0.984LADSVAPTDLEEGNR -1.0000     NotChecked  -19.6663    1898.9221   ✗       
+643   VVDLADSVAPTDLEEGDR       -1.0000     NotChecked  -19.6721    1899.9062   ✗       
+644   VVDLAN+0.984SVAPTDSEEGMR -1.0000     NotChecked  -19.6840    1889.8677   ✗       
+645   VVDLANSVAPTDLEEGMR       -1.0000     NotChecked  -19.6861    1914.9357   ✗       
+646   VVDVADSVAPTDLEEGMR       -1.0000     NotChecked  -19.6927    1901.9041   ✗       
+647   VVDLADSVAPTDLEEGR        -1.0000     NotChecked  -19.6994    1784.8792   ✗       
+648   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -19.7014    1858.8619   ✗       
+649   VVDLANSVAPTDLEEGGR       -1.0000     NotChecked  -19.7086    1840.9167   ✗       
+650   GVDLAN+0.984SVAPTDLEEGMR -1.0000     NotChecked  -19.7151    1873.8728   ✗       
+651   VVDLADSVAPTDLEGGMR       -1.0000     NotChecked  -19.7175    1843.8986   ✗       
+652   VVDLADSVAPTDTEEGMR       -1.0000     NotChecked  -19.7192    1903.8833   ✗       
+653   +42.011VDLADSVAPTDLEEGGR -1.0000     NotChecked  -19.7239    1784.8428   ✗       
+654   VVGLADSVAPTDLEEGMR       -1.0000     NotChecked  -19.7252    1857.9142   ✗       
+655   VVDLATSVAPTDLEEGMR       -1.0000     NotChecked  -19.7700    1901.9404   ✗       
+656   VVGLADSVAPTDLEEGMR       -1.0000     NotChecked  -19.7706    1857.9142   ✗       
+657   VVDLADSVPTDLEEGMR        -1.0000     NotChecked  -19.7756    1844.8826   ✗       
+658   VVDLADSVAPTDLEEGER       -1.0000     NotChecked  -19.7776    1913.9218   ✗       
+659   VVDLADSVAPTDLEEGML       -1.0000     NotChecked  -19.7999    1872.9027   ✗       
+660   VVVLADSVAPTDLEEGMR       -1.0000     NotChecked  -19.8113    1899.9612   ✗       
+661   VVDLAN+0.984SVAPTDLQ+0.984EGGR-1.0000     NotChecked  -19.8229    1841.9007   ✗       
+662   VVDLADSVAPTDLEEGER       -1.0000     NotChecked  -19.8229    1913.9218   ✗       
+663   VVDLADSVAPTDLEEGMV       -1.0000     NotChecked  -19.8232    1858.8870   ✗       
+664   VVDLADSVAPTDLEEGGR       -1.0000     NotChecked  -19.8303    1841.9007   ✗       
+665   VVDLADAVAPTDLEEGMR       -1.0000     NotChecked  -19.8312    1899.9248   ✗       
+666   VVDLANSVAPTDLEEGMR       -1.0000     NotChecked  -19.8321    1914.9357   ✗       
+667   VVDLADSVAPTDLEEGMK       -1.0000     NotChecked  -19.8321    1887.9136   ✗       
+668   VVDLADSVAPTDLEEMR        -1.0000     NotChecked  -19.8329    1858.8982   ✗       
+669   VVDLADSVAPTDLEEGMD       -1.0000     NotChecked  -19.8346    1874.8455   ✗       
+670   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -19.8474    1858.8619   ✗       
+671   VVVLADSVAPTDLEEGMR       -1.0000     NotChecked  -19.8567    1899.9612   ✗       
+672   VVDLAN+0.984VAPTDLEEGMR  -1.0000     NotChecked  -19.8747    1828.8877   ✗       
+673   VVDLANSVAPTDLEEGMR       -1.0000     NotChecked  -19.8775    1914.9357   ✗       
+674   VVDLADSVAPTDLEEMR        -1.0000     NotChecked  -19.8793    1858.8982   ✗       
+675   VVDLADSVAPTDLEEGMP       -1.0000     NotChecked  -19.8801    1856.8714   ✗       
+676   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -19.8928    1858.8619   ✗       
+677   VVDLAN+0.984SVAPTDLELGMR -1.0000     NotChecked  -19.9221    1899.9612   ✗       
+678   +43.006VDLADSVAPTDLEEGMR -1.0000     NotChecked  -19.9259    1859.8571   ✗       
+679   VVGLADSVAPTDLEEGMR       -1.0000     NotChecked  -19.9462    1857.9142   ✗       
+680   +43.006VDLADSVAPTDLEEGGR -1.0000     NotChecked  -19.9484    1785.8381   ✗       
+681   VVDLADSVAPTDLEDGMR       -1.0000     NotChecked  -19.9583    1901.9041   ✗       
+682   VVNLAN+0.984SVAPTDLEEGMR -1.0000     NotChecked  -19.9629    1914.9357   ✗       
+683   VVDLAN+0.984SVAPTDLSEGMR -1.0000     NotChecked  -19.9750    1873.9091   ✗       
+684   VVDLADSVAPTDLEEMR        -1.0000     NotChecked  -19.9789    1858.8982   ✗       
+685   VVDLAN+0.984SVAPTDVEEGMR -1.0000     NotChecked  -20.0022    1901.9041   ✗       
+686   VADLAN+0.984SVAPTDLEEGMR -1.0000     NotChecked  -20.0646    1887.8884   ✗       
+687   +43.006VDLADSVAPTDLEEGMR -1.0000     NotChecked  -20.0719    1859.8571   ✗       
+688   +43.006VDLADSVAPTDLEEGMR -1.0000     NotChecked  -20.1173    1859.8571   ✗       
+689   VGDLADSVAPTDLEEGMR       -1.0000     NotChecked  -20.2941    1873.8728   ✗       
+690   +42.011VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -20.3047    1858.8619   ✗       
+691   +42.011VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -20.3501    1858.8619   ✗       
+692   AVDLADSVAPTDLEEGMR       -1.0000     NotChecked  -20.4375    1887.8884   ✗       
+693   +42.011VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -20.5257    1858.8619   ✗       
+694   +43.006VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -20.5292    1859.8571   ✗       
+695   +43.006VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -20.5746    1859.8571   ✗       
+696   +42.011VDLADSVAPTDLEQ+0.984GMR-1.0000     NotChecked  -20.7363    1858.8619   ✗       
+697   +43.006VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -20.7502    1859.8571   ✗       
+698   +42.011VN+0.984LADSVAPTDLEEGMR-1.0000     NotChecked  -20.8108    1858.8619   ✗       
+699   +42.011VDLADSVAPTN+0.984LEEGMR-1.0000     NotChecked  -20.8830    1858.8619   ✗       
+700   +43.006VDLADSVAPTDLEQ+0.984GMR-1.0000     NotChecked  -20.9607    1859.8571   ✗       
+701   GVDLADSVAPTDLEEGMR       -1.0000     NotChecked  -20.9975    1873.8728   ✗       
+702   +43.006VN+0.984LADSVAPTDLEEGMR-1.0000     NotChecked  -21.0353    1859.8571   ✗       
+703   +43.006VDLADSVAPTN+0.984LEEGMR-1.0000     NotChecked  -21.1074    1859.8571   ✗       
+704   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -21.1475    1858.8619   ✗       
+705   AVDLAN+0.984SVAPTDLEEGMR -1.0000     NotChecked  -21.2630    1887.8884   ✗       
+706   +42.011VN+0.984LAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -21.2681    1858.8619   ✗       
+707   +42.011VDLADSVAPTDLQ+0.984EGMR-1.0000     NotChecked  -21.3225    1858.8619   ✗       
+708   +43.006VDLADSVAPTDLEEGMR -1.0000     NotChecked  -21.3720    1859.8571   ✗       
+709   +43.006VN+0.984LAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -21.4926    1859.8571   ✗       
+710   +43.006VDLADSVAPTDLQ+0.984EGMR-1.0000     NotChecked  -21.5470    1859.8571   ✗       
+711   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -21.5871    1858.8619   ✗       
+712   +42.011VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -21.6048    1858.8619   ✗       
+713   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -21.6325    1858.8619   ✗       
+714   +42.011VDLAN+0.984SVAPTDLQ+0.984EGMR-1.0000     NotChecked  -21.7798    1858.8619   ✗       
+715   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -21.8094    1858.8619   ✗       
+716   +43.006VDLADSVAPTDLEEGMR -1.0000     NotChecked  -21.8116    1859.8571   ✗       
+717   GVDLAN+0.984SVAPTDLEEGMR -1.0000     NotChecked  -21.8231    1873.8728   ✗       
+718   +43.006VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -21.8293    1859.8571   ✗       
+719   +42.011VDLADSVAPTDLEEGGR -1.0000     NotChecked  -21.8319    1784.8428   ✗       
+720   +43.006VDLADSVAPTDLEEGMR -1.0000     NotChecked  -21.8570    1859.8571   ✗       
+721   +43.006VDLAN+0.984SVAPTDLQ+0.984EGMR-1.0000     NotChecked  -22.0043    1859.8571   ✗       
+722   +43.006VDLADSVAPTDLEEGMR -1.0000     NotChecked  -22.0338    1859.8571   ✗       
+723   +43.006VDLADSVAPTDLEEGGR -1.0000     NotChecked  -22.0564    1785.8381   ✗       
+724   +42.011VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -22.2667    1858.8619   ✗       
+725   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -22.2734    1858.8619   ✗       
+726   +42.011VDLAN+0.984SVAPTDLEEGGR-1.0000     NotChecked  -22.2892    1784.8428   ✗       
+727   AVDLADSVAPTDLEEGMR       -1.0000     NotChecked  -22.3245    1887.8884   ✗       
+728   AVDLADSVAPTDLEEGMR       -1.0000     NotChecked  -22.3698    1887.8884   ✗       
+729   +42.011VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -22.4127    1858.8619   ✗       
+730   +42.011VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -22.4581    1858.8619   ✗       
+731   +43.006VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -22.4912    1859.8571   ✗       
+732   +43.006VDLADSVAPTDLEEGMR -1.0000     NotChecked  -22.4979    1859.8571   ✗       
+733   +43.006VDLAN+0.984SVAPTDLEEGGR-1.0000     NotChecked  -22.5137    1785.8381   ✗       
+734   AVDLADSVAPTDLEEGMR       -1.0000     NotChecked  -22.5454    1887.8884   ✗       
+735   +42.011VN+0.984LADSVAPTDLEEGMR-1.0000     NotChecked  -22.5505    1858.8619   ✗       
+736   RVDLADSVAPTDLEEGGR       -1.0000     NotChecked  -22.5842    1898.9334   ✗       
+737   +43.006VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -22.6372    1859.8571   ✗       
+738   +43.006VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -22.6826    1859.8571   ✗       
+739   +43.006VN+0.984LADSVAPTDLEEGMR-1.0000     NotChecked  -22.7750    1859.8571   ✗       
+740   LVDLADSVAPTDLEEGGR       -1.0000     NotChecked  -22.7906    1855.9163   ✗       
+741   +42.011RDLADSVAPTDLEEGMR -1.0000     Failed      -22.8239    1915.8945   ✓       
+742   +42.011VDLADSVAPTDLEQ+0.984GMR-1.0000     NotChecked  -22.8442    1858.8619   ✗       
+743   GVDLADSVAPTDLEEGMR       -1.0000     NotChecked  -22.8845    1873.8728   ✗       
+744   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -22.8872    1858.8619   ✗       
+745   GVDLADSVAPTDLEEGMR       -1.0000     NotChecked  -22.9298    1873.8728   ✗       
+746   +42.011VDLADSVAPTN+0.984LEEGMR-1.0000     NotChecked  -22.9909    1858.8619   ✗       
+747   AVDLAN+0.984SVAPTDLEEGMR -1.0000     NotChecked  -23.0028    1887.8884   ✗       
+748   +42.011VDLADSVAPTDLQ+0.984EGMR-1.0000     NotChecked  -23.0622    1858.8619   ✗       
+749   +43.006VDLADSVAPTDLEQ+0.984GMR-1.0000     NotChecked  -23.0687    1859.8571   ✗       
+750   GVDLADSVAPTDLEEGMR       -1.0000     NotChecked  -23.1055    1873.8728   ✗       
+751   +43.006VDLADSVAPTDLEEGMR -1.0000     NotChecked  -23.1117    1859.8571   ✗       
+752   +43.006VDLADSVAPTN+0.984LEEGMR-1.0000     NotChecked  -23.2154    1859.8571   ✗       
+753   +43.006VDLADSVAPTDLQ+0.984EGMR-1.0000     NotChecked  -23.2867    1859.8571   ✗       
+754   AVN+0.984LADSVAPTDLEEGMR -1.0000     NotChecked  -23.2878    1887.8884   ✗       
+755   +42.011VDLAN+0.984SVAPTDLEQ+0.984GMR-1.0000     NotChecked  -23.3016    1858.8619   ✗       
+756   MVDLADSVAPTDLEEGGR       -1.0000     NotChecked  -23.3137    1873.8728   ✗       
+757   +42.011VN+0.984LAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -23.3761    1858.8619   ✗       
+758   +42.011VDLAN+0.984SVAPTN+0.984LEEGMR-1.0000     NotChecked  -23.4483    1858.8619   ✗       
+759   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -23.5195    1858.8619   ✗       
+760   +43.006VDLAN+0.984SVAPTDLEQ+0.984GMR-1.0000     NotChecked  -23.5260    1859.8571   ✗       
+761   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -23.5491    1858.8619   ✗       
+762   GVDLAN+0.984SVAPTDLEEGMR -1.0000     NotChecked  -23.5628    1873.8728   ✗       
+763   +42.011VDLADSVAPTDLEEGR  -1.0000     NotChecked  -23.5955    1727.8214   ✗       
+764   +43.006VN+0.984LAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -23.6006    1859.8571   ✗       
+765   AVDLADSVAPTDLEEGMR       -1.0000     NotChecked  -23.6245    1887.8884   ✗       
+766   +43.006VDLAN+0.984SVAPTN+0.984LEEGMR-1.0000     NotChecked  -23.6727    1859.8571   ✗       
+767   KVDLADSVAPTDLEEGGR       -1.0000     NotChecked  -23.6862    1870.9272   ✗       
+768   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -23.6951    1858.8619   ✗       
+769   +42.011VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -23.7128    1858.8619   ✗       
+770   +42.011VDLADSVAPTDLEEAMR -1.0000     NotChecked  -23.7207    1872.8775   ✗       
+771   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -23.7405    1858.8619   ✗       
+772   +43.006VDLADSVAPTDLEEGMR -1.0000     NotChecked  -23.7440    1859.8571   ✗       
+773   +42.011VDLANSVAPTDLEEGMR -1.0000     NotChecked  -23.7735    1857.8778   ✗       
+774   +43.006VDLADSVAPTDLEEGMR -1.0000     NotChecked  -23.7736    1859.8571   ✗       
+775   AVDLADSVAPTDLQ+0.984EGMR -1.0000     NotChecked  -23.7995    1887.8884   ✗       
+776   +43.006VDLADSVAPTDLEEGR  -1.0000     NotChecked  -23.8200    1728.8166   ✗       
+777   GVN+0.984LADSVAPTDLEEGMR -1.0000     NotChecked  -23.8478    1873.8728   ✗       
+778   +42.011VDLAN+0.984SVAPTDLQ+0.984EGMR-1.0000     NotChecked  -23.8878    1858.8619   ✗       
+779   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -23.8951    1858.8619   ✗       
+780   +43.006VDLADSVAPTDLEEGMR -1.0000     NotChecked  -23.9196    1859.8571   ✗       
+781   +42.011VDLADSVAPTDLEEMR  -1.0000     NotChecked  -23.9203    1801.8404   ✗       
+782   +43.006VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -23.9373    1859.8571   ✗       
+783   +43.006VDLADSVAPTDLEEAMR -1.0000     NotChecked  -23.9452    1873.8728   ✗       
+784   +43.006VDLADSVAPTDLEEGMR -1.0000     NotChecked  -23.9650    1859.8571   ✗       
+785   +43.006VDLANSVAPTDLEEGMR -1.0000     NotChecked  -23.9980    1858.8731   ✗       
+786   +43.006VDLAN+0.984SVAPTDLQ+0.984EGMR-1.0000     NotChecked  -24.1123    1859.8571   ✗       
+787   +43.006VDLADSVAPTDLEEGMR -1.0000     NotChecked  -24.1196    1859.8571   ✗       
+788   +43.006VDLADSVAPTDLEEMR  -1.0000     NotChecked  -24.1448    1802.8356   ✗       
+789   +42.011VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -24.1524    1858.8619   ✗       
+790   GVDLADSVAPTDLEEGMR       -1.0000     NotChecked  -24.1845    1873.8728   ✗       
+791   +42.011VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -24.1978    1858.8619   ✗       
+792   AVDLADSVAPTDLEEGMR       -1.0000     NotChecked  -24.2864    1887.8884   ✗       
+793   AVDLADSVAPTDLEEGGR       -1.0000     NotChecked  -24.3090    1813.8694   ✗       
+794   GVDLADSVAPTDLQ+0.984EGMR -1.0000     NotChecked  -24.3596    1873.8728   ✗       
+795   +42.011VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -24.3747    1858.8619   ✗       
+796   +43.006VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -24.3769    1859.8571   ✗       
+797   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -24.3814    1858.8619   ✗       
+798   +42.011VDLAN+0.984SVAPTDLEEGGR-1.0000     NotChecked  -24.3972    1784.8428   ✗       
+799   +43.006VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -24.4223    1859.8571   ✗       
+800   AVDLADSVAPTDLEEGMR       -1.0000     NotChecked  -24.4324    1887.8884   ✗       
+801   +42.011VN+0.984LADSVAPTDLEEGMR-1.0000     NotChecked  -24.4375    1858.8619   ✗       
+802   AVDLADSVAPTDLEEGMR       -1.0000     NotChecked  -24.4778    1887.8884   ✗       
+803   +42.011VN+0.984LADSVAPTDLEEGMR-1.0000     NotChecked  -24.4829    1858.8619   ✗       
+804   +42.011VDLADSVAPTDLEQ+0.984GMR-1.0000     NotChecked  -24.5839    1858.8619   ✗       
+805   +43.006VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -24.5991    1859.8571   ✗       
+806   +43.006VDLADSVAPTDLEEGMR -1.0000     NotChecked  -24.6058    1859.8571   ✗       
+807   +43.006VDLAN+0.984SVAPTDLEEGGR-1.0000     NotChecked  -24.6217    1785.8381   ✗       
+808   DVDLADSVAPTDLEEGGR       -1.0000     NotChecked  -24.6524    1857.8592   ✗       
+809   +42.011VN+0.984LADSVAPTDLEEGMR-1.0000     NotChecked  -24.6585    1858.8619   ✗       
+810   +43.006VN+0.984LADSVAPTDLEEGMR-1.0000     NotChecked  -24.6620    1859.8571   ✗       
+811   RVDLADSVAPTDLEEGGR       -1.0000     NotChecked  -24.6921    1898.9334   ✗       
+812   +43.006VN+0.984LADSVAPTDLEEGMR-1.0000     NotChecked  -24.7073    1859.8571   ✗       
+813   +42.011VDLADSVAPTDLEDGMR -1.0000     NotChecked  -24.7076    1844.8462   ✗       
+814   +42.011VDLADSVAPTDLEMGMR -1.0000     NotChecked  -24.7286    1860.8597   ✗       
+815   +42.011VDLADSVAPTN+0.984LEEGMR-1.0000     NotChecked  -24.7306    1858.8619   ✗       
+816   +42.011VDLADSVAPTDLEEGNR -1.0000     NotChecked  -24.7524    1841.8643   ✗       
+817   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -24.7742    1858.8619   ✗       
+818   +43.006VDLADSVAPTDLEQ+0.984GMR-1.0000     NotChecked  -24.8084    1859.8571   ✗       
+819   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -24.8196    1858.8619   ✗       
+820   +42.011VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -24.8387    1858.8619   ✗       
+821   GVDLADSVAPTDLEEGMR       -1.0000     NotChecked  -24.8464    1873.8728   ✗       
+822   GVDLADSVAPTDLEEGGR       -1.0000     NotChecked  -24.8690    1799.8537   ✗       
+823   +43.006VN+0.984LADSVAPTDLEEGMR-1.0000     NotChecked  -24.8829    1859.8571   ✗       
+824   AVDLAN+0.984SVAPTDLEEGMR -1.0000     NotChecked  -24.8898    1887.8884   ✗       
+825   LVDLADSVAPTDLEEGGR       -1.0000     NotChecked  -24.8985    1855.9163   ✗       
+826   +42.011RDLADSVAPTDLEEGMR -1.0000     Failed      -24.9318    1915.8945   ✓       
+827   +43.006VDLADSVAPTDLEDGMR -1.0000     NotChecked  -24.9321    1845.8415   ✗       
+828   AVDLAN+0.984SVAPTDLEEGMR -1.0000     NotChecked  -24.9351    1887.8884   ✗       
+829   +42.011VDLADSVAPTDLQ+0.984EGMR-1.0000     NotChecked  -24.9492    1858.8619   ✗       
+830   +43.006VDLADSVAPTDLEMGMR -1.0000     NotChecked  -24.9531    1861.8550   ✗       
+831   +43.006VDLADSVAPTN+0.984LEEGMR-1.0000     NotChecked  -24.9551    1859.8571   ✗       
+832   +43.006VDLADSVAPTDLEEGNR -1.0000     NotChecked  -24.9768    1842.8595   ✗       
+833   +42.011VDLADSVAPTDLEEGM+15.995R-1.0000     NotChecked  -24.9791    1874.8568   ✗       
+834   GVDLADSVAPTDLEEGMR       -1.0000     NotChecked  -24.9924    1873.8728   ✗       
+835   +42.011VDLADSVAPTDLQ+0.984EGMR-1.0000     NotChecked  -24.9946    1858.8619   ✗       
+836   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -24.9952    1858.8619   ✗       
+837   +43.006VDLADSVAPTDLEEGMR -1.0000     NotChecked  -24.9987    1859.8571   ✗       
+838   GVDLADSVAPTDLEEGMR       -1.0000     NotChecked  -25.0378    1873.8728   ✗       
+839   +43.006VDLADSVAPTDLEEGMR -1.0000     NotChecked  -25.0441    1859.8571   ✗       
+840   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -25.0541    1858.8619   ✗       
+841   +43.006VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -25.0632    1859.8571   ✗       
+842   AVDLAN+0.984SVAPTDLEEGMR -1.0000     NotChecked  -25.1107    1887.8884   ✗       
+843   +42.011VN+0.984LAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -25.1158    1858.8619   ✗       
+844   RVDLAN+0.984SVAPTDLEEGGR -1.0000     NotChecked  -25.1495    1898.9334   ✗       
+845   +42.011VDLADSVAPTDLEEGVR -1.0000     NotChecked  -25.1617    1826.8898   ✗       
+846   +42.011VDLADSVAPTDLQ+0.984EGMR-1.0000     NotChecked  -25.1702    1858.8619   ✗       
+847   +43.006VDLADSVAPTDLQ+0.984EGMR-1.0000     NotChecked  -25.1737    1859.8571   ✗       
+848   +43.006VDLADSVAPTDLEEGM+15.995R-1.0000     NotChecked  -25.2036    1875.8520   ✗       
+849   +43.006VDLADSVAPTDLQ+0.984EGMR-1.0000     NotChecked  -25.2191    1859.8571   ✗       
+850   +43.006VDLADSVAPTDLEEGMR -1.0000     NotChecked  -25.2197    1859.8571   ✗       
+851   +43.006VDLADSVAPTDLEEGMR -1.0000     NotChecked  -25.2786    1859.8571   ✗       
+852   AVDLADSVAPTDLEQ+0.984GMR -1.0000     NotChecked  -25.3213    1887.8884   ✗       
+853   +42.011VNLADSVAPTDLEEGMR -1.0000     NotChecked  -25.3340    1857.8778   ✗       
+854   +43.006VN+0.984LAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -25.3403    1859.8571   ✗       
+855   LVDLAN+0.984SVAPTDLEEGGR -1.0000     NotChecked  -25.3559    1855.9163   ✗       
+856   +43.006VDLADSVAPTDLEEGVR -1.0000     NotChecked  -25.3862    1827.8850   ✗       
+857   +43.006VDLADSVAPTDLQ+0.984EGMR-1.0000     NotChecked  -25.3947    1859.8571   ✗       
+858   AVN+0.984LADSVAPTDLEEGMR -1.0000     NotChecked  -25.3958    1887.8884   ✗       
+859   +42.011VDLAN+0.984SVAPTDLEQ+0.984GMR-1.0000     NotChecked  -25.4095    1858.8619   ✗       
+860   MVDLADSVAPTDLEEGGR       -1.0000     NotChecked  -25.4217    1873.8728   ✗       
+861   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -25.4361    1858.8619   ✗       
+862   GVDLAN+0.984SVAPTDLEEGMR -1.0000     NotChecked  -25.4498    1873.8728   ✗       
+863   +42.011VDLADSVAPTDLEEGPR -1.0000     NotChecked  -25.4511    1824.8741   ✗       
+864   +42.011VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -25.4525    1858.8619   ✗       
+865   +42.011VDLADSVAPTDLEEGGR -1.0000     NotChecked  -25.4586    1784.8428   ✗       
+866   AVDLADSVAPTN+0.984LEEGMR -1.0000     NotChecked  -25.4680    1887.8884   ✗       
+867   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -25.4815    1858.8619   ✗       
+868   GVDLAN+0.984SVAPTDLEEGMR -1.0000     NotChecked  -25.4952    1873.8728   ✗       
+869   +42.011VDLADSVAPTDLEEGGR -1.0000     NotChecked  -25.5040    1784.8428   ✗       
+870   +42.011VDVADSVAPTDLEEGMR -1.0000     NotChecked  -25.5211    1844.8462   ✗       
+871   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -25.5488    1858.8619   ✗       
+872   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -25.5550    1858.8619   ✗       
+873   +42.011VDLAN+0.984SVAPTN+0.984LEEGMR-1.0000     NotChecked  -25.5562    1858.8619   ✗       
+874   +43.006VNLADSVAPTDLEEGMR -1.0000     NotChecked  -25.5585    1858.8731   ✗       
+875   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -25.6275    1858.8619   ✗       
+876   +42.011VDLAN+0.984SVAPTDLQ+0.984EGMR-1.0000     NotChecked  -25.6275    1858.8619   ✗       
+877   +43.006VDLAN+0.984SVAPTDLEQ+0.984GMR-1.0000     NotChecked  -25.6340    1859.8571   ✗       
+878   +42.011VDLADSVAPTDLEEGMV -1.0000     NotChecked  -25.6516    1801.8292   ✗       
+879   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -25.6571    1858.8619   ✗       
+880   +43.006VDLADSVAPTDLEEGMR -1.0000     NotChecked  -25.6606    1859.8571   ✗       
+881   GVDLAN+0.984SVAPTDLEEGMR -1.0000     NotChecked  -25.6708    1873.8728   ✗       
+882   +43.006VDLADSVAPTDLEEGPR -1.0000     NotChecked  -25.6756    1825.8694   ✗       
+883   +42.011VDLADSVAPTDLEEGDR -1.0000     NotChecked  -25.6761    1842.8483   ✗       
+884   +43.006VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -25.6770    1859.8571   ✗       
+885   +43.006VDLADSVAPTDLEEGGR -1.0000     NotChecked  -25.6831    1785.8381   ✗       
+886   +42.011VDLADSVAPTDLEEGYR -1.0000     NotChecked  -25.7028    1890.8847   ✗       
+887   +42.011VDLADSVAPTDLEEGR  -1.0000     NotChecked  -25.7034    1727.8214   ✗       
+888   +43.006VDLADSVAPTDLEEGMR -1.0000     NotChecked  -25.7059    1859.8571   ✗       
+889   +43.006VDLADSVAPTDLEEGGR -1.0000     NotChecked  -25.7285    1785.8381   ✗       
+890   AVDLADSVAPTDLEEGMR       -1.0000     NotChecked  -25.7325    1887.8884   ✗       
+891   +42.011VN+0.984LADSVAPTDLEEGMR-1.0000     NotChecked  -25.7376    1858.8619   ✗       
+892   +43.006VDVADSVAPTDLEEGMR -1.0000     NotChecked  -25.7456    1845.8415   ✗       
+893   +43.006VDLADSVAPTDLEEGMR -1.0000     NotChecked  -25.7732    1859.8571   ✗       
+894   +42.011VGLADSVAPTDLEEGMR -1.0000     NotChecked  -25.7746    1800.8564   ✗       
+895   +43.006VDLADSVAPTDLEEGMR -1.0000     NotChecked  -25.7795    1859.8571   ✗       
+896   +43.006VDLAN+0.984SVAPTN+0.984LEEGMR-1.0000     NotChecked  -25.7807    1859.8571   ✗       
+897   KVDLADSVAPTDLEEGGR       -1.0000     NotChecked  -25.7942    1870.9272   ✗       
+898   +42.011VDLADSVAPTDLEEGER -1.0000     NotChecked  -25.8270    1856.8640   ✗       
+899   +42.011VDLADSVAPTDLEEAMR -1.0000     NotChecked  -25.8287    1872.8775   ✗       
+900   +43.006VDLADSVAPTDLEEGMR -1.0000     NotChecked  -25.8519    1859.8571   ✗       
+901   +43.006VDLAN+0.984SVAPTDLQ+0.984EGMR-1.0000     NotChecked  -25.8520    1859.8571   ✗       
+902   AVN+0.984LAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -25.8531    1887.8884   ✗       
+903   +42.011VVLADSVAPTDLEEGMR -1.0000     NotChecked  -25.8607    1842.9033   ✗       
+904   +43.006VDLADSVAPTDLEEGMV -1.0000     NotChecked  -25.8761    1802.8244   ✗       
+905   MVDLAN+0.984SVAPTDLEEGGR -1.0000     NotChecked  -25.8790    1873.8728   ✗       
+906   GVDLADSVAPTDLEQ+0.984GMR -1.0000     NotChecked  -25.8813    1873.8728   ✗       
+907   +42.011VDLANSVAPTDLEEGMR -1.0000     NotChecked  -25.8815    1857.8778   ✗       
+908   +43.006VDLADSVAPTDLEEGMR -1.0000     NotChecked  -25.8815    1859.8571   ✗       
+909   +43.006VDLADSVAPTDLEEGDR -1.0000     NotChecked  -25.9006    1843.8436   ✗       
+910   AVDLADSVAPTDLQ+0.984EGMR -1.0000     NotChecked  -25.9075    1887.8884   ✗       
+911   +42.011VN+0.984LADSVAPTDLQ+0.984EGMR-1.0000     NotChecked  -25.9126    1858.8619   ✗       
+912   +43.006VDLADSVAPTDLEEGYR -1.0000     NotChecked  -25.9273    1891.8799   ✗       
+913   +43.006VDLADSVAPTDLEEGR  -1.0000     NotChecked  -25.9279    1728.8166   ✗       
+914   GVN+0.984LADSVAPTDLEEGMR -1.0000     NotChecked  -25.9558    1873.8728   ✗       
+915   +43.006VN+0.984LADSVAPTDLEEGMR-1.0000     NotChecked  -25.9620    1859.8571   ✗       
+916   +42.011VELADSVAPTDLEEGMR -1.0000     NotChecked  -25.9789    1872.8775   ✗       
+917   +42.011VDLADSVAPTDLEELMR -1.0000     NotChecked  -25.9812    1914.9245   ✗       
+918   +43.006VGLADSVAPTDLEEGMR -1.0000     NotChecked  -25.9991    1801.8516   ✗       
+919   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -26.0031    1858.8619   ✗       
+920   GVDLADSVAPTN+0.984LEEGMR -1.0000     NotChecked  -26.0280    1873.8728   ✗       
+921   +42.011VDLADSVAPTDLEEMR  -1.0000     NotChecked  -26.0283    1801.8404   ✗       
+922   +43.006VDLADSVAPTDLEEGER -1.0000     NotChecked  -26.0514    1857.8592   ✗       
+923   +43.006VDLADSVAPTDLEEAMR -1.0000     NotChecked  -26.0532    1873.8728   ✗       
+924   +42.011VDLAESVAPTDLEEGMR -1.0000     NotChecked  -26.0703    1872.8775   ✗       
+925   +42.011VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -26.0848    1858.8619   ✗       
+926   +43.006VVLADSVAPTDLEEGMR -1.0000     NotChecked  -26.0852    1843.8986   ✗       
+927   +43.006VDLANSVAPTDLEEGMR -1.0000     NotChecked  -26.1060    1858.8731   ✗       
+928   +42.011VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -26.1144    1858.8619   ✗       
+929   +42.011VDLADSVAPTDLEEGMG -1.0000     NotChecked  -26.1293    1759.7822   ✗       
+930   +43.006VN+0.984LADSVAPTDLQ+0.984EGMR-1.0000     NotChecked  -26.1371    1859.8571   ✗       
+931   +42.011VDLAN+0.984SVAPTDLEEGR-1.0000     NotChecked  -26.1608    1727.8214   ✗       
+932   AVDLADSVAPTDLEEGMR       -1.0000     NotChecked  -26.1722    1887.8884   ✗       
+933   +42.011VDLADSVAPTDLEEMR  -1.0000     NotChecked  -26.1894    1801.8404   ✗       
+934   AVDLAN+0.984SVAPTDLEEGMR -1.0000     NotChecked  -26.1898    1887.8884   ✗       
+935   +43.006VELADSVAPTDLEEGMR -1.0000     NotChecked  -26.2034    1873.8728   ✗       
+936   AVDLADSVAPTDLEEGMR       -1.0000     NotChecked  -26.2175    1887.8884   ✗       
+937   +43.006VDLADSVAPTDLEEGMR -1.0000     NotChecked  -26.2276    1859.8571   ✗       
+938   +42.011VDLADSVAPTDLQ+0.984EGMR-1.0000     NotChecked  -26.2493    1858.8619   ✗       
+939   KVDLAN+0.984SVAPTDLEEGGR -1.0000     NotChecked  -26.2515    1870.9272   ✗       
+940   +43.006VDLADSVAPTDLEEMR  -1.0000     NotChecked  -26.2528    1802.8356   ✗       
+941   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -26.2530    1858.8619   ✗       
+942   +42.011VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -26.2604    1858.8619   ✗       
+943   +42.011VDLAN+0.984SVAPTDLEEAMR-1.0000     NotChecked  -26.2860    1872.8775   ✗       
+944   GVDLADSVAPTDLEEGMR       -1.0000     NotChecked  -26.2925    1873.8728   ✗       
+945   +43.006VDLAESVAPTDLEEGMR -1.0000     NotChecked  -26.2948    1873.8728   ✗       
+946   +42.011VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -26.3058    1858.8619   ✗       
+947   +43.006VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -26.3093    1859.8571   ✗       
+948   +42.011VDLADSVAPTDLEEGM  -1.0000     NotChecked  -26.3365    1702.7607   ✗       
+949   +43.006VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -26.3389    1859.8571   ✗       
+950   +43.006VDLADSVAPTDLEEGMG -1.0000     NotChecked  -26.3537    1760.7775   ✗       
+951   +42.011KDLADSVAPTDLEEGMR -1.0000     NotChecked  -26.3604    1887.8884   ✗       
+952   AVDLAN+0.984SVAPTDLQ+0.984EGMR-1.0000     NotChecked  -26.3648    1887.8884   ✗       
+953   +43.006VDLAN+0.984SVAPTDLEEGR-1.0000     NotChecked  -26.3853    1728.8166   ✗       
+954   AVDLADSVAPTDLEEGMR       -1.0000     NotChecked  -26.3944    1887.8884   ✗       
+955   +42.011VN+0.984LADSVAPTDLEEGMR-1.0000     NotChecked  -26.3994    1858.8619   ✗       
+956   GVN+0.984LAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -26.4131    1873.8728   ✗       
+957   +43.006VDLADSVAPTDLEEMR  -1.0000     NotChecked  -26.4138    1802.8356   ✗       
+958   AVDLADSVAPTDLEEGGR       -1.0000     NotChecked  -26.4169    1813.8694   ✗       
+959   +42.011VN+0.984LADSVAPTDLEEGGR-1.0000     NotChecked  -26.4220    1784.8428   ✗       
+960   +42.011VDLADSVAPTDEEEGMR -1.0000     NotChecked  -26.4398    1874.8204   ✗       
+961   RVDLADSVAPTDLEEGR        -1.0000     NotChecked  -26.4557    1841.9119   ✗       
+962   +42.011VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -26.4605    1858.8619   ✗       
+963   GVDLADSVAPTDLQ+0.984EGMR -1.0000     NotChecked  -26.4675    1873.8728   ✗       
+964   +42.011VDLADSVAPTDLEQ+0.984GMR-1.0000     NotChecked  -26.4709    1858.8619   ✗       
+965   +43.006VDLADSVAPTDLQ+0.984EGMR-1.0000     NotChecked  -26.4738    1859.8571   ✗       
+966   +43.006VDLADSVAPTDLEEGMR -1.0000     NotChecked  -26.4775    1859.8571   ✗       
+967   +42.011LDLADSVAPTDLEEGMR -1.0000     NotChecked  -26.4809    1872.8775   ✗       
+968   +42.011VDLADTVAPTDLEEGMR -1.0000     NotChecked  -26.4814    1872.8775   ✗       
+969   +43.006VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -26.4849    1859.8571   ✗       
+970   +42.011VDLAN+0.984SVAPTDLEEMR-1.0000     NotChecked  -26.4856    1801.8404   ✗       
+971   +42.011VDLADSVAPTELEEGMR -1.0000     NotChecked  -26.5065    1872.8775   ✗       
+972   +43.006VDLAN+0.984SVAPTDLEEAMR-1.0000     NotChecked  -26.5105    1873.8728   ✗       
+973   +42.011VDLADSVAPTDLEEPMR -1.0000     NotChecked  -26.5146    1898.8932   ✗       
+974   +42.011VDLADSVAPTDLEQ+0.984GMR-1.0000     NotChecked  -26.5163    1858.8619   ✗       
+975   +43.006VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -26.5303    1859.8571   ✗       
+976   +42.011VN+0.984LADSVAPTDLEEGMR-1.0000     NotChecked  -26.5455    1858.8619   ✗       
+977   +43.006VDLADSVAPTDLEEGM  -1.0000     NotChecked  -26.5610    1703.7560   ✗       
+978   +42.011VDLGDSVAPTDLEEGMR -1.0000     NotChecked  -26.5830    1844.8462   ✗       
+979   +43.006KDLADSVAPTDLEEGMR -1.0000     NotChecked  -26.5849    1888.8836   ✗       
+980   +42.011VN+0.984LADSVAPTDLEEGMR-1.0000     NotChecked  -26.5908    1858.8619   ✗       
+981   +42.011VDLADSVAPTN+0.984LEEGMR-1.0000     NotChecked  -26.6176    1858.8619   ✗       
+982   +43.006VN+0.984LADSVAPTDLEEGMR-1.0000     NotChecked  -26.6239    1859.8571   ✗       
+983   +42.011VDLADSVAPTDLEQGMR -1.0000     NotChecked  -26.6393    1857.8778   ✗       
+984   +43.006VN+0.984LADSVAPTDLEEGGR-1.0000     NotChecked  -26.6465    1785.8381   ✗       
+985   LVDLADSVAPTDLEEGR        -1.0000     NotChecked  -26.6621    1798.8949   ✗       
+986   +42.011VDLADSVAPTN+0.984LEEGMR-1.0000     NotChecked  -26.6630    1858.8619   ✗       
+987   +43.006VDLADSVAPTDEEEGMR -1.0000     NotChecked  -26.6643    1875.8156   ✗       
+988   +42.011RDLADSVAPTDLEEGMR -1.0000     Failed      -26.6716    1915.8945   ✓       
+989   +43.006VDLAN+0.984SVAPTDLEEGMR-1.0000     NotChecked  -26.6849    1859.8571   ✗       
+990   +42.011VDLADSVAPTDLEQ+0.984GMR-1.0000     NotChecked  -26.6919    1858.8619   ✗       
+991   +43.006VDLADSVAPTDLEQ+0.984GMR-1.0000     NotChecked  -26.6954    1859.8571   ✗       
+992   +42.011VDLADSVAPSDLEEGMR -1.0000     NotChecked  -26.7018    1844.8462   ✗       
+993   +43.006LDLADSVAPTDLEEGMR -1.0000     NotChecked  -26.7054    1873.8728   ✗       
+994   +43.006VDLADTVAPTDLEEGMR -1.0000     NotChecked  -26.7058    1873.8727   ✗       
+995   +43.006VDLAN+0.984SVAPTDLEEMR-1.0000     NotChecked  -26.7101    1802.8356   ✗       
+996   +43.006VDLADSVAPTELEEGMR -1.0000     NotChecked  -26.7310    1873.8728   ✗       
+997   GVDLADSVAPTDLEEGMR       -1.0000     NotChecked  -26.7322    1873.8728   ✗       
+998   +42.011VDLADSVAPTDLEEGMR -1.0000     NotChecked  -26.7362    1858.8619   ✗       
+999   +43.006VDLADSVAPTDLEEPMR -1.0000     NotChecked  -26.7391    1899.8884   ✗       
+1000  +43.006VDLADSVAPTDLEQ+0.984GMR-1.0000     NotChecked  -26.7408    1859.8571   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: VVDLADSVAPTDLEEGMR
+Similarity: 0.8754
+De Novo Score: -0.2207
+Source: Database
+Correct: ✓
+

@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 229
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 707.6779
+Precursor charge: 3+
+Ground truth: AIRTDYNASVSVPDSSGPER
+Ground truth (normalized): AIRTDYNASVSVPDSSGPER
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 307
+Used for reranking: 307
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 307 (30.7%)
+Database matches: 204 (20.4%)
+Prosit predictions: 102 (10.2%)
+Failed: 1 (0.1%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.7999
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     ALRTDYNASVSVPDSSGPER     0.7999      Database    -1.7087     2120.0134   ✓       ✓
+2     ALRTDYNASVSVPDSSGPER     0.7999      Database    -2.5294     2120.0134   ✓       ✓
+3     ALRTDYNASVSVPDSSGPER     0.7999      Database    -2.6925     2120.0134   ✓       ✓
+4     ALRTDYNASVSVPDSSGPER     0.7999      Database    -3.0886     2120.0134   ✓       ✓
+5     ALRTDYNASVSVPDSSGPER     0.7999      Database    -3.5133     2120.0134   ✓       ✓
+6     ALRTDYNASVSVPDSSGPER     0.7999      Database    -3.7243     2120.0134   ✓       ✓
+7     ALRTDYNASVSVPDSSGPER     0.7999      Database    -4.0066     2120.0134   ✓       ✓
+8     ALRTDYNASVSVPDSSGPER     0.7999      Database    -4.0724     2120.0134   ✓       ✓
+9     ALRTDYNASVSVPDSSGPER     0.7999      Database    -4.5450     2120.0134   ✓       ✓
+10    ALRTDYNASVSVPDSSGPER     0.7999      Database    -4.7081     2120.0134   ✓       ✓
+11    ALRTDYNASVSVPDSSGPER     0.7999      Database    -4.8274     2120.0134   ✓       ✓
+12    ALRTDYNASVSVPDSSGPER     0.7999      Database    -4.8943     2120.0134   ✓       ✓
+13    ALRTDYNASVSVPDSSGPER     0.7999      Database    -4.9905     2120.0134   ✓       ✓
+14    ALRTDYNASVSVPDSSGPER     0.7999      Database    -5.1042     2120.0134   ✓       ✓
+15    ALRTDYNASVSVPDSSGPER     0.7999      Database    -5.3866     2120.0134   ✓       ✓
+16    ALRTDYNASVSVPDSSGPER     0.7999      Database    -5.5289     2120.0134   ✓       ✓
+17    ALRTDYNASVSVPDSSGPER     0.7999      Database    -5.7151     2120.0134   ✓       ✓
+18    ALRTDYNASVSVPDSSGPER     0.7999      Database    -5.8113     2120.0134   ✓       ✓
+19    ALRTDYNASVSVPDSSGPER     0.7999      Database    -5.8782     2120.0134   ✓       ✓
+20    ALRTDYNASVSVPDSSGPER     0.7999      Database    -6.0222     2120.0134   ✓       ✓
+21    ALRTDYNASVSVPDSSGPER     0.7999      Database    -6.0880     2120.0134   ✓       ✓
+22    ALRTDYNASVSVPDSSGPER     0.7999      Database    -6.1437     2120.0134   ✓       ✓
+23    ALRTDYNASVSVPDSSGPER     0.7999      Database    -6.1923     2120.0134   ✓       ✓
+24    ALRTDYNASVSVPDSSGPER     0.7999      Database    -6.2743     2120.0134   ✓       ✓
+25    ALRTDYNASVSVPDSSGPER     0.7999      Database    -6.3704     2120.0134   ✓       ✓
+26    ALRTDYNASVSVPDSSGPER     0.7999      Database    -6.6990     2120.0134   ✓       ✓
+27    ALRTDYNASVSVPDSSGPER     0.7999      Database    -6.7106     2120.0134   ✓       ✓
+28    ALRTDYNASVSVPDSSGPER     0.7999      Database    -6.8430     2120.0134   ✓       ✓
+29    ALRTDYNASVSVPDSSGPER     0.7999      Database    -6.9099     2120.0134   ✓       ✓
+30    ALRTDYNASVSVPDSSGPER     0.7999      Database    -6.9645     2120.0134   ✓       ✓
+31    ALRTDYNASVSVPDSSGPER     0.7999      Database    -7.0058     2120.0134   ✓       ✓
+32    ALRTDYNASVSVPDSSGPER     0.7999      Database    -7.0061     2120.0134   ✓       ✓
+33    ALRTDYNASVSVPDSSGPER     0.7999      Database    -7.0131     2120.0134   ✓       ✓
+34    ALRTDYNASVSVPDSSGPER     0.7999      Database    -7.1276     2120.0134   ✓       ✓
+35    ALRTDYNASVSVPDSSGPER     0.7999      Database    -7.1761     2120.0134   ✓       ✓
+36    ALRTDYNASVSVPDSSGPER     0.7999      Database    -7.1923     2120.0134   ✓       ✓
+37    ALRTDYNASVSVPDSSGPER     0.7999      Database    -7.2581     2120.0134   ✓       ✓
+38    ALRTDYNASVSVPDSSGPER     0.7999      Database    -7.4022     2120.0134   ✓       ✓
+39    ALRTDYNASVSVPDSSGPER     0.7999      Database    -7.5236     2120.0134   ✓       ✓
+40    ALRTDYNASVSVPDSSGPER     0.7999      Database    -7.5314     2120.0134   ✓       ✓
+41    ALRTDYNASVSVPDSSGPER     0.7999      Database    -7.5722     2120.0134   ✓       ✓
+42    ALRTDYNASVSVPDSSGPER     0.7999      Database    -7.6490     2120.0134   ✓       ✓
+43    ALRTDYNASVSVPDSSGPER     0.7999      Database    -7.6945     2120.0134   ✓       ✓
+44    ALRTDYNASVSVPDSSGPER     0.7999      Database    -7.7307     2120.0134   ✓       ✓
+45    ALRTDYNASVSVPDSSGPER     0.7999      Database    -7.8265     2120.0134   ✓       ✓
+46    ALRTDYNASVSVPDSSGPER     0.7999      Database    -7.8269     2120.0134   ✓       ✓
+47    ALRTDYNASVSVPDSSGPER     0.7999      Database    -7.8938     2120.0134   ✓       ✓
+48    ALRTDYNASVSVPDSSGPER     0.7999      Database    -7.9483     2120.0134   ✓       ✓
+49    ALRTDYNASVSVPDSSGPER     0.7999      Database    -7.9969     2120.0134   ✓       ✓
+50    ALRTDYNASVSVPDSSGPER     0.7999      Database    -8.0131     2120.0134   ✓       ✓
+51    ALRTDYNASVSVPDSSGPER     0.7999      Database    -8.0906     2120.0134   ✓       ✓
+52    ALRTDYNASVSVPDSSGPER     0.7999      Database    -8.1593     2120.0134   ✓       ✓
+53    ALRTDYNASVSVPDSSGPER     0.7999      Database    -8.1762     2120.0134   ✓       ✓
+54    ALRTDYNASVSVPDSSGPER     0.7999      Database    -8.2079     2120.0134   ✓       ✓
+55    ALRTDYNASVSVPDSSGPER     0.7999      Database    -8.2899     2120.0134   ✓       ✓
+56    ALRTDYNASVSVPDSSGPER     0.7999      Database    -8.3857     2120.0134   ✓       ✓
+57    ALRTDYNASVSVPDSSGPER     0.7999      Database    -8.3860     2120.0134   ✓       ✓
+58    ALRTDYNASVSVPDSSGPER     0.7999      Database    -8.4417     2120.0134   ✓       ✓
+59    ALRTDYNASVSVPDSSGPER     0.7999      Database    -8.4698     2120.0134   ✓       ✓
+60    ALRTDYNASVSVPDSSGPER     0.7999      Database    -8.4903     2120.0134   ✓       ✓
+61    ALRTDYNASVSVPDSSGPER     0.7999      Database    -8.5075     2120.0134   ✓       ✓
+62    ALRTDYNASVSVPDSSGPER     0.7999      Database    -8.5153     2120.0134   ✓       ✓
+63    ALRTDYNASVSVPDSSGPER     0.7999      Database    -8.5561     2120.0134   ✓       ✓
+64    ALRTDYNASVSVPDSSGPER     0.7999      Database    -8.5723     2120.0134   ✓       ✓
+65    ALRTDYNASVSVPDSSGPER     0.7999      Database    -8.6329     2120.0134   ✓       ✓
+66    ALRTDYNASVSVPDSSGPER     0.7999      Database    -8.7146     2120.0134   ✓       ✓
+67    ALRTDYNASVSVPDSSGPER     0.7999      Database    -8.7262     2120.0134   ✓       ✓
+68    ALRTDYNASVSVPDSSGPER     0.7999      Database    -8.9801     2120.0134   ✓       ✓
+69    ALRTDYNASVSVPDSSGPER     0.7999      Database    -8.9969     2120.0134   ✓       ✓
+70    ALRTDYNASVSVPDSSGPER     0.7999      Database    -9.0086     2120.0134   ✓       ✓
+71    ALRTDYNASVSVPDSSGPER     0.7999      Database    -9.0214     2120.0134   ✓       ✓
+72    ALRTDYNASVSVPDSSGPER     0.7999      Database    -9.0287     2120.0134   ✓       ✓
+73    ALRTDYNASVSVPDSSGPER     0.7999      Database    -9.0289     2120.0134   ✓       ✓
+74    ALRTDYNASVSVPDSSGPER     0.7999      Database    -9.0744     2120.0134   ✓       ✓
+75    ALRTDYNASVSVPDSSGPER     0.7999      Database    -9.1432     2120.0134   ✓       ✓
+76    ALRTDYNASVSVPDSSGPER     0.7999      Database    -9.1608     2120.0134   ✓       ✓
+77    ALRTDYNASVSVPDSSGPER     0.7999      Database    -9.1917     2120.0134   ✓       ✓
+78    ALRTDYNASVSVPDSSGPER     0.7999      Database    -9.2079     2120.0134   ✓       ✓
+79    ALRTDYNASVSVPDSSGPER     0.7999      Database    -9.2625     2120.0134   ✓       ✓
+80    ALRTDYNASVSVPDSSGPER     0.7999      Database    -9.2737     2120.0134   ✓       ✓
+81    ALRTDYNASVSVPDSSGPER     0.7999      Database    -9.3038     2120.0134   ✓       ✓
+82    ALRTDYNASVSVPDSSGPER     0.7999      Database    -9.3111     2120.0134   ✓       ✓
+83    ALRTDYNASVSVPDSSGPER     0.7999      Database    -9.3294     2120.0134   ✓       ✓
+84    ALRTDYNASVSVPDSSGPER     0.7999      Database    -9.3780     2120.0134   ✓       ✓
+85    ALRTDYNASVSVPDSSGPER     0.7999      Database    -9.4255     2120.0134   ✓       ✓
+86    ALRTDYNASVSVPDSSGPER     0.7999      Database    -9.4536     2120.0134   ✓       ✓
+87    ALRTDYNASVSVPDSSGPER     0.7999      Database    -9.4741     2120.0134   ✓       ✓
+88    ALRTDYNASVSVPDSSGPER     0.7999      Database    -9.5392     2120.0134   ✓       ✓
+89    ALRTDYNASVSVPDSSGPER     0.7999      Database    -9.5470     2120.0134   ✓       ✓
+90    ALRTDYNASVSVPDSSGPER     0.7999      Database    -9.5561     2120.0134   ✓       ✓
+91    ALRTDYNASVSVPDSSGPER     0.7999      Database    -9.5878     2120.0134   ✓       ✓
+92    ALRTDYNASVSVPDSSGPER     0.7999      Database    -9.6332     2120.0134   ✓       ✓
+93    ALRTDYNASVSVPDSSGPER     0.7999      Database    -9.6646     2120.0134   ✓       ✓
+94    ALRTDYNASVSVPDSSGPER     0.7999      Database    -9.7101     2120.0134   ✓       ✓
+95    ALRTDYNASVSVPDSSGPER     0.7999      Database    -9.8216     2120.0134   ✓       ✓
+96    ALRTDYNASVSVPDSSGPER     0.7999      Database    -9.8294     2120.0134   ✓       ✓
+97    ALRTDYNASVSVPDSSGPER     0.7999      Database    -9.8422     2120.0134   ✓       ✓
+98    ALRTDYNASVSVPDSSGPER     0.7999      Database    -9.8702     2120.0134   ✓       ✓
+99    ALRTDYNASVSVPDSSGPER     0.7999      Database    -9.8963     2120.0134   ✓       ✓
+100   ALRTDYNASVSVPDSSGPER     0.7999      Database    -9.9470     2120.0134   ✓       ✓
+101   ALRTDYNASVSVPDSSGPER     0.7999      Database    -9.9639     2120.0134   ✓       ✓
+102   ALRTDYNASVSVPDSSGPER     0.7999      Database    -9.9816     2120.0134   ✓       ✓
+103   ALRTDYNASVSVPDSSGPER     0.7999      Database    -9.9925     2120.0134   ✓       ✓
+104   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.0125    2120.0134   ✓       ✓
+105   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.0128    2120.0134   ✓       ✓
+106   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.0287    2120.0134   ✓       ✓
+107   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.1062    2120.0134   ✓       ✓
+108   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.1245    2120.0134   ✓       ✓
+109   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.1447    2120.0134   ✓       ✓
+110   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.1502    2120.0134   ✓       ✓
+111   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.1915    2120.0134   ✓       ✓
+112   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.1918    2120.0134   ✓       ✓
+113   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.1987    2120.0134   ✓       ✓
+114   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.2463    2120.0134   ✓       ✓
+115   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.2949    2120.0134   ✓       ✓
+116   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.3132    2120.0134   ✓       ✓
+117   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.3618    2120.0134   ✓       ✓
+118   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.3886    2120.0134   ✓       ✓
+119   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.4013    2120.0134   ✓       ✓
+120   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.4539    2120.0134   ✓       ✓
+121   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.4573    2120.0134   ✓       ✓
+122   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.4854    2120.0134   ✓       ✓
+123   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.5059    2120.0134   ✓       ✓
+124   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.5231    2120.0134   ✓       ✓
+125   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.5309    2120.0134   ✓       ✓
+126   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.5407    2120.0134   ✓       ✓
+127   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.5717    2120.0134   ✓       ✓
+128   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.5879    2120.0134   ✓       ✓
+129   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.6170    2120.0134   ✓       ✓
+130   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.6273    2120.0134   ✓       ✓
+131   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.6315    2120.0134   ✓       ✓
+132   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.6485    2120.0134   ✓       ✓
+133   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.6837    2120.0134   ✓       ✓
+134   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.7093    2120.0134   ✓       ✓
+135   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.7123    2120.0134   ✓       ✓
+136   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.7171    2120.0134   ✓       ✓
+137   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.7579    2120.0134   ✓       ✓
+138   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.7678    2120.0134   ✓       ✓
+139   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.8055    2120.0134   ✓       ✓
+140   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.8133    2120.0134   ✓       ✓
+141   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.8347    2120.0134   ✓       ✓
+142   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.8541    2120.0134   ✓       ✓
+143   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.8802    2120.0134   ✓       ✓
+144   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.9263    2120.0134   ✓       ✓
+145   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.9309    2120.0134   ✓       ✓
+146   ALRTDYNASVSVPDSSGPER     0.7999      Database    -10.9654    2120.0134   ✓       ✓
+147   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.0122    2120.0134   ✓       ✓
+148   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.0126    2120.0134   ✓       ✓
+149   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.0131    2120.0134   ✓       ✓
+150   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.0242    2120.0134   ✓       ✓
+151   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.0446    2120.0134   ✓       ✓
+152   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.0900    2120.0134   ✓       ✓
+153   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.1340    2120.0134   ✓       ✓
+154   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.1457    2120.0134   ✓       ✓
+155   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.1764    2120.0134   ✓       ✓
+156   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.1826    2120.0134   ✓       ✓
+157   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.1943    2120.0134   ✓       ✓
+158   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.2762    2120.0134   ✓       ✓
+159   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.2781    2120.0134   ✓       ✓
+160   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.3194    2120.0134   ✓       ✓
+161   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.3267    2120.0134   ✓       ✓
+162   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.3269    2120.0134   ✓       ✓
+163   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.3450    2120.0134   ✓       ✓
+164   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.3724    2120.0134   ✓       ✓
+165   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.3936    2120.0134   ✓       ✓
+166   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.4378    2120.0134   ✓       ✓
+167   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.4408    2120.0134   ✓       ✓
+168   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.4412    2120.0134   ✓       ✓
+169   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.4481    2120.0134   ✓       ✓
+170   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.4523    2120.0134   ✓       ✓
+171   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.4588    2120.0134   ✓       ✓
+172   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.4692    2120.0134   ✓       ✓
+173   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.4894    2120.0134   ✓       ✓
+174   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.4897    2120.0134   ✓       ✓
+175   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.5246    2120.0134   ✓       ✓
+176   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.5331    2120.0134   ✓       ✓
+177   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.5714    2120.0134   ✓       ✓
+178   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.5717    2120.0134   ✓       ✓
+179   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.6112    2120.0134   ✓       ✓
+180   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.6154    2120.0134   ✓       ✓
+181   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.6274    2120.0134   ✓       ✓
+182   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.6488    2120.0134   ✓       ✓
+183   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.6555    2120.0134   ✓       ✓
+184   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.6760    2120.0134   ✓       ✓
+185   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.6932    2120.0134   ✓       ✓
+186   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.6961    2120.0134   ✓       ✓
+187   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.7009    2120.0134   ✓       ✓
+188   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.7417    2120.0134   ✓       ✓
+189   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.7471    2120.0134   ✓       ✓
+190   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.7516    2120.0134   ✓       ✓
+191   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.8185    2120.0134   ✓       ✓
+192   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.8372    2120.0134   ✓       ✓
+193   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.8450    2120.0134   ✓       ✓
+194   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.8858    2120.0134   ✓       ✓
+195   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.9102    2120.0134   ✓       ✓
+196   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.9119    2120.0134   ✓       ✓
+197   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.9193    2120.0134   ✓       ✓
+198   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.9311    2120.0134   ✓       ✓
+199   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.9455    2120.0134   ✓       ✓
+200   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.9626    2120.0134   ✓       ✓
+201   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.9665    2120.0134   ✓       ✓
+202   ALRTDYNASVSVPDSSGPER     0.7999      Database    -11.9969    2120.0134   ✓       ✓
+203   ALRTDYNASVSVPDSSGPER     0.7999      Database    -14.4885    2120.0134   ✓       ✓
+204   ALRTDYNASVSVPDSSGPER     0.7999      Database    -15.4724    2120.0134   ✓       ✓
+205   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -4.6801     2120.0134   ✓       
+206   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -5.5009     2120.0134   ✓       
+207   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -6.0600     2120.0134   ✓       
+208   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -6.6957     2120.0134   ✓       
+209   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -6.9781     2120.0134   ✓       
+210   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -7.5165     2120.0134   ✓       
+211   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -7.7988     2120.0134   ✓       
+212   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -7.8658     2120.0134   ✓       
+213   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -8.0756     2120.0134   ✓       
+214   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -8.3580     2120.0134   ✓       
+215   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -8.6865     2120.0134   ✓       
+216   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -8.9350     2120.0134   ✓       
+217   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -8.9937     2120.0134   ✓       
+218   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -9.1151     2120.0134   ✓       
+219   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -9.1637     2120.0134   ✓       
+220   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -9.2457     2120.0134   ✓       
+221   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -9.6821     2120.0134   ✓       
+222   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -9.7557     2120.0134   ✓       
+223   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -9.8145     2120.0134   ✓       
+224   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -9.8814     2120.0134   ✓       
+225   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -9.9359     2120.0134   ✓       
+226   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -9.9845     2120.0134   ✓       
+227   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -10.1638    2120.0134   ✓       
+228   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -10.3149    2120.0134   ✓       
+229   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -10.3736    2120.0134   ✓       
+230   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -10.4951    2120.0134   ✓       
+231   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -10.5028    2120.0134   ✓       
+232   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -10.5437    2120.0134   ✓       
+233   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -10.6205    2120.0134   ✓       
+234   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -10.7021    2120.0134   ✓       
+235   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -10.9506    2120.0134   ✓       
+236   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -10.9845    2120.0134   ✓       
+237   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -11.0620    2120.0134   ✓       
+238   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -11.1307    2120.0134   ✓       
+239   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -11.1793    2120.0134   ✓       
+240   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -11.2330    2120.0134   ✓       
+241   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -11.2613    2120.0134   ✓       
+242   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -11.3367    2120.0134   ✓       
+243   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -11.4131    2120.0134   ✓       
+244   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -11.4412    2120.0134   ✓       
+245   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -11.4617    2120.0134   ✓       
+246   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -11.5437    2120.0134   ✓       
+247   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -11.6977    2120.0134   ✓       
+248   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -11.7713    2120.0134   ✓       
+249   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -11.9515    2120.0134   ✓       
+250   ALRDTYNASVSVPDSSGPER     0.6794      Prosit      -11.9801    2120.0134   ✓       
+251   VLRSTYNASVSVPDSSGPER     0.6613      Prosit      -16.3606    2120.0498   ✓       
+252   ALRSEYNASVSVPDSSGPER     0.6407      Prosit      -7.9714     2120.0134   ✓       
+253   ALRSEYNASVSVPDSSGPER     0.6407      Prosit      -8.7922     2120.0134   ✓       
+254   ALRSEYNASVSVPDSSGPER     0.6407      Prosit      -9.3513     2120.0134   ✓       
+255   ALRSEYNASVSVPDSSGPER     0.6407      Prosit      -9.9870     2120.0134   ✓       
+256   ALRSEYNASVSVPDSSGPER     0.6407      Prosit      -10.2694    2120.0134   ✓       
+257   ALRSEYNASVSVPDSSGPER     0.6407      Prosit      -10.8078    2120.0134   ✓       
+258   ALRSEYNASVSVPDSSGPER     0.6407      Prosit      -11.0902    2120.0134   ✓       
+259   ALRSEYNASVSVPDSSGPER     0.6407      Prosit      -11.1571    2120.0134   ✓       
+260   ALRSEYNASVSVPDSSGPER     0.6407      Prosit      -11.3669    2120.0134   ✓       
+261   ALRSEYNASVSVPDSSGPER     0.6407      Prosit      -11.6493    2120.0134   ✓       
+262   ALRSEYNASVSVPDSSGPER     0.6407      Prosit      -11.9779    2120.0134   ✓       
+263   LARTDYNASVSVPDSSGPER     0.6400      Prosit      -13.9994    2120.0134   ✓       
+264   LARTDYNASVSVPDSSGPER     0.6400      Prosit      -14.8202    2120.0134   ✓       
+265   LARTDYNASVSVPDSSGPER     0.6400      Prosit      -14.9833    2120.0134   ✓       
+266   LARTDYNASVSVPDSSGPER     0.6400      Prosit      -15.3794    2120.0134   ✓       
+267   LARTDYNASVSVPDSSGPER     0.6400      Prosit      -15.8041    2120.0134   ✓       
+268   LARTDYNASVSVPDSSGPER     0.6400      Prosit      -16.0150    2120.0134   ✓       
+269   LARTDYNASVSVPDSSGPER     0.6400      Prosit      -16.2974    2120.0134   ✓       
+270   LARTDYNASVSVPDSSGPER     0.6400      Prosit      -16.3632    2120.0134   ✓       
+271   ALRESYNASVSVPDSSGPER     0.6398      Prosit      -11.7274    2120.0134   ✓       
+272   ALRN+0.984TYNASVSVPDSSGPER0.6296      Prosit      -10.8214    2120.0134   ✓       
+273   ALRN+0.984TYNASVSVPDSSGPER0.6296      Prosit      -11.6422    2120.0134   ✓       
+274   ALRTN+0.984YNASVSVPDSSGPER0.6281      Prosit      -7.7578     2120.0134   ✓       
+275   ALRTN+0.984YNASVSVPDSSGPER0.6281      Prosit      -8.5785     2120.0134   ✓       
+276   ALRTN+0.984YNASVSVPDSSGPER0.6281      Prosit      -8.7416     2120.0134   ✓       
+277   ALRTN+0.984YNASVSVPDSSGPER0.6281      Prosit      -9.1377     2120.0134   ✓       
+278   ALRTN+0.984YNASVSVPDSSGPER0.6281      Prosit      -9.5624     2120.0134   ✓       
+279   ALRTN+0.984YNASVSVPDSSGPER0.6281      Prosit      -9.7734     2120.0134   ✓       
+280   ALRTN+0.984YNASVSVPDSSGPER0.6281      Prosit      -10.0558    2120.0134   ✓       
+281   ALRTN+0.984YNASVSVPDSSGPER0.6281      Prosit      -10.1215    2120.0134   ✓       
+282   ALRTN+0.984YNASVSVPDSSGPER0.6281      Prosit      -10.5941    2120.0134   ✓       
+283   ALRTN+0.984YNASVSVPDSSGPER0.6281      Prosit      -10.7572    2120.0134   ✓       
+284   ALRTN+0.984YNASVSVPDSSGPER0.6281      Prosit      -10.8765    2120.0134   ✓       
+285   ALRTN+0.984YNASVSVPDSSGPER0.6281      Prosit      -10.9434    2120.0134   ✓       
+286   ALRTN+0.984YNASVSVPDSSGPER0.6281      Prosit      -11.0396    2120.0134   ✓       
+287   ALRTN+0.984YNASVSVPDSSGPER0.6281      Prosit      -11.1533    2120.0134   ✓       
+288   ALRTN+0.984YNASVSVPDSSGPER0.6281      Prosit      -11.4357    2120.0134   ✓       
+289   ALRTN+0.984YNASVSVPDSSGPER0.6281      Prosit      -11.5780    2120.0134   ✓       
+290   ALRTN+0.984YNASVSVPDSSGPER0.6281      Prosit      -11.7642    2120.0134   ✓       
+291   ALRTN+0.984YNASVSVPDSSGPER0.6281      Prosit      -11.8604    2120.0134   ✓       
+292   ALRTN+0.984YNASVSVPDSSGPER0.6281      Prosit      -11.9273    2120.0134   ✓       
+293   LRDDYGNASVSVPDSSGPER     0.6247      Prosit      -15.4877    2119.9770   ✓       
+294   ALRTDYNASVSVPN+0.984SSGPER0.6158      Prosit      -9.9977     2120.0134   ✓       
+295   ALRTDYNASVSVPN+0.984SSGPER0.6158      Prosit      -10.8184    2120.0134   ✓       
+296   ALRTDYNASVSVPN+0.984SSGPER0.6158      Prosit      -10.9815    2120.0134   ✓       
+297   ALRTDYNASVSVPN+0.984SSGPER0.6158      Prosit      -11.3776    2120.0134   ✓       
+298   ALRTDYNASVSVPN+0.984SSGPER0.6158      Prosit      -11.8023    2120.0134   ✓       
+299   ALRTDYNASVSVPDSSGPQ+0.984R0.6080      Prosit      -9.4816     2120.0134   ✓       
+300   ALRTDYNASVSVPDSSGPQ+0.984R0.6080      Prosit      -10.3024    2120.0134   ✓       
+301   ALRTDYNASVSVPDSSGPQ+0.984R0.6080      Prosit      -10.4654    2120.0134   ✓       
+302   ALRTDYNASVSVPDSSGPQ+0.984R0.6080      Prosit      -10.8615    2120.0134   ✓       
+303   ALRTDYNASVSVPDSSGPQ+0.984R0.6080      Prosit      -11.2862    2120.0134   ✓       
+304   ALRTDYNASVSVPDSSGPQ+0.984R0.6080      Prosit      -11.4972    2120.0134   ✓       
+305   ALRTDYNASVSVPDSSGPQ+0.984R0.6080      Prosit      -11.7796    2120.0134   ✓       
+306   ALRTDYNASVSVPDSSGPQ+0.984R0.6080      Prosit      -11.8454    2120.0134   ✓       
+307   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -2.7686     2106.0341   ✗       
+308   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -3.5893     2106.0341   ✗       
+309   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -3.7524     2106.0341   ✗       
+310   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -4.1485     2106.0341   ✗       
+311   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -4.5732     2106.0341   ✗       
+312   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -4.7461     2105.9978   ✗       
+313   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -4.7842     2106.0341   ✗       
+314   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -5.0665     2106.0341   ✗       
+315   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -5.1323     2106.0341   ✗       
+316   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -5.5669     2105.9978   ✗       
+317   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -5.6049     2106.0341   ✗       
+318   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -5.7680     2106.0341   ✗       
+319   ALRSTYNASVSVPDSSGPER     -1.0000     NotChecked  -5.8060     2092.0185   ✗       
+320   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -5.8873     2106.0341   ✗       
+321   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -5.9542     2106.0341   ✗       
+322   ALRDYNASVSVPDSSGPER      -1.0000     NotChecked  -6.0219     2018.9657   ✗       
+323   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -6.0504     2106.0341   ✗       
+324   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -6.1260     2105.9978   ✗       
+325   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -6.1641     2106.0341   ✗       
+326   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -6.4465     2106.0341   ✗       
+327   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -6.5888     2106.0341   ✗       
+328   ALRSTYNASVSVPDSSGPER     -1.0000     NotChecked  -6.6268     2092.0185   ✗       
+329   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -6.7617     2105.9978   ✗       
+330   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -6.7750     2106.0341   ✗       
+331   ALRTSYNASVSVPDSSGPER     -1.0000     NotChecked  -6.7867     2092.0185   ✗       
+332   ALRDYNASVSVPDSSGPER      -1.0000     NotChecked  -6.8427     2018.9657   ✗       
+333   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -6.8712     2106.0341   ✗       
+334   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -6.9381     2106.0341   ✗       
+335   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -7.0441     2105.9978   ✗       
+336   ALRTYNASVSVPDSSGPER      -1.0000     NotChecked  -7.0818     2004.9865   ✗       
+337   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -7.0821     2106.0341   ✗       
+338   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -7.1479     2106.0341   ✗       
+339   ALRSTYNASVSVPDSSGPER     -1.0000     NotChecked  -7.1859     2092.0185   ✗       
+340   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -7.2036     2106.0341   ✗       
+341   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -7.2522     2106.0341   ✗       
+342   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -7.3342     2106.0341   ✗       
+343   ALRDYNASVSVPDSSGPER      -1.0000     NotChecked  -7.4018     2018.9657   ✗       
+344   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -7.4303     2106.0341   ✗       
+345   ALRTDYGASVSVPDSSGPER     -1.0000     NotChecked  -7.5342     2062.9920   ✗       
+346   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -7.5825     2105.9978   ✗       
+347   ALRTSYNASVSVPDSSGPER     -1.0000     NotChecked  -7.6075     2092.0185   ✗       
+348   ALRTTYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -7.6929     2107.0182   ✗       
+349   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -7.7589     2106.0341   ✗       
+350   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -7.7705     2106.0341   ✗       
+351   ALRTSYNASVSVPDSSGPER     -1.0000     NotChecked  -7.7706     2092.0185   ✗       
+352   ALRSTYNASVSVPDSSGPER     -1.0000     NotChecked  -7.8216     2092.0185   ✗       
+353   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -7.8649     2105.9978   ✗       
+354   ALRTYNASVSVPDSSGPER      -1.0000     NotChecked  -7.9026     2004.9865   ✗       
+355   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -7.9029     2106.0341   ✗       
+356   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -7.9318     2105.9978   ✗       
+357   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -7.9698     2106.0341   ✗       
+358   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -8.0244     2106.0341   ✗       
+359   ARTDYNASVSVPDSSGPER      -1.0000     NotChecked  -8.0369     2006.9294   ✗       
+360   ALRDYNASVSVPDSSGPER      -1.0000     NotChecked  -8.0375     2018.9657   ✗       
+361   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -8.0657     2106.0341   ✗       
+362   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -8.0660     2106.0341   ✗       
+363   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -8.0730     2106.0341   ✗       
+364   ALRSTYNASVSVPDSSGPER     -1.0000     NotChecked  -8.1040     2092.0185   ✗       
+365   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -8.1416     2105.9978   ✗       
+366   ALRTSYNASVSVPDSSGPER     -1.0000     NotChecked  -8.1667     2092.0185   ✗       
+367   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -8.1875     2106.0341   ✗       
+368   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -8.2360     2106.0341   ✗       
+369   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -8.2522     2106.0341   ✗       
+370   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -8.3180     2106.0341   ✗       
+371   ALRDYNASVSVPDSSGPER      -1.0000     NotChecked  -8.3199     2018.9657   ✗       
+372   ALRTDYGASVSVPDSSGPER     -1.0000     NotChecked  -8.3550     2062.9920   ✗       
+373   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -8.4240     2105.9978   ✗       
+374   ALRTYNASVSVPDSSGPER      -1.0000     NotChecked  -8.4617     2004.9865   ✗       
+375   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -8.4621     2106.0341   ✗       
+376   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -8.4919     2048.9763   ✗       
+377   ALRTTYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -8.5137     2107.0182   ✗       
+378   ALRTDYGASVSVPDSSGPER     -1.0000     NotChecked  -8.5181     2062.9920   ✗       
+379   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -8.5835     2106.0341   ✗       
+380   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -8.5913     2106.0341   ✗       
+381   ALRTSYNASVSVPDSSGPER     -1.0000     NotChecked  -8.5914     2092.0185   ✗       
+382   ALRTTYGASVSVPDSSGPER     -1.0000     NotChecked  -8.5941     2049.0127   ✗       
+383   AARTDYNASVSVPDSSGPER     -1.0000     NotChecked  -8.5961     2077.9665   ✗       
+384   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -8.6321     2106.0341   ✗       
+385   ALRSTYNASVSVPDSSGPER     -1.0000     NotChecked  -8.6424     2092.0185   ✗       
+386   ALRTTYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -8.6768     2107.0182   ✗       
+387   ALRDSYNASVSVPDSSGPER     -1.0000     NotChecked  -8.6983     2105.9978   ✗       
+388   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -8.7089     2106.0341   ✗       
+389   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -8.7525     2105.9978   ✗       
+390   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -8.7544     2106.0341   ✗       
+391   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -8.7906     2106.0341   ✗       
+392   ALRTSYNASVSVPDSSGPER     -1.0000     NotChecked  -8.8023     2092.0185   ✗       
+393   ALRDYNASVSVPDSSGPER      -1.0000     NotChecked  -8.8583     2018.9657   ✗       
+394   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -8.8864     2106.0341   ✗       
+395   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -8.8868     2106.0341   ✗       
+396   ALRTDYGASVSVPDSSGPER     -1.0000     NotChecked  -8.9142     2062.9920   ✗       
+397   ALRSTYNASVSVPDSSGPER     -1.0000     NotChecked  -8.9248     2092.0185   ✗       
+398   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -8.9537     2106.0341   ✗       
+399   ALRSTYNASVSVPDSSGPER     -1.0000     NotChecked  -8.9917     2092.0185   ✗       
+400   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -9.0082     2106.0341   ✗       
+401   ARTDYNASVSVPDSSGPER      -1.0000     NotChecked  -9.0208     2006.9294   ✗       
+402   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -9.0568     2106.0341   ✗       
+403   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -9.0597     2105.9978   ✗       
+404   ALRTTYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -9.0729     2107.0182   ✗       
+405   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -9.0730     2106.0341   ✗       
+406   ALRTSYNASVSVPDSSGPER     -1.0000     NotChecked  -9.0847     2092.0185   ✗       
+407   ARTTYNASVSVPDSSGPER      -1.0000     NotChecked  -9.0968     1992.9501   ✗       
+408   ALRTYNASVSVPDSSGPER      -1.0000     NotChecked  -9.0974     2004.9865   ✗       
+409   ALRDYNASVSVPDSSGPER      -1.0000     NotChecked  -9.1407     2018.9657   ✗       
+410   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -9.1505     2106.0341   ✗       
+411   ALRTSYNASVSVPDSSGPER     -1.0000     NotChecked  -9.1505     2092.0185   ✗       
+412   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -9.1811     2105.9978   ✗       
+413   ALRSTYNASVSVPDSSGPER     -1.0000     NotChecked  -9.2015     2092.0185   ✗       
+414   ALRDYNASVSVPDSSGPER      -1.0000     NotChecked  -9.2076     2018.9657   ✗       
+415   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -9.2192     2106.0341   ✗       
+416   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -9.2297     2105.9978   ✗       
+417   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -9.2361     2106.0341   ✗       
+418   ALREYNASVSVPDSSGPER      -1.0000     NotChecked  -9.2472     2032.9814   ✗       
+419   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -9.2678     2106.0341   ✗       
+420   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -9.3117     2105.9978   ✗       
+421   ALRTDYGASVSVPDSSGPER     -1.0000     NotChecked  -9.3389     2062.9920   ✗       
+422   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -9.3498     2106.0341   ✗       
+423   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -9.3587     2105.9978   ✗       
+424   ALRTYNASVSVPDSSGPER      -1.0000     NotChecked  -9.3798     2004.9865   ✗       
+425   ALRTTYGASVSVPDSSGPER     -1.0000     NotChecked  -9.4149     2049.0127   ✗       
+426   ALRDYNASVSVPDSSGPER      -1.0000     NotChecked  -9.4175     2018.9657   ✗       
+427   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -9.4456     2106.0341   ✗       
+428   ALRDDYGASVSVPDSSGPER     -1.0000     NotChecked  -9.4458     2076.9712   ✗       
+429   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -9.4459     2106.0341   ✗       
+430   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -9.4758     2048.9763   ✗       
+431   ALRSTYNASVSVPDSSGPER     -1.0000     NotChecked  -9.4839     2092.0185   ✗       
+432   ALRTTYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -9.4976     2107.0182   ✗       
+433   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -9.5016     2106.0341   ✗       
+434   ALRDSYNASVSVPDSSGPER     -1.0000     NotChecked  -9.5190     2105.9978   ✗       
+435   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -9.5297     2106.0341   ✗       
+436   ALRTDYGASVSVPDSSGPER     -1.0000     NotChecked  -9.5498     2062.9920   ✗       
+437   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -9.5502     2106.0341   ✗       
+438   LRTTYNASVSVPDSSGPER      -1.0000     NotChecked  -9.5518     2034.9970   ✗       
+439   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -9.5674     2106.0341   ✗       
+440   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -9.5752     2106.0341   ✗       
+441   ALRTTYGASVSVPDSSGPER     -1.0000     NotChecked  -9.5780     2049.0127   ✗       
+442   AARTDYNASVSVPDSSGPER     -1.0000     NotChecked  -9.5799     2077.9665   ✗       
+443   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -9.6160     2106.0341   ✗       
+444   ALRTSYNASVSVPDSSGPER     -1.0000     NotChecked  -9.6231     2092.0185   ✗       
+445   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -9.6321     2106.0341   ✗       
+446   AARTTYNASVSVPDSSGPER     -1.0000     NotChecked  -9.6560     2063.9872   ✗       
+447   ALRSDYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -9.6705     2106.9818   ✗       
+448   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -9.6928     2106.0341   ✗       
+449   ALRDYNASVSVPDSSGPER      -1.0000     NotChecked  -9.6998     2018.9657   ✗       
+450   ALRTTYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -9.7086     2107.0182   ✗       
+451   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -9.7481     2105.9978   ✗       
+452   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -9.7745     2106.0341   ✗       
+453   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -9.7861     2106.0341   ✗       
+454   ALRTSYNASVSVPDSSGPER     -1.0000     NotChecked  -9.7862     2092.0185   ✗       
+455   ALRSTYNASVSVPDSSGPER     -1.0000     NotChecked  -9.8124     2092.0185   ✗       
+456   ALRSSYNASVSVPDSSGPER     -1.0000     NotChecked  -9.8242     2078.0029   ✗       
+457   ALRTDYGASVSVPDSSGPER     -1.0000     NotChecked  -9.8322     2062.9920   ✗       
+458   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -9.8805     2105.9978   ✗       
+459   ALRTDYGASVSVPDSSGPER     -1.0000     NotChecked  -9.8980     2062.9920   ✗       
+460   ALRTSYNASVSVPDSSGPER     -1.0000     NotChecked  -9.9055     2092.0185   ✗       
+461   ALRTYNASVSVPDSSGPER      -1.0000     NotChecked  -9.9182     2004.9865   ✗       
+462   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -9.9474     2105.9978   ✗       
+463   ARDDYNASVSVPDSSGPER      -1.0000     NotChecked  -9.9485     2020.9086   ✗       
+464   ALRTSYNASVSVPDSSGPER     -1.0000     NotChecked  -9.9724     2092.0185   ✗       
+465   ALRTTYGASVSVPDSSGPER     -1.0000     NotChecked  -9.9741     2049.0127   ✗       
+466   ALRTTYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -9.9909     2107.0182   ✗       
+467   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -10.0019    2105.9978   ✗       
+468   ALRDYNASVSVPDSSGPER      -1.0000     NotChecked  -10.0284    2018.9657   ✗       
+469   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.0400    2106.0341   ✗       
+470   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -10.0505    2105.9978   ✗       
+471   ARTDYNASVSVPDSSGPER      -1.0000     NotChecked  -10.0525    2006.9294   ✗       
+472   ALRTTYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -10.0567    2107.0182   ✗       
+473   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.0568    2106.0341   ✗       
+474   ALREYNASVSVPDSSGPER      -1.0000     NotChecked  -10.0680    2032.9814   ✗       
+475   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.0685    2106.0341   ✗       
+476   ALRTSYNASVSVPDSSGPER     -1.0000     NotChecked  -10.0686    2092.0185   ✗       
+477   ALRDSYNASVSVPDSSGPER     -1.0000     NotChecked  -10.0782    2105.9978   ✗       
+478   ARTTYNASVSVPDSSGPER      -1.0000     NotChecked  -10.0807    1992.9501   ✗       
+479   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.0813    2106.0341   ✗       
+480   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.0886    2106.0341   ✗       
+481   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.0888    2106.0341   ✗       
+482   ALRSTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.1196    2092.0185   ✗       
+483   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.1343    2106.0341   ✗       
+484   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -10.1795    2105.9978   ✗       
+485   ALRTSYNASVSVPDSSGPER     -1.0000     NotChecked  -10.1823    2092.0185   ✗       
+486   ALRTYNASVSVPDSSGPER      -1.0000     NotChecked  -10.2006    2004.9865   ✗       
+487   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.2031    2106.0341   ✗       
+488   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.2207    2106.0341   ✗       
+489   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -10.2298    2105.9978   ✗       
+490   ALRSTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.2410    2092.0185   ✗       
+491   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.2516    2106.0341   ✗       
+492   ALRDDYGASVSVPDSSGPER     -1.0000     NotChecked  -10.2665    2076.9712   ✗       
+493   ALRTYNASVSVPDSSGPER      -1.0000     NotChecked  -10.2675    2004.9865   ✗       
+494   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.2678    2106.0341   ✗       
+495   ALRSTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.2896    2092.0185   ✗       
+496   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.3224    2106.0341   ✗       
+497   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.3336    2106.0341   ✗       
+498   ARTDYNASVSVPDSSGPER      -1.0000     NotChecked  -10.3349    2006.9294   ✗       
+499   ALRDYNASVSVPDSSGPER      -1.0000     NotChecked  -10.3355    2018.9657   ✗       
+500   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.3637    2106.0341   ✗       
+501   ALRTDYGASVSVPDSSGPER     -1.0000     NotChecked  -10.3706    2062.9920   ✗       
+502   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.3710    2106.0341   ✗       
+503   ALRSTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.3716    2092.0185   ✗       
+504   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.3893    2106.0341   ✗       
+505   ALRTTYGASVSVPDSSGPER     -1.0000     NotChecked  -10.3988    2049.0127   ✗       
+506   LRDDYNASVSVPDSSGPER      -1.0000     NotChecked  -10.4035    2062.9556   ✗       
+507   ALRSTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.4186    2092.0185   ✗       
+508   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.4379    2106.0341   ✗       
+509   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -10.4396    2105.9978   ✗       
+510   ALRDYNASVSVPDSSGPER      -1.0000     NotChecked  -10.4570    2018.9657   ✗       
+511   ALRTSYNASVSVPDSSGPER     -1.0000     NotChecked  -10.4646    2092.0185   ✗       
+512   ALRTYNASVSVPDSSGPER      -1.0000     NotChecked  -10.4774    2004.9865   ✗       
+513   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.4854    2106.0341   ✗       
+514   ALRSDYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -10.4913    2106.9818   ✗       
+515   ALRDYNASVSVPDSSGPER      -1.0000     NotChecked  -10.5056    2018.9657   ✗       
+516   ALRDTYGASVSVPDSSGPER     -1.0000     NotChecked  -10.5057    2062.9920   ✗       
+517   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -10.5075    2048.9763   ✗       
+518   AARDDYNASVSVPDSSGPER     -1.0000     NotChecked  -10.5076    2091.9457   ✗       
+519   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.5135    2106.0341   ✗       
+520   ALRTTYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -10.5293    2107.0182   ✗       
+521   ALRTDYGASVSVPDSSGPER     -1.0000     NotChecked  -10.5337    2062.9920   ✗       
+522   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.5340    2106.0341   ✗       
+523   LRTTYNASVSVPDSSGPER      -1.0000     NotChecked  -10.5357    2034.9970   ✗       
+524   ALRTTYNASVSVPDSSGPQ+0.984R-1.0000     NotChecked  -10.5415    2106.0341   ✗       
+525   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -10.5611    2105.9978   ✗       
+526   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -10.5689    2105.9978   ✗       
+527   ALRSDYGASVSVPDSSGPER     -1.0000     NotChecked  -10.5717    2048.9763   ✗       
+528   ALRDYNASVSVPDSSGPER      -1.0000     NotChecked  -10.5875    2018.9657   ✗       
+529   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.5991    2106.0341   ✗       
+530   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.6069    2106.0341   ✗       
+531   ALRTSYNASVSVPDSSGPER     -1.0000     NotChecked  -10.6070    2092.0185   ✗       
+532   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -10.6097    2105.9978   ✗       
+533   ALRTTYGASVSVPDSSGPER     -1.0000     NotChecked  -10.6097    2049.0127   ✗       
+534   AARTDYNASVSVPDSSGPER     -1.0000     NotChecked  -10.6117    2077.9665   ✗       
+535   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.6160    2106.0341   ✗       
+536   ALREYNASVSVPDSSGPER      -1.0000     NotChecked  -10.6272    2032.9814   ✗       
+537   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -10.6346    2105.9978   ✗       
+538   AARTTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.6398    2063.9872   ✗       
+539   ALRSSYNASVSVPDSSGPER     -1.0000     NotChecked  -10.6449    2078.0029   ✗       
+540   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.6477    2106.0341   ✗       
+541   ALRTDYGASVSVPDSSGPER     -1.0000     NotChecked  -10.6530    2062.9920   ✗       
+542   ALRGDYNASVSVPDSSGPER     -1.0000     NotChecked  -10.6549    2075.9872   ✗       
+543   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -10.6865    2105.9978   ✗       
+544   ALRTTYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -10.6924    2107.0182   ✗       
+545   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.6931    2106.0341   ✗       
+546   ALRDSYNASVSVPDSSGPER     -1.0000     NotChecked  -10.7139    2105.9978   ✗       
+547   ALRTDYGASVSVPDSSGPER     -1.0000     NotChecked  -10.7199    2062.9920   ✗       
+548   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.7245    2106.0341   ✗       
+549   ALRSTYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -10.7304    2093.0025   ✗       
+550   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -10.7387    2105.9978   ✗       
+551   ALRTEYGASVSVPDSSGPER     -1.0000     NotChecked  -10.7596    2077.0076   ✗       
+552   ALRTYNASVSVPDSSGPER      -1.0000     NotChecked  -10.7597    2004.9865   ✗       
+553   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -10.7682    2105.9978   ✗       
+554   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.7700    2106.0341   ✗       
+555   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -10.7899    2048.9763   ✗       
+556   ALRTSYNASVSVPDSSGPER     -1.0000     NotChecked  -10.7932    2092.0185   ✗       
+557   ALRSN+0.984YNASVSVPDSSGPER-1.0000     NotChecked  -10.7952    2105.9978   ✗       
+558   ALRSTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.8080    2092.0185   ✗       
+559   ALRTTYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -10.8117    2107.0182   ✗       
+560   ALRTDYGASVSVPDSSGPER     -1.0000     NotChecked  -10.8161    2062.9920   ✗       
+561   ALRDDYGASVSVPDSSGPER     -1.0000     NotChecked  -10.8257    2076.9712   ✗       
+562   ALRTTYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -10.8786    2107.0182   ✗       
+563   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.8815    2106.0341   ✗       
+564   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.8893    2106.0341   ✗       
+565   ALRTSYNASVSVPDSSGPER     -1.0000     NotChecked  -10.8893    2092.0185   ✗       
+566   ALRTTYGASVSVPDSSGPER     -1.0000     NotChecked  -10.8921    2049.0127   ✗       
+567   AARTDYNASVSVPDSSGPER     -1.0000     NotChecked  -10.8941    2077.9665   ✗       
+568   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.9021    2106.0341   ✗       
+569   ALRTDYGASVSVPDSSGPER     -1.0000     NotChecked  -10.9298    2062.9920   ✗       
+570   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.9301    2106.0341   ✗       
+571   ALRSTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.9404    2092.0185   ✗       
+572   ALRDYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -10.9463    2019.9498   ✗       
+573   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -10.9562    2106.0341   ✗       
+574   ALRTSYNASVSVPDSSGPER     -1.0000     NotChecked  -10.9563    2092.0185   ✗       
+575   ALRTTYGASVSVPDSSGPER     -1.0000     NotChecked  -10.9579    2049.0127   ✗       
+576   ALRTTYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -10.9748    2107.0182   ✗       
+577   ALRTNYNASVSVPDSSGPER     -1.0000     NotChecked  -10.9929    2119.0294   ✗       
+578   ALRDSYNASVSVPDSSGPER     -1.0000     NotChecked  -10.9963    2105.9978   ✗       
+579   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.0069    2106.0341   ✗       
+580   ALRSTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.0073    2092.0185   ✗       
+581   ARDTYNASVSVPDSSGPER      -1.0000     NotChecked  -11.0084    2006.9294   ✗       
+582   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.0238    2106.0341   ✗       
+583   ALRDYNASVSVPDSSGPER      -1.0000     NotChecked  -11.0239    2018.9657   ✗       
+584   ARTDYNASVSVPDSSGPER      -1.0000     NotChecked  -11.0364    2006.9294   ✗       
+585   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.0415    2106.0341   ✗       
+586   ALRSDYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -11.0504    2106.9818   ✗       
+587   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -11.0505    2105.9978   ✗       
+588   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.0524    2106.0341   ✗       
+589   ALRTTYNASVSVPN+0.984SSGPER-1.0000     NotChecked  -11.0576    2106.0341   ✗       
+590   ALRSTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.0618    2092.0185   ✗       
+591   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.0724    2106.0341   ✗       
+592   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.0727    2106.0341   ✗       
+593   ARSDYNASVSVPDSSGPER      -1.0000     NotChecked  -11.0744    1992.9137   ✗       
+594   ALRTYNASVSVPDSSGPER      -1.0000     NotChecked  -11.0883    2004.9865   ✗       
+595   ALRTTYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -11.0885    2107.0182   ✗       
+596   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.0886    2106.0341   ✗       
+597   ALRSYNASVSVPDSSGPER      -1.0000     NotChecked  -11.1000    1990.9708   ✗       
+598   ALRTSYNASVSVPDSSGPER     -1.0000     NotChecked  -11.1003    2092.0185   ✗       
+599   ALRDYGNASVSVPDSSGPER     -1.0000     NotChecked  -11.1062    2075.9872   ✗       
+600   ALRSTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.1104    2092.0185   ✗       
+601   ARTTYNASVSVPDSSGPER      -1.0000     NotChecked  -11.1124    1992.9501   ✗       
+602   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -11.1280    2105.9978   ✗       
+603   ALRDYNASVSVPDSSGPER      -1.0000     NotChecked  -11.1563    2018.9657   ✗       
+604   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.1661    2106.0341   ✗       
+605   ALRTSYNASVSVPDSSGPER     -1.0000     NotChecked  -11.1661    2092.0185   ✗       
+606   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.1844    2106.0341   ✗       
+607   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -11.1968    2105.9978   ✗       
+608   ALRSSYNASVSVPDSSGPER     -1.0000     NotChecked  -11.2041    2078.0029   ✗       
+609   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.2046    2106.0341   ✗       
+610   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.2101    2106.0341   ✗       
+611   ALRTDYGASVSVPDSSGPER     -1.0000     NotChecked  -11.2122    2062.9920   ✗       
+612   ALRTSYNASVSVPDSSGPER     -1.0000     NotChecked  -11.2218    2092.0185   ✗       
+613   ARTDYNASVSVPDSSGPER      -1.0000     NotChecked  -11.2226    2006.9294   ✗       
+614   ALRDYNASVSVPDSSGPER      -1.0000     NotChecked  -11.2232    2018.9657   ✗       
+615   ALRSTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.2394    2092.0185   ✗       
+616   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -11.2453    2105.9978   ✗       
+617   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.2514    2106.0341   ✗       
+618   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.2517    2106.0341   ✗       
+619   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.2586    2106.0341   ✗       
+620   ARTEYNASVSVPDSSGPER      -1.0000     NotChecked  -11.2623    2020.9450   ✗       
+621   ALREYNASVSVPDSSGPER      -1.0000     NotChecked  -11.2629    2032.9814   ✗       
+622   ALRTSYNASVSVPDSSGPER     -1.0000     NotChecked  -11.2704    2092.0185   ✗       
+623   ALRDYNASVSVPDSSGPER      -1.0000     NotChecked  -11.2778    2018.9657   ✗       
+624   ALRSTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.2897    2092.0185   ✗       
+625   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.3062    2106.0341   ✗       
+626   ARTDYNASVSVPDSSGPER      -1.0000     NotChecked  -11.3188    2006.9294   ✗       
+627   ALRDYNASVSVPDSSGPER      -1.0000     NotChecked  -11.3263    2018.9657   ✗       
+628   ALRDTYGASVSVPDSSGPER     -1.0000     NotChecked  -11.3264    2062.9920   ✗       
+629   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -11.3273    2105.9978   ✗       
+630   ALRTSYNASVSVPDSSGPER     -1.0000     NotChecked  -11.3523    2092.0185   ✗       
+631   ALRTDYGASVSVPDSSGPER     -1.0000     NotChecked  -11.3545    2062.9920   ✗       
+632   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.3548    2106.0341   ✗       
+633   ALRTTYNASVSVPDSSGPQ+0.984R-1.0000     NotChecked  -11.3623    2106.0341   ✗       
+634   ALRTTYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -11.3709    2107.0182   ✗       
+635   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.3731    2106.0341   ✗       
+636   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -11.3743    2105.9978   ✗       
+637   ALRSDYGASVSVPDSSGPER     -1.0000     NotChecked  -11.3925    2048.9763   ✗       
+638   ARTTYNASVSVPDSSGPER      -1.0000     NotChecked  -11.3948    1992.9501   ✗       
+639   ALRTYNASVSVPDSSGPER      -1.0000     NotChecked  -11.3954    2004.9865   ✗       
+640   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.4217    2106.0341   ✗       
+641   ALRTTYGASVSVPDSSGPER     -1.0000     NotChecked  -11.4305    2049.0127   ✗       
+642   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.4485    2106.0341   ✗       
+643   ALRTSYNASVSVPDSSGPER     -1.0000     NotChecked  -11.4485    2092.0185   ✗       
+644   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -11.4553    2105.9978   ✗       
+645   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.4612    2106.0341   ✗       
+646   ALRDDYGASVSVPDSSGPER     -1.0000     NotChecked  -11.4614    2076.9712   ✗       
+647   LRDTYNASVSVPDSSGPER      -1.0000     NotChecked  -11.4634    2048.9763   ✗       
+648   ALRGDYNASVSVPDSSGPER     -1.0000     NotChecked  -11.4757    2075.9872   ✗       
+649   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -11.4791    2105.9978   ✗       
+650   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -11.4914    2048.9763   ✗       
+651   ALRSTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.4995    2092.0185   ✗       
+652   ALRDYNASVSVPDSSGPER      -1.0000     NotChecked  -11.5056    2018.9657   ✗       
+653   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -11.5072    2105.9978   ✗       
+654   ALRTTYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -11.5132    2107.0182   ✗       
+655   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.5138    2106.0341   ✗       
+656   ALRTYNASVSVPDSSGPER      -1.0000     NotChecked  -11.5169    2004.9865   ✗       
+657   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.5172    2106.0341   ✗       
+658   ALRTTYNASVSVPDSSGPQ+0.984R-1.0000     NotChecked  -11.5253    2106.0341   ✗       
+659   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -11.5277    2105.9978   ✗       
+660   LRSDYNASVSVPDSSGPER      -1.0000     NotChecked  -11.5294    2034.9607   ✗       
+661   ALARDYNASVSVPDSSGPER     -1.0000     NotChecked  -11.5294    2090.0029   ✗       
+662   ALRDSYNASVSVPDSSGPER     -1.0000     NotChecked  -11.5346    2105.9978   ✗       
+663   ALRTDYGASVSVPDSSGPER     -1.0000     NotChecked  -11.5407    2062.9920   ✗       
+664   ALREYNASVSVPDSSGPER      -1.0000     NotChecked  -11.5452    2032.9814   ✗       
+665   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.5453    2106.0341   ✗       
+666   ALRSTYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -11.5512    2093.0025   ✗       
+667   ALRTYNASVSVPDSSGPER      -1.0000     NotChecked  -11.5655    2004.9865   ✗       
+668   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.5658    2106.0341   ✗       
+669   LRTTYNASVSVPDSSGPER      -1.0000     NotChecked  -11.5674    2034.9970   ✗       
+670   AARDTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.5675    2077.9665   ✗       
+671   ALRTEYGASVSVPDSSGPER     -1.0000     NotChecked  -11.5803    2077.0076   ✗       
+672   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.5830    2106.0341   ✗       
+673   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.5908    2106.0341   ✗       
+674   ALRTTYGASVSVPDSSGPER     -1.0000     NotChecked  -11.5936    2049.0127   ✗       
+675   AARTDYNASVSVPDSSGPER     -1.0000     NotChecked  -11.5955    2077.9665   ✗       
+676   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.6006    2106.0341   ✗       
+677   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -11.6097    2105.9978   ✗       
+678   ALRSN+0.984YNASVSVPDSSGPER-1.0000     NotChecked  -11.6160    2105.9978   ✗       
+679   ALRSTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.6210    2092.0185   ✗       
+680   ALRSTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.6288    2092.0185   ✗       
+681   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.6316    2106.0341   ✗       
+682   ALRSTYGASVSVPDSSGPER     -1.0000     NotChecked  -11.6316    2034.9970   ✗       
+683   AARSDYNASVSVPDSSGPER     -1.0000     NotChecked  -11.6335    2063.9508   ✗       
+684   ALRTDYGASVSVPDSSGPER     -1.0000     NotChecked  -11.6369    2062.9920   ✗       
+685   ALRTYNASVSVPDSSGPER      -1.0000     NotChecked  -11.6474    2004.9865   ✗       
+686   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.6478    2106.0341   ✗       
+687   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -11.6567    2105.9978   ✗       
+688   ALRSTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.6696    2092.0185   ✗       
+689   AARTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.6716    2063.9872   ✗       
+690   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.6769    2106.0341   ✗       
+691   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -11.6776    2048.9763   ✗       
+692   ALRSDYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -11.6861    2106.9818   ✗       
+693   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.6872    2106.0341   ✗       
+694   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.6914    2106.0341   ✗       
+695   ALRSTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.6945    2092.0185   ✗       
+696   ALRTTYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -11.6994    2107.0182   ✗       
+697   ALRTDYGASVSVPDSSGPER     -1.0000     NotChecked  -11.7038    2062.9920   ✗       
+698   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.7084    2106.0341   ✗       
+699   ALRTSYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -11.7111    2093.0025   ✗       
+700   ALRTTYGASVSVPDSSGPER     -1.0000     NotChecked  -11.7129    2049.0127   ✗       
+701   ALRGTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.7148    2062.0079   ✗       
+702   ALRDYNASVSVPDSSGPER      -1.0000     NotChecked  -11.7154    2018.9657   ✗       
+703   ALRTGYNASVSVPDSSGPER     -1.0000     NotChecked  -11.7157    2062.0079   ✗       
+704   LRTEYNASVSVPDSSGPER      -1.0000     NotChecked  -11.7172    2062.9920   ✗       
+705   ALRTEYGASVSVPDSSGPER     -1.0000     NotChecked  -11.7434    2077.0076   ✗       
+706   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.7436    2106.0341   ✗       
+707   ALRDDYGASVSVPDSSGPER     -1.0000     NotChecked  -11.7438    2076.9712   ✗       
+708   ALRSTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.7464    2092.0185   ✗       
+709   ALRSDYNASVSVPDSSGPER     -1.0000     NotChecked  -11.7637    2105.9978   ✗       
+710   ALRDYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -11.7671    2019.9498   ✗       
+711   ALRADYNASVSVPDSSGPER     -1.0000     NotChecked  -11.7685    2090.0029   ✗       
+712   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.7692    2106.0341   ✗       
+713   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.7722    2106.0341   ✗       
+714   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -11.7738    2048.9763   ✗       
+715   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.7770    2106.0341   ✗       
+716   ALRTSYNASVSVPDSSGPER     -1.0000     NotChecked  -11.7770    2092.0185   ✗       
+717   ALRTTYGASVSVPDSSGPER     -1.0000     NotChecked  -11.7798    2049.0127   ✗       
+718   AARTDYNASVSVPDSSGPER     -1.0000     NotChecked  -11.7818    2077.9665   ✗       
+719   ALRTSYNASVSVPDSSGPER     -1.0000     NotChecked  -11.7887    2092.0185   ✗       
+720   ALRTTYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -11.7956    2107.0182   ✗       
+721   ALRSTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.7986    2092.0185   ✗       
+722   ALRTNYNASVSVPDSSGPER     -1.0000     NotChecked  -11.8137    2119.0294   ✗       
+723   ALRDSYNASVSVPDSSGPER     -1.0000     NotChecked  -11.8170    2105.9978   ✗       
+724   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.8178    2106.0341   ✗       
+725   AARTEYNASVSVPDSSGPER     -1.0000     NotChecked  -11.8214    2091.9821   ✗       
+726   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.8277    2106.0341   ✗       
+727   ALRSTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.8281    2092.0185   ✗       
+728   ALRDYNASVSVPDSSGPER      -1.0000     NotChecked  -11.8369    2018.9657   ✗       
+729   ALRSSYNASVSVPDSSGPER     -1.0000     NotChecked  -11.8398    2078.0029   ✗       
+730   ALRDYNASVSVPDSSGPER      -1.0000     NotChecked  -11.8447    2018.9657   ✗       
+731   ALRDYGASVSVPDSSGPER      -1.0000     NotChecked  -11.8475    1961.9443   ✗       
+732   ALRTDYGASVSVPDSSGPER     -1.0000     NotChecked  -11.8478    2062.9920   ✗       
+733   LRTTYNASVSVPDSSGPER      -1.0000     NotChecked  -11.8498    2034.9970   ✗       
+734   ALRTTYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -11.8625    2107.0182   ✗       
+735   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.8654    2106.0341   ✗       
+736   ALRTAYNASVSVPDSSGPER     -1.0000     NotChecked  -11.8682    2076.0236   ✗       
+737   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.8732    2106.0341   ✗       
+738   ALRTTYGASVSVPDSSGPER     -1.0000     NotChecked  -11.8760    2049.0127   ✗       
+739   AARTDYNASVSVPDSSGPER     -1.0000     NotChecked  -11.8779    2077.9665   ✗       
+740   ALRTTYNASVSVPN+0.984SSGPER-1.0000     NotChecked  -11.8783    2106.0341   ✗       
+741   ALRDSYNASVSVPDSSGPER     -1.0000     NotChecked  -11.8839    2105.9978   ✗       
+742   ALRDYNASVSVPDSSGPER      -1.0000     NotChecked  -11.8855    2018.9657   ✗       
+743   ALRDTYGASVSVPDSSGPER     -1.0000     NotChecked  -11.8856    2062.9920   ✗       
+744   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.8946    2106.0341   ✗       
+745   ALRTDYGASVSVPDSSGPER     -1.0000     NotChecked  -11.9136    2062.9920   ✗       
+746   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.9140    2106.0341   ✗       
+747   ALRSYNASVSVPDSSGPER      -1.0000     NotChecked  -11.9208    1990.9708   ✗       
+748   ALRTSYNASVSVPDSSGPER     -1.0000     NotChecked  -11.9211    2092.0185   ✗       
+749   ALRTTYNASVSVPDSSGPQ+0.984R-1.0000     NotChecked  -11.9214    2106.0341   ✗       
+750   ALRDYGNASVSVPDSSGPER     -1.0000     NotChecked  -11.9269    2075.9872   ✗       
+751   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.9401    2106.0341   ✗       
+752   ALRSDYGASVSVPDSSGPER     -1.0000     NotChecked  -11.9516    2048.9763   ✗       
+753   AARTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.9540    2063.9872   ✗       
+754   ALRDYNASVSVPDSSGPER      -1.0000     NotChecked  -11.9623    2018.9657   ✗       
+755   ARDDYNASVSVPDSSGPER      -1.0000     NotChecked  -11.9641    2020.9086   ✗       
+756   ALRSDYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -11.9685    2106.9818   ✗       
+757   ALRTDYGASVSVPDSSGPER     -1.0000     NotChecked  -11.9693    2062.9920   ✗       
+758   ALRTNYNASVSVPDSSGPER     -1.0000     NotChecked  -11.9767    2119.0294   ✗       
+759   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.9862    2106.0341   ✗       
+760   ALRTSYNASVSVPDSSGPER     -1.0000     NotChecked  -11.9880    2092.0185   ✗       
+761   ALRTTYGASVSVPDSSGPER     -1.0000     NotChecked  -11.9897    2049.0127   ✗       
+762   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.9908    2106.0341   ✗       
+763   ARDTTYNASVSVPDSSGPER     -1.0000     NotChecked  -11.9922    2107.9770   ✗       
+764   +43.006LRTDYNASVSVPDSSGPER-1.0000     NotChecked  -12.0330    2091.9821   ✗       
+765   +42.011LRTDYNASVSVPDSSGPER-1.0000     NotChecked  -12.1116    2090.9869   ✗       
+766   LRDDYNASVSVPDSSGPER      -1.0000     NotChecked  -12.4191    2062.9556   ✗       
+767   LRTTYNASVSVPDSSGPER      -1.0000     NotChecked  -12.5513    2034.9970   ✗       
+768   LRSTYNASVSVPDSSGPER      -1.0000     NotChecked  -12.5893    2020.9814   ✗       
+769   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -12.6615    2048.9763   ✗       
+770   LRTEYNASVSVPDSSGPER      -1.0000     NotChecked  -12.7011    2062.9920   ✗       
+771   LRDDYNASVSVPDSSGPER      -1.0000     NotChecked  -12.7014    2062.9556   ✗       
+772   LRTTYNASVSVPDSSGPER      -1.0000     NotChecked  -12.7375    2034.9970   ✗       
+773   LRDYNASVSVPDSSGPER       -1.0000     NotChecked  -12.8052    1947.9286   ✗       
+774   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -12.8055    2048.9763   ✗       
+775   LRTTYNASVSVPDSSGPER      -1.0000     NotChecked  -12.8337    2034.9970   ✗       
+776   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -12.9270    2048.9763   ✗       
+777   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -12.9756    2048.9763   ✗       
+778   +43.006LRTDYNASVSVPDSSGPER-1.0000     NotChecked  -13.0168    2091.9821   ✗       
+779   +43.006LRTTYNASVSVPDSSGPER-1.0000     NotChecked  -13.0929    2078.0028   ✗       
+780   +42.011LRTDYNASVSVPDSSGPER-1.0000     NotChecked  -13.0954    2090.9869   ✗       
+781   +42.011LRTTYNASVSVPDSSGPER-1.0000     NotChecked  -13.1715    2077.0076   ✗       
+782   +43.006LRTDYNASVSVPDSSGPER-1.0000     NotChecked  -13.4129    2091.9821   ✗       
+783   LRTDYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -13.4163    2049.9603   ✗       
+784   LREDYNASVSVPDSSGPER      -1.0000     NotChecked  -13.4326    2076.9712   ✗       
+785   LRDTYNASVSVPDSSGPER      -1.0000     NotChecked  -13.4790    2048.9763   ✗       
+786   +42.011LRTDYNASVSVPDSSGPER-1.0000     NotChecked  -13.4915    2090.9869   ✗       
+787   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -13.4939    2048.9763   ✗       
+788   LRSDYNASVSVPDSSGPER      -1.0000     NotChecked  -13.5450    2034.9607   ✗       
+789   LRTSYNASVSVPDSSGPER      -1.0000     NotChecked  -13.5700    2020.9814   ✗       
+790   LRTDYGNASVSVPDSSGPER     -1.0000     NotChecked  -13.5762    2105.9978   ✗       
+791   LRDDYNASVSVPDSSGPER      -1.0000     NotChecked  -13.5891    2062.9556   ✗       
+792   LRDEYNASVSVPDSSGPER      -1.0000     NotChecked  -13.6288    2076.9712   ✗       
+793   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -13.6678    2048.9763   ✗       
+794   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -13.6932    2048.9763   ✗       
+795   LRTTYNASVSVPDSSGPER      -1.0000     NotChecked  -13.7214    2034.9970   ✗       
+796   LRTEYNASVSVPDSSGPER      -1.0000     NotChecked  -13.7329    2062.9920   ✗       
+797   LRDTYNASVSVPDSSGPER      -1.0000     NotChecked  -13.7613    2048.9763   ✗       
+798   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -13.7890    2048.9763   ✗       
+799   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -13.7894    2048.9763   ✗       
+800   GLRTDYNASVSVPDSSGPER     -1.0000     NotChecked  -13.8089    2105.9978   ✗       
+801   LRSDYNASVSVPDSSGPER      -1.0000     NotChecked  -13.8274    2034.9607   ✗       
+802   LRTYNASVSVPDSSGPER       -1.0000     NotChecked  -13.8651    1933.9494   ✗       
+803   LRTTYNASVSVPDSSGPER      -1.0000     NotChecked  -13.8654    2034.9970   ✗       
+804   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -13.9108    2048.9763   ✗       
+805   +43.006LRDDYNASVSVPDSSGPER-1.0000     NotChecked  -13.9445    2105.9614   ✗       
+806   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -13.9594    2048.9763   ✗       
+807   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -13.9756    2048.9763   ✗       
+808   LRTTYNASVSVPDSSGPER      -1.0000     NotChecked  -13.9869    2034.9970   ✗       
+809   LRTEYNASVSVPDSSGPER      -1.0000     NotChecked  -14.0152    2062.9920   ✗       
+810   +42.011LRDDYNASVSVPDSSGPER-1.0000     NotChecked  -14.0231    2104.9661   ✗       
+811   LRTTYNASVSVPDSSGPER      -1.0000     NotChecked  -14.0355    2034.9970   ✗       
+812   +43.006LRTDYNASVSVPDSSGPER-1.0000     NotChecked  -14.0486    2091.9821   ✗       
+813   +43.006LRTTYNASVSVPDSSGPER-1.0000     NotChecked  -14.0767    2078.0028   ✗       
+814   +42.011LRTDYNASVSVPDSSGPER-1.0000     NotChecked  -14.1272    2090.9869   ✗       
+815   +42.011LRTTYNASVSVPDSSGPER-1.0000     NotChecked  -14.1553    2077.0076   ✗       
+816   LLRDYNASVSVPDSSGPER      -1.0000     NotChecked  -14.1851    2061.0127   ✗       
+817   LRTDYGASVSVPDSSGPER      -1.0000     NotChecked  -14.3175    1991.9548   ✗       
+818   +43.006LRTDYNASVSVPDSSGPER-1.0000     NotChecked  -14.3310    2091.9821   ✗       
+819   +43.006LRTDYNASVSVPDSSGPER-1.0000     NotChecked  -14.3967    2091.9821   ✗       
+820   LRTDYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -14.4002    2049.9603   ✗       
+821   +42.011LRTDYNASVSVPDSSGPER-1.0000     NotChecked  -14.4096    2090.9869   ✗       
+822   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -14.4323    2048.9763   ✗       
+823   +43.006LRTTYNASVSVPDSSGPER-1.0000     NotChecked  -14.4728    2078.0028   ✗       
+824   +42.011LRTDYNASVSVPDSSGPER-1.0000     NotChecked  -14.4753    2090.9869   ✗       
+825   LRTTYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -14.4762    2035.9810   ✗       
+826   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -14.4778    2048.9763   ✗       
+827   LRETYNASVSVPDSSGPER      -1.0000     NotChecked  -14.4925    2062.9920   ✗       
+828   LRTN+0.984YNASVSVPDSSGPER-1.0000     NotChecked  -14.5410    2048.9763   ✗       
+829   +42.011LRTTYNASVSVPDSSGPER-1.0000     NotChecked  -14.5514    2077.0076   ✗       
+830   LRTTYNASVSVPDSSGPER      -1.0000     NotChecked  -14.5538    2034.9970   ✗       
+831   LRTSYNASVSVPDSSGPER      -1.0000     NotChecked  -14.5539    2020.9814   ✗       
+832   LRTDYGNASVSVPDSSGPER     -1.0000     NotChecked  -14.5600    2105.9978   ✗       
+833   LRSTYNASVSVPDSSGPER      -1.0000     NotChecked  -14.6049    2020.9814   ✗       
+834   LRTTYGNASVSVPDSSGPER     -1.0000     NotChecked  -14.6361    2092.0185   ✗       
+835   LRDTYNASVSVPDSSGPER      -1.0000     NotChecked  -14.6490    2048.9763   ✗       
+836   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -14.6516    2048.9763   ✗       
+837   LRDDYNASVSVPDSSGPER      -1.0000     NotChecked  -14.6583    2062.9556   ✗       
+838   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -14.6771    2048.9763   ✗       
+839   LALRTYNASVSVPDSSGPER     -1.0000     NotChecked  -14.6859    2118.0705   ✗       
+840   LRSDYNASVSVPDSSGPER      -1.0000     NotChecked  -14.7150    2034.9607   ✗       
+841   LRTEYNASVSVPDSSGPER      -1.0000     NotChecked  -14.7167    2062.9920   ✗       
+842   LRDDYNASVSVPDSSGPER      -1.0000     NotChecked  -14.7171    2062.9556   ✗       
+843   LRTTYNASVSVPDSSGPER      -1.0000     NotChecked  -14.7276    2034.9970   ✗       
+844   LRTTYNASVSVPDSSGPER      -1.0000     NotChecked  -14.7531    2034.9970   ✗       
+845   LRSEYNASVSVPDSSGPER      -1.0000     NotChecked  -14.7547    2048.9763   ✗       
+846   GLRTDYNASVSVPDSSGPER     -1.0000     NotChecked  -14.7927    2105.9978   ✗       
+847   LRDYNASVSVPDSSGPER       -1.0000     NotChecked  -14.8208    1947.9286   ✗       
+848   LRDDYNASVSVPDSSGPER      -1.0000     NotChecked  -14.8385    2062.9556   ✗       
+849   LRTTYNASVSVPDSSGPER      -1.0000     NotChecked  -14.8489    2034.9970   ✗       
+850   LRTTYNASVSVPDSSGPER      -1.0000     NotChecked  -14.8493    2034.9970   ✗       
+851   GLRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -14.8688    2092.0185   ✗       
+852   LRDDYNASVSVPDSSGPER      -1.0000     NotChecked  -14.8871    2062.9556   ✗       
+853   LRSTYNASVSVPDSSGPER      -1.0000     NotChecked  -14.8873    2020.9814   ✗       
+854   LRTEYNASVSVPDSSGPER      -1.0000     NotChecked  -14.9029    2062.9920   ✗       
+855   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -14.9426    2048.9763   ✗       
+856   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -14.9594    2048.9763   ✗       
+857   LRTTYNASVSVPDSSGPER      -1.0000     NotChecked  -14.9707    2034.9970   ✗       
+858   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -14.9912    2048.9763   ✗       
+859   LRTEYNASVSVPDSSGPER      -1.0000     NotChecked  -14.9991    2062.9920   ✗       
+860   +43.006LRDTYNASVSVPDSSGPER-1.0000     NotChecked  -15.0044    2091.9821   ✗       
+861   LRTTYNASVSVPDSSGPER      -1.0000     NotChecked  -15.0193    2034.9970   ✗       
+862   +43.006LRTDYNASVSVPDSSGPER-1.0000     NotChecked  -15.0324    2091.9821   ✗       
+863   LRTTYNASVSVPDSSGPER      -1.0000     NotChecked  -15.0355    2034.9970   ✗       
+864   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -15.0477    2048.9763   ✗       
+865   LARTTYNASVSVPDSSGPER     -1.0000     NotChecked  -15.0593    2106.0341   ✗       
+866   +43.006LRSDYNASVSVPDSSGPER-1.0000     NotChecked  -15.0704    2077.9665   ✗       
+867   +42.011LRDTYNASVSVPDSSGPER-1.0000     NotChecked  -15.0830    2090.9869   ✗       
+868   LRDYNASVSVPDSSGPER       -1.0000     NotChecked  -15.1032    1947.9286   ✗       
+869   +43.006LRTTYNASVSVPDSSGPER-1.0000     NotChecked  -15.1085    2078.0028   ✗       
+870   +42.011LRTDYNASVSVPDSSGPER-1.0000     NotChecked  -15.1110    2090.9869   ✗       
+871   +42.011LRSDYNASVSVPDSSGPER-1.0000     NotChecked  -15.1490    2076.9712   ✗       
+872   +42.011LRTTYNASVSVPDSSGPER-1.0000     NotChecked  -15.1871    2077.0076   ✗       
+873   GLRTDYNASVSVPDSSGPER     -1.0000     NotChecked  -15.1888    2105.9978   ✗       
+874   +43.006LRTDYNASVSVPDSSGPER-1.0000     NotChecked  -15.2186    2091.9821   ✗       
+875   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -15.2250    2048.9763   ✗       
+876   LLRTYNASVSVPDSSGPER      -1.0000     NotChecked  -15.2450    2047.0334   ✗       
+877   +43.006LRTEYNASVSVPDSSGPER-1.0000     NotChecked  -15.2583    2105.9978   ✗       
+878   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -15.2736    2048.9763   ✗       
+879   +42.011LRTDYNASVSVPDSSGPER-1.0000     NotChecked  -15.2972    2090.9869   ✗       
+880   LRTDYGASVSVPDSSGPER      -1.0000     NotChecked  -15.3014    1991.9548   ✗       
+881   +43.006LRTDYNASVSVPDSSGPER-1.0000     NotChecked  -15.3148    2091.9821   ✗       
+882   +43.006LRDDYNASVSVPDSSGPER-1.0000     NotChecked  -15.3244    2105.9614   ✗       
+883   LRDDYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -15.3278    2063.9396   ✗       
+884   +42.011LRTEYNASVSVPDSSGPER-1.0000     NotChecked  -15.3369    2105.0025   ✗       
+885   LRTTYGASVSVPDSSGPER      -1.0000     NotChecked  -15.3774    1977.9756   ✗       
+886   +43.006LRTTYNASVSVPDSSGPER-1.0000     NotChecked  -15.3909    2078.0028   ✗       
+887   +42.011LRTDYNASVSVPDSSGPER-1.0000     NotChecked  -15.3934    2090.9869   ✗       
+888   +42.011LRDDYNASVSVPDSSGPER-1.0000     NotChecked  -15.4030    2104.9661   ✗       
+889   LRDDYNASVSVPDSSGPER      -1.0000     NotChecked  -15.4054    2062.9556   ✗       
+890   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -15.4161    2048.9763   ✗       
+891   +43.006LRTDYNASVSVPDSSGPER-1.0000     NotChecked  -15.4285    2091.9821   ✗       
+892   LRTDYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -15.4319    2049.9603   ✗       
+893   LREDYNASVSVPDSSGPER      -1.0000     NotChecked  -15.4482    2076.9712   ✗       
+894   +43.006LRTTYNASVSVPDSSGPER-1.0000     NotChecked  -15.4566    2078.0028   ✗       
+895   LRTTYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -15.4601    2035.9810   ✗       
+896   +42.011LRTTYNASVSVPDSSGPER-1.0000     NotChecked  -15.4695    2077.0076   ✗       
+897   LRDSYNASVSVPDSSGPER      -1.0000     NotChecked  -15.4815    2034.9607   ✗       
+898   LRTTYNASVSVPDSSGPER      -1.0000     NotChecked  -15.4922    2034.9970   ✗       
+899   +42.011LRTDYNASVSVPDSSGPER-1.0000     NotChecked  -15.5071    2090.9869   ✗       
+900   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -15.5095    2048.9763   ✗       
+901   LRTN+0.984YNASVSVPDSSGPER-1.0000     NotChecked  -15.5249    2048.9763   ✗       
+902   +42.011LRTTYNASVSVPDSSGPER-1.0000     NotChecked  -15.5352    2077.0076   ✗       
+903   LRTTYNASVSVPDSSGPER      -1.0000     NotChecked  -15.5377    2034.9970   ✗       
+904   ALRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -15.5484    2106.0341   ✗       
+905   LRDDYNASVSVPDSSGPER      -1.0000     NotChecked  -15.5793    2062.9556   ✗       
+906   LRTSYNASVSVPDSSGPER      -1.0000     NotChecked  -15.5856    2020.9814   ✗       
+907   LRTDYGNASVSVPDSSGPER     -1.0000     NotChecked  -15.5918    2105.9978   ✗       
+908   LRDDYNASVSVPDSSGPER      -1.0000     NotChecked  -15.6047    2062.9556   ✗       
+909   LRTTYGNASVSVPDSSGPER     -1.0000     NotChecked  -15.6199    2092.0185   ✗       
+910   LRDEYNASVSVPDSSGPER      -1.0000     NotChecked  -15.6444    2076.9712   ✗       
+911   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -15.6834    2048.9763   ✗       
+912   LLRTDYGASVSVPDSSGPER     -1.0000     NotChecked  -15.6974    2105.0389   ✗       
+913   +43.006LRTDYNASVSVPDSSGPER-1.0000     NotChecked  -15.7109    2091.9821   ✗       
+914   LRTTYNASVSVPDSSGPER      -1.0000     NotChecked  -15.7115    2034.9970   ✗       
+915   LRTDYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -15.7143    2049.9603   ✗       
+916   LRDTYNASVSVPDSSGPER      -1.0000     NotChecked  -15.7182    2048.9763   ✗       
+917   GLRDDYNASVSVPDSSGPER     -1.0000     Failed      -15.7204    2119.9770   ✓       
+918   LREDYNASVSVPDSSGPER      -1.0000     NotChecked  -15.7306    2076.9712   ✗       
+919   LRTTYNASVSVPDSSGPER      -1.0000     NotChecked  -15.7370    2034.9970   ✗       
+920   LRSTYNASVSVPDSSGPER      -1.0000     NotChecked  -15.7749    2020.9814   ✗       
+921   LRDTYNASVSVPDSSGPER      -1.0000     NotChecked  -15.7770    2048.9763   ✗       
+922   +42.011LRTDYNASVSVPDSSGPER-1.0000     NotChecked  -15.7895    2090.9869   ✗       
+923   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -15.7919    2048.9763   ✗       
+924   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -15.8046    2048.9763   ✗       
+925   GLRTDYNASVSVPDSSGPER     -1.0000     NotChecked  -15.8245    2105.9978   ✗       
+926   LRRDYNASVSVPDSSGPER      -1.0000     NotChecked  -15.8313    2104.0297   ✗       
+927   LRSDYNASVSVPDSSGPER      -1.0000     NotChecked  -15.8430    2034.9607   ✗       
+928   GLRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -15.8526    2092.0185   ✗       
+929   LRTSYNASVSVPDSSGPER      -1.0000     NotChecked  -15.8680    2020.9814   ✗       
+930   LRTDYGNASVSVPDSSGPER     -1.0000     NotChecked  -15.8742    2105.9978   ✗       
+931   LARTTYNASVSVPDSSGPER     -1.0000     NotChecked  -15.8801    2106.0341   ✗       
+932   LRTYNASVSVPDSSGPER       -1.0000     NotChecked  -15.8807    1933.9494   ✗       
+933   LRTEYNASVSVPDSSGPER      -1.0000     NotChecked  -15.8868    2062.9920   ✗       
+934   LRDDYNASVSVPDSSGPER      -1.0000     NotChecked  -15.8871    2062.9556   ✗       
+935   LRDTYNASVSVPDSSGPER      -1.0000     NotChecked  -15.8984    2048.9763   ✗       
+936   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -15.9264    2048.9763   ✗       
+937   LRDEYNASVSVPDSSGPER      -1.0000     NotChecked  -15.9268    2076.9712   ✗       
+938   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -15.9441    2048.9763   ✗       
+939   LRDTYNASVSVPDSSGPER      -1.0000     NotChecked  -15.9470    2048.9763   ✗       
+940   +43.006LRDDYNASVSVPDSSGPER-1.0000     NotChecked  -15.9601    2105.9614   ✗       
+941   LRSDYNASVSVPDSSGPER      -1.0000     NotChecked  -15.9644    2034.9607   ✗       
+942   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -15.9657    2048.9763   ✗       
+943   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -15.9750    2048.9763   ✗       
+944   LRDYNASVSVPDSSGPER       -1.0000     NotChecked  -15.9909    1947.9286   ✗       
+945   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -15.9912    2048.9763   ✗       
+946   LRTTYNASVSVPDSSGPER      -1.0000     NotChecked  -16.0025    2034.9970   ✗       
+947   LRSDYNASVSVPDSSGPER      -1.0000     NotChecked  -16.0130    2034.9607   ✗       
+948   LRTTYNASVSVPDSSGPER      -1.0000     NotChecked  -16.0193    2034.9970   ✗       
+949   LREYNASVSVPDSSGPER       -1.0000     NotChecked  -16.0305    1961.9443   ✗       
+950   LRTEYNASVSVPDSSGPER      -1.0000     NotChecked  -16.0308    2062.9920   ✗       
+951   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -16.0315    2048.9763   ✗       
+952   +42.011LRDDYNASVSVPDSSGPER-1.0000     NotChecked  -16.0387    2104.9661   ✗       
+953   LARTTYNASVSVPDSSGPER     -1.0000     NotChecked  -16.0432    2106.0341   ✗       
+954   LRTTYNASVSVPDSSGPER      -1.0000     NotChecked  -16.0511    2034.9970   ✗       
+955   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -16.0870    2048.9763   ✗       
+956   +43.006LRTTYNASVSVPDSSGPER-1.0000     NotChecked  -16.0923    2078.0028   ✗       
+957   GLRTDYNASVSVPDSSGPER     -1.0000     NotChecked  -16.1069    2105.9978   ✗       
+958   LRTTYNASVSVPDSSGPER      -1.0000     NotChecked  -16.1076    2034.9970   ✗       
+959   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -16.1127    2048.9763   ✗       
+960   +43.006LRSTYNASVSVPDSSGPER-1.0000     NotChecked  -16.1303    2063.9872   ✗       
+961   LRSDYNASVSVPDSSGPER      -1.0000     NotChecked  -16.1420    2034.9607   ✗       
+962   LRTEYNASVSVPDSSGPER      -1.0000     NotChecked  -16.1523    2062.9920   ✗       
+963   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -16.1612    2048.9763   ✗       
+964   LRTYNASVSVPDSSGPER       -1.0000     NotChecked  -16.1631    1933.9494   ✗       
+965   +42.011LRTTYNASVSVPDSSGPER-1.0000     NotChecked  -16.1709    2077.0076   ✗       
+966   GLRTDYNASVSVPDSSGPER     -1.0000     NotChecked  -16.1726    2105.9978   ✗       
+967   LLRDYNASVSVPDSSGPER      -1.0000     NotChecked  -16.2007    2061.0127   ✗       
+968   LRTEYNASVSVPDSSGPER      -1.0000     NotChecked  -16.2009    2062.9920   ✗       
+969   +43.006LRTDYNASVSVPDSSGPER-1.0000     NotChecked  -16.2025    2091.9821   ✗       
+970   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -16.2088    2048.9763   ✗       
+971   +42.011LRSTYNASVSVPDSSGPER-1.0000     NotChecked  -16.2089    2062.9920   ✗       
+972   LRDDYGASVSVPDSSGPER      -1.0000     NotChecked  -16.2290    2005.9341   ✗       
+973   +43.006LRTEYNASVSVPDSSGPER-1.0000     NotChecked  -16.2421    2105.9978   ✗       
+974   +43.006LRDDYNASVSVPDSSGPER-1.0000     NotChecked  -16.2425    2105.9614   ✗       
+975   GLRTTYNASVSVPDSSGPER     -1.0000     NotChecked  -16.2487    2092.0185   ✗       
+976   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -16.2574    2048.9763   ✗       
+977   LRTDYNASVSVPDSSGPQ+0.984R-1.0000     NotChecked  -16.2649    2048.9763   ✗       
+978   +43.006LRTTYNASVSVPDSSGPER-1.0000     NotChecked  -16.2785    2078.0028   ✗       
+979   +42.011LRTDYNASVSVPDSSGPER-1.0000     NotChecked  -16.2811    2090.9869   ✗       
+980   LRTTYNASVSVPDSSGPER      -1.0000     NotChecked  -16.2849    2034.9970   ✗       
+981   +42.011LRTEYNASVSVPDSSGPER-1.0000     NotChecked  -16.3207    2105.0025   ✗       
+982   +42.011LRDDYNASVSVPDSSGPER-1.0000     NotChecked  -16.3211    2104.9661   ✗       
+983   LRTDYGASVSVPDSSGPER      -1.0000     NotChecked  -16.3331    1991.9548   ✗       
+984   LRTTYNASVSVPDSSGPER      -1.0000     NotChecked  -16.3335    2034.9970   ✗       
+985   LRDDYNASVSVPDSSGPER      -1.0000     NotChecked  -16.3438    2062.9556   ✗       
+986   +43.006LRDYNASVSVPDSSGPER-1.0000     NotChecked  -16.3462    1990.9344   ✗       
+987   +43.006LRTDYNASVSVPDSSGPER-1.0000     NotChecked  -16.3466    2091.9821   ✗       
+988   +42.011LRTTYNASVSVPDSSGPER-1.0000     NotChecked  -16.3571    2077.0076   ✗       
+989   LRTTYGASVSVPDSSGPER      -1.0000     NotChecked  -16.3613    1977.9756   ✗       
+990   +43.006LRTTYNASVSVPDSSGPER-1.0000     NotChecked  -16.3747    2078.0028   ✗       
+991   +43.006LRDTYNASVSVPDSSGPER-1.0000     NotChecked  -16.3843    2091.9821   ✗       
+992   LRDTYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -16.3877    2049.9603   ✗       
+993   +43.006LRTDYNASVSVPDSSGPER-1.0000     NotChecked  -16.4123    2091.9821   ✗       
+994   LRTDYN+0.984ASVSVPDSSGPER-1.0000     NotChecked  -16.4158    2049.9603   ✗       
+995   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -16.4164    2048.9763   ✗       
+996   +42.011LRDYNASVSVPDSSGPER-1.0000     NotChecked  -16.4248    1989.9392   ✗       
+997   +42.011LRTDYNASVSVPDSSGPER-1.0000     NotChecked  -16.4252    2090.9869   ✗       
+998   LARTTYNASVSVPDSSGPER     -1.0000     NotChecked  -16.4393    2106.0341   ✗       
+999   LRTDYNASVSVPDSSGPER      -1.0000     NotChecked  -16.4479    2048.9763   ✗       
+1000  +43.006LRSDYNASVSVPDSSGPER-1.0000     NotChecked  -16.4503    2077.9665   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: ALRTDYNASVSVPDSSGPER
+Similarity: 0.7999
+De Novo Score: -1.7087
+Source: Database
+Correct: ✓
+

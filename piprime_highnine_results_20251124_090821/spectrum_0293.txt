@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 293
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 558.7986
+Precursor charge: 2+
+Ground truth: GTEEVIIEAR
+Ground truth (normalized): GTEEVIIEAR
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 181
+Used for reranking: 181
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 181 (18.1%)
+Database matches: 62 (6.2%)
+Prosit predictions: 0 (0.0%)
+Failed: 119 (11.9%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 2/1000
+Rank by similarity: 1/1000
+Similarity: 0.8252
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     GTEEVLLEAR               0.8252      Database    -1.4656     1115.5822   ✓       ✓
+2     GTEEVLLEAR               0.8252      Database    -3.3310     1115.5822   ✓       ✓
+3     GTEEVLLEAR               0.8252      Database    -8.3360     1115.5822   ✓       ✓
+4     GTEEVLLEAR               0.8252      Database    -8.5243     1115.5822   ✓       ✓
+5     GTEEVLLEAR               0.8252      Database    -10.1788    1115.5822   ✓       ✓
+6     GTEEVLLEAR               0.8252      Database    -10.2015    1115.5822   ✓       ✓
+7     GTEEVLLEAR               0.8252      Database    -10.3898    1115.5822   ✓       ✓
+8     GTEEVLLEAR               0.8252      Database    -12.0442    1115.5822   ✓       ✓
+9     GTEEVLLEAR               0.8252      Database    -13.0516    1115.5822   ✓       ✓
+10    GTEEVLLEAR               0.8252      Database    -13.8482    1115.5822   ✓       ✓
+11    GTEEVLLEAR               0.8252      Database    -14.9171    1115.5822   ✓       ✓
+12    GTEEVLLEAR               0.8252      Database    -15.3948    1115.5822   ✓       ✓
+13    GTEEVLLEAR               0.8252      Database    -15.5088    1115.5822   ✓       ✓
+14    GTEEVLLEAR               0.8252      Database    -16.7020    1115.5822   ✓       ✓
+15    GTEEVLLEAR               0.8252      Database    -17.0492    1115.5822   ✓       ✓
+16    GTEEVLLEAR               0.8252      Database    -17.2278    1115.5822   ✓       ✓
+17    GTEEVLLEAR               0.8252      Database    -17.2375    1115.5822   ✓       ✓
+18    GTEEVLLEAR               0.8252      Database    -17.2602    1115.5822   ✓       ✓
+19    GTEEVLLEAR               0.8252      Database    -17.3743    1115.5822   ✓       ✓
+20    GTEEVLLEAR               0.8252      Database    -17.7218    1115.5822   ✓       ✓
+21    GTEEVLLEAR               0.8252      Database    -18.2629    1115.5822   ✓       ✓
+22    GTEEVLLEAR               0.8252      Database    -18.5675    1115.5822   ✓       ✓
+23    GTEEVLLEAR               0.8252      Database    -18.9146    1115.5822   ✓       ✓
+24    GTEEVLLEAR               0.8252      Database    -19.0932    1115.5822   ✓       ✓
+25    GTEEVLLEAR               0.8252      Database    -19.1030    1115.5822   ✓       ✓
+26    GTEEVLLEAR               0.8252      Database    -19.4961    1115.5822   ✓       ✓
+27    GTEEVLLEAR               0.8252      Database    -19.5168    1115.5822   ✓       ✓
+28    GTEEVLLEAR               0.8252      Database    -19.5748    1115.5822   ✓       ✓
+29    GTEEVLLEAR               0.8252      Database    -19.5873    1115.5822   ✓       ✓
+30    GTEEVLLEAR               0.8252      Database    -20.1104    1115.5822   ✓       ✓
+31    GTEEVLLEAR               0.8252      Database    -20.1284    1115.5822   ✓       ✓
+32    GTEEVLLEAR               0.8252      Database    -20.7186    1115.5822   ✓       ✓
+33    GTEEVLLEAR               0.8252      Database    -20.8621    1115.5822   ✓       ✓
+34    GTEEVLLEAR               0.8252      Database    -20.9069    1115.5822   ✓       ✓
+35    GTEEVLLEAR               0.8252      Database    -21.0106    1115.5822   ✓       ✓
+36    GTEEVLLEAR               0.8252      Database    -21.3616    1115.5822   ✓       ✓
+37    GTEEVLLEAR               0.8252      Database    -21.3822    1115.5822   ✓       ✓
+38    GTEEVLLEAR               0.8252      Database    -21.4402    1115.5822   ✓       ✓
+39    GTEEVLLEAR               0.8252      Database    -21.4447    1115.5822   ✓       ✓
+40    GTEEVLLEAR               0.8252      Database    -21.7648    1115.5822   ✓       ✓
+41    GTEEVLLEAR               0.8252      Database    -21.9759    1115.5822   ✓       ✓
+42    GTEEVLLEAR               0.8252      Database    -22.3792    1115.5822   ✓       ✓
+43    GTEEVLLEAR               0.8252      Database    -22.5614    1115.5822   ✓       ✓
+44    GTEEVLLEAR               0.8252      Database    -22.5676    1115.5822   ✓       ✓
+45    GTEEVLLEAR               0.8252      Database    -22.7276    1115.5822   ✓       ✓
+46    GTEEVLLEAR               0.8252      Database    -22.8549    1115.5822   ✓       ✓
+47    GTEEVLLEAR               0.8252      Database    -23.5725    1115.5822   ✓       ✓
+48    GTEEVLLEAR               0.8252      Database    -23.6303    1115.5822   ✓       ✓
+49    GTEEVLLEAR               0.8252      Database    -24.0982    1115.5822   ✓       ✓
+50    GTEEVLLEAR               0.8252      Database    -24.1080    1115.5822   ✓       ✓
+51    GTEEVLLEAR               0.8252      Database    -24.2447    1115.5822   ✓       ✓
+52    GTEEVLLEAR               0.8252      Database    -24.5922    1115.5822   ✓       ✓
+53    GTEEVLLEAR               0.8252      Database    -24.7203    1115.5822   ✓       ✓
+54    GTEEVLLEAR               0.8252      Database    -25.1333    1115.5822   ✓       ✓
+55    GTEEVLLEAR               0.8252      Database    -25.4342    1115.5822   ✓       ✓
+56    GTEEVLLEAR               0.8252      Database    -25.4379    1115.5822   ✓       ✓
+57    GTEEVLLEAR               0.8252      Database    -25.9636    1115.5822   ✓       ✓
+58    GTEEVLLEAR               0.8252      Database    -25.9734    1115.5822   ✓       ✓
+59    GTEEVLLEAR               0.8252      Database    -26.3666    1115.5822   ✓       ✓
+60    GTEEVLLEAR               0.8252      Database    -26.3872    1115.5822   ✓       ✓
+61    GTEEVLLEAR               0.8252      Database    -26.4452    1115.5822   ✓       ✓
+62    GTEEVLLEAR               0.8252      Database    -26.4577    1115.5822   ✓       ✓
+63    GTEEVLLQ+0.984AR         -1.0000     Failed      -0.4611     1115.5822   ✓       
+64    GTEEVLLQ+0.984AR         -1.0000     Failed      -2.3265     1115.5822   ✓       
+65    GTEEVLLQAR               -1.0000     NotChecked  -6.1552     1114.5982   ✗       
+66    GTEEVLLQ+0.984AR         -1.0000     Failed      -7.3315     1115.5822   ✓       
+67    GTEEVLLQ+0.984AR         -1.0000     Failed      -7.5199     1115.5822   ✓       
+68    GTEEVLLQAR               -1.0000     NotChecked  -8.0206     1114.5982   ✗       
+69    GTEQ+0.984VLLQ+0.984AR   -1.0000     Failed      -8.5520     1115.5822   ✓       
+70    GTEEVLLQ+0.984AR         -1.0000     Failed      -9.1743     1115.5822   ✓       
+71    GTEEVLLQ+0.984AR         -1.0000     Failed      -9.1970     1115.5822   ✓       
+72    GTEEVLLQ+0.984AR         -1.0000     Failed      -9.3853     1115.5822   ✓       
+73    GTQ+0.984EVLLQ+0.984AR   -1.0000     Failed      -9.3907     1115.5822   ✓       
+74    GTEQ+0.984VLLEAR         -1.0000     Failed      -9.5565     1115.5822   ✓       
+75    GTQ+0.984EVLLEAR         -1.0000     Failed      -10.3952    1115.5822   ✓       
+76    GTEQ+0.984VLLQ+0.984AR   -1.0000     Failed      -10.4175    1115.5822   ✓       
+77    GTEVLLQ+0.984AR          -1.0000     NotChecked  -10.9782    986.5397    ✗       
+78    GTEEVLLQ+0.984AR         -1.0000     Failed      -11.0397    1115.5822   ✓       
+79    GTEQ+0.984VLLEAR         -1.0000     Failed      -11.4220    1115.5822   ✓       
+80    GTQEVLLQ+0.984AR         -1.0000     NotChecked  -11.7419    1114.5982   ✗       
+81    GTEQVLLQ+0.984AR         -1.0000     NotChecked  -11.9446    1114.5982   ✗       
+82    GTEVLLEAR                -1.0000     NotChecked  -11.9827    986.5397    ✗       
+83    GTEEVLLN+0.984AR         -1.0000     NotChecked  -12.0463    1101.5666   ✗       
+84    GTEEVLLQ+0.984AR         -1.0000     Failed      -12.0471    1115.5822   ✓       
+85    GTKEVLLQ+0.984AR         -1.0000     NotChecked  -12.1751    1114.6346   ✗       
+86    GTEEVLLLAR               -1.0000     NotChecked  -12.4725    1099.6237   ✗       
+87    GTEEVLLNAR               -1.0000     NotChecked  -12.6658    1100.5826   ✗       
+88    GTQEVLLEAR               -1.0000     NotChecked  -12.7464    1114.5982   ✗       
+89    GTEEVLLQ+0.984AR         -1.0000     Failed      -12.8437    1115.5822   ✓       
+90    GTEEVLLSAR               -1.0000     NotChecked  -12.8823    1073.5717   ✗       
+91    GTEQVLLEAR               -1.0000     NotChecked  -12.9491    1114.5982   ✗       
+92    GTEEVLLQAR               -1.0000     NotChecked  -13.0256    1114.5982   ✗       
+93    GTEEVLLAR                -1.0000     NotChecked  -13.1560    986.5397    ✗       
+94    GTKEVLLEAR               -1.0000     NotChecked  -13.1796    1114.6346   ✗       
+95    GTEEVLLQAR               -1.0000     NotChecked  -13.2139    1114.5982   ✗       
+96    GTEEVLLAAR               -1.0000     NotChecked  -13.4159    1057.5768   ✗       
+97    GTEQVLLQ+0.984AR         -1.0000     NotChecked  -13.8101    1114.5982   ✗       
+98    GTEDVLLQ+0.984AR         -1.0000     NotChecked  -13.8898    1101.5666   ✗       
+99    GTEEVLLN+0.984AR         -1.0000     NotChecked  -13.9118    1101.5666   ✗       
+100   GTEEVLLQ+0.984AR         -1.0000     Failed      -13.9126    1115.5822   ✓       
+101   GTEEVLLQ+0.984AK         -1.0000     NotChecked  -13.9515    1087.5761   ✗       
+102   GTAEVLLQ+0.984AR         -1.0000     NotChecked  -13.9518    1057.5768   ✗       
+103   GTEKVLLQ+0.984AR         -1.0000     NotChecked  -14.0844    1114.6346   ✗       
+104   GTDEVLLQ+0.984AR         -1.0000     NotChecked  -14.1915    1101.5666   ✗       
+105   GTEQ+0.984VLLQAR         -1.0000     NotChecked  -14.2461    1114.5982   ✗       
+106   GTEEVLLLAR               -1.0000     NotChecked  -14.3380    1099.6237   ✗       
+107   GTEEVLLQ+0.984AR         -1.0000     Failed      -14.3903    1115.5822   ✓       
+108   +42.011TEEVLLQ+0.984AR   -1.0000     NotChecked  -14.4407    1100.5713   ✗       
+109   GTEEVLLQ+0.984AR         -1.0000     Failed      -14.5043    1115.5822   ✓       
+110   +43.006TEEVLLQ+0.984AR   -1.0000     NotChecked  -14.5124    1101.5666   ✗       
+111   GTEEVLLNAR               -1.0000     NotChecked  -14.5312    1100.5826   ✗       
+112   GTLEVLLQ+0.984AR         -1.0000     NotChecked  -14.6643    1099.6237   ✗       
+113   GTEEVLLSAR               -1.0000     NotChecked  -14.7477    1073.5717   ✗       
+114   GSEEVLLQ+0.984AR         -1.0000     NotChecked  -14.7959    1101.5666   ✗       
+115   GTEQVLLEAR               -1.0000     NotChecked  -14.8146    1114.5982   ✗       
+116   GTEVVLLQ+0.984AR         -1.0000     NotChecked  -14.8435    1085.6081   ✗       
+117   GTEEVLLQAR               -1.0000     NotChecked  -14.8684    1114.5982   ✗       
+118   GTELVLLQ+0.984AR         -1.0000     NotChecked  -14.8719    1099.6237   ✗       
+119   GTEEVLLQAR               -1.0000     NotChecked  -14.8911    1114.5982   ✗       
+120   GTEDVLLEAR               -1.0000     NotChecked  -14.8943    1101.5666   ✗       
+121   GTEVLLQ+0.984AR          -1.0000     NotChecked  -14.9268    986.5397    ✗       
+122   GTESVLLQ+0.984AR         -1.0000     NotChecked  -14.9468    1073.5717   ✗       
+123   GTEEVLLEAK               -1.0000     NotChecked  -14.9560    1087.5761   ✗       
+124   GTAEVLLEAR               -1.0000     NotChecked  -14.9563    1057.5768   ✗       
+125   TEEVLLQ+0.984AR          -1.0000     NotChecked  -14.9799    1058.5608   ✗       
+126   GTEEVLLAR                -1.0000     NotChecked  -15.0215    986.5397    ✗       
+127   GTEAVLLQ+0.984AR         -1.0000     NotChecked  -15.0282    1057.5768   ✗       
+128   GTEEVLLQAR               -1.0000     NotChecked  -15.0794    1114.5982   ✗       
+129   GTQ+0.984EVLLQAR         -1.0000     NotChecked  -15.0848    1114.5982   ✗       
+130   GTEKVLLEAR               -1.0000     NotChecked  -15.0889    1114.6346   ✗       
+131   GTDEVLLEAR               -1.0000     NotChecked  -15.1960    1101.5666   ✗       
+132   GTEEVLLAAR               -1.0000     NotChecked  -15.2813    1057.5768   ✗       
+133   GTEQ+0.984VLLQ+0.984AR   -1.0000     Failed      -15.4225    1115.5822   ✓       
+134   GTEEVSLQ+0.984AR         -1.0000     NotChecked  -15.4406    1089.5302   ✗       
+135   +42.011TEEVLLEAR         -1.0000     NotChecked  -15.4452    1100.5713   ✗       
+136   +43.006TEEVLLEAR         -1.0000     NotChecked  -15.5169    1101.5666   ✗       
+137   GTEEALLQ+0.984AR         -1.0000     NotChecked  -15.5942    1087.5509   ✗       
+138   GTEQ+0.984VLLQ+0.984AR   -1.0000     Failed      -15.6108    1115.5822   ✓       
+139   GTLEVLLEAR               -1.0000     NotChecked  -15.6688    1099.6237   ✗       
+140   GTEEVLVQ+0.984AR         -1.0000     NotChecked  -15.6708    1101.5666   ✗       
+141   GTEEVLAQ+0.984AR         -1.0000     NotChecked  -15.6777    1073.5353   ✗       
+142   GTEEVLLQ+0.984AR         -1.0000     Failed      -15.6975    1115.5822   ✓       
+143   GTEDVLLQ+0.984AR         -1.0000     NotChecked  -15.7553    1101.5666   ✗       
+144   GSEEVLLEAR               -1.0000     NotChecked  -15.8004    1101.5666   ✗       
+145   GTEEVLLQ+0.984AK         -1.0000     NotChecked  -15.8170    1087.5761   ✗       
+146   GTEVVLLEAR               -1.0000     NotChecked  -15.8480    1085.6081   ✗       
+147   GTELVLLEAR               -1.0000     NotChecked  -15.8764    1099.6237   ✗       
+148   GTEVLLEAR                -1.0000     NotChecked  -15.9313    986.5397    ✗       
+149   GTEKVLLQ+0.984AR         -1.0000     NotChecked  -15.9499    1114.6346   ✗       
+150   GTESVLLEAR               -1.0000     NotChecked  -15.9513    1073.5717   ✗       
+151   TEEVLLEAR                -1.0000     NotChecked  -15.9844    1058.5608   ✗       
+152   GTEAVLLEAR               -1.0000     NotChecked  -16.0327    1057.5768   ✗       
+153   GTEEVLLQ+0.984AR         -1.0000     Failed      -16.0447    1115.5822   ✓       
+154   GTEQ+0.984VLLQAR         -1.0000     NotChecked  -16.1116    1114.5982   ✗       
+155   GTEEVLLQ+0.984AR         -1.0000     Failed      -16.2233    1115.5822   ✓       
+156   GTEEVLLQ+0.984AR         -1.0000     Failed      -16.2330    1115.5822   ✓       
+157   GTEEVLLQ+0.984AR         -1.0000     Failed      -16.2557    1115.5822   ✓       
+158   GTQ+0.984EVLLQ+0.984AR   -1.0000     Failed      -16.2612    1115.5822   ✓       
+159   +42.011TEEVLLQ+0.984AR   -1.0000     NotChecked  -16.3061    1100.5713   ✗       
+160   GTEEVPLQ+0.984AR         -1.0000     NotChecked  -16.3519    1099.5509   ✗       
+161   GTEEVLLQ+0.984AR         -1.0000     Failed      -16.3698    1115.5822   ✓       
+162   +43.006TEEVLLQ+0.984AR   -1.0000     NotChecked  -16.3778    1101.5666   ✗       
+163   GAEEVLLQ+0.984AR         -1.0000     NotChecked  -16.3871    1085.5717   ✗       
+164   GTEEVLLQ+0.984R          -1.0000     NotChecked  -16.4248    1044.5451   ✗       
+165   GTEQ+0.984VLLEAR         -1.0000     Failed      -16.4270    1115.5822   ✓       
+166   GTEEVSLEAR               -1.0000     NotChecked  -16.4451    1089.5302   ✗       
+167   GTQ+0.984EVLLQ+0.984AR   -1.0000     Failed      -16.4495    1115.5822   ✓       
+168   GTEEVVLQ+0.984AR         -1.0000     NotChecked  -16.5516    1101.5666   ✗       
+169   GTEEALLEAR               -1.0000     NotChecked  -16.5987    1087.5509   ✗       
+170   GTEQ+0.984VLLEAR         -1.0000     Failed      -16.6153    1115.5822   ✓       
+171   GSEEVLLQ+0.984AR         -1.0000     NotChecked  -16.6614    1101.5666   ✗       
+172   GTEEVLLQ+0.984GR         -1.0000     NotChecked  -16.6717    1101.5666   ✗       
+173   GTEVLLQAR                -1.0000     NotChecked  -16.6723    985.5556    ✗       
+174   GTEEVLVEAR               -1.0000     NotChecked  -16.6753    1101.5666   ✗       
+175   GTEEVLAEAR               -1.0000     NotChecked  -16.6822    1073.5353   ✗       
+176   GTEVVLLQ+0.984AR         -1.0000     NotChecked  -16.7090    1085.6081   ✗       
+177   GTEEVLLQ+0.984AR         -1.0000     Failed      -16.7173    1115.5822   ✓       
+178   GTEEVLLQAR               -1.0000     NotChecked  -16.7338    1114.5982   ✗       
+179   GTELVLLQ+0.984AR         -1.0000     NotChecked  -16.7374    1099.6237   ✗       
+180   GTEDVLLEAR               -1.0000     NotChecked  -16.7598    1101.5666   ✗       
+181   GTEVLLQ+0.984AR          -1.0000     NotChecked  -16.7923    986.5397    ✗       
+182   GTESVLLQ+0.984AR         -1.0000     NotChecked  -16.8123    1073.5717   ✗       
+183   GTEEVLLEAK               -1.0000     NotChecked  -16.8215    1087.5761   ✗       
+184   TEEVLLQ+0.984AR          -1.0000     NotChecked  -16.8454    1058.5608   ✗       
+185   GTEEVALQ+0.984AR         -1.0000     NotChecked  -16.8493    1073.5353   ✗       
+186   GTEAVLLQ+0.984AR         -1.0000     NotChecked  -16.8936    1057.5768   ✗       
+187   GTEKVLLEAR               -1.0000     NotChecked  -16.9544    1114.6346   ✗       
+188   GTEEVLPQ+0.984AR         -1.0000     NotChecked  -17.0490    1099.5509   ✗       
+189   GTEQ+0.984VLLQ+0.984AR   -1.0000     Failed      -17.2652    1115.5822   ✓       
+190   GTQ+0.984EVLLEAR         -1.0000     Failed      -17.2657    1115.5822   ✓       
+191   GGEEVLLQ+0.984AR         -1.0000     NotChecked  -17.2743    1071.5560   ✗       
+192   GTEQ+0.984VLLQ+0.984AR   -1.0000     Failed      -17.2879    1115.5822   ✓       
+193   GTEEVSLQ+0.984AR         -1.0000     NotChecked  -17.3060    1089.5302   ✗       
+194   +42.011TEEVLLEAR         -1.0000     NotChecked  -17.3106    1100.5713   ✗       
+195   GTEEVPLEAR               -1.0000     NotChecked  -17.3564    1099.5509   ✗       
+196   +43.006TEEVLLEAR         -1.0000     NotChecked  -17.3823    1101.5666   ✗       
+197   GAEEVLLEAR               -1.0000     NotChecked  -17.3916    1085.5717   ✗       
+198   GTEEVLLER                -1.0000     NotChecked  -17.4292    1044.5451   ✗       
+199   GTQEVLLQAR               -1.0000     NotChecked  -17.4360    1113.6142   ✗       
+200   GTQ+0.984EVLLEAR         -1.0000     Failed      -17.4540    1115.5822   ✓       
+201   GTEEALLQ+0.984AR         -1.0000     NotChecked  -17.4597    1087.5509   ✗       
+202   GTEQ+0.984VLLQ+0.984AR   -1.0000     Failed      -17.4763    1115.5822   ✓       
+203   GTQ+0.984Q+0.984VLLQ+0.984AR-1.0000     Failed      -17.4817    1115.5822   ✓       
+204   GTEEVLVQ+0.984AR         -1.0000     NotChecked  -17.5363    1101.5666   ✗       
+205   GTEEVLAQ+0.984AR         -1.0000     NotChecked  -17.5431    1073.5353   ✗       
+206   GTEEVVLEAR               -1.0000     NotChecked  -17.5561    1101.5666   ✗       
+207   GTEEVLLQ+0.984AR         -1.0000     Failed      -17.5630    1115.5822   ✓       
+208   GTEEGLLQ+0.984AR         -1.0000     NotChecked  -17.6069    1073.5353   ✗       
+209   GTEQVLLQAR               -1.0000     NotChecked  -17.6387    1113.6142   ✗       
+210   GSEEVLLEAR               -1.0000     NotChecked  -17.6659    1101.5666   ✗       
+211   GTEEVLLEGR               -1.0000     NotChecked  -17.6762    1101.5666   ✗       
+212   GTEVVLLEAR               -1.0000     NotChecked  -17.7135    1085.6081   ✗       
+213   GTEEVLLQAR               -1.0000     NotChecked  -17.7412    1114.5982   ✗       
+214   GTELVLLEAR               -1.0000     NotChecked  -17.7419    1099.6237   ✗       
+215   GTEVLLEAR                -1.0000     NotChecked  -17.7968    986.5397    ✗       
+216   GTESVLLEAR               -1.0000     NotChecked  -17.8167    1073.5717   ✗       
+217   GTEVLLQ+0.984AR          -1.0000     NotChecked  -17.8487    986.5397    ✗       
+218   TEEVLLEAR                -1.0000     NotChecked  -17.8499    1058.5608   ✗       
+219   GTEEVALEAR               -1.0000     NotChecked  -17.8538    1073.5353   ✗       
+220   GTKEVLLQAR               -1.0000     NotChecked  -17.8692    1113.6506   ✗       
+221   GTEAVLLEAR               -1.0000     NotChecked  -17.8981    1057.5768   ✗       
+222   GTEEVLLQ+0.984AR         -1.0000     Failed      -17.9102    1115.5822   ✓       
+223   GTEEVLLQ+0.984AV         -1.0000     NotChecked  -17.9970    1058.5495   ✗       
+224   GTEVLLQ+0.984AR          -1.0000     NotChecked  -18.0370    986.5397    ✗       
+225   GTEEVLPEAR               -1.0000     NotChecked  -18.0535    1099.5509   ✗       
+226   GTEELLQ+0.984AR          -1.0000     NotChecked  -18.0535    1016.5138   ✗       
+227   GTEEVLLQ+0.984AR         -1.0000     Failed      -18.0887    1115.5822   ✓       
+228   GTEEVLLQ+0.984AR         -1.0000     Failed      -18.0985    1115.5822   ✓       
+229   GTQ+0.984EVLLQ+0.984AR   -1.0000     Failed      -18.1039    1115.5822   ✓       
+230   GTEEVLLQ+0.984AQ         -1.0000     NotChecked  -18.1286    1087.5397   ✗       
+231   GTEEVPLQ+0.984AR         -1.0000     NotChecked  -18.2173    1099.5509   ✗       
+232   GAEEVLLQ+0.984AR         -1.0000     NotChecked  -18.2526    1085.5717   ✗       
+233   GTEQ+0.984VLLEAR         -1.0000     Failed      -18.2697    1115.5822   ✓       
+234   GGEEVLLEAR               -1.0000     NotChecked  -18.2788    1071.5560   ✗       
+235   GTEEVLLQ+0.984R          -1.0000     NotChecked  -18.2902    1044.5451   ✗       
+236   GTEQ+0.984VLLEAR         -1.0000     Failed      -18.2924    1115.5822   ✓       
+237   GTEEVSLEAR               -1.0000     NotChecked  -18.3105    1089.5302   ✗       
+238   GTEEVVLQ+0.984AR         -1.0000     NotChecked  -18.4171    1101.5666   ✗       
+239   GTEEALLEAR               -1.0000     NotChecked  -18.4642    1087.5509   ✗       
+240   GTEQ+0.984VLLEAR         -1.0000     Failed      -18.4807    1115.5822   ✓       
+241   GTQ+0.984Q+0.984VLLEAR   -1.0000     Failed      -18.4862    1115.5822   ✓       
+242   GTEEVLLQ+0.984AR         -1.0000     Failed      -18.4916    1115.5822   ✓       
+243   GTEEVLLQ+0.984AR         -1.0000     Failed      -18.5123    1115.5822   ✓       
+244   GTEEVLLQ+0.984GR         -1.0000     NotChecked  -18.5372    1101.5666   ✗       
+245   GTEEVLLQAR               -1.0000     NotChecked  -18.5378    1114.5982   ✗       
+246   GTEEVLVEAR               -1.0000     NotChecked  -18.5408    1101.5666   ✗       
+247   GTEEVLAEAR               -1.0000     NotChecked  -18.5476    1073.5353   ✗       
+248   GTEEVLLQ+0.984AR         -1.0000     Failed      -18.5703    1115.5822   ✓       
+249   GTEEVLLQ+0.984AR         -1.0000     Failed      -18.5828    1115.5822   ✓       
+250   GTEEGLLEAR               -1.0000     NotChecked  -18.6114    1073.5353   ✗       
+251   GTQEVLLQ+0.984AR         -1.0000     NotChecked  -18.6123    1114.5982   ✗       
+252   GTEEVALQ+0.984AR         -1.0000     NotChecked  -18.7147    1073.5353   ✗       
+253   GTEEVLLQ+0.984A          -1.0000     NotChecked  -18.7906    959.4811    ✗       
+254   GTQEVLLQ+0.984AR         -1.0000     NotChecked  -18.8007    1114.5982   ✗       
+255   GTEQVLLQ+0.984AR         -1.0000     NotChecked  -18.8150    1114.5982   ✗       
+256   GTEVLLEAR                -1.0000     NotChecked  -18.8532    986.5397    ✗       
+257   GTEEVLPQ+0.984AR         -1.0000     NotChecked  -18.9144    1099.5509   ✗       
+258   GTEEVLLN+0.984AR         -1.0000     NotChecked  -18.9168    1101.5666   ✗       
+259   GTEEVLLEAV               -1.0000     NotChecked  -19.0015    1058.5495   ✗       
+260   GTEQVLLQ+0.984AR         -1.0000     NotChecked  -19.0034    1114.5982   ✗       
+261   GTEVLLEAR                -1.0000     NotChecked  -19.0415    986.5397    ✗       
+262   GTKEVLLQ+0.984AR         -1.0000     NotChecked  -19.0456    1114.6346   ✗       
+263   GTEELLEAR                -1.0000     NotChecked  -19.0580    1016.5138   ✗       
+264   GTQ+0.984VLLQ+0.984AR    -1.0000     NotChecked  -19.0692    986.5397    ✗       
+265   GTEEVLLQ+0.984AL         -1.0000     NotChecked  -19.0743    1072.5652   ✗       
+266   GTEEVLLN+0.984AR         -1.0000     NotChecked  -19.1051    1101.5666   ✗       
+267   GTEEVLLQ+0.984AR         -1.0000     Failed      -19.1059    1115.5822   ✓       
+268   GTQ+0.984EVLLEAR         -1.0000     Failed      -19.1084    1115.5822   ✓       
+269   GTEQ+0.984VLLQ+0.984AR   -1.0000     Failed      -19.1307    1115.5822   ✓       
+270   GTEEVLLEAQ               -1.0000     NotChecked  -19.1331    1087.5397   ✗       
+271   GGEEVLLQ+0.984AR         -1.0000     NotChecked  -19.1397    1071.5560   ✗       
+272   GTEEVPLEAR               -1.0000     NotChecked  -19.2218    1099.5509   ✗       
+273   GTKEVLLQ+0.984AR         -1.0000     NotChecked  -19.2339    1114.6346   ✗       
+274   GAEEVLLEAR               -1.0000     NotChecked  -19.2571    1085.5717   ✗       
+275   GTEEVLLER                -1.0000     NotChecked  -19.2947    1044.5451   ✗       
+276   GTEEVLLLAR               -1.0000     NotChecked  -19.3430    1099.6237   ✗       
+277   GTEEVVLEAR               -1.0000     NotChecked  -19.4216    1101.5666   ✗       
+278   GTEEGLLQ+0.984AR         -1.0000     NotChecked  -19.4724    1073.5353   ✗       
+279   GTEQVLLQAR               -1.0000     NotChecked  -19.5042    1113.6142   ✗       
+280   GTEEVLLLAR               -1.0000     NotChecked  -19.5313    1099.6237   ✗       
+281   GTEEVLLNAR               -1.0000     NotChecked  -19.5362    1100.5826   ✗       
+282   GTEEVLLEGR               -1.0000     NotChecked  -19.5417    1101.5666   ✗       
+283   GTEEVLLQ+0.984AE         -1.0000     NotChecked  -19.5585    1088.5237   ✗       
+284   GTEDVLLQAR               -1.0000     NotChecked  -19.5839    1100.5826   ✗       
+285   GTEEVLLQAR               -1.0000     NotChecked  -19.6067    1114.5982   ✗       
+286   GTQEVLLEAR               -1.0000     NotChecked  -19.6168    1114.5982   ✗       
+287   GTEEVLLQAK               -1.0000     NotChecked  -19.6456    1086.5921   ✗       
+288   GTAEVLLQAR               -1.0000     NotChecked  -19.6459    1056.5928   ✗       
+289   GTEVLLQ+0.984AR          -1.0000     NotChecked  -19.6914    986.5397    ✗       
+290   GTEEVLLQ+0.984AR         -1.0000     Failed      -19.7141    1115.5822   ✓       
+291   GTEEVALEAR               -1.0000     NotChecked  -19.7192    1073.5353   ✗       
+292   GTEEVLLNAR               -1.0000     NotChecked  -19.7245    1100.5826   ✗       
+293   GTEEVLLSAR               -1.0000     NotChecked  -19.7527    1073.5717   ✗       
+294   GTEKVLLQAR               -1.0000     NotChecked  -19.7785    1113.6506   ✗       
+295   GTEEVLLEA                -1.0000     NotChecked  -19.7951    959.4811    ✗       
+296   GTQEVLLEAR               -1.0000     NotChecked  -19.8052    1114.5982   ✗       
+297   GTEQVLLEAR               -1.0000     NotChecked  -19.8195    1114.5982   ✗       
+298   GTQQ+0.984VLLQ+0.984AR   -1.0000     NotChecked  -19.8328    1114.5982   ✗       
+299   GPEEVLLQ+0.984AR         -1.0000     NotChecked  -19.8534    1111.5873   ✗       
+300   GTEEVLLQ+0.984AR         -1.0000     Failed      -19.8576    1115.5822   ✓       
+301   GTEEVLLQ+0.984AV         -1.0000     NotChecked  -19.8625    1058.5495   ✗       
+302   GTDEVLLQAR               -1.0000     NotChecked  -19.8856    1100.5826   ✗       
+303   GTEEVLLQ+0.984AR         -1.0000     Failed      -19.9024    1115.5822   ✓       
+304   GTEEVLPEAR               -1.0000     NotChecked  -19.9189    1099.5509   ✗       
+305   GTEELLQ+0.984AR          -1.0000     NotChecked  -19.9190    1016.5138   ✗       
+306   GTEEVLLQ+0.984AT         -1.0000     NotChecked  -19.9289    1060.5288   ✗       
+307   GTEEVLLSAR               -1.0000     NotChecked  -19.9411    1073.5717   ✗       
+308   GTEEVLLQ+0.984AQ         -1.0000     NotChecked  -19.9941    1087.5397   ✗       
+309   GTEEVLLQ+0.984AR         -1.0000     Failed      -20.0061    1115.5822   ✓       
+310   GTEQVLLEAR               -1.0000     NotChecked  -20.0079    1114.5982   ✗       
+311   GTEEVLLAR                -1.0000     NotChecked  -20.0264    986.5397    ✗       
+312   GTEEVLLQ+0.984AN         -1.0000     NotChecked  -20.0441    1073.5241   ✗       
+313   GTKEVLLEAR               -1.0000     NotChecked  -20.0501    1114.6346   ✗       
+314   GTQ+0.984VLLEAR          -1.0000     NotChecked  -20.0737    986.5397    ✗       
+315   GTEEVLLEAL               -1.0000     NotChecked  -20.0788    1072.5652   ✗       
+316   GTEEVLLQAR               -1.0000     NotChecked  -20.0844    1114.5982   ✗       
+317   +42.011TEEVLLQAR         -1.0000     NotChecked  -20.1348    1099.5873   ✗       
+318   GTEQ+0.984VLLEAR         -1.0000     Failed      -20.1352    1115.5822   ✓       
+319   GTEQ+0.984VLLN+0.984AR   -1.0000     NotChecked  -20.1373    1101.5666   ✗       
+320   GTEQ+0.984VLLQ+0.984AR   -1.0000     Failed      -20.1381    1115.5822   ✓       
+321   GGEEVLLEAR               -1.0000     NotChecked  -20.1442    1071.5560   ✗       
+322   GTEEVLLQAR               -1.0000     NotChecked  -20.1984    1114.5982   ✗       
+323   +43.006TEEVLLQAR         -1.0000     NotChecked  -20.2065    1100.5826   ✗       
+324   GTEEVLLAR                -1.0000     NotChecked  -20.2148    986.5397    ✗       
+325   GTKEVLLEAR               -1.0000     NotChecked  -20.2384    1114.6346   ✗       
+326   GTKQ+0.984VLLQ+0.984AR   -1.0000     NotChecked  -20.2661    1114.6346   ✗       
+327   GTEEVLLAAR               -1.0000     NotChecked  -20.2863    1057.5768   ✗       
+328   GTEEVLLQ+0.984AG         -1.0000     NotChecked  -20.3411    1016.5026   ✗       
+329   GTEEVLLQ+0.984AR         -1.0000     Failed      -20.3571    1115.5822   ✓       
+330   GTLEVLLQAR               -1.0000     NotChecked  -20.3584    1098.6397   ✗       
+331   GTEEVLLQ+0.984AR         -1.0000     Failed      -20.3777    1115.5822   ✓       
+332   GTEEVLLQ+0.984AR         -1.0000     Failed      -20.4357    1115.5822   ✓       
+333   GTQEVLLQ+0.984AR         -1.0000     NotChecked  -20.4551    1114.5982   ✗       
+334   GTEEVLLAR                -1.0000     NotChecked  -20.4746    986.5397    ✗       
+335   GTEEGLLEAR               -1.0000     NotChecked  -20.4769    1073.5353   ✗       
+336   GSEEVLLQAR               -1.0000     NotChecked  -20.4900    1100.5826   ✗       
+337   GTEVVLLQAR               -1.0000     NotChecked  -20.5376    1084.6241   ✗       
+338   GTEEVLLEAE               -1.0000     NotChecked  -20.5630    1088.5237   ✗       
+339   GTEQ+0.984VLLLAR         -1.0000     NotChecked  -20.5635    1099.6237   ✗       
+340   GTELVLLQAR               -1.0000     NotChecked  -20.5660    1098.6397   ✗       
+341   GTEVLLQAR                -1.0000     NotChecked  -20.6209    985.5556    ✗       
+342   GTESVLLQAR               -1.0000     NotChecked  -20.6409    1072.5877   ✗       
+343   GTEEVLLQ+0.984A          -1.0000     NotChecked  -20.6561    959.4811    ✗       
+344   GTEQVLLQ+0.984AR         -1.0000     NotChecked  -20.6578    1114.5982   ✗       
+345   TEEVLLQAR                -1.0000     NotChecked  -20.6740    1057.5768   ✗       
+346   GTEQVLLQ+0.984AR         -1.0000     NotChecked  -20.6805    1114.5982   ✗       
+347   GTEVLLEAR                -1.0000     NotChecked  -20.6959    986.5397    ✗       
+348   GTEAVLLQAR               -1.0000     NotChecked  -20.7223    1056.5928   ✗       
+349   GTEQ+0.984VLLNAR         -1.0000     NotChecked  -20.7567    1100.5826   ✗       
+350   GTEEVLLN+0.984AR         -1.0000     NotChecked  -20.7595    1101.5666   ✗       
+351   GTEDVLLQ+0.984AR         -1.0000     NotChecked  -20.7602    1101.5666   ✗       
+352   GTEEVLLQ+0.984AR         -1.0000     Failed      -20.7603    1115.5822   ✓       
+353   GTEEVLLN+0.984AR         -1.0000     NotChecked  -20.7822    1101.5666   ✗       
+354   GTEEVLLQ+0.984AK         -1.0000     NotChecked  -20.8219    1087.5761   ✗       
+355   GTAEVLLQ+0.984AR         -1.0000     NotChecked  -20.8223    1057.5768   ✗       
+356   GTQQ+0.984VLLEAR         -1.0000     NotChecked  -20.8373    1114.5982   ✗       
+357   GPEEVLLEAR               -1.0000     NotChecked  -20.8579    1111.5873   ✗       
+358   GTEEVLLEAV               -1.0000     NotChecked  -20.8670    1058.5495   ✗       
+359   GTEQVLLQ+0.984AR         -1.0000     NotChecked  -20.8688    1114.5982   ✗       
+360   GTQ+0.984QVLLQ+0.984AR   -1.0000     NotChecked  -20.8743    1114.5982   ✗       
+361   GTKEVLLQ+0.984AR         -1.0000     NotChecked  -20.8883    1114.6346   ✗       
+362   GTEELLEAR                -1.0000     NotChecked  -20.9235    1016.5138   ✗       
+363   GTEEVLLEAT               -1.0000     NotChecked  -20.9334    1060.5288   ✗       
+364   GTEQ+0.984VLLQ+0.984AR   -1.0000     Failed      -20.9346    1115.5822   ✓       
+365   GTEEVLLQ+0.984AL         -1.0000     NotChecked  -20.9397    1072.5652   ✗       
+366   GTEDVLLQ+0.984AR         -1.0000     NotChecked  -20.9486    1101.5666   ✗       
+367   GTEKVLLQ+0.984AR         -1.0000     NotChecked  -20.9548    1114.6346   ✗       
+368   GTEEVLLN+0.984AR         -1.0000     NotChecked  -20.9705    1101.5666   ✗       
+369   GTEEVLLQ+0.984AR         -1.0000     Failed      -20.9714    1115.5822   ✓       
+370   GTEQ+0.984VLLSAR         -1.0000     NotChecked  -20.9732    1073.5717   ✗       
+371   GTQ+0.984EVLLN+0.984AR   -1.0000     NotChecked  -20.9760    1101.5666   ✗       
+372   GTQ+0.984EVLLQ+0.984AR   -1.0000     Failed      -20.9768    1115.5822   ✓       
+373   GTEEVLLEAQ               -1.0000     NotChecked  -20.9986    1087.5397   ✗       
+374   GTEEVLLQ+0.984AK         -1.0000     NotChecked  -21.0103    1087.5761   ✗       
+375   GTAEVLLQ+0.984AR         -1.0000     NotChecked  -21.0106    1057.5768   ✗       
+376   GTEEVLLEAN               -1.0000     NotChecked  -21.0486    1073.5241   ✗       
+377   GTDEVLLQ+0.984AR         -1.0000     NotChecked  -21.0619    1101.5666   ✗       
+378   GTEQ+0.984VLLQAR         -1.0000     NotChecked  -21.1166    1114.5982   ✗       
+379   GTEEVSLQAR               -1.0000     NotChecked  -21.1347    1088.5462   ✗       
+380   GTEQ+0.984VLLEAR         -1.0000     Failed      -21.1426    1115.5822   ✓       
+381   GTEKVLLQ+0.984AR         -1.0000     NotChecked  -21.1432    1114.6346   ✗       
+382   GTEEVLLLAR               -1.0000     NotChecked  -21.1857    1099.6237   ✗       
+383   GTEEVLLLAR               -1.0000     NotChecked  -21.2084    1099.6237   ✗       
+384   GTEQ+0.984VLLAR          -1.0000     NotChecked  -21.2469    986.5397    ✗       
+385   GTDEVLLQ+0.984AR         -1.0000     NotChecked  -21.2502    1101.5666   ✗       
+386   GTKQ+0.984VLLEAR         -1.0000     NotChecked  -21.2706    1114.6346   ✗       
+387   GTEEALLQAR               -1.0000     NotChecked  -21.2883    1086.5669   ✗       
+388   GTEQ+0.984VLLQAR         -1.0000     NotChecked  -21.3049    1114.5982   ✗       
+389   GTEEVLLEAG               -1.0000     NotChecked  -21.3456    1016.5026   ✗       
+390   GTEEVLVQAR               -1.0000     NotChecked  -21.3649    1100.5826   ✗       
+391   GTEEVLAQAR               -1.0000     NotChecked  -21.3718    1072.5513   ✗       
+392   GTEEVLLQ+0.984AR         -1.0000     Failed      -21.3747    1115.5822   ✓       
+393   GTEEVLLNAR               -1.0000     NotChecked  -21.3789    1100.5826   ✗       
+394   GTEEVLLQAR               -1.0000     NotChecked  -21.3916    1114.5982   ✗       
+395   GTEEVLLLAR               -1.0000     NotChecked  -21.3967    1099.6237   ✗       
+396   GTEEVLLNAR               -1.0000     NotChecked  -21.4017    1100.5826   ✗       
+397   GTQ+0.984EVLLLAR         -1.0000     NotChecked  -21.4022    1099.6237   ✗       
+398   GTEEVLLQ+0.984AE         -1.0000     NotChecked  -21.4240    1088.5237   ✗       
+399   GTEDVLLQAR               -1.0000     NotChecked  -21.4494    1100.5826   ✗       
+400   GTQEVLLEAR               -1.0000     NotChecked  -21.4596    1114.5982   ✗       
+401   +42.011TEEVLLQ+0.984AR   -1.0000     NotChecked  -21.4994    1100.5713   ✗       
+402   GTEQ+0.984VLLAAR         -1.0000     NotChecked  -21.5068    1057.5768   ✗       
+403   GTEEVLLQAK               -1.0000     NotChecked  -21.5111    1086.5921   ✗       
+404   GTLEVLLQ+0.984AR         -1.0000     NotChecked  -21.5348    1099.6237   ✗       
+405   GTEEVLLQ+0.984AR         -1.0000     Failed      -21.5569    1115.5822   ✓       
+406   GTEEVLLQ+0.984AR         -1.0000     Failed      -21.5631    1115.5822   ✓       
+407   +43.006TEEVLLQ+0.984AR   -1.0000     NotChecked  -21.5712    1101.5666   ✗       
+408   GTEEVLLNAR               -1.0000     NotChecked  -21.5900    1100.5826   ✗       
+409   GTQ+0.984EVLLNAR         -1.0000     NotChecked  -21.5954    1100.5826   ✗       
+410   GTEEVLLSAR               -1.0000     NotChecked  -21.5955    1073.5717   ✗       
+411   GTEEVLLSAR               -1.0000     NotChecked  -21.6182    1073.5717   ✗       
+412   GTEKVLLQAR               -1.0000     NotChecked  -21.6440    1113.6506   ✗       
+413   GTEEVLLEA                -1.0000     NotChecked  -21.6606    959.4811    ✗       
+414   GTEQVLLEAR               -1.0000     NotChecked  -21.6623    1114.5982   ✗       
+415   GSEEVLLQ+0.984AR         -1.0000     NotChecked  -21.6664    1101.5666   ✗       
+416   GTEQVLLEAR               -1.0000     NotChecked  -21.6850    1114.5982   ✗       
+417   GTEVVLLQ+0.984AR         -1.0000     NotChecked  -21.7140    1085.6081   ✗       
+418   GPEEVLLQ+0.984AR         -1.0000     NotChecked  -21.7188    1111.5873   ✗       
+419   GTEEVLLQ+0.984AR         -1.0000     Failed      -21.7231    1115.5822   ✓       
+420   GTLEVLLQ+0.984AR         -1.0000     NotChecked  -21.7231    1099.6237   ✗       
+421   GTEEVLLQAR               -1.0000     NotChecked  -21.7388    1114.5982   ✗       
+422   GTELVLLQ+0.984AR         -1.0000     NotChecked  -21.7424    1099.6237   ✗       
+423   GTEDVLLEAR               -1.0000     NotChecked  -21.7647    1101.5666   ✗       
+424   GTEEVLLQ+0.984AT         -1.0000     NotChecked  -21.7944    1060.5288   ✗       
+425   GTEVLLQ+0.984AR          -1.0000     NotChecked  -21.7973    986.5397    ✗       
+426   GTEEVLLSAR               -1.0000     NotChecked  -21.8065    1073.5717   ✗       
+427   GTQ+0.984EVLLSAR         -1.0000     NotChecked  -21.8119    1073.5717   ✗       
+428   GTESVLLQ+0.984AR         -1.0000     NotChecked  -21.8172    1073.5717   ✗       
+429   GTEEVLLEAK               -1.0000     NotChecked  -21.8264    1087.5761   ✗       
+430   GTAEVLLEAR               -1.0000     NotChecked  -21.8268    1057.5768   ✗       
+431   GTEEVLLQ+0.984AR         -1.0000     Failed      -21.8504    1115.5822   ✓       
+432   GSEEVLLQ+0.984AR         -1.0000     NotChecked  -21.8547    1101.5666   ✗       
+433   GTEEVLLAR                -1.0000     NotChecked  -21.8692    986.5397    ✗       
+434   GTEQVLLEAR               -1.0000     NotChecked  -21.8733    1114.5982   ✗       
+435   GTQ+0.984QVLLEAR         -1.0000     NotChecked  -21.8788    1114.5982   ✗       
+436   GTEEVLLAR                -1.0000     NotChecked  -21.8919    986.5397    ✗       
+437   GTKEVLLEAR               -1.0000     NotChecked  -21.8928    1114.6346   ✗       
+438   GTEAVLLQ+0.984AR         -1.0000     NotChecked  -21.8986    1057.5768   ✗       
+439   GTEVVLLQ+0.984AR         -1.0000     NotChecked  -21.9023    1085.6081   ✗       
+440   GTEEVLLQ+0.984AN         -1.0000     NotChecked  -21.9096    1073.5241   ✗       
+441   GTEEVLLQAR               -1.0000     NotChecked  -21.9174    1114.5982   ✗       
+442   GTEEVLLQAR               -1.0000     NotChecked  -21.9271    1114.5982   ✗       
+443   GTELVLLQ+0.984AR         -1.0000     NotChecked  -21.9307    1099.6237   ✗       
+444   GTEQ+0.984VLLEAR         -1.0000     Failed      -21.9391    1115.5822   ✓       
+445   GTEEVLLEAL               -1.0000     NotChecked  -21.9442    1072.5652   ✗       
+446   GTEEVLLQAR               -1.0000     NotChecked  -21.9498    1114.5982   ✗       
+447   GTEDVLLEAR               -1.0000     NotChecked  -21.9531    1101.5666   ✗       
+448   GTQ+0.984EVLLQAR         -1.0000     NotChecked  -21.9553    1114.5982   ✗       
+449   GTEKVLLEAR               -1.0000     NotChecked  -21.9593    1114.6346   ✗       
+450   GTQ+0.984EVLLEAR         -1.0000     Failed      -21.9813    1115.5822   ✓       
+451   GTEVLLQ+0.984AR          -1.0000     NotChecked  -21.9856    986.5397    ✗       
+452   +42.011TEEVLLQAR         -1.0000     NotChecked  -22.0002    1099.5873   ✗       
+453   GTEQ+0.984VLLN+0.984AR   -1.0000     NotChecked  -22.0027    1101.5666   ✗       
+454   GTEQ+0.984VLLQ+0.984AR   -1.0000     Failed      -22.0035    1115.5822   ✓       
+455   GTESVLLQ+0.984AR         -1.0000     NotChecked  -22.0056    1073.5717   ✗       
+456   GTEEVLLEAK               -1.0000     NotChecked  -22.0148    1087.5761   ✗       
+457   GTAEVLLEAR               -1.0000     NotChecked  -22.0151    1057.5768   ✗       
+458   TEEVLLQ+0.984AR          -1.0000     NotChecked  -22.0387    1058.5608   ✗       
+459   GTEQ+0.984VLLQ+0.984AK   -1.0000     NotChecked  -22.0425    1087.5761   ✗       
+460   GTAQ+0.984VLLQ+0.984AR   -1.0000     NotChecked  -22.0428    1057.5768   ✗       
+461   GTEEVPLQAR               -1.0000     NotChecked  -22.0460    1098.5669   ✗       
+462   GTEEVLLQAR               -1.0000     NotChecked  -22.0639    1114.5982   ✗       
+463   GTDEVLLEAR               -1.0000     NotChecked  -22.0664    1101.5666   ✗       
+464   +43.006TEEVLLQAR         -1.0000     NotChecked  -22.0719    1100.5826   ✗       
+465   GTEEVLLAR                -1.0000     NotChecked  -22.0802    986.5397    ✗       
+466   GAEEVLLQAR               -1.0000     NotChecked  -22.0812    1084.5877   ✗       
+467   GTQ+0.984EVLLAR          -1.0000     NotChecked  -22.0857    986.5397    ✗       
+468   GTEAVLLQ+0.984AR         -1.0000     NotChecked  -22.0869    1057.5768   ✗       
+469   GTEEVLLQR                -1.0000     NotChecked  -22.1188    1043.5611   ✗       
+470   GTEEVLLAAR               -1.0000     NotChecked  -22.1291    1057.5768   ✗       
+471   GTQ+0.984EVLLQAR         -1.0000     NotChecked  -22.1436    1114.5982   ✗       
+472   GTEKVLLEAR               -1.0000     NotChecked  -22.1477    1114.6346   ✗       
+473   GTEEVLLAAR               -1.0000     NotChecked  -22.1518    1057.5768   ✗       
+474   GTEEVLLQ+0.984AG         -1.0000     NotChecked  -22.2066    1016.5026   ✗       
+475   GTEEVVLQAR               -1.0000     NotChecked  -22.2457    1100.5826   ✗       
+476   GTDEVLLEAR               -1.0000     NotChecked  -22.2547    1101.5666   ✗       
+477   GTDQ+0.984VLLQ+0.984AR   -1.0000     NotChecked  -22.2824    1101.5666   ✗       
+478   GTEEVSLQ+0.984AR         -1.0000     NotChecked  -22.3110    1089.5302   ✗       
+479   GTEEVLLAR                -1.0000     NotChecked  -22.3401    986.5397    ✗       
+480   GTQ+0.984EVLLAAR         -1.0000     NotChecked  -22.3455    1057.5768   ✗       
+481   GSEEVLLQAR               -1.0000     NotChecked  -22.3555    1100.5826   ✗       
+482   GTEEVLLQGR               -1.0000     NotChecked  -22.3658    1100.5826   ✗       
+483   GTEVVLLQAR               -1.0000     NotChecked  -22.4031    1084.6241   ✗       
+484   GTEEVLLQAR               -1.0000     NotChecked  -22.4114    1114.5982   ✗       
+485   GTEEVLNQAR               -1.0000     Failed      -22.4187    1115.5571   ✓       
+486   GTEEVLLEAE               -1.0000     NotChecked  -22.4285    1088.5237   ✗       
+487   GTEQ+0.984VLLLAR         -1.0000     NotChecked  -22.4289    1099.6237   ✗       
+488   GTELVLLQAR               -1.0000     NotChecked  -22.4315    1098.6397   ✗       
+489   GTQVLLQ+0.984AR          -1.0000     NotChecked  -22.4617    985.5556    ✗       
+490   GTEEALLQ+0.984AR         -1.0000     NotChecked  -22.4647    1087.5509   ✗       
+491   GTEQ+0.984VLLQ+0.984AR   -1.0000     Failed      -22.4812    1115.5822   ✓       
+492   GTEVLLQAR                -1.0000     NotChecked  -22.4864    985.5556    ✗       
+493   GTEEVSLQ+0.984AR         -1.0000     NotChecked  -22.4993    1089.5302   ✗       
+494   +42.011TEEVLLEAR         -1.0000     NotChecked  -22.5039    1100.5713   ✗       
+495   GTESVLLQAR               -1.0000     NotChecked  -22.5063    1072.5877   ✗       
+496   GTEQVLLQ+0.984AR         -1.0000     NotChecked  -22.5232    1114.5982   ✗       
+497   +42.011TEQ+0.984VLLQ+0.984AR-1.0000     NotChecked  -22.5316    1100.5713   ✗       
+498   GTLEVLLEAR               -1.0000     NotChecked  -22.5393    1099.6237   ✗       
+499   TEEVLLQAR                -1.0000     NotChecked  -22.5395    1057.5768   ✗       
+500   GTEEVLVQ+0.984AR         -1.0000     NotChecked  -22.5413    1101.5666   ✗       
+501   GTEEVALQAR               -1.0000     NotChecked  -22.5434    1072.5513   ✗       
+502   GTEEVLAQ+0.984AR         -1.0000     NotChecked  -22.5481    1073.5353   ✗       
+503   GTEVLLN+0.984AR          -1.0000     NotChecked  -22.5635    972.5240    ✗       
+504   GTEVLLQ+0.984AR          -1.0000     NotChecked  -22.5643    986.5397    ✗       
+505   GTEEVLLQ+0.984AR         -1.0000     Failed      -22.5680    1115.5822   ✓       
+506   +43.006TEEVLLEAR         -1.0000     NotChecked  -22.5757    1101.5666   ✗       
+507   GTEAVLLQAR               -1.0000     NotChecked  -22.5877    1056.5928   ✗       
+508   GTEDVLLQ+0.984AR         -1.0000     NotChecked  -22.6030    1101.5666   ✗       
+509   +43.006TEQ+0.984VLLQ+0.984AR-1.0000     NotChecked  -22.6033    1101.5666   ✗       
+510   GTEEVNLQAR               -1.0000     Failed      -22.6162    1115.5571   ✓       
+511   GTEQ+0.984VLLNAR         -1.0000     NotChecked  -22.6222    1100.5826   ✗       
+512   GTEEVLLN+0.984AR         -1.0000     NotChecked  -22.6250    1101.5666   ✗       
+513   GTEDVLLQ+0.984AR         -1.0000     NotChecked  -22.6257    1101.5666   ✗       
+514   GTEEVLLQ+0.984AR         -1.0000     Failed      -22.6258    1115.5822   ✓       
+515   GTEEALLQ+0.984AR         -1.0000     NotChecked  -22.6530    1087.5509   ✗       
+516   GTEEVLLQ+0.984AK         -1.0000     NotChecked  -22.6647    1087.5761   ✗       
+517   GTAEVLLQ+0.984AR         -1.0000     NotChecked  -22.6650    1057.5768   ✗       
+518   GSEEVLLEAR               -1.0000     NotChecked  -22.6709    1101.5666   ✗       
+519   GTEEVLLQ+0.984AK         -1.0000     NotChecked  -22.6874    1087.5761   ✗       
+520   GTEVVLLEAR               -1.0000     NotChecked  -22.7185    1085.6081   ✗       
+521   GPEEVLLEAR               -1.0000     NotChecked  -22.7233    1111.5873   ✗       
+522   GTLEVLLEAR               -1.0000     NotChecked  -22.7276    1099.6237   ✗       
+523   GTEEVLVQ+0.984AR         -1.0000     NotChecked  -22.7296    1101.5666   ✗       
+524   GTEEVLAQ+0.984AR         -1.0000     NotChecked  -22.7364    1073.5353   ✗       
+525   GTEEVLPQAR               -1.0000     NotChecked  -22.7431    1098.5669   ✗       
+526   GTELVLLEAR               -1.0000     NotChecked  -22.7469    1099.6237   ✗       
+527   GTLQ+0.984VLLQ+0.984AR   -1.0000     NotChecked  -22.7553    1099.6237   ✗       
+528   GTEEVLLQ+0.984AR         -1.0000     Failed      -22.7563    1115.5822   ✓       
+529   GTEKVLLQ+0.984AR         -1.0000     NotChecked  -22.7976    1114.6346   ✗       
+530   GTEEVLLEAT               -1.0000     NotChecked  -22.7989    1060.5288   ✗       
+531   GTEVLLEAR                -1.0000     NotChecked  -22.8018    986.5397    ✗       
+532   GTEDVLLQ+0.984AR         -1.0000     NotChecked  -22.8140    1101.5666   ✗       
+533   GTQ+0.984DVLLQ+0.984AR   -1.0000     NotChecked  -22.8195    1101.5666   ✗       
+534   GTEKVLLQ+0.984AR         -1.0000     NotChecked  -22.8203    1114.6346   ✗       
+535   GTESVLLEAR               -1.0000     NotChecked  -22.8217    1073.5717   ✗       
+536   GTEQ+0.984VLLSAR         -1.0000     NotChecked  -22.8387    1073.5717   ✗       
+537   GSEEVLLEAR               -1.0000     NotChecked  -22.8592    1101.5666   ✗       
+538   GTEEVLLQ+0.984AK         -1.0000     NotChecked  -22.8757    1087.5761   ✗       
+539   GTQ+0.984EVLLQ+0.984AK   -1.0000     NotChecked  -22.8812    1087.5761   ✗       
+540   GSEQ+0.984VLLQ+0.984AR   -1.0000     NotChecked  -22.8869    1101.5666   ✗       
+541   GTEAVLLEAR               -1.0000     NotChecked  -22.9031    1057.5768   ✗       
+542   GTDEVLLQ+0.984AR         -1.0000     NotChecked  -22.9047    1101.5666   ✗       
+543   GTEVVLLEAR               -1.0000     NotChecked  -22.9068    1085.6081   ✗       
+544   GTEEVLLEAN               -1.0000     NotChecked  -22.9141    1073.5241   ✗       
+545   GTELVLLEAR               -1.0000     NotChecked  -22.9352    1099.6237   ✗       
+546   GTEQ+0.984VLLQAR         -1.0000     NotChecked  -22.9593    1114.5982   ✗       
+547   GGEEVLLQAR               -1.0000     NotChecked  -22.9683    1070.5720   ✗       
+548   GTEVLLRAR                -1.0000     NotChecked  -22.9685    1013.5982   ✗       
+549   GTEQ+0.984VLLQAR         -1.0000     NotChecked  -22.9820    1114.5982   ✗       
+550   GTEVLLLAR                -1.0000     NotChecked  -22.9897    970.5811    ✗       
+551   GTEVLLEAR                -1.0000     NotChecked  -22.9901    986.5397    ✗       
+552   GTEEVSLQAR               -1.0000     NotChecked  -23.0001    1088.5462   ✗       
+553   GTEQ+0.984VLLEAR         -1.0000     Failed      -23.0080    1115.5822   ✓       
+554   GTEKVLLQ+0.984AR         -1.0000     NotChecked  -23.0086    1114.6346   ✗       
+555   GTESVLLEAR               -1.0000     NotChecked  -23.0101    1073.5717   ✗       
+556   GTQ+0.984EVLLQ+0.984AR   -1.0000     Failed      -23.0104    1115.5822   ✓       
+557   GTQ+0.984KVLLQ+0.984AR   -1.0000     NotChecked  -23.0141    1114.6346   ✗       
+558   TEEVLLEAR                -1.0000     NotChecked  -23.0432    1058.5608   ✗       
+559   GTEQ+0.984VLLEAK         -1.0000     NotChecked  -23.0470    1087.5761   ✗       
+560   GTAQ+0.984VLLEAR         -1.0000     NotChecked  -23.0473    1057.5768   ✗       
+561   GTEEVLLLAR               -1.0000     NotChecked  -23.0512    1099.6237   ✗       
+562   TEQ+0.984VLLQ+0.984AR    -1.0000     NotChecked  -23.0709    1058.5608   ✗       
+563   GTEAVLLEAR               -1.0000     NotChecked  -23.0914    1057.5768   ✗       
+564   GTEEVLLQ+0.984AR         -1.0000     Failed      -23.0937    1115.5822   ✓       
+565   GTEEVLLQ+0.984AR         -1.0000     Failed      -23.1035    1115.5822   ✓       
+566   +42.011TEEVLLQ+0.984AR   -1.0000     NotChecked  -23.1539    1100.5713   ✗       
+567   GTEEVPLQ+0.984AR         -1.0000     NotChecked  -23.2223    1099.5509   ✗       
+568   +43.006TEEVLLQ+0.984AR   -1.0000     NotChecked  -23.2256    1101.5666   ✗       
+569   GTEEVLLQ+0.984AR         -1.0000     Failed      -23.2402    1115.5822   ✓       
+570   GAEEVLLQ+0.984AR         -1.0000     NotChecked  -23.2575    1085.5717   ✗       
+571   GTEEVLLQ+0.984R          -1.0000     NotChecked  -23.2952    1044.5451   ✗       
+572   GTEEVSLEAR               -1.0000     NotChecked  -23.3155    1089.5302   ✗       
+573   GTQ+0.984EVLLQ+0.984AR   -1.0000     Failed      -23.3199    1115.5822   ✓       
+574   GTQEVLLQ+0.984AR         -1.0000     NotChecked  -23.3280    1114.5982   ✗       
+575   +42.011TEEVLLQ+0.984AR   -1.0000     NotChecked  -23.3649    1100.5713   ✗       
+576   +42.011TQ+0.984EVLLQ+0.984AR-1.0000     NotChecked  -23.3703    1100.5713   ✗       
+577   GTEEVVLQ+0.984AR         -1.0000     NotChecked  -23.4221    1101.5666   ✗       
+578   +43.006TEEVLLQ+0.984AR   -1.0000     NotChecked  -23.4366    1101.5666   ✗       
+579   +43.006TQ+0.984EVLLQ+0.984AR-1.0000     NotChecked  -23.4420    1101.5666   ✗       
+580   GAEEVLLQ+0.984AR         -1.0000     NotChecked  -23.4459    1085.5717   ✗       
+581   GTEEALLEAR               -1.0000     NotChecked  -23.4691    1087.5509   ✗       
+582   GTEQ+0.984VLLEAR         -1.0000     Failed      -23.4857    1115.5822   ✓       
+583   GSEEVLLQ+0.984AR         -1.0000     NotChecked  -23.5091    1101.5666   ✗       
+584   GTEQVLLQ+0.984AR         -1.0000     NotChecked  -23.5307    1114.5982   ✗       
+585   GSEEVLLQ+0.984AR         -1.0000     NotChecked  -23.5318    1101.5666   ✗       
+586   +42.011TEQ+0.984VLLEAR   -1.0000     NotChecked  -23.5361    1100.5713   ✗       
+587   GTEEVLLQ+0.984GR         -1.0000     NotChecked  -23.5422    1101.5666   ✗       
+588   GTEVLLQAR                -1.0000     NotChecked  -23.5428    985.5556    ✗       
+589   GTEEVLVEAR               -1.0000     NotChecked  -23.5458    1101.5666   ✗       
+590   GTEEVLAEAR               -1.0000     NotChecked  -23.5526    1073.5353   ✗       
+591   GTEVLLEAR                -1.0000     NotChecked  -23.5688    986.5397    ✗       
+592   GTEVVLLQ+0.984AR         -1.0000     NotChecked  -23.5794    1085.6081   ✗       
+593   GTEEVLLQ+0.984AR         -1.0000     Failed      -23.5877    1115.5822   ✓       
+594   GTEEVLLQAR               -1.0000     NotChecked  -23.6042    1114.5982   ✗       
+595   GTELVLLQ+0.984AR         -1.0000     NotChecked  -23.6078    1099.6237   ✗       
+596   +43.006TEQ+0.984VLLEAR   -1.0000     NotChecked  -23.6078    1101.5666   ✗       
+597   GTEDVLLEAR               -1.0000     NotChecked  -23.6302    1101.5666   ✗       
+598   GTEEVLLN+0.984AR         -1.0000     NotChecked  -23.6324    1101.5666   ✗       
+599   GTEVLLQ+0.984AR          -1.0000     NotChecked  -23.6627    986.5397    ✗       
+600   GTESVLLQ+0.984AR         -1.0000     NotChecked  -23.6827    1073.5717   ✗       
+601   GTEEVLLEAK               -1.0000     NotChecked  -23.6919    1087.5761   ✗       
+602   TEEVLLQ+0.984AR          -1.0000     NotChecked  -23.6931    1058.5608   ✗       
+603   GTEEVLLQ+0.984AR         -1.0000     Failed      -23.7158    1115.5822   ✓       
+604   GTEEVALQ+0.984AR         -1.0000     NotChecked  -23.7197    1073.5353   ✗       
+605   GSEEVLLQ+0.984AR         -1.0000     NotChecked  -23.7202    1101.5666   ✗       
+606   GSQ+0.984EVLLQ+0.984AR   -1.0000     NotChecked  -23.7256    1101.5666   ✗       
+607   GTKEVLLQ+0.984AR         -1.0000     NotChecked  -23.7612    1114.6346   ✗       
+608   GTEAVLLQ+0.984AR         -1.0000     NotChecked  -23.7641    1057.5768   ✗       
+609   GTEKVLLEAR               -1.0000     NotChecked  -23.8248    1114.6346   ✗       
+610   GSEQ+0.984VLLEAR         -1.0000     NotChecked  -23.8914    1101.5666   ✗       
+611   TEEVLLQ+0.984AR          -1.0000     NotChecked  -23.9041    1058.5608   ✗       
+612   TQ+0.984EVLLQ+0.984AR    -1.0000     NotChecked  -23.9096    1058.5608   ✗       
+613   GTEEVLPQ+0.984AR         -1.0000     NotChecked  -23.9194    1099.5509   ✗       
+614   GAEEVLLQAR               -1.0000     NotChecked  -23.9467    1084.5877   ✗       
+615   GTEEVLLLAR               -1.0000     NotChecked  -24.0586    1099.6237   ✗       
+616   TEQ+0.984VLLEAR          -1.0000     NotChecked  -24.0754    1058.5608   ✗       
+617   GTEQ+0.984VLLQ+0.984AR   -1.0000     Failed      -24.1356    1115.5822   ✓       
+618   GEEVLLQ+0.984AR          -1.0000     NotChecked  -24.1447    1014.5346   ✗       
+619   +42.011TEEVLLEAR         -1.0000     NotChecked  -24.1584    1100.5713   ✗       
+620   GTEEVSLQ+0.984AR         -1.0000     NotChecked  -24.1765    1089.5302   ✗       
+621   GTEEVPLEAR               -1.0000     NotChecked  -24.2268    1099.5509   ✗       
+622   +43.006TEEVLLEAR         -1.0000     NotChecked  -24.2301    1101.5666   ✗       
+623   GTEEVLLNAR               -1.0000     NotChecked  -24.2518    1100.5826   ✗       
+624   GAEEVLLEAR               -1.0000     NotChecked  -24.2620    1085.5717   ✗       
+625   GTEEVLLER                -1.0000     NotChecked  -24.2997    1044.5451   ✗       
+626   GTQEVLLQAR               -1.0000     NotChecked  -24.3064    1113.6142   ✗       
+627   GTQ+0.984EVLLEAR         -1.0000     Failed      -24.3244    1115.5822   ✓       
+628   GTEEALLQ+0.984AR         -1.0000     NotChecked  -24.3301    1087.5509   ✗       
+629   GTQEVLLEAR               -1.0000     NotChecked  -24.3325    1114.5982   ✗       
+630   GGEEVLLQ+0.984AR         -1.0000     NotChecked  -24.3330    1071.5560   ✗       
+631   GTEQ+0.984VLLQ+0.984AR   -1.0000     Failed      -24.3467    1115.5822   ✓       
+632   GTQ+0.984Q+0.984VLLQ+0.984AR-1.0000     Failed      -24.3521    1115.5822   ✓       
+633   +42.011TEEVLLEAR         -1.0000     NotChecked  -24.3694    1100.5713   ✗       
+634   +42.011TQ+0.984EVLLEAR   -1.0000     NotChecked  -24.3748    1100.5713   ✗       
+635   +42.011TEQ+0.984VLLQ+0.984AR-1.0000     NotChecked  -24.3971    1100.5713   ✗       
+636   GTEEVLVQ+0.984AR         -1.0000     NotChecked  -24.4067    1101.5666   ✗       
+637   GTEEVLAQ+0.984AR         -1.0000     NotChecked  -24.4136    1073.5353   ✗       
+638   GTEEVVLEAR               -1.0000     NotChecked  -24.4266    1101.5666   ✗       
+639   GTEEVLLQ+0.984AR         -1.0000     Failed      -24.4297    1115.5822   ✓       
+640   GTEEVLLQ+0.984AR         -1.0000     Failed      -24.4334    1115.5822   ✓       
+641   +43.006TEEVLLEAR         -1.0000     NotChecked  -24.4411    1101.5666   ✗       
+642   +43.006TQ+0.984EVLLEAR   -1.0000     NotChecked  -24.4465    1101.5666   ✗       
+643   GAEEVLLEAR               -1.0000     NotChecked  -24.4504    1085.5717   ✗       
+644   GTEEVLLSAR               -1.0000     NotChecked  -24.4684    1073.5717   ✗       
+645   +43.006TEQ+0.984VLLQ+0.984AR-1.0000     NotChecked  -24.4688    1101.5666   ✗       
+646   GTEEGLLQ+0.984AR         -1.0000     NotChecked  -24.4774    1073.5353   ✗       
+647   GAEQ+0.984VLLQ+0.984AR   -1.0000     NotChecked  -24.4781    1085.5717   ✗       
+648   GTEQVLLQAR               -1.0000     NotChecked  -24.5091    1113.6142   ✗       
+649   GSEEVLLEAR               -1.0000     NotChecked  -24.5136    1101.5666   ✗       
+650   GTEQVLLEAR               -1.0000     NotChecked  -24.5352    1114.5982   ✗       
+651   GSEEVLLEAR               -1.0000     NotChecked  -24.5363    1101.5666   ✗       
+652   GTEEVLLEGR               -1.0000     NotChecked  -24.5467    1101.5666   ✗       
+653   GTEVVLLEAR               -1.0000     NotChecked  -24.5839    1085.6081   ✗       
+654   GTELVLLEAR               -1.0000     NotChecked  -24.6123    1099.6237   ✗       
+655   GTEVLLEAR                -1.0000     NotChecked  -24.6672    986.5397    ✗       
+656   GTESVLLEAR               -1.0000     NotChecked  -24.6872    1073.5717   ✗       
+657   TEEVLLEAR                -1.0000     NotChecked  -24.6976    1058.5608   ✗       
+658   GTEEVALEAR               -1.0000     NotChecked  -24.7242    1073.5353   ✗       
+659   GSEEVLLEAR               -1.0000     NotChecked  -24.7246    1101.5666   ✗       
+660   GSQ+0.984EVLLEAR         -1.0000     NotChecked  -24.7301    1101.5666   ✗       
+661   GTKEVLLQAR               -1.0000     NotChecked  -24.7397    1113.6506   ✗       
+662   GTEEVLLAR                -1.0000     NotChecked  -24.7421    986.5397    ✗       
+663   GSEQ+0.984VLLQ+0.984AR   -1.0000     NotChecked  -24.7523    1101.5666   ✗       
+664   GTKEVLLEAR               -1.0000     NotChecked  -24.7657    1114.6346   ✗       
+665   GTEAVLLEAR               -1.0000     NotChecked  -24.7686    1057.5768   ✗       
+666   GTEEVLLQAR               -1.0000     NotChecked  -24.8000    1114.5982   ✗       
+667   GGEEVLLQAR               -1.0000     NotChecked  -24.8338    1070.5720   ✗       
+668   GTEEVLLQ+0.984AV         -1.0000     NotChecked  -24.8675    1058.5495   ✗       
+669   GTEVLLQ+0.984AR          -1.0000     NotChecked  -24.9074    986.5397    ✗       
+670   TEEVLLEAR                -1.0000     NotChecked  -24.9086    1058.5608   ✗       
+671   TQ+0.984EVLLEAR          -1.0000     NotChecked  -24.9141    1058.5608   ✗       
+672   GTEEVLPEAR               -1.0000     NotChecked  -24.9239    1099.5509   ✗       
+673   GTEELLQ+0.984AR          -1.0000     NotChecked  -24.9239    1016.5138   ✗       
+674   TEQ+0.984VLLQ+0.984AR    -1.0000     NotChecked  -24.9363    1058.5608   ✗       
+675   +42.011TEVLLQ+0.984AR    -1.0000     NotChecked  -24.9578    971.5288    ✗       
+676   GTEEVLLQ+0.984AR         -1.0000     Failed      -24.9591    1115.5822   ✓       
+677   GTEEVLLQ+0.984AR         -1.0000     Failed      -24.9689    1115.5822   ✓       
+678   GTQ+0.984EVLLQ+0.984AR   -1.0000     Failed      -24.9744    1115.5822   ✓       
+679   GTEEVLLQ+0.984AQ         -1.0000     NotChecked  -24.9991    1087.5397   ✗       
+680   GTEEVLLAAR               -1.0000     NotChecked  -25.0019    1057.5768   ✗       
+681   +42.011TEEVLLQ+0.984AR   -1.0000     NotChecked  -25.0193    1100.5713   ✗       
+682   +43.006TEVLLQ+0.984AR    -1.0000     NotChecked  -25.0295    972.5240    ✗       
+683   GTEEVPLQ+0.984AR         -1.0000     NotChecked  -25.0878    1099.5509   ✗       
+684   +43.006TEEVLLQ+0.984AR   -1.0000     NotChecked  -25.0910    1101.5666   ✗       
+685   GAEEVLLQ+0.984AR         -1.0000     NotChecked  -25.1003    1085.5717   ✗       
+686   GAEEVLLQ+0.984AR         -1.0000     NotChecked  -25.1230    1085.5717   ✗       
+687   GTEQ+0.984VLLEAR         -1.0000     Failed      -25.1401    1115.5822   ✓       
+688   GEEVLLEAR                -1.0000     NotChecked  -25.1492    1014.5346   ✗       
+689   GTEEVLLQ+0.984R          -1.0000     NotChecked  -25.1606    1044.5451   ✗       
+690   GTEEVSLEAR               -1.0000     NotChecked  -25.1810    1089.5302   ✗       
+691   GTEEVVLQ+0.984AR         -1.0000     NotChecked  -25.2875    1101.5666   ✗       
+692   GAEEVLLQ+0.984AR         -1.0000     NotChecked  -25.3113    1085.5717   ✗       
+693   GSEVLLQ+0.984AR          -1.0000     NotChecked  -25.3131    972.5240    ✗       
+694   GAQ+0.984EVLLQ+0.984AR   -1.0000     NotChecked  -25.3168    1085.5717   ✗       
+695   GTEEALLEAR               -1.0000     NotChecked  -25.3346    1087.5509   ✗       
+696   GGEEVLLEAR               -1.0000     NotChecked  -25.3375    1071.5560   ✗       
+697   GTEQ+0.984VLLEAR         -1.0000     Failed      -25.3512    1115.5822   ✓       
+698   GTQ+0.984Q+0.984VLLEAR   -1.0000     Failed      -25.3566    1115.5822   ✓       
+699   GTEEVLLQ+0.984AR         -1.0000     Failed      -25.3621    1115.5822   ✓       
+700   GGEQ+0.984VLLQ+0.984AR   -1.0000     NotChecked  -25.3652    1071.5560   ✗       
+701   GSEEVLLQ+0.984AR         -1.0000     NotChecked  -25.3746    1101.5666   ✗       
+702   GTEEVLLQ+0.984AR         -1.0000     Failed      -25.3827    1115.5822   ✓       
+703   GTEQVLLQ+0.984AR         -1.0000     NotChecked  -25.3961    1114.5982   ✗       
+704   +42.011TEQ+0.984VLLEAR   -1.0000     NotChecked  -25.4016    1100.5713   ✗       
+705   GTEEVLLQ+0.984GR         -1.0000     NotChecked  -25.4076    1101.5666   ✗       
+706   GTEEVLLQAR               -1.0000     NotChecked  -25.4082    1114.5982   ✗       
+707   GTEEVLVEAR               -1.0000     NotChecked  -25.4112    1101.5666   ✗       
+708   GTEEVLAEAR               -1.0000     NotChecked  -25.4180    1073.5353   ✗       
+709   GTEEVLLQ+0.984AR         -1.0000     Failed      -25.4407    1115.5822   ✓       
+710   GTEEVLLQ+0.984AR         -1.0000     Failed      -25.4532    1115.5822   ✓       
+711   +43.006TEQ+0.984VLLEAR   -1.0000     NotChecked  -25.4733    1101.5666   ✗       
+712   GTEDVLLQ+0.984AR         -1.0000     NotChecked  -25.4759    1101.5666   ✗       
+713   GTEEGLLEAR               -1.0000     NotChecked  -25.4819    1073.5353   ✗       
+714   GAEQ+0.984VLLEAR         -1.0000     NotChecked  -25.4825    1085.5717   ✗       
+715   TEVLLQ+0.984AR           -1.0000     NotChecked  -25.4971    929.5182    ✗       
+716   GTEEVLLN+0.984AR         -1.0000     NotChecked  -25.4978    1101.5666   ✗       
+717   GTEEVLLQ+0.984AK         -1.0000     NotChecked  -25.5376    1087.5761   ✗       
+718   GTAEVLLQ+0.984AR         -1.0000     NotChecked  -25.5379    1057.5768   ✗       
+719   GPEEVLLQAR               -1.0000     NotChecked  -25.5475    1110.6033   ✗       
+720   TEEVLLQ+0.984AR          -1.0000     NotChecked  -25.5586    1058.5608   ✗       
+721   GTEEVALQ+0.984AR         -1.0000     NotChecked  -25.5852    1073.5353   ✗       
+722   ATEVLLQ+0.984AR          -1.0000     NotChecked  -25.6255    1000.5553   ✗       
+723   GTEEVLLQ+0.984A          -1.0000     NotChecked  -25.6610    959.4811    ✗       
+724   GTEKVLLQ+0.984AR         -1.0000     NotChecked  -25.6705    1114.6346   ✗       
+725   GTQEVLLQ+0.984AR         -1.0000     NotChecked  -25.6711    1114.5982   ✗       
+726   +42.011TQEVLLQ+0.984AR   -1.0000     NotChecked  -25.7215    1099.5873   ✗       
+727   GSEQ+0.984VLLEAR         -1.0000     NotChecked  -25.7568    1101.5666   ✗       
+728   GTDEVLLQ+0.984AR         -1.0000     NotChecked  -25.7775    1101.5666   ✗       
+729   GTEEVLPQ+0.984AR         -1.0000     NotChecked  -25.7849    1099.5509   ✗       
+730   +43.006TQEVLLQ+0.984AR   -1.0000     NotChecked  -25.7932    1100.5826   ✗       
+731   GTEQ+0.984VLLQAR         -1.0000     NotChecked  -25.8322    1114.5982   ✗       
+732   GTEEVLLEAV               -1.0000     NotChecked  -25.8719    1058.5495   ✗       
+733   GTEQVLLQ+0.984AR         -1.0000     NotChecked  -25.8738    1114.5982   ✗       
+734   GTEVLLEAR                -1.0000     NotChecked  -25.9119    986.5397    ✗       
+735   GTEEVLLLAR               -1.0000     NotChecked  -25.9240    1099.6237   ✗       
+736   +42.011TEQVLLQ+0.984AR   -1.0000     NotChecked  -25.9242    1099.5873   ✗       
+737   GTEELLEAR                -1.0000     NotChecked  -25.9284    1016.5138   ✗       
+738   GTQ+0.984VLLQ+0.984AR    -1.0000     NotChecked  -25.9396    986.5397    ✗       
+739   TEQ+0.984VLLEAR          -1.0000     NotChecked  -25.9408    1058.5608   ✗       
+740   GTEEVLLQ+0.984AL         -1.0000     NotChecked  -25.9447    1072.5652   ✗       
+741   +42.011TEVLLEAR          -1.0000     NotChecked  -25.9623    971.5288    ✗       
+742   GTEEVLLN+0.984AR         -1.0000     NotChecked  -25.9755    1101.5666   ✗       
+743   GTQ+0.984EVLLEAR         -1.0000     Failed      -25.9789    1115.5822   ✓       
+744   GGEEVLLQ+0.984AR         -1.0000     NotChecked  -25.9874    1071.5560   ✗       
+745   +43.006TEQVLLQ+0.984AR   -1.0000     NotChecked  -25.9959    1100.5826   ✗       
+746   GTEQ+0.984VLLQ+0.984AR   -1.0000     Failed      -26.0011    1115.5822   ✓       
+747   GTEEVLLEAQ               -1.0000     NotChecked  -26.0036    1087.5397   ✗       
+748   GEEVLLQ+0.984AR          -1.0000     NotChecked  -26.0101    1014.5346   ✗       
+749   +42.011TEEVLLEAR         -1.0000     NotChecked  -26.0238    1100.5713   ✗       
+750   +42.011TEEVLLN+0.984AR   -1.0000     NotChecked  -26.0259    1086.5557   ✗       
+751   +42.011TEEVLLQ+0.984AR   -1.0000     NotChecked  -26.0267    1100.5713   ✗       
+752   +43.006TEVLLEAR          -1.0000     NotChecked  -26.0340    972.5240    ✗       
+753   GSQEVLLQ+0.984AR         -1.0000     NotChecked  -26.0767    1100.5826   ✗       
+754   GTEEVLLQ+0.984AR         -1.0000     Failed      -26.0904    1115.5822   ✓       
+755   GTEEVPLEAR               -1.0000     NotChecked  -26.0923    1099.5509   ✗       
+756   +43.006TEEVLLEAR         -1.0000     NotChecked  -26.0955    1101.5666   ✗       
+757   +43.006TEEVLLN+0.984AR   -1.0000     NotChecked  -26.0976    1087.5509   ✗       
+758   +43.006TEEVLLQ+0.984AR   -1.0000     NotChecked  -26.0985    1101.5666   ✗       
+759   GTKEVLLQ+0.984AR         -1.0000     NotChecked  -26.1043    1114.6346   ✗       
+760   GAEEVLLEAR               -1.0000     NotChecked  -26.1048    1085.5717   ✗       
+761   GTEEVLLNAR               -1.0000     NotChecked  -26.1173    1100.5826   ✗       
+762   GAEEVLLEAR               -1.0000     NotChecked  -26.1275    1085.5717   ✗       
+763   +42.011TKEVLLQ+0.984AR   -1.0000     NotChecked  -26.1547    1099.6237   ✗       
+764   GTEEVLLER                -1.0000     NotChecked  -26.1651    1044.5451   ✗       
+765   GGEEVLLQ+0.984AR         -1.0000     NotChecked  -26.1985    1071.5560   ✗       
+766   GGQ+0.984EVLLQ+0.984AR   -1.0000     NotChecked  -26.2039    1071.5560   ✗       
+767   +43.006TKEVLLQ+0.984AR   -1.0000     NotChecked  -26.2264    1100.6190   ✗       
+768   GTLEVLLQ+0.984AR         -1.0000     NotChecked  -26.2504    1099.6237   ✗       
+769   TQEVLLQ+0.984AR          -1.0000     NotChecked  -26.2607    1057.5768   ✗       
+770   GSEQVLLQ+0.984AR         -1.0000     NotChecked  -26.2795    1100.5826   ✗       
+771   GTEEVVLEAR               -1.0000     NotChecked  -26.2920    1101.5666   ✗       
+772   GAEEVLLEAR               -1.0000     NotChecked  -26.3158    1085.5717   ✗       
+773   GSEVLLEAR                -1.0000     NotChecked  -26.3176    972.5240    ✗       
+774   GAQ+0.984EVLLEAR         -1.0000     NotChecked  -26.3213    1085.5717   ✗       
+775   GTEEVLLSAR               -1.0000     NotChecked  -26.3338    1073.5717   ✗       
+776   GTEEGLLQ+0.984AR         -1.0000     NotChecked  -26.3428    1073.5353   ✗       
+777   GAEQ+0.984VLLQ+0.984AR   -1.0000     NotChecked  -26.3435    1085.5717   ✗       
+778   GGEQ+0.984VLLEAR         -1.0000     NotChecked  -26.3697    1071.5560   ✗       
+779   GTEQVLLQAR               -1.0000     NotChecked  -26.3746    1113.6142   ✗       
+780   GSEEVLLEAR               -1.0000     NotChecked  -26.3791    1101.5666   ✗       
+781   GSEEVLLN+0.984AR         -1.0000     NotChecked  -26.3812    1087.5510   ✗       
+782   GTEQVLLEAR               -1.0000     NotChecked  -26.4006    1114.5982   ✗       
+783   GTEEVLLLAR               -1.0000     NotChecked  -26.4017    1099.6237   ✗       
+784   GTEEVLLEGR               -1.0000     NotChecked  -26.4121    1101.5666   ✗       
+785   GTEEVLLQ+0.984AE         -1.0000     NotChecked  -26.4289    1088.5237   ✗       
+786   GTEVVLLQ+0.984AR         -1.0000     NotChecked  -26.4296    1085.6081   ✗       
+787   +42.011TEEVLLLAR         -1.0000     NotChecked  -26.4521    1084.6128   ✗       
+788   GTEDVLLQAR               -1.0000     NotChecked  -26.4543    1100.5826   ✗       
+789   GTEEVLLQAR               -1.0000     NotChecked  -26.4544    1114.5982   ✗       
+790   GTELVLLQ+0.984AR         -1.0000     NotChecked  -26.4580    1099.6237   ✗       
+791   TEQVLLQ+0.984AR          -1.0000     NotChecked  -26.4634    1057.5768   ✗       
+792   GTEDVLLEAR               -1.0000     NotChecked  -26.4804    1101.5666   ✗       
+793   TEVLLEAR                 -1.0000     NotChecked  -26.5016    929.5182    ✗       
+794   GSKEVLLQ+0.984AR         -1.0000     NotChecked  -26.5100    1100.6190   ✗       
+795   GTEVLLQ+0.984AR          -1.0000     NotChecked  -26.5129    986.5397    ✗       
+796   GTEEVLLQAK               -1.0000     NotChecked  -26.5160    1086.5921   ✗       
+797   GTAEVLLQAR               -1.0000     NotChecked  -26.5164    1056.5928   ✗       
+798   +43.006TEEVLLLAR         -1.0000     NotChecked  -26.5238    1085.6081   ✗       
+799   TEEVLLEAR                -1.0000     NotChecked  -26.5631    1058.5608   ✗       
+800   TEEVLLN+0.984AR          -1.0000     NotChecked  -26.5652    1044.5451   ✗       
+801   TEEVLLQ+0.984AR          -1.0000     NotChecked  -26.5660    1058.5608   ✗       
+802   ATEVLLEAR                -1.0000     NotChecked  -26.6300    1000.5553   ✗       
+803   +42.011TEEVLLNAR         -1.0000     NotChecked  -26.6454    1085.5717   ✗       
+804   ATEEVLLN+0.984AR         -1.0000     Failed      -26.6936    1115.5822   ✓       
+805   TKEVLLQ+0.984AR          -1.0000     NotChecked  -26.6940    1057.6132   ✗       
+806   +43.006TEEVLLNAR         -1.0000     NotChecked  -26.7171    1086.5669   ✗       
+807   +42.011TQEVLLEAR         -1.0000     NotChecked  -26.7260    1099.5873   ✗       
+808   +43.006TQEVLLEAR         -1.0000     NotChecked  -26.7977    1100.5826   ✗       
+809   +42.011TEEVLLQ+0.984AR   -1.0000     NotChecked  -26.8233    1100.5713   ✗       
+810   +42.011TEEVLLSAR         -1.0000     NotChecked  -26.8619    1058.5608   ✗       
+811   +43.006TEEVLLQ+0.984AR   -1.0000     NotChecked  -26.8950    1101.5666   ✗       
+812   +42.011TEQVLLEAR         -1.0000     NotChecked  -26.9287    1099.5873   ✗       
+813   +43.006TEEVLLSAR         -1.0000     NotChecked  -26.9336    1059.5560   ✗       
+814   TEEVLLRAR                -1.0000     NotChecked  -26.9702    1085.6193   ✗       
+815   TEEVLLLAR                -1.0000     NotChecked  -26.9914    1042.6023   ✗       
+816   +43.006TEQVLLEAR         -1.0000     NotChecked  -27.0004    1100.5826   ✗       
+817   +42.011TEEVLLEAR         -1.0000     NotChecked  -27.0312    1100.5713   ✗       
+818   +43.006TEEVLLEAR         -1.0000     NotChecked  -27.1029    1101.5666   ✗       
+819   ATEEVLLLAR               -1.0000     NotChecked  -27.1198    1113.6394   ✗       
+820   +42.011TEEVLLAR          -1.0000     NotChecked  -27.1356    971.5288    ✗       
+821   +42.011TKEVLLEAR         -1.0000     NotChecked  -27.1592    1099.6237   ✗       
+822   TEEVLLNAR                -1.0000     NotChecked  -27.1846    1043.5611   ✗       
+823   +42.011TEEVLLQAR         -1.0000     NotChecked  -27.1935    1099.5873   ✗       
+824   +43.006TEEVLLAR          -1.0000     NotChecked  -27.2073    972.5240    ✗       
+825   +43.006TKEVLLEAR         -1.0000     NotChecked  -27.2309    1100.6190   ✗       
+826   TQEVLLEAR                -1.0000     NotChecked  -27.2652    1057.5768   ✗       
+827   +43.006TEEVLLQAR         -1.0000     NotChecked  -27.2652    1100.5826   ✗       
+828   ETEVLLQ+0.984AR          -1.0000     NotChecked  -27.2908    1058.5608   ✗       
+829   ATEEVLLNAR               -1.0000     NotChecked  -27.3131    1114.5982   ✗       
+830   TEEVLLQ+0.984AR          -1.0000     NotChecked  -27.3625    1058.5608   ✗       
+831   +42.011TEEVLLAAR         -1.0000     NotChecked  -27.3955    1042.5659   ✗       
+832   TEEVLLSAR                -1.0000     NotChecked  -27.4011    1016.5502   ✗       
+833   +43.006TEEVLLAAR         -1.0000     NotChecked  -27.4672    1043.5611   ✗       
+834   TEQVLLEAR                -1.0000     NotChecked  -27.4679    1057.5768   ✗       
+835   ATEEVLLSAR               -1.0000     NotChecked  -27.5296    1087.5873   ✗       
+836   GTEEVLLQAR               -1.0000     NotChecked  -27.5445    1114.5982   ✗       
+837   TEEVLLEAR                -1.0000     NotChecked  -27.5705    1058.5608   ✗       
+838   TEEVLLAR                 -1.0000     NotChecked  -27.6748    929.5182    ✗       
+839   TKEVLLEAR                -1.0000     NotChecked  -27.6985    1057.6132   ✗       
+840   TEEVLLQAR                -1.0000     NotChecked  -27.7328    1057.5768   ✗       
+841   +42.011TEQVLLQ+0.984AR   -1.0000     NotChecked  -27.7896    1099.5873   ✗       
+842   ATEEVLLAR                -1.0000     NotChecked  -27.8033    1000.5553   ✗       
+843   +42.011TEEVLLEAR         -1.0000     NotChecked  -27.8278    1100.5713   ✗       
+844   +43.006TEQVLLQ+0.984AR   -1.0000     NotChecked  -27.8614    1100.5826   ✗       
+845   +42.011TEDVLLQ+0.984AR   -1.0000     NotChecked  -27.8694    1086.5557   ✗       
+846   +42.011TEEVLLN+0.984AR   -1.0000     NotChecked  -27.8914    1086.5557   ✗       
+847   +42.011TEEVLLQ+0.984AR   -1.0000     NotChecked  -27.8922    1100.5713   ✗       
+848   +43.006TEEVLLEAR         -1.0000     NotChecked  -27.8995    1101.5666   ✗       
+849   +42.011TEEVLLQ+0.984AK   -1.0000     NotChecked  -27.9311    1072.5652   ✗       
+850   +42.011TAEVLLQ+0.984AR   -1.0000     NotChecked  -27.9314    1042.5659   ✗       
+851   TEEVLLAAR                -1.0000     NotChecked  -27.9347    1000.5553   ✗       
+852   +43.006TEDVLLQ+0.984AR   -1.0000     NotChecked  -27.9411    1087.5509   ✗       
+853   +43.006TEEVLLN+0.984AR   -1.0000     NotChecked  -27.9631    1087.5509   ✗       
+854   +43.006TEEVLLQ+0.984AR   -1.0000     NotChecked  -27.9639    1101.5666   ✗       
+855   +43.006TEEVLLQ+0.984AK   -1.0000     NotChecked  -28.0028    1073.5604   ✗       
+856   +43.006TAEVLLQ+0.984AR   -1.0000     NotChecked  -28.0031    1043.5611   ✗       
+857   ATEEVLLAAR               -1.0000     NotChecked  -28.0632    1071.5924   ✗       
+858   +42.011TEKVLLQ+0.984AR   -1.0000     NotChecked  -28.0640    1099.6237   ✗       
+859   +43.006TEKVLLQ+0.984AR   -1.0000     NotChecked  -28.1357    1100.6190   ✗       
+860   +42.011TDEVLLQ+0.984AR   -1.0000     NotChecked  -28.1711    1086.5557   ✗       
+861   +42.011TEQ+0.984VLLQAR   -1.0000     NotChecked  -28.2257    1099.5873   ✗       
+862   +43.006TDEVLLQ+0.984AR   -1.0000     NotChecked  -28.2428    1087.5509   ✗       
+863   TREVLLQ+0.984AR          -1.0000     NotChecked  -28.2776    1085.6193   ✗       
+864   ETEVLLEAR                -1.0000     NotChecked  -28.2953    1058.5608   ✗       
+865   +43.006TEQ+0.984VLLQAR   -1.0000     NotChecked  -28.2974    1100.5826   ✗       
+866   +42.011TEEVLLLAR         -1.0000     NotChecked  -28.3176    1084.6128   ✗       
+867   TEQVLLQ+0.984AR          -1.0000     NotChecked  -28.3289    1057.5768   ✗       
+868   +42.011TMEVLLQ+0.984AR   -1.0000     NotChecked  -28.3645    1102.5692   ✗       
+869   TEEVLLEAR                -1.0000     NotChecked  -28.3670    1058.5608   ✗       
+870   +43.006TEEVLLLAR         -1.0000     NotChecked  -28.3893    1085.6081   ✗       
+871   TEDVLLQ+0.984AR          -1.0000     NotChecked  -28.4086    1044.5451   ✗       
+872   TEEVLLN+0.984AR          -1.0000     NotChecked  -28.4306    1044.5451   ✗       
+873   TEEVLLQ+0.984AR          -1.0000     NotChecked  -28.4314    1058.5608   ✗       
+874   STEVLLQ+0.984AR          -1.0000     NotChecked  -28.4349    1016.5502   ✗       
+875   +43.006TMEVLLQ+0.984AR   -1.0000     NotChecked  -28.4362    1103.5645   ✗       
+876   TEEVLLQ+0.984AK          -1.0000     NotChecked  -28.4704    1030.5546   ✗       
+877   TAEVLLQ+0.984AR          -1.0000     NotChecked  -28.4707    1000.5553   ✗       
+878   +42.011TEEVLLQ+0.984AR   -1.0000     NotChecked  -28.4839    1100.5713   ✗       
+879   +42.011TEEVLLNAR         -1.0000     NotChecked  -28.5108    1085.5717   ✗       
+880   ATEDVLLQ+0.984AR         -1.0000     Failed      -28.5371    1115.5822   ✓       
+881   +43.006TEEVLLQ+0.984AR   -1.0000     NotChecked  -28.5556    1101.5666   ✗       
+882   ATEEVLLN+0.984AR         -1.0000     Failed      -28.5591    1115.5822   ✓       
+883   +43.006TEEVLLNAR         -1.0000     NotChecked  -28.5825    1086.5669   ✗       
+884   ATEEVLLQ+0.984AK         -1.0000     NotChecked  -28.5988    1101.5917   ✗       
+885   ATAEVLLQ+0.984AR         -1.0000     NotChecked  -28.5991    1071.5924   ✗       
+886   DTEVLLQ+0.984AR          -1.0000     NotChecked  -28.6000    1044.5451   ✗       
+887   TEKVLLQ+0.984AR          -1.0000     NotChecked  -28.6032    1057.6132   ✗       
+888   +42.011TLEVLLQ+0.984AR   -1.0000     NotChecked  -28.6439    1084.6128   ✗       
+889   RTEVLLQ+0.984AR          -1.0000     NotChecked  -28.6771    1085.6193   ✗       
+890   TDEVLLQ+0.984AR          -1.0000     NotChecked  -28.7103    1044.5451   ✗       
+891   +43.006TLEVLLQ+0.984AR   -1.0000     NotChecked  -28.7156    1085.6081   ✗       
+892   VTEVLLQ+0.984AR          -1.0000     NotChecked  -28.7264    1028.5866   ✗       
+893   +42.011TEEVLLSAR         -1.0000     NotChecked  -28.7273    1058.5608   ✗       
+894   TEQ+0.984VLLQAR          -1.0000     NotChecked  -28.7650    1057.5768   ✗       
+895   +42.011SEEVLLQ+0.984AR   -1.0000     NotChecked  -28.7755    1086.5557   ✗       
+896   +42.011TEQVLLEAR         -1.0000     NotChecked  -28.7941    1099.5873   ✗       
+897   +43.006TEEVLLSAR         -1.0000     NotChecked  -28.7990    1059.5560   ✗       
+898   +42.011TEELLLQ+0.984AR   -1.0000     NotChecked  -28.8213    1114.5870   ✗       
+899   +42.011TEVVLLQ+0.984AR   -1.0000     NotChecked  -28.8231    1070.5972   ✗       
+900   TEEVLLRAR                -1.0000     NotChecked  -28.8357    1085.6193   ✗       
+901   ATDEVLLQ+0.984AR         -1.0000     Failed      -28.8388    1115.5822   ✓       
+902   +43.006SEEVLLQ+0.984AR   -1.0000     NotChecked  -28.8472    1087.5510   ✗       
+903   +42.011TEEVLLQAR         -1.0000     NotChecked  -28.8480    1099.5873   ✗       
+904   +42.011TELVLLQ+0.984AR   -1.0000     NotChecked  -28.8515    1084.6128   ✗       
+905   TEEVLLLAR                -1.0000     NotChecked  -28.8568    1042.6023   ✗       
+906   +43.006TEQVLLEAR         -1.0000     NotChecked  -28.8659    1100.5826   ✗       
+907   +42.011TEDVLLEAR         -1.0000     NotChecked  -28.8739    1086.5557   ✗       
+908   +43.006TEELLLQ+0.984AR   -1.0000     Failed      -28.8930    1115.5822   ✓       
+909   +43.006TEVVLLQ+0.984AR   -1.0000     NotChecked  -28.8948    1071.5924   ✗       
+910   +42.011TEEVLLEAR         -1.0000     NotChecked  -28.8967    1100.5713   ✗       
+911   TMEVLLQ+0.984AR          -1.0000     NotChecked  -28.9037    1060.5587   ✗       
+912   +42.011TEVLLQ+0.984AR    -1.0000     NotChecked  -28.9064    971.5288    ✗       
+913   GTEEVLLQ+0.984AR         -1.0000     Failed      -28.9091    1115.5822   ✓       
+914   +43.006TEEVLLQAR         -1.0000     NotChecked  -28.9197    1100.5826   ✗       
+915   +43.006TELVLLQ+0.984AR   -1.0000     NotChecked  -28.9232    1085.6081   ✗       
+916   +42.011TESVLLQ+0.984AR   -1.0000     NotChecked  -28.9264    1058.5608   ✗       
+917   +42.011TEEVLLEAK         -1.0000     NotChecked  -28.9356    1072.5652   ✗       
+918   +42.011TAEVLLEAR         -1.0000     NotChecked  -28.9359    1042.5659   ✗       
+919   +43.006TEDVLLEAR         -1.0000     NotChecked  -28.9456    1087.5509   ✗       
+920   +43.006TEEVLLEAR         -1.0000     NotChecked  -28.9684    1101.5666   ✗       
+921   +43.006TEVLLQ+0.984AR    -1.0000     NotChecked  -28.9781    972.5240    ✗       
+922   ATEEVLLLAR               -1.0000     NotChecked  -28.9853    1113.6394   ✗       
+923   +43.006TESVLLQ+0.984AR   -1.0000     NotChecked  -28.9981    1059.5560   ✗       
+924   +42.011TEEVLLAR          -1.0000     NotChecked  -29.0010    971.5288    ✗       
+925   +43.006TEEVLLEAK         -1.0000     NotChecked  -29.0073    1073.5604   ✗       
+926   +43.006TAEVLLEAR         -1.0000     NotChecked  -29.0076    1043.5611   ✗       
+927   +42.011TEAVLLQ+0.984AR   -1.0000     NotChecked  -29.0078    1042.5659   ✗       
+928   TEEVLLQ+0.984AR          -1.0000     NotChecked  -29.0231    1058.5608   ✗       
+929   TEEVLLNAR                -1.0000     NotChecked  -29.0501    1043.5611   ✗       
+930   +42.011TEEVLLQAR         -1.0000     NotChecked  -29.0590    1099.5873   ✗       
+931   +42.011TQ+0.984EVLLQAR   -1.0000     NotChecked  -29.0644    1099.5873   ✗       
+932   +42.011TEKVLLEAR         -1.0000     NotChecked  -29.0685    1099.6237   ✗       
+933   +43.006TEEVLLAR          -1.0000     NotChecked  -29.0728    972.5240    ✗       
+934   +43.006TEAVLLQ+0.984AR   -1.0000     NotChecked  -29.0795    1043.5611   ✗       
+935   TEEVLLQ+0.984QR          -1.0000     Failed      -29.0821    1115.5822   ✓       
+936   +43.006TEEVLLQAR         -1.0000     NotChecked  -29.1307    1100.5826   ✗       
+937   +43.006TQ+0.984EVLLQAR   -1.0000     NotChecked  -29.1361    1100.5826   ✗       
+938   +43.006TEKVLLEAR         -1.0000     NotChecked  -29.1402    1100.6190   ✗       
+939   +42.011TDEVLLEAR         -1.0000     NotChecked  -29.1756    1086.5557   ✗       
+940   ATEEVLLNAR               -1.0000     NotChecked  -29.1785    1114.5982   ✗       
+941   TLEVLLQ+0.984AR          -1.0000     NotChecked  -29.1832    1042.6023   ✗       
+942   +43.006TDEVLLEAR         -1.0000     NotChecked  -29.2473    1087.5509   ✗       
+943   +42.011TEEVLLAAR         -1.0000     NotChecked  -29.2609    1042.5659   ✗       
+944   TEEVLLSAR                -1.0000     NotChecked  -29.2666    1016.5502   ✗       
+945   TREVLLEAR                -1.0000     NotChecked  -29.2821    1085.6193   ✗       
+946   ATLEVLLQ+0.984AR         -1.0000     NotChecked  -29.3116    1113.6394   ✗       
+947   SEEVLLQ+0.984AR          -1.0000     NotChecked  -29.3148    1044.5451   ✗       
+948   +43.006TEEVLLAAR         -1.0000     NotChecked  -29.3326    1043.5611   ✗       
+949   TEQVLLEAR                -1.0000     NotChecked  -29.3334    1057.5768   ✗       
+950   TEELLLQ+0.984AR          -1.0000     NotChecked  -29.3605    1072.5764   ✗       
+951   TEVVLLQ+0.984AR          -1.0000     NotChecked  -29.3624    1028.5866   ✗       
+952   +42.011TMEVLLEAR         -1.0000     NotChecked  -29.3690    1102.5692   ✗       
+953   TEEVLLQAR                -1.0000     NotChecked  -29.3872    1057.5768   ✗       
+954   TELVLLQ+0.984AR          -1.0000     NotChecked  -29.3908    1042.6023   ✗       
+955   ATEEVLLSAR               -1.0000     NotChecked  -29.3950    1087.5873   ✗       
+956   GTEEVLLQAR               -1.0000     NotChecked  -29.4099    1114.5982   ✗       
+957   TEDVLLEAR                -1.0000     NotChecked  -29.4131    1044.5451   ✗       
+958   +42.011TEEVSLQ+0.984AR   -1.0000     NotChecked  -29.4202    1074.5193   ✗       
+959   TEEVLLEAR                -1.0000     NotChecked  -29.4359    1058.5608   ✗       
+960   STEVLLEAR                -1.0000     NotChecked  -29.4394    1016.5502   ✗       
+961   +43.006TMEVLLEAR         -1.0000     NotChecked  -29.4407    1103.5645   ✗       
+962   ASEEVLLQ+0.984AR         -1.0000     Failed      -29.4432    1115.5823   ✓       
+963   TEVLLQ+0.984AR           -1.0000     NotChecked  -29.4457    929.5182    ✗       
+964   TESVLLQ+0.984AR          -1.0000     NotChecked  -29.4656    1016.5502   ✗       
+965   ETEEVLLAR                -1.0000     NotChecked  -29.4686    1058.5608   ✗       
+966   TEEVLLEAK                -1.0000     NotChecked  -29.4748    1030.5546   ✗       
+967   TAEVLLEAR                -1.0000     NotChecked  -29.4752    1000.5553   ✗       
+968   +42.011TEEVLLEAR         -1.0000     NotChecked  -29.4884    1100.5713   ✗       
+969   ATEVVLLQ+0.984AR         -1.0000     NotChecked  -29.4908    1099.6237   ✗       
+970   +43.006TEEVSLQ+0.984AR   -1.0000     NotChecked  -29.4919    1075.5146   ✗       
+971   ATELVLLQ+0.984AR         -1.0000     NotChecked  -29.5192    1113.6394   ✗       
+972   TEEVLLAR                 -1.0000     NotChecked  -29.5403    929.5182    ✗       
+973   ATEDVLLEAR               -1.0000     Failed      -29.5416    1115.5822   ✓       
+974   TEAVLLQ+0.984AR          -1.0000     NotChecked  -29.5470    1000.5553   ✗       
+975   +43.006TEEVLLEAR         -1.0000     NotChecked  -29.5601    1101.5666   ✗       
+976   +42.011TEEALLQ+0.984AR   -1.0000     NotChecked  -29.5738    1072.5400   ✗       
+977   ATEVLLQ+0.984AR          -1.0000     NotChecked  -29.5741    1000.5553   ✗       
+978   +42.011TEQ+0.984VLLQ+0.984AR-1.0000     NotChecked  -29.5904    1100.5713   ✗       
+979   ATESVLLQ+0.984AR         -1.0000     NotChecked  -29.5941    1087.5873   ✗       
+980   TEEVLLQAR                -1.0000     NotChecked  -29.5982    1057.5768   ✗       
+981   ATEEVLLEAK               -1.0000     NotChecked  -29.6033    1101.5917   ✗       
+982   ATAEVLLEAR               -1.0000     NotChecked  -29.6036    1071.5924   ✗       
+983   TQ+0.984EVLLQAR          -1.0000     NotChecked  -29.6037    1057.5768   ✗       
+984   DTEVLLEAR                -1.0000     NotChecked  -29.6045    1044.5451   ✗       
+985   TEKVLLEAR                -1.0000     NotChecked  -29.6077    1057.6132   ✗       
+986   +43.006TEEALLQ+0.984AR   -1.0000     NotChecked  -29.6455    1073.5353   ✗       
+987   +42.011TLEVLLEAR         -1.0000     NotChecked  -29.6484    1084.6128   ✗       
+988   +42.011TEEVLVQ+0.984AR   -1.0000     NotChecked  -29.6504    1086.5557   ✗       
+989   +42.011TEEVLAQ+0.984AR   -1.0000     NotChecked  -29.6573    1058.5244   ✗       
+990   +43.006TEQ+0.984VLLQ+0.984AR-1.0000     NotChecked  -29.6621    1101.5666   ✗       
+991   ATEEVLLAR                -1.0000     NotChecked  -29.6687    1000.5553   ✗       
+992   ATEAVLLQ+0.984AR         -1.0000     NotChecked  -29.6755    1071.5924   ✗       
+993   +42.011TEEVLLQ+0.984AR   -1.0000     NotChecked  -29.6771    1100.5713   ✗       
+994   RTEVLLEAR                -1.0000     NotChecked  -29.6815    1085.6193   ✗       
+995   TDEVLLEAR                -1.0000     NotChecked  -29.7148    1044.5451   ✗       
+996   TEEVLLQ+0.984VR          -1.0000     NotChecked  -29.7161    1086.5921   ✗       
+997   +43.006TLEVLLEAR         -1.0000     NotChecked  -29.7201    1085.6081   ✗       
+998   +43.006TEEVLVQ+0.984AR   -1.0000     NotChecked  -29.7221    1087.5509   ✗       
+999   +43.006TEEVLAQ+0.984AR   -1.0000     NotChecked  -29.7290    1059.5196   ✗       
+1000  VTEVLLEAR                -1.0000     NotChecked  -29.7309    1028.5866   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: GTEEVLLEAR
+Similarity: 0.8252
+De Novo Score: -21.7648
+Source: Database
+Correct: ✓
+

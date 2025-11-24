@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 76
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 896.4508
+Precursor charge: 2+
+Ground truth: ITPWNVDTIGQDGFTK
+Ground truth (normalized): ITPWNVDTIGQDGFTK
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 83
+Used for reranking: 83
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 83 (8.3%)
+Database matches: 35 (3.5%)
+Prosit predictions: 41 (4.1%)
+Failed: 7 (0.7%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 7/1000
+Rank by similarity: 1/1000
+Similarity: 0.8963
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     LTPWNVDTLGQDGFTK         0.8963      Database    -7.6397     1790.8839   ✓       ✓
+2     LTPWNVDTLGQDGFTK         0.8963      Database    -9.4909     1790.8839   ✓       ✓
+3     LTPWNVDTLGQDGFTK         0.8963      Database    -10.1528    1790.8839   ✓       ✓
+4     LTPWNVDTLGQDGFTK         0.8963      Database    -11.0360    1790.8839   ✓       ✓
+5     LTPWNVDTLGQDGFTK         0.8963      Database    -11.0925    1790.8839   ✓       ✓
+6     LTPWNVDTLGQDGFTK         0.8963      Database    -11.9884    1790.8839   ✓       ✓
+7     LTPWNVDTLGQDGFTK         0.8963      Database    -12.0040    1790.8839   ✓       ✓
+8     LTPWNVDTLGQDGFTK         0.8963      Database    -12.8872    1790.8839   ✓       ✓
+9     LTPWNVDTLGQDGFTK         0.8963      Database    -12.9437    1790.8839   ✓       ✓
+10    LTPWNVDTLGQDGFTK         0.8963      Database    -12.9480    1790.8839   ✓       ✓
+11    LTPWNVDTLGQDGFTK         0.8963      Database    -13.0757    1790.8839   ✓       ✓
+12    LTPWNVDTLGQDGFTK         0.8963      Database    -13.5491    1790.8839   ✓       ✓
+13    LTPWNVDTLGQDGFTK         0.8963      Database    -13.6056    1790.8839   ✓       ✓
+14    LTPWNVDTLGQDGFTK         0.8963      Database    -13.8397    1790.8839   ✓       ✓
+15    LTPWNVDTLGQDGFTK         0.8963      Database    -14.4888    1790.8839   ✓       ✓
+16    LTPWNVDTLGQDGFTK         0.8963      Database    -14.5016    1790.8839   ✓       ✓
+17    LTPWNVDTLGQDGFTK         0.8963      Database    -14.7993    1790.8839   ✓       ✓
+18    LTPWNVDTLGQDGFTK         0.8963      Database    -14.9270    1790.8839   ✓       ✓
+19    LTPWNVDTLGQDGFTK         0.8963      Database    -15.3550    1790.8839   ✓       ✓
+20    LTPWNVDTLGQDGFTK         0.8963      Database    -15.3847    1790.8839   ✓       ✓
+21    LTPWNVDTLGQDGFTK         0.8963      Database    -15.4003    1790.8839   ✓       ✓
+22    LTPWNVDTLGQDGFTK         0.8963      Database    -15.4568    1790.8839   ✓       ✓
+23    LTPWNVDTLGQDGFTK         0.8963      Database    -15.4612    1790.8839   ✓       ✓
+24    LTPWNVDTLGQDGFTK         0.8963      Database    -15.5889    1790.8839   ✓       ✓
+25    LTPWNVDTLGQDGFTK         0.8963      Database    -16.3400    1790.8839   ✓       ✓
+26    LTPWNVDTLGQDGFTK         0.8963      Database    -16.3443    1790.8839   ✓       ✓
+27    LTPWNVDTLGQDGFTK         0.8963      Database    -16.3528    1790.8839   ✓       ✓
+28    LTPWNVDTLGQDGFTK         0.8963      Database    -16.4008    1790.8839   ✓       ✓
+29    LTPWNVDTLGQDGFTK         0.8963      Database    -16.4720    1790.8839   ✓       ✓
+30    LTPWNVDTLGQDGFTK         0.8963      Database    -16.5286    1790.8839   ✓       ✓
+31    LTPWNVDTLGQDGFTK         0.8963      Database    -16.6902    1790.8839   ✓       ✓
+32    LTPWNVDTLGQDGFTK         0.8963      Database    -16.7120    1790.8839   ✓       ✓
+33    LTPWNVDTLGQDGFTK         0.8963      Database    -16.9259    1790.8839   ✓       ✓
+34    LTPWNVDTLGQDGFTK         0.8963      Database    -17.0019    1790.8839   ✓       ✓
+35    LTPWNVDTLGQDGFTK         0.8963      Database    -17.1568    1790.8839   ✓       ✓
+36    ATVPENVDTLGQDGFTK        0.4732      Prosit      -14.5852    1790.8686   ✓       
+37    +42.011ATPWNVDTLGQDGFTK  0.4602      Prosit      -14.6293    1790.8475   ✓       
+38    +42.011ATPWNVDTLGQDGFTK  0.4602      Prosit      -14.8329    1790.8475   ✓       
+39    +42.011ATPWNVDTLGQDGFTK  0.4602      Prosit      -16.4806    1790.8475   ✓       
+40    +42.011ATPWNVDTLGQDGFTK  0.4602      Prosit      -16.6841    1790.8475   ✓       
+41    +42.011ATPWNVDTLGQDGFTK  0.4602      Prosit      -17.1425    1790.8475   ✓       
+42    ATVPWGVDTLGQDGFTK        0.4570      Prosit      -13.0462    1790.8839   ✓       
+43    ATVPWGVDTLGQDGFTK        0.4570      Prosit      -14.8974    1790.8839   ✓       
+44    ATVPWGVDTLGQDGFTK        0.4570      Prosit      -15.5593    1790.8839   ✓       
+45    LTVPSNVDTLGQDGFTK        0.4561      Prosit      -17.0849    1790.9050   ✓       
+46    ASLPWGVDTLGQDGFTK        0.4440      Prosit      -15.5509    1790.8839   ✓       
+47    LTPWNVN+0.984TLGQDGFTK   0.4387      Prosit      -14.6460    1790.8839   ✓       
+48    LTPWNVN+0.984TLGQDGFTK   0.4387      Prosit      -16.4973    1790.8839   ✓       
+49    GTLPWGVDTLGQDGFTK        0.4341      Prosit      -16.5594    1790.8839   ✓       
+50    LTPWNVDTLGQN+0.984GFTK   0.4282      Prosit      -13.1789    1790.8839   ✓       
+51    LTPWNVDTLGQN+0.984GFTK   0.4282      Prosit      -15.0302    1790.8839   ✓       
+52    LTPWNVDTLGQN+0.984GFTK   0.4282      Prosit      -15.6920    1790.8839   ✓       
+53    LTPWNVDTLGQN+0.984GFTK   0.4282      Prosit      -16.5752    1790.8839   ✓       
+54    LTPWNVDTLGQN+0.984GFTK   0.4282      Prosit      -16.6317    1790.8839   ✓       
+55    TLPWNVDTLGQDGFTK         0.4279      Prosit      -10.2914    1790.8839   ✓       
+56    TLPWNVDTLGQDGFTK         0.4279      Prosit      -12.0882    1790.8839   ✓       
+57    TLPWNVDTLGQDGFTK         0.4279      Prosit      -12.1426    1790.8839   ✓       
+58    TLPWNVDTLGQDGFTK         0.4279      Prosit      -12.8045    1790.8839   ✓       
+59    TLPWNVDTLGQDGFTK         0.4279      Prosit      -13.1755    1790.8839   ✓       
+60    TLPWNVDTLGQDGFTK         0.4279      Prosit      -13.6876    1790.8839   ✓       
+61    TLPWNVDTLGQDGFTK         0.4279      Prosit      -13.9395    1790.8839   ✓       
+62    TLPWNVDTLGQDGFTK         0.4279      Prosit      -14.6014    1790.8839   ✓       
+63    TLPWNVDTLGQDGFTK         0.4279      Prosit      -14.6557    1790.8839   ✓       
+64    TLPWNVDTLGQDGFTK         0.4279      Prosit      -15.0268    1790.8839   ✓       
+65    TLPWNVDTLGQDGFTK         0.4279      Prosit      -15.4845    1790.8839   ✓       
+66    TLPWNVDTLGQDGFTK         0.4279      Prosit      -15.5389    1790.8839   ✓       
+67    TLPWNVDTLGQDGFTK         0.4279      Prosit      -15.5997    1790.8839   ✓       
+68    TLPWNVDTLGQDGFTK         0.4279      Prosit      -15.6887    1790.8839   ✓       
+69    TLPWNVDTLGQDGFTK         0.4279      Prosit      -15.7274    1790.8839   ✓       
+70    TLPWNVDTLGQDGFTK         0.4279      Prosit      -16.2008    1790.8839   ✓       
+71    TLPWNVDTLGQDGFTK         0.4279      Prosit      -16.4526    1790.8839   ✓       
+72    TLPWNVDTLGQDGFTK         0.4279      Prosit      -16.5718    1790.8839   ✓       
+73    +43.006AVPWN+0.984VDTLGQDGFTK0.4178      Prosit      -16.1119    1790.8475   ✓       
+74    TLPWNVDTLGQN+0.984GFTK   0.4126      Prosit      -15.8306    1790.8839   ✓       
+75    ATVPWNVDTLQDGFTK         0.4073      Prosit      -14.7845    1790.8839   ✓       
+76    ATLPWNVDTLGQDGFTG        0.3181      Prosit      -14.1360    1790.8475   ✓       
+77    AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -5.5925     1746.8577   ✗       
+78    ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -6.0088     1748.8369   ✗       
+79    LVPWNVDTLGQDGFTK         -1.0000     NotChecked  -7.2234     1788.9046   ✗       
+80    ALPWNVDTLGQDGFTK         -1.0000     NotChecked  -7.3391     1760.8733   ✗       
+81    GVPWNVDTLGQDGFTK         -1.0000     NotChecked  -7.3591     1732.8420   ✗       
+82    AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -7.4437     1746.8577   ✗       
+83    GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -7.7754     1734.8213   ✗       
+84    ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -7.8600     1748.8369   ✗       
+85    AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -8.1056     1746.8577   ✗       
+86    GGVPWNVDTLGQDGFTK        -1.0000     NotChecked  -8.4223     1789.8635   ✗       
+87    ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -8.5219     1748.8369   ✗       
+88    TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -8.5448     1776.8682   ✗       
+89    +43.006VPWNVDTLGQDGFTK   -1.0000     NotChecked  -8.9549     1718.8264   ✗       
+90    AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -8.9887     1746.8577   ✗       
+91    LVPWNVDTLGQDGFTK         -1.0000     NotChecked  -9.0746     1788.9046   ✗       
+92    GLPWNVDTLGQDGFTK         -1.0000     NotChecked  -9.1057     1746.8577   ✗       
+93    ALPWNVDTLGQDGFTK         -1.0000     NotChecked  -9.1903     1760.8733   ✗       
+94    GVPWNVDTLGQDGFTK         -1.0000     NotChecked  -9.2103     1732.8420   ✗       
+95    SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -9.3029     1762.8526   ✗       
+96    +42.011VPWNVDTLGQDGFTK   -1.0000     NotChecked  -9.3522     1717.8311   ✗       
+97    +43.006TPWNVDTLGQDGFTK   -1.0000     NotChecked  -9.3712     1720.8056   ✗       
+98    ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -9.4051     1748.8369   ✗       
+99    ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -9.4616     1748.8369   ✗       
+100   +43.006AVPWNVDTLGQDGFTK  -1.0000     NotChecked  -9.4669     1789.8635   ✗       
+101   GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -9.6266     1734.8213   ✗       
+102   LVPWNVDTLGQDGFTK         -1.0000     NotChecked  -9.7365     1788.9046   ✗       
+103   +42.011TPWNVDTLGQDGFTK   -1.0000     NotChecked  -9.7686     1719.8104   ✗       
+104   ALPWNVDTLGQDGFTK         -1.0000     NotChecked  -9.8522     1760.8733   ✗       
+105   +42.011AVPWNVDTLGQDGFTK  -1.0000     NotChecked  -9.8643     1788.8682   ✗       
+106   GVPWNVDTLGQDGFTK         -1.0000     NotChecked  -9.8722     1732.8420   ✗       
+107   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -9.9568     1746.8577   ✗       
+108   +43.006GVPWNVDTLGQDGFTK  -1.0000     NotChecked  -10.0182    1775.8478   ✗       
+109   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -10.0814    1762.8526   ✗       
+110   ASPWNVDTLGQDGFTK         -1.0000     NotChecked  -10.2197    1734.8213   ✗       
+111   GGVPWNVDTLGQDGFTK        -1.0000     NotChecked  -10.2736    1789.8635   ✗       
+112   GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -10.2885    1734.8213   ✗       
+113   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -10.3416    1776.8682   ✗       
+114   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -10.3575    1748.8369   ✗       
+115   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -10.3731    1748.8369   ✗       
+116   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -10.3960    1776.8682   ✗       
+117   +42.011GVPWNVDTLGQDGFTK  -1.0000     NotChecked  -10.4155    1774.8526   ✗       
+118   STPWNVDTLGQDGFTK         -1.0000     NotChecked  -10.4977    1764.8319   ✗       
+119   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -10.5480    1746.8577   ✗       
+120   LVPWNVDTLGQDGFTK         -1.0000     NotChecked  -10.6196    1788.9046   ✗       
+121   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -10.6568    1746.8577   ✗       
+122   +43.006LPWNVDTLGQDGFTK   -1.0000     NotChecked  -10.7015    1732.8420   ✗       
+123   ALPWNVDTLGQDGFTK         -1.0000     NotChecked  -10.7353    1760.8733   ✗       
+124   GVPWNVDTLGQDGFTK         -1.0000     NotChecked  -10.7553    1732.8420   ✗       
+125   TTPWNVDTLGQDGFTK         -1.0000     NotChecked  -10.7579    1778.8475   ✗       
+126   +43.006VPWNVDTLGQDGFTK   -1.0000     NotChecked  -10.8061    1718.8264   ✗       
+127   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -10.8400    1746.8577   ✗       
+128   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -10.8998    1762.8526   ✗       
+129   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -10.9008    1746.8577   ✗       
+130   GGVPWNVDTLGQDGFTK        -1.0000     NotChecked  -10.9355    1789.8635   ✗       
+131   GLPWNVDTLGQDGFTK         -1.0000     NotChecked  -10.9569    1746.8577   ✗       
+132   ASPWNVDTLGQDGFTK         -1.0000     NotChecked  -11.0089    1734.8213   ✗       
+133   SLPWNVDTLGQDGFTK         -1.0000     NotChecked  -11.0495    1776.8682   ✗       
+134   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -11.0579    1776.8682   ✗       
+135   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -11.0731    1748.8369   ✗       
+136   +42.011LPWNVDTLGQDGFTK   -1.0000     NotChecked  -11.0988    1731.8468   ✗       
+137   AVPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -11.1317    1746.8577   ✗       
+138   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -11.1541    1762.8526   ✗       
+139   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -11.1688    1746.8577   ✗       
+140   GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -11.1716    1734.8213   ✗       
+141   +42.011VPWNVDTLGQDGFTK   -1.0000     NotChecked  -11.2035    1717.8311   ✗       
+142   +43.006TPWNVDTLGQDGFTK   -1.0000     NotChecked  -11.2224    1720.8056   ✗       
+143   GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -11.2282    1734.8213   ✗       
+144   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -11.2563    1748.8369   ✗       
+145   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -11.3128    1748.8369   ✗       
+146   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -11.3171    1748.8369   ✗       
+147   +43.006AVPWNVDTLGQDGFTK  -1.0000     NotChecked  -11.3182    1789.8635   ✗       
+148   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -11.4289    1776.8682   ✗       
+149   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -11.4448    1748.8369   ✗       
+150   +43.006VPWNVDTLGQDGFTK   -1.0000     NotChecked  -11.4680    1718.8264   ✗       
+151   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -11.5019    1746.8577   ✗       
+152   ATPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -11.5480    1748.8369   ✗       
+153   VVPWNVDTLGQDGFTK         -1.0000     NotChecked  -11.5540    1774.8890   ✗       
+154   LVPWNVDTLGQDGFTK         -1.0000     NotChecked  -11.5877    1788.9046   ✗       
+155   GLPWNVDTLGQDGFTK         -1.0000     NotChecked  -11.6188    1746.8577   ✗       
+156   +42.011TPWNVDTLGQDGFTK   -1.0000     NotChecked  -11.6198    1719.8104   ✗       
+157   ALPWNVDTLGQDGFTK         -1.0000     NotChecked  -11.7034    1760.8733   ✗       
+158   +42.011AVPWNVDTLGQDGFTK  -1.0000     NotChecked  -11.7155    1788.8682   ✗       
+159   GVPWNVDTLGQDGFTK         -1.0000     NotChecked  -11.7234    1732.8420   ✗       
+160   +43.006GLPWNVDTLGQDGFTK  -1.0000     NotChecked  -11.7648    1789.8635   ✗       
+161   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -11.8160    1762.8526   ✗       
+162   GGVPWNVDTLGQDGFTK        -1.0000     NotChecked  -11.8186    1789.8635   ✗       
+163   SLPWNVDTLGQDGFTK         -1.0000     NotChecked  -11.8280    1776.8682   ✗       
+164   LSPWNVDTLGQDGFTK         -1.0000     NotChecked  -11.8506    1776.8682   ✗       
+165   +42.011VPWNVDTLGQDGFTK   -1.0000     NotChecked  -11.8654    1717.8311   ✗       
+166   +43.006GVPWNVDTLGQDGFTK  -1.0000     NotChecked  -11.8694    1775.8478   ✗       
+167   AQPWNVDTLGQDGFTK         -1.0000     NotChecked  -11.8820    1775.8478   ✗       
+168   +43.006TPWNVDTLGQDGFTK   -1.0000     NotChecked  -11.8843    1720.8056   ✗       
+169   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -11.9182    1748.8369   ✗       
+170   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -11.9326    1762.8526   ✗       
+171   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -11.9410    1776.8682   ✗       
+172   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -11.9434    1746.8577   ✗       
+173   VTPWNVDTLGQDGFTK         -1.0000     NotChecked  -11.9703    1776.8682   ✗       
+174   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -11.9747    1748.8369   ✗       
+175   +43.006AVPWNVDTLGQDGFTK  -1.0000     NotChecked  -11.9800    1789.8635   ✗       
+176   GSPWNVDTLGQDGFTK         -1.0000     NotChecked  -11.9863    1720.8056   ✗       
+177   ASPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.0710    1734.8213   ✗       
+178   GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.1241    1734.8213   ✗       
+179   GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.1397    1734.8213   ✗       
+180   +42.011GLPWNVDTLGQDGFTK  -1.0000     NotChecked  -12.1621    1788.8682   ✗       
+181   LVPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.1789    1788.9046   ✗       
+182   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.1929    1776.8682   ✗       
+183   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.2088    1748.8369   ✗       
+184   AVPWN+0.984VDTLGQDGFTK   -1.0000     NotChecked  -12.2374    1747.8417   ✗       
+185   +42.011GVPWNVDTLGQDGFTK  -1.0000     NotChecked  -12.2668    1774.8526   ✗       
+186   +42.011TPWNVDTLGQDGFTK   -1.0000     NotChecked  -12.2817    1719.8104   ✗       
+187   GVPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.3146    1732.8420   ✗       
+188   STPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.3490    1764.8319   ✗       
+189   +43.006VPWNVDTLGQDGFTK   -1.0000     NotChecked  -12.3512    1718.8264   ✗       
+190   +42.011AVPWNVDTLGQDGFTK  -1.0000     NotChecked  -12.3774    1788.8682   ✗       
+191   ATVPWNVDTLGQDGFTG        -1.0000     NotChecked  -12.3894    1776.8319   ✗       
+192   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.3992    1746.8577   ✗       
+193   ALPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.4034    1760.8733   ✗       
+194   LVPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.4709    1788.9046   ✗       
+195   GLPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.5019    1746.8577   ✗       
+196   +42.011TAPWNVDTLGQDGFTK  -1.0000     Failed      -12.5066    1790.8475   ✓       
+197   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.5080    1746.8577   ✗       
+198   +43.006GVPWNVDTLGQDGFTK  -1.0000     NotChecked  -12.5313    1775.8478   ✗       
+199   LVPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.5317    1788.9046   ✗       
+200   +43.006LPWNVDTLGQDGFTK   -1.0000     NotChecked  -12.5527    1732.8420   ✗       
+201   ALPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.5866    1760.8733   ✗       
+202   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.5945    1762.8526   ✗       
+203   AVPWNVN+0.984TLGQDGFTK   -1.0000     NotChecked  -12.5988    1746.8577   ✗       
+204   GVPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.6066    1732.8420   ✗       
+205   TTPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.6092    1778.8475   ✗       
+206   LSPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.6398    1776.8682   ✗       
+207   SLPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.6464    1776.8682   ✗       
+208   ALPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.6474    1760.8733   ✗       
+209   ATPWN+0.984VDTLGQDGFTK   -1.0000     NotChecked  -12.6537    1749.8210   ✗       
+210   GVPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.6674    1732.8420   ✗       
+211   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.6992    1762.8526   ✗       
+212   ASPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.7329    1734.8213   ✗       
+213   +42.011VPWNVDTLGQDGFTK   -1.0000     NotChecked  -12.7485    1717.8311   ✗       
+214   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.7510    1762.8526   ✗       
+215   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.7520    1746.8577   ✗       
+216   LVPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -12.7626    1788.9046   ✗       
+217   +43.006TPWNVDTLGQDGFTK   -1.0000     NotChecked  -12.7675    1720.8056   ✗       
+218   GSPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.7755    1720.8056   ✗       
+219   GGVPWNVDTLGQDGFTK        -1.0000     NotChecked  -12.7867    1789.8635   ✗       
+220   +43.006TPWNVDTLGQDGFTK   -1.0000     NotChecked  -12.8240    1720.8056   ✗       
+221   ATVWNVDTLGQDGFTK         -1.0000     NotChecked  -12.8291    1750.8526   ✗       
+222   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.8547    1776.8682   ✗       
+223   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.8579    1748.8369   ✗       
+224   ASPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.8601    1734.8213   ✗       
+225   +43.006AVPWNVDTLGQDGFTK  -1.0000     NotChecked  -12.8632    1789.8635   ✗       
+226   +43.006SAPWNVDTLGQDGFTK  -1.0000     NotChecked  -12.8674    1777.8271   ✗       
+227   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.8707    1748.8369   ✗       
+228   ALPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -12.8783    1760.8733   ✗       
+229   VPWNVDTLGQDGFTK          -1.0000     NotChecked  -12.8935    1675.8206   ✗       
+230   GVPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -12.8983    1732.8420   ✗       
+231   SLPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.9007    1776.8682   ✗       
+232   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.9091    1776.8682   ✗       
+233   ALPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.9154    1760.8733   ✗       
+234   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -12.9243    1748.8369   ✗       
+235   +42.011GVPWNVDTLGQDGFTK  -1.0000     NotChecked  -12.9287    1774.8526   ✗       
+236   ATVPWNVDTLGQGGFTK        -1.0000     NotChecked  -12.9416    1789.8999   ✗       
+237   +42.011LPWNVDTLGQDGFTK   -1.0000     NotChecked  -12.9501    1731.8468   ✗       
+238   AVPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -12.9829    1746.8577   ✗       
+239   STPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.0108    1764.8319   ✗       
+240   ATPWNVN+0.984TLGQDGFTK   -1.0000     NotChecked  -13.0151    1748.8369   ✗       
+241   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.0200    1746.8577   ✗       
+242   GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.0229    1734.8213   ✗       
+243   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.0611    1746.8577   ✗       
+244   GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.0794    1734.8213   ✗       
+245   GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.0837    1734.8213   ✗       
+246   AAPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.0956    1718.8264   ✗       
+247   AEPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.0970    1776.8319   ✗       
+248   LVPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.1328    1788.9046   ✗       
+249   ASVPWNVDTLGQDGFTG        -1.0000     NotChecked  -13.1476    1762.8162   ✗       
+250   ALPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.1550    1760.8733   ✗       
+251   +42.011TPWNVDTLGQDGFTK   -1.0000     NotChecked  -13.1648    1719.8104   ✗       
+252   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.1684    1748.8369   ✗       
+253   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.1699    1746.8577   ✗       
+254   GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.2114    1734.8213   ✗       
+255   +43.006LPWNVDTLGQDGFTK   -1.0000     NotChecked  -13.2146    1732.8420   ✗       
+256   +42.011TPWNVDTLGQDGFTK   -1.0000     NotChecked  -13.2214    1719.8104   ✗       
+257   ALPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.2485    1760.8733   ✗       
+258   +42.011AVPWNVDTLGQDGFTK  -1.0000     NotChecked  -13.2606    1788.8682   ✗       
+259   +42.011SAPWNVDTLGQDGFTK  -1.0000     NotChecked  -13.2647    1776.8319   ✗       
+260   GVPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.2685    1732.8420   ✗       
+261   TTPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.2711    1778.8475   ✗       
+262   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.2802    1776.8682   ✗       
+263   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.2961    1748.8369   ✗       
+264   VLPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.3006    1788.9046   ✗       
+265   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.3078    1746.8577   ✗       
+266   TPWNVDTLGQDGFTK          -1.0000     NotChecked  -13.3098    1677.7998   ✗       
+267   GTPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -13.3146    1734.8213   ✗       
+268   +43.006VPWNVDTLGQDGFTK   -1.0000     NotChecked  -13.3193    1718.8264   ✗       
+269   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.3531    1746.8577   ✗       
+270   GGVPWNVDTLGQDGFTK        -1.0000     NotChecked  -13.3779    1789.8635   ✗       
+271   ATPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -13.3993    1748.8369   ✗       
+272   VVPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.4052    1774.8890   ✗       
+273   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.4055    1746.8577   ✗       
+274   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.4129    1762.8526   ✗       
+275   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.4139    1746.8577   ✗       
+276   +43.006GVPWNVDTLGQDGFTK  -1.0000     NotChecked  -13.4145    1775.8478   ✗       
+277   GLPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.4700    1746.8577   ✗       
+278   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.4777    1762.8526   ✗       
+279   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.5003    1776.8682   ✗       
+280   ASPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.5220    1734.8213   ✗       
+281   SLPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.5626    1776.8682   ✗       
+282   LVPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.5743    1788.9046   ✗       
+283   +43.006SPWNVDTLGQDGFTK   -1.0000     NotChecked  -13.5822    1706.7900   ✗       
+284   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.5862    1748.8369   ✗       
+285   ASVWNVDTLGQDGFTK         -1.0000     NotChecked  -13.5873    1736.8369   ✗       
+286   AAPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.6076    1718.8264   ✗       
+287   +42.011LPWNVDTLGQDGFTK   -1.0000     NotChecked  -13.6120    1731.8468   ✗       
+288   +43.006GLPWNVDTLGQDGFTK  -1.0000     NotChecked  -13.6160    1789.8635   ✗       
+289   ASPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.6160    1734.8213   ✗       
+290   AVPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -13.6448    1746.8577   ✗       
+291   GQPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.6486    1761.8322   ✗       
+292   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.6673    1762.8526   ✗       
+293   GGVPWNVDTLGQDGFTK        -1.0000     NotChecked  -13.6699    1789.8635   ✗       
+294   SLPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.6792    1776.8682   ✗       
+295   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.6819    1746.8577   ✗       
+296   GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.6848    1734.8213   ✗       
+297   ASVPWNVDTLGQGGFTK        -1.0000     NotChecked  -13.6998    1775.8842   ✗       
+298   LSPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.7019    1776.8682   ✗       
+299   GVPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.7100    1732.8420   ✗       
+300   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.7119    1762.8526   ✗       
+301   +42.011VPWNVDTLGQDGFTK   -1.0000     NotChecked  -13.7166    1717.8311   ✗       
+302   +43.006TPWNVDTLGQDGFTK   -1.0000     NotChecked  -13.7200    1720.8056   ✗       
+303   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.7241    1748.8369   ✗       
+304   GGVPWNVDTLGQDGFTK        -1.0000     NotChecked  -13.7307    1789.8635   ✗       
+305   AQPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.7332    1775.8478   ✗       
+306   +43.006TPWNVDTLGQDGFTK   -1.0000     NotChecked  -13.7356    1720.8056   ✗       
+307   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.7379    1776.8682   ✗       
+308   GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.7413    1734.8213   ✗       
+309   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.7538    1748.8369   ✗       
+310   ATVPWNVDTLGQDGGTK        -1.0000     NotChecked  -13.7565    1757.8584   ✗       
+311   AKPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.7647    1775.8842   ✗       
+312   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.7694    1748.8369   ✗       
+313   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.7923    1776.8682   ✗       
+314   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.7946    1746.8577   ✗       
+315   AQ+0.984PWNVDTLGQDGFTK   -1.0000     NotChecked  -13.7987    1776.8319   ✗       
+316   ASVPWGVDTLGQDGFTK        -1.0000     NotChecked  -13.8043    1776.8682   ✗       
+317   APWNVDTLGQDGFTK          -1.0000     NotChecked  -13.8104    1647.7893   ✗       
+318   +42.011GVPWNVDTLGQDGFTK  -1.0000     NotChecked  -13.8118    1774.8526   ✗       
+319   VTPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.8215    1776.8682   ✗       
+320   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.8259    1748.8369   ✗       
+321   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.8303    1748.8369   ✗       
+322   +43.006AVPWNVDTLGQDGFTK  -1.0000     NotChecked  -13.8313    1789.8635   ✗       
+323   GSPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.8376    1720.8056   ✗       
+324   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.8531    1776.8682   ✗       
+325   LVPWN+0.984VDTLGQDGFTK   -1.0000     NotChecked  -13.8683    1789.8887   ✗       
+326   STPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.8940    1764.8319   ✗       
+327   +43.006VPWNVDTLGQDGFTK   -1.0000     NotChecked  -13.9104    1718.8264   ✗       
+328   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.9421    1776.8682   ✗       
+329   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.9443    1746.8577   ✗       
+330   STPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.9505    1764.8319   ✗       
+331   GVPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.9568    1732.8420   ✗       
+332   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.9580    1748.8369   ✗       
+333   GGVPWNVDTLGQN+0.984GFTK  -1.0000     NotChecked  -13.9616    1789.8635   ✗       
+334   GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.9754    1734.8213   ✗       
+335   +42.011SPWNVDTLGQDGFTK   -1.0000     NotChecked  -13.9795    1705.7947   ✗       
+336   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -13.9808    1776.8682   ✗       
+337   ALPWN+0.984VDTLGQDGFTK   -1.0000     NotChecked  -13.9840    1761.8574   ✗       
+338   GVPWN+0.984VDTLGQDGFTK   -1.0000     NotChecked  -14.0040    1733.8261   ✗       
+339   +42.011GLPWNVDTLGQDGFTK  -1.0000     NotChecked  -14.0134    1788.8682   ✗       
+340   +43.006AVPWNVDTLGQDGFTK  -1.0000     NotChecked  -14.0192    1789.8635   ✗       
+341   LVPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.0301    1788.9046   ✗       
+342   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.0531    1746.8577   ✗       
+343   ATPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -14.0611    1748.8369   ✗       
+344   VVPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.0671    1774.8890   ✗       
+345   STPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.0680    1764.8319   ✗       
+346   TVPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -14.0840    1776.8682   ✗       
+347   AVPWN+0.984VDTLGQDGFTK   -1.0000     NotChecked  -14.0886    1747.8417   ✗       
+348   +43.006LPWNVDTLGQDGFTK   -1.0000     NotChecked  -14.0978    1732.8420   ✗       
+349   +42.011TPWNVDTLGQDGFTK   -1.0000     NotChecked  -14.1173    1719.8104   ✗       
+350   +42.011TPWNVDTLGQDGFTK   -1.0000     NotChecked  -14.1329    1719.8104   ✗       
+351   TTPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.1542    1778.8475   ✗       
+352   GTVPWNVDTLGQDGFTG        -1.0000     NotChecked  -14.1560    1762.8162   ✗       
+353   AGAPWNVDTLGQDGFTK        -1.0000     NotChecked  -14.1588    1775.8478   ✗       
+354   GVPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.1658    1732.8420   ✗       
+355   +43.006VPWNVDTLGQDGFTK   -1.0000     NotChecked  -14.2024    1718.8264   ✗       
+356   TTPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.2108    1778.8475   ✗       
+357   +42.011AVPWNVDTLGQDGFTK  -1.0000     NotChecked  -14.2286    1788.8682   ✗       
+358   LVPWNVN+0.984TLGQDGFTK   -1.0000     NotChecked  -14.2297    1788.9046   ✗       
+359   ATVPWNVDTLGQDGFTG        -1.0000     NotChecked  -14.2406    1776.8319   ✗       
+360   ALPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.2546    1760.8733   ✗       
+361   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.2585    1762.8526   ✗       
+362   +43.006VPWNVDTLGQDGFTK   -1.0000     NotChecked  -14.2633    1718.8264   ✗       
+363   ATVPWNVDTLGDGFTK         -1.0000     NotChecked  -14.2674    1719.8468   ✗       
+364   +43.006GLPWNVDTLGQDGFTK  -1.0000     NotChecked  -14.2779    1789.8635   ✗       
+365   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.2961    1762.8526   ✗       
+366   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.2971    1746.8577   ✗       
+367   +42.011VPWNVDTLGQDGFTK   -1.0000     NotChecked  -14.3078    1717.8311   ✗       
+368   AAPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.3224    1718.8264   ✗       
+369   GGVPWNVDTLGQDGFTK        -1.0000     NotChecked  -14.3317    1789.8635   ✗       
+370   SLPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.3411    1776.8682   ✗       
+371   ALPWNVN+0.984TLGQDGFTK   -1.0000     NotChecked  -14.3454    1760.8733   ✗       
+372   GLPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.3532    1746.8577   ✗       
+373   +42.011TAPWNVDTLGQDGFTK  -1.0000     Failed      -14.3578    1790.8475   ✓       
+374   LSPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.3638    1776.8682   ✗       
+375   GVPWNVN+0.984TLGQDGFTK   -1.0000     NotChecked  -14.3654    1732.8420   ✗       
+376   +43.006SPWNVDTLGQDGFTK   -1.0000     NotChecked  -14.3713    1706.7900   ✗       
+377   +43.006GVPWNVDTLGQDGFTK  -1.0000     NotChecked  -14.3825    1775.8478   ✗       
+378   LVPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.3829    1788.9046   ✗       
+379   AQPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.3951    1775.8478   ✗       
+380   ASPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.4052    1734.8213   ✗       
+381   GLPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.4140    1746.8577   ✗       
+382   +42.011AVPWNVDTLGQDGFTK  -1.0000     NotChecked  -14.4166    1788.8682   ✗       
+383   GTPWN+0.984VDTLGQDGFTK   -1.0000     NotChecked  -14.4203    1735.8053   ✗       
+384   +43.006AVPWNVDTLGQDGFTK  -1.0000     NotChecked  -14.4225    1789.8635   ✗       
+385   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.4458    1762.8526   ✗       
+386   SLPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.4458    1776.8682   ✗       
+387   AVPWNVN+0.984TLGQDGFTK   -1.0000     NotChecked  -14.4500    1746.8577   ✗       
+388   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.4542    1776.8682   ✗       
+389   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.4565    1746.8577   ✗       
+390   ATVPLNVDTLGQDGFTK        -1.0000     NotChecked  -14.4683    1774.9101   ✗       
+391   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.4694    1748.8369   ✗       
+392   VTPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.4834    1776.8682   ✗       
+393   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.4904    1762.8526   ✗       
+394   LSPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.4910    1776.8682   ✗       
+395   +43.006VPWNVDTLGQN+0.984GFTK-1.0000     NotChecked  -14.4942    1718.8264   ✗       
+396   +42.011LPWNVDTLGQDGFTK   -1.0000     NotChecked  -14.4951    1731.8468   ✗       
+397   SLPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.4976    1776.8682   ✗       
+398   ALPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.4987    1760.8733   ✗       
+399   GSPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.4995    1720.8056   ✗       
+400   ATPWN+0.984VDTLGQDGFTK   -1.0000     NotChecked  -14.5049    1749.8210   ✗       
+401   ASVPWNVDTLGQDGGTK        -1.0000     NotChecked  -14.5146    1743.8428   ✗       
+402   GVPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.5186    1732.8420   ✗       
+403   ATVPWNVDTLGQDGFK         -1.0000     NotChecked  -14.5246    1746.8577   ✗       
+404   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.5259    1748.8369   ✗       
+405   AVPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -14.5280    1746.8577   ✗       
+406   +43.006AVPWNVDTLGQDGFTK  -1.0000     NotChecked  -14.5313    1789.8635   ✗       
+407   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.5504    1762.8526   ✗       
+408   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.5651    1746.8577   ✗       
+409   ATLWNVDTLGQDGFTK         -1.0000     NotChecked  -14.5757    1764.8682   ✗       
+410   ASPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.5841    1734.8213   ✗       
+411   GTVWNVDTLGQDGFTK         -1.0000     NotChecked  -14.5957    1736.8369   ✗       
+412   ASPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.5995    1734.8213   ✗       
+413   +42.011VPWNVDTLGQDGFTK   -1.0000     NotChecked  -14.5998    1717.8311   ✗       
+414   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.6113    1762.8526   ✗       
+415   LVPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -14.6138    1788.9046   ✗       
+416   +43.006TPWNVDTLGQDGFTK   -1.0000     NotChecked  -14.6187    1720.8056   ✗       
+417   GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.6245    1734.8213   ✗       
+418   GSPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.6267    1720.8056   ✗       
+419   ASPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.6287    1734.8213   ✗       
+420   GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.6373    1734.8213   ✗       
+421   LPWNVDTLGQDGFTK          -1.0000     NotChecked  -14.6401    1689.8362   ✗       
+422   GLPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -14.6449    1746.8577   ✗       
+423   GVPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.6526    1732.8420   ✗       
+424   +42.011VPWNVDTLGQDGFTK   -1.0000     NotChecked  -14.6606    1717.8311   ✗       
+425   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.6647    1746.8577   ✗       
+426   +42.011GLPWNVDTLGQDGFTK  -1.0000     NotChecked  -14.6753    1788.8682   ✗       
+427   +43.006TPWNVDTLGQDGFTK   -1.0000     NotChecked  -14.6753    1720.8056   ✗       
+428   +43.006TPWNVDTLGQDGFTK   -1.0000     NotChecked  -14.6796    1720.8056   ✗       
+429   ATVWNVDTLGQDGFTK         -1.0000     NotChecked  -14.6803    1750.8526   ✗       
+430   LVPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.6920    1788.9046   ✗       
+431   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.7060    1776.8682   ✗       
+432   GTVPWNVDTLGQGGFTK        -1.0000     NotChecked  -14.7082    1775.8842   ✗       
+433   SSPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.7087    1750.8162   ✗       
+434   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.7091    1748.8369   ✗       
+435   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.7134    1748.8369   ✗       
+436   +43.006AVPWNVDTLGQDGFTK  -1.0000     NotChecked  -14.7144    1789.8635   ✗       
+437   +43.006SAPWNVDTLGQDGFTK  -1.0000     NotChecked  -14.7186    1777.8271   ✗       
+438   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.7219    1748.8369   ✗       
+439   LAPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.7265    1760.8733   ✗       
+440   ALPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -14.7295    1760.8733   ✗       
+441   VPWNVDTLGQDGFTK          -1.0000     NotChecked  -14.7448    1675.8206   ✗       
+442   GVPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -14.7495    1732.8420   ✗       
+443   AVPWN+0.984VDTLGQDGFTK   -1.0000     NotChecked  -14.7505    1747.8417   ✗       
+444   ALPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.7667    1760.8733   ✗       
+445   +42.011SPWNVDTLGQDGFTK   -1.0000     NotChecked  -14.7687    1705.7947   ✗       
+446   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.7699    1748.8369   ✗       
+447   +43.006AVPWNVDTLGQDGFTK  -1.0000     NotChecked  -14.7753    1789.8635   ✗       
+448   +42.011GVPWNVDTLGQDGFTK  -1.0000     NotChecked  -14.7799    1774.8526   ✗       
+449   GTPWNVN+0.984TLGQDGFTK   -1.0000     NotChecked  -14.7817    1734.8213   ✗       
+450   +43.006GTPWNVDTLGQDGFTK  -1.0000     NotChecked  -14.7833    1777.8271   ✗       
+451   ATVPWNVDTLGQGGFTK        -1.0000     NotChecked  -14.7929    1789.8999   ✗       
+452   +43.006TPWNVDTLGQDGFTK   -1.0000     NotChecked  -14.8073    1720.8056   ✗       
+453   GTVPWGVDTLGQDGFTK        -1.0000     NotChecked  -14.8128    1776.8682   ✗       
+454   +42.011AVPWNVDTLGQDGFTK  -1.0000     NotChecked  -14.8198    1788.8682   ✗       
+455   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.8252    1776.8682   ✗       
+456   GVPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.8277    1732.8420   ✗       
+457   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.8411    1748.8369   ✗       
+458   SVPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -14.8422    1762.8526   ✗       
+459   STPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.8465    1764.8319   ✗       
+460   STPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.8621    1764.8319   ✗       
+461   GAPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.8621    1704.8107   ✗       
+462   GEPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.8636    1762.8162   ✗       
+463   +43.006VPWNVDTLGQDGFTK   -1.0000     NotChecked  -14.8643    1718.8264   ✗       
+464   ATPWNVN+0.984TLGQDGFTK   -1.0000     NotChecked  -14.8663    1748.8369   ✗       
+465   AGPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.8736    1704.8107   ✗       
+466   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.8787    1746.8577   ✗       
+467   +42.011VPWNVDTLGQN+0.984GFTK-1.0000     NotChecked  -14.8915    1717.8311   ✗       
+468   ASLPWNVDTLGQDGFTG        -1.0000     NotChecked  -14.8942    1776.8319   ✗       
+469   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.8977    1748.8369   ✗       
+470   ATVPWNVDTLGQDGFTG        -1.0000     NotChecked  -14.9025    1776.8319   ✗       
+471   STPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.9067    1764.8319   ✗       
+472   +43.006TPWNVDTLGQN+0.984GFTK-1.0000     NotChecked  -14.9105    1720.8056   ✗       
+473   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.9124    1746.8577   ✗       
+474   GSVPWNVDTLGQDGFTG        -1.0000     NotChecked  -14.9142    1748.8006   ✗       
+475   ALPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.9165    1760.8733   ✗       
+476   GLPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.9216    1746.8577   ✗       
+477   +42.011AVPWNVDTLGQDGFTK  -1.0000     NotChecked  -14.9286    1788.8682   ✗       
+478   ATVPTNVDTLGQDGFTK        -1.0000     NotChecked  -14.9287    1762.8737   ✗       
+479   GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.9350    1734.8213   ✗       
+480   LVPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.9387    1788.9046   ✗       
+481   ATPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -14.9443    1748.8369   ✗       
+482   AAPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.9468    1718.8264   ✗       
+483   AEPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.9483    1776.8319   ✗       
+484   VVPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.9503    1774.8890   ✗       
+485   ASVPWNVDTLGQDGTTK        -1.0000     NotChecked  -14.9571    1787.8690   ✗       
+486   TSPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.9689    1764.8319   ✗       
+487   +43.006GVPWNVDTLGQDGFTK  -1.0000     NotChecked  -14.9737    1775.8478   ✗       
+488   LVPWNVDTLGQDGFTK         -1.0000     NotChecked  -14.9840    1788.9046   ✗       
+489   ASVPWNVDTLGQDGFTG        -1.0000     NotChecked  -14.9988    1762.8162   ✗       
+490   ATPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -15.0008    1748.8369   ✗       
+491   +43.006AVPWNVDTLGQN+0.984GFTK-1.0000     NotChecked  -15.0062    1789.8635   ✗       
+492   ALPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.0063    1760.8733   ✗       
+493   GLPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.0151    1746.8577   ✗       
+494   +42.011TPWNVDTLGQDGFTK   -1.0000     NotChecked  -15.0161    1719.8104   ✗       
+495   +42.011TAPWNVDTLGQDGFTK  -1.0000     Failed      -15.0197    1790.8475   ✓       
+496   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.0212    1746.8577   ✗       
+497   ASVPWNVDTLGDGFTK         -1.0000     NotChecked  -15.0255    1705.8311   ✗       
+498   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.0370    1762.8526   ✗       
+499   LVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.0448    1788.9046   ✗       
+500   ALPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.0544    1760.8733   ✗       
+501   GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.0627    1734.8213   ✗       
+502   +43.006LPWNVDTLGQDGFTK   -1.0000     NotChecked  -15.0659    1732.8420   ✗       
+503   GGVPWN+0.984VDTLGQDGFTK  -1.0000     Failed      -15.0673    1790.8475   ✓       
+504   GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.0689    1734.8213   ✗       
+505   +42.011TPWNVDTLGQDGFTK   -1.0000     NotChecked  -15.0726    1719.8104   ✗       
+506   GVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.0744    1732.8420   ✗       
+507   +42.011TPWNVDTLGQDGFTK   -1.0000     NotChecked  -15.0769    1719.8104   ✗       
+508   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.0811    1748.8369   ✗       
+509   ALPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.0997    1760.8733   ✗       
+510   TTPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.1067    1778.8475   ✗       
+511   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.1096    1746.8577   ✗       
+512   +42.011AVPWNVDTLGQDGFTK  -1.0000     NotChecked  -15.1118    1788.8682   ✗       
+513   AVPWNVN+0.984TLGQDGFTK   -1.0000     NotChecked  -15.1119    1746.8577   ✗       
+514   +42.011SAPWNVDTLGQDGFTK  -1.0000     NotChecked  -15.1160    1776.8319   ✗       
+515   GVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.1197    1732.8420   ✗       
+516   TTPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.1223    1778.8475   ✗       
+517   VLPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.1518    1788.9046   ✗       
+518   ALPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.1521    1760.8733   ✗       
+519   LSPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.1529    1776.8682   ✗       
+520   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.1590    1746.8577   ✗       
+521   SLPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.1595    1776.8682   ✗       
+522   ALPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.1605    1760.8733   ✗       
+523   TPWNVDTLGQDGFTK          -1.0000     NotChecked  -15.1611    1677.7998   ✗       
+524   +43.006GLPWNVDTLGQDGFTK  -1.0000     NotChecked  -15.1611    1789.8635   ✗       
+525   GTPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -15.1658    1734.8213   ✗       
+526   ATPWN+0.984VDTLGQDGFTK   -1.0000     NotChecked  -15.1668    1749.8210   ✗       
+527   +42.011AVPWNVDTLGQDGFTK  -1.0000     NotChecked  -15.1726    1788.8682   ✗       
+528   GVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.1805    1732.8420   ✗       
+529   +42.011GTPWNVDTLGQDGFTK  -1.0000     NotChecked  -15.1806    1776.8319   ✗       
+530   TVPWN+0.984VDTLGQDGFTK   -1.0000     NotChecked  -15.1897    1777.8523   ✗       
+531   +42.011TPWNVDTLGQDGFTK   -1.0000     NotChecked  -15.2046    1719.8104   ✗       
+532   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.2123    1762.8526   ✗       
+533   LSVWNVDTLGQDGFTK         -1.0000     NotChecked  -15.2182    1778.8839   ✗       
+534   SLPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.2243    1776.8682   ✗       
+535   ASVPLNVDTLGQDGFTK        -1.0000     NotChecked  -15.2264    1760.8945   ✗       
+536   GGVPWNVDTLGQDGFTK        -1.0000     NotChecked  -15.2291    1789.8635   ✗       
+537   LAPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.2385    1760.8733   ✗       
+538   +43.006QPWNVDTLGQDGFTK   -1.0000     NotChecked  -15.2445    1747.8165   ✗       
+539   LSPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.2469    1776.8682   ✗       
+540   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.2568    1746.8577   ✗       
+541   +42.011VPWNVDTLGQDGFTK   -1.0000     NotChecked  -15.2617    1717.8311   ✗       
+542   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.2641    1762.8526   ✗       
+543   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.2652    1746.8577   ✗       
+544   +43.006GVPWNVDTLGQDGFTK  -1.0000     NotChecked  -15.2657    1775.8478   ✗       
+545   LVPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -15.2757    1788.9046   ✗       
+546   AQPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.2783    1775.8478   ✗       
+547   +43.006TPWNVDTLGQDGFTK   -1.0000     NotChecked  -15.2806    1720.8056   ✗       
+548   ASVPWNVDTLGQDGFK         -1.0000     NotChecked  -15.2827    1732.8420   ✗       
+549   ASPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.2841    1734.8213   ✗       
+550   ATVPWNVDTLGQDGFT         -1.0000     NotChecked  -15.2845    1719.8104   ✗       
+551   GSPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.2886    1720.8056   ✗       
+552   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.2950    1748.8369   ✗       
+553   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.2972    1776.8682   ✗       
+554   +43.006VPWNVDTLGQDGFTK   -1.0000     NotChecked  -15.3058    1718.8264   ✗       
+555   +42.011TPWNVDTLGQN+0.984GFTK-1.0000     NotChecked  -15.3078    1719.8104   ✗       
+556   +43.006GVPWNVDTLGQDGFTK  -1.0000     NotChecked  -15.3265    1775.8478   ✗       
+557   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.3289    1762.8526   ✗       
+558   ASLWNVDTLGQDGFTK         -1.0000     NotChecked  -15.3339    1750.8526   ✗       
+559   +43.006TPWNVDTLGQDGFTK   -1.0000     NotChecked  -15.3372    1720.8056   ✗       
+560   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.3397    1746.8577   ✗       
+561   ASVPENVDTLGQDGFTK        -1.0000     NotChecked  -15.3434    1776.8530   ✗       
+562   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.3515    1776.8682   ✗       
+563   GSVWNVDTLGQDGFTK         -1.0000     NotChecked  -15.3539    1722.8213   ✗       
+564   VTPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.3666    1776.8682   ✗       
+565   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.3710    1748.8369   ✗       
+566   +42.011GVPWNVDTLGQDGFTK  -1.0000     NotChecked  -15.3711    1774.8526   ✗       
+567   ASPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.3733    1734.8213   ✗       
+568   GAPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.3742    1704.8107   ✗       
+569   +43.006AVPWNVDTLGQDGFTK  -1.0000     NotChecked  -15.3763    1789.8635   ✗       
+570   +43.006SAPWNVDTLGQDGFTK  -1.0000     NotChecked  -15.3805    1777.8271   ✗       
+571   GSPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.3826    1720.8056   ✗       
+572   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.3898    1762.8526   ✗       
+573   ALPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -15.3914    1760.8733   ✗       
+574   +42.011AVPWNVDTLGQN+0.984GFTK-1.0000     NotChecked  -15.4035    1788.8682   ✗       
+575   VPWNVDTLGQDGFTK          -1.0000     NotChecked  -15.4066    1675.8206   ✗       
+576   GVPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -15.4114    1732.8420   ✗       
+577   SLPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.4139    1776.8682   ✗       
+578   ASPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.4179    1734.8213   ✗       
+579   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.4219    1748.8369   ✗       
+580   VTPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.4231    1776.8682   ✗       
+581   LVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.4255    1788.9046   ✗       
+582   ALPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.4285    1760.8733   ✗       
+583   GGVPWNVN+0.984TLGQDGFTK  -1.0000     NotChecked  -15.4287    1789.8635   ✗       
+584   +43.006SPWNVDTLGQDGFTK   -1.0000     NotChecked  -15.4334    1706.7900   ✗       
+585   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.4375    1748.8369   ✗       
+586   ASVWNVDTLGQDGFTK         -1.0000     NotChecked  -15.4385    1736.8369   ✗       
+587   LPWNVDTLGQDGFTK          -1.0000     NotChecked  -15.4413    1689.8362   ✗       
+588   ASLPWNVDTLGQGGFTK        -1.0000     NotChecked  -15.4464    1789.8999   ✗       
+589   ATVPSNVDTLGQDGFTK        -1.0000     NotChecked  -15.4540    1748.8581   ✗       
+590   ATVPWNVDTLGQGGFTK        -1.0000     NotChecked  -15.4548    1789.8999   ✗       
+591   SLPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.4585    1776.8682   ✗       
+592   AAPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.4588    1718.8264   ✗       
+593   +42.011LPWNVDTLGQDGFTK   -1.0000     NotChecked  -15.4632    1731.8468   ✗       
+594   GSVPWNVDTLGQGGFTK        -1.0000     NotChecked  -15.4664    1761.8686   ✗       
+595   ASPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.4673    1734.8213   ✗       
+596   GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.4907    1734.8213   ✗       
+597   AVPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -15.4961    1746.8577   ✗       
+598   SSPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.4979    1750.8162   ✗       
+599   GQPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.4998    1761.8322   ✗       
+600   ATLPWNVDTLGQDGGTK        -1.0000     NotChecked  -15.5031    1771.8741   ✗       
+601   ATVPQNVDTLGQDGFTK        -1.0000     NotChecked  -15.5105    1789.8846   ✗       
+602   AVPWNVDTLGQNGFTK         -1.0000     NotChecked  -15.5172    1745.8737   ✗       
+603   GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.5204    1734.8213   ✗       
+604   GTVPWNVDTLGQDGGTK        -1.0000     NotChecked  -15.5231    1743.8428   ✗       
+605   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.5259    1748.8369   ✗       
+606   ALPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.5260    1760.8733   ✗       
+607   ASPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.5281    1734.8213   ✗       
+608   ATPWNVN+0.984TLGQDGFTK   -1.0000     NotChecked  -15.5282    1748.8369   ✗       
+609   GKPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.5313    1761.8686   ✗       
+610   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.5332    1746.8577   ✗       
+611   GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.5360    1734.8213   ✗       
+612   ASVPWNVDTLQDGFTK         -1.0000     NotChecked  -15.5427    1776.8682   ✗       
+613   ASVPWNVDTLGQGGFTK        -1.0000     NotChecked  -15.5510    1775.8842   ✗       
+614   TVPWNVN+0.984TLGQDGFTK   -1.0000     NotChecked  -15.5511    1776.8682   ✗       
+615   +43.006GVPWNVDTLGQN+0.984GFTK-1.0000     NotChecked  -15.5574    1775.8478   ✗       
+616   +42.011GLPWNVDTLGQDGFTK  -1.0000     NotChecked  -15.5584    1788.8682   ✗       
+617   GVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.5612    1732.8420   ✗       
+618   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.5631    1762.8526   ✗       
+619   GQ+0.984PWNVDTLGQDGFTK   -1.0000     NotChecked  -15.5653    1762.8162   ✗       
+620   GSVPWGVDTLGQDGFTK        -1.0000     NotChecked  -15.5709    1762.8526   ✗       
+621   +43.006TPWNVDTLGQDGFTK   -1.0000     NotChecked  -15.5712    1720.8056   ✗       
+622   LVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.5752    1788.9046   ✗       
+623   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.5753    1748.8369   ✗       
+624   GPWNVDTLGQDGFTK          -1.0000     NotChecked  -15.5769    1633.7736   ✗       
+625   GGVPWNVDTLGQDGFTK        -1.0000     NotChecked  -15.5819    1789.8635   ✗       
+626   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.5891    1776.8682   ✗       
+627   GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.5925    1734.8213   ✗       
+628   GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.5968    1734.8213   ✗       
+629   +43.006VPWN+0.984VDTLGQDGFTK-1.0000     NotChecked  -15.5998    1719.8104   ✗       
+630   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.6051    1748.8369   ✗       
+631   ATVPWNVDTLGQDGGTK        -1.0000     NotChecked  -15.6077    1757.8584   ✗       
+632   AAPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.6087    1718.8264   ✗       
+633   AEPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.6102    1776.8319   ✗       
+634   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.6123    1746.8577   ✗       
+635   AKPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.6160    1775.8842   ✗       
+636   SVPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -15.6207    1762.8526   ✗       
+637   AVPWN+0.984VDTLGQDGFTK   -1.0000     NotChecked  -15.6337    1747.8417   ✗       
+638   +42.011QPWNVDTLGQDGFTK   -1.0000     NotChecked  -15.6418    1746.8213   ✗       
+639   AQ+0.984PWNVDTLGQDGFTK   -1.0000     NotChecked  -15.6499    1776.8319   ✗       
+640   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.6500    1776.8682   ✗       
+641   ASVPWGVDTLGQDGFTK        -1.0000     NotChecked  -15.6556    1776.8682   ✗       
+642   ASVPWNVDTLGQDGFTG        -1.0000     NotChecked  -15.6607    1762.8162   ✗       
+643   APWNVDTLGQDGFTK          -1.0000     NotChecked  -15.6616    1647.7893   ✗       
+644   +42.011GVPWNVDTLGQDGFTK  -1.0000     NotChecked  -15.6630    1774.8526   ✗       
+645   STPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.6649    1764.8319   ✗       
+646   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.6659    1748.8369   ✗       
+647   ALPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.6682    1760.8733   ✗       
+648   +42.011TPWNVDTLGQDGFTK   -1.0000     NotChecked  -15.6780    1719.8104   ✗       
+649   ATPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.6815    1748.8369   ✗       
+650   ASVPTNVDTLGQDGFTK        -1.0000     NotChecked  -15.6868    1748.8581   ✗       
+651   +42.011VPWNVDTLGQDGFTK   -1.0000     NotChecked  -15.7032    1717.8311   ✗       
+652   GLPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.7034    1746.8577   ✗       
+653   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.7043    1776.8682   ✗       
+654   GVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.7109    1732.8420   ✗       
+655   GVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.7159    1732.8420   ✗       
+656   LVPWN+0.984VDTLGQDGFTK   -1.0000     NotChecked  -15.7195    1789.8887   ✗       
+657   +42.011GVPWNVDTLGQDGFTK  -1.0000     NotChecked  -15.7239    1774.8526   ✗       
+658   GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.7246    1734.8213   ✗       
+659   +42.011TPWNVDTLGQDGFTK   -1.0000     NotChecked  -15.7345    1719.8104   ✗       
+660   STPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.7452    1764.8319   ✗       
+661   GLPWN+0.984VDTLGQDGFTK   -1.0000     NotChecked  -15.7506    1747.8417   ✗       
+662   +43.006TVPWNVDTLGQDGFTG  -1.0000     NotChecked  -15.7519    1748.8006   ✗       
+663   TSPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.7581    1764.8319   ✗       
+664   ASPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -15.7590    1734.8213   ✗       
+665   +43.006VPWNVDTLGQDGFTK   -1.0000     NotChecked  -15.7617    1718.8264   ✗       
+666   +42.011AVPWNVDTLGQDGFTK  -1.0000     NotChecked  -15.7737    1788.8682   ✗       
+667   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.7777    1776.8682   ✗       
+668   +42.011SAPWNVDTLGQDGFTK  -1.0000     NotChecked  -15.7779    1776.8319   ✗       
+669   ATVPWNVDTLGQDGFTG        -1.0000     NotChecked  -15.7857    1776.8319   ✗       
+670   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.7933    1776.8682   ✗       
+671   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.7955    1746.8577   ✗       
+672   STPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.8018    1764.8319   ✗       
+673   STPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.8061    1764.8319   ✗       
+674   GVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.8080    1732.8420   ✗       
+675   GGVPWNVDTLGQN+0.984GFTK  -1.0000     NotChecked  -15.8128    1789.8635   ✗       
+676   VLPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.8137    1788.9046   ✗       
+677   TPWNVDTLGQDGFTK          -1.0000     NotChecked  -15.8230    1677.7998   ✗       
+678   GTPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -15.8277    1734.8213   ✗       
+679   +42.011SPWNVDTLGQDGFTK   -1.0000     NotChecked  -15.8308    1705.7947   ✗       
+680   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.8321    1776.8682   ✗       
+681   GVPWN+0.984VDTLGQDGFTK   -1.0000     NotChecked  -15.8552    1733.8261   ✗       
+682   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.8553    1762.8526   ✗       
+683   +43.006AVPWNVDTLGQDGFTK  -1.0000     NotChecked  -15.8705    1789.8635   ✗       
+684   TVPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -15.8809    1776.8682   ✗       
+685   GGVPWNVDTLGQDGFTK        -1.0000     NotChecked  -15.8910    1789.8635   ✗       
+686   LTVPWNVDTLGDGFTK         -1.0000     NotChecked  -15.8983    1761.8937   ✗       
+687   GTLPWNVDTLGQDGFTG        -1.0000     NotChecked  -15.9026    1776.8319   ✗       
+688   +42.011TAPWNVDTLGQDGFTK  -1.0000     Failed      -15.9029    1790.8475   ✓       
+689   VVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.9184    1774.8890   ✗       
+690   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.9187    1746.8577   ✗       
+691   STPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.9192    1764.8319   ✗       
+692   GGAPWNVDTLGQDGFTK        -1.0000     NotChecked  -15.9254    1761.8322   ✗       
+693   +43.006GVPWNVDTLGQDGFTK  -1.0000     NotChecked  -15.9276    1775.8478   ✗       
+694   LVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.9280    1788.9046   ✗       
+695   STPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.9338    1764.8319   ✗       
+696   TVPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -15.9352    1776.8682   ✗       
+697   SVPWN+0.984VDTLGQDGFTK   -1.0000     NotChecked  -15.9478    1763.8366   ✗       
+698   +43.006LPWNVDTLGQDGFTK   -1.0000     NotChecked  -15.9490    1732.8420   ✗       
+699   LAPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.9533    1760.8733   ✗       
+700   +42.011GVPWNVDTLGQN+0.984GFTK-1.0000     NotChecked  -15.9548    1774.8526   ✗       
+701   +43.006VPWNVN+0.984TLGQDGFTK-1.0000     NotChecked  -15.9612    1718.8264   ✗       
+702   GTVPWNVDTLGQDGTTK        -1.0000     NotChecked  -15.9656    1787.8690   ✗       
+703   +42.011TPWNVDTLGQDGFTK   -1.0000     NotChecked  -15.9686    1719.8104   ✗       
+704   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -15.9908    1762.8526   ✗       
+705   +42.011VPWN+0.984VDTLGQDGFTK-1.0000     NotChecked  -15.9972    1718.8152   ✗       
+706   TTPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.0055    1778.8475   ✗       
+707   GTVPWNVDTLGQDGFTG        -1.0000     NotChecked  -16.0072    1762.8162   ✗       
+708   +43.006LPWNVDTLGQDGFTK   -1.0000     NotChecked  -16.0099    1732.8420   ✗       
+709   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.0134    1776.8682   ✗       
+710   +43.006TPWN+0.984VDTLGQDGFTK-1.0000     NotChecked  -16.0161    1721.7897   ✗       
+711   GTVPWNVDTLGDGFTK         -1.0000     NotChecked  -16.0340    1705.8311   ✗       
+712   LSPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.0361    1776.8682   ✗       
+713   STPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -16.0370    1764.8319   ✗       
+714   SLPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.0427    1776.8682   ✗       
+715   TAPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.0479    1748.8369   ✗       
+716   TTPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.0620    1778.8475   ✗       
+717   GVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.0637    1732.8420   ✗       
+718   TTPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.0663    1778.8475   ✗       
+719   LVPWNVN+0.984TLGQDGFTK   -1.0000     NotChecked  -16.0809    1788.9046   ✗       
+720   LVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.0874    1788.9046   ✗       
+721   GAPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.0890    1704.8107   ✗       
+722   +43.006SPWNVDTLGQDGFTK   -1.0000     NotChecked  -16.0953    1706.7900   ✗       
+723   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.1097    1762.8526   ✗       
+724   GLPWNVN+0.984TLGQDGFTK   -1.0000     NotChecked  -16.1120    1746.8577   ✗       
+725   +43.006VPWNVDTLGQDGFTK   -1.0000     NotChecked  -16.1145    1718.8264   ✗       
+726   +43.006GLPWNVDTLGQDGFTK  -1.0000     NotChecked  -16.1291    1789.8635   ✗       
+727   GGVPWNVDTLGQDGFTK        -1.0000     NotChecked  -16.1377    1789.8635   ✗       
+728   LSVPWNVDTLGQDGGTK        -1.0000     NotChecked  -16.1455    1785.8897   ✗       
+729   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.1473    1762.8526   ✗       
+730   +42.011TVPWNVDTLGQDGFTG  -1.0000     NotChecked  -16.1492    1747.8053   ✗       
+731   LTVPWNVDTLGQDGFK         -1.0000     NotChecked  -16.1555    1788.9046   ✗       
+732   LVPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -16.1589    1788.9046   ✗       
+733   +42.011VPWNVDTLGQDGFTK   -1.0000     NotChecked  -16.1590    1717.8311   ✗       
+734   GQPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.1617    1761.8322   ✗       
+735   GSPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.1718    1720.8056   ✗       
+736   VSPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.1813    1762.8526   ✗       
+737   GGVPWNVDTLGQDGFTK        -1.0000     NotChecked  -16.1830    1789.8635   ✗       
+738   +43.006TVWNVDTLGQDGFTK   -1.0000     NotChecked  -16.1915    1722.8213   ✗       
+739   SLPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.1924    1776.8682   ✗       
+740   TPWNVDTLGQDGFTK          -1.0000     NotChecked  -16.1940    1677.7998   ✗       
+741   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.2081    1762.8526   ✗       
+742   LSPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.2150    1776.8682   ✗       
+743   GVPWNVN+0.984TLGQDGFTK   -1.0000     NotChecked  -16.2166    1732.8420   ✗       
+744   +43.006TPWNVDTLGQDGFTK   -1.0000     NotChecked  -16.2203    1720.8056   ✗       
+745   +43.006SPWNVDTLGQDGFTK   -1.0000     NotChecked  -16.2226    1706.7900   ✗       
+746   GVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.2231    1732.8420   ✗       
+747   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.2250    1762.8526   ✗       
+748   LSPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.2304    1776.8682   ✗       
+749   +43.006TPWNVDTLGQDGFTK   -1.0000     NotChecked  -16.2331    1720.8056   ✗       
+750   GTVPLNVDTLGQDGFTK        -1.0000     NotChecked  -16.2349    1760.8945   ✗       
+751   SLPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.2370    1776.8682   ✗       
+752   +43.006LPWNVDTLGQN+0.984GFTK-1.0000     NotChecked  -16.2408    1732.8420   ✗       
+753   GGVPWNVDTLGQDGFTK        -1.0000     NotChecked  -16.2438    1789.8635   ✗       
+754   +43.006GVPWNVDTLGQDGFTK  -1.0000     NotChecked  -16.2485    1775.8478   ✗       
+755   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.2510    1776.8682   ✗       
+756   LSPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.2596    1776.8682   ✗       
+757   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.2601    1776.8682   ✗       
+758   +43.006SAPWNVDTLGQDGFTK  -1.0000     NotChecked  -16.2637    1777.8271   ✗       
+759   GLPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.2652    1746.8577   ✗       
+760   +42.011AVPWNVDTLGQDGFTK  -1.0000     NotChecked  -16.2678    1788.8682   ✗       
+761   GTPWN+0.984VDTLGQDGFTK   -1.0000     NotChecked  -16.2715    1735.8053   ✗       
+762   +43.006AVPWNVDTLGQDGFTK  -1.0000     NotChecked  -16.2737    1789.8635   ✗       
+763   LVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.2739    1788.9046   ✗       
+764   GSVPWNVDTLGQDGGTK        -1.0000     NotChecked  -16.2812    1729.8271   ✗       
+765   VPWNVDTLGQDGFTK          -1.0000     NotChecked  -16.2898    1675.8206   ✗       
+766   GTVPWNVDTLGQDGFK         -1.0000     NotChecked  -16.2912    1732.8420   ✗       
+767   GVPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -16.2946    1732.8420   ✗       
+768   LVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.2956    1788.9046   ✗       
+769   SLPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.2970    1776.8682   ✗       
+770   TTPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -16.2972    1778.8475   ✗       
+771   +43.006TVPWNVDTLGQGGFTK  -1.0000     NotChecked  -16.3041    1761.8686   ✗       
+772   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.3054    1776.8682   ✗       
+773   SVPWNVN+0.984TLGQDGFTK   -1.0000     NotChecked  -16.3093    1762.8526   ✗       
+774   VTPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.3191    1776.8682   ✗       
+775   +42.011GVPWNVDTLGQDGFTK  -1.0000     NotChecked  -16.3249    1774.8526   ✗       
+776   VTPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.3347    1776.8682   ✗       
+777   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.3416    1762.8526   ✗       
+778   GTLWNVDTLGQDGFTK         -1.0000     NotChecked  -16.3423    1750.8526   ✗       
+779   +43.006VPWNVDTLGQN+0.984GFTK-1.0000     NotChecked  -16.3454    1718.8264   ✗       
+780   +42.011LPWNVDTLGQDGFTK   -1.0000     NotChecked  -16.3464    1731.8468   ✗       
+781   GSPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.3507    1720.8056   ✗       
+782   GTVPENVDTLGQDGFTK        -1.0000     NotChecked  -16.3518    1776.8530   ✗       
+783   SLPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.3579    1776.8682   ✗       
+784   +42.011VPWNVN+0.984TLGQDGFTK-1.0000     NotChecked  -16.3586    1717.8311   ✗       
+785   GSPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.3661    1720.8056   ✗       
+786   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.3662    1776.8682   ✗       
+787   +43.006TPWNVN+0.984TLGQDGFTK-1.0000     NotChecked  -16.3776    1720.8056   ✗       
+788   LVPWN+0.984VDTLGQDGFTK   -1.0000     NotChecked  -16.3814    1789.8887   ✗       
+789   +43.006AVPWNVDTLGQDGFTK  -1.0000     NotChecked  -16.3825    1789.8635   ✗       
+790   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.3845    1776.8682   ✗       
+791   GSPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.3953    1720.8056   ✗       
+792   GLPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.3992    1746.8577   ✗       
+793   STPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.4071    1764.8319   ✗       
+794   +42.011LPWNVDTLGQDGFTK   -1.0000     NotChecked  -16.4072    1731.8468   ✗       
+795   +43.006TVPWGVDTLGQDGFTK  -1.0000     NotChecked  -16.4086    1762.8526   ✗       
+796   +42.011TPWN+0.984VDTLGQDGFTK-1.0000     NotChecked  -16.4135    1720.7944   ✗       
+797   +43.006VPWNVDTLGQDGFTK   -1.0000     NotChecked  -16.4236    1718.8264   ✗       
+798   GVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.4313    1732.8420   ✗       
+799   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.4323    1762.8526   ✗       
+800   SVPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -16.4390    1762.8526   ✗       
+801   GTVWNVDTLGQDGFTK         -1.0000     NotChecked  -16.4469    1736.8369   ✗       
+802   GTLPWNVDTLGQGGFTK        -1.0000     NotChecked  -16.4548    1789.8999   ✗       
+803   +43.006APWNVDTLGQDGFTK   -1.0000     NotChecked  -16.4580    1690.7951   ✗       
+804   +43.006EPWNVDTLGQDGFTK   -1.0000     NotChecked  -16.4595    1748.8006   ✗       
+805   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.4625    1762.8526   ✗       
+806   STPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.4637    1764.8319   ✗       
+807   GVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.4699    1732.8420   ✗       
+808   +43.006AVPWNVN+0.984TLGQDGFTK-1.0000     NotChecked  -16.4733    1789.8635   ✗       
+809   GGVPWNVDTLGQN+0.984GFTK  -1.0000     NotChecked  -16.4747    1789.8635   ✗       
+810   GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.4757    1734.8213   ✗       
+811   GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.4800    1734.8213   ✗       
+812   GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.4885    1734.8213   ✗       
+813   LPWNVDTLGQDGFTK          -1.0000     NotChecked  -16.4914    1689.8362   ✗       
+814   +42.011SPWNVDTLGQDGFTK   -1.0000     NotChecked  -16.4927    1705.7947   ✗       
+815   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.4940    1776.8682   ✗       
+816   GLPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -16.4961    1746.8577   ✗       
+817   GVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.5039    1732.8420   ✗       
+818   LGPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.5045    1746.8577   ✗       
+819   +42.011AVPWN+0.984VDTLGQDGFTK-1.0000     NotChecked  -16.5092    1789.8523   ✗       
+820   VVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.5095    1774.8890   ✗       
+821   LVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.5096    1788.9046   ✗       
+822   +43.006SVPWNVDTLGQDGFTG  -1.0000     NotChecked  -16.5100    1734.7849   ✗       
+823   +42.011VPWNVDTLGQDGFTK   -1.0000     NotChecked  -16.5118    1717.8311   ✗       
+824   GVPWN+0.984VDTLGQDGFTK   -1.0000     NotChecked  -16.5171    1733.8261   ✗       
+825   +43.006LPWNVDTLGQDGFTK   -1.0000     NotChecked  -16.5175    1732.8420   ✗       
+826   +42.011GLPWNVDTLGQDGFTK  -1.0000     NotChecked  -16.5265    1788.8682   ✗       
+827   +43.006TPWNVDTLGQDGFTK   -1.0000     NotChecked  -16.5308    1720.8056   ✗       
+828   +43.006SVPWSVDTLGQDGFTK  -1.0000     NotChecked  -16.5322    1778.8475   ✗       
+829   +43.006AVPWNVDTLGQDGFTK  -1.0000     NotChecked  -16.5324    1789.8635   ✗       
+830   GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.5365    1734.8213   ✗       
+831   LVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.5433    1788.9046   ✗       
+832   GTVPWNVDTLQDGFTK         -1.0000     NotChecked  -16.5511    1776.8682   ✗       
+833   GTVPWNVDTLGQGGFTK        -1.0000     NotChecked  -16.5595    1775.8842   ✗       
+834   SSPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.5599    1750.8162   ✗       
+835   LAPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.5777    1760.8733   ✗       
+836   STPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.5811    1764.8319   ✗       
+837   SLPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -16.5888    1776.8682   ✗       
+838   +42.011TVWNVDTLGQDGFTK   -1.0000     NotChecked  -16.5889    1721.8260   ✗       
+839   TVPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -16.5971    1776.8682   ✗       
+840   GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.6077    1734.8213   ✗       
+841   +43.006LPWNVDTLGQDGFTK   -1.0000     NotChecked  -16.6109    1732.8420   ✗       
+842   +42.011TPWNVDTLGQDGFTK   -1.0000     NotChecked  -16.6177    1719.8104   ✗       
+843   +42.011SPWNVDTLGQDGFTK   -1.0000     NotChecked  -16.6199    1705.7947   ✗       
+844   +43.006AVPWNVDTLGQDGFTK  -1.0000     NotChecked  -16.6265    1789.8635   ✗       
+845   +42.011TPWNVDTLGQDGFTK   -1.0000     NotChecked  -16.6304    1719.8104   ✗       
+846   GTPWNVN+0.984TLGQDGFTK   -1.0000     NotChecked  -16.6329    1734.8213   ✗       
+847   +43.006GTPWNVDTLGQDGFTK  -1.0000     NotChecked  -16.6345    1777.8271   ✗       
+848   +42.011LPWNVDTLGQN+0.984GFTK-1.0000     NotChecked  -16.6381    1731.8468   ✗       
+849   GGPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.6402    1690.7951   ✗       
+850   GVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.6453    1732.8420   ✗       
+851   +42.011GVPWNVDTLGQDGFTK  -1.0000     NotChecked  -16.6458    1774.8526   ✗       
+852   LSVPWNVDTLGDGFTK         -1.0000     NotChecked  -16.6564    1747.8781   ✗       
+853   +43.006TPWNVDTLGQDGFTK   -1.0000     NotChecked  -16.6585    1720.8056   ✗       
+854   GSLPWNVDTLGQDGFTG        -1.0000     NotChecked  -16.6608    1762.8162   ✗       
+855   +42.011SAPWNVDTLGQDGFTK  -1.0000     NotChecked  -16.6610    1776.8319   ✗       
+856   +43.006GVPWN+0.984VDTLGQDGFTK-1.0000     NotChecked  -16.6631    1776.8319   ✗       
+857   GTVPWGVDTLGQDGFTK        -1.0000     NotChecked  -16.6640    1776.8682   ✗       
+858   GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.6643    1734.8213   ✗       
+859   +43.006GTPWNVDTLGQDGFTK  -1.0000     NotChecked  -16.6648    1777.8271   ✗       
+860   TTPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.6673    1778.8475   ✗       
+861   GTVPWNVDTLGQDGFTG        -1.0000     NotChecked  -16.6691    1762.8162   ✗       
+862   +43.006VPWNVDTLGQDGFTK   -1.0000     NotChecked  -16.6702    1718.8264   ✗       
+863   +42.011AVPWNVDTLGQDGFTK  -1.0000     NotChecked  -16.6710    1788.8682   ✗       
+864   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.6764    1776.8682   ✗       
+865   GVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.6790    1732.8420   ✗       
+866   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.6925    1776.8682   ✗       
+867   SVPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -16.6934    1762.8526   ✗       
+868   GTVPTNVDTLGQDGFTK        -1.0000     NotChecked  -16.6953    1748.8581   ✗       
+869   VLPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.6969    1788.9046   ✗       
+870   STPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.6977    1764.8319   ✗       
+871   +42.011TVPWNVDTLGQGGFTK  -1.0000     NotChecked  -16.7014    1760.8733   ✗       
+872   TPWNVDTLGQDGFTK          -1.0000     NotChecked  -16.7061    1677.7998   ✗       
+873   GTPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -16.7109    1734.8213   ✗       
+874   GAPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.7134    1704.8107   ✗       
+875   GEPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.7149    1762.8162   ✗       
+876   +43.006VPWNVDTLGQDGFTK   -1.0000     NotChecked  -16.7155    1718.8264   ✗       
+877   GSVPWNVDTLGQDGTTK        -1.0000     NotChecked  -16.7237    1773.8533   ✗       
+878   TTPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.7239    1778.8475   ✗       
+879   SVPWN+0.984VDTLGQDGFTK   -1.0000     NotChecked  -16.7263    1763.8366   ✗       
+880   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.7373    1776.8682   ✗       
+881   LVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.7405    1788.9046   ✗       
+882   +42.011VPWNVDTLGQN+0.984GFTK-1.0000     NotChecked  -16.7427    1717.8311   ✗       
+883   LVPWNVN+0.984TLGQDGFTK   -1.0000     NotChecked  -16.7428    1788.9046   ✗       
+884   STPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.7579    1764.8319   ✗       
+885   +43.006TPWNVDTLGQN+0.984GFTK-1.0000     NotChecked  -16.7617    1720.8056   ✗       
+886   TPWNVDTLGQDGFTK          -1.0000     NotChecked  -16.7627    1677.7998   ✗       
+887   GSVPWNVDTLGQDGFTG        -1.0000     NotChecked  -16.7654    1748.8006   ✗       
+888   GTPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -16.7674    1734.8213   ✗       
+889   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.7716    1762.8526   ✗       
+890   GLPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.7729    1746.8577   ✗       
+891   GGVPWNVDTLGQDGFTK        -1.0000     NotChecked  -16.7742    1789.8635   ✗       
+892   +42.011TPWNVN+0.984TLGQDGFTK-1.0000     NotChecked  -16.7749    1719.8104   ✗       
+893   +43.006VPWNVDTLGQDGFTK   -1.0000     NotChecked  -16.7764    1718.8264   ✗       
+894   +42.011AVPWNVDTLGQDGFTK  -1.0000     NotChecked  -16.7798    1788.8682   ✗       
+895   LVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.7899    1788.9046   ✗       
+896   GSVPWNVDTLGDGFTK         -1.0000     NotChecked  -16.7921    1691.8155   ✗       
+897   VVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.8015    1774.8890   ✗       
+898   AVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.8018    1746.8577   ✗       
+899   +42.011TVPWGVDTLGQDGFTK  -1.0000     NotChecked  -16.8060    1761.8573   ✗       
+900   SAPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.8060    1734.8213   ✗       
+901   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.8092    1762.8526   ✗       
+902   TSPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.8201    1764.8319   ✗       
+903   +42.011VPWNVDTLGQDGFTK   -1.0000     NotChecked  -16.8209    1717.8311   ✗       
+904   GLPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.8210    1746.8577   ✗       
+905   +43.006GVPWNVDTLGQDGFTK  -1.0000     NotChecked  -16.8250    1775.8478   ✗       
+906   GTVPWNVDTLGQDGFGK        -1.0000     NotChecked  -16.8304    1789.8635   ✗       
+907   GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.8476    1734.8213   ✗       
+908   +42.011APWNVDTLGQDGFTK   -1.0000     NotChecked  -16.8553    1689.7998   ✗       
+909   +42.011EPWNVDTLGQDGFTK   -1.0000     NotChecked  -16.8568    1747.8053   ✗       
+910   +43.006AVPWNVDTLGQN+0.984GFTK-1.0000     NotChecked  -16.8574    1789.8635   ✗       
+911   VVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.8624    1774.8890   ✗       
+912   GLPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.8663    1746.8577   ✗       
+913   +42.011AVPWNVN+0.984TLGQDGFTK-1.0000     NotChecked  -16.8706    1788.8682   ✗       
+914   +42.011TAPWNVDTLGQDGFTK  -1.0000     Failed      -16.8709    1790.8475   ✓       
+915   GVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.8762    1732.8420   ✗       
+916   GVPWNVN+0.984TLGQDGFTK   -1.0000     NotChecked  -16.8785    1732.8420   ✗       
+917   +43.006SPWNVDTLGQDGFTK   -1.0000     NotChecked  -16.8845    1706.7900   ✗       
+918   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.8882    1762.8526   ✗       
+919   LVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.8961    1788.9046   ✗       
+920   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.8966    1776.8682   ✗       
+921   +42.011SVPWNVDTLGQDGFTG  -1.0000     NotChecked  -16.9074    1733.7897   ✗       
+922   LSVPWNVDTLGQDGFK         -1.0000     NotChecked  -16.9136    1774.8890   ✗       
+923   +42.011LPWNVDTLGQDGFTK   -1.0000     NotChecked  -16.9148    1731.8468   ✗       
+924   LTVPWNVDTLGQDGFT         -1.0000     NotChecked  -16.9154    1761.8573   ✗       
+925   GGVPWN+0.984VDTLGQDGFTK  -1.0000     Failed      -16.9185    1790.8475   ✓       
+926   GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.9202    1734.8213   ✗       
+927   GVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.9256    1732.8420   ✗       
+928   GLPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.9271    1746.8577   ✗       
+929   +42.011TPWNVDTLGQDGFTK   -1.0000     NotChecked  -16.9281    1719.8104   ✗       
+930   +42.011SVPWSVDTLGQDGFTK  -1.0000     NotChecked  -16.9295    1777.8523   ✗       
+931   +42.011AVPWNVDTLGQDGFTK  -1.0000     NotChecked  -16.9297    1788.8682   ✗       
+932   GTPWN+0.984VDTLGQDGFTK   -1.0000     NotChecked  -16.9334    1735.8053   ✗       
+933   +43.006AVPWNVDTLGQDGFTK  -1.0000     NotChecked  -16.9356    1789.8635   ✗       
+934   +43.006SVWNVDTLGQDGFTK   -1.0000     NotChecked  -16.9497    1708.8056   ✗       
+935   TTPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.9579    1778.8475   ✗       
+936   SLPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.9589    1776.8682   ✗       
+937   TVPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -16.9682    1776.8682   ✗       
+938   +43.006APWNVDTLGQDGFTK   -1.0000     NotChecked  -16.9700    1690.7951   ✗       
+939   VSPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.9704    1762.8526   ✗       
+940   LVPWNVDTLGQDGFTK         -1.0000     NotChecked  -16.9706    1788.9046   ✗       
+941   +43.006SPWNVDTLGQDGFTK   -1.0000     NotChecked  -16.9785    1706.7900   ✗       
+942   TVPWN+0.984VDTLGQDGFTK   -1.0000     NotChecked  -16.9866    1777.8523   ✗       
+943   GSVPLNVDTLGQDGFTK        -1.0000     NotChecked  -16.9930    1746.8788   ✗       
+944   ALPWNVDTLGQDGFTK         -1.0000     NotChecked  -17.0034    1760.8733   ✗       
+945   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -17.0035    1762.8526   ✗       
+946   LSPWNVDTLGQDGFTK         -1.0000     NotChecked  -17.0042    1776.8682   ✗       
+947   +43.006VPWNVDTLGQN+0.984GFTK-1.0000     NotChecked  -17.0073    1718.8264   ✗       
+948   +42.011LPWNVDTLGQDGFTK   -1.0000     NotChecked  -17.0083    1731.8468   ✗       
+949   SLPWNVDTLGQDGFTK         -1.0000     NotChecked  -17.0107    1776.8682   ✗       
+950   +43.006GLPWNVDTLGQDGFTK  -1.0000     NotChecked  -17.0123    1789.8635   ✗       
+951   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -17.0182    1762.8526   ✗       
+952   +42.011AVPWNVDTLGQDGFTK  -1.0000     NotChecked  -17.0239    1788.8682   ✗       
+953   +43.006GVPWNVN+0.984TLGQDGFTK-1.0000     NotChecked  -17.0245    1775.8478   ✗       
+954   GVPWNVDTLGQDGFTK         -1.0000     NotChecked  -17.0318    1732.8420   ✗       
+955   +42.011GTPWNVDTLGQDGFTK  -1.0000     NotChecked  -17.0318    1776.8319   ✗       
+956   TVPWN+0.984VDTLGQDGFTK   -1.0000     NotChecked  -17.0409    1777.8523   ✗       
+957   GSVPWNVDTLGQDGLTK        -1.0000     NotChecked  -17.0422    1785.8897   ✗       
+958   +43.006AVPWNVDTLGQDGFTK  -1.0000     NotChecked  -17.0444    1789.8635   ✗       
+959   GQPWNVDTLGQDGFTK         -1.0000     NotChecked  -17.0449    1761.8322   ✗       
+960   LSPWNVDTLGQDGFTK         -1.0000     NotChecked  -17.0488    1776.8682   ✗       
+961   GSVPWNVDTLGQDGFK         -1.0000     NotChecked  -17.0493    1718.8264   ✗       
+962   GTVPWNVDTLGQDGFT         -1.0000     NotChecked  -17.0511    1705.7947   ✗       
+963   +42.011TPWNVDTLGQDGFTK   -1.0000     NotChecked  -17.0559    1719.8104   ✗       
+964   +42.011GVPWN+0.984VDTLGQDGFTK-1.0000     NotChecked  -17.0605    1775.8366   ✗       
+965   GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -17.0616    1734.8213   ✗       
+966   +42.011GTPWNVDTLGQDGFTK  -1.0000     NotChecked  -17.0621    1776.8319   ✗       
+967   +43.006SVPWNVDTLGQGGFTK  -1.0000     NotChecked  -17.0622    1747.8529   ✗       
+968   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -17.0636    1762.8526   ✗       
+969   +42.011VPWNVDTLGQDGFTK   -1.0000     NotChecked  -17.0676    1717.8311   ✗       
+970   LSVWNVDTLGQDGFTK         -1.0000     NotChecked  -17.0694    1778.8839   ✗       
+971   +43.006GLPWNVDTLGQDGFTK  -1.0000     NotChecked  -17.0731    1789.8635   ✗       
+972   SLPWNVDTLGQDGFTK         -1.0000     NotChecked  -17.0755    1776.8682   ✗       
+973   +43.006TPWNVDTLGQDGFTK   -1.0000     NotChecked  -17.0865    1720.8056   ✗       
+974   SVPWNVN+0.984TLGQDGFTK   -1.0000     NotChecked  -17.0878    1762.8526   ✗       
+975   LAPWNVDTLGQDGFTK         -1.0000     NotChecked  -17.0897    1760.8733   ✗       
+976   VVPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -17.0932    1774.8890   ✗       
+977   +43.006QPWNVDTLGQDGFTK   -1.0000     NotChecked  -17.0957    1747.8165   ✗       
+978   LSPWNVDTLGQDGFTK         -1.0000     NotChecked  -17.0982    1776.8682   ✗       
+979   GSLWNVDTLGQDGFTK         -1.0000     NotChecked  -17.1005    1736.8369   ✗       
+980   GVPWNVDTLGQDGFTK         -1.0000     NotChecked  -17.1063    1732.8420   ✗       
+981   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -17.1082    1762.8526   ✗       
+982   GSVPENVDTLGQDGFTK        -1.0000     NotChecked  -17.1099    1762.8373   ✗       
+983   +42.011VPWNVDTLGQDGFTK   -1.0000     NotChecked  -17.1129    1717.8311   ✗       
+984   +43.006TPWNVDTLGQDGFTK   -1.0000     NotChecked  -17.1163    1720.8056   ✗       
+985   +43.006TVPWNVDTLGQDGGTK  -1.0000     NotChecked  -17.1189    1729.8271   ✗       
+986   SVPWNVDTLGQDGFTK         -1.0000     NotChecked  -17.1244    1762.8526   ✗       
+987   LVPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -17.1270    1788.9046   ✗       
+988   GGVPWNVDTLGQDGFTK        -1.0000     NotChecked  -17.1270    1789.8635   ✗       
+989   +43.006KPWNVDTLGQDGFTK   -1.0000     NotChecked  -17.1272    1747.8529   ✗       
+990   +43.006TPWNVDTLGQDGFTK   -1.0000     NotChecked  -17.1319    1720.8056   ✗       
+991   SLPWNVDTLGQDGFTK         -1.0000     NotChecked  -17.1364    1776.8682   ✗       
+992   GTPWNVDTLGQDGFTK         -1.0000     NotChecked  -17.1376    1734.8213   ✗       
+993   GSPWNVDTLGQDGFTK         -1.0000     NotChecked  -17.1399    1720.8056   ✗       
+994   STPWN+0.984VDTLGQDGFTK   -1.0000     NotChecked  -17.1427    1765.8159   ✗       
+995   LVPWNVDTLGQNGFTK         -1.0000     NotChecked  -17.1481    1787.9206   ✗       
+996   TVPWNVDTLGQDGFTK         -1.0000     NotChecked  -17.1484    1776.8682   ✗       
+997   GSVPWNVDTLGQDGDTK        -1.0000     NotChecked  -17.1527    1787.8326   ✗       
+998   LPWNVDTLGQDGFTK          -1.0000     NotChecked  -17.1532    1689.8362   ✗       
+999   +43.006VPWNVDTLGQDGFTK   -1.0000     NotChecked  -17.1571    1718.8264   ✗       
+1000  GLPWNVDTLGQN+0.984GFTK   -1.0000     NotChecked  -17.1580    1746.8577   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: LTPWNVDTLGQDGFTK
+Similarity: 0.8963
+De Novo Score: -7.6397
+Source: Database
+Correct: ✓
+

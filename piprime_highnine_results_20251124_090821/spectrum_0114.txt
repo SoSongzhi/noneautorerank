@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 114
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 795.4377
+Precursor charge: 2+
+Ground truth: RIPTNIIAEFYPR
+Ground truth (normalized): RIPTNIIAEFYPR
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 199
+Used for reranking: 199
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 199 (19.9%)
+Database matches: 74 (7.4%)
+Prosit predictions: 124 (12.4%)
+Failed: 1 (0.1%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.8940
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     RLPTNLLAEFYPR            0.8940      Database    -0.5346     1588.8726   ✓       ✓
+2     RLPTNLLAEFYPR            0.8940      Database    -2.7500     1588.8726   ✓       ✓
+3     RLPTNLLAEFYPR            0.8940      Database    -3.1054     1588.8726   ✓       ✓
+4     RLPTNLLAEFYPR            0.8940      Database    -3.8516     1588.8726   ✓       ✓
+5     RLPTNLLAEFYPR            0.8940      Database    -3.9118     1588.8726   ✓       ✓
+6     RLPTNLLAEFYPR            0.8940      Database    -5.3209     1588.8726   ✓       ✓
+7     RLPTNLLAEFYPR            0.8940      Database    -6.0670     1588.8726   ✓       ✓
+8     RLPTNLLAEFYPR            0.8940      Database    -6.1272     1588.8726   ✓       ✓
+9     RLPTNLLAEFYPR            0.8940      Database    -6.4224     1588.8726   ✓       ✓
+10    RLPTNLLAEFYPR            0.8940      Database    -6.4827     1588.8726   ✓       ✓
+11    RLPTNLLAEFYPR            0.8940      Database    -6.5315     1588.8726   ✓       ✓
+12    RLPTNLLAEFYPR            0.8940      Database    -7.2288     1588.8726   ✓       ✓
+13    RLPTNLLAEFYPR            0.8940      Database    -8.5229     1588.8726   ✓       ✓
+14    RLPTNLLAEFYPR            0.8940      Database    -8.6379     1588.8726   ✓       ✓
+15    RLPTNLLAEFYPR            0.8940      Database    -8.6981     1588.8726   ✓       ✓
+16    RLPTNLLAEFYPR            0.8940      Database    -8.7470     1588.8726   ✓       ✓
+17    RLPTNLLAEFYPR            0.8940      Database    -9.1024     1588.8726   ✓       ✓
+18    RLPTNLLAEFYPR            0.8940      Database    -9.1874     1588.8726   ✓       ✓
+19    RLPTNLLAEFYPR            0.8940      Database    -9.4442     1588.8726   ✓       ✓
+20    RLPTNLLAEFYPR            0.8940      Database    -9.7997     1588.8726   ✓       ✓
+21    RLPTNLLAEFYPR            0.8940      Database    -9.8485     1588.8726   ✓       ✓
+22    RLPTNLLAEFYPR            0.8940      Database    -9.9087     1588.8726   ✓       ✓
+23    RLPTNLLAEFYPR            0.8940      Database    -9.9966     1588.8726   ✓       ✓
+24    RLPTNLLAEFYPR            0.8940      Database    -10.7383    1588.8726   ✓       ✓
+25    RLPTNLLAEFYPR            0.8940      Database    -11.0938    1588.8726   ✓       ✓
+26    RLPTNLLAEFYPR            0.8940      Database    -11.1340    1588.8726   ✓       ✓
+27    RLPTNLLAEFYPR            0.8940      Database    -11.3178    1588.8726   ✓       ✓
+28    RLPTNLLAEFYPR            0.8940      Database    -11.4028    1588.8726   ✓       ✓
+29    RLPTNLLAEFYPR            0.8940      Database    -11.4431    1588.8726   ✓       ✓
+30    RLPTNLLAEFYPR            0.8940      Database    -11.7583    1588.8726   ✓       ✓
+31    RLPTNLLAEFYPR            0.8940      Database    -11.8399    1588.8726   ✓       ✓
+32    RLPTNLLAEFYPR            0.8940      Database    -11.9001    1588.8726   ✓       ✓
+33    RLPTNLLAEFYPR            0.8940      Database    -12.0151    1588.8726   ✓       ✓
+34    RLPTNLLAEFYPR            0.8940      Database    -12.0640    1588.8726   ✓       ✓
+35    RLPTNLLAEFYPR            0.8940      Database    -12.1242    1588.8726   ✓       ✓
+36    RLPTNLLAEFYPR            0.8940      Database    -12.2121    1588.8726   ✓       ✓
+37    RLPTNLLAEFYPR            0.8940      Database    -12.4194    1588.8726   ✓       ✓
+38    RLPTNLLAEFYPR            0.8940      Database    -12.4796    1588.8726   ✓       ✓
+39    RLPTNLLAEFYPR            0.8940      Database    -12.5044    1588.8726   ✓       ✓
+40    RLPTNLLAEFYPR            0.8940      Database    -12.5646    1588.8726   ✓       ✓
+41    RLPTNLLAEFYPR            0.8940      Database    -12.5675    1588.8726   ✓       ✓
+42    RLPTNLLAEFYPR            0.8940      Database    -13.2016    1588.8726   ✓       ✓
+43    RLPTNLLAEFYPR            0.8940      Database    -13.2257    1588.8726   ✓       ✓
+44    RLPTNLLAEFYPR            0.8940      Database    -13.3092    1588.8726   ✓       ✓
+45    RLPTNLLAEFYPR            0.8940      Database    -13.3136    1588.8726   ✓       ✓
+46    RLPTNLLAEFYPR            0.8940      Database    -13.3494    1588.8726   ✓       ✓
+47    RLPTNLLAEFYPR            0.8940      Database    -13.3739    1588.8726   ✓       ✓
+48    RLPTNLLAEFYPR            0.8940      Database    -13.6585    1588.8726   ✓       ✓
+49    RLPTNLLAEFYPR            0.8940      Database    -13.7048    1588.8726   ✓       ✓
+50    RLPTNLLAEFYPR            0.8940      Database    -13.8992    1588.8726   ✓       ✓
+51    RLPTNLLAEFYPR            0.8940      Database    -13.9737    1588.8726   ✓       ✓
+52    RLPTNLLAEFYPR            0.8940      Database    -14.0140    1588.8726   ✓       ✓
+53    RLPTNLLAEFYPR            0.8940      Database    -14.0553    1588.8726   ✓       ✓
+54    RLPTNLLAEFYPR            0.8940      Database    -14.1156    1588.8726   ✓       ✓
+55    RLPTNLLAEFYPR            0.8940      Database    -14.3230    1588.8726   ✓       ✓
+56    RLPTNLLAEFYPR            0.8940      Database    -14.4108    1588.8726   ✓       ✓
+57    RLPTNLLAEFYPR            0.8940      Database    -14.4510    1588.8726   ✓       ✓
+58    RLPTNLLAEFYPR            0.8940      Database    -14.4710    1588.8726   ✓       ✓
+59    RLPTNLLAEFYPR            0.8940      Database    -14.5112    1588.8726   ✓       ✓
+60    RLPTNLLAEFYPR            0.8940      Database    -14.5198    1588.8726   ✓       ✓
+61    RLPTNLLAEFYPR            0.8940      Database    -14.6348    1588.8726   ✓       ✓
+62    RLPTNLLAEFYPR            0.8940      Database    -14.6951    1588.8726   ✓       ✓
+63    RLPTNLLAEFYPR            0.8940      Database    -14.7198    1588.8726   ✓       ✓
+64    RLPTNLLAEFYPR            0.8940      Database    -14.7601    1588.8726   ✓       ✓
+65    RLPTNLLAEFYPR            0.8940      Database    -14.7801    1588.8726   ✓       ✓
+66    RLPTNLLAEFYPR            0.8940      Database    -14.7830    1588.8726   ✓       ✓
+67    RLPTNLLAEFYPR            0.8940      Database    -14.8203    1588.8726   ✓       ✓
+68    RLPTNLLAEFYPR            0.8940      Database    -15.0753    1588.8726   ✓       ✓
+69    RLPTNLLAEFYPR            0.8940      Database    -15.1355    1588.8726   ✓       ✓
+70    RLPTNLLAEFYPR            0.8940      Database    -15.1843    1588.8726   ✓       ✓
+71    RLPTNLLAEFYPR            0.8940      Database    -15.2171    1588.8726   ✓       ✓
+72    RLPTNLLAEFYPR            0.8940      Database    -15.2579    1588.8726   ✓       ✓
+73    RLPTNLLAEFYPR            0.8940      Database    -19.0330    1588.8726   ✓       ✓
+74    RLPTNLLAEFYPR            0.8940      Database    -21.2485    1588.8726   ✓       ✓
+75    RLPTAGVLAEFYPR           0.5422      Prosit      -15.0667    1588.8726   ✓       
+76    RLPTQVLAEFYPR            0.5377      Prosit      -11.0897    1588.8726   ✓       
+77    RLPTQVLAEFYPR            0.5377      Prosit      -13.3052    1588.8726   ✓       
+78    RLPTQVLAEFYPR            0.5377      Prosit      -13.6606    1588.8726   ✓       
+79    RLPTQVLAEFYPR            0.5377      Prosit      -14.4067    1588.8726   ✓       
+80    RLPTQVLAEFYPR            0.5377      Prosit      -14.4669    1588.8726   ✓       
+81    RLPTGGLLAEFYPR           0.5315      Prosit      -5.1578     1588.8726   ✓       
+82    RLPTGGLLAEFYPR           0.5315      Prosit      -5.8866     1588.8726   ✓       
+83    RLPTGGLLAEFYPR           0.5315      Prosit      -7.3733     1588.8726   ✓       
+84    RLPTGGLLAEFYPR           0.5315      Prosit      -7.7287     1588.8726   ✓       
+85    RLPTGGLLAEFYPR           0.5315      Prosit      -7.8675     1588.8726   ✓       
+86    RLPTGGLLAEFYPR           0.5315      Prosit      -8.1020     1588.8726   ✓       
+87    RLPTGGLLAEFYPR           0.5315      Prosit      -8.4574     1588.8726   ✓       
+88    RLPTGGLLAEFYPR           0.5315      Prosit      -8.4748     1588.8726   ✓       
+89    RLPTGGLLAEFYPR           0.5315      Prosit      -8.5351     1588.8726   ✓       
+90    RLPTGGLLAEFYPR           0.5315      Prosit      -9.2036     1588.8726   ✓       
+91    RLPTGGLLAEFYPR           0.5315      Prosit      -9.2638     1588.8726   ✓       
+92    RLPTGGLLAEFYPR           0.5315      Prosit      -9.6008     1588.8726   ✓       
+93    RLPTGGLLAEFYPR           0.5315      Prosit      -9.9441     1588.8726   ✓       
+94    RLPTGGLLAEFYPR           0.5315      Prosit      -10.0830    1588.8726   ✓       
+95    RLPTGGLLAEFYPR           0.5315      Prosit      -10.4384    1588.8726   ✓       
+96    RLPTGGLLAEFYPR           0.5315      Prosit      -10.6729    1588.8726   ✓       
+97    RLPTGGLLAEFYPR           0.5315      Prosit      -10.6903    1588.8726   ✓       
+98    RLPTGGLLAEFYPR           0.5315      Prosit      -10.7505    1588.8726   ✓       
+99    RLPTGGLLAEFYPR           0.5315      Prosit      -11.0457    1588.8726   ✓       
+100   RLPTGGLLAEFYPR           0.5315      Prosit      -11.1059    1588.8726   ✓       
+101   RLPTGGLLAEFYPR           0.5315      Prosit      -11.1548    1588.8726   ✓       
+102   RLPTGGLLAEFYPR           0.5315      Prosit      -11.1845    1588.8726   ✓       
+103   RLPTGGLLAEFYPR           0.5315      Prosit      -11.2448    1588.8726   ✓       
+104   RLPTGGLLAEFYPR           0.5315      Prosit      -11.4190    1588.8726   ✓       
+105   RLPTGGLLAEFYPR           0.5315      Prosit      -11.4434    1588.8726   ✓       
+106   RLPTGGLLAEFYPR           0.5315      Prosit      -11.4793    1588.8726   ✓       
+107   RLPTGGLLAEFYPR           0.5315      Prosit      -11.7744    1588.8726   ✓       
+108   RLPTGGLLAEFYPR           0.5315      Prosit      -11.8162    1588.8726   ✓       
+109   RLPTGGLLAEFYPR           0.5315      Prosit      -11.8347    1588.8726   ✓       
+110   RLPTGGLLAEFYPR           0.5315      Prosit      -11.8521    1588.8726   ✓       
+111   RLPTGGLLAEFYPR           0.5315      Prosit      -11.8835    1588.8726   ✓       
+112   RLPTGGLLAEFYPR           0.5315      Prosit      -12.1716    1588.8726   ✓       
+113   RLPTGGLLAEFYPR           0.5315      Prosit      -12.1721    1588.8726   ✓       
+114   RLPTGGLLAEFYPR           0.5315      Prosit      -12.5808    1588.8726   ✓       
+115   RLPTGGLLAEFYPR           0.5315      Prosit      -12.6539    1588.8726   ✓       
+116   RLPTGGLLAEFYPR           0.5315      Prosit      -12.9178    1588.8726   ✓       
+117   RLPTGGLLAEFYPR           0.5315      Prosit      -12.9780    1588.8726   ✓       
+118   RLPTGGLLAEFYPR           0.5315      Prosit      -13.2611    1588.8726   ✓       
+119   RLPTGGLLAEFYPR           0.5315      Prosit      -13.3214    1588.8726   ✓       
+120   RLPTGGLLAEFYPR           0.5315      Prosit      -13.3702    1588.8726   ✓       
+121   RLPTGGLLAEFYPR           0.5315      Prosit      -13.4000    1588.8726   ✓       
+122   RLPTGGLLAEFYPR           0.5315      Prosit      -13.4602    1588.8726   ✓       
+123   RLPTGGLLAEFYPR           0.5315      Prosit      -13.6588    1588.8726   ✓       
+124   RLPTGGLLAEFYPR           0.5315      Prosit      -13.7257    1588.8726   ✓       
+125   RLPTGGLLAEFYPR           0.5315      Prosit      -13.7554    1588.8726   ✓       
+126   RLPTGGLLAEFYPR           0.5315      Prosit      -13.7958    1588.8726   ✓       
+127   RLPTGGLLAEFYPR           0.5315      Prosit      -13.8107    1588.8726   ✓       
+128   RLPTGGLLAEFYPR           0.5315      Prosit      -13.8156    1588.8726   ✓       
+129   RLPTGGLLAEFYPR           0.5315      Prosit      -13.8645    1588.8726   ✓       
+130   RLPTGGLLAEFYPR           0.5315      Prosit      -13.8749    1588.8726   ✓       
+131   RLPTGGLLAEFYPR           0.5315      Prosit      -13.9899    1588.8726   ✓       
+132   RLPTGGLLAEFYPR           0.5315      Prosit      -14.0142    1588.8726   ✓       
+133   RLPTGGLLAEFYPR           0.5315      Prosit      -14.0501    1588.8726   ✓       
+134   RLPTGGLLAEFYPR           0.5315      Prosit      -14.0675    1588.8726   ✓       
+135   RLPTGGLLAEFYPR           0.5315      Prosit      -14.0990    1588.8726   ✓       
+136   RLPTGGLLAEFYPR           0.5315      Prosit      -14.1531    1588.8726   ✓       
+137   RLPTGGLLAEFYPR           0.5315      Prosit      -14.3871    1588.8726   ✓       
+138   RLPTGGLLAEFYPR           0.5315      Prosit      -14.3876    1588.8726   ✓       
+139   RLPTGGLLAEFYPR           0.5315      Prosit      -14.4229    1588.8726   ✓       
+140   RLPTGGLLAEFYPR           0.5315      Prosit      -14.4544    1588.8726   ✓       
+141   RLPTGGLLAEFYPR           0.5315      Prosit      -14.4718    1588.8726   ✓       
+142   RLPTGGLLAEFYPR           0.5315      Prosit      -14.5320    1588.8726   ✓       
+143   RLPTGGLLAEFYPR           0.5315      Prosit      -14.5394    1588.8726   ✓       
+144   RLPTGGLLAEFYPR           0.5315      Prosit      -14.5618    1588.8726   ✓       
+145   RLPTGGLLAEFYPR           0.5315      Prosit      -14.6199    1588.8726   ✓       
+146   RLPTGGLLAEFYPR           0.5315      Prosit      -14.7430    1588.8726   ✓       
+147   RLPTGGLLAEFYPR           0.5315      Prosit      -14.7604    1588.8726   ✓       
+148   RLPTGGLLAEFYPR           0.5315      Prosit      -14.7963    1588.8726   ✓       
+149   RLPTGGLLAEFYPR           0.5315      Prosit      -14.8206    1588.8726   ✓       
+150   RLPTGGLLAEFYPR           0.5315      Prosit      -15.1332    1588.8726   ✓       
+151   RLPTGGLLAEFYPR           0.5315      Prosit      -15.1517    1588.8726   ✓       
+152   RLPTGGLLAEFYPR           0.5315      Prosit      -15.1934    1588.8726   ✓       
+153   RLPTGGLLAEFYPR           0.5315      Prosit      -15.2005    1588.8726   ✓       
+154   RLPTGGLLAEFYPR           0.5315      Prosit      -15.2608    1588.8726   ✓       
+155   RLPTNLLAQ+0.984FYPR      0.5175      Prosit      -6.3989     1588.8726   ✓       
+156   RLPTNLLAQ+0.984FYPR      0.5175      Prosit      -8.6144     1588.8726   ✓       
+157   RLPTNLLAQ+0.984FYPR      0.5175      Prosit      -8.9698     1588.8726   ✓       
+158   RLPTNLLAQ+0.984FYPR      0.5175      Prosit      -9.7159     1588.8726   ✓       
+159   RLPTNLLAQ+0.984FYPR      0.5175      Prosit      -9.7762     1588.8726   ✓       
+160   RLPTNLLAQ+0.984FYPR      0.5175      Prosit      -11.1852    1588.8726   ✓       
+161   RLPTNLLAQ+0.984FYPR      0.5175      Prosit      -11.9314    1588.8726   ✓       
+162   RLPTNLLAQ+0.984FYPR      0.5175      Prosit      -11.9916    1588.8726   ✓       
+163   RLPTNLLAQ+0.984FYPR      0.5175      Prosit      -12.2868    1588.8726   ✓       
+164   RLPTNLLAQ+0.984FYPR      0.5175      Prosit      -12.3470    1588.8726   ✓       
+165   RLPTNLLAQ+0.984FYPR      0.5175      Prosit      -12.3959    1588.8726   ✓       
+166   RLPTNLLAQ+0.984FYPR      0.5175      Prosit      -13.0932    1588.8726   ✓       
+167   RLPTNLLAQ+0.984FYPR      0.5175      Prosit      -14.3873    1588.8726   ✓       
+168   RLPTNLLAQ+0.984FYPR      0.5175      Prosit      -14.5022    1588.8726   ✓       
+169   RLPTNLLAQ+0.984FYPR      0.5175      Prosit      -14.5625    1588.8726   ✓       
+170   RLPTNLLAQ+0.984FYPR      0.5175      Prosit      -14.6113    1588.8726   ✓       
+171   RLPTNLLAQ+0.984FYPR      0.5175      Prosit      -14.9667    1588.8726   ✓       
+172   RLPTNLLAQ+0.984FYPR      0.5175      Prosit      -15.0518    1588.8726   ✓       
+173   +42.011LPTGNGLLAEFYPR    0.5144      Prosit      -18.9016    1588.8249   ✓       
+174   +42.011LPTGNGLLAEFYPR    0.5144      Prosit      -19.0399    1588.8249   ✓       
+175   +42.011LPTGNGLLAEFYPR    0.5144      Prosit      -19.6303    1588.8249   ✓       
+176   +42.011LPTGNGLLAEFYPR    0.5144      Prosit      -19.7687    1588.8249   ✓       
+177   +42.011LPTGNGLLAEFYPR    0.5144      Prosit      -21.1170    1588.8249   ✓       
+178   +42.011LPTGNGLLAEFYPR    0.5144      Prosit      -21.2554    1588.8249   ✓       
+179   VLPTGNLLAEFYPR           0.5126      Prosit      -17.6415    1588.8613   ✓       
+180   VLPTGNLLAEFYPR           0.5126      Prosit      -18.3703    1588.8613   ✓       
+181   VLPTGNLLAEFYPR           0.5126      Prosit      -19.8570    1588.8613   ✓       
+182   VLPTGNLLAEFYPR           0.5126      Prosit      -20.2124    1588.8613   ✓       
+183   VLPTGNLLAEFYPR           0.5126      Prosit      -20.3512    1588.8613   ✓       
+184   VLPTGNLLAEFYPR           0.5126      Prosit      -20.5857    1588.8613   ✓       
+185   VLPTGNLLAEFYPR           0.5126      Prosit      -20.9411    1588.8613   ✓       
+186   VLPTGNLLAEFYPR           0.5126      Prosit      -20.9585    1588.8613   ✓       
+187   VLPTGNLLAEFYPR           0.5126      Prosit      -21.0188    1588.8613   ✓       
+188   RLPTGGLLAQ+0.984FYPR     0.5090      Prosit      -11.0222    1588.8726   ✓       
+189   RLPTGGLLAQ+0.984FYPR     0.5090      Prosit      -11.7509    1588.8726   ✓       
+190   RLPTGGLLAQ+0.984FYPR     0.5090      Prosit      -13.2376    1588.8726   ✓       
+191   RLPTGGLLAQ+0.984FYPR     0.5090      Prosit      -13.5931    1588.8726   ✓       
+192   RLPTGGLLAQ+0.984FYPR     0.5090      Prosit      -13.7319    1588.8726   ✓       
+193   RLPTGGLLAQ+0.984FYPR     0.5090      Prosit      -13.9664    1588.8726   ✓       
+194   RLPTGGLLAQ+0.984FYPR     0.5090      Prosit      -14.3218    1588.8726   ✓       
+195   RLPTGGLLAQ+0.984FYPR     0.5090      Prosit      -14.3392    1588.8726   ✓       
+196   RLPTGGLLAQ+0.984FYPR     0.5090      Prosit      -14.3994    1588.8726   ✓       
+197   RLPTGGLLAQ+0.984FYPR     0.5090      Prosit      -15.0679    1588.8726   ✓       
+198   RLPTGGLLAQ+0.984FYPR     0.5090      Prosit      -15.1282    1588.8726   ✓       
+199   RLPTGLLAEFYPR            -1.0000     NotChecked  -3.1769     1531.8511   ✗       
+200   RLPTNVLAEFYPR            -1.0000     NotChecked  -4.9879     1574.8569   ✗       
+201   RLPTGLLAEFYPR            -1.0000     NotChecked  -5.3923     1531.8511   ✗       
+202   RLPTGLLAEFYPR            -1.0000     NotChecked  -5.7477     1531.8511   ✗       
+203   RLPTGLLAEFYPR            -1.0000     NotChecked  -6.4939     1531.8511   ✗       
+204   RLPTGLLAEFYPR            -1.0000     NotChecked  -6.5541     1531.8511   ✗       
+205   RLPTNVLAEFYPR            -1.0000     NotChecked  -7.2033     1574.8569   ✗       
+206   RLPTNVLAEFYPR            -1.0000     NotChecked  -7.5587     1574.8569   ✗       
+207   RLPTGVLAEFYPR            -1.0000     NotChecked  -7.6302     1517.8354   ✗       
+208   RLPTGLLAEFYPR            -1.0000     NotChecked  -7.9632     1531.8511   ✗       
+209   RLPTNVLAEFYPR            -1.0000     NotChecked  -8.3049     1574.8569   ✗       
+210   RLPTNVLAEFYPR            -1.0000     NotChecked  -8.3651     1574.8569   ✗       
+211   RLPTALLAEFYPR            -1.0000     NotChecked  -8.3941     1545.8667   ✗       
+212   RLPTGLLAEFYPR            -1.0000     NotChecked  -8.7093     1531.8511   ✗       
+213   RLPTGLLAEFYPR            -1.0000     NotChecked  -8.7695     1531.8511   ✗       
+214   RLPGNLLAEFYPR            -1.0000     NotChecked  -8.9380     1544.8463   ✗       
+215   RLPTGLLAQ+0.984FYPR      -1.0000     NotChecked  -9.0412     1531.8511   ✗       
+216   RLPTGLLAEFYPR            -1.0000     NotChecked  -9.0647     1531.8511   ✗       
+217   RLPTGLLAEFYPR            -1.0000     NotChecked  -9.1250     1531.8511   ✗       
+218   RLPTSLLAEFYPR            -1.0000     NotChecked  -9.1316     1561.8617   ✗       
+219   RLPTGLLAEFYPR            -1.0000     NotChecked  -9.1738     1531.8511   ✗       
+220   RLPTGLLAEFYPR            -1.0000     NotChecked  -9.4624     1531.8511   ✗       
+221   RLPTGGVLAEFYPR           -1.0000     NotChecked  -9.6111     1574.8569   ✗       
+222   RLPSNLLAEFYPR            -1.0000     NotChecked  -9.7319     1574.8569   ✗       
+223   RLPTNVLAEFYPR            -1.0000     NotChecked  -9.7742     1574.8569   ✗       
+224   RLPTGVLAEFYPR            -1.0000     NotChecked  -9.8456     1517.8354   ✗       
+225   RLPTGLLAEFYPR            -1.0000     NotChecked  -9.8711     1531.8511   ✗       
+226   RLPTGVLAEFYPR            -1.0000     NotChecked  -10.2010    1517.8354   ✗       
+227   RLPTGGVLAEFYPR           -1.0000     NotChecked  -10.3399    1574.8569   ✗       
+228   RLPTNVLAEFYPR            -1.0000     NotChecked  -10.5203    1574.8569   ✗       
+229   RLPTNVLAEFYPR            -1.0000     NotChecked  -10.5805    1574.8569   ✗       
+230   RLPTALLAEFYPR            -1.0000     NotChecked  -10.6095    1545.8667   ✗       
+231   +42.011LPTNLLAEFYPR      -1.0000     NotChecked  -10.6351    1474.7820   ✗       
+232   RLPTNVLAQ+0.984FYPR      -1.0000     NotChecked  -10.8522    1574.8569   ✗       
+233   RLPTNVLAEFYPR            -1.0000     NotChecked  -10.8757    1574.8569   ✗       
+234   RLPGNLLAEFYPR            -1.0000     NotChecked  -10.9190    1544.8463   ✗       
+235   RLPTNVLAEFYPR            -1.0000     NotChecked  -10.9360    1574.8569   ✗       
+236   RLPTGVLAEFYPR            -1.0000     NotChecked  -10.9472    1517.8354   ✗       
+237   RLPTALLAEFYPR            -1.0000     NotChecked  -10.9650    1545.8667   ✗       
+238   RLPTNVLAEFYPR            -1.0000     NotChecked  -10.9848    1574.8569   ✗       
+239   RLPTGVLAEFYPR            -1.0000     NotChecked  -11.0074    1517.8354   ✗       
+240   +43.006LPTNLLAEFYPR      -1.0000     NotChecked  -11.1230    1475.7773   ✗       
+241   RLPTGLLAEFYPR            -1.0000     NotChecked  -11.1652    1531.8511   ✗       
+242   RLPTGLLAQ+0.984FYPR      -1.0000     NotChecked  -11.2567    1531.8511   ✗       
+243   RLPTGLLAEFYPR            -1.0000     NotChecked  -11.2802    1531.8511   ✗       
+244   RLPTGLLAEFYPR            -1.0000     NotChecked  -11.3404    1531.8511   ✗       
+245   RLPTNLLAEFFPR            -1.0000     NotChecked  -11.3405    1572.8776   ✗       
+246   RLPTSLLAEFYPR            -1.0000     NotChecked  -11.3470    1561.8617   ✗       
+247   RLPTGLLAEFYPR            -1.0000     NotChecked  -11.3893    1531.8511   ✗       
+248   KLPTNLLAEFYPR            -1.0000     NotChecked  -11.4121    1560.8664   ✗       
+249   RLPGNLLAEFYPR            -1.0000     NotChecked  -11.5089    1544.8463   ✗       
+250   RLPGGLLAEFYPR            -1.0000     NotChecked  -11.5803    1487.8249   ✗       
+251   RLPTGLLAQ+0.984FYPR      -1.0000     NotChecked  -11.6121    1531.8511   ✗       
+252   RLPTGLLAEFYPR            -1.0000     NotChecked  -11.6779    1531.8511   ✗       
+253   RLPTNVLAEFYPR            -1.0000     NotChecked  -11.6821    1574.8569   ✗       
+254   RLPTSLLAEFYPR            -1.0000     NotChecked  -11.7024    1561.8617   ✗       
+255   RLPTALLAEFYPR            -1.0000     NotChecked  -11.7111    1545.8667   ✗       
+256   RLPTGLLAEFYPR            -1.0000     NotChecked  -11.7447    1531.8511   ✗       
+257   RLPTALLAEFYPR            -1.0000     NotChecked  -11.7713    1545.8667   ✗       
+258   RLPTLLLAEFYPR            -1.0000     NotChecked  -11.8120    1587.9137   ✗       
+259   RLPTGGVLAEFYPR           -1.0000     NotChecked  -11.8266    1574.8569   ✗       
+260   RLPTGLLAEFYPR            -1.0000     NotChecked  -11.8297    1531.8511   ✗       
+261   RLPTVLLAEFYPR            -1.0000     NotChecked  -11.8957    1573.8980   ✗       
+262   RLPTGLLAEFYPR            -1.0000     NotChecked  -12.0333    1531.8511   ✗       
+263   RLPTGLLAEFYPR            -1.0000     NotChecked  -12.0865    1531.8511   ✗       
+264   RLPNLLAEFYPR             -1.0000     NotChecked  -12.1076    1487.8249   ✗       
+265   RLPTTLLAEFYPR            -1.0000     NotChecked  -12.1239    1575.8773   ✗       
+266   RLPANLLAEFYPR            -1.0000     NotChecked  -12.1247    1558.8620   ✗       
+267   RLPTGGVLAEFYPR           -1.0000     NotChecked  -12.1820    1574.8569   ✗       
+268   RLPGNLLAEFYPR            -1.0000     NotChecked  -12.2550    1544.8463   ✗       
+269   RLPSNLLAEFYPR            -1.0000     NotChecked  -12.3028    1574.8569   ✗       
+270   RLPGNLLAEFYPR            -1.0000     NotChecked  -12.3152    1544.8463   ✗       
+271   RLPTGGVLAEFYPR           -1.0000     NotChecked  -12.3208    1574.8569   ✗       
+272   RLPTGLLAQ+0.984FYPR      -1.0000     NotChecked  -12.3582    1531.8511   ✗       
+273   RLPSGLLAEFYPR            -1.0000     NotChecked  -12.3742    1517.8354   ✗       
+274   RLPTGVLAEFYPR            -1.0000     NotChecked  -12.4165    1517.8354   ✗       
+275   RLPTGLLAQ+0.984FYPR      -1.0000     NotChecked  -12.4185    1531.8511   ✗       
+276   RLPTGLLAEFYPR            -1.0000     NotChecked  -12.4420    1531.8511   ✗       
+277   RLPTSLLAEFYPR            -1.0000     NotChecked  -12.4486    1561.8617   ✗       
+278   RLPTGLLAEFYPR            -1.0000     NotChecked  -12.4908    1531.8511   ✗       
+279   RLPTSLLAEFYPR            -1.0000     NotChecked  -12.5088    1561.8617   ✗       
+280   RLPTGLLAEFYPR            -1.0000     NotChecked  -12.5511    1531.8511   ✗       
+281   RLPTGGVLAEFYPR           -1.0000     NotChecked  -12.5553    1574.8569   ✗       
+282   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -12.6160    1531.8035   ✗       
+283   RLPTN+0.984VLAEFYPR      -1.0000     NotChecked  -12.6361    1575.8409   ✗       
+284   RLPTGLLAEFYPR            -1.0000     NotChecked  -12.6390    1531.8511   ✗       
+285   RLPTNLLAELYPR            -1.0000     NotChecked  -12.7004    1554.8882   ✗       
+286   RLPTGLLAEFYPR            -1.0000     NotChecked  -12.7794    1531.8511   ✗       
+287   RLPTNLAEFYPR             -1.0000     NotChecked  -12.8204    1475.7885   ✗       
+288   RLPTGLLAEFYPR            -1.0000     NotChecked  -12.8396    1531.8511   ✗       
+289   RLPTAVLAEFYPR            -1.0000     NotChecked  -12.8474    1531.8511   ✗       
+290   +42.011LPTNLLAEFYPR      -1.0000     NotChecked  -12.8505    1474.7820   ✗       
+291   RLPTGGVLAEFYPR           -1.0000     NotChecked  -12.9108    1574.8569   ✗       
+292   RLPTGGVLAEFYPR           -1.0000     NotChecked  -12.9281    1574.8569   ✗       
+293   RLPTNALAEFYPR            -1.0000     NotChecked  -12.9512    1546.8256   ✗       
+294   RLPTNVLAEFYPR            -1.0000     NotChecked  -12.9762    1574.8569   ✗       
+295   RLPTGGVLAEFYPR           -1.0000     NotChecked  -12.9884    1574.8569   ✗       
+296   RLPTNLLAEFC+57.021PR     -1.0000     NotChecked  -12.9915    1585.8399   ✗       
+297   RLPTNLLAEFYR             -1.0000     NotChecked  -13.0340    1491.8198   ✗       
+298   LPTNLLAEFYPR             -1.0000     NotChecked  -13.0361    1432.7714   ✗       
+299   RLPSNLLAEFYPR            -1.0000     NotChecked  -13.0489    1574.8569   ✗       
+300   RLPTNVLAQ+0.984FYPR      -1.0000     NotChecked  -13.0677    1574.8569   ✗       
+301   RLPTNVLAEFYPR            -1.0000     NotChecked  -13.0912    1574.8569   ✗       
+302   +43.006LPTGNLLAEFYPR     -1.0000     NotChecked  -13.1040    1532.7987   ✗       
+303   RLPSNLLAEFYPR            -1.0000     NotChecked  -13.1092    1574.8569   ✗       
+304   RLPTNVLAEFYPR            -1.0000     NotChecked  -13.1514    1574.8569   ✗       
+305   RLPTGVLAEFYPR            -1.0000     NotChecked  -13.1626    1517.8354   ✗       
+306   RLPTALLAEFYPR            -1.0000     NotChecked  -13.1804    1545.8667   ✗       
+307   RLPTNLLAEFLPR            -1.0000     NotChecked  -13.1994    1538.8933   ✗       
+308   RLPTNVLAEFYPR            -1.0000     NotChecked  -13.2003    1574.8569   ✗       
+309   +42.011LPTNLLAEFYPR      -1.0000     NotChecked  -13.2059    1474.7820   ✗       
+310   RLPTGVLAEFYPR            -1.0000     NotChecked  -13.2229    1517.8354   ✗       
+311   +42.011LPTGLLAEFYPR      -1.0000     NotChecked  -13.2774    1417.7605   ✗       
+312   RLPTNLLAEFPPR            -1.0000     NotChecked  -13.3067    1522.8620   ✗       
+313   +43.006LPTNLLAEFYPR      -1.0000     NotChecked  -13.3384    1475.7773   ✗       
+314   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -13.3448    1531.8035   ✗       
+315   RLPTGLLAEFYPR            -1.0000     NotChecked  -13.3806    1531.8511   ✗       
+316   RLPGNVLAEFYPR            -1.0000     NotChecked  -13.3913    1530.8307   ✗       
+317   RLPQGLLAEFYPR            -1.0000     NotChecked  -13.4136    1558.8620   ✗       
+318   RLPTNVLAQ+0.984FYPR      -1.0000     NotChecked  -13.4231    1574.8569   ✗       
+319   RLPTNGLAEFYPR            -1.0000     NotChecked  -13.4889    1532.8100   ✗       
+320   RLPGNLLAEFYPR            -1.0000     NotChecked  -13.4898    1544.8463   ✗       
+321   RLPTGVLAQ+0.984FYPR      -1.0000     NotChecked  -13.4945    1517.8354   ✗       
+322   RLPTGVLAEFYPR            -1.0000     NotChecked  -13.5180    1517.8354   ✗       
+323   RLPTGLLSEFYPR            -1.0000     NotChecked  -13.5327    1547.8460   ✗       
+324   RLPTNVLAEFYPR            -1.0000     NotChecked  -13.5557    1574.8569   ✗       
+325   RLPTNLLAEFFPR            -1.0000     NotChecked  -13.5559    1572.8776   ✗       
+326   RLPGGLLAEFYPR            -1.0000     NotChecked  -13.5613    1487.8249   ✗       
+327   RLPTGVLAEFYPR            -1.0000     NotChecked  -13.5783    1517.8354   ✗       
+328   RLPTSVLAEFYPR            -1.0000     NotChecked  -13.5849    1547.8460   ✗       
+329   RLPVNLLAEFYPR            -1.0000     NotChecked  -13.6083    1586.8933   ✗       
+330   RLPTGVLAEFYPR            -1.0000     NotChecked  -13.6271    1517.8354   ✗       
+331   KLPTNLLAEFYPR            -1.0000     NotChecked  -13.6275    1560.8664   ✗       
+332   RLPGNLLAEFYPR            -1.0000     NotChecked  -13.6287    1544.8463   ✗       
+333   RLPTNVLAEFYPR            -1.0000     NotChecked  -13.6407    1574.8569   ✗       
+334   RLPTGGVLAEFYPR           -1.0000     NotChecked  -13.6569    1574.8569   ✗       
+335   +43.006LPTNLLAEFYPR      -1.0000     NotChecked  -13.6939    1475.7773   ✗       
+336   RLPTGGVLAEFYPR           -1.0000     NotChecked  -13.7171    1574.8569   ✗       
+337   RLPTGLLAEFYPR            -1.0000     NotChecked  -13.7361    1531.8511   ✗       
+338   +43.006LPTGLLAEFYPR      -1.0000     NotChecked  -13.7653    1418.7558   ✗       
+339   RLPTGLLAEFYPR            -1.0000     NotChecked  -13.7763    1531.8511   ✗       
+340   RLPTGLLAQ+0.984FYPR      -1.0000     NotChecked  -13.8275    1531.8511   ✗       
+341   +43.006LPTGNLLAEFYPR     -1.0000     NotChecked  -13.8327    1532.7987   ✗       
+342   RVPTNLLAEFYPR            -1.0000     NotChecked  -13.8606    1574.8569   ✗       
+343   RLPTNVLAEFYPR            -1.0000     NotChecked  -13.8975    1574.8569   ✗       
+344   RLPTNLLAQFYPR            -1.0000     NotChecked  -13.9040    1587.8885   ✗       
+345   RLPTNLLAEFFPR            -1.0000     NotChecked  -13.9114    1572.8776   ✗       
+346   RLPTGVLAEFYPR            -1.0000     NotChecked  -13.9157    1517.8354   ✗       
+347   RLPTSLLAEFYPR            -1.0000     NotChecked  -13.9179    1561.8617   ✗       
+348   RLPTALLAEFYPR            -1.0000     NotChecked  -13.9266    1545.8667   ✗       
+349   +42.011LPTNLLAEFYPR      -1.0000     NotChecked  -13.9521    1474.7820   ✗       
+350   RLPTGLLAEFYPR            -1.0000     NotChecked  -13.9601    1531.8511   ✗       
+351   RLPTNLLAEMYPR            -1.0000     NotChecked  -13.9817    1572.8446   ✗       
+352   RLPTGLLAEFFPR            -1.0000     NotChecked  -13.9828    1515.8562   ✗       
+353   KLPTNLLAEFYPR            -1.0000     NotChecked  -13.9829    1560.8664   ✗       
+354   RLPTALLAEFYPR            -1.0000     NotChecked  -13.9868    1545.8667   ✗       
+355   RLPTNLLAEFYR             -1.0000     NotChecked  -13.9901    1491.8198   ✗       
+356   +42.011LPTNLLAEFYPR      -1.0000     NotChecked  -14.0123    1474.7820   ✗       
+357   RLPTLLLAEFYPR            -1.0000     NotChecked  -14.0274    1587.9137   ✗       
+358   RLPTNLLAEFTPR            -1.0000     NotChecked  -14.0389    1526.8569   ✗       
+359   RLPTGLLAEFYPR            -1.0000     NotChecked  -14.0452    1531.8511   ✗       
+360   RLPTGGVLAEFYPR           -1.0000     NotChecked  -14.0541    1574.8569   ✗       
+361   KLPTGLLAEFYPR            -1.0000     NotChecked  -14.0544    1503.8449   ✗       
+362   RLPTGLLAEFYPR            -1.0000     NotChecked  -14.0854    1531.8511   ✗       
+363   RLPGNLLAEFYPR            -1.0000     NotChecked  -14.0886    1544.8463   ✗       
+364   RLPTVLLAEFYPR            -1.0000     NotChecked  -14.1111    1573.8980   ✗       
+365   RLPTNLLAEFMPR            -1.0000     NotChecked  -14.1298    1556.8497   ✗       
+366   RLPGGLLAEFYPR            -1.0000     NotChecked  -14.1512    1487.8249   ✗       
+367   RLPTNLVAEFYPR            -1.0000     NotChecked  -14.1554    1574.8569   ✗       
+368   RLPTNVLAQ+0.984FYPR      -1.0000     NotChecked  -14.1692    1574.8569   ✗       
+369   RLPSNVLAEFYPR            -1.0000     NotChecked  -14.1852    1560.8413   ✗       
+370   RTPTNLLAEFYPR            -1.0000     NotChecked  -14.2075    1576.8362   ✗       
+371   RLPTNVLAQ+0.984FYPR      -1.0000     NotChecked  -14.2295    1574.8569   ✗       
+372   RLPGNLLAEFYPR            -1.0000     NotChecked  -14.2360    1544.8463   ✗       
+373   RLPTGLLAEFYPR            -1.0000     NotChecked  -14.2487    1531.8511   ✗       
+374   RLPTNVLAEFYPR            -1.0000     NotChecked  -14.2530    1574.8569   ✗       
+375   RLPTALLAQ+0.984FYPR      -1.0000     NotChecked  -14.2585    1545.8667   ✗       
+376   RLPTALLAEFYPR            -1.0000     NotChecked  -14.2820    1545.8667   ✗       
+377   RLPGGGLLAEFYPR           -1.0000     NotChecked  -14.2900    1544.8463   ✗       
+378   RLPGNLLAEFYPR            -1.0000     NotChecked  -14.2962    1544.8463   ✗       
+379   RLPTNVLAEFYPR            -1.0000     NotChecked  -14.3018    1574.8569   ✗       
+380   RLPTGVLAEFYPR            -1.0000     NotChecked  -14.3244    1517.8354   ✗       
+381   RLPTTLLAEFYPR            -1.0000     NotChecked  -14.3393    1575.8773   ✗       
+382   RLPTALLAEFYPR            -1.0000     NotChecked  -14.3422    1545.8667   ✗       
+383   RLPTNLLAEPYPR            -1.0000     NotChecked  -14.3467    1538.8569   ✗       
+384   RLPSGGLLAEFYPR           -1.0000     NotChecked  -14.3552    1574.8569   ✗       
+385   RLPTNVLAEFYPR            -1.0000     NotChecked  -14.3621    1574.8569   ✗       
+386   RLPTLLLAEFYPR            -1.0000     NotChecked  -14.3829    1587.9137   ✗       
+387   RLPTALLAEFYPR            -1.0000     NotChecked  -14.3911    1545.8667   ✗       
+388   RLPTNLLADFYPR            -1.0000     NotChecked  -14.3913    1574.8569   ✗       
+389   RLPTGGVLAEFYPR           -1.0000     NotChecked  -14.3975    1574.8569   ✗       
+390   RLPTGLLAEFYPR            -1.0000     NotChecked  -14.4006    1531.8511   ✗       
+391   RLPTNLLAEFVPR            -1.0000     NotChecked  -14.4133    1524.8776   ✗       
+392   +43.006LPTNLLAEFYPR      -1.0000     NotChecked  -14.4400    1475.7773   ✗       
+393   RLPTVLLAEFYPR            -1.0000     NotChecked  -14.4666    1573.8980   ✗       
+394   RLPTGLLAEFYPR            -1.0000     NotChecked  -14.4822    1531.8511   ✗       
+395   RLPTNLLAEFEPR            -1.0000     NotChecked  -14.4900    1554.8518   ✗       
+396   +43.006LPTNLLAEFYPR      -1.0000     NotChecked  -14.5002    1475.7773   ✗       
+397   RLPTNLTAEFYPR            -1.0000     NotChecked  -14.5092    1576.8362   ✗       
+398   RLPTGGVLAEFYPR           -1.0000     NotChecked  -14.5363    1574.8569   ✗       
+399   RLPTGLLAEFYPR            -1.0000     NotChecked  -14.5424    1531.8511   ✗       
+400   RLPTGLLAQ+0.984FYPR      -1.0000     NotChecked  -14.5737    1531.8511   ✗       
+401   RLPTNLLGEFYPR            -1.0000     NotChecked  -14.5954    1574.8569   ✗       
+402   RLPTGLLAQ+0.984FYPR      -1.0000     NotChecked  -14.6339    1531.8511   ✗       
+403   RLPTGLLAEFYPR            -1.0000     NotChecked  -14.6574    1531.8511   ✗       
+404   RLPTNLLAEFFPR            -1.0000     NotChecked  -14.6575    1572.8776   ✗       
+405   RLPTSLLAEFYPR            -1.0000     NotChecked  -14.6640    1561.8617   ✗       
+406   RLPNLLAEFYPR             -1.0000     NotChecked  -14.6785    1487.8249   ✗       
+407   RLPTTLLAEFYPR            -1.0000     NotChecked  -14.6947    1575.8773   ✗       
+408   RLPANLLAEFYPR            -1.0000     NotChecked  -14.6956    1558.8620   ✗       
+409   RLPTGLLAEFYPR            -1.0000     NotChecked  -14.7063    1531.8511   ✗       
+410   RLPTNLLAEFFPR            -1.0000     NotChecked  -14.7177    1572.8776   ✗       
+411   RLPTSLLAEFYPR            -1.0000     NotChecked  -14.7243    1561.8617   ✗       
+412   KLPTNLLAEFYPR            -1.0000     NotChecked  -14.7291    1560.8664   ✗       
+413   RLPGLLAEFYPR             -1.0000     NotChecked  -14.7499    1430.8034   ✗       
+414   RLPNGLLAEFYPR            -1.0000     NotChecked  -14.7583    1544.8463   ✗       
+415   RLPTNLLAAFYPR            -1.0000     NotChecked  -14.7593    1530.8671   ✗       
+416   RLPTGLLAEFYPR            -1.0000     NotChecked  -14.7665    1531.8511   ✗       
+417   RLPAGLLAEFYPR            -1.0000     NotChecked  -14.7670    1501.8405   ✗       
+418   KLPTNLLAEFYPR            -1.0000     NotChecked  -14.7893    1560.8664   ✗       
+419   RLPTGNLAEFYPR            -1.0000     NotChecked  -14.8013    1532.8100   ✗       
+420   RLPGNLLAQ+0.984FYPR      -1.0000     NotChecked  -14.8024    1544.8463   ✗       
+421   RLPGNLLAEFYPR            -1.0000     NotChecked  -14.8173    1544.8463   ✗       
+422   RLPGNLLAEFYPR            -1.0000     NotChecked  -14.8259    1544.8463   ✗       
+423   RLPTGAVLAEFYPR           -1.0000     Failed      -14.8284    1588.8726   ✓       
+424   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -14.8315    1531.8035   ✗       
+425   RLPTN+0.984VLAEFYPR      -1.0000     NotChecked  -14.8515    1575.8409   ✗       
+426   RLPTGLLAEFYPR            -1.0000     NotChecked  -14.8544    1531.8511   ✗       
+427   RLPTNLLALFYPR            -1.0000     NotChecked  -14.8758    1572.9140   ✗       
+428   RLPGNLLAEFYPR            -1.0000     NotChecked  -14.8861    1544.8463   ✗       
+429   RLPTGGVLAEFYPR           -1.0000     NotChecked  -14.8917    1574.8569   ✗       
+430   RLPGGLLAEFYPR            -1.0000     NotChecked  -14.8973    1487.8249   ✗       
+431   RLPTNLLAELYPR            -1.0000     NotChecked  -14.9159    1554.8882   ✗       
+432   RLPTGLLAQ+0.984FYPR      -1.0000     NotChecked  -14.9291    1531.8511   ✗       
+433   RLPGNLLAEFYPR            -1.0000     NotChecked  -14.9350    1544.8463   ✗       
+434   RLPSGLLAEFYPR            -1.0000     NotChecked  -14.9451    1517.8354   ✗       
+435   RLPTNLAAEFYPR            -1.0000     NotChecked  -14.9470    1546.8256   ✗       
+436   RLPGGLLAEFYPR            -1.0000     NotChecked  -14.9576    1487.8249   ✗       
+437   RLPTGLLAQ+0.984FYPR      -1.0000     NotChecked  -14.9893    1531.8511   ✗       
+438   RLPTGLLAEFYPR            -1.0000     NotChecked  -14.9949    1531.8511   ✗       
+439   RLPTSLLAQ+0.984FYPR      -1.0000     NotChecked  -14.9959    1561.8617   ✗       
+440   RLPTGNLLAEFYR            -1.0000     NotChecked  -15.0149    1548.8413   ✗       
+441   LPTGNLLAEFYPR            -1.0000     NotChecked  -15.0171    1489.7929   ✗       
+442   RLPTSLLAEFYPR            -1.0000     NotChecked  -15.0194    1561.8617   ✗       
+443   RLPTNLAEFYPR             -1.0000     NotChecked  -15.0358    1475.7885   ✗       
+444   RLPTGLLAQ+0.984FYPR      -1.0000     NotChecked  -15.0382    1531.8511   ✗       
+445   RLPGQLLAEFYPR            -1.0000     NotChecked  -15.0399    1558.8620   ✗       
+446   RLPTGLLAEFYPR            -1.0000     NotChecked  -15.0551    1531.8511   ✗       
+447   RLPTGLLAEFYPR            -1.0000     NotChecked  -15.0617    1531.8511   ✗       
+448   RLPTAVLAEFYPR            -1.0000     NotChecked  -15.0629    1531.8511   ✗       
+449   RLPTSLLAEFYPR            -1.0000     NotChecked  -15.0797    1561.8617   ✗       
+450   RLPSGGLLAEFYPR           -1.0000     NotChecked  -15.0839    1574.8569   ✗       
+451   RLPTALLAEFYPR            -1.0000     NotChecked  -15.0883    1545.8667   ✗       
+452   +42.011LPTNVLAEFYPR      -1.0000     NotChecked  -15.0884    1460.7664   ✗       
+453   RLPTGLLAEFYPR            -1.0000     NotChecked  -15.1219    1531.8511   ✗       
+454   RLPTGGVLAEFYPR           -1.0000     NotChecked  -15.1262    1574.8569   ✗       
+455   RLPTSLLAEFYPR            -1.0000     NotChecked  -15.1285    1561.8617   ✗       
+456   RLPTLLLAEFYPR            -1.0000     NotChecked  -15.1290    1587.9137   ✗       
+457   RLPTGGVLAEFYPR           -1.0000     NotChecked  -15.1436    1574.8569   ✗       
+458   RLPTGLLAEFYPR            -1.0000     NotChecked  -15.1467    1531.8511   ✗       
+459   RLPTNALAEFYPR            -1.0000     NotChecked  -15.1666    1546.8256   ✗       
+460   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -15.1869    1531.8035   ✗       
+461   RLPTLLLAEFYPR            -1.0000     NotChecked  -15.1892    1587.9137   ✗       
+462   RLPTNVLAEFYPR            -1.0000     NotChecked  -15.1916    1574.8569   ✗       
+463   RLPTGGVLAEFYPR           -1.0000     NotChecked  -15.2038    1574.8569   ✗       
+464   RLPTGLLAEFYPR            -1.0000     NotChecked  -15.2069    1531.8511   ✗       
+465   RLPTN+0.984VLAEFYPR      -1.0000     NotChecked  -15.2070    1575.8409   ✗       
+466   RLPTNLLAEFC+57.021PR     -1.0000     NotChecked  -15.2070    1585.8399   ✗       
+467   RLPTNLLAESYPR            -1.0000     NotChecked  -15.2092    1528.8362   ✗       
+468   RLPTGLLAEFYPR            -1.0000     NotChecked  -15.2098    1531.8511   ✗       
+469   RLPTVLLAEFYPR            -1.0000     NotChecked  -15.2127    1573.8980   ✗       
+470   Q+0.984LPTNLLAEFYPR      -1.0000     NotChecked  -15.2354    1561.8140   ✗       
+471   RLPTNLLAEFYR             -1.0000     NotChecked  -15.2494    1491.8198   ✗       
+472   LPTNLLAEFYPR             -1.0000     NotChecked  -15.2515    1432.7714   ✗       
+473   +42.011LPTGGLLAEFYPR     -1.0000     NotChecked  -15.2583    1474.7820   ✗       
+474   RLPTNLLAEFYSR            -1.0000     NotChecked  -15.2677    1578.8518   ✗       
+475   LLPTNLLAEFYPR            -1.0000     NotChecked  -15.2709    1545.8555   ✗       
+476   RLPTNLLAELYPR            -1.0000     NotChecked  -15.2713    1554.8882   ✗       
+477   RLPTVLLAEFYPR            -1.0000     NotChecked  -15.2729    1573.8980   ✗       
+478   +43.006LPTGNLLAEFYPR     -1.0000     NotChecked  -15.3194    1532.7987   ✗       
+479   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -15.3257    1531.8035   ✗       
+480   +42.011LPTNLLAEFYPR      -1.0000     NotChecked  -15.4214    1474.7820   ✗       
+481   +42.011LPTGLLAEFYPR      -1.0000     NotChecked  -15.4928    1417.7605   ✗       
+482   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -15.5602    1531.8035   ✗       
+483   +43.006LPTNVLAEFYPR      -1.0000     NotChecked  -15.5763    1461.7616   ✗       
+484   LPTNLLAEFYPR             -1.0000     NotChecked  -15.6070    1432.7714   ✗       
+485   VLPTNLLAEFYPR            -1.0000     NotChecked  -15.6606    1531.8399   ✗       
+486   +43.006LPTGNLLAEFYPR     -1.0000     NotChecked  -15.6748    1532.7987   ✗       
+487   LPTGLLAEFYPR             -1.0000     NotChecked  -15.6784    1375.7500   ✗       
+488   LPTGNLLAEFYPR            -1.0000     NotChecked  -15.7458    1489.7929   ✗       
+489   +43.006LPTGGLLAEFYPR     -1.0000     NotChecked  -15.7463    1475.7773   ✗       
+490   +43.006LPTGNLLAEFYPR     -1.0000     NotChecked  -15.8137    1532.7987   ✗       
+491   +42.011LPTGLLAEFYPR      -1.0000     NotChecked  -15.8482    1417.7605   ✗       
+492   KLPTNVLAEFYPR            -1.0000     NotChecked  -15.8654    1546.8508   ✗       
+493   +43.006LPTNLLAEFYPR      -1.0000     NotChecked  -15.9093    1475.7773   ✗       
+494   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -15.9156    1531.8035   ✗       
+495   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -15.9330    1531.8035   ✗       
+496   +43.006LPTGLLAEFYPR      -1.0000     NotChecked  -15.9808    1418.7558   ✗       
+497   +42.011LPTGGLLAEFYPR     -1.0000     NotChecked  -15.9871    1474.7820   ✗       
+498   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -15.9933    1531.8035   ✗       
+499   KLPTGGLLAEFYPR           -1.0000     NotChecked  -16.0353    1560.8664   ✗       
+500   +43.006LPTGNLLAEFYPR     -1.0000     NotChecked  -16.0481    1532.7987   ✗       
+501   +42.011LPTNLLAEFYPR      -1.0000     NotChecked  -16.1675    1474.7820   ✗       
+502   KLPTNLLAEFYPR            -1.0000     NotChecked  -16.1984    1560.8664   ✗       
+503   +42.011LPTNLLAEFYPR      -1.0000     NotChecked  -16.2277    1474.7820   ✗       
+504   KLPTGLLAEFYPR            -1.0000     NotChecked  -16.2698    1503.8449   ✗       
+505   +43.006LPTGLLAEFYPR      -1.0000     NotChecked  -16.3362    1418.7558   ✗       
+506   LPTNLLAEFYPR             -1.0000     NotChecked  -16.3531    1432.7714   ✗       
+507   +43.006LPTGNLLAEFYPR     -1.0000     NotChecked  -16.4036    1532.7987   ✗       
+508   LPTNLLAEFYPR             -1.0000     NotChecked  -16.4133    1432.7714   ✗       
+509   +43.006LPTGNLLAEFYPR     -1.0000     NotChecked  -16.4210    1532.7987   ✗       
+510   +43.006LPTGGLLAEFYPR     -1.0000     NotChecked  -16.4750    1475.7773   ✗       
+511   +43.006LPTGNLLAEFYPR     -1.0000     NotChecked  -16.4812    1532.7987   ✗       
+512   +42.011LPTNLLAQ+0.984FYPR-1.0000     NotChecked  -16.4994    1474.7820   ✗       
+513   +42.011LPTNLLAEFYPR      -1.0000     NotChecked  -16.5229    1474.7820   ✗       
+514   +42.011LPTNLLAEFYPR      -1.0000     NotChecked  -16.5832    1474.7820   ✗       
+515   +42.011LPTGLLAEFYPR      -1.0000     NotChecked  -16.5944    1417.7605   ✗       
+516   KLPTGLLAEFYPR            -1.0000     NotChecked  -16.6252    1503.8449   ✗       
+517   +42.011LPTGLLAEFYPR      -1.0000     NotChecked  -16.6546    1417.7605   ✗       
+518   +43.006LPTNLLAEFYPR      -1.0000     NotChecked  -16.6554    1475.7773   ✗       
+519   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -16.6618    1531.8035   ✗       
+520   +43.006LPTNLLAEFYPR      -1.0000     NotChecked  -16.7157    1475.7773   ✗       
+521   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -16.7220    1531.8035   ✗       
+522   +42.011LPTQLLAEFYPR      -1.0000     NotChecked  -16.7369    1488.7977   ✗       
+523   KLPTGGLLAEFYPR           -1.0000     NotChecked  -16.7641    1560.8664   ✗       
+524   QLPTNLLAEFYPR            -1.0000     NotChecked  -16.7825    1560.8300   ✗       
+525   SLPTNLLAEFYPR            -1.0000     NotChecked  -16.8469    1519.8035   ✗       
+526   +42.011LPTNGLLAEFYPR     -1.0000     NotChecked  -16.9206    1531.8035   ✗       
+527   KLPTNLLAEFYPR            -1.0000     NotChecked  -16.9445    1560.8664   ✗       
+528   +43.006LPTNLLAQ+0.984FYPR-1.0000     NotChecked  -16.9874    1475.7773   ✗       
+529   KLPTNLLAEFYPR            -1.0000     NotChecked  -17.0047    1560.8664   ✗       
+530   +43.006LPTNLLAEFYPR      -1.0000     NotChecked  -17.0109    1475.7773   ✗       
+531   +42.011LPTNGLLAEFYPR     -1.0000     NotChecked  -17.0590    1531.8035   ✗       
+532   +42.011LPTGNVLAEFYPR     -1.0000     NotChecked  -17.0693    1517.7878   ✗       
+533   +43.006LPTNLLAEFYPR      -1.0000     NotChecked  -17.0711    1475.7773   ✗       
+534   +43.006LPTGLLAEFYPR      -1.0000     NotChecked  -17.0823    1418.7558   ✗       
+535   +43.006LPTGLLAEFYPR      -1.0000     NotChecked  -17.1425    1418.7558   ✗       
+536   +43.006LPTGNLLAEFYPR     -1.0000     NotChecked  -17.1497    1532.7987   ✗       
+537   +43.006LPTGNLLAEFYPR     -1.0000     NotChecked  -17.2099    1532.7987   ✗       
+538   +43.006LPTQLLAEFYPR      -1.0000     NotChecked  -17.2248    1489.7929   ✗       
+539   LPTGNLLAEFYPR            -1.0000     NotChecked  -17.2325    1489.7929   ✗       
+540   KLPTNLLAQ+0.984FYPR      -1.0000     NotChecked  -17.2764    1560.8664   ✗       
+541   KLPTNLLAEFYPR            -1.0000     NotChecked  -17.2999    1560.8664   ✗       
+542   +42.011LPTNVLAEFYPR      -1.0000     NotChecked  -17.3038    1460.7664   ✗       
+543   +42.011LPTNLLAEFYPR      -1.0000     NotChecked  -17.3293    1474.7820   ✗       
+544   KLPTNLLAEFYPR            -1.0000     NotChecked  -17.3602    1560.8664   ✗       
+545   KLPTGLLAEFYPR            -1.0000     NotChecked  -17.3714    1503.8449   ✗       
+546   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -17.4023    1531.8035   ✗       
+547   +43.006LPTNGLLAEFYPR     -1.0000     NotChecked  -17.4085    1532.7987   ✗       
+548   KLPTGLLAEFYPR            -1.0000     NotChecked  -17.4316    1503.8449   ✗       
+549   Q+0.984LPTNLLAEFYPR      -1.0000     NotChecked  -17.4508    1561.8140   ✗       
+550   +42.011LPTGGLLAEFYPR     -1.0000     NotChecked  -17.4738    1474.7820   ✗       
+551   LLPTNLLAEFYPR            -1.0000     NotChecked  -17.4863    1545.8555   ✗       
+552   LPTNVLAEFYPR             -1.0000     NotChecked  -17.4894    1418.7558   ✗       
+553   KLPTQLLAEFYPR            -1.0000     NotChecked  -17.5139    1574.8821   ✗       
+554   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -17.5412    1531.8035   ✗       
+555   +43.006LPTNGLLAEFYPR     -1.0000     NotChecked  -17.5469    1532.7987   ✗       
+556   +43.006LPTGNVLAEFYPR     -1.0000     NotChecked  -17.5573    1518.7831   ✗       
+557   LPTGNLLAEFYPR            -1.0000     NotChecked  -17.5879    1489.7929   ✗       
+558   +42.011LPTNVLAEFYPR      -1.0000     NotChecked  -17.6592    1460.7664   ✗       
+559   LPTGGLLAEFYPR            -1.0000     NotChecked  -17.6594    1432.7714   ✗       
+560   LPTGNLLAEFYPR            -1.0000     NotChecked  -17.7268    1489.7929   ✗       
+561   +42.011LPTGVLAEFYPR      -1.0000     NotChecked  -17.7307    1403.7449   ✗       
+562   +43.006LPTNVLAEFYPR      -1.0000     NotChecked  -17.7918    1461.7616   ✗       
+563   +42.011LPTGNVLAEFYPR     -1.0000     NotChecked  -17.7981    1517.7878   ✗       
+564   Q+0.984LPTNLLAEFYPR      -1.0000     NotChecked  -17.8062    1561.8140   ✗       
+565   +43.006LPTNLLAEFYPR      -1.0000     NotChecked  -17.8172    1475.7773   ✗       
+566   LPTNLLAEFYPR             -1.0000     NotChecked  -17.8224    1432.7714   ✗       
+567   +42.011LPTGGLLAEFYPR     -1.0000     NotChecked  -17.8292    1474.7820   ✗       
+568   LLPTNLLAEFYPR            -1.0000     NotChecked  -17.8417    1545.8555   ✗       
+569   VLPTNLLAEFYPR            -1.0000     NotChecked  -17.8760    1531.8399   ✗       
+570   Q+0.984LPTGLLAEFYPR      -1.0000     NotChecked  -17.8777    1504.7926   ✗       
+571   +43.006LPTGNLLAEFYPR     -1.0000     NotChecked  -17.8903    1532.7987   ✗       
+572   LPTGLLAEFYPR             -1.0000     NotChecked  -17.8938    1375.7500   ✗       
+573   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -17.8966    1531.8035   ✗       
+574   LLPTGLLAEFYPR            -1.0000     NotChecked  -17.9132    1488.8340   ✗       
+575   LPTGNLLAEFYPR            -1.0000     NotChecked  -17.9612    1489.7929   ✗       
+576   +43.006LPTGGLLAEFYPR     -1.0000     NotChecked  -17.9617    1475.7773   ✗       
+577   +42.011LPTGGLLAEFYPR     -1.0000     NotChecked  -17.9680    1474.7820   ✗       
+578   +43.006LPTGNLLAEFYPR     -1.0000     NotChecked  -18.0291    1532.7987   ✗       
+579   +42.011LPTGLLAEFYPR      -1.0000     NotChecked  -18.0637    1417.7605   ✗       
+580   +42.011LPTANLLAEFYPR     -1.0000     NotChecked  -18.0716    1545.8191   ✗       
+581   KLPTNVLAEFYPR            -1.0000     NotChecked  -18.0808    1546.8508   ✗       
+582   KLPTNLLAEFYPR            -1.0000     NotChecked  -18.1063    1560.8664   ✗       
+583   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -18.1311    1531.8035   ✗       
+584   +43.006LPTNVLAEFYPR      -1.0000     NotChecked  -18.1472    1461.7616   ✗       
+585   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -18.1485    1531.8035   ✗       
+586   +42.011LPTGGLLAEFYPR     -1.0000     NotChecked  -18.2025    1474.7820   ✗       
+587   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -18.2087    1531.8035   ✗       
+588   +43.006LPTGVLAEFYPR      -1.0000     NotChecked  -18.2186    1404.7401   ✗       
+589   VLPTNLLAEFYPR            -1.0000     NotChecked  -18.2314    1531.8399   ✗       
+590   LPTGLLAEFYPR             -1.0000     NotChecked  -18.2493    1375.7500   ✗       
+591   KLPTGGLLAEFYPR           -1.0000     NotChecked  -18.2508    1560.8664   ✗       
+592   +42.011LPTN+0.984LLAEFYPR-1.0000     NotChecked  -18.2833    1475.7660   ✗       
+593   +43.006LPTGNVLAEFYPR     -1.0000     NotChecked  -18.2860    1518.7831   ✗       
+594   VLPTGLLAEFYPR            -1.0000     NotChecked  -18.3029    1474.8184   ✗       
+595   LPTGNLLAEFYPR            -1.0000     NotChecked  -18.3167    1489.7929   ✗       
+596   +43.006LPTGGLLAEFYPR     -1.0000     NotChecked  -18.3171    1475.7773   ✗       
+597   LPTGNLLAEFYPR            -1.0000     NotChecked  -18.3341    1489.7929   ✗       
+598   +43.006LPTGNLLAEFYPR     -1.0000     NotChecked  -18.3845    1532.7987   ✗       
+599   LPTGGLLAEFYPR            -1.0000     NotChecked  -18.3881    1432.7714   ✗       
+600   LPTGNLLAEFYPR            -1.0000     NotChecked  -18.3943    1489.7929   ✗       
+601   +42.011LPTNVLAEFYPR      -1.0000     NotChecked  -18.4054    1460.7664   ✗       
+602   KLPTNVLAEFYPR            -1.0000     NotChecked  -18.4362    1546.8508   ✗       
+603   +43.006LPTGGLLAEFYPR     -1.0000     NotChecked  -18.4560    1475.7773   ✗       
+604   +42.011LPTNVLAEFYPR      -1.0000     NotChecked  -18.4656    1460.7664   ✗       
+605   +42.011LPTGNLLAQ+0.984FYPR-1.0000     NotChecked  -18.4804    1531.8035   ✗       
+606   +42.011LPTALLAEFYPR      -1.0000     NotChecked  -18.4946    1431.7762   ✗       
+607   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -18.5039    1531.8035   ✗       
+608   KLPTGVLAEFYPR            -1.0000     NotChecked  -18.5077    1489.8293   ✗       
+609   +43.006LPTGLLAEFYPR      -1.0000     NotChecked  -18.5516    1418.7558   ✗       
+610   Q+0.984LPTNLLAEFYPR      -1.0000     NotChecked  -18.5524    1561.8140   ✗       
+611   +42.011LPTGGLLAEFYPR     -1.0000     NotChecked  -18.5579    1474.7820   ✗       
+612   +43.006LPTANLLAEFYPR     -1.0000     NotChecked  -18.5595    1546.8144   ✗       
+613   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -18.5641    1531.8035   ✗       
+614   LPTNLLAEFYPR             -1.0000     NotChecked  -18.5685    1432.7714   ✗       
+615   +42.011LPTGGLLAEFYPR     -1.0000     NotChecked  -18.5753    1474.7820   ✗       
+616   LLPTNLLAEFYPR            -1.0000     NotChecked  -18.5879    1545.8555   ✗       
+617   KLPTGGLLAEFYPR           -1.0000     NotChecked  -18.6062    1560.8664   ✗       
+618   Q+0.984LPTNLLAEFYPR      -1.0000     NotChecked  -18.6126    1561.8140   ✗       
+619   +43.006LPTGNLLAEFYPR     -1.0000     NotChecked  -18.6190    1532.7987   ✗       
+620   +42.011LPTNLLAEFYPR      -1.0000     NotChecked  -18.6234    1474.7820   ✗       
+621   LPTNLLAEFYPR             -1.0000     NotChecked  -18.6288    1432.7714   ✗       
+622   +42.011LPTGGLLAEFYPR     -1.0000     NotChecked  -18.6356    1474.7820   ✗       
+623   +43.006LPTGNLLAEFYPR     -1.0000     NotChecked  -18.6364    1532.7987   ✗       
+624   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -18.6427    1531.8035   ✗       
+625   LLPTNLLAEFYPR            -1.0000     NotChecked  -18.6481    1545.8555   ✗       
+626   +43.006LPTGGLLAEFYPR     -1.0000     NotChecked  -18.6905    1475.7773   ✗       
+627   +43.006LPTGNLLAEFYPR     -1.0000     NotChecked  -18.6966    1532.7987   ✗       
+628   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -18.7030    1531.8035   ✗       
+629   +42.011LPTNLLAQ+0.984FYPR-1.0000     NotChecked  -18.7149    1474.7820   ✗       
+630   +42.011LPTGQLLAEFYPR     -1.0000     NotChecked  -18.7179    1545.8191   ✗       
+631   +42.011LPTNLLAEFYPR      -1.0000     NotChecked  -18.7384    1474.7820   ✗       
+632   KLPTGGLLAEFYPR           -1.0000     NotChecked  -18.7450    1560.8664   ✗       
+633   +43.006LPTN+0.984LLAEFYPR-1.0000     NotChecked  -18.7712    1476.7613   ✗       
+634   +42.011LPTNLLAEFYPR      -1.0000     NotChecked  -18.7986    1474.7820   ✗       
+635   +42.011LPTGLLAEFYPR      -1.0000     NotChecked  -18.8098    1417.7605   ✗       
+636   SLPTGNLLAEFYPR           -1.0000     NotChecked  -18.8279    1576.8249   ✗       
+637   KLPTGLLAEFYPR            -1.0000     NotChecked  -18.8407    1503.8449   ✗       
+638   +42.011LPTGLLAEFYPR      -1.0000     NotChecked  -18.8701    1417.7605   ✗       
+639   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -18.8772    1531.8035   ✗       
+640   +43.006LPTNVLAEFYPR      -1.0000     NotChecked  -18.8933    1461.7616   ✗       
+641   LPTNLLAQ+0.984FYPR       -1.0000     NotChecked  -18.9004    1432.7714   ✗       
+642   LPTNLLAEFYPR             -1.0000     NotChecked  -18.9240    1432.7714   ✗       
+643   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -18.9374    1531.8035   ✗       
+644   +42.011LPTQLLAEFYPR      -1.0000     NotChecked  -18.9524    1488.7977   ✗       
+645   +43.006LPTNVLAEFYPR      -1.0000     NotChecked  -18.9535    1461.7616   ✗       
+646   +43.006LPTGNLLAQ+0.984FYPR-1.0000     NotChecked  -18.9683    1532.7987   ✗       
+647   VLPTNLLAEFYPR            -1.0000     NotChecked  -18.9776    1531.8399   ✗       
+648   KLPTGGLLAEFYPR           -1.0000     NotChecked  -18.9795    1560.8664   ✗       
+649   +43.006LPTALLAEFYPR      -1.0000     NotChecked  -18.9825    1432.7714   ✗       
+650   LPTNLLAEFYPR             -1.0000     NotChecked  -18.9842    1432.7714   ✗       
+651   +43.006LPTGNLLAEFYPR     -1.0000     NotChecked  -18.9918    1532.7987   ✗       
+652   LPTGLLAEFYPR             -1.0000     NotChecked  -18.9954    1375.7500   ✗       
+653   QLPTNLLAEFYPR            -1.0000     NotChecked  -18.9980    1560.8300   ✗       
+654   VLPTNLLAEFYPR            -1.0000     NotChecked  -19.0378    1531.8399   ✗       
+655   +42.011LPGNLLAEFYPR      -1.0000     NotChecked  -19.0385    1430.7558   ✗       
+656   +43.006LPTGGLLAEFYPR     -1.0000     NotChecked  -19.0459    1475.7773   ✗       
+657   +43.006LPTGNLLAEFYPR     -1.0000     NotChecked  -19.0521    1532.7987   ✗       
+658   LPTGLLAEFYPR             -1.0000     NotChecked  -19.0556    1375.7500   ✗       
+659   KLPTN+0.984LLAEFYPR      -1.0000     NotChecked  -19.0603    1561.8504   ✗       
+660   SLPTNLLAEFYPR            -1.0000     NotChecked  -19.0624    1519.8035   ✗       
+661   LPTGNLLAEFYPR            -1.0000     NotChecked  -19.0628    1489.7929   ✗       
+662   +43.006LPTGGLLAEFYPR     -1.0000     NotChecked  -19.0633    1475.7773   ✗       
+663   +42.011LPTNLLAQ+0.984FYPR-1.0000     NotChecked  -19.0703    1474.7820   ✗       
+664   +43.006LPTNLLAEFYPR      -1.0000     NotChecked  -19.1113    1475.7773   ✗       
+665   LPTGNLLAEFYPR            -1.0000     NotChecked  -19.1230    1489.7929   ✗       
+666   +43.006LPTGGLLAEFYPR     -1.0000     NotChecked  -19.1235    1475.7773   ✗       
+667   +43.006LPTGNLLAEFYPR     -1.0000     NotChecked  -19.1307    1532.7987   ✗       
+668   +42.011LPTNGLLAEFYPR     -1.0000     NotChecked  -19.1361    1531.8035   ✗       
+669   LPTQLLAEFYPR             -1.0000     NotChecked  -19.1379    1446.7871   ✗       
+670   +42.011LPTGLLAQ+0.984FYPR-1.0000     NotChecked  -19.1417    1417.7605   ✗       
+671   +42.011LPTGLLAEFYPR      -1.0000     NotChecked  -19.1652    1417.7605   ✗       
+672   KLPTNVLAEFYPR            -1.0000     NotChecked  -19.1824    1546.8508   ✗       
+673   +43.006LPTGNLLAEFYPR     -1.0000     NotChecked  -19.1909    1532.7987   ✗       
+674   +43.006LPTNLLAQ+0.984FYPR-1.0000     NotChecked  -19.2028    1475.7773   ✗       
+675   +43.006LPTGQLLAEFYPR     -1.0000     NotChecked  -19.2058    1546.8144   ✗       
+676   +42.011LPTGNLLAQ+0.984FYPR-1.0000     NotChecked  -19.2091    1531.8035   ✗       
+677   +42.011LPTSNLLAEFYPR     -1.0000     NotChecked  -19.2149    1561.8140   ✗       
+678   +42.011LPTGLLAEFYPR      -1.0000     NotChecked  -19.2255    1417.7605   ✗       
+679   +43.006LPTNLLAEFYPR      -1.0000     NotChecked  -19.2263    1475.7773   ✗       
+680   +42.011LPTSLLAEFYPR      -1.0000     NotChecked  -19.2321    1447.7711   ✗       
+681   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -19.2326    1531.8035   ✗       
+682   KLPTNVLAEFYPR            -1.0000     NotChecked  -19.2426    1546.8508   ✗       
+683   KLPTALLAEFYPR            -1.0000     NotChecked  -19.2716    1517.8606   ✗       
+684   +42.011RLPTGLLAEFYPR     -1.0000     NotChecked  -19.2743    1573.8617   ✗       
+685   +42.011LPTNGLLAEFYPR     -1.0000     NotChecked  -19.2744    1531.8035   ✗       
+686   +42.011LPTGNVLAEFYPR     -1.0000     NotChecked  -19.2848    1517.7878   ✗       
+687   +43.006LPTNLLAEFYPR      -1.0000     NotChecked  -19.2865    1475.7773   ✗       
+688   +42.011LPTNLLAEFYPR      -1.0000     NotChecked  -19.2879    1474.7820   ✗       
+689   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -19.2929    1531.8035   ✗       
+690   +43.006LPTGLLAEFYPR      -1.0000     NotChecked  -19.2978    1418.7558   ✗       
+691   +42.011LPTGGLLAEFYPR     -1.0000     NotChecked  -19.3041    1474.7820   ✗       
+692   +42.011LPTQLLAEFYPR      -1.0000     NotChecked  -19.3078    1488.7977   ✗       
+693   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -19.3103    1531.8035   ✗       
+694   LPTNGLLAEFYPR            -1.0000     NotChecked  -19.3216    1489.7929   ✗       
+695   +42.011LPTANLLAEFYPR     -1.0000     NotChecked  -19.3279    1545.8191   ✗       
+696   KLPTGGLLAEFYPR           -1.0000     NotChecked  -19.3349    1560.8664   ✗       
+697   KLPTGGLLAEFYPR           -1.0000     NotChecked  -19.3523    1560.8664   ✗       
+698   QLPTNLLAEFYPR            -1.0000     NotChecked  -19.3534    1560.8300   ✗       
+699   +43.006LPTGLLAEFYPR      -1.0000     NotChecked  -19.3580    1418.7558   ✗       
+700   +42.011LPTGGLLAEFYPR     -1.0000     NotChecked  -19.3643    1474.7820   ✗       
+701   +43.006LPTGNLLAEFYPR     -1.0000     NotChecked  -19.3651    1532.7987   ✗       
+702   KLPTNLLAEFYPR            -1.0000     NotChecked  -19.4004    1560.8664   ✗       
+703   KLPTGGLLAEFYPR           -1.0000     NotChecked  -19.4126    1560.8664   ✗       
+704   SLPTNLLAEFYPR            -1.0000     NotChecked  -19.4178    1519.8035   ✗       
+705   QLPTGLLAEFYPR            -1.0000     NotChecked  -19.4249    1503.8086   ✗       
+706   +43.006LPTGNLLAEFYPR     -1.0000     NotChecked  -19.4254    1532.7987   ✗       
+707   +43.006LPTQLLAEFYPR      -1.0000     NotChecked  -19.4403    1489.7929   ✗       
+708   +42.011LPTGQLLAEFYPR     -1.0000     NotChecked  -19.4466    1545.8191   ✗       
+709   LPTNGLLAEFYPR            -1.0000     NotChecked  -19.4600    1489.7929   ✗       
+710   LPTGNVLAEFYPR            -1.0000     NotChecked  -19.4704    1475.7773   ✗       
+711   SLPTGLLAEFYPR            -1.0000     NotChecked  -19.4893    1462.7820   ✗       
+712   +42.011LPTNGLLAEFYPR     -1.0000     NotChecked  -19.4915    1531.8035   ✗       
+713   KLPTNLLAQ+0.984FYPR      -1.0000     NotChecked  -19.4919    1560.8664   ✗       
+714   KLPTNLLAEFYPR            -1.0000     NotChecked  -19.5154    1560.8664   ✗       
+715   +43.006LPGNLLAEFYPR      -1.0000     NotChecked  -19.5264    1431.7511   ✗       
+716   +42.011LPTNLLAEFYPR      -1.0000     NotChecked  -19.5447    1474.7820   ✗       
+717   SLPTGNLLAEFYPR           -1.0000     NotChecked  -19.5566    1576.8249   ✗       
+718   +43.006LPTNLLAQ+0.984FYPR-1.0000     NotChecked  -19.5582    1475.7773   ✗       
+719   +42.011LPTGLLAEFYPR      -1.0000     NotChecked  -19.5629    1417.7605   ✗       
+720   KLPTNLLAEFYPR            -1.0000     NotChecked  -19.5756    1560.8664   ✗       
+721   KLPTGLLAEFYPR            -1.0000     NotChecked  -19.5868    1503.8449   ✗       
+722   +43.006LPTNGLLAEFYPR     -1.0000     NotChecked  -19.6240    1532.7987   ✗       
+723   +43.006LPTGLLAQ+0.984FYPR-1.0000     NotChecked  -19.6297    1418.7558   ✗       
+724   +42.011LPTNGLLAEFYPR     -1.0000     NotChecked  -19.6298    1531.8035   ✗       
+725   +42.011LPTGNVLAEFYPR     -1.0000     NotChecked  -19.6402    1517.7878   ✗       
+726   KLPTGLLAEFYPR            -1.0000     NotChecked  -19.6471    1503.8449   ✗       
+727   +43.006LPTGLLAEFYPR      -1.0000     NotChecked  -19.6532    1418.7558   ✗       
+728   Q+0.984LPTNVLAEFYPR      -1.0000     NotChecked  -19.6887    1547.7984   ✗       
+729   +43.006LPTGNLLAQ+0.984FYPR-1.0000     NotChecked  -19.6971    1532.7987   ✗       
+730   +42.011LPTGGLLAEFYPR     -1.0000     NotChecked  -19.7013    1474.7820   ✗       
+731   +43.006LPTSNLLAEFYPR     -1.0000     NotChecked  -19.7028    1562.8093   ✗       
+732   LPTNVLAEFYPR             -1.0000     NotChecked  -19.7048    1418.7558   ✗       
+733   +42.011LPTGGVLAEFYPR     -1.0000     NotChecked  -19.7117    1460.7664   ✗       
+734   +43.006LPTGLLAEFYPR      -1.0000     NotChecked  -19.7134    1418.7558   ✗       
+735   +43.006LPTSLLAEFYPR      -1.0000     NotChecked  -19.7200    1448.7664   ✗       
+736   +43.006LPTGNLLAEFYPR     -1.0000     NotChecked  -19.7206    1532.7987   ✗       
+737   LLPTNVLAEFYPR            -1.0000     NotChecked  -19.7242    1531.8399   ✗       
+738   KLPTQLLAEFYPR            -1.0000     NotChecked  -19.7294    1574.8821   ✗       
+739   LPTNLLAEFYPR             -1.0000     NotChecked  -19.7303    1432.7714   ✗       
+740   +43.006RLPTGLLAEFYPR     -1.0000     NotChecked  -19.7623    1574.8569   ✗       
+741   +43.006LPTNGLLAEFYPR     -1.0000     NotChecked  -19.7623    1532.7987   ✗       
+742   +43.006LPTGNVLAEFYPR     -1.0000     NotChecked  -19.7727    1518.7831   ✗       
+743   +43.006LPTNLLAEFYPR      -1.0000     NotChecked  -19.7758    1475.7773   ✗       
+744   +42.011LPTGNVLAEFYPR     -1.0000     NotChecked  -19.7790    1517.7878   ✗       
+745   +43.006LPTGNLLAEFYPR     -1.0000     NotChecked  -19.7808    1532.7987   ✗       
+746   +43.006LPTGGLLAEFYPR     -1.0000     NotChecked  -19.7920    1475.7773   ✗       
+747   +43.006LPTQLLAEFYPR      -1.0000     NotChecked  -19.7957    1489.7929   ✗       
+748   +43.006LPTGNLLAEFYPR     -1.0000     NotChecked  -19.7982    1532.7987   ✗       
+749   LPTGNLLAEFYPR            -1.0000     NotChecked  -19.8034    1489.7929   ✗       
+750   KLPGNLLAEFYPR            -1.0000     NotChecked  -19.8155    1516.8402   ✗       
+751   +43.006LPTANLLAEFYPR     -1.0000     NotChecked  -19.8158    1546.8144   ✗       
+752   +42.011LPTNLLAQ+0.984FYPR-1.0000     NotChecked  -19.8164    1474.7820   ✗       
+753   +42.011LPSNLLAEFYPR      -1.0000     NotChecked  -19.8324    1460.7664   ✗       
+754   KLPTNLLAQ+0.984FYPR      -1.0000     NotChecked  -19.8473    1560.8664   ✗       
+755   +43.006LPTGGLLAEFYPR     -1.0000     NotChecked  -19.8522    1475.7773   ✗       
+756   Q+0.984LPTGGLLAEFYPR     -1.0000     NotChecked  -19.8586    1561.8140   ✗       
+757   +42.011LPTNVLAEFYPR      -1.0000     NotChecked  -19.8747    1460.7664   ✗       
+758   LPTGGLLAEFYPR            -1.0000     NotChecked  -19.8748    1432.7714   ✗       
+759   +42.011LPTNLLAQ+0.984FYPR-1.0000     NotChecked  -19.8767    1474.7820   ✗       
+760   LLPTGGLLAEFYPR           -1.0000     NotChecked  -19.8942    1545.8555   ✗       
+761   +42.011LPTNLLAEFYPR      -1.0000     NotChecked  -19.9002    1474.7820   ✗       
+762   KLPTGLLAQ+0.984FYPR      -1.0000     NotChecked  -19.9187    1503.8449   ✗       
+763   +43.006LPTGQLLAEFYPR     -1.0000     NotChecked  -19.9345    1546.8144   ✗       
+764   LPTGNLLAEFYPR            -1.0000     NotChecked  -19.9422    1489.7929   ✗       
+765   KLPTGLLAEFYPR            -1.0000     NotChecked  -19.9422    1503.8449   ✗       
+766   +42.011LPTGVLAEFYPR      -1.0000     NotChecked  -19.9461    1403.7449   ✗       
+767   +42.011LPTGLLAEFYPR      -1.0000     NotChecked  -19.9716    1417.7605   ✗       
+768   +43.006LPTNGLLAEFYPR     -1.0000     NotChecked  -19.9794    1532.7987   ✗       
+769   KLPTGLLAEFYPR            -1.0000     NotChecked  -20.0025    1503.8449   ✗       
+770   KLPTSLLAEFYPR            -1.0000     NotChecked  -20.0091    1533.8555   ✗       
+771   +42.011LPTGNVLAEFYPR     -1.0000     NotChecked  -20.0135    1517.7878   ✗       
+772   Q+0.984LPTNLLAEFYPR      -1.0000     NotChecked  -20.0217    1561.8140   ✗       
+773   +43.006LPTNLLAEFYPR      -1.0000     NotChecked  -20.0327    1475.7773   ✗       
+774   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -20.0390    1531.8035   ✗       
+775   +42.011LPTGGLLAEFYPR     -1.0000     NotChecked  -20.0447    1474.7820   ✗       
+776   +43.006LPTGLLAEFYPR      -1.0000     NotChecked  -20.0509    1418.7558   ✗       
+777   +42.011LPTQLLAEFYPR      -1.0000     NotChecked  -20.0539    1488.7977   ✗       
+778   LLPTNLLAEFYPR            -1.0000     NotChecked  -20.0572    1545.8555   ✗       
+779   LPTNVLAEFYPR             -1.0000     NotChecked  -20.0603    1418.7558   ✗       
+780   KLPTNLLAEFYPR            -1.0000     NotChecked  -20.0649    1560.8664   ✗       
+781   KLPTGGLLAEFYPR           -1.0000     NotChecked  -20.0811    1560.8664   ✗       
+782   KLPTQLLAEFYPR            -1.0000     NotChecked  -20.0848    1574.8821   ✗       
+783   Q+0.984LPTGLLAEFYPR      -1.0000     NotChecked  -20.0931    1504.7926   ✗       
+784   +42.011LPTNLLAEFYPR      -1.0000     NotChecked  -20.0971    1474.7820   ✗       
+785   QLPTNLLAEFYPR            -1.0000     NotChecked  -20.0995    1560.8300   ✗       
+786   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -20.1120    1531.8035   ✗       
+787   VLPTNVLAEFYPR            -1.0000     NotChecked  -20.1139    1517.8242   ✗       
+788   +42.011LPTQLLAEFYPR      -1.0000     NotChecked  -20.1141    1488.7977   ✗       
+789   +43.006LPTNGLLAEFYPR     -1.0000     NotChecked  -20.1178    1532.7987   ✗       
+790   +43.006LPTGNVLAEFYPR     -1.0000     NotChecked  -20.1281    1518.7831   ✗       
+791   LLPTGLLAEFYPR            -1.0000     NotChecked  -20.1286    1488.8340   ✗       
+792   LPTGVLAEFYPR             -1.0000     NotChecked  -20.1317    1361.7343   ✗       
+793   KLPTGGLLAEFYPR           -1.0000     NotChecked  -20.1413    1560.8664   ✗       
+794   QLPTNLLAEFYPR            -1.0000     NotChecked  -20.1598    1560.8300   ✗       
+795   SLPTNLLAEFYPR            -1.0000     NotChecked  -20.1639    1519.8035   ✗       
+796   +42.011LPTGGLLAEFYPR     -1.0000     NotChecked  -20.1835    1474.7820   ✗       
+797   +43.006LPTGGLLAEFYPR     -1.0000     NotChecked  -20.1892    1475.7773   ✗       
+798   LPTGNVLAEFYPR            -1.0000     NotChecked  -20.1991    1475.7773   ✗       
+799   +43.006LPTGGVLAEFYPR     -1.0000     NotChecked  -20.1996    1461.7616   ✗       
+800   SLPTNLLAEFYPR            -1.0000     NotChecked  -20.2242    1519.8035   ✗       
+801   LPTGGLLAEFYPR            -1.0000     NotChecked  -20.2302    1432.7714   ✗       
+802   +42.011LPTNGLLAEFYPR     -1.0000     NotChecked  -20.2376    1531.8035   ✗       
+803   +42.011LPTGN+0.984LLAEFYPR-1.0000     NotChecked  -20.2643    1532.7875   ✗       
+804   +43.006LPTGNVLAEFYPR     -1.0000     NotChecked  -20.2670    1518.7831   ✗       
+805   VLPTGGLLAEFYPR           -1.0000     NotChecked  -20.2838    1531.8399   ✗       
+806   +42.011LPTANLLAEFYPR     -1.0000     NotChecked  -20.2870    1545.8191   ✗       
+807   LPTGNLLAEFYPR            -1.0000     NotChecked  -20.2976    1489.7929   ✗       
+808   +42.011LPTNGLLAEFYPR     -1.0000     NotChecked  -20.2978    1531.8035   ✗       
+809   +42.011LPTGVLAEFYPR      -1.0000     NotChecked  -20.3016    1403.7449   ✗       
+810   +43.006LPTNLLAQ+0.984FYPR-1.0000     NotChecked  -20.3044    1475.7773   ✗       
+811   +43.006LPSNLLAEFYPR      -1.0000     NotChecked  -20.3204    1461.7616   ✗       
+812   KLPTNLLAEFYPR            -1.0000     NotChecked  -20.3217    1560.8664   ✗       
+813   KLPTGLLAEFYPR            -1.0000     NotChecked  -20.3399    1503.8449   ✗       
+814   +43.006LPTNVLAEFYPR      -1.0000     NotChecked  -20.3626    1461.7616   ✗       
+815   +43.006LPTNLLAQ+0.984FYPR-1.0000     NotChecked  -20.3646    1475.7773   ✗       
+816   +42.011LPTGNVLAEFYPR     -1.0000     NotChecked  -20.3689    1517.7878   ✗       
+817   LPTGGLLAEFYPR            -1.0000     NotChecked  -20.3691    1432.7714   ✗       
+818   +42.011LPTNGLLAEFYPR     -1.0000     NotChecked  -20.3760    1531.8035   ✗       
+819   +42.011LPTGNVLAEFYPR     -1.0000     NotChecked  -20.3863    1517.7878   ✗       
+820   +43.006LPTNLLAEFYPR      -1.0000     NotChecked  -20.3881    1475.7773   ✗       
+821   +43.006LPTGVLAEFYPR      -1.0000     NotChecked  -20.4341    1404.7401   ✗       
+822   +42.011LPTNGLLAEFYPR     -1.0000     NotChecked  -20.4362    1531.8035   ✗       
+823   +42.011LPTGGVLAEFYPR     -1.0000     NotChecked  -20.4404    1460.7664   ✗       
+824   +42.011LPTGNVLAEFYPR     -1.0000     NotChecked  -20.4466    1517.7878   ✗       
+825   VLPTNLLAEFYPR            -1.0000     NotChecked  -20.4469    1531.8399   ✗       
+826   Q+0.984LPTGLLAEFYPR      -1.0000     NotChecked  -20.4485    1504.7926   ✗       
+827   +43.006LPTGLLAEFYPR      -1.0000     NotChecked  -20.4595    1418.7558   ✗       
+828   LPTGLLAEFYPR             -1.0000     NotChecked  -20.4647    1375.7500   ✗       
+829   LPTANLLAEFYPR            -1.0000     NotChecked  -20.4726    1503.8086   ✗       
+830   +42.011LPTGALLAEFYPR     -1.0000     NotChecked  -20.4756    1488.7977   ✗       
+831   KLPTGGLLAEFYPR           -1.0000     NotChecked  -20.4783    1560.8664   ✗       
+832   LLPTGLLAEFYPR            -1.0000     NotChecked  -20.4841    1488.8340   ✗       
+833   KLPTGGVLAEFYPR           -1.0000     NotChecked  -20.4886    1546.8508   ✗       
+834   +42.011LPTN+0.984LLAEFYPR-1.0000     NotChecked  -20.4987    1475.7660   ✗       
+835   +43.006LPTGNVLAEFYPR     -1.0000     NotChecked  -20.5015    1518.7831   ✗       
+836   VLPTGLLAEFYPR            -1.0000     NotChecked  -20.5183    1474.8184   ✗       
+837   +43.006LPTGNLLAEFYPR     -1.0000     NotChecked  -20.5269    1532.7987   ✗       
+838   LPTGNLLAEFYPR            -1.0000     NotChecked  -20.5321    1489.7929   ✗       
+839   +43.006LPTGGLLAEFYPR     -1.0000     NotChecked  -20.5326    1475.7773   ✗       
+840   +42.011LPTGGLLAEFYPR     -1.0000     NotChecked  -20.5389    1474.7820   ✗       
+841   +43.006LPTQLLAEFYPR      -1.0000     NotChecked  -20.5418    1489.7929   ✗       
+842   LPTGNLLAEFYPR            -1.0000     NotChecked  -20.5495    1489.7929   ✗       
+843   +43.006LPTNLLAEFYPR      -1.0000     NotChecked  -20.5851    1475.7773   ✗       
+844   Q+0.984LPTGGLLAEFYPR     -1.0000     NotChecked  -20.5874    1561.8140   ✗       
+845   KLPTNLLAQ+0.984FYPR      -1.0000     NotChecked  -20.5934    1560.8664   ✗       
+846   +43.006LPTGNLLAEFYPR     -1.0000     NotChecked  -20.6000    1532.7987   ✗       
+847   +43.006LPTQLLAEFYPR      -1.0000     NotChecked  -20.6021    1489.7929   ✗       
+848   LPTGGLLAEFYPR            -1.0000     NotChecked  -20.6036    1432.7714   ✗       
+849   KLPSNLLAEFYPR            -1.0000     NotChecked  -20.6094    1546.8508   ✗       
+850   LPTGNLLAEFYPR            -1.0000     NotChecked  -20.6097    1489.7929   ✗       
+851   +42.011LPTNVLAEFYPR      -1.0000     NotChecked  -20.6208    1460.7664   ✗       
+852   LLPTGGLLAEFYPR           -1.0000     NotChecked  -20.6229    1545.8555   ✗       
+853   +42.011LPTANLLAEFYPR     -1.0000     NotChecked  -20.6424    1545.8191   ✗       
+854   KLPTNVLAEFYPR            -1.0000     NotChecked  -20.6517    1546.8508   ✗       
+855   KLPTNLLAQ+0.984FYPR      -1.0000     NotChecked  -20.6537    1560.8664   ✗       
+856   +43.006LPTGGLLAEFYPR     -1.0000     NotChecked  -20.6714    1475.7773   ✗       
+857   KLPTNLLAEFYPR            -1.0000     NotChecked  -20.6772    1560.8664   ✗       
+858   +42.011LPTNVLAEFYPR      -1.0000     NotChecked  -20.6811    1460.7664   ✗       
+859   LPTN+0.984LLAEFYPR       -1.0000     NotChecked  -20.6843    1433.7555   ✗       
+860   +42.011LPTGNLLAQ+0.984FYPR-1.0000     NotChecked  -20.6958    1531.8035   ✗       
+861   +42.011LPTALLAEFYPR      -1.0000     NotChecked  -20.7101    1431.7762   ✗       
+862   +42.011LPTAGLLAEFYPR     -1.0000     NotChecked  -20.7139    1488.7977   ✗       
+863   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -20.7193    1531.8035   ✗       
+864   KLPTGVLAEFYPR            -1.0000     NotChecked  -20.7231    1489.8293   ✗       
+865   +43.006LPTNGLLAEFYPR     -1.0000     NotChecked  -20.7255    1532.7987   ✗       
+866   KLPTGLLAEFYPR            -1.0000     NotChecked  -20.7486    1503.8449   ✗       
+867   +43.006LPTGN+0.984LLAEFYPR-1.0000     NotChecked  -20.7522    1533.7827   ✗       
+868   Q+0.984LPTNLLAEFYPR      -1.0000     NotChecked  -20.7678    1561.8140   ✗       
+869   +42.011LPTGGLLAEFYPR     -1.0000     NotChecked  -20.7734    1474.7820   ✗       
+870   +43.006LPTANLLAEFYPR     -1.0000     NotChecked  -20.7750    1546.8144   ✗       
+871   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -20.7796    1531.8035   ✗       
+872   +43.006LPTNGLLAEFYPR     -1.0000     NotChecked  -20.7858    1532.7987   ✗       
+873   +43.006LPTGVLAEFYPR      -1.0000     NotChecked  -20.7895    1404.7401   ✗       
+874   +42.011LPTGGLLAEFYPR     -1.0000     NotChecked  -20.7908    1474.7820   ✗       
+875   LLPTNLLAEFYPR            -1.0000     NotChecked  -20.8033    1545.8555   ✗       
+876   LPTNVLAEFYPR             -1.0000     NotChecked  -20.8064    1418.7558   ✗       
+877   KLPTGGLLAEFYPR           -1.0000     NotChecked  -20.8217    1560.8664   ✗       
+878   Q+0.984LPTNLLAEFYPR      -1.0000     NotChecked  -20.8280    1561.8140   ✗       
+879   KLPTQLLAEFYPR            -1.0000     NotChecked  -20.8309    1574.8821   ✗       
+880   +42.011LPTNLLAEFYPR      -1.0000     NotChecked  -20.8388    1474.7820   ✗       
+881   +42.011LPTGGLLAEFYPR     -1.0000     NotChecked  -20.8510    1474.7820   ✗       
+882   +42.011LPTN+0.984LLAEFYPR-1.0000     NotChecked  -20.8542    1475.7660   ✗       
+883   +43.006LPTGNVLAEFYPR     -1.0000     NotChecked  -20.8569    1518.7831   ✗       
+884   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -20.8582    1531.8035   ✗       
+885   LLPTNLLAEFYPR            -1.0000     NotChecked  -20.8636    1545.8555   ✗       
+886   +43.006LPTNGLLAEFYPR     -1.0000     NotChecked  -20.8639    1532.7987   ✗       
+887   LPTNVLAEFYPR             -1.0000     NotChecked  -20.8666    1418.7558   ✗       
+888   +42.011LPQNLLAEFYPR      -1.0000     NotChecked  -20.8718    1501.7929   ✗       
+889   VLPTGLLAEFYPR            -1.0000     NotChecked  -20.8737    1474.8184   ✗       
+890   KLPTNLLAEFYPR            -1.0000     NotChecked  -20.8741    1560.8664   ✗       
+891   +43.006LPTGNVLAEFYPR     -1.0000     NotChecked  -20.8743    1518.7831   ✗       
+892   LPTGNLLAQ+0.984FYPR      -1.0000     NotChecked  -20.8814    1489.7929   ✗       
+893   +42.011LPTSNLLAEFYPR     -1.0000     NotChecked  -20.8895    1561.8140   ✗       
+894   KLPTQLLAEFYPR            -1.0000     NotChecked  -20.8911    1574.8821   ✗       
+895   LPTALLAEFYPR             -1.0000     NotChecked  -20.8956    1389.7656   ✗       
+896   LPTGNLLAEFYPR            -1.0000     NotChecked  -20.9049    1489.7929   ✗       
+897   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -20.9184    1531.8035   ✗       
+898   +43.006LPTNGLLAEFYPR     -1.0000     NotChecked  -20.9241    1532.7987   ✗       
+899   +43.006LPTGGVLAEFYPR     -1.0000     NotChecked  -20.9283    1461.7616   ✗       
+900   +42.011LPTGQLLAEFYPR     -1.0000     NotChecked  -20.9333    1545.8191   ✗       
+901   +43.006LPTGNVLAEFYPR     -1.0000     NotChecked  -20.9345    1518.7831   ✗       
+902   +42.011LPTNVLAQ+0.984FYPR-1.0000     NotChecked  -20.9527    1460.7664   ✗       
+903   LPTGGLLAEFYPR            -1.0000     NotChecked  -20.9590    1432.7714   ✗       
+904   KLPTGGLLAEFYPR           -1.0000     NotChecked  -20.9605    1560.8664   ✗       
+905   +43.006LPTGALLAEFYPR     -1.0000     NotChecked  -20.9635    1489.7929   ✗       
+906   LPTGNLLAEFYPR            -1.0000     NotChecked  -20.9652    1489.7929   ✗       
+907   +42.011LPTNVLAEFYPR      -1.0000     NotChecked  -20.9762    1460.7664   ✗       
+908   LPTGGLLAEFYPR            -1.0000     NotChecked  -20.9764    1432.7714   ✗       
+909   +43.006LPTN+0.984LLAEFYPR-1.0000     NotChecked  -20.9867    1476.7613   ✗       
+910   +42.011LPTNLLSEFYPR      -1.0000     NotChecked  -20.9909    1490.7769   ✗       
+911   +42.011LPTGN+0.984LLAEFYPR-1.0000     NotChecked  -20.9930    1532.7875   ✗       
+912   VLPTGGLLAEFYPR           -1.0000     NotChecked  -21.0126    1531.8399   ✗       
+913   +42.011LPGNLLAEFYPR      -1.0000     NotChecked  -21.0195    1430.7558   ✗       
+914   LPTNLLAEFYPR             -1.0000     NotChecked  -21.0244    1432.7714   ✗       
+915   +43.006LPTGGLLAEFYPR     -1.0000     NotChecked  -21.0268    1475.7773   ✗       
+916   +42.011LPTNVLAEFYPR      -1.0000     NotChecked  -21.0365    1460.7664   ✗       
+917   LPTGGLLAEFYPR            -1.0000     NotChecked  -21.0366    1432.7714   ✗       
+918   SLPTGNLLAEFYPR           -1.0000     NotChecked  -21.0434    1576.8249   ✗       
+919   LPTGNLLAEFYPR            -1.0000     NotChecked  -21.0438    1489.7929   ✗       
+920   +42.011LPTGVLAEFYPR      -1.0000     NotChecked  -21.0477    1403.7449   ✗       
+921   +42.011LPTGNLLAQ+0.984FYPR-1.0000     NotChecked  -21.0513    1531.8035   ✗       
+922   +42.011LPTALLAEFYPR      -1.0000     NotChecked  -21.0655    1431.7762   ✗       
+923   KLPTGVLAEFYPR            -1.0000     NotChecked  -21.0786    1489.8293   ✗       
+924   Q+0.984LPTNLLAQ+0.984FYPR-1.0000     NotChecked  -21.0997    1561.8140   ✗       
+925   LPTGNLLAEFYPR            -1.0000     NotChecked  -21.1040    1489.7929   ✗       
+926   +42.011LPTGVLAEFYPR      -1.0000     NotChecked  -21.1079    1403.7449   ✗       
+927   +43.006LPTNVLAEFYPR      -1.0000     NotChecked  -21.1088    1461.7616   ✗       
+928   +42.011LPTGNVLAEFYPR     -1.0000     NotChecked  -21.1151    1517.7878   ✗       
+929   LPTNLLAQ+0.984FYPR       -1.0000     NotChecked  -21.1159    1432.7714   ✗       
+930   LPTGQLLAEFYPR            -1.0000     NotChecked  -21.1189    1503.8086   ✗       
+931   +42.011LPTGGLLAQ+0.984FYPR-1.0000     NotChecked  -21.1227    1474.7820   ✗       
+932   Q+0.984LPTNLLAEFYPR      -1.0000     NotChecked  -21.1232    1561.8140   ✗       
+933   +43.006LPTANLLAEFYPR     -1.0000     NotChecked  -21.1304    1546.8144   ✗       
+934   LLPTNLLAQ+0.984FYPR      -1.0000     NotChecked  -21.1352    1545.8555   ✗       
+935   LPTNLLAEFYPR             -1.0000     NotChecked  -21.1394    1432.7714   ✗       
+936   +42.011LPTGGLLAEFYPR     -1.0000     NotChecked  -21.1462    1474.7820   ✗       
+937   LLPTNLLAEFYPR            -1.0000     NotChecked  -21.1587    1545.8555   ✗       
+938   +43.006LPTNVLAEFYPR      -1.0000     NotChecked  -21.1690    1461.7616   ✗       
+939   +42.011LPTGNVLAEFYPR     -1.0000     NotChecked  -21.1753    1517.7878   ✗       
+940   Q+0.984LPTNLLAEFYPR      -1.0000     NotChecked  -21.1835    1561.8140   ✗       
+941   +43.006LPTGNLLAQ+0.984FYPR-1.0000     NotChecked  -21.1838    1532.7987   ✗       
+942   +42.011LPTGNLLAQ+0.984FYPR-1.0000     NotChecked  -21.1901    1531.8035   ✗       
+943   +42.011LPTQVLAEFYPR      -1.0000     NotChecked  -21.1902    1474.7820   ✗       
+944   VLPTNLLAEFYPR            -1.0000     NotChecked  -21.1930    1531.8399   ✗       
+945   +42.011LPTNLLAEFYPR      -1.0000     NotChecked  -21.1943    1474.7820   ✗       
+946   Q+0.984LPTGLLAEFYPR      -1.0000     NotChecked  -21.1947    1504.7926   ✗       
+947   +43.006LPTALLAEFYPR      -1.0000     NotChecked  -21.1980    1432.7714   ✗       
+948   LPTNLLAEFYPR             -1.0000     NotChecked  -21.1996    1432.7714   ✗       
+949   +43.006LPTAGLLAEFYPR     -1.0000     NotChecked  -21.2018    1489.7929   ✗       
+950   +42.011LPTGALLAEFYPR     -1.0000     NotChecked  -21.2043    1488.7977   ✗       
+951   +42.011LPTGGLLAEFYPR     -1.0000     NotChecked  -21.2064    1474.7820   ✗       
+952   +43.006LPTGNLLAEFYPR     -1.0000     NotChecked  -21.2073    1532.7987   ✗       
+953   LPTGLLAEFYPR             -1.0000     NotChecked  -21.2108    1375.7500   ✗       
+954   +42.011LPTGSLLAEFYPR     -1.0000     NotChecked  -21.2130    1504.7926   ✗       
+955   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -21.2136    1531.8035   ✗       
+956   KLPTGGVLAEFYPR           -1.0000     NotChecked  -21.2174    1546.8508   ✗       
+957   LLPTNLLAEFYPR            -1.0000     NotChecked  -21.2190    1545.8555   ✗       
+958   LLPTGLLAEFYPR            -1.0000     NotChecked  -21.2302    1488.8340   ✗       
+959   +42.011LPTNLLAEFYPR      -1.0000     NotChecked  -21.2345    1474.7820   ✗       
+960   QLPTNVLAEFYPR            -1.0000     NotChecked  -21.2359    1546.8144   ✗       
+961   KLPTGALLAEFYPR           -1.0000     NotChecked  -21.2526    1574.8821   ✗       
+962   VLPTNLLAEFYPR            -1.0000     NotChecked  -21.2532    1531.8399   ✗       
+963   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -21.2540    1531.8035   ✗       
+964   Q+0.984LPTGLLAEFYPR      -1.0000     NotChecked  -21.2549    1504.7926   ✗       
+965   +43.006LPTGGLLAEFYPR     -1.0000     NotChecked  -21.2613    1475.7773   ✗       
+966   +42.011LPTGLLAEFYPR      -1.0000     NotChecked  -21.2657    1417.7605   ✗       
+967   +43.006LPTGNLLAEFYPR     -1.0000     NotChecked  -21.2675    1532.7987   ✗       
+968   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -21.2689    1531.8035   ✗       
+969   LPTGLLAEFYPR             -1.0000     NotChecked  -21.2711    1375.7500   ✗       
+970   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -21.2738    1531.8035   ✗       
+971   KLPTN+0.984LLAEFYPR      -1.0000     NotChecked  -21.2757    1561.8504   ✗       
+972   LPTGNLLAEFYPR            -1.0000     NotChecked  -21.2782    1489.7929   ✗       
+973   +43.006LPTGGLLAEFYPR     -1.0000     NotChecked  -21.2787    1475.7773   ✗       
+974   +42.011LPTGGLLAEFYPR     -1.0000     NotChecked  -21.2850    1474.7820   ✗       
+975   +42.011LPTNLLAQ+0.984FYPR-1.0000     NotChecked  -21.2857    1474.7820   ✗       
+976   +42.011LPTGQLLAEFYPR     -1.0000     NotChecked  -21.2887    1545.8191   ✗       
+977   LLPTGLLAEFYPR            -1.0000     NotChecked  -21.2904    1488.8340   ✗       
+978   SLPTNVLAEFYPR            -1.0000     NotChecked  -21.3003    1505.7878   ✗       
+979   LPTGNGLLAEFYPR           -1.0000     NotChecked  -21.3026    1546.8144   ✗       
+980   KLPTGGLLAEFYPR           -1.0000     NotChecked  -21.3159    1560.8664   ✗       
+981   +43.006LPTNLLAEFYPR      -1.0000     NotChecked  -21.3268    1475.7773   ✗       
+982   +42.011LPTGNLLAEFYPR     -1.0000     NotChecked  -21.3331    1531.8035   ✗       
+983   Q+0.984LPTQLLAEFYPR      -1.0000     NotChecked  -21.3372    1575.8297   ✗       
+984   LPTGNLLAEFYPR            -1.0000     NotChecked  -21.3385    1489.7929   ✗       
+985   +43.006LPTGGLLAEFYPR     -1.0000     NotChecked  -21.3390    1475.7773   ✗       
+986   +43.006LPTN+0.984LLAEFYPR-1.0000     NotChecked  -21.3421    1476.7613   ✗       
+987   +42.011LPTGGLLAEFYPR     -1.0000     NotChecked  -21.3453    1474.7820   ✗       
+988   +43.006LPTGNLLAEFYPR     -1.0000     NotChecked  -21.3461    1532.7987   ✗       
+989   LPTQLLAEFYPR             -1.0000     NotChecked  -21.3534    1446.7871   ✗       
+990   +42.011LPTGLLAQ+0.984FYPR-1.0000     NotChecked  -21.3572    1417.7605   ✗       
+991   +43.006LPQNLLAEFYPR      -1.0000     NotChecked  -21.3597    1502.7882   ✗       
+992   LLPTQLLAEFYPR            -1.0000     NotChecked  -21.3727    1559.8712   ✗       
+993   +42.011LPTNGVLAEFYPR     -1.0000     NotChecked  -21.3739    1517.7878   ✗       
+994   +43.006LPTSNLLAEFYPR     -1.0000     NotChecked  -21.3774    1562.8093   ✗       
+995   +42.011LPTGLLAEFYPR      -1.0000     NotChecked  -21.3807    1417.7605   ✗       
+996   +42.011LPTANLLAEFYPR     -1.0000     NotChecked  -21.3886    1545.8191   ✗       
+997   KLPTNVLAEFYPR            -1.0000     NotChecked  -21.3978    1546.8508   ✗       
+998   SLPTGNLLAEFYPR           -1.0000     NotChecked  -21.3988    1576.8249   ✗       
+999   QLPTGGLLAEFYPR           -1.0000     NotChecked  -21.4058    1560.8300   ✗       
+1000  +43.006LPTGNLLAEFYPR     -1.0000     NotChecked  -21.4063    1532.7987   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: RLPTNLLAEFYPR
+Similarity: 0.8940
+De Novo Score: -0.5346
+Source: Database
+Correct: ✓
+

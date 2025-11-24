@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 94
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 439.5795
+Precursor charge: 3+
+Ground truth: KAC+57.021GEEVVIAIK
+Ground truth (normalized): KAC+57.021GEEVVIAIK
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 234
+Used for reranking: 234
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 234 (23.4%)
+Database matches: 10 (1.0%)
+Prosit predictions: 208 (20.8%)
+Failed: 16 (1.6%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 255/1000
+Rank by similarity: 1/1000
+Similarity: 0.8231
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     KAC+57.021GEEVVLALK      0.8231      Database    -11.4245    1315.7170   ✓       ✓
+2     KAC+57.021GEEVVLALK      0.8231      Database    -12.9670    1315.7170   ✓       ✓
+3     KAC+57.021GEEVVLALK      0.8231      Database    -13.0784    1315.7170   ✓       ✓
+4     KAC+57.021GEEVVLALK      0.8231      Database    -13.7393    1315.7170   ✓       ✓
+5     KAC+57.021GEEVVLALK      0.8231      Database    -13.9710    1315.7170   ✓       ✓
+6     KAC+57.021GEEVVLALK      0.8231      Database    -14.5393    1315.7170   ✓       ✓
+7     KAC+57.021GEEVVLALK      0.8231      Database    -14.6026    1315.7170   ✓       ✓
+8     KAC+57.021GEEVVLALK      0.8231      Database    -14.6210    1315.7170   ✓       ✓
+9     KAC+57.021GEEVVLALK      0.8231      Database    -14.9862    1315.7170   ✓       ✓
+10    KAC+57.021GEEVVLALK      0.8231      Database    -15.0071    1315.7170   ✓       ✓
+11    AKGC+57.021EEVVLALK      0.4333      Prosit      -10.0475    1315.7170   ✓       
+12    AKGC+57.021EEVVLALK      0.4333      Prosit      -11.5901    1315.7170   ✓       
+13    AKGC+57.021EEVVLALK      0.4333      Prosit      -12.5941    1315.7170   ✓       
+14    AKGC+57.021EEVVLALK      0.4333      Prosit      -13.1624    1315.7170   ✓       
+15    AKGC+57.021EEVVLALK      0.4333      Prosit      -13.6301    1315.7170   ✓       
+16    AKGC+57.021EEVVLALK      0.4333      Prosit      -14.1366    1315.7170   ✓       
+17    AKC+57.021GEQ+0.984VVLALK0.4256      Prosit      -6.8172     1315.7170   ✓       
+18    AKC+57.021GEQ+0.984VVLALK0.4256      Prosit      -8.3598     1315.7170   ✓       
+19    AKC+57.021GEQ+0.984VVLALK0.4256      Prosit      -9.9320     1315.7170   ✓       
+20    AKC+57.021GEQ+0.984VVLALK0.4256      Prosit      -9.9954     1315.7170   ✓       
+21    AKC+57.021GEQ+0.984VVLALK0.4256      Prosit      -10.3998    1315.7170   ✓       
+22    AKC+57.021GEQ+0.984VVLALK0.4256      Prosit      -11.4746    1315.7170   ✓       
+23    AKC+57.021GEQ+0.984VVLALK0.4256      Prosit      -11.5380    1315.7170   ✓       
+24    AKC+57.021GEQ+0.984VVLALK0.4256      Prosit      -11.9424    1315.7170   ✓       
+25    AKC+57.021GEQ+0.984VVLALK0.4256      Prosit      -12.6882    1315.7170   ✓       
+26    AKC+57.021GEQ+0.984VVLALK0.4256      Prosit      -13.1102    1315.7170   ✓       
+27    AKC+57.021GEQ+0.984VVLALK0.4256      Prosit      -13.2323    1315.7170   ✓       
+28    AKC+57.021GEQ+0.984VVLALK0.4256      Prosit      -13.5780    1315.7170   ✓       
+29    AKC+57.021GEQ+0.984VVLALK0.4256      Prosit      -14.0560    1315.7170   ✓       
+30    AKC+57.021GEQ+0.984VVLALK0.4256      Prosit      -14.1068    1315.7170   ✓       
+31    AKC+57.021GEQ+0.984VVLALK0.4256      Prosit      -14.2307    1315.7170   ✓       
+32    AKEGC+57.021EVVLALK      0.4202      Prosit      -13.3921    1315.7170   ✓       
+33    AKC+57.021GDELVLALK      0.4167      Prosit      -10.7822    1315.7170   ✓       
+34    AKC+57.021GDELVLALK      0.4167      Prosit      -12.3247    1315.7170   ✓       
+35    AKC+57.021GDELVLALK      0.4167      Prosit      -13.3287    1315.7170   ✓       
+36    AKC+57.021GDELVLALK      0.4167      Prosit      -13.8970    1315.7170   ✓       
+37    AKC+57.021GDELVLALK      0.4167      Prosit      -13.9603    1315.7170   ✓       
+38    AKC+57.021GEEVVLALK      0.4075      Prosit      -0.4934     1315.7170   ✓       
+39    AKC+57.021GEEVVLALK      0.4075      Prosit      -2.0359     1315.7170   ✓       
+40    AKC+57.021GEEVVLALK      0.4075      Prosit      -3.0399     1315.7170   ✓       
+41    AKC+57.021GEEVVLALK      0.4075      Prosit      -3.6082     1315.7170   ✓       
+42    AKC+57.021GEEVVLALK      0.4075      Prosit      -3.6715     1315.7170   ✓       
+43    AKC+57.021GEEVVLALK      0.4075      Prosit      -4.0759     1315.7170   ✓       
+44    AKC+57.021GEEVVLALK      0.4075      Prosit      -4.5824     1315.7170   ✓       
+45    AKC+57.021GEEVVLALK      0.4075      Prosit      -5.1507     1315.7170   ✓       
+46    AKC+57.021GEEVVLALK      0.4075      Prosit      -5.2141     1315.7170   ✓       
+47    AKC+57.021GEEVVLALK      0.4075      Prosit      -5.6185     1315.7170   ✓       
+48    AKC+57.021GEEVVLALK      0.4075      Prosit      -6.1547     1315.7170   ✓       
+49    AKC+57.021GEEVVLALK      0.4075      Prosit      -6.2181     1315.7170   ✓       
+50    AKC+57.021GEEVVLALK      0.4075      Prosit      -6.3643     1315.7170   ✓       
+51    AKC+57.021GEEVVLALK      0.4075      Prosit      -6.6225     1315.7170   ✓       
+52    AKC+57.021GEEVVLALK      0.4075      Prosit      -6.7864     1315.7170   ✓       
+53    AKC+57.021GEEVVLALK      0.4075      Prosit      -6.9085     1315.7170   ✓       
+54    AKC+57.021GEEVVLALK      0.4075      Prosit      -7.2541     1315.7170   ✓       
+55    AKC+57.021GEEVVLALK      0.4075      Prosit      -7.6973     1315.7170   ✓       
+56    AKC+57.021GEEVVLALK      0.4075      Prosit      -7.7232     1315.7170   ✓       
+57    AKC+57.021GEEVVLALK      0.4075      Prosit      -7.7321     1315.7170   ✓       
+58    AKC+57.021GEEVVLALK      0.4075      Prosit      -7.7606     1315.7170   ✓       
+59    AKC+57.021GEEVVLALK      0.4075      Prosit      -7.7829     1315.7170   ✓       
+60    AKC+57.021GEEVVLALK      0.4075      Prosit      -7.9068     1315.7170   ✓       
+61    AKC+57.021GEEVVLALK      0.4075      Prosit      -7.9596     1315.7170   ✓       
+62    AKC+57.021GEEVVLALK      0.4075      Prosit      -8.1650     1315.7170   ✓       
+63    AKC+57.021GEEVVLALK      0.4075      Prosit      -8.3289     1315.7170   ✓       
+64    AKC+57.021GEEVVLALK      0.4075      Prosit      -8.4510     1315.7170   ✓       
+65    AKC+57.021GEEVVLALK      0.4075      Prosit      -8.7967     1315.7170   ✓       
+66    AKC+57.021GEEVVLALK      0.4075      Prosit      -8.9108     1315.7170   ✓       
+67    AKC+57.021GEEVVLALK      0.4075      Prosit      -9.2658     1315.7170   ✓       
+68    AKC+57.021GEEVVLALK      0.4075      Prosit      -9.2747     1315.7170   ✓       
+69    AKC+57.021GEEVVLALK      0.4075      Prosit      -9.3254     1315.7170   ✓       
+70    AKC+57.021GEEVVLALK      0.4075      Prosit      -9.3329     1315.7170   ✓       
+71    AKC+57.021GEEVVLALK      0.4075      Prosit      -9.4550     1315.7170   ✓       
+72    AKC+57.021GEEVVLALK      0.4075      Prosit      -9.4791     1315.7170   ✓       
+73    AKC+57.021GEEVVLALK      0.4075      Prosit      -9.5022     1315.7170   ✓       
+74    AKC+57.021GEEVVLALK      0.4075      Prosit      -9.5425     1315.7170   ✓       
+75    AKC+57.021GEEVVLALK      0.4075      Prosit      -9.8006     1315.7170   ✓       
+76    AKC+57.021GEEVVLALK      0.4075      Prosit      -9.9469     1315.7170   ✓       
+77    AKC+57.021GEEVVLALK      0.4075      Prosit      -10.0233    1315.7170   ✓       
+78    AKC+57.021GEEVVLALK      0.4075      Prosit      -10.0866    1315.7170   ✓       
+79    AKC+57.021GEEVVLALK      0.4075      Prosit      -10.2698    1315.7170   ✓       
+80    AKC+57.021GEEVVLALK      0.4075      Prosit      -10.2786    1315.7170   ✓       
+81    AKC+57.021GEEVVLALK      0.4075      Prosit      -10.3294    1315.7170   ✓       
+82    AKC+57.021GEEVVLALK      0.4075      Prosit      -10.4534    1315.7170   ✓       
+83    AKC+57.021GEEVVLALK      0.4075      Prosit      -10.4910    1315.7170   ✓       
+84    AKC+57.021GEEVVLALK      0.4075      Prosit      -10.5062    1315.7170   ✓       
+85    AKC+57.021GEEVVLALK      0.4075      Prosit      -10.6148    1315.7170   ✓       
+86    AKC+57.021GEEVVLALK      0.4075      Prosit      -10.8381    1315.7170   ✓       
+87    AKC+57.021GEEVVLALK      0.4075      Prosit      -10.8469    1315.7170   ✓       
+88    AKC+57.021GEEVVLALK      0.4075      Prosit      -10.8754    1315.7170   ✓       
+89    AKC+57.021GEEVVLALK      0.4075      Prosit      -10.8759    1315.7170   ✓       
+90    AKC+57.021GEEVVLALK      0.4075      Prosit      -10.8977    1315.7170   ✓       
+91    AKC+57.021GEEVVLALK      0.4075      Prosit      -10.9014    1315.7170   ✓       
+92    AKC+57.021GEEVVLALK      0.4075      Prosit      -10.9103    1315.7170   ✓       
+93    AKC+57.021GEEVVLALK      0.4075      Prosit      -10.9549    1315.7170   ✓       
+94    AKC+57.021GEEVVLALK      0.4075      Prosit      -10.9611    1315.7170   ✓       
+95    AKC+57.021GEEVVLALK      0.4075      Prosit      -10.9975    1315.7170   ✓       
+96    AKC+57.021GEEVVLALK      0.4075      Prosit      -11.0217    1315.7170   ✓       
+97    AKC+57.021GEEVVLALK      0.4075      Prosit      -11.0850    1315.7170   ✓       
+98    AKC+57.021GEEVVLALK      0.4075      Prosit      -11.1378    1315.7170   ✓       
+99    AKC+57.021GEEVVLALK      0.4075      Prosit      -11.3058    1315.7170   ✓       
+100   AKC+57.021GEEVVLALK      0.4075      Prosit      -11.3147    1315.7170   ✓       
+101   AKC+57.021GEEVVLALK      0.4075      Prosit      -11.3432    1315.7170   ✓       
+102   AKC+57.021GEEVVLALK      0.4075      Prosit      -11.3655    1315.7170   ✓       
+103   AKC+57.021GEEVVLALK      0.4075      Prosit      -11.4894    1315.7170   ✓       
+104   AKC+57.021GEEVVLALK      0.4075      Prosit      -11.5658    1315.7170   ✓       
+105   AKC+57.021GEEVVLALK      0.4075      Prosit      -11.6292    1315.7170   ✓       
+106   AKC+57.021GEEVVLALK      0.4075      Prosit      -11.8123    1315.7170   ✓       
+107   AKC+57.021GEEVVLALK      0.4075      Prosit      -11.8212    1315.7170   ✓       
+108   AKC+57.021GEEVVLALK      0.4075      Prosit      -11.8720    1315.7170   ✓       
+109   AKC+57.021GEEVVLALK      0.4075      Prosit      -12.0239    1315.7170   ✓       
+110   AKC+57.021GEEVVLALK      0.4075      Prosit      -12.0256    1315.7170   ✓       
+111   AKC+57.021GEEVVLALK      0.4075      Prosit      -12.0336    1315.7170   ✓       
+112   AKC+57.021GEEVVLALK      0.4075      Prosit      -12.0487    1315.7170   ✓       
+113   AKC+57.021GEEVVLALK      0.4075      Prosit      -12.0890    1315.7170   ✓       
+114   AKC+57.021GEEVVLALK      0.4075      Prosit      -12.1574    1315.7170   ✓       
+115   AKC+57.021GEEVVLALK      0.4075      Prosit      -12.3806    1315.7170   ✓       
+116   AKC+57.021GEEVVLALK      0.4075      Prosit      -12.3895    1315.7170   ✓       
+117   AKC+57.021GEEVVLALK      0.4075      Prosit      -12.4184    1315.7170   ✓       
+118   AKC+57.021GEEVVLALK      0.4075      Prosit      -12.4403    1315.7170   ✓       
+119   AKC+57.021GEEVVLALK      0.4075      Prosit      -12.4440    1315.7170   ✓       
+120   AKC+57.021GEEVVLALK      0.4075      Prosit      -12.4528    1315.7170   ✓       
+121   AKC+57.021GEEVVLALK      0.4075      Prosit      -12.4934    1315.7170   ✓       
+122   AKC+57.021GEEVVLALK      0.4075      Prosit      -12.5036    1315.7170   ✓       
+123   AKC+57.021GEEVVLALK      0.4075      Prosit      -12.5698    1315.7170   ✓       
+124   AKC+57.021GEEVVLALK      0.4075      Prosit      -12.6332    1315.7170   ✓       
+125   AKC+57.021GEEVVLALK      0.4075      Prosit      -12.6573    1315.7170   ✓       
+126   AKC+57.021GEEVVLALK      0.4075      Prosit      -12.6804    1315.7170   ✓       
+127   AKC+57.021GEEVVLALK      0.4075      Prosit      -12.7635    1315.7170   ✓       
+128   AKC+57.021GEEVVLALK      0.4075      Prosit      -12.7794    1315.7170   ✓       
+129   AKC+57.021GEEVVLALK      0.4075      Prosit      -12.8484    1315.7170   ✓       
+130   AKC+57.021GEEVVLALK      0.4075      Prosit      -12.8572    1315.7170   ✓       
+131   AKC+57.021GEEVVLALK      0.4075      Prosit      -12.9080    1315.7170   ✓       
+132   AKC+57.021GEEVVLALK      0.4075      Prosit      -13.0376    1315.7170   ✓       
+133   AKC+57.021GEEVVLALK      0.4075      Prosit      -13.1250    1315.7170   ✓       
+134   AKC+57.021GEEVVLALK      0.4075      Prosit      -13.1614    1315.7170   ✓       
+135   AKC+57.021GEEVVLALK      0.4075      Prosit      -13.2015    1315.7170   ✓       
+136   AKC+57.021GEEVVLALK      0.4075      Prosit      -13.2360    1315.7170   ✓       
+137   AKC+57.021GEEVVLALK      0.4075      Prosit      -13.2446    1315.7170   ✓       
+138   AKC+57.021GEEVVLALK      0.4075      Prosit      -13.2655    1315.7170   ✓       
+139   AKC+57.021GEEVVLALK      0.4075      Prosit      -13.3846    1315.7170   ✓       
+140   AKC+57.021GEEVVLALK      0.4075      Prosit      -13.3935    1315.7170   ✓       
+141   AKC+57.021GEEVVLALK      0.4075      Prosit      -13.4224    1315.7170   ✓       
+142   AKC+57.021GEEVVLALK      0.4075      Prosit      -13.4442    1315.7170   ✓       
+143   AKC+57.021GEEVVLALK      0.4075      Prosit      -13.4479    1315.7170   ✓       
+144   AKC+57.021GEEVVLALK      0.4075      Prosit      -13.4568    1315.7170   ✓       
+145   AKC+57.021GEEVVLALK      0.4075      Prosit      -13.5014    1315.7170   ✓       
+146   AKC+57.021GEEVVLALK      0.4075      Prosit      -13.5076    1315.7170   ✓       
+147   AKC+57.021GEEVVLALK      0.4075      Prosit      -13.5664    1315.7170   ✓       
+148   AKC+57.021GEEVVLALK      0.4075      Prosit      -13.5682    1315.7170   ✓       
+149   AKC+57.021GEEVVLALK      0.4075      Prosit      -13.5942    1315.7170   ✓       
+150   AKC+57.021GEEVVLALK      0.4075      Prosit      -13.6030    1315.7170   ✓       
+151   AKC+57.021GEEVVLALK      0.4075      Prosit      -13.6316    1315.7170   ✓       
+152   AKC+57.021GEEVVLALK      0.4075      Prosit      -13.6538    1315.7170   ✓       
+153   AKC+57.021GEEVVLALK      0.4075      Prosit      -13.6692    1315.7170   ✓       
+154   AKC+57.021GEEVVLALK      0.4075      Prosit      -13.6784    1315.7170   ✓       
+155   AKC+57.021GEEVVLALK      0.4075      Prosit      -13.6843    1315.7170   ✓       
+156   AKC+57.021GEEVVLALK      0.4075      Prosit      -13.7930    1315.7170   ✓       
+157   AKC+57.021GEEVVLALK      0.4075      Prosit      -13.8306    1315.7170   ✓       
+158   AKC+57.021GEEVVLALK      0.4075      Prosit      -13.8488    1315.7170   ✓       
+159   AKC+57.021GEEVVLALK      0.4075      Prosit      -13.8523    1315.7170   ✓       
+160   AKC+57.021GEEVVLALK      0.4075      Prosit      -13.8612    1315.7170   ✓       
+161   AKC+57.021GEEVVLALK      0.4075      Prosit      -13.9120    1315.7170   ✓       
+162   AKC+57.021GEEVVLALK      0.4075      Prosit      -13.9907    1315.7170   ✓       
+163   AKC+57.021GEEVVLALK      0.4075      Prosit      -14.0162    1315.7170   ✓       
+164   AKC+57.021GEEVVLALK      0.4075      Prosit      -14.0251    1315.7170   ✓       
+165   AKC+57.021GEEVVLALK      0.4075      Prosit      -14.0360    1315.7170   ✓       
+166   AKC+57.021GEEVVLALK      0.4075      Prosit      -14.0541    1315.7170   ✓       
+167   AKC+57.021GEEVVLALK      0.4075      Prosit      -14.0697    1315.7170   ✓       
+168   AKC+57.021GEEVVLALK      0.4075      Prosit      -14.0759    1315.7170   ✓       
+169   AKC+57.021GEEVVLALK      0.4075      Prosit      -14.1124    1315.7170   ✓       
+170   AKC+57.021GEEVVLALK      0.4075      Prosit      -14.1331    1315.7170   ✓       
+171   AKC+57.021GEEVVLALK      0.4075      Prosit      -14.1383    1315.7170   ✓       
+172   AKC+57.021GEEVVLALK      0.4075      Prosit      -14.1472    1315.7170   ✓       
+173   AKC+57.021GEEVVLALK      0.4075      Prosit      -14.1757    1315.7170   ✓       
+174   AKC+57.021GEEVVLALK      0.4075      Prosit      -14.1980    1315.7170   ✓       
+175   AKC+57.021GEEVVLALK      0.4075      Prosit      -14.1998    1315.7170   ✓       
+176   AKC+57.021GEEVVLALK      0.4075      Prosit      -14.7039    1315.7170   ✓       
+177   AKC+57.021DAEVVLALK      0.3995      Prosit      -12.0447    1315.7170   ✓       
+178   AKC+57.021DAEVVLALK      0.3995      Prosit      -13.5873    1315.7170   ✓       
+179   AKC+57.021GQ+0.984EVVLALK0.3988      Prosit      -6.3226     1315.7170   ✓       
+180   AKC+57.021GQ+0.984EVVLALK0.3988      Prosit      -7.8651     1315.7170   ✓       
+181   AKC+57.021GQ+0.984EVVLALK0.3988      Prosit      -8.8691     1315.7170   ✓       
+182   AKC+57.021GQ+0.984EVVLALK0.3988      Prosit      -9.4374     1315.7170   ✓       
+183   AKC+57.021GQ+0.984EVVLALK0.3988      Prosit      -9.5007     1315.7170   ✓       
+184   AKC+57.021GQ+0.984EVVLALK0.3988      Prosit      -9.9051     1315.7170   ✓       
+185   AKC+57.021GQ+0.984EVVLALK0.3988      Prosit      -10.4117    1315.7170   ✓       
+186   AKC+57.021GQ+0.984EVVLALK0.3988      Prosit      -10.9800    1315.7170   ✓       
+187   AKC+57.021GQ+0.984EVVLALK0.3988      Prosit      -11.0433    1315.7170   ✓       
+188   AKC+57.021GQ+0.984EVVLALK0.3988      Prosit      -11.4477    1315.7170   ✓       
+189   AKC+57.021GQ+0.984EVVLALK0.3988      Prosit      -11.9839    1315.7170   ✓       
+190   AKC+57.021GQ+0.984EVVLALK0.3988      Prosit      -12.0473    1315.7170   ✓       
+191   AKC+57.021GQ+0.984EVVLALK0.3988      Prosit      -12.1935    1315.7170   ✓       
+192   AKC+57.021GQ+0.984EVVLALK0.3988      Prosit      -12.4517    1315.7170   ✓       
+193   AKC+57.021GQ+0.984EVVLALK0.3988      Prosit      -12.6156    1315.7170   ✓       
+194   AKC+57.021GQ+0.984EVVLALK0.3988      Prosit      -12.7377    1315.7170   ✓       
+195   AKC+57.021GQ+0.984EVVLALK0.3988      Prosit      -13.0833    1315.7170   ✓       
+196   AKC+57.021GQ+0.984EVVLALK0.3988      Prosit      -13.5265    1315.7170   ✓       
+197   AKC+57.021GQ+0.984EVVLALK0.3988      Prosit      -13.5524    1315.7170   ✓       
+198   AKC+57.021GQ+0.984EVVLALK0.3988      Prosit      -13.5613    1315.7170   ✓       
+199   AKC+57.021GQ+0.984EVVLALK0.3988      Prosit      -13.5898    1315.7170   ✓       
+200   AKC+57.021GQ+0.984EVVLALK0.3988      Prosit      -13.6121    1315.7170   ✓       
+201   AKC+57.021GQ+0.984EVVLALK0.3988      Prosit      -13.7361    1315.7170   ✓       
+202   AKC+57.021GQ+0.984EVVLALK0.3988      Prosit      -13.7888    1315.7170   ✓       
+203   AKC+57.021GQ+0.984EVVLALK0.3988      Prosit      -13.9942    1315.7170   ✓       
+204   AKC+57.021GQ+0.984EVVLALK0.3988      Prosit      -14.1581    1315.7170   ✓       
+205   AKC+57.021ADEVVLALK      0.3959      Prosit      -9.5323     1315.7170   ✓       
+206   AKC+57.021ADEVVLALK      0.3959      Prosit      -11.0749    1315.7170   ✓       
+207   AKC+57.021ADEVVLALK      0.3959      Prosit      -12.0789    1315.7170   ✓       
+208   AKC+57.021ADEVVLALK      0.3959      Prosit      -12.6472    1315.7170   ✓       
+209   AKC+57.021ADEVVLALK      0.3959      Prosit      -12.7105    1315.7170   ✓       
+210   AKC+57.021ADEVVLALK      0.3959      Prosit      -13.1149    1315.7170   ✓       
+211   AKC+57.021ADEVVLALK      0.3959      Prosit      -13.6214    1315.7170   ✓       
+212   AKC+57.021ADEVVLALK      0.3959      Prosit      -14.1897    1315.7170   ✓       
+213   AKC+57.021ADEVVLALK      0.3959      Prosit      -14.2531    1315.7170   ✓       
+214   AKC+57.021AN+0.984EVVLALK0.3928      Prosit      -13.6505    1315.7170   ✓       
+215   AKC+57.021GQ+0.984Q+0.984VVLALK0.3914      Prosit      -12.6464    1315.7170   ✓       
+216   AKC+57.021GQ+0.984Q+0.984VVLALK0.3914      Prosit      -14.1890    1315.7170   ✓       
+217   KC+57.021QEEVVLALK       0.3909      Prosit      -14.5311    1315.7170   ✓       
+218   AQC+57.021GQ+0.984EVVLALK0.3581      Prosit      -13.8298    1315.6806   ✓       
+219   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -3.9661     1301.7013   ✗       
+220   AKGGEEVVLALK             -1.0000     NotChecked  -5.0035     1212.7078   ✗       
+221   KC+57.021GEEVVLALK       -1.0000     NotChecked  -5.3783     1244.6799   ✗       
+222   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -5.5087     1301.7013   ✗       
+223   AKC+57.021GAEVVLALK      -1.0000     NotChecked  -5.9578     1257.7115   ✗       
+224   AKEGEEVVLALK             -1.0000     NotChecked  -6.4890     1284.7289   ✗       
+225   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -6.5126     1301.7013   ✗       
+226   AKGGEEVVLALK             -1.0000     NotChecked  -6.5460     1212.7078   ✗       
+227   KC+57.021GEEVVLALK       -1.0000     NotChecked  -6.9209     1244.6799   ✗       
+228   AKAGEEVVLALK             -1.0000     NotChecked  -6.9231     1226.7234   ✗       
+229   KC+57.021GEEVVLALK       -1.0000     NotChecked  -7.0322     1244.6799   ✗       
+230   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -7.0809     1301.7013   ✗       
+231   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -7.1443     1301.7013   ✗       
+232   AKDGEEVVLALK             -1.0000     NotChecked  -7.2950     1270.7133   ✗       
+233   AKN+0.984GEEVVLALK       -1.0000     NotChecked  -7.3761     1270.7133   ✗       
+234   AKC+57.021GEVVLALK       -1.0000     NotChecked  -7.4591     1186.6744   ✗       
+235   AKC+57.021GAEVVLALK      -1.0000     NotChecked  -7.5004     1257.7115   ✗       
+236   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -7.5487     1301.7013   ✗       
+237   AKGGEEVVLALK             -1.0000     NotChecked  -7.5500     1212.7078   ✗       
+238   AKC+57.021GQEVVLALK      -1.0000     NotChecked  -7.6094     1314.7330   ✗       
+239   AKQGEEVVLALK             -1.0000     NotChecked  -7.7074     1283.7449   ✗       
+240   +43.006KC+57.021GEEVVLALK-1.0000     NotChecked  -7.8933     1287.6857   ✗       
+241   KC+57.021GEEVVLALK       -1.0000     NotChecked  -7.9248     1244.6799   ✗       
+242   AKC+57.021GNEVVLALK      -1.0000     NotChecked  -7.9593     1300.7173   ✗       
+243   AKC+57.021EEVVLALK       -1.0000     NotChecked  -7.9778     1258.6955   ✗       
+244   AQC+57.021GEEVVLALK      -1.0000     Failed      -8.0006     1315.6806   ✓       
+245   AKEGEEVVLALK             -1.0000     NotChecked  -8.0316     1284.7289   ✗       
+246   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -8.0552     1301.7013   ✗       
+247   AKC+57.021GN+0.984EVVLALK-1.0000     NotChecked  -8.0842     1301.7013   ✗       
+248   AKGGEEVVLALK             -1.0000     NotChecked  -8.1183     1212.7078   ✗       
+249   AKNGEEVVLALK             -1.0000     NotChecked  -8.3582     1269.7293   ✗       
+250   AKAGEEVVLALK             -1.0000     NotChecked  -8.4657     1226.7234   ✗       
+251   AQC+57.021GEEVVLALK      -1.0000     Failed      -8.4684     1315.6806   ✓       
+252   AKGGDEVVLALK             -1.0000     NotChecked  -8.4762     1198.6921   ✗       
+253   AKC+57.021GAEVVLALK      -1.0000     NotChecked  -8.5043     1257.7115   ✗       
+254   KC+57.021GEEVVLALK       -1.0000     NotChecked  -8.5565     1244.6799   ✗       
+255   KC+57.021GEEVVLALK       -1.0000     NotChecked  -8.5748     1244.6799   ✗       
+256   AKC+57.021GGEVVLALK      -1.0000     NotChecked  -8.5801     1243.6958   ✗       
+257   AKGGEEVVLALK             -1.0000     NotChecked  -8.5861     1212.7078   ✗       
+258   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -8.6235     1301.7013   ✗       
+259   AKQ+0.984GEEVVLALK       -1.0000     NotChecked  -8.6622     1284.7289   ✗       
+260   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -8.6868     1301.7013   ✗       
+261   AKDGEEVVLALK             -1.0000     NotChecked  -8.8376     1270.7133   ✗       
+262   KC+57.021GDEVVLALK       -1.0000     NotChecked  -8.8510     1230.6642   ✗       
+263   AKN+0.984GEEVVLALK       -1.0000     NotChecked  -8.9187     1270.7133   ✗       
+264   AKC+57.021GEVVLALK       -1.0000     NotChecked  -9.0017     1186.6744   ✗       
+265   AKMGEEVVLALK             -1.0000     NotChecked  -9.0203     1286.7268   ✗       
+266   AKEGEEVVLALK             -1.0000     NotChecked  -9.0355     1284.7289   ✗       
+267   AKC+57.021GAEVVLALK      -1.0000     NotChecked  -9.0726     1257.7115   ✗       
+268   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -9.0912     1301.7013   ✗       
+269   AKGGEEVVLALK             -1.0000     NotChecked  -9.0926     1212.7078   ✗       
+270   AKC+57.021GAEVVLALK      -1.0000     NotChecked  -9.1360     1257.7115   ✗       
+271   AKC+57.021GQEVVLALK      -1.0000     NotChecked  -9.1519     1314.7330   ✗       
+272   AKQGEEVVLALK             -1.0000     NotChecked  -9.2500     1283.7449   ✗       
+273   +43.006KC+57.021GEEVVLALK-1.0000     NotChecked  -9.4358     1287.6857   ✗       
+274   KC+57.021GEEVVLALK       -1.0000     NotChecked  -9.4674     1244.6799   ✗       
+275   AKAGEEVVLALK             -1.0000     NotChecked  -9.4697     1226.7234   ✗       
+276   AKC+57.021GNEVVLALK      -1.0000     NotChecked  -9.5018     1300.7173   ✗       
+277   AKC+57.021EEVVLALK       -1.0000     NotChecked  -9.5204     1258.6955   ✗       
+278   AKC+57.021GAEVVLALK      -1.0000     NotChecked  -9.5404     1257.7115   ✗       
+279   AQC+57.021GEEVVLALK      -1.0000     Failed      -9.5432     1315.6806   ✓       
+280   KC+57.021GEEVVLALK       -1.0000     NotChecked  -9.5788     1244.6799   ✗       
+281   AKEGEEVVLALK             -1.0000     NotChecked  -9.6038     1284.7289   ✗       
+282   AKC+57.021GN+0.984EVVLALK-1.0000     NotChecked  -9.6268     1301.7013   ✗       
+283   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -9.6275     1301.7013   ✗       
+284   AAC+57.021GEEVVLALK      -1.0000     NotChecked  -9.6544     1258.6591   ✗       
+285   AKGGEEVVLALK             -1.0000     NotChecked  -9.6609     1212.7078   ✗       
+286   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -9.6908     1301.7013   ✗       
+287   GKC+57.021GEEVVLALK      -1.0000     NotChecked  -9.7630     1301.7013   ✗       
+288   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -9.8370     1301.7013   ✗       
+289   AKDGEEVVLALK             -1.0000     NotChecked  -9.8415     1270.7133   ✗       
+290   KGGEEVVLALK              -1.0000     NotChecked  -9.8884     1141.6707   ✗       
+291   AKNGEEVVLALK             -1.0000     NotChecked  -9.9008     1269.7293   ✗       
+292   AKN+0.984GEEVVLALK       -1.0000     NotChecked  -9.9227     1270.7133   ✗       
+293   AKEGDEVVLALK             -1.0000     NotChecked  -9.9617     1270.7133   ✗       
+294   AKC+57.021GEVVLALK       -1.0000     NotChecked  -10.0057    1186.6744   ✗       
+295   AQC+57.021GEEVVLALK      -1.0000     Failed      -10.0109    1315.6806   ✓       
+296   AKGGDEVVLALK             -1.0000     NotChecked  -10.0188    1198.6921   ✗       
+297   AKAGEEVVLALK             -1.0000     NotChecked  -10.0380    1226.7234   ✗       
+298   AKC+57.021GAEVVLALK      -1.0000     NotChecked  -10.0469    1257.7115   ✗       
+299   +42.011KC+57.021GEEVVLALK-1.0000     NotChecked  -10.0571    1286.6904   ✗       
+300   AKEGEEVVLALK             -1.0000     NotChecked  -10.0716    1284.7289   ✗       
+301   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -10.0952    1301.7013   ✗       
+302   KC+57.021GEEVVLALK       -1.0000     NotChecked  -10.0990    1244.6799   ✗       
+303   AC+57.021GEEVVLALK       -1.0000     NotChecked  -10.1221    1187.6220   ✗       
+304   AKC+57.021GGEVVLALK      -1.0000     NotChecked  -10.1227    1243.6958   ✗       
+305   AKGGEEVVLALK             -1.0000     NotChecked  -10.1286    1212.7078   ✗       
+306   KC+57.021GEEVVLALK       -1.0000     NotChecked  -10.1471    1244.6799   ✗       
+307   AKC+57.021GQEVVLALK      -1.0000     NotChecked  -10.1559    1314.7330   ✗       
+308   AKQ+0.984GEEVVLALK       -1.0000     NotChecked  -10.2047    1284.7289   ✗       
+309   KC+57.021GEEVVLALK       -1.0000     NotChecked  -10.2104    1244.6799   ✗       
+310   AKC+57.021GEVVLALK       -1.0000     NotChecked  -10.2170    1186.6744   ✗       
+311   AKQGEEVVLALK             -1.0000     NotChecked  -10.2539    1283.7449   ✗       
+312   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -10.2591    1301.7013   ✗       
+313   AKC+57.021GDQ+0.984VVLALK-1.0000     NotChecked  -10.2900    1301.7013   ✗       
+314   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -10.3812    1301.7013   ✗       
+315   KC+57.021GDEVVLALK       -1.0000     NotChecked  -10.3936    1230.6642   ✗       
+316   AKAGDEVVLALK             -1.0000     NotChecked  -10.3959    1212.7078   ✗       
+317   AKDGEEVVLALK             -1.0000     NotChecked  -10.4098    1270.7133   ✗       
+318   +43.006KC+57.021GEEVVLALK-1.0000     NotChecked  -10.4398    1287.6857   ✗       
+319   AKGGAEVVLALK             -1.0000     NotChecked  -10.4679    1154.7023   ✗       
+320   AKN+0.984GEEVVLALK       -1.0000     NotChecked  -10.4910    1270.7133   ✗       
+321   KC+57.021GDEVVLALK       -1.0000     NotChecked  -10.5050    1230.6642   ✗       
+322   AKAGEEVVLALK             -1.0000     NotChecked  -10.5057    1226.7234   ✗       
+323   AKC+57.021GNEVVLALK      -1.0000     NotChecked  -10.5058    1300.7173   ✗       
+324   AKC+57.021EEVVLALK       -1.0000     NotChecked  -10.5244    1258.6955   ✗       
+325   AQC+57.021GEEVVLALK      -1.0000     Failed      -10.5471    1315.6806   ✓       
+326   AKMGEEVVLALK             -1.0000     NotChecked  -10.5629    1286.7268   ✗       
+327   AKGAEEVVLALK             -1.0000     NotChecked  -10.5697    1226.7234   ✗       
+328   AKC+57.021GEVVLALK       -1.0000     NotChecked  -10.5740    1186.6744   ✗       
+329   AKEGEEVVLALK             -1.0000     NotChecked  -10.5781    1284.7289   ✗       
+330   AKC+57.021GAEVVLALK      -1.0000     NotChecked  -10.6152    1257.7115   ✗       
+331   AKC+57.021GN+0.984EVVLALK-1.0000     NotChecked  -10.6307    1301.7013   ✗       
+332   AKC+57.021GEVVLALK       -1.0000     NotChecked  -10.6373    1186.6744   ✗       
+333   AKGGEEVVLALK             -1.0000     NotChecked  -10.6648    1212.7078   ✗       
+334   AKC+57.021GAEVVLALK      -1.0000     NotChecked  -10.6785    1257.7115   ✗       
+335   AKC+57.021GQEVVLALK      -1.0000     NotChecked  -10.7242    1314.7330   ✗       
+336   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -10.7268    1301.7013   ✗       
+337   AKDGDEVVLALK             -1.0000     NotChecked  -10.7677    1256.6976   ✗       
+338   AKC+57.021GQEVVLALK      -1.0000     NotChecked  -10.7875    1314.7330   ✗       
+339   AKQGEEVVLALK             -1.0000     NotChecked  -10.8222    1283.7449   ✗       
+340   AKGGQ+0.984EVVLALK       -1.0000     NotChecked  -10.8327    1212.7078   ✗       
+341   KC+57.021GAEVVLALK       -1.0000     NotChecked  -10.8428    1186.6744   ✗       
+342   AKN+0.984GDEVVLALK       -1.0000     NotChecked  -10.8489    1256.6976   ✗       
+343   AKGGEEVVLALK             -1.0000     NotChecked  -10.8744    1212.7078   ✗       
+344   AKDGEEVVLALK             -1.0000     NotChecked  -10.8776    1270.7133   ✗       
+345   AKNGEEVVLALK             -1.0000     NotChecked  -10.9048    1269.7293   ✗       
+346   KC+57.021AEEVVLALK       -1.0000     NotChecked  -10.9446    1258.6955   ✗       
+347   AKN+0.984GEEVVLALK       -1.0000     NotChecked  -10.9587    1270.7133   ✗       
+348   +43.006KC+57.021GEEVVLALK-1.0000     NotChecked  -11.0081    1287.6857   ✗       
+349   AKAGEEVVLALK             -1.0000     NotChecked  -11.0122    1226.7234   ✗       
+350   AQC+57.021GEEVVLALK      -1.0000     Failed      -11.0149    1315.6806   ✓       
+351   AKGGDEVVLALK             -1.0000     NotChecked  -11.0228    1198.6921   ✗       
+352   AKC+57.021GEVVLALK       -1.0000     NotChecked  -11.0417    1186.6744   ✗       
+353   AKAGGEEVVLALK            -1.0000     NotChecked  -11.0497    1283.7449   ✗       
+354   +43.006KC+57.021GEEVVLALK-1.0000     NotChecked  -11.0714    1287.6857   ✗       
+355   AKC+57.021GNEVVLALK      -1.0000     NotChecked  -11.0741    1300.7173   ✗       
+356   AC+57.021GEEVVLALK       -1.0000     NotChecked  -11.0744    1187.6220   ✗       
+357   AKC+57.021GAEVVLALK      -1.0000     NotChecked  -11.0829    1257.7115   ✗       
+358   AKGDEEVVLALK             -1.0000     NotChecked  -11.0904    1270.7133   ✗       
+359   AKC+57.021EEVVLALK       -1.0000     NotChecked  -11.0927    1258.6955   ✗       
+360   KC+57.021GEEVVLALK       -1.0000     NotChecked  -11.1030    1244.6799   ✗       
+361   KC+57.021GEEVVLALK       -1.0000     NotChecked  -11.1213    1244.6799   ✗       
+362   AKC+57.021GGEVVLALK      -1.0000     NotChecked  -11.1267    1243.6958   ✗       
+363   AKGGEEVVLALK             -1.0000     NotChecked  -11.1326    1212.7078   ✗       
+364   AKC+57.021GNEVVLALK      -1.0000     NotChecked  -11.1374    1300.7173   ✗       
+365   AKEGEEVVLALK             -1.0000     NotChecked  -11.1464    1284.7289   ✗       
+366   AKC+57.021EEVVLALK       -1.0000     NotChecked  -11.1560    1258.6955   ✗       
+367   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -11.1700    1301.7013   ✗       
+368   AQC+57.021GEEVVLALK      -1.0000     Failed      -11.1788    1315.6806   ✓       
+369   AKQGDEVVLALK             -1.0000     NotChecked  -11.1802    1269.7293   ✗       
+370   AKC+57.021GQEVVLALK      -1.0000     NotChecked  -11.1919    1314.7330   ✗       
+371   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -11.1960    1301.7013   ✗       
+372   AAC+57.021GEEVVLALK      -1.0000     NotChecked  -11.1969    1258.6591   ✗       
+373   AKC+57.021GN+0.984EVVLALK-1.0000     NotChecked  -11.1990    1301.7013   ✗       
+374   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -11.2048    1301.7013   ✗       
+375   KC+57.021GQ+0.984EVVLALK -1.0000     NotChecked  -11.2075    1244.6799   ✗       
+376   AKQ+0.984GEEVVLALK       -1.0000     NotChecked  -11.2087    1284.7289   ✗       
+377   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -11.2334    1301.7013   ✗       
+378   KC+57.021GEEVVLALK       -1.0000     NotChecked  -11.2492    1244.6799   ✗       
+379   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -11.2556    1301.7013   ✗       
+380   AKC+57.021GN+0.984EVVLALK-1.0000     NotChecked  -11.2624    1301.7013   ✗       
+381   AKQGEEVVLALK             -1.0000     NotChecked  -11.2900    1283.7449   ✗       
+382   GKC+57.021GEEVVLALK      -1.0000     NotChecked  -11.3055    1301.7013   ✗       
+383   AKGGEQ+0.984VVLALK       -1.0000     NotChecked  -11.3274    1212.7078   ✗       
+384   +43.006KC+57.021GDEVVLALK-1.0000     NotChecked  -11.3660    1273.6700   ✗       
+385   KEGEEVVLALK              -1.0000     NotChecked  -11.3739    1213.6918   ✗       
+386   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -11.3796    1301.7013   ✗       
+387   AKDGEEVVLALK             -1.0000     NotChecked  -11.3841    1270.7133   ✗       
+388   KC+57.021GDEVVLALK       -1.0000     NotChecked  -11.3976    1230.6642   ✗       
+389   AKGGEEVVLALK             -1.0000     NotChecked  -11.4186    1212.7078   ✗       
+390   KGGEEVVLALK              -1.0000     NotChecked  -11.4310    1141.6707   ✗       
+391   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -11.4324    1301.7013   ✗       
+392   AKC+57.021DEVVLALK       -1.0000     NotChecked  -11.4506    1244.6799   ✗       
+393   AKC+57.021GEEAVLALK      -1.0000     NotChecked  -11.4576    1287.6857   ✗       
+394   KC+57.021DEEVVLALK       -1.0000     NotChecked  -11.4652    1302.6853   ✗       
+395   AKN+0.984GEEVVLALK       -1.0000     NotChecked  -11.4652    1270.7133   ✗       
+396   AKNGEEVVLALK             -1.0000     NotChecked  -11.4731    1269.7293   ✗       
+397   AQC+57.021GDEVVLALK      -1.0000     NotChecked  -11.4733    1301.6649   ✗       
+398   AKC+57.021GEEVLALK       -1.0000     NotChecked  -11.4808    1216.6486   ✗       
+399   AKEGDEVVLALK             -1.0000     NotChecked  -11.5043    1270.7133   ✗       
+400   AKC+57.021AAEVVLALK      -1.0000     NotChecked  -11.5241    1271.7271   ✗       
+401   AKC+57.021GNEVVLALK      -1.0000     NotChecked  -11.5418    1300.7173   ✗       
+402   AC+57.021GEEVVLALK       -1.0000     NotChecked  -11.5422    1187.6220   ✗       
+403   KGGEEVVLALK              -1.0000     NotChecked  -11.5424    1141.6707   ✗       
+404   AKC+57.021GEVVLALK       -1.0000     NotChecked  -11.5482    1186.6744   ✗       
+405   AKC+57.021EEVVLALK       -1.0000     NotChecked  -11.5604    1258.6955   ✗       
+406   AKMGEEVVLALK             -1.0000     NotChecked  -11.5669    1286.7268   ✗       
+407   AKAGEEVVLALK             -1.0000     NotChecked  -11.5805    1226.7234   ✗       
+408   AKGEEEVVLALK             -1.0000     NotChecked  -11.5811    1284.7289   ✗       
+409   AKGGDEVVLALK             -1.0000     NotChecked  -11.5911    1198.6921   ✗       
+410   +42.011KC+57.021GEEVVLALK-1.0000     NotChecked  -11.5996    1286.6904   ✗       
+411   AKEGEEVVLALK             -1.0000     NotChecked  -11.6141    1284.7289   ✗       
+412   AKC+57.021GAEVVLALK      -1.0000     NotChecked  -11.6192    1257.7115   ✗       
+413   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -11.6378    1301.7013   ✗       
+414   AQC+57.021GEEVVLALK      -1.0000     Failed      -11.6465    1315.6806   ✓       
+415   AC+57.021GEEVVLALK       -1.0000     NotChecked  -11.6647    1187.6220   ✗       
+416   AKC+57.021GN+0.984EVVLALK-1.0000     NotChecked  -11.6668    1301.7013   ✗       
+417   AKC+57.021GAEVVLALK      -1.0000     NotChecked  -11.6825    1257.7115   ✗       
+418   AKC+57.021GEQVVLALK      -1.0000     NotChecked  -11.6882    1314.7330   ✗       
+419   KC+57.021GEEVVLALK       -1.0000     NotChecked  -11.6896    1244.6799   ✗       
+420   AKC+57.021GGEVVLALK      -1.0000     NotChecked  -11.6950    1243.6958   ✗       
+421   AKC+57.021GQEVVLALK      -1.0000     NotChecked  -11.6985    1314.7330   ✗       
+422   KC+57.021GEQ+0.984VVLALK -1.0000     NotChecked  -11.7022    1244.6799   ✗       
+423   KC+57.021GEEVVLALK       -1.0000     NotChecked  -11.7530    1244.6799   ✗       
+424   AKC+57.021GGEVVLALK      -1.0000     NotChecked  -11.7583    1243.6958   ✗       
+425   AKC+57.021GEVVLALK       -1.0000     NotChecked  -11.7596    1186.6744   ✗       
+426   AKQ+0.984GEEVVLALK       -1.0000     NotChecked  -11.7770    1284.7289   ✗       
+427   KC+57.021GEEVVLALK       -1.0000     NotChecked  -11.7934    1244.6799   ✗       
+428   AKQGEEVVLALK             -1.0000     NotChecked  -11.7965    1283.7449   ✗       
+429   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -11.8017    1301.7013   ✗       
+430   KAGEEVVLALK              -1.0000     NotChecked  -11.8081    1155.6863   ✗       
+431   AKGGEELVLALK             -1.0000     NotChecked  -11.8196    1226.7234   ✗       
+432   AKC+57.021GAEVVLALK      -1.0000     NotChecked  -11.8287    1257.7115   ✗       
+433   AKNGDEVVLALK             -1.0000     NotChecked  -11.8310    1255.7136   ✗       
+434   AKC+57.021GDQ+0.984VVLALK-1.0000     NotChecked  -11.8325    1301.7013   ✗       
+435   AKQC+57.021GEVVLALK      -1.0000     NotChecked  -11.8516    1314.7330   ✗       
+436   AKGGC+57.021EVVLALK      -1.0000     NotChecked  -11.9066    1243.6958   ✗       
+437   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -11.9238    1301.7013   ✗       
+438   AKAGDEVVLALK             -1.0000     NotChecked  -11.9384    1212.7078   ✗       
+439   AKNGEEVVLALK             -1.0000     NotChecked  -11.9408    1269.7293   ✗       
+440   AQC+57.021GDEVVLALK      -1.0000     NotChecked  -11.9411    1301.6649   ✗       
+441   AKDGEEVVLALK             -1.0000     NotChecked  -11.9524    1270.7133   ✗       
+442   AKEGAEVVLALK             -1.0000     NotChecked  -11.9534    1226.7234   ✗       
+443   AKGGEVVLALK              -1.0000     NotChecked  -11.9693    1083.6652   ✗       
+444   +43.006KC+57.021GEEVVLALK-1.0000     NotChecked  -11.9823    1287.6857   ✗       
+445   AKGGAEVVLALK             -1.0000     NotChecked  -12.0105    1154.7023   ✗       
+446   KC+57.021GDEVVLALK       -1.0000     NotChecked  -12.0292    1230.6642   ✗       
+447   AKN+0.984GEEVVLALK       -1.0000     NotChecked  -12.0335    1270.7133   ✗       
+448   KC+57.021GDEVVLALK       -1.0000     NotChecked  -12.0475    1230.6642   ✗       
+449   AKAGEEVVLALK             -1.0000     NotChecked  -12.0483    1226.7234   ✗       
+450   AKC+57.021GNEVVLALK      -1.0000     NotChecked  -12.0484    1300.7173   ✗       
+451   AKEAEEVVLALK             -1.0000     NotChecked  -12.0552    1298.7446   ✗       
+452   AKGGDEVVLALK             -1.0000     NotChecked  -12.0588    1198.6921   ✗       
+453   AKC+57.021EEVVLALK       -1.0000     NotChecked  -12.0669    1258.6955   ✗       
+454   AKC+57.021GAEVVLALK      -1.0000     NotChecked  -12.0869    1257.7115   ✗       
+455   AQC+57.021GEEVVLALK      -1.0000     Failed      -12.0897    1315.6806   ✓       
+456   AKGAEEVVLALK             -1.0000     NotChecked  -12.1123    1226.7234   ✗       
+457   AKC+57.021GEVVLALK       -1.0000     NotChecked  -12.1165    1186.6744   ✗       
+458   AKGGQEVVLALK             -1.0000     NotChecked  -12.1195    1211.7238   ✗       
+459   AKQ+0.984GDEVVLALK       -1.0000     NotChecked  -12.1349    1270.7133   ✗       
+460   AKMGEEVVLALK             -1.0000     NotChecked  -12.1352    1286.7268   ✗       
+461   AKEGEEVVLALK             -1.0000     NotChecked  -12.1504    1284.7289   ✗       
+462   AKC+57.021GGEVVLALK      -1.0000     NotChecked  -12.1627    1243.6958   ✗       
+463   AKC+57.021GN+0.984EVVLALK-1.0000     NotChecked  -12.1733    1301.7013   ✗       
+464   AKC+57.021GEVVLALK       -1.0000     NotChecked  -12.1799    1186.6744   ✗       
+465   KDGEEVVLALK              -1.0000     NotChecked  -12.1800    1199.6762   ✗       
+466   KC+57.021GEELVLALK       -1.0000     NotChecked  -12.1944    1258.6955   ✗       
+467   AAC+57.021GEEVVLALK      -1.0000     NotChecked  -12.2009    1258.6591   ✗       
+468   AKGGEEVVLALK             -1.0000     NotChecked  -12.2074    1212.7078   ✗       
+469   AKGGEEVVLALK             -1.0000     NotChecked  -12.2334    1212.7078   ✗       
+470   AKGGEEVVLALK             -1.0000     NotChecked  -12.2422    1212.7078   ✗       
+471   AKQ+0.984GEEVVLALK       -1.0000     NotChecked  -12.2448    1284.7289   ✗       
+472   AKC+57.021GAEVVLALK      -1.0000     NotChecked  -12.2508    1257.7115   ✗       
+473   KN+0.984GEEVVLALK        -1.0000     NotChecked  -12.2611    1199.6762   ✗       
+474   AKC+57.021GQEVVLALK      -1.0000     NotChecked  -12.2668    1314.7330   ✗       
+475   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -12.2694    1301.7013   ✗       
+476   KC+57.021GC+57.021EVVLALK-1.0000     NotChecked  -12.2815    1275.6679   ✗       
+477   AKC+57.021GAQ+0.984VVLALK-1.0000     NotChecked  -12.2817    1257.7115   ✗       
+478   GKC+57.021GEEVVLALK      -1.0000     NotChecked  -12.3095    1301.7013   ✗       
+479   AKDGDEVVLALK             -1.0000     NotChecked  -12.3103    1256.6976   ✗       
+480   AKEGQ+0.984EVVLALK       -1.0000     NotChecked  -12.3182    1284.7289   ✗       
+481   AKC+57.021GQEVVLALK      -1.0000     NotChecked  -12.3301    1314.7330   ✗       
+482   KC+57.021GEVVLALK        -1.0000     NotChecked  -12.3441    1115.6373   ✗       
+483   AKEGEEVVLALK             -1.0000     NotChecked  -12.3599    1284.7289   ✗       
+484   AKQGEEVVLALK             -1.0000     NotChecked  -12.3648    1283.7449   ✗       
+485   AKC+57.021GAEVVLALK      -1.0000     NotChecked  -12.3729    1257.7115   ✗       
+486   AKGGQ+0.984EVVLALK       -1.0000     NotChecked  -12.3753    1212.7078   ✗       
+487   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -12.3836    1301.7013   ✗       
+488   KC+57.021GAEVVLALK       -1.0000     NotChecked  -12.3853    1186.6744   ✗       
+489   AKAGAEVVLALK             -1.0000     NotChecked  -12.3876    1168.7180   ✗       
+490   AKN+0.984GDEVVLALK       -1.0000     NotChecked  -12.3914    1256.6976   ✗       
+491   +43.006KGGEEVVLALK       -1.0000     NotChecked  -12.4034    1184.6765   ✗       
+492   AKGGEEVVLALK             -1.0000     NotChecked  -12.4170    1212.7078   ✗       
+493   AKDGEEVVLALK             -1.0000     NotChecked  -12.4201    1270.7133   ✗       
+494   KGGEEVVLALK              -1.0000     NotChecked  -12.4350    1141.6707   ✗       
+495   AKNGEEVVLALK             -1.0000     NotChecked  -12.4473    1269.7293   ✗       
+496   AKGGNEVVLALK             -1.0000     NotChecked  -12.4694    1197.7081   ✗       
+497   AKGGEEVVLALK             -1.0000     NotChecked  -12.4698    1212.7078   ✗       
+498   KC+57.021AEEVVLALK       -1.0000     NotChecked  -12.4871    1258.6955   ✗       
+499   AKGEEVVLALK              -1.0000     NotChecked  -12.4880    1155.6863   ✗       
+500   AKAAEEVVLALK             -1.0000     NotChecked  -12.4894    1240.7391   ✗       
+501   AKMGDEVVLALK             -1.0000     NotChecked  -12.4931    1272.7112   ✗       
+502   KC+57.021GQEVVLALK       -1.0000     NotChecked  -12.4943    1243.6958   ✗       
+503   KC+57.021GAEVVLALK       -1.0000     NotChecked  -12.4967    1186.6744   ✗       
+504   AKN+0.984GEEVVLALK       -1.0000     NotChecked  -12.5013    1270.7133   ✗       
+505   AKC+57.021C+57.021EVVLALK-1.0000     NotChecked  -12.5032    1289.6836   ✗       
+506   AKEGDEVVLALK             -1.0000     NotChecked  -12.5083    1270.7133   ✗       
+507   AQGGEEVVLALK             -1.0000     NotChecked  -12.5107    1212.6714   ✗       
+508   +43.006KC+57.021GEEVVLALK-1.0000     NotChecked  -12.5506    1287.6857   ✗       
+509   AQC+57.021GEEVVLALK      -1.0000     Failed      -12.5575    1315.6806   ✓       
+510   AKGGDEVVLALK             -1.0000     NotChecked  -12.5653    1198.6921   ✗       
+511   AKC+57.021GEVVLALK       -1.0000     NotChecked  -12.5843    1186.6744   ✗       
+512   AKAGEEVVLALK             -1.0000     NotChecked  -12.5845    1226.7234   ✗       
+513   AKAGGEEVVLALK            -1.0000     NotChecked  -12.5922    1283.7449   ✗       
+514   KQGEEVVLALK              -1.0000     NotChecked  -12.5924    1212.7078   ✗       
+515   AKGGN+0.984EVVLALK       -1.0000     NotChecked  -12.5943    1198.6921   ✗       
+516   KC+57.021AEEVVLALK       -1.0000     NotChecked  -12.5985    1258.6955   ✗       
+517   AKMGEEVVLALK             -1.0000     NotChecked  -12.6029    1286.7268   ✗       
+518   +42.011KC+57.021GEEVVLALK-1.0000     NotChecked  -12.6036    1286.6904   ✗       
+519   KC+57.021GEEVVLALK       -1.0000     NotChecked  -12.6082    1244.6799   ✗       
+520   +43.006KC+57.021GEEVVLALK-1.0000     NotChecked  -12.6140    1287.6857   ✗       
+521   AKC+57.021GNEVVLALK      -1.0000     NotChecked  -12.6167    1300.7173   ✗       
+522   AC+57.021GEEVVLALK       -1.0000     NotChecked  -12.6170    1187.6220   ✗       
+523   KC+57.021GEEVVLALK       -1.0000     NotChecked  -12.6171    1244.6799   ✗       
+524   AKEGEEVVLALK             -1.0000     NotChecked  -12.6181    1284.7289   ✗       
+525   AKGDEEVVLALK             -1.0000     NotChecked  -12.6329    1270.7133   ✗       
+526   AKC+57.021EEVVLALK       -1.0000     NotChecked  -12.6352    1258.6955   ✗       
+527   KC+57.021GEEVVLALK       -1.0000     NotChecked  -12.6456    1244.6799   ✗       
+528   KC+57.021GEEVVLALK       -1.0000     NotChecked  -12.6678    1244.6799   ✗       
+529   AC+57.021GEEVVLALK       -1.0000     NotChecked  -12.6686    1187.6220   ✗       
+530   AKC+57.021GGEVVLALK      -1.0000     NotChecked  -12.6692    1243.6958   ✗       
+531   AKGGEEVVLALK             -1.0000     NotChecked  -12.6752    1212.7078   ✗       
+532   AKC+57.021GNEVVLALK      -1.0000     NotChecked  -12.6800    1300.7173   ✗       
+533   KC+57.021GEEVVLALK       -1.0000     NotChecked  -12.6936    1244.6799   ✗       
+534   AKC+57.021EEVVLALK       -1.0000     NotChecked  -12.6986    1258.6955   ✗       
+535   AKC+57.021GEAVVLALK      -1.0000     NotChecked  -12.7077    1257.7115   ✗       
+536   AKC+57.021GAEVVLALK      -1.0000     NotChecked  -12.7186    1257.7115   ✗       
+537   AKC+57.021GEDVVLALK      -1.0000     NotChecked  -12.7209    1301.7013   ✗       
+538   AQC+57.021GEEVVLALK      -1.0000     Failed      -12.7213    1315.6806   ✓       
+539   AKQGDEVVLALK             -1.0000     NotChecked  -12.7227    1269.7293   ✗       
+540   AKC+57.021GQEVVLALK      -1.0000     NotChecked  -12.7345    1314.7330   ✗       
+541   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -12.7385    1301.7013   ✗       
+542   AKC+57.021GN+0.984EVVLALK-1.0000     NotChecked  -12.7416    1301.7013   ✗       
+543   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -12.7474    1301.7013   ✗       
+544   KC+57.021GQ+0.984EVVLALK -1.0000     NotChecked  -12.7501    1244.6799   ✗       
+545   AKQ+0.984GEEVVLALK       -1.0000     NotChecked  -12.7513    1284.7289   ✗       
+546   AKAGQ+0.984EVVLALK       -1.0000     NotChecked  -12.7523    1226.7234   ✗       
+547   KC+57.021GEEVVLALK       -1.0000     NotChecked  -12.7569    1244.6799   ✗       
+548   AKDGAEVVLALK             -1.0000     NotChecked  -12.7595    1212.7078   ✗       
+549   AKC+57.021GAELVLALK      -1.0000     NotChecked  -12.7739    1271.7271   ✗       
+550   ALC+57.021GEEVVLALK      -1.0000     NotChecked  -12.7767    1300.7061   ✗       
+551   KC+57.021GEEVVLALK       -1.0000     NotChecked  -12.7918    1244.6799   ✗       
+552   AKAGEEVVLALK             -1.0000     NotChecked  -12.7941    1226.7234   ✗       
+553   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -12.7982    1301.7013   ✗       
+554   AKC+57.021GN+0.984EVVLALK-1.0000     NotChecked  -12.8049    1301.7013   ✗       
+555   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -12.8056    1301.7013   ✗       
+556   AKC+57.021GEEVVLAAK      -1.0000     NotChecked  -12.8069    1273.6700   ✗       
+557   AKEGEQ+0.984VVLALK       -1.0000     NotChecked  -12.8129    1284.7289   ✗       
+558   AAC+57.021GEEVVLALK      -1.0000     NotChecked  -12.8325    1258.6591   ✗       
+559   AKQGEEVVLALK             -1.0000     NotChecked  -12.8326    1283.7449   ✗       
+560   AKN+0.984GAEVVLALK       -1.0000     NotChecked  -12.8406    1212.7078   ✗       
+561   KC+57.021GNEVVLALK       -1.0000     NotChecked  -12.8442    1229.6802   ✗       
+562   KC+57.021GEEVVLALK       -1.0000     NotChecked  -12.8446    1244.6799   ✗       
+563   AKDAEEVVLALK             -1.0000     NotChecked  -12.8613    1284.7289   ✗       
+564   KC+57.021GQ+0.984EVVLALK -1.0000     NotChecked  -12.8615    1244.6799   ✗       
+565   KC+57.021EEVVLALK        -1.0000     NotChecked  -12.8628    1187.6584   ✗       
+566   AKGGEQ+0.984VVLALK       -1.0000     NotChecked  -12.8699    1212.7078   ✗       
+567   GKC+57.021GEEVVLALK      -1.0000     NotChecked  -12.8778    1301.7013   ✗       
+568   KC+57.021GEEVVLALK       -1.0000     NotChecked  -12.9032    1244.6799   ✗       
+569   AKEGEEVVLALK             -1.0000     NotChecked  -12.9041    1284.7289   ✗       
+570   +43.006KC+57.021GDEVVLALK-1.0000     NotChecked  -12.9086    1273.6700   ✗       
+571   KEGEEVVLALK              -1.0000     NotChecked  -12.9165    1213.6918   ✗       
+572   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -12.9277    1301.7013   ✗       
+573   KC+57.021GDEVVLALK       -1.0000     NotChecked  -12.9401    1230.6642   ✗       
+574   GKC+57.021GEEVVLALK      -1.0000     NotChecked  -12.9412    1301.7013   ✗       
+575   AKN+0.984AEEVVLALK       -1.0000     NotChecked  -12.9424    1284.7289   ✗       
+576   AKAGDEVVLALK             -1.0000     NotChecked  -12.9424    1212.7078   ✗       
+577   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -12.9519    1301.7013   ✗       
+578   AKDGEEVVLALK             -1.0000     NotChecked  -12.9564    1270.7133   ✗       
+579   AKGGEEVVLALK             -1.0000     NotChecked  -12.9611    1212.7078   ✗       
+580   KC+57.021GN+0.984EVVLALK -1.0000     NotChecked  -12.9692    1230.6642   ✗       
+581   AKAAGEEVVLALK            -1.0000     NotChecked  -12.9693    1297.7606   ✗       
+582   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -12.9749    1301.7013   ✗       
+583   AQGGEEVVLALK             -1.0000     NotChecked  -12.9785    1212.6714   ✗       
+584   AKC+57.021DEVVLALK       -1.0000     NotChecked  -12.9931    1244.6799   ✗       
+585   AKC+57.021GEEAVLALK      -1.0000     NotChecked  -13.0001    1287.6857   ✗       
+586   KKGGEEVVLALK             -1.0000     NotChecked  -13.0033    1269.7656   ✗       
+587   KC+57.021DEEVVLALK       -1.0000     NotChecked  -13.0078    1302.6853   ✗       
+588   AKADEEVVLALK             -1.0000     NotChecked  -13.0100    1284.7289   ✗       
+589   AKGGAEVVLALK             -1.0000     NotChecked  -13.0145    1154.7023   ✗       
+590   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -13.0152    1301.7013   ✗       
+591   AKNGEEVVLALK             -1.0000     NotChecked  -13.0156    1269.7293   ✗       
+592   AQC+57.021GDEVVLALK      -1.0000     NotChecked  -13.0159    1301.6649   ✗       
+593   AKC+57.021GEEVLALK       -1.0000     NotChecked  -13.0233    1216.6486   ✗       
+594   AKC+57.021AEVVLALK       -1.0000     NotChecked  -13.0254    1200.6900   ✗       
+595   KEGEEVVLALK              -1.0000     NotChecked  -13.0279    1213.6918   ✗       
+596   AKN+0.984GEEVVLALK       -1.0000     NotChecked  -13.0375    1270.7133   ✗       
+597   KC+57.021GDEVVLALK       -1.0000     NotChecked  -13.0515    1230.6642   ✗       
+598   AKAGEEVVLALK             -1.0000     NotChecked  -13.0522    1226.7234   ✗       
+599   KGC+57.021GEEVVLALK      -1.0000     NotChecked  -13.0666    1301.7013   ✗       
+600   AKC+57.021AAEVVLALK      -1.0000     NotChecked  -13.0666    1271.7271   ✗       
+601   AKEGDEVVLALK             -1.0000     NotChecked  -13.0766    1270.7133   ✗       
+602   AKC+57.021GNEVVLALK      -1.0000     NotChecked  -13.0844    1300.7173   ✗       
+603   AC+57.021GEEVVLALK       -1.0000     NotChecked  -13.0848    1187.6220   ✗       
+604   KGGEEVVLALK              -1.0000     NotChecked  -13.0849    1141.6707   ✗       
+605   AKGGGEVVLALK             -1.0000     NotChecked  -13.0903    1140.6867   ✗       
+606   AKC+57.021EEVVLALK       -1.0000     NotChecked  -13.1030    1258.6955   ✗       
+607   AKMGEEVVLALK             -1.0000     NotChecked  -13.1094    1286.7268   ✗       
+608   AKGAEEVVLALK             -1.0000     NotChecked  -13.1163    1226.7234   ✗       
+609   KC+57.021DEEVVLALK       -1.0000     NotChecked  -13.1191    1302.6853   ✗       
+610   AKC+57.021GEVVLALK       -1.0000     NotChecked  -13.1205    1186.6744   ✗       
+611   AKGEEEVVLALK             -1.0000     NotChecked  -13.1237    1284.7289   ✗       
+612   AKDGQ+0.984EVVLALK       -1.0000     NotChecked  -13.1242    1270.7133   ✗       
+613   AAC+57.021GDEVVLALK      -1.0000     NotChecked  -13.1271    1244.6435   ✗       
+614   AKGGDEVVLALK             -1.0000     NotChecked  -13.1336    1198.6921   ✗       
+615   AKGNEEVVLALK             -1.0000     NotChecked  -13.1466    1269.7293   ✗       
+616   AKC+57.021GAEVVLALK      -1.0000     NotChecked  -13.1617    1257.7115   ✗       
+617   AKDGEEVVLALK             -1.0000     NotChecked  -13.1659    1270.7133   ✗       
+618   AKQGAEVVLALK             -1.0000     NotChecked  -13.1719    1225.7394   ✗       
+619   +42.011KC+57.021GEEVVLALK-1.0000     NotChecked  -13.1719    1286.6904   ✗       
+620   AKC+57.021GEVVLALK       -1.0000     NotChecked  -13.1838    1186.6744   ✗       
+621   AKC+57.021GAEVVLALK      -1.0000     NotChecked  -13.1877    1257.7115   ✗       
+622   AQC+57.021GEEVVLALK      -1.0000     Failed      -13.1891    1315.6806   ✓       
+623   LKGGEEVVLALK             -1.0000     NotChecked  -13.1912    1254.7547   ✗       
+624   AKC+57.021GAEVVLALK      -1.0000     NotChecked  -13.1966    1257.7115   ✗       
+625   AKN+0.984GQ+0.984EVVLALK -1.0000     NotChecked  -13.2054    1270.7133   ✗       
+626   AKC+57.021GN+0.984EVVLALK-1.0000     NotChecked  -13.2093    1301.7013   ✗       
+627   AKC+57.021GEKVVLALK      -1.0000     NotChecked  -13.2242    1314.7693   ✗       
+628   AKC+57.021GAEVVLALK      -1.0000     NotChecked  -13.2251    1257.7115   ✗       
+629   AKC+57.021GEQVVLALK      -1.0000     NotChecked  -13.2308    1314.7330   ✗       
+630   +42.011KC+57.021GEEVVLALK-1.0000     NotChecked  -13.2352    1286.6904   ✗       
+631   GKC+57.021GDEVVLALK      -1.0000     NotChecked  -13.2357    1287.6857   ✗       
+632   AKC+57.021GGEVVLALK      -1.0000     NotChecked  -13.2375    1243.6958   ✗       
+633   KNGEEVVLALK              -1.0000     NotChecked  -13.2432    1198.6921   ✗       
+634   ALC+57.021GEEVVLALK      -1.0000     NotChecked  -13.2444    1300.7061   ✗       
+635   KC+57.021GEQ+0.984VVLALK -1.0000     NotChecked  -13.2447    1244.6799   ✗       
+636   AKAGEQ+0.984VVLALK       -1.0000     NotChecked  -13.2470    1226.7234   ✗       
+637   AKN+0.984GEEVVLALK       -1.0000     NotChecked  -13.2471    1270.7133   ✗       
+638   AKC+57.021GAEVVLALK      -1.0000     NotChecked  -13.2473    1257.7115   ✗       
+639   AKC+57.021GEEVVLAK       -1.0000     NotChecked  -13.2576    1202.6329   ✗       
+640   AKC+57.021GQEVVLALK      -1.0000     NotChecked  -13.2707    1314.7330   ✗       
+641   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -13.2734    1301.7013   ✗       
+642   AKQAEEVVLALK             -1.0000     NotChecked  -13.2737    1297.7606   ✗       
+643   AC+57.021GEEVVLALK       -1.0000     NotChecked  -13.3003    1187.6220   ✗       
+644   AKC+57.021GGEVVLALK      -1.0000     NotChecked  -13.3009    1243.6958   ✗       
+645   AKEGEELVLALK             -1.0000     NotChecked  -13.3051    1298.7446   ✗       
+646   AKDGDEVVLALK             -1.0000     NotChecked  -13.3143    1256.6976   ✗       
+647   AKQ+0.984GEEVVLALK       -1.0000     NotChecked  -13.3196    1284.7289   ✗       
+648   KC+57.021GEEVVLALK       -1.0000     NotChecked  -13.3252    1244.6799   ✗       
+649   AKC+57.021GEVVLALK       -1.0000     NotChecked  -13.3301    1186.6744   ✗       
+650   AKC+57.021GEVVLALK       -1.0000     NotChecked  -13.3318    1186.6744   ✗       
+651   AKC+57.021GQEVVLALK      -1.0000     NotChecked  -13.3341    1314.7330   ✗       
+652   KC+57.021GEEVVLALK       -1.0000     NotChecked  -13.3360    1244.6799   ✗       
+653   AKAGEEVVLALK             -1.0000     NotChecked  -13.3382    1226.7234   ✗       
+654   AVC+57.021GEEVVLALK      -1.0000     NotChecked  -13.3463    1286.6904   ✗       
+655   KAGEEVVLALK              -1.0000     NotChecked  -13.3506    1155.6863   ✗       
+656   KC+57.021GEQ+0.984VVLALK -1.0000     NotChecked  -13.3561    1244.6799   ✗       
+657   +43.006KC+57.021GAEVVLALK-1.0000     NotChecked  -13.3577    1229.6802   ✗       
+658   KGGDEVVLALK              -1.0000     NotChecked  -13.3612    1127.6550   ✗       
+659   AKGGEELVLALK             -1.0000     NotChecked  -13.3621    1226.7234   ✗       
+660   AKAGGEEVVLALK            -1.0000     NotChecked  -13.3645    1283.7449   ✗       
+661   AKQGEEVVLALK             -1.0000     NotChecked  -13.3688    1283.7449   ✗       
+662   AKC+57.021GAEVVLALK      -1.0000     NotChecked  -13.3713    1257.7115   ✗       
+663   AKNGDEVVLALK             -1.0000     NotChecked  -13.3735    1255.7136   ✗       
+664   AKGGQ+0.984EVVLALK       -1.0000     NotChecked  -13.3792    1212.7078   ✗       
+665   KC+57.021GAEVVLALK       -1.0000     NotChecked  -13.3893    1186.6744   ✗       
+666   AKQC+57.021GEVVLALK      -1.0000     NotChecked  -13.3941    1314.7330   ✗       
+667   AKC+57.021GEVVLALK       -1.0000     NotChecked  -13.3952    1186.6744   ✗       
+668   AKN+0.984GDEVVLALK       -1.0000     NotChecked  -13.3954    1256.6976   ✗       
+669   AKC+57.021GDQ+0.984VVLALK-1.0000     NotChecked  -13.4048    1301.7013   ✗       
+670   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -13.4196    1301.7013   ✗       
+671   AKGGEEVVLALK             -1.0000     NotChecked  -13.4209    1212.7078   ✗       
+672   AKC+57.021GAEVVLALK      -1.0000     NotChecked  -13.4241    1257.7115   ✗       
+673   AKDGEEVVLALK             -1.0000     NotChecked  -13.4241    1270.7133   ✗       
+674   AKC+57.021AEVVLALK       -1.0000     NotChecked  -13.4423    1200.6900   ✗       
+675   KC+57.021GEEVVLALK       -1.0000     NotChecked  -13.4473    1244.6799   ✗       
+676   AKGGC+57.021EVVLALK      -1.0000     NotChecked  -13.4492    1243.6958   ✗       
+677   AKC+57.021GEPVVLALK      -1.0000     NotChecked  -13.4495    1283.7271   ✗       
+678   AKC+57.021GELVVLALK      -1.0000     NotChecked  -13.4518    1299.7584   ✗       
+679   AKEGEVVLALK              -1.0000     NotChecked  -13.4548    1155.6863   ✗       
+680   +43.006KC+57.021AEEVVLALK-1.0000     NotChecked  -13.4595    1301.7013   ✗       
+681   KAGEEVVLALK              -1.0000     NotChecked  -13.4620    1155.6863   ✗       
+682   AQC+57.021GAEVVLALK      -1.0000     NotChecked  -13.4651    1257.6751   ✗       
+683   KC+57.021GGEVVLALK       -1.0000     NotChecked  -13.4651    1172.6587   ✗       
+684   AKC+57.021GDQ+0.984VVLALK-1.0000     NotChecked  -13.4681    1301.7013   ✗       
+685   AKC+57.021GQEVVLALK      -1.0000     NotChecked  -13.4803    1314.7330   ✗       
+686   AKNGEEVVLALK             -1.0000     NotChecked  -13.4834    1269.7293   ✗       
+687   AQC+57.021GDEVVLALK      -1.0000     NotChecked  -13.4837    1301.6649   ✗       
+688   KC+57.021AEEVVLALK       -1.0000     NotChecked  -13.4911    1258.6955   ✗       
+689   AKEGAEVVLALK             -1.0000     NotChecked  -13.4960    1226.7234   ✗       
+690   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -13.4960    1301.7013   ✗       
+691   AKAEEEVVLALK             -1.0000     NotChecked  -13.5008    1298.7446   ✗       
+692   AKN+0.984GEEVVLALK       -1.0000     NotChecked  -13.5053    1270.7133   ✗       
+693   AKAC+57.021GEVVLALK      -1.0000     NotChecked  -13.5053    1257.7115   ✗       
+694   AKAGDEVVLALK             -1.0000     NotChecked  -13.5107    1212.7078   ✗       
+695   AKGGEVVLALK              -1.0000     NotChecked  -13.5118    1083.6652   ✗       
+696   AKGC+57.021DEVVLALK      -1.0000     NotChecked  -13.5203    1301.7013   ✗       
+697   KC+57.021NEEVVLALK       -1.0000     NotChecked  -13.5215    1301.7013   ✗       
+698   AKC+57.021ANEVVLALK      -1.0000     NotChecked  -13.5255    1314.7330   ✗       
+699   +42.011KC+57.021GDEVVLALK-1.0000     NotChecked  -13.5298    1272.6748   ✗       
+700   AKQGQ+0.984EVVLALK       -1.0000     NotChecked  -13.5366    1283.7449   ✗       
+701   AKEGDEVVLALK             -1.0000     NotChecked  -13.5443    1270.7133   ✗       
+702   AKC+57.021DEVVLALK       -1.0000     NotChecked  -13.5460    1244.6799   ✗       
+703   KQ+0.984GEEVVLALK        -1.0000     NotChecked  -13.5471    1213.6918   ✗       
+704   +43.006KC+57.021GEEVVLALK-1.0000     NotChecked  -13.5546    1287.6857   ✗       
+705   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -13.5594    1301.7013   ✗       
+706   KC+57.021GDEVVLALK       -1.0000     NotChecked  -13.5718    1230.6642   ✗       
+707   AKQGEEVVLALK             -1.0000     NotChecked  -13.5783    1283.7449   ✗       
+708   AKGGAEVVLALK             -1.0000     NotChecked  -13.5828    1154.7023   ✗       
+709   AKC+57.021GEVVLALK       -1.0000     NotChecked  -13.5882    1186.6744   ✗       
+710   AC+57.021GDEVVLALK       -1.0000     NotChecked  -13.5948    1173.6064   ✗       
+711   AKAGGEEVVLALK            -1.0000     NotChecked  -13.5962    1283.7449   ✗       
+712   AKEAEEVVLALK             -1.0000     NotChecked  -13.5978    1298.7446   ✗       
+713   AKGGDEVVLALK             -1.0000     NotChecked  -13.6014    1198.6921   ✗       
+714   AKEGQEVVLALK             -1.0000     NotChecked  -13.6050    1283.7449   ✗       
+715   +43.006KC+57.021GEEVVLALK-1.0000     NotChecked  -13.6180    1287.6857   ✗       
+716   AKDGEQ+0.984VVLALK       -1.0000     NotChecked  -13.6189    1270.7133   ✗       
+717   KC+57.021GDEVVLALK       -1.0000     NotChecked  -13.6198    1230.6642   ✗       
+718   AKC+57.021GNEVVLALK      -1.0000     NotChecked  -13.6206    1300.7173   ✗       
+719   AC+57.021GEEVVLALK       -1.0000     NotChecked  -13.6210    1187.6220   ✗       
+720   AKC+57.021GAEVVLALK      -1.0000     NotChecked  -13.6295    1257.7115   ✗       
+721   AKGDEEVVLALK             -1.0000     NotChecked  -13.6369    1270.7133   ✗       
+722   AKC+57.021EEVVLALK       -1.0000     NotChecked  -13.6392    1258.6955   ✗       
+723   AKGC+57.021GAEVVLALK     -1.0000     NotChecked  -13.6461    1314.7330   ✗       
+724   AKGGQEVVLALK             -1.0000     NotChecked  -13.6621    1211.7238   ✗       
+725   AKC+57.021GENVVLALK      -1.0000     NotChecked  -13.6623    1300.7173   ✗       
+726   AKQ+0.984GDEVVLALK       -1.0000     NotChecked  -13.6775    1270.7133   ✗       
+727   AKMGEEVVLALK             -1.0000     NotChecked  -13.6777    1286.7268   ✗       
+728   KC+57.021GDEVVLALK       -1.0000     NotChecked  -13.6831    1230.6642   ✗       
+729   AKC+57.021GNEVVLALK      -1.0000     NotChecked  -13.6840    1300.7173   ✗       
+730   AKGAEEVVLALK             -1.0000     NotChecked  -13.6846    1226.7234   ✗       
+731   AKC+57.021GDVVLALK       -1.0000     NotChecked  -13.6897    1172.6587   ✗       
+732   AKEGEEVVLALK             -1.0000     NotChecked  -13.6929    1284.7289   ✗       
+733   AKN+0.984GEQ+0.984VVLALK -1.0000     NotChecked  -13.7000    1270.7133   ✗       
+734   AKC+57.021EEVVLALK       -1.0000     NotChecked  -13.7025    1258.6955   ✗       
+735   AKC+57.021GGEVVLALK      -1.0000     NotChecked  -13.7053    1243.6958   ✗       
+736   AKDGEEVVLALK             -1.0000     NotChecked  -13.7101    1270.7133   ✗       
+737   AKEGEEVVLALK             -1.0000     NotChecked  -13.7189    1284.7289   ✗       
+738   +43.006KC+57.021GQ+0.984EVVLALK-1.0000     NotChecked  -13.7225    1287.6857   ✗       
+739   KDGEEVVLALK              -1.0000     NotChecked  -13.7225    1199.6762   ✗       
+740   AQC+57.021GEEVVLALK      -1.0000     Failed      -13.7253    1315.6806   ✓       
+741   AKQGDEVVLALK             -1.0000     NotChecked  -13.7267    1269.7293   ✗       
+742   AKEGEEVVLALK             -1.0000     NotChecked  -13.7277    1284.7289   ✗       
+743   KC+57.021GEELVLALK       -1.0000     NotChecked  -13.7370    1258.6955   ✗       
+744   AKC+57.021GQEVVLALK      -1.0000     NotChecked  -13.7385    1314.7330   ✗       
+745   AKAGEELVLALK             -1.0000     NotChecked  -13.7392    1240.7391   ✗       
+746   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -13.7425    1301.7013   ✗       
+747   AAC+57.021GEEVVLALK      -1.0000     NotChecked  -13.7435    1258.6591   ✗       
+748   AKC+57.021GN+0.984EVVLALK-1.0000     NotChecked  -13.7456    1301.7013   ✗       
+749   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -13.7514    1301.7013   ✗       
+750   AKC+57.021GEVVLALK       -1.0000     NotChecked  -13.7521    1186.6744   ✗       
+751   KC+57.021GQ+0.984EVVLALK -1.0000     NotChecked  -13.7541    1244.6799   ✗       
+752   +43.006KC+57.021GEEVVLALK-1.0000     NotChecked  -13.7642    1287.6857   ✗       
+753   AKGGEEVVLALK             -1.0000     NotChecked  -13.7759    1212.7078   ✗       
+754   AKC+57.021GQ+0.984VVLALK -1.0000     NotChecked  -13.7830    1186.6744   ✗       
+755   AKGGEEVVLALK             -1.0000     NotChecked  -13.7848    1212.7078   ✗       
+756   AKQ+0.984GEEVVLALK       -1.0000     NotChecked  -13.7873    1284.7289   ✗       
+757   AKN+0.984GEEVVLALK       -1.0000     NotChecked  -13.7912    1270.7133   ✗       
+758   AKC+57.021GAEVVLALK      -1.0000     NotChecked  -13.7934    1257.7115   ✗       
+759   KC+57.021GEEVVLALK       -1.0000     NotChecked  -13.7958    1244.6799   ✗       
+760   AKC+57.021GEVVLALK       -1.0000     NotChecked  -13.7996    1186.6744   ✗       
+761   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -13.8022    1301.7013   ✗       
+762   KN+0.984GEEVVLALK        -1.0000     NotChecked  -13.8037    1199.6762   ✗       
+763   AKC+57.021Q+0.984EVVLALK -1.0000     NotChecked  -13.8070    1258.6955   ✗       
+764   AKC+57.021GN+0.984EVVLALK-1.0000     NotChecked  -13.8089    1301.7013   ✗       
+765   AVC+57.021GEEVVLALK      -1.0000     NotChecked  -13.8141    1286.6904   ✗       
+766   AKC+57.021GEEPVLALK      -1.0000     NotChecked  -13.8214    1313.7013   ✗       
+767   AKNGAEVVLALK             -1.0000     NotChecked  -13.8227    1211.7238   ✗       
+768   KC+57.021GC+57.021EVVLALK-1.0000     NotChecked  -13.8240    1275.6679   ✗       
+769   AKC+57.021GAQ+0.984VVLALK-1.0000     NotChecked  -13.8242    1257.7115   ✗       
+770   AKAGC+57.021EVVLALK      -1.0000     NotChecked  -13.8263    1257.7115   ✗       
+771   AKC+57.021GNEVVLALK      -1.0000     NotChecked  -13.8302    1300.7173   ✗       
+772   KDGEEVVLALK              -1.0000     NotChecked  -13.8339    1199.6762   ✗       
+773   AKQGEEVVLALK             -1.0000     NotChecked  -13.8365    1283.7449   ✗       
+774   KC+57.021GEELVLALK       -1.0000     NotChecked  -13.8483    1258.6955   ✗       
+775   GKC+57.021GEEVVLALK      -1.0000     NotChecked  -13.8521    1301.7013   ✗       
+776   AKEGQ+0.984EVVLALK       -1.0000     NotChecked  -13.8608    1284.7289   ✗       
+777   AQC+57.021GEEVVLALK      -1.0000     Failed      -13.8715    1315.6806   ✓       
+778   AKC+57.021GDQ+0.984VVLALK-1.0000     NotChecked  -13.8725    1301.7013   ✗       
+779   AKC+57.021GEVVLALK       -1.0000     NotChecked  -13.8742    1186.6744   ✗       
+780   AKDGDEVVLALK             -1.0000     NotChecked  -13.8826    1256.6976   ✗       
+781   KC+57.021GEVVLALK        -1.0000     NotChecked  -13.8867    1115.6373   ✗       
+782   +43.006KEGEEVVLALK       -1.0000     NotChecked  -13.8889    1256.6976   ✗       
+783   AKAGEVVLALK              -1.0000     NotChecked  -13.8889    1097.6808   ✗       
+784   AKC+57.021GQEVVLALK      -1.0000     NotChecked  -13.9024    1314.7330   ✗       
+785   AKEGEEVVLALK             -1.0000     NotChecked  -13.9025    1284.7289   ✗       
+786   KMGEEVVLALK              -1.0000     NotChecked  -13.9053    1215.6897   ✗       
+787   +43.006KC+57.021GDEVVLALK-1.0000     NotChecked  -13.9125    1273.6700   ✗       
+788   KN+0.984GEEVVLALK        -1.0000     NotChecked  -13.9150    1199.6762   ✗       
+789   AKC+57.021GAEVVLALK      -1.0000     NotChecked  -13.9155    1257.7115   ✗       
+790   KEGEEVVLALK              -1.0000     NotChecked  -13.9205    1213.6918   ✗       
+791   AKNAEEVVLALK             -1.0000     NotChecked  -13.9245    1283.7449   ✗       
+792   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -13.9261    1301.7013   ✗       
+793   AKAGAEVVLALK             -1.0000     NotChecked  -13.9301    1168.7180   ✗       
+794   AQC+57.021GAEVVLALK      -1.0000     NotChecked  -13.9328    1257.6751   ✗       
+795   AKC+57.021GQQ+0.984VVLALK-1.0000     NotChecked  -13.9332    1314.7330   ✗       
+796   KC+57.021GC+57.021EVVLALK-1.0000     NotChecked  -13.9354    1275.6679   ✗       
+797   +43.006KGGEEVVLALK       -1.0000     NotChecked  -13.9459    1184.6765   ✗       
+798   AKGGQ+0.984EVVLALK       -1.0000     NotChecked  -13.9475    1212.7078   ✗       
+799   AKEGNEVVLALK             -1.0000     NotChecked  -13.9549    1269.7293   ✗       
+800   AKC+57.021GN+0.984EVVLALK-1.0000     NotChecked  -13.9551    1301.7013   ✗       
+801   AKEGEEVVLALK             -1.0000     NotChecked  -13.9553    1284.7289   ✗       
+802   KKC+57.021GAEVVLALK      -1.0000     NotChecked  -13.9576    1314.7693   ✗       
+803   AKN+0.984GDEVVLALK       -1.0000     NotChecked  -13.9637    1256.6976   ✗       
+804   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -13.9638    1301.7013   ✗       
+805   AKGGEEVVLALK             -1.0000     NotChecked  -13.9651    1212.7078   ✗       
+806   AKEEEVVLALK              -1.0000     NotChecked  -13.9735    1227.7075   ✗       
+807   KGGEEVVLALK              -1.0000     NotChecked  -13.9775    1141.6707   ✗       
+808   AKAGDEVVLALK             -1.0000     NotChecked  -13.9784    1212.7078   ✗       
+809   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -13.9789    1301.7013   ✗       
+810   AKGGEEVVLALK             -1.0000     NotChecked  -13.9892    1212.7078   ✗       
+811   AQEGEEVVLALK             -1.0000     NotChecked  -13.9962    1284.6925   ✗       
+812   AKC+57.021DEVVLALK       -1.0000     NotChecked  -13.9971    1244.6799   ✗       
+813   KC+57.021GEVVLALK        -1.0000     NotChecked  -13.9980    1115.6373   ✗       
+814   AKC+57.021GEEAVLALK      -1.0000     NotChecked  -14.0041    1287.6857   ✗       
+815   AKGN+0.984EEVVLALK       -1.0000     NotChecked  -14.0064    1270.7133   ✗       
+816   KC+57.021DEEVVLALK       -1.0000     NotChecked  -14.0117    1302.6853   ✗       
+817   AKGGNEVVLALK             -1.0000     NotChecked  -14.0120    1197.7081   ✗       
+818   AKGGEEVVLALK             -1.0000     NotChecked  -14.0123    1212.7078   ✗       
+819   AKNGEEVVLALK             -1.0000     NotChecked  -14.0196    1269.7293   ✗       
+820   AQC+57.021GDEVVLALK      -1.0000     NotChecked  -14.0199    1301.6649   ✗       
+821   KC+57.021GAEVVLALK       -1.0000     NotChecked  -14.0209    1186.6744   ✗       
+822   AKC+57.021GQEVVLALK      -1.0000     NotChecked  -14.0245    1314.7330   ✗       
+823   AKC+57.021GEEVLALK       -1.0000     NotChecked  -14.0273    1216.6486   ✗       
+824   AKGEEVVLALK              -1.0000     NotChecked  -14.0305    1155.6863   ✗       
+825   AKQGEQ+0.984VVLALK       -1.0000     NotChecked  -14.0313    1283.7449   ✗       
+826   AKAAEEVVLALK             -1.0000     NotChecked  -14.0319    1240.7391   ✗       
+827   AKMGDEVVLALK             -1.0000     NotChecked  -14.0356    1272.7112   ✗       
+828   AKC+57.021EEVVLALK       -1.0000     NotChecked  -14.0368    1258.6955   ✗       
+829   KC+57.021GQEVVLALK       -1.0000     NotChecked  -14.0369    1243.6958   ✗       
+830   AKAGQEVVLALK             -1.0000     NotChecked  -14.0391    1225.7394   ✗       
+831   KC+57.021GAEVVLALK       -1.0000     NotChecked  -14.0393    1186.6744   ✗       
+832   AKGADEVVLALK             -1.0000     NotChecked  -14.0425    1212.7078   ✗       
+833   AKC+57.021C+57.021EVVLALK-1.0000     NotChecked  -14.0457    1289.6836   ✗       
+834   AKGGAEVVLALK             -1.0000     NotChecked  -14.0505    1154.7023   ✗       
+835   AKEGDEVVLALK             -1.0000     NotChecked  -14.0508    1270.7133   ✗       
+836   AQGGEEVVLALK             -1.0000     NotChecked  -14.0533    1212.6714   ✗       
+837   AKC+57.021AAEVVLALK      -1.0000     NotChecked  -14.0706    1271.7271   ✗       
+838   AKEGN+0.984EVVLALK       -1.0000     NotChecked  -14.0798    1270.7133   ✗       
+839   AKC+57.021GDEVVLALK      -1.0000     NotChecked  -14.0876    1301.7013   ✗       
+840   AKC+57.021GNEVVLALK      -1.0000     NotChecked  -14.0884    1300.7173   ✗       
+841   AC+57.021GEEVVLALK       -1.0000     NotChecked  -14.0887    1187.6220   ✗       
+842   KGGEEVVLALK              -1.0000     NotChecked  -14.0889    1141.6707   ✗       
+843   AKC+57.021NAEVVLALK      -1.0000     NotChecked  -14.1010    1314.7330   ✗       
+844   AKC+57.021EEVVLALK       -1.0000     NotChecked  -14.1069    1258.6955   ✗       
+845   AKDGEELVLALK             -1.0000     NotChecked  -14.1111    1284.7289   ✗       
+846   AKQGEEVVLALK             -1.0000     NotChecked  -14.1225    1283.7449   ✗       
+847   KC+57.021AEEVVLALK       -1.0000     NotChecked  -14.1227    1258.6955   ✗       
+848   AKQ+0.984GAEVVLALK       -1.0000     NotChecked  -14.1266    1226.7234   ✗       
+849   AKAGEEVVLALK             -1.0000     NotChecked  -14.1271    1226.7234   ✗       
+850   AKGEEEVVLALK             -1.0000     NotChecked  -14.1276    1284.7289   ✗       
+851   KQGEEVVLALK              -1.0000     NotChecked  -14.1349    1212.7078   ✗       
+852   AKGGN+0.984EVVLALK       -1.0000     NotChecked  -14.1369    1198.6921   ✗       
+853   AKGGDEVVLALK             -1.0000     NotChecked  -14.1376    1198.6921   ✗       
+854   KC+57.021AEEVVLALK       -1.0000     NotChecked  -14.1411    1258.6955   ✗       
+855   AKMGEEVVLALK             -1.0000     NotChecked  -14.1455    1286.7268   ✗       
+856   LKC+57.021GAEVVLALK      -1.0000     NotChecked  -14.1455    1299.7584   ✗       
+857   +42.011KC+57.021GEEVVLALK-1.0000     NotChecked  -14.1462    1286.6904   ✗       
+858   AKC+57.021AGEVVLALK      -1.0000     NotChecked  -14.1464    1257.7115   ✗       
+859   KC+57.021GQEVVLALK       -1.0000     NotChecked  -14.1483    1243.6958   ✗       
+860   KC+57.021GEEVVLALK       -1.0000     NotChecked  -14.1507    1244.6799   ✗       
+861   AKGAEEVVLALK             -1.0000     NotChecked  -14.1523    1226.7234   ✗       
+862   AKAGEEVVLALK             -1.0000     NotChecked  -14.1530    1226.7234   ✗       
+863   AKGQEEVVLALK             -1.0000     NotChecked  -14.1562    1283.7449   ✗       
+864   KC+57.021GEEVVLALK       -1.0000     NotChecked  -14.1596    1244.6799   ✗       
+865   AKEGEEVVLALK             -1.0000     NotChecked  -14.1607    1284.7289   ✗       
+866   AKAGEEVVLALK             -1.0000     NotChecked  -14.1619    1226.7234   ✗       
+867   AAGGEEVVLALK             -1.0000     NotChecked  -14.1645    1155.6499   ✗       
+868   +43.006KC+57.021GEEVVLALK-1.0000     NotChecked  -14.1862    1287.6857   ✗       
+869   AKNGQ+0.984EVVLALK       -1.0000     NotChecked  -14.1874    1269.7293   ✗       
+870   AKN+0.984GEELVLALK       -1.0000     NotChecked  -14.1922    1284.7289   ✗       
+871   AQC+57.021GEEVVLALK      -1.0000     Failed      -14.1931    1315.6806   ✓       
+872   AKDGC+57.021EVVLALK      -1.0000     NotChecked  -14.1981    1301.7013   ✗       
+873   AKGDEEVVLALK             -1.0000     NotChecked  -14.2052    1270.7133   ✗       
+874   KC+57.021GEEVVLALK       -1.0000     NotChecked  -14.2104    1244.6799   ✗       
+875   AC+57.021GEEVVLALK       -1.0000     NotChecked  -14.2112    1187.6220   ✗       
+876   AKC+57.021GN+0.984EVVLALK-1.0000     NotChecked  -14.2133    1301.7013   ✗       
+877   +43.006KC+57.021GEQ+0.984VVLALK-1.0000     NotChecked  -14.2171    1287.6857   ✗       
+878   AKC+57.021GEVVLALK       -1.0000     NotChecked  -14.2199    1186.6744   ✗       
+879   AKQ+0.984AEEVVLALK       -1.0000     NotChecked  -14.2284    1298.7446   ✗       
+880   AKNGEEVVLALK             -1.0000     NotChecked  -14.2292    1269.7293   ✗       
+881   AQ+0.984C+57.021GDEVVLALK-1.0000     NotChecked  -14.2324    1302.6490   ✗       
+882   KC+57.021GEEVVLALK       -1.0000     NotChecked  -14.2362    1244.6799   ✗       
+883   AKC+57.021GGEVVLALK      -1.0000     NotChecked  -14.2415    1243.6958   ✗       
+884   KQGEEVVLALK              -1.0000     NotChecked  -14.2463    1212.7078   ✗       
+885   AKC+57.021GEAVVLALK      -1.0000     NotChecked  -14.2503    1257.7115   ✗       
+886   AKC+57.021GNEVVLALK      -1.0000     NotChecked  -14.2523    1300.7173   ✗       
+887   AC+57.021GEEVVLALK       -1.0000     NotChecked  -14.2526    1187.6220   ✗       
+888   AKDGEVVLALK              -1.0000     NotChecked  -14.2608    1141.6707   ✗       
+889   AKC+57.021GAEVVLALK      -1.0000     NotChecked  -14.2611    1257.7115   ✗       
+890   KC+57.021GEEVVLALK       -1.0000     NotChecked  -14.2621    1244.6799   ✗       
+891   AKC+57.021GEDVVLALK      -1.0000     NotChecked  -14.2634    1301.7013   ✗       
+892   AKC+57.021EEVVLALK       -1.0000     NotChecked  -14.2708    1258.6955   ✗       
+893   KC+57.021GEEVVLALK       -1.0000     NotChecked  -14.2710    1244.6799   ✗       
+894   GKGGEEVVLALK             -1.0000     NotChecked  -14.2731    1198.6921   ✗       
+895   AKC+57.021GELVLALK       -1.0000     NotChecked  -14.2752    1200.6900   ✗       
+896   AKN+0.984GC+57.021EVVLALK-1.0000     NotChecked  -14.2793    1301.7013   ✗       
+897   KQGGEEVVLALK             -1.0000     NotChecked  -14.2809    1269.7293   ✗       
+898   KC+57.021GEEVVLALK       -1.0000     NotChecked  -14.2995    1244.6799   ✗       
+899   +43.006KC+57.021GEEVVLALK-1.0000     NotChecked  -14.3084    1287.6857   ✗       
+900   KC+57.021GEEVVLALK       -1.0000     NotChecked  -14.3218    1244.6799   ✗       
+901   +43.006KAGEEVVLALK       -1.0000     NotChecked  -14.3230    1198.6921   ✗       
+902   KC+57.021GEEVVLALK       -1.0000     NotChecked  -14.3399    1244.6799   ✗       
+903   KAGEEVVLALK              -1.0000     NotChecked  -14.3546    1155.6863   ✗       
+904   KC+57.021N+0.984EEVVLALK -1.0000     NotChecked  -14.3812    1302.6853   ✗       
+905   KC+57.021GQ+0.984EVVLALK -1.0000     NotChecked  -14.3857    1244.6799   ✗       
+906   KC+57.021GNEVVLALK       -1.0000     NotChecked  -14.3868    1229.6802   ✗       
+907   KC+57.021GEEVVLALK       -1.0000     NotChecked  -14.3871    1244.6799   ✗       
+908   VKGGEEVVLALK             -1.0000     NotChecked  -14.3941    1240.7391   ✗       
+909   KC+57.021GQ+0.984EVVLALK -1.0000     NotChecked  -14.4040    1244.6799   ✗       
+910   KC+57.021EEVVLALK        -1.0000     NotChecked  -14.4053    1187.6584   ✗       
+911   KC+57.021ADEVVLALK       -1.0000     NotChecked  -14.4173    1244.6799   ✗       
+912   GKC+57.021GEEVVLALK      -1.0000     NotChecked  -14.4204    1301.7013   ✗       
+913   KC+57.021GEEVVLALK       -1.0000     NotChecked  -14.4274    1244.6799   ✗       
+914   KC+57.021GEEVVLALK       -1.0000     NotChecked  -14.4457    1244.6799   ✗       
+915   +43.006KC+57.021GDEVVLALK-1.0000     NotChecked  -14.4808    1273.6700   ✗       
+916   GKC+57.021GEEVVLALK      -1.0000     NotChecked  -14.4837    1301.7013   ✗       
+917   KC+57.021GNEVVLALK       -1.0000     NotChecked  -14.4981    1229.6802   ✗       
+918   KC+57.021GEEVVLALK       -1.0000     NotChecked  -14.4985    1244.6799   ✗       
+919   KC+57.021GN+0.984EVVLALK -1.0000     NotChecked  -14.5117    1230.6642   ✗       
+920   KC+57.021EEVVLALK        -1.0000     NotChecked  -14.5167    1187.6584   ✗       
+921   QC+57.021GEEVVLALK       -1.0000     NotChecked  -14.5395    1244.6435   ✗       
+922   +43.006KC+57.021GDEVVLALK-1.0000     NotChecked  -14.5442    1273.6700   ✗       
+923   KKGGEEVVLALK             -1.0000     NotChecked  -14.5458    1269.7656   ✗       
+924   +42.011KGGEEVVLALK       -1.0000     NotChecked  -14.5672    1183.6812   ✗       
+925   KEGEEVVLALK              -1.0000     NotChecked  -14.5704    1213.6918   ✗       
+926   KC+57.021GDEVVLALK       -1.0000     NotChecked  -14.5757    1230.6642   ✗       
+927   KC+57.021GDEVVLALK       -1.0000     NotChecked  -14.5941    1230.6642   ✗       
+928   KGC+57.021GEEVVLALK      -1.0000     NotChecked  -14.6092    1301.7013   ✗       
+929   KC+57.021GN+0.984EVVLALK -1.0000     NotChecked  -14.6231    1230.6642   ✗       
+930   KC+57.021DEEVVLALK       -1.0000     NotChecked  -14.6434    1302.6853   ✗       
+931   KGGEEVVLALK              -1.0000     NotChecked  -14.6572    1141.6707   ✗       
+932   KC+57.021DEEVVLALK       -1.0000     NotChecked  -14.6617    1302.6853   ✗       
+933   +43.006KDGEEVVLALK       -1.0000     NotChecked  -14.6949    1242.6820   ✗       
+934   +43.006KC+57.021GEELVLALK-1.0000     NotChecked  -14.7093    1301.7013   ✗       
+935   +42.011KC+57.021GEEVVLALK-1.0000     NotChecked  -14.7145    1286.6904   ✗       
+936   KGC+57.021GEEVVLALK      -1.0000     NotChecked  -14.7205    1301.7013   ✗       
+937   KC+57.021GDEVVLALK       -1.0000     NotChecked  -14.7220    1230.6642   ✗       
+938   KDGEEVVLALK              -1.0000     NotChecked  -14.7265    1199.6762   ✗       
+939   LKGGEEVVLALK             -1.0000     NotChecked  -14.7337    1254.7547   ✗       
+940   KC+57.021GEELVLALK       -1.0000     NotChecked  -14.7409    1258.6955   ✗       
+941   NKGGEEVVLALK             -1.0000     NotChecked  -14.7609    1255.7136   ✗       
+942   +43.006KN+0.984GEEVVLALK -1.0000     NotChecked  -14.7760    1242.6820   ✗       
+943   +42.011KC+57.021GEEVVLALK-1.0000     NotChecked  -14.7778    1286.6904   ✗       
+944   GKC+57.021GDEVVLALK      -1.0000     NotChecked  -14.7783    1287.6857   ✗       
+945   KNGEEVVLALK              -1.0000     NotChecked  -14.7857    1198.6921   ✗       
+946   KN+0.984GEEVVLALK        -1.0000     NotChecked  -14.8076    1199.6762   ✗       
+947   KC+57.021GC+57.021EVVLALK-1.0000     NotChecked  -14.8280    1275.6679   ✗       
+948   KEGDEVVLALK              -1.0000     NotChecked  -14.8467    1199.6762   ✗       
+949   +43.006KC+57.021GEVVLALK -1.0000     NotChecked  -14.8590    1158.6431   ✗       
+950   SKGGEEVVLALK             -1.0000     NotChecked  -14.8610    1228.7027   ✗       
+951   KC+57.021GGEEVVLALK      -1.0000     NotChecked  -14.8674    1301.7013   ✗       
+952   KC+57.021GEEVVLALK       -1.0000     NotChecked  -14.8678    1244.6799   ✗       
+953   KC+57.021GEQ+0.984VVLALK -1.0000     NotChecked  -14.8803    1244.6799   ✗       
+954   KC+57.021GEVVLALK        -1.0000     NotChecked  -14.8906    1115.6373   ✗       
+955   KNGEEVVLALK              -1.0000     NotChecked  -14.8971    1198.6921   ✗       
+956   KAC+57.021GDEVVLALK      -1.0000     NotChecked  -14.8972    1301.7013   ✗       
+957   KC+57.021GEQ+0.984VVLALK -1.0000     NotChecked  -14.8987    1244.6799   ✗       
+958   +43.006KC+57.021GAEVVLALK-1.0000     NotChecked  -14.9003    1229.6802   ✗       
+959   KGGDEVVLALK              -1.0000     NotChecked  -14.9037    1127.6550   ✗       
+960   KKAGEEVVLALK             -1.0000     NotChecked  -14.9229    1283.7813   ✗       
+961   KC+57.021GAEVVLALK       -1.0000     NotChecked  -14.9319    1186.6744   ✗       
+962   KGC+57.021EEVVLALK       -1.0000     NotChecked  -14.9325    1244.6799   ✗       
+963   KC+57.021DDEVVLALK       -1.0000     NotChecked  -14.9379    1288.6697   ✗       
+964   +43.006KGGEEVVLALK       -1.0000     NotChecked  -14.9499    1184.6765   ✗       
+965   KC+57.021GEEVVLALK       -1.0000     NotChecked  -14.9716    1244.6799   ✗       
+966   KC+57.021PEEVVLALK       -1.0000     NotChecked  -14.9728    1284.7112   ✗       
+967   KC+57.021GEEVVLALK       -1.0000     NotChecked  -14.9899    1244.6799   ✗       
+968   +43.006KC+57.021AEEVVLALK-1.0000     NotChecked  -15.0021    1301.7013   ✗       
+969   KAGEEVVLALK              -1.0000     NotChecked  -15.0046    1155.6863   ✗       
+970   AQC+57.021GEEVVLALK      -1.0000     Failed      -15.0072    1315.6806   ✓       
+971   KC+57.021GGEVVLALK       -1.0000     NotChecked  -15.0077    1172.6587   ✗       
+972   +43.006KC+57.021GQEVVLALK-1.0000     NotChecked  -15.0093    1286.7017   ✗       
+973   KGGDEVVLALK              -1.0000     NotChecked  -15.0151    1127.6550   ✗       
+974   KC+57.021AEEVVLALK       -1.0000     NotChecked  -15.0337    1258.6955   ✗       
+975   KC+57.021GQEVVLALK       -1.0000     NotChecked  -15.0409    1243.6958   ✗       
+976   KC+57.021GAEVVLALK       -1.0000     NotChecked  -15.0432    1186.6744   ✗       
+977   KC+57.021NEEVVLALK       -1.0000     NotChecked  -15.0640    1301.7013   ✗       
+978   +42.011KC+57.021GDEVVLALK-1.0000     NotChecked  -15.0724    1272.6748   ✗       
+979   KQ+0.984GEEVVLALK        -1.0000     NotChecked  -15.0897    1213.6918   ✗       
+980   +43.006KC+57.021GEEVVLALK-1.0000     NotChecked  -15.0972    1287.6857   ✗       
+981   KC+57.021GEVVLALK        -1.0000     NotChecked  -15.1020    1115.6373   ✗       
+982   +43.006KQGEEVVLALK       -1.0000     NotChecked  -15.1073    1255.7136   ✗       
+983   LKAGEEVVLALK             -1.0000     NotChecked  -15.1108    1268.7704   ✗       
+984   KC+57.021GGEVVLALK       -1.0000     NotChecked  -15.1190    1172.6587   ✗       
+985   +43.006KC+57.021GEEVVLALK-1.0000     NotChecked  -15.1231    1287.6857   ✗       
+986   AKGGEEVVLALK             -1.0000     NotChecked  -15.1249    1212.7078   ✗       
+987   +43.006KC+57.021GEEVVLALK-1.0000     NotChecked  -15.1320    1287.6857   ✗       
+988   KQGEEVVLALK              -1.0000     NotChecked  -15.1389    1212.7078   ✗       
+989   KC+57.021AEEVVLALK       -1.0000     NotChecked  -15.1450    1258.6955   ✗       
+990   KC+57.021GEEVVLALK       -1.0000     NotChecked  -15.1547    1244.6799   ✗       
+991   +43.006KC+57.021GEEVVLALK-1.0000     NotChecked  -15.1605    1287.6857   ✗       
+992   KC+57.021GDEVVLALK       -1.0000     NotChecked  -15.1624    1230.6642   ✗       
+993   KC+57.021GEEVVLALK       -1.0000     NotChecked  -15.1636    1244.6799   ✗       
+994   KC+57.021GDQ+0.984VVLALK -1.0000     NotChecked  -15.1749    1230.6642   ✗       
+995   KC+57.021NEEVVLALK       -1.0000     NotChecked  -15.1754    1301.7013   ✗       
+996   +43.006KC+57.021GEEVVLALK-1.0000     NotChecked  -15.1828    1287.6857   ✗       
+997   KQ+0.984GEEVVLALK        -1.0000     NotChecked  -15.2011    1213.6918   ✗       
+998   KC+57.021GEEVVLALK       -1.0000     NotChecked  -15.2144    1244.6799   ✗       
+999   KC+57.021GDEVVLALK       -1.0000     NotChecked  -15.2257    1230.6642   ✗       
+1000  GKC+57.021GAEVVLALK      -1.0000     NotChecked  -15.2274    1243.6958   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: KAC+57.021GEEVVLALK
+Similarity: 0.8231
+De Novo Score: -13.7393
+Source: Database
+Correct: ✓
+

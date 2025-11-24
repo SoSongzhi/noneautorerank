@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 63
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 967.5018
+Precursor charge: 2+
+Ground truth: VIEMEEEVVITPQYVR
+Ground truth (normalized): VIEMEEEVVITPQYVR
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 378
+Used for reranking: 378
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 378 (37.8%)
+Database matches: 98 (9.8%)
+Prosit predictions: 231 (23.1%)
+Failed: 49 (4.9%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.9348
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     VLEMEEEVVLTPQYVR         0.9348      Database    -0.5833     1932.9867   ✓       ✓
+2     VLEMEEEVVLTPQYVR         0.9348      Database    -1.4463     1932.9867   ✓       ✓
+3     VLEMEEEVVLTPQYVR         0.9348      Database    -2.3196     1932.9867   ✓       ✓
+4     VLEMEEEVVLTPQYVR         0.9348      Database    -3.1826     1932.9867   ✓       ✓
+5     VLEMEEEVVLTPQYVR         0.9348      Database    -4.6543     1932.9867   ✓       ✓
+6     VLEMEEEVVLTPQYVR         0.9348      Database    -4.8334     1932.9867   ✓       ✓
+7     VLEMEEEVVLTPQYVR         0.9348      Database    -5.6964     1932.9867   ✓       ✓
+8     VLEMEEEVVLTPQYVR         0.9348      Database    -5.8981     1932.9867   ✓       ✓
+9     VLEMEEEVVLTPQYVR         0.9348      Database    -6.3906     1932.9867   ✓       ✓
+10    VLEMEEEVVLTPQYVR         0.9348      Database    -6.4667     1932.9867   ✓       ✓
+11    VLEMEEEVVLTPQYVR         0.9348      Database    -6.5697     1932.9867   ✓       ✓
+12    VLEMEEEVVLTPQYVR         0.9348      Database    -6.7610     1932.9867   ✓       ✓
+13    VLEMEEEVVLTPQYVR         0.9348      Database    -7.3296     1932.9867   ✓       ✓
+14    VLEMEEEVVLTPQYVR         0.9348      Database    -7.4327     1932.9867   ✓       ✓
+15    VLEMEEEVVLTPQYVR         0.9348      Database    -7.6343     1932.9867   ✓       ✓
+16    VLEMEEEVVLTPQYVR         0.9348      Database    -8.2029     1932.9867   ✓       ✓
+17    VLEMEEEVVLTPQYVR         0.9348      Database    -8.4973     1932.9867   ✓       ✓
+18    VLEMEEEVVLTPQYVR         0.9348      Database    -8.9044     1932.9867   ✓       ✓
+19    VLEMEEEVVLTPQYVR         0.9348      Database    -9.0659     1932.9867   ✓       ✓
+20    VLEMEEEVVLTPQYVR         0.9348      Database    -9.7228     1932.9867   ✓       ✓
+21    VLEMEEEVVLTPQYVR         0.9348      Database    -9.9690     1932.9867   ✓       ✓
+22    VLEMEEEVVLTPQYVR         0.9348      Database    -10.1482    1932.9867   ✓       ✓
+23    VLEMEEEVVLTPQYVR         0.9348      Database    -10.5376    1932.9867   ✓       ✓
+24    VLEMEEEVVLTPQYVR         0.9348      Database    -10.5858    1932.9867   ✓       ✓
+25    VLEMEEEVVLTPQYVR         0.9348      Database    -10.6407    1932.9867   ✓       ✓
+26    VLEMEEEVVLTPQYVR         0.9348      Database    -10.7168    1932.9867   ✓       ✓
+27    VLEMEEEVVLTPQYVR         0.9348      Database    -11.0111    1932.9867   ✓       ✓
+28    VLEMEEEVVLTPQYVR         0.9348      Database    -11.4591    1932.9867   ✓       ✓
+29    VLEMEEEVVLTPQYVR         0.9348      Database    -11.5797    1932.9867   ✓       ✓
+30    VLEMEEEVVLTPQYVR         0.9348      Database    -11.7053    1932.9867   ✓       ✓
+31    VLEMEEEVVLTPQYVR         0.9348      Database    -11.7814    1932.9867   ✓       ✓
+32    VLEMEEEVVLTPQYVR         0.9348      Database    -11.8844    1932.9867   ✓       ✓
+33    VLEMEEEVVLTPQYVR         0.9348      Database    -12.2739    1932.9867   ✓       ✓
+34    VLEMEEEVVLTPQYVR         0.9348      Database    -12.3220    1932.9867   ✓       ✓
+35    VLEMEEEVVLTPQYVR         0.9348      Database    -12.3530    1932.9867   ✓       ✓
+36    VLEMEEEVVLTPQYVR         0.9348      Database    -12.4530    1932.9867   ✓       ✓
+37    VLEMEEEVVLTPQYVR         0.9348      Database    -12.6443    1932.9867   ✓       ✓
+38    VLEMEEEVVLTPQYVR         0.9348      Database    -12.7474    1932.9867   ✓       ✓
+39    VLEMEEEVVLTPQYVR         0.9348      Database    -12.9844    1932.9867   ✓       ✓
+40    VLEMEEEVVLTPQYVR         0.9348      Database    -13.2160    1932.9867   ✓       ✓
+41    VLEMEEEVVLTPQYVR         0.9348      Database    -13.3160    1932.9867   ✓       ✓
+42    VLEMEEEVVLTPQYVR         0.9348      Database    -13.5176    1932.9867   ✓       ✓
+43    VLEMEEEVVLTPQYVR         0.9348      Database    -13.6168    1932.9867   ✓       ✓
+44    VLEMEEEVVLTPQYVR         0.9348      Database    -13.7938    1932.9867   ✓       ✓
+45    VLEMEEEVVLTPQYVR         0.9348      Database    -13.8474    1932.9867   ✓       ✓
+46    VLEMEEEVVLTPQYVR         0.9348      Database    -13.9729    1932.9867   ✓       ✓
+47    VLEMEEEVVLTPQYVR         0.9348      Database    -14.0094    1932.9867   ✓       ✓
+48    VLEMEEEVVLTPQYVR         0.9348      Database    -14.0892    1932.9867   ✓       ✓
+49    VLEMEEEVVLTPQYVR         0.9348      Database    -14.1926    1932.9867   ✓       ✓
+50    VLEMEEEVVLTPQYVR         0.9348      Database    -14.2191    1932.9867   ✓       ✓
+51    VLEMEEEVVLTPQYVR         0.9348      Database    -14.3806    1932.9867   ✓       ✓
+52    VLEMEEEVVLTPQYVR         0.9348      Database    -14.4798    1932.9867   ✓       ✓
+53    VLEMEEEVVLTPQYVR         0.9348      Database    -14.6114    1932.9867   ✓       ✓
+54    VLEMEEEVVLTPQYVR         0.9348      Database    -14.7206    1932.9867   ✓       ✓
+55    VLEMEEEVVLTPQYVR         0.9348      Database    -14.7877    1932.9867   ✓       ✓
+56    VLEMEEEVVLTPQYVR         0.9348      Database    -14.8359    1932.9867   ✓       ✓
+57    VLEMEEEVVLTPQYVR         0.9348      Database    -14.8724    1932.9867   ✓       ✓
+58    VLEMEEEVVLTPQYVR         0.9348      Database    -14.9522    1932.9867   ✓       ✓
+59    VLEMEEEVVLTPQYVR         0.9348      Database    -15.0183    1932.9867   ✓       ✓
+60    VLEMEEEVVLTPQYVR         0.9348      Database    -15.0375    1932.9867   ✓       ✓
+61    VLEMEEEVVLTPQYVR         0.9348      Database    -15.0555    1932.9867   ✓       ✓
+62    VLEMEEEVVLTPQYVR         0.9348      Database    -15.3531    1932.9867   ✓       ✓
+63    VLEMEEEVVLTPQYVR         0.9348      Database    -15.4744    1932.9867   ✓       ✓
+64    VLEMEEEVVLTPQYVR         0.9348      Database    -15.5300    1932.9867   ✓       ✓
+65    VLEMEEEVVLTPQYVR         0.9348      Database    -15.5836    1932.9867   ✓       ✓
+66    VLEMEEEVVLTPQYVR         0.9348      Database    -15.6061    1932.9867   ✓       ✓
+67    VLEMEEEVVLTPQYVR         0.9348      Database    -15.7092    1932.9867   ✓       ✓
+68    VLEMEEEVVLTPQYVR         0.9348      Database    -15.7116    1932.9867   ✓       ✓
+69    VLEMEEEVVLTPQYVR         0.9348      Database    -15.7457    1932.9867   ✓       ✓
+70    VLEMEEEVVLTPQYVR         0.9348      Database    -15.8523    1932.9867   ✓       ✓
+71    VLEMEEEVVLTPQYVR         0.9348      Database    -15.8813    1932.9867   ✓       ✓
+72    VLEMEEEVVLTPQYVR         0.9348      Database    -15.9005    1932.9867   ✓       ✓
+73    VLEMEEEVVLTPQYVR         0.9348      Database    -15.9554    1932.9867   ✓       ✓
+74    VLEMEEEVVLTPQYVR         0.9348      Database    -16.0315    1932.9867   ✓       ✓
+75    VLEMEEEVVLTPQYVR         0.9348      Database    -16.2160    1932.9867   ✓       ✓
+76    VLEMEEEVVLTPQYVR         0.9348      Database    -16.3477    1932.9867   ✓       ✓
+77    VLEMEEEVVLTPQYVR         0.9348      Database    -16.4239    1932.9867   ✓       ✓
+78    VLEMEEEVVLTPQYVR         0.9348      Database    -16.4691    1932.9867   ✓       ✓
+79    VLEMEEEVVLTPQYVR         0.9348      Database    -16.5240    1932.9867   ✓       ✓
+80    VLEMEEEVVLTPQYVR         0.9348      Database    -16.5721    1932.9867   ✓       ✓
+81    VLEMEEEVVLTPQYVR         0.9348      Database    -16.5745    1932.9867   ✓       ✓
+82    VLEMEEEVVLTPQYVR         0.9348      Database    -16.6031    1932.9867   ✓       ✓
+83    VLEMEEEVVLTPQYVR         0.9348      Database    -16.6087    1932.9867   ✓       ✓
+84    VLEMEEEVVLTPQYVR         0.9348      Database    -16.6677    1932.9867   ✓       ✓
+85    VLEMEEEVVLTPQYVR         0.9348      Database    -16.7546    1932.9867   ✓       ✓
+86    VLEMEEEVVLTPQYVR         0.9348      Database    -16.7738    1932.9867   ✓       ✓
+87    VLEMEEEVVLTPQYVR         0.9348      Database    -16.8459    1932.9867   ✓       ✓
+88    VLEMEEEVVLTPQYVR         0.9348      Database    -16.8798    1932.9867   ✓       ✓
+89    VLEMEEEVVLTPQYVR         0.9348      Database    -16.8944    1932.9867   ✓       ✓
+90    VLEMEEEVVLTPQYVR         0.9348      Database    -17.0553    1932.9867   ✓       ✓
+91    VLEMEEEVVLTPQYVR         0.9348      Database    -17.0645    1932.9867   ✓       ✓
+92    VLEMEEEVVLTPQYVR         0.9348      Database    -17.2107    1932.9867   ✓       ✓
+93    VLEMEEEVVLTPQYVR         0.9348      Database    -17.2345    1932.9867   ✓       ✓
+94    VLEMEEEVVLTPQYVR         0.9348      Database    -17.3115    1932.9867   ✓       ✓
+95    VLEMEEEVVLTPQYVR         0.9348      Database    -17.3424    1932.9867   ✓       ✓
+96    VLEMEEEVVLTPQYVR         0.9348      Database    -17.4478    1932.9867   ✓       ✓
+97    VLEMEEEVVLTPQYVR         0.9348      Database    -17.4661    1932.9867   ✓       ✓
+98    VLEMEEEVVLTPQYVR         0.9348      Database    -17.5307    1932.9867   ✓       ✓
+99    +42.011LQ+0.984MEEEVVLTPGQYVR0.5291      Prosit      -23.8342    1932.9503   ✓       
+100   +42.011LEMEEEVVLTPGQYVR  0.5236      Prosit      -18.3638    1932.9503   ✓       
+101   +42.011LEMEEEVVLTPGQYVR  0.5236      Prosit      -19.3763    1932.9503   ✓       
+102   +42.011LEMEEEVVLTPGQYVR  0.5236      Prosit      -20.1000    1932.9503   ✓       
+103   +42.011LEMEEEVVLTPGQYVR  0.5236      Prosit      -21.1125    1932.9503   ✓       
+104   +42.011LEMEEEVVLTPGQYVR  0.5236      Prosit      -22.4348    1932.9503   ✓       
+105   +42.011LEMEEEVVLTPGQYVR  0.5236      Prosit      -22.6139    1932.9503   ✓       
+106   +42.011LEMEEEVVLTPGQYVR  0.5236      Prosit      -23.4472    1932.9503   ✓       
+107   +42.011LEMEEEVVLTPGQYVR  0.5236      Prosit      -23.6264    1932.9503   ✓       
+108   +42.011LEMEEEVVLTPGQYVR  0.5236      Prosit      -23.6785    1932.9503   ✓       
+109   +42.011LEMEEEVVLTPGQYVR  0.5236      Prosit      -24.1710    1932.9503   ✓       
+110   +42.011LEMEEEVVLTPGQYVR  0.5236      Prosit      -24.2471    1932.9503   ✓       
+111   +42.011LEMEEEVVLTPGQYVR  0.5236      Prosit      -24.3501    1932.9503   ✓       
+112   RLEMEEEVVLTPAYVR         0.5224      Prosit      -20.8208    1932.9979   ✓       
+113   RLEMEEEVVLTPAYVR         0.5224      Prosit      -22.5570    1932.9979   ✓       
+114   +42.011LEMQ+0.984EEVVLTPGQYVR0.5219      Prosit      -24.4679    1932.9503   ✓       
+115   +42.011LEMEEEVVLTPQGYVR  0.5169      Prosit      -21.4614    1932.9503   ✓       
+116   +42.011LEMEEEVVLTPQGYVR  0.5169      Prosit      -22.9286    1932.9503   ✓       
+117   +42.011LEMEEEVVLTPQGYVR  0.5169      Prosit      -23.1976    1932.9503   ✓       
+118   +42.011LEMEEEVVLTPQGYVR  0.5169      Prosit      -23.5365    1932.9503   ✓       
+119   VLEMEEEVVLTPGAYVR        0.5146      Prosit      -10.5106    1932.9867   ✓       
+120   VLEMEEEVVLTPGAYVR        0.5146      Prosit      -11.3735    1932.9867   ✓       
+121   VLEMEEEVVLTPGAYVR        0.5146      Prosit      -11.5230    1932.9867   ✓       
+122   VLEMEEEVVLTPGAYVR        0.5146      Prosit      -12.2468    1932.9867   ✓       
+123   VLEMEEEVVLTPGAYVR        0.5146      Prosit      -12.3860    1932.9867   ✓       
+124   VLEMEEEVVLTPGAYVR        0.5146      Prosit      -13.1098    1932.9867   ✓       
+125   VLEMEEEVVLTPGAYVR        0.5146      Prosit      -13.2593    1932.9867   ✓       
+126   VLEMEEEVVLTPGAYVR        0.5146      Prosit      -14.1223    1932.9867   ✓       
+127   VLEMEEEVVLTPGAYVR        0.5146      Prosit      -14.5815    1932.9867   ✓       
+128   VLEMEEEVVLTPGAYVR        0.5146      Prosit      -14.7607    1932.9867   ✓       
+129   VLEMEEEVVLTPGAYVR        0.5146      Prosit      -15.5940    1932.9867   ✓       
+130   VLEMEEEVVLTPGAYVR        0.5146      Prosit      -15.6236    1932.9867   ✓       
+131   VLEMEEEVVLTPGAYVR        0.5146      Prosit      -15.7731    1932.9867   ✓       
+132   VLEMEEEVVLTPGAYVR        0.5146      Prosit      -15.8253    1932.9867   ✓       
+133   VLEMEEEVVLTPGAYVR        0.5146      Prosit      -16.3178    1932.9867   ✓       
+134   VLEMEEEVVLTPGAYVR        0.5146      Prosit      -16.3939    1932.9867   ✓       
+135   VLEMEEEVVLTPGAYVR        0.5146      Prosit      -16.4969    1932.9867   ✓       
+136   VLEMEEEVVLTPGAYVR        0.5146      Prosit      -16.6361    1932.9867   ✓       
+137   VLEMEEEVVLTPGAYVR        0.5146      Prosit      -16.6883    1932.9867   ✓       
+138   VLEMEEEVVLTPGAYVR        0.5146      Prosit      -16.7293    1932.9867   ✓       
+139   VLEMEEEVVLTPGAYVR        0.5146      Prosit      -16.8378    1932.9867   ✓       
+140   VLEMEEEVVLTPGAYVR        0.5146      Prosit      -17.2569    1932.9867   ✓       
+141   VLEMEEEVVLTPGAYVR        0.5146      Prosit      -17.3303    1932.9867   ✓       
+142   VLEMEEEVVLTPGAYVR        0.5146      Prosit      -17.3599    1932.9867   ✓       
+143   VLEMEEEVVLTPGAYVR        0.5146      Prosit      -17.4063    1932.9867   ✓       
+144   VLEMEEEVVLTPGAYVR        0.5146      Prosit      -17.5094    1932.9867   ✓       
+145   VLEMEEEVVLTPGAYVR        0.5146      Prosit      -17.5615    1932.9867   ✓       
+146   VLQ+0.984MEEEVVLTPGAYVR  0.5145      Prosit      -15.9810    1932.9867   ✓       
+147   VLQ+0.984MEEEVVLTPGAYVR  0.5145      Prosit      -16.8439    1932.9867   ✓       
+148   VLQ+0.984MEEEVVLTPGAYVR  0.5145      Prosit      -16.9934    1932.9867   ✓       
+149   VLEMEEEVVLTPKYVR         0.5086      Prosit      -13.4629    1933.0230   ✓       
+150   VLEMEEEVVLTPKYVR         0.5086      Prosit      -14.3258    1933.0230   ✓       
+151   VLEMEEEVVLTPKYVR         0.5086      Prosit      -15.1991    1933.0230   ✓       
+152   VLEMEEEVVLTPKYVR         0.5086      Prosit      -16.0621    1933.0230   ✓       
+153   VLEMEEEVVLTPKYVR         0.5086      Prosit      -17.5338    1933.0230   ✓       
+154   VLEMQ+0.984EEVVLTPGAYVR  0.5030      Prosit      -16.6146    1932.9867   ✓       
+155   VLEMQ+0.984EEVVLTPGAYVR  0.5030      Prosit      -17.4776    1932.9867   ✓       
+156   VLEMEQ+0.984EVVLTPGAYVR  0.4987      Prosit      -15.7013    1932.9867   ✓       
+157   VLEMEQ+0.984EVVLTPGAYVR  0.4987      Prosit      -16.5643    1932.9867   ✓       
+158   VLEMEQ+0.984EVVLTPGAYVR  0.4987      Prosit      -16.7138    1932.9867   ✓       
+159   VLEMEQ+0.984EVVLTPGAYVR  0.4987      Prosit      -17.4376    1932.9867   ✓       
+160   VLEMEQ+0.984EVVLTPGAYVR  0.4987      Prosit      -17.5768    1932.9867   ✓       
+161   VLEMEEQ+0.984VVLTPGAYVR  0.4973      Prosit      -15.6246    1932.9867   ✓       
+162   VLEMEEQ+0.984VVLTPGAYVR  0.4973      Prosit      -16.4876    1932.9867   ✓       
+163   VLEMEEQ+0.984VVLTPGAYVR  0.4973      Prosit      -16.6371    1932.9867   ✓       
+164   VLEMEEQ+0.984VVLTPGAYVR  0.4973      Prosit      -17.3609    1932.9867   ✓       
+165   VLEMEEQ+0.984VVLTPGAYVR  0.4973      Prosit      -17.5001    1932.9867   ✓       
+166   GVLEMEEEVVLTPAYVR        0.4904      Prosit      -20.1429    1932.9867   ✓       
+167   GVLEMEEEVVLTPAYVR        0.4904      Prosit      -21.8792    1932.9867   ✓       
+168   GVLEMEEEVVLTPAYVR        0.4904      Prosit      -24.3930    1932.9867   ✓       
+169   +42.011LEMEEQ+0.984VVLTPGQYVR0.4901      Prosit      -23.4779    1932.9503   ✓       
+170   +42.011LEMEEQ+0.984VVLTPGQYVR0.4901      Prosit      -24.4903    1932.9503   ✓       
+171   VLQ+0.984MEQ+0.984Q+0.984VVLTPQYVR0.4830      Prosit      -16.3586    1932.9867   ✓       
+172   VLQ+0.984MEQ+0.984Q+0.984VVLTPQYVR0.4830      Prosit      -17.2216    1932.9867   ✓       
+173   VLEMQ+0.984EEVVLTPQYVR   0.4796      Prosit      -6.6874     1932.9867   ✓       
+174   VLEMQ+0.984EEVVLTPQYVR   0.4796      Prosit      -7.5504     1932.9867   ✓       
+175   VLEMQ+0.984EEVVLTPQYVR   0.4796      Prosit      -8.4236     1932.9867   ✓       
+176   VLEMQ+0.984EEVVLTPQYVR   0.4796      Prosit      -9.2866     1932.9867   ✓       
+177   VLEMQ+0.984EEVVLTPQYVR   0.4796      Prosit      -10.7584    1932.9867   ✓       
+178   VLEMQ+0.984EEVVLTPQYVR   0.4796      Prosit      -10.9375    1932.9867   ✓       
+179   VLEMQ+0.984EEVVLTPQYVR   0.4796      Prosit      -11.8005    1932.9867   ✓       
+180   VLEMQ+0.984EEVVLTPQYVR   0.4796      Prosit      -12.0021    1932.9867   ✓       
+181   VLEMQ+0.984EEVVLTPQYVR   0.4796      Prosit      -12.4946    1932.9867   ✓       
+182   VLEMQ+0.984EEVVLTPQYVR   0.4796      Prosit      -12.5707    1932.9867   ✓       
+183   VLEMQ+0.984EEVVLTPQYVR   0.4796      Prosit      -12.6737    1932.9867   ✓       
+184   VLEMQ+0.984EEVVLTPQYVR   0.4796      Prosit      -12.8651    1932.9867   ✓       
+185   VLEMQ+0.984EEVVLTPQYVR   0.4796      Prosit      -13.4337    1932.9867   ✓       
+186   VLEMQ+0.984EEVVLTPQYVR   0.4796      Prosit      -13.5367    1932.9867   ✓       
+187   VLEMQ+0.984EEVVLTPQYVR   0.4796      Prosit      -13.7384    1932.9867   ✓       
+188   VLEMQ+0.984EEVVLTPQYVR   0.4796      Prosit      -14.3070    1932.9867   ✓       
+189   VLEMQ+0.984EEVVLTPQYVR   0.4796      Prosit      -14.6013    1932.9867   ✓       
+190   VLEMQ+0.984EEVVLTPQYVR   0.4796      Prosit      -15.0085    1932.9867   ✓       
+191   VLEMQ+0.984EEVVLTPQYVR   0.4796      Prosit      -15.1699    1932.9867   ✓       
+192   VLEMQ+0.984EEVVLTPQYVR   0.4796      Prosit      -15.8269    1932.9867   ✓       
+193   VLEMQ+0.984EEVVLTPQYVR   0.4796      Prosit      -16.0731    1932.9867   ✓       
+194   VLEMQ+0.984EEVVLTPQYVR   0.4796      Prosit      -16.2522    1932.9867   ✓       
+195   VLEMQ+0.984EEVVLTPQYVR   0.4796      Prosit      -16.6417    1932.9867   ✓       
+196   VLEMQ+0.984EEVVLTPQYVR   0.4796      Prosit      -16.6898    1932.9867   ✓       
+197   VLEMQ+0.984EEVVLTPQYVR   0.4796      Prosit      -16.7447    1932.9867   ✓       
+198   VLEMQ+0.984EEVVLTPQYVR   0.4796      Prosit      -16.8208    1932.9867   ✓       
+199   VLEMQ+0.984EEVVLTPQYVR   0.4796      Prosit      -17.1152    1932.9867   ✓       
+200   VLEMQ+0.984EEVVLTPQYVR   0.4796      Prosit      -17.5631    1932.9867   ✓       
+201   VLQ+0.984MEEEVVLTPQYVR   0.4743      Prosit      -6.0537     1932.9867   ✓       
+202   VLQ+0.984MEEEVVLTPQYVR   0.4743      Prosit      -6.9167     1932.9867   ✓       
+203   VLQ+0.984MEEEVVLTPQYVR   0.4743      Prosit      -7.7900     1932.9867   ✓       
+204   VLQ+0.984MEEEVVLTPQYVR   0.4743      Prosit      -8.6530     1932.9867   ✓       
+205   VLQ+0.984MEEEVVLTPQYVR   0.4743      Prosit      -10.1247    1932.9867   ✓       
+206   VLQ+0.984MEEEVVLTPQYVR   0.4743      Prosit      -10.3038    1932.9867   ✓       
+207   VLQ+0.984MEEEVVLTPQYVR   0.4743      Prosit      -11.1668    1932.9867   ✓       
+208   VLQ+0.984MEEEVVLTPQYVR   0.4743      Prosit      -11.3685    1932.9867   ✓       
+209   VLQ+0.984MEEEVVLTPQYVR   0.4743      Prosit      -11.8610    1932.9867   ✓       
+210   VLQ+0.984MEEEVVLTPQYVR   0.4743      Prosit      -11.9371    1932.9867   ✓       
+211   VLQ+0.984MEEEVVLTPQYVR   0.4743      Prosit      -12.0401    1932.9867   ✓       
+212   VLQ+0.984MEEEVVLTPQYVR   0.4743      Prosit      -12.2314    1932.9867   ✓       
+213   VLQ+0.984MEEEVVLTPQYVR   0.4743      Prosit      -12.8000    1932.9867   ✓       
+214   VLQ+0.984MEEEVVLTPQYVR   0.4743      Prosit      -12.9031    1932.9867   ✓       
+215   VLQ+0.984MEEEVVLTPQYVR   0.4743      Prosit      -13.1047    1932.9867   ✓       
+216   VLQ+0.984MEEEVVLTPQYVR   0.4743      Prosit      -13.6733    1932.9867   ✓       
+217   VLQ+0.984MEEEVVLTPQYVR   0.4743      Prosit      -13.9677    1932.9867   ✓       
+218   VLQ+0.984MEEEVVLTPQYVR   0.4743      Prosit      -14.3748    1932.9867   ✓       
+219   VLQ+0.984MEEEVVLTPQYVR   0.4743      Prosit      -14.5363    1932.9867   ✓       
+220   VLQ+0.984MEEEVVLTPQYVR   0.4743      Prosit      -15.1932    1932.9867   ✓       
+221   VLQ+0.984MEEEVVLTPQYVR   0.4743      Prosit      -15.4394    1932.9867   ✓       
+222   VLQ+0.984MEEEVVLTPQYVR   0.4743      Prosit      -15.6186    1932.9867   ✓       
+223   VLQ+0.984MEEEVVLTPQYVR   0.4743      Prosit      -16.0080    1932.9867   ✓       
+224   VLQ+0.984MEEEVVLTPQYVR   0.4743      Prosit      -16.0562    1932.9867   ✓       
+225   VLQ+0.984MEEEVVLTPQYVR   0.4743      Prosit      -16.1111    1932.9867   ✓       
+226   VLQ+0.984MEEEVVLTPQYVR   0.4743      Prosit      -16.1872    1932.9867   ✓       
+227   VLQ+0.984MEEEVVLTPQYVR   0.4743      Prosit      -16.4815    1932.9867   ✓       
+228   VLQ+0.984MEEEVVLTPQYVR   0.4743      Prosit      -16.9295    1932.9867   ✓       
+229   VLQ+0.984MEEEVVLTPQYVR   0.4743      Prosit      -17.0501    1932.9867   ✓       
+230   VLQ+0.984MEEEVVLTPQYVR   0.4743      Prosit      -17.1757    1932.9867   ✓       
+231   VLQ+0.984MEEEVVLTPQYVR   0.4743      Prosit      -17.2518    1932.9867   ✓       
+232   VLQ+0.984MEEEVVLTPQYVR   0.4743      Prosit      -17.3548    1932.9867   ✓       
+233   VLQ+0.984MQ+0.984EQ+0.984VVLTPQYVR0.4718      Prosit      -17.2719    1932.9867   ✓       
+234   VLEMEQ+0.984Q+0.984VVLTPQYVR0.4698      Prosit      -10.8882    1932.9867   ✓       
+235   VLEMEQ+0.984Q+0.984VVLTPQYVR0.4698      Prosit      -11.7511    1932.9867   ✓       
+236   VLEMEQ+0.984Q+0.984VVLTPQYVR0.4698      Prosit      -12.6244    1932.9867   ✓       
+237   VLEMEQ+0.984Q+0.984VVLTPQYVR0.4698      Prosit      -13.4874    1932.9867   ✓       
+238   VLEMEQ+0.984Q+0.984VVLTPQYVR0.4698      Prosit      -14.9591    1932.9867   ✓       
+239   VLEMEQ+0.984Q+0.984VVLTPQYVR0.4698      Prosit      -15.1383    1932.9867   ✓       
+240   VLEMEQ+0.984Q+0.984VVLTPQYVR0.4698      Prosit      -16.0012    1932.9867   ✓       
+241   VLEMEQ+0.984Q+0.984VVLTPQYVR0.4698      Prosit      -16.2029    1932.9867   ✓       
+242   VLEMEQ+0.984Q+0.984VVLTPQYVR0.4698      Prosit      -16.6954    1932.9867   ✓       
+243   VLEMEQ+0.984Q+0.984VVLTPQYVR0.4698      Prosit      -16.7715    1932.9867   ✓       
+244   VLEMEQ+0.984Q+0.984VVLTPQYVR0.4698      Prosit      -16.8745    1932.9867   ✓       
+245   VLEMEQ+0.984Q+0.984VVLTPQYVR0.4698      Prosit      -17.0659    1932.9867   ✓       
+246   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -5.7741     1932.9867   ✓       
+247   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -6.6371     1932.9867   ✓       
+248   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -7.5103     1932.9867   ✓       
+249   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -8.3733     1932.9867   ✓       
+250   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -9.8451     1932.9867   ✓       
+251   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -10.0242    1932.9867   ✓       
+252   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -10.8872    1932.9867   ✓       
+253   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -11.0888    1932.9867   ✓       
+254   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -11.5813    1932.9867   ✓       
+255   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -11.6574    1932.9867   ✓       
+256   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -11.7604    1932.9867   ✓       
+257   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -11.9518    1932.9867   ✓       
+258   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -12.5204    1932.9867   ✓       
+259   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -12.6234    1932.9867   ✓       
+260   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -12.8251    1932.9867   ✓       
+261   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -13.3937    1932.9867   ✓       
+262   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -13.6880    1932.9867   ✓       
+263   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -14.0952    1932.9867   ✓       
+264   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -14.2566    1932.9867   ✓       
+265   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -14.9136    1932.9867   ✓       
+266   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -15.1598    1932.9867   ✓       
+267   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -15.3389    1932.9867   ✓       
+268   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -15.7284    1932.9867   ✓       
+269   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -15.7765    1932.9867   ✓       
+270   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -15.8314    1932.9867   ✓       
+271   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -15.9075    1932.9867   ✓       
+272   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -16.2019    1932.9867   ✓       
+273   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -16.6498    1932.9867   ✓       
+274   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -16.7705    1932.9867   ✓       
+275   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -16.8960    1932.9867   ✓       
+276   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -16.9721    1932.9867   ✓       
+277   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -17.0752    1932.9867   ✓       
+278   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -17.4646    1932.9867   ✓       
+279   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -17.5128    1932.9867   ✓       
+280   VLEMEQ+0.984EVVLTPQYVR   0.4696      Prosit      -17.5437    1932.9867   ✓       
+281   VLQ+0.984MEEQ+0.984VVLTPQYVR0.4658      Prosit      -11.1678    1932.9867   ✓       
+282   VLQ+0.984MEEQ+0.984VVLTPQYVR0.4658      Prosit      -12.0308    1932.9867   ✓       
+283   VLQ+0.984MEEQ+0.984VVLTPQYVR0.4658      Prosit      -12.9041    1932.9867   ✓       
+284   VLQ+0.984MEEQ+0.984VVLTPQYVR0.4658      Prosit      -13.7670    1932.9867   ✓       
+285   VLQ+0.984MEEQ+0.984VVLTPQYVR0.4658      Prosit      -15.2388    1932.9867   ✓       
+286   VLQ+0.984MEEQ+0.984VVLTPQYVR0.4658      Prosit      -15.4179    1932.9867   ✓       
+287   VLQ+0.984MEEQ+0.984VVLTPQYVR0.4658      Prosit      -16.2809    1932.9867   ✓       
+288   VLQ+0.984MEEQ+0.984VVLTPQYVR0.4658      Prosit      -16.4825    1932.9867   ✓       
+289   VLQ+0.984MEEQ+0.984VVLTPQYVR0.4658      Prosit      -16.9750    1932.9867   ✓       
+290   VLQ+0.984MEEQ+0.984VVLTPQYVR0.4658      Prosit      -17.0511    1932.9867   ✓       
+291   VLQ+0.984MEEQ+0.984VVLTPQYVR0.4658      Prosit      -17.1542    1932.9867   ✓       
+292   VLQ+0.984MEEQ+0.984VVLTPQYVR0.4658      Prosit      -17.3455    1932.9867   ✓       
+293   VLEMQ+0.984EQ+0.984VVLTPQYVR0.4631      Prosit      -11.8015    1932.9867   ✓       
+294   VLEMQ+0.984EQ+0.984VVLTPQYVR0.4631      Prosit      -12.6644    1932.9867   ✓       
+295   VLEMQ+0.984EQ+0.984VVLTPQYVR0.4631      Prosit      -13.5377    1932.9867   ✓       
+296   VLEMQ+0.984EQ+0.984VVLTPQYVR0.4631      Prosit      -14.4007    1932.9867   ✓       
+297   VLEMQ+0.984EQ+0.984VVLTPQYVR0.4631      Prosit      -15.8724    1932.9867   ✓       
+298   VLEMQ+0.984EQ+0.984VVLTPQYVR0.4631      Prosit      -16.0516    1932.9867   ✓       
+299   VLEMQ+0.984EQ+0.984VVLTPQYVR0.4631      Prosit      -16.9145    1932.9867   ✓       
+300   VLEMQ+0.984EQ+0.984VVLTPQYVR0.4631      Prosit      -17.1162    1932.9867   ✓       
+301   VLQ+0.984MQ+0.984Q+0.984EVVLTPQYVR0.4596      Prosit      -17.3486    1932.9867   ✓       
+302   VLEMQ+0.984Q+0.984EVVLTPQYVR0.4577      Prosit      -11.8782    1932.9867   ✓       
+303   VLEMQ+0.984Q+0.984EVVLTPQYVR0.4577      Prosit      -12.7411    1932.9867   ✓       
+304   VLEMQ+0.984Q+0.984EVVLTPQYVR0.4577      Prosit      -13.6144    1932.9867   ✓       
+305   VLEMQ+0.984Q+0.984EVVLTPQYVR0.4577      Prosit      -14.4774    1932.9867   ✓       
+306   VLEMQ+0.984Q+0.984EVVLTPQYVR0.4577      Prosit      -15.9491    1932.9867   ✓       
+307   VLEMQ+0.984Q+0.984EVVLTPQYVR0.4577      Prosit      -16.1283    1932.9867   ✓       
+308   VLEMQ+0.984Q+0.984EVVLTPQYVR0.4577      Prosit      -16.9912    1932.9867   ✓       
+309   VLEMQ+0.984Q+0.984EVVLTPQYVR0.4577      Prosit      -17.1929    1932.9867   ✓       
+310   VLQ+0.984MQ+0.984EEVVLTPQYVR0.4549      Prosit      -12.1578    1932.9867   ✓       
+311   VLQ+0.984MQ+0.984EEVVLTPQYVR0.4549      Prosit      -13.0208    1932.9867   ✓       
+312   VLQ+0.984MQ+0.984EEVVLTPQYVR0.4549      Prosit      -13.8941    1932.9867   ✓       
+313   VLQ+0.984MQ+0.984EEVVLTPQYVR0.4549      Prosit      -14.7570    1932.9867   ✓       
+314   VLQ+0.984MQ+0.984EEVVLTPQYVR0.4549      Prosit      -16.2288    1932.9867   ✓       
+315   VLQ+0.984MQ+0.984EEVVLTPQYVR0.4549      Prosit      -16.4079    1932.9867   ✓       
+316   VLQ+0.984MQ+0.984EEVVLTPQYVR0.4549      Prosit      -17.2709    1932.9867   ✓       
+317   VLQ+0.984MQ+0.984EEVVLTPQYVR0.4549      Prosit      -17.4725    1932.9867   ✓       
+318   VLQ+0.984MEQ+0.984EVVLTPQYVR0.4447      Prosit      -11.2445    1932.9867   ✓       
+319   VLQ+0.984MEQ+0.984EVVLTPQYVR0.4447      Prosit      -12.1075    1932.9867   ✓       
+320   VLQ+0.984MEQ+0.984EVVLTPQYVR0.4447      Prosit      -12.9808    1932.9867   ✓       
+321   VLQ+0.984MEQ+0.984EVVLTPQYVR0.4447      Prosit      -13.8437    1932.9867   ✓       
+322   VLQ+0.984MEQ+0.984EVVLTPQYVR0.4447      Prosit      -15.3155    1932.9867   ✓       
+323   VLQ+0.984MEQ+0.984EVVLTPQYVR0.4447      Prosit      -15.4946    1932.9867   ✓       
+324   VLQ+0.984MEQ+0.984EVVLTPQYVR0.4447      Prosit      -16.3576    1932.9867   ✓       
+325   VLQ+0.984MEQ+0.984EVVLTPQYVR0.4447      Prosit      -16.5592    1932.9867   ✓       
+326   VLQ+0.984MEQ+0.984EVVLTPQYVR0.4447      Prosit      -17.0517    1932.9867   ✓       
+327   VLQ+0.984MEQ+0.984EVVLTPQYVR0.4447      Prosit      -17.1278    1932.9867   ✓       
+328   VLQ+0.984MEQ+0.984EVVLTPQYVR0.4447      Prosit      -17.2309    1932.9867   ✓       
+329   VLQ+0.984MEQ+0.984EVVLTPQYVR0.4447      Prosit      -17.4222    1932.9867   ✓       
+330   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -5.3043     1875.9652   ✗       
+331   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -5.6974     1932.9867   ✓       
+332   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -6.1673     1875.9652   ✗       
+333   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -6.5604     1932.9867   ✓       
+334   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -7.0406     1875.9652   ✗       
+335   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -7.4337     1932.9867   ✓       
+336   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -7.9036     1875.9652   ✗       
+337   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -8.2966     1932.9867   ✓       
+338   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -9.3753     1875.9652   ✗       
+339   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -9.5544     1875.9652   ✗       
+340   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -9.7684     1932.9867   ✓       
+341   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -9.9475     1932.9867   ✓       
+342   VLEMEEEVVLTPGYVR         -1.0000     NotChecked  -10.1232    1861.9495   ✗       
+343   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -10.4174    1875.9652   ✗       
+344   VLEMEEQ+0.984VVLTPAYVR   -1.0000     NotChecked  -10.4184    1875.9652   ✗       
+345   VLEMEQ+0.984EVVLTPAYVR   -1.0000     NotChecked  -10.4951    1875.9652   ✗       
+346   VLEMEEEVVLTPQQVR         -1.0000     NotChecked  -10.6103    1897.9819   ✗       
+347   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -10.6191    1875.9652   ✗       
+348   VLQ+0.984MEEEVVLTPAYVR   -1.0000     NotChecked  -10.7748    1875.9652   ✗       
+349   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -10.8105    1932.9867   ✓       
+350   VLEMEEEVVLTPGYVR         -1.0000     NotChecked  -10.9861    1861.9495   ✗       
+351   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -11.0121    1932.9867   ✓       
+352   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -11.1116    1875.9652   ✗       
+353   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -11.1877    1875.9652   ✗       
+354   VLEMEEQ+0.984VVLTPAYVR   -1.0000     NotChecked  -11.2814    1875.9652   ✗       
+355   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -11.2907    1875.9652   ✗       
+356   VLEMEQ+0.984EVVLTPAYVR   -1.0000     NotChecked  -11.3581    1875.9652   ✗       
+357   VLEMQ+0.984EEVVLTPAYVR   -1.0000     NotChecked  -11.4084    1875.9652   ✗       
+358   VLEMEEEVVLTPQQVR         -1.0000     NotChecked  -11.4733    1897.9819   ✗       
+359   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -11.4820    1875.9652   ✗       
+360   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -11.5046    1932.9867   ✓       
+361   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -11.5807    1932.9867   ✓       
+362   VLQ+0.984MEEEVVLTPAYVR   -1.0000     NotChecked  -11.6377    1875.9652   ✗       
+363   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -11.6838    1932.9867   ✓       
+364   VLEMEEEVVLTPGYVR         -1.0000     NotChecked  -11.8594    1861.9495   ✗       
+365   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -11.8751    1932.9867   ✓       
+366   VLEMEEEVVLTPQFVR         -1.0000     NotChecked  -11.9060    1916.9917   ✗       
+367   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -12.0506    1875.9652   ✗       
+368   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -12.1537    1875.9652   ✗       
+369   VLEMEEQ+0.984VVLTPAYVR   -1.0000     NotChecked  -12.1547    1875.9652   ✗       
+370   VVEMEEEVVLTPQYVR         -1.0000     NotChecked  -12.1984    1918.9710   ✗       
+371   VLEMEQ+0.984EVVLTPAYVR   -1.0000     NotChecked  -12.2314    1875.9652   ✗       
+372   VLEMEQEVVLTPQYVR         -1.0000     NotChecked  -12.2631    1932.0026   ✗       
+373   VLEMQ+0.984EEVVLTPAYVR   -1.0000     NotChecked  -12.2714    1875.9652   ✗       
+374   VLEMEEEVVLTPQQVR         -1.0000     NotChecked  -12.3465    1897.9819   ✗       
+375   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -12.3553    1875.9652   ✗       
+376   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -12.4437    1932.9867   ✓       
+377   VLEMEEEVVLTPLYVR         -1.0000     NotChecked  -12.4647    1918.0121   ✗       
+378   VLQ+0.984MEEEVVLTPAYVR   -1.0000     NotChecked  -12.5110    1875.9652   ✗       
+379   +43.006LEMEEEVVLTPQYVR   -1.0000     NotChecked  -12.5317    1876.9241   ✗       
+380   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -12.5467    1932.9867   ✓       
+381   VLEMEEEVVLTPGYVR         -1.0000     NotChecked  -12.7224    1861.9495   ✗       
+382   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -12.7484    1932.9867   ✓       
+383   VLEMEEEVVLTPQFVR         -1.0000     NotChecked  -12.7690    1916.9917   ✗       
+384   VLEMEEQVVLTPQYVR         -1.0000     NotChecked  -12.7801    1932.0026   ✗       
+385   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -12.9239    1875.9652   ✗       
+386   VLEMEEQ+0.984VVLTPAYVR   -1.0000     NotChecked  -13.0176    1875.9652   ✗       
+387   VEMEEEVVLTPQYVR          -1.0000     NotChecked  -13.0614    1819.9026   ✗       
+388   VLEMEQ+0.984EVVLTPAYVR   -1.0000     NotChecked  -13.0943    1875.9652   ✗       
+389   VLEMEEEVVLTGQYVR         -1.0000     NotChecked  -13.1105    1892.9554   ✗       
+390   VLEMEQEVVLTPQYVR         -1.0000     NotChecked  -13.1261    1932.0026   ✗       
+391   VLEMQ+0.984EEVVLTPAYVR   -1.0000     NotChecked  -13.1447    1875.9652   ✗       
+392   +42.011LEMEEEVVLTPQYVR   -1.0000     NotChecked  -13.1576    1875.9288   ✗       
+393   VLEMEEEVVLTPQQVR         -1.0000     NotChecked  -13.2095    1897.9819   ✗       
+394   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -13.2183    1875.9652   ✗       
+395   VLQMEEEVVLTPQYVR         -1.0000     NotChecked  -13.2533    1932.0026   ✗       
+396   VLEMEEEVVLTPQGVR         -1.0000     NotChecked  -13.3006    1826.9448   ✗       
+397   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -13.3170    1932.9867   ✓       
+398   VLEMEEEVVLTPLYVR         -1.0000     NotChecked  -13.3277    1918.0121   ✗       
+399   VLEMEEEVVLTPQVVR         -1.0000     NotChecked  -13.3562    1868.9917   ✗       
+400   VLQ+0.984MEEEVVLTPAYVR   -1.0000     NotChecked  -13.3740    1875.9652   ✗       
+401   VLEMEEEVVLTPQNVR         -1.0000     NotChecked  -13.3890    1883.9663   ✗       
+402   VLEMEEEVVLTPQYVK         -1.0000     NotChecked  -13.4432    1904.9805   ✗       
+403   VLEMEEEVVLTPNYVR         -1.0000     NotChecked  -13.5076    1918.9710   ✗       
+404   VLEMEEEVVLTPQRVR         -1.0000     NotChecked  -13.5465    1926.0244   ✗       
+405   VLEMQEEVVLTPQYVR         -1.0000     NotChecked  -13.5838    1932.0026   ✗       
+406   VLEMEEEVVLTPAGYVR        -1.0000     Failed      -13.6081    1932.9867   ✓       
+407   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -13.6114    1932.9867   ✓       
+408   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -13.6254    1875.9652   ✗       
+409   VLEMEEEVVLTPQFVR         -1.0000     NotChecked  -13.6423    1916.9917   ✗       
+410   VLEMEEQVVLTPQYVR         -1.0000     NotChecked  -13.6431    1932.0026   ✗       
+411   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -13.7869    1875.9652   ✗       
+412   VLKMEEEVVLTPQYVR         -1.0000     NotChecked  -13.8773    1932.0390   ✗       
+413   VLEMKEEVVLTPQYVR         -1.0000     NotChecked  -13.9193    1932.0390   ✗       
+414   VVEMEEEVVLTPQYVR         -1.0000     NotChecked  -13.9347    1918.9710   ✗       
+415   VLEMEEEVVLTGQYVR         -1.0000     NotChecked  -13.9735    1892.9554   ✗       
+416   VLEMEQEVVLTPQYVR         -1.0000     NotChecked  -13.9994    1932.0026   ✗       
+417   VLEMQ+0.984EEVVLTPAYVR   -1.0000     NotChecked  -14.0076    1875.9652   ✗       
+418   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -14.0185    1932.9867   ✓       
+419   VLQMEEEVVLTPQYVR         -1.0000     NotChecked  -14.1163    1932.0026   ✗       
+420   VLEMEEEVVLTPQGVR         -1.0000     NotChecked  -14.1636    1826.9448   ✗       
+421   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -14.1799    1932.9867   ✓       
+422   VLEMEEEVVLTPGYVR         -1.0000     NotChecked  -14.1941    1861.9495   ✗       
+423   VLEMEEEVVLTPLYVR         -1.0000     NotChecked  -14.2009    1918.0121   ✗       
+424   VLLMEEEVVLTPQYVR         -1.0000     NotChecked  -14.2020    1917.0281   ✗       
+425   VLEMEEEVVLTPQVVR         -1.0000     NotChecked  -14.2192    1868.9917   ✗       
+426   VLEMEEEVVLTPQLVR         -1.0000     NotChecked  -14.2513    1883.0074   ✗       
+427   VLEMEEEVVLTPQNVR         -1.0000     NotChecked  -14.2520    1883.9663   ✗       
+428   +43.006LEMEEEVVLTPQYVR   -1.0000     NotChecked  -14.2679    1876.9241   ✗       
+429   VLEMEEEVVLTPQYVK         -1.0000     NotChecked  -14.3061    1904.9805   ✗       
+430   VLEMEEEVVLTPNYVR         -1.0000     NotChecked  -14.3705    1918.9710   ✗       
+431   VLEMEEEVVLTPGYVR         -1.0000     NotChecked  -14.3733    1861.9495   ✗       
+432   VLEMEEEVVLTPQRVR         -1.0000     NotChecked  -14.4095    1926.0244   ✗       
+433   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -14.4438    1875.9652   ✗       
+434   VLEMQEEVVLTPQYVR         -1.0000     NotChecked  -14.4467    1932.0026   ✗       
+435   VLEMEEEVVLTPAGYVR        -1.0000     Failed      -14.4711    1932.9867   ✓       
+436   VLEMEEQ+0.984VVLTPAYVR   -1.0000     NotChecked  -14.4894    1875.9652   ✗       
+437   VLEMEEEVVLTPQFVR         -1.0000     NotChecked  -14.5053    1916.9917   ✗       
+438   VLEMEEQVVLTPQYVR         -1.0000     NotChecked  -14.5164    1932.0026   ✗       
+439   GLEMEEEVVLTPQYVR         -1.0000     NotChecked  -14.5590    1890.9397   ✗       
+440   VLEMEQ+0.984EVVLTPAYVR   -1.0000     NotChecked  -14.5661    1875.9652   ✗       
+441   VLEMEMEVVLTPAYVR         -1.0000     NotChecked  -14.5707    1877.9631   ✗       
+442   VLEMEKEVVLTPQYVR         -1.0000     NotChecked  -14.5939    1932.0390   ✗       
+443   VLEMEEQ+0.984VVLTPAYVR   -1.0000     NotChecked  -14.6685    1875.9652   ✗       
+444   VLEMEEEVVLTPQQVR         -1.0000     NotChecked  -14.6813    1897.9819   ✗       
+445   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -14.6900    1875.9652   ✗       
+446   VLEMLEEVVLTPQYVR         -1.0000     NotChecked  -14.6913    1917.0281   ✗       
+447   VLKMEEEVVLTPQYVR         -1.0000     NotChecked  -14.7403    1932.0390   ✗       
+448   VLEMEQ+0.984EVVLTPAYVR   -1.0000     NotChecked  -14.7452    1875.9652   ✗       
+449   VLEMKEEVVLTPQYVR         -1.0000     NotChecked  -14.7823    1932.0390   ✗       
+450   VEMEEEVVLTPQYVR          -1.0000     NotChecked  -14.7977    1819.9026   ✗       
+451   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -14.8369    1932.9867   ✓       
+452   VLQ+0.984MEEEVVLTPAYVR   -1.0000     NotChecked  -14.8457    1875.9652   ✗       
+453   VLEMEEEVVLTGQYVR         -1.0000     NotChecked  -14.8468    1892.9554   ✗       
+454   VLEMEEEVVLTPQQVR         -1.0000     NotChecked  -14.8604    1897.9819   ✗       
+455   VLEMEQEVVLTPQYVR         -1.0000     NotChecked  -14.8623    1932.0026   ✗       
+456   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -14.8692    1875.9652   ✗       
+457   +42.011LEMEEEVVLTPQYVR   -1.0000     NotChecked  -14.8938    1875.9288   ✗       
+458   VLEMEEEVVLTPQYR          -1.0000     NotChecked  -14.9315    1833.9182   ✗       
+459   VLQMEEEVVLTPQYVR         -1.0000     NotChecked  -14.9896    1932.0026   ✗       
+460   VLQ+0.984MEEEVVLTPAYVR   -1.0000     NotChecked  -15.0249    1875.9652   ✗       
+461   VLEMEEEVVLTAQYVR         -1.0000     NotChecked  -15.0289    1906.9710   ✗       
+462   VLEMEEEVVLTPQGVR         -1.0000     NotChecked  -15.0369    1826.9448   ✗       
+463   VLEMEEEVVLTPLYVR         -1.0000     NotChecked  -15.0639    1918.0121   ✗       
+464   VLLMEEEVVLTPQYVR         -1.0000     NotChecked  -15.0650    1917.0281   ✗       
+465   VLEMEEEVVLTPAGYVR        -1.0000     Failed      -15.0754    1932.9867   ✓       
+466   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -15.0831    1932.9867   ✓       
+467   VLEMEEEVVLTPQVR          -1.0000     NotChecked  -15.0925    1769.9233   ✗       
+468   VLEMEEEVVLTPQLVR         -1.0000     NotChecked  -15.1143    1883.0074   ✗       
+469   VLEMEEEVVLTPQNVR         -1.0000     NotChecked  -15.1252    1883.9663   ✗       
+470   VLEMEEEVVLTPQYVK         -1.0000     NotChecked  -15.1794    1904.9805   ✗       
+471   VLEMEEEVVLTPGYVR         -1.0000     NotChecked  -15.2362    1861.9495   ✗       
+472   VLEMEEQ+0.984VVLTPGYVR   -1.0000     NotChecked  -15.2372    1861.9495   ✗       
+473   VLEMEEEVVLTPNYVR         -1.0000     NotChecked  -15.2438    1918.9710   ✗       
+474   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -15.2586    1875.9652   ✗       
+475   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -15.2622    1932.9867   ✓       
+476   VLEMEEEVVLTPQRVR         -1.0000     NotChecked  -15.2828    1926.0244   ✗       
+477   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -15.3068    1875.9652   ✗       
+478   VLEMEQ+0.984EVVLTPGYVR   -1.0000     NotChecked  -15.3139    1861.9495   ✗       
+479   VLEMAEEVVLTPQYVR         -1.0000     NotChecked  -15.3178    1874.9812   ✗       
+480   VLEMQEEVVLTPQYVR         -1.0000     NotChecked  -15.3200    1932.0026   ✗       
+481   VLEMEEEVVLTPQYR          -1.0000     NotChecked  -15.3282    1833.9182   ✗       
+482   VLEMEEEVVLTPGYVR         -1.0000     NotChecked  -15.3294    1861.9495   ✗       
+483   VLEMEEEVVLTPAQVR         -1.0000     NotChecked  -15.3313    1840.9604   ✗       
+484   VLEMEEEVVLTPAGYVR        -1.0000     Failed      -15.3444    1932.9867   ✓       
+485   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -15.3617    1875.9652   ✗       
+486   VLEMEEQVVLTPQYVR         -1.0000     NotChecked  -15.3794    1932.0026   ✗       
+487   VLEMEEEVVLTPQQ+0.984VR   -1.0000     NotChecked  -15.3802    1898.9659   ✗       
+488   VLEMEMEVVLTPAYVR         -1.0000     NotChecked  -15.4337    1877.9631   ✗       
+489   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -15.4378    1875.9652   ✗       
+490   VLEMEEEVVLTPGYVR         -1.0000     NotChecked  -15.4379    1861.9495   ✗       
+491   VLEMEKEVVLTPQYVR         -1.0000     NotChecked  -15.4569    1932.0390   ✗       
+492   VLDMEEEVVLTPQYVR         -1.0000     NotChecked  -15.4727    1918.9710   ✗       
+493   VLEMQ+0.984EEVVLTPAYVR   -1.0000     NotChecked  -15.4794    1875.9652   ✗       
+494   VLEMEEEVVLTSQYVR         -1.0000     NotChecked  -15.5248    1922.9659   ✗       
+495   VLEMEAEVVLTPQYVR         -1.0000     NotChecked  -15.5278    1874.9812   ✗       
+496   VLEMEEQ+0.984VVLTPAYVR   -1.0000     NotChecked  -15.5315    1875.9652   ✗       
+497   VLEMEEEVVLTPQHVR         -1.0000     NotChecked  -15.5345    1906.9822   ✗       
+498   VLEMLEEVVLTPQYVR         -1.0000     NotChecked  -15.5543    1917.0281   ✗       
+499   VLQ+0.984MEEEVVLTPGYVR   -1.0000     NotChecked  -15.5936    1861.9495   ✗       
+500   VLEMEQ+0.984EVVLTPAYVR   -1.0000     NotChecked  -15.6082    1875.9652   ✗       
+501   VLEMEQ+0.984Q+0.984VVLTPAYVR-1.0000     NotChecked  -15.6092    1875.9652   ✗       
+502   VLKMEEEVVLTPQYVR         -1.0000     NotChecked  -15.6135    1932.0390   ✗       
+503   VLEMEEEVVLTPQYGR         -1.0000     NotChecked  -15.6396    1890.9397   ✗       
+504   VLEMELEVVLTPQYVR         -1.0000     NotChecked  -15.6493    1917.0281   ✗       
+505   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -15.6517    1932.9867   ✓       
+506   VLEMKEEVVLTPQYVR         -1.0000     NotChecked  -15.6556    1932.0390   ✗       
+507   VLEMQ+0.984EEVVLTPAYVR   -1.0000     NotChecked  -15.6585    1875.9652   ✗       
+508   VLEMEEEVVLTPAGYVR        -1.0000     Failed      -15.6833    1932.9867   ✓       
+509   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -15.6999    1932.9867   ✓       
+510   VLEMEEEVVLTGQYVR         -1.0000     NotChecked  -15.7097    1892.9554   ✗       
+511   VLEMEEEVVLTPQQVR         -1.0000     NotChecked  -15.7234    1897.9819   ✗       
+512   VLEMEEQ+0.984VVLTPQQVR   -1.0000     NotChecked  -15.7244    1897.9819   ✗       
+513   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -15.7321    1875.9652   ✗       
+514   VLEMEEQ+0.984VVLTPAYVR   -1.0000     NotChecked  -15.7331    1875.9652   ✗       
+515   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -15.7547    1932.9867   ✓       
+516   VLEMEEEVVLTPQYR          -1.0000     NotChecked  -15.7945    1833.9182   ✗       
+517   VLEMVEEVVLTPQYVR         -1.0000     NotChecked  -15.7952    1903.0125   ✗       
+518   VLEMEQ+0.984EVVLTPQQVR   -1.0000     NotChecked  -15.8010    1897.9819   ✗       
+519   VLVMEEEVVLTPQYVR         -1.0000     NotChecked  -15.8089    1903.0125   ✗       
+520   VLEMEQ+0.984EVVLTPAYVR   -1.0000     NotChecked  -15.8098    1875.9652   ✗       
+521   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -15.8308    1932.9867   ✓       
+522   VLQMEEEVVLTPQYVR         -1.0000     NotChecked  -15.8526    1932.0026   ✗       
+523   VLEMEEEVVLTPQYV          -1.0000     NotChecked  -15.8780    1776.8855   ✗       
+524   VLQ+0.984MEEEVVLTPAYVR   -1.0000     NotChecked  -15.8878    1875.9652   ✗       
+525   VLQ+0.984MEEQ+0.984VVLTPAYVR-1.0000     NotChecked  -15.8888    1875.9652   ✗       
+526   VLEMEEEVVLTAQYVR         -1.0000     NotChecked  -15.8919    1906.9710   ✗       
+527   VLEMEEEVVLTPQGVR         -1.0000     NotChecked  -15.8999    1826.9448   ✗       
+528   VLELEEEVVLTPQYVR         -1.0000     NotChecked  -15.9215    1915.0302   ✗       
+529   VLEMEEEVVLTPQQVR         -1.0000     NotChecked  -15.9250    1897.9819   ✗       
+530   VLEMEEEVVLTPGYVR         -1.0000     NotChecked  -15.9304    1861.9495   ✗       
+531   VLLMEEEVVLTPQYVR         -1.0000     NotChecked  -15.9383    1917.0281   ✗       
+532   VLEMEEEVVLTPAGYVR        -1.0000     Failed      -15.9384    1932.9867   ✓       
+533   VLEMEEEVVLTPQVR          -1.0000     NotChecked  -15.9555    1769.9233   ✗       
+534   VLQ+0.984MEQ+0.984EVVLTPAYVR-1.0000     NotChecked  -15.9655    1875.9652   ✗       
+535   VLEMESEVVLTPQYVR         -1.0000     NotChecked  -15.9730    1890.9761   ✗       
+536   VLEMEEEVVLTPQFVR         -1.0000     NotChecked  -15.9770    1916.9917   ✗       
+537   VLEMEEVVVLTPQYVR         -1.0000     NotChecked  -15.9773    1903.0125   ✗       
+538   VLEMEEEVVLTPQLVR         -1.0000     NotChecked  -15.9875    1883.0074   ✗       
+539   VLEMEEEVVLTPQNVR         -1.0000     NotChecked  -15.9882    1883.9663   ✗       
+540   VLEMEEEVVLTPGYVR         -1.0000     NotChecked  -16.0065    1861.9495   ✗       
+541   VLEMEEEVVLTPQYVK         -1.0000     NotChecked  -16.0424    1904.9805   ✗       
+542   VLQ+0.984MEEEVVLTPQQVR   -1.0000     NotChecked  -16.0807    1897.9819   ✗       
+543   VLQ+0.984MEEEVVLTPAYVR   -1.0000     NotChecked  -16.0895    1875.9652   ✗       
+544   VLEMEEQ+0.984VVLTPGYVR   -1.0000     NotChecked  -16.1002    1861.9495   ✗       
+545   VLEMEEEVVLTPNYVR         -1.0000     NotChecked  -16.1068    1918.9710   ✗       
+546   VLEMEEEVVLTPGYVR         -1.0000     NotChecked  -16.1095    1861.9495   ✗       
+547   VLEMETEVVLTPQYVR         -1.0000     NotChecked  -16.1117    1904.9917   ✗       
+548   VLEEEEEVVLTPQYVR         -1.0000     NotChecked  -16.1251    1930.9888   ✗       
+549   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -16.1252    1932.9867   ✓       
+550   VLEMEEEVVLTPQRVR         -1.0000     NotChecked  -16.1458    1926.0244   ✗       
+551   VLEMEEEVVLTPQFVR         -1.0000     NotChecked  -16.1561    1916.9917   ✗       
+552   VLEMEQ+0.984EVVLTPGYVR   -1.0000     NotChecked  -16.1769    1861.9495   ✗       
+553   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -16.1801    1875.9652   ✗       
+554   VLEMAEEVVLTPQYVR         -1.0000     NotChecked  -16.1808    1874.9812   ✗       
+555   VLEMQEEVVLTPQYVR         -1.0000     NotChecked  -16.1830    1932.0026   ✗       
+556   VLEMEEEVVLTPQYR          -1.0000     NotChecked  -16.1912    1833.9182   ✗       
+557   VLEMEEEVVLTPGYVR         -1.0000     NotChecked  -16.1924    1861.9495   ✗       
+558   VLEMEEEVVLTPAQVR         -1.0000     NotChecked  -16.1943    1840.9604   ✗       
+559   VLEMEEEVVLTPAGYVR        -1.0000     Failed      -16.2074    1932.9867   ✓       
+560   VLEMEEQ+0.984VVLTPAYVR   -1.0000     NotChecked  -16.2256    1875.9652   ✗       
+561   VLEMQ+0.984EEVVLTPGYVR   -1.0000     NotChecked  -16.2272    1861.9495   ✗       
+562   VLEMEEEVVLTPQQ+0.984VR   -1.0000     NotChecked  -16.2431    1898.9659   ✗       
+563   GLEMEEEVVLTPQYVR         -1.0000     NotChecked  -16.2952    1890.9397   ✗       
+564   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -16.3007    1875.9652   ✗       
+565   VLEMEEEVVLTPGYVR         -1.0000     NotChecked  -16.3009    1861.9495   ✗       
+566   VLEMEEQ+0.984VVLTPAYVR   -1.0000     NotChecked  -16.3017    1875.9652   ✗       
+567   VLEMEQ+0.984EVVLTPAYVR   -1.0000     NotChecked  -16.3023    1875.9652   ✗       
+568   VLEMEMEVVLTPAYVR         -1.0000     NotChecked  -16.3070    1877.9631   ✗       
+569   VLEMEKEVVLTPQYVR         -1.0000     NotChecked  -16.3302    1932.0390   ✗       
+570   VLEMEQEVVLTPQYVR         -1.0000     NotChecked  -16.3341    1932.0026   ✗       
+571   VLDMEEEVVLTPQYVR         -1.0000     NotChecked  -16.3357    1918.9710   ✗       
+572   VLEMEEEVVLTPGGYVR        -1.0000     NotChecked  -16.3418    1918.9710   ✗       
+573   VLEMEEDVVLTPQYVR         -1.0000     NotChecked  -16.3760    1918.9710   ✗       
+574   VLEMEQ+0.984EVVLTPAYVR   -1.0000     NotChecked  -16.3784    1875.9652   ✗       
+575   VLEMEEEVVLTSQYVR         -1.0000     NotChecked  -16.3878    1922.9659   ✗       
+576   VLEMEAEVVLTPQYVR         -1.0000     NotChecked  -16.3908    1874.9812   ✗       
+577   VLEMEEEVVLTPQHVR         -1.0000     NotChecked  -16.3975    1906.9822   ✗       
+578   VLEMEEQ+0.984VVLTPAYVR   -1.0000     NotChecked  -16.4048    1875.9652   ✗       
+579   VLEMEEEVVLTPQQVR         -1.0000     NotChecked  -16.4175    1897.9819   ✗       
+580   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -16.4263    1875.9652   ✗       
+581   VLEMLEEVVLTPQYVR         -1.0000     NotChecked  -16.4275    1917.0281   ✗       
+582   VLQ+0.984MEEEVVLTPGYVR   -1.0000     NotChecked  -16.4565    1861.9495   ✗       
+583   VLEMEQ+0.984Q+0.984VVLTPAYVR-1.0000     NotChecked  -16.4721    1875.9652   ✗       
+584   VLKMEEEVVLTPQYVR         -1.0000     NotChecked  -16.4765    1932.0390   ✗       
+585   VLEMEQ+0.984EVVLTPAYVR   -1.0000     NotChecked  -16.4815    1875.9652   ✗       
+586   VLEMEEEVVLTPQQVR         -1.0000     NotChecked  -16.4936    1897.9819   ✗       
+587   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -16.5024    1875.9652   ✗       
+588   VLEMEEEVVLTPQYGR         -1.0000     NotChecked  -16.5026    1890.9397   ✗       
+589   VLEMELEVVLTPQYVR         -1.0000     NotChecked  -16.5123    1917.0281   ✗       
+590   VLEMEQEVVLTPQYVR         -1.0000     NotChecked  -16.5132    1932.0026   ✗       
+591   VLEMKEEVVLTPQYVR         -1.0000     NotChecked  -16.5185    1932.0390   ✗       
+592   VLEMQ+0.984EEVVLTPAYVR   -1.0000     NotChecked  -16.5215    1875.9652   ✗       
+593   VLEMQ+0.984EQ+0.984VVLTPAYVR-1.0000     NotChecked  -16.5225    1875.9652   ✗       
+594   VLEMEEEVVLTPLYVR         -1.0000     NotChecked  -16.5357    1918.0121   ✗       
+595   VLEMEEEVVLTPAGYVR        -1.0000     Failed      -16.5463    1932.9867   ✓       
+596   VLEVEEEVVLTPQYVR         -1.0000     NotChecked  -16.5693    1901.0146   ✗       
+597   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -16.5731    1932.9867   ✓       
+598   VLQ+0.984MEEEVVLTPAYVR   -1.0000     NotChecked  -16.5820    1875.9652   ✗       
+599   VLEMEEQ+0.984VVLTPQQVR   -1.0000     NotChecked  -16.5873    1897.9819   ✗       
+600   VLAMEEEVVLTPQYVR         -1.0000     NotChecked  -16.5914    1874.9812   ✗       
+601   VLEMEEQ+0.984VVLTPAYVR   -1.0000     NotChecked  -16.5961    1875.9652   ✗       
+602   VLEMEEEVVLTPQQVR         -1.0000     NotChecked  -16.5966    1897.9819   ✗       
+603   VLEMQ+0.984Q+0.984EVVLTPAYVR-1.0000     NotChecked  -16.5992    1875.9652   ✗       
+604   +43.006LEMEEEVVLTPQYVR   -1.0000     NotChecked  -16.6026    1876.9241   ✗       
+605   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -16.6054    1875.9652   ✗       
+606   VLEMEEEVVLTPAFVR         -1.0000     NotChecked  -16.6270    1859.9703   ✗       
+607   VLEMEEKVVLTPQYVR         -1.0000     NotChecked  -16.6437    1932.0390   ✗       
+608   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -16.6535    1875.9652   ✗       
+609   VLQ+0.984MEEEVVLTPAYVR   -1.0000     NotChecked  -16.6581    1875.9652   ✗       
+610   VLEMVEEVVLTPQYVR         -1.0000     NotChecked  -16.6582    1903.0125   ✗       
+611   VLEMEQ+0.984EVVLTPQQVR   -1.0000     NotChecked  -16.6640    1897.9819   ✗       
+612   VLVMEEEVVLTPQYVR         -1.0000     NotChecked  -16.6719    1903.0125   ✗       
+613   VLEMEQ+0.984EVVLTPAYVR   -1.0000     NotChecked  -16.6728    1875.9652   ✗       
+614   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -16.6938    1932.9867   ✓       
+615   VAEMEEEVVLTPQYVR         -1.0000     NotChecked  -16.6967    1890.9397   ✗       
+616   VLEMQ+0.984EEVVLTPQQVR   -1.0000     NotChecked  -16.7143    1897.9819   ✗       
+617   VLEMEEEVVLTPLYVR         -1.0000     NotChecked  -16.7148    1918.0121   ✗       
+618   VLEMQ+0.984EEVVLTPAYVR   -1.0000     NotChecked  -16.7231    1875.9652   ✗       
+619   VLEMEEEVVLTPQYV          -1.0000     NotChecked  -16.7410    1776.8855   ✗       
+620   VLQ+0.984MEEQ+0.984VVLTPAYVR-1.0000     NotChecked  -16.7518    1875.9652   ✗       
+621   VLQ+0.984MEEEVVLTPAYVR   -1.0000     NotChecked  -16.7611    1875.9652   ✗       
+622   VLEMEEEVVLTAQYVR         -1.0000     NotChecked  -16.7652    1906.9710   ✗       
+623   +43.006LEMEEEVVLTPQYVR   -1.0000     NotChecked  -16.7818    1876.9241   ✗       
+624   VLELEEEVVLTPQYVR         -1.0000     NotChecked  -16.7845    1915.0302   ✗       
+625   VLEMEEEVVLTPQQVR         -1.0000     NotChecked  -16.7880    1897.9819   ✗       
+626   VLLMEEEVVLTPQYVR         -1.0000     NotChecked  -16.8012    1917.0281   ✗       
+627   VLEMEEEVVLTPAGYVR        -1.0000     Failed      -16.8116    1932.9867   ✓       
+628   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -16.8194    1932.9867   ✓       
+629   VLQ+0.984MEQ+0.984EVVLTPAYVR-1.0000     NotChecked  -16.8285    1875.9652   ✗       
+630   VLEMESEVVLTPQYVR         -1.0000     NotChecked  -16.8360    1890.9761   ✗       
+631   VLEMEEVVVLTPQYVR         -1.0000     NotChecked  -16.8403    1903.0125   ✗       
+632   VLEMEEEVVLTPQLVR         -1.0000     NotChecked  -16.8505    1883.0074   ✗       
+633   VLEMEEQVVLTPQYVR         -1.0000     NotChecked  -16.8511    1932.0026   ✗       
+634   VLEMEEEVVLTPGYVR         -1.0000     NotChecked  -16.8694    1861.9495   ✗       
+635   VLQ+0.984MQ+0.984EEVVLTPAYVR-1.0000     NotChecked  -16.8788    1875.9652   ✗       
+636   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -16.8954    1932.9867   ✓       
+637   VLEMEELVVLTPQYVR         -1.0000     NotChecked  -16.9021    1917.0281   ✗       
+638   VLEMEEN+0.984VVLTPQYVR   -1.0000     NotChecked  -16.9125    1918.9710   ✗       
+639   VVEMEEEVVLTPAYVR         -1.0000     NotChecked  -16.9194    1861.9495   ✗       
+640   VTEMEEEVVLTPQYVR         -1.0000     NotChecked  -16.9274    1920.9503   ✗       
+641   VLQ+0.984MEEEVVLTPQQVR   -1.0000     NotChecked  -16.9437    1897.9819   ✗       
+642   VLQ+0.984MEEEVVLTPAYVR   -1.0000     NotChecked  -16.9525    1875.9652   ✗       
+643   VLEMEEEVVLTPGYVR         -1.0000     NotChecked  -16.9725    1861.9495   ✗       
+644   VLEMEEQ+0.984VVLTPGYVR   -1.0000     NotChecked  -16.9735    1861.9495   ✗       
+645   VLEMETEVVLTPQYVR         -1.0000     NotChecked  -16.9746    1904.9917   ✗       
+646   VLEMEQEVVLTPAYVR         -1.0000     NotChecked  -16.9841    1874.9812   ✗       
+647   VLEEEEEVVLTPQYVR         -1.0000     NotChecked  -16.9881    1930.9888   ✗       
+648   VLEMQ+0.984Q+0.984Q+0.984VVLTPQYVR-1.0000     Failed      -16.9922    1932.9867   ✓       
+649   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -16.9949    1875.9652   ✗       
+650   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -16.9985    1932.9867   ✓       
+651   VLEMEEEVVLTPQFVR         -1.0000     NotChecked  -17.0191    1916.9917   ✗       
+652   VLEMEEQ+0.984VVLTPQFVR   -1.0000     NotChecked  -17.0201    1916.9917   ✗       
+653   VLEMEEQVVLTPQYVR         -1.0000     NotChecked  -17.0302    1932.0026   ✗       
+654   VLGMEEEVVLTPQYVR         -1.0000     NotChecked  -17.0429    1860.9655   ✗       
+655   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -17.0430    1875.9652   ✗       
+656   VSEMEEEVVLTPQYVR         -1.0000     NotChecked  -17.0468    1906.9346   ✗       
+657   VLEMEQ+0.984EVVLTPGYVR   -1.0000     NotChecked  -17.0502    1861.9495   ✗       
+658   VLEMAEEVVLTPQYVR         -1.0000     NotChecked  -17.0541    1874.9812   ✗       
+659   VLEMEEEVVLTPGYVR         -1.0000     NotChecked  -17.0656    1861.9495   ✗       
+660   VLEMEEEVVLTPAQVR         -1.0000     NotChecked  -17.0675    1840.9604   ✗       
+661   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -17.0740    1875.9652   ✗       
+662   VLEMQ+0.984EEVVLTPGYVR   -1.0000     NotChecked  -17.0902    1861.9495   ✗       
+663   VLEMEQ+0.984EVVLTPQFVR   -1.0000     NotChecked  -17.0968    1916.9917   ✗       
+664   VLEMEEEVVLTPQQ+0.984VR   -1.0000     NotChecked  -17.1164    1898.9659   ✗       
+665   VLEMEEQ+0.984VVLTPAYVR   -1.0000     NotChecked  -17.1647    1875.9652   ✗       
+666   VLEMEMEVVLTPAYVR         -1.0000     NotChecked  -17.1699    1877.9631   ✗       
+667   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -17.1740    1875.9652   ✗       
+668   VLEMEEEVVLTPGYVR         -1.0000     NotChecked  -17.1741    1861.9495   ✗       
+669   VLEMEEEVVLTGQYVR         -1.0000     NotChecked  -17.1815    1892.9554   ✗       
+670   VLEMEKEVVLTPQYVR         -1.0000     NotChecked  -17.1931    1932.0390   ✗       
+671   VLEMEEEVVLTPGGYVR        -1.0000     NotChecked  -17.2048    1918.9710   ✗       
+672   VLDMEEEVVLTPQYVR         -1.0000     NotChecked  -17.2090    1918.9710   ✗       
+673   VLEMQ+0.984EEVVLTPAYVR   -1.0000     NotChecked  -17.2156    1875.9652   ✗       
+674   VLEMEEEVVLTPQFVR         -1.0000     NotChecked  -17.2208    1916.9917   ✗       
+675   +42.011LEMEEEVVLTPQYVR   -1.0000     NotChecked  -17.2285    1875.9288   ✗       
+676   VLEMEEDVVLTPQYVR         -1.0000     NotChecked  -17.2389    1918.9710   ✗       
+677   VLEMEQ+0.984EVVLTPAYVR   -1.0000     NotChecked  -17.2414    1875.9652   ✗       
+678   +43.006LEMEEEVVLTPAYVR   -1.0000     NotChecked  -17.2527    1819.9026   ✗       
+679   VLEMEEEVVLTSQYVR         -1.0000     NotChecked  -17.2611    1922.9659   ✗       
+680   VLEMEAEVVLTPQYVR         -1.0000     NotChecked  -17.2641    1874.9812   ✗       
+681   VLEMEEQ+0.984VVLTPAYVR   -1.0000     NotChecked  -17.2677    1875.9652   ✗       
+682   VLEMEEEVVLTPQHVR         -1.0000     NotChecked  -17.2708    1906.9822   ✗       
+683   VLEMEEEVVLTPQYVQ         -1.0000     NotChecked  -17.2867    1904.9441   ✗       
+684   VLEMLEEVVLTPQYVR         -1.0000     NotChecked  -17.2905    1917.0281   ✗       
+685   VLEMQ+0.984EEVVLTPAYVR   -1.0000     NotChecked  -17.2917    1875.9652   ✗       
+686   VLEMEEEVVLSPQYVR         -1.0000     NotChecked  -17.3035    1918.9710   ✗       
+687   VVEMEEQ+0.984VVLTPQYVR   -1.0000     NotChecked  -17.3125    1918.9710   ✗       
+688   VLQMEEEVVLTPQYVR         -1.0000     NotChecked  -17.3243    1932.0026   ✗       
+689   VLQ+0.984MEEEVVLTPGYVR   -1.0000     NotChecked  -17.3298    1861.9495   ✗       
+690   VLEMEQ+0.984EVVLTPAYVR   -1.0000     NotChecked  -17.3444    1875.9652   ✗       
+691   VLEMEQ+0.984Q+0.984VVLTPAYVR-1.0000     NotChecked  -17.3454    1875.9652   ✗       
+692   VLEMEEEVVLTPQQVR         -1.0000     NotChecked  -17.3566    1897.9819   ✗       
+693   VLEMEEEVVLTGQYVR         -1.0000     NotChecked  -17.3606    1892.9554   ✗       
+694   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -17.3654    1875.9652   ✗       
+695   VLEMEEEVVLTPQGVR         -1.0000     NotChecked  -17.3716    1826.9448   ✗       
+696   VLEMEQEVVLTPQYVR         -1.0000     NotChecked  -17.3762    1932.0026   ✗       
+697   VLQ+0.984MEEEVVLTPQFVR   -1.0000     NotChecked  -17.3764    1916.9917   ✗       
+698   VLEMEQQ+0.984VVLTPQYVR   -1.0000     NotChecked  -17.3772    1932.0026   ✗       
+699   VLEMQ+0.984EQ+0.984VVLTPAYVR-1.0000     NotChecked  -17.3854    1875.9652   ✗       
+700   VLEMELEVVLTPQYVR         -1.0000     NotChecked  -17.3856    1917.0281   ✗       
+701   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -17.3879    1932.9867   ✓       
+702   VVEMEQ+0.984EVVLTPQYVR   -1.0000     NotChecked  -17.3892    1918.9710   ✗       
+703   VLEMQ+0.984EEVVLTPAYVR   -1.0000     NotChecked  -17.3948    1875.9652   ✗       
+704   +42.011LEMEEEVVLTPQYVR   -1.0000     NotChecked  -17.4077    1875.9288   ✗       
+705   VLEMEEEVVLTPAGYVR        -1.0000     Failed      -17.4196    1932.9867   ✓       
+706   LEMEEEVVLTPQYVR          -1.0000     NotChecked  -17.4265    1833.9182   ✗       
+707   VLEMEEEVVLTPQVVR         -1.0000     NotChecked  -17.4272    1868.9917   ✗       
+708   VLEVEEEVVLTPQYVR         -1.0000     NotChecked  -17.4323    1901.0146   ✗       
+709   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -17.4361    1932.9867   ✓       
+710   VLAMEEEVVLTPQYVR         -1.0000     NotChecked  -17.4544    1874.9812   ✗       
+711   VLEMEEEVVLTPQQVR         -1.0000     NotChecked  -17.4596    1897.9819   ✗       
+712   VLEMEEEVVLTPQNVR         -1.0000     NotChecked  -17.4599    1883.9663   ✗       
+713   VLEMEEQ+0.984VVLTPQQVR   -1.0000     NotChecked  -17.4606    1897.9819   ✗       
+714   VLEMQ+0.984Q+0.984EVVLTPAYVR-1.0000     NotChecked  -17.4621    1875.9652   ✗       
+715   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -17.4671    1932.9867   ✓       
+716   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -17.4684    1875.9652   ✗       
+717   VLEMEEQ+0.984VVLTPAYVR   -1.0000     NotChecked  -17.4694    1875.9652   ✗       
+718   VLEMEEEVVLTPAFVR         -1.0000     NotChecked  -17.4900    1859.9703   ✗       
+719   VLEMEEQVVLTPAYVR         -1.0000     NotChecked  -17.5011    1874.9812   ✗       
+720   VLQMEEEVVLTPQYVR         -1.0000     NotChecked  -17.5034    1932.0026   ✗       
+721   VLEMEEKVVLTPQYVR         -1.0000     NotChecked  -17.5066    1932.0390   ✗       
+722   VVEMEEEVVLTPQYVR         -1.0000     NotChecked  -17.5132    1918.9710   ✗       
+723   VLEMEEEVVLTPQYVK         -1.0000     NotChecked  -17.5141    1904.9805   ✗       
+724   VLEMEEEVVLTPAYVR         -1.0000     NotChecked  -17.5165    1875.9652   ✗       
+725   VLQ+0.984MEEEVVLTPAYVR   -1.0000     NotChecked  -17.5210    1875.9652   ✗       
+726   VLEMVEEVVLTPQYVR         -1.0000     NotChecked  -17.5315    1903.0125   ✗       
+727   VLEMEQ+0.984EVVLTPQQVR   -1.0000     NotChecked  -17.5373    1897.9819   ✗       
+728   VLVMEEEVVLTPQYVR         -1.0000     NotChecked  -17.5451    1903.0125   ✗       
+729   VLEMEQ+0.984EVVLTPAYVR   -1.0000     NotChecked  -17.5461    1875.9652   ✗       
+730   VLEMEEEVVLTPQGVR         -1.0000     NotChecked  -17.5507    1826.9448   ✗       
+731   VAEMEEEVVLTPQYVR         -1.0000     NotChecked  -17.5597    1890.9397   ✗       
+732   VLEMEEQ+0.984VVLTPQYVR   -1.0000     Failed      -17.5671    1932.9867   ✓       
+733   VLEMQ+0.984EEVVLTPQQVR   -1.0000     NotChecked  -17.5773    1897.9819   ✗       
+734   VLEMEEEVVLTPLYVR         -1.0000     NotChecked  -17.5778    1918.0121   ✗       
+735   VLEMEQEVVLTPQYVR         -1.0000     NotChecked  -17.5778    1932.0026   ✗       
+736   VLEMEEEVVLTPNYVR         -1.0000     NotChecked  -17.5785    1918.9710   ✗       
+737   VLEMEEQ+0.984VVLTPLYVR   -1.0000     NotChecked  -17.5788    1918.0121   ✗       
+738   VLEMQ+0.984EEVVLTPAYVR   -1.0000     NotChecked  -17.5861    1875.9652   ✗       
+739   +43.006LEMEEQ+0.984VVLTPQYVR-1.0000     NotChecked  -17.6457    1876.9241   ✗       
+740   +43.006LEMEQ+0.984EVVLTPQYVR-1.0000     NotChecked  -17.7224    1876.9241   ✗       
+741   +43.006LEMEEEVVLTPQYVR   -1.0000     NotChecked  -17.8464    1876.9241   ✗       
+742   +42.011LEMEEEVVLTPAYVR   -1.0000     NotChecked  -17.8786    1818.9073   ✗       
+743   +43.006LQ+0.984MEEEVVLTPQYVR-1.0000     NotChecked  -18.0021    1876.9241   ✗       
+744   LLEMEEEVVLTPAYVR         -1.0000     NotChecked  -18.0766    1889.9808   ✗       
+745   +43.006VLEMEEEVVLTPAYVR  -1.0000     NotChecked  -18.1156    1918.9710   ✗       
+746   +42.011LEMEEQ+0.984VVLTPQYVR-1.0000     NotChecked  -18.2716    1875.9288   ✗       
+747   +43.006LEMEEEVVLTPQYVR   -1.0000     NotChecked  -18.3389    1876.9241   ✗       
+748   +42.011LEMEQ+0.984EVVLTPQYVR-1.0000     NotChecked  -18.3483    1875.9288   ✗       
+749   +43.006LEMEEEVVLTPQYVR   -1.0000     NotChecked  -18.4150    1876.9241   ✗       
+750   +42.011LEMEEEVVLTPQYVR   -1.0000     NotChecked  -18.4723    1875.9288   ✗       
+751   +43.006LEMEEEVVLTPQYVR   -1.0000     NotChecked  -18.5180    1876.9241   ✗       
+752   +42.011LQ+0.984MEEEVVLTPQYVR-1.0000     NotChecked  -18.6280    1875.9288   ✗       
+753   GLEMEEEVVLTPQYVR         -1.0000     NotChecked  -18.6299    1890.9397   ✗       
+754   +43.006LEMQ+0.984EEVVLTPQYVR-1.0000     NotChecked  -18.6357    1876.9241   ✗       
+755   +42.011VLEMEEEVVLTPAYVR  -1.0000     NotChecked  -18.7416    1917.9758   ✗       
+756   GLEMEEEVVLTPQYVR         -1.0000     NotChecked  -18.8091    1890.9397   ✗       
+757   +42.011LEMEEEVVLTPQYVR   -1.0000     NotChecked  -18.9648    1875.9288   ✗       
+758   +43.006LEMEEEVVLTPAYVR   -1.0000     NotChecked  -18.9889    1819.9026   ✗       
+759   +42.011LEMEEEVVLTPQYVR   -1.0000     NotChecked  -19.0409    1875.9288   ✗       
+760   +42.011LEMEEEVVLTPQYVR   -1.0000     NotChecked  -19.1439    1875.9288   ✗       
+761   LEMEEEVVLTPQYVR          -1.0000     NotChecked  -19.1628    1833.9182   ✗       
+762   MLEMEEEVVLTPAYVR         -1.0000     NotChecked  -19.2525    1907.9373   ✗       
+763   +42.011LEMQ+0.984EEVVLTPQYVR-1.0000     NotChecked  -19.2616    1875.9288   ✗       
+764   GLEMEEEVVLTPAYVR         -1.0000     NotChecked  -19.2800    1833.9182   ✗       
+765   +43.006LEMEEQ+0.984VVLTPQYVR-1.0000     NotChecked  -19.3820    1876.9241   ✗       
+766   +43.006LEMEQ+0.984EVVLTPQYVR-1.0000     NotChecked  -19.4587    1876.9241   ✗       
+767   +43.006LEMEEEVVLTPQYVR   -1.0000     NotChecked  -19.5826    1876.9241   ✗       
+768   +42.011LEMEEEVVLTPAYVR   -1.0000     NotChecked  -19.6148    1818.9073   ✗       
+769   GLEMEEQ+0.984VVLTPQYVR   -1.0000     NotChecked  -19.6730    1890.9397   ✗       
+770   +43.006LQ+0.984MEEEVVLTPQYVR-1.0000     NotChecked  -19.7383    1876.9241   ✗       
+771   GLEMEQ+0.984EVVLTPQYVR   -1.0000     NotChecked  -19.7497    1890.9397   ✗       
+772   LLEMEEEVVLTPAYVR         -1.0000     NotChecked  -19.8128    1889.9808   ✗       
+773   +43.006VLEMEEEVVLTPAYVR  -1.0000     NotChecked  -19.8519    1918.9710   ✗       
+774   GLEMEEEVVLTPQYVR         -1.0000     NotChecked  -19.8737    1890.9397   ✗       
+775   +42.011LEMEEQ+0.984VVLTPQYVR-1.0000     NotChecked  -20.0079    1875.9288   ✗       
+776   GLQ+0.984MEEEVVLTPQYVR   -1.0000     NotChecked  -20.0294    1890.9397   ✗       
+777   +42.011LEMEQ+0.984EVVLTPQYVR-1.0000     NotChecked  -20.0846    1875.9288   ✗       
+778   +43.006LEMEEEVVLTPQYVR   -1.0000     NotChecked  -20.1512    1876.9241   ✗       
+779   +42.011LEMEEEVVLTPQYVR   -1.0000     NotChecked  -20.2085    1875.9288   ✗       
+780   +42.011LQ+0.984MEEEVVLTPQYVR-1.0000     NotChecked  -20.3642    1875.9288   ✗       
+781   GLEMEEEVVLTPQYVR         -1.0000     NotChecked  -20.3662    1890.9397   ✗       
+782   +43.006LEMQ+0.984EEVVLTPQYVR-1.0000     NotChecked  -20.3720    1876.9241   ✗       
+783   GLEMEEEVVLTPQYVR         -1.0000     NotChecked  -20.4423    1890.9397   ✗       
+784   +42.011VLEMEEEVVLTPAYVR  -1.0000     NotChecked  -20.4778    1917.9758   ✗       
+785   GLEMEEEVVLTPQYVR         -1.0000     NotChecked  -20.5453    1890.9397   ✗       
+786   TLEMEEEVVLTPAYVR         -1.0000     NotChecked  -20.5458    1877.9445   ✗       
+787   GLEMQ+0.984EEVVLTPQYVR   -1.0000     NotChecked  -20.6630    1890.9397   ✗       
+788   KLEMEEEVVLTPAYVR         -1.0000     NotChecked  -20.6840    1904.9917   ✗       
+789   DLEMEEEVVLTPAYVR         -1.0000     NotChecked  -20.7663    1891.9237   ✗       
+790   +42.011LEMEEEVVLTPQYVR   -1.0000     NotChecked  -20.7771    1875.9288   ✗       
+791   +43.006LEMEEEVVLTPQYVR   -1.0000     NotChecked  -20.8527    1876.9241   ✗       
+792   MLEMEEEVVLTPAYVR         -1.0000     NotChecked  -20.9887    1907.9373   ✗       
+793   +42.011LEMQ+0.984EEVVLTPQYVR-1.0000     NotChecked  -20.9979    1875.9288   ✗       
+794   GLEMEEEVVLTPAYVR         -1.0000     NotChecked  -21.0162    1833.9182   ✗       
+795   +43.006LEMEEEVVLTPAYVR   -1.0000     NotChecked  -21.3236    1819.9026   ✗       
+796   GLEMEEQ+0.984VVLTPQYVR   -1.0000     NotChecked  -21.4093    1890.9397   ✗       
+797   +42.011LEMEEEVVLTPQYVR   -1.0000     NotChecked  -21.4786    1875.9288   ✗       
+798   GLEMEQ+0.984EVVLTPQYVR   -1.0000     NotChecked  -21.4860    1890.9397   ✗       
+799   +43.006LEMEEEVVLTPQ+0.984YVR-1.0000     NotChecked  -21.4975    1877.9081   ✗       
+800   +43.006LEMEEEVVLTPAYVR   -1.0000     NotChecked  -21.5028    1819.9026   ✗       
+801   GLEMEEEVVLTPQYVR         -1.0000     NotChecked  -21.6099    1890.9397   ✗       
+802   +43.006LEMEEEVVLTPQYVR   -1.0000     NotChecked  -21.6711    1876.9241   ✗       
+803   LEMEEEVVLTPQYVR          -1.0000     NotChecked  -21.6766    1833.9182   ✗       
+804   +43.006LEMEEQ+0.984VVLTPQYVR-1.0000     NotChecked  -21.7167    1876.9241   ✗       
+805   GLQ+0.984MEEEVVLTPQYVR   -1.0000     NotChecked  -21.7656    1890.9397   ✗       
+806   +43.006LEMEQ+0.984EVVLTPQYVR-1.0000     NotChecked  -21.7934    1876.9241   ✗       
+807   +43.006LEMEMEVVLTPQYVR   -1.0000     NotChecked  -21.7980    1878.9220   ✗       
+808   +43.006LEMEEQ+0.984VVLTPQYVR-1.0000     NotChecked  -21.8958    1876.9241   ✗       
+809   +43.006LEMEEEVVLTPQYVR   -1.0000     NotChecked  -21.9173    1876.9241   ✗       
+810   +42.011LEMEEEVVLTPAYVR   -1.0000     NotChecked  -21.9495    1818.9073   ✗       
+811   +43.006LEMEQ+0.984EVVLTPQYVR-1.0000     NotChecked  -21.9725    1876.9241   ✗       
+812   +43.006LEMEEEVVLTPGYVR   -1.0000     NotChecked  -22.0715    1805.8869   ✗       
+813   +43.006LQ+0.984MEEEVVLTPQYVR-1.0000     NotChecked  -22.0730    1876.9241   ✗       
+814   +43.006LEMEEEVVLTPQYVR   -1.0000     NotChecked  -22.0965    1876.9241   ✗       
+815   +42.011LEMEEEVVLTPQ+0.984YVR-1.0000     NotChecked  -22.1234    1876.9128   ✗       
+816   +42.011LEMEEEVVLTPAYVR   -1.0000     NotChecked  -22.1287    1818.9073   ✗       
+817   LEMEEEVVLTPAYVR          -1.0000     NotChecked  -22.1475    1776.8968   ✗       
+818   GLEMEEEVVLTPQYVR         -1.0000     NotChecked  -22.1785    1890.9397   ✗       
+819   +43.006LQ+0.984MEEEVVLTPQYVR-1.0000     NotChecked  -22.2522    1876.9241   ✗       
+820   TLEMEEEVVLTPAYVR         -1.0000     NotChecked  -22.2821    1877.9445   ✗       
+821   +42.011LEMEEEVVLTPQYVR   -1.0000     NotChecked  -22.2970    1875.9288   ✗       
+822   LLEMEEEVVLTPAYVR         -1.0000     NotChecked  -22.3267    1889.9808   ✗       
+823   +42.011LEMEEQ+0.984VVLTPQYVR-1.0000     NotChecked  -22.3426    1875.9288   ✗       
+824   +43.006VLEMEEEVVLTPAYVR  -1.0000     NotChecked  -22.3657    1918.9710   ✗       
+825   +43.006LEMEEQ+0.984VVLTPAYVR-1.0000     NotChecked  -22.3667    1819.9026   ✗       
+826   GLEMQ+0.984EEVVLTPQYVR   -1.0000     NotChecked  -22.3993    1890.9397   ✗       
+827   +42.011LEMEQ+0.984EVVLTPQYVR-1.0000     NotChecked  -22.4193    1875.9288   ✗       
+828   KLEMEEEVVLTPAYVR         -1.0000     NotChecked  -22.4202    1904.9917   ✗       
+829   +42.011LEMEMEVVLTPQYVR   -1.0000     NotChecked  -22.4239    1877.9267   ✗       
+830   +43.006LEMEQ+0.984EVVLTPAYVR-1.0000     NotChecked  -22.4434    1819.9026   ✗       
+831   +43.006LEMEEEVVLTPGAYVR  -1.0000     NotChecked  -22.4589    1876.9241   ✗       
+832   +43.006LEMEEEVVLTPQYVR   -1.0000     NotChecked  -22.4859    1876.9241   ✗       
+833   DLEMEEEVVLTPAYVR         -1.0000     NotChecked  -22.5026    1891.9237   ✗       
+834   +42.011LEMEEQ+0.984VVLTPQYVR-1.0000     NotChecked  -22.5217    1875.9288   ✗       
+835   LEMEEQ+0.984VVLTPQYVR    -1.0000     NotChecked  -22.5406    1833.9182   ✗       
+836   +42.011LEMEEEVVLTPQYVR   -1.0000     NotChecked  -22.5433    1875.9288   ✗       
+837   +43.006LEMEEEVVLTPQQVR   -1.0000     NotChecked  -22.5586    1841.9193   ✗       
+838   +43.006LEMEEEVVLTPAYVR   -1.0000     NotChecked  -22.5674    1819.9026   ✗       
+839   +43.006LEMEEEVVLTPQYVR   -1.0000     NotChecked  -22.5890    1876.9241   ✗       
+840   +42.011LEMEQ+0.984EVVLTPQYVR-1.0000     NotChecked  -22.5984    1875.9288   ✗       
+841   LEMEQ+0.984EVVLTPQYVR    -1.0000     NotChecked  -22.6173    1833.9182   ✗       
+842   LEMEEEVVLTPGQYVR         -1.0000     NotChecked  -22.6328    1890.9397   ✗       
+843   +43.006LEMEEEVVLTPQYVR   -1.0000     NotChecked  -22.6651    1876.9241   ✗       
+844   +42.011LEMEEEVVLTPGYVR   -1.0000     NotChecked  -22.6974    1804.8917   ✗       
+845   +42.011LQ+0.984MEEEVVLTPQYVR-1.0000     NotChecked  -22.6989    1875.9288   ✗       
+846   +43.006LEMQ+0.984EEVVLTPQYVR-1.0000     NotChecked  -22.7067    1876.9241   ✗       
+847   +42.011LEMEEEVVLTPQYVR   -1.0000     NotChecked  -22.7224    1875.9288   ✗       
+848   +43.006LQ+0.984MEEEVVLTPAYVR-1.0000     NotChecked  -22.7231    1819.9026   ✗       
+849   LEMEEEVVLTPQYVR          -1.0000     NotChecked  -22.7413    1833.9182   ✗       
+850   +43.006LEMEQ+0.984Q+0.984VVLTPQYVR-1.0000     NotChecked  -22.8365    1876.9241   ✗       
+851   +42.011LQ+0.984MEEEVVLTPQYVR-1.0000     NotChecked  -22.8781    1875.9288   ✗       
+852   GLEMEEEVVLTPQYVR         -1.0000     NotChecked  -22.8800    1890.9397   ✗       
+853   +43.006LEMQ+0.984EEVVLTPQYVR-1.0000     NotChecked  -22.8858    1876.9241   ✗       
+854   LLEMEEEVVLTPGYVR         -1.0000     NotChecked  -22.8954    1875.9652   ✗       
+855   LQ+0.984MEEEVVLTPQYVR    -1.0000     NotChecked  -22.8969    1833.9182   ✗       
+856   +43.006VLEMEEEVVLTPGYVR  -1.0000     NotChecked  -22.9344    1904.9554   ✗       
+857   +43.006LEMEEQ+0.984VVLTPQYVR-1.0000     NotChecked  -22.9605    1876.9241   ✗       
+858   +42.011VLEMEEEVVLTPAYVR  -1.0000     NotChecked  -22.9917    1917.9758   ✗       
+859   +42.011LEMEEQ+0.984VVLTPAYVR-1.0000     NotChecked  -22.9927    1818.9073   ✗       
+860   +43.006LEMEEEVVLTPYYVR   -1.0000     NotChecked  -23.0050    1911.9288   ✗       
+861   +43.006LEMEQ+0.984EVVLTPQYVR-1.0000     NotChecked  -23.0371    1876.9241   ✗       
+862   +43.006LEMEEEVVLTPAYVR   -1.0000     NotChecked  -23.0599    1819.9026   ✗       
+863   +42.011LEMEQ+0.984EVVLTPAYVR-1.0000     NotChecked  -23.0693    1818.9073   ✗       
+864   +42.011LEMEEEVVLTPGAYVR  -1.0000     NotChecked  -23.0848    1875.9288   ✗       
+865   +42.011LEMEEEVVLTPQYVR   -1.0000     NotChecked  -23.1119    1875.9288   ✗       
+866   +43.006LQ+0.984MEEQ+0.984VVLTPQYVR-1.0000     NotChecked  -23.1161    1876.9241   ✗       
+867   +43.006LEMEEEVVLTPAYVR   -1.0000     NotChecked  -23.1360    1819.9026   ✗       
+868   +42.011LEMEEEVVLTPQQVR   -1.0000     NotChecked  -23.1845    1840.9241   ✗       
+869   LLEMEEQ+0.984VVLTPAYVR   -1.0000     NotChecked  -23.1906    1889.9808   ✗       
+870   +43.006LQ+0.984MEQ+0.984EVVLTPQYVR-1.0000     NotChecked  -23.1928    1876.9241   ✗       
+871   +42.011LEMEEEVVLTPAYVR   -1.0000     NotChecked  -23.1933    1818.9073   ✗       
+872   +42.011LEMEEEVVLTPQYVR   -1.0000     NotChecked  -23.2149    1875.9288   ✗       
+873   +43.006VLEMEEQ+0.984VVLTPAYVR-1.0000     NotChecked  -23.2297    1918.9710   ✗       
+874   +43.006LEMEEEVVLTPQ+0.984YVR-1.0000     NotChecked  -23.2337    1877.9081   ✗       
+875   +43.006LEMEEEVVLTPAYVR   -1.0000     NotChecked  -23.2390    1819.9026   ✗       
+876   LLEMEQ+0.984EVVLTPAYVR   -1.0000     NotChecked  -23.2673    1889.9808   ✗       
+877   +42.011LEMEEEVVLTPQYVR   -1.0000     NotChecked  -23.2910    1875.9288   ✗       
+878   +43.006VLEMEQ+0.984EVVLTPAYVR-1.0000     NotChecked  -23.3064    1918.9710   ✗       
+879   LEMEEEVVLTPQYVR          -1.0000     NotChecked  -23.3098    1833.9182   ✗       
+880   +43.006LQ+0.984MEEEVVLTPQYVR-1.0000     NotChecked  -23.3168    1876.9241   ✗       
+881   MLEMEEEVVLTPAYVR         -1.0000     NotChecked  -23.3234    1907.9373   ✗       
+882   +42.011LEMQ+0.984EEVVLTPQYVR-1.0000     NotChecked  -23.3326    1875.9288   ✗       
+883   +42.011LQ+0.984MEEEVVLTPAYVR-1.0000     NotChecked  -23.3490    1818.9073   ✗       
+884   GLEMEEEVVLTPAYVR         -1.0000     NotChecked  -23.3509    1833.9182   ✗       
+885   +43.006LEMQ+0.984EEVVLTPAYVR-1.0000     NotChecked  -23.3567    1819.9026   ✗       
+886   LLEMEEEVVLTPQQVR         -1.0000     NotChecked  -23.3825    1911.9976   ✗       
+887   LLEMEEEVVLTPAYVR         -1.0000     NotChecked  -23.3913    1889.9808   ✗       
+888   +43.006LEMEEEVVLTPQYVR   -1.0000     NotChecked  -23.4074    1876.9241   ✗       
+889   LEMEEEVVLTPQYVR          -1.0000     NotChecked  -23.4129    1833.9182   ✗       
+890   +43.006VLEMEEEVVLTPAYVR  -1.0000     NotChecked  -23.4304    1918.9710   ✗       
+891   +43.006LEMEEQ+0.984VVLTPQYVR-1.0000     NotChecked  -23.4529    1876.9241   ✗       
+892   +42.011LEMEQ+0.984Q+0.984VVLTPQYVR-1.0000     NotChecked  -23.4624    1875.9288   ✗       
+893   +43.006LEMEEEVVLTPGAYVR  -1.0000     NotChecked  -23.4713    1876.9241   ✗       
+894   MLEMEEEVVLTPAYVR         -1.0000     NotChecked  -23.5026    1907.9373   ✗       
+895   +42.011LEMQ+0.984EEVVLTPQYVR-1.0000     NotChecked  -23.5117    1875.9288   ✗       
+896   GLEMEEEVVLTPQ+0.984YVR   -1.0000     NotChecked  -23.5248    1891.9237   ✗       
+897   +43.006LEMEEQ+0.984VVLTPQYVR-1.0000     NotChecked  -23.5290    1876.9241   ✗       
+898   +43.006LEMEQ+0.984EVVLTPQYVR-1.0000     NotChecked  -23.5296    1876.9241   ✗       
+899   GLEMEEEVVLTPAYVR         -1.0000     NotChecked  -23.5301    1833.9182   ✗       
+900   LEMQ+0.984EEVVLTPQYVR    -1.0000     NotChecked  -23.5306    1833.9182   ✗       
+901   +43.006LEMEMEVVLTPQYVR   -1.0000     NotChecked  -23.5343    1878.9220   ✗       
+902   LLQ+0.984MEEEVVLTPAYVR   -1.0000     NotChecked  -23.5470    1889.9808   ✗       
+903   +42.011LEMEQ+0.984EVVLTPGQYVR-1.0000     Failed      -23.5546    1932.9503   ✓       
+904   +42.011VLEMEEEVVLTPGYVR  -1.0000     NotChecked  -23.5604    1903.9601   ✗       
+905   +43.006VLQ+0.984MEEEVVLTPAYVR-1.0000     NotChecked  -23.5860    1918.9710   ✗       
+906   +42.011LEMEEQ+0.984VVLTPQYVR-1.0000     NotChecked  -23.5864    1875.9288   ✗       
+907   +43.006LEMEQ+0.984EVVLTPQYVR-1.0000     NotChecked  -23.6057    1876.9241   ✗       
+908   +42.011LEMEEEVVLTPYYVR   -1.0000     NotChecked  -23.6309    1910.9336   ✗       
+909   +43.006LEMEEQ+0.984VVLTPQYVR-1.0000     NotChecked  -23.6321    1876.9241   ✗       
+910   LEMEEEVVLTPGQYVR         -1.0000     NotChecked  -23.6452    1890.9397   ✗       
+911   +43.006LEMEEEVVLTPQYVR   -1.0000     NotChecked  -23.6536    1876.9241   ✗       
+912   +42.011LEMEQ+0.984EVVLTPQYVR-1.0000     NotChecked  -23.6631    1875.9288   ✗       
+913   +42.011LEMEEEVVLTPAYVR   -1.0000     NotChecked  -23.6858    1818.9073   ✗       
+914   GLEMEEEVVLTPQYVR         -1.0000     NotChecked  -23.6984    1890.9397   ✗       
+915   +43.006LEMEQ+0.984EVVLTPQYVR-1.0000     NotChecked  -23.7088    1876.9241   ✗       
+916   +43.006LEMEEEVVLTPQYVR   -1.0000     NotChecked  -23.7297    1876.9241   ✗       
+917   +42.011LQ+0.984MEEQ+0.984VVLTPQYVR-1.0000     NotChecked  -23.7421    1875.9288   ✗       
+918   GLEMEEQ+0.984VVLTPQYVR   -1.0000     NotChecked  -23.7440    1890.9397   ✗       
+919   +43.006LEMQ+0.984EQ+0.984VVLTPQYVR-1.0000     NotChecked  -23.7498    1876.9241   ✗       
+920   +42.011LEMEEEVVLTPAYVR   -1.0000     NotChecked  -23.7619    1818.9073   ✗       
+921   +43.006LEMEEEVVLTPGYVR   -1.0000     NotChecked  -23.8077    1805.8869   ✗       
+922   +43.006LQ+0.984MEEEVVLTPQYVR-1.0000     NotChecked  -23.8093    1876.9241   ✗       
+923   +42.011LQ+0.984MEQ+0.984EVVLTPQYVR-1.0000     NotChecked  -23.8187    1875.9288   ✗       
+924   GLEMEQ+0.984EVVLTPQYVR   -1.0000     NotChecked  -23.8207    1890.9397   ✗       
+925   GLEMEMEVVLTPQYVR         -1.0000     NotChecked  -23.8253    1892.9376   ✗       
+926   +43.006LEMQ+0.984Q+0.984EVVLTPQYVR-1.0000     NotChecked  -23.8265    1876.9241   ✗       
+927   +43.006LEMEEEVVLTPQYVR   -1.0000     NotChecked  -23.8327    1876.9241   ✗       
+928   +43.006LEMEEEVVLTPQFVR   -1.0000     NotChecked  -23.8543    1860.9291   ✗       
+929   +42.011VLEMEEQ+0.984VVLTPAYVR-1.0000     NotChecked  -23.8556    1917.9758   ✗       
+930   +42.011LEMEEEVVLTPQ+0.984YVR-1.0000     NotChecked  -23.8596    1876.9128   ✗       
+931   +42.011LEMEEEVVLTPAYVR   -1.0000     NotChecked  -23.8649    1818.9073   ✗       
+932   LEMEEEVVLTPAYVR          -1.0000     NotChecked  -23.8838    1776.8968   ✗       
+933   +43.006LQ+0.984MEEEVVLTPQYVR-1.0000     NotChecked  -23.8854    1876.9241   ✗       
+934   GLEMEEQ+0.984VVLTPQYVR   -1.0000     NotChecked  -23.9231    1890.9397   ✗       
+935   +42.011VLEMEQ+0.984EVVLTPAYVR-1.0000     NotChecked  -23.9323    1917.9758   ✗       
+936   +42.011LQ+0.984MEEEVVLTPQYVR-1.0000     NotChecked  -23.9427    1875.9288   ✗       
+937   GLEMEEEVVLTPQYVR         -1.0000     NotChecked  -23.9446    1890.9397   ✗       
+938   +43.006LEMQ+0.984EEVVLTPQYVR-1.0000     NotChecked  -23.9504    1876.9241   ✗       
+939   LLEMEEEVVLTPAYVR         -1.0000     NotChecked  -23.9599    1889.9808   ✗       
+940   +42.011LEMQ+0.984EEVVLTPAYVR-1.0000     NotChecked  -23.9826    1818.9073   ✗       
+941   +43.006LQ+0.984MEEEVVLTPQYVR-1.0000     NotChecked  -23.9884    1876.9241   ✗       
+942   +43.006VLEMEEEVVLTPAYVR  -1.0000     NotChecked  -23.9989    1918.9710   ✗       
+943   GLEMEQ+0.984EVVLTPQYVR   -1.0000     NotChecked  -23.9998    1890.9397   ✗       
+944   +42.011LEMEEEVVLTPQYVR   -1.0000     NotChecked  -24.0333    1875.9288   ✗       
+945   +42.011VLEMEEEVVLTPAYVR  -1.0000     NotChecked  -24.0563    1917.9758   ✗       
+946   LLEMEEEVVLTPAYVR         -1.0000     NotChecked  -24.0629    1889.9808   ✗       
+947   MLEMEEEVVLTPGYVR         -1.0000     NotChecked  -24.0713    1893.9216   ✗       
+948   +42.011LEMEEQ+0.984VVLTPQYVR-1.0000     NotChecked  -24.0789    1875.9288   ✗       
+949   +42.011LEMEEEVVLTPGAYVR  -1.0000     NotChecked  -24.0973    1875.9288   ✗       
+950   GLEMEEEVVLTPGYVR         -1.0000     NotChecked  -24.0988    1819.9026   ✗       
+951   GLQ+0.984MEEEVVLTPQYVR   -1.0000     NotChecked  -24.1003    1890.9397   ✗       
+952   +43.006VLEMEEEVVLTPAYVR  -1.0000     NotChecked  -24.1020    1918.9710   ✗       
+953   +43.006LEMEEQ+0.984VVLTPAYVR-1.0000     NotChecked  -24.1030    1819.9026   ✗       
+954   +43.006LQ+0.984MQ+0.984EEVVLTPQYVR-1.0000     NotChecked  -24.1061    1876.9241   ✗       
+955   +43.006LEMEEEVVLTPEYVR   -1.0000     NotChecked  -24.1227    1877.9081   ✗       
+956   GLEMEEEVVLTPQYVR         -1.0000     NotChecked  -24.1238    1890.9397   ✗       
+957   +43.006VEMEEEVVLTPQYVR   -1.0000     NotChecked  -24.1468    1862.9084   ✗       
+958   +42.011LEMEEQ+0.984VVLTPQYVR-1.0000     NotChecked  -24.1550    1875.9288   ✗       
+959   +42.011LEMEQ+0.984EVVLTPQYVR-1.0000     NotChecked  -24.1556    1875.9288   ✗       
+960   +42.011LEMEMEVVLTPQYVR   -1.0000     NotChecked  -24.1602    1877.9267   ✗       
+961   +43.006LEMEQ+0.984EVVLTPAYVR-1.0000     NotChecked  -24.1797    1819.9026   ✗       
+962   LLEMQ+0.984EEVVLTPAYVR   -1.0000     NotChecked  -24.1806    1889.9808   ✗       
+963   +43.006LEMEEEVVLTPGAYVR  -1.0000     NotChecked  -24.1951    1876.9241   ✗       
+964   +43.006LEMEQEVVLTPQYVR   -1.0000     NotChecked  -24.2114    1875.9400   ✗       
+965   +42.011VLQ+0.984MEEEVVLTPAYVR-1.0000     NotChecked  -24.2120    1917.9758   ✗       
+966   +43.006VLEMQ+0.984EEVVLTPAYVR-1.0000     NotChecked  -24.2197    1918.9710   ✗       
+967   +43.006LEMEEEVVLTPQYVR   -1.0000     NotChecked  -24.2222    1876.9241   ✗       
+968   +42.011LEMEQ+0.984EVVLTPQYVR-1.0000     NotChecked  -24.2316    1875.9288   ✗       
+969   +42.011LEMEEQ+0.984VVLTPQYVR-1.0000     NotChecked  -24.2580    1875.9288   ✗       
+970   LEMEEQ+0.984VVLTPQYVR    -1.0000     NotChecked  -24.2769    1833.9182   ✗       
+971   GLQ+0.984MEEEVVLTPQYVR   -1.0000     NotChecked  -24.2795    1890.9397   ✗       
+972   +42.011LEMEEEVVLTPQYVR   -1.0000     NotChecked  -24.2795    1875.9288   ✗       
+973   +43.006LEMEEEVVLTPQQVR   -1.0000     NotChecked  -24.2949    1841.9193   ✗       
+974   +43.006LEMEEEVVLTPQYVR   -1.0000     NotChecked  -24.3013    1876.9241   ✗       
+975   +43.006LEMEEEVVLTPAYVR   -1.0000     NotChecked  -24.3036    1819.9026   ✗       
+976   +42.011LEMEQ+0.984EVVLTPQYVR-1.0000     NotChecked  -24.3347    1875.9288   ✗       
+977   LEMEQ+0.984EVVLTPQYVR    -1.0000     NotChecked  -24.3535    1833.9182   ✗       
+978   +42.011LEMEEEVVLTPQYVR   -1.0000     NotChecked  -24.3556    1875.9288   ✗       
+979   MLEMEEQ+0.984VVLTPAYVR   -1.0000     NotChecked  -24.3665    1907.9373   ✗       
+980   LEMEEEVVLTPGQYVR         -1.0000     NotChecked  -24.3690    1890.9397   ✗       
+981   +42.011LEMQ+0.984EQ+0.984VVLTPQYVR-1.0000     NotChecked  -24.3757    1875.9288   ✗       
+982   GLEMEEQ+0.984VVLTPAYVR   -1.0000     NotChecked  -24.3940    1833.9182   ✗       
+983   +43.006LEMEEEVVLTPQYVR   -1.0000     NotChecked  -24.4013    1876.9241   ✗       
+984   +43.006LEMEEEVVLTPLYVR   -1.0000     NotChecked  -24.4130    1861.9495   ✗       
+985   +42.011LEMEEEVVLTPGYVR   -1.0000     NotChecked  -24.4336    1804.8917   ✗       
+986   +42.011LQ+0.984MEEEVVLTPQYVR-1.0000     NotChecked  -24.4352    1875.9288   ✗       
+987   +43.006LEMQ+0.984EEVVLTPQYVR-1.0000     NotChecked  -24.4429    1876.9241   ✗       
+988   MLEMEQ+0.984EVVLTPAYVR   -1.0000     NotChecked  -24.4432    1907.9373   ✗       
+989   +42.011LEMQ+0.984Q+0.984EVVLTPQYVR-1.0000     NotChecked  -24.4524    1875.9288   ✗       
+990   +42.011LEMEEEVVLTPQYVR   -1.0000     NotChecked  -24.4586    1875.9288   ✗       
+991   +43.006LQ+0.984MEEEVVLTPAYVR-1.0000     NotChecked  -24.4593    1819.9026   ✗       
+992   GLEMEQ+0.984EVVLTPAYVR   -1.0000     NotChecked  -24.4707    1833.9182   ✗       
+993   LEMEEEVVLTPQYVR          -1.0000     NotChecked  -24.4775    1833.9182   ✗       
+994   +42.011LEMEEEVVLTPQFVR   -1.0000     NotChecked  -24.4803    1859.9339   ✗       
+995   GLEMEEEVVLTPGAYVR        -1.0000     NotChecked  -24.4862    1890.9397   ✗       
+996   +42.011LQ+0.984MEEEVVLTPQYVR-1.0000     NotChecked  -24.5113    1875.9288   ✗       
+997   GLEMEEEVVLTPQYVR         -1.0000     NotChecked  -24.5132    1890.9397   ✗       
+998   +43.006LEMQ+0.984EEVVLTPQYVR-1.0000     NotChecked  -24.5190    1876.9241   ✗       
+999   MLEMEEEVVLTPQQVR         -1.0000     NotChecked  -24.5584    1929.9540   ✗       
+1000  +42.011LEMEQ+0.984EVVLTPGQYVR-1.0000     Failed      -24.5670    1932.9503   ✓       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: VLEMEEEVVLTPQYVR
+Similarity: 0.9348
+De Novo Score: -0.5833
+Source: Database
+Correct: ✓
+

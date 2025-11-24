@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 72
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 808.4089
+Precursor charge: 2+
+Ground truth: EVPGETINIQTC+57.021VR
+Ground truth (normalized): EVPGETINIQTC+57.021VR
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 71
+Used for reranking: 71
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 71 (7.1%)
+Database matches: 3 (0.3%)
+Prosit predictions: 64 (6.4%)
+Failed: 4 (0.4%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 354/1000
+Rank by similarity: 1/1000
+Similarity: 0.9327
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     EVPGETLNLQTC+57.021VR    0.9327      Database    -13.1206    1614.8035   ✓       ✓
+2     EVPGETLNLQTC+57.021VR    0.9327      Database    -15.0411    1614.8035   ✓       ✓
+3     EVPGETLNLQTC+57.021VR    0.9327      Database    -15.4439    1614.8035   ✓       ✓
+4     +43.006AVPGETQNLQTC+57.021VR0.4899      Prosit      -14.8863    1614.7784   ✓       
+5     +43.006AVPGETQNLQTC+57.021VR0.4899      Prosit      -15.6378    1614.7784   ✓       
+6     GVPEETLNLQTC+57.021VR    0.4855      Prosit      -14.8773    1614.8035   ✓       
+7     +43.006GKPGETLNLQTC+57.021VR0.4848      Prosit      -13.0188    1614.8148   ✓       
+8     +43.006GKPGETLNLQTC+57.021VR0.4848      Prosit      -15.3421    1614.8148   ✓       
+9     +43.006ANPGETLNLQTC+57.021VR0.4753      Prosit      -9.9553     1614.7784   ✓       
+10    +43.006ANPGETLNLQTC+57.021VR0.4753      Prosit      -10.7068    1614.7784   ✓       
+11    +43.006ANPGETLNLQTC+57.021VR0.4753      Prosit      -12.2786    1614.7784   ✓       
+12    +43.006ANPGETLNLQTC+57.021VR0.4753      Prosit      -13.0301    1614.7784   ✓       
+13    +43.006ANPGETLNLQTC+57.021VR0.4753      Prosit      -13.1757    1614.7784   ✓       
+14    +42.011AN+0.984PGETLNLQTC+57.021VR0.4753      Prosit      -14.3941    1614.7672   ✓       
+15    +42.011AN+0.984PGETLNLQTC+57.021VR0.4753      Prosit      -15.1456    1614.7672   ✓       
+16    +43.006ANPGETLNLQTC+57.021VR0.4753      Prosit      -15.4990    1614.7784   ✓       
+17    GAVPGETNNLQTC+57.021VR   0.4739      Prosit      -15.4524    1614.7784   ✓       
+18    GAVPGETLDLQTC+57.021VR   0.4716      Prosit      -13.1251    1614.8035   ✓       
+19    GAVPGETLDLQTC+57.021VR   0.4716      Prosit      -13.8766    1614.8035   ✓       
+20    GAVPGETLDLQTC+57.021VR   0.4716      Prosit      -15.0456    1614.8035   ✓       
+21    GAVPGETLDLQTC+57.021VR   0.4716      Prosit      -15.4484    1614.8035   ✓       
+22    GAVPGETLDLQTC+57.021VR   0.4716      Prosit      -15.7971    1614.8035   ✓       
+23    +42.011SVPGETLNLQTC+57.021VR0.4595      Prosit      -11.6965    1614.8035   ✓       
+24    +42.011SVPGETLNLQTC+57.021VR0.4595      Prosit      -13.6170    1614.8035   ✓       
+25    +42.011SVPGETLNLQTC+57.021VR0.4595      Prosit      -14.0198    1614.8035   ✓       
+26    +42.011SVPGETLNLQTC+57.021VR0.4595      Prosit      -14.7534    1614.8035   ✓       
+27    GAVPGETLN+0.984LQTC+57.021VR0.4559      Prosit      -8.7074     1614.8035   ✓       
+28    GAVPGETLN+0.984LQTC+57.021VR0.4559      Prosit      -9.4589     1614.8035   ✓       
+29    GAVPGETLNLQ+0.984TC+57.021VR0.4559      Prosit      -10.4700    1614.8035   ✓       
+30    GAVPGETLN+0.984LQTC+57.021VR0.4559      Prosit      -10.6279    1614.8035   ✓       
+31    GAVPGETLN+0.984LQTC+57.021VR0.4559      Prosit      -11.0307    1614.8035   ✓       
+32    GAVPGETLNLQ+0.984TC+57.021VR0.4559      Prosit      -11.2215    1614.8035   ✓       
+33    GAVPGETLN+0.984LQTC+57.021VR0.4559      Prosit      -11.3794    1614.8035   ✓       
+34    GAVPGETLN+0.984LQTC+57.021VR0.4559      Prosit      -11.7822    1614.8035   ✓       
+35    GAVPGETLN+0.984LQTC+57.021VR0.4559      Prosit      -11.9278    1614.8035   ✓       
+36    GAVPGETLNLQ+0.984TC+57.021VR0.4559      Prosit      -12.3905    1614.8035   ✓       
+37    GAVPGETLNLQ+0.984TC+57.021VR0.4559      Prosit      -12.7933    1614.8035   ✓       
+38    GAVPGETLN+0.984LQTC+57.021VR0.4559      Prosit      -12.9512    1614.8035   ✓       
+39    GAVPGETLNLQ+0.984TC+57.021VR0.4559      Prosit      -13.1420    1614.8035   ✓       
+40    GAVPGETLNLQ+0.984TC+57.021VR0.4559      Prosit      -13.5448    1614.8035   ✓       
+41    GAVPGETLNLQ+0.984TC+57.021VR0.4559      Prosit      -13.6904    1614.8035   ✓       
+42    GAVPGETLN+0.984LQTC+57.021VR0.4559      Prosit      -13.7027    1614.8035   ✓       
+43    GAVPGETLN+0.984LQTC+57.021VR0.4559      Prosit      -13.8026    1614.8035   ✓       
+44    GAVPGETLN+0.984LQTC+57.021VR0.4559      Prosit      -13.8483    1614.8035   ✓       
+45    GAVPGETLN+0.984LQTC+57.021VR0.4559      Prosit      -14.2511    1614.8035   ✓       
+46    GAVPGETLNLQ+0.984TC+57.021VR0.4559      Prosit      -14.7138    1614.8035   ✓       
+47    GAVPGETLN+0.984LQTC+57.021VR0.4559      Prosit      -14.7747    1614.8035   ✓       
+48    GAVPGETLN+0.984LQTC+57.021VR0.4559      Prosit      -15.4153    1614.8035   ✓       
+49    GAVPGETLNLQ+0.984TC+57.021VR0.4559      Prosit      -15.4653    1614.8035   ✓       
+50    GAVPGETLN+0.984LQTC+57.021VR0.4559      Prosit      -15.5262    1614.8035   ✓       
+51    GAVPGETLNLQ+0.984TC+57.021VR0.4559      Prosit      -15.5651    1614.8035   ✓       
+52    GAVPGETLNLQ+0.984TC+57.021VR0.4559      Prosit      -15.6109    1614.8035   ✓       
+53    GAVPGETLN+0.984LQTC+57.021VR0.4559      Prosit      -15.7231    1614.8035   ✓       
+54    +43.006ALPGETLN+0.984LQTC+57.021VR0.4544      Prosit      -13.0488    1614.8035   ✓       
+55    +43.006ALPGETLN+0.984LQTC+57.021VR0.4544      Prosit      -13.8003    1614.8035   ✓       
+56    +43.006ALPGETLNLQ+0.984TC+57.021VR0.4544      Prosit      -14.8113    1614.8035   ✓       
+57    +43.006ALPGETLN+0.984LQTC+57.021VR0.4544      Prosit      -15.3721    1614.8035   ✓       
+58    +43.006ALPGETLNLQ+0.984TC+57.021VR0.4544      Prosit      -15.5628    1614.8035   ✓       
+59    +43.006AVPGETLELQTC+57.021VR0.4476      Prosit      -13.6960    1614.8035   ✓       
+60    +43.006AVPGETLELQTC+57.021VR0.4476      Prosit      -14.4475    1614.8035   ✓       
+61    +43.006AVPGETLELQTC+57.021VR0.4476      Prosit      -15.6165    1614.8035   ✓       
+62    AGVPGETLN+0.984LQTC+57.021VR0.4440      Prosit      -14.6517    1614.8035   ✓       
+63    AGVPGETLN+0.984LQTC+57.021VR0.4440      Prosit      -15.4032    1614.8035   ✓       
+64    GAVPGETLNLETC+57.021VR   0.4417      Prosit      -13.3076    1614.8035   ✓       
+65    GAVPGETLNLETC+57.021VR   0.4417      Prosit      -14.0591    1614.8035   ✓       
+66    GAVPGETLNLETC+57.021VR   0.4417      Prosit      -15.2281    1614.8035   ✓       
+67    GAVPGETLNLETC+57.021VR   0.4417      Prosit      -15.6309    1614.8035   ✓       
+68    GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -1.3268     1613.8195   ✗       
+69    +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -1.7229     1599.8039   ✗       
+70    GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -2.0784     1613.8195   ✗       
+71    +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -2.4744     1599.8039   ✗       
+72    GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -3.2473     1613.8195   ✗       
+73    +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -3.6434     1599.8039   ✗       
+74    GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -3.6501     1613.8195   ✗       
+75    GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -3.9988     1613.8195   ✗       
+76    +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -4.0461     1599.8039   ✗       
+77    +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -4.3949     1599.8039   ✗       
+78    GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -4.4016     1613.8195   ✗       
+79    GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -4.5472     1613.8195   ✗       
+80    +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -4.5550     1598.8086   ✗       
+81    GGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -4.6040     1599.8039   ✗       
+82    AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -4.7454     1556.7981   ✗       
+83    +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -4.7976     1599.8039   ✗       
+84    +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -4.9433     1599.8039   ✗       
+85    +43.006GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -5.0000     1585.7882   ✗       
+86    GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -5.2987     1542.7824   ✗       
+87    +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -5.3065     1598.8086   ✗       
+88    GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -5.5706     1613.8195   ✗       
+89    +43.006ALPGETLNLQTC+57.021VR-1.0000     NotChecked  -5.6682     1613.8195   ✗       
+90    +43.006VPGETLNLQTC+57.021VR-1.0000     NotChecked  -5.6948     1528.7668   ✗       
+91    +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -5.9666     1599.8039   ✗       
+92    GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -6.3221     1613.8195   ✗       
+93    +43.006ALPGETLNLQTC+57.021VR-1.0000     NotChecked  -6.4197     1613.8195   ✗       
+94    GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -6.4220     1613.8195   ✗       
+95    GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -6.4677     1613.8195   ✗       
+96    +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -6.4755     1598.8086   ✗       
+97    GGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -6.5245     1599.8039   ✗       
+98    AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -6.6659     1556.7981   ✗       
+99    +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -6.7181     1599.8039   ✗       
+100   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -6.8637     1599.8039   ✗       
+101   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -6.8705     1613.8195   ✗       
+102   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -6.8783     1598.8086   ✗       
+103   +43.006GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -6.9205     1585.7882   ✗       
+104   GGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -6.9273     1599.8039   ✗       
+105   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -7.0687     1556.7981   ✗       
+106   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -7.2192     1542.7824   ✗       
+107   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -7.2270     1598.8086   ✗       
+108   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -7.2665     1599.8039   ✗       
+109   AGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -7.2711     1613.8195   ✗       
+110   +43.006GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -7.3233     1585.7882   ✗       
+111   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -7.3941     1613.8195   ✗       
+112   +43.006VPGETLNLQTC+57.021VR-1.0000     NotChecked  -7.6152     1528.7668   ✗       
+113   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -7.6220     1542.7824   ✗       
+114   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -7.6298     1598.8086   ✗       
+115   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -7.7754     1598.8086   ✗       
+116   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -7.7901     1599.8039   ✗       
+117   +42.011GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -7.8321     1584.7930   ✗       
+118   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -7.9658     1556.7981   ✗       
+119   +43.006ALPGETLNLQTC+57.021VR-1.0000     NotChecked  -7.9915     1613.8195   ✗       
+120   +43.006VPGETLNLQTC+57.021VR-1.0000     NotChecked  -8.0180     1528.7668   ✗       
+121   AGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -8.0226     1613.8195   ✗       
+122   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -8.0348     1613.8195   ✗       
+123   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -8.1456     1613.8195   ✗       
+124   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -8.3425     1613.8195   ✗       
+125   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -8.4308     1599.8039   ✗       
+126   +42.011ALPGETLNLQTC+57.021VR-1.0000     NotChecked  -8.5003     1612.8243   ✗       
+127   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -8.5178     1556.7981   ✗       
+128   +42.011VPGETLNLQTC+57.021VR-1.0000     NotChecked  -8.5269     1527.7715   ✗       
+129   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -8.5416     1599.8039   ✗       
+130   GGLPGETLNLQTC+57.021VR   -1.0000     NotChecked  -8.5493     1613.8195   ✗       
+131   GAVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -8.6005     1613.8195   ✗       
+132   ALPGETLNLQTC+57.021VR    -1.0000     NotChecked  -8.6908     1570.8137   ✗       
+133   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -8.7173     1556.7981   ✗       
+134   +43.006ALPGETLNLQTC+57.021VR-1.0000     NotChecked  -8.7430     1613.8195   ✗       
+135   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -8.7453     1613.8195   ✗       
+136   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -8.7863     1613.8195   ✗       
+137   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -8.7910     1613.8195   ✗       
+138   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -8.7988     1598.8086   ✗       
+139   GGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -8.8478     1599.8039   ✗       
+140   +43.006ALPGETLNLQTC+57.021VR-1.0000     NotChecked  -8.8886     1613.8195   ✗       
+141   GAPGETLNLQTC+57.021VR    -1.0000     NotChecked  -8.9179     1514.7511   ✗       
+142   +43.006GLPGETLNLQTC+57.021VR-1.0000     NotChecked  -8.9454     1599.8039   ✗       
+143   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -8.9477     1542.7824   ✗       
+144   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -8.9892     1556.7981   ✗       
+145   +43.006AVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -8.9965     1599.8039   ✗       
+146   +43.006AVPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -9.1034     1600.7879   ✗       
+147   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -9.1823     1599.8039   ✗       
+148   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -9.1870     1599.8039   ✗       
+149   AGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -9.1916     1613.8195   ✗       
+150   +43.006GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -9.2438     1585.7882   ✗       
+151   GLPGETLNLQTC+57.021VR    -1.0000     NotChecked  -9.2441     1556.7981   ✗       
+152   +42.011ALPGETLNLQTC+57.021VR-1.0000     NotChecked  -9.2518     1612.8243   ✗       
+153   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -9.2693     1556.7981   ✗       
+154   +43.006APGETLNLQTC+57.021VR-1.0000     NotChecked  -9.3139     1500.7355   ✗       
+155   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -9.3146     1613.8195   ✗       
+156   +43.006GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -9.3437     1585.7882   ✗       
+157   GAVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -9.3520     1613.8195   ✗       
+158   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -9.4564     1613.8195   ✗       
+159   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -9.5425     1542.7824   ✗       
+160   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -9.5503     1598.8086   ✗       
+161   AGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -9.5944     1613.8195   ✗       
+162   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -9.6298     1613.8195   ✗       
+163   +43.006LPGETLNLQTC+57.021VR-1.0000     NotChecked  -9.6401     1542.7824   ✗       
+164   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -9.6424     1542.7824   ✗       
+165   GAPGETLNLQTC+57.021VR    -1.0000     NotChecked  -9.6694     1514.7511   ✗       
+166   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -9.6959     1598.8086   ✗       
+167   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -9.7106     1599.8039   ✗       
+168   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -9.7174     1613.8195   ✗       
+169   +43.006AVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -9.7480     1599.8039   ✗       
+170   +42.011GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -9.7526     1584.7930   ✗       
+171   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -9.8524     1599.8039   ✗       
+172   +43.006AVPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -9.8549     1600.7879   ✗       
+173   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -9.8863     1556.7981   ✗       
+174   +43.006VPGETLNLQTC+57.021VR-1.0000     NotChecked  -9.9385     1528.7668   ✗       
+175   AGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -9.9431     1613.8195   ✗       
+176   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -9.9553     1613.8195   ✗       
+177   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -10.0258    1599.8039   ✗       
+178   +43.006GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -10.0384    1585.7882   ✗       
+179   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -10.0388    1613.8195   ✗       
+180   +43.006APGETLNLQTC+57.021VR-1.0000     NotChecked  -10.0654    1500.7355   ✗       
+181   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -10.0661    1613.8195   ✗       
+182   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -10.0987    1598.8086   ✗       
+183   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -10.1134    1599.8039   ✗       
+184   +42.011GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -10.1554    1584.7930   ✗       
+185   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -10.2079    1613.8195   ✗       
+186   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -10.2891    1556.7981   ✗       
+187   AGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -10.3459    1613.8195   ✗       
+188   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -10.3513    1599.8039   ✗       
+189   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -10.3581    1613.8195   ✗       
+190   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -10.3813    1613.8195   ✗       
+191   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -10.4348    1599.8039   ✗       
+192   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -10.4383    1556.7981   ✗       
+193   +42.011VPGETLNLQTC+57.021VR-1.0000     NotChecked  -10.4474    1527.7715   ✗       
+194   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -10.4621    1599.8039   ✗       
+195   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -10.4689    1613.8195   ✗       
+196   GAVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -10.5210    1613.8195   ✗       
+197   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -10.6039    1599.8039   ✗       
+198   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -10.6145    1613.8195   ✗       
+199   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -10.6222    1598.8086   ✗       
+200   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -10.6378    1556.7981   ✗       
+201   +43.006ATPGETLNLQTC+57.021VR-1.0000     NotChecked  -10.6454    1601.7831   ✗       
+202   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -10.6658    1613.8195   ✗       
+203   GGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -10.6713    1599.8039   ✗       
+204   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -10.7068    1613.8195   ✗       
+205   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -10.7541    1599.8039   ✗       
+206   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -10.7773    1599.8039   ✗       
+207   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -10.7903    1542.7824   ✗       
+208   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -10.8127    1556.7981   ✗       
+209   +42.011ALPGETLNLQTC+57.021VR-1.0000     NotChecked  -10.8236    1612.8243   ✗       
+210   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -10.8384    1613.8195   ✗       
+211   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -10.8411    1556.7981   ✗       
+212   +42.011VPGETLNLQTC+57.021VR-1.0000     NotChecked  -10.8502    1527.7715   ✗       
+213   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -10.8649    1599.8039   ✗       
+214   +43.006AVPGETLNLQ+0.984TC+57.021VR-1.0000     NotChecked  -10.8660    1600.7879   ✗       
+215   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -10.8681    1542.7824   ✗       
+216   GGLPGETLNLQTC+57.021VR   -1.0000     NotChecked  -10.8726    1613.8195   ✗       
+217   +43.006AVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -10.9170    1599.8039   ✗       
+218   GAVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -10.9237    1613.8195   ✗       
+219   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -11.0105    1599.8039   ✗       
+220   ALPGETLNLQTC+57.021VR    -1.0000     NotChecked  -11.0141    1570.8137   ✗       
+221   +43.006AVPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -11.0239    1600.7879   ✗       
+222   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -11.0406    1556.7981   ✗       
+223   AGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -11.0434    1613.8195   ✗       
+224   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -11.0571    1613.8195   ✗       
+225   +43.006GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -11.0673    1585.7882   ✗       
+226   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -11.1028    1599.8039   ✗       
+227   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -11.1096    1613.8195   ✗       
+228   +43.006VPGETLNLQTC+57.021VR-1.0000     NotChecked  -11.1863    1528.7668   ✗       
+229   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -11.1898    1556.7981   ✗       
+230   +43.006ALPGETLNLQTC+57.021VR-1.0000     NotChecked  -11.2119    1613.8195   ✗       
+231   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -11.2344    1599.8039   ✗       
+232   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -11.2354    1613.8195   ✗       
+233   GAPGETLNLQTC+57.021VR    -1.0000     NotChecked  -11.2412    1514.7511   ✗       
+234   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -11.2552    1613.8195   ✗       
+235   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -11.2629    1598.8086   ✗       
+236   +43.006GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -11.2642    1585.7882   ✗       
+237   +43.006GLPGETLNLQTC+57.021VR-1.0000     NotChecked  -11.2686    1599.8039   ✗       
+238   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -11.2709    1542.7824   ✗       
+239   GAVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -11.2725    1613.8195   ✗       
+240   GGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -11.3119    1599.8039   ✗       
+241   +43.006AVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -11.3198    1599.8039   ✗       
+242   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -11.3660    1542.7824   ✗       
+243   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -11.3737    1598.8086   ✗       
+244   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -11.3769    1613.8195   ✗       
+245   +43.006ATPGETLNLQTC+57.021VR-1.0000     NotChecked  -11.3969    1601.7831   ✗       
+246   +43.006AVPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -11.4267    1600.7879   ✗       
+247   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -11.4531    1599.8039   ✗       
+248   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -11.4533    1556.7981   ✗       
+249   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -11.5056    1599.8039   ✗       
+250   AGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -11.5149    1613.8195   ✗       
+251   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -11.5629    1542.7824   ✗       
+252   GLPGETLNLQTC+57.021VR    -1.0000     NotChecked  -11.5674    1556.7981   ✗       
+253   +42.011ALPGETLNLQTC+57.021VR-1.0000     NotChecked  -11.5751    1612.8243   ✗       
+254   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -11.5899    1613.8195   ✗       
+255   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -11.5926    1556.7981   ✗       
+256   +43.006AVPGETLNLQ+0.984TC+57.021VR-1.0000     NotChecked  -11.6175    1600.7879   ✗       
+257   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -11.6314    1599.8039   ✗       
+258   +43.006APGETLNLQTC+57.021VR-1.0000     NotChecked  -11.6372    1500.7355   ✗       
+259   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -11.6379    1613.8195   ✗       
+260   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -11.6512    1599.8039   ✗       
+261   +43.006GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -11.6670    1585.7882   ✗       
+262   +43.006AVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -11.6685    1599.8039   ✗       
+263   GAVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -11.6753    1613.8195   ✗       
+264   +43.006GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -11.7079    1585.7882   ✗       
+265   +42.011ALPGETLNLQTC+57.021VR-1.0000     NotChecked  -11.7207    1612.8243   ✗       
+266   +43.006ALPGETLNLQTC+57.021VR-1.0000     NotChecked  -11.7355    1613.8195   ✗       
+267   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -11.7382    1556.7981   ✗       
+268   +43.006VPGETLNLQTC+57.021VR-1.0000     NotChecked  -11.7620    1528.7668   ✗       
+269   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -11.7729    1599.8039   ✗       
+270   +43.006AVPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -11.7754    1600.7879   ✗       
+271   +42.011GLPGETLNLQTC+57.021VR-1.0000     NotChecked  -11.7775    1598.8086   ✗       
+272   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -11.7797    1613.8195   ✗       
+273   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -11.7949    1542.7824   ✗       
+274   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -11.8086    1613.8195   ✗       
+275   GAVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -11.8209    1613.8195   ✗       
+276   +42.011AVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -11.8286    1598.8086   ✗       
+277   GGVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -11.8776    1599.8039   ✗       
+278   ALPGETLNLQTC+57.021VR    -1.0000     NotChecked  -11.9112    1570.8137   ✗       
+279   +42.011AVPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -11.9356    1599.7926   ✗       
+280   +43.006GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -11.9589    1585.7882   ✗       
+281   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -11.9593    1613.8195   ✗       
+282   +43.006LPGETLNLQTC+57.021VR-1.0000     NotChecked  -11.9634    1542.7824   ✗       
+283   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -11.9657    1542.7824   ✗       
+284   GGVPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -11.9846    1600.7879   ✗       
+285   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -11.9859    1599.8039   ✗       
+286   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -11.9869    1613.8195   ✗       
+287   GAPGETLNLQTC+57.021VR    -1.0000     NotChecked  -11.9927    1514.7511   ✗       
+288   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -12.0067    1542.7824   ✗       
+289   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -12.0144    1598.8086   ✗       
+290   AVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -12.0190    1556.7981   ✗       
+291   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -12.0191    1598.8086   ✗       
+292   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -12.0339    1599.8039   ✗       
+293   +43.006AVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -12.0713    1599.8039   ✗       
+294   +42.011GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -12.0759    1584.7930   ✗       
+295   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -12.0885    1613.8195   ✗       
+296   AVPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -12.1260    1557.7821   ✗       
+297   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -12.1284    1613.8195   ✗       
+298   GAAPGETLNLQTC+57.021VR   -1.0000     NotChecked  -12.1383    1585.7882   ✗       
+299   +42.011APGETLNLQTC+57.021VR-1.0000     NotChecked  -12.1460    1499.7402   ✗       
+300   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -12.1757    1599.8039   ✗       
+301   +42.011GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -12.1758    1584.7930   ✗       
+302   +43.006AVPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -12.1782    1600.7879   ✗       
+303   GGAPGETLNLQTC+57.021VR   -1.0000     NotChecked  -12.1951    1571.7726   ✗       
+304   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -12.2046    1599.8039   ✗       
+305   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -12.2096    1556.7981   ✗       
+306   +43.006AVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -12.2169    1599.8039   ✗       
+307   AGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -12.2664    1613.8195   ✗       
+308   +43.006GVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -12.2736    1585.7882   ✗       
+309   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -12.2785    1613.8195   ✗       
+310   +43.006AVPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -12.3238    1600.7879   ✗       
+311   APGETLNLQTC+57.021VR     -1.0000     NotChecked  -12.3365    1457.7296   ✗       
+312   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -12.3553    1599.8039   ✗       
+313   +43.006GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -12.3617    1585.7882   ✗       
+314   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -12.3621    1613.8195   ✗       
+315   AGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -12.3662    1613.8195   ✗       
+316   +43.006ALPGETLNLQTC+57.021VR-1.0000     NotChecked  -12.3761    1613.8195   ✗       
+317   +43.006GVPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -12.3806    1586.7722   ✗       
+318   GAVPGESLNLQTC+57.021VR   -1.0000     NotChecked  -12.3807    1599.8039   ✗       
+319   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -12.3829    1599.8039   ✗       
+320   +43.006APGETLNLQTC+57.021VR-1.0000     NotChecked  -12.3887    1500.7355   ✗       
+321   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -12.3894    1613.8195   ✗       
+322   +43.006VPGETLNLQTC+57.021VR-1.0000     NotChecked  -12.4027    1528.7668   ✗       
+323   ALPGETLNLQTC+57.021VR    -1.0000     NotChecked  -12.4631    1570.8137   ✗       
+324   +42.011LPGETLNLQTC+57.021VR-1.0000     NotChecked  -12.4722    1541.7872   ✗       
+325   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -12.4846    1599.8039   ✗       
+326   +43.006ALPGETLNLQTC+57.021VR-1.0000     NotChecked  -12.4870    1613.8195   ✗       
+327   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -12.4893    1613.8195   ✗       
+328   VPGETLNLQTC+57.021VR     -1.0000     NotChecked  -12.4897    1485.7609   ✗       
+329   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -12.5244    1599.8039   ✗       
+330   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -12.5312    1613.8195   ✗       
+331   +43.006AAPGETLNLQTC+57.021VR-1.0000     NotChecked  -12.5343    1571.7726   ✗       
+332   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -12.5350    1613.8195   ✗       
+333   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -12.5427    1598.8086   ✗       
+334   N+0.984VPGETLNLQTC+57.021VR-1.0000     NotChecked  -12.5560    1600.7879   ✗       
+335   GAVPETLNLQTC+57.021VR    -1.0000     NotChecked  -12.5618    1556.7981   ✗       
+336   GVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -12.5724    1542.7824   ✗       
+337   +42.011AVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -12.5801    1598.8086   ✗       
+338   +43.006GAPGETLNLQTC+57.021VR-1.0000     NotChecked  -12.5911    1557.7569   ✗       
+339   GGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -12.5917    1599.8039   ✗       
+340   DVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -12.6404    1600.7879   ✗       
+341   ALPGETLNLQTC+57.021VR    -1.0000     NotChecked  -12.6627    1570.8137   ✗       
+342   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -12.6746    1599.8039   ✗       
+343   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -12.6768    1613.8195   ✗       
+344   GVPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -12.6793    1543.7664   ✗       
+345   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -12.6845    1598.8086   ✗       
+346   +42.011AVPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -12.6871    1599.7926   ✗       
+347   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -12.7108    1542.7824   ✗       
+348   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -12.7332    1556.7981   ✗       
+349   GGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -12.7335    1599.8039   ✗       
+350   GAVPGETLSLQTC+57.021VR   -1.0000     NotChecked  -12.7384    1586.8086   ✗       
+351   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -12.7581    1599.8039   ✗       
+352   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -12.7616    1556.7981   ✗       
+353   AKPGETLNLQTC+57.021VR    -1.0000     NotChecked  -12.7642    1585.8246   ✗       
+354   +42.011VPGETLNLQTC+57.021VR-1.0000     NotChecked  -12.7707    1527.7715   ✗       
+355   +43.006AVPGESLNLQTC+57.021VR-1.0000     NotChecked  -12.7767    1585.7882   ✗       
+356   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -12.7854    1599.8039   ✗       
+357   +43.006AVPGETLNLQ+0.984TC+57.021VR-1.0000     NotChecked  -12.7865    1600.7879   ✗       
+358   +42.011ANPGETLNLQTC+57.021VR-1.0000     NotChecked  -12.7874    1613.7831   ✗       
+359   GGNPGETLNLQTC+57.021VR   -1.0000     Failed      -12.8364    1614.7784   ✓       
+360   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -12.8400    1613.8195   ✗       
+361   GAVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -12.8442    1613.8195   ✗       
+362   GVAPGETLNLQTC+57.021VR   -1.0000     NotChecked  -12.8497    1613.8195   ✗       
+363   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -12.8502    1613.8195   ✗       
+364   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -12.8579    1598.8086   ✗       
+365   GAVPGETLNLQTMVR          -1.0000     NotChecked  -12.8670    1584.8294   ✗       
+366   +42.011GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -12.8705    1584.7930   ✗       
+367   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -12.8750    1556.7981   ✗       
+368   NVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -12.8845    1599.8039   ✗       
+369   GAPGETLNLQTC+57.021VR    -1.0000     NotChecked  -12.8898    1514.7511   ✗       
+370   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -12.8901    1613.8195   ✗       
+371   GLPGETLNLQTC+57.021VR    -1.0000     NotChecked  -12.8930    1556.7981   ✗       
+372   +42.011APGETLNLQTC+57.021VR-1.0000     NotChecked  -12.8975    1499.7402   ✗       
+373   GGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -12.9069    1599.8039   ✗       
+374   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -12.9272    1599.8039   ✗       
+375   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -12.9310    1599.8039   ✗       
+376   GAVPGQTLNLQTC+57.021VR   -1.0000     NotChecked  -12.9374    1612.8355   ✗       
+377   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -12.9378    1613.8195   ✗       
+378   +43.006ALPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -12.9418    1613.8195   ✗       
+379   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -12.9455    1598.8086   ✗       
+380   +43.006AVPAETLNLQTC+57.021VR-1.0000     NotChecked  -12.9494    1613.8195   ✗       
+381   +43.006AVPETLNLQTC+57.021VR-1.0000     NotChecked  -12.9578    1542.7824   ✗       
+382   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -12.9611    1556.7981   ✗       
+383   AGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -12.9639    1613.8195   ✗       
+384   +43.006VPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -12.9684    1528.7668   ✗       
+385   +43.006ATPGETLNLQTC+57.021VR-1.0000     NotChecked  -12.9687    1601.7831   ✗       
+386   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -12.9776    1613.8195   ✗       
+387   ANPGETLNLQTC+57.021VR    -1.0000     NotChecked  -12.9779    1571.7726   ✗       
+388   +43.006GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -12.9878    1585.7882   ✗       
+389   GGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -12.9945    1599.8039   ✗       
+390   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -12.9964    1613.8195   ✗       
+391   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -13.0300    1613.8195   ✗       
+392   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -13.0483    1556.7981   ✗       
+393   AQPGETLNLQTC+57.021VR    -1.0000     NotChecked  -13.0534    1585.7882   ✗       
+394   AGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -13.0610    1613.8195   ✗       
+395   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.0728    1599.8039   ✗       
+396   AEPGETLNLQTC+57.021VR    -1.0000     NotChecked  -13.0752    1586.7722   ✗       
+397   +43.006VPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -13.0753    1529.7508   ✗       
+398   AAPGETLNLQTC+57.021VR    -1.0000     NotChecked  -13.0880    1528.7668   ✗       
+399   +43.006AVPGETLNLQTC+57.021LR-1.0000     NotChecked  -13.0967    1613.8195   ✗       
+400   +43.006VPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.1068    1528.7668   ✗       
+401   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -13.1136    1542.7824   ✗       
+402   +43.006ALPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.1276    1613.8195   ✗       
+403   +43.006GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.1295    1585.7882   ✗       
+404   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -13.1299    1613.8195   ✗       
+405   GAVPGESLNLQTC+57.021VR   -1.0000     NotChecked  -13.1322    1599.8039   ✗       
+406   +43.006AVPGETLSLQTC+57.021VR-1.0000     NotChecked  -13.1344    1572.7930   ✗       
+407   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -13.1360    1556.7981   ✗       
+408   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -13.1617    1613.8195   ✗       
+409   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -13.1756    1613.8195   ✗       
+410   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.1834    1598.8086   ✗       
+411   +43.006AVPGETLNLQ+0.984TC+57.021VR-1.0000     NotChecked  -13.1893    1600.7879   ✗       
+412   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -13.1914    1542.7824   ✗       
+413   ALPGETLNLQTC+57.021VR    -1.0000     NotChecked  -13.2146    1570.8137   ✗       
+414   GGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -13.2324    1599.8039   ✗       
+415   +43.006GNPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.2324    1600.7627   ✗       
+416   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.2361    1599.8039   ✗       
+417   +43.006AVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -13.2403    1599.8039   ✗       
+418   +43.006VAPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.2457    1599.8039   ✗       
+419   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.2462    1599.8039   ✗       
+420   +43.006AVPGETLNLQTMVR    -1.0000     NotChecked  -13.2631    1570.8137   ✗       
+421   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.2669    1598.8086   ✗       
+422   +43.006APGETLNLQTC+57.021VR-1.0000     NotChecked  -13.2858    1500.7355   ✗       
+423   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.2861    1599.8039   ✗       
+424   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -13.2865    1542.7824   ✗       
+425   +43.006GLPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.2890    1599.8039   ✗       
+426   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.2942    1598.8086   ✗       
+427   +43.006GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.3029    1585.7882   ✗       
+428   +43.006GQPGETLNLQTC+57.021VR-1.0000     Failed      -13.3080    1614.7784   ✓       
+429   GAVPETLNLQTC+57.021VR    -1.0000     NotChecked  -13.3133    1556.7981   ✗       
+430   GAVPGETLNLQTC+57.021V    -1.0000     NotChecked  -13.3156    1457.7184   ✗       
+431   GKPGETLNLQTC+57.021VR    -1.0000     NotChecked  -13.3175    1571.8090   ✗       
+432   +43.006AVPGQTLNLQTC+57.021VR-1.0000     NotChecked  -13.3334    1598.8199   ✗       
+433   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.3338    1599.8039   ✗       
+434   AGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -13.3383    1613.8195   ✗       
+435   GAVPGETLNLQTC+57.021R    -1.0000     NotChecked  -13.3467    1514.7511   ✗       
+436   +43.006AVPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -13.3472    1600.7879   ✗       
+437   AGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -13.3667    1613.8195   ✗       
+438   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.3736    1599.8039   ✗       
+439   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -13.3738    1556.7981   ✗       
+440   GAVGETLNLQTC+57.021VR    -1.0000     NotChecked  -13.3804    1516.7668   ✗       
+441   +43.006GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.3906    1585.7882   ✗       
+442   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.3924    1599.8039   ✗       
+443   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.4261    1599.8039   ✗       
+444   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -13.4283    1542.7824   ✗       
+445   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.4360    1598.8086   ✗       
+446   +43.006ALPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.4549    1613.8195   ✗       
+447   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -13.4574    1556.7981   ✗       
+448   +42.011ATPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.4776    1600.7879   ✗       
+449   GAVPGETLSLQTC+57.021VR   -1.0000     NotChecked  -13.4899    1586.8086   ✗       
+450   +43.006VPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.5096    1528.7668   ✗       
+451   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -13.5131    1556.7981   ✗       
+452   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -13.5167    1613.8195   ✗       
+453   +43.006AVPGETLDLQTC+57.021VR-1.0000     NotChecked  -13.5211    1600.7879   ✗       
+454   GGTPGETLNLQTC+57.021VR   -1.0000     NotChecked  -13.5266    1601.7831   ✗       
+455   +43.006AVPGESLNLQTC+57.021VR-1.0000     NotChecked  -13.5282    1585.7882   ✗       
+456   GNPGETLNLQTC+57.021VR    -1.0000     NotChecked  -13.5312    1557.7569   ✗       
+457   +43.006AVPGETLNLQ+0.984TC+57.021VR-1.0000     NotChecked  -13.5380    1600.7879   ✗       
+458   +42.011ANPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.5389    1613.7831   ✗       
+459   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.5577    1599.8039   ✗       
+460   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.5717    1599.8039   ✗       
+461   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -13.5784    1613.8195   ✗       
+462   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.5862    1598.8086   ✗       
+463   +43.006GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.5874    1585.7882   ✗       
+464   GLPGETLNLQTC+57.021VR    -1.0000     NotChecked  -13.5877    1556.7981   ✗       
+465   GAVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -13.5957    1613.8195   ✗       
+466   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -13.6017    1542.7824   ✗       
+467   GQPGETLNLQTC+57.021VR    -1.0000     NotChecked  -13.6067    1571.7726   ✗       
+468   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.6094    1598.8086   ✗       
+469   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -13.6129    1613.8195   ✗       
+470   GAVPGETLNLQTMVR          -1.0000     NotChecked  -13.6185    1584.8294   ✗       
+471   GAVPGDTLNLQTC+57.021VR   -1.0000     NotChecked  -13.6227    1599.8039   ✗       
+472   +43.006GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.6284    1585.7882   ✗       
+473   GEPGETLNLQTC+57.021VR    -1.0000     NotChecked  -13.6286    1572.7566   ✗       
+474   GGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -13.6352    1599.8039   ✗       
+475   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -13.6416    1613.8195   ✗       
+476   GAVPGLTLNLQTC+57.021VR   -1.0000     NotChecked  -13.6583    1597.8610   ✗       
+477   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -13.6587    1556.7981   ✗       
+478   ATPGETLNLQTC+57.021VR    -1.0000     NotChecked  -13.6680    1558.7773   ✗       
+479   +43.006VPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.6825    1528.7668   ✗       
+480   GAVPGQTLNLQTC+57.021VR   -1.0000     NotChecked  -13.6889    1612.8355   ✗       
+481   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -13.6893    1542.7824   ✗       
+482   +43.006ALPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -13.6933    1613.8195   ✗       
+483   GAVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -13.6956    1613.8195   ✗       
+484   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.6970    1598.8086   ✗       
+485   +42.011AVPGETLNLQ+0.984TC+57.021VR-1.0000     NotChecked  -13.6981    1599.7926   ✗       
+486   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -13.7001    1613.8195   ✗       
+487   +43.006AVPAETLNLQTC+57.021VR-1.0000     NotChecked  -13.7009    1613.8195   ✗       
+488   +43.006AVPGETLNLETC+57.021VR-1.0000     NotChecked  -13.7037    1600.7879   ✗       
+489   +43.006AVPETLNLQTC+57.021VR-1.0000     NotChecked  -13.7093    1542.7824   ✗       
+490   +43.006AVPGETLNLQTC+57.021V-1.0000     NotChecked  -13.7116    1443.7028   ✗       
+491   +43.006KPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.7136    1557.7933   ✗       
+492   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -13.7154    1542.7824   ✗       
+493   +43.006ATPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.7202    1601.7831   ✗       
+494   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -13.7291    1613.8195   ✗       
+495   GAVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -13.7413    1613.8195   ✗       
+496   +43.006AVPGETLNLQTC+57.021R-1.0000     NotChecked  -13.7427    1500.7355   ✗       
+497   GGVPGETLNLQ+0.984TC+57.021VR-1.0000     NotChecked  -13.7471    1600.7879   ✗       
+498   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -13.7479    1613.8195   ✗       
+499   +42.011AVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -13.7491    1598.8086   ✗       
+500   GAVPGKTLNLQTC+57.021VR   -1.0000     NotChecked  -13.7535    1612.8719   ✗       
+501   +43.006AVGETLNLQTC+57.021VR-1.0000     NotChecked  -13.7764    1502.7511   ✗       
+502   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -13.7766    1556.7981   ✗       
+503   +43.006ALPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.7977    1613.8195   ✗       
+504   GGVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -13.7981    1599.8039   ✗       
+505   +43.006VPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.8243    1528.7668   ✗       
+506   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.8426    1598.8086   ✗       
+507   +43.006AVPGETLNLQTC+57.021LR-1.0000     NotChecked  -13.8482    1613.8195   ✗       
+508   +42.011AVPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -13.8561    1599.7926   ✗       
+509   +43.006ATPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.8658    1601.7831   ✗       
+510   +43.006AVPGETLSLQTC+57.021VR-1.0000     NotChecked  -13.8859    1572.7930   ✗       
+511   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -13.8862    1542.7824   ✗       
+512   AVPGETLNLQ+0.984TC+57.021VR-1.0000     NotChecked  -13.8886    1557.7821   ✗       
+513   +42.011GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.8994    1584.7930   ✗       
+514   GGVPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -13.9051    1600.7879   ✗       
+515   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.9127    1599.8039   ✗       
+516   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -13.9132    1613.8195   ✗       
+517   GAVPGETLNLQSC+57.021VR   -1.0000     NotChecked  -13.9163    1599.8039   ✗       
+518   +43.006GTPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.9226    1587.7675   ✗       
+519   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -13.9271    1542.7824   ✗       
+520   +43.006NPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.9272    1543.7413   ✗       
+521   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.9349    1598.8086   ✗       
+522   AVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -13.9395    1556.7981   ✗       
+523   +43.006AVPGETLNLQ+0.984TC+57.021VR-1.0000     NotChecked  -13.9408    1600.7879   ✗       
+524   +43.006ALPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.9711    1613.8195   ✗       
+525   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.9745    1599.8039   ✗       
+526   AGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -13.9790    1613.8195   ✗       
+527   +43.006GLPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.9837    1599.8039   ✗       
+528   +43.006AVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -13.9918    1599.8039   ✗       
+529   +43.006VPGETLNLQTC+57.021VR-1.0000     NotChecked  -13.9977    1528.7668   ✗       
+530   +43.006AVPGETLQLQTC+57.021VR-1.0000     NotChecked  -14.0009    1613.8195   ✗       
+531   +43.006QPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.0027    1557.7569   ✗       
+532   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.0090    1613.8195   ✗       
+533   GAPGETLNLQTC+57.021VR    -1.0000     NotChecked  -14.0131    1514.7511   ✗       
+534   +43.006AVPGETLNLQTMVR    -1.0000     NotChecked  -14.0146    1570.8137   ✗       
+535   +42.011VPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.0184    1527.7715   ✗       
+536   +43.006AVPGDTLNLQTC+57.021VR-1.0000     NotChecked  -14.0187    1585.7882   ✗       
+537   +43.006EPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.0246    1558.7409   ✗       
+538   +43.006GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.0312    1585.7882   ✗       
+539   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -14.0331    1556.7981   ✗       
+540   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.0376    1599.8039   ✗       
+541   +42.011ALPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.0440    1612.8243   ✗       
+542   AVPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -14.0465    1557.7821   ✗       
+543   +43.006AVPGLTLNLQTC+57.021VR-1.0000     NotChecked  -14.0543    1583.8453   ✗       
+544   +43.006ALPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.0587    1613.8195   ✗       
+545   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -14.0615    1556.7981   ✗       
+546   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.0665    1598.8086   ✗       
+547   GAVPGETLNLQTC+57.021V    -1.0000     NotChecked  -14.0671    1457.7184   ✗       
+548   +43.006AVPGQTLNLQTC+57.021VR-1.0000     NotChecked  -14.0849    1598.8199   ✗       
+549   +43.006VPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.0853    1528.7668   ✗       
+550   +43.006AVPGETLNLQ+0.984TC+57.021VR-1.0000     NotChecked  -14.0864    1600.7879   ✗       
+551   AGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.0898    1613.8195   ✗       
+552   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.0962    1599.8039   ✗       
+553   +42.011GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.0963    1584.7930   ✗       
+554   GAVPGETLNLQTC+57.021R    -1.0000     NotChecked  -14.0982    1514.7511   ✗       
+555   +43.006AVPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -14.0987    1600.7879   ✗       
+556   +42.011GLPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.1008    1598.8086   ✗       
+557   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.1020    1613.8195   ✗       
+558   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -14.1182    1542.7824   ✗       
+559   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.1251    1599.8039   ✗       
+560   GAVPGETLNLQTC+57.021SR   -1.0000     NotChecked  -14.1318    1601.7831   ✗       
+561   GAVGETLNLQTC+57.021VR    -1.0000     NotChecked  -14.1319    1516.7668   ✗       
+562   +43.006AVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -14.1374    1599.8039   ✗       
+563   +43.006GVPGETLNLQ+0.984TC+57.021VR-1.0000     NotChecked  -14.1432    1586.7722   ✗       
+564   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.1439    1599.8039   ✗       
+565   GAVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -14.1441    1613.8195   ✗       
+566   AMPGETLNLQTC+57.021VR    -1.0000     NotChecked  -14.1482    1588.7701   ✗       
+567   +43.006AVPGKTLNLQTC+57.021VR-1.0000     NotChecked  -14.1496    1598.8562   ✗       
+568   +42.011AVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -14.1519    1598.8086   ✗       
+569   GAVPGETLTLQTC+57.021VR   -1.0000     NotChecked  -14.1708    1600.8243   ✗       
+570   +43.006GVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -14.1941    1585.7882   ✗       
+571   GGVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -14.2009    1599.8039   ✗       
+572   +43.006ALPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.2064    1613.8195   ✗       
+573   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -14.2089    1556.7981   ✗       
+574   GTPGETLNLQTC+57.021VR    -1.0000     NotChecked  -14.2213    1544.7617   ✗       
+575   +42.011ATPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.2291    1600.7879   ✗       
+576   GAVPGETLLLQTC+57.021VR   -1.0000     NotChecked  -14.2335    1612.8607   ✗       
+577   ALPGETLNLQTC+57.021VR    -1.0000     NotChecked  -14.2344    1570.8137   ✗       
+578   +43.006AVPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -14.2443    1600.7879   ✗       
+579   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -14.2570    1556.7981   ✗       
+580   +42.011AVPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -14.2589    1599.7926   ✗       
+581   GAVPGETLNLQTC+57.021AR   -1.0000     NotChecked  -14.2613    1585.7882   ✗       
+582   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.2682    1613.8195   ✗       
+583   +43.006AVPGETLDLQTC+57.021VR-1.0000     NotChecked  -14.2726    1600.7879   ✗       
+584   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.2775    1613.8195   ✗       
+585   +43.006GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.2822    1585.7882   ✗       
+586   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.2826    1613.8195   ✗       
+587   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.2852    1598.8086   ✗       
+588   AGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.2867    1613.8195   ✗       
+589   +43.006GVPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -14.3011    1586.7722   ✗       
+590   GAVPGESLNLQTC+57.021VR   -1.0000     NotChecked  -14.3012    1599.8039   ✗       
+591   GAVPGTTLNLQTC+57.021VR   -1.0000     NotChecked  -14.3026    1585.8246   ✗       
+592   GGVPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -14.3079    1600.7879   ✗       
+593   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.3092    1599.8039   ✗       
+594   +43.006AVPGETLNLQSC+57.021VR-1.0000     NotChecked  -14.3123    1585.7882   ✗       
+595   +43.006VPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.3232    1528.7668   ✗       
+596   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -14.3299    1542.7824   ✗       
+597   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.3316    1613.8195   ✗       
+598   GGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.3343    1599.8039   ✗       
+599   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.3377    1598.8086   ✗       
+600   AVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -14.3423    1556.7981   ✗       
+601   GAVPGEGLNLQTC+57.021VR   -1.0000     NotChecked  -14.3429    1569.7933   ✗       
+602   GAVPGDTLNLQTC+57.021VR   -1.0000     NotChecked  -14.3742    1599.8039   ✗       
+603   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.4050    1599.8039   ✗       
+604   +43.006GAPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.4091    1557.7569   ✗       
+605   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.4097    1613.8195   ✗       
+606   GAVPGLTLNLQTC+57.021VR   -1.0000     NotChecked  -14.4098    1597.8610   ✗       
+607   VPGETLNLQTC+57.021VR     -1.0000     NotChecked  -14.4102    1485.7609   ✗       
+608   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.4118    1613.8195   ✗       
+609   GVPGETLNLQ+0.984TC+57.021VR-1.0000     NotChecked  -14.4419    1543.7664   ✗       
+610   AVPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -14.4493    1557.7821   ✗       
+611   +42.011AVPGETLNLQ+0.984TC+57.021VR-1.0000     NotChecked  -14.4496    1599.7926   ✗       
+612   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.4516    1613.8195   ✗       
+613   +43.006AVPGETLNLETC+57.021VR-1.0000     NotChecked  -14.4552    1600.7879   ✗       
+614   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.4558    1613.8195   ✗       
+615   GAVPGETLNLNTC+57.021VR   -1.0000     NotChecked  -14.4610    1599.8039   ✗       
+616   GAAPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.4616    1585.7882   ✗       
+617   +43.006AVPGETLNLQTC+57.021V-1.0000     NotChecked  -14.4631    1443.7028   ✗       
+618   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.4635    1598.8086   ✗       
+619   +42.011APGETLNLQTC+57.021VR-1.0000     NotChecked  -14.4693    1499.7402   ✗       
+620   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -14.4757    1556.7981   ✗       
+621   N+0.984VPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.4765    1600.7879   ✗       
+622   GAVPETLNLQTC+57.021VR    -1.0000     NotChecked  -14.4823    1556.7981   ✗       
+623   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.4833    1598.8086   ✗       
+624   GVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -14.4928    1542.7824   ✗       
+625   +43.006AVPGETLNLQTC+57.021R-1.0000     NotChecked  -14.4942    1500.7355   ✗       
+626   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.4980    1599.8039   ✗       
+627   +42.011GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.4991    1584.7930   ✗       
+628   +42.011AVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -14.5006    1598.8086   ✗       
+629   GAVPGKTLNLQTC+57.021VR   -1.0000     NotChecked  -14.5050    1612.8719   ✗       
+630   GGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.5125    1599.8039   ✗       
+631   GGAPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.5183    1571.7726   ✗       
+632   +43.006AVPGETLNLQTC+57.021SR-1.0000     NotChecked  -14.5278    1587.7675   ✗       
+633   +43.006AVGETLNLQTC+57.021VR-1.0000     NotChecked  -14.5279    1502.7511   ✗       
+634   +42.011GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.5401    1584.7930   ✗       
+635   +43.006AVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -14.5402    1599.8039   ✗       
+636   AGVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -14.5447    1613.8195   ✗       
+637   +43.006ALPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.5492    1613.8195   ✗       
+638   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.5515    1613.8195   ✗       
+639   +43.006AVPGETLNLQTC+57.021TR-1.0000     NotChecked  -14.5516    1601.7831   ✗       
+640   DVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -14.5609    1600.7879   ✗       
+641   +43.006AVPGETLTLQTC+57.021VR-1.0000     NotChecked  -14.5669    1586.8086   ✗       
+642   +42.011ALPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.5676    1612.8243   ✗       
+643   AN+0.984PGETLNLQTC+57.021VR-1.0000     NotChecked  -14.5846    1572.7566   ✗       
+644   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -14.5850    1556.7981   ✗       
+645   GAVPGETLNLQTQVR          -1.0000     NotChecked  -14.5862    1581.8475   ✗       
+646   +42.011VPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.5941    1527.7715   ✗       
+647   +43.006GVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -14.5969    1585.7882   ✗       
+648   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.5972    1613.8195   ✗       
+649   GVPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -14.5998    1543.7664   ✗       
+650   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.6050    1598.8086   ✗       
+651   GAVPGSTLNLQTC+57.021VR   -1.0000     NotChecked  -14.6060    1571.8090   ✗       
+652   +42.011AVPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -14.6076    1599.7926   ✗       
+653   GGLPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.6166    1613.8195   ✗       
+654   +43.006TPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.6173    1530.7460   ✗       
+655   GVAPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.6258    1613.8195   ✗       
+656   +43.006AVPGETLLLQTC+57.021VR-1.0000     NotChecked  -14.6295    1598.8450   ✗       
+657   +43.006AVPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -14.6471    1600.7879   ✗       
+658   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.6496    1613.8195   ✗       
+659   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -14.6540    1556.7981   ✗       
+660   GGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.6540    1599.8039   ✗       
+661   +43.006AVPGETLNLQTC+57.021AR-1.0000     NotChecked  -14.6573    1571.7726   ✗       
+662   +43.006AVVGETLNLQTC+57.021VR-1.0000     NotChecked  -14.6577    1601.8195   ✗       
+663   GAVPGETLSLQTC+57.021VR   -1.0000     NotChecked  -14.6589    1586.8086   ✗       
+664   APGETLNLQTC+57.021VR     -1.0000     NotChecked  -14.6598    1457.7296   ✗       
+665   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.6642    1599.8039   ✗       
+666   GAVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -14.6677    1613.8195   ✗       
+667   GAVPGETLNLQSC+57.021VR   -1.0000     NotChecked  -14.6678    1599.8039   ✗       
+668   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.6735    1599.8039   ✗       
+669   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -14.6737    1556.7981   ✗       
+670   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.6786    1599.8039   ✗       
+671   AGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.6895    1613.8195   ✗       
+672   +43.006AVPGESLNLQTC+57.021VR-1.0000     NotChecked  -14.6972    1585.7882   ✗       
+673   +43.006AVPGTTLNLQTC+57.021VR-1.0000     NotChecked  -14.6986    1571.8090   ✗       
+674   +43.006ALPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.6994    1613.8195   ✗       
+675   GAVPGEALNLQTC+57.021VR   -1.0000     NotChecked  -14.7002    1583.8090   ✗       
+676   GMPGETLNLQTC+57.021VR    -1.0000     NotChecked  -14.7015    1574.7545   ✗       
+677   +43.006GVPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -14.7039    1586.7722   ✗       
+678   GAVPGESLNLQTC+57.021VR   -1.0000     NotChecked  -14.7040    1599.8039   ✗       
+679   GAVPGETTNLQTC+57.021VR   -1.0000     NotChecked  -14.7056    1601.7831   ✗       
+680   +43.006ALPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.7226    1613.8195   ✗       
+681   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.7249    1613.8195   ✗       
+682   +43.006VPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.7260    1528.7668   ✗       
+683   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.7276    1599.8039   ✗       
+684   +43.006GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.7303    1585.7882   ✗       
+685   AGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.7305    1613.8195   ✗       
+686   +43.006AVPGEGLNLQTC+57.021VR-1.0000     NotChecked  -14.7389    1555.7777   ✗       
+687   +43.006AVPGETLQLQTC+57.021VR-1.0000     NotChecked  -14.7524    1613.8195   ✗       
+688   ALPGETLNLQTC+57.021VR    -1.0000     NotChecked  -14.7580    1570.8137   ✗       
+689   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.7605    1613.8195   ✗       
+690   +43.006AVPGDTLNLQTC+57.021VR-1.0000     NotChecked  -14.7702    1585.7882   ✗       
+691   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -14.7846    1556.7981   ✗       
+692   ALPGETLNLQTC+57.021VR    -1.0000     NotChecked  -14.7864    1570.8137   ✗       
+693   GAVPGETLNLQTMVR          -1.0000     NotChecked  -14.7875    1584.8294   ✗       
+694   +42.011GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.7910    1584.7930   ✗       
+695   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -14.7954    1556.7981   ✗       
+696   +42.011LPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.7955    1541.7872   ✗       
+697   GAVPGETLLQTC+57.021VR    -1.0000     NotChecked  -14.8044    1499.7766   ✗       
+698   NVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -14.8050    1599.8039   ✗       
+699   +43.006AVPGLTLNLQTC+57.021VR-1.0000     NotChecked  -14.8058    1583.8453   ✗       
+700   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.8078    1599.8039   ✗       
+701   +43.006ALPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.8102    1613.8195   ✗       
+702   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.8103    1613.8195   ✗       
+703   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.8106    1613.8195   ✗       
+704   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.8125    1613.8195   ✗       
+705   VPGETLNLQTC+57.021VR     -1.0000     NotChecked  -14.8130    1485.7609   ✗       
+706   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.8180    1598.8086   ✗       
+707   +43.006VPGETLNLQ+0.984TC+57.021VR-1.0000     NotChecked  -14.8379    1529.7508   ✗       
+708   +43.006GN+0.984PGETLNLQTC+57.021VR-1.0000     NotChecked  -14.8392    1601.7468   ✗       
+709   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.8477    1599.8039   ✗       
+710   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.8518    1599.8039   ✗       
+711   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.8535    1613.8195   ✗       
+712   AVPGETLNLQTC+57.021MR    -1.0000     NotChecked  -14.8552    1588.7701   ✗       
+713   +43.006AVPGETLNLNTC+57.021VR-1.0000     NotChecked  -14.8570    1585.7882   ✗       
+714   +43.006AAPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.8576    1571.7726   ✗       
+715   GAVPGQTLNLQTC+57.021VR   -1.0000     NotChecked  -14.8578    1612.8355   ✗       
+716   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.8583    1613.8195   ✗       
+717   AGAPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.8621    1585.7882   ✗       
+718   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.8660    1598.8086   ✗       
+719   +43.006AVPAETLNLQTC+57.021VR-1.0000     NotChecked  -14.8698    1613.8195   ✗       
+720   +43.006AVPETLNLQTC+57.021VR-1.0000     NotChecked  -14.8783    1542.7824   ✗       
+721   N+0.984VPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.8793    1600.7879   ✗       
+722   GAVPGETLNLQTC+57.021SR   -1.0000     NotChecked  -14.8833    1601.7831   ✗       
+723   GAVPETLNLQTC+57.021VR    -1.0000     NotChecked  -14.8850    1556.7981   ✗       
+724   +43.006VPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -14.8889    1528.7668   ✗       
+725   GVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -14.8956    1542.7824   ✗       
+726   +43.006AVPGKTLNLQTC+57.021VR-1.0000     NotChecked  -14.9011    1598.8562   ✗       
+727   +42.011AVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -14.9034    1598.8086   ✗       
+728   +43.006GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.9086    1585.7882   ✗       
+729   +43.006GAPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.9144    1557.7569   ✗       
+730   GGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.9150    1599.8039   ✗       
+731   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.9169    1613.8195   ✗       
+732   GAVPGETLTLQTC+57.021VR   -1.0000     NotChecked  -14.9223    1600.8243   ✗       
+733   +43.006ALPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.9558    1613.8195   ✗       
+734   DVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -14.9637    1600.7879   ✗       
+735   AGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -14.9815    1613.8195   ✗       
+736   +43.006AVPGETLNLQTQVR    -1.0000     NotChecked  -14.9823    1567.8318   ✗       
+737   GAVPGETLLLQTC+57.021VR   -1.0000     NotChecked  -14.9850    1612.8607   ✗       
+738   GAPGETLNLQTC+57.021VR    -1.0000     NotChecked  -14.9852    1514.7511   ✗       
+739   ALPGETLNLQTC+57.021VR    -1.0000     NotChecked  -14.9859    1570.8137   ✗       
+740   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -14.9933    1599.8039   ✗       
+741   +43.006VPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -14.9958    1529.7508   ✗       
+742   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -15.0000    1613.8195   ✗       
+743   +43.006AVPGSTLNLQTC+57.021VR-1.0000     NotChecked  -15.0020    1557.7933   ✗       
+744   GVPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -15.0026    1543.7664   ✗       
+745   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.0078    1598.8086   ✗       
+746   +42.011AVPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -15.0104    1599.7926   ✗       
+747   +43.006GLPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.0126    1599.8039   ✗       
+748   GAVPGETLNLQTC+57.021AR   -1.0000     NotChecked  -15.0128    1585.7882   ✗       
+749   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.0149    1542.7824   ✗       
+750   +43.006AVPGETLNLQTC+57.021LR-1.0000     NotChecked  -15.0172    1613.8195   ✗       
+751   +43.006VAPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.0218    1599.8039   ✗       
+752   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.0290    1542.7824   ✗       
+753   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.0341    1542.7824   ✗       
+754   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.0367    1598.8086   ✗       
+755   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.0457    1599.8039   ✗       
+756   +42.011AVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -15.0490    1598.8086   ✗       
+757   +43.006GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.0500    1585.7882   ✗       
+758   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -15.0504    1613.8195   ✗       
+759   GAVPGESLNLQTC+57.021VR   -1.0000     NotChecked  -15.0527    1599.8039   ✗       
+760   GAVPGTTLNLQTC+57.021VR   -1.0000     NotChecked  -15.0541    1585.8246   ✗       
+761   +43.006AVPGETLSLQTC+57.021VR-1.0000     NotChecked  -15.0549    1572.7930   ✗       
+762   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.0565    1556.7981   ✗       
+763   GGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -15.0568    1599.8039   ✗       
+764   GAVPGETLSLQTC+57.021VR   -1.0000     NotChecked  -15.0617    1586.8086   ✗       
+765   +43.006AVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -15.0637    1599.8039   ✗       
+766   +43.006AVPGETLNLQSC+57.021VR-1.0000     NotChecked  -15.0638    1585.7882   ✗       
+767   +43.006ALPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.0639    1613.8195   ✗       
+768   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -15.0831    1613.8195   ✗       
+769   GAGVPETLNLQTC+57.021VR   -1.0000     NotChecked  -15.0874    1613.8195   ✗       
+770   AKPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.0875    1585.8246   ✗       
+771   GAVPGEGLNLQTC+57.021VR   -1.0000     NotChecked  -15.0944    1569.7933   ✗       
+772   +43.006AVPGEALNLQTC+57.021VR-1.0000     NotChecked  -15.0962    1569.7933   ✗       
+773   +43.006MPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.0975    1560.7388   ✗       
+774   +43.006AVPGESLNLQTC+57.021VR-1.0000     NotChecked  -15.1000    1585.7882   ✗       
+775   +43.006AVPGETTNLQTC+57.021VR-1.0000     NotChecked  -15.1016    1587.7675   ✗       
+776   +42.011GVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -15.1058    1584.7930   ✗       
+777   GAVPGTLNLQTC+57.021VR    -1.0000     NotChecked  -15.1061    1484.7769   ✗       
+778   +43.006AVPGETLNLQ+0.984TC+57.021VR-1.0000     NotChecked  -15.1098    1600.7879   ✗       
+779   +42.011ANPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.1107    1613.7831   ✗       
+780   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.1340    1542.7824   ✗       
+781   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -15.1341    1613.8195   ✗       
+782   GN+0.984PGETLNLQTC+57.021VR-1.0000     NotChecked  -15.1379    1558.7409   ✗       
+783   GAVPGETLNLSTC+57.021VR   -1.0000     NotChecked  -15.1510    1572.7930   ✗       
+784   +42.011AVPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -15.1560    1599.7926   ✗       
+785   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.1565    1599.8039   ✗       
+786   GGNPGETLNLQTC+57.021VR   -1.0000     Failed      -15.1597    1614.7784   ✓       
+787   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -15.1633    1613.8195   ✗       
+788   +43.006AVPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -15.1707    1600.7879   ✗       
+789   GVAPGETLNLQTC+57.021VR   -1.0000     NotChecked  -15.1730    1613.8195   ✗       
+790   GAVPGETLNLQTRVR          -1.0000     NotChecked  -15.1754    1609.8900   ✗       
+791   +43.006AVPGETLNLQTMVR    -1.0000     NotChecked  -15.1835    1570.8137   ✗       
+792   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.1874    1598.8086   ✗       
+793   GAVPGETLNLQTMVR          -1.0000     NotChecked  -15.1903    1584.8294   ✗       
+794   GAVPGETSNLQTC+57.021VR   -1.0000     NotChecked  -15.1933    1587.7675   ✗       
+795   +42.011GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.1938    1584.7930   ✗       
+796   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.1982    1556.7981   ✗       
+797   +43.006AVPGETLLQTC+57.021VR-1.0000     NotChecked  -15.2005    1485.7609   ✗       
+798   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.2063    1599.8039   ✗       
+799   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.2066    1599.8039   ✗       
+800   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.2073    1542.7824   ✗       
+801   NVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.2078    1599.8039   ✗       
+802   +42.011ALPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.2082    1612.8243   ✗       
+803   GAVPGETLNLNTC+57.021VR   -1.0000     NotChecked  -15.2125    1599.8039   ✗       
+804   +42.011GVPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -15.2127    1585.7770   ✗       
+805   GAPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.2131    1514.7511   ✗       
+806   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -15.2134    1613.8195   ✗       
+807   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.2150    1598.8086   ✗       
+808   GLPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.2163    1556.7981   ✗       
+809   +42.011APGETLNLQTC+57.021VR-1.0000     NotChecked  -15.2208    1499.7402   ✗       
+810   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.2257    1556.7981   ✗       
+811   GAVPGETLNVQTC+57.021VR   -1.0000     NotChecked  -15.2295    1599.8039   ✗       
+812   GAVPETLNLQTC+57.021VR    -1.0000     NotChecked  -15.2338    1556.7981   ✗       
+813   +42.011VPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.2348    1527.7715   ✗       
+814   GAVPGETLNLQTC+57.021V    -1.0000     NotChecked  -15.2361    1457.7184   ✗       
+815   AVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -15.2394    1556.7981   ✗       
+816   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.2495    1599.8039   ✗       
+817   +43.006AVPGQTLNLQTC+57.021VR-1.0000     NotChecked  -15.2539    1598.8199   ✗       
+818   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.2543    1599.8039   ✗       
+819   GGLPGETLNLQTC+57.021VR   -1.0000     NotChecked  -15.2573    1613.8195   ✗       
+820   AGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -15.2588    1613.8195   ✗       
+821   GAVPGQTLNLQTC+57.021VR   -1.0000     NotChecked  -15.2606    1612.8355   ✗       
+822   +43.006ALPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -15.2651    1613.8195   ✗       
+823   GAVPGETLNLQTC+57.021R    -1.0000     NotChecked  -15.2672    1514.7511   ✗       
+824   +43.006AVPAETLNLQTC+57.021VR-1.0000     NotChecked  -15.2726    1613.8195   ✗       
+825   +43.006VPEETLNLQTC+57.021VR-1.0000     NotChecked  -15.2733    1600.7879   ✗       
+826   +43.006AVPGETLNLQTC+57.021SR-1.0000     NotChecked  -15.2793    1587.7675   ✗       
+827   +43.006AVPETLNLQTC+57.021VR-1.0000     NotChecked  -15.2811    1542.7824   ✗       
+828   AGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -15.2872    1613.8195   ✗       
+829   +43.006VPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -15.2917    1528.7668   ✗       
+830   AGVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -15.2962    1613.8195   ✗       
+831   GAVGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.3009    1516.7668   ✗       
+832   ANPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.3011    1571.7726   ✗       
+833   +43.006AVPGETLNLQTC+57.021TR-1.0000     NotChecked  -15.3031    1601.7831   ✗       
+834   GAVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -15.3084    1613.8195   ✗       
+835   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -15.3089    1613.8195   ✗       
+836   +43.006GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.3110    1585.7882   ✗       
+837   GLPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.3113    1556.7981   ✗       
+838   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.3129    1599.8039   ✗       
+839   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.3167    1598.8086   ✗       
+840   +43.006AVPGETLTLQTC+57.021VR-1.0000     NotChecked  -15.3184    1586.8086   ✗       
+841   +42.011ALPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.3191    1612.8243   ✗       
+842   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -15.3197    1613.8195   ✗       
+843   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.3365    1556.7981   ✗       
+844   GAVPGETLNLQTQVR          -1.0000     NotChecked  -15.3377    1581.8475   ✗       
+845   AVPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -15.3464    1557.7821   ✗       
+846   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.3488    1542.7824   ✗       
+847   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.3565    1598.8086   ✗       
+848   GAVPGSTLNLQTC+57.021VR   -1.0000     NotChecked  -15.3575    1571.8090   ✗       
+849   GGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -15.3657    1599.8039   ✗       
+850   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -15.3664    1613.8195   ✗       
+851   +42.011AAPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.3664    1570.7773   ✗       
+852   GAVPGEVLNLQTC+57.021VR   -1.0000     NotChecked  -15.3698    1611.8403   ✗       
+853   AQPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.3767    1585.7882   ✗       
+854   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.3779    1556.7981   ✗       
+855   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -15.3803    1613.8195   ✗       
+856   +43.006AVPGETLLLQTC+57.021VR-1.0000     NotChecked  -15.3810    1598.8450   ✗       
+857   +43.006APGETLNLQTC+57.021VR-1.0000     NotChecked  -15.3812    1500.7355   ✗       
+858   AGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -15.3843    1613.8195   ✗       
+859   GAVPGETLNLKTC+57.021VR   -1.0000     NotChecked  -15.3943    1613.8559   ✗       
+860   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.3961    1599.8039   ✗       
+861   +43.006ALPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.3985    1613.8195   ✗       
+862   AEPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.3985    1586.7722   ✗       
+863   +43.006VPGETLN+0.984LQTC+57.021VR-1.0000     NotChecked  -15.3986    1529.7508   ✗       
+864   ALPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.3987    1570.8137   ✗       
+865   AGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -15.4006    1613.8195   ✗       
+866   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -15.4011    1613.8195   ✗       
+867   GVPGETLNLQTC+57.021MR    -1.0000     NotChecked  -15.4085    1574.7545   ✗       
+868   +43.006AVPGETLNLQTC+57.021AR-1.0000     NotChecked  -15.4088    1571.7726   ✗       
+869   +43.006AVVGETLNLQTC+57.021VR-1.0000     NotChecked  -15.4092    1601.8195   ✗       
+870   GAVPGETLSLQTC+57.021VR   -1.0000     NotChecked  -15.4104    1586.8086   ✗       
+871   +43.006GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.4109    1585.7882   ✗       
+872   AAPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.4113    1528.7668   ✗       
+873   GAVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -15.4192    1613.8195   ✗       
+874   GLPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.4194    1556.7981   ✗       
+875   +43.006AVPGETLNLQTC+57.021LR-1.0000     NotChecked  -15.4200    1613.8195   ✗       
+876   +42.011GAPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.4232    1556.7617   ✗       
+877   +43.006VPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.4250    1528.7668   ✗       
+878   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.4252    1556.7981   ✗       
+879   +43.006VPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.4301    1528.7668   ✗       
+880   GAVPGETVNLQTC+57.021VR   -1.0000     NotChecked  -15.4305    1599.8039   ✗       
+881   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -15.4372    1613.8195   ✗       
+882   +43.006AVPGETLDLQTC+57.021VR-1.0000     NotChecked  -15.4416    1600.7879   ✗       
+883   +43.006AVPGESLNLQTC+57.021VR-1.0000     NotChecked  -15.4487    1585.7882   ✗       
+884   +43.006AVPGTTLNLQTC+57.021VR-1.0000     NotChecked  -15.4501    1571.8090   ✗       
+885   +43.006ALPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.4509    1613.8195   ✗       
+886   GAVPGEALNLQTC+57.021VR   -1.0000     NotChecked  -15.4517    1583.8090   ✗       
+887   +43.006GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.4528    1585.7882   ✗       
+888   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -15.4532    1613.8195   ✗       
+889   GAVPGESLNLQTC+57.021VR   -1.0000     NotChecked  -15.4555    1599.8039   ✗       
+890   GAVPGETTNLQTC+57.021VR   -1.0000     NotChecked  -15.4571    1601.7831   ✗       
+891   +43.006AVPGETLSLQTC+57.021VR-1.0000     NotChecked  -15.4577    1572.7930   ✗       
+892   GAVPGETLNLQTC+57.021VQ   -1.0000     NotChecked  -15.4670    1585.7770   ✗       
+893   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.4792    1599.8039   ✗       
+894   +43.006AGVPETLNLQTC+57.021VR-1.0000     NotChecked  -15.4834    1599.8039   ✗       
+895   +43.006AVPGENLNLQTC+57.021VR-1.0000     NotChecked  -15.4888    1612.7991   ✗       
+896   +43.006AVPGEGLNLQTC+57.021VR-1.0000     NotChecked  -15.4904    1555.7777   ✗       
+897   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -15.4989    1613.8195   ✗       
+898   GAVAGETLNLQTC+57.021VR   -1.0000     NotChecked  -15.5007    1587.8039   ✗       
+899   +43.006AVPGTLNLQTC+57.021VR-1.0000     NotChecked  -15.5021    1470.7613   ✗       
+900   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.5067    1598.8086   ✗       
+901   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.5071    1556.7981   ✗       
+902   GAVPGETLNLQTVVR          -1.0000     NotChecked  -15.5224    1552.8573   ✗       
+903   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -15.5236    1613.8195   ✗       
+904   +43.006GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.5300    1585.7882   ✗       
+905   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.5301    1599.8039   ✗       
+906   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -15.5334    1613.8195   ✗       
+907   +43.006N+0.984PGETLNLQTC+57.021VR-1.0000     NotChecked  -15.5339    1544.7253   ✗       
+908   ALPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.5379    1570.8137   ✗       
+909   GAVPGETLNLQTMVR          -1.0000     NotChecked  -15.5390    1584.8294   ✗       
+910   GAVPGDTLNLQTC+57.021VR   -1.0000     NotChecked  -15.5432    1599.8039   ✗       
+911   +43.006AVPGETLNLSTC+57.021VR-1.0000     NotChecked  -15.5470    1558.7773   ✗       
+912   GGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -15.5557    1599.8039   ✗       
+913   +43.006GNPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.5557    1600.7627   ✗       
+914   GAVPGETLLQTC+57.021VR    -1.0000     NotChecked  -15.5560    1499.7766   ✗       
+915   AAPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.5569    1528.7668   ✗       
+916   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.5593    1599.8039   ✗       
+917   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -15.5621    1613.8195   ✗       
+918   +43.006VAPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.5690    1599.8039   ✗       
+919   +43.006AVPGETLNLQTRVR    -1.0000     NotChecked  -15.5714    1595.8743   ✗       
+920   AGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -15.5740    1613.8195   ✗       
+921   GAVPGETLNLQVC+57.021VR   -1.0000     NotChecked  -15.5741    1611.8403   ✗       
+922   GAVPGLTLNLQTC+57.021VR   -1.0000     NotChecked  -15.5788    1597.8610   ✗       
+923   GAVPGETLNLQTC+57.021VK   -1.0000     NotChecked  -15.5832    1585.8134   ✗       
+924   +43.006AVPGETLNLQTMVR    -1.0000     NotChecked  -15.5863    1570.8137   ✗       
+925   +43.006AVPGETSNLQTC+57.021VR-1.0000     NotChecked  -15.5893    1573.7518   ✗       
+926   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.5902    1598.8086   ✗       
+927   +43.006ALPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.5965    1613.8195   ✗       
+928   GAVPGESLNLQTC+57.021VR   -1.0000     NotChecked  -15.6011    1599.8039   ✗       
+929   +43.006VPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.6033    1528.7668   ✗       
+930   +43.006AVPGELLNLQTC+57.021VR-1.0000     NotChecked  -15.6034    1611.8403   ✗       
+931   +43.006AVPGETLNLNTC+57.021VR-1.0000     NotChecked  -15.6085    1585.7882   ✗       
+932   +42.011AVPGESLNLQTC+57.021VR-1.0000     NotChecked  -15.6089    1584.7930   ✗       
+933   +43.006APGETLNLQTC+57.021VR-1.0000     NotChecked  -15.6091    1500.7355   ✗       
+934   GAVPGQTLNLQTC+57.021VR   -1.0000     NotChecked  -15.6093    1612.8355   ✗       
+935   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.6094    1599.8039   ✗       
+936   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.6098    1542.7824   ✗       
+937   +43.006GLPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.6123    1599.8039   ✗       
+938   AGAPGETLNLQTC+57.021VR   -1.0000     NotChecked  -15.6136    1585.7882   ✗       
+939   GAVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -15.6161    1613.8195   ✗       
+940   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.6175    1598.8086   ✗       
+941   +42.011AVPGETLNLQ+0.984TC+57.021VR-1.0000     NotChecked  -15.6186    1599.7926   ✗       
+942   +43.006AVPAETLNLQTC+57.021VR-1.0000     NotChecked  -15.6213    1613.8195   ✗       
+943   +43.006AVPGETLNLETC+57.021VR-1.0000     NotChecked  -15.6241    1600.7879   ✗       
+944   +43.006AVPGETLNVQTC+57.021VR-1.0000     NotChecked  -15.6255    1585.7882   ✗       
+945   GAPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.6258    1514.7511   ✗       
+946   +43.006AVPETLNLQTC+57.021VR-1.0000     NotChecked  -15.6298    1542.7824   ✗       
+947   +43.006GQPGETLNLQTC+57.021VR-1.0000     Failed      -15.6313    1614.7784   ✓       
+948   +43.006AVPGETLNLQTC+57.021V-1.0000     NotChecked  -15.6321    1443.7028   ✗       
+949   GAVPETLNLQTC+57.021VR    -1.0000     NotChecked  -15.6365    1556.7981   ✗       
+950   GAVPGETLNLQTC+57.021V    -1.0000     NotChecked  -15.6389    1457.7184   ✗       
+951   GKPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.6408    1571.8090   ✗       
+952   +43.006GLPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.6533    1599.8039   ✗       
+953   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.6556    1542.7824   ✗       
+954   +43.006AVPGQTLNLQTC+57.021VR-1.0000     NotChecked  -15.6567    1598.8199   ✗       
+955   GGVPGESLNLQTC+57.021VR   -1.0000     NotChecked  -15.6579    1585.7882   ✗       
+956   SVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.6593    1572.7930   ✗       
+957   AGVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -15.6616    1613.8195   ✗       
+958   +43.006AVPGETLNLQTC+57.021R-1.0000     NotChecked  -15.6632    1500.7355   ✗       
+959   GGVPGETLNLQ+0.984TC+57.021VR-1.0000     NotChecked  -15.6676    1600.7879   ✗       
+960   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -15.6684    1613.8195   ✗       
+961   GAVPGETLNLQTC+57.021R    -1.0000     NotChecked  -15.6700    1514.7511   ✗       
+962   GAVPGKTLNLQTC+57.021VR   -1.0000     NotChecked  -15.6740    1612.8719   ✗       
+963   ALPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.6835    1570.8137   ✗       
+964   +43.006AVGETLNLQTC+57.021VR-1.0000     NotChecked  -15.6969    1502.7511   ✗       
+965   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -15.6970    1613.8195   ✗       
+966   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.6971    1556.7981   ✗       
+967   +43.006AVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -15.7044    1599.8039   ✗       
+968   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.7049    1599.8039   ✗       
+969   GAVPGETLNLQTC+57.021VR   -1.0000     NotChecked  -15.7068    1613.8195   ✗       
+970   +43.006LPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.7073    1542.7824   ✗       
+971   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.7096    1542.7824   ✗       
+972   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.7157    1599.8039   ✗       
+973   +43.006AVPGETLNLQTQVR    -1.0000     NotChecked  -15.7338    1567.8318   ✗       
+974   GAPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.7367    1514.7511   ✗       
+975   GLPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.7403    1556.7981   ✗       
+976   +43.006VPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.7448    1528.7668   ✗       
+977   GVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.7515    1542.7824   ✗       
+978   +43.006AVPGSTLNLQTC+57.021VR-1.0000     NotChecked  -15.7535    1557.7933   ✗       
+979   GAVPGETLNLQTSVR          -1.0000     NotChecked  -15.7557    1540.8209   ✗       
+980   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.7593    1598.8086   ✗       
+981   +43.006GVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.7617    1585.7882   ✗       
+982   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.7624    1599.8039   ✗       
+983   +42.011AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.7631    1598.8086   ✗       
+984   +43.006AVPGEVLNLQTC+57.021VR-1.0000     NotChecked  -15.7658    1597.8246   ✗       
+985   +43.006AVPGETLNLQTC+57.021LR-1.0000     NotChecked  -15.7687    1613.8195   ✗       
+986   +42.011ALPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -15.7739    1612.8243   ✗       
+987   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.7764    1599.8039   ✗       
+988   +43.006ALPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.7782    1613.8195   ✗       
+989   AVPGETLNLQTC+57.021VR    -1.0000     NotChecked  -15.7807    1556.7981   ✗       
+990   +42.011AVPAETLNLQTC+57.021VR-1.0000     NotChecked  -15.7815    1612.8243   ✗       
+991   GAVPETLNLQTC+57.021VR    -1.0000     NotChecked  -15.7821    1556.7981   ✗       
+992   +42.011AVPETLNLQTC+57.021VR-1.0000     NotChecked  -15.7899    1541.7872   ✗       
+993   +43.006AVPGETLNLKTC+57.021VR-1.0000     NotChecked  -15.7903    1599.8403   ✗       
+994   AVPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -15.7914    1556.7981   ✗       
+995   +43.006AVPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.7972    1599.8039   ✗       
+996   AVPGESLNLQTC+57.021VR    -1.0000     NotChecked  -15.7993    1542.7824   ✗       
+997   +42.011VPGQ+0.984TLNLQTC+57.021VR-1.0000     NotChecked  -15.8005    1527.7715   ✗       
+998   +42.011ATPGETLNLQTC+57.021VR-1.0000     NotChecked  -15.8008    1600.7879   ✗       
+999   +43.006VPGETLNLQTC+57.021MR-1.0000     NotChecked  -15.8045    1560.7388   ✗       
+1000  +43.006AVPGETLSLQTC+57.021VR-1.0000     NotChecked  -15.8064    1572.7930   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: EVPGETLNLQTC+57.021VR
+Similarity: 0.9327
+De Novo Score: -15.0411
+Source: Database
+Correct: ✓
+

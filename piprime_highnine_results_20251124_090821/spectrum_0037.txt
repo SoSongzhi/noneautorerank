@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 37
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 959.4581
+Precursor charge: 2+
+Ground truth: SVGIISEGN+0.984ETVEDIAQR
+Ground truth (normalized): SVGIISEGN+0.984ETVEDIAQR
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 26
+Used for reranking: 26
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 26 (2.6%)
+Database matches: 5 (0.5%)
+Prosit predictions: 18 (1.8%)
+Failed: 3 (0.3%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 25/1000
+Rank by similarity: 1/1000
+Similarity: 0.9254
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     SVGLLSEGN+0.984ETVEDLAQR 0.9254      Database    -7.0263     1916.9327   ✓       ✓
+2     SVGLLSEGN+0.984ETVEDLAQR 0.9254      Database    -9.9668     1916.9327   ✓       ✓
+3     SVGLLSEGNETVEDLAQ+0.984R 0.9254      Database    -10.2985    1916.9327   ✓       
+4     SVGLLSEGN+0.984ETVEDLAQR 0.9254      Database    -11.1678    1916.9327   ✓       ✓
+5     SVGLLSEGN+0.984ETVEDLAQR 0.9254      Database    -11.3847    1916.9327   ✓       ✓
+6     GN+0.984GKLSEGNETVEDLAQR 0.5400      Prosit      -9.3056     1916.9076   ✓       
+7     GDGKLSEGNETVEDLAQR       0.5305      Prosit      -10.4476    1916.9076   ✓       
+8     SN+0.984GLLSEGVETVEDLAQR 0.5137      Prosit      -11.4470    1916.9327   ✓       
+9     GN+0.984GLLSEGN+0.984ETLEDLAQR0.5113      Prosit      -11.8353    1916.8963   ✓       
+10    SVGKLSEGNESVEDLAQR       0.5005      Prosit      -11.7783    1916.9439   ✓       
+11    SN+0.984GLLSEGNETVEDLALR 0.5001      Prosit      -10.8652    1916.9327   ✓       
+12    GN+0.984GLLSEGEETVEDLAQR 0.4993      Prosit      -11.9189    1916.8963   ✓       
+13    SNGLLSEGNQ+0.984SVEDLAQR 0.4993      Prosit      -11.5084    1916.9076   ✓       
+14    SN+0.984GLLSEGNQSVEDLAQR 0.4993      Prosit      -11.6880    1916.9076   ✓       
+15    SVGLLSEGDETVEDLAQR       0.4914      Prosit      -10.0968    1916.9327   ✓       
+16    SVGLLSEGN+0.984ETVQ+0.984DLAQR0.4905      Prosit      -11.3861    1916.9327   ✓       
+17    SVGLLSEGN+0.984Q+0.984TVEDLAQR0.4878      Prosit      -10.2434    1916.9327   ✓       
+18    ADGLLSEGN+0.984ETVEDLAQR 0.4842      Prosit      -11.9161    1916.8963   ✓       
+19    SVGNLSEGNETVEDLAQR       0.4666      Prosit      -9.3186     1916.9076   ✓       
+20    SNGLLSEGNESVEDLAQR       0.4601      Prosit      -8.2913     1916.9076   ✓       
+21    SNGLLSEGNESVEDLAQR       0.4601      Prosit      -11.2318    1916.9076   ✓       
+22    SDGLLSEGNETVEDLALR       0.4569      Prosit      -12.0072    1916.9327   ✓       
+23    SNGVLSEGNETVEDLAQR       0.4552      Prosit      -10.0030    1916.9076   ✓       
+24    SVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -3.0159     1915.9487   ✗       
+25    GN+0.984GLLSEGNETVEDLAQR -1.0000     NotChecked  -3.7993     1901.8967   ✗       
+26    +43.006N+0.984GLLSEGNETVEDLAQR-1.0000     NotChecked  -4.2598     1887.8810   ✗       
+27    GVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -4.2754     1885.9381   ✗       
+28    +43.006VGLLSEGNETVEDLAQR -1.0000     NotChecked  -4.7360     1871.9225   ✗       
+29    N+0.984GLLSEGNETVEDLAQR  -1.0000     NotChecked  -4.8389     1844.8752   ✗       
+30    SSGLLSEGNETVEDLAQR       -1.0000     NotChecked  -4.9082     1903.9123   ✗       
+31    GDGLLSEGNETVEDLAQR       -1.0000     NotChecked  -4.9413     1901.8967   ✗       
+32    VGLLSEGNETVEDLAQR        -1.0000     NotChecked  -5.3150     1828.9167   ✗       
+33    +43.006DGLLSEGNETVEDLAQR -1.0000     NotChecked  -5.4019     1887.8810   ✗       
+34    SVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -5.9563     1915.9487   ✗       
+35    DGLLSEGNETVEDLAQR        -1.0000     NotChecked  -5.9809     1844.8752   ✗       
+36    GSGLLSEGNETVEDLAQR       -1.0000     NotChecked  -6.1678     1873.9017   ✗       
+37    SVGLLSEGNQ+0.984TVEDLAQR -1.0000     NotChecked  -6.2329     1915.9487   ✗       
+38    SVGLLSEGNESVEDLAQR       -1.0000     NotChecked  -6.2719     1901.9330   ✗       
+39    GNGLLSEGNETVEDLAQR       -1.0000     NotChecked  -6.2948     1900.9126   ✗       
+40    SGGLLSEGNETVEDLAQR       -1.0000     NotChecked  -6.3767     1873.9017   ✗       
+41    +43.006SGLLSEGNETVEDLAQR -1.0000     NotChecked  -6.6284     1859.8861   ✗       
+42    GN+0.984GLLSEGNETVEDLAQR -1.0000     NotChecked  -6.7397     1901.8967   ✗       
+43    +43.006NGLLSEGNETVEDLAQR -1.0000     NotChecked  -6.7554     1886.8970   ✗       
+44    AN+0.984GLLSEGNETVEDLAQR -1.0000     NotChecked  -6.7636     1915.9123   ✗       
+45    SVGLLSEGNEVVEDLAQR       -1.0000     NotChecked  -6.9171     1913.9694   ✗       
+46    GN+0.984GLLSEGNQ+0.984TVEDLAQR-1.0000     NotChecked  -7.0163     1901.8967   ✗       
+47    SN+0.984LLSEGNETVEDLAQR  -1.0000     NotChecked  -7.0244     1874.8858   ✗       
+48    GN+0.984GLLSEGNESVEDLAQR -1.0000     NotChecked  -7.0553     1887.8810   ✗       
+49    SVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -7.1574     1915.9487   ✗       
+50    +43.006N+0.984GLLSEGNETVEDLAQR-1.0000     NotChecked  -7.2003     1887.8810   ✗       
+51    SGLLSEGNETVEDLAQR        -1.0000     NotChecked  -7.2074     1816.8803   ✗       
+52    YGLLSEGNETVEDLAQR        -1.0000     NotChecked  -7.2153     1892.9116   ✗       
+53    GVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -7.2159     1885.9381   ✗       
+54    SVGLLSQ+0.984GNETVEDLAQR -1.0000     NotChecked  -7.2325     1915.9487   ✗       
+55    AVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -7.2398     1899.9538   ✗       
+56    NGLLSEGNETVEDLAQR        -1.0000     NotChecked  -7.3344     1843.8912   ✗       
+57    SVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -7.3743     1915.9487   ✗       
+58    SVGLLSEGNETVQ+0.984DLAQR -1.0000     NotChecked  -7.3757     1915.9487   ✗       
+59    +43.006N+0.984GLLSEGNQ+0.984TVEDLAQR-1.0000     NotChecked  -7.4769     1887.8810   ✗       
+60    GVGLLSEGNQ+0.984TVEDLAQR -1.0000     NotChecked  -7.4925     1885.9381   ✗       
+61    SVLLSEGNETVEDLAQR        -1.0000     NotChecked  -7.5006     1858.9272   ✗       
+62    +43.006N+0.984GLLSEGNESVEDLAQR-1.0000     NotChecked  -7.5159     1873.8654   ✗       
+63    GVGLLSEGNESVEDLAQR       -1.0000     NotChecked  -7.5315     1871.9225   ✗       
+64    YGLLSEGNETVEDLAQR        -1.0000     NotChecked  -7.5408     1892.9116   ✗       
+65    GGGLLSEGNETVEDLAQR       -1.0000     NotChecked  -7.6363     1843.8912   ✗       
+66    +43.006VGLLSEGNETVEDLAQR -1.0000     NotChecked  -7.6765     1871.9225   ✗       
+67    GN+0.984GLLSEGNEVVEDLAQR -1.0000     NotChecked  -7.7005     1899.9174   ✗       
+68    N+0.984GLLSEGNETVEDLAQR  -1.0000     NotChecked  -7.7793     1844.8752   ✗       
+69    GN+0.984GLLSEGN+0.984ETVEDLAQR-1.0000     NotChecked  -7.8097     1902.8807   ✗       
+70    GN+0.984GLLSEGNETLEDLAQR -1.0000     NotChecked  -7.8248     1915.9123   ✗       
+71    SSGLLSEGNETVEDLAQR       -1.0000     NotChecked  -7.8487     1903.9123   ✗       
+72    GDGLLSEGNETVEDLAQR       -1.0000     NotChecked  -7.8817     1901.8967   ✗       
+73    ADGLLSEGNETVEDLAQR       -1.0000     NotChecked  -7.9056     1915.9123   ✗       
+74    GN+0.984GLLSEGNETVEDLAQR -1.0000     NotChecked  -7.9407     1901.8967   ✗       
+75    +43.006VGLLSEGNQ+0.984TVEDLAQR-1.0000     NotChecked  -7.9531     1871.9225   ✗       
+76    SVGVLSEGNETVEDLAQR       -1.0000     NotChecked  -7.9836     1901.9330   ✗       
+77    +43.006VGLLSEGNESVEDLAQR -1.0000     NotChecked  -7.9921     1857.9068   ✗       
+78    GN+0.984GLLSQ+0.984GNETVEDLAQR-1.0000     NotChecked  -8.0159     1901.8967   ✗       
+79    N+0.984GLLSEGNQ+0.984TVEDLAQR-1.0000     NotChecked  -8.0559     1844.8752   ✗       
+80    SVGLLSEGNEPVEDLAQR       -1.0000     NotChecked  -8.0908     1911.9538   ✗       
+81    N+0.984GLLSEGNESVEDLAQR  -1.0000     NotChecked  -8.0949     1830.8595   ✗       
+82    +43.006GGLLSEGNETVEDLAQR -1.0000     NotChecked  -8.0969     1829.8755   ✗       
+83    SSGLLSEGNQ+0.984TVEDLAQR -1.0000     NotChecked  -8.1253     1903.9123   ✗       
+84    GDGLLSEGNQ+0.984TVEDLAQR -1.0000     NotChecked  -8.1583     1901.8967   ✗       
+85    GN+0.984GLLSEGNETVQ+0.984DLAQR-1.0000     NotChecked  -8.1591     1901.8967   ✗       
+86    +43.006N+0.984GLLSEGNEVVEDLAQR-1.0000     NotChecked  -8.1611     1885.9017   ✗       
+87    SSGLLSEGNESVEDLAQR       -1.0000     NotChecked  -8.1643     1889.8967   ✗       
+88    SDLLSEGNETVEDLAQR        -1.0000     NotChecked  -8.1664     1874.8858   ✗       
+89    GVGLLSEGNEVVEDLAQR       -1.0000     NotChecked  -8.1767     1883.9589   ✗       
+90    GDGLLSEGNESVEDLAQR       -1.0000     NotChecked  -8.1973     1887.8810   ✗       
+91    +43.006N+0.984GLLDEGNETVEDLAQR-1.0000     NotChecked  -8.2236     1915.8759   ✗       
+92    SGLLSEGNETVEDLAQR        -1.0000     NotChecked  -8.2373     1816.8803   ✗       
+93    GVGLLDEGNETVEDLAQR       -1.0000     NotChecked  -8.2392     1913.9330   ✗       
+94    VGLLSEGNETVEDLAQR        -1.0000     NotChecked  -8.2555     1828.9167   ✗       
+95    +43.006N+0.984GLLSEGN+0.984ETVEDLAQR-1.0000     NotChecked  -8.2703     1888.8650   ✗       
+96    GN+0.984LLSEGNETVEDLAQR  -1.0000     NotChecked  -8.2840     1844.8752   ✗       
+97    +43.006N+0.984GLLSEGNETLEDLAQR-1.0000     NotChecked  -8.2854     1901.8967   ✗       
+98    GVGLLSEGN+0.984ETVEDLAQR -1.0000     NotChecked  -8.2859     1886.9221   ✗       
+99    GVGLLSEGNETLEDLAQR       -1.0000     NotChecked  -8.3010     1899.9538   ✗       
+100   +43.006DGLLSEGNETVEDLAQR -1.0000     NotChecked  -8.3423     1887.8810   ✗       
+101   SN+0.984GGLSEGNETVEDLAQR -1.0000     NotChecked  -8.3778     1875.8446   ✗       
+102   +43.006N+0.984GLLSEGNETVEDLAQR-1.0000     NotChecked  -8.4013     1887.8810   ✗       
+103   GVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -8.4169     1885.9381   ✗       
+104   +43.006MGLLSEGNETVEDLAQR -1.0000     NotChecked  -8.4222     1903.8945   ✗       
+105   +43.006N+0.984GLLSQ+0.984GNETVEDLAQR-1.0000     NotChecked  -8.4764     1887.8810   ✗       
+106   GVGLLSQ+0.984GNETVEDLAQR -1.0000     NotChecked  -8.4920     1885.9381   ✗       
+107   VGLLSEGNQ+0.984TVEDLAQR  -1.0000     NotChecked  -8.5321     1828.9167   ✗       
+108   VGLLSEGNESVEDLAQR        -1.0000     NotChecked  -8.5711     1814.9010   ✗       
+109   +43.006DGLLSEGNQ+0.984TVEDLAQR-1.0000     NotChecked  -8.6189     1887.8810   ✗       
+110   +43.006N+0.984GLLSEGNETVQ+0.984DLAQR-1.0000     NotChecked  -8.6197     1887.8810   ✗       
+111   GVGLLSEGNETVQ+0.984DLAQR -1.0000     NotChecked  -8.6353     1885.9381   ✗       
+112   +43.006VGLLSEGNEVVEDLAQR -1.0000     NotChecked  -8.6373     1869.9432   ✗       
+113   SVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -8.6527     1915.9487   ✗       
+114   +43.006DGLLSEGNESVEDLAQR -1.0000     NotChecked  -8.6579     1873.8654   ✗       
+115   GGLLSEGNETVEDLAQR        -1.0000     NotChecked  -8.6759     1786.8697   ✗       
+116   +43.006VGLLDEGNETVEDLAQR -1.0000     NotChecked  -8.6998     1899.9174   ✗       
+117   N+0.984GLLSEGNEVVEDLAQR  -1.0000     NotChecked  -8.7401     1842.8959   ✗       
+118   +43.006N+0.984LLSEGNETVEDLAQR-1.0000     NotChecked  -8.7446     1830.8595   ✗       
+119   +43.006VGLLSEGN+0.984ETVEDLAQR-1.0000     NotChecked  -8.7465     1872.9065   ✗       
+120   GVLLSEGNETVEDLAQR        -1.0000     NotChecked  -8.7602     1828.9167   ✗       
+121   +43.006VGLLSEGNETLEDLAQR -1.0000     NotChecked  -8.7616     1885.9381   ✗       
+122   GN+0.984GVLSEGNETVEDLAQR -1.0000     NotChecked  -8.7670     1887.8810   ✗       
+123   N+0.984GLLDEGNETVEDLAQR  -1.0000     NotChecked  -8.8026     1872.8701   ✗       
+124   SSGLLSEGNEVVEDLAQR       -1.0000     NotChecked  -8.8095     1901.9330   ✗       
+125   SVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -8.8190     1915.9487   ✗       
+126   GN+0.984ALLSEGNETVEDLAQR -1.0000     NotChecked  -8.8378     1915.9123   ✗       
+127   GDGLLSEGNEVVEDLAQR       -1.0000     NotChecked  -8.8425     1899.9174   ✗       
+128   N+0.984GLLSEGN+0.984ETVEDLAQR-1.0000     NotChecked  -8.8493     1845.8592   ✗       
+129   SVGGLSEGNETVEDLAQR       -1.0000     NotChecked  -8.8540     1859.8861   ✗       
+130   N+0.984GLLSEGNETLEDLAQR  -1.0000     NotChecked  -8.8644     1858.8908   ✗       
+131   GN+0.984GLLSEGNEPVEDLAQR -1.0000     NotChecked  -8.8742     1897.9017   ✗       
+132   +43.006VGLLSEGNETVEDLAQR -1.0000     NotChecked  -8.8775     1871.9225   ✗       
+133   SVGLLSEGNQTVEDLAQR       -1.0000     NotChecked  -8.9082     1914.9647   ✗       
+134   SSGLLSEGN+0.984ETVEDLAQR -1.0000     NotChecked  -8.9187     1904.8963   ✗       
+135   DGLLSEGNETVEDLAQR        -1.0000     NotChecked  -8.9213     1844.8752   ✗       
+136   GDGLLSEGN+0.984ETVEDLAQR -1.0000     NotChecked  -8.9517     1902.8807   ✗       
+137   +43.006VGLLSQ+0.984GNETVEDLAQR-1.0000     NotChecked  -8.9526     1871.9225   ✗       
+138   GDGLLSEGNETLEDLAQR       -1.0000     NotChecked  -8.9668     1915.9123   ✗       
+139   N+0.984GLLSEGNETVEDLAQR  -1.0000     NotChecked  -8.9803     1844.8752   ✗       
+140   MGLLSEGNETVEDLAQR        -1.0000     NotChecked  -9.0012     1860.8887   ✗       
+141   SSGLLSEGNETVEDLAQR       -1.0000     NotChecked  -9.0497     1903.9123   ✗       
+142   N+0.984GLLSQ+0.984GNETVEDLAQR-1.0000     NotChecked  -9.0555     1844.8752   ✗       
+143   SVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -9.0608     1915.9487   ✗       
+144   GDGLLSEGNETVEDLAQR       -1.0000     NotChecked  -9.0828     1901.8967   ✗       
+145   SVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -9.0836     1915.9487   ✗       
+146   VSGLLSEGNETVEDLAQR       -1.0000     NotChecked  -9.0957     1915.9487   ✗       
+147   +43.006VGLLSEGNETVQ+0.984DLAQR-1.0000     NotChecked  -9.0959     1871.9225   ✗       
+148   GSGLLSEGNETVEDLAQR       -1.0000     NotChecked  -9.1083     1873.9017   ✗       
+149   SSGLLSQ+0.984GNETVEDLAQR -1.0000     NotChecked  -9.1248     1903.9123   ✗       
+150   ASGLLSEGNETVEDLAQR       -1.0000     NotChecked  -9.1322     1887.9174   ✗       
+151   GDGLLSQ+0.984GNETVEDLAQR -1.0000     NotChecked  -9.1579     1901.8967   ✗       
+152   SVGLLSEGNQ+0.984TVEDLAQR -1.0000     NotChecked  -9.1734     1915.9487   ✗       
+153   DGLLSEGNQ+0.984TVEDLAQR  -1.0000     NotChecked  -9.1979     1844.8752   ✗       
+154   N+0.984GLLSEGNETVQ+0.984DLAQR-1.0000     NotChecked  -9.1987     1844.8752   ✗       
+155   SVGLLSEGNESVEDLAQR       -1.0000     NotChecked  -9.2124     1901.9330   ✗       
+156   VGLLSEGNEVVEDLAQR        -1.0000     NotChecked  -9.2163     1826.9374   ✗       
+157   +43.006VLLSEGNETVEDLAQR  -1.0000     NotChecked  -9.2208     1814.9010   ✗       
+158   +43.006N+0.984GVLSEGNETVEDLAQR-1.0000     NotChecked  -9.2276     1873.8654   ✗       
+159   GNGLLSEGNETVEDLAQR       -1.0000     NotChecked  -9.2353     1900.9126   ✗       
+160   DGLLSEGNESVEDLAQR        -1.0000     NotChecked  -9.2369     1830.8595   ✗       
+161   YVGLLEGNETVEDLAQR        -1.0000     NotChecked  -9.2397     1904.9480   ✗       
+162   GVGVLSEGNETVEDLAQR       -1.0000     NotChecked  -9.2432     1871.9225   ✗       
+163   ANGLLSEGNETVEDLAQR       -1.0000     NotChecked  -9.2592     1914.9283   ✗       
+164   SGLLSEGNETVEDLAQR        -1.0000     NotChecked  -9.2667     1816.8803   ✗       
+165   SSGLLSEGNETVQ+0.984DLAQR -1.0000     NotChecked  -9.2681     1903.9123   ✗       
+166   VGLLDEGNETVEDLAQR        -1.0000     NotChecked  -9.2788     1856.9116   ✗       
+167   +43.006N+0.984ALLSEGNETVEDLAQR-1.0000     NotChecked  -9.2983     1901.8967   ✗       
+168   GDGLLSEGNETVQ+0.984DLAQR -1.0000     NotChecked  -9.3011     1901.8967   ✗       
+169   +43.006DGLLSEGNEVVEDLAQR -1.0000     NotChecked  -9.3031     1885.9017   ✗       
+170   N+0.984GYLSEGNETVEDLAQR  -1.0000     NotChecked  -9.3074     1894.8545   ✗       
+171   GVALLSEGNETVEDLAQR       -1.0000     NotChecked  -9.3139     1899.9538   ✗       
+172   SGGLLSEGNETVEDLAQR       -1.0000     NotChecked  -9.3172     1873.9017   ✗       
+173   N+0.984LLSEGNETVEDLAQR   -1.0000     NotChecked  -9.3236     1787.8537   ✗       
+174   VGLLSEGN+0.984ETVEDLAQR  -1.0000     NotChecked  -9.3255     1829.9007   ✗       
+175   +43.006N+0.984GLLSEGNEPVEDLAQR-1.0000     NotChecked  -9.3348     1883.8861   ✗       
+176   VGLLSEGNETLEDLAQR        -1.0000     NotChecked  -9.3406     1842.9323   ✗       
+177   GVGLLSEGNEPVEDLAQR       -1.0000     NotChecked  -9.3504     1881.9432   ✗       
+178   +43.006DGLLDEGNETVEDLAQR -1.0000     NotChecked  -9.3656     1915.8759   ✗       
+179   GSGLLSEGNQ+0.984TVEDLAQR -1.0000     NotChecked  -9.3849     1873.9017   ✗       
+180   SSLLSEGNETVEDLAQR        -1.0000     NotChecked  -9.3930     1846.8908   ✗       
+181   +43.006DGLLSEGN+0.984ETVEDLAQR-1.0000     NotChecked  -9.4123     1888.8650   ✗       
+182   SVGLLSEGNETVEN+0.984LAQR -1.0000     NotChecked  -9.4167     1915.9487   ✗       
+183   GSGLLSEGNESVEDLAQR       -1.0000     NotChecked  -9.4239     1859.8861   ✗       
+184   GDLLSEGNETVEDLAQR        -1.0000     NotChecked  -9.4260     1844.8752   ✗       
+185   +43.006DGLLSEGNETLEDLAQR -1.0000     NotChecked  -9.4274     1901.8967   ✗       
+186   GN+0.984GLLSEGNETVEDLAQR -1.0000     NotChecked  -9.4361     1901.8967   ✗       
+187   VGLLSEGNETVEDLAQR        -1.0000     NotChecked  -9.4565     1828.9167   ✗       
+188   SN+0.984GLLEGNETVEDLAQR  -1.0000     NotChecked  -9.4601     1844.8752   ✗       
+189   SVGLLSEGNQ+0.984SVEDLAQR -1.0000     NotChecked  -9.4890     1901.9330   ✗       
+190   GGLLSEGNETVEDLAQR        -1.0000     NotChecked  -9.4969     1786.8697   ✗       
+191   GNGLLSEGNQ+0.984TVEDLAQR -1.0000     NotChecked  -9.5119     1900.9126   ✗       
+192   SDGGLSEGNETVEDLAQR       -1.0000     NotChecked  -9.5198     1875.8446   ✗       
+193   SNLLSEGNETVEDLAQR        -1.0000     NotChecked  -9.5200     1873.9017   ✗       
+194   VGLLSQ+0.984GNETVEDLAQR  -1.0000     NotChecked  -9.5316     1828.9167   ✗       
+195   +43.006DGLLSEGNETVEDLAQR -1.0000     NotChecked  -9.5433     1887.8810   ✗       
+196   GNGLLSEGNESVEDLAQR       -1.0000     NotChecked  -9.5509     1886.8970   ✗       
+197   +43.006SGLLSEGNETVEDLAQR -1.0000     NotChecked  -9.5689     1859.8861   ✗       
+198   SGGLLSEGNQ+0.984TVEDLAQR -1.0000     NotChecked  -9.5938     1873.9017   ✗       
+199   +43.006DGLLSQ+0.984GNETVEDLAQR-1.0000     NotChecked  -9.6185     1887.8810   ✗       
+200   SGGLLSEGNESVEDLAQR       -1.0000     NotChecked  -9.6328     1859.8861   ✗       
+201   YN+0.984GLLSEGNETVEDLAR  -1.0000     NotChecked  -9.6368     1879.8799   ✗       
+202   GN+0.984GGLSEGNETVEDLAQR -1.0000     NotChecked  -9.6374     1845.8341   ✗       
+203   N+0.984GGLLSEGNETVEDLAQR -1.0000     NotChecked  -9.6508     1901.8967   ✗       
+204   SVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -9.6735     1915.9487   ✗       
+205   VGLLSEGNETVQ+0.984DLAQR  -1.0000     NotChecked  -9.6749     1828.9167   ✗       
+206   GN+0.984GLLSEGNQTVEDLAQR -1.0000     NotChecked  -9.6915     1900.9126   ✗       
+207   +43.006NGLLSEGNETVEDLAQR -1.0000     NotChecked  -9.6959     1886.8970   ✗       
+208   SN+0.984GLLSEGNETVEDLAAR -1.0000     NotChecked  -9.7015     1874.8858   ✗       
+209   +43.006VGVLSEGNETVEDLAQR -1.0000     NotChecked  -9.7038     1857.9068   ✗       
+210   AN+0.984GLLSEGNETVEDLAQR -1.0000     NotChecked  -9.7041     1915.9123   ✗       
+211   +43.006DGLLSEGNETVQ+0.984DLAQR-1.0000     NotChecked  -9.7617     1887.8810   ✗       
+212   +43.006N+0.984GKLSEGNETVEDLAQR-1.0000     NotChecked  -9.7662     1902.8919   ✗       
+213   +43.006VALLSEGNETVEDLAQR -1.0000     NotChecked  -9.7745     1885.9381   ✗       
+214   YN+0.984GLSEGNETVEDLAQR  -1.0000     NotChecked  -9.7796     1894.8545   ✗       
+215   GVGKLSEGNETVEDLAQR       -1.0000     NotChecked  -9.7818     1900.9490   ✗       
+216   SVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -9.7829     1915.9487   ✗       
+217   VGYLSEGNETVEDLAQR        -1.0000     NotChecked  -9.7836     1878.8959   ✗       
+218   VLLSEGNETVEDLAQR         -1.0000     NotChecked  -9.7998     1771.8952   ✗       
+219   N+0.984GVLSEGNETVEDLAQR  -1.0000     NotChecked  -9.8066     1830.8595   ✗       
+220   GN+0.984GLDSEGNETVEDLAQR -1.0000     NotChecked  -9.8079     1903.8395   ✗       
+221   +43.006VGLLSEGNEPVEDLAQR -1.0000     NotChecked  -9.8110     1867.9276   ✗       
+222   GN+0.984GLLSEGNETVEDLAQR -1.0000     NotChecked  -9.8442     1901.8967   ✗       
+223   +43.006SGLLSEGNQ+0.984TVEDLAQR-1.0000     NotChecked  -9.8455     1859.8861   ✗       
+224   GN+0.984GLLSEGNETVEDLAQR -1.0000     NotChecked  -9.8574     1901.8967   ✗       
+225   SVGLLSEGNEVVEDLAQR       -1.0000     NotChecked  -9.8576     1913.9694   ✗       
+226   GN+0.984GLLSEGNETVEDLAQR -1.0000     NotChecked  -9.8670     1901.8967   ✗       
+227   SSGVLSEGNETVEDLAQR       -1.0000     NotChecked  -9.8760     1889.8967   ✗       
+228   N+0.984ALLSEGNETVEDLAQR  -1.0000     NotChecked  -9.8773     1858.8908   ✗       
+229   DGLLSEGNEVVEDLAQR        -1.0000     NotChecked  -9.8821     1842.8959   ✗       
+230   +43.006SGLLSEGNESVEDLAQR -1.0000     NotChecked  -9.8844     1845.8704   ✗       
+231   +43.006DLLSEGNETVEDLAQR  -1.0000     NotChecked  -9.8866     1830.8595   ✗       
+232   +43.006N+0.984GLLSEGNETVEDLAQR-1.0000     NotChecked  -9.8967     1887.8810   ✗       
+233   GDGVLSEGNETVEDLAQR       -1.0000     NotChecked  -9.9090     1887.8810   ✗       
+234   GVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -9.9123     1885.9381   ✗       
+235   GVSLLSEGNETVEDLAQR       -1.0000     NotChecked  -9.9125     1915.9487   ✗       
+236   N+0.984GLLSEGNEPVEDLAQR  -1.0000     NotChecked  -9.9138     1840.8803   ✗       
+237   SVGLLEGNETVEDLAQR        -1.0000     NotChecked  -9.9362     1828.9167   ✗       
+238   DGLLDEGNETVEDLAQR        -1.0000     NotChecked  -9.9446     1872.8701   ✗       
+239   GN+0.984GLLSEGNQ+0.984TVEDLAQR-1.0000     NotChecked  -9.9568     1901.8967   ✗       
+240   +43.006GLLSEGNETVEDLAQR  -1.0000     NotChecked  -9.9574     1772.8541   ✗       
+241   +43.006N+0.984GLLN+0.984EGNETVEDLAQR-1.0000     NotChecked  -9.9687     1915.8759   ✗       
+242   +43.006NGLLSEGNQ+0.984TVEDLAQR-1.0000     NotChecked  -9.9725     1886.8970   ✗       
+243   GDALLSEGNETVEDLAQR       -1.0000     NotChecked  -9.9798     1915.9123   ✗       
+244   AN+0.984GLLSEGNQ+0.984TVEDLAQR-1.0000     NotChecked  -9.9807     1915.9123   ✗       
+245   SSGLLSEGNEPVEDLAQR       -1.0000     NotChecked  -9.9832     1899.9174   ✗       
+246   GVGLLN+0.984EGNETVEDLAQR -1.0000     NotChecked  -9.9843     1913.9330   ✗       
+247   DGLLSEGN+0.984ETVEDLAQR  -1.0000     NotChecked  -9.9913     1845.8592   ✗       
+248   GN+0.984GLLSEGNESVEDLAQR -1.0000     NotChecked  -9.9958     1887.8810   ✗       
+249   DGLLSEGNETLEDLAQR        -1.0000     NotChecked  -10.0064    1858.8908   ✗       
+250   +43.006NGLLSEGNESVEDLAQR -1.0000     NotChecked  -10.0115    1872.8813   ✗       
+251   GDGLLSEGNEPVEDLAQR       -1.0000     NotChecked  -10.0162    1897.9017   ✗       
+252   AN+0.984GLLSEGNESVEDLAQR -1.0000     NotChecked  -10.0197    1901.8967   ✗       
+253   SVGLLSEGNDTVEDLAQR       -1.0000     NotChecked  -10.0323    1901.9330   ✗       
+254   GSGLLSEGNEVVEDLAQR       -1.0000     NotChecked  -10.0691    1871.9225   ✗       
+255   GVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -10.0786    1885.9381   ✗       
+256   SVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -10.0978    1915.9487   ✗       
+257   +43.006N+0.984GGLSEGNETVEDLAQR-1.0000     NotChecked  -10.0980    1831.8184   ✗       
+258   GN+0.984GNLSEGNETVEDLAQR -1.0000     NotChecked  -10.1020    1902.8555   ✗       
+259   YVGLLSEGNETVEDLAR        -1.0000     NotChecked  -10.1130    1863.9214   ✗       
+260   GVGGLSEGNETVEDLAQR       -1.0000     NotChecked  -10.1136    1829.8755   ✗       
+261   DGLLSEGNETVEDLAQR        -1.0000     NotChecked  -10.1224    1844.8752   ✗       
+262   GSGLLDEGNETVEDLAQR       -1.0000     NotChecked  -10.1315    1901.8967   ✗       
+263   SVGLLSEGNQ+0.984VVEDLAQR -1.0000     NotChecked  -10.1342    1913.9694   ✗       
+264   SGLLSEGNETVEDLAQR        -1.0000     NotChecked  -10.1479    1816.8803   ✗       
+265   +43.006N+0.984GLLSEGNQTVEDLAQR-1.0000     NotChecked  -10.1521    1886.8970   ✗       
+266   YGLLSEGNETVEDLAQR        -1.0000     NotChecked  -10.1558    1892.9116   ✗       
+267   YGLLSEGNETVEDLAQR        -1.0000     NotChecked  -10.1650    1892.9116   ✗       
+268   GVGLLSEGNQTVEDLAQR       -1.0000     NotChecked  -10.1677    1884.9541   ✗       
+269   SVGLLSQ+0.984GNETVEDLAQR -1.0000     NotChecked  -10.1729    1915.9487   ✗       
+270   SVGLLSEGNETVEDLAAR       -1.0000     NotChecked  -10.1777    1858.9272   ✗       
+271   GSGLLSEGN+0.984ETVEDLAQR -1.0000     NotChecked  -10.1782    1874.8858   ✗       
+272   AVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -10.1803    1899.9538   ✗       
+273   GSGLLSEGNETLEDLAQR       -1.0000     NotChecked  -10.1934    1887.9174   ✗       
+274   GNGLLSEGNEVVEDLAQR       -1.0000     NotChecked  -10.1961    1898.9334   ✗       
+275   DGLLSQ+0.984GNETVEDLAQR  -1.0000     NotChecked  -10.1975    1844.8752   ✗       
+276   GN+0.984GLLSEGNETVEN+0.984LAQR-1.0000     NotChecked  -10.2001    1901.8967   ✗       
+277   GN+0.984GLLSMGNETVEDLAQR -1.0000     NotChecked  -10.2104    1903.8945   ✗       
+278   C+57.021GLLSEGNETVEDLAQR -1.0000     NotChecked  -10.2264    1889.8789   ✗       
+279   SN+0.984GLLSENETVEDLAQR  -1.0000     NotChecked  -10.2295    1874.8858   ✗       
+280   SN+0.984LLSEGNQ+0.984TVEDLAQR-1.0000     NotChecked  -10.2415    1874.8858   ✗       
+281   +43.006VGKLSEGNETVEDLAQR -1.0000     NotChecked  -10.2424    1886.9334   ✗       
+282   YVGLSEGNETVEDLAQR        -1.0000     NotChecked  -10.2558    1878.8959   ✗       
+283   +43.006N+0.984GLDSEGNETVEDLAQR-1.0000     NotChecked  -10.2685    1889.8239   ✗       
+284   GN+0.984GLLSEGNQ+0.984SVEDLAQR-1.0000     NotChecked  -10.2724    1887.8810   ✗       
+285   NGLLSEGNETVEDLAQR        -1.0000     NotChecked  -10.2749    1843.8912   ✗       
+286   SGGLLSEGNEVVEDLAQR       -1.0000     NotChecked  -10.2780    1871.9225   ✗       
+287   SN+0.984LLSEGNESVEDLAQR  -1.0000     NotChecked  -10.2805    1860.8701   ✗       
+288   SVGLLSEGN+0.984ESVEDLAQR -1.0000     NotChecked  -10.2823    1902.9171   ✗       
+289   VGVLSEGNETVEDLAQR        -1.0000     NotChecked  -10.2828    1814.9010   ✗       
+290   GVGLDSEGNETVEDLAQR       -1.0000     NotChecked  -10.2841    1887.8810   ✗       
+291   +43.006N+0.984GMLSEGNETVEDLAQR-1.0000     NotChecked  -10.2965    1905.8374   ✗       
+292   SVGLLSEGNESLEDLAQR       -1.0000     NotChecked  -10.2975    1915.9487   ✗       
+293   N+0.984N+0.984LLSEGNETVEDLAQR-1.0000     NotChecked  -10.2985    1902.8807   ✗       
+294   +43.006N+0.984GLLSEGNETVEDLAQR-1.0000     NotChecked  -10.3047    1887.8810   ✗       
+295   GNGLLSEGN+0.984ETVEDLAQR -1.0000     NotChecked  -10.3053    1901.8967   ✗       
+296   GSGLLSEGNETVEDLAQR       -1.0000     NotChecked  -10.3093    1873.9017   ✗       
+297   GVGMLSEGNETVEDLAQR       -1.0000     NotChecked  -10.3121    1903.8945   ✗       
+298   SVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -10.3148    1915.9487   ✗       
+299   SVGLLSEGNETVQ+0.984DLAQR -1.0000     NotChecked  -10.3162    1915.9487   ✗       
+300   GVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -10.3203    1885.9381   ✗       
+301   GNGLLSEGNETLEDLAQR       -1.0000     NotChecked  -10.3204    1914.9283   ✗       
+302   LGGLLSEGNETVEDLAQR       -1.0000     NotChecked  -10.3263    1899.9538   ✗       
+303   +43.006N+0.984GLLSEGNETVEDLAQR-1.0000     NotChecked  -10.3276    1887.8810   ✗       
+304   SN+0.984GLLSEGNETVEDLAR  -1.0000     NotChecked  -10.3333    1803.8486   ✗       
+305   GVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -10.3336    1885.9381   ✗       
+306   SGGLLDEGNETVEDLAQR       -1.0000     NotChecked  -10.3405    1901.8967   ✗       
+307   DGLLSEGNETVQ+0.984DLAQR  -1.0000     NotChecked  -10.3407    1844.8752   ✗       
+308   GVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -10.3432    1885.9381   ✗       
+309   N+0.984GKLSEGNETVEDLAQR  -1.0000     NotChecked  -10.3452    1859.8861   ✗       
+310   YGLLSEGNETVEDLAQR        -1.0000     NotChecked  -10.3462    1892.9116   ✗       
+311   GN+0.984GLLSEGNELVEDLAQR -1.0000     NotChecked  -10.3478    1913.9330   ✗       
+312   VALLSEGNETVEDLAQR        -1.0000     NotChecked  -10.3535    1842.9323   ✗       
+313   SVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -10.3608    1915.9487   ✗       
+314   +43.006DGVLSEGNETVEDLAQR -1.0000     NotChecked  -10.3696    1873.8654   ✗       
+315   +43.006VGLLSEGNETVEDLAQR -1.0000     NotChecked  -10.3729    1871.9225   ✗       
+316   +43.006VSLLSEGNETVEDLAQR -1.0000     NotChecked  -10.3731    1901.9330   ✗       
+317   SVGLLSEGNQ+0.984TVEDLAQR -1.0000     NotChecked  -10.3744    1915.9487   ✗       
+318   GSGLLSQ+0.984GNETVEDLAQR -1.0000     NotChecked  -10.3844    1873.9017   ✗       
+319   SGGLLSEGN+0.984ETVEDLAQR -1.0000     NotChecked  -10.3872    1874.8858   ✗       
+320   SVGLLSEGNETVEDLAKR       -1.0000     NotChecked  -10.3898    1915.9851   ✗       
+321   VGLLSEGNEPVEDLAQR        -1.0000     NotChecked  -10.3900    1824.9218   ✗       
+322   SGGLLSEGNETLEDLAQR       -1.0000     NotChecked  -10.4023    1887.9174   ✗       
+323   N+0.984GLLSWGNETVEDLAQR  -1.0000     NotChecked  -10.4057    1901.9119   ✗       
+324   SVGLLSEGNESVEDLAQR       -1.0000     NotChecked  -10.4134    1901.9330   ✗       
+325   SN+0.984GLLSEGNETVEDLAGR -1.0000     NotChecked  -10.4143    1860.8701   ✗       
+326   +43.006N+0.984GLLSEGNQ+0.984TVEDLAQR-1.0000     NotChecked  -10.4173    1887.8810   ✗       
+327   SGLLSEGNQ+0.984TVEDLAQR  -1.0000     NotChecked  -10.4245    1816.8803   ✗       
+328   YGLLSEGNQ+0.984TVEDLAQR  -1.0000     NotChecked  -10.4324    1892.9116   ✗       
+329   GVGLLSEGNQ+0.984TVEDLAQR -1.0000     NotChecked  -10.4330    1885.9381   ✗       
+330   GNGLLSEGNETVEDLAQR       -1.0000     NotChecked  -10.4363    1900.9126   ✗       
+331   +43.006DALLSEGNETVEDLAQR -1.0000     NotChecked  -10.4404    1901.8967   ✗       
+332   SVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -10.4411    1915.9487   ✗       
+333   +43.006VGLLN+0.984EGNETVEDLAQR-1.0000     NotChecked  -10.4449    1899.9174   ✗       
+334   DGYLSEGNETVEDLAQR        -1.0000     NotChecked  -10.4495    1894.8545   ✗       
+335   SVGLLSQ+0.984GNQ+0.984TVEDLAQR-1.0000     NotChecked  -10.4495    1915.9487   ✗       
+336   +43.006N+0.984GLLSEGNESVEDLAQR-1.0000     NotChecked  -10.4563    1873.8654   ✗       
+337   AVGLLSEGNQ+0.984TVEDLAQR -1.0000     NotChecked  -10.4569    1899.9538   ✗       
+338   VVGLLSEGNESVEDLAQR       -1.0000     NotChecked  -10.4594    1913.9694   ✗       
+339   SGLLSEGNESVEDLAQR        -1.0000     NotChecked  -10.4635    1802.8646   ✗       
+340   DLLSEGNETVEDLAQR         -1.0000     NotChecked  -10.4656    1787.8537   ✗       
+341   YGLLSEGNESVEDLAQR        -1.0000     NotChecked  -10.4714    1878.8959   ✗       
+342   GVGLLSEGNESVEDLAQR       -1.0000     NotChecked  -10.4719    1871.9225   ✗       
+343   SN+0.984GLLSAGNETVEDLAQR -1.0000     NotChecked  -10.4746    1873.9017   ✗       
+344   N+0.984GLLSEGNETVEDLAQR  -1.0000     NotChecked  -10.4757    1844.8752   ✗       
+345   N+0.984SLLSEGNETVEDLAQR  -1.0000     NotChecked  -10.4759    1874.8858   ✗       
+346   SN+0.984GLSEGNETVEDLAQR  -1.0000     NotChecked  -10.4762    1818.8232   ✗       
+347   +43.006DGLLSEGNEPVEDLAQR -1.0000     NotChecked  -10.4768    1883.8861   ✗       
+348   YGLLSEGNETVEDLAQR        -1.0000     NotChecked  -10.4812    1892.9116   ✗       
+349   SVGLLSQ+0.984GNESVEDLAQR -1.0000     NotChecked  -10.4885    1901.9330   ✗       
+350   AVGLLSEGNESVEDLAQR       -1.0000     NotChecked  -10.4959    1885.9381   ✗       
+351   SN+0.984GLLSSGNETVEDLAQR -1.0000     NotChecked  -10.5002    1889.8967   ✗       
+352   GNGLLSQ+0.984GNETVEDLAQR -1.0000     NotChecked  -10.5114    1900.9126   ✗       
+353   SGGLLSEGNETVEDLAQR       -1.0000     NotChecked  -10.5182    1873.9017   ✗       
+354   GSGLLSEGNETVEDLAQR       -1.0000     NotChecked  -10.5262    1873.9017   ✗       
+355   GSGLLSEGNETVQ+0.984DLAQR -1.0000     NotChecked  -10.5276    1873.9017   ✗       
+356   +43.006SGLLSEGNEVVEDLAQR -1.0000     NotChecked  -10.5297    1857.9068   ✗       
+357   GLLSEGNETVEDLAQR         -1.0000     NotChecked  -10.5365    1729.8482   ✗       
+358   +43.006VGLLSEGNETVEDLAQR -1.0000     NotChecked  -10.5392    1871.9225   ✗       
+359   SSGLLSEGNETVEDLAQR       -1.0000     NotChecked  -10.5451    1903.9123   ✗       
+360   N+0.984GLLN+0.984EGNETVEDLAQR-1.0000     NotChecked  -10.5477    1872.8701   ✗       
+361   NGLLSEGNQ+0.984TVEDLAQR  -1.0000     NotChecked  -10.5515    1843.8912   ✗       
+362   +43.006N+0.984GNLSEGNETVEDLAQR-1.0000     NotChecked  -10.5626    1888.8399   ✗       
+363   VGGLLSEGNETVEDLAQR       -1.0000     NotChecked  -10.5642    1885.9381   ✗       
+364   +43.006VGGLSEGNETVEDLAQR -1.0000     NotChecked  -10.5742    1815.8599   ✗       
+365   GGGLLSEGNETVEDLAQR       -1.0000     NotChecked  -10.5768    1843.8912   ✗       
+366   GDGLLSEGNETVEDLAQR       -1.0000     NotChecked  -10.5781    1901.8967   ✗       
+367   GVGNLSEGNETVEDLAQR       -1.0000     NotChecked  -10.5782    1886.8970   ✗       
+368   NGLLSEGNESVEDLAQR        -1.0000     NotChecked  -10.5905    1829.8755   ✗       
+369   SVGLLSEGNQ+0.984TVEDLAQR -1.0000     NotChecked  -10.5914    1915.9487   ✗       
+370   +43.006SGLLDEGNETVEDLAQR -1.0000     NotChecked  -10.5921    1887.8810   ✗       
+371   SVGLLSEGNQ+0.984TVQ+0.984DLAQR-1.0000     NotChecked  -10.5928    1915.9487   ✗       
+372   SGGLLSQ+0.984GNETVEDLAQR -1.0000     NotChecked  -10.5933    1873.9017   ✗       
+373   SN+0.984GLLSEGNETVLDLAQR -1.0000     NotChecked  -10.5980    1915.9487   ✗       
+374   AGGLLSEGNETVEDLAQR       -1.0000     NotChecked  -10.6007    1857.9068   ✗       
+375   SDGLLEGNETVEDLAQR        -1.0000     NotChecked  -10.6021    1844.8752   ✗       
+376   NGGLLSEGNETVEDLAQR       -1.0000     NotChecked  -10.6071    1900.9126   ✗       
+377   +43.006VGLLSEGNQTVEDLAQR -1.0000     NotChecked  -10.6283    1870.9385   ✗       
+378   SVGLLSEGNESVEDLAQR       -1.0000     NotChecked  -10.6304    1901.9330   ✗       
+379   SVGLLSEGNESVQ+0.984DLAQR -1.0000     NotChecked  -10.6318    1901.9330   ✗       
+380   SN+0.984GLLSLGNETVEDLAQR -1.0000     NotChecked  -10.6382    1915.9487   ✗       
+381   +43.006SGLLSEGN+0.984ETVEDLAQR-1.0000     NotChecked  -10.6388    1860.8701   ✗       
+382   GN+0.984GLLSEGNEVVEDLAQR -1.0000     NotChecked  -10.6410    1899.9174   ✗       
+383   SVGLLSEGLETVEDLAQR       -1.0000     NotChecked  -10.6423    1914.9898   ✗       
+384   SN+0.984GLLSEGNETVEDAAQR -1.0000     NotChecked  -10.6500    1889.8603   ✗       
+385   GSLLSEGNETVEDLAQR        -1.0000     NotChecked  -10.6526    1816.8803   ✗       
+386   +43.006SGLLSEGNETLEDLAQR -1.0000     NotChecked  -10.6540    1873.9017   ✗       
+387   GNGLLSEGNETVQ+0.984DLAQR -1.0000     NotChecked  -10.6547    1900.9126   ✗       
+388   +43.006NGLLSEGNEVVEDLAQR -1.0000     NotChecked  -10.6567    1884.9177   ✗       
+389   GYLLSEGNETVEDLAQR        -1.0000     NotChecked  -10.6605    1892.9116   ✗       
+390   +43.006N+0.984GLLSEGNETVEN+0.984LAQR-1.0000     NotChecked  -10.6606    1887.8810   ✗       
+391   AN+0.984GLLSEGNEVVEDLAQR -1.0000     NotChecked  -10.6649    1913.9330   ✗       
+392   +43.006N+0.984GLLSMGNETVEDLAQR-1.0000     NotChecked  -10.6709    1889.8789   ✗       
+393   +43.006VVLLSEGNETVEDLAQR -1.0000     NotChecked  -10.6728    1913.9694   ✗       
+394   GVGLLSEGNETVEN+0.984LAQR -1.0000     NotChecked  -10.6763    1885.9381   ✗       
+395   N+0.984GGLSEGNETVEDLAQR  -1.0000     NotChecked  -10.6770    1788.8126   ✗       
+396   GVGLLSMGNETVEDLAQR       -1.0000     NotChecked  -10.6866    1887.9360   ✗       
+397   SVGLLSENETVEDLAQR        -1.0000     NotChecked  -10.7057    1858.9272   ✗       
+398   SN+0.984GLLSEGNETVVDLAQR -1.0000     NotChecked  -10.7077    1901.9330   ✗       
+399   SVLLSEGNQ+0.984TVEDLAQR  -1.0000     NotChecked  -10.7177    1858.9272   ✗       
+400   +43.006NGLLDEGNETVEDLAQR -1.0000     NotChecked  -10.7192    1914.8919   ✗       
+401   GN+0.984GLLEGNETVEDLAQR  -1.0000     NotChecked  -10.7196    1814.8646   ✗       
+402   N+0.984GLLSEGNQTVEDLAQR  -1.0000     NotChecked  -10.7311    1843.8912   ✗       
+403   +43.006N+0.984GLLSEGNQ+0.984SVEDLAQR-1.0000     NotChecked  -10.7329    1873.8654   ✗       
+404   SGGLLSEGNETVEDLAQR       -1.0000     NotChecked  -10.7352    1873.9017   ✗       
+405   SGGLLSEGNETVQ+0.984DLAQR -1.0000     NotChecked  -10.7366    1873.9017   ✗       
+406   +43.006VGLDSEGNETVEDLAQR -1.0000     NotChecked  -10.7447    1873.8654   ✗       
+407   SSGGLSEGNETVEDLAQR       -1.0000     NotChecked  -10.7464    1847.8497   ✗       
+408   GVGLLSEGNQ+0.984SVEDLAQR -1.0000     NotChecked  -10.7485    1871.9225   ✗       
+409   GN+0.984GLLSEGN+0.984ETVEDLAQR-1.0000     NotChecked  -10.7501    1902.8807   ✗       
+410   SVLLSEGNESVEDLAQR        -1.0000     NotChecked  -10.7567    1844.9116   ✗       
+411   YGLLSEGNQ+0.984TVEDLAQR  -1.0000     NotChecked  -10.7578    1892.9116   ✗       
+412   SN+0.984GVLSEGNESVEDLAQR -1.0000     NotChecked  -10.7635    1903.8759   ✗       
+413   GN+0.984GLLSEGNETLEDLAQR -1.0000     NotChecked  -10.7653    1915.9123   ✗       
+414   +43.006NGLLSEGN+0.984ETVEDLAQR-1.0000     NotChecked  -10.7658    1887.8810   ✗       
+415   +43.006SGLLSEGNETVEDLAQR -1.0000     NotChecked  -10.7699    1859.8861   ✗       
+416   +43.006VGMLSEGNETVEDLAQR -1.0000     NotChecked  -10.7726    1889.8789   ✗       
+417   AN+0.984GLLSEGN+0.984ETVEDLAQR-1.0000     Failed      -10.7740    1916.8963   ✓       
+418   N+0.984VLLSEGNETVEDLAQR  -1.0000     NotChecked  -10.7747    1886.9221   ✗       
+419   N+0.984VLLSEGNETVEDLAQR  -1.0000     NotChecked  -10.7756    1886.9221   ✗       
+420   SVGLLSQGNETVEDLAQR       -1.0000     NotChecked  -10.7757    1914.9647   ✗       
+421   YDGLLSEGNETVEDLAR        -1.0000     NotChecked  -10.7788    1879.8799   ✗       
+422   GDGGLSEGNETVEDLAQR       -1.0000     NotChecked  -10.7794    1845.8341   ✗       
+423   GNLLSEGNETVEDLAQR        -1.0000     NotChecked  -10.7796    1843.8912   ✗       
+424   +43.006VGLLSEGNETVEDLAQR -1.0000     NotChecked  -10.7809    1871.9225   ✗       
+425   +43.006NGLLSEGNETLEDLAQR -1.0000     NotChecked  -10.7810    1900.9126   ✗       
+426   +43.006N+0.984GELSEGNETVEDLAQR-1.0000     NotChecked  -10.7828    1903.8395   ✗       
+427   YGLLSEGNESVEDLAQR        -1.0000     NotChecked  -10.7968    1878.8959   ✗       
+428   GVGELSEGNETVEDLAQR       -1.0000     NotChecked  -10.7984    1901.8967   ✗       
+429   SSGLLSEGNQTVEDLAQR       -1.0000     NotChecked  -10.8005    1902.9283   ✗       
+430   +43.006VGLLSEGNETVEDLAQR -1.0000     NotChecked  -10.8038    1871.9225   ✗       
+431   +43.006N+0.984GLLSEGNELVEDLAQR-1.0000     NotChecked  -10.8084    1899.9174   ✗       
+432   SVGLLSEGNETVEDLAR        -1.0000     NotChecked  -10.8095    1787.8901   ✗       
+433   GN+0.984GLLSEGNDTVEDLAQR -1.0000     NotChecked  -10.8157    1887.8810   ✗       
+434   SVGLLSDGNETVEDLAQR       -1.0000     NotChecked  -10.8162    1901.9330   ✗       
+435   VGKLSEGNETVEDLAQR        -1.0000     NotChecked  -10.8214    1843.9276   ✗       
+436   GVGLLSEGNELVEDLAQR       -1.0000     NotChecked  -10.8240    1897.9745   ✗       
+437   SVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -10.8273    1915.9487   ✗       
+438   GDGLLSEGNQTVEDLAQR       -1.0000     NotChecked  -10.8336    1900.9126   ✗       
+439   +43.006VGFLSEGNETVEDLAQR -1.0000     NotChecked  -10.8372    1905.9068   ✗       
+440   SDGLLSEGNETVEDLAAR       -1.0000     NotChecked  -10.8435    1874.8858   ✗       
+441   +43.006SGLLSQ+0.984GNETVEDLAQR-1.0000     NotChecked  -10.8450    1859.8861   ✗       
+442   ADGLLSEGNETVEDLAQR       -1.0000     NotChecked  -10.8461    1915.9123   ✗       
+443   N+0.984GLDSEGNETVEDLAQR  -1.0000     NotChecked  -10.8475    1846.8181   ✗       
+444   GGGLLSEGNQ+0.984TVEDLAQR -1.0000     NotChecked  -10.8534    1843.8912   ✗       
+445   SGLLSEGNETVEDLAQR        -1.0000     NotChecked  -10.8615    1816.8803   ✗       
+446   SNGGLSEGNETVEDLAQR       -1.0000     NotChecked  -10.8734    1874.8606   ✗       
+447   N+0.984GMLSEGNETVEDLAQR  -1.0000     NotChecked  -10.8755    1862.8316   ✗       
+448   GN+0.984GLLSEGDETVEDLAQR -1.0000     NotChecked  -10.8802    1902.8807   ✗       
+449   GN+0.984GLLSEGNETVEDLAQR -1.0000     NotChecked  -10.8812    1901.8967   ✗       
+450   VGLLSWGNETVEDLAQR        -1.0000     NotChecked  -10.8819    1885.9534   ✗       
+451   N+0.984GLLSEGNETVEDLAQR  -1.0000     NotChecked  -10.8837    1844.8752   ✗       
+452   SVGLLSEGNETVEDLAGR       -1.0000     NotChecked  -10.8905    1844.9116   ✗       
+453   GGGLLSEGNESVEDLAQR       -1.0000     NotChecked  -10.8924    1829.8755   ✗       
+454   +43.006VGLLSEGNQ+0.984TVEDLAQR-1.0000     NotChecked  -10.8935    1871.9225   ✗       
+455   +43.006NGLLSEGNETVEDLAQR -1.0000     NotChecked  -10.8969    1886.8970   ✗       
+456   GN+0.984GLLSEGNETVEDLAQR -1.0000     NotChecked  -10.8970    1901.8967   ✗       
+457   AN+0.984GLLSEGNETVEDLAQR -1.0000     NotChecked  -10.9051    1915.9123   ✗       
+458   N+0.984GLLSEGNETVEDLAQR  -1.0000     NotChecked  -10.9066    1844.8752   ✗       
+459   +43.006DGKLSEGNETVEDLAQR -1.0000     NotChecked  -10.9082    1902.8919   ✗       
+460   SSGLDSEGNETVEDLAQR       -1.0000     NotChecked  -10.9169    1905.8552   ✗       
+461   GN+0.984GLLSEGNQ+0.984VVEDLAQR-1.0000     NotChecked  -10.9176    1899.9174   ✗       
+462   YDGLSEGNETVEDLAQR        -1.0000     NotChecked  -10.9216    1894.8545   ✗       
+463   SVGVLSEGNETVEDLAQR       -1.0000     NotChecked  -10.9241    1901.9330   ✗       
+464   SN+0.984LLSEGNEVVEDLAQR  -1.0000     NotChecked  -10.9257    1872.9065   ✗       
+465   SVGLLSEGN+0.984EVVEDLAQR -1.0000     NotChecked  -10.9276    1914.9535   ✗       
+466   +43.006VGLLSEGNESVEDLAQR -1.0000     NotChecked  -10.9325    1857.9068   ✗       
+467   GN+0.984GLLSEGNMTVEDLAQR -1.0000     NotChecked  -10.9398    1903.8945   ✗       
+468   N+0.984GFLSEGNETVEDLAQR  -1.0000     NotChecked  -10.9400    1878.8595   ✗       
+469   SVGLLSEGNETVQDLAQR       -1.0000     NotChecked  -10.9455    1914.9647   ✗       
+470   DGVLSEGNETVEDLAQR        -1.0000     NotChecked  -10.9486    1830.8595   ✗       
+471   GDGLDSEGNETVEDLAQR       -1.0000     NotChecked  -10.9499    1903.8395   ✗       
+472   SVGLLSAGNETVEDLAQR       -1.0000     NotChecked  -10.9508    1857.9432   ✗       
+473   VGLLSEGNETVEDLAQR        -1.0000     NotChecked  -10.9519    1828.9167   ✗       
+474   VSLLSEGNETVEDLAQR        -1.0000     NotChecked  -10.9521    1858.9272   ✗       
+475   SVGLSEGNETVEDLAQR        -1.0000     NotChecked  -10.9523    1802.8646   ✗       
+476   SSGLLSEGNETVEDLAQR       -1.0000     NotChecked  -10.9531    1903.9123   ✗       
+477   GN+0.984GLLSQ+0.984GNETVEDLAQR-1.0000     NotChecked  -10.9563    1901.8967   ✗       
+478   GN+0.984GLLSEGNETVEDLAAR -1.0000     NotChecked  -10.9611    1844.8752   ✗       
+479   +43.006NGLLSQ+0.984GNETVEDLAQR-1.0000     NotChecked  -10.9720    1886.8970   ✗       
+480   LN+0.984LLSEGNETVEDLAQR  -1.0000     NotChecked  -10.9740    1900.9378   ✗       
+481   SSGLLSEGNETVEDLAQR       -1.0000     NotChecked  -10.9760    1903.9123   ✗       
+482   SVGLLSSGNETVEDLAQR       -1.0000     NotChecked  -10.9764    1873.9381   ✗       
+483   N+0.984LLLSEGNETVEDLAQR  -1.0000     NotChecked  -10.9796    1900.9378   ✗       
+484   AN+0.984GLLSQ+0.984GNETVEDLAQR-1.0000     NotChecked  -10.9802    1915.9123   ✗       
+485   GDGLLSEGNETVEDLAQR       -1.0000     NotChecked  -10.9862    1901.8967   ✗       
+486   +43.006SGLLSEGNETVEDLAQR -1.0000     NotChecked  -10.9868    1859.8861   ✗       
+487   SN+0.984LLDEGNETVEDLAQR  -1.0000     NotChecked  -10.9882    1902.8807   ✗       
+488   +43.006SGLLSEGNETVQ+0.984DLAQR-1.0000     NotChecked  -10.9882    1859.8861   ✗       
+489   N+0.984GLLSEGNQ+0.984TVEDLAQR-1.0000     NotChecked  -10.9964    1844.8752   ✗       
+490   GDGLLSEGNETVEDLAQR       -1.0000     NotChecked  -10.9994    1901.8967   ✗       
+491   GN+0.984GLLSEANETVEDLAQR -1.0000     NotChecked  -11.0047    1915.9123   ✗       
+492   GDGLLSEGNETVEDLAQR       -1.0000     NotChecked  -11.0090    1901.8967   ✗       
+493   SVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -11.0117    1915.9487   ✗       
+494   GN+0.984GLLDEGNESVEDLAQR -1.0000     NotChecked  -11.0190    1915.8759   ✗       
+495   DALLSEGNETVEDLAQR        -1.0000     NotChecked  -11.0194    1858.8908   ✗       
+496   VGLLN+0.984EGNETVEDLAQR  -1.0000     NotChecked  -11.0239    1856.9116   ✗       
+497   GN+0.984GLLSEGN+0.984Q+0.984TVEDLAQR-1.0000     NotChecked  -11.0267    1902.8807   ✗       
+498   SVGLLSEGNEPVEDLAQR       -1.0000     NotChecked  -11.0313    1911.9538   ✗       
+499   SN+0.984LLSEGN+0.984ETVEDLAQR-1.0000     NotChecked  -11.0349    1875.8698   ✗       
+500   N+0.984GLLSEGNESVEDLAQR  -1.0000     NotChecked  -11.0354    1830.8595   ✗       
+501   +43.006GGLLSEGNETVEDLAQR -1.0000     NotChecked  -11.0373    1829.8755   ✗       
+502   +43.006DGLLSEGNETVEDLAQR -1.0000     NotChecked  -11.0387    1887.8810   ✗       
+503   +43.006VGNLSEGNETVEDLAQR -1.0000     NotChecked  -11.0388    1872.8813   ✗       
+504   GN+0.984GLLSEGNQ+0.984TLEDLAQR-1.0000     NotChecked  -11.0419    1915.9123   ✗       
+505   GVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -11.0425    1885.9381   ✗       
+506   SN+0.984LLSEGNETLEDLAQR  -1.0000     NotChecked  -11.0500    1888.9014   ✗       
+507   DGLLSEGNEPVEDLAQR        -1.0000     NotChecked  -11.0558    1840.8803   ✗       
+508   SVGLLSEGNEVVEDLAQR       -1.0000     NotChecked  -11.0586    1913.9694   ✗       
+509   GN+0.984GLLSEGN+0.984ESVEDLAQR-1.0000     NotChecked  -11.0657    1888.8650   ✗       
+510   SSGLLSEGNQ+0.984TVEDLAQR -1.0000     NotChecked  -11.0657    1903.9123   ✗       
+511   SVGLLSEGNETVLDLAQR       -1.0000     NotChecked  -11.0742    1899.9902   ✗       
+512   GN+0.984GLLSEGNESLEDLAQR -1.0000     NotChecked  -11.0809    1901.8967   ✗       
+513   GN+0.984GLLSEGNETVEDLAQ+0.984R-1.0000     NotChecked  -11.0819    1902.8807   ✗       
+514   +43.006SGYLSEGNETVEDLAQR -1.0000     NotChecked  -11.0970    1909.8654   ✗       
+515   N+0.984N+0.984LLSEGNETVEDLAQR-1.0000     NotChecked  -11.0978    1902.8807   ✗       
+516   GDGLLSEGNQ+0.984TVEDLAQR -1.0000     NotChecked  -11.0988    1901.8967   ✗       
+517   GN+0.984GLLSEGNETVQ+0.984DLAQR-1.0000     NotChecked  -11.0995    1901.8967   ✗       
+518   +43.006N+0.984GLLSEGNEVVEDLAQR-1.0000     NotChecked  -11.1015    1885.9017   ✗       
+519   SSGLLSEGNESVEDLAQR       -1.0000     NotChecked  -11.1047    1889.8967   ✗       
+520   SGLLSEGNEVVEDLAQR        -1.0000     NotChecked  -11.1087    1814.9010   ✗       
+521   +43.006DGLLN+0.984EGNETVEDLAQR-1.0000     NotChecked  -11.1107    1915.8759   ✗       
+522   +43.006SLLSEGNETVEDLAQR  -1.0000     NotChecked  -11.1132    1802.8646   ✗       
+523   SVGLLSLGNETVEDLAQR       -1.0000     NotChecked  -11.1144    1899.9902   ✗       
+524   +43.006NGLLSEGNETVQ+0.984DLAQR-1.0000     NotChecked  -11.1152    1886.8970   ✗       
+525   YGLLSEGNEVVEDLAQR        -1.0000     NotChecked  -11.1166    1890.9323   ✗       
+526   GVGLLSEGNEVVEDLAQR       -1.0000     NotChecked  -11.1172    1883.9589   ✗       
+527   VGLLSEGNETVEDLAQR        -1.0000     NotChecked  -11.1182    1828.9167   ✗       
+528   +43.006YLLSEGNETVEDLAQR  -1.0000     NotChecked  -11.1210    1878.8959   ✗       
+529   ADGLLSEGNQ+0.984TVEDLAQR -1.0000     NotChecked  -11.1227    1915.9123   ✗       
+530   AN+0.984GLLSEGNETVQ+0.984DLAQR-1.0000     NotChecked  -11.1234    1915.9123   ✗       
+531   SVGLLSEGNETVEDAAQR       -1.0000     NotChecked  -11.1262    1873.9017   ✗       
+532   YSGLLEGNETVEDLAQR        -1.0000     NotChecked  -11.1321    1892.9116   ✗       
+533   SVGLLSQ+0.984GNEVVEDLAQR -1.0000     NotChecked  -11.1337    1913.9694   ✗       
+534   GSGVLSEGNETVEDLAQR       -1.0000     NotChecked  -11.1355    1859.8861   ✗       
+535   +43.006VGLLSEGNETVEN+0.984LAQR-1.0000     NotChecked  -11.1368    1871.9225   ✗       
+536   GDGLLSEGNESVEDLAQR       -1.0000     NotChecked  -11.1378    1887.8810   ✗       
+537   AVGLLSEGNEVVEDLAQR       -1.0000     NotChecked  -11.1411    1897.9745   ✗       
+538   N+0.984GNLSEGNETVEDLAQR  -1.0000     NotChecked  -11.1416    1845.8341   ✗       
+539   GN+0.984GLLSEGNETVEDLAQR -1.0000     NotChecked  -11.1441    1901.8967   ✗       
+540   +43.006VGLLSMGNETVEDLAQR -1.0000     NotChecked  -11.1471    1873.9204   ✗       
+541   VGGLSEGNETVEDLAQR        -1.0000     NotChecked  -11.1532    1772.8541   ✗       
+542   SVGLLSEGNETVDDLAQR       -1.0000     NotChecked  -11.1576    1901.9330   ✗       
+543   GN+0.984GLLSEGNQ+0.984TVEDLAQR-1.0000     NotChecked  -11.1578    1901.8967   ✗       
+544   ADGLLSEGNESVEDLAQR       -1.0000     NotChecked  -11.1617    1901.8967   ✗       
+545   +43.006N+0.984GLLDEGNETVEDLAQR-1.0000     NotChecked  -11.1640    1915.8759   ✗       
+546   SN+0.984LLSEGNETVEDLAQR  -1.0000     NotChecked  -11.1659    1874.8858   ✗       
+547   SGLLDEGNETVEDLAQR        -1.0000     NotChecked  -11.1711    1844.8752   ✗       
+548   N+0.984NLLSEGNETVEDLAQR  -1.0000     NotChecked  -11.1723    1901.8967   ✗       
+549   GN+0.984GLLSEGNETVEDLAKR -1.0000     NotChecked  -11.1732    1901.9330   ✗       
+550   SGLLSEGNETVEDLAQR        -1.0000     NotChecked  -11.1777    1816.8803   ✗       
+551   GVGLLDEGNETVEDLAQR       -1.0000     NotChecked  -11.1796    1913.9330   ✗       
+552   +43.006N+0.984GLLEGNETVEDLAQR-1.0000     NotChecked  -11.1802    1800.8490   ✗       
+553   SVGLLSEGNETVVDLAQR       -1.0000     NotChecked  -11.1839    1885.9745   ✗       
+554   SMLLSEGNETVEDLAQR        -1.0000     NotChecked  -11.1868    1890.8993   ✗       
+555   GVGLLEGNETVEDLAQR        -1.0000     NotChecked  -11.1958    1798.9061   ✗       
+556   GN+0.984GLLSEGNESVEDLAQR -1.0000     NotChecked  -11.1968    1887.8810   ✗       
+557   SVGVLSEGNQ+0.984TVEDLAQR -1.0000     NotChecked  -11.2007    1901.9330   ✗       
+558   GSALLSEGNETVEDLAQR       -1.0000     NotChecked  -11.2063    1887.9174   ✗       
+559   VGLLSEGNQTVEDLAQR        -1.0000     NotChecked  -11.2073    1827.9326   ✗       
+560   +43.006VGLLSEGNQ+0.984SVEDLAQR-1.0000     NotChecked  -11.2091    1857.9068   ✗       
+561   +43.006N+0.984GLLSEGN+0.984ETVEDLAQR-1.0000     NotChecked  -11.2107    1888.8650   ✗       
+562   SSGNLSEGNETVEDLAQR       -1.0000     NotChecked  -11.2110    1904.8712   ✗       
+563   VN+0.984LLSEGNETVEDLAQR  -1.0000     NotChecked  -11.2119    1886.9221   ✗       
+564   GMGLLSEGNESVEDLAQR       -1.0000     NotChecked  -11.2177    1903.8946   ✗       
+565   SGLLSEGN+0.984ETVEDLAQR  -1.0000     NotChecked  -11.2178    1817.8643   ✗       
+566   GN+0.984GLLSEGNETVEDLAQR -1.0000     NotChecked  -11.2245    1901.8967   ✗       
+567   YGLLSEGN+0.984ETVEDLAQR  -1.0000     NotChecked  -11.2257    1893.8956   ✗       
+568   +43.006N+0.984GLLSEGNETLEDLAQR-1.0000     NotChecked  -11.2259    1901.8967   ✗       
+569   GVGLLSEGN+0.984ETVEDLAQR -1.0000     NotChecked  -11.2263    1886.9221   ✗       
+570   SN+0.984GLLSEGGETVEDLAQR -1.0000     NotChecked  -11.2267    1874.8858   ✗       
+571   GN+0.984GLLSQ+0.984GNQ+0.984TVEDLAQR-1.0000     NotChecked  -11.2329    1901.8967   ✗       
+572   SGLLSEGNETLEDLAQR        -1.0000     NotChecked  -11.2330    1830.8959   ✗       
+573   NGLLSEGNEVVEDLAQR        -1.0000     NotChecked  -11.2357    1841.9119   ✗       
+574   SVGVLSEGNESVEDLAQR       -1.0000     NotChecked  -11.2397    1887.9174   ✗       
+575   N+0.984GLLSEGNETVEN+0.984LAQR-1.0000     NotChecked  -11.2397    1844.8752   ✗       
+576   +43.006DGGLSEGNETVEDLAQR -1.0000     NotChecked  -11.2400    1831.8184   ✗       
+577   +43.006NLLSEGNETVEDLAQR  -1.0000     NotChecked  -11.2402    1829.8755   ✗       
+578   YGLLSEGNETLEDLAQR        -1.0000     NotChecked  -11.2409    1906.9272   ✗       
+579   SN+0.984LLSQ+0.984GNETVEDLAQR-1.0000     NotChecked  -11.2410    1874.8858   ✗       
+580   GVGLLSEGNETLEDLAQR       -1.0000     NotChecked  -11.2415    1899.9538   ✗       
+581   GSGLLSEGNEPVEDLAQR       -1.0000     NotChecked  -11.2428    1869.9068   ✗       
+582   SVGLLSQ+0.984GN+0.984ETVEDLAQR-1.0000     Failed      -11.2429    1916.9327   ✓       
+583   GDGNLSEGNETVEDLAQR       -1.0000     NotChecked  -11.2440    1902.8555   ✗       
+584   AN+0.984LLSEGNETVEDLAQR  -1.0000     NotChecked  -11.2484    1858.8908   ✗       
+585   N+0.984GLLSMGNETVEDLAQR  -1.0000     NotChecked  -11.2500    1846.8731   ✗       
+586   AVGLLSEGN+0.984ETVEDLAQR -1.0000     NotChecked  -11.2502    1900.9378   ✗       
+587   VVLLSEGNETVEDLAQR        -1.0000     NotChecked  -11.2518    1870.9636   ✗       
+588   NN+0.984LLSEGNETVEDLAQR  -1.0000     NotChecked  -11.2548    1901.8967   ✗       
+589   +43.006VGELSEGNETVEDLAQR -1.0000     NotChecked  -11.2590    1887.8810   ✗       
+590   GNGVLSEGNETVEDLAQR       -1.0000     NotChecked  -11.2626    1886.8970   ✗       
+591   AVGLLSEGNETLEDLAQR       -1.0000     NotChecked  -11.2654    1913.9694   ✗       
+592   GN+0.984GLLSQ+0.984GNESVEDLAQR-1.0000     NotChecked  -11.2719    1887.8810   ✗       
+593   SVGLLSEGNEVVEDLAQR       -1.0000     NotChecked  -11.2756    1913.9694   ✗       
+594   +43.006N+0.984GLLSEGNDTVEDLAQR-1.0000     NotChecked  -11.2763    1873.8654   ✗       
+595   SVGLLSEGNEVVQ+0.984DLAQR -1.0000     NotChecked  -11.2770    1913.9694   ✗       
+596   +43.006VGLLSEGNELVEDLAQR -1.0000     NotChecked  -11.2846    1883.9589   ✗       
+597   GVGLLSEGNDTVEDLAQR       -1.0000     NotChecked  -11.2919    1871.9225   ✗       
+598   +43.006DGLLSEGNQTVEDLAQR -1.0000     NotChecked  -11.2941    1886.8970   ✗       
+599   N+0.984GC+57.021LSEGNETVEDLAQR-1.0000     NotChecked  -11.2971    1891.8218   ✗       
+600   NGLLDEGNETVEDLAQR        -1.0000     NotChecked  -11.2982    1871.8861   ✗       
+601   SVGLLSEGNQ+0.984PVEDLAQR -1.0000     NotChecked  -11.3079    1911.9538   ✗       
+602   SSGLLSEGNETVEN+0.984LAQR -1.0000     NotChecked  -11.3090    1903.9123   ✗       
+603   SVALLSEGNESVEDLAQR       -1.0000     NotChecked  -11.3104    1915.9487   ✗       
+604   N+0.984GLLSEGNQ+0.984SVEDLAQR-1.0000     NotChecked  -11.3120    1830.8596   ✗       
+605   +43.006GGLLSEGNQ+0.984TVEDLAQR-1.0000     NotChecked  -11.3140    1829.8755   ✗       
+606   SN+0.984GGLSEGNETVEDLAQR -1.0000     NotChecked  -11.3183    1875.8446   ✗       
+607   SSGLLSMGNETVEDLAQR       -1.0000     NotChecked  -11.3193    1905.9102   ✗       
+608   VGLDSEGNETVEDLAQR        -1.0000     NotChecked  -11.3237    1830.8595   ✗       
+609   SVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -11.3332    1915.9487   ✗       
+610   GNALLSEGNETVEDLAQR       -1.0000     NotChecked  -11.3333    1914.9283   ✗       
+611   +43.006N+0.984GLLSEGDETVEDLAQR-1.0000     NotChecked  -11.3408    1888.8650   ✗       
+612   SVGLLSEGNETVEDLALR       -1.0000     NotChecked  -11.3414    1900.9742   ✗       
+613   +43.006N+0.984GLLSEGNETVEDLAQR-1.0000     NotChecked  -11.3418    1887.8810   ✗       
+614   GDGLLSEGNETVEN+0.984LAQR -1.0000     NotChecked  -11.3421    1901.8967   ✗       
+615   SGGVLSEGNETVEDLAQR       -1.0000     NotChecked  -11.3445    1859.8861   ✗       
+616   NGLLSEGN+0.984ETVEDLAQR  -1.0000     NotChecked  -11.3449    1844.8752   ✗       
+617   SGLLSEGNETVEDLAQR        -1.0000     NotChecked  -11.3489    1816.8803   ✗       
+618   VGMLSEGNETVEDLAQR        -1.0000     NotChecked  -11.3517    1846.8731   ✗       
+619   GDGLLSMGNETVEDLAQR       -1.0000     NotChecked  -11.3524    1903.8945   ✗       
+620   +43.006GGLLSEGNESVEDLAQR -1.0000     NotChecked  -11.3529    1815.8599   ✗       
+621   GVGLLSEGDETVEDLAQR       -1.0000     NotChecked  -11.3564    1886.9221   ✗       
+622   YGLLSEGNETVEDLAQR        -1.0000     NotChecked  -11.3568    1892.9116   ✗       
+623   GVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -11.3574    1885.9381   ✗       
+624   VGLLSEGNETVEDLAQR        -1.0000     NotChecked  -11.3599    1828.9167   ✗       
+625   NGLLSEGNETLEDLAQR        -1.0000     NotChecked  -11.3600    1857.9068   ✗       
+626   N+0.984GELSEGNETVEDLAQR  -1.0000     NotChecked  -11.3618    1860.8337   ✗       
+627   +43.006MGLLSEGNETVEDLAQR -1.0000     NotChecked  -11.3626    1903.8945   ✗       
+628   GNGLLSEGNEPVEDLAQR       -1.0000     NotChecked  -11.3698    1896.9177   ✗       
+629   SDGLLSENETVEDLAQR        -1.0000     NotChecked  -11.3715    1874.8858   ✗       
+630   GVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -11.3732    1885.9381   ✗       
+631   SVGLLSQ+0.984GNETVEDLAQR -1.0000     NotChecked  -11.3740    1915.9487   ✗       
+632   GN+0.984GLLSEGNQ+0.984TVQ+0.984DLAQR-1.0000     NotChecked  -11.3761    1901.8967   ✗       
+633   +43.006N+0.984GLLSEGNQ+0.984VVEDLAQR-1.0000     NotChecked  -11.3781    1885.9018   ✗       
+634   AVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -11.3813    1899.9538   ✗       
+635   SSGLLSEGNQ+0.984SVEDLAQR -1.0000     NotChecked  -11.3813    1889.8967   ✗       
+636   VGLLSEGNETVEDLAQR        -1.0000     NotChecked  -11.3828    1828.9167   ✗       
+637   SN+0.984LLSEGNETVEDLAQR  -1.0000     NotChecked  -11.3829    1874.8858   ✗       
+638   SDLLSEGNQ+0.984TVEDLAQR  -1.0000     NotChecked  -11.3835    1874.8858   ✗       
+639   SN+0.984LLSEGNETVQ+0.984DLAQR-1.0000     NotChecked  -11.3843    1874.8858   ✗       
+640   N+0.984GLLSEGNELVEDLAQR  -1.0000     NotChecked  -11.3874    1856.9116   ✗       
+641   GVGLLSEGNQ+0.984VVEDLAQR -1.0000     NotChecked  -11.3938    1883.9589   ✗       
+642   +43.006N+0.984GLLSEGNMTVEDLAQR-1.0000     NotChecked  -11.4004    1889.8789   ✗       
+643   SVLLSEGNEVVEDLAQR        -1.0000     NotChecked  -11.4019    1856.9480   ✗       
+644   SN+0.984GVLSEGNEVVEDLAQR -1.0000     NotChecked  -11.4087    1915.9123   ✗       
+645   +43.006DGLDSEGNETVEDLAQR -1.0000     NotChecked  -11.4105    1889.8239   ✗       
+646   GDGLLSEGNQ+0.984SVEDLAQR -1.0000     NotChecked  -11.4144    1887.8810   ✗       
+647   GN+0.984GLLSEGNESVQ+0.984DLAQR-1.0000     NotChecked  -11.4151    1887.8810   ✗       
+648   SGALLSEGNETVEDLAQR       -1.0000     NotChecked  -11.4152    1887.9174   ✗       
+649   GVGLLSEGNMTVEDLAQR       -1.0000     NotChecked  -11.4160    1887.9360   ✗       
+650   VGFLSEGNETVEDLAQR        -1.0000     NotChecked  -11.4162    1862.9010   ✗       
+651   +43.006N+0.984GLLSQ+0.984GNETVEDLAQR-1.0000     NotChecked  -11.4169    1887.8810   ✗       
+652   +43.006N+0.984GLLSEGNETVEDLAAR-1.0000     NotChecked  -11.4217    1830.8595   ✗       
+653   SDLLSEGNESVEDLAQR        -1.0000     NotChecked  -11.4225    1860.8701   ✗       
+654   SGLLSQ+0.984GNETVEDLAQR  -1.0000     NotChecked  -11.4240    1816.8803   ✗       
+655   YN+0.984GLLSEGNETVELAQR  -1.0000     NotChecked  -11.4248    1892.9116   ✗       
+656   GN+0.984GLLSEGLETVEDLAQR -1.0000     NotChecked  -11.4257    1900.9378   ✗       
+657   YN+0.984GLLSEGNETVEDLAR  -1.0000     NotChecked  -11.4268    1879.8799   ✗       
+658   SVGLLSEGNETVEDLANR       -1.0000     NotChecked  -11.4296    1901.9330   ✗       
+659   YGLLSQ+0.984GNETVEDLAQR  -1.0000     NotChecked  -11.4319    1892.9116   ✗       
+660   GVGLLSQ+0.984GNETVEDLAQR -1.0000     NotChecked  -11.4325    1885.9381   ✗       
+661   GVGLLSEGNETVEDLAAR       -1.0000     NotChecked  -11.4373    1828.9167   ✗       
+662   +43.006DGMLSEGNETVEDLAQR -1.0000     NotChecked  -11.4385    1905.8374   ✗       
+663   N+0.984DLLSEGNETVEDLAQR  -1.0000     NotChecked  -11.4405    1902.8807   ✗       
+664   +43.006N+0.984GLLDEGNQ+0.984TVEDLAQR-1.0000     NotChecked  -11.4406    1915.8759   ✗       
+665   YGLLSEGNEVVEDLAQR        -1.0000     NotChecked  -11.4420    1890.9323   ✗       
+666   +43.006DGLLSEGNETVEDLAQR -1.0000     NotChecked  -11.4468    1887.8810   ✗       
+667   LVLLSEGNETVEDLAQR        -1.0000     NotChecked  -11.4502    1884.9793   ✗       
+668   SGGLLSEGNEPVEDLAQR       -1.0000     NotChecked  -11.4517    1869.9068   ✗       
+669   SGLLSEGNQ+0.984TVEDLAQR  -1.0000     NotChecked  -11.4543    1816.8803   ✗       
+670   VLLLSEGNETVEDLAQR        -1.0000     NotChecked  -11.4558    1884.9793   ✗       
+671   GVGLLDEGNQ+0.984TVEDLAQR -1.0000     NotChecked  -11.4562    1913.9330   ✗       
+672   AVGLLSQ+0.984GNETVEDLAQR -1.0000     NotChecked  -11.4564    1899.9538   ✗       
+673   SSGLLSEGNELVEDLAQR       -1.0000     NotChecked  -11.4568    1915.9487   ✗       
+674   SVLLDEGNETVEDLAQR        -1.0000     NotChecked  -11.4644    1886.9221   ✗       
+675   +43.006N+0.984GLLSEANETVEDLAQR-1.0000     NotChecked  -11.4653    1901.8967   ✗       
+676   +43.006DGLLSEGNETVEDLAQR -1.0000     NotChecked  -11.4696    1887.8810   ✗       
+677   VGLLSEGNQ+0.984TVEDLAQR  -1.0000     NotChecked  -11.4725    1828.9167   ✗       
+678   SDGLLSEGNETVEDLAR        -1.0000     NotChecked  -11.4754    1803.8486   ✗       
+679   NGLLSEGNETVEDLAQR        -1.0000     NotChecked  -11.4759    1843.8912   ✗       
+680   +43.006N+0.984GLLDEGNESVEDLAQR-1.0000     NotChecked  -11.4796    1901.8603   ✗       
+681   GVGLLSEANETVEDLAQR       -1.0000     NotChecked  -11.4809    1899.9538   ✗       
+682   DGKLSEGNETVEDLAQR        -1.0000     NotChecked  -11.4872    1859.8861   ✗       
+683   +43.006N+0.984GLLSEGN+0.984Q+0.984TVEDLAQR-1.0000     NotChecked  -11.4873    1888.8650   ✗       
+684   GN+0.984GLLSENETVEDLAQR  -1.0000     NotChecked  -11.4890    1844.8752   ✗       
+685   GDGLLSEGNELVEDLAQR       -1.0000     NotChecked  -11.4898    1913.9330   ✗       
+686   N+0.984DLLSEGNETVEDLAQR  -1.0000     NotChecked  -11.4899    1902.8807   ✗       
+687   SN+0.984GLLSEGSETVEDLAQR -1.0000     NotChecked  -11.4919    1904.8963   ✗       
+688   SGLLSEGNESVEDLAQR        -1.0000     NotChecked  -11.4933    1802.8646   ✗       
+689   GVGLLDEGNESVEDLAQR       -1.0000     NotChecked  -11.4952    1899.9174   ✗       
+690   GN+0.984LLSEGNQ+0.984TVEDLAQR-1.0000     NotChecked  -11.5011    1844.8752   ✗       
+691   +43.006N+0.984GLLSEGNQ+0.984TLEDLAQR-1.0000     NotChecked  -11.5025    1901.8967   ✗       
+692   GVGLLSEGN+0.984Q+0.984TVEDLAQR-1.0000     NotChecked  -11.5029    1886.9221   ✗       
+693   +43.006VGLLSEGNETVEDLAQR -1.0000     NotChecked  -11.5031    1871.9225   ✗       
+694   SVLLSEGN+0.984ETVEDLAQR  -1.0000     NotChecked  -11.5111    1859.9112   ✗       
+695   N+0.984GLLSEGNETVEDLAQR  -1.0000     NotChecked  -11.5114    1844.8752   ✗       
+696   VGLLSEGNESVEDLAQR        -1.0000     NotChecked  -11.5115    1814.9010   ✗       
+697   SVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -11.5158    1915.9487   ✗       
+698   SVGLLSEGNETVQ+0.984DLAQR -1.0000     NotChecked  -11.5172    1915.9487   ✗       
+699   GVGLLSEGNQ+0.984TLEDLAQR -1.0000     NotChecked  -11.5181    1899.9538   ✗       
+700   YGGGLSEGNETVEDLAQR       -1.0000     NotChecked  -11.5183    1893.8704   ✗       
+701   SVLLSEGNETLEDLAQR        -1.0000     NotChecked  -11.5262    1872.9429   ✗       
+702   +43.006N+0.984GLLSEGN+0.984ESVEDLAQR-1.0000     NotChecked  -11.5263    1874.8494   ✗       
+703   GGGLLSEGNEVVEDLAQR       -1.0000     NotChecked  -11.5376    1841.9119   ✗       
+704   GN+0.984LLSEGNESVEDLAQR  -1.0000     NotChecked  -11.5401    1830.8595   ✗       
+705   +43.006N+0.984GLLSEGNESLEDLAQR-1.0000     NotChecked  -11.5415    1887.8810   ✗       
+706   GVGLLSEGN+0.984ESVEDLAQR -1.0000     NotChecked  -11.5419    1872.9065   ✗       
+707   +43.006N+0.984GLLSEGNETVEDLAQ+0.984R-1.0000     NotChecked  -11.5425    1888.8650   ✗       
+708   DGLLSWGNETVEDLAQR        -1.0000     NotChecked  -11.5477    1901.9119   ✗       
+709   NGLLSQ+0.984GNETVEDLAQR  -1.0000     NotChecked  -11.5510    1843.8912   ✗       
+710   YGLLSEGN+0.984ETVEDLAQR  -1.0000     NotChecked  -11.5512    1893.8956   ✗       
+711   SDGLLSEGNETVEDLAGR       -1.0000     NotChecked  -11.5563    1860.8701   ✗       
+712   GVGLLSEGNESLEDLAQR       -1.0000     NotChecked  -11.5571    1885.9381   ✗       
+713   GVGLLSEGNETVEDLAQ+0.984R -1.0000     NotChecked  -11.5581    1886.9221   ✗       
+714   GN+0.984GLLSQGNETVEDLAQR -1.0000     NotChecked  -11.5591    1900.9126   ✗       
+715   +43.006DGLLSEGNQ+0.984TVEDLAQR-1.0000     NotChecked  -11.5594    1887.8810   ✗       
+716   +43.006N+0.984GLLSEGNETVQ+0.984DLAQR-1.0000     NotChecked  -11.5601    1887.8810   ✗       
+717   SGLLSEGNETVEDLAQR        -1.0000     NotChecked  -11.5658    1816.8803   ✗       
+718   YGLLSEGNETLEDLAQR        -1.0000     NotChecked  -11.5663    1906.9272   ✗       
+719   SGLLSEGNETVQ+0.984DLAQR  -1.0000     NotChecked  -11.5672    1816.8803   ✗       
+720   VN+0.984LLSEGNETVEDLAQR  -1.0000     NotChecked  -11.5740    1886.9221   ✗       
+721   YGLLSEGNETVQ+0.984DLAQR  -1.0000     NotChecked  -11.5751    1892.9116   ✗       
+722   GVGLLSEGNETVQ+0.984DLAQR -1.0000     NotChecked  -11.5757    1885.9381   ✗       
+723   +43.006VGLLSEGNEVVEDLAQR -1.0000     NotChecked  -11.5777    1869.9432   ✗       
+724   N+0.984GGLLSEGNETVEDLAQR -1.0000     NotChecked  -11.5838    1901.8967   ✗       
+725   SVGLLSQ+0.984GNETVEDLAQR -1.0000     NotChecked  -11.5909    1915.9487   ✗       
+726   SVGLLSQ+0.984GNETVQ+0.984DLAQR-1.0000     NotChecked  -11.5923    1915.9487   ✗       
+727   GN+0.984GLLSEGNETVEDLAR  -1.0000     NotChecked  -11.5929    1773.8381   ✗       
+728   SVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -11.5932    1915.9487   ✗       
+729   SN+0.984GGLSEGNQ+0.984TVEDLAQR-1.0000     NotChecked  -11.5949    1875.8446   ✗       
+730   +43.006SGVLSEGNETVEDLAQR -1.0000     NotChecked  -11.5961    1845.8704   ✗       
+731   +43.006DGLLSEGNESVEDLAQR -1.0000     NotChecked  -11.5984    1873.8654   ✗       
+732   GN+0.984GLLSDGNETVEDLAQR -1.0000     NotChecked  -11.5996    1887.8810   ✗       
+733   AVGLLSEGNETVQ+0.984DLAQR -1.0000     NotChecked  -11.5996    1899.9538   ✗       
+734   GGGLLDEGNETVEDLAQR       -1.0000     NotChecked  -11.6000    1871.8861   ✗       
+735   +43.006N+0.984GLLSEGNETVEDLAQR-1.0000     NotChecked  -11.6047    1887.8810   ✗       
+736   GN+0.984GLLSEGNETVEDLAQR -1.0000     NotChecked  -11.6107    1901.8967   ✗       
+737   SN+0.984GLLSEGNVTVEDLAQR -1.0000     NotChecked  -11.6147    1901.9330   ✗       
+738   GGLLSEGNETVEDLAQR        -1.0000     NotChecked  -11.6164    1786.8697   ✗       
+739   SDGLLSAGNETVEDLAQR       -1.0000     NotChecked  -11.6166    1873.9017   ✗       
+740   DGLLSEGNETVEDLAQR        -1.0000     NotChecked  -11.6177    1844.8752   ✗       
+741   VGNLSEGNETVEDLAQR        -1.0000     NotChecked  -11.6178    1829.8755   ✗       
+742   DSLLSEGNETVEDLAQR        -1.0000     NotChecked  -11.6179    1874.8858   ✗       
+743   SDGLSEGNETVEDLAQR        -1.0000     NotChecked  -11.6182    1818.8232   ✗       
+744   +43.006N+0.984GLLSEGNQ+0.984TVEDLAQR-1.0000     NotChecked  -11.6184    1887.8810   ✗       
+745   GVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -11.6203    1885.9381   ✗       
+746   SN+0.984GLLSEGPETVEDLAQR -1.0000     NotChecked  -11.6274    1914.9171   ✗       
+747   +43.006N+0.984GLLSEGNETVEDLAKR-1.0000     NotChecked  -11.6337    1887.9174   ✗       
+748   SN+0.984GGLSEGNESVEDLAQR -1.0000     NotChecked  -11.6339    1861.8290   ✗       
+749   GVGLLSEGNQ+0.984TVEDLAQR -1.0000     NotChecked  -11.6340    1885.9381   ✗       
+750   +43.006MGLLSEGNQ+0.984TVEDLAQR-1.0000     NotChecked  -11.6392    1903.8945   ✗       
+751   +43.006VGLLDEGNETVEDLAQR -1.0000     NotChecked  -11.6402    1899.9174   ✗       
+752   SVLLSEGNETVEDLAQR        -1.0000     NotChecked  -11.6421    1858.9272   ✗       
+753   SDGLLSSGNETVEDLAQR       -1.0000     NotChecked  -11.6423    1889.8967   ✗       
+754   GGGLLSEGN+0.984ETVEDLAQR -1.0000     NotChecked  -11.6467    1844.8752   ✗       
+755   VNLLSEGNETVEDLAQR        -1.0000     NotChecked  -11.6485    1885.9381   ✗       
+756   GVGLLSEGNETVEDLAKR       -1.0000     NotChecked  -11.6493    1885.9745   ✗       
+757   N+0.984N+0.984GGLSEGNETVEDLAQR-1.0000     NotChecked  -11.6519    1903.8395   ✗       
+758   +43.006VGLLEGNETVEDLAQR  -1.0000     NotChecked  -11.6564    1784.8904   ✗       
+759   +43.006N+0.984GLLSEGNESVEDLAQR-1.0000     NotChecked  -11.6574    1873.8654   ✗       
+760   GGGLLSEGNETLEDLAQR       -1.0000     NotChecked  -11.6619    1857.9068   ✗       
+761   +43.006SALLSEGNETVEDLAQR -1.0000     NotChecked  -11.6669    1873.9017   ✗       
+762   GVGLLSEGNESVEDLAQR       -1.0000     NotChecked  -11.6730    1871.9225   ✗       
+763   GN+0.984GLLSEGNETVEDLAGR -1.0000     NotChecked  -11.6739    1830.8595   ✗       
+764   GSGKLSEGNETVEDLAQR       -1.0000     NotChecked  -11.6742    1888.9126   ✗       
+765   SGYLSEGNETVEDLAQR        -1.0000     NotChecked  -11.6760    1866.8595   ✗       
+766   +43.006MGLLSEGNESVEDLAQR -1.0000     NotChecked  -11.6782    1889.8789   ✗       
+767   N+0.984GLLSEGNEVVEDLAQR  -1.0000     NotChecked  -11.6806    1842.8959   ✗       
+768   SN+0.984GLLSEGNEGVEDLAQR -1.0000     NotChecked  -11.6838    1887.8810   ✗       
+769   +43.006N+0.984GLLSEGNETVEDLAQR-1.0000     NotChecked  -11.6850    1887.8810   ✗       
+770   +43.006VGLLSEGN+0.984ETVEDLAQR-1.0000     NotChecked  -11.6869    1872.9065   ✗       
+771   VVLLSEGNETVEDLAQR        -1.0000     NotChecked  -11.6881    1870.9636   ✗       
+772   DGLLN+0.984EGNETVEDLAQR  -1.0000     NotChecked  -11.6897    1872.8701   ✗       
+773   SLLSEGNETVEDLAQR         -1.0000     NotChecked  -11.6922    1759.8588   ✗       
+774   +43.006N+0.984GLLSQ+0.984GNQ+0.984TVEDLAQR-1.0000     NotChecked  -11.6935    1887.8810   ✗       
+775   NGLLSEGNETVQ+0.984DLAQR  -1.0000     NotChecked  -11.6943    1843.8912   ✗       
+776   YLLSEGNETVEDLAQR         -1.0000     NotChecked  -11.7001    1835.8901   ✗       
+777   GVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -11.7006    1885.9381   ✗       
+778   SN+0.984GLLSEGNTTVEDLAQR -1.0000     NotChecked  -11.7015    1903.9123   ✗       
+779   +43.006VGLLSEGNETLEDLAQR -1.0000     NotChecked  -11.7021    1885.9381   ✗       
+780   SVGLLSEGGETVEDLAQR       -1.0000     NotChecked  -11.7029    1858.9272   ✗       
+781   +43.006SGLLSEGNEPVEDLAQR -1.0000     NotChecked  -11.7033    1855.8912   ✗       
+782   +43.006DGNLSEGNETVEDLAQR -1.0000     NotChecked  -11.7046    1888.8399   ✗       
+783   GN+0.984GVLSEGNETVEDLAQR -1.0000     NotChecked  -11.7074    1887.8810   ✗       
+784   GVGLLSQ+0.984GNQ+0.984TVEDLAQR-1.0000     NotChecked  -11.7091    1885.9381   ✗       
+785   GN+0.984GLLSEGN+0.984EVVEDLAQR-1.0000     NotChecked  -11.7109    1900.9014   ✗       
+786   SN+0.984GLSSEGNETVEDLAQR -1.0000     NotChecked  -11.7113    1905.8552   ✗       
+787   VGLLSEGNETVEN+0.984LAQR  -1.0000     NotChecked  -11.7159    1828.9167   ✗       
+788   SVLLSQ+0.984GNETVEDLAQR  -1.0000     NotChecked  -11.7172    1858.9272   ✗       
+789   +43.006NGVLSEGNETVEDLAQR -1.0000     NotChecked  -11.7232    1872.8813   ✗       
+790   AVLLSEGNETVEDLAQR        -1.0000     NotChecked  -11.7246    1842.9323   ✗       
+791   GN+0.984GLLSEGNEVLEDLAQR -1.0000     NotChecked  -11.7261    1913.9330   ✗       
+792   VGLLSMGNETVEDLAQR        -1.0000     NotChecked  -11.7262    1830.9146   ✗       
+793   GN+0.984GLLSEGNETVQDLAQR -1.0000     NotChecked  -11.7289    1900.9126   ✗       
+794   NVLLSEGNETVEDLAQR        -1.0000     NotChecked  -11.7310    1885.9381   ✗       
+795   AN+0.984GVLSEGNETVEDLAQR -1.0000     NotChecked  -11.7313    1901.8967   ✗       
+796   +43.006N+0.984GLLSQ+0.984GNESVEDLAQR-1.0000     NotChecked  -11.7325    1873.8654   ✗       
+797   SVGLLSEGNETVQ+0.984DLAQR -1.0000     NotChecked  -11.7341    1915.9487   ✗       
+798   GN+0.984GLLSAGNETVEDLAQR -1.0000     NotChecked  -11.7342    1843.8912   ✗       
+799   GN+0.984GLSEGNETVEDLAQR  -1.0000     NotChecked  -11.7357    1788.8126   ✗       
+800   SDGLLSEGNETVLDLAQR       -1.0000     NotChecked  -11.7400    1915.9487   ✗       
+801   N+0.984GLLDEGNETVEDLAQR  -1.0000     NotChecked  -11.7430    1872.8701   ✗       
+802   GVGLLSQ+0.984GNESVEDLAQR -1.0000     NotChecked  -11.7481    1871.9225   ✗       
+803   SSGLLSEGNEVVEDLAQR       -1.0000     NotChecked  -11.7499    1901.9330   ✗       
+804   +43.006VGLLSEGNDTVEDLAQR -1.0000     NotChecked  -11.7524    1857.9068   ✗       
+805   N+0.984GLLEGNETVEDLAQR   -1.0000     NotChecked  -11.7592    1757.8432   ✗       
+806   SVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -11.7595    1915.9487   ✗       
+807   GN+0.984GLLSSGNETVEDLAQR -1.0000     NotChecked  -11.7598    1859.8861   ✗       
+808   VGC+57.021LSEGNETVEDLAQR -1.0000     NotChecked  -11.7733    1875.8632   ✗       
+809   GGGLLSEGNETVEDLAQR       -1.0000     NotChecked  -11.7778    1843.8912   ✗       
+810   SDGLLSLGNETVEDLAQR       -1.0000     NotChecked  -11.7802    1915.9487   ✗       
+811   SN+0.984GLLSEGNETVSDLAQR -1.0000     NotChecked  -11.7804    1889.8967   ✗       
+812   GDGLLSEGNEVVEDLAQR       -1.0000     NotChecked  -11.7830    1899.9174   ✗       
+813   SVGLLSEGNETVELLAQR       -1.0000     NotChecked  -11.7862    1914.0058   ✗       
+814   VGLLSEGNQ+0.984SVEDLAQR  -1.0000     NotChecked  -11.7881    1814.9010   ✗       
+815   N+0.984GLLSEGN+0.984ETVEDLAQR-1.0000     NotChecked  -11.7897    1845.8592   ✗       
+816   SDGLLSEGNETVEDAAQR       -1.0000     NotChecked  -11.7920    1889.8603   ✗       
+817   +43.006NALLSEGNETVEDLAQR -1.0000     NotChecked  -11.7939    1900.9126   ✗       
+818   SVGGLSEGNETVEDLAQR       -1.0000     NotChecked  -11.7945    1859.8861   ✗       
+819   GN+0.984GLLSEGNETVEDLAQR -1.0000     NotChecked  -11.7951    1901.8967   ✗       
+820   GNGKLSEGNETVEDLAQR       -1.0000     NotChecked  -11.8012    1915.9235   ✗       
+821   +43.006DGLLSEGNETVEN+0.984LAQR-1.0000     NotChecked  -11.8027    1887.8810   ✗       
+822   NGYLSEGNETVEDLAQR        -1.0000     NotChecked  -11.8030    1893.8704   ✗       
+823   GSGLLSEGNETVEDLAQR       -1.0000     NotChecked  -11.8047    1873.9017   ✗       
+824   GSSLLSEGNETVEDLAQR       -1.0000     NotChecked  -11.8048    1903.9123   ✗       
+825   N+0.984GLLSEGNETLEDLAQR  -1.0000     NotChecked  -11.8049    1858.8908   ✗       
+826   ADGLLSEGNEVVEDLAQR       -1.0000     NotChecked  -11.8069    1913.9330   ✗       
+827   +43.006DGLLSMGNETVEDLAQR -1.0000     NotChecked  -11.8130    1889.8789   ✗       
+828   GN+0.984GLLSEGNEPVEDLAQR -1.0000     NotChecked  -11.8146    1897.9017   ✗       
+829   +43.006VGLLSEGDETVEDLAQR -1.0000     NotChecked  -11.8170    1872.9065   ✗       
+830   +43.006VGLLSEGNETVEDLAQR -1.0000     NotChecked  -11.8180    1871.9225   ✗       
+831   DGGLSEGNETVEDLAQR        -1.0000     NotChecked  -11.8190    1788.8126   ✗       
+832   NLLSEGNETVEDLAQR         -1.0000     NotChecked  -11.8192    1786.8697   ✗       
+833   SSGLLEGNETVEDLAQR        -1.0000     NotChecked  -11.8286    1816.8803   ✗       
+834   +43.006NGLLSEGNEPVEDLAQR -1.0000     NotChecked  -11.8304    1882.9021   ✗       
+835   SYGLLEGNETVEDLAQR        -1.0000     NotChecked  -11.8365    1892.9116   ✗       
+836   +43.006N+0.984GLLSEGNQ+0.984TVQ+0.984DLAQR-1.0000     NotChecked  -11.8367    1887.8810   ✗       
+837   VGELSEGNETVEDLAQR        -1.0000     NotChecked  -11.8380    1844.8752   ✗       
+838   AN+0.984GLLSEGNEPVEDLAQR -1.0000     NotChecked  -11.8386    1911.9174   ✗       
+839   GN+0.984GLLSEGNEVVEDLAQR -1.0000     NotChecked  -11.8420    1899.9174   ✗       
+840   SVGLLSEGNQTVEDLAQR       -1.0000     NotChecked  -11.8486    1914.9647   ✗       
+841   SDGLLSEGNETVVDLAQR       -1.0000     NotChecked  -11.8498    1901.9330   ✗       
+842   GVGLLSEGNQ+0.984TVQ+0.984DLAQR-1.0000     NotChecked  -11.8523    1885.9381   ✗       
+843   GGGLLSQ+0.984GNETVEDLAQR -1.0000     NotChecked  -11.8529    1843.8912   ✗       
+844   +43.006VGLLSEGNQ+0.984VVEDLAQR-1.0000     NotChecked  -11.8543    1869.9432   ✗       
+845   N+0.984GLLSEGNDTVEDLAQR  -1.0000     NotChecked  -11.8553    1830.8595   ✗       
+846   GN+0.984GLLSEGNETVLDLAQR -1.0000     NotChecked  -11.8576    1885.9381   ✗       
+847   SVLLSEGNETVEDLAQR        -1.0000     NotChecked  -11.8591    1858.9272   ✗       
+848   SSGLLSEGN+0.984ETVEDLAQR -1.0000     NotChecked  -11.8591    1904.8963   ✗       
+849   SVLLSEGNETVQ+0.984DLAQR  -1.0000     NotChecked  -11.8605    1858.9272   ✗       
+850   GDGLLEGNETVEDLAQR        -1.0000     NotChecked  -11.8616    1814.8646   ✗       
+851   GMGLLSEGNEVVEDLAQR       -1.0000     NotChecked  -11.8629    1915.9309   ✗       
+852   VGLLSEGNELVEDLAQR        -1.0000     NotChecked  -11.8636    1840.9531   ✗       
+853   SVGLLSEGNQ+0.984TVEDLAQR -1.0000     NotChecked  -11.8698    1915.9487   ✗       
+854   DGLLSEGNQTVEDLAQR        -1.0000     NotChecked  -11.8732    1843.8912   ✗       
+855   +43.006DGLLSEGNQ+0.984SVEDLAQR-1.0000     NotChecked  -11.8750    1873.8654   ✗       
+856   +43.006N+0.984GLLSEGNESVQ+0.984DLAQR-1.0000     NotChecked  -11.8757    1873.8654   ✗       
+857   +43.006VGLLSEGNMTVEDLAQR -1.0000     NotChecked  -11.8766    1873.9204   ✗       
+858   GSGLLN+0.984EGNETVEDLAQR -1.0000     NotChecked  -11.8767    1901.8967   ✗       
+859   SGGKLSEGNETVEDLAQR       -1.0000     NotChecked  -11.8831    1888.9126   ✗       
+860   SVGVLSEGNEVVEDLAQR       -1.0000     NotChecked  -11.8849    1899.9538   ✗       
+861   +43.006N+0.984GLLSEGLETVEDLAQR-1.0000     NotChecked  -11.8863    1886.9221   ✗       
+862   GVGLLSEGNESVQ+0.984DLAQR -1.0000     NotChecked  -11.8913    1871.9225   ✗       
+863   GDGLLSEGN+0.984ETVEDLAQR -1.0000     NotChecked  -11.8921    1902.8807   ✗       
+864   GGLLSEGNQ+0.984TVEDLAQR  -1.0000     NotChecked  -11.8930    1786.8697   ✗       
+865   +43.006VGLLSQ+0.984GNETVEDLAQR-1.0000     NotChecked  -11.8931    1871.9225   ✗       
+866   GN+0.984GLLSLGNETVEDLAQR -1.0000     NotChecked  -11.8978    1885.9381   ✗       
+867   +43.006VGLLSEGNETVEDLAAR -1.0000     NotChecked  -11.8979    1814.9010   ✗       
+868   SVGLVSEGNETVEDLAQR       -1.0000     NotChecked  -11.8981    1901.9330   ✗       
+869   GVGLLSEGLETVEDLAQR       -1.0000     NotChecked  -11.9019    1884.9793   ✗       
+870   SDGVLSEGNESVEDLAQR       -1.0000     NotChecked  -11.9055    1903.8759   ✗       
+871   GDGLLSEGNETLEDLAQR       -1.0000     NotChecked  -11.9073    1915.9123   ✗       
+872   SVGLLSEGNESVEDLAQR       -1.0000     NotChecked  -11.9088    1901.9330   ✗       
+873   GN+0.984GLLSEGNETVEDAAQR -1.0000     NotChecked  -11.9096    1859.8497   ✗       
+874   +43.006VGLLDEGNQ+0.984TVEDLAQR-1.0000     NotChecked  -11.9168    1899.9174   ✗       
+875   GN+0.984GLLSQ+0.984GNEVVEDLAQR-1.0000     NotChecked  -11.9171    1899.9174   ✗       
+876   DVLLSEGNETVEDLAQR        -1.0000     NotChecked  -11.9177    1886.9221   ✗       
+877   N+0.984GLLSEGDETVEDLAQR  -1.0000     NotChecked  -11.9198    1845.8592   ✗       
+878   N+0.984GLLSEGNETVEDLAQR  -1.0000     NotChecked  -11.9208    1844.8752   ✗       
+879   SVGLLSEGVETVEDLAQR       -1.0000     NotChecked  -11.9232    1900.9742   ✗       
+880   SSGLLSEGNDTVEDLAQR       -1.0000     NotChecked  -11.9247    1889.8967   ✗       
+881   +43.006DGELSEGNETVEDLAQR -1.0000     NotChecked  -11.9248    1903.8395   ✗       
+882   GNGLLSEGNETVEDLAQR       -1.0000     NotChecked  -11.9317    1900.9126   ✗       
+883   GGLLSEGNESVEDLAQR        -1.0000     NotChecked  -11.9320    1772.8541   ✗       
+884   GN+0.984GLLSEGNETVDDLAQR -1.0000     NotChecked  -11.9410    1887.8810   ✗       
+885   +43.006VGLLSEANETVEDLAQR -1.0000     NotChecked  -11.9415    1885.9381   ✗       
+886   MGLLSEGNETVEDLAQR        -1.0000     NotChecked  -11.9417    1860.8887   ✗       
+887   +43.006N+0.984GLLSENETVEDLAQR-1.0000     NotChecked  -11.9496    1830.8595   ✗       
+888   +43.006DGLLSEGNELVEDLAQR -1.0000     NotChecked  -11.9504    1899.9174   ✗       
+889   GN+0.984GLLSEGN+0.984ETVEDLAQR-1.0000     NotChecked  -11.9512    1902.8807   ✗       
+890   SNGLLEGNETVEDLAQR        -1.0000     NotChecked  -11.9556    1843.8912   ✗       
+891   +43.006VGLLDEGNESVEDLAQR -1.0000     NotChecked  -11.9558    1885.9017   ✗       
+892   N+0.984GLLSEGNQ+0.984VVEDLAQR-1.0000     NotChecked  -11.9572    1842.8959   ✗       
+893   GDGLLSEGNDTVEDLAQR       -1.0000     NotChecked  -11.9577    1887.8810   ✗       
+894   +43.006N+0.984LLSEGNQ+0.984TVEDLAQR-1.0000     NotChecked  -11.9616    1830.8595   ✗       
+895   +43.006VGLLSEGN+0.984Q+0.984TVEDLAQR-1.0000     NotChecked  -11.9635    1872.9065   ✗       
+896   GVGLLSENETVEDLAQR        -1.0000     NotChecked  -11.9652    1828.9167   ✗       
+897   VDLLSEGNETVEDLAQR        -1.0000     NotChecked  -11.9661    1886.9221   ✗       
+898   GN+0.984GLLSEGNETLEDLAQR -1.0000     NotChecked  -11.9663    1915.9123   ✗       
+899   GN+0.984GLLSEGNETVVDLAQR -1.0000     NotChecked  -11.9673    1871.9225   ✗       
+900   SVGLLSEGSETVEDLAQR       -1.0000     NotChecked  -11.9681    1888.9378   ✗       
+901   SVYLSEGNETVEDLAQR        -1.0000     NotChecked  -11.9692    1908.9065   ✗       
+902   SN+0.984GLLSEGNETVADLAQR -1.0000     NotChecked  -11.9771    1873.9017   ✗       
+903   GVLLSEGNQ+0.984TVEDLAQR  -1.0000     NotChecked  -11.9773    1828.9167   ✗       
+904   +43.006VGLLSEGNQ+0.984TLEDLAQR-1.0000     NotChecked  -11.9787    1885.9381   ✗       
+905   N+0.984GLLSEGNMTVEDLAQR  -1.0000     NotChecked  -11.9794    1846.8731   ✗       
+906   GN+0.984GVLSEGNQ+0.984TVEDLAQR-1.0000     NotChecked  -11.9840    1887.8810   ✗       
+907   SSGLLSEGDETVEDLAQR       -1.0000     NotChecked  -11.9892    1904.8963   ✗       
+908   DGLDSEGNETVEDLAQR        -1.0000     NotChecked  -11.9895    1846.8181   ✗       
+909   SSGLLSEGNETVEDLAQR       -1.0000     NotChecked  -11.9902    1903.9123   ✗       
+910   SN+0.984VLSEGNETVEDLAQR  -1.0000     NotChecked  -11.9922    1860.8701   ✗       
+911   SVGVLSEGN+0.984ETVEDLAQR -1.0000     NotChecked  -11.9940    1902.9171   ✗       
+912   N+0.984GLLSQ+0.984GNETVEDLAQR-1.0000     NotChecked  -11.9959    1844.8752   ✗       
+913   GGGLLSEGNETVQ+0.984DLAQR -1.0000     NotChecked  -11.9961    1843.8912   ✗       
+914   +43.006GGLLSEGNEVVEDLAQR -1.0000     NotChecked  -11.9982    1827.8963   ✗       
+915   +43.006N+0.984LLSEGNESVEDLAQR-1.0000     NotChecked  -12.0006    1816.8439   ✗       
+916   N+0.984GLLSEGNETVEDLAAR  -1.0000     NotChecked  -12.0007    1787.8537   ✗       
+917   SVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -12.0012    1915.9487   ✗       
+918   +43.006VGLLSEGN+0.984ESVEDLAQR-1.0000     NotChecked  -12.0025    1858.8909   ✗       
+919   GSGGLSEGNETVEDLAQR       -1.0000     NotChecked  -12.0059    1817.8391   ✗       
+920   SVGVLSEGNETLEDLAQR       -1.0000     NotChecked  -12.0092    1915.9487   ✗       
+921   SGGLLSEGNETVEDLAQR       -1.0000     NotChecked  -12.0136    1873.9017   ✗       
+922   SGSLLSEGNETVEDLAQR       -1.0000     NotChecked  -12.0138    1903.9123   ✗       
+923   GYGGLSEGNETVEDLAQR       -1.0000     NotChecked  -12.0138    1893.8704   ✗       
+924   GVLLSEGNESVEDLAQR        -1.0000     NotChecked  -12.0162    1814.9010   ✗       
+925   DGMLSEGNETVEDLAQR        -1.0000     NotChecked  -12.0175    1862.8316   ✗       
+926   +43.006VGLLSEGNESLEDLAQR -1.0000     NotChecked  -12.0177    1871.9225   ✗       
+927   +43.006VGLLSEGNETVEDLAQ+0.984R-1.0000     NotChecked  -12.0187    1872.9065   ✗       
+928   +43.006N+0.984GLLSQGNETVEDLAQR-1.0000     NotChecked  -12.0196    1886.8970   ✗       
+929   N+0.984GLLDEGNQ+0.984TVEDLAQR-1.0000     NotChecked  -12.0196    1872.8701   ✗       
+930   GDGLLSEGDETVEDLAQR       -1.0000     NotChecked  -12.0222    1902.8807   ✗       
+931   GN+0.984GVLSEGNESVEDLAQR -1.0000     NotChecked  -12.0230    1873.8654   ✗       
+932   GDGLLSEGNETVEDLAQR       -1.0000     NotChecked  -12.0232    1901.8967   ✗       
+933   SVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -12.0241    1915.9487   ✗       
+934   DGLLSEGNETVEDLAQR        -1.0000     NotChecked  -12.0258    1844.8752   ✗       
+935   GN+0.984GLLSQ+0.984GN+0.984ETVEDLAQR-1.0000     NotChecked  -12.0263    1902.8807   ✗       
+936   SSGLLSEGNQ+0.984VVEDLAQR -1.0000     NotChecked  -12.0265    1901.9331   ✗       
+937   GVGLLSQGNETVEDLAQR       -1.0000     NotChecked  -12.0352    1884.9541   ✗       
+938   SVGLLSEGNQ+0.984TVEDLAQR -1.0000     NotChecked  -12.0361    1915.9487   ✗       
+939   VSGLLSEGNETVEDLAQR       -1.0000     NotChecked  -12.0362    1915.9487   ✗       
+940   +43.006VGLLSEGNETVQ+0.984DLAQR-1.0000     NotChecked  -12.0363    1871.9225   ✗       
+941   GDGLLSEGNETVEDLAQR       -1.0000     NotChecked  -12.0390    1901.8967   ✗       
+942   GN+0.984GLLSQ+0.984GNETLEDLAQR-1.0000     NotChecked  -12.0414    1915.9123   ✗       
+943   N+0.984GLYSEGNETVEDLAQR  -1.0000     NotChecked  -12.0428    1894.8545   ✗       
+944   N+0.984GLLSEANETVEDLAQR  -1.0000     NotChecked  -12.0443    1858.8908   ✗       
+945   SN+0.984GLLSEGNETVEALAQR -1.0000     NotChecked  -12.0444    1887.9174   ✗       
+946   ADGLLSEGNETVEDLAQR       -1.0000     NotChecked  -12.0471    1915.9123   ✗       
+947   DGLLSEGNETVEDLAQR        -1.0000     NotChecked  -12.0486    1844.8752   ✗       
+948   SSGLLSEGNMTVEDLAQR       -1.0000     NotChecked  -12.0488    1905.9102   ✗       
+949   SNGLLSEGNDTVEDLAQR       -1.0000     Failed      -12.0517    1916.9076   ✓       
+950   +43.006N+0.984GLLSEGNETVEDLAR-1.0000     NotChecked  -12.0535    1759.8224   ✗       
+951   GN+0.984ALLSEGNQ+0.984TVEDLAQR-1.0000     NotChecked  -12.0548    1915.9123   ✗       
+952   N+0.984GLLDEGNESVEDLAQR  -1.0000     NotChecked  -12.0586    1858.8545   ✗       
+953   GDGLLSEGNQ+0.984VVEDLAQR -1.0000     NotChecked  -12.0596    1899.9174   ✗       
+954   VGGLLSEGNETVEDLAQR       -1.0000     NotChecked  -12.0600    1885.9381   ✗       
+955   GSGLLSEGNQTVEDLAQR       -1.0000     NotChecked  -12.0601    1872.9177   ✗       
+956   +43.006N+0.984GLLSDGNETVEDLAQR-1.0000     NotChecked  -12.0602    1873.8654   ✗       
+957   GN+0.984GLLSEGNEVVQ+0.984DLAQR-1.0000     NotChecked  -12.0603    1899.9174   ✗       
+958   +43.006GGLLDEGNETVEDLAQR -1.0000     NotChecked  -12.0606    1857.8704   ✗       
+959   SSGLLSQ+0.984GNETVEDLAQR -1.0000     NotChecked  -12.0653    1903.9123   ✗       
+960   N+0.984GLLSEGN+0.984Q+0.984TVEDLAQR-1.0000     NotChecked  -12.0663    1845.8592   ✗       
+961   SDLLSEGNEVVEDLAQR        -1.0000     NotChecked  -12.0677    1872.9065   ✗       
+962   GVGLLSEGNETVEDLAR        -1.0000     NotChecked  -12.0691    1757.8795   ✗       
+963   SSGLLSEGNETVEDLAAR       -1.0000     NotChecked  -12.0701    1846.8908   ✗       
+964   SVGGLSEGNQ+0.984TVEDLAQR -1.0000     NotChecked  -12.0711    1859.8861   ✗       
+965   +43.006N+0.984GLLSEGNETVEDLAQR-1.0000     NotChecked  -12.0713    1887.8810   ✗       
+966   ASGLLSEGNETVEDLAQR       -1.0000     NotChecked  -12.0726    1887.9174   ✗       
+967   SVGLLSEGNESVEDLAQR       -1.0000     NotChecked  -12.0751    1901.9330   ✗       
+968   GVGLLSDGNETVEDLAQR       -1.0000     NotChecked  -12.0758    1871.9225   ✗       
+969   +43.006VGLLSEGNETVEDLAQR -1.0000     NotChecked  -12.0809    1871.9225   ✗       
+970   N+0.984GLLSEGNQ+0.984TLEDLAQR-1.0000     NotChecked  -12.0815    1858.8908   ✗       
+971   GDGLLSEGNMTVEDLAQR       -1.0000     NotChecked  -12.0818    1903.8945   ✗       
+972   DGFLSEGNETVEDLAQR        -1.0000     NotChecked  -12.0820    1878.8595   ✗       
+973   VGLLSEGNETVEDLAQR        -1.0000     NotChecked  -12.0821    1828.9167   ✗       
+974   SGGLLN+0.984EGNETVEDLAQR -1.0000     NotChecked  -12.0856    1901.8967   ✗       
+975   GVGLLSEGNETVEDLAQR       -1.0000     NotChecked  -12.0869    1885.9381   ✗       
+976   GN+0.984GLLSEGNETTEDLAQR -1.0000     NotChecked  -12.0888    1903.8759   ✗       
+977   SVGLLSEGNVTVEDLAQR       -1.0000     NotChecked  -12.0909    1885.9745   ✗       
+978   GN+0.984GLLSEGNQ+0.984PVEDLAQR-1.0000     NotChecked  -12.0912    1897.9018   ✗       
+979   GN+0.984ALLSEGNESVEDLAQR -1.0000     NotChecked  -12.0938    1901.8967   ✗       
+980   +43.006VGLLSEGNQ+0.984TVEDLAQR-1.0000     NotChecked  -12.0946    1871.9225   ✗       
+981   GDGLLSQ+0.984GNETVEDLAQR -1.0000     NotChecked  -12.0983    1901.8967   ✗       
+982   SN+0.984LLSEGNEPVEDLAQR  -1.0000     NotChecked  -12.0994    1870.8909   ✗       
+983   SVGLLSEGN+0.984EPVEDLAQR -1.0000     NotChecked  -12.1012    1912.9378   ✗       
+984   GDGLLSEGNETVEDLAAR       -1.0000     NotChecked  -12.1031    1844.8752   ✗       
+985   SVGLLSEGPETVEDLAQR       -1.0000     NotChecked  -12.1036    1898.9585   ✗       
+986   GSVLLSEGNETVEDLAQR       -1.0000     NotChecked  -12.1046    1915.9487   ✗       
+987   GGGYLSEGNETVEDLAQR       -1.0000     NotChecked  -12.1049    1893.8704   ✗       
+988   N+0.984GLLSEGN+0.984ESVEDLAQR-1.0000     NotChecked  -12.1053    1831.8436   ✗       
+989   +43.006GGLLSEGN+0.984ETVEDLAQR-1.0000     NotChecked  -12.1073    1830.8595   ✗       
+990   +43.006VGLLSEGNETVEDLAKR -1.0000     NotChecked  -12.1099    1871.9589   ✗       
+991   SVGGLSEGNESVEDLAQR       -1.0000     NotChecked  -12.1101    1845.8704   ✗       
+992   LSGLLSEGNESVEDLAQR       -1.0000     NotChecked  -12.1139    1915.9487   ✗       
+993   LDLLSEGNETVEDLAQR        -1.0000     NotChecked  -12.1160    1900.9378   ✗       
+994   GN+0.984GLLSEGNETVEDLAQR -1.0000     NotChecked  -12.1166    1901.8967   ✗       
+995   N+0.984GLLSEGNESLEDLAQR  -1.0000     NotChecked  -12.1205    1844.8752   ✗       
+996   GGLLSEGNETVEDLAQR        -1.0000     NotChecked  -12.1211    1786.8697   ✗       
+997   SN+0.984GLLSEGNETVELAQR  -1.0000     NotChecked  -12.1213    1816.8803   ✗       
+998   N+0.984GLLSEGNETVEDLAQ+0.984R-1.0000     NotChecked  -12.1215    1845.8592   ✗       
+999   DLLLSEGNETVEDLAQR        -1.0000     NotChecked  -12.1216    1900.9378   ✗       
+1000  ADGLLSQ+0.984GNETVEDLAQR -1.0000     NotChecked  -12.1222    1915.9123   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: SVGLLSEGN+0.984ETVEDLAQR
+Similarity: 0.9254
+De Novo Score: -7.0263
+Source: Database
+Correct: ✓
+

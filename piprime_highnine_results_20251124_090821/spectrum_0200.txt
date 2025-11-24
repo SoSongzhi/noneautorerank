@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 200
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 462.9219
+Precursor charge: 3+
+Ground truth: YGFIEGHVVIPR
+Ground truth (normalized): YGFIEGHVVIPR
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 161
+Used for reranking: 161
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 161 (16.1%)
+Database matches: 122 (12.2%)
+Prosit predictions: 39 (3.9%)
+Failed: 0 (0.0%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.7140
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     YGFLEGHVVLPR             0.7140      Database    -0.4455     1385.7456   ✓       ✓
+2     YGFLEGHVVLPR             0.7140      Database    -1.7234     1385.7456   ✓       ✓
+3     YGFLEGHVVLPR             0.7140      Database    -2.1687     1385.7456   ✓       ✓
+4     YGFLEGHVVLPR             0.7140      Database    -3.4467     1385.7456   ✓       ✓
+5     YGFLEGHVVLPR             0.7140      Database    -4.6254     1385.7456   ✓       ✓
+6     YGFLEGHVVLPR             0.7140      Database    -5.6251     1385.7456   ✓       ✓
+7     YGFLEGHVVLPR             0.7140      Database    -5.9034     1385.7456   ✓       ✓
+8     YGFLEGHVVLPR             0.7140      Database    -6.3487     1385.7456   ✓       ✓
+9     YGFLEGHVVLPR             0.7140      Database    -6.6416     1385.7456   ✓       ✓
+10    YGFLEGHVVLPR             0.7140      Database    -6.9030     1385.7456   ✓       ✓
+11    YGFLEGHVVLPR             0.7140      Database    -7.3483     1385.7456   ✓       ✓
+12    YGFLEGHVVLPR             0.7140      Database    -7.6266     1385.7456   ✓       ✓
+13    YGFLEGHVVLPR             0.7140      Database    -7.9196     1385.7456   ✓       ✓
+14    YGFLEGHVVLPR             0.7140      Database    -8.3649     1385.7456   ✓       ✓
+15    YGFLEGHVVLPR             0.7140      Database    -8.6262     1385.7456   ✓       ✓
+16    YGFLEGHVVLPR             0.7140      Database    -9.3651     1385.7456   ✓       ✓
+17    YGFLEGHVVLPR             0.7140      Database    -9.6428     1385.7456   ✓       ✓
+18    YGFLEGHVVLPR             0.7140      Database    -9.6959     1385.7456   ✓       ✓
+19    YGFLEGHVVLPR             0.7140      Database    -9.8050     1385.7456   ✓       ✓
+20    YGFLEGHVVLPR             0.7140      Database    -10.4373    1385.7456   ✓       ✓
+21    YGFLEGHVVLPR             0.7140      Database    -10.6430    1385.7456   ✓       ✓
+22    YGFLEGHVVLPR             0.7140      Database    -10.8216    1385.7456   ✓       ✓
+23    YGFLEGHVVLPR             0.7140      Database    -10.8854    1385.7456   ✓       ✓
+24    YGFLEGHVVLPR             0.7140      Database    -10.9739    1385.7456   ✓       ✓
+25    YGFLEGHVVLPR             0.7140      Database    -11.0829    1385.7456   ✓       ✓
+26    YGFLEGHVVLPR             0.7140      Database    -11.0884    1385.7456   ✓       ✓
+27    YGFLEGHVVLPR             0.7140      Database    -11.1414    1385.7456   ✓       ✓
+28    YGFLEGHVVLPR             0.7140      Database    -11.3266    1385.7456   ✓       ✓
+29    YGFLEGHVVLPR             0.7140      Database    -11.5283    1385.7456   ✓       ✓
+30    YGFLEGHVVLPR             0.7140      Database    -11.7011    1385.7456   ✓       ✓
+31    YGFLEGHVVLPR             0.7140      Database    -11.7152    1385.7456   ✓       ✓
+32    YGFLEGHVVLPR             0.7140      Database    -11.8212    1385.7456   ✓       ✓
+33    YGFLEGHVVLPR             0.7140      Database    -11.8660    1385.7456   ✓       ✓
+34    YGFLEGHVVLPR             0.7140      Database    -12.0995    1385.7456   ✓       ✓
+35    YGFLEGHVVLPR             0.7140      Database    -12.1605    1385.7456   ✓       ✓
+36    YGFLEGHVVLPR             0.7140      Database    -12.1633    1385.7456   ✓       ✓
+37    YGFLEGHVVLPR             0.7140      Database    -12.2464    1385.7456   ✓       ✓
+38    YGFLEGHVVLPR             0.7140      Database    -12.3663    1385.7456   ✓       ✓
+39    YGFLEGHVVLPR             0.7140      Database    -12.4194    1385.7456   ✓       ✓
+40    YGFLEGHVVLPR             0.7140      Database    -12.5448    1385.7456   ✓       ✓
+41    YGFLEGHVVLPR             0.7140      Database    -12.6045    1385.7456   ✓       ✓
+42    YGFLEGHVVLPR             0.7140      Database    -12.6087    1385.7456   ✓       ✓
+43    YGFLEGHVVLPR             0.7140      Database    -12.8062    1385.7456   ✓       ✓
+44    YGFLEGHVVLPR             0.7140      Database    -12.8647    1385.7456   ✓       ✓
+45    YGFLEGHVVLPR             0.7140      Database    -12.9791    1385.7456   ✓       ✓
+46    YGFLEGHVVLPR             0.7140      Database    -13.0498    1385.7456   ✓       ✓
+47    YGFLEGHVVLPR             0.7140      Database    -13.0991    1385.7456   ✓       ✓
+48    YGFLEGHVVLPR             0.7140      Database    -13.1120    1385.7456   ✓       ✓
+49    YGFLEGHVVLPR             0.7140      Database    -13.1440    1385.7456   ✓       ✓
+50    YGFLEGHVVLPR             0.7140      Database    -13.3586    1385.7456   ✓       ✓
+51    YGFLEGHVVLPR             0.7140      Database    -13.4384    1385.7456   ✓       ✓
+52    YGFLEGHVVLPR             0.7140      Database    -13.4882    1385.7456   ✓       ✓
+53    YGFLEGHVVLPR             0.7140      Database    -13.5445    1385.7456   ✓       ✓
+54    YGFLEGHVVLPR             0.7140      Database    -13.5451    1385.7456   ✓       ✓
+55    YGFLEGHVVLPR             0.7140      Database    -13.5893    1385.7456   ✓       ✓
+56    YGFLEGHVVLPR             0.7140      Database    -13.6165    1385.7456   ✓       ✓
+57    YGFLEGHVVLPR             0.7140      Database    -13.8228    1385.7456   ✓       ✓
+58    YGFLEGHVVLPR             0.7140      Database    -13.8759    1385.7456   ✓       ✓
+59    YGFLEGHVVLPR             0.7140      Database    -13.8866    1385.7456   ✓       ✓
+60    YGFLEGHVVLPR             0.7140      Database    -13.9697    1385.7456   ✓       ✓
+61    YGFLEGHVVLPR             0.7140      Database    -14.0537    1385.7456   ✓       ✓
+62    YGFLEGHVVLPR             0.7140      Database    -14.1426    1385.7456   ✓       ✓
+63    YGFLEGHVVLPR             0.7140      Database    -14.3278    1385.7456   ✓       ✓
+64    YGFLEGHVVLPR             0.7140      Database    -14.3551    1385.7456   ✓       ✓
+65    YGFLEGHVVLPR             0.7140      Database    -14.3899    1385.7456   ✓       ✓
+66    YGFLEGHVVLPR             0.7140      Database    -14.5447    1385.7456   ✓       ✓
+67    YGFLEGHVVLPR             0.7140      Database    -14.6172    1385.7456   ✓       ✓
+68    YGFLEGHVVLPR             0.7140      Database    -14.6365    1385.7456   ✓       ✓
+69    YGFLEGHVVLPR             0.7140      Database    -14.7661    1385.7456   ✓       ✓
+70    YGFLEGHVVLPR             0.7140      Database    -14.7838    1385.7456   ✓       ✓
+71    YGFLEGHVVLPR             0.7140      Database    -14.8224    1385.7456   ✓       ✓
+72    YGFLEGHVVLPR             0.7140      Database    -14.8230    1385.7456   ✓       ✓
+73    YGFLEGHVVLPR             0.7140      Database    -14.8352    1385.7456   ✓       ✓
+74    YGFLEGHVVLPR             0.7140      Database    -14.8672    1385.7456   ✓       ✓
+75    YGFLEGHVVLPR             0.7140      Database    -14.8755    1385.7456   ✓       ✓
+76    YGFLEGHVVLPR             0.7140      Database    -14.8944    1385.7456   ✓       ✓
+77    YGFLEGHVVLPR             0.7140      Database    -15.0654    1385.7456   ✓       ✓
+78    YGFLEGHVVLPR             0.7140      Database    -15.0818    1385.7456   ✓       ✓
+79    YGFLEGHVVLPR             0.7140      Database    -15.1538    1385.7456   ✓       ✓
+80    YGFLEGHVVLPR             0.7140      Database    -15.2114    1385.7456   ✓       ✓
+81    YGFLEGHVVLPR             0.7140      Database    -15.2683    1385.7456   ✓       ✓
+82    YGFLEGHVVLPR             0.7140      Database    -15.3214    1385.7456   ✓       ✓
+83    YGFLEGHVVLPR             0.7140      Database    -15.3316    1385.7456   ✓       ✓
+84    YGFLEGHVVLPR             0.7140      Database    -15.3397    1385.7456   ✓       ✓
+85    YGFLEGHVVLPR             0.7140      Database    -15.5066    1385.7456   ✓       ✓
+86    YGFLEGHVVLPR             0.7140      Database    -15.5613    1385.7456   ✓       ✓
+87    YGFLEGHVVLPR             0.7140      Database    -15.6168    1385.7456   ✓       ✓
+88    YGFLEGHVVLPR             0.7140      Database    -15.6331    1385.7456   ✓       ✓
+89    YGFLEGHVVLPR             0.7140      Database    -15.7307    1385.7456   ✓       ✓
+90    YGFLEGHVVLPR             0.7140      Database    -15.7769    1385.7456   ✓       ✓
+91    YGFLEGHVVLPR             0.7140      Database    -15.8226    1385.7456   ✓       ✓
+92    YGFLEGHVVLPR             0.7140      Database    -15.8811    1385.7456   ✓       ✓
+93    YGFLEGHVVLPR             0.7140      Database    -15.8921    1385.7456   ✓       ✓
+94    YGFLEGHVVLPR             0.7140      Database    -15.8951    1385.7456   ✓       ✓
+95    YGFLEGHVVLPR             0.7140      Database    -16.0012    1385.7456   ✓       ✓
+96    YGFLEGHVVLPR             0.7140      Database    -16.0460    1385.7456   ✓       ✓
+97    YGFLEGHVVLPR             0.7140      Database    -16.0617    1385.7456   ✓       ✓
+98    YGFLEGHVVLPR             0.7140      Database    -16.0650    1385.7456   ✓       ✓
+99    YGFLEGHVVLPR             0.7140      Database    -16.0784    1385.7456   ✓       ✓
+100   YGFLEGHVVLPR             0.7140      Database    -16.1131    1385.7456   ✓       ✓
+101   YGFLEGHVVLPR             0.7140      Database    -16.1534    1385.7456   ✓       ✓
+102   YGFLEGHVVLPR             0.7140      Database    -16.2680    1385.7456   ✓       ✓
+103   YGFLEGHVVLPR             0.7140      Database    -16.3405    1385.7456   ✓       ✓
+104   YGFLEGHVVLPR             0.7140      Database    -16.3433    1385.7456   ✓       ✓
+105   YGFLEGHVVLPR             0.7140      Database    -16.3597    1385.7456   ✓       ✓
+106   YGFLEGHVVLPR             0.7140      Database    -16.4264    1385.7456   ✓       ✓
+107   YGFLEGHVVLPR             0.7140      Database    -16.4893    1385.7456   ✓       ✓
+108   YGFLEGHVVLPR             0.7140      Database    -16.5062    1385.7456   ✓       ✓
+109   YGFLEGHVVLPR             0.7140      Database    -16.5070    1385.7456   ✓       ✓
+110   YGFLEGHVVLPR             0.7140      Database    -16.5462    1385.7456   ✓       ✓
+111   YGFLEGHVVLPR             0.7140      Database    -16.5993    1385.7456   ✓       ✓
+112   YGFLEGHVVLPR             0.7140      Database    -16.6176    1385.7456   ✓       ✓
+113   YGFLEGHVVLPR             0.7140      Database    -16.6334    1385.7456   ✓       ✓
+114   YGFLEGHVVLPR             0.7140      Database    -16.7845    1385.7456   ✓       ✓
+115   YGFLEGHVVLPR             0.7140      Database    -16.7886    1385.7456   ✓       ✓
+116   YGFLEGHVVLPR             0.7140      Database    -16.8392    1385.7456   ✓       ✓
+117   YGFLEGHVVLPR             0.7140      Database    -16.8807    1385.7456   ✓       ✓
+118   YGFLEGHVVLPR             0.7140      Database    -16.8948    1385.7456   ✓       ✓
+119   YGFLEGHVVLPR             0.7140      Database    -18.1570    1385.7456   ✓       ✓
+120   YGFLEGHVVLPR             0.7140      Database    -19.4350    1385.7456   ✓       ✓
+121   YGFLEGHVVLPR             0.7140      Database    -19.8803    1385.7456   ✓       ✓
+122   YGFLEGHVVLPR             0.7140      Database    -21.1582    1385.7456   ✓       ✓
+123   YGFLEGHVVLRP             0.4668      Prosit      -15.9386    1385.7456   ✓       
+124   YGFLQ+0.984GHVVLPR       0.4545      Prosit      -5.3161     1385.7456   ✓       
+125   YGFLQ+0.984GHVVLPR       0.4545      Prosit      -6.5940     1385.7456   ✓       
+126   YGFLQ+0.984GHVVLPR       0.4545      Prosit      -7.0393     1385.7456   ✓       
+127   YGFLQ+0.984GHVVLPR       0.4545      Prosit      -8.3173     1385.7456   ✓       
+128   YGFLQ+0.984GHVVLPR       0.4545      Prosit      -9.4960     1385.7456   ✓       
+129   YGFLQ+0.984GHVVLPR       0.4545      Prosit      -10.4957    1385.7456   ✓       
+130   YGFLQ+0.984GHVVLPR       0.4545      Prosit      -10.7740    1385.7456   ✓       
+131   YGFLQ+0.984GHVVLPR       0.4545      Prosit      -11.2193    1385.7456   ✓       
+132   YGFLQ+0.984GHVVLPR       0.4545      Prosit      -11.5122    1385.7456   ✓       
+133   YGFLQ+0.984GHVVLPR       0.4545      Prosit      -11.7736    1385.7456   ✓       
+134   YGFLQ+0.984GHVVLPR       0.4545      Prosit      -12.2189    1385.7456   ✓       
+135   YGFLQ+0.984GHVVLPR       0.4545      Prosit      -12.4972    1385.7456   ✓       
+136   YGFLQ+0.984GHVVLPR       0.4545      Prosit      -12.7902    1385.7456   ✓       
+137   YGFLQ+0.984GHVVLPR       0.4545      Prosit      -13.2355    1385.7456   ✓       
+138   YGFLQ+0.984GHVVLPR       0.4545      Prosit      -13.4968    1385.7456   ✓       
+139   YGFLQ+0.984GHVVLPR       0.4545      Prosit      -14.2357    1385.7456   ✓       
+140   YGFLQ+0.984GHVVLPR       0.4545      Prosit      -14.5134    1385.7456   ✓       
+141   YGFLQ+0.984GHVVLPR       0.4545      Prosit      -14.5665    1385.7456   ✓       
+142   YGFLQ+0.984GHVVLPR       0.4545      Prosit      -14.6756    1385.7456   ✓       
+143   YGFLQ+0.984GHVVLPR       0.4545      Prosit      -15.3079    1385.7456   ✓       
+144   YGFLQ+0.984GHVVLPR       0.4545      Prosit      -15.5136    1385.7456   ✓       
+145   YGFLQ+0.984GHVVLPR       0.4545      Prosit      -15.6922    1385.7456   ✓       
+146   YGFLQ+0.984GHVVLPR       0.4545      Prosit      -15.7560    1385.7456   ✓       
+147   YGFLQ+0.984GHVVLPR       0.4545      Prosit      -15.8445    1385.7456   ✓       
+148   YGFLQ+0.984GHVVLPR       0.4545      Prosit      -15.9535    1385.7456   ✓       
+149   YGFLQ+0.984GHVVLPR       0.4545      Prosit      -15.9590    1385.7456   ✓       
+150   YGFLQ+0.984GHVVLPR       0.4545      Prosit      -16.0120    1385.7456   ✓       
+151   YGFLQ+0.984GHVVLPR       0.4545      Prosit      -16.1972    1385.7456   ✓       
+152   YGFLQ+0.984GHVVLPR       0.4545      Prosit      -16.3989    1385.7456   ✓       
+153   YGFLQ+0.984GHVVLPR       0.4545      Prosit      -16.5717    1385.7456   ✓       
+154   YGFLQ+0.984GHVVLPR       0.4545      Prosit      -16.5858    1385.7456   ✓       
+155   YGFLQ+0.984GHVVLPR       0.4545      Prosit      -16.6918    1385.7456   ✓       
+156   YGM+15.995LEGHVVLPR      0.4440      Prosit      -12.0324    1385.7126   ✓       
+157   YGM+15.995LEGHVVLPR      0.4440      Prosit      -13.3103    1385.7126   ✓       
+158   YGM+15.995LEGHVVLPR      0.4440      Prosit      -13.7556    1385.7126   ✓       
+159   YGM+15.995LEGHVVLPR      0.4440      Prosit      -15.0335    1385.7126   ✓       
+160   YGM+15.995LEGHVVLPR      0.4440      Prosit      -16.2123    1385.7126   ✓       
+161   YGFLEGHVLVPR             0.4263      Prosit      -16.4539    1385.7456   ✓       
+162   YGFLEGHVVLR              -1.0000     NotChecked  -7.9727     1288.6928   ✗       
+163   YGFLEGHVVLP              -1.0000     NotChecked  -8.4114     1229.6445   ✗       
+164   YGFLEGHVVVPR             -1.0000     NotChecked  -8.6279     1371.7299   ✗       
+165   YGFLEGHVSLPR             -1.0000     NotChecked  -8.7476     1373.7092   ✗       
+166   YGFLEGHVVLPG             -1.0000     NotChecked  -8.8435     1286.6659   ✗       
+167   YGFLEGHVVLR              -1.0000     NotChecked  -9.2506     1288.6928   ✗       
+168   YGFLEGHVVPPR             -1.0000     NotChecked  -9.3818     1369.7143   ✗       
+169   YGFLEGHVVGPR             -1.0000     NotChecked  -9.5414     1329.6830   ✗       
+170   YGFLEGHVVLP              -1.0000     NotChecked  -9.6893     1229.6445   ✗       
+171   YGFLEGHVVLGR             -1.0000     NotChecked  -9.7042     1345.7143   ✗       
+172   YGFLEGHVVLPV             -1.0000     NotChecked  -9.7973     1328.7129   ✗       
+173   YGFLEGHVVLPL             -1.0000     NotChecked  -9.8079     1342.7285   ✗       
+174   YGFLEGHVVLPK             -1.0000     NotChecked  -9.8851     1357.7394   ✗       
+175   YGFLEGHVVVPR             -1.0000     NotChecked  -9.9058     1371.7299   ✗       
+176   YGFLEGHVSLPR             -1.0000     NotChecked  -10.0255    1373.7092   ✗       
+177   YGFLEGHVVTPR             -1.0000     NotChecked  -10.0740    1373.7092   ✗       
+178   YGFLQGHVVLPR             -1.0000     NotChecked  -10.0842    1384.7616   ✗       
+179   YGFLEGHVVLPG             -1.0000     NotChecked  -10.1215    1286.6659   ✗       
+180   YGFLEGHVVLP              -1.0000     NotChecked  -10.1347    1229.6445   ✗       
+181   YGFLEHVVLPR              -1.0000     NotChecked  -10.1752    1328.7241   ✗       
+182   +42.011GFLEGHVVLPR       -1.0000     NotChecked  -10.3510    1264.6928   ✗       
+183   YGFLEGHVVVPR             -1.0000     NotChecked  -10.3512    1371.7299   ✗       
+184   YGFLEGHVSLPR             -1.0000     NotChecked  -10.4709    1373.7092   ✗       
+185   YGFLEGHVVLPG             -1.0000     NotChecked  -10.5668    1286.6659   ✗       
+186   YGFLEGHVVPPR             -1.0000     NotChecked  -10.6598    1369.7143   ✗       
+187   YGFLEGHVVGPR             -1.0000     NotChecked  -10.8194    1329.6830   ✗       
+188   YFLEGHVVLPR              -1.0000     NotChecked  -10.9685    1328.7241   ✗       
+189   YGFLEGHVVLGR             -1.0000     NotChecked  -10.9821    1345.7143   ✗       
+190   YGFLEGHVVLPV             -1.0000     NotChecked  -11.0752    1328.7129   ✗       
+191   YGFLEGHVVLPL             -1.0000     NotChecked  -11.0858    1342.7285   ✗       
+192   YGFLEGHVVPR              -1.0000     NotChecked  -11.1051    1272.6615   ✗       
+193   YGFLEGHVVLPK             -1.0000     NotChecked  -11.1630    1357.7394   ✗       
+194   +43.006GFLEGHVVLPR       -1.0000     NotChecked  -11.2304    1265.6881   ✗       
+195   YGFLKGHVVLPR             -1.0000     NotChecked  -11.2337    1384.7979   ✗       
+196   YGFLEGHVGLPR             -1.0000     NotChecked  -11.2446    1343.6986   ✗       
+197   YGFLEGHVVGPR             -1.0000     NotChecked  -11.2647    1329.6830   ✗       
+198   YGFLEGKVVLPR             -1.0000     NotChecked  -11.3064    1376.7816   ✗       
+199   KGFLEGHVVLPR             -1.0000     NotChecked  -11.3252    1350.7772   ✗       
+200   YGFLEGHVPLPR             -1.0000     NotChecked  -11.3326    1383.7299   ✗       
+201   YGFLEGHVVTPR             -1.0000     NotChecked  -11.3519    1373.7092   ✗       
+202   YGFLDGHVVLPR             -1.0000     NotChecked  -11.3524    1371.7299   ✗       
+203   YGFLQGHVVLPR             -1.0000     NotChecked  -11.3622    1384.7616   ✗       
+204   YGFLEGHVVLP              -1.0000     NotChecked  -11.4126    1229.6445   ✗       
+205   YGFLAGHVVLPR             -1.0000     NotChecked  -11.4472    1327.7401   ✗       
+206   YGFLEHVVLPR              -1.0000     NotChecked  -11.4531    1328.7241   ✗       
+207   YGLLEGHVVLPR             -1.0000     NotChecked  -11.4661    1351.7612   ✗       
+208   YGFLEGHSVLPR             -1.0000     NotChecked  -11.4948    1373.7092   ✗       
+209   YGFLEGHVVLPV             -1.0000     NotChecked  -11.5205    1328.7129   ✗       
+210   YGFLEGHVVLPT             -1.0000     NotChecked  -11.5229    1330.6921   ✗       
+211   YGFLEGHVVLPL             -1.0000     NotChecked  -11.5311    1342.7285   ✗       
+212   YGFLEGHGVLPR             -1.0000     NotChecked  -11.5525    1343.6986   ✗       
+213   YGFLLGHVVLPR             -1.0000     NotChecked  -11.5585    1369.7870   ✗       
+214   YGFLEGHVVLPK             -1.0000     NotChecked  -11.6083    1357.7394   ✗       
+215   HGFLEGHVVLPR             -1.0000     NotChecked  -11.6224    1359.7412   ✗       
+216   +42.011GFLEGHVVLPR       -1.0000     NotChecked  -11.6289    1264.6928   ✗       
+217   YGFLEGHVVVPR             -1.0000     NotChecked  -11.6291    1371.7299   ✗       
+218   YGFLEGHVVLPQ             -1.0000     NotChecked  -11.6979    1357.7030   ✗       
+219   YGFLEGHVVAPR             -1.0000     NotChecked  -11.7297    1343.6986   ✗       
+220   YGFLEGHVSLPR             -1.0000     NotChecked  -11.7488    1373.7092   ✗       
+221   YGFLEGHVVTPR             -1.0000     NotChecked  -11.7973    1373.7092   ✗       
+222   YGFLQGHVVLPR             -1.0000     NotChecked  -11.8075    1384.7616   ✗       
+223   YGFLEGHVVLPS             -1.0000     NotChecked  -11.8227    1316.6765   ✗       
+224   YGFLNGHVVLPR             -1.0000     NotChecked  -11.8371    1370.7459   ✗       
+225   YGFLEGHVVLPG             -1.0000     NotChecked  -11.8447    1286.6659   ✗       
+226   YGFLEHVVLPR              -1.0000     NotChecked  -11.8984    1328.7241   ✗       
+227   YGFLEGHVLPR              -1.0000     NotChecked  -12.0069    1286.6772   ✗       
+228   YGFLEGHVVLPN             -1.0000     NotChecked  -12.0275    1343.6874   ✗       
+229   YGFLEGHVVLSR             -1.0000     NotChecked  -12.0283    1375.7248   ✗       
+230   YGFLEGHVALPR             -1.0000     NotChecked  -12.0353    1357.7143   ✗       
+231   +42.011GFLEGHVVLPR       -1.0000     NotChecked  -12.0743    1264.6928   ✗       
+232   YGFLEGHVLPR              -1.0000     NotChecked  -12.0974    1286.6772   ✗       
+233   YGFLEGHAVLPR             -1.0000     NotChecked  -12.1257    1357.7143   ✗       
+234   YGFLEGHVVLR              -1.0000     NotChecked  -12.1527    1288.6928   ✗       
+235   YGFVEGHVVLPR             -1.0000     NotChecked  -12.2082    1371.7299   ✗       
+236   YGPLEGHVVLPR             -1.0000     NotChecked  -12.3286    1335.7299   ✗       
+237   RGFLEGHVVLPR             -1.0000     NotChecked  -12.3469    1378.7834   ✗       
+238   YGFLEGHPVLPR             -1.0000     NotChecked  -12.3805    1383.7299   ✗       
+239   YGFLEGHVVPR              -1.0000     NotChecked  -12.3830    1272.6615   ✗       
+240   YGHLEGHVVLPR             -1.0000     NotChecked  -12.4934    1375.7361   ✗       
+241   +43.006GFLEGHVVLPR       -1.0000     NotChecked  -12.5083    1265.6881   ✗       
+242   YGFLKGHVVLPR             -1.0000     NotChecked  -12.5116    1384.7979   ✗       
+243   YGFLEGHVGLPR             -1.0000     NotChecked  -12.5226    1343.6986   ✗       
+244   YGFLEGHVVGPR             -1.0000     NotChecked  -12.5426    1329.6830   ✗       
+245   YGMLEGHVVLPR             -1.0000     NotChecked  -12.5539    1369.7176   ✗       
+246   YGFLEGKVVLPR             -1.0000     NotChecked  -12.5844    1376.7816   ✗       
+247   YGFLEGHVVLP              -1.0000     NotChecked  -12.5914    1229.6445   ✗       
+248   KGFLEGHVVLPR             -1.0000     NotChecked  -12.6031    1350.7772   ✗       
+249   YGFLEGHVPLPR             -1.0000     NotChecked  -12.6105    1383.7299   ✗       
+250   YGFLDGHVVLPR             -1.0000     NotChecked  -12.6303    1371.7299   ✗       
+251   YGFLEGHVVPR              -1.0000     NotChecked  -12.6629    1272.6615   ✗       
+252   YFLEGHVVLPR              -1.0000     NotChecked  -12.6917    1328.7241   ✗       
+253   YGFLAGHVVLPR             -1.0000     NotChecked  -12.7251    1327.7401   ✗       
+254   YGLLEGHVVLPR             -1.0000     NotChecked  -12.7440    1351.7612   ✗       
+255   YGFLEGHSVLPR             -1.0000     NotChecked  -12.7727    1373.7092   ✗       
+256   LGFLEGHVVLPR             -1.0000     NotChecked  -12.7743    1335.7663   ✗       
+257   YGFLEGHVVLPV             -1.0000     NotChecked  -12.7984    1328.7129   ✗       
+258   YGFLEGHVVLPT             -1.0000     NotChecked  -12.8008    1330.6921   ✗       
+259   YGFLEGHVVVPR             -1.0000     NotChecked  -12.8079    1371.7299   ✗       
+260   YGFLEGHVVLPL             -1.0000     NotChecked  -12.8091    1342.7285   ✗       
+261   YGFLEGHGVLPR             -1.0000     NotChecked  -12.8305    1343.6986   ✗       
+262   YGFLLGHVVLPR             -1.0000     NotChecked  -12.8364    1369.7870   ✗       
+263   YGFLQ+0.984GHVVLR        -1.0000     NotChecked  -12.8433    1288.6928   ✗       
+264   YGFLEGHVVLPK             -1.0000     NotChecked  -12.8863    1357.7394   ✗       
+265   YGFLEGHVVSPR             -1.0000     NotChecked  -12.8923    1359.6935   ✗       
+266   HGFLEGHVVLPR             -1.0000     NotChecked  -12.9003    1359.7412   ✗       
+267   YGFLEGHVSLPR             -1.0000     NotChecked  -12.9276    1373.7092   ✗       
+268   +43.006GFLEGHVVLPR       -1.0000     NotChecked  -12.9536    1265.6881   ✗       
+269   YGFLKGHVVLPR             -1.0000     NotChecked  -12.9569    1384.7979   ✗       
+270   YGSLEGHVVLPR             -1.0000     NotChecked  -12.9619    1325.7092   ✗       
+271   YGFLEGHVVLAR             -1.0000     NotChecked  -12.9668    1359.7299   ✗       
+272   YGFLEGHVGLPR             -1.0000     NotChecked  -12.9679    1343.6986   ✗       
+273   YGFLEGHVVLPQ             -1.0000     NotChecked  -12.9759    1357.7030   ✗       
+274   GFLEGHVVLPR              -1.0000     NotChecked  -12.9775    1222.6822   ✗       
+275   YGQLEGHVVLPR             -1.0000     NotChecked  -12.9945    1366.7357   ✗       
+276   YGFLEGHVVAPR             -1.0000     NotChecked  -13.0076    1343.6986   ✗       
+277   YGFLEGHVVLPG             -1.0000     NotChecked  -13.0235    1286.6659   ✗       
+278   YGFLEGKVVLPR             -1.0000     NotChecked  -13.0297    1376.7816   ✗       
+279   KGFLEGHVVLPR             -1.0000     NotChecked  -13.0484    1350.7772   ✗       
+280   YGFLEGHVPLPR             -1.0000     NotChecked  -13.0559    1383.7299   ✗       
+281   YGFLEGHVVTPR             -1.0000     NotChecked  -13.0752    1373.7092   ✗       
+282   YGFLDGHVVLPR             -1.0000     NotChecked  -13.0756    1371.7299   ✗       
+283   YGFLQGHVVLPR             -1.0000     NotChecked  -13.0854    1384.7616   ✗       
+284   YGFLEGHVVLPS             -1.0000     NotChecked  -13.1006    1316.6765   ✗       
+285   YGFLNGHVVLPR             -1.0000     NotChecked  -13.1150    1370.7459   ✗       
+286   YGFAEGHVVLPR             -1.0000     NotChecked  -13.1420    1343.6986   ✗       
+287   YGFLEGHVVLR              -1.0000     NotChecked  -13.1523    1288.6928   ✗       
+288   YGFLAGHVVLPR             -1.0000     NotChecked  -13.1704    1327.7401   ✗       
+289   YGFLEHVVLPR              -1.0000     NotChecked  -13.1763    1328.7241   ✗       
+290   YGLLEGHVVLPR             -1.0000     NotChecked  -13.1894    1351.7612   ✗       
+291   VGFLEGHVVLPR             -1.0000     NotChecked  -13.2071    1321.7507   ✗       
+292   YGFLEGHSVLPR             -1.0000     NotChecked  -13.2180    1373.7092   ✗       
+293   YGFLEGHVVLPT             -1.0000     NotChecked  -13.2461    1330.6921   ✗       
+294   YGFLEGHGVLPR             -1.0000     NotChecked  -13.2758    1343.6986   ✗       
+295   MGFLEGHVVLPR             -1.0000     NotChecked  -13.2772    1353.7227   ✗       
+296   YGFLLGHVVLPR             -1.0000     NotChecked  -13.2817    1369.7870   ✗       
+297   YGFLQ+0.984GHVVLP        -1.0000     NotChecked  -13.2820    1229.6445   ✗       
+298   YGFLEGHVLPR              -1.0000     NotChecked  -13.2848    1286.6772   ✗       
+299   YGFLEGHVVLPN             -1.0000     NotChecked  -13.3055    1343.6874   ✗       
+300   YGFLEGHVVLSR             -1.0000     NotChecked  -13.3062    1375.7248   ✗       
+301   YGFLEGLVVLPR             -1.0000     NotChecked  -13.3118    1361.7707   ✗       
+302   YGFLEGHVALPR             -1.0000     NotChecked  -13.3132    1357.7143   ✗       
+303   HGFLEGHVVLPR             -1.0000     NotChecked  -13.3456    1359.7412   ✗       
+304   +42.011GFLEGHVVLPR       -1.0000     NotChecked  -13.3522    1264.6928   ✗       
+305   YGFLEGHVLPR              -1.0000     NotChecked  -13.3754    1286.6772   ✗       
+306   YGFLEGHAVLPR             -1.0000     NotChecked  -13.4036    1357.7143   ✗       
+307   YGFLEGHVVLPQ             -1.0000     NotChecked  -13.4212    1357.7030   ✗       
+308   YGFLEGHVVLR              -1.0000     NotChecked  -13.4306    1288.6928   ✗       
+309   YGFLEGHVVAPR             -1.0000     NotChecked  -13.4530    1343.6986   ✗       
+310   YGFVEGHVVLPR             -1.0000     NotChecked  -13.4861    1371.7299   ✗       
+311   YGFLQ+0.984GHVVVPR       -1.0000     NotChecked  -13.4985    1371.7299   ✗       
+312   YGFLEGHVVLPS             -1.0000     NotChecked  -13.5459    1316.6765   ✗       
+313   YGFLNGHVVLPR             -1.0000     NotChecked  -13.5604    1370.7459   ✗       
+314   YGFLEGHVVPPR             -1.0000     NotChecked  -13.5618    1369.7143   ✗       
+315   YGFLEGTVVLPR             -1.0000     NotChecked  -13.5681    1349.7343   ✗       
+316   YGFLEGHVVLP              -1.0000     NotChecked  -13.5910    1229.6445   ✗       
+317   YGPLEGHVVLPR             -1.0000     NotChecked  -13.6065    1335.7299   ✗       
+318   YGFLQ+0.984GHVSLPR       -1.0000     NotChecked  -13.6182    1373.7092   ✗       
+319   RGFLEGHVVLPR             -1.0000     NotChecked  -13.6248    1378.7834   ✗       
+320   YGFLEGHPVLPR             -1.0000     NotChecked  -13.6585    1383.7299   ✗       
+321   YGFLEGEVVLPR             -1.0000     NotChecked  -13.6646    1377.7293   ✗       
+322   YGFLQ+0.984GHVVLPG       -1.0000     NotChecked  -13.7141    1286.6659   ✗       
+323   YGFLEGHVVGPR             -1.0000     NotChecked  -13.7214    1329.6830   ✗       
+324   YGFLEGHVLPR              -1.0000     NotChecked  -13.7301    1286.6772   ✗       
+325   YGFLEGHVVLPN             -1.0000     NotChecked  -13.7508    1343.6874   ✗       
+326   YGFLEGGVVLPR             -1.0000     NotChecked  -13.7528    1305.7081   ✗       
+327   YGFLEGHVALPR             -1.0000     NotChecked  -13.7586    1357.7143   ✗       
+328   YGHLEGHVVLPR             -1.0000     NotChecked  -13.7713    1375.7361   ✗       
+329   YGFLEGPVVLPR             -1.0000     NotChecked  -13.7814    1345.7394   ✗       
+330   YGFLEGHVVVPR             -1.0000     NotChecked  -13.8075    1371.7299   ✗       
+331   YGFLEGHVLPR              -1.0000     NotChecked  -13.8207    1286.6772   ✗       
+332   YGMLEGHVVLPR             -1.0000     NotChecked  -13.8318    1369.7176   ✗       
+333   YGFLEGHAVLPR             -1.0000     NotChecked  -13.8489    1357.7143   ✗       
+334   YGFLEGHVVLP              -1.0000     NotChecked  -13.8693    1229.6445   ✗       
+335   YGFLEGHVVLGR             -1.0000     NotChecked  -13.8842    1345.7143   ✗       
+336   YGFLEGHVSLPR             -1.0000     NotChecked  -13.9272    1373.7092   ✗       
+337   YGFVEGHVVLPR             -1.0000     NotChecked  -13.9314    1371.7299   ✗       
+338   YGFLEGHVVPR              -1.0000     NotChecked  -13.9408    1272.6615   ✗       
+339   YGFLEGHVVLPV             -1.0000     NotChecked  -13.9772    1328.7129   ✗       
+340   YGFLEGHVVLPL             -1.0000     NotChecked  -13.9879    1342.7285   ✗       
+341   YGFLEGHVVLPG             -1.0000     NotChecked  -14.0231    1286.6659   ✗       
+342   YGPLEGHVVLPR             -1.0000     NotChecked  -14.0518    1335.7299   ✗       
+343   LGFLEGHVVLPR             -1.0000     NotChecked  -14.0522    1335.7663   ✗       
+344   YGFLEGHVVLPK             -1.0000     NotChecked  -14.0651    1357.7394   ✗       
+345   RGFLEGHVVLPR             -1.0000     NotChecked  -14.0701    1378.7834   ✗       
+346   YGFLEGHVVVPR             -1.0000     NotChecked  -14.0858    1371.7299   ✗       
+347   YGFLEGHPVLPR             -1.0000     NotChecked  -14.1038    1383.7299   ✗       
+348   YGFLQ+0.984GHVVLR        -1.0000     NotChecked  -14.1212    1288.6928   ✗       
+349   YGFLEGHVVLR              -1.0000     NotChecked  -14.1689    1288.6928   ✗       
+350   YGFLEGHVVSPR             -1.0000     NotChecked  -14.1702    1359.6935   ✗       
+351   YGFLEGHVSLPR             -1.0000     NotChecked  -14.2055    1373.7092   ✗       
+352   YGHLEGHVVLPR             -1.0000     NotChecked  -14.2167    1375.7361   ✗       
+353   +43.006GFLEGHVVLPR       -1.0000     NotChecked  -14.2315    1265.6881   ✗       
+354   YGFLKGHVVLPR             -1.0000     NotChecked  -14.2348    1384.7979   ✗       
+355   YGSLEGHVVLPR             -1.0000     NotChecked  -14.2398    1325.7092   ✗       
+356   YGFLEGHVVLAR             -1.0000     NotChecked  -14.2447    1359.7299   ✗       
+357   YGFLEGHVGLPR             -1.0000     NotChecked  -14.2458    1343.6986   ✗       
+358   YGFLQ+0.984GHVVPPR       -1.0000     NotChecked  -14.2524    1369.7143   ✗       
+359   YGFLEGHVVTPR             -1.0000     NotChecked  -14.2540    1373.7092   ✗       
+360   GFLEGHVVLPR              -1.0000     NotChecked  -14.2554    1222.6822   ✗       
+361   YGFLQGHVVLPR             -1.0000     NotChecked  -14.2642    1384.7616   ✗       
+362   YGQLEGHVVLPR             -1.0000     NotChecked  -14.2724    1366.7357   ✗       
+363   YGMLEGHVVLPR             -1.0000     NotChecked  -14.2772    1369.7176   ✗       
+364   YGFLEGHVVLPG             -1.0000     NotChecked  -14.3014    1286.6659   ✗       
+365   YGFLEGKVVLPR             -1.0000     NotChecked  -14.3076    1376.7816   ✗       
+366   YGFLEGHVVLP              -1.0000     NotChecked  -14.3146    1229.6445   ✗       
+367   KGFLEGHVVLPR             -1.0000     NotChecked  -14.3264    1350.7772   ✗       
+368   YGFLEGHVPLPR             -1.0000     NotChecked  -14.3338    1383.7299   ✗       
+369   YGFLDGHVVLPR             -1.0000     NotChecked  -14.3536    1371.7299   ✗       
+370   YGFLEGVVLPR              -1.0000     NotChecked  -14.3666    1248.6867   ✗       
+371   YGFLEGHVVPR              -1.0000     NotChecked  -14.3861    1272.6615   ✗       
+372   YGFLQ+0.984GHVVGPR       -1.0000     NotChecked  -14.4120    1329.6830   ✗       
+373   YGFAEGHVVLPR             -1.0000     NotChecked  -14.4199    1343.6986   ✗       
+374   YGFLEGHVVLR              -1.0000     NotChecked  -14.4302    1288.6928   ✗       
+375   YGFLAGHVVLPR             -1.0000     NotChecked  -14.4483    1327.7401   ✗       
+376   YGLLEGHVVLPR             -1.0000     NotChecked  -14.4673    1351.7612   ✗       
+377   VGFLEGHVVLPR             -1.0000     NotChecked  -14.4850    1321.7507   ✗       
+378   YGFLEGHSVLPR             -1.0000     NotChecked  -14.4960    1373.7092   ✗       
+379   LGFLEGHVVLPR             -1.0000     NotChecked  -14.4975    1335.7663   ✗       
+380   YGFLEGHVVLPT             -1.0000     NotChecked  -14.5241    1330.6921   ✗       
+381   +42.011GFLEGHVVLPR       -1.0000     NotChecked  -14.5310    1264.6928   ✗       
+382   YGFLEGHVVVPR             -1.0000     NotChecked  -14.5311    1371.7299   ✗       
+383   YGFLEGHGVLPR             -1.0000     NotChecked  -14.5537    1343.6986   ✗       
+384   MGFLEGHVVLPR             -1.0000     NotChecked  -14.5552    1353.7227   ✗       
+385   YGFLLGHVVLPR             -1.0000     NotChecked  -14.5597    1369.7870   ✗       
+386   YGFLQ+0.984GHVVLP        -1.0000     NotChecked  -14.5599    1229.6445   ✗       
+387   YGFLEGHVVPPR             -1.0000     NotChecked  -14.5614    1369.7143   ✗       
+388   YGFLQ+0.984GHVVLGR       -1.0000     NotChecked  -14.5748    1345.7143   ✗       
+389   YGFLEGLVVLPR             -1.0000     NotChecked  -14.5897    1361.7707   ✗       
+390   YGFLEGHVVLP              -1.0000     NotChecked  -14.6076    1229.6445   ✗       
+391   YGFLEGHVVSPR             -1.0000     NotChecked  -14.6155    1359.6935   ✗       
+392   HGFLEGHVVLPR             -1.0000     NotChecked  -14.6235    1359.7412   ✗       
+393   YGFLEGHVSLPR             -1.0000     NotChecked  -14.6508    1373.7092   ✗       
+394   YGFLQ+0.984GHVVLPV       -1.0000     NotChecked  -14.6679    1328.7129   ✗       
+395   YGFLQ+0.984GHVVLPL       -1.0000     NotChecked  -14.6785    1342.7285   ✗       
+396   YGSLEGHVVLPR             -1.0000     NotChecked  -14.6851    1325.7092   ✗       
+397   YGFLEGHVVLPQ             -1.0000     NotChecked  -14.6991    1357.7030   ✗       
+398   GFLEGHVVLPR              -1.0000     NotChecked  -14.7007    1222.6822   ✗       
+399   YGQLEGHVVLPR             -1.0000     NotChecked  -14.7177    1366.7357   ✗       
+400   YGFLEGHVVGPR             -1.0000     NotChecked  -14.7210    1329.6830   ✗       
+401   YGFLEGHVVAPR             -1.0000     NotChecked  -14.7309    1343.6986   ✗       
+402   YGFLEGHVVLPG             -1.0000     NotChecked  -14.7467    1286.6659   ✗       
+403   YGFLQ+0.984GHVVLPK       -1.0000     NotChecked  -14.7557    1357.7394   ✗       
+404   YGFLQ+0.984GHVVVPR       -1.0000     NotChecked  -14.7764    1371.7299   ✗       
+405   YGFLEGHVVLPS             -1.0000     NotChecked  -14.8239    1316.6765   ✗       
+406   YGFLEGHVVVPR             -1.0000     NotChecked  -14.8241    1371.7299   ✗       
+407   YGFLNGHVVLPR             -1.0000     NotChecked  -14.8383    1370.7459   ✗       
+408   YGFLEGHVVPPR             -1.0000     NotChecked  -14.8397    1369.7143   ✗       
+409   YGFLEGTVVLPR             -1.0000     NotChecked  -14.8460    1349.7343   ✗       
+410   YGFAEGHVVLPR             -1.0000     NotChecked  -14.8652    1343.6986   ✗       
+411   YGFLEGHVVLP              -1.0000     NotChecked  -14.8689    1229.6445   ✗       
+412   YGFLEGHVVLGR             -1.0000     NotChecked  -14.8838    1345.7143   ✗       
+413   YGFLQ+0.984GHVSLPR       -1.0000     NotChecked  -14.8961    1373.7092   ✗       
+414   VGFLEGHVVLPR             -1.0000     NotChecked  -14.9303    1321.7507   ✗       
+415   YGFLEGEVVLPR             -1.0000     NotChecked  -14.9425    1377.7293   ✗       
+416   YGFLEGHVSLPR             -1.0000     NotChecked  -14.9438    1373.7092   ✗       
+417   YGFLQ+0.984GHVVTPR       -1.0000     NotChecked  -14.9446    1373.7092   ✗       
+418   YGFLEGHVVLPV             -1.0000     NotChecked  -14.9769    1328.7129   ✗       
+419   YGFLEGHVVLPL             -1.0000     NotChecked  -14.9875    1342.7285   ✗       
+420   YGFLQ+0.984GHVVLPG       -1.0000     NotChecked  -14.9921    1286.6659   ✗       
+421   YGFLEGHVVGPR             -1.0000     NotChecked  -14.9993    1329.6830   ✗       
+422   MGFLEGHVVLPR             -1.0000     NotChecked  -15.0005    1353.7227   ✗       
+423   YGFLQ+0.984GHVVLP        -1.0000     NotChecked  -15.0053    1229.6445   ✗       
+424   YGFLEGHVLPR              -1.0000     NotChecked  -15.0080    1286.6772   ✗       
+425   YGFLEGHVVLPN             -1.0000     NotChecked  -15.0287    1343.6874   ✗       
+426   YGFLEGGVVLPR             -1.0000     NotChecked  -15.0307    1305.7081   ✗       
+427   YGFLEGLVVLPR             -1.0000     NotChecked  -15.0351    1361.7707   ✗       
+428   YGFLEGHVALPR             -1.0000     NotChecked  -15.0365    1357.7143   ✗       
+429   YGFLEGHVVLPG             -1.0000     NotChecked  -15.0397    1286.6659   ✗       
+430   YGFLQ+0.984HVVLPR        -1.0000     NotChecked  -15.0458    1328.7241   ✗       
+431   YGFLEGPVVLPR             -1.0000     NotChecked  -15.0593    1345.7394   ✗       
+432   YGFLEGHVVLPK             -1.0000     NotChecked  -15.0647    1357.7394   ✗       
+433   YGFLEGHVVVPR             -1.0000     NotChecked  -15.0854    1371.7299   ✗       
+434   YGFLEGHVLPR              -1.0000     NotChecked  -15.0986    1286.6772   ✗       
+435   YGFLEGHAVLPR             -1.0000     NotChecked  -15.1268    1357.7143   ✗       
+436   YFLEGHVVLPR              -1.0000     NotChecked  -15.1485    1328.7241   ✗       
+437   YGFLEGHVVLGR             -1.0000     NotChecked  -15.1621    1345.7143   ✗       
+438   YGFLEGHVSLPR             -1.0000     NotChecked  -15.2051    1373.7092   ✗       
+439   YGFVEGHVVLPR             -1.0000     NotChecked  -15.2093    1371.7299   ✗       
+440   +42.011GFLQ+0.984GHVVLPR -1.0000     NotChecked  -15.2216    1264.6928   ✗       
+441   YGFLQ+0.984GHVVVPR       -1.0000     NotChecked  -15.2218    1371.7299   ✗       
+442   YGFLEGHVVTPR             -1.0000     NotChecked  -15.2536    1373.7092   ✗       
+443   YGFLEGHVVLPV             -1.0000     NotChecked  -15.2551    1328.7129   ✗       
+444   YGFLQGHVVLPR             -1.0000     NotChecked  -15.2638    1384.7616   ✗       
+445   YGFLEGHVVLPL             -1.0000     NotChecked  -15.2658    1342.7285   ✗       
+446   YGFLEGHVVPR              -1.0000     NotChecked  -15.2850    1272.6615   ✗       
+447   YGFLEGTVVLPR             -1.0000     NotChecked  -15.2914    1349.7343   ✗       
+448   YGFLEGHVVLPG             -1.0000     NotChecked  -15.3010    1286.6659   ✗       
+449   YGFLEGHVVLP              -1.0000     NotChecked  -15.3142    1229.6445   ✗       
+450   YGPLEGHVVLPR             -1.0000     NotChecked  -15.3298    1335.7299   ✗       
+451   YGFLQ+0.984GHVSLPR       -1.0000     NotChecked  -15.3415    1373.7092   ✗       
+452   YGFLEGHVVLPK             -1.0000     NotChecked  -15.3430    1357.7394   ✗       
+453   RGFLEGHVVLPR             -1.0000     NotChecked  -15.3480    1378.7834   ✗       
+454   YGFLEHVVLPR              -1.0000     NotChecked  -15.3548    1328.7241   ✗       
+455   YGFLEGHPVLPR             -1.0000     NotChecked  -15.3817    1383.7299   ✗       
+456   YGFLEGEVVLPR             -1.0000     NotChecked  -15.3879    1377.7293   ✗       
+457   +43.006GFLEGHVVLPR       -1.0000     NotChecked  -15.4103    1265.6881   ✗       
+458   YGFLKGHVVLPR             -1.0000     NotChecked  -15.4136    1384.7979   ✗       
+459   YGFLEGHVGLPR             -1.0000     NotChecked  -15.4246    1343.6986   ✗       
+460   YGFLQ+0.984GHVVLPG       -1.0000     NotChecked  -15.4374    1286.6659   ✗       
+461   YGFLEGHVVGPR             -1.0000     NotChecked  -15.4446    1329.6830   ✗       
+462   YGFLEGHVVLR              -1.0000     NotChecked  -15.4468    1288.6928   ✗       
+463   YGFLEGGVVLPR             -1.0000     NotChecked  -15.4760    1305.7081   ✗       
+464   YGFLEGKVVLPR             -1.0000     NotChecked  -15.4864    1376.7816   ✗       
+465   YGHLEGHVVLPR             -1.0000     NotChecked  -15.4946    1375.7361   ✗       
+466   YGFLEGPVVLPR             -1.0000     NotChecked  -15.5047    1345.7394   ✗       
+467   KGFLEGHVVLPR             -1.0000     NotChecked  -15.5051    1350.7772   ✗       
+468   YGFLEGHVPLPR             -1.0000     NotChecked  -15.5126    1383.7299   ✗       
+469   YGFLQ+0.984GHVVPPR       -1.0000     NotChecked  -15.5304    1369.7143   ✗       
+470   YGFLEGHVVVPR             -1.0000     NotChecked  -15.5307    1371.7299   ✗       
+471   YGFLEGHVVTPR             -1.0000     NotChecked  -15.5319    1373.7092   ✗       
+472   YGFLDGHVVLPR             -1.0000     NotChecked  -15.5324    1371.7299   ✗       
+473   YGFLQGHVVLPR             -1.0000     NotChecked  -15.5421    1384.7616   ✗       
+474   YGMLEGHVVLPR             -1.0000     NotChecked  -15.5551    1369.7176   ✗       
+475   YGFLEGHVVPPR             -1.0000     NotChecked  -15.5780    1369.7143   ✗       
+476   YGFLEGHVVLP              -1.0000     NotChecked  -15.5925    1229.6445   ✗       
+477   YGFLAGHVVLPR             -1.0000     NotChecked  -15.6271    1327.7401   ✗       
+478   YGFLEGVVLPR              -1.0000     NotChecked  -15.6445    1248.6867   ✗       
+479   YGLLEGHVVLPR             -1.0000     NotChecked  -15.6461    1351.7612   ✗       
+480   YGFLEGHVSLPR             -1.0000     NotChecked  -15.6504    1373.7092   ✗       
+481   YGFLEGHVVPR              -1.0000     NotChecked  -15.6641    1272.6615   ✗       
+482   YGFLEGHSVLPR             -1.0000     NotChecked  -15.6747    1373.7092   ✗       
+483   YGFLQ+0.984GHVVGPR       -1.0000     NotChecked  -15.6900    1329.6830   ✗       
+484   YGFLEGHVVLPV             -1.0000     NotChecked  -15.7005    1328.7129   ✗       
+485   YGFLEGHVVLPT             -1.0000     NotChecked  -15.7029    1330.6921   ✗       
+486   YGFLEGHVVLPL             -1.0000     NotChecked  -15.7111    1342.7285   ✗       
+487   YGFLEGHGVLPR             -1.0000     NotChecked  -15.7325    1343.6986   ✗       
+488   YGFLEGHVVGPR             -1.0000     NotChecked  -15.7376    1329.6830   ✗       
+489   YGFLLGHVVLPR             -1.0000     NotChecked  -15.7385    1369.7870   ✗       
+490   YGFLEGHVVLPG             -1.0000     NotChecked  -15.7464    1286.6659   ✗       
+491   LGFLEGHVVLPR             -1.0000     NotChecked  -15.7755    1335.7663   ✗       
+492   YGFLEGHVVLPK             -1.0000     NotChecked  -15.7883    1357.7394   ✗       
+493   YGFLEGHVLLR              -1.0000     NotChecked  -15.7987    1302.7085   ✗       
+494   HGFLEGHVVLPR             -1.0000     NotChecked  -15.8023    1359.7412   ✗       
+495   +42.011GFLEGHVVLPR       -1.0000     NotChecked  -15.8089    1264.6928   ✗       
+496   YGFLEGHVVVPR             -1.0000     NotChecked  -15.8090    1371.7299   ✗       
+497   YFLQ+0.984GHVVLPR        -1.0000     NotChecked  -15.8391    1328.7241   ✗       
+498   YGFLEGHVVPPR             -1.0000     NotChecked  -15.8393    1369.7143   ✗       
+499   YGFLQ+0.984GHVVLGR       -1.0000     NotChecked  -15.8527    1345.7143   ✗       
+500   YGFLEGHVVLPQ             -1.0000     NotChecked  -15.8779    1357.7030   ✗       
+501   YGFLEGHVVLP              -1.0000     NotChecked  -15.8855    1229.6445   ✗       
+502   YGFLEGHVVSPR             -1.0000     NotChecked  -15.8934    1359.6935   ✗       
+503   YGFLEGHVVLGR             -1.0000     NotChecked  -15.9004    1345.7143   ✗       
+504   YGFLEGHVVAPR             -1.0000     NotChecked  -15.9097    1343.6986   ✗       
+505   YGFLEGHVSLPR             -1.0000     NotChecked  -15.9287    1373.7092   ✗       
+506   YGFLQ+0.984GHVVLPV       -1.0000     NotChecked  -15.9458    1328.7129   ✗       
+507   YGFLQ+0.984GHVVLPL       -1.0000     NotChecked  -15.9564    1342.7285   ✗       
+508   YGSLEGHVVLPR             -1.0000     NotChecked  -15.9630    1325.7092   ✗       
+509   YGFLQ+0.984GHVVPR        -1.0000     NotChecked  -15.9757    1272.6615   ✗       
+510   YGFLEGHVVTPR             -1.0000     NotChecked  -15.9772    1373.7092   ✗       
+511   GFLEGHVVLPR              -1.0000     NotChecked  -15.9786    1222.6822   ✗       
+512   YGFLQGHVVLPR             -1.0000     NotChecked  -15.9874    1384.7616   ✗       
+513   YGFLEGHVVLPV             -1.0000     NotChecked  -15.9934    1328.7129   ✗       
+514   YGQLEGHVVLPR             -1.0000     NotChecked  -15.9956    1366.7357   ✗       
+515   YGFLEGHVVGPR             -1.0000     NotChecked  -15.9989    1329.6830   ✗       
+516   YGFLEGHVVLPS             -1.0000     NotChecked  -16.0027    1316.6765   ✗       
+517   YGFLEGHVVLPL             -1.0000     NotChecked  -16.0040    1342.7285   ✗       
+518   YGFLNGHVVLPR             -1.0000     NotChecked  -16.0171    1370.7459   ✗       
+519   YGFLEGHVVLPG             -1.0000     NotChecked  -16.0247    1286.6659   ✗       
+520   YGFLQ+0.984GHVVLPK       -1.0000     NotChecked  -16.0336    1357.7394   ✗       
+521   YGFLEGHVVLPK             -1.0000     NotChecked  -16.0813    1357.7394   ✗       
+522   YGFLEGVVLPR              -1.0000     NotChecked  -16.0898    1248.6867   ✗       
+523   +43.006GFLQ+0.984GHVVLPR -1.0000     NotChecked  -16.1010    1265.6881   ✗       
+524   YGFLEGHVVVPR             -1.0000     NotChecked  -16.1020    1371.7299   ✗       
+525   YGFLQ+0.984GHVGLPR       -1.0000     NotChecked  -16.1152    1343.6986   ✗       
+526   YGFLQ+0.984GHVVGPR       -1.0000     NotChecked  -16.1353    1329.6830   ✗       
+527   YGFAEGHVVLPR             -1.0000     NotChecked  -16.1431    1343.6986   ✗       
+528   YFLEGHVVLPR              -1.0000     NotChecked  -16.1481    1328.7241   ✗       
+529   YGFLEGHVVVR              -1.0000     NotChecked  -16.1551    1274.6772   ✗       
+530   YGFLEGHVVLGR             -1.0000     NotChecked  -16.1617    1345.7143   ✗       
+531   YGFLQ+0.984GKVVLPR       -1.0000     NotChecked  -16.1770    1376.7816   ✗       
+532   YGFLEGHVLPR              -1.0000     NotChecked  -16.1868    1286.6772   ✗       
+533   KGFLQ+0.984GHVVLPR       -1.0000     NotChecked  -16.1958    1350.7772   ✗       
+534   YGFLQ+0.984GHVPLPR       -1.0000     NotChecked  -16.2032    1383.7299   ✗       
+535   YGFLEGHVVLPN             -1.0000     NotChecked  -16.2075    1343.6874   ✗       
+536   YGFLEGHVVLSR             -1.0000     NotChecked  -16.2082    1375.7248   ✗       
+537   VGFLEGHVVLPR             -1.0000     NotChecked  -16.2082    1321.7507   ✗       
+538   YGFLEGHVALPR             -1.0000     NotChecked  -16.2153    1357.7143   ✗       
+539   YGFLEGHVSLPR             -1.0000     NotChecked  -16.2217    1373.7092   ✗       
+540   YGFLQ+0.984GHVVTPR       -1.0000     NotChecked  -16.2225    1373.7092   ✗       
+541   YGFLEGHVLLP              -1.0000     NotChecked  -16.2374    1243.6601   ✗       
+542   +42.011GFLEGHVVLPR       -1.0000     NotChecked  -16.2542    1264.6928   ✗       
+543   YGFLEGHVVLPV             -1.0000     NotChecked  -16.2548    1328.7129   ✗       
+544   YGFLEGHVVLPL             -1.0000     NotChecked  -16.2654    1342.7285   ✗       
+545   YGFLEGHVVTPR             -1.0000     NotChecked  -16.2702    1373.7092   ✗       
+546   YGFLEGHVSLR              -1.0000     NotChecked  -16.2748    1276.6564   ✗       
+547   YGFLEGHVLPR              -1.0000     NotChecked  -16.2774    1286.6772   ✗       
+548   MGFLEGHVVLPR             -1.0000     NotChecked  -16.2784    1353.7227   ✗       
+549   YGFLQGHVVLPR             -1.0000     NotChecked  -16.2804    1384.7616   ✗       
+550   YGFLQ+0.984GHVVLP        -1.0000     NotChecked  -16.2832    1229.6445   ✗       
+551   YGFLEGHVVPR              -1.0000     NotChecked  -16.2847    1272.6615   ✗       
+552   YGFLEGHAVLPR             -1.0000     NotChecked  -16.3056    1357.7143   ✗       
+553   YGFLEGLVVLPR             -1.0000     NotChecked  -16.3130    1361.7707   ✗       
+554   YGFLEGHVVLPG             -1.0000     NotChecked  -16.3176    1286.6659   ✗       
+555   YGFLQ+0.984HVVLPR        -1.0000     NotChecked  -16.3237    1328.7241   ✗       
+556   YGFLEGHVVLP              -1.0000     NotChecked  -16.3308    1229.6445   ✗       
+557   YGLLQ+0.984GHVVLPR       -1.0000     NotChecked  -16.3367    1351.7612   ✗       
+558   YGFLEGHVVLPK             -1.0000     NotChecked  -16.3426    1357.7394   ✗       
+559   YGFLQ+0.984GHSVLPR       -1.0000     NotChecked  -16.3654    1373.7092   ✗       
+560   YGFLEGHVVLRG             -1.0000     NotChecked  -16.3708    1345.7143   ✗       
+561   YGFLEHVVLPR              -1.0000     NotChecked  -16.3713    1328.7241   ✗       
+562   YGFVEGHVVLPR             -1.0000     NotChecked  -16.3881    1371.7299   ✗       
+563   YGFLQ+0.984GHVVLPV       -1.0000     NotChecked  -16.3911    1328.7129   ✗       
+564   YGFLQ+0.984GHVVLPT       -1.0000     NotChecked  -16.3935    1330.6921   ✗       
+565   YGFLQ+0.984GHVVLPL       -1.0000     NotChecked  -16.4017    1342.7285   ✗       
+566   YGFLKGHVVLPR             -1.0000     NotChecked  -16.4133    1384.7979   ✗       
+567   YGFLQ+0.984GHGVLPR       -1.0000     NotChecked  -16.4231    1343.6986   ✗       
+568   YGFLEGHVGLPR             -1.0000     NotChecked  -16.4242    1343.6986   ✗       
+569   YGFLEGHVVGPR             -1.0000     NotChecked  -16.4443    1329.6830   ✗       
+570   YGFLQ+0.984GHVVLPK       -1.0000     NotChecked  -16.4789    1357.7394   ✗       
+571   YGFLEGKVVLPR             -1.0000     NotChecked  -16.4860    1376.7816   ✗       
+572   HGFLQ+0.984GHVVLPR       -1.0000     NotChecked  -16.4930    1359.7412   ✗       
+573   +42.011GFLQ+0.984GHVVLPR -1.0000     NotChecked  -16.4995    1264.6928   ✗       
+574   YGFLQ+0.984GHVVVPR       -1.0000     NotChecked  -16.4997    1371.7299   ✗       
+575   YGPLEGHVVLPR             -1.0000     NotChecked  -16.5086    1335.7299   ✗       
+576   YGFLEGHVPLPR             -1.0000     NotChecked  -16.5122    1383.7299   ✗       
+577   RGFLEGHVVLPR             -1.0000     NotChecked  -16.5268    1378.7834   ✗       
+578   YGFLEGHVVTPR             -1.0000     NotChecked  -16.5315    1373.7092   ✗       
+579   YGFLDGHVVLPR             -1.0000     NotChecked  -16.5320    1371.7299   ✗       
+580   YGFLQGHVVLPR             -1.0000     NotChecked  -16.5417    1384.7616   ✗       
+581   +42.011GFLEGHVVLPR       -1.0000     NotChecked  -16.5472    1264.6928   ✗       
+582   YGFLEGHVVVPR             -1.0000     NotChecked  -16.5473    1371.7299   ✗       
+583   YGFLEGHPVLPR             -1.0000     NotChecked  -16.5605    1383.7299   ✗       
+584   YGFLEGHVVPR              -1.0000     NotChecked  -16.5629    1272.6615   ✗       
+585   YGFLQ+0.984GHVVLPQ       -1.0000     NotChecked  -16.5685    1357.7030   ✗       
+586   YGFLEGTVVLPR             -1.0000     NotChecked  -16.5693    1349.7343   ✗       
+587   YGFLEGHVVLP              -1.0000     NotChecked  -16.5922    1229.6445   ✗       
+588   YGFLEGHVVVP              -1.0000     NotChecked  -16.5939    1215.6288   ✗       
+589   YGFLQ+0.984GHVVAPR       -1.0000     NotChecked  -16.6003    1343.6986   ✗       
+590   YGFLQ+0.984GHVSLPR       -1.0000     NotChecked  -16.6194    1373.7092   ✗       
+591   YGFLAGHVVLPR             -1.0000     NotChecked  -16.6268    1327.7401   ✗       
+592   YGFLEHVVLPR              -1.0000     NotChecked  -16.6327    1328.7241   ✗       
+593   YGLLEGHVVLPR             -1.0000     NotChecked  -16.6457    1351.7612   ✗       
+594   YGFLEGEVVLPR             -1.0000     NotChecked  -16.6658    1377.7293   ✗       
+595   YGFLEGHVSLPR             -1.0000     NotChecked  -16.6670    1373.7092   ✗       
+596   YGFLQ+0.984GHVVTPR       -1.0000     NotChecked  -16.6679    1373.7092   ✗       
+597   YGFLEGHVLLPG             -1.0000     NotChecked  -16.6695    1300.6816   ✗       
+598   YGHLEGHVVLPR             -1.0000     NotChecked  -16.6734    1375.7361   ✗       
+599   YGFLEGHSVLPR             -1.0000     NotChecked  -16.6744    1373.7092   ✗       
+600   +43.006GFLEGHVVLPR       -1.0000     NotChecked  -16.6883    1265.6881   ✗       
+601   YGFLKGHVVLPR             -1.0000     NotChecked  -16.6915    1384.7979   ✗       
+602   YGFLQ+0.984GHVVLPS       -1.0000     NotChecked  -16.6933    1316.6765   ✗       
+603   YGFLEGHVVLPV             -1.0000     NotChecked  -16.7001    1328.7129   ✗       
+604   YGFLEGHVVLPT             -1.0000     NotChecked  -16.7025    1330.6921   ✗       
+605   YGFLEGHVGLPR             -1.0000     NotChecked  -16.7025    1343.6986   ✗       
+606   YGFLEGHVVLPL             -1.0000     NotChecked  -16.7107    1342.7285   ✗       
+607   YGFLEGHVSLP              -1.0000     NotChecked  -16.7136    1217.6081   ✗       
+608   YGFLQ+0.984GHVVLPG       -1.0000     NotChecked  -16.7153    1286.6659   ✗       
+609   YGFLEGHVVGPR             -1.0000     NotChecked  -16.7226    1329.6830   ✗       
+610   YGFLEGHGVLPR             -1.0000     NotChecked  -16.7321    1343.6986   ✗       
+611   YGMLEGHVVLPR             -1.0000     NotChecked  -16.7339    1369.7176   ✗       
+612   YGFLLGHVVLPR             -1.0000     NotChecked  -16.7381    1369.7870   ✗       
+613   YGFLEGGVVLPR             -1.0000     NotChecked  -16.7540    1305.7081   ✗       
+614   YGFLEGHVVLPG             -1.0000     NotChecked  -16.7629    1286.6659   ✗       
+615   YGFLEGKVVLPR             -1.0000     NotChecked  -16.7643    1376.7816   ✗       
+616   YGFLQ+0.984HVVLPR        -1.0000     NotChecked  -16.7690    1328.7241   ✗       
+617   YGFLEGPVVLPR             -1.0000     NotChecked  -16.7826    1345.7394   ✗       
+618   KGFLEGHVVLPR             -1.0000     NotChecked  -16.7831    1350.7772   ✗       
+619   YGFLEGHVVLPK             -1.0000     NotChecked  -16.7879    1357.7394   ✗       
+620   YGFLEGHVPLPR             -1.0000     NotChecked  -16.7905    1383.7299   ✗       
+621   YGFLEGHVVVPR             -1.0000     NotChecked  -16.8087    1371.7299   ✗       
+622   YGFLDGHVVLPR             -1.0000     NotChecked  -16.8103    1371.7299   ✗       
+623   YGFLEGHVTLR              -1.0000     NotChecked  -16.8194    1290.6721   ✗       
+624   YGFLEGHVVPR              -1.0000     NotChecked  -16.8428    1272.6615   ✗       
+625   YGFLEGHVVPPR             -1.0000     NotChecked  -16.8559    1369.7143   ✗       
+626   YFLEGHVVLPR              -1.0000     NotChecked  -16.8717    1328.7241   ✗       
+627   YGFLQ+0.984GHVLPR        -1.0000     NotChecked  -16.8775    1286.6772   ✗       
+628   YGFLEGHVVLPQ             -1.0000     NotChecked  -16.8775    1357.7030   ✗       
+629   YGFLEGHVVLR              -1.0000     NotChecked  -16.8923    1288.6928   ✗       
+630   +42.011GFLQ+0.984GHVVLPR -1.0000     NotChecked  -16.9449    1264.6928   ✗       
+631   LGFLEGHVVLPR             -1.0000     NotChecked  -16.9543    1335.7663   ✗       
+632   HGFLEGHVVLPR             -1.0000     NotChecked  -17.0802    1359.7412   ✗       
+633   +43.006GFLEGHVVLPR       -1.0000     NotChecked  -17.1336    1265.6881   ✗       
+634   GFLEGHVVLPR              -1.0000     NotChecked  -17.1574    1222.6822   ✗       
+635   RGFLQ+0.984GHVVLPR       -1.0000     NotChecked  -17.2175    1378.7834   ✗       
+636   KGFLEGHVVLPR             -1.0000     NotChecked  -17.2284    1350.7772   ✗       
+637   +43.006GFLQ+0.984GHVVLPR -1.0000     NotChecked  -17.3789    1265.6881   ✗       
+638   VGFLEGHVVLPR             -1.0000     NotChecked  -17.3870    1321.7507   ✗       
+639   +43.006GFLEGHVVLPR       -1.0000     NotChecked  -17.4265    1265.6881   ✗       
+640   MGFLEGHVVLPR             -1.0000     NotChecked  -17.4572    1353.7227   ✗       
+641   KGFLQ+0.984GHVVLPR       -1.0000     NotChecked  -17.4737    1350.7772   ✗       
+642   KGFLEGHVVLPR             -1.0000     NotChecked  -17.5213    1350.7772   ✗       
+643   HGFLEGHVVLPR             -1.0000     NotChecked  -17.5256    1359.7412   ✗       
+644   +42.011GFLEGHVVLPR       -1.0000     NotChecked  -17.5321    1264.6928   ✗       
+645   LGFLQ+0.984GHVVLPR       -1.0000     NotChecked  -17.6449    1335.7663   ✗       
+646   HGFLQ+0.984GHVVLPR       -1.0000     NotChecked  -17.7709    1359.7412   ✗       
+647   RGFLEGHVVLPR             -1.0000     NotChecked  -17.8048    1378.7834   ✗       
+648   HGFLEGHVVLPR             -1.0000     NotChecked  -17.8185    1359.7412   ✗       
+649   +43.006GFLQ+0.984GHVVLPR -1.0000     NotChecked  -17.8242    1265.6881   ✗       
+650   +42.011GFLEGHVVLPR       -1.0000     NotChecked  -17.8251    1264.6928   ✗       
+651   GFLQ+0.984GHVVLPR        -1.0000     NotChecked  -17.8481    1222.6822   ✗       
+652   +42.011GFLEGHVVLR        -1.0000     NotChecked  -17.8782    1167.6400   ✗       
+653   KGFLQ+0.984GHVVLPR       -1.0000     NotChecked  -17.9190    1350.7772   ✗       
+654   VGFLQ+0.984GHVVLPR       -1.0000     NotChecked  -18.0777    1321.7507   ✗       
+655   MGFLQ+0.984GHVVLPR       -1.0000     NotChecked  -18.1478    1353.7227   ✗       
+656   +42.011GFLEGHVLLPR       -1.0000     NotChecked  -18.1770    1278.7085   ✗       
+657   HGFLQ+0.984GHVVLPR       -1.0000     NotChecked  -18.2162    1359.7412   ✗       
+658   +42.011GFLQ+0.984GHVVLPR -1.0000     NotChecked  -18.2228    1264.6928   ✗       
+659   LGFLEGHVVLPR             -1.0000     NotChecked  -18.2322    1335.7663   ✗       
+660   RGFLEGHVVLPR             -1.0000     NotChecked  -18.2501    1378.7834   ✗       
+661   +42.011GFLEGHVVLPR       -1.0000     NotChecked  -18.2704    1264.6928   ✗       
+662   +42.011GFLEGHVVLP        -1.0000     NotChecked  -18.3170    1108.5917   ✗       
+663   +43.006GFLEGHVVLPR       -1.0000     NotChecked  -18.4115    1265.6881   ✗       
+664   GFLEGHVVLPR              -1.0000     NotChecked  -18.4353    1222.6822   ✗       
+665   RGFLQ+0.984GHVVLPR       -1.0000     NotChecked  -18.4954    1378.7834   ✗       
+666   KGFLEGHVVLPR             -1.0000     NotChecked  -18.5063    1350.7772   ✗       
+667   +42.011GFLEGHVVVPR       -1.0000     NotChecked  -18.5335    1250.6772   ✗       
+668   RGFLEGHVVLPR             -1.0000     NotChecked  -18.5430    1378.7834   ✗       
+669   +42.011GFLEGHVSLPR       -1.0000     NotChecked  -18.6531    1252.6564   ✗       
+670   VGFLEGHVVLPR             -1.0000     NotChecked  -18.6649    1321.7507   ✗       
+671   LGFLEGHVVLPR             -1.0000     NotChecked  -18.6775    1335.7663   ✗       
+672   +43.006GFLEGHVVLPR       -1.0000     NotChecked  -18.7045    1265.6881   ✗       
+673   MGFLEGHVVLPR             -1.0000     NotChecked  -18.7351    1353.7227   ✗       
+674   +42.011GFLEGHVVLPG       -1.0000     NotChecked  -18.7491    1165.6132   ✗       
+675   +43.006GFLEGHVVLR        -1.0000     NotChecked  -18.7576    1168.6353   ✗       
+676   KGFLEGHVVLPR             -1.0000     NotChecked  -18.7993    1350.7772   ✗       
+677   HGFLEGHVVLPR             -1.0000     NotChecked  -18.8035    1359.7412   ✗       
+678   KGFLEGHVVLR              -1.0000     NotChecked  -18.8524    1253.7244   ✗       
+679   GFLEGHVVLPR              -1.0000     NotChecked  -18.8807    1222.6822   ✗       
+680   LGFLQ+0.984GHVVLPR       -1.0000     NotChecked  -18.9228    1335.7663   ✗       
+681   RGFLQ+0.984GHVVLPR       -1.0000     NotChecked  -18.9407    1378.7834   ✗       
+682   LGFLEGHVVLPR             -1.0000     NotChecked  -18.9705    1335.7663   ✗       
+683   +43.006GFLEGHVLLPR       -1.0000     NotChecked  -19.0564    1279.7037   ✗       
+684   HGFLEGHVVLPR             -1.0000     NotChecked  -19.0964    1359.7412   ✗       
+685   +43.006GFLQ+0.984GHVVLPR -1.0000     NotChecked  -19.1021    1265.6881   ✗       
+686   VGFLEGHVVLPR             -1.0000     NotChecked  -19.1103    1321.7507   ✗       
+687   GFLQ+0.984GHVVLPR        -1.0000     NotChecked  -19.1260    1222.6822   ✗       
+688   HGFLEGHVVLR              -1.0000     NotChecked  -19.1496    1262.6884   ✗       
+689   +43.006GFLEGHVVLPR       -1.0000     NotChecked  -19.1498    1265.6881   ✗       
+690   KGFLEGHVLLPR             -1.0000     NotChecked  -19.1512    1364.7929   ✗       
+691   +42.011GFLEGHVVLR        -1.0000     NotChecked  -19.1562    1167.6400   ✗       
+692   GFLEGHVVLPR              -1.0000     NotChecked  -19.1736    1222.6822   ✗       
+693   MGFLEGHVVLPR             -1.0000     NotChecked  -19.1804    1353.7227   ✗       
+694   +43.006GFLEGHVVLP        -1.0000     NotChecked  -19.1963    1109.5869   ✗       
+695   KGFLQ+0.984GHVVLPR       -1.0000     NotChecked  -19.1969    1350.7772   ✗       
+696   +42.011GFLEGHVTLPR       -1.0000     NotChecked  -19.1977    1266.6721   ✗       
+697   KGFLEGHVVLPR             -1.0000     NotChecked  -19.2446    1350.7772   ✗       
+698   +42.011GFLEGHVVLPR       -1.0000     NotChecked  -19.2707    1264.6928   ✗       
+699   +42.011GFLEGHVVPPR       -1.0000     NotChecked  -19.2874    1248.6615   ✗       
+700   KGFLEGHVVLP              -1.0000     NotChecked  -19.2911    1194.6761   ✗       
+701   VGFLQ+0.984GHVVLPR       -1.0000     NotChecked  -19.3556    1321.7507   ✗       
+702   LGFLQ+0.984GHVVLPR       -1.0000     NotChecked  -19.3681    1335.7663   ✗       
+703   +42.011GFLQ+0.984GHVVLPR -1.0000     NotChecked  -19.4016    1264.6928   ✗       
+704   +42.011GFLEGHVVRPR       -1.0000     NotChecked  -19.4023    1307.7099   ✗       
+705   VGFLEGHVVLPR             -1.0000     NotChecked  -19.4032    1321.7507   ✗       
+706   +43.006GFLEGHVVVPR       -1.0000     NotChecked  -19.4128    1251.6724   ✗       
+707   MGFLQ+0.984GHVVLPR       -1.0000     NotChecked  -19.4258    1353.7227   ✗       
+708   +42.011GFLEGHVVGPR       -1.0000     NotChecked  -19.4470    1208.6302   ✗       
+709   HGFLEGHVLLPR             -1.0000     NotChecked  -19.4484    1373.7568   ✗       
+710   +42.011GFLEGHVLLPR       -1.0000     NotChecked  -19.4549    1278.7085   ✗       
+711   +42.011GFLEGHVVLLR       -1.0000     NotChecked  -19.4671    1280.7241   ✗       
+712   MGFLEGHVVLPR             -1.0000     NotChecked  -19.4734    1353.7227   ✗       
+713   HGFLQ+0.984GHVVLPR       -1.0000     NotChecked  -19.4941    1359.7412   ✗       
+714   KGFLEGHVVVPR             -1.0000     NotChecked  -19.5076    1336.7616   ✗       
+715   RGFLEGHVVLPR             -1.0000     NotChecked  -19.5280    1378.7834   ✗       
+716   +43.006GFLEGHVSLPR       -1.0000     NotChecked  -19.5325    1253.6517   ✗       
+717   HGFLEGHVVLPR             -1.0000     NotChecked  -19.5418    1359.7412   ✗       
+718   +42.011GFLEGHVVLPR       -1.0000     NotChecked  -19.5483    1264.6928   ✗       
+719   GFLQ+0.984GHVVLPR        -1.0000     NotChecked  -19.5713    1222.6822   ✗       
+720   HGFLEGHVVLP              -1.0000     NotChecked  -19.5883    1203.6400   ✗       
+721   +42.011GFLEGHVVLP        -1.0000     NotChecked  -19.5949    1108.5917   ✗       
+722   +42.011GFLEGHVVLPR       -1.0000     NotChecked  -19.6015    1264.6928   ✗       
+723   +42.011GFLEGHVVLGR       -1.0000     NotChecked  -19.6097    1224.6615   ✗       
+724   KGFLEGHVSLPR             -1.0000     NotChecked  -19.6273    1338.7408   ✗       
+725   +43.006GFLEGHVVLPG       -1.0000     NotChecked  -19.6284    1166.6084   ✗       
+726   +42.011GFLEGHVVLGPR      -1.0000     NotChecked  -19.6625    1321.7143   ✗       
+727   +42.011GFLEGHVVLPV       -1.0000     NotChecked  -19.7028    1207.6601   ✗       
+728   +42.011GFLEGHVVLPL       -1.0000     NotChecked  -19.7134    1221.6758   ✗       
+729   KGFLEGHVVLPG             -1.0000     NotChecked  -19.7232    1251.6976   ✗       
+730   +42.011GFLEGHVVLPK       -1.0000     NotChecked  -19.7906    1236.6867   ✗       
+731   VGFLQ+0.984GHVVLPR       -1.0000     NotChecked  -19.8009    1321.7507   ✗       
+732   HGFLEGHVVVPR             -1.0000     NotChecked  -19.8048    1345.7255   ✗       
+733   +42.011GFLEGHVVVPR       -1.0000     NotChecked  -19.8114    1250.6772   ✗       
+734   +42.011GFLEGHVVLVR       -1.0000     NotChecked  -19.8125    1266.7085   ✗       
+735   RGFLEGHVVLPR             -1.0000     NotChecked  -19.8210    1378.7834   ✗       
+736   MGFLQ+0.984GHVVLPR       -1.0000     NotChecked  -19.8711    1353.7227   ✗       
+737   RGFLEGHVVLR              -1.0000     NotChecked  -19.8741    1281.7306   ✗       
+738   +42.011GFLEGHVLLPR       -1.0000     NotChecked  -19.9002    1278.7085   ✗       
+739   HGFLEGHVSLPR             -1.0000     NotChecked  -19.9245    1347.7048   ✗       
+740   +42.011GFLEGHVSLPR       -1.0000     NotChecked  -19.9311    1252.6564   ✗       
+741   LGFLEGHVVLPR             -1.0000     NotChecked  -19.9554    1335.7663   ✗       
+742   +42.011GFLEGHVVTPR       -1.0000     NotChecked  -19.9796    1252.6564   ✗       
+743   +42.011GFLQGHVVLPR       -1.0000     NotChecked  -19.9898    1263.7088   ✗       
+744   HGFLEGHVVLPG             -1.0000     NotChecked  -20.0204    1260.6615   ✗       
+745   +42.011GFLEGHVVLPG       -1.0000     NotChecked  -20.0270    1165.6132   ✗       
+746   +43.006GFLEGHVVLR        -1.0000     NotChecked  -20.0355    1168.6353   ✗       
+747   +42.011GFLEGHVVLP        -1.0000     NotChecked  -20.0402    1108.5917   ✗       
+748   +43.006GFLEGHVTLPR       -1.0000     NotChecked  -20.0770    1267.6673   ✗       
+749   +42.011GFLEHVVLPR        -1.0000     NotChecked  -20.0807    1207.6713   ✗       
+750   KGFLEGHVVLR              -1.0000     NotChecked  -20.1303    1253.7244   ✗       
+751   +42.011GFLEDHVVLPR       -1.0000     NotChecked  -20.1311    1322.6983   ✗       
+752   +43.006GFLEGHVVLPR       -1.0000     NotChecked  -20.1500    1265.6881   ✗       
+753   GFLEGHVVLPR              -1.0000     NotChecked  -20.1586    1222.6822   ✗       
+754   +43.006GFLEGHVVPPR       -1.0000     NotChecked  -20.1667    1249.6568   ✗       
+755   KGFLEGHVTLPR             -1.0000     NotChecked  -20.1718    1352.7565   ✗       
+756   +42.011GFLEAHVVLPR       -1.0000     NotChecked  -20.1833    1278.7085   ✗       
+757   RGFLQ+0.984GHVVLPR       -1.0000     NotChecked  -20.2186    1378.7834   ✗       
+758   KGFLEGHVVLPR             -1.0000     NotChecked  -20.2448    1350.7772   ✗       
+759   LGFLEGHVVLPR             -1.0000     NotChecked  -20.2484    1335.7663   ✗       
+760   +42.011GFLEGHVVVPR       -1.0000     NotChecked  -20.2567    1250.6772   ✗       
+761   KGFLEGHVVPPR             -1.0000     NotChecked  -20.2615    1334.7459   ✗       
+762   RGFLEGHVVLPR             -1.0000     NotChecked  -20.2663    1378.7834   ✗       
+763   +43.006GFLQ+0.984GHVVLPR -1.0000     NotChecked  -20.2809    1265.6881   ✗       
+764   +43.006GFLEGHVVRPR       -1.0000     NotChecked  -20.2817    1308.7051   ✗       
+765   LGFLEGHVVLR              -1.0000     NotChecked  -20.3015    1238.7135   ✗       
+766   RGFLEGHVVLP              -1.0000     NotChecked  -20.3128    1222.6822   ✗       
+767   +43.006GFLEGHVVGPR       -1.0000     NotChecked  -20.3263    1209.6255   ✗       
+768   +43.006GFLEGHVLLPR       -1.0000     NotChecked  -20.3343    1279.7037   ✗       
+769   +42.011GFLEGHVVLPR       -1.0000     NotChecked  -20.3428    1264.6928   ✗       
+770   +43.006GFLEGHVVLLR       -1.0000     NotChecked  -20.3464    1281.7194   ✗       
+771   KGFLQ+0.984GHVVLPR       -1.0000     NotChecked  -20.3757    1350.7772   ✗       
+772   +42.011GFLEGHVSLPR       -1.0000     NotChecked  -20.3764    1252.6564   ✗       
+773   VGFLEGHVVLPR             -1.0000     NotChecked  -20.3882    1321.7507   ✗       
+774   KGFLEGHVVGPR             -1.0000     NotChecked  -20.4211    1294.7146   ✗       
+775   HGFLEGHVVLR              -1.0000     NotChecked  -20.4275    1262.6884   ✗       
+776   +43.006GFLEGHVVLPR       -1.0000     NotChecked  -20.4277    1265.6881   ✗       
+777   KGFLEGHVLLPR             -1.0000     NotChecked  -20.4291    1364.7929   ✗       
+778   KGFLEGHVVLLR             -1.0000     NotChecked  -20.4412    1366.8085   ✗       
+779   GFLEGHVVLPR              -1.0000     NotChecked  -20.4515    1222.6822   ✗       
+780   MGFLEGHVVLPR             -1.0000     NotChecked  -20.4584    1353.7227   ✗       
+781   HGFLEGHVTLPR             -1.0000     NotChecked  -20.4690    1361.7204   ✗       
+782   +42.011GFLEGHVVLPG       -1.0000     NotChecked  -20.4723    1165.6132   ✗       
+783   +43.006GFLEGHVVLP        -1.0000     NotChecked  -20.4742    1109.5869   ✗       
+784   +42.011GFLEGHVTLPR       -1.0000     NotChecked  -20.4756    1266.6721   ✗       
+785   +43.006GFLEGHVVLPR       -1.0000     NotChecked  -20.4808    1265.6881   ✗       
+786   +43.006GFLEGHVVLGR       -1.0000     NotChecked  -20.4891    1225.6568   ✗       
+787   GFLEGHVVLR               -1.0000     NotChecked  -20.5047    1125.6295   ✗       
+788   KGFLEGHVVLPR             -1.0000     NotChecked  -20.5225    1350.7772   ✗       
+789   RGFLEGHVVVPR             -1.0000     NotChecked  -20.5293    1364.7677   ✗       
+790   +42.011GFLEGHLVLPR       -1.0000     NotChecked  -20.5304    1278.7085   ✗       
+791   +43.006GFLEGHVVLGPR      -1.0000     NotChecked  -20.5419    1322.7095   ✗       
+792   HGFLEGHVVLPR             -1.0000     NotChecked  -20.5420    1359.7412   ✗       
+793   +42.011GFLEGHVVLPR       -1.0000     NotChecked  -20.5486    1264.6928   ✗       
+794   HGFLEGHVVPPR             -1.0000     NotChecked  -20.5587    1343.7099   ✗       
+795   +42.011GFLEGHVVPPR       -1.0000     NotChecked  -20.5653    1248.6615   ✗       
+796   KGFLEGHVVLP              -1.0000     NotChecked  -20.5690    1194.6761   ✗       
+797   KGFLEGHVVLPR             -1.0000     NotChecked  -20.5756    1350.7772   ✗       
+798   +43.006GFLEGHVVLPV       -1.0000     NotChecked  -20.5822    1208.6554   ✗       
+799   KGFLEGHVVLGR             -1.0000     NotChecked  -20.5839    1310.7459   ✗       
+800   +43.006GFLEGHVVLPL       -1.0000     NotChecked  -20.5928    1222.6710   ✗       
+801   LGFLEGHVLLPR             -1.0000     NotChecked  -20.6003    1349.7820   ✗       
+802   LGFLQ+0.984GHVVLPR       -1.0000     NotChecked  -20.6461    1335.7663   ✗       
+803   RGFLEGHVSLPR             -1.0000     NotChecked  -20.6490    1366.7470   ✗       
+804   +43.006GFLEGHVVLPK       -1.0000     NotChecked  -20.6700    1237.6819   ✗       
+805   HGFLQ+0.984GHVVLPR       -1.0000     NotChecked  -20.6729    1359.7412   ✗       
+806   KGFLEGHVVLPV             -1.0000     NotChecked  -20.6770    1293.7445   ✗       
+807   +42.011GFLQ+0.984GHVVLPR -1.0000     NotChecked  -20.6795    1264.6928   ✗       
+808   +42.011GFLEGHVVRPR       -1.0000     NotChecked  -20.6803    1307.7099   ✗       
+809   VGFLEGHVVLPR             -1.0000     NotChecked  -20.6811    1321.7507   ✗       
+810   KGFLEGHVVLPL             -1.0000     NotChecked  -20.6876    1307.7602   ✗       
+811   +43.006GFLEGHVVVPR       -1.0000     NotChecked  -20.6907    1251.6724   ✗       
+812   +43.006GFLEGHVVLVR       -1.0000     NotChecked  -20.6919    1267.7037   ✗       
+813   LGFLEGHVVLPR             -1.0000     NotChecked  -20.6937    1335.7663   ✗       
+814   +42.011GFLEGHRVLPR       -1.0000     NotChecked  -20.7005    1321.7255   ✗       
+815   HGFLEGHVVGPR             -1.0000     NotChecked  -20.7183    1303.6786   ✗       
+816   +42.011GFLEGHVVGPR       -1.0000     NotChecked  -20.7249    1208.6302   ✗       
+817   HGFLEGHVLLPR             -1.0000     NotChecked  -20.7263    1373.7568   ✗       
+818   +42.011GFLEGHVVLPR       -1.0000     NotChecked  -20.7271    1264.6928   ✗       
+819   VGFLEGHVVLR              -1.0000     NotChecked  -20.7343    1224.6979   ✗       
+820   HGFLEGHVVLLR             -1.0000     NotChecked  -20.7384    1375.7725   ✗       
+821   LGFLEGHVVLP              -1.0000     NotChecked  -20.7402    1179.6652   ✗       
+822   RGFLEGHVVLPG             -1.0000     NotChecked  -20.7449    1279.7037   ✗       
+823   +42.011GFLEGHVVLLR       -1.0000     NotChecked  -20.7450    1280.7241   ✗       
+824   MGFLEGHVVLPR             -1.0000     NotChecked  -20.7513    1353.7227   ✗       
+825   KGFLEGHVVLPK             -1.0000     NotChecked  -20.7648    1322.7711   ✗       
+826   +43.006GFLEGHVLLPR       -1.0000     NotChecked  -20.7796    1279.7037   ✗       
+827   KGFLEGHVVVPR             -1.0000     NotChecked  -20.7855    1336.7616   ✗       
+828   KGFLEGHVVLVR             -1.0000     NotChecked  -20.7867    1352.7929   ✗       
+829   +42.011GFLEGHVVLPR       -1.0000     NotChecked  -20.7909    1264.6928   ✗       
+830   GFLEGHVLLPR              -1.0000     NotChecked  -20.8034    1236.6979   ✗       
+831   MGFLEGHVVLR              -1.0000     NotChecked  -20.8045    1256.6700   ✗       
+832   +43.006GFLEGHVSLPR       -1.0000     NotChecked  -20.8104    1253.6517   ✗       
+833   HGFLEGHVVLPR             -1.0000     NotChecked  -20.8197    1359.7412   ✗       
+834   GFLQ+0.984GHVVLPR        -1.0000     NotChecked  -20.8492    1222.6822   ✗       
+835   +43.006GFLEGHVVTPR       -1.0000     NotChecked  -20.8589    1253.6517   ✗       
+836   HGFLEGHVVLP              -1.0000     NotChecked  -20.8662    1203.6400   ✗       
+837   +43.006GFLQGHVVLPR       -1.0000     NotChecked  -20.8691    1264.7040   ✗       
+838   HGFLEGHVVLPR             -1.0000     NotChecked  -20.8728    1359.7412   ✗       
+839   +42.011FLEGHVVLPR        -1.0000     NotChecked  -20.8740    1207.6713   ✗       
+840   KGFLEGHVLLPR             -1.0000     NotChecked  -20.8744    1364.7929   ✗       
+841   +42.011GFLEGHVVLPR       -1.0000     NotChecked  -20.8794    1264.6928   ✗       
+842   HGFLEGHVVLGR             -1.0000     NotChecked  -20.8811    1319.7099   ✗       
+843   +42.011GFLEGHVVLGR       -1.0000     NotChecked  -20.8877    1224.6615   ✗       
+844   GFLEGHVVLPR              -1.0000     NotChecked  -20.8969    1222.6822   ✗       
+845   KGFLEGHVSLPR             -1.0000     NotChecked  -20.9052    1338.7408   ✗       
+846   +43.006GFLEGHVVLPG       -1.0000     NotChecked  -20.9064    1166.6084   ✗       
+847   +43.006GFLEGHVVLP        -1.0000     NotChecked  -20.9196    1109.5869   ✗       
+848   +42.011GFLEGHVTLPR       -1.0000     NotChecked  -20.9209    1266.6721   ✗       
+849   +42.011GFLEGHVVLGPR      -1.0000     NotChecked  -20.9404    1321.7143   ✗       
+850   GFLEGHVVLP               -1.0000     NotChecked  -20.9434    1066.5811   ✗       
+851   KGFLEGHVVTPR             -1.0000     NotChecked  -20.9537    1338.7408   ✗       
+852   LGFLEGHVVVPR             -1.0000     NotChecked  -20.9567    1321.7507   ✗       
+853   +43.006GFLEHVVLPR        -1.0000     NotChecked  -20.9601    1208.6666   ✗       
+854   KGFLQGHVVLPR             -1.0000     NotChecked  -20.9639    1349.7932   ✗       
+855   HGFLEGHVVLPV             -1.0000     NotChecked  -20.9742    1302.7085   ✗       
+856   +42.011GFLEGHVVLPV       -1.0000     NotChecked  -20.9807    1207.6601   ✗       
+857   HGFLEGHVVLPL             -1.0000     NotChecked  -20.9848    1316.7241   ✗       
+858   +42.011GFLEGHVVLPL       -1.0000     NotChecked  -20.9913    1221.6758   ✗       
+859   +42.011GFLEGHVVLPR       -1.0000     NotChecked  -20.9939    1264.6928   ✗       
+860   KGFLEGHVVLPG             -1.0000     NotChecked  -21.0012    1251.6976   ✗       
+861   +43.006GFLEDHVVLPR       -1.0000     NotChecked  -21.0105    1323.6935   ✗       
+862   +42.011GFLEGHVVPR        -1.0000     NotChecked  -21.0106    1151.6087   ✗       
+863   KGFLEGHVVLP              -1.0000     NotChecked  -21.0144    1194.6761   ✗       
+864   VGFLEGHVLLPR             -1.0000     NotChecked  -21.0330    1335.7663   ✗       
+865   +42.011GFLEGHVVLPR       -1.0000     NotChecked  -21.0470    1264.6928   ✗       
+866   KGFLEHVVLPR              -1.0000     NotChecked  -21.0549    1293.7557   ✗       
+867   HGFLEGHVVLPK             -1.0000     NotChecked  -21.0620    1331.7350   ✗       
+868   +43.006GFLEAHVVLPR       -1.0000     NotChecked  -21.0626    1279.7037   ✗       
+869   +42.011GFLEGHVVLPK       -1.0000     NotChecked  -21.0685    1236.6867   ✗       
+870   LGFLEGHVSLPR             -1.0000     NotChecked  -21.0764    1323.7299   ✗       
+871   +42.011GFLEEHVVLPR       -1.0000     NotChecked  -21.0770    1336.7139   ✗       
+872   VGFLQ+0.984GHVVLPR       -1.0000     NotChecked  -21.0788    1321.7507   ✗       
+873   HGFLEGHVVVPR             -1.0000     NotChecked  -21.0827    1345.7255   ✗       
+874   HGFLEGHVVLVR             -1.0000     NotChecked  -21.0839    1361.7568   ✗       
+875   +42.011GFLEGHVVLVR       -1.0000     NotChecked  -21.0904    1266.7085   ✗       
+876   MGFLEGHVLLPR             -1.0000     NotChecked  -21.1032    1367.7384   ✗       
+877   +42.011GFLQ+0.984GHVVLPR -1.0000     NotChecked  -21.1248    1264.6928   ✗       
+878   +42.011GFLEGHVVRPR       -1.0000     NotChecked  -21.1256    1307.7099   ✗       
+879   VGFLEGHVVLPR             -1.0000     NotChecked  -21.1265    1321.7507   ✗       
+880   +43.006GFLEGHVVVPR       -1.0000     NotChecked  -21.1361    1251.6724   ✗       
+881   +42.011GFLKGHVVLPR       -1.0000     NotChecked  -21.1392    1263.7452   ✗       
+882   MGFLQ+0.984GHVVLPR       -1.0000     NotChecked  -21.1490    1353.7227   ✗       
+883   +42.011GFLEGHVGLPR       -1.0000     NotChecked  -21.1502    1222.6459   ✗       
+884   RGFLEGHVVLR              -1.0000     NotChecked  -21.1520    1281.7306   ✗       
+885   KGFLEAHVVLPR             -1.0000     NotChecked  -21.1574    1364.7929   ✗       
+886   GFLEGHVVVPR              -1.0000     NotChecked  -21.1599    1208.6666   ✗       
+887   +42.011GFQEGHVVLPR       -1.0000     NotChecked  -21.1638    1279.6673   ✗       
+888   +42.011GFLEGHVVGPR       -1.0000     NotChecked  -21.1702    1208.6302   ✗       
+889   HGFLEGHVLLPR             -1.0000     NotChecked  -21.1716    1373.7568   ✗       
+890   LGFLEGHVVLPG             -1.0000     NotChecked  -21.1724    1236.6867   ✗       
+891   VGFLEGHVVLP              -1.0000     NotChecked  -21.1730    1165.6495   ✗       
+892   +42.011GFLEGHVLLPR       -1.0000     NotChecked  -21.1782    1278.7085   ✗       
+893   +42.011GFLEGHVVLPLR      -1.0000     NotChecked  -21.1903    1377.7769   ✗       
+894   RGFLEGHVTLPR             -1.0000     NotChecked  -21.1935    1380.7626   ✗       
+895   MGFLEGHVVLPR             -1.0000     NotChecked  -21.1966    1353.7227   ✗       
+896   HGFLEGHVSLPR             -1.0000     NotChecked  -21.2024    1347.7048   ✗       
+897   +42.011GFLEGKVVLPR       -1.0000     NotChecked  -21.2120    1255.7289   ✗       
+898   +43.006GFLEGHVVLPR       -1.0000     NotChecked  -21.2222    1265.6881   ✗       
+899   KGFLEGHVVVPR             -1.0000     NotChecked  -21.2309    1336.7616   ✗       
+900   +42.011GFLEGHVVLPR       -1.0000     NotChecked  -21.2321    1264.6928   ✗       
+901   +42.011GFLEGHVPLPR       -1.0000     NotChecked  -21.2382    1262.6772   ✗       
+902   MGFLEGHVVLP              -1.0000     NotChecked  -21.2432    1197.6216   ✗       
+903   HGFLEGHVVTPR             -1.0000     NotChecked  -21.2509    1347.7048   ✗       
+904   +42.011GFLEGRVVLPR       -1.0000     NotChecked  -21.2521    1283.7350   ✗       
+905   +43.006GFLEGHVSLPR       -1.0000     NotChecked  -21.2557    1253.6517   ✗       
+906   +42.011GFLEGHVVTPR       -1.0000     NotChecked  -21.2575    1252.6564   ✗       
+907   +42.011GFLDGHVVLPR       -1.0000     NotChecked  -21.2579    1250.6772   ✗       
+908   HGFLQGHVVLPR             -1.0000     NotChecked  -21.2611    1358.7571   ✗       
+909   RGFLEGHVVLPR             -1.0000     NotChecked  -21.2665    1378.7834   ✗       
+910   +42.011GFLQGHVVLPR       -1.0000     NotChecked  -21.2677    1263.7088   ✗       
+911   GFLEGHVSLPR              -1.0000     NotChecked  -21.2796    1210.6459   ✗       
+912   RGFLEGHVVPPR             -1.0000     NotChecked  -21.2832    1362.7521   ✗       
+913   HGFLEGHVVLPG             -1.0000     NotChecked  -21.2983    1260.6615   ✗       
+914   HGFLEGHVVLP              -1.0000     NotChecked  -21.3116    1203.6400   ✗       
+915   KGFLEGHVVLPR             -1.0000     NotChecked  -21.3170    1350.7772   ✗       
+916   +42.011GFLEGHVVLP        -1.0000     NotChecked  -21.3181    1108.5917   ✗       
+917   +42.011GFLEGHVVLPGR      -1.0000     NotChecked  -21.3330    1321.7143   ✗       
+918   KGFLEGHVSLPR             -1.0000     NotChecked  -21.3506    1338.7408   ✗       
+919   +43.006GFLEGHVVLPG       -1.0000     NotChecked  -21.3517    1166.6084   ✗       
+920   HGFLEHVVLPR              -1.0000     NotChecked  -21.3521    1302.7197   ✗       
+921   +42.011GFLAGHVVLPR       -1.0000     NotChecked  -21.3527    1206.6873   ✗       
+922   +43.006GFLEGHVTLPR       -1.0000     NotChecked  -21.3549    1267.6673   ✗       
+923   +42.011GFLEHVVLPR        -1.0000     NotChecked  -21.3586    1207.6713   ✗       
+924   +42.011GLLEGHVVLPR       -1.0000     NotChecked  -21.3716    1230.7085   ✗       
+925   GFLEGHVVLPG              -1.0000     NotChecked  -21.3755    1123.6026   ✗       
+926   +42.011GFMEGHVVLPR       -1.0000     NotChecked  -21.3830    1282.6492   ✗       
+927   VGFLEGHVVVPR             -1.0000     NotChecked  -21.3895    1307.7350   ✗       
+928   RGFLQ+0.984GHVVLPR       -1.0000     NotChecked  -21.3974    1378.7834   ✗       
+929   +42.011GFLEGHSVLPR       -1.0000     NotChecked  -21.4003    1252.6564   ✗       
+930   +42.011GFLEDHVVLPR       -1.0000     NotChecked  -21.4091    1322.6983   ✗       
+931   +43.006GFLEGHLVLPR       -1.0000     NotChecked  -21.4098    1279.7037   ✗       
+932   +42.011GFLQ+0.984GHVVLPR -1.0000     NotChecked  -21.4178    1264.6928   ✗       
+933   +42.011GFLEGHVVLPV       -1.0000     NotChecked  -21.4260    1207.6601   ✗       
+934   +43.006GFLEGHVVLPR       -1.0000     NotChecked  -21.4279    1265.6881   ✗       
+935   +42.011GFLEGHVVLPT       -1.0000     NotChecked  -21.4284    1209.6394   ✗       
+936   +42.011GFLMGHVVLPR       -1.0000     NotChecked  -21.4303    1266.6907   ✗       
+937   +42.011GFLEGHVVLPL       -1.0000     NotChecked  -21.4367    1221.6758   ✗       
+938   RGFLEGHVVGPR             -1.0000     NotChecked  -21.4428    1322.7208   ✗       
+939   +43.006GFLEGHVVPPR       -1.0000     NotChecked  -21.4446    1249.6568   ✗       
+940   KGFLEGHVVLPG             -1.0000     NotChecked  -21.4465    1251.6976   ✗       
+941   KGFLEGHVTLPR             -1.0000     NotChecked  -21.4498    1352.7565   ✗       
+942   +42.011GFLEVHVVLPR       -1.0000     NotChecked  -21.4539    1306.7398   ✗       
+943   HGFLEAHVVLPR             -1.0000     NotChecked  -21.4546    1373.7568   ✗       
+944   +42.011GFLEGHGVLPR       -1.0000     NotChecked  -21.4581    1222.6459   ✗       
+945   MGFLEGHVVVPR             -1.0000     NotChecked  -21.4597    1339.7071   ✗       
+946   +42.011GFLEAHVVLPR       -1.0000     NotChecked  -21.4612    1278.7085   ✗       
+947   +42.011GFLLGHVVLPR       -1.0000     NotChecked  -21.4640    1248.7343   ✗       
+948   KGFLEGHLVLPR             -1.0000     NotChecked  -21.5046    1364.7929   ✗       
+949   VGFLEGHVSLPR             -1.0000     NotChecked  -21.5092    1309.7143   ✗       
+950   +42.011GFLEGHVVLPK       -1.0000     NotChecked  -21.5139    1236.6867   ✗       
+951   KGFLEGHVVLPR             -1.0000     NotChecked  -21.5227    1350.7772   ✗       
+952   HGFLEGHVVVPR             -1.0000     NotChecked  -21.5281    1345.7255   ✗       
+953   +42.011GFLEGHVVVPR       -1.0000     NotChecked  -21.5346    1250.6772   ✗       
+954   +42.011GFLEGHVVLPVR      -1.0000     NotChecked  -21.5357    1363.7612   ✗       
+955   +42.011AFLEGHVVLPR       -1.0000     NotChecked  -21.5377    1278.7085   ✗       
+956   KGFLEGHVVPPR             -1.0000     NotChecked  -21.5395    1334.7459   ✗       
+957   RGFLEGHVVLPR             -1.0000     NotChecked  -21.5442    1378.7834   ✗       
+958   +43.006GFLQ+0.984GHVVLPR -1.0000     NotChecked  -21.5589    1265.6881   ✗       
+959   +43.006GFLEGHVVRPR       -1.0000     NotChecked  -21.5596    1308.7051   ✗       
+960   +42.011GFLEGHVVKPR       -1.0000     NotChecked  -21.5627    1279.7037   ✗       
+961   MGFLEGHVSLPR             -1.0000     NotChecked  -21.5794    1341.6863   ✗       
+962   LGFLEGHVVLR              -1.0000     NotChecked  -21.5794    1238.7135   ✗       
+963   +43.006GFLEGHRVLPR       -1.0000     NotChecked  -21.5799    1322.7208   ✗       
+964   RGFLEGHVVLP              -1.0000     NotChecked  -21.5907    1222.6822   ✗       
+965   RGFLEGHVVLPR             -1.0000     NotChecked  -21.5973    1378.7834   ✗       
+966   +42.011GFFEGHVVLPR       -1.0000     NotChecked  -21.5993    1298.6772   ✗       
+967   +42.011GFLEGHVVLPQ       -1.0000     NotChecked  -21.6035    1236.6503   ✗       
+968   +43.006GFLEGHVVGPR       -1.0000     NotChecked  -21.6043    1209.6255   ✗       
+969   VGFLEGHVVLPG             -1.0000     NotChecked  -21.6051    1222.6710   ✗       
+970   RGFLEGHVVLGR             -1.0000     NotChecked  -21.6056    1338.7521   ✗       
+971   +43.006GFLEGHVVLPR       -1.0000     NotChecked  -21.6065    1265.6881   ✗       
+972   +42.011GFLEGHVVLPR       -1.0000     NotChecked  -21.6067    1264.6928   ✗       
+973   HGFLEGHVVLPR             -1.0000     NotChecked  -21.6141    1359.7412   ✗       
+974   +42.011GFLEGHVVLPR       -1.0000     NotChecked  -21.6207    1264.6928   ✗       
+975   LGFLEGHVTLPR             -1.0000     NotChecked  -21.6210    1337.7456   ✗       
+976   +43.006GFLEGHVVLLR       -1.0000     NotChecked  -21.6244    1281.7194   ✗       
+977   +42.011GFLESHVVLPR       -1.0000     NotChecked  -21.6289    1294.7034   ✗       
+978   +42.011GFLEGHVVAPR       -1.0000     NotChecked  -21.6352    1222.6459   ✗       
+979   HGFLEGHVSLPR             -1.0000     NotChecked  -21.6477    1347.7048   ✗       
+980   KGFLQ+0.984GHVVLPR       -1.0000     NotChecked  -21.6537    1350.7772   ✗       
+981   +42.011GFLEGHVSLPR       -1.0000     NotChecked  -21.6543    1252.6564   ✗       
+982   +42.011GFLC+57.021GHVVLPR-1.0000     NotChecked  -21.6642    1295.6809   ✗       
+983   +43.006GFLEGHVVLPR       -1.0000     NotChecked  -21.6703    1265.6881   ✗       
+984   MGFLEGHVVLPG             -1.0000     NotChecked  -21.6753    1254.6431   ✗       
+985   LGFLEGHVVLPR             -1.0000     NotChecked  -21.6939    1335.7663   ✗       
+986   RGFLEGHVVLPV             -1.0000     NotChecked  -21.6987    1321.7507   ✗       
+987   KGFLEGHVVGPR             -1.0000     NotChecked  -21.6991    1294.7146   ✗       
+988   +42.011GFLEGHVVLTR       -1.0000     NotChecked  -21.7004    1268.6877   ✗       
+989   KGFLEGHVVLPR             -1.0000     NotChecked  -21.7013    1350.7772   ✗       
+990   +42.011GFLEGHVVTPR       -1.0000     NotChecked  -21.7028    1252.6564   ✗       
+991   RGFLEGHVVLPL             -1.0000     NotChecked  -21.7093    1335.7663   ✗       
+992   LGFLEGHVVPPR             -1.0000     NotChecked  -21.7106    1319.7350   ✗       
+993   +42.011GFLQGHVVLPR       -1.0000     NotChecked  -21.7130    1263.7088   ✗       
+994   KGFLEGHVVLLR             -1.0000     NotChecked  -21.7192    1366.8085   ✗       
+995   +42.011GFLEGHVVLPS       -1.0000     NotChecked  -21.7282    1195.6237   ✗       
+996   +42.011GFLEKHVVLPR       -1.0000     NotChecked  -21.7294    1335.7663   ✗       
+997   +42.011GFLNGHVVLPR       -1.0000     NotChecked  -21.7426    1249.6931   ✗       
+998   HGFLEGHVVLPG             -1.0000     NotChecked  -21.7437    1260.6615   ✗       
+999   HGFLEGHVTLPR             -1.0000     NotChecked  -21.7469    1361.7204   ✗       
+1000  +42.011GFLEGHVVLPG       -1.0000     NotChecked  -21.7502    1165.6132   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: YGFLEGHVVLPR
+Similarity: 0.7140
+De Novo Score: -0.4455
+Source: Database
+Correct: ✓
+

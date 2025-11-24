@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 57
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 475.9251
+Precursor charge: 3+
+Ground truth: KIETTGVFMIMR
+Ground truth (normalized): KIETTGVFMIMR
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 192
+Used for reranking: 192
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 192 (19.2%)
+Database matches: 126 (12.6%)
+Prosit predictions: 55 (5.5%)
+Failed: 11 (1.1%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.8078
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     KLETTGVFMLMR             0.8078      Database    -0.2932     1424.7520   ✓       ✓
+2     KLETTGVFMLMR             0.8078      Database    -1.4526     1424.7520   ✓       ✓
+3     KLETTGVFMLMR             0.8078      Database    -4.2424     1424.7520   ✓       ✓
+4     KLETTGVFMLMR             0.8078      Database    -5.4018     1424.7520   ✓       ✓
+5     KLETTGVFMLMR             0.8078      Database    -8.3916     1424.7520   ✓       ✓
+6     KLETTGVFMLMR             0.8078      Database    -9.5510     1424.7520   ✓       ✓
+7     KLETTGVFMLMR             0.8078      Database    -10.0457    1424.7520   ✓       ✓
+8     KLETTGVFMLMR             0.8078      Database    -10.0716    1424.7520   ✓       ✓
+9     KLETTGVFMLMR             0.8078      Database    -11.2051    1424.7520   ✓       ✓
+10    KLETTGVFMLMR             0.8078      Database    -12.3408    1424.7520   ✓       ✓
+11    KLETTGVFMLMR             0.8078      Database    -12.8219    1424.7520   ✓       ✓
+12    KLETTGVFMLMR             0.8078      Database    -13.2962    1424.7520   ✓       ✓
+13    KLETTGVFMLMR             0.8078      Database    -13.5002    1424.7520   ✓       ✓
+14    KLETTGVFMLMR             0.8078      Database    -13.6622    1424.7520   ✓       ✓
+15    KLETTGVFMLMR             0.8078      Database    -13.9813    1424.7520   ✓       ✓
+16    KLETTGVFMLMR             0.8078      Database    -13.9949    1424.7520   ✓       ✓
+17    KLETTGVFMLMR             0.8078      Database    -14.0208    1424.7520   ✓       ✓
+18    KLETTGVFMLMR             0.8078      Database    -14.4146    1424.7520   ✓       ✓
+19    KLETTGVFMLMR             0.8078      Database    -14.4556    1424.7520   ✓       ✓
+20    KLETTGVFMLMR             0.8078      Database    -14.6415    1424.7520   ✓       ✓
+21    KLETTGVFMLMR             0.8078      Database    -14.8093    1424.7520   ✓       ✓
+22    KLETTGVFMLMR             0.8078      Database    -14.8216    1424.7520   ✓       ✓
+23    KLETTGVFMLMR             0.8078      Database    -15.1543    1424.7520   ✓       ✓
+24    KLETTGVFMLMR             0.8078      Database    -15.2434    1424.7520   ✓       ✓
+25    KLETTGVFMLMR             0.8078      Database    -15.2659    1424.7520   ✓       ✓
+26    KLETTGVFMLMR             0.8078      Database    -15.4833    1424.7520   ✓       ✓
+27    KLETTGVFMLMR             0.8078      Database    -15.5740    1424.7520   ✓       ✓
+28    KLETTGVFMLMR             0.8078      Database    -15.5850    1424.7520   ✓       ✓
+29    KLETTGVFMLMR             0.8078      Database    -15.8009    1424.7520   ✓       ✓
+30    KLETTGVFMLMR             0.8078      Database    -15.9687    1424.7520   ✓       ✓
+31    KLETTGVFMLMR             0.8078      Database    -16.4028    1424.7520   ✓       ✓
+32    KLETTGVFMLMR             0.8078      Database    -16.4253    1424.7520   ✓       ✓
+33    KLETTGVFMLMR             0.8078      Database    -16.6426    1424.7520   ✓       ✓
+34    KLETTGVFMLMR             0.8078      Database    -16.7443    1424.7520   ✓       ✓
+35    KLETTGVFMLMR             0.8078      Database    -16.7711    1424.7520   ✓       ✓
+36    KLETTGVFMLMR             0.8078      Database    -17.2454    1424.7520   ✓       ✓
+37    KLETTGVFMLMR             0.8078      Database    -17.2521    1424.7520   ✓       ✓
+38    KLETTGVFMLMR             0.8078      Database    -17.6114    1424.7520   ✓       ✓
+39    KLETTGVFMLMR             0.8078      Database    -17.6281    1424.7520   ✓       ✓
+40    KLETTGVFMLMR             0.8078      Database    -17.9305    1424.7520   ✓       ✓
+41    KLETTGVFMLMR             0.8078      Database    -17.9504    1424.7520   ✓       ✓
+42    KLETTGVFMLMR             0.8078      Database    -18.0607    1424.7520   ✓       ✓
+43    KLETTGVFMLMR             0.8078      Database    -18.1441    1424.7520   ✓       ✓
+44    KLETTGVFMLMR             0.8078      Database    -18.1700    1424.7520   ✓       ✓
+45    KLETTGVFMLMR             0.8078      Database    -18.4048    1424.7520   ✓       ✓
+46    KLETTGVFMLMR             0.8078      Database    -18.4115    1424.7520   ✓       ✓
+47    KLETTGVFMLMR             0.8078      Database    -18.5907    1424.7520   ✓       ✓
+48    KLETTGVFMLMR             0.8078      Database    -18.7585    1424.7520   ✓       ✓
+49    KLETTGVFMLMR             0.8078      Database    -18.7708    1424.7520   ✓       ✓
+50    KLETTGVFMLMR             0.8078      Database    -18.7875    1424.7520   ✓       ✓
+51    KLETTGVFMLMR             0.8078      Database    -19.1098    1424.7520   ✓       ✓
+52    KLETTGVFMLMR             0.8078      Database    -19.1926    1424.7520   ✓       ✓
+53    KLETTGVFMLMR             0.8078      Database    -19.2152    1424.7520   ✓       ✓
+54    KLETTGVFMLMR             0.8078      Database    -19.3035    1424.7520   ✓       ✓
+55    KLETTGVFMLMR             0.8078      Database    -19.4325    1424.7520   ✓       ✓
+56    KLETTGVFMLMR             0.8078      Database    -19.5342    1424.7520   ✓       ✓
+57    KLETTGVFMLMR             0.8078      Database    -19.5819    1424.7520   ✓       ✓
+58    KLETTGVFMLMR             0.8078      Database    -19.7501    1424.7520   ✓       ✓
+59    KLETTGVFMLMR             0.8078      Database    -19.8241    1424.7520   ✓       ✓
+60    KLETTGVFMLMR             0.8078      Database    -19.9179    1424.7520   ✓       ✓
+61    KLETTGVFMLMR             0.8078      Database    -19.9837    1424.7520   ✓       ✓
+62    KLETTGVFMLMR             0.8078      Database    -20.3520    1424.7520   ✓       ✓
+63    KLETTGVFMLMR             0.8078      Database    -20.3745    1424.7520   ✓       ✓
+64    KLETTGVFMLMR             0.8078      Database    -20.5918    1424.7520   ✓       ✓
+65    KLETTGVFMLMR             0.8078      Database    -20.6935    1424.7520   ✓       ✓
+66    KLETTGVFMLMR             0.8078      Database    -20.7413    1424.7520   ✓       ✓
+67    KLETTGVFMLMR             0.8078      Database    -20.9203    1424.7520   ✓       ✓
+68    KLETTGVFMLMR             0.8078      Database    -21.1431    1424.7520   ✓       ✓
+69    KLETTGVFMLMR             0.8078      Database    -21.2013    1424.7520   ✓       ✓
+70    KLETTGVFMLMR             0.8078      Database    -21.3946    1424.7520   ✓       ✓
+71    KLETTGVFMLMR             0.8078      Database    -21.5773    1424.7520   ✓       ✓
+72    KLETTGVFMLMR             0.8078      Database    -21.7606    1424.7520   ✓       ✓
+73    KLETTGVFMLMR             0.8078      Database    -21.8997    1424.7520   ✓       ✓
+74    KLETTGVFMLMR             0.8078      Database    -22.0099    1424.7520   ✓       ✓
+75    KLETTGVFMLMR             0.8078      Database    -22.0796    1424.7520   ✓       ✓
+76    KLETTGVFMLMR             0.8078      Database    -22.0933    1424.7520   ✓       ✓
+77    KLETTGVFMLMR             0.8078      Database    -22.1192    1424.7520   ✓       ✓
+78    KLETTGVFMLMR             0.8078      Database    -22.3607    1424.7520   ✓       ✓
+79    KLETTGVFMLMR             0.8078      Database    -22.5130    1424.7520   ✓       ✓
+80    KLETTGVFMLMR             0.8078      Database    -22.5540    1424.7520   ✓       ✓
+81    KLETTGVFMLMR             0.8078      Database    -22.5744    1424.7520   ✓       ✓
+82    KLETTGVFMLMR             0.8078      Database    -22.6003    1424.7520   ✓       ✓
+83    KLETTGVFMLMR             0.8078      Database    -22.7367    1424.7520   ✓       ✓
+84    KLETTGVFMLMR             0.8078      Database    -22.7399    1424.7520   ✓       ✓
+85    KLETTGVFMLMR             0.8078      Database    -22.8630    1424.7520   ✓       ✓
+86    KLETTGVFMLMR             0.8078      Database    -22.9077    1424.7520   ✓       ✓
+87    KLETTGVFMLMR             0.8078      Database    -22.9200    1424.7520   ✓       ✓
+88    KLETTGVFMLMR             0.8078      Database    -23.0488    1424.7520   ✓       ✓
+89    KLETTGVFMLMR             0.8078      Database    -23.0590    1424.7520   ✓       ✓
+90    KLETTGVFMLMR             0.8078      Database    -23.0747    1424.7520   ✓       ✓
+91    KLETTGVFMLMR             0.8078      Database    -23.2527    1424.7520   ✓       ✓
+92    KLETTGVFMLMR             0.8078      Database    -23.2788    1424.7520   ✓       ✓
+93    KLETTGVFMLMR             0.8078      Database    -23.3417    1424.7520   ✓       ✓
+94    KLETTGVFMLMR             0.8078      Database    -23.3643    1424.7520   ✓       ✓
+95    KLETTGVFMLMR             0.8078      Database    -23.4147    1424.7520   ✓       ✓
+96    KLETTGVFMLMR             0.8078      Database    -23.4407    1424.7520   ✓       ✓
+97    KLETTGVFMLMR             0.8078      Database    -23.5311    1424.7520   ✓       ✓
+98    KLETTGVFMLMR             0.8078      Database    -23.5816    1424.7520   ✓       ✓
+99    KLETTGVFMLMR             0.8078      Database    -23.6724    1424.7520   ✓       ✓
+100   KLETTGVFMLMR             0.8078      Database    -23.6833    1424.7520   ✓       ✓
+101   KLETTGVFMLMR             0.8078      Database    -23.7338    1424.7520   ✓       ✓
+102   KLETTGVFMLMR             0.8078      Database    -23.7734    1424.7520   ✓       ✓
+103   KLETTGVFMLMR             0.8078      Database    -23.8992    1424.7520   ✓       ✓
+104   KLETTGVFMLMR             0.8078      Database    -24.0224    1424.7520   ✓       ✓
+105   KLETTGVFMLMR             0.8078      Database    -24.0671    1424.7520   ✓       ✓
+106   KLETTGVFMLMR             0.8078      Database    -24.1671    1424.7520   ✓       ✓
+107   KLETTGVFMLMR             0.8078      Database    -24.1930    1424.7520   ✓       ✓
+108   KLETTGVFMLMR             0.8078      Database    -24.2081    1424.7520   ✓       ✓
+109   KLETTGVFMLMR             0.8078      Database    -24.3940    1424.7520   ✓       ✓
+110   KLETTGVFMLMR             0.8078      Database    -24.4199    1424.7520   ✓       ✓
+111   KLETTGVFMLMR             0.8078      Database    -24.4382    1424.7520   ✓       ✓
+112   KLETTGVFMLMR             0.8078      Database    -24.5011    1424.7520   ✓       ✓
+113   KLETTGVFMLMR             0.8078      Database    -24.5171    1424.7520   ✓       ✓
+114   KLETTGVFMLMR             0.8078      Database    -24.5237    1424.7520   ✓       ✓
+115   KLETTGVFMLMR             0.8078      Database    -24.5618    1424.7520   ✓       ✓
+116   KLETTGVFMLMR             0.8078      Database    -24.5741    1424.7520   ✓       ✓
+117   KLETTGVFMLMR             0.8078      Database    -24.5878    1424.7520   ✓       ✓
+118   KLETTGVFMLMR             0.8078      Database    -24.6905    1424.7520   ✓       ✓
+119   KLETTGVFMLMR             0.8078      Database    -24.7410    1424.7520   ✓       ✓
+120   KLETTGVFMLMR             0.8078      Database    -24.8427    1424.7520   ✓       ✓
+121   KLETTGVFMLMR             0.8078      Database    -26.1590    1424.7520   ✓       ✓
+122   KLETTGVFMLMR             0.8078      Database    -27.8132    1424.7520   ✓       ✓
+123   KLETTGVFMLMR             0.8078      Database    -30.1083    1424.7520   ✓       ✓
+124   KLETTGVFMLMR             0.8078      Database    -30.5893    1424.7520   ✓       ✓
+125   KLETTGVFMLMR             0.8078      Database    -31.0637    1424.7520   ✓       ✓
+126   KLETTGVFMLMR             0.8078      Database    -31.4297    1424.7520   ✓       ✓
+127   KLQ+0.984TTGVFMLMR       0.5966      Prosit      -8.3993     1424.7520   ✓       
+128   KLQ+0.984TTGVFMLMR       0.5966      Prosit      -9.5587     1424.7520   ✓       
+129   KLQ+0.984TTGVFMLMR       0.5966      Prosit      -12.3485    1424.7520   ✓       
+130   KLQ+0.984TTGVFMLMR       0.5966      Prosit      -13.5079    1424.7520   ✓       
+131   KLQ+0.984TTGVFMLMR       0.5966      Prosit      -16.4977    1424.7520   ✓       
+132   KLQ+0.984TTGVFMLMR       0.5966      Prosit      -17.6571    1424.7520   ✓       
+133   KLQ+0.984TTGVFMLMR       0.5966      Prosit      -18.1518    1424.7520   ✓       
+134   KLQ+0.984TTGVFMLMR       0.5966      Prosit      -18.1777    1424.7520   ✓       
+135   KLQ+0.984TTGVFMLMR       0.5966      Prosit      -19.3112    1424.7520   ✓       
+136   KLQ+0.984TTGVFMLMR       0.5966      Prosit      -20.4469    1424.7520   ✓       
+137   KLQ+0.984TTGVFMLMR       0.5966      Prosit      -21.4023    1424.7520   ✓       
+138   KLQ+0.984TTGVFMLMR       0.5966      Prosit      -21.6063    1424.7520   ✓       
+139   KLQ+0.984TTGVFMLMR       0.5966      Prosit      -21.7683    1424.7520   ✓       
+140   KLQ+0.984TTGVFMLMR       0.5966      Prosit      -22.1010    1424.7520   ✓       
+141   KLQ+0.984TTGVFMLMR       0.5966      Prosit      -22.1269    1424.7520   ✓       
+142   KLQ+0.984TTGVFMLMR       0.5966      Prosit      -22.5207    1424.7520   ✓       
+143   KLQ+0.984TTGVFMLMR       0.5966      Prosit      -22.5617    1424.7520   ✓       
+144   KLQ+0.984TTGVFMLMR       0.5966      Prosit      -22.7476    1424.7520   ✓       
+145   KLQ+0.984TTGVFMLMR       0.5966      Prosit      -22.9154    1424.7520   ✓       
+146   KLQ+0.984TTGVFMLMR       0.5966      Prosit      -22.9277    1424.7520   ✓       
+147   KLQ+0.984TTGVFMLMR       0.5966      Prosit      -23.2604    1424.7520   ✓       
+148   KLQ+0.984TTGVFMLMR       0.5966      Prosit      -23.3495    1424.7520   ✓       
+149   KLQ+0.984TTGVFMLMR       0.5966      Prosit      -23.5894    1424.7520   ✓       
+150   KLQ+0.984TTGVFMLMR       0.5966      Prosit      -23.6801    1424.7520   ✓       
+151   KLQ+0.984TTGVFMLMR       0.5966      Prosit      -23.6911    1424.7520   ✓       
+152   KLQ+0.984TTGVFMLMR       0.5966      Prosit      -23.9070    1424.7520   ✓       
+153   KLQ+0.984TTGVFMLMR       0.5966      Prosit      -24.0748    1424.7520   ✓       
+154   KLQ+0.984TTGVFMLMR       0.5966      Prosit      -24.5089    1424.7520   ✓       
+155   KLQ+0.984TTGVFMLMR       0.5966      Prosit      -24.7487    1424.7520   ✓       
+156   KLQ+0.984TTGVFMLMR       0.5966      Prosit      -24.8504    1424.7520   ✓       
+157   KLQ+0.984TTGVFMLMR       0.5966      Prosit      -26.1668    1424.7520   ✓       
+158   KLQ+0.984TTGVFMLMR       0.5966      Prosit      -30.1160    1424.7520   ✓       
+159   +42.011KLSTTGVFMLMR      0.5895      Prosit      -26.7378    1424.7520   ✓       
+160   +42.011KLSTTGVFMLMR      0.5895      Prosit      -30.6870    1424.7520   ✓       
+161   KLTETGVFMLMR             0.5839      Prosit      -18.9476    1424.7520   ✓       
+162   KLTETGVFMLMR             0.5839      Prosit      -20.1070    1424.7520   ✓       
+163   KLTETGVFMLMR             0.5839      Prosit      -22.8968    1424.7520   ✓       
+164   KLTETGVFMLMR             0.5839      Prosit      -24.0562    1424.7520   ✓       
+165   Q+0.984LKTTGVFMLMR       0.5478      Prosit      -29.8461    1424.7520   ✓       
+166   KLEETGAFMLMR             0.5446      Prosit      -23.7902    1424.7156   ✓       
+167   KLTQ+0.984TGVFMLMR       0.5220      Prosit      -24.7800    1424.7520   ✓       
+168   ELKTTGVFMLMR             0.5049      Prosit      -28.6816    1424.7520   ✓       
+169   QLQ+0.984TTGVFMLMR       0.5021      Prosit      -26.6667    1424.7156   ✓       
+170   QLQ+0.984TTGVFMLMR       0.5021      Prosit      -30.6159    1424.7156   ✓       
+171   LKETTGVFMLMR             0.4960      Prosit      -29.5633    1424.7520   ✓       
+172   LKETTGVFMLMR             0.4960      Prosit      -30.7226    1424.7520   ✓       
+173   ELQTTGVFMLMR             0.4913      Prosit      -29.7197    1424.7156   ✓       
+174   RLETTGAFMLMR             0.4732      Prosit      -30.1815    1424.7268   ✓       
+175   RLTTTGVFMLMR             0.4729      Prosit      -25.3389    1424.7632   ✓       
+176   RLTTTGVFMLMR             0.4729      Prosit      -29.2881    1424.7632   ✓       
+177   RLETTGVFMLMK             0.4687      Prosit      -30.1731    1424.7520   ✓       
+178   KLEETGVFMLMK             0.4652      Prosit      -23.7818    1424.7407   ✓       
+179   +42.011KLETTGVFMAMR      0.4543      Prosit      -30.5509    1424.7156   ✓       
+180   RLETTGVFMLMQ             0.3643      Prosit      -31.0951    1424.7156   ✓       
+181   KLEETGVFMLMQ             0.3605      Prosit      -24.7038    1424.7044   ✓       
+182   KLTTTGVFMLMR             -1.0000     NotChecked  -11.2482    1396.7570   ✗       
+183   KLETAGVFMLMR             -1.0000     NotChecked  -12.0660    1394.7414   ✗       
+184   KLTTTGVFMLMR             -1.0000     NotChecked  -12.4076    1396.7570   ✗       
+185   KTETTGVFMLMR             -1.0000     NotChecked  -12.5773    1412.7156   ✗       
+186   KLSTTGVFMLMR             -1.0000     NotChecked  -12.8707    1382.7414   ✗       
+187   KVETTGVFMLMR             -1.0000     NotChecked  -12.9801    1410.7363   ✗       
+188   +42.011LETTGVFMLMR       -1.0000     NotChecked  -13.0010    1338.6676   ✗       
+189   KLETAGVFMLMR             -1.0000     NotChecked  -13.2254    1394.7414   ✗       
+190   KLKTTGVFMLMR             -1.0000     NotChecked  -13.3596    1423.8043   ✗       
+191   KTETTGVFMLMR             -1.0000     NotChecked  -13.7367    1412.7156   ✗       
+192   KLSTTGVFMLMR             -1.0000     NotChecked  -14.0301    1382.7414   ✗       
+193   KVETTGVFMLMR             -1.0000     NotChecked  -14.1394    1410.7363   ✗       
+194   KLQTTGVFMLMR             -1.0000     NotChecked  -14.3977    1423.7679   ✗       
+195   KLKTTGVFMLMR             -1.0000     NotChecked  -14.5190    1423.8043   ✗       
+196   KLETTVFMLMR              -1.0000     NotChecked  -14.7646    1367.7305   ✗       
+197   KLGTTGVFMLMR             -1.0000     NotChecked  -14.8522    1352.7308   ✗       
+198   KLDTTGVFMLMR             -1.0000     NotChecked  -14.8543    1410.7363   ✗       
+199   KLETTGVFMLPR             -1.0000     NotChecked  -14.9080    1390.7642   ✗       
+200   KLETTGVFMLER             -1.0000     NotChecked  -15.0410    1422.7541   ✗       
+201   KETTGVFMLMR              -1.0000     NotChecked  -15.0552    1311.6679   ✗       
+202   +43.006LETTGVFMLMR       -1.0000     NotChecked  -15.1274    1339.6628   ✗       
+203   KLTTTGVFMLMR             -1.0000     NotChecked  -15.1974    1396.7570   ✗       
+204   KLETTGVFMLLR             -1.0000     NotChecked  -15.3122    1406.7955   ✗       
+205   KLETTGVFMLGR             -1.0000     NotChecked  -15.3691    1350.7329   ✗       
+206   KLETTGVFMVMR             -1.0000     NotChecked  -15.4655    1410.7363   ✗       
+207   KLETTGVFMLAR             -1.0000     NotChecked  -15.4930    1364.7486   ✗       
+208   KLATTGVFMLMR             -1.0000     NotChecked  -15.4975    1366.7465   ✗       
+209   KLETVGVFMLMR             -1.0000     NotChecked  -15.4977    1422.7727   ✗       
+210   KLQTTGVFMLMR             -1.0000     NotChecked  -15.5570    1423.7679   ✗       
+211   KLETSGVFMLMR             -1.0000     NotChecked  -15.5642    1410.7363   ✗       
+212   KLETTGVFMLVR             -1.0000     NotChecked  -15.6113    1392.7799   ✗       
+213   KLEATGVFMLMR             -1.0000     NotChecked  -15.7931    1394.7414   ✗       
+214   KLETTGVFMLDR             -1.0000     NotChecked  -15.8559    1408.7384   ✗       
+215   KLETTVFMLMR              -1.0000     NotChecked  -15.9240    1367.7305   ✗       
+216   LLETTGVFMLMR             -1.0000     NotChecked  -15.9606    1409.7411   ✗       
+217   KLGTTGVFMLMR             -1.0000     NotChecked  -16.0116    1352.7308   ✗       
+218   KLDTTGVFMLMR             -1.0000     NotChecked  -16.0137    1410.7363   ✗       
+219   KLETAGVFMLMR             -1.0000     NotChecked  -16.0152    1394.7414   ✗       
+220   KLETTGVFMLR              -1.0000     NotChecked  -16.0345    1293.7115   ✗       
+221   KLETTGVFMLPR             -1.0000     NotChecked  -16.0673    1390.7642   ✗       
+222   KLETTGVFMLMK             -1.0000     NotChecked  -16.0824    1396.7458   ✗       
+223   KLETTGAFMLMR             -1.0000     NotChecked  -16.0907    1396.7207   ✗       
+224   KLETTGVFMLER             -1.0000     NotChecked  -16.2004    1422.7541   ✗       
+225   KLETTGVFMLMV             -1.0000     NotChecked  -16.2573    1367.7193   ✗       
+226   KLTTTGVFMLMR             -1.0000     NotChecked  -16.3568    1396.7570   ✗       
+227   KLETTGVFMLLR             -1.0000     NotChecked  -16.4716    1406.7955   ✗       
+228   KTETTGVFMLMR             -1.0000     NotChecked  -16.5265    1412.7156   ✗       
+229   KLETTGVFMLGR             -1.0000     NotChecked  -16.5285    1350.7329   ✗       
+230   KLETTGVFMVMR             -1.0000     NotChecked  -16.6249    1410.7363   ✗       
+231   KLETTGVFMLAR             -1.0000     NotChecked  -16.6524    1364.7486   ✗       
+232   KLATTGVFMLMR             -1.0000     NotChecked  -16.6569    1366.7465   ✗       
+233   KLETVGVFMLMR             -1.0000     NotChecked  -16.6571    1422.7727   ✗       
+234   KLETTGVFMAMR             -1.0000     NotChecked  -16.6837    1382.7050   ✗       
+235   KLETTGVFMLML             -1.0000     NotChecked  -16.6859    1381.7349   ✗       
+236   KSETTGVFMLMR             -1.0000     NotChecked  -16.6971    1398.6999   ✗       
+237   KLETSGVFMLMR             -1.0000     NotChecked  -16.7236    1410.7363   ✗       
+238   KLETTGVFMLVR             -1.0000     NotChecked  -16.7707    1392.7799   ✗       
+239   KLSTTGVFMLMR             -1.0000     NotChecked  -16.8199    1382.7414   ✗       
+240   LETTGVFMLMR              -1.0000     NotChecked  -16.9013    1296.6570   ✗       
+241   KVETTGVFMLMR             -1.0000     NotChecked  -16.9293    1410.7363   ✗       
+242   +42.011LETTGVFMLMR       -1.0000     NotChecked  -16.9502    1338.6676   ✗       
+243   KLEATGVFMLMR             -1.0000     NotChecked  -16.9525    1394.7414   ✗       
+244   KLETTGSFMLMR             -1.0000     NotChecked  -16.9947    1412.7156   ✗       
+245   KLETTGVFMLMQ             -1.0000     NotChecked  -17.0044    1396.7094   ✗       
+246   KLETTGVFMLDR             -1.0000     NotChecked  -17.0152    1408.7384   ✗       
+247   KPETTGVFMLMR             -1.0000     NotChecked  -17.0661    1408.7207   ✗       
+248   KLETTGVFELMR             -1.0000     NotChecked  -17.0723    1422.7541   ✗       
+249   KLETAGVFMLMR             -1.0000     NotChecked  -17.1746    1394.7414   ✗       
+250   KLETTGVFMLR              -1.0000     NotChecked  -17.1939    1293.7115   ✗       
+251   KLETTGVFMLMK             -1.0000     NotChecked  -17.2417    1396.7458   ✗       
+252   KLETTGAFMLMR             -1.0000     NotChecked  -17.2501    1396.7207   ✗       
+253   KLKTTGVFMLMR             -1.0000     NotChecked  -17.3088    1423.8043   ✗       
+254   KLETTGVFMLMV             -1.0000     NotChecked  -17.4167    1367.7193   ✗       
+255   KLESTGVFMLMR             -1.0000     NotChecked  -17.5046    1410.7363   ✗       
+256   KLEVTGVFMLMR             -1.0000     NotChecked  -17.5661    1422.7727   ✗       
+257   KTETTGVFMLMR             -1.0000     NotChecked  -17.6859    1412.7156   ✗       
+258   KLETTGVFLLMR             -1.0000     NotChecked  -17.6986    1406.7955   ✗       
+259   KLETTGVFMAMR             -1.0000     NotChecked  -17.8431    1382.7050   ✗       
+260   KLETTGVFMLML             -1.0000     NotChecked  -17.8453    1381.7349   ✗       
+261   KSETTGVFMLMR             -1.0000     NotChecked  -17.8565    1398.6999   ✗       
+262   KLETTGVFMTMR             -1.0000     NotChecked  -17.9453    1412.7156   ✗       
+263   KLSTTGVFMLMR             -1.0000     NotChecked  -17.9793    1382.7414   ✗       
+264   KLETTGVFDLMR             -1.0000     NotChecked  -18.0575    1408.7384   ✗       
+265   KVETTGVFMLMR             -1.0000     NotChecked  -18.0887    1410.7363   ✗       
+266   KLETTGVFTLMR             -1.0000     NotChecked  -18.1224    1394.7591   ✗       
+267   KLETTGSFMLMR             -1.0000     NotChecked  -18.1541    1412.7156   ✗       
+268   KLETTGVFMLMQ             -1.0000     NotChecked  -18.1638    1396.7094   ✗       
+269   KLETTGVHMLMR             -1.0000     NotChecked  -18.1872    1414.7425   ✗       
+270   KLETTGVFMPMR             -1.0000     NotChecked  -18.2004    1408.7207   ✗       
+271   KPETTGVFMLMR             -1.0000     NotChecked  -18.2255    1408.7207   ✗       
+272   KLETTGVFELMR             -1.0000     NotChecked  -18.2317    1422.7541   ✗       
+273   KLQTTGVFMLMR             -1.0000     NotChecked  -18.3469    1423.7679   ✗       
+274   KLETTGVFSLMR             -1.0000     NotChecked  -18.3538    1380.7435   ✗       
+275   KLETGVFMLMR              -1.0000     NotChecked  -18.4145    1323.7043   ✗       
+276   KLETTGVFMMR              -1.0000     NotChecked  -18.4630    1311.6679   ✗       
+277   KLKTTGVFMLMR             -1.0000     NotChecked  -18.4682    1423.8043   ✗       
+278   QLETTGVFMLMR             -1.0000     Failed      -18.5606    1424.7156   ✓       
+279   KLESTGVFMLMR             -1.0000     NotChecked  -18.6640    1410.7363   ✗       
+280   KLETTVFMLMR              -1.0000     NotChecked  -18.7138    1367.7305   ✗       
+281   KLEVTGVFMLMR             -1.0000     NotChecked  -18.7255    1422.7727   ✗       
+282   KLETTGVLMLMR             -1.0000     NotChecked  -18.7463    1390.7676   ✗       
+283   TLETTGVFMLMR             -1.0000     NotChecked  -18.7491    1397.7047   ✗       
+284   KLGTTGVFMLMR             -1.0000     NotChecked  -18.8014    1352.7308   ✗       
+285   KLDTTGVFMLMR             -1.0000     NotChecked  -18.8035    1410.7363   ✗       
+286   KLETTGVFLLMR             -1.0000     NotChecked  -18.8580    1406.7955   ✗       
+287   KETTGVFMLMR              -1.0000     NotChecked  -19.0045    1311.6679   ✗       
+288   KLETTGVFMLM              -1.0000     NotChecked  -19.0699    1268.6509   ✗       
+289   +43.006LETTGVFMLMR       -1.0000     NotChecked  -19.0766    1339.6628   ✗       
+290   KLETTGVFMTMR             -1.0000     NotChecked  -19.1047    1412.7156   ✗       
+291   KLETTGVFDLMR             -1.0000     NotChecked  -19.2168    1408.7384   ✗       
+292   KLETTGVDMLMR             -1.0000     NotChecked  -19.2188    1392.7105   ✗       
+293   KLETTGVFTLMR             -1.0000     NotChecked  -19.2818    1394.7591   ✗       
+294   KLETTGVFMLM              -1.0000     NotChecked  -19.2935    1268.6509   ✗       
+295   KLTTTGVFMLMR             -1.0000     NotChecked  -19.3465    1396.7570   ✗       
+296   KLETTGVHMLMR             -1.0000     NotChecked  -19.3466    1414.7425   ✗       
+297   KLETTGVFMPMR             -1.0000     NotChecked  -19.3598    1408.7207   ✗       
+298   KLETTGVFMLMG             -1.0000     NotChecked  -19.3630    1325.6723   ✗       
+299   KLETTGVFMVMR             -1.0000     NotChecked  -19.4147    1410.7363   ✗       
+300   KLATTGVFMLMR             -1.0000     NotChecked  -19.4467    1366.7465   ✗       
+301   KLETVGVFMLMR             -1.0000     NotChecked  -19.4470    1422.7727   ✗       
+302   KLETTGVSMLMR             -1.0000     NotChecked  -19.4877    1364.7156   ✗       
+303   KLQTTGVFMLMR             -1.0000     NotChecked  -19.5062    1423.7679   ✗       
+304   KLETTGVFSLMR             -1.0000     NotChecked  -19.5132    1380.7435   ✗       
+305   KLETSGVFMLMR             -1.0000     NotChecked  -19.5134    1410.7363   ✗       
+306   KLETTGVFMLME             -1.0000     NotChecked  -19.5665    1397.6934   ✗       
+307   KLETGVFMLMR              -1.0000     NotChecked  -19.5739    1323.7043   ✗       
+308   KLETTGVFMMR              -1.0000     NotChecked  -19.6224    1311.6679   ✗       
+309   KLETTGVFMLMF             -1.0000     NotChecked  -19.6810    1415.7193   ✗       
+310   KLETTGVMLMR              -1.0000     NotChecked  -19.7175    1277.6835   ✗       
+311   KLEATGVFMLMR             -1.0000     NotChecked  -19.7423    1394.7414   ✗       
+312   KLEEAGVFMLMR             -1.0000     NotChecked  -19.7655    1422.7363   ✗       
+313   KLETTGVGMLMR             -1.0000     NotChecked  -19.8473    1334.7050   ✗       
+314   KLETTVFMLMR              -1.0000     NotChecked  -19.8732    1367.7305   ✗       
+315   KLETTGVLMLMR             -1.0000     NotChecked  -19.9057    1390.7676   ✗       
+316   LLETTGVFMLMR             -1.0000     NotChecked  -19.9098    1409.7411   ✗       
+317   KLGTTGVFMLMR             -1.0000     NotChecked  -19.9608    1352.7308   ✗       
+318   KLDTTGVFMLMR             -1.0000     NotChecked  -19.9629    1410.7363   ✗       
+319   KLETTGVFMLMK             -1.0000     NotChecked  -20.0316    1396.7458   ✗       
+320   KLETTGAFMLMR             -1.0000     NotChecked  -20.0399    1396.7207   ✗       
+321   KLETAGVFMLMR             -1.0000     NotChecked  -20.1644    1394.7414   ✗       
+322   KLQ+0.984TAGVFMLMR       -1.0000     NotChecked  -20.1721    1394.7414   ✗       
+323   KLETTGVFMLMV             -1.0000     NotChecked  -20.2066    1367.7193   ✗       
+324   KLETTGVFMLM              -1.0000     NotChecked  -20.2293    1268.6509   ✗       
+325   KLETTGVVMLMR             -1.0000     NotChecked  -20.3443    1376.7520   ✗       
+326   KLETTGVDMLMR             -1.0000     NotChecked  -20.3782    1392.7105   ✗       
+327   KLETTGVFMLM              -1.0000     NotChecked  -20.4529    1268.6509   ✗       
+328   KLTTTGVFMLMR             -1.0000     NotChecked  -20.5059    1396.7570   ✗       
+329   KLETTGVFMLMG             -1.0000     NotChecked  -20.5224    1325.6723   ✗       
+330   KLSETGVFMLMR             -1.0000     NotChecked  -20.5702    1410.7363   ✗       
+331   KLETTGVFMVMR             -1.0000     NotChecked  -20.5741    1410.7363   ✗       
+332   KLATTGVFMLMR             -1.0000     NotChecked  -20.6061    1366.7465   ✗       
+333   KLETVGVFMLMR             -1.0000     NotChecked  -20.6063    1422.7727   ✗       
+334   KLETTGVFMAMR             -1.0000     NotChecked  -20.6329    1382.7050   ✗       
+335   KLETTGVFMLML             -1.0000     NotChecked  -20.6351    1381.7349   ✗       
+336   KSETTGVFMLMR             -1.0000     NotChecked  -20.6463    1398.6999   ✗       
+337   KLETTGVSMLMR             -1.0000     NotChecked  -20.6471    1364.7156   ✗       
+338   KLETSGVFMLMR             -1.0000     NotChecked  -20.6728    1410.7363   ✗       
+339   KTETTGVFMLMR             -1.0000     NotChecked  -20.6757    1412.7156   ✗       
+340   KTQ+0.984TTGVFMLMR       -1.0000     NotChecked  -20.6834    1412.7156   ✗       
+341   +42.011LEETGVFMLMR       -1.0000     NotChecked  -20.7004    1366.6625   ✗       
+342   KLETTGVFMLME             -1.0000     NotChecked  -20.7258    1397.6934   ✗       
+343   KLETTGVFMLMF             -1.0000     NotChecked  -20.8404    1415.7193   ✗       
+344   LETTGVFMLMR              -1.0000     NotChecked  -20.8505    1296.6570   ✗       
+345   KLETTGVMLMR              -1.0000     NotChecked  -20.8769    1277.6835   ✗       
+346   KLEATGVFMLMR             -1.0000     NotChecked  -20.9017    1394.7414   ✗       
+347   KLEEAGVFMLMR             -1.0000     NotChecked  -20.9248    1422.7363   ✗       
+348   KLETTGSFMLMR             -1.0000     NotChecked  -20.9439    1412.7156   ✗       
+349   KLETTGVFMLMQ             -1.0000     NotChecked  -20.9536    1396.7094   ✗       
+350   KLSTTGVFMLMR             -1.0000     NotChecked  -20.9691    1382.7414   ✗       
+351   KLTTTGVFMLMR             -1.0000     NotChecked  -21.0007    1396.7570   ✗       
+352   KLETTGVGMLMR             -1.0000     NotChecked  -21.0066    1334.7050   ✗       
+353   KPETTGVFMLMR             -1.0000     NotChecked  -21.0153    1408.7207   ✗       
+354   KLETTGVFELMR             -1.0000     NotChecked  -21.0215    1422.7541   ✗       
+355   KLTTTGVFMLMR             -1.0000     NotChecked  -21.0266    1396.7570   ✗       
+356   KVETTGVFMLMR             -1.0000     NotChecked  -21.0784    1410.7363   ✗       
+357   KVQ+0.984TTGVFMLMR       -1.0000     NotChecked  -21.0862    1410.7363   ✗       
+358   +42.011LETTGVFMLMR       -1.0000     NotChecked  -21.0993    1338.6676   ✗       
+359   +42.011LQ+0.984TTGVFMLMR -1.0000     NotChecked  -21.1071    1338.6676   ✗       
+360   KLETTGVFMLMK             -1.0000     NotChecked  -21.1910    1396.7458   ✗       
+361   KLETTGAFMLMR             -1.0000     NotChecked  -21.1993    1396.7207   ✗       
+362   KLTTEGVFMLMR             -1.0000     Failed      -21.2896    1424.7520   ✓       
+363   KLETAGVFMLMR             -1.0000     NotChecked  -21.3238    1394.7414   ✗       
+364   KLQ+0.984TAGVFMLMR       -1.0000     NotChecked  -21.3315    1394.7414   ✗       
+365   KLETTGVFMLMV             -1.0000     NotChecked  -21.3659    1367.7193   ✗       
+366   KLESTGVFMLMR             -1.0000     NotChecked  -21.4538    1410.7363   ✗       
+367   KLKTTGVFMLMR             -1.0000     NotChecked  -21.4580    1423.8043   ✗       
+368   KLETTGVVMLMR             -1.0000     NotChecked  -21.5037    1376.7520   ✗       
+369   KLEVTGVFMLMR             -1.0000     NotChecked  -21.5153    1422.7727   ✗       
+370   KLETTGVFLLMR             -1.0000     NotChecked  -21.6478    1406.7955   ✗       
+371   KLSETGVFMLMR             -1.0000     NotChecked  -21.7296    1410.7363   ✗       
+372   KLETTGVFMAMR             -1.0000     NotChecked  -21.7923    1382.7050   ✗       
+373   KLETTGVFMLML             -1.0000     NotChecked  -21.7945    1381.7349   ✗       
+374   KSETTGVFMLMR             -1.0000     NotChecked  -21.8057    1398.6999   ✗       
+375   KLETAGVFMLMR             -1.0000     NotChecked  -21.8185    1394.7414   ✗       
+376   KTETTGVFMLMR             -1.0000     NotChecked  -21.8350    1412.7156   ✗       
+377   KTQ+0.984TTGVFMLMR       -1.0000     NotChecked  -21.8428    1412.7156   ✗       
+378   KLETAGVFMLMR             -1.0000     NotChecked  -21.8444    1394.7414   ✗       
+379   KLETTGVFMTMR             -1.0000     NotChecked  -21.8945    1412.7156   ✗       
+380   KLETTGVFDLMR             -1.0000     NotChecked  -22.0067    1408.7384   ✗       
+381   KLETTGVFTLMR             -1.0000     NotChecked  -22.0716    1394.7591   ✗       
+382   KLETTGSFMLMR             -1.0000     NotChecked  -22.1033    1412.7156   ✗       
+383   KLETTGVFMLMQ             -1.0000     NotChecked  -22.1130    1396.7094   ✗       
+384   KLSTTGVFMLMR             -1.0000     NotChecked  -22.1285    1382.7414   ✗       
+385   KLETTGVHMLMR             -1.0000     NotChecked  -22.1364    1414.7425   ✗       
+386   KLETTGVFMPMR             -1.0000     NotChecked  -22.1496    1408.7207   ✗       
+387   KLTTTGVFMLMR             -1.0000     NotChecked  -22.1601    1396.7570   ✗       
+388   KPETTGVFMLMR             -1.0000     NotChecked  -22.1747    1408.7207   ✗       
+389   KLETTGVFELMR             -1.0000     NotChecked  -22.1809    1422.7541   ✗       
+390   KVETTGVFMLMR             -1.0000     NotChecked  -22.2378    1410.7363   ✗       
+391   KVQ+0.984TTGVFMLMR       -1.0000     NotChecked  -22.2456    1410.7363   ✗       
+392   KLETTGVFSLMR             -1.0000     NotChecked  -22.3030    1380.7435   ✗       
+393   KTETTGVFMLMR             -1.0000     NotChecked  -22.3298    1412.7156   ✗       
+394   KLETGVFMLMR              -1.0000     NotChecked  -22.3637    1323.7043   ✗       
+395   KLTTEGVFMLMR             -1.0000     Failed      -22.4490    1424.7520   ✓       
+396   KLEETVFMLMR              -1.0000     NotChecked  -22.4641    1395.7254   ✗       
+397   KLQTTGVFMLMR             -1.0000     NotChecked  -22.4960    1423.7679   ✗       
+398   QLETTGVFMLMR             -1.0000     Failed      -22.5098    1424.7156   ✓       
+399   KLGETGVFMLMR             -1.0000     NotChecked  -22.5517    1380.7258   ✗       
+400   KLEETGVFMLPR             -1.0000     NotChecked  -22.6074    1418.7592   ✗       
+401   KLESTGVFMLMR             -1.0000     NotChecked  -22.6132    1410.7363   ✗       
+402   KLKTTGVFMLMR             -1.0000     NotChecked  -22.6174    1423.8043   ✗       
+403   KLSTTGVFMLMR             -1.0000     NotChecked  -22.6232    1382.7414   ✗       
+404   KLSTTGVFMLMR             -1.0000     NotChecked  -22.6491    1382.7414   ✗       
+405   KLEVTGVFMLMR             -1.0000     NotChecked  -22.6747    1422.7727   ✗       
+406   KLETTGVLMLMR             -1.0000     NotChecked  -22.6955    1390.7676   ✗       
+407   TLETTGVFMLMR             -1.0000     NotChecked  -22.6983    1397.7047   ✗       
+408   KVETTGVFMLMR             -1.0000     NotChecked  -22.7326    1410.7363   ✗       
+409   +42.011LETTGVFMLMR       -1.0000     NotChecked  -22.7535    1338.6676   ✗       
+410   KEETGVFMLMR              -1.0000     NotChecked  -22.7547    1339.6628   ✗       
+411   +42.011LETTGVFMLMR       -1.0000     NotChecked  -22.7794    1338.6676   ✗       
+412   KLETTGVFLLMR             -1.0000     NotChecked  -22.8072    1406.7955   ✗       
+413   +43.006LEETGVFMLMR       -1.0000     NotChecked  -22.8269    1367.6577   ✗       
+414   KLQ+0.984TTVFMLMR        -1.0000     NotChecked  -22.8707    1367.7305   ✗       
+415   KLSTEGVFMLMR             -1.0000     NotChecked  -22.9121    1410.7363   ✗       
+416   KLGTTGVFMLMR             -1.0000     NotChecked  -22.9506    1352.7308   ✗       
+417   KLDTTGVFMLMR             -1.0000     NotChecked  -22.9526    1410.7363   ✗       
+418   KLETAGVFMLMR             -1.0000     NotChecked  -22.9779    1394.7414   ✗       
+419   KLETTGVFMLPR             -1.0000     NotChecked  -23.0063    1390.7642   ✗       
+420   KETTTGVFMLMR             -1.0000     NotChecked  -23.0117    1412.7156   ✗       
+421   KLQ+0.984TTGVFMLPR       -1.0000     NotChecked  -23.0141    1390.7642   ✗       
+422   KLETTGVFMLM              -1.0000     NotChecked  -23.0191    1268.6509   ✗       
+423   KLTTAGVFMLMR             -1.0000     NotChecked  -23.0209    1366.7465   ✗       
+424   +42.011LETEGVFMLMR       -1.0000     NotChecked  -23.0424    1366.6625   ✗       
+425   KLETTGVFMTMR             -1.0000     NotChecked  -23.0539    1412.7156   ✗       
+426   KLEETGVFMLGR             -1.0000     NotChecked  -23.0685    1378.7279   ✗       
+427   KLKTTGVFMLMR             -1.0000     NotChecked  -23.1121    1423.8043   ✗       
+428   KLKTTGVFMLMR             -1.0000     NotChecked  -23.1380    1423.8043   ✗       
+429   KLETTGVFMLER             -1.0000     NotChecked  -23.1394    1422.7541   ✗       
+430   KLQ+0.984TTGVFMLER       -1.0000     NotChecked  -23.1472    1422.7541   ✗       
+431   KETTGVFMLMR              -1.0000     NotChecked  -23.1536    1311.6679   ✗       
+432   KQ+0.984TTGVFMLMR        -1.0000     NotChecked  -23.1613    1311.6679   ✗       
+433   KLETTGVFDLMR             -1.0000     NotChecked  -23.1660    1408.7384   ✗       
+434   KLETTGVDMLMR             -1.0000     NotChecked  -23.1680    1392.7105   ✗       
+435   KLEETGVFMLAR             -1.0000     NotChecked  -23.1925    1392.7435   ✗       
+436   KLAETGVFMLMR             -1.0000     NotChecked  -23.1969    1394.7414   ✗       
+437   +43.006LETTGVFMLMR       -1.0000     NotChecked  -23.2258    1339.6628   ✗       
+438   KLETTGVFTLMR             -1.0000     NotChecked  -23.2310    1394.7591   ✗       
+439   +43.006LQ+0.984TTGVFMLMR -1.0000     NotChecked  -23.2335    1339.6628   ✗       
+440   KLETTGVFMLM              -1.0000     NotChecked  -23.2427    1268.6509   ✗       
+441   KLTTTGVFMLMR             -1.0000     NotChecked  -23.2958    1396.7570   ✗       
+442   KLETTGVHMLMR             -1.0000     NotChecked  -23.2958    1414.7425   ✗       
+443   KLETTGVFMPMR             -1.0000     NotChecked  -23.3090    1408.7207   ✗       
+444   KLEETGVFMLVR             -1.0000     NotChecked  -23.3108    1420.7748   ✗       
+445   KLETTGVFMLMG             -1.0000     NotChecked  -23.3122    1325.6723   ✗       
+446   KLETTGVFMLLR             -1.0000     NotChecked  -23.4106    1406.7955   ✗       
+447   KLQ+0.984TTGVFMLLR       -1.0000     NotChecked  -23.4183    1406.7955   ✗       
+448   KLETTGVSMLMR             -1.0000     NotChecked  -23.4369    1364.7156   ✗       
+449   KLETTGVFSLMR             -1.0000     NotChecked  -23.4624    1380.7435   ✗       
+450   KLETTGVFMLGR             -1.0000     NotChecked  -23.4674    1350.7329   ✗       
+451   KLQ+0.984TTGVFMLGR       -1.0000     NotChecked  -23.4752    1350.7329   ✗       
+452   KTETTGVFMLMR             -1.0000     NotChecked  -23.4892    1412.7156   ✗       
+453   KLETTGVFMLME             -1.0000     NotChecked  -23.5157    1397.6934   ✗       
+454   KLETGVFMLMR              -1.0000     NotChecked  -23.5231    1323.7043   ✗       
+455   KTTTTGVFMLMR             -1.0000     NotChecked  -23.5322    1384.7206   ✗       
+456   KLETTGVFMVMR             -1.0000     NotChecked  -23.5639    1410.7363   ✗       
+457   KLQ+0.984TTGVFMVMR       -1.0000     NotChecked  -23.5716    1410.7363   ✗       
+458   KLETTGVFMLAR             -1.0000     NotChecked  -23.5914    1364.7486   ✗       
+459   KLATTGVFMLMR             -1.0000     NotChecked  -23.5959    1366.7465   ✗       
+460   KLETVGVFMLMR             -1.0000     NotChecked  -23.5961    1422.7727   ✗       
+461   KLQ+0.984TTGVFMLAR       -1.0000     NotChecked  -23.5991    1364.7486   ✗       
+462   KLQ+0.984TVGVFMLMR       -1.0000     NotChecked  -23.6038    1422.7727   ✗       
+463   KLEETVFMLMR              -1.0000     NotChecked  -23.6234    1395.7254   ✗       
+464   KLETTGVFMLMF             -1.0000     NotChecked  -23.6302    1415.7193   ✗       
+465   KLQTTGVFMLMR             -1.0000     NotChecked  -23.6554    1423.7679   ✗       
+466   KLETSGVFMLMR             -1.0000     NotChecked  -23.6626    1410.7363   ✗       
+467   KLETTGVMLMR              -1.0000     NotChecked  -23.6667    1277.6835   ✗       
+468   KLQ+0.984TSGVFMLMR       -1.0000     NotChecked  -23.6703    1410.7363   ✗       
+469   KLETTGVFMLVR             -1.0000     NotChecked  -23.7097    1392.7799   ✗       
+470   KLGETGVFMLMR             -1.0000     NotChecked  -23.7111    1380.7258   ✗       
+471   KLEEAGVFMLMR             -1.0000     NotChecked  -23.7147    1422.7363   ✗       
+472   KLQ+0.984TTGVFMLVR       -1.0000     NotChecked  -23.7174    1392.7799   ✗       
+473   KLEETGVFMLR              -1.0000     NotChecked  -23.7340    1321.7064   ✗       
+474   KLEETGVFMLPR             -1.0000     NotChecked  -23.7668    1418.7592   ✗       
+475   KLSTTGVFMLMR             -1.0000     NotChecked  -23.7826    1382.7414   ✗       
+476   KLETTGVGMLMR             -1.0000     NotChecked  -23.7965    1334.7050   ✗       
+477   KEETAGVFMLMR             -1.0000     NotChecked  -23.8295    1410.6999   ✗       
+478   KLETTGVLMLMR             -1.0000     NotChecked  -23.8549    1390.7676   ✗       
+479   KLEATGVFMLMR             -1.0000     NotChecked  -23.8915    1394.7414   ✗       
+480   KVETTGVFMLMR             -1.0000     NotChecked  -23.8920    1410.7363   ✗       
+481   KLQ+0.984ATGVFMLMR       -1.0000     NotChecked  -23.8992    1394.7414   ✗       
+482   KVTTTGVFMLMR             -1.0000     NotChecked  -23.9350    1382.7414   ✗       
+483   KLTTLGVFMLMR             -1.0000     NotChecked  -23.9384    1408.7934   ✗       
+484   KLETTGVFMLDR             -1.0000     NotChecked  -23.9542    1408.7384   ✗       
+485   +42.011LTTTGVFMLMR       -1.0000     NotChecked  -23.9559    1310.6726   ✗       
+486   KLEETGVFMLMV             -1.0000     NotChecked  -23.9568    1395.7142   ✗       
+487   KLQ+0.984TTGVFMLDR       -1.0000     NotChecked  -23.9620    1408.7384   ✗       
+488   KLQ+0.984TTVFMLMR        -1.0000     NotChecked  -24.0301    1367.7305   ✗       
+489   LLETTGVFMLMR             -1.0000     NotChecked  -24.0590    1409.7411   ✗       
+490   LLQ+0.984TTGVFMLMR       -1.0000     NotChecked  -24.0667    1409.7411   ✗       
+491   KLSTEGVFMLMR             -1.0000     NotChecked  -24.0715    1410.7363   ✗       
+492   KLGTTGVFMLMR             -1.0000     NotChecked  -24.1100    1352.7308   ✗       
+493   KLDTTGVFMLMR             -1.0000     NotChecked  -24.1120    1410.7363   ✗       
+494   KLETAGVFMLMR             -1.0000     NotChecked  -24.1136    1394.7414   ✗       
+495   KLQ+0.984TAGVFMLMR       -1.0000     NotChecked  -24.1213    1394.7414   ✗       
+496   KLTTTGLFMLMR             -1.0000     NotChecked  -24.1277    1410.7727   ✗       
+497   KLETTGVFMLR              -1.0000     NotChecked  -24.1329    1293.7115   ✗       
+498   KLQ+0.984TTGVFMLR        -1.0000     NotChecked  -24.1406    1293.7115   ✗       
+499   KLQTTGVFMLMR             -1.0000     NotChecked  -24.1502    1423.7679   ✗       
+500   KLETTGVFMLPR             -1.0000     NotChecked  -24.1657    1390.7642   ✗       
+501   KETTTGVFMLMR             -1.0000     NotChecked  -24.1711    1412.7156   ✗       
+502   KLQ+0.984TTGVFMLPR       -1.0000     NotChecked  -24.1735    1390.7642   ✗       
+503   KLQTTGVFMLMR             -1.0000     NotChecked  -24.1761    1423.7679   ✗       
+504   KLETTGVFMLM              -1.0000     NotChecked  -24.1785    1268.6509   ✗       
+505   KLTTAGVFMLMR             -1.0000     NotChecked  -24.1803    1366.7465   ✗       
+506   KLETTGVFMLMK             -1.0000     NotChecked  -24.1807    1396.7458   ✗       
+507   KLQ+0.984TTGVFMLMK       -1.0000     NotChecked  -24.1885    1396.7458   ✗       
+508   KLETTGAFMLMR             -1.0000     NotChecked  -24.1891    1396.7207   ✗       
+509   KLQ+0.984TTGAFMLMR       -1.0000     NotChecked  -24.1968    1396.7207   ✗       
+510   KLEETGVFMLGR             -1.0000     NotChecked  -24.2279    1378.7279   ✗       
+511   KLTTTGVFMLMR             -1.0000     NotChecked  -24.2512    1396.7570   ✗       
+512   KLKTTGVFMLMR             -1.0000     NotChecked  -24.2715    1423.8043   ✗       
+513   KLETTGVVMLMR             -1.0000     NotChecked  -24.2935    1376.7520   ✗       
+514   KLETTGVFMLER             -1.0000     NotChecked  -24.2988    1422.7541   ✗       
+515   KLQ+0.984TTGVFMLER       -1.0000     NotChecked  -24.3065    1422.7541   ✗       
+516   KLETTGVDMLMR             -1.0000     NotChecked  -24.3274    1392.7105   ✗       
+517   KTETAGVFMLMR             -1.0000     NotChecked  -24.3501    1382.7050   ✗       
+518   KLEETGVFMLAR             -1.0000     NotChecked  -24.3519    1392.7435   ✗       
+519   KLETTGVFMLMV             -1.0000     NotChecked  -24.3557    1367.7193   ✗       
+520   KLAETGVFMLMR             -1.0000     NotChecked  -24.3563    1394.7414   ✗       
+521   KLQ+0.984TTGVFMLMV       -1.0000     NotChecked  -24.3635    1367.7193   ✗       
+522   KLEETGVFMAMR             -1.0000     NotChecked  -24.3832    1410.6999   ✗       
+523   KLEETGVFMLML             -1.0000     NotChecked  -24.3854    1409.7298   ✗       
+524   KLETTGVFMLM              -1.0000     NotChecked  -24.4021    1268.6509   ✗       
+525   KLTTTGVFMLMR             -1.0000     NotChecked  -24.4551    1396.7570   ✗       
+526   KLEETGVFMLVR             -1.0000     NotChecked  -24.4702    1420.7748   ✗       
+527   KLETTGVFMLMG             -1.0000     NotChecked  -24.4716    1325.6723   ✗       
+528   KLSETGVFMLMR             -1.0000     NotChecked  -24.5194    1410.7363   ✗       
+529   KLETTVFMLMR              -1.0000     NotChecked  -24.5430    1367.7305   ✗       
+530   KLETTGVFMLLR             -1.0000     NotChecked  -24.5700    1406.7955   ✗       
+531   KLQ+0.984TTGVFMLLR       -1.0000     NotChecked  -24.5777    1406.7955   ✗       
+532   KETTGVFMLMR              -1.0000     NotChecked  -24.5854    1311.6679   ✗       
+533   KLETAGVFMLMR             -1.0000     NotChecked  -24.5947    1394.7414   ✗       
+534   KLETTGVSMLMR             -1.0000     NotChecked  -24.5963    1364.7156   ✗       
+535   LEETGVFMLMR              -1.0000     NotChecked  -24.6007    1324.6519   ✗       
+536   KLGTTGVFMLMR             -1.0000     NotChecked  -24.6047    1352.7308   ✗       
+537   KLDTTGVFMLMR             -1.0000     NotChecked  -24.6068    1410.7363   ✗       
+538   KLTTTGVFMLMR             -1.0000     NotChecked  -24.6172    1396.7570   ✗       
+539   KTETTGVFMLMR             -1.0000     NotChecked  -24.6249    1412.7156   ✗       
+540   KLETTGVFMLGR             -1.0000     NotChecked  -24.6268    1350.7329   ✗       
+541   KLGTTGVFMLMR             -1.0000     NotChecked  -24.6307    1352.7308   ✗       
+542   KTQ+0.984TTGVFMLMR       -1.0000     NotChecked  -24.6326    1412.7156   ✗       
+543   KLDTTGVFMLMR             -1.0000     NotChecked  -24.6327    1410.7363   ✗       
+544   KESTTGVFMLMR             -1.0000     NotChecked  -24.6342    1398.6999   ✗       
+545   KLQ+0.984TTGVFMLGR       -1.0000     NotChecked  -24.6346    1350.7329   ✗       
+546   KLSTAGVFMLMR             -1.0000     NotChecked  -24.6435    1352.7308   ✗       
+547   +42.011LEETGVFMLMR       -1.0000     NotChecked  -24.6496    1366.6625   ✗       
+548   KLETTGVFMLPR             -1.0000     NotChecked  -24.6605    1390.7642   ✗       
+549   KLETTGVFMLME             -1.0000     NotChecked  -24.6751    1397.6934   ✗       
+550   KLETTGVFMLPR             -1.0000     NotChecked  -24.6864    1390.7642   ✗       
+551   KTTTTGVFMLMR             -1.0000     NotChecked  -24.6916    1384.7206   ✗       
+552   KLETTGVFMVMR             -1.0000     NotChecked  -24.7233    1410.7363   ✗       
+553   KLQ+0.984TTGVFMVMR       -1.0000     NotChecked  -24.7310    1410.7363   ✗       
+554   KLETTGVFMLAR             -1.0000     NotChecked  -24.7508    1364.7486   ✗       
+555   KVETAGVFMLMR             -1.0000     NotChecked  -24.7528    1380.7258   ✗       
+556   KLATTGVFMLMR             -1.0000     NotChecked  -24.7552    1366.7465   ✗       
+557   KLETVGVFMLMR             -1.0000     NotChecked  -24.7555    1422.7727   ✗       
+558   KLQ+0.984TTGVFMLAR       -1.0000     NotChecked  -24.7585    1364.7486   ✗       
+559   KLQ+0.984TVGVFMLMR       -1.0000     NotChecked  -24.7632    1422.7727   ✗       
+560   +42.011EETTGVFMLMR       -1.0000     NotChecked  -24.7645    1354.6261   ✗       
+561   +42.011LETAGVFMLMR       -1.0000     NotChecked  -24.7737    1308.6570   ✗       
+562   KLETTGVFMAMR             -1.0000     NotChecked  -24.7821    1382.7050   ✗       
+563   KLETTGVFMLML             -1.0000     NotChecked  -24.7843    1381.7349   ✗       
+564   KLETTGVFMLMF             -1.0000     NotChecked  -24.7896    1415.7193   ✗       
+565   KLQ+0.984TTGVFMAMR       -1.0000     NotChecked  -24.7898    1382.7050   ✗       
+566   KLQ+0.984TTGVFMLML       -1.0000     NotChecked  -24.7920    1381.7349   ✗       
+567   KLETTGVFMLER             -1.0000     NotChecked  -24.7936    1422.7541   ✗       
+568   KSETTGVFMLMR             -1.0000     NotChecked  -24.7955    1398.6999   ✗       
+569   KSQ+0.984TTGVFMLMR       -1.0000     NotChecked  -24.8032    1398.6999   ✗       
+570   KLETEVFMLMR              -1.0000     NotChecked  -24.8060    1395.7254   ✗       
+571   KETTGVFMLMR              -1.0000     NotChecked  -24.8078    1311.6679   ✗       
+572   KLETTGVFMLER             -1.0000     NotChecked  -24.8195    1422.7541   ✗       
+573   KLETSGVFMLMR             -1.0000     NotChecked  -24.8219    1410.7363   ✗       
+574   KLETTGVMLMR              -1.0000     NotChecked  -24.8261    1277.6835   ✗       
+575   KLQ+0.984TSGVFMLMR       -1.0000     NotChecked  -24.8297    1410.7363   ✗       
+576   KKTTTGVFMLMR             -1.0000     NotChecked  -24.8508    1411.7679   ✗       
+577   +43.006LETTGVFMLMR       -1.0000     NotChecked  -24.8799    1339.6628   ✗       
+578   +43.006LETTGVFMLMR       -1.0000     NotChecked  -24.9059    1339.6628   ✗       
+579   LETTGVFMLMR              -1.0000     NotChecked  -24.9997    1296.6570   ✗       
+580   LQ+0.984TTGVFMLMR        -1.0000     NotChecked  -25.0074    1296.6570   ✗       
+581   +42.011LETTGVFMLMR       -1.0000     NotChecked  -25.0485    1338.6676   ✗       
+582   +42.011LQ+0.984TTGVFMLMR -1.0000     NotChecked  -25.0563    1338.6676   ✗       
+583   +43.006LETEGVFMLMR       -1.0000     NotChecked  -25.1688    1367.6577   ✗       
+584   +42.011TETTGVFMLMR       -1.0000     NotChecked  -25.2850    1326.6312   ✗       
+585   +42.011LETTGVFMLMR       -1.0000     NotChecked  -25.5296    1338.6676   ✗       
+586   +42.011LSTTGVFMLMR       -1.0000     NotChecked  -25.5784    1296.6570   ✗       
+587   +42.011VETTGVFMLMR       -1.0000     NotChecked  -25.6878    1324.6519   ✗       
+588   +42.011LETLGVFMLMR       -1.0000     NotChecked  -25.6912    1350.7040   ✗       
+589   LLETTGVFMLMR             -1.0000     NotChecked  -25.7131    1409.7411   ✗       
+590   LETTGVFMLMR              -1.0000     NotChecked  -25.7390    1296.6570   ✗       
+591   +42.011LETTGLFMLMR       -1.0000     NotChecked  -25.8805    1352.6832   ✗       
+592   +42.011LETTGVFMLMR       -1.0000     NotChecked  -26.0040    1338.6676   ✗       
+593   +42.011LKTTGVFMLMR       -1.0000     NotChecked  -26.0674    1337.7199   ✗       
+594   +43.006LTTTGVFMLMR       -1.0000     NotChecked  -26.0824    1311.6679   ✗       
+595   RLETAGVFMLMR             -1.0000     NotChecked  -26.1568    1422.7476   ✗       
+596   +42.011LETTGVFMLMR       -1.0000     NotChecked  -26.3700    1338.6676   ✗       
+597   +42.011LEQ+0.984TGVFMLMR -1.0000     NotChecked  -26.5328    1366.6625   ✗       
+598   ELTTTGVFMLMR             -1.0000     NotChecked  -26.5702    1397.7047   ✗       
+599   +42.011KETTGVFMLMR       -1.0000     NotChecked  -26.6036    1353.6785   ✗       
+600   LETTGVFMLMR              -1.0000     NotChecked  -26.6538    1296.6570   ✗       
+601   QLETTGVFMLMR             -1.0000     Failed      -26.6590    1424.7156   ✓       
+602   LETTGVFMLMR              -1.0000     NotChecked  -26.6797    1296.6570   ✗       
+603   +42.011LETTGVFMLMR       -1.0000     NotChecked  -26.7027    1338.6676   ✗       
+604   +42.011LETTGVFMLMR       -1.0000     NotChecked  -26.7286    1338.6676   ✗       
+605   +43.006LEETGVFMLMR       -1.0000     NotChecked  -26.7761    1367.6577   ✗       
+606   TLETTGVFMLMR             -1.0000     NotChecked  -26.8475    1397.7047   ✗       
+607   TLQ+0.984TTGVFMLMR       -1.0000     NotChecked  -26.8552    1397.7047   ✗       
+608   +43.006EETTGVFMLMR       -1.0000     NotChecked  -26.8910    1355.6213   ✗       
+609   +43.006LETAGVFMLMR       -1.0000     NotChecked  -26.9002    1309.6523   ✗       
+610   LLTTTGVFMLMR             -1.0000     NotChecked  -26.9156    1381.7461   ✗       
+611   LETEGVFMLMR              -1.0000     NotChecked  -26.9427    1324.6519   ✗       
+612   RLSTTGVFMLMR             -1.0000     NotChecked  -26.9615    1410.7475   ✗       
+613   +42.011LETQ+0.984GVFMLMR -1.0000     NotChecked  -26.9894    1366.6625   ✗       
+614   +42.011LETEGVFMLMR       -1.0000     NotChecked  -26.9916    1366.6625   ✗       
+615   +42.011LQTTGVFMLMR       -1.0000     NotChecked  -27.1054    1337.6835   ✗       
+616   +42.011LETTGVFMLMR       -1.0000     NotChecked  -27.1224    1338.6676   ✗       
+617   +42.011LETTAVFMLMR       -1.0000     NotChecked  -27.1681    1352.6832   ✗       
+618   +43.006LETTGVFMLMR       -1.0000     NotChecked  -27.1750    1339.6628   ✗       
+619   +43.006LQ+0.984TTGVFMLMR -1.0000     NotChecked  -27.1827    1339.6628   ✗       
+620   +42.011LETTGVFMMMR       -1.0000     NotChecked  -27.2216    1356.6240   ✗       
+621   +42.011LETTGVFMLMR       -1.0000     NotChecked  -27.3492    1338.6676   ✗       
+622   ELETAGVFMLMR             -1.0000     NotChecked  -27.3880    1395.6890   ✗       
+623   +43.006TETTGVFMLMR       -1.0000     NotChecked  -27.4115    1327.6264   ✗       
+624   +42.011LETTVFMLMR        -1.0000     NotChecked  -27.4723    1281.6461   ✗       
+625   +42.011LETTGVFMLM+15.995R-1.0000     NotChecked  -27.4892    1354.6625   ✗       
+626   +42.011LETTGVFM+15.995LMR-1.0000     NotChecked  -27.5002    1354.6625   ✗       
+627   +42.011LETTGVFMLMR       -1.0000     NotChecked  -27.5171    1338.6676   ✗       
+628   +42.011LGTTGVFMLMR       -1.0000     NotChecked  -27.5600    1266.6464   ✗       
+629   +42.011LDTTGVFMLMR       -1.0000     NotChecked  -27.5620    1324.6519   ✗       
+630   +42.011LETTGVFMLPR       -1.0000     NotChecked  -27.6157    1304.6798   ✗       
+631   +43.006LETTGVFMLMR       -1.0000     NotChecked  -27.6561    1339.6628   ✗       
+632   +43.006LSTTGVFMLMR       -1.0000     NotChecked  -27.7049    1297.6522   ✗       
+633   LLETAGVFMLMR             -1.0000     NotChecked  -27.7334    1379.7305   ✗       
+634   Q+0.984LTTTGVFMLMR       -1.0000     NotChecked  -27.7346    1397.7047   ✗       
+635   +42.011LETTSVFMLMR       -1.0000     NotChecked  -27.7395    1368.6781   ✗       
+636   +42.011LETTGVFMLER       -1.0000     NotChecked  -27.7488    1336.6697   ✗       
+637   +42.011KETTGVFMLMR       -1.0000     NotChecked  -27.7630    1353.6785   ✗       
+638   +43.006VETTGVFMLMR       -1.0000     NotChecked  -27.8143    1325.6472   ✗       
+639   +43.006LETLGVFMLMR       -1.0000     NotChecked  -27.8176    1351.6992   ✗       
+640   LTTTGVFMLMR              -1.0000     NotChecked  -27.8562    1268.6621   ✗       
+641   ETETTGVFMLMR             -1.0000     NotChecked  -27.8993    1413.6632   ✗       
+642   +42.011LTTTGVFMLMR       -1.0000     NotChecked  -27.9051    1310.6726   ✗       
+643   +42.011LRTTGVFMLMR       -1.0000     NotChecked  -27.9124    1365.7261   ✗       
+644   +42.011LETTGVFMLMR       -1.0000     NotChecked  -27.9511    1338.6676   ✗       
+645   +42.011LETTGVFMLMR       -1.0000     NotChecked  -27.9737    1338.6676   ✗       
+646   +43.006LETTGLFMLMR       -1.0000     NotChecked  -28.0069    1353.6785   ✗       
+647   LLETTGVFMLMR             -1.0000     NotChecked  -28.0082    1409.7411   ✗       
+648   LLQ+0.984TTGVFMLMR       -1.0000     NotChecked  -28.0159    1409.7411   ✗       
+649   +42.011LETTGVFMLLR       -1.0000     NotChecked  -28.0200    1320.7111   ✗       
+650   +42.011LEGTTGVFMLMR      -1.0000     NotChecked  -28.0269    1395.6890   ✗       
+651   +42.011LETTGVFMLGR       -1.0000     NotChecked  -28.0768    1264.6485   ✗       
+652   +43.006LETTGVFMLMR       -1.0000     NotChecked  -28.1305    1339.6628   ✗       
+653   +42.011LETTGVFMVMR       -1.0000     NotChecked  -28.1733    1324.6519   ✗       
+654   +42.011LETTGVFMLMR       -1.0000     NotChecked  -28.1910    1338.6676   ✗       
+655   ELSTTGVFMLMR             -1.0000     NotChecked  -28.1927    1383.6890   ✗       
+656   +43.006LKTTGVFMLMR       -1.0000     NotChecked  -28.1938    1338.7152   ✗       
+657   +42.011LETTGVFMLAR       -1.0000     NotChecked  -28.2008    1278.6642   ✗       
+658   +42.011LATTGVFMLMR       -1.0000     NotChecked  -28.2052    1280.6621   ✗       
+659   +42.011LETVGVFMLMR       -1.0000     NotChecked  -28.2055    1336.6883   ✗       
+660   LTETTGVFMLMR             -1.0000     NotChecked  -28.2447    1397.7047   ✗       
+661   +42.011LETSGVFMLMR       -1.0000     NotChecked  -28.2719    1324.6519   ✗       
+662   +42.011LETTGVFMLMR       -1.0000     NotChecked  -28.2927    1338.6676   ✗       
+663   EVETTGVFMLMR             -1.0000     NotChecked  -28.3021    1411.6839   ✗       
+664   QLETTGVFMLMR             -1.0000     Failed      -28.3131    1424.7156   ✓       
+665   +42.011LETTGVFMLVR       -1.0000     NotChecked  -28.3191    1306.6955   ✗       
+666   QLETTGVFMLMR             -1.0000     Failed      -28.3390    1424.7156   ✓       
+667   LLETTGVFMLMR             -1.0000     NotChecked  -28.4893    1409.7411   ✗       
+668   +43.006LETTGVFMLMR       -1.0000     NotChecked  -28.4965    1339.6628   ✗       
+669   +42.011LEATGVFMLMR       -1.0000     NotChecked  -28.5009    1308.6570   ✗       
+670   TLETTGVFMLMR             -1.0000     NotChecked  -28.5016    1397.7047   ✗       
+671   TLETTGVFMLMR             -1.0000     NotChecked  -28.5275    1397.7047   ✗       
+672   LLSTTGVFMLMR             -1.0000     NotChecked  -28.5381    1367.7305   ✗       
+673   LEETGVFMLMR              -1.0000     NotChecked  -28.5500    1324.6519   ✗       
+674   Q+0.984LETAGVFMLMR       -1.0000     NotChecked  -28.5525    1395.6890   ✗       
+675   +42.011LETTGVFMLDR       -1.0000     NotChecked  -28.5636    1322.6540   ✗       
+676   +42.011KLETTVFMLMR       -1.0000     NotChecked  -28.6317    1409.7411   ✗       
+677   LVETTGVFMLMR             -1.0000     NotChecked  -28.6475    1395.7254   ✗       
+678   LLETLGVFMLMR             -1.0000     NotChecked  -28.6508    1421.7775   ✗       
+679   +43.006LEQ+0.984TGVFMLMR -1.0000     NotChecked  -28.6593    1367.6577   ✗       
+680   EETTGVFMLMR              -1.0000     NotChecked  -28.6648    1312.6155   ✗       
+681   LETAGVFMLMR              -1.0000     NotChecked  -28.6741    1266.6464   ✗       
+682   +42.011EETTGVFMLMR       -1.0000     NotChecked  -28.7137    1354.6261   ✗       
+683   +42.011KLGTTGVFMLMR      -1.0000     NotChecked  -28.7194    1394.7414   ✗       
+684   +42.011LETAGVFMLMR       -1.0000     NotChecked  -28.7230    1308.6570   ✗       
+685   +43.006KETTGVFMLMR       -1.0000     NotChecked  -28.7301    1354.6737   ✗       
+686   +42.011LETTGVFMLR        -1.0000     NotChecked  -28.7422    1207.6271   ✗       
+687   +42.011LEDTGVFMLMR       -1.0000     NotChecked  -28.7684    1352.6468   ✗       
+688   +42.011LETTGVFMLMK       -1.0000     NotChecked  -28.7901    1310.6614   ✗       
+689   +42.011LETTGAFMLMR       -1.0000     NotChecked  -28.7985    1310.6363   ✗       
+690   +42.011LEETGVFMLMR       -1.0000     NotChecked  -28.7988    1366.6625   ✗       
+691   +42.011LQ+0.984ETGVFMLMR -1.0000     NotChecked  -28.8065    1366.6625   ✗       
+692   +43.006LETTGVFMLMR       -1.0000     NotChecked  -28.8292    1339.6628   ✗       
+693   LLETTGLFMLMR             -1.0000     NotChecked  -28.8401    1423.7567   ✗       
+694   +42.011Q+0.984ETTGVFMLMR -1.0000     NotChecked  -28.8449    1354.6261   ✗       
+695   +43.006LETTGVFMLMR       -1.0000     NotChecked  -28.8551    1339.6628   ✗       
+696   RLETTVFMLMR              -1.0000     NotChecked  -28.8554    1395.7366   ✗       
+697   +42.011LETQGVFMLMR       -1.0000     NotChecked  -28.9093    1365.6785   ✗       
+698   RLGTTGVFMLMR             -1.0000     NotChecked  -28.9430    1380.7370   ✗       
+699   LETTGVFMLMR              -1.0000     NotChecked  -28.9489    1296.6570   ✗       
+700   LQ+0.984TTGVFMLMR        -1.0000     NotChecked  -28.9566    1296.6570   ✗       
+701   LLETTGVFMLMR             -1.0000     NotChecked  -28.9636    1409.7411   ✗       
+702   +42.011LETTGVFMLMV       -1.0000     NotChecked  -28.9651    1281.6349   ✗       
+703   RLETTGVFMLPR             -1.0000     NotChecked  -28.9987    1418.7704   ✗       
+704   KLTTTGVFMLMR             -1.0000     NotChecked  -29.0156    1396.7570   ✗       
+705   LLKTTGVFMLMR             -1.0000     NotChecked  -29.0270    1408.7934   ✗       
+706   +42.011LETTGVFMEMR       -1.0000     NotChecked  -29.0486    1354.6261   ✗       
+707   Q+0.984TETTGVFMLMR       -1.0000     NotChecked  -29.0638    1413.6632   ✗       
+708   +42.011LETTGMFMLMR       -1.0000     NotChecked  -29.0828    1370.6396   ✗       
+709   +42.011LEMTGVFMLMR       -1.0000     NotChecked  -29.1048    1368.6604   ✗       
+710   +43.006LETQ+0.984GVFMLMR -1.0000     NotChecked  -29.1158    1367.6577   ✗       
+711   +43.006LETEGVFMLMR       -1.0000     NotChecked  -29.1180    1367.6577   ✗       
+712   TETTGVFMLMR              -1.0000     NotChecked  -29.1853    1284.6206   ✗       
+713   +42.011LQ+0.984TTGVFMLMR -1.0000     NotChecked  -29.2054    1338.6676   ✗       
+714   +43.006LQTTGVFMLMR       -1.0000     NotChecked  -29.2319    1338.6788   ✗       
+715   +42.011TETTGVFMLMR       -1.0000     NotChecked  -29.2342    1326.6312   ✗       
+716   +42.011KLETTGVFMLGR      -1.0000     NotChecked  -29.2362    1392.7435   ✗       
+717   +42.011LETTGVFFLMR       -1.0000     NotChecked  -29.2474    1354.6955   ✗       
+718   +43.006LETTGVFMLMR       -1.0000     NotChecked  -29.2488    1339.6628   ✗       
+719   +43.006LETTAVFMLMR       -1.0000     NotChecked  -29.2946    1353.6785   ✗       
+720   +42.011METTGVFMLMR       -1.0000     NotChecked  -29.3068    1356.6240   ✗       
+721   +42.011LETTGNFMLMR       -1.0000     NotChecked  -29.3214    1353.6421   ✗       
+722   +42.011LETTGVFMFMR       -1.0000     NotChecked  -29.3280    1372.6519   ✗       
+723   LLETTGVFMLMR             -1.0000     NotChecked  -29.3296    1409.7411   ✗       
+724   +43.006LETTGVFMMMR       -1.0000     NotChecked  -29.3480    1357.6192   ✗       
+725   Q+0.984LSTTGVFMLMR       -1.0000     NotChecked  -29.3572    1383.6890   ✗       
+726   +42.011KLETTGVFMLAR      -1.0000     NotChecked  -29.3602    1406.7592   ✗       
+727   +42.011KLATTGVFMLMR      -1.0000     NotChecked  -29.3646    1408.7570   ✗       
+728   +42.011LETTGVFMAMR       -1.0000     NotChecked  -29.3915    1296.6206   ✗       
+729   +42.011LETTGVFMLML       -1.0000     NotChecked  -29.3937    1295.6505   ✗       
+730   +42.011SETTGVFMLMR       -1.0000     NotChecked  -29.4049    1312.6155   ✗       
+731   LETTGVFMLMR              -1.0000     NotChecked  -29.4300    1296.6570   ✗       
+732   RLETTGVFMLGR             -1.0000     NotChecked  -29.4598    1378.7391   ✗       
+733   Q+0.984VETTGVFMLMR       -1.0000     NotChecked  -29.4665    1411.6839   ✗       
+734   +43.006LETTGVFMLMR       -1.0000     NotChecked  -29.4757    1339.6628   ✗       
+735   LSTTGVFMLMR              -1.0000     NotChecked  -29.4788    1254.6464   ✗       
+736   +42.011LETTGVFMLMR       -1.0000     NotChecked  -29.4788    1338.6676   ✗       
+737   +42.011LELTGVFMLMR       -1.0000     NotChecked  -29.5010    1350.7040   ✗       
+738   QLTTTGVFMLMR             -1.0000     NotChecked  -29.5156    1396.7207   ✗       
+739   +42.011LSTTGVFMLMR       -1.0000     NotChecked  -29.5277    1296.6570   ✗       
+740   +42.011RETTGVFMLMR       -1.0000     NotChecked  -29.5777    1381.6846   ✗       
+741   RLETTGVFMLAR             -1.0000     NotChecked  -29.5838    1392.7547   ✗       
+742   VETTGVFMLMR              -1.0000     NotChecked  -29.5881    1282.6413   ✗       
+743   RLATTGVFMLMR             -1.0000     NotChecked  -29.5882    1394.7526   ✗       
+744   LETLGVFMLMR              -1.0000     NotChecked  -29.5915    1308.6934   ✗       
+745   +43.006LETTVFMLMR        -1.0000     NotChecked  -29.5988    1282.6413   ✗       
+746   +42.011LETTGEFMLMR       -1.0000     NotChecked  -29.6065    1368.6417   ✗       
+747   +43.006LETTGVFMLM+15.995R-1.0000     NotChecked  -29.6156    1355.6577   ✗       
+748   +43.006LETTGVFM+15.995LMR-1.0000     NotChecked  -29.6266    1355.6577   ✗       
+749   +42.011VETTGVFMLMR       -1.0000     NotChecked  -29.6370    1324.6519   ✗       
+750   +42.011LETLGVFMLMR       -1.0000     NotChecked  -29.6404    1350.7040   ✗       
+751   +43.006LETTGVFMLMR       -1.0000     NotChecked  -29.6436    1339.6628   ✗       
+752   LLETTGVFMLMR             -1.0000     NotChecked  -29.6623    1409.7411   ✗       
+753   +43.006LGTTGVFMLMR       -1.0000     NotChecked  -29.6865    1267.6417   ✗       
+754   LETTGVFMLMR              -1.0000     NotChecked  -29.6882    1296.6570   ✗       
+755   +43.006LDTTGVFMLMR       -1.0000     NotChecked  -29.6885    1325.6472   ✗       
+756   RLETTGVFMLVR             -1.0000     NotChecked  -29.7021    1420.7860   ✗       
+757   +42.011LETTGSFMLMR       -1.0000     NotChecked  -29.7025    1326.6312   ✗       
+758   TLTTTGVFMLMR             -1.0000     NotChecked  -29.7041    1369.7097   ✗       
+759   +42.011LETTGVFMLMQ       -1.0000     NotChecked  -29.7121    1310.6250   ✗       
+760   +43.006LETTGVFMLPR       -1.0000     NotChecked  -29.7422    1305.6751   ✗       
+761   +42.011LETTGYFMLMR       -1.0000     NotChecked  -29.7630    1402.6625   ✗       
+762   +42.011PETTGVFMLMR       -1.0000     NotChecked  -29.7739    1322.6363   ✗       
+763   +42.011LETTGVFELMR       -1.0000     NotChecked  -29.7801    1336.6697   ✗       
+764   LETTGLFMLMR              -1.0000     NotChecked  -29.7808    1310.6726   ✗       
+765   +42.011LETTGLFMLMR       -1.0000     NotChecked  -29.8297    1352.6832   ✗       
+766   KLETAGVFMLMR             -1.0000     NotChecked  -29.8334    1394.7414   ✗       
+767   +42.011LETTGVYMLMR       -1.0000     NotChecked  -29.8565    1354.6625   ✗       
+768   +43.006LETTSVFMLMR       -1.0000     NotChecked  -29.8660    1369.6734   ✗       
+769   +43.006LETTGVFMLER       -1.0000     NotChecked  -29.8753    1337.6649   ✗       
+770   +42.011LETTEVFMLMR       -1.0000     NotChecked  -29.8831    1410.6887   ✗       
+771   RLEATGVFMLMR             -1.0000     NotChecked  -29.8839    1422.7476   ✗       
+772   +43.006KETTGVFMLMR       -1.0000     NotChecked  -29.8895    1354.6737   ✗       
+773   +42.011KLETTGVFMLR       -1.0000     NotChecked  -29.9016    1335.7220   ✗       
+774   LETTGVFMLMR              -1.0000     NotChecked  -29.9043    1296.6570   ✗       
+775   +42.011LETTGRFMLMR       -1.0000     NotChecked  -29.9475    1395.7003   ✗       
+776   +42.011LETTGVFMLMR       -1.0000     NotChecked  -29.9532    1338.6676   ✗       
+777   +42.011LETTGVFMLMR       -1.0000     NotChecked  -29.9598    1338.6676   ✗       
+778   LKTTGVFMLMR              -1.0000     NotChecked  -29.9677    1295.7094   ✗       
+779   +42.011LETTGN+0.984FMLMR -1.0000     NotChecked  -29.9998    1354.6261   ✗       
+780   +42.011LKTTGVFMLMR       -1.0000     NotChecked  -30.0166    1337.7199   ✗       
+781   +43.006LTTTGVFMLMR       -1.0000     NotChecked  -30.0316    1311.6679   ✗       
+782   +43.006LRTTGVFMLMR       -1.0000     NotChecked  -30.0388    1366.7213   ✗       
+783   LLQTTGVFMLMR             -1.0000     NotChecked  -30.0651    1408.7570   ✗       
+784   +43.006LETTGVFMLMR       -1.0000     NotChecked  -30.0776    1339.6628   ✗       
+785   LLETTGVFMLMR             -1.0000     NotChecked  -30.0820    1409.7411   ✗       
+786   ELETTVFMLMR              -1.0000     NotChecked  -30.0866    1368.6781   ✗       
+787   +43.006LETTGVFMLMR       -1.0000     NotChecked  -30.1002    1339.6628   ✗       
+788   RLETAGVFMLMR             -1.0000     NotChecked  -30.1060    1422.7476   ✗       
+789   +42.011KLETTGVFMLMV      -1.0000     NotChecked  -30.1245    1409.7298   ✗       
+790   RLETTGVFMLR              -1.0000     NotChecked  -30.1252    1321.7176   ✗       
+791   LLETTAVFMLMR             -1.0000     NotChecked  -30.1278    1423.7567   ✗       
+792   +43.006LETTGVFMLLR       -1.0000     NotChecked  -30.1464    1321.7064   ✗       
+793   +43.006LEGTTGVFMLMR      -1.0000     NotChecked  -30.1534    1396.6843   ✗       
+794   ELGTTGVFMLMR             -1.0000     NotChecked  -30.1742    1353.6785   ✗       
+795   ELDTTGVFMLMR             -1.0000     NotChecked  -30.1763    1411.6839   ✗       
+796   +42.011LETTTVFMLMR       -1.0000     NotChecked  -30.1893    1382.6938   ✗       
+797   +42.011LETTGVFMRMR       -1.0000     NotChecked  -30.1967    1381.6846   ✗       
+798   +43.006LETTGVFMLGR       -1.0000     NotChecked  -30.2033    1265.6438   ✗       
+799   +42.011LETMGVFMLMR       -1.0000     NotChecked  -30.2075    1368.6604   ✗       
+800   +42.011LESTGVFMLMR       -1.0000     NotChecked  -30.2123    1324.6519   ✗       
+801   +42.011LETTGGVFMLMR      -1.0000     NotChecked  -30.2243    1395.6890   ✗       
+802   ELETTGVFMLPR             -1.0000     NotChecked  -30.2300    1391.7119   ✗       
+803   LETTGVFMLMR              -1.0000     NotChecked  -30.2703    1296.6570   ✗       
+804   +42.011LEVTGVFMLMR       -1.0000     NotChecked  -30.2739    1336.6883   ✗       
+805   +42.011LETGTGVFMLMR      -1.0000     NotChecked  -30.2809    1395.6890   ✗       
+806   +43.006LETTGVFMVMR       -1.0000     NotChecked  -30.2998    1325.6472   ✗       
+807   LLETTGVFMLMR             -1.0000     NotChecked  -30.3089    1409.7411   ✗       
+808   +43.006LETTGVFMLMR       -1.0000     NotChecked  -30.3175    1339.6628   ✗       
+809   +42.011LETTGVFMLMR       -1.0000     NotChecked  -30.3192    1338.6676   ✗       
+810   +43.006LETTGVFMLAR       -1.0000     NotChecked  -30.3273    1279.6594   ✗       
+811   +43.006LATTGVFMLMR       -1.0000     NotChecked  -30.3317    1281.6573   ✗       
+812   +43.006LETVGVFMLMR       -1.0000     NotChecked  -30.3320    1337.6836   ✗       
+813   QLETAGVFMLMR             -1.0000     NotChecked  -30.3334    1394.7050   ✗       
+814   +42.011LETTGVFMLMR       -1.0000     NotChecked  -30.3359    1338.6676   ✗       
+815   KTETTGVFMLMR             -1.0000     NotChecked  -30.3447    1412.7156   ✗       
+816   RLETTGVFMLMV             -1.0000     NotChecked  -30.3481    1395.7254   ✗       
+817   ELETTGVFMLER             -1.0000     NotChecked  -30.3631    1423.7017   ✗       
+818   +43.006LETSGVFMLMR       -1.0000     NotChecked  -30.3984    1325.6472   ✗       
+819   +42.011LETTGVFLLMR       -1.0000     NotChecked  -30.4064    1320.7111   ✗       
+820   +43.006LETTGVFMLMR       -1.0000     NotChecked  -30.4192    1339.6628   ✗       
+821   LLETTVFMLMR              -1.0000     NotChecked  -30.4320    1352.7196   ✗       
+822   LEQ+0.984TGVFMLMR        -1.0000     NotChecked  -30.4332    1324.6519   ✗       
+823   +43.006LETTGVFMLVR       -1.0000     NotChecked  -30.4455    1307.6907   ✗       
+824   +42.011LEETGVFMLMR       -1.0000     NotChecked  -30.4529    1366.6625   ✗       
+825   LLETTGVFMLMR             -1.0000     NotChecked  -30.4767    1409.7411   ✗       
+826   +42.011LEETGVFMLMR       -1.0000     NotChecked  -30.4789    1366.6625   ✗       
+827   +42.011LEQ+0.984TGVFMLMR -1.0000     NotChecked  -30.4820    1366.6625   ✗       
+828   +42.011LEQTGVFMLMR       -1.0000     NotChecked  -30.4863    1365.6785   ✗       
+829   KETTGVFMLMR              -1.0000     NotChecked  -30.5039    1311.6679   ✗       
+830   TEETTGVFMLMR             -1.0000     NotChecked  -30.5126    1413.6632   ✗       
+831   ELTTTGVFMLMR             -1.0000     NotChecked  -30.5194    1397.7047   ✗       
+832   LLGTTGVFMLMR             -1.0000     NotChecked  -30.5196    1337.7199   ✗       
+833   LLDTTGVFMLMR             -1.0000     NotChecked  -30.5217    1395.7254   ✗       
+834   TLETAGVFMLMR             -1.0000     NotChecked  -30.5219    1367.6941   ✗       
+835   +42.011KETTGVFMLMR       -1.0000     NotChecked  -30.5528    1353.6785   ✗       
+836   +42.011KLETTGVFMLML      -1.0000     NotChecked  -30.5530    1423.7455   ✗       
+837   LLETTGVFMLPR             -1.0000     NotChecked  -30.5754    1375.7533   ✗       
+838   +42.011LETTGVFHLMR       -1.0000     NotChecked  -30.5821    1344.6860   ✗       
+839   LETTGVFMLMR              -1.0000     NotChecked  -30.6030    1296.6570   ✗       
+840   QLETTGVFMLMR             -1.0000     Failed      -30.6082    1424.7156   ✓       
+841   +43.006LEATGVFMLMR       -1.0000     NotChecked  -30.6273    1309.6523   ✗       
+842   LETTGVFMLMR              -1.0000     NotChecked  -30.6289    1296.6570   ✗       
+843   ELETTGVFMLLR             -1.0000     NotChecked  -30.6342    1407.7432   ✗       
+844   KLSTTGVFMLMR             -1.0000     NotChecked  -30.6382    1382.7414   ✗       
+845   +42.011LETTGVFMTMR       -1.0000     NotChecked  -30.6531    1326.6312   ✗       
+846   +42.011LETTGVFMLMR       -1.0000     NotChecked  -30.6582    1338.6676   ✗       
+847   +43.006LETTGVFMLDR       -1.0000     NotChecked  -30.6901    1323.6493   ✗       
+848   ELETTGVFMLGR             -1.0000     NotChecked  -30.6911    1351.6806   ✗       
+849   +42.011LETTGVFMLAMR      -1.0000     NotChecked  -30.6957    1409.7047   ✗       
+850   LLETTGVFMLER             -1.0000     NotChecked  -30.7085    1407.7432   ✗       
+851   +42.011LEEEGVFMLMR       -1.0000     NotChecked  -30.7418    1394.6574   ✗       
+852   KVETTGVFMLMR             -1.0000     NotChecked  -30.7475    1410.7363   ✗       
+853   +43.006KLETTVFMLMR       -1.0000     NotChecked  -30.7582    1410.7363   ✗       
+854   +42.011LETTVVFMLMR       -1.0000     NotChecked  -30.7616    1380.7145   ✗       
+855   +42.011LETTGVFDLMR       -1.0000     NotChecked  -30.7652    1322.6540   ✗       
+856   RLETTGVFMAMR             -1.0000     NotChecked  -30.7745    1410.7112   ✗       
+857   RLETTGVFMLML             -1.0000     NotChecked  -30.7767    1409.7411   ✗       
+858   +42.011LETTGVFMGLMR      -1.0000     NotChecked  -30.7798    1395.6890   ✗       
+859   ELETTGVFMVMR             -1.0000     NotChecked  -30.7875    1411.6839   ✗       
+860   TLETTGVFMLMR             -1.0000     NotChecked  -30.7967    1397.7047   ✗       
+861   TLQ+0.984TTGVFMLMR       -1.0000     NotChecked  -30.8044    1397.7047   ✗       
+862   ELETTGVFMLAR             -1.0000     NotChecked  -30.8150    1365.6962   ✗       
+863   ELATTGVFMLMR             -1.0000     NotChecked  -30.8195    1367.6941   ✗       
+864   ELETVGVFMLMR             -1.0000     NotChecked  -30.8198    1423.7203   ✗       
+865   +42.011LETTGVFTLMR       -1.0000     NotChecked  -30.8302    1308.6747   ✗       
+866   +43.006EETTGVFMLMR       -1.0000     NotChecked  -30.8402    1355.6213   ✗       
+867   QTETTGVFMLMR             -1.0000     NotChecked  -30.8447    1412.6792   ✗       
+868   +43.006KLGTTGVFMLMR      -1.0000     NotChecked  -30.8458    1395.7366   ✗       
+869   +43.006LETAGVFMLMR       -1.0000     NotChecked  -30.8494    1309.6523   ✗       
+870   +42.011LETTGVFMLMR       -1.0000     NotChecked  -30.8518    1338.6676   ✗       
+871   +42.011LQ+0.984TTGVFMLMR -1.0000     NotChecked  -30.8596    1338.6676   ✗       
+872   LLTTTGVFMLMR             -1.0000     NotChecked  -30.8648    1381.7461   ✗       
+873   +43.006LETTGVFMLR        -1.0000     NotChecked  -30.8687    1208.6223   ✗       
+874   +42.011LETTGVFMLMR       -1.0000     NotChecked  -30.8778    1338.6676   ✗       
+875   Q+0.984LQTTGVFMLMR       -1.0000     Failed      -30.8841    1424.7156   ✓       
+876   +42.011LQ+0.984TTGVFMLMR -1.0000     NotChecked  -30.8855    1338.6676   ✗       
+877   ELETSGVFMLMR             -1.0000     NotChecked  -30.8862    1411.6840   ✗       
+878   LETQ+0.984GVFMLMR        -1.0000     NotChecked  -30.8897    1324.6519   ✗       
+879   LETEGVFMLMR              -1.0000     NotChecked  -30.8919    1324.6519   ✗       
+880   +43.006LEDTGVFMLMR       -1.0000     NotChecked  -30.8948    1353.6421   ✗       
+881   +42.011LETTGVHMLMR       -1.0000     NotChecked  -30.8950    1328.6581   ✗       
+882   +42.011LETTLVFMLMR       -1.0000     NotChecked  -30.9042    1394.7302   ✗       
+883   +42.011LETTGVFMPMR       -1.0000     NotChecked  -30.9081    1322.6363   ✗       
+884   RLSTTGVFMLMR             -1.0000     NotChecked  -30.9107    1410.7475   ✗       
+885   LLETTGVFMLMR             -1.0000     NotChecked  -30.9108    1409.7411   ✗       
+886   +43.006LETTGVFMLMK       -1.0000     NotChecked  -30.9166    1311.6567   ✗       
+887   +43.006LETTGAFMLMR       -1.0000     NotChecked  -30.9249    1311.6315   ✗       
+888   +43.006LEETGVFMLMR       -1.0000     NotChecked  -30.9253    1367.6577   ✗       
+889   +43.006LQ+0.984ETGVFMLMR -1.0000     NotChecked  -30.9330    1367.6577   ✗       
+890   ELETTGVFMLVR             -1.0000     NotChecked  -30.9333    1393.7275   ✗       
+891   LLETTGVFMLMR             -1.0000     NotChecked  -30.9334    1409.7411   ✗       
+892   +42.011LETTGVFYLMR       -1.0000     NotChecked  -30.9371    1370.6904   ✗       
+893   +42.011LETQ+0.984GVFMLMR -1.0000     NotChecked  -30.9386    1366.6625   ✗       
+894   +43.006Q+0.984ETTGVFMLMR -1.0000     NotChecked  -30.9714    1355.6213   ✗       
+895   LLETTGVFMLLR             -1.0000     NotChecked  -30.9796    1391.7846   ✗       
+896   LQTTGVFMLMR              -1.0000     NotChecked  -31.0057    1295.6730   ✗       
+897   LETTGVFMLMR              -1.0000     NotChecked  -31.0227    1296.6570   ✗       
+898   +42.011LETTGVFMDMR       -1.0000     NotChecked  -31.0274    1340.6104   ✗       
+899   TTETTGVFMLMR             -1.0000     NotChecked  -31.0332    1385.6683   ✗       
+900   +43.006LETQGVFMLMR       -1.0000     NotChecked  -31.0358    1366.6737   ✗       
+901   LLETTGVFMLGR             -1.0000     NotChecked  -31.0365    1335.7220   ✗       
+902   +42.011LQTTGVFMLMR       -1.0000     NotChecked  -31.0546    1337.6835   ✗       
+903   +42.011LETTGVFSLMR       -1.0000     NotChecked  -31.0616    1294.6591   ✗       
+904   LETTAVFMLMR              -1.0000     NotChecked  -31.0684    1310.6726   ✗       
+905   +42.011LEGTTGVFMLMR      -1.0000     NotChecked  -31.0720    1395.6890   ✗       
+906   QLETTGVFMLMR             -1.0000     Failed      -31.0893    1424.7156   ✓       
+907   +43.006LETTGVFMLMV       -1.0000     NotChecked  -31.0916    1282.6301   ✗       
+908   ELEATGVFMLMR             -1.0000     NotChecked  -31.1151    1395.6890   ✗       
+909   +42.011LETTAVFMLMR       -1.0000     NotChecked  -31.1173    1352.6832   ✗       
+910   LETTGVFMMMR              -1.0000     NotChecked  -31.1219    1314.6134   ✗       
+911   +42.011LETGVFMLMR        -1.0000     NotChecked  -31.1222    1237.6199   ✗       
+912   KLKTTGVFMLMR             -1.0000     NotChecked  -31.1271    1423.8043   ✗       
+913   LLETTGVFMVMR             -1.0000     NotChecked  -31.1329    1395.7254   ✗       
+914   QLSTTGVFMLMR             -1.0000     NotChecked  -31.1381    1382.7050   ✗       
+915   +42.011LETEGVFMLMR       -1.0000     NotChecked  -31.1407    1366.6625   ✗       
+916   +42.011LQ+0.984TEGVFMLMR -1.0000     NotChecked  -31.1485    1366.6625   ✗       
+917   LLETTGVFMLMR             -1.0000     NotChecked  -31.1507    1409.7411   ✗       
+918   +42.011LETTGVFMGLMR      -1.0000     NotChecked  -31.1545    1395.6890   ✗       
+919   LLETTGVFMLAR             -1.0000     NotChecked  -31.1604    1349.7377   ✗       
+920   LLATTGVFMLMR             -1.0000     NotChecked  -31.1649    1351.7356   ✗       
+921   LLETVGVFMLMR             -1.0000     NotChecked  -31.1651    1407.7618   ✗       
+922   +42.011LETTGVFMMR        -1.0000     NotChecked  -31.1708    1225.5835   ✗       
+923   +43.006LETTGVFMEMR       -1.0000     NotChecked  -31.1751    1355.6213   ✗       
+924   ELETTGVFMLDR             -1.0000     NotChecked  -31.1779    1409.6860   ✗       
+925   +43.006LETTGMFMLMR       -1.0000     NotChecked  -31.2093    1371.6349   ✗       
+926   +42.011LETTGVFMGLMR      -1.0000     NotChecked  -31.2280    1395.6890   ✗       
+927   +43.006LEMTGVFMLMR       -1.0000     NotChecked  -31.2313    1369.6556   ✗       
+928   LLETSGVFMLMR             -1.0000     NotChecked  -31.2316    1395.7254   ✗       
+929   +42.011LETTGVRMLMR       -1.0000     NotChecked  -31.2444    1347.7003   ✗       
+930   QVETTGVFMLMR             -1.0000     NotChecked  -31.2475    1410.6999   ✗       
+931   LETTGVFMLMR              -1.0000     NotChecked  -31.2496    1296.6570   ✗       
+932   Q+0.984LETTVFMLMR        -1.0000     NotChecked  -31.2511    1368.6781   ✗       
+933   LLETTGVFMLMR             -1.0000     NotChecked  -31.2524    1409.7411   ✗       
+934   TLETTGVFMLMR             -1.0000     NotChecked  -31.2778    1397.7047   ✗       
+935   LLETTGVFMLVR             -1.0000     NotChecked  -31.2787    1377.7690   ✗       
+936   +42.011LETTGVFMLMR       -1.0000     NotChecked  -31.2984    1338.6676   ✗       
+937   +42.011LEATTGVFMLMR      -1.0000     NotChecked  -31.3054    1409.7047   ✗       
+938   TLSTTGVFMLMR             -1.0000     NotChecked  -31.3266    1355.6941   ✗       
+939   +43.006LQ+0.984TTGVFMLMR -1.0000     NotChecked  -31.3319    1339.6628   ✗       
+940   ELETAGVFMLMR             -1.0000     NotChecked  -31.3372    1395.6890   ✗       
+941   Q+0.984LGTTGVFMLMR       -1.0000     NotChecked  -31.3387    1353.6785   ✗       
+942   Q+0.984LDTTGVFMLMR       -1.0000     NotChecked  -31.3407    1411.6839   ✗       
+943   ELETTGVFMLR              -1.0000     NotChecked  -31.3565    1294.6591   ✗       
+944   +43.006TETTGVFMLMR       -1.0000     NotChecked  -31.3607    1327.6264   ✗       
+945   +43.006KLETTGVFMLGR      -1.0000     NotChecked  -31.3627    1393.7388   ✗       
+946   LETTVFMLMR               -1.0000     NotChecked  -31.3727    1239.6355   ✗       
+947   +43.006LETTGVFFLMR       -1.0000     NotChecked  -31.3739    1355.6907   ✗       
+948   LETTGVFMLM+15.995R       -1.0000     NotChecked  -31.3895    1312.6519   ✗       
+949   Q+0.984LETTGVFMLPR       -1.0000     NotChecked  -31.3944    1391.7119   ✗       
+950   LETTGVFM+15.995LMR       -1.0000     NotChecked  -31.4005    1312.6519   ✗       
+951   ELETTGVFMLMK             -1.0000     NotChecked  -31.4044    1397.6934   ✗       
+952   ELETTGAFMLMR             -1.0000     NotChecked  -31.4127    1397.6683   ✗       
+953   LETTGVFMLMR              -1.0000     NotChecked  -31.4174    1296.6570   ✗       
+954   +42.011LETTVFMLMR        -1.0000     NotChecked  -31.4216    1281.6461   ✗       
+955   +43.006METTGVFMLMR       -1.0000     NotChecked  -31.4333    1357.6192   ✗       
+956   TVETTGVFMLMR             -1.0000     NotChecked  -31.4360    1383.6890   ✗       
+957   TLETLGVFMLMR             -1.0000     NotChecked  -31.4393    1409.7411   ✗       
+958   +43.006LETTGNFMLMR       -1.0000     NotChecked  -31.4479    1354.6373   ✗       
+959   +42.011LETTGVFM+15.995LMR-1.0000     NotChecked  -31.4494    1354.6625   ✗       
+960   +42.011LETTGVLMLMR       -1.0000     NotChecked  -31.4541    1304.6832   ✗       
+961   +43.006LETTGVFMFMR       -1.0000     NotChecked  -31.4545    1373.6472   ✗       
+962   LGTTGVFMLMR              -1.0000     NotChecked  -31.4603    1224.6359   ✗       
+963   LLEATGVFMLMR             -1.0000     NotChecked  -31.4605    1379.7305   ✗       
+964   LDTTGVFMLMR              -1.0000     NotChecked  -31.4623    1282.6413   ✗       
+965   +42.011LETTGVFMLMR       -1.0000     NotChecked  -31.4663    1338.6676   ✗       
+966   +43.006KLETTGVFMLAR      -1.0000     NotChecked  -31.4866    1407.7544   ✗       
+967   +43.006KLATTGVFMLMR      -1.0000     NotChecked  -31.4911    1409.7523   ✗       
+968   +42.011LGTTGVFMLMR       -1.0000     NotChecked  -31.5092    1266.6464   ✗       
+969   +42.011LDTTGVFMLMR       -1.0000     NotChecked  -31.5112    1324.6519   ✗       
+970   LETTGVFMLPR              -1.0000     NotChecked  -31.5160    1262.6693   ✗       
+971   +43.006LETTGVFMAMR       -1.0000     NotChecked  -31.5180    1297.6159   ✗       
+972   +43.006LETTGVFMLML       -1.0000     NotChecked  -31.5201    1296.6458   ✗       
+973   +42.011LETTGVFMALMR      -1.0000     NotChecked  -31.5209    1409.7047   ✗       
+974   +42.011LETTGVFMGLMR      -1.0000     NotChecked  -31.5226    1395.6890   ✗       
+975   LLETTGVFMLDR             -1.0000     NotChecked  -31.5233    1393.7275   ✗       
+976   Q+0.984LETTGVFMLER       -1.0000     NotChecked  -31.5275    1423.7017   ✗       
+977   +43.006SETTGVFMLMR       -1.0000     NotChecked  -31.5314    1313.6108   ✗       
+978   QLETTGVFMLMR             -1.0000     Failed      -31.5636    1424.7156   ✓       
+979   ELETTGVFMLMV             -1.0000     NotChecked  -31.5794    1368.6669   ✗       
+980   +43.006LETTGVFMLMR       -1.0000     NotChecked  -31.6053    1339.6628   ✗       
+981   QLKTTGVFMLMR             -1.0000     NotChecked  -31.6270    1423.7679   ✗       
+982   +43.006LELTGVFMLMR       -1.0000     NotChecked  -31.6275    1351.6992   ✗       
+983   TLETTGLFMLMR             -1.0000     NotChecked  -31.6286    1411.7203   ✗       
+984   LETTSVFMLMR              -1.0000     NotChecked  -31.6398    1326.6676   ✗       
+985   LETTGVFMLER              -1.0000     NotChecked  -31.6491    1294.6591   ✗       
+986   +43.006LSTTGVFMLMR       -1.0000     NotChecked  -31.6541    1297.6522   ✗       
+987   +42.011LTETGVFMLMR       -1.0000     NotChecked  -31.6554    1338.6676   ✗       
+988   +42.011LETTKVFMLMR       -1.0000     NotChecked  -31.6623    1409.7411   ✗       
+989   KETTGVFMLMR              -1.0000     NotChecked  -31.6633    1311.6679   ✗       
+990   +42.011LETTNVFMLMR       -1.0000     NotChecked  -31.6709    1395.6890   ✗       
+991   LLETAGVFMLMR             -1.0000     NotChecked  -31.6826    1379.7305   ✗       
+992   Q+0.984LTTTGVFMLMR       -1.0000     NotChecked  -31.6839    1397.7047   ✗       
+993   +42.011LETTSVFMLMR       -1.0000     NotChecked  -31.6887    1368.6781   ✗       
+994   LLETTGVFMLR              -1.0000     NotChecked  -31.7019    1278.7006   ✗       
+995   +43.006RETTGVFMLMR       -1.0000     NotChecked  -31.7042    1382.6799   ✗       
+996   +42.011KETTGVFMLMR       -1.0000     NotChecked  -31.7122    1353.6785   ✗       
+997   LLEDTGVFMLMR             -1.0000     NotChecked  -31.7280    1423.7203   ✗       
+998   +43.006LETTGEFMLMR       -1.0000     NotChecked  -31.7330    1369.6370   ✗       
+999   LLETTGVFMLMK             -1.0000     NotChecked  -31.7498    1381.7349   ✗       
+1000  TLETTGVFMLMR             -1.0000     NotChecked  -31.7521    1397.7047   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: KLETTGVFMLMR
+Similarity: 0.8078
+De Novo Score: -0.2932
+Source: Database
+Correct: ✓
+

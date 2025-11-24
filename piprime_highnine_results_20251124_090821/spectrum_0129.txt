@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 129
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 354.7074
+Precursor charge: 2+
+Ground truth: FPIGFK
+Ground truth (normalized): FPIGFK
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 109
+Used for reranking: 109
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 109 (10.9%)
+Database matches: 65 (6.5%)
+Prosit predictions: 44 (4.4%)
+Failed: 0 (0.0%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 36/1000
+Similarity: 0.3957
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     M+15.995PLGFK            0.4563      Prosit      -6.9785     707.3676    ✓       
+2     M+15.995PLGFK            0.4563      Prosit      -8.6162     707.3676    ✓       
+3     M+15.995PLGFK            0.4563      Prosit      -9.7459     707.3676    ✓       
+4     M+15.995PLGFK            0.4563      Prosit      -11.3836    707.3676    ✓       
+5     M+15.995PLGFK            0.4563      Prosit      -11.9950    707.3676    ✓       
+6     M+15.995PLGFK            0.4563      Prosit      -13.1186    707.3676    ✓       
+7     M+15.995PLGFK            0.4563      Prosit      -13.6327    707.3676    ✓       
+8     M+15.995PLGFK            0.4563      Prosit      -14.7563    707.3676    ✓       
+9     M+15.995PLGFK            0.4563      Prosit      -14.8847    707.3676    ✓       
+10    M+15.995PLGFK            0.4563      Prosit      -15.8860    707.3676    ✓       
+11    M+15.995PLGFK            0.4563      Prosit      -16.7163    707.3676    ✓       
+12    M+15.995PLGFK            0.4563      Prosit      -17.5237    707.3676    ✓       
+13    M+15.995PLGFK            0.4563      Prosit      -17.6522    707.3676    ✓       
+14    M+15.995PLGFK            0.4563      Prosit      -18.1351    707.3676    ✓       
+15    M+15.995PLGFK            0.4563      Prosit      -18.3540    707.3676    ✓       
+16    M+15.995PLGFK            0.4563      Prosit      -18.8413    707.3676    ✓       
+17    M+15.995PLGFK            0.4563      Prosit      -19.3871    707.3676    ✓       
+18    M+15.995PLGFK            0.4563      Prosit      -19.4838    707.3676    ✓       
+19    M+15.995PLGFK            0.4563      Prosit      -19.7728    707.3676    ✓       
+20    M+15.995PLGFK            0.4563      Prosit      -19.8101    707.3676    ✓       
+21    M+15.995PLGFK            0.4563      Prosit      -19.9012    707.3676    ✓       
+22    MLLGFK                   0.4492      Prosit      -16.5952    707.4040    ✓       
+23    MLLGFK                   0.4492      Prosit      -19.3626    707.4040    ✓       
+24    FPLFGK                   0.4435      Prosit      -10.5744    707.4006    ✓       
+25    FPLFGK                   0.4435      Prosit      -12.2121    707.4006    ✓       
+26    FPLFGK                   0.4435      Prosit      -13.3418    707.4006    ✓       
+27    FPLFGK                   0.4435      Prosit      -14.9795    707.4006    ✓       
+28    FPLFGK                   0.4435      Prosit      -15.5909    707.4006    ✓       
+29    FPLFGK                   0.4435      Prosit      -16.7145    707.4006    ✓       
+30    FPLFGK                   0.4435      Prosit      -17.1247    707.4006    ✓       
+31    FPLFGK                   0.4435      Prosit      -17.2286    707.4006    ✓       
+32    FPLFGK                   0.4435      Prosit      -17.7749    707.4006    ✓       
+33    M+15.995PLFGK            0.4316      Prosit      -17.2769    707.3676    ✓       
+34    M+15.995PLFGK            0.4316      Prosit      -18.9146    707.3676    ✓       
+35    M+15.995PLFGK            0.4316      Prosit      -20.0444    707.3676    ✓       
+36    FPLGFK                   0.3957      Database    -0.2759     707.4006    ✓       ✓
+37    FPLGFK                   0.3957      Database    -1.9136     707.4006    ✓       ✓
+38    FPLGFK                   0.3957      Database    -3.0434     707.4006    ✓       ✓
+39    FPLGFK                   0.3957      Database    -4.6811     707.4006    ✓       ✓
+40    FPLGFK                   0.3957      Database    -5.2924     707.4006    ✓       ✓
+41    FPLGFK                   0.3957      Database    -6.4160     707.4006    ✓       ✓
+42    FPLGFK                   0.3957      Database    -6.8263     707.4006    ✓       ✓
+43    FPLGFK                   0.3957      Database    -6.9301     707.4006    ✓       ✓
+44    FPLGFK                   0.3957      Database    -8.0537     707.4006    ✓       ✓
+45    FPLGFK                   0.3957      Database    -8.1822     707.4006    ✓       ✓
+46    FPLGFK                   0.3957      Database    -8.4640     707.4006    ✓       ✓
+47    FPLGFK                   0.3957      Database    -9.1835     707.4006    ✓       ✓
+48    FPLGFK                   0.3957      Database    -9.5937     707.4006    ✓       ✓
+49    FPLGFK                   0.3957      Database    -10.0138    707.4006    ✓       ✓
+50    FPLGFK                   0.3957      Database    -10.8212    707.4006    ✓       ✓
+51    FPLGFK                   0.3957      Database    -10.9496    707.4006    ✓       ✓
+52    FPLGFK                   0.3957      Database    -11.2314    707.4006    ✓       ✓
+53    FPLGFK                   0.3957      Database    -11.4325    707.4006    ✓       ✓
+54    FPLGFK                   0.3957      Database    -11.6515    707.4006    ✓       ✓
+55    FPLGFK                   0.3957      Database    -11.8428    707.4006    ✓       ✓
+56    FPLGFK                   0.3957      Database    -12.1388    707.4006    ✓       ✓
+57    FPLGFK                   0.3957      Database    -12.6845    707.4006    ✓       ✓
+58    FPLGFK                   0.3957      Database    -12.7812    707.4006    ✓       ✓
+59    FPLGFK                   0.3957      Database    -12.9664    707.4006    ✓       ✓
+60    FPLGFK                   0.3957      Database    -13.0702    707.4006    ✓       ✓
+61    FPLGFK                   0.3957      Database    -13.1075    707.4006    ✓       ✓
+62    FPLGFK                   0.3957      Database    -13.1987    707.4006    ✓       ✓
+63    FPLGFK                   0.3957      Database    -13.4805    707.4006    ✓       ✓
+64    FPLGFK                   0.3957      Database    -14.1764    707.4006    ✓       ✓
+65    FPLGFK                   0.3957      Database    -14.2905    707.4006    ✓       ✓
+66    FPLGFK                   0.3957      Database    -14.4189    707.4006    ✓       ✓
+67    FPLGFK                   0.3957      Database    -14.6041    707.4006    ✓       ✓
+68    FPLGFK                   0.3957      Database    -14.7325    707.4006    ✓       ✓
+69    FPLGFK                   0.3957      Database    -14.7453    707.4006    ✓       ✓
+70    FPLGFK                   0.3957      Database    -14.9062    707.4006    ✓       ✓
+71    FPLGFK                   0.3957      Database    -15.0303    707.4006    ✓       ✓
+72    FPLGFK                   0.3957      Database    -15.0389    707.4006    ✓       ✓
+73    FPLGFK                   0.3957      Database    -15.2327    707.4006    ✓       ✓
+74    FPLGFK                   0.3957      Database    -15.4520    707.4006    ✓       ✓
+75    FPLGFK                   0.3957      Database    -15.6572    707.4006    ✓       ✓
+76    FPLGFK                   0.3957      Database    -15.7338    707.4006    ✓       ✓
+77    FPLGFK                   0.3957      Database    -15.7856    707.4006    ✓       ✓
+78    FPLGFK                   0.3957      Database    -15.8141    707.4006    ✓       ✓
+79    FPLGFK                   0.3957      Database    -15.8750    707.4006    ✓       ✓
+80    FPLGFK                   0.3957      Database    -15.9282    707.4006    ✓       ✓
+81    FPLGFK                   0.3957      Database    -16.1539    707.4006    ✓       ✓
+82    FPLGFK                   0.3957      Database    -16.5641    707.4006    ✓       ✓
+83    FPLGFK                   0.3957      Database    -16.6680    707.4006    ✓       ✓
+84    FPLGFK                   0.3957      Database    -16.6766    707.4006    ✓       ✓
+85    FPLGFK                   0.3957      Database    -16.7168    707.4006    ✓       ✓
+86    FPLGFK                   0.3957      Database    -16.7696    707.4006    ✓       ✓
+87    FPLGFK                   0.3957      Database    -16.8704    707.4006    ✓       ✓
+88    FPLGFK                   0.3957      Database    -17.1553    707.4006    ✓       ✓
+89    FPLGFK                   0.3957      Database    -17.2949    707.4006    ✓       ✓
+90    FPLGFK                   0.3957      Database    -17.3716    707.4006    ✓       ✓
+91    FPLGFK                   0.3957      Database    -17.5000    707.4006    ✓       ✓
+92    FPLGFK                   0.3957      Database    -17.5127    707.4006    ✓       ✓
+93    FPLGFK                   0.3957      Database    -17.7011    707.4006    ✓       ✓
+94    FPLGFK                   0.3957      Database    -17.7916    707.4006    ✓       ✓
+95    FPLGFK                   0.3957      Database    -17.8063    707.4006    ✓       ✓
+96    FPLGFK                   0.3957      Database    -17.9200    707.4006    ✓       ✓
+97    FPLGFK                   0.3957      Database    -17.9829    707.4006    ✓       ✓
+98    FPLGFK                   0.3957      Database    -18.1240    707.4006    ✓       ✓
+99    FPLGFK                   0.3957      Database    -18.2018    707.4006    ✓       ✓
+100   FPLGFK                   0.3957      Database    -18.2789    707.4006    ✓       ✓
+101   MPLGYK                   0.3936      Prosit      -19.3252    707.3676    ✓       
+102   FGPLFK                   0.3713      Prosit      -15.6955    707.4006    ✓       
+103   FGPLFK                   0.3713      Prosit      -16.0926    707.4006    ✓       
+104   FGPLFK                   0.3713      Prosit      -17.3611    707.4006    ✓       
+105   FGPLFK                   0.3713      Prosit      -17.7303    707.4006    ✓       
+106   FGPLFK                   0.3713      Prosit      -17.7582    707.4006    ✓       
+107   YPPGFK                   0.3386      Prosit      -19.3794    707.3643    ✓       
+108   FPLGFQ                   0.2625      Prosit      -16.1516    707.3643    ✓       
+109   FPLGFQ                   0.2625      Prosit      -17.7893    707.3643    ✓       
+110   FPLGGK                   -1.0000     NotChecked  -5.0672     617.3537    ✗       
+111   FLGFK                    -1.0000     NotChecked  -6.5444     610.3479    ✗       
+112   FPLGGK                   -1.0000     NotChecked  -6.7049     617.3537    ✗       
+113   DPLGFK                   -1.0000     NotChecked  -6.8460     675.3592    ✗       
+114   NPLGFK                   -1.0000     NotChecked  -6.9551     674.3752    ✗       
+115   EPLGFK                   -1.0000     NotChecked  -7.4991     689.3748    ✗       
+116   TPLGFK                   -1.0000     NotChecked  -8.1593     661.3799    ✗       
+117   SPLGFK                   -1.0000     NotChecked  -8.2004     647.3643    ✗       
+118   MPLGFK                   -1.0000     NotChecked  -8.2673     691.3727    ✗       
+119   FALGFK                   -1.0000     NotChecked  -8.3514     681.3850    ✗       
+120   N+0.984PLGFK             -1.0000     NotChecked  -8.4618     675.3592    ✗       
+121   DPLGFK                   -1.0000     NotChecked  -8.4837     675.3592    ✗       
+122   FPLFK                    -1.0000     NotChecked  -8.5506     650.3792    ✗       
+123   NPLGFK                   -1.0000     NotChecked  -8.5928     674.3752    ✗       
+124   EPLGFK                   -1.0000     NotChecked  -9.1368     689.3748    ✗       
+125   FLGFK                    -1.0000     NotChecked  -9.3119     610.3479    ✗       
+126   DPLGFK                   -1.0000     NotChecked  -9.6135     675.3592    ✗       
+127   NPLGFK                   -1.0000     NotChecked  -9.7225     674.3752    ✗       
+128   TPLGFK                   -1.0000     NotChecked  -9.7970     661.3799    ✗       
+129   SPLGFK                   -1.0000     NotChecked  -9.8381     647.3643    ✗       
+130   MPLGFK                   -1.0000     NotChecked  -9.9050     691.3727    ✗       
+131   FPLGK                    -1.0000     NotChecked  -10.0837    560.3322    ✗       
+132   N+0.984PLGFK             -1.0000     NotChecked  -10.0995    675.3592    ✗       
+133   FSLGFK                   -1.0000     NotChecked  -10.1728    697.3799    ✗       
+134   FPLFK                    -1.0000     NotChecked  -10.1883    650.3792    ✗       
+135   FPLFK                    -1.0000     NotChecked  -10.2162    650.3792    ✗       
+136   EPLGFK                   -1.0000     NotChecked  -10.2665    689.3748    ✗       
+137   TPLGFK                   -1.0000     NotChecked  -10.9267    661.3799    ✗       
+138   SPLGFK                   -1.0000     NotChecked  -10.9679    647.3643    ✗       
+139   MPLGFK                   -1.0000     NotChecked  -11.0348    691.3727    ✗       
+140   FALGFK                   -1.0000     NotChecked  -11.1188    681.3850    ✗       
+141   FPLGDK                   -1.0000     NotChecked  -11.1257    675.3592    ✗       
+142   FPLGGK                   -1.0000     NotChecked  -11.2073    617.3537    ✗       
+143   N+0.984PLGFK             -1.0000     NotChecked  -11.2293    675.3592    ✗       
+144   FPLGNK                   -1.0000     NotChecked  -11.2464    674.3752    ✗       
+145   DPLGFK                   -1.0000     NotChecked  -11.2512    675.3592    ✗       
+146   FPPGFK                   -1.0000     NotChecked  -11.3067    691.3693    ✗       
+147   FLGGK                    -1.0000     NotChecked  -11.3357    520.3009    ✗       
+148   NPLGFK                   -1.0000     NotChecked  -11.3603    674.3752    ✗       
+149   FPLGK                    -1.0000     NotChecked  -11.4089    560.3322    ✗       
+150   FPVGFK                   -1.0000     NotChecked  -11.4199    693.3850    ✗       
+151   FPLGAK                   -1.0000     NotChecked  -11.4359    631.3693    ✗       
+152   FPLGLK                   -1.0000     NotChecked  -11.4699    673.4163    ✗       
+153   FPLGK                    -1.0000     NotChecked  -11.5230    560.3322    ✗       
+154   FLGFK                    -1.0000     NotChecked  -11.5609    610.3479    ✗       
+155   FPLGGK                   -1.0000     NotChecked  -11.6175    617.3537    ✗       
+156   DPLGGK                   -1.0000     NotChecked  -11.6373    585.3122    ✗       
+157   FPLGK                    -1.0000     NotChecked  -11.7214    560.3322    ✗       
+158   NPLGGK                   -1.0000     NotChecked  -11.7463    584.3282    ✗       
+159   FPLGVK                   -1.0000     NotChecked  -11.7504    659.4006    ✗       
+160   M+15.995PLGGK            -1.0000     NotChecked  -11.7697    617.3207    ✗       
+161   FPGGFK                   -1.0000     NotChecked  -11.7979    651.3380    ✗       
+162   FPLFK                    -1.0000     NotChecked  -11.8539    650.3792    ✗       
+163   DPLGFK                   -1.0000     NotChecked  -11.8625    675.3592    ✗       
+164   EPLGFK                   -1.0000     NotChecked  -11.9042    689.3748    ✗       
+165   NPLGFK                   -1.0000     NotChecked  -11.9716    674.3752    ✗       
+166   FLFFK                    -1.0000     NotChecked  -12.0516    700.3948    ✗       
+167   FGPLGGK                  -1.0000     NotChecked  -12.2121    674.3752    ✗       
+168   FVLGGK                   -1.0000     NotChecked  -12.2712    619.3693    ✗       
+169   EPLGGK                   -1.0000     NotChecked  -12.2903    599.3279    ✗       
+170   FPAGFK                   -1.0000     NotChecked  -12.4975    665.3537    ✗       
+171   EPLGFK                   -1.0000     NotChecked  -12.5156    689.3748    ✗       
+172   TPLGFK                   -1.0000     NotChecked  -12.5644    661.3799    ✗       
+173   SPLGFK                   -1.0000     NotChecked  -12.6056    647.3643    ✗       
+174   FGPLGGK                  -1.0000     NotChecked  -12.6092    674.3752    ✗       
+175   MPLGFK                   -1.0000     NotChecked  -12.6725    691.3727    ✗       
+176   FAPLGGK                  -1.0000     NotChecked  -12.7552    688.3908    ✗       
+177   FPLGDK                   -1.0000     NotChecked  -12.7634    675.3592    ✗       
+178   FFLGGK                   -1.0000     NotChecked  -12.8017    667.3693    ✗       
+179   FPLGGK                   -1.0000     NotChecked  -12.8450    617.3537    ✗       
+180   N+0.984PLGFK             -1.0000     NotChecked  -12.8670    675.3592    ✗       
+181   FPLGNK                   -1.0000     NotChecked  -12.8841    674.3752    ✗       
+182   FSLGFK                   -1.0000     NotChecked  -12.9402    697.3799    ✗       
+183   FPPGFK                   -1.0000     NotChecked  -12.9444    691.3693    ✗       
+184   TPLGGK                   -1.0000     NotChecked  -12.9505    571.3330    ✗       
+185   FPLGGK                   -1.0000     NotChecked  -12.9734    617.3537    ✗       
+186   FPLFK                    -1.0000     NotChecked  -12.9836    650.3792    ✗       
+187   DPLGFK                   -1.0000     NotChecked  -12.9861    675.3592    ✗       
+188   SPLGGK                   -1.0000     NotChecked  -12.9917    557.3173    ✗       
+189   FPLGK                    -1.0000     NotChecked  -13.0467    560.3322    ✗       
+190   FPVGFK                   -1.0000     NotChecked  -13.0577    693.3850    ✗       
+191   MPLGGK                   -1.0000     NotChecked  -13.0586    601.3258    ✗       
+192   FPLGAK                   -1.0000     NotChecked  -13.0736    631.3693    ✗       
+193   FLGFK                    -1.0000     NotChecked  -13.0948    610.3479    ✗       
+194   NPLGFK                   -1.0000     NotChecked  -13.0952    674.3752    ✗       
+195   FPLGLK                   -1.0000     NotChecked  -13.1076    673.4163    ✗       
+196   DLGFK                    -1.0000     NotChecked  -13.1145    578.3064    ✗       
+197   YPLGGK                   -1.0000     NotChecked  -13.1398    633.3486    ✗       
+198   FALGGK                   -1.0000     NotChecked  -13.1426    591.3380    ✗       
+199   FPLGK                    -1.0000     NotChecked  -13.1607    560.3322    ✗       
+200   TPLGFK                   -1.0000     NotChecked  -13.1758    661.3799    ✗       
+201   SPLGFK                   -1.0000     NotChecked  -13.2169    647.3643    ✗       
+202   NLGFK                    -1.0000     NotChecked  -13.2236    577.3224    ✗       
+203   M+15.995LGFK             -1.0000     NotChecked  -13.2470    610.3149    ✗       
+204   FSPLGGK                  -1.0000     NotChecked  -13.2517    704.3857    ✗       
+205   N+0.984PLGGK             -1.0000     NotChecked  -13.2531    585.3122    ✗       
+206   FPLGGK                   -1.0000     NotChecked  -13.2552    617.3537    ✗       
+207   DPLGGK                   -1.0000     NotChecked  -13.2750    585.3122    ✗       
+208   MPLGFK                   -1.0000     NotChecked  -13.2838    691.3727    ✗       
+209   FALGFK                   -1.0000     NotChecked  -13.3679    681.3850    ✗       
+210   NPLGGK                   -1.0000     NotChecked  -13.3840    584.3282    ✗       
+211   FPLGVK                   -1.0000     NotChecked  -13.3881    659.4006    ✗       
+212   FLLGGK                   -1.0000     NotChecked  -13.3950    633.3850    ✗       
+213   M+15.995PLGGK            -1.0000     NotChecked  -13.4074    617.3207    ✗       
+214   FPGGFK                   -1.0000     NotChecked  -13.4356    651.3380    ✗       
+215   N+0.984PLGFK             -1.0000     NotChecked  -13.4783    675.3592    ✗       
+216   DPLGFK                   -1.0000     NotChecked  -13.5002    675.3592    ✗       
+217   NPLGFK                   -1.0000     NotChecked  -13.6093    674.3752    ✗       
+218   EPLGFK                   -1.0000     NotChecked  -13.6392    689.3748    ✗       
+219   FGLGFK                   -1.0000     NotChecked  -13.6894    667.3693    ✗       
+220   ELGFK                    -1.0000     NotChecked  -13.7676    592.3221    ✗       
+221   FPLAGK                   -1.0000     NotChecked  -13.8213    631.3693    ✗       
+222   EPLGGK                   -1.0000     NotChecked  -13.9280    599.3279    ✗       
+223   DVLGFK                   -1.0000     NotChecked  -14.0501    677.3748    ✗       
+224   FPPGFK                   -1.0000     NotChecked  -14.0742    691.3693    ✗       
+225   FGLGFK                   -1.0000     NotChecked  -14.0865    667.3693    ✗       
+226   FLGFGK                   -1.0000     NotChecked  -14.1031    667.3693    ✗       
+227   FPAGFK                   -1.0000     NotChecked  -14.1352    665.3537    ✗       
+228   FTLGGK                   -1.0000     NotChecked  -14.1477    621.3486    ✗       
+229   EPLGFK                   -1.0000     NotChecked  -14.1533    689.3748    ✗       
+230   NVLGFK                   -1.0000     NotChecked  -14.1591    676.3908    ✗       
+231   FPVGFK                   -1.0000     NotChecked  -14.1874    693.3850    ✗       
+232   FALGFK                   -1.0000     NotChecked  -14.2325    681.3850    ✗       
+233   FGPLGGK                  -1.0000     NotChecked  -14.2469    674.3752    ✗       
+234   TPLGFK                   -1.0000     NotChecked  -14.2994    661.3799    ✗       
+235   FAPLGGK                  -1.0000     NotChecked  -14.3079    688.3908    ✗       
+236   SPLGFK                   -1.0000     NotChecked  -14.3405    647.3643    ✗       
+237   FSPLGGK                  -1.0000     NotChecked  -14.3709    704.3857    ✗       
+238   MPLGFK                   -1.0000     NotChecked  -14.4074    691.3727    ✗       
+239   TLGFK                    -1.0000     NotChecked  -14.4278    564.3271    ✗       
+240   SLGFK                    -1.0000     NotChecked  -14.4689    550.3115    ✗       
+241   FPLVGK                   -1.0000     NotChecked  -14.5317    659.4006    ✗       
+242   MLGFK                    -1.0000     NotChecked  -14.5359    594.3200    ✗       
+243   FPALGGK                  -1.0000     NotChecked  -14.5408    688.3908    ✗       
+244   FPGGFK                   -1.0000     NotChecked  -14.5653    651.3380    ✗       
+245   TPLGGK                   -1.0000     NotChecked  -14.5882    571.3330    ✗       
+246   N+0.984PLGFK             -1.0000     NotChecked  -14.6019    675.3592    ✗       
+247   YLGFK                    -1.0000     NotChecked  -14.6171    626.3428    ✗       
+248   FPLFK                    -1.0000     NotChecked  -14.6213    650.3792    ✗       
+249   DPLGFK                   -1.0000     NotChecked  -14.6238    675.3592    ✗       
+250   SPLGGK                   -1.0000     NotChecked  -14.6294    557.3173    ✗       
+251   FPLFK                    -1.0000     NotChecked  -14.6907    650.3792    ✗       
+252   MPLGGK                   -1.0000     NotChecked  -14.6963    601.3258    ✗       
+253   EVLGFK                   -1.0000     NotChecked  -14.7031    691.3905    ✗       
+254   FSLGFK                   -1.0000     NotChecked  -14.7290    697.3799    ✗       
+255   N+0.984LGFK              -1.0000     NotChecked  -14.7303    578.3064    ✗       
+256   NPLGFK                   -1.0000     NotChecked  -14.7329    674.3752    ✗       
+257   DPLGFK                   -1.0000     NotChecked  -14.7522    675.3592    ✗       
+258   YPLGGK                   -1.0000     NotChecked  -14.7775    633.3486    ✗       
+259   FPALGGK                  -1.0000     NotChecked  -14.7803    688.3908    ✗       
+260   FQLGGK                   -1.0000     NotChecked  -14.7902    648.3595    ✗       
+261   FPLGGK                   -1.0000     NotChecked  -14.8050    617.3537    ✗       
+262   TPLGFK                   -1.0000     NotChecked  -14.8135    661.3799    ✗       
+263   FLFK                     -1.0000     NotChecked  -14.8191    553.3264    ✗       
+264   FNLGGK                   -1.0000     NotChecked  -14.8416    634.3439    ✗       
+265   SPLGFK                   -1.0000     NotChecked  -14.8546    647.3643    ✗       
+266   NPLGFK                   -1.0000     NotChecked  -14.8613    674.3752    ✗       
+267   N+0.984PLGGK             -1.0000     NotChecked  -14.8908    585.3122    ✗       
+268   FALGFK                   -1.0000     NotChecked  -14.9017    681.3850    ✗       
+269   DALGFK                   -1.0000     NotChecked  -14.9215    649.3435    ✗       
+270   MPLGFK                   -1.0000     NotChecked  -14.9215    691.3727    ✗       
+271   FSLGGK                   -1.0000     NotChecked  -14.9640    607.3330    ✗       
+272   FPLGK                    -1.0000     NotChecked  -15.0074    560.3322    ✗       
+273   NALGFK                   -1.0000     NotChecked  -15.0305    648.3595    ✗       
+274   M+15.995ALGFK            -1.0000     NotChecked  -15.0539    681.3520    ✗       
+275   FPLFK                    -1.0000     NotChecked  -15.1009    650.3792    ✗       
+276   N+0.984PLGFK             -1.0000     NotChecked  -15.1160    675.3592    ✗       
+277   DPLFK                    -1.0000     NotChecked  -15.1207    618.3377    ✗       
+278   DLLGFK                   -1.0000     NotChecked  -15.1738    691.3905    ✗       
+279   FPLLGK                   -1.0000     NotChecked  -15.1829    673.4163    ✗       
+280   FPLTGK                   -1.0000     NotChecked  -15.1851    661.3799    ✗       
+281   FSLGFK                   -1.0000     NotChecked  -15.1893    697.3799    ✗       
+282   NPLFK                    -1.0000     NotChecked  -15.2297    617.3537    ✗       
+283   M+15.995PLFK             -1.0000     NotChecked  -15.2531    650.3462    ✗       
+284   FPAGFK                   -1.0000     NotChecked  -15.2649    665.3537    ✗       
+285   EPLGFK                   -1.0000     NotChecked  -15.2769    689.3748    ✗       
+286   NLLGFK                   -1.0000     NotChecked  -15.2829    690.4065    ✗       
+287   FLAFK                    -1.0000     NotChecked  -15.2986    624.3635    ✗       
+288   SGPLGFK                  -1.0000     NotChecked  -15.3453    704.3857    ✗       
+289   TVLGFK                   -1.0000     NotChecked  -15.3633    663.3956    ✗       
+290   SVLGFK                   -1.0000     NotChecked  -15.4045    649.3799    ✗       
+291   EPLGFK                   -1.0000     NotChecked  -15.4053    689.3748    ✗       
+292   FPLAGK                   -1.0000     NotChecked  -15.4590    631.3693    ✗       
+293   MVLGFK                   -1.0000     NotChecked  -15.4714    693.3884    ✗       
+294   FPLPGK                   -1.0000     NotChecked  -15.4840    657.3850    ✗       
+295   FPLGF                    -1.0000     NotChecked  -15.5482    579.3057    ✗       
+296   EALGFK                   -1.0000     NotChecked  -15.5745    663.3592    ✗       
+297   DPLAFK                   -1.0000     NotChecked  -15.6002    689.3748    ✗       
+298   N+0.984VLGFK             -1.0000     NotChecked  -15.6659    677.3748    ✗       
+299   FPLSGK                   -1.0000     NotChecked  -15.6790    647.3643    ✗       
+300   NPLAFK                   -1.0000     NotChecked  -15.7093    688.3908    ✗       
+301   FPPGFK                   -1.0000     NotChecked  -15.7119    691.3693    ✗       
+302   SGPLGFK                  -1.0000     NotChecked  -15.7425    704.3857    ✗       
+303   DPLGFK                   -1.0000     NotChecked  -15.7536    675.3592    ✗       
+304   FVLFK                    -1.0000     NotChecked  -15.7546    652.3948    ✗       
+305   SPLGFGK                  -1.0000     NotChecked  -15.7591    704.3857    ✗       
+306   EPLFK                    -1.0000     NotChecked  -15.7737    632.3534    ✗       
+307   FPALGGK                  -1.0000     NotChecked  -15.7762    688.3908    ✗       
+308   FALGFK                   -1.0000     NotChecked  -15.7852    681.3850    ✗       
+309   FPVGFK                   -1.0000     NotChecked  -15.8251    693.3850    ✗       
+310   ELLGFK                   -1.0000     NotChecked  -15.8269    705.4061    ✗       
+311   FSLGFK                   -1.0000     NotChecked  -15.8482    697.3799    ✗       
+312   FLGFK                    -1.0000     NotChecked  -15.8623    610.3479    ✗       
+313   NPLGFK                   -1.0000     NotChecked  -15.8627    674.3752    ✗       
+314   DLGFK                    -1.0000     NotChecked  -15.8820    578.3064    ✗       
+315   DTLGFK                   -1.0000     NotChecked  -15.9265    679.3541    ✗       
+316   SFLGFK                   -1.0000     NotChecked  -15.9349    697.3799    ✗       
+317   TPLGFK                   -1.0000     NotChecked  -15.9371    661.3799    ✗       
+318   FAPLGGK                  -1.0000     NotChecked  -15.9456    688.3908    ✗       
+319   SPLGFK                   -1.0000     NotChecked  -15.9782    647.3643    ✗       
+320   NLGFK                    -1.0000     NotChecked  -15.9911    577.3224    ✗       
+321   FSPLGGK                  -1.0000     NotChecked  -16.0086    704.3857    ✗       
+322   FLVFK                    -1.0000     NotChecked  -16.0090    652.3948    ✗       
+323   M+15.995LGFK             -1.0000     NotChecked  -16.0144    610.3149    ✗       
+324   FALGFK                   -1.0000     NotChecked  -16.0181    681.3850    ✗       
+325   NTLGFK                   -1.0000     NotChecked  -16.0356    678.3701    ✗       
+326   FALGFK                   -1.0000     NotChecked  -16.0394    681.3850    ✗       
+327   MPLGFK                   -1.0000     NotChecked  -16.0452    691.3727    ✗       
+328   TPLGFK                   -1.0000     NotChecked  -16.0655    661.3799    ✗       
+329   FPPGGK                   -1.0000     NotChecked  -16.0980    601.3224    ✗       
+330   SPLGFK                   -1.0000     NotChecked  -16.1066    647.3643    ✗       
+331   FPLGDK                   -1.0000     NotChecked  -16.1422    675.3592    ✗       
+332   FPLVGK                   -1.0000     NotChecked  -16.1694    659.4006    ✗       
+333   MPLGFK                   -1.0000     NotChecked  -16.1736    691.3727    ✗       
+334   FPALGGK                  -1.0000     NotChecked  -16.1785    688.3908    ✗       
+335   FPGGFK                   -1.0000     NotChecked  -16.2031    651.3380    ✗       
+336   FPVGGK                   -1.0000     NotChecked  -16.2112    603.3380    ✗       
+337   FPLGK                    -1.0000     NotChecked  -16.2238    560.3322    ✗       
+338   TALGFK                   -1.0000     NotChecked  -16.2347    635.3643    ✗       
+339   N+0.984PLGFK             -1.0000     NotChecked  -16.2396    675.3592    ✗       
+340   EPLAFK                   -1.0000     NotChecked  -16.2532    703.3905    ✗       
+341   FPLGNK                   -1.0000     NotChecked  -16.2629    674.3752    ✗       
+342   SALGFK                   -1.0000     NotChecked  -16.2759    621.3486    ✗       
+343   FLGFK                    -1.0000     NotChecked  -16.2823    610.3479    ✗       
+344   FFLFK                    -1.0000     NotChecked  -16.2851    700.3948    ✗       
+345   FPPGFK                   -1.0000     NotChecked  -16.3232    691.3693    ✗       
+346   FPLFK                    -1.0000     NotChecked  -16.3284    650.3792    ✗       
+347   MALGFK                   -1.0000     NotChecked  -16.3428    665.3571    ✗       
+348   FLGK                     -1.0000     NotChecked  -16.3522    463.2795    ✗       
+349   FPLFK                    -1.0000     NotChecked  -16.3563    650.3792    ✗       
+350   N+0.984PLGFK             -1.0000     NotChecked  -16.3681    675.3592    ✗       
+351   EPLGFK                   -1.0000     NotChecked  -16.4066    689.3748    ✗       
+352   YALGFK                   -1.0000     NotChecked  -16.4240    697.3799    ✗       
+353   FPLGK                    -1.0000     NotChecked  -16.4255    560.3322    ✗       
+354   TPLFK                    -1.0000     NotChecked  -16.4339    604.3584    ✗       
+355   FPVGFK                   -1.0000     NotChecked  -16.4365    693.3850    ✗       
+356   FPLGGK                   -1.0000     NotChecked  -16.4427    617.3537    ✗       
+357   FPLGAK                   -1.0000     NotChecked  -16.4524    631.3693    ✗       
+358   FPLFK                    -1.0000     NotChecked  -16.4568    650.3792    ✗       
+359   FGLGFK                   -1.0000     NotChecked  -16.4568    667.3693    ✗       
+360   SPLFK                    -1.0000     NotChecked  -16.4751    590.3428    ✗       
+361   FLFK                     -1.0000     NotChecked  -16.4847    553.3264    ✗       
+362   FPLGLK                   -1.0000     NotChecked  -16.4864    673.4163    ✗       
+363   TLLGFK                   -1.0000     NotChecked  -16.4871    677.4112    ✗       
+364   SLLGFK                   -1.0000     NotChecked  -16.5282    663.3956    ✗       
+365   ELGFK                    -1.0000     NotChecked  -16.5350    592.3221    ✗       
+366   N+0.984ALGFK             -1.0000     NotChecked  -16.5373    649.3435    ✗       
+367   FPLGK                    -1.0000     NotChecked  -16.5395    560.3322    ✗       
+368   MPLFK                    -1.0000     NotChecked  -16.5420    634.3513    ✗       
+369   DQLGFK                   -1.0000     NotChecked  -16.5691    706.3650    ✗       
+370   ETLGFK                   -1.0000     NotChecked  -16.5796    693.3697    ✗       
+371   DPLGFK                   -1.0000     NotChecked  -16.5839    675.3592    ✗       
+372   FPGGGK                   -1.0000     NotChecked  -16.5891    561.2911    ✗       
+373   FPSLGGK                  -1.0000     NotChecked  -16.6018    704.3857    ✗       
+374   DNLGFK                   -1.0000     NotChecked  -16.6205    692.3493    ✗       
+375   YPLFK                    -1.0000     NotChecked  -16.6232    666.3741    ✗       
+376   FALFK                    -1.0000     NotChecked  -16.6260    624.3635    ✗       
+377   FPLGK                    -1.0000     NotChecked  -16.6340    560.3322    ✗       
+378   FPLGK                    -1.0000     NotChecked  -16.6451    560.3322    ✗       
+379   DPLGK                    -1.0000     NotChecked  -16.6538    528.2908    ✗       
+380   FLLFK                    -1.0000     NotChecked  -16.6602    666.4105    ✗       
+381   FLTFK                    -1.0000     NotChecked  -16.6623    654.3741    ✗       
+382   NQLGFK                   -1.0000     NotChecked  -16.6782    705.3810    ✗       
+383   NPLGFK                   -1.0000     NotChecked  -16.6929    674.3752    ✗       
+384   FPDGGK                   -1.0000     NotChecked  -16.7015    619.2966    ✗       
+385   FSLGFK                   -1.0000     NotChecked  -16.7232    697.3799    ✗       
+386   NNLGFK                   -1.0000     NotChecked  -16.7295    691.3653    ✗       
+387   N+0.984PLFK              -1.0000     NotChecked  -16.7365    618.3377    ✗       
+388   FPLFK                    -1.0000     NotChecked  -16.7386    650.3792    ✗       
+389   DSLGFK                   -1.0000     NotChecked  -16.7429    665.3384    ✗       
+390   DPLFK                    -1.0000     NotChecked  -16.7584    618.3377    ✗       
+391   NPLGK                    -1.0000     NotChecked  -16.7628    527.3067    ✗       
+392   FPLFK                    -1.0000     NotChecked  -16.7665    650.3792    ✗       
+393   FPLGVK                   -1.0000     NotChecked  -16.7669    659.4006    ✗       
+394   M+15.995PLGK             -1.0000     NotChecked  -16.7862    560.2992    ✗       
+395   DPLFK                    -1.0000     NotChecked  -16.7863    618.3377    ✗       
+396   N+0.984LLGFK             -1.0000     NotChecked  -16.7896    691.3905    ✗       
+397   FPGGFK                   -1.0000     NotChecked  -16.8144    651.3380    ✗       
+398   DVLGFK                   -1.0000     NotChecked  -16.8175    677.3748    ✗       
+399   FPLLGK                   -1.0000     NotChecked  -16.8207    673.4163    ✗       
+400   FPLTGK                   -1.0000     NotChecked  -16.8228    661.3799    ✗       
+401   FPLGFL                   -1.0000     NotChecked  -16.8343    692.3897    ✗       
+402   FLFGK                    -1.0000     NotChecked  -16.8429    610.3479    ✗       
+403   NSLGFK                   -1.0000     NotChecked  -16.8520    664.3544    ✗       
+404   FGLGFK                   -1.0000     NotChecked  -16.8539    667.3693    ✗       
+405   NPLFK                    -1.0000     NotChecked  -16.8675    617.3537    ✗       
+406   M+15.995SLGFK            -1.0000     NotChecked  -16.8754    697.3469    ✗       
+407   FLLFK                    -1.0000     NotChecked  -16.8784    666.4105    ✗       
+408   M+15.995PLFK             -1.0000     NotChecked  -16.8908    650.3462    ✗       
+409   NPLFK                    -1.0000     NotChecked  -16.8953    617.3537    ✗       
+410   FPAGFK                   -1.0000     NotChecked  -16.9026    665.3537    ✗       
+411   TPLAFK                   -1.0000     NotChecked  -16.9134    675.3956    ✗       
+412   FPLFK                    -1.0000     NotChecked  -16.9162    650.3792    ✗       
+413   M+15.995PLFK             -1.0000     NotChecked  -16.9187    650.3462    ✗       
+414   NVLGFK                   -1.0000     NotChecked  -16.9266    676.3908    ✗       
+415   FPLGGK                   -1.0000     NotChecked  -16.9300    617.3537    ✗       
+416   SPLAFK                   -1.0000     NotChecked  -16.9546    661.3799    ✗       
+417   FLPFK                    -1.0000     NotChecked  -16.9612    650.3792    ✗       
+418   FALGFK                   -1.0000     NotChecked  -16.9999    681.3850    ✗       
+419   MPLAFK                   -1.0000     NotChecked  -17.0215    705.3884    ✗       
+420   FPLFK                    -1.0000     NotChecked  -17.0302    650.3792    ✗       
+421   TPLGFK                   -1.0000     NotChecked  -17.0668    661.3799    ✗       
+422   FALAFK                   -1.0000     NotChecked  -17.1055    695.4006    ✗       
+423   SPLGFK                   -1.0000     NotChecked  -17.1080    647.3643    ✗       
+424   FPLPGK                   -1.0000     NotChecked  -17.1217    657.3850    ✗       
+425   DPLFGK                   -1.0000     NotChecked  -17.1445    675.3592    ✗       
+426   FLSFK                    -1.0000     NotChecked  -17.1563    640.3584    ✗       
+427   MPLGFK                   -1.0000     NotChecked  -17.1749    691.3727    ✗       
+428   FPLGF                    -1.0000     NotChecked  -17.1859    579.3057    ✗       
+429   TLGFK                    -1.0000     NotChecked  -17.1952    564.3271    ✗       
+430   N+0.984PLAFK             -1.0000     NotChecked  -17.2160    689.3748    ✗       
+431   FGPLGK                   -1.0000     NotChecked  -17.2286    617.3537    ✗       
+432   SLGFK                    -1.0000     NotChecked  -17.2364    550.3115    ✗       
+433   EPLGFK                   -1.0000     NotChecked  -17.2369    689.3748    ✗       
+434   DPLAFK                   -1.0000     NotChecked  -17.2379    689.3748    ✗       
+435   TTLGFK                   -1.0000     NotChecked  -17.2398    665.3748    ✗       
+436   FALGFK                   -1.0000     NotChecked  -17.2535    681.3850    ✗       
+437   NPLFGK                   -1.0000     NotChecked  -17.2535    674.3752    ✗       
+438   FPLGDK                   -1.0000     NotChecked  -17.2658    675.3592    ✗       
+439   ENLGFK                   -1.0000     NotChecked  -17.2735    706.3650    ✗       
+440   STLGFK                   -1.0000     NotChecked  -17.2809    651.3592    ✗       
+441   FVLGK                    -1.0000     NotChecked  -17.2877    562.3479    ✗       
+442   FPAGGK                   -1.0000     NotChecked  -17.2887    575.3067    ✗       
+443   MLGFK                    -1.0000     NotChecked  -17.3033    594.3200    ✗       
+444   EPLGK                    -1.0000     NotChecked  -17.3068    542.3064    ✗       
+445   FPLSGK                   -1.0000     NotChecked  -17.3167    647.3643    ✗       
+446   NPLAFK                   -1.0000     NotChecked  -17.3470    688.3908    ✗       
+447   MTLGFK                   -1.0000     NotChecked  -17.3479    695.3676    ✗       
+448   N+0.984PLGFK             -1.0000     NotChecked  -17.3694    675.3592    ✗       
+449   SGPLGFK                  -1.0000     NotChecked  -17.3802    704.3857    ✗       
+450   FPLGFV                   -1.0000     NotChecked  -17.3829    678.3741    ✗       
+451   YLGFK                    -1.0000     NotChecked  -17.3846    626.3428    ✗       
+452   FPLGNK                   -1.0000     NotChecked  -17.3865    674.3752    ✗       
+453   DPLGFK                   -1.0000     NotChecked  -17.3913    675.3592    ✗       
+454   FLGDK                    -1.0000     NotChecked  -17.3942    578.3064    ✗       
+455   ESLGFK                   -1.0000     NotChecked  -17.3959    679.3541    ✗       
+456   SPLGFGK                  -1.0000     NotChecked  -17.3968    704.3857    ✗       
+457   EPLFK                    -1.0000     NotChecked  -17.4114    632.3534    ✗       
+458   FPALGGK                  -1.0000     NotChecked  -17.4140    688.3908    ✗       
+459   FVLFK                    -1.0000     NotChecked  -17.4202    652.3948    ✗       
+460   FPLGFG                   -1.0000     NotChecked  -17.4329    636.3271    ✗       
+461   EPLFK                    -1.0000     NotChecked  -17.4393    632.3534    ✗       
+462   FPNGGK                   -1.0000     NotChecked  -17.4445    618.3126    ✗       
+463   FPPGFK                   -1.0000     NotChecked  -17.4468    691.3693    ✗       
+464   DPLSFK                   -1.0000     NotChecked  -17.4579    705.3697    ✗       
+465   FPN+0.984GGK             -1.0000     NotChecked  -17.4643    619.2966    ✗       
+466   EVLGFK                   -1.0000     NotChecked  -17.4706    691.3905    ✗       
+467   FPLGGK                   -1.0000     NotChecked  -17.4758    617.3537    ✗       
+468   FSLGFK                   -1.0000     NotChecked  -17.4965    697.3799    ✗       
+469   N+0.984LGFK              -1.0000     NotChecked  -17.4978    578.3064    ✗       
+470   NPLGFK                   -1.0000     NotChecked  -17.5004    674.3752    ✗       
+471   SPLGFK                   -1.0000     NotChecked  -17.5042    647.3643    ✗       
+472   FPALGGK                  -1.0000     NotChecked  -17.5134    688.3908    ✗       
+473   FPAGFK                   -1.0000     NotChecked  -17.5140    665.3537    ✗       
+474   FLGNK                    -1.0000     NotChecked  -17.5149    577.3224    ✗       
+475   DPLGFK                   -1.0000     NotChecked  -17.5197    675.3592    ✗       
+476   N+0.984TLGFK             -1.0000     NotChecked  -17.5423    679.3541    ✗       
+477   FPLGK                    -1.0000     NotChecked  -17.5491    560.3322    ✗       
+478   FPVGFK                   -1.0000     NotChecked  -17.5601    693.3850    ✗       
+479   NPLSFK                   -1.0000     NotChecked  -17.5669    704.3857    ✗       
+480   FPGFK                    -1.0000     NotChecked  -17.5752    594.3166    ✗       
+481   FPLGAK                   -1.0000     NotChecked  -17.5760    631.3693    ✗       
+482   FPLGFT                   -1.0000     NotChecked  -17.5761    680.3534    ✗       
+483   FLGYK                    -1.0000     NotChecked  -17.6024    626.3428    ✗       
+484   FPLGGR                   -1.0000     NotChecked  -17.6030    645.3598    ✗       
+485   FPLGLK                   -1.0000     NotChecked  -17.6100    673.4163    ✗       
+486   TPLVFK                   -1.0000     NotChecked  -17.6238    703.4269    ✗       
+487   FGPLGK                   -1.0000     NotChecked  -17.6257    617.3537    ✗       
+488   NPLGFK                   -1.0000     NotChecked  -17.6288    674.3752    ✗       
+489   FPFGGK                   -1.0000     NotChecked  -17.6302    651.3380    ✗       
+490   FTLFK                    -1.0000     NotChecked  -17.6311    654.3741    ✗       
+491   FPEGGK                   -1.0000     NotChecked  -17.6421    633.3122    ✗       
+492   FPLGK                    -1.0000     NotChecked  -17.6631    560.3322    ✗       
+493   SPLVFK                   -1.0000     NotChecked  -17.6650    689.4112    ✗       
+494   FALGFK                   -1.0000     NotChecked  -17.6692    681.3850    ✗       
+495   FPLGDK                   -1.0000     NotChecked  -17.6761    675.3592    ✗       
+496   FLGK                     -1.0000     NotChecked  -17.6775    463.2795    ✗       
+497   FVGFK                    -1.0000     NotChecked  -17.6885    596.3322    ✗       
+498   DALGFK                   -1.0000     NotChecked  -17.6889    649.3435    ✗       
+499   DPLGDK                   -1.0000     NotChecked  -17.6958    643.3177    ✗       
+500   FLGAK                    -1.0000     NotChecked  -17.7044    534.3166    ✗       
+501   FPPGGK                   -1.0000     NotChecked  -17.7357    601.3224    ✗       
+502   FLGLK                    -1.0000     NotChecked  -17.7384    576.3635    ✗       
+503   FPLGGK                   -1.0000     NotChecked  -17.7576    617.3537    ✗       
+504   FAPLGK                   -1.0000     NotChecked  -17.7717    631.3693    ✗       
+505   DPLGGK                   -1.0000     NotChecked  -17.7774    585.3122    ✗       
+506   FPLGDK                   -1.0000     NotChecked  -17.7799    675.3592    ✗       
+507   FLGK                     -1.0000     NotChecked  -17.7915    463.2795    ✗       
+508   FPLGNK                   -1.0000     NotChecked  -17.7968    674.3752    ✗       
+509   EPLFGK                   -1.0000     NotChecked  -17.7975    689.3748    ✗       
+510   NALGFK                   -1.0000     NotChecked  -17.7980    648.3595    ✗       
+511   NPLGDK                   -1.0000     NotChecked  -17.8049    642.3337    ✗       
+512   DPLGNK                   -1.0000     NotChecked  -17.8165    642.3337    ✗       
+513   FFLGK                    -1.0000     NotChecked  -17.8182    610.3479    ✗       
+514   M+15.995ALGFK            -1.0000     NotChecked  -17.8214    681.3520    ✗       
+515   FALGFK                   -1.0000     NotChecked  -17.8250    681.3850    ✗       
+516   M+15.995PLGDK            -1.0000     NotChecked  -17.8283    675.3262    ✗       
+517   FPVGGK                   -1.0000     NotChecked  -17.8489    603.3380    ✗       
+518   FPPGFK                   -1.0000     NotChecked  -17.8571    691.3693    ✗       
+519   FPLGK                    -1.0000     NotChecked  -17.8615    560.3322    ✗       
+520   FPSLGGK                  -1.0000     NotChecked  -17.8758    704.3857    ✗       
+521   DPPGFK                   -1.0000     NotChecked  -17.8768    659.3279    ✗       
+522   TQLGFK                   -1.0000     NotChecked  -17.8824    692.3857    ✗       
+523   FLGGK                    -1.0000     NotChecked  -17.8860    520.3009    ✗       
+524   NPLGGK                   -1.0000     NotChecked  -17.8864    584.3282    ✗       
+525   FPLGVK                   -1.0000     NotChecked  -17.8905    659.4006    ✗       
+526   EPLAFK                   -1.0000     NotChecked  -17.8909    703.3905    ✗       
+527   TPLGFK                   -1.0000     NotChecked  -17.8971    661.3799    ✗       
+528   FPLGGK                   -1.0000     NotChecked  -17.8988    617.3537    ✗       
+529   FPLGNK                   -1.0000     NotChecked  -17.9006    674.3752    ✗       
+530   FPGLGGK                  -1.0000     NotChecked  -17.9029    674.3752    ✗       
+531   DPLGYK                   -1.0000     NotChecked  -17.9039    691.3541    ✗       
+532   DLGGK                    -1.0000     NotChecked  -17.9058    488.2595    ✗       
+533   M+15.995PLGGK            -1.0000     NotChecked  -17.9098    617.3207    ✗       
+534   SQLGFK                   -1.0000     NotChecked  -17.9235    678.3701    ✗       
+535   NPLGNK                   -1.0000     NotChecked  -17.9256    641.3497    ✗       
+536   TNLGFK                   -1.0000     NotChecked  -17.9337    678.3701    ✗       
+537   FPGGFK                   -1.0000     NotChecked  -17.9380    651.3380    ✗       
+538   SPLGFK                   -1.0000     NotChecked  -17.9383    647.3643    ✗       
+539   DLLGFK                   -1.0000     NotChecked  -17.9413    691.3905    ✗       
+540   M+15.995PLGNK            -1.0000     NotChecked  -17.9490    674.3421    ✗       
+541   FFLFK                    -1.0000     NotChecked  -17.9507    700.3948    ✗       
+542   FPLGK                    -1.0000     NotChecked  -17.9593    560.3322    ✗       
+543   FPPGFK                   -1.0000     NotChecked  -17.9609    691.3693    ✗       
+544   TPLGK                    -1.0000     NotChecked  -17.9670    514.3115    ✗       
+545   FPVGFK                   -1.0000     NotChecked  -17.9703    693.3850    ✗       
+546   SNLGFK                   -1.0000     NotChecked  -17.9749    664.3544    ✗       
+547   DPLGK                    -1.0000     NotChecked  -17.9790    528.2908    ✗       
+548   NPPGFK                   -1.0000     NotChecked  -17.9859    658.3439    ✗       
+549   FPLGAK                   -1.0000     NotChecked  -17.9862    631.3693    ✗       
+550   FPLGK                    -1.0000     NotChecked  -17.9899    560.3322    ✗       
+551   DPVGFK                   -1.0000     NotChecked  -17.9900    661.3435    ✗       
+552   FPLFK                    -1.0000     NotChecked  -17.9940    650.3792    ✗       
+553   DPLGFK                   -1.0000     NotChecked  -18.0026    675.3592    ✗       
+554   MPLGFK                   -1.0000     NotChecked  -18.0052    691.3727    ✗       
+555   DPLGAK                   -1.0000     NotChecked  -18.0060    599.3279    ✗       
+556   SPLGK                    -1.0000     NotChecked  -18.0082    500.2958    ✗       
+557   M+15.995PPGFK            -1.0000     NotChecked  -18.0093    691.3363    ✗       
+558   NPLGYK                   -1.0000     NotChecked  -18.0130    690.3701    ✗       
+559   NLGGK                    -1.0000     NotChecked  -18.0149    487.2754    ✗       
+560   FLGVK                    -1.0000     NotChecked  -18.0189    562.3479    ✗       
+561   FPLGLK                   -1.0000     NotChecked  -18.0202    673.4163    ✗       
+562   M+15.995LGGK             -1.0000     NotChecked  -18.0382    520.2679    ✗       
+563   DPLGLK                   -1.0000     NotChecked  -18.0400    641.3748    ✗       
+564   EPLGFK                   -1.0000     NotChecked  -18.0443    689.3748    ✗       
+565   NLLGFK                   -1.0000     NotChecked  -18.0504    690.4065    ✗       
+566   TSLGFK                   -1.0000     NotChecked  -18.0562    651.3592    ✗       
+567   FPLGK                    -1.0000     NotChecked  -18.0632    560.3322    ✗       
+568   FLAFK                    -1.0000     NotChecked  -18.0661    624.3635    ✗       
+569   FGGFK                    -1.0000     NotChecked  -18.0664    554.2853    ✗       
+570   TPLFK                    -1.0000     NotChecked  -18.0716    604.3584    ✗       
+571   FPLGK                    -1.0000     NotChecked  -18.0734    560.3322    ✗       
+572   FPVGFK                   -1.0000     NotChecked  -18.0742    693.3850    ✗       
+573   MPLGK                    -1.0000     NotChecked  -18.0751    544.3043    ✗       
+574   NPLGK                    -1.0000     NotChecked  -18.0881    527.3067    ✗       
+575   FALGFK                   -1.0000     NotChecked  -18.0892    681.3850    ✗       
+576   FPLGAK                   -1.0000     NotChecked  -18.0901    631.3693    ✗       
+577   DPLGK                    -1.0000     NotChecked  -18.0931    528.2908    ✗       
+578   SSLGFK                   -1.0000     NotChecked  -18.0973    637.3435    ✗       
+579   NPVGFK                   -1.0000     NotChecked  -18.0991    660.3595    ✗       
+580   TPLFK                    -1.0000     NotChecked  -18.0995    604.3584    ✗       
+581   FLGFK                    -1.0000     NotChecked  -18.1113    610.3479    ✗       
+582   M+15.995PLGK             -1.0000     NotChecked  -18.1115    560.2992    ✗       
+583   NPLGFK                   -1.0000     NotChecked  -18.1117    674.3752    ✗       
+584   SPLFK                    -1.0000     NotChecked  -18.1128    590.3428    ✗       
+585   SGPLGFK                  -1.0000     NotChecked  -18.1128    704.3857    ✗       
+586   NPLGAK                   -1.0000     NotChecked  -18.1150    598.3439    ✗       
+587   FPLFK                    -1.0000     NotChecked  -18.1224    650.3792    ✗       
+588   M+15.995PVGFK            -1.0000     NotChecked  -18.1225    693.3520    ✗       
+589   FPLGLK                   -1.0000     NotChecked  -18.1241    673.4163    ✗       
+590   TVLGFK                   -1.0000     NotChecked  -18.1308    663.3956    ✗       
+591   DLGFK                    -1.0000     NotChecked  -18.1310    578.3064    ✗       
+592   M+15.995PLGAK            -1.0000     NotChecked  -18.1384    631.3363    ✗       
+593   SPLFK                    -1.0000     NotChecked  -18.1407    590.3428    ✗       
+594   NPLGLK                   -1.0000     NotChecked  -18.1491    640.3908    ✗       
+595   YPLGK                    -1.0000     NotChecked  -18.1563    576.3271    ✗       
+596   FALGK                    -1.0000     NotChecked  -18.1591    534.3166    ✗       
+597   MSLGFK                   -1.0000     NotChecked  -18.1642    681.3520    ✗       
+598   SVLGFK                   -1.0000     NotChecked  -18.1719    649.3799    ✗       
+599   M+15.995PLGLK            -1.0000     NotChecked  -18.1724    673.3833    ✗       
+600   EPLGFK                   -1.0000     NotChecked  -18.1727    689.3748    ✗       
+601   FPLGK                    -1.0000     NotChecked  -18.1772    560.3322    ✗       
+602   FDGFK                    -1.0000     NotChecked  -18.1788    612.2908    ✗       
+603   MPLFK                    -1.0000     NotChecked  -18.1797    634.3513    ✗       
+604   N+0.984QLGFK             -1.0000     NotChecked  -18.1849    706.3650    ✗       
+605   N+0.984PLGFK             -1.0000     NotChecked  -18.1997    675.3592    ✗       
+606   NPLGK                    -1.0000     NotChecked  -18.2022    527.3067    ✗       
+607   MPLFK                    -1.0000     NotChecked  -18.2076    634.3513    ✗       
+608   DPLGFK                   -1.0000     NotChecked  -18.2216    675.3592    ✗       
+609   M+15.995PLGK             -1.0000     NotChecked  -18.2256    560.2992    ✗       
+610   FPGGGK                   -1.0000     NotChecked  -18.2268    561.2911    ✗       
+611   N+0.984NLGFK             -1.0000     NotChecked  -18.2363    692.3493    ✗       
+612   MVLGFK                   -1.0000     NotChecked  -18.2388    693.3884    ✗       
+613   NLGFK                    -1.0000     NotChecked  -18.2401    577.3224    ✗       
+614   YPLFK                    -1.0000     NotChecked  -18.2610    666.3741    ✗       
+615   M+15.995LGFK             -1.0000     NotChecked  -18.2635    610.3149    ✗       
+616   FSPLGK                   -1.0000     NotChecked  -18.2682    647.3643    ✗       
+617   N+0.984PLGK              -1.0000     NotChecked  -18.2696    528.2908    ✗       
+618   FPLGK                    -1.0000     NotChecked  -18.2717    560.3322    ✗       
+619   FQLFK                    -1.0000     NotChecked  -18.2737    681.3850    ✗       
+620   TPLTFK                   -1.0000     NotChecked  -18.2772    705.4061    ✗       
+621   FPLFK                    -1.0000     NotChecked  -18.2884    650.3792    ✗       
+622   YPLFK                    -1.0000     NotChecked  -18.2888    666.3741    ✗       
+623   DPLGK                    -1.0000     NotChecked  -18.2915    528.2908    ✗       
+624   FALFK                    -1.0000     NotChecked  -18.2916    624.3635    ✗       
+625   FPLGVK                   -1.0000     NotChecked  -18.3008    659.4006    ✗       
+626   FPLGF                    -1.0000     NotChecked  -18.3156    579.3057    ✗       
+627   SPLLFK                   -1.0000     NotChecked  -18.3162    703.4269    ✗       
+628   SPLTFK                   -1.0000     NotChecked  -18.3183    691.3905    ✗       
+629   DPLGVK                   -1.0000     NotChecked  -18.3205    627.3592    ✗       
+630   FNLFK                    -1.0000     NotChecked  -18.3250    667.3693    ✗       
+631   FVLGDK                   -1.0000     NotChecked  -18.3298    677.3748    ✗       
+632   NPLGFK                   -1.0000     NotChecked  -18.3306    674.3752    ✗       
+633   EALGFK                   -1.0000     NotChecked  -18.3420    663.3592    ✗       
+634   EPLGDK                   -1.0000     NotChecked  -18.3489    657.3334    ✗       
+635   N+0.984SLGFK             -1.0000     NotChecked  -18.3587    665.3384    ✗       
+636   DPLAFK                   -1.0000     NotChecked  -18.3676    689.3748    ✗       
+637   DPGGFK                   -1.0000     NotChecked  -18.3680    619.2966    ✗       
+638   N+0.984PLFK              -1.0000     NotChecked  -18.3742    618.3377    ✗       
+639   NPLGK                    -1.0000     NotChecked  -18.4005    527.3067    ✗       
+640   N+0.984PLFK              -1.0000     NotChecked  -18.4021    618.3377    ✗       
+641   M+15.995PLGK             -1.0000     NotChecked  -18.4239    560.2992    ✗       
+642   DPLFK                    -1.0000     NotChecked  -18.4240    618.3377    ✗       
+643   NPLGVK                   -1.0000     NotChecked  -18.4296    626.3752    ✗       
+644   EPLGGK                   -1.0000     NotChecked  -18.4304    599.3279    ✗       
+645   N+0.984VLGFK             -1.0000     NotChecked  -18.4333    677.3748    ✗       
+646   M+15.995PLGVK            -1.0000     NotChecked  -18.4530    659.3676    ✗       
+647   TPLFGK                   -1.0000     NotChecked  -18.4577    661.3799    ✗       
+648   EPLGNK                   -1.0000     NotChecked  -18.4695    656.3493    ✗       
+649   NPLAFK                   -1.0000     NotChecked  -18.4767    688.3908    ✗       
+650   NPGGFK                   -1.0000     NotChecked  -18.4771    618.3126    ✗       
+651   DPDGFK                   -1.0000     NotChecked  -18.4803    677.3021    ✗       
+652   SPLFGK                   -1.0000     NotChecked  -18.4989    647.3643    ✗       
+653   M+15.995PGGFK            -1.0000     NotChecked  -18.5005    651.3050    ✗       
+654   SGPLGFK                  -1.0000     NotChecked  -18.5099    704.3857    ✗       
+655   EPPGFK                   -1.0000     NotChecked  -18.5298    673.3435    ✗       
+656   NPLFK                    -1.0000     NotChecked  -18.5331    617.3537    ✗       
+657   TPLAFK                   -1.0000     NotChecked  -18.5512    675.3956    ✗       
+658   M+15.995PLFK             -1.0000     NotChecked  -18.5564    650.3462    ✗       
+659   EPLGYK                   -1.0000     NotChecked  -18.5570    705.3697    ✗       
+660   ELGGK                    -1.0000     NotChecked  -18.5588    502.2751    ✗       
+661   MPLFGK                   -1.0000     NotChecked  -18.5658    691.3727    ✗       
+662   TPLPFK                   -1.0000     NotChecked  -18.5761    701.4112    ✗       
+663   NPDGFK                   -1.0000     NotChecked  -18.5894    676.3180    ✗       
+664   SPLAFK                   -1.0000     NotChecked  -18.5923    661.3799    ✗       
+665   ELLGFK                   -1.0000     NotChecked  -18.5943    705.4061    ✗       
+666   SPLPFK                   -1.0000     NotChecked  -18.6172    687.3956    ✗       
+667   DLFFK                    -1.0000     NotChecked  -18.6217    668.3534    ✗       
+668   EPLGK                    -1.0000     NotChecked  -18.6321    542.3064    ✗       
+669   EPVGFK                   -1.0000     NotChecked  -18.6431    675.3592    ✗       
+670   EPLGFK                   -1.0000     NotChecked  -18.6557    689.3748    ✗       
+671   EPLGAK                   -1.0000     NotChecked  -18.6590    613.3435    ✗       
+672   MPLAFK                   -1.0000     NotChecked  -18.6592    705.3884    ✗       
+673   EPLGLK                   -1.0000     NotChecked  -18.6930    655.3905    ✗       
+674   DTLGFK                   -1.0000     NotChecked  -18.6940    679.3541    ✗       
+675   SFLGFK                   -1.0000     NotChecked  -18.7024    697.3799    ✗       
+676   TPLGFK                   -1.0000     NotChecked  -18.7045    661.3799    ✗       
+677   DPLGFK                   -1.0000     NotChecked  -18.7089    675.3592    ✗       
+678   NLFFK                    -1.0000     NotChecked  -18.7308    667.3693    ✗       
+679   SPLGFK                   -1.0000     NotChecked  -18.7457    647.3643    ✗       
+680   EPLGK                    -1.0000     NotChecked  -18.7462    542.3064    ✗       
+681   M+15.995LFFK             -1.0000     NotChecked  -18.7542    700.3618    ✗       
+682   N+0.984PLFGK             -1.0000     NotChecked  -18.7603    675.3592    ✗       
+683   TPLSFK                   -1.0000     NotChecked  -18.7711    691.3905    ✗       
+684   DPLFGK                   -1.0000     NotChecked  -18.7822    675.3592    ✗       
+685   DGPLGGK                  -1.0000     NotChecked  -18.7822    642.3337    ✗       
+686   ELGFK                    -1.0000     NotChecked  -18.7841    592.3221    ✗       
+687   NTLGFK                   -1.0000     NotChecked  -18.8031    678.3701    ✗       
+688   SPLSFK                   -1.0000     NotChecked  -18.8123    677.3748    ✗       
+689   MPLGFK                   -1.0000     NotChecked  -18.8126    691.3727    ✗       
+690   NPLGFK                   -1.0000     NotChecked  -18.8180    674.3752    ✗       
+691   TPLGFK                   -1.0000     NotChecked  -18.8330    661.3799    ✗       
+692   DVLGGK                   -1.0000     NotChecked  -18.8413    587.3279    ✗       
+693   N+0.984PLAFK             -1.0000     NotChecked  -18.8537    689.3748    ✗       
+694   SPLGFK                   -1.0000     NotChecked  -18.8741    647.3643    ✗       
+695   EPLGFK                   -1.0000     NotChecked  -18.8746    689.3748    ✗       
+696   NPLFGK                   -1.0000     NotChecked  -18.8913    674.3752    ✗       
+697   NGPLGGK                  -1.0000     NotChecked  -18.8913    641.3497    ✗       
+698   NPLGFK                   -1.0000     NotChecked  -18.9059    674.3752    ✗       
+699   M+15.995GPLGGK           -1.0000     NotChecked  -18.9146    674.3421    ✗       
+700   MPLGFK                   -1.0000     NotChecked  -18.9410    691.3727    ✗       
+701   EPLGK                    -1.0000     NotChecked  -18.9445    542.3064    ✗       
+702   NVLGGK                   -1.0000     NotChecked  -18.9504    586.3439    ✗       
+703   EPLGVK                   -1.0000     NotChecked  -18.9736    641.3748    ✗       
+704   M+15.995VLGGK            -1.0000     NotChecked  -18.9738    619.3363    ✗       
+705   TALGFK                   -1.0000     NotChecked  -19.0022    635.3643    ✗       
+706   N+0.984PLGFK             -1.0000     NotChecked  -19.0071    675.3592    ✗       
+707   TPLGDK                   -1.0000     NotChecked  -19.0091    629.3384    ✗       
+708   EPLAFK                   -1.0000     NotChecked  -19.0207    703.3905    ✗       
+709   EPGGFK                   -1.0000     NotChecked  -19.0210    633.3122    ✗       
+710   SALGFK                   -1.0000     NotChecked  -19.0433    621.3486    ✗       
+711   SPLGDK                   -1.0000     NotChecked  -19.0502    615.3228    ✗       
+712   DVLGFK                   -1.0000     NotChecked  -19.0666    677.3748    ✗       
+713   DPAGFK                   -1.0000     NotChecked  -19.0676    633.3122    ✗       
+714   N+0.984PLSFK             -1.0000     NotChecked  -19.0737    705.3697    ✗       
+715   EPLFK                    -1.0000     NotChecked  -19.0770    632.3534    ✗       
+716   TPLGGK                   -1.0000     NotChecked  -19.0906    571.3330    ✗       
+717   DPLSFK                   -1.0000     NotChecked  -19.0956    705.3697    ✗       
+718   MALGFK                   -1.0000     NotChecked  -19.1102    665.3571    ✗       
+719   MPLGDK                   -1.0000     NotChecked  -19.1171    659.3312    ✗       
+720   TPLGNK                   -1.0000     NotChecked  -19.1298    628.3544    ✗       
+721   SPLGGK                   -1.0000     NotChecked  -19.1318    557.3173    ✗       
+722   EPDGFK                   -1.0000     NotChecked  -19.1334    691.3177    ✗       
+723   N+0.984PLGFK             -1.0000     NotChecked  -19.1355    675.3592    ✗       
+724   SPLGFK                   -1.0000     NotChecked  -19.1419    647.3643    ✗       
+725   SPLGNK                   -1.0000     NotChecked  -19.1709    614.3388    ✗       
+726   NVLGFK                   -1.0000     NotChecked  -19.1756    676.3908    ✗       
+727   NPAGFK                   -1.0000     NotChecked  -19.1767    632.3282    ✗       
+728   DGPLGGK                  -1.0000     NotChecked  -19.1793    642.3337    ✗       
+729   TPPGFK                   -1.0000     NotChecked  -19.1901    645.3486    ✗       
+730   YALGFK                   -1.0000     NotChecked  -19.1915    697.3799    ✗       
+731   YPLGDK                   -1.0000     NotChecked  -19.1984    691.3541    ✗       
+732   MPLGGK                   -1.0000     NotChecked  -19.1987    601.3258    ✗       
+733   M+15.995PAGFK            -1.0000     NotChecked  -19.2000    665.3207    ✗       
+734   NPLSFK                   -1.0000     NotChecked  -19.2047    704.3857    ✗       
+735   TPLGYK                   -1.0000     NotChecked  -19.2172    677.3748    ✗       
+736   TLGGK                    -1.0000     NotChecked  -19.2190    474.2802    ✗       
+737   DPNGFK                   -1.0000     NotChecked  -19.2234    676.3180    ✗       
+738   SPPGFK                   -1.0000     NotChecked  -19.2312    631.3330    ✗       
+739   MPLGNK                   -1.0000     NotChecked  -19.2378    658.3472    ✗       
+740   DPN+0.984GFK             -1.0000     NotChecked  -19.2431    677.3021    ✗       
+741   TLLGFK                   -1.0000     NotChecked  -19.2546    677.4112    ✗       
+742   DPLGFK                   -1.0000     NotChecked  -19.2546    675.3592    ✗       
+743   SPLGYK                   -1.0000     NotChecked  -19.2583    663.3592    ✗       
+744   SLGGK                    -1.0000     NotChecked  -19.2602    460.2645    ✗       
+745   TPLVFK                   -1.0000     NotChecked  -19.2615    703.4269    ✗       
+746   ELFFK                    -1.0000     NotChecked  -19.2748    682.3690    ✗       
+747   YPLGGK                   -1.0000     NotChecked  -19.2799    633.3486    ✗       
+748   NGPLGGK                  -1.0000     NotChecked  -19.2884    641.3497    ✗       
+749   TPLGK                    -1.0000     NotChecked  -19.2923    514.3115    ✗       
+750   SLLGFK                   -1.0000     NotChecked  -19.2957    663.3956    ✗       
+751   MPPGFK                   -1.0000     NotChecked  -19.2981    675.3414    ✗       
+752   SPLVFK                   -1.0000     NotChecked  -19.3027    689.4112    ✗       
+753   TPVGFK                   -1.0000     NotChecked  -19.3033    647.3643    ✗       
+754   N+0.984ALGFK             -1.0000     NotChecked  -19.3047    649.3435    ✗       
+755   N+0.984PLGDK             -1.0000     NotChecked  -19.3116    643.3177    ✗       
+756   M+15.995GPLGGK           -1.0000     NotChecked  -19.3118    674.3421    ✗       
+757   TPLGFK                   -1.0000     NotChecked  -19.3159    661.3799    ✗       
+758   YPLGNK                   -1.0000     NotChecked  -19.3191    690.3701    ✗       
+759   TPLGAK                   -1.0000     NotChecked  -19.3192    585.3486    ✗       
+760   DAPLGGK                  -1.0000     NotChecked  -19.3253    656.3493    ✗       
+761   MLGGK                    -1.0000     NotChecked  -19.3271    504.2730    ✗       
+762   NPNGFK                   -1.0000     NotChecked  -19.3324    675.3340    ✗       
+763   SPLGK                    -1.0000     NotChecked  -19.3334    500.2958    ✗       
+764   DPLGDK                   -1.0000     NotChecked  -19.3335    643.3177    ✗       
+765   DQLGFK                   -1.0000     NotChecked  -19.3366    706.3650    ✗       
+766   SPVGFK                   -1.0000     NotChecked  -19.3444    633.3486    ✗       
+767   ETLGFK                   -1.0000     NotChecked  -19.3470    693.3697    ✗       
+768   DPLGFK                   -1.0000     NotChecked  -19.3513    675.3592    ✗       
+769   NPN+0.984GFK             -1.0000     NotChecked  -19.3522    676.3180    ✗       
+770   TPLGLK                   -1.0000     NotChecked  -19.3532    627.3956    ✗       
+771   SPLGFK                   -1.0000     NotChecked  -19.3570    647.3643    ✗       
+772   SPLGAK                   -1.0000     NotChecked  -19.3604    571.3330    ✗       
+773   EPLGFK                   -1.0000     NotChecked  -19.3619    689.3748    ✗       
+774   NPLGFK                   -1.0000     NotChecked  -19.3637    674.3752    ✗       
+775   DFLGGK                   -1.0000     NotChecked  -19.3718    635.3279    ✗       
+776   DPLGFR                   -1.0000     NotChecked  -19.3818    703.3653    ✗       
+777   DNLGFK                   -1.0000     NotChecked  -19.3879    692.3493    ✗       
+778   N+0.984PLGGK             -1.0000     NotChecked  -19.3932    585.3122    ✗       
+779   SPLGLK                   -1.0000     NotChecked  -19.3944    613.3799    ✗       
+780   MPLGK                    -1.0000     NotChecked  -19.4004    544.3043    ✗       
+781   TPLGK                    -1.0000     NotChecked  -19.4064    514.3115    ✗       
+782   YLGGK                    -1.0000     NotChecked  -19.4084    536.2958    ✗       
+783   MPVGFK                   -1.0000     NotChecked  -19.4114    677.3571    ✗       
+784   DPLGGK                   -1.0000     NotChecked  -19.4151    585.3122    ✗       
+785   DPEGFK                   -1.0000     NotChecked  -19.4209    691.3177    ✗       
+786   MPLGFK                   -1.0000     NotChecked  -19.4239    691.3727    ✗       
+787   MPLGAK                   -1.0000     NotChecked  -19.4273    615.3414    ✗       
+788   N+0.984PLGNK             -1.0000     NotChecked  -19.4323    642.3337    ✗       
+789   NAPLGGK                  -1.0000     NotChecked  -19.4343    655.3653    ✗       
+790   EPLFGK                   -1.0000     NotChecked  -19.4352    689.3748    ✗       
+791   EGPLGGK                  -1.0000     NotChecked  -19.4352    656.3493    ✗       
+792   NPLGDK                   -1.0000     NotChecked  -19.4426    642.3337    ✗       
+793   TLGFK                    -1.0000     NotChecked  -19.4443    564.3271    ✗       
+794   NQLGFK                   -1.0000     NotChecked  -19.4456    705.3810    ✗       
+795   SPLGK                    -1.0000     NotChecked  -19.4475    500.2958    ✗       
+796   DPLGNK                   -1.0000     NotChecked  -19.4542    642.3337    ✗       
+797   M+15.995APLGGK           -1.0000     NotChecked  -19.4577    688.3578    ✗       
+798   NPLGFK                   -1.0000     NotChecked  -19.4604    674.3752    ✗       
+799   MPLGLK                   -1.0000     NotChecked  -19.4613    657.3884    ✗       
+800   M+15.995PLGDK            -1.0000     NotChecked  -19.4660    675.3262    ✗       
+801   NFLGGK                   -1.0000     NotChecked  -19.4808    634.3439    ✗       
+802   YPLGK                    -1.0000     NotChecked  -19.4816    576.3271    ✗       
+803   SLGFK                    -1.0000     NotChecked  -19.4854    550.3115    ✗       
+804   NPLGFR                   -1.0000     NotChecked  -19.4909    702.3813    ✗       
+805   N+0.984PPGFK             -1.0000     NotChecked  -19.4926    659.3279    ✗       
+806   EVLGGK                   -1.0000     NotChecked  -19.4943    601.3435    ✗       
+807   NNLGFK                   -1.0000     NotChecked  -19.4970    691.3653    ✗       
+808   M+15.995FLGGK            -1.0000     NotChecked  -19.5042    667.3363    ✗       
+809   YPLGAK                   -1.0000     NotChecked  -19.5085    647.3643    ✗       
+810   DSLGFK                   -1.0000     NotChecked  -19.5103    665.3384    ✗       
+811   MPLGK                    -1.0000     NotChecked  -19.5144    544.3043    ✗       
+812   DPPGFK                   -1.0000     NotChecked  -19.5145    659.3279    ✗       
+813   N+0.984PLGYK             -1.0000     NotChecked  -19.5197    691.3541    ✗       
+814   N+0.984LGGK              -1.0000     NotChecked  -19.5216    488.2595    ✗       
+815   NPLGGK                   -1.0000     NotChecked  -19.5242    584.3282    ✗       
+816   NPEGFK                   -1.0000     NotChecked  -19.5300    690.3337    ✗       
+817   TPLGFK                   -1.0000     NotChecked  -19.5348    661.3799    ✗       
+818   DPLGYK                   -1.0000     NotChecked  -19.5416    691.3541    ✗       
+819   SFPLGGK                  -1.0000     NotChecked  -19.5420    704.3857    ✗       
+820   YPLGLK                   -1.0000     NotChecked  -19.5426    689.4112    ✗       
+821   DPLGGK                   -1.0000     NotChecked  -19.5435    585.3122    ✗       
+822   M+15.995PLGGK            -1.0000     NotChecked  -19.5475    617.3207    ✗       
+823   MLGFK                    -1.0000     NotChecked  -19.5524    594.3200    ✗       
+824   DPLFK                    -1.0000     NotChecked  -19.5537    618.3377    ✗       
+825   N+0.984LLGFK             -1.0000     NotChecked  -19.5571    691.3905    ✗       
+826   NPLGNK                   -1.0000     NotChecked  -19.5633    641.3497    ✗       
+827   SPLGFK                   -1.0000     NotChecked  -19.5760    647.3643    ✗       
+828   M+15.995PLGNK            -1.0000     NotChecked  -19.5867    674.3421    ✗       
+829   N+0.984PLGK              -1.0000     NotChecked  -19.5948    528.2908    ✗       
+830   YPLGK                    -1.0000     NotChecked  -19.5957    576.3271    ✗       
+831   TPLGK                    -1.0000     NotChecked  -19.6047    514.3115    ✗       
+832   N+0.984PVGFK             -1.0000     NotChecked  -19.6058    661.3435    ✗       
+833   DPLGK                    -1.0000     NotChecked  -19.6168    528.2908    ✗       
+834   N+0.984PLGFK             -1.0000     NotChecked  -19.6184    675.3592    ✗       
+835   NSLGFK                   -1.0000     NotChecked  -19.6194    664.3544    ✗       
+836   N+0.984PLGAK             -1.0000     NotChecked  -19.6218    599.3279    ✗       
+837   NPPGFK                   -1.0000     NotChecked  -19.6236    658.3439    ✗       
+838   DPVGFK                   -1.0000     NotChecked  -19.6278    661.3435    ✗       
+839   YLGFK                    -1.0000     NotChecked  -19.6336    626.3428    ✗       
+840   TPLGVK                   -1.0000     NotChecked  -19.6338    613.3799    ✗       
+841   DPLGFK                   -1.0000     NotChecked  -19.6403    675.3592    ✗       
+842   M+15.995SLGFK            -1.0000     NotChecked  -19.6428    697.3469    ✗       
+843   MPLGFK                   -1.0000     NotChecked  -19.6429    691.3727    ✗       
+844   DPLGAK                   -1.0000     NotChecked  -19.6437    599.3279    ✗       
+845   SPLGK                    -1.0000     NotChecked  -19.6459    500.2958    ✗       
+846   M+15.995PPGFK            -1.0000     NotChecked  -19.6470    691.3363    ✗       
+847   NPLGYK                   -1.0000     NotChecked  -19.6507    690.3701    ✗       
+848   NPLGGK                   -1.0000     NotChecked  -19.6526    584.3282    ✗       
+849   N+0.984PLGLK             -1.0000     NotChecked  -19.6558    641.3748    ✗       
+850   NPLFK                    -1.0000     NotChecked  -19.6628    617.3537    ✗       
+851   TPLGFK                   -1.0000     NotChecked  -19.6648    661.3799    ✗       
+852   SPLGVK                   -1.0000     NotChecked  -19.6749    599.3643    ✗       
+853   M+15.995PLGGK            -1.0000     NotChecked  -19.6760    617.3207    ✗       
+854   DPLGFK                   -1.0000     NotChecked  -19.6776    675.3592    ✗       
+855   DPLGLK                   -1.0000     NotChecked  -19.6777    641.3748    ✗       
+856   TPLAFK                   -1.0000     NotChecked  -19.6809    675.3956    ✗       
+857   TPGGFK                   -1.0000     NotChecked  -19.6813    605.3173    ✗       
+858   M+15.995PLFK             -1.0000     NotChecked  -19.6862    650.3462    ✗       
+859   N+0.984PLGK              -1.0000     NotChecked  -19.7089    528.2908    ✗       
+860   DALGGK                   -1.0000     NotChecked  -19.7127    559.2966    ✗       
+861   MPLGK                    -1.0000     NotChecked  -19.7128    544.3043    ✗       
+862   EVLGFK                   -1.0000     NotChecked  -19.7196    691.3905    ✗       
+863   EPAGFK                   -1.0000     NotChecked  -19.7206    647.3279    ✗       
+864   SPLAFK                   -1.0000     NotChecked  -19.7220    661.3799    ✗       
+865   SPGGFK                   -1.0000     NotChecked  -19.7224    591.3017    ✗       
+866   NPLGK                    -1.0000     NotChecked  -19.7258    527.3067    ✗       
+867   DPLGK                    -1.0000     NotChecked  -19.7308    528.2908    ✗       
+868   NPVGFK                   -1.0000     NotChecked  -19.7368    660.3595    ✗       
+869   TPLFK                    -1.0000     NotChecked  -19.7372    604.3584    ✗       
+870   MPLGVK                   -1.0000     NotChecked  -19.7418    643.3727    ✗       
+871   N+0.984LGFK              -1.0000     NotChecked  -19.7468    578.3064    ✗       
+872   M+15.995PLGK             -1.0000     NotChecked  -19.7492    560.2992    ✗       
+873   NPLGFK                   -1.0000     NotChecked  -19.7494    674.3752    ✗       
+874   NPLGAK                   -1.0000     NotChecked  -19.7528    598.3439    ✗       
+875   M+15.995PVGFK            -1.0000     NotChecked  -19.7602    693.3520    ✗       
+876   DPLGFK                   -1.0000     NotChecked  -19.7688    675.3592    ✗       
+877   M+15.995PLGAK            -1.0000     NotChecked  -19.7761    631.3363    ✗       
+878   SPLFK                    -1.0000     NotChecked  -19.7784    590.3428    ✗       
+879   NPLGFK                   -1.0000     NotChecked  -19.7867    674.3752    ✗       
+880   NPLGLK                   -1.0000     NotChecked  -19.7868    640.3908    ✗       
+881   MPLAFK                   -1.0000     NotChecked  -19.7890    705.3884    ✗       
+882   MPGGFK                   -1.0000     NotChecked  -19.7893    635.3101    ✗       
+883   TPDGFK                   -1.0000     NotChecked  -19.7936    663.3228    ✗       
+884   YPLGK                    -1.0000     NotChecked  -19.7941    576.3271    ✗       
+885   M+15.995PLGLK            -1.0000     NotChecked  -19.8102    673.3833    ✗       
+886   NALGGK                   -1.0000     NotChecked  -19.8218    558.3126    ✗       
+887   DSPLGGK                  -1.0000     NotChecked  -19.8218    672.3443    ✗       
+888   YPLGVK                   -1.0000     NotChecked  -19.8231    675.3956    ✗       
+889   EGPLGGK                  -1.0000     NotChecked  -19.8323    656.3493    ✗       
+890   SPDGFK                   -1.0000     NotChecked  -19.8347    649.3071    ✗       
+891   N+0.984PLGFK             -1.0000     NotChecked  -19.8374    675.3592    ✗       
+892   NPLGK                    -1.0000     NotChecked  -19.8399    527.3067    ✗       
+893   M+15.995ALGGK            -1.0000     NotChecked  -19.8452    591.3050    ✗       
+894   MPLFK                    -1.0000     NotChecked  -19.8453    634.3513    ✗       
+895   M+15.995PLGK             -1.0000     NotChecked  -19.8633    560.2992    ✗       
+896   YPGGFK                   -1.0000     NotChecked  -19.8706    667.3330    ✗       
+897   EPNGFK                   -1.0000     NotChecked  -19.8764    690.3337    ✗       
+898   NPLGFK                   -1.0000     NotChecked  -19.8778    674.3752    ✗       
+899   EPN+0.984GFK             -1.0000     NotChecked  -19.8962    691.3177    ✗       
+900   MPDGFK                   -1.0000     NotChecked  -19.9017    693.3156    ✗       
+901   N+0.984PLGK              -1.0000     NotChecked  -19.9073    528.2908    ✗       
+902   EPLGFK                   -1.0000     NotChecked  -19.9077    689.3748    ✗       
+903   DPLFGK                   -1.0000     NotChecked  -19.9119    675.3592    ✗       
+904   TPLTFK                   -1.0000     NotChecked  -19.9149    705.4061    ✗       
+905   YPLFK                    -1.0000     NotChecked  -19.9266    666.3741    ✗       
+906   NSPLGGK                  -1.0000     NotChecked  -19.9309    671.3602    ✗       
+907   TLFFK                    -1.0000     NotChecked  -19.9350    654.3741    ✗       
+908   N+0.984PLGVK             -1.0000     NotChecked  -19.9363    627.3592    ✗       
+909   DALGFK                   -1.0000     NotChecked  -19.9380    649.3435    ✗       
+910   SPLLFK                   -1.0000     NotChecked  -19.9539    703.4269    ✗       
+911   M+15.995SPLGGK           -1.0000     NotChecked  -19.9543    704.3527    ✗       
+912   SPLTFK                   -1.0000     NotChecked  -19.9560    691.3905    ✗       
+913   DPLGVK                   -1.0000     NotChecked  -19.9582    627.3592    ✗       
+914   DLLGGK                   -1.0000     NotChecked  -19.9651    601.3435    ✗       
+915   SLFFK                    -1.0000     NotChecked  -19.9761    640.3584    ✗       
+916   EAPLGGK                  -1.0000     NotChecked  -19.9783    670.3650    ✗       
+917   N+0.984PLAFK             -1.0000     NotChecked  -19.9834    689.3748    ✗       
+918   N+0.984PGGFK             -1.0000     NotChecked  -19.9838    619.2966    ✗       
+919   EPLGDK                   -1.0000     NotChecked  -19.9866    657.3334    ✗       
+920   EPLGFK                   -1.0000     NotChecked  -20.0043    689.3748    ✗       
+921   DPLAFK                   -1.0000     NotChecked  -20.0054    689.3748    ✗       
+922   DPGGFK                   -1.0000     NotChecked  -20.0057    619.2966    ✗       
+923   TTLGFK                   -1.0000     NotChecked  -20.0072    665.3748    ✗       
+924   NPLFGK                   -1.0000     NotChecked  -20.0210    674.3752    ✗       
+925   TPLGFK                   -1.0000     NotChecked  -20.0221    661.3799    ✗       
+926   EFLGGK                   -1.0000     NotChecked  -20.0248    649.3435    ✗       
+927   N+0.984PLFK              -1.0000     NotChecked  -20.0398    618.3377    ✗       
+928   ENLGFK                   -1.0000     NotChecked  -20.0410    706.3650    ✗       
+929   MLFFK                    -1.0000     NotChecked  -20.0431    684.3669    ✗       
+930   NALGFK                   -1.0000     NotChecked  -20.0470    648.3595    ✗       
+931   STLGFK                   -1.0000     NotChecked  -20.0484    651.3592    ✗       
+932   SPLGFK                   -1.0000     NotChecked  -20.0633    647.3643    ✗       
+933   NPLGVK                   -1.0000     NotChecked  -20.0673    626.3752    ✗       
+934   EPLGGK                   -1.0000     NotChecked  -20.0681    599.3279    ✗       
+935   M+15.995ALGFK            -1.0000     NotChecked  -20.0704    681.3520    ✗       
+936   EPEGFK                   -1.0000     NotChecked  -20.0740    705.3334    ✗       
+937   NLLGGK                   -1.0000     NotChecked  -20.0742    600.3595    ✗       
+938   M+15.995PLGVK            -1.0000     NotChecked  -20.0907    659.3676    ✗       
+939   TPLFGK                   -1.0000     NotChecked  -20.0954    661.3799    ✗       
+940   TGPLGGK                  -1.0000     NotChecked  -20.0954    628.3544    ✗       
+941   N+0.984PDGFK             -1.0000     NotChecked  -20.0961    677.3021    ✗       
+942   M+15.995LLGGK            -1.0000     NotChecked  -20.0976    633.3520    ✗       
+943   EPLGNK                   -1.0000     NotChecked  -20.1073    656.3493    ✗       
+944   NPLAFK                   -1.0000     NotChecked  -20.1144    688.3908    ✗       
+945   NPGGFK                   -1.0000     NotChecked  -20.1148    618.3126    ✗       
+946   MTLGFK                   -1.0000     NotChecked  -20.1153    695.3676    ✗       
+947   DPDGFK                   -1.0000     NotChecked  -20.1181    677.3021    ✗       
+948   MPLGFK                   -1.0000     NotChecked  -20.1302    691.3727    ✗       
+949   SPLFGK                   -1.0000     NotChecked  -20.1366    647.3643    ✗       
+950   SGPLGGK                  -1.0000     NotChecked  -20.1366    614.3388    ✗       
+951   M+15.995PGGFK            -1.0000     NotChecked  -20.1382    651.3050    ✗       
+952   SGPLGFK                  -1.0000     NotChecked  -20.1476    704.3857    ✗       
+953   TVLGGK                   -1.0000     NotChecked  -20.1546    573.3486    ✗       
+954   ESLGFK                   -1.0000     NotChecked  -20.1634    679.3541    ✗       
+955   EPPGFK                   -1.0000     NotChecked  -20.1676    673.3435    ✗       
+956   DVPLGGK                  -1.0000     NotChecked  -20.1768    684.3806    ✗       
+957   DLLGFK                   -1.0000     NotChecked  -20.1904    691.3905    ✗       
+958   EPLGYK                   -1.0000     NotChecked  -20.1947    705.3697    ✗       
+959   SVLGGK                   -1.0000     NotChecked  -20.1957    559.3330    ✗       
+960   EPLGGK                   -1.0000     NotChecked  -20.1965    599.3279    ✗       
+961   MPLFGK                   -1.0000     NotChecked  -20.2035    691.3727    ✗       
+962   MGPLGGK                  -1.0000     NotChecked  -20.2035    658.3472    ✗       
+963   EPLFK                    -1.0000     NotChecked  -20.2068    632.3534    ✗       
+964   TPLPFK                   -1.0000     NotChecked  -20.2138    701.4112    ✗       
+965   DPLSFK                   -1.0000     NotChecked  -20.2253    705.3697    ✗       
+966   NPDGFK                   -1.0000     NotChecked  -20.2271    676.3180    ✗       
+967   N+0.984LFFK              -1.0000     NotChecked  -20.2375    668.3534    ✗       
+968   SPLPFK                   -1.0000     NotChecked  -20.2549    687.3956    ✗       
+969   DGLGFK                   -1.0000     NotChecked  -20.2595    635.3279    ✗       
+970   MVLGGK                   -1.0000     NotChecked  -20.2626    603.3414    ✗       
+971   EPLGK                    -1.0000     NotChecked  -20.2698    542.3064    ✗       
+972   SPLGFK                   -1.0000     NotChecked  -20.2716    647.3643    ✗       
+973   EPVGFK                   -1.0000     NotChecked  -20.2808    675.3592    ✗       
+974   YGPLGGK                  -1.0000     NotChecked  -20.2848    690.3701    ✗       
+975   NVPLGGK                  -1.0000     NotChecked  -20.2858    683.3966    ✗       
+976   EPLGFK                   -1.0000     NotChecked  -20.2934    689.3748    ✗       
+977   EPLGAK                   -1.0000     NotChecked  -20.2967    613.3435    ✗       
+978   NLLGFK                   -1.0000     NotChecked  -20.2994    690.4065    ✗       
+979   N+0.984TLGFK             -1.0000     NotChecked  -20.3098    679.3541    ✗       
+980   N+0.984PLGFK             -1.0000     NotChecked  -20.3247    675.3592    ✗       
+981   EPLGFK                   -1.0000     NotChecked  -20.3307    689.3748    ✗       
+982   EPLGLK                   -1.0000     NotChecked  -20.3307    655.3905    ✗       
+983   NPLSFK                   -1.0000     NotChecked  -20.3344    704.3857    ✗       
+984   YVLGGK                   -1.0000     NotChecked  -20.3439    635.3643    ✗       
+985   SGPLGFK                  -1.0000     NotChecked  -20.3618    704.3857    ✗       
+986   EALGGK                   -1.0000     NotChecked  -20.3657    573.3122    ✗       
+987   NGLGFK                   -1.0000     NotChecked  -20.3685    634.3439    ✗       
+988   TVLGFK                   -1.0000     NotChecked  -20.3798    663.3956    ✗       
+989   TPAGFK                   -1.0000     NotChecked  -20.3808    619.3330    ✗       
+990   EPLGK                    -1.0000     NotChecked  -20.3839    542.3064    ✗       
+991   TPLVFK                   -1.0000     NotChecked  -20.3913    703.4269    ✗       
+992   DPLAGK                   -1.0000     NotChecked  -20.3914    599.3279    ✗       
+993   M+15.995GLGFK            -1.0000     NotChecked  -20.3919    667.3363    ✗       
+994   N+0.984PLFGK             -1.0000     NotChecked  -20.3980    675.3592    ✗       
+995   N+0.984GPLGGK            -1.0000     NotChecked  -20.3980    642.3337    ✗       
+996   TPLSFK                   -1.0000     NotChecked  -20.4088    691.3905    ✗       
+997   SVLGFK                   -1.0000     NotChecked  -20.4210    649.3799    ✗       
+998   EPLGFK                   -1.0000     NotChecked  -20.4218    689.3748    ✗       
+999   SPAGFK                   -1.0000     NotChecked  -20.4220    605.3173    ✗       
+1000  SPLVFK                   -1.0000     NotChecked  -20.4324    689.4112    ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: M+15.995PLGFK
+Similarity: 0.4563
+De Novo Score: -17.6522
+Source: Prosit
+Correct: ✗
+

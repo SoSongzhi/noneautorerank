@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 201
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 488.7958
+Precursor charge: 2+
+Ground truth: QQIIISFK
+Ground truth (normalized): QQIIISFK
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 107
+Used for reranking: 107
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 107 (10.7%)
+Database matches: 57 (5.7%)
+Prosit predictions: 47 (4.7%)
+Failed: 3 (0.3%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.9297
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     QQLLLSFK                 0.9297      Database    -0.0295     975.5753    ✓       ✓
+2     QQLLLSFK                 0.9297      Database    -3.5410     975.5753    ✓       ✓
+3     QQLLLSFK                 0.9297      Database    -9.2646     975.5753    ✓       ✓
+4     QQLLLSFK                 0.9297      Database    -12.7761    975.5753    ✓       ✓
+5     QQLLLSFK                 0.9297      Database    -14.4313    975.5753    ✓       ✓
+6     QQLLLSFK                 0.9297      Database    -14.8999    975.5753    ✓       ✓
+7     QQLLLSFK                 0.9297      Database    -15.1347    975.5753    ✓       ✓
+8     QQLLLSFK                 0.9297      Database    -17.0847    975.5753    ✓       ✓
+9     QQLLLSFK                 0.9297      Database    -17.1104    975.5753    ✓       ✓
+10    QQLLLSFK                 0.9297      Database    -17.1397    975.5753    ✓       ✓
+11    QQLLLSFK                 0.9297      Database    -17.9428    975.5753    ✓       ✓
+12    QQLLLSFK                 0.9297      Database    -18.4114    975.5753    ✓       ✓
+13    QQLLLSFK                 0.9297      Database    -18.6462    975.5753    ✓       ✓
+14    QQLLLSFK                 0.9297      Database    -19.2071    975.5753    ✓       ✓
+15    QQLLLSFK                 0.9297      Database    -20.0212    975.5753    ✓       ✓
+16    QQLLLSFK                 0.9297      Database    -20.5962    975.5753    ✓       ✓
+17    QQLLLSFK                 0.9297      Database    -20.6512    975.5753    ✓       ✓
+18    QQLLLSFK                 0.9297      Database    -20.7069    975.5753    ✓       ✓
+19    QQLLLSFK                 0.9297      Database    -21.2357    975.5753    ✓       ✓
+20    QQLLLSFK                 0.9297      Database    -21.6788    975.5753    ✓       ✓
+21    QQLLLSFK                 0.9297      Database    -22.7186    975.5753    ✓       ✓
+22    QQLLLSFK                 0.9297      Database    -23.5327    975.5753    ✓       ✓
+23    QQLLLSFK                 0.9297      Database    -23.6663    975.5753    ✓       ✓
+24    QQLLLSFK                 0.9297      Database    -24.2184    975.5753    ✓       ✓
+25    QQLLLSFK                 0.9297      Database    -24.3698    975.5753    ✓       ✓
+26    QQLLLSFK                 0.9297      Database    -25.1902    975.5753    ✓       ✓
+27    QQLLLSFK                 0.9297      Database    -26.3197    975.5753    ✓       ✓
+28    QQLLLSFK                 0.9297      Database    -26.3455    975.5753    ✓       ✓
+29    QQLLLSFK                 0.9297      Database    -26.3747    975.5753    ✓       ✓
+30    QQLLLSFK                 0.9297      Database    -27.0445    975.5753    ✓       ✓
+31    QQLLLSFK                 0.9297      Database    -27.1778    975.5753    ✓       ✓
+32    QQLLLSFK                 0.9297      Database    -27.8812    975.5753    ✓       ✓
+33    QQLLLSFK                 0.9297      Database    -28.4421    975.5753    ✓       ✓
+34    QQLLLSFK                 0.9297      Database    -29.2563    975.5753    ✓       ✓
+35    QQLLLSFK                 0.9297      Database    -29.3016    975.5753    ✓       ✓
+36    QQLLLSFK                 0.9297      Database    -29.5365    975.5753    ✓       ✓
+37    QQLLLSFK                 0.9297      Database    -29.8312    975.5753    ✓       ✓
+38    QQLLLSFK                 0.9297      Database    -29.8862    975.5753    ✓       ✓
+39    QQLLLSFK                 0.9297      Database    -29.9419    975.5753    ✓       ✓
+40    QQLLLSFK                 0.9297      Database    -30.0050    975.5753    ✓       ✓
+41    QQLLLSFK                 0.9297      Database    -30.4707    975.5753    ✓       ✓
+42    QQLLLSFK                 0.9297      Database    -30.5560    975.5753    ✓       ✓
+43    QQLLLSFK                 0.9297      Database    -30.9138    975.5753    ✓       ✓
+44    QQLLLSFK                 0.9297      Database    -31.4864    975.5753    ✓       ✓
+45    QQLLLSFK                 0.9297      Database    -31.5122    975.5753    ✓       ✓
+46    QQLLLSFK                 0.9297      Database    -31.5414    975.5753    ✓       ✓
+47    QQLLLSFK                 0.9297      Database    -31.9536    975.5753    ✓       ✓
+48    QQLLLSFK                 0.9297      Database    -31.9550    975.5753    ✓       ✓
+49    QQLLLSFK                 0.9297      Database    -31.9808    975.5753    ✓       ✓
+50    QQLLLSFK                 0.9297      Database    -32.0100    975.5753    ✓       ✓
+51    QQLLLSFK                 0.9297      Database    -32.1899    975.5753    ✓       ✓
+52    QQLLLSFK                 0.9297      Database    -32.2156    975.5753    ✓       ✓
+53    QQLLLSFK                 0.9297      Database    -32.2449    975.5753    ✓       ✓
+54    QQLLLSFK                 0.9297      Database    -32.6198    975.5753    ✓       ✓
+55    QQLLLSFK                 0.9297      Database    -32.7677    975.5753    ✓       ✓
+56    QQLLLSFK                 0.9297      Database    -32.8131    975.5753    ✓       ✓
+57    QQLLLSFK                 0.9297      Database    -35.9980    975.5753    ✓       ✓
+58    QQLLLAYK                 0.5402      Prosit      -31.8583    975.5753    ✓       
+59    KQLLLSFK                 0.4998      Prosit      -13.4393    975.6117    ✓       
+60    KQLLLSFK                 0.4998      Prosit      -16.9508    975.6117    ✓       
+61    KQLLLSFK                 0.4998      Prosit      -27.8410    975.6117    ✓       
+62    KQLLLSFK                 0.4998      Prosit      -28.3096    975.6117    ✓       
+63    KQLLLSFK                 0.4998      Prosit      -28.5444    975.6117    ✓       
+64    KQLLLSFK                 0.4998      Prosit      -30.4944    975.6117    ✓       
+65    KQLLLSFK                 0.4998      Prosit      -30.5202    975.6117    ✓       
+66    KQLLLSFK                 0.4998      Prosit      -30.5494    975.6117    ✓       
+67    KQLLLSFK                 0.4998      Prosit      -31.3525    975.6117    ✓       
+68    KQLLLSFK                 0.4998      Prosit      -31.8211    975.6117    ✓       
+69    KQLLLSFK                 0.4998      Prosit      -32.0559    975.6117    ✓       
+70    KQLLLSFK                 0.4998      Prosit      -32.6168    975.6117    ✓       
+71    KQLLLSFK                 0.4998      Prosit      -33.4310    975.6117    ✓       
+72    KQLLLSFK                 0.4998      Prosit      -34.0059    975.6117    ✓       
+73    KQLLLSFK                 0.4998      Prosit      -34.0609    975.6117    ✓       
+74    KQLLLSFK                 0.4998      Prosit      -34.1166    975.6117    ✓       
+75    KQLLLSFK                 0.4998      Prosit      -34.6454    975.6117    ✓       
+76    KQLLLSFK                 0.4998      Prosit      -35.0885    975.6117    ✓       
+77    KQLLLSFK                 0.4998      Prosit      -35.1472    975.6117    ✓       
+78    KQLLLSFK                 0.4998      Prosit      -36.1283    975.6117    ✓       
+79    KQLLLSFK                 0.4998      Prosit      -36.9424    975.6117    ✓       
+80    KQLLLSFK                 0.4998      Prosit      -37.5446    975.6117    ✓       
+81    KQLLLSFK                 0.4998      Prosit      -37.6281    975.6117    ✓       
+82    NQLLLTFK                 0.4791      Prosit      -33.4722    975.5753    ✓       
+83    NQLLLTFK                 0.4791      Prosit      -36.9837    975.5753    ✓       
+84    QQLPLSYK                 0.4783      Prosit      -31.8496    975.5389    ✓       
+85    QKLLLSFK                 0.4609      Prosit      -14.9797    975.6117    ✓       
+86    QKLLLSFK                 0.4609      Prosit      -18.4912    975.6117    ✓       
+87    QKLLLSFK                 0.4609      Prosit      -24.2147    975.6117    ✓       
+88    QKLLLSFK                 0.4609      Prosit      -27.7262    975.6117    ✓       
+89    QKLLLSFK                 0.4609      Prosit      -30.0849    975.6117    ✓       
+90    QKLLLSFK                 0.4609      Prosit      -32.0348    975.6117    ✓       
+91    QKLLLSFK                 0.4609      Prosit      -32.0606    975.6117    ✓       
+92    QKLLLSFK                 0.4609      Prosit      -32.0898    975.6117    ✓       
+93    QLLKLSFK                 0.4509      Prosit      -37.0323    975.6117    ✓       
+94    KKLLLSFK                 0.4353      Prosit      -28.3894    975.6481    ✓       
+95    KKLLLSFK                 0.4353      Prosit      -31.9009    975.6481    ✓       
+96    KQLLLSFQ                 0.4197      Prosit      -35.4227    975.5753    ✓       
+97    GQALLLSFK                0.4030      Prosit      -36.4321    975.5753    ✓       
+98    GQALLLSFK                0.4030      Prosit      -36.4952    975.5753    ✓       
+99    LQQLLSFK                 0.3995      Prosit      -36.2361    975.5753    ✓       
+100   QQLLLSFQ                 0.3898      Prosit      -22.0130    975.5389    ✓       
+101   QQLLLSFQ                 0.3898      Prosit      -25.5245    975.5389    ✓       
+102   QQLLLSFQ                 0.3898      Prosit      -31.2480    975.5389    ✓       
+103   LQLKLSFK                 0.3792      Prosit      -37.3010    975.6117    ✓       
+104   LQLLQSFK                 0.3784      Prosit      -36.3011    975.5753    ✓       
+105   QNLLLSFK                 -1.0000     NotChecked  -15.0486    961.5597    ✗       
+106   NQLLLSFK                 -1.0000     NotChecked  -15.2649    961.5597    ✗       
+107   +43.006QLLLSFK           -1.0000     NotChecked  -15.7546    890.5226    ✗       
+108   QLLLLSFK                 -1.0000     NotChecked  -16.4185    960.6008    ✗       
+109   -17.027QLLLSFK           -1.0000     NotChecked  -16.8310    830.4902    ✗       
+110   QQLPLSFK                 -1.0000     NotChecked  -17.1300    959.5440    ✗       
+111   QQLLLAFK                 -1.0000     NotChecked  -17.1387    959.5804    ✗       
+112   QQLLASFK                 -1.0000     NotChecked  -17.3430    933.5284    ✗       
+113   QQLLGSFK                 -1.0000     NotChecked  -17.5923    919.5127    ✗       
+114   QQLLSSFK                 -1.0000     NotChecked  -17.6526    949.5233    ✗       
+115   QQLLLSK                  -1.0000     NotChecked  -17.7242    828.5069    ✗       
+116   LQLLLSFK                 -1.0000     NotChecked  -17.7957    960.6008    ✗       
+117   QLLLSFK                  -1.0000     NotChecked  -17.8095    847.5167    ✗       
+118   GQLLLSFK                 -1.0000     NotChecked  -17.8762    904.5382    ✗       
+119   QQLLLSGK                 -1.0000     NotChecked  -17.9149    885.5284    ✗       
+120   QALLLSFK                 -1.0000     NotChecked  -17.9544    918.5539    ✗       
+121   QQLLLSDK                 -1.0000     NotChecked  -18.2633    943.5338    ✗       
+122   QQLGLSFK                 -1.0000     NotChecked  -18.4037    919.5127    ✗       
+123   QQLLVSFK                 -1.0000     NotChecked  -18.4243    961.5597    ✗       
+124   QQLLLSLK                 -1.0000     NotChecked  -18.5071    941.5910    ✗       
+125   QNLLLSFK                 -1.0000     NotChecked  -18.5601    961.5597    ✗       
+126   QTLLLSFK                 -1.0000     NotChecked  -18.6194    948.5644    ✗       
+127   QQLLLGFK                 -1.0000     NotChecked  -18.6253    945.5648    ✗       
+128   QQLLPSFK                 -1.0000     NotChecked  -18.6866    959.5440    ✗       
+129   NQLLLSFK                 -1.0000     NotChecked  -18.7763    961.5597    ✗       
+130   QQLLSFK                  -1.0000     NotChecked  -18.9242    862.4913    ✗       
+131   QQLALSFK                 -1.0000     NotChecked  -18.9828    933.5284    ✗       
+132   QQLLLSVK                 -1.0000     NotChecked  -19.0036    927.5753    ✗       
+133   QQVLLSFK                 -1.0000     NotChecked  -19.1056    961.5597    ✗       
+134   QQLLLSPK                 -1.0000     NotChecked  -19.2127    925.5597    ✗       
+135   +43.006QLLLSFK           -1.0000     NotChecked  -19.2660    890.5226    ✗       
+136   QQLLLSSK                 -1.0000     NotChecked  -19.3858    915.5389    ✗       
+137   QQALLSFK                 -1.0000     NotChecked  -19.5070    933.5284    ✗       
+138   QQPLLSFK                 -1.0000     NotChecked  -19.5482    959.5440    ✗       
+139   QLLLLSFK                 -1.0000     NotChecked  -19.9300    960.6008    ✗       
+140   -17.027QLLLSFK           -1.0000     NotChecked  -20.3424    830.4902    ✗       
+141   QQLPLSFK                 -1.0000     NotChecked  -20.6415    959.5440    ✗       
+142   QQLLLAFK                 -1.0000     NotChecked  -20.6502    959.5804    ✗       
+143   QQLLASFK                 -1.0000     NotChecked  -20.8545    933.5284    ✗       
+144   QQLLGSFK                 -1.0000     NotChecked  -21.1038    919.5127    ✗       
+145   QQLLSSFK                 -1.0000     NotChecked  -21.1641    949.5233    ✗       
+146   LQLLLSFK                 -1.0000     NotChecked  -21.3072    960.6008    ✗       
+147   QLLLSFK                  -1.0000     NotChecked  -21.3210    847.5167    ✗       
+148   GQLLLSFK                 -1.0000     NotChecked  -21.3877    904.5382    ✗       
+149   QALLLSFK                 -1.0000     NotChecked  -21.4659    918.5539    ✗       
+150   QQLGLSFK                 -1.0000     NotChecked  -21.9151    919.5127    ✗       
+151   QQLLVSFK                 -1.0000     NotChecked  -21.9358    961.5597    ✗       
+152   QQLLLSFL                 -1.0000     NotChecked  -22.1186    960.5644    ✗       
+153   QTLLLSFK                 -1.0000     NotChecked  -22.1308    948.5644    ✗       
+154   QQLLLGFK                 -1.0000     NotChecked  -22.1368    945.5648    ✗       
+155   QQLLPSFK                 -1.0000     NotChecked  -22.1980    959.5440    ✗       
+156   QQLLSFK                  -1.0000     NotChecked  -22.4357    862.4913    ✗       
+157   QQLALSFK                 -1.0000     NotChecked  -22.4943    933.5284    ✗       
+158   QQVLLSFK                 -1.0000     NotChecked  -22.6170    961.5597    ✗       
+159   QQALLSFK                 -1.0000     NotChecked  -23.0185    933.5284    ✗       
+160   QQLLLSF                  -1.0000     NotChecked  -23.0311    847.4804    ✗       
+161   QQPLLSFK                 -1.0000     NotChecked  -23.0597    959.5440    ✗       
+162   QQLLLSFV                 -1.0000     NotChecked  -23.3918    946.5488    ✗       
+163   QQLLLSFG                 -1.0000     NotChecked  -23.6491    904.5018    ✗       
+164   QQLLLSFT                 -1.0000     NotChecked  -23.6754    948.5280    ✗       
+165   QLLLSFK                  -1.0000     NotChecked  -24.1349    847.5167    ✗       
+166   QNLLLSFK                 -1.0000     NotChecked  -24.2837    961.5597    ✗       
+167   QQLLLSFL                 -1.0000     NotChecked  -25.6301    960.5644    ✗       
+168   QLLLLSFK                 -1.0000     NotChecked  -25.6535    960.6008    ✗       
+169   -17.027QQLLLSFK          -1.0000     NotChecked  -26.0660    958.5488    ✗       
+170   NQ+0.984LLLSFK           -1.0000     NotChecked  -26.2038    962.5437    ✗       
+171   QQLPLSFK                 -1.0000     NotChecked  -26.3651    959.5440    ✗       
+172   QQLLLAFK                 -1.0000     NotChecked  -26.3738    959.5804    ✗       
+173   QQLLLSF                  -1.0000     NotChecked  -26.5426    847.4804    ✗       
+174   QQLLASFK                 -1.0000     NotChecked  -26.5780    933.5284    ✗       
+175   +43.006Q+0.984LLLSFK     -1.0000     NotChecked  -26.6935    891.5066    ✗       
+176   QQLLGSFK                 -1.0000     NotChecked  -26.8274    919.5127    ✗       
+177   QQLLSSFK                 -1.0000     NotChecked  -26.8877    949.5233    ✗       
+178   QQLLLSFV                 -1.0000     NotChecked  -26.9033    946.5488    ✗       
+179   QQLLLSK                  -1.0000     NotChecked  -26.9592    828.5069    ✗       
+180   QQLLLSGK                 -1.0000     NotChecked  -27.1499    885.5284    ✗       
+181   QQLLLSFG                 -1.0000     NotChecked  -27.1605    904.5018    ✗       
+182   QQLLLSFT                 -1.0000     NotChecked  -27.1869    948.5280    ✗       
+183   QALLLSFK                 -1.0000     NotChecked  -27.1894    918.5539    ✗       
+184   QQLLLSDK                 -1.0000     NotChecked  -27.4983    943.5338    ✗       
+185   QQLGLSFK                 -1.0000     NotChecked  -27.6387    919.5127    ✗       
+186   QLLLSFK                  -1.0000     NotChecked  -27.6464    847.5167    ✗       
+187   QQLLVSFK                 -1.0000     NotChecked  -27.6594    961.5597    ✗       
+188   Q+0.984NLLLSFK           -1.0000     NotChecked  -27.7264    962.5437    ✗       
+189   QQLLLSLK                 -1.0000     NotChecked  -27.7422    941.5910    ✗       
+190   -17.027Q+0.984LLLSFK     -1.0000     NotChecked  -27.7699    831.4742    ✗       
+191   QNLLLSFK                 -1.0000     NotChecked  -27.7951    961.5597    ✗       
+192   QTLLLSFK                 -1.0000     NotChecked  -27.8544    948.5644    ✗       
+193   QQLLLGFK                 -1.0000     NotChecked  -27.8603    945.5648    ✗       
+194   QQLLPSFK                 -1.0000     NotChecked  -27.9216    959.5440    ✗       
+195   QQ+0.984LPLSFK           -1.0000     NotChecked  -28.0689    960.5280    ✗       
+196   QQ+0.984LLLAFK           -1.0000     NotChecked  -28.0776    960.5644    ✗       
+197   QQLLSFK                  -1.0000     NotChecked  -28.1593    862.4913    ✗       
+198   QQLALSFK                 -1.0000     NotChecked  -28.2178    933.5284    ✗       
+199   QQLLLSVK                 -1.0000     NotChecked  -28.2386    927.5753    ✗       
+200   QQ+0.984LLASFK           -1.0000     NotChecked  -28.2819    934.5124    ✗       
+201   QQVLLSFK                 -1.0000     NotChecked  -28.3406    961.5597    ✗       
+202   QQLLLSPK                 -1.0000     NotChecked  -28.4478    925.5597    ✗       
+203   KNLLLSFK                 -1.0000     NotChecked  -28.4583    961.5961    ✗       
+204   QQ+0.984LLGSFK           -1.0000     NotChecked  -28.5312    920.4967    ✗       
+205   QQ+0.984LLSSFK           -1.0000     NotChecked  -28.5915    950.5073    ✗       
+206   QQLLLSSK                 -1.0000     NotChecked  -28.6209    915.5389    ✗       
+207   QQ+0.984LLLSK            -1.0000     NotChecked  -28.6631    829.4909    ✗       
+208   LQ+0.984LLLSFK           -1.0000     NotChecked  -28.7346    961.5848    ✗       
+209   QQALLSFK                 -1.0000     NotChecked  -28.7420    933.5284    ✗       
+210   Q+0.984LLLSFK            -1.0000     NotChecked  -28.7484    848.5008    ✗       
+211   QQPLLSFK                 -1.0000     NotChecked  -28.7833    959.5440    ✗       
+212   GQ+0.984LLLSFK           -1.0000     NotChecked  -28.8151    905.5222    ✗       
+213   QQ+0.984LLLSGK           -1.0000     NotChecked  -28.8538    886.5124    ✗       
+214   Q+0.984LLLLSFK           -1.0000     NotChecked  -29.0963    961.5848    ✗       
+215   QLLLLSFK                 -1.0000     NotChecked  -29.1650    960.6008    ✗       
+216   QQ+0.984LLLSDK           -1.0000     NotChecked  -29.2022    944.5179    ✗       
+217   QQ+0.984LGLSFK           -1.0000     NotChecked  -29.3426    920.4967    ✗       
+218   QQ+0.984LLVSFK           -1.0000     NotChecked  -29.3632    962.5437    ✗       
+219   QQ+0.984LLLSLK           -1.0000     NotChecked  -29.4460    942.5750    ✗       
+220   QQ+0.984LLLGFK           -1.0000     NotChecked  -29.5642    946.5488    ✗       
+221   -17.027QQLLLSFK          -1.0000     NotChecked  -29.5775    958.5488    ✗       
+222   QQ+0.984LLPSFK           -1.0000     NotChecked  -29.6255    960.5280    ✗       
+223   NQLLLSFK                 -1.0000     NotChecked  -29.6666    961.5597    ✗       
+224   NQ+0.984LLLSFK           -1.0000     NotChecked  -29.7152    962.5437    ✗       
+225   Q+0.984QLPLSFK           -1.0000     NotChecked  -29.8078    960.5280    ✗       
+226   Q+0.984QLLLAFK           -1.0000     NotChecked  -29.8165    960.5644    ✗       
+227   KLLLLSFK                 -1.0000     NotChecked  -29.8282    960.6372    ✗       
+228   QQ+0.984LLSFK            -1.0000     NotChecked  -29.8631    863.4753    ✗       
+229   QQLPLSFK                 -1.0000     NotChecked  -29.8766    959.5440    ✗       
+230   QQLLLAFK                 -1.0000     NotChecked  -29.8852    959.5804    ✗       
+231   QQ+0.984LALSFK           -1.0000     NotChecked  -29.9217    934.5124    ✗       
+232   QQ+0.984LLLSVK           -1.0000     NotChecked  -29.9425    928.5593    ✗       
+233   Q+0.984QLLASFK           -1.0000     NotChecked  -30.0208    934.5124    ✗       
+234   QQ+0.984VLLSFK           -1.0000     NotChecked  -30.0445    962.5437    ✗       
+235   QQLLASFK                 -1.0000     NotChecked  -30.0895    933.5284    ✗       
+236   NQLLLSFK                 -1.0000     NotChecked  -30.1352    961.5597    ✗       
+237   QQ+0.984LLLSPK           -1.0000     NotChecked  -30.1516    926.5437    ✗       
+238   QNLLLSFK                 -1.0000     NotChecked  -30.1538    961.5597    ✗       
+239   +43.006QLLLSFK           -1.0000     NotChecked  -30.1563    890.5226    ✗       
+240   +43.006Q+0.984LLLSFK     -1.0000     NotChecked  -30.2049    891.5066    ✗       
+241   NKLLLSFK                 -1.0000     NotChecked  -30.2150    961.5961    ✗       
+242   Q+0.984QLLGSFK           -1.0000     NotChecked  -30.2701    920.4967    ✗       
+243   NNLLLSFK                 -1.0000     NotChecked  -30.2839    947.5440    ✗       
+244   QQ+0.984LLLSSK           -1.0000     NotChecked  -30.3248    916.5229    ✗       
+245   Q+0.984QLLSSFK           -1.0000     NotChecked  -30.3304    950.5073    ✗       
+246   QQLLGSFK                 -1.0000     NotChecked  -30.3388    919.5127    ✗       
+247   NQLLLSFK                 -1.0000     NotChecked  -30.3700    961.5597    ✗       
+248   QQLLSSFK                 -1.0000     NotChecked  -30.3992    949.5233    ✗       
+249   Q+0.984QLLLSK            -1.0000     NotChecked  -30.4020    829.4909    ✗       
+250   QQ+0.984ALLSFK           -1.0000     NotChecked  -30.4459    934.5124    ✗       
+251   +43.006QLLLSYK           -1.0000     NotChecked  -30.4742    906.5175    ✗       
+252   QQ+0.984PLLSFK           -1.0000     NotChecked  -30.4871    960.5280    ✗       
+253   KQLPLSFK                 -1.0000     NotChecked  -30.5398    959.5804    ✗       
+254   KQLLLAFK                 -1.0000     NotChecked  -30.5484    959.6168    ✗       
+255   Q+0.984QLLLSGK           -1.0000     NotChecked  -30.5927    886.5124    ✗       
+256   +43.006QLLLSFK           -1.0000     NotChecked  -30.6249    890.5226    ✗       
+257   Q+0.984ALLLSFK           -1.0000     NotChecked  -30.6322    919.5379    ✗       
+258   QALLLSFK                 -1.0000     NotChecked  -30.7009    918.5539    ✗       
+259   +43.006KLLLSFK           -1.0000     NotChecked  -30.7047    890.5589    ✗       
+260   KQLLASFK                 -1.0000     NotChecked  -30.7527    933.5648    ✗       
+261   +43.006NLLLSFK           -1.0000     NotChecked  -30.7736    876.5069    ✗       
+262   +43.006QLLLSFK           -1.0000     NotChecked  -30.8597    890.5226    ✗       
+263   Q+0.984QLLLSDK           -1.0000     NotChecked  -30.9411    944.5179    ✗       
+264   KQLLGSFK                 -1.0000     NotChecked  -31.0021    919.5491    ✗       
+265   +43.006RLLLSFK           -1.0000     NotChecked  -31.0540    918.5651    ✗       
+266   KQLLSSFK                 -1.0000     NotChecked  -31.0624    949.5597    ✗       
+267   Q+0.984QLGLSFK           -1.0000     NotChecked  -31.0815    920.4967    ✗       
+268   Q+0.984QLLVSFK           -1.0000     NotChecked  -31.1021    962.5437    ✗       
+269   KQLLLSK                  -1.0000     NotChecked  -31.1339    828.5433    ✗       
+270   +43.006GQLLLSFK          -1.0000     NotChecked  -31.1412    947.5440    ✗       
+271   QQLGLSFK                 -1.0000     NotChecked  -31.1502    919.5127    ✗       
+272   QQLLVSFK                 -1.0000     NotChecked  -31.1709    961.5597    ✗       
+273   Q+0.984QLLLSLK           -1.0000     NotChecked  -31.1849    942.5750    ✗       
+274   -17.027QLLLSFK           -1.0000     NotChecked  -31.2327    830.4902    ✗       
+275   Q+0.984NLLLSFK           -1.0000     NotChecked  -31.2379    962.5437    ✗       
+276   -17.027Q+0.984LLLSFK     -1.0000     NotChecked  -31.2813    831.4742    ✗       
+277   Q+0.984TLLLSFK           -1.0000     NotChecked  -31.2972    949.5484    ✗       
+278   Q+0.984QLLLGFK           -1.0000     NotChecked  -31.3031    946.5488    ✗       
+279   KQLLLSGK                 -1.0000     NotChecked  -31.3246    885.5648    ✗       
+280   QQLLLSFL                 -1.0000     NotChecked  -31.3536    960.5644    ✗       
+281   KALLLSFK                 -1.0000     NotChecked  -31.3641    918.5902    ✗       
+282   Q+0.984QLLPSFK           -1.0000     NotChecked  -31.3644    960.5280    ✗       
+283   QTLLLSFK                 -1.0000     NotChecked  -31.3659    948.5644    ✗       
+284   QQLLLGFK                 -1.0000     NotChecked  -31.3718    945.5648    ✗       
+285   QQLLPSFK                 -1.0000     NotChecked  -31.4331    959.5440    ✗       
+286   QLLLLSFK                 -1.0000     NotChecked  -31.5237    960.6008    ✗       
+287   QQLPLSFK                 -1.0000     NotChecked  -31.5318    959.5440    ✗       
+288   QQLLLAFK                 -1.0000     NotChecked  -31.5405    959.5804    ✗       
+289   -17.027QLLLSYK           -1.0000     NotChecked  -31.5505    846.4851    ✗       
+290   QQ+0.984LPLSFK           -1.0000     NotChecked  -31.5804    960.5280    ✗       
+291   QQ+0.984LLLAFK           -1.0000     NotChecked  -31.5891    960.5644    ✗       
+292   Q+0.984QLLSFK            -1.0000     NotChecked  -31.6020    863.4753    ✗       
+293   NLLLLSFK                 -1.0000     NotChecked  -31.6538    946.5852    ✗       
+294   Q+0.984QLALSFK           -1.0000     NotChecked  -31.6606    934.5124    ✗       
+295   QQLLSFK                  -1.0000     NotChecked  -31.6707    862.4913    ✗       
+296   KQLLLSDK                 -1.0000     NotChecked  -31.6730    943.5702    ✗       
+297   Q+0.984QLLLSVK           -1.0000     NotChecked  -31.6814    928.5593    ✗       
+298   -17.027QLLLSFK           -1.0000     NotChecked  -31.7013    830.4902    ✗       
+299   QQLALSFK                 -1.0000     NotChecked  -31.7293    933.5284    ✗       
+300   QQLLASFK                 -1.0000     NotChecked  -31.7448    933.5284    ✗       
+301   -17.027KLLLSFK           -1.0000     NotChecked  -31.7811    830.5266    ✗       
+302   Q+0.984QVLLSFK           -1.0000     NotChecked  -31.7834    962.5437    ✗       
+303   QQ+0.984LLASFK           -1.0000     NotChecked  -31.7934    934.5124    ✗       
+304   KQLGLSFK                 -1.0000     NotChecked  -31.8134    919.5491    ✗       
+305   KQLLVSFK                 -1.0000     NotChecked  -31.8341    961.5961    ✗       
+306   -17.027NLLLSFK           -1.0000     NotChecked  -31.8500    816.4745    ✗       
+307   QQVLLSFK                 -1.0000     NotChecked  -31.8521    961.5597    ✗       
+308   Q+0.984QLLLSPK           -1.0000     NotChecked  -31.8905    926.5437    ✗       
+309   KQLLLSLK                 -1.0000     NotChecked  -31.9168    941.6274    ✗       
+310   -17.027QLLLSFK           -1.0000     NotChecked  -31.9361    830.4902    ✗       
+311   KNLLLSFK                 -1.0000     NotChecked  -31.9698    961.5961    ✗       
+312   QQLLGSFK                 -1.0000     NotChecked  -31.9941    919.5127    ✗       
+313   QQLPLSFK                 -1.0000     NotChecked  -32.0004    959.5440    ✗       
+314   QQLLLAFK                 -1.0000     NotChecked  -32.0090    959.5804    ✗       
+315   KTLLLSFK                 -1.0000     NotChecked  -32.0291    948.6008    ✗       
+316   KQLLLGFK                 -1.0000     NotChecked  -32.0350    945.6011    ✗       
+317   QQ+0.984LLGSFK           -1.0000     NotChecked  -32.0427    920.4967    ✗       
+318   QQLLSSFK                 -1.0000     NotChecked  -32.0544    949.5233    ✗       
+319   QQLLASYK                 -1.0000     NotChecked  -32.0626    949.5233    ✗       
+320   Q+0.984QLLLSSK           -1.0000     NotChecked  -32.0636    916.5229    ✗       
+321   QKLPLSFK                 -1.0000     NotChecked  -32.0802    959.5804    ✗       
+322   QKLLLAFK                 -1.0000     NotChecked  -32.0889    959.6168    ✗       
+323   KQLLPSFK                 -1.0000     NotChecked  -32.0963    959.5804    ✗       
+324   QQ+0.984LLSSFK           -1.0000     NotChecked  -32.1030    950.5073    ✗       
+325   QNLLLSFK                 -1.0000     NotChecked  -32.1037    961.5597    ✗       
+326   QQLLLSK                  -1.0000     NotChecked  -32.1260    828.5069    ✗       
+327   QNLLLSFK                 -1.0000     NotChecked  -32.1295    961.5597    ✗       
+328   -17.027RLLLSFK           -1.0000     NotChecked  -32.1304    858.5327    ✗       
+329   +43.006LLLLSFK           -1.0000     NotChecked  -32.1435    875.5480    ✗       
+330   QNLPLSFK                 -1.0000     NotChecked  -32.1491    945.5284    ✗       
+331   QNLLLAFK                 -1.0000     NotChecked  -32.1578    945.5648    ✗       
+332   QNLLLSFK                 -1.0000     NotChecked  -32.1588    961.5597    ✗       
+333   Q+0.984QALLSFK           -1.0000     NotChecked  -32.1848    934.5124    ✗       
+334   LQLLLSFK                 -1.0000     NotChecked  -32.1975    960.6008    ✗       
+335   QLLLSFK                  -1.0000     NotChecked  -32.2112    847.5167    ✗       
+336   QQLLASFK                 -1.0000     NotChecked  -32.2133    933.5284    ✗       
+337   -17.027GQLLLSFK          -1.0000     NotChecked  -32.2176    887.5117    ✗       
+338   Q+0.984QPLLSFK           -1.0000     NotChecked  -32.2260    960.5280    ✗       
+339   QQLPLSFK                 -1.0000     NotChecked  -32.2352    959.5440    ✗       
+340   QQLLLAFK                 -1.0000     NotChecked  -32.2439    959.5804    ✗       
+341   LQ+0.984LLLSFK           -1.0000     NotChecked  -32.2461    961.5848    ✗       
+342   QQALLSFK                 -1.0000     NotChecked  -32.2535    933.5284    ✗       
+343   Q+0.984LLLSFK            -1.0000     NotChecked  -32.2599    848.5008    ✗       
+344   QQLLLSF                  -1.0000     NotChecked  -32.2661    847.4804    ✗       
+345   GQLLLSFK                 -1.0000     NotChecked  -32.2779    904.5382    ✗       
+346   QKLLASFK                 -1.0000     NotChecked  -32.2932    933.5648    ✗       
+347   QQPLLSFK                 -1.0000     NotChecked  -32.2947    959.5440    ✗       
+348   QQLLGSYK                 -1.0000     NotChecked  -32.3119    935.5076    ✗       
+349   QQLLLSGK                 -1.0000     NotChecked  -32.3167    885.5284    ✗       
+350   NQLLLSFK                 -1.0000     NotChecked  -32.3200    961.5597    ✗       
+351   GQ+0.984LLLSFK           -1.0000     NotChecked  -32.3266    905.5222    ✗       
+352   KQLLSFK                  -1.0000     NotChecked  -32.3340    862.5276    ✗       
+353   NQLLLSFK                 -1.0000     NotChecked  -32.3458    961.5597    ✗       
+354   QNLLASFK                 -1.0000     NotChecked  -32.3621    919.5127    ✗       
+355   NQLPLSFK                 -1.0000     NotChecked  -32.3654    945.5284    ✗       
+356   QQLLSSYK                 -1.0000     NotChecked  -32.3722    965.5182    ✗       
+357   NQLLLAFK                 -1.0000     NotChecked  -32.3740    945.5648    ✗       
+358   NQLLLSFK                 -1.0000     NotChecked  -32.3750    961.5597    ✗       
+359   KQLALSFK                 -1.0000     NotChecked  -32.3925    933.5648    ✗       
+360   KQLLLSVK                 -1.0000     NotChecked  -32.4133    927.6117    ✗       
+361   QQLLASFK                 -1.0000     NotChecked  -32.4482    933.5284    ✗       
+362   QQLLGSFK                 -1.0000     NotChecked  -32.4627    919.5127    ✗       
+363   KQVLLSFK                 -1.0000     NotChecked  -32.5153    961.5961    ✗       
+364   QQLLSSFK                 -1.0000     NotChecked  -32.5230    949.5233    ✗       
+365   QLLLSYK                  -1.0000     NotChecked  -32.5291    863.5117    ✗       
+366   QKLLGSFK                 -1.0000     NotChecked  -32.5425    919.5491    ✗       
+367   NQLLASFK                 -1.0000     NotChecked  -32.5783    919.5127    ✗       
+368   QQLLLSK                  -1.0000     NotChecked  -32.5945    828.5069    ✗       
+369   GQLLLSYK                 -1.0000     NotChecked  -32.5958    920.5331    ✗       
+370   QKLLSSFK                 -1.0000     NotChecked  -32.6028    949.5597    ✗       
+371   Q+0.984LLLLSFK           -1.0000     NotChecked  -32.6078    961.5848    ✗       
+372   QNLLGSFK                 -1.0000     NotChecked  -32.6114    905.4971    ✗       
+373   KQLLLSPK                 -1.0000     NotChecked  -32.6225    925.5961    ✗       
+374   QQLLLSFV                 -1.0000     NotChecked  -32.6268    946.5488    ✗       
+375   QRLLASFK                 -1.0000     NotChecked  -32.6424    961.5709    ✗       
+376   QQLLLSDK                 -1.0000     NotChecked  -32.6650    943.5338    ✗       
+377   LQLLLSFK                 -1.0000     NotChecked  -32.6661    960.6008    ✗       
+378   QNLLSSFK                 -1.0000     NotChecked  -32.6717    935.5076    ✗       
+379   QALLLSYK                 -1.0000     NotChecked  -32.6740    934.5488    ✗       
+380   QKLLLSK                  -1.0000     NotChecked  -32.6744    828.5433    ✗       
+381   QLLLSFK                  -1.0000     NotChecked  -32.6798    847.5167    ✗       
+382   QQLLGSFK                 -1.0000     NotChecked  -32.6975    919.5127    ✗       
+383   QNLLLSK                  -1.0000     NotChecked  -32.7433    814.4913    ✗       
+384   LKLLLSFK                 -1.0000     NotChecked  -32.7459    960.6372    ✗       
+385   GQLLLSFK                 -1.0000     NotChecked  -32.7465    904.5382    ✗       
+386   QQLLSSFK                 -1.0000     NotChecked  -32.7578    949.5233    ✗       
+387   KLLLSFK                  -1.0000     NotChecked  -32.7596    847.5531    ✗       
+388   NHLLLSFK                 -1.0000     NotChecked  -32.7602    970.5600    ✗       
+389   QQLLLSGK                 -1.0000     NotChecked  -32.7852    885.5284    ✗       
+390   KQLLLSSK                 -1.0000     NotChecked  -32.7956    915.5753    ✗       
+391   QQLGLSFK                 -1.0000     NotChecked  -32.8054    919.5127    ✗       
+392   +43.006QLLLSFK           -1.0000     NotChecked  -32.8097    890.5226    ✗       
+393   LNLLLSFK                 -1.0000     NotChecked  -32.8148    946.5852    ✗       
+394   QQLLVSFK                 -1.0000     NotChecked  -32.8261    961.5597    ✗       
+395   GKLLLSFK                 -1.0000     NotChecked  -32.8263    904.5746    ✗       
+396   NQLLGSFK                 -1.0000     NotChecked  -32.8277    905.4971    ✗       
+397   NLLLSFK                  -1.0000     NotChecked  -32.8285    833.5011    ✗       
+398   QQLLLSK                  -1.0000     NotChecked  -32.8294    828.5069    ✗       
+399   +43.006QLLLSFK           -1.0000     NotChecked  -32.8355    890.5226    ✗       
+400   QQ+0.984LGLSFK           -1.0000     NotChecked  -32.8540    920.4967    ✗       
+401   +43.006QLPLSFK           -1.0000     NotChecked  -32.8551    874.4913    ✗       
+402   +43.006QLLLAFK           -1.0000     NotChecked  -32.8637    874.5276    ✗       
+403   +43.006QLLLSFK           -1.0000     NotChecked  -32.8647    890.5226    ✗       
+404   QKLLLSGK                 -1.0000     NotChecked  -32.8651    885.5648    ✗       
+405   QQ+0.984LLVSFK           -1.0000     NotChecked  -32.8747    962.5437    ✗       
+406   QQLLLSFG                 -1.0000     NotChecked  -32.8841    904.5018    ✗       
+407   NQLLSSFK                 -1.0000     NotChecked  -32.8880    935.5076    ✗       
+408   QRLLGSFK                 -1.0000     NotChecked  -32.8918    947.5553    ✗       
+409   GNLLLSFK                 -1.0000     NotChecked  -32.8953    890.5226    ✗       
+410   LQLLLSFK                 -1.0000     NotChecked  -32.9009    960.6008    ✗       
+411   QLLLSFK                  -1.0000     NotChecked  -32.9147    847.5167    ✗       
+412   KQALLSFK                 -1.0000     NotChecked  -32.9167    933.5648    ✗       
+413   KQPLLSFK                 -1.0000     NotChecked  -32.9580    959.5804    ✗       
+414   NQLLLSK                  -1.0000     NotChecked  -32.9595    814.4913    ✗       
+415   +43.006QLLFSFK           -1.0000     NotChecked  -32.9647    924.5069    ✗       
+416   GQLLLSFK                 -1.0000     NotChecked  -32.9814    904.5382    ✗       
+417   RQLLASFK                 -1.0000     NotChecked  -32.9840    961.5709    ✗       
+418   +43.006QLLASFK           -1.0000     NotChecked  -33.0680    848.4756    ✗       
+419   +43.006QLLLDFK           -1.0000     NotChecked  -33.0962    918.5175    ✗       
+420   +43.006AQLLLSFK          -1.0000     NotChecked  -33.0966    961.5597    ✗       
+421   RLLLSFK                  -1.0000     NotChecked  -33.1089    875.5593    ✗       
+422   +43.006QLLLLFK           -1.0000     NotChecked  -33.1195    916.5746    ✗       
+423   +43.006QLLLSFR           -1.0000     NotChecked  -33.1400    918.5287    ✗       
+424   NQLLLSGK                 -1.0000     NotChecked  -33.1502    871.5127    ✗       
+425   GRLLLSFK                 -1.0000     NotChecked  -33.1756    932.5807    ✗       
+426   NQLLLSFK                 -1.0000     NotChecked  -33.1781    961.5597    ✗       
+427   NALLLSFK                 -1.0000     NotChecked  -33.1897    904.5382    ✗       
+428   GQLLLSFK                 -1.0000     NotChecked  -33.1961    904.5382    ✗       
+429   -17.027LLLLSFK           -1.0000     NotChecked  -33.2199    815.5157    ✗       
+430   NELLLSFK                 -1.0000     NotChecked  -33.2263    962.5437    ✗       
+431   RQLLGSFK                 -1.0000     NotChecked  -33.2334    947.5553    ✗       
+432   +43.006HLLLSFK           -1.0000     NotChecked  -33.2499    899.5229    ✗       
+433   GGQLLLSFK                -1.0000     NotChecked  -33.2628    961.5597    ✗       
+434   +43.006QLLGSFK           -1.0000     NotChecked  -33.3174    834.4600    ✗       
+435   Q+0.984QLPLSFK           -1.0000     NotChecked  -33.3193    960.5280    ✗       
+436   Q+0.984QLLLAFK           -1.0000     NotChecked  -33.3280    960.5644    ✗       
+437   KLLLLSFK                 -1.0000     NotChecked  -33.3397    960.6372    ✗       
+438   RQLLLSK                  -1.0000     NotChecked  -33.3652    856.5494    ✗       
+439   +43.006QLLSSFK           -1.0000     NotChecked  -33.3777    864.4705    ✗       
+440   +43.006GQLLLSFK          -1.0000     NotChecked  -33.4456    947.5440    ✗       
+441   +43.006QLLLSK            -1.0000     NotChecked  -33.4492    743.4541    ✗       
+442   +43.006QLLESFK           -1.0000     NotChecked  -33.4698    906.4811    ✗       
+443   NQLLLSDK                 -1.0000     NotChecked  -33.4986    929.5182    ✗       
+444   Q+0.984QLLASFK           -1.0000     NotChecked  -33.5323    934.5124    ✗       
+445   RQLLLSGK                 -1.0000     NotChecked  -33.5559    913.5709    ✗       
+446   RALLLSFK                 -1.0000     NotChecked  -33.5954    946.5964    ✗       
+447   NQLGLSFK                 -1.0000     NotChecked  -33.6390    905.4971    ✗       
+448   +43.006QLLLSGK           -1.0000     NotChecked  -33.6399    800.4756    ✗       
+449   NQLLLSFK                 -1.0000     NotChecked  -33.6467    961.5597    ✗       
+450   NQLLVSFK                 -1.0000     NotChecked  -33.6597    947.5440    ✗       
+451   +43.006QLLLSFK           -1.0000     NotChecked  -33.6678    890.5226    ✗       
+452   +43.006ALLLSFK           -1.0000     NotChecked  -33.6794    833.5011    ✗       
+453   NQLLLSFK                 -1.0000     NotChecked  -33.6892    961.5597    ✗       
+454   +43.006ELLLSFK           -1.0000     NotChecked  -33.7160    891.5066    ✗       
+455   +43.006QLLLN+0.984FK     -1.0000     NotChecked  -33.7162    918.5175    ✗       
+456   NKLLLSFK                 -1.0000     NotChecked  -33.7265    961.5961    ✗       
+457   NQLLLSLK                 -1.0000     NotChecked  -33.7424    927.5753    ✗       
+458   NQLLNSFK                 -1.0000     NotChecked  -33.7437    962.5185    ✗       
+459   Q+0.984QLLGSFK           -1.0000     NotChecked  -33.7816    920.4967    ✗       
+460   NNLLLSFK                 -1.0000     NotChecked  -33.7954    947.5440    ✗       
+461   Q+0.984QLLSSFK           -1.0000     NotChecked  -33.8419    950.5073    ✗       
+462   NTLLLSFK                 -1.0000     NotChecked  -33.8547    934.5488    ✗       
+463   NQLLLGFK                 -1.0000     NotChecked  -33.8606    931.5491    ✗       
+464   NQLLLSFK                 -1.0000     NotChecked  -33.8815    961.5597    ✗       
+465   -17.027QLLLSFK           -1.0000     NotChecked  -33.8861    830.4902    ✗       
+466   RQLLLSDK                 -1.0000     NotChecked  -33.9043    971.5764    ✗       
+467   -17.027QLLLSFK           -1.0000     NotChecked  -33.9119    830.4902    ✗       
+468   NQLLPSFK                 -1.0000     NotChecked  -33.9219    945.5284    ✗       
+469   -17.027QLPLSFK           -1.0000     NotChecked  -33.9315    814.4589    ✗       
+470   -17.027QLLLAFK           -1.0000     NotChecked  -33.9401    814.4953    ✗       
+471   -17.027QLLLSFK           -1.0000     NotChecked  -33.9411    830.4902    ✗       
+472   +43.006QLLLTFK           -1.0000     NotChecked  -33.9619    904.5382    ✗       
+473   +43.006QLLLSDK           -1.0000     NotChecked  -33.9883    858.4811    ✗       
+474   NQNLLSFK                 -1.0000     NotChecked  -34.0209    962.5185    ✗       
+475   +43.006QGLLLSFK          -1.0000     NotChecked  -34.0247    947.5440    ✗       
+476   +43.006QLLLYFK           -1.0000     NotChecked  -34.0298    966.5539    ✗       
+477   -17.027QLLFSFK           -1.0000     NotChecked  -34.0411    864.4745    ✗       
+478   +43.006QLLLC+57.021FK    -1.0000     NotChecked  -34.0411    963.5212    ✗       
+479   RQLGLSFK                 -1.0000     NotChecked  -34.0447    947.5553    ✗       
+480   KQLPLSFK                 -1.0000     NotChecked  -34.0513    959.5804    ✗       
+481   KQLLLAFK                 -1.0000     NotChecked  -34.0599    959.6168    ✗       
+482   +43.006QLGLSFK           -1.0000     NotChecked  -34.1287    834.4600    ✗       
+483   +43.006QLLLSFK           -1.0000     NotChecked  -34.1364    890.5226    ✗       
+484   Q+0.984ALLLSFK           -1.0000     NotChecked  -34.1437    919.5379    ✗       
+485   -17.027QLLASFK           -1.0000     NotChecked  -34.1444    788.4432    ✗       
+486   RQLLLSLK                 -1.0000     NotChecked  -34.1481    969.6335    ✗       
+487   +43.006QLLVSFK           -1.0000     NotChecked  -34.1494    876.5069    ✗       
+488   NQLLSFK                  -1.0000     NotChecked  -34.1596    848.4756    ✗       
+489   -17.027QLLLDFK           -1.0000     NotChecked  -34.1726    858.4851    ✗       
+490   -17.027AQLLLSFK          -1.0000     NotChecked  -34.1729    901.5273    ✗       
+491   +43.006QLLLEFK           -1.0000     NotChecked  -34.1809    932.5331    ✗       
+492   LLLLLSFK                 -1.0000     NotChecked  -34.1847    945.6263    ✗       
+493   +43.006QQLLSFK           -1.0000     NotChecked  -34.1949    905.4971    ✗       
+494   -17.027QLLLLFK           -1.0000     NotChecked  -34.1959    856.5422    ✗       
+495   LLLLSFK                  -1.0000     NotChecked  -34.1984    832.5422    ✗       
+496   +43.006QLLGLSFK          -1.0000     NotChecked  -34.2137    947.5440    ✗       
+497   +43.006KLLLSFK           -1.0000     NotChecked  -34.2162    890.5589    ✗       
+498   -17.027QLLLSFR           -1.0000     NotChecked  -34.2164    858.4963    ✗       
+499   NQLALSFK                 -1.0000     NotChecked  -34.2181    919.5127    ✗       
+500   +43.006QLLLSLK           -1.0000     NotChecked  -34.2321    856.5382    ✗       
+501   +43.006QLLNSFK           -1.0000     NotChecked  -34.2334    891.4814    ✗       
+502   NQLLLSVK                 -1.0000     NotChecked  -34.2389    913.5597    ✗       
+503   +43.006AQLLLSFK          -1.0000     NotChecked  -34.2490    961.5597    ✗       
+504   +43.006QLLQSFK           -1.0000     NotChecked  -34.2600    905.4971    ✗       
+505   KQLLASFK                 -1.0000     NotChecked  -34.2642    933.5648    ✗       
+506   GLLLLSFK                 -1.0000     NotChecked  -34.2651    889.5637    ✗       
+507   RQLLLGFK                 -1.0000     NotChecked  -34.2663    973.6073    ✗       
+508   +43.006NLLLSFK           -1.0000     NotChecked  -34.2851    876.5069    ✗       
+509   +43.006QALLLSFK          -1.0000     NotChecked  -34.3105    961.5597    ✗       
+510   -17.027HLLLSFK           -1.0000     NotChecked  -34.3263    839.4905    ✗       
+511   NQVLLSFK                 -1.0000     NotChecked  -34.3409    947.5440    ✗       
+512   +43.006TLLLSFK           -1.0000     NotChecked  -34.3444    863.5116    ✗       
+513   +43.006QLLLGFK           -1.0000     NotChecked  -34.3503    860.5120    ✗       
+514   +43.006QLLLSFK           -1.0000     NotChecked  -34.3712    890.5226    ✗       
+515   +43.006QALLLSFK          -1.0000     NotChecked  -34.3736    961.5597    ✗       
+516   -17.027QLLGSFK           -1.0000     NotChecked  -34.3937    774.4276    ✗       
+517   +43.006QLLPSFK           -1.0000     NotChecked  -34.4116    874.4913    ✗       
+518   NQLLLSFK                 -1.0000     NotChecked  -34.4424    961.5597    ✗       
+519   NQLLLSPK                 -1.0000     NotChecked  -34.4481    911.5440    ✗       
+520   -17.027QLLSSFK           -1.0000     NotChecked  -34.4541    804.4382    ✗       
+521   +43.006QNLLSFK           -1.0000     NotChecked  -34.5106    891.4814    ✗       
+522   KQLLGSFK                 -1.0000     NotChecked  -34.5135    919.5491    ✗       
+523   -17.027GQLLLSFK          -1.0000     NotChecked  -34.5220    887.5117    ✗       
+524   -17.027QLLLSK            -1.0000     NotChecked  -34.5256    683.4218    ✗       
+525   -17.027QLLESFK           -1.0000     NotChecked  -34.5462    846.4487    ✗       
+526   -17.027SQLLLSFK          -1.0000     NotChecked  -34.5651    917.5222    ✗       
+527   RQLLSFK                  -1.0000     NotChecked  -34.5653    890.5338    ✗       
+528   +43.006RLLLSFK           -1.0000     NotChecked  -34.5655    918.5651    ✗       
+529   KQLLSSFK                 -1.0000     NotChecked  -34.5738    949.5597    ✗       
+530   -17.027SQLLLSFK          -1.0000     NotChecked  -34.5751    917.5222    ✗       
+531   Q+0.984QLGLSFK           -1.0000     NotChecked  -34.5929    920.4967    ✗       
+532   Q+0.984QLLVSFK           -1.0000     NotChecked  -34.6136    962.5437    ✗       
+533   NQLLLSSK                 -1.0000     NotChecked  -34.6212    901.5233    ✗       
+534   RQLALSFK                 -1.0000     NotChecked  -34.6238    961.5709    ✗       
+535   RQLLLSVK                 -1.0000     NotChecked  -34.6446    955.6179    ✗       
+536   +43.006QLLSFK            -1.0000     NotChecked  -34.6493    777.4385    ✗       
+537   +43.006GQLLLSFK          -1.0000     NotChecked  -34.6527    947.5440    ✗       
+538   +43.006QLALSFK           -1.0000     NotChecked  -34.7078    848.4756    ✗       
+539   -17.027QLLLSGK           -1.0000     NotChecked  -34.7163    740.4432    ✗       
+540   +43.006QLLLSVK           -1.0000     NotChecked  -34.7286    842.5226    ✗       
+541   NQALLSFK                 -1.0000     NotChecked  -34.7423    919.5127    ✗       
+542   -17.027QLLLSFK           -1.0000     NotChecked  -34.7442    830.4902    ✗       
+543   -17.027ALLLSFK           -1.0000     NotChecked  -34.7558    773.4687    ✗       
+544   NQPLLSFK                 -1.0000     NotChecked  -34.7835    945.5284    ✗       
+545   -17.027ELLLSFK           -1.0000     NotChecked  -34.7924    831.4742    ✗       
+546   -17.027QLLLN+0.984FK     -1.0000     NotChecked  -34.7926    858.4851    ✗       
+547   Q+0.984QLLLSFL           -1.0000     NotChecked  -34.7964    961.5484    ✗       
+548   Q+0.984TLLLSFK           -1.0000     NotChecked  -34.8086    949.5484    ✗       
+549   Q+0.984QLLLGFK           -1.0000     NotChecked  -34.8146    946.5488    ✗       
+550   +43.006QVLLSFK           -1.0000     NotChecked  -34.8306    876.5069    ✗       
+551   LQLLLSFK                 -1.0000     NotChecked  -34.8509    960.6008    ✗       
+552   RQLLLSPK                 -1.0000     NotChecked  -34.8538    953.6022    ✗       
+553   +43.006QFLLSFK           -1.0000     NotChecked  -34.8589    924.5069    ✗       
+554   QLLLSFK                  -1.0000     NotChecked  -34.8646    847.5167    ✗       
+555   KALLLSFK                 -1.0000     NotChecked  -34.8756    918.5902    ✗       
+556   Q+0.984QLLPSFK           -1.0000     NotChecked  -34.8758    960.5280    ✗       
+557   LQLLLSFK                 -1.0000     NotChecked  -34.8766    960.6008    ✗       
+558   QLLLSFK                  -1.0000     NotChecked  -34.8904    847.5167    ✗       
+559   LQLPLSFK                 -1.0000     NotChecked  -34.8962    944.5695    ✗       
+560   LQLLLAFK                 -1.0000     NotChecked  -34.9049    944.6059    ✗       
+561   LQLLLSFK                 -1.0000     NotChecked  -34.9059    960.6008    ✗       
+562   QLPLSFK                  -1.0000     NotChecked  -34.9100    831.4854    ✗       
+563   QLLLAFK                  -1.0000     NotChecked  -34.9186    831.5218    ✗       
+564   QLLLSFK                  -1.0000     NotChecked  -34.9196    847.5167    ✗       
+565   GQLLLSFK                 -1.0000     NotChecked  -34.9313    904.5382    ✗       
+566   +43.006QLLLSFK           -1.0000     NotChecked  -34.9321    890.5226    ✗       
+567   +43.006QLLLSPK           -1.0000     NotChecked  -34.9378    840.5069    ✗       
+568   +43.006QLLLSWK           -1.0000     NotChecked  -34.9432    929.5335    ✗       
+569   GQLLLSFK                 -1.0000     NotChecked  -34.9571    904.5382    ✗       
+570   GQLPLSFK                 -1.0000     NotChecked  -34.9767    888.5069    ✗       
+571   GQLLLAFK                 -1.0000     NotChecked  -34.9854    888.5433    ✗       
+572   +43.006QLGLLSFK          -1.0000     NotChecked  -34.9860    947.5440    ✗       
+573   GQLLLSFK                 -1.0000     NotChecked  -34.9863    904.5382    ✗       
+574   -17.027QQLLLSFK          -1.0000     NotChecked  -35.0195    958.5488    ✗       
+575   QLLFSFK                  -1.0000     NotChecked  -35.0196    881.5011    ✗       
+576   RQLLLSSK                 -1.0000     NotChecked  -35.0269    943.5815    ✗       
+577   +43.006QMLLSFK           -1.0000     NotChecked  -35.0365    908.4790    ✗       
+578   -17.027QLLLTFK           -1.0000     NotChecked  -35.0383    844.5058    ✗       
+579   -17.027QLLLSDK           -1.0000     NotChecked  -35.0647    798.4487    ✗       
+580   GQLLFSFK                 -1.0000     NotChecked  -35.0863    938.5226    ✗       
+581   -17.027QGLLLSFK          -1.0000     NotChecked  -35.1011    887.5117    ✗       
+582   -17.027QLLLYFK           -1.0000     NotChecked  -35.1062    906.5215    ✗       
+583   LQLLASFK                 -1.0000     NotChecked  -35.1092    918.5539    ✗       
+584   +43.006QLLLSSK           -1.0000     NotChecked  -35.1109    830.4862    ✗       
+585   Q+0.984QLLSFK            -1.0000     NotChecked  -35.1135    863.4753    ✗       
+586   -17.027QLLLC+57.021FK    -1.0000     NotChecked  -35.1175    903.4888    ✗       
+587   QLLASFK                  -1.0000     NotChecked  -35.1229    805.4698    ✗       
+588   RQALLSFK                 -1.0000     NotChecked  -35.1480    961.5709    ✗       
+589   QLLLDFK                  -1.0000     NotChecked  -35.1511    875.5117    ✗       
+590   AQLLLSFK                 -1.0000     NotChecked  -35.1515    918.5539    ✗       
+591   NLLLLSFK                 -1.0000     NotChecked  -35.1653    946.5852    ✗       
+592   Q+0.984QLALSFK           -1.0000     NotChecked  -35.1721    934.5124    ✗       
+593   QLLLLFK                  -1.0000     NotChecked  -35.1744    873.5688    ✗       
+594   GQLLASFK                 -1.0000     NotChecked  -35.1896    862.4913    ✗       
+595   QLLLSFR                  -1.0000     NotChecked  -35.1949    875.5229    ✗       
+596   -17.027QLGLSFK           -1.0000     NotChecked  -35.2051    774.4276    ✗       
+597   +43.006QLFLSFK           -1.0000     NotChecked  -35.2121    924.5069    ✗       
+598   -17.027QLLLSFK           -1.0000     NotChecked  -35.2128    830.4902    ✗       
+599   GQLLLDFK                 -1.0000     NotChecked  -35.2178    932.5331    ✗       
+600   GAQLLLSFK                -1.0000     Failed      -35.2182    975.5753    ✓       
+601   -17.027QLLVSFK           -1.0000     NotChecked  -35.2258    816.4745    ✗       
+602   +43.006QALLSFK           -1.0000     NotChecked  -35.2320    848.4756    ✗       
+603   +43.006QGLLLSFK          -1.0000     NotChecked  -35.2343    947.5440    ✗       
+604   GQLLLLFK                 -1.0000     NotChecked  -35.2411    930.5902    ✗       
+605   -17.027NQLLLSFK          -1.0000     NotChecked  -35.2553    944.5331    ✗       
+606   NQLLLSFK                 -1.0000     NotChecked  -35.2566    961.5597    ✗       
+607   -17.027QLLLEFK           -1.0000     NotChecked  -35.2573    872.5008    ✗       
+608   +43.006QLKLSFK           -1.0000     NotChecked  -35.2598    905.5335    ✗       
+609   GQLLLSFR                 -1.0000     NotChecked  -35.2616    932.5444    ✗       
+610   +43.006QLHLSFK           -1.0000     NotChecked  -35.2688    914.4974    ✗       
+611   -17.027QQLLSFK           -1.0000     NotChecked  -35.2713    845.4647    ✗       
+612   +43.006QPLLSFK           -1.0000     NotChecked  -35.2732    874.4913    ✗       
+613   -17.027QLLGLSFK          -1.0000     NotChecked  -35.2901    887.5117    ✗       
+614   LHLLLSFK                 -1.0000     NotChecked  -35.2911    969.6011    ✗       
+615   -17.027KLLLSFK           -1.0000     NotChecked  -35.2926    830.5266    ✗       
+616   Q+0.984QVLLSFK           -1.0000     NotChecked  -35.2948    962.5437    ✗       
+617   HLLLSFK                  -1.0000     NotChecked  -35.3048    856.5171    ✗       
+618   -17.027QLLLSLK           -1.0000     NotChecked  -35.3085    796.5058    ✗       
+619   -17.027QLLNSFK           -1.0000     NotChecked  -35.3098    831.4491    ✗       
+620   +43.006QLLLSGFK          -1.0000     NotChecked  -35.3134    947.5440    ✗       
+621   KQLGLSFK                 -1.0000     NotChecked  -35.3249    919.5491    ✗       
+622   -17.027AQLLLSFK          -1.0000     NotChecked  -35.3254    901.5273    ✗       
+623   -17.027QLLQSFK           -1.0000     NotChecked  -35.3363    845.4647    ✗       
+624   KQLLVSFK                 -1.0000     NotChecked  -35.3456    961.5961    ✗       
+625   LQLLGSFK                 -1.0000     NotChecked  -35.3585    904.5382    ✗       
+626   -17.027NLLLSFK           -1.0000     NotChecked  -35.3615    816.4745    ✗       
+627   GHLLLSFK                 -1.0000     NotChecked  -35.3715    913.5385    ✗       
+628   QLLGSFK                  -1.0000     NotChecked  -35.3723    791.4541    ✗       
+629   +43.006QLELSFK           -1.0000     NotChecked  -35.3823    906.4811    ✗       
+630   -17.027QALLLSFK          -1.0000     NotChecked  -35.3869    901.5273    ✗       
+631   LQLLSSFK                 -1.0000     NotChecked  -35.4188    934.5488    ✗       
+632   -17.027TLLLSFK           -1.0000     NotChecked  -35.4208    803.4793    ✗       
+633   -17.027QLLLGFK           -1.0000     NotChecked  -35.4267    800.4796    ✗       
+634   QLLSSFK                  -1.0000     NotChecked  -35.4326    821.4647    ✗       
+635   GQLLGSFK                 -1.0000     NotChecked  -35.4390    848.4756    ✗       
+636   -17.027QLLLSFK           -1.0000     NotChecked  -35.4476    830.4902    ✗       
+637   -17.027QALLLSFK          -1.0000     NotChecked  -35.4500    901.5273    ✗       
+638   -17.027QLLPSFK           -1.0000     NotChecked  -35.4880    814.4589    ✗       
+639   LQLLLSK                  -1.0000     NotChecked  -35.4904    813.5324    ✗       
+640   GQLLSSFK                 -1.0000     NotChecked  -35.4993    878.4862    ✗       
+641   GQLLLSFK                 -1.0000     NotChecked  -35.5005    904.5382    ✗       
+642   QLLLSK                   -1.0000     NotChecked  -35.5041    700.4483    ✗       
+643   +43.006QRLLSFK           -1.0000     NotChecked  -35.5169    933.5396    ✗       
+644   +43.006QLRLSFK           -1.0000     NotChecked  -35.5226    933.5396    ✗       
+645   QLLESFK                  -1.0000     NotChecked  -35.5247    863.4753    ✗       
+646   KQLLLSFL                 -1.0000     NotChecked  -35.5283    960.6008    ✗       
+647   +43.006QLGLLSFK          -1.0000     NotChecked  -35.5391    947.5440    ✗       
+648   KTLLLSFK                 -1.0000     NotChecked  -35.5406    948.6008    ✗       
+649   SQLLLSFK                 -1.0000     NotChecked  -35.5436    934.5488    ✗       
+650   KQLLLGFK                 -1.0000     NotChecked  -35.5465    945.6011    ✗       
+651   SQLLLSFK                 -1.0000     NotChecked  -35.5536    934.5488    ✗       
+652   GQLLLSFK                 -1.0000     NotChecked  -35.5672    904.5382    ✗       
+653   GQLLLSK                  -1.0000     NotChecked  -35.5708    757.4698    ✗       
+654   -17.027QNLLSFK           -1.0000     NotChecked  -35.5870    831.4491    ✗       
+655   GQLLESFK                 -1.0000     NotChecked  -35.5914    920.4967    ✗       
+656   KQLLPSFK                 -1.0000     NotChecked  -35.6078    959.5804    ✗       
+657   +43.006QLALLSFK          -1.0000     NotChecked  -35.6169    961.5597    ✗       
+658   +43.006QELLSFK           -1.0000     NotChecked  -35.6417    906.4811    ✗       
+659   -17.027RLLLSFK           -1.0000     NotChecked  -35.6419    858.5327    ✗       
+660   +43.006LLLLSFK           -1.0000     NotChecked  -35.6550    875.5480    ✗       
+661   LQLLLSGK                 -1.0000     NotChecked  -35.6811    870.5539    ✗       
+662   QLLLSGK                  -1.0000     NotChecked  -35.6948    757.4698    ✗       
+663   Q+0.984QALLSFK           -1.0000     NotChecked  -35.6963    934.5124    ✗       
+664   +43.006QLLLASFK          -1.0000     NotChecked  -35.7046    961.5597    ✗       
+665   Q+0.984QLLLSF            -1.0000     NotChecked  -35.7089    848.4644    ✗       
+666   LQLLLSFK                 -1.0000     NotChecked  -35.7090    960.6008    ✗       
+667   +43.006QLLLASFK          -1.0000     NotChecked  -35.7185    961.5597    ✗       
+668   LALLLSFK                 -1.0000     NotChecked  -35.7206    903.5793    ✗       
+669   +43.006QLLLASFK          -1.0000     NotChecked  -35.7227    961.5597    ✗       
+670   QLLLSFK                  -1.0000     NotChecked  -35.7227    847.5167    ✗       
+671   -17.027QLLSFK            -1.0000     NotChecked  -35.7256    717.4061    ✗       
+672   +43.006QLLLASFK          -1.0000     NotChecked  -35.7278    961.5597    ✗       
+673   -17.027GQLLLSFK          -1.0000     NotChecked  -35.7291    887.5117    ✗       
+674   +43.006QLLLASFK          -1.0000     NotChecked  -35.7317    961.5597    ✗       
+675   +43.006QLLLASFK          -1.0000     NotChecked  -35.7319    961.5597    ✗       
+676   ALLLSFK                  -1.0000     NotChecked  -35.7343    790.4953    ✗       
+677   Q+0.984QPLLSFK           -1.0000     NotChecked  -35.7375    960.5280    ✗       
+678   +43.006QLLLASFK          -1.0000     NotChecked  -35.7419    961.5597    ✗       
+679   +43.006QLLLSFK           -1.0000     NotChecked  -35.7463    890.5226    ✗       
+680   +43.006QLLLASFK          -1.0000     NotChecked  -35.7483    961.5597    ✗       
+681   +43.006QLLLASFK          -1.0000     NotChecked  -35.7516    961.5597    ✗       
+682   LELLLSFK                 -1.0000     NotChecked  -35.7572    961.5848    ✗       
+683   GQLLLSGK                 -1.0000     NotChecked  -35.7615    814.4913    ✗       
+684   ELLLSFK                  -1.0000     NotChecked  -35.7709    848.5008    ✗       
+685   QLLLN+0.984FK            -1.0000     NotChecked  -35.7711    875.5117    ✗       
+686   +43.006QLLLASFK          -1.0000     NotChecked  -35.7739    961.5597    ✗       
+687   -17.027QLALSFK           -1.0000     NotChecked  -35.7842    788.4432    ✗       
+688   GQLLLSFK                 -1.0000     NotChecked  -35.7894    904.5382    ✗       
+689   GALLLSFK                 -1.0000     NotChecked  -35.8010    847.5167    ✗       
+690   -17.027QLLLSVK           -1.0000     NotChecked  -35.8050    782.4902    ✗       
+691   NQLLLSFK                 -1.0000     NotChecked  -35.8315    961.5597    ✗       
+692   GELLLSFK                 -1.0000     NotChecked  -35.8376    905.5222    ✗       
+693   GQLLLN+0.984FK           -1.0000     NotChecked  -35.8378    932.5331    ✗       
+694   KQLLSFK                  -1.0000     NotChecked  -35.8454    862.5276    ✗       
+695   +43.006QLLLASFK          -1.0000     NotChecked  -35.8477    961.5597    ✗       
+696   +43.006QLLLASFK          -1.0000     NotChecked  -35.8514    961.5597    ✗       
+697   +43.006QLLLASFK          -1.0000     NotChecked  -35.8576    961.5597    ✗       
+698   +43.006QLLLASFK          -1.0000     NotChecked  -35.8612    961.5597    ✗       
+699   NQLPLSFK                 -1.0000     NotChecked  -35.8769    945.5284    ✗       
+700   NQLLLAFK                 -1.0000     NotChecked  -35.8855    945.5648    ✗       
+701   NQLLLSFK                 -1.0000     NotChecked  -35.8865    961.5597    ✗       
+702   KQLALSFK                 -1.0000     NotChecked  -35.9040    933.5648    ✗       
+703   -17.027QVLLSFK           -1.0000     NotChecked  -35.9070    816.4745    ✗       
+704   -17.027QFLLSFK           -1.0000     NotChecked  -35.9353    864.4745    ✗       
+705   NQLLLSFK                 -1.0000     NotChecked  -35.9422    961.5597    ✗       
+706   +43.006QLLALSFK          -1.0000     NotChecked  -35.9596    961.5597    ✗       
+707   LQLLLTFK                 -1.0000     NotChecked  -36.0031    974.6164    ✗       
+708   +43.006QLLLGSFK          -1.0000     NotChecked  -36.0032    947.5440    ✗       
+709   -17.027QLLLSFK           -1.0000     NotChecked  -36.0085    830.4902    ✗       
+710   -17.027QLLLSPK           -1.0000     NotChecked  -36.0142    780.4745    ✗       
+711   QLLLTFK                  -1.0000     NotChecked  -36.0168    861.5324    ✗       
+712   +43.006QLLLGSFK          -1.0000     NotChecked  -36.0176    947.5440    ✗       
+713   -17.027QLLLSWK           -1.0000     NotChecked  -36.0196    869.5011    ✗       
+714   KQVLLSFK                 -1.0000     NotChecked  -36.0268    961.5961    ✗       
+715   LQLLLSDK                 -1.0000     NotChecked  -36.0295    928.5593    ✗       
+716   +43.006QLLLGSFK          -1.0000     NotChecked  -36.0326    947.5440    ✗       
+717   QLLLSDK                  -1.0000     NotChecked  -36.0432    815.4753    ✗       
+718   -17.027QLLKLSFK          -1.0000     NotChecked  -36.0538    958.5852    ✗       
+719   -17.027QLGLLSFK          -1.0000     NotChecked  -36.0624    887.5117    ✗       
+720   +43.006QLLLGSFK          -1.0000     NotChecked  -36.0685    947.5440    ✗       
+721   Q+0.984QLLLSFV           -1.0000     NotChecked  -36.0696    947.5328    ✗       
+722   +43.006QLLLGSFK          -1.0000     NotChecked  -36.0721    947.5440    ✗       
+723   QGLLLSFK                 -1.0000     NotChecked  -36.0796    904.5382    ✗       
+724   +43.006QLLLGSFK          -1.0000     NotChecked  -36.0797    947.5440    ✗       
+725   GQLLLTFK                 -1.0000     NotChecked  -36.0835    918.5538    ✗       
+726   QLLLYFK                  -1.0000     NotChecked  -36.0847    923.5480    ✗       
+727   NQLLASFK                 -1.0000     NotChecked  -36.0898    919.5127    ✗       
+728   QLLLC+57.021FK           -1.0000     NotChecked  -36.0960    920.5154    ✗       
+729   GQLLLSDK                 -1.0000     NotChecked  -36.1099    872.4967    ✗       
+730   +43.006QLLLGSFK          -1.0000     NotChecked  -36.1127    947.5440    ✗       
+731   -17.027QMLLSFK           -1.0000     NotChecked  -36.1128    848.4466    ✗       
+732   +43.006QLLLGSFK          -1.0000     NotChecked  -36.1146    947.5440    ✗       
+733   +43.006QLLLGSFK          -1.0000     NotChecked  -36.1330    947.5440    ✗       
+734   +43.006QLLLGSFK          -1.0000     NotChecked  -36.1414    947.5440    ✗       
+735   GQGLLLSFK                -1.0000     NotChecked  -36.1463    961.5597    ✗       
+736   +43.006QLLLASFK          -1.0000     NotChecked  -36.1463    961.5597    ✗       
+737   +43.006QLLLGSFK          -1.0000     NotChecked  -36.1512    947.5440    ✗       
+738   LQLGLSFK                 -1.0000     NotChecked  -36.1698    904.5382    ✗       
+739   LQLLLSFK                 -1.0000     NotChecked  -36.1775    960.6008    ✗       
+740   QLGLSFK                  -1.0000     NotChecked  -36.1836    791.4541    ✗       
+741   +43.006QLLLGSFK          -1.0000     NotChecked  -36.1850    947.5440    ✗       
+742   -17.027QLLLSSK           -1.0000     NotChecked  -36.1873    770.4538    ✗       
+743   LQLLVSFK                 -1.0000     NotChecked  -36.1905    946.5852    ✗       
+744   QLLLSFK                  -1.0000     NotChecked  -36.1913    847.5167    ✗       
+745   +43.006QLLLGSFK          -1.0000     NotChecked  -36.1963    947.5440    ✗       
+746   QLLVSFK                  -1.0000     NotChecked  -36.2043    833.5011    ✗       
+747   NQLLLSFK                 -1.0000     NotChecked  -36.2338    961.5597    ✗       
+748   QLLLEFK                  -1.0000     NotChecked  -36.2359    889.5273    ✗       
+749   QQLLSFK                  -1.0000     NotChecked  -36.2498    862.4913    ✗       
+750   GQLGLSFK                 -1.0000     NotChecked  -36.2503    848.4756    ✗       
+751   LKLLLSFK                 -1.0000     NotChecked  -36.2574    960.6372    ✗       
+752   GQLLLSFK                 -1.0000     NotChecked  -36.2580    904.5382    ✗       
+753   QLLGLSFK                 -1.0000     NotChecked  -36.2686    904.5382    ✗       
+754   GQLLVSFK                 -1.0000     NotChecked  -36.2710    890.5226    ✗       
+755   KLLLSFK                  -1.0000     NotChecked  -36.2711    847.5531    ✗       
+756   NHLLLSFK                 -1.0000     NotChecked  -36.2717    970.5600    ✗       
+757   LQLLLSLK                 -1.0000     NotChecked  -36.2733    926.6165    ✗       
+758   LQLLNSFK                 -1.0000     NotChecked  -36.2746    961.5597    ✗       
+759   QLLLSLK                  -1.0000     NotChecked  -36.2870    813.5324    ✗       
+760   QLLNSFK                  -1.0000     NotChecked  -36.2883    848.4756    ✗       
+761   -17.027QLFLSFK           -1.0000     NotChecked  -36.2885    864.4745    ✗       
+762   GQLLLEFK                 -1.0000     NotChecked  -36.3026    946.5488    ✗       
+763   AQLLLSFK                 -1.0000     NotChecked  -36.3039    918.5539    ✗       
+764   -17.027QALLSFK           -1.0000     NotChecked  -36.3084    788.4432    ✗       
+765   -17.027QGLLLSFK          -1.0000     NotChecked  -36.3107    887.5117    ✗       
+766   QLLQSFK                  -1.0000     NotChecked  -36.3149    862.4913    ✗       
+767   GQQLLSFK                 -1.0000     NotChecked  -36.3166    919.5127    ✗       
+768   +43.006QLLLSFK           -1.0000     NotChecked  -36.3212    890.5226    ✗       
+769   LNLLLSFK                 -1.0000     NotChecked  -36.3263    946.5852    ✗       
+770   Q+0.984QLLLSFG           -1.0000     NotChecked  -36.3269    905.4858    ✗       
+771   +43.006QLLLGSFK          -1.0000     NotChecked  -36.3332    947.5440    ✗       
+772   GQLLGLSFK                -1.0000     NotChecked  -36.3353    961.5597    ✗       
+773   -17.027QLKLSFK           -1.0000     NotChecked  -36.3362    845.5011    ✗       
+774   GKLLLSFK                 -1.0000     NotChecked  -36.3378    904.5746    ✗       
+775   NQLLGSFK                 -1.0000     NotChecked  -36.3391    905.4971    ✗       
+776   NLLLSFK                  -1.0000     NotChecked  -36.3400    833.5011    ✗       
+777   -17.027QNLLLSFK          -1.0000     NotChecked  -36.3423    944.5331    ✗       
+778   -17.027QLHLSFK           -1.0000     NotChecked  -36.3452    854.4650    ✗       
+779   -17.027QPLLSFK           -1.0000     NotChecked  -36.3496    814.4589    ✗       
+780   +43.006QLLLGSFK          -1.0000     NotChecked  -36.3513    947.5440    ✗       
+781   Q+0.984QLLLSFT           -1.0000     NotChecked  -36.3532    949.5120    ✗       
+782   GQLLLSLK                 -1.0000     NotChecked  -36.3538    870.5539    ✗       
+783   GQLLNSFK                 -1.0000     NotChecked  -36.3550    905.4971    ✗       
+784   QALLLSFK                 -1.0000     NotChecked  -36.3654    918.5539    ✗       
+785   +43.006QLPLSFK           -1.0000     NotChecked  -36.3666    874.4913    ✗       
+786   GAQLLLSFK                -1.0000     Failed      -36.3706    975.5753    ✓       
+787   +43.006QLLLAFK           -1.0000     NotChecked  -36.3752    874.5276    ✗       
+788   +43.006QLLLSFK           -1.0000     NotChecked  -36.3762    890.5226    ✗       
+789   GQLLQSFK                 -1.0000     NotChecked  -36.3816    919.5127    ✗       
+790   LTLLLSFK                 -1.0000     NotChecked  -36.3856    933.5899    ✗       
+791   +43.006QLLGLSFK          -1.0000     NotChecked  -36.3863    947.5440    ✗       
+792   -17.027QLLLSGFK          -1.0000     NotChecked  -36.3898    887.5117    ✗       
+793   LQLLLGFK                 -1.0000     NotChecked  -36.3915    930.5902    ✗       
+794   TLLLSFK                  -1.0000     NotChecked  -36.3993    820.5058    ✗       
+795   NQLLSSFK                 -1.0000     NotChecked  -36.3994    935.5076    ✗       
+796   QLLLGFK                  -1.0000     NotChecked  -36.4052    817.5062    ✗       
+797   GNLLLSFK                 -1.0000     NotChecked  -36.4067    890.5226    ✗       
+798   LQLLLSFK                 -1.0000     NotChecked  -36.4124    960.6008    ✗       
+799   QLLLSFK                  -1.0000     NotChecked  -36.4261    847.5167    ✗       
+800   KQALLSFK                 -1.0000     NotChecked  -36.4282    933.5648    ✗       
+801   QALLLSFK                 -1.0000     NotChecked  -36.4285    918.5539    ✗       
+802   +43.006QLLLSFK           -1.0000     NotChecked  -36.4319    890.5226    ✗       
+803   KQLLLSF                  -1.0000     NotChecked  -36.4408    847.5167    ✗       
+804   LQLLPSFK                 -1.0000     NotChecked  -36.4528    944.5695    ✗       
+805   -17.027QLELSFK           -1.0000     NotChecked  -36.4587    846.4487    ✗       
+806   GTLLLSFK                 -1.0000     NotChecked  -36.4660    877.5273    ✗       
+807   QLLPSFK                  -1.0000     NotChecked  -36.4665    831.4854    ✗       
+808   KQPLLSFK                 -1.0000     NotChecked  -36.4694    959.5804    ✗       
+809   NQLLLSFK                 -1.0000     NotChecked  -36.4710    961.5597    ✗       
+810   GQLLLGFK                 -1.0000     NotChecked  -36.4719    874.5276    ✗       
+811   +43.006QLLFSFK           -1.0000     NotChecked  -36.4762    924.5069    ✗       
+812   GQLLLSFK                 -1.0000     NotChecked  -36.4928    904.5382    ✗       
+813   RQLLASFK                 -1.0000     NotChecked  -36.4955    961.5709    ✗       
+814   -17.027TQLLLSFK          -1.0000     NotChecked  -36.5029    931.5379    ✗       
+815   GQLLPSFK                 -1.0000     NotChecked  -36.5332    888.5069    ✗       
+816   LQNLLSFK                 -1.0000     NotChecked  -36.5518    961.5597    ✗       
+817   QNLLSFK                  -1.0000     NotChecked  -36.5655    848.4756    ✗       
+818   -17.027QNLLLSFK          -1.0000     NotChecked  -36.5696    944.5331    ✗       
+819   +43.006QLLASFK           -1.0000     NotChecked  -36.5795    848.4756    ✗       
+820   -17.027QRLLSFK           -1.0000     NotChecked  -36.5933    873.5072    ✗       
+821   -17.027QLRLSFK           -1.0000     NotChecked  -36.5990    873.5072    ✗       
+822   +43.006QLLLDFK           -1.0000     NotChecked  -36.6076    918.5175    ✗       
+823   +43.006AQLLLSFK          -1.0000     NotChecked  -36.6080    961.5597    ✗       
+824   -17.027QLGLLSFK          -1.0000     NotChecked  -36.6155    887.5117    ✗       
+825   RLLLSFK                  -1.0000     NotChecked  -36.6204    875.5593    ✗       
+826   +43.006QLLLLFK           -1.0000     NotChecked  -36.6310    916.5746    ✗       
+827   GQNLLSFK                 -1.0000     NotChecked  -36.6322    905.4971    ✗       
+828   +43.006QLLLSFR           -1.0000     NotChecked  -36.6515    918.5287    ✗       
+829   GRLLLSFK                 -1.0000     NotChecked  -36.6871    932.5807    ✗       
+830   LQLLSFK                  -1.0000     NotChecked  -36.6904    847.5167    ✗       
+831   -17.027QLALLSFK          -1.0000     NotChecked  -36.6933    901.5273    ✗       
+832   NALLLSFK                 -1.0000     NotChecked  -36.7012    904.5382    ✗       
+833   QLLSFK                   -1.0000     NotChecked  -36.7042    734.4327    ✗       
+834   GQLLLSFK                 -1.0000     NotChecked  -36.7076    904.5382    ✗       
+835   -17.027QELLSFK           -1.0000     NotChecked  -36.7180    846.4487    ✗       
+836   -17.027LLLLSFK           -1.0000     NotChecked  -36.7314    815.5157    ✗       
+837   NELLLSFK                 -1.0000     NotChecked  -36.7378    962.5437    ✗       
+838   RQLLGSFK                 -1.0000     NotChecked  -36.7448    947.5553    ✗       
+839   LQLALSFK                 -1.0000     NotChecked  -36.7490    918.5539    ✗       
+840   +43.006HLLLSFK           -1.0000     NotChecked  -36.7614    899.5229    ✗       
+841   QLALSFK                  -1.0000     NotChecked  -36.7627    805.4698    ✗       
+842   LQLLLSVK                 -1.0000     NotChecked  -36.7698    912.6008    ✗       
+843   GQLLSFK                  -1.0000     NotChecked  -36.7709    791.4541    ✗       
+844   GGQLLLSFK                -1.0000     NotChecked  -36.7743    961.5597    ✗       
+845   -17.027QLLLLSFK          -1.0000     NotChecked  -36.7748    943.5743    ✗       
+846   -17.027QLLLASFK          -1.0000     NotChecked  -36.7810    901.5273    ✗       
+847   QLLLSVK                  -1.0000     NotChecked  -36.7835    799.5167    ✗       
+848   +43.006QLLLGSFK          -1.0000     NotChecked  -36.7859    947.5440    ✗       
+849   -17.027QLLLASFK          -1.0000     NotChecked  -36.7949    901.5273    ✗       
+850   -17.027QLLLASFK          -1.0000     NotChecked  -36.7991    901.5273    ✗       
+851   KQLLLSFV                 -1.0000     NotChecked  -36.8015    946.5852    ✗       
+852   -17.027QLLLASFK          -1.0000     NotChecked  -36.8042    901.5273    ✗       
+853   -17.027QLLLASFK          -1.0000     NotChecked  -36.8081    901.5273    ✗       
+854   -17.027QLLLASFK          -1.0000     NotChecked  -36.8083    901.5273    ✗       
+855   -17.027QLLLASFK          -1.0000     NotChecked  -36.8183    901.5273    ✗       
+856   -17.027QLLLSFK           -1.0000     NotChecked  -36.8226    830.4902    ✗       
+857   -17.027QLLLASFK          -1.0000     NotChecked  -36.8247    901.5273    ✗       
+858   -17.027QLLLASFK          -1.0000     NotChecked  -36.8280    901.5273    ✗       
+859   +43.006QLLGSFK           -1.0000     NotChecked  -36.8288    834.4600    ✗       
+860   GQLALSFK                 -1.0000     NotChecked  -36.8294    862.4913    ✗       
+861   +43.006QLALLSFK          -1.0000     NotChecked  -36.8321    961.5597    ✗       
+862   GQLLLSVK                 -1.0000     NotChecked  -36.8502    856.5382    ✗       
+863   -17.027QLLLASFK          -1.0000     NotChecked  -36.8502    901.5273    ✗       
+864   LQVLLSFK                 -1.0000     NotChecked  -36.8717    946.5852    ✗       
+865   QVLLSFK                  -1.0000     NotChecked  -36.8855    833.5011    ✗       
+866   +43.006QLLSSFK           -1.0000     NotChecked  -36.8891    864.4705    ✗       
+867   QFLLSFK                  -1.0000     NotChecked  -36.9138    881.5011    ✗       
+868   NQLLLSFK                 -1.0000     NotChecked  -36.9141    961.5597    ✗       
+869   -17.027QLLLASFK          -1.0000     NotChecked  -36.9240    901.5273    ✗       
+870   -17.027QLLLASFK          -1.0000     NotChecked  -36.9278    901.5273    ✗       
+871   -17.027QLLLASFK          -1.0000     NotChecked  -36.9340    901.5273    ✗       
+872   -17.027QLLLASFK          -1.0000     NotChecked  -36.9376    901.5273    ✗       
+873   GQVLLSFK                 -1.0000     NotChecked  -36.9522    890.5226    ✗       
+874   +43.006GQLLLSFK          -1.0000     NotChecked  -36.9571    947.5440    ✗       
+875   +43.006QLLLSFK           -1.0000     NotChecked  -36.9607    890.5226    ✗       
+876   LQLLLSFK                 -1.0000     NotChecked  -36.9733    960.6008    ✗       
+877   LQLLLSPK                 -1.0000     NotChecked  -36.9789    910.5852    ✗       
+878   GQFLLSFK                 -1.0000     NotChecked  -36.9805    938.5226    ✗       
+879   +43.006QLLESFK           -1.0000     NotChecked  -36.9813    906.4811    ✗       
+880   QLLLSFK                  -1.0000     NotChecked  -36.9870    847.5167    ✗       
+881   +43.006QLLLGSFK          -1.0000     NotChecked  -36.9891    947.5440    ✗       
+882   QLLLSPK                  -1.0000     NotChecked  -36.9927    797.5011    ✗       
+883   QLLLSWK                  -1.0000     NotChecked  -36.9981    886.5276    ✗       
+884   +43.006QLLLGSFK          -1.0000     NotChecked  -37.0028    947.5440    ✗       
+885   +43.006QLLLGSFK          -1.0000     NotChecked  -37.0103    947.5440    ✗       
+886   -17.027QLLALSFK          -1.0000     NotChecked  -37.0360    901.5273    ✗       
+887   QLGLLSFK                 -1.0000     NotChecked  -37.0409    904.5382    ✗       
+888   GQLLLSFK                 -1.0000     NotChecked  -37.0537    904.5382    ✗       
+889   KQLLLSFG                 -1.0000     NotChecked  -37.0588    904.5382    ✗       
+890   GQLLLSPK                 -1.0000     NotChecked  -37.0594    854.5226    ✗       
+891   GQLLLSWK                 -1.0000     NotChecked  -37.0648    943.5491    ✗       
+892   -17.027QLLLGSFK          -1.0000     NotChecked  -37.0796    887.5117    ✗       
+893   KQLLLSFT                 -1.0000     NotChecked  -37.0852    948.5644    ✗       
+894   QMLLSFK                  -1.0000     NotChecked  -37.0914    865.4732    ✗       
+895   -17.027QLLLGSFK          -1.0000     NotChecked  -37.0940    887.5117    ✗       
+896   RALLLSFK                 -1.0000     NotChecked  -37.1069    946.5964    ✗       
+897   GQLGLLSFK                -1.0000     NotChecked  -37.1076    961.5597    ✗       
+898   -17.027QLLLGSFK          -1.0000     NotChecked  -37.1090    887.5117    ✗       
+899   -17.027NQLLLSFK          -1.0000     NotChecked  -37.1210    944.5331    ✗       
+900   +43.006QLLLGSFK          -1.0000     NotChecked  -37.1424    947.5440    ✗       
+901   -17.027QLLLGSFK          -1.0000     NotChecked  -37.1449    887.5117    ✗       
+902   -17.027QLLLGSFK          -1.0000     NotChecked  -37.1485    887.5117    ✗       
+903   NQLGLSFK                 -1.0000     NotChecked  -37.1505    905.4971    ✗       
+904   +43.006QLLLSFGK          -1.0000     NotChecked  -37.1514    947.5440    ✗       
+905   LQLLLSSK                 -1.0000     NotChecked  -37.1520    900.5644    ✗       
+906   -17.027QLLLGSFK          -1.0000     NotChecked  -37.1561    887.5117    ✗       
+907   GQMLLSFK                 -1.0000     NotChecked  -37.1581    922.4946    ✗       
+908   QLLLSSK                  -1.0000     NotChecked  -37.1658    787.4804    ✗       
+909   NQLLVSFK                 -1.0000     NotChecked  -37.1711    947.5440    ✗       
+910   -17.027QPLLLSFK          -1.0000     NotChecked  -37.1870    927.5430    ✗       
+911   -17.027QLLLGSFK          -1.0000     NotChecked  -37.1891    887.5117    ✗       
+912   +43.006ALLLSFK           -1.0000     NotChecked  -37.1909    833.5011    ✗       
+913   -17.027QLLLGSFK          -1.0000     NotChecked  -37.1910    887.5117    ✗       
+914   NQLLLSFK                 -1.0000     NotChecked  -37.2007    961.5597    ✗       
+915   -17.027QLLLGSFK          -1.0000     NotChecked  -37.2094    887.5117    ✗       
+916   -17.027QLLLGSFK          -1.0000     NotChecked  -37.2178    887.5117    ✗       
+917   -17.027QLLLASFK          -1.0000     NotChecked  -37.2227    901.5273    ✗       
+918   +43.006ELLLSFK           -1.0000     NotChecked  -37.2275    891.5066    ✗       
+919   -17.027QLLLGSFK          -1.0000     NotChecked  -37.2275    887.5117    ✗       
+920   +43.006QLLLN+0.984FK     -1.0000     NotChecked  -37.2277    918.5175    ✗       
+921   GQLLLSSK                 -1.0000     NotChecked  -37.2325    844.5018    ✗       
+922   -17.027QSLLLSFK          -1.0000     NotChecked  -37.2374    917.5222    ✗       
+923   NQLLLSFQ                 -1.0000     NotChecked  -37.2483    961.5233    ✗       
+924   NQLLNSFK                 -1.0000     NotChecked  -37.2552    962.5185    ✗       
+925   -17.027QLLLGSFK          -1.0000     NotChecked  -37.2613    887.5117    ✗       
+926   QLFLSFK                  -1.0000     NotChecked  -37.2670    881.5011    ✗       
+927   -17.027QLLLGSFK          -1.0000     NotChecked  -37.2727    887.5117    ✗       
+928   LQALLSFK                 -1.0000     NotChecked  -37.2732    918.5539    ✗       
+929   QALLSFK                  -1.0000     NotChecked  -37.2869    805.4698    ✗       
+930   QGLLLSFK                 -1.0000     NotChecked  -37.2892    904.5382    ✗       
+931   LQPLLSFK                 -1.0000     NotChecked  -37.3144    944.5695    ✗       
+932   QLKLSFK                  -1.0000     NotChecked  -37.3147    862.5276    ✗       
+933   QNLLLSFK                 -1.0000     NotChecked  -37.3208    961.5597    ✗       
+934   QLHLSFK                  -1.0000     NotChecked  -37.3237    871.4916    ✗       
+935   QPLLSFK                  -1.0000     NotChecked  -37.3282    831.4854    ✗       
+936   GQLFLSFK                 -1.0000     NotChecked  -37.3337    938.5226    ✗       
+937   GQALLSFK                 -1.0000     NotChecked  -37.3536    862.4913    ✗       
+938   NQLLLSFL                 -1.0000     NotChecked  -37.3539    946.5488    ✗       
+939   GQGLLLSFK                -1.0000     NotChecked  -37.3559    961.5597    ✗       
+940   NTLLLSFK                 -1.0000     NotChecked  -37.3662    934.5488    ✗       
+941   QLLLSGFK                 -1.0000     NotChecked  -37.3683    904.5382    ✗       
+942   -17.027TQLLLSFK          -1.0000     NotChecked  -37.3688    931.5379    ✗       
+943   NQLLLGFK                 -1.0000     NotChecked  -37.3721    931.5491    ✗       
+944   GQLKLSFK                 -1.0000     NotChecked  -37.3814    919.5491    ✗       
+945   GQLHLSFK                 -1.0000     NotChecked  -37.3904    928.5131    ✗       
+946   GQPLLSFK                 -1.0000     NotChecked  -37.3949    888.5069    ✗       
+947   -17.027QLLLSFK           -1.0000     NotChecked  -37.3976    830.4902    ✗       
+948   +43.006QLLLSFK           -1.0000     NotChecked  -37.4038    890.5226    ✗       
+949   -17.027QLLLGSFK          -1.0000     NotChecked  -37.4095    887.5117    ✗       
+950   -17.027QLLLGSFK          -1.0000     NotChecked  -37.4277    887.5117    ✗       
+951   NQLLPSFK                 -1.0000     NotChecked  -37.4334    945.5284    ✗       
+952   GQLLLSGFK                -1.0000     NotChecked  -37.4350    961.5597    ✗       
+953   QLELSFK                  -1.0000     NotChecked  -37.4372    863.4753    ✗       
+954   -17.027QLPLSFK           -1.0000     NotChecked  -37.4429    814.4589    ✗       
+955   -17.027QLLLAFK           -1.0000     NotChecked  -37.4516    814.4953    ✗       
+956   -17.027QLLLSFK           -1.0000     NotChecked  -37.4526    830.4902    ✗       
+957   -17.027QLLGLSFK          -1.0000     NotChecked  -37.4627    887.5117    ✗       
+958   +43.006QLLLGSFK          -1.0000     NotChecked  -37.4722    947.5440    ✗       
+959   +43.006QLLLTFK           -1.0000     NotChecked  -37.4734    904.5382    ✗       
+960   TQLLLSFK                 -1.0000     NotChecked  -37.4815    948.5644    ✗       
+961   GQLELSFK                 -1.0000     NotChecked  -37.5039    920.4967    ✗       
+962   -17.027QLLLSFK           -1.0000     NotChecked  -37.5083    830.4902    ✗       
+963   NQNLLSFK                 -1.0000     NotChecked  -37.5324    962.5185    ✗       
+964   +43.006QGLLLSFK          -1.0000     NotChecked  -37.5362    947.5440    ✗       
+965   +43.006QLLLYFK           -1.0000     NotChecked  -37.5413    966.5539    ✗       
+966   QNLLLSFK                 -1.0000     NotChecked  -37.5481    961.5597    ✗       
+967   -17.027QLLFSFK           -1.0000     NotChecked  -37.5525    864.4745    ✗       
+968   +43.006QLLLC+57.021FK    -1.0000     NotChecked  -37.5526    963.5212    ✗       
+969   -17.027QKLLLSFK          -1.0000     NotChecked  -37.5554    958.5852    ✗       
+970   RQLGLSFK                 -1.0000     NotChecked  -37.5562    947.5553    ✗       
+971   QRLLSFK                  -1.0000     NotChecked  -37.5718    890.5338    ✗       
+972   QLRLSFK                  -1.0000     NotChecked  -37.5776    890.5338    ✗       
+973   +43.006QLLLGSFK          -1.0000     NotChecked  -37.5796    947.5440    ✗       
+974   QLGLLSFK                 -1.0000     NotChecked  -37.5940    904.5382    ✗       
+975   +43.006QLLALSFK          -1.0000     NotChecked  -37.6100    961.5597    ✗       
+976   GQRLLSFK                 -1.0000     NotChecked  -37.6385    947.5553    ✗       
+977   +43.006QLGLSFK           -1.0000     NotChecked  -37.6402    834.4600    ✗       
+978   GQLRLSFK                 -1.0000     NotChecked  -37.6443    947.5553    ✗       
+979   -17.027QLLASFK           -1.0000     NotChecked  -37.6559    788.4432    ✗       
+980   GQLGLLSFK                -1.0000     NotChecked  -37.6607    961.5597    ✗       
+981   +43.006QLLVSFK           -1.0000     NotChecked  -37.6608    876.5069    ✗       
+982   NQLLSFK                  -1.0000     NotChecked  -37.6710    848.4756    ✗       
+983   QLALLSFK                 -1.0000     NotChecked  -37.6718    918.5539    ✗       
+984   -17.027QLLLDFK           -1.0000     NotChecked  -37.6840    858.4851    ✗       
+985   -17.027AQLLLSFK          -1.0000     NotChecked  -37.6844    901.5273    ✗       
+986   +43.006QLLLEFK           -1.0000     NotChecked  -37.6924    932.5331    ✗       
+987   LLLLLSFK                 -1.0000     NotChecked  -37.6962    945.6263    ✗       
+988   QELLSFK                  -1.0000     NotChecked  -37.6966    863.4753    ✗       
+989   +43.006QQLLSFK           -1.0000     NotChecked  -37.7064    905.4971    ✗       
+990   -17.027QLLLLFK           -1.0000     NotChecked  -37.7074    856.5422    ✗       
+991   LLLLSFK                  -1.0000     NotChecked  -37.7099    832.5422    ✗       
+992   +43.006QLLGLSFK          -1.0000     NotChecked  -37.7252    947.5440    ✗       
+993   -17.027QLLLSFR           -1.0000     NotChecked  -37.7279    858.4963    ✗       
+994   NQLALSFK                 -1.0000     NotChecked  -37.7296    919.5127    ✗       
+995   +43.006QLLLSFQ           -1.0000     NotChecked  -37.7380    890.4862    ✗       
+996   GQLALLSFK                -1.0000     Failed      -37.7385    975.5753    ✓       
+997   +43.006QLLNSFK           -1.0000     NotChecked  -37.7449    891.4814    ✗       
+998   QLLLLSFK                 -1.0000     NotChecked  -37.7533    960.6008    ✗       
+999   QLLLASFK                 -1.0000     NotChecked  -37.7596    918.5539    ✗       
+1000  +43.006AQLLLSFK          -1.0000     NotChecked  -37.7605    961.5597    ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: QQLLLSFK
+Similarity: 0.9297
+De Novo Score: -0.0295
+Source: Database
+Correct: ✓
+

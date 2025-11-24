@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 214
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 821.4016
+Precursor charge: 2+
+Ground truth: VDTNAPDISIEGPEGK
+Ground truth (normalized): VDTNAPDISIEGPEGK
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 98
+Used for reranking: 98
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 98 (9.8%)
+Database matches: 17 (1.7%)
+Prosit predictions: 72 (7.2%)
+Failed: 9 (0.9%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.8449
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     VDTNAPDLSLEGPEGK         0.8449      Database    -1.8639     1640.7893   ✓       ✓
+2     VDTNAPDLSLEGPEGK         0.8449      Database    -4.3755     1640.7893   ✓       ✓
+3     VDTNAPDLSLEGPEGK         0.8449      Database    -7.1805     1640.7893   ✓       ✓
+4     VDTNAPDLSLEGPEGK         0.8449      Database    -8.2870     1640.7893   ✓       ✓
+5     VDTNAPDLSLEGPEGK         0.8449      Database    -9.6921     1640.7893   ✓       ✓
+6     VDTNAPDLSLEGPEGK         0.8449      Database    -10.1536    1640.7893   ✓       ✓
+7     VDTNAPDLSLEGPEGK         0.8449      Database    -10.3239    1640.7893   ✓       ✓
+8     VDTNAPDLSLEGPEGK         0.8449      Database    -10.4546    1640.7893   ✓       ✓
+9     VDTNAPDLSLEGPEGK         0.8449      Database    -10.7986    1640.7893   ✓       ✓
+10    VDTNAPDLSLEGPEGK         0.8449      Database    -11.3266    1640.7893   ✓       ✓
+11    VDTNAPDLSLEGPEGK         0.8449      Database    -11.3929    1640.7893   ✓       ✓
+12    VDTNAPDLSLEGPEGK         0.8449      Database    -12.2284    1640.7893   ✓       ✓
+13    VDTNAPDLSLEGPEGK         0.8449      Database    -12.7223    1640.7893   ✓       ✓
+14    VDTNAPDLSLEGPEGK         0.8449      Database    -12.8356    1640.7893   ✓       ✓
+15    VDTNAPDLSLEGPEGK         0.8449      Database    -12.9662    1640.7893   ✓       ✓
+16    VDTNAPDLSLEGPEGK         0.8449      Database    -13.5733    1640.7893   ✓       ✓
+17    VDTNAPDLSLEGPEGK         0.8449      Database    -13.6036    1640.7893   ✓       ✓
+18    VDTNAPDLSLEGPADK         0.4791      Prosit      -5.5739     1640.7893   ✓       
+19    VDTNAPDLSLEGPADK         0.4791      Prosit      -8.0855     1640.7893   ✓       
+20    VDTNAPDLSLEGPADK         0.4791      Prosit      -10.8906    1640.7893   ✓       
+21    VDTNAPDLSLEGPADK         0.4791      Prosit      -11.9970    1640.7893   ✓       
+22    VDTNAPDLSLEGPADK         0.4791      Prosit      -13.4022    1640.7893   ✓       
+23    ADTNAPDLSLEGPVDK         0.4703      Prosit      -10.9395    1640.7893   ✓       
+24    ADTNAPDLSLEGPVDK         0.4703      Prosit      -13.4511    1640.7893   ✓       
+25    ADTNAPDLSLEGPDVK         0.4685      Prosit      -11.2932    1640.7893   ✓       
+26    LDTNAPDLSLEGPGDK         0.4662      Prosit      -12.7052    1640.7893   ✓       
+27    VDTNAPDLSLEGPGEK         0.4637      Prosit      -3.8027     1640.7893   ✓       
+28    VDTNAPDLSLEGPGEK         0.4637      Prosit      -6.3143     1640.7893   ✓       
+29    VDTNAPDLSLEGPGEK         0.4637      Prosit      -9.1194     1640.7893   ✓       
+30    VDTNAPDLSLEGPGEK         0.4637      Prosit      -10.2258    1640.7893   ✓       
+31    VDTNAPDLSLEGPGEK         0.4637      Prosit      -11.6310    1640.7893   ✓       
+32    VDTNAPDLSLEGPGEK         0.4637      Prosit      -12.0924    1640.7893   ✓       
+33    VDTNAPDLSLEGPGEK         0.4637      Prosit      -12.2628    1640.7893   ✓       
+34    VDTNAPDLSLEGPGEK         0.4637      Prosit      -12.3935    1640.7893   ✓       
+35    VDTNAPDLSLEGPGEK         0.4637      Prosit      -12.7374    1640.7893   ✓       
+36    VDTNAPDLSLEGPGEK         0.4637      Prosit      -13.2654    1640.7893   ✓       
+37    VDTNAPDLSLEGPGEK         0.4637      Prosit      -13.3317    1640.7893   ✓       
+38    VETNAPDLSLEGPGDK         0.4620      Prosit      -12.3630    1640.7893   ✓       
+39    DVTNAPDLSLEGPGEK         0.4567      Prosit      -13.2412    1640.7893   ✓       
+40    ADTNAPDLSLEGPEGR         0.4482      Prosit      -12.3341    1640.7642   ✓       
+41    VDTNAPDLSLEGPEGQ         0.4399      Prosit      -12.4146    1640.7530   ✓       
+42    VETNAPDLSLEGPDGK         0.4389      Prosit      -12.6956    1640.7893   ✓       
+43    AVTNAPDLSLEGPDDK         0.4350      Prosit      -11.0840    1640.7893   ✓       
+44    AVTNAPDLSLEGPDDK         0.4350      Prosit      -13.5956    1640.7893   ✓       
+45    DVTNAPDLSLEGPEGK         0.4349      Prosit      -11.3023    1640.7893   ✓       
+46    VN+0.984TNAPDLSLEGPADK   0.4317      Prosit      -10.9844    1640.7893   ✓       
+47    VN+0.984TNAPDLSLEGPADK   0.4317      Prosit      -13.4961    1640.7893   ✓       
+48    LDTNAPDLSLEGPDGK         0.4302      Prosit      -13.0379    1640.7893   ✓       
+49    VDTNAPN+0.984LSLEGPADK   0.4206      Prosit      -13.5522    1640.7893   ✓       
+50    VDTNAPDLSLQ+0.984GPGEK   0.4169      Prosit      -8.9331     1640.7893   ✓       
+51    VDTNAPDLSLQ+0.984GPGEK   0.4169      Prosit      -11.4447    1640.7893   ✓       
+52    VN+0.984TNAPDLSLEGPGEK   0.4074      Prosit      -9.2132     1640.7893   ✓       
+53    VN+0.984TNAPDLSLEGPGEK   0.4074      Prosit      -11.7249    1640.7893   ✓       
+54    AVDTN+0.984APDLSLEGPGGK  0.4040      Prosit      -12.5453    1640.7893   ✓       
+55    VDTNAPN+0.984LSLEGPGEK   0.3992      Prosit      -11.7810    1640.7893   ✓       
+56    VN+0.984TNAPDLSLEGPEGK   0.3965      Prosit      -7.2744     1640.7893   ✓       
+57    VN+0.984TNAPDLSLEGPEGK   0.3965      Prosit      -9.7860     1640.7893   ✓       
+58    VN+0.984TNAPDLSLEGPEGK   0.3965      Prosit      -12.5911    1640.7893   ✓       
+59    AETNAPDLSLEGPAEK         0.3936      Prosit      -12.9866    1640.7893   ✓       
+60    AVTN+0.984APDLSLEGPNDK   0.3895      Prosit      -12.9739    1640.7893   ✓       
+61    VDTNAPDLSLEGPDAK         0.3872      Prosit      -7.6969     1640.7893   ✓       
+62    VDTNAPDLSLEGPDAK         0.3872      Prosit      -10.2085    1640.7893   ✓       
+63    VDTNAPDLSLEGPDAK         0.3872      Prosit      -13.0136    1640.7893   ✓       
+64    VDTNAPDLSLQ+0.984GPEGK   0.3827      Prosit      -6.9943     1640.7893   ✓       
+65    VDTNAPDLSLQ+0.984GPEGK   0.3827      Prosit      -9.5059     1640.7893   ✓       
+66    VDTNAPDLSLQ+0.984GPEGK   0.3827      Prosit      -12.3109    1640.7893   ✓       
+67    VDTNAPDLSLQ+0.984GPEGK   0.3827      Prosit      -13.4174    1640.7893   ✓       
+68    VDTNAPN+0.984LSLEGPEGK   0.3784      Prosit      -9.8421     1640.7893   ✓       
+69    VDTNAPN+0.984LSLEGPEGK   0.3784      Prosit      -12.3537    1640.7893   ✓       
+70    VN+0.984TNAPDLSLQ+0.984GPEGK0.3746      Prosit      -12.4048    1640.7893   ✓       
+71    VDTNAPDLSLEGPAN+0.984K   0.3672      Prosit      -9.7353     1640.7893   ✓       
+72    VDTN+0.984APDLSLEGPANK   0.3672      Prosit      -11.2925    1640.7893   ✓       
+73    VDTNAPDLSLEGPAN+0.984K   0.3672      Prosit      -12.2469    1640.7893   ✓       
+74    ADTN+0.984APDLSLEGPNVK   0.3648      Prosit      -13.1831    1640.7893   ✓       
+75    VDTNAPDLSLEGPGQ+0.984K   0.3625      Prosit      -8.9727     1640.7893   ✓       
+76    VDTNAPDLSLEGPGQ+0.984K   0.3625      Prosit      -11.4843    1640.7893   ✓       
+77    VN+0.984TNAPDLSLEGPDAK   0.3541      Prosit      -13.1074    1640.7893   ✓       
+78    VDTDAPDLSLEGPQGK         0.3462      Prosit      -11.7503    1640.7893   ✓       
+79    VDTNAPDLSLQ+0.984GPDAK   0.3383      Prosit      -12.8273    1640.7893   ✓       
+80    VDTN+0.984APDLSLEGPNAK   0.3281      Prosit      -9.5868     1640.7893   ✓       
+81    VDTNAPDLSLEGPN+0.984AK   0.3281      Prosit      -10.5186    1640.7893   ✓       
+82    VDTN+0.984APDLSLEGPNAK   0.3281      Prosit      -12.0984    1640.7893   ✓       
+83    VDTNAPDLSLEGPN+0.984AK   0.3281      Prosit      -13.0302    1640.7893   ✓       
+84    VDTNAPDLSLEGPQ+0.984GK   0.3244      Prosit      -8.0222     1640.7893   ✓       
+85    VDTNAPDLSLEGPQ+0.984GK   0.3244      Prosit      -10.5338    1640.7893   ✓       
+86    VDTNAPDLSLEGPQ+0.984GK   0.3244      Prosit      -13.3389    1640.7893   ✓       
+87    VDTN+0.984APDLSLQ+0.984GPQGK0.2958      Prosit      -12.0686    1640.7893   ✓       
+88    VN+0.984TNAPDLSLEGPQ+0.984GK0.2911      Prosit      -13.4327    1640.7893   ✓       
+89    VN+0.984TN+0.984APDLSLEGPQGK0.2911      Prosit      -12.3487    1640.7893   ✓       
+90    ADTNAPDLSLEGPEGK         -1.0000     NotChecked  -2.2270     1612.7580   ✗       
+91    VDTNAPDLSLEGPGGK         -1.0000     NotChecked  -2.3996     1568.7682   ✗       
+92    ADTNAPDLSLEGPGGK         -1.0000     NotChecked  -2.7627     1540.7369   ✗       
+93    VDTNAPDLSLEGPAGK         -1.0000     NotChecked  -3.4154     1582.7839   ✗       
+94    VDTNAPDLSLEGPNGK         -1.0000     NotChecked  -3.4212     1625.7897   ✗       
+95    VDTNAPDLSLEGPQGK         -1.0000     NotChecked  -3.5787     1639.8053   ✗       
+96    ADTNAPDLSLEGPAGK         -1.0000     NotChecked  -3.7786     1554.7526   ✗       
+97    ADTNAPDLSLEGPNGK         -1.0000     NotChecked  -3.7843     1597.7584   ✗       
+98    ADTNAPDLSLEGPQGK         -1.0000     NotChecked  -3.9419     1611.7740   ✗       
+99    ADTNAPDLSLEGPGEK         -1.0000     NotChecked  -4.1659     1612.7580   ✗       
+100   VDTNAPDLSLEGPGDK         -1.0000     NotChecked  -4.5581     1626.7737   ✗       
+101   ADTNAPDLSLEGPEGK         -1.0000     NotChecked  -4.7386     1612.7580   ✗       
+102   VDTNAPDLSLEGPDGK         -1.0000     NotChecked  -4.8907     1626.7737   ✗       
+103   VDTNAPDLSLEGPGGK         -1.0000     NotChecked  -4.9112     1568.7682   ✗       
+104   ADTNAPDLSLEGPGDK         -1.0000     NotChecked  -4.9213     1598.7424   ✗       
+105   ADTNAPDLSLEGPEAK         -1.0000     NotChecked  -5.0332     1626.7737   ✗       
+106   ADTNAPDLSLEGPAEK         -1.0000     NotChecked  -5.1817     1626.7737   ✗       
+107   VDTNAPDLSLEGPGAK         -1.0000     NotChecked  -5.2057     1582.7839   ✗       
+108   ADTNAPDLSLEGPDGK         -1.0000     NotChecked  -5.2539     1598.7424   ✗       
+109   ADTNAPDLSLEGPGGK         -1.0000     NotChecked  -5.2743     1540.7369   ✗       
+110   VVTNAPDLSLEGPEGK         -1.0000     NotChecked  -5.5354     1624.8308   ✗       
+111   ADTNAPDLSLEGPGAK         -1.0000     NotChecked  -5.5689     1554.7526   ✗       
+112   ADTN+0.984APDLSLEGPEGK   -1.0000     NotChecked  -5.5865     1613.7421   ✗       
+113   VDTN+0.984APDLSLEGPGGK   -1.0000     NotChecked  -5.7591     1569.7522   ✗       
+114   AVTNAPDLSLEGPEGK         -1.0000     NotChecked  -5.8986     1596.7995   ✗       
+115   VDTNAPDLSLEGPAGK         -1.0000     NotChecked  -5.9270     1582.7839   ✗       
+116   VDTNAPDLSLEGPNGK         -1.0000     NotChecked  -5.9328     1625.7897   ✗       
+117   ADTNAPDLSLEGPADK         -1.0000     NotChecked  -5.9371     1612.7580   ✗       
+118   VVTNAPDLSLEGPGGK         -1.0000     NotChecked  -6.0711     1552.8097   ✗       
+119   VDTNAPDLSLEGPQGK         -1.0000     NotChecked  -6.0903     1639.8053   ✗       
+120   ADTN+0.984APDLSLEGPGGK   -1.0000     NotChecked  -6.1223     1541.7209   ✗       
+121   VDTNAPDLSLEGPAAK         -1.0000     NotChecked  -6.2216     1596.7995   ✗       
+122   VDTNAPDLSLEGPNAK         -1.0000     NotChecked  -6.2273     1639.8053   ✗       
+123   ADTNAPDLSLEGPAGK         -1.0000     NotChecked  -6.2902     1554.7526   ✗       
+124   ADTNAPDLSLEGPNGK         -1.0000     NotChecked  -6.2959     1597.7584   ✗       
+125   AVTNAPDLSLEGPGGK         -1.0000     NotChecked  -6.4343     1524.7784   ✗       
+126   ADTNAPDLSLEGPQGK         -1.0000     NotChecked  -6.4535     1611.7740   ✗       
+127   ADTNAPDLSLEGPAAK         -1.0000     NotChecked  -6.5847     1568.7682   ✗       
+128   ADTNAPDLSLEGPNAK         -1.0000     NotChecked  -6.5905     1611.7740   ✗       
+129   ADTNAPDLSLEGPGEK         -1.0000     NotChecked  -6.6775     1612.7580   ✗       
+130   ADTNAPDLSLEGPQAK         -1.0000     NotChecked  -6.7480     1625.7897   ✗       
+131   VDTN+0.984APDLSLEGPAGK   -1.0000     NotChecked  -6.7749     1583.7679   ✗       
+132   VDTN+0.984APDLSLEGPNGK   -1.0000     NotChecked  -6.7807     1626.7737   ✗       
+133   VDTNAPDLSLEGPGNK         -1.0000     NotChecked  -6.9172     1625.7897   ✗       
+134   VDTN+0.984APDLSLEGPQGK   -1.0000     Failed      -6.9382     1640.7893   ✓       
+135   VDTNAPDLSLEGPGDK         -1.0000     NotChecked  -7.0697     1626.7737   ✗       
+136   VVTNAPDLSLEGPAGK         -1.0000     NotChecked  -7.0870     1566.8253   ✗       
+137   VVTNAPDLSLEGPNGK         -1.0000     NotChecked  -7.0927     1609.8311   ✗       
+138   ADTN+0.984APDLSLEGPAGK   -1.0000     NotChecked  -7.1381     1555.7366   ✗       
+139   ADTN+0.984APDLSLEGPNGK   -1.0000     NotChecked  -7.1438     1598.7424   ✗       
+140   VVTNAPDLSLEGPQGK         -1.0000     NotChecked  -7.2503     1623.8468   ✗       
+141   ADTNAPDLSLEGPGNK         -1.0000     NotChecked  -7.2803     1597.7584   ✗       
+142   ADTN+0.984APDLSLEGPQGK   -1.0000     NotChecked  -7.3014     1612.7580   ✗       
+143   ADTNAPDLSLQ+0.984GPEGK   -1.0000     NotChecked  -7.3574     1612.7580   ✗       
+144   VDTNAPDLSLEGPDGK         -1.0000     NotChecked  -7.4024     1626.7737   ✗       
+145   ADTNAPDLSLEGPGDK         -1.0000     NotChecked  -7.4329     1598.7424   ✗       
+146   AVTNAPDLSLEGPAGK         -1.0000     NotChecked  -7.4501     1538.7940   ✗       
+147   AVTNAPDLSLEGPNGK         -1.0000     NotChecked  -7.4559     1581.7998   ✗       
+148   VVTNAPDLSLEGPGEK         -1.0000     NotChecked  -7.4743     1624.8308   ✗       
+149   ADTN+0.984APDLSLEGPGEK   -1.0000     NotChecked  -7.5254     1613.7421   ✗       
+150   VDTNAPDLSLQ+0.984GPGGK   -1.0000     NotChecked  -7.5300     1568.7682   ✗       
+151   ADTNAPDLSLEGPEGK         -1.0000     NotChecked  -7.5437     1612.7580   ✗       
+152   ADTNAPDLSLEGPEAK         -1.0000     NotChecked  -7.5448     1626.7737   ✗       
+153   AVTNAPDLSLEGPQGK         -1.0000     NotChecked  -7.6134     1595.8155   ✗       
+154   AN+0.984TNAPDLSLEGPEGK   -1.0000     NotChecked  -7.6376     1612.7580   ✗       
+155   ADTNAPDLSLEGPAEK         -1.0000     NotChecked  -7.6933     1626.7737   ✗       
+156   VDTNAPDLSLEGPN+0.984GK   -1.0000     NotChecked  -7.7125     1626.7737   ✗       
+157   VDTNAPDLSLEGPGGK         -1.0000     NotChecked  -7.7162     1568.7682   ✗       
+158   VDTNAPDLSLEGPGAK         -1.0000     NotChecked  -7.7173     1582.7839   ✗       
+159   ADTNAPDLSLEGPDGK         -1.0000     NotChecked  -7.7655     1598.7424   ✗       
+160   VN+0.984TNAPDLSLEGPGGK   -1.0000     NotChecked  -7.8101     1568.7682   ✗       
+161   AVTNAPDLSLEGPGEK         -1.0000     NotChecked  -7.8375     1596.7995   ✗       
+162   ADTNAPDLSLQ+0.984GPGGK   -1.0000     NotChecked  -7.8931     1540.7369   ✗       
+163   VDTNAPDLSLEGPSGK         -1.0000     NotChecked  -7.8960     1598.7788   ✗       
+164   VDTN+0.984APDLSLEGPGDK   -1.0000     NotChecked  -7.9176     1627.7577   ✗       
+165   VDTNAPDLSLEGPANK         -1.0000     NotChecked  -7.9330     1639.8053   ✗       
+166   VVTNAPDLSLEGPEGK         -1.0000     NotChecked  -8.0470     1624.8308   ✗       
+167   ADTNAPDLSLEGPDAK         -1.0000     NotChecked  -8.0601     1612.7580   ✗       
+168   ADTNAPDLSLEGPN+0.984GK   -1.0000     NotChecked  -8.0756     1598.7424   ✗       
+169   ADTNAPDLSLEGPGGK         -1.0000     NotChecked  -8.0794     1540.7369   ✗       
+170   ADTNAPDLSLEGPGAK         -1.0000     NotChecked  -8.0805     1554.7526   ✗       
+171   ADTN+0.984APDLSLEGPEGK   -1.0000     NotChecked  -8.0982     1613.7421   ✗       
+172   DDTNAPDLSLEGPGGK         -1.0000     NotChecked  -8.1665     1584.7267   ✗       
+173   AN+0.984TNAPDLSLEGPGGK   -1.0000     NotChecked  -8.1733     1540.7369   ✗       
+174   VVTNAPDLSLEGPGDK         -1.0000     NotChecked  -8.2297     1610.8152   ✗       
+175   VDTN+0.984APDLSLEGPDGK   -1.0000     NotChecked  -8.2503     1627.7577   ✗       
+176   VDTNAPDLSLEGPGQK         -1.0000     NotChecked  -8.2505     1639.8053   ✗       
+177   ADTNAPDLSLEGPSGK         -1.0000     NotChecked  -8.2592     1570.7475   ✗       
+178   VDTN+0.984APDLSLEGPGGK   -1.0000     NotChecked  -8.2707     1569.7522   ✗       
+179   ADTN+0.984APDLSLEGPGDK   -1.0000     NotChecked  -8.2808     1599.7264   ✗       
+180   ADTNAPDLSLEGPANK         -1.0000     NotChecked  -8.2961     1611.7740   ✗       
+181   VVTNAPDLSLEGPEAK         -1.0000     NotChecked  -8.3416     1638.8465   ✗       
+182   ADTNAPDLSLEGPQ+0.984GK   -1.0000     NotChecked  -8.3854     1612.7580   ✗       
+183   ADTN+0.984APDLSLEGPEAK   -1.0000     NotChecked  -8.3927     1627.7577   ✗       
+184   AVTNAPDLSLEGPEGK         -1.0000     NotChecked  -8.4102     1596.7995   ✗       
+185   VDTNAPDLSLEGPVGK         -1.0000     NotChecked  -8.4178     1610.8152   ✗       
+186   VDTNAPDLSLEGPGVK         -1.0000     NotChecked  -8.4389     1610.8152   ✗       
+187   ADTNAPDLSLEGPADK         -1.0000     NotChecked  -8.4487     1612.7580   ✗       
+188   VVTNAPDLSLEGPAEK         -1.0000     NotChecked  -8.4901     1638.8465   ✗       
+189   ADTN+0.984APDLSLEGPAEK   -1.0000     NotChecked  -8.5412     1627.7577   ✗       
+190   VDTNAPDLSLQ+0.984GPAGK   -1.0000     NotChecked  -8.5458     1582.7839   ✗       
+191   VDTNAPDLSLQ+0.984GPNGK   -1.0000     NotChecked  -8.5516     1625.7897   ✗       
+192   VVTNAPDLSLEGPDGK         -1.0000     NotChecked  -8.5623     1610.8152   ✗       
+193   VDTN+0.984APDLSLEGPGAK   -1.0000     NotChecked  -8.5652     1583.7679   ✗       
+194   VVTNAPDLSLEGPGGK         -1.0000     NotChecked  -8.5828     1552.8097   ✗       
+195   AVTNAPDLSLEGPGDK         -1.0000     NotChecked  -8.5928     1582.7839   ✗       
+196   ADTN+0.984APDLSLEGPDGK   -1.0000     NotChecked  -8.6134     1599.7264   ✗       
+197   ADTNAPDLSLEGPGQK         -1.0000     NotChecked  -8.6136     1611.7740   ✗       
+198   ADTN+0.984APDLSLEGPGGK   -1.0000     NotChecked  -8.6339     1541.7209   ✗       
+199   AVTNAPDLSLEGPEAK         -1.0000     NotChecked  -8.7048     1610.8152   ✗       
+200   VDTNAPDLSLQ+0.984GPQGK   -1.0000     NotChecked  -8.7091     1639.8053   ✗       
+201   VDTNAPDLSLEGPGN+0.984K   -1.0000     NotChecked  -8.7195     1626.7737   ✗       
+202   VDTNAPDLSLEGPAGK         -1.0000     NotChecked  -8.7321     1582.7839   ✗       
+203   VDTNAPDLSLEGPAAK         -1.0000     NotChecked  -8.7332     1596.7995   ✗       
+204   VDTNAPDLSLEGPNGK         -1.0000     NotChecked  -8.7378     1625.7897   ✗       
+205   VDTNAPDLSLEGPNAK         -1.0000     NotChecked  -8.7389     1639.8053   ✗       
+206   ADTNAPDLSLEGPVGK         -1.0000     NotChecked  -8.7810     1582.7839   ✗       
+207   ADTNAPDLSLEGPGVK         -1.0000     NotChecked  -8.8020     1582.7839   ✗       
+208   VDTNAPDLSLEGPGGK         -1.0000     NotChecked  -8.8227     1568.7682   ✗       
+209   VN+0.984TNAPDLSLEGPAGK   -1.0000     NotChecked  -8.8259     1582.7839   ✗       
+210   VN+0.984TNAPDLSLEGPNGK   -1.0000     NotChecked  -8.8317     1625.7897   ✗       
+211   AVTNAPDLSLEGPAEK         -1.0000     NotChecked  -8.8533     1610.8152   ✗       
+212   +43.006DTNAPDLSLEGPEGK   -1.0000     NotChecked  -8.8747     1584.7267   ✗       
+213   VVTNAPDLSLEGPGAK         -1.0000     NotChecked  -8.8773     1566.8253   ✗       
+214   VVTN+0.984APDLSLEGPEGK   -1.0000     NotChecked  -8.8950     1625.8148   ✗       
+215   VDTNAPDLSLEGPQGK         -1.0000     NotChecked  -8.8954     1639.8053   ✗       
+216   ADTNAPDLSLQ+0.984GPAGK   -1.0000     NotChecked  -8.9090     1554.7526   ✗       
+217   ADTNAPDLSLQ+0.984GPNGK   -1.0000     NotChecked  -8.9147     1597.7584   ✗       
+218   AVTNAPDLSLEGPDGK         -1.0000     NotChecked  -8.9255     1582.7839   ✗       
+219   ADTN+0.984APDLSLEGPGAK   -1.0000     NotChecked  -8.9284     1555.7366   ✗       
+220   AVTNAPDLSLEGPGGK         -1.0000     NotChecked  -8.9459     1524.7784   ✗       
+221   VN+0.984TNAPDLSLEGPQGK   -1.0000     NotChecked  -8.9892     1639.8053   ✗       
+222   ADTNAPDLSLQ+0.984GPQGK   -1.0000     NotChecked  -9.0723     1611.7740   ✗       
+223   ADTNAPDLSLEGPGN+0.984K   -1.0000     NotChecked  -9.0827     1598.7424   ✗       
+224   ADTNAPDLSLEGPAGK         -1.0000     NotChecked  -9.0952     1554.7526   ✗       
+225   ADTNAPDLSLEGPAAK         -1.0000     NotChecked  -9.0963     1568.7682   ✗       
+226   ADTNAPDLSLEGPNGK         -1.0000     NotChecked  -9.1010     1597.7584   ✗       
+227   ADTNAPDLSLEGPNAK         -1.0000     NotChecked  -9.1021     1611.7740   ✗       
+228   DDTNAPDLSLEGPAGK         -1.0000     NotChecked  -9.1823     1598.7424   ✗       
+229   AVDTNAPDLSLEGPGGK        -1.0000     NotChecked  -9.1858     1639.8053   ✗       
+230   AN+0.984TNAPDLSLEGPAGK   -1.0000     NotChecked  -9.1891     1554.7526   ✗       
+231   AN+0.984TNAPDLSLEGPNGK   -1.0000     NotChecked  -9.1949     1597.7584   ✗       
+232   AVTNAPDLSLEGPGAK         -1.0000     NotChecked  -9.2405     1538.7940   ✗       
+233   VVTNAPDLSLEGPADK         -1.0000     NotChecked  -9.2455     1624.8308   ✗       
+234   AVTN+0.984APDLSLEGPEGK   -1.0000     NotChecked  -9.2581     1597.7835   ✗       
+235   ADTNAPDLSLEGPQGK         -1.0000     NotChecked  -9.2585     1611.7740   ✗       
+236   ADTNAPDLSLEGPQAK         -1.0000     NotChecked  -9.2596     1625.7897   ✗       
+237   VDTN+0.984APDLSLEGPAGK   -1.0000     NotChecked  -9.2865     1583.7679   ✗       
+238   VDTN+0.984APDLSLEGPNGK   -1.0000     NotChecked  -9.2923     1626.7737   ✗       
+239   ADTNAPDLSLQ+0.984GPGEK   -1.0000     NotChecked  -9.2963     1612.7580   ✗       
+240   ADTN+0.984APDLSLEGPADK   -1.0000     NotChecked  -9.2966     1613.7421   ✗       
+241   ADTNAPDLSLEGPGQ+0.984K   -1.0000     NotChecked  -9.3359     1612.7580   ✗       
+242   AN+0.984TNAPDLSLEGPQGK   -1.0000     NotChecked  -9.3524     1611.7740   ✗       
+243   +43.006DTNAPDLSLEGPGGK   -1.0000     NotChecked  -9.4104     1512.7056   ✗       
+244   VDTNAPDLSLEGPGNK         -1.0000     NotChecked  -9.4288     1625.7897   ✗       
+245   VVTN+0.984APDLSLEGPGGK   -1.0000     NotChecked  -9.4307     1553.7937   ✗       
+246   VDTN+0.984APDLSLEGPQGK   -1.0000     Failed      -9.4498     1640.7893   ✓       
+247   VDTNAPDLSLEGPAVK         -1.0000     NotChecked  -9.4547     1624.8308   ✗       
+248   ADTNAPDLSLEGPGEK         -1.0000     NotChecked  -9.4826     1612.7580   ✗       
+249   AN+0.984TNAPDLSLEGPGEK   -1.0000     NotChecked  -9.5764     1612.7580   ✗       
+250   VDTN+0.984APDLSLEGPAAK   -1.0000     NotChecked  -9.5811     1597.7835   ✗       
+251   VVTNAPDLSLEGPAGK         -1.0000     NotChecked  -9.5986     1566.8253   ✗       
+252   VVTNAPDLSLEGPNGK         -1.0000     NotChecked  -9.6043     1609.8311   ✗       
+253   AVTNAPDLSLEGPADK         -1.0000     NotChecked  -9.6087     1596.7995   ✗       
+254   AVTNAPDLSLEGPNDK         -1.0000     NotChecked  -9.6144     1639.8053   ✗       
+255   ADTNAPDLSLEGPAQK         -1.0000     NotChecked  -9.6295     1625.7897   ✗       
+256   ADTN+0.984APDLSLEGPAGK   -1.0000     NotChecked  -9.6497     1555.7366   ✗       
+257   ADTN+0.984APDLSLEGPNGK   -1.0000     NotChecked  -9.6555     1598.7424   ✗       
+258   VDTNAPDLSLQ+0.984GPGDK   -1.0000     NotChecked  -9.6885     1626.7737   ✗       
+259   VVTNAPDLSLEGPQGK         -1.0000     NotChecked  -9.7619     1623.8468   ✗       
+260   ADTNAPDLSLEGPGNK         -1.0000     NotChecked  -9.7919     1597.7584   ✗       
+261   AVTN+0.984APDLSLEGPGGK   -1.0000     NotChecked  -9.7938     1525.7624   ✗       
+262   ADTN+0.984APDLSLEGPQGK   -1.0000     NotChecked  -9.8130     1612.7580   ✗       
+263   ADTNAPDLSLEGPAVK         -1.0000     NotChecked  -9.8179     1596.7995   ✗       
+264   ADTNAPDLSLEGPNVK         -1.0000     NotChecked  -9.8236     1639.8053   ✗       
+265   VDTNAPDLSLEGPAGK         -1.0000     NotChecked  -9.8385     1582.7839   ✗       
+266   VDTNAPDLSLEGPNGK         -1.0000     NotChecked  -9.8443     1625.7897   ✗       
+267   ADTNAPDLSLQ+0.984GPEGK   -1.0000     NotChecked  -9.8690     1612.7580   ✗       
+268   VDTNAPDLSLEGPGDK         -1.0000     NotChecked  -9.8748     1626.7737   ✗       
+269   VVTNAPDLSLEGPAAK         -1.0000     NotChecked  -9.8931     1580.8410   ✗       
+270   VVTNAPDLSLEGPNAK         -1.0000     NotChecked  -9.8989     1623.8468   ✗       
+271   ADTN+0.984APDLSLEGPAAK   -1.0000     NotChecked  -9.9442     1569.7522   ✗       
+272   ADTN+0.984APDLSLEGPNAK   -1.0000     NotChecked  -9.9500     1612.7580   ✗       
+273   GDTNAPDLSLEGPEGK         -1.0000     NotChecked  -9.9605     1598.7424   ✗       
+274   AVTNAPDLSLEGPAGK         -1.0000     NotChecked  -9.9617     1538.7940   ✗       
+275   AVTNAPDLSLEGPNGK         -1.0000     NotChecked  -9.9675     1581.7998   ✗       
+276   VN+0.984TNAPDLSLEGPGDK   -1.0000     NotChecked  -9.9686     1626.7737   ✗       
+277   VVTNAPDLSLEGPGEK         -1.0000     NotChecked  -9.9859     1624.8308   ✗       
+278   VDTNAPDLSLEGPQGK         -1.0000     NotChecked  -10.0018    1639.8053   ✗       
+279   VDTNAPDLSLQ+0.984GPDGK   -1.0000     NotChecked  -10.0211    1626.7737   ✗       
+280   AETNAPDLSLEGPEGK         -1.0000     NotChecked  -10.0319    1626.7737   ✗       
+281   ADTN+0.984APDLSLEGPGEK   -1.0000     NotChecked  -10.0370    1613.7421   ✗       
+282   VDTNAPDLSLQ+0.984GPGGK   -1.0000     NotChecked  -10.0416    1568.7682   ✗       
+283   ADTNAPDLSLQ+0.984GPGDK   -1.0000     NotChecked  -10.0516    1598.7424   ✗       
+284   ADTNAPDLSLEGPEGK         -1.0000     NotChecked  -10.0553    1612.7580   ✗       
+285   VVTNAPDLSLEGPQAK         -1.0000     NotChecked  -10.0564    1637.8624   ✗       
+286   ADTNAPDLSLEGPAN+0.984K   -1.0000     NotChecked  -10.0985    1612.7580   ✗       
+287   ADTN+0.984APDLSLEGPQAK   -1.0000     NotChecked  -10.1075    1626.7737   ✗       
+288   AVTNAPDLSLEGPQGK         -1.0000     NotChecked  -10.1250    1595.8155   ✗       
+289   AN+0.984TNAPDLSLEGPEGK   -1.0000     NotChecked  -10.1492    1612.7580   ✗       
+290   ADTNAPDLSLQ+0.984GPEAK   -1.0000     NotChecked  -10.1636    1626.7737   ✗       
+291   VETNAPDLSLEGPGGK         -1.0000     NotChecked  -10.2045    1582.7839   ✗       
+292   ADTNAPN+0.984LSLEGPEGK   -1.0000     NotChecked  -10.2053    1612.7580   ✗       
+293   VDTNAPDLSLEGPDGK         -1.0000     NotChecked  -10.2074    1626.7737   ✗       
+294   VDTNAPDLSLEGPN+0.984GK   -1.0000     NotChecked  -10.2241    1626.7737   ✗       
+295   VDTNAPDLSLEGPGGK         -1.0000     NotChecked  -10.2278    1568.7682   ✗       
+296   ADTNAPDLSLEGPGDK         -1.0000     NotChecked  -10.2379    1598.7424   ✗       
+297   AVTNAPDLSLEGPAAK         -1.0000     NotChecked  -10.2563    1552.8097   ✗       
+298   AVTNAPDLSLEGPNAK         -1.0000     NotChecked  -10.2621    1595.8155   ✗       
+299   VDTN+0.984APDLSLEGPGNK   -1.0000     NotChecked  -10.2767    1626.7737   ✗       
+300   VN+0.984TNAPDLSLEGPDGK   -1.0000     NotChecked  -10.3013    1626.7737   ✗       
+301   ADTNAPDLSLQ+0.984GPAEK   -1.0000     NotChecked  -10.3121    1626.7737   ✗       
+302   VN+0.984TNAPDLSLEGPGGK   -1.0000     NotChecked  -10.3217    1568.7682   ✗       
+303   AN+0.984TNAPDLSLEGPGDK   -1.0000     NotChecked  -10.3318    1598.7424   ✗       
+304   VDTNAPDLSLQ+0.984GPGAK   -1.0000     NotChecked  -10.3361    1582.7839   ✗       
+305   AVTNAPDLSLEGPGEK         -1.0000     NotChecked  -10.3491    1596.7995   ✗       
+306   ADTNAPDLSLEGPEAK         -1.0000     NotChecked  -10.3499    1626.7737   ✗       
+307   ADTNAPDLSLEGPAQ+0.984K   -1.0000     NotChecked  -10.3517    1626.7737   ✗       
+308   VDTNAPN+0.984LSLEGPGGK   -1.0000     NotChecked  -10.3778    1568.7682   ✗       
+309   ADTNAPDLSLQ+0.984GPDGK   -1.0000     NotChecked  -10.3843    1598.7424   ✗       
+310   VDTNAPDLSLEGGEGK         -1.0000     NotChecked  -10.3857    1600.7580   ✗       
+311   ADTDAPDLSLEGPEGK         -1.0000     NotChecked  -10.3987    1613.7421   ✗       
+312   ADTNAPDLSLQ+0.984GPGGK   -1.0000     NotChecked  -10.4047    1540.7369   ✗       
+313   VDTNAPDLSLEGPSGK         -1.0000     NotChecked  -10.4077    1598.7788   ✗       
+314   ADTNAPDLSLEGPSDK         -1.0000     NotChecked  -10.4177    1628.7530   ✗       
+315   AVTNAPDLSLEGPQAK         -1.0000     NotChecked  -10.4196    1609.8311   ✗       
+316   +43.006DTNAPDLSLEGPAGK   -1.0000     NotChecked  -10.4263    1526.7213   ✗       
+317   VDTN+0.984APDLSLEGPGDK   -1.0000     NotChecked  -10.4292    1627.7577   ✗       
+318   +43.006DTNAPDLSLEGPNGK   -1.0000     NotChecked  -10.4320    1569.7271   ✗       
+319   AN+0.984TNAPDLSLEGPEAK   -1.0000     NotChecked  -10.4437    1626.7737   ✗       
+320   VDTNAPDLSLEGPANK         -1.0000     NotChecked  -10.4446    1639.8053   ✗       
+321   VVTN+0.984APDLSLEGPAGK   -1.0000     NotChecked  -10.4465    1567.8093   ✗       
+322   VVTN+0.984APDLSLEGPNGK   -1.0000     NotChecked  -10.4523    1610.8152   ✗       
+323   GDTNAPDLSLEGPGGK         -1.0000     NotChecked  -10.4962    1526.7213   ✗       
+324   ADTNAPDLSLEGPAEK         -1.0000     NotChecked  -10.4984    1626.7737   ✗       
+325   ADTNAPDLSLEGPEGK         -1.0000     NotChecked  -10.5168    1612.7580   ✗       
+326   VDTNAPDLSLEGPGAK         -1.0000     NotChecked  -10.5224    1582.7839   ✗       
+327   LDTNAPDLSLEGPGGK         -1.0000     NotChecked  -10.5467    1582.7839   ✗       
+328   AETNAPDLSLEGPGGK         -1.0000     NotChecked  -10.5676    1554.7526   ✗       
+329   ADTNAPDLSLEGPDGK         -1.0000     NotChecked  -10.5706    1598.7424   ✗       
+330   VDTDAPDLSLEGPGGK         -1.0000     NotChecked  -10.5712    1569.7522   ✗       
+331   ADTNAPDLSLEGPDAK         -1.0000     NotChecked  -10.5717    1612.7580   ✗       
+332   ADTNAPDLSLEGPN+0.984GK   -1.0000     NotChecked  -10.5872    1598.7424   ✗       
+333   VVTNAPDLSLEGPGNK         -1.0000     NotChecked  -10.5887    1609.8311   ✗       
+334   +43.006DTNAPDLSLEGPQGK   -1.0000     NotChecked  -10.5896    1583.7427   ✗       
+335   ADTNAPDLSLEGPGGK         -1.0000     NotChecked  -10.5910    1540.7369   ✗       
+336   AN+0.984TNAPDLSLEGPAEK   -1.0000     NotChecked  -10.5922    1626.7737   ✗       
+337   VVTN+0.984APDLSLEGPQGK   -1.0000     NotChecked  -10.6098    1624.8308   ✗       
+338   VN+0.984TNAPDLSLEGPGAK   -1.0000     NotChecked  -10.6163    1582.7839   ✗       
+339   ADTN+0.984APDLSLEGPGNK   -1.0000     NotChecked  -10.6398    1598.7424   ✗       
+340   AN+0.984TNAPDLSLEGPDGK   -1.0000     NotChecked  -10.6644    1598.7424   ✗       
+341   VVTNAPDLSLQ+0.984GPEGK   -1.0000     NotChecked  -10.6658    1624.8308   ✗       
+342   DDTNAPDLSLEGPGGK         -1.0000     NotChecked  -10.6781    1584.7267   ✗       
+343   AN+0.984TNAPDLSLEGPGGK   -1.0000     NotChecked  -10.6849    1540.7369   ✗       
+344   ADTNAPDLSLEGPEGK         -1.0000     NotChecked  -10.6871    1612.7580   ✗       
+345   VDTNAPDLSLEGPGGK         -1.0000     NotChecked  -10.6893    1568.7682   ✗       
+346   ADTNAPDLSLQ+0.984GPGAK   -1.0000     NotChecked  -10.6993    1554.7526   ✗       
+347   VDTNAPDLSLEGPSAK         -1.0000     NotChecked  -10.7022    1612.7944   ✗       
+348   VDTNAPDLSLQ+0.984GPADK   -1.0000     Failed      -10.7043    1640.7893   ✓       
+349   ADTN+0.984APDLSLQ+0.984GPEGK-1.0000     NotChecked  -10.7169    1613.7421   ✗       
+350   ADTNAPN+0.984LSLEGPGGK   -1.0000     NotChecked  -10.7410    1540.7369   ✗       
+351   VVTNAPDLSLEGPGDK         -1.0000     NotChecked  -10.7413    1610.8152   ✗       
+352   ADTNAPDLSLEGGEGK         -1.0000     NotChecked  -10.7489    1572.7267   ✗       
+353   VDTN+0.984APDLSLEGPDGK   -1.0000     NotChecked  -10.7619    1627.7577   ✗       
+354   VDTNAPDLSLEGPGQK         -1.0000     NotChecked  -10.7621    1639.8053   ✗       
+355   VDTNAPDLSLEGPGSK         -1.0000     NotChecked  -10.7629    1598.7788   ✗       
+356   ADTNAPDLSLEGPSGK         -1.0000     NotChecked  -10.7708    1570.7475   ✗       
+357   ADTN+0.984APDLSLEGPGDK   -1.0000     NotChecked  -10.7924    1599.7264   ✗       
+358   ADTNAPDLSLEGPANK         -1.0000     NotChecked  -10.8078    1611.7740   ✗       
+359   AVTN+0.984APDLSLEGPAGK   -1.0000     NotChecked  -10.8097    1539.7780   ✗       
+360   VNTNAPDLSLEGPEGK         -1.0000     NotChecked  -10.8110    1639.8053   ✗       
+361   +43.006DTNAPDLSLEGPGEK   -1.0000     NotChecked  -10.8136    1584.7267   ✗       
+362   AVTN+0.984APDLSLEGPNGK   -1.0000     NotChecked  -10.8154    1582.7839   ✗       
+363   ADTNAPDLSLEGPEGK         -1.0000     NotChecked  -10.8178    1612.7580   ✗       
+364   VVTN+0.984APDLSLEGPGEK   -1.0000     NotChecked  -10.8338    1625.8148   ✗       
+365   VVTNAPDLSLEGPEGK         -1.0000     NotChecked  -10.8521    1624.8308   ✗       
+366   VVTNAPDLSLEGPEAK         -1.0000     NotChecked  -10.8532    1638.8465   ✗       
+367   VDTNAPDLSLEGPGGK         -1.0000     NotChecked  -10.8597    1568.7682   ✗       
+368   ADTNAPDLSLEGPN+0.984AK   -1.0000     NotChecked  -10.8818    1612.7580   ✗       
+369   ADTNAPDLSLEGPGAK         -1.0000     NotChecked  -10.8856    1554.7526   ✗       
+370   VDTN+0.984APDLSLQ+0.984GPGGK-1.0000     NotChecked  -10.8895    1569.7522   ✗       
+371   ADTNAPDLSLEGPQ+0.984GK   -1.0000     NotChecked  -10.8970    1612.7580   ✗       
+372   ADTN+0.984APDLSLEGPEGK   -1.0000     NotChecked  -10.9032    1613.7421   ✗       
+373   ADTN+0.984APDLSLEGPEAK   -1.0000     NotChecked  -10.9043    1627.7577   ✗       
+374   VDTNAPDLSLEGGGGK         -1.0000     NotChecked  -10.9214    1528.7369   ✗       
+375   VDTNAPDLSLEGPVGK         -1.0000     NotChecked  -10.9294    1610.8152   ✗       
+376   ADTDAPDLSLEGPGGK         -1.0000     NotChecked  -10.9344    1541.7209   ✗       
+377   VDTNAPDLSLEGPGVK         -1.0000     NotChecked  -10.9505    1610.8152   ✗       
+378   AVTNAPDLSLEGPGNK         -1.0000     NotChecked  -10.9519    1581.7998   ✗       
+379   DDTNAPDLSLEGPGAK         -1.0000     NotChecked  -10.9726    1598.7424   ✗       
+380   AVTN+0.984APDLSLEGPQGK   -1.0000     NotChecked  -10.9730    1596.7995   ✗       
+381   AN+0.984TNAPDLSLEGPGAK   -1.0000     NotChecked  -10.9794    1554.7526   ✗       
+382   VDTNAPDLSLEGPGDK         -1.0000     NotChecked  -10.9812    1626.7737   ✗       
+383   VDTNAPDLSLEGPGGK         -1.0000     NotChecked  -10.9903    1568.7682   ✗       
+384   AN+0.984TN+0.984APDLSLEGPEGK-1.0000     NotChecked  -10.9971    1613.7421   ✗       
+385   VVTNAPDLSLEGPAEK         -1.0000     NotChecked  -11.0017    1638.8465   ✗       
+386   AVTNAPDLSLQ+0.984GPEGK   -1.0000     NotChecked  -11.0290    1596.7995   ✗       
+387   ADTNAPDLSLEGPGGK         -1.0000     NotChecked  -11.0525    1540.7369   ✗       
+388   ADTN+0.984APDLSLEGPAEK   -1.0000     NotChecked  -11.0528    1627.7577   ✗       
+389   VDTNAPDLSLQ+0.984GPAGK   -1.0000     NotChecked  -11.0574    1582.7839   ✗       
+390   VDTNAPDLSLQ+0.984GPNGK   -1.0000     NotChecked  -11.0632    1625.7897   ✗       
+391   ADTNAPDLSLEGPSAK         -1.0000     NotChecked  -11.0654    1584.7631   ✗       
+392   ADTNAPDLSLQ+0.984GPADK   -1.0000     NotChecked  -11.0675    1612.7580   ✗       
+393   VDTN+0.984APDLSLEGPN+0.984GK-1.0000     NotChecked  -11.0720    1627.7577   ✗       
+394   VVTNAPDLSLEGPDGK         -1.0000     NotChecked  -11.0739    1610.8152   ✗       
+395   VDTN+0.984APDLSLEGPGGK   -1.0000     NotChecked  -11.0758    1569.7522   ✗       
+396   VDTN+0.984APDLSLEGPGAK   -1.0000     NotChecked  -11.0769    1583.7679   ✗       
+397   AVTNAPDLSLEGPGDK         -1.0000     NotChecked  -11.1044    1582.7839   ✗       
+398   ADTN+0.984APDLSLEGPDGK   -1.0000     NotChecked  -11.1250    1599.7264   ✗       
+399   ADTNAPDLSLEGPGQK         -1.0000     NotChecked  -11.1252    1611.7740   ✗       
+400   ADTNAPDLSLEGPGSK         -1.0000     NotChecked  -11.1261    1570.7475   ✗       
+401   VN+0.984TN+0.984APDLSLEGPGGK-1.0000     NotChecked  -11.1696    1569.7522   ✗       
+402   ANTNAPDLSLEGPEGK         -1.0000     NotChecked  -11.1741    1611.7740   ✗       
+403   N+0.984DTNAPDLSLEGPGGK   -1.0000     NotChecked  -11.1912    1584.7267   ✗       
+404   ADTNAPDLSLEGPQ+0.984AK   -1.0000     NotChecked  -11.1915    1626.7737   ✗       
+405   AVTN+0.984APDLSLEGPGEK   -1.0000     NotChecked  -11.1970    1597.7835   ✗       
+406   VVTNAPDLSLQ+0.984GPGGK   -1.0000     NotChecked  -11.2015    1552.8097   ✗       
+407   AVTNAPDLSLEGPEGK         -1.0000     NotChecked  -11.2153    1596.7995   ✗       
+408   AVTNAPDLSLEGPEAK         -1.0000     NotChecked  -11.2164    1610.8152   ✗       
+409   VETNAPDLSLEGPAGK         -1.0000     NotChecked  -11.2203    1596.7995   ✗       
+410   VDTNAPDLSLQ+0.984GPQGK   -1.0000     NotChecked  -11.2207    1639.8053   ✗       
+411   ADTNAPDLSLEGPGGK         -1.0000     NotChecked  -11.2228    1540.7369   ✗       
+412   VDTNAPDLSLEGPVAK         -1.0000     NotChecked  -11.2240    1624.8308   ✗       
+413   VETNAPDLSLEGPNGK         -1.0000     NotChecked  -11.2261    1639.8053   ✗       
+414   VDTNAPDLSLEGPGN+0.984K   -1.0000     NotChecked  -11.2311    1626.7737   ✗       
+415   VDTNAPDLSLEGPAGK         -1.0000     NotChecked  -11.2437    1582.7839   ✗       
+416   VDTNAPDLSLEGPNGK         -1.0000     NotChecked  -11.2494    1625.7897   ✗       
+417   ADTN+0.984APDLSLQ+0.984GPGGK-1.0000     NotChecked  -11.2526    1541.7209   ✗       
+418   ADTNAPDLSLEGPADK         -1.0000     NotChecked  -11.2538    1612.7580   ✗       
+419   VDTN+0.984APDLSLEGPSGK   -1.0000     NotChecked  -11.2556    1599.7628   ✗       
+420   ADTNAPDLSLEGGGGK         -1.0000     NotChecked  -11.2846    1500.7056   ✗       
+421   ADTNAPDLSLEGPVGK         -1.0000     NotChecked  -11.2926    1582.7839   ✗       
+422   ADTNAPDLSLEGPGVK         -1.0000     NotChecked  -11.3136    1582.7839   ✗       
+423   VDTNAPDLSLEGPDGK         -1.0000     NotChecked  -11.3138    1626.7737   ✗       
+424   VDTNAPDLSLEGPGGK         -1.0000     NotChecked  -11.3343    1568.7682   ✗       
+425   VN+0.984TNAPDLSLEGPAGK   -1.0000     NotChecked  -11.3375    1582.7839   ✗       
+426   VN+0.984TNAPDLSLEGPNGK   -1.0000     NotChecked  -11.3433    1625.7897   ✗       
+427   VNTNAPDLSLEGPGGK         -1.0000     NotChecked  -11.3467    1567.7842   ✗       
+428   AN+0.984TNAPDLSLEGPADK   -1.0000     NotChecked  -11.3476    1612.7580   ✗       
+429   VDTNAPDLSLQ+0.984GPAAK   -1.0000     NotChecked  -11.3520    1596.7995   ✗       
+430   ADTNAPDLSLEGPGGK         -1.0000     NotChecked  -11.3535    1540.7369   ✗       
+431   VDTNAPDLSLQ+0.984GPNAK   -1.0000     NotChecked  -11.3577    1639.8053   ✗       
+432   AVTNAPDLSLEGPAEK         -1.0000     NotChecked  -11.3649    1610.8152   ✗       
+433   VVTNAPDLSLEGPDAK         -1.0000     NotChecked  -11.3685    1624.8308   ✗       
+434   VVTNAPDLSLEGPN+0.984GK   -1.0000     NotChecked  -11.3840    1610.8152   ✗       
+435   +43.006DTNAPDLSLEGPEGK   -1.0000     NotChecked  -11.3863    1584.7267   ✗       
+436   VVTNAPDLSLEGPGGK         -1.0000     NotChecked  -11.3878    1552.8097   ✗       
+437   VVTNAPDLSLEGPGAK         -1.0000     NotChecked  -11.3889    1566.8253   ✗       
+438   VDTNAPN+0.984LSLEGPAGK   -1.0000     NotChecked  -11.3937    1582.7839   ✗       
+439   VDTNAPN+0.984LSLEGPNGK   -1.0000     NotChecked  -11.3994    1625.7897   ✗       
+440   VVTN+0.984APDLSLEGPEGK   -1.0000     NotChecked  -11.4066    1625.8148   ✗       
+441   VDTNAPDLSLEGPQGK         -1.0000     NotChecked  -11.4070    1639.8053   ✗       
+442   ADTN+0.984APDLSLEGPDAK   -1.0000     NotChecked  -11.4196    1613.7421   ✗       
+443   ADTNAPDLSLQ+0.984GPAGK   -1.0000     NotChecked  -11.4206    1554.7526   ✗       
+444   ADTNAPDLSLQ+0.984GPNGK   -1.0000     NotChecked  -11.4263    1597.7584   ✗       
+445   ADTN+0.984APDLSLEGPN+0.984GK-1.0000     NotChecked  -11.4351    1599.7264   ✗       
+446   AVTNAPDLSLEGPDGK         -1.0000     NotChecked  -11.4371    1582.7839   ✗       
+447   ADTN+0.984APDLSLEGPGGK   -1.0000     NotChecked  -11.4389    1541.7209   ✗       
+448   ADTN+0.984APDLSLEGPGAK   -1.0000     NotChecked  -11.4400    1555.7366   ✗       
+449   VN+0.984TNAPDLSLEGPQGK   -1.0000     NotChecked  -11.5008    1639.8053   ✗       
+450   GDTNAPDLSLEGPAGK         -1.0000     NotChecked  -11.5121    1540.7369   ✗       
+451   GDTNAPDLSLEGPNGK         -1.0000     NotChecked  -11.5178    1583.7427   ✗       
+452   DDTN+0.984APDLSLEGPGGK   -1.0000     NotChecked  -11.5260    1585.7108   ✗       
+453   AN+0.984TN+0.984APDLSLEGPGGK-1.0000     NotChecked  -11.5328    1541.7209   ✗       
+454   VDTNAPDLSLEGPAAK         -1.0000     NotChecked  -11.5382    1596.7995   ✗       
+455   VDTNAPDLSLEGPNAK         -1.0000     NotChecked  -11.5440    1639.8053   ✗       
+456   VDTNAPN+0.984LSLEGPQGK   -1.0000     NotChecked  -11.5570    1639.8053   ✗       
+457   LDTNAPDLSLEGPAGK         -1.0000     NotChecked  -11.5626    1596.7995   ✗       
+458   AVTNAPDLSLQ+0.984GPGGK   -1.0000     NotChecked  -11.5647    1524.7784   ✗       
+459   VVTNAPDLSLEGPSGK         -1.0000     NotChecked  -11.5676    1582.8202   ✗       
+460   LDTNAPDLSLEGPNGK         -1.0000     NotChecked  -11.5683    1639.8053   ✗       
+461   +43.006DTNAPDLSLEGPGDK   -1.0000     NotChecked  -11.5690    1570.7111   ✗       
+462   AETNAPDLSLEGPAGK         -1.0000     NotChecked  -11.5835    1568.7682   ✗       
+463   ADTNAPDLSLQ+0.984GPQGK   -1.0000     NotChecked  -11.5839    1611.7740   ✗       
+464   VDTDAPDLSLEGPAGK         -1.0000     NotChecked  -11.5870    1583.7679   ✗       
+465   ADTNAPDLSLEGPVAK         -1.0000     NotChecked  -11.5871    1596.7995   ✗       
+466   VVTN+0.984APDLSLEGPGDK   -1.0000     NotChecked  -11.5892    1611.7992   ✗       
+467   AETNAPDLSLEGPNGK         -1.0000     NotChecked  -11.5892    1611.7740   ✗       
+468   VDTDAPDLSLEGPNGK         -1.0000     NotChecked  -11.5928    1626.7737   ✗       
+469   ADTNAPDLSLEGPGN+0.984K   -1.0000     NotChecked  -11.5943    1598.7424   ✗       
+470   VVTNAPDLSLEGPANK         -1.0000     NotChecked  -11.6046    1623.8468   ✗       
+471   ADTNAPDLSLEGPAGK         -1.0000     NotChecked  -11.6068    1554.7526   ✗       
+472   VDTN+0.984APDLSLEGPGQK   -1.0000     Failed      -11.6100    1640.7893   ✓       
+473   ADTNAPDLSLEGPNGK         -1.0000     NotChecked  -11.6126    1597.7584   ✗       
+474   +42.011DTNAPDLSLEGPEGK   -1.0000     NotChecked  -11.6157    1583.7315   ✗       
+475   ADTN+0.984APDLSLEGPSGK   -1.0000     NotChecked  -11.6187    1571.7315   ✗       
+476   VDTNAPDLSLEGPGAK         -1.0000     NotChecked  -11.6288    1582.7839   ✗       
+477   VN+0.984TNAPDLSLEGPAAK   -1.0000     NotChecked  -11.6321    1596.7995   ✗       
+478   VN+0.984TNAPDLSLEGPNAK   -1.0000     NotChecked  -11.6378    1639.8053   ✗       
+479   ADTN+0.984APDLSLEGPANK   -1.0000     NotChecked  -11.6557    1612.7580   ✗       
+480   GDTNAPDLSLEGPQGK         -1.0000     NotChecked  -11.6754    1597.7584   ✗       
+481   +43.006DTNAPDLSLEGPEAK   -1.0000     NotChecked  -11.6809    1598.7424   ✗       
+482   ADTNAPDLSLEGPEGK         -1.0000     NotChecked  -11.6897    1612.7580   ✗       
+483   VVTNAPDLSLEGPQ+0.984GK   -1.0000     NotChecked  -11.6938    1624.8308   ✗       
+484   DDTNAPDLSLEGPAGK         -1.0000     NotChecked  -11.6939    1598.7424   ✗       
+485   AVDTNAPDLSLEGPGGK        -1.0000     NotChecked  -11.6974    1639.8053   ✗       
+486   AN+0.984TNAPDLSLEGPAGK   -1.0000     NotChecked  -11.7007    1554.7526   ✗       
+487   VVTN+0.984APDLSLEGPEAK   -1.0000     NotChecked  -11.7011    1639.8305   ✗       
+488   VDTNAPDLSLEGPAGK         -1.0000     NotChecked  -11.7051    1582.7839   ✗       
+489   AN+0.984TNAPDLSLEGPNGK   -1.0000     NotChecked  -11.7065    1597.7584   ✗       
+490   ANTNAPDLSLEGPGGK         -1.0000     NotChecked  -11.7098    1539.7529   ✗       
+491   VDTNAPDLSLEGPNGK         -1.0000     NotChecked  -11.7109    1625.7897   ✗       
+492   ADTNAPDLSLQ+0.984GPAAK   -1.0000     NotChecked  -11.7151    1568.7682   ✗       
+493   ADTNAPDLSLQ+0.984GPNAK   -1.0000     NotChecked  -11.7209    1611.7740   ✗       
+494   VDTNAPDLSLEGEGK          -1.0000     NotChecked  -11.7231    1543.7366   ✗       
+495   AVTNAPDLSLEGPDAK         -1.0000     NotChecked  -11.7316    1596.7995   ✗       
+496   ADTN+0.984APDLSLEGPQ+0.984GK-1.0000     NotChecked  -11.7449    1613.7421   ✗       
+497   AETNAPDLSLEGPQGK         -1.0000     NotChecked  -11.7468    1625.7897   ✗       
+498   AVTNAPDLSLEGPN+0.984GK   -1.0000     NotChecked  -11.7472    1582.7839   ✗       
+499   AVTNAPDLSLEGPGGK         -1.0000     NotChecked  -11.7510    1524.7784   ✗       
+500   AVTNAPDLSLEGPGAK         -1.0000     NotChecked  -11.7521    1538.7940   ✗       
+501   ADTNAPDLSLEGPEGK         -1.0000     NotChecked  -11.7561    1612.7580   ✗       
+502   ADTNAPN+0.984LSLEGPAGK   -1.0000     NotChecked  -11.7568    1554.7526   ✗       
+503   VVTNAPDLSLEGPADK         -1.0000     NotChecked  -11.7571    1624.8308   ✗       
+504   ADTNAPN+0.984LSLEGPNGK   -1.0000     NotChecked  -11.7626    1597.7584   ✗       
+505   AVTN+0.984APDLSLEGPEGK   -1.0000     NotChecked  -11.7697    1597.7835   ✗       
+506   ADTNAPDLSLEGPQGK         -1.0000     NotChecked  -11.7701    1611.7740   ✗       
+507   VDTN+0.984APDLSLEGPVGK   -1.0000     NotChecked  -11.7773    1611.7992   ✗       
+508   VDTNAPDLSLEGPASK         -1.0000     NotChecked  -11.7788    1612.7944   ✗       
+509   VDTN+0.984APDLSLEGPGVK   -1.0000     NotChecked  -11.7984    1611.7992   ✗       
+510   ADTNAPDLSLQ+0.984GPGEK   -1.0000     NotChecked  -11.8079    1612.7580   ✗       
+511   ADTN+0.984APDLSLEGPADK   -1.0000     NotChecked  -11.8082    1613.7421   ✗       
+512   VDTNAPDLSLEGPEGV         -1.0000     NotChecked  -11.8124    1611.7628   ✗       
+513   +43.006DTNAPDLSLEGPAEK   -1.0000     NotChecked  -11.8294    1598.7424   ✗       
+514   DVTNAPDLSLEGPGGK         -1.0000     NotChecked  -11.8380    1568.7682   ✗       
+515   ADTNAPDLSLEGPGQ+0.984K   -1.0000     NotChecked  -11.8475    1612.7580   ✗       
+516   VVTN+0.984APDLSLEGPAEK   -1.0000     NotChecked  -11.8496    1639.8305   ✗       
+517   VDTNAPDLSLEGPGK          -1.0000     NotChecked  -11.8623    1511.7467   ✗       
+518   AN+0.984TNAPDLSLEGPQGK   -1.0000     NotChecked  -11.8640    1611.7740   ✗       
+519   VDTNAPDLSLEGPQGK         -1.0000     NotChecked  -11.8684    1639.8053   ✗       
+520   VDTNAPDLSLEGPAGK         -1.0000     NotChecked  -11.8755    1582.7839   ✗       
+521   EDTNAPDLSLEGPGGK         -1.0000     NotChecked  -11.8766    1598.7424   ✗       
+522   ADTNAPDLSLQ+0.984GPQAK   -1.0000     NotChecked  -11.8784    1625.7897   ✗       
+523   VDTNAPDLSLEGPNGK         -1.0000     NotChecked  -11.8812    1625.7897   ✗       
+524   VDTNAPDLSLEGPEG          -1.0000     NotChecked  -11.8942    1512.6944   ✗       
+525   GDTNAPDLSLEGPGEK         -1.0000     NotChecked  -11.8994    1598.7424   ✗       
+526   ADTNAPDLSLEGPAAK         -1.0000     NotChecked  -11.9014    1568.7682   ✗       
+527   +43.006DTNAPDLSLEGPDGK   -1.0000     NotChecked  -11.9016    1570.7111   ✗       
+528   VDTN+0.984APDLSLQ+0.984GPAGK-1.0000     NotChecked  -11.9053    1583.7679   ✗       
+529   ADTNAPDLSLEGPNAK         -1.0000     NotChecked  -11.9072    1611.7740   ✗       
+530   VDTN+0.984APDLSLQ+0.984GPNGK-1.0000     NotChecked  -11.9111    1626.7737   ✗       
+531   ADTNAPN+0.984LSLEGPQGK   -1.0000     NotChecked  -11.9201    1611.7740   ✗       
+532   VVTN+0.984APDLSLEGPDGK   -1.0000     NotChecked  -11.9218    1611.7992   ✗       
+533   VVTNAPDLSLEGPGQK         -1.0000     NotChecked  -11.9220    1623.8468   ✗       
+534   +43.006DTNAPDLSLEGPGGK   -1.0000     NotChecked  -11.9220    1512.7056   ✗       
+535   VDTNAPDLSLEGPGGK         -1.0000     NotChecked  -11.9286    1568.7682   ✗       
+536   AVTNAPDLSLEGPSGK         -1.0000     NotChecked  -11.9308    1554.7889   ✗       
+537   VDTNAPDLSLEGGAGK         -1.0000     NotChecked  -11.9373    1542.7526   ✗       
+538   AVTNAPDLSLEGPEVK         -1.0000     NotChecked  -11.9379    1638.8465   ✗       
+539   VVTN+0.984APDLSLEGPGGK   -1.0000     NotChecked  -11.9423    1553.7937   ✗       
+540   VDTNAPDLSLEGGNGK         -1.0000     NotChecked  -11.9430    1585.7584   ✗       
+541   ADTDAPDLSLEGPAGK         -1.0000     NotChecked  -11.9502    1555.7366   ✗       
+542   AVTN+0.984APDLSLEGPGDK   -1.0000     NotChecked  -11.9523    1583.7679   ✗       
+543   ADTDAPDLSLEGPNGK         -1.0000     NotChecked  -11.9560    1598.7424   ✗       
+544   VTNAPDLSLEGPEGK          -1.0000     NotChecked  -11.9585    1525.7624   ✗       
+545   VDTNAPDLSLEGPAVK         -1.0000     NotChecked  -11.9663    1624.8308   ✗       
+546   AVTNAPDLSLEGPANK         -1.0000     NotChecked  -11.9677    1595.8155   ✗       
+547   AETNAPDLSLEGPGEK         -1.0000     NotChecked  -11.9708    1626.7737   ✗       
+548   ADTN+0.984APDLSLEGPGQK   -1.0000     NotChecked  -11.9732    1612.7580   ✗       
+549   AVTNAPDLSLEGPNNK         -1.0000     NotChecked  -11.9735    1638.8213   ✗       
+550   SDTNAPDLSLEGPEGK         -1.0000     NotChecked  -11.9813    1628.7530   ✗       
+551   DDTNAPDLSLEGPAAK         -1.0000     NotChecked  -11.9884    1612.7580   ✗       
+552   ADTNAPDLSLEGPGEK         -1.0000     NotChecked  -11.9942    1612.7580   ✗       
+553   AN+0.984TNAPDLSLEGPAAK   -1.0000     NotChecked  -11.9952    1568.7682   ✗       
+554   AN+0.984TNAPDLSLEGPNAK   -1.0000     NotChecked  -12.0010    1611.7740   ✗       
+555   VDTNAPDLSLEGPAGK         -1.0000     NotChecked  -12.0062    1582.7839   ✗       
+556   VDTNAPDLSLEGPNGK         -1.0000     NotChecked  -12.0119    1625.7897   ✗       
+557   VDTNAPDLSLEGPQGK         -1.0000     NotChecked  -12.0388    1639.8053   ✗       
+558   VDTNAPDLSLQ+0.984GPGNK   -1.0000     NotChecked  -12.0475    1625.7897   ✗       
+559   AVTNAPDLSLEGPQ+0.984GK   -1.0000     NotChecked  -12.0569    1596.7995   ✗       
+560   AVTN+0.984APDLSLEGPEAK   -1.0000     NotChecked  -12.0643    1611.7992   ✗       
+561   ADTNAPDLSLEGPQAK         -1.0000     NotChecked  -12.0647    1625.7897   ✗       
+562   ADTNAPDLSLEGPAGK         -1.0000     NotChecked  -12.0683    1554.7526   ✗       
+563   ADTNAPDLSLEGPNGK         -1.0000     NotChecked  -12.0740    1597.7584   ✗       
+564   VDTN+0.984APDLSLEGPGN+0.984K-1.0000     NotChecked  -12.0790    1627.7577   ✗       
+565   ADTNAPDLSLEGEGK          -1.0000     NotChecked  -12.0862    1515.7053   ✗       
+566   AN+0.984TNAPDLSLEGPGEK   -1.0000     NotChecked  -12.0880    1612.7580   ✗       
+567   VVTNAPDLSLEGPVGK         -1.0000     NotChecked  -12.0894    1594.8566   ✗       
+568   VDTN+0.984APDLSLEGPAGK   -1.0000     NotChecked  -12.0916    1583.7679   ✗       
+569   VDTN+0.984APDLSLEGPAAK   -1.0000     NotChecked  -12.0927    1597.7835   ✗       
+570   VDTN+0.984APDLSLEGPNGK   -1.0000     NotChecked  -12.0973    1626.7737   ✗       
+571   VDTNAPDLSLEGGQGK         -1.0000     NotChecked  -12.1005    1599.7740   ✗       
+572   VVTNAPDLSLEGPGVK         -1.0000     NotChecked  -12.1104    1594.8566   ✗       
+573   ADTDAPDLSLEGPQGK         -1.0000     NotChecked  -12.1135    1612.7580   ✗       
+574   AVTNAPDLSLEGPADK         -1.0000     NotChecked  -12.1203    1596.7995   ✗       
+575   AVTNAPDLSLEGPNDK         -1.0000     NotChecked  -12.1260    1639.8053   ✗       
+576   ADTN+0.984APDLSLEGPVGK   -1.0000     NotChecked  -12.1405    1583.7679   ✗       
+577   ADTNAPDLSLEGPAQK         -1.0000     NotChecked  -12.1411    1625.7897   ✗       
+578   ADTNAPDLSLEGPASK         -1.0000     NotChecked  -12.1419    1584.7631   ✗       
+579   ADTNAPN+0.984LSLEGPGEK   -1.0000     NotChecked  -12.1441    1612.7580   ✗       
+580   ADTNAPDLSLEGPNSK         -1.0000     NotChecked  -12.1477    1627.7689   ✗       
+581   +42.011DTNAPDLSLEGPGGK   -1.0000     NotChecked  -12.1514    1511.7104   ✗       
+582   AN+0.984TNAPDLSLEGPQAK   -1.0000     NotChecked  -12.1585    1625.7897   ✗       
+583   ADTN+0.984APDLSLEGPGVK   -1.0000     NotChecked  -12.1615    1583.7679   ✗       
+584   VDTNAPDLSLEGPQGK         -1.0000     NotChecked  -12.1695    1639.8053   ✗       
+585   ADTNAPDLSLEGPEGV         -1.0000     NotChecked  -12.1756    1583.7315   ✗       
+586   VDTN+0.984APDLSLEGPGGK   -1.0000     NotChecked  -12.1822    1569.7522   ✗       
+587   VN+0.984TN+0.984APDLSLEGPAGK-1.0000     NotChecked  -12.1854    1583.7679   ✗       
+588   VN+0.984TN+0.984APDLSLEGPNGK-1.0000     NotChecked  -12.1912    1626.7737   ✗       
+589   VDTNAPDLSLQ+0.984GPGDK   -1.0000     NotChecked  -12.2001    1626.7737   ✗       
+590   N+0.984DTNAPDLSLEGPAGK   -1.0000     NotChecked  -12.2070    1598.7424   ✗       
+591   AVTN+0.984APDLSLEGPAEK   -1.0000     NotChecked  -12.2128    1611.7992   ✗       
+592   +43.006DTNAPDLSLEGPGAK   -1.0000     NotChecked  -12.2166    1526.7213   ✗       
+593   VVTNAPDLSLQ+0.984GPAGK   -1.0000     NotChecked  -12.2174    1566.8253   ✗       
+594   VVTNAPDLSLQ+0.984GPNGK   -1.0000     NotChecked  -12.2231    1609.8311   ✗       
+595   ADTNAPDLSLEGPGK          -1.0000     NotChecked  -12.2254    1483.7154   ✗       
+596   ADTNAPDLSLEGPQGK         -1.0000     NotChecked  -12.2316    1611.7740   ✗       
+597   VDTNAPDLSLEGPGNK         -1.0000     NotChecked  -12.2338    1625.7897   ✗       
+598   +43.006DTN+0.984APDLSLEGPEGK-1.0000     NotChecked  -12.2343    1585.7108   ✗       
+599   VVTN+0.984APDLSLEGPGAK   -1.0000     NotChecked  -12.2368    1567.8093   ✗       
+600   ADTNAPDLSLEGPAGK         -1.0000     NotChecked  -12.2386    1554.7526   ✗       
+601   ADTNAPDLSLEGPNGK         -1.0000     NotChecked  -12.2444    1597.7584   ✗       
+602   VDTN+0.984APDLSLEGPQGK   -1.0000     Failed      -12.2549    1640.7893   ✓       
+603   ADTNAPDLSLEGPEG          -1.0000     NotChecked  -12.2573    1484.6631   ✗       
+604   VDTNAPDLSLEGGGK          -1.0000     NotChecked  -12.2588    1471.7154   ✗       
+605   ADTN+0.984APDLSLQ+0.984GPAGK-1.0000     NotChecked  -12.2685    1555.7366   ✗       
+606   ADTN+0.984APDLSLQ+0.984GPNGK-1.0000     NotChecked  -12.2742    1598.7424   ✗       
+607   AVTN+0.984APDLSLEGPDGK   -1.0000     NotChecked  -12.2850    1583.7679   ✗       
+608   AVTNAPDLSLEGPGQK         -1.0000     NotChecked  -12.2852    1595.8155   ✗       
+609   ADTNAPDLSLEGPGGK         -1.0000     NotChecked  -12.2918    1540.7369   ✗       
+610   ADTNAPDLSLEGGAGK         -1.0000     NotChecked  -12.3004    1514.7213   ✗       
+611   AVTN+0.984APDLSLEGPGGK   -1.0000     NotChecked  -12.3054    1525.7624   ✗       
+612   ADTNAPDLSLEGGNGK         -1.0000     NotChecked  -12.3062    1557.7271   ✗       
+613   AVTNAPDLSLEGPEGK         -1.0000     NotChecked  -12.3217    1596.7995   ✗       
+614   VDTNAPDLSLEGGGEK         -1.0000     NotChecked  -12.3246    1600.7580   ✗       
+615   VN+0.984TNAPDLSLEGPGNK   -1.0000     NotChecked  -12.3277    1625.7897   ✗       
+616   ADTNAPDLSLEGPAVK         -1.0000     NotChecked  -12.3295    1596.7995   ✗       
+617   ADTNAPDLSLEGPNVK         -1.0000     NotChecked  -12.3352    1639.8053   ✗       
+618   ADTDAPDLSLEGPGEK         -1.0000     NotChecked  -12.3375    1613.7421   ✗       
+619   VDTNAPDLSLEGPGGV         -1.0000     NotChecked  -12.3481    1539.7417   ✗       
+620   VDTNAPDLSLEGPAGK         -1.0000     NotChecked  -12.3501    1582.7839   ✗       
+621   VDTNAPDLSLEGPNGK         -1.0000     NotChecked  -12.3559    1625.7897   ✗       
+622   VNTNAPDLSLEGPAGK         -1.0000     NotChecked  -12.3625    1581.7998   ✗       
+623   VNTNAPDLSLEGPNGK         -1.0000     NotChecked  -12.3683    1624.8057   ✗       
+624   ADTNAPDLSLEGPAGK         -1.0000     NotChecked  -12.3693    1554.7526   ✗       
+625   ADTNAPDLSLEGPNGK         -1.0000     NotChecked  -12.3751    1597.7584   ✗       
+626   VVTNAPDLSLQ+0.984GPQGK   -1.0000     NotChecked  -12.3807    1623.8468   ✗       
+627   VDTNAPDLSLEGPGDK         -1.0000     NotChecked  -12.3864    1626.7737   ✗       
+628   VVTNAPDLSLEGPGN+0.984K   -1.0000     NotChecked  -12.3911    1610.8152   ✗       
+629   ADTNAPDLSLEGPQGK         -1.0000     NotChecked  -12.4019    1611.7740   ✗       
+630   VVTNAPDLSLEGPAGK         -1.0000     NotChecked  -12.4036    1566.8253   ✗       
+631   VVTNAPDLSLEGPAAK         -1.0000     NotChecked  -12.4047    1580.8410   ✗       
+632   VVTNAPDLSLEGPNGK         -1.0000     NotChecked  -12.4094    1609.8311   ✗       
+633   VVTNAPDLSLEGPNAK         -1.0000     NotChecked  -12.4105    1623.8468   ✗       
+634   ADTNAPDLSLQ+0.984GPGNK   -1.0000     NotChecked  -12.4107    1597.7584   ✗       
+635   VDTNAPDLSLEGPGG          -1.0000     NotChecked  -12.4299    1440.6732   ✗       
+636   ADTN+0.984APDLSLQ+0.984GPQGK-1.0000     NotChecked  -12.4318    1612.7580   ✗       
+637   ADTN+0.984APDLSLEGPGN+0.984K-1.0000     NotChecked  -12.4422    1599.7264   ✗       
+638   VDTNAPDLSLEGPEGA         -1.0000     NotChecked  -12.4445    1583.7315   ✗       
+639   AVTNAPDLSLEGPVGK         -1.0000     NotChecked  -12.4525    1566.8253   ✗       
+640   ADTN+0.984APDLSLEGPAGK   -1.0000     NotChecked  -12.4548    1555.7366   ✗       
+641   ADTNAPDLSLEGPGEK         -1.0000     NotChecked  -12.4556    1612.7580   ✗       
+642   ADTN+0.984APDLSLEGPAAK   -1.0000     NotChecked  -12.4559    1569.7522   ✗       
+643   ADTN+0.984APDLSLEGPNGK   -1.0000     NotChecked  -12.4605    1598.7424   ✗       
+644   ADTN+0.984APDLSLEGPNAK   -1.0000     NotChecked  -12.4616    1612.7580   ✗       
+645   ADTNAPDLSLEGGQGK         -1.0000     NotChecked  -12.4637    1571.7427   ✗       
+646   GDTNAPDLSLEGPEGK         -1.0000     NotChecked  -12.4721    1598.7424   ✗       
+647   AVTNAPDLSLEGPGVK         -1.0000     NotChecked  -12.4736    1566.8253   ✗       
+648   VN+0.984TNAPDLSLEGPGDK   -1.0000     NotChecked  -12.4802    1626.7737   ✗       
+649   VTNAPDLSLEGPGGK          -1.0000     NotChecked  -12.4942    1453.7413   ✗       
+650   VDTNAPDLSLEGPGGR         -1.0000     NotChecked  -12.5066    1596.7744   ✗       
+651   VDTNAPDLSLEGPQGK         -1.0000     NotChecked  -12.5134    1639.8053   ✗       
+652   SDTNAPDLSLEGPGGK         -1.0000     NotChecked  -12.5170    1556.7318   ✗       
+653   VNTNAPDLSLEGPQGK         -1.0000     NotChecked  -12.5258    1638.8213   ✗       
+654   ADTNAPDLSLEGPQGK         -1.0000     NotChecked  -12.5326    1611.7740   ✗       
+655   VDTNAPDLSLQ+0.984GPDGK   -1.0000     NotChecked  -12.5327    1626.7737   ✗       
+656   VDTNAPN+0.984LSLEGPGDK   -1.0000     NotChecked  -12.5363    1626.7737   ✗       
+657   DDTN+0.984APDLSLEGPAGK   -1.0000     NotChecked  -12.5418    1599.7264   ✗       
+658   AETNAPDLSLEGPEGK         -1.0000     NotChecked  -12.5435    1626.7737   ✗       
+659   +43.006VTNAPDLSLEGPEGK   -1.0000     NotChecked  -12.5463    1568.7682   ✗       
+660   AN+0.984TN+0.984APDLSLEGPAGK-1.0000     NotChecked  -12.5486    1555.7366   ✗       
+661   VDTNAPDLSLEGPEGN         -1.0000     NotChecked  -12.5514    1626.7373   ✗       
+662   AN+0.984TN+0.984APDLSLEGPNGK-1.0000     NotChecked  -12.5544    1598.7424   ✗       
+663   ADTNAPDLSLQ+0.984GPGDK   -1.0000     NotChecked  -12.5633    1598.7424   ✗       
+664   VVTNAPDLSLEGPQGK         -1.0000     NotChecked  -12.5669    1623.8468   ✗       
+665   VVTNAPDLSLEGPQAK         -1.0000     NotChecked  -12.5680    1637.8624   ✗       
+666   AVTNAPDLSLQ+0.984GPAGK   -1.0000     NotChecked  -12.5805    1538.7940   ✗       
+667   +43.006DTNAPDLSLEGPADK   -1.0000     NotChecked  -12.5848    1584.7267   ✗       
+668   AVTNAPDLSLQ+0.984GPNGK   -1.0000     NotChecked  -12.5863    1581.7998   ✗       
+669   +43.006DTNAPDLSLEGPNDK   -1.0000     NotChecked  -12.5906    1627.7326   ✗       
+670   ADTNAPDLSLEGPEGK         -1.0000     NotChecked  -12.5915    1612.7580   ✗       
+671   ADTNAPDLSLEGPGNK         -1.0000     NotChecked  -12.5970    1597.7584   ✗       
+672   AVTN+0.984APDLSLEGPGAK   -1.0000     NotChecked  -12.6000    1539.7780   ✗       
+673   VVTNAPDLSLQ+0.984GPGEK   -1.0000     NotChecked  -12.6047    1624.8308   ✗       
+674   VVTN+0.984APDLSLEGPADK   -1.0000     NotChecked  -12.6050    1625.8148   ✗       
+675   ADTNAPDLSLEGPAN+0.984K   -1.0000     NotChecked  -12.6101    1612.7580   ✗       
+676   ADTN+0.984APDLSLEGPQGK   -1.0000     NotChecked  -12.6181    1612.7580   ✗       
+677   ADTN+0.984APDLSLEGPQAK   -1.0000     NotChecked  -12.6192    1626.7737   ✗       
+678   ADTNAPDLSLEGGGK          -1.0000     NotChecked  -12.6219    1443.6841   ✗       
+679   ADTNAPDLSLEGPGEK         -1.0000     NotChecked  -12.6260    1612.7580   ✗       
+680   VVTNAPDLSLEGPGQ+0.984K   -1.0000     NotChecked  -12.6443    1624.8308   ✗       
+681   VDTNAPDLSLEGPAAK         -1.0000     NotChecked  -12.6447    1596.7995   ✗       
+682   VDTNAPDLSLEGPNAK         -1.0000     NotChecked  -12.6504    1639.8053   ✗       
+683   GDTNAPDLSLEGPGDK         -1.0000     NotChecked  -12.6548    1584.7267   ✗       
+684   ADTN+0.984APDLSLQ+0.984GPGEK-1.0000     NotChecked  -12.6558    1613.7421   ✗       
+685   VDTNAPDLSLEPEGK          -1.0000     NotChecked  -12.6652    1583.7679   ✗       
+686   ADTNAPDLSLQ+0.984GPEGK   -1.0000     NotChecked  -12.6741    1612.7580   ✗       
+687   ADTNAPDLSLQ+0.984GPEAK   -1.0000     NotChecked  -12.6752    1626.7737   ✗       
+688   ADTNAPDLSLEGGGEK         -1.0000     NotChecked  -12.6877    1572.7267   ✗       
+689   AN+0.984TNAPDLSLEGPGNK   -1.0000     NotChecked  -12.6908    1597.7584   ✗       
+690   ADTN+0.984APDLSLEGPGQ+0.984K-1.0000     NotChecked  -12.6954    1613.7421   ✗       
+691   ADTNAPDLSLEGPGGV         -1.0000     NotChecked  -12.7113    1511.7104   ✗       
+692   AN+0.984TN+0.984APDLSLEGPQGK-1.0000     NotChecked  -12.7119    1612.7580   ✗       
+693   VETNAPDLSLEGPGGK         -1.0000     NotChecked  -12.7161    1582.7839   ✗       
+694   ADTNAPN+0.984LSLEGPEGK   -1.0000     NotChecked  -12.7169    1612.7580   ✗       
+695   VDTNAPDLSLEGPDGK         -1.0000     NotChecked  -12.7190    1626.7737   ✗       
+696   ANTNAPDLSLEGPAGK         -1.0000     NotChecked  -12.7257    1553.7685   ✗       
+697   AETNAPDLSLEGPGDK         -1.0000     NotChecked  -12.7261    1612.7580   ✗       
+698   VDTDAPDLSLEGPGDK         -1.0000     NotChecked  -12.7297    1627.7577   ✗       
+699   ANTNAPDLSLEGPNGK         -1.0000     NotChecked  -12.7314    1596.7744   ✗       
+700   AVTNAPDLSLQ+0.984GPQGK   -1.0000     NotChecked  -12.7438    1595.8155   ✗       
+701   ADTNAPDLSLEGPGDK         -1.0000     NotChecked  -12.7495    1598.7424   ✗       
+702   VNTNAPDLSLEGPGEK         -1.0000     NotChecked  -12.7498    1639.8053   ✗       
+703   AVTNAPDLSLEGPGN+0.984K   -1.0000     NotChecked  -12.7542    1582.7839   ✗       
+704   ADTNAPDLSLEGPGEK         -1.0000     NotChecked  -12.7566    1612.7580   ✗       
+705   VDTNAPDLSLEGPGGK         -1.0000     NotChecked  -12.7641    1568.7682   ✗       
+706   GDTNAPDLSLEGPEAK         -1.0000     NotChecked  -12.7667    1612.7580   ✗       
+707   AVTNAPDLSLEGPAGK         -1.0000     NotChecked  -12.7668    1538.7940   ✗       
+708   AVTNAPDLSLEGPAAK         -1.0000     NotChecked  -12.7679    1552.8097   ✗       
+709   AN+0.984TNAPDLSLQ+0.984GPEGK-1.0000     NotChecked  -12.7679    1612.7580   ✗       
+710   +43.006DTN+0.984APDLSLEGPGGK-1.0000     NotChecked  -12.7700    1513.6896   ✗       
+711   AVTNAPDLSLEGPNGK         -1.0000     NotChecked  -12.7726    1581.7998   ✗       
+712   AVTNAPDLSLEGPNAK         -1.0000     NotChecked  -12.7737    1595.8155   ✗       
+713   ADTNAPDLSLEGPSNK         -1.0000     NotChecked  -12.7768    1627.7689   ✗       
+714   ADTNAPDLSLEGPEGQ         -1.0000     NotChecked  -12.7778    1612.7217   ✗       
+715   VDTN+0.984APDLSLEGPGNK   -1.0000     NotChecked  -12.7883    1626.7737   ✗       
+716   VVTNAPDLSLEGPGEK         -1.0000     NotChecked  -12.7910    1624.8308   ✗       
+717   ADTNAPDLSLEGPGG          -1.0000     NotChecked  -12.7930    1412.6419   ✗       
+718   ADTNAPDLSLEGPEGA         -1.0000     NotChecked  -12.8077    1555.7002   ✗       
+719   VN+0.984TNAPDLSLEGPDGK   -1.0000     NotChecked  -12.8129    1626.7737   ✗       
+720   VDTN+0.984APDLSLEGPAVK   -1.0000     NotChecked  -12.8142    1625.8148   ✗       
+721   ADTNAPDLSLEGPEGE         -1.0000     NotChecked  -12.8192    1613.7057   ✗       
+722   ADTNAPDLSLQ+0.984GPAEK   -1.0000     NotChecked  -12.8237    1626.7737   ✗       
+723   VATNAPDLSLEGPEGK         -1.0000     NotChecked  -12.8368    1596.7995   ✗       
+724   AETNAPDLSLEGPEAK         -1.0000     Failed      -12.8381    1640.7893   ✓       
+725   ADTN+0.984APDLSLEGPGEK   -1.0000     NotChecked  -12.8421    1613.7421   ✗       
+726   VDTNAPDLSLQ+0.984GPN+0.984GK-1.0000     NotChecked  -12.8428    1626.7737   ✗       
+727   AN+0.984TNAPDLSLEGPGDK   -1.0000     NotChecked  -12.8434    1598.7424   ✗       
+728   VDTNAPDLSLQ+0.984GPGGK   -1.0000     NotChecked  -12.8466    1568.7682   ✗       
+729   VDTNAPDLSLQ+0.984GPGAK   -1.0000     NotChecked  -12.8477    1582.7839   ✗       
+730   VDTNAPDLSLEGPGDK         -1.0000     NotChecked  -12.8478    1626.7737   ✗       
+731   DVTNAPDLSLEGPAGK         -1.0000     NotChecked  -12.8539    1582.7839   ✗       
+732   AVTNAPDLSLEGPGGK         -1.0000     NotChecked  -12.8574    1524.7784   ✗       
+733   DVTNAPDLSLEGPNGK         -1.0000     NotChecked  -12.8596    1625.7897   ✗       
+734   ADTNAPDLSLEGPEAK         -1.0000     NotChecked  -12.8615    1626.7737   ✗       
+735   ADTNAPDLSLEGPAQ+0.984K   -1.0000     NotChecked  -12.8633    1626.7737   ✗       
+736   VDTNAPN+0.984LSLEGPDGK   -1.0000     NotChecked  -12.8690    1626.7737   ✗       
+737   ADTNAPDLSLEGPGGR         -1.0000     NotChecked  -12.8698    1568.7431   ✗       
+738   VDTNAPDLSLEGPAGK         -1.0000     NotChecked  -12.8781    1582.7839   ✗       
+739   VDTNAPDLSLEGPNGK         -1.0000     NotChecked  -12.8839    1625.7897   ✗       
+740   ANTNAPDLSLEGPQGK         -1.0000     NotChecked  -12.8890    1610.7900   ✗       
+741   VDTNAPN+0.984LSLEGPGGK   -1.0000     NotChecked  -12.8894    1568.7682   ✗       
+742   EDTNAPDLSLEGPAGK         -1.0000     NotChecked  -12.8924    1612.7580   ✗       
+743   VDSNAPDLSLEGPEGK         -1.0000     NotChecked  -12.8958    1626.7737   ✗       
+744   ADTNAPDLSLQ+0.984GPDGK   -1.0000     NotChecked  -12.8959    1598.7424   ✗       
+745   VDTNAPDLSLEGGEGK         -1.0000     NotChecked  -12.8973    1600.7580   ✗       
+746   ADTNAPN+0.984LSLEGPGDK   -1.0000     NotChecked  -12.8995    1598.7424   ✗       
+747   ADTNAPDLSLEGGEDK         -1.0000     NotChecked  -12.9074    1630.7322   ✗       
+748   ADTDAPDLSLEGPEGK         -1.0000     NotChecked  -12.9103    1613.7421   ✗       
+749   ADTNAPDLSLEGPEGN         -1.0000     NotChecked  -12.9146    1598.7060   ✗       
+750   GDTNAPDLSLEGPAEK         -1.0000     NotChecked  -12.9152    1612.7580   ✗       
+751   ADTNAPDLSLEGPSDK         -1.0000     NotChecked  -12.9293    1628.7530   ✗       
+752   AVTNAPDLSLEGPQGK         -1.0000     NotChecked  -12.9301    1595.8155   ✗       
+753   AVTNAPDLSLEGPQAK         -1.0000     NotChecked  -12.9312    1609.8311   ✗       
+754   AN+0.984TN+0.984APDLSLEGPGEK-1.0000     NotChecked  -12.9359    1613.7421   ✗       
+755   VVTNAPDLSLEGPAQK         -1.0000     NotChecked  -12.9379    1637.8624   ✗       
+756   +43.006DTNAPDLSLEGPAGK   -1.0000     NotChecked  -12.9379    1526.7213   ✗       
+757   VN+0.984TNAPDLSLQ+0.984GPGGK-1.0000     NotChecked  -12.9405    1568.7682   ✗       
+758   +43.006DTNAPDLSLEGPNGK   -1.0000     NotChecked  -12.9436    1569.7271   ✗       
+759   VDTNAPDLSLEGPAGK         -1.0000     NotChecked  -12.9444    1582.7839   ✗       
+760   VDTNAPDLSLEGPNGK         -1.0000     NotChecked  -12.9502    1625.7897   ✗       
+761   VDTNAPDLSLEGPGGQ         -1.0000     NotChecked  -12.9503    1568.7318   ✗       
+762   AN+0.984TNAPDLSLEGPEGK   -1.0000     NotChecked  -12.9542    1612.7580   ✗       
+763   AN+0.984TNAPDLSLEGPEAK   -1.0000     NotChecked  -12.9553    1626.7737   ✗       
+764   VVTN+0.984APDLSLEGPAGK   -1.0000     NotChecked  -12.9581    1567.8093   ✗       
+765   VVTN+0.984APDLSLEGPNGK   -1.0000     NotChecked  -12.9639    1610.8152   ✗       
+766   AVTNAPDLSLQ+0.984GPGEK   -1.0000     NotChecked  -12.9679    1596.7995   ✗       
+767   AVTN+0.984APDLSLEGPADK   -1.0000     NotChecked  -12.9682    1597.7835   ✗       
+768   VDTNAPDLSLEGPGGA         -1.0000     NotChecked  -12.9802    1511.7104   ✗       
+769   GDTNAPDLSLEGPDGK         -1.0000     NotChecked  -12.9874    1584.7267   ✗       
+770   ADTN+0.984APDLSLEGPAQK   -1.0000     NotChecked  -12.9890    1626.7737   ✗       
+771   VDTNAPDLSLEGPGGE         -1.0000     NotChecked  -12.9917    1569.7158   ✗       
+772   AVTNAPDLSLEGPGQ+0.984K   -1.0000     NotChecked  -13.0074    1596.7995   ✗       
+773   GDTNAPDLSLEGPGGK         -1.0000     NotChecked  -13.0078    1526.7213   ✗       
+774   ADTNAPDLSLEGPAEK         -1.0000     NotChecked  -13.0100    1626.7737   ✗       
+775   VETNAPDLSLEGPGAK         -1.0000     NotChecked  -13.0106    1596.7995   ✗       
+776   ADTNAPN+0.984LSLEGPEAK   -1.0000     NotChecked  -13.0114    1626.7737   ✗       
+777   DVTNAPDLSLEGPQGK         -1.0000     NotChecked  -13.0172    1639.8053   ✗       
+778   VDTNAPDLSLEGPGDK         -1.0000     NotChecked  -13.0182    1626.7737   ✗       
+779   VDTNAPDLSLQ+0.984GPSGK   -1.0000     NotChecked  -13.0264    1598.7788   ✗       
+780   ADTNAPDLSLEPEGK          -1.0000     NotChecked  -13.0284    1555.7366   ✗       
+781   VDTNAPDLSLEGPN+0.984GK   -1.0000     NotChecked  -13.0291    1626.7737   ✗       
+782   VDTNAPDLSLEGPGAK         -1.0000     NotChecked  -13.0340    1582.7839   ✗       
+783   VTTNAPDLSLEGPEGK         -1.0000     NotChecked  -13.0340    1626.8101   ✗       
+784   VDTNAPDLSLEGPQGK         -1.0000     NotChecked  -13.0414    1639.8053   ✗       
+785   VDTN+0.984APDLSLQ+0.984GPGDK-1.0000     NotChecked  -13.0480    1627.7577   ✗       
+786   LDTNAPDLSLEGPGGK         -1.0000     NotChecked  -13.0583    1582.7839   ✗       
+787   AETNAPDLSLEGPDGK         -1.0000     NotChecked  -13.0588    1612.7580   ✗       
+788   VDTDAPDLSLEGPDGK         -1.0000     NotChecked  -13.0624    1627.7577   ✗       
+789   VDTNAPDLSLQ+0.984GPANK   -1.0000     NotChecked  -13.0634    1639.8053   ✗       
+790   AETNAPDLSLEGPGGK         -1.0000     NotChecked  -13.0792    1554.7526   ✗       
+791   VDTNAPDLSLEGGGDK         -1.0000     NotChecked  -13.0799    1586.7424   ✗       
+792   +43.006VTNAPDLSLEGPGGK   -1.0000     NotChecked  -13.0820    1496.7471   ✗       
+793   ADTNAPDLSLEGPDGK         -1.0000     NotChecked  -13.0822    1598.7424   ✗       
+794   VDTNAPDLSLEGPEGL         -1.0000     NotChecked  -13.0824    1625.7784   ✗       
+795   VDTDAPDLSLEGPGGK         -1.0000     NotChecked  -13.0828    1569.7522   ✗       
+796   ADTNAPDLSLEGPEGK         -1.0000     NotChecked  -13.0854    1612.7580   ✗       
+797   VDTNAPDLSLEGPGGN         -1.0000     NotChecked  -13.0871    1554.7162   ✗       
+798   VSTNAPDLSLEGPEGK         -1.0000     NotChecked  -13.0872    1612.7944   ✗       
+799   ADTDAPDLSLEGPGDK         -1.0000     NotChecked  -13.0929    1599.7264   ✗       
+800   VVTNAPDLSLEGPGNK         -1.0000     NotChecked  -13.1003    1609.8311   ✗       
+801   +43.006DTNAPDLSLEGPQGK   -1.0000     NotChecked  -13.1012    1583.7427   ✗       
+802   AN+0.984TNAPDLSLEGPAEK   -1.0000     NotChecked  -13.1039    1626.7737   ✗       
+803   VDTNAPDLSLEGPQGK         -1.0000     NotChecked  -13.1077    1639.8053   ✗       
+804   ANTNAPDLSLEGPGEK         -1.0000     NotChecked  -13.1130    1611.7740   ✗       
+805   VVTN+0.984APDLSLEGPQGK   -1.0000     NotChecked  -13.1214    1624.8308   ✗       
+806   VN+0.984TNAPDLSLEGPN+0.984GK-1.0000     NotChecked  -13.1230    1626.7737   ✗       
+807   VDTNAPDLSLEGEEK          -1.0000     NotChecked  -13.1262    1615.7577   ✗       
+808   VVTNAPDLSLEGPAVK         -1.0000     NotChecked  -13.1263    1608.8723   ✗       
+809   VN+0.984TNAPDLSLEGPGGK   -1.0000     NotChecked  -13.1268    1568.7682   ✗       
+810   ADTNAPDLSLEGPGGK         -1.0000     NotChecked  -13.1272    1540.7369   ✗       
+811   VN+0.984TNAPDLSLEGPGAK   -1.0000     NotChecked  -13.1279    1582.7839   ✗       
+812   VDTNAPDLSLEGPGDK         -1.0000     NotChecked  -13.1488    1626.7737   ✗       
+813   ADTN+0.984APDLSLEGPGNK   -1.0000     NotChecked  -13.1514    1598.7424   ✗       
+814   VDTNAPDLSLQ+0.984GPQ+0.984GK-1.0000     Failed      -13.1526    1640.7893   ✓       
+815   AVTNAPDLSLEGPGEK         -1.0000     NotChecked  -13.1541    1596.7995   ✗       
+816   ADTNAPN+0.984LSLEGPAEK   -1.0000     NotChecked  -13.1600    1626.7737   ✗       
+817   +42.011DTNAPDLSLEGPAGK   -1.0000     NotChecked  -13.1672    1525.7260   ✗       
+818   +42.011DTNAPDLSLEGPNGK   -1.0000     NotChecked  -13.1730    1568.7318   ✗       
+819   AN+0.984TNAPDLSLEGPDGK   -1.0000     NotChecked  -13.1760    1598.7424   ✗       
+820   ADTN+0.984APDLSLEGPAVK   -1.0000     NotChecked  -13.1774    1597.7835   ✗       
+821   VVTNAPDLSLQ+0.984GPEGK   -1.0000     NotChecked  -13.1774    1624.8308   ✗       
+822   VDTNAPDLSLEGPDGK         -1.0000     NotChecked  -13.1805    1626.7737   ✗       
+823   VDTNAPN+0.984LSLEGPGAK   -1.0000     NotChecked  -13.1840    1582.7839   ✗       
+824   ADTNAPDLSLQ+0.984GPDAK   -1.0000     NotChecked  -13.1905    1612.7580   ✗       
+825   VDTNAPDLSLEGGEAK         -1.0000     NotChecked  -13.1919    1614.7737   ✗       
+826   VDTN+0.984APDLSLEGPAGK   -1.0000     NotChecked  -13.1980    1583.7679   ✗       
+827   ADTNAPDLSLEGPEGK         -1.0000     NotChecked  -13.1987    1612.7580   ✗       
+828   AATNAPDLSLEGPEGK         -1.0000     NotChecked  -13.1999    1568.7682   ✗       
+829   VDTNAPDLSLEPGGK          -1.0000     NotChecked  -13.2009    1511.7467   ✗       
+830   VDTN+0.984APDLSLEGPNGK   -1.0000     NotChecked  -13.2038    1626.7737   ✗       
+831   ADTDAPDLSLEGPEAK         -1.0000     NotChecked  -13.2048    1627.7577   ✗       
+832   ADTNAPDLSLQ+0.984GPN+0.984GK-1.0000     NotChecked  -13.2060    1598.7424   ✗       
+833   ADTNAPDLSLQ+0.984GPGGK   -1.0000     NotChecked  -13.2098    1540.7369   ✗       
+834   ADTNAPDLSLQ+0.984GPGAK   -1.0000     NotChecked  -13.2109    1554.7526   ✗       
+835   ADTNAPDLSLEGPGDK         -1.0000     NotChecked  -13.2110    1598.7424   ✗       
+836   VDTNAPDLSLEGPSGK         -1.0000     NotChecked  -13.2127    1598.7788   ✗       
+837   VDTNAPDLSLEGPSAK         -1.0000     NotChecked  -13.2138    1612.7944   ✗       
+838   VDTNAPDLSLQ+0.984GPADK   -1.0000     Failed      -13.2159    1640.7893   ✓       
+839   ADTN+0.984APDLSLQ+0.984GPEGK-1.0000     NotChecked  -13.2285    1613.7421   ✗       
+840   ADTNAPN+0.984LSLEGPDGK   -1.0000     NotChecked  -13.2322    1598.7424   ✗       
+841   +43.006DTNAPDLSLEGPAAK   -1.0000     NotChecked  -13.2324    1540.7369   ✗       
+842   VDTN+0.984APDLSLEGPGDK   -1.0000     NotChecked  -13.2343    1627.7577   ✗       
+843   +43.006DTNAPDLSLEGPNAK   -1.0000     NotChecked  -13.2382    1583.7427   ✗       
+844   ADTNAPDLSLEGPAGK         -1.0000     NotChecked  -13.2413    1554.7526   ✗       
+845   ADTNAPDLSLEGPNGK         -1.0000     NotChecked  -13.2470    1597.7584   ✗       
+846   VDTNAPDLSLEGPANK         -1.0000     NotChecked  -13.2497    1639.8053   ✗       
+847   ADTNAPN+0.984LSLEGPGGK   -1.0000     NotChecked  -13.2526    1540.7369   ✗       
+848   VVTN+0.984APDLSLEGPAAK   -1.0000     NotChecked  -13.2526    1581.8250   ✗       
+849   VVTN+0.984APDLSLEGPNAK   -1.0000     NotChecked  -13.2584    1624.8308   ✗       
+850   ADSNAPDLSLEGPEGK         -1.0000     NotChecked  -13.2589    1598.7424   ✗       
+851   ADTNAPDLSLEGGEGK         -1.0000     NotChecked  -13.2605    1572.7267   ✗       
+852   VDTNAPDLSLEGPGSK         -1.0000     NotChecked  -13.2745    1598.7788   ✗       
+853   VDTNAPDLSLEGAGK          -1.0000     NotChecked  -13.2746    1485.7311   ✗       
+854   VDTNAPDLSLEGNGK          -1.0000     NotChecked  -13.2804    1528.7369   ✗       
+855   DDTNAPDLSLQ+0.984GPGGK   -1.0000     NotChecked  -13.2968    1584.7267   ✗       
+856   ADTNAPDLSLEGPVNK         -1.0000     NotChecked  -13.2986    1639.8053   ✗       
+857   AVTNAPDLSLEGPAQK         -1.0000     NotChecked  -13.3010    1609.8311   ✗       
+858   GDTNAPDLSLEGPGAK         -1.0000     NotChecked  -13.3024    1540.7369   ✗       
+859   AN+0.984TNAPDLSLQ+0.984GPGGK-1.0000     NotChecked  -13.3036    1540.7369   ✗       
+860   VN+0.984TNAPDLSLEGPSGK   -1.0000     NotChecked  -13.3066    1598.7788   ✗       
+861   ADTNAPDLSLEGPAGK         -1.0000     NotChecked  -13.3076    1554.7526   ✗       
+862   ADTNAPDLSLEGPNGK         -1.0000     NotChecked  -13.3133    1597.7584   ✗       
+863   ADTNAPDLSLEGPGGQ         -1.0000     NotChecked  -13.3135    1540.7005   ✗       
+864   GDTN+0.984APDLSLEGPEGK   -1.0000     NotChecked  -13.3200    1599.7264   ✗       
+865   AVTN+0.984APDLSLEGPAGK   -1.0000     NotChecked  -13.3213    1539.7780   ✗       
+866   VNTNAPDLSLEGPEGK         -1.0000     NotChecked  -13.3226    1639.8053   ✗       
+867   ADTNAPDLSLEGPEAK         -1.0000     NotChecked  -13.3229    1626.7737   ✗       
+868   +43.006DTNAPDLSLEGPGEK   -1.0000     NotChecked  -13.3252    1584.7267   ✗       
+869   AVTN+0.984APDLSLEGPNGK   -1.0000     NotChecked  -13.3270    1582.7839   ✗       
+870   VN+0.984TN+0.984APDLSLEGPGDK-1.0000     NotChecked  -13.3281    1627.7577   ✗       
+871   ADTNAPDLSLEGPEGK         -1.0000     NotChecked  -13.3294    1612.7580   ✗       
+872   +42.011DTNAPDLSLEGPQGK   -1.0000     NotChecked  -13.3305    1582.7475   ✗       
+873   AVTNAPDLSLEGPSEK         -1.0000     NotChecked  -13.3339    1626.8101   ✗       
+874   VDTNAPDLSLEGPGNK         -1.0000     NotChecked  -13.3402    1625.7897   ✗       
+875   VDTNAPDLSLEGGAEK         -1.0000     NotChecked  -13.3404    1614.7737   ✗       
+876   ADTNAPDLSLEGPGGA         -1.0000     NotChecked  -13.3434    1483.6791   ✗       
+877   VN+0.984TNAPDLSLEGPANK   -1.0000     NotChecked  -13.3435    1639.8053   ✗       
+878   VVTN+0.984APDLSLEGPGEK   -1.0000     NotChecked  -13.3454    1625.8148   ✗       
+879   VDTNAPDLSLEGPDGK         -1.0000     NotChecked  -13.3508    1626.7737   ✗       
+880   LDTNAPDLSLEGPGAK         -1.0000     NotChecked  -13.3529    1596.7995   ✗       
+881   ADTDAPDLSLEGPAEK         -1.0000     NotChecked  -13.3534    1627.7577   ✗       
+882   ADTNAPDLSLEGPGGE         -1.0000     NotChecked  -13.3549    1541.6845   ✗       
+883   VVTNAPDLSLQ+0.984GPGDK   -1.0000     NotChecked  -13.3601    1610.8152   ✗       
+884   VDTN+0.984APDLSLEGPQGK   -1.0000     Failed      -13.3613    1640.7893   ✓       
+885   VTNAPDLSLEGPEEK          -1.0000     NotChecked  -13.3617    1597.7835   ✗       
+886   VVTNAPDLSLEGPEGK         -1.0000     NotChecked  -13.3637    1624.8308   ✗       
+887   VDTNAPDLSLEGPAGV         -1.0000     NotChecked  -13.3640    1553.7573   ✗       
+888   VDTNAPDLSLEGPNGV         -1.0000     NotChecked  -13.3697    1596.7631   ✗       
+889   VDTNAPDLSLEGPGGK         -1.0000     NotChecked  -13.3713    1568.7682   ✗       
+890   VATNAPDLSLEGPGGK         -1.0000     NotChecked  -13.3725    1524.7784   ✗       
+891   AETNAPDLSLEGPGAK         -1.0000     NotChecked  -13.3738    1568.7682   ✗       
+892   ADTNAPDLSLEGPDAK         -1.0000     NotChecked  -13.3767    1612.7580   ✗       
+893   VDTDAPDLSLEGPGAK         -1.0000     NotChecked  -13.3774    1583.7679   ✗       
+894   VDTN+0.984APDLSLQ+0.984GPDGK-1.0000     NotChecked  -13.3807    1627.7577   ✗       
+895   VDTNAPDLSLQ+0.984GPGQK   -1.0000     NotChecked  -13.3809    1639.8053   ✗       
+896   ADTNAPDLSLEGPGDK         -1.0000     NotChecked  -13.3813    1598.7424   ✗       
+897   ADTNAPDLSLQ+0.984GPSGK   -1.0000     NotChecked  -13.3896    1570.7475   ✗       
+898   AETN+0.984APDLSLEGPEGK   -1.0000     NotChecked  -13.3914    1627.7577   ✗       
+899   ADTNAPDLSLEGPN+0.984GK   -1.0000     NotChecked  -13.3923    1598.7424   ✗       
+900   ADTNAPDLSLEGPN+0.984AK   -1.0000     NotChecked  -13.3934    1612.7580   ✗       
+901   +43.006DTNAPDLSLEGPQAK   -1.0000     NotChecked  -13.3957    1597.7584   ✗       
+902   ADTNAPDLSLEGPGAK         -1.0000     NotChecked  -13.3972    1554.7526   ✗       
+903   ATTNAPDLSLEGPEGK         -1.0000     NotChecked  -13.3972    1598.7788   ✗       
+904   VDTN+0.984APDLSLQ+0.984GPGGK-1.0000     NotChecked  -13.4011    1569.7522   ✗       
+905   ADTNAPDLSLEGPQGK         -1.0000     NotChecked  -13.4046    1611.7740   ✗       
+906   VVTNAPDLSLEGPAN+0.984K   -1.0000     NotChecked  -13.4069    1624.8308   ✗       
+907   ADTN+0.984APDLSLQ+0.984GPGDK-1.0000     NotChecked  -13.4112    1599.7264   ✗       
+908   VDTNAPDLSLEGGDGK         -1.0000     NotChecked  -13.4126    1586.7424   ✗       
+909   ADTN+0.984APDLSLEGPEGK   -1.0000     NotChecked  -13.4148    1613.7421   ✗       
+910   VVTN+0.984APDLSLEGPQAK   -1.0000     NotChecked  -13.4159    1638.8465   ✗       
+911   ADTDAPDLSLEGPDGK         -1.0000     NotChecked  -13.4256    1599.7264   ✗       
+912   ADTNAPDLSLQ+0.984GPANK   -1.0000     NotChecked  -13.4265    1611.7740   ✗       
+913   VDSNAPDLSLEGPGGK         -1.0000     NotChecked  -13.4315    1554.7526   ✗       
+914   VDTNAPDLSLEGGGGK         -1.0000     NotChecked  -13.4330    1528.7369   ✗       
+915   VDTNAPDLSLEGQGK          -1.0000     NotChecked  -13.4379    1542.7526   ✗       
+916   AVTNAPDLSLEGPDNK         -1.0000     NotChecked  -13.4431    1639.8053   ✗       
+917   ADTNAPDLSLEGGGDK         -1.0000     NotChecked  -13.4431    1558.7111   ✗       
+918   ADTNAPDLSLEGPEGL         -1.0000     NotChecked  -13.4455    1597.7471   ✗       
+919   VDTNAPDLSLEGPAG          -1.0000     NotChecked  -13.4457    1454.6889   ✗       
+920   ADTDAPDLSLEGPGGK         -1.0000     NotChecked  -13.4460    1541.7209   ✗       
+921   ADTNAPDLSLEGPGGN         -1.0000     NotChecked  -13.4503    1526.6849   ✗       
+922   ASTNAPDLSLEGPEGK         -1.0000     NotChecked  -13.4503    1584.7631   ✗       
+923   VDTNAPDLSLEGPNG          -1.0000     NotChecked  -13.4514    1497.6947   ✗       
+924   ADTN+0.984APDLSLEGPAN+0.984K-1.0000     NotChecked  -13.4580    1613.7421   ✗       
+925   AVTNAPDLSLEGPGNK         -1.0000     NotChecked  -13.4635    1581.7998   ✗       
+926   AN+0.984TNAPDLSLEGPDAK   -1.0000     NotChecked  -13.4706    1612.7580   ✗       
+927   ADTNAPDLSLEGPQGK         -1.0000     NotChecked  -13.4709    1611.7740   ✗       
+928   ADTNAPDLSLEGPAEK         -1.0000     NotChecked  -13.4714    1626.7737   ✗       
+929   VVTNAPDLSLQ+0.984GPEAK   -1.0000     NotChecked  -13.4720    1638.8465   ✗       
+930   VDTNAPDLSLEGPDGK         -1.0000     NotChecked  -13.4815    1626.7737   ✗       
+931   DDTNAPDLSLEGPGGK         -1.0000     NotChecked  -13.4831    1584.7267   ✗       
+932   DDTNAPDLSLEGPGAK         -1.0000     NotChecked  -13.4842    1598.7424   ✗       
+933   AVTN+0.984APDLSLEGPQGK   -1.0000     NotChecked  -13.4846    1596.7995   ✗       
+934   AN+0.984TNAPDLSLEGPN+0.984GK-1.0000     NotChecked  -13.4861    1598.7424   ✗       
+935   ADTNAPDLSLEGEEK          -1.0000     NotChecked  -13.4894    1587.7264   ✗       
+936   AVTNAPDLSLEGPAVK         -1.0000     NotChecked  -13.4894    1580.8410   ✗       
+937   AN+0.984TNAPDLSLEGPGGK   -1.0000     NotChecked  -13.4899    1540.7369   ✗       
+938   AN+0.984TNAPDLSLEGPGAK   -1.0000     NotChecked  -13.4910    1554.7526   ✗       
+939   VDTNAPDLSLEGPGDK         -1.0000     NotChecked  -13.4928    1626.7737   ✗       
+940   ADTNAPDLSLEGPEAK         -1.0000     NotChecked  -13.4933    1626.7737   ✗       
+941   AVTNAPDLSLEGPNVK         -1.0000     NotChecked  -13.4952    1623.8468   ✗       
+942   VDTNAPDLSLEGPGAK         -1.0000     NotChecked  -13.4955    1582.7839   ✗       
+943   VDTNAPDLSLEGPGGK         -1.0000     NotChecked  -13.5019    1568.7682   ✗       
+944   VNTNAPDLSLEGPGDK         -1.0000     NotChecked  -13.5052    1625.7897   ✗       
+945   AN+0.984TN+0.984APDLSLEGPEGK-1.0000     NotChecked  -13.5087    1613.7421   ✗       
+946   VTNAPDLSLEGPAGK          -1.0000     NotChecked  -13.5101    1467.7569   ✗       
+947   ADTNAPDLSLEGPGDK         -1.0000     NotChecked  -13.5120    1598.7424   ✗       
+948   VVTNAPN+0.984LSLEGPEGK   -1.0000     NotChecked  -13.5137    1624.8308   ✗       
+949   ADTNAPDLSLQ+0.984GPQ+0.984GK-1.0000     NotChecked  -13.5157    1612.7580   ✗       
+950   VTNAPDLSLEGPNGK          -1.0000     NotChecked  -13.5158    1510.7627   ✗       
+951   VDTNAPDLSLEGPAGR         -1.0000     NotChecked  -13.5224    1610.7900   ✗       
+952   ADTN+0.984APDLSLQ+0.984GPEAK-1.0000     NotChecked  -13.5231    1627.7577   ✗       
+953   VDTNAPDLSLEGPQGV         -1.0000     NotChecked  -13.5273    1610.7788   ✗       
+954   SDTNAPDLSLEGPAGK         -1.0000     NotChecked  -13.5329    1570.7475   ✗       
+955   SDTNAPDLSLEGPNGK         -1.0000     NotChecked  -13.5386    1613.7533   ✗       
+956   AVTNAPDLSLQ+0.984GPEGK   -1.0000     NotChecked  -13.5406    1596.7995   ✗       
+957   ADTNAPDLSLEGPDGK         -1.0000     NotChecked  -13.5436    1598.7424   ✗       
+958   VVTNAPDLSLEGPGDK         -1.0000     NotChecked  -13.5463    1610.8152   ✗       
+959   ADTNAPN+0.984LSLEGPGAK   -1.0000     NotChecked  -13.5472    1554.7526   ✗       
+960   VDTNAPDLSLQ+0.984GPVGK   -1.0000     NotChecked  -13.5482    1610.8152   ✗       
+961   +42.011DTNAPDLSLEGPGEK   -1.0000     NotChecked  -13.5546    1583.7315   ✗       
+962   ADTNAPDLSLEGGEAK         -1.0000     NotChecked  -13.5550    1586.7424   ✗       
+963   VETN+0.984APDLSLEGPGGK   -1.0000     NotChecked  -13.5640    1583.7679   ✗       
+964   ADTNAPDLSLEPGGK          -1.0000     NotChecked  -13.5641    1483.7154   ✗       
+965   ADTN+0.984APN+0.984LSLEGPEGK-1.0000     NotChecked  -13.5648    1613.7421   ✗       
+966   VDTN+0.984APDLSLEGPDGK   -1.0000     NotChecked  -13.5669    1627.7577   ✗       
+967   VDTNAPDLSLEGPGQK         -1.0000     NotChecked  -13.5671    1639.8053   ✗       
+968   VDTNAPDLSLQ+0.984GPGVK   -1.0000     NotChecked  -13.5693    1610.8152   ✗       
+969   VTTNAPDLSLEGPGGK         -1.0000     NotChecked  -13.5697    1554.7889   ✗       
+970   ADTNAPDLSLEGPSGK         -1.0000     NotChecked  -13.5759    1570.7475   ✗       
+971   DN+0.984TNAPDLSLEGPGGK   -1.0000     NotChecked  -13.5770    1584.7267   ✗       
+972   ADTNAPDLSLEGPSAK         -1.0000     NotChecked  -13.5770    1584.7631   ✗       
+973   ADTNAPDLSLQ+0.984GPADK   -1.0000     NotChecked  -13.5791    1612.7580   ✗       
+974   VDTN+0.984APDLSLEGPN+0.984GK-1.0000     NotChecked  -13.5836    1627.7577   ✗       
+975   VDTN+0.984APDLSLEGPGGK   -1.0000     NotChecked  -13.5874    1569.7522   ✗       
+976   ADTN+0.984APDLSLEGPGDK   -1.0000     NotChecked  -13.5974    1599.7264   ✗       
+977   VDTNAPDLSLEGPQG          -1.0000     NotChecked  -13.6090    1511.7104   ✗       
+978   VDTNAPDLSLEGPEGD         -1.0000     NotChecked  -13.6120    1627.7213   ✗       
+979   ADTNAPDLSLEGPANK         -1.0000     NotChecked  -13.6128    1611.7740   ✗       
+980   AVTN+0.984APDLSLEGPAAK   -1.0000     NotChecked  -13.6158    1553.7937   ✗       
+981   ADTNAPDLSLEGPDSK         -1.0000     NotChecked  -13.6173    1628.7530   ✗       
+982   VDTNAPDLSLEGPGGL         -1.0000     NotChecked  -13.6181    1553.7573   ✗       
+983   VVTNAPDLSLQ+0.984GPAEK   -1.0000     NotChecked  -13.6205    1638.8465   ✗       
+984   AVTN+0.984APDLSLEGPNAK   -1.0000     NotChecked  -13.6216    1596.7995   ✗       
+985   VSTNAPDLSLEGPGGK         -1.0000     NotChecked  -13.6229    1540.7733   ✗       
+986   ADTNAPDLSLEGPEAK         -1.0000     NotChecked  -13.6239    1626.7737   ✗       
+987   ADTNAPDLSLEGPGEK         -1.0000     NotChecked  -13.6286    1612.7580   ✗       
+988   GVTNAPDLSLEGPEGK         -1.0000     NotChecked  -13.6321    1582.7839   ✗       
+989   ADTNAPDLSLEGPGSK         -1.0000     NotChecked  -13.6377    1570.7475   ✗       
+990   ADTNAPDLSLEGAGK          -1.0000     NotChecked  -13.6378    1457.6998   ✗       
+991   ADTNAPDLSLEGPAEK         -1.0000     NotChecked  -13.6418    1626.7737   ✗       
+992   ADTNAPDLSLEGNGK          -1.0000     NotChecked  -13.6435    1500.7056   ✗       
+993   AVTNAPDLSLEGPQVK         -1.0000     NotChecked  -13.6527    1637.8624   ✗       
+994   VVTNAPDLSLEGPEAK         -1.0000     NotChecked  -13.6583    1638.8465   ✗       
+995   VVTNAPDLSLEGPAQ+0.984K   -1.0000     NotChecked  -13.6601    1638.8465   ✗       
+996   ADTNAPDLSLEGPEEG         -1.0000     NotChecked  -13.6605    1613.7057   ✗       
+997   VN+0.984TN+0.984APDLSLEGPDGK-1.0000     NotChecked  -13.6608    1627.7577   ✗       
+998   VN+0.984TNAPDLSLEGPGQK   -1.0000     NotChecked  -13.6610    1639.8053   ✗       
+999   VDTNAPDLSLEGGEK          -1.0000     NotChecked  -13.6619    1543.7366   ✗       
+1000  DDTNAPDLSLEGPSGK         -1.0000     NotChecked  -13.6629    1614.7373   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: VDTNAPDLSLEGPEGK
+Similarity: 0.8449
+De Novo Score: -1.8639
+Source: Database
+Correct: ✓
+

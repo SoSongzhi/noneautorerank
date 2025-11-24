@@ -1,0 +1,1042 @@
+================================================================================
+Spectrum 58
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 549.0490
+Precursor charge: 4+
+Ground truth: AAEMVHSIIAEEVAAGIPTKR
+Ground truth (normalized): AAEMVHSIIAEEVAAGIPTKR
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 37
+Used for reranking: 37
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 37 (3.7%)
+Database matches: 0 (0.0%)
+Prosit predictions: 37 (3.7%)
+Failed: 0 (0.0%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✗ (not in top 1000 candidates)
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     AAMMHPSLLAEEVAAGLPTRK    0.5449      Prosit      -9.1039     2192.1446   ✓       
+2     AAMMHPSLLAEEVAAGLPTRK    0.5449      Prosit      -9.4128     2192.1446   ✓       
+3     LAEMHGSLLAEEVAAGLPTRK    0.5204      Prosit      -15.0695    2192.1623   ✓       
+4     AAMEVHSLLAEEVAAGLPTRK    0.5031      Prosit      -8.7231     2192.1623   ✓       
+5     AAMEVHSLLAEEVAAGLPTRK    0.5031      Prosit      -8.8154     2192.1623   ✓       
+6     AAMEVHSLLAEEVAAGLPTRK    0.5031      Prosit      -9.0319     2192.1623   ✓       
+7     AAMEVHSLLAEEVAAGLPTRK    0.5031      Prosit      -9.1243     2192.1623   ✓       
+8     AAMEVHSLLAEEVAAGLPTRK    0.5031      Prosit      -9.6584     2192.1623   ✓       
+9     AAMEVHSLLAEEVAAGLPTRK    0.5031      Prosit      -9.7507     2192.1623   ✓       
+10    AAEMVHSLLAEEVAAGLPTRK    0.5021      Prosit      -6.4579     2192.1623   ✓       
+11    AAEMVHSLLAEEVAAGLPTRK    0.5021      Prosit      -6.5502     2192.1623   ✓       
+12    AAEMVHSLLAEEVAAGLPTRK    0.5021      Prosit      -6.7667     2192.1623   ✓       
+13    AAEMVHSLLAEEVAAGLPTRK    0.5021      Prosit      -6.8591     2192.1623   ✓       
+14    AAEMVHSLLAEEVAAGLPTRK    0.5021      Prosit      -7.3932     2192.1623   ✓       
+15    AAEMVHSLLAEEVAAGLPTRK    0.5021      Prosit      -7.4855     2192.1623   ✓       
+16    AAEMVHSLLAEEVAAGLPTRK    0.5021      Prosit      -7.5892     2192.1623   ✓       
+17    AAEMVHSLLAEEVAAGLPTRK    0.5021      Prosit      -7.6816     2192.1623   ✓       
+18    AAEMVHSLLAEEVAAGLPTRK    0.5021      Prosit      -7.7020     2192.1623   ✓       
+19    AAEMVHSLLAEEVAAGLPTRK    0.5021      Prosit      -7.7679     2192.1623   ✓       
+20    AAEMVHSLLAEEVAAGLPTRK    0.5021      Prosit      -7.7944     2192.1623   ✓       
+21    AAEMVHSLLAEEVAAGLPTRK    0.5021      Prosit      -7.8981     2192.1623   ✓       
+22    AAEMVHSLLAEEVAAGLPTRK    0.5021      Prosit      -7.9903     2192.1623   ✓       
+23    AAEMVHSLLAEEVAAGLPTRK    0.5021      Prosit      -7.9904     2192.1623   ✓       
+24    AAEMVHSLLAEEVAAGLPTRK    0.5021      Prosit      -8.0767     2192.1623   ✓       
+25    AAEMVHSLLAEEVAAGLPTRK    0.5021      Prosit      -8.0826     2192.1623   ✓       
+26    AAEMVHSLLAEEVAAGLPTRK    0.5021      Prosit      -8.2991     2192.1623   ✓       
+27    AAEMVHSLLAEEVAAGLPTRK    0.5021      Prosit      -8.3915     2192.1623   ✓       
+28    AAEMVHSLLAEEVAAGLPTRK    0.5021      Prosit      -8.7031     2192.1623   ✓       
+29    AAEMVHSLLAEEVAAGLPTRK    0.5021      Prosit      -8.8992     2192.1623   ✓       
+30    AAEMVHSLLAEEVAAGLPTRK    0.5021      Prosit      -8.9256     2192.1623   ✓       
+31    AAEMVHSLLAEEVAAGLPTRK    0.5021      Prosit      -9.0120     2192.1623   ✓       
+32    AAEMVHSLLAEEVAAGLPTRK    0.5021      Prosit      -9.0179     2192.1623   ✓       
+33    AAEMVHSLLAEEVAAGLPTRK    0.5021      Prosit      -9.1216     2192.1623   ✓       
+34    AAEMVHSLLAEEVAAGLPTRK    0.5021      Prosit      -9.2080     2192.1623   ✓       
+35    AAEMVHSLLAEEVAAGLPTRK    0.5021      Prosit      -9.2140     2192.1623   ✓       
+36    AAEMVHSLLAEEVAAGLPTRK    0.5021      Prosit      -9.2344     2192.1623   ✓       
+37    AGEM+15.995HPSLLAEEVAAGLPTRK0.4852      Prosit      -13.9549    2192.1259   ✓       
+38    AAEEHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -5.7592     2188.1488   ✗       
+39    AAEEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -5.9181     2190.1644   ✗       
+40    AAEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -6.0068     2109.0888   ✗       
+41    AAEEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -6.0104     2190.1644   ✗       
+42    AAEEHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -6.0680     2188.1488   ✗       
+43    AAEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -6.0992     2109.0888   ✗       
+44    AAEEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -6.1141     2091.0960   ✗       
+45    AAEEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -6.2065     2091.0960   ✗       
+46    AAEEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -6.2269     2190.1644   ✗       
+47    AAEMHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -6.2989     2190.1467   ✗       
+48    AAEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -6.3157     2109.0888   ✗       
+49    AAEEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -6.3193     2190.1644   ✗       
+50    AAEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -6.4080     2109.0888   ✗       
+51    AAEEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -6.4230     2091.0960   ✗       
+52    AAEEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -6.5153     2091.0960   ✗       
+53    AAEMHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -6.6078     2190.1467   ✗       
+54    AAEMHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -6.6539     2093.0939   ✗       
+55    AAEMHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -6.7463     2093.0939   ✗       
+56    AAEEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -6.8534     2190.1644   ✗       
+57    AAEEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -6.9457     2190.1644   ✗       
+58    AAEMHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -6.9628     2093.0939   ✗       
+59    AAEEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.0494     2190.1644   ✗       
+60    AAEMHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -7.0551     2093.0939   ✗       
+61    AAEEHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.0691     2188.1488   ✗       
+62    AAEEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.1418     2190.1644   ✗       
+63    AAEEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.1622     2190.1644   ✗       
+64    AAEEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.2281     2190.1644   ✗       
+65    AAEEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.2546     2190.1644   ✗       
+66    AAEEHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.2916     2188.1488   ✗       
+67    AAEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -7.3168     2109.0888   ✗       
+68    AAEEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.3583     2190.1644   ✗       
+69    AAEM+15.995HGSLLAEEVAAGLPTRK-1.0000     NotChecked  -7.3725     2166.1103   ✗       
+70    AAEEHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.3780     2188.1488   ✗       
+71    AAEEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -7.4241     2091.0960   ✗       
+72    AAEEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.4505     2190.1644   ✗       
+73    AAEEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.4506     2190.1644   ✗       
+74    AAEEHGSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.4798     2148.1175   ✗       
+75    AAEGHYSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.5170     2182.1382   ✗       
+76    AAEEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.5369     2190.1644   ✗       
+77    AAEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -7.5393     2109.0888   ✗       
+78    AAEEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.5428     2190.1644   ✗       
+79    AAEEHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.6004     2188.1488   ✗       
+80    AAEMHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.6089     2190.1467   ✗       
+81    AAEDHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.6134     2174.1331   ✗       
+82    AAETHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.6232     2160.1539   ✗       
+83    AAEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -7.6257     2109.0888   ✗       
+84    AAEGHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.6273     2116.1277   ✗       
+85    AAEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -7.6316     2109.0888   ✗       
+86    AAEVHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.6419     2158.1746   ✗       
+87    AAEEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -7.6465     2091.0960   ✗       
+88    AAEYHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -7.6514     2125.1168   ✗       
+89    AAEM+15.995HGSLLAEEVAAGLPTRK-1.0000     NotChecked  -7.6814     2166.1103   ✗       
+90    AAEHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -7.7276     2125.1168   ✗       
+91    AAEEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -7.7329     2091.0960   ✗       
+92    AAEEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -7.7389     2091.0960   ✗       
+93    AAEYHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -7.7437     2125.1168   ✗       
+94    AAEEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.7593     2190.1644   ✗       
+95    AAEDVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.7723     2176.1488   ✗       
+96    AAESHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.7759     2146.1382   ✗       
+97    AAETVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.7821     2162.1695   ✗       
+98    AAEGVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.7863     2118.1433   ✗       
+99    AAEEHGSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.7887     2148.1175   ✗       
+100   AAEGHYSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.8259     2182.1382   ✗       
+101   AAEMHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.8314     2190.1467   ✗       
+102   AAEHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -7.8379     2059.1062   ✗       
+103   AAEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -7.8481     2109.0888   ✗       
+104   AAEEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.8517     2190.1644   ✗       
+105   AAEDVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.8646     2176.1488   ✗       
+106   AAETVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.8744     2162.1695   ✗       
+107   AAEGVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.8786     2118.1433   ✗       
+108   AAEMHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.9178     2190.1467   ✗       
+109   AAEDHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.9222     2174.1331   ✗       
+110   AAETHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.9320     2160.1539   ✗       
+111   AAESVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.9348     2148.1539   ✗       
+112   AAEGHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.9362     2116.1277   ✗       
+113   AAEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -7.9404     2109.0888   ✗       
+114   AAEVHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -7.9507     2158.1746   ✗       
+115   AAEEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -7.9554     2091.0960   ✗       
+116   AAEYHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -7.9602     2125.1168   ✗       
+117   AAEMHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -7.9639     2093.0939   ✗       
+118   AAEDHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -7.9683     2077.0804   ✗       
+119   AAETHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -7.9781     2063.1011   ✗       
+120   AAEGHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -7.9823     2019.0749   ✗       
+121   AAEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -7.9969     2061.1218   ✗       
+122   AAEMHGSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.0196     2150.1154   ✗       
+123   AAESVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.0272     2148.1539   ✗       
+124   AAEHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.0364     2125.1168   ✗       
+125   AAEEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.0477     2091.0960   ✗       
+126   AAEYHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.0526     2125.1168   ✗       
+127   AAEDHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.0607     2077.0804   ✗       
+128   AAEEHSSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.0660     2178.1281   ✗       
+129   AAETHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.0705     2063.1011   ✗       
+130   AAEGHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.0747     2019.0749   ✗       
+131   AAEDVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.0811     2176.1488   ✗       
+132   AAESHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.0847     2146.1382   ✗       
+133   AAEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.0892     2061.1218   ✗       
+134   AAETVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.0909     2162.1695   ✗       
+135   AAEGVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.0951     2118.1433   ✗       
+136   AAESHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.1309     2049.0855   ✗       
+137   AAEMHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.1402     2190.1467   ✗       
+138   AAEHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.1468     2059.1062   ✗       
+139   AAEEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.1634     2190.1644   ✗       
+140   AAEDVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.1735     2176.1488   ✗       
+141   AAETVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.1833     2162.1695   ✗       
+142   AAEMHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.1863     2093.0939   ✗       
+143   AAEGVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.1875     2118.1433   ✗       
+144   AAEHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -8.1929     1962.0534   ✗       
+145   AAESHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.2232     2049.0855   ✗       
+146   AAEM+15.995HASLLAEEVAAGLPTRK-1.0000     NotChecked  -8.2297     2180.1259   ✗       
+147   AAESVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.2437     2148.1539   ✗       
+148   AAEMHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.2727     2093.0939   ✗       
+149   AAEDHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.2772     2077.0804   ✗       
+150   AAEMHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.2787     2093.0939   ✗       
+151   AAEHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -8.2852     1962.0534   ✗       
+152   AAETHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.2870     2063.1011   ✗       
+153   AAEGHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.2912     2019.0749   ✗       
+154   AAEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.3057     2061.1218   ✗       
+155   AAEMHGSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.3285     2150.1154   ✗       
+156   AAESVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.3360     2148.1539   ✗       
+157   AAEEHASLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.3369     2162.1331   ✗       
+158   AAEEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.3594     2190.1644   ✗       
+159   AAEDHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.3695     2077.0804   ✗       
+160   AAEEHSSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.3749     2178.1281   ✗       
+161   AAETHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.3793     2063.1011   ✗       
+162   AAEGHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.3835     2019.0749   ✗       
+163   AAEEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.3858     2190.1644   ✗       
+164   AAEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.3980     2061.1218   ✗       
+165   AAESHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.4397     2049.0855   ✗       
+166   AAEEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.4722     2190.1644   ✗       
+167   AAEM+15.995HYLLAEEVAAGLPTRK-1.0000     NotChecked  -8.4723     2185.1201   ✗       
+168   AAEEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.4781     2190.1644   ✗       
+169   AAEMHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.4952     2093.0939   ✗       
+170   AAEHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -8.5017     1962.0534   ✗       
+171   AAESHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.5320     2049.0855   ✗       
+172   AAEM+15.995HASLLAEEVAAGLPTRK-1.0000     NotChecked  -8.5385     2180.1259   ✗       
+173   AAEM+15.995HTLLAEEVAAGLPTRK-1.0000     NotChecked  -8.5553     2123.1045   ✗       
+174   AAMEHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.5641     2190.1467   ✗       
+175   AAEM+15.995HYLLAEEVAAGLPTRK-1.0000     NotChecked  -8.5647     2185.1201   ✗       
+176   AAEVHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.5772     2158.1746   ✗       
+177   AAEEHYLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.5796     2167.1273   ✗       
+178   AAEEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.5818     2190.1644   ✗       
+179   AAEMHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.5875     2093.0939   ✗       
+180   AAEHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -8.5941     1962.0534   ✗       
+181   AAEEHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.6015     2188.1488   ✗       
+182   AAEMHSSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.6058     2180.1259   ✗       
+183   AAEEHASLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.6458     2162.1331   ✗       
+184   AAEM+15.995HTLLAEEVAAGLPTRK-1.0000     NotChecked  -8.6477     2123.1045   ✗       
+185   AAEEHTLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.6626     2105.1117   ✗       
+186   AAEEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.6682     2190.1644   ✗       
+187   AAEEHYLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.6719     2167.1273   ✗       
+188   AAEEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.6742     2190.1644   ✗       
+189   AAEM+15.995HGSLLAEEVAAGLPTRK-1.0000     NotChecked  -8.6825     2166.1103   ✗       
+190   AAEEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.6946     2190.1644   ✗       
+191   AAEDVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.7076     2176.1488   ✗       
+192   AAETVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.7174     2162.1695   ✗       
+193   AAEGVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.7216     2118.1433   ✗       
+194   AAEEHTLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.7549     2105.1117   ✗       
+195   AAEEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.7605     2190.1644   ✗       
+196   AAEVHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.7732     2158.1746   ✗       
+197   AAEM+15.995HYLLAEEVAAGLPTRK-1.0000     NotChecked  -8.7812     2185.1201   ✗       
+198   AAEEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.7870     2190.1644   ✗       
+199   AAEEHGSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.7898     2148.1175   ✗       
+200   AAEDVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.7999     2176.1488   ✗       
+201   AAEFHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.8014     2109.1218   ✗       
+202   AAETVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.8097     2162.1695   ✗       
+203   AAMM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -8.8118     2111.0867   ✗       
+204   AAEGVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.8139     2118.1433   ✗       
+205   AAEGHYSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.8270     2182.1382   ✗       
+206   AAEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -8.8492     2109.0888   ✗       
+207   AAEM+15.995HTLLAEEVAAGLPTRK-1.0000     NotChecked  -8.8642     2123.1045   ✗       
+208   AAESVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.8701     2148.1539   ✗       
+209   AAMEHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.8730     2190.1467   ✗       
+210   AAEM+15.995HYLLAEEVAAGLPTRK-1.0000     NotChecked  -8.8735     2185.1201   ✗       
+211   AAEMHASLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.8767     2164.1310   ✗       
+212   AAEEHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.8779     2188.1488   ✗       
+213   AAEVHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.8860     2158.1746   ✗       
+214   AAEEHYLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.8884     2167.1273   ✗       
+215   AAEEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.8907     2190.1644   ✗       
+216   AAEFHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.8937     2109.1218   ✗       
+217   AAEDVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.9036     2176.1488   ✗       
+218   AAMM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -8.9042     2111.0867   ✗       
+219   AAEM+15.995HGSLLAEEVAAGLPTRK-1.0000     NotChecked  -8.9050     2166.1103   ✗       
+220   AAEEHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.9104     2188.1488   ✗       
+221   AAETVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.9134     2162.1695   ✗       
+222   AAEMHSSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.9147     2180.1259   ✗       
+223   AAEGVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.9176     2118.1433   ✗       
+224   AAMEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.9191     2093.0939   ✗       
+225   AAEDHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.9233     2174.1331   ✗       
+226   AAEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.9322     2061.1218   ✗       
+227   AAETHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.9331     2160.1539   ✗       
+228   AAEGHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.9373     2116.1277   ✗       
+229   AAGEHYSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.9384     2182.1382   ✗       
+230   AAGM+15.995HPSLLAEEVAAGLPTRK-1.0000     NotChecked  -8.9414     2134.1205   ✗       
+231   AAEVHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.9519     2158.1746   ✗       
+232   AAEEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.9565     2091.0960   ✗       
+233   AAEM+15.995HTLLAEEVAAGLPTRK-1.0000     NotChecked  -8.9565     2123.1045   ✗       
+234   AAEYHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.9614     2125.1168   ✗       
+235   AAESVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.9625     2148.1539   ✗       
+236   AAEEHTLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.9714     2105.1117   ✗       
+237   AAEEHYLLAEEVAAGLPTRK     -1.0000     NotChecked  -8.9808     2167.1273   ✗       
+238   AAEEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.9830     2190.1644   ✗       
+239   AAEM+15.995HGSLLAEEVAAGLPTRK-1.0000     NotChecked  -8.9914     2166.1103   ✗       
+240   AAEDVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -8.9960     2176.1488   ✗       
+241   AAETVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.0058     2162.1695   ✗       
+242   AAEGVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.0100     2118.1433   ✗       
+243   AAMEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.0114     2093.0939   ✗       
+244   AAEEHGSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.0122     2148.1175   ✗       
+245   AAEDVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.0164     2176.1488   ✗       
+246   AAEYHGSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.0171     2182.1382   ✗       
+247   AAEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.0245     2061.1218   ✗       
+248   AAETVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.0262     2162.1695   ✗       
+249   AAEGVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.0304     2118.1433   ✗       
+250   AAEEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.0368     2190.1644   ✗       
+251   AAEHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.0375     2125.1168   ✗       
+252   AAGEHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.0487     2116.1277   ✗       
+253   AAEGHYSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.0494     2182.1382   ✗       
+254   AAEEHTLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.0638     2105.1117   ✗       
+255   AAESVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.0662     2148.1539   ✗       
+256   AAEEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.0693     2190.1644   ✗       
+257   AAEVHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.0821     2158.1746   ✗       
+258   AAEDVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.0823     2176.1488   ✗       
+259   AAESHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.0859     2146.1382   ✗       
+260   AAETVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.0921     2162.1695   ✗       
+261   AAEGVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.0963     2118.1433   ✗       
+262   AAEEHGSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.0986     2148.1175   ✗       
+263   AAGM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.1004     2136.1361   ✗       
+264   AAEDVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.1088     2176.1488   ✗       
+265   AAEFHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.1102     2109.1218   ✗       
+266   AAETVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.1186     2162.1695   ✗       
+267   AAEMHYLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.1194     2169.1252   ✗       
+268   AAMM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.1207     2111.0867   ✗       
+269   AAEGVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.1228     2118.1433   ✗       
+270   AAEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.1256     2109.0888   ✗       
+271   AAEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.1282     2061.1218   ✗       
+272   AAEEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.1292     2190.1644   ✗       
+273   AAEGHYSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.1358     2182.1382   ✗       
+274   AAEMHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.1413     2190.1467   ✗       
+275   AAEDHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.1458     2174.1331   ✗       
+276   AAEHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.1479     2059.1062   ✗       
+277   AAEGHFSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.1506     2166.1433   ✗       
+278   AAEGVHGSLLAEEVAAGLPTRK   -1.0000     NotChecked  -9.1520     2175.1648   ✗       
+279   AAETHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.1556     2160.1539   ✗       
+280   AAEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.1581     2109.0888   ✗       
+281   AAESVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.1585     2148.1539   ✗       
+282   AAEGHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.1598     2116.1277   ✗       
+283   AAEVHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.1743     2158.1746   ✗       
+284   AAESVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.1790     2148.1539   ✗       
+285   AAEYHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.1838     2125.1168   ✗       
+286   AAEMHASLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.1856     2164.1310   ✗       
+287   AAEEHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.1867     2188.1488   ✗       
+288   AAGM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.1927     2136.1361   ✗       
+289   AAEMHTLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.2024     2107.1096   ✗       
+290   AAEFHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.2026     2109.1218   ✗       
+291   AAGEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.2076     2118.1433   ✗       
+292   AAEMHYLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.2117     2169.1252   ✗       
+293   AAEDVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.2125     2176.1488   ✗       
+294   AAMM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.2130     2111.0867   ✗       
+295   AAEM+15.995HGSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.2138     2166.1103   ✗       
+296   AAEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.2179     2109.0888   ✗       
+297   AAEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.2205     2061.1218   ✗       
+298   AAETVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.2223     2162.1695   ✗       
+299   AAEGVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.2265     2118.1433   ✗       
+300   AAMEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.2279     2093.0939   ✗       
+301   AAEDHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.2322     2174.1331   ✗       
+302   AAEEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.2329     2091.0960   ✗       
+303   AAEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.2410     2061.1218   ✗       
+304   AAETHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.2420     2160.1539   ✗       
+305   AAESVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.2448     2148.1539   ✗       
+306   AAEGHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.2462     2116.1277   ✗       
+307   AAGEHYSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.2472     2182.1382   ✗       
+308   AAGM+15.995HPSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.2503     2134.1205   ✗       
+309   AAEHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.2600     2125.1168   ✗       
+310   AASM+15.995HPSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.2603     2164.1310   ✗       
+311   AAEVHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.2607     2158.1746   ✗       
+312   AAEEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.2653     2091.0960   ✗       
+313   AAEYHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.2702     2125.1168   ✗       
+314   AAESVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.2713     2148.1539   ✗       
+315   AAEYHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.2761     2125.1168   ✗       
+316   AAEDHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.2783     2077.0804   ✗       
+317   AAETHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.2881     2063.1011   ✗       
+318   AAEGHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.2923     2019.0749   ✗       
+319   AAAM+15.995HPSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.2944     2148.1361   ✗       
+320   AAEMHTLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.2947     2107.1096   ✗       
+321   AAGM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.2964     2037.0677   ✗       
+322   AAGEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.3000     2118.1433   ✗       
+323   AAMEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.3203     2093.0939   ✗       
+324   AAGEHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.3575     2116.1277   ✗       
+325   AASEHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.3676     2146.1382   ✗       
+326   AAGM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.3887     2037.0677   ✗       
+327   AAAEHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.4017     2130.1433   ✗       
+328   AAGEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.4037     2019.0749   ✗       
+329   AAGM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.4092     2136.1361   ✗       
+330   AASM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.4193     2166.1467   ✗       
+331   AAM+15.995M+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.4350     2127.0816   ✗       
+332   AAAM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.4533     2150.1518   ✗       
+333   AAMMHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.4589     2095.0918   ✗       
+334   AAGMHYSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.4782     2184.1361   ✗       
+335   AAGEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.4960     2019.0749   ✗       
+336   AAGM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.5015     2136.1361   ✗       
+337   AASM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.5116     2166.1467   ✗       
+338   AAGEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.5165     2118.1433   ✗       
+339   AASEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.5265     2148.1539   ✗       
+340   AAM+15.995M+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.5274     2127.0816   ✗       
+341   AAM+15.995EHSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.5423     2109.0888   ✗       
+342   AAAM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.5457     2150.1518   ✗       
+343   AAMMHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.5512     2095.0918   ✗       
+344   AAAEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.5606     2132.1590   ✗       
+345   AASM+15.995HPSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.5692     2164.1310   ✗       
+346   AAGMHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.5885     2118.1256   ✗       
+347   AAAM+15.995HPSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.6032     2148.1361   ✗       
+348   AAGM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.6052     2037.0677   ✗       
+349   AAGEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.6088     2118.1433   ✗       
+350   AASM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.6153     2067.0783   ✗       
+351   AASEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.6189     2148.1539   ✗       
+352   AAM+15.995EHSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.6347     2109.0888   ✗       
+353   AAAM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.6494     2051.0834   ✗       
+354   AAAEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.6529     2132.1590   ✗       
+355   AASEHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.6764     2146.1382   ✗       
+356   AAGM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.6976     2037.0677   ✗       
+357   AASM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.7076     2067.0783   ✗       
+358   AAAEHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.7105     2130.1433   ✗       
+359   AAGEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.7125     2019.0749   ✗       
+360   AASEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.7226     2049.0855   ✗       
+361   AASM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.7281     2166.1467   ✗       
+362   AAAM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.7417     2051.0834   ✗       
+363   AAM+15.995M+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.7439     2127.0816   ✗       
+364   AAGMVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.7474     2120.1412   ✗       
+365   AAAEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.7566     2033.0905   ✗       
+366   AAAM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.7622     2150.1518   ✗       
+367   AAMMHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.7677     2095.0918   ✗       
+368   AAGMHYSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.7870     2184.1361   ✗       
+369   AAGEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.8049     2019.0749   ✗       
+370   AASEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -9.8149     2049.0855   ✗       
+371   AASM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.8205     2166.1467   ✗       
+372   AANM+15.995HPSLLAEEVAAGLPTRK-1.0000     NotChecked  -9.8274     2191.1419   ✗       
+373   AASEVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -9.8354     2148.1539   ✗       
+374   AEEHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -11.3434    2183.1222   ✗       
+375   AEM+15.995HPSLLAEEVAAGLPTRK-1.0000     NotChecked  -11.3464    2135.1045   ✗       
+376   AEEHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -11.4537    2117.1117   ✗       
+377   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -11.5054    2137.1201   ✗       
+378   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -11.5977    2137.1201   ✗       
+379   AEEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -11.6126    2119.1273   ✗       
+380   AEEHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -11.6522    2183.1222   ✗       
+381   AEM+15.995HPSLLAEEVAAGLPTRK-1.0000     NotChecked  -11.6553    2135.1045   ✗       
+382   AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -11.7014    2038.0517   ✗       
+383   AEEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -11.7050    2119.1273   ✗       
+384   AEEHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -11.7625    2117.1117   ✗       
+385   AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -11.7937    2038.0517   ✗       
+386   AEEHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -11.8087    2020.0589   ✗       
+387   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -11.8142    2137.1201   ✗       
+388   AEMHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -11.8832    2185.1201   ✗       
+389   AEEHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -11.9010    2020.0589   ✗       
+390   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -11.9065    2137.1201   ✗       
+391   AEEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -11.9215    2119.1273   ✗       
+392   AEMHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -11.9935    2119.1096   ✗       
+393   AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -12.0102    2038.0517   ✗       
+394   AEEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -12.0138    2119.1273   ✗       
+395   AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -12.1026    2038.0517   ✗       
+396   AEEHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -12.1175    2020.0589   ✗       
+397   AEMVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -12.1524    2121.1252   ✗       
+398   AEMHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -12.1920    2185.1201   ✗       
+399   AEEHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -12.2099    2020.0589   ✗       
+400   AEMVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -12.2448    2121.1252   ✗       
+401   AEMHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -12.3023    2119.1096   ✗       
+402   AEMHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -12.3485    2022.0568   ✗       
+403   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -12.4407    2137.1201   ✗       
+404   AEMHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -12.4408    2022.0568   ✗       
+405   AEMVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -12.4613    2121.1252   ✗       
+406   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -12.5330    2137.1201   ✗       
+407   AEEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -12.5479    2119.1273   ✗       
+408   AEMVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -12.5536    2121.1252   ✗       
+409   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -12.6367    2137.1201   ✗       
+410   AEEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -12.6403    2119.1273   ✗       
+411   AEEHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -12.6533    2183.1222   ✗       
+412   AEM+15.995HPSLLAEEVAAGLPTRK-1.0000     NotChecked  -12.6564    2135.1045   ✗       
+413   AEMHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -12.6573    2022.0568   ✗       
+414   +42.011AEM+15.995HPSLLAEEVAAGLPTRK-1.0000     NotChecked  -12.7265    2177.1150   ✗       
+415   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -12.7290    2137.1201   ✗       
+416   AEEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -12.7440    2119.1273   ✗       
+417   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -12.7495    2137.1201   ✗       
+418   AEMHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -12.7497    2022.0568   ✗       
+419   AEEHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -12.7637    2117.1117   ✗       
+420   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -12.8153    2137.1201   ✗       
+421   +42.011AEEHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -12.8338    2159.1222   ✗       
+422   AEEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -12.8363    2119.1273   ✗       
+423   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -12.8418    2137.1201   ✗       
+424   AEEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -12.8568    2119.1273   ✗       
+425   AEM+15.995HFSLLAEEVAAGLPTRK-1.0000     NotChecked  -12.8697    2185.1201   ✗       
+426   +43.006AEM+15.995HPSLLAEEVAAGLPTRK-1.0000     NotChecked  -12.8746    2178.1103   ✗       
+427   AEEHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -12.8758    2183.1222   ✗       
+428   AEM+15.995HPSLLAEEVAAGLPTRK-1.0000     NotChecked  -12.8788    2135.1045   ✗       
+429   +42.011AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -12.8855    2179.1307   ✗       
+430   AEEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -12.9226    2119.1273   ✗       
+431   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -12.9455    2137.1201   ✗       
+432   AEEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -12.9491    2119.1273   ✗       
+433   AEEHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -12.9622    2183.1222   ✗       
+434   AEM+15.995HPSLLAEEVAAGLPTRK-1.0000     NotChecked  -12.9652    2135.1045   ✗       
+435   AEEHFSLLAEEVAAGLPTRK     -1.0000     NotChecked  -12.9770    2167.1273   ✗       
+436   +42.011AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -12.9778    2179.1307   ✗       
+437   AEEVHGSLLAEEVAAGLPTRK    -1.0000     NotChecked  -12.9783    2176.1488   ✗       
+438   +43.006AEEHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -12.9819    2160.1175   ✗       
+439   AEEHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -12.9861    2117.1117   ✗       
+440   AEYHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -12.9910    2151.1324   ✗       
+441   +42.011AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -12.9928    2161.1379   ✗       
+442   AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.0114    2038.0517   ✗       
+443   +43.006AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.0336    2180.1259   ✗       
+444   +42.011AEM+15.995HPSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.0354    2177.1150   ✗       
+445   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.0378    2137.1201   ✗       
+446   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.0379    2137.1201   ✗       
+447   AEEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.0528    2119.1273   ✗       
+448   LAEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.0567    2151.1358   ✗       
+449   AEM+15.995HGSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.0671    2095.0732   ✗       
+450   AEEHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.0725    2117.1117   ✗       
+451   +42.011AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.0815    2080.0623   ✗       
+452   +42.011AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.0851    2161.1379   ✗       
+453   AEMVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.0877    2121.1252   ✗       
+454   AEM+15.995HHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.1037    2175.1106   ✗       
+455   AEEHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -13.1186    2020.0589   ✗       
+456   AETVHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -13.1217    2188.1852   ✗       
+457   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.1242    2137.1201   ✗       
+458   AEGVHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -13.1259    2144.1590   ✗       
+459   +43.006AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.1259    2180.1259   ✗       
+460   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.1301    2137.1201   ✗       
+461   +43.006AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.1409    2162.1331   ✗       
+462   +42.011AEEHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.1427    2159.1222   ✗       
+463   AEEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.1450    2119.1273   ✗       
+464   AEEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.1451    2119.1273   ✗       
+465   LAEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.1491    2151.1358   ✗       
+466   AEYVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.1499    2153.1481   ✗       
+467   LAEEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.1640    2133.1430   ✗       
+468   +42.011AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.1739    2080.0623   ✗       
+469   AEEHGSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.1744    2077.0804   ✗       
+470   AEM+15.995HFSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.1786    2185.1201   ✗       
+471   AEMVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.1801    2121.1252   ✗       
+472   +43.006AEM+15.995HPSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.1835    2178.1103   ✗       
+473   AEEHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.1846    2183.1222   ✗       
+474   AEM+15.995HPSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.1877    2135.1045   ✗       
+475   +42.011AEEHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.1888    2062.0695   ✗       
+476   AEMHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.1931    2185.1201   ✗       
+477   +42.011AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.1943    2179.1307   ✗       
+478   AEDHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.1976    2169.1066   ✗       
+479   AETHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.2074    2155.1273   ✗       
+480   AEEHHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.2110    2157.1178   ✗       
+481   AEGHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.2116    2111.1011   ✗       
+482   AEVHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.2261    2153.1481   ✗       
+483   +43.006AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.2296    2081.0575   ✗       
+484   AEEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.2314    2119.1273   ✗       
+485   +43.006AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.2332    2162.1331   ✗       
+486   AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.2338    2038.0517   ✗       
+487   AEEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.2374    2119.1273   ✗       
+488   AEYVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.2422    2153.1481   ✗       
+489   LAEEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.2564    2133.1430   ✗       
+490   AESVHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -13.2744    2174.1695   ✗       
+491   +42.011AEEHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.2811    2062.0695   ✗       
+492   AEMVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.2838    2121.1252   ✗       
+493   AEEHFSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.2858    2167.1273   ✗       
+494   +42.011AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.2867    2179.1307   ✗       
+495   AEEVHGSLLAEEVAAGLPTRK    -1.0000     NotChecked  -13.2872    2176.1488   ✗       
+496   +43.006AEEHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.2908    2160.1175   ✗       
+497   AEEHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.2949    2117.1117   ✗       
+498   AEYHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.2998    2151.1324   ✗       
+499   +42.011AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.3016    2161.1379   ✗       
+500   AEMHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.3035    2119.1096   ✗       
+501   AEDHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.3079    2103.0960   ✗       
+502   AETHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.3177    2089.1168   ✗       
+503   AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.3202    2038.0517   ✗       
+504   AEGHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.3219    2045.0905   ✗       
+505   +43.006AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.3220    2081.0575   ✗       
+506   AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.3261    2038.0517   ✗       
+507   AEEHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.3277    2183.1222   ✗       
+508   AEM+15.995HPSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.3308    2135.1045   ✗       
+509   AEVHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.3364    2087.1375   ✗       
+510   +43.006AEEHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.3369    2063.0647   ✗       
+511   AEEHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -13.3411    2020.0589   ✗       
+512   +43.006AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.3424    2180.1259   ✗       
+513   AEYHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -13.3459    2054.0796   ✗       
+514   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.3466    2137.1201   ✗       
+515   AESHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.3601    2141.1117   ✗       
+516   LAEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.3656    2151.1358   ✗       
+517   +42.011AEMHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.3736    2161.1201   ✗       
+518   AEM+15.995HGSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.3759    2095.0732   ✗       
+519   AEMVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.3761    2121.1252   ✗       
+520   +42.011AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.3904    2080.0623   ✗       
+521   +42.011AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.3939    2161.1379   ✗       
+522   AEMVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.3966    2121.1252   ✗       
+523   AEM+15.995HHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.4125    2175.1106   ✗       
+524   AEMHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.4156    2185.1201   ✗       
+525   AEHYSLLAEEVAAGLPTRK      -1.0000     NotChecked  -13.4221    2054.0796   ✗       
+526   AEEHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -13.4275    2020.0589   ✗       
+527   +43.006AEEHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.4292    2063.0647   ✗       
+528   AETVHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -13.4305    2188.1852   ✗       
+529   AEEHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -13.4334    2020.0589   ✗       
+530   AEGVHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -13.4347    2144.1590   ✗       
+531   +43.006AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.4348    2180.1259   ✗       
+532   AEEHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.4380    2117.1117   ✗       
+533   AEYHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -13.4383    2054.0796   ✗       
+534   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.4390    2137.1201   ✗       
+535   +43.006AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.4497    2162.1331   ✗       
+536   AEEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.4539    2119.1273   ✗       
+537   LAEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.4579    2151.1358   ✗       
+538   AEYVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.4587    2153.1481   ✗       
+539   AEMVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.4624    2121.1252   ✗       
+540   AEDVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.4668    2105.1117   ✗       
+541   AEM+15.995HMSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.4671    2169.0922   ✗       
+542   AESHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.4704    2075.1011   ✗       
+543   LAEEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.4729    2133.1430   ✗       
+544   AETVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.4767    2091.1324   ✗       
+545   AEGVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.4808    2047.1062   ✗       
+546   +42.011AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.4827    2080.0623   ✗       
+547   AEEHGSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.4832    2077.0804   ✗       
+548   AEMVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.4889    2121.1252   ✗       
+549   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.4897    2137.1201   ✗       
+550   +42.011AEEHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.4976    2062.0695   ✗       
+551   AEMHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.5020    2185.1201   ✗       
+552   AEDHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.5064    2169.1066   ✗       
+553   AEM+15.995HLSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.5114    2151.1358   ✗       
+554   AETHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.5162    2155.1273   ✗       
+555   AEMHFSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.5168    2169.1252   ✗       
+556   AEMVHGSLLAEEVAAGLPTRK    -1.0000     NotChecked  -13.5181    2178.1467   ✗       
+557   AEEHHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.5198    2157.1178   ✗       
+558   AEGHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.5204    2111.1011   ✗       
+559   +43.006AEMHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.5217    2162.1154   ✗       
+560   AEMHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.5259    2119.1096   ✗       
+561   AEHPSLLAEEVAAGLPTRK      -1.0000     NotChecked  -13.5325    1988.0691   ✗       
+562   +42.011AEMVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.5326    2163.1358   ✗       
+563   AEVHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.5349    2153.1481   ✗       
+564   +43.006AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.5385    2081.0575   ✗       
+565   +43.006AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.5420    2162.1331   ✗       
+566   AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.5426    2038.0517   ✗       
+567   AEEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.5462    2119.1273   ✗       
+568   AEYVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.5511    2153.1481   ✗       
+569   AEDVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.5592    2105.1117   ✗       
+570   LAEEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.5652    2133.1430   ✗       
+571   AETVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.5690    2091.1324   ✗       
+572   AEGVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.5732    2047.1062   ✗       
+573   AEEHMSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.5744    2151.0994   ✗       
+574   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.5820    2137.1201   ✗       
+575   AESVHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -13.5832    2174.1695   ✗       
+576   +42.011AEEHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.5900    2062.0695   ✗       
+577   AEMVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.5926    2121.1252   ✗       
+578   AEEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.5970    2119.1273   ✗       
+579   AEMHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.6123    2119.1096   ✗       
+580   AEDHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.6167    2103.0960   ✗       
+581   AEEHLSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.6187    2133.1430   ✗       
+582   +42.011AEMVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.6249    2163.1358   ✗       
+583   AETHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.6266    2089.1168   ✗       
+584   AESVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.6294    2077.1168   ✗       
+585   AEGHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.6307    2045.0905   ✗       
+586   +43.006AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.6308    2081.0575   ✗       
+587   AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.6350    2038.0517   ✗       
+588   AEEHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.6365    2183.1222   ✗       
+589   AEM+15.995HPSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.6396    2135.1045   ✗       
+590   ALEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.6440    2151.1358   ✗       
+591   AEVHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.6453    2087.1375   ✗       
+592   +43.006AEEHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.6457    2063.0647   ✗       
+593   AEEHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -13.6499    2020.0589   ✗       
+594   AEM+15.995HSSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.6533    2125.0837   ✗       
+595   AEYHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -13.6548    2054.0796   ✗       
+596   AEMHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -13.6584    2022.0568   ✗       
+597   AEDHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -13.6629    2006.0433   ✗       
+598   AESHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.6689    2141.1117   ✗       
+599   AETHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -13.6727    1992.0640   ✗       
+600   AEGHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -13.6769    1948.0378   ✗       
+601   +43.006AEMVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.6807    2164.1310   ✗       
+602   +42.011AEMHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.6825    2161.1201   ✗       
+603   AEMVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.6848    2121.1252   ✗       
+604   AEMVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.6849    2121.1252   ✗       
+605   AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.6857    2038.0517   ✗       
+606   AEEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.6893    2119.1273   ✗       
+607   AEVHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -13.6914    1990.0847   ✗       
+608   LAEMHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.7038    2135.1409   ✗       
+609   AEMHGSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.7142    2079.0783   ✗       
+610   AESVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.7217    2077.1168   ✗       
+611   AEMHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.7244    2185.1201   ✗       
+612   +42.011AEMHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.7286    2064.0674   ✗       
+613   AEHYSLLAEEVAAGLPTRK      -1.0000     NotChecked  -13.7310    2054.0796   ✗       
+614   ALEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.7363    2151.1358   ✗       
+615   +43.006AEEHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.7381    2063.0647   ✗       
+616   AEEHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -13.7423    2020.0589   ✗       
+617   AEEHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.7469    2117.1117   ✗       
+618   AEYHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -13.7471    2054.0796   ✗       
+619   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.7506    2137.1201   ✗       
+620   AEMHHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.7508    2159.1157   ✗       
+621   ALEEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.7513    2133.1430   ✗       
+622   AEDHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -13.7552    2006.0433   ✗       
+623   AEEHSSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.7606    2107.0909   ✗       
+624   AETHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -13.7650    1992.0640   ✗       
+625   AEGHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -13.7692    1948.0378   ✗       
+626   AEMVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.7712    2121.1252   ✗       
+627   +43.006AEMVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.7730    2164.1310   ✗       
+628   AEDVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.7757    2105.1117   ✗       
+629   AEM+15.995HMSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.7759    2169.0922   ✗       
+630   AEMVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.7772    2121.1252   ✗       
+631   AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.7781    2038.0517   ✗       
+632   AESHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.7793    2075.1011   ✗       
+633   AEVHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -13.7837    1990.0847   ✗       
+634   AETVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.7855    2091.1324   ✗       
+635   AEGVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.7897    2047.1062   ✗       
+636   AEEHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -13.7930    2020.0589   ✗       
+637   LAEMHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.7962    2135.1409   ✗       
+638   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.7985    2137.1201   ✗       
+639   AEM+15.995HLSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.8203    2151.1358   ✗       
+640   +42.011AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.8208    2179.1307   ✗       
+641   +42.011AEMHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.8209    2064.0674   ✗       
+642   AESHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -13.8254    1978.0483   ✗       
+643   AEMHFSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.8256    2169.1252   ✗       
+644   AEMVHGSLLAEEVAAGLPTRK    -1.0000     NotChecked  -13.8270    2178.1467   ✗       
+645   +43.006AEMHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.8306    2162.1154   ✗       
+646   AEMHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.8347    2119.1096   ✗       
+647   AEEVHASLLAEEVAAGLPTRK    -1.0000     NotChecked  -13.8355    2190.1644   ✗       
+648   AEHPSLLAEEVAAGLPTRK      -1.0000     NotChecked  -13.8413    1988.0691   ✗       
+649   +42.011AEMVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.8414    2163.1358   ✗       
+650   ALEEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.8436    2133.1430   ✗       
+651   AEEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.8579    2119.1273   ✗       
+652   AEMHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.8675    2185.1201   ✗       
+653   AEDVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.8680    2105.1117   ✗       
+654   +43.006AEMHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.8767    2065.0626   ✗       
+655   AETVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.8778    2091.1324   ✗       
+656   AEMHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -13.8809    2022.0568   ✗       
+657   AEGVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.8820    2047.1062   ✗       
+658   AEEHMSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.8832    2151.0994   ✗       
+659   AEEHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -13.8853    2020.0589   ✗       
+660   AEHSLLAEEVAAGLPTRK       -1.0000     NotChecked  -13.8874    1891.0163   ✗       
+661   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.8909    2137.1201   ✗       
+662   AEM+15.995HPTLLAEEVAAGLPTRK-1.0000     NotChecked  -13.8949    2149.1201   ✗       
+663   AEEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.9058    2119.1273   ✗       
+664   +42.011AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.9131    2179.1307   ✗       
+665   AEEVHGSLLAEEVAAGLPTRK    -1.0000     NotChecked  -13.9136    2176.1488   ✗       
+666   AESHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -13.9177    1978.0483   ✗       
+667   AEM+15.995HASLLAEEVAAGLPTRK-1.0000     NotChecked  -13.9242    2109.0888   ✗       
+668   AEEHLSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.9275    2133.1430   ✗       
+669   +42.011AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.9280    2161.1379   ✗       
+670   +42.011AEMVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.9337    2163.1358   ✗       
+671   AESVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.9382    2077.1168   ✗       
+672   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.9467    2137.1201   ✗       
+673   ALEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.9528    2151.1358   ✗       
+674   AEM+15.995HSSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.9621    2125.0837   ✗       
+675   AEMHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -13.9673    2022.0568   ✗       
+676   +43.006AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.9689    2180.1259   ✗       
+677   +43.006AEMHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.9690    2065.0626   ✗       
+678   AEMHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.9778    2119.1096   ✗       
+679   +43.006AEMVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.9895    2164.1310   ✗       
+680   AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -13.9946    2038.0517   ✗       
+681   AEEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -13.9982    2119.1273   ✗       
+682   LAEMHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -14.0127    2135.1409   ✗       
+683   +42.011AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.0168    2179.1307   ✗       
+684   +42.011AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.0204    2161.1379   ✗       
+685   +42.011AEM+15.995HPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.0365    2177.1150   ✗       
+686   +42.011AEMHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.0374    2064.0674   ✗       
+687   +43.006AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.0612    2180.1259   ✗       
+688   +43.006AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.0761    2162.1331   ✗       
+689   +43.006AEMVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.0818    2164.1310   ✗       
+690   AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.0869    2038.0517   ✗       
+691   AEEHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -14.1018    2020.0589   ✗       
+692   LAEMHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -14.1050    2135.1409   ✗       
+693   +42.011AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.1091    2179.1307   ✗       
+694   +42.011AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.1241    2161.1379   ✗       
+695   +42.011AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.1296    2179.1307   ✗       
+696   +42.011AEMHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.1298    2064.0674   ✗       
+697   AEMVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -14.1368    2121.1252   ✗       
+698   +42.011AEEHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.1438    2159.1222   ✗       
+699   +43.006AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.1649    2180.1259   ✗       
+700   +43.006AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.1685    2162.1331   ✗       
+701   AEMHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -14.1763    2185.1201   ✗       
+702   +43.006AEM+15.995HPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.1846    2178.1103   ✗       
+703   +43.006AEMHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.1855    2065.0626   ✗       
+704   AEEHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -14.1942    2020.0589   ✗       
+705   +42.011AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.1954    2179.1307   ✗       
+706   +42.011AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.2164    2161.1379   ✗       
+707   +42.011AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.2220    2179.1307   ✗       
+708   AEMVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -14.2291    2121.1252   ✗       
+709   +42.011AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.2369    2161.1379   ✗       
+710   +43.006AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.2572    2180.1259   ✗       
+711   +42.011AEM+15.995HPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.2589    2177.1150   ✗       
+712   +43.006AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.2722    2162.1331   ✗       
+713   +43.006AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.2777    2180.1259   ✗       
+714   +43.006AEMHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.2779    2065.0626   ✗       
+715   AEMHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -14.2867    2119.1096   ✗       
+716   +43.006AEEHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.2919    2160.1175   ✗       
+717   +42.011AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.3027    2161.1379   ✗       
+718   +42.011AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.3256    2179.1307   ✗       
+719   +42.011AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.3292    2161.1379   ✗       
+720   AEMHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -14.3328    2022.0568   ✗       
+721   +43.006AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.3435    2180.1259   ✗       
+722   +42.011AEM+15.995HPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.3453    2177.1150   ✗       
+723   +43.006AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.3645    2162.1331   ✗       
+724   +42.011AEEHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.3662    2159.1222   ✗       
+725   LAEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.3667    2151.1358   ✗       
+726   +43.006AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.3701    2180.1259   ✗       
+727   +43.006AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.3850    2162.1331   ✗       
+728   +42.011AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.3915    2080.0623   ✗       
+729   +43.006AEM+15.995HPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.4070    2178.1103   ✗       
+730   +42.011AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.4179    2179.1307   ✗       
+731   +42.011AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.4180    2179.1307   ✗       
+732   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.4250    2137.1201   ✗       
+733   AEMHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -14.4251    2022.0568   ✗       
+734   +42.011AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.4329    2161.1379   ✗       
+735   AEMVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -14.4456    2121.1252   ✗       
+736   +42.011AEM+15.995HGSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.4472    2137.0837   ✗       
+737   +43.006AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.4508    2162.1331   ✗       
+738   +42.011AEEHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.4526    2159.1222   ✗       
+739   +42.011AEMVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.4678    2163.1358   ✗       
+740   +43.006AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.4737    2180.1259   ✗       
+741   LAEEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -14.4740    2133.1430   ✗       
+742   +43.006AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.4773    2162.1331   ✗       
+743   +43.006AEM+15.995HPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.4934    2178.1103   ✗       
+744   +42.011AEEHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.4988    2062.0695   ✗       
+745   +42.011AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.5043    2179.1307   ✗       
+746   +42.011AEGVHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.5060    2186.1695   ✗       
+747   +42.011AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.5102    2179.1307   ✗       
+748   +43.006AEEHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.5143    2160.1175   ✗       
+749   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.5173    2137.1201   ✗       
+750   +42.011AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.5252    2161.1379   ✗       
+751   +42.011AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.5253    2161.1379   ✗       
+752   LAEEHGSLLAEEVAAGLPTRK    -1.0000     NotChecked  -14.5297    2190.1644   ✗       
+753   AEEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -14.5323    2119.1273   ✗       
+754   AEMVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -14.5380    2121.1252   ✗       
+755   +43.006AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.5396    2081.0575   ✗       
+756   +42.011AEEHGSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.5545    2119.0909   ✗       
+757   +42.011AEMVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.5602    2163.1358   ✗       
+758   +43.006AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.5660    2180.1259   ✗       
+759   +43.006AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.5661    2180.1259   ✗       
+760   +42.011AEM+15.995HPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.5678    2177.1150   ✗       
+761   +43.006AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.5810    2162.1331   ✗       
+762   LAEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.5891    2151.1358   ✗       
+763   +42.011AEGHYSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.5917    2153.1117   ✗       
+764   +43.006AEM+15.995HGSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.5953    2138.0790   ✗       
+765   +43.006AEEHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.6007    2160.1175   ✗       
+766   +42.011AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.6116    2161.1379   ✗       
+767   +42.011AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.6139    2080.0623   ✗       
+768   +43.006AEMVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.6159    2164.1310   ✗       
+769   +42.011AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.6175    2161.1379   ✗       
+770   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.6210    2137.1201   ✗       
+771   AEEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -14.6246    2119.1273   ✗       
+772   AEEHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -14.6377    2183.1222   ✗       
+773   AEM+15.995HPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.6407    2135.1045   ✗       
+774   AEMHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -14.6416    2022.0568   ✗       
+775   +43.006AEEHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.6469    2063.0647   ✗       
+776   +43.006AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.6524    2180.1259   ✗       
+777   +43.006AEGVHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.6541    2187.1648   ✗       
+778   +43.006AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.6583    2180.1259   ✗       
+779   +42.011AEMVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.6639    2163.1358   ✗       
+780   +43.006AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.6733    2162.1331   ✗       
+781   +43.006AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.6734    2162.1331   ✗       
+782   +42.011AEEHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.6751    2159.1222   ✗       
+783   LAEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.6756    2151.1358   ✗       
+784   LAEGHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -14.6772    2158.1746   ✗       
+785   LAEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.6815    2151.1358   ✗       
+786   +42.011AEMHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.6836    2161.1201   ✗       
+787   +42.011AEDHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.6880    2145.1066   ✗       
+788   LAEEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -14.6964    2133.1430   ✗       
+789   +42.011AETHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.6978    2131.1273   ✗       
+790   +42.011AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.7003    2080.0623   ✗       
+791   LAEYHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -14.7013    2167.1637   ✗       
+792   +42.011AEGHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.7020    2087.1011   ✗       
+793   +43.006AEEHGSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.7026    2120.0862   ✗       
+794   +42.011AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.7063    2080.0623   ✗       
+795   +43.006AEMVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.7083    2164.1310   ✗       
+796   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.7134    2137.1201   ✗       
+797   +43.006AEM+15.995HPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.7159    2178.1103   ✗       
+798   +42.011AEVHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.7165    2129.1481   ✗       
+799   +42.011AEEHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.7212    2062.0695   ✗       
+800   +42.011AEYHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.7261    2096.0902   ✗       
+801   +42.011AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.7267    2179.1307   ✗       
+802   AEEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -14.7283    2119.1273   ✗       
+803   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.7338    2137.1201   ✗       
+804   AEMHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -14.7340    2022.0568   ✗       
+805   +43.006AEGHYSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.7398    2154.1069   ✗       
+806   +42.011AESHYSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.7402    2183.1222   ✗       
+807   AEEHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -14.7480    2117.1117   ✗       
+808   +42.011AEM+15.995HGSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.7561    2137.0837   ✗       
+809   +42.011AEMVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.7562    2163.1358   ✗       
+810   +43.006AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.7597    2162.1331   ✗       
+811   +43.006AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.7620    2081.0575   ✗       
+812   +43.006AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.7656    2162.1331   ✗       
+813   +42.011AEMVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.7767    2163.1358   ✗       
+814   LAEHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -14.7775    2167.1637   ✗       
+815   LAEEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -14.7828    2133.1430   ✗       
+816   LAEEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -14.7888    2133.1430   ✗       
+817   LAEYHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -14.7936    2167.1637   ✗       
+818   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.7997    2137.1201   ✗       
+819   +42.011AEHYSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.8022    2096.0902   ✗       
+820   +42.011AEEHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.8076    2062.0695   ✗       
+821   +43.006AEMVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.8120    2164.1310   ✗       
+822   +42.011AEEHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.8135    2062.0695   ✗       
+823   +42.011AEGVHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.8148    2186.1695   ✗       
+824   +42.011AEYHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.8184    2096.0902   ✗       
+825   +42.011AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.8191    2179.1307   ✗       
+826   AEEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -14.8206    2119.1273   ✗       
+827   +43.006AEEHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.8232    2160.1175   ✗       
+828   LAESHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -14.8258    2188.1852   ✗       
+829   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.8262    2137.1201   ✗       
+830   +43.006AEMHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.8317    2162.1154   ✗       
+831   +42.011AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.8340    2161.1379   ✗       
+832   +43.006AEDHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.8361    2146.1018   ✗       
+833   LAEGVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -14.8362    2160.1903   ✗       
+834   LAEEHGSLLAEEVAAGLPTRK    -1.0000     NotChecked  -14.8386    2190.1644   ✗       
+835   AEEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -14.8411    2119.1273   ✗       
+836   +42.011AEMVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.8425    2163.1358   ✗       
+837   +43.006AETHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.8459    2132.1226   ✗       
+838   +42.011AEDVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.8470    2147.1222   ✗       
+839   +43.006AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.8484    2081.0575   ✗       
+840   +43.006AEGHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.8501    2088.0964   ✗       
+841   +42.011AESHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.8505    2117.1117   ✗       
+842   AEM+15.995HFSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.8541    2185.1201   ✗       
+843   +43.006AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.8544    2081.0575   ✗       
+844   +42.011AETVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.8568    2133.1430   ✗       
+845   AEEHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -14.8601    2183.1222   ✗       
+846   +42.011AEGVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.8610    2089.1168   ✗       
+847   AEM+15.995HPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.8632    2135.1045   ✗       
+848   +42.011AEEHGSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.8633    2119.0909   ✗       
+849   +43.006AEVHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.8647    2130.1433   ✗       
+850   +42.011AEMVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.8690    2163.1358   ✗       
+851   +43.006AEEHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.8693    2063.0647   ✗       
+852   +43.006AEYHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.8742    2097.0855   ✗       
+853   +43.006AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.8748    2180.1259   ✗       
+854   LAEHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -14.8878    2101.1531   ✗       
+855   +43.006AESHYSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.8883    2184.1175   ✗       
+856   LAEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.8980    2151.1358   ✗       
+857   +42.011AEGHYSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.9005    2153.1117   ✗       
+858   +43.006AEM+15.995HGSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.9042    2138.0790   ✗       
+859   +43.006AEMVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.9043    2164.1310   ✗       
+860   +42.011AEMHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.9060    2161.1201   ✗       
+861   AEEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -14.9069    2119.1273   ✗       
+862   +42.011AEHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.9126    2030.0796   ✗       
+863   +42.011AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.9228    2080.0623   ✗       
+864   +43.006AEMVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.9248    2164.1310   ✗       
+865   +42.011AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.9263    2161.1379   ✗       
+866   LAEGVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -14.9285    2160.1903   ✗       
+867   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.9299    2137.1201   ✗       
+868   AEEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -14.9335    2119.1273   ✗       
+869   +42.011AEDVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.9393    2147.1222   ✗       
+870   AEEHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -14.9465    2183.1222   ✗       
+871   SAEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.9466    2125.0837   ✗       
+872   +42.011AETVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.9491    2133.1430   ✗       
+873   AEM+15.995HPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.9496    2135.1045   ✗       
+874   +43.006AEHYSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.9503    2097.0855   ✗       
+875   +42.011AEGVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.9533    2089.1168   ✗       
+876   +43.006AEEHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.9557    2063.0647   ✗       
+877   AEEHFSLLAEEVAAGLPTRK     -1.0000     NotChecked  -14.9613    2167.1273   ✗       
+878   +43.006AEEHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.9616    2063.0647   ✗       
+879   AEEVHGSLLAEEVAAGLPTRK    -1.0000     NotChecked  -14.9627    2176.1488   ✗       
+880   +43.006AEGVHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.9629    2187.1648   ✗       
+881   +43.006AEYHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.9665    2097.0855   ✗       
+882   +43.006AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.9672    2180.1259   ✗       
+883   AEEHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -14.9704    2117.1117   ✗       
+884   +42.011AEMVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.9727    2163.1358   ✗       
+885   AEYHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -14.9753    2151.1324   ✗       
+886   +43.006AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.9821    2162.1331   ✗       
+887   LAESVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -14.9847    2190.2008   ✗       
+888   LAEGHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -14.9861    2158.1746   ✗       
+889   LAEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.9903    2151.1358   ✗       
+890   +43.006AEMVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.9906    2164.1310   ✗       
+891   +42.011AEMHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.9924    2161.1201   ✗       
+892   +43.006AEDVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.9951    2148.1175   ✗       
+893   AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.9957    2038.0517   ✗       
+894   +42.011AEDHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.9969    2145.1066   ✗       
+895   +43.006AESHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.9987    2118.1069   ✗       
+896   +42.011AEEHLSLLAEEVAAGLPTRK-1.0000     NotChecked  -14.9988    2175.1535   ✗       
+897   +43.006AETVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.0049    2134.1382   ✗       
+898   LAEEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -15.0053    2133.1430   ✗       
+899   +42.011AETHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.0067    2131.1273   ✗       
+900   +43.006AEGVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.0091    2090.1120   ✗       
+901   +42.011AESVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.0095    2119.1273   ✗       
+902   LAEYHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -15.0101    2167.1637   ✗       
+903   +42.011AEGHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.0109    2087.1011   ✗       
+904   +43.006AEEHGSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.0114    2120.0862   ✗       
+905   LAEMHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -15.0138    2135.1409   ✗       
+906   +42.011AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.0151    2080.0623   ✗       
+907   +43.006AEMVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.0171    2164.1310   ✗       
+908   LAEDHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -15.0182    2119.1273   ✗       
+909   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.0221    2137.1201   ✗       
+910   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.0222    2137.1201   ✗       
+911   +42.011AEVHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.0254    2129.1481   ✗       
+912   LAETHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -15.0280    2105.1481   ✗       
+913   +42.011AEEHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.0300    2062.0695   ✗       
+914   LAEGHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -15.0322    2061.1218   ✗       
+915   +42.011AEM+15.995HSSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.0334    2167.0943   ✗       
+916   +42.011AEYHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.0349    2096.0902   ✗       
+917   AEEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -15.0371    2119.1273   ✗       
+918   +42.011AEMHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.0386    2064.0674   ✗       
+919   SAEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.0389    2125.0837   ✗       
+920   +42.011AEDHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.0430    2048.0538   ✗       
+921   LAEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -15.0468    2103.1688   ✗       
+922   +43.006AEGHYSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.0486    2154.1069   ✗       
+923   +42.011AESHYSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.0491    2183.1222   ✗       
+924   AEM+15.995HGSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.0514    2095.0732   ✗       
+925   +42.011AETHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.0528    2034.0746   ✗       
+926   SAEEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -15.0539    2107.0909   ✗       
+927   +43.006AEMHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.0541    2162.1154   ✗       
+928   AEEHPSLLAEEVAAGLPTRK     -1.0000     NotChecked  -15.0568    2117.1117   ✗       
+929   +42.011AEGHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.0570    1990.0483   ✗       
+930   +43.006AEHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.0607    2031.0749   ✗       
+931   +42.011AEMVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.0650    2163.1358   ✗       
+932   +42.011AEMVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.0651    2163.1358   ✗       
+933   +43.006AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.0709    2081.0575   ✗       
+934   +42.011AEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.0715    2032.0953   ✗       
+935   AEMVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -15.0721    2121.1252   ✗       
+936   +43.006AEEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.0745    2162.1331   ✗       
+937   LAESVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -15.0771    2190.2008   ✗       
+938   LAEHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -15.0863    2167.1637   ✗       
+939   +43.006AEDVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.0874    2148.1175   ✗       
+940   AEM+15.995HHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.0880    2175.1106   ✗       
+941   +42.011AEMHGSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.0943    2121.0888   ✗       
+942   +43.006AETVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.0972    2134.1382   ✗       
+943   LAEEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -15.0976    2133.1430   ✗       
+944   +43.006AEGVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1014    2090.1120   ✗       
+945   +42.011AESVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1018    2119.1273   ✗       
+946   LAEYHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -15.1025    2167.1637   ✗       
+947   AEEHSLLAEEVAAGLPTRK      -1.0000     NotChecked  -15.1030    2020.0589   ✗       
+948   AETVHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -15.1060    2188.1852   ✗       
+949   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1085    2137.1201   ✗       
+950   AEGVHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -15.1102    2144.1590   ✗       
+951   LAEDHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -15.1106    2119.1273   ✗       
+952   +42.011AEHYSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1111    2096.0902   ✗       
+953   AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1144    2137.1201   ✗       
+954   LAETHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -15.1204    2105.1481   ✗       
+955   +43.006AEMVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1208    2164.1310   ✗       
+956   +42.011AEEHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1224    2062.0695   ✗       
+957   LAEGHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -15.1246    2061.1218   ✗       
+958   +42.011AEYHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1272    2096.0902   ✗       
+959   AEEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -15.1294    2119.1273   ✗       
+960   AEEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -15.1295    2119.1273   ✗       
+961   +42.011AEM+15.995VHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1307    2179.1307   ✗       
+962   AEYVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -15.1342    2153.1481   ✗       
+963   LAESHPSLLAEEVAAGLPTRK    -1.0000     NotChecked  -15.1346    2188.1852   ✗       
+964   +42.011AEDHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1353    2048.0538   ✗       
+965   LAEVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -15.1391    2103.1688   ✗       
+966   +43.006AEMHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1405    2162.1154   ✗       
+967   +42.011AEEHSSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1407    2149.1015   ✗       
+968   +43.006AEDHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1450    2146.1018   ✗       
+969   LAEGVHSLLAEEVAAGLPTRK    -1.0000     NotChecked  -15.1450    2160.1903   ✗       
+970   +42.011AETHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1451    2034.0746   ✗       
+971   SAEEHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -15.1462    2107.0909   ✗       
+972   +43.006AEEHLSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1469    2176.1488   ✗       
+973   +42.011AEGHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1493    1990.0483   ✗       
+974   +42.011AEMVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1514    2163.1358   ✗       
+975   +43.006AETHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1548    2132.1226   ✗       
+976   +42.011AEDVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1558    2147.1222   ✗       
+977   +42.011AEMVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1573    2163.1358   ✗       
+978   +43.006AESVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1576    2120.1226   ✗       
+979   AEEHGSLLAEEVAAGLPTRK     -1.0000     NotChecked  -15.1587    2077.0804   ✗       
+980   +43.006AEGHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1590    2088.0964   ✗       
+981   +42.011AESHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1594    2117.1117   ✗       
+982   AEM+15.995HFSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1629    2185.1201   ✗       
+983   +43.006AEM+15.995HSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1632    2081.0575   ✗       
+984   +42.011AEVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1639    2032.0953   ✗       
+985   AEMVHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -15.1644    2121.1252   ✗       
+986   +42.011AETVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1656    2133.1430   ✗       
+987   AEEHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -15.1689    2183.1222   ✗       
+988   +42.011AEGVHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1698    2089.1168   ✗       
+989   AEM+15.995HPSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1720    2135.1045   ✗       
+990   +43.006AEVHPSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1735    2130.1433   ✗       
+991   AEMHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -15.1775    2185.1201   ✗       
+992   +43.006AEEHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1781    2063.0647   ✗       
+993   LAESHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -15.1808    2091.1324   ✗       
+994   +43.006AEM+15.995HSSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1815    2168.0896   ✗       
+995   AEDHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -15.1819    2169.1066   ✗       
+996   +43.006AEYHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1830    2097.0855   ✗       
+997   +43.006AEMHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1867    2065.0626   ✗       
+998   +43.006AEDHSLLAEEVAAGLPTRK-1.0000     NotChecked  -15.1911    2049.0491   ✗       
+999   AETHYSLLAEEVAAGLPTRK     -1.0000     NotChecked  -15.1917    2155.1273   ✗       
+1000  AEEHHSLLAEEVAAGLPTRK     -1.0000     NotChecked  -15.1953    2157.1178   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: AAMMHPSLLAEEVAAGLPTRK
+Similarity: 0.5449
+De Novo Score: -9.4128
+Source: Prosit
+Correct: ✗
+

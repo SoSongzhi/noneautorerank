@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 213
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 487.2695
+Precursor charge: 3+
+Ground truth: QVAASTAQIIVAC+57.021K
+Ground truth (normalized): QVAASTAQIIVAC+57.021K
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 337
+Used for reranking: 337
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 337 (33.7%)
+Database matches: 273 (27.3%)
+Prosit predictions: 63 (6.3%)
+Failed: 1 (0.1%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.9507
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     QVAASTAQLLVAC+57.021K    0.9507      Database    -0.1057     1458.7864   ✓       ✓
+2     QVAASTAQLLVAC+57.021K    0.9507      Database    -3.0702     1458.7864   ✓       ✓
+3     QVAASTAQLLVAC+57.021K    0.9507      Database    -4.3521     1458.7864   ✓       ✓
+4     QVAASTAQLLVAC+57.021K    0.9507      Database    -4.3911     1458.7864   ✓       ✓
+5     QVAASTAQLLVAC+57.021K    0.9507      Database    -4.4178     1458.7864   ✓       ✓
+6     QVAASTAQLLVAC+57.021K    0.9507      Database    -5.1478     1458.7864   ✓       ✓
+7     QVAASTAQLLVAC+57.021K    0.9507      Database    -5.1663     1458.7864   ✓       ✓
+8     QVAASTAQLLVAC+57.021K    0.9507      Database    -7.3166     1458.7864   ✓       ✓
+9     QVAASTAQLLVAC+57.021K    0.9507      Database    -7.3556     1458.7864   ✓       ✓
+10    QVAASTAQLLVAC+57.021K    0.9507      Database    -7.3823     1458.7864   ✓       ✓
+11    QVAASTAQLLVAC+57.021K    0.9507      Database    -7.4392     1458.7864   ✓       ✓
+12    QVAASTAQLLVAC+57.021K    0.9507      Database    -7.5820     1458.7864   ✓       ✓
+13    QVAASTAQLLVAC+57.021K    0.9507      Database    -8.1124     1458.7864   ✓       ✓
+14    QVAASTAQLLVAC+57.021K    0.9507      Database    -8.1308     1458.7864   ✓       ✓
+15    QVAASTAQLLVAC+57.021K    0.9507      Database    -8.6375     1458.7864   ✓       ✓
+16    QVAASTAQLLVAC+57.021K    0.9507      Database    -8.6642     1458.7864   ✓       ✓
+17    QVAASTAQLLVAC+57.021K    0.9507      Database    -8.7032     1458.7864   ✓       ✓
+18    QVAASTAQLLVAC+57.021K    0.9507      Database    -9.3943     1458.7864   ✓       ✓
+19    QVAASTAQLLVAC+57.021K    0.9507      Database    -9.4127     1458.7864   ✓       ✓
+20    QVAASTAQLLVAC+57.021K    0.9507      Database    -9.4333     1458.7864   ✓       ✓
+21    QVAASTAQLLVAC+57.021K    0.9507      Database    -9.4517     1458.7864   ✓       ✓
+22    QVAASTAQLLVAC+57.021K    0.9507      Database    -9.4600     1458.7864   ✓       ✓
+23    QVAASTAQLLVAC+57.021K    0.9507      Database    -9.4784     1458.7864   ✓       ✓
+24    QVAASTAQLLVAC+57.021K    0.9507      Database    -10.2084    1458.7864   ✓       ✓
+25    QVAASTAQLLVAC+57.021K    0.9507      Database    -10.3073    1458.7864   ✓       ✓
+26    QVAASTAQLLVAC+57.021K    0.9507      Database    -10.4037    1458.7864   ✓       ✓
+27    QVAASTAQLLVAC+57.021K    0.9507      Database    -10.5465    1458.7864   ✓       ✓
+28    QVAASTAQLLVAC+57.021K    0.9507      Database    -11.6020    1458.7864   ✓       ✓
+29    QVAASTAQLLVAC+57.021K    0.9507      Database    -11.6288    1458.7864   ✓       ✓
+30    QVAASTAQLLVAC+57.021K    0.9507      Database    -11.6677    1458.7864   ✓       ✓
+31    QVAASTAQLLVAC+57.021K    0.9507      Database    -11.6856    1458.7864   ✓       ✓
+32    QVAASTAQLLVAC+57.021K    0.9507      Database    -11.7246    1458.7864   ✓       ✓
+33    QVAASTAQLLVAC+57.021K    0.9507      Database    -11.7513    1458.7864   ✓       ✓
+34    QVAASTAQLLVAC+57.021K    0.9507      Database    -11.8284    1458.7864   ✓       ✓
+35    QVAASTAQLLVAC+57.021K    0.9507      Database    -11.8674    1458.7864   ✓       ✓
+36    QVAASTAQLLVAC+57.021K    0.9507      Database    -11.8941    1458.7864   ✓       ✓
+37    QVAASTAQLLVAC+57.021K    0.9507      Database    -12.2182    1458.7864   ✓       ✓
+38    QVAASTAQLLVAC+57.021K    0.9507      Database    -12.3588    1458.7864   ✓       ✓
+39    QVAASTAQLLVAC+57.021K    0.9507      Database    -12.3772    1458.7864   ✓       ✓
+40    QVAASTAQLLVAC+57.021K    0.9507      Database    -12.3978    1458.7864   ✓       ✓
+41    QVAASTAQLLVAC+57.021K    0.9507      Database    -12.4162    1458.7864   ✓       ✓
+42    QVAASTAQLLVAC+57.021K    0.9507      Database    -12.4245    1458.7864   ✓       ✓
+43    QVAASTAQLLVAC+57.021K    0.9507      Database    -12.4429    1458.7864   ✓       ✓
+44    QVAASTAQLLVAC+57.021K    0.9507      Database    -12.4814    1458.7864   ✓       ✓
+45    QVAASTAQLLVAC+57.021K    0.9507      Database    -12.4998    1458.7864   ✓       ✓
+46    QVAASTAQLLVAC+57.021K    0.9507      Database    -12.6241    1458.7864   ✓       ✓
+47    QVAASTAQLLVAC+57.021K    0.9507      Database    -12.6426    1458.7864   ✓       ✓
+48    QVAASTAQLLVAC+57.021K    0.9507      Database    -12.9496    1458.7864   ✓       ✓
+49    QVAASTAQLLVAC+57.021K    0.9507      Database    -13.1730    1458.7864   ✓       ✓
+50    QVAASTAQLLVAC+57.021K    0.9507      Database    -13.2718    1458.7864   ✓       ✓
+51    QVAASTAQLLVAC+57.021K    0.9507      Database    -13.2740    1458.7864   ✓       ✓
+52    QVAASTAQLLVAC+57.021K    0.9507      Database    -13.6797    1458.7864   ✓       ✓
+53    QVAASTAQLLVAC+57.021K    0.9507      Database    -13.6981    1458.7864   ✓       ✓
+54    QVAASTAQLLVAC+57.021K    0.9507      Database    -13.7064    1458.7864   ✓       ✓
+55    QVAASTAQLLVAC+57.021K    0.9507      Database    -13.7248    1458.7864   ✓       ✓
+56    QVAASTAQLLVAC+57.021K    0.9507      Database    -13.7454    1458.7864   ✓       ✓
+57    QVAASTAQLLVAC+57.021K    0.9507      Database    -13.7638    1458.7864   ✓       ✓
+58    QVAASTAQLLVAC+57.021K    0.9507      Database    -13.7965    1458.7864   ✓       ✓
+59    QVAASTAQLLVAC+57.021K    0.9507      Database    -13.8204    1458.7864   ✓       ✓
+60    QVAASTAQLLVAC+57.021K    0.9507      Database    -14.2557    1458.7864   ✓       ✓
+61    QVAASTAQLLVAC+57.021K    0.9507      Database    -14.3773    1458.7864   ✓       ✓
+62    QVAASTAQLLVAC+57.021K    0.9507      Database    -14.4549    1458.7864   ✓       ✓
+63    QVAASTAQLLVAC+57.021K    0.9507      Database    -14.4939    1458.7864   ✓       ✓
+64    QVAASTAQLLVAC+57.021K    0.9507      Database    -14.5206    1458.7864   ✓       ✓
+65    QVAASTAQLLVAC+57.021K    0.9507      Database    -14.5927    1458.7864   ✓       ✓
+66    QVAASTAQLLVAC+57.021K    0.9507      Database    -14.6194    1458.7864   ✓       ✓
+67    QVAASTAQLLVAC+57.021K    0.9507      Database    -14.6502    1458.7864   ✓       ✓
+68    QVAASTAQLLVAC+57.021K    0.9507      Database    -14.6891    1458.7864   ✓       ✓
+69    QVAASTAQLLVAC+57.021K    0.9507      Database    -14.7159    1458.7864   ✓       ✓
+70    QVAASTAQLLVAC+57.021K    0.9507      Database    -14.7929    1458.7864   ✓       ✓
+71    QVAASTAQLLVAC+57.021K    0.9507      Database    -14.8319    1458.7864   ✓       ✓
+72    QVAASTAQLLVAC+57.021K    0.9507      Database    -14.8586    1458.7864   ✓       ✓
+73    QVAASTAQLLVAC+57.021K    0.9507      Database    -14.9155    1458.7864   ✓       ✓
+74    QVAASTAQLLVAC+57.021K    0.9507      Database    -15.1828    1458.7864   ✓       ✓
+75    QVAASTAQLLVAC+57.021K    0.9507      Database    -15.3495    1458.7864   ✓       ✓
+76    QVAASTAQLLVAC+57.021K    0.9507      Database    -15.3679    1458.7864   ✓       ✓
+77    QVAASTAQLLVAC+57.021K    0.9507      Database    -15.4459    1458.7864   ✓       ✓
+78    QVAASTAQLLVAC+57.021K    0.9507      Database    -15.4643    1458.7864   ✓       ✓
+79    QVAASTAQLLVAC+57.021K    0.9507      Database    -15.5887    1458.7864   ✓       ✓
+80    QVAASTAQLLVAC+57.021K    0.9507      Database    -15.6071    1458.7864   ✓       ✓
+81    QVAASTAQLLVAC+57.021K    0.9507      Database    -15.9142    1458.7864   ✓       ✓
+82    QVAASTAQLLVAC+57.021K    0.9507      Database    -15.9710    1458.7864   ✓       ✓
+83    QVAASTAQLLVAC+57.021K    0.9507      Database    -15.9978    1458.7864   ✓       ✓
+84    QVAASTAQLLVAC+57.021K    0.9507      Database    -16.0368    1458.7864   ✓       ✓
+85    QVAASTAQLLVAC+57.021K    0.9507      Database    -16.1138    1458.7864   ✓       ✓
+86    QVAASTAQLLVAC+57.021K    0.9507      Database    -16.1405    1458.7864   ✓       ✓
+87    QVAASTAQLLVAC+57.021K    0.9507      Database    -16.1795    1458.7864   ✓       ✓
+88    QVAASTAQLLVAC+57.021K    0.9507      Database    -16.2385    1458.7864   ✓       ✓
+89    QVAASTAQLLVAC+57.021K    0.9507      Database    -16.4647    1458.7864   ✓       ✓
+90    QVAASTAQLLVAC+57.021K    0.9507      Database    -16.5036    1458.7864   ✓       ✓
+91    QVAASTAQLLVAC+57.021K    0.9507      Database    -16.5304    1458.7864   ✓       ✓
+92    QVAASTAQLLVAC+57.021K    0.9507      Database    -16.6442    1458.7864   ✓       ✓
+93    QVAASTAQLLVAC+57.021K    0.9507      Database    -16.6626    1458.7864   ✓       ✓
+94    QVAASTAQLLVAC+57.021K    0.9507      Database    -16.6709    1458.7864   ✓       ✓
+95    QVAASTAQLLVAC+57.021K    0.9507      Database    -16.6894    1458.7864   ✓       ✓
+96    QVAASTAQLLVAC+57.021K    0.9507      Database    -16.7099    1458.7864   ✓       ✓
+97    QVAASTAQLLVAC+57.021K    0.9507      Database    -16.7278    1458.7864   ✓       ✓
+98    QVAASTAQLLVAC+57.021K    0.9507      Database    -16.7284    1458.7864   ✓       ✓
+99    QVAASTAQLLVAC+57.021K    0.9507      Database    -16.7462    1458.7864   ✓       ✓
+100   QVAASTAQLLVAC+57.021K    0.9507      Database    -16.7668    1458.7864   ✓       ✓
+101   QVAASTAQLLVAC+57.021K    0.9507      Database    -16.7850    1458.7864   ✓       ✓
+102   QVAASTAQLLVAC+57.021K    0.9507      Database    -16.7852    1458.7864   ✓       ✓
+103   QVAASTAQLLVAC+57.021K    0.9507      Database    -16.7935    1458.7864   ✓       ✓
+104   QVAASTAQLLVAC+57.021K    0.9507      Database    -16.7971    1458.7864   ✓       ✓
+105   QVAASTAQLLVAC+57.021K    0.9507      Database    -16.8120    1458.7864   ✓       ✓
+106   QVAASTAQLLVAC+57.021K    0.9507      Database    -16.8706    1458.7864   ✓       ✓
+107   QVAASTAQLLVAC+57.021K    0.9507      Database    -16.8890    1458.7864   ✓       ✓
+108   QVAASTAQLLVAC+57.021K    0.9507      Database    -16.8912    1458.7864   ✓       ✓
+109   QVAASTAQLLVAC+57.021K    0.9507      Database    -16.9096    1458.7864   ✓       ✓
+110   QVAASTAQLLVAC+57.021K    0.9507      Database    -16.9280    1458.7864   ✓       ✓
+111   QVAASTAQLLVAC+57.021K    0.9507      Database    -16.9363    1458.7864   ✓       ✓
+112   QVAASTAQLLVAC+57.021K    0.9507      Database    -16.9547    1458.7864   ✓       ✓
+113   QVAASTAQLLVAC+57.021K    0.9507      Database    -17.0628    1458.7864   ✓       ✓
+114   QVAASTAQLLVAC+57.021K    0.9507      Database    -17.1455    1458.7864   ✓       ✓
+115   QVAASTAQLLVAC+57.021K    0.9507      Database    -17.2203    1458.7864   ✓       ✓
+116   QVAASTAQLLVAC+57.021K    0.9507      Database    -17.2604    1458.7864   ✓       ✓
+117   QVAASTAQLLVAC+57.021K    0.9507      Database    -17.3418    1458.7864   ✓       ✓
+118   QVAASTAQLLVAC+57.021K    0.9507      Database    -17.4194    1458.7864   ✓       ✓
+119   QVAASTAQLLVAC+57.021K    0.9507      Database    -17.4584    1458.7864   ✓       ✓
+120   QVAASTAQLLVAC+57.021K    0.9507      Database    -17.4851    1458.7864   ✓       ✓
+121   QVAASTAQLLVAC+57.021K    0.9507      Database    -17.5204    1458.7864   ✓       ✓
+122   QVAASTAQLLVAC+57.021K    0.9507      Database    -17.5420    1458.7864   ✓       ✓
+123   QVAASTAQLLVAC+57.021K    0.9507      Database    -17.5572    1458.7864   ✓       ✓
+124   QVAASTAQLLVAC+57.021K    0.9507      Database    -17.5594    1458.7864   ✓       ✓
+125   QVAASTAQLLVAC+57.021K    0.9507      Database    -17.5840    1458.7864   ✓       ✓
+126   QVAASTAQLLVAC+57.021K    0.9507      Database    -17.5861    1458.7864   ✓       ✓
+127   QVAASTAQLLVAC+57.021K    0.9507      Database    -17.6408    1458.7864   ✓       ✓
+128   QVAASTAQLLVAC+57.021K    0.9507      Database    -17.6847    1458.7864   ✓       ✓
+129   QVAASTAQLLVAC+57.021K    0.9507      Database    -17.7836    1458.7864   ✓       ✓
+130   QVAASTAQLLVAC+57.021K    0.9507      Database    -17.8800    1458.7864   ✓       ✓
+131   QVAASTAQLLVAC+57.021K    0.9507      Database    -17.9918    1458.7864   ✓       ✓
+132   QVAASTAQLLVAC+57.021K    0.9507      Database    -18.0102    1458.7864   ✓       ✓
+133   QVAASTAQLLVAC+57.021K    0.9507      Database    -18.0430    1458.7864   ✓       ✓
+134   QVAASTAQLLVAC+57.021K    0.9507      Database    -18.0669    1458.7864   ✓       ✓
+135   QVAASTAQLLVAC+57.021K    0.9507      Database    -18.0820    1458.7864   ✓       ✓
+136   QVAASTAQLLVAC+57.021K    0.9507      Database    -18.1058    1458.7864   ✓       ✓
+137   QVAASTAQLLVAC+57.021K    0.9507      Database    -18.1087    1458.7864   ✓       ✓
+138   QVAASTAQLLVAC+57.021K    0.9507      Database    -18.1242    1458.7864   ✓       ✓
+139   QVAASTAQLLVAC+57.021K    0.9507      Database    -18.1326    1458.7864   ✓       ✓
+140   QVAASTAQLLVAC+57.021K    0.9507      Database    -18.2549    1458.7864   ✓       ✓
+141   QVAASTAQLLVAC+57.021K    0.9507      Database    -18.3095    1458.7864   ✓       ✓
+142   QVAASTAQLLVAC+57.021K    0.9507      Database    -18.3140    1458.7864   ✓       ✓
+143   QVAASTAQLLVAC+57.021K    0.9507      Database    -18.3161    1458.7864   ✓       ✓
+144   QVAASTAQLLVAC+57.021K    0.9507      Database    -18.3324    1458.7864   ✓       ✓
+145   QVAASTAQLLVAC+57.021K    0.9507      Database    -18.3346    1458.7864   ✓       ✓
+146   QVAASTAQLLVAC+57.021K    0.9507      Database    -18.5022    1458.7864   ✓       ✓
+147   QVAASTAQLLVAC+57.021K    0.9507      Database    -18.5412    1458.7864   ✓       ✓
+148   QVAASTAQLLVAC+57.021K    0.9507      Database    -18.5679    1458.7864   ✓       ✓
+149   QVAASTAQLLVAC+57.021K    0.9507      Database    -18.6237    1458.7864   ✓       ✓
+150   QVAASTAQLLVAC+57.021K    0.9507      Database    -18.6627    1458.7864   ✓       ✓
+151   QVAASTAQLLVAC+57.021K    0.9507      Database    -18.6894    1458.7864   ✓       ✓
+152   QVAASTAQLLVAC+57.021K    0.9507      Database    -18.7403    1458.7864   ✓       ✓
+153   QVAASTAQLLVAC+57.021K    0.9507      Database    -18.7670    1458.7864   ✓       ✓
+154   QVAASTAQLLVAC+57.021K    0.9507      Database    -18.8060    1458.7864   ✓       ✓
+155   QVAASTAQLLVAC+57.021K    0.9507      Database    -18.8387    1458.7864   ✓       ✓
+156   QVAASTAQLLVAC+57.021K    0.9507      Database    -18.8571    1458.7864   ✓       ✓
+157   QVAASTAQLLVAC+57.021K    0.9507      Database    -18.8626    1458.7864   ✓       ✓
+158   QVAASTAQLLVAC+57.021K    0.9507      Database    -18.8810    1458.7864   ✓       ✓
+159   QVAASTAQLLVAC+57.021K    0.9507      Database    -18.9048    1458.7864   ✓       ✓
+160   QVAASTAQLLVAC+57.021K    0.9507      Database    -18.9356    1458.7864   ✓       ✓
+161   QVAASTAQLLVAC+57.021K    0.9507      Database    -18.9623    1458.7864   ✓       ✓
+162   QVAASTAQLLVAC+57.021K    0.9507      Database    -18.9725    1458.7864   ✓       ✓
+163   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.0013    1458.7864   ✓       ✓
+164   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.0783    1458.7864   ✓       ✓
+165   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.1051    1458.7864   ✓       ✓
+166   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.1440    1458.7864   ✓       ✓
+167   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.1619    1458.7864   ✓       ✓
+168   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.2009    1458.7864   ✓       ✓
+169   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.2276    1458.7864   ✓       ✓
+170   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.2979    1458.7864   ✓       ✓
+171   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.3164    1458.7864   ✓       ✓
+172   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.4195    1458.7864   ✓       ✓
+173   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.4292    1458.7864   ✓       ✓
+174   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.4379    1458.7864   ✓       ✓
+175   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.4580    1458.7864   ✓       ✓
+176   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.4682    1458.7864   ✓       ✓
+177   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.4949    1458.7864   ✓       ✓
+178   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.5518    1458.7864   ✓       ✓
+179   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.6175    1458.7864   ✓       ✓
+180   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.6349    1458.7864   ✓       ✓
+181   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.6533    1458.7864   ✓       ✓
+182   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.6616    1458.7864   ✓       ✓
+183   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.6800    1458.7864   ✓       ✓
+184   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.6923    1458.7864   ✓       ✓
+185   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.6945    1458.7864   ✓       ✓
+186   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.7108    1458.7864   ✓       ✓
+187   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.7313    1458.7864   ✓       ✓
+188   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.7498    1458.7864   ✓       ✓
+189   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.7580    1458.7864   ✓       ✓
+190   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.7616    1458.7864   ✓       ✓
+191   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.7765    1458.7864   ✓       ✓
+192   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.8351    1458.7864   ✓       ✓
+193   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.8535    1458.7864   ✓       ✓
+194   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.8557    1458.7864   ✓       ✓
+195   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.8741    1458.7864   ✓       ✓
+196   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.8925    1458.7864   ✓       ✓
+197   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.9008    1458.7864   ✓       ✓
+198   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.9192    1458.7864   ✓       ✓
+199   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.9577    1458.7864   ✓       ✓
+200   QVAASTAQLLVAC+57.021K    0.9507      Database    -19.9761    1458.7864   ✓       ✓
+201   QVAASTAQLLVAC+57.021K    0.9507      Database    -20.2249    1458.7864   ✓       ✓
+202   QVAASTAQLLVAC+57.021K    0.9507      Database    -20.2832    1458.7864   ✓       ✓
+203   QVAASTAQLLVAC+57.021K    0.9507      Database    -20.4101    1458.7864   ✓       ✓
+204   QVAASTAQLLVAC+57.021K    0.9507      Database    -20.4259    1458.7864   ✓       ✓
+205   QVAASTAQLLVAC+57.021K    0.9507      Database    -20.4773    1458.7864   ✓       ✓
+206   QVAASTAQLLVAC+57.021K    0.9507      Database    -20.4849    1458.7864   ✓       ✓
+207   QVAASTAQLLVAC+57.021K    0.9507      Database    -20.5065    1458.7864   ✓       ✓
+208   QVAASTAQLLVAC+57.021K    0.9507      Database    -20.5239    1458.7864   ✓       ✓
+209   QVAASTAQLLVAC+57.021K    0.9507      Database    -20.5506    1458.7864   ✓       ✓
+210   QVAASTAQLLVAC+57.021K    0.9507      Database    -20.6054    1458.7864   ✓       ✓
+211   QVAASTAQLLVAC+57.021K    0.9507      Database    -20.6075    1458.7864   ✓       ✓
+212   QVAASTAQLLVAC+57.021K    0.9507      Database    -20.6493    1458.7864   ✓       ✓
+213   QVAASTAQLLVAC+57.021K    0.9507      Database    -20.7481    1458.7864   ✓       ✓
+214   QVAASTAQLLVAC+57.021K    0.9507      Database    -20.7501    1458.7864   ✓       ✓
+215   QVAASTAQLLVAC+57.021K    0.9507      Database    -20.7503    1458.7864   ✓       ✓
+216   QVAASTAQLLVAC+57.021K    0.9507      Database    -20.7768    1458.7864   ✓       ✓
+217   QVAASTAQLLVAC+57.021K    0.9507      Database    -20.8158    1458.7864   ✓       ✓
+218   QVAASTAQLLVAC+57.021K    0.9507      Database    -20.9563    1458.7864   ✓       ✓
+219   QVAASTAQLLVAC+57.021K    0.9507      Database    -20.9748    1458.7864   ✓       ✓
+220   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.0132    1458.7864   ✓       ✓
+221   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.0314    1458.7864   ✓       ✓
+222   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.0317    1458.7864   ✓       ✓
+223   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.0399    1458.7864   ✓       ✓
+224   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.0435    1458.7864   ✓       ✓
+225   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.0584    1458.7864   ✓       ✓
+226   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.0704    1458.7864   ✓       ✓
+227   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.0789    1458.7864   ✓       ✓
+228   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.0825    1458.7864   ✓       ✓
+229   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.0888    1458.7864   ✓       ✓
+230   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.0971    1458.7864   ✓       ✓
+231   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.0974    1458.7864   ✓       ✓
+232   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.1092    1458.7864   ✓       ✓
+233   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.1301    1458.7864   ✓       ✓
+234   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.1376    1458.7864   ✓       ✓
+235   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.1540    1458.7864   ✓       ✓
+236   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.1560    1458.7864   ✓       ✓
+237   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.1744    1458.7864   ✓       ✓
+238   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.1766    1458.7864   ✓       ✓
+239   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.1827    1458.7864   ✓       ✓
+240   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.1891    1458.7864   ✓       ✓
+241   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.2011    1458.7864   ✓       ✓
+242   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.2033    1458.7864   ✓       ✓
+243   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.2194    1458.7864   ✓       ✓
+244   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.2217    1458.7864   ✓       ✓
+245   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.2401    1458.7864   ✓       ✓
+246   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.2728    1458.7864   ✓       ✓
+247   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.2740    1458.7864   ✓       ✓
+248   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.2807    1458.7864   ✓       ✓
+249   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.2967    1458.7864   ✓       ✓
+250   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.2991    1458.7864   ✓       ✓
+251   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.3092    1458.7864   ✓       ✓
+252   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.3482    1458.7864   ✓       ✓
+253   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.3919    1458.7864   ✓       ✓
+254   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.4309    1458.7864   ✓       ✓
+255   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.4576    1458.7864   ✓       ✓
+256   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.4667    1458.7864   ✓       ✓
+257   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.5057    1458.7864   ✓       ✓
+258   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.5068    1458.7864   ✓       ✓
+259   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.5324    1458.7864   ✓       ✓
+260   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.5458    1458.7864   ✓       ✓
+261   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.5725    1458.7864   ✓       ✓
+262   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.5883    1458.7864   ✓       ✓
+263   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.5893    1458.7864   ✓       ✓
+264   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.6272    1458.7864   ✓       ✓
+265   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.6540    1458.7864   ✓       ✓
+266   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.6573    1458.7864   ✓       ✓
+267   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.7048    1458.7864   ✓       ✓
+268   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.7108    1458.7864   ✓       ✓
+269   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.7315    1458.7864   ✓       ✓
+270   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.7320    1458.7864   ✓       ✓
+271   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.7705    1458.7864   ✓       ✓
+272   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.7884    1458.7864   ✓       ✓
+273   QVAASTAQLLVAC+57.021K    0.9507      Database    -21.8058    1458.7864   ✓       ✓
+274   AVAAGSTAQLLVAC+57.021K   0.5078      Prosit      -28.8046    1458.7864   ✓       
+275   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -14.9875    1458.8228   ✓       
+276   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -17.9521    1458.8228   ✓       
+277   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -19.2729    1458.8228   ✓       
+278   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -19.2997    1458.8228   ✓       
+279   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -20.0297    1458.8228   ✓       
+280   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -20.0481    1458.8228   ✓       
+281   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -22.2375    1458.8228   ✓       
+282   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -22.2642    1458.8228   ✓       
+283   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -22.3211    1458.8228   ✓       
+284   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -22.4638    1458.8228   ✓       
+285   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -22.9942    1458.8228   ✓       
+286   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -23.0127    1458.8228   ✓       
+287   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -23.5851    1458.8228   ✓       
+288   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -24.3151    1458.8228   ✓       
+289   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -24.3336    1458.8228   ✓       
+290   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -24.3418    1458.8228   ✓       
+291   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -24.3603    1458.8228   ✓       
+292   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -25.0903    1458.8228   ✓       
+293   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -25.1892    1458.8228   ✓       
+294   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -25.2856    1458.8228   ✓       
+295   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -25.4284    1458.8228   ✓       
+296   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -26.5496    1458.8228   ✓       
+297   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -26.6065    1458.8228   ✓       
+298   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -26.6332    1458.8228   ✓       
+299   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -26.7492    1458.8228   ✓       
+300   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -26.7760    1458.8228   ✓       
+301   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -27.1001    1458.8228   ✓       
+302   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -27.2796    1458.8228   ✓       
+303   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -27.2981    1458.8228   ✓       
+304   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -27.3064    1458.8228   ✓       
+305   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -27.3248    1458.8228   ✓       
+306   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -27.3632    1458.8228   ✓       
+307   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -27.3817    1458.8228   ✓       
+308   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -27.5060    1458.8228   ✓       
+309   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -27.5244    1458.8228   ✓       
+310   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -28.0548    1458.8228   ✓       
+311   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -28.1537    1458.8228   ✓       
+312   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -28.1558    1458.8228   ✓       
+313   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -28.6272    1458.8228   ✓       
+314   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -28.6457    1458.8228   ✓       
+315   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -28.6784    1458.8228   ✓       
+316   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -28.7023    1458.8228   ✓       
+317   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -29.1376    1458.8228   ✓       
+318   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -29.2592    1458.8228   ✓       
+319   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -29.3757    1458.8228   ✓       
+320   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -29.4024    1458.8228   ✓       
+321   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -29.4746    1458.8228   ✓       
+322   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -29.5013    1458.8228   ✓       
+323   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -29.5710    1458.8228   ✓       
+324   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -29.5977    1458.8228   ✓       
+325   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -29.7138    1458.8228   ✓       
+326   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -29.7405    1458.8228   ✓       
+327   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -29.7974    1458.8228   ✓       
+328   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -30.0646    1458.8228   ✓       
+329   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -30.2313    1458.8228   ✓       
+330   KVAASTAQLLVAC+57.021K    0.5011      Prosit      -30.2498    1458.8228   ✓       
+331   QVAASTAKLLVAC+57.021K    0.4718      Prosit      -16.8681    1458.8228   ✓       
+332   QVAASTAKLLVAC+57.021K    0.4718      Prosit      -19.8326    1458.8228   ✓       
+333   QVAASTAKLLVAC+57.021K    0.4718      Prosit      -21.1145    1458.8228   ✓       
+334   QVAASTAKLLVAC+57.021K    0.4718      Prosit      -21.1535    1458.8228   ✓       
+335   QVAASTAKLLVAC+57.021K    0.4718      Prosit      -21.1803    1458.8228   ✓       
+336   AGVAASTAQLLVAC+57.021K   0.4566      Prosit      -30.2380    1458.7864   ✓       
+337   QVAAGTAQLLVAC+57.021K    -1.0000     NotChecked  -12.5111    1428.7759   ✗       
+338   QGAASTAQLLVAC+57.021K    -1.0000     NotChecked  -13.3270    1416.7395   ✗       
+339   QVAASSAQLLVAC+57.021K    -1.0000     NotChecked  -13.8388    1444.7708   ✗       
+340   QAAASTAQLLVAC+57.021K    -1.0000     NotChecked  -14.1565    1430.7551   ✗       
+341   QVAATAQLLVAC+57.021K     -1.0000     NotChecked  -14.1810    1371.7544   ✗       
+342   QVAAATAQLLVAC+57.021K    -1.0000     NotChecked  -14.2184    1442.7915   ✗       
+343   QVASTAQLLVAC+57.021K     -1.0000     NotChecked  -14.6603    1387.7493   ✗       
+344   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -14.8782    1373.7337   ✗       
+345   QVAASTAALLVAC+57.021K    -1.0000     NotChecked  -14.9315    1401.7650   ✗       
+346   QVAASTQLLVAC+57.021K     -1.0000     NotChecked  -15.1726    1387.7493   ✗       
+347   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -15.2579    1372.7384   ✗       
+348   QVGASTAQLLVAC+57.021K    -1.0000     NotChecked  -15.4456    1444.7708   ✗       
+349   QVAASTGQLLVAC+57.021K    -1.0000     NotChecked  -15.8913    1444.7708   ✗       
+350   QVAASTAQLLGAC+57.021K    -1.0000     NotChecked  -15.9518    1416.7395   ✗       
+351   QPAASTAQLLVAC+57.021K    -1.0000     NotChecked  -15.9871    1456.7708   ✗       
+352   QGAASTAQLLVAC+57.021K    -1.0000     NotChecked  -16.2916    1416.7395   ✗       
+353   QVAASTANLLVAC+57.021K    -1.0000     NotChecked  -16.3573    1444.7708   ✗       
+354   QVAASTAQLLAC+57.021K     -1.0000     NotChecked  -16.4974    1359.7180   ✗       
+355   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -16.5980    1401.7650   ✗       
+356   QVAGSTAQLLVAC+57.021K    -1.0000     NotChecked  -16.6244    1444.7708   ✗       
+357   QVAAGTAQLLVAC+57.021K    -1.0000     NotChecked  -16.7576    1428.7759   ✗       
+358   QVAAGTAQLLVAC+57.021K    -1.0000     NotChecked  -16.7966    1428.7759   ✗       
+359   QVAASSAQLLVAC+57.021K    -1.0000     NotChecked  -16.8034    1444.7708   ✗       
+360   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -16.8077    1313.7013   ✗       
+361   QVAAGTAQLLVAC+57.021K    -1.0000     NotChecked  -16.8233    1428.7759   ✗       
+362   QVASTAQLLVAC+57.021K     -1.0000     NotChecked  -16.8339    1387.7493   ✗       
+363   QVAASAAQLLVAC+57.021K    -1.0000     NotChecked  -17.0151    1428.7759   ✗       
+364   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -17.0274    1443.8119   ✗       
+365   QVAASTAQLLVAK            -1.0000     NotChecked  -17.0304    1298.7558   ✗       
+366   QAAASTAQLLVAC+57.021K    -1.0000     NotChecked  -17.1210    1430.7551   ✗       
+367   QVAASGAQLLVAC+57.021K    -1.0000     NotChecked  -17.1622    1414.7602   ✗       
+368   QVAASTASLLVAC+57.021K    -1.0000     NotChecked  -17.2097    1417.7599   ✗       
+369   QVAASTAGLLVAC+57.021K    -1.0000     NotChecked  -17.3217    1387.7493   ✗       
+370   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -17.3455    1444.7708   ✗       
+371   QVAASTAQLLVGC+57.021K    -1.0000     NotChecked  -17.4122    1444.7708   ✗       
+372   QVAAGTAQLLVAC+57.021K    -1.0000     NotChecked  -17.5533    1428.7759   ✗       
+373   QVAAGTAQLLVAC+57.021K    -1.0000     NotChecked  -17.5718    1428.7759   ✗       
+374   QGAASTAQLLVAC+57.021K    -1.0000     NotChecked  -17.5735    1416.7395   ✗       
+375   QVAASTAQLLVAMK           -1.0000     NotChecked  -17.6077    1429.7963   ✗       
+376   QGAASTAQLLVAC+57.021K    -1.0000     NotChecked  -17.6124    1416.7395   ✗       
+377   QVASTAQLLVAC+57.021K     -1.0000     NotChecked  -17.6249    1387.7493   ✗       
+378   QGAASTAQLLVAC+57.021K    -1.0000     NotChecked  -17.6392    1416.7395   ✗       
+379   QVAASTAQLLVAHK           -1.0000     NotChecked  -17.7436    1435.8147   ✗       
+380   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -17.8427    1373.7337   ✗       
+381   QVAASAQLLVAC+57.021K     -1.0000     NotChecked  -17.8939    1357.7388   ✗       
+382   QVAASTAALLVAC+57.021K    -1.0000     NotChecked  -17.8960    1401.7650   ✗       
+383   QVAASSAQLLVAC+57.021K    -1.0000     NotChecked  -18.0852    1444.7708   ✗       
+384   QVAASSAQLLVAC+57.021K    -1.0000     NotChecked  -18.1242    1444.7708   ✗       
+385   QVAASTAQVLVAC+57.021K    -1.0000     NotChecked  -18.1299    1444.7708   ✗       
+386   QVAASTQLLVAC+57.021K     -1.0000     NotChecked  -18.1371    1387.7493   ✗       
+387   QVAASSAQLLVAC+57.021K    -1.0000     NotChecked  -18.1510    1444.7708   ✗       
+388   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -18.2225    1372.7384   ✗       
+389   QVAASTAQLVVAC+57.021K    -1.0000     NotChecked  -18.2570    1444.7708   ✗       
+390   QGAASTAQLLVAC+57.021K    -1.0000     NotChecked  -18.3692    1416.7395   ✗       
+391   QGAASTAQLLVAC+57.021K    -1.0000     NotChecked  -18.3876    1416.7395   ✗       
+392   QAAASTAQLLVAC+57.021K    -1.0000     NotChecked  -18.4029    1430.7551   ✗       
+393   QVGASTAQLLVAC+57.021K    -1.0000     NotChecked  -18.4101    1444.7708   ✗       
+394   QVAATAQLLVAC+57.021K     -1.0000     NotChecked  -18.4274    1371.7544   ✗       
+395   QAAASTAQLLVAC+57.021K    -1.0000     NotChecked  -18.4419    1430.7551   ✗       
+396   QVAAATAQLLVAC+57.021K    -1.0000     NotChecked  -18.4648    1442.7915   ✗       
+397   QVAATAQLLVAC+57.021K     -1.0000     NotChecked  -18.4664    1371.7544   ✗       
+398   QAAASTAQLLVAC+57.021K    -1.0000     NotChecked  -18.4686    1430.7551   ✗       
+399   QVAATAQLLVAC+57.021K     -1.0000     NotChecked  -18.4931    1371.7544   ✗       
+400   QVAAATAQLLVAC+57.021K    -1.0000     NotChecked  -18.5038    1442.7915   ✗       
+401   QVAAATAQLLVAC+57.021K    -1.0000     NotChecked  -18.5305    1442.7915   ✗       
+402   QVAASTAQLLVATK           -1.0000     NotChecked  -18.6200    1399.8035   ✗       
+403   QVAASTALLLVAC+57.021K    -1.0000     NotChecked  -18.6345    1443.8119   ✗       
+404   QVAASTAQLLVC+57.021K     -1.0000     NotChecked  -18.7168    1387.7493   ✗       
+405   QVAASTAQSLVAC+57.021K    -1.0000     NotChecked  -18.8455    1432.7344   ✗       
+406   QVAASTAQLLVAVK           -1.0000     NotChecked  -18.8494    1397.8242   ✗       
+407   QVAASTGQLLVAC+57.021K    -1.0000     NotChecked  -18.8558    1444.7708   ✗       
+408   QVAASTAQLLVAGK           -1.0000     NotChecked  -18.8632    1355.7773   ✗       
+409   QVAASSAQLLVAC+57.021K    -1.0000     NotChecked  -18.8810    1444.7708   ✗       
+410   QVAASSAQLLVAC+57.021K    -1.0000     NotChecked  -18.8994    1444.7708   ✗       
+411   QVASTAQLLVAC+57.021K     -1.0000     NotChecked  -18.9067    1387.7493   ✗       
+412   QVAASTAQLLGAC+57.021K    -1.0000     NotChecked  -18.9164    1416.7395   ✗       
+413   QVAASTAQLAVAC+57.021K    -1.0000     NotChecked  -18.9417    1416.7395   ✗       
+414   QVASTAQLLVAC+57.021K     -1.0000     NotChecked  -18.9457    1387.7493   ✗       
+415   QPAASTAQLLVAC+57.021K    -1.0000     NotChecked  -18.9516    1456.7708   ✗       
+416   QVAASTAQLLVASK           -1.0000     NotChecked  -19.0373    1385.7878   ✗       
+417   QAASTAQLLVAC+57.021K     -1.0000     NotChecked  -19.0753    1359.7180   ✗       
+418   QVAASTAQTLVAC+57.021K    -1.0000     NotChecked  -19.1274    1446.7500   ✗       
+419   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -19.1636    1373.7337   ✗       
+420   QVAASTAALLVAC+57.021K    -1.0000     NotChecked  -19.1779    1401.7650   ✗       
+421   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -19.1903    1373.7337   ✗       
+422   QAAASTAQLLVAC+57.021K    -1.0000     NotChecked  -19.1986    1430.7551   ✗       
+423   QVAASTAQLLVAAK           -1.0000     NotChecked  -19.2063    1369.7929   ✗       
+424   QVAASTAALLVAC+57.021K    -1.0000     NotChecked  -19.2169    1401.7650   ✗       
+425   QAASTAQLLVAC+57.021K     -1.0000     NotChecked  -19.2171    1359.7180   ✗       
+426   QVAATAQLLVAC+57.021K     -1.0000     NotChecked  -19.2231    1371.7544   ✗       
+427   QVAATAQLLVAC+57.021K     -1.0000     NotChecked  -19.2416    1371.7544   ✗       
+428   QVAASTAALLVAC+57.021K    -1.0000     NotChecked  -19.2436    1401.7650   ✗       
+429   QVAAATAQLLVAC+57.021K    -1.0000     NotChecked  -19.2605    1442.7915   ✗       
+430   QVAAATAQLLVAC+57.021K    -1.0000     NotChecked  -19.2790    1442.7915   ✗       
+431   QVAASTAQALVAC+57.021K    -1.0000     NotChecked  -19.3211    1416.7395   ✗       
+432   QVAASTANLLVAC+57.021K    -1.0000     NotChecked  -19.3219    1444.7708   ✗       
+433   QVAASTQLLVAC+57.021K     -1.0000     NotChecked  -19.4190    1387.7493   ✗       
+434   QVAASTAQLLAC+57.021K     -1.0000     NotChecked  -19.4620    1359.7180   ✗       
+435   QVAASTQLLVAC+57.021K     -1.0000     NotChecked  -19.4847    1387.7493   ✗       
+436   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -19.5434    1372.7384   ✗       
+437   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -19.5625    1401.7650   ✗       
+438   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -19.5701    1372.7384   ✗       
+439   QVAGSTAQLLVAC+57.021K    -1.0000     NotChecked  -19.5890    1444.7708   ✗       
+440   QVAASTAQLLVAC+57.021     -1.0000     NotChecked  -19.5975    1330.6915   ✗       
+441   QVGASTAQLLVAC+57.021K    -1.0000     NotChecked  -19.6920    1444.7708   ✗       
+442   QVASTAQLLVAC+57.021K     -1.0000     NotChecked  -19.7025    1387.7493   ✗       
+443   QVASTAQLLVAC+57.021K     -1.0000     NotChecked  -19.7209    1387.7493   ✗       
+444   QVGASTAQLLVAC+57.021K    -1.0000     NotChecked  -19.7310    1444.7708   ✗       
+445   QVGASTAQLLVAC+57.021K    -1.0000     NotChecked  -19.7577    1444.7708   ✗       
+446   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -19.7723    1313.7013   ✗       
+447   QVASTAQLLVAC+57.021K     -1.0000     NotChecked  -19.7984    1387.7493   ✗       
+448   QVAAGTAQLLVAC+57.021K    -1.0000     NotChecked  -19.8447    1428.7759   ✗       
+449   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -19.9203    1373.7337   ✗       
+450   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -19.9388    1373.7337   ✗       
+451   QVAASTAALLVAC+57.021K    -1.0000     NotChecked  -19.9737    1401.7650   ✗       
+452   QVAASAAQLLVAC+57.021K    -1.0000     NotChecked  -19.9796    1428.7759   ✗       
+453   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -19.9920    1443.8119   ✗       
+454   QVAASTAALLVAC+57.021K    -1.0000     NotChecked  -19.9921    1401.7650   ✗       
+455   QVAASTAQLLVAK            -1.0000     NotChecked  -19.9949    1298.7558   ✗       
+456   QVAASGAQLLVAC+57.021K    -1.0000     NotChecked  -20.1267    1414.7602   ✗       
+457   QVAASTGQLLVAC+57.021K    -1.0000     NotChecked  -20.1377    1444.7708   ✗       
+458   QVAASTASLLVAC+57.021K    -1.0000     NotChecked  -20.1742    1417.7599   ✗       
+459   QVAASTAQLLGAC+57.021K    -1.0000     NotChecked  -20.1983    1416.7395   ✗       
+460   QVAASTGQLLVAC+57.021K    -1.0000     NotChecked  -20.2034    1444.7708   ✗       
+461   QVAASTQLLVAC+57.021K     -1.0000     NotChecked  -20.2148    1387.7493   ✗       
+462   QVAASTQLLVAC+57.021K     -1.0000     NotChecked  -20.2332    1387.7493   ✗       
+463   QPAASTAQLLVAC+57.021K    -1.0000     NotChecked  -20.2335    1456.7708   ✗       
+464   QVAASTAQLLGAC+57.021K    -1.0000     NotChecked  -20.2373    1416.7395   ✗       
+465   QVAASTAQLLGAC+57.021K    -1.0000     NotChecked  -20.2640    1416.7395   ✗       
+466   QPAASTAQLLVAC+57.021K    -1.0000     NotChecked  -20.2725    1456.7708   ✗       
+467   QVAASTAGLLVAC+57.021K    -1.0000     NotChecked  -20.2862    1387.7493   ✗       
+468   QPAASTAQLLVAC+57.021K    -1.0000     NotChecked  -20.2992    1456.7708   ✗       
+469   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -20.3001    1372.7384   ✗       
+470   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -20.3100    1444.7708   ✗       
+471   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -20.3186    1372.7384   ✗       
+472   QVAASTAQLLVGC+57.021K    -1.0000     NotChecked  -20.3767    1444.7708   ✗       
+473   QVGASTAQLLVAC+57.021K    -1.0000     NotChecked  -20.4878    1444.7708   ✗       
+474   QGAASTAQLLVAC+57.021K    -1.0000     NotChecked  -20.5380    1416.7395   ✗       
+475   QVAASTAQLLVAMK           -1.0000     NotChecked  -20.5722    1429.7963   ✗       
+476   QGAASTAQLLVAC+57.021K    -1.0000     NotChecked  -20.5770    1416.7395   ✗       
+477   QGAASTAQLLVAC+57.021K    -1.0000     NotChecked  -20.6037    1416.7395   ✗       
+478   QVAASTANLLVAC+57.021K    -1.0000     NotChecked  -20.6038    1444.7708   ✗       
+479   QVAASTANLLVAC+57.021K    -1.0000     NotChecked  -20.6427    1444.7708   ✗       
+480   QGAASTAQLLVAC+57.021K    -1.0000     NotChecked  -20.6606    1416.7395   ✗       
+481   QVAASTANLLVAC+57.021K    -1.0000     NotChecked  -20.6695    1444.7708   ✗       
+482   QVAASTAQLLVAHK           -1.0000     NotChecked  -20.7081    1435.8147   ✗       
+483   QAASTAQLLVAC+57.021K     -1.0000     NotChecked  -20.7124    1359.7180   ✗       
+484   QVAASTAQLLAC+57.021K     -1.0000     NotChecked  -20.7438    1359.7180   ✗       
+485   QVAASTAQLLAC+57.021K     -1.0000     NotChecked  -20.7828    1359.7180   ✗       
+486   QGAASTAQLLVAC+57.021K    -1.0000     NotChecked  -20.8033    1416.7395   ✗       
+487   QVAASTAQLLAC+57.021K     -1.0000     NotChecked  -20.8096    1359.7180   ✗       
+488   QVAASAQLLVAC+57.021K     -1.0000     NotChecked  -20.8585    1357.7388   ✗       
+489   QVAGSTAQLLVAC+57.021K    -1.0000     NotChecked  -20.8709    1444.7708   ✗       
+490   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -20.8834    1401.7650   ✗       
+491   QVAGSTAQLLVAC+57.021K    -1.0000     NotChecked  -20.9099    1444.7708   ✗       
+492   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -20.9101    1401.7650   ✗       
+493   QVAASTGQLLVAC+57.021K    -1.0000     NotChecked  -20.9335    1444.7708   ✗       
+494   QVAASTGQLLVAC+57.021K    -1.0000     NotChecked  -20.9519    1444.7708   ✗       
+495   QVAASTAQLLGAC+57.021K    -1.0000     NotChecked  -20.9940    1416.7395   ✗       
+496   QVAASTAQLLGAC+57.021K    -1.0000     NotChecked  -21.0124    1416.7395   ✗       
+497   QPAASTAQLLVAC+57.021K    -1.0000     NotChecked  -21.0293    1456.7708   ✗       
+498   QVAAGTAQLLVAC+57.021K    -1.0000     NotChecked  -21.0430    1428.7759   ✗       
+499   QPAASTAQLLVAC+57.021K    -1.0000     NotChecked  -21.0477    1456.7708   ✗       
+500   QVAASSAQLLVAC+57.021K    -1.0000     NotChecked  -21.0498    1444.7708   ✗       
+501   -17.027QVAASTAQLLVAC+57.021K-1.0000     NotChecked  -21.0542    1441.7599   ✗       
+502   QVAAGTAQLLVAC+57.021K    -1.0000     NotChecked  -21.0697    1428.7759   ✗       
+503   QVASTAQLLVAC+57.021K     -1.0000     NotChecked  -21.0803    1387.7493   ✗       
+504   QVAASSAQLLVAC+57.021K    -1.0000     NotChecked  -21.0888    1444.7708   ✗       
+505   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -21.0931    1313.7013   ✗       
+506   QVAASTAQVLVAC+57.021K    -1.0000     NotChecked  -21.0944    1444.7708   ✗       
+507   QVAAGTAQLLVAC+57.021K    -1.0000     NotChecked  -21.1087    1428.7759   ✗       
+508   QVAASSAQLLVAC+57.021K    -1.0000     NotChecked  -21.1155    1444.7708   ✗       
+509   QVASTAQLLVAC+57.021K     -1.0000     NotChecked  -21.1193    1387.7493   ✗       
+510   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -21.1199    1313.7013   ✗       
+511   QVASTAQLLVAC+57.021K     -1.0000     NotChecked  -21.1460    1387.7493   ✗       
+512   QVAASTAQLVVAC+57.021K    -1.0000     NotChecked  -21.2216    1444.7708   ✗       
+513   QVAASAAQLLVAC+57.021K    -1.0000     NotChecked  -21.2615    1428.7759   ✗       
+514   QVAASTAQLLVAK            -1.0000     NotChecked  -21.2768    1298.7558   ✗       
+515   QVAASTAQLLVAC+57.021Q    -1.0000     Failed      -21.2854    1458.7501   ✓       
+516   QVAASAAQLLVAC+57.021K    -1.0000     NotChecked  -21.3005    1428.7759   ✗       
+517   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -21.3129    1443.8119   ✗       
+518   QVAASSAQLLVAC+57.021K    -1.0000     NotChecked  -21.3151    1444.7708   ✗       
+519   QVAASTAQLLVAK            -1.0000     NotChecked  -21.3158    1298.7558   ✗       
+520   QVAASAAQLLVAC+57.021K    -1.0000     NotChecked  -21.3272    1428.7759   ✗       
+521   QGAASTAQLLVAC+57.021K    -1.0000     NotChecked  -21.3337    1416.7395   ✗       
+522   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -21.3396    1443.8119   ✗       
+523   QVAASTAQLLVAK            -1.0000     NotChecked  -21.3425    1298.7558   ✗       
+524   QGAASTAQLLVAC+57.021K    -1.0000     NotChecked  -21.3522    1416.7395   ✗       
+525   QAAASTAQLLVAC+57.021K    -1.0000     NotChecked  -21.3674    1430.7551   ✗       
+526   QVASTAQLLVAC+57.021K     -1.0000     NotChecked  -21.3750    1387.7493   ✗       
+527   QVAASTANLLVAC+57.021K    -1.0000     NotChecked  -21.3995    1444.7708   ✗       
+528   QAAASTAQLLVAC+57.021K    -1.0000     NotChecked  -21.4064    1430.7551   ✗       
+529   QVAASGAQLLVAC+57.021K    -1.0000     NotChecked  -21.4086    1414.7602   ✗       
+530   QVAASTANLLVAC+57.021K    -1.0000     NotChecked  -21.4179    1444.7708   ✗       
+531   QAAASTAQLLVAC+57.021K    -1.0000     NotChecked  -21.4331    1430.7551   ✗       
+532   QVAASGAQLLVAC+57.021K    -1.0000     NotChecked  -21.4476    1414.7602   ✗       
+533   QVAASTASLLVAC+57.021K    -1.0000     NotChecked  -21.4561    1417.7599   ✗       
+534   QVAASGAQLLVAC+57.021K    -1.0000     NotChecked  -21.4743    1414.7602   ✗       
+535   QAAASTAQLLVAC+57.021K    -1.0000     NotChecked  -21.4900    1430.7551   ✗       
+536   QVAASTASLLVAC+57.021K    -1.0000     NotChecked  -21.4951    1417.7599   ✗       
+537   QVAATAQLLVAC+57.021K     -1.0000     NotChecked  -21.5145    1371.7544   ✗       
+538   QVAASTASLLVAC+57.021K    -1.0000     NotChecked  -21.5219    1417.7599   ✗       
+539   QVAASTAQLLAC+57.021K     -1.0000     NotChecked  -21.5396    1359.7180   ✗       
+540   QVAAATAQLLVAC+57.021K    -1.0000     NotChecked  -21.5519    1442.7915   ✗       
+541   QVAASTAQLLAC+57.021K     -1.0000     NotChecked  -21.5580    1359.7180   ✗       
+542   QVAASTAGLLVAC+57.021K    -1.0000     NotChecked  -21.5681    1387.7493   ✗       
+543   QVAASTAQLLVATK           -1.0000     NotChecked  -21.5846    1399.8035   ✗       
+544   QVAASTALLLVAC+57.021K    -1.0000     NotChecked  -21.5990    1443.8119   ✗       
+545   QVAASTAGLLVAC+57.021K    -1.0000     NotChecked  -21.6071    1387.7493   ✗       
+546   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -21.6309    1444.7708   ✗       
+547   QAAASTAQLLVAC+57.021K    -1.0000     NotChecked  -21.6328    1430.7551   ✗       
+548   QVAASTAGLLVAC+57.021K    -1.0000     NotChecked  -21.6338    1387.7493   ✗       
+549   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -21.6402    1401.7650   ✗       
+550   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -21.6576    1444.7708   ✗       
+551   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -21.6586    1401.7650   ✗       
+552   QVAASTAQLLVGC+57.021K    -1.0000     NotChecked  -21.6586    1444.7708   ✗       
+553   QVAGSTAQLLVAC+57.021K    -1.0000     NotChecked  -21.6666    1444.7708   ✗       
+554   QVAASTAQLLVC+57.021K     -1.0000     NotChecked  -21.6813    1387.7493   ✗       
+555   QVAGSTAQLLVAC+57.021K    -1.0000     NotChecked  -21.6850    1444.7708   ✗       
+556   QVAASTAQLLVGC+57.021K    -1.0000     NotChecked  -21.6976    1444.7708   ✗       
+557   QVAASTAQLLVGC+57.021K    -1.0000     NotChecked  -21.7243    1444.7708   ✗       
+558   QVAAGTAQLLVAC+57.021K    -1.0000     NotChecked  -21.7997    1428.7759   ✗       
+559   QVAASTAQSLVAC+57.021K    -1.0000     NotChecked  -21.8100    1432.7344   ✗       
+560   QVAASTAQLLVAVK           -1.0000     NotChecked  -21.8139    1397.8242   ✗       
+561   QVAAGTAQLLVAC+57.021K    -1.0000     NotChecked  -21.8182    1428.7759   ✗       
+562   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -21.8499    1313.7013   ✗       
+563   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -21.8683    1313.7013   ✗       
+564   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -22.0696    1443.8119   ✗       
+565   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -22.0881    1443.8119   ✗       
+566   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -22.1281    1373.7337   ✗       
+567   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -22.1548    1373.7337   ✗       
+568   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -22.2117    1373.7337   ✗       
+569   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -22.3545    1373.7337   ✗       
+570   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -22.3877    1444.7708   ✗       
+571   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -22.4061    1444.7708   ✗       
+572   Q+0.984VAAGTAQLLVAC+57.021K-1.0000     NotChecked  -22.4700    1429.7599   ✗       
+573   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -22.5079    1372.7384   ✗       
+574   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -22.5346    1372.7384   ✗       
+575   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -22.5915    1372.7384   ✗       
+576   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -22.7342    1372.7384   ✗       
+577   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -22.8849    1373.7337   ✗       
+578   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -22.9033    1373.7337   ✗       
+579   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -23.2646    1372.7384   ✗       
+580   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -23.2831    1372.7384   ✗       
+581   Q+0.984GAASTAQLLVAC+57.021K-1.0000     NotChecked  -23.2858    1417.7235   ✗       
+582   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -23.4757    1373.7337   ✗       
+583   Q+0.984VAASSAQLLVAC+57.021K-1.0000     NotChecked  -23.7976    1445.7548   ✗       
+584   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -23.8479    1401.7650   ✗       
+585   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -23.8555    1372.7384   ✗       
+586   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -23.8747    1401.7650   ✗       
+587   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -23.9315    1401.7650   ✗       
+588   -17.027QVAASTAQLLVAC+57.021K-1.0000     NotChecked  -24.0187    1441.7599   ✗       
+589   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -24.0577    1313.7013   ✗       
+590   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -24.0743    1401.7650   ✗       
+591   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -24.0844    1313.7013   ✗       
+592   Q+0.984AAASTAQLLVAC+57.021K-1.0000     NotChecked  -24.1153    1431.7392   ✗       
+593   Q+0.984VAATAQLLVAC+57.021K-1.0000     NotChecked  -24.1398    1372.7384   ✗       
+594   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -24.1413    1313.7013   ✗       
+595   Q+0.984VAAATAQLLVAC+57.021K-1.0000     NotChecked  -24.1772    1443.7755   ✗       
+596   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -24.2058    1373.7337   ✗       
+597   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -24.2242    1373.7337   ✗       
+598   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -24.2325    1373.7337   ✗       
+599   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -24.2509    1373.7337   ✗       
+600   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -24.2774    1443.8119   ✗       
+601   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -24.2840    1313.7013   ✗       
+602   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -24.3041    1443.8119   ✗       
+603   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -24.3610    1443.8119   ✗       
+604   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -24.5037    1443.8119   ✗       
+605   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -24.5855    1372.7384   ✗       
+606   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -24.5954    1444.7708   ✗       
+607   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -24.6040    1372.7384   ✗       
+608   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -24.6047    1401.7650   ✗       
+609   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -24.6123    1372.7384   ✗       
+610   Q+0.984VASTAQLLVAC+57.021K-1.0000     NotChecked  -24.6191    1388.7333   ✗       
+611   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -24.6222    1444.7708   ✗       
+612   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -24.6231    1401.7650   ✗       
+613   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -24.6307    1372.7384   ✗       
+614   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -24.6790    1444.7708   ✗       
+615   +43.006VAASTAQ+0.984LLVAC+57.021K-1.0000     NotChecked  -24.7282    1374.7177   ✗       
+616   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -24.8144    1313.7013   ✗       
+617   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -24.8218    1444.7708   ✗       
+618   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -24.8329    1313.7013   ✗       
+619   Q+0.984VAASTAALLVAC+57.021K-1.0000     NotChecked  -24.8903    1402.7490   ✗       
+620   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -24.9810    1373.7337   ✗       
+621   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -25.0341    1443.8119   ✗       
+622   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -25.0526    1443.8119   ✗       
+623   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -25.0798    1373.7337   ✗       
+624   +42.011VAASTAQ+0.984LLVAC+57.021K-1.0000     NotChecked  -25.1079    1373.7224   ✗       
+625   Q+0.984VAASTQLLVAC+57.021K-1.0000     NotChecked  -25.1314    1388.7333   ✗       
+626   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -25.1762    1373.7337   ✗       
+627   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -25.1955    1401.7650   ✗       
+628   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -25.3190    1373.7337   ✗       
+629   -17.027QVAASTAQLLVAC+57.021K-1.0000     NotChecked  -25.3396    1441.7599   ✗       
+630   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -25.3522    1444.7708   ✗       
+631   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -25.3607    1372.7384   ✗       
+632   -17.027QVAASTAQLLVAC+57.021K-1.0000     NotChecked  -25.3663    1441.7599   ✗       
+633   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -25.3706    1444.7708   ✗       
+634   Q+0.984VGASTAQLLVAC+57.021K-1.0000     NotChecked  -25.4044    1445.7548   ✗       
+635   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -25.4053    1313.7013   ✗       
+636   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -25.4596    1372.7384   ✗       
+637   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -25.5560    1372.7384   ✗       
+638   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -25.6250    1443.8119   ✗       
+639   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -25.6988    1372.7384   ✗       
+640   Q+0.984VAASTGQLLVAC+57.021K-1.0000     NotChecked  -25.8501    1445.7548   ✗       
+641   Q+0.984VAASTAQLLGAC+57.021K-1.0000     NotChecked  -25.9107    1417.7235   ✗       
+642   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -25.9256    1401.7650   ✗       
+643   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -25.9430    1444.7708   ✗       
+644   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -25.9440    1401.7650   ✗       
+645   Q+0.984PAASTAQLLVAC+57.021K-1.0000     NotChecked  -25.9459    1457.7548   ✗       
+646   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -25.9523    1401.7650   ✗       
+647   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -25.9707    1401.7650   ✗       
+648   -17.027QVAASTAQLLVAC+57.021K-1.0000     NotChecked  -26.0963    1441.7599   ✗       
+649   -17.027QVAASTAQLLVAC+57.021K-1.0000     NotChecked  -26.1148    1441.7599   ✗       
+650   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -26.1353    1313.7013   ✗       
+651   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -26.1538    1313.7013   ✗       
+652   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -26.1620    1313.7013   ✗       
+653   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -26.1805    1313.7013   ✗       
+654   Q+0.984GAASTAQLLVAC+57.021K-1.0000     NotChecked  -26.2504    1417.7235   ✗       
+655   Q+0.984VAASTANLLVAC+57.021K-1.0000     NotChecked  -26.3161    1445.7548   ✗       
+656   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -26.3550    1443.8119   ✗       
+657   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -26.3735    1443.8119   ✗       
+658   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -26.3817    1443.8119   ✗       
+659   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -26.4002    1443.8119   ✗       
+660   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -26.4403    1373.7337   ✗       
+661   AVAASTAQ+0.984LLVAC+57.021K-1.0000     NotChecked  -26.4480    1402.7490   ✗       
+662   Q+0.984VAASTAQLLAC+57.021K-1.0000     NotChecked  -26.4562    1360.7020   ✗       
+663   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -26.4971    1373.7337   ✗       
+664   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -26.5239    1373.7337   ✗       
+665   Q+0.984VAGSTAQLLVAC+57.021K-1.0000     NotChecked  -26.5833    1445.7548   ✗       
+666   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -26.6399    1373.7337   ✗       
+667   -17.027VAASTAQ+0.984LLVAC+57.021K-1.0000     NotChecked  -26.6577    1314.6853   ✗       
+668   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -26.6666    1373.7337   ✗       
+669   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -26.6731    1444.7708   ✗       
+670   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -26.6915    1444.7708   ✗       
+671   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -26.6998    1444.7708   ✗       
+672   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -26.7008    1401.7650   ✗       
+673   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -26.7182    1444.7708   ✗       
+674   Q+0.984VAAGTAQLLVAC+57.021K-1.0000     NotChecked  -26.7554    1429.7599   ✗       
+675   Q+0.984VAASSAQLLVAC+57.021K-1.0000     NotChecked  -26.7622    1445.7548   ✗       
+676   Q+0.984VAAGTAQLLVAC+57.021K-1.0000     NotChecked  -26.7821    1429.7599   ✗       
+677   Q+0.984VASTAQLLVAC+57.021K-1.0000     NotChecked  -26.7927    1388.7333   ✗       
+678   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -26.7996    1401.7650   ✗       
+679   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -26.8200    1372.7384   ✗       
+680   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -26.8769    1372.7384   ✗       
+681   LVAASTAQ+0.984LLVAC+57.021K-1.0000     NotChecked  -26.8774    1444.7959   ✗       
+682   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -26.8961    1401.7650   ✗       
+683   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -26.9036    1372.7384   ✗       
+684   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -26.9105    1313.7013   ✗       
+685   Q+0.984VAASAAQLLVAC+57.021K-1.0000     NotChecked  -26.9739    1429.7599   ✗       
+686   Q+0.984VAASTAQLLVAK      -1.0000     NotChecked  -26.9892    1299.7398   ✗       
+687   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -26.9907    1373.7337   ✗       
+688   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -27.0094    1313.7013   ✗       
+689   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -27.0197    1372.7384   ✗       
+690   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -27.0388    1401.7650   ✗       
+691   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -27.0464    1372.7384   ✗       
+692   Q+0.984AAASTAQLLVAC+57.021K-1.0000     NotChecked  -27.0798    1431.7392   ✗       
+693   +43.006VAAGSTAQLLVAC+57.021K-1.0000     NotChecked  -27.0848    1430.7551   ✗       
+694   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -27.1058    1313.7013   ✗       
+695   Q+0.984VAASGAQLLVAC+57.021K-1.0000     NotChecked  -27.1210    1415.7443   ✗       
+696   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -27.1302    1443.8119   ✗       
+697   Q+0.984VAASTASLLVAC+57.021K-1.0000     NotChecked  -27.1685    1418.7439   ✗       
+698   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -27.1703    1373.7337   ✗       
+699   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -27.1887    1373.7337   ✗       
+700   NVAASTAQ+0.984LLVAC+57.021K-1.0000     NotChecked  -27.1955    1445.7548   ✗       
+701   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -27.1970    1373.7337   ✗       
+702   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -27.2155    1373.7337   ✗       
+703   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -27.2291    1443.8119   ✗       
+704   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -27.2486    1313.7013   ✗       
+705   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -27.2539    1373.7337   ✗       
+706   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -27.2723    1373.7337   ✗       
+707   Q+0.984VAASTAGLLVAC+57.021K-1.0000     NotChecked  -27.2805    1388.7333   ✗       
+708   +43.006VAAGTAQLLVAC+57.021K-1.0000     NotChecked  -27.2837    1343.7231   ✗       
+709   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -27.3255    1443.8119   ✗       
+710   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -27.3705    1372.7384   ✗       
+711   Q+0.984VAASTAQLLVGC+57.021K-1.0000     NotChecked  -27.3710    1445.7548   ✗       
+712   KVAAGTAQLLVAC+57.021K    -1.0000     NotChecked  -27.3930    1428.8123   ✗       
+713   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -27.3966    1373.7337   ✗       
+714   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -27.4151    1373.7337   ✗       
+715   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -27.4483    1444.7708   ✗       
+716   +42.011VAAGSTAQLLVAC+57.021K-1.0000     NotChecked  -27.4646    1429.7599   ✗       
+717   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -27.4683    1443.8119   ✗       
+718   Q+0.984VAAGTAQLLVAC+57.021K-1.0000     NotChecked  -27.5121    1429.7599   ✗       
+719   Q+0.984VAAGTAQLLVAC+57.021K-1.0000     NotChecked  -27.5306    1429.7599   ✗       
+720   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -27.5471    1444.7708   ✗       
+721   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -27.5501    1372.7384   ✗       
+722   Q+0.984VAASTAQLLVAMK     -1.0000     NotChecked  -27.5665    1430.7803   ✗       
+723   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -27.5685    1372.7384   ✗       
+724   Q+0.984GAASTAQLLVAC+57.021K-1.0000     NotChecked  -27.5713    1417.7235   ✗       
+725   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -27.5768    1372.7384   ✗       
+726   Q+0.984VASTAQLLVAC+57.021K-1.0000     NotChecked  -27.5837    1388.7333   ✗       
+727   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -27.5952    1372.7384   ✗       
+728   Q+0.984GAASTAQLLVAC+57.021K-1.0000     NotChecked  -27.5980    1417.7235   ✗       
+729   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -27.6337    1372.7384   ✗       
+730   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -27.6436    1444.7708   ✗       
+731   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -27.6521    1372.7384   ✗       
+732   +42.011VAAGTAQLLVAC+57.021K-1.0000     NotChecked  -27.6634    1342.7279   ✗       
+733   +43.006VAASTAQ+0.984LLVAC+57.021K-1.0000     NotChecked  -27.6927    1374.7177   ✗       
+734   Q+0.984VAASTAQLLVAHK     -1.0000     NotChecked  -27.7024    1436.7987   ✗       
+735   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -27.7764    1372.7384   ✗       
+736   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -27.7863    1444.7708   ✗       
+737   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -27.7949    1372.7384   ✗       
+738   Q+0.984VAASAQLLVAC+57.021K-1.0000     NotChecked  -27.8527    1358.7228   ✗       
+739   Q+0.984VAASTAALLVAC+57.021K-1.0000     NotChecked  -27.8548    1402.7490   ✗       
+740   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -27.9455    1373.7337   ✗       
+741   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.0443    1373.7337   ✗       
+742   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.0465    1373.7337   ✗       
+743   +42.011VAASTAQ+0.984LLVAC+57.021K-1.0000     NotChecked  -28.0725    1373.7224   ✗       
+744   Q+0.984VAASSAQLLVAC+57.021K-1.0000     NotChecked  -28.0831    1445.7548   ✗       
+745   Q+0.984VAASTAQVLVAC+57.021K-1.0000     NotChecked  -28.0887    1445.7548   ✗       
+746   Q+0.984VAASTQLLVAC+57.021K-1.0000     NotChecked  -28.0959    1388.7333   ✗       
+747   +43.006GAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.0995    1331.6867   ✗       
+748   Q+0.984VAASSAQLLVAC+57.021K-1.0000     NotChecked  -28.1098    1445.7548   ✗       
+749   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -28.1601    1401.7650   ✗       
+750   KGAASTAQLLVAC+57.021K    -1.0000     NotChecked  -28.2089    1416.7759   ✗       
+751   Q+0.984VAASTAQLVVAC+57.021K-1.0000     NotChecked  -28.2159    1445.7548   ✗       
+752   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -28.2169    1401.7650   ✗       
+753   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -28.2437    1401.7650   ✗       
+754   +43.006VAATTAQLLVAC+57.021K-1.0000     NotChecked  -28.2622    1387.7493   ✗       
+755   -17.027QVAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.3041    1441.7599   ✗       
+756   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.3253    1372.7384   ✗       
+757   Q+0.984GAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.3280    1417.7235   ✗       
+758   -17.027QVAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.3308    1441.7599   ✗       
+759   Q+0.984GAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.3465    1417.7235   ✗       
+760   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -28.3597    1401.7650   ✗       
+761   Q+0.984VGASTAQLLVAC+57.021K-1.0000     NotChecked  -28.3689    1445.7548   ✗       
+762   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.3698    1313.7013   ✗       
+763   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -28.3864    1401.7650   ✗       
+764   -17.027QVAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.3877    1441.7599   ✗       
+765   Q+0.984AAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.4007    1431.7392   ✗       
+766   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.4241    1372.7384   ✗       
+767   Q+0.984VAATAQLLVAC+57.021K-1.0000     NotChecked  -28.4252    1372.7384   ✗       
+768   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.4263    1372.7384   ✗       
+769   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.4267    1313.7013   ✗       
+770   Q+0.984AAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.4274    1431.7392   ✗       
+771   +43.006LAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.4403    1387.7493   ✗       
+772   Q+0.984VAATAQLLVAC+57.021K-1.0000     NotChecked  -28.4519    1372.7384   ✗       
+773   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.4534    1313.7013   ✗       
+774   Q+0.984VAAATAQLLVAC+57.021K-1.0000     NotChecked  -28.4626    1443.7755   ✗       
+775   +42.011GAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.4793    1330.6915   ✗       
+776   Q+0.984VAAATAQLLVAC+57.021K-1.0000     NotChecked  -28.4893    1443.7755   ✗       
+777   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.5179    1373.7337   ✗       
+778   +43.006GVAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.5181    1430.7551   ✗       
+779   -17.027QVAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.5305    1441.7599   ✗       
+780   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.5363    1373.7337   ✗       
+781   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.5691    1373.7337   ✗       
+782   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.5694    1313.7013   ✗       
+783   Q+0.984VAASTAQLLVATK     -1.0000     NotChecked  -28.5788    1400.7875   ✗       
+784   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -28.5895    1443.8119   ✗       
+785   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.5929    1373.7337   ✗       
+786   Q+0.984VAASTALLLVAC+57.021K-1.0000     NotChecked  -28.5933    1444.7959   ✗       
+787   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.5962    1313.7013   ✗       
+788   +43.006AVAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.5998    1444.7708   ✗       
+789   +43.006VAASSAQLLVAC+57.021K-1.0000     NotChecked  -28.6113    1359.7180   ✗       
+790   +43.006VQASTAQLLVAC+57.021K-1.0000     NotChecked  -28.6179    1430.7551   ✗       
+791   +42.011VAATTAQLLVAC+57.021K-1.0000     NotChecked  -28.6419    1386.7541   ✗       
+792   +43.006VAGASTAQLLVAC+57.021K-1.0000     NotChecked  -28.6461    1430.7551   ✗       
+793   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -28.6464    1443.8119   ✗       
+794   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -28.6731    1443.8119   ✗       
+795   Q+0.984VAASTAQLLVC+57.021K-1.0000     NotChecked  -28.6756    1388.7333   ✗       
+796   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -28.7106    1401.7650   ✗       
+797   KVAASSAQLLVAC+57.021K    -1.0000     NotChecked  -28.7207    1444.8072   ✗       
+798   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -28.7892    1443.8119   ✗       
+799   Q+0.984VAASTAQSLVAC+57.021K-1.0000     NotChecked  -28.8043    1433.7184   ✗       
+800   Q+0.984VAASTAQLLVAVK     -1.0000     NotChecked  -28.8082    1398.8082   ✗       
+801   Q+0.984VAASTGQLLVAC+57.021K-1.0000     NotChecked  -28.8146    1445.7548   ✗       
+802   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -28.8159    1443.8119   ✗       
+803   +42.011LAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.8201    1386.7541   ✗       
+804   Q+0.984VAASTAQLLVAGK     -1.0000     NotChecked  -28.8220    1356.7613   ✗       
+805   Q+0.984VAASSAQLLVAC+57.021K-1.0000     NotChecked  -28.8398    1445.7548   ✗       
+806   Q+0.984VAASSAQLLVAC+57.021K-1.0000     NotChecked  -28.8582    1445.7548   ✗       
+807   Q+0.984VAASTAQLLGAC+57.021K-1.0000     NotChecked  -28.8752    1417.7235   ✗       
+808   +43.006VAANTAQLLVAC+57.021K-1.0000     NotChecked  -28.8881    1400.7446   ✗       
+809   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -28.8901    1401.7650   ✗       
+810   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.8977    1372.7384   ✗       
+811   +42.011GVAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.8979    1429.7599   ✗       
+812   Q+0.984VAASTAQLAVAC+57.021K-1.0000     NotChecked  -28.9005    1417.7235   ✗       
+813   Q+0.984VASTAQLLVAC+57.021K-1.0000     NotChecked  -28.9046    1388.7333   ✗       
+814   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -28.9076    1444.7708   ✗       
+815   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -28.9085    1401.7650   ✗       
+816   Q+0.984PAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.9104    1457.7548   ✗       
+817   +43.006VAAGSTAQLLVAC+57.021K-1.0000     NotChecked  -28.9120    1430.7551   ✗       
+818   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.9161    1372.7384   ✗       
+819   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -28.9168    1401.7650   ✗       
+820   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.9203    1313.7013   ✗       
+821   +43.006AAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.9290    1345.7024   ✗       
+822   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -28.9353    1401.7650   ✗       
+823   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.9488    1372.7384   ✗       
+824   +43.006VAATAQLLVAC+57.021K-1.0000     NotChecked  -28.9535    1286.7017   ✗       
+825   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -28.9645    1444.7708   ✗       
+826   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.9727    1372.7384   ✗       
+827   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -28.9737    1401.7650   ✗       
+828   +42.011AVAASTAQLLVAC+57.021K-1.0000     NotChecked  -28.9796    1443.7755   ✗       
+829   +43.006VAAATAQLLVAC+57.021K-1.0000     NotChecked  -28.9909    1357.7388   ✗       
+830   +42.011VAASSAQLLVAC+57.021K-1.0000     NotChecked  -28.9911    1358.7228   ✗       
+831   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -28.9912    1444.7708   ✗       
+832   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -28.9921    1401.7650   ✗       
+833   Q+0.984VAASTAQLLVASK     -1.0000     NotChecked  -28.9961    1386.7718   ✗       
+834   +42.011VQASTAQLLVAC+57.021K-1.0000     NotChecked  -28.9977    1429.7599   ✗       
+835   AVAAGTAQLLVAC+57.021K    -1.0000     NotChecked  -29.0035    1371.7544   ✗       
+836   +43.006VAASTAQ+0.984LLVAC+57.021K-1.0000     NotChecked  -29.0136    1374.7177   ✗       
+837   -17.027VAAGSTAQLLVAC+57.021K-1.0000     NotChecked  -29.0144    1370.7228   ✗       
+838   +42.011VAGASTAQLLVAC+57.021K-1.0000     NotChecked  -29.0259    1429.7599   ✗       
+839   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.0283    1373.7337   ✗       
+840   Q+0.984AASTAQLLVAC+57.021K-1.0000     NotChecked  -29.0341    1360.7020   ✗       
+841   +43.006VLASTAQLLVAC+57.021K-1.0000     NotChecked  -29.0380    1415.7806   ✗       
+842   KAAASTAQLLVAC+57.021K    -1.0000     NotChecked  -29.0383    1430.7915   ✗       
+843   +43.006VAASTAQ+0.984LLVAC+57.021K-1.0000     NotChecked  -29.0403    1374.7177   ✗       
+844   RVAAGTAQLLVAC+57.021K    -1.0000     NotChecked  -29.0571    1456.8184   ✗       
+845   -17.027QVAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.0608    1441.7599   ✗       
+846   KVAATAQLLVAC+57.021K     -1.0000     NotChecked  -29.0628    1371.7908   ✗       
+847   -17.027QVAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.0793    1441.7599   ✗       
+848   Q+0.984VAASTAQTLVAC+57.021K-1.0000     NotChecked  -29.0862    1447.7341   ✗       
+849   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.0998    1313.7013   ✗       
+850   KVAAATAQLLVAC+57.021K    -1.0000     NotChecked  -29.1002    1442.8279   ✗       
+851   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -29.1072    1444.7708   ✗       
+852   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -29.1165    1401.7650   ✗       
+853   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.1183    1313.7013   ✗       
+854   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.1266    1313.7013   ✗       
+855   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -29.1339    1444.7708   ✗       
+856   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -29.1349    1401.7650   ✗       
+857   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -29.1400    1443.8119   ✗       
+858   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.1450    1313.7013   ✗       
+859   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.1498    1373.7337   ✗       
+860   Q+0.984AAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.1575    1431.7392   ✗       
+861   Q+0.984VAASTAQLLVAAK     -1.0000     NotChecked  -29.1651    1370.7769   ✗       
+862   Q+0.984VAASTAALLVAC+57.021K-1.0000     NotChecked  -29.1757    1402.7490   ✗       
+863   Q+0.984AASTAQLLVAC+57.021K-1.0000     NotChecked  -29.1759    1360.7020   ✗       
+864   Q+0.984VAATAQLLVAC+57.021K-1.0000     NotChecked  -29.1819    1372.7384   ✗       
+865   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.1834    1313.7013   ✗       
+866   +43.006VAASTSQLLVAC+57.021K-1.0000     NotChecked  -29.1897    1389.7286   ✗       
+867   Q+0.984VAATAQLLVAC+57.021K-1.0000     NotChecked  -29.2004    1372.7384   ✗       
+868   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.2019    1313.7013   ✗       
+869   Q+0.984VAASTAALLVAC+57.021K-1.0000     NotChecked  -29.2024    1402.7490   ✗       
+870   -17.027VAAGTAQLLVAC+57.021K-1.0000     NotChecked  -29.2132    1283.6908   ✗       
+871   Q+0.984VAAATAQLLVAC+57.021K-1.0000     NotChecked  -29.2193    1443.7755   ✗       
+872   Q+0.984VAAATAQLLVAC+57.021K-1.0000     NotChecked  -29.2378    1443.7755   ✗       
+873   +43.006VVASTAQLLVAC+57.021K-1.0000     NotChecked  -29.2486    1401.7650   ✗       
+874   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.2664    1373.7337   ✗       
+875   +42.011VAANTAQLLVAC+57.021K-1.0000     NotChecked  -29.2679    1399.7493   ✗       
+876   Q+0.984VAASTAQALVAC+57.021K-1.0000     NotChecked  -29.2799    1417.7235   ✗       
+877   Q+0.984VAASTANLLVAC+57.021K-1.0000     NotChecked  -29.2807    1445.7548   ✗       
+878   +42.011VAAGSTAQLLVAC+57.021K-1.0000     NotChecked  -29.2918    1429.7599   ✗       
+879   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.2931    1373.7337   ✗       
+880   +42.011AAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.3088    1344.7071   ✗       
+881   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -29.3195    1443.8119   ✗       
+882   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.3262    1313.7013   ✗       
+883   +42.011VAATAQLLVAC+57.021K-1.0000     NotChecked  -29.3332    1285.7064   ✗       
+884   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -29.3380    1443.8119   ✗       
+885   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.3446    1313.7013   ✗       
+886   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -29.3463    1443.8119   ✗       
+887   +43.006VAASTAQLLVTC+57.021K-1.0000     NotChecked  -29.3553    1403.7442   ✗       
+888   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -29.3647    1443.8119   ✗       
+889   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.3652    1373.7337   ✗       
+890   +42.011VAAATAQLLVAC+57.021K-1.0000     NotChecked  -29.3706    1356.7435   ✗       
+891   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.3919    1373.7337   ✗       
+892   +42.011VAASTAQ+0.984LLVAC+57.021K-1.0000     NotChecked  -29.3934    1373.7224   ✗       
+893   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -29.4032    1443.8119   ✗       
+894   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.4080    1372.7384   ✗       
+895   AVAASTAQ+0.984LLVAC+57.021K-1.0000     NotChecked  -29.4125    1402.7490   ✗       
+896   +42.011VLASTAQLLVAC+57.021K-1.0000     NotChecked  -29.4178    1414.7854   ✗       
+897   +42.011VAASTAQ+0.984LLVAC+57.021K-1.0000     NotChecked  -29.4201    1373.7224   ✗       
+898   Q+0.984VAASTAQLLAC+57.021K-1.0000     NotChecked  -29.4208    1360.7020   ✗       
+899   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -29.4216    1443.8119   ✗       
+900   +43.006VASTAQLLVAC+57.021K-1.0000     NotChecked  -29.4328    1302.6966   ✗       
+901   LVAAGTAQLLVAC+57.021K    -1.0000     NotChecked  -29.4329    1413.8014   ✗       
+902   Q+0.984VAASTQLLVAC+57.021K-1.0000     NotChecked  -29.4435    1388.7333   ✗       
+903   +43.006VAAQTAQLLVAC+57.021K-1.0000     NotChecked  -29.4560    1414.7602   ✗       
+904   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -29.4581    1444.7708   ✗       
+905   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.4617    1373.7337   ✗       
+906   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.4884    1373.7337   ✗       
+907   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.5296    1372.7384   ✗       
+908   KVASTAQLLVAC+57.021K     -1.0000     NotChecked  -29.5422    1387.7857   ✗       
+909   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -29.5459    1443.8119   ✗       
+910   Q+0.984VAGSTAQLLVAC+57.021K-1.0000     NotChecked  -29.5478    1445.7548   ✗       
+911   Q+0.984VAASTAQLLVAC+57.021-1.0000     NotChecked  -29.5563    1331.6755   ✗       
+912   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -29.5644    1443.8119   ✗       
+913   +43.006VAAC+57.021TAQLLVAC+57.021K-1.0000     NotChecked  -29.5674    1446.7323   ✗       
+914   +42.011VAASTSQLLVAC+57.021K-1.0000     NotChecked  -29.5694    1388.7333   ✗       
+915   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.6044    1373.7337   ✗       
+916   -17.027VAASTAQ+0.984LLVAC+57.021K-1.0000     NotChecked  -29.6223    1314.6853   ✗       
+917   +42.011VVASTAQLLVAC+57.021K-1.0000     NotChecked  -29.6283    1400.7697   ✗       
+918   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.6311    1373.7337   ✗       
+919   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -29.6376    1444.7708   ✗       
+920   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.6461    1372.7384   ✗       
+921   -17.027QVAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.6517    1441.7599   ✗       
+922   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -29.6560    1444.7708   ✗       
+923   Q+0.984VASTAQLLVAC+57.021K-1.0000     NotChecked  -29.6613    1388.7333   ✗       
+924   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -29.6643    1444.7708   ✗       
+925   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -29.6653    1401.7650   ✗       
+926   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.6729    1372.7384   ✗       
+927   Q+0.984VASTAQLLVAC+57.021K-1.0000     NotChecked  -29.6797    1388.7333   ✗       
+928   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -29.6828    1444.7708   ✗       
+929   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.6880    1373.7337   ✗       
+930   Q+0.984VGASTAQLLVAC+57.021K-1.0000     NotChecked  -29.6898    1445.7548   ✗       
+931   +43.006VAASTAALLVAC+57.021K-1.0000     NotChecked  -29.7040    1316.7122   ✗       
+932   Q+0.984VGASTAQLLVAC+57.021K-1.0000     NotChecked  -29.7165    1445.7548   ✗       
+933   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -29.7212    1444.7708   ✗       
+934   +42.011VAASTAQLLVTC+57.021K-1.0000     NotChecked  -29.7351    1402.7490   ✗       
+935   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -29.7396    1444.7708   ✗       
+936   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.7450    1372.7384   ✗       
+937   NVAAGTAQLLVAC+57.021K    -1.0000     NotChecked  -29.7510    1414.7602   ✗       
+938   Q+0.984VASTAQLLVAC+57.021K-1.0000     NotChecked  -29.7572    1388.7333   ✗       
+939   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -29.7641    1401.7650   ✗       
+940   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -29.7663    1401.7650   ✗       
+941   +43.006VAASTAQ+0.984LLVAC+57.021K-1.0000     NotChecked  -29.7703    1374.7177   ✗       
+942   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.7717    1372.7384   ✗       
+943   +43.006VAASTAQ+0.984LLVAC+57.021K-1.0000     NotChecked  -29.7888    1374.7177   ✗       
+944   Q+0.984VAAGTAQLLVAC+57.021K-1.0000     NotChecked  -29.8035    1429.7599   ✗       
+945   +42.011VASTAQLLVAC+57.021K-1.0000     NotChecked  -29.8126    1301.7013   ✗       
+946   KVAASTAALLVAC+57.021K    -1.0000     NotChecked  -29.8134    1401.8014   ✗       
+947   AGAASTAQLLVAC+57.021K    -1.0000     NotChecked  -29.8194    1359.7180   ✗       
+948   +42.011VAAQTAQLLVAC+57.021K-1.0000     NotChecked  -29.8358    1413.7650   ✗       
+949   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.8414    1372.7384   ✗       
+950   LVAASTAQ+0.984LLVAC+57.021K-1.0000     NotChecked  -29.8420    1444.7959   ✗       
+951   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -29.8640    1444.7708   ✗       
+952   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.8682    1372.7384   ✗       
+953   RGAASTAQLLVAC+57.021K    -1.0000     NotChecked  -29.8730    1444.7820   ✗       
+954   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.8750    1313.7013   ✗       
+955   NVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -29.8824    1444.7708   ✗       
+956   Q+0.984VAASTAALLVAC+57.021K-1.0000     NotChecked  -29.9325    1402.7490   ✗       
+957   Q+0.984VAASAAQLLVAC+57.021K-1.0000     NotChecked  -29.9385    1429.7599   ✗       
+958   +43.006VAASTQLLVAC+57.021K-1.0000     NotChecked  -29.9451    1302.6966   ✗       
+959   +42.011VAAC+57.021TAQLLVAC+57.021K-1.0000     NotChecked  -29.9471    1445.7371   ✗       
+960   Q+0.984VAASTAALLVAC+57.021K-1.0000     NotChecked  -29.9509    1402.7490   ✗       
+961   Q+0.984VAASTAQLLVAK      -1.0000     NotChecked  -29.9537    1299.7398   ✗       
+962   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.9553    1373.7337   ✗       
+963   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.9739    1313.7013   ✗       
+964   -17.027VAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.9760    1313.7013   ✗       
+965   AVAATTAQLLVAC+57.021K    -1.0000     NotChecked  -29.9820    1415.7806   ✗       
+966   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -29.9842    1372.7384   ✗       
+967   +43.006VAADTAQLLVAC+57.021K-1.0000     NotChecked  -29.9931    1401.7286   ✗       
+968   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -30.0109    1372.7384   ✗       
+969   -17.027GAASTAQLLVAC+57.021K-1.0000     NotChecked  -30.0291    1271.6544   ✗       
+970   +43.006VAAGSTAQLLVAC+57.021K-1.0000     NotChecked  -30.0493    1430.7551   ✗       
+971   KVAASTQLLVAC+57.021K     -1.0000     NotChecked  -30.0544    1387.7857   ✗       
+972   +42.011VAASTAQLLVAC+57.021K-1.0000     NotChecked  -30.0678    1372.7384   ✗       
+973   +42.011VAASTAALLVAC+57.021K-1.0000     NotChecked  -30.0838    1315.7170   ✗       
+974   Q+0.984VAASGAQLLVAC+57.021K-1.0000     NotChecked  -30.0855    1415.7443   ✗       
+975   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -30.0947    1443.8119   ✗       
+976   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -30.1220    1373.7337   ✗       
+977   Q+0.984VAASTASLLVAC+57.021K-1.0000     NotChecked  -30.1331    1418.7439   ✗       
+978   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -30.1404    1373.7337   ✗       
+979   +42.011VAASTAQ+0.984LLVAC+57.021K-1.0000     NotChecked  -30.1501    1373.7224   ✗       
+980   NVAASTAQ+0.984LLVAC+57.021K-1.0000     NotChecked  -30.1600    1445.7548   ✗       
+981   ALAASTAQLLVAC+57.021K    -1.0000     NotChecked  -30.1601    1415.7806   ✗       
+982   Q+0.984VAASTGQLLVAC+57.021K-1.0000     NotChecked  -30.1622    1445.7548   ✗       
+983   +42.011VAASTAQ+0.984LLVAC+57.021K-1.0000     NotChecked  -30.1685    1373.7224   ✗       
+984   Q+0.984VAASTQLLVAC+57.021K-1.0000     NotChecked  -30.1736    1388.7333   ✗       
+985   -17.027VAATTAQLLVAC+57.021K-1.0000     NotChecked  -30.1917    1327.7170   ✗       
+986   Q+0.984VAASTQLLVAC+57.021K-1.0000     NotChecked  -30.1920    1388.7333   ✗       
+987   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -30.1936    1443.8119   ✗       
+988   LVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -30.1958    1443.8119   ✗       
+989   Q+0.984VAASTAQLLGAC+57.021K-1.0000     NotChecked  -30.1961    1417.7235   ✗       
+990   +43.006VGASTAQLLVAC+57.021K-1.0000     NotChecked  -30.2181    1359.7180   ✗       
+991   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -30.2184    1373.7337   ✗       
+992   Q+0.984VAASTAQLLGAC+57.021K-1.0000     NotChecked  -30.2228    1417.7235   ✗       
+993   Q+0.984PAASTAQLLVAC+57.021K-1.0000     NotChecked  -30.2313    1457.7548   ✗       
+994   +43.006VAASTAQLLVAC+57.021K-1.0000     NotChecked  -30.2369    1373.7337   ✗       
+995   AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -30.2377    1401.7650   ✗       
+996   +43.006VKASTAQLLVAC+57.021K-1.0000     NotChecked  -30.2409    1430.7915   ✗       
+997   Q+0.984VAASTAGLLVAC+57.021K-1.0000     NotChecked  -30.2450    1388.7333   ✗       
+998   +43.006VAASGTAQLLVAC+57.021K-1.0000     NotChecked  -30.2482    1430.7551   ✗       
+999   LGAASTAQLLVAC+57.021K    -1.0000     NotChecked  -30.2488    1401.7650   ✗       
+1000  AVAASTAQLLVAC+57.021K    -1.0000     NotChecked  -30.2561    1401.7650   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: QVAASTAQLLVAC+57.021K
+Similarity: 0.9507
+De Novo Score: -0.1057
+Source: Database
+Correct: ✓
+

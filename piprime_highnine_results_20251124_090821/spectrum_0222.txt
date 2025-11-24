@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 222
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 772.9155
+Precursor charge: 2+
+Ground truth: SITIDTWEPEIIK
+Ground truth (normalized): SITIDTWEPEIIK
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 163
+Used for reranking: 163
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 163 (16.3%)
+Database matches: 40 (4.0%)
+Prosit predictions: 118 (11.8%)
+Failed: 5 (0.5%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.6483
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     SLTLDTWEPELLK            0.6483      Database    -0.4848     1543.8134   ✓       ✓
+2     SLTLDTWEPELLK            0.6483      Database    -2.6653     1543.8134   ✓       ✓
+3     SLTLDTWEPELLK            0.6483      Database    -10.9830    1543.8134   ✓       ✓
+4     SLTLDTWEPELLK            0.6483      Database    -12.1568    1543.8134   ✓       ✓
+5     SLTLDTWEPELLK            0.6483      Database    -12.1957    1543.8134   ✓       ✓
+6     SLTLDTWEPELLK            0.6483      Database    -13.1634    1543.8134   ✓       ✓
+7     SLTLDTWEPELLK            0.6483      Database    -13.3806    1543.8134   ✓       ✓
+8     SLTLDTWEPELLK            0.6483      Database    -14.2300    1543.8134   ✓       ✓
+9     SLTLDTWEPELLK            0.6483      Database    -14.2776    1543.8134   ✓       ✓
+10    SLTLDTWEPELLK            0.6483      Database    -14.3372    1543.8134   ✓       ✓
+11    SLTLDTWEPELLK            0.6483      Database    -14.3761    1543.8134   ✓       ✓
+12    SLTLDTWEPELLK            0.6483      Database    -14.5481    1543.8134   ✓       ✓
+13    SLTLDTWEPELLK            0.6483      Database    -15.0195    1543.8134   ✓       ✓
+14    SLTLDTWEPELLK            0.6483      Database    -15.5610    1543.8134   ✓       ✓
+15    SLTLDTWEPELLK            0.6483      Database    -16.3242    1543.8134   ✓       ✓
+16    SLTLDTWEPELLK            0.6483      Database    -16.4105    1543.8134   ✓       ✓
+17    SLTLDTWEPELLK            0.6483      Database    -16.4580    1543.8134   ✓       ✓
+18    SLTLDTWEPELLK            0.6483      Database    -16.7285    1543.8134   ✓       ✓
+19    SLTLDTWEPELLK            0.6483      Database    -16.8325    1543.8134   ✓       ✓
+20    SLTLDTWEPELLK            0.6483      Database    -16.8501    1543.8134   ✓       ✓
+21    SLTLDTWEPELLK            0.6483      Database    -17.2000    1543.8134   ✓       ✓
+22    SLTLDTWEPELLK            0.6483      Database    -17.2000    1543.8134   ✓       ✓
+23    SLTLDTWEPELLK            0.6483      Database    -17.4635    1543.8134   ✓       ✓
+24    SLTLDTWEPELLK            0.6483      Database    -17.5098    1543.8134   ✓       ✓
+25    SLTLDTWEPELLK            0.6483      Database    -18.2330    1543.8134   ✓       ✓
+26    SLTLDTWEPELLK            0.6483      Database    -18.4642    1543.8134   ✓       ✓
+27    SLTLDTWEPELLK            0.6483      Database    -18.5046    1543.8134   ✓       ✓
+28    SLTLDTWEPELLK            0.6483      Database    -19.0129    1543.8134   ✓       ✓
+29    SLTLDTWEPELLK            0.6483      Database    -19.0305    1543.8134   ✓       ✓
+30    SLTLDTWEPELLK            0.6483      Database    -19.3474    1543.8134   ✓       ✓
+31    SLTLDTWEPELLK            0.6483      Database    -19.3804    1543.8134   ✓       ✓
+32    SLTLDTWEPELLK            0.6483      Database    -19.4430    1543.8134   ✓       ✓
+33    SLTLDTWEPELLK            0.6483      Database    -19.5631    1543.8134   ✓       ✓
+34    SLTLDTWEPELLK            0.6483      Database    -19.6439    1543.8134   ✓       ✓
+35    SLTLDTWEPELLK            0.6483      Database    -19.6903    1543.8134   ✓       ✓
+36    SLTLDTWEPELLK            0.6483      Database    -20.1749    1543.8134   ✓       ✓
+37    SLTLDTWEPELLK            0.6483      Database    -20.4134    1543.8134   ✓       ✓
+38    SLTLDTWEPELLK            0.6483      Database    -21.6235    1543.8134   ✓       ✓
+39    SLTLDTWEPELLK            0.6483      Database    -21.7428    1543.8134   ✓       ✓
+40    SLTLDTWEPELLK            0.6483      Database    -21.7435    1543.8134   ✓       ✓
+41    TLSLDTWEPELLK            0.6041      Prosit      -18.3800    1543.8134   ✓       
+42    TLSLDTWEPELLK            0.6041      Prosit      -20.5604    1543.8134   ✓       
+43    TLSLDTWQ+0.984PELLK      0.6024      Prosit      -23.9146    1543.8134   ✓       
+44    SLTLDTWQ+0.984PELLK      0.5932      Prosit      -6.0194     1543.8134   ✓       
+45    SLTLDTWQ+0.984PELLK      0.5932      Prosit      -8.1998     1543.8134   ✓       
+46    SLTLDTWQ+0.984PELLK      0.5932      Prosit      -16.5175    1543.8134   ✓       
+47    SLTLDTWQ+0.984PELLK      0.5932      Prosit      -17.6914    1543.8134   ✓       
+48    SLTLDTWQ+0.984PELLK      0.5932      Prosit      -17.7303    1543.8134   ✓       
+49    SLTLDTWQ+0.984PELLK      0.5932      Prosit      -18.6980    1543.8134   ✓       
+50    SLTLDTWQ+0.984PELLK      0.5932      Prosit      -18.9152    1543.8134   ✓       
+51    SLTLDTWQ+0.984PELLK      0.5932      Prosit      -19.7646    1543.8134   ✓       
+52    SLTLDTWQ+0.984PELLK      0.5932      Prosit      -19.8122    1543.8134   ✓       
+53    SLTLDTWQ+0.984PELLK      0.5932      Prosit      -19.8718    1543.8134   ✓       
+54    SLTLDTWQ+0.984PELLK      0.5932      Prosit      -19.9107    1543.8134   ✓       
+55    SLTLDTWQ+0.984PELLK      0.5932      Prosit      -20.5541    1543.8134   ✓       
+56    SLTLDTWQ+0.984PELLK      0.5932      Prosit      -21.0956    1543.8134   ✓       
+57    SLTLDTWQ+0.984PELLK      0.5932      Prosit      -21.8588    1543.8134   ✓       
+58    SLTLDTWQ+0.984PELLK      0.5932      Prosit      -21.9451    1543.8134   ✓       
+59    SLTLDTWQ+0.984PELLK      0.5932      Prosit      -21.9926    1543.8134   ✓       
+60    TVTLDTWQ+0.984PELLK      0.5916      Prosit      -12.7547    1543.8134   ✓       
+61    TVTLDTWQ+0.984PELLK      0.5916      Prosit      -14.9352    1543.8134   ✓       
+62    TVTLDTWQ+0.984PELLK      0.5916      Prosit      -23.2528    1543.8134   ✓       
+63    TVTLDTWEPELLK            0.5915      Prosit      -7.2201     1543.8133   ✓       
+64    TVTLDTWEPELLK            0.5915      Prosit      -9.4006     1543.8133   ✓       
+65    TVTLDTWEPELLK            0.5915      Prosit      -17.7183    1543.8133   ✓       
+66    TVTLDTWEPELLK            0.5915      Prosit      -18.9310    1543.8133   ✓       
+67    TVTLDTWEPELLK            0.5915      Prosit      -19.8987    1543.8133   ✓       
+68    TVTLDTWEPELLK            0.5915      Prosit      -20.1159    1543.8133   ✓       
+69    TVTLDTWEPELLK            0.5915      Prosit      -20.9654    1543.8133   ✓       
+70    TVTLDTWEPELLK            0.5915      Prosit      -21.1114    1543.8133   ✓       
+71    TVTLDTWEPELLK            0.5915      Prosit      -21.2594    1543.8133   ✓       
+72    TVTLDTWEPELLK            0.5915      Prosit      -21.2834    1543.8133   ✓       
+73    TVTLDTWEPELLK            0.5915      Prosit      -21.7549    1543.8133   ✓       
+74    TVTLDTWEPELLK            0.5915      Prosit      -21.8711    1543.8133   ✓       
+75    TVTLDTWEPELLK            0.5915      Prosit      -22.2963    1543.8133   ✓       
+76    TVTLDTWEPELLK            0.5915      Prosit      -23.0595    1543.8133   ✓       
+77    TVTLDTWEPELLK            0.5915      Prosit      -23.1458    1543.8133   ✓       
+78    TVTLDTWEPELLK            0.5915      Prosit      -23.2663    1543.8133   ✓       
+79    TVTLDTWEPELLK            0.5915      Prosit      -23.4398    1543.8133   ✓       
+80    TVTLDTWEPELLK            0.5915      Prosit      -23.4639    1543.8133   ✓       
+81    TVTLDTWEPELLK            0.5915      Prosit      -23.5678    1543.8133   ✓       
+82    TVTLDTWEPELLK            0.5915      Prosit      -23.5854    1543.8133   ✓       
+83    TVTLDTWEPELLK            0.5915      Prosit      -23.9353    1543.8133   ✓       
+84    TLTVDTWEPELLK            0.5841      Prosit      -20.7841    1543.8133   ✓       
+85    TLTVDTWEPELLK            0.5841      Prosit      -22.9645    1543.8133   ✓       
+86    SLTLN+0.984TWEPELLK      0.5827      Prosit      -6.5910     1543.8134   ✓       
+87    SLTLN+0.984TWEPELLK      0.5827      Prosit      -8.7715     1543.8134   ✓       
+88    SLTLN+0.984TWEPELLK      0.5827      Prosit      -17.0892    1543.8134   ✓       
+89    SLTLN+0.984TWEPELLK      0.5827      Prosit      -18.2630    1543.8134   ✓       
+90    SLTLN+0.984TWEPELLK      0.5827      Prosit      -18.3019    1543.8134   ✓       
+91    SLTLN+0.984TWEPELLK      0.5827      Prosit      -19.2696    1543.8134   ✓       
+92    SLTLN+0.984TWEPELLK      0.5827      Prosit      -19.4868    1543.8134   ✓       
+93    SLTLN+0.984TWEPELLK      0.5827      Prosit      -20.3363    1543.8134   ✓       
+94    SLTLN+0.984TWEPELLK      0.5827      Prosit      -20.3838    1543.8134   ✓       
+95    SLTLN+0.984TWEPELLK      0.5827      Prosit      -20.4434    1543.8134   ✓       
+96    SLTLN+0.984TWEPELLK      0.5827      Prosit      -20.4824    1543.8134   ✓       
+97    SLTLN+0.984TWEPELLK      0.5827      Prosit      -20.6543    1543.8134   ✓       
+98    SLTLN+0.984TWEPELLK      0.5827      Prosit      -21.1258    1543.8134   ✓       
+99    SLTLN+0.984TWEPELLK      0.5827      Prosit      -21.6673    1543.8134   ✓       
+100   TLTLDTWDPELLK            0.5783      Prosit      -21.8085    1543.8133   ✓       
+101   TLTLDTWDPELLK            0.5783      Prosit      -23.9889    1543.8133   ✓       
+102   TLTLDSWEPELLK            0.5768      Prosit      -21.7549    1543.8134   ✓       
+103   TLTLDSWEPELLK            0.5768      Prosit      -23.9353    1543.8134   ✓       
+104   TVTLN+0.984TWEPELLK      0.5761      Prosit      -13.3263    1543.8133   ✓       
+105   TVTLN+0.984TWEPELLK      0.5761      Prosit      -15.5068    1543.8133   ✓       
+106   TVTLN+0.984TWEPELLK      0.5761      Prosit      -23.8245    1543.8133   ✓       
+107   SVTLQ+0.984TWEPELLK      0.5748      Prosit      -17.0332    1543.8134   ✓       
+108   SVTLQ+0.984TWEPELLK      0.5748      Prosit      -19.2136    1543.8134   ✓       
+109   SVTLETWEPELLK            0.5694      Prosit      -14.3580    1543.8134   ✓       
+110   SVTLETWEPELLK            0.5694      Prosit      -16.5385    1543.8134   ✓       
+111   SVTLETWQ+0.984PELLK      0.5682      Prosit      -19.8926    1543.8134   ✓       
+112   SVTLETWQ+0.984PELLK      0.5682      Prosit      -22.0730    1543.8134   ✓       
+113   TLTLDTWEPDLLK            0.5652      Prosit      -22.1364    1543.8133   ✓       
+114   VTTLDTWQ+0.984PELLK      0.5607      Prosit      -19.8777    1543.8134   ✓       
+115   VTTLDTWQ+0.984PELLK      0.5607      Prosit      -22.0582    1543.8134   ✓       
+116   AETLDTWEPELLK            0.5582      Prosit      -23.8029    1543.7770   ✓       
+117   VTTLDTWEPELLK            0.5566      Prosit      -14.3431    1543.8133   ✓       
+118   VTTLDTWEPELLK            0.5566      Prosit      -16.5236    1543.8133   ✓       
+119   VTTLN+0.984TWEPELLK      0.5539      Prosit      -20.4494    1543.8133   ✓       
+120   VTTLN+0.984TWEPELLK      0.5539      Prosit      -22.6298    1543.8133   ✓       
+121   TVTLN+0.984TWQ+0.984PELLK0.5462      Prosit      -18.8609    1543.8134   ✓       
+122   TVTLN+0.984TWQ+0.984PELLK0.5462      Prosit      -21.0414    1543.8134   ✓       
+123   SLTLN+0.984TWQ+0.984PELLK0.5424      Prosit      -12.1256    1543.8134   ✓       
+124   SLTLN+0.984TWQ+0.984PELLK0.5424      Prosit      -14.3061    1543.8134   ✓       
+125   TLTLDTWEPELVK            0.5379      Prosit      -20.1067    1543.8133   ✓       
+126   TLTLDTWEPELVK            0.5379      Prosit      -22.2872    1543.8133   ✓       
+127   SLTLDTWEPQ+0.984LLK      0.5322      Prosit      -7.3681     1543.8134   ✓       
+128   SLTLDTWEPQ+0.984LLK      0.5322      Prosit      -9.5485     1543.8134   ✓       
+129   SLTLDTWEPQ+0.984LLK      0.5322      Prosit      -17.8662    1543.8134   ✓       
+130   SLTLDTWEPQ+0.984LLK      0.5322      Prosit      -19.0400    1543.8134   ✓       
+131   SLTLDTWEPQ+0.984LLK      0.5322      Prosit      -19.0790    1543.8134   ✓       
+132   SLTLDTWEPQ+0.984LLK      0.5322      Prosit      -20.0467    1543.8134   ✓       
+133   SLTLDTWEPQ+0.984LLK      0.5322      Prosit      -20.2639    1543.8134   ✓       
+134   SLTLDTWEPQ+0.984LLK      0.5322      Prosit      -21.1133    1543.8134   ✓       
+135   SLTLDTWEPQ+0.984LLK      0.5322      Prosit      -21.1609    1543.8134   ✓       
+136   SLTLDTWEPQ+0.984LLK      0.5322      Prosit      -21.2205    1543.8134   ✓       
+137   SLTLDTWEPQ+0.984LLK      0.5322      Prosit      -21.2594    1543.8134   ✓       
+138   SLTLDTWEPQ+0.984LLK      0.5322      Prosit      -21.4314    1543.8134   ✓       
+139   SLTLDTWEPQ+0.984LLK      0.5322      Prosit      -21.9028    1543.8134   ✓       
+140   TVTLDTWEPQ+0.984LLK      0.5237      Prosit      -14.1034    1543.8134   ✓       
+141   TVTLDTWEPQ+0.984LLK      0.5237      Prosit      -16.2838    1543.8134   ✓       
+142   SVTLETWEPQ+0.984LLK      0.5101      Prosit      -21.2413    1543.8134   ✓       
+143   VTTLDTWEPQ+0.984LLK      0.4988      Prosit      -21.2264    1543.8134   ✓       
+144   VTTLDTWEPQ+0.984LLK      0.4988      Prosit      -23.4068    1543.8134   ✓       
+145   SLTLDTWQ+0.984PQ+0.984LLK0.4959      Prosit      -12.9027    1543.8134   ✓       
+146   SLTLDTWQ+0.984PQ+0.984LLK0.4959      Prosit      -15.0831    1543.8134   ✓       
+147   TVTLDTWQ+0.984PQ+0.984LLK0.4939      Prosit      -19.6380    1543.8134   ✓       
+148   TVTLDTWQ+0.984PQ+0.984LLK0.4939      Prosit      -21.8184    1543.8134   ✓       
+149   TVTLN+0.984TWEPQ+0.984LLK0.4812      Prosit      -20.2096    1543.8134   ✓       
+150   TVTLN+0.984TWEPQ+0.984LLK0.4812      Prosit      -22.3900    1543.8134   ✓       
+151   SLTLN+0.984TWEPQ+0.984LLK0.4790      Prosit      -13.4743    1543.8134   ✓       
+152   SLTLN+0.984TWEPQ+0.984LLK0.4790      Prosit      -15.6547    1543.8134   ✓       
+153   VLTLDTWEPETLK            0.4744      Prosit      -22.7256    1543.8133   ✓       
+154   SLTLN+0.984TWQ+0.984PQ+0.984LLK0.4705      Prosit      -19.0089    1543.8134   ✓       
+155   SLTLN+0.984TWQ+0.984PQ+0.984LLK0.4705      Prosit      -21.1893    1543.8134   ✓       
+156   VLTLDTWEPELTK            0.4634      Prosit      -23.0183    1543.8133   ✓       
+157   SLTLDTWEPELLQ            0.4601      Prosit      -18.4776    1543.7770   ✓       
+158   SLTLDTWEPELLQ            0.4601      Prosit      -20.6580    1543.7770   ✓       
+159   SVTLDTWEPELLK            -1.0000     NotChecked  -1.3023     1529.7977   ✗       
+160   SVTLDTWEPELLK            -1.0000     NotChecked  -3.4827     1529.7977   ✗       
+161   SVTLDTWQ+0.984PELLK      -1.0000     NotChecked  -6.8368     1529.7977   ✗       
+162   STTLDTWEPELLK            -1.0000     NotChecked  -6.9555     1531.7770   ✗       
+163   SVTLN+0.984TWEPELLK      -1.0000     NotChecked  -7.4085     1529.7977   ✗       
+164   SVTLDTWEPQ+0.984LLK      -1.0000     NotChecked  -8.1855     1529.7977   ✗       
+165   VVTLDTWEPELLK            -1.0000     NotChecked  -8.6899     1541.8341   ✗       
+166   SVTLDTWQ+0.984PELLK      -1.0000     NotChecked  -9.0173     1529.7977   ✗       
+167   STTLDTWEPELLK            -1.0000     NotChecked  -9.1359     1531.7770   ✗       
+168   SATLDTWEPELLK            -1.0000     NotChecked  -9.5512     1501.7664   ✗       
+169   ALTLDTWEPELLK            -1.0000     NotChecked  -9.5757     1527.8184   ✗       
+170   SVTLN+0.984TWEPELLK      -1.0000     NotChecked  -9.5889     1529.7977   ✗       
+171   SVTLDTWEPQ+0.984LLK      -1.0000     NotChecked  -10.3660    1529.7977   ✗       
+172   AVTLDTWEPELLK            -1.0000     NotChecked  -10.3932    1513.8028   ✗       
+173   GLTLDTWEPELLK            -1.0000     NotChecked  -10.4943    1513.8028   ✗       
+174   SSTLDTWEPELLK            -1.0000     NotChecked  -10.5104    1517.7613   ✗       
+175   +43.006LTLDTWEPELLK      -1.0000     NotChecked  -10.6321    1499.7871   ✗       
+176   VVTLDTWEPELLK            -1.0000     NotChecked  -10.8703    1541.8341   ✗       
+177   GVTLDTWEPELLK            -1.0000     NotChecked  -11.3118    1499.7871   ✗       
+178   +43.006VTLDTWEPELLK      -1.0000     NotChecked  -11.4495    1485.7715   ✗       
+179   SATLDTWEPELLK            -1.0000     NotChecked  -11.7316    1501.7664   ✗       
+180   ALTLDTWEPELLK            -1.0000     NotChecked  -11.7562    1527.8184   ✗       
+181   SVTLDTWEPELLK            -1.0000     NotChecked  -11.8004    1529.7977   ✗       
+182   SLTLDTWEPQLLK            -1.0000     NotChecked  -12.2169    1542.8293   ✗       
+183   SLTLDTWQPELLK            -1.0000     NotChecked  -12.2965    1542.8293   ✗       
+184   SLSLDTWEPELLK            -1.0000     NotChecked  -12.4621    1529.7977   ✗       
+185   STTLDTWQ+0.984PELLK      -1.0000     NotChecked  -12.4901    1531.7770   ✗       
+186   AVTLDTWEPELLK            -1.0000     NotChecked  -12.5736    1513.8028   ✗       
+187   GLTLDTWEPELLK            -1.0000     NotChecked  -12.6748    1513.8028   ✗       
+188   SSTLDTWEPELLK            -1.0000     NotChecked  -12.6908    1517.7613   ✗       
+189   +43.006LTLDTWEPELLK      -1.0000     NotChecked  -12.8125    1499.7871   ✗       
+190   SVTLN+0.984TWQ+0.984PELLK-1.0000     NotChecked  -12.9431    1529.7977   ✗       
+191   SVTLDTWEPELLK            -1.0000     NotChecked  -12.9742    1529.7977   ✗       
+192   SVTLDTWEPELLK            -1.0000     NotChecked  -13.0131    1529.7977   ✗       
+193   SVTLDTWEPQLLK            -1.0000     NotChecked  -13.0344    1528.8137   ✗       
+194   STTLN+0.984TWEPELLK      -1.0000     NotChecked  -13.0617    1531.7770   ✗       
+195   SVTLDTWQPELLK            -1.0000     NotChecked  -13.1139    1528.8137   ✗       
+196   SVSLDTWEPELLK            -1.0000     NotChecked  -13.2796    1515.7821   ✗       
+197   SLTLNTWEPELLK            -1.0000     NotChecked  -13.3118    1542.8293   ✗       
+198   GVTLDTWEPELLK            -1.0000     NotChecked  -13.4922    1499.7871   ✗       
+199   +43.006VTLDTWEPELLK      -1.0000     NotChecked  -13.6299    1485.7715   ✗       
+200   SVTLDTWQ+0.984PQ+0.984LLK-1.0000     NotChecked  -13.7201    1529.7977   ✗       
+201   STTLDTWEPQ+0.984LLK      -1.0000     NotChecked  -13.8388    1531.7770   ✗       
+202   SVTLDTWEPELLK            -1.0000     NotChecked  -13.9808    1529.7977   ✗       
+203   +42.011LTLDTWEPELLK      -1.0000     NotChecked  -14.0191    1498.7919   ✗       
+204   SVTLNTWEPELLK            -1.0000     NotChecked  -14.1292    1528.8137   ✗       
+205   SLTLDTWEPELVK            -1.0000     NotChecked  -14.1889    1529.7977   ✗       
+206   SVTLDTWEPELLK            -1.0000     NotChecked  -14.1980    1529.7977   ✗       
+207   VVTLDTWQ+0.984PELLK      -1.0000     NotChecked  -14.2245    1541.8341   ✗       
+208   SVTLN+0.984TWEPQ+0.984LLK-1.0000     NotChecked  -14.2917    1529.7977   ✗       
+209   SLTLDTWEPKLLK            -1.0000     NotChecked  -14.3566    1542.8657   ✗       
+210   SLTLDTWEPQLLK            -1.0000     NotChecked  -14.3974    1542.8293   ✗       
+211   SLTLDTWEPLLLK            -1.0000     NotChecked  -14.4238    1527.8548   ✗       
+212   SLTLDTWQPELLK            -1.0000     NotChecked  -14.4769    1542.8293   ✗       
+213   SLSLDTWEPELLK            -1.0000     NotChecked  -14.6426    1529.7977   ✗       
+214   STTLDTWQ+0.984PELLK      -1.0000     NotChecked  -14.6705    1531.7770   ✗       
+215   SLTLDTWEPELK             -1.0000     NotChecked  -14.6876    1430.7293   ✗       
+216   VVTLN+0.984TWEPELLK      -1.0000     NotChecked  -14.7961    1541.8341   ✗       
+217   +42.011VTLDTWEPELLK      -1.0000     NotChecked  -14.8366    1484.7762   ✗       
+218   SLTVDTWEPELLK            -1.0000     NotChecked  -14.8662    1529.7977   ✗       
+219   SVTLDTWEPELVK            -1.0000     NotChecked  -15.0063    1515.7821   ✗       
+220   SVTLDTWEPELLK            -1.0000     NotChecked  -15.0475    1529.7977   ✗       
+221   LTLDTWEPELLK             -1.0000     NotChecked  -15.0498    1456.7813   ✗       
+222   SATLDTWQ+0.984PELLK      -1.0000     NotChecked  -15.0858    1501.7664   ✗       
+223   SLTLDTWKPELLK            -1.0000     NotChecked  -15.0939    1542.8657   ✗       
+224   ALTLDTWQ+0.984PELLK      -1.0000     NotChecked  -15.1103    1527.8184   ✗       
+225   SVTLN+0.984TWQ+0.984PELLK-1.0000     NotChecked  -15.1235    1529.7977   ✗       
+226   SVTLDTWEPELLK            -1.0000     NotChecked  -15.1547    1529.7977   ✗       
+227   SVTLDTWEPKLLK            -1.0000     NotChecked  -15.1741    1528.8501   ✗       
+228   SVTLDTWEPELLK            -1.0000     NotChecked  -15.1936    1529.7977   ✗       
+229   SVTLDTWEPQLLK            -1.0000     NotChecked  -15.2148    1528.8137   ✗       
+230   SVTLDTWEPLLLK            -1.0000     NotChecked  -15.2413    1513.8392   ✗       
+231   STTLN+0.984TWEPELLK      -1.0000     NotChecked  -15.2422    1531.7770   ✗       
+232   SVTLDTWQPELLK            -1.0000     NotChecked  -15.2944    1528.8137   ✗       
+233   SLTLDTWEPETLK            -1.0000     NotChecked  -15.3380    1531.7770   ✗       
+234   SVTLDTWEPELLK            -1.0000     NotChecked  -15.3415    1529.7977   ✗       
+235   SVTLDTWEPELLK            -1.0000     NotChecked  -15.3655    1529.7977   ✗       
+236   SVSLDTWEPELLK            -1.0000     NotChecked  -15.4600    1515.7821   ✗       
+237   TATLDTWEPELLK            -1.0000     NotChecked  -15.4690    1515.7820   ✗       
+238   SLTLNTWEPELLK            -1.0000     NotChecked  -15.4922    1542.8293   ✗       
+239   SVTLDTWEPELK             -1.0000     NotChecked  -15.5050    1416.7136   ✗       
+240   VVTLDTWEPQ+0.984LLK      -1.0000     NotChecked  -15.5732    1541.8341   ✗       
+241   SLTLDTWEPELTK            -1.0000     NotChecked  -15.6307    1531.7770   ✗       
+242   SLTLSTWEPELLK            -1.0000     NotChecked  -15.6335    1515.8184   ✗       
+243   SATLN+0.984TWEPELLK      -1.0000     NotChecked  -15.6574    1501.7664   ✗       
+244   SLTLDTWEPEVLK            -1.0000     NotChecked  -15.6664    1529.7977   ✗       
+245   ALTLN+0.984TWEPELLK      -1.0000     NotChecked  -15.6819    1527.8184   ✗       
+246   SVTVDTWEPELLK            -1.0000     NotChecked  -15.6837    1515.7821   ✗       
+247   SLTLDTWEPEALK            -1.0000     NotChecked  -15.7567    1501.7664   ✗       
+248   SLTLDTWEPSLLK            -1.0000     NotChecked  -15.7582    1501.8028   ✗       
+249   SLTLDTWLPELLK            -1.0000     NotChecked  -15.7754    1527.8548   ✗       
+250   SVTLDTWEPELLK            -1.0000     NotChecked  -15.8370    1529.7977   ✗       
+251   SLTLDSWEPELLK            -1.0000     NotChecked  -15.8370    1529.7977   ✗       
+252   VTLDTWEPELLK             -1.0000     NotChecked  -15.8672    1442.7657   ✗       
+253   SLTLDTWDPELLK            -1.0000     NotChecked  -15.8906    1529.7977   ✗       
+254   SVTLDTWQ+0.984PQ+0.984LLK-1.0000     NotChecked  -15.9005    1529.7977   ✗       
+255   SVTLDTWKPELLK            -1.0000     NotChecked  -15.9113    1528.8501   ✗       
+256   AVTLDTWQ+0.984PELLK      -1.0000     NotChecked  -15.9277    1513.8028   ✗       
+257   SVTLDTWEPELLK            -1.0000     NotChecked  -15.9533    1529.7977   ✗       
+258   SLTLDTWEPLLK             -1.0000     NotChecked  -16.0054    1414.7708   ✗       
+259   STTLDTWEPQ+0.984LLK      -1.0000     NotChecked  -16.0192    1531.7770   ✗       
+260   GLTLDTWQ+0.984PELLK      -1.0000     NotChecked  -16.0289    1513.8028   ✗       
+261   SSTLDTWQ+0.984PELLK      -1.0000     NotChecked  -16.0450    1517.7613   ✗       
+262   ATTLDTWEPELLK            -1.0000     NotChecked  -16.0464    1515.7820   ✗       
+263   SVTLDTWEPETLK            -1.0000     NotChecked  -16.1554    1517.7613   ✗       
+264   SLTLDTWEPELL             -1.0000     NotChecked  -16.1619    1415.7184   ✗       
+265   +43.006LTLDTWQ+0.984PELLK-1.0000     NotChecked  -16.1667    1499.7871   ✗       
+266   +42.011LTLDTWEPELLK      -1.0000     NotChecked  -16.1996    1498.7919   ✗       
+267   SLTLDTWEPDLLK            -1.0000     NotChecked  -16.2185    1529.7977   ✗       
+268   SLTLDTWEPALLK            -1.0000     NotChecked  -16.2651    1485.8079   ✗       
+269   SLTLDTWPELLK             -1.0000     NotChecked  -16.2777    1414.7708   ✗       
+270   SVTLNTWEPELLK            -1.0000     NotChecked  -16.3096    1528.8137   ✗       
+271   SLTLDTWEPELVK            -1.0000     NotChecked  -16.3693    1529.7977   ✗       
+272   SVTLDTWEPELLK            -1.0000     NotChecked  -16.3785    1529.7977   ✗       
+273   SLTLDTWEPELPK            -1.0000     NotChecked  -16.3828    1527.7821   ✗       
+274   VVTLDTWQ+0.984PELLK      -1.0000     NotChecked  -16.4049    1541.8341   ✗       
+275   TSTLDTWEPELLK            -1.0000     NotChecked  -16.4282    1531.7770   ✗       
+276   SATLDTWEPQ+0.984LLK      -1.0000     NotChecked  -16.4344    1501.7664   ✗       
+277   SLTLDTWEPELK             -1.0000     NotChecked  -16.4354    1430.7293   ✗       
+278   SVTLDTWEPELTK            -1.0000     NotChecked  -16.4481    1517.7613   ✗       
+279   SLTLDTWNPELLK            -1.0000     NotChecked  -16.4496    1528.8137   ✗       
+280   SVTLSTWEPELLK            -1.0000     NotChecked  -16.4510    1501.8028   ✗       
+281   ALTLDTWEPQ+0.984LLK      -1.0000     NotChecked  -16.4590    1527.8184   ✗       
+282   SVTLN+0.984TWEPQ+0.984LLK-1.0000     NotChecked  -16.4722    1529.7977   ✗       
+283   SVTLDTWEPEVLK            -1.0000     NotChecked  -16.4838    1515.7821   ✗       
+284   AVTLN+0.984TWEPELLK      -1.0000     NotChecked  -16.4994    1513.8028   ✗       
+285   SLTLDTWEPKLLK            -1.0000     NotChecked  -16.5371    1542.8657   ✗       
+286   SVTLDTWEPEALK            -1.0000     NotChecked  -16.5741    1487.7508   ✗       
+287   SVTLDTWEPSLLK            -1.0000     NotChecked  -16.5757    1487.7871   ✗       
+288   SVTLDTWLPELLK            -1.0000     NotChecked  -16.5929    1513.8392   ✗       
+289   GLTLN+0.984TWEPELLK      -1.0000     NotChecked  -16.6005    1513.8028   ✗       
+290   SLTLDTWEPLLLK            -1.0000     NotChecked  -16.6043    1527.8548   ✗       
+291   SLTTDTWEPELLK            -1.0000     NotChecked  -16.6048    1531.7770   ✗       
+292   SLTLDTWSPELLK            -1.0000     NotChecked  -16.6061    1501.8028   ✗       
+293   SSTLN+0.984TWEPELLK      -1.0000     NotChecked  -16.6166    1517.7613   ✗       
+294   SVTLDSWEPELLK            -1.0000     NotChecked  -16.6545    1515.7821   ✗       
+295   SVTLDTWDPELLK            -1.0000     NotChecked  -16.7081    1515.7821   ✗       
+296   SLTLDTWEPVLLK            -1.0000     NotChecked  -16.7279    1513.8392   ✗       
+297   +43.006LTLN+0.984TWEPELLK-1.0000     NotChecked  -16.7383    1499.7871   ✗       
+298   SLVLDTWEPELLK            -1.0000     NotChecked  -16.7395    1541.8341   ✗       
+299   SLTSDTWEPELLK            -1.0000     NotChecked  -16.7981    1517.7613   ✗       
+300   SVTLDTWEPLLK             -1.0000     NotChecked  -16.8229    1400.7551   ✗       
+301   SLALDTWEPELLK            -1.0000     NotChecked  -16.8340    1513.8028   ✗       
+302   GVTLDTWQ+0.984PELLK      -1.0000     NotChecked  -16.8463    1499.7871   ✗       
+303   SLTLDTWEPELK             -1.0000     NotChecked  -16.8680    1430.7293   ✗       
+304   SLTLDTWESELLK            -1.0000     NotChecked  -16.9381    1533.7926   ✗       
+305   VATLDTWEPELLK            -1.0000     NotChecked  -16.9388    1513.8028   ✗       
+306   GTTLDTWEPELLK            -1.0000     NotChecked  -16.9650    1501.7664   ✗       
+307   VVTLN+0.984TWEPELLK      -1.0000     NotChecked  -16.9766    1541.8341   ✗       
+308   SVTLDTWEPELL             -1.0000     NotChecked  -16.9793    1401.7027   ✗       
+309   +43.006VTLDTWQ+0.984PELLK-1.0000     NotChecked  -16.9841    1485.7715   ✗       
+310   +42.011VTLDTWEPELLK      -1.0000     NotChecked  -17.0170    1484.7762   ✗       
+311   SVTLDTWEPDLLK            -1.0000     NotChecked  -17.0359    1515.7821   ✗       
+312   SLTVDTWEPELLK            -1.0000     NotChecked  -17.0467    1529.7977   ✗       
+313   SVTLDTWEPALLK            -1.0000     NotChecked  -17.0825    1471.7922   ✗       
+314   SVTLDTWPELLK             -1.0000     NotChecked  -17.0951    1400.7551   ✗       
+315   +43.006TTLDTWEPELLK      -1.0000     NotChecked  -17.1027    1487.7507   ✗       
+316   SVTLDTWEPELLK            -1.0000     NotChecked  -17.1416    1529.7977   ✗       
+317   SLTLDTWEELLK             -1.0000     NotChecked  -17.1669    1446.7606   ✗       
+318   SVTLDTWEPELVK            -1.0000     NotChecked  -17.1867    1515.7821   ✗       
+319   SVTLDTWEPELPK            -1.0000     NotChecked  -17.2003    1513.7664   ✗       
+320   SLTLDTLEPELLK            -1.0000     NotChecked  -17.2203    1470.8181   ✗       
+321   SVTLDTWEPELLK            -1.0000     NotChecked  -17.2279    1529.7977   ✗       
+322   LTLDTWEPELLK             -1.0000     NotChecked  -17.2302    1456.7813   ✗       
+323   SLTLDTWEPEGLK            -1.0000     NotChecked  -17.2455    1487.7508   ✗       
+324   SVTLDTWEPELK             -1.0000     NotChecked  -17.2528    1416.7136   ✗       
+325   SATLDTWQ+0.984PELLK      -1.0000     NotChecked  -17.2662    1501.7664   ✗       
+326   SVTLDTWNPELLK            -1.0000     NotChecked  -17.2670    1514.7980   ✗       
+327   SLTLDTWKPELLK            -1.0000     NotChecked  -17.2743    1542.8657   ✗       
+328   AVTLDTWEPQ+0.984LLK      -1.0000     NotChecked  -17.2764    1513.8028   ✗       
+329   ALTLDTWQ+0.984PELLK      -1.0000     NotChecked  -17.2907    1527.8184   ✗       
+330   SVLLDTWEPELLK            -1.0000     NotChecked  -17.3057    1541.8341   ✗       
+331   SVTLDTWQ+0.984PELLK      -1.0000     NotChecked  -17.3350    1529.7977   ✗       
+332   SVTLDTWEPKLLK            -1.0000     NotChecked  -17.3545    1528.8501   ✗       
+333   GLTLDTWEPQ+0.984LLK      -1.0000     NotChecked  -17.3776    1513.8028   ✗       
+334   SSTLDTWEPQ+0.984LLK      -1.0000     NotChecked  -17.3936    1517.7613   ✗       
+335   GVTLN+0.984TWEPELLK      -1.0000     NotChecked  -17.4180    1499.7871   ✗       
+336   SVTLDTWEPLLLK            -1.0000     NotChecked  -17.4217    1513.8392   ✗       
+337   SVTTDTWEPELLK            -1.0000     NotChecked  -17.4222    1517.7613   ✗       
+338   SVTLDTWSPELLK            -1.0000     NotChecked  -17.4236    1487.7871   ✗       
+339   STTLDTWEPELLK            -1.0000     NotChecked  -17.4536    1531.7770   ✗       
+340   +43.006LTLDTWEPQ+0.984LLK-1.0000     NotChecked  -17.5153    1499.7871   ✗       
+341   SLTLDTWEPETLK            -1.0000     NotChecked  -17.5184    1531.7770   ✗       
+342   SVTLDTWEPELLK            -1.0000     NotChecked  -17.5220    1529.7977   ✗       
+343   SVTLDTWEPVLLK            -1.0000     NotChecked  -17.5454    1499.8235   ✗       
+344   SVTLDTWEPELLK            -1.0000     NotChecked  -17.5460    1529.7977   ✗       
+345   +43.006VTLN+0.984TWEPELLK-1.0000     NotChecked  -17.5557    1485.7715   ✗       
+346   SVVLDTWEPELLK            -1.0000     NotChecked  -17.5570    1527.8185   ✗       
+347   SVTSDTWEPELLK            -1.0000     NotChecked  -17.6156    1503.7457   ✗       
+348   TATLDTWEPELLK            -1.0000     NotChecked  -17.6495    1515.7820   ✗       
+349   SVTLDTWEPELLK            -1.0000     NotChecked  -17.6499    1529.7977   ✗       
+350   SVALDTWEPELLK            -1.0000     NotChecked  -17.6514    1499.7872   ✗       
+351   SVTLDTWEPELLK            -1.0000     NotChecked  -17.6675    1529.7977   ✗       
+352   SVTLDTWEPELK             -1.0000     NotChecked  -17.6855    1416.7136   ✗       
+353   SLTLTTWEPELLK            -1.0000     NotChecked  -17.7067    1529.8341   ✗       
+354   SLTLDTWEGELLK            -1.0000     NotChecked  -17.7428    1503.7821   ✗       
+355   SLTLDTWQ+0.984PQLLK      -1.0000     NotChecked  -17.7515    1542.8293   ✗       
+356   VVTLDTWEPQ+0.984LLK      -1.0000     NotChecked  -17.7536    1541.8341   ✗       
+357   SVTLDTWESELLK            -1.0000     NotChecked  -17.7555    1519.7770   ✗       
+358   SVTLDLWEPELLK            -1.0000     NotChecked  -17.7762    1541.8341   ✗       
+359   SLTLDTWEPELTK            -1.0000     NotChecked  -17.8111    1531.7770   ✗       
+360   SLTLSTWEPELLK            -1.0000     NotChecked  -17.8140    1515.8184   ✗       
+361   SATLN+0.984TWEPELLK      -1.0000     NotChecked  -17.8378    1501.7664   ✗       
+362   SLTLDTWEPEVLK            -1.0000     NotChecked  -17.8468    1529.7977   ✗       
+363   ALTLN+0.984TWEPELLK      -1.0000     NotChecked  -17.8624    1527.8184   ✗       
+364   SVTVDTWEPELLK            -1.0000     NotChecked  -17.8641    1515.7821   ✗       
+365   VSTLDTWEPELLK            -1.0000     NotChecked  -17.8980    1529.7977   ✗       
+366   SVTLN+0.984TWEPELLK      -1.0000     NotChecked  -17.9066    1529.7977   ✗       
+367   SLTLDTWEAELLK            -1.0000     NotChecked  -17.9300    1517.7977   ✗       
+368   SLTLDTWEPEALK            -1.0000     NotChecked  -17.9371    1501.7664   ✗       
+369   SLTLDTWEPSLLK            -1.0000     NotChecked  -17.9387    1501.8028   ✗       
+370   SLTLDTWLPELLK            -1.0000     NotChecked  -17.9559    1527.8548   ✗       
+371   SVTLDTWEELLK             -1.0000     NotChecked  -17.9844    1432.7449   ✗       
+372   SLSLDTWQ+0.984PELLK      -1.0000     NotChecked  -17.9967    1529.7977   ✗       
+373   SVTLDTWEPELLK            -1.0000     NotChecked  -18.0174    1529.7977   ✗       
+374   SLTLDSWEPELLK            -1.0000     NotChecked  -18.0175    1529.7977   ✗       
+375   SVTLDTLEPELLK            -1.0000     NotChecked  -18.0377    1456.8025   ✗       
+376   VTLDTWEPELLK             -1.0000     NotChecked  -18.0477    1442.7657   ✗       
+377   SLTLLTWEPELLK            -1.0000     NotChecked  -18.0546    1541.8705   ✗       
+378   SLTLDAWEPELLK            -1.0000     NotChecked  -18.0600    1513.8028   ✗       
+379   SLTLDTVEPELLK            -1.0000     NotChecked  -18.0619    1456.8025   ✗       
+380   SVTLDTWEPEGLK            -1.0000     NotChecked  -18.0630    1473.7351   ✗       
+381   SLTLDTWDPELLK            -1.0000     NotChecked  -18.0711    1529.7977   ✗       
+382   SVTLDTWKPELLK            -1.0000     NotChecked  -18.0918    1528.8501   ✗       
+383   AVTLDTWQ+0.984PELLK      -1.0000     NotChecked  -18.1082    1513.8028   ✗       
+384   SVTLDTWEPELLK            -1.0000     NotChecked  -18.1337    1529.7977   ✗       
+385   SLTADTWEPELLK            -1.0000     NotChecked  -18.1748    1501.7664   ✗       
+386   SLTLDTWEPLLK             -1.0000     NotChecked  -18.1859    1414.7708   ✗       
+387   GVTLDTWEPQ+0.984LLK      -1.0000     NotChecked  -18.1950    1499.7871   ✗       
+388   GLTLDTWQ+0.984PELLK      -1.0000     NotChecked  -18.2093    1513.8028   ✗       
+389   SSTLDTWQ+0.984PELLK      -1.0000     NotChecked  -18.2254    1517.7613   ✗       
+390   ATTLDTWEPELLK            -1.0000     NotChecked  -18.2268    1515.7820   ✗       
+391   SVTLQTWEPELLK            -1.0000     NotChecked  -18.2603    1542.8293   ✗       
+392   SVTLDTWEPELLK            -1.0000     NotChecked  -18.2809    1529.7977   ✗       
+393   SLTLN+0.984TWEPQLLK      -1.0000     NotChecked  -18.3232    1542.8293   ✗       
+394   SVTLDTWEPELLK            -1.0000     NotChecked  -18.3273    1529.7977   ✗       
+395   +43.006VTLDTWEPQ+0.984LLK-1.0000     NotChecked  -18.3328    1485.7715   ✗       
+396   SVTLDTWEPETLK            -1.0000     NotChecked  -18.3358    1517.7613   ✗       
+397   SLTLDTWEPELL             -1.0000     NotChecked  -18.3423    1415.7184   ✗       
+398   +43.006LTLDTWQ+0.984PELLK-1.0000     NotChecked  -18.3471    1499.7871   ✗       
+399   SLTGDTWEPELLK            -1.0000     NotChecked  -18.3677    1487.7508   ✗       
+400   SLTLDTWEPDLLK            -1.0000     NotChecked  -18.3989    1529.7977   ✗       
+401   SLTLN+0.984TWQPELLK      -1.0000     NotChecked  -18.4027    1542.8293   ✗       
+402   SLTLDTWEPALLK            -1.0000     NotChecked  -18.4455    1485.8079   ✗       
+403   SLTLDTWEPELAK            -1.0000     NotChecked  -18.4566    1501.7664   ✗       
+404   SLTLDTWPELLK             -1.0000     NotChecked  -18.4581    1414.7708   ✗       
+405   SVTLDTWQ+0.984PELLK      -1.0000     NotChecked  -18.5088    1529.7977   ✗       
+406   SVTLTTWEPELLK            -1.0000     NotChecked  -18.5241    1515.8184   ✗       
+407   SVTLDTWQ+0.984PELLK      -1.0000     NotChecked  -18.5477    1529.7977   ✗       
+408   SVTLDTWEGELLK            -1.0000     NotChecked  -18.5602    1489.7664   ✗       
+409   SLTLDTWEPELPK            -1.0000     NotChecked  -18.5633    1527.7821   ✗       
+410   SLSLN+0.984TWEPELLK      -1.0000     NotChecked  -18.5684    1529.7977   ✗       
+411   SVTLDTWQ+0.984PQLLK      -1.0000     NotChecked  -18.5690    1528.8137   ✗       
+412   SVNLDTWEPELLK            -1.0000     NotChecked  -18.5844    1542.7930   ✗       
+413   STTLN+0.984TWQ+0.984PELLK-1.0000     NotChecked  -18.5963    1531.7770   ✗       
+414   TSTLDTWEPELLK            -1.0000     NotChecked  -18.6087    1531.7770   ✗       
+415   SLTLDTMEPELLK            -1.0000     NotChecked  -18.6103    1488.7745   ✗       
+416   SATLDTWEPQ+0.984LLK      -1.0000     NotChecked  -18.6149    1501.7664   ✗       
+417   SLTLDTWEPELK             -1.0000     NotChecked  -18.6158    1430.7293   ✗       
+418   STTLDTWEPELLK            -1.0000     NotChecked  -18.6274    1531.7770   ✗       
+419   SVTLDTWEPELTK            -1.0000     NotChecked  -18.6286    1517.7613   ✗       
+420   SLTLDTWNPELLK            -1.0000     NotChecked  -18.6300    1528.8137   ✗       
+421   SVTLSTWEPELLK            -1.0000     NotChecked  -18.6314    1501.8028   ✗       
+422   ALTLDTWEPQ+0.984LLK      -1.0000     NotChecked  -18.6394    1527.8184   ✗       
+423   AATLDTWEPELLK            -1.0000     NotChecked  -18.6421    1485.7715   ✗       
+424   SVTLDTWEPEVLK            -1.0000     NotChecked  -18.6643    1515.7821   ✗       
+425   STTLDTWEPELLK            -1.0000     NotChecked  -18.6664    1531.7770   ✗       
+426   AVTLN+0.984TWEPELLK      -1.0000     NotChecked  -18.6798    1513.8028   ✗       
+427   SVTLDTWEPQ+0.984LLK      -1.0000     NotChecked  -18.6837    1529.7977   ✗       
+428   STTLDTWEPQLLK            -1.0000     NotChecked  -18.6876    1530.7929   ✗       
+429   SVTLDNWEPELLK            -1.0000     NotChecked  -18.7124    1542.7930   ✗       
+430   SVTLDTWEAELLK            -1.0000     NotChecked  -18.7475    1503.7821   ✗       
+431   SVTLDTWEPEALK            -1.0000     NotChecked  -18.7546    1487.7508   ✗       
+432   SVTLDTWEPSLLK            -1.0000     NotChecked  -18.7561    1487.7871   ✗       
+433   STTLDTWQPELLK            -1.0000     NotChecked  -18.7672    1530.7929   ✗       
+434   SVTLDTWLPELLK            -1.0000     NotChecked  -18.7733    1513.8392   ✗       
+435   GLTLN+0.984TWEPELLK      -1.0000     NotChecked  -18.7810    1513.8028   ✗       
+436   SLTTDTWEPELLK            -1.0000     NotChecked  -18.7852    1531.7770   ✗       
+437   SLTLDTWSPELLK            -1.0000     NotChecked  -18.7866    1501.8028   ✗       
+438   SSTLN+0.984TWEPELLK      -1.0000     NotChecked  -18.7970    1517.7613   ✗       
+439   SVSLDTWQ+0.984PELLK      -1.0000     NotChecked  -18.8142    1515.7821   ✗       
+440   SVTDDTWEPELLK            -1.0000     NotChecked  -18.8179    1531.7406   ✗       
+441   SVTLDSWEPELLK            -1.0000     NotChecked  -18.8349    1515.7821   ✗       
+442   SLTLNTWQ+0.984PELLK      -1.0000     NotChecked  -18.8463    1542.8293   ✗       
+443   SVTLLTWEPELLK            -1.0000     NotChecked  -18.8720    1527.8548   ✗       
+444   SVTLDAWEPELLK            -1.0000     NotChecked  -18.8775    1499.7872   ✗       
+445   SVTLDTVEPELLK            -1.0000     NotChecked  -18.8793    1442.7868   ✗       
+446   SVTLDTWDPELLK            -1.0000     NotChecked  -18.8885    1515.7821   ✗       
+447   SLTLDTWEPVLLK            -1.0000     NotChecked  -18.9084    1513.8392   ✗       
+448   +43.006LTLN+0.984TWEPELLK-1.0000     NotChecked  -18.9187    1499.7871   ✗       
+449   SLVLDTWEPELLK            -1.0000     NotChecked  -18.9200    1541.8341   ✗       
+450   STSLDTWEPELLK            -1.0000     NotChecked  -18.9328    1517.7613   ✗       
+451   TVTLDTWEPQLLK            -1.0000     NotChecked  -18.9522    1542.8293   ✗       
+452   SLTSDTWEPELLK            -1.0000     NotChecked  -18.9786    1517.7613   ✗       
+453   SVTADTWEPELLK            -1.0000     NotChecked  -18.9922    1487.7508   ✗       
+454   SVTLDTWEPLLK             -1.0000     NotChecked  -19.0033    1400.7551   ✗       
+455   SLALDTWEPELLK            -1.0000     NotChecked  -19.0144    1513.8028   ✗       
+456   GVTLDTWQ+0.984PELLK      -1.0000     NotChecked  -19.0268    1499.7871   ✗       
+457   TVTLDTWQPELLK            -1.0000     NotChecked  -19.0318    1542.8293   ✗       
+458   SVTLDTWEPELLK            -1.0000     NotChecked  -19.0504    1529.7977   ✗       
+459   SVTLN+0.984TWEPELLK      -1.0000     NotChecked  -19.0804    1529.7977   ✗       
+460   VATLDTWEPELLK            -1.0000     NotChecked  -19.1193    1513.8028   ✗       
+461   SVTLN+0.984TWEPELLK      -1.0000     NotChecked  -19.1194    1529.7977   ✗       
+462   SVTLN+0.984TWEPQLLK      -1.0000     NotChecked  -19.1406    1528.8137   ✗       
+463   GTTLDTWEPELLK            -1.0000     NotChecked  -19.1454    1501.7664   ✗       
+464   SVTLDTWEPELL             -1.0000     NotChecked  -19.1598    1401.7027   ✗       
+465   +43.006VTLDTWQ+0.984PELLK-1.0000     NotChecked  -19.1645    1485.7715   ✗       
+466   LATLDTWEPELLK            -1.0000     NotChecked  -19.1773    1527.8184   ✗       
+467   SLTLDTWQPQ+0.984LLK      -1.0000     NotChecked  -19.1797    1542.8293   ✗       
+468   SVTGDTWEPELLK            -1.0000     NotChecked  -19.1851    1473.7351   ✗       
+469   VVTLDTWEPELLK            -1.0000     NotChecked  -19.1880    1541.8341   ✗       
+470   TVSLDTWEPELLK            -1.0000     NotChecked  -19.1974    1529.7977   ✗       
+471   SVTLDTWEPDLLK            -1.0000     NotChecked  -19.2164    1515.7821   ✗       
+472   SVTLN+0.984TWQPELLK      -1.0000     NotChecked  -19.2201    1528.8137   ✗       
+473   SLTLDTEEPELLK            -1.0000     NotChecked  -19.2255    1486.7766   ✗       
+474   SVTLDTWEPALLK            -1.0000     NotChecked  -19.2630    1471.7922   ✗       
+475   SVTLDTWEPELAK            -1.0000     NotChecked  -19.2740    1487.7508   ✗       
+476   SVTLDTWPELLK             -1.0000     NotChecked  -19.2755    1400.7551   ✗       
+477   SVTLDTWEPELLK            -1.0000     NotChecked  -19.2817    1529.7977   ✗       
+478   +43.006TTLDTWEPELLK      -1.0000     NotChecked  -19.2832    1487.7507   ✗       
+479   SVTLDTWEPELLQ            -1.0000     NotChecked  -19.2950    1529.7613   ✗       
+480   SVTLDTWEPELLK            -1.0000     NotChecked  -19.3221    1529.7977   ✗       
+481   SLSLDTWEPQ+0.984LLK      -1.0000     NotChecked  -19.3454    1529.7977   ✗       
+482   SLTLDTSEPELLK            -1.0000     NotChecked  -19.3602    1444.7661   ✗       
+483   STTLDTWQ+0.984PQ+0.984LLK-1.0000     NotChecked  -19.3733    1531.7770   ✗       
+484   SVTLDTWEPELPK            -1.0000     NotChecked  -19.3807    1513.7664   ✗       
+485   SVSLN+0.984TWEPELLK      -1.0000     NotChecked  -19.3858    1515.7821   ✗       
+486   SLTLDTLEPELLK            -1.0000     NotChecked  -19.4007    1470.8181   ✗       
+487   SLTLDTWEPEGLK            -1.0000     NotChecked  -19.4260    1487.7508   ✗       
+488   SVTLDTMEPELLK            -1.0000     NotChecked  -19.4278    1474.7589   ✗       
+489   SVTLDTWEPELK             -1.0000     NotChecked  -19.4333    1416.7136   ✗       
+490   SVTLDTWNPELLK            -1.0000     NotChecked  -19.4475    1514.7980   ✗       
+491   AVTLDTWEPQ+0.984LLK      -1.0000     NotChecked  -19.4569    1513.8028   ✗       
+492   SVLLDTWEPELLK            -1.0000     NotChecked  -19.4862    1541.8341   ✗       
+493   SLTLDTAEPELLK            -1.0000     NotChecked  -19.4970    1428.7712   ✗       
+494   SVTLDTWQ+0.984PELLK      -1.0000     NotChecked  -19.5154    1529.7977   ✗       
+495   +42.011LTLDTWQ+0.984PELLK-1.0000     NotChecked  -19.5537    1498.7919   ✗       
+496   GLTLDTWEPQ+0.984LLK      -1.0000     NotChecked  -19.5580    1513.8028   ✗       
+497   GATLDTWEPELLK            -1.0000     NotChecked  -19.5607    1471.7558   ✗       
+498   SSTLDTWEPQ+0.984LLK      -1.0000     NotChecked  -19.5741    1517.7613   ✗       
+499   GVTLN+0.984TWEPELLK      -1.0000     NotChecked  -19.5984    1499.7871   ✗       
+500   ASTLDTWEPELLK            -1.0000     NotChecked  -19.6013    1501.7664   ✗       
+501   SVTTDTWEPELLK            -1.0000     NotChecked  -19.6027    1517.7613   ✗       
+502   SVTLDTWSPELLK            -1.0000     NotChecked  -19.6040    1487.7871   ✗       
+503   STTLDTWEPELLK            -1.0000     NotChecked  -19.6341    1531.7770   ✗       
+504   SLTLDTQEPELLK            -1.0000     NotChecked  -19.6356    1485.7926   ✗       
+505   SLTLDTC+57.021EPELLK     -1.0000     NotChecked  -19.6454    1517.7647   ✗       
+506   SVTLNTWQ+0.984PELLK      -1.0000     NotChecked  -19.6638    1528.8137   ✗       
+507   +43.006LTLDTWEPQ+0.984LLK-1.0000     NotChecked  -19.6958    1499.7871   ✗       
+508   +43.006ATLDTWEPELLK      -1.0000     NotChecked  -19.6984    1457.7402   ✗       
+509   SLTLDTWQ+0.984PELVK      -1.0000     NotChecked  -19.7234    1529.7977   ✗       
+510   SVTLDTWEPVLLK            -1.0000     NotChecked  -19.7258    1499.8235   ✗       
+511   SVTLDTWQ+0.984PELLK      -1.0000     NotChecked  -19.7326    1529.7977   ✗       
+512   +43.006VTLN+0.984TWEPELLK-1.0000     NotChecked  -19.7362    1485.7715   ✗       
+513   SVVLDTWEPELLK            -1.0000     NotChecked  -19.7374    1527.8185   ✗       
+514   STTLNTWEPELLK            -1.0000     NotChecked  -19.7824    1530.7929   ✗       
+515   SVTSDTWEPELLK            -1.0000     NotChecked  -19.7960    1503.7457   ✗       
+516   SVTLN+0.984TWQ+0.984PQ+0.984LLK-1.0000     NotChecked  -19.8263    1529.7977   ✗       
+517   SVTLDTWEPELLK            -1.0000     NotChecked  -19.8304    1529.7977   ✗       
+518   SVALDTWEPELLK            -1.0000     NotChecked  -19.8319    1499.7872   ✗       
+519   SVTLDTWEPELLK            -1.0000     NotChecked  -19.8479    1529.7977   ✗       
+520   VLSLDTWEPELLK            -1.0000     NotChecked  -19.8498    1541.8341   ✗       
+521   STTLDTWEPELLK            -1.0000     NotChecked  -19.8513    1531.7770   ✗       
+522   SVTLDTWEPQ+0.984LLK      -1.0000     NotChecked  -19.8575    1529.7977   ✗       
+523   SLTLTTWEPELLK            -1.0000     NotChecked  -19.8871    1529.8341   ✗       
+524   SLTLDTWQ+0.984PKLLK      -1.0000     NotChecked  -19.8912    1542.8657   ✗       
+525   SVTLDTWEPQ+0.984LLK      -1.0000     NotChecked  -19.8964    1529.7977   ✗       
+526   SLTLDTFEPELLK            -1.0000     NotChecked  -19.8973    1504.8025   ✗       
+527   SLTLDTWQ+0.984PQLLK      -1.0000     NotChecked  -19.9320    1542.8293   ✗       
+528   STTLN+0.984TWEPQ+0.984LLK-1.0000     NotChecked  -19.9450    1531.7770   ✗       
+529   SVTLDLWEPELLK            -1.0000     NotChecked  -19.9566    1541.8341   ✗       
+530   SLTLDTWQ+0.984PLLLK      -1.0000     NotChecked  -19.9584    1527.8548   ✗       
+531   SVTLDTWQPQ+0.984LLK      -1.0000     NotChecked  -19.9972    1528.8137   ✗       
+532   SVTLDTEEPELLK            -1.0000     NotChecked  -20.0429    1472.7610   ✗       
+533   TVTLNTWEPELLK            -1.0000     NotChecked  -20.0471    1542.8293   ✗       
+534   SATLDTWEPELLK            -1.0000     NotChecked  -20.0493    1501.7664   ✗       
+535   ALTLDTWEPELLK            -1.0000     NotChecked  -20.0739    1527.8184   ✗       
+536   VSTLDTWEPELLK            -1.0000     NotChecked  -20.0785    1529.7977   ✗       
+537   SVTLN+0.984TWEPELLK      -1.0000     NotChecked  -20.0871    1529.7977   ✗       
+538   +42.011LTLN+0.984TWEPELLK-1.0000     NotChecked  -20.1253    1498.7919   ✗       
+539   LSTLDTWEPELLK            -1.0000     Failed      -20.1365    1543.8134   ✓       
+540   SVSLDTWEPQ+0.984LLK      -1.0000     NotChecked  -20.1628    1515.7821   ✗       
+541   SVTLDTWEPELLK            -1.0000     NotChecked  -20.1648    1529.7977   ✗       
+542   SLSLDTWQ+0.984PELLK      -1.0000     NotChecked  -20.1772    1529.7977   ✗       
+543   SVTLDTSEPELLK            -1.0000     NotChecked  -20.1777    1430.7504   ✗       
+544   SLTLNTWEPQ+0.984LLK      -1.0000     NotChecked  -20.1950    1542.8293   ✗       
+545   SVTLDTLEPELLK            -1.0000     NotChecked  -20.2181    1456.8025   ✗       
+546   SLTLDTWQ+0.984PELK       -1.0000     NotChecked  -20.2222    1430.7293   ✗       
+547   SLTLLTWEPELLK            -1.0000     NotChecked  -20.2350    1541.8705   ✗       
+548   SLTLDAWEPELLK            -1.0000     NotChecked  -20.2405    1513.8028   ✗       
+549   SLTLDTVEPELLK            -1.0000     NotChecked  -20.2423    1456.8025   ✗       
+550   SVTLDTWEPEGLK            -1.0000     NotChecked  -20.2434    1473.7351   ✗       
+551   SLTLDTWEPELLT            -1.0000     NotChecked  -20.2473    1516.7661   ✗       
+552   SVTLDTWEPELLK            -1.0000     NotChecked  -20.2605    1529.7977   ✗       
+553   SLTLN+0.984TWEPELVK      -1.0000     NotChecked  -20.2951    1529.7977   ✗       
+554   SVTLN+0.984TWEPELLK      -1.0000     NotChecked  -20.3043    1529.7977   ✗       
+555   SVTLDTAEPELLK            -1.0000     NotChecked  -20.3145    1414.7555   ✗       
+556   VVTLN+0.984TWQ+0.984PELLK-1.0000     NotChecked  -20.3307    1541.8341   ✗       
+557   TLTLDTWEPLLLK            -1.0000     NotChecked  -20.3417    1541.8705   ✗       
+558   SLTLDTWEPELLV            -1.0000     NotChecked  -20.3503    1514.7868   ✗       
+559   SLTADTWEPELLK            -1.0000     NotChecked  -20.3552    1501.7664   ✗       
+560   +42.011VTLDTWQ+0.984PELLK-1.0000     NotChecked  -20.3711    1484.7762   ✗       
+561   GVTLDTWEPQ+0.984LLK      -1.0000     NotChecked  -20.3755    1499.7871   ✗       
+562   SVTLDTWEPELLK            -1.0000     NotChecked  -20.3805    1529.7977   ✗       
+563   VVTLDTWEPELLK            -1.0000     NotChecked  -20.4008    1541.8341   ✗       
+564   SLTVDTWQ+0.984PELLK      -1.0000     NotChecked  -20.4008    1529.7977   ✗       
+565   VVTLDTWEPQLLK            -1.0000     NotChecked  -20.4220    1540.8501   ✗       
+566   SVTLQTWEPELLK            -1.0000     NotChecked  -20.4408    1542.8293   ✗       
+567   SVTLDTQEPELLK            -1.0000     NotChecked  -20.4530    1471.7770   ✗       
+568   SVTLDTWEPELLK            -1.0000     NotChecked  -20.4614    1529.7977   ✗       
+569   SVTLDTC+57.021EPELLK     -1.0000     NotChecked  -20.4628    1503.7490   ✗       
+570   SLTLN+0.984TWEPKLLK      -1.0000     NotChecked  -20.4628    1542.8657   ✗       
+571   +42.011TTLDTWEPELLK      -1.0000     NotChecked  -20.4898    1486.7555   ✗       
+572   VVTLDTWQPELLK            -1.0000     NotChecked  -20.5016    1540.8501   ✗       
+573   SLTLN+0.984TWEPQLLK      -1.0000     NotChecked  -20.5036    1542.8293   ✗       
+574   SVTLDTWEPELLK            -1.0000     NotChecked  -20.5077    1529.7977   ✗       
+575   +43.006VTLDTWEPQ+0.984LLK-1.0000     NotChecked  -20.5132    1485.7715   ✗       
+576   GSTLDTWEPELLK            -1.0000     NotChecked  -20.5199    1487.7508   ✗       
+577   SLTLN+0.984TWEPLLLK      -1.0000     NotChecked  -20.5300    1527.8548   ✗       
+578   SVTLDTWQ+0.984PELVK      -1.0000     NotChecked  -20.5409    1515.7821   ✗       
+579   SLTGDTWEPELLK            -1.0000     NotChecked  -20.5481    1487.7508   ✗       
+580   SVTLDTWQ+0.984PELLK      -1.0000     NotChecked  -20.5821    1529.7977   ✗       
+581   SLTLN+0.984TWQPELLK      -1.0000     NotChecked  -20.5831    1542.8293   ✗       
+582   LTLDTWQ+0.984PELLK       -1.0000     NotChecked  -20.5844    1456.7813   ✗       
+583   TLTLDTWEPELK             -1.0000     NotChecked  -20.6055    1444.7449   ✗       
+584   SLTLDTWEPELAK            -1.0000     NotChecked  -20.6370    1501.7664   ✗       
+585   +43.006STLDTWEPELLK      -1.0000     NotChecked  -20.6576    1473.7351   ✗       
+586   STTLDTWEPELVK            -1.0000     NotChecked  -20.6595    1517.7613   ✗       
+587   VVSLDTWEPELLK            -1.0000     NotChecked  -20.6672    1527.8185   ✗       
+588   SVTLDTWQ+0.984PELLK      -1.0000     NotChecked  -20.6892    1529.7977   ✗       
+589   STTLDTWEPELLK            -1.0000     NotChecked  -20.7007    1531.7770   ✗       
+590   SVTLTTWEPELLK            -1.0000     NotChecked  -20.7046    1515.8184   ✗       
+591   SVTLDTWQ+0.984PKLLK      -1.0000     NotChecked  -20.7086    1528.8501   ✗       
+592   SVTLDTFEPELLK            -1.0000     NotChecked  -20.7147    1490.7868   ✗       
+593   SVTLDTWQ+0.984PELLK      -1.0000     NotChecked  -20.7282    1529.7977   ✗       
+594   SVTLDTWEPELLH            -1.0000     NotChecked  -20.7450    1538.7617   ✗       
+595   SLSLN+0.984TWEPELLK      -1.0000     NotChecked  -20.7488    1529.7977   ✗       
+596   SVTLDTWQ+0.984PQLLK      -1.0000     NotChecked  -20.7494    1528.8137   ✗       
+597   SVNLDTWEPELLK            -1.0000     NotChecked  -20.7649    1542.7930   ✗       
+598   SVTLDTWQ+0.984PLLLK      -1.0000     NotChecked  -20.7759    1513.8392   ✗       
+599   STTLN+0.984TWQ+0.984PELLK-1.0000     NotChecked  -20.7767    1531.7770   ✗       
+600   SLTLDTMEPELLK            -1.0000     NotChecked  -20.7908    1488.7745   ✗       
+601   SLTLN+0.984TWEPELK       -1.0000     NotChecked  -20.7938    1430.7293   ✗       
+602   STTLDTWEPELLK            -1.0000     NotChecked  -20.8079    1531.7770   ✗       
+603   AATLDTWEPELLK            -1.0000     NotChecked  -20.8225    1485.7715   ✗       
+604   STTLDTWEPKLLK            -1.0000     NotChecked  -20.8273    1530.8293   ✗       
+605   STTLDTWEPELLK            -1.0000     NotChecked  -20.8468    1531.7770   ✗       
+606   SVTLDTWEPQ+0.984LLK      -1.0000     NotChecked  -20.8641    1529.7977   ✗       
+607   STTLDTWEPQLLK            -1.0000     NotChecked  -20.8680    1530.7929   ✗       
+608   SLTLDTWQ+0.984PETLK      -1.0000     NotChecked  -20.8725    1531.7770   ✗       
+609   SVTLDTWQ+0.984PELLK      -1.0000     NotChecked  -20.8761    1529.7977   ✗       
+610   AVTLDTWEPELLK            -1.0000     NotChecked  -20.8913    1513.8028   ✗       
+611   SVTLDNWEPELLK            -1.0000     NotChecked  -20.8928    1542.7930   ✗       
+612   STTLDTWEPLLLK            -1.0000     NotChecked  -20.8945    1515.8184   ✗       
+613   +42.011LTLDTWEPQ+0.984LLK-1.0000     NotChecked  -20.9024    1498.7919   ✗       
+614   TVTLDTWEPELVK            -1.0000     NotChecked  -20.9242    1529.7977   ✗       
+615   +42.011VTLN+0.984TWEPELLK-1.0000     NotChecked  -20.9428    1484.7762   ✗       
+616   STTLDTWQPELLK            -1.0000     NotChecked  -20.9476    1530.7929   ✗       
+617   SLTVN+0.984TWEPELLK      -1.0000     NotChecked  -20.9725    1529.7977   ✗       
+618   SVTLDTWEPELLK            -1.0000     NotChecked  -20.9923    1529.7977   ✗       
+619   GLTLDTWEPELLK            -1.0000     NotChecked  -20.9924    1513.8028   ✗       
+620   SVSLDTWQ+0.984PELLK      -1.0000     NotChecked  -20.9946    1515.7821   ✗       
+621   SVTDDTWEPELLK            -1.0000     NotChecked  -20.9984    1531.7406   ✗       
+622   TATLDTWQ+0.984PELLK      -1.0000     NotChecked  -21.0036    1515.7821   ✗       
+623   SSTLDTWEPELLK            -1.0000     NotChecked  -21.0085    1517.7613   ✗       
+624   SVTLNTWEPQ+0.984LLK      -1.0000     NotChecked  -21.0125    1528.8137   ✗       
+625   STTLDTWEPELLK            -1.0000     NotChecked  -21.0188    1531.7770   ✗       
+626   SLTLNTWQ+0.984PELLK      -1.0000     NotChecked  -21.0268    1542.8293   ✗       
+627   SVTLDTWQ+0.984PELK       -1.0000     NotChecked  -21.0396    1416.7136   ✗       
+628   SVTLLTWEPELLK            -1.0000     NotChecked  -21.0524    1527.8548   ✗       
+629   SVTLDAWEPELLK            -1.0000     NotChecked  -21.0579    1499.7872   ✗       
+630   SVTLDTVEPELLK            -1.0000     NotChecked  -21.0597    1442.7868   ✗       
+631   SVTLDTWEPELLT            -1.0000     NotChecked  -21.0647    1502.7504   ✗       
+632   SLTLDTWEPQ+0.984LVK      -1.0000     NotChecked  -21.0721    1529.7977   ✗       
+633   SVTLDTWEPQ+0.984LLK      -1.0000     NotChecked  -21.0813    1529.7977   ✗       
+634   TVTLDTWEPKLLK            -1.0000     NotChecked  -21.0919    1542.8657   ✗       
+635   VVTLDTWQ+0.984PQ+0.984LLK-1.0000     NotChecked  -21.1078    1541.8341   ✗       
+636   SVTLN+0.984TWEPELVK      -1.0000     NotChecked  -21.1125    1515.7821   ✗       
+637   STSLDTWEPELLK            -1.0000     NotChecked  -21.1132    1517.7613   ✗       
+638   +43.006LTLDTWEPELLK      -1.0000     NotChecked  -21.1302    1499.7871   ✗       
+639   TVTLDTWEPQLLK            -1.0000     NotChecked  -21.1327    1542.8293   ✗       
+640   SVTLN+0.984TWEPELLK      -1.0000     NotChecked  -21.1537    1529.7977   ✗       
+641   LTLN+0.984TWEPELLK       -1.0000     NotChecked  -21.1560    1456.7813   ✗       
+642   STTLDTWEPELK             -1.0000     NotChecked  -21.1583    1418.6929   ✗       
+643   TVTLDTWEPLLLK            -1.0000     NotChecked  -21.1591    1527.8548   ✗       
+644   SLTLDTWEPELLP            -1.0000     NotChecked  -21.1602    1512.7712   ✗       
+645   SLTLDTWQ+0.984PELTK      -1.0000     NotChecked  -21.1653    1531.7770   ✗       
+646   SVTLDTWEPELLV            -1.0000     NotChecked  -21.1677    1500.7712   ✗       
+647   SLTLSTWQ+0.984PELLK      -1.0000     NotChecked  -21.1681    1515.8184   ✗       
+648   SVTADTWEPELLK            -1.0000     NotChecked  -21.1726    1487.7508   ✗       
+649   SATLN+0.984TWQ+0.984PELLK-1.0000     NotChecked  -21.1920    1501.7664   ✗       
+650   SLTLN+0.984TWKPELLK      -1.0000     NotChecked  -21.2001    1542.8657   ✗       
+651   SLTLDTWQ+0.984PEVLK      -1.0000     NotChecked  -21.2010    1529.7977   ✗       
+652   TVTLDTWQPELLK            -1.0000     NotChecked  -21.2122    1542.8293   ✗       
+653   ALTLN+0.984TWQ+0.984PELLK-1.0000     NotChecked  -21.2165    1527.8184   ✗       
+654   SVTVDTWQ+0.984PELLK      -1.0000     NotChecked  -21.2183    1515.7821   ✗       
+655   SATLDTWEPELLK            -1.0000     NotChecked  -21.2231    1501.7664   ✗       
+656   SVTLDTWEPELLK            -1.0000     NotChecked  -21.2308    1529.7977   ✗       
+657   SVTLN+0.984TWEPELLK      -1.0000     NotChecked  -21.2609    1529.7977   ✗       
+658   SATLDTWEPELLK            -1.0000     NotChecked  -21.2621    1501.7664   ✗       
+659   SVTLN+0.984TWEPKLLK      -1.0000     NotChecked  -21.2803    1528.8501   ✗       
+660   SATLDTWEPQLLK            -1.0000     NotChecked  -21.2833    1500.7824   ✗       
+661   ALTLDTWEPELLK            -1.0000     NotChecked  -21.2866    1527.8184   ✗       
+662   SLTLDTWQ+0.984PEALK      -1.0000     NotChecked  -21.2913    1501.7664   ✗       
+663   SLTLDTWQ+0.984PSLLK      -1.0000     NotChecked  -21.2928    1501.8028   ✗       
+664   SVTLN+0.984TWEPELLK      -1.0000     NotChecked  -21.2998    1529.7977   ✗       
+665   ALTLDTWEPQLLK            -1.0000     NotChecked  -21.3078    1526.8344   ✗       
+666   SVTLN+0.984TWEPQLLK      -1.0000     NotChecked  -21.3210    1528.8137   ✗       
+667   STTVDTWEPELLK            -1.0000     NotChecked  -21.3369    1517.7613   ✗       
+668   SVTLN+0.984TWEPLLLK      -1.0000     NotChecked  -21.3475    1513.8392   ✗       
+669   LATLDTWEPELLK            -1.0000     NotChecked  -21.3577    1527.8184   ✗       
+670   SLTLDTWEPELLS            -1.0000     NotChecked  -21.3595    1502.7504   ✗       
+671   SLTLDTWQPQ+0.984LLK      -1.0000     NotChecked  -21.3602    1542.8293   ✗       
+672   SATLDTWQPELLK            -1.0000     NotChecked  -21.3628    1500.7824   ✗       
+673   SVTGDTWEPELLK            -1.0000     NotChecked  -21.3656    1473.7351   ✗       
+674   VVTLDTWEPELLK            -1.0000     NotChecked  -21.3685    1541.8341   ✗       
+675   SVTLDTWQ+0.984PELLK      -1.0000     NotChecked  -21.3716    1529.7977   ✗       
+676   SLTLDSWQ+0.984PELLK      -1.0000     NotChecked  -21.3716    1529.7977   ✗       
+677   TVSLDTWEPELLK            -1.0000     NotChecked  -21.3779    1529.7977   ✗       
+678   ALTLDTWQPELLK            -1.0000     NotChecked  -21.3874    1526.8344   ✗       
+679   SVTLN+0.984TWQPELLK      -1.0000     NotChecked  -21.4006    1528.8137   ✗       
+680   VTLDTWQ+0.984PELLK       -1.0000     NotChecked  -21.4018    1442.7657   ✗       
+681   SLTLDTEEPELLK            -1.0000     NotChecked  -21.4059    1486.7766   ✗       
+682   SLTLDTWEPELLG            -1.0000     NotChecked  -21.4063    1472.7399   ✗       
+683   TVTLDTWEPELK             -1.0000     NotChecked  -21.4229    1430.7293   ✗       
+684   SLTLN+0.984TWEPETLK      -1.0000     NotChecked  -21.4442    1531.7770   ✗       
+685   SVTLN+0.984TWEPELLK      -1.0000     NotChecked  -21.4477    1529.7977   ✗       
+686   SVTLDTWEPELAK            -1.0000     NotChecked  -21.4544    1487.7508   ✗       
+687   SVTLN+0.984TWEPELLK      -1.0000     NotChecked  -21.4718    1529.7977   ✗       
+688   SVTLDTWEPELLQ            -1.0000     NotChecked  -21.4755    1529.7613   ✗       
+689   SVTLDTWQ+0.984PELLK      -1.0000     NotChecked  -21.4879    1529.7977   ✗       
+690   STTLDTWEPELLK            -1.0000     NotChecked  -21.4902    1531.7770   ✗       
+691   VVTLNTWEPELLK            -1.0000     NotChecked  -21.5168    1540.8501   ✗       
+692   TTLDTWEPELLK             -1.0000     NotChecked  -21.5205    1444.7449   ✗       
+693   SLSLDTWEPQ+0.984LLK      -1.0000     NotChecked  -21.5258    1529.7977   ✗       
+694   SASLDTWEPELLK            -1.0000     NotChecked  -21.5285    1487.7508   ✗       
+695   SLTLDTWQ+0.984PLLK       -1.0000     NotChecked  -21.5400    1414.7708   ✗       
+696   SLTLDTSEPELLK            -1.0000     NotChecked  -21.5407    1444.7661   ✗       
+697   TLTLSTWEPELLK            -1.0000     NotChecked  -21.5514    1529.8341   ✗       
+698   ALSLDTWEPELLK            -1.0000     NotChecked  -21.5530    1513.8028   ✗       
+699   STTLDTWQ+0.984PQ+0.984LLK-1.0000     NotChecked  -21.5538    1531.7770   ✗       
+700   STTLDTWKPELLK            -1.0000     NotChecked  -21.5646    1530.8293   ✗       
+701   SVSLN+0.984TWEPELLK      -1.0000     NotChecked  -21.5662    1515.7821   ✗       
+702   SLTLDTWEPQ+0.984LK       -1.0000     NotChecked  -21.5709    1430.7293   ✗       
+703   TATLN+0.984TWEPELLK      -1.0000     NotChecked  -21.5753    1515.7820   ✗       
+704   VLTLDTWEPELVK            -1.0000     NotChecked  -21.5765    1541.8341   ✗       
+705   ATTLDTWQ+0.984PELLK      -1.0000     NotChecked  -21.5810    1515.7821   ✗       
+706   TLTLDTWEPEVLK            -1.0000     Failed      -21.5842    1543.8133   ✓       
+707   VVTLDTWEPELLK            -1.0000     NotChecked  -21.5857    1541.8341   ✗       
+708   TVTVDTWEPELLK            -1.0000     NotChecked  -21.6015    1529.7977   ✗       
+709   SVTLDTMEPELLK            -1.0000     NotChecked  -21.6082    1474.7589   ✗       
+710   SVTLN+0.984TWEPELK       -1.0000     NotChecked  -21.6113    1416.7136   ✗       
+711   TLTLDTWEPEALK            -1.0000     NotChecked  -21.6746    1515.7820   ✗       
+712   TLTLDTWEPSLLK            -1.0000     NotChecked  -21.6761    1515.8184   ✗       
+713   SLTLDTAEPELLK            -1.0000     NotChecked  -21.6775    1428.7712   ✗       
+714   VVTLN+0.984TWEPQ+0.984LLK-1.0000     NotChecked  -21.6794    1541.8341   ✗       
+715   SVTLDTWQ+0.984PETLK      -1.0000     NotChecked  -21.6900    1517.7613   ✗       
+716   TLTLDTWLPELLK            -1.0000     NotChecked  -21.6933    1541.8705   ✗       
+717   SLTLDTWQ+0.984PELL       -1.0000     NotChecked  -21.6965    1415.7184   ✗       
+718   +42.011VTLDTWEPQ+0.984LLK-1.0000     NotChecked  -21.7198    1484.7762   ✗       
+719   +42.011LTLDTWQ+0.984PELLK-1.0000     NotChecked  -21.7341    1498.7919   ✗       
+720   SLTLN+0.984TWEPELTK      -1.0000     NotChecked  -21.7369    1531.7770   ✗       
+721   GATLDTWEPELLK            -1.0000     NotChecked  -21.7411    1471.7558   ✗       
+722   SLTVDTWEPQ+0.984LLK      -1.0000     NotChecked  -21.7495    1529.7977   ✗       
+723   SLTLDTWQ+0.984PDLLK      -1.0000     NotChecked  -21.7531    1529.7977   ✗       
+724   SLTLN+0.984TWEPEVLK      -1.0000     NotChecked  -21.7726    1529.7977   ✗       
+725   ASTLDTWEPELLK            -1.0000     NotChecked  -21.7817    1501.7664   ✗       
+726   SVTVN+0.984TWEPELLK      -1.0000     NotChecked  -21.7899    1515.7821   ✗       
+727   SLTLDTWQ+0.984PALLK      -1.0000     NotChecked  -21.7997    1485.8079   ✗       
+728   STTLDTWEPETLK            -1.0000     NotChecked  -21.8086    1519.7406   ✗       
+729   GVTLDTWEPELLK            -1.0000     NotChecked  -21.8099    1499.7871   ✗       
+730   VLTLDTWEPLLLK            -1.0000     NotChecked  -21.8115    1539.8912   ✗       
+731   SLTLDTQEPELLK            -1.0000     NotChecked  -21.8160    1485.7926   ✗       
+732   SLTLDTC+57.021EPELLK     -1.0000     NotChecked  -21.8258    1517.7647   ✗       
+733   TVTLDTWKPELLK            -1.0000     NotChecked  -21.8292    1542.8657   ✗       
+734   SVTLNTWQ+0.984PELLK      -1.0000     NotChecked  -21.8442    1528.8137   ✗       
+735   SLTLN+0.984TWEPEALK      -1.0000     NotChecked  -21.8629    1501.7664   ✗       
+736   SLTLN+0.984TWEPSLLK      -1.0000     NotChecked  -21.8644    1501.8028   ✗       
+737   +43.006ATLDTWEPELLK      -1.0000     NotChecked  -21.8789    1457.7402   ✗       
+738   SLTLN+0.984TWLPELLK      -1.0000     NotChecked  -21.8817    1527.8548   ✗       
+739   SVTLDTWEPQ+0.984LVK      -1.0000     NotChecked  -21.8896    1515.7821   ✗       
+740   SLTLDTWQ+0.984PELVK      -1.0000     NotChecked  -21.9039    1529.7977   ✗       
+741   SVTLDTWQ+0.984PELLK      -1.0000     NotChecked  -21.9131    1529.7977   ✗       
+742   SLTLDTWQ+0.984PELPK      -1.0000     NotChecked  -21.9174    1527.7821   ✗       
+743   TLTLDTWEPLLK             -1.0000     NotChecked  -21.9233    1428.7864   ✗       
+744   SVTLDTWEPQ+0.984LLK      -1.0000     NotChecked  -21.9307    1529.7977   ✗       
+745   LTLDTWEPQ+0.984LLK       -1.0000     NotChecked  -21.9331    1456.7813   ✗       
+746   SVTLN+0.984TWEPELLK      -1.0000     NotChecked  -21.9432    1529.7977   ✗       
+747   SLTLN+0.984SWEPELLK      -1.0000     NotChecked  -21.9433    1529.7977   ✗       
+748   +43.006VTLDTWEPELLK      -1.0000     NotChecked  -21.9476    1485.7715   ✗       
+749   TSTLDTWQ+0.984PELLK      -1.0000     NotChecked  -21.9628    1531.7770   ✗       
+750   STTLNTWEPELLK            -1.0000     NotChecked  -21.9629    1530.7929   ✗       
+751   SATLDTWQ+0.984PQ+0.984LLK-1.0000     NotChecked  -21.9690    1501.7664   ✗       
+752   SLTLDTWQ+0.984PELK       -1.0000     NotChecked  -21.9700    1430.7293   ✗       
+753   VTLN+0.984TWEPELLK       -1.0000     NotChecked  -21.9735    1442.7657   ✗       
+754   SLTLDTWKPQ+0.984LLK      -1.0000     NotChecked  -21.9771    1542.8657   ✗       
+755   SVTLDTWEPELLP            -1.0000     NotChecked  -21.9776    1498.7555   ✗       
+756   SVTLDTWQ+0.984PELTK      -1.0000     NotChecked  -21.9827    1517.7613   ✗       
+757   SVTLSTWQ+0.984PELLK      -1.0000     NotChecked  -21.9856    1501.8028   ✗       
+758   ALTLDTWQ+0.984PQ+0.984LLK-1.0000     NotChecked  -21.9936    1527.8184   ✗       
+759   SLTLN+0.984TWDPELLK      -1.0000     NotChecked  -21.9969    1529.7977   ✗       
+760   SVTLN+0.984TWQ+0.984PQ+0.984LLK-1.0000     NotChecked  -22.0068    1529.7977   ✗       
+761   SVTLN+0.984TWKPELLK      -1.0000     NotChecked  -22.0175    1528.8501   ✗       
+762   SVTLDTWQ+0.984PEVLK      -1.0000     NotChecked  -22.0184    1515.7821   ✗       
+763   VLSLDTWEPELLK            -1.0000     NotChecked  -22.0302    1541.8341   ✗       
+764   STTLDTWEPELLK            -1.0000     NotChecked  -22.0317    1531.7770   ✗       
+765   AVTLN+0.984TWQ+0.984PELLK-1.0000     NotChecked  -22.0340    1513.8028   ✗       
+766   SVTLDTWEPQ+0.984LLK      -1.0000     NotChecked  -22.0379    1529.7977   ✗       
+767   SVTLN+0.984TWEPELLK      -1.0000     NotChecked  -22.0595    1529.7977   ✗       
+768   SLTLDTWQ+0.984PKLLK      -1.0000     NotChecked  -22.0716    1542.8657   ✗       
+769   TVTLDTWEPETLK            -1.0000     NotChecked  -22.0733    1531.7770   ✗       
+770   VLTLDTWEPELK             -1.0000     NotChecked  -22.0752    1442.7657   ✗       
+771   SVTLDTWEPQ+0.984LLK      -1.0000     NotChecked  -22.0768    1529.7977   ✗       
+772   SLTLDTFEPELLK            -1.0000     NotChecked  -22.0777    1504.8025   ✗       
+773   TLTLDTWEPELL             -1.0000     NotChecked  -22.0797    1429.7340   ✗       
+774   STTLDTWEPELTK            -1.0000     NotChecked  -22.1014    1519.7406   ✗       
+775   AVTLDTWEPELLK            -1.0000     NotChecked  -22.1040    1513.8028   ✗       
+776   STTLSTWEPELLK            -1.0000     NotChecked  -22.1042    1503.7820   ✗       
+777   SVTLDTWQ+0.984PEALK      -1.0000     NotChecked  -22.1087    1487.7508   ✗       
+778   SVTLDTWQ+0.984PSLLK      -1.0000     NotChecked  -22.1102    1487.7871   ✗       
+779   SLTLN+0.984TWEPLLK       -1.0000     NotChecked  -22.1117    1414.7708   ✗       
+780   AVTLDTWEPQLLK            -1.0000     NotChecked  -22.1253    1512.8188   ✗       
+781   STTLN+0.984TWEPQ+0.984LLK-1.0000     NotChecked  -22.1254    1531.7770   ✗       
+782   GLTLN+0.984TWQ+0.984PELLK-1.0000     NotChecked  -22.1351    1513.8028   ✗       
+783   STTLDTWEPEVLK            -1.0000     NotChecked  -22.1371    1517.7613   ✗       
+784   SLTLDTWQ+0.984PLLLK      -1.0000     NotChecked  -22.1389    1527.8548   ✗       
+785   SLTTDTWQ+0.984PELLK      -1.0000     NotChecked  -22.1394    1531.7770   ✗       
+786   SSTLN+0.984TWQ+0.984PELLK-1.0000     NotChecked  -22.1512    1517.7613   ✗       
+787   ATTLN+0.984TWEPELLK      -1.0000     NotChecked  -22.1526    1515.7820   ✗       
+788   SVTLDTWEPELLS            -1.0000     NotChecked  -22.1770    1488.7348   ✗       
+789   SVTLDTWQPQ+0.984LLK      -1.0000     NotChecked  -22.1776    1528.8137   ✗       
+790   STLDTWEPELLK             -1.0000     NotChecked  -22.1823    1430.7293   ✗       
+791   TLTLDTWEPALLK            -1.0000     NotChecked  -22.1830    1499.8235   ✗       
+792   SVTLDSWQ+0.984PELLK      -1.0000     NotChecked  -22.1891    1515.7821   ✗       
+793   TLTLDTWPELLK             -1.0000     NotChecked  -22.1955    1428.7864   ✗       
+794   AVTLDTWQPELLK            -1.0000     NotChecked  -22.2048    1512.8188   ✗       
+795   GLTLDTWEPELLK            -1.0000     NotChecked  -22.2052    1513.8028   ✗       
+796   SLTLDTWEPQ+0.984TLK      -1.0000     NotChecked  -22.2212    1531.7770   ✗       
+797   SSTLDTWEPELLK            -1.0000     NotChecked  -22.2213    1517.7613   ✗       
+798   SVTLDTEEPELLK            -1.0000     NotChecked  -22.2234    1472.7610   ✗       
+799   SVTLDTWEPELLG            -1.0000     NotChecked  -22.2237    1458.7242   ✗       
+800   SVTLDTWEPQ+0.984LLK      -1.0000     NotChecked  -22.2248    1529.7977   ✗       
+801   GLTLDTWEPQLLK            -1.0000     NotChecked  -22.2264    1512.8188   ✗       
+802   STTLDTWEPEALK            -1.0000     NotChecked  -22.2274    1489.7300   ✗       
+803   TVTLNTWEPELLK            -1.0000     NotChecked  -22.2275    1542.8293   ✗       
+804   STTLDTWEPSLLK            -1.0000     NotChecked  -22.2289    1489.7664   ✗       
+805   SATLDTWEPELLK            -1.0000     NotChecked  -22.2297    1501.7664   ✗       
+806   SSTLDTWEPQLLK            -1.0000     NotChecked  -22.2425    1516.7773   ✗       
+807   VLTVDTWEPELLK            -1.0000     NotChecked  -22.2539    1541.8341   ✗       
+808   ALTLDTWEPELLK            -1.0000     NotChecked  -22.2543    1527.8184   ✗       
+809   +43.006LTLN+0.984TWQ+0.984PELLK-1.0000     NotChecked  -22.2729    1499.7871   ✗       
+810   TLTLDTWEPELPK            -1.0000     NotChecked  -22.3007    1541.7977   ✗       
+811   +42.011LTLN+0.984TWEPELLK-1.0000     NotChecked  -22.3058    1498.7919   ✗       
+812   GLTLDTWQPELLK            -1.0000     NotChecked  -22.3060    1512.8188   ✗       
+813   LSTLDTWEPELLK            -1.0000     Failed      -22.3169    1543.8134   ✓       
+814   +43.006LTLDTWEPELLK      -1.0000     NotChecked  -22.3429    1499.7871   ✗       
+815   TATLDTWEPQ+0.984LLK      -1.0000     NotChecked  -22.3523    1515.7821   ✗       
+816   TLTLDTWEPELK             -1.0000     NotChecked  -22.3533    1444.7449   ✗       
+817   +43.006LTLDTWEPQLLK      -1.0000     NotChecked  -22.3642    1498.8031   ✗       
+818   TVTLDTWEPELTK            -1.0000     NotChecked  -22.3660    1531.7770   ✗       
+819   TLTLDTWNPELLK            -1.0000     NotChecked  -22.3675    1542.8293   ✗       
+820   TVTLSTWEPELLK            -1.0000     NotChecked  -22.3688    1515.8184   ✗       
+821   AVSLDTWEPELLK            -1.0000     NotChecked  -22.3705    1499.7872   ✗       
+822   VVTLDTWEPELVK            -1.0000     NotChecked  -22.3939    1527.8184   ✗       
+823   TVTLDTWEPEVLK            -1.0000     NotChecked  -22.4017    1529.7977   ✗       
+824   ALTLNTWEPELLK            -1.0000     NotChecked  -22.4027    1526.8344   ✗       
+825   VVTLDTWEPELLK            -1.0000     NotChecked  -22.4351    1541.8341   ✗       
+826   +43.006LTLDTWQPELLK      -1.0000     NotChecked  -22.4437    1498.8031   ✗       
+827   ALTLDTWEPELLK            -1.0000     NotChecked  -22.4715    1527.8184   ✗       
+828   GLSLDTWEPELLK            -1.0000     NotChecked  -22.4716    1499.7872   ✗       
+829   VATLDTWQ+0.984PELLK      -1.0000     NotChecked  -22.4734    1513.8028   ✗       
+830   TVTLDTWEPEALK            -1.0000     NotChecked  -22.4920    1501.7664   ✗       
+831   TVTLDTWEPSLLK            -1.0000     NotChecked  -22.4935    1501.8028   ✗       
+832   GTTLDTWQ+0.984PELLK      -1.0000     NotChecked  -22.4996    1501.7664   ✗       
+833   TVTLDTWLPELLK            -1.0000     NotChecked  -22.5108    1527.8548   ✗       
+834   VVTLN+0.984TWQ+0.984PELLK-1.0000     NotChecked  -22.5111    1541.8341   ✗       
+835   TLTLDTWEPLLLK            -1.0000     NotChecked  -22.5221    1541.8705   ✗       
+836   TLTLDTWSPELLK            -1.0000     NotChecked  -22.5240    1515.8184   ✗       
+837   TSTLN+0.984TWEPELLK      -1.0000     NotChecked  -22.5345    1531.7770   ✗       
+838   +42.011VTLDTWQ+0.984PELLK-1.0000     NotChecked  -22.5516    1484.7762   ✗       
+839   VVTLDTWEPKLLK            -1.0000     NotChecked  -22.5617    1540.8865   ✗       
+840   ALTLN+0.984TWEPQ+0.984LLK-1.0000     NotChecked  -22.5652    1527.8184   ✗       
+841   TVTLDSWEPELLK            -1.0000     NotChecked  -22.5723    1529.7977   ✗       
+842   VVTLDTWEPELLK            -1.0000     NotChecked  -22.5812    1541.8341   ✗       
+843   VVTLDTWEPQLLK            -1.0000     NotChecked  -22.6025    1540.8501   ✗       
+844   +43.006LSLDTWEPELLK      -1.0000     NotChecked  -22.6094    1485.7715   ✗       
+845   TVTLDTWDPELLK            -1.0000     NotChecked  -22.6259    1529.7977   ✗       
+846   VVTLDTWEPLLLK            -1.0000     NotChecked  -22.6289    1525.8756   ✗       
+847   ALTLETWEPELLK            -1.0000     NotChecked  -22.6315    1541.8341   ✗       
+848   +43.006TTLDTWQ+0.984PELLK-1.0000     NotChecked  -22.6373    1487.7508   ✗       
+849   TLTLDTWEPVLLK            -1.0000     NotChecked  -22.6458    1527.8548   ✗       
+850   +42.011TTLDTWEPELLK      -1.0000     NotChecked  -22.6702    1486.7555   ✗       
+851   VVTLDTWQPELLK            -1.0000     NotChecked  -22.6820    1540.8501   ✗       
+852   GSTLDTWEPELLK            -1.0000     NotChecked  -22.7003    1487.7508   ✗       
+853   TLTSDTWEPELLK            -1.0000     NotChecked  -22.7160    1531.7770   ✗       
+854   VVTLDTWEPELLK            -1.0000     NotChecked  -22.7292    1541.8341   ✗       
+855   TVTLDTWEPLLK             -1.0000     NotChecked  -22.7407    1414.7708   ✗       
+856   VTLDTWEPQ+0.984LLK       -1.0000     NotChecked  -22.7505    1442.7657   ✗       
+857   TLALDTWEPELLK            -1.0000     NotChecked  -22.7518    1527.8184   ✗       
+858   VVTLDTWEPELLK            -1.0000     NotChecked  -22.7532    1541.8341   ✗       
+859   LTLDTWQ+0.984PELLK       -1.0000     NotChecked  -22.7648    1456.7813   ✗       
+860   TLTLDTWEPELK             -1.0000     NotChecked  -22.7859    1444.7449   ✗       
+861   AVTLDTWQ+0.984PQ+0.984LLK-1.0000     NotChecked  -22.8110    1513.8028   ✗       
+862   +43.006STLDTWEPELLK      -1.0000     NotChecked  -22.8381    1473.7351   ✗       
+863   VVSLDTWEPELLK            -1.0000     NotChecked  -22.8477    1527.8185   ✗       
+864   VVTLDTWEPELK             -1.0000     NotChecked  -22.8927    1428.7500   ✗       
+865   TVTLDTWEPELL             -1.0000     NotChecked  -22.8972    1415.7184   ✗       
+866   LVSLDTWEPELLK            -1.0000     NotChecked  -22.9057    1541.8341   ✗       
+867   GLTLDTWQ+0.984PQ+0.984LLK-1.0000     NotChecked  -22.9122    1513.8028   ✗       
+868   ATTLDTWEPQ+0.984LLK      -1.0000     NotChecked  -22.9297    1515.7821   ✗       
+869   GVTLN+0.984TWQ+0.984PELLK-1.0000     NotChecked  -22.9526    1499.7871   ✗       
+870   TVTLDTWEPDLLK            -1.0000     NotChecked  -22.9538    1529.7977   ✗       
+871   TVTLDTWEPALLK            -1.0000     NotChecked  -23.0004    1485.8079   ✗       
+872   TVTLDTWPELLK             -1.0000     NotChecked  -23.0130    1414.7708   ✗       
+873   VLTLSTWEPELLK            -1.0000     NotChecked  -23.0212    1527.8548   ✗       
+874   GVTLDTWEPELLK            -1.0000     NotChecked  -23.0226    1499.7871   ✗       
+875   GVTLDTWEPQLLK            -1.0000     NotChecked  -23.0439    1498.8031   ✗       
+876   VATLN+0.984TWEPELLK      -1.0000     NotChecked  -23.0450    1513.8028   ✗       
+877   +43.006LTLDTWQ+0.984PQ+0.984LLK-1.0000     NotChecked  -23.0499    1499.7871   ✗       
+878   VLTLDTWEPEVLK            -1.0000     NotChecked  -23.0540    1541.8341   ✗       
+879   GTTLN+0.984TWEPELLK      -1.0000     NotChecked  -23.0712    1501.7664   ✗       
+880   VVTVDTWEPELLK            -1.0000     NotChecked  -23.0713    1527.8184   ✗       
+881   AVTLDTWEPELLK            -1.0000     NotChecked  -23.0717    1513.8028   ✗       
+882   +42.011LTLDTWEPQ+0.984LLK-1.0000     NotChecked  -23.0828    1498.7919   ✗       
+883   TLTLDTWEELLK             -1.0000     NotChecked  -23.0848    1460.7762   ✗       
+884   +42.011ATLDTWEPELLK      -1.0000     NotChecked  -23.0855    1456.7449   ✗       
+885   AVTLDTWEPELLR            -1.0000     NotChecked  -23.0861    1541.8089   ✗       
+886   +43.006VTLN+0.984TWQ+0.984PELLK-1.0000     NotChecked  -23.0903    1485.7715   ✗       
+887   TVTLDTWEPELVK            -1.0000     NotChecked  -23.1046    1529.7977   ✗       
+888   AQTLDTWEPELLK            -1.0000     NotChecked  -23.1075    1542.7930   ✗       
+889   TVTLDTWEPELPK            -1.0000     NotChecked  -23.1181    1527.7820   ✗       
+890   +42.011VTLN+0.984TWEPELLK-1.0000     NotChecked  -23.1232    1484.7762   ✗       
+891   GVTLDTWQPELLK            -1.0000     NotChecked  -23.1234    1498.8031   ✗       
+892   TLTLDTLEPELLK            -1.0000     NotChecked  -23.1381    1484.8338   ✗       
+893   VLTLDTWEPEALK            -1.0000     NotChecked  -23.1443    1513.8028   ✗       
+894   VLTLDTWEPSLLK            -1.0000     NotChecked  -23.1459    1513.8392   ✗       
+895   +43.006VTLDTWEPELLK      -1.0000     NotChecked  -23.1604    1485.7715   ✗       
+896   VLTLDTWLPELLK            -1.0000     NotChecked  -23.1631    1539.8912   ✗       
+897   TLTLDTWEPEGLK            -1.0000     NotChecked  -23.1634    1501.7664   ✗       
+898   TVTLDTWEPELK             -1.0000     NotChecked  -23.1707    1430.7293   ✗       
+899   GLTLDTWEPELLK            -1.0000     NotChecked  -23.1729    1513.8028   ✗       
+900   +43.006VTLDTWEPQLLK      -1.0000     NotChecked  -23.1816    1484.7875   ✗       
+901   TATLDTWQ+0.984PELLK      -1.0000     NotChecked  -23.1841    1515.7821   ✗       
+902   TVTLDTWNPELLK            -1.0000     NotChecked  -23.1849    1528.8137   ✗       
+903   GLTLDTWEPELLR            -1.0000     NotChecked  -23.1872    1541.8089   ✗       
+904   +43.006TTLN+0.984TWEPELLK-1.0000     NotChecked  -23.2090    1487.7507   ✗       
+905   AVTLNTWEPELLK            -1.0000     NotChecked  -23.2201    1512.8188   ✗       
+906   VVTLDTWEPELLK            -1.0000     NotChecked  -23.2246    1541.8341   ✗       
+907   VLTLDSWEPELLK            -1.0000     NotChecked  -23.2247    1541.8341   ✗       
+908   +43.006VTLDTWQPELLK      -1.0000     NotChecked  -23.2612    1484.7875   ✗       
+909   TVTLDTWEPKLLK            -1.0000     NotChecked  -23.2724    1542.8657   ✗       
+910   VLTLDTWDPELLK            -1.0000     NotChecked  -23.2783    1541.8341   ✗       
+911   ALTLDTWEPELVK            -1.0000     NotChecked  -23.2798    1513.8028   ✗       
+912   VVTLDTWQ+0.984PQ+0.984LLK-1.0000     NotChecked  -23.2882    1541.8341   ✗       
+913   AVTLDTWEPELLK            -1.0000     NotChecked  -23.2889    1513.8028   ✗       
+914   GVSLDTWEPELLK            -1.0000     NotChecked  -23.2891    1485.7715   ✗       
+915   VVTLDTWKPELLK            -1.0000     NotChecked  -23.2990    1540.8865   ✗       
+916   +43.006LTLDTWEPELLK      -1.0000     NotChecked  -23.3106    1499.7871   ✗       
+917   TSTLDTWEPQ+0.984LLK      -1.0000     NotChecked  -23.3115    1531.7770   ✗       
+918   ALTLDTWEPELLK            -1.0000     NotChecked  -23.3210    1527.8184   ✗       
+919   GLTLNTWEPELLK            -1.0000     NotChecked  -23.3212    1512.8188   ✗       
+920   +43.006LTLDTWEPELLR      -1.0000     NotChecked  -23.3250    1527.7933   ✗       
+921   LTLN+0.984TWEPELLK       -1.0000     NotChecked  -23.3365    1456.7813   ✗       
+922   TVTLDTWEPLLLK            -1.0000     NotChecked  -23.3396    1527.8548   ✗       
+923   TVTTDTWEPELLK            -1.0000     NotChecked  -23.3401    1531.7770   ✗       
+924   VTLDTWEPELLK             -1.0000     NotChecked  -23.3409    1442.7657   ✗       
+925   TVTLDTWSPELLK            -1.0000     NotChecked  -23.3414    1501.8028   ✗       
+926   ALTLDTWEPELLK            -1.0000     NotChecked  -23.3685    1527.8184   ✗       
+927   AVTLN+0.984TWEPQ+0.984LLK-1.0000     NotChecked  -23.3826    1513.8028   ✗       
+928   GLTLDTWEPELLK            -1.0000     NotChecked  -23.3901    1513.8028   ✗       
+929   VLTLDTWEPLLK             -1.0000     NotChecked  -23.3931    1426.8072   ✗       
+930   ALTLN+0.984TWQ+0.984PELLK-1.0000     NotChecked  -23.3970    1527.8184   ✗       
+931   +43.006VSLDTWEPELLK      -1.0000     NotChecked  -23.4268    1471.7559   ✗       
+932   VSTLDTWQ+0.984PELLK      -1.0000     NotChecked  -23.4326    1529.7977   ✗       
+933   ALTLDTWEPKLLK            -1.0000     NotChecked  -23.4475    1526.8708   ✗       
+934   AVTLETWEPELLK            -1.0000     NotChecked  -23.4489    1527.8184   ✗       
+935   +43.006LTLNTWEPELLK      -1.0000     NotChecked  -23.4590    1498.8031   ✗       
+936   TVTLDTWEPVLLK            -1.0000     NotChecked  -23.4632    1513.8392   ✗       
+937   ALTLDTWEPELLK            -1.0000     NotChecked  -23.4670    1527.8184   ✗       
+938   TVVLDTWEPELLK            -1.0000     NotChecked  -23.4748    1541.8341   ✗       
+939   GLTLN+0.984TWEPQ+0.984LLK-1.0000     NotChecked  -23.4838    1513.8028   ✗       
+940   ALTLDTWEPQLLK            -1.0000     NotChecked  -23.4883    1526.8344   ✗       
+941   ALTLDTWEPLLLK            -1.0000     NotChecked  -23.5147    1511.8599   ✗       
+942   +43.006LTLDTWEPELLK      -1.0000     NotChecked  -23.5278    1499.7871   ✗       
+943   TVTSDTWEPELLK            -1.0000     NotChecked  -23.5334    1517.7613   ✗       
+944   VVTLDTWEPETLK            -1.0000     NotChecked  -23.5430    1529.7977   ✗       
+945   VLTLDTWEPELL             -1.0000     NotChecked  -23.5495    1427.7548   ✗       
+946   GLTLETWEPELLK            -1.0000     NotChecked  -23.5501    1527.8184   ✗       
+947   ALTLDTWQPELLK            -1.0000     NotChecked  -23.5678    1526.8344   ✗       
+948   TVALDTWEPELLK            -1.0000     NotChecked  -23.5693    1513.8028   ✗       
+949   VTLDTWQ+0.984PELLK       -1.0000     NotChecked  -23.5823    1442.7657   ✗       
+950   TVTLDTWEPELK             -1.0000     NotChecked  -23.6034    1430.7293   ✗       
+951   VLTLDTWEPDLLK            -1.0000     NotChecked  -23.6062    1541.8341   ✗       
+952   +43.006LTLN+0.984TWEPQ+0.984LLK-1.0000     NotChecked  -23.6216    1499.7871   ✗       
+953   TLTLTTWEPELLK            -1.0000     Failed      -23.6246    1543.8497   ✓       
+954   NATLDTWEPELLK            -1.0000     NotChecked  -23.6364    1528.7773   ✗       
+955   ALTLDTWEPELLK            -1.0000     NotChecked  -23.6390    1527.8184   ✗       
+956   VLTLDTWEPALLK            -1.0000     NotChecked  -23.6527    1497.8443   ✗       
+957   TLTLDTWEGELLK            -1.0000     NotChecked  -23.6606    1517.7977   ✗       
+958   VLTLDTWPELLK             -1.0000     NotChecked  -23.6653    1426.8072   ✗       
+959   TVTLDTWESELLK            -1.0000     NotChecked  -23.6734    1533.7926   ✗       
+960   AKTLDTWEPELLK            -1.0000     NotChecked  -23.6736    1542.8293   ✗       
+961   +43.006LTLETWEPELLK      -1.0000     NotChecked  -23.6878    1513.8028   ✗       
+962   VVTLNTWEPELLK            -1.0000     NotChecked  -23.6973    1540.8501   ✗       
+963   TTLDTWEPELLK             -1.0000     NotChecked  -23.7009    1444.7449   ✗       
+964   GVTLDTWQ+0.984PQ+0.984LLK-1.0000     NotChecked  -23.7296    1499.7871   ✗       
+965   TLTLSTWEPELLK            -1.0000     NotChecked  -23.7318    1529.8341   ✗       
+966   ALSLDTWEPELLK            -1.0000     NotChecked  -23.7335    1513.8028   ✗       
+967   TATLN+0.984TWEPELLK      -1.0000     NotChecked  -23.7557    1515.7820   ✗       
+968   VLTLDTWEPELVK            -1.0000     NotChecked  -23.7569    1541.8341   ✗       
+969   ATTLDTWQ+0.984PELLK      -1.0000     NotChecked  -23.7614    1515.7821   ✗       
+970   TLTLDTWEPEVLK            -1.0000     Failed      -23.7647    1543.8133   ✓       
+971   VVTLDTWEPELLK            -1.0000     NotChecked  -23.7661    1541.8341   ✗       
+972   VLTLDTWEPELPK            -1.0000     NotChecked  -23.7705    1539.8184   ✗       
+973   ALTLDTWEPELK             -1.0000     NotChecked  -23.7785    1414.7344   ✗       
+974   TVTVDTWEPELLK            -1.0000     NotChecked  -23.7820    1529.7977   ✗       
+975   VATLDTWEPQ+0.984LLK      -1.0000     NotChecked  -23.8221    1513.8028   ✗       
+976   VLTLDTWEPELK             -1.0000     NotChecked  -23.8230    1442.7657   ✗       
+977   VVTLDTWEPELTK            -1.0000     NotChecked  -23.8358    1529.7977   ✗       
+978   VLTLDTWNPELLK            -1.0000     NotChecked  -23.8372    1540.8501   ✗       
+979   VVTLSTWEPELLK            -1.0000     NotChecked  -23.8386    1513.8392   ✗       
+980   TLTLDTWEAELLK            -1.0000     NotChecked  -23.8479    1531.8133   ✗       
+981   GTTLDTWEPQ+0.984LLK      -1.0000     NotChecked  -23.8483    1501.7664   ✗       
+982   TLTLDTWEPEALK            -1.0000     NotChecked  -23.8550    1515.7820   ✗       
+983   TLTLDTWEPSLLK            -1.0000     NotChecked  -23.8565    1515.8184   ✗       
+984   VVTLN+0.984TWEPQ+0.984LLK-1.0000     NotChecked  -23.8598    1541.8341   ✗       
+985   +43.006VTLDTWQ+0.984PQ+0.984LLK-1.0000     NotChecked  -23.8674    1485.7715   ✗       
+986   VVTLDTWEPEVLK            -1.0000     NotChecked  -23.8715    1527.8184   ✗       
+987   TLTLDTWLPELLK            -1.0000     NotChecked  -23.8738    1541.8705   ✗       
+988   +42.011VTLDTWEPQ+0.984LLK-1.0000     NotChecked  -23.9003    1484.7762   ✗       
+989   TVTLDTWEELLK             -1.0000     NotChecked  -23.9022    1446.7606   ✗       
+990   LTLDTWEPELLK             -1.0000     NotChecked  -23.9037    1456.7813   ✗       
+991   TVTLDTLEPELLK            -1.0000     NotChecked  -23.9556    1470.8181   ✗       
+992   ALTVDTWEPELLK            -1.0000     NotChecked  -23.9571    1513.8028   ✗       
+993   VVTLDTWEPEALK            -1.0000     NotChecked  -23.9618    1499.7871   ✗       
+994   VVTLDTWEPSLLK            -1.0000     NotChecked  -23.9633    1499.8235   ✗       
+995   TLTLDAWEPELLK            -1.0000     NotChecked  -23.9779    1527.8184   ✗       
+996   TLTLDTVEPELLK            -1.0000     NotChecked  -23.9797    1470.8181   ✗       
+997   VVTLDTWLPELLK            -1.0000     NotChecked  -23.9805    1525.8756   ✗       
+998   TVTLDTWEPEGLK            -1.0000     NotChecked  -23.9808    1487.7507   ✗       
+999   +43.006TTLDTWEPQ+0.984LLK-1.0000     NotChecked  -23.9860    1487.7508   ✗       
+1000  GVTLDTWEPELLK            -1.0000     NotChecked  -23.9903    1499.7871   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: SLTLDTWEPELLK
+Similarity: 0.6483
+De Novo Score: -0.4848
+Source: Database
+Correct: ✓
+

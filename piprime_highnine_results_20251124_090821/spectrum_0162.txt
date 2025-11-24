@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 162
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 898.4515
+Precursor charge: 2+
+Ground truth: GYGPTAGAAIAEHPEINK
+Ground truth (normalized): GYGPTAGAAIAEHPEINK
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 661
+Used for reranking: 661
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 661 (66.1%)
+Database matches: 355 (35.5%)
+Prosit predictions: 306 (30.6%)
+Failed: 0 (0.0%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.8947
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     GYGPTAGAALAEHPELNK       0.8947      Database    -0.7487     1794.8901   ✓       ✓
+2     GYGPTAGAALAEHPELNK       0.8947      Database    -1.4309     1794.8901   ✓       ✓
+3     GYGPTAGAALAEHPELNK       0.8947      Database    -3.0004     1794.8901   ✓       ✓
+4     GYGPTAGAALAEHPELNK       0.8947      Database    -3.2387     1794.8901   ✓       ✓
+5     GYGPTAGAALAEHPELNK       0.8947      Database    -3.6825     1794.8901   ✓       ✓
+6     GYGPTAGAALAEHPELNK       0.8947      Database    -3.9209     1794.8901   ✓       ✓
+7     GYGPTAGAALAEHPELNK       0.8947      Database    -5.3499     1794.8901   ✓       ✓
+8     GYGPTAGAALAEHPELNK       0.8947      Database    -5.4700     1794.8901   ✓       ✓
+9     GYGPTAGAALAEHPELNK       0.8947      Database    -5.4904     1794.8901   ✓       ✓
+10    GYGPTAGAALAEHPELNK       0.8947      Database    -6.0320     1794.8901   ✓       ✓
+11    GYGPTAGAALAEHPELNK       0.8947      Database    -6.1521     1794.8901   ✓       ✓
+12    GYGPTAGAALAEHPELNK       0.8947      Database    -6.1725     1794.8901   ✓       ✓
+13    GYGPTAGAALAEHPELNK       0.8947      Database    -6.8028     1794.8901   ✓       ✓
+14    GYGPTAGAALAEHPELNK       0.8947      Database    -7.2022     1794.8901   ✓       ✓
+15    GYGPTAGAALAEHPELNK       0.8947      Database    -7.2538     1794.8901   ✓       ✓
+16    GYGPTAGAALAEHPELNK       0.8947      Database    -7.2869     1794.8901   ✓       ✓
+17    GYGPTAGAALAEHPELNK       0.8947      Database    -7.4849     1794.8901   ✓       ✓
+18    GYGPTAGAALAEHPELNK       0.8947      Database    -7.6016     1794.8901   ✓       ✓
+19    GYGPTAGAALAEHPELNK       0.8947      Database    -7.7216     1794.8901   ✓       ✓
+20    GYGPTAGAALAEHPELNK       0.8947      Database    -7.8399     1794.8901   ✓       ✓
+21    GYGPTAGAALAEHPELNK       0.8947      Database    -7.8844     1794.8901   ✓       ✓
+22    GYGPTAGAALAEHPELNK       0.8947      Database    -7.9359     1794.8901   ✓       ✓
+23    GYGPTAGAALAEHPELNK       0.8947      Database    -7.9691     1794.8901   ✓       ✓
+24    GYGPTAGAALAEHPELNK       0.8947      Database    -8.0673     1794.8901   ✓       ✓
+25    GYGPTAGAALAEHPELNK       0.8947      Database    -8.2837     1794.8901   ✓       ✓
+26    GYGPTAGAALAEHPELNK       0.8947      Database    -8.4038     1794.8901   ✓       ✓
+27    GYGPTAGAALAEHPELNK       0.8947      Database    -8.4362     1794.8901   ✓       ✓
+28    GYGPTAGAALAEHPELNK       0.8947      Database    -8.5220     1794.8901   ✓       ✓
+29    GYGPTAGAALAEHPELNK       0.8947      Database    -8.7494     1794.8901   ✓       ✓
+30    GYGPTAGAALAEHPELNK       0.8947      Database    -9.0544     1794.8901   ✓       ✓
+31    GYGPTAGAALAEHPELNK       0.8947      Database    -9.1184     1794.8901   ✓       ✓
+32    GYGPTAGAALAEHPELNK       0.8947      Database    -9.2928     1794.8901   ✓       ✓
+33    GYGPTAGAALAEHPELNK       0.8947      Database    -9.4388     1794.8901   ✓       ✓
+34    GYGPTAGAALAEHPELNK       0.8947      Database    -9.4539     1794.8901   ✓       ✓
+35    GYGPTAGAALAEHPELNK       0.8947      Database    -9.5055     1794.8901   ✓       ✓
+36    GYGPTAGAALAEHPELNK       0.8947      Database    -9.5386     1794.8901   ✓       ✓
+37    GYGPTAGAALAEHPELNK       0.8947      Database    -9.6922     1794.8901   ✓       ✓
+38    GYGPTAGAALAEHPELNK       0.8947      Database    -9.7366     1794.8901   ✓       ✓
+39    GYGPTAGAALAEHPELNK       0.8947      Database    -9.7438     1794.8901   ✓       ✓
+40    GYGPTAGAALAEHPELNK       0.8947      Database    -9.7769     1794.8901   ✓       ✓
+41    GYGPTAGAALAEHPELNK       0.8947      Database    -9.9749     1794.8901   ✓       ✓
+42    GYGPTAGAALAEHPELNK       0.8947      Database    -10.0711    1794.8901   ✓       ✓
+43    GYGPTAGAALAEHPELNK       0.8947      Database    -10.0916    1794.8901   ✓       ✓
+44    GYGPTAGAALAEHPELNK       0.8947      Database    -10.1210    1794.8901   ✓       ✓
+45    GYGPTAGAALAEHPELNK       0.8947      Database    -10.1361    1794.8901   ✓       ✓
+46    GYGPTAGAALAEHPELNK       0.8947      Database    -10.1876    1794.8901   ✓       ✓
+47    GYGPTAGAALAEHPELNK       0.8947      Database    -10.2208    1794.8901   ✓       ✓
+48    GYGPTAGAALAEHPELNK       0.8947      Database    -10.3190    1794.8901   ✓       ✓
+49    GYGPTAGAALAEHPELNK       0.8947      Database    -10.3744    1794.8901   ✓       ✓
+50    GYGPTAGAALAEHPELNK       0.8947      Database    -10.4259    1794.8901   ✓       ✓
+51    GYGPTAGAALAEHPELNK       0.8947      Database    -10.4508    1794.8901   ✓       ✓
+52    GYGPTAGAALAEHPELNK       0.8947      Database    -10.4591    1794.8901   ✓       ✓
+53    GYGPTAGAALAEHPELNK       0.8947      Database    -10.5573    1794.8901   ✓       ✓
+54    GYGPTAGAALAEHPELNK       0.8947      Database    -10.6879    1794.8901   ✓       ✓
+55    GYGPTAGAALAEHPELNK       0.8947      Database    -10.7533    1794.8901   ✓       ✓
+56    GYGPTAGAALAEHPELNK       0.8947      Database    -10.7737    1794.8901   ✓       ✓
+57    GYGPTAGAALAEHPELNK       0.8947      Database    -10.9262    1794.8901   ✓       ✓
+58    GYGPTAGAALAEHPELNK       0.8947      Database    -11.0011    1794.8901   ✓       ✓
+59    GYGPTAGAALAEHPELNK       0.8947      Database    -11.0183    1794.8901   ✓       ✓
+60    GYGPTAGAALAEHPELNK       0.8947      Database    -11.1330    1794.8901   ✓       ✓
+61    GYGPTAGAALAEHPELNK       0.8947      Database    -11.2394    1794.8901   ✓       ✓
+62    GYGPTAGAALAEHPELNK       0.8947      Database    -11.3700    1794.8901   ✓       ✓
+63    GYGPTAGAALAEHPELNK       0.8947      Database    -11.4039    1794.8901   ✓       ✓
+64    GYGPTAGAALAEHPELNK       0.8947      Database    -11.4828    1794.8901   ✓       ✓
+65    GYGPTAGAALAEHPELNK       0.8947      Database    -11.5240    1794.8901   ✓       ✓
+66    GYGPTAGAALAEHPELNK       0.8947      Database    -11.5445    1794.8901   ✓       ✓
+67    GYGPTAGAALAEHPELNK       0.8947      Database    -11.6084    1794.8901   ✓       ✓
+68    GYGPTAGAALAEHPELNK       0.8947      Database    -11.6905    1794.8901   ✓       ✓
+69    GYGPTAGAALAEHPELNK       0.8947      Database    -11.7005    1794.8901   ✓       ✓
+70    GYGPTAGAALAEHPELNK       0.8947      Database    -11.8034    1794.8901   ✓       ✓
+71    GYGPTAGAALAEHPELNK       0.8947      Database    -11.8549    1794.8901   ✓       ✓
+72    GYGPTAGAALAEHPELNK       0.8947      Database    -11.8881    1794.8901   ✓       ✓
+73    GYGPTAGAALAEHPELNK       0.8947      Database    -11.9235    1794.8901   ✓       ✓
+74    GYGPTAGAALAEHPELNK       0.8947      Database    -11.9288    1794.8901   ✓       ✓
+75    GYGPTAGAALAEHPELNK       0.8947      Database    -11.9439    1794.8901   ✓       ✓
+76    GYGPTAGAALAEHPELNK       0.8947      Database    -11.9750    1794.8901   ✓       ✓
+77    GYGPTAGAALAEHPELNK       0.8947      Database    -11.9955    1794.8901   ✓       ✓
+78    GYGPTAGAALAEHPELNK       0.8947      Database    -12.0082    1794.8901   ✓       ✓
+79    GYGPTAGAALAEHPELNK       0.8947      Database    -12.0286    1794.8901   ✓       ✓
+80    GYGPTAGAALAEHPELNK       0.8947      Database    -12.0861    1794.8901   ✓       ✓
+81    GYGPTAGAALAEHPELNK       0.8947      Database    -12.1649    1794.8901   ✓       ✓
+82    GYGPTAGAALAEHPELNK       0.8947      Database    -12.2062    1794.8901   ✓       ✓
+83    GYGPTAGAALAEHPELNK       0.8947      Database    -12.2266    1794.8901   ✓       ✓
+84    GYGPTAGAALAEHPELNK       0.8947      Database    -12.3228    1794.8901   ✓       ✓
+85    GYGPTAGAALAEHPELNK       0.8947      Database    -12.3726    1794.8901   ✓       ✓
+86    GYGPTAGAALAEHPELNK       0.8947      Database    -12.4855    1794.8901   ✓       ✓
+87    GYGPTAGAALAEHPELNK       0.8947      Database    -12.5371    1794.8901   ✓       ✓
+88    GYGPTAGAALAEHPELNK       0.8947      Database    -12.5703    1794.8901   ✓       ✓
+89    GYGPTAGAALAEHPELNK       0.8947      Database    -12.5778    1794.8901   ✓       ✓
+90    GYGPTAGAALAEHPELNK       0.8947      Database    -12.6056    1794.8901   ✓       ✓
+91    GYGPTAGAALAEHPELNK       0.8947      Database    -12.6110    1794.8901   ✓       ✓
+92    GYGPTAGAALAEHPELNK       0.8947      Database    -12.6261    1794.8901   ✓       ✓
+93    GYGPTAGAALAEHPELNK       0.8947      Database    -12.6572    1794.8901   ✓       ✓
+94    GYGPTAGAALAEHPELNK       0.8947      Database    -12.6685    1794.8901   ✓       ✓
+95    GYGPTAGAALAEHPELNK       0.8947      Database    -12.6776    1794.8901   ✓       ✓
+96    GYGPTAGAALAEHPELNK       0.8947      Database    -12.6903    1794.8901   ✓       ✓
+97    GYGPTAGAALAEHPELNK       0.8947      Database    -12.7025    1794.8901   ✓       ✓
+98    GYGPTAGAALAEHPELNK       0.8947      Database    -12.7108    1794.8901   ✓       ✓
+99    GYGPTAGAALAEHPELNK       0.8947      Database    -12.7885    1794.8901   ✓       ✓
+100   GYGPTAGAALAEHPELNK       0.8947      Database    -12.8090    1794.8901   ✓       ✓
+101   GYGPTAGAALAEHPELNK       0.8947      Database    -12.9408    1794.8901   ✓       ✓
+102   GYGPTAGAALAEHPELNK       0.8947      Database    -13.0050    1794.8901   ✓       ✓
+103   GYGPTAGAALAEHPELNK       0.8947      Database    -13.0374    1794.8901   ✓       ✓
+104   GYGPTAGAALAEHPELNK       0.8947      Database    -13.1575    1794.8901   ✓       ✓
+105   GYGPTAGAALAEHPELNK       0.8947      Database    -13.1718    1794.8901   ✓       ✓
+106   GYGPTAGAALAEHPELNK       0.8947      Database    -13.1779    1794.8901   ✓       ✓
+107   GYGPTAGAALAEHPELNK       0.8947      Database    -13.2563    1794.8901   ✓       ✓
+108   GYGPTAGAALAEHPELNK       0.8947      Database    -13.2600    1794.8901   ✓       ✓
+109   GYGPTAGAALAEHPELNK       0.8947      Database    -13.2700    1794.8901   ✓       ✓
+110   GYGPTAGAALAEHPELNK       0.8947      Database    -13.3078    1794.8901   ✓       ✓
+111   GYGPTAGAALAEHPELNK       0.8947      Database    -13.3410    1794.8901   ✓       ✓
+112   GYGPTAGAALAEHPELNK       0.8947      Database    -13.3506    1794.8901   ✓       ✓
+113   GYGPTAGAALAEHPELNK       0.8947      Database    -13.3847    1794.8901   ✓       ✓
+114   GYGPTAGAALAEHPELNK       0.8947      Database    -13.3980    1794.8901   ✓       ✓
+115   GYGPTAGAALAEHPELNK       0.8947      Database    -13.4707    1794.8901   ✓       ✓
+116   GYGPTAGAALAEHPELNK       0.8947      Database    -13.4911    1794.8901   ✓       ✓
+117   GYGPTAGAALAEHPELNK       0.8947      Database    -13.5083    1794.8901   ✓       ✓
+118   GYGPTAGAALAEHPELNK       0.8947      Database    -13.5425    1794.8901   ✓       ✓
+119   GYGPTAGAALAEHPELNK       0.8947      Database    -13.6230    1794.8901   ✓       ✓
+120   GYGPTAGAALAEHPELNK       0.8947      Database    -13.6556    1794.8901   ✓       ✓
+121   GYGPTAGAALAEHPELNK       0.8947      Database    -13.7073    1794.8901   ✓       ✓
+122   GYGPTAGAALAEHPELNK       0.8947      Database    -13.7195    1794.8901   ✓       ✓
+123   GYGPTAGAALAEHPELNK       0.8947      Database    -13.7344    1794.8901   ✓       ✓
+124   GYGPTAGAALAEHPELNK       0.8947      Database    -13.7404    1794.8901   ✓       ✓
+125   GYGPTAGAALAEHPELNK       0.8947      Database    -13.7757    1794.8901   ✓       ✓
+126   GYGPTAGAALAEHPELNK       0.8947      Database    -13.7920    1794.8901   ✓       ✓
+127   GYGPTAGAALAEHPELNK       0.8947      Database    -13.8396    1794.8901   ✓       ✓
+128   GYGPTAGAALAEHPELNK       0.8947      Database    -13.8540    1794.8901   ✓       ✓
+129   GYGPTAGAALAEHPELNK       0.8947      Database    -13.8601    1794.8901   ✓       ✓
+130   GYGPTAGAALAEHPELNK       0.8947      Database    -13.8940    1794.8901   ✓       ✓
+131   GYGPTAGAALAEHPELNK       0.8947      Database    -13.9384    1794.8901   ✓       ✓
+132   GYGPTAGAALAEHPELNK       0.8947      Database    -13.9522    1794.8901   ✓       ✓
+133   GYGPTAGAALAEHPELNK       0.8947      Database    -13.9660    1794.8901   ✓       ✓
+134   GYGPTAGAALAEHPELNK       0.8947      Database    -13.9728    1794.8901   ✓       ✓
+135   GYGPTAGAALAEHPELNK       0.8947      Database    -13.9900    1794.8901   ✓       ✓
+136   GYGPTAGAALAEHPELNK       0.8947      Database    -14.0231    1794.8901   ✓       ✓
+137   GYGPTAGAALAEHPELNK       0.8947      Database    -14.0400    1794.8901   ✓       ✓
+138   GYGPTAGAALAEHPELNK       0.8947      Database    -14.0551    1794.8901   ✓       ✓
+139   GYGPTAGAALAEHPELNK       0.8947      Database    -14.0802    1794.8901   ✓       ✓
+140   GYGPTAGAALAEHPELNK       0.8947      Database    -14.1066    1794.8901   ✓       ✓
+141   GYGPTAGAALAEHPELNK       0.8947      Database    -14.1214    1794.8901   ✓       ✓
+142   GYGPTAGAALAEHPELNK       0.8947      Database    -14.1398    1794.8901   ✓       ✓
+143   GYGPTAGAALAEHPELNK       0.8947      Database    -14.1601    1794.8901   ✓       ✓
+144   GYGPTAGAALAEHPELNK       0.8947      Database    -14.1752    1794.8901   ✓       ✓
+145   GYGPTAGAALAEHPELNK       0.8947      Database    -14.1805    1794.8901   ✓       ✓
+146   GYGPTAGAALAEHPELNK       0.8947      Database    -14.1905    1794.8901   ✓       ✓
+147   GYGPTAGAALAEHPELNK       0.8947      Database    -14.2246    1794.8901   ✓       ✓
+148   GYGPTAGAALAEHPELNK       0.8947      Database    -14.2267    1794.8901   ✓       ✓
+149   GYGPTAGAALAEHPELNK       0.8947      Database    -14.2341    1794.8901   ✓       ✓
+150   GYGPTAGAALAEHPELNK       0.8947      Database    -14.2599    1794.8901   ✓       ✓
+151   GYGPTAGAALAEHPELNK       0.8947      Database    -14.2934    1794.8901   ✓       ✓
+152   GYGPTAGAALAEHPELNK       0.8947      Database    -14.3378    1794.8901   ✓       ✓
+153   GYGPTAGAALAEHPELNK       0.8947      Database    -14.3450    1794.8901   ✓       ✓
+154   GYGPTAGAALAEHPELNK       0.8947      Database    -14.3781    1794.8901   ✓       ✓
+155   GYGPTAGAALAEHPELNK       0.8947      Database    -14.3894    1794.8901   ✓       ✓
+156   GYGPTAGAALAEHPELNK       0.8947      Database    -14.4166    1794.8901   ✓       ✓
+157   GYGPTAGAALAEHPELNK       0.8947      Database    -14.4199    1794.8901   ✓       ✓
+158   GYGPTAGAALAEHPELNK       0.8947      Database    -14.4226    1794.8901   ✓       ✓
+159   GYGPTAGAALAEHPELNK       0.8947      Database    -14.4579    1794.8901   ✓       ✓
+160   GYGPTAGAALAEHPELNK       0.8947      Database    -14.4742    1794.8901   ✓       ✓
+161   GYGPTAGAALAEHPELNK       0.8947      Database    -14.4903    1794.8901   ✓       ✓
+162   GYGPTAGAALAEHPELNK       0.8947      Database    -14.5208    1794.8901   ✓       ✓
+163   GYGPTAGAALAEHPELNK       0.8947      Database    -14.5724    1794.8901   ✓       ✓
+164   GYGPTAGAALAEHPELNK       0.8947      Database    -14.5761    1794.8901   ✓       ✓
+165   GYGPTAGAALAEHPELNK       0.8947      Database    -14.6055    1794.8901   ✓       ✓
+166   GYGPTAGAALAEHPELNK       0.8947      Database    -14.6481    1794.8901   ✓       ✓
+167   GYGPTAGAALAEHPELNK       0.8947      Database    -14.6549    1794.8901   ✓       ✓
+168   GYGPTAGAALAEHPELNK       0.8947      Database    -14.7221    1794.8901   ✓       ✓
+169   GYGPTAGAALAEHPELNK       0.8947      Database    -14.7372    1794.8901   ✓       ✓
+170   GYGPTAGAALAEHPELNK       0.8947      Database    -14.7888    1794.8901   ✓       ✓
+171   GYGPTAGAALAEHPELNK       0.8947      Database    -14.8035    1794.8901   ✓       ✓
+172   GYGPTAGAALAEHPELNK       0.8947      Database    -14.8219    1794.8901   ✓       ✓
+173   GYGPTAGAALAEHPELNK       0.8947      Database    -14.8422    1794.8901   ✓       ✓
+174   GYGPTAGAALAEHPELNK       0.8947      Database    -14.8573    1794.8901   ✓       ✓
+175   GYGPTAGAALAEHPELNK       0.8947      Database    -14.8627    1794.8901   ✓       ✓
+176   GYGPTAGAALAEHPELNK       0.8947      Database    -14.8897    1794.8901   ✓       ✓
+177   GYGPTAGAALAEHPELNK       0.8947      Database    -14.9089    1794.8901   ✓       ✓
+178   GYGPTAGAALAEHPELNK       0.8947      Database    -14.9162    1794.8901   ✓       ✓
+179   GYGPTAGAALAEHPELNK       0.8947      Database    -14.9201    1794.8901   ✓       ✓
+180   GYGPTAGAALAEHPELNK       0.8947      Database    -14.9413    1794.8901   ✓       ✓
+181   GYGPTAGAALAEHPELNK       0.8947      Database    -14.9420    1794.8901   ✓       ✓
+182   GYGPTAGAALAEHPELNK       0.8947      Database    -14.9744    1794.8901   ✓       ✓
+183   GYGPTAGAALAEHPELNK       0.8947      Database    -14.9756    1794.8901   ✓       ✓
+184   GYGPTAGAALAEHPELNK       0.8947      Database    -15.0271    1794.8901   ✓       ✓
+185   GYGPTAGAALAEHPELNK       0.8947      Database    -15.0402    1794.8901   ✓       ✓
+186   GYGPTAGAALAEHPELNK       0.8947      Database    -15.0520    1794.8901   ✓       ✓
+187   GYGPTAGAALAEHPELNK       0.8947      Database    -15.0603    1794.8901   ✓       ✓
+188   GYGPTAGAALAEHPELNK       0.8947      Database    -15.0678    1794.8901   ✓       ✓
+189   GYGPTAGAALAEHPELNK       0.8947      Database    -15.1020    1794.8901   ✓       ✓
+190   GYGPTAGAALAEHPELNK       0.8947      Database    -15.1585    1794.8901   ✓       ✓
+191   GYGPTAGAALAEHPELNK       0.8947      Database    -15.1721    1794.8901   ✓       ✓
+192   GYGPTAGAALAEHPELNK       0.8947      Database    -15.1724    1794.8901   ✓       ✓
+193   GYGPTAGAALAEHPELNK       0.8947      Database    -15.1925    1794.8901   ✓       ✓
+194   GYGPTAGAALAEHPELNK       0.8947      Database    -15.2030    1794.8901   ✓       ✓
+195   GYGPTAGAALAEHPELNK       0.8947      Database    -15.2148    1794.8901   ✓       ✓
+196   GYGPTAGAALAEHPELNK       0.8947      Database    -15.2545    1794.8901   ✓       ✓
+197   GYGPTAGAALAEHPELNK       0.8947      Database    -15.2877    1794.8901   ✓       ✓
+198   GYGPTAGAALAEHPELNK       0.8947      Database    -15.2891    1794.8901   ✓       ✓
+199   GYGPTAGAALAEHPELNK       0.8947      Database    -15.4092    1794.8901   ✓       ✓
+200   GYGPTAGAALAEHPELNK       0.8947      Database    -15.4235    1794.8901   ✓       ✓
+201   GYGPTAGAALAEHPELNK       0.8947      Database    -15.4901    1794.8901   ✓       ✓
+202   GYGPTAGAALAEHPELNK       0.8947      Database    -15.4929    1794.8901   ✓       ✓
+203   GYGPTAGAALAEHPELNK       0.8947      Database    -15.5067    1794.8901   ✓       ✓
+204   GYGPTAGAALAEHPELNK       0.8947      Database    -15.5080    1794.8901   ✓       ✓
+205   GYGPTAGAALAEHPELNK       0.8947      Database    -15.5274    1794.8901   ✓       ✓
+206   GYGPTAGAALAEHPELNK       0.8947      Database    -15.5595    1794.8901   ✓       ✓
+207   GYGPTAGAALAEHPELNK       0.8947      Database    -15.5719    1794.8901   ✓       ✓
+208   GYGPTAGAALAEHPELNK       0.8947      Database    -15.5927    1794.8901   ✓       ✓
+209   GYGPTAGAALAEHPELNK       0.8947      Database    -15.6023    1794.8901   ✓       ✓
+210   GYGPTAGAALAEHPELNK       0.8947      Database    -15.6195    1794.8901   ✓       ✓
+211   GYGPTAGAALAEHPELNK       0.8947      Database    -15.6234    1794.8901   ✓       ✓
+212   GYGPTAGAALAEHPELNK       0.8947      Database    -15.6357    1794.8901   ✓       ✓
+213   GYGPTAGAALAEHPELNK       0.8947      Database    -15.6497    1794.8901   ✓       ✓
+214   GYGPTAGAALAEHPELNK       0.8947      Database    -15.6566    1794.8901   ✓       ✓
+215   GYGPTAGAALAEHPELNK       0.8947      Database    -15.6619    1794.8901   ✓       ✓
+216   GYGPTAGAALAEHPELNK       0.8947      Database    -15.7224    1794.8901   ✓       ✓
+217   GYGPTAGAALAEHPELNK       0.8947      Database    -15.7342    1794.8901   ✓       ✓
+218   GYGPTAGAALAEHPELNK       0.8947      Database    -15.7396    1794.8901   ✓       ✓
+219   GYGPTAGAALAEHPELNK       0.8947      Database    -15.7463    1794.8901   ✓       ✓
+220   GYGPTAGAALAEHPELNK       0.8947      Database    -15.7500    1794.8901   ✓       ✓
+221   GYGPTAGAALAEHPELNK       0.8947      Database    -15.7548    1794.8901   ✓       ✓
+222   GYGPTAGAALAEHPELNK       0.8947      Database    -15.7600    1794.8901   ✓       ✓
+223   GYGPTAGAALAEHPELNK       0.8947      Database    -15.7942    1794.8901   ✓       ✓
+224   GYGPTAGAALAEHPELNK       0.8947      Database    -15.7978    1794.8901   ✓       ✓
+225   GYGPTAGAALAEHPELNK       0.8947      Database    -15.8310    1794.8901   ✓       ✓
+226   GYGPTAGAALAEHPELNK       0.8947      Database    -15.8406    1794.8901   ✓       ✓
+227   GYGPTAGAALAEHPELNK       0.8947      Database    -15.8542    1794.8901   ✓       ✓
+228   GYGPTAGAALAEHPELNK       0.8947      Database    -15.8556    1794.8901   ✓       ✓
+229   GYGPTAGAALAEHPELNK       0.8947      Database    -15.8747    1794.8901   ✓       ✓
+230   GYGPTAGAALAEHPELNK       0.8947      Database    -15.8880    1794.8901   ✓       ✓
+231   GYGPTAGAALAEHPELNK       0.8947      Database    -15.8923    1794.8901   ✓       ✓
+232   GYGPTAGAALAEHPELNK       0.8947      Database    -15.8969    1794.8901   ✓       ✓
+233   GYGPTAGAALAEHPELNK       0.8947      Database    -15.9439    1794.8901   ✓       ✓
+234   GYGPTAGAALAEHPELNK       0.8947      Database    -15.9590    1794.8901   ✓       ✓
+235   GYGPTAGAALAEHPELNK       0.8947      Database    -15.9712    1794.8901   ✓       ✓
+236   GYGPTAGAALAEHPELNK       0.8947      Database    -15.9770    1794.8901   ✓       ✓
+237   GYGPTAGAALAEHPELNK       0.8947      Database    -15.9921    1794.8901   ✓       ✓
+238   GYGPTAGAALAEHPELNK       0.8947      Database    -16.0325    1794.8901   ✓       ✓
+239   GYGPTAGAALAEHPELNK       0.8947      Database    -16.0437    1794.8901   ✓       ✓
+240   GYGPTAGAALAEHPELNK       0.8947      Database    -16.0725    1794.8901   ✓       ✓
+241   GYGPTAGAALAEHPELNK       0.8947      Database    -16.0839    1794.8901   ✓       ✓
+242   GYGPTAGAALAEHPELNK       0.8947      Database    -16.0868    1794.8901   ✓       ✓
+243   GYGPTAGAALAEHPELNK       0.8947      Database    -16.0913    1794.8901   ✓       ✓
+244   GYGPTAGAALAEHPELNK       0.8947      Database    -16.1057    1794.8901   ✓       ✓
+245   GYGPTAGAALAEHPELNK       0.8947      Database    -16.1252    1794.8901   ✓       ✓
+246   GYGPTAGAALAEHPELNK       0.8947      Database    -16.1456    1794.8901   ✓       ✓
+247   GYGPTAGAALAEHPELNK       0.8947      Database    -16.1723    1794.8901   ✓       ✓
+248   GYGPTAGAALAEHPELNK       0.8947      Database    -16.1750    1794.8901   ✓       ✓
+249   GYGPTAGAALAEHPELNK       0.8947      Database    -16.1889    1794.8901   ✓       ✓
+250   GYGPTAGAALAEHPELNK       0.8947      Database    -16.1901    1794.8901   ✓       ✓
+251   GYGPTAGAALAEHPELNK       0.8947      Database    -16.1973    1794.8901   ✓       ✓
+252   GYGPTAGAALAEHPELNK       0.8947      Database    -16.2040    1794.8901   ✓       ✓
+253   GYGPTAGAALAEHPELNK       0.8947      Database    -16.2096    1794.8901   ✓       ✓
+254   GYGPTAGAALAEHPELNK       0.8947      Database    -16.2176    1794.8901   ✓       ✓
+255   GYGPTAGAALAEHPELNK       0.8947      Database    -16.2244    1794.8901   ✓       ✓
+256   GYGPTAGAALAEHPELNK       0.8947      Database    -16.2305    1794.8901   ✓       ✓
+257   GYGPTAGAALAEHPELNK       0.8947      Database    -16.2417    1794.8901   ✓       ✓
+258   GYGPTAGAALAEHPELNK       0.8947      Database    -16.2548    1794.8901   ✓       ✓
+259   GYGPTAGAALAEHPELNK       0.8947      Database    -16.2748    1794.8901   ✓       ✓
+260   GYGPTAGAALAEHPELNK       0.8947      Database    -16.2820    1794.8901   ✓       ✓
+261   GYGPTAGAALAEHPELNK       0.8947      Database    -16.2917    1794.8901   ✓       ✓
+262   GYGPTAGAALAEHPELNK       0.8947      Database    -16.3017    1794.8901   ✓       ✓
+263   GYGPTAGAALAEHPELNK       0.8947      Database    -16.3178    1794.8901   ✓       ✓
+264   GYGPTAGAALAEHPELNK       0.8947      Database    -16.3319    1794.8901   ✓       ✓
+265   GYGPTAGAALAEHPELNK       0.8947      Database    -16.3440    1794.8901   ✓       ✓
+266   GYGPTAGAALAEHPELNK       0.8947      Database    -16.3730    1794.8901   ✓       ✓
+267   GYGPTAGAALAEHPELNK       0.8947      Database    -16.4117    1794.8901   ✓       ✓
+268   GYGPTAGAALAEHPELNK       0.8947      Database    -16.4217    1794.8901   ✓       ✓
+269   GYGPTAGAALAEHPELNK       0.8947      Database    -16.4285    1794.8901   ✓       ✓
+270   GYGPTAGAALAEHPELNK       0.8947      Database    -16.4370    1794.8901   ✓       ✓
+271   GYGPTAGAALAEHPELNK       0.8947      Database    -16.4422    1794.8901   ✓       ✓
+272   GYGPTAGAALAEHPELNK       0.8947      Database    -16.4560    1794.8901   ✓       ✓
+273   GYGPTAGAALAEHPELNK       0.8947      Database    -16.4763    1794.8901   ✓       ✓
+274   GYGPTAGAALAEHPELNK       0.8947      Database    -16.4800    1794.8901   ✓       ✓
+275   GYGPTAGAALAEHPELNK       0.8947      Database    -16.4858    1794.8901   ✓       ✓
+276   GYGPTAGAALAEHPELNK       0.8947      Database    -16.5049    1794.8901   ✓       ✓
+277   GYGPTAGAALAEHPELNK       0.8947      Database    -16.5132    1794.8901   ✓       ✓
+278   GYGPTAGAALAEHPELNK       0.8947      Database    -16.5247    1794.8901   ✓       ✓
+279   GYGPTAGAALAEHPELNK       0.8947      Database    -16.5300    1794.8901   ✓       ✓
+280   GYGPTAGAALAEHPELNK       0.8947      Database    -16.5377    1794.8901   ✓       ✓
+281   GYGPTAGAALAEHPELNK       0.8947      Database    -16.5451    1794.8901   ✓       ✓
+282   GYGPTAGAALAEHPELNK       0.8947      Database    -16.5702    1794.8901   ✓       ✓
+283   GYGPTAGAALAEHPELNK       0.8947      Database    -16.5745    1794.8901   ✓       ✓
+284   GYGPTAGAALAEHPELNK       0.8947      Database    -16.5762    1794.8901   ✓       ✓
+285   GYGPTAGAALAEHPELNK       0.8947      Database    -16.5966    1794.8901   ✓       ✓
+286   GYGPTAGAALAEHPELNK       0.8947      Database    -16.5988    1794.8901   ✓       ✓
+287   GYGPTAGAALAEHPELNK       0.8947      Database    -16.6094    1794.8901   ✓       ✓
+288   GYGPTAGAALAEHPELNK       0.8947      Database    -16.6114    1794.8901   ✓       ✓
+289   GYGPTAGAALAEHPELNK       0.8947      Database    -16.6260    1794.8901   ✓       ✓
+290   GYGPTAGAALAEHPELNK       0.8947      Database    -16.6298    1794.8901   ✓       ✓
+291   GYGPTAGAALAEHPELNK       0.8947      Database    -16.6411    1794.8901   ✓       ✓
+292   GYGPTAGAALAEHPELNK       0.8947      Database    -16.6592    1794.8901   ✓       ✓
+293   GYGPTAGAALAEHPELNK       0.8947      Database    -16.6716    1794.8901   ✓       ✓
+294   GYGPTAGAALAEHPELNK       0.8947      Database    -16.6743    1794.8901   ✓       ✓
+295   GYGPTAGAALAEHPELNK       0.8947      Database    -16.7146    1794.8901   ✓       ✓
+296   GYGPTAGAALAEHPELNK       0.8947      Database    -16.7241    1794.8901   ✓       ✓
+297   GYGPTAGAALAEHPELNK       0.8947      Database    -16.7258    1794.8901   ✓       ✓
+298   GYGPTAGAALAEHPELNK       0.8947      Database    -16.7420    1794.8901   ✓       ✓
+299   GYGPTAGAALAEHPELNK       0.8947      Database    -16.7546    1794.8901   ✓       ✓
+300   GYGPTAGAALAEHPELNK       0.8947      Database    -16.7574    1794.8901   ✓       ✓
+301   GYGPTAGAALAEHPELNK       0.8947      Database    -16.7661    1794.8901   ✓       ✓
+302   GYGPTAGAALAEHPELNK       0.8947      Database    -16.7690    1794.8901   ✓       ✓
+303   GYGPTAGAALAEHPELNK       0.8947      Database    -16.7725    1794.8901   ✓       ✓
+304   GYGPTAGAALAEHPELNK       0.8947      Database    -16.8074    1794.8901   ✓       ✓
+305   GYGPTAGAALAEHPELNK       0.8947      Database    -16.8240    1794.8901   ✓       ✓
+306   GYGPTAGAALAEHPELNK       0.8947      Database    -16.8278    1794.8901   ✓       ✓
+307   GYGPTAGAALAEHPELNK       0.8947      Database    -16.8572    1794.8901   ✓       ✓
+308   GYGPTAGAALAEHPELNK       0.8947      Database    -16.8795    1794.8901   ✓       ✓
+309   GYGPTAGAALAEHPELNK       0.8947      Database    -16.8862    1794.8901   ✓       ✓
+310   GYGPTAGAALAEHPELNK       0.8947      Database    -16.8891    1794.8901   ✓       ✓
+311   GYGPTAGAALAEHPELNK       0.8947      Database    -16.8998    1794.8901   ✓       ✓
+312   GYGPTAGAALAEHPELNK       0.8947      Database    -16.9043    1794.8901   ✓       ✓
+313   GYGPTAGAALAEHPELNK       0.8947      Database    -16.9066    1794.8901   ✓       ✓
+314   GYGPTAGAALAEHPELNK       0.8947      Database    -16.9099    1794.8901   ✓       ✓
+315   GYGPTAGAALAEHPELNK       0.8947      Database    -16.9126    1794.8901   ✓       ✓
+316   GYGPTAGAALAEHPELNK       0.8947      Database    -16.9369    1794.8901   ✓       ✓
+317   GYGPTAGAALAEHPELNK       0.8947      Database    -16.9435    1794.8901   ✓       ✓
+318   GYGPTAGAALAEHPELNK       0.8947      Database    -16.9559    1794.8901   ✓       ✓
+319   GYGPTAGAALAEHPELNK       0.8947      Database    -16.9642    1794.8901   ✓       ✓
+320   GYGPTAGAALAEHPELNK       0.8947      Database    -16.9738    1794.8901   ✓       ✓
+321   GYGPTAGAALAEHPELNK       0.8947      Database    -16.9803    1794.8901   ✓       ✓
+322   GYGPTAGAALAEHPELNK       0.8947      Database    -16.9890    1794.8901   ✓       ✓
+323   GYGPTAGAALAEHPELNK       0.8947      Database    -17.0108    1794.8901   ✓       ✓
+324   GYGPTAGAALAEHPELNK       0.8947      Database    -17.0552    1794.8901   ✓       ✓
+325   GYGPTAGAALAEHPELNK       0.8947      Database    -17.0624    1794.8901   ✓       ✓
+326   GYGPTAGAALAEHPELNK       0.8947      Database    -17.0724    1794.8901   ✓       ✓
+327   GYGPTAGAALAEHPELNK       0.8947      Database    -17.0939    1794.8901   ✓       ✓
+328   GYGPTAGAALAEHPELNK       0.8947      Database    -17.0955    1794.8901   ✓       ✓
+329   GYGPTAGAALAEHPELNK       0.8947      Database    -17.1381    1794.8901   ✓       ✓
+330   GYGPTAGAALAEHPELNK       0.8947      Database    -17.1414    1794.8901   ✓       ✓
+331   GYGPTAGAALAEHPELNK       0.8947      Database    -17.1679    1794.8901   ✓       ✓
+332   GYGPTAGAALAEHPELNK       0.8947      Database    -17.1790    1794.8901   ✓       ✓
+333   GYGPTAGAALAEHPELNK       0.8947      Database    -17.1870    1794.8901   ✓       ✓
+334   GYGPTAGAALAEHPELNK       0.8947      Database    -17.1930    1794.8901   ✓       ✓
+335   GYGPTAGAALAEHPELNK       0.8947      Database    -17.2068    1794.8901   ✓       ✓
+336   GYGPTAGAALAEHPELNK       0.8947      Database    -17.2122    1794.8901   ✓       ✓
+337   GYGPTAGAALAEHPELNK       0.8947      Database    -17.2261    1794.8901   ✓       ✓
+338   GYGPTAGAALAEHPELNK       0.8947      Database    -17.2272    1794.8901   ✓       ✓
+339   GYGPTAGAALAEHPELNK       0.8947      Database    -17.2584    1794.8901   ✓       ✓
+340   GYGPTAGAALAEHPELNK       0.8947      Database    -17.2788    1794.8901   ✓       ✓
+341   GYGPTAGAALAEHPELNK       0.8947      Database    -17.2915    1794.8901   ✓       ✓
+342   GYGPTAGAALAEHPELNK       0.8947      Database    -17.2935    1794.8901   ✓       ✓
+343   GYGPTAGAALAEHPELNK       0.8947      Database    -17.2991    1794.8901   ✓       ✓
+344   GYGPTAGAALAEHPELNK       0.8947      Database    -17.3037    1794.8901   ✓       ✓
+345   GYGPTAGAALAEHPELNK       0.8947      Database    -17.3119    1794.8901   ✓       ✓
+346   GYGPTAGAALAEHPELNK       0.8947      Database    -17.3537    1794.8901   ✓       ✓
+347   GYGPTAGAALAEHPELNK       0.8947      Database    -17.3797    1794.8901   ✓       ✓
+348   GYGPTAGAALAEHPELNK       0.8947      Database    -17.3897    1794.8901   ✓       ✓
+349   GYGPTAGAALAEHPELNK       0.8947      Database    -17.4062    1794.8901   ✓       ✓
+350   GYGPTAGAALAEHPELNK       0.8947      Database    -17.4101    1794.8901   ✓       ✓
+351   GYGPTAGAALAEHPELNK       0.8947      Database    -17.4238    1794.8901   ✓       ✓
+352   GYGPTAGAALAEHPELNK       0.8947      Database    -17.4241    1794.8901   ✓       ✓
+353   GYGPTAGAALAEHPELNK       0.8947      Database    -17.4313    1794.8901   ✓       ✓
+354   GYGPTAGAALAEHPELNK       0.8947      Database    -17.4396    1794.8901   ✓       ✓
+355   GYGPTAGAALAEHPELNK       0.8947      Database    -17.4546    1794.8901   ✓       ✓
+356   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -2.7184     1794.8901   ✓       
+357   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -3.4005     1794.8901   ✓       
+358   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -4.9701     1794.8901   ✓       
+359   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -5.2084     1794.8901   ✓       
+360   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -5.6522     1794.8901   ✓       
+361   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -5.8905     1794.8901   ✓       
+362   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -7.3195     1794.8901   ✓       
+363   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -7.4396     1794.8901   ✓       
+364   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -7.4601     1794.8901   ✓       
+365   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -8.0017     1794.8901   ✓       
+366   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -8.1218     1794.8901   ✓       
+367   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -8.1422     1794.8901   ✓       
+368   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -8.7724     1794.8901   ✓       
+369   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -9.1719     1794.8901   ✓       
+370   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -9.2234     1794.8901   ✓       
+371   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -9.2566     1794.8901   ✓       
+372   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -9.4546     1794.8901   ✓       
+373   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -9.5712     1794.8901   ✓       
+374   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -9.6913     1794.8901   ✓       
+375   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -9.8096     1794.8901   ✓       
+376   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -9.8540     1794.8901   ✓       
+377   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -9.9056     1794.8901   ✓       
+378   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -9.9388     1794.8901   ✓       
+379   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -10.0370    1794.8901   ✓       
+380   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -10.2534    1794.8901   ✓       
+381   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -10.3735    1794.8901   ✓       
+382   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -10.4059    1794.8901   ✓       
+383   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -10.4917    1794.8901   ✓       
+384   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -10.7191    1794.8901   ✓       
+385   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -11.0241    1794.8901   ✓       
+386   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -11.0880    1794.8901   ✓       
+387   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -11.2624    1794.8901   ✓       
+388   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -11.4085    1794.8901   ✓       
+389   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -11.4236    1794.8901   ✓       
+390   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -11.4751    1794.8901   ✓       
+391   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -11.5083    1794.8901   ✓       
+392   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -11.6619    1794.8901   ✓       
+393   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -11.7063    1794.8901   ✓       
+394   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -11.7135    1794.8901   ✓       
+395   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -11.7466    1794.8901   ✓       
+396   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -11.9446    1794.8901   ✓       
+397   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -12.0408    1794.8901   ✓       
+398   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -12.0612    1794.8901   ✓       
+399   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -12.0906    1794.8901   ✓       
+400   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -12.1057    1794.8901   ✓       
+401   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -12.1573    1794.8901   ✓       
+402   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -12.1904    1794.8901   ✓       
+403   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -12.2886    1794.8901   ✓       
+404   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -12.3441    1794.8901   ✓       
+405   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -12.3956    1794.8901   ✓       
+406   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -12.4205    1794.8901   ✓       
+407   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -12.4288    1794.8901   ✓       
+408   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -12.5270    1794.8901   ✓       
+409   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -12.6576    1794.8901   ✓       
+410   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -12.7230    1794.8901   ✓       
+411   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -12.7434    1794.8901   ✓       
+412   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -12.8959    1794.8901   ✓       
+413   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -12.9708    1794.8901   ✓       
+414   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -12.9880    1794.8901   ✓       
+415   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -13.1026    1794.8901   ✓       
+416   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -13.2091    1794.8901   ✓       
+417   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -13.3397    1794.8901   ✓       
+418   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -13.3736    1794.8901   ✓       
+419   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -13.4524    1794.8901   ✓       
+420   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -13.4937    1794.8901   ✓       
+421   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -13.5141    1794.8901   ✓       
+422   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -13.5781    1794.8901   ✓       
+423   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -13.6602    1794.8901   ✓       
+424   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -13.6702    1794.8901   ✓       
+425   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -13.7731    1794.8901   ✓       
+426   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -13.8246    1794.8901   ✓       
+427   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -13.8578    1794.8901   ✓       
+428   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -13.8932    1794.8901   ✓       
+429   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -13.8985    1794.8901   ✓       
+430   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -13.9136    1794.8901   ✓       
+431   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -13.9447    1794.8901   ✓       
+432   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -13.9651    1794.8901   ✓       
+433   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -13.9779    1794.8901   ✓       
+434   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -13.9983    1794.8901   ✓       
+435   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -14.0558    1794.8901   ✓       
+436   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -14.1346    1794.8901   ✓       
+437   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -14.1759    1794.8901   ✓       
+438   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -14.1963    1794.8901   ✓       
+439   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -14.2925    1794.8901   ✓       
+440   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -14.3423    1794.8901   ✓       
+441   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -14.4552    1794.8901   ✓       
+442   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -14.5068    1794.8901   ✓       
+443   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -14.5399    1794.8901   ✓       
+444   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -14.5475    1794.8901   ✓       
+445   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -14.5753    1794.8901   ✓       
+446   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -14.5806    1794.8901   ✓       
+447   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -14.5957    1794.8901   ✓       
+448   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -14.6269    1794.8901   ✓       
+449   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -14.6381    1794.8901   ✓       
+450   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -14.6473    1794.8901   ✓       
+451   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -14.6600    1794.8901   ✓       
+452   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -14.6722    1794.8901   ✓       
+453   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -14.6804    1794.8901   ✓       
+454   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -14.7582    1794.8901   ✓       
+455   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -14.7786    1794.8901   ✓       
+456   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -14.9105    1794.8901   ✓       
+457   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -14.9746    1794.8901   ✓       
+458   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -15.0071    1794.8901   ✓       
+459   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -15.1271    1794.8901   ✓       
+460   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -15.1415    1794.8901   ✓       
+461   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -15.1476    1794.8901   ✓       
+462   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -15.2260    1794.8901   ✓       
+463   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -15.2296    1794.8901   ✓       
+464   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -15.2397    1794.8901   ✓       
+465   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -15.2775    1794.8901   ✓       
+466   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -15.3107    1794.8901   ✓       
+467   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -15.3203    1794.8901   ✓       
+468   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -15.3543    1794.8901   ✓       
+469   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -15.3677    1794.8901   ✓       
+470   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -15.4404    1794.8901   ✓       
+471   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -15.4608    1794.8901   ✓       
+472   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -15.4780    1794.8901   ✓       
+473   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -15.5121    1794.8901   ✓       
+474   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -15.5927    1794.8901   ✓       
+475   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -15.6253    1794.8901   ✓       
+476   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -15.6770    1794.8901   ✓       
+477   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -15.6892    1794.8901   ✓       
+478   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -15.7041    1794.8901   ✓       
+479   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -15.7101    1794.8901   ✓       
+480   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -15.7454    1794.8901   ✓       
+481   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -15.7617    1794.8901   ✓       
+482   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -15.8093    1794.8901   ✓       
+483   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -15.8237    1794.8901   ✓       
+484   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -15.8297    1794.8901   ✓       
+485   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -15.8636    1794.8901   ✓       
+486   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -15.9081    1794.8901   ✓       
+487   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -15.9218    1794.8901   ✓       
+488   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -15.9356    1794.8901   ✓       
+489   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -15.9424    1794.8901   ✓       
+490   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -15.9597    1794.8901   ✓       
+491   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -15.9928    1794.8901   ✓       
+492   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.0097    1794.8901   ✓       
+493   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.0247    1794.8901   ✓       
+494   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.0499    1794.8901   ✓       
+495   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.0763    1794.8901   ✓       
+496   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.0910    1794.8901   ✓       
+497   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.1094    1794.8901   ✓       
+498   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.1297    1794.8901   ✓       
+499   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.1448    1794.8901   ✓       
+500   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.1502    1794.8901   ✓       
+501   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.1602    1794.8901   ✓       
+502   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.1943    1794.8901   ✓       
+503   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.1964    1794.8901   ✓       
+504   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.2038    1794.8901   ✓       
+505   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.2295    1794.8901   ✓       
+506   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.2631    1794.8901   ✓       
+507   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.3074    1794.8901   ✓       
+508   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.3146    1794.8901   ✓       
+509   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.3478    1794.8901   ✓       
+510   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.3591    1794.8901   ✓       
+511   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.3863    1794.8901   ✓       
+512   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.3896    1794.8901   ✓       
+513   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.3923    1794.8901   ✓       
+514   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.4275    1794.8901   ✓       
+515   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.4438    1794.8901   ✓       
+516   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.4600    1794.8901   ✓       
+517   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.4905    1794.8901   ✓       
+518   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.5420    1794.8901   ✓       
+519   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.5458    1794.8901   ✓       
+520   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.5752    1794.8901   ✓       
+521   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.6178    1794.8901   ✓       
+522   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.6246    1794.8901   ✓       
+523   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.6918    1794.8901   ✓       
+524   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.7069    1794.8901   ✓       
+525   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.7584    1794.8901   ✓       
+526   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.7732    1794.8901   ✓       
+527   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.7916    1794.8901   ✓       
+528   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.8119    1794.8901   ✓       
+529   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.8270    1794.8901   ✓       
+530   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.8323    1794.8901   ✓       
+531   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.8594    1794.8901   ✓       
+532   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.8785    1794.8901   ✓       
+533   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.8859    1794.8901   ✓       
+534   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.8898    1794.8901   ✓       
+535   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.9110    1794.8901   ✓       
+536   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.9117    1794.8901   ✓       
+537   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.9441    1794.8901   ✓       
+538   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.9452    1794.8901   ✓       
+539   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -16.9968    1794.8901   ✓       
+540   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -17.0099    1794.8901   ✓       
+541   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -17.0217    1794.8901   ✓       
+542   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -17.0299    1794.8901   ✓       
+543   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -17.0375    1794.8901   ✓       
+544   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -17.0717    1794.8901   ✓       
+545   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -17.1281    1794.8901   ✓       
+546   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -17.1418    1794.8901   ✓       
+547   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -17.1421    1794.8901   ✓       
+548   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -17.1622    1794.8901   ✓       
+549   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -17.1726    1794.8901   ✓       
+550   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -17.1845    1794.8901   ✓       
+551   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -17.2242    1794.8901   ✓       
+552   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -17.2573    1794.8901   ✓       
+553   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -17.2587    1794.8901   ✓       
+554   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -17.3788    1794.8901   ✓       
+555   GYGPTAGAALAQ+0.984HPELNK 0.5347      Prosit      -17.3932    1794.8901   ✓       
+556   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -6.6954     1794.8901   ✓       
+557   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -7.3775     1794.8901   ✓       
+558   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -8.9471     1794.8901   ✓       
+559   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -9.1854     1794.8901   ✓       
+560   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -9.6292     1794.8901   ✓       
+561   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -9.8676     1794.8901   ✓       
+562   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -11.2966    1794.8901   ✓       
+563   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -11.4167    1794.8901   ✓       
+564   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -11.4371    1794.8901   ✓       
+565   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -11.9787    1794.8901   ✓       
+566   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -12.0988    1794.8901   ✓       
+567   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -12.1192    1794.8901   ✓       
+568   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -12.7495    1794.8901   ✓       
+569   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -13.1489    1794.8901   ✓       
+570   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -13.2005    1794.8901   ✓       
+571   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -13.2336    1794.8901   ✓       
+572   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -13.4316    1794.8901   ✓       
+573   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -13.5482    1794.8901   ✓       
+574   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -13.6683    1794.8901   ✓       
+575   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -13.7866    1794.8901   ✓       
+576   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -13.8311    1794.8901   ✓       
+577   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -13.8826    1794.8901   ✓       
+578   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -13.9158    1794.8901   ✓       
+579   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -14.0140    1794.8901   ✓       
+580   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -14.2304    1794.8901   ✓       
+581   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -14.3505    1794.8901   ✓       
+582   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -14.3829    1794.8901   ✓       
+583   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -14.4687    1794.8901   ✓       
+584   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -14.6961    1794.8901   ✓       
+585   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -15.0011    1794.8901   ✓       
+586   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -15.0651    1794.8901   ✓       
+587   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -15.2395    1794.8901   ✓       
+588   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -15.3855    1794.8901   ✓       
+589   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -15.4006    1794.8901   ✓       
+590   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -15.4521    1794.8901   ✓       
+591   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -15.4853    1794.8901   ✓       
+592   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -15.6389    1794.8901   ✓       
+593   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -15.6833    1794.8901   ✓       
+594   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -15.6905    1794.8901   ✓       
+595   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -15.7236    1794.8901   ✓       
+596   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -15.9216    1794.8901   ✓       
+597   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -16.0178    1794.8901   ✓       
+598   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -16.0382    1794.8901   ✓       
+599   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -16.0677    1794.8901   ✓       
+600   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -16.0827    1794.8901   ✓       
+601   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -16.1343    1794.8901   ✓       
+602   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -16.1674    1794.8901   ✓       
+603   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -16.2656    1794.8901   ✓       
+604   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -16.3211    1794.8901   ✓       
+605   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -16.3726    1794.8901   ✓       
+606   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -16.3975    1794.8901   ✓       
+607   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -16.4058    1794.8901   ✓       
+608   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -16.5040    1794.8901   ✓       
+609   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -16.6346    1794.8901   ✓       
+610   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -16.7000    1794.8901   ✓       
+611   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -16.7204    1794.8901   ✓       
+612   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -16.8729    1794.8901   ✓       
+613   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -16.9478    1794.8901   ✓       
+614   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -16.9650    1794.8901   ✓       
+615   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -17.0797    1794.8901   ✓       
+616   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -17.1861    1794.8901   ✓       
+617   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -17.3167    1794.8901   ✓       
+618   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -17.3506    1794.8901   ✓       
+619   GYGPTAGAALAEHPQ+0.984LNK 0.5143      Prosit      -17.4294    1794.8901   ✓       
+620   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -8.6651     1794.8901   ✓       
+621   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -9.3472     1794.8901   ✓       
+622   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -10.9167    1794.8901   ✓       
+623   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -11.1551    1794.8901   ✓       
+624   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -11.5989    1794.8901   ✓       
+625   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -11.8372    1794.8901   ✓       
+626   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -13.2662    1794.8901   ✓       
+627   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -13.3863    1794.8901   ✓       
+628   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -13.4067    1794.8901   ✓       
+629   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -13.9484    1794.8901   ✓       
+630   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -14.0685    1794.8901   ✓       
+631   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -14.0889    1794.8901   ✓       
+632   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -14.7191    1794.8901   ✓       
+633   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -15.1186    1794.8901   ✓       
+634   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -15.1701    1794.8901   ✓       
+635   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -15.2033    1794.8901   ✓       
+636   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -15.4013    1794.8901   ✓       
+637   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -15.5179    1794.8901   ✓       
+638   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -15.6380    1794.8901   ✓       
+639   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -15.7562    1794.8901   ✓       
+640   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -15.8007    1794.8901   ✓       
+641   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -15.8523    1794.8901   ✓       
+642   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -15.8854    1794.8901   ✓       
+643   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -15.9836    1794.8901   ✓       
+644   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -16.2001    1794.8901   ✓       
+645   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -16.3202    1794.8901   ✓       
+646   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -16.3526    1794.8901   ✓       
+647   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -16.4384    1794.8901   ✓       
+648   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -16.6658    1794.8901   ✓       
+649   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -16.9708    1794.8901   ✓       
+650   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -17.0347    1794.8901   ✓       
+651   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -17.2091    1794.8901   ✓       
+652   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -17.3552    1794.8901   ✓       
+653   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -17.3703    1794.8901   ✓       
+654   GYGPTAGAALAQ+0.984HPQ+0.984LNK0.5090      Prosit      -17.4218    1794.8901   ✓       
+655   GYGPTAGAALAEHPELNQ       0.4917      Prosit      -14.3187    1794.8537   ✓       
+656   GYGPTAGAALAEHPELNQ       0.4917      Prosit      -15.0009    1794.8537   ✓       
+657   GYGPTAGAALAEHPELNQ       0.4917      Prosit      -16.5704    1794.8537   ✓       
+658   GYGPTAGAALAEHPELNQ       0.4917      Prosit      -16.8087    1794.8537   ✓       
+659   GYGPTAGAALAEHPELNQ       0.4917      Prosit      -17.2526    1794.8537   ✓       
+660   GYGPTAGAALAQ+0.984HPELNQ 0.4751      Prosit      -16.2884    1794.8537   ✓       
+661   GYGPTAGAALAQ+0.984HPELNQ 0.4751      Prosit      -16.9706    1794.8537   ✓       
+662   GYGPTAGAAAAEHPELNK       -1.0000     NotChecked  -10.9323    1752.8431   ✗       
+663   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -10.9490    1780.8744   ✗       
+664   GYGPTAGAAAAEHPELNK       -1.0000     NotChecked  -11.6144    1752.8431   ✗       
+665   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -11.6312    1780.8744   ✗       
+666   GYGPTAGAAVAEHPELNK       -1.0000     NotChecked  -12.1436    1780.8744   ✗       
+667   GYGPTAGAALAQHPELNK       -1.0000     NotChecked  -12.6012    1793.9060   ✗       
+668   GYGPAGAALAEHPELNK        -1.0000     NotChecked  -12.7248    1693.8424   ✗       
+669   +42.011YGPTAGAALAEHPELNK -1.0000     NotChecked  -12.7738    1779.8792   ✗       
+670   GYGPTAGAAVAEHPELNK       -1.0000     NotChecked  -12.8258    1780.8744   ✗       
+671   YGPTAGAALAEHPELNK        -1.0000     NotChecked  -12.8961    1737.8686   ✗       
+672   GYGPTAGAAAAQ+0.984HPELNK -1.0000     NotChecked  -12.9019    1752.8431   ✗       
+673   +43.006YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -12.9187    1780.8744   ✗       
+674   GYGPTAGAAAAEHPELNK       -1.0000     NotChecked  -13.1839    1752.8431   ✗       
+675   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -13.2007    1780.8744   ✗       
+676   GYGPTAGAALAQHPELNK       -1.0000     NotChecked  -13.2833    1793.9060   ✗       
+677   GYGPAGAALAEHPELNK        -1.0000     NotChecked  -13.4069    1693.8424   ✗       
+678   GYGPTAGAAAAEHPELNK       -1.0000     NotChecked  -13.4223    1752.8431   ✗       
+679   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -13.4390    1780.8744   ✗       
+680   +42.011YGPTAGAALAEHPELNK -1.0000     NotChecked  -13.4559    1779.8792   ✗       
+681   GYGPTAGAALAEHPELGK       -1.0000     NotChecked  -13.5675    1737.8686   ✗       
+682   YGPTAGAALAEHPELNK        -1.0000     NotChecked  -13.5782    1737.8686   ✗       
+683   GYGPTAGAAAAQ+0.984HPELNK -1.0000     NotChecked  -13.5841    1752.8431   ✗       
+684   +43.006YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -13.6008    1780.8744   ✗       
+685   GYGTAGAALAEHPELNK        -1.0000     NotChecked  -13.8351    1697.8373   ✗       
+686   GYGPTAGAAAAEHPELNK       -1.0000     NotChecked  -13.8661    1752.8431   ✗       
+687   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -13.8828    1780.8744   ✗       
+688   GYGPTAGAAAAEHPELNK       -1.0000     NotChecked  -14.1044    1752.8431   ✗       
+689   GYGPTAGAAVAQ+0.984HPELNK -1.0000     NotChecked  -14.1133    1780.8744   ✗       
+690   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -14.1212    1780.8744   ✗       
+691   GYGPTAGAALGEHPELNK       -1.0000     NotChecked  -14.1874    1780.8744   ✗       
+692   GYGPTGAALAEHPELNK        -1.0000     NotChecked  -14.1946    1723.8529   ✗       
+693   GYGPTAGAALAEHPELGK       -1.0000     NotChecked  -14.2497    1737.8686   ✗       
+694   GYGPTAGAAVAEHPELNK       -1.0000     NotChecked  -14.3953    1780.8744   ✗       
+695   GGGPTAGAALAEHPELNK       -1.0000     NotChecked  -14.4663    1688.8482   ✗       
+696   GYGTAGAALAEHPELNK        -1.0000     NotChecked  -14.5173    1697.8373   ✗       
+697   GYGPTAGAALAEHPELNG       -1.0000     NotChecked  -14.5374    1723.8166   ✗       
+698   GYGPTAGAAVAEHPELNK       -1.0000     NotChecked  -14.6336    1780.8744   ✗       
+699   GYGPAGAALAQ+0.984HPELNK  -1.0000     NotChecked  -14.6945    1693.8424   ✗       
+700   +42.011YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -14.7435    1779.8792   ✗       
+701   GYGPTAGAAVAQ+0.984HPELNK -1.0000     NotChecked  -14.7954    1780.8744   ✗       
+702   GYGPTAGAALEHPELNK        -1.0000     NotChecked  -14.8150    1723.8529   ✗       
+703   GYGPTAGAALAQHPELNK       -1.0000     NotChecked  -14.8528    1793.9060   ✗       
+704   YGPTAGAALAQ+0.984HPELNK  -1.0000     NotChecked  -14.8657    1737.8686   ✗       
+705   GYGPTAGAALGEHPELNK       -1.0000     NotChecked  -14.8696    1780.8744   ✗       
+706   GYGPTGAALAEHPELNK        -1.0000     NotChecked  -14.8768    1723.8529   ✗       
+707   GYGPAGAALAEHPELNK        -1.0000     NotChecked  -14.9765    1693.8424   ✗       
+708   +42.011YGPTAGAALAEHPELNK -1.0000     NotChecked  -15.0255    1779.8792   ✗       
+709   GYGPTAGAAVAEHPELNK       -1.0000     NotChecked  -15.0774    1780.8744   ✗       
+710   GYGPTAGAALAQHPELNK       -1.0000     NotChecked  -15.0912    1793.9060   ✗       
+711   GYGPTAGAALAEHPEGNK       -1.0000     NotChecked  -15.1155    1738.8275   ✗       
+712   GYGPTAGAALAEHPELK        -1.0000     NotChecked  -15.1293    1680.8471   ✗       
+713   YGPTAGAALAEHPELNK        -1.0000     NotChecked  -15.1477    1737.8686   ✗       
+714   GGGPTAGAALAEHPELNK       -1.0000     NotChecked  -15.1485    1688.8482   ✗       
+715   GYGPTAGAAAAQ+0.984HPELNK -1.0000     NotChecked  -15.1536    1752.8431   ✗       
+716   GYGPTAGAALAEHPELVK       -1.0000     NotChecked  -15.1538    1779.9155   ✗       
+717   +43.006YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -15.1704    1780.8744   ✗       
+718   GYGPTAGAALAEHPELNG       -1.0000     NotChecked  -15.2195    1723.8166   ✗       
+719   +42.011YGPTAGAALAEHPELNK -1.0000     NotChecked  -15.2638    1779.8792   ✗       
+720   GFGPTAGAALAEHPELNK       -1.0000     NotChecked  -15.2911    1778.8951   ✗       
+721   GYGPTAGAAVAEHPELNK       -1.0000     NotChecked  -15.3158    1780.8744   ✗       
+722   GYGPTAGAALAEHPELLK       -1.0000     NotChecked  -15.3760    1793.9312   ✗       
+723   GYGPAGAALAQ+0.984HPELNK  -1.0000     NotChecked  -15.3766    1693.8424   ✗       
+724   YGPTAGAALAEHPELNK        -1.0000     NotChecked  -15.3861    1737.8686   ✗       
+725   GYGPTAGAAAAQ+0.984HPELNK -1.0000     NotChecked  -15.3919    1752.8431   ✗       
+726   +43.006YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -15.4087    1780.8744   ✗       
+727   +42.011YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -15.4256    1779.8792   ✗       
+728   GYGPTAGAALAEHPQLNK       -1.0000     NotChecked  -15.4297    1793.9060   ✗       
+729   GYGPTAGAALAEHPEVNK       -1.0000     NotChecked  -15.4935    1780.8744   ✗       
+730   GYGPTAGAALEHPELNK        -1.0000     NotChecked  -15.4971    1723.8529   ✗       
+731   GYGPTAGAAAAEHPELNK       -1.0000     NotChecked  -15.5334    1752.8431   ✗       
+732   GYGPTAGAALAQHPELNK       -1.0000     NotChecked  -15.5350    1793.9060   ✗       
+733   GYGPTAGAALAQ+0.984HPELGK -1.0000     NotChecked  -15.5372    1737.8686   ✗       
+734   YGPTAGAALAQ+0.984HPELNK  -1.0000     NotChecked  -15.5479    1737.8686   ✗       
+735   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -15.5502    1780.8744   ✗       
+736   GEGPTAGAALAEHPELNK       -1.0000     NotChecked  -15.6220    1760.8693   ✗       
+737   GYGPTAGAAAAEHPELNK       -1.0000     NotChecked  -15.6535    1752.8431   ✗       
+738   GYGPAGAALAEHPELNK        -1.0000     NotChecked  -15.6586    1693.8424   ✗       
+739   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -15.6703    1780.8744   ✗       
+740   GYGPTAGAAAAEHPELNK       -1.0000     NotChecked  -15.6739    1752.8431   ✗       
+741   GAGPTAGAALAEHPELNK       -1.0000     NotChecked  -15.6755    1702.8638   ✗       
+742   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -15.6907    1780.8744   ✗       
+743   GYGPTAGAAGAEHPELNK       -1.0000     NotChecked  -15.7025    1738.8275   ✗       
+744   GYGPTAGAALASHPELNK       -1.0000     NotChecked  -15.7058    1752.8795   ✗       
+745   +42.011YGPTAGAALAEHPELNK -1.0000     NotChecked  -15.7076    1779.8792   ✗       
+746   GYGPTAGAALAEHPELN        -1.0000     NotChecked  -15.7107    1666.7951   ✗       
+747   GYGPTAGAALADHPELNK       -1.0000     NotChecked  -15.7413    1780.8744   ✗       
+748   GYGPTAGAALAQHPELNK       -1.0000     NotChecked  -15.7733    1793.9060   ✗       
+749   GYGPTAGAALAEHGELNK       -1.0000     NotChecked  -15.7743    1754.8588   ✗       
+750   GYGTAGAALAQ+0.984HPELNK  -1.0000     NotChecked  -15.8048    1697.8373   ✗       
+751   GYGPTAGAALAEHPELK        -1.0000     NotChecked  -15.8114    1680.8471   ✗       
+752   GYGPTAGAALAEHPELGK       -1.0000     NotChecked  -15.8192    1737.8686   ✗       
+753   GKGPTAGAALAEHPELNK       -1.0000     NotChecked  -15.8218    1759.9217   ✗       
+754   YGPTAGAALAEHPELNK        -1.0000     NotChecked  -15.8299    1737.8686   ✗       
+755   GYGPTAGAAAAQ+0.984HPELNK -1.0000     NotChecked  -15.8358    1752.8431   ✗       
+756   GYGPTAGAALAEHPELVK       -1.0000     NotChecked  -15.8359    1779.9155   ✗       
+757   +43.006YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -15.8525    1780.8744   ✗       
+758   GYGPTAGALAEHPELNK        -1.0000     NotChecked  -15.9087    1723.8529   ✗       
+759   GYGPTAGAALAEHPENK        -1.0000     NotChecked  -15.9166    1681.8060   ✗       
+760   GQGPTAGAALAEHPELNK       -1.0000     NotChecked  -15.9310    1759.8853   ✗       
+761   GYGPTAGAALALHPELNK       -1.0000     NotChecked  -15.9431    1778.9315   ✗       
+762   +42.011YGPTAGAALAEHPELNK -1.0000     NotChecked  -15.9460    1779.8792   ✗       
+763   GFGPTAGAALAEHPELNK       -1.0000     NotChecked  -15.9733    1778.8951   ✗       
+764   GYGPTAGAALAEHPELGK       -1.0000     NotChecked  -16.0575    1737.8686   ✗       
+765   GYGPTAGAALAEHPELLK       -1.0000     NotChecked  -16.0581    1793.9312   ✗       
+766   YGPTAGAALAEHPELNK        -1.0000     NotChecked  -16.0682    1737.8686   ✗       
+767   GYGPTAGAAAAQ+0.984HPELNK -1.0000     NotChecked  -16.0741    1752.8431   ✗       
+768   +43.006YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -16.0908    1780.8744   ✗       
+769   GYGPTAGAALAEHPELN        -1.0000     NotChecked  -16.1087    1666.7951   ✗       
+770   GYGPTAGAALAEHPQLNK       -1.0000     NotChecked  -16.1119    1793.9060   ✗       
+771   GYGPTAGAALAEHAELNK       -1.0000     NotChecked  -16.1447    1768.8744   ✗       
+772   GYGPTAGAALGQ+0.984HPELNK -1.0000     NotChecked  -16.1571    1780.8744   ✗       
+773   GYGPTAGAALATHPELNK       -1.0000     NotChecked  -16.1575    1766.8951   ✗       
+774   GYGPTGAALAQ+0.984HPELNK  -1.0000     NotChecked  -16.1643    1723.8529   ✗       
+775   GLGPTAGAALAEHPELNK       -1.0000     NotChecked  -16.1645    1744.9108   ✗       
+776   GYGPTAGAALAN+0.984HPELNK -1.0000     NotChecked  -16.1720    1780.8744   ✗       
+777   GYGPTAGAAAAEHPELNK       -1.0000     NotChecked  -16.2156    1752.8431   ✗       
+778   GYGPTAGAALAQ+0.984HPELGK -1.0000     NotChecked  -16.2194    1737.8686   ✗       
+779   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -16.2323    1780.8744   ✗       
+780   GYGPAAGAALAEHPELNK       -1.0000     NotChecked  -16.2336    1764.8795   ✗       
+781   GYGPTAGAALAEHPELK        -1.0000     NotChecked  -16.2869    1680.8471   ✗       
+782   GEGPTAGAALAEHPELNK       -1.0000     NotChecked  -16.3042    1760.8693   ✗       
+783   GYGTAGAALAEHPELNK        -1.0000     NotChecked  -16.3251    1697.8373   ✗       
+784   GYGPTAGAAAAEHPELNK       -1.0000     NotChecked  -16.3357    1752.8431   ✗       
+785   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -16.3524    1780.8744   ✗       
+786   GYGPTAGAAAAEHPELNK       -1.0000     NotChecked  -16.3561    1752.8431   ✗       
+787   GAGPTAGAALAEHPELNK       -1.0000     NotChecked  -16.3576    1702.8638   ✗       
+788   GYGPTAGAAVAQ+0.984HPELNK -1.0000     NotChecked  -16.3649    1780.8744   ✗       
+789   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -16.3728    1780.8744   ✗       
+790   GYGPTAGAAGAEHPELNK       -1.0000     NotChecked  -16.3846    1738.8275   ✗       
+791   GYGPTAGAALASHPELNK       -1.0000     NotChecked  -16.3880    1752.8795   ✗       
+792   GYGPTAGAALAEHPELN        -1.0000     NotChecked  -16.3928    1666.7951   ✗       
+793   GYGPTAGAALAAHPELNK       -1.0000     NotChecked  -16.3984    1736.8846   ✗       
+794   GYGPTAGAALADHPELNK       -1.0000     NotChecked  -16.4234    1780.8744   ✗       
+795   GGGPTAGAALAQ+0.984HPELNK -1.0000     NotChecked  -16.4360    1688.8482   ✗       
+796   GYGPTAGAALGEHPELNK       -1.0000     NotChecked  -16.4391    1780.8744   ✗       
+797   GYGPTGAALAEHPELNK        -1.0000     NotChecked  -16.4463    1723.8529   ✗       
+798   GYGPTAGAALAEHGELNK       -1.0000     NotChecked  -16.4565    1754.8588   ✗       
+799   GYGPTAGAALAEHPELNL       -1.0000     NotChecked  -16.4779    1779.8792   ✗       
+800   GYGTAGAALAQ+0.984HPELNK  -1.0000     NotChecked  -16.4870    1697.8373   ✗       
+801   GYGPTAGAALAEHPELGK       -1.0000     NotChecked  -16.5014    1737.8686   ✗       
+802   GKGPTAGAALAEHPELNK       -1.0000     NotChecked  -16.5039    1759.9217   ✗       
+803   GYGPTAGAALAQ+0.984HPELNG -1.0000     NotChecked  -16.5070    1723.8166   ✗       
+804   GYGPTAGAALAEHPKLNK       -1.0000     NotChecked  -16.5115    1793.9424   ✗       
+805   GYGPTAGAASAEHPELNK       -1.0000     NotChecked  -16.5134    1768.8380   ✗       
+806   GYGPTAGAALAVHPELNK       -1.0000     NotChecked  -16.5659    1764.9159   ✗       
+807   GYGPTAGAALAEHPETNK       -1.0000     NotChecked  -16.5879    1782.8537   ✗       
+808   GYGPTAGALAEHPELNK        -1.0000     NotChecked  -16.5909    1723.8529   ✗       
+809   GYGPTAGAAVAQ+0.984HPELNK -1.0000     NotChecked  -16.6033    1780.8744   ✗       
+810   GQGPTAGAALAEHPELNK       -1.0000     NotChecked  -16.6131    1759.8853   ✗       
+811   GYGPTAGAALALHPELNK       -1.0000     NotChecked  -16.6252    1778.9315   ✗       
+812   GYGPTAGALAEHPELNK        -1.0000     NotChecked  -16.6300    1723.8529   ✗       
+813   GYGPTAGAALGEHPELNK       -1.0000     NotChecked  -16.6775    1780.8744   ✗       
+814   GYGPTGAALAEHPELNK        -1.0000     NotChecked  -16.6846    1723.8529   ✗       
+815   GGGPTAGAALAEHPELNK       -1.0000     NotChecked  -16.7180    1688.8482   ✗       
+816   GYGPTAGAALAEHPELGK       -1.0000     NotChecked  -16.7397    1737.8686   ✗       
+817   GYGPTAGAAVAEHPELNK       -1.0000     NotChecked  -16.7448    1780.8744   ✗       
+818   GYGPTAGAALAEPPELNK       -1.0000     NotChecked  -16.7636    1754.8839   ✗       
+819   GYGPTAGAALQ+0.984HPELNK  -1.0000     NotChecked  -16.7847    1723.8529   ✗       
+820   GYGPTAGAALAEHPELNG       -1.0000     NotChecked  -16.7891    1723.8166   ✗       
+821   GYGPTAGAALAEHPELN        -1.0000     NotChecked  -16.7908    1666.7951   ✗       
+822   GYGPTAGAALAEHAELNK       -1.0000     NotChecked  -16.8268    1768.8744   ✗       
+823   GYGPTAGAALGQ+0.984HPELNK -1.0000     NotChecked  -16.8393    1780.8744   ✗       
+824   GYGPTAGAALATHPELNK       -1.0000     NotChecked  -16.8396    1766.8951   ✗       
+825   GYGPTGAALAQ+0.984HPELNK  -1.0000     NotChecked  -16.8465    1723.8529   ✗       
+826   GLGPTAGAALAEHPELNK       -1.0000     NotChecked  -16.8466    1744.9108   ✗       
+827   GYGPTAGAALAN+0.984HPELNK -1.0000     NotChecked  -16.8542    1780.8744   ✗       
+828   GYGPTAGAAVAEHPELNK       -1.0000     NotChecked  -16.8649    1780.8744   ✗       
+829   GYGPTAGAAAAEHPQ+0.984LNK -1.0000     NotChecked  -16.8790    1752.8431   ✗       
+830   GYGPTAGAAVAEHPELNK       -1.0000     NotChecked  -16.8853    1780.8744   ✗       
+831   GYGPTAGAALAEQPELNK       -1.0000     NotChecked  -16.8910    1785.8897   ✗       
+832   +43.006YGPTAGAALAEHPQ+0.984LNK-1.0000     NotChecked  -16.8957    1780.8744   ✗       
+833   GYGPAAGAALAEHPELNK       -1.0000     NotChecked  -16.9158    1764.8795   ✗       
+834   GYGPTAGAGLAEHPELNK       -1.0000     NotChecked  -16.9335    1780.8744   ✗       
+835   GYGPAGAALAQ+0.984HPELNK  -1.0000     NotChecked  -16.9461    1693.8424   ✗       
+836   GGGPTAGAALAEHPELNK       -1.0000     NotChecked  -16.9563    1688.8482   ✗       
+837   GYGPTAGAALAEHPELK        -1.0000     NotChecked  -16.9691    1680.8471   ✗       
+838   GYGPTAGAAAAEHPELNK       -1.0000     NotChecked  -16.9863    1752.8431   ✗       
+839   GQ+0.984GPTAGAALAEHPELNK -1.0000     NotChecked  -16.9875    1760.8693   ✗       
+840   GYGPTGAALAEHPELNK        -1.0000     NotChecked  -16.9937    1723.8529   ✗       
+841   +42.011YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -16.9951    1779.8792   ✗       
+842   GYGPSAGAALAEHPELNK       -1.0000     NotChecked  -17.0024    1780.8744   ✗       
+843   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -17.0031    1780.8744   ✗       
+844   GYGPTAGAALAEHPLLNK       -1.0000     NotChecked  -17.0053    1778.9315   ✗       
+845   GYGTAGAALAEHPELNK        -1.0000     NotChecked  -17.0073    1697.8373   ✗       
+846   GHGPTAGAALAEHPELNK       -1.0000     NotChecked  -17.0111    1768.8856   ✗       
+847   GYGPTAGAALAEKPELNK       -1.0000     NotChecked  -17.0227    1785.9261   ✗       
+848   GYGPTAGAALAEHPELNG       -1.0000     NotChecked  -17.0274    1723.8166   ✗       
+849   GYGPTAGAALAEHSELNK       -1.0000     NotChecked  -17.0413    1784.8693   ✗       
+850   GYGPTAGAAVAQ+0.984HPELNK -1.0000     NotChecked  -17.0471    1780.8744   ✗       
+851   GYGPTAGAALEHPELNK        -1.0000     NotChecked  -17.0667    1723.8529   ✗       
+852   GYGPTAGAALAAHPELNK       -1.0000     NotChecked  -17.0805    1736.8846   ✗       
+853   GYGPTAGAALAQ+0.984HPEGNK -1.0000     NotChecked  -17.0852    1738.8275   ✗       
+854   GYGPTAGAALAQ+0.984HPELK  -1.0000     NotChecked  -17.0989    1680.8471   ✗       
+855   YGPTAGAALAQ+0.984HPELNK  -1.0000     NotChecked  -17.1174    1737.8686   ✗       
+856   GGGPTAGAALAQ+0.984HPELNK -1.0000     NotChecked  -17.1181    1688.8482   ✗       
+857   GYGPTAGAALGEHPELNK       -1.0000     NotChecked  -17.1213    1780.8744   ✗       
+858   GYGPTAGAALAQ+0.984HPELVK -1.0000     NotChecked  -17.1235    1779.9155   ✗       
+859   GYGPTGAALAEHPELNK        -1.0000     NotChecked  -17.1285    1723.8529   ✗       
+860   GYGPTAGAALAEEPELNK       -1.0000     NotChecked  -17.1423    1786.8737   ✗       
+861   GYGPTAGAALAEHPELNL       -1.0000     NotChecked  -17.1600    1779.8792   ✗       
+862   GYGPTAGAALAQ+0.984HPELNG -1.0000     NotChecked  -17.1892    1723.8166   ✗       
+863   GYGPTAGAALAEHPKLNK       -1.0000     NotChecked  -17.1937    1793.9424   ✗       
+864   GYGPTAGAASAEHPELNK       -1.0000     NotChecked  -17.1955    1768.8380   ✗       
+865   GYGPTAGAALAQHPELNK       -1.0000     NotChecked  -17.2023    1793.9060   ✗       
+866   GYGPTAGAALAEHPDLNK       -1.0000     NotChecked  -17.2034    1780.8744   ✗       
+867   +42.011YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -17.2335    1779.8792   ✗       
+868   GYGPTAGAALAVHPELNK       -1.0000     NotChecked  -17.2481    1764.9159   ✗       
+869   GFGPTAGAALAQ+0.984HPELNK -1.0000     NotChecked  -17.2608    1778.8951   ✗       
+870   GYGPTAGAAVAQ+0.984HPELNK -1.0000     NotChecked  -17.2854    1780.8744   ✗       
+871   GYGPTAGAALEHPELNK        -1.0000     NotChecked  -17.3050    1723.8529   ✗       
+872   GYGPTAGALAEHPELNK        -1.0000     NotChecked  -17.3122    1723.8529   ✗       
+873   GYGPTAGAALAQHPELNK       -1.0000     NotChecked  -17.3224    1793.9060   ✗       
+874   GYGPTAGAALAEHPELNA       -1.0000     NotChecked  -17.3251    1737.8322   ✗       
+875   GYGPAGAALAEHPELNK        -1.0000     NotChecked  -17.3260    1693.8424   ✗       
+876   GYGPTAGAALAQHPELNK       -1.0000     NotChecked  -17.3429    1793.9060   ✗       
+877   GYGPTAGAALAQ+0.984HPELLK -1.0000     NotChecked  -17.3456    1793.9312   ✗       
+878   YGPTAGAALAQ+0.984HPELNK  -1.0000     NotChecked  -17.3557    1737.8686   ✗       
+879   GYGPTAGAALGEHPELNK       -1.0000     NotChecked  -17.3596    1780.8744   ✗       
+880   GYGPTGAALAEHPELNK        -1.0000     NotChecked  -17.3668    1723.8529   ✗       
+881   GYGPTAGAALAEHPEGNK       -1.0000     NotChecked  -17.3672    1738.8275   ✗       
+882   +42.011YGPTAGAALAEHPELNK -1.0000     NotChecked  -17.3750    1779.8792   ✗       
+883   GYGPTAGAALAEHPELK        -1.0000     NotChecked  -17.3809    1680.8471   ✗       
+884   GYGPTAGAAAAEHPELNK       -1.0000     NotChecked  -17.3858    1752.8431   ✗       
+885   GYGPTAGAALAENPELNK       -1.0000     NotChecked  -17.3942    1771.8741   ✗       
+886   GYGPTAGAALAQ+0.984HPQLNK -1.0000     NotChecked  -17.3994    1793.9060   ✗       
+887   GGGPTAGAALAEHPELNK       -1.0000     NotChecked  -17.4001    1688.8482   ✗       
+888   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -17.4025    1780.8744   ✗       
+889   GYGPTAGAALAEHPELVK       -1.0000     NotChecked  -17.4055    1779.9155   ✗       
+890   GYGPTAGAAVAEHPELNK       -1.0000     NotChecked  -17.4269    1780.8744   ✗       
+891   GYGPTAGAALAEPPELNK       -1.0000     NotChecked  -17.4457    1754.8839   ✗       
+892   GYGPAGAALAEHPELNK        -1.0000     NotChecked  -17.4460    1693.8424   ✗       
+893   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -17.4541    1780.8744   ✗       
+894   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -17.4872    1780.8744   ✗       
+895   +42.011YGPTAGAALAEHPELNK -1.0000     NotChecked  -17.4951    1779.8792   ✗       
+896   YGPTAGAALAEHPELNK        -1.0000     NotChecked  -17.4972    1737.8686   ✗       
+897   +42.011YGPTAGAALAEHPELNK -1.0000     NotChecked  -17.5155    1779.8792   ✗       
+898   +43.006YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -17.5199    1780.8744   ✗       
+899   +43.006YGPTAGAALAEHPQ+0.984LNK-1.0000     NotChecked  -17.5779    1780.8744   ✗       
+900   YGPTAGAALAEHPELNK        -1.0000     NotChecked  -17.6173    1737.8686   ✗       
+901   YGPTAGAALAEHPELNK        -1.0000     NotChecked  -17.6377    1737.8686   ✗       
+902   +43.006YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -17.6399    1780.8744   ✗       
+903   +43.006YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -17.6604    1780.8744   ✗       
+904   +42.011YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -17.6773    1779.8792   ✗       
+905   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -17.6852    1780.8744   ✗       
+906   YGPTAGAALAQ+0.984HPELNK  -1.0000     NotChecked  -17.7996    1737.8686   ✗       
+907   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -17.8019    1780.8744   ✗       
+908   +42.011YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -17.9156    1779.8792   ✗       
+909   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -17.9219    1780.8744   ✗       
+910   YGPTAGAALAQ+0.984HPELNK  -1.0000     NotChecked  -18.0379    1737.8686   ✗       
+911   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -18.0402    1780.8744   ✗       
+912   +42.011YGPTAGAALAEHPELNK -1.0000     NotChecked  -18.0571    1779.8792   ✗       
+913   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -18.0847    1780.8744   ✗       
+914   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -18.1362    1780.8744   ✗       
+915   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -18.1694    1780.8744   ✗       
+916   +42.011YGPTAGAALAEHPELNK -1.0000     NotChecked  -18.1772    1779.8792   ✗       
+917   YGPTAGAALAEHPELNK        -1.0000     NotChecked  -18.1794    1737.8686   ✗       
+918   +42.011YGPTAGAALAEHPELNK -1.0000     NotChecked  -18.1976    1779.8792   ✗       
+919   +43.006YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -18.2020    1780.8744   ✗       
+920   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -18.2676    1780.8744   ✗       
+921   YGPTAGAALAEHPELNK        -1.0000     NotChecked  -18.2995    1737.8686   ✗       
+922   YGPTAGAALAEHPELNK        -1.0000     NotChecked  -18.3199    1737.8686   ✗       
+923   +43.006YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -18.3221    1780.8744   ✗       
+924   +43.006YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -18.3425    1780.8744   ✗       
+925   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -18.4840    1780.8744   ✗       
+926   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -18.6041    1780.8744   ✗       
+927   +42.011YGPTAGAALAEHPQ+0.984LNK-1.0000     NotChecked  -18.7205    1779.8792   ✗       
+928   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -18.7223    1780.8744   ✗       
+929   +42.011YGPTAGAALAEHPELNK -1.0000     NotChecked  -18.8279    1779.8792   ✗       
+930   YGPTAGAALAEHPQ+0.984LNK  -1.0000     NotChecked  -18.8427    1737.8686   ✗       
+931   +43.006YGPTAGAALAQ+0.984HPQ+0.984LNK-1.0000     NotChecked  -18.8654    1780.8744   ✗       
+932   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -18.9497    1780.8744   ✗       
+933   YGPTAGAALAEHPELNK        -1.0000     NotChecked  -18.9501    1737.8686   ✗       
+934   +43.006YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -18.9727    1780.8744   ✗       
+935   +43.006YGPTAGAALAEHPQ+0.984LNK-1.0000     NotChecked  -19.1474    1780.8744   ✗       
+936   +42.011YGPTAGAALAEHPELNK -1.0000     NotChecked  -19.2273    1779.8792   ✗       
+937   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -19.2548    1780.8744   ✗       
+938   +42.011YGPTAGAALAEHPELNK -1.0000     NotChecked  -19.2789    1779.8792   ✗       
+939   +42.011YGPTAGAALAEHPELNK -1.0000     NotChecked  -19.3120    1779.8792   ✗       
+940   +42.011YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -19.3446    1779.8792   ✗       
+941   YGPTAGAALAEHPELNK        -1.0000     NotChecked  -19.3496    1737.8686   ✗       
+942   +43.006YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -19.3722    1780.8744   ✗       
+943   +43.006YGPTAGAALAEHPQ+0.984LNK-1.0000     NotChecked  -19.3857    1780.8744   ✗       
+944   YGPTAGAALAEHPELNK        -1.0000     NotChecked  -19.4011    1737.8686   ✗       
+945   +42.011YGPTAGAALAEHPQ+0.984LNK-1.0000     NotChecked  -19.4026    1779.8792   ✗       
+946   +43.006YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -19.4238    1780.8744   ✗       
+947   YGPTAGAALAEHPELNK        -1.0000     NotChecked  -19.4343    1737.8686   ✗       
+948   +43.006YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -19.4569    1780.8744   ✗       
+949   +42.011YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -19.4647    1779.8792   ✗       
+950   YGPTAGAALAQ+0.984HPELNK  -1.0000     NotChecked  -19.4669    1737.8686   ✗       
+951   +42.011YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -19.4851    1779.8792   ✗       
+952   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -19.4931    1780.8744   ✗       
+953   +42.011YGPTAGAALAEHPELNK -1.0000     NotChecked  -19.5100    1779.8792   ✗       
+954   YGPTAGAALAEHPQ+0.984LNK  -1.0000     NotChecked  -19.5249    1737.8686   ✗       
+955   +43.006YGPTAGAALAQ+0.984HPQ+0.984LNK-1.0000     NotChecked  -19.5475    1780.8744   ✗       
+956   YGPTAGAALAQ+0.984HPELNK  -1.0000     NotChecked  -19.5870    1737.8686   ✗       
+957   YGPTAGAALAQ+0.984HPELNK  -1.0000     NotChecked  -19.6074    1737.8686   ✗       
+958   +42.011YGPTAGAALAEHPELNK -1.0000     NotChecked  -19.6266    1779.8792   ✗       
+959   YGPTAGAALAEHPELNK        -1.0000     NotChecked  -19.6323    1737.8686   ✗       
+960   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -19.6391    1780.8744   ✗       
+961   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -19.6542    1780.8744   ✗       
+962   +43.006YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -19.6549    1780.8744   ✗       
+963   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -19.7058    1780.8744   ✗       
+964   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -19.7389    1780.8744   ✗       
+965   +42.011YGPTAGAALAEHPELNK -1.0000     NotChecked  -19.7467    1779.8792   ✗       
+966   YGPTAGAALAEHPELNK        -1.0000     NotChecked  -19.7489    1737.8686   ✗       
+967   +43.006YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -19.7715    1780.8744   ✗       
+968   +43.006YGPTAGAALAEHPQ+0.984LNK-1.0000     NotChecked  -19.8295    1780.8744   ✗       
+969   +42.011YGPTAGAALAEHPELNK -1.0000     NotChecked  -19.8650    1779.8792   ✗       
+970   YGPTAGAALAEHPELNK        -1.0000     NotChecked  -19.8690    1737.8686   ✗       
+971   +43.006YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -19.8916    1780.8744   ✗       
+972   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -19.8925    1780.8744   ✗       
+973   +42.011YGPTAGAALAEHPELNK -1.0000     NotChecked  -19.9095    1779.8792   ✗       
+974   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -19.9369    1780.8744   ✗       
+975   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -19.9441    1780.8744   ✗       
+976   +42.011YGPTAGAALAEHPELNK -1.0000     NotChecked  -19.9610    1779.8792   ✗       
+977   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -19.9772    1780.8744   ✗       
+978   YGPTAGAALAEHPELNK        -1.0000     NotChecked  -19.9872    1737.8686   ✗       
+979   +42.011YGPTAGAALAEHPELNK -1.0000     NotChecked  -19.9942    1779.8792   ✗       
+980   +43.006YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -20.0099    1780.8744   ✗       
+981   +42.011YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -20.0268    1779.8792   ✗       
+982   YGPTAGAALAEHPELNK        -1.0000     NotChecked  -20.0317    1737.8686   ✗       
+983   +43.006YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -20.0544    1780.8744   ✗       
+984   +43.006YGPTAGAALAEHPQ+0.984LNK-1.0000     NotChecked  -20.0679    1780.8744   ✗       
+985   YGPTAGAALAEHPELNK        -1.0000     NotChecked  -20.0833    1737.8686   ✗       
+986   +42.011YGPTAGAALAEHPELNK -1.0000     NotChecked  -20.0924    1779.8792   ✗       
+987   +43.006YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -20.1059    1780.8744   ✗       
+988   YGPTAGAALAEHPELNK        -1.0000     NotChecked  -20.1164    1737.8686   ✗       
+989   +43.006YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -20.1391    1780.8744   ✗       
+990   +42.011YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -20.1469    1779.8792   ✗       
+991   YGPTAGAALAQ+0.984HPELNK  -1.0000     NotChecked  -20.1490    1737.8686   ✗       
+992   +42.011YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -20.1673    1779.8792   ✗       
+993   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -20.1752    1780.8744   ✗       
+994   YGPTAGAALAEHPELNK        -1.0000     NotChecked  -20.2146    1737.8686   ✗       
+995   +43.006YGPTAGAALAQ+0.984HPELNK-1.0000     NotChecked  -20.2373    1780.8744   ✗       
+996   YGPTAGAALAQ+0.984HPELNK  -1.0000     NotChecked  -20.2691    1737.8686   ✗       
+997   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -20.2714    1780.8744   ✗       
+998   YGPTAGAALAQ+0.984HPELNK  -1.0000     NotChecked  -20.2896    1737.8686   ✗       
+999   +43.006YGPTAGAALAEHPELNK -1.0000     NotChecked  -20.2919    1780.8744   ✗       
+1000  +42.011YGPTAGAALAEHPELNK -1.0000     NotChecked  -20.3088    1779.8792   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: GYGPTAGAALAEHPELNK
+Similarity: 0.8947
+De Novo Score: -0.7487
+Source: Database
+Correct: ✓
+

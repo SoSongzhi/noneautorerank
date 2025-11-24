@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 248
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 702.0548
+Precursor charge: 3+
+Ground truth: IIEAHQNVAQISIAEAQIR
+Ground truth (normalized): IIEAHQNVAQISIAEAQIR
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 291
+Used for reranking: 291
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 291 (29.1%)
+Database matches: 209 (20.9%)
+Prosit predictions: 79 (7.9%)
+Failed: 3 (0.3%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.8723
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     LLEAHQNVAQLSLAEAQLR      0.8723      Database    -0.8920     2103.1437   ✓       ✓
+2     LLEAHQNVAQLSLAEAQLR      0.8723      Database    -1.6048     2103.1437   ✓       ✓
+3     LLEAHQNVAQLSLAEAQLR      0.8723      Database    -2.2863     2103.1437   ✓       ✓
+4     LLEAHQNVAQLSLAEAQLR      0.8723      Database    -2.5114     2103.1437   ✓       ✓
+5     LLEAHQNVAQLSLAEAQLR      0.8723      Database    -2.9991     2103.1437   ✓       ✓
+6     LLEAHQNVAQLSLAEAQLR      0.8723      Database    -3.2242     2103.1437   ✓       ✓
+7     LLEAHQNVAQLSLAEAQLR      0.8723      Database    -3.9056     2103.1437   ✓       ✓
+8     LLEAHQNVAQLSLAEAQLR      0.8723      Database    -4.5019     2103.1437   ✓       ✓
+9     LLEAHQNVAQLSLAEAQLR      0.8723      Database    -4.6185     2103.1437   ✓       ✓
+10    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -5.2147     2103.1437   ✓       ✓
+11    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -5.6720     2103.1437   ✓       ✓
+12    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -5.8962     2103.1437   ✓       ✓
+13    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -6.1213     2103.1437   ✓       ✓
+14    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -6.3848     2103.1437   ✓       ✓
+15    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -6.4090     2103.1437   ✓       ✓
+16    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -6.6090     2103.1437   ✓       ✓
+17    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -6.8341     2103.1437   ✓       ✓
+18    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -7.0663     2103.1437   ✓       ✓
+19    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -7.1218     2103.1437   ✓       ✓
+20    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -7.2914     2103.1437   ✓       ✓
+21    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -7.5155     2103.1437   ✓       ✓
+22    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -7.7791     2103.1437   ✓       ✓
+23    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -7.8033     2103.1437   ✓       ✓
+24    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -8.0042     2103.1437   ✓       ✓
+25    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -8.0284     2103.1437   ✓       ✓
+26    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -8.2284     2103.1437   ✓       ✓
+27    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -8.3528     2103.1437   ✓       ✓
+28    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -8.5161     2103.1437   ✓       ✓
+29    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -8.6276     2103.1437   ✓       ✓
+30    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -8.6856     2103.1437   ✓       ✓
+31    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -8.7412     2103.1437   ✓       ✓
+32    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -9.0656     2103.1437   ✓       ✓
+33    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -9.1971     2103.1437   ✓       ✓
+34    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -9.2358     2103.1437   ✓       ✓
+35    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -9.2819     2103.1437   ✓       ✓
+36    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -9.3404     2103.1437   ✓       ✓
+37    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -9.3985     2103.1437   ✓       ✓
+38    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -9.4226     2103.1437   ✓       ✓
+39    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -9.5873     2103.1437   ✓       ✓
+40    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -9.7471     2103.1437   ✓       ✓
+41    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -9.9487     2103.1437   ✓       ✓
+42    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -9.9722     2103.1437   ✓       ✓
+43    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -9.9947     2103.1437   ✓       ✓
+44    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -10.0189    2103.1437   ✓       ✓
+45    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -10.0218    2103.1437   ✓       ✓
+46    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -10.1355    2103.1437   ✓       ✓
+47    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -10.2469    2103.1437   ✓       ✓
+48    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -10.3001    2103.1437   ✓       ✓
+49    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -10.4599    2103.1437   ✓       ✓
+50    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -10.5914    2103.1437   ✓       ✓
+51    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -10.6301    2103.1437   ✓       ✓
+52    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -10.6761    2103.1437   ✓       ✓
+53    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -10.6850    2103.1437   ✓       ✓
+54    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -10.7317    2103.1437   ✓       ✓
+55    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -10.7347    2103.1437   ✓       ✓
+56    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -10.7375    2103.1437   ✓       ✓
+57    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -10.8164    2103.1437   ✓       ✓
+58    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -10.8542    2103.1437   ✓       ✓
+59    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -10.8552    2103.1437   ✓       ✓
+60    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -10.9012    2103.1437   ✓       ✓
+61    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -10.9598    2103.1437   ✓       ✓
+62    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -10.9815    2103.1437   ✓       ✓
+63    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -11.1890    2103.1437   ✓       ✓
+64    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -11.2066    2103.1437   ✓       ✓
+65    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -11.3422    2103.1437   ✓       ✓
+66    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -11.3429    2103.1437   ✓       ✓
+67    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -11.3664    2103.1437   ✓       ✓
+68    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -11.3890    2103.1437   ✓       ✓
+69    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -11.4132    2103.1437   ✓       ✓
+70    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -11.4503    2103.1437   ✓       ✓
+71    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -11.5670    2103.1437   ✓       ✓
+72    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -11.5680    2103.1437   ✓       ✓
+73    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -11.6141    2103.1437   ✓       ✓
+74    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -11.6382    2103.1437   ✓       ✓
+75    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -11.6412    2103.1437   ✓       ✓
+76    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -11.6944    2103.1437   ✓       ✓
+77    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -11.9018    2103.1437   ✓       ✓
+78    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -11.9195    2103.1437   ✓       ✓
+79    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -11.9246    2103.1437   ✓       ✓
+80    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -11.9627    2103.1437   ✓       ✓
+81    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -12.0550    2103.1437   ✓       ✓
+82    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -12.0793    2103.1437   ✓       ✓
+83    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -12.1260    2103.1437   ✓       ✓
+84    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -12.1317    2103.1437   ✓       ✓
+85    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -12.2107    2103.1437   ✓       ✓
+86    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -12.2375    2103.1437   ✓       ✓
+87    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -12.2495    2103.1437   ✓       ✓
+88    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -12.2955    2103.1437   ✓       ✓
+89    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -12.3232    2103.1437   ✓       ✓
+90    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -12.3511    2103.1437   ✓       ✓
+91    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -12.3540    2103.1437   ✓       ✓
+92    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -12.3568    2103.1437   ✓       ✓
+93    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -12.4736    2103.1437   ✓       ✓
+94    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -12.5087    2103.1437   ✓       ✓
+95    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -12.5833    2103.1437   ✓       ✓
+96    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -12.6009    2103.1437   ✓       ✓
+97    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -12.6375    2103.1437   ✓       ✓
+98    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -12.6755    2103.1437   ✓       ✓
+99    LLEAHQNVAQLSLAEAQLR      0.8723      Database    -12.7562    2103.1437   ✓       ✓
+100   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -12.8070    2103.1437   ✓       ✓
+101   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -12.8084    2103.1437   ✓       ✓
+102   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -12.8446    2103.1437   ✓       ✓
+103   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -12.8457    2103.1437   ✓       ✓
+104   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -12.9503    2103.1437   ✓       ✓
+105   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -12.9616    2103.1437   ✓       ✓
+106   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -12.9623    2103.1437   ✓       ✓
+107   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -12.9986    2103.1437   ✓       ✓
+108   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -13.0083    2103.1437   ✓       ✓
+109   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -13.0325    2103.1437   ✓       ✓
+110   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -13.0360    2103.1437   ✓       ✓
+111   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -13.0630    2103.1437   ✓       ✓
+112   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -13.0697    2103.1437   ✓       ✓
+113   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -13.1328    2103.1437   ✓       ✓
+114   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -13.1864    2103.1437   ✓       ✓
+115   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -13.1972    2103.1437   ✓       ✓
+116   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -13.2215    2103.1437   ✓       ✓
+117   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -13.2961    2103.1437   ✓       ✓
+118   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -13.3137    2103.1437   ✓       ✓
+119   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -13.3399    2103.1437   ✓       ✓
+120   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -13.3569    2103.1437   ✓       ✓
+121   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -13.4076    2103.1437   ✓       ✓
+122   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -13.5212    2103.1437   ✓       ✓
+123   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -13.5440    2103.1437   ✓       ✓
+124   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -13.5585    2103.1437   ✓       ✓
+125   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -13.5820    2103.1437   ✓       ✓
+126   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -13.6317    2103.1437   ✓       ✓
+127   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -13.6744    2103.1437   ✓       ✓
+128   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -13.7114    2103.1437   ✓       ✓
+129   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -13.7174    2103.1437   ✓       ✓
+130   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -13.7453    2103.1437   ✓       ✓
+131   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -13.7511    2103.1437   ✓       ✓
+132   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -13.7758    2103.1437   ✓       ✓
+133   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -13.8456    2103.1437   ✓       ✓
+134   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -13.8568    2103.1437   ✓       ✓
+135   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -13.9029    2103.1437   ✓       ✓
+136   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -13.9100    2103.1437   ✓       ✓
+137   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -13.9425    2103.1437   ✓       ✓
+138   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -13.9771    2103.1437   ✓       ✓
+139   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.0158    2103.1437   ✓       ✓
+140   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.0528    2103.1437   ✓       ✓
+141   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.0698    2103.1437   ✓       ✓
+142   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.1204    2103.1437   ✓       ✓
+143   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.1280    2103.1437   ✓       ✓
+144   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.1446    2103.1437   ✓       ✓
+145   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.1505    2103.1437   ✓       ✓
+146   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.2012    2103.1437   ✓       ✓
+147   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.2026    2103.1437   ✓       ✓
+148   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.2094    2103.1437   ✓       ✓
+149   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.2400    2103.1437   ✓       ✓
+150   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.2462    2103.1437   ✓       ✓
+151   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.2568    2103.1437   ✓       ✓
+152   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.2949    2103.1437   ✓       ✓
+153   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.3446    2103.1437   ✓       ✓
+154   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.3473    2103.1437   ✓       ✓
+155   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.3519    2103.1437   ✓       ✓
+156   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.3673    2103.1437   ✓       ✓
+157   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.3756    2103.1437   ✓       ✓
+158   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.3929    2103.1437   ✓       ✓
+159   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.4263    2103.1437   ✓       ✓
+160   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.4303    2103.1437   ✓       ✓
+161   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.4573    2103.1437   ✓       ✓
+162   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.4639    2103.1437   ✓       ✓
+163   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.4641    2103.1437   ✓       ✓
+164   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.4651    2103.1437   ✓       ✓
+165   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.5270    2103.1437   ✓       ✓
+166   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.5696    2103.1437   ✓       ✓
+167   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.5914    2103.1437   ✓       ✓
+168   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.6158    2103.1437   ✓       ✓
+169   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.6180    2103.1437   ✓       ✓
+170   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.6554    2103.1437   ✓       ✓
+171   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.6726    2103.1437   ✓       ✓
+172   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.7141    2103.1437   ✓       ✓
+173   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.7286    2103.1437   ✓       ✓
+174   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.7342    2103.1437   ✓       ✓
+175   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.7521    2103.1437   ✓       ✓
+176   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.7528    2103.1437   ✓       ✓
+177   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.7989    2103.1437   ✓       ✓
+178   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.7996    2103.1437   ✓       ✓
+179   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.8018    2103.1437   ✓       ✓
+180   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.8165    2103.1437   ✓       ✓
+181   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.8409    2103.1437   ✓       ✓
+182   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.8574    2103.1437   ✓       ✓
+183   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.9155    2103.1437   ✓       ✓
+184   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.9222    2103.1437   ✓       ✓
+185   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.9521    2103.1437   ✓       ✓
+186   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.9528    2103.1437   ✓       ✓
+187   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.9591    2103.1437   ✓       ✓
+188   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.9593    2103.1437   ✓       ✓
+189   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -14.9763    2103.1437   ✓       ✓
+190   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -15.0269    2103.1437   ✓       ✓
+191   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -15.0602    2103.1437   ✓       ✓
+192   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -15.0647    2103.1437   ✓       ✓
+193   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -15.0801    2103.1437   ✓       ✓
+194   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -15.1043    2103.1437   ✓       ✓
+195   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -15.1057    2103.1437   ✓       ✓
+196   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -15.1701    2103.1437   ✓       ✓
+197   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -15.1769    2103.1437   ✓       ✓
+198   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -15.1779    2103.1437   ✓       ✓
+199   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -15.2132    2103.1437   ✓       ✓
+200   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -15.2399    2103.1437   ✓       ✓
+201   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -15.2511    2103.1437   ✓       ✓
+202   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -15.3043    2103.1437   ✓       ✓
+203   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -15.3308    2103.1437   ✓       ✓
+204   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -15.3331    2103.1437   ✓       ✓
+205   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -15.3368    2103.1437   ✓       ✓
+206   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -15.3377    2103.1437   ✓       ✓
+207   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -15.3713    2103.1437   ✓       ✓
+208   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -20.2440    2103.1437   ✓       ✓
+209   LLEAHQNVAQLSLAEAQLR      0.8723      Database    -20.9569    2103.1437   ✓       ✓
+210   ELLAHQNVAQLSLAEAQLR      0.5932      Prosit      -16.1068    2103.1437   ✓       
+211   ELLAHQNVAQLSLAEAQLR      0.5932      Prosit      -16.8197    2103.1437   ✓       
+212   ELLAHQNVAQLSLAEAQLR      0.5932      Prosit      -17.7262    2103.1437   ✓       
+213   ELLAHQNVAQLSLAEAQLR      0.5932      Prosit      -18.4390    2103.1437   ✓       
+214   ELLAHQNVAQLSLAEAQLR      0.5932      Prosit      -19.7167    2103.1437   ✓       
+215   ELLAHQNVAQLSLAEAQLR      0.5932      Prosit      -20.4295    2103.1437   ✓       
+216   ELLAHQNVAQLSLAEAQLR      0.5932      Prosit      -20.8868    2103.1437   ✓       
+217   ELLAHQNVAQLSLAEAQLR      0.5932      Prosit      -21.0560    2103.1437   ✓       
+218   ELLAHQNVAQLSLAEAQLR      0.5932      Prosit      -21.3361    2103.1437   ✓       
+219   ELLAHQNVAQLSLAEAQLR      0.5932      Prosit      -21.5996    2103.1437   ✓       
+220   LLEAHQNVAQLSLAQ+0.984AQLR0.5926      Prosit      -8.0335     2103.1437   ✓       
+221   LLEAHQNVAQLSLAQ+0.984AQLR0.5926      Prosit      -8.7464     2103.1437   ✓       
+222   LLEAHQNVAQLSLAQ+0.984AQLR0.5926      Prosit      -9.4278     2103.1437   ✓       
+223   LLEAHQNVAQLSLAQ+0.984AQLR0.5926      Prosit      -9.6529     2103.1437   ✓       
+224   LLEAHQNVAQLSLAQ+0.984AQLR0.5926      Prosit      -10.1406    2103.1437   ✓       
+225   LLEAHQNVAQLSLAQ+0.984AQLR0.5926      Prosit      -10.3657    2103.1437   ✓       
+226   LLEAHQNVAQLSLAQ+0.984AQLR0.5926      Prosit      -11.0472    2103.1437   ✓       
+227   LLEAHQNVAQLSLAQ+0.984AQLR0.5926      Prosit      -11.6434    2103.1437   ✓       
+228   LLEAHQNVAQLSLAQ+0.984AQLR0.5926      Prosit      -11.7600    2103.1437   ✓       
+229   LLEAHQNVAQLSLAQ+0.984AQLR0.5926      Prosit      -12.3562    2103.1437   ✓       
+230   LLEAHQNVAQLSLAQ+0.984AQLR0.5926      Prosit      -12.8135    2103.1437   ✓       
+231   LLEAHQNVAQLSLAQ+0.984AQLR0.5926      Prosit      -13.0377    2103.1437   ✓       
+232   LLEAHQNVAQLSLAQ+0.984AQLR0.5926      Prosit      -13.2628    2103.1437   ✓       
+233   LLEAHQNVAQLSLAQ+0.984AQLR0.5926      Prosit      -13.5263    2103.1437   ✓       
+234   LLEAHQNVAQLSLAQ+0.984AQLR0.5926      Prosit      -13.5505    2103.1437   ✓       
+235   LLEAHQNVAQLSLAQ+0.984AQLR0.5926      Prosit      -13.7505    2103.1437   ✓       
+236   LLEAHQNVAQLSLAQ+0.984AQLR0.5926      Prosit      -13.9756    2103.1437   ✓       
+237   LLEAHQNVAQLSLAQ+0.984AQLR0.5926      Prosit      -14.2078    2103.1437   ✓       
+238   LLEAHQNVAQLSLAQ+0.984AQLR0.5926      Prosit      -14.2633    2103.1437   ✓       
+239   LLEAHQNVAQLSLAQ+0.984AQLR0.5926      Prosit      -14.4329    2103.1437   ✓       
+240   LLEAHQNVAQLSLAQ+0.984AQLR0.5926      Prosit      -14.6570    2103.1437   ✓       
+241   LLEAHQNVAQLSLAQ+0.984AQLR0.5926      Prosit      -14.9206    2103.1437   ✓       
+242   LLEAHQNVAQLSLAQ+0.984AQLR0.5926      Prosit      -14.9448    2103.1437   ✓       
+243   LLEAHQNVAQLSLAQ+0.984AQLR0.5926      Prosit      -15.1457    2103.1437   ✓       
+244   LLEAHQNVAQLSLAQ+0.984AQLR0.5926      Prosit      -15.1699    2103.1437   ✓       
+245   LLEAHQNVAQLSLAQ+0.984AQLR0.5926      Prosit      -15.3699    2103.1437   ✓       
+246   Q+0.984LLAHQNVAQLSLAEAQLR0.5874      Prosit      -18.1863    2103.1437   ✓       
+247   Q+0.984LLAHQNVAQLSLAEAQLR0.5874      Prosit      -18.8992    2103.1437   ✓       
+248   Q+0.984LLAHQNVAQLSLAEAQLR0.5874      Prosit      -19.8057    2103.1437   ✓       
+249   Q+0.984LLAHQNVAQLSLAEAQLR0.5874      Prosit      -20.5185    2103.1437   ✓       
+250   LLQ+0.984AHQNVAQLSLAEAQLR0.5873      Prosit      -6.6996     2103.1437   ✓       
+251   LLQ+0.984AHQNVAQLSLAEAQLR0.5873      Prosit      -7.4124     2103.1437   ✓       
+252   LLQ+0.984AHQNVAQLSLAEAQLR0.5873      Prosit      -8.3189     2103.1437   ✓       
+253   LLQ+0.984AHQNVAQLSLAEAQLR0.5873      Prosit      -9.0318     2103.1437   ✓       
+254   LLQ+0.984AHQNVAQLSLAEAQLR0.5873      Prosit      -10.3094    2103.1437   ✓       
+255   LLQ+0.984AHQNVAQLSLAEAQLR0.5873      Prosit      -11.0223    2103.1437   ✓       
+256   LLQ+0.984AHQNVAQLSLAEAQLR0.5873      Prosit      -11.4795    2103.1437   ✓       
+257   LLQ+0.984AHQNVAQLSLAEAQLR0.5873      Prosit      -11.9288    2103.1437   ✓       
+258   LLQ+0.984AHQNVAQLSLAEAQLR0.5873      Prosit      -12.1924    2103.1437   ✓       
+259   LLQ+0.984AHQNVAQLSLAEAQLR0.5873      Prosit      -12.2166    2103.1437   ✓       
+260   LLQ+0.984AHQNVAQLSLAEAQLR0.5873      Prosit      -12.6416    2103.1437   ✓       
+261   LLQ+0.984AHQNVAQLSLAEAQLR0.5873      Prosit      -12.9294    2103.1437   ✓       
+262   LLQ+0.984AHQNVAQLSLAEAQLR0.5873      Prosit      -13.0989    2103.1437   ✓       
+263   LLQ+0.984AHQNVAQLSLAEAQLR0.5873      Prosit      -13.8117    2103.1437   ✓       
+264   LLQ+0.984AHQNVAQLSLAEAQLR0.5873      Prosit      -13.8359    2103.1437   ✓       
+265   LLQ+0.984AHQNVAQLSLAEAQLR0.5873      Prosit      -14.4351    2103.1437   ✓       
+266   LLQAHQ+0.984NVAQLSLAEAQLR0.5873      Prosit      -14.4397    2103.1437   ✓       
+267   LLQ+0.984AHQNVAQLSLAEAQLR0.5873      Prosit      -14.5487    2103.1437   ✓       
+268   LLQ+0.984AHQNVAQLSLAEAQLR0.5873      Prosit      -15.0046    2103.1437   ✓       
+269   LLQAHQN+0.984VAQLSLAEAQLR0.5873      Prosit      -15.0138    2103.1437   ✓       
+270   LLQ+0.984AHQNVAQLSLAEAQLR0.5873      Prosit      -15.0434    2103.1437   ✓       
+271   LLQ+0.984AHQNVAQLSLAEAQLR0.5873      Prosit      -15.0894    2103.1437   ✓       
+272   LLQ+0.984AHQNVAQLSLAEAQLR0.5873      Prosit      -15.1480    2103.1437   ✓       
+273   LLQAHQ+0.984NVAQLSLAEAQLR0.5873      Prosit      -15.1526    2103.1437   ✓       
+274   LLQ+0.984AHQNVAQLSLAQ+0.984AQLR0.5825      Prosit      -13.8411    2103.1437   ✓       
+275   LLQ+0.984AHQNVAQLSLAQ+0.984AQLR0.5825      Prosit      -14.5539    2103.1437   ✓       
+276   LELAHQNVAQLSLAEAQLR      0.5727      Prosit      -11.1731    2103.1437   ✓       
+277   LELAHQNVAQLSLAEAQLR      0.5727      Prosit      -11.8859    2103.1437   ✓       
+278   LELAHQNVAQLSLAEAQLR      0.5727      Prosit      -12.7924    2103.1437   ✓       
+279   LELAHQNVAQLSLAEAQLR      0.5727      Prosit      -13.5052    2103.1437   ✓       
+280   LELAHQNVAQLSLAEAQLR      0.5727      Prosit      -14.7829    2103.1437   ✓       
+281   LELAHQNVAQLSLAEAQLR      0.5727      Prosit      -15.4958    2103.1437   ✓       
+282   LELAHQNVAQLSLAEAQLR      0.5727      Prosit      -20.2600    2103.1437   ✓       
+283   LELAHQNVAQLSLAEAQLR      0.5727      Prosit      -20.9729    2103.1437   ✓       
+284   LLEAHQNVAKLSLAEAQLR      0.5466      Prosit      -13.3606    2103.1800   ✓       
+285   LLEAHQNVAKLSLAEAQLR      0.5466      Prosit      -14.0734    2103.1800   ✓       
+286   LLEAHQNVAKLSLAEAQLR      0.5466      Prosit      -14.7549    2103.1800   ✓       
+287   LLEAHQNVAKLSLAEAQLR      0.5466      Prosit      -14.9800    2103.1800   ✓       
+288   +42.011LEAAHQNVAQLSLAEAQLR0.4992      Prosit      -21.3704    2103.1073   ✓       
+289   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -4.4309     2087.1851   ✗       
+290   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -5.1438     2087.1851   ✗       
+291   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -6.0503     2087.1851   ✗       
+292   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -6.7631     2087.1851   ✗       
+293   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -8.0408     2087.1851   ✗       
+294   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -8.7536     2087.1851   ✗       
+295   LLQAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -8.8229     2102.1596   ✗       
+296   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -9.2109     2087.1851   ✗       
+297   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -9.3801     2087.1851   ✗       
+298   LLAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -9.4599     1974.1011   ✗       
+299   LLQAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -9.5357     2102.1596   ✗       
+300   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -9.6602     2087.1851   ✗       
+301   LLEAHANVAQLSLAEAQLR      -1.0000     NotChecked  -9.7392     2046.1222   ✗       
+302   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -9.9238     2087.1851   ✗       
+303   LLAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -9.9479     1974.1011   ✗       
+304   LLLAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -10.0478    2088.1691   ✗       
+305   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -10.0929    2087.1851   ✗       
+306   LLAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -10.1728    1974.1011   ✗       
+307   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -10.3730    2087.1851   ✗       
+308   LLQAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -10.4422    2102.1596   ✗       
+309   LLEAHANVAQLSLAEAQLR      -1.0000     NotChecked  -10.4521    2046.1222   ✗       
+310   LLLAHQN+0.984VAQLSLAEAQLR-1.0000     NotChecked  -10.6219    2088.1691   ✗       
+311   LLAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -10.6608    1974.1011   ✗       
+312   LLAAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -10.6836    2045.1382   ✗       
+313   LLEGHQNVAQLSLAEAQLR      -1.0000     NotChecked  -10.6934    2089.1280   ✗       
+314   LLLAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -10.7607    2088.1691   ✗       
+315   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -10.8303    2087.1851   ✗       
+316   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -10.9362    2033.0654   ✗       
+317   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -10.9995    2087.1851   ✗       
+318   LLAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -11.0793    1974.1011   ✗       
+319   LLEAHANVAQLSLAEAQLR      -1.0000     NotChecked  -11.1335    2046.1222   ✗       
+320   LLQAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -11.1551    2102.1596   ✗       
+321   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -11.1633    1990.0596   ✗       
+322   LLGAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -11.2733    2031.1225   ✗       
+323   LLLAHQN+0.984VAQLSLAEAQLR-1.0000     NotChecked  -11.3347    2088.1691   ✗       
+324   LLEAHANVAQLSLAEAQLR      -1.0000     NotChecked  -11.3586    2046.1222   ✗       
+325   LLAAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -11.3964    2045.1382   ✗       
+326   LLEGHQNVAQLSLAEAQLR      -1.0000     NotChecked  -11.4062    2089.1280   ✗       
+327   LLEAHQNVAQLSLAEAQR       -1.0000     NotChecked  -11.4436    1990.0596   ✗       
+328   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -11.5204    2032.0702   ✗       
+329   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -11.5431    2087.1851   ✗       
+330   LLAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -11.5673    1974.1011   ✗       
+331   LLLAHQNVAQLSLAQ+0.984AQLR-1.0000     NotChecked  -11.5724    2087.1851   ✗       
+332   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -11.6491    2033.0654   ✗       
+333   LLLAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -11.6672    2088.1691   ✗       
+334   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -11.7123    2087.1851   ✗       
+335   LLEHQNVAQLSLAEAQLR       -1.0000     NotChecked  -11.7278    2032.1065   ✗       
+336   LLEAHGNVAQLSLAEAQLR      -1.0000     NotChecked  -11.7692    2032.1065   ✗       
+337   LLAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -11.7921    1974.1011   ✗       
+338   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -11.7994    1990.0596   ✗       
+339   LLEAHANVAQLSLAEAQLR      -1.0000     NotChecked  -11.8463    2046.1222   ✗       
+340   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -11.8761    1990.0596   ✗       
+341   LLGAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -11.9861    2031.1225   ✗       
+342   LLEAHANVAQLSLAEAQLR      -1.0000     NotChecked  -12.0714    2046.1222   ✗       
+343   LLEGHQNVAQLSLAEAQLR      -1.0000     NotChecked  -12.0877    2089.1280   ✗       
+344   LLEAHQNVAQLSLAEAQR       -1.0000     NotChecked  -12.1565    1990.0596   ✗       
+345   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -12.1665    2087.1851   ✗       
+346   LLDAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -12.1757    2089.1280   ✗       
+347   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -12.2332    2032.0702   ✗       
+348   LLLAHQN+0.984VAQLSLAEAQLR-1.0000     NotChecked  -12.2413    2088.1691   ✗       
+349   LLAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -12.2801    1974.1011   ✗       
+350   LLLAHQNVAQLSLAQ+0.984AQLR-1.0000     NotChecked  -12.2853    2087.1851   ✗       
+351   LLAAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -12.3029    2045.1382   ✗       
+352   LLEGHQNVAQLSLAEAQLR      -1.0000     NotChecked  -12.3128    2089.1280   ✗       
+353   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -12.3305    2033.0654   ✗       
+354   LLLAHQNVAQ+0.984LSLAEAQLR-1.0000     NotChecked  -12.3423    2088.1691   ✗       
+355   LLLAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -12.3800    2088.1691   ✗       
+356   LLQAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -12.4327    2102.1596   ✗       
+357   LLEHQNVAQLSLAEAQLR       -1.0000     NotChecked  -12.4407    2032.1065   ✗       
+358   LLEAHGNVAQLSLAEAQLR      -1.0000     NotChecked  -12.4820    2032.1065   ✗       
+359   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -12.5122    1990.0596   ✗       
+360   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -12.5556    2033.0654   ✗       
+361   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -12.5576    1990.0596   ✗       
+362   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -12.7360    2087.1851   ✗       
+363   LLEAHANVAQLSLAEAQLR      -1.0000     NotChecked  -12.7529    2046.1222   ✗       
+364   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -12.7748    2087.1851   ✗       
+365   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -12.7826    1990.0596   ✗       
+366   LLEGHQNVAQLSLAEAQLR      -1.0000     NotChecked  -12.8005    2089.1280   ✗       
+367   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -12.8208    2087.1851   ✗       
+368   LLEAHQNVAQLSLAEAQR       -1.0000     NotChecked  -12.8379    1990.0596   ✗       
+369   LGEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -12.8503    2047.0811   ✗       
+370   LAEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -12.8608    2061.0967   ✗       
+371   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -12.8793    2087.1851   ✗       
+372   LLDAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -12.8885    2089.1280   ✗       
+373   LLGAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -12.8926    2031.1225   ✗       
+374   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -12.9147    2032.0702   ✗       
+375   LLLAHQN+0.984VAQLSLAEAQLR-1.0000     NotChecked  -12.9541    2088.1691   ✗       
+376   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -12.9900    2087.1851   ✗       
+377   LLAAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -13.0158    2045.1382   ✗       
+378   LLEGHQNVAQLSLAEAQLR      -1.0000     NotChecked  -13.0256    2089.1280   ✗       
+379   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -13.0433    2033.0654   ✗       
+380   LLLAHQNVAQ+0.984LSLAEAQLR-1.0000     NotChecked  -13.0551    2088.1691   ✗       
+381   LLAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -13.0698    1974.1011   ✗       
+382   LLEHQNVAQLSLAEAQLR       -1.0000     NotChecked  -13.1221    2032.1065   ✗       
+383   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -13.1262    2087.1851   ✗       
+384   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -13.1398    2032.0702   ✗       
+385   LLQAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -13.1456    2102.1596   ✗       
+386   LLEAHGNVAQLSLAEAQLR      -1.0000     NotChecked  -13.1635    2032.1065   ✗       
+387   LLLAHQNVAQLSLAQ+0.984AQLR-1.0000     NotChecked  -13.1918    2087.1851   ✗       
+388   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -13.1937    1990.0596   ✗       
+389   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -13.2684    2033.0654   ✗       
+390   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -13.2704    1990.0596   ✗       
+391   LLLAHANVAQLSLAEAQLR      -1.0000     NotChecked  -13.2781    2030.1637   ✗       
+392   LLEAHQGVAQLSLAEAQLR      -1.0000     NotChecked  -13.3393    2046.1222   ✗       
+393   LLLAHENVAQLSLAEAQLR      -1.0000     NotChecked  -13.3401    2088.1691   ✗       
+394   LLEHQNVAQLSLAEAQLR       -1.0000     NotChecked  -13.3472    2032.1065   ✗       
+395   LLEAHANVAQLSLAEAQLR      -1.0000     NotChecked  -13.3491    2046.1222   ✗       
+396   LLEAHGNVAQLSLAEAQLR      -1.0000     NotChecked  -13.3886    2032.1065   ✗       
+397   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -13.4187    1990.0596   ✗       
+398   LLEAHANVAQLSLAEAQLR      -1.0000     NotChecked  -13.4657    2046.1222   ✗       
+399   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -13.4876    2087.1851   ✗       
+400   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -13.4955    1990.0596   ✗       
+401   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -13.5336    2087.1851   ✗       
+402   LLEAHQNVAQLSLAEAQR       -1.0000     NotChecked  -13.5507    1990.0596   ✗       
+403   LLAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -13.5578    1974.1011   ✗       
+404   LGEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -13.5632    2047.0811   ✗       
+405   LAEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -13.5736    2061.0967   ✗       
+406   LLEAHNVAQLSLAEAQLR       -1.0000     NotChecked  -13.5968    1975.0851   ✗       
+407   LLQAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -13.6028    2102.1596   ✗       
+408   LLGAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -13.6054    2031.1225   ✗       
+409   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -13.6275    2032.0702   ✗       
+410   LLLAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -13.6577    2088.1691   ✗       
+411   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -13.7028    2087.1851   ✗       
+412   LLEGHQNVAQLSLAEAQLR      -1.0000     NotChecked  -13.7070    2089.1280   ✗       
+413   LLEAHNNVAQLSLAEAQLR      -1.0000     NotChecked  -13.7817    2089.1280   ✗       
+414   LLAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -13.7826    1974.1011   ✗       
+415   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -13.7859    2087.1851   ✗       
+416   LLDAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -13.7951    2089.1280   ✗       
+417   LLEHQNVAQLSLAEAQLR       -1.0000     NotChecked  -13.8349    2032.1065   ✗       
+418   LLVAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -13.8352    2073.1695   ✗       
+419   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -13.8390    2087.1851   ✗       
+420   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -13.8526    2032.0702   ✗       
+421   LLEAHGNVAQLSLAEAQLR      -1.0000     NotChecked  -13.8763    2032.1065   ✗       
+422   LLLAHQNVAQLSLAQ+0.984AQLR-1.0000     NotChecked  -13.9046    2087.1851   ✗       
+423   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -13.9065    1990.0596   ✗       
+424   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -13.9499    2033.0654   ✗       
+425   LLLAHQNVAQ+0.984LSLAEAQLR-1.0000     NotChecked  -13.9616    2088.1691   ✗       
+426   LLLAHANVAQLSLAEAQLR      -1.0000     NotChecked  -13.9910    2030.1637   ✗       
+427   LLEAHDNVAQLSLAEAQLR      -1.0000     NotChecked  -14.0406    2090.1120   ✗       
+428   LLEAHQGVAQLSLAEAQLR      -1.0000     NotChecked  -14.0521    2046.1222   ✗       
+429   LLQAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -14.0521    2102.1596   ✗       
+430   LLLAHENVAQLSLAEAQLR      -1.0000     NotChecked  -14.0530    2088.1691   ✗       
+431   LLEHQNVAQLSLAEAQLR       -1.0000     NotChecked  -14.0600    2032.1065   ✗       
+432   LLEAHANVAQLSLAEAQLR      -1.0000     NotChecked  -14.0619    2046.1222   ✗       
+433   LQ+0.984LAHQNVAQLSLAEAQLR-1.0000     Failed      -14.0916    2103.1437   ✓       
+434   LLEAHGNVAQLSLAEAQLR      -1.0000     NotChecked  -14.1014    2032.1065   ✗       
+435   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -14.1316    1990.0596   ✗       
+436   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -14.1601    2087.1851   ✗       
+437   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -14.1769    1990.0596   ✗       
+438   LLEAHQNAAQLSLAEAQLR      -1.0000     NotChecked  -14.2026    2075.1124   ✗       
+439   LLLAHQN+0.984VAQLSLAEAQLR-1.0000     NotChecked  -14.2318    2088.1691   ✗       
+440   LLLGHQNVAQLSLAEAQLR      -1.0000     NotChecked  -14.2323    2073.1695   ✗       
+441   LLAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -14.2399    1974.1011   ✗       
+442   LGEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -14.2446    2047.0811   ✗       
+443   LAEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -14.2551    2061.0967   ✗       
+444   LLAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -14.2706    1974.1011   ✗       
+445   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -14.2764    2087.1851   ✗       
+446   LLAAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -14.2935    2045.1382   ✗       
+447   LLEAHNVAQLSLAEAQLR       -1.0000     NotChecked  -14.3097    1975.0851   ✗       
+448   LLQAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -14.3157    2102.1596   ✗       
+449   ALEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -14.3207    2061.0967   ✗       
+450   LLQAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -14.3399    2102.1596   ✗       
+451   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -14.3554    2087.1851   ✗       
+452   LLLAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -14.3705    2088.1691   ✗       
+453   LLEAHQNVAQLSLAQAQLR      -1.0000     NotChecked  -14.3903    2102.1596   ✗       
+454   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -14.3941    2087.1851   ✗       
+455   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -14.4091    2087.1851   ✗       
+456   LLEGHQNVAQLSLAEAQLR      -1.0000     NotChecked  -14.4199    2089.1280   ✗       
+457   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -14.4402    2087.1851   ✗       
+458   LGEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -14.4697    2047.0811   ✗       
+459   +43.006LLAHQNVAQLSLAEAQLR-1.0000     NotChecked  -14.4751    2017.1069   ✗       
+460   LLEAHQNVAQLSLAEAQL       -1.0000     NotChecked  -14.4796    1947.0425   ✗       
+461   LAEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -14.4802    2061.0967   ✗       
+462   LLEAHNNVAQLSLAEAQLR      -1.0000     NotChecked  -14.4945    2089.1280   ✗       
+463   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -14.4987    2087.1851   ✗       
+464   LLDAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -14.5079    2089.1280   ✗       
+465   LLEAHANVAQLSLAEAQLR      -1.0000     NotChecked  -14.5192    2046.1222   ✗       
+466   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -14.5340    2032.0702   ✗       
+467   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -14.5461    2033.0654   ✗       
+468   LLVAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -14.5481    2073.1695   ✗       
+469   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -14.6094    2087.1851   ✗       
+470   LLNAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -14.6557    2088.1440   ✗       
+471   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -14.6627    2033.0654   ✗       
+472   LLLAHQNVAQ+0.984LSLAEAQLR-1.0000     NotChecked  -14.6745    2088.1691   ✗       
+473   LLAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -14.6892    1974.1011   ✗       
+474   LLAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -14.7022    1974.1011   ✗       
+475   LLAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -14.7279    1974.1011   ✗       
+476   LLEAHQGVAQLSLAEAQLR      -1.0000     NotChecked  -14.7335    2046.1222   ✗       
+477   LLEHQNVAQLSLAEAQLR       -1.0000     NotChecked  -14.7415    2032.1065   ✗       
+478   LLEAHANVAQLSLAEAQLR      -1.0000     NotChecked  -14.7434    2046.1222   ✗       
+479   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -14.7456    2087.1851   ✗       
+480   LLEAHDNVAQLSLAEAQLR      -1.0000     NotChecked  -14.7534    2090.1120   ✗       
+481   LLQAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -14.7649    2102.1596   ✗       
+482   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -14.7732    1990.0596   ✗       
+483   LLEAHGNVAQLSLAEAQLR      -1.0000     NotChecked  -14.7828    2032.1065   ✗       
+484   LQ+0.984LAHQNVAQLSLAEAQLR-1.0000     Failed      -14.8044    2103.1437   ✓       
+485   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -14.8130    1990.0596   ✗       
+486   LLLAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -14.8278    2088.1691   ✗       
+487   GLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -14.8365    2047.0811   ✗       
+488   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -14.8729    2087.1851   ✗       
+489   LLEAHQNVAQLSLAEAQLK      -1.0000     NotChecked  -14.8813    2075.1375   ✗       
+490   LLGAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -14.8831    2031.1225   ✗       
+491   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -14.8897    1990.0596   ✗       
+492   LLAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -14.8971    1974.1011   ✗       
+493   LLLAHANVAQLSLAEAQLR      -1.0000     NotChecked  -14.8975    2030.1637   ✗       
+494   LLEAHQNAAQLSLAEAQLR      -1.0000     NotChecked  -14.9154    2075.1124   ✗       
+495   LLLAHQN+0.984VAQLSLAEAQLR-1.0000     NotChecked  -14.9446    2088.1691   ✗       
+496   LLLGHQNVAQLSLAEAQLR      -1.0000     NotChecked  -14.9452    2073.1695   ✗       
+497   LLEAHQAVAQLSLAEAQLR      -1.0000     NotChecked  -14.9512    2060.1378   ✗       
+498   LLAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -14.9527    1974.1011   ✗       
+499   LGEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -14.9574    2047.0811   ✗       
+500   LLEAHQGVAQLSLAEAQLR      -1.0000     NotChecked  -14.9586    2046.1222   ✗       
+501   LLLAHENVAQLSLAEAQLR      -1.0000     NotChecked  -14.9595    2088.1691   ✗       
+502   LAEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -14.9679    2061.0967   ✗       
+503   LLEAHANVAQLSLAEAQLR      -1.0000     NotChecked  -14.9685    2046.1222   ✗       
+504   LLAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -14.9769    1974.1011   ✗       
+505   LLLAHQNVAQLSLAEAQR       -1.0000     NotChecked  -14.9826    1974.1011   ✗       
+506   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -14.9892    2087.1851   ✗       
+507   LLEAHNVAQLSLAEAQLR       -1.0000     NotChecked  -14.9911    1975.0851   ✗       
+508   LLLAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -14.9970    2088.1691   ✗       
+509   LLAAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -15.0063    2045.1382   ✗       
+510   ALEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -15.0335    2061.0967   ✗       
+511   LLQAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -15.0527    2102.1596   ✗       
+512   LLEAHQNVAQLSLAEAQR       -1.0000     NotChecked  -15.0535    1990.0596   ✗       
+513   +42.011LLAHQNVAQLSLAEAQLR-1.0000     NotChecked  -15.0593    2016.1116   ✗       
+514   LLEAHQNVAQLSLAEAQLQ      -1.0000     NotChecked  -15.0720    2075.1011   ✗       
+515   LLAHQ+0.984NVAQLSLAEAQLR -1.0000     NotChecked  -15.0768    1975.0851   ✗       
+516   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -15.0949    1990.0596   ✗       
+517   LLEAHQNVAQLSLAQAQLR      -1.0000     NotChecked  -15.1031    2102.1596   ✗       
+518   LLLAHQNVAQLSLAEAQ+0.984LR-1.0000     NotChecked  -15.1068    2088.1691   ✗       
+519   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -15.1069    2087.1851   ✗       
+520   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -15.1219    2087.1851   ✗       
+521   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -15.1303    2032.0702   ✗       
+522   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -15.1530    2087.1851   ✗       
+523   LLEAHNNVAQLSLAEAQLR      -1.0000     NotChecked  -15.1759    2089.1280   ✗       
+524   LLAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -15.1772    1974.1011   ✗       
+525   LLLAHQNVAQLSLAQ+0.984AQLR-1.0000     NotChecked  -15.1823    2087.1851   ✗       
+526   LGEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -15.1825    2047.0811   ✗       
+527   +43.006LLAHQNVAQLSLAEAQLR-1.0000     NotChecked  -15.1880    2017.1069   ✗       
+528   LLEAHQNVAQLSLAEAQL       -1.0000     NotChecked  -15.1925    1947.0425   ✗       
+529   LAEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -15.1930    2061.0967   ✗       
+530   LLEAHNVAQLSLAEAQLR       -1.0000     NotChecked  -15.2162    1975.0851   ✗       
+531   LLQAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -15.2222    2102.1596   ✗       
+532   LLEAHANVAQLSLAEAQLR      -1.0000     NotChecked  -15.2320    2046.1222   ✗       
+533   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -15.2469    2032.0702   ✗       
+534   LLEHQNVAQLSLAEAQLR       -1.0000     NotChecked  -15.2522    2032.1065   ✗       
+535   LLEAHQNVAQLSLAEANLR      -1.0000     NotChecked  -15.2544    2089.1280   ✗       
+536   LLEAHANVAQLSLAEAQLR      -1.0000     NotChecked  -15.2562    2046.1222   ✗       
+537   LPEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -15.2564    2087.1124   ✗       
+538   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -15.2589    2033.0654   ✗       
+539   LLLHQNVAQLSLAEAQLR       -1.0000     NotChecked  -15.2668    2016.1480   ✗       
+540   LLLAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -15.2771    2088.1691   ✗       
+541   LLLAHGNVAQLSLAEAQLR      -1.0000     NotChecked  -15.3081    2016.1480   ✗       
+542   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -15.3109    1990.0596   ✗       
+543   LLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -15.3222    2087.1851   ✗       
+544   LLAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -15.3383    1974.1011   ✗       
+545   LLNAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -15.3685    2088.1440   ✗       
+546   LLEAHGNVAQLSLAEAQLR      -1.0000     NotChecked  -15.3791    2032.1065   ✗       
+547   VLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -15.4089    2089.1280   ✗       
+548   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -15.4093    1990.0596   ✗       
+549   LLAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -15.4150    1974.1011   ✗       
+550   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -15.4860    1990.0596   ✗       
+551   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -15.5258    1990.0596   ✗       
+552   GLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -15.5494    2047.0811   ✗       
+553   LQ+0.984LAHQNVAQLSLAEAQLR-1.0000     Failed      -15.7110    2103.1437   ✓       
+554   ALEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -15.7150    2061.0967   ✗       
+555   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -15.7162    2033.0654   ✗       
+556   LQLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -15.7328    2102.1596   ✗       
+557   +42.011LLAHQNVAQLSLAEAQLR-1.0000     NotChecked  -15.7722    2016.1116   ✗       
+558   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -15.8077    1990.0596   ✗       
+559   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -15.8431    2032.0702   ✗       
+560   LGEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -15.8640    2047.0811   ✗       
+561   LAEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -15.8744    2061.0967   ✗       
+562   ALEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -15.9401    2061.0967   ✗       
+563   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -15.9404    2033.0654   ✗       
+564   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -16.0237    1990.0596   ✗       
+565   +43.006LLAHQNVAQLSLAEAQLR-1.0000     NotChecked  -16.0945    2017.1069   ✗       
+566   VLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -16.1217    2089.1280   ✗       
+567   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -16.1655    2033.0654   ✗       
+568   GLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -16.2308    2047.0811   ✗       
+569   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -16.3004    2032.0702   ✗       
+570   ALEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -16.4278    2061.0967   ✗       
+571   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -16.4290    2033.0654   ✗       
+572   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -16.4532    2033.0654   ✗       
+573   GLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -16.4559    2047.0811   ✗       
+574   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -16.5246    2032.0702   ✗       
+575   +43.006LEAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -16.5531    2034.0494   ✗       
+576   ALEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -16.6529    2061.0967   ✗       
+577   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -16.6532    2033.0654   ✗       
+578   +42.011LLAHQNVAQLSLAEAQLR-1.0000     NotChecked  -16.6787    2016.1116   ✗       
+579   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -16.7051    1990.0596   ✗       
+580   +43.006LEEHQNVAQLSLAEAQLR-1.0000     NotChecked  -16.7285    2091.0709   ✗       
+581   +43.006LQ+0.984AHQNVAQLSLAEAQLR-1.0000     NotChecked  -16.7438    2033.0654   ✗       
+582   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -16.7496    2032.0702   ✗       
+583   VLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -16.8032    2089.1280   ✗       
+584   +43.006LLAHQNVAQLSLAEAQLR-1.0000     NotChecked  -16.8073    2017.1069   ✗       
+585   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -16.8783    2033.0654   ✗       
+586   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -16.9302    1990.0596   ✗       
+587   GLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -16.9436    2047.0811   ✗       
+588   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -17.0132    2032.0702   ✗       
+589   VLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -17.0283    2089.1280   ✗       
+590   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -17.0374    2032.0702   ✗       
+591   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -17.1105    2033.0654   ✗       
+592   +43.006LEAHQN+0.984VAQLSLAEAQLR-1.0000     NotChecked  -17.1272    2034.0494   ✗       
+593   +42.011LEAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -17.1373    2033.0542   ✗       
+594   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -17.1660    2033.0654   ✗       
+595   GLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -17.1687    2047.0811   ✗       
+596   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -17.2374    2032.0702   ✗       
+597   +43.006LEAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -17.2659    2034.0494   ✗       
+598   +42.011LEEHQNVAQLSLAEAQLR-1.0000     NotChecked  -17.3127    2090.0756   ✗       
+599   +42.011LQ+0.984AHQNVAQLSLAEAQLR-1.0000     NotChecked  -17.3280    2032.0702   ✗       
+600   ALEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -17.3343    2061.0967   ✗       
+601   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -17.3356    2033.0654   ✗       
+602   +42.011LLAHQNVAQLSLAEAQLR-1.0000     NotChecked  -17.3915    2016.1116   ✗       
+603   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -17.4180    1990.0596   ✗       
+604   +43.006LEEHQNVAQLSLAEAQLR-1.0000     NotChecked  -17.4413    2091.0709   ✗       
+605   +43.006LQ+0.984AHQNVAQLSLAEAQLR-1.0000     NotChecked  -17.4566    2033.0654   ✗       
+606   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -17.4625    2032.0702   ✗       
+607   VLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -17.5160    2089.1280   ✗       
+608   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -17.5597    2033.0654   ✗       
+609   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -17.6430    1990.0596   ✗       
+610   +43.006EEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -17.6783    2049.0239   ✗       
+611   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -17.6947    2032.0702   ✗       
+612   +42.011LEAHQN+0.984VAQLSLAEAQLR-1.0000     NotChecked  -17.7114    2033.0542   ✗       
+613   VLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -17.7411    2089.1280   ✗       
+614   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -17.7502    2032.0702   ✗       
+615   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -17.8233    2033.0654   ✗       
+616   +43.006LEAHQN+0.984VAQLSLAEAQLR-1.0000     NotChecked  -17.8400    2034.0494   ✗       
+617   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -17.8475    2033.0654   ✗       
+618   +42.011LEAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -17.8501    2033.0542   ✗       
+619   GLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -17.8502    2047.0811   ✗       
+620   ALLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -17.8596    2045.1382   ✗       
+621   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -17.9197    2032.0702   ✗       
+622   ALEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -17.9306    2061.0967   ✗       
+623   +43.006LEAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -17.9474    2034.0494   ✗       
+624   +42.011LEEHQNVAQLSLAEAQLR-1.0000     NotChecked  -18.0255    2090.0756   ✗       
+625   +42.011LQ+0.984AHQNVAQLSLAEAQLR-1.0000     NotChecked  -18.0408    2032.0702   ✗       
+626   ALEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -18.0472    2061.0967   ✗       
+627   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -18.0484    2033.0654   ✗       
+628   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -18.0726    2033.0654   ✗       
+629   +43.006LEAHQNVAQLSLAQ+0.984AQLR-1.0000     NotChecked  -18.0777    2033.0654   ✗       
+630   +43.006LLAHQNVAQLSLAEAQLR-1.0000     NotChecked  -18.0850    2017.1069   ✗       
+631   +43.006LEEHQNVAQLSLAEAQLR-1.0000     NotChecked  -18.1228    2091.0709   ✗       
+632   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -18.1439    2032.0702   ✗       
+633   KLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -18.1578    2102.1960   ✗       
+634   +43.006LEAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -18.1725    2034.0494   ✗       
+635   +42.011EEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -18.2625    2048.0287   ✗       
+636   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -18.2726    2033.0654   ✗       
+637   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -18.3245    1990.0596   ✗       
+638   +43.006LEEHQNVAQLSLAEAQLR-1.0000     NotChecked  -18.3479    2091.0709   ✗       
+639   +43.006LQ+0.984AHQNVAQLSLAEAQLR-1.0000     NotChecked  -18.3631    2033.0654   ✗       
+640   GLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -18.3755    2031.1225   ✗       
+641   +43.006EEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -18.3912    2049.0239   ✗       
+642   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -18.3970    2033.0654   ✗       
+643   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -18.4075    2032.0702   ✗       
+644   VLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -18.4225    2089.1280   ✗       
+645   +42.011LEAHQN+0.984VAQLSLAEAQLR-1.0000     NotChecked  -18.4242    2033.0542   ✗       
+646   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -18.4317    2032.0702   ✗       
+647   GLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -18.4464    2047.0811   ✗       
+648   +43.006LEAHQN+0.984VAQLSLAEAQLR-1.0000     NotChecked  -18.5215    2034.0494   ✗       
+649   +42.011LEAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -18.5316    2033.0542   ✗       
+650   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -18.5603    2033.0654   ✗       
+651   GLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -18.5630    2047.0811   ✗       
+652   ALLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -18.5725    2045.1382   ✗       
+653   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -18.6326    2032.0702   ✗       
+654   ALEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -18.6434    2061.0967   ✗       
+655   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -18.6568    2032.0702   ✗       
+656   +43.006LEAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -18.6602    2034.0494   ✗       
+657   +42.011LEAHQNVAQLSLAQ+0.984AQLR-1.0000     NotChecked  -18.6619    2032.0702   ✗       
+658   +42.011LLAHQNVAQLSLAEAQLR-1.0000     NotChecked  -18.6692    2016.1116   ✗       
+659   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -18.6718    2033.0654   ✗       
+660   +42.011LEEHQNVAQLSLAEAQLR-1.0000     NotChecked  -18.7070    2090.0756   ✗       
+661   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -18.7298    2033.0654   ✗       
+662   +43.006LEAHQN+0.984VAQLSLAEAQLR-1.0000     NotChecked  -18.7466    2034.0494   ✗       
+663   +42.011LEAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -18.7567    2033.0542   ✗       
+664   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -18.7854    2033.0654   ✗       
+665   +43.006LEAHQNVAQLSLAQ+0.984AQLR-1.0000     NotChecked  -18.7906    2033.0654   ✗       
+666   +43.006LLAHQNVAQLSLAEAQLR-1.0000     NotChecked  -18.7979    2017.1069   ✗       
+667   +43.006LEEHQNVAQLSLAEAQLR-1.0000     NotChecked  -18.8356    2091.0709   ✗       
+668   +43.006LEAHQNVAQ+0.984LSLAEAQLR-1.0000     NotChecked  -18.8476    2034.0494   ✗       
+669   LLAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -18.8498    1974.1011   ✗       
+670   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -18.8567    2032.0702   ✗       
+671   +43.006LQAHQNVAQLSLAEAQLR-1.0000     NotChecked  -18.8671    2032.0814   ✗       
+672   KLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -18.8706    2102.1960   ✗       
+673   +43.006LEAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -18.8853    2034.0494   ✗       
+674   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -18.9207    1990.0596   ✗       
+675   +42.011LEEHQNVAQLSLAEAQLR-1.0000     NotChecked  -18.9321    2090.0756   ✗       
+676   +42.011LQ+0.984AHQNVAQLSLAEAQLR-1.0000     NotChecked  -18.9473    2032.0702   ✗       
+677   VLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -18.9478    2073.1695   ✗       
+678   +42.011EEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -18.9754    2048.0287   ✗       
+679   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -18.9812    2032.0702   ✗       
+680   VLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -19.0188    2089.1280   ✗       
+681   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -19.0373    1990.0596   ✗       
+682   +43.006LEEHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.0607    2091.0709   ✗       
+683   +43.006EEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.0726    2049.0239   ✗       
+684   +43.006LQ+0.984AHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.0760    2033.0654   ✗       
+685   GLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -19.0883    2031.1225   ✗       
+686   ALEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -19.1007    2061.0967   ✗       
+687   +42.011LEAHQN+0.984VAQLSLAEAQLR-1.0000     NotChecked  -19.1057    2033.0542   ✗       
+688   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.1098    2033.0654   ✗       
+689   VLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -19.1354    2089.1280   ✗       
+690   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.1445    2032.0702   ✗       
+691   GLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -19.1592    2047.0811   ✗       
+692   +43.006LEAHQN+0.984VAQLSLAEAQLR-1.0000     NotChecked  -19.2343    2034.0494   ✗       
+693   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.2413    2033.0654   ✗       
+694   +42.011LEAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -19.2444    2033.0542   ✗       
+695   +43.006LLAHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.2551    2017.1069   ✗       
+696   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.2560    2032.0702   ✗       
+697   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.2800    2033.0654   ✗       
+698   +43.006EEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.2977    2049.0239   ✗       
+699   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.3140    2032.0702   ✗       
+700   ALEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -19.3249    2061.0967   ✗       
+701   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.3261    2033.0654   ✗       
+702   +42.011LEAHQN+0.984VAQLSLAEAQLR-1.0000     NotChecked  -19.3307    2033.0542   ✗       
+703   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.3696    2032.0702   ✗       
+704   +42.011LEAHQNVAQLSLAQ+0.984AQLR-1.0000     NotChecked  -19.3747    2032.0702   ✗       
+705   +42.011LLAHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.3820    2016.1116   ✗       
+706   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.3846    2033.0654   ✗       
+707   +42.011LEEHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.4198    2090.0756   ✗       
+708   +43.006LLAHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.4243    2017.1069   ✗       
+709   +42.011LEAHQNVAQ+0.984LSLAEAQLR-1.0000     NotChecked  -19.4317    2033.0542   ✗       
+710   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.4427    2033.0654   ✗       
+711   +42.011LQAHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.4513    2031.0861   ✗       
+712   +43.006LEAHQN+0.984VAQLSLAEAQLR-1.0000     NotChecked  -19.4594    2034.0494   ✗       
+713   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.4668    2033.0654   ✗       
+714   +42.011LEAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -19.4695    2033.0542   ✗       
+715   +43.006LEAHQNVAQLSLAQ+0.984AQLR-1.0000     NotChecked  -19.4720    2033.0654   ✗       
+716   ALLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -19.4790    2045.1382   ✗       
+717   +43.006LAHQNVAQLSLAEAQLR -1.0000     NotChecked  -19.5041    1904.0228   ✗       
+718   ALEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -19.5499    2061.0967   ✗       
+719   +43.006LEAHQNVAQ+0.984LSLAEAQLR-1.0000     NotChecked  -19.5604    2034.0494   ✗       
+720   LLAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -19.5626    1974.1011   ✗       
+721   +43.006LEAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -19.5667    2034.0494   ✗       
+722   +43.006LQAHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.5799    2032.0814   ✗       
+723   GLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -19.6165    2047.0811   ✗       
+724   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.6315    2033.0654   ✗       
+725   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -19.6336    1990.0596   ✗       
+726   +42.011LEEHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.6449    2090.0756   ✗       
+727   +42.011EEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.6568    2048.0287   ✗       
+728   +42.011LQ+0.984AHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.6601    2032.0702   ✗       
+729   VLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -19.6607    2073.1695   ✗       
+730   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.6940    2032.0702   ✗       
+731   +43.006LEAHQNVAQLSLAQ+0.984AQLR-1.0000     NotChecked  -19.6971    2033.0654   ✗       
+732   +43.006LLAHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.7044    2017.1069   ✗       
+733   VLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -19.7316    2089.1280   ✗       
+734   +43.006LEEHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.7421    2091.0709   ✗       
+735   KLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -19.7771    2102.1960   ✗       
+736   +43.006LEAHANVAQLSLAEAQLR-1.0000     NotChecked  -19.7834    1976.0439   ✗       
+737   +43.006EEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.7854    2049.0239   ✗       
+738   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.7913    2033.0654   ✗       
+739   ALEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -19.8135    2061.0967   ✗       
+740   +42.011LEAHQN+0.984VAQLSLAEAQLR-1.0000     NotChecked  -19.8185    2033.0542   ✗       
+741   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.8255    2032.0702   ✗       
+742   ALEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -19.8377    2061.0967   ✗       
+743   +42.011LLAHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.8393    2016.1116   ✗       
+744   GLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -19.8407    2047.0811   ✗       
+745   +43.006LEAHENVAQLSLAEAQLR-1.0000     NotChecked  -19.8454    2034.0494   ✗       
+746   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.8642    2032.0702   ✗       
+747   +42.011EEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.8819    2048.0287   ✗       
+748   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.9103    2032.0702   ✗       
+749   ALEAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -19.9376    2062.0807   ✗       
+750   +43.006LLAHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.9680    2017.1069   ✗       
+751   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.9688    2032.0702   ✗       
+752   +43.006LAHQNVAQLSLAEAQLR -1.0000     NotChecked  -19.9921    1904.0228   ✗       
+753   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -19.9929    2033.0654   ✗       
+754   GLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -19.9948    2031.1225   ✗       
+755   +42.011LLAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.0085    2016.1116   ✗       
+756   +43.006EEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.0105    2049.0239   ✗       
+757   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.0164    2033.0654   ✗       
+758   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.0269    2032.0702   ✗       
+759   ALEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -20.0377    2061.0967   ✗       
+760   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.0389    2033.0654   ✗       
+761   +42.011LEAHQN+0.984VAQLSLAEAQLR-1.0000     NotChecked  -20.0436    2033.0542   ✗       
+762   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.0510    2032.0702   ✗       
+763   +42.011LEAHQNVAQLSLAQ+0.984AQLR-1.0000     NotChecked  -20.0562    2032.0702   ✗       
+764   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.0631    2033.0654   ✗       
+765   GLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -20.0658    2047.0811   ✗       
+766   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.0661    2033.0654   ✗       
+767   +42.011LAHQNVAQLSLAEAQLR -1.0000     NotChecked  -20.0883    1903.0276   ✗       
+768   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -20.0908    1990.0596   ✗       
+769   +43.006LLAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -20.0920    2018.0909   ✗       
+770   ALQ+0.984AHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.1282    2061.0967   ✗       
+771   +43.006LLAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.1372    2017.1069   ✗       
+772   +43.006LEAHQN+0.984VAQLSLAEAQLR-1.0000     NotChecked  -20.1408    2034.0494   ✗       
+773   +42.011LEAHQNVAQ+0.984LSLAEAQLR-1.0000     NotChecked  -20.1446    2033.0542   ✗       
+774   +42.011LEAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -20.1509    2033.0542   ✗       
+775   +43.006LEAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -20.1630    2034.0494   ✗       
+776   +42.011LQAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.1641    2031.0861   ✗       
+777   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.1797    2033.0654   ✗       
+778   +43.006LEAHQNVAQLSLAQ+0.984AQLR-1.0000     NotChecked  -20.1848    2033.0654   ✗       
+779   VLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -20.1889    2089.1280   ✗       
+780   ALLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -20.1918    2045.1382   ✗       
+781   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.2157    2032.0702   ✗       
+782   +43.006LAHQNVAQLSLAEAQLR -1.0000     NotChecked  -20.2170    1904.0228   ✗       
+783   +43.006LEAHQNVAQ+0.984LSLAEAQLR-1.0000     NotChecked  -20.2418    2034.0494   ✗       
+784   ALEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -20.2628    2061.0967   ✗       
+785   +43.006LLEHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.2674    2075.1124   ✗       
+786   +43.006LEAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -20.2796    2034.0494   ✗       
+787   +42.011LEAHQNVAQLSLAQ+0.984AQLR-1.0000     NotChecked  -20.2813    2032.0702   ✗       
+788   +42.011LLAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.2886    2016.1116   ✗       
+789   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.2911    2033.0654   ✗       
+790   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -20.3150    1990.0596   ✗       
+791   +42.011LEEHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.3263    2090.0756   ✗       
+792   GLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -20.3293    2047.0811   ✗       
+793   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.3443    2033.0654   ✗       
+794   GLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -20.3535    2047.0811   ✗       
+795   +43.006LQ+0.984AHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.3536    2033.0654   ✗       
+796   +42.011LEAHANVAQLSLAEAQLR-1.0000     NotChecked  -20.3676    1975.0487   ✗       
+797   +42.011EEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.3696    2048.0287   ✗       
+798   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.3755    2032.0702   ✗       
+799   +43.006LEAHQNVAQLSLAQ+0.984AQLR-1.0000     NotChecked  -20.4099    2033.0654   ✗       
+800   VLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -20.4131    2089.1280   ✗       
+801   +43.006LLAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.4172    2017.1069   ✗       
+802   +42.011LEAHENVAQLSLAEAQLR-1.0000     NotChecked  -20.4296    2033.0542   ✗       
+803   GLEAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -20.4534    2048.0651   ✗       
+804   +43.006LEEHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.4550    2091.0709   ✗       
+805   +43.006LEAHQNVAQ+0.984LSLAEAQLR-1.0000     NotChecked  -20.4669    2034.0494   ✗       
+806   LLAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -20.4691    1974.1011   ✗       
+807   +43.006LQAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.4864    2032.0814   ✗       
+808   KLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -20.4900    2102.1960   ✗       
+809   ALEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -20.4950    2061.0967   ✗       
+810   +43.006LEAHANVAQLSLAEAQLR-1.0000     NotChecked  -20.4963    1976.0439   ✗       
+811   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.5041    2033.0654   ✗       
+812   ALEAHQN+0.984VAQLSLAEAQLR-1.0000     NotChecked  -20.5117    2062.0807   ✗       
+813   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -20.5401    1990.0596   ✗       
+814   ALEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -20.5505    2061.0967   ✗       
+815   +42.011LLAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.5521    2016.1116   ✗       
+816   GLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -20.5535    2047.0811   ✗       
+817   +43.006LEAHENVAQLSLAEAQLR-1.0000     NotChecked  -20.5583    2034.0494   ✗       
+818   VLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -20.5672    2073.1695   ✗       
+819   +42.011LAHQNVAQLSLAEAQLR -1.0000     NotChecked  -20.5763    1903.0276   ✗       
+820   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.5771    2032.0702   ✗       
+821   +42.011EEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.5947    2048.0287   ✗       
+822   +43.006Q+0.984EAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.5969    2049.0239   ✗       
+823   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.6005    2032.0702   ✗       
+824   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.6231    2032.0702   ✗       
+825   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.6356    2033.0654   ✗       
+826   VLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -20.6381    2089.1280   ✗       
+827   GLQ+0.984AHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.6441    2047.0811   ✗       
+828   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.6473    2032.0702   ✗       
+829   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.6502    2032.0702   ✗       
+830   ALEAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -20.6504    2062.0807   ✗       
+831   +43.006LEAGHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.6640    2090.0869   ✗       
+832   +43.006LLAHQN+0.984VAQLSLAEAQLR-1.0000     NotChecked  -20.6661    2018.0909   ✗       
+833   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.6743    2033.0654   ✗       
+834   +42.011LLAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -20.6762    2017.0956   ✗       
+835   +43.006EEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.6920    2049.0239   ✗       
+836   +43.006LAHQNVAQLSLAEAQLR -1.0000     NotChecked  -20.7050    1904.0228   ✗       
+837   GLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -20.7076    2031.1225   ✗       
+838   ALEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -20.7200    2061.0967   ✗       
+839   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.7203    2033.0654   ✗       
+840   +42.011LLAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.7213    2016.1116   ✗       
+841   +42.011LEAHQN+0.984VAQLSLAEAQLR-1.0000     NotChecked  -20.7250    2033.0542   ✗       
+842   +43.006LAAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.7278    1975.0599   ✗       
+843   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.7292    2033.0654   ✗       
+844   +43.006LEAHQN+0.984VAQLSLAEAQLR-1.0000     NotChecked  -20.7371    2034.0494   ✗       
+845   +43.006LEGHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.7376    2019.0498   ✗       
+846   +42.011LEAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -20.7472    2033.0542   ✗       
+847   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.7639    2032.0702   ✗       
+848   +42.011LEAHQNVAQLSLAQ+0.984AQLR-1.0000     NotChecked  -20.7690    2032.0702   ✗       
+849   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.7759    2033.0654   ✗       
+850   GLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -20.7786    2047.0811   ✗       
+851   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.7789    2033.0654   ✗       
+852   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.7817    2033.0654   ✗       
+853   +42.011LAHQNVAQLSLAEAQLR -1.0000     NotChecked  -20.8012    1903.0276   ✗       
+854   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -20.8037    1990.0596   ✗       
+855   +43.006LLAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -20.8049    2018.0909   ✗       
+856   +42.011LEAHQNVAQ+0.984LSLAEAQLR-1.0000     NotChecked  -20.8260    2033.0542   ✗       
+857   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -20.8278    1990.0596   ✗       
+858   ALQ+0.984AHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.8411    2061.0967   ✗       
+859   +42.011LLEHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.8516    2074.1171   ✗       
+860   +43.006LEAHQN+0.984VAQLSLAEAQLR-1.0000     NotChecked  -20.8537    2034.0494   ✗       
+861   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.8606    2033.0654   ✗       
+862   +42.011LEAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -20.8638    2033.0542   ✗       
+863   +43.006LLAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.8745    2017.1069   ✗       
+864   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.8753    2032.0702   ✗       
+865   +43.006LEAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -20.8758    2034.0494   ✗       
+866   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.8984    2033.0654   ✗       
+867   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.8994    2033.0654   ✗       
+868   VLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -20.9017    2089.1280   ✗       
+869   VLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -20.9259    2089.1280   ✗       
+870   LEAHQ+0.984NVAQLSLAEAQLR -1.0000     NotChecked  -20.9277    1991.0436   ✗       
+871   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.9285    2032.0702   ✗       
+872   +42.011LQ+0.984AHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.9378    2032.0702   ✗       
+873   ALEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -20.9442    2061.0967   ✗       
+874   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.9454    2033.0654   ✗       
+875   +43.006LEAHQNVAQ+0.984LSLAEAQLR-1.0000     NotChecked  -20.9547    2034.0494   ✗       
+876   +43.006LLEHQNVAQLSLAEAQLR-1.0000     NotChecked  -20.9803    2075.1124   ✗       
+877   +42.011LEAHQNVAQLSLAQ+0.984AQLR-1.0000     NotChecked  -20.9941    2032.0702   ✗       
+878   +42.011LLAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.0014    2016.1116   ✗       
+879   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.0040    2033.0654   ✗       
+880   GLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -21.0108    2047.0811   ✗       
+881   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.0257    2033.0654   ✗       
+882   VLEAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -21.0258    2090.1120   ✗       
+883   GLEAHQN+0.984VAQLSLAEAQLR-1.0000     NotChecked  -21.0275    2048.0651   ✗       
+884   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -21.0278    1990.0596   ✗       
+885   +42.011LEEHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.0392    2090.0756   ✗       
+886   +43.006LLAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.0437    2017.1069   ✗       
+887   +42.011LEAHQNVAQ+0.984LSLAEAQLR-1.0000     NotChecked  -21.0511    2033.0542   ✗       
+888   AEEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -21.0628    2077.0552   ✗       
+889   GLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -21.0664    2047.0811   ✗       
+890   +43.006LQ+0.984AHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.0665    2033.0654   ✗       
+891   +42.011LQAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.0706    2031.0861   ✗       
+892   +42.011LEAHANVAQLSLAEAQLR-1.0000     NotChecked  -21.0804    1975.0487   ✗       
+893   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.0883    2032.0702   ✗       
+894   +43.006LEAHQNVAQLSLAQ+0.984AQLR-1.0000     NotChecked  -21.0914    2033.0654   ✗       
+895   LEEHQNVAQLSLAEAQLR       -1.0000     NotChecked  -21.1031    2048.0651   ✗       
+896   LQ+0.984AHQNVAQLSLAEAQLR -1.0000     NotChecked  -21.1184    1990.0596   ✗       
+897   +43.006LAHQNVAQLSLAEAQLR -1.0000     NotChecked  -21.1235    1904.0228   ✗       
+898   VLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -21.1259    2089.1280   ✗       
+899   ELAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -21.1358    1990.0596   ✗       
+900   +42.011LEAHENVAQLSLAEAQLR-1.0000     NotChecked  -21.1424    2033.0542   ✗       
+901   GLEAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -21.1662    2048.0651   ✗       
+902   +43.006LEAHANVAQLSLAEAQLR-1.0000     NotChecked  -21.1777    1976.0439   ✗       
+903   +43.006LEAHQNVAQ+0.984LSLAEAQLR-1.0000     NotChecked  -21.1797    2034.0494   ✗       
+904   +42.011Q+0.984EAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.1811    2048.0287   ✗       
+905   LLAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -21.1820    1974.1011   ✗       
+906   +43.006LEAHGQNVAQLSLAEAQLR-1.0000     NotChecked  -21.1991    2090.0869   ✗       
+907   +43.006LQAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.1993    2032.0814   ✗       
+908   +43.006EAHQNVAQLSLAEAQLR -1.0000     NotChecked  -21.2075    1919.9813   ✗       
+909   ALEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -21.2078    2061.0967   ✗       
+910   +43.006LEQHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.2162    2090.0869   ✗       
+911   VLQ+0.984AHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.2165    2089.1280   ✗       
+912   +43.006ELAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.2173    2033.0654   ✗       
+913   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.2197    2032.0702   ✗       
+914   ALEAHQN+0.984VAQLSLAEAQLR-1.0000     NotChecked  -21.2245    2062.0807   ✗       
+915   ALEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -21.2320    2061.0967   ✗       
+916   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.2332    2033.0654   ✗       
+917   GLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -21.2359    2047.0811   ✗       
+918   +43.006LEAHENVAQLSLAEAQLR-1.0000     NotChecked  -21.2397    2034.0494   ✗       
+919   +42.011LEAGHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.2481    2089.0916   ✗       
+920   +42.011LLAHQN+0.984VAQLSLAEAQLR-1.0000     NotChecked  -21.2503    2017.0956   ✗       
+921   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.2508    2033.0654   ✗       
+922   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -21.2529    1990.0596   ✗       
+923   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.2585    2032.0702   ✗       
+924   +42.011EEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.2762    2048.0287   ✗       
+925   VLLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -21.2800    2073.1695   ✗       
+926   +43.006EEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.2882    2049.0239   ✗       
+927   +42.011LAHQNVAQLSLAEAQLR -1.0000     NotChecked  -21.2892    1903.0276   ✗       
+928   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.3045    2032.0702   ✗       
+929   +43.006Q+0.984EAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.3097    2049.0239   ✗       
+930   +42.011LAAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.3120    1974.0647   ✗       
+931   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.3134    2032.0702   ✗       
+932   +43.006LGAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.3175    1961.0443   ✗       
+933   +42.011LEAHQN+0.984VAQLSLAEAQLR-1.0000     NotChecked  -21.3213    2033.0542   ✗       
+934   +42.011LEGHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.3218    2018.0545   ✗       
+935   ALEAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -21.3319    2062.0807   ✗       
+936   +43.006LEAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -21.3331    2034.0494   ✗       
+937   VLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -21.3510    2089.1280   ✗       
+938   GLQ+0.984AHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.3569    2047.0811   ✗       
+939   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.3601    2032.0702   ✗       
+940   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.3631    2032.0702   ✗       
+941   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.3659    2032.0702   ✗       
+942   +43.006LLAHQN+0.984VAQLSLAEAQLR-1.0000     NotChecked  -21.3789    2018.0909   ✗       
+943   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.3864    2033.0654   ✗       
+944   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.3871    2033.0654   ✗       
+945   +42.011LLAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -21.3890    2017.0956   ✗       
+946   +43.006LEAHANVAQLSLAEAQLR-1.0000     NotChecked  -21.4028    1976.0439   ✗       
+947   +43.006EEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.4048    2049.0239   ✗       
+948   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.4106    2033.0654   ✗       
+949   ELEAHANVAQLSLAEAQLR      -1.0000     NotChecked  -21.4151    2062.0807   ✗       
+950   ALEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -21.4329    2061.0967   ✗       
+951   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.4332    2033.0654   ✗       
+952   +42.011LEAHQN+0.984VAQLSLAEAQLR-1.0000     NotChecked  -21.4378    2033.0542   ✗       
+953   +43.006LAAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.4406    1975.0599   ✗       
+954   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.4448    2032.0702   ✗       
+955   +43.006LEAHQN+0.984VAQLSLAEAQLR-1.0000     NotChecked  -21.4499    2034.0494   ✗       
+956   +43.006LEGHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.4505    2019.0498   ✗       
+957   ALEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -21.4571    2061.0967   ✗       
+958   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.4574    2033.0654   ✗       
+959   +42.011LLAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.4587    2016.1116   ✗       
+960   +42.011LEAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -21.4600    2033.0542   ✗       
+961   GLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -21.4600    2047.0811   ✗       
+962   ALEAHQNVAQLSLAQ+0.984AQLR-1.0000     NotChecked  -21.4622    2061.0967   ✗       
+963   +43.006LEAHENVAQLSLAEAQLR-1.0000     NotChecked  -21.4648    2034.0494   ✗       
+964   ALLAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -21.4695    2045.1382   ✗       
+965   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.4826    2032.0702   ✗       
+966   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.4836    2032.0702   ✗       
+967   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -21.4851    1990.0596   ✗       
+968   +43.006LEAHQNVAQLSLAEAQR -1.0000     NotChecked  -21.4878    1919.9813   ✗       
+969   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.4945    2033.0654   ✗       
+970   LEAHQN+0.984VAQLSLAEAQLR -1.0000     NotChecked  -21.5018    1991.0436   ✗       
+971   +43.006LEEHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.5085    2091.0709   ✗       
+972   +43.006LQ+0.984AHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.5237    2033.0654   ✗       
+973   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.5296    2032.0702   ✗       
+974   +42.011LEAHQNVAQ+0.984LSLAEAQLR-1.0000     NotChecked  -21.5389    2033.0542   ✗       
+975   LEAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -21.5407    1990.0596   ✗       
+976   ALEAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -21.5569    2062.0807   ✗       
+977   +43.006LEAHQ+0.984NVAQLSLAEAQLR-1.0000     NotChecked  -21.5573    2034.0494   ✗       
+978   +43.006LEGAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.5589    2090.0869   ✗       
+979   +42.011LLEHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.5645    2074.1171   ✗       
+980   GEEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -21.5786    2063.0396   ✗       
+981   VLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -21.5832    2089.1280   ✗       
+982   +43.006LLAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.5873    2017.1069   ✗       
+983   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.5882    2032.0702   ✗       
+984   VLEAHQN+0.984VAQLSLAEAQLR-1.0000     NotChecked  -21.5999    2090.1120   ✗       
+985   +42.011LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.6099    2032.0702   ✗       
+986   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.6112    2033.0654   ✗       
+987   +43.006LAHQNVAQLSLAEAQLR -1.0000     NotChecked  -21.6115    1904.0228   ✗       
+988   +43.006LEAHQNVAQLSLAEAQ+0.984LR-1.0000     NotChecked  -21.6120    2034.0494   ✗       
+989   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.6122    2033.0654   ✗       
+990   +43.006LLAHQNVAQLSLAQ+0.984AQLR-1.0000     NotChecked  -21.6166    2017.1069   ✗       
+991   ELAHQNVAQLSLAEAQLR       -1.0000     NotChecked  -21.6238    1990.0596   ✗       
+992   +42.011LLAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.6279    2016.1116   ✗       
+993   VLEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -21.6387    2089.1280   ✗       
+994   LEAHQ+0.984NVAQLSLAEAQLR -1.0000     NotChecked  -21.6406    1991.0436   ✗       
+995   +42.011LQ+0.984AHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.6507    2032.0702   ✗       
+996   ALEAHQNVAQLSLAEAQLR      -1.0000     NotChecked  -21.6570    2061.0967   ✗       
+997   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.6583    2033.0654   ✗       
+998   +42.011LEAHQNVAQLSLAQ+0.984AQLR-1.0000     NotChecked  -21.6755    2032.0702   ✗       
+999   +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.6825    2033.0654   ✗       
+1000  +43.006LEAHQNVAQLSLAEAQLR-1.0000     NotChecked  -21.6854    2033.0654   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: LLEAHQNVAQLSLAEAQLR
+Similarity: 0.8723
+De Novo Score: -0.8920
+Source: Database
+Correct: ✓
+

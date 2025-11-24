@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 202
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 776.3823
+Precursor charge: 2+
+Ground truth: TM+15.995SEVGGSVEDIIAK
+Ground truth (normalized): TM+15.995SEVGGSVEDIIAK
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 211
+Used for reranking: 211
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 211 (21.1%)
+Database matches: 3 (0.3%)
+Prosit predictions: 207 (20.7%)
+Failed: 1 (0.1%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 67/1000
+Rank by similarity: 1/1000
+Similarity: 0.6322
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     TM+15.995SEVGGSVEDLLAK   0.6322      Database    -14.3216    1550.7498   ✓       ✓
+2     TM+15.995SEVGGSVEDLLAK   0.6322      Database    -15.0435    1550.7498   ✓       ✓
+3     TM+15.995SEVGGSVEDLLAK   0.6322      Database    -20.8146    1550.7498   ✓       ✓
+4     TFSEVGGVSEDLLAK          0.4930      Prosit      -18.6792    1550.7828   ✓       
+5     TFSEVGGVSEDLLAK          0.4930      Prosit      -19.4011    1550.7828   ✓       
+6     TFSEVGGVSEDLLAK          0.4930      Prosit      -21.9235    1550.7828   ✓       
+7     TFSEVGGVSEDLLAK          0.4930      Prosit      -22.6454    1550.7828   ✓       
+8     TM+15.995SQ+0.984VGGVSEDLLAK0.4902      Prosit      -14.4834    1550.7498   ✓       
+9     TM+15.995SQ+0.984VGGVSEDLLAK0.4902      Prosit      -15.2053    1550.7498   ✓       
+10    TM+15.995SQ+0.984VGGVSEDLLAK0.4902      Prosit      -17.7277    1550.7498   ✓       
+11    TM+15.995SQ+0.984VGGVSEDLLAK0.4902      Prosit      -18.4496    1550.7498   ✓       
+12    TM+15.995SQ+0.984VGGVSEDLLAK0.4902      Prosit      -20.9764    1550.7498   ✓       
+13    LM+15.995SEVGGSSEDLLAK   0.4731      Prosit      -24.3718    1550.7498   ✓       
+14    LM+15.995SEVGGSSEDLLAK   0.4731      Prosit      -25.0937    1550.7498   ✓       
+15    LM+15.995SEVGGSSEDLLAK   0.4731      Prosit      -30.8648    1550.7498   ✓       
+16    TM+15.995SEVGGLSDDLLAK   0.4580      Prosit      -17.9913    1550.7498   ✓       
+17    TM+15.995SEVGGLSDDLLAK   0.4580      Prosit      -18.7132    1550.7498   ✓       
+18    SM+15.995SEVGGLSEDLLAK   0.4549      Prosit      -23.4567    1550.7498   ✓       
+19    SM+15.995SEVGGLSEDLLAK   0.4549      Prosit      -24.1786    1550.7498   ✓       
+20    SM+15.995SEVGGLSEDLLAK   0.4549      Prosit      -29.9497    1550.7498   ✓       
+21    SM+15.995SEVGGLSEDLLAK   0.4549      Prosit      -30.6716    1550.7498   ✓       
+22    TM+15.995SDVGGLSEDLLAK   0.4473      Prosit      -20.3733    1550.7498   ✓       
+23    TM+15.995SDVGGLSEDLLAK   0.4473      Prosit      -21.0952    1550.7498   ✓       
+24    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -0.4426     1550.7498   ✓       
+25    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -1.1645     1550.7498   ✓       
+26    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -3.6869     1550.7498   ✓       
+27    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -4.4088     1550.7498   ✓       
+28    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -6.9356     1550.7498   ✓       
+29    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -7.6575     1550.7498   ✓       
+30    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -9.1980     1550.7498   ✓       
+31    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -9.8386     1550.7498   ✓       
+32    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -9.9199     1550.7498   ✓       
+33    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -10.1799    1550.7498   ✓       
+34    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -10.5605    1550.7498   ✓       
+35    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -10.9018    1550.7498   ✓       
+36    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -11.0593    1550.7498   ✓       
+37    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -11.0935    1550.7498   ✓       
+38    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -11.4885    1550.7498   ✓       
+39    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -11.5908    1550.7498   ✓       
+40    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -11.7813    1550.7498   ✓       
+41    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -11.8154    1550.7498   ✓       
+42    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -12.2104    1550.7498   ✓       
+43    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -12.3127    1550.7498   ✓       
+44    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -12.4423    1550.7498   ✓       
+45    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -12.6256    1550.7498   ✓       
+46    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -13.0829    1550.7498   ✓       
+47    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -13.1642    1550.7498   ✓       
+48    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -13.2002    1550.7498   ✓       
+49    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -13.2236    1550.7498   ✓       
+50    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -13.3475    1550.7498   ✓       
+51    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -13.4186    1550.7498   ✓       
+52    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -13.7411    1550.7498   ✓       
+53    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -13.8048    1550.7498   ✓       
+54    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -13.8928    1550.7498   ✓       
+55    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -13.9221    1550.7498   ✓       
+56    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -13.9455    1550.7498   ✓       
+57    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -14.1405    1550.7498   ✓       
+58    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -14.3036    1550.7498   ✓       
+59    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -14.3378    1550.7498   ✓       
+60    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -14.4630    1550.7498   ✓       
+61    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -14.6147    1550.7498   ✓       
+62    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -14.7328    1550.7498   ✓       
+63    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -14.8351    1550.7498   ✓       
+64    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -15.0256    1550.7498   ✓       
+65    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -15.0597    1550.7498   ✓       
+66    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -15.1389    1550.7498   ✓       
+67    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -15.3720    1550.7498   ✓       
+68    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -15.4547    1550.7498   ✓       
+69    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -15.5570    1550.7498   ✓       
+70    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -15.6910    1550.7498   ✓       
+71    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -15.8608    1550.7498   ✓       
+72    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -15.8699    1550.7498   ✓       
+73    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -16.0940    1550.7498   ✓       
+74    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -16.3315    1550.7498   ✓       
+75    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -16.4129    1550.7498   ✓       
+76    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -16.4445    1550.7498   ✓       
+77    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -16.4679    1550.7498   ✓       
+78    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -16.5918    1550.7498   ✓       
+79    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -16.6629    1550.7498   ✓       
+80    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -16.8587    1550.7498   ✓       
+81    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -16.9854    1550.7498   ✓       
+82    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -17.0534    1550.7498   ✓       
+83    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -17.1371    1550.7498   ✓       
+84    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -17.1664    1550.7498   ✓       
+85    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -17.1898    1550.7498   ✓       
+86    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -17.2874    1550.7498   ✓       
+87    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -17.3848    1550.7498   ✓       
+88    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -17.4351    1550.7498   ✓       
+89    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -17.5523    1550.7498   ✓       
+90    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -17.5806    1550.7498   ✓       
+91    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -17.5865    1550.7498   ✓       
+92    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -17.6554    1550.7498   ✓       
+93    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -17.7073    1550.7498   ✓       
+94    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -17.8590    1550.7498   ✓       
+95    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -17.9814    1550.7498   ✓       
+96    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -18.0838    1550.7498   ✓       
+97    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -18.0902    1550.7498   ✓       
+98    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -18.1570    1550.7498   ✓       
+99    TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -18.2742    1550.7498   ✓       
+100   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -18.3084    1550.7498   ✓       
+101   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -18.3253    1550.7498   ✓       
+102   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -18.3773    1550.7498   ✓       
+103   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -18.3832    1550.7498   ✓       
+104   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -18.5940    1550.7498   ✓       
+105   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -18.6163    1550.7498   ✓       
+106   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -18.6959    1550.7498   ✓       
+107   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -18.7034    1550.7498   ✓       
+108   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -18.8057    1550.7498   ✓       
+109   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -18.9353    1550.7498   ✓       
+110   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -18.9372    1550.7498   ✓       
+111   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -18.9844    1550.7498   ✓       
+112   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -19.0472    1550.7498   ✓       
+113   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -19.1051    1550.7498   ✓       
+114   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -19.1186    1550.7498   ✓       
+115   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -19.1717    1550.7498   ✓       
+116   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -19.1757    1550.7498   ✓       
+117   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -19.3159    1550.7498   ✓       
+118   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -19.3383    1550.7498   ✓       
+119   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -19.3462    1550.7498   ✓       
+120   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -19.4179    1550.7498   ✓       
+121   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -19.5758    1550.7498   ✓       
+122   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -19.6046    1550.7498   ✓       
+123   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -19.6572    1550.7498   ✓       
+124   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -19.6591    1550.7498   ✓       
+125   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -19.7063    1550.7498   ✓       
+126   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -19.7166    1550.7498   ✓       
+127   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -19.8148    1550.7498   ✓       
+128   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -19.8405    1550.7498   ✓       
+129   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -19.8489    1550.7498   ✓       
+130   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -19.8936    1550.7498   ✓       
+131   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -19.8976    1550.7498   ✓       
+132   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -19.9116    1550.7498   ✓       
+133   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -20.0430    1550.7498   ✓       
+134   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -20.0681    1550.7498   ✓       
+135   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -20.1030    1550.7498   ✓       
+136   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -20.2341    1550.7498   ✓       
+137   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -20.2439    1550.7498   ✓       
+138   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -20.2977    1550.7498   ✓       
+139   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -20.3462    1550.7498   ✓       
+140   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -20.3858    1550.7498   ✓       
+141   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -20.4116    1550.7498   ✓       
+142   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -20.4385    1550.7498   ✓       
+143   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -20.4553    1550.7498   ✓       
+144   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -20.4895    1550.7498   ✓       
+145   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -20.5317    1550.7498   ✓       
+146   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -20.5367    1550.7498   ✓       
+147   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -20.5708    1550.7498   ✓       
+148   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -20.6335    1550.7498   ✓       
+149   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -20.7650    1550.7498   ✓       
+150   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -20.7966    1550.7498   ✓       
+151   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -20.8084    1550.7498   ✓       
+152   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -20.8249    1550.7498   ✓       
+153   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -20.8308    1550.7498   ✓       
+154   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -20.8844    1550.7498   ✓       
+155   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -20.8997    1550.7498   ✓       
+156   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -20.9060    1550.7498   ✓       
+157   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -20.9560    1550.7498   ✓       
+158   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -20.9658    1550.7498   ✓       
+159   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -20.9868    1550.7498   ✓       
+160   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -21.0681    1550.7498   ✓       
+161   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -21.1077    1550.7498   ✓       
+162   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -21.1335    1550.7498   ✓       
+163   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -21.1772    1550.7498   ✓       
+164   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -21.2114    1550.7498   ✓       
+165   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -21.2257    1550.7498   ✓       
+166   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -21.3281    1550.7498   ✓       
+167   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -21.3345    1550.7498   ✓       
+168   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -21.3810    1550.7498   ✓       
+169   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -21.5185    1550.7498   ✓       
+170   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -21.7103    1550.7498   ✓       
+171   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -22.1052    1550.7498   ✓       
+172   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -22.2075    1550.7498   ✓       
+173   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -22.4322    1550.7498   ✓       
+174   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -22.6482    1550.7498   ✓       
+175   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -22.8271    1550.7498   ✓       
+176   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -22.9295    1550.7498   ✓       
+177   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -23.0591    1550.7498   ✓       
+178   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -23.2424    1550.7498   ✓       
+179   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -23.2888    1550.7498   ✓       
+180   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -23.3701    1550.7498   ✓       
+181   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -23.6301    1550.7498   ✓       
+182   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -23.6996    1550.7498   ✓       
+183   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -23.7810    1550.7498   ✓       
+184   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -23.8169    1550.7498   ✓       
+185   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -23.8404    1550.7498   ✓       
+186   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -29.0131    1550.7498   ✓       
+187   TM+15.995SEVGGVSEDLLAK   0.4454      Prosit      -29.7350    1550.7498   ✓       
+188   TM+15.995SEVGGVSQ+0.984DLLAK0.4229      Prosit      -10.7700    1550.7498   ✓       
+189   TM+15.995SEVGGVSQ+0.984DLLAK0.4229      Prosit      -11.4920    1550.7498   ✓       
+190   TM+15.995SEVGGVSQ+0.984DLLAK0.4229      Prosit      -14.0143    1550.7498   ✓       
+191   TM+15.995SEVGGVSQ+0.984DLLAK0.4229      Prosit      -14.7363    1550.7498   ✓       
+192   TM+15.995SEVGGVSQ+0.984DLLAK0.4229      Prosit      -17.2630    1550.7498   ✓       
+193   TM+15.995SEVGGVSQ+0.984DLLAK0.4229      Prosit      -17.9849    1550.7498   ✓       
+194   TM+15.995SEVGGVSQ+0.984DLLAK0.4229      Prosit      -19.5255    1550.7498   ✓       
+195   TM+15.995SEVGGVSQ+0.984DLLAK0.4229      Prosit      -20.1660    1550.7498   ✓       
+196   TM+15.995SEVGGVSQ+0.984DLLAK0.4229      Prosit      -20.2474    1550.7498   ✓       
+197   TM+15.995SEVGGVSQ+0.984DLLAK0.4229      Prosit      -20.5073    1550.7498   ✓       
+198   TM+15.995SEVGGVSQ+0.984DLLAK0.4229      Prosit      -20.8879    1550.7498   ✓       
+199   TM+15.995SEVGGVSQ+0.984DLLAK0.4229      Prosit      -21.2292    1550.7498   ✓       
+200   TM+15.995SEVGGVSQ+0.984DLLAK0.4229      Prosit      -21.3868    1550.7498   ✓       
+201   TM+15.995SEVGGVSQ+0.984DLLAK0.4229      Prosit      -21.4210    1550.7498   ✓       
+202   TM+15.995SEVGGVSQ+0.984DLLAK0.4229      Prosit      -22.1087    1550.7498   ✓       
+203   TM+15.995SEVGGVSEN+0.984LLAK0.4207      Prosit      -16.1707    1550.7498   ✓       
+204   TM+15.995SEVGGVSEN+0.984LLAK0.4207      Prosit      -16.8927    1550.7498   ✓       
+205   TM+15.995SEVGGVSEN+0.984LLAK0.4207      Prosit      -19.4150    1550.7498   ✓       
+206   TM+15.995SEVGGVSEN+0.984LLAK0.4207      Prosit      -20.1370    1550.7498   ✓       
+207   TM+15.995SEVGGVSEDLLAQ   0.3878      Prosit      -15.4528    1550.7134   ✓       
+208   TM+15.995SEVGGVSEDLLAQ   0.3878      Prosit      -16.1747    1550.7134   ✓       
+209   TM+15.995SEVGGVSEDLLAQ   0.3878      Prosit      -18.6971    1550.7134   ✓       
+210   TM+15.995SEVGGVSEDLLAQ   0.3878      Prosit      -19.4190    1550.7134   ✓       
+211   TM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -6.7844     1538.7134   ✗       
+212   TM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -7.5063     1538.7134   ✗       
+213   TM+15.995SEVGGVSQDLLAK   -1.0000     NotChecked  -11.8756    1549.7658   ✗       
+214   TM+15.995SEVGGVSDDLLAK   -1.0000     NotChecked  -12.4001    1536.7341   ✗       
+215   TMSEVGGVSEDLLAK          -1.0000     NotChecked  -12.4856    1534.7549   ✗       
+216   TM+15.995SEVGGVSQDLLAK   -1.0000     NotChecked  -12.5975    1549.7658   ✗       
+217   TM+15.995SEVGGVSADLLAK   -1.0000     NotChecked  -12.8619    1492.7443   ✗       
+218   TM+15.995SEVGGVGEDLLAK   -1.0000     NotChecked  -12.8760    1520.7392   ✗       
+219   TM+15.995SEVGGVSTDLLAK   -1.0000     NotChecked  -12.9357    1522.7549   ✗       
+220   TM+15.995SQVGGVSEDLLAK   -1.0000     NotChecked  -13.1206    1549.7658   ✗       
+221   TM+15.995SEVGGVSDDLLAK   -1.0000     NotChecked  -13.1220    1536.7341   ✗       
+222   TMSEVGGVSEDLLAK          -1.0000     NotChecked  -13.2075    1534.7549   ✗       
+223   TM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -13.2774    1538.7134   ✗       
+224   TM+15.995SEVGGVSLDLLAK   -1.0000     NotChecked  -13.3821    1534.7913   ✗       
+225   TM+15.995SEVGGVSEDLLA    -1.0000     NotChecked  -13.3997    1422.6548   ✗       
+226   TM+15.995AEVGGVSEDLLAK   -1.0000     NotChecked  -13.5532    1534.7549   ✗       
+227   TM+15.995SEVGGVSADLLAK   -1.0000     NotChecked  -13.5838    1492.7443   ✗       
+228   TM+15.995SEVGGVGEDLLAK   -1.0000     NotChecked  -13.5979    1520.7392   ✗       
+229   TM+15.995SEVGGVSTDLLAK   -1.0000     NotChecked  -13.6576    1522.7549   ✗       
+230   TM+15.995SEVGGVAEDLLAK   -1.0000     NotChecked  -13.7571    1534.7549   ✗       
+231   TM+15.995SQVGGVSEDLLAK   -1.0000     NotChecked  -13.8425    1549.7658   ✗       
+232   TM+15.995SEVGGVSVDLLAK   -1.0000     NotChecked  -13.8715    1520.7756   ✗       
+233   TM+15.995SEVGGVEDLLAK    -1.0000     NotChecked  -13.9095    1463.7178   ✗       
+234   TM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -13.9993    1538.7134   ✗       
+235   TM+15.995SEVGGVSLDLLAK   -1.0000     NotChecked  -14.1040    1534.7913   ✗       
+236   TM+15.995SEVGGVSEDLLA    -1.0000     NotChecked  -14.1216    1422.6548   ✗       
+237   TM+15.995SEVGGSEDLLAK    -1.0000     NotChecked  -14.1908    1451.6814   ✗       
+238   TM+15.995AEVGGVSEDLLAK   -1.0000     NotChecked  -14.2751    1534.7549   ✗       
+239   TM+15.995SEVGGVSEDLLK    -1.0000     NotChecked  -14.4130    1479.7127   ✗       
+240   TM+15.995SEVGGVAEDLLAK   -1.0000     NotChecked  -14.4790    1534.7549   ✗       
+241   TM+15.995SEVGGVSVDLLAK   -1.0000     NotChecked  -14.5934    1520.7756   ✗       
+242   TM+15.995SEVGGVEDLLAK    -1.0000     NotChecked  -14.6315    1463.7178   ✗       
+243   TM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -14.6421    1538.7134   ✗       
+244   TM+15.995SEVGGGSEDLLAK   -1.0000     NotChecked  -14.6608    1508.7028   ✗       
+245   TM+15.995SEVGGVSSDLLAK   -1.0000     NotChecked  -14.6880    1508.7392   ✗       
+246   TM+15.995SDVGGVSEDLLAK   -1.0000     NotChecked  -14.7821    1536.7341   ✗       
+247   TM+15.995SEVGGVSEVLLAK   -1.0000     NotChecked  -14.8319    1534.7913   ✗       
+248   TM+15.995SEVGGSEDLLAK    -1.0000     NotChecked  -14.9127    1451.6814   ✗       
+249   TM+15.995SEVGGVSEDLAAK   -1.0000     NotChecked  -15.0034    1508.7028   ✗       
+250   TM+15.995SEVGGVSENLLAK   -1.0000     NotChecked  -15.0179    1549.7658   ✗       
+251   TM+15.995SEVGGVSQDLLAK   -1.0000     NotChecked  -15.1199    1549.7658   ✗       
+252   TM+15.995SEVGGVSEDLLK    -1.0000     NotChecked  -15.1349    1479.7127   ✗       
+253   TM+15.995SEVGGVSEDLPAK   -1.0000     NotChecked  -15.3563    1534.7185   ✗       
+254   TM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -15.3640    1538.7134   ✗       
+255   TM+15.995SEVGGGSEDLLAK   -1.0000     NotChecked  -15.3827    1508.7028   ✗       
+256   TM+15.995SEVGGVSSDLLAK   -1.0000     NotChecked  -15.4099    1508.7392   ✗       
+257   TM+15.995SEVGGVSDLLAK    -1.0000     NotChecked  -15.4568    1421.7072   ✗       
+258   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -15.4616    1491.7127   ✗       
+259   TM+15.995SDVGGVSEDLLAK   -1.0000     NotChecked  -15.5040    1536.7341   ✗       
+260   TM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -15.5398    1538.7134   ✗       
+261   TM+15.995SEVGGVSEVLLAK   -1.0000     NotChecked  -15.5538    1534.7913   ✗       
+262   TM+15.995SEVGGVSETLLAK   -1.0000     NotChecked  -15.5669    1536.7705   ✗       
+263   TM+15.995SEVGGVSELLLAK   -1.0000     NotChecked  -15.6242    1548.8069   ✗       
+264   TM+15.995SEVGGVSDDLLAK   -1.0000     NotChecked  -15.6444    1536.7341   ✗       
+265   TM+15.995SEVGGVSEALLAK   -1.0000     NotChecked  -15.6874    1506.7600   ✗       
+266   TM+15.995SEVGGVSEDLAAK   -1.0000     NotChecked  -15.7253    1508.7028   ✗       
+267   TMSEVGGVSEDLLAK          -1.0000     NotChecked  -15.7299    1534.7549   ✗       
+268   TM+15.995SEVGGVSENLLAK   -1.0000     NotChecked  -15.7398    1549.7658   ✗       
+269   TM+15.995SEVGGVSQDLLAK   -1.0000     NotChecked  -15.8418    1549.7658   ✗       
+270   TM+15.995SEVGGVSEDLPAK   -1.0000     NotChecked  -16.0782    1534.7185   ✗       
+271   TM+15.995SEVGGVSADLLAK   -1.0000     NotChecked  -16.1062    1492.7443   ✗       
+272   TM+15.995SEVGGVSEGLLAK   -1.0000     NotChecked  -16.1153    1492.7443   ✗       
+273   TM+15.995SEVGGVGEDLLAK   -1.0000     NotChecked  -16.1203    1520.7392   ✗       
+274   TM+15.995SEVGGVSESLLAK   -1.0000     NotChecked  -16.1527    1522.7549   ✗       
+275   TM+15.995SEVGGVSDLLAK    -1.0000     NotChecked  -16.1787    1421.7072   ✗       
+276   TM+15.995SEVGGVSTDLLAK   -1.0000     NotChecked  -16.1800    1522.7549   ✗       
+277   TM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -16.1804    1538.7134   ✗       
+278   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -16.1835    1491.7127   ✗       
+279   TM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -16.2617    1538.7134   ✗       
+280   TM+15.995SEVGGVSETLLAK   -1.0000     NotChecked  -16.2888    1536.7705   ✗       
+281   TM+15.995SKVGGVSEDLLAK   -1.0000     NotChecked  -16.3208    1549.8022   ✗       
+282   TM+15.995SEVGGVSELLLAK   -1.0000     NotChecked  -16.3461    1548.8069   ✗       
+283   TM+15.995SQVGGVSEDLLAK   -1.0000     NotChecked  -16.3649    1549.7658   ✗       
+284   TM+15.995SEVGGVSDDLLAK   -1.0000     NotChecked  -16.3663    1536.7341   ✗       
+285   TM+15.995SEVGGVSEALLAK   -1.0000     NotChecked  -16.4093    1506.7600   ✗       
+286   TMSEVGGVSEDLLAK          -1.0000     NotChecked  -16.4518    1534.7549   ✗       
+287   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -16.5136    1548.7705   ✗       
+288   TM+15.995SEVGGVSEDLLGK   -1.0000     NotChecked  -16.5405    1536.7341   ✗       
+289   TM+15.995SAVGGVSEDLLAK   -1.0000     NotChecked  -16.5555    1492.7443   ✗       
+290   TM+15.995SEVGGVSLDLLAK   -1.0000     NotChecked  -16.6264    1534.7913   ✗       
+291   TM+15.995SEVGGVSEDLLA    -1.0000     NotChecked  -16.6440    1422.6548   ✗       
+292   TM+15.995STVGGVSEDLLAK   -1.0000     NotChecked  -16.7825    1522.7549   ✗       
+293   TM+15.995AEVGGVSEDLLAK   -1.0000     NotChecked  -16.7975    1534.7549   ✗       
+294   TM+15.995SEVGGVSADLLAK   -1.0000     NotChecked  -16.8281    1492.7443   ✗       
+295   TM+15.995SEVGGVSEGLLAK   -1.0000     NotChecked  -16.8372    1492.7443   ✗       
+296   TM+15.995SEVGGVGEDLLAK   -1.0000     NotChecked  -16.8422    1520.7392   ✗       
+297   TM+15.995SGVGGVSEDLLAK   -1.0000     NotChecked  -16.8468    1478.7287   ✗       
+298   TM+15.995GEVGGVSEDLLAK   -1.0000     NotChecked  -16.8545    1520.7392   ✗       
+299   TM+15.995SEVGGVSESLLAK   -1.0000     NotChecked  -16.8746    1522.7549   ✗       
+300   TM+15.995SEVGGVSTDLLAK   -1.0000     NotChecked  -16.9019    1522.7549   ✗       
+301   TM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -16.9023    1538.7134   ✗       
+302   TM+15.995SEVGGVSEDALAK   -1.0000     NotChecked  -16.9335    1508.7028   ✗       
+303   TM+15.995SEVGGVAEDLLAK   -1.0000     NotChecked  -17.0014    1534.7549   ✗       
+304   TM+15.995SKVGGVSEDLLAK   -1.0000     NotChecked  -17.0427    1549.8022   ✗       
+305   TM+15.995SQVGGVSEDLLAK   -1.0000     NotChecked  -17.0868    1549.7658   ✗       
+306   TM+15.995SEVGGSSQ+0.984DLLAK-1.0000     NotChecked  -17.1118    1538.7134   ✗       
+307   TM+15.995SEVGGVSEDLLAS   -1.0000     NotChecked  -17.1127    1509.6868   ✗       
+308   TM+15.995SEVGGVSVDLLAK   -1.0000     NotChecked  -17.1158    1520.7756   ✗       
+309   TM+15.995SEVGGVEDLLAK    -1.0000     NotChecked  -17.1538    1463.7178   ✗       
+310   TM+15.995SSVGGVSEDLLAK   -1.0000     NotChecked  -17.1803    1508.7392   ✗       
+311   TM+15.995SLVGGVSEDLLAK   -1.0000     NotChecked  -17.2059    1534.7913   ✗       
+312   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -17.2355    1548.7705   ✗       
+313   TM+15.995SEVGGVSEDLAK    -1.0000     NotChecked  -17.2427    1437.6657   ✗       
+314   TM+15.995SEVGGVSEDLLGK   -1.0000     NotChecked  -17.2624    1536.7341   ✗       
+315   TM+15.995SAVGGVSEDLLAK   -1.0000     NotChecked  -17.2774    1492.7443   ✗       
+316   TM+15.995SEVGGVSEDLLAG   -1.0000     NotChecked  -17.2842    1479.6763   ✗       
+317   TM+15.995SEVGGVSLDLLAK   -1.0000     NotChecked  -17.3483    1534.7913   ✗       
+318   TM+15.995SEVGGVSEDLLA    -1.0000     NotChecked  -17.3659    1422.6548   ✗       
+319   TM+15.995SEVGVSEDLLAK    -1.0000     NotChecked  -17.3683    1493.7283   ✗       
+320   TM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -17.4011    1538.7134   ✗       
+321   TM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -17.4353    1538.7134   ✗       
+322   TM+15.995STVGGVSEDLLAK   -1.0000     NotChecked  -17.5044    1522.7549   ✗       
+323   TM+15.995AEVGGVSEDLLAK   -1.0000     NotChecked  -17.5194    1534.7549   ✗       
+324   +43.006M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -17.5637    1492.7079   ✗       
+325   TM+15.995SGVGGVSEDLLAK   -1.0000     NotChecked  -17.5687    1478.7287   ✗       
+326   TM+15.995GEVGGVSEDLLAK   -1.0000     NotChecked  -17.5764    1520.7392   ✗       
+327   TM+15.995SEVGGVSEDALAK   -1.0000     NotChecked  -17.6554    1508.7028   ✗       
+328   TM+15.995SEVGGVSEDLLK    -1.0000     NotChecked  -17.6573    1479.7127   ✗       
+329   TM+15.995SEVGGVSEDVLAK   -1.0000     NotChecked  -17.6827    1536.7341   ✗       
+330   TM+15.995SEVGGVAEDLLAK   -1.0000     NotChecked  -17.7233    1534.7549   ✗       
+331   TM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -17.8303    1538.7134   ✗       
+332   TM+15.995SEVGGSSQ+0.984DLLAK-1.0000     NotChecked  -17.8338    1538.7134   ✗       
+333   TM+15.995SEVGGVSEDLLAS   -1.0000     NotChecked  -17.8347    1509.6868   ✗       
+334   TM+15.995SEVGGVSVDLLAK   -1.0000     NotChecked  -17.8377    1520.7756   ✗       
+335   TM+15.995SEVGGVSEDLLK    -1.0000     NotChecked  -17.8542    1479.7127   ✗       
+336   TSSEVGGVSEDLLAK          -1.0000     NotChecked  -17.8552    1490.7464   ✗       
+337   SM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -17.8655    1536.7341   ✗       
+338   TM+15.995SEVGGVEDLLAK    -1.0000     NotChecked  -17.8758    1463.7178   ✗       
+339   TM+15.995SSVGGVSEDLLAK   -1.0000     NotChecked  -17.9022    1508.7392   ✗       
+340   TM+15.995SLVGGVSEDLLAK   -1.0000     NotChecked  -17.9278    1534.7913   ✗       
+341   TM+15.995SEVGGVSSDLLAK   -1.0000     NotChecked  -17.9323    1508.7392   ✗       
+342   TM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -17.9326    1538.7134   ✗       
+343   TM+15.995SEVGGVSEDLAK    -1.0000     NotChecked  -17.9646    1437.6657   ✗       
+344   TM+15.995SEVGGVSEDLLAG   -1.0000     NotChecked  -18.0061    1479.6763   ✗       
+345   TM+15.995SEVGVSEDLLAK    -1.0000     NotChecked  -18.0093    1493.7283   ✗       
+346   TM+15.995SDVGGVSEDLLAK   -1.0000     NotChecked  -18.0264    1536.7341   ✗       
+347   TM+15.995SEVGGVSEVLLAK   -1.0000     NotChecked  -18.0762    1534.7913   ✗       
+348   TMSEVGGLSEDLLAK          -1.0000     NotChecked  -18.0769    1548.7705   ✗       
+349   TM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -18.1231    1538.7134   ✗       
+350   TM+15.995SEVGGVSEDLVAK   -1.0000     NotChecked  -18.1364    1536.7341   ✗       
+351   TM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -18.1572    1538.7134   ✗       
+352   TM+15.995SEVGGVSEDTLAK   -1.0000     NotChecked  -18.2128    1538.7134   ✗       
+353   TM+15.995SEVGGSSQDLLAK   -1.0000     NotChecked  -18.2174    1537.7294   ✗       
+354   TM+15.995SEVGGVSEDLGAK   -1.0000     NotChecked  -18.2237    1494.6872   ✗       
+355   TM+15.995SEVGGVSEDLLAL   -1.0000     NotChecked  -18.2390    1535.7389   ✗       
+356   TM+15.995SEVGGVSEDLAAK   -1.0000     NotChecked  -18.2477    1508.7028   ✗       
+357   TLSEVGGVSEDLLAK          -1.0000     NotChecked  -18.2497    1516.7984   ✗       
+358   TM+15.995SEVGGVSENLLAK   -1.0000     NotChecked  -18.2622    1549.7658   ✗       
+359   +43.006M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -18.2857    1492.7079   ✗       
+360   TM+15.995SEVGGVSEDLLAV   -1.0000     NotChecked  -18.3073    1521.7232   ✗       
+361   TM+15.995SEVGGVSQDLLAK   -1.0000     NotChecked  -18.3686    1549.7658   ✗       
+362   TM+15.995SEVGGVSEDLLK    -1.0000     NotChecked  -18.3792    1479.7127   ✗       
+363   M+15.995SEVGGVSEDLLAK    -1.0000     NotChecked  -18.3963    1449.7021   ✗       
+364   TM+15.995SEVGGVSEDVLAK   -1.0000     NotChecked  -18.4046    1536.7341   ✗       
+365   TM+15.995SEVGGLSADLLAK   -1.0000     NotChecked  -18.4531    1506.7600   ✗       
+366   TM+15.995SEVGGLGEDLLAK   -1.0000     NotChecked  -18.4672    1534.7549   ✗       
+367   TTSEVGGVSEDLLAK          -1.0000     NotChecked  -18.5003    1504.7621   ✗       
+368   TM+15.995SEVGGLSTDLLAK   -1.0000     NotChecked  -18.5270    1536.7705   ✗       
+369   TM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -18.5522    1538.7134   ✗       
+370   TM+15.995SEVGGVSEDLLK    -1.0000     NotChecked  -18.5761    1479.7127   ✗       
+371   TSSEVGGVSEDLLAK          -1.0000     NotChecked  -18.5771    1490.7464   ✗       
+372   SM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -18.5874    1536.7341   ✗       
+373   TM+15.995SEVGGVSEDLPAK   -1.0000     NotChecked  -18.6006    1534.7185   ✗       
+374   TM+15.995SEVGGVSSDLLAK   -1.0000     NotChecked  -18.6542    1508.7392   ✗       
+375   TM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -18.6545    1538.7134   ✗       
+376   TM+15.995SEVGGVSDLLAK    -1.0000     NotChecked  -18.7011    1421.7072   ✗       
+377   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -18.7059    1491.7127   ✗       
+378   TM+15.995SEVGGVSEDSLAK   -1.0000     NotChecked  -18.7366    1524.6977   ✗       
+379   TM+15.995SEVGGSSDDLLAK   -1.0000     NotChecked  -18.7419    1524.6977   ✗       
+380   TM+15.995SDVGGVSEDLLAK   -1.0000     NotChecked  -18.7483    1536.7341   ✗       
+381   TM+15.995SEVGGVSEVLLAK   -1.0000     NotChecked  -18.7981    1534.7913   ✗       
+382   TMSEVGGLSEDLLAK          -1.0000     NotChecked  -18.7988    1548.7705   ✗       
+383   TM+15.995SEVGGVSETLLAK   -1.0000     NotChecked  -18.8112    1536.7705   ✗       
+384   TMSEVGGSSEDLLAK          -1.0000     NotChecked  -18.8274    1522.7185   ✗       
+385   TM+15.995SEVGGVSEDLLAT   -1.0000     NotChecked  -18.8395    1523.7025   ✗       
+386   TM+15.995SEVGGVSEDLVAK   -1.0000     NotChecked  -18.8583    1536.7341   ✗       
+387   TM+15.995SEVGGVSELLLAK   -1.0000     NotChecked  -18.8685    1548.8069   ✗       
+388   TM+15.995SEVGVSEDLLAK    -1.0000     NotChecked  -18.8827    1493.7283   ✗       
+389   TM+15.995SEVGGVSDDLLAK   -1.0000     NotChecked  -18.8930    1536.7341   ✗       
+390   TM+15.995SEVGGVSEALLAK   -1.0000     NotChecked  -18.9317    1506.7600   ✗       
+391   TM+15.995SEVGGVSEDTLAK   -1.0000     NotChecked  -18.9347    1538.7134   ✗       
+392   TM+15.995SEVGGSSQDLLAK   -1.0000     NotChecked  -18.9393    1537.7294   ✗       
+393   TM+15.995SEVGGVSEDLGAK   -1.0000     NotChecked  -18.9456    1494.6872   ✗       
+394   TM+15.995SEVGGVSEDLLAL   -1.0000     NotChecked  -18.9609    1535.7389   ✗       
+395   TM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -18.9674    1538.7134   ✗       
+396   TM+15.995SEVGGVSEDLAAK   -1.0000     NotChecked  -18.9696    1508.7028   ✗       
+397   TLSEVGGVSEDLLAK          -1.0000     NotChecked  -18.9716    1516.7984   ✗       
+398   TVSEVGGVSEDLLAK          -1.0000     NotChecked  -18.9720    1502.7828   ✗       
+399   TM+15.995SEVGGLSLDLLAK   -1.0000     NotChecked  -18.9734    1548.8069   ✗       
+400   TMSEVGGVSEDLLAK          -1.0000     NotChecked  -18.9786    1534.7549   ✗       
+401   TM+15.995SEVGGVSENLLAK   -1.0000     NotChecked  -18.9841    1549.7658   ✗       
+402   TM+15.995SEVGGLSEDLLA    -1.0000     NotChecked  -18.9909    1436.6705   ✗       
+403   TM+15.995SEVGGVSEDLLAV   -1.0000     NotChecked  -19.0292    1521.7232   ✗       
+404   TM+15.995SEVGGVSEDLTAK   -1.0000     NotChecked  -19.0322    1538.7134   ✗       
+405   TM+15.995SEVGGVSQDLLAK   -1.0000     NotChecked  -19.0905    1549.7658   ✗       
+406   M+15.995SEVGGVSEDLLAK    -1.0000     NotChecked  -19.1182    1449.7021   ✗       
+407   TM+15.995AEVGGLSEDLLAK   -1.0000     NotChecked  -19.1444    1548.7705   ✗       
+408   TM+15.995SEVGGLSADLLAK   -1.0000     NotChecked  -19.1750    1506.7600   ✗       
+409   TM+15.995SEVGGLGEDLLAK   -1.0000     NotChecked  -19.1891    1534.7549   ✗       
+410   TM+15.995SEVGGSSADLLAK   -1.0000     NotChecked  -19.2037    1480.7079   ✗       
+411   TM+15.995SEVGGSGEDLLAK   -1.0000     NotChecked  -19.2178    1508.7028   ✗       
+412   TTSEVGGVSEDLLAK          -1.0000     NotChecked  -19.2222    1504.7621   ✗       
+413   TM+15.995SEVGGLSTDLLAK   -1.0000     NotChecked  -19.2489    1536.7705   ✗       
+414   TM+15.995SEVGGSSTDLLAK   -1.0000     NotChecked  -19.2775    1510.7185   ✗       
+415   TM+15.995SEVGGVSEDLPAK   -1.0000     NotChecked  -19.3225    1534.7185   ✗       
+416   TM+15.995SEVGGLAEDLLAK   -1.0000     NotChecked  -19.3483    1548.7705   ✗       
+417   TM+15.995SEVGGVSADLLAK   -1.0000     NotChecked  -19.3548    1492.7443   ✗       
+418   TM+15.995SEVGGVSEGLLAK   -1.0000     NotChecked  -19.3596    1492.7443   ✗       
+419   TM+15.995SEVGGVGEDLLAK   -1.0000     NotChecked  -19.3690    1520.7392   ✗       
+420   TM+15.995SEVGGVSESLLAK   -1.0000     NotChecked  -19.3970    1522.7549   ✗       
+421   TM+15.995SEVGGVSDLLAK    -1.0000     NotChecked  -19.4230    1421.7072   ✗       
+422   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -19.4278    1491.7127   ✗       
+423   TM+15.995SEVGGVSTDLLAK   -1.0000     NotChecked  -19.4287    1522.7549   ✗       
+424   TM+15.995SEVGGVSEDSLAK   -1.0000     NotChecked  -19.4585    1524.6977   ✗       
+425   TM+15.995SQVGGSSEDLLAK   -1.0000     NotChecked  -19.4624    1537.7294   ✗       
+426   TM+15.995SEVGGLSVDLLAK   -1.0000     NotChecked  -19.4627    1534.7913   ✗       
+427   TM+15.995SEVGGSSDDLLAK   -1.0000     NotChecked  -19.4638    1524.6977   ✗       
+428   TM+15.995SEVGGLEDLLAK    -1.0000     NotChecked  -19.5008    1477.7334   ✗       
+429   TM+15.995SEVGGVSETLLAK   -1.0000     NotChecked  -19.5331    1536.7705   ✗       
+430   TM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -19.5420    1538.7134   ✗       
+431   TMSEVGGSSEDLLAK          -1.0000     NotChecked  -19.5493    1522.7185   ✗       
+432   TM+15.995SEVGGVSEDLLAT   -1.0000     NotChecked  -19.5614    1523.7025   ✗       
+433   TM+15.995SKVGGVSEDLLAK   -1.0000     NotChecked  -19.5651    1549.8022   ✗       
+434   TM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -19.5654    1538.7134   ✗       
+435   TM+15.995SEVGGVSELLLAK   -1.0000     NotChecked  -19.5904    1548.8069   ✗       
+436   TM+15.995SQVGGVSEDLLAK   -1.0000     NotChecked  -19.6136    1549.7658   ✗       
+437   TM+15.995SEVGGVSDDLLAK   -1.0000     NotChecked  -19.6149    1536.7341   ✗       
+438   TM+15.995SEVGGVSEALLAK   -1.0000     NotChecked  -19.6536    1506.7600   ✗       
+439   TM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -19.6893    1538.7134   ✗       
+440   TVSEVGGVSEDLLAK          -1.0000     NotChecked  -19.6939    1502.7828   ✗       
+441   TM+15.995SEVGGLSLDLLAK   -1.0000     NotChecked  -19.6953    1548.8069   ✗       
+442   TMSEVGGVSEDLLAK          -1.0000     NotChecked  -19.7005    1534.7549   ✗       
+443   TM+15.995SEVGGLSEDLLA    -1.0000     NotChecked  -19.7128    1436.6705   ✗       
+444   TM+15.995SEVGGSSLDLLAK   -1.0000     NotChecked  -19.7239    1522.7549   ✗       
+445   TM+15.995SEVGGSSEDLLA    -1.0000     NotChecked  -19.7415    1410.6184   ✗       
+446   TM+15.995SEVGGVSEDLTAK   -1.0000     NotChecked  -19.7541    1538.7134   ✗       
+447   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -19.7579    1548.7705   ✗       
+448   TM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -19.7604    1538.7134   ✗       
+449   TM+15.995SEVGGVSEDLLGK   -1.0000     NotChecked  -19.7848    1536.7341   ✗       
+450   TM+15.995SAVGGVSEDLLAK   -1.0000     NotChecked  -19.7998    1492.7443   ✗       
+451   TM+15.995AEVGGLSEDLLAK   -1.0000     NotChecked  -19.8663    1548.7705   ✗       
+452   TM+15.995SEVGGVSLDLLAK   -1.0000     NotChecked  -19.8751    1534.7913   ✗       
+453   TM+15.995SEVGGVSEDLLA    -1.0000     NotChecked  -19.8926    1422.6548   ✗       
+454   TM+15.995AEVGGSSEDLLAK   -1.0000     NotChecked  -19.8950    1522.7185   ✗       
+455   TM+15.995SEVGGSSADLLAK   -1.0000     NotChecked  -19.9256    1480.7079   ✗       
+456   TM+15.995SEVGGVVDDLLAK   -1.0000     NotChecked  -19.9373    1548.7705   ✗       
+457   TM+15.995SEVGGSGEDLLAK   -1.0000     NotChecked  -19.9397    1508.7028   ✗       
+458   TM+15.995SEVGGSSTDLLAK   -1.0000     NotChecked  -19.9994    1510.7185   ✗       
+459   TM+15.995SEVGGLSEDLLK    -1.0000     NotChecked  -20.0042    1493.7283   ✗       
+460   TMSEVGGVVEDLLAK          -1.0000     NotChecked  -20.0228    1546.7913   ✗       
+461   TM+15.995STVGGVSEDLLAK   -1.0000     NotChecked  -20.0268    1522.7549   ✗       
+462   TM+15.995AEVGGVSEDLLAK   -1.0000     NotChecked  -20.0461    1534.7549   ✗       
+463   TM+15.995SEVGGLAEDLLAK   -1.0000     NotChecked  -20.0702    1548.7705   ✗       
+464   TM+15.995SEVGGVSADLLAK   -1.0000     NotChecked  -20.0768    1492.7443   ✗       
+465   TM+15.995SEVGGVSEGLLAK   -1.0000     NotChecked  -20.0815    1492.7443   ✗       
+466   TM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -20.0829    1538.7134   ✗       
+467   TM+15.995SEVGGVGEDLLAK   -1.0000     NotChecked  -20.0909    1520.7392   ✗       
+468   TM+15.995SGVGGVSEDLLAK   -1.0000     NotChecked  -20.0911    1478.7287   ✗       
+469   TM+15.995GEVGGVSEDLLAK   -1.0000     NotChecked  -20.0988    1520.7392   ✗       
+470   TM+15.995SEVGGSAEDLLAK   -1.0000     NotChecked  -20.0989    1522.7185   ✗       
+471   TM+15.995SEVGGVSESLLAK   -1.0000     NotChecked  -20.1189    1522.7549   ✗       
+472   TM+15.995SEVGGVSTDLLAK   -1.0000     NotChecked  -20.1506    1522.7549   ✗       
+473   TM+15.995SEVGGVSEDALAK   -1.0000     NotChecked  -20.1778    1508.7028   ✗       
+474   TM+15.995SQVGGSSEDLLAK   -1.0000     NotChecked  -20.1843    1537.7294   ✗       
+475   TM+15.995SEVGGLSVDLLAK   -1.0000     NotChecked  -20.1847    1534.7913   ✗       
+476   TM+15.995SEVGGSSVDLLAK   -1.0000     NotChecked  -20.2133    1508.7392   ✗       
+477   TM+15.995SEVGGLEDLLAK    -1.0000     NotChecked  -20.2227    1477.7334   ✗       
+478   TM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -20.2346    1538.7134   ✗       
+479   TM+15.995SEVGGVAEDLLAK   -1.0000     NotChecked  -20.2500    1534.7549   ✗       
+480   TM+15.995SEVGGSEDLLAK    -1.0000     NotChecked  -20.2513    1451.6814   ✗       
+481   TM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -20.2639    1538.7134   ✗       
+482   TM+15.995SEVGGLSSDLLAK   -1.0000     NotChecked  -20.2793    1522.7549   ✗       
+483   TM+15.995SKVGGVSEDLLAK   -1.0000     NotChecked  -20.2870    1549.8022   ✗       
+484   TM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -20.2873    1538.7134   ✗       
+485   TM+15.995SQVGGVSEDLLAK   -1.0000     NotChecked  -20.3355    1549.7658   ✗       
+486   TM+15.995SEVGGVSEDLLAS   -1.0000     NotChecked  -20.3570    1509.6868   ✗       
+487   TM+15.995SEVGGVSVDLLAK   -1.0000     NotChecked  -20.3645    1520.7756   ✗       
+488   TM+15.995SEVGGVVADLLAK   -1.0000     NotChecked  -20.3991    1504.7807   ✗       
+489   TM+15.995SEVGGVEDLLAK    -1.0000     NotChecked  -20.4025    1463.7178   ✗       
+490   TM+15.995SEVGGLSEVLLAK   -1.0000     NotChecked  -20.4232    1548.8069   ✗       
+491   TM+15.995SSVGGVSEDLLAK   -1.0000     NotChecked  -20.4246    1508.7392   ✗       
+492   TM+15.995SEVGGSSLDLLAK   -1.0000     NotChecked  -20.4458    1522.7549   ✗       
+493   TM+15.995SLVGGVSEDLLAK   -1.0000     NotChecked  -20.4502    1534.7913   ✗       
+494   TM+15.995SEVGGSSEDLLA    -1.0000     NotChecked  -20.4634    1410.6184   ✗       
+495   TM+15.995SEVGGVVTDLLAK   -1.0000     NotChecked  -20.4730    1534.7912   ✗       
+496   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -20.4798    1548.7705   ✗       
+497   TM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -20.4823    1538.7134   ✗       
+498   TM+15.995SEVGGVSEDLAK    -1.0000     NotChecked  -20.4870    1437.6657   ✗       
+499   TM+15.995SEVGGVSEDLLGK   -1.0000     NotChecked  -20.5067    1536.7341   ✗       
+500   TM+15.995SAVGGVSEDLLAK   -1.0000     NotChecked  -20.5217    1492.7443   ✗       
+501   TM+15.995SEVGGVSEDLLAG   -1.0000     NotChecked  -20.5285    1479.6763   ✗       
+502   TM+15.995SEVGGLSEDLAAK   -1.0000     NotChecked  -20.5947    1522.7185   ✗       
+503   TM+15.995SEVGGVSLDLLAK   -1.0000     NotChecked  -20.5970    1534.7913   ✗       
+504   TM+15.995SEVGVSEDLLAK    -1.0000     NotChecked  -20.6126    1493.7283   ✗       
+505   TM+15.995SEVGGVSEDLLA    -1.0000     NotChecked  -20.6146    1422.6548   ✗       
+506   TM+15.995AEVGGSSEDLLAK   -1.0000     NotChecked  -20.6169    1522.7185   ✗       
+507   TM+15.995SEVGGVSQDLLAK   -1.0000     NotChecked  -20.6310    1549.7658   ✗       
+508   TM+15.995SEVGGVVDDLLAK   -1.0000     NotChecked  -20.6592    1548.7705   ✗       
+509   TM+15.995SEVGGSEDLLAK    -1.0000     NotChecked  -20.6838    1451.6814   ✗       
+510   TM+15.995SEVGGLSEDLLK    -1.0000     NotChecked  -20.7261    1493.7283   ✗       
+511   TMSEVGGVVEDLLAK          -1.0000     NotChecked  -20.7447    1546.7913   ✗       
+512   TM+15.995STVGGVSEDLLAK   -1.0000     NotChecked  -20.7487    1522.7549   ✗       
+513   TM+15.995SEVGGSSEDLLK    -1.0000     NotChecked  -20.7548    1467.6763   ✗       
+514   TM+15.995AEVGGVSEDLLAK   -1.0000     NotChecked  -20.7680    1534.7549   ✗       
+515   TM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -20.8048    1538.7134   ✗       
+516   +43.006M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -20.8081    1492.7079   ✗       
+517   TM+15.995SGVGGVSEDLLAK   -1.0000     NotChecked  -20.8130    1478.7287   ✗       
+518   TM+15.995GEVGGVSEDLLAK   -1.0000     NotChecked  -20.8207    1520.7392   ✗       
+519   TM+15.995SEVGGSAEDLLAK   -1.0000     NotChecked  -20.8208    1522.7185   ✗       
+520   TM+15.995SQ+0.984VGGSSEDLLAK-1.0000     NotChecked  -20.8252    1538.7134   ✗       
+521   TM+15.995SEVGGVSEDALAK   -1.0000     NotChecked  -20.8997    1508.7028   ✗       
+522   TM+15.995SEVGGVVLDLLAK   -1.0000     NotChecked  -20.9193    1546.8276   ✗       
+523   TM+15.995SEVGGVSEDVLAK   -1.0000     NotChecked  -20.9270    1536.7341   ✗       
+524   TM+15.995SEVGGSSVDLLAK   -1.0000     NotChecked  -20.9352    1508.7392   ✗       
+525   TM+15.995SEVGGVVEDLLA    -1.0000     NotChecked  -20.9369    1434.6912   ✗       
+526   TM+15.995SEVGGLSEDLPAK   -1.0000     NotChecked  -20.9475    1548.7341   ✗       
+527   TM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -20.9565    1538.7134   ✗       
+528   TM+15.995SEVGGVAEDLLAK   -1.0000     NotChecked  -20.9719    1534.7549   ✗       
+529   TM+15.995SEVGGSEDLLAK    -1.0000     NotChecked  -20.9733    1451.6814   ✗       
+530   TM+15.995SEVGGLSSDLLAK   -1.0000     NotChecked  -21.0012    1522.7549   ✗       
+531   TM+15.995SEVGGSSSDLLAK   -1.0000     NotChecked  -21.0298    1496.7028   ✗       
+532   TM+15.995SEVGGLSDLLAK    -1.0000     NotChecked  -21.0480    1435.7228   ✗       
+533   +42.011M+15.995SEVGGLSEDLLAK-1.0000     NotChecked  -21.0528    1505.7283   ✗       
+534   TM+15.995SEVGGVSEDLLAS   -1.0000     NotChecked  -21.0790    1509.6868   ✗       
+535   TM+15.995SEVGGVSVDLLAK   -1.0000     NotChecked  -21.0864    1520.7756   ✗       
+536   TM+15.995AEVGGVVEDLLAK   -1.0000     NotChecked  -21.0904    1546.7913   ✗       
+537   TM+15.995SEVGGVSEDLLK    -1.0000     NotChecked  -21.0985    1479.7127   ✗       
+538   TSSEVGGVSEDLLAK          -1.0000     NotChecked  -21.0995    1490.7464   ✗       
+539   SM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -21.1098    1536.7341   ✗       
+540   TM+15.995SEVGGVVADLLAK   -1.0000     NotChecked  -21.1210    1504.7807   ✗       
+541   TM+15.995SDVGGSSEDLLAK   -1.0000     NotChecked  -21.1239    1524.6977   ✗       
+542   TM+15.995SEVGGVEDLLAK    -1.0000     NotChecked  -21.1244    1463.7178   ✗       
+543   TM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -21.1351    1538.7134   ✗       
+544   TM+15.995SEVGGLSEVLLAK   -1.0000     NotChecked  -21.1451    1548.8069   ✗       
+545   TM+15.995SSVGGVSEDLLAK   -1.0000     NotChecked  -21.1465    1508.7392   ✗       
+546   TM+15.995SEVGGGSEDLLAK   -1.0000     NotChecked  -21.1538    1508.7028   ✗       
+547   TM+15.995SEVGGVSDDLLAK   -1.0000     NotChecked  -21.1555    1536.7341   ✗       
+548   TM+15.995SEVGGLSETLLAK   -1.0000     Failed      -21.1581    1550.7862   ✓       
+549   TM+15.995SLVGGVSEDLLAK   -1.0000     NotChecked  -21.1721    1534.7913   ✗       
+550   TM+15.995SEVGGSSEVLLAK   -1.0000     NotChecked  -21.1737    1522.7549   ✗       
+551   TM+15.995SEVGGVSSDLLAK   -1.0000     NotChecked  -21.1810    1508.7392   ✗       
+552   TM+15.995SEVGGVVTDLLAK   -1.0000     NotChecked  -21.1949    1534.7912   ✗       
+553   TM+15.995SEVGGVSEDLAK    -1.0000     NotChecked  -21.2089    1437.6657   ✗       
+554   TMSEVGGVSEDLLAK          -1.0000     NotChecked  -21.2410    1534.7549   ✗       
+555   TM+15.995SEVGGVSEDLLAG   -1.0000     NotChecked  -21.2504    1479.6763   ✗       
+556   TM+15.995SEVGVSEDLLAK    -1.0000     NotChecked  -21.2536    1493.7283   ✗       
+557   TM+15.995SEVGGVSSEDLLA   -1.0000     NotChecked  -21.2574    1509.6868   ✗       
+558   TM+15.995SEVGGVSQDLLAK   -1.0000     NotChecked  -21.2716    1549.7658   ✗       
+559   TM+15.995SDVGGVSEDLLAK   -1.0000     NotChecked  -21.2751    1536.7341   ✗       
+560   TM+15.995SEVGGLSEALLAK   -1.0000     NotChecked  -21.2787    1520.7756   ✗       
+561   TM+15.995SEVGGLSEDLAAK   -1.0000     NotChecked  -21.3166    1522.7185   ✗       
+562   TM+15.995SEVGGVSEVLLAK   -1.0000     NotChecked  -21.3249    1534.7913   ✗       
+563   TM+15.995SEVGGSSEDLAAK   -1.0000     NotChecked  -21.3452    1496.6664   ✗       
+564   TM+15.995SEVGGVSQDLLAK   -1.0000     NotChecked  -21.3529    1549.7658   ✗       
+565   TM+15.995SEVGGSSENLLAK   -1.0000     NotChecked  -21.3597    1537.7294   ✗       
+566   TM+15.995SEVGGVSEDLVAK   -1.0000     NotChecked  -21.3807    1536.7341   ✗       
+567   TM+15.995SEVGGSEDLLAK    -1.0000     NotChecked  -21.4057    1451.6814   ✗       
+568   TM+15.995SEVGGVVVDLLAK   -1.0000     NotChecked  -21.4087    1532.8120   ✗       
+569   TM+15.995SEVGGVSEDTLAK   -1.0000     NotChecked  -21.4571    1538.7134   ✗       
+570   TM+15.995SEVGGVSEDLGAK   -1.0000     NotChecked  -21.4680    1494.6872   ✗       
+571   TLSEVGGVSEDLLAK          -1.0000     NotChecked  -21.4940    1516.7984   ✗       
+572   +43.006M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -21.5300    1492.7079   ✗       
+573   M+15.995SEVGGVSEDLLAK    -1.0000     NotChecked  -21.6406    1449.7021   ✗       
+574   TTSEVGGVSEDLLAK          -1.0000     NotChecked  -21.7446    1504.7621   ✗       
+575   +42.011M+15.995SEVGGLSEDLLAK-1.0000     NotChecked  -21.7747    1505.7283   ✗       
+576   +42.011M+15.995SEVGGSSEDLLAK-1.0000     NotChecked  -21.8034    1479.6763   ✗       
+577   TSSEVGGVSEDLLAK          -1.0000     NotChecked  -21.8214    1490.7464   ✗       
+578   SM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -21.8317    1536.7341   ✗       
+579   TMSEVGGVSEDLLAK          -1.0000     NotChecked  -21.8816    1534.7549   ✗       
+580   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -21.9545    1491.7127   ✗       
+581   TMSEVGGVSEDLLAK          -1.0000     NotChecked  -21.9630    1534.7549   ✗       
+582   TLSEVGGVSEDLLAK          -1.0000     NotChecked  -22.2159    1516.7984   ✗       
+583   TVSEVGGVSEDLLAK          -1.0000     NotChecked  -22.2163    1502.7828   ✗       
+584   TMSEVGGVSEDLLAK          -1.0000     NotChecked  -22.2229    1534.7549   ✗       
+585   M+15.995SEVGGVSEDLLAK    -1.0000     NotChecked  -22.3625    1449.7021   ✗       
+586   TTSEVGGVSEDLLAK          -1.0000     NotChecked  -22.4665    1504.7621   ✗       
+587   TM+15.995SEVGGVSQDLLAK   -1.0000     NotChecked  -22.4924    1549.7658   ✗       
+588   +42.011M+15.995SEVGGSSEDLLAK-1.0000     NotChecked  -22.5253    1479.6763   ✗       
+589   TMSEVGGVSEDLLAK          -1.0000     NotChecked  -22.6035    1534.7549   ✗       
+590   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -22.6764    1491.7127   ✗       
+591   TMSEVGGVSQ+0.984DLLAK    -1.0000     NotChecked  -22.8131    1534.7549   ✗       
+592   VM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -22.8554    1536.7341   ✗       
+593   TVSEVGGVSEDLLAK          -1.0000     NotChecked  -22.9382    1502.7828   ✗       
+594   TMSEVGGVSEDLLAK          -1.0000     NotChecked  -22.9448    1534.7549   ✗       
+595   +42.011M+15.995SEVGGVVEDLLAK-1.0000     NotChecked  -22.9988    1503.7491   ✗       
+596   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -23.0065    1548.7705   ✗       
+597   TM+15.995SEVGGVSDDLLAK   -1.0000     NotChecked  -23.0168    1536.7341   ✗       
+598   TMSEVGGVSEDLLAK          -1.0000     NotChecked  -23.1024    1534.7549   ✗       
+599   TMSEVGGVSEDLLAK          -1.0000     NotChecked  -23.1365    1534.7549   ✗       
+600   +43.006M+15.995SEVGGLSEDLLAK-1.0000     NotChecked  -23.1550    1506.7236   ✗       
+601   TM+15.995SEVGGVSQDLLAK   -1.0000     NotChecked  -23.2143    1549.7658   ✗       
+602   TMSEVGGVVEDLLAK          -1.0000     NotChecked  -23.2671    1546.7913   ✗       
+603   TRSEVGGSSEDLLAK          -1.0000     NotChecked  -23.4156    1547.7791   ✗       
+604   TSSEVGGLSEDLLAK          -1.0000     NotChecked  -23.4464    1504.7621   ✗       
+605   TM+15.995SEVGGVSADLLAK   -1.0000     NotChecked  -23.4786    1492.7443   ✗       
+606   TM+15.995SEVGGVGEDLLAK   -1.0000     NotChecked  -23.4927    1520.7392   ✗       
+607   TMSEVGGVSEDLLAK          -1.0000     NotChecked  -23.5315    1534.7549   ✗       
+608   TMSEVGGVSQ+0.984DLLAK    -1.0000     NotChecked  -23.5350    1534.7549   ✗       
+609   TM+15.995SEVGGVSTDLLAK   -1.0000     NotChecked  -23.5525    1522.7549   ✗       
+610   VM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -23.5773    1536.7341   ✗       
+611   TMSEVGGVSEDLLAK          -1.0000     NotChecked  -23.6338    1534.7549   ✗       
+612   +42.011M+15.995SEVGGVVEDLLAK-1.0000     NotChecked  -23.7207    1503.7491   ✗       
+613   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -23.7284    1548.7705   ✗       
+614   TM+15.995SQVGGVSEDLLAK   -1.0000     NotChecked  -23.7373    1549.7658   ✗       
+615   TM+15.995SEVGGVSDDLLAK   -1.0000     NotChecked  -23.7387    1536.7341   ✗       
+616   TMSEVGGVSEDLLAK          -1.0000     NotChecked  -23.8243    1534.7549   ✗       
+617   TLSEVGGLSEDLLAK          -1.0000     NotChecked  -23.8410    1530.8141   ✗       
+618   +43.006M+15.995SEVGGLSEDLLAK-1.0000     NotChecked  -23.8769    1506.7236   ✗       
+619   +43.006M+15.995SEVGGSSEDLLAK-1.0000     NotChecked  -23.9055    1480.6715   ✗       
+620   M+15.995SEVGGLSEDLLAK    -1.0000     NotChecked  -23.9875    1463.7178   ✗       
+621   +43.006M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -24.0567    1492.7079   ✗       
+622   SM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -24.2073    1524.6978   ✗       
+623   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -24.2170    1491.7127   ✗       
+624   SM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -24.3584    1536.7341   ✗       
+625   +43.006M+15.995SEVGGSSEDLLAK-1.0000     NotChecked  -24.6275    1480.6715   ✗       
+626   M+15.995SEVGGLSEDLLAK    -1.0000     NotChecked  -24.7094    1463.7178   ✗       
+627   M+15.995SEVGGSSEDLLAK    -1.0000     NotChecked  -24.7381    1437.6657   ✗       
+628   +43.006M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -24.7786    1492.7079   ✗       
+629   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -24.8575    1491.7127   ✗       
+630   M+15.995SEVGGVSEDLLAK    -1.0000     NotChecked  -24.8893    1449.7021   ✗       
+631   SM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -24.9292    1524.6978   ✗       
+632   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -24.9389    1491.7127   ✗       
+633   SM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -25.0803    1536.7341   ✗       
+634   +43.006M+15.995SEVGGVVEDLLAK-1.0000     NotChecked  -25.1010    1504.7443   ✗       
+635   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -25.1988    1491.7127   ✗       
+636   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -25.2690    1548.7705   ✗       
+637   SM+15.995SEVGGVVEDLLAK   -1.0000     NotChecked  -25.4027    1548.7705   ✗       
+638   M+15.995SEVGGSSEDLLAK    -1.0000     NotChecked  -25.4600    1437.6657   ✗       
+639   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -25.5794    1491.7127   ✗       
+640   M+15.995SEVGGVSEDLLAK    -1.0000     NotChecked  -25.6112    1449.7021   ✗       
+641   +42.011M+15.995SEVGGVSQ+0.984DLLAK-1.0000     NotChecked  -25.7890    1491.7127   ✗       
+642   +43.006M+15.995SEVGGVVEDLLAK-1.0000     NotChecked  -25.8229    1504.7443   ✗       
+643   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -25.9095    1548.7705   ✗       
+644   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -25.9207    1491.7127   ✗       
+645   M+15.995SEVGGVVEDLLAK    -1.0000     NotChecked  -25.9335    1461.7385   ✗       
+646   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -25.9909    1548.7705   ✗       
+647   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -26.1125    1491.7127   ✗       
+648   SM+15.995SEVGGVVEDLLAK   -1.0000     NotChecked  -26.1246    1548.7705   ✗       
+649   +42.011M+15.995SEVGGVVEDLLAK-1.0000     NotChecked  -26.2431    1503.7491   ✗       
+650   +42.011M+15.995SEVGGVDEDLLAK-1.0000     NotChecked  -26.2504    1519.7076   ✗       
+651   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -26.2508    1548.7705   ✗       
+652   M+15.995SEVGGVSSEDLLAK   -1.0000     NotChecked  -26.2540    1536.7341   ✗       
+653   +43.006M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -26.3192    1492.7079   ✗       
+654   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -26.5074    1491.7127   ✗       
+655   +42.011M+15.995SEVGGVSQ+0.984DLLAK-1.0000     NotChecked  -26.5109    1491.7127   ✗       
+656   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -26.6098    1491.7127   ✗       
+657   SM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -26.6209    1536.7341   ✗       
+658   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -26.6314    1548.7705   ✗       
+659   M+15.995SEVGGVVEDLLAK    -1.0000     NotChecked  -26.6554    1461.7385   ✗       
+660   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -26.8344    1491.7127   ✗       
+661   VM+15.995SEVGGVSQ+0.984DLLAK-1.0000     NotChecked  -26.8410    1548.7705   ✗       
+662   +42.011M+15.995SEVGGVSQDLLAK-1.0000     NotChecked  -26.8946    1490.7287   ✗       
+663   +43.006M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -26.9597    1492.7079   ✗       
+664   +42.011M+15.995SEVGGVVEDLLAK-1.0000     NotChecked  -26.9650    1503.7491   ✗       
+665   +42.011M+15.995SEVGGVDEDLLAK-1.0000     NotChecked  -26.9724    1519.7076   ✗       
+666   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -26.9727    1548.7705   ✗       
+667   M+15.995SEVGGVSSEDLLAK   -1.0000     NotChecked  -26.9759    1536.7341   ✗       
+668   +43.006M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -27.0411    1492.7079   ✗       
+669   M+15.995SEVGGVSEDLLAK    -1.0000     NotChecked  -27.1517    1449.7021   ✗       
+670   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -27.1645    1548.7705   ✗       
+671   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -27.2294    1491.7127   ✗       
+672   SM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -27.2614    1536.7341   ✗       
+673   +43.006M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -27.3010    1492.7079   ✗       
+674   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -27.3317    1491.7127   ✗       
+675   SM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -27.3428    1536.7341   ✗       
+676   +42.011M+15.995SEVGGVSDDLLAK-1.0000     NotChecked  -27.4190    1477.6970   ✗       
+677   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -27.4613    1491.7127   ✗       
+678   +42.011MSEVGGVSEDLLAK    -1.0000     NotChecked  -27.5046    1475.7178   ✗       
+679   +42.011M+15.995SEVGGLSEDLLAK-1.0000     NotChecked  -27.5458    1505.7283   ✗       
+680   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -27.5594    1548.7705   ✗       
+681   VM+15.995SEVGGVSQ+0.984DLLAK-1.0000     NotChecked  -27.5629    1548.7705   ✗       
+682   SM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -27.6027    1536.7341   ✗       
+683   +42.011M+15.995SEVGGVSQDLLAK-1.0000     NotChecked  -27.6165    1490.7287   ✗       
+684   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -27.6446    1491.7127   ✗       
+685   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -27.6618    1548.7705   ✗       
+686   +43.006M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -27.6816    1492.7079   ✗       
+687   M+15.995SEVGGVSEDLLAK    -1.0000     NotChecked  -27.7923    1449.7021   ✗       
+688   M+15.995SEVGGVSEDLLAK    -1.0000     NotChecked  -27.8736    1449.7021   ✗       
+689   +42.011M+15.995SEVGGVSADLLAK-1.0000     NotChecked  -27.8809    1433.7072   ✗       
+690   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -27.8864    1548.7705   ✗       
+691   +43.006M+15.995SEVGGVSQ+0.984DLLAK-1.0000     NotChecked  -27.8912    1492.7079   ✗       
+692   +42.011M+15.995SEVGGVGEDLLAK-1.0000     NotChecked  -27.8950    1461.7021   ✗       
+693   VM+15.995SEVGGVSQDLLAK   -1.0000     NotChecked  -27.9466    1547.7865   ✗       
+694   +42.011M+15.995SEVGGVSTDLLAK-1.0000     NotChecked  -27.9547    1463.7178   ✗       
+695   M+15.995SEVGGSVSEDLLAK   -1.0000     NotChecked  -27.9824    1536.7341   ✗       
+696   SM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -27.9833    1536.7341   ✗       
+697   +43.006M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -28.0229    1492.7079   ✗       
+698   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -28.1018    1491.7127   ✗       
+699   M+15.995SEVGGVSEDLLAK    -1.0000     NotChecked  -28.1336    1449.7021   ✗       
+700   +42.011M+15.995SQVGGVSEDLLAK-1.0000     NotChecked  -28.1396    1490.7287   ✗       
+701   +42.011M+15.995SEVGGVSDDLLAK-1.0000     NotChecked  -28.1409    1477.6970   ✗       
+702   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -28.1832    1491.7127   ✗       
+703   SM+15.995SEVGGVSQ+0.984DLLAK-1.0000     NotChecked  -28.1929    1536.7341   ✗       
+704   +43.006M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -28.2147    1492.7079   ✗       
+705   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -28.2191    1491.7127   ✗       
+706   +42.011MSEVGGVSEDLLAK    -1.0000     NotChecked  -28.2265    1475.7178   ✗       
+707   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -28.2426    1491.7127   ✗       
+708   +42.011M+15.995SEVGGLSEDLLAK-1.0000     NotChecked  -28.2677    1505.7283   ✗       
+709   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -28.2813    1548.7705   ✗       
+710   +42.011M+15.995SEVGGSSEDLLAK-1.0000     NotChecked  -28.2963    1479.6763   ✗       
+711   SM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -28.3246    1536.7341   ✗       
+712   +43.006M+15.995SEVGGVVEDLLAK-1.0000     NotChecked  -28.3453    1504.7443   ✗       
+713   +43.006M+15.995SEVGGVDEDLLAK-1.0000     NotChecked  -28.3526    1520.7028   ✗       
+714   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -28.3665    1491.7127   ✗       
+715   +42.011M+15.995SEVGGDSEDLLAK-1.0000     NotChecked  -28.3787    1507.6712   ✗       
+716   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -28.3837    1548.7705   ✗       
+717   +42.011M+15.995SEVGGKSEDLLAK-1.0000     NotChecked  -28.3879    1520.7392   ✗       
+718   +42.011M+15.995SEVGGVSLDLLAK-1.0000     NotChecked  -28.4011    1475.7541   ✗       
+719   +42.011M+15.995SEVGGVSEDLLA-1.0000     NotChecked  -28.4187    1363.6177   ✗       
+720   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -28.4376    1491.7127   ✗       
+721   VM+15.995SEVGGVSDDLLAK   -1.0000     NotChecked  -28.4710    1534.7549   ✗       
+722   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -28.5133    1548.7705   ✗       
+723   M+15.995SEVGGVSEDLLAK    -1.0000     NotChecked  -28.5142    1449.7021   ✗       
+724   SM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -28.5164    1536.7341   ✗       
+725   VMSEVGGVSEDLLAK          -1.0000     NotChecked  -28.5566    1532.7756   ✗       
+726   +42.011M+15.995AEVGGVSEDLLAK-1.0000     NotChecked  -28.5721    1475.7178   ✗       
+727   +42.011M+15.995SEVGGLVEDLLAK-1.0000     NotChecked  -28.5900    1517.7647   ✗       
+728   +42.011M+15.995SEVGGVSADLLAK-1.0000     NotChecked  -28.6028    1433.7072   ✗       
+729   +43.006M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -28.6096    1492.7079   ✗       
+730   +43.006M+15.995SEVGGVSQ+0.984DLLAK-1.0000     NotChecked  -28.6131    1492.7079   ✗       
+731   +42.011M+15.995SEVGGVGEDLLAK-1.0000     NotChecked  -28.6169    1461.7021   ✗       
+732   SM+15.995SEVGGVVEDLLAK   -1.0000     NotChecked  -28.6470    1548.7705   ✗       
+733   VM+15.995SEVGGVSQDLLAK   -1.0000     NotChecked  -28.6685    1547.7865   ✗       
+734   +42.011M+15.995SEVGGVSTDLLAK-1.0000     NotChecked  -28.6766    1463.7178   ✗       
+735   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -28.6966    1548.7705   ✗       
+736   M+15.995SEVGGSVSEDLLAK   -1.0000     NotChecked  -28.7043    1536.7341   ✗       
+737   +43.006M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -28.7119    1492.7079   ✗       
+738   M+15.995SEVGGVSQ+0.984DLLAK-1.0000     NotChecked  -28.7237    1449.7021   ✗       
+739   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -28.7601    1491.7127   ✗       
+740   +42.011M+15.995SEVGGVAEDLLAK-1.0000     NotChecked  -28.7760    1475.7178   ✗       
+741   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -28.8237    1491.7127   ✗       
+742   +42.011M+15.995SEVGGVSEELLAK-1.0000     NotChecked  -28.8503    1505.7283   ✗       
+743   M+15.995SEVGGVSEDLLAK    -1.0000     NotChecked  -28.8555    1449.7021   ✗       
+744   +42.011M+15.995SQVGGVSEDLLAK-1.0000     NotChecked  -28.8615    1490.7287   ✗       
+745   +42.011M+15.995SEVGGVSVDLLAK-1.0000     NotChecked  -28.8905    1461.7385   ✗       
+746   SM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -28.9113    1536.7341   ✗       
+747   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -28.9118    1491.7127   ✗       
+748   SM+15.995SEVGGVSQ+0.984DLLAK-1.0000     NotChecked  -28.9148    1536.7341   ✗       
+749   +42.011M+15.995SEVGGVEDLLAK-1.0000     NotChecked  -28.9285    1404.6806   ✗       
+750   VM+15.995SEVGGVSADLLAK   -1.0000     NotChecked  -28.9328    1490.7650   ✗       
+751   +43.006M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -28.9366    1492.7079   ✗       
+752   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -28.9410    1491.7127   ✗       
+753   VM+15.995SEVGGVGEDLLAK   -1.0000     NotChecked  -28.9469    1518.7600   ✗       
+754   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -28.9645    1491.7127   ✗       
+755   +43.006M+15.995SEVGGVSQDLLAK-1.0000     NotChecked  -28.9968    1491.7239   ✗       
+756   VM+15.995SEVGGVSTDLLAK   -1.0000     NotChecked  -29.0067    1520.7756   ✗       
+757   SM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -29.0137    1536.7341   ✗       
+758   +42.011M+15.995SEVGGSSEDLLAK-1.0000     NotChecked  -29.0182    1479.6763   ✗       
+759   +42.011M+15.995SEVGGVSQ+0.984DLLAK-1.0000     NotChecked  -29.0333    1491.7127   ✗       
+760   M+15.995SEVGGVSEDLLAK    -1.0000     NotChecked  -29.0472    1449.7021   ✗       
+761   +43.006M+15.995SEVGGVVEDLLAK-1.0000     NotChecked  -29.0672    1504.7443   ✗       
+762   +43.006M+15.995SEVGGVDEDLLAK-1.0000     NotChecked  -29.0745    1520.7028   ✗       
+763   +42.011M+15.995SEVGGDSEDLLAK-1.0000     NotChecked  -29.1006    1507.6712   ✗       
+764   +42.011M+15.995SEVGGKSEDLLAK-1.0000     NotChecked  -29.1098    1520.7392   ✗       
+765   +42.011M+15.995SEVGGVSLDLLAK-1.0000     NotChecked  -29.1230    1475.7541   ✗       
+766   +42.011M+15.995SEVGGVSEDLLA-1.0000     NotChecked  -29.1406    1363.6177   ✗       
+767   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -29.1538    1548.7705   ✗       
+768   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -29.1595    1491.7127   ✗       
+769   NM+15.995SEVGGVSDDLLAK   -1.0000     NotChecked  -29.1750    1549.7294   ✗       
+770   M+15.995SEVGGVVEDLLAK    -1.0000     NotChecked  -29.1778    1461.7385   ✗       
+771   M+15.995SEVGGVDEDLLAK    -1.0000     NotChecked  -29.1852    1477.6970   ✗       
+772   VM+15.995SQVGGVSEDLLAK   -1.0000     NotChecked  -29.1916    1547.7865   ✗       
+773   VM+15.995SEVGGVSDDLLAK   -1.0000     NotChecked  -29.1929    1534.7549   ✗       
+774   +42.011M+15.995SEVGGSEDLLAK-1.0000     NotChecked  -29.2098    1392.6443   ✗       
+775   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -29.2352    1548.7705   ✗       
+776   SM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -29.2383    1536.7341   ✗       
+777   NMSEVGGVSEDLLAK          -1.0000     NotChecked  -29.2605    1547.7501   ✗       
+778   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -29.2711    1548.7705   ✗       
+779   VMSEVGGVSEDLLAK          -1.0000     NotChecked  -29.2785    1532.7756   ✗       
+780   +42.011M+15.995AEVGGVSEDLLAK-1.0000     NotChecked  -29.2940    1475.7178   ✗       
+781   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -29.2946    1548.7705   ✗       
+782   SM+15.995SEVGGVSQDLLAK   -1.0000     NotChecked  -29.2985    1535.7501   ✗       
+783   +42.011M+15.995SEVGGLVEDLLAK-1.0000     NotChecked  -29.3119    1517.7647   ✗       
+784   +43.006M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -29.3315    1492.7079   ✗       
+785   +42.011M+15.995SEVGGSVEDLLAK-1.0000     NotChecked  -29.3406    1491.7127   ✗       
+786   VM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -29.3483    1536.7341   ✗       
+787   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -29.3568    1491.7127   ✗       
+788   SM+15.995SEVGGVVEDLLAK   -1.0000     NotChecked  -29.3689    1548.7705   ✗       
+789   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -29.4185    1548.7705   ✗       
+790   +42.011M+15.995SEVGGVSEDLLK-1.0000     NotChecked  -29.4320    1420.6756   ✗       
+791   +43.006M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -29.4339    1492.7079   ✗       
+792   M+15.995SEVGGVSEDLLAK    -1.0000     NotChecked  -29.4422    1449.7021   ✗       
+793   M+15.995SEVGGVSQ+0.984DLLAK-1.0000     NotChecked  -29.4457    1449.7021   ✗       
+794   VM+15.995SEVGGVSLDLLAK   -1.0000     NotChecked  -29.4531    1532.8120   ✗       
+795   VM+15.995SEVGGVSEDLLA    -1.0000     NotChecked  -29.4706    1420.6756   ✗       
+796   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -29.4820    1491.7127   ✗       
+797   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -29.4896    1548.7705   ✗       
+798   +42.011M+15.995SEVGGVVEDLLAK-1.0000     NotChecked  -29.4918    1503.7491   ✗       
+799   +42.011M+15.995SEVGGVDEDLLAK-1.0000     NotChecked  -29.4947    1519.7076   ✗       
+800   +42.011M+15.995SEVGGVAEDLLAK-1.0000     NotChecked  -29.4979    1475.7178   ✗       
+801   +42.011M+15.995SQ+0.984VGGVSEDLLAK-1.0000     NotChecked  -29.5024    1491.7127   ✗       
+802   +43.006M+15.995SEVGGVSDDLLAK-1.0000     NotChecked  -29.5212    1478.6923   ✗       
+803   +42.011M+15.995SEVGGESEDLLAK-1.0000     NotChecked  -29.5309    1521.6869   ✗       
+804   M+15.995SEVGGVSEDLLAK    -1.0000     NotChecked  -29.5445    1449.7021   ✗       
+805   +43.006M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -29.5635    1492.7079   ✗       
+806   +42.011M+15.995SEVGGVSEELLAK-1.0000     NotChecked  -29.5722    1505.7283   ✗       
+807   +43.006MSEVGGVSEDLLAK    -1.0000     NotChecked  -29.6068    1476.7130   ✗       
+808   +42.011M+15.995SEVGGVSVDLLAK-1.0000     NotChecked  -29.6124    1461.7385   ✗       
+809   VM+15.995AEVGGVSEDLLAK   -1.0000     NotChecked  -29.6241    1532.7756   ✗       
+810   SM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -29.6332    1536.7341   ✗       
+811   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -29.6337    1491.7127   ✗       
+812   NM+15.995SEVGGVSADLLAK   -1.0000     NotChecked  -29.6368    1505.7396   ✗       
+813   +43.006M+15.995SEVGGLSEDLLAK-1.0000     NotChecked  -29.6480    1506.7236   ✗       
+814   +42.011M+15.995SEVGGVEDLLAK-1.0000     NotChecked  -29.6504    1404.6806   ✗       
+815   NM+15.995SEVGGVGEDLLAK   -1.0000     NotChecked  -29.6509    1533.7345   ✗       
+816   VM+15.995SEVGGVSADLLAK   -1.0000     NotChecked  -29.6548    1490.7650   ✗       
+817   +42.011M+15.995SEVGGSSEDLLAK-1.0000     NotChecked  -29.6611    1479.6763   ✗       
+818   VM+15.995SEVGGVGEDLLAK   -1.0000     NotChecked  -29.6689    1518.7600   ✗       
+819   +42.011M+15.995SEVGGGSEDLLAK-1.0000     NotChecked  -29.6798    1449.6657   ✗       
+820   +42.011M+15.995SEVGGVSSDLLAK-1.0000     NotChecked  -29.7070    1449.7021   ✗       
+821   NM+15.995SEVGGVSTDLLAK   -1.0000     NotChecked  -29.7107    1535.7501   ✗       
+822   +43.006M+15.995SEVGGVSQDLLAK-1.0000     NotChecked  -29.7187    1491.7239   ✗       
+823   VM+15.995SEVGGVSTDLLAK   -1.0000     NotChecked  -29.7286    1520.7756   ✗       
+824   SM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -29.7356    1536.7341   ✗       
+825   +43.006M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -29.7468    1492.7079   ✗       
+826   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -29.7517    1491.7127   ✗       
+827   +42.011M+15.995SEVGGVSQ+0.984DLLAK-1.0000     NotChecked  -29.7552    1491.7127   ✗       
+828   +42.011M+15.995SEVGGVTEDLLAK-1.0000     NotChecked  -29.7659    1505.7283   ✗       
+829   M+15.995SEVGGVSEDLLAK    -1.0000     NotChecked  -29.7691    1449.7021   ✗       
+830   +42.011M+15.995TEVGGVSEDLLAK-1.0000     NotChecked  -29.7930    1505.7283   ✗       
+831   +42.011M+15.995SDVGGVSEDLLAK-1.0000     NotChecked  -29.8011    1477.6970   ✗       
+832   +42.011M+15.995SEVGGLSEDLLAK-1.0000     NotChecked  -29.8082    1505.7283   ✗       
+833   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -29.8121    1548.7705   ✗       
+834   SM+15.995SEVGGVSDDLLAK   -1.0000     NotChecked  -29.8229    1522.7185   ✗       
+835   VM+15.995SEVGGVAEDLLAK   -1.0000     NotChecked  -29.8280    1532.7756   ✗       
+836   M+15.995SEVGGVSQDLLAK    -1.0000     NotChecked  -29.8293    1448.7181   ✗       
+837   +42.011M+15.995SEVGGVSEVLLAK-1.0000     NotChecked  -29.8509    1475.7541   ✗       
+838   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -29.8541    1491.7127   ✗       
+839   SM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -29.8652    1536.7341   ✗       
+840   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -29.8757    1548.7705   ✗       
+841   NM+15.995SEVGGVSDDLLAK   -1.0000     NotChecked  -29.8969    1549.7294   ✗       
+842   M+15.995SEVGGVVEDLLAK    -1.0000     NotChecked  -29.8997    1461.7385   ✗       
+843   M+15.995SEVGGVDEDLLAK    -1.0000     NotChecked  -29.9071    1477.6970   ✗       
+844   SMSEVGGVSEDLLAK          -1.0000     NotChecked  -29.9085    1520.7392   ✗       
+845   VM+15.995SQVGGVSEDLLAK   -1.0000     NotChecked  -29.9135    1547.7865   ✗       
+846   +42.011M+15.995SEVGGSEDLLAK-1.0000     NotChecked  -29.9317    1392.6443   ✗       
+847   VM+15.995SEVGGVSVDLLAK   -1.0000     NotChecked  -29.9425    1518.7963   ✗       
+848   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -29.9638    1548.7705   ✗       
+849   VM+15.995SEVGGVEDLLAK    -1.0000     NotChecked  -29.9805    1461.7385   ✗       
+850   NMSEVGGVSEDLLAK          -1.0000     NotChecked  -29.9824    1547.7501   ✗       
+851   +43.006M+15.995SEVGGVSADLLAK-1.0000     NotChecked  -29.9830    1434.7024   ✗       
+852   LM+15.995SEVGGVSDDLLAK   -1.0000     NotChecked  -29.9875    1548.7705   ✗       
+853   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -29.9930    1548.7705   ✗       
+854   +43.006M+15.995SEVGGVGEDLLAK-1.0000     NotChecked  -29.9971    1462.6974   ✗       
+855   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -30.0165    1548.7705   ✗       
+856   SM+15.995SEVGGVSQDLLAK   -1.0000     NotChecked  -30.0204    1535.7501   ✗       
+857   +42.011M+15.995SEVGGVSEDLAAK-1.0000     NotChecked  -30.0224    1449.6657   ✗       
+858   +42.011M+15.995SEVGGVSENLLAK-1.0000     NotChecked  -30.0368    1490.7287   ✗       
+859   SM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -30.0485    1536.7341   ✗       
+860   +43.006M+15.995SEVGGVSTDLLAK-1.0000     NotChecked  -30.0569    1464.7130   ✗       
+861   +42.011M+15.995SEVGGSVEDLLAK-1.0000     NotChecked  -30.0625    1491.7127   ✗       
+862   VM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -30.0702    1536.7341   ✗       
+863   LMSEVGGVSEDLLAK          -1.0000     NotChecked  -30.0730    1546.7913   ✗       
+864   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -30.0787    1491.7127   ✗       
+865   VM+15.995SEVGGVSQ+0.984DLLAK-1.0000     NotChecked  -30.0853    1548.7705   ✗       
+866   +42.011M+15.995SEVGGVSQDLLAK-1.0000     NotChecked  -30.1389    1490.7287   ✗       
+867   +42.011M+15.995SEVGGVSEDLLK-1.0000     NotChecked  -30.1539    1420.6756   ✗       
+868   NM+15.995SEVGGVSLDLLAK   -1.0000     NotChecked  -30.1570    1547.7865   ✗       
+869   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -30.1579    1491.7127   ✗       
+870   M+15.995SEVGGVSEDLLAK    -1.0000     NotChecked  -30.1641    1449.7021   ✗       
+871   NM+15.995SEVGGVSEDLLA    -1.0000     NotChecked  -30.1746    1435.6501   ✗       
+872   VM+15.995SEVGGVSLDLLAK   -1.0000     NotChecked  -30.1750    1532.8120   ✗       
+873   VM+15.995SEVGGVSEDLLA    -1.0000     NotChecked  -30.1926    1420.6756   ✗       
+874   +43.006M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -30.2040    1492.7079   ✗       
+875   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -30.2115    1548.7705   ✗       
+876   +42.011M+15.995SEVGGVVEDLLAK-1.0000     NotChecked  -30.2137    1503.7491   ✗       
+877   +42.011M+15.995SEVGGVDEDLLAK-1.0000     NotChecked  -30.2167    1519.7076   ✗       
+878   +42.011M+15.995SQ+0.984VGGVSEDLLAK-1.0000     NotChecked  -30.2243    1491.7127   ✗       
+879   +42.011M+15.995SEVGGVSEDLLAR-1.0000     NotChecked  -30.2312    1519.7188   ✗       
+880   +43.006M+15.995SQVGGVSEDLLAK-1.0000     NotChecked  -30.2417    1491.7239   ✗       
+881   +43.006M+15.995SEVGGVSDDLLAK-1.0000     NotChecked  -30.2431    1478.6923   ✗       
+882   +42.011M+15.995SEVGGESEDLLAK-1.0000     NotChecked  -30.2528    1521.6869   ✗       
+883   VM+15.995SEVGGSEDLLAK    -1.0000     NotChecked  -30.2618    1449.7021   ✗       
+884   M+15.995SEVGGVSEDLLAK    -1.0000     NotChecked  -30.2664    1449.7021   ✗       
+885   SM+15.995SEVGGVSADLLAK   -1.0000     NotChecked  -30.2847    1478.7287   ✗       
+886   +43.006M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -30.2854    1492.7079   ✗       
+887   SM+15.995SEVGGVGEDLLAK   -1.0000     NotChecked  -30.2989    1506.7236   ✗       
+888   +43.006M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -30.3213    1492.7079   ✗       
+889   NM+15.995AEVGGVSEDLLAK   -1.0000     NotChecked  -30.3281    1547.7501   ✗       
+890   +43.006MSEVGGVSEDLLAK    -1.0000     NotChecked  -30.3287    1476.7130   ✗       
+891   +43.006M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -30.3448    1492.7079   ✗       
+892   VM+15.995AEVGGVSEDLLAK   -1.0000     NotChecked  -30.3460    1532.7756   ✗       
+893   M+15.995SEVGGVSDDLLAK    -1.0000     NotChecked  -30.3538    1435.6865   ✗       
+894   SM+15.995SEVGGVSTDLLAK   -1.0000     NotChecked  -30.3586    1508.7392   ✗       
+895   NM+15.995SEVGGVSADLLAK   -1.0000     NotChecked  -30.3587    1505.7396   ✗       
+896   +43.006M+15.995SEVGGLSEDLLAK-1.0000     NotChecked  -30.3699    1506.7236   ✗       
+897   NM+15.995SEVGGVGEDLLAK   -1.0000     NotChecked  -30.3728    1533.7345   ✗       
+898   +42.011M+15.995SEVGGVSEDLPAK-1.0000     NotChecked  -30.3753    1475.6814   ✗       
+899   +42.011M+15.995SEVGGSSEDLLAK-1.0000     NotChecked  -30.3830    1479.6763   ✗       
+900   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -30.3910    1491.7127   ✗       
+901   VM+15.995SEVGGSVEDLLAK   -1.0000     NotChecked  -30.3926    1548.7705   ✗       
+902   M+15.995SEVGGVSEDLLAK    -1.0000     NotChecked  -30.3960    1449.7021   ✗       
+903   +43.006M+15.995SEVGGSSEDLLAK-1.0000     NotChecked  -30.3985    1480.6715   ✗       
+904   +42.011M+15.995SEVGGGSEDLLAK-1.0000     NotChecked  -30.4017    1449.6657   ✗       
+905   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -30.4088    1548.7705   ✗       
+906   +42.011M+15.995SEVGGVSSDLLAK-1.0000     NotChecked  -30.4289    1449.7021   ✗       
+907   NM+15.995SEVGGVSTDLLAK   -1.0000     NotChecked  -30.4326    1535.7501   ✗       
+908   MSEVGGVSEDLLAK           -1.0000     NotChecked  -30.4393    1433.7072   ✗       
+909   +42.011M+15.995SEVGGLSEDLLAK-1.0000     NotChecked  -30.4488    1505.7283   ✗       
+910   LM+15.995SEVGGVSADLLAK   -1.0000     NotChecked  -30.4493    1504.7807   ✗       
+911   LM+15.995SEVGGVGEDLLAK   -1.0000     NotChecked  -30.4634    1532.7756   ✗       
+912   +43.006M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -30.4687    1492.7079   ✗       
+913   +42.011M+15.995SEVGGVSEDLLAQ-1.0000     NotChecked  -30.4718    1491.6763   ✗       
+914   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -30.4737    1491.7127   ✗       
+915   +42.011M+15.995SEVGGVSDLLAK-1.0000     NotChecked  -30.4757    1362.6701   ✗       
+916   M+15.995SEVGGLSEDLLAK    -1.0000     NotChecked  -30.4805    1463.7178   ✗       
+917   +43.006M+15.995SEVGGDSEDLLAK-1.0000     NotChecked  -30.4809    1508.6665   ✗       
+918   VM+15.995SEVGGVSEDLLK    -1.0000     NotChecked  -30.4839    1477.7334   ✗       
+919   +42.011M+15.995SEVGGVTEDLLAK-1.0000     NotChecked  -30.4878    1505.7283   ✗       
+920   +43.006M+15.995SEVGGKSEDLLAK-1.0000     NotChecked  -30.4901    1521.7345   ✗       
+921   +43.006M+15.995SEVGGVSLDLLAK-1.0000     NotChecked  -30.5033    1476.7494   ✗       
+922   SM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -30.5057    1536.7341   ✗       
+923   +42.011M+15.995TEVGGVSEDLLAK-1.0000     NotChecked  -30.5149    1505.7283   ✗       
+924   +42.011M+15.995SEVGGVLEDLLAK-1.0000     NotChecked  -30.5159    1517.7647   ✗       
+925   +43.006M+15.995SEVGGVSEDLLA-1.0000     NotChecked  -30.5208    1364.6130   ✗       
+926   +42.011M+15.995SDVGGVSEDLLAK-1.0000     NotChecked  -30.5230    1477.6970   ✗       
+927   LM+15.995SEVGGVSTDLLAK   -1.0000     NotChecked  -30.5232    1534.7913   ✗       
+928   +42.011M+15.995SEVGGLSEDLLAK-1.0000     NotChecked  -30.5301    1505.7283   ✗       
+929   NM+15.995SEVGGVAEDLLAK   -1.0000     NotChecked  -30.5320    1547.7501   ✗       
+930   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -30.5340    1548.7705   ✗       
+931   +43.006M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -30.5398    1492.7079   ✗       
+932   SM+15.995SQVGGVSEDLLAK   -1.0000     NotChecked  -30.5435    1535.7501   ✗       
+933   SM+15.995SEVGGVSDDLLAK   -1.0000     NotChecked  -30.5448    1522.7185   ✗       
+934   VM+15.995SEVGGVAEDLLAK   -1.0000     NotChecked  -30.5499    1532.7756   ✗       
+935   M+15.995SEVGGVSQDLLAK    -1.0000     NotChecked  -30.5512    1448.7181   ✗       
+936   VM+15.995SQ+0.984VGGVSEDLLAK-1.0000     NotChecked  -30.5544    1548.7705   ✗       
+937   +42.011M+15.995SEVGGSSEDLLAK-1.0000     NotChecked  -30.5588    1479.6763   ✗       
+938   +42.011M+15.995SEVGGVSEVLLAK-1.0000     NotChecked  -30.5728    1475.7541   ✗       
+939   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -30.5760    1491.7127   ✗       
+940   +42.011M+15.995SEVGGFSEDLLAK-1.0000     NotChecked  -30.5786    1539.7127   ✗       
+941   M+15.995SEVGGVSEDLLAK    -1.0000     NotChecked  -30.5793    1449.7021   ✗       
+942   +42.011M+15.995SEVGGRSEDLLAK-1.0000     NotChecked  -30.5839    1548.7454   ✗       
+943   +42.011M+15.995SEVGGVSETLLAK-1.0000     NotChecked  -30.5859    1477.7334   ✗       
+944   SM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -30.5871    1536.7341   ✗       
+945   SM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -30.6230    1536.7341   ✗       
+946   SMSEVGGVSEDLLAK          -1.0000     NotChecked  -30.6304    1520.7392   ✗       
+947   +42.011M+15.995SEVGGVSELLLAK-1.0000     NotChecked  -30.6432    1489.7698   ✗       
+948   NM+15.995SEVGGVSVDLLAK   -1.0000     NotChecked  -30.6464    1533.7709   ✗       
+949   SM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -30.6465    1536.7341   ✗       
+950   +42.011M+15.995SEVGGVSDDLLAK-1.0000     NotChecked  -30.6633    1477.6970   ✗       
+951   VM+15.995SEVGGVSVDLLAK   -1.0000     NotChecked  -30.6644    1518.7963   ✗       
+952   +43.006M+15.995AEVGGVSEDLLAK-1.0000     NotChecked  -30.6743    1476.7130   ✗       
+953   NM+15.995SEVGGVEDLLAK    -1.0000     NotChecked  -30.6845    1476.7130   ✗       
+954   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -30.6857    1548.7705   ✗       
+955   +43.006M+15.995SEVGGLVEDLLAK-1.0000     NotChecked  -30.6922    1518.7600   ✗       
+956   SM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -30.7002    1524.6978   ✗       
+957   VM+15.995SEVGGVEDLLAK    -1.0000     NotChecked  -30.7024    1461.7385   ✗       
+958   +43.006M+15.995SEVGGVSADLLAK-1.0000     NotChecked  -30.7049    1434.7024   ✗       
+959   +42.011M+15.995SEVGGVSEALLAK-1.0000     NotChecked  -30.7064    1447.7228   ✗       
+960   LM+15.995SEVGGVSDDLLAK   -1.0000     NotChecked  -30.7094    1548.7705   ✗       
+961   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -30.7100    1491.7127   ✗       
+962   VM+15.995SEVGGSSEDLLAK   -1.0000     NotChecked  -30.7131    1536.7341   ✗       
+963   +42.011M+15.995SEVGGVEEDLLAK-1.0000     NotChecked  -30.7138    1533.7232   ✗       
+964   +43.006M+15.995SEVGGVGEDLLAK-1.0000     NotChecked  -30.7191    1462.6974   ✗       
+965   VM+15.995SEVGGGSEDLLAK   -1.0000     NotChecked  -30.7318    1506.7236   ✗       
+966   +42.011M+15.995SEVGGVSEDLAAK-1.0000     NotChecked  -30.7443    1449.6657   ✗       
+967   +42.011MSEVGGVSEDLLAK    -1.0000     NotChecked  -30.7489    1475.7178   ✗       
+968   +42.011M+15.995SEVGGVSENLLAK-1.0000     NotChecked  -30.7587    1490.7287   ✗       
+969   VM+15.995SEVGGVSSDLLAK   -1.0000     NotChecked  -30.7590    1506.7600   ✗       
+970   SM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -30.7704    1536.7341   ✗       
+971   +43.006M+15.995SEVGGVSTDLLAK-1.0000     NotChecked  -30.7788    1464.7130   ✗       
+972   LMSEVGGVSEDLLAK          -1.0000     NotChecked  -30.7949    1546.7913   ✗       
+973   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -30.8037    1548.7705   ✗       
+974   SM+15.995SEVGGVSLDLLAK   -1.0000     NotChecked  -30.8050    1520.7756   ✗       
+975   VM+15.995SEVGGVSQ+0.984DLLAK-1.0000     NotChecked  -30.8072    1548.7705   ✗       
+976   M+15.995SEVGGVSADLLAK    -1.0000     NotChecked  -30.8156    1391.6966   ✗       
+977   SM+15.995SEVGGVSEDLLA    -1.0000     NotChecked  -30.8225    1408.6392   ✗       
+978   M+15.995SEVGGVGEDLLAK    -1.0000     NotChecked  -30.8297    1419.6915   ✗       
+979   SM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -30.8415    1536.7341   ✗       
+980   VM+15.995SDVGGVSEDLLAK   -1.0000     NotChecked  -30.8531    1534.7549   ✗       
+981   +42.011M+15.995SEVGGVSQDLLAK-1.0000     NotChecked  -30.8608    1490.7287   ✗       
+982   +43.006M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -30.8623    1492.7079   ✗       
+983   +43.006M+15.995SEVGGVAEDLLAK-1.0000     NotChecked  -30.8782    1476.7130   ✗       
+984   NM+15.995SEVGGVSLDLLAK   -1.0000     NotChecked  -30.8790    1547.7865   ✗       
+985   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -30.8798    1491.7127   ✗       
+986   +42.011M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -30.8889    1491.7127   ✗       
+987   M+15.995SEVGGVSTDLLAK    -1.0000     NotChecked  -30.8894    1421.7072   ✗       
+988   NM+15.995SEVGGVSEDLLA    -1.0000     NotChecked  -30.8965    1435.6501   ✗       
+989   +42.011M+15.995SEVGGVGSEDLLAK-1.0000     NotChecked  -30.8965    1548.7341   ✗       
+990   VM+15.995SEVGGVSEVLLAK   -1.0000     NotChecked  -30.9029    1532.8120   ✗       
+991   VM+15.995SEVGGVSEDLLAK   -1.0000     NotChecked  -30.9061    1548.7705   ✗       
+992   +43.006M+15.995SEVGGVSEDLLAK-1.0000     NotChecked  -30.9259    1492.7079   ✗       
+993   +43.006M+15.995SEVGGVSEELLAK-1.0000     NotChecked  -30.9524    1506.7236   ✗       
+994   +42.011M+15.995SEVGGVSEDLLAR-1.0000     NotChecked  -30.9531    1519.7188   ✗       
+995   +42.011M+15.995SEVGGVNEDLLAK-1.0000     NotChecked  -30.9575    1518.7236   ✗       
+996   +43.006M+15.995SQVGGVSEDLLAK-1.0000     NotChecked  -30.9637    1491.7239   ✗       
+997   NM+15.995SEVGGSEDLLAK    -1.0000     NotChecked  -30.9657    1464.6766   ✗       
+998   +42.011M+15.995DEVGGVSEDLLAK-1.0000     NotChecked  -30.9687    1519.7076   ✗       
+999   LM+15.995SEVGGVSLDLLAK   -1.0000     NotChecked  -30.9695    1546.8276   ✗       
+1000  SM+15.995AEVGGVSEDLLAK   -1.0000     NotChecked  -30.9760    1520.7392   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: TM+15.995SEVGGSVEDLLAK
+Similarity: 0.6322
+De Novo Score: -15.0435
+Source: Database
+Correct: ✓
+

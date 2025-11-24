@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 24
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 699.4117
+Precursor charge: 2+
+Ground truth: ISAPIGGGWVIISK
+Ground truth (normalized): ISAPIGGGWVIISK
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 354
+Used for reranking: 354
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 354 (35.4%)
+Database matches: 353 (35.3%)
+Prosit predictions: 1 (0.1%)
+Failed: 0 (0.0%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.9600
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     LSAPLGGGWVLLSK           0.9600      Database    -1.4265     1396.8078   ✓       ✓
+2     LSAPLGGGWVLLSK           0.9600      Database    -1.8096     1396.8078   ✓       ✓
+3     LSAPLGGGWVLLSK           0.9600      Database    -2.2791     1396.8078   ✓       ✓
+4     LSAPLGGGWVLLSK           0.9600      Database    -2.5521     1396.8078   ✓       ✓
+5     LSAPLGGGWVLLSK           0.9600      Database    -2.6621     1396.8078   ✓       ✓
+6     LSAPLGGGWVLLSK           0.9600      Database    -2.9352     1396.8078   ✓       ✓
+7     LSAPLGGGWVLLSK           0.9600      Database    -3.2836     1396.8078   ✓       ✓
+8     LSAPLGGGWVLLSK           0.9600      Database    -3.4047     1396.8078   ✓       ✓
+9     LSAPLGGGWVLLSK           0.9600      Database    -3.6666     1396.8078   ✓       ✓
+10    LSAPLGGGWVLLSK           0.9600      Database    -3.7877     1396.8078   ✓       ✓
+11    LSAPLGGGWVLLSK           0.9600      Database    -3.8738     1396.8078   ✓       ✓
+12    LSAPLGGGWVLLSK           0.9600      Database    -4.1361     1396.8078   ✓       ✓
+13    LSAPLGGGWVLLSK           0.9600      Database    -4.2568     1396.8078   ✓       ✓
+14    LSAPLGGGWVLLSK           0.9600      Database    -4.4092     1396.8078   ✓       ✓
+15    LSAPLGGGWVLLSK           0.9600      Database    -4.5191     1396.8078   ✓       ✓
+16    LSAPLGGGWVLLSK           0.9600      Database    -4.6956     1396.8078   ✓       ✓
+17    LSAPLGGGWVLLSK           0.9600      Database    -4.7922     1396.8078   ✓       ✓
+18    LSAPLGGGWVLLSK           0.9600      Database    -5.0786     1396.8078   ✓       ✓
+19    LSAPLGGGWVLLSK           0.9600      Database    -5.2617     1396.8078   ✓       ✓
+20    LSAPLGGGWVLLSK           0.9600      Database    -5.5481     1396.8078   ✓       ✓
+21    LSAPLGGGWVLLSK           0.9600      Database    -5.6447     1396.8078   ✓       ✓
+22    LSAPLGGGWVLLSK           0.9600      Database    -5.7308     1396.8078   ✓       ✓
+23    LSAPLGGGWVLLSK           0.9600      Database    -5.8212     1396.8078   ✓       ✓
+24    LSAPLGGGWVLLSK           0.9600      Database    -5.8519     1396.8078   ✓       ✓
+25    LSAPLGGGWVLLSK           0.9600      Database    -5.9312     1396.8078   ✓       ✓
+26    LSAPLGGGWVLLSK           0.9600      Database    -6.1138     1396.8078   ✓       ✓
+27    LSAPLGGGWVLLSK           0.9600      Database    -6.2042     1396.8078   ✓       ✓
+28    LSAPLGGGWVLLSK           0.9600      Database    -6.2349     1396.8078   ✓       ✓
+29    LSAPLGGGWVLLSK           0.9600      Database    -6.5526     1396.8078   ✓       ✓
+30    LSAPLGGGWVLLSK           0.9600      Database    -6.6737     1396.8078   ✓       ✓
+31    LSAPLGGGWVLLSK           0.9600      Database    -6.9357     1396.8078   ✓       ✓
+32    LSAPLGGGWVLLSK           0.9600      Database    -6.9794     1396.8078   ✓       ✓
+33    LSAPLGGGWVLLSK           0.9600      Database    -7.0568     1396.8078   ✓       ✓
+34    LSAPLGGGWVLLSK           0.9600      Database    -7.1428     1396.8078   ✓       ✓
+35    LSAPLGGGWVLLSK           0.9600      Database    -7.3625     1396.8078   ✓       ✓
+36    LSAPLGGGWVLLSK           0.9600      Database    -7.4052     1396.8078   ✓       ✓
+37    LSAPLGGGWVLLSK           0.9600      Database    -7.5259     1396.8078   ✓       ✓
+38    LSAPLGGGWVLLSK           0.9600      Database    -7.6782     1396.8078   ✓       ✓
+39    LSAPLGGGWVLLSK           0.9600      Database    -7.7089     1396.8078   ✓       ✓
+40    LSAPLGGGWVLLSK           0.9600      Database    -7.7882     1396.8078   ✓       ✓
+41    LSAPLGGGWVLLSK           0.9600      Database    -7.8320     1396.8078   ✓       ✓
+42    LSAPLGGGWVLLSK           0.9600      Database    -8.0613     1396.8078   ✓       ✓
+43    LSAPLGGGWVLLSK           0.9600      Database    -8.0920     1396.8078   ✓       ✓
+44    LSAPLGGGWVLLSK           0.9600      Database    -8.1050     1396.8078   ✓       ✓
+45    LSAPLGGGWVLLSK           0.9600      Database    -8.2150     1396.8078   ✓       ✓
+46    LSAPLGGGWVLLSK           0.9600      Database    -8.4881     1396.8078   ✓       ✓
+47    LSAPLGGGWVLLSK           0.9600      Database    -8.5308     1396.8078   ✓       ✓
+48    LSAPLGGGWVLLSK           0.9600      Database    -8.8365     1396.8078   ✓       ✓
+49    LSAPLGGGWVLLSK           0.9600      Database    -8.9138     1396.8078   ✓       ✓
+50    LSAPLGGGWVLLSK           0.9600      Database    -8.9576     1396.8078   ✓       ✓
+51    LSAPLGGGWVLLSK           0.9600      Database    -8.9998     1396.8078   ✓       ✓
+52    LSAPLGGGWVLLSK           0.9600      Database    -9.1209     1396.8078   ✓       ✓
+53    LSAPLGGGWVLLSK           0.9600      Database    -9.2195     1396.8078   ✓       ✓
+54    LSAPLGGGWVLLSK           0.9600      Database    -9.3406     1396.8078   ✓       ✓
+55    LSAPLGGGWVLLSK           0.9600      Database    -9.3829     1396.8078   ✓       ✓
+56    LSAPLGGGWVLLSK           0.9600      Database    -9.4267     1396.8078   ✓       ✓
+57    LSAPLGGGWVLLSK           0.9600      Database    -9.4781     1396.8078   ✓       ✓
+58    LSAPLGGGWVLLSK           0.9600      Database    -9.5040     1396.8078   ✓       ✓
+59    LSAPLGGGWVLLSK           0.9600      Database    -9.6890     1396.8078   ✓       ✓
+60    LSAPLGGGWVLLSK           0.9600      Database    -9.7117     1396.8078   ✓       ✓
+61    LSAPLGGGWVLLSK           0.9600      Database    -9.8097     1396.8078   ✓       ✓
+62    LSAPLGGGWVLLSK           0.9600      Database    -9.8612     1396.8078   ✓       ✓
+63    LSAPLGGGWVLLSK           0.9600      Database    -9.9621     1396.8078   ✓       ✓
+64    LSAPLGGGWVLLSK           0.9600      Database    -10.0721    1396.8078   ✓       ✓
+65    LSAPLGGGWVLLSK           0.9600      Database    -10.0948    1396.8078   ✓       ✓
+66    LSAPLGGGWVLLSK           0.9600      Database    -10.2485    1396.8078   ✓       ✓
+67    LSAPLGGGWVLLSK           0.9600      Database    -10.3451    1396.8078   ✓       ✓
+68    LSAPLGGGWVLLSK           0.9600      Database    -10.5643    1396.8078   ✓       ✓
+69    LSAPLGGGWVLLSK           0.9600      Database    -10.6037    1396.8078   ✓       ✓
+70    LSAPLGGGWVLLSK           0.9600      Database    -10.6316    1396.8078   ✓       ✓
+71    LSAPLGGGWVLLSK           0.9600      Database    -10.6448    1396.8078   ✓       ✓
+72    LSAPLGGGWVLLSK           0.9600      Database    -10.8146    1396.8078   ✓       ✓
+73    LSAPLGGGWVLLSK           0.9600      Database    -10.8373    1396.8078   ✓       ✓
+74    LSAPLGGGWVLLSK           0.9600      Database    -10.9473    1396.8078   ✓       ✓
+75    LSAPLGGGWVLLSK           0.9600      Database    -10.9780    1396.8078   ✓       ✓
+76    LSAPLGGGWVLLSK           0.9600      Database    -10.9868    1396.8078   ✓       ✓
+77    LSAPLGGGWVLLSK           0.9600      Database    -11.0278    1396.8078   ✓       ✓
+78    LSAPLGGGWVLLSK           0.9600      Database    -11.1010    1396.8078   ✓       ✓
+79    LSAPLGGGWVLLSK           0.9600      Database    -11.1977    1396.8078   ✓       ✓
+80    LSAPLGGGWVLLSK           0.9600      Database    -11.2204    1396.8078   ✓       ✓
+81    LSAPLGGGWVLLSK           0.9600      Database    -11.2837    1396.8078   ✓       ✓
+82    LSAPLGGGWVLLSK           0.9600      Database    -11.3352    1396.8078   ✓       ✓
+83    LSAPLGGGWVLLSK           0.9600      Database    -11.3610    1396.8078   ✓       ✓
+84    LSAPLGGGWVLLSK           0.9600      Database    -11.3741    1396.8078   ✓       ✓
+85    LSAPLGGGWVLLSK           0.9600      Database    -11.4048    1396.8078   ✓       ✓
+86    LSAPLGGGWVLLSK           0.9600      Database    -11.4841    1396.8078   ✓       ✓
+87    LSAPLGGGWVLLSK           0.9600      Database    -11.4973    1396.8078   ✓       ✓
+88    LSAPLGGGWVLLSK           0.9600      Database    -11.5688    1396.8078   ✓       ✓
+89    LSAPLGGGWVLLSK           0.9600      Database    -11.6667    1396.8078   ✓       ✓
+90    LSAPLGGGWVLLSK           0.9600      Database    -11.6899    1396.8078   ✓       ✓
+91    LSAPLGGGWVLLSK           0.9600      Database    -11.7182    1396.8078   ✓       ✓
+92    LSAPLGGGWVLLSK           0.9600      Database    -11.7572    1396.8078   ✓       ✓
+93    LSAPLGGGWVLLSK           0.9600      Database    -11.7704    1396.8078   ✓       ✓
+94    LSAPLGGGWVLLSK           0.9600      Database    -11.7878    1396.8078   ✓       ✓
+95    LSAPLGGGWVLLSK           0.9600      Database    -11.8803    1396.8078   ✓       ✓
+96    LSAPLGGGWVLLSK           0.9600      Database    -11.9253    1396.8078   ✓       ✓
+97    LSAPLGGGWVLLSK           0.9600      Database    -11.9518    1396.8078   ✓       ✓
+98    LSAPLGGGWVLLSK           0.9600      Database    -11.9743    1396.8078   ✓       ✓
+99    LSAPLGGGWVLLSK           0.9600      Database    -12.0479    1396.8078   ✓       ✓
+100   LSAPLGGGWVLLSK           0.9600      Database    -12.0729    1396.8078   ✓       ✓
+101   LSAPLGGGWVLLSK           0.9600      Database    -12.1055    1396.8078   ✓       ✓
+102   LSAPLGGGWVLLSK           0.9600      Database    -12.1534    1396.8078   ✓       ✓
+103   LSAPLGGGWVLLSK           0.9600      Database    -12.1589    1396.8078   ✓       ✓
+104   LSAPLGGGWVLLSK           0.9600      Database    -12.2266    1396.8078   ✓       ✓
+105   LSAPLGGGWVLLSK           0.9600      Database    -12.3084    1396.8078   ✓       ✓
+106   LSAPLGGGWVLLSK           0.9600      Database    -12.3573    1396.8078   ✓       ✓
+107   LSAPLGGGWVLLSK           0.9600      Database    -12.4213    1396.8078   ✓       ✓
+108   LSAPLGGGWVLLSK           0.9600      Database    -12.4310    1396.8078   ✓       ✓
+109   LSAPLGGGWVLLSK           0.9600      Database    -12.4608    1396.8078   ✓       ✓
+110   LSAPLGGGWVLLSK           0.9600      Database    -12.4886    1396.8078   ✓       ✓
+111   LSAPLGGGWVLLSK           0.9600      Database    -12.5018    1396.8078   ✓       ✓
+112   LSAPLGGGWVLLSK           0.9600      Database    -12.5420    1396.8078   ✓       ✓
+113   LSAPLGGGWVLLSK           0.9600      Database    -12.6097    1396.8078   ✓       ✓
+114   LSAPLGGGWVLLSK           0.9600      Database    -12.6229    1396.8078   ✓       ✓
+115   LSAPLGGGWVLLSK           0.9600      Database    -12.6292    1396.8078   ✓       ✓
+116   LSAPLGGGWVLLSK           0.9600      Database    -12.6944    1396.8078   ✓       ✓
+117   LSAPLGGGWVLLSK           0.9600      Database    -12.6957    1396.8078   ✓       ✓
+118   LSAPLGGGWVLLSK           0.9600      Database    -12.7472    1396.8078   ✓       ✓
+119   LSAPLGGGWVLLSK           0.9600      Database    -12.7771    1396.8078   ✓       ✓
+120   LSAPLGGGWVLLSK           0.9600      Database    -12.7779    1396.8078   ✓       ✓
+121   LSAPLGGGWVLLSK           0.9600      Database    -12.8043    1396.8078   ✓       ✓
+122   LSAPLGGGWVLLSK           0.9600      Database    -12.8198    1396.8078   ✓       ✓
+123   LSAPLGGGWVLLSK           0.9600      Database    -12.8268    1396.8078   ✓       ✓
+124   LSAPLGGGWVLLSK           0.9600      Database    -12.8438    1396.8078   ✓       ✓
+125   LSAPLGGGWVLLSK           0.9600      Database    -12.8848    1396.8078   ✓       ✓
+126   LSAPLGGGWVLLSK           0.9600      Database    -12.8859    1396.8078   ✓       ✓
+127   LSAPLGGGWVLLSK           0.9600      Database    -12.9005    1396.8078   ✓       ✓
+128   LSAPLGGGWVLLSK           0.9600      Database    -12.9581    1396.8078   ✓       ✓
+129   LSAPLGGGWVLLSK           0.9600      Database    -12.9808    1396.8078   ✓       ✓
+130   LSAPLGGGWVLLSK           0.9600      Database    -13.0059    1396.8078   ✓       ✓
+131   LSAPLGGGWVLLSK           0.9600      Database    -13.0122    1396.8078   ✓       ✓
+132   LSAPLGGGWVLLSK           0.9600      Database    -13.0774    1396.8078   ✓       ✓
+133   LSAPLGGGWVLLSK           0.9600      Database    -13.0788    1396.8078   ✓       ✓
+134   LSAPLGGGWVLLSK           0.9600      Database    -13.0920    1396.8078   ✓       ✓
+135   LSAPLGGGWVLLSK           0.9600      Database    -13.0999    1396.8078   ✓       ✓
+136   LSAPLGGGWVLLSK           0.9600      Database    -13.1302    1396.8078   ✓       ✓
+137   LSAPLGGGWVLLSK           0.9600      Database    -13.1609    1396.8078   ✓       ✓
+138   LSAPLGGGWVLLSK           0.9600      Database    -13.2028    1396.8078   ✓       ✓
+139   LSAPLGGGWVLLSK           0.9600      Database    -13.2099    1396.8078   ✓       ✓
+140   LSAPLGGGWVLLSK           0.9600      Database    -13.2311    1396.8078   ✓       ✓
+141   LSAPLGGGWVLLSK           0.9600      Database    -13.2392    1396.8078   ✓       ✓
+142   LSAPLGGGWVLLSK           0.9600      Database    -13.2618    1396.8078   ✓       ✓
+143   LSAPLGGGWVLLSK           0.9600      Database    -13.2690    1396.8078   ✓       ✓
+144   LSAPLGGGWVLLSK           0.9600      Database    -13.2835    1396.8078   ✓       ✓
+145   LSAPLGGGWVLLSK           0.9600      Database    -13.3411    1396.8078   ✓       ✓
+146   LSAPLGGGWVLLSK           0.9600      Database    -13.3543    1396.8078   ✓       ✓
+147   LSAPLGGGWVLLSK           0.9600      Database    -13.3638    1396.8078   ✓       ✓
+148   LSAPLGGGWVLLSK           0.9600      Database    -13.4750    1396.8078   ✓       ✓
+149   LSAPLGGGWVLLSK           0.9600      Database    -13.4817    1396.8078   ✓       ✓
+150   LSAPLGGGWVLLSK           0.9600      Database    -13.4829    1396.8078   ✓       ✓
+151   LSAPLGGGWVLLSK           0.9600      Database    -13.5469    1396.8078   ✓       ✓
+152   LSAPLGGGWVLLSK           0.9600      Database    -13.6142    1396.8078   ✓       ✓
+153   LSAPLGGGWVLLSK           0.9600      Database    -13.6222    1396.8078   ✓       ✓
+154   LSAPLGGGWVLLSK           0.9600      Database    -13.6274    1396.8078   ✓       ✓
+155   LSAPLGGGWVLLSK           0.9600      Database    -13.6296    1396.8078   ✓       ✓
+156   LSAPLGGGWVLLSK           0.9600      Database    -13.6449    1396.8078   ✓       ✓
+157   LSAPLGGGWVLLSK           0.9600      Database    -13.6723    1396.8078   ✓       ✓
+158   LSAPLGGGWVLLSK           0.9600      Database    -13.7374    1396.8078   ✓       ✓
+159   LSAPLGGGWVLLSK           0.9600      Database    -13.7385    1396.8078   ✓       ✓
+160   LSAPLGGGWVLLSK           0.9600      Database    -13.7548    1396.8078   ✓       ✓
+161   LSAPLGGGWVLLSK           0.9600      Database    -13.7824    1396.8078   ✓       ✓
+162   LSAPLGGGWVLLSK           0.9600      Database    -13.8313    1396.8078   ✓       ✓
+163   LSAPLGGGWVLLSK           0.9600      Database    -13.8333    1396.8078   ✓       ✓
+164   LSAPLGGGWVLLSK           0.9600      Database    -13.8647    1396.8078   ✓       ✓
+165   LSAPLGGGWVLLSK           0.9600      Database    -13.8728    1396.8078   ✓       ✓
+166   LSAPLGGGWVLLSK           0.9600      Database    -13.9027    1396.8078   ✓       ✓
+167   LSAPLGGGWVLLSK           0.9600      Database    -13.9050    1396.8078   ✓       ✓
+168   LSAPLGGGWVLLSK           0.9600      Database    -13.9138    1396.8078   ✓       ✓
+169   LSAPLGGGWVLLSK           0.9600      Database    -13.9299    1396.8078   ✓       ✓
+170   LSAPLGGGWVLLSK           0.9600      Database    -13.9454    1396.8078   ✓       ✓
+171   LSAPLGGGWVLLSK           0.9600      Database    -13.9524    1396.8078   ✓       ✓
+172   LSAPLGGGWVLLSK           0.9600      Database    -14.0104    1396.8078   ✓       ✓
+173   LSAPLGGGWVLLSK           0.9600      Database    -14.0115    1396.8078   ✓       ✓
+174   LSAPLGGGWVLLSK           0.9600      Database    -14.0160    1396.8078   ✓       ✓
+175   LSAPLGGGWVLLSK           0.9600      Database    -14.0553    1396.8078   ✓       ✓
+176   LSAPLGGGWVLLSK           0.9600      Database    -14.0837    1396.8078   ✓       ✓
+177   LSAPLGGGWVLLSK           0.9600      Database    -14.0917    1396.8078   ✓       ✓
+178   LSAPLGGGWVLLSK           0.9600      Database    -14.1064    1396.8078   ✓       ✓
+179   LSAPLGGGWVLLSK           0.9600      Database    -14.1215    1396.8078   ✓       ✓
+180   LSAPLGGGWVLLSK           0.9600      Database    -14.1371    1396.8078   ✓       ✓
+181   LSAPLGGGWVLLSK           0.9600      Database    -14.1378    1396.8078   ✓       ✓
+182   LSAPLGGGWVLLSK           0.9600      Database    -14.1654    1396.8078   ✓       ✓
+183   LSAPLGGGWVLLSK           0.9600      Database    -14.2144    1396.8078   ✓       ✓
+184   LSAPLGGGWVLLSK           0.9600      Database    -14.2164    1396.8078   ✓       ✓
+185   LSAPLGGGWVLLSK           0.9600      Database    -14.2221    1396.8078   ✓       ✓
+186   LSAPLGGGWVLLSK           0.9600      Database    -14.2558    1396.8078   ✓       ✓
+187   LSAPLGGGWVLLSK           0.9600      Database    -14.2880    1396.8078   ✓       ✓
+188   LSAPLGGGWVLLSK           0.9600      Database    -14.2969    1396.8078   ✓       ✓
+189   LSAPLGGGWVLLSK           0.9600      Database    -14.3284    1396.8078   ✓       ✓
+190   LSAPLGGGWVLLSK           0.9600      Database    -14.3323    1396.8078   ✓       ✓
+191   LSAPLGGGWVLLSK           0.9600      Database    -14.3324    1396.8078   ✓       ✓
+192   LSAPLGGGWVLLSK           0.9600      Database    -14.3355    1396.8078   ✓       ✓
+193   LSAPLGGGWVLLSK           0.9600      Database    -14.3648    1396.8078   ✓       ✓
+194   LSAPLGGGWVLLSK           0.9600      Database    -14.3946    1396.8078   ✓       ✓
+195   LSAPLGGGWVLLSK           0.9600      Database    -14.3990    1396.8078   ✓       ✓
+196   LSAPLGGGWVLLSK           0.9600      Database    -14.4215    1396.8078   ✓       ✓
+197   LSAPLGGGWVLLSK           0.9600      Database    -14.4667    1396.8078   ✓       ✓
+198   LSAPLGGGWVLLSK           0.9600      Database    -14.4748    1396.8078   ✓       ✓
+199   LSAPLGGGWVLLSK           0.9600      Database    -14.4799    1396.8078   ✓       ✓
+200   LSAPLGGGWVLLSK           0.9600      Database    -14.4862    1396.8078   ✓       ✓
+201   LSAPLGGGWVLLSK           0.9600      Database    -14.4894    1396.8078   ✓       ✓
+202   LSAPLGGGWVLLSK           0.9600      Database    -14.5201    1396.8078   ✓       ✓
+203   LSAPLGGGWVLLSK           0.9600      Database    -14.5528    1396.8078   ✓       ✓
+204   LSAPLGGGWVLLSK           0.9600      Database    -14.6042    1396.8078   ✓       ✓
+205   LSAPLGGGWVLLSK           0.9600      Database    -14.6051    1396.8078   ✓       ✓
+206   LSAPLGGGWVLLSK           0.9600      Database    -14.6073    1396.8078   ✓       ✓
+207   LSAPLGGGWVLLSK           0.9600      Database    -14.6341    1396.8078   ✓       ✓
+208   LSAPLGGGWVLLSK           0.9600      Database    -14.6349    1396.8078   ✓       ✓
+209   LSAPLGGGWVLLSK           0.9600      Database    -14.6739    1396.8078   ✓       ✓
+210   LSAPLGGGWVLLSK           0.9600      Database    -14.6768    1396.8078   ✓       ✓
+211   LSAPLGGGWVLLSK           0.9600      Database    -14.6839    1396.8078   ✓       ✓
+212   LSAPLGGGWVLLSK           0.9600      Database    -14.7155    1396.8078   ✓       ✓
+213   LSAPLGGGWVLLSK           0.9600      Database    -14.7430    1396.8078   ✓       ✓
+214   LSAPLGGGWVLLSK           0.9600      Database    -14.7478    1396.8078   ✓       ✓
+215   LSAPLGGGWVLLSK           0.9600      Database    -14.7552    1396.8078   ✓       ✓
+216   LSAPLGGGWVLLSK           0.9600      Database    -14.7575    1396.8078   ✓       ✓
+217   LSAPLGGGWVLLSK           0.9600      Database    -14.7664    1396.8078   ✓       ✓
+218   LSAPLGGGWVLLSK           0.9600      Database    -14.7979    1396.8078   ✓       ✓
+219   LSAPLGGGWVLLSK           0.9600      Database    -14.8046    1396.8078   ✓       ✓
+220   LSAPLGGGWVLLSK           0.9600      Database    -14.8378    1396.8078   ✓       ✓
+221   LSAPLGGGWVLLSK           0.9600      Database    -14.8630    1396.8078   ✓       ✓
+222   LSAPLGGGWVLLSK           0.9600      Database    -14.8641    1396.8078   ✓       ✓
+223   LSAPLGGGWVLLSK           0.9600      Database    -14.8692    1396.8078   ✓       ✓
+224   LSAPLGGGWVLLSK           0.9600      Database    -14.9358    1396.8078   ✓       ✓
+225   LSAPLGGGWVLLSK           0.9600      Database    -14.9490    1396.8078   ✓       ✓
+226   LSAPLGGGWVLLSK           0.9600      Database    -14.9569    1396.8078   ✓       ✓
+227   LSAPLGGGWVLLSK           0.9600      Database    -14.9589    1396.8078   ✓       ✓
+228   LSAPLGGGWVLLSK           0.9600      Database    -14.9873    1396.8078   ✓       ✓
+229   LSAPLGGGWVLLSK           0.9600      Database    -14.9903    1396.8078   ✓       ✓
+230   LSAPLGGGWVLLSK           0.9600      Database    -14.9984    1396.8078   ✓       ✓
+231   LSAPLGGGWVLLSK           0.9600      Database    -15.0138    1396.8078   ✓       ✓
+232   LSAPLGGGWVLLSK           0.9600      Database    -15.0180    1396.8078   ✓       ✓
+233   LSAPLGGGWVLLSK           0.9600      Database    -15.0310    1396.8078   ✓       ✓
+234   LSAPLGGGWVLLSK           0.9600      Database    -15.0394    1396.8078   ✓       ✓
+235   LSAPLGGGWVLLSK           0.9600      Database    -15.0569    1396.8078   ✓       ✓
+236   LSAPLGGGWVLLSK           0.9600      Database    -15.0598    1396.8078   ✓       ✓
+237   LSAPLGGGWVLLSK           0.9600      Database    -15.0669    1396.8078   ✓       ✓
+238   LSAPLGGGWVLLSK           0.9600      Database    -15.0701    1396.8078   ✓       ✓
+239   LSAPLGGGWVLLSK           0.9600      Database    -15.0764    1396.8078   ✓       ✓
+240   LSAPLGGGWVLLSK           0.9600      Database    -15.0931    1396.8078   ✓       ✓
+241   LSAPLGGGWVLLSK           0.9600      Database    -15.0962    1396.8078   ✓       ✓
+242   LSAPLGGGWVLLSK           0.9600      Database    -15.1260    1396.8078   ✓       ✓
+243   LSAPLGGGWVLLSK           0.9600      Database    -15.1405    1396.8078   ✓       ✓
+244   LSAPLGGGWVLLSK           0.9600      Database    -15.1494    1396.8078   ✓       ✓
+245   LSAPLGGGWVLLSK           0.9600      Database    -15.1809    1396.8078   ✓       ✓
+246   LSAPLGGGWVLLSK           0.9600      Database    -15.1848    1396.8078   ✓       ✓
+247   LSAPLGGGWVLLSK           0.9600      Database    -15.1849    1396.8078   ✓       ✓
+248   LSAPLGGGWVLLSK           0.9600      Database    -15.1944    1396.8078   ✓       ✓
+249   LSAPLGGGWVLLSK           0.9600      Database    -15.2173    1396.8078   ✓       ✓
+250   LSAPLGGGWVLLSK           0.9600      Database    -15.2209    1396.8078   ✓       ✓
+251   LSAPLGGGWVLLSK           0.9600      Database    -15.2243    1396.8078   ✓       ✓
+252   LSAPLGGGWVLLSK           0.9600      Database    -15.2471    1396.8078   ✓       ✓
+253   LSAPLGGGWVLLSK           0.9600      Database    -15.2646    1396.8078   ✓       ✓
+254   LSAPLGGGWVLLSK           0.9600      Database    -15.2670    1396.8078   ✓       ✓
+255   LSAPLGGGWVLLSK           0.9600      Database    -15.3170    1396.8078   ✓       ✓
+256   LSAPLGGGWVLLSK           0.9600      Database    -15.3321    1396.8078   ✓       ✓
+257   LSAPLGGGWVLLSK           0.9600      Database    -15.3331    1396.8078   ✓       ✓
+258   LSAPLGGGWVLLSK           0.9600      Database    -15.3387    1396.8078   ✓       ✓
+259   LSAPLGGGWVLLSK           0.9600      Database    -15.3400    1396.8078   ✓       ✓
+260   LSAPLGGGWVLLSK           0.9600      Database    -15.3420    1396.8078   ✓       ✓
+261   LSAPLGGGWVLLSK           0.9600      Database    -15.3477    1396.8078   ✓       ✓
+262   LSAPLGGGWVLLSK           0.9600      Database    -15.3814    1396.8078   ✓       ✓
+263   LSAPLGGGWVLLSK           0.9600      Database    -15.4141    1396.8078   ✓       ✓
+264   LSAPLGGGWVLLSK           0.9600      Database    -15.4225    1396.8078   ✓       ✓
+265   LSAPLGGGWVLLSK           0.9600      Database    -15.4280    1396.8078   ✓       ✓
+266   LSAPLGGGWVLLSK           0.9600      Database    -15.4532    1396.8078   ✓       ✓
+267   LSAPLGGGWVLLSK           0.9600      Database    -15.4579    1396.8078   ✓       ✓
+268   LSAPLGGGWVLLSK           0.9600      Database    -15.4580    1396.8078   ✓       ✓
+269   LSAPLGGGWVLLSK           0.9600      Database    -15.4594    1396.8078   ✓       ✓
+270   LSAPLGGGWVLLSK           0.9600      Database    -15.4761    1396.8078   ✓       ✓
+271   LSAPLGGGWVLLSK           0.9600      Database    -15.4793    1396.8078   ✓       ✓
+272   LSAPLGGGWVLLSK           0.9600      Database    -15.4866    1396.8078   ✓       ✓
+273   LSAPLGGGWVLLSK           0.9600      Database    -15.5293    1396.8078   ✓       ✓
+274   LSAPLGGGWVLLSK           0.9600      Database    -15.5680    1396.8078   ✓       ✓
+275   LSAPLGGGWVLLSK           0.9600      Database    -15.5774    1396.8078   ✓       ✓
+276   LSAPLGGGWVLLSK           0.9600      Database    -15.5955    1396.8078   ✓       ✓
+277   LSAPLGGGWVLLSK           0.9600      Database    -15.6004    1396.8078   ✓       ✓
+278   LSAPLGGGWVLLSK           0.9600      Database    -15.6118    1396.8078   ✓       ✓
+279   LSAPLGGGWVLLSK           0.9600      Database    -15.6216    1396.8078   ✓       ✓
+280   LSAPLGGGWVLLSK           0.9600      Database    -15.6477    1396.8078   ✓       ✓
+281   LSAPLGGGWVLLSK           0.9600      Database    -15.6500    1396.8078   ✓       ✓
+282   LSAPLGGGWVLLSK           0.9600      Database    -15.6864    1396.8078   ✓       ✓
+283   LSAPLGGGWVLLSK           0.9600      Database    -15.6904    1396.8078   ✓       ✓
+284   LSAPLGGGWVLLSK           0.9600      Database    -15.7000    1396.8078   ✓       ✓
+285   LSAPLGGGWVLLSK           0.9600      Database    -15.7162    1396.8078   ✓       ✓
+286   LSAPLGGGWVLLSK           0.9600      Database    -15.7218    1396.8078   ✓       ✓
+287   LSAPLGGGWVLLSK           0.9600      Database    -15.7298    1396.8078   ✓       ✓
+288   LSAPLGGGWVLLSK           0.9600      Database    -15.7307    1396.8078   ✓       ✓
+289   LSAPLGGGWVLLSK           0.9600      Database    -15.7597    1396.8078   ✓       ✓
+290   LSAPLGGGWVLLSK           0.9600      Database    -15.7709    1396.8078   ✓       ✓
+291   LSAPLGGGWVLLSK           0.9600      Database    -15.8024    1396.8078   ✓       ✓
+292   LSAPLGGGWVLLSK           0.9600      Database    -15.8095    1396.8078   ✓       ✓
+293   LSAPLGGGWVLLSK           0.9600      Database    -15.8110    1396.8078   ✓       ✓
+294   LSAPLGGGWVLLSK           0.9600      Database    -15.8411    1396.8078   ✓       ✓
+295   LSAPLGGGWVLLSK           0.9600      Database    -15.8509    1396.8078   ✓       ✓
+296   LSAPLGGGWVLLSK           0.9600      Database    -15.8663    1396.8078   ✓       ✓
+297   LSAPLGGGWVLLSK           0.9600      Database    -15.8686    1396.8078   ✓       ✓
+298   LSAPLGGGWVLLSK           0.9600      Database    -15.8920    1396.8078   ✓       ✓
+299   LSAPLGGGWVLLSK           0.9600      Database    -15.8982    1396.8078   ✓       ✓
+300   LSAPLGGGWVLLSK           0.9600      Database    -15.9124    1396.8078   ✓       ✓
+301   LSAPLGGGWVLLSK           0.9600      Database    -15.9456    1396.8078   ✓       ✓
+302   LSAPLGGGWVLLSK           0.9600      Database    -15.9487    1396.8078   ✓       ✓
+303   LSAPLGGGWVLLSK           0.9600      Database    -15.9634    1396.8078   ✓       ✓
+304   LSAPLGGGWVLLSK           0.9600      Database    -15.9785    1396.8078   ✓       ✓
+305   LSAPLGGGWVLLSK           0.9600      Database    -15.9941    1396.8078   ✓       ✓
+306   LSAPLGGGWVLLSK           0.9600      Database    -15.9948    1396.8078   ✓       ✓
+307   LSAPLGGGWVLLSK           0.9600      Database    -16.0047    1396.8078   ✓       ✓
+308   LSAPLGGGWVLLSK           0.9600      Database    -16.0176    1396.8078   ✓       ✓
+309   LSAPLGGGWVLLSK           0.9600      Database    -16.0461    1396.8078   ✓       ✓
+310   LSAPLGGGWVLLSK           0.9600      Database    -16.0469    1396.8078   ✓       ✓
+311   LSAPLGGGWVLLSK           0.9600      Database    -16.0694    1396.8078   ✓       ✓
+312   LSAPLGGGWVLLSK           0.9600      Database    -16.0734    1396.8078   ✓       ✓
+313   LSAPLGGGWVLLSK           0.9600      Database    -16.0791    1396.8078   ✓       ✓
+314   LSAPLGGGWVLLSK           0.9600      Database    -16.0888    1396.8078   ✓       ✓
+315   LSAPLGGGWVLLSK           0.9600      Database    -16.1129    1396.8078   ✓       ✓
+316   LSAPLGGGWVLLSK           0.9600      Database    -16.1172    1396.8078   ✓       ✓
+317   LSAPLGGGWVLLSK           0.9600      Database    -16.1240    1396.8078   ✓       ✓
+318   LSAPLGGGWVLLSK           0.9600      Database    -16.1394    1396.8078   ✓       ✓
+319   LSAPLGGGWVLLSK           0.9600      Database    -16.1539    1396.8078   ✓       ✓
+320   LSAPLGGGWVLLSK           0.9600      Database    -16.1550    1396.8078   ✓       ✓
+321   LSAPLGGGWVLLSK           0.9600      Database    -16.1566    1396.8078   ✓       ✓
+322   LSAPLGGGWVLLSK           0.9600      Database    -16.1695    1396.8078   ✓       ✓
+323   LSAPLGGGWVLLSK           0.9600      Database    -16.1854    1396.8078   ✓       ✓
+324   LSAPLGGGWVLLSK           0.9600      Database    -16.1893    1396.8078   ✓       ✓
+325   LSAPLGGGWVLLSK           0.9600      Database    -16.1894    1396.8078   ✓       ✓
+326   LSAPLGGGWVLLSK           0.9600      Database    -16.1925    1396.8078   ✓       ✓
+327   LSAPLGGGWVLLSK           0.9600      Database    -16.1977    1396.8078   ✓       ✓
+328   LSAPLGGGWVLLSK           0.9600      Database    -16.2187    1396.8078   ✓       ✓
+329   LSAPLGGGWVLLSK           0.9600      Database    -16.2218    1396.8078   ✓       ✓
+330   LSAPLGGGWVLLSK           0.9600      Database    -16.2340    1396.8078   ✓       ✓
+331   LSAPLGGGWVLLSK           0.9600      Database    -16.2516    1396.8078   ✓       ✓
+332   LSAPLGGGWVLLSK           0.9600      Database    -16.2750    1396.8078   ✓       ✓
+333   LSAPLGGGWVLLSK           0.9600      Database    -16.2786    1396.8078   ✓       ✓
+334   LSAPLGGGWVLLSK           0.9600      Database    -16.2813    1396.8078   ✓       ✓
+335   LSAPLGGGWVLLSK           0.9600      Database    -16.3104    1396.8078   ✓       ✓
+336   LSAPLGGGWVLLSK           0.9600      Database    -16.3105    1396.8078   ✓       ✓
+337   LSAPLGGGWVLLSK           0.9600      Database    -16.3287    1396.8078   ✓       ✓
+338   LSAPLGGGWVLLSK           0.9600      Database    -16.3318    1396.8078   ✓       ✓
+339   LSAPLGGGWVLLSK           0.9600      Database    -16.3465    1396.8078   ✓       ✓
+340   LSAPLGGGWVLLSK           0.9600      Database    -16.3610    1396.8078   ✓       ✓
+341   LSAPLGGGWVLLSK           0.9600      Database    -16.3772    1396.8078   ✓       ✓
+342   LSAPLGGGWVLLSK           0.9600      Database    -16.3902    1396.8078   ✓       ✓
+343   LSAPLGGGWVLLSK           0.9600      Database    -16.3997    1396.8078   ✓       ✓
+344   LSAPLGGGWVLLSK           0.9600      Database    -16.4006    1396.8078   ✓       ✓
+345   LSAPLGGGWVLLSK           0.9600      Database    -16.4300    1396.8078   ✓       ✓
+346   LSAPLGGGWVLLSK           0.9600      Database    -16.4599    1396.8078   ✓       ✓
+347   LSAPLGGGWVLLSK           0.9600      Database    -16.4622    1396.8078   ✓       ✓
+348   LSAPLGGGWVLLSK           0.9600      Database    -16.4643    1396.8078   ✓       ✓
+349   LSAPLGGGWVLLSK           0.9600      Database    -16.4719    1396.8078   ✓       ✓
+350   LSAPLGGGWVLLSK           0.9600      Database    -16.4741    1396.8078   ✓       ✓
+351   LSAPLGGGWVLLSK           0.9600      Database    -16.5002    1396.8078   ✓       ✓
+352   LSAPLGGGWVLLSK           0.9600      Database    -16.5070    1396.8078   ✓       ✓
+353   LSAPLGGGWVLLSK           0.9600      Database    -16.5082    1396.8078   ✓       ✓
+354   LSAPLGGGWVLLSQ           0.4561      Prosit      -16.2019    1396.7715   ✓       
+355   LSAPLGGWVLLSK            -1.0000     NotChecked  -4.9994     1339.7864   ✗       
+356   LSAPLGGWVLLSK            -1.0000     NotChecked  -5.3824     1339.7864   ✗       
+357   LSAPLGGWVLLSK            -1.0000     NotChecked  -6.8564     1339.7864   ✗       
+358   LSAPLGGWVLLSK            -1.0000     NotChecked  -7.2394     1339.7864   ✗       
+359   LSAPLGGWVLLSK            -1.0000     NotChecked  -8.2684     1339.7864   ✗       
+360   LSAPLGGWVLLSK            -1.0000     NotChecked  -8.6515     1339.7864   ✗       
+361   LSAPLGGWVLLSK            -1.0000     NotChecked  -10.1254    1339.7864   ✗       
+362   LSAPLGGWVLLSK            -1.0000     NotChecked  -10.3307    1339.7864   ✗       
+363   LSAPLGGWVLLSK            -1.0000     NotChecked  -10.5085    1339.7864   ✗       
+364   LSAPLGGWVLLSK            -1.0000     NotChecked  -10.5523    1339.7864   ✗       
+365   LSAPLGGWVLLSK            -1.0000     NotChecked  -10.7137    1339.7864   ✗       
+366   LSAPLGGWVLLSK            -1.0000     NotChecked  -10.9223    1339.7864   ✗       
+367   LSAPLGGWVLLSK            -1.0000     NotChecked  -10.9353    1339.7864   ✗       
+368   LSAPLGGWVLLSK            -1.0000     NotChecked  -11.3054    1339.7864   ✗       
+369   LSAPLGGWVLLSK            -1.0000     NotChecked  -11.4563    1339.7864   ✗       
+370   LSAPLGGWVLLSK            -1.0000     NotChecked  -11.7749    1339.7864   ✗       
+371   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -11.8050    1325.7343   ✗       
+372   LSAPLGGWVLLSK            -1.0000     NotChecked  -11.8393    1339.7864   ✗       
+373   LSAPLGGWVLLSK            -1.0000     NotChecked  -12.1579    1339.7864   ✗       
+374   LSAPLGGWVLLSK            -1.0000     NotChecked  -12.1877    1339.7864   ✗       
+375   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -12.1880    1325.7343   ✗       
+376   LSAPLGGWVLLSK            -1.0000     NotChecked  -12.4093    1339.7864   ✗       
+377   LSAPLGGGWVVLSK           -1.0000     NotChecked  -12.4573    1382.7922   ✗       
+378   LSAPLGGWVLLSK            -1.0000     NotChecked  -12.5707    1339.7864   ✗       
+379   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -12.6575    1325.7343   ✗       
+380   LSAPLGGWVLLSK            -1.0000     NotChecked  -12.7794    1339.7864   ✗       
+381   LSAPLGGWVLLSK            -1.0000     NotChecked  -12.7923    1339.7864   ✗       
+382   LSAPLGGGWVVLSK           -1.0000     NotChecked  -12.8404    1382.7922   ✗       
+383   LSAPLGGGWALLSK           -1.0000     NotChecked  -12.8810    1368.7765   ✗       
+384   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -12.9306    1325.7343   ✗       
+385   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -13.0406    1325.7343   ✗       
+386   LSAPLGGWVLLSK            -1.0000     NotChecked  -13.0509    1339.7864   ✗       
+387   LSAPLGGWVLLSK            -1.0000     NotChecked  -13.1601    1339.7864   ✗       
+388   LSAPLGGWVLLSK            -1.0000     NotChecked  -13.1624    1339.7864   ✗       
+389   LSAPLGGGWALLSK           -1.0000     NotChecked  -13.2641    1368.7765   ✗       
+390   LSAPLGGWVLLSK            -1.0000     NotChecked  -13.2845    1339.7864   ✗       
+391   LSAPLGGGWVVLSK           -1.0000     NotChecked  -13.3099    1382.7922   ✗       
+392   LSAPLGGWVLLSK            -1.0000     NotChecked  -13.3133    1339.7864   ✗       
+393   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -13.3136    1325.7343   ✗       
+394   LSAPLGGGWVLSSK           -1.0000     NotChecked  -13.3147    1370.7558   ✗       
+395   LSAPLGGWVLLSK            -1.0000     NotChecked  -13.3695    1339.7864   ✗       
+396   LSAPLGGWVLLSK            -1.0000     NotChecked  -13.4340    1339.7864   ✗       
+397   LSAPLGGGWVVLSK           -1.0000     NotChecked  -13.5829    1382.7922   ✗       
+398   LSAPLGGWVLLSK            -1.0000     NotChecked  -13.5997    1339.7864   ✗       
+399   LSAPLGGWVLLSK            -1.0000     NotChecked  -13.6319    1339.7864   ✗       
+400   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -13.6620    1325.7343   ✗       
+401   LSAPLGGWVLLSK            -1.0000     NotChecked  -13.6676    1339.7864   ✗       
+402   LSAPLGGGWVVLSK           -1.0000     NotChecked  -13.6929    1382.7922   ✗       
+403   LSAPLGGWVLLSK            -1.0000     NotChecked  -13.6963    1339.7864   ✗       
+404   LSAPLGGGWVLSSK           -1.0000     NotChecked  -13.6978    1370.7558   ✗       
+405   LSAPLGGGWALLSK           -1.0000     NotChecked  -13.7336    1368.7765   ✗       
+406   LSAPLGGGWVLVSK           -1.0000     NotChecked  -13.7403    1382.7922   ✗       
+407   LSAPLGGWVLLSK            -1.0000     NotChecked  -13.7526    1339.7864   ✗       
+408   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -13.7831    1325.7343   ✗       
+409   LSAPLGGWVLLSK            -1.0000     NotChecked  -13.8213    1339.7864   ✗       
+410   LSAPLGGWVLLSK            -1.0000     NotChecked  -13.9035    1339.7864   ✗       
+411   LSAPLGGWVLLSK            -1.0000     NotChecked  -13.9493    1339.7864   ✗       
+412   LSAPLGGGWVVLSK           -1.0000     NotChecked  -13.9660    1382.7922   ✗       
+413   LSAPLGGWVLLSK            -1.0000     NotChecked  -13.9828    1339.7864   ✗       
+414   LSAPLGGGWALLSK           -1.0000     NotChecked  -14.0066    1368.7765   ✗       
+415   LSAPLGGWVLLSK            -1.0000     NotChecked  -14.0126    1339.7864   ✗       
+416   LSAPLGGWVLLSK            -1.0000     NotChecked  -14.0149    1339.7864   ✗       
+417   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -14.0451    1325.7343   ✗       
+418   LSAPLGGGWALLSK           -1.0000     NotChecked  -14.1166    1368.7765   ✗       
+419   LSAPLGGGWVLVSK           -1.0000     NotChecked  -14.1233    1382.7922   ✗       
+420   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -14.1662    1325.7343   ✗       
+421   LSAPLGGGWVLSSK           -1.0000     NotChecked  -14.1672    1370.7558   ✗       
+422   LSAPLGGWVLLSK            -1.0000     NotChecked  -14.1914    1339.7864   ✗       
+423   LSAPLGGWVLLSK            -1.0000     NotChecked  -14.2044    1339.7864   ✗       
+424   LSAPLGGWVLLSK            -1.0000     NotChecked  -14.2176    1339.7864   ✗       
+425   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -14.2522    1325.7343   ✗       
+426   LSAPVGGGWVLLSK           -1.0000     NotChecked  -14.2820    1382.7922   ✗       
+427   LSAPLGGWVLLSK            -1.0000     NotChecked  -14.2857    1339.7864   ✗       
+428   LSAPLGGWVLLSK            -1.0000     NotChecked  -14.2865    1339.7864   ✗       
+429   LSAPLGGGWVLLAK           -1.0000     NotChecked  -14.3100    1380.8129   ✗       
+430   LSAPLGGGWVVLSK           -1.0000     NotChecked  -14.3144    1382.7922   ✗       
+431   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -14.3716    1326.7296   ✗       
+432   LSAPLGGGWALLSK           -1.0000     NotChecked  -14.3897    1368.7765   ✗       
+433   LSGPLGGGWVLLSK           -1.0000     NotChecked  -14.3996    1382.7922   ✗       
+434   LSAPLGGGWVVLSK           -1.0000     NotChecked  -14.4355    1382.7922   ✗       
+435   LSAPLGGGWVLSSK           -1.0000     NotChecked  -14.4403    1370.7558   ✗       
+436   LSAPLGGWVLLSK            -1.0000     NotChecked  -14.4951    1339.7864   ✗       
+437   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -14.5145    1325.7343   ✗       
+438   LSAPLGGGWVLSSK           -1.0000     NotChecked  -14.5503    1370.7558   ✗       
+439   LSAPLGGWVLLSK            -1.0000     NotChecked  -14.5744    1339.7864   ✗       
+440   LSAPLGGGWVLVSK           -1.0000     NotChecked  -14.5928    1382.7922   ✗       
+441   LSAPLGGWVLLSK            -1.0000     NotChecked  -14.6006    1339.7864   ✗       
+442   LSAPLGGGWVLTSK           -1.0000     NotChecked  -14.6065    1384.7714   ✗       
+443   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -14.6352    1325.7343   ✗       
+444   LSAPVGGGWVLLSK           -1.0000     NotChecked  -14.6650    1382.7922   ✗       
+445   LSAPLGGGWVLLAK           -1.0000     NotChecked  -14.6930    1380.8129   ✗       
+446   LSAPLGGGWVVLSK           -1.0000     NotChecked  -14.6974    1382.7922   ✗       
+447   LSAPLGGWVLLSK            -1.0000     NotChecked  -14.7253    1339.7864   ✗       
+448   LSAPLGGGWALLSK           -1.0000     NotChecked  -14.7381    1368.7765   ✗       
+449   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -14.7547    1326.7296   ✗       
+450   LSAPLGGGGVLLSK           -1.0000     NotChecked  -14.7755    1267.7500   ✗       
+451   LSGPLGGGWVLLSK           -1.0000     NotChecked  -14.7826    1382.7922   ✗       
+452   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -14.7876    1325.7343   ✗       
+453   LSAPLGGWVLLSK            -1.0000     NotChecked  -14.8018    1339.7864   ✗       
+454   LSAPLGGGWVVLSK           -1.0000     NotChecked  -14.8185    1382.7922   ✗       
+455   LSAPLGGGWVLSSK           -1.0000     NotChecked  -14.8234    1370.7558   ✗       
+456   LSAPLGGGWALLSK           -1.0000     NotChecked  -14.8592    1368.7765   ✗       
+457   LSAPLGGGWVLVSK           -1.0000     NotChecked  -14.8659    1382.7922   ✗       
+458   LSAPLGGWVLLSK            -1.0000     NotChecked  -14.8782    1339.7864   ✗       
+459   VSAPLGGGWVLLSK           -1.0000     NotChecked  -14.8853    1382.7922   ✗       
+460   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -14.8976    1325.7343   ✗       
+461   LSAPLGGGWVVLSK           -1.0000     NotChecked  -14.9046    1382.7922   ✗       
+462   LSAPLGGWVLLSK            -1.0000     NotChecked  -14.9080    1339.7864   ✗       
+463   LSAPLGGGWVLVSK           -1.0000     NotChecked  -14.9759    1382.7922   ✗       
+464   LSAPLGGGWVLTSK           -1.0000     NotChecked  -14.9895    1384.7714   ✗       
+465   LSAPLGGWVLLSK            -1.0000     NotChecked  -15.0171    1339.7864   ✗       
+466   LSAPLGGWVLLSK            -1.0000     NotChecked  -15.0439    1339.7864   ✗       
+467   LSAPLGGWVLLSK            -1.0000     NotChecked  -15.0749    1339.7864   ✗       
+468   LSAPLGGGWVLLGK           -1.0000     NotChecked  -15.0879    1366.7973   ✗       
+469   +42.011SAPLGGGGWVLLSK    -1.0000     NotChecked  -15.1047    1382.7558   ✗       
+470   LSAPLGGWVLLSK            -1.0000     NotChecked  -15.1084    1339.7864   ✗       
+471   LSAPLGGGWALLSK           -1.0000     NotChecked  -15.1211    1368.7765   ✗       
+472   LSAPVGGGWVLLSK           -1.0000     NotChecked  -15.1345    1382.7922   ✗       
+473   LSAPLGGWVLLSK            -1.0000     NotChecked  -15.1382    1339.7864   ✗       
+474   LSAPLGGWVLLSK            -1.0000     NotChecked  -15.1416    1339.7864   ✗       
+475   LSAPLGGGGVLLSK           -1.0000     NotChecked  -15.1586    1267.7500   ✗       
+476   LSAPLGGGWVLLAK           -1.0000     NotChecked  -15.1625    1380.8129   ✗       
+477   LSAPLGGGWVVLSK           -1.0000     NotChecked  -15.1669    1382.7922   ✗       
+478   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -15.1707    1325.7343   ✗       
+479   LSAPLGGGWVLSSK           -1.0000     NotChecked  -15.1717    1370.7558   ✗       
+480   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -15.2241    1326.7296   ✗       
+481   LSAPLGGWVLLSK            -1.0000     NotChecked  -15.2266    1339.7864   ✗       
+482   LSAPLGGGWALLSK           -1.0000     NotChecked  -15.2422    1368.7765   ✗       
+483   LSAPLGGGWVLVSK           -1.0000     NotChecked  -15.2489    1382.7922   ✗       
+484   LSGPLGGGWVLLSK           -1.0000     NotChecked  -15.2521    1382.7922   ✗       
+485   VSAPLGGGWVLLSK           -1.0000     NotChecked  -15.2683    1382.7922   ✗       
+486   LSAPLGGGWVVLSK           -1.0000     NotChecked  -15.2876    1382.7922   ✗       
+487   LSAPLGGWVLLSK            -1.0000     NotChecked  -15.2910    1339.7864   ✗       
+488   LSAPLGGGWVLSSK           -1.0000     NotChecked  -15.2928    1370.7558   ✗       
+489   LSAPLGGGWGLLSK           -1.0000     NotChecked  -15.2934    1354.7609   ✗       
+490   LSAPLGGGWALLSK           -1.0000     NotChecked  -15.3283    1368.7765   ✗       
+491   LSAPLGGGYVLLSK           -1.0000     NotChecked  -15.3356    1373.7919   ✗       
+492   +42.011SAPLGGWVLLSK      -1.0000     NotChecked  -15.3778    1268.7129   ✗       
+493   LSAPLGGWVLLSK            -1.0000     NotChecked  -15.3969    1339.7864   ✗       
+494   LAAPLGGGWVLLSK           -1.0000     NotChecked  -15.4062    1380.8129   ✗       
+495   LSAPVGGGWVLLSK           -1.0000     NotChecked  -15.4076    1382.7922   ✗       
+496   LSAPLGGGWVSLSK           -1.0000     NotChecked  -15.4142    1370.7558   ✗       
+497   LSAPLGGWVLLSK            -1.0000     NotChecked  -15.4270    1339.7864   ✗       
+498   LSAPLGGGWVLLAK           -1.0000     NotChecked  -15.4356    1380.8129   ✗       
+499   LSAPLGGGWVVLSK           -1.0000     NotChecked  -15.4400    1382.7922   ✗       
+500   LSAPLGGGEVLLSK           -1.0000     NotChecked  -15.4413    1339.7711   ✗       
+501   LSAPLGGWVLLSK            -1.0000     NotChecked  -15.4567    1339.7864   ✗       
+502   LSAPLGGGWVLTSK           -1.0000     NotChecked  -15.4590    1384.7714   ✗       
+503   LSAPLGGGWVLLGK           -1.0000     NotChecked  -15.4710    1366.7973   ✗       
+504   LSSPLGGWVLLSK            -1.0000     NotChecked  -15.4877    1355.7813   ✗       
+505   +42.011SAPLGGGGWVLLSK    -1.0000     NotChecked  -15.4878    1382.7558   ✗       
+506   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -15.4972    1326.7296   ✗       
+507   LSAPLGGGAVLLSK           -1.0000     NotChecked  -15.5051    1281.7656   ✗       
+508   LSAPVGGGWVLLSK           -1.0000     NotChecked  -15.5176    1382.7922   ✗       
+509   LSAPLGGWVLLSK            -1.0000     NotChecked  -15.5246    1339.7864   ✗       
+510   LSGPLGGGWVLLSK           -1.0000     NotChecked  -15.5252    1382.7922   ✗       
+511   LSAPLGGGLVLLSK           -1.0000     NotChecked  -15.5321    1323.8126   ✗       
+512   LSAPLGGGWVLLAK           -1.0000     NotChecked  -15.5455    1380.8129   ✗       
+513   LSAPLGGWVLLSK            -1.0000     NotChecked  -15.5471    1339.7864   ✗       
+514   LSAPLGGGWVVLSK           -1.0000     NotChecked  -15.5499    1382.7922   ✗       
+515   LSAPLGGGWVLSSK           -1.0000     NotChecked  -15.5548    1370.7558   ✗       
+516   LSAPLGGGWALLSK           -1.0000     NotChecked  -15.5906    1368.7765   ✗       
+517   LSAPLGGGWVLVSK           -1.0000     NotChecked  -15.5973    1382.7922   ✗       
+518   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -15.6072    1326.7296   ✗       
+519   LSAPLGGWVLLSK            -1.0000     NotChecked  -15.6073    1339.7864   ✗       
+520   LSAPLGGWVLLSK            -1.0000     NotChecked  -15.6096    1339.7864   ✗       
+521   LSAPLGGGGVLLSK           -1.0000     NotChecked  -15.6281    1267.7500   ✗       
+522   LSGPLGGGWVLLSK           -1.0000     NotChecked  -15.6351    1382.7922   ✗       
+523   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -15.6401    1325.7343   ✗       
+524   LSAPLGGWLLLSK            -1.0000     NotChecked  -15.6629    1353.8020   ✗       
+525   LSAPLGGGWVLSSK           -1.0000     NotChecked  -15.6759    1370.7558   ✗       
+526   LSAPLGGGWGLLSK           -1.0000     NotChecked  -15.6764    1354.7609   ✗       
+527   LSAPLGGGWVLPSK           -1.0000     NotChecked  -15.6783    1380.7765   ✗       
+528   LSAPLGGWVLLSK            -1.0000     NotChecked  -15.6784    1339.7864   ✗       
+529   LSAPLGGGWALLSK           -1.0000     NotChecked  -15.7113    1368.7765   ✗       
+530   LSAPLGGGWVLVSK           -1.0000     NotChecked  -15.7184    1382.7922   ✗       
+531   LSAPLGGGYVLLSK           -1.0000     NotChecked  -15.7186    1373.7919   ✗       
+532   LSAPLGGGWLLSK            -1.0000     NotChecked  -15.7188    1297.7394   ✗       
+533   LSAPLGGGWVLGSK           -1.0000     NotChecked  -15.7258    1340.7452   ✗       
+534   LSAPLGGGWVVLSK           -1.0000     NotChecked  -15.7264    1382.7922   ✗       
+535   LSAPLGGGWVLTSK           -1.0000     NotChecked  -15.7321    1384.7714   ✗       
+536   VSAPLGGGWVLLSK           -1.0000     NotChecked  -15.7378    1382.7922   ✗       
+537   LSAPLGGWVLLVK            -1.0000     NotChecked  -15.7500    1351.8228   ✗       
+538   LSAPLGGWVLLSK            -1.0000     NotChecked  -15.7605    1339.7864   ✗       
+539   +42.011SAPLGGWVLLSK      -1.0000     NotChecked  -15.7608    1268.7129   ✗       
+540   LSAPLGGGWVLSSK           -1.0000     NotChecked  -15.7619    1370.7558   ✗       
+541   LAAPLGGGWVLLSK           -1.0000     NotChecked  -15.7892    1380.8129   ✗       
+542   LSAPVGGGWVLLSK           -1.0000     NotChecked  -15.7906    1382.7922   ✗       
+543   LSAPLGGGWVSLSK           -1.0000     NotChecked  -15.7973    1370.7558   ✗       
+544   LSAPLGGWVLLSK            -1.0000     NotChecked  -15.8063    1339.7864   ✗       
+545   LSAPLGGGWVLLAK           -1.0000     NotChecked  -15.8186    1380.8129   ✗       
+546   LSAPLGGGWVVLSK           -1.0000     NotChecked  -15.8230    1382.7922   ✗       
+547   LSAPLGGGEVLLSK           -1.0000     NotChecked  -15.8243    1339.7711   ✗       
+548   LSAPLGGWVLLSK            -1.0000     NotChecked  -15.8398    1339.7864   ✗       
+549   LSAPLGGGWVLTSK           -1.0000     NotChecked  -15.8420    1384.7714   ✗       
+550   LSAPLGGGWALLSK           -1.0000     NotChecked  -15.8637    1368.7765   ✗       
+551   LSAPLGGWVLLSK            -1.0000     NotChecked  -15.8697    1339.7864   ✗       
+552   LSSPLGGWVLLSK            -1.0000     NotChecked  -15.8708    1355.7813   ✗       
+553   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -15.8803    1326.7296   ✗       
+554   LSAPLGGWVLLSK            -1.0000     NotChecked  -15.8836    1339.7864   ✗       
+555   LSAPLGGGAVLLSK           -1.0000     NotChecked  -15.8882    1281.7656   ✗       
+556   LSAPLGGGGVLLSK           -1.0000     NotChecked  -15.9011    1267.7500   ✗       
+557   LSGPLGGGWVLLSK           -1.0000     NotChecked  -15.9082    1382.7922   ✗       
+558   LSAPLGGGLVLLSK           -1.0000     NotChecked  -15.9151    1323.8126   ✗       
+559   LSAPLGGWVLLSK            -1.0000     NotChecked  -15.9274    1339.7864   ✗       
+560   LSAPLGGWVLLSK            -1.0000     NotChecked  -15.9302    1339.7864   ✗       
+561   LSAPLGGGWVLLGK           -1.0000     NotChecked  -15.9405    1366.7973   ✗       
+562   LSAPLGGGFVLLSK           -1.0000     NotChecked  -15.9444    1357.7969   ✗       
+563   LSAPLGGGWALLSK           -1.0000     NotChecked  -15.9737    1368.7765   ✗       
+564   LSAPLGGGWVLVSK           -1.0000     NotChecked  -15.9804    1382.7922   ✗       
+565   LSAPAGGGWVLLSK           -1.0000     NotChecked  -16.0041    1354.7609   ✗       
+566   LSAPLGGWVLLTK            -1.0000     NotChecked  -16.0062    1353.8020   ✗       
+567   VSAPLGGGWVLLSK           -1.0000     NotChecked  -16.0109    1382.7922   ✗       
+568   LSAPLGGGGVLLSK           -1.0000     NotChecked  -16.0111    1267.7500   ✗       
+569   LGAPLGGGWVLLSK           -1.0000     NotChecked  -16.0201    1366.7973   ✗       
+570   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -16.0232    1325.7343   ✗       
+571   LSAPLGGGWVLSSK           -1.0000     NotChecked  -16.0243    1370.7558   ✗       
+572   LSAPLGGWVVLSK            -1.0000     NotChecked  -16.0302    1325.7707   ✗       
+573   LSAPGGGWVLLSK            -1.0000     NotChecked  -16.0305    1283.7238   ✗       
+574   LSAPLGGWLLLSK            -1.0000     NotChecked  -16.0459    1353.8020   ✗       
+575   LSAPLGGWVLLSK            -1.0000     NotChecked  -16.0484    1339.7864   ✗       
+576   LSAPLGGGWVLPSK           -1.0000     NotChecked  -16.0613    1380.7765   ✗       
+577   LSAPLGGWVLLSK            -1.0000     NotChecked  -16.0614    1339.7864   ✗       
+578   LSAPLGGWVLLSK            -1.0000     NotChecked  -16.0746    1339.7864   ✗       
+579   LSAPLGGGWVLVSK           -1.0000     NotChecked  -16.1015    1382.7922   ✗       
+580   LSAPLGGGWLLSK            -1.0000     NotChecked  -16.1018    1297.7394   ✗       
+581   LSAPLGGGWVLGSK           -1.0000     NotChecked  -16.1088    1340.7452   ✗       
+582   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -16.1092    1325.7343   ✗       
+583   LSAPLGGGWVVLSK           -1.0000     NotChecked  -16.1094    1382.7922   ✗       
+584   LSAPLGGGWVLTSK           -1.0000     NotChecked  -16.1151    1384.7714   ✗       
+585   VSAPLGGGWVLLSK           -1.0000     NotChecked  -16.1209    1382.7922   ✗       
+586   LSAPLGGWVLLVK            -1.0000     NotChecked  -16.1331    1351.8228   ✗       
+587   LSAPVGGGWVLLSK           -1.0000     NotChecked  -16.1390    1382.7922   ✗       
+588   LSAPLGGWVLLSK            -1.0000     NotChecked  -16.1427    1339.7864   ✗       
+589   LSAPLGGWVLLSK            -1.0000     NotChecked  -16.1436    1339.7864   ✗       
+590   LSAPLGGGWVLSSK           -1.0000     NotChecked  -16.1450    1370.7558   ✗       
+591   LSAPLGGGWGLLSK           -1.0000     NotChecked  -16.1459    1354.7609   ✗       
+592   LSAPLGGGWALLSK           -1.0000     NotChecked  -16.1501    1368.7765   ✗       
+593   ASAPLGGGWVLLSK           -1.0000     NotChecked  -16.1591    1354.7609   ✗       
+594   LSAPLGGGWVLLAK           -1.0000     NotChecked  -16.1670    1380.8129   ✗       
+595   LSAPLGGGWPLLSK           -1.0000     NotChecked  -16.1836    1394.7922   ✗       
+596   LSAPLGGGWVLVSK           -1.0000     NotChecked  -16.1875    1382.7922   ✗       
+597   LSAPLGGGYVLLSK           -1.0000     NotChecked  -16.1881    1373.7919   ✗       
+598   LSAPLGGWVLLSK            -1.0000     NotChecked  -16.2020    1339.7864   ✗       
+599   LSAPLGGGWVLLGK           -1.0000     NotChecked  -16.2135    1366.7973   ✗       
+600   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -16.2286    1326.7296   ✗       
+601   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -16.2303    1325.7343   ✗       
+602   LSAPLGGGWALLSK           -1.0000     NotChecked  -16.2467    1368.7765   ✗       
+603   LSAPLGGWVLLSK            -1.0000     NotChecked  -16.2494    1339.7864   ✗       
+604   LSGPLGGGWVLLSK           -1.0000     NotChecked  -16.2566    1382.7922   ✗       
+605   LAAPLGGGWVLLSK           -1.0000     NotChecked  -16.2587    1380.8129   ✗       
+606   LSAPVGGGWVLLSK           -1.0000     NotChecked  -16.2601    1382.7922   ✗       
+607   LSAPLGGWVLLSK            -1.0000     NotChecked  -16.2666    1339.7864   ✗       
+608   LSAPLGGGWVSLSK           -1.0000     NotChecked  -16.2668    1370.7558   ✗       
+609   LSAPLGGGGVLLSK           -1.0000     NotChecked  -16.2842    1267.7500   ✗       
+610   LSAPLGGGWVLLAK           -1.0000     NotChecked  -16.2881    1380.8129   ✗       
+611   LSAPLGGGWVVLSK           -1.0000     NotChecked  -16.2925    1382.7922   ✗       
+612   LSAPLGGGEVLLSK           -1.0000     NotChecked  -16.2938    1339.7711   ✗       
+613   LSAPLGGGWVLSSK           -1.0000     NotChecked  -16.2973    1370.7558   ✗       
+614   LSAPLGGWVLLSK            -1.0000     NotChecked  -16.3200    1339.7864   ✗       
+615   LSAPLGGGWVLLGK           -1.0000     NotChecked  -16.3235    1366.7973   ✗       
+616   LSAPLGGGFVLLSK           -1.0000     NotChecked  -16.3274    1357.7969   ✗       
+617   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -16.3497    1326.7296   ✗       
+618   LSAPLGGWVLLSK            -1.0000     NotChecked  -16.3499    1339.7864   ✗       
+619   LSAPLGGWVLLSK            -1.0000     NotChecked  -16.3522    1339.7864   ✗       
+620   LSAPLGGGAVLLSK           -1.0000     NotChecked  -16.3576    1281.7656   ✗       
+621   LSGPLGGGWVLLSK           -1.0000     NotChecked  -16.3777    1382.7922   ✗       
+622   LSAPLGGGLVLLSK           -1.0000     NotChecked  -16.3846    1323.8126   ✗       
+623   LSAPAGGGWVLLSK           -1.0000     NotChecked  -16.3872    1354.7609   ✗       
+624   LSAPLGGWVLLTK            -1.0000     NotChecked  -16.3893    1353.8020   ✗       
+625   LSAPLGGGWVALSK           -1.0000     NotChecked  -16.3910    1354.7609   ✗       
+626   LSAPLGGWVLLSK            -1.0000     NotChecked  -16.3926    1339.7864   ✗       
+627   VSAPLGGGWVLLSK           -1.0000     NotChecked  -16.3939    1382.7922   ✗       
+628   LSAPLGGWVLLSK            -1.0000     NotChecked  -16.3965    1339.7864   ✗       
+629   LGAPLGGGWVLLSK           -1.0000     NotChecked  -16.4032    1366.7973   ✗       
+630   LSAPLGGGWVLSSK           -1.0000     NotChecked  -16.4073    1370.7558   ✗       
+631   LSAPLGGWVVLSK            -1.0000     NotChecked  -16.4132    1325.7707   ✗       
+632   LSAPGGGWVLLSK            -1.0000     NotChecked  -16.4136    1283.7238   ✗       
+633   LSAPLGGGWGLLSK           -1.0000     NotChecked  -16.4190    1354.7609   ✗       
+634   LSAPLGGWVLLSK            -1.0000     NotChecked  -16.4292    1339.7864   ✗       
+635   LSAPLGGWVLLSK            -1.0000     NotChecked  -16.4315    1339.7864   ✗       
+636   LSAPLGGGWVLVSK           -1.0000     NotChecked  -16.4499    1382.7922   ✗       
+637   LSAPLGGWALLSK            -1.0000     NotChecked  -16.4539    1311.7551   ✗       
+638   LSAPLGGWVLLSK            -1.0000     NotChecked  -16.4577    1339.7864   ✗       
+639   LSAPLGGWVLLSK            -1.0000     NotChecked  -16.4587    1339.7864   ✗       
+640   LSAPLGGGYVLLSK           -1.0000     NotChecked  -16.4612    1373.7919   ✗       
+641   LSAPLGGGWVLTSK           -1.0000     NotChecked  -16.4635    1384.7714   ✗       
+642   LSAPLGGWVLLSK            -1.0000     NotChecked  -16.4752    1339.7864   ✗       
+643   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -16.4923    1325.7343   ✗       
+644   LSAPVGGGWVLLSK           -1.0000     NotChecked  -16.5221    1382.7922   ✗       
+645   LSAPLGGWVLLSK            -1.0000     NotChecked  -16.5225    1339.7864   ✗       
+646   LSAPLGGGWGLLSK           -1.0000     NotChecked  -16.5289    1354.7609   ✗       
+647   LSAPLGGGWVLPSK           -1.0000     NotChecked  -16.5308    1380.7765   ✗       
+648   ASAPLGGGWVLLSK           -1.0000     NotChecked  -16.5421    1354.7609   ✗       
+649   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -16.6117    1326.7296   ✗       
+650   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -16.6134    1325.7343   ✗       
+651   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -16.7328    1326.7296   ✗       
+652   VSAPLGGGWVLLSK           -1.0000     NotChecked  -16.7423    1382.7922   ✗       
+653   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -16.8188    1326.7296   ✗       
+654   VSAPLGGGWVLLSK           -1.0000     NotChecked  -16.8634    1382.7922   ✗       
+655   +42.011SAPLGGGGWVLLSK    -1.0000     NotChecked  -16.9618    1382.7558   ✗       
+656   SSAPLGGGWVLLSK           -1.0000     NotChecked  -17.0084    1370.7558   ✗       
+657   ASAPLGGGWVLLSK           -1.0000     NotChecked  -17.0116    1354.7609   ✗       
+658   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -17.0812    1326.7296   ✗       
+659   VSAPLGGGWVLLSK           -1.0000     NotChecked  -17.1254    1382.7922   ✗       
+660   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -17.2019    1326.7296   ✗       
+661   +42.011SAPLGGWVLLSK      -1.0000     NotChecked  -17.2348    1268.7129   ✗       
+662   VSAPLGGGWVLLSK           -1.0000     NotChecked  -17.2465    1382.7922   ✗       
+663   ASAPLGGGWVLLSK           -1.0000     NotChecked  -17.2847    1354.7609   ✗       
+664   VSAPLGGGWVLLSK           -1.0000     NotChecked  -17.3325    1382.7922   ✗       
+665   +42.011SAPLGGGGWVLLSK    -1.0000     NotChecked  -17.3448    1382.7558   ✗       
+666   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -17.3542    1326.7296   ✗       
+667   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -17.3579    1325.7343   ✗       
+668   SSAPLGGGWVLLSK           -1.0000     NotChecked  -17.3915    1370.7558   ✗       
+669   ASAPLGGGWVLLSK           -1.0000     NotChecked  -17.3947    1354.7609   ✗       
+670   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -17.4642    1326.7296   ✗       
+671   VSAPLGGGWVLLSK           -1.0000     NotChecked  -17.5948    1382.7922   ✗       
+672   +42.011SAPLGGWVLLSK      -1.0000     NotChecked  -17.6179    1268.7129   ✗       
+673   ASAPLGGGWVLLSK           -1.0000     NotChecked  -17.6677    1354.7609   ✗       
+674   +43.006SAPLGGGGWVLLSK    -1.0000     NotChecked  -17.6714    1383.7511   ✗       
+675   VSAPLGGGWVLLSK           -1.0000     NotChecked  -17.7155    1382.7922   ✗       
+676   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -17.7373    1326.7296   ✗       
+677   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -17.7409    1325.7343   ✗       
+678   SSAPLGGGWVLLSK           -1.0000     NotChecked  -17.8609    1370.7558   ✗       
+679   VSAPLGGGWVLLSK           -1.0000     NotChecked  -17.8679    1382.7922   ✗       
+680   +43.006SAPLGGWVLLSK      -1.0000     NotChecked  -17.9444    1269.7081   ✗       
+681   VSAPLGGGWVLLSK           -1.0000     NotChecked  -17.9779    1382.7922   ✗       
+682   ASAPLGGGWVLLSK           -1.0000     NotChecked  -18.0161    1354.7609   ✗       
+683   +43.006SAPLGGGGWVLLSK    -1.0000     NotChecked  -18.0544    1383.7511   ✗       
+684   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -18.0874    1325.7343   ✗       
+685   SSAPLGGGWVLLSK           -1.0000     NotChecked  -18.1340    1370.7558   ✗       
+686   ASAPLGGGWVLLSK           -1.0000     NotChecked  -18.1372    1354.7609   ✗       
+687   -17.027SAPLGGGWVLLSK     -1.0000     NotChecked  -18.1489    1266.6972   ✗       
+688   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -18.2068    1326.7296   ✗       
+689   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -18.2104    1325.7343   ✗       
+690   SSAPLGGGWVLLSK           -1.0000     NotChecked  -18.2440    1370.7558   ✗       
+691   VSAPLGGGWVLLSK           -1.0000     NotChecked  -18.2510    1382.7922   ✗       
+692   +43.006SAPLGGWVLLSK      -1.0000     NotChecked  -18.3275    1269.7081   ✗       
+693   ASAPLGGGWVLLSK           -1.0000     NotChecked  -18.3992    1354.7609   ✗       
+694   VSAPLGGWVLLSK            -1.0000     NotChecked  -18.4581    1325.7707   ✗       
+695   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -18.4704    1325.7343   ✗       
+696   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -18.4835    1325.7343   ✗       
+697   SSAPLGGGWVLLSK           -1.0000     NotChecked  -18.5171    1370.7558   ✗       
+698   ASAPLGGGWVLLSK           -1.0000     NotChecked  -18.5203    1354.7609   ✗       
+699   -17.027SAPLGGGWVLLSK     -1.0000     NotChecked  -18.5319    1266.6972   ✗       
+700   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -18.5898    1326.7296   ✗       
+701   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -18.5935    1325.7343   ✗       
+702   ASAPLGGGWVLLSK           -1.0000     NotChecked  -18.6063    1354.7609   ✗       
+703   +42.011LSAPLGGWVLLSK     -1.0000     NotChecked  -18.6469    1381.7969   ✗       
+704   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -18.6759    1326.7296   ✗       
+705   VSAPLGGGWVLLSK           -1.0000     NotChecked  -18.7205    1382.7922   ✗       
+706   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -18.7970    1326.7296   ✗       
+707   VSAPLGGWVLLSK            -1.0000     NotChecked  -18.8411    1325.7707   ✗       
+708   SSAPLGGGWVLLSK           -1.0000     NotChecked  -18.8654    1370.7558   ✗       
+709   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -18.8665    1325.7343   ✗       
+710   ASAPLGGGWVLLSK           -1.0000     NotChecked  -18.8686    1354.7609   ✗       
+711   SSAPLGGGWVLLSK           -1.0000     NotChecked  -18.9865    1370.7558   ✗       
+712   ASAPLGGGWVLLSK           -1.0000     NotChecked  -18.9893    1354.7609   ✗       
+713   -17.027SAPLGGGWVLLSK     -1.0000     NotChecked  -19.0014    1266.6972   ✗       
+714   +42.011LSAPLGGWVLLSK     -1.0000     NotChecked  -19.0299    1381.7969   ✗       
+715   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -19.0589    1326.7296   ✗       
+716   VSAPLGGGWVLLSK           -1.0000     NotChecked  -19.1035    1382.7922   ✗       
+717   ASAPLGGGWVLLSK           -1.0000     NotChecked  -19.1417    1354.7609   ✗       
+718   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -19.1800    1326.7296   ✗       
+719   VSAPLGGGWVLLSK           -1.0000     NotChecked  -19.1895    1382.7922   ✗       
+720   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -19.2149    1325.7343   ✗       
+721   SSAPLGGGWVLLSK           -1.0000     NotChecked  -19.2485    1370.7558   ✗       
+722   ASAPLGGGWVLLSK           -1.0000     NotChecked  -19.2517    1354.7609   ✗       
+723   -17.027SAPLGGGWVLLSK     -1.0000     NotChecked  -19.2745    1266.6972   ✗       
+724   VSAPLGGGWVLLSK           -1.0000     NotChecked  -19.3106    1382.7922   ✗       
+725   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -19.3360    1325.7343   ✗       
+726   SSAPLGGGWVLLSK           -1.0000     NotChecked  -19.3696    1370.7558   ✗       
+727   -17.027SAPLGGGWVLLSK     -1.0000     NotChecked  -19.3844    1266.6972   ✗       
+728   SSAPLGGGWVLLSK           -1.0000     NotChecked  -19.4556    1370.7558   ✗       
+729   ASAPLGGGWVLLSK           -1.0000     NotChecked  -19.5248    1354.7609   ✗       
+730   +43.006SAPLGGGGWVLLSK    -1.0000     NotChecked  -19.5284    1383.7511   ✗       
+731   VSAPLGGGWVLLSK           -1.0000     NotChecked  -19.5726    1382.7922   ✗       
+732   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -19.5980    1325.7343   ✗       
+733   -17.027SAPLGGGWVLLSK     -1.0000     NotChecked  -19.6575    1266.6972   ✗       
+734   VSAPLGGGWVLLSK           -1.0000     NotChecked  -19.6937    1382.7922   ✗       
+735   SSAPLGGGWVLLSK           -1.0000     NotChecked  -19.7180    1370.7558   ✗       
+736   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -19.7191    1325.7343   ✗       
+737   ASAPLGGWVLLSK            -1.0000     NotChecked  -19.7319    1297.7394   ✗       
+738   +43.006SAPLGGWVLLSK      -1.0000     NotChecked  -19.8015    1269.7081   ✗       
+739   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -19.8051    1325.7343   ✗       
+740   SSAPLGGGWVLLSK           -1.0000     NotChecked  -19.8387    1370.7558   ✗       
+741   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -19.8566    1325.7343   ✗       
+742   +43.006SAPLGGGGWVLLSK    -1.0000     NotChecked  -19.9114    1383.7511   ✗       
+743   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -19.9245    1326.7296   ✗       
+744   SSAPLGGGWVLLSK           -1.0000     NotChecked  -19.9911    1370.7558   ✗       
+745   ASAPLGGGWVLLSK           -1.0000     NotChecked  -19.9942    1354.7609   ✗       
+746   -17.027SAPLGGGWVLLSK     -1.0000     NotChecked  -20.0059    1266.6972   ✗       
+747   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -20.0675    1325.7343   ✗       
+748   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -20.0902    1325.7343   ✗       
+749   SSAPLGGGWVLLSK           -1.0000     NotChecked  -20.1010    1370.7558   ✗       
+750   ASAPLGGWVLLSK            -1.0000     NotChecked  -20.1149    1297.7394   ✗       
+751   -17.027SAPLGGGWVLLSK     -1.0000     NotChecked  -20.1270    1266.6972   ✗       
+752   +43.006SAPLGGWVLLSK      -1.0000     NotChecked  -20.1845    1269.7081   ✗       
+753   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -20.1882    1325.7343   ✗       
+754   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -20.2396    1325.7343   ✗       
+755   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -20.3076    1326.7296   ✗       
+756   VSAPLGGWVLLSK            -1.0000     NotChecked  -20.3151    1325.7707   ✗       
+757   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -20.3405    1325.7343   ✗       
+758   SSAPLGGGWVLLSK           -1.0000     NotChecked  -20.3741    1370.7558   ✗       
+759   ASAPLGGGWVLLSK           -1.0000     NotChecked  -20.3773    1354.7609   ✗       
+760   -17.027SAPLGGGWVLLSK     -1.0000     NotChecked  -20.3889    1266.6972   ✗       
+761   VSAPLGGGWVLLSK           -1.0000     NotChecked  -20.4382    1382.7922   ✗       
+762   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -20.4505    1325.7343   ✗       
+763   ASAPLGGGWVLLSK           -1.0000     NotChecked  -20.4633    1354.7609   ✗       
+764   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -20.4732    1325.7343   ✗       
+765   Q+0.984SAPLGGWVLLSK      -1.0000     NotChecked  -20.4820    1355.7449   ✗       
+766   +42.011LSAPLGGWVLLSK     -1.0000     NotChecked  -20.5039    1381.7969   ✗       
+767   -17.027SAPLGGGWVLLSK     -1.0000     NotChecked  -20.5100    1266.6972   ✗       
+768   SSAPLGGWVLLSK            -1.0000     NotChecked  -20.5812    1313.7343   ✗       
+769   ASAPLGGGWVLLSK           -1.0000     NotChecked  -20.5844    1354.7609   ✗       
+770   -17.027SAPLGGGWVLLSK     -1.0000     NotChecked  -20.5961    1266.6972   ✗       
+771   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -20.6540    1326.7296   ✗       
+772   +42.011SAPLGGGGWVLLSK    -1.0000     NotChecked  -20.6576    1382.7558   ✗       
+773   VSAPLGGWVLLSK            -1.0000     NotChecked  -20.6982    1325.7707   ✗       
+774   +42.011SAPLGGWVLLSK      -1.0000     NotChecked  -20.7091    1268.7129   ✗       
+775   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -20.7236    1325.7343   ✗       
+776   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -20.7771    1326.7296   ✗       
+777   VSAPLGGGWVLLSK           -1.0000     NotChecked  -20.8212    1382.7922   ✗       
+778   SSAPLGGGWVLLSK           -1.0000     NotChecked  -20.8436    1370.7558   ✗       
+779   ASAPLGGGWVLLSK           -1.0000     NotChecked  -20.8464    1354.7609   ✗       
+780   -17.027SAPLGGGWVLLSK     -1.0000     NotChecked  -20.8584    1266.6972   ✗       
+781   Q+0.984SAPLGGWVLLSK      -1.0000     NotChecked  -20.8650    1355.7449   ✗       
+782   +42.011LSAPLGGWVLLSK     -1.0000     NotChecked  -20.8869    1381.7969   ✗       
+783   +42.011SAPLGGWVLLSK      -1.0000     NotChecked  -20.9307    1268.7129   ✗       
+784   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -20.9427    1325.7343   ✗       
+785   SSAPLGGWVLLSK            -1.0000     NotChecked  -20.9643    1313.7343   ✗       
+786   ASAPLGGGWVLLSK           -1.0000     NotChecked  -20.9675    1354.7609   ✗       
+787   +42.011SAPLGGNWVLLSK     -1.0000     NotChecked  -20.9708    1382.7558   ✗       
+788   -17.027SAPLGGGWVLLSK     -1.0000     NotChecked  -20.9791    1266.6972   ✗       
+789   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -20.9822    1325.7343   ✗       
+790   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -21.0232    1325.7343   ✗       
+791   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -21.0370    1326.7296   ✗       
+792   +42.011SAPLGGGGWVLLSK    -1.0000     NotChecked  -21.0407    1382.7558   ✗       
+793   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -21.0501    1326.7296   ✗       
+794   +42.011SAPLGGWVLLSK      -1.0000     NotChecked  -21.0921    1268.7129   ✗       
+795   ESAPLGGWVLLSK            -1.0000     NotChecked  -21.0978    1355.7449   ✗       
+796   -17.027SAPLGGGWVLLSK     -1.0000     NotChecked  -21.1315    1266.6972   ✗       
+797   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -21.1601    1326.7296   ✗       
+798   VSAPLGGGWVLLSK           -1.0000     NotChecked  -21.1677    1382.7922   ✗       
+799   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -21.1931    1325.7343   ✗       
+800   +43.006LSAPLGGWVLLSK     -1.0000     NotChecked  -21.2135    1382.7922   ✗       
+801   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -21.2158    1325.7343   ✗       
+802   SSAPLGGGWVLLSK           -1.0000     NotChecked  -21.2266    1370.7558   ✗       
+803   -17.027SAPLGGGWVLLSK     -1.0000     NotChecked  -21.2415    1266.6972   ✗       
+804   VSAPLGGGWVLLSK           -1.0000     NotChecked  -21.2907    1382.7922   ✗       
+805   +42.011SAPLGGWVLLSK      -1.0000     NotChecked  -21.3008    1268.7129   ✗       
+806   SSAPLGGGWVLLSK           -1.0000     NotChecked  -21.3127    1370.7558   ✗       
+807   +42.011SAPLGGWVLLSK      -1.0000     NotChecked  -21.3138    1268.7129   ✗       
+808   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -21.3257    1325.7343   ✗       
+809   +42.011SAPLGGNWVLLSK     -1.0000     NotChecked  -21.3538    1382.7558   ✗       
+810   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -21.3652    1325.7343   ✗       
+811   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -21.4063    1325.7343   ✗       
+812   -17.027LSAPLGGGWVLLSK    -1.0000     NotChecked  -21.4179    1379.7813   ✗       
+813   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -21.4332    1326.7296   ✗       
+814   SSAPLGGGWVLLSK           -1.0000     NotChecked  -21.4338    1370.7558   ✗       
+815   -17.027SAPLGGGGWVLLSK    -1.0000     NotChecked  -21.4486    1323.7187   ✗       
+816   QSAPLGGWVLLSK            -1.0000     NotChecked  -21.4674    1354.7609   ✗       
+817   ESAPLGGWVLLSK            -1.0000     NotChecked  -21.4808    1355.7449   ✗       
+818   -17.027SAPLGGGWVLLSK     -1.0000     NotChecked  -21.5145    1266.6972   ✗       
+819   VSAPLGGGWVLLSK           -1.0000     NotChecked  -21.5507    1382.7922   ✗       
+820   VSAPLGGGWVLLSK           -1.0000     NotChecked  -21.5638    1382.7922   ✗       
+821   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -21.5761    1325.7343   ✗       
+822   ASAPLGGWVLLSK            -1.0000     NotChecked  -21.5889    1297.7394   ✗       
+823   +43.006LSAPLGGWVLLSK     -1.0000     NotChecked  -21.5965    1382.7922   ✗       
+824   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -21.5988    1325.7343   ✗       
+825   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -21.6621    1325.7343   ✗       
+826   VSAPLGGGWVLLSK           -1.0000     NotChecked  -21.6738    1382.7922   ✗       
+827   +42.011SAPLGGWVLLSK      -1.0000     NotChecked  -21.6838    1268.7129   ✗       
+828   SSAPLGGGWVLLSK           -1.0000     NotChecked  -21.6957    1370.7558   ✗       
+829   ASAPLGGGWVLLSK           -1.0000     NotChecked  -21.7120    1354.7609   ✗       
+830   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -21.7136    1325.7343   ✗       
+831   -17.027SAPLGGWVLLSK      -1.0000     NotChecked  -21.7217    1209.6758   ✗       
+832   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -21.7816    1326.7296   ✗       
+833   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -21.7832    1325.7343   ✗       
+834   -17.027LSAPLGGGWVLLSK    -1.0000     NotChecked  -21.8010    1379.7813   ✗       
+835   SSAPLGGGWVLLSK           -1.0000     NotChecked  -21.8168    1370.7558   ✗       
+836   +42.011SAPLGGNWVLLSK     -1.0000     NotChecked  -21.8233    1382.7558   ✗       
+837   -17.027SAPLGGGGWVLLSK    -1.0000     NotChecked  -21.8317    1323.7187   ✗       
+838   +42.011SAPLGGWVLLSK      -1.0000     NotChecked  -21.8347    1268.7129   ✗       
+839   QSAPLGGWVLLSK            -1.0000     NotChecked  -21.8504    1354.7609   ✗       
+840   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -21.8757    1325.7343   ✗       
+841   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -21.9027    1326.7296   ✗       
+842   VSAPLGGGWVLLSK           -1.0000     NotChecked  -21.9468    1382.7922   ✗       
+843   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -21.9472    1325.7343   ✗       
+844   ASAPLGGWVLLSK            -1.0000     NotChecked  -21.9720    1297.7394   ✗       
+845   -17.027SAPLGGGWVLLSK     -1.0000     NotChecked  -21.9840    1266.6972   ✗       
+846   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -22.0452    1325.7343   ✗       
+847   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -22.0683    1325.7343   ✗       
+848   ASAPLGGGWVLLSK           -1.0000     NotChecked  -22.0950    1354.7609   ✗       
+849   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -22.0966    1325.7343   ✗       
+850   -17.027SAPLGGWVLLSK      -1.0000     NotChecked  -22.1047    1209.6758   ✗       
+851   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -22.1488    1325.7343   ✗       
+852   +42.011SAPLGGWVLLSK      -1.0000     NotChecked  -22.1533    1268.7129   ✗       
+853   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -22.1646    1326.7296   ✗       
+854   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -22.1663    1325.7343   ✗       
+855   +42.011SAPLGGNWVLLSK     -1.0000     NotChecked  -22.2064    1382.7558   ✗       
+856   +42.011SAPLGGWVLLSK      -1.0000     NotChecked  -22.2177    1268.7129   ✗       
+857   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -22.2588    1325.7343   ✗       
+858   -17.027LSAPLGGGWVLLSK    -1.0000     NotChecked  -22.2705    1379.7813   ✗       
+859   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -22.2857    1326.7296   ✗       
+860   +42.011SSPLGGGWVLLSK     -1.0000     NotChecked  -22.2933    1341.7293   ✗       
+861   VSAPLGGGWVLLSK           -1.0000     NotChecked  -22.2952    1382.7922   ✗       
+862   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -22.3038    1325.7343   ✗       
+863   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -22.3302    1325.7343   ✗       
+864   Q+0.984SAPLGGWVLLSK      -1.0000     NotChecked  -22.3390    1355.7449   ✗       
+865   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -22.3527    1325.7343   ✗       
+866   -17.027SAPLGGGWVLLSK     -1.0000     NotChecked  -22.3671    1266.6972   ✗       
+867   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -22.3717    1326.7296   ✗       
+868   VSAPLGGGWVLLSK           -1.0000     NotChecked  -22.4163    1382.7922   ✗       
+869   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -22.4232    1326.7296   ✗       
+870   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -22.4264    1325.7343   ✗       
+871   SSAPLGGWVLLSK            -1.0000     NotChecked  -22.4383    1313.7343   ✗       
+872   ASAPLGGGWVLLSK           -1.0000     NotChecked  -22.4415    1354.7609   ✗       
+873   +42.011SAPLGGPWVLLSK     -1.0000     NotChecked  -22.4511    1365.7656   ✗       
+874   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -22.4513    1325.7343   ✗       
+875   -17.027SAPLGGGWVLLSK     -1.0000     NotChecked  -22.4531    1266.6972   ✗       
+876   +42.011SAPLGGGWLLLSK     -1.0000     NotChecked  -22.4685    1339.7500   ✗       
+877   +42.011SAPLGGGGWVLLSK    -1.0000     NotChecked  -22.5147    1382.7558   ✗       
+878   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -22.5319    1325.7343   ✗       
+879   +42.011SAPLGGWVLLSK      -1.0000     NotChecked  -22.5363    1268.7129   ✗       
+880   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -22.5374    1325.7343   ✗       
+881   -17.027LSAPLGGGWVLLSK    -1.0000     NotChecked  -22.5435    1379.7813   ✗       
+882   +42.011SAPLGGGWVLLVK     -1.0000     NotChecked  -22.5557    1337.7707   ✗       
+883   SSAPLGGGWVLLSK           -1.0000     NotChecked  -22.5613    1370.7558   ✗       
+884   ASAPLGGGWVLLSK           -1.0000     NotChecked  -22.5645    1354.7609   ✗       
+885   +42.011SAPLGGWVLLSK      -1.0000     NotChecked  -22.5661    1268.7129   ✗       
+886   -17.027SAPLGGGWVLLSK     -1.0000     NotChecked  -22.5742    1266.6972   ✗       
+887   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -22.6341    1326.7296   ✗       
+888   -17.027LSAPLGGGWVLLSK    -1.0000     NotChecked  -22.6535    1379.7813   ✗       
+889   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -22.6568    1326.7296   ✗       
+890   +42.011SSPLGGGWVLLSK     -1.0000     NotChecked  -22.6764    1341.7293   ✗       
+891   VSAPLGGGWVLLSK           -1.0000     NotChecked  -22.6783    1382.7922   ✗       
+892   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -22.6868    1325.7343   ✗       
+893   +42.011SAPLGGAWVLLSK     -1.0000     NotChecked  -22.7071    1339.7500   ✗       
+894   Q+0.984SAPLGGWVLLSK      -1.0000     NotChecked  -22.7220    1355.7449   ✗       
+895   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -22.7358    1325.7343   ✗       
+896   +42.011SAPLGGN+0.984WVLLSK-1.0000     NotChecked  -22.7468    1383.7398   ✗       
+897   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -22.7548    1326.7296   ✗       
+898   +42.011SAPLGGWVLLSK      -1.0000     NotChecked  -22.7877    1268.7129   ✗       
+899   VSAPLGGGWVLLSK           -1.0000     NotChecked  -22.7994    1382.7922   ✗       
+900   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -22.7997    1325.7343   ✗       
+901   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -22.8062    1326.7296   ✗       
+902   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -22.8094    1325.7343   ✗       
+903   +42.011SAPLGGGWVLLTK     -1.0000     NotChecked  -22.8119    1339.7500   ✗       
+904   SSAPLGGWVLLSK            -1.0000     NotChecked  -22.8213    1313.7343   ✗       
+905   ASAPLGGGWVLLSK           -1.0000     NotChecked  -22.8245    1354.7609   ✗       
+906   +42.011SAPLGGNWVLLSK     -1.0000     NotChecked  -22.8278    1382.7558   ✗       
+907   +42.011SAPLGGPWVLLSK     -1.0000     NotChecked  -22.8341    1365.7656   ✗       
+908   +42.011SAPLGGGWVVLSK     -1.0000     NotChecked  -22.8358    1311.7187   ✗       
+909   -17.027SAPLGGGWVLLSK     -1.0000     NotChecked  -22.8362    1266.6972   ✗       
+910   ASAPLGGGWVLLSK           -1.0000     NotChecked  -22.8376    1354.7609   ✗       
+911   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -22.8392    1325.7343   ✗       
+912   +42.011SAPLGGGWLLLSK     -1.0000     NotChecked  -22.8516    1339.7500   ✗       
+913   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -22.8802    1325.7343   ✗       
+914   VSAPLGGGWVLLSK           -1.0000     NotChecked  -22.8854    1382.7922   ✗       
+915   +42.011SAPLGGGGWVLLSK    -1.0000     NotChecked  -22.8977    1382.7558   ✗       
+916   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -22.9072    1326.7296   ✗       
+917   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -22.9204    1325.7343   ✗       
+918   -17.027LSAPLGGGWVLLSK    -1.0000     NotChecked  -22.9266    1379.7813   ✗       
+919   VSAPLGGGWVLLSK           -1.0000     NotChecked  -22.9369    1382.7922   ✗       
+920   +42.011SAPLGGGWVLLVK     -1.0000     NotChecked  -22.9387    1337.7707   ✗       
+921   SSAPLGGGWVLLSK           -1.0000     NotChecked  -22.9444    1370.7558   ✗       
+922   ASAPLGGGWVLLSK           -1.0000     NotChecked  -22.9476    1354.7609   ✗       
+923   +42.011SAPLGGWVLLSK      -1.0000     NotChecked  -22.9492    1268.7129   ✗       
+924   ESAPLGGWVLLSK            -1.0000     NotChecked  -22.9548    1355.7449   ✗       
+925   -17.027SAPLGGGWVLLSK     -1.0000     NotChecked  -22.9573    1266.6972   ✗       
+926   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -23.0013    1325.7343   ✗       
+927   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -23.0076    1325.7343   ✗       
+928   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -23.0171    1326.7296   ✗       
+929   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -23.0398    1326.7296   ✗       
+930   +43.006LSAPLGGWVLLSK     -1.0000     NotChecked  -23.0705    1382.7922   ✗       
+931   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -23.0728    1325.7343   ✗       
+932   +42.011SAPLGGAWVLLSK     -1.0000     NotChecked  -23.0901    1339.7500   ✗       
+933   +42.011SAPLGGN+0.984WVLLSK-1.0000     NotChecked  -23.1298    1383.7398   ✗       
+934   +42.011SSPLGGGWVLLSK     -1.0000     NotChecked  -23.1459    1341.7293   ✗       
+935   VSAPLGGGWVLLSK           -1.0000     NotChecked  -23.1478    1382.7922   ✗       
+936   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -23.1555    1325.7343   ✗       
+937   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -23.1563    1325.7343   ✗       
+938   +42.011SAPLGGWVLLSK      -1.0000     NotChecked  -23.1578    1268.7129   ✗       
+939   VSAPLGGGWVLLSK           -1.0000     NotChecked  -23.1705    1382.7922   ✗       
+940   +42.011SAPLGGWVLLSK      -1.0000     NotChecked  -23.1708    1268.7129   ✗       
+941   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -23.1828    1325.7343   ✗       
+942   +42.011SAPLGGGWVLLTK     -1.0000     NotChecked  -23.1949    1339.7500   ✗       
+943   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -23.1982    1325.7343   ✗       
+944   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -23.2053    1325.7343   ✗       
+945   +42.011SAPLGGNWVLLSK     -1.0000     NotChecked  -23.2109    1382.7558   ✗       
+946   +42.011SAPLGGGWVVLSK     -1.0000     NotChecked  -23.2188    1311.7187   ✗       
+947   ASAPLGGGWVLLSK           -1.0000     NotChecked  -23.2206    1354.7609   ✗       
+948   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -23.2222    1325.7343   ✗       
+949   +43.006SAPLGGGGWVLLSK    -1.0000     NotChecked  -23.2243    1383.7511   ✗       
+950   +42.011SAPLGGGWALLSK     -1.0000     NotChecked  -23.2595    1297.7030   ✗       
+951   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -23.2633    1325.7343   ✗       
+952   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -23.2644    1325.7343   ✗       
+953   VSAPLGGGWVLLSK           -1.0000     NotChecked  -23.2685    1382.7922   ✗       
+954   -17.027LSAPLGGGWVLLSK    -1.0000     NotChecked  -23.2750    1379.7813   ✗       
+955   +43.006SAPLGGWVLLSK      -1.0000     NotChecked  -23.2757    1269.7081   ✗       
+956   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -23.2789    1325.7343   ✗       
+957   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -23.2902    1326.7296   ✗       
+958   SSAPLGGGWVLLSK           -1.0000     NotChecked  -23.2908    1370.7558   ✗       
+959   +42.011SAPLGGPWVLLSK     -1.0000     NotChecked  -23.3036    1365.7656   ✗       
+960   -17.027SAPLGGGGWVLLSK    -1.0000     NotChecked  -23.3056    1323.7187   ✗       
+961   VSAPLGGGWVLLSK           -1.0000     NotChecked  -23.3199    1382.7922   ✗       
+962   +42.011SAPLGGGWLLLSK     -1.0000     NotChecked  -23.3211    1339.7500   ✗       
+963   QSAPLGGWVLLSK            -1.0000     NotChecked  -23.3244    1354.7609   ✗       
+964   ESAPLGGWVLLSK            -1.0000     NotChecked  -23.3379    1355.7449   ✗       
+965   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -23.3844    1325.7343   ✗       
+966   +42.011SAPLGGGGWVLLSK    -1.0000     NotChecked  -23.3899    1382.7558   ✗       
+967   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -23.3907    1325.7343   ✗       
+968   -17.027LSAPLGGGWVLLSK    -1.0000     NotChecked  -23.3961    1379.7813   ✗       
+969   +42.011SAPLGGGWVLLVK     -1.0000     NotChecked  -23.4082    1337.7707   ✗       
+970   SSAPLGGGWVLLSK           -1.0000     NotChecked  -23.4139    1370.7558   ✗       
+971   +42.011SAPLGGNWVLLSK     -1.0000     NotChecked  -23.4180    1382.7558   ✗       
+972   +42.011SSPLGGGWVLLSK     -1.0000     NotChecked  -23.4190    1341.7293   ✗       
+973   VSAPLGGGWVLLSK           -1.0000     NotChecked  -23.4208    1382.7922   ✗       
+974   +42.011SAPLGGWVLLSK      -1.0000     NotChecked  -23.4294    1268.7129   ✗       
+975   +43.006LSAPLGGWVLLSK     -1.0000     NotChecked  -23.4536    1382.7922   ✗       
+976   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -23.4558    1325.7343   ✗       
+977   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -23.4704    1325.7343   ✗       
+978   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -23.4783    1325.7343   ✗       
+979   +43.006SAPLGGWVLLSK      -1.0000     NotChecked  -23.4973    1269.7081   ✗       
+980   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -23.5093    1326.7296   ✗       
+981   +42.011STPLGGGWVLLSK     -1.0000     NotChecked  -23.5205    1355.7449   ✗       
+982   +42.011SSPLGGGWVLLSK     -1.0000     NotChecked  -23.5289    1341.7293   ✗       
+983   VSAPLGGGWVLLSK           -1.0000     NotChecked  -23.5308    1382.7922   ✗       
+984   +43.006SAPLGGNWVLLSK     -1.0000     NotChecked  -23.5374    1383.7511   ✗       
+985   +42.011SAPLGGWVLLSK      -1.0000     NotChecked  -23.5385    1268.7129   ✗       
+986   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -23.5394    1325.7343   ✗       
+987   +42.011SAPLGGWVLLSK      -1.0000     NotChecked  -23.5408    1268.7129   ✗       
+988   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -23.5488    1326.7296   ✗       
+989   VSAPLGGGWVLLSK           -1.0000     NotChecked  -23.5535    1382.7922   ✗       
+990   +42.011SAPLGGAWVLLSK     -1.0000     NotChecked  -23.5596    1339.7500   ✗       
+991   ASAPLGGGWVLLSK           -1.0000     NotChecked  -23.5690    1354.7609   ✗       
+992   -17.027SAPLGGWVLLSK      -1.0000     NotChecked  -23.5787    1209.6758   ✗       
+993   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -23.5813    1325.7343   ✗       
+994   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -23.5883    1325.7343   ✗       
+995   +43.006SAPLGGGWVLLSK     -1.0000     NotChecked  -23.5898    1326.7296   ✗       
+996   +42.011SAPLGGGWLLLSK     -1.0000     NotChecked  -23.5941    1339.7500   ✗       
+997   +42.011SAPLGGN+0.984WVLLSK-1.0000     NotChecked  -23.5993    1383.7398   ✗       
+998   +43.006SAPLGGGGWVLLSK    -1.0000     NotChecked  -23.6073    1383.7511   ✗       
+999   +42.011SAPLGGGWVLLSK     -1.0000     NotChecked  -23.6176    1325.7343   ✗       
+1000  +42.011SQPLGGGWVLLSK     -1.0000     NotChecked  -23.6269    1382.7558   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: LSAPLGGGWVLLSK
+Similarity: 0.9600
+De Novo Score: -1.4265
+Source: Database
+Correct: ✓
+

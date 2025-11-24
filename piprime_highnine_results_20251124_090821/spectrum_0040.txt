@@ -1,0 +1,1042 @@
+================================================================================
+Spectrum 40
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 906.4617
+Precursor charge: 2+
+Ground truth: HINEIISC+57.021DIDEIIK
+Ground truth (normalized): HINEIISC+57.021DIDEIIK
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 27
+Used for reranking: 27
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 27 (2.7%)
+Database matches: 0 (0.0%)
+Prosit predictions: 27 (2.7%)
+Failed: 0 (0.0%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✗ (not in top 1000 candidates)
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     MFNSGLSWQTSPESLK         0.4523      Prosit      -8.4718     1810.8560   ✓       
+2     MFNSGLSWQTSPESLK         0.4523      Prosit      -8.7813     1810.8560   ✓       
+3     MFNSGLSWQTSPELSK         0.4380      Prosit      -7.6329     1810.8560   ✓       
+4     MFNSGLSWQTSPELSK         0.4380      Prosit      -7.9424     1810.8560   ✓       
+5     MFNSGLSWQTSPELSK         0.4380      Prosit      -9.7367     1810.8560   ✓       
+6     DFNSGLSWQTSPETSR         0.3901      Prosit      -11.8047    1810.8122   ✓       
+7     HLNLGLSWQTSPESSR         0.3840      Prosit      -9.5319     1810.8962   ✓       
+8     HLNLGLSWQTSPESSR         0.3840      Prosit      -9.8414     1810.8962   ✓       
+9     HLNSGLSWQTSPESLR         0.3549      Prosit      -6.9555     1810.8962   ✓       
+10    HLNSGLSWQTSPESLR         0.3549      Prosit      -7.2650     1810.8962   ✓       
+11    HLNSGLSWQTSPESLR         0.3549      Prosit      -9.0592     1810.8962   ✓       
+12    HLNSGLSWQTSPESLR         0.3549      Prosit      -9.3687     1810.8962   ✓       
+13    HLNSGLSWQTSPELSR         0.3491      Prosit      -6.1166     1810.8962   ✓       
+14    HLNSGLSWQTSPELSR         0.3491      Prosit      -6.4261     1810.8962   ✓       
+15    HLNSGLSWQTSPELSR         0.3491      Prosit      -8.2204     1810.8962   ✓       
+16    HLNSGLSWQTSPELSR         0.3491      Prosit      -8.5299     1810.8962   ✓       
+17    HLNSGLSWQTSPELSR         0.3491      Prosit      -9.7906     1810.8962   ✓       
+18    HLNSGLSWQTSPELSR         0.3491      Prosit      -9.8990     1810.8962   ✓       
+19    HLNSGLSWQTSPELSR         0.3491      Prosit      -9.9246     1810.8962   ✓       
+20    HLNSGLSWQTSPELSR         0.3491      Prosit      -10.1001    1810.8962   ✓       
+21    HLNSGLSWQTSPELSR         0.3491      Prosit      -10.2085    1810.8962   ✓       
+22    HLNSGLSWQTSPELSR         0.3491      Prosit      -10.2118    1810.8962   ✓       
+23    HLNSGLSWQTSPELSR         0.3491      Prosit      -10.2341    1810.8962   ✓       
+24    HLNSGLSWQTSPELSR         0.3491      Prosit      -10.4567    1810.8962   ✓       
+25    HLNSGLSWQTSPELSR         0.3491      Prosit      -10.4945    1810.8962   ✓       
+26    HLNSGLSWQTSPELSR         0.3491      Prosit      -10.5079    1810.8962   ✓       
+27    HLNSGLSWQTSPETVR         0.3405      Prosit      -10.4627    1810.8962   ✓       
+28    MLNSGLSWQTSPELSR         -1.0000     NotChecked  -5.4070     1804.8778   ✗       
+29    MLNSGLSWQTSPELSR         -1.0000     NotChecked  -5.7165     1804.8778   ✗       
+30    MLNSGLSWQTSPESSR         -1.0000     NotChecked  -6.0170     1778.8257   ✗       
+31    MLLSGLSWQTSPELSR         -1.0000     NotChecked  -6.2433     1803.9189   ✗       
+32    MLNSGLSWQTSPESLR         -1.0000     NotChecked  -6.2458     1804.8778   ✗       
+33    MLNSGLSWQTSPESSR         -1.0000     NotChecked  -6.3265     1778.8257   ✗       
+34    MLLSGLSWQTSPELSR         -1.0000     NotChecked  -6.5528     1803.9189   ✗       
+35    MLNSGLSWQTSPESLR         -1.0000     NotChecked  -6.5553     1804.8778   ✗       
+36    HLNSGLSWQTSPESSR         -1.0000     NotChecked  -6.7266     1784.8442   ✗       
+37    MLLSGLSWQTSPESSR         -1.0000     NotChecked  -6.8533     1777.8669   ✗       
+38    HLLSGLSWQTSPELSR         -1.0000     NotChecked  -6.9530     1809.9373   ✗       
+39    HLNSGLSWQTSPESSR         -1.0000     NotChecked  -7.0361     1784.8442   ✗       
+40    MLLSGLSWQTSPESLR         -1.0000     NotChecked  -7.0822     1803.9189   ✗       
+41    MFNGGLSWQTSPELSR         -1.0000     NotChecked  -7.1121     1808.8516   ✗       
+42    MLLSGLSWQTSPESSR         -1.0000     NotChecked  -7.1628     1777.8669   ✗       
+43    HLLSGLSWQTSPELSR         -1.0000     NotChecked  -7.2625     1809.9373   ✗       
+44    +42.011FNSGLSWQTSPELSR   -1.0000     NotChecked  -7.2847     1749.8322   ✗       
+45    MLLSGLSWQTSPESLR         -1.0000     NotChecked  -7.3917     1803.9189   ✗       
+46    MLNSGLSWQTSPEVSR         -1.0000     NotChecked  -7.4171     1790.8621   ✗       
+47    MFNGGLSWQTSPELSR         -1.0000     NotChecked  -7.4216     1808.8516   ✗       
+48    MLNSGLSWQTSPELSR         -1.0000     NotChecked  -7.5107     1804.8778   ✗       
+49    +42.011FNSGLSWQTSPELLR   -1.0000     NotChecked  -7.5136     1775.8842   ✗       
+50    HLLSGLSWQTSPESSR         -1.0000     NotChecked  -7.5629     1783.8853   ✗       
+51    +42.011FNSGLSWQTSPELSR   -1.0000     NotChecked  -7.5942     1749.8322   ✗       
+52    MFNGGLSWQTSPESSR         -1.0000     NotChecked  -7.7221     1782.7995   ✗       
+53    MLNSGLSWQTSPEVSR         -1.0000     NotChecked  -7.7266     1790.8621   ✗       
+54    MLNSGLSWQTSPETSR         -1.0000     NotChecked  -7.7739     1792.8414   ✗       
+55    HLLSGLSWQTSPESLR         -1.0000     NotChecked  -7.7918     1809.9373   ✗       
+56    MFNSGLSWSTSPELSR         -1.0000     NotChecked  -7.7963     1797.8356   ✗       
+57    MLNSGLSWQTSPELSR         -1.0000     NotChecked  -7.8202     1804.8778   ✗       
+58    MLNN+0.984GLSWQTSPESSR   -1.0000     NotChecked  -7.8206     1806.8207   ✗       
+59    +42.011FNSGLSWQTSPELLR   -1.0000     NotChecked  -7.8231     1775.8842   ✗       
+60    HLLSGLSWQTSPESSR         -1.0000     NotChecked  -7.8725     1783.8853   ✗       
+61    MFNSLSWQTSPELSR          -1.0000     NotChecked  -7.8861     1781.8407   ✗       
+62    +42.011FNSGLSWQTSPESSR   -1.0000     NotChecked  -7.8947     1723.7802   ✗       
+63    MFLGGLSWQTSPELSR         -1.0000     NotChecked  -7.9484     1807.8927   ✗       
+64    MFNGGLSWQTSPESLR         -1.0000     NotChecked  -7.9509     1808.8516   ✗       
+65    MLNSGLSWQTSPESVR         -1.0000     NotChecked  -7.9961     1790.8621   ✗       
+66    MFNGGLSWQTSPESSR         -1.0000     NotChecked  -8.0316     1782.7995   ✗       
+67    MLNSGLSWQTSPETSR         -1.0000     NotChecked  -8.0834     1792.8414   ✗       
+68    HLLSGLSWQTSPESLR         -1.0000     NotChecked  -8.1013     1809.9373   ✗       
+69    MFNSGLSWSTSPELSR         -1.0000     NotChecked  -8.1058     1797.8356   ✗       
+70    MFNSLSWQTSPELLR          -1.0000     NotChecked  -8.1150     1807.8927   ✗       
+71    MLNGGLSWQTSPELSR         -1.0000     NotChecked  -8.1206     1774.8672   ✗       
+72    MLNSGLSWQTSPESSR         -1.0000     NotChecked  -8.1207     1778.8257   ✗       
+73    +42.011FLSGLSWQTSPELSR   -1.0000     NotChecked  -8.1211     1748.8733   ✗       
+74    +42.011FNSGLSWQTSPESLR   -1.0000     NotChecked  -8.1236     1749.8322   ✗       
+75    HLNSGLSWQTSPEVSR         -1.0000     NotChecked  -8.1267     1796.8806   ✗       
+76    MLNN+0.984GLSWQTSPESSR   -1.0000     NotChecked  -8.1301     1806.8207   ✗       
+77    MFNSGLSWQTSELSR          -1.0000     NotChecked  -8.1841     1741.8094   ✗       
+78    MFNSLSWQTSPELSR          -1.0000     NotChecked  -8.1957     1781.8407   ✗       
+79    +42.011FNSGLSWQTSPESSR   -1.0000     NotChecked  -8.2042     1723.7802   ✗       
+80    MHNSGLSWQTSPESSR         -1.0000     NotChecked  -8.2208     1802.8006   ✗       
+81    MFNSGLSWQTSPESSK         -1.0000     NotChecked  -8.2429     1784.8039   ✗       
+82    MLLSGLSWQTSPEVSR         -1.0000     NotChecked  -8.2534     1789.9033   ✗       
+83    MFLGGLSWQTSPELSR         -1.0000     NotChecked  -8.2579     1807.8927   ✗       
+84    MFNGGLSWQTSPESLR         -1.0000     NotChecked  -8.2604     1808.8516   ✗       
+85    MLN+0.984SGLSWQTSPELSR   -1.0000     NotChecked  -8.2681     1805.8618   ✗       
+86    +42.011LNSGLSWQTSPELSR   -1.0000     NotChecked  -8.2933     1715.8479   ✗       
+87    MLNSGLSWQTSPESVR         -1.0000     NotChecked  -8.3057     1790.8621   ✗       
+88    MFVSGLSWQTSPESSR         -1.0000     NotChecked  -8.3456     1797.8356   ✗       
+89    MLLSGLSWQTSPELSR         -1.0000     NotChecked  -8.3471     1803.9189   ✗       
+90    MLNGGLSWQTSPELLR         -1.0000     NotChecked  -8.3495     1800.9192   ✗       
+91    MLNSGLSWQTSPESLR         -1.0000     NotChecked  -8.3496     1804.8778   ✗       
+92    +42.011FLSGLSWQTSPELLR   -1.0000     NotChecked  -8.3500     1774.9254   ✗       
+93    MFNSGLSWSTSPESSR         -1.0000     NotChecked  -8.4063     1771.7835   ✗       
+94    MFNSGLSWQTSELLR          -1.0000     NotChecked  -8.4130     1767.8614   ✗       
+95    MFNSLSWQTSPELLR          -1.0000     NotChecked  -8.4245     1807.8927   ✗       
+96    MLNGGLSWQTSPELSR         -1.0000     NotChecked  -8.4301     1774.8672   ✗       
+97    MLNSGLSWQTSPESSR         -1.0000     NotChecked  -8.4302     1778.8257   ✗       
+98    +42.011FLSGLSWQTSPELSR   -1.0000     NotChecked  -8.4306     1748.8733   ✗       
+99    HFNGGLSWQTSPESSR         -1.0000     NotChecked  -8.4317     1788.8180   ✗       
+100   +42.011FNSGLSWQTSPESLR   -1.0000     NotChecked  -8.4331     1749.8322   ✗       
+101   HLNSGLSWQTSPEVSR         -1.0000     NotChecked  -8.4362     1796.8806   ✗       
+102   MFLSGLSWQTSPELSK         -1.0000     NotChecked  -8.4693     1809.8971   ✗       
+103   VFNSGLSWQTSPELSR         -1.0000     NotChecked  -8.4755     1806.8901   ✗       
+104   HLNSGLSWQTSPETSR         -1.0000     NotChecked  -8.4835     1798.8598   ✗       
+105   MFNSLSWQTSPESSR          -1.0000     NotChecked  -8.4961     1755.7886   ✗       
+106   HFNSGLSWSTSPELSR         -1.0000     NotChecked  -8.5059     1803.8540   ✗       
+107   +42.011LNSGLSWQTSPELLR   -1.0000     NotChecked  -8.5221     1741.8999   ✗       
+108   MHNSGLSWQTSPESSR         -1.0000     NotChecked  -8.5303     1802.8006   ✗       
+109   MFNSGLSWQTSPESSK         -1.0000     NotChecked  -8.5524     1784.8039   ✗       
+110   MFLGGLSWQTSPESSR         -1.0000     NotChecked  -8.5584     1781.8407   ✗       
+111   MLLSGLSWQTSPEVSR         -1.0000     NotChecked  -8.5629     1789.9033   ✗       
+112   MLN+0.984SGLSWQTSPELSR   -1.0000     NotChecked  -8.5776     1805.8618   ✗       
+113   HFNSLSWQTSPELSR          -1.0000     NotChecked  -8.5958     1787.8591   ✗       
+114   +42.011LNSGLSWQTSPELSR   -1.0000     NotChecked  -8.6028     1715.8479   ✗       
+115   MLLSGLSWQTSPETSR         -1.0000     NotChecked  -8.6103     1791.8825   ✗       
+116   MFLSGLSWSTSPELSR         -1.0000     NotChecked  -8.6326     1796.8767   ✗       
+117   MFNSGLSWSTSPESLR         -1.0000     NotChecked  -8.6351     1797.8356   ✗       
+118   MLNSGLSWQTSPELSK         -1.0000     NotChecked  -8.6414     1776.8716   ✗       
+119   MFVSGLSWQTSPESSR         -1.0000     NotChecked  -8.6551     1797.8356   ✗       
+120   MLLSGLSWQTSPELSR         -1.0000     NotChecked  -8.6566     1803.9189   ✗       
+121   MLLN+0.984GLSWQTSPESSR   -1.0000     NotChecked  -8.6570     1805.8618   ✗       
+122   MLNGGLSWQTSPELLR         -1.0000     NotChecked  -8.6590     1800.9192   ✗       
+123   MLNSGLSWQTSPESLR         -1.0000     NotChecked  -8.6591     1804.8778   ✗       
+124   +42.011FLSGLSWQTSPELLR   -1.0000     NotChecked  -8.6595     1774.9254   ✗       
+125   HLNSGLSWQTSPESVR         -1.0000     NotChecked  -8.7058     1796.8806   ✗       
+126   MFNSGLSWSTSPESSR         -1.0000     NotChecked  -8.7158     1771.7835   ✗       
+127   MFLSLSWQTSPELSR          -1.0000     NotChecked  -8.7225     1780.8818   ✗       
+128   MFNSLSWQTSPESLR          -1.0000     NotChecked  -8.7250     1781.8407   ✗       
+129   MLNGGLSWQTSPESSR         -1.0000     NotChecked  -8.7306     1748.8152   ✗       
+130   +42.011FLSGLSWQTSPESSR   -1.0000     NotChecked  -8.7311     1722.8213   ✗       
+131   MLNSGLSWQTSPESTR         -1.0000     NotChecked  -8.7398     1792.8414   ✗       
+132   HFNGGLSWQTSPESSR         -1.0000     NotChecked  -8.7412     1788.8180   ✗       
+133   MLVSGLSWQTSPELSR         -1.0000     NotChecked  -8.7441     1789.9033   ✗       
+134   MFNGGLSWQTSPELSR         -1.0000     NotChecked  -8.7662     1808.8516   ✗       
+135   MFLSGLSWQTSPELSK         -1.0000     NotChecked  -8.7788     1809.8971   ✗       
+136   VFNSGLSWQTSPELSR         -1.0000     NotChecked  -8.7850     1806.8901   ✗       
+137   MFLGGLSWQTSPESLR         -1.0000     NotChecked  -8.7873     1807.8927   ✗       
+138   HLNSGLSWQTSPETSR         -1.0000     NotChecked  -8.7930     1798.8598   ✗       
+139   MFNSGLSWQTSESSR          -1.0000     NotChecked  -8.7941     1715.7573   ✗       
+140   MLNSGLSWSTSPELSR         -1.0000     NotChecked  -8.8048     1763.8512   ✗       
+141   MFNSLSWQTSPESSR          -1.0000     NotChecked  -8.8056     1755.7886   ✗       
+142   HFNSGLSWSTSPELSR         -1.0000     NotChecked  -8.8154     1803.8540   ✗       
+143   MLNLGLSWQTSPESSR         -1.0000     NotChecked  -8.8223     1804.8778   ✗       
+144   HLNGGLSWQTSPELSR         -1.0000     NotChecked  -8.8302     1780.8856   ✗       
+145   HLNSGLSWQTSPESSR         -1.0000     NotChecked  -8.8303     1784.8442   ✗       
+146   +42.011LNSGLSWQTSPELLR   -1.0000     NotChecked  -8.8316     1741.8999   ✗       
+147   MLLSGLSWQTSPESVR         -1.0000     NotChecked  -8.8325     1789.9033   ✗       
+148   MFLGGLSWQTSPESSR         -1.0000     NotChecked  -8.8679     1781.8407   ✗       
+149   MLNSGLSWQTSPELLK         -1.0000     NotChecked  -8.8703     1802.9237   ✗       
+150   MLN+0.984SGLSWQTSPESSR   -1.0000     NotChecked  -8.8781     1779.8098   ✗       
+151   HFNSGLSWQTSELSR          -1.0000     NotChecked  -8.8938     1747.8278   ✗       
+152   MLNSLSWQTSPELSR          -1.0000     NotChecked  -8.8947     1747.8563   ✗       
+153   MFNSGLSVQTSPELSR         -1.0000     NotChecked  -8.8958     1751.8512   ✗       
+154   +42.011LNSGLSWQTSPESSR   -1.0000     NotChecked  -8.9032     1689.7958   ✗       
+155   HFNSLSWQTSPELSR          -1.0000     NotChecked  -8.9053     1787.8591   ✗       
+156   MLLSGLSWQTSPETSR         -1.0000     NotChecked  -8.9198     1791.8825   ✗       
+157   HHNSGLSWQTSPESSR         -1.0000     NotChecked  -8.9304     1808.8190   ✗       
+158   +42.011FNSGGLSWQTSPELSR  -1.0000     NotChecked  -8.9388     1806.8537   ✗       
+159   MFLSGLSWSTSPELSR         -1.0000     NotChecked  -8.9422     1796.8767   ✗       
+160   MFNSGLSWSTSPESLR         -1.0000     NotChecked  -8.9446     1797.8356   ✗       
+161   MLNSGLSWQTSPELSK         -1.0000     NotChecked  -8.9510     1776.8716   ✗       
+162   MFLSLSWQTSPELLR          -1.0000     NotChecked  -8.9514     1806.9338   ✗       
+163   HFNSGLSWQTSPESSK         -1.0000     NotChecked  -8.9525     1790.8224   ✗       
+164   MLLGGLSWQTSPELSR         -1.0000     NotChecked  -8.9570     1773.9083   ✗       
+165   MLLSGLSWQTSPESSR         -1.0000     NotChecked  -8.9571     1777.8669   ✗       
+166   MLNGGLSWQTSPESLR         -1.0000     NotChecked  -8.9595     1774.8672   ✗       
+167   +42.011FLSGLSWQTSPESLR   -1.0000     NotChecked  -8.9599     1748.8733   ✗       
+168   HLLSGLSWQTSPEVSR         -1.0000     NotChecked  -8.9631     1795.9217   ✗       
+169   MLLN+0.984GLSWQTSPESSR   -1.0000     NotChecked  -8.9665     1805.8618   ✗       
+170   MFNSGLSWVTSPELSR         -1.0000     NotChecked  -8.9691     1809.8720   ✗       
+171   HLNSGLSWQTSPESVR         -1.0000     NotChecked  -9.0153     1796.8806   ✗       
+172   MFLSGLSWQTSELSR          -1.0000     NotChecked  -9.0205     1740.8505   ✗       
+173   MFNSGLSWQTSESLR          -1.0000     NotChecked  -9.0230     1741.8094   ✗       
+174   MFLSLSWQTSPELSR          -1.0000     NotChecked  -9.0320     1780.8818   ✗       
+175   MLNSGLSWSTSPELLR         -1.0000     NotChecked  -9.0337     1789.9033   ✗       
+176   MFNSLSWQTSPESLR          -1.0000     NotChecked  -9.0345     1781.8407   ✗       
+177   MLNGGLSWQTSPESSR         -1.0000     NotChecked  -9.0401     1748.8152   ✗       
+178   +42.011FLSGLSWQTSPESSR   -1.0000     NotChecked  -9.0406     1722.8213   ✗       
+179   MLNSGLSWQTSPESTR         -1.0000     NotChecked  -9.0493     1792.8414   ✗       
+180   MLVSGLSWQTSPELSR         -1.0000     NotChecked  -9.0537     1789.9033   ✗       
+181   HFVSGLSWQTSPESSR         -1.0000     NotChecked  -9.0552     1803.8540   ✗       
+182   HLLSGLSWQTSPELSR         -1.0000     NotChecked  -9.0567     1809.9373   ✗       
+183   MHLSGLSWQTSPESSR         -1.0000     NotChecked  -9.0571     1801.8417   ✗       
+184   HLNGGLSWQTSPELLR         -1.0000     NotChecked  -9.0591     1806.9377   ✗       
+185   MFNGGLSWQTSPELSR         -1.0000     NotChecked  -9.0757     1808.8516   ✗       
+186   MFLSGLSWQTSPESSK         -1.0000     NotChecked  -9.0793     1783.8451   ✗       
+187   MLNSGLSWQTSPELSR         -1.0000     NotChecked  -9.0810     1804.8778   ✗       
+188   VFNSGLSWQTSPESSR         -1.0000     NotChecked  -9.0855     1780.8380   ✗       
+189   +42.011FNN+0.984GLSWQTSPELSR-1.0000     NotChecked  -9.0884     1777.8271   ✗       
+190   MFLGGLSWQTSPESLR         -1.0000     NotChecked  -9.0968     1807.8927   ✗       
+191   MFNSGLSWATSPELSR         -1.0000     NotChecked  -9.1006     1781.8407   ✗       
+192   MLN+0.984SGLSWQTSPESLR   -1.0000     NotChecked  -9.1069     1805.8618   ✗       
+193   MLNSGLSWSTSPELSR         -1.0000     NotChecked  -9.1143     1763.8512   ✗       
+194   HFNSGLSWSTSPESSR         -1.0000     NotChecked  -9.1159     1777.8020   ✗       
+195   MFNGGLSWQTSPEVSR         -1.0000     NotChecked  -9.1222     1794.8359   ✗       
+196   HFNSGLSWQTSELLR          -1.0000     NotChecked  -9.1226     1773.8798   ✗       
+197   MLNSLSWQTSPELLR          -1.0000     NotChecked  -9.1235     1773.9083   ✗       
+198   MFNSGLSVQTSPELLR         -1.0000     NotChecked  -9.1247     1777.9033   ✗       
+199   +42.011LLSGLSWQTSPELSR   -1.0000     NotChecked  -9.1296     1714.8890   ✗       
+200   MLNLGLSWQTSPESSR         -1.0000     NotChecked  -9.1318     1804.8778   ✗       
+201   +42.011LNSGLSWQTSPESLR   -1.0000     NotChecked  -9.1321     1715.8479   ✗       
+202   HLNGGLSWQTSPELSR         -1.0000     NotChecked  -9.1397     1780.8856   ✗       
+203   HLNSGLSWQTSPESSR         -1.0000     NotChecked  -9.1399     1784.8442   ✗       
+204   MLLSGLSWQTSPESVR         -1.0000     NotChecked  -9.1420     1789.9033   ✗       
+205   MLNSGLSWQTSPELLK         -1.0000     NotChecked  -9.1798     1802.9237   ✗       
+206   MLLGGLSWQTSPELLR         -1.0000     NotChecked  -9.1858     1799.9604   ✗       
+207   MLLSGLSWQTSPESLR         -1.0000     NotChecked  -9.1860     1803.9189   ✗       
+208   MLN+0.984SGLSWQTSPESSR   -1.0000     NotChecked  -9.1876     1779.8098   ✗       
+209   MLNSGLSWQTSPELSR         -1.0000     NotChecked  -9.1894     1804.8778   ✗       
+210   MLNSGLSWQTSELSR          -1.0000     NotChecked  -9.1927     1707.8250   ✗       
+211   MLNSLSWQTSPELSR          -1.0000     NotChecked  -9.2042     1747.8563   ✗       
+212   MFNSGLSVQTSPELSR         -1.0000     NotChecked  -9.2053     1751.8512   ✗       
+213   HFNSLSWQTSPESSR          -1.0000     NotChecked  -9.2058     1761.8071   ✗       
+214   +42.011LNSGLSWQTSPESSR   -1.0000     NotChecked  -9.2127     1689.7958   ✗       
+215   MLNSGLSWQTSPELSR         -1.0000     NotChecked  -9.2149     1804.8778   ✗       
+216   MFNGGLSWQTSPELSR         -1.0000     NotChecked  -9.2158     1808.8516   ✗       
+217   FLNSGLSWQTSPESSR         -1.0000     NotChecked  -9.2242     1794.8537   ✗       
+218   HHNSGLSWQTSPESSR         -1.0000     NotChecked  -9.2399     1808.8190   ✗       
+219   MFLSGLSWSTSPESSR         -1.0000     NotChecked  -9.2426     1770.8247   ✗       
+220   LFNSGLSWQTSPESSR         -1.0000     NotChecked  -9.2434     1794.8537   ✗       
+221   +42.011FNSGGLSWQTSPELSR  -1.0000     NotChecked  -9.2483     1806.8537   ✗       
+222   MFLSGLSWQTSELLR          -1.0000     NotChecked  -9.2494     1766.9025   ✗       
+223   MLNSGLSWQTSPESSK         -1.0000     NotChecked  -9.2514     1750.8196   ✗       
+224   MFLSLSWQTSPELLR          -1.0000     NotChecked  -9.2609     1806.9338   ✗       
+225   HFNSGLSWQTSPESSK         -1.0000     NotChecked  -9.2620     1790.8224   ✗       
+226   +42.011FNSGLSWQTSPELVR   -1.0000     NotChecked  -9.2639     1761.8686   ✗       
+227   MLLGGLSWQTSPELSR         -1.0000     NotChecked  -9.2665     1773.9083   ✗       
+228   MLLSGLSWQTSPESSR         -1.0000     NotChecked  -9.2666     1777.8669   ✗       
+229   HFLGGLSWQTSPESSR         -1.0000     NotChecked  -9.2681     1787.8591   ✗       
+230   MLNGGLSWQTSPESLR         -1.0000     NotChecked  -9.2690     1774.8672   ✗       
+231   +42.011FLSGLSWQTSPESLR   -1.0000     NotChecked  -9.2695     1748.8733   ✗       
+232   HLLSGLSWQTSPEVSR         -1.0000     NotChecked  -9.2726     1795.9217   ✗       
+233   MFNSGLSWVTSPELSR         -1.0000     NotChecked  -9.2786     1809.8720   ✗       
+234   +42.011FNSGLSWQTSPEVSR   -1.0000     NotChecked  -9.2948     1735.8166   ✗       
+235   MFLSGLSWQTSPESLK         -1.0000     NotChecked  -9.3081     1809.8971   ✗       
+236   VFLSGLSWQTSPELSR         -1.0000     NotChecked  -9.3119     1805.9312   ✗       
+237   VFNSGLSWQTSPESLR         -1.0000     NotChecked  -9.3144     1806.8901   ✗       
+238   +42.011FNN+0.984GLSWQTSPELLR-1.0000     NotChecked  -9.3172     1803.8792   ✗       
+239   HLLSGLSWQTSPETSR         -1.0000     NotChecked  -9.3199     1797.9009   ✗       
+240   MFNSGLSWATSPELLR         -1.0000     NotChecked  -9.3295     1807.8927   ✗       
+241   MFLSLSWQTSPESSR          -1.0000     NotChecked  -9.3325     1754.8298   ✗       
+242   HFLSGLSWSTSPELSR         -1.0000     NotChecked  -9.3423     1802.8951   ✗       
+243   MLNSGLSWSTSPELLR         -1.0000     NotChecked  -9.3432     1789.9033   ✗       
+244   HFNSGLSWSTSPESLR         -1.0000     NotChecked  -9.3448     1803.8540   ✗       
+245   HLNSGLSWQTSPELSK         -1.0000     NotChecked  -9.3511     1782.8901   ✗       
+246   MLVSGLSWQTSPESSR         -1.0000     NotChecked  -9.3541     1763.8512   ✗       
+247   +42.011LLSGLSWQTSPELLR   -1.0000     NotChecked  -9.3585     1740.9410   ✗       
+248   HFVSGLSWQTSPESSR         -1.0000     NotChecked  -9.3647     1803.8540   ✗       
+249   HLLSGLSWQTSPELSR         -1.0000     NotChecked  -9.3662     1809.9373   ✗       
+250   MHLSGLSWQTSPESSR         -1.0000     NotChecked  -9.3666     1801.8417   ✗       
+251   HLNGGLSWQTSPELLR         -1.0000     NotChecked  -9.3686     1806.9377   ✗       
+252   MFNGGLSWQTSPESSR         -1.0000     NotChecked  -9.3761     1782.7995   ✗       
+253   +42.011FNSGLSWQTSPELSR   -1.0000     NotChecked  -9.3885     1749.8322   ✗       
+254   MFLSGLSWQTSPESSK         -1.0000     NotChecked  -9.3888     1783.8451   ✗       
+255   MLNSGLSWQTSPELSR         -1.0000     NotChecked  -9.3905     1804.8778   ✗       
+256   VFNSGLSWQTSPESSR         -1.0000     NotChecked  -9.3950     1780.8380   ✗       
+257   MLNSGLSWQTSPEVVR         -1.0000     NotChecked  -9.3963     1802.8985   ✗       
+258   +42.011FNN+0.984GLSWQTSPELSR-1.0000     NotChecked  -9.3979     1777.8271   ✗       
+259   MFNSGLSWATSPELSR         -1.0000     NotChecked  -9.4101     1781.8407   ✗       
+260   MLNSGLSWSTSPESSR         -1.0000     NotChecked  -9.4148     1737.7992   ✗       
+261   MLN+0.984SGLSWQTSPESLR   -1.0000     NotChecked  -9.4164     1805.8618   ✗       
+262   MLNSGLSWQTSELLR          -1.0000     NotChecked  -9.4215     1733.8770   ✗       
+263   HFNSGLSWSTSPESSR         -1.0000     NotChecked  -9.4254     1777.8020   ✗       
+264   MFNGGLSWQTSPEVSR         -1.0000     NotChecked  -9.4317     1794.8359   ✗       
+265   HFLSLSWQTSPELSR          -1.0000     NotChecked  -9.4321     1786.9002   ✗       
+266   MLNSLSWQTSPELLR          -1.0000     NotChecked  -9.4330     1773.9083   ✗       
+267   MFNSGLSVQTSPELLR         -1.0000     NotChecked  -9.4342     1777.9033   ✗       
+268   HFNSLSWQTSPESLR          -1.0000     NotChecked  -9.4346     1787.8591   ✗       
+269   +42.011LLSGLSWQTSPELSR   -1.0000     NotChecked  -9.4391     1714.8890   ✗       
+270   HLNGGLSWQTSPESSR         -1.0000     NotChecked  -9.4402     1754.8336   ✗       
+271   +42.011LNSGLSWQTSPESLR   -1.0000     NotChecked  -9.4416     1715.8479   ✗       
+272   HLNSGLSWQTSPESTR         -1.0000     NotChecked  -9.4495     1798.8598   ✗       
+273   HLVSGLSWQTSPELSR         -1.0000     NotChecked  -9.4538     1795.9217   ✗       
+274   MFLSGLSWSTSPESLR         -1.0000     NotChecked  -9.4715     1796.8767   ✗       
+275   MLLSGLSWQTSPELSK         -1.0000     NotChecked  -9.4778     1775.9128   ✗       
+276   MFNGGLSWQTSPETSR         -1.0000     NotChecked  -9.4790     1796.8152   ✗       
+277   MLNSGLSWQTSPESLK         -1.0000     NotChecked  -9.4803     1776.8716   ✗       
+278   VLNSGLSWQTSPELSR         -1.0000     NotChecked  -9.4841     1772.9057   ✗       
+279   MLLGGLSWQTSPELLR         -1.0000     NotChecked  -9.4953     1799.9604   ✗       
+280   MLLSGLSWQTSPESLR         -1.0000     NotChecked  -9.4955     1803.9189   ✗       
+281   MLNSGLSWQTSPELSR         -1.0000     NotChecked  -9.4989     1804.8778   ✗       
+282   MLNSGLSWQTSPELSR         -1.0000     NotChecked  -9.5022     1804.8778   ✗       
+283   HFNSGLSWQTSESSR          -1.0000     NotChecked  -9.5037     1721.7758   ✗       
+284   MLNSLSWQTSPESSR          -1.0000     NotChecked  -9.5047     1721.8043   ✗       
+285   MFNSGLSVQTSPESSR         -1.0000     NotChecked  -9.5058     1725.7992   ✗       
+286   HLNSGLSWSTSPELSR         -1.0000     NotChecked  -9.5144     1769.8697   ✗       
+287   HFNSLSWQTSPESSR          -1.0000     NotChecked  -9.5153     1761.8071   ✗       
+288   MDNSGLSWQTSPELSR         -1.0000     NotChecked  -9.5172     1806.8207   ✗       
+289   MLNSGLSWQTSPEVSR         -1.0000     NotChecked  -9.5208     1790.8621   ✗       
+290   +43.006FNSGLSWQTSPELSR   -1.0000     NotChecked  -9.5224     1750.8275   ✗       
+291   +42.011FNSGLSWQTSPEVLR   -1.0000     NotChecked  -9.5237     1761.8686   ✗       
+292   MLNSGLSWQTSPELSR         -1.0000     NotChecked  -9.5244     1804.8778   ✗       
+293   MFNGGLSWQTSPELSR         -1.0000     NotChecked  -9.5253     1808.8516   ✗       
+294   FLNSGLSWQTSPESSR         -1.0000     NotChecked  -9.5338     1794.8537   ✗       
+295   HLLSGLSWQTSPESVR         -1.0000     NotChecked  -9.5421     1795.9217   ✗       
+296   +42.011FNSGGLSWQTSPESSR  -1.0000     NotChecked  -9.5488     1780.8016   ✗       
+297   MFLSGLSWSTSPESSR         -1.0000     NotChecked  -9.5521     1770.8247   ✗       
+298   LFNSGLSWQTSPESSR         -1.0000     NotChecked  -9.5530     1794.8537   ✗       
+299   MLNSGLSWQTSPESSK         -1.0000     NotChecked  -9.5609     1750.8196   ✗       
+300   MFLSLSWQTSPESLR          -1.0000     NotChecked  -9.5614     1780.8818   ✗       
+301   MLLGGLSWQTSPESSR         -1.0000     NotChecked  -9.5670     1747.8563   ✗       
+302   MLDSGLSWQTSPELSR         -1.0000     NotChecked  -9.5719     1805.8618   ✗       
+303   +42.011FNSGLSWQTSPELVR   -1.0000     NotChecked  -9.5734     1761.8686   ✗       
+304   MLLSGLSWQTSPESTR         -1.0000     NotChecked  -9.5762     1791.8825   ✗       
+305   HFLGGLSWQTSPESSR         -1.0000     NotChecked  -9.5776     1787.8591   ✗       
+306   MFNSGLSWVTSPESSR         -1.0000     NotChecked  -9.5791     1783.8199   ✗       
+307   HLNSGLSWQTSPELLK         -1.0000     NotChecked  -9.5799     1808.9421   ✗       
+308   MLVSGLSWQTSPESLR         -1.0000     NotChecked  -9.5830     1789.9033   ✗       
+309   HLN+0.984SGLSWQTSPESSR   -1.0000     NotChecked  -9.5877     1785.8282   ✗       
+310   MFLGGLSWQTSPELSR         -1.0000     NotChecked  -9.6025     1807.8927   ✗       
+311   HLNSLSWQTSPELSR          -1.0000     NotChecked  -9.6043     1753.8747   ✗       
+312   +42.011FNSGLSWQTSPEVSR   -1.0000     NotChecked  -9.6043     1735.8166   ✗       
+313   MFNGGLSWQTSPESLR         -1.0000     NotChecked  -9.6050     1808.8516   ✗       
+314   HFNSGLSVQTSPELSR         -1.0000     NotChecked  -9.6054     1757.8697   ✗       
+315   +42.011FNSGLSWQTSPELLR   -1.0000     NotChecked  -9.6174     1775.8842   ✗       
+316   MFLSGLSWQTSPESLK         -1.0000     NotChecked  -9.6176     1809.8971   ✗       
+317   VFLSGLSWQTSPELSR         -1.0000     NotChecked  -9.6214     1805.9312   ✗       
+318   VFNSGLSWQTSPESLR         -1.0000     NotChecked  -9.6239     1806.8901   ✗       
+319   +42.011FNN+0.984GLSWQTSPELLR-1.0000     NotChecked  -9.6267     1803.8792   ✗       
+320   HLLSGLSWQTSPETSR         -1.0000     NotChecked  -9.6294     1797.9009   ✗       
+321   MFLSGLSWQTSESSR          -1.0000     NotChecked  -9.6305     1714.7985   ✗       
+322   MFNSGLSWATSPELLR         -1.0000     NotChecked  -9.6390     1807.8927   ✗       
+323   MLLSGLSWSTSPELSR         -1.0000     NotChecked  -9.6412     1762.8924   ✗       
+324   LLNSGLSWQTSPELSR         -1.0000     NotChecked  -9.6420     1786.9214   ✗       
+325   MFLSLSWQTSPESSR          -1.0000     NotChecked  -9.6420     1754.8298   ✗       
+326   MFNSGLSWQTSPEVSK         -1.0000     NotChecked  -9.6430     1796.8403   ✗       
+327   MMNSGLSWQTSPESSR         -1.0000     NotChecked  -9.6434     1796.7822   ✗       
+328   MLNSGLSWSTSPESLR         -1.0000     NotChecked  -9.6437     1763.8512   ✗       
+329   +42.011FNSGLSWQTSPETSR   -1.0000     NotChecked  -9.6517     1737.7958   ✗       
+330   HFLSGLSWSTSPELSR         -1.0000     NotChecked  -9.6518     1802.8951   ✗       
+331   MLNSGLSWQESPESSR         -1.0000     NotChecked  -9.6525     1806.8207   ✗       
+332   HFNSGLSWSTSPESLR         -1.0000     NotChecked  -9.6543     1803.8540   ✗       
+333   MLLLGLSWQTSPESSR         -1.0000     NotChecked  -9.6587     1803.9189   ✗       
+334   HLNSGLSWQTSPELSK         -1.0000     NotChecked  -9.6606     1782.8901   ✗       
+335   MLVSGLSWQTSPESSR         -1.0000     NotChecked  -9.6636     1763.8512   ✗       
+336   HLLGGLSWQTSPELSR         -1.0000     NotChecked  -9.6666     1779.9268   ✗       
+337   HLLSGLSWQTSPESSR         -1.0000     NotChecked  -9.6667     1783.8853   ✗       
+338   +42.011LLSGLSWQTSPELLR   -1.0000     NotChecked  -9.6680     1740.9410   ✗       
+339   HLNGGLSWQTSPESLR         -1.0000     NotChecked  -9.6691     1780.8856   ✗       
+340   MFNGGLSWQTSPESSR         -1.0000     NotChecked  -9.6856     1782.7995   ✗       
+341   MFNN+0.984LSWQTSPELSR    -1.0000     NotChecked  -9.6898     1809.8356   ✗       
+342   MLNSGLSWQTSPESSR         -1.0000     NotChecked  -9.6910     1778.8257   ✗       
+343   +42.011FNSGLSWQTSPELSR   -1.0000     NotChecked  -9.6980     1749.8322   ✗       
+344   +42.011FNN+0.984GLSWQTSPESSR-1.0000     NotChecked  -9.6984     1751.7751   ✗       
+345   MFNGGLSWQTSPESVR         -1.0000     NotChecked  -9.7013     1794.8359   ✗       
+346   MPNSGLSWQTSPELSR         -1.0000     NotChecked  -9.7035     1788.8465   ✗       
+347   MLNSGLSWQTSPEVVR         -1.0000     NotChecked  -9.7058     1802.8985   ✗       
+348   MLLSGLSWQTSPELLK         -1.0000     NotChecked  -9.7067     1801.9648   ✗       
+349   MFNSGLSWATSPESSR         -1.0000     NotChecked  -9.7106     1755.7886   ✗       
+350   VLNSGLSWQTSPELLR         -1.0000     NotChecked  -9.7129     1798.9577   ✗       
+351   MLNSGLSWSTSPESSR         -1.0000     NotChecked  -9.7243     1737.7992   ✗       
+352   HFLSGLSWQTSELSR          -1.0000     NotChecked  -9.7301     1746.8689   ✗       
+353   MLLSLSWQTSPELSR          -1.0000     NotChecked  -9.7310     1746.8974   ✗       
+354   MFLSGLSVQTSPELSR         -1.0000     NotChecked  -9.7322     1750.8924   ✗       
+355   HFNSGLSWQTSESLR          -1.0000     NotChecked  -9.7326     1747.8278   ✗       
+356   MLNSLSWQTSPESLR          -1.0000     NotChecked  -9.7335     1747.8563   ✗       
+357   MFNSGLSVQTSPESLR         -1.0000     NotChecked  -9.7347     1751.8512   ✗       
+358   +42.011LLSGLSWQTSPESSR   -1.0000     NotChecked  -9.7396     1688.8370   ✗       
+359   HFLSLSWQTSPELSR          -1.0000     NotChecked  -9.7416     1786.9002   ✗       
+360   HLNSGLSWSTSPELLR         -1.0000     NotChecked  -9.7433     1795.9217   ✗       
+361   HFNSLSWQTSPESLR          -1.0000     NotChecked  -9.7441     1787.8591   ✗       
+362   MFVSGLSWQTSPEVSR         -1.0000     NotChecked  -9.7457     1809.8720   ✗       
+363   HLNGGLSWQTSPESSR         -1.0000     NotChecked  -9.7497     1754.8336   ✗       
+364   +43.006FNSGLSWQTSPELLR   -1.0000     NotChecked  -9.7513     1776.8795   ✗       
+365   MFNAGLSWQTSPESSR         -1.0000     NotChecked  -9.7519     1796.8152   ✗       
+366   MLNSGLSWQTSPETVR         -1.0000     NotChecked  -9.7531     1804.8778   ✗       
+367   HLNSGLSWQTSPESTR         -1.0000     NotChecked  -9.7590     1798.8598   ✗       
+368   HLVSGLSWQTSPELSR         -1.0000     NotChecked  -9.7633     1795.9217   ✗       
+369   HHLSGLSWQTSPESSR         -1.0000     NotChecked  -9.7668     1807.8601   ✗       
+370   MLNSALSWQTSPESSR         -1.0000     NotChecked  -9.7701     1792.8414   ✗       
+371   MLNGGLSWQTSPELSR         -1.0000     NotChecked  -9.7747     1774.8672   ✗       
+372   +42.011FLSGGLSWQTSPELSR  -1.0000     NotChecked  -9.7752     1805.8948   ✗       
+373   MFNSGLSWSTSPELVR         -1.0000     NotChecked  -9.7755     1809.8720   ✗       
+374   +42.011FNSGGLSWQTSPESLR  -1.0000     NotChecked  -9.7777     1806.8537   ✗       
+375   MFLSGLSWSTSPESLR         -1.0000     NotChecked  -9.7810     1796.8767   ✗       
+376   MLNSGLSWQTSPELSR         -1.0000     NotChecked  -9.7849     1804.8778   ✗       
+377   MLLSGLSWQTSPELSK         -1.0000     NotChecked  -9.7873     1775.9128   ✗       
+378   MFNGGLSWQTSPETSR         -1.0000     NotChecked  -9.7885     1796.8152   ✗       
+379   HFLSGLSWQTSPESSK         -1.0000     NotChecked  -9.7889     1789.8635   ✗       
+380   MLNSGLSWQTSPESLK         -1.0000     NotChecked  -9.7898     1776.8716   ✗       
+381   VLNSGLSWQTSPELSR         -1.0000     NotChecked  -9.7936     1772.9057   ✗       
+382   MLLGGLSWQTSPESLR         -1.0000     NotChecked  -9.7958     1773.9083   ✗       
+383   MLNSGLSWQTSPELSR         -1.0000     NotChecked  -9.7983     1804.8778   ✗       
+384   MLNSGLSWQTSPESSR         -1.0000     NotChecked  -9.7994     1778.8257   ✗       
+385   MLNSGLSWQTSESSR          -1.0000     NotChecked  -9.8027     1681.7730   ✗       
+386   MFLSGLSWVTSPELSR         -1.0000     NotChecked  -9.8055     1808.9131   ✗       
+387   MFNSGLSWSTSPEVSR         -1.0000     NotChecked  -9.8064     1783.8199   ✗       
+388   MFNSGLSWVTSPESLR         -1.0000     NotChecked  -9.8080     1809.8720   ✗       
+389   HFNSGLSWATSPELSR         -1.0000     NotChecked  -9.8102     1787.8591   ✗       
+390   MLNSLSWQTSPESSR          -1.0000     NotChecked  -9.8142     1721.8043   ✗       
+391   MFNSGLSVQTSPESSR         -1.0000     NotChecked  -9.8153     1725.7992   ✗       
+392   HLNSGLSWSTSPELSR         -1.0000     NotChecked  -9.8239     1769.8697   ✗       
+393   MLNSGLSWQTSPESSR         -1.0000     NotChecked  -9.8249     1778.8257   ✗       
+394   MFNGGLSWQTSPESSR         -1.0000     NotChecked  -9.8258     1782.7995   ✗       
+395   MDNSGLSWQTSPELSR         -1.0000     NotChecked  -9.8267     1806.8207   ✗       
+396   MLNSGLSWQTSPEVSR         -1.0000     NotChecked  -9.8303     1790.8621   ✗       
+397   HFNGGLSWQTSPEVSR         -1.0000     NotChecked  -9.8318     1800.8543   ✗       
+398   +43.006FNSGLSWQTSPELSR   -1.0000     NotChecked  -9.8319     1750.8275   ✗       
+399   HLNSLSWQTSPELLR          -1.0000     NotChecked  -9.8332     1779.9268   ✗       
+400   +42.011FNSGLSWQTSPEVLR   -1.0000     NotChecked  -9.8332     1761.8686   ✗       
+401   HFNSGLSVQTSPELLR         -1.0000     NotChecked  -9.8343     1783.9217   ✗       
+402   MLNTGLSWQTSPESSR         -1.0000     NotChecked  -9.8346     1792.8414   ✗       
+403   MFNSGLSWQTSPEASR         -1.0000     NotChecked  -9.8372     1796.8152   ✗       
+404   MFNSGGLSWQTSELSR         -1.0000     NotChecked  -9.8382     1798.8308   ✗       
+405   HLLSGLSWQTSPESVR         -1.0000     NotChecked  -9.8516     1795.9217   ✗       
+406   +42.011FNSGGLSWQTSPESSR  -1.0000     NotChecked  -9.8583     1780.8016   ✗       
+407   MFLSGLSWQTSESLR          -1.0000     NotChecked  -9.8594     1740.8505   ✗       
+408   MFNSLSWQTSPELVR          -1.0000     NotChecked  -9.8653     1793.8770   ✗       
+409   MLLSGLSWSTSPELLR         -1.0000     NotChecked  -9.8700     1788.9444   ✗       
+410   MFLSLSWQTSPESLR          -1.0000     NotChecked  -9.8709     1780.8818   ✗       
+411   +42.011FNSGLSWQTSPESVR   -1.0000     NotChecked  -9.8739     1735.8166   ✗       
+412   MLLGGLSWQTSPESSR         -1.0000     NotChecked  -9.8765     1747.8563   ✗       
+413   MLNSGLSWQTSPETSR         -1.0000     NotChecked  -9.8777     1792.8414   ✗       
+414   +42.011FNSGLSWQTSPETLR   -1.0000     NotChecked  -9.8805     1763.8478   ✗       
+415   MLDSGLSWQTSPELSR         -1.0000     NotChecked  -9.8814     1805.8618   ✗       
+416   MLLSGLSWQTSPESTR         -1.0000     NotChecked  -9.8857     1791.8825   ✗       
+417   MFNSGLSWVTSPESSR         -1.0000     NotChecked  -9.8886     1783.8199   ✗       
+418   HLNSGLSWQTSPELLK         -1.0000     NotChecked  -9.8894     1808.9421   ✗       
+419   HLLGGLSWQTSPELLR         -1.0000     NotChecked  -9.8955     1805.9788   ✗       
+420   HLLSGLSWQTSPESLR         -1.0000     NotChecked  -9.8956     1809.9373   ✗       
+421   HLN+0.984SGLSWQTSPESSR   -1.0000     NotChecked  -9.8972     1785.8282   ✗       
+422   HLNSGLSWQTSELSR          -1.0000     NotChecked  -9.9023     1713.8434   ✗       
+423   HLNSLSWQTSPELSR          -1.0000     NotChecked  -9.9138     1753.8747   ✗       
+424   HFNSGLSVQTSPELSR         -1.0000     NotChecked  -9.9149     1757.8697   ✗       
+425   VFLSGLSWQTSPESSR         -1.0000     NotChecked  -9.9219     1779.8792   ✗       
+426   +42.011FLN+0.984GLSWQTSPELSR-1.0000     NotChecked  -9.9247     1776.8683   ✗       
+427   +42.011FNSGLSWQTSPELLR   -1.0000     NotChecked  -9.9269     1775.8842   ✗       
+428   +42.011FNN+0.984GLSWQTSPESLR-1.0000     NotChecked  -9.9272     1777.8271   ✗       
+429   +42.011LNSGGLSWQTSPELSR  -1.0000     NotChecked  -9.9473     1772.8693   ✗       
+430   LLNSGLSWQTSPELSR         -1.0000     NotChecked  -9.9515     1786.9214   ✗       
+431   HFLSGLSWSTSPESSR         -1.0000     NotChecked  -9.9523     1776.8431   ✗       
+432   HFLSGLSWQTSELLR          -1.0000     NotChecked  -9.9590     1772.9210   ✗       
+433   HLNSGLSWQTSPESSK         -1.0000     NotChecked  -9.9611     1756.8380   ✗       
+434   +42.011FNSGLSWQTSPETSR   -1.0000     NotChecked  -9.9612     1737.7958   ✗       
+435   +42.011LLSGLSWQTSPESLR   -1.0000     NotChecked  -9.9685     1714.8890   ✗       
+436   HLLGGLSWQTSPELSR         -1.0000     NotChecked  -9.9761     1779.9268   ✗       
+437   HLLSGLSWQTSPESSR         -1.0000     NotChecked  -9.9762     1783.8853   ✗       
+438   HLNGGLSWQTSPESLR         -1.0000     NotChecked  -9.9786     1780.8856   ✗       
+439   M+15.995LNSGLSWQTSPESSR  -1.0000     NotChecked  -9.9793     1794.8207   ✗       
+440   +42.011FNGGLSWQTSPELSR   -1.0000     NotChecked  -9.9984     1719.8216   ✗       
+441   +42.011FNSGLSWQTSPESSR   -1.0000     NotChecked  -9.9985     1723.7802   ✗       
+442   +42.011FNSGLSWQTSPELTR   -1.0000     NotChecked  -10.0076    1763.8478   ✗       
+443   +42.011FNN+0.984GLSWQTSPESSR-1.0000     NotChecked  -10.0079    1751.7751   ✗       
+444   VLNSGLSWQTSPELLR         -1.0000     NotChecked  -10.0224    1798.9577   ✗       
+445   HFLSLSWQTSPESSR          -1.0000     NotChecked  -10.0421    1760.8482   ✗       
+446   DFNSGLSWQTSPESSR         -1.0000     NotChecked  -10.0478    1796.7965   ✗       
+447   +42.011LLSGLSWQTSPESSR   -1.0000     NotChecked  -10.0491    1688.8370   ✗       
+448   HLNSGLSWSTSPELLR         -1.0000     NotChecked  -10.0528    1795.9217   ✗       
+449   FLLSGLSWQTSPESSR         -1.0000     NotChecked  -10.0606    1793.8948   ✗       
+450   +43.006FNSGLSWQTSPELLR   -1.0000     NotChecked  -10.0608    1776.8795   ✗       
+451   HLVSGLSWQTSPESSR         -1.0000     NotChecked  -10.0638    1769.8697   ✗       
+452   HHLSGLSWQTSPESSR         -1.0000     NotChecked  -10.0763    1807.8601   ✗       
+453   LFLSGLSWQTSPESSR         -1.0000     NotChecked  -10.0798    1793.8948   ✗       
+454   +42.011FLSGGLSWQTSPELSR  -1.0000     NotChecked  -10.0847    1805.8948   ✗       
+455   HFNGGLSWQTSPESSR         -1.0000     NotChecked  -10.0858    1788.8180   ✗       
+456   +42.011FNSGGLSWQTSPESLR  -1.0000     NotChecked  -10.0872    1806.8537   ✗       
+457   +42.011FNLGLSWQTSPELSR   -1.0000     NotChecked  -10.0901    1775.8842   ✗       
+458   VLNSGLSWQTSPESSR         -1.0000     NotChecked  -10.0941    1746.8537   ✗       
+459   +42.011LNN+0.984GLSWQTSPELSR-1.0000     NotChecked  -10.0969    1743.8428   ✗       
+460   HFLSGLSWQTSPESSK         -1.0000     NotChecked  -10.0984    1789.8635   ✗       
+461   +42.011FLSGLSWQTSPELVR   -1.0000     NotChecked  -10.1003    1760.9097   ✗       
+462   HLNSGLSWQTSPEVVR         -1.0000     NotChecked  -10.1059    1808.9169   ✗       
+463   HFNSGLSWATSPELSR         -1.0000     NotChecked  -10.1197    1787.8591   ✗       
+464   HLNSGLSWSTSPESSR         -1.0000     NotChecked  -10.1244    1743.8176   ✗       
+465   HLNSGLSWQTSELLR          -1.0000     NotChecked  -10.1312    1739.8955   ✗       
+466   +42.011FLSGLSWQTSPEVSR   -1.0000     NotChecked  -10.1312    1734.8577   ✗       
+467   +43.006FNSGLSWQTSPESSR   -1.0000     NotChecked  -10.1324    1724.7754   ✗       
+468   HFNGGLSWQTSPEVSR         -1.0000     NotChecked  -10.1413    1800.8543   ✗       
+469   HLNSLSWQTSPELLR          -1.0000     NotChecked  -10.1427    1779.9268   ✗       
+470   HFNSGLSVQTSPELLR         -1.0000     NotChecked  -10.1438    1783.9217   ✗       
+471   +42.011FN+0.984SGLSWQTSPELSR-1.0000     NotChecked  -10.1458    1750.8162   ✗       
+472   VFLSGLSWQTSPESLR         -1.0000     NotChecked  -10.1508    1805.9312   ✗       
+473   +42.011FLN+0.984GLSWQTSPELLR-1.0000     NotChecked  -10.1536    1802.9203   ✗       
+474   +42.011LNSGGLSWQTSPELLR  -1.0000     NotChecked  -10.1762    1798.9214   ✗       
+475   HFLSGLSWSTSPESLR         -1.0000     NotChecked  -10.1811    1802.8951   ✗       
+476   KFNSGLSWQTSPESSR         -1.0000     NotChecked  -10.1813    1809.8646   ✗       
+477   +42.011FNSGLSWQTSPESVR   -1.0000     NotChecked  -10.1834    1735.8166   ✗       
+478   HLLSGLSWQTSPELSK         -1.0000     NotChecked  -10.1874    1781.9312   ✗       
+479   HFNGGLSWQTSPETSR         -1.0000     NotChecked  -10.1886    1802.8336   ✗       
+480   HLNSGLSWQTSPESLK         -1.0000     NotChecked  -10.1899    1782.8901   ✗       
+481   +42.011FNSGLSWQTSPETLR   -1.0000     NotChecked  -10.1900    1763.8478   ✗       
+482   HLLGGLSWQTSPELLR         -1.0000     NotChecked  -10.2050    1805.9788   ✗       
+483   HLLSGLSWQTSPESLR         -1.0000     NotChecked  -10.2051    1809.9373   ✗       
+484   HLNSLSWQTSPESSR          -1.0000     NotChecked  -10.2143    1727.8227   ✗       
+485   HFNSGLSVQTSPESSR         -1.0000     NotChecked  -10.2154    1731.8176   ✗       
+486   +42.011FLSGLSWQTSPELSR   -1.0000     NotChecked  -10.2249    1748.8733   ✗       
+487   +42.011FNGGLSWQTSPELLR   -1.0000     NotChecked  -10.2272    1745.8737   ✗       
+488   +42.011FNSGLSWQTSPESLR   -1.0000     NotChecked  -10.2273    1749.8322   ✗       
+489   HLNSGLSWQTSPEVSR         -1.0000     NotChecked  -10.2304    1796.8806   ✗       
+490   VFLSGLSWQTSPESSR         -1.0000     NotChecked  -10.2314    1779.8792   ✗       
+491   +42.011FLN+0.984GLSWQTSPELSR-1.0000     NotChecked  -10.2342    1776.8683   ✗       
+492   +42.011FNN+0.984GLSWQTSPESLR-1.0000     NotChecked  -10.2367    1777.8271   ✗       
+493   LLNSGLSWQTSPESSR         -1.0000     NotChecked  -10.2520    1760.8693   ✗       
+494   +42.011LNSGGLSWQTSPELSR  -1.0000     NotChecked  -10.2568    1772.8693   ✗       
+495   HFLSGLSWSTSPESSR         -1.0000     NotChecked  -10.2618    1776.8431   ✗       
+496   HLNSGLSWQTSPESSK         -1.0000     NotChecked  -10.2706    1756.8380   ✗       
+497   HFLSLSWQTSPESLR          -1.0000     NotChecked  -10.2710    1786.9002   ✗       
+498   +42.011LNSGLSWQTSPELVR   -1.0000     NotChecked  -10.2724    1727.8842   ✗       
+499   HLLGGLSWQTSPESSR         -1.0000     NotChecked  -10.2766    1753.8747   ✗       
+500   +42.011LLSGLSWQTSPESLR   -1.0000     NotChecked  -10.2780    1714.8890   ✗       
+501   HLLSGLSWQTSPESTR         -1.0000     NotChecked  -10.2858    1797.9009   ✗       
+502   HFNSGLSWVTSPESSR         -1.0000     NotChecked  -10.2887    1789.8384   ✗       
+503   M+15.995LNSGLSWQTSPESSR  -1.0000     NotChecked  -10.2888    1794.8207   ✗       
+504   HLVSGLSWQTSPESLR         -1.0000     NotChecked  -10.2926    1795.9217   ✗       
+505   +42.011LNSGLSWQTSPEVSR   -1.0000     NotChecked  -10.3033    1701.8322   ✗       
+506   +42.011FNGGLSWQTSPELSR   -1.0000     NotChecked  -10.3079    1719.8216   ✗       
+507   +42.011FNSGLSWQTSPESSR   -1.0000     NotChecked  -10.3080    1723.7802   ✗       
+508   +42.011FNSGLSWQTSPELTR   -1.0000     NotChecked  -10.3171    1763.8478   ✗       
+509   +42.011FNLGLSWQTSPELLR   -1.0000     NotChecked  -10.3189    1801.9363   ✗       
+510   VLLSGLSWQTSPELSR         -1.0000     NotChecked  -10.3204    1771.9468   ✗       
+511   VLNSGLSWQTSPESLR         -1.0000     NotChecked  -10.3229    1772.9057   ✗       
+512   +42.011LNN+0.984GLSWQTSPELLR-1.0000     NotChecked  -10.3258    1769.8948   ✗       
+513   HFLSGLSWQTSESSR          -1.0000     NotChecked  -10.3401    1720.8169   ✗       
+514   HLLSGLSWSTSPELSR         -1.0000     NotChecked  -10.3508    1768.9108   ✗       
+515   HFLSLSWQTSPESSR          -1.0000     NotChecked  -10.3516    1760.8482   ✗       
+516   HFNSGLSWQTSPEVSK         -1.0000     NotChecked  -10.3526    1802.8588   ✗       
+517   HMNSGLSWQTSPESSR         -1.0000     NotChecked  -10.3530    1802.8006   ✗       
+518   HLNSGLSWSTSPESLR         -1.0000     NotChecked  -10.3533    1769.8697   ✗       
+519   DFNSGLSWQTSPESSR         -1.0000     NotChecked  -10.3573    1796.7965   ✗       
+520   +43.006FLSGLSWQTSPELSR   -1.0000     NotChecked  -10.3588    1749.8686   ✗       
+521   +42.011FLSGLSWQTSPEVLR   -1.0000     NotChecked  -10.3601    1760.9097   ✗       
+522   +43.006FNSGLSWQTSPESLR   -1.0000     NotChecked  -10.3613    1750.8275   ✗       
+523   HLLLGLSWQTSPESSR         -1.0000     NotChecked  -10.3683    1809.9373   ✗       
+524   FLLSGLSWQTSPESSR         -1.0000     NotChecked  -10.3701    1793.8948   ✗       
+525   HLVSGLSWQTSPESSR         -1.0000     NotChecked  -10.3733    1769.8697   ✗       
+526   +42.011FN+0.984SGLSWQTSPELLR-1.0000     NotChecked  -10.3747    1776.8683   ✗       
+527   +42.011FLSGGLSWQTSPESSR  -1.0000     NotChecked  -10.3852    1779.8428   ✗       
+528   LFLSGLSWQTSPESSR         -1.0000     NotChecked  -10.3893    1793.8948   ✗       
+529   HFNGGLSWQTSPESSR         -1.0000     NotChecked  -10.3953    1788.8180   ✗       
+530   +42.011LNSGLSWQTSPELSR   -1.0000     NotChecked  -10.3970    1715.8479   ✗       
+531   +42.011FNLGLSWQTSPELSR   -1.0000     NotChecked  -10.3996    1775.8842   ✗       
+532   HLNSGLSWQTSPESSR         -1.0000     NotChecked  -10.4006    1784.8442   ✗       
+533   VLNSGLSWQTSPESSR         -1.0000     NotChecked  -10.4036    1746.8537   ✗       
+534   +42.011LNN+0.984GLSWQTSPELSR-1.0000     NotChecked  -10.4064    1743.8428   ✗       
+535   +42.011FLSGLSWQTSPELVR   -1.0000     NotChecked  -10.4098    1760.9097   ✗       
+536   HFNGGLSWQTSPESVR         -1.0000     NotChecked  -10.4109    1800.8543   ✗       
+537   HPNSGLSWQTSPELSR         -1.0000     NotChecked  -10.4132    1794.8649   ✗       
+538   HLNSGLSWQTSPEVVR         -1.0000     NotChecked  -10.4154    1808.9169   ✗       
+539   HLLSGLSWQTSPELLK         -1.0000     NotChecked  -10.4163    1807.9832   ✗       
+540   HFNSGLSWATSPESSR         -1.0000     NotChecked  -10.4202    1761.8071   ✗       
+541   HLNSGLSWSTSPESSR         -1.0000     NotChecked  -10.4339    1743.8176   ✗       
+542   HLLSLSWQTSPELSR          -1.0000     NotChecked  -10.4407    1752.9159   ✗       
+543   +42.011FLSGLSWQTSPEVSR   -1.0000     NotChecked  -10.4407    1734.8577   ✗       
+544   HFLSGLSVQTSPELSR         -1.0000     NotChecked  -10.4418    1756.9108   ✗       
+545   +43.006FNSGLSWQTSPESSR   -1.0000     NotChecked  -10.4419    1724.7754   ✗       
+546   HLNSLSWQTSPESLR          -1.0000     NotChecked  -10.4432    1753.8747   ✗       
+547   HFNSGLSVQTSPESLR         -1.0000     NotChecked  -10.4443    1757.8697   ✗       
+548   DLNSGLSWQTSPELSR         -1.0000     NotChecked  -10.4463    1788.8642   ✗       
+549   +42.011FLSGLSWQTSPELLR   -1.0000     NotChecked  -10.4537    1774.9254   ✗       
+550   +42.011FN+0.984SGLSWQTSPELSR-1.0000     NotChecked  -10.4553    1750.8162   ✗       
+551   VFLSGLSWQTSPESLR         -1.0000     NotChecked  -10.4603    1805.9312   ✗       
+552   HFNAGLSWQTSPESSR         -1.0000     NotChecked  -10.4615    1802.8336   ✗       
+553   +42.011FLN+0.984GLSWQTSPELLR-1.0000     NotChecked  -10.4631    1802.9203   ✗       
+554   LLLSGLSWQTSPELSR         -1.0000     NotChecked  -10.4784    1785.9625   ✗       
+555   HLNSALSWQTSPESSR         -1.0000     NotChecked  -10.4797    1798.8598   ✗       
+556   LLNSGLSWQTSPESLR         -1.0000     NotChecked  -10.4808    1786.9214   ✗       
+557   HLNGGLSWQTSPELSR         -1.0000     NotChecked  -10.4843    1780.8856   ✗       
+558   VFNSGLSWQTSPEVSR         -1.0000     NotChecked  -10.4856    1792.8744   ✗       
+559   +42.011LNSGGLSWQTSPELLR  -1.0000     NotChecked  -10.4857    1798.9214   ✗       
+560   +42.011FLSGLSWQTSPETSR   -1.0000     NotChecked  -10.4880    1736.8369   ✗       
+561   HFLSGLSWSTSPESLR         -1.0000     NotChecked  -10.4906    1802.8951   ✗       
+562   KFNSGLSWQTSPESSR         -1.0000     NotChecked  -10.4908    1809.8646   ✗       
+563   HLLSGLSWQTSPELSK         -1.0000     NotChecked  -10.4969    1781.9312   ✗       
+564   +42.011HNSGLSWQTSPELSR   -1.0000     NotChecked  -10.4971    1739.8227   ✗       
+565   HFNGGLSWQTSPETSR         -1.0000     NotChecked  -10.4981    1802.8336   ✗       
+566   HLNSGLSWQTSPESLK         -1.0000     NotChecked  -10.4994    1782.8901   ✗       
+567   HLLGGLSWQTSPESLR         -1.0000     NotChecked  -10.5054    1779.9268   ✗       
+568   HLNSGLSWQTSPESSR         -1.0000     NotChecked  -10.5090    1784.8442   ✗       
+569   HLNSGLSWQTSESSR          -1.0000     NotChecked  -10.5123    1687.7914   ✗       
+570   HFNSGLSWSTSPEVSR         -1.0000     NotChecked  -10.5160    1789.8384   ✗       
+571   +42.011FNSGLSWQTSPELSK   -1.0000     NotChecked  -10.5192    1721.8261   ✗       
+572   HLNSLSWQTSPESSR          -1.0000     NotChecked  -10.5238    1727.8227   ✗       
+573   HFNSGLSVQTSPESSR         -1.0000     NotChecked  -10.5249    1731.8176   ✗       
+574   +43.006LNSGLSWQTSPELSR   -1.0000     NotChecked  -10.5309    1716.8431   ✗       
+575   +42.011LNSGLSWQTSPEVLR   -1.0000     NotChecked  -10.5322    1727.8842   ✗       
+576   +42.011FLSGLSWQTSPELSR   -1.0000     NotChecked  -10.5344    1748.8733   ✗       
+577   HLNSGLSWQTSPESSR         -1.0000     NotChecked  -10.5345    1784.8442   ✗       
+578   +42.011FLN+0.984GLSWQTSPESSR-1.0000     NotChecked  -10.5347    1750.8162   ✗       
+579   HFNGGLSWQTSPESSR         -1.0000     NotChecked  -10.5354    1788.8180   ✗       
+580   +42.011FNGGLSWQTSPELLR   -1.0000     NotChecked  -10.5367    1745.8737   ✗       
+581   +42.011FNSGLSWQTSPESLR   -1.0000     NotChecked  -10.5369    1749.8322   ✗       
+582   HLNSGLSWQTSPEVSR         -1.0000     NotChecked  -10.5400    1796.8806   ✗       
+583   HLNTGLSWQTSPESSR         -1.0000     NotChecked  -10.5442    1798.8598   ✗       
+584   HFNSGLSWQTSPEASR         -1.0000     NotChecked  -10.5468    1802.8336   ✗       
+585   HFNSGGLSWQTSELSR         -1.0000     NotChecked  -10.5478    1804.8493   ✗       
+586   VLLSGLSWQTSPELLR         -1.0000     NotChecked  -10.5493    1797.9989   ✗       
+587   +42.011LNSGGLSWQTSPESSR  -1.0000     NotChecked  -10.5573    1746.8173   ✗       
+588   LLNSGLSWQTSPESSR         -1.0000     NotChecked  -10.5615    1760.8693   ✗       
+589   HFLSGLSWQTSESLR          -1.0000     NotChecked  -10.5690    1746.8689   ✗       
+590   HFNSLSWQTSPELVR          -1.0000     NotChecked  -10.5750    1799.8955   ✗       
+591   VFNSGLSWQTSPELSR         -1.0000     NotChecked  -10.5793    1806.8901   ✗       
+592   HLLSGLSWSTSPELLR         -1.0000     NotChecked  -10.5797    1794.9628   ✗       
+593   KLNSGLSWQTSPELSR         -1.0000     NotChecked  -10.5799    1801.9323   ✗       
+594   HFLSLSWQTSPESLR          -1.0000     NotChecked  -10.5805    1786.9002   ✗       
+595   +42.011LNSGLSWQTSPELVR   -1.0000     NotChecked  -10.5819    1727.8842   ✗       
+596   HLLGGLSWQTSPESSR         -1.0000     NotChecked  -10.5861    1753.8747   ✗       
+597   HLNSGLSWQTSPETSR         -1.0000     NotChecked  -10.5873    1798.8598   ✗       
+598   +43.006FLSGLSWQTSPELLR   -1.0000     NotChecked  -10.5876    1775.9206   ✗       
+599   HLLSGLSWQTSPESTR         -1.0000     NotChecked  -10.5953    1797.9009   ✗       
+600   HFNSGLSWVTSPESSR         -1.0000     NotChecked  -10.5982    1789.8384   ✗       
+601   +42.011FNGGLSWQTSPESSR   -1.0000     NotChecked  -10.6083    1693.7696   ✗       
+602   +42.011LNSGLSWQTSPEVSR   -1.0000     NotChecked  -10.6129    1701.8322   ✗       
+603   +42.011FLSGGLSWQTSPESLR  -1.0000     NotChecked  -10.6140    1805.8948   ✗       
+604   +42.011FNSGLSWQTSPESTR   -1.0000     NotChecked  -10.6176    1737.7958   ✗       
+605   +42.011FVSGLSWQTSPELSR   -1.0000     NotChecked  -10.6219    1734.8577   ✗       
+606   FLNSGLSWQTSPEVSR         -1.0000     NotChecked  -10.6244    1806.8901   ✗       
+607   +42.011LNSGLSWQTSPELLR   -1.0000     NotChecked  -10.6259    1741.8999   ✗       
+608   +42.011FNLGLSWQTSPELLR   -1.0000     NotChecked  -10.6284    1801.9363   ✗       
+609   VLLSGLSWQTSPELSR         -1.0000     NotChecked  -10.6299    1771.9468   ✗       
+610   VLNSGLSWQTSPESLR         -1.0000     NotChecked  -10.6324    1772.9057   ✗       
+611   +42.011LNN+0.984GLSWQTSPELLR-1.0000     NotChecked  -10.6353    1769.8948   ✗       
+612   LFNSGLSWQTSPEVSR         -1.0000     NotChecked  -10.6436    1806.8901   ✗       
+613   +42.011LNSGLSWQTSPETSR   -1.0000     NotChecked  -10.6602    1703.8115   ✗       
+614   +43.006FLSGLSWQTSPELSR   -1.0000     NotChecked  -10.6683    1749.8686   ✗       
+615   +42.011FLSGLSWQTSPEVLR   -1.0000     NotChecked  -10.6696    1760.9097   ✗       
+616   +43.006FNSGLSWQTSPESLR   -1.0000     NotChecked  -10.6708    1750.8275   ✗       
+617   +42.011FNSGLSWSTSPELSR   -1.0000     NotChecked  -10.6826    1708.8057   ✗       
+618   +42.011FN+0.984SGLSWQTSPELLR-1.0000     NotChecked  -10.6842    1776.8683   ✗       
+619   +42.011FLSGGLSWQTSPESSR  -1.0000     NotChecked  -10.6947    1779.8428   ✗       
+620   +42.011FNLGLSWQTSPESSR   -1.0000     NotChecked  -10.7001    1749.8322   ✗       
+621   +42.011LNSGLSWQTSPELSR   -1.0000     NotChecked  -10.7065    1715.8479   ✗       
+622   +42.011LNN+0.984GLSWQTSPESSR-1.0000     NotChecked  -10.7069    1717.7907   ✗       
+623   +42.011FLSGLSWQTSPESVR   -1.0000     NotChecked  -10.7103    1734.8577   ✗       
+624   +42.011FLSGLSWQTSPETLR   -1.0000     NotChecked  -10.7169    1762.8890   ✗       
+625   +42.011HNSGLSWQTSPELLR   -1.0000     NotChecked  -10.7259    1765.8747   ✗       
+626   +42.011FNSGLSWQTSPELLK   -1.0000     NotChecked  -10.7481    1747.8781   ✗       
+627   DLNSGLSWQTSPELSR         -1.0000     NotChecked  -10.7558    1788.8642   ✗       
+628   +42.011FN+0.984SGLSWQTSPESSR-1.0000     NotChecked  -10.7558    1724.7642   ✗       
+629   +43.006LNSGLSWQTSPELLR   -1.0000     NotChecked  -10.7598    1742.8951   ✗       
+630   +42.011FLSGLSWQTSPELLR   -1.0000     NotChecked  -10.7632    1774.9254   ✗       
+631   +42.011FLN+0.984GLSWQTSPESLR-1.0000     NotChecked  -10.7636    1776.8683   ✗       
+632   +42.011FNSLSWQTSPELSR    -1.0000     NotChecked  -10.7724    1692.8107   ✗       
+633   +42.011LLSGGLSWQTSPELSR  -1.0000     NotChecked  -10.7837    1771.9105   ✗       
+634   +42.011LNSGGLSWQTSPESLR  -1.0000     NotChecked  -10.7862    1772.8693   ✗       
+635   LLLSGLSWQTSPELSR         -1.0000     NotChecked  -10.7879    1785.9625   ✗       
+636   LLNSGLSWQTSPESLR         -1.0000     NotChecked  -10.7904    1786.9214   ✗       
+637   VFNSGLSWQTSPEVSR         -1.0000     NotChecked  -10.7951    1792.8744   ✗       
+638   +42.011FLSGLSWQTSPETSR   -1.0000     NotChecked  -10.7975    1736.8369   ✗       
+639   +42.011HNSGLSWQTSPELSR   -1.0000     NotChecked  -10.8066    1739.8227   ✗       
+640   M+15.995LLSGLSWQTSPESSR  -1.0000     NotChecked  -10.8157    1793.8618   ✗       
+641   +42.011FNSGLSWQTSPELSK   -1.0000     NotChecked  -10.8287    1721.8261   ✗       
+642   +42.011FLGGLSWQTSPELSR   -1.0000     NotChecked  -10.8347    1718.8628   ✗       
+643   +42.011FLSGLSWQTSPESSR   -1.0000     NotChecked  -10.8348    1722.8213   ✗       
+644   +42.011FNGGLSWQTSPESLR   -1.0000     NotChecked  -10.8372    1719.8216   ✗       
+645   +43.006LNSGLSWQTSPELSR   -1.0000     NotChecked  -10.8404    1716.8431   ✗       
+646   +42.011LNSGLSWQTSPEVLR   -1.0000     NotChecked  -10.8417    1727.8842   ✗       
+647   VFNSGLSWQTSPETSR         -1.0000     NotChecked  -10.8425    1794.8537   ✗       
+648   +42.011FLSGLSWQTSPELTR   -1.0000     NotChecked  -10.8440    1762.8890   ✗       
+649   +42.011FLN+0.984GLSWQTSPESSR-1.0000     NotChecked  -10.8442    1750.8162   ✗       
+650   +42.011FVSGLSWQTSPELLR   -1.0000     NotChecked  -10.8508    1760.9097   ✗       
+651   VLLSGLSWQTSPELLR         -1.0000     NotChecked  -10.8588    1797.9989   ✗       
+652   +42.011LNSGGLSWQTSPESSR  -1.0000     NotChecked  -10.8668    1746.8173   ✗       
+653   +42.011LNSGLSWQTSPESVR   -1.0000     NotChecked  -10.8824    1701.8322   ✗       
+654   DFLSGLSWQTSPESSR         -1.0000     NotChecked  -10.8841    1795.8377   ✗       
+655   VFNSGLSWQTSPELSR         -1.0000     NotChecked  -10.8888    1806.8901   ✗       
+656   +42.011LNSGLSWQTSPETLR   -1.0000     NotChecked  -10.8891    1729.8635   ✗       
+657   VFNN+0.984GLSWQTSPESSR   -1.0000     NotChecked  -10.8892    1808.8329   ✗       
+658   KLNSGLSWQTSPELSR         -1.0000     NotChecked  -10.8894    1801.9323   ✗       
+659   +43.006FLSGLSWQTSPELLR   -1.0000     NotChecked  -10.8971    1775.9206   ✗       
+660   +42.011FNSGLSWSTSPELLR   -1.0000     NotChecked  -10.9114    1734.8577   ✗       
+661   +42.011FNGGLSWQTSPESSR   -1.0000     NotChecked  -10.9179    1693.7696   ✗       
+662   +42.011FNSGLSWQESPELSR   -1.0000     NotChecked  -10.9203    1777.8271   ✗       
+663   +42.011FLSGGLSWQTSPESLR  -1.0000     NotChecked  -10.9235    1805.8948   ✗       
+664   +42.011FLLGLSWQTSPELSR   -1.0000     NotChecked  -10.9264    1774.9254   ✗       
+665   +42.011FNSGLSWQTSPESTR   -1.0000     NotChecked  -10.9271    1737.7958   ✗       
+666   +42.011FNLGLSWQTSPESLR   -1.0000     NotChecked  -10.9289    1775.8842   ✗       
+667   FFNGGLSWQTSPESSR         -1.0000     NotChecked  -10.9294    1798.8275   ✗       
+668   VLLSGLSWQTSPESSR         -1.0000     NotChecked  -10.9304    1745.8948   ✗       
+669   +42.011FVSGLSWQTSPELSR   -1.0000     NotChecked  -10.9314    1734.8577   ✗       
+670   +42.011LLN+0.984GLSWQTSPELSR-1.0000     NotChecked  -10.9333    1742.8839   ✗       
+671   FLNSGLSWQTSPEVSR         -1.0000     NotChecked  -10.9339    1806.8901   ✗       
+672   +42.011LNSGLSWQTSPELLR   -1.0000     NotChecked  -10.9354    1741.8999   ✗       
+673   +42.011LNN+0.984GLSWQTSPESLR-1.0000     NotChecked  -10.9357    1743.8428   ✗       
+674   +42.011FNSGGLSWQTSPEVSR  -1.0000     NotChecked  -10.9489    1792.8380   ✗       
+675   LFNSGLSWQTSPEVSR         -1.0000     NotChecked  -10.9531    1806.8901   ✗       
+676   +42.011FNSGLSWQTSPELSR   -1.0000     NotChecked  -10.9587    1749.8322   ✗       
+677   +43.006FLSGLSWQTSPESSR   -1.0000     NotChecked  -10.9688    1723.8166   ✗       
+678   +42.011LNSGLSWQTSPETSR   -1.0000     NotChecked  -10.9697    1703.8115   ✗       
+679   FLNSGLSWQTSPETSR         -1.0000     NotChecked  -10.9812    1808.8693   ✗       
+680   +42.011FN+0.984SGLSWQTSPESLR-1.0000     NotChecked  -10.9847    1750.8162   ✗       
+681   +42.011FNSGLSWSTSPELSR   -1.0000     NotChecked  -10.9921    1708.8057   ✗       
+682   LFNSGLSWQTSPETSR         -1.0000     NotChecked  -11.0004    1808.8693   ✗       
+683   +42.011FNSLSWQTSPELLR    -1.0000     NotChecked  -11.0013    1718.8628   ✗       
+684   +42.011LNGGLSWQTSPELSR   -1.0000     NotChecked  -11.0069    1685.8373   ✗       
+685   +42.011LNSGLSWQTSPESSR   -1.0000     NotChecked  -11.0070    1689.7958   ✗       
+686   +42.011FNLGLSWQTSPESSR   -1.0000     NotChecked  -11.0096    1749.8322   ✗       
+687   +42.011LLSGGLSWQTSPELLR  -1.0000     NotChecked  -11.0126    1797.9625   ✗       
+688   +42.011LNSGLSWQTSPELTR   -1.0000     NotChecked  -11.0161    1729.8635   ✗       
+689   +42.011LNN+0.984GLSWQTSPESSR-1.0000     NotChecked  -11.0164    1717.7907   ✗       
+690   KFLSGLSWQTSPESSR         -1.0000     NotChecked  -11.0177    1808.9057   ✗       
+691   +42.011FLSGLSWQTSPESVR   -1.0000     NotChecked  -11.0198    1734.8577   ✗       
+692   +42.011FLSGLSWQTSPETLR   -1.0000     NotChecked  -11.0264    1762.8890   ✗       
+693   +42.011HNSGLSWQTSPELLR   -1.0000     NotChecked  -11.0354    1765.8747   ✗       
+694   +42.011FNSALSWQTSPELSR   -1.0000     NotChecked  -11.0379    1763.8479   ✗       
+695   +42.011FNSGGLSWQTSPELSR  -1.0000     NotChecked  -11.0426    1806.8537   ✗       
+696   DLNSGLSWQTSPESSR         -1.0000     NotChecked  -11.0563    1762.8122   ✗       
+697   +42.011FNSGLSWQTSPELLK   -1.0000     NotChecked  -11.0576    1747.8781   ✗       
+698   +42.011FLGGLSWQTSPELLR   -1.0000     NotChecked  -11.0636    1744.9148   ✗       
+699   +42.011FLSGLSWQTSPESLR   -1.0000     NotChecked  -11.0637    1748.8733   ✗       
+700   VFNSGLSWQTSPESVR         -1.0000     NotChecked  -11.0647    1792.8744   ✗       
+701   +42.011FN+0.984SGLSWQTSPESSR-1.0000     NotChecked  -11.0653    1724.7642   ✗       
+702   +42.011FNSGLSWQTSPELSR   -1.0000     NotChecked  -11.0671    1749.8322   ✗       
+703   +42.011FNN+0.984GLSWQTSPELVR-1.0000     NotChecked  -11.0675    1789.8635   ✗       
+704   +43.006LNSGLSWQTSPELLR   -1.0000     NotChecked  -11.0693    1742.8951   ✗       
+705   +42.011FNSGLSWQTSELSR    -1.0000     NotChecked  -11.0704    1652.7794   ✗       
+706   +42.011FLN+0.984GLSWQTSPESLR-1.0000     NotChecked  -11.0731    1776.8683   ✗       
+707   +42.011FNSLSWQTSPELSR    -1.0000     NotChecked  -11.0819    1692.8107   ✗       
+708   LLLSGLSWQTSPESSR         -1.0000     NotChecked  -11.0883    1759.9105   ✗       
+709   +42.011FNSGLSWQTSPELSR   -1.0000     NotChecked  -11.0927    1749.8322   ✗       
+710   +42.011LLSGGLSWQTSPELSR  -1.0000     NotChecked  -11.0932    1771.9105   ✗       
+711   FFNSLSWQTSPELSR          -1.0000     NotChecked  -11.0934    1797.8686   ✗       
+712   +42.011LNSGGLSWQTSPESLR  -1.0000     NotChecked  -11.0957    1772.8693   ✗       
+713   +42.011FNN+0.984GLSWQTSPEVSR-1.0000     NotChecked  -11.0985    1763.8115   ✗       
+714   +42.011LNLGLSWQTSPELSR   -1.0000     NotChecked  -11.0986    1741.8999   ✗       
+715   +42.011FNTGLSWQTSPELSR   -1.0000     NotChecked  -11.1024    1763.8478   ✗       
+716   +42.011HNSGLSWQTSPESSR   -1.0000     NotChecked  -11.1070    1713.7707   ✗       
+717   +42.011LLSGLSWQTSPELVR   -1.0000     NotChecked  -11.1088    1726.9254   ✗       
+718   +42.011FNEGLSWQTSPELSR   -1.0000     NotChecked  -11.1240    1791.8428   ✗       
+719   M+15.995LLSGLSWQTSPESSR  -1.0000     NotChecked  -11.1252    1793.8618   ✗       
+720   +42.011FNSGLSWQTSPESSK   -1.0000     NotChecked  -11.1292    1695.7740   ✗       
+721   +42.011LLSGLSWQTSPEVSR   -1.0000     NotChecked  -11.1397    1700.8733   ✗       
+722   +43.006LNSGLSWQTSPESSR   -1.0000     NotChecked  -11.1409    1690.7911   ✗       
+723   +42.011FLGGLSWQTSPELSR   -1.0000     NotChecked  -11.1442    1718.8628   ✗       
+724   +42.011FLSGLSWQTSPESSR   -1.0000     NotChecked  -11.1443    1722.8213   ✗       
+725   +42.011FNGGLSWQTSPESLR   -1.0000     NotChecked  -11.1467    1719.8216   ✗       
+726   +42.011FNSGLSWQESPELLR   -1.0000     NotChecked  -11.1492    1803.8792   ✗       
+727   VFNSGLSWQTSPETSR         -1.0000     NotChecked  -11.1520    1794.8537   ✗       
+728   +42.011FLSGLSWQTSPELTR   -1.0000     NotChecked  -11.1535    1762.8890   ✗       
+729   +42.011LN+0.984SGLSWQTSPELSR-1.0000     NotChecked  -11.1544    1716.8319   ✗       
+730   +42.011FLLGLSWQTSPELLR   -1.0000     NotChecked  -11.1553    1800.9774   ✗       
+731   VLLSGLSWQTSPESLR         -1.0000     NotChecked  -11.1593    1771.9468   ✗       
+732   +42.011FVSGLSWQTSPELLR   -1.0000     NotChecked  -11.1603    1760.9097   ✗       
+733   +42.011LLN+0.984GLSWQTSPELLR-1.0000     NotChecked  -11.1621    1768.9359   ✗       
+734   +43.006FNSGGLSWQTSPELSR  -1.0000     NotChecked  -11.1765    1807.8489   ✗       
+735   +42.011FNSGLSWQTSPELLR   -1.0000     NotChecked  -11.1876    1775.8842   ✗       
+736   VFNGGLSWQTSPELSR         -1.0000     NotChecked  -11.1892    1776.8795   ✗       
+737   VFNSGLSWQTSPESSR         -1.0000     NotChecked  -11.1893    1780.8380   ✗       
+738   KLNSGLSWQTSPESSR         -1.0000     NotChecked  -11.1899    1775.8802   ✗       
+739   +42.011LNSGLSWQTSPESVR   -1.0000     NotChecked  -11.1919    1701.8322   ✗       
+740   +42.011FNN+0.984GLSWQTSPELSR-1.0000     NotChecked  -11.1921    1777.8271   ✗       
+741   DFLSGLSWQTSPESSR         -1.0000     NotChecked  -11.1936    1795.8377   ✗       
+742   +43.006FLSGLSWQTSPESLR   -1.0000     NotChecked  -11.1976    1749.8686   ✗       
+743   +42.011LNSGLSWQTSPETLR   -1.0000     NotChecked  -11.1986    1729.8635   ✗       
+744   VFNN+0.984GLSWQTSPESSR   -1.0000     NotChecked  -11.1987    1808.8329   ✗       
+745   FLNSGLSWQTSPESVR         -1.0000     NotChecked  -11.2034    1806.8901   ✗       
+746   +42.011FNSGLSWSTSPELLR   -1.0000     NotChecked  -11.2209    1734.8577   ✗       
+747   LFNSGLSWQTSPESVR         -1.0000     NotChecked  -11.2226    1806.8901   ✗       
+748   +42.011FNSGLSWQESPELSR   -1.0000     NotChecked  -11.2298    1777.8271   ✗       
+749   +42.011FVSGLSWQTSPESSR   -1.0000     NotChecked  -11.2319    1708.8057   ✗       
+750   +42.011LLSGLSWQTSPELSR   -1.0000     NotChecked  -11.2334    1714.8890   ✗       
+751   +42.011FNVGLSWQTSPELSR   -1.0000     NotChecked  -11.2354    1761.8686   ✗       
+752   +42.011LNGGLSWQTSPELLR   -1.0000     NotChecked  -11.2358    1711.8893   ✗       
+753   +42.011LNSGLSWQTSPESLR   -1.0000     NotChecked  -11.2359    1715.8479   ✗       
+754   +42.011FLLGLSWQTSPELSR   -1.0000     NotChecked  -11.2359    1774.9254   ✗       
+755   +42.011FNLGLSWQTSPESLR   -1.0000     NotChecked  -11.2384    1775.8842   ✗       
+756   FFNGGLSWQTSPESSR         -1.0000     NotChecked  -11.2389    1798.8275   ✗       
+757   VLLSGLSWQTSPESSR         -1.0000     NotChecked  -11.2399    1745.8948   ✗       
+758   +42.011LLN+0.984GLSWQTSPELSR-1.0000     NotChecked  -11.2428    1742.8839   ✗       
+759   +42.011LNN+0.984GLSWQTSPESLR-1.0000     NotChecked  -11.2453    1743.8428   ✗       
+760   +42.011FNSGGLSWQTSPEVSR  -1.0000     NotChecked  -11.2584    1792.8380   ✗       
+761   +42.011FNSALSWQTSPELLR   -1.0000     NotChecked  -11.2668    1789.8999   ✗       
+762   +42.011FNSGLSWQTSPELSR   -1.0000     NotChecked  -11.2682    1749.8322   ✗       
+763   +42.011FNSGLSWQTSPEVVR   -1.0000     NotChecked  -11.2740    1747.8529   ✗       
+764   +43.006FLSGLSWQTSPESSR   -1.0000     NotChecked  -11.2783    1723.8166   ✗       
+765   DLLSGLSWQTSPELSR         -1.0000     NotChecked  -11.2827    1787.9054   ✗       
+766   DLNSGLSWQTSPESLR         -1.0000     NotChecked  -11.2852    1788.8642   ✗       
+767   VLNN+0.984GLSWQTSPELSR   -1.0000     NotChecked  -11.2877    1800.9006   ✗       
+768   FLNSGLSWQTSPETSR         -1.0000     NotChecked  -11.2907    1808.8693   ✗       
+769   +42.011FNSGLSWSTSPESSR   -1.0000     NotChecked  -11.2926    1682.7536   ✗       
+770   +42.011FN+0.984SGLSWQTSPESLR-1.0000     NotChecked  -11.2942    1750.8162   ✗       
+771   +42.011FNSGLSWQTSPELLR   -1.0000     NotChecked  -11.2960    1775.8842   ✗       
+772   +42.011FNSGLSWQTSELLR    -1.0000     NotChecked  -11.2993    1678.8315   ✗       
+773   +42.011FNSGGLSWQTSPETSR  -1.0000     NotChecked  -11.3057    1794.8173   ✗       
+774   LFNSGLSWQTSPETSR         -1.0000     NotChecked  -11.3099    1808.8693   ✗       
+775   +42.011FNSLSWQTSPELLR    -1.0000     NotChecked  -11.3108    1718.8628   ✗       
+776   +42.011LNGGLSWQTSPELSR   -1.0000     NotChecked  -11.3164    1685.8373   ✗       
+777   +42.011LNSGLSWQTSPESSR   -1.0000     NotChecked  -11.3165    1689.7958   ✗       
+778   LLLSGLSWQTSPESLR         -1.0000     NotChecked  -11.3172    1785.9625   ✗       
+779   +42.011FNSGLSWQTSPELLR   -1.0000     NotChecked  -11.3216    1775.8842   ✗       
+780   VFLSGLSWQTSPEVSR         -1.0000     NotChecked  -11.3220    1791.9155   ✗       
+781   +42.011LLSGGLSWQTSPELLR  -1.0000     NotChecked  -11.3221    1797.9625   ✗       
+782   +42.011LNSGLSWQTSPELTR   -1.0000     NotChecked  -11.3256    1729.8635   ✗       
+783   +43.006FNN+0.984GLSWQTSPELSR-1.0000     NotChecked  -11.3260    1778.8224   ✗       
+784   KFLSGLSWQTSPESSR         -1.0000     NotChecked  -11.3272    1808.9057   ✗       
+785   +42.011FNN+0.984GLSWQTSPEVLR-1.0000     NotChecked  -11.3273    1789.8635   ✗       
+786   +42.011LNLGLSWQTSPELLR   -1.0000     NotChecked  -11.3275    1767.9519   ✗       
+787   FLNGGLSWQTSPELSR         -1.0000     NotChecked  -11.3279    1790.8951   ✗       
+788   FLNSGLSWQTSPESSR         -1.0000     NotChecked  -11.3280    1794.8537   ✗       
+789   +42.011FNTGLSWQTSPELLR   -1.0000     NotChecked  -11.3312    1789.8999   ✗       
+790   +42.011HLSGLSWQTSPELSR   -1.0000     NotChecked  -11.3334    1738.8638   ✗       
+791   +42.011HNSGLSWQTSPESLR   -1.0000     NotChecked  -11.3359    1739.8227   ✗       
+792   VFN+0.984SGLSWQTSPELSR   -1.0000     NotChecked  -11.3366    1807.8741   ✗       
+793   LFNGGLSWQTSPELSR         -1.0000     NotChecked  -11.3471    1790.8951   ✗       
+794   LFNSGLSWQTSPESSR         -1.0000     NotChecked  -11.3472    1794.8537   ✗       
+795   +42.011FNSALSWQTSPELSR   -1.0000     NotChecked  -11.3474    1763.8479   ✗       
+796   +42.011FNSGGLSWQTSPELSR  -1.0000     NotChecked  -11.3521    1806.8537   ✗       
+797   +42.011FNN+0.984GGLSWQTSPESSR-1.0000     NotChecked  -11.3524    1808.7965   ✗       
+798   +42.011FLSGLSWQTSPELSK   -1.0000     NotChecked  -11.3556    1720.8672   ✗       
+799   +42.011FNSGLSWQTSPESLK   -1.0000     NotChecked  -11.3581    1721.8261   ✗       
+800   DLNSGLSWQTSPESSR         -1.0000     NotChecked  -11.3658    1762.8122   ✗       
+801   +43.006LLSGLSWQTSPELSR   -1.0000     NotChecked  -11.3673    1715.8842   ✗       
+802   +42.011FNSGLSWQTSPELVR   -1.0000     NotChecked  -11.3677    1761.8686   ✗       
+803   +42.011LLSGLSWQTSPEVLR   -1.0000     NotChecked  -11.3686    1726.9254   ✗       
+804   +43.006LNSGLSWQTSPESLR   -1.0000     NotChecked  -11.3698    1716.8431   ✗       
+805   +42.011FLGGLSWQTSPELLR   -1.0000     NotChecked  -11.3731    1744.9148   ✗       
+806   +42.011FLSGLSWQTSPESLR   -1.0000     NotChecked  -11.3732    1748.8733   ✗       
+807   VFNSGLSWQTSPESVR         -1.0000     NotChecked  -11.3742    1792.8744   ✗       
+808   +42.011FNSGLSWQTSPELSR   -1.0000     NotChecked  -11.3766    1749.8322   ✗       
+809   +42.011FNN+0.984GLSWQTSPELVR-1.0000     NotChecked  -11.3771    1789.8635   ✗       
+810   M+15.995LNSGLSWQTSPEVSR  -1.0000     NotChecked  -11.3794    1806.8570   ✗       
+811   +42.011FNSGLSWQTSPELSR   -1.0000     NotChecked  -11.3799    1749.8322   ✗       
+812   +42.011FNSLSWQTSPESSR    -1.0000     NotChecked  -11.3824    1666.7587   ✗       
+813   +42.011LN+0.984SGLSWQTSPELLR-1.0000     NotChecked  -11.3832    1742.8839   ✗       
+814   FFNSGLSWQTSELSR          -1.0000     NotChecked  -11.3914    1757.8373   ✗       
+815   +42.011LLSGGLSWQTSPESSR  -1.0000     NotChecked  -11.3937    1745.8584   ✗       
+816   LLLSGLSWQTSPESSR         -1.0000     NotChecked  -11.3978    1759.9105   ✗       
+817   +42.011FNSGLSWQTSPEVSR   -1.0000     NotChecked  -11.3986    1735.8166   ✗       
+818   +42.011FNSGLSWQTSPELSR   -1.0000     NotChecked  -11.4022    1749.8322   ✗       
+819   FFNSLSWQTSPELSR          -1.0000     NotChecked  -11.4029    1797.8686   ✗       
+820   +42.011FNN+0.984GLSWQTSPEVSR-1.0000     NotChecked  -11.4080    1763.8115   ✗       
+821   +42.011LNLGLSWQTSPELSR   -1.0000     NotChecked  -11.4081    1741.8999   ✗       
+822   +42.011FNTGLSWQTSPELSR   -1.0000     NotChecked  -11.4119    1763.8478   ✗       
+823   VFLSGLSWQTSPELSR         -1.0000     NotChecked  -11.4157    1805.9312   ✗       
+824   KLLSGLSWQTSPELSR         -1.0000     NotChecked  -11.4162    1800.9734   ✗       
+825   +42.011HNSGLSWQTSPESSR   -1.0000     NotChecked  -11.4166    1713.7707   ✗       
+826   VFNGGLSWQTSPELLR         -1.0000     NotChecked  -11.4180    1802.9315   ✗       
+827   VFNSGLSWQTSPESLR         -1.0000     NotChecked  -11.4182    1806.8901   ✗       
+828   +42.011LLSGLSWQTSPELVR   -1.0000     NotChecked  -11.4183    1726.9254   ✗       
+829   KLNSGLSWQTSPESLR         -1.0000     NotChecked  -11.4187    1801.9323   ✗       
+830   +42.011FNN+0.984GLSWQTSPELLR-1.0000     NotChecked  -11.4210    1803.8792   ✗       
+831   +42.011FNEGLSWQTSPELSR   -1.0000     NotChecked  -11.4335    1791.8428   ✗       
+832   +42.011FNSGLSWQTSPESSK   -1.0000     NotChecked  -11.4387    1695.7740   ✗       
+833   +42.011FLGGLSWQTSPESSR   -1.0000     NotChecked  -11.4447    1692.8107   ✗       
+834   DFNSGLSWQTSPEVSR         -1.0000     NotChecked  -11.4479    1808.8329   ✗       
+835   +42.011LLSGLSWQTSPEVSR   -1.0000     NotChecked  -11.4492    1700.8733   ✗       
+836   +42.011FDSGLSWQTSPELSR   -1.0000     NotChecked  -11.4497    1750.8162   ✗       
+837   FFNSGLSWQTSPESSK         -1.0000     NotChecked  -11.4502    1800.8319   ✗       
+838   +43.006LNSGLSWQTSPESSR   -1.0000     NotChecked  -11.4504    1690.7911   ✗       
+839   +42.011FLSGLSWQTSPESTR   -1.0000     NotChecked  -11.4540    1736.8369   ✗       
+840   +42.011FNN+0.984GLSWQTSPETSR-1.0000     NotChecked  -11.4553    1765.7907   ✗       
+841   +42.011FNSGLSWQESPELLR   -1.0000     NotChecked  -11.4587    1803.8792   ✗       
+842   FLLSGLSWQTSPEVSR         -1.0000     NotChecked  -11.4607    1805.9312   ✗       
+843   +42.011FVSGLSWQTSPESLR   -1.0000     NotChecked  -11.4608    1734.8577   ✗       
+844   +42.011LLSGLSWQTSPELLR   -1.0000     NotChecked  -11.4622    1740.9410   ✗       
+845   VLNSGLSWQTSPELVR         -1.0000     NotChecked  -11.4633    1784.9421   ✗       
+846   +42.011LN+0.984SGLSWQTSPELSR-1.0000     NotChecked  -11.4639    1716.8319   ✗       
+847   +42.011FNVGLSWQTSPELLR   -1.0000     NotChecked  -11.4643    1787.9206   ✗       
+848   +42.011FLLGLSWQTSPELLR   -1.0000     NotChecked  -11.4648    1800.9774   ✗       
+849   VLLSGLSWQTSPESLR         -1.0000     NotChecked  -11.4688    1771.9468   ✗       
+850   +42.011LLN+0.984GLSWQTSPELLR-1.0000     NotChecked  -11.4716    1768.9359   ✗       
+851   LFLSGLSWQTSPEVSR         -1.0000     NotChecked  -11.4799    1805.9312   ✗       
+852   +43.006FNSGGLSWQTSPELSR  -1.0000     NotChecked  -11.4860    1807.8489   ✗       
+853   VLNSGLSWQTSPEVSR         -1.0000     NotChecked  -11.4942    1758.8901   ✗       
+854   +42.011LLSGLSWQTSPETSR   -1.0000     NotChecked  -11.4966    1702.8526   ✗       
+855   +42.011FNSGLSWQTSPELLR   -1.0000     NotChecked  -11.4971    1775.8842   ✗       
+856   VFNGGLSWQTSPELSR         -1.0000     NotChecked  -11.4987    1776.8795   ✗       
+857   VFNSGLSWQTSPESSR         -1.0000     NotChecked  -11.4988    1780.8380   ✗       
+858   KLNSGLSWQTSPESSR         -1.0000     NotChecked  -11.4994    1775.8802   ✗       
+859   +43.006FNSGLSWQTSPELVR   -1.0000     NotChecked  -11.5016    1762.8638   ✗       
+860   +42.011FNN+0.984GLSWQTSPELSR-1.0000     NotChecked  -11.5016    1777.8271   ✗       
+861   +43.006FLSGLSWQTSPESLR   -1.0000     NotChecked  -11.5071    1749.8686   ✗       
+862   FLNSGLSWQTSPESVR         -1.0000     NotChecked  -11.5129    1806.8901   ✗       
+863   +42.011FLSGLSWSTSPELSR   -1.0000     NotChecked  -11.5189    1707.8468   ✗       
+864   +42.011FNSGLSWSTSPESLR   -1.0000     NotChecked  -11.5214    1708.8057   ✗       
+865   +42.011LNSGLSWQTSPELSK   -1.0000     NotChecked  -11.5277    1687.8417   ✗       
+866   +42.011FNSGGLSWQTSPESVR  -1.0000     NotChecked  -11.5280    1792.8380   ✗       
+867   +42.011FNSGLSWQESPESSR   -1.0000     NotChecked  -11.5303    1751.7751   ✗       
+868   LFNSGLSWQTSPESVR         -1.0000     NotChecked  -11.5321    1806.8901   ✗       
+869   +43.006FNSGLSWQTSPEVSR   -1.0000     NotChecked  -11.5325    1736.8118   ✗       
+870   +42.011FLLGLSWQTSPESSR   -1.0000     NotChecked  -11.5364    1748.8733   ✗       
+871   +42.011FVSGLSWQTSPESSR   -1.0000     NotChecked  -11.5414    1708.8057   ✗       
+872   +42.011LLSGLSWQTSPELSR   -1.0000     NotChecked  -11.5429    1714.8890   ✗       
+873   +42.011LLN+0.984GLSWQTSPESSR-1.0000     NotChecked  -11.5432    1716.8319   ✗       
+874   +42.011FNVGLSWQTSPELSR   -1.0000     NotChecked  -11.5449    1761.8686   ✗       
+875   +42.011LNGGLSWQTSPELLR   -1.0000     NotChecked  -11.5453    1711.8893   ✗       
+876   +42.011LNSGLSWQTSPESLR   -1.0000     NotChecked  -11.5454    1715.8479   ✗       
+877   +43.006FNN+0.984GLSWQTSPELLR-1.0000     NotChecked  -11.5549    1804.8744   ✗       
+878   +42.011HLSGLSWQTSPELLR   -1.0000     NotChecked  -11.5623    1764.9159   ✗       
+879   +42.011FNSGLSWQTSPESSR   -1.0000     NotChecked  -11.5687    1723.7802   ✗       
+880   +42.011FNSALSWQTSPELLR   -1.0000     NotChecked  -11.5763    1789.8999   ✗       
+881   +42.011FNSGLSWQTSPEVVR   -1.0000     NotChecked  -11.5835    1747.8529   ✗       
+882   +42.011FLSGLSWQTSPELLK   -1.0000     NotChecked  -11.5844    1746.9192   ✗       
+883   VLNSGLSWQTSPELSR         -1.0000     NotChecked  -11.5878    1772.9057   ✗       
+884   DLLSGLSWQTSPELSR         -1.0000     NotChecked  -11.5922    1787.9054   ✗       
+885   DLNSGLSWQTSPESLR         -1.0000     NotChecked  -11.5947    1788.8642   ✗       
+886   +43.006LLSGLSWQTSPELLR   -1.0000     NotChecked  -11.5962    1741.9363   ✗       
+887   VLNN+0.984GLSWQTSPELSR   -1.0000     NotChecked  -11.5972    1800.9006   ✗       
+888   +42.011FNSGLSWSTSPESSR   -1.0000     NotChecked  -11.6021    1682.7536   ✗       
+889   +42.011FNSGLSWQTSPELLR   -1.0000     NotChecked  -11.6055    1775.8842   ✗       
+890   +42.011FLSLSWQTSPELSR    -1.0000     NotChecked  -11.6088    1691.8519   ✗       
+891   +42.011FNSGLSWQTSPELLR   -1.0000     NotChecked  -11.6088    1775.8842   ✗       
+892   +42.011FNSLSWQTSPESLR    -1.0000     NotChecked  -11.6113    1692.8107   ✗       
+893   +42.011FNSLLSWQTSPELSR   -1.0000     NotChecked  -11.6129    1805.8948   ✗       
+894   FFNSGLSWSTSPESSR         -1.0000     NotChecked  -11.6136    1787.8115   ✗       
+895   +42.011FNSGGLSWQTSPETSR  -1.0000     NotChecked  -11.6152    1794.8173   ✗       
+896   +42.011LNGGLSWQTSPESSR   -1.0000     NotChecked  -11.6169    1659.7853   ✗       
+897   FFNSGLSWQTSELLR          -1.0000     NotChecked  -11.6203    1783.8893   ✗       
+898   LLNSGLSWQTSPELVR         -1.0000     NotChecked  -11.6212    1798.9577   ✗       
+899   +42.011LLSGGLSWQTSPESLR  -1.0000     NotChecked  -11.6226    1771.9105   ✗       
+900   +42.011LNSGLSWQTSPESTR   -1.0000     NotChecked  -11.6261    1703.8115   ✗       
+901   +43.006FNSGLSWQTSPELSR   -1.0000     NotChecked  -11.6262    1750.8275   ✗       
+902   LLLSGLSWQTSPESLR         -1.0000     NotChecked  -11.6267    1785.9625   ✗       
+903   +42.011FNSGLSWQTSPEVLR   -1.0000     NotChecked  -11.6274    1761.8686   ✗       
+904   +42.011LVSGLSWQTSPELSR   -1.0000     NotChecked  -11.6304    1700.8733   ✗       
+905   +42.011FNSGLSWQTSPETVR   -1.0000     NotChecked  -11.6308    1749.8322   ✗       
+906   +42.011FNSGLSWQTSPELLR   -1.0000     NotChecked  -11.6311    1775.8842   ✗       
+907   VFLSGLSWQTSPEVSR         -1.0000     NotChecked  -11.6315    1791.9155   ✗       
+908   +43.006FNN+0.984GLSWQTSPELSR-1.0000     NotChecked  -11.6356    1778.8224   ✗       
+909   +42.011FNN+0.984GLSWQTSPEVLR-1.0000     NotChecked  -11.6368    1789.8635   ✗       
+910   +42.011LNLGLSWQTSPELLR   -1.0000     NotChecked  -11.6370    1767.9519   ✗       
+911   FLNGGLSWQTSPELSR         -1.0000     NotChecked  -11.6374    1790.8951   ✗       
+912   FLNSGLSWQTSPESSR         -1.0000     NotChecked  -11.6375    1794.8537   ✗       
+913   +42.011FNDGLSWQTSPELSR   -1.0000     NotChecked  -11.6385    1777.8271   ✗       
+914   +42.011FNTGLSWQTSPELLR   -1.0000     NotChecked  -11.6407    1789.8999   ✗       
+915   +42.011HLSGLSWQTSPELSR   -1.0000     NotChecked  -11.6429    1738.8638   ✗       
+916   +42.011HNSGLSWQTSPESLR   -1.0000     NotChecked  -11.6454    1739.8227   ✗       
+917   VFN+0.984SGLSWQTSPELSR   -1.0000     NotChecked  -11.6462    1807.8741   ✗       
+918   +42.011FNSALSWQTSPESSR   -1.0000     NotChecked  -11.6479    1737.7958   ✗       
+919   LLNSGLSWQTSPEVSR         -1.0000     NotChecked  -11.6521    1772.9057   ✗       
+920   +42.011FNGGLSWQTSPELSR   -1.0000     NotChecked  -11.6524    1719.8216   ✗       
+921   +42.011FNSGGLSWQTSPESSR  -1.0000     NotChecked  -11.6526    1780.8016   ✗       
+922   LFNGGLSWQTSPELSR         -1.0000     NotChecked  -11.6566    1790.8951   ✗       
+923   LFNSGLSWQTSPESSR         -1.0000     NotChecked  -11.6567    1794.8537   ✗       
+924   +42.011FNN+0.984GGLSWQTSPESSR-1.0000     NotChecked  -11.6619    1808.7965   ✗       
+925   +42.011FNSGLSWQTSPELSR   -1.0000     NotChecked  -11.6626    1749.8322   ✗       
+926   +42.011FLSGLSWQTSPELSK   -1.0000     NotChecked  -11.6651    1720.8672   ✗       
+927   +42.011FNSGLSWQTSPESLK   -1.0000     NotChecked  -11.6676    1721.8261   ✗       
+928   +42.011FLGGLSWQTSPESLR   -1.0000     NotChecked  -11.6736    1718.8628   ✗       
+929   +42.011FNSGLSWQTSPELSR   -1.0000     NotChecked  -11.6760    1749.8322   ✗       
+930   +43.006LLSGLSWQTSPELSR   -1.0000     NotChecked  -11.6768    1715.8842   ✗       
+931   +42.011FNSGLSWQTSPESSR   -1.0000     NotChecked  -11.6771    1723.7802   ✗       
+932   +42.011FNSGLSWQTSPELVR   -1.0000     NotChecked  -11.6772    1761.8686   ✗       
+933   +42.011FNN+0.984GLSWQTSPESVR-1.0000     NotChecked  -11.6775    1763.8115   ✗       
+934   +42.011LLSGLSWQTSPEVLR   -1.0000     NotChecked  -11.6781    1726.9254   ✗       
+935   +42.011FDSGLSWQTSPELLR   -1.0000     NotChecked  -11.6786    1776.8683   ✗       
+936   VFLSGLSWQTSPETSR         -1.0000     NotChecked  -11.6788    1793.8948   ✗       
+937   +43.006LNSGLSWQTSPESLR   -1.0000     NotChecked  -11.6793    1716.8431   ✗       
+938   +42.011FNSGLSWQTSESSR    -1.0000     NotChecked  -11.6804    1626.7274   ✗       
+939   +42.011FNN+0.984GLSWQTSPETLR-1.0000     NotChecked  -11.6842    1791.8428   ✗       
+940   M+15.995FNGGLSWQTSPESSR  -1.0000     NotChecked  -11.6844    1798.7944   ✗       
+941   VHNSGLSWQTSPELSR         -1.0000     NotChecked  -11.6879    1796.8806   ✗       
+942   M+15.995LNSGLSWQTSPEVSR  -1.0000     NotChecked  -11.6889    1806.8570   ✗       
+943   +42.011LNSGLSWSTSPELSR   -1.0000     NotChecked  -11.6911    1674.8213   ✗       
+944   +42.011FNSLSWQTSPESSR    -1.0000     NotChecked  -11.6919    1666.7587   ✗       
+945   +42.011LN+0.984SGLSWQTSPELLR-1.0000     NotChecked  -11.6927    1742.8839   ✗       
+946   +42.011FNSGLSWQTSPESSR   -1.0000     NotChecked  -11.7027    1723.7802   ✗       
+947   +42.011LLSGGLSWQTSPESSR  -1.0000     NotChecked  -11.7032    1745.8584   ✗       
+948   FFNSLSWQTSPESSR          -1.0000     NotChecked  -11.7034    1771.8166   ✗       
+949   +42.011FNSGLSWQTSPEVSR   -1.0000     NotChecked  -11.7081    1735.8166   ✗       
+950   +42.011LNLGLSWQTSPESSR   -1.0000     NotChecked  -11.7086    1715.8479   ✗       
+951   VFNSGLSWQTSPELSK         -1.0000     NotChecked  -11.7100    1778.8839   ✗       
+952   +42.011FNTGLSWQTSPESSR   -1.0000     NotChecked  -11.7123    1737.7958   ✗       
+953   +42.011LLSGLSWQTSPESVR   -1.0000     NotChecked  -11.7188    1700.8733   ✗       
+954   VLNSGLSWQTSPEVLR         -1.0000     NotChecked  -11.7230    1784.9421   ✗       
+955   VFLSGLSWQTSPELSR         -1.0000     NotChecked  -11.7252    1805.9312   ✗       
+956   +42.011LLSGLSWQTSPETLR   -1.0000     NotChecked  -11.7254    1728.9046   ✗       
+957   VFLN+0.984GLSWQTSPESSR   -1.0000     NotChecked  -11.7255    1807.8741   ✗       
+958   KLLSGLSWQTSPELSR         -1.0000     NotChecked  -11.7258    1800.9734   ✗       
+959   VFNGGLSWQTSPELLR         -1.0000     NotChecked  -11.7275    1802.9315   ✗       
+960   VFNSGLSWQTSPESLR         -1.0000     NotChecked  -11.7277    1806.8901   ✗       
+961   KLNSGLSWQTSPESLR         -1.0000     NotChecked  -11.7282    1801.9323   ✗       
+962   +42.011FNN+0.984GLSWQTSPELLR-1.0000     NotChecked  -11.7305    1803.8792   ✗       
+963   +42.011FNEGLSWQTSPESSR   -1.0000     NotChecked  -11.7340    1765.7907   ✗       
+964   M+15.995LNSGLSWQTSPETSR  -1.0000     NotChecked  -11.7362    1808.8363   ✗       
+965   LLNSGLSWQTSPELSR         -1.0000     NotChecked  -11.7457    1786.9214   ✗       
+966   +42.011FLSGLSWSTSPELLR   -1.0000     NotChecked  -11.7478    1733.8988   ✗       
+967   VLNSGGLSWQTSPESSR        -1.0000     NotChecked  -11.7481    1803.8751   ✗       
+968   +42.011LNN+0.984GGLSWQTSPELSR-1.0000     NotChecked  -11.7510    1800.8642   ✗       
+969   +42.011FLGGLSWQTSPESSR   -1.0000     NotChecked  -11.7542    1692.8107   ✗       
+970   +42.011FNSGLSWQTSPETSR   -1.0000     NotChecked  -11.7554    1737.7958   ✗       
+971   +42.011LNSGLSWQTSPELLK   -1.0000     NotChecked  -11.7566    1713.8937   ✗       
+972   +42.011FLSGLSWQESPELSR   -1.0000     NotChecked  -11.7567    1776.8683   ✗       
+973   DFNSGLSWQTSPEVSR         -1.0000     NotChecked  -11.7574    1808.8329   ✗       
+974   +42.011FNSGLSWQESPESLR   -1.0000     NotChecked  -11.7592    1777.8271   ✗       
+975   +42.011FDSGLSWQTSPELSR   -1.0000     NotChecked  -11.7592    1750.8162   ✗       
+976   FFNSGLSWQTSPESSK         -1.0000     NotChecked  -11.7597    1800.8319   ✗       
+977   +43.006FNSGLSWQTSPEVLR   -1.0000     NotChecked  -11.7614    1762.8638   ✗       
+978   +42.011FLSGLSWQTSPESTR   -1.0000     NotChecked  -11.7635    1736.8369   ✗       
+979   +42.011LN+0.984SGLSWQTSPESSR-1.0000     NotChecked  -11.7643    1690.7798   ✗       
+980   +42.011FNN+0.984GLSWQTSPETSR-1.0000     NotChecked  -11.7648    1765.7907   ✗       
+981   +42.011FLLGLSWQTSPESLR   -1.0000     NotChecked  -11.7653    1774.9254   ✗       
+982   FFLGGLSWQTSPESSR         -1.0000     NotChecked  -11.7657    1797.8686   ✗       
+983   FLLSGLSWQTSPEVSR         -1.0000     NotChecked  -11.7702    1805.9312   ✗       
+984   +42.011FVSGLSWQTSPESLR   -1.0000     NotChecked  -11.7703    1734.8577   ✗       
+985   +42.011LLSGLSWQTSPELLR   -1.0000     NotChecked  -11.7718    1740.9410   ✗       
+986   +42.011LLN+0.984GLSWQTSPESLR-1.0000     NotChecked  -11.7721    1742.8839   ✗       
+987   VLNSGLSWQTSPELVR         -1.0000     NotChecked  -11.7728    1784.9421   ✗       
+988   +42.011FNVGLSWQTSPELLR   -1.0000     NotChecked  -11.7738    1787.9206   ✗       
+989   +42.011LNSLSWQTSPELSR    -1.0000     NotChecked  -11.7810    1658.8264   ✗       
+990   +42.011FNSGLSVQTSPELSR   -1.0000     NotChecked  -11.7821    1662.8213   ✗       
+991   +42.011FLSGGLSWQTSPEVSR  -1.0000     NotChecked  -11.7853    1791.8792   ✗       
+992   +43.006FNSGGLSWQTSPESSR  -1.0000     NotChecked  -11.7865    1781.7969   ✗       
+993   LFLSGLSWQTSPEVSR         -1.0000     NotChecked  -11.7894    1805.9312   ✗       
+994   +42.011FNNGLSWQTSPELSR   -1.0000     NotChecked  -11.7941    1776.8431   ✗       
+995   +42.011FLSGLSWQTSPELSR   -1.0000     NotChecked  -11.7951    1748.8733   ✗       
+996   +42.011FNSGLSWQTSPESLR   -1.0000     NotChecked  -11.7976    1749.8322   ✗       
+997   VFNGGLSWQTSPESSR         -1.0000     NotChecked  -11.7992    1750.8275   ✗       
+998   +42.011FN+0.984SGGLSWQTSPELSR-1.0000     NotChecked  -11.7999    1807.8377   ✗       
+999   +42.011FNN+0.984GLSWQTSPESSR-1.0000     NotChecked  -11.8021    1751.7751   ✗       
+1000  VLNSGLSWQTSPEVSR         -1.0000     NotChecked  -11.8037    1758.8901   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: MFNSGLSWQTSPESLK
+Similarity: 0.4523
+De Novo Score: -8.7813
+Source: Prosit
+Correct: ✗
+

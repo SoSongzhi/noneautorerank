@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 270
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 458.7487
+Precursor charge: 2+
+Ground truth: IVDIDWR
+Ground truth (normalized): IVDIDWR
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 176
+Used for reranking: 176
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 176 (17.6%)
+Database matches: 53 (5.3%)
+Prosit predictions: 117 (11.7%)
+Failed: 6 (0.6%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.9366
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     LVDLDWR                  0.9366      Database    -0.2613     915.4814    ✓       ✓
+2     LVDLDWR                  0.9366      Database    -1.6298     915.4814    ✓       ✓
+3     LVDLDWR                  0.9366      Database    -3.7182     915.4814    ✓       ✓
+4     LVDLDWR                  0.9366      Database    -5.1003     915.4814    ✓       ✓
+5     LVDLDWR                  0.9366      Database    -6.4687     915.4814    ✓       ✓
+6     LVDLDWR                  0.9366      Database    -8.5571     915.4814    ✓       ✓
+7     LVDLDWR                  0.9366      Database    -12.1090    915.4814    ✓       ✓
+8     LVDLDWR                  0.9366      Database    -13.4775    915.4814    ✓       ✓
+9     LVDLDWR                  0.9366      Database    -14.7218    915.4814    ✓       ✓
+10    LVDLDWR                  0.9366      Database    -15.3415    915.4814    ✓       ✓
+11    LVDLDWR                  0.9366      Database    -15.5659    915.4814    ✓       ✓
+12    LVDLDWR                  0.9366      Database    -15.8988    915.4814    ✓       ✓
+13    LVDLDWR                  0.9366      Database    -16.0902    915.4814    ✓       ✓
+14    LVDLDWR                  0.9366      Database    -16.7099    915.4814    ✓       ✓
+15    LVDLDWR                  0.9366      Database    -16.9479    915.4814    ✓       ✓
+16    LVDLDWR                  0.9366      Database    -17.2673    915.4814    ✓       ✓
+17    LVDLDWR                  0.9366      Database    -17.5363    915.4814    ✓       ✓
+18    LVDLDWR                  0.9366      Database    -17.6992    915.4814    ✓       ✓
+19    LVDLDWR                  0.9366      Database    -18.1786    915.4814    ✓       ✓
+20    LVDLDWR                  0.9366      Database    -18.3164    915.4814    ✓       ✓
+21    LVDLDWR                  0.9366      Database    -18.3183    915.4814    ✓       ✓
+22    LVDLDWR                  0.9366      Database    -18.7983    915.4814    ✓       ✓
+23    LVDLDWR                  0.9366      Database    -18.9047    915.4814    ✓       ✓
+24    LVDLDWR                  0.9366      Database    -18.9168    915.4814    ✓       ✓
+25    LVDLDWR                  0.9366      Database    -19.3557    915.4814    ✓       ✓
+26    LVDLDWR                  0.9366      Database    -19.5607    915.4814    ✓       ✓
+27    LVDLDWR                  0.9366      Database    -19.6867    915.4814    ✓       ✓
+28    LVDLDWR                  0.9366      Database    -20.1225    915.4814    ✓       ✓
+29    LVDLDWR                  0.9366      Database    -20.1804    915.4814    ✓       ✓
+30    LVDLDWR                  0.9366      Database    -20.2852    915.4814    ✓       ✓
+31    LVDLDWR                  0.9366      Database    -20.4048    915.4814    ✓       ✓
+32    LVDLDWR                  0.9366      Database    -20.7377    915.4814    ✓       ✓
+33    LVDLDWR                  0.9366      Database    -20.9292    915.4814    ✓       ✓
+34    LVDLDWR                  0.9366      Database    -20.9931    915.4814    ✓       ✓
+35    LVDLDWR                  0.9366      Database    -21.4909    915.4814    ✓       ✓
+36    LVDLDWR                  0.9366      Database    -21.5489    915.4814    ✓       ✓
+37    LVDLDWR                  0.9366      Database    -21.7521    915.4814    ✓       ✓
+38    LVDLDWR                  0.9366      Database    -21.7751    915.4814    ✓       ✓
+39    LVDLDWR                  0.9366      Database    -22.1062    915.4814    ✓       ✓
+40    LVDLDWR                  0.9366      Database    -22.3736    915.4814    ✓       ✓
+41    LVDLDWR                  0.9366      Database    -22.3752    915.4814    ✓       ✓
+42    LVDLDWR                  0.9366      Database    -22.5382    915.4814    ✓       ✓
+43    LVDLDWR                  0.9366      Database    -23.0176    915.4814    ✓       ✓
+44    LVDLDWR                  0.9366      Database    -23.5793    915.4814    ✓       ✓
+45    LVDLDWR                  0.9366      Database    -23.6373    915.4814    ✓       ✓
+46    LVDLDWR                  0.9366      Database    -23.7437    915.4814    ✓       ✓
+47    LVDLDWR                  0.9366      Database    -23.7557    915.4814    ✓       ✓
+48    LVDLDWR                  0.9366      Database    -24.1946    915.4814    ✓       ✓
+49    LVDLDWR                  0.9366      Database    -24.9614    915.4814    ✓       ✓
+50    LVDLDWR                  0.9366      Database    -25.1242    915.4814    ✓       ✓
+51    LVDLDWR                  0.9366      Database    -25.8321    915.4814    ✓       ✓
+52    LVDLDWR                  0.9366      Database    -26.5911    915.4814    ✓       ✓
+53    LVDLDWR                  0.9366      Database    -33.5998    915.4814    ✓       ✓
+54    LVDLN+0.984WR            0.6025      Prosit      -7.3959     915.4814    ✓       
+55    LVDLN+0.984WR            0.6025      Prosit      -8.7644     915.4814    ✓       
+56    LVDLN+0.984WR            0.6025      Prosit      -10.8528    915.4814    ✓       
+57    LVDLN+0.984WR            0.6025      Prosit      -12.2349    915.4814    ✓       
+58    LVDLN+0.984WR            0.6025      Prosit      -13.6033    915.4814    ✓       
+59    LVDLN+0.984WR            0.6025      Prosit      -15.6917    915.4814    ✓       
+60    LVDLN+0.984WR            0.6025      Prosit      -19.2436    915.4814    ✓       
+61    LVDLN+0.984WR            0.6025      Prosit      -20.6120    915.4814    ✓       
+62    LVDLN+0.984WR            0.6025      Prosit      -21.8564    915.4814    ✓       
+63    LVDLN+0.984WR            0.6025      Prosit      -22.4761    915.4814    ✓       
+64    LVDLN+0.984WR            0.6025      Prosit      -22.7004    915.4814    ✓       
+65    LVDLN+0.984WR            0.6025      Prosit      -23.0334    915.4814    ✓       
+66    LVDLN+0.984WR            0.6025      Prosit      -23.2248    915.4814    ✓       
+67    LVDLN+0.984WR            0.6025      Prosit      -23.8445    915.4814    ✓       
+68    LVDLN+0.984WR            0.6025      Prosit      -24.0825    915.4814    ✓       
+69    LVDLN+0.984WR            0.6025      Prosit      -24.4019    915.4814    ✓       
+70    LVDLN+0.984WR            0.6025      Prosit      -24.8338    915.4814    ✓       
+71    LVDLN+0.984WR            0.6025      Prosit      -25.3132    915.4814    ✓       
+72    LVDLN+0.984WR            0.6025      Prosit      -25.4510    915.4814    ✓       
+73    LVDLN+0.984WR            0.6025      Prosit      -25.4529    915.4814    ✓       
+74    LVDLN+0.984WR            0.6025      Prosit      -25.9329    915.4814    ✓       
+75    LVDLN+0.984WR            0.6025      Prosit      -28.8867    915.4814    ✓       
+76    LVDLN+0.984WR            0.6025      Prosit      -33.7257    915.4814    ✓       
+77    VVELN+0.984WR            0.5919      Prosit      -33.2633    915.4814    ✓       
+78    VLDLDWR                  0.5498      Prosit      -27.4633    915.4814    ✓       
+79    VLDLDWR                  0.5498      Prosit      -28.8318    915.4814    ✓       
+80    VLDLDWR                  0.5498      Prosit      -30.9202    915.4814    ✓       
+81    VLDLDWR                  0.5498      Prosit      -32.3023    915.4814    ✓       
+82    VLDLDWR                  0.5498      Prosit      -32.6901    915.4814    ✓       
+83    VLDLDWR                  0.5498      Prosit      -33.6707    915.4814    ✓       
+84    VLDLDWR                  0.5498      Prosit      -33.9633    915.4814    ✓       
+85    LVN+0.984LDWR            0.5412      Prosit      -7.1101     915.4814    ✓       
+86    LVN+0.984LDWR            0.5412      Prosit      -8.4785     915.4814    ✓       
+87    LVN+0.984LDWR            0.5412      Prosit      -10.5669    915.4814    ✓       
+88    LVN+0.984LDWR            0.5412      Prosit      -11.9490    915.4814    ✓       
+89    LVN+0.984LDWR            0.5412      Prosit      -13.3175    915.4814    ✓       
+90    LVN+0.984LDWR            0.5412      Prosit      -15.4058    915.4814    ✓       
+91    LVN+0.984LDWR            0.5412      Prosit      -18.9577    915.4814    ✓       
+92    LVN+0.984LDWR            0.5412      Prosit      -20.3262    915.4814    ✓       
+93    LVN+0.984LDWR            0.5412      Prosit      -21.5705    915.4814    ✓       
+94    LVN+0.984LDWR            0.5412      Prosit      -22.4146    915.4814    ✓       
+95    LVN+0.984LDWR            0.5412      Prosit      -22.9390    915.4814    ✓       
+96    LVN+0.984LDWR            0.5412      Prosit      -23.7967    915.4814    ✓       
+97    LVN+0.984LDWR            0.5412      Prosit      -24.3850    915.4814    ✓       
+98    LVN+0.984LDWR            0.5412      Prosit      -24.5480    915.4814    ✓       
+99    LVN+0.984LDWR            0.5412      Prosit      -25.0274    915.4814    ✓       
+100   LVN+0.984LDWR            0.5412      Prosit      -25.1651    915.4814    ✓       
+101   LVN+0.984LDWR            0.5412      Prosit      -25.1670    915.4814    ✓       
+102   LVN+0.984LDWR            0.5412      Prosit      -25.7535    915.4814    ✓       
+103   LVN+0.984LDWR            0.5412      Prosit      -25.7655    915.4814    ✓       
+104   LVN+0.984LDWR            0.5412      Prosit      -28.6009    915.4814    ✓       
+105   LVN+0.984LDWR            0.5412      Prosit      -33.4398    915.4814    ✓       
+106   EVVLDWR                  0.5342      Prosit      -32.2086    915.4814    ✓       
+107   EVVLDWR                  0.5342      Prosit      -33.5771    915.4814    ✓       
+108   VVELDWR                  0.5318      Prosit      -26.1287    915.4814    ✓       
+109   VVELDWR                  0.5318      Prosit      -30.9676    915.4814    ✓       
+110   VVDLQ+0.984WR            0.5252      Prosit      -28.9757    915.4814    ✓       
+111   VVDLQ+0.984WR            0.5252      Prosit      -33.8147    915.4814    ✓       
+112   +42.011VWLN+0.984WR      0.5227      Prosit      -33.5686    915.4603    ✓       
+113   +42.011AVDLDWR           0.5144      Prosit      -28.9065    915.4450    ✓       
+114   +42.011AVDLDWR           0.5144      Prosit      -33.7454    915.4450    ✓       
+115   VVDLEWR                  0.5065      Prosit      -25.7858    915.4814    ✓       
+116   VVDLEWR                  0.5065      Prosit      -30.6247    915.4814    ✓       
+117   +42.011VWLDWR            0.5036      Prosit      -26.4340    915.4603    ✓       
+118   +42.011VWLDWR            0.5036      Prosit      -27.8025    915.4603    ✓       
+119   +42.011VWLDWR            0.5036      Prosit      -31.2730    915.4603    ✓       
+120   +42.011VWLDWR            0.5036      Prosit      -32.6414    915.4603    ✓       
+121   VVN+0.984LEWR            0.4986      Prosit      -32.6345    915.4814    ✓       
+122   +42.011VADLDWR           0.4861      Prosit      -29.2134    915.4450    ✓       
+123   +42.011VADLDWR           0.4861      Prosit      -30.9349    915.4450    ✓       
+124   +42.011VADLDWR           0.4861      Prosit      -31.5143    915.4450    ✓       
+125   +42.011VADLDWR           0.4861      Prosit      -32.3034    915.4450    ✓       
+126   +42.011VADLDWR           0.4861      Prosit      -32.8827    915.4450    ✓       
+127   +42.011VADLDWR           0.4861      Prosit      -34.0524    915.4450    ✓       
+128   VDLLDWR                  0.4832      Prosit      -33.5262    915.4814    ✓       
+129   VDLLDWR                  0.4832      Prosit      -33.6308    915.4814    ✓       
+130   +42.011LGDLDWR           0.4776      Prosit      -31.1526    915.4450    ✓       
+131   +42.011VDALDWR           0.4768      Prosit      -32.5140    915.4450    ✓       
+132   +42.011VDALDWR           0.4768      Prosit      -33.8825    915.4450    ✓       
+133   VDLDLWR                  0.4756      Prosit      -31.1834    915.4814    ✓       
+134   EVDPDWR                  0.4750      Prosit      -33.8439    915.4086    ✓       
+135   +42.011VDLDAWR           0.4441      Prosit      -31.8876    915.4450    ✓       
+136   +42.011VDLDAWR           0.4441      Prosit      -31.9975    915.4450    ✓       
+137   +42.011VDLDAWR           0.4441      Prosit      -32.2199    915.4450    ✓       
+138   +42.011VDLDAWR           0.4441      Prosit      -32.3017    915.4450    ✓       
+139   +42.011VDLDAWR           0.4441      Prosit      -32.3604    915.4450    ✓       
+140   +42.011VDLDAWR           0.4441      Prosit      -32.4185    915.4450    ✓       
+141   +42.011VDLDAWR           0.4441      Prosit      -32.5198    915.4450    ✓       
+142   +42.011VDLDAWR           0.4441      Prosit      -32.8883    915.4450    ✓       
+143   +42.011VDLDAWR           0.4441      Prosit      -32.8943    915.4450    ✓       
+144   +42.011VDLDAWR           0.4441      Prosit      -32.9315    915.4450    ✓       
+145   +42.011VDLDAWR           0.4441      Prosit      -32.9455    915.4450    ✓       
+146   +42.011VDLDAWR           0.4441      Prosit      -32.9967    915.4450    ✓       
+147   +42.011VDLDAWR           0.4441      Prosit      -33.0350    915.4450    ✓       
+148   +42.011VDLDAWR           0.4441      Prosit      -33.0643    915.4450    ✓       
+149   +42.011VDLDAWR           0.4441      Prosit      -33.1108    915.4450    ✓       
+150   +42.011VDLDAWR           0.4441      Prosit      -33.1798    915.4450    ✓       
+151   +42.011VDLDAWR           0.4441      Prosit      -33.1802    915.4450    ✓       
+152   +42.011VDLDAWR           0.4441      Prosit      -33.2309    915.4450    ✓       
+153   +42.011VDLDAWR           0.4441      Prosit      -33.2561    915.4450    ✓       
+154   +42.011VDLDAWR           0.4441      Prosit      -33.3026    915.4450    ✓       
+155   +42.011VDLDAWR           0.4441      Prosit      -33.3059    915.4450    ✓       
+156   +42.011VDLDAWR           0.4441      Prosit      -33.3660    915.4450    ✓       
+157   +42.011VDLDAWR           0.4441      Prosit      -33.4994    915.4450    ✓       
+158   +42.011VDLDAWR           0.4441      Prosit      -33.5883    915.4450    ✓       
+159   +42.011VDLDAWR           0.4441      Prosit      -33.6475    915.4450    ✓       
+160   +42.011VDLDAWR           0.4441      Prosit      -33.6701    915.4450    ✓       
+161   +42.011VDLDAWR           0.4441      Prosit      -33.6883    915.4450    ✓       
+162   +42.011VDLDAWR           0.4441      Prosit      -33.7288    915.4450    ✓       
+163   +42.011VDLDAWR           0.4441      Prosit      -33.7380    915.4450    ✓       
+164   +42.011VDLDAWR           0.4441      Prosit      -33.7802    915.4450    ✓       
+165   +42.011VDLDAWR           0.4441      Prosit      -33.7869    915.4450    ✓       
+166   +42.011VDLDAWR           0.4441      Prosit      -33.8883    915.4450    ✓       
+167   +42.011VDLWWR            0.4083      Prosit      -29.5263    915.4603    ✓       
+168   +42.011VDLWWR            0.4083      Prosit      -30.8947    915.4603    ✓       
+169   VDLDWLR                  0.3705      Prosit      -30.2380    915.4814    ✓       
+170   VDLDWLR                  0.3705      Prosit      -34.0010    915.4814    ✓       
+171   VVDLDWR                  -1.0000     NotChecked  -13.1638    901.4658    ✗       
+172   +42.011VDLDWR            -1.0000     NotChecked  -13.4437    844.4079    ✗       
+173   LVDVDWR                  -1.0000     NotChecked  -13.5526    901.4658    ✗       
+174   LVN+0.984LN+0.984WR      -1.0000     Failed      -14.2446    915.4814    ✓       
+175   LVVLDWR                  -1.0000     NotChecked  -14.3695    899.5229    ✗       
+176   LVNLDWR                  -1.0000     NotChecked  -14.3917    914.4974    ✗       
+177   LVDLDWK                  -1.0000     NotChecked  -14.3927    887.4753    ✗       
+178   LVDLLWR                  -1.0000     NotChecked  -14.4314    913.5385    ✗       
+179   LGDLDWR                  -1.0000     NotChecked  -14.5134    873.4345    ✗       
+180   VDLDWR                   -1.0000     NotChecked  -14.5322    802.3974    ✗       
+181   LADLDWR                  -1.0000     NotChecked  -14.6626    887.4501    ✗       
+182   LVSLDWR                  -1.0000     NotChecked  -14.7304    887.4865    ✗       
+183   +42.011VDLDWR            -1.0000     NotChecked  -14.8121    844.4079    ✗       
+184   LVDVDWR                  -1.0000     NotChecked  -14.9211    901.4658    ✗       
+185   LVLDWR                   -1.0000     NotChecked  -15.1274    800.4545    ✗       
+186   LSDLDWR                  -1.0000     NotChecked  -15.3296    903.4450    ✗       
+187   LVLLDWR                  -1.0000     NotChecked  -15.3974    913.5385    ✗       
+188   LVN+0.984LN+0.984WR      -1.0000     Failed      -15.6131    915.4814    ✓       
+189   LVVLDWR                  -1.0000     NotChecked  -15.7379    899.5229    ✗       
+190   LVNLDWR                  -1.0000     NotChecked  -15.7602    914.4974    ✗       
+191   LVDLDWK                  -1.0000     NotChecked  -15.7611    887.4753    ✗       
+192   LVDLLWR                  -1.0000     NotChecked  -15.7999    913.5385    ✗       
+193   LVGLDWR                  -1.0000     NotChecked  -15.9175    857.4759    ✗       
+194   LVDPDWR                  -1.0000     NotChecked  -16.0047    899.4501    ✗       
+195   LVSLDWR                  -1.0000     NotChecked  -16.0988    887.4865    ✗       
+196   +43.006VDLDWR            -1.0000     NotChecked  -16.1832    845.4032    ✗       
+197   LDLDWR                   -1.0000     NotChecked  -16.3308    816.4130    ✗       
+198   LVLDWR                   -1.0000     NotChecked  -16.4959    800.4545    ✗       
+199   LVDLNWR                  -1.0000     NotChecked  -16.5726    914.4974    ✗       
+200   LVDLWR                   -1.0000     NotChecked  -16.7397    800.4545    ✗       
+201   LVLLDWR                  -1.0000     NotChecked  -16.7659    913.5385    ✗       
+202   LVDLPWR                  -1.0000     NotChecked  -16.9302    897.5072    ✗       
+203   LVDVDWR                  -1.0000     NotChecked  -17.0094    901.4658    ✗       
+204   LVGLDWR                  -1.0000     NotChecked  -17.2860    857.4759    ✗       
+205   LVDPDWR                  -1.0000     NotChecked  -17.3732    899.4501    ✗       
+206   +43.006VDLDWR            -1.0000     NotChecked  -17.5517    845.4032    ✗       
+207   LVN+0.984LN+0.984WR      -1.0000     Failed      -17.7015    915.4814    ✓       
+208   LVVLDWR                  -1.0000     NotChecked  -17.8263    899.5229    ✗       
+209   LVNLDWR                  -1.0000     NotChecked  -17.8486    914.4974    ✗       
+210   LVDLDWK                  -1.0000     NotChecked  -17.8495    887.4753    ✗       
+211   LVDLLWR                  -1.0000     NotChecked  -17.8883    913.5385    ✗       
+212   AVDLDWR                  -1.0000     NotChecked  -17.9237    873.4345    ✗       
+213   LVDLNWR                  -1.0000     NotChecked  -17.9411    914.4974    ✗       
+214   LGDLDWR                  -1.0000     NotChecked  -17.9702    873.4345    ✗       
+215   VVDLDWR                  -1.0000     NotChecked  -18.0027    901.4658    ✗       
+216   LDLDWR                   -1.0000     NotChecked  -18.0177    816.4130    ✗       
+217   LVDLWR                   -1.0000     NotChecked  -18.1082    800.4545    ✗       
+218   LADLDWR                  -1.0000     NotChecked  -18.1195    887.4501    ✗       
+219   LVSLDWR                  -1.0000     NotChecked  -18.1872    887.4865    ✗       
+220   +42.011VDLDWR            -1.0000     NotChecked  -18.2826    844.4079    ✗       
+221   VDLDWR                   -1.0000     NotChecked  -18.2953    802.3974    ✗       
+222   LVDLPWR                  -1.0000     NotChecked  -18.2987    897.5072    ✗       
+223   LVDVDWR                  -1.0000     NotChecked  -18.3915    901.4658    ✗       
+224   LVLDWR                   -1.0000     NotChecked  -18.5842    800.4545    ✗       
+225   LSDLDWR                  -1.0000     NotChecked  -18.7864    903.4450    ✗       
+226   LVLLDWR                  -1.0000     NotChecked  -18.8543    913.5385    ✗       
+227   LVN+0.984LN+0.984WR      -1.0000     Failed      -19.0836    915.4814    ✓       
+228   LVVLDWR                  -1.0000     NotChecked  -19.2084    899.5229    ✗       
+229   LVNLDWR                  -1.0000     NotChecked  -19.2307    914.4974    ✗       
+230   LVDLDWK                  -1.0000     NotChecked  -19.2316    887.4753    ✗       
+231   LVDLLWR                  -1.0000     NotChecked  -19.2703    913.5385    ✗       
+232   AVDLDWR                  -1.0000     NotChecked  -19.2922    873.4345    ✗       
+233   LGDLDWR                  -1.0000     NotChecked  -19.3523    873.4345    ✗       
+234   VDLDWR                   -1.0000     NotChecked  -19.3712    802.3974    ✗       
+235   LVGLDWR                  -1.0000     NotChecked  -19.3743    857.4759    ✗       
+236   LVDPDWR                  -1.0000     NotChecked  -19.4616    899.4501    ✗       
+237   LADLDWR                  -1.0000     NotChecked  -19.5015    887.4501    ✗       
+238   LVSLDWR                  -1.0000     NotChecked  -19.5693    887.4865    ✗       
+239   +42.011VDLDWR            -1.0000     NotChecked  -19.6511    844.4079    ✗       
+240   VDLDWR                   -1.0000     NotChecked  -19.6638    802.3974    ✗       
+241   LVDLDWT                  -1.0000     NotChecked  -19.7548    860.4280    ✗       
+242   LVDVDWR                  -1.0000     NotChecked  -19.7600    901.4658    ✗       
+243   LDLDWR                   -1.0000     NotChecked  -19.7876    816.4130    ✗       
+244   LVDLDW                   -1.0000     NotChecked  -19.8775    759.3803    ✗       
+245   LVLDWR                   -1.0000     NotChecked  -19.9663    800.4545    ✗       
+246   VVN+0.984LDWR            -1.0000     NotChecked  -20.0125    901.4658    ✗       
+247   LVDLNWR                  -1.0000     NotChecked  -20.0295    914.4974    ✗       
+248   LSDLDWR                  -1.0000     NotChecked  -20.1685    903.4450    ✗       
+249   LVDLDGR                  -1.0000     NotChecked  -20.1867    786.4236    ✗       
+250   LVDLWR                   -1.0000     NotChecked  -20.1966    800.4545    ✗       
+251   LVLLDWR                  -1.0000     NotChecked  -20.2364    913.5385    ✗       
+252   +42.011VN+0.984LDWR      -1.0000     NotChecked  -20.2924    844.4079    ✗       
+253   VVDLN+0.984WR            -1.0000     NotChecked  -20.2984    901.4658    ✗       
+254   LVDLPWR                  -1.0000     NotChecked  -20.3871    897.5072    ✗       
+255   LVN+0.984VDWR            -1.0000     NotChecked  -20.4013    901.4658    ✗       
+256   LVN+0.984LN+0.984WR      -1.0000     Failed      -20.4520    915.4814    ✓       
+257   LVVLDWR                  -1.0000     NotChecked  -20.5769    899.5229    ✗       
+258   +42.011VDLN+0.984WR      -1.0000     NotChecked  -20.5783    844.4079    ✗       
+259   LVNLDWR                  -1.0000     NotChecked  -20.5991    914.4974    ✗       
+260   LVDLDWK                  -1.0000     NotChecked  -20.6001    887.4753    ✗       
+261   LVDLLWR                  -1.0000     NotChecked  -20.6388    913.5385    ✗       
+262   LVDVN+0.984WR            -1.0000     NotChecked  -20.6872    901.4658    ✗       
+263   LVDLDWP                  -1.0000     NotChecked  -20.7491    856.4331    ✗       
+264   LVGLDWR                  -1.0000     NotChecked  -20.7564    857.4759    ✗       
+265   LVDLDLR                  -1.0000     NotChecked  -20.8060    842.4862    ✗       
+266   LVDPDWR                  -1.0000     NotChecked  -20.8437    899.4501    ✗       
+267   LVDLDWQ                  -1.0000     NotChecked  -20.8731    887.4389    ✗       
+268   LVSLDWR                  -1.0000     NotChecked  -20.9378    887.4865    ✗       
+269   LVDLDWV                  -1.0000     NotChecked  -20.9381    858.4487    ✗       
+270   +43.006VDLDWR            -1.0000     NotChecked  -21.0222    845.4032    ✗       
+271   LVDLDWT                  -1.0000     NotChecked  -21.1233    860.4280    ✗       
+272   LDLDWR                   -1.0000     NotChecked  -21.1697    816.4130    ✗       
+273   LVDLDSR                  -1.0000     NotChecked  -21.2156    816.4341    ✗       
+274   LVN+0.984LDWK            -1.0000     NotChecked  -21.2414    887.4753    ✗       
+275   LVDLDW                   -1.0000     NotChecked  -21.2460    759.3803    ✗       
+276   LVN+0.984LLWR            -1.0000     NotChecked  -21.2801    913.5385    ✗       
+277   LVLDWR                   -1.0000     NotChecked  -21.3348    800.4545    ✗       
+278   LGN+0.984LDWR            -1.0000     NotChecked  -21.3621    873.4345    ✗       
+279   VN+0.984LDWR             -1.0000     NotChecked  -21.3810    802.3974    ✗       
+280   LVDLNWR                  -1.0000     NotChecked  -21.4116    914.4974    ✗       
+281   LVVLN+0.984WR            -1.0000     NotChecked  -21.5041    899.5229    ✗       
+282   LAN+0.984LDWR            -1.0000     NotChecked  -21.5113    887.4501    ✗       
+283   LVNLN+0.984WR            -1.0000     NotChecked  -21.5263    914.4974    ✗       
+284   LVDLN+0.984WK            -1.0000     NotChecked  -21.5273    887.4753    ✗       
+285   LVDLDGR                  -1.0000     NotChecked  -21.5551    786.4236    ✗       
+286   LVDLWR                   -1.0000     NotChecked  -21.5786    800.4545    ✗       
+287   LVLLDWR                  -1.0000     NotChecked  -21.6048    913.5385    ✗       
+288   LGDLN+0.984WR            -1.0000     NotChecked  -21.6480    873.4345    ✗       
+289   +42.011VN+0.984LDWR      -1.0000     NotChecked  -21.6609    844.4079    ✗       
+290   VDLN+0.984WR             -1.0000     NotChecked  -21.6668    802.3974    ✗       
+291   LVDLDWG                  -1.0000     NotChecked  -21.7202    816.4018    ✗       
+292   LVDLDTR                  -1.0000     NotChecked  -21.7478    830.4498    ✗       
+293   LVDLPWR                  -1.0000     NotChecked  -21.7692    897.5072    ✗       
+294   LVN+0.984VDWR            -1.0000     NotChecked  -21.7698    901.4658    ✗       
+295   LADLN+0.984WR            -1.0000     NotChecked  -21.7972    887.4501    ✗       
+296   LVDVDWR                  -1.0000     NotChecked  -21.8484    901.4658    ✗       
+297   LVSLN+0.984WR            -1.0000     NotChecked  -21.8649    887.4865    ✗       
+298   LVDLDPR                  -1.0000     NotChecked  -21.8936    826.4549    ✗       
+299   LVDLDWS                  -1.0000     NotChecked  -21.9112    846.4123    ✗       
+300   +42.011VDLN+0.984WR      -1.0000     NotChecked  -21.9467    844.4079    ✗       
+301   LVDLDWN                  -1.0000     NotChecked  -22.0239    873.4232    ✗       
+302   LVDVN+0.984WR            -1.0000     NotChecked  -22.0556    901.4658    ✗       
+303   LVDLDWP                  -1.0000     NotChecked  -22.1176    856.4331    ✗       
+304   LVGLDWR                  -1.0000     NotChecked  -22.1249    857.4759    ✗       
+305   LVDLDLR                  -1.0000     NotChecked  -22.1745    842.4862    ✗       
+306   LSN+0.984LDWR            -1.0000     NotChecked  -22.1783    903.4450    ✗       
+307   LVDPDWR                  -1.0000     NotChecked  -22.2121    899.4501    ✗       
+308   LVDLDWQ                  -1.0000     NotChecked  -22.2416    887.4389    ✗       
+309   LVLN+0.984WR             -1.0000     NotChecked  -22.2620    800.4545    ✗       
+310   LVDLDWV                  -1.0000     NotChecked  -22.3065    858.4487    ✗       
+311   +43.006VDLDWR            -1.0000     NotChecked  -22.3906    845.4032    ✗       
+312   LSDLN+0.984WR            -1.0000     NotChecked  -22.4642    903.4450    ✗       
+313   LVLLN+0.984WR            -1.0000     NotChecked  -22.5320    913.5385    ✗       
+314   LVN+0.984LN+0.984WR      -1.0000     Failed      -22.5404    915.4814    ✓       
+315   LVDLDSR                  -1.0000     NotChecked  -22.5840    816.4341    ✗       
+316   LVN+0.984LDWK            -1.0000     NotChecked  -22.6099    887.4753    ✗       
+317   LVN+0.984LLWR            -1.0000     NotChecked  -22.6486    913.5385    ✗       
+318   LVVLDWR                  -1.0000     NotChecked  -22.6653    899.5229    ✗       
+319   LVNLDWR                  -1.0000     NotChecked  -22.6875    914.4974    ✗       
+320   LVDLDWK                  -1.0000     NotChecked  -22.6885    887.4753    ✗       
+321   LVDLLWR                  -1.0000     NotChecked  -22.7272    913.5385    ✗       
+322   AVDLDWR                  -1.0000     NotChecked  -22.7626    873.4345    ✗       
+323   LVDLNWR                  -1.0000     NotChecked  -22.7800    914.4974    ✗       
+324   LGDLDWR                  -1.0000     NotChecked  -22.8092    873.4345    ✗       
+325   LVN+0.984PDWR            -1.0000     NotChecked  -22.8535    899.4501    ✗       
+326   LDLDWR                   -1.0000     NotChecked  -22.8567    816.4130    ✗       
+327   LVVLN+0.984WR            -1.0000     NotChecked  -22.8725    899.5229    ✗       
+328   LVNLN+0.984WR            -1.0000     NotChecked  -22.8948    914.4974    ✗       
+329   LVDLN+0.984WK            -1.0000     NotChecked  -22.8957    887.4753    ✗       
+330   LVDLWR                   -1.0000     NotChecked  -22.9471    800.4545    ✗       
+331   LADLDWR                  -1.0000     NotChecked  -22.9584    887.4501    ✗       
+332   LVSLDWR                  -1.0000     NotChecked  -23.0261    887.4865    ✗       
+333   +43.006VN+0.984LDWR      -1.0000     NotChecked  -23.0320    845.4032    ✗       
+334   LVGLN+0.984WR            -1.0000     NotChecked  -23.0521    857.4759    ✗       
+335   LVDLDWG                  -1.0000     NotChecked  -23.0887    816.4018    ✗       
+336   LVDLDTR                  -1.0000     NotChecked  -23.1162    830.4498    ✗       
+337   VDLDWR                   -1.0000     NotChecked  -23.1342    802.3974    ✗       
+338   LVDLPWR                  -1.0000     NotChecked  -23.1376    897.5072    ✗       
+339   LVDPN+0.984WR            -1.0000     NotChecked  -23.1393    899.4501    ✗       
+340   LN+0.984LDWR             -1.0000     NotChecked  -23.1795    816.4130    ✗       
+341   LVDLDWT                  -1.0000     NotChecked  -23.2117    860.4280    ✗       
+342   LVSLN+0.984WR            -1.0000     NotChecked  -23.2334    887.4865    ✗       
+343   LVDLDPR                  -1.0000     NotChecked  -23.2621    826.4549    ✗       
+344   LVDLDWS                  -1.0000     NotChecked  -23.2796    846.4123    ✗       
+345   +43.006VDLN+0.984WR      -1.0000     NotChecked  -23.3178    845.4032    ✗       
+346   LVDLDW                   -1.0000     NotChecked  -23.3344    759.3803    ✗       
+347   LVDLDFR                  -1.0000     NotChecked  -23.3758    876.4705    ✗       
+348   LVDLDWN                  -1.0000     NotChecked  -23.3924    873.4232    ✗       
+349   LVN+0.984LNWR            -1.0000     NotChecked  -23.4214    914.4974    ✗       
+350   LVLDWR                   -1.0000     NotChecked  -23.4232    800.4545    ✗       
+351   LVDLDNR                  -1.0000     NotChecked  -23.4578    843.4450    ✗       
+352   LDLN+0.984WR             -1.0000     NotChecked  -23.4654    816.4130    ✗       
+353   LVN+0.984LWR             -1.0000     NotChecked  -23.5884    800.4545    ✗       
+354   LSDLDWR                  -1.0000     NotChecked  -23.6254    903.4450    ✗       
+355   LVLN+0.984WR             -1.0000     NotChecked  -23.6304    800.4545    ✗       
+356   LVDLDGR                  -1.0000     NotChecked  -23.6435    786.4236    ✗       
+357   LVLLDWR                  -1.0000     NotChecked  -23.6932    913.5385    ✗       
+358   LVDLDER                  -1.0000     NotChecked  -23.7127    858.4447    ✗       
+359   LVDLDQR                  -1.0000     NotChecked  -23.7437    857.4607    ✗       
+360   LVN+0.984LPWR            -1.0000     NotChecked  -23.7790    897.5072    ✗       
+361   LVN+0.984VDWR            -1.0000     NotChecked  -23.8582    901.4658    ✗       
+362   LVLLN+0.984WR            -1.0000     NotChecked  -23.9005    913.5385    ✗       
+363   AVDLDWR                  -1.0000     NotChecked  -24.1311    873.4345    ✗       
+364   LVDVN+0.984WR            -1.0000     NotChecked  -24.1440    901.4658    ✗       
+365   LVDLDWP                  -1.0000     NotChecked  -24.2060    856.4331    ✗       
+366   LVGLDWR                  -1.0000     NotChecked  -24.2133    857.4759    ✗       
+367   LVN+0.984PDWR            -1.0000     NotChecked  -24.2219    899.4501    ✗       
+368   LVDLDLR                  -1.0000     NotChecked  -24.2629    842.4862    ✗       
+369   LVDPDWR                  -1.0000     NotChecked  -24.3005    899.4501    ✗       
+370   LVDLDWQ                  -1.0000     NotChecked  -24.3300    887.4389    ✗       
+371   LVDLDWV                  -1.0000     NotChecked  -24.3949    858.4487    ✗       
+372   +43.006VN+0.984LDWR      -1.0000     NotChecked  -24.4004    845.4032    ✗       
+373   LVGLN+0.984WR            -1.0000     NotChecked  -24.4205    857.4759    ✗       
+374   VDLDWR                   -1.0000     NotChecked  -24.5027    802.3974    ✗       
+375   LVDPN+0.984WR            -1.0000     NotChecked  -24.5078    899.4501    ✗       
+376   LVDLDWT                  -1.0000     NotChecked  -24.5938    860.4280    ✗       
+377   LDLDWR                   -1.0000     NotChecked  -24.6266    816.4130    ✗       
+378   LVDLDSR                  -1.0000     NotChecked  -24.6724    816.4341    ✗       
+379   +43.006VDLN+0.984WR      -1.0000     NotChecked  -24.6863    845.4032    ✗       
+380   LVN+0.984LDWK            -1.0000     NotChecked  -24.6982    887.4753    ✗       
+381   LVDLDW                   -1.0000     NotChecked  -24.7165    759.3803    ✗       
+382   LVN+0.984LLWR            -1.0000     NotChecked  -24.7370    913.5385    ✗       
+383   LVDLDFR                  -1.0000     NotChecked  -24.7442    876.4705    ✗       
+384   AVN+0.984LDWR            -1.0000     NotChecked  -24.7724    873.4345    ✗       
+385   LVN+0.984LNWR            -1.0000     NotChecked  -24.7898    914.4974    ✗       
+386   LGN+0.984LDWR            -1.0000     NotChecked  -24.8189    873.4345    ✗       
+387   LVDLDNR                  -1.0000     NotChecked  -24.8263    843.4450    ✗       
+388   VVN+0.984LDWR            -1.0000     NotChecked  -24.8514    901.4658    ✗       
+389   LN+0.984LDWR             -1.0000     NotChecked  -24.8665    816.4130    ✗       
+390   LVDLNWR                  -1.0000     NotChecked  -24.8684    914.4974    ✗       
+391   LVN+0.984LWR             -1.0000     NotChecked  -24.9569    800.4545    ✗       
+392   LVVLN+0.984WR            -1.0000     NotChecked  -24.9609    899.5229    ✗       
+393   LAN+0.984LDWR            -1.0000     NotChecked  -24.9682    887.4501    ✗       
+394   LVNLN+0.984WR            -1.0000     NotChecked  -24.9832    914.4974    ✗       
+395   LVDLN+0.984WK            -1.0000     NotChecked  -24.9841    887.4753    ✗       
+396   VVDLDWR                  -1.0000     NotChecked  -25.0114    901.4658    ✗       
+397   LVDLWR                   -1.0000     NotChecked  -25.0355    800.4545    ✗       
+398   AVDLN+0.984WR            -1.0000     NotChecked  -25.0583    873.4345    ✗       
+399   LVDLDER                  -1.0000     NotChecked  -25.0812    858.4447    ✗       
+400   LGDLN+0.984WR            -1.0000     NotChecked  -25.1048    873.4345    ✗       
+401   LVDLDQR                  -1.0000     NotChecked  -25.1122    857.4607    ✗       
+402   +42.011VN+0.984LDWR      -1.0000     NotChecked  -25.1313    844.4079    ✗       
+403   VVDLN+0.984WR            -1.0000     NotChecked  -25.1373    901.4658    ✗       
+404   VN+0.984LDWR             -1.0000     NotChecked  -25.1440    802.3974    ✗       
+405   LVN+0.984LPWR            -1.0000     NotChecked  -25.1474    897.5072    ✗       
+406   LDLN+0.984WR             -1.0000     NotChecked  -25.1523    816.4130    ✗       
+407   LVDLDWG                  -1.0000     NotChecked  -25.1771    816.4018    ✗       
+408   LVDLDTR                  -1.0000     NotChecked  -25.2046    830.4498    ✗       
+409   LVDLPWR                  -1.0000     NotChecked  -25.2260    897.5072    ✗       
+410   LVN+0.984VDWR            -1.0000     NotChecked  -25.2403    901.4658    ✗       
+411   LADLN+0.984WR            -1.0000     NotChecked  -25.2540    887.4501    ✗       
+412   +42.011VDLDWR            -1.0000     NotChecked  -25.2913    844.4079    ✗       
+413   LVSLN+0.984WR            -1.0000     NotChecked  -25.3218    887.4865    ✗       
+414   LVDLDPR                  -1.0000     NotChecked  -25.3505    826.4549    ✗       
+415   LVDLDWS                  -1.0000     NotChecked  -25.3680    846.4123    ✗       
+416   +42.011VDLN+0.984WR      -1.0000     NotChecked  -25.4172    844.4079    ✗       
+417   VDLN+0.984WR             -1.0000     NotChecked  -25.4299    802.3974    ✗       
+418   LVDLDWN                  -1.0000     NotChecked  -25.4807    873.4232    ✗       
+419   LVDVN+0.984WR            -1.0000     NotChecked  -25.5261    901.4658    ✗       
+420   LVDLDWP                  -1.0000     NotChecked  -25.5881    856.4331    ✗       
+421   LSN+0.984LDWR            -1.0000     NotChecked  -25.6352    903.4450    ✗       
+422   LVDLDWQ                  -1.0000     NotChecked  -25.7121    887.4389    ✗       
+423   LVLN+0.984WR             -1.0000     NotChecked  -25.7188    800.4545    ✗       
+424   LVDLDWV                  -1.0000     NotChecked  -25.7770    858.4487    ✗       
+425   +42.011VDEDWR            -1.0000     NotChecked  -25.8195    860.3664    ✗       
+426   LSDLN+0.984WR            -1.0000     NotChecked  -25.9210    903.4450    ✗       
+427   LVDLDWT                  -1.0000     NotChecked  -25.9622    860.4280    ✗       
+428   LVLLN+0.984WR            -1.0000     NotChecked  -25.9889    913.5385    ✗       
+429   +42.011VDLEWR            -1.0000     NotChecked  -26.0657    858.4236    ✗       
+430   AVN+0.984LDWR            -1.0000     NotChecked  -26.1409    873.4345    ✗       
+431   VN+0.984LDWR             -1.0000     NotChecked  -26.2199    802.3974    ✗       
+432   VDLDWR                   -1.0000     NotChecked  -26.3799    802.3974    ✗       
+433   +42.011VELDWR            -1.0000     NotChecked  -26.4086    858.4236    ✗       
+434   AVDLN+0.984WR            -1.0000     NotChecked  -26.4267    873.4345    ✗       
+435   VVDVDWR                  -1.0000     NotChecked  -26.4550    887.4501    ✗       
+436   +42.011VN+0.984LDWR      -1.0000     NotChecked  -26.4998    844.4079    ✗       
+437   VDLN+0.984WR             -1.0000     NotChecked  -26.5058    802.3974    ✗       
+438   VN+0.984LDWR             -1.0000     NotChecked  -26.5125    802.3974    ✗       
+439   +42.011VDLDWR            -1.0000     NotChecked  -26.6598    844.4079    ✗       
+440   +42.011VDVDWR            -1.0000     NotChecked  -26.7349    830.3923    ✗       
+441   +42.011VDLN+0.984WR      -1.0000     NotChecked  -26.7857    844.4079    ✗       
+442   VDLN+0.984WR             -1.0000     NotChecked  -26.7983    802.3974    ✗       
+443   VDEDWR                   -1.0000     NotChecked  -26.9081    818.3559    ✗       
+444   VVN+0.984LN+0.984WR      -1.0000     NotChecked  -27.1471    901.4658    ✗       
+445   VDLEWR                   -1.0000     NotChecked  -27.1543    816.4130    ✗       
+446   +42.011VDEDWR            -1.0000     NotChecked  -27.1880    860.3664    ✗       
+447   VVVLDWR                  -1.0000     NotChecked  -27.2719    885.5072    ✗       
+448   VVNLDWR                  -1.0000     NotChecked  -27.2942    900.4818    ✗       
+449   VVDLDWK                  -1.0000     NotChecked  -27.2951    873.4596    ✗       
+450   VVDLLWR                  -1.0000     NotChecked  -27.3338    899.5229    ✗       
+451   VGDLDWR                  -1.0000     NotChecked  -27.4158    859.4188    ✗       
+452   +42.011VN+0.984LN+0.984WR-1.0000     NotChecked  -27.4270    844.4079    ✗       
+453   +42.011VDLEWR            -1.0000     NotChecked  -27.4342    858.4236    ✗       
+454   VELDWR                   -1.0000     NotChecked  -27.4972    816.4130    ✗       
+455   VWLDWR                   -1.0000     NotChecked  -27.5226    873.4497    ✗       
+456   +42.011VVLDWR            -1.0000     NotChecked  -27.5518    828.4494    ✗       
+457   VADLDWR                  -1.0000     NotChecked  -27.5651    873.4345    ✗       
+458   +42.011VNLDWR            -1.0000     NotChecked  -27.5741    843.4239    ✗       
+459   +42.011VDLDWK            -1.0000     NotChecked  -27.5750    816.4018    ✗       
+460   +42.011VDLLWR            -1.0000     NotChecked  -27.6137    842.4650    ✗       
+461   VVDLDWR                  -1.0000     NotChecked  -27.6242    901.4658    ✗       
+462   VVSLDWR                  -1.0000     NotChecked  -27.6328    873.4709    ✗       
+463   +42.011GDLDWR            -1.0000     NotChecked  -27.6957    802.3610    ✗       
+464   +42.011LDLDWR            -1.0000     NotChecked  -27.7432    858.4236    ✗       
+465   +42.011VELDWR            -1.0000     NotChecked  -27.7771    858.4236    ✗       
+466   VDVDWR                   -1.0000     NotChecked  -27.8235    788.3817    ✗       
+467   +42.011ADLDWR            -1.0000     NotChecked  -27.8450    816.3766    ✗       
+468   +43.006VN+0.984LDWR      -1.0000     NotChecked  -27.8709    845.4032    ✗       
+469   +42.011VDLDWR            -1.0000     NotChecked  -27.9041    844.4079    ✗       
+470   +42.011VSLDWR            -1.0000     NotChecked  -27.9127    816.4130    ✗       
+471   VVDDDWR                  -1.0000     NotChecked  -27.9261    903.4086    ✗       
+472   VVLDWR                   -1.0000     NotChecked  -28.0298    786.4388    ✗       
+473   +43.006VDLDWR            -1.0000     NotChecked  -28.0309    845.4032    ✗       
+474   +42.011VDVDWR            -1.0000     NotChecked  -28.1034    830.3923    ✗       
+475   +43.006VDLN+0.984WR      -1.0000     NotChecked  -28.1568    845.4032    ✗       
+476   +42.011VDDDWR            -1.0000     NotChecked  -28.2060    846.3508    ✗       
+477   VDWDWR                   -1.0000     NotChecked  -28.2305    875.3926    ✗       
+478   VSDLDWR                  -1.0000     NotChecked  -28.2320    889.4294    ✗       
+479   VVDLDWR                  -1.0000     NotChecked  -28.2439    901.4658    ✗       
+480   VVLLDWR                  -1.0000     NotChecked  -28.2999    899.5229    ✗       
+481   +42.011VLDWR             -1.0000     NotChecked  -28.3097    729.3810    ✗       
+482   +42.011KDLDWR            -1.0000     NotChecked  -28.3707    873.4345    ✗       
+483   +42.011RDLDWR            -1.0000     NotChecked  -28.4101    901.4406    ✗       
+484   +42.011SDLDWR            -1.0000     NotChecked  -28.5119    832.3715    ✗       
+485   +42.011VDMDWR            -1.0000     NotChecked  -28.5153    862.3643    ✗       
+486   VN+0.984LN+0.984WR       -1.0000     NotChecked  -28.5155    802.3974    ✗       
+487   +42.011VDLDWR            -1.0000     NotChecked  -28.5238    844.4079    ✗       
+488   +42.011VDLDWGR           -1.0000     NotChecked  -28.5301    901.4294    ✗       
+489   +43.006VDEDWR            -1.0000     NotChecked  -28.5591    861.3617    ✗       
+490   +42.011VLLDWR            -1.0000     NotChecked  -28.5798    842.4650    ✗       
+491   VVLDWR                   -1.0000     NotChecked  -28.6404    786.4388    ✗       
+492   VNLDWR                   -1.0000     NotChecked  -28.6626    801.4133    ✗       
+493   VDLDWK                   -1.0000     NotChecked  -28.6636    774.3912    ✗       
+494   VDLLWR                   -1.0000     NotChecked  -28.7023    800.4545    ✗       
+495   VGDLDWR                  -1.0000     NotChecked  -28.7843    859.4188    ✗       
+496   +42.011VN+0.984LN+0.984WR-1.0000     NotChecked  -28.7955    844.4079    ✗       
+497   VVDLDWR                  -1.0000     NotChecked  -28.8012    901.4658    ✗       
+498   +43.006VDLEWR            -1.0000     NotChecked  -28.8053    859.4188    ✗       
+499   VVGLDWR                  -1.0000     NotChecked  -28.8199    843.4603    ✗       
+500   VVDPDWR                  -1.0000     NotChecked  -28.9072    885.4345    ✗       
+501   +42.011VVLDWR            -1.0000     NotChecked  -28.9203    828.4494    ✗       
+502   VADLDWR                  -1.0000     NotChecked  -28.9335    873.4345    ✗       
+503   +42.011VNLDWR            -1.0000     NotChecked  -28.9425    843.4239    ✗       
+504   +42.011VDLDWK            -1.0000     NotChecked  -28.9435    816.4018    ✗       
+505   +42.011GVDLDWR           -1.0000     NotChecked  -28.9523    901.4294    ✗       
+506   +42.011VDLLWR            -1.0000     NotChecked  -28.9822    842.4650    ✗       
+507   VDLDWR                   -1.0000     NotChecked  -28.9927    802.3974    ✗       
+508   VSLDWR                   -1.0000     NotChecked  -29.0013    774.4024    ✗       
+509   +42.011VGDLDWR           -1.0000     NotChecked  -29.0642    901.4294    ✗       
+510   +42.011VDLDWR            -1.0000     NotChecked  -29.0811    844.4079    ✗       
+511   +42.011VGLDWR            -1.0000     NotChecked  -29.0998    786.4024    ✗       
+512   +43.006VELDWR            -1.0000     NotChecked  -29.1482    859.4188    ✗       
+513   +42.011VDPDWR            -1.0000     NotChecked  -29.1871    828.3766    ✗       
+514   VDLDWR                   -1.0000     NotChecked  -29.2332    802.3974    ✗       
+515   +43.006VN+0.984LDWR      -1.0000     NotChecked  -29.2394    845.4032    ✗       
+516   +42.011VDLQ+0.984WR      -1.0000     NotChecked  -29.2557    858.4236    ✗       
+517   +42.011VDLDWR            -1.0000     NotChecked  -29.2726    844.4079    ✗       
+518   +42.011VSLDWR            -1.0000     NotChecked  -29.2812    816.4130    ✗       
+519   +42.011VDLMWR            -1.0000     NotChecked  -29.2931    860.4215    ✗       
+520   VDDDWR                   -1.0000     NotChecked  -29.2946    804.3402    ✗       
+521   +42.011NDLDWR            -1.0000     NotChecked  -29.3111    859.3824    ✗       
+522   VLDWR                    -1.0000     NotChecked  -29.3983    687.3704    ✗       
+523   +43.006VDLDWR            -1.0000     NotChecked  -29.3994    845.4032    ✗       
+524   +43.006VDVDWR            -1.0000     NotChecked  -29.4745    831.3875    ✗       
+525   VVDLNWR                  -1.0000     NotChecked  -29.4751    900.4818    ✗       
+526   +42.011DLDWR             -1.0000     NotChecked  -29.5131    745.3395    ✗       
+527   +43.006VDLN+0.984WR      -1.0000     NotChecked  -29.5252    845.4032    ✗       
+528   +42.011VDRDWR            -1.0000     NotChecked  -29.5745    887.4250    ✗       
+529   +42.011VDDDWR            -1.0000     NotChecked  -29.5745    846.3508    ✗       
+530   VSDLDWR                  -1.0000     NotChecked  -29.6005    889.4294    ✗       
+531   VDMDWR                   -1.0000     NotChecked  -29.6038    820.3538    ✗       
+532   AVN+0.984LDWR            -1.0000     NotChecked  -29.6113    873.4345    ✗       
+533   VDLDWR                   -1.0000     NotChecked  -29.6124    802.3974    ✗       
+534   VDLDWGR                  -1.0000     NotChecked  -29.6186    859.4188    ✗       
+535   VVDLWR                   -1.0000     NotChecked  -29.6421    786.4388    ✗       
+536   VLLDWR                   -1.0000     NotChecked  -29.6683    800.4545    ✗       
+537   +42.011VLDWR             -1.0000     NotChecked  -29.6782    729.3810    ✗       
+538   +42.011VDLNWR            -1.0000     NotChecked  -29.7550    843.4239    ✗       
+539   AVDLDWR                  -1.0000     NotChecked  -29.7714    873.4345    ✗       
+540   VVDLPWR                  -1.0000     NotChecked  -29.8327    883.4916    ✗       
+541   VVDLDWR                  -1.0000     NotChecked  -29.8504    901.4658    ✗       
+542   VVDNDWR                  -1.0000     NotChecked  -29.8560    902.4246    ✗       
+543   +42.011VDMDWR            -1.0000     NotChecked  -29.8837    862.3643    ✗       
+544   +42.011VDLDWR            -1.0000     NotChecked  -29.8923    844.4079    ✗       
+545   AVDLN+0.984WR            -1.0000     NotChecked  -29.8972    873.4345    ✗       
+546   +42.011VDLDWGR           -1.0000     NotChecked  -29.8985    901.4294    ✗       
+547   +42.011VDLWR             -1.0000     NotChecked  -29.9220    729.3810    ✗       
+548   +43.006VDEDWR            -1.0000     NotChecked  -29.9275    861.3617    ✗       
+549   +42.011VDQDWR            -1.0000     NotChecked  -29.9375    859.3824    ✗       
+550   +42.011VLLDWR            -1.0000     NotChecked  -29.9483    842.4650    ✗       
+551   VN+0.984LDWR             -1.0000     NotChecked  -29.9829    802.3974    ✗       
+552   +42.011VDLPWR            -1.0000     NotChecked  -30.1126    826.4337    ✗       
+553   +42.011VDLDWR            -1.0000     NotChecked  -30.1303    844.4079    ✗       
+554   +42.011VDNDWR            -1.0000     NotChecked  -30.1359    845.3668    ✗       
+555   VDLDWR                   -1.0000     NotChecked  -30.1430    802.3974    ✗       
+556   +43.006VN+0.984LN+0.984WR-1.0000     NotChecked  -30.1665    845.4032    ✗       
+557   VDLDWR                   -1.0000     NotChecked  -30.1697    802.3974    ✗       
+558   +43.006VDLEWR            -1.0000     NotChecked  -30.1737    859.4188    ✗       
+559   VGLDWR                   -1.0000     NotChecked  -30.1884    744.3919    ✗       
+560   VVDLDWR                  -1.0000     NotChecked  -30.2097    901.4658    ✗       
+561   VDLN+0.984WR             -1.0000     NotChecked  -30.2688    802.3974    ✗       
+562   VDPDWR                   -1.0000     NotChecked  -30.2756    786.3661    ✗       
+563   +43.006VVLDWR            -1.0000     NotChecked  -30.2914    829.4446    ✗       
+564   AVDEDWR                  -1.0000     NotChecked  -30.2995    889.3930    ✗       
+565   +43.006VNLDWR            -1.0000     NotChecked  -30.3136    844.4192    ✗       
+566   +43.006VDLDWK            -1.0000     NotChecked  -30.3146    817.3970    ✗       
+567   +42.011VDLDWR            -1.0000     NotChecked  -30.3278    844.4079    ✗       
+568   VDLQ+0.984WR             -1.0000     NotChecked  -30.3442    816.4130    ✗       
+569   +43.006VDLLWR            -1.0000     NotChecked  -30.3533    843.4603    ✗       
+570   VDLMWR                   -1.0000     NotChecked  -30.3817    818.4109    ✗       
+571   +43.006GDLDWR            -1.0000     NotChecked  -30.4353    803.3562    ✗       
+572   VVDLDWR                  -1.0000     NotChecked  -30.4387    901.4658    ✗       
+573   +42.011VDLDWR            -1.0000     NotChecked  -30.4496    844.4079    ✗       
+574   +42.011VGLDWR            -1.0000     NotChecked  -30.4683    786.4024    ✗       
+575   +43.006LDLDWR            -1.0000     NotChecked  -30.4828    859.4188    ✗       
+576   +43.006VELDWR            -1.0000     NotChecked  -30.5166    859.4188    ✗       
+577   AVDLEWR                  -1.0000     NotChecked  -30.5457    887.4501    ✗       
+578   +42.011VDPDWR            -1.0000     NotChecked  -30.5555    828.3766    ✗       
+579   +43.006ADLDWR            -1.0000     NotChecked  -30.5845    817.3719    ✗       
+580   VDLDWR                   -1.0000     NotChecked  -30.6017    802.3974    ✗       
+581   VDLWWR                   -1.0000     NotChecked  -30.6148    873.4497    ✗       
+582   +42.011VDLQ+0.984WR      -1.0000     NotChecked  -30.6241    858.4236    ✗       
+583   +43.006VDLDWR            -1.0000     NotChecked  -30.6437    845.4032    ✗       
+584   VDLDWSR                  -1.0000     NotChecked  -30.6475    889.4294    ✗       
+585   KVVLDWR                  -1.0000     NotChecked  -30.6500    914.5338    ✗       
+586   +43.006VSLDWR            -1.0000     NotChecked  -30.6522    817.4083    ✗       
+587   +42.011VDEDWR            -1.0000     NotChecked  -30.6585    860.3664    ✗       
+588   +42.011VDLMWR            -1.0000     NotChecked  -30.6616    860.4215    ✗       
+589   VDRDWR                   -1.0000     NotChecked  -30.6631    845.4144    ✗       
+590   VDEDWR                   -1.0000     NotChecked  -30.6711    818.3559    ✗       
+591   KVDLDWK                  -1.0000     NotChecked  -30.6732    902.4862    ✗       
+592   +42.011VDLDGWR           -1.0000     NotChecked  -30.6895    901.4294    ✗       
+593   +42.011VDLDWR            -1.0000     NotChecked  -30.7186    844.4079    ✗       
+594   KGDLDWR                  -1.0000     NotChecked  -30.7939    888.4454    ✗       
+595   +43.006VDVDWR            -1.0000     NotChecked  -30.8430    831.3875    ✗       
+596   VDLNWR                   -1.0000     NotChecked  -30.8435    801.4133    ✗       
+597   +42.011VDLDWR            -1.0000     NotChecked  -30.8816    844.4079    ✗       
+598   AVELDWR                  -1.0000     NotChecked  -30.8886    887.4501    ✗       
+599   +42.011VDLEWR            -1.0000     NotChecked  -30.9046    858.4236    ✗       
+600   VDLEWR                   -1.0000     NotChecked  -30.9173    816.4130    ✗       
+601   +42.011VDRDWR            -1.0000     NotChecked  -30.9430    887.4250    ✗       
+602   KADLDWR                  -1.0000     NotChecked  -30.9432    902.4610    ✗       
+603   +43.006VDDDWR            -1.0000     NotChecked  -30.9456    847.3460    ✗       
+604   +42.011VGDLDWR           -1.0000     NotChecked  -30.9467    901.4294    ✗       
+605   AVN+0.984LDWR            -1.0000     NotChecked  -30.9798    873.4345    ✗       
+606   VDLWR                    -1.0000     NotChecked  -31.0106    687.3704    ✗       
+607   KVSLDWR                  -1.0000     NotChecked  -31.0109    902.4974    ✗       
+608   VDQDWR                   -1.0000     NotChecked  -31.0260    817.3719    ✗       
+609   +43.006VLDWR             -1.0000     NotChecked  -31.0493    730.3762    ✗       
+610   +43.006KDLDWR            -1.0000     NotChecked  -31.1102    874.4297    ✗       
+611   +42.011VDLNWR            -1.0000     NotChecked  -31.1235    843.4239    ✗       
+612   AVDLDWR                  -1.0000     NotChecked  -31.1398    873.4345    ✗       
+613   +43.006RDLDWR            -1.0000     NotChecked  -31.1496    902.4359    ✗       
+614   VDLDWTR                  -1.0000     NotChecked  -31.1797    903.4450    ✗       
+615   +42.011LDLDWR            -1.0000     NotChecked  -31.2001    858.4236    ✗       
+616   VDLPWR                   -1.0000     NotChecked  -31.2011    784.4232    ✗       
+617   AVDVDWR                  -1.0000     NotChecked  -31.2150    859.4188    ✗       
+618   VDLDWR                   -1.0000     NotChecked  -31.2188    802.3974    ✗       
+619   VVDLDWR                  -1.0000     NotChecked  -31.2207    901.4658    ✗       
+620   VDNDWR                   -1.0000     NotChecked  -31.2245    803.3562    ✗       
+621   +42.011VDLDGWR           -1.0000     NotChecked  -31.2284    901.4294    ✗       
+622   +42.011VELDWR            -1.0000     NotChecked  -31.2475    858.4236    ✗       
+623   +43.006SDLDWR            -1.0000     NotChecked  -31.2515    833.3668    ✗       
+624   +43.006VDMDWR            -1.0000     NotChecked  -31.2548    863.3596    ✗       
+625   VELDWR                   -1.0000     NotChecked  -31.2602    816.4130    ✗       
+626   +43.006VDLDWR            -1.0000     NotChecked  -31.2634    845.4032    ✗       
+627   +42.011VDLDGWR           -1.0000     NotChecked  -31.2654    901.4294    ✗       
+628   AVDLN+0.984WR            -1.0000     NotChecked  -31.2657    873.4345    ✗       
+629   +43.006VDLDWGR           -1.0000     NotChecked  -31.2696    902.4246    ✗       
+630   VWLDWR                   -1.0000     NotChecked  -31.2856    873.4497    ✗       
+631   +42.011VDLDGWR           -1.0000     NotChecked  -31.2861    901.4294    ✗       
+632   +42.011VDLWR             -1.0000     NotChecked  -31.2905    729.3810    ✗       
+633   VVDVDWR                  -1.0000     NotChecked  -31.2940    887.4501    ✗       
+634   +42.011VDQDWR            -1.0000     NotChecked  -31.3059    859.3824    ✗       
+635   +43.006VLLDWR            -1.0000     NotChecked  -31.3193    843.4603    ✗       
+636   VDLDWPR                  -1.0000     NotChecked  -31.3256    899.4501    ✗       
+637   +42.011VGDLDWR           -1.0000     NotChecked  -31.3411    901.4294    ✗       
+638   +42.011VDLDGWR           -1.0000     NotChecked  -31.3479    901.4294    ✗       
+639   VN+0.984LDWR             -1.0000     NotChecked  -31.3514    802.3974    ✗       
+640   KVLDWR                   -1.0000     NotChecked  -31.4079    815.4654    ✗       
+641   +42.011VDLDGWR           -1.0000     NotChecked  -31.4385    901.4294    ✗       
+642   +42.011VDLPWR            -1.0000     NotChecked  -31.4810    826.4337    ✗       
+643   VLVLDWR                  -1.0000     NotChecked  -31.4867    899.5229    ✗       
+644   +42.011VDLDWR            -1.0000     NotChecked  -31.4987    844.4079    ✗       
+645   +42.011VDLDWR            -1.0000     NotChecked  -31.5006    844.4079    ✗       
+646   +42.011VDNDWR            -1.0000     NotChecked  -31.5044    845.3668    ✗       
+647   VDLDWR                   -1.0000     NotChecked  -31.5114    802.3974    ✗       
+648   +43.006VN+0.984LN+0.984WR-1.0000     NotChecked  -31.5350    845.4032    ✗       
+649   +42.011VDGLDWR           -1.0000     NotChecked  -31.5389    901.4294    ✗       
+650   +42.011VDVDWR            -1.0000     NotChecked  -31.5739    830.3923    ✗       
+651   VDVDWR                   -1.0000     NotChecked  -31.5865    788.3817    ✗       
+652   +42.011VDLDGWR           -1.0000     NotChecked  -31.6042    901.4294    ✗       
+653   VDLN+0.984WR             -1.0000     NotChecked  -31.6373    802.3974    ✗       
+654   +43.006VVLDWR            -1.0000     NotChecked  -31.6598    829.4446    ✗       
+655   AVDEDWR                  -1.0000     NotChecked  -31.6680    889.3930    ✗       
+656   +43.006VNLDWR            -1.0000     NotChecked  -31.6821    844.4192    ✗       
+657   +43.006VDLDWK            -1.0000     NotChecked  -31.6830    817.3970    ✗       
+658   +43.006GVDLDWR           -1.0000     NotChecked  -31.6918    902.4246    ✗       
+659   +43.006VDLLWR            -1.0000     NotChecked  -31.7218    843.4603    ✗       
+660   +42.011VDLDGWR           -1.0000     NotChecked  -31.7380    901.4294    ✗       
+661   VDEDWR                   -1.0000     NotChecked  -31.7470    818.3559    ✗       
+662   +42.011LVLDWR            -1.0000     NotChecked  -31.7666    842.4650    ✗       
+663   VDLDGWR                  -1.0000     NotChecked  -31.7781    859.4188    ✗       
+664   +43.006VGDLDWR           -1.0000     NotChecked  -31.8037    902.4246    ✗       
+665   VDLDWR                   -1.0000     NotChecked  -31.8072    802.3974    ✗       
+666   VVDLDWR                  -1.0000     NotChecked  -31.8192    901.4658    ✗       
+667   +43.006VDLDWR            -1.0000     NotChecked  -31.8207    845.4032    ✗       
+668   +42.011VDGLDWR           -1.0000     NotChecked  -31.8391    901.4294    ✗       
+669   +43.006VGLDWR            -1.0000     NotChecked  -31.8394    787.3977    ✗       
+670   VVN+0.984LDWR            -1.0000     NotChecked  -31.8602    901.4658    ✗       
+671   AVN+0.984LN+0.984WR      -1.0000     NotChecked  -31.9070    873.4345    ✗       
+672   AVDLEWR                  -1.0000     NotChecked  -31.9142    887.4501    ✗       
+673   +43.006VDPDWR            -1.0000     NotChecked  -31.9266    829.3719    ✗       
+674   VVN+0.984LN+0.984WR      -1.0000     NotChecked  -31.9860    901.4658    ✗       
+675   VDLEWR                   -1.0000     NotChecked  -31.9932    816.4130    ✗       
+676   VDWDWR                   -1.0000     NotChecked  -31.9936    875.3926    ✗       
+677   +43.006VDLQ+0.984WR      -1.0000     NotChecked  -31.9952    859.4188    ✗       
+678   +43.006VDLDWR            -1.0000     NotChecked  -32.0121    845.4032    ✗       
+679   KVVLDWR                  -1.0000     NotChecked  -32.0185    914.5338    ✗       
+680   +43.006VSLDWR            -1.0000     NotChecked  -32.0207    817.4083    ✗       
+681   VADLDWR                  -1.0000     NotChecked  -32.0235    873.4345    ✗       
+682   +42.011VDEDWR            -1.0000     NotChecked  -32.0269    860.3664    ✗       
+683   AVVLDWR                  -1.0000     NotChecked  -32.0318    857.4759    ✗       
+684   +43.006VDLMWR            -1.0000     NotChecked  -32.0327    861.4167    ✗       
+685   VGDLDWR                  -1.0000     NotChecked  -32.0353    859.4188    ✗       
+686   VDEDWR                   -1.0000     NotChecked  -32.0396    818.3559    ✗       
+687   KVDLDWK                  -1.0000     NotChecked  -32.0417    902.4862    ✗       
+688   +43.006NDLDWR            -1.0000     NotChecked  -32.0507    860.3777    ✗       
+689   AVNLDWR                  -1.0000     NotChecked  -32.0541    872.4505    ✗       
+690   AVDLDWK                  -1.0000     NotChecked  -32.0550    845.4283    ✗       
+691   +42.011VDLDGWR           -1.0000     NotChecked  -32.0580    901.4294    ✗       
+692   +42.011VDLDWR            -1.0000     NotChecked  -32.0871    844.4079    ✗       
+693   AVDLLWR                  -1.0000     NotChecked  -32.0938    871.4916    ✗       
+694   +42.011VDLDWR            -1.0000     NotChecked  -32.0991    844.4079    ✗       
+695   VVVLDWR                  -1.0000     NotChecked  -32.1108    885.5072    ✗       
+696   VVNLDWR                  -1.0000     NotChecked  -32.1331    900.4818    ✗       
+697   VVDLDWK                  -1.0000     NotChecked  -32.1340    873.4596    ✗       
+698   +42.011VN+0.984LDWR      -1.0000     NotChecked  -32.1401    844.4079    ✗       
+699   VVDLN+0.984WR            -1.0000     NotChecked  -32.1460    901.4658    ✗       
+700   VVDLLWR                  -1.0000     NotChecked  -32.1728    899.5229    ✗       
+701   AGDLDWR                  -1.0000     NotChecked  -32.1757    831.3875    ✗       
+702   KVGLDWR                  -1.0000     NotChecked  -32.1980    872.4868    ✗       
+703   RVLDWR                   -1.0000     NotChecked  -32.2063    843.4715    ✗       
+704   ALDLDWR                  -1.0000     NotChecked  -32.2232    887.4501    ✗       
+705   EVDLDWK                  -1.0000     NotChecked  -32.2318    903.4338    ✗       
+706   +43.006DLDWR             -1.0000     NotChecked  -32.2527    746.3348    ✗       
+707   VGDLDWR                  -1.0000     NotChecked  -32.2547    859.4188    ✗       
+708   AVELDWR                  -1.0000     NotChecked  -32.2571    887.4501    ✗       
+709   +42.011VN+0.984LN+0.984WR-1.0000     NotChecked  -32.2659    844.4079    ✗       
+710   +42.011VDLEWR            -1.0000     NotChecked  -32.2731    858.4236    ✗       
+711   VN+0.984LN+0.984WR       -1.0000     NotChecked  -32.2786    802.3974    ✗       
+712   KVDPDWR                  -1.0000     NotChecked  -32.2853    914.4610    ✗       
+713   VDLEWR                   -1.0000     NotChecked  -32.2858    816.4130    ✗       
+714   VDSLDWR                  -1.0000     NotChecked  -32.3069    889.4294    ✗       
+715   +43.006VDRDWR            -1.0000     NotChecked  -32.3141    888.4202    ✗       
+716   +43.006VDDDWR            -1.0000     NotChecked  -32.3141    847.3460    ✗       
+717   +42.011VGDLDWR           -1.0000     NotChecked  -32.3152    901.4294    ✗       
+718   VDLDGWR                  -1.0000     NotChecked  -32.3169    859.4188    ✗       
+719   AADLDWR                  -1.0000     NotChecked  -32.3250    845.4032    ✗       
+720   VELDWR                   -1.0000     NotChecked  -32.3361    816.4130    ✗       
+721   +42.011VDLDGWR           -1.0000     NotChecked  -32.3448    901.4294    ✗       
+722   EGDLDWR                  -1.0000     NotChecked  -32.3525    889.3930    ✗       
+723   VDLDGWR                  -1.0000     NotChecked  -32.3540    859.4188    ✗       
+724   VWLDWR                   -1.0000     NotChecked  -32.3615    873.4497    ✗       
+725   VDLDGWR                  -1.0000     NotChecked  -32.3747    859.4188    ✗       
+726   KVSLDWR                  -1.0000     NotChecked  -32.3794    902.4974    ✗       
+727   AVDLDWR                  -1.0000     NotChecked  -32.3841    873.4345    ✗       
+728   +42.011VVLDWR            -1.0000     NotChecked  -32.3907    828.4494    ✗       
+729   AVSLDWR                  -1.0000     NotChecked  -32.3927    845.4396    ✗       
+730   VVLDWR                   -1.0000     NotChecked  -32.4034    786.4388    ✗       
+731   VADLDWR                  -1.0000     NotChecked  -32.4040    873.4345    ✗       
+732   +42.011VNLDWR            -1.0000     NotChecked  -32.4130    843.4239    ✗       
+733   +42.011VDLDWK            -1.0000     NotChecked  -32.4140    816.4018    ✗       
+734   +43.006VLDWR             -1.0000     NotChecked  -32.4178    730.3762    ✗       
+735   VNLDWR                   -1.0000     NotChecked  -32.4257    801.4133    ✗       
+736   +42.011VDLN+0.984WR      -1.0000     NotChecked  -32.4259    844.4079    ✗       
+737   VDLDWK                   -1.0000     NotChecked  -32.4266    774.3912    ✗       
+738   VGDLDWR                  -1.0000     NotChecked  -32.4297    859.4188    ✗       
+739   VDLDGWR                  -1.0000     NotChecked  -32.4365    859.4188    ✗       
+740   +42.011VDLLWR            -1.0000     NotChecked  -32.4527    842.4650    ✗       
+741   VVDLDWR                  -1.0000     NotChecked  -32.4632    901.4658    ✗       
+742   VDLLWR                   -1.0000     NotChecked  -32.4654    800.4545    ✗       
+743   VVSLDWR                  -1.0000     NotChecked  -32.4717    873.4709    ✗       
+744   +43.006VDLNWR            -1.0000     NotChecked  -32.4945    844.4192    ✗       
+745   EADLDWR                  -1.0000     NotChecked  -32.5018    903.4086    ✗       
+746   VDLDGWR                  -1.0000     NotChecked  -32.5271    859.4188    ✗       
+747   +42.011GDLDWR            -1.0000     NotChecked  -32.5347    802.3610    ✗       
+748   GDLDWR                   -1.0000     NotChecked  -32.5473    760.3504    ✗       
+749   VSDLDWR                  -1.0000     NotChecked  -32.5520    889.4294    ✗       
+750   +42.011LVGLDWR           -1.0000     NotChecked  -32.5567    899.4865    ✗       
+751   EVSLDWR                  -1.0000     NotChecked  -32.5695    903.4450    ✗       
+752   +42.011LDLDWR            -1.0000     NotChecked  -32.5822    858.4236    ✗       
+753   AVDVDWR                  -1.0000     NotChecked  -32.5834    859.4188    ✗       
+754   VDLDWR                   -1.0000     NotChecked  -32.5892    802.3974    ✗       
+755   LDLDWR                   -1.0000     NotChecked  -32.5948    816.4130    ✗       
+756   +42.011VDLDGWR           -1.0000     NotChecked  -32.5968    901.4294    ✗       
+757   VADLDWR                  -1.0000     NotChecked  -32.6028    873.4345    ✗       
+758   KDLDWR                   -1.0000     NotChecked  -32.6113    831.4239    ✗       
+759   +42.011VELDWR            -1.0000     NotChecked  -32.6160    858.4236    ✗       
+760   +43.006VDMDWR            -1.0000     NotChecked  -32.6233    863.3596    ✗       
+761   VDGLDWR                  -1.0000     NotChecked  -32.6275    859.4188    ✗       
+762   VDLDPWR                  -1.0000     NotChecked  -32.6279    899.4501    ✗       
+763   VELDWR                   -1.0000     NotChecked  -32.6287    816.4130    ✗       
+764   +43.006VDLDWR            -1.0000     NotChecked  -32.6318    845.4032    ✗       
+765   +42.011VDLDGWR           -1.0000     NotChecked  -32.6339    901.4294    ✗       
+766   +43.006VDLDWGR           -1.0000     NotChecked  -32.6381    902.4246    ✗       
+767   VWLDWR                   -1.0000     NotChecked  -32.6541    873.4497    ✗       
+768   +42.011VDLDGWR           -1.0000     NotChecked  -32.6546    901.4294    ✗       
+769   VVDLDWT                  -1.0000     NotChecked  -32.6573    846.4123    ✗       
+770   +43.006VDLWR             -1.0000     NotChecked  -32.6616    730.3762    ✗       
+771   VDVDWR                   -1.0000     NotChecked  -32.6624    788.3817    ✗       
+772   +42.011VN+0.984EDWR      -1.0000     NotChecked  -32.6683    860.3664    ✗       
+773   +43.006VDQDWR            -1.0000     NotChecked  -32.6770    860.3777    ✗       
+774   +42.011ADLDWR            -1.0000     NotChecked  -32.6839    816.3766    ✗       
+775   AVDDDWR                  -1.0000     NotChecked  -32.6861    875.3773    ✗       
+776   +43.006VLLDWR            -1.0000     NotChecked  -32.6878    843.4603    ✗       
+777   VDLDGWR                  -1.0000     NotChecked  -32.6927    859.4188    ✗       
+778   ADLDWR                   -1.0000     NotChecked  -32.6966    774.3661    ✗       
+779   +42.011VGDLDWR           -1.0000     NotChecked  -32.7096    901.4294    ✗       
+780   +42.011VDLDGWR           -1.0000     NotChecked  -32.7164    901.4294    ✗       
+781   +42.011VDLDWR            -1.0000     NotChecked  -32.7431    844.4079    ✗       
+782   +42.011VSLDWR            -1.0000     NotChecked  -32.7516    816.4130    ✗       
+783   VDLDWR                   -1.0000     NotChecked  -32.7557    802.3974    ✗       
+784   VSLDWR                   -1.0000     NotChecked  -32.7643    774.4024    ✗       
+785   VVDDDWR                  -1.0000     NotChecked  -32.7651    903.4086    ✗       
+786   +42.011VDLGDWR           -1.0000     NotChecked  -32.7712    901.4294    ✗       
+787   KVLDWR                   -1.0000     NotChecked  -32.7764    815.4654    ✗       
+788   VVDLDW                   -1.0000     NotChecked  -32.7800    745.3647    ✗       
+789   AVLDWR                   -1.0000     NotChecked  -32.7897    758.4075    ✗       
+790   +42.011VDLDGWR           -1.0000     NotChecked  -32.8070    901.4294    ✗       
+791   VDLDGWR                  -1.0000     NotChecked  -32.8265    859.4188    ✗       
+792   VDSLDWR                  -1.0000     NotChecked  -32.8382    889.4294    ✗       
+793   AKDLDWR                  -1.0000     NotChecked  -32.8507    902.4610    ✗       
+794   +43.006VDLPWR            -1.0000     NotChecked  -32.8521    827.4290    ✗       
+795   VVLDWR                   -1.0000     NotChecked  -32.8688    786.4388    ✗       
+796   +42.011VDLDWR            -1.0000     NotChecked  -32.8691    844.4079    ✗       
+797   +43.006VDLDWR            -1.0000     NotChecked  -32.8698    845.4032    ✗       
+798   +43.006VDNDWR            -1.0000     NotChecked  -32.8755    846.3620    ✗       
+799   +42.011VDGLDWR           -1.0000     NotChecked  -32.9074    901.4294    ✗       
+800   +42.011VN+0.984LEWR      -1.0000     NotChecked  -32.9144    858.4236    ✗       
+801   VDGLDWR                  -1.0000     NotChecked  -32.9277    859.4188    ✗       
+802   +42.011VDLDWT            -1.0000     NotChecked  -32.9372    789.3545    ✗       
+803   +42.011VDVDWR            -1.0000     NotChecked  -32.9423    830.3923    ✗       
+804   +42.011VDEN+0.984WR      -1.0000     NotChecked  -32.9541    860.3664    ✗       
+805   VDVDWR                   -1.0000     NotChecked  -32.9550    788.3817    ✗       
+806   EVLDWR                   -1.0000     NotChecked  -32.9665    816.4130    ✗       
+807   +42.011LDLDWR            -1.0000     NotChecked  -32.9700    858.4236    ✗       
+808   +42.011VDLDGWR           -1.0000     NotChecked  -32.9726    901.4294    ✗       
+809   VDLDAWR                  -1.0000     NotChecked  -32.9762    873.4345    ✗       
+810   ASDLDWR                  -1.0000     NotChecked  -32.9919    861.3981    ✗       
+811   AVDMDWR                  -1.0000     NotChecked  -32.9953    891.3909    ✗       
+812   RVGLDWR                  -1.0000     NotChecked  -32.9964    900.4930    ✗       
+813   AVDLDWR                  -1.0000     NotChecked  -33.0038    873.4345    ✗       
+814   KVDLWR                   -1.0000     NotChecked  -33.0202    815.4654    ✗       
+815   VVDLDWR                  -1.0000     NotChecked  -33.0249    901.4658    ✗       
+816   +42.011VDLDGWR           -1.0000     NotChecked  -33.0396    901.4294    ✗       
+817   +42.011VDDDWR            -1.0000     NotChecked  -33.0450    846.3508    ✗       
+818   VDDDWR                   -1.0000     NotChecked  -33.0577    804.3402    ✗       
+819   AVLLDWR                  -1.0000     NotChecked  -33.0598    871.4916    ✗       
+820   +42.011VDLDW             -1.0000     NotChecked  -33.0599    688.3068    ✗       
+821   +43.006+42.011VDLDWR     -1.0000     NotChecked  -33.0674    887.4137    ✗       
+822   VDWDWR                   -1.0000     NotChecked  -33.0694    875.3926    ✗       
+823   VSDLDWR                  -1.0000     NotChecked  -33.0710    889.4294    ✗       
+824   +42.011VDLGDWR           -1.0000     NotChecked  -33.0727    901.4294    ✗       
+825   VVDLDWR                  -1.0000     NotChecked  -33.0829    901.4658    ✗       
+826   FGDLDWR                  -1.0000     NotChecked  -33.0844    907.4188    ✗       
+827   VDLDAWR                  -1.0000     NotChecked  -33.0861    873.4345    ✗       
+828   VVDLDGR                  -1.0000     NotChecked  -33.0891    772.4079    ✗       
+829   VLVDLWR                  -1.0000     NotChecked  -33.0990    899.5229    ✗       
+830   +42.011VDLDGWR           -1.0000     NotChecked  -33.1064    901.4294    ✗       
+831   VDLDSWR                  -1.0000     NotChecked  -33.1321    889.4294    ✗       
+832   VVLLDWR                  -1.0000     NotChecked  -33.1388    899.5229    ✗       
+833   +42.011VLDWR             -1.0000     NotChecked  -33.1487    729.3810    ✗       
+834   VLDWR                    -1.0000     NotChecked  -33.1613    687.3704    ✗       
+835   VDLDWR                   -1.0000     NotChecked  -33.1877    802.3974    ✗       
+836   +43.006VDLDWR            -1.0000     NotChecked  -33.1892    845.4032    ✗       
+837   +42.011VDGLDWR           -1.0000     NotChecked  -33.2076    901.4294    ✗       
+838   +43.006VGLDWR            -1.0000     NotChecked  -33.2079    787.3977    ✗       
+839   +42.011KDLDWR            -1.0000     NotChecked  -33.2096    873.4345    ✗       
+840   KVDLPWR                  -1.0000     NotChecked  -33.2108    912.5181    ✗       
+841   KDLDWR                   -1.0000     NotChecked  -33.2223    831.4239    ✗       
+842   VN+0.984LDWR             -1.0000     NotChecked  -33.2286    802.3974    ✗       
+843   VDLDTWR                  -1.0000     NotChecked  -33.2411    903.4450    ✗       
+844   +42.011RDLDWR            -1.0000     NotChecked  -33.2490    901.4406    ✗       
+845   RDLDWR                   -1.0000     NotChecked  -33.2617    859.4300    ✗       
+846   AVN+0.984LN+0.984WR      -1.0000     NotChecked  -33.2755    873.4345    ✗       
+847   +43.006VDPDWR            -1.0000     NotChecked  -33.2951    829.3719    ✗       
+848   VVN+0.984VDWR            -1.0000     NotChecked  -33.3038    887.4501    ✗       
+849   +42.011VDLDWR            -1.0000     NotChecked  -33.3048    844.4079    ✗       
+850   VDLDAWR                  -1.0000     NotChecked  -33.3084    873.4345    ✗       
+851   +42.011SDLDWR            -1.0000     NotChecked  -33.3509    832.3715    ✗       
+852   +42.011VDMDWR            -1.0000     NotChecked  -33.3542    862.3643    ✗       
+853   VN+0.984LN+0.984WR       -1.0000     NotChecked  -33.3545    802.3974    ✗       
+854   VSDLDWR                  -1.0000     NotChecked  -33.3614    889.4294    ✗       
+855   VDWDWR                   -1.0000     NotChecked  -33.3620    875.3926    ✗       
+856   +42.011VDLDWR            -1.0000     NotChecked  -33.3628    844.4079    ✗       
+857   SDLDWR                   -1.0000     NotChecked  -33.3635    790.3610    ✗       
+858   +43.006VDLQ+0.984WR      -1.0000     NotChecked  -33.3637    859.4188    ✗       
+859   VDMDWR                   -1.0000     NotChecked  -33.3669    820.3538    ✗       
+860   +42.011VDLDGR            -1.0000     NotChecked  -33.3690    715.3501    ✗       
+861   VDLDWR                   -1.0000     NotChecked  -33.3754    802.3974    ✗       
+862   +42.011LVDLWR            -1.0000     NotChecked  -33.3789    842.4650    ✗       
+863   VDLDWGR                  -1.0000     NotChecked  -33.3817    859.4188    ✗       
+864   AVDLDWR                  -1.0000     NotChecked  -33.3865    873.4345    ✗       
+865   VDLDAWR                  -1.0000     NotChecked  -33.3902    873.4345    ✗       
+866   +43.006VDEDWR            -1.0000     NotChecked  -33.3980    861.3617    ✗       
+867   AVVLDWR                  -1.0000     NotChecked  -33.4003    857.4759    ✗       
+868   +43.006VDLMWR            -1.0000     NotChecked  -33.4011    861.4167    ✗       
+869   RDLDWR                   -1.0000     NotChecked  -33.4096    859.4300    ✗       
+870   +42.011VLLDWR            -1.0000     NotChecked  -33.4187    842.4650    ✗       
+871   AVNLDWR                  -1.0000     NotChecked  -33.4225    872.4505    ✗       
+872   AVDLDWK                  -1.0000     NotChecked  -33.4235    845.4283    ✗       
+873   +43.006VDLDGWR           -1.0000     NotChecked  -33.4291    902.4246    ✗       
+874   VLLDWR                   -1.0000     NotChecked  -33.4314    800.4545    ✗       
+875   VDLDGWR                  -1.0000     NotChecked  -33.4334    859.4188    ✗       
+876   VDLDAWR                  -1.0000     NotChecked  -33.4489    873.4345    ✗       
+877   +43.006VDLDWR            -1.0000     NotChecked  -33.4582    845.4032    ✗       
+878   AVDLLWR                  -1.0000     NotChecked  -33.4622    871.4916    ✗       
+879   +42.011VDLDWR            -1.0000     NotChecked  -33.4676    844.4079    ✗       
+880   VVLDWR                   -1.0000     NotChecked  -33.4793    786.4388    ✗       
+881   VDLPDWR                  -1.0000     NotChecked  -33.4904    899.4501    ✗       
+882   VNLDWR                   -1.0000     NotChecked  -33.5016    801.4133    ✗       
+883   VDLDWK                   -1.0000     NotChecked  -33.5025    774.3912    ✗       
+884   VDLDAWR                  -1.0000     NotChecked  -33.5070    873.4345    ✗       
+885   +42.011VN+0.984LDWR      -1.0000     NotChecked  -33.5085    844.4079    ✗       
+886   VDLDVWR                  -1.0000     NotChecked  -33.5124    901.4658    ✗       
+887   VDLN+0.984WR             -1.0000     NotChecked  -33.5145    802.3974    ✗       
+888   VTDLDWR                  -1.0000     NotChecked  -33.5405    903.4450    ✗       
+889   VDLLWR                   -1.0000     NotChecked  -33.5412    800.4545    ✗       
+890   +42.011VELN+0.984WR      -1.0000     NotChecked  -33.5432    858.4236    ✗       
+891   AVDLDWR                  -1.0000     NotChecked  -33.5612    873.4345    ✗       
+892   KVGLDWR                  -1.0000     NotChecked  -33.5665    872.4868    ✗       
+893   +42.011VDLDGWR           -1.0000     NotChecked  -33.5716    901.4294    ✗       
+894   RVLDWR                   -1.0000     NotChecked  -33.5747    843.4715    ✗       
+895   AVGLDWR                  -1.0000     NotChecked  -33.5798    815.4290    ✗       
+896   +42.011VN+0.984VDWR      -1.0000     NotChecked  -33.5837    830.3923    ✗       
+897   +42.011VDLDGWR           -1.0000     NotChecked  -33.5847    901.4294    ✗       
+898   VVDVN+0.984WR            -1.0000     NotChecked  -33.5896    887.4501    ✗       
+899   EVDLDWK                  -1.0000     NotChecked  -33.6003    903.4338    ✗       
+900   VDALDWR                  -1.0000     NotChecked  -33.6026    873.4345    ✗       
+901   VDLDAWR                  -1.0000     NotChecked  -33.6083    873.4345    ✗       
+902   +43.006VDLDWR            -1.0000     NotChecked  -33.6211    845.4032    ✗       
+903   VGDLDWR                  -1.0000     NotChecked  -33.6232    859.4188    ✗       
+904   +42.011VDLDGWR           -1.0000     NotChecked  -33.6331    901.4294    ✗       
+905   +42.011VN+0.984LN+0.984WR-1.0000     NotChecked  -33.6344    844.4079    ✗       
+906   VVDLDWR                  -1.0000     NotChecked  -33.6402    901.4658    ✗       
+907   +43.006VDLEWR            -1.0000     NotChecked  -33.6442    859.4188    ✗       
+908   VN+0.984LN+0.984WR       -1.0000     NotChecked  -33.6471    802.3974    ✗       
+909   VVDLDWP                  -1.0000     NotChecked  -33.6516    842.4174    ✗       
+910   KVDPDWR                  -1.0000     NotChecked  -33.6537    914.4610    ✗       
+911   +42.011VDLDGWR           -1.0000     NotChecked  -33.6584    901.4294    ✗       
+912   VVGLDWR                  -1.0000     NotChecked  -33.6589    843.4603    ✗       
+913   AVDPDWR                  -1.0000     NotChecked  -33.6671    857.4032    ✗       
+914   +43.006VDRDWR            -1.0000     NotChecked  -33.6825    888.4202    ✗       
+915   +43.006VGDLDWR           -1.0000     NotChecked  -33.6863    902.4246    ✗       
+916   FVLDWR                   -1.0000     NotChecked  -33.6984    834.4388    ✗       
+917   VVDLDLR                  -1.0000     NotChecked  -33.7085    828.4705    ✗       
+918   +42.011VDLDGWR           -1.0000     NotChecked  -33.7133    901.4294    ✗       
+919   AVDLQ+0.984WR            -1.0000     NotChecked  -33.7357    887.4501    ✗       
+920   VVDPDWR                  -1.0000     NotChecked  -33.7461    885.4345    ✗       
+921   AVDLDWR                  -1.0000     NotChecked  -33.7526    873.4345    ✗       
+922   EVGLDWR                  -1.0000     NotChecked  -33.7566    873.4345    ✗       
+923   VN+0.984EDWR             -1.0000     NotChecked  -33.7568    818.3559    ✗       
+924   AVDLDWR                  -1.0000     NotChecked  -33.7581    873.4345    ✗       
+925   +42.011VVLDWR            -1.0000     NotChecked  -33.7592    828.4494    ✗       
+926   AVSLDWR                  -1.0000     NotChecked  -33.7612    845.4396    ✗       
+927   +42.011VDLDGWR           -1.0000     NotChecked  -33.7679    901.4294    ✗       
+928   VVLDWR                   -1.0000     NotChecked  -33.7719    786.4388    ✗       
+929   VADLDWR                  -1.0000     NotChecked  -33.7724    873.4345    ✗       
+930   AVDLMWR                  -1.0000     NotChecked  -33.7731    889.4480    ✗       
+931   VVDLDWQ                  -1.0000     NotChecked  -33.7756    873.4232    ✗       
+932   +42.011VNLDWR            -1.0000     NotChecked  -33.7815    843.4239    ✗       
+933   +42.011VDLDWK            -1.0000     NotChecked  -33.7824    816.4018    ✗       
+934   ANDLDWR                  -1.0000     NotChecked  -33.7911    888.4090    ✗       
+935   +42.011GVDLDWR           -1.0000     NotChecked  -33.7912    901.4294    ✗       
+936   VNLDWR                   -1.0000     NotChecked  -33.7941    801.4133    ✗       
+937   +42.011VDLN+0.984WR      -1.0000     NotChecked  -33.7944    844.4079    ✗       
+938   VDLDWK                   -1.0000     NotChecked  -33.7951    774.3912    ✗       
+939   +42.011VDLDGWR           -1.0000     NotChecked  -33.8005    901.4294    ✗       
+940   GVDLDWR                  -1.0000     NotChecked  -33.8039    859.4188    ✗       
+941   RVDLWR                   -1.0000     NotChecked  -33.8186    843.4715    ✗       
+942   +42.011VDLLWR            -1.0000     NotChecked  -33.8211    842.4650    ✗       
+943   VDLDWR                   -1.0000     NotChecked  -33.8316    802.3974    ✗       
+944   VDLLWR                   -1.0000     NotChecked  -33.8338    800.4545    ✗       
+945   VSLDWR                   -1.0000     NotChecked  -33.8402    774.4024    ✗       
+946   VVDLDWV                  -1.0000     NotChecked  -33.8405    844.4331    ✗       
+947   VDLDSWR                  -1.0000     NotChecked  -33.8591    889.4294    ✗       
+948   VDLGDWR                  -1.0000     NotChecked  -33.8598    859.4188    ✗       
+949   +43.006VDLNWR            -1.0000     NotChecked  -33.8630    844.4192    ✗       
+950   +42.011VDVN+0.984WR      -1.0000     NotChecked  -33.8695    830.3923    ✗       
+951   +42.011VDLDGWR           -1.0000     NotChecked  -33.8883    901.4294    ✗       
+952   +42.011VDLDGWR           -1.0000     NotChecked  -33.8885    901.4294    ✗       
+953   +42.011VGDLDWR           -1.0000     NotChecked  -33.9031    901.4294    ✗       
+954   VGDLDWR                  -1.0000     NotChecked  -33.9158    859.4188    ✗       
+955   +42.011VDLDWR            -1.0000     NotChecked  -33.9201    844.4079    ✗       
+956   +42.011VDLDWP            -1.0000     NotChecked  -33.9315    785.3596    ✗       
+957   VDLDWR                   -1.0000     NotChecked  -33.9328    802.3974    ✗       
+958   EVSLDWR                  -1.0000     NotChecked  -33.9380    903.4450    ✗       
+959   +42.011VGLDWR            -1.0000     NotChecked  -33.9388    786.4024    ✗       
+960   +43.006LDLDWR            -1.0000     NotChecked  -33.9396    859.4188    ✗       
+961   VGLDWR                   -1.0000     NotChecked  -33.9514    744.3919    ✗       
+962   +43.006VDLDGWR           -1.0000     NotChecked  -33.9679    902.4246    ✗       
+963   +42.011VDLDGWR           -1.0000     NotChecked  -33.9702    901.4294    ✗       
+964   VVDLDWR                  -1.0000     NotChecked  -33.9727    901.4658    ✗       
+965   VDLDAWR                  -1.0000     NotChecked  -33.9769    873.4345    ✗       
+966   VDLDAWR                  -1.0000     NotChecked  -33.9829    873.4345    ✗       
+967   +43.006VELDWR            -1.0000     NotChecked  -33.9871    859.4188    ✗       
+968   +42.011VDLDLR            -1.0000     NotChecked  -33.9884    771.4127    ✗       
+969   ADLDWR                   -1.0000     NotChecked  -33.9931    774.3661    ✗       
+970   VN+0.984LEWR             -1.0000     NotChecked  -34.0030    816.4130    ✗       
+971   +43.006VDLDGWR           -1.0000     NotChecked  -34.0050    902.4246    ✗       
+972   VDLDAWR                  -1.0000     NotChecked  -34.0201    873.4345    ✗       
+973   +43.006VDLDGWR           -1.0000     NotChecked  -34.0257    902.4246    ✗       
+974   VDLDWT                   -1.0000     NotChecked  -34.0257    747.3439    ✗       
+975   +42.011VDPDWR            -1.0000     NotChecked  -34.0260    828.3766    ✗       
+976   +43.006VDLWR             -1.0000     NotChecked  -34.0301    730.3762    ✗       
+977   VDLDAWR                  -1.0000     NotChecked  -34.0340    873.4345    ✗       
+978   +42.011VN+0.984EDWR      -1.0000     NotChecked  -34.0367    860.3664    ✗       
+979   VDPDWR                   -1.0000     NotChecked  -34.0387    786.3661    ✗       
+980   VDEN+0.984WR             -1.0000     NotChecked  -34.0427    818.3559    ✗       
+981   +43.006VDQDWR            -1.0000     NotChecked  -34.0455    860.3777    ✗       
+982   AVDDDWR                  -1.0000     NotChecked  -34.0545    875.3773    ✗       
+983   +42.011VDLDWQ            -1.0000     NotChecked  -34.0555    816.3654    ✗       
+984   VADLDWR                  -1.0000     NotChecked  -34.0650    873.4345    ✗       
+985   VDLDWR                   -1.0000     NotChecked  -34.0721    802.3974    ✗       
+986   +42.011VDLDGWR           -1.0000     NotChecked  -34.0796    901.4294    ✗       
+987   +43.006VGDLDWR           -1.0000     NotChecked  -34.0807    902.4246    ✗       
+988   VDLDAWR                  -1.0000     NotChecked  -34.0853    873.4345    ✗       
+989   +43.006VDLDGWR           -1.0000     NotChecked  -34.0875    902.4246    ✗       
+990   +42.011VDLQ+0.984WR      -1.0000     NotChecked  -34.0946    858.4236    ✗       
+991   +42.011VDLDGWR           -1.0000     NotChecked  -34.0966    901.4294    ✗       
+992   +42.011VDLDGWR           -1.0000     NotChecked  -34.0969    901.4294    ✗       
+993   VDLQ+0.984WR             -1.0000     NotChecked  -34.1073    816.4130    ✗       
+994   +42.011VDLDWR            -1.0000     NotChecked  -34.1115    844.4079    ✗       
+995   VVDLDSR                  -1.0000     NotChecked  -34.1180    802.4185    ✗       
+996   +42.011VSLDWR            -1.0000     NotChecked  -34.1201    816.4130    ✗       
+997   +42.011VDLDWV            -1.0000     NotChecked  -34.1204    787.3752    ✗       
+998   VDLDAWR                  -1.0000     NotChecked  -34.1236    873.4345    ✗       
+999   VDLDWR                   -1.0000     NotChecked  -34.1242    802.3974    ✗       
+1000  +42.011VDLDGWR           -1.0000     NotChecked  -34.1244    901.4294    ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: LVDLDWR
+Similarity: 0.9366
+De Novo Score: -0.2613
+Source: Database
+Correct: ✓
+

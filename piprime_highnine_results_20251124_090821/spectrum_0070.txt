@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 70
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 819.9208
+Precursor charge: 2+
+Ground truth: EDPIQPQQAASVVEK
+Ground truth (normalized): EDPIQPQQAASVVEK
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 321
+Used for reranking: 321
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 321 (32.1%)
+Database matches: 112 (11.2%)
+Prosit predictions: 161 (16.1%)
+Failed: 48 (4.8%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.9338
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     EDPLQPQQAASVVEK          0.9338      Database    -0.5931     1637.8261   ✓       ✓
+2     EDPLQPQQAASVVEK          0.9338      Database    -0.8627     1637.8261   ✓       ✓
+3     EDPLQPQQAASVVEK          0.9338      Database    -5.8276     1637.8261   ✓       ✓
+4     EDPLQPQQAASVVEK          0.9338      Database    -6.0972     1637.8261   ✓       ✓
+5     EDPLQPQQAASVVEK          0.9338      Database    -7.1906     1637.8261   ✓       ✓
+6     EDPLQPQQAASVVEK          0.9338      Database    -7.4602     1637.8261   ✓       ✓
+7     EDPLQPQQAASVVEK          0.9338      Database    -8.9655     1637.8261   ✓       ✓
+8     EDPLQPQQAASVVEK          0.9338      Database    -9.2351     1637.8261   ✓       ✓
+9     EDPLQPQQAASVVEK          0.9338      Database    -10.6455    1637.8261   ✓       ✓
+10    EDPLQPQQAASVVEK          0.9338      Database    -10.9151    1637.8261   ✓       ✓
+11    EDPLQPQQAASVVEK          0.9338      Database    -12.0226    1637.8261   ✓       ✓
+12    EDPLQPQQAASVVEK          0.9338      Database    -12.2922    1637.8261   ✓       ✓
+13    EDPLQPQQAASVVEK          0.9338      Database    -12.4251    1637.8261   ✓       ✓
+14    EDPLQPQQAASVVEK          0.9338      Database    -12.6437    1637.8261   ✓       ✓
+15    EDPLQPQQAASVVEK          0.9338      Database    -12.6532    1637.8261   ✓       ✓
+16    EDPLQPQQAASVVEK          0.9338      Database    -12.6740    1637.8261   ✓       ✓
+17    EDPLQPQQAASVVEK          0.9338      Database    -12.6947    1637.8261   ✓       ✓
+18    EDPLQPQQAASVVEK          0.9338      Database    -12.9133    1637.8261   ✓       ✓
+19    EDPLQPQQAASVVEK          0.9338      Database    -12.9227    1637.8261   ✓       ✓
+20    EDPLQPQQAASVVEK          0.9338      Database    -12.9436    1637.8261   ✓       ✓
+21    EDPLQPQQAASVVEK          0.9338      Database    -13.2095    1637.8261   ✓       ✓
+22    EDPLQPQQAASVVEK          0.9338      Database    -13.2648    1637.8261   ✓       ✓
+23    EDPLQPQQAASVVEK          0.9338      Database    -13.4791    1637.8261   ✓       ✓
+24    EDPLQPQQAASVVEK          0.9338      Database    -13.5344    1637.8261   ✓       ✓
+25    EDPLQPQQAASVVEK          0.9338      Database    -14.0316    1637.8261   ✓       ✓
+26    EDPLQPQQAASVVEK          0.9338      Database    -14.2000    1637.8261   ✓       ✓
+27    EDPLQPQQAASVVEK          0.9338      Database    -14.3012    1637.8261   ✓       ✓
+28    EDPLQPQQAASVVEK          0.9338      Database    -14.4612    1637.8261   ✓       ✓
+29    EDPLQPQQAASVVEK          0.9338      Database    -14.4696    1637.8261   ✓       ✓
+30    EDPLQPQQAASVVEK          0.9338      Database    -14.5910    1637.8261   ✓       ✓
+31    EDPLQPQQAASVVEK          0.9338      Database    -14.7308    1637.8261   ✓       ✓
+32    EDPLQPQQAASVVEK          0.9338      Database    -14.8606    1637.8261   ✓       ✓
+33    EDPLQPQQAASVVEK          0.9338      Database    -14.9632    1637.8261   ✓       ✓
+34    EDPLQPQQAASVVEK          0.9338      Database    -15.5630    1637.8261   ✓       ✓
+35    EDPLQPQQAASVVEK          0.9338      Database    -15.7007    1637.8261   ✓       ✓
+36    EDPLQPQQAASVVEK          0.9338      Database    -15.7674    1637.8261   ✓       ✓
+37    EDPLQPQQAASVVEK          0.9338      Database    -15.8326    1637.8261   ✓       ✓
+38    EDPLQPQQAASVVEK          0.9338      Database    -15.9703    1637.8261   ✓       ✓
+39    EDPLQPQQAASVVEK          0.9338      Database    -16.0370    1637.8261   ✓       ✓
+40    EDPLQPQQAASVVEK          0.9338      Database    -16.2111    1637.8261   ✓       ✓
+41    EDPLQPQQAASVVEK          0.9338      Database    -16.4174    1637.8261   ✓       ✓
+42    EDPLQPQQAASVVEK          0.9338      Database    -16.4807    1637.8261   ✓       ✓
+43    EDPLQPQQAASVVEK          0.9338      Database    -17.2429    1637.8261   ✓       ✓
+44    EDPLQPQQAASVVEK          0.9338      Database    -17.2570    1637.8261   ✓       ✓
+45    EDPLQPQQAASVVEK          0.9338      Database    -17.3714    1637.8261   ✓       ✓
+46    EDPLQPQQAASVVEK          0.9338      Database    -17.3716    1637.8261   ✓       ✓
+47    EDPLQPQQAASVVEK          0.9338      Database    -17.4717    1637.8261   ✓       ✓
+48    EDPLQPQQAASVVEK          0.9338      Database    -17.5051    1637.8261   ✓       ✓
+49    EDPLQPQQAASVVEK          0.9338      Database    -17.5125    1637.8261   ✓       ✓
+50    EDPLQPQQAASVVEK          0.9338      Database    -17.5266    1637.8261   ✓       ✓
+51    EDPLQPQQAASVVEK          0.9338      Database    -17.6410    1637.8261   ✓       ✓
+52    EDPLQPQQAASVVEK          0.9338      Database    -17.6412    1637.8261   ✓       ✓
+53    EDPLQPQQAASVVEK          0.9338      Database    -17.7413    1637.8261   ✓       ✓
+54    EDPLQPQQAASVVEK          0.9338      Database    -17.7747    1637.8261   ✓       ✓
+55    EDPLQPQQAASVVEK          0.9338      Database    -17.8782    1637.8261   ✓       ✓
+56    EDPLQPQQAASVVEK          0.9338      Database    -17.8876    1637.8261   ✓       ✓
+57    EDPLQPQQAASVVEK          0.9338      Database    -17.9085    1637.8261   ✓       ✓
+58    EDPLQPQQAASVVEK          0.9338      Database    -18.1478    1637.8261   ✓       ✓
+59    EDPLQPQQAASVVEK          0.9338      Database    -18.1572    1637.8261   ✓       ✓
+60    EDPLQPQQAASVVEK          0.9338      Database    -18.1781    1637.8261   ✓       ✓
+61    EDPLQPQQAASVVEK          0.9338      Database    -18.4440    1637.8261   ✓       ✓
+62    EDPLQPQQAASVVEK          0.9338      Database    -18.4992    1637.8261   ✓       ✓
+63    EDPLQPQQAASVVEK          0.9338      Database    -18.5006    1637.8261   ✓       ✓
+64    EDPLQPQQAASVVEK          0.9338      Database    -18.6201    1637.8261   ✓       ✓
+65    EDPLQPQQAASVVEK          0.9338      Database    -18.6429    1637.8261   ✓       ✓
+66    EDPLQPQQAASVVEK          0.9338      Database    -18.7136    1637.8261   ✓       ✓
+67    EDPLQPQQAASVVEK          0.9338      Database    -18.7688    1637.8261   ✓       ✓
+68    EDPLQPQQAASVVEK          0.9338      Database    -18.7702    1637.8261   ✓       ✓
+69    EDPLQPQQAASVVEK          0.9338      Database    -18.8897    1637.8261   ✓       ✓
+70    EDPLQPQQAASVVEK          0.9338      Database    -18.8944    1637.8261   ✓       ✓
+71    EDPLQPQQAASVVEK          0.9338      Database    -18.9125    1637.8261   ✓       ✓
+72    EDPLQPQQAASVVEK          0.9338      Database    -19.0179    1637.8261   ✓       ✓
+73    EDPLQPQQAASVVEK          0.9338      Database    -19.0854    1637.8261   ✓       ✓
+74    EDPLQPQQAASVVEK          0.9338      Database    -19.1640    1637.8261   ✓       ✓
+75    EDPLQPQQAASVVEK          0.9338      Database    -19.2166    1637.8261   ✓       ✓
+76    EDPLQPQQAASVVEK          0.9338      Database    -19.2412    1637.8261   ✓       ✓
+77    EDPLQPQQAASVVEK          0.9338      Database    -19.2506    1637.8261   ✓       ✓
+78    EDPLQPQQAASVVEK          0.9338      Database    -19.2660    1637.8261   ✓       ✓
+79    EDPLQPQQAASVVEK          0.9338      Database    -19.2715    1637.8261   ✓       ✓
+80    EDPLQPQQAASVVEK          0.9338      Database    -19.2874    1637.8261   ✓       ✓
+81    EDPLQPQQAASVVEK          0.9338      Database    -19.3550    1637.8261   ✓       ✓
+82    EDPLQPQQAASVVEK          0.9338      Database    -19.4862    1637.8261   ✓       ✓
+83    EDPLQPQQAASVVEK          0.9338      Database    -19.5108    1637.8261   ✓       ✓
+84    EDPLQPQQAASVVEK          0.9338      Database    -19.5202    1637.8261   ✓       ✓
+85    EDPLQPQQAASVVEK          0.9338      Database    -19.5356    1637.8261   ✓       ✓
+86    EDPLQPQQAASVVEK          0.9338      Database    -19.5411    1637.8261   ✓       ✓
+87    EDPLQPQQAASVVEK          0.9338      Database    -19.6956    1637.8261   ✓       ✓
+88    EDPLQPQQAASVVEK          0.9338      Database    -19.8070    1637.8261   ✓       ✓
+89    EDPLQPQQAASVVEK          0.9338      Database    -19.8254    1637.8261   ✓       ✓
+90    EDPLQPQQAASVVEK          0.9338      Database    -19.8623    1637.8261   ✓       ✓
+91    EDPLQPQQAASVVEK          0.9338      Database    -19.8822    1637.8261   ✓       ✓
+92    EDPLQPQQAASVVEK          0.9338      Database    -19.9652    1637.8261   ✓       ✓
+93    EDPLQPQQAASVVEK          0.9338      Database    -20.0766    1637.8261   ✓       ✓
+94    EDPLQPQQAASVVEK          0.9338      Database    -20.0950    1637.8261   ✓       ✓
+95    EDPLQPQQAASVVEK          0.9338      Database    -20.1319    1637.8261   ✓       ✓
+96    EDPLQPQQAASVVEK          0.9338      Database    -20.1518    1637.8261   ✓       ✓
+97    EDPLQPQQAASVVEK          0.9338      Database    -20.1977    1637.8261   ✓       ✓
+98    EDPLQPQQAASVVEK          0.9338      Database    -20.3950    1637.8261   ✓       ✓
+99    EDPLQPQQAASVVEK          0.9338      Database    -20.6291    1637.8261   ✓       ✓
+100   EDPLQPQQAASVVEK          0.9338      Database    -20.6646    1637.8261   ✓       ✓
+101   EDPLQPQQAASVVEK          0.9338      Database    -20.7974    1637.8261   ✓       ✓
+102   EDPLQPQQAASVVEK          0.9338      Database    -20.8986    1637.8261   ✓       ✓
+103   EDPLQPQQAASVVEK          0.9338      Database    -20.9351    1637.8261   ✓       ✓
+104   EDPLQPQQAASVVEK          0.9338      Database    -21.0018    1637.8261   ✓       ✓
+105   EDPLQPQQAASVVEK          0.9338      Database    -21.0161    1637.8261   ✓       ✓
+106   EDPLQPQQAASVVEK          0.9338      Database    -21.0255    1637.8261   ✓       ✓
+107   EDPLQPQQAASVVEK          0.9338      Database    -21.0464    1637.8261   ✓       ✓
+108   EDPLQPQQAASVVEK          0.9338      Database    -21.0586    1637.8261   ✓       ✓
+109   EDPLQPQQAASVVEK          0.9338      Database    -21.0670    1637.8261   ✓       ✓
+110   EDPLQPQQAASVVEK          0.9338      Database    -21.1884    1637.8261   ✓       ✓
+111   EDPLQPQQAASVVEK          0.9338      Database    -21.2047    1637.8261   ✓       ✓
+112   EDPLQPQQAASVVEK          0.9338      Database    -21.2714    1637.8261   ✓       ✓
+113   EN+0.984PLQPQQAASVVEK    0.5513      Prosit      -8.3258     1637.8261   ✓       
+114   EN+0.984PLQPQQAASVVEK    0.5513      Prosit      -8.5954     1637.8261   ✓       
+115   EN+0.984PLQPQQAASVVEK    0.5513      Prosit      -13.5602    1637.8261   ✓       
+116   EN+0.984PLQPQQAASVVEK    0.5513      Prosit      -13.8298    1637.8261   ✓       
+117   EN+0.984PLQPQQAASVVEK    0.5513      Prosit      -14.9232    1637.8261   ✓       
+118   EN+0.984PLQPQQAASVVEK    0.5513      Prosit      -15.1928    1637.8261   ✓       
+119   EN+0.984PLQPQQAASVVEK    0.5513      Prosit      -16.6982    1637.8261   ✓       
+120   EN+0.984PLQPQQAASVVEK    0.5513      Prosit      -16.9678    1637.8261   ✓       
+121   EN+0.984PLQPQQAASVVEK    0.5513      Prosit      -19.7552    1637.8261   ✓       
+122   EN+0.984PLQPQQAASVVEK    0.5513      Prosit      -20.0248    1637.8261   ✓       
+123   EN+0.984PLQPQQAASVVEK    0.5513      Prosit      -20.1577    1637.8261   ✓       
+124   EN+0.984PLQPQQAASVVEK    0.5513      Prosit      -20.3764    1637.8261   ✓       
+125   EN+0.984PLQPQQAASVVEK    0.5513      Prosit      -20.3858    1637.8261   ✓       
+126   EN+0.984PLQPQQAASVVEK    0.5513      Prosit      -20.4067    1637.8261   ✓       
+127   EN+0.984PLQPQQAASVVEK    0.5513      Prosit      -20.4273    1637.8261   ✓       
+128   EN+0.984PLQPQQAASVVEK    0.5513      Prosit      -20.6460    1637.8261   ✓       
+129   EN+0.984PLQPQQAASVVEK    0.5513      Prosit      -20.6554    1637.8261   ✓       
+130   EN+0.984PLQPQQAASVVEK    0.5513      Prosit      -20.6763    1637.8261   ✓       
+131   EN+0.984PLQPQQAASVVEK    0.5513      Prosit      -20.9422    1637.8261   ✓       
+132   EN+0.984PLQPQQAASVVEK    0.5513      Prosit      -21.2118    1637.8261   ✓       
+133   QDPLQ+0.984PQQAASVVEK    0.5462      Prosit      -20.4433    1637.8261   ✓       
+134   QDPLQ+0.984PQQAASVVEK    0.5462      Prosit      -20.7129    1637.8261   ✓       
+135   QDPLQPQ+0.984QAASVVEK    0.5462      Prosit      -22.4003    1637.8261   ✓       
+136   QDPLQPQ+0.984QAASVVEK    0.5462      Prosit      -22.6699    1637.8261   ✓       
+137   QDPLQPQQ+0.984AASVVEK    0.5462      Prosit      -23.2813    1637.8261   ✓       
+138   QDPLQPQQ+0.984AASVVEK    0.5462      Prosit      -23.5509    1637.8261   ✓       
+139   DEPLQPQQAASVVEK          0.5426      Prosit      -23.7181    1637.8261   ✓       
+140   DEPLQPQQAASVVEK          0.5426      Prosit      -23.9877    1637.8261   ✓       
+141   +42.011DPSLQPQQAASVVEK   0.5369      Prosit      -22.4784    1637.8261   ✓       
+142   +42.011SDPLQPQQAASVVEK   0.5283      Prosit      -15.1273    1637.8261   ✓       
+143   +42.011SDPLQPQQAASVVEK   0.5283      Prosit      -15.3969    1637.8261   ✓       
+144   +42.011SDPLQPQQAASVVEK   0.5283      Prosit      -21.7248    1637.8261   ✓       
+145   +42.011SDPLQPQQAASVVEK   0.5283      Prosit      -21.9944    1637.8261   ✓       
+146   +42.011SDPLQPQQAASVVEK   0.5283      Prosit      -23.4997    1637.8261   ✓       
+147   +42.011SDPLQPQQAASVVEK   0.5283      Prosit      -23.7693    1637.8261   ✓       
+148   +42.011DSPLQPQQAASVVEK   0.5191      Prosit      -20.2943    1637.8261   ✓       
+149   +42.011DSPLQPQQAASVVEK   0.5191      Prosit      -21.7162    1637.8261   ✓       
+150   +42.011DSPLQPQQAASVVEK   0.5191      Prosit      -21.9857    1637.8261   ✓       
+151   +42.011DSPLQPQQAASVVEK   0.5191      Prosit      -22.4889    1637.8261   ✓       
+152   +42.011DSPLQPQQAASVVEK   0.5191      Prosit      -22.7585    1637.8261   ✓       
+153   Q+0.984N+0.984PLQPQQAASVVEK0.5138      Prosit      -14.7143    1637.8261   ✓       
+154   Q+0.984N+0.984PLQPQQAASVVEK0.5138      Prosit      -14.9839    1637.8261   ✓       
+155   Q+0.984N+0.984PLQPQQAASVVEK0.5138      Prosit      -21.3118    1637.8261   ✓       
+156   Q+0.984N+0.984PLQPQQAASVVEK0.5138      Prosit      -21.5813    1637.8261   ✓       
+157   Q+0.984N+0.984PLQPQQAASVVEK0.5138      Prosit      -23.0867    1637.8261   ✓       
+158   Q+0.984N+0.984PLQPQQAASVVEK0.5138      Prosit      -23.3563    1637.8261   ✓       
+159   Q+0.984DPLQPQQAASVVQ+0.984K0.5075      Prosit      -11.1843    1637.8261   ✓       
+160   Q+0.984DPLQPQQAASVVQ+0.984K0.5075      Prosit      -11.4539    1637.8261   ✓       
+161   Q+0.984DPLQPQQAASVVQ+0.984K0.5075      Prosit      -17.7818    1637.8261   ✓       
+162   Q+0.984DPLQPQQAASVVQ+0.984K0.5075      Prosit      -18.0514    1637.8261   ✓       
+163   Q+0.984DPLQPQQAASVVQ+0.984K0.5075      Prosit      -19.5567    1637.8261   ✓       
+164   Q+0.984DPLQPQQAASVVQ+0.984K0.5075      Prosit      -19.8263    1637.8261   ✓       
+165   Q+0.984DPLQPQQAASVVQ+0.984K0.5075      Prosit      -21.2366    1637.8261   ✓       
+166   Q+0.984DPLQPQQAASVVQ+0.984K0.5075      Prosit      -21.5062    1637.8261   ✓       
+167   Q+0.984DPLQPQQAASVVQ+0.984K0.5075      Prosit      -22.6138    1637.8261   ✓       
+168   Q+0.984DPLQPQQAASVVQ+0.984K0.5075      Prosit      -22.8834    1637.8261   ✓       
+169   Q+0.984DPLQPQQAASVVQ+0.984K0.5075      Prosit      -23.2349    1637.8261   ✓       
+170   Q+0.984DPLQPQQAASVVQ+0.984K0.5075      Prosit      -23.2443    1637.8261   ✓       
+171   Q+0.984DPLQPQQAASVVQ+0.984K0.5075      Prosit      -23.2652    1637.8261   ✓       
+172   Q+0.984DPLQPQQAASVVQ+0.984K0.5075      Prosit      -23.5045    1637.8261   ✓       
+173   Q+0.984DPLQPQQAASVVQ+0.984K0.5075      Prosit      -23.5139    1637.8261   ✓       
+174   Q+0.984DPLQPQQAASVVQ+0.984K0.5075      Prosit      -23.5348    1637.8261   ✓       
+175   Q+0.984DPLQPQQAASVVQ+0.984K0.5075      Prosit      -23.8007    1637.8261   ✓       
+176   Q+0.984DPLQPQQAASVVQ+0.984K0.5075      Prosit      -23.8560    1637.8261   ✓       
+177   EN+0.984PLQPQQAASVVQ+0.984K0.5067      Prosit      -12.5285    1637.8261   ✓       
+178   EN+0.984PLQPQQAASVVQ+0.984K0.5067      Prosit      -12.7980    1637.8261   ✓       
+179   EN+0.984PLQPQQAASVVQ+0.984K0.5067      Prosit      -17.7629    1637.8261   ✓       
+180   EN+0.984PLQPQQAASVVQ+0.984K0.5067      Prosit      -18.0325    1637.8261   ✓       
+181   EN+0.984PLQPQQAASVVQ+0.984K0.5067      Prosit      -19.1259    1637.8261   ✓       
+182   EN+0.984PLQPQQAASVVQ+0.984K0.5067      Prosit      -19.3955    1637.8261   ✓       
+183   EN+0.984PLQPQQAASVVQ+0.984K0.5067      Prosit      -20.9008    1637.8261   ✓       
+184   EN+0.984PLQPQQAASVVQ+0.984K0.5067      Prosit      -21.1704    1637.8261   ✓       
+185   Q+0.984DPLQPQKAASVVEK    0.5046      Prosit      -23.0019    1637.8625   ✓       
+186   Q+0.984DPLQPQKAASVVEK    0.5046      Prosit      -23.2715    1637.8625   ✓       
+187   DDPLQPQQAASVLEK          0.5037      Prosit      -22.6064    1637.8261   ✓       
+188   DDPLQPQQAASVLEK          0.5037      Prosit      -22.8760    1637.8261   ✓       
+189   EDPLKPQQAASVVEK          0.4958      Prosit      -13.4228    1637.8625   ✓       
+190   EDPLKPQQAASVVEK          0.4958      Prosit      -13.6923    1637.8625   ✓       
+191   EDPLKPQQAASVVEK          0.4958      Prosit      -18.6572    1637.8625   ✓       
+192   EDPLKPQQAASVVEK          0.4958      Prosit      -18.9268    1637.8625   ✓       
+193   EDPLKPQQAASVVEK          0.4958      Prosit      -20.0202    1637.8625   ✓       
+194   EDPLKPQQAASVVEK          0.4958      Prosit      -20.2898    1637.8625   ✓       
+195   EN+0.984PLKPQQAASVVEK    0.4944      Prosit      -21.1554    1637.8625   ✓       
+196   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -4.7958     1637.8261   ✓       
+197   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -5.0654     1637.8261   ✓       
+198   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -10.0303    1637.8261   ✓       
+199   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -10.2999    1637.8261   ✓       
+200   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -11.3933    1637.8261   ✓       
+201   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -11.6629    1637.8261   ✓       
+202   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -13.1682    1637.8261   ✓       
+203   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -13.4378    1637.8261   ✓       
+204   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -14.8481    1637.8261   ✓       
+205   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -15.1177    1637.8261   ✓       
+206   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -16.2253    1637.8261   ✓       
+207   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -16.4949    1637.8261   ✓       
+208   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -16.6277    1637.8261   ✓       
+209   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -16.8464    1637.8261   ✓       
+210   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -16.8558    1637.8261   ✓       
+211   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -16.8767    1637.8261   ✓       
+212   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -16.8973    1637.8261   ✓       
+213   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -17.1160    1637.8261   ✓       
+214   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -17.1254    1637.8261   ✓       
+215   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -17.1463    1637.8261   ✓       
+216   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -17.4122    1637.8261   ✓       
+217   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -17.4675    1637.8261   ✓       
+218   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -17.6818    1637.8261   ✓       
+219   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -17.7371    1637.8261   ✓       
+220   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -18.2343    1637.8261   ✓       
+221   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -18.4027    1637.8261   ✓       
+222   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -18.5039    1637.8261   ✓       
+223   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -18.6722    1637.8261   ✓       
+224   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -18.7937    1637.8261   ✓       
+225   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -19.0632    1637.8261   ✓       
+226   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -19.1659    1637.8261   ✓       
+227   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -19.7657    1637.8261   ✓       
+228   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -19.9034    1637.8261   ✓       
+229   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -19.9700    1637.8261   ✓       
+230   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -20.0353    1637.8261   ✓       
+231   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -20.1730    1637.8261   ✓       
+232   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -20.2396    1637.8261   ✓       
+233   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -20.4137    1637.8261   ✓       
+234   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -20.6201    1637.8261   ✓       
+235   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -20.6833    1637.8261   ✓       
+236   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -23.2881    1637.8261   ✓       
+237   EDPLQPQQAASVVQ+0.984K    0.4940      Prosit      -23.5577    1637.8261   ✓       
+238   EDPLQ+0.984PQQAASVVQK    0.4940      Prosit      -20.1588    1637.8261   ✓       
+239   EDPLQ+0.984PQQAASVVQK    0.4940      Prosit      -20.4284    1637.8261   ✓       
+240   EDPLQPQKAASVVEK          0.4919      Prosit      -16.6134    1637.8625   ✓       
+241   EDPLQPQKAASVVEK          0.4919      Prosit      -16.8830    1637.8625   ✓       
+242   Q+0.984DPLKPQQAASVVEK    0.4918      Prosit      -19.8113    1637.8625   ✓       
+243   Q+0.984DPLKPQQAASVVEK    0.4918      Prosit      -20.0809    1637.8625   ✓       
+244   EDPLQPKQAASVVEK          0.4903      Prosit      -15.6366    1637.8625   ✓       
+245   EDPLQPKQAASVVEK          0.4903      Prosit      -15.9062    1637.8625   ✓       
+246   EDPLQPKQAASVVEK          0.4903      Prosit      -20.8710    1637.8625   ✓       
+247   EDPLQPKQAASVVEK          0.4903      Prosit      -21.1406    1637.8625   ✓       
+248   Q+0.984DPLQPKQAASVVEK    0.4894      Prosit      -22.0251    1637.8625   ✓       
+249   Q+0.984DPLQPKQAASVVEK    0.4894      Prosit      -22.2947    1637.8625   ✓       
+250   Q+0.984N+0.984PLQPQQAASVVQ+0.984K0.4886      Prosit      -18.9170    1637.8261   ✓       
+251   Q+0.984N+0.984PLQPQQAASVVQ+0.984K0.4886      Prosit      -19.1866    1637.8261   ✓       
+252   EDPLQPKQAASVVQ+0.984K    0.4722      Prosit      -19.8392    1637.8625   ✓       
+253   EDPLQPKQAASVVQ+0.984K    0.4722      Prosit      -20.1088    1637.8625   ✓       
+254   Q+0.984DPLQPQQAASVVQ+0.984Q0.4716      Prosit      -23.6386    1637.7897   ✓       
+255   Q+0.984DPLQPQQAASVVQ+0.984Q0.4716      Prosit      -23.9082    1637.7897   ✓       
+256   EDPLQPQKAASVVQ+0.984K    0.4642      Prosit      -20.8161    1637.8625   ✓       
+257   EDPLQPQKAASVVQ+0.984K    0.4642      Prosit      -21.0856    1637.8625   ✓       
+258   EDPLKPQQAASVVQ+0.984K    0.4614      Prosit      -17.6254    1637.8625   ✓       
+259   EDPLKPQQAASVVQ+0.984K    0.4614      Prosit      -17.8950    1637.8625   ✓       
+260   EDPLQPQQAASVVQ+0.984Q    0.4533      Prosit      -17.2501    1637.7897   ✓       
+261   EDPLQPQQAASVVQ+0.984Q    0.4533      Prosit      -17.5197    1637.7897   ✓       
+262   +42.011DPLQPQQAASWVEK    0.4518      Prosit      -23.0368    1637.8049   ✓       
+263   +42.011DPLQPQQAASWVEK    0.4518      Prosit      -23.3064    1637.8049   ✓       
+264   EN+0.984PLQPQQAASVVEQ    0.4445      Prosit      -20.7800    1637.7897   ✓       
+265   EN+0.984PLQPQQAASVVEQ    0.4445      Prosit      -21.0496    1637.7897   ✓       
+266   Q+0.984DPLQPQQAASVVEQ    0.4293      Prosit      -19.4359    1637.7897   ✓       
+267   Q+0.984DPLQPQQAASVVEQ    0.4293      Prosit      -19.7055    1637.7897   ✓       
+268   EDPLQPQQAASVVEQ          0.4224      Prosit      -13.0474    1637.7897   ✓       
+269   EDPLQPQQAASVVEQ          0.4224      Prosit      -13.3170    1637.7897   ✓       
+270   EDPLQPQQAASVVEQ          0.4224      Prosit      -18.2818    1637.7897   ✓       
+271   EDPLQPQQAASVVEQ          0.4224      Prosit      -18.5514    1637.7897   ✓       
+272   EDPLQPQQAASVVEQ          0.4224      Prosit      -19.6449    1637.7897   ✓       
+273   EDPLQPQQAASVVEQ          0.4224      Prosit      -19.9145    1637.7897   ✓       
+274   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -6.9817     1637.8261   ✓       
+275   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -7.2512     1637.8261   ✓       
+276   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -7.8557     1550.7940   ✗       
+277   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -8.1253     1550.7940   ✗       
+278   EDPLQPQQAASVVQK          -1.0000     NotChecked  -9.9433     1636.8421   ✗       
+279   EDPLQPQQAASVVQK          -1.0000     NotChecked  -10.2129    1636.8421   ✗       
+280   QDPLQPQQAASVVEK          -1.0000     NotChecked  -10.2278    1636.8421   ✗       
+281   QDPLQPQQAASVVEK          -1.0000     NotChecked  -10.4974    1636.8421   ✗       
+282   +43.006DPLQPQQAASVVEK    -1.0000     NotChecked  -11.3417    1551.7893   ✗       
+283   +43.006DPLQPQQAASVVEK    -1.0000     NotChecked  -11.6113    1551.7893   ✗       
+284   +42.011DPLQPQQAASVVQ+0.984K-1.0000     NotChecked  -12.0584    1550.7940   ✗       
+285   DDPLQPQQAASVVEK          -1.0000     NotChecked  -12.2580    1623.8104   ✗       
+286   +42.011DPLQPQQAASVVQ+0.984K-1.0000     NotChecked  -12.3280    1550.7940   ✗       
+287   -17.027DPLQPQQAASVVEK    -1.0000     NotChecked  -12.3942    1491.7569   ✗       
+288   DDPLQPQQAASVVEK          -1.0000     NotChecked  -12.5276    1623.8104   ✗       
+289   -17.027DPLQPQQAASVVEK    -1.0000     NotChecked  -12.6638    1491.7569   ✗       
+290   EDPLQPQQAASVAEK          -1.0000     NotChecked  -13.0393    1609.7948   ✗       
+291   EDPLQPQQAASVAEK          -1.0000     NotChecked  -13.3089    1609.7948   ✗       
+292   ESPLQPQQAASVVEK          -1.0000     NotChecked  -13.3235    1609.8312   ✗       
+293   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -13.5791    1637.8261   ✓       
+294   ESPLQPQQAASVVEK          -1.0000     NotChecked  -13.5931    1609.8312   ✗       
+295   ENPLQPQQAASVVEK          -1.0000     NotChecked  -13.6214    1636.8421   ✗       
+296   EDPLQPQQAASVVK           -1.0000     NotChecked  -13.6419    1508.7835   ✗       
+297   EDPLQPQQAASVVDK          -1.0000     NotChecked  -13.7435    1623.8104   ✗       
+298   KDPLQPQQAASVVEK          -1.0000     NotChecked  -13.8402    1636.8784   ✗       
+299   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -13.8487    1637.8261   ✓       
+300   DPLQPQQAASVVEK           -1.0000     NotChecked  -13.8510    1508.7835   ✗       
+301   ENPLQPQQAASVVEK          -1.0000     NotChecked  -13.8910    1636.8421   ✗       
+302   EDPLQPQQAASVVK           -1.0000     NotChecked  -13.9115    1508.7835   ✗       
+303   EDPLQPQQAASVVDK          -1.0000     NotChecked  -14.0131    1623.8104   ✗       
+304   KDPLQPQQAASVVEK          -1.0000     NotChecked  -14.1098    1636.8784   ✗       
+305   DPLQPQQAASVVEK           -1.0000     NotChecked  -14.1206    1508.7835   ✗       
+306   ETPLQPQQAASVVEK          -1.0000     NotChecked  -14.1950    1623.8468   ✗       
+307   EDPLQPQNAASVVEK          -1.0000     NotChecked  -14.2822    1623.8104   ✗       
+308   QDPLQPQQAASVVQ+0.984K    -1.0000     NotChecked  -14.4304    1636.8421   ✗       
+309   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -14.4532    1550.7940   ✗       
+310   ETPLQPQQAASVVEK          -1.0000     NotChecked  -14.4646    1623.8468   ✗       
+311   EDPLQPQQAAGVVEK          -1.0000     NotChecked  -14.5333    1607.8155   ✗       
+312   EDPLQPQNAASVVEK          -1.0000     NotChecked  -14.5517    1623.8104   ✗       
+313   EDPVQPQQAASVVEK          -1.0000     NotChecked  -14.6981    1623.8104   ✗       
+314   QDPLQPQQAASVVQ+0.984K    -1.0000     NotChecked  -14.7000    1636.8421   ✗       
+315   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -14.7228    1550.7940   ✗       
+316   EDPLQPQQAASVGEK          -1.0000     NotChecked  -14.7951    1595.7791   ✗       
+317   EDPLQPQQAAGVVEK          -1.0000     NotChecked  -14.8029    1607.8155   ✗       
+318   EDSLQPQQAASVVEK          -1.0000     NotChecked  -14.9462    1627.8053   ✗       
+319   EDPVQPQQAASVVEK          -1.0000     NotChecked  -14.9677    1623.8104   ✗       
+320   EDPLQPQQAAVVEK           -1.0000     NotChecked  -14.9881    1550.7940   ✗       
+321   EDPLQPQQAAAVVEK          -1.0000     NotChecked  -14.9926    1621.8312   ✗       
+322   EDPLQPQQAASVEK           -1.0000     NotChecked  -15.0100    1538.7577   ✗       
+323   EDPLQPQQAASVGEK          -1.0000     NotChecked  -15.0647    1595.7791   ✗       
+324   EDPLQPQQAASVVQK          -1.0000     NotChecked  -15.1777    1636.8421   ✗       
+325   EDPLQPQQAASVVTK          -1.0000     NotChecked  -15.2519    1609.8311   ✗       
+326   EDPLQPQQAAVVEK           -1.0000     NotChecked  -15.2577    1550.7940   ✗       
+327   EDPLQPQQAAAVVEK          -1.0000     NotChecked  -15.2622    1621.8312   ✗       
+328   EDPLQPQQAASVEK           -1.0000     NotChecked  -15.2796    1538.7577   ✗       
+329   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -15.3540    1637.8261   ✓       
+330   EDPLQPQQAASVVQK          -1.0000     NotChecked  -15.4473    1636.8421   ✗       
+331   EDPLQPQQAASVVLK          -1.0000     NotChecked  -15.4480    1621.8675   ✗       
+332   EDPLQPQQAASVVTK          -1.0000     NotChecked  -15.5215    1609.8311   ✗       
+333   +43.006DPLQPQQAASVVQ+0.984K-1.0000     NotChecked  -15.5444    1551.7893   ✗       
+334   EDALQPQQAASVVEK          -1.0000     NotChecked  -15.5851    1611.8104   ✗       
+335   +42.011N+0.984PLQPQQAASVVEK-1.0000     NotChecked  -15.5883    1550.7940   ✗       
+336   EDPLQPQQAASGVEK          -1.0000     NotChecked  -15.6231    1595.7791   ✗       
+337   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -15.6236    1637.8261   ✓       
+338   EDPLQPQQAASVVLK          -1.0000     NotChecked  -15.7176    1621.8675   ✗       
+339   EDPLQPQQAGSVVEK          -1.0000     NotChecked  -15.8010    1623.8104   ✗       
+340   +43.006DPLQPQQAASVVQ+0.984K-1.0000     NotChecked  -15.8140    1551.7893   ✗       
+341   +42.011N+0.984PLQPQQAASVVEK-1.0000     NotChecked  -15.8579    1550.7940   ✗       
+342   EDPLQPQQAASGVEK          -1.0000     NotChecked  -15.8927    1595.7791   ✗       
+343   EDPLQPQQAASAVEK          -1.0000     NotChecked  -15.9271    1609.7948   ✗       
+344   EDPLQPQQAASVVE           -1.0000     NotChecked  -16.0280    1509.7311   ✗       
+345   EDPLQPQQAASVVAK          -1.0000     NotChecked  -16.0620    1579.8206   ✗       
+346   EDPLQPQQAGSVVEK          -1.0000     NotChecked  -16.0706    1623.8104   ✗       
+347   EDLQPQQAASVVEK           -1.0000     NotChecked  -16.1478    1540.7733   ✗       
+348   EDPLQPQQAASSVEK          -1.0000     NotChecked  -16.1488    1625.7897   ✗       
+349   EDPLQPQQAASAVEK          -1.0000     NotChecked  -16.1967    1609.7948   ✗       
+350   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -16.2281    1550.7940   ✗       
+351   EDPLQPQQAASVVE           -1.0000     NotChecked  -16.2976    1509.7311   ✗       
+352   EDPLQPQQAASVEK           -1.0000     NotChecked  -16.3245    1538.7577   ✗       
+353   EDPLQPQQAASVVAK          -1.0000     NotChecked  -16.3316    1579.8206   ✗       
+354   Q+0.984DPLQPQQAASVVQK    -1.0000     NotChecked  -16.3318    1636.8421   ✗       
+355   EDPLQPQAAASVVEK          -1.0000     NotChecked  -16.3987    1580.8046   ✗       
+356   ELPLQPQQAASVVEK          -1.0000     NotChecked  -16.4079    1635.8832   ✗       
+357   EDPLQPQQAASSVEK          -1.0000     NotChecked  -16.4184    1625.7897   ✗       
+358   DDPLQPQQAASVVQ+0.984K    -1.0000     NotChecked  -16.4607    1623.8104   ✗       
+359   EDPLQPQQAASVVE           -1.0000     NotChecked  -16.4770    1509.7311   ✗       
+360   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -16.4977    1550.7940   ✗       
+361   EDPLQPQQAASVVQK          -1.0000     NotChecked  -16.5408    1636.8421   ✗       
+362   EDPLQPNQAASVVEK          -1.0000     NotChecked  -16.5781    1623.8104   ✗       
+363   EDPLQPQQAASVVEG          -1.0000     NotChecked  -16.5825    1566.7526   ✗       
+364   EDPLQPQQAASVEK           -1.0000     NotChecked  -16.5941    1538.7577   ✗       
+365   -17.027DPLQPQQAASVVQ+0.984K-1.0000     NotChecked  -16.5969    1491.7569   ✗       
+366   Q+0.984DPLQPQQAASVVQK    -1.0000     NotChecked  -16.6014    1636.8421   ✗       
+367   EDPLQPQQAASVVN+0.984K    -1.0000     NotChecked  -16.6589    1623.8104   ✗       
+368   EDPLQPQAAASVVEK          -1.0000     NotChecked  -16.6683    1580.8046   ✗       
+369   ELPLQPQQAASVVEK          -1.0000     NotChecked  -16.6775    1635.8832   ✗       
+370   DDPLQPQQAASVVQ+0.984K    -1.0000     NotChecked  -16.7303    1623.8104   ✗       
+371   EDPPQPQQAASVVEK          -1.0000     NotChecked  -16.7376    1621.7948   ✗       
+372   EDPLQPQQAASVVE           -1.0000     NotChecked  -16.7466    1509.7311   ✗       
+373   EDPLQPQQAASVVVK          -1.0000     NotChecked  -16.7492    1607.8519   ✗       
+374   EDPAQPQQAASVVEK          -1.0000     NotChecked  -16.7632    1595.7791   ✗       
+375   EDPLQPQQAASVVQK          -1.0000     NotChecked  -16.8104    1636.8421   ✗       
+376   QDPLQPQQAASVVEK          -1.0000     NotChecked  -16.8252    1636.8421   ✗       
+377   EDPLQPNQAASVVEK          -1.0000     NotChecked  -16.8477    1623.8104   ✗       
+378   EDPLQPQQAASVVEG          -1.0000     NotChecked  -16.8521    1566.7526   ✗       
+379   -17.027DPLQPQQAASVVQ+0.984K-1.0000     NotChecked  -16.8665    1491.7569   ✗       
+380   EDPLQPQQAASVVN+0.984K    -1.0000     NotChecked  -16.9285    1623.8104   ✗       
+381   EDPPQPQQAASVVEK          -1.0000     NotChecked  -17.0072    1621.7948   ✗       
+382   EDPLQPQQAASVVVK          -1.0000     NotChecked  -17.0188    1607.8519   ✗       
+383   EDPLQPQQAASVVET          -1.0000     NotChecked  -17.0199    1610.7788   ✗       
+384   EDPAQPQQAASVVEK          -1.0000     NotChecked  -17.0328    1595.7791   ✗       
+385   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -17.0340    1637.8261   ✓       
+386   QDPLQPQQAASVVEK          -1.0000     NotChecked  -17.0948    1636.8421   ✗       
+387   +42.011DPLQPQQAASVVQK    -1.0000     NotChecked  -17.2058    1549.8100   ✗       
+388   EDPLQPQQAASVAQ+0.984K    -1.0000     NotChecked  -17.2419    1609.7948   ✗       
+389   EDPLQPQQGASVVEK          -1.0000     NotChecked  -17.2691    1623.8104   ✗       
+390   EPLQPQQAASVVEK           -1.0000     NotChecked  -17.2877    1522.7991   ✗       
+391   EDPLQPQQAASVVET          -1.0000     NotChecked  -17.2895    1610.7788   ✗       
+392   EDGLQPQQAASVVEK          -1.0000     NotChecked  -17.2999    1597.7948   ✗       
+393   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -17.3036    1637.8261   ✓       
+394   EDPLQPQQAASVVEA          -1.0000     NotChecked  -17.4551    1580.7682   ✗       
+395   +42.011DPLQPQQAASVVQK    -1.0000     NotChecked  -17.4754    1549.8100   ✗       
+396   EDPLQPQQAASVAQ+0.984K    -1.0000     NotChecked  -17.5115    1609.7948   ✗       
+397   EDPLQPAQAASVVEK          -1.0000     NotChecked  -17.5154    1580.8046   ✗       
+398   ESPLQPQQAASVVQ+0.984K    -1.0000     NotChecked  -17.5262    1609.8312   ✗       
+399   EDPLQPQQGASVVEK          -1.0000     NotChecked  -17.5386    1623.8104   ✗       
+400   EDPLQQQAASVVEK           -1.0000     NotChecked  -17.5454    1540.7733   ✗       
+401   EPLQPQQAASVVEK           -1.0000     NotChecked  -17.5573    1522.7991   ✗       
+402   EDPLAPQQAASVVEK          -1.0000     NotChecked  -17.6074    1580.8046   ✗       
+403   -17.027EDPLQPQQAASVVEK   -1.0000     NotChecked  -17.6287    1620.7995   ✗       
+404   EN+0.984PLQPQQAASVVQK    -1.0000     NotChecked  -17.6759    1636.8421   ✗       
+405   EDPTQPQQAASVVEK          -1.0000     NotChecked  -17.7206    1625.7897   ✗       
+406   EDPLQPQQAASVVEA          -1.0000     NotChecked  -17.7247    1580.7682   ✗       
+407   EDPLQPAQAASVVEK          -1.0000     NotChecked  -17.7850    1580.8046   ✗       
+408   ESPLQPQQAASVVQ+0.984K    -1.0000     NotChecked  -17.7958    1609.8312   ✗       
+409   EDPLQQQAASVVEK           -1.0000     NotChecked  -17.8150    1540.7733   ✗       
+410   EDPLQPQQAASVVEL          -1.0000     NotChecked  -17.8230    1622.8152   ✗       
+411   ENPLQPQQAASVVQ+0.984K    -1.0000     NotChecked  -17.8241    1636.8421   ✗       
+412   EDPLAPQQAASVVEK          -1.0000     NotChecked  -17.8770    1580.8046   ✗       
+413   -17.027EDPLQPQQAASVVEK   -1.0000     NotChecked  -17.8983    1620.7995   ✗       
+414   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -17.9080    1550.7940   ✗       
+415   +43.006DPLQPQQAASVVEK    -1.0000     NotChecked  -17.9392    1551.7893   ✗       
+416   EN+0.984PLQPQQAASVVQK    -1.0000     NotChecked  -17.9455    1636.8421   ✗       
+417   QN+0.984PLQPQQAASVVEK    -1.0000     NotChecked  -17.9604    1636.8421   ✗       
+418   EDPTQPQQAASVVEK          -1.0000     NotChecked  -17.9902    1625.7897   ✗       
+419   KDPLQPQQAASVVQ+0.984K    -1.0000     NotChecked  -18.0429    1636.8784   ✗       
+420   DPLQPQQAASVVQ+0.984K     -1.0000     NotChecked  -18.0537    1508.7835   ✗       
+421   +42.011DPLQ+0.984PQQAASVVEK-1.0000     NotChecked  -18.0712    1551.7781   ✗       
+422   EDPLLPQQAASVVEK          -1.0000     NotChecked  -18.0888    1622.8516   ✗       
+423   EDPLQPQQAASVVEL          -1.0000     NotChecked  -18.0926    1622.8152   ✗       
+424   ENPLQPQQAASVVQ+0.984K    -1.0000     NotChecked  -18.0937    1636.8421   ✗       
+425   EDPLQPLQAASVVEK          -1.0000     NotChecked  -18.1759    1622.8516   ✗       
+426   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -18.1776    1550.7940   ✗       
+427   +42.011DPLQPQQAASVLEK    -1.0000     NotChecked  -18.2041    1564.8097   ✗       
+428   +43.006DPLQPQQAASVVEK    -1.0000     NotChecked  -18.2087    1551.7893   ✗       
+429   QN+0.984PLQPQQAASVVEK    -1.0000     NotChecked  -18.2300    1636.8421   ✗       
+430   EDPLQPQQAASVAEK          -1.0000     NotChecked  -18.2737    1609.7948   ✗       
+431   KDPLQPQQAASVVQ+0.984K    -1.0000     NotChecked  -18.3125    1636.8784   ✗       
+432   EDPLQPQQAASVVQK          -1.0000     NotChecked  -18.3157    1636.8421   ✗       
+433   EDPLSPQQAASVVEK          -1.0000     NotChecked  -18.3230    1596.7995   ✗       
+434   DPLQPQQAASVVQ+0.984K     -1.0000     NotChecked  -18.3232    1508.7835   ✗       
+435   +42.011DPLQ+0.984PQQAASVVEK-1.0000     NotChecked  -18.3408    1551.7781   ✗       
+436   EDPLLPQQAASVVEK          -1.0000     NotChecked  -18.3584    1622.8516   ✗       
+437   EDPLQSQQAASVVEK          -1.0000     NotChecked  -18.3599    1627.8053   ✗       
+438   ETPLQPQQAASVVQ+0.984K    -1.0000     NotChecked  -18.3977    1623.8468   ✗       
+439   EDPLQPQAASVVEK           -1.0000     NotChecked  -18.4064    1509.7675   ✗       
+440   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -18.4111    1637.8261   ✓       
+441   EDPLQPLQAASVVEK          -1.0000     NotChecked  -18.4455    1622.8516   ✗       
+442   +42.011DPLQPQQAASVLEK    -1.0000     NotChecked  -18.4737    1564.8097   ✗       
+443   EDPLQPQLAASVVEK          -1.0000     NotChecked  -18.4755    1622.8516   ✗       
+444   EDPLQPQNAASVVQ+0.984K    -1.0000     NotChecked  -18.4848    1623.8104   ✗       
+445   EDPLNPQQAASVVEK          -1.0000     NotChecked  -18.5304    1623.8104   ✗       
+446   EDPLQPQQAASVAEK          -1.0000     NotChecked  -18.5433    1609.7948   ✗       
+447   ESPLQPQQAASVVEK          -1.0000     NotChecked  -18.5579    1609.8312   ✗       
+448   EDPLQPQQAASVVQK          -1.0000     NotChecked  -18.5853    1636.8421   ✗       
+449   EDPLSPQQAASVVEK          -1.0000     NotChecked  -18.5926    1596.7995   ✗       
+450   QDPLQPQQAASVVEK          -1.0000     NotChecked  -18.6002    1636.8421   ✗       
+451   EDPLQSQQAASVVEK          -1.0000     NotChecked  -18.6295    1627.8053   ✗       
+452   +42.011DPLQPQQAASVVQ+0.984K-1.0000     NotChecked  -18.6558    1550.7940   ✗       
+453   ETPLQPQQAASVVQ+0.984K    -1.0000     NotChecked  -18.6673    1623.8468   ✗       
+454   EDPLQPQAASVVEK           -1.0000     NotChecked  -18.6760    1509.7675   ✗       
+455   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -18.6807    1637.8261   ✓       
+456   EDPLQPQQAAGVVQ+0.984K    -1.0000     NotChecked  -18.7360    1607.8155   ✗       
+457   EDPLQPQLAASVVEK          -1.0000     NotChecked  -18.7451    1622.8516   ✗       
+458   EDPLQPQNAASVVQ+0.984K    -1.0000     NotChecked  -18.7544    1623.8104   ✗       
+459   EDPLNPQQAASVVEK          -1.0000     NotChecked  -18.8000    1623.8104   ✗       
+460   ESPLQPQQAASVVEK          -1.0000     NotChecked  -18.8275    1609.8312   ✗       
+461   DDPLQPQQAASVVEK          -1.0000     NotChecked  -18.8555    1623.8104   ✗       
+462   ENPLQPQQAASVVEK          -1.0000     NotChecked  -18.8559    1636.8421   ✗       
+463   QDPLQPQQAASVVEK          -1.0000     NotChecked  -18.8697    1636.8421   ✗       
+464   EDPLQPQQAASVVK           -1.0000     NotChecked  -18.8763    1508.7835   ✗       
+465   EDPLPPQQAASVVEK          -1.0000     NotChecked  -18.8993    1606.8203   ✗       
+466   EDPVQPQQAASVVQ+0.984K    -1.0000     NotChecked  -18.9008    1623.8104   ✗       
+467   +42.011DPLQPQQAASVVQ+0.984K-1.0000     NotChecked  -18.9254    1550.7940   ✗       
+468   EDPLQPQQAASVVDK          -1.0000     NotChecked  -18.9779    1623.8104   ✗       
+469   -17.027DPLQPQQAASVVEK    -1.0000     NotChecked  -18.9917    1491.7569   ✗       
+470   EDPLQPQQAASVGQ+0.984K    -1.0000     NotChecked  -18.9978    1595.7791   ✗       
+471   EDPLQPQQAAGVVQ+0.984K    -1.0000     NotChecked  -19.0056    1607.8155   ✗       
+472   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -19.0322    1637.8261   ✓       
+473   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -19.0417    1637.8261   ✓       
+474   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -19.0626    1637.8261   ✓       
+475   +43.006N+0.984PLQPQQAASVVEK-1.0000     NotChecked  -19.0743    1551.7893   ✗       
+476   EDPLQGQQAASVVEK          -1.0000     NotChecked  -19.1062    1597.7948   ✗       
+477   DDPLQPQQAASVVEK          -1.0000     NotChecked  -19.1251    1623.8104   ✗       
+478   ENPLQPQQAASVVEK          -1.0000     NotChecked  -19.1255    1636.8421   ✗       
+479   EDPLQPQQAASVVK           -1.0000     NotChecked  -19.1459    1508.7835   ✗       
+480   EDSLQPQQAASVVQ+0.984K    -1.0000     NotChecked  -19.1489    1627.8053   ✗       
+481   EDPLPPQQAASVVEK          -1.0000     NotChecked  -19.1689    1606.8203   ✗       
+482   EDPVQPQQAASVVQ+0.984K    -1.0000     NotChecked  -19.1703    1623.8104   ✗       
+483   EDPLQPQQAAVVQ+0.984K     -1.0000     NotChecked  -19.1908    1550.7940   ✗       
+484   EDPLQPQQAAAVVQ+0.984K    -1.0000     NotChecked  -19.1953    1621.8312   ✗       
+485   EDPLQPQQAASVQ+0.984K     -1.0000     NotChecked  -19.2127    1538.7577   ✗       
+486   EDPLQPQQAASVVDK          -1.0000     NotChecked  -19.2475    1623.8104   ✗       
+487   -17.027DPLQPQQAASVVEK    -1.0000     NotChecked  -19.2613    1491.7569   ✗       
+488   EDPLQPQQAASVGQ+0.984K    -1.0000     NotChecked  -19.2674    1595.7791   ✗       
+489   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -19.2851    1550.7940   ✗       
+490   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -19.3018    1637.8261   ✓       
+491   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -19.3113    1637.8261   ✓       
+492   +42.011EPLQPQQAASVVEK    -1.0000     NotChecked  -19.3158    1564.8097   ✗       
+493   +42.011SDPLQPQQAASVVQ+0.984K-1.0000     Failed      -19.3300    1637.8261   ✓       
+494   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -19.3321    1637.8261   ✓       
+495   +43.006N+0.984PLQPQQAASVVEK-1.0000     NotChecked  -19.3439    1551.7893   ✗       
+496   EDPLQGQQAASVVEK          -1.0000     NotChecked  -19.3757    1597.7948   ✗       
+497   Q+0.984DPLQPQQAASVAEK    -1.0000     NotChecked  -19.4278    1609.7948   ✗       
+498   ETPLQPQQAASVVEK          -1.0000     NotChecked  -19.4295    1623.8468   ✗       
+499   EDPLQPQQAAVVQ+0.984K     -1.0000     NotChecked  -19.4604    1550.7940   ✗       
+500   EDPLQPQQAAAVVQ+0.984K    -1.0000     NotChecked  -19.4649    1621.8312   ✗       
+501   +42.011ADPLQPQQAASVVEK   -1.0000     NotChecked  -19.4663    1621.8312   ✗       
+502   EDPLQPQQAASVQ+0.984K     -1.0000     NotChecked  -19.4823    1538.7577   ✗       
+503   EDPLQPQNAASVVEK          -1.0000     NotChecked  -19.5166    1623.8104   ✗       
+504   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -19.5547    1550.7940   ✗       
+505   QDPLQPQQAASVVQK          -1.0000     NotChecked  -19.5779    1635.8580   ✗       
+506   +42.011EPLQPQQAASVVEK    -1.0000     NotChecked  -19.5854    1564.8097   ✗       
+507   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -19.5980    1637.8261   ✓       
+508   +42.011SDPLQPQQAASVVQ+0.984K-1.0000     Failed      -19.5996    1637.8261   ✓       
+509   EDPLQPQQAASVAEK          -1.0000     NotChecked  -19.6367    1609.7948   ✗       
+510   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -19.6533    1637.8261   ✓       
+511   -17.027SDPLQPQQAASVVEK   -1.0000     NotChecked  -19.6659    1578.7890   ✗       
+512   EDPLQAQQAASVVEK          -1.0000     NotChecked  -19.6679    1611.8104   ✗       
+513   Q+0.984DPLQPQQAASVAEK    -1.0000     NotChecked  -19.6974    1609.7948   ✗       
+514   ETPLQPQQAASVVEK          -1.0000     NotChecked  -19.6991    1623.8468   ✗       
+515   Q+0.984SPLQPQQAASVVEK    -1.0000     NotChecked  -19.7120    1609.8312   ✗       
+516   +43.006DPLQPQQAASVVEK    -1.0000     NotChecked  -19.7141    1551.7893   ✗       
+517   +42.011ADPLQPQQAASVVEK   -1.0000     NotChecked  -19.7359    1621.8312   ✗       
+518   EDPLQPQQAAGVVEK          -1.0000     NotChecked  -19.7678    1607.8155   ✗       
+519   EDPLQPQNAASVVEK          -1.0000     NotChecked  -19.7862    1623.8104   ✗       
+520   EDALQPQQAASVVQ+0.984K    -1.0000     NotChecked  -19.7878    1611.8104   ✗       
+521   +42.011N+0.984PLQPQQAASVVQ+0.984K-1.0000     NotChecked  -19.7910    1550.7940   ✗       
+522   EDPLQPQQAASGVQ+0.984K    -1.0000     NotChecked  -19.8258    1595.7791   ✗       
+523   QDPLQPQQAASVVQK          -1.0000     NotChecked  -19.8475    1635.8580   ✗       
+524   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -19.8676    1637.8261   ✓       
+525   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -19.9063    1550.7940   ✗       
+526   EDPLQPQQAASVAEK          -1.0000     NotChecked  -19.9063    1609.7948   ✗       
+527   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -19.9157    1550.7940   ✗       
+528   ESPLQPQQAASVVEK          -1.0000     NotChecked  -19.9210    1609.8312   ✗       
+529   +42.011DPLQPQQAASVTEK    -1.0000     NotChecked  -19.9219    1552.7733   ✗       
+530   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -19.9229    1637.8261   ✓       
+531   EDPVQPQQAASVVEK          -1.0000     NotChecked  -19.9325    1623.8104   ✗       
+532   -17.027SDPLQPQQAASVVEK   -1.0000     NotChecked  -19.9355    1578.7890   ✗       
+533   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -19.9366    1550.7940   ✗       
+534   EDPLQAQQAASVVEK          -1.0000     NotChecked  -19.9375    1611.8104   ✗       
+535   Q+0.984SPLQPQQAASVVEK    -1.0000     NotChecked  -19.9816    1609.8312   ✗       
+536   +43.006DPLQPQQAASVVEK    -1.0000     NotChecked  -19.9837    1551.7893   ✗       
+537   DN+0.984PLQPQQAASVVEK    -1.0000     NotChecked  -19.9906    1623.8104   ✗       
+538   EDPLQPQQAASVVQK          -1.0000     NotChecked  -19.9956    1636.8421   ✗       
+539   EDPLQPQQAGSVVQ+0.984K    -1.0000     NotChecked  -20.0037    1623.8104   ✗       
+540   Q+0.984NPLQPQQAASVVEK    -1.0000     NotChecked  -20.0099    1636.8421   ✗       
+541   +42.011DPLQPQ+0.984QAASVVEK-1.0000     NotChecked  -20.0282    1551.7781   ✗       
+542   EDPLQPQQAASVGEK          -1.0000     NotChecked  -20.0295    1595.7791   ✗       
+543   Q+0.984DPLQPQQAASVVK     -1.0000     NotChecked  -20.0304    1508.7835   ✗       
+544   EDPLQPQQAAGVVEK          -1.0000     NotChecked  -20.0374    1607.8155   ✗       
+545   +42.011N+0.984PLQPQQAASVVQ+0.984K-1.0000     NotChecked  -20.0606    1550.7940   ✗       
+546   EDPLQPQQAASGVQ+0.984K    -1.0000     NotChecked  -20.0954    1595.7791   ✗       
+547   -17.027N+0.984PLQPQQAASVVEK-1.0000     NotChecked  -20.1269    1491.7569   ✗       
+548   EDPLQPQQAASAVQ+0.984K    -1.0000     NotChecked  -20.1298    1609.7948   ✗       
+549   Q+0.984DPLQPQQAASVVDK    -1.0000     NotChecked  -20.1320    1623.8104   ✗       
+550   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -20.1759    1550.7940   ✗       
+551   EDSLQPQQAASVVEK          -1.0000     NotChecked  -20.1807    1627.8053   ✗       
+552   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -20.1853    1550.7940   ✗       
+553   ESPLQPQQAASVVEK          -1.0000     NotChecked  -20.1906    1609.8312   ✗       
+554   +42.011DPLQPQQAASVTEK    -1.0000     NotChecked  -20.1915    1552.7733   ✗       
+555   EDPVQPQQAASVVEK          -1.0000     NotChecked  -20.2021    1623.8104   ✗       
+556   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -20.2062    1550.7940   ✗       
+557   ENPLQPQQAASVVEK          -1.0000     NotChecked  -20.2189    1636.8421   ✗       
+558   EDPLQPQQAAVVEK           -1.0000     NotChecked  -20.2225    1550.7940   ✗       
+559   EDPLQPQQAAAVVEK          -1.0000     NotChecked  -20.2271    1621.8312   ✗       
+560   EDPLQPQQAASVVK           -1.0000     NotChecked  -20.2393    1508.7835   ✗       
+561   EDPLQPQQAASVEK           -1.0000     NotChecked  -20.2444    1538.7577   ✗       
+562   DN+0.984PLQPQQAASVVEK    -1.0000     NotChecked  -20.2602    1623.8104   ✗       
+563   EDPLQPQQAASVVQK          -1.0000     NotChecked  -20.2652    1636.8421   ✗       
+564   EDPLQPQQAGSVVQ+0.984K    -1.0000     NotChecked  -20.2733    1623.8104   ✗       
+565   Q+0.984NPLQPQQAASVVEK    -1.0000     NotChecked  -20.2795    1636.8421   ✗       
+566   QDPLQPQQAASVVEK          -1.0000     NotChecked  -20.2801    1636.8421   ✗       
+567   +42.011DPLQPQ+0.984QAASVVEK-1.0000     NotChecked  -20.2978    1551.7781   ✗       
+568   EDPLQPQQAASVGEK          -1.0000     NotChecked  -20.2991    1595.7791   ✗       
+569   Q+0.984DPLQPQQAASVVK     -1.0000     NotChecked  -20.3000    1508.7835   ✗       
+570   +42.011DPLQPQQAASVAEK    -1.0000     NotChecked  -20.3018    1522.7627   ✗       
+571   +42.011DPLQPQQAASVVEQ    -1.0000     NotChecked  -20.3099    1550.7577   ✗       
+572   EDPLQPQQAASVVDK          -1.0000     NotChecked  -20.3410    1623.8104   ✗       
+573   EDLQPQQAASVVQ+0.984K     -1.0000     NotChecked  -20.3505    1540.7733   ✗       
+574   EDPLQPQQAASSVQ+0.984K    -1.0000     NotChecked  -20.3515    1625.7897   ✗       
+575   -17.027N+0.984PLQPQQAASVVEK-1.0000     NotChecked  -20.3965    1491.7569   ✗       
+576   EDPLQPQQAASAVQ+0.984K    -1.0000     NotChecked  -20.3994    1609.7948   ✗       
+577   Q+0.984DPLQPQQAASVVDK    -1.0000     NotChecked  -20.4016    1623.8104   ✗       
+578   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -20.4201    1637.8261   ✓       
+579   +42.011DPLQPQQAASVVQ+0.984K-1.0000     NotChecked  -20.4308    1550.7940   ✗       
+580   KDPLQPQQAASVVEK          -1.0000     NotChecked  -20.4377    1636.8784   ✗       
+581   DPLQPQQAASVVEK           -1.0000     NotChecked  -20.4484    1508.7835   ✗       
+582   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -20.4721    1550.7940   ✗       
+583   EDPLQPQQAASVVTK          -1.0000     NotChecked  -20.4864    1609.8311   ✗       
+584   ENPLQPQQAASVVEK          -1.0000     NotChecked  -20.4885    1636.8421   ✗       
+585   EDPLQPQQAAVVEK           -1.0000     NotChecked  -20.4921    1550.7940   ✗       
+586   EDPLQPQQAAAVVEK          -1.0000     NotChecked  -20.4967    1621.8312   ✗       
+587   EDPLQPQQAASVVK           -1.0000     NotChecked  -20.5089    1508.7835   ✗       
+588   EDPLQPQQAASVEK           -1.0000     NotChecked  -20.5140    1538.7577   ✗       
+589   EDPLQPQQAASVQ+0.984K     -1.0000     NotChecked  -20.5272    1538.7577   ✗       
+590   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -20.5273    1550.7940   ✗       
+591   QDPLQPQQAASVVEK          -1.0000     NotChecked  -20.5497    1636.8421   ✗       
+592   +42.011DPLQPQQAASVAEK    -1.0000     NotChecked  -20.5714    1522.7627   ✗       
+593   +42.011DPLQPQQAASVVEQ    -1.0000     NotChecked  -20.5795    1550.7577   ✗       
+594   Q+0.984TPLQPQQAASVVEK    -1.0000     NotChecked  -20.5835    1623.8468   ✗       
+595   +42.011SPLQPQQAASVVEK    -1.0000     NotChecked  -20.5860    1522.7991   ✗       
+596   ESPLQPQQAASVVEK          -1.0000     NotChecked  -20.5951    1609.8312   ✗       
+597   EDPLQPQAAASVVQ+0.984K    -1.0000     NotChecked  -20.6014    1580.8046   ✗       
+598   EDPLQPQQAASVVDK          -1.0000     NotChecked  -20.6106    1623.8104   ✗       
+599   ELPLQPQQAASVVQ+0.984K    -1.0000     NotChecked  -20.6106    1635.8832   ✗       
+600   EDPLQPQQAASSVQ+0.984K    -1.0000     NotChecked  -20.6210    1625.7897   ✗       
+601   DDPLQPQQAASVVEK          -1.0000     NotChecked  -20.6304    1623.8104   ✗       
+602   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -20.6540    1637.8261   ✓       
+603   Q+0.984DPLQPQNAASVVEK    -1.0000     NotChecked  -20.6707    1623.8104   ✗       
+604   EDPLQPQQAASVVQ+0.984     -1.0000     NotChecked  -20.6797    1509.7311   ✗       
+605   EDPLQPQQAASVVLK          -1.0000     NotChecked  -20.6825    1621.8675   ✗       
+606   +42.011DPLKPQQAASVVEK    -1.0000     NotChecked  -20.6853    1550.8304   ✗       
+607   EDPLQPQQAASVVQ+0.984     -1.0000     NotChecked  -20.6894    1509.7311   ✗       
+608   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -20.6897    1637.8261   ✓       
+609   +43.006DPLQPQQAASVVQK    -1.0000     NotChecked  -20.6918    1550.8053   ✗       
+610   +42.011DPLQPQQAASVVQ+0.984K-1.0000     NotChecked  -20.7003    1550.7940   ✗       
+611   KDPLQPQQAASVVEK          -1.0000     NotChecked  -20.7073    1636.8784   ✗       
+612   DPLQPQQAASVVEK           -1.0000     NotChecked  -20.7180    1508.7835   ✗       
+613   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -20.7417    1550.7940   ✗       
+614   EDPLQPQQAASVVTK          -1.0000     NotChecked  -20.7560    1609.8311   ✗       
+615   -17.027DPLQPQQAASVVEK    -1.0000     NotChecked  -20.7666    1491.7569   ✗       
+616   EN+0.984PLQPQQAASVAEK    -1.0000     NotChecked  -20.7719    1609.7948   ✗       
+617   +42.011GDPLQPQQAASVVEK   -1.0000     NotChecked  -20.7734    1607.8155   ✗       
+618   EDPLQPNQAASVVQ+0.984K    -1.0000     NotChecked  -20.7808    1623.8104   ✗       
+619   EDPLQPQQAASVVQ+0.984G    -1.0000     NotChecked  -20.7851    1566.7526   ✗       
+620   ETPLQPQQAASVVEK          -1.0000     NotChecked  -20.7925    1623.8468   ✗       
+621   EDPLQPQQAASVQ+0.984K     -1.0000     NotChecked  -20.7968    1538.7577   ✗       
+622   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -20.7969    1550.7940   ✗       
+623   EDALQPQQAASVVEK          -1.0000     NotChecked  -20.8195    1611.8104   ✗       
+624   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -20.8497    1637.8261   ✓       
+625   Q+0.984TPLQPQQAASVVEK    -1.0000     NotChecked  -20.8531    1623.8468   ✗       
+626   +42.011DTLQPQQAASVVEK    -1.0000     NotChecked  -20.8555    1554.7889   ✗       
+627   +42.011SPLQPQQAASVVEK    -1.0000     NotChecked  -20.8556    1522.7991   ✗       
+628   EDPLQPQQAASGVEK          -1.0000     NotChecked  -20.8575    1595.7791   ✗       
+629   +42.011DPLQPQQAASLVEK    -1.0000     NotChecked  -20.8581    1564.8097   ✗       
+630   ESPLQPQQAASVVEK          -1.0000     NotChecked  -20.8647    1609.8312   ✗       
+631   EDPLQPQAAASVVQ+0.984K    -1.0000     NotChecked  -20.8710    1580.8046   ✗       
+632   EDPLQPQNAASVVEK          -1.0000     NotChecked  -20.8796    1623.8104   ✗       
+633   ELPLQPQQAASVVQ+0.984K    -1.0000     NotChecked  -20.8802    1635.8832   ✗       
+634   +42.011NPLQPQQAASVVEK    -1.0000     NotChecked  -20.8840    1549.8100   ✗       
+635   DDPLQPQQAASVVEK          -1.0000     NotChecked  -20.9000    1623.8104   ✗       
+636   +42.011DPLQPQQAASVVK     -1.0000     NotChecked  -20.9044    1421.7514   ✗       
+637   +42.011DPLQPQQ+0.984AASVVEK-1.0000     NotChecked  -20.9092    1551.7781   ✗       
+638   ESDPLQPQQAASVVK          -1.0000     NotChecked  -20.9135    1595.8155   ✗       
+639   Q+0.984DPLQPQQAAGVVEK    -1.0000     NotChecked  -20.9219    1607.8155   ✗       
+640   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -20.9236    1637.8261   ✓       
+641   Q+0.984DPLQPQNAASVVEK    -1.0000     NotChecked  -20.9402    1623.8104   ✗       
+642   EDPPQPQQAASVVQ+0.984K    -1.0000     NotChecked  -20.9403    1621.7948   ✗       
+643   EDPLQPQQAASVVQ+0.984     -1.0000     NotChecked  -20.9493    1509.7311   ✗       
+644   EDPLQPQQAASVVLK          -1.0000     NotChecked  -20.9521    1621.8675   ✗       
+645   +42.011DPLKPQQAASVVEK    -1.0000     NotChecked  -20.9549    1550.8304   ✗       
+646   EDPLQPQQAASVVQ+0.984     -1.0000     NotChecked  -20.9590    1509.7311   ✗       
+647   +43.006DPLQPQQAASVVQK    -1.0000     NotChecked  -20.9614    1550.8053   ✗       
+648   EDPAQPQQAASVVQ+0.984K    -1.0000     NotChecked  -20.9659    1595.7791   ✗       
+649   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -20.9795    1637.8261   ✓       
+650   +42.011DPLQPQQAASVVDK    -1.0000     NotChecked  -21.0060    1536.7784   ✗       
+651   QDPLQPQQAASVVQ+0.984K    -1.0000     NotChecked  -21.0279    1636.8421   ✗       
+652   EDPLQPQQAGSVVEK          -1.0000     NotChecked  -21.0355    1623.8104   ✗       
+653   -17.027DPLQPQQAASVVEK    -1.0000     NotChecked  -21.0362    1491.7569   ✗       
+654   EN+0.984PLQPQQAASVAEK    -1.0000     NotChecked  -21.0415    1609.7948   ✗       
+655   +42.011GDPLQPQQAASVVEK   -1.0000     NotChecked  -21.0430    1607.8155   ✗       
+656   EDPLQPNQAASVVQ+0.984K    -1.0000     NotChecked  -21.0504    1623.8104   ✗       
+657   EDPLQPQQAASVVQ+0.984G    -1.0000     NotChecked  -21.0547    1566.7526   ✗       
+658   ETPLQPQQAASVVEK          -1.0000     NotChecked  -21.0621    1623.8468   ✗       
+659   Q+0.984DPVQPQQAASVVEK    -1.0000     NotChecked  -21.0866    1623.8104   ✗       
+660   +42.011DPLQPQQAVSVVEK    -1.0000     NotChecked  -21.0920    1578.8253   ✗       
+661   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -21.1193    1637.8261   ✓       
+662   SDPLQPQQAASVVEK          -1.0000     NotChecked  -21.1226    1595.8155   ✗       
+663   EDPLQPQQAASGVEK          -1.0000     NotChecked  -21.1271    1595.7791   ✗       
+664   +42.011DPLQPQQAASLVEK    -1.0000     NotChecked  -21.1277    1564.8097   ✗       
+665   EDPLQPQQAAGVVEK          -1.0000     NotChecked  -21.1308    1607.8155   ✗       
+666   EDPLQPQNAASVVEK          -1.0000     NotChecked  -21.1492    1623.8104   ✗       
+667   +42.011NPLQPQQAASVVEK    -1.0000     NotChecked  -21.1536    1549.8100   ✗       
+668   EDPLQPQQAASAVEK          -1.0000     NotChecked  -21.1616    1609.7948   ✗       
+669   +42.011DPLQPQQAASVVK     -1.0000     NotChecked  -21.1740    1421.7514   ✗       
+670   +42.011DPLQPQQ+0.984AASVVEK-1.0000     NotChecked  -21.1788    1551.7781   ✗       
+671   ESDPLQPQQAASVVK          -1.0000     NotChecked  -21.1831    1595.8155   ✗       
+672   Q+0.984DPLQPQQAASVGEK    -1.0000     NotChecked  -21.1836    1595.7791   ✗       
+673   Q+0.984DPLQPQQAAGVVEK    -1.0000     NotChecked  -21.1914    1607.8155   ✗       
+674   EDPPQPQQAASVVQ+0.984K    -1.0000     NotChecked  -21.2099    1621.7948   ✗       
+675   EDPLQPQQAASVVQ+0.984T    -1.0000     NotChecked  -21.2226    1610.7788   ✗       
+676   EDPAQPQQAASVVQ+0.984K    -1.0000     NotChecked  -21.2355    1595.7791   ✗       
+677   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -21.2491    1637.8261   ✓       
+678   EDPLQPQQAASVVE           -1.0000     NotChecked  -21.2625    1509.7311   ✗       
+679   +42.011DPLQPQQAASVVDK    -1.0000     NotChecked  -21.2756    1536.7784   ✗       
+680   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -21.2941    1550.7940   ✗       
+681   QDPLQPQQAASVVQ+0.984K    -1.0000     NotChecked  -21.2975    1636.8421   ✗       
+682   Q+0.984DSLQPQQAASVVEK    -1.0000     NotChecked  -21.3347    1627.8053   ✗       
+683   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -21.3517    1637.8261   ✓       
+684   Q+0.984DPVQPQQAASVVEK    -1.0000     NotChecked  -21.3562    1623.8104   ✗       
+685   +42.011DPLQPQQAVSVVEK    -1.0000     NotChecked  -21.3616    1578.8253   ✗       
+686   Q+0.984DPLQPQQAAVVEK     -1.0000     NotChecked  -21.3766    1550.7940   ✗       
+687   Q+0.984DPLQPQQAAAVVEK    -1.0000     NotChecked  -21.3811    1621.8312   ✗       
+688   SDPLQPQQAASVVEK          -1.0000     NotChecked  -21.3922    1595.8155   ✗       
+689   +43.006DPLQPQQAASVVEK    -1.0000     NotChecked  -21.3940    1551.7893   ✗       
+690   Q+0.984DPLQPQQAASVEK     -1.0000     NotChecked  -21.3985    1538.7577   ✗       
+691   Q+0.984DPLQPQQAASVGEK    -1.0000     NotChecked  -21.4532    1595.7791   ✗       
+692   +42.011TPLQPQQAASVVEK    -1.0000     NotChecked  -21.4576    1536.8148   ✗       
+693   +42.011DPLQPQQAASVVER    -1.0000     NotChecked  -21.4722    1578.8002   ✗       
+694   +42.011DPLQPQNAASVVEK    -1.0000     NotChecked  -21.5447    1536.7784   ✗       
+695   +43.006DPLQ+0.984PQQAASVVEK-1.0000     NotChecked  -21.5572    1552.7733   ✗       
+696   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -21.5637    1550.7940   ✗       
+697   KN+0.984PLQPQQAASVVEK    -1.0000     NotChecked  -21.5728    1636.8784   ✗       
+698   N+0.984PLQPQQAASVVEK     -1.0000     NotChecked  -21.5836    1508.7835   ✗       
+699   DDPLQPQQAASVVQK          -1.0000     NotChecked  -21.6082    1622.8264   ✗       
+700   Q+0.984DPLQPQQAASVVTK    -1.0000     NotChecked  -21.6404    1609.8311   ✗       
+701   Q+0.984DPLQPQQAAVVEK     -1.0000     NotChecked  -21.6462    1550.7940   ✗       
+702   Q+0.984DPLQPQQAAAVVEK    -1.0000     NotChecked  -21.6507    1621.8312   ✗       
+703   QDPLQPQQAASVVEK          -1.0000     NotChecked  -21.6572    1636.8421   ✗       
+704   +43.006DPLQPQQAASVVEK    -1.0000     NotChecked  -21.6636    1551.7893   ✗       
+705   Q+0.984DPLQPQQAASVEK     -1.0000     NotChecked  -21.6681    1538.7577   ✗       
+706   +42.011DPLQPQQAASVEEK    -1.0000     NotChecked  -21.6687    1580.7682   ✗       
+707   +43.006DPLQPQQAASVLEK    -1.0000     NotChecked  -21.6901    1565.8049   ✗       
+708   +42.011DPLQPQQAQSVVEK    -1.0000     NotChecked  -21.7085    1607.8155   ✗       
+709   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -21.7237    1550.7940   ✗       
+710   +42.011TPLQPQQAASVVEK    -1.0000     NotChecked  -21.7272    1536.8148   ✗       
+711   +42.011DPLQPQQAASVVER    -1.0000     NotChecked  -21.7418    1578.8002   ✗       
+712   -17.027DPLQPQQAASVVQK    -1.0000     NotChecked  -21.7444    1490.7729   ✗       
+713   +42.011DPLQPQQAAGVVEK    -1.0000     NotChecked  -21.7959    1520.7835   ✗       
+714   +42.011DPLQPQNAASVVEK    -1.0000     NotChecked  -21.8143    1536.7784   ✗       
+715   +43.006DPLQ+0.984PQQAASVVEK-1.0000     NotChecked  -21.8268    1552.7733   ✗       
+716   -17.027EDPLQPQQAASVVQ+0.984K-1.0000     NotChecked  -21.8314    1620.7995   ✗       
+717   Q+0.984DPLQPQQAASVVLK    -1.0000     NotChecked  -21.8365    1621.8675   ✗       
+718   KN+0.984PLQPQQAASVVEK    -1.0000     NotChecked  -21.8424    1636.8784   ✗       
+719   N+0.984PLQPQQAASVVEK     -1.0000     NotChecked  -21.8532    1508.7835   ✗       
+720   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -21.8535    1550.7940   ✗       
+721   DDPLQPQQAASVVQK          -1.0000     NotChecked  -21.8777    1622.8264   ✗       
+722   Q+0.984DPLQPQQAASVVTK    -1.0000     NotChecked  -21.9100    1609.8311   ✗       
+723   +42.011DQLQPQQAASVVEK    -1.0000     NotChecked  -21.9214    1581.7999   ✗       
+724   QDPLQPQQAASVVEK          -1.0000     NotChecked  -21.9268    1636.8421   ✗       
+725   +42.011DPLQPQQAASVEEK    -1.0000     NotChecked  -21.9383    1580.7682   ✗       
+726   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -21.9515    1637.8261   ✓       
+727   +43.006DPLQPQQAASVLEK    -1.0000     NotChecked  -21.9597    1565.8049   ✗       
+728   +42.011DPVQPQQAASVVEK    -1.0000     NotChecked  -21.9606    1536.7784   ✗       
+729   +42.011DELQPQQAASVVEK    -1.0000     NotChecked  -21.9622    1582.7839   ✗       
+730   Q+0.984DALQPQQAASVVEK    -1.0000     NotChecked  -21.9736    1611.8104   ✗       
+731   +42.011DPLQPQQAQSVVEK    -1.0000     NotChecked  -21.9781    1607.8155   ✗       
+732   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -21.9933    1550.7940   ✗       
+733   Q+0.984DPLQPQQAASGVEK    -1.0000     NotChecked  -22.0116    1595.7791   ✗       
+734   -17.027DPLQPQQAASVVQK    -1.0000     NotChecked  -22.0140    1490.7729   ✗       
+735   +42.011DPLQPQQAASVREK    -1.0000     NotChecked  -22.0504    1607.8267   ✗       
+736   +42.011DPLQPQQAASVGEK    -1.0000     NotChecked  -22.0576    1508.7471   ✗       
+737   +42.011DPLQPQQAAGVVEK    -1.0000     NotChecked  -22.0655    1520.7835   ✗       
+738   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -22.0892    1637.8261   ✓       
+739   -17.027EDPLQPQQAASVVQ+0.984K-1.0000     NotChecked  -22.1010    1620.7995   ✗       
+740   Q+0.984DPLQPQQAASVVLK    -1.0000     NotChecked  -22.1061    1621.8675   ✗       
+741   QDPLQPQQAASVVEK          -1.0000     NotChecked  -22.1072    1636.8421   ✗       
+742   +42.011DPLQPQQAASVVQ+0.984K-1.0000     NotChecked  -22.1107    1550.7940   ✗       
+743   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -22.1231    1550.7940   ✗       
+744   +43.006DPLQPQQAASVVQ+0.984K-1.0000     NotChecked  -22.1418    1551.7893   ✗       
+745   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -22.1559    1637.8261   ✓       
+746   QN+0.984PLQPQQAASVVQ+0.984K-1.0000     NotChecked  -22.1631    1636.8421   ✗       
+747   +42.011N+0.984PLQPQQAASVVEK-1.0000     NotChecked  -22.1858    1550.7940   ✗       
+748   Q+0.984DPLQPQQAGSVVEK    -1.0000     NotChecked  -22.1895    1623.8104   ✗       
+749   +42.011DSLQPQQAASVVEK    -1.0000     NotChecked  -22.2088    1540.7733   ✗       
+750   +42.011DAPLQPQQAASVVEK   -1.0000     NotChecked  -22.2107    1621.8312   ✗       
+751   KDPLQPQQAASVVEK          -1.0000     NotChecked  -22.2126    1636.8784   ✗       
+752   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -22.2211    1637.8261   ✓       
+753   DPLQPQQAASVVEK           -1.0000     NotChecked  -22.2234    1508.7835   ✗       
+754   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -22.2258    1550.7940   ✗       
+755   +42.011DPVQPQQAASVVEK    -1.0000     NotChecked  -22.2302    1536.7784   ✗       
+756   +42.011DPLQPQQAAVVEK     -1.0000     NotChecked  -22.2506    1463.7620   ✗       
+757   +42.011DPLQPQQAAAVVEK    -1.0000     NotChecked  -22.2552    1534.7991   ✗       
+758   +42.011DPLQPQQAASVEK     -1.0000     NotChecked  -22.2725    1451.7256   ✗       
+759   +42.011DPLQ+0.984PQQAASVVQ+0.984K-1.0000     NotChecked  -22.2739    1551.7781   ✗       
+760   QDPLQPQQAASVVEK          -1.0000     NotChecked  -22.2784    1636.8421   ✗       
+761   Q+0.984DPLQPQQAASGVEK    -1.0000     NotChecked  -22.2812    1595.7791   ✗       
+762   QDPLQPQQAASVVEK          -1.0000     NotChecked  -22.2878    1636.8421   ✗       
+763   QDPLQPQQAASVVEK          -1.0000     NotChecked  -22.3087    1636.8421   ✗       
+764   DPLQPQQAASVVEK           -1.0000     NotChecked  -22.3103    1508.7835   ✗       
+765   Q+0.984DPLQPQQAASAVEK    -1.0000     NotChecked  -22.3156    1609.7948   ✗       
+766   +42.011DPLQPQQQASVVEK    -1.0000     NotChecked  -22.3198    1607.8155   ✗       
+767   +42.011DPLQPQQAASVREK    -1.0000     NotChecked  -22.3200    1607.8267   ✗       
+768   +42.011DPLQPQQAASRVEK    -1.0000     NotChecked  -22.3249    1607.8267   ✗       
+769   +42.011DPLQPQQAASVGEK    -1.0000     NotChecked  -22.3272    1508.7471   ✗       
+770   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -22.3588    1637.8261   ✓       
+771   QDPLQPQQAASVVEK          -1.0000     NotChecked  -22.3768    1636.8421   ✗       
+772   +42.011DPLQPQQAASVVQ+0.984K-1.0000     NotChecked  -22.3803    1550.7940   ✗       
+773   +42.011DPLQPQQAASVLQ+0.984K-1.0000     NotChecked  -22.4068    1564.8097   ✗       
+774   +43.006DPLQPQQAASVVQ+0.984K-1.0000     NotChecked  -22.4114    1551.7893   ✗       
+775   Q+0.984DPLQPQQAASVVE     -1.0000     NotChecked  -22.4165    1509.7311   ✗       
+776   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -22.4255    1637.8261   ✓       
+777   QN+0.984PLQPQQAASVVQ+0.984K-1.0000     NotChecked  -22.4327    1636.8421   ✗       
+778   +42.011DPLQPQQAATVVEK    -1.0000     NotChecked  -22.4419    1564.8097   ✗       
+779   -17.027DPLQPQQAASVVEK    -1.0000     NotChecked  -22.4466    1491.7569   ✗       
+780   Q+0.984DPLQPQQAASVVAK    -1.0000     NotChecked  -22.4505    1579.8206   ✗       
+781   +42.011N+0.984PLQPQQAASVVEK-1.0000     NotChecked  -22.4554    1550.7940   ✗       
+782   Q+0.984DPLQPQQAGSVVEK    -1.0000     NotChecked  -22.4591    1623.8104   ✗       
+783   DDPLQ+0.984PQQAASVVEK    -1.0000     NotChecked  -22.4735    1624.7944   ✗       
+784   KDPLQPQQAASVVEK          -1.0000     NotChecked  -22.4822    1636.8784   ✗       
+785   +42.011DPLQPQQAASVNEK    -1.0000     NotChecked  -22.4880    1565.7686   ✗       
+786   DPLQPQQAASVVEK           -1.0000     NotChecked  -22.4930    1508.7835   ✗       
+787   +42.011DPLRPQQAASVVEK    -1.0000     NotChecked  -22.5079    1578.8366   ✗       
+788   +42.011DPLQPQQAASVVTK    -1.0000     NotChecked  -22.5145    1522.7991   ✗       
+789   +42.011DPLQPQQAAVVEK     -1.0000     NotChecked  -22.5202    1463.7620   ✗       
+790   +42.011DPLQPQQAAAVVEK    -1.0000     NotChecked  -22.5248    1534.7991   ✗       
+791   Q+0.984DLQPQQAASVVEK     -1.0000     NotChecked  -22.5363    1540.7733   ✗       
+792   Q+0.984DPLQPQQAASSVEK    -1.0000     NotChecked  -22.5373    1625.7897   ✗       
+793   +42.011DPLQPQQAASVEK     -1.0000     NotChecked  -22.5421    1451.7256   ✗       
+794   +42.011DPLQ+0.984PQQAASVVQ+0.984K-1.0000     NotChecked  -22.5435    1551.7781   ✗       
+795   QDPLQPQQAASVVEK          -1.0000     NotChecked  -22.5479    1636.8421   ✗       
+796   QDPLQPQQAASVVEK          -1.0000     NotChecked  -22.5574    1636.8421   ✗       
+797   QDPLQPQQAASVVEK          -1.0000     NotChecked  -22.5783    1636.8421   ✗       
+798   DPLQPQQAASVVEK           -1.0000     NotChecked  -22.5799    1508.7835   ✗       
+799   Q+0.984DPLQPQQAASAVEK    -1.0000     NotChecked  -22.5852    1609.7948   ✗       
+800   +42.011DPLQPQQQASVVEK    -1.0000     NotChecked  -22.5893    1607.8155   ✗       
+801   +42.011DPLQPQQAASRVEK    -1.0000     NotChecked  -22.5944    1607.8267   ✗       
+802   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -22.5996    1637.8261   ✓       
+803   -17.027DPLQ+0.984PQQAASVVEK-1.0000     NotChecked  -22.6097    1492.7409   ✗       
+804   +42.011DPLEPQQAASVVEK    -1.0000     NotChecked  -22.6205    1551.7781   ✗       
+805   QDPLQPQQAASVAEK          -1.0000     NotChecked  -22.6739    1608.8108   ✗       
+806   +42.011DPLQPQQAASVLQ+0.984K-1.0000     NotChecked  -22.6764    1564.8097   ✗       
+807   QDPLQPQQAASVVEQ          -1.0000     NotChecked  -22.6820    1636.8057   ✗       
+808   Q+0.984DPLQPQQAASVVE     -1.0000     NotChecked  -22.6861    1509.7311   ✗       
+809   +42.011DPLQPQQAASVVLK    -1.0000     NotChecked  -22.7106    1534.8355   ✗       
+810   +42.011DPLQPQQAATVVEK    -1.0000     NotChecked  -22.7115    1564.8097   ✗       
+811   Q+0.984DPLQPQQAASVEK     -1.0000     NotChecked  -22.7130    1538.7577   ✗       
+812   -17.027DPLQPQQAASVVEK    -1.0000     NotChecked  -22.7162    1491.7569   ✗       
+813   Q+0.984DPLQPQQAASVVAK    -1.0000     NotChecked  -22.7201    1579.8206   ✗       
+814   -17.027DPLQPQQAASVLEK    -1.0000     NotChecked  -22.7427    1505.7726   ✗       
+815   DDPLQ+0.984PQQAASVVEK    -1.0000     NotChecked  -22.7431    1624.7944   ✗       
+816   +42.011DPLQPQQAASVNEK    -1.0000     NotChecked  -22.7576    1565.7686   ✗       
+817   +43.006DPLQPQQAASVVEK    -1.0000     NotChecked  -22.7711    1551.7893   ✗       
+818   +42.011DPLRPQQAASVVEK    -1.0000     NotChecked  -22.7775    1578.8366   ✗       
+819   +42.011DPLQPQQAASVVTK    -1.0000     NotChecked  -22.7841    1522.7991   ✗       
+820   Q+0.984DPLQPQAAASVVEK    -1.0000     NotChecked  -22.7872    1580.8046   ✗       
+821   Q+0.984LPLQPQQAASVVEK    -1.0000     NotChecked  -22.7964    1635.8832   ✗       
+822   +43.006EPLQPQQAASVVEK    -1.0000     NotChecked  -22.8018    1565.8049   ✗       
+823   QDPLQPQQAASVVQ+0.984K    -1.0000     NotChecked  -22.8028    1636.8421   ✗       
+824   +42.011DPLQPQQVASVVEK    -1.0000     NotChecked  -22.8029    1578.8253   ✗       
+825   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -22.8059    1637.8261   ✓       
+826   Q+0.984DPLQPQQAASSVEK    -1.0000     NotChecked  -22.8069    1625.7897   ✗       
+827   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -22.8255    1550.7940   ✗       
+828   QDPLQPQQAASVVEK          -1.0000     NotChecked  -22.8442    1636.8421   ✗       
+829   +42.011DALQPQQAASVVEK    -1.0000     NotChecked  -22.8476    1524.7784   ✗       
+830   +42.011DPLQPQQALSVVEK    -1.0000     NotChecked  -22.8547    1592.8410   ✗       
+831   +42.011SN+0.984PLQPQQAASVVEK-1.0000     Failed      -22.8600    1637.8261   ✓       
+832   Q+0.984DPLQPQQAASVVE     -1.0000     NotChecked  -22.8655    1509.7311   ✗       
+833   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -22.8692    1637.8261   ✓       
+834   -17.027DPLQ+0.984PQQAASVVEK-1.0000     NotChecked  -22.8793    1492.7409   ✗       
+835   +42.011DPLQPQQAASGVEK    -1.0000     NotChecked  -22.8856    1508.7471   ✗       
+836   +42.011DPLEPQQAASVVEK    -1.0000     NotChecked  -22.8901    1551.7781   ✗       
+837   +42.011DPLQPKQAASVVEK    -1.0000     NotChecked  -22.8991    1550.8304   ✗       
+838   QDPLQPQQAASVVEK          -1.0000     NotChecked  -22.8994    1636.8421   ✗       
+839   Q+0.984DPLQPQQAASVVQK    -1.0000     NotChecked  -22.9293    1636.8421   ✗       
+840   QDPLQPQQAASVAEK          -1.0000     NotChecked  -22.9435    1608.8108   ✗       
+841   QDPLQPQQAASVVEQ          -1.0000     NotChecked  -22.9516    1636.8057   ✗       
+842   +43.006ADPLQPQQAASVVEK   -1.0000     NotChecked  -22.9523    1622.8264   ✗       
+843   QSPLQPQQAASVVEK          -1.0000     NotChecked  -22.9581    1608.8471   ✗       
+844   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -22.9632    1550.7940   ✗       
+845   Q+0.984DPLQPNQAASVVEK    -1.0000     NotChecked  -22.9666    1623.8104   ✗       
+846   Q+0.984DPLQPQQAASVVEG    -1.0000     NotChecked  -22.9710    1566.7526   ✗       
+847   +42.011DPLQPQQAASVVLK    -1.0000     NotChecked  -22.9802    1534.8355   ✗       
+848   Q+0.984DPLQPQQAASVEK     -1.0000     NotChecked  -22.9826    1538.7577   ✗       
+849   -17.027DPLQPQQAASVLEK    -1.0000     NotChecked  -23.0123    1505.7726   ✗       
+850   +42.011DPLQPQQAASVFEK    -1.0000     NotChecked  -23.0150    1598.7940   ✗       
+851   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -23.0299    1550.7940   ✗       
+852   +43.006DPLQPQQAASVVEK    -1.0000     NotChecked  -23.0407    1551.7893   ✗       
+853   Q+0.984DPLQPQQAASVVN+0.984K-1.0000     NotChecked  -23.0474    1623.8104   ✗       
+854   Q+0.984DPLQPQAAASVVEK    -1.0000     NotChecked  -23.0568    1580.8046   ✗       
+855   QDPLKPQQAASVVEK          -1.0000     NotChecked  -23.0574    1636.8784   ✗       
+856   DDPLQPQQAASVVQ+0.984K    -1.0000     NotChecked  -23.0582    1623.8104   ✗       
+857   +42.011DPLQPQQAGSVVEK    -1.0000     NotChecked  -23.0636    1536.7784   ✗       
+858   Q+0.984LPLQPQQAASVVEK    -1.0000     NotChecked  -23.0660    1635.8832   ✗       
+859   +43.006EPLQPQQAASVVEK    -1.0000     NotChecked  -23.0714    1565.8049   ✗       
+860   QDPLQPQQAASVVQ+0.984K    -1.0000     NotChecked  -23.0724    1636.8421   ✗       
+861   +42.011DPLQPQQVASVVEK    -1.0000     NotChecked  -23.0725    1578.8253   ✗       
+862   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -23.0951    1550.7940   ✗       
+863   QDPLQPQQAASVVEK          -1.0000     NotChecked  -23.1138    1636.8421   ✗       
+864   +42.011DPALQPQQAASVVEK   -1.0000     NotChecked  -23.1172    1621.8312   ✗       
+865   +42.011DPLQPQQALSVVEK    -1.0000     NotChecked  -23.1243    1592.8410   ✗       
+866   Q+0.984DPPQPQQAASVVEK    -1.0000     NotChecked  -23.1261    1621.7948   ✗       
+867   +42.011SN+0.984PLQPQQAASVVEK-1.0000     Failed      -23.1296    1637.8261   ✓       
+868   Q+0.984DPLQPQQAASVVE     -1.0000     NotChecked  -23.1351    1509.7311   ✗       
+869   Q+0.984DPLQPQQAASVVVK    -1.0000     NotChecked  -23.1377    1607.8519   ✗       
+870   Q+0.984DPAQPQQAASVVEK    -1.0000     NotChecked  -23.1517    1595.7791   ✗       
+871   +42.011DPLQPQQAASGVEK    -1.0000     NotChecked  -23.1552    1508.7471   ✗       
+872   +42.011DPLQPKQAASVVEK    -1.0000     NotChecked  -23.1687    1550.8304   ✗       
+873   QDPLQPQQAASVVEK          -1.0000     NotChecked  -23.1690    1636.8421   ✗       
+874   +42.011DPLQPQQAASAVEK    -1.0000     NotChecked  -23.1897    1522.7627   ✗       
+875   KDPLQPQQAASVVQK          -1.0000     NotChecked  -23.1904    1635.8944   ✗       
+876   -17.027DPLQPQQAASVVQ+0.984K-1.0000     NotChecked  -23.1944    1491.7569   ✗       
+877   Q+0.984DPLQPQQAASVVQK    -1.0000     NotChecked  -23.1989    1636.8421   ✗       
+878   +42.011DPLQPQQAESVVEK    -1.0000     NotChecked  -23.2004    1608.7995   ✗       
+879   DPLQPQQAASVVQK           -1.0000     NotChecked  -23.2011    1507.7995   ✗       
+880   +43.006ADPLQPQQAASVVEK   -1.0000     NotChecked  -23.2219    1622.8264   ✗       
+881   QSPLQPQQAASVVEK          -1.0000     NotChecked  -23.2277    1608.8471   ✗       
+882   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -23.2328    1550.7940   ✗       
+883   Q+0.984DPLQPNQAASVVEK    -1.0000     NotChecked  -23.2362    1623.8104   ✗       
+884   Q+0.984DPLQPQQAASVVEG    -1.0000     NotChecked  -23.2406    1566.7526   ✗       
+885   QNPLQPQQAASVVEK          -1.0000     NotChecked  -23.2560    1635.8580   ✗       
+886   QDPLQPQQAASVVK           -1.0000     NotChecked  -23.2765    1507.7995   ✗       
+887   +43.006N+0.984PLQPQQAASVVQ+0.984K-1.0000     NotChecked  -23.2770    1551.7893   ✗       
+888   +42.011DPLQPQQAASVFEK    -1.0000     NotChecked  -23.2846    1598.7940   ✗       
+889   +42.011DPLQPQQAASVVE     -1.0000     NotChecked  -23.2905    1422.6991   ✗       
+890   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -23.2995    1550.7940   ✗       
+891   Q+0.984DPLQPQQAASVVN+0.984K-1.0000     NotChecked  -23.3170    1623.8104   ✗       
+892   +42.011DPLQPQQAASVVAK    -1.0000     NotChecked  -23.3245    1492.7886   ✗       
+893   QDPLKPQQAASVVEK          -1.0000     NotChecked  -23.3270    1636.8784   ✗       
+894   DDPLQPQQAASVVQ+0.984K    -1.0000     NotChecked  -23.3278    1623.8104   ✗       
+895   +42.011DPLQPQQAGSVVEK    -1.0000     NotChecked  -23.3332    1536.7784   ✗       
+896   -17.027TDPLQPQQAASVVEK   -1.0000     NotChecked  -23.3678    1592.8046   ✗       
+897   QDPLQPQQAASVVDK          -1.0000     NotChecked  -23.3781    1622.8264   ✗       
+898   +43.006DPLQPQQAASVVEK    -1.0000     NotChecked  -23.3923    1551.7893   ✗       
+899   Q+0.984DPPQPQQAASVVEK    -1.0000     NotChecked  -23.3957    1621.7948   ✗       
+900   +43.006DPLQPQQAASVVEK    -1.0000     NotChecked  -23.4017    1551.7893   ✗       
+901   Q+0.984DPLQPQQAASVVVK    -1.0000     NotChecked  -23.4073    1607.8519   ✗       
+902   +43.006DPLQPQQAASVTEK    -1.0000     NotChecked  -23.4079    1553.7685   ✗       
+903   Q+0.984DPLQPQQAASVVET    -1.0000     NotChecked  -23.4085    1610.7788   ✗       
+904   +42.011DLQPQQAASVVEK     -1.0000     NotChecked  -23.4104    1453.7413   ✗       
+905   +42.011DPLQPQQAASSVEK    -1.0000     NotChecked  -23.4113    1538.7577   ✗       
+906   Q+0.984DPAQPQQAASVVEK    -1.0000     NotChecked  -23.4213    1595.7791   ✗       
+907   +43.006DPLQPQQAASVVEK    -1.0000     NotChecked  -23.4226    1551.7893   ✗       
+908   +42.011DPLQPQQAASAVEK    -1.0000     NotChecked  -23.4593    1522.7627   ✗       
+909   KDPLQPQQAASVVQK          -1.0000     NotChecked  -23.4599    1635.8944   ✗       
+910   -17.027DPLQPQQAASVVQ+0.984K-1.0000     NotChecked  -23.4640    1491.7569   ✗       
+911   +42.011DPLQPQQAESVVEK    -1.0000     NotChecked  -23.4700    1608.7995   ✗       
+912   DPLQPQQAASVVQK           -1.0000     NotChecked  -23.4707    1507.7995   ✗       
+913   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -23.4736    1550.7940   ✗       
+914   +42.011DPLQPQQLASVVEK    -1.0000     NotChecked  -23.4798    1592.8410   ✗       
+915   +42.011DPLQPQQAASVVQ+0.984K-1.0000     NotChecked  -23.4878    1550.7940   ✗       
+916   +42.011Q+0.984PLQPQQAASVVEK-1.0000     NotChecked  -23.4993    1564.8097   ✗       
+917   +43.006DPLQPQ+0.984QAASVVEK-1.0000     NotChecked  -23.5142    1552.7733   ✗       
+918   +42.011EPLQPQQAASVVQ+0.984K-1.0000     NotChecked  -23.5185    1564.8097   ✗       
+919   QNPLQPQQAASVVEK          -1.0000     NotChecked  -23.5256    1635.8580   ✗       
+920   QDPLQPQQAASVVK           -1.0000     NotChecked  -23.5461    1507.7995   ✗       
+921   +43.006N+0.984PLQPQQAASVVQ+0.984K-1.0000     NotChecked  -23.5466    1551.7893   ✗       
+922   +42.011DPLQPQQAASVVE     -1.0000     NotChecked  -23.5601    1422.6991   ✗       
+923   +42.011DPLQPQQAASVEK     -1.0000     NotChecked  -23.5871    1451.7256   ✗       
+924   +42.011DPLQPQQAASVVAK    -1.0000     NotChecked  -23.5941    1492.7886   ✗       
+925   Q+0.984DPLQPQQAASVAQ+0.984K-1.0000     NotChecked  -23.6305    1609.7948   ✗       
+926   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -23.6314    1637.8261   ✓       
+927   -17.027TDPLQPQQAASVVEK   -1.0000     NotChecked  -23.6374    1592.8046   ✗       
+928   QDPLQPQQAASVVDK          -1.0000     NotChecked  -23.6477    1622.8264   ✗       
+929   Q+0.984DPLQPQQGASVVEK    -1.0000     NotChecked  -23.6576    1623.8104   ✗       
+930   +42.011DPLQPQAAASVVEK    -1.0000     NotChecked  -23.6613    1493.7726   ✗       
+931   +43.006DPLQPQQAASVVEK    -1.0000     NotChecked  -23.6619    1551.7893   ✗       
+932   QDPLQPQQAASVVEK          -1.0000     NotChecked  -23.6662    1636.8421   ✗       
+933   +42.011ADPLQPQQAASVVQ+0.984K-1.0000     NotChecked  -23.6690    1621.8312   ✗       
+934   +42.011LPLQPQQAASVVEK    -1.0000     NotChecked  -23.6704    1548.8512   ✗       
+935   +43.006DPLQPQQAASVVEK    -1.0000     NotChecked  -23.6713    1551.7893   ✗       
+936   +42.011DPLQPQQAASVGVEK   -1.0000     NotChecked  -23.6726    1607.8155   ✗       
+937   +43.006DPLQPQQAASVTEK    -1.0000     NotChecked  -23.6775    1553.7685   ✗       
+938   Q+0.984DPLQPQQAASVVET    -1.0000     NotChecked  -23.6780    1610.7788   ✗       
+939   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -23.6800    1550.7940   ✗       
+940   +42.011DPLQPQQAASSVEK    -1.0000     NotChecked  -23.6809    1538.7577   ✗       
+941   DDPLQPQQAASVVEK          -1.0000     NotChecked  -23.6875    1623.8104   ✗       
+942   Q+0.984DGLQPQQAASVVEK    -1.0000     NotChecked  -23.6884    1597.7948   ✗       
+943   +43.006DPLQPQQAASVVEK    -1.0000     NotChecked  -23.6922    1551.7893   ✗       
+944   +42.011DPLQPQQAASVVE     -1.0000     NotChecked  -23.7395    1422.6991   ✗       
+945   +42.011DPLQPQQAASVVEK    -1.0000     NotChecked  -23.7432    1550.7940   ✗       
+946   +42.011DPLQPQQAASKVEK    -1.0000     NotChecked  -23.7436    1579.8206   ✗       
+947   +42.011DPLQPQQAASVVEQ+0.984-1.0000     NotChecked  -23.7493    1551.7417   ✗       
+948   +42.011DPLQPQQLASVVEK    -1.0000     NotChecked  -23.7494    1592.8410   ✗       
+949   +42.011DPLQQQQAASVVEK    -1.0000     NotChecked  -23.7551    1581.7999   ✗       
+950   +42.011DPLQPQQAASVVQ+0.984K-1.0000     NotChecked  -23.7574    1550.7940   ✗       
+951   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -23.7599    1637.8261   ✓       
+952   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -23.7601    1637.8261   ✓       
+953   +42.011Q+0.984PLQPQQAASVVEK-1.0000     NotChecked  -23.7689    1564.8097   ✗       
+954   +43.006DPLQPQ+0.984QAASVVEK-1.0000     NotChecked  -23.7838    1552.7733   ✗       
+955   +43.006DPLQPQQAASVAEK    -1.0000     NotChecked  -23.7878    1523.7580   ✗       
+956   +42.011EPLQPQQAASVVQ+0.984K-1.0000     NotChecked  -23.7881    1564.8097   ✗       
+957   +43.006DPLQPQQAASVVEQ    -1.0000     NotChecked  -23.7959    1551.7529   ✗       
+958   +42.011DPLQPQQAASVVQK    -1.0000     NotChecked  -23.8033    1549.8100   ✗       
+959   +42.011DPLQPQQAAKVVEK    -1.0000     NotChecked  -23.8052    1591.8570   ✗       
+960   +42.011DPLQPQQAASVGVEK   -1.0000     NotChecked  -23.8078    1607.8155   ✗       
+961   -17.027DPLQPQQAASVVEK    -1.0000     NotChecked  -23.8237    1491.7569   ✗       
+962   +42.011DPLQPQQAASTVEK    -1.0000     NotChecked  -23.8240    1552.7733   ✗       
+963   QTPLQPQQAASVVEK          -1.0000     NotChecked  -23.8296    1622.8628   ✗       
+964   +42.011DPLQPNQAASVVEK    -1.0000     NotChecked  -23.8406    1536.7784   ✗       
+965   Q+0.984DPLQPQQAASVVEA    -1.0000     NotChecked  -23.8436    1580.7682   ✗       
+966   +42.011DPLQPQQAASVVEG    -1.0000     NotChecked  -23.8450    1479.7205   ✗       
+967   +42.011DGPLQPQQAASVVEK   -1.0000     NotChecked  -23.8454    1607.8155   ✗       
+968   -17.027EPLQPQQAASVVEK    -1.0000     NotChecked  -23.8544    1505.7726   ✗       
+969   +42.011DPLQPQQAASVGVEK   -1.0000     NotChecked  -23.8565    1607.8155   ✗       
+970   +42.011DPLQPQQAASVEK     -1.0000     NotChecked  -23.8567    1451.7256   ✗       
+971   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -23.8602    1637.8261   ✓       
+972   -17.027SDPLQPQQAASVVQ+0.984K-1.0000     NotChecked  -23.8686    1578.7890   ✗       
+973   +42.011DPLQPQKAASVVEK    -1.0000     NotChecked  -23.8759    1550.8304   ✗       
+974   +42.011DPLQPQQAARVVEK    -1.0000     NotChecked  -23.8873    1619.8631   ✗       
+975   KDPLQPQQAASVVEK          -1.0000     NotChecked  -23.8925    1636.8784   ✗       
+976   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -23.8936    1637.8261   ✓       
+977   Q+0.984DPLQPQQAASVAQ+0.984K-1.0000     NotChecked  -23.9000    1609.7948   ✗       
+978   Q+0.984DPLQPQQAASVVEK    -1.0000     Failed      -23.9010    1637.8261   ✓       
+979   DPLQPQQAASVVEK           -1.0000     NotChecked  -23.9033    1508.7835   ✗       
+980   Q+0.984DPLQPAQAASVVEK    -1.0000     NotChecked  -23.9039    1580.8046   ✗       
+981   +42.011DPLQPQQAADVVEK    -1.0000     NotChecked  -23.9058    1578.7890   ✗       
+982   Q+0.984SPLQPQQAASVVQ+0.984K-1.0000     NotChecked  -23.9147    1609.8312   ✗       
+983   +43.006DPLQPQQAASVVQ+0.984K-1.0000     NotChecked  -23.9167    1551.7893   ✗       
+984   QDPLQPQNAASVVEK          -1.0000     NotChecked  -23.9168    1622.8264   ✗       
+985   +42.011DPLQPQQAASVVN+0.984K-1.0000     NotChecked  -23.9214    1536.7784   ✗       
+986   Q+0.984DPLQPQQGASVVEK    -1.0000     NotChecked  -23.9272    1623.8104   ✗       
+987   +42.011DPLQPQAAASVVEK    -1.0000     NotChecked  -23.9309    1493.7726   ✗       
+988   Q+0.984DPLQQQAASVVEK     -1.0000     NotChecked  -23.9339    1540.7733   ✗       
+989   QDPLQPQQAASVVEK          -1.0000     NotChecked  -23.9358    1636.8421   ✗       
+990   +42.011DPLQPQQAAEVVEK    -1.0000     NotChecked  -23.9374    1592.8046   ✗       
+991   +42.011ADPLQPQQAASVVQ+0.984K-1.0000     NotChecked  -23.9386    1621.8312   ✗       
+992   +42.011LPLQPQQAASVVEK    -1.0000     NotChecked  -23.9400    1548.8512   ✗       
+993   +42.011DPLQPQQAASVGVEK   -1.0000     NotChecked  -23.9422    1607.8155   ✗       
+994   DDPLQPQQAASVVEK          -1.0000     NotChecked  -23.9571    1623.8104   ✗       
+995   +43.006DPLQPQQAASVVEK    -1.0000     NotChecked  -23.9581    1551.7893   ✗       
+996   +42.011N+0.984PLQPQQAASVVEK-1.0000     NotChecked  -23.9607    1550.7940   ✗       
+997   +42.011DPLQPQRAASVVEK    -1.0000     NotChecked  -23.9846    1578.8366   ✗       
+998   Q+0.984DPLAPQQAASVVEK    -1.0000     NotChecked  -23.9959    1580.8046   ✗       
+999   +42.011DPPQPQQAASVVEK    -1.0000     NotChecked  -24.0001    1534.7627   ✗       
+1000  -17.027ADPLQPQQAASVVEK   -1.0000     NotChecked  -24.0049    1562.7940   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: EDPLQPQQAASVVEK
+Similarity: 0.9338
+De Novo Score: -0.5931
+Source: Database
+Correct: ✓
+

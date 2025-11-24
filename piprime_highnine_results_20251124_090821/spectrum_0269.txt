@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 269
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 536.2737
+Precursor charge: 3+
+Ground truth: NFDIPKEMTGIWR
+Ground truth (normalized): NFDIPKEMTGIWR
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 206
+Used for reranking: 206
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 206 (20.6%)
+Database matches: 144 (14.4%)
+Prosit predictions: 55 (5.5%)
+Failed: 7 (0.7%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.7815
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     NFDLPKEMTGLWR            0.7815      Database    -0.4580     1605.7973   ✓       ✓
+2     NFDLPKEMTGLWR            0.7815      Database    -2.3062     1605.7973   ✓       ✓
+3     NFDLPKEMTGLWR            0.7815      Database    -2.7558     1605.7973   ✓       ✓
+4     NFDLPKEMTGLWR            0.7815      Database    -3.0288     1605.7973   ✓       ✓
+5     NFDLPKEMTGLWR            0.7815      Database    -3.7738     1605.7973   ✓       ✓
+6     NFDLPKEMTGLWR            0.7815      Database    -4.6040     1605.7973   ✓       ✓
+7     NFDLPKEMTGLWR            0.7815      Database    -4.8770     1605.7973   ✓       ✓
+8     NFDLPKEMTGLWR            0.7815      Database    -5.3266     1605.7973   ✓       ✓
+9     NFDLPKEMTGLWR            0.7815      Database    -5.6220     1605.7973   ✓       ✓
+10    NFDLPKEMTGLWR            0.7815      Database    -5.9628     1605.7973   ✓       ✓
+11    NFDLPKEMTGLWR            0.7815      Database    -6.0717     1605.7973   ✓       ✓
+12    NFDLPKEMTGLWR            0.7815      Database    -6.0816     1605.7973   ✓       ✓
+13    NFDLPKEMTGLWR            0.7815      Database    -6.3446     1605.7973   ✓       ✓
+14    NFDLPKEMTGLWR            0.7815      Database    -7.1748     1605.7973   ✓       ✓
+15    NFDLPKEMTGLWR            0.7815      Database    -7.4751     1605.7973   ✓       ✓
+16    NFDLPKEMTGLWR            0.7815      Database    -7.5498     1605.7973   ✓       ✓
+17    NFDLPKEMTGLWR            0.7815      Database    -7.8110     1605.7973   ✓       ✓
+18    NFDLPKEMTGLWR            0.7815      Database    -7.9199     1605.7973   ✓       ✓
+19    NFDLPKEMTGLWR            0.7815      Database    -7.9298     1605.7973   ✓       ✓
+20    NFDLPKEMTGLWR            0.7815      Database    -8.1928     1605.7973   ✓       ✓
+21    NFDLPKEMTGLWR            0.7815      Database    -8.2607     1605.7973   ✓       ✓
+22    NFDLPKEMTGLWR            0.7815      Database    -8.3795     1605.7973   ✓       ✓
+23    NFDLPKEMTGLWR            0.7815      Database    -8.4972     1605.7973   ✓       ✓
+24    NFDLPKEMTGLWR            0.7815      Database    -8.5336     1605.7973   ✓       ✓
+25    NFDLPKEMTGLWR            0.7815      Database    -8.5747     1605.7973   ✓       ✓
+26    NFDLPKEMTGLWR            0.7815      Database    -8.6094     1605.7973   ✓       ✓
+27    NFDLPKEMTGLWR            0.7815      Database    -8.6425     1605.7973   ✓       ✓
+28    NFDLPKEMTGLWR            0.7815      Database    -8.6524     1605.7973   ✓       ✓
+29    NFDLPKEMTGLWR            0.7815      Database    -9.2111     1605.7973   ✓       ✓
+30    NFDLPKEMTGLWR            0.7815      Database    -9.2786     1605.7973   ✓       ✓
+31    NFDLPKEMTGLWR            0.7815      Database    -9.3233     1605.7973   ✓       ✓
+32    NFDLPKEMTGLWR            0.7815      Database    -9.3975     1605.7973   ✓       ✓
+33    NFDLPKEMTGLWR            0.7815      Database    -9.3980     1605.7973   ✓       ✓
+34    NFDLPKEMTGLWR            0.7815      Database    -9.7730     1605.7973   ✓       ✓
+35    NFDLPKEMTGLWR            0.7815      Database    -9.8476     1605.7973   ✓       ✓
+36    NFDLPKEMTGLWR            0.7815      Database    -10.0328    1605.7973   ✓       ✓
+37    NFDLPKEMTGLWR            0.7815      Database    -10.0459    1605.7973   ✓       ✓
+38    NFDLPKEMTGLWR            0.7815      Database    -10.1089    1605.7973   ✓       ✓
+39    NFDLPKEMTGLWR            0.7815      Database    -10.1206    1605.7973   ✓       ✓
+40    NFDLPKEMTGLWR            0.7815      Database    -10.2277    1605.7973   ✓       ✓
+41    NFDLPKEMTGLWR            0.7815      Database    -10.3454    1605.7973   ✓       ✓
+42    NFDLPKEMTGLWR            0.7815      Database    -10.3818    1605.7973   ✓       ✓
+43    NFDLPKEMTGLWR            0.7815      Database    -10.4229    1605.7973   ✓       ✓
+44    NFDLPKEMTGLWR            0.7815      Database    -10.4576    1605.7973   ✓       ✓
+45    NFDLPKEMTGLWR            0.7815      Database    -10.4907    1605.7973   ✓       ✓
+46    NFDLPKEMTGLWR            0.7815      Database    -10.5006    1605.7973   ✓       ✓
+47    NFDLPKEMTGLWR            0.7815      Database    -10.5711    1605.7973   ✓       ✓
+48    NFDLPKEMTGLWR            0.7815      Database    -10.6619    1605.7973   ✓       ✓
+49    NFDLPKEMTGLWR            0.7815      Database    -10.7910    1605.7973   ✓       ✓
+50    NFDLPKEMTGLWR            0.7815      Database    -10.7951    1605.7973   ✓       ✓
+51    NFDLPKEMTGLWR            0.7815      Database    -10.8314    1605.7973   ✓       ✓
+52    NFDLPKEMTGLWR            0.7815      Database    -10.8656    1605.7973   ✓       ✓
+53    NFDLPKEMTGLWR            0.7815      Database    -10.8726    1605.7973   ✓       ✓
+54    NFDLPKEMTGLWR            0.7815      Database    -10.9072    1605.7973   ✓       ✓
+55    NFDLPKEMTGLWR            0.7815      Database    -10.9503    1605.7973   ✓       ✓
+56    NFDLPKEMTGLWR            0.7815      Database    -11.0585    1605.7973   ✓       ✓
+57    NFDLPKEMTGLWR            0.7815      Database    -11.0593    1605.7973   ✓       ✓
+58    NFDLPKEMTGLWR            0.7815      Database    -11.0680    1605.7973   ✓       ✓
+59    NFDLPKEMTGLWR            0.7815      Database    -11.1268    1605.7973   ✓       ✓
+60    NFDLPKEMTGLWR            0.7815      Database    -11.1455    1605.7973   ✓       ✓
+61    NFDLPKEMTGLWR            0.7815      Database    -11.1802    1605.7973   ✓       ✓
+62    NFDLPKEMTGLWR            0.7815      Database    -11.2457    1605.7973   ✓       ✓
+63    NFDLPKEMTGLWR            0.7815      Database    -11.2810    1605.7973   ✓       ✓
+64    NFDLPKEMTGLWR            0.7815      Database    -11.3065    1605.7973   ✓       ✓
+65    NFDLPKEMTGLWR            0.7815      Database    -11.5090    1605.7973   ✓       ✓
+66    NFDLPKEMTGLWR            0.7815      Database    -11.5416    1605.7973   ✓       ✓
+67    NFDLPKEMTGLWR            0.7815      Database    -11.5765    1605.7973   ✓       ✓
+68    NFDLPKEMTGLWR            0.7815      Database    -11.5865    1605.7973   ✓       ✓
+69    NFDLPKEMTGLWR            0.7815      Database    -11.6212    1605.7973   ✓       ✓
+70    NFDLPKEMTGLWR            0.7815      Database    -11.6778    1605.7973   ✓       ✓
+71    NFDLPKEMTGLWR            0.7815      Database    -11.6953    1605.7973   ✓       ✓
+72    NFDLPKEMTGLWR            0.7815      Database    -11.6958    1605.7973   ✓       ✓
+73    NFDLPKEMTGLWR            0.7815      Database    -11.7819    1605.7973   ✓       ✓
+74    NFDLPKEMTGLWR            0.7815      Database    -11.8131    1605.7973   ✓       ✓
+75    NFDLPKEMTGLWR            0.7815      Database    -11.8494    1605.7973   ✓       ✓
+76    NFDLPKEMTGLWR            0.7815      Database    -11.8810    1605.7973   ✓       ✓
+77    NFDLPKEMTGLWR            0.7815      Database    -11.8905    1605.7973   ✓       ✓
+78    NFDLPKEMTGLWR            0.7815      Database    -11.8941    1605.7973   ✓       ✓
+79    NFDLPKEMTGLWR            0.7815      Database    -11.9252    1605.7973   ✓       ✓
+80    NFDLPKEMTGLWR            0.7815      Database    -11.9683    1605.7973   ✓       ✓
+81    NFDLPKEMTGLWR            0.7815      Database    -11.9688    1605.7973   ✓       ✓
+82    NFDLPKEMTGLWR            0.7815      Database    -12.2760    1605.7973   ✓       ✓
+83    NFDLPKEMTGLWR            0.7815      Database    -12.2901    1605.7973   ✓       ✓
+84    NFDLPKEMTGLWR            0.7815      Database    -12.3307    1605.7973   ✓       ✓
+85    NFDLPKEMTGLWR            0.7815      Database    -12.3438    1605.7973   ✓       ✓
+86    NFDLPKEMTGLWR            0.7815      Database    -12.4184    1605.7973   ✓       ✓
+87    NFDLPKEMTGLWR            0.7815      Database    -12.4193    1605.7973   ✓       ✓
+88    NFDLPKEMTGLWR            0.7815      Database    -12.5101    1605.7973   ✓       ✓
+89    NFDLPKEMTGLWR            0.7815      Database    -12.5270    1605.7973   ✓       ✓
+90    NFDLPKEMTGLWR            0.7815      Database    -12.6036    1605.7973   ✓       ✓
+91    NFDLPKEMTGLWR            0.7815      Database    -12.6392    1605.7973   ✓       ✓
+92    NFDLPKEMTGLWR            0.7815      Database    -12.6433    1605.7973   ✓       ✓
+93    NFDLPKEMTGLWR            0.7815      Database    -12.6796    1605.7973   ✓       ✓
+94    NFDLPKEMTGLWR            0.7815      Database    -12.7138    1605.7973   ✓       ✓
+95    NFDLPKEMTGLWR            0.7815      Database    -12.7208    1605.7973   ✓       ✓
+96    NFDLPKEMTGLWR            0.7815      Database    -12.7554    1605.7973   ✓       ✓
+97    NFDLPKEMTGLWR            0.7815      Database    -12.7779    1605.7973   ✓       ✓
+98    NFDLPKEMTGLWR            0.7815      Database    -12.7985    1605.7973   ✓       ✓
+99    NFDLPKEMTGLWR            0.7815      Database    -12.8689    1605.7973   ✓       ✓
+100   NFDLPKEMTGLWR            0.7815      Database    -12.9067    1605.7973   ✓       ✓
+101   NFDLPKEMTGLWR            0.7815      Database    -12.9162    1605.7973   ✓       ✓
+102   NFDLPKEMTGLWR            0.7815      Database    -12.9597    1605.7973   ✓       ✓
+103   NFDLPKEMTGLWR            0.7815      Database    -12.9799    1605.7973   ✓       ✓
+104   NFDLPKEMTGLWR            0.7815      Database    -12.9937    1605.7973   ✓       ✓
+105   NFDLPKEMTGLWR            0.7815      Database    -13.0284    1605.7973   ✓       ✓
+106   NFDLPKEMTGLWR            0.7815      Database    -13.0546    1605.7973   ✓       ✓
+107   NFDLPKEMTGLWR            0.7815      Database    -13.0888    1605.7973   ✓       ✓
+108   NFDLPKEMTGLWR            0.7815      Database    -13.0988    1605.7973   ✓       ✓
+109   NFDLPKEMTGLWR            0.7815      Database    -13.1013    1605.7973   ✓       ✓
+110   NFDLPKEMTGLWR            0.7815      Database    -13.1292    1605.7973   ✓       ✓
+111   NFDLPKEMTGLWR            0.7815      Database    -13.1419    1605.7973   ✓       ✓
+112   NFDLPKEMTGLWR            0.7815      Database    -13.1547    1605.7973   ✓       ✓
+113   NFDLPKEMTGLWR            0.7815      Database    -13.1635    1605.7973   ✓       ✓
+114   NFDLPKEMTGLWR            0.7815      Database    -13.1734    1605.7973   ✓       ✓
+115   NFDLPKEMTGLWR            0.7815      Database    -13.3487    1605.7973   ✓       ✓
+116   NFDLPKEMTGLWR            0.7815      Database    -13.3572    1605.7973   ✓       ✓
+117   NFDLPKEMTGLWR            0.7815      Database    -13.3617    1605.7973   ✓       ✓
+118   NFDLPKEMTGLWR            0.7815      Database    -13.3659    1605.7973   ✓       ✓
+119   NFDLPKEMTGLWR            0.7815      Database    -13.4247    1605.7973   ✓       ✓
+120   NFDLPKEMTGLWR            0.7815      Database    -13.4347    1605.7973   ✓       ✓
+121   NFDLPKEMTGLWR            0.7815      Database    -13.4358    1605.7973   ✓       ✓
+122   NFDLPKEMTGLWR            0.7815      Database    -13.4364    1605.7973   ✓       ✓
+123   NFDLPKEMTGLWR            0.7815      Database    -13.4433    1605.7973   ✓       ✓
+124   NFDLPKEMTGLWR            0.7815      Database    -13.4780    1605.7973   ✓       ✓
+125   NFDLPKEMTGLWR            0.7815      Database    -13.5035    1605.7973   ✓       ✓
+126   NFDLPKEMTGLWR            0.7815      Database    -13.5260    1605.7973   ✓       ✓
+127   NFDLPKEMTGLWR            0.7815      Database    -13.5435    1605.7973   ✓       ✓
+128   NFDLPKEMTGLWR            0.7815      Database    -13.5789    1605.7973   ✓       ✓
+129   NFDLPKEMTGLWR            0.7815      Database    -13.6043    1605.7973   ✓       ✓
+130   NFDLPKEMTGLWR            0.7815      Database    -13.6293    1605.7973   ✓       ✓
+131   NFDLPKEMTGLWR            0.7815      Database    -13.6301    1605.7973   ✓       ✓
+132   NFDLPKEMTGLWR            0.7815      Database    -13.6613    1605.7973   ✓       ✓
+133   NFDLPKEMTGLWR            0.7815      Database    -13.6976    1605.7973   ✓       ✓
+134   NFDLPKEMTGLWR            0.7815      Database    -13.7387    1605.7973   ✓       ✓
+135   NFDLPKEMTGLWR            0.7815      Database    -13.7734    1605.7973   ✓       ✓
+136   NFDLPKEMTGLWR            0.7815      Database    -13.8165    1605.7973   ✓       ✓
+137   NFDLPKEMTGLWR            0.7815      Database    -13.8394    1605.7973   ✓       ✓
+138   NFDLPKEMTGLWR            0.7815      Database    -13.8518    1605.7973   ✓       ✓
+139   NFDLPKEMTGLWR            0.7815      Database    -13.8773    1605.7973   ✓       ✓
+140   NFDLPKEMTGLWR            0.7815      Database    -13.8843    1605.7973   ✓       ✓
+141   NFDLPKEMTGLWR            0.7815      Database    -13.8869    1605.7973   ✓       ✓
+142   NFDLPKEMTGLWR            0.7815      Database    -13.9756    1605.7973   ✓       ✓
+143   NFDLPKEMTGLWR            0.7815      Database    -13.9777    1605.7973   ✓       ✓
+144   NFDLPKEMTGLWR            0.7815      Database    -14.0020    1605.7973   ✓       ✓
+145   NFDLPQEMTGLWR            0.4954      Prosit      -9.0036     1605.7610   ✓       
+146   NFDLPQEMTGLWR            0.4954      Prosit      -10.8518    1605.7610   ✓       
+147   NFDLPQEMTGLWR            0.4954      Prosit      -11.3014    1605.7610   ✓       
+148   NFDLPQEMTGLWR            0.4954      Prosit      -11.5744    1605.7610   ✓       
+149   NFDLPQEMTGLWR            0.4954      Prosit      -12.3194    1605.7610   ✓       
+150   NFDLPQEMTGLWR            0.4954      Prosit      -13.1496    1605.7610   ✓       
+151   NFDLPQEMTGLWR            0.4954      Prosit      -13.4226    1605.7610   ✓       
+152   NFDLPQEMTGLWR            0.4954      Prosit      -13.8722    1605.7610   ✓       
+153   N+0.984FDLPKKMTGLWR      0.4888      Prosit      -11.9847    1605.8337   ✓       
+154   N+0.984FDLPKKMTGLWR      0.4888      Prosit      -14.2825    1605.8337   ✓       
+155   N+0.984FDLPKKMTGLWR      0.4888      Prosit      -14.5555    1605.8337   ✓       
+156   NFN+0.984LPKEMTGLWR      0.4844      Prosit      -6.4200     1605.7973   ✓       
+157   NFN+0.984LPKEMTGLWR      0.4844      Prosit      -8.2682     1605.7973   ✓       
+158   NFN+0.984LPKEMTGLWR      0.4844      Prosit      -8.7178     1605.7973   ✓       
+159   NFN+0.984LPKEMTGLWR      0.4844      Prosit      -8.9908     1605.7973   ✓       
+160   NFN+0.984LPKEMTGLWR      0.4844      Prosit      -9.7358     1605.7973   ✓       
+161   NFN+0.984LPKEMTGLWR      0.4844      Prosit      -10.5660    1605.7973   ✓       
+162   NFN+0.984LPKEMTGLWR      0.4844      Prosit      -10.8390    1605.7973   ✓       
+163   NFN+0.984LPKEMTGLWR      0.4844      Prosit      -11.2886    1605.7973   ✓       
+164   NFN+0.984LPKEMTGLWR      0.4844      Prosit      -11.5840    1605.7973   ✓       
+165   N+0.984FNLPKEMTGLWR      0.4844      Prosit      -11.8163    1605.7973   ✓       
+166   NFN+0.984LPKEMTGLWR      0.4844      Prosit      -11.9248    1605.7973   ✓       
+167   NFN+0.984LPKEMTGLWR      0.4844      Prosit      -12.0336    1605.7973   ✓       
+168   NFN+0.984LPKEMTGLWR      0.4844      Prosit      -12.0436    1605.7973   ✓       
+169   NFN+0.984LPKEMTGLWR      0.4844      Prosit      -12.3066    1605.7973   ✓       
+170   NFN+0.984LPKEMTGLWR      0.4844      Prosit      -13.1368    1605.7973   ✓       
+171   NFN+0.984LPKEMTGLWR      0.4844      Prosit      -13.5118    1605.7973   ✓       
+172   NFN+0.984LPKEMTGLWR      0.4844      Prosit      -13.7730    1605.7973   ✓       
+173   NFN+0.984LPKEMTGLWR      0.4844      Prosit      -13.8818    1605.7973   ✓       
+174   NFN+0.984LPKEMTGLWR      0.4844      Prosit      -13.8918    1605.7973   ✓       
+175   N+0.984FNLPKEMTGLWR      0.4844      Prosit      -14.1141    1605.7973   ✓       
+176   N+0.984FNLPKEMTGLWR      0.4844      Prosit      -14.3871    1605.7973   ✓       
+177   N+0.984FNLPKEMTGLWR      0.4844      Prosit      -15.1321    1605.7973   ✓       
+178   GFGDLPKEMTGLWR           0.4729      Prosit      -14.5650    1605.7973   ✓       
+179   NFELPKEMTGVWR            0.4644      Prosit      -13.8751    1605.7973   ✓       
+180   +43.006FDLPKEMTKLWR      0.4638      Prosit      -15.0838    1605.8337   ✓       
+181   NFELPKEMSGLWR            0.4624      Prosit      -13.9265    1605.7973   ✓       
+182   +43.006FADLPKEMTGLWR     0.4613      Prosit      -13.4343    1605.7973   ✓       
+183   +43.006FADLPKEMTGLWR     0.4613      Prosit      -14.9084    1605.7973   ✓       
+184   NFDLPKQ+0.984MTGLWR      0.4601      Prosit      -7.2120     1605.7973   ✓       
+185   NFDLPKQ+0.984MTGLWR      0.4601      Prosit      -9.0602     1605.7973   ✓       
+186   NFDLPKQ+0.984MTGLWR      0.4601      Prosit      -9.5099     1605.7973   ✓       
+187   NFDLPKQ+0.984MTGLWR      0.4601      Prosit      -9.7828     1605.7973   ✓       
+188   NFDLPKQ+0.984MTGLWR      0.4601      Prosit      -10.5278    1605.7973   ✓       
+189   NFDLPKQ+0.984MTGLWR      0.4601      Prosit      -11.3581    1605.7973   ✓       
+190   NFDLPKQ+0.984MTGLWR      0.4601      Prosit      -11.6310    1605.7973   ✓       
+191   NFDLPKQ+0.984MTGLWR      0.4601      Prosit      -12.0806    1605.7973   ✓       
+192   NFDLPKQ+0.984MTGLWR      0.4601      Prosit      -12.3760    1605.7973   ✓       
+193   NFDLPKQ+0.984MTGLWR      0.4601      Prosit      -12.7168    1605.7973   ✓       
+194   NFDLPKQ+0.984MTGLWR      0.4601      Prosit      -12.8257    1605.7973   ✓       
+195   NFDLPKQ+0.984MTGLWR      0.4601      Prosit      -12.8357    1605.7973   ✓       
+196   NFDLPKQ+0.984MTGLWR      0.4601      Prosit      -13.0986    1605.7973   ✓       
+197   N+0.984FDLPKQMTGLWR      0.4601      Prosit      -13.7474    1605.7973   ✓       
+198   NFDLPKQ+0.984MTGLWR      0.4601      Prosit      -13.9288    1605.7973   ✓       
+199   NFN+0.984LPKQ+0.984MTGLWR0.4332      Prosit      -13.1740    1605.7973   ✓       
+200   +43.006FDLPKEMTGLWR      -1.0000     NotChecked  -6.2483     1534.7602   ✗       
+201   AFDLPKEMTGLWR            -1.0000     NotChecked  -6.6974     1562.7915   ✗       
+202   GFDLPKEMTGLWR            -1.0000     NotChecked  -6.7309     1548.7759   ✗       
+203   VFDLPKEMTGLWR            -1.0000     NotChecked  -6.7937     1590.8228   ✗       
+204   +42.011FDLPKEMTGLWR      -1.0000     NotChecked  -6.8987     1533.7650   ✗       
+205   NFDLPKEMAGLWR            -1.0000     NotChecked  -7.2086     1575.7868   ✗       
+206   LFDLPKEMTGLWR            -1.0000     NotChecked  -7.4206     1604.8385   ✗       
+207   NFDLPKEETGLWR            -1.0000     NotChecked  -7.9479     1603.7994   ✗       
+208   NFDLPKEMTGLLR            -1.0000     NotChecked  -7.9820     1532.8021   ✗       
+209   NDLPKEMTGLWR             -1.0000     NotChecked  -8.0911     1458.7289   ✗       
+210   NVDLPKEMTGLWR            -1.0000     NotChecked  -8.3097     1557.7973   ✗       
+211   NFPLPKEMTGLWR            -1.0000     NotChecked  -8.3246     1587.8232   ✗       
+212   NFDLPKEMTGVWR            -1.0000     NotChecked  -8.4175     1591.7817   ✗       
+213   NADLPKEMTGLWR            -1.0000     NotChecked  -8.4436     1529.7660   ✗       
+214   NFDLPKEMSGLWR            -1.0000     NotChecked  -8.4689     1591.7817   ✗       
+215   +43.006FDLPKEMTGLWR      -1.0000     NotChecked  -8.5462     1534.7602   ✗       
+216   NDDLPKEMTGLWR            -1.0000     NotChecked  -8.6120     1573.7559   ✗       
+217   NFNLPKEMTGLWR            -1.0000     NotChecked  -8.6625     1604.8133   ✗       
+218   NEDLPKEMTGLWR            -1.0000     NotChecked  -8.6972     1587.7715   ✗       
+219   NFDLPKETTGLWR            -1.0000     NotChecked  -8.7498     1575.8045   ✗       
+220   NFDLPKEMTGLR             -1.0000     NotChecked  -8.7607     1419.7180   ✗       
+221   +43.006FDLPKEMTGLWR      -1.0000     NotChecked  -8.8191     1534.7602   ✗       
+222   NFDLPKEDTGLWR            -1.0000     NotChecked  -8.8200     1589.7838   ✗       
+223   NFDVPKEMTGLWR            -1.0000     NotChecked  -8.8239     1591.7817   ✗       
+224   NFDLPKKMTGLWR            -1.0000     NotChecked  -8.8310     1604.8497   ✗       
+225   NFDTPKEMTGLWR            -1.0000     NotChecked  -8.8420     1593.7609   ✗       
+226   NFVLPKEMTGLWR            -1.0000     NotChecked  -8.9138     1589.8388   ✗       
+227   NFDLPKEMTLWR             -1.0000     NotChecked  -8.9742     1548.7759   ✗       
+228   AFDLPKEMTGLWR            -1.0000     NotChecked  -8.9952     1562.7915   ✗       
+229   GFDLPKEMTGLWR            -1.0000     NotChecked  -9.0287     1548.7759   ✗       
+230   NFDLPKEMAGLWR            -1.0000     NotChecked  -9.0568     1575.7868   ✗       
+231   NFLLPKEMTGLWR            -1.0000     NotChecked  -9.0814     1603.8545   ✗       
+232   VFDLPKEMTGLWR            -1.0000     NotChecked  -9.0915     1590.8228   ✗       
+233   +42.011FDLPKEMTGLWR      -1.0000     NotChecked  -9.1966     1533.7650   ✗       
+234   NFDLPKENTGLWR            -1.0000     NotChecked  -9.2265     1588.7998   ✗       
+235   AFDLPKEMTGLWR            -1.0000     NotChecked  -9.2682     1562.7915   ✗       
+236   GFDLPKEMTGLWR            -1.0000     NotChecked  -9.3017     1548.7759   ✗       
+237   NQDLPKEMTGLWR            -1.0000     NotChecked  -9.3339     1586.7875   ✗       
+238   NFSLPKEMTGLWR            -1.0000     NotChecked  -9.3384     1577.8024   ✗       
+239   VFDLPKEMTGLWR            -1.0000     NotChecked  -9.3645     1590.8228   ✗       
+240   NFDLPKEMVGLWR            -1.0000     NotChecked  -9.3930     1603.8181   ✗       
+241   NFDLPKESTGLWR            -1.0000     NotChecked  -9.4323     1561.7889   ✗       
+242   NFDLPKELTGLWR            -1.0000     NotChecked  -9.4517     1587.8409   ✗       
+243   +42.011FDLPKEMTGLWR      -1.0000     NotChecked  -9.4695     1533.7650   ✗       
+244   NFDLPKEMGGLWR            -1.0000     NotChecked  -9.4729     1561.7711   ✗       
+245   NFDLPKEMAGLWR            -1.0000     NotChecked  -9.5064     1575.7868   ✗       
+246   NFDSPKEMTGLWR            -1.0000     NotChecked  -9.5215     1579.7453   ✗       
+247   NFDLPKEMTGLAR            -1.0000     NotChecked  -9.5640     1490.7551   ✗       
+248   +43.006FDLPKEMTGLWR      -1.0000     NotChecked  -9.5642     1534.7602   ✗       
+249   NLDLPKEMTGLWR            -1.0000     NotChecked  -9.6353     1571.8130   ✗       
+250   LFDLPKEMTGLWR            -1.0000     NotChecked  -9.7184     1604.8385   ✗       
+251   NFDLPKEMAGLWR            -1.0000     NotChecked  -9.7794     1575.7868   ✗       
+252   NFDLPKEETGLWR            -1.0000     NotChecked  -9.7961     1603.7994   ✗       
+253   NFDLPKEMTGLLR            -1.0000     NotChecked  -9.8302     1532.8021   ✗       
+254   NFDLAKEMTGLWR            -1.0000     NotChecked  -9.9208     1579.7817   ✗       
+255   NDLPKEMTGLWR             -1.0000     NotChecked  -9.9393     1458.7289   ✗       
+256   LFDLPKEMTGLWR            -1.0000     NotChecked  -9.9914     1604.8385   ✗       
+257   AFDLPKEMTGLWR            -1.0000     NotChecked  -10.0132    1562.7915   ✗       
+258   NFDLPKEMTGLGR            -1.0000     NotChecked  -10.0192    1476.7395   ✗       
+259   GFDLPKEMTGLWR            -1.0000     NotChecked  -10.0467    1548.7759   ✗       
+260   NFDLPLEMTGLWR            -1.0000     NotChecked  -10.1032    1590.7864   ✗       
+261   VFDLPKEMTGLWR            -1.0000     NotChecked  -10.1095    1590.8228   ✗       
+262   NSDLPKEMTGLWR            -1.0000     NotChecked  -10.1138    1545.7610   ✗       
+263   NVDLPKEMTGLWR            -1.0000     NotChecked  -10.1579    1557.7973   ✗       
+264   NFPLPKEMTGLWR            -1.0000     NotChecked  -10.1728    1587.8232   ✗       
+265   NFDLPKEMPGLWR            -1.0000     NotChecked  -10.1864    1601.8024   ✗       
+266   NFDLPKEMTGLPR            -1.0000     NotChecked  -10.1929    1516.7708   ✗       
+267   +42.011FDLPKEMTGLWR      -1.0000     NotChecked  -10.2146    1533.7650   ✗       
+268   NFDLPKEMTGLVR            -1.0000     NotChecked  -10.2353    1518.7864   ✗       
+269   NFDLPKEETGLWR            -1.0000     NotChecked  -10.2457    1603.7994   ✗       
+270   NFDLPKEMTGVWR            -1.0000     NotChecked  -10.2657    1591.7817   ✗       
+271   NADLPKEMTGLWR            -1.0000     NotChecked  -10.2918    1529.7660   ✗       
+272   NFDLPKEMSGLWR            -1.0000     NotChecked  -10.3171    1591.7817   ✗       
+273   NFDLPKEMTGLQR            -1.0000     NotChecked  -10.3531    1547.7766   ✗       
+274   N+0.984FDLPKEMAGLWR      -1.0000     NotChecked  -10.3623    1576.7708   ✗       
+275   NDLPKEMTGLWR             -1.0000     NotChecked  -10.3889    1458.7289   ✗       
+276   NDDLPKEMTGLWR            -1.0000     NotChecked  -10.4602    1573.7559   ✗       
+277   NFDLSKEMTGLWR            -1.0000     NotChecked  -10.4893    1595.7766   ✗       
+278   NFNLPKEMTGLWR            -1.0000     NotChecked  -10.5107    1604.8133   ✗       
+279   NFDLPKLMTGLWR            -1.0000     NotChecked  -10.5133    1589.8388   ✗       
+280   NFDLPKEETGLWR            -1.0000     NotChecked  -10.5186    1603.7994   ✗       
+281   NFDLPKEMAGLWR            -1.0000     NotChecked  -10.5244    1575.7868   ✗       
+282   NEDLPKEMTGLWR            -1.0000     NotChecked  -10.5454    1587.7715   ✗       
+283   NFDLPKEMTGLLR            -1.0000     NotChecked  -10.5528    1532.8021   ✗       
+284   NFDLPKEMTGLFR            -1.0000     NotChecked  -10.5767    1566.7864   ✗       
+285   NFDLPKQMTGLWR            -1.0000     NotChecked  -10.5936    1604.8133   ✗       
+286   NFDLPKETTGLWR            -1.0000     NotChecked  -10.5980    1575.8045   ✗       
+287   NVDLPKEMTGLWR            -1.0000     NotChecked  -10.6075    1557.7973   ✗       
+288   NFDLPKEMTGLR             -1.0000     NotChecked  -10.6089    1419.7180   ✗       
+289   NFPLPKEMTGLWR            -1.0000     NotChecked  -10.6224    1587.8232   ✗       
+290   NFDLPSEMTGLWR            -1.0000     NotChecked  -10.6243    1564.7344   ✗       
+291   NFDLPKEDTGLWR            -1.0000     NotChecked  -10.6682    1589.7838   ✗       
+292   NFDVPKEMTGLWR            -1.0000     NotChecked  -10.6721    1591.7817   ✗       
+293   NFDLPKKMTGLWR            -1.0000     NotChecked  -10.6792    1604.8497   ✗       
+294   NFDTPKEMTGLWR            -1.0000     NotChecked  -10.6902    1593.7609   ✗       
+295   NFDLPDEMTGLWR            -1.0000     NotChecked  -10.6958    1592.7293   ✗       
+296   NFDLPKEMTGLWK            -1.0000     NotChecked  -10.7150    1577.7912   ✗       
+297   NFDLPKEMTGVWR            -1.0000     NotChecked  -10.7154    1591.7817   ✗       
+298   NFDLPKEMTGLER            -1.0000     NotChecked  -10.7350    1548.7606   ✗       
+299   LFDLPKEMTGLWR            -1.0000     NotChecked  -10.7364    1604.8385   ✗       
+300   NADLPKEMTGLWR            -1.0000     NotChecked  -10.7414    1529.7660   ✗       
+301   NFVLPKEMTGLWR            -1.0000     NotChecked  -10.7620    1589.8388   ✗       
+302   NFDLPKEMSGLWR            -1.0000     NotChecked  -10.7667    1591.7817   ✗       
+303   NFDLPKEMTLWR             -1.0000     NotChecked  -10.8224    1548.7759   ✗       
+304   NFDLPTEMTGLWR            -1.0000     NotChecked  -10.8504    1578.7500   ✗       
+305   NFPLPKEMTGLWR            -1.0000     NotChecked  -10.8953    1587.8232   ✗       
+306   NDDLPKEMTGLWR            -1.0000     NotChecked  -10.9099    1573.7559   ✗       
+307   NFDLPVEMTGLWR            -1.0000     NotChecked  -10.9110    1576.7708   ✗       
+308   NFLLPKEMTGLWR            -1.0000     NotChecked  -10.9296    1603.8545   ✗       
+309   NFNLPKEMTGLWR            -1.0000     NotChecked  -10.9604    1604.8133   ✗       
+310   NFDLPKEMTGVWR            -1.0000     NotChecked  -10.9883    1591.7817   ✗       
+311   NEDLPKEMTGLWR            -1.0000     NotChecked  -10.9950    1587.7715   ✗       
+312   NFDLPKEMSGLWR            -1.0000     NotChecked  -11.0396    1591.7817   ✗       
+313   NFDLPKETTGLWR            -1.0000     NotChecked  -11.0477    1575.8045   ✗       
+314   NFDLPKENTGLWR            -1.0000     NotChecked  -11.0747    1588.7998   ✗       
+315   N+0.984FDLPKEETGLWR      -1.0000     NotChecked  -11.1016    1604.7835   ✗       
+316   +43.006FDLPKEMTGLWR      -1.0000     NotChecked  -11.1170    1534.7602   ✗       
+317   NFDLPKEDTGLWR            -1.0000     NotChecked  -11.1179    1589.7838   ✗       
+318   NFDVPKEMTGLWR            -1.0000     NotChecked  -11.1218    1591.7817   ✗       
+319   NFDLPKKMTGLWR            -1.0000     NotChecked  -11.1288    1604.8497   ✗       
+320   N+0.984FDLPKEMTGLLR      -1.0000     NotChecked  -11.1357    1533.7861   ✗       
+321   NFDTPKEMTGLWR            -1.0000     NotChecked  -11.1398    1593.7609   ✗       
+322   NQDLPKEMTGLWR            -1.0000     NotChecked  -11.1821    1586.7875   ✗       
+323   NFSLPKEMTGLWR            -1.0000     NotChecked  -11.1866    1577.8024   ✗       
+324   NFVLPKEMTGLWR            -1.0000     NotChecked  -11.2116    1589.8388   ✗       
+325   NFDLPKMTGLWR             -1.0000     NotChecked  -11.2221    1476.7547   ✗       
+326   NFNLPKEMTGLWR            -1.0000     NotChecked  -11.2333    1604.8133   ✗       
+327   NFDLPKEMVGLWR            -1.0000     NotChecked  -11.2412    1603.8181   ✗       
+328   N+0.984DLPKEMTGLWR       -1.0000     NotChecked  -11.2448    1459.7129   ✗       
+329   NFDLPKEETGLWR            -1.0000     NotChecked  -11.2637    1603.7994   ✗       
+330   NFDLPKEMTGWR             -1.0000     NotChecked  -11.2648    1492.7133   ✗       
+331   NFDLPAEMTGLWR            -1.0000     NotChecked  -11.2712    1548.7395   ✗       
+332   NFDLPKEMTLWR             -1.0000     NotChecked  -11.2721    1548.7759   ✗       
+333   NFDLPKESTGLWR            -1.0000     NotChecked  -11.2805    1561.7889   ✗       
+334   NFDLPKEMTGLLR            -1.0000     NotChecked  -11.2978    1532.8021   ✗       
+335   NFDLPKELTGLWR            -1.0000     NotChecked  -11.2999    1587.8409   ✗       
+336   NFDLPKETTGLWR            -1.0000     NotChecked  -11.3206    1575.8045   ✗       
+337   NFDLPKEMGGLWR            -1.0000     NotChecked  -11.3211    1561.7711   ✗       
+338   NFDLPKEMTGLR             -1.0000     NotChecked  -11.3315    1419.7180   ✗       
+339   NFDLPKEMAGLWR            -1.0000     NotChecked  -11.3546    1575.7868   ✗       
+340   NFDSPKEMTGLWR            -1.0000     NotChecked  -11.3697    1579.7453   ✗       
+341   NFLLPKEMTGLWR            -1.0000     NotChecked  -11.3792    1603.8545   ✗       
+342   NFDLPKEDTGLWR            -1.0000     NotChecked  -11.3908    1589.7838   ✗       
+343   NFDVPKEMTGLWR            -1.0000     NotChecked  -11.3947    1591.7817   ✗       
+344   NFDLPKKMTGLWR            -1.0000     NotChecked  -11.4018    1604.8497   ✗       
+345   NDLPKEMTGLWR             -1.0000     NotChecked  -11.4069    1458.7289   ✗       
+346   NFDLPKEMTGLAR            -1.0000     NotChecked  -11.4122    1490.7551   ✗       
+347   NFDTPKEMTGLWR            -1.0000     NotChecked  -11.4128    1593.7609   ✗       
+348   N+0.984VDLPKEMTGLWR      -1.0000     NotChecked  -11.4634    1558.7814   ✗       
+349   N+0.984FPLPKEMTGLWR      -1.0000     NotChecked  -11.4783    1588.8072   ✗       
+350   NLDLPKEMTGLWR            -1.0000     NotChecked  -11.4835    1571.8130   ✗       
+351   NFVLPKEMTGLWR            -1.0000     NotChecked  -11.4845    1589.8388   ✗       
+352   NFDLPKPMTGLWR            -1.0000     NotChecked  -11.5124    1573.8075   ✗       
+353   NFDLPKENTGLWR            -1.0000     NotChecked  -11.5244    1588.7998   ✗       
+354   NFDLPKEMTLWR             -1.0000     NotChecked  -11.5450    1548.7759   ✗       
+355   AFDLPKEMTGLWR            -1.0000     NotChecked  -11.5660    1562.7915   ✗       
+356   N+0.984FDLPKEMTGVWR      -1.0000     NotChecked  -11.5713    1592.7657   ✗       
+357   N+0.984ADLPKEMTGLWR      -1.0000     NotChecked  -11.5973    1530.7501   ✗       
+358   GFDLPKEMTGLWR            -1.0000     NotChecked  -11.5995    1548.7759   ✗       
+359   +43.006AFDLPKEMTGLWR     -1.0000     Failed      -11.6104    1605.7973   ✓       
+360   NFDLPKEMTGGWR            -1.0000     NotChecked  -11.6189    1549.7347   ✗       
+361   N+0.984FDLPKEMSGLWR      -1.0000     NotChecked  -11.6226    1592.7657   ✗       
+362   NVDLPKEMTGLWR            -1.0000     NotChecked  -11.6255    1557.7973   ✗       
+363   NFDLPKEMAGLWR            -1.0000     NotChecked  -11.6276    1575.7868   ✗       
+364   NQDLPKEMTGLWR            -1.0000     NotChecked  -11.6317    1586.7875   ✗       
+365   NFSLPKEMTGLWR            -1.0000     NotChecked  -11.6362    1577.8024   ✗       
+366   NFPLPKEMTGLWR            -1.0000     NotChecked  -11.6404    1587.8232   ✗       
+367   NFLLPKEMTGLWR            -1.0000     NotChecked  -11.6521    1603.8545   ✗       
+368   VFDLPKEMTGLWR            -1.0000     NotChecked  -11.6623    1590.8228   ✗       
+369   NFDLPKEMVGLWR            -1.0000     NotChecked  -11.6909    1603.8181   ✗       
+370   +43.006FELPKEMTGLWR      -1.0000     NotChecked  -11.7060    1548.7759   ✗       
+371   NFDLPKESTGLWR            -1.0000     NotChecked  -11.7301    1561.7889   ✗       
+372   NFDLPKEMTGVWR            -1.0000     NotChecked  -11.7334    1591.7817   ✗       
+373   NFDLPKELTGLWR            -1.0000     NotChecked  -11.7496    1587.8409   ✗       
+374   +43.006FDLPKEMTGLWR      -1.0000     NotChecked  -11.7532    1534.7602   ✗       
+375   NADLPKEMTGLWR            -1.0000     NotChecked  -11.7594    1529.7660   ✗       
+376   N+0.984DDLPKEMTGLWR      -1.0000     NotChecked  -11.7658    1574.7399   ✗       
+377   +42.011FDLPKEMTGLWR      -1.0000     NotChecked  -11.7674    1533.7650   ✗       
+378   NFDLAKEMTGLWR            -1.0000     NotChecked  -11.7690    1579.7817   ✗       
+379   NFDLPKEMGGLWR            -1.0000     NotChecked  -11.7707    1561.7711   ✗       
+380   NFDLPKEMSGLWR            -1.0000     NotChecked  -11.7847    1591.7817   ✗       
+381   NFDLPKENTGLWR            -1.0000     NotChecked  -11.7973    1588.7998   ✗       
+382   NFDSPKEMTGLWR            -1.0000     NotChecked  -11.8193    1579.7453   ✗       
+383   N+0.984EDLPKEMTGLWR      -1.0000     NotChecked  -11.8509    1588.7555   ✗       
+384   +43.006FDLPKEMTGLWR      -1.0000     NotChecked  -11.8620    1534.7602   ✗       
+385   NFDLPKEMTGLGR            -1.0000     NotChecked  -11.8674    1476.7395   ✗       
+386   +43.006FDLPKEMTGLWR      -1.0000     NotChecked  -11.8720    1534.7602   ✗       
+387   N+0.984FDLPKETTGLWR      -1.0000     NotChecked  -11.9036    1576.7885   ✗       
+388   NFSLPKEMTGLWR            -1.0000     NotChecked  -11.9091    1577.8024   ✗       
+389   N+0.984FDLPKEMTGLR       -1.0000     NotChecked  -11.9144    1420.7020   ✗       
+390   NDDLPKEMTGLWR            -1.0000     NotChecked  -11.9279    1573.7559   ✗       
+391   NLDLPKEMTGLWR            -1.0000     NotChecked  -11.9332    1571.8130   ✗       
+392   NFDLPLEMTGLWR            -1.0000     NotChecked  -11.9514    1590.7864   ✗       
+393   NSDLPKEMTGLWR            -1.0000     NotChecked  -11.9620    1545.7610   ✗       
+394   NFDLPKEMVGLWR            -1.0000     NotChecked  -11.9638    1603.8181   ✗       
+395   N+0.984FDLPKEDTGLWR      -1.0000     NotChecked  -11.9738    1590.7678   ✗       
+396   N+0.984FDVPKEMTGLWR      -1.0000     NotChecked  -11.9777    1592.7657   ✗       
+397   NFNLPKEMTGLWR            -1.0000     NotChecked  -11.9784    1604.8133   ✗       
+398   N+0.984FDTPKEMTGLWR      -1.0000     NotChecked  -11.9957    1594.7450   ✗       
+399   NFDLPKESTGLWR            -1.0000     NotChecked  -12.0031    1561.7889   ✗       
+400   NEDLPKEMTGLWR            -1.0000     NotChecked  -12.0130    1587.7715   ✗       
+401   NFDLPKELTGLWR            -1.0000     NotChecked  -12.0225    1587.8409   ✗       
+402   NFDLPKEMPGLWR            -1.0000     NotChecked  -12.0346    1601.8024   ✗       
+403   NFDLPKEMTGLPR            -1.0000     NotChecked  -12.0411    1516.7708   ✗       
+404   NFDLPKEMGGLWR            -1.0000     NotChecked  -12.0436    1561.7711   ✗       
+405   AFDLPKEMTGLWR            -1.0000     NotChecked  -12.0594    1562.7915   ✗       
+406   NFDLPKETTGLWR            -1.0000     NotChecked  -12.0657    1575.8045   ✗       
+407   N+0.984FVLPKEMTGLWR      -1.0000     NotChecked  -12.0675    1590.8228   ✗       
+408   NFDLPKEMTGLR             -1.0000     NotChecked  -12.0765    1419.7180   ✗       
+409   NFDLPKEMAGLWR            -1.0000     NotChecked  -12.0772    1575.7868   ✗       
+410   NFDLPKEMTGLVR            -1.0000     NotChecked  -12.0835    1518.7864   ✗       
+411   NFDSPKEMTGLWR            -1.0000     NotChecked  -12.0922    1579.7453   ✗       
+412   NFDLPKEETGLWR            -1.0000     NotChecked  -12.0939    1603.7994   ✗       
+413   N+0.984FDLPKEMTLWR       -1.0000     NotChecked  -12.1280    1549.7599   ✗       
+414   NFDLPKEMTGLAR            -1.0000     NotChecked  -12.1348    1490.7551   ✗       
+415   +43.006FDLPKEMTGLWR      -1.0000     NotChecked  -12.1350    1534.7602   ✗       
+416   NFDLPKEDTGLWR            -1.0000     NotChecked  -12.1359    1589.7838   ✗       
+417   NFDVPKEMTGLWR            -1.0000     NotChecked  -12.1398    1591.7817   ✗       
+418   NFDLPKKMTGLWR            -1.0000     NotChecked  -12.1468    1604.8497   ✗       
+419   AFELPKEMTGLWR            -1.0000     NotChecked  -12.1550    1576.8072   ✗       
+420   NFDTPKEMTGLWR            -1.0000     NotChecked  -12.1578    1593.7609   ✗       
+421   GFELPKEMTGLWR            -1.0000     NotChecked  -12.1885    1562.7915   ✗       
+422   NFDLPKEMTGLQR            -1.0000     NotChecked  -12.2013    1547.7766   ✗       
+423   AFDLPKEMTGLWR            -1.0000     NotChecked  -12.2022    1562.7915   ✗       
+424   +43.006FN+0.984LPKEMTGLWR-1.0000     NotChecked  -12.2103    1534.7602   ✗       
+425   NFDLAKEMTGLWR            -1.0000     NotChecked  -12.2187    1579.7817   ✗       
+426   NFVLPKEMTGLWR            -1.0000     NotChecked  -12.2296    1589.8388   ✗       
+427   N+0.984FLLPKEMTGLWR      -1.0000     NotChecked  -12.2351    1604.8385   ✗       
+428   GFDLPKEMTGLWR            -1.0000     NotChecked  -12.2357    1548.7759   ✗       
+429   NDLPKEMTGLWR             -1.0000     NotChecked  -12.2371    1458.7289   ✗       
+430   VFELPKEMTGLWR            -1.0000     NotChecked  -12.2513    1604.8385   ✗       
+431   +42.011AFDLPKEMTGLWR     -1.0000     NotChecked  -12.2608    1604.8021   ✗       
+432   LFDLPKEMTGLWR            -1.0000     NotChecked  -12.2892    1604.8385   ✗       
+433   VFDLPKEMTGLWR            -1.0000     NotChecked  -12.2985    1590.8228   ✗       
+434   AFDLPKEMTGLWR            -1.0000     NotChecked  -12.3110    1562.7915   ✗       
+435   AFDLPKEMTGLWR            -1.0000     NotChecked  -12.3210    1562.7915   ✗       
+436   NFDLSKEMTGLWR            -1.0000     NotChecked  -12.3375    1595.7766   ✗       
+437   GFDLPKEMTGLWR            -1.0000     NotChecked  -12.3446    1548.7759   ✗       
+438   GFDLPKEMTGLWR            -1.0000     NotChecked  -12.3545    1548.7759   ✗       
+439   +42.011FELPKEMTGLWR      -1.0000     NotChecked  -12.3564    1547.7806   ✗       
+440   NFDLPKLMTGLWR            -1.0000     NotChecked  -12.3615    1589.8388   ✗       
+441   NFDLPKEETGLWR            -1.0000     NotChecked  -12.3668    1603.7994   ✗       
+442   NFDLPKEMAGLWR            -1.0000     NotChecked  -12.3726    1575.7868   ✗       
+443   N+0.984FDLPKENTGLWR      -1.0000     NotChecked  -12.3803    1589.7838   ✗       
+444   NFLLPKEMTGLWR            -1.0000     NotChecked  -12.3972    1603.8545   ✗       
+445   NFDLPKEMTGLLR            -1.0000     NotChecked  -12.4010    1532.8021   ✗       
+446   NFDLPLEMTGLWR            -1.0000     NotChecked  -12.4010    1590.7864   ✗       
+447   +42.011FDLPKEMTGLWR      -1.0000     NotChecked  -12.4036    1533.7650   ✗       
+448   VFDLPKEMTGLWR            -1.0000     NotChecked  -12.4073    1590.8228   ✗       
+449   NSDLPKEMTGLWR            -1.0000     NotChecked  -12.4116    1545.7610   ✗       
+450   VFDLPKEMTGLWR            -1.0000     NotChecked  -12.4173    1590.8228   ✗       
+451   NFDLPKEMTGLFR            -1.0000     NotChecked  -12.4249    1566.7864   ✗       
+452   NFDLPKQMTGLWR            -1.0000     NotChecked  -12.4418    1604.8133   ✗       
+453   NVDLPKEMTGLWR            -1.0000     NotChecked  -12.4557    1557.7973   ✗       
+454   NFPLPKEMTGLWR            -1.0000     NotChecked  -12.4706    1587.8232   ✗       
+455   NFDLPSEMTGLWR            -1.0000     NotChecked  -12.4725    1564.7344   ✗       
+456   NFDLPKEMPGLWR            -1.0000     NotChecked  -12.4842    1601.8024   ✗       
+457   N+0.984QDLPKEMTGLWR      -1.0000     NotChecked  -12.4876    1587.7715   ✗       
+458   NFDLAKEMTGLWR            -1.0000     NotChecked  -12.4916    1579.7817   ✗       
+459   N+0.984FSLPKEMTGLWR      -1.0000     NotChecked  -12.4921    1578.7864   ✗       
+460   +42.011FDLPKEMTGLWR      -1.0000     NotChecked  -12.5124    1533.7650   ✗       
+461   +42.011FDLPKEMTGLWR      -1.0000     NotChecked  -12.5224    1533.7650   ✗       
+462   NFDLPKENTGLWR            -1.0000     NotChecked  -12.5424    1588.7998   ✗       
+463   NFDLPDEMTGLWR            -1.0000     NotChecked  -12.5440    1592.7293   ✗       
+464   N+0.984FDLPKEMVGLWR      -1.0000     NotChecked  -12.5468    1604.8021   ✗       
+465   NFDLPKEMTGLWK            -1.0000     NotChecked  -12.5632    1577.7912   ✗       
+466   NFDLPKEMTGVWR            -1.0000     NotChecked  -12.5636    1591.7817   ✗       
+467   NFDLPKEMTGLER            -1.0000     NotChecked  -12.5832    1548.7606   ✗       
+468   NFDLPKEMTGLWG            -1.0000     NotChecked  -12.5833    1506.7177   ✗       
+469   AFDLPKEMTGLWR            -1.0000     NotChecked  -12.5840    1562.7915   ✗       
+470   N+0.984FDLPKESTGLWR      -1.0000     NotChecked  -12.5860    1562.7729   ✗       
+471   NADLPKEMTGLWR            -1.0000     NotChecked  -12.5896    1529.7660   ✗       
+472   NFDLPKEMTGLGR            -1.0000     NotChecked  -12.5900    1476.7395   ✗       
+473   N+0.984FDLPKELTGLWR      -1.0000     NotChecked  -12.6055    1588.8249   ✗       
+474   NFDLPKEMSGLWR            -1.0000     NotChecked  -12.6149    1591.7817   ✗       
+475   GFDLPKEMTGLWR            -1.0000     NotChecked  -12.6175    1548.7759   ✗       
+476   N+0.984FDLPKEMGGLWR      -1.0000     NotChecked  -12.6266    1562.7552   ✗       
+477   NQDLPKEMTGLWR            -1.0000     NotChecked  -12.6497    1586.7875   ✗       
+478   NFSLPKEMTGLWR            -1.0000     NotChecked  -12.6542    1577.8024   ✗       
+479   AFN+0.984LPKEMTGLWR      -1.0000     NotChecked  -12.6593    1562.7915   ✗       
+480   N+0.984FDLPKEMAGLWR      -1.0000     NotChecked  -12.6602    1576.7708   ✗       
+481   NFELPKEMAGLWR            -1.0000     NotChecked  -12.6662    1589.8024   ✗       
+482   NFDLPLEMTGLWR            -1.0000     NotChecked  -12.6740    1590.7864   ✗       
+483   N+0.984FDSPKEMTGLWR      -1.0000     NotChecked  -12.6752    1580.7293   ✗       
+484   VFDLPKEMTGLWR            -1.0000     NotChecked  -12.6803    1590.8228   ✗       
+485   GFN+0.984LPKEMTGLWR      -1.0000     NotChecked  -12.6929    1548.7759   ✗       
+486   NFDLPTEMTGLWR            -1.0000     NotChecked  -12.6986    1578.7500   ✗       
+487   NFDLPKEMVGLWR            -1.0000     NotChecked  -12.7089    1603.8181   ✗       
+488   N+0.984FDLPKEMTGLAR      -1.0000     NotChecked  -12.7178    1491.7392   ✗       
+489   NFPLPKEMTGLWR            -1.0000     NotChecked  -12.7435    1587.8232   ✗       
+490   NFDLPKESTGLWR            -1.0000     NotChecked  -12.7481    1561.7889   ✗       
+491   VFN+0.984LPKEMTGLWR      -1.0000     NotChecked  -12.7556    1590.8228   ✗       
+492   NFDLPKEMPGLWR            -1.0000     NotChecked  -12.7572    1601.8024   ✗       
+493   NDDLPKEMTGLWR            -1.0000     NotChecked  -12.7581    1573.7559   ✗       
+494   NFDLPVEMTGLWR            -1.0000     NotChecked  -12.7592    1576.7708   ✗       
+495   NFDLPKEMTGLPR            -1.0000     NotChecked  -12.7637    1516.7708   ✗       
+496   NFDLPKELTGLWR            -1.0000     NotChecked  -12.7676    1587.8409   ✗       
+497   +42.011FDLPKEMTGLWR      -1.0000     NotChecked  -12.7854    1533.7650   ✗       
+498   NFDLSKEMTGLWR            -1.0000     NotChecked  -12.7871    1595.7766   ✗       
+499   NFDLPKEMGGLWR            -1.0000     NotChecked  -12.7887    1561.7711   ✗       
+500   N+0.984LDLPKEMTGLWR      -1.0000     NotChecked  -12.7891    1572.7970   ✗       
+501   NFDLPKEMTGLVR            -1.0000     NotChecked  -12.8061    1518.7864   ✗       
+502   NFNLPKEMTGLWR            -1.0000     NotChecked  -12.8086    1604.8133   ✗       
+503   NFDLPKLMTGLWR            -1.0000     NotChecked  -12.8111    1589.8388   ✗       
+504   NFDLPKEETGLWR            -1.0000     NotChecked  -12.8165    1603.7994   ✗       
+505   NFDLPKEMAGLWR            -1.0000     NotChecked  -12.8223    1575.7868   ✗       
+506   +43.006GFDLPKEMTGLWR     -1.0000     NotChecked  -12.8315    1591.7817   ✗       
+507   NFDLPKEMAGLWR            -1.0000     NotChecked  -12.8322    1575.7868   ✗       
+508   NFDLPKEMTGVWR            -1.0000     NotChecked  -12.8365    1591.7817   ✗       
+509   NFDSPKEMTGLWR            -1.0000     NotChecked  -12.8373    1579.7453   ✗       
+510   NEDLPKEMTGLWR            -1.0000     NotChecked  -12.8432    1587.7715   ✗       
+511   NFDLPKEMTGLW             -1.0000     NotChecked  -12.8565    1449.6962   ✗       
+512   +42.011FN+0.984LPKEMTGLWR-1.0000     NotChecked  -12.8607    1533.7650   ✗       
+513   NFDLPKEMTGLAR            -1.0000     NotChecked  -12.8799    1490.7551   ✗       
+514   NFDLPKEMSGLWR            -1.0000     NotChecked  -12.8878    1591.7817   ✗       
+515   NFDLPKQMTGLWR            -1.0000     NotChecked  -12.8915    1604.8133   ✗       
+516   NFDLPKETTGLWR            -1.0000     NotChecked  -12.8959    1575.8045   ✗       
+517   NFDLPSEMTGLWR            -1.0000     NotChecked  -12.9221    1564.7344   ✗       
+518   NFDLPKEMTGLQR            -1.0000     NotChecked  -12.9239    1547.7766   ✗       
+519   LFDLPKEMTGLWR            -1.0000     NotChecked  -12.9254    1604.8385   ✗       
+520   N+0.984FDLPKEMAGLWR      -1.0000     NotChecked  -12.9331    1576.7708   ✗       
+521   NLDLPKEMTGLWR            -1.0000     NotChecked  -12.9512    1571.8130   ✗       
+522   NFDLPKEDTGLWR            -1.0000     NotChecked  -12.9661    1589.7838   ✗       
+523   NFDVPKEMTGLWR            -1.0000     NotChecked  -12.9700    1591.7817   ✗       
+524   NFDLPKKMTGLWR            -1.0000     NotChecked  -12.9770    1604.8497   ✗       
+525   NFDTPKEMTGLWR            -1.0000     NotChecked  -12.9880    1593.7609   ✗       
+526   NFDLPDEMTGLWR            -1.0000     NotChecked  -12.9936    1592.7293   ✗       
+527   +43.006FDLPKEMAGLWR      -1.0000     NotChecked  -12.9989    1504.7497   ✗       
+528   +43.006FDLPKQ+0.984MTGLWR-1.0000     NotChecked  -13.0024    1534.7602   ✗       
+529   NFDLPKEMTGLWK            -1.0000     NotChecked  -13.0128    1577.7912   ✗       
+530   LFDLPKEMTGLWR            -1.0000     NotChecked  -13.0342    1604.8385   ✗       
+531   LFDLPKEMTGLWR            -1.0000     NotChecked  -13.0442    1604.8385   ✗       
+532   NFVLPKEMTGLWR            -1.0000     NotChecked  -13.0598    1589.8388   ✗       
+533   NFDLSKEMTGLWR            -1.0000     NotChecked  -13.0601    1595.7766   ✗       
+534   NFDLPKMTGLWR             -1.0000     NotChecked  -13.0703    1476.7547   ✗       
+535   N+0.984FDLAKEMTGLWR      -1.0000     NotChecked  -13.0746    1580.7657   ✗       
+536   NFNLPKEMTGLWR            -1.0000     NotChecked  -13.0815    1604.8133   ✗       
+537   NFDLPKLMTGLWR            -1.0000     NotChecked  -13.0841    1589.8388   ✗       
+538   N+0.984NDLPKEMTGLWR      -1.0000     NotChecked  -13.0930    1573.7559   ✗       
+539   NFDLPKEMAGLWR            -1.0000     NotChecked  -13.0952    1575.7868   ✗       
+540   NFDLPKEETGLWR            -1.0000     NotChecked  -13.1119    1603.7994   ✗       
+541   NFDLPKEMTGWR             -1.0000     NotChecked  -13.1130    1492.7133   ✗       
+542   NFDLPAEMTGLWR            -1.0000     NotChecked  -13.1194    1548.7395   ✗       
+543   NFDLPKEMTLWR             -1.0000     NotChecked  -13.1203    1548.7759   ✗       
+544   NFDLPKEMTGLLR            -1.0000     NotChecked  -13.1460    1532.8021   ✗       
+545   NFDLPKEMTGLFR            -1.0000     NotChecked  -13.1475    1566.7864   ✗       
+546   NFDLPTEMTGLWR            -1.0000     NotChecked  -13.1482    1578.7500   ✗       
+547   NFDLPKQMTGLWR            -1.0000     NotChecked  -13.1644    1604.8133   ✗       
+548   NFDLPKETTGLWR            -1.0000     NotChecked  -13.1688    1575.8045   ✗       
+549   NFN+0.984LPKEMAGLWR      -1.0000     NotChecked  -13.1706    1575.7868   ✗       
+550   N+0.984FDLPKEMTGLGR      -1.0000     NotChecked  -13.1729    1477.7235   ✗       
+551   NFDLPKEMTGLR             -1.0000     NotChecked  -13.1797    1419.7180   ✗       
+552   NFPLPKEMTGLWR            -1.0000     NotChecked  -13.1932    1587.8232   ✗       
+553   NFDLPSEMTGLWR            -1.0000     NotChecked  -13.1950    1564.7344   ✗       
+554   NFDLPVEMTGLWR            -1.0000     NotChecked  -13.2089    1576.7708   ✗       
+555   NFLLPKEMTGLWR            -1.0000     NotChecked  -13.2274    1603.8545   ✗       
+556   NFDLAKEMTGLWR            -1.0000     NotChecked  -13.2367    1579.7817   ✗       
+557   NFDLPKEDTGLWR            -1.0000     NotChecked  -13.2390    1589.7838   ✗       
+558   NFDVPKEMTGLWR            -1.0000     NotChecked  -13.2429    1591.7817   ✗       
+559   NFDLPKKMTGLWR            -1.0000     NotChecked  -13.2500    1604.8497   ✗       
+560   NDLPKEMTGLWR             -1.0000     NotChecked  -13.2551    1458.7289   ✗       
+561   N+0.984FDLPLEMTGLWR      -1.0000     NotChecked  -13.2569    1591.7705   ✗       
+562   NFDTPKEMTGLWR            -1.0000     NotChecked  -13.2610    1593.7609   ✗       
+563   +43.006FDLPKEMTGLWR      -1.0000     NotChecked  -13.2655    1534.7602   ✗       
+564   NFDLPDEMTGLWR            -1.0000     NotChecked  -13.2666    1592.7293   ✗       
+565   N+0.984SDLPKEMTGLWR      -1.0000     NotChecked  -13.2675    1546.7450   ✗       
+566   NFDLPKEMTGLWK            -1.0000     NotChecked  -13.2858    1577.7912   ✗       
+567   NFDLPKEMTGVWR            -1.0000     NotChecked  -13.2861    1591.7817   ✗       
+568   NFDLPKEMTGLER            -1.0000     NotChecked  -13.3058    1548.7606   ✗       
+569   LFDLPKEMTGLWR            -1.0000     NotChecked  -13.3072    1604.8385   ✗       
+570   GGFDLPKEMTGLWR           -1.0000     Failed      -13.3140    1605.7973   ✓       
+571   NFVLPKEMTGLWR            -1.0000     NotChecked  -13.3328    1589.8388   ✗       
+572   NFDLPKEMTGLGR            -1.0000     NotChecked  -13.3350    1476.7395   ✗       
+573   NFDLPKEMSGLWR            -1.0000     NotChecked  -13.3375    1591.7817   ✗       
+574   N+0.984FDLPKEMPGLWR      -1.0000     NotChecked  -13.3401    1602.7865   ✗       
+575   +43.006FDLPKEMTGLWR      -1.0000     NotChecked  -13.3401    1534.7602   ✗       
+576   NAFDLPKEMTGLLR           -1.0000     NotChecked  -13.3440    1603.8392   ✗       
+577   N+0.984FDLPKEMTGLPR      -1.0000     NotChecked  -13.3466    1517.7548   ✗       
+578   NFDLPKPMTGLWR            -1.0000     NotChecked  -13.3606    1573.8075   ✗       
+579   NFDLPKENTGLWR            -1.0000     NotChecked  -13.3726    1588.7998   ✗       
+580   LFN+0.984LPKEMTGLWR      -1.0000     NotChecked  -13.3826    1604.8385   ✗       
+581   N+0.984FDLPKEMTGLVR      -1.0000     NotChecked  -13.3891    1519.7705   ✗       
+582   NFDLPKEMTLWR             -1.0000     NotChecked  -13.3932    1548.7759   ✗       
+583   N+0.984FDLPKEETGLWR      -1.0000     NotChecked  -13.3994    1604.7835   ✗       
+584   NFDLPLEMTGLWR            -1.0000     NotChecked  -13.4190    1590.7864   ✗       
+585   NFDLPTEMTGLWR            -1.0000     NotChecked  -13.4212    1578.7500   ✗       
+586   NSDLPKEMTGLWR            -1.0000     NotChecked  -13.4296    1545.7610   ✗       
+587   NFELPKEMTGLLR            -1.0000     NotChecked  -13.4396    1546.8177   ✗       
+588   AFDLPKEMAGLWR            -1.0000     NotChecked  -13.4480    1532.7810   ✗       
+589   AFDLPKQ+0.984MTGLWR      -1.0000     NotChecked  -13.4514    1562.7915   ✗       
+590   NFDLPKEETGLWR            -1.0000     NotChecked  -13.4527    1603.7994   ✗       
+591   NADLPKEMTGLWR            -1.0000     NotChecked  -13.4531    1529.7660   ✗       
+592   NN+0.984DLPKEMTGLWR      -1.0000     NotChecked  -13.4605    1573.7559   ✗       
+593   NFDLPKEMTGGWR            -1.0000     NotChecked  -13.4671    1549.7347   ✗       
+594   NVDLPKEMTGLWR            -1.0000     NotChecked  -13.4737    1557.7973   ✗       
+595   NQDLPKEMTGLWR            -1.0000     NotChecked  -13.4799    1586.7875   ✗       
+596   GFDLPKEMAGLWR            -1.0000     NotChecked  -13.4815    1518.7653   ✗       
+597   NFDLPVEMTGLWR            -1.0000     NotChecked  -13.4818    1576.7708   ✗       
+598   +42.011GFDLPKEMTGLWR     -1.0000     NotChecked  -13.4819    1590.7864   ✗       
+599   NFSLPKEMTGLWR            -1.0000     NotChecked  -13.4844    1577.8024   ✗       
+600   GFDLPKQ+0.984MTGLWR      -1.0000     NotChecked  -13.4849    1548.7759   ✗       
+601   NFDLPKEMTGLLR            -1.0000     NotChecked  -13.4868    1532.8021   ✗       
+602   NFPLPKEMTGLWR            -1.0000     NotChecked  -13.4886    1587.8232   ✗       
+603   NFLLPKEMTGLWR            -1.0000     NotChecked  -13.5003    1603.8545   ✗       
+604   NFDLPKEMPGLWR            -1.0000     NotChecked  -13.5022    1601.8024   ✗       
+605   N+0.984FDLPKEMTGLQR      -1.0000     NotChecked  -13.5068    1548.7606   ✗       
+606   NFDLPKEMTGLPR            -1.0000     NotChecked  -13.5087    1516.7708   ✗       
+607   +43.006YDLPKEMTGLWR      -1.0000     NotChecked  -13.5145    1550.7551   ✗       
+608   NFDLPKMTGLWR             -1.0000     NotChecked  -13.5199    1476.7547   ✗       
+609   NFNLPKEMTGLWR            -1.0000     NotChecked  -13.5312    1604.8133   ✗       
+610   NFDLPKEMVGLWR            -1.0000     NotChecked  -13.5391    1603.8181   ✗       
+611   N+0.984DLPKEMTGLWR       -1.0000     NotChecked  -13.5427    1459.7129   ✗       
+612   VFDLPKEMAGLWR            -1.0000     NotChecked  -13.5443    1560.8123   ✗       
+613   VFDLPKQ+0.984MTGLWR      -1.0000     NotChecked  -13.5477    1590.8228   ✗       
+614   NELPKEMTGLWR             -1.0000     NotChecked  -13.5487    1472.7446   ✗       
+615   NFDLPKEMTGLVR            -1.0000     NotChecked  -13.5512    1518.7864   ✗       
+616   NFDLPKEETGLWR            -1.0000     NotChecked  -13.5615    1603.7994   ✗       
+617   NFDLPKEMTGWR             -1.0000     NotChecked  -13.5626    1492.7133   ✗       
+618   NFDLPAEMTGLWR            -1.0000     NotChecked  -13.5691    1548.7395   ✗       
+619   NFDLPKEETGLWR            -1.0000     NotChecked  -13.5715    1603.7994   ✗       
+620   NFDLPKESTGLWR            -1.0000     NotChecked  -13.5783    1561.7889   ✗       
+621   NFDLPKEMTGVWR            -1.0000     NotChecked  -13.5816    1591.7817   ✗       
+622   NFDLPKEMTGLW             -1.0000     NotChecked  -13.5819    1449.6962   ✗       
+623   NDLPKEMTGLWR             -1.0000     NotChecked  -13.5959    1458.7289   ✗       
+624   NFDLPKELTGLWR            -1.0000     NotChecked  -13.5978    1587.8409   ✗       
+625   NFDLPKEMTGLLR            -1.0000     NotChecked  -13.6056    1532.8021   ✗       
+626   NADLPKEMTGLWR            -1.0000     NotChecked  -13.6076    1529.7660   ✗       
+627   NFDLPKETTGLWR            -1.0000     NotChecked  -13.6185    1575.8045   ✗       
+628   NFDLPKEMGGLWR            -1.0000     NotChecked  -13.6189    1561.7711   ✗       
+629   NFDLPKEMSGLWR            -1.0000     NotChecked  -13.6329    1591.7817   ✗       
+630   N+0.984FDLSKEMTGLWR      -1.0000     NotChecked  -13.6430    1596.7606   ✗       
+631   NFDLPKENTGLWR            -1.0000     NotChecked  -13.6455    1588.7998   ✗       
+632   +42.011FDLPKEMAGLWR      -1.0000     NotChecked  -13.6493    1503.7544   ✗       
+633   +42.011FDLPKQ+0.984MTGLWR-1.0000     NotChecked  -13.6528    1533.7650   ✗       
+634   N+0.984FDLPKLMTGLWR      -1.0000     NotChecked  -13.6670    1590.8228   ✗       
+635   NFDSPKEMTGLWR            -1.0000     NotChecked  -13.6675    1579.7453   ✗       
+636   NFDLPKEMTGLWL            -1.0000     NotChecked  -13.6688    1562.7803   ✗       
+637   NFDLPKEMTGLQR            -1.0000     NotChecked  -13.6689    1547.7766   ✗       
+638   N+0.984FDLPKEETGLWR      -1.0000     NotChecked  -13.6724    1604.7835   ✗       
+639   N+0.984FDLPKEMAGLWR      -1.0000     NotChecked  -13.6782    1576.7708   ✗       
+640   NFDLPKEDTGLWR            -1.0000     NotChecked  -13.6887    1589.7838   ✗       
+641   NFDVPKEMTGLWR            -1.0000     NotChecked  -13.6926    1591.7817   ✗       
+642   NFDLPKKMTGLWR            -1.0000     NotChecked  -13.6996    1604.8497   ✗       
+643   NDLPKEMTGLWR             -1.0000     NotChecked  -13.7048    1458.7289   ✗       
+644   N+0.984FDLPKEMTGLLR      -1.0000     NotChecked  -13.7065    1533.7861   ✗       
+645   NFDTPKEMTGLWR            -1.0000     NotChecked  -13.7106    1593.7609   ✗       
+646   AFDLPKEMTGLWR            -1.0000     NotChecked  -13.7145    1562.7915   ✗       
+647   NDLPKEMTGLWR             -1.0000     NotChecked  -13.7147    1458.7289   ✗       
+648   N+0.984FDLPKEMTGLFR      -1.0000     NotChecked  -13.7305    1567.7705   ✗       
+649   +43.006FDLPKEETGLWR      -1.0000     NotChecked  -13.7382    1532.7623   ✗       
+650   NFDLPKEMTGLWV            -1.0000     NotChecked  -13.7410    1548.7646   ✗       
+651   GFDLPKEMTGLWR            -1.0000     NotChecked  -13.7480    1548.7759   ✗       
+652   NFSLPKEMTGLWR            -1.0000     NotChecked  -13.7573    1577.8024   ✗       
+653   N+0.984VDLPKEMTGLWR      -1.0000     NotChecked  -13.7612    1558.7814   ✗       
+654   N+0.984NFDLPKEMTGLR      -1.0000     NotChecked  -13.7626    1534.7450   ✗       
+655   NVELPKEMTGLWR            -1.0000     NotChecked  -13.7673    1571.8130   ✗       
+656   +43.006FDLPKEMTGLLR      -1.0000     NotChecked  -13.7723    1461.7650   ✗       
+657   NDDLPKEMTGLWR            -1.0000     NotChecked  -13.7761    1573.7559   ✗       
+658   N+0.984FPLPKEMTGLWR      -1.0000     NotChecked  -13.7761    1588.8072   ✗       
+659   N+0.984FDLPSEMTGLWR      -1.0000     NotChecked  -13.7780    1565.7184   ✗       
+660   NLDLPKEMTGLWR            -1.0000     NotChecked  -13.7814    1571.8130   ✗       
+661   NFVLPKEMTGLWR            -1.0000     NotChecked  -13.7824    1589.8388   ✗       
+662   AFDLPKEMTGLWR            -1.0000     NotChecked  -13.7892    1562.7915   ✗       
+663   NFDLPKMTGLWR             -1.0000     NotChecked  -13.7929    1476.7547   ✗       
+664   NFDLSKEMTGLWR            -1.0000     NotChecked  -13.8051    1595.7766   ✗       
+665   NAADLPKEMTGLWR           -1.0000     NotChecked  -13.8056    1600.8032   ✗       
+666   NFDLPKPMTGLWR            -1.0000     NotChecked  -13.8102    1573.8075   ✗       
+667   VFDLPKEMTGLWR            -1.0000     NotChecked  -13.8108    1590.8228   ✗       
+668   NFDLPKEMVGLWR            -1.0000     NotChecked  -13.8120    1603.8181   ✗       
+669   NVDLPKEMTGLWR            -1.0000     NotChecked  -13.8145    1557.7973   ✗       
+670   GFDLPKEMTGLWR            -1.0000     NotChecked  -13.8227    1548.7759   ✗       
+671   NFNLPKEMTGLWR            -1.0000     NotChecked  -13.8266    1604.8133   ✗       
+672   NFDLPKLMTGLWR            -1.0000     NotChecked  -13.8291    1589.8388   ✗       
+673   NFPLPKEMTGLWR            -1.0000     NotChecked  -13.8294    1587.8232   ✗       
+674   NFDLPKEETGLWR            -1.0000     NotChecked  -13.8345    1603.7994   ✗       
+675   NFDLPKEMTGWR             -1.0000     NotChecked  -13.8356    1492.7133   ✗       
+676   NFDLPAEMTGLWR            -1.0000     NotChecked  -13.8420    1548.7395   ✗       
+677   NFDLPKEMTLWR             -1.0000     NotChecked  -13.8429    1548.7759   ✗       
+678   N+0.984FDLPDEMTGLWR      -1.0000     NotChecked  -13.8495    1593.7133   ✗       
+679   NFDLPKESTGLWR            -1.0000     NotChecked  -13.8513    1561.7889   ✗       
+680   NEDLPKEMTGLWR            -1.0000     NotChecked  -13.8612    1587.7715   ✗       
+681   NFDLPKEMTGLLR            -1.0000     NotChecked  -13.8686    1532.8021   ✗       
+682   N+0.984FDLPKEMTGLWK      -1.0000     NotChecked  -13.8687    1578.7752   ✗       
+683   N+0.984FDLPKEMTGVWR      -1.0000     NotChecked  -13.8691    1592.7657   ✗       
+684   NFDLPKELTGLWR            -1.0000     NotChecked  -13.8707    1587.8409   ✗       
+685   +43.006DLPKEMTGLWR       -1.0000     NotChecked  -13.8814    1387.6918   ✗       
+686   VFDLPKEMTGLWR            -1.0000     NotChecked  -13.8855    1590.8228   ✗       
+687   N+0.984FDLPKEMTGLER      -1.0000     NotChecked  -13.8887    1549.7446   ✗       
+688   NFDLPKEMGGLWR            -1.0000     NotChecked  -13.8918    1561.7711   ✗       
+689   NFDLPKEMTGLFR            -1.0000     NotChecked  -13.8926    1566.7864   ✗       
+690   N+0.984ADLPKEMTGLWR      -1.0000     NotChecked  -13.8951    1530.7501   ✗       
+691   NAELPKEMTGLWR            -1.0000     NotChecked  -13.9012    1543.7817   ✗       
+692   +43.006AFDLPKEMTGLWR     -1.0000     Failed      -13.9082    1605.7973   ✓       
+693   NFDLPKQMTGLWR            -1.0000     NotChecked  -13.9095    1604.8133   ✗       
+694   NFN+0.984LPKEETGLWR      -1.0000     NotChecked  -13.9098    1603.7994   ✗       
+695   NFDLPKETTGLWR            -1.0000     NotChecked  -13.9139    1575.8045   ✗       
+696   +42.011FDLPKEMTGLWR      -1.0000     NotChecked  -13.9159    1533.7650   ✗       
+697   NFDLPKEMTGGWR            -1.0000     NotChecked  -13.9167    1549.7347   ✗       
+698   N+0.984FDLPKEMSGLWR      -1.0000     NotChecked  -13.9204    1592.7657   ✗       
+699   NFDLPKEMTGVWR            -1.0000     NotChecked  -13.9223    1591.7817   ✗       
+700   NVDLPKEMTGLWR            -1.0000     NotChecked  -13.9233    1557.7973   ✗       
+701   NFDLPKEMTGLR             -1.0000     NotChecked  -13.9247    1419.7180   ✗       
+702   NFDLPKEMAGLWR            -1.0000     NotChecked  -13.9254    1575.7868   ✗       
+703   NVDLPKEMTGLWR            -1.0000     NotChecked  -13.9333    1557.7973   ✗       
+704   NFPLPKEMTGLWR            -1.0000     NotChecked  -13.9382    1587.8232   ✗       
+705   NFDLPSEMTGLWR            -1.0000     NotChecked  -13.9401    1564.7344   ✗       
+706   NFDSPKEMTGLWR            -1.0000     NotChecked  -13.9404    1579.7453   ✗       
+707   NFN+0.984LPKEMTGLLR      -1.0000     NotChecked  -13.9439    1532.8021   ✗       
+708   NFPLPKEMTGLWR            -1.0000     NotChecked  -13.9482    1587.8232   ✗       
+709   NADLPKEMTGLWR            -1.0000     NotChecked  -13.9484    1529.7660   ✗       
+710   NFLLPKEMTGLWR            -1.0000     NotChecked  -13.9500    1603.8545   ✗       
+711   +43.006AFDLPKEMTGLWR     -1.0000     Failed      -13.9537    1605.7973   ✓       
+712   NFDLPKQ+0.984MAGLWR      -1.0000     NotChecked  -13.9626    1575.7868   ✗       
+713   AYDLPKEMTGLWR            -1.0000     NotChecked  -13.9635    1578.7864   ✗       
+714   NFDLPKEMTGLAR            -1.0000     NotChecked  -13.9830    1490.7551   ✗       
+715   NFDLPKEDTGLWR            -1.0000     NotChecked  -13.9841    1589.7838   ✗       
+716   NFDVPKEMTGLWR            -1.0000     NotChecked  -13.9880    1591.7817   ✗       
+717   +42.011FDLPKEMTGLWR      -1.0000     NotChecked  -13.9905    1533.7650   ✗       
+718   NFDLPKKMTGLWR            -1.0000     NotChecked  -13.9950    1604.8497   ✗       
+719   GYDLPKEMTGLWR            -1.0000     NotChecked  -13.9970    1564.7708   ✗       
+720   +43.006FELPKEMTGLWR      -1.0000     NotChecked  -14.0038    1548.7759   ✗       
+721   N+0.984FDLPTEMTGLWR      -1.0000     NotChecked  -14.0041    1579.7341   ✗       
+722   NFDTPKEMTGLWR            -1.0000     NotChecked  -14.0060    1593.7609   ✗       
+723   NFDLPDEMTGLWR            -1.0000     NotChecked  -14.0116    1592.7293   ✗       
+724   NFDLPKEMTGLWK            -1.0000     NotChecked  -14.0308    1577.7912   ✗       
+725   NFDLPKEMTGVWR            -1.0000     NotChecked  -14.0312    1591.7817   ✗       
+726   +43.006FDDPKEMTGLWR      -1.0000     NotChecked  -14.0397    1536.7031   ✗       
+727   NFDLPKEMTGVWR            -1.0000     NotChecked  -14.0412    1591.7817   ✗       
+728   N+0.984FPLPKEMTGLWR      -1.0000     NotChecked  -14.0491    1588.8072   ✗       
+729   NFDLPKEMTGLER            -1.0000     NotChecked  -14.0508    1548.7606   ✗       
+730   +43.006FDLPKEMTGLWR      -1.0000     NotChecked  -14.0510    1534.7602   ✗       
+731   NN+0.984LPKEMTGLWR       -1.0000     NotChecked  -14.0531    1458.7289   ✗       
+732   NADLPKEMTGLWR            -1.0000     NotChecked  -14.0572    1529.7660   ✗       
+733   N+0.984DDLPKEMTGLWR      -1.0000     NotChecked  -14.0636    1574.7399   ✗       
+734   N+0.984FDLPVEMTGLWR      -1.0000     NotChecked  -14.0648    1577.7548   ✗       
+735   NFDLAKEMTGLWR            -1.0000     NotChecked  -14.0669    1579.7817   ✗       
+736   +43.006FGDLPKEMTGLWR     -1.0000     NotChecked  -14.0825    1591.7817   ✗       
+737   +42.011FADLPKEMTGLWR     -1.0000     NotChecked  -14.0847    1604.8021   ✗       
+738   +43.006VDLPKEMTGLWR      -1.0000     NotChecked  -14.1000    1486.7602   ✗       
+739   +43.006FDEPKEMTGLWR      -1.0000     NotChecked  -14.1143    1550.7188   ✗       
+740   +43.006FPLPKEMTGLWR      -1.0000     NotChecked  -14.1149    1516.7860   ✗       
+741   +43.006GFDLPKEMTGLWR     -1.0000     NotChecked  -14.1348    1591.7817   ✗       
+742   N+0.984FDLPKEMTGVWR      -1.0000     NotChecked  -14.1420    1592.7657   ✗       
+743   N+0.984EDLPKEMTGLWR      -1.0000     NotChecked  -14.1487    1588.7555   ✗       
+744   +42.011YDLPKEMTGLWR      -1.0000     NotChecked  -14.1649    1549.7599   ✗       
+745   +43.006FDLPKEMTGLWR      -1.0000     NotChecked  -14.1698    1534.7602   ✗       
+746   LFDLPKEMAGLWR            -1.0000     NotChecked  -14.1712    1574.8279   ✗       
+747   LFDLPKQ+0.984MTGLWR      -1.0000     NotChecked  -14.1746    1604.8385   ✗       
+748   +43.006AFDLPKEMTGLWR     -1.0000     Failed      -14.1812    1605.7973   ✓       
+749   AFDLPKEETGLWR            -1.0000     NotChecked  -14.1872    1560.7936   ✗       
+750   N+0.984FDLPKEMSGLWR      -1.0000     NotChecked  -14.1934    1592.7657   ✗       
+751   N+0.984FDLPKETTGLWR      -1.0000     NotChecked  -14.2014    1576.7885   ✗       
+752   +43.006FDLPKEMTGVWR      -1.0000     NotChecked  -14.2079    1520.7446   ✗       
+753   GFDLPKEETGLWR            -1.0000     NotChecked  -14.2207    1546.7780   ✗       
+754   AFDLPKEMTGLLR            -1.0000     NotChecked  -14.2213    1489.7963   ✗       
+755   +43.006ADLPKEMTGLWR      -1.0000     NotChecked  -14.2339    1458.7289   ✗       
+756   GFDLPKEMTGLLR            -1.0000     NotChecked  -14.2549    1475.7806   ✗       
+757   +43.006FDLPKEMSGLWR      -1.0000     NotChecked  -14.2592    1520.7446   ✗       
+758   N+0.984FDLPKEDTGLWR      -1.0000     NotChecked  -14.2716    1590.7678   ✗       
+759   N+0.984FDVPKEMTGLWR      -1.0000     NotChecked  -14.2755    1592.7657   ✗       
+760   +43.006FELPKEMTGLWR      -1.0000     NotChecked  -14.2768    1548.7759   ✗       
+761   VFDLPKEETGLWR            -1.0000     NotChecked  -14.2835    1588.8249   ✗       
+762   +43.006FDLPKEMTGLWR      -1.0000     NotChecked  -14.2876    1534.7602   ✗       
+763   N+0.984FDTPKEMTGLWR      -1.0000     NotChecked  -14.2935    1594.7450   ✗       
+764   VFDLPKEMTGLLR            -1.0000     NotChecked  -14.3176    1517.8276   ✗       
+765   +43.006FDLPKEMTGLWR      -1.0000     NotChecked  -14.3239    1534.7602   ✗       
+766   ADLPKEMTGLWR             -1.0000     NotChecked  -14.3304    1415.7231   ✗       
+767   AFDLPKEMTGLWR            -1.0000     NotChecked  -14.3572    1562.7915   ✗       
+768   GDLPKEMTGLWR             -1.0000     NotChecked  -14.3640    1401.7075   ✗       
+769   +43.006FDLPKEMTGLWR      -1.0000     NotChecked  -14.3651    1534.7602   ✗       
+770   N+0.984FVLPKEMTGLWR      -1.0000     NotChecked  -14.3653    1590.8228   ✗       
+771   N+0.984FDLPKMTGLWR       -1.0000     NotChecked  -14.3758    1477.7388   ✗       
+772   +43.006FDLPKEMEGLWR      -1.0000     NotChecked  -14.3798    1562.7552   ✗       
+773   +42.011FDLPKEETGLWR      -1.0000     NotChecked  -14.3886    1531.7671   ✗       
+774   +43.006FDLPKEMTGLWR      -1.0000     NotChecked  -14.3997    1534.7602   ✗       
+775   +43.006DDLPKEMTGLWR      -1.0000     NotChecked  -14.4024    1502.7188   ✗       
+776   N+0.984FDLPKEETGLWR      -1.0000     NotChecked  -14.4174    1604.7835   ✗       
+777   N+0.984FDLPKEMTGWR       -1.0000     NotChecked  -14.4185    1493.6973   ✗       
+778   +42.011FDLPKEMTGLLR      -1.0000     NotChecked  -14.4227    1460.7697   ✗       
+779   N+0.984FDLPAEMTGLWR      -1.0000     NotChecked  -14.4249    1549.7235   ✗       
+780   N+0.984FDLPKEMTLWR       -1.0000     NotChecked  -14.4258    1549.7599   ✗       
+781   VDLPKEMTGLWR             -1.0000     NotChecked  -14.4268    1443.7544   ✗       
+782   +43.006FDLPKEMTGLWR      -1.0000     NotChecked  -14.4328    1534.7602   ✗       
+783   LFDLPKEMTGLWR            -1.0000     NotChecked  -14.4377    1604.8385   ✗       
+784   +43.006FDLPKEMTGLWR      -1.0000     NotChecked  -14.4428    1534.7602   ✗       
+785   N+0.984FDLPKEMTGLLR      -1.0000     NotChecked  -14.4515    1533.7861   ✗       
+786   AFELPKEMTGLWR            -1.0000     NotChecked  -14.4528    1576.8072   ✗       
+787   +43.006FNLPKEMTGLWR      -1.0000     NotChecked  -14.4529    1533.7762   ✗       
+788   N+0.984FDLPKETTGLWR      -1.0000     NotChecked  -14.4744    1576.7885   ✗       
+789   N+0.984FDLPKEMTGLR       -1.0000     NotChecked  -14.4852    1420.7020   ✗       
+790   KFDLPKEMAGLWR            -1.0000     NotChecked  -14.4855    1589.8388   ✗       
+791   GFELPKEMTGLWR            -1.0000     NotChecked  -14.4863    1562.7915   ✗       
+792   +43.006EDLPKEMTGLWR      -1.0000     NotChecked  -14.4875    1516.7344   ✗       
+793   AFDDPKEMTGLWR            -1.0000     NotChecked  -14.4887    1564.7344   ✗       
+794   +43.006FDLPKEMLGLWR      -1.0000     NotChecked  -14.4965    1546.7966   ✗       
+795   AFDLPKEMTGLWR            -1.0000     NotChecked  -14.5000    1562.7915   ✗       
+796   +43.006FDYPKEMTGLWR      -1.0000     NotChecked  -14.5071    1584.7395   ✗       
+797   +43.006FN+0.984LPKEMTGLWR-1.0000     NotChecked  -14.5081    1534.7602   ✗       
+798   LFDLPKEMTGLWR            -1.0000     NotChecked  -14.5124    1604.8385   ✗       
+799   GFDDPKEMTGLWR            -1.0000     NotChecked  -14.5222    1550.7188   ✗       
+800   +42.011DLPKEMTGLWR       -1.0000     NotChecked  -14.5318    1386.6966   ✗       
+801   N+0.984FLLPKEMTGLWR      -1.0000     NotChecked  -14.5329    1604.8385   ✗       
+802   GFDLPKEMTGLWR            -1.0000     NotChecked  -14.5335    1548.7759   ✗       
+803   +43.006FDLPKETTGLWR      -1.0000     NotChecked  -14.5402    1504.7674   ✗       
+804   N+0.984FDLPKEDTGLWR      -1.0000     NotChecked  -14.5445    1590.7678   ✗       
+805   N+0.984FDVPKEMTGLWR      -1.0000     NotChecked  -14.5485    1592.7657   ✗       
+806   AVDLPKEMTGLWR            -1.0000     NotChecked  -14.5490    1514.7915   ✗       
+807   VFELPKEMTGLWR            -1.0000     NotChecked  -14.5491    1604.8385   ✗       
+808   +43.006FDLPKEMTGLR       -1.0000     NotChecked  -14.5510    1348.6809   ✗       
+809   +42.011AFDLPKEMTGLWR     -1.0000     NotChecked  -14.5586    1604.8021   ✗       
+810   N+0.984DLPKEMTGLWR       -1.0000     NotChecked  -14.5606    1459.7129   ✗       
+811   AFDEPKEMTGLWR            -1.0000     NotChecked  -14.5633    1578.7501   ✗       
+812   AFPLPKEMTGLWR            -1.0000     NotChecked  -14.5639    1544.8173   ✗       
+813   N+0.984NFDLPKEMTGLAR     -1.0000     Failed      -14.5660    1605.7821   ✓       
+814   N+0.984FDTPKEMTGLWR      -1.0000     NotChecked  -14.5665    1594.7450   ✗       
+815   GVDLPKEMTGLWR            -1.0000     NotChecked  -14.5825    1500.7759   ✗       
+816   VFDDPKEMTGLWR            -1.0000     NotChecked  -14.5850    1592.7657   ✗       
+817   VFDLPKEMTGLWR            -1.0000     NotChecked  -14.5963    1590.8228   ✗       
+818   GFDEPKEMTGLWR            -1.0000     NotChecked  -14.5968    1564.7344   ✗       
+819   GFPLPKEMTGLWR            -1.0000     NotChecked  -14.5974    1530.8017   ✗       
+820   +42.011AFDLPKEMTGLWR     -1.0000     NotChecked  -14.6041    1604.8021   ✗       
+821   +43.006FDLPKEDTGLWR      -1.0000     NotChecked  -14.6104    1518.7467   ✗       
+822   +43.006FDVPKEMTGLWR      -1.0000     NotChecked  -14.6143    1520.7446   ✗       
+823   GFDLPKEMTGLWR            -1.0000     NotChecked  -14.6173    1548.7759   ✗       
+824   AFDLPKEMTGLWR            -1.0000     NotChecked  -14.6188    1562.7915   ✗       
+825   +43.006FDLPKKMTGLWR      -1.0000     NotChecked  -14.6213    1533.8126   ✗       
+826   AFDLPKEMTGLWR            -1.0000     NotChecked  -14.6302    1562.7915   ✗       
+827   +43.006FDTPKEMTGLWR      -1.0000     NotChecked  -14.6323    1522.7238   ✗       
+828   N+0.984FVLPKEMTGLWR      -1.0000     NotChecked  -14.6383    1590.8228   ✗       
+829   VVDLPKEMTGLWR            -1.0000     NotChecked  -14.6453    1542.8228   ✗       
+830   GFDLPKEMTGLWR            -1.0000     NotChecked  -14.6524    1548.7759   ✗       
+831   +42.011FELPKEMTGLWR      -1.0000     NotChecked  -14.6542    1547.7806   ✗       
+832   AFDLPKEMTGVWR            -1.0000     NotChecked  -14.6569    1548.7759   ✗       
+833   +43.006FYLPKEMTGLWR      -1.0000     NotChecked  -14.6570    1582.7966   ✗       
+834   VFPLPKEMTGLWR            -1.0000     NotChecked  -14.6602    1572.8486   ✗       
+835   N+0.984FDLPKPMTGLWR      -1.0000     NotChecked  -14.6661    1574.7915   ✗       
+836   N+0.984FDLPKENTGLWR      -1.0000     NotChecked  -14.6781    1589.7838   ✗       
+837   AADLPKEMTGLWR            -1.0000     NotChecked  -14.6829    1486.7602   ✗       
+838   +42.011FDDPKEMTGLWR      -1.0000     NotChecked  -14.6901    1535.7079   ✗       
+839   GFDLPKEMTGVWR            -1.0000     NotChecked  -14.6904    1534.7602   ✗       
+840   N+0.984FDLPKEMTLWR       -1.0000     NotChecked  -14.6987    1549.7599   ✗       
+841   +42.011FDLPKEMTGLWR      -1.0000     NotChecked  -14.7014    1533.7650   ✗       
+842   +43.006FVLPKEMTGLWR      -1.0000     NotChecked  -14.7041    1518.8017   ✗       
+843   AFDLPKEMSGLWR            -1.0000     NotChecked  -14.7082    1548.7759   ✗       
+844   VFDLPKEMTGLWR            -1.0000     NotChecked  -14.7151    1590.8228   ✗       
+845   GADLPKEMTGLWR            -1.0000     NotChecked  -14.7164    1472.7446   ✗       
+846   AFELPKEMTGLWR            -1.0000     NotChecked  -14.7258    1576.8072   ✗       
+847   +42.011FGDLPKEMTGLWR     -1.0000     NotChecked  -14.7329    1590.7864   ✗       
+848   AFDLPKEMTGLWR            -1.0000     NotChecked  -14.7366    1562.7915   ✗       
+849   GFDLPKEMSGLWR            -1.0000     NotChecked  -14.7417    1534.7602   ✗       
+850   +42.011VDLPKEMTGLWR      -1.0000     NotChecked  -14.7504    1485.7650   ✗       
+851   VFDLPKEMTGVWR            -1.0000     NotChecked  -14.7532    1576.8072   ✗       
+852   GFELPKEMTGLWR            -1.0000     NotChecked  -14.7593    1562.7915   ✗       
+853   +43.006FDLPKEMTLWR       -1.0000     NotChecked  -14.7646    1477.7388   ✗       
+854   +42.011FDEPKEMTGLWR      -1.0000     NotChecked  -14.7647    1549.7235   ✗       
+855   +42.011FPLPKEMTGLWR      -1.0000     NotChecked  -14.7653    1515.7908   ✗       
+856   GFDLPKEMTGLWR            -1.0000     NotChecked  -14.7701    1548.7759   ✗       
+857   N+0.984FDLPKEMTGGWR      -1.0000     NotChecked  -14.7726    1550.7188   ✗       
+858   AFDLPKEMTGLWR            -1.0000     NotChecked  -14.7730    1562.7915   ✗       
+859   N+0.984VDLPKEMTGLWR      -1.0000     NotChecked  -14.7792    1558.7814   ✗       
+860   VADLPKEMTGLWR            -1.0000     NotChecked  -14.7792    1514.7915   ✗       
+861   +43.006FN+0.984LPKEMTGLWR-1.0000     NotChecked  -14.7811    1534.7602   ✗       
+862   +42.011GFDLPKEMTGLWR     -1.0000     NotChecked  -14.7852    1590.7864   ✗       
+863   N+0.984QDLPKEMTGLWR      -1.0000     NotChecked  -14.7854    1587.7715   ✗       
+864   N+0.984FSLPKEMTGLWR      -1.0000     NotChecked  -14.7899    1578.7864   ✗       
+865   +43.006FDLPQEMTGLWR      -1.0000     NotChecked  -14.7939    1534.7238   ✗       
+866   N+0.984FPLPKEMTGLWR      -1.0000     NotChecked  -14.7941    1588.8072   ✗       
+867   VFDLPKEMSGLWR            -1.0000     NotChecked  -14.8045    1576.8072   ✗       
+868   N+0.984FLLPKEMTGLWR      -1.0000     NotChecked  -14.8059    1604.8385   ✗       
+869   GFDLPKEMTGLWR            -1.0000     NotChecked  -14.8065    1548.7759   ✗       
+870   AFDLPKEMTGLWR            -1.0000     NotChecked  -14.8141    1562.7915   ✗       
+871   +42.011FDLPKEMTGLWR      -1.0000     NotChecked  -14.8202    1533.7650   ✗       
+872   VFELPKEMTGLWR            -1.0000     NotChecked  -14.8221    1604.8385   ✗       
+873   AFDLPKEMEGLWR            -1.0000     NotChecked  -14.8288    1590.7865   ✗       
+874   +42.011AFDLPKEMTGLWR     -1.0000     NotChecked  -14.8316    1604.8021   ✗       
+875   VFDLPKEMTGLWR            -1.0000     NotChecked  -14.8329    1590.8228   ✗       
+876   N+0.984FDLPKEMVGLWR      -1.0000     NotChecked  -14.8446    1604.8021   ✗       
+877   GFDLPKEMTGLWR            -1.0000     NotChecked  -14.8476    1548.7759   ✗       
+878   AFDLPKEMTGLWR            -1.0000     NotChecked  -14.8488    1562.7915   ✗       
+879   ADDLPKEMTGLWR            -1.0000     NotChecked  -14.8514    1530.7501   ✗       
+880   +42.011FDLPKEMTGVWR      -1.0000     NotChecked  -14.8583    1519.7493   ✗       
+881   GFDLPKEMEGLWR            -1.0000     NotChecked  -14.8624    1576.7708   ✗       
+882   VFDLPKEMTGLWR            -1.0000     NotChecked  -14.8693    1590.8228   ✗       
+883   +43.006FLLPKEMTGLWR      -1.0000     NotChecked  -14.8717    1532.8173   ✗       
+884   AFDLPKEMTGLWR            -1.0000     NotChecked  -14.8818    1562.7915   ✗       
+885   GFDLPKEMTGLWR            -1.0000     NotChecked  -14.8823    1548.7759   ✗       
+886   N+0.984FDLPKESTGLWR      -1.0000     NotChecked  -14.8839    1562.7729   ✗       
+887   +42.011ADLPKEMTGLWR      -1.0000     NotChecked  -14.8843    1457.7337   ✗       
+888   GDDLPKEMTGLWR            -1.0000     NotChecked  -14.8849    1516.7344   ✗       
+889   N+0.984FDLPKEMTGVWR      -1.0000     NotChecked  -14.8871    1592.7657   ✗       
+890   AFDLPKEMTGLWR            -1.0000     NotChecked  -14.8918    1562.7915   ✗       
+891   AFNLPKEMTGLWR            -1.0000     NotChecked  -14.9019    1561.8075   ✗       
+892   N+0.984FDLPKELTGLWR      -1.0000     NotChecked  -14.9033    1588.8249   ✗       
+893   +42.011FDLPKEMSGLWR      -1.0000     NotChecked  -14.9096    1519.7493   ✗       
+894   VFDLPKEMTGLWR            -1.0000     NotChecked  -14.9104    1590.8228   ✗       
+895   LFDLPKEETGLWR            -1.0000     NotChecked  -14.9104    1602.8406   ✗       
+896   +43.006FDLPKEFTGLWR      -1.0000     NotChecked  -14.9128    1550.7882   ✗       
+897   N+0.984ADLPKEMTGLWR      -1.0000     NotChecked  -14.9131    1530.7501   ✗       
+898   GFDLPKEMTGLWR            -1.0000     NotChecked  -14.9153    1548.7759   ✗       
+899   +43.006FDLPKEM+15.995TGLWR-1.0000     NotChecked  -14.9214    1550.7551   ✗       
+900   N+0.984FDLPKEMGGLWR      -1.0000     NotChecked  -14.9244    1562.7552   ✗       
+901   GFDLPKEMTGLWR            -1.0000     NotChecked  -14.9253    1548.7759   ✗       
+902   +43.006AFDLPKEMTGLWR     -1.0000     Failed      -14.9262    1605.7973   ✓       
+903   +42.011FELPKEMTGLWR      -1.0000     NotChecked  -14.9271    1547.7806   ✗       
+904   GFNLPKEMTGLWR            -1.0000     NotChecked  -14.9354    1547.7919   ✗       
+905   AEDLPKEMTGLWR            -1.0000     NotChecked  -14.9365    1544.7657   ✗       
+906   +42.011FDLPKEMTGLWR      -1.0000     NotChecked  -14.9380    1533.7650   ✗       
+907   N+0.984FDLPKEMSGLWR      -1.0000     NotChecked  -14.9384    1592.7657   ✗       
+908   LFDLPKEMTGLLR            -1.0000     NotChecked  -14.9446    1531.8432   ✗       
+909   VFDLPKEMTGLWR            -1.0000     NotChecked  -14.9451    1590.8228   ✗       
+910   AFDLPKEMLGLWR            -1.0000     NotChecked  -14.9455    1574.8279   ✗       
+911   VDDLPKEMTGLWR            -1.0000     NotChecked  -14.9477    1558.7814   ✗       
+912   N+0.984FDLPKENTGLWR      -1.0000     NotChecked  -14.9510    1589.7838   ✗       
+913   AFN+0.984LPKEMTGLWR      -1.0000     NotChecked  -14.9572    1562.7915   ✗       
+914   +43.006FDLPKEMQGLWR      -1.0000     NotChecked  -14.9659    1561.7711   ✗       
+915   GEDLPKEMTGLWR            -1.0000     NotChecked  -14.9700    1530.7501   ✗       
+916   N+0.984FDSPKEMTGLWR      -1.0000     NotChecked  -14.9730    1580.7293   ✗       
+917   +42.011FDLPKEMTGLWR      -1.0000     NotChecked  -14.9743    1533.7650   ✗       
+918   VFDLPKEMTGLWR            -1.0000     NotChecked  -14.9781    1590.8228   ✗       
+919   GFDLPKEMLGLWR            -1.0000     NotChecked  -14.9791    1560.8123   ✗       
+920   +43.006FQ+0.984LPKEMTGLWR-1.0000     NotChecked  -14.9794    1548.7759   ✗       
+921   VFDLPKEMTGLWR            -1.0000     NotChecked  -14.9881    1590.8228   ✗       
+922   AFDLPKETTGLWR            -1.0000     NotChecked  -14.9892    1532.7987   ✗       
+923   GFDYPKEMTGLWR            -1.0000     NotChecked  -14.9896    1598.7551   ✗       
+924   GFN+0.984LPKEMTGLWR      -1.0000     NotChecked  -14.9907    1548.7759   ✗       
+925   VFNLPKEMTGLWR            -1.0000     NotChecked  -14.9982    1589.8388   ✗       
+926   AFDLPKEMTGLR             -1.0000     NotChecked  -15.0001    1376.7122   ✗       
+927   +43.006FDLPKEMTGLWR      -1.0000     NotChecked  -15.0015    1534.7602   ✗       
+928   +42.011FDLPKEMTGLWR      -1.0000     NotChecked  -15.0155    1533.7650   ✗       
+929   +43.006FDLPKENTGLWR      -1.0000     NotChecked  -15.0169    1517.7627   ✗       
+930   N+0.984NFDLPKEMTGLGR     -1.0000     NotChecked  -15.0211    1591.7664   ✗       
+931   +43.006FELPKEMTGLWR      -1.0000     NotChecked  -15.0218    1548.7759   ✗       
+932   GFDLPKETTGLWR            -1.0000     NotChecked  -15.0227    1518.7831   ✗       
+933   +42.011FDLPKEMEGLWR      -1.0000     NotChecked  -15.0302    1561.7599   ✗       
+934   VEDLPKEMTGLWR            -1.0000     NotChecked  -15.0328    1572.7970   ✗       
+935   GFDLPKEMTGLR             -1.0000     NotChecked  -15.0336    1362.6966   ✗       
+936   VFDLPKEMLGLWR            -1.0000     NotChecked  -15.0418    1602.8592   ✗       
+937   +42.011FDLPKEMTGLWR      -1.0000     NotChecked  -15.0501    1533.7650   ✗       
+938   +42.011DDLPKEMTGLWR      -1.0000     NotChecked  -15.0528    1501.7235   ✗       
+939   VFN+0.984LPKEMTGLWR      -1.0000     NotChecked  -15.0535    1590.8228   ✗       
+940   LDLPKEMTGLWR             -1.0000     NotChecked  -15.0537    1457.7701   ✗       
+941   AFDLPKEDTGLWR            -1.0000     NotChecked  -15.0594    1546.7780   ✗       
+942   N+0.984FSLPKEMTGLWR      -1.0000     NotChecked  -15.0629    1578.7864   ✗       
+943   AFDVPKEMTGLWR            -1.0000     NotChecked  -15.0633    1548.7759   ✗       
+944   +43.006FDLPKEMTGLWR      -1.0000     NotChecked  -15.0690    1534.7602   ✗       
+945   AFDLPKKMTGLWR            -1.0000     NotChecked  -15.0703    1561.8439   ✗       
+946   AFDTPKEMTGLWR            -1.0000     NotChecked  -15.0813    1550.7551   ✗       
+947   N+0.984DDLPKEMTGLWR      -1.0000     NotChecked  -15.0816    1574.7399   ✗       
+948   +42.011FDLPKEMTGLWR      -1.0000     NotChecked  -15.0832    1533.7650   ✗       
+949   VFDLPKETTGLWR            -1.0000     NotChecked  -15.0855    1560.8300   ✗       
+950   N+0.984LDLPKEMTGLWR      -1.0000     NotChecked  -15.0869    1572.7970   ✗       
+951   +43.006FDLLKEMTGLWR      -1.0000     NotChecked  -15.0894    1550.7915   ✗       
+952   GFDLPKEDTGLWR            -1.0000     NotChecked  -15.0929    1532.7623   ✗       
+953   +42.011FDLPKEMTGLWR      -1.0000     NotChecked  -15.0932    1533.7650   ✗       
+954   VFDLPKEMTGLR             -1.0000     NotChecked  -15.0964    1404.7435   ✗       
+955   GFDVPKEMTGLWR            -1.0000     NotChecked  -15.0968    1534.7602   ✗       
+956   +42.011FNLPKEMTGLWR      -1.0000     NotChecked  -15.1033    1532.7810   ✗       
+957   GFDLPKKMTGLWR            -1.0000     NotChecked  -15.1039    1547.8282   ✗       
+958   GFDTPKEMTGLWR            -1.0000     NotChecked  -15.1149    1536.7395   ✗       
+959   N+0.984FDLPKEMVGLWR      -1.0000     NotChecked  -15.1175    1604.8021   ✗       
+960   +43.006QDLPKEMTGLWR      -1.0000     NotChecked  -15.1242    1515.7504   ✗       
+961   +43.006FSLPKEMTGLWR      -1.0000     NotChecked  -15.1287    1506.7653   ✗       
+962   +43.006GFDLPKEMTGLWR     -1.0000     NotChecked  -15.1293    1591.7817   ✗       
+963   +42.011EDLPKEMTGLWR      -1.0000     NotChecked  -15.1379    1515.7392   ✗       
+964   GFYLPKEMTGLWR            -1.0000     NotChecked  -15.1395    1596.8123   ✗       
+965   +42.011FDLPKEMLGLWR      -1.0000     NotChecked  -15.1469    1545.8014   ✗       
+966   AFVLPKEMTGLWR            -1.0000     NotChecked  -15.1531    1546.8330   ✗       
+967   VFDLPKEDTGLWR            -1.0000     NotChecked  -15.1557    1574.8093   ✗       
+968   N+0.984FDLPKESTGLWR      -1.0000     NotChecked  -15.1568    1562.7729   ✗       
+969   +42.011FDYPKEMTGLWR      -1.0000     NotChecked  -15.1575    1583.7442   ✗       
+970   +42.011FN+0.984LPKEMTGLWR-1.0000     NotChecked  -15.1585    1533.7650   ✗       
+971   VFDVPKEMTGLWR            -1.0000     NotChecked  -15.1596    1576.8072   ✗       
+972   VFDLPKKMTGLWR            -1.0000     NotChecked  -15.1667    1589.8752   ✗       
+973   N+0.984EDLPKEMTGLWR      -1.0000     NotChecked  -15.1667    1588.7555   ✗       
+974   N+0.984FDLPKELTGLWR      -1.0000     NotChecked  -15.1763    1588.8249   ✗       
+975   VFDTPKEMTGLWR            -1.0000     NotChecked  -15.1776    1578.7864   ✗       
+976   +43.006FDFPKEMTGLWR      -1.0000     NotChecked  -15.1822    1568.7446   ✗       
+977   +43.006FDLPKEMVGLWR      -1.0000     NotChecked  -15.1834    1532.7810   ✗       
+978   VFDLPKEMTGLWR            -1.0000     NotChecked  -15.1863    1590.8228   ✗       
+979   GFVLPKEMTGLWR            -1.0000     NotChecked  -15.1866    1532.8173   ✗       
+980   +43.006FDLPKEMTGLWR      -1.0000     NotChecked  -15.1878    1534.7602   ✗       
+981   +42.011FDLPKETTGLWR      -1.0000     NotChecked  -15.1906    1503.7722   ✗       
+982   N+0.984FDLPKEMGGLWR      -1.0000     NotChecked  -15.1974    1562.7552   ✗       
+983   +42.011FDLPKEMTGLR       -1.0000     NotChecked  -15.2014    1347.6857   ✗       
+984   AFDLPKEMTLWR             -1.0000     NotChecked  -15.2136    1505.7701   ✗       
+985   N+0.984FDLPKETTGLWR      -1.0000     NotChecked  -15.2194    1576.7885   ✗       
+986   +43.006FDLPKESTGLWR      -1.0000     NotChecked  -15.2226    1490.7518   ✗       
+987   LFDLPKEMTGLWR            -1.0000     NotChecked  -15.2232    1604.8385   ✗       
+988   AFN+0.984LPKEMTGLWR      -1.0000     NotChecked  -15.2301    1562.7915   ✗       
+989   N+0.984FDLPKEMTGLR       -1.0000     NotChecked  -15.2303    1420.7020   ✗       
+990   N+0.984FDLPKEMAGLWR      -1.0000     NotChecked  -15.2310    1576.7708   ✗       
+991   +43.006FDGLPKEMTGLWR     -1.0000     NotChecked  -15.2379    1591.7817   ✗       
+992   +43.006FDLPKELTGLWR      -1.0000     NotChecked  -15.2421    1516.8038   ✗       
+993   AFDLPQEMTGLWR            -1.0000     NotChecked  -15.2429    1562.7551   ✗       
+994   N+0.984FDSPKEMTGLWR      -1.0000     NotChecked  -15.2460    1580.7293   ✗       
+995   GFDLPKEMTLWR             -1.0000     NotChecked  -15.2471    1491.7544   ✗       
+996   VFVLPKEMTGLWR            -1.0000     NotChecked  -15.2494    1574.8643   ✗       
+997   KFDLPKEMTGLLR            -1.0000     NotChecked  -15.2588    1546.8541   ✗       
+998   +42.011FDLPKEDTGLWR      -1.0000     NotChecked  -15.2608    1517.7514   ✗       
+999   +43.006FDLPKEMGGLWR      -1.0000     NotChecked  -15.2632    1490.7340   ✗       
+1000  GFN+0.984LPKEMTGLWR      -1.0000     NotChecked  -15.2636    1548.7759   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: NFDLPKEMTGLWR
+Similarity: 0.7815
+De Novo Score: -0.4580
+Source: Database
+Correct: ✓
+

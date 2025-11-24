@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 239
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 485.9284
+Precursor charge: 3+
+Ground truth: IGAPQQPGPGPPPSR
+Ground truth (normalized): IGAPQQPGPGPPPSR
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 321
+Used for reranking: 321
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 321 (32.1%)
+Database matches: 283 (28.3%)
+Prosit predictions: 29 (2.9%)
+Failed: 9 (0.9%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.8492
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     LGAPQQPGPGPPPSR          0.8492      Database    -0.4614     1454.7630   ✓       ✓
+2     LGAPQQPGPGPPPSR          0.8492      Database    -1.1885     1454.7630   ✓       ✓
+3     LGAPQQPGPGPPPSR          0.8492      Database    -3.6625     1454.7630   ✓       ✓
+4     LGAPQQPGPGPPPSR          0.8492      Database    -4.3896     1454.7630   ✓       ✓
+5     LGAPQQPGPGPPPSR          0.8492      Database    -5.0321     1454.7630   ✓       ✓
+6     LGAPQQPGPGPPPSR          0.8492      Database    -5.1710     1454.7630   ✓       ✓
+7     LGAPQQPGPGPPPSR          0.8492      Database    -5.6572     1454.7630   ✓       ✓
+8     LGAPQQPGPGPPPSR          0.8492      Database    -5.7592     1454.7630   ✓       ✓
+9     LGAPQQPGPGPPPSR          0.8492      Database    -5.8981     1454.7630   ✓       ✓
+10    LGAPQQPGPGPPPSR          0.8492      Database    -6.3843     1454.7630   ✓       ✓
+11    LGAPQQPGPGPPPSR          0.8492      Database    -7.3137     1454.7630   ✓       ✓
+12    LGAPQQPGPGPPPSR          0.8492      Database    -8.0407     1454.7630   ✓       ✓
+13    LGAPQQPGPGPPPSR          0.8492      Database    -8.0819     1454.7630   ✓       ✓
+14    LGAPQQPGPGPPPSR          0.8492      Database    -8.2332     1454.7630   ✓       ✓
+15    LGAPQQPGPGPPPSR          0.8492      Database    -8.3721     1454.7630   ✓       ✓
+16    LGAPQQPGPGPPPSR          0.8492      Database    -8.8089     1454.7630   ✓       ✓
+17    LGAPQQPGPGPPPSR          0.8492      Database    -8.8583     1454.7630   ✓       ✓
+18    LGAPQQPGPGPPPSR          0.8492      Database    -8.9602     1454.7630   ✓       ✓
+19    LGAPQQPGPGPPPSR          0.8492      Database    -9.0991     1454.7630   ✓       ✓
+20    LGAPQQPGPGPPPSR          0.8492      Database    -9.5186     1454.7630   ✓       ✓
+21    LGAPQQPGPGPPPSR          0.8492      Database    -9.5854     1454.7630   ✓       ✓
+22    LGAPQQPGPGPPPSR          0.8492      Database    -9.6312     1454.7630   ✓       ✓
+23    LGAPQQPGPGPPPSR          0.8492      Database    -9.7417     1454.7630   ✓       ✓
+24    LGAPQQPGPGPPPSR          0.8492      Database    -10.2279    1454.7630   ✓       ✓
+25    LGAPQQPGPGPPPSR          0.8492      Database    -10.2457    1454.7630   ✓       ✓
+26    LGAPQQPGPGPPPSR          0.8492      Database    -10.3583    1454.7630   ✓       ✓
+27    LGAPQQPGPGPPPSR          0.8492      Database    -10.3668    1454.7630   ✓       ✓
+28    LGAPQQPGPGPPPSR          0.8492      Database    -10.4687    1454.7630   ✓       ✓
+29    LGAPQQPGPGPPPSR          0.8492      Database    -10.5147    1454.7630   ✓       ✓
+30    LGAPQQPGPGPPPSR          0.8492      Database    -10.9549    1454.7630   ✓       ✓
+31    LGAPQQPGPGPPPSR          0.8492      Database    -11.0939    1454.7630   ✓       ✓
+32    LGAPQQPGPGPPPSR          0.8492      Database    -11.2152    1454.7630   ✓       ✓
+33    LGAPQQPGPGPPPSR          0.8492      Database    -11.2418    1454.7630   ✓       ✓
+34    LGAPQQPGPGPPPSR          0.8492      Database    -11.2829    1454.7630   ✓       ✓
+35    LGAPQQPGPGPPPSR          0.8492      Database    -11.9385    1454.7630   ✓       ✓
+36    LGAPQQPGPGPPPSR          0.8492      Database    -11.9422    1454.7630   ✓       ✓
+37    LGAPQQPGPGPPPSR          0.8492      Database    -12.0100    1454.7630   ✓       ✓
+38    LGAPQQPGPGPPPSR          0.8492      Database    -12.0233    1454.7630   ✓       ✓
+39    LGAPQQPGPGPPPSR          0.8492      Database    -12.5095    1454.7630   ✓       ✓
+40    LGAPQQPGPGPPPSR          0.8492      Database    -12.5936    1454.7630   ✓       ✓
+41    LGAPQQPGPGPPPSR          0.8492      Database    -12.6525    1454.7630   ✓       ✓
+42    LGAPQQPGPGPPPSR          0.8492      Database    -12.6655    1454.7630   ✓       ✓
+43    LGAPQQPGPGPPPSR          0.8492      Database    -12.7197    1454.7630   ✓       ✓
+44    LGAPQQPGPGPPPSR          0.8492      Database    -12.7503    1454.7630   ✓       ✓
+45    LGAPQQPGPGPPPSR          0.8492      Database    -12.7915    1454.7630   ✓       ✓
+46    LGAPQQPGPGPPPSR          0.8492      Database    -12.8323    1454.7630   ✓       ✓
+47    LGAPQQPGPGPPPSR          0.8492      Database    -12.8369    1454.7630   ✓       ✓
+48    LGAPQQPGPGPPPSR          0.8492      Database    -12.9427    1454.7630   ✓       ✓
+49    LGAPQQPGPGPPPSR          0.8492      Database    -13.2365    1454.7630   ✓       ✓
+50    LGAPQQPGPGPPPSR          0.8492      Database    -13.2777    1454.7630   ✓       ✓
+51    LGAPQQPGPGPPPSR          0.8492      Database    -13.3206    1454.7630   ✓       ✓
+52    LGAPQQPGPGPPPSR          0.8492      Database    -13.3796    1454.7630   ✓       ✓
+53    LGAPQQPGPGPPPSR          0.8492      Database    -13.4290    1454.7630   ✓       ✓
+54    LGAPQQPGPGPPPSR          0.8492      Database    -13.4468    1454.7630   ✓       ✓
+55    LGAPQQPGPGPPPSR          0.8492      Database    -13.4702    1454.7630   ✓       ✓
+56    LGAPQQPGPGPPPSR          0.8492      Database    -13.5185    1454.7630   ✓       ✓
+57    LGAPQQPGPGPPPSR          0.8492      Database    -13.5593    1454.7630   ✓       ✓
+58    LGAPQQPGPGPPPSR          0.8492      Database    -13.5640    1454.7630   ✓       ✓
+59    LGAPQQPGPGPPPSR          0.8492      Database    -13.5679    1454.7630   ✓       ✓
+60    LGAPQQPGPGPPPSR          0.8492      Database    -13.6698    1454.7630   ✓       ✓
+61    LGAPQQPGPGPPPSR          0.8492      Database    -13.8577    1454.7630   ✓       ✓
+62    LGAPQQPGPGPPPSR          0.8492      Database    -14.0047    1454.7630   ✓       ✓
+63    LGAPQQPGPGPPPSR          0.8492      Database    -14.0893    1454.7630   ✓       ✓
+64    LGAPQQPGPGPPPSR          0.8492      Database    -14.1396    1454.7630   ✓       ✓
+65    LGAPQQPGPGPPPSR          0.8492      Database    -14.1560    1454.7630   ✓       ✓
+66    LGAPQQPGPGPPPSR          0.8492      Database    -14.1973    1454.7630   ✓       ✓
+67    LGAPQQPGPGPPPSR          0.8492      Database    -14.2019    1454.7630   ✓       ✓
+68    LGAPQQPGPGPPPSR          0.8492      Database    -14.2189    1454.7630   ✓       ✓
+69    LGAPQQPGPGPPPSR          0.8492      Database    -14.2282    1454.7630   ✓       ✓
+70    LGAPQQPGPGPPPSR          0.8492      Database    -14.2949    1454.7630   ✓       ✓
+71    LGAPQQPGPGPPPSR          0.8492      Database    -14.4162    1454.7630   ✓       ✓
+72    LGAPQQPGPGPPPSR          0.8492      Database    -14.5847    1454.7630   ✓       ✓
+73    LGAPQQPGPGPPPSR          0.8492      Database    -14.7144    1454.7630   ✓       ✓
+74    LGAPQQPGPGPPPSR          0.8492      Database    -14.7285    1454.7630   ✓       ✓
+75    LGAPQQPGPGPPPSR          0.8492      Database    -14.7380    1454.7630   ✓       ✓
+76    LGAPQQPGPGPPPSR          0.8492      Database    -14.8164    1454.7630   ✓       ✓
+77    LGAPQQPGPGPPPSR          0.8492      Database    -14.8270    1454.7630   ✓       ✓
+78    LGAPQQPGPGPPPSR          0.8492      Database    -14.8666    1454.7630   ✓       ✓
+79    LGAPQQPGPGPPPSR          0.8492      Database    -14.9289    1454.7630   ✓       ✓
+80    LGAPQQPGPGPPPSR          0.8492      Database    -14.9341    1454.7630   ✓       ✓
+81    LGAPQQPGPGPPPSR          0.8492      Database    -14.9375    1454.7630   ✓       ✓
+82    LGAPQQPGPGPPPSR          0.8492      Database    -14.9460    1454.7630   ✓       ✓
+83    LGAPQQPGPGPPPSR          0.8492      Database    -14.9553    1454.7630   ✓       ✓
+84    LGAPQQPGPGPPPSR          0.8492      Database    -15.1395    1454.7630   ✓       ✓
+85    LGAPQQPGPGPPPSR          0.8492      Database    -15.1433    1454.7630   ✓       ✓
+86    LGAPQQPGPGPPPSR          0.8492      Database    -15.2243    1454.7630   ✓       ✓
+87    LGAPQQPGPGPPPSR          0.8492      Database    -15.4415    1454.7630   ✓       ✓
+88    LGAPQQPGPGPPPSR          0.8492      Database    -15.4556    1454.7630   ✓       ✓
+89    LGAPQQPGPGPPPSR          0.8492      Database    -15.5540    1454.7630   ✓       ✓
+90    LGAPQQPGPGPPPSR          0.8492      Database    -15.6612    1454.7630   ✓       ✓
+91    LGAPQQPGPGPPPSR          0.8492      Database    -15.6645    1454.7630   ✓       ✓
+92    LGAPQQPGPGPPPSR          0.8492      Database    -15.6934    1454.7630   ✓       ✓
+93    LGAPQQPGPGPPPSR          0.8492      Database    -15.7105    1454.7630   ✓       ✓
+94    LGAPQQPGPGPPPSR          0.8492      Database    -15.7858    1454.7630   ✓       ✓
+95    LGAPQQPGPGPPPSR          0.8492      Database    -15.7947    1454.7630   ✓       ✓
+96    LGAPQQPGPGPPPSR          0.8492      Database    -15.8536    1454.7630   ✓       ✓
+97    LGAPQQPGPGPPPSR          0.8492      Database    -15.8666    1454.7630   ✓       ✓
+98    LGAPQQPGPGPPPSR          0.8492      Database    -15.9248    1454.7630   ✓       ✓
+99    LGAPQQPGPGPPPSR          0.8492      Database    -15.9514    1454.7630   ✓       ✓
+100   LGAPQQPGPGPPPSR          0.8492      Database    -15.9925    1454.7630   ✓       ✓
+101   LGAPQQPGPGPPPSR          0.8492      Database    -16.0380    1454.7630   ✓       ✓
+102   LGAPQQPGPGPPPSR          0.8492      Database    -16.1466    1454.7630   ✓       ✓
+103   LGAPQQPGPGPPPSR          0.8492      Database    -16.2140    1454.7630   ✓       ✓
+104   LGAPQQPGPGPPPSR          0.8492      Database    -16.3709    1454.7630   ✓       ✓
+105   LGAPQQPGPGPPPSR          0.8492      Database    -16.4110    1454.7630   ✓       ✓
+106   LGAPQQPGPGPPPSR          0.8492      Database    -16.4204    1454.7630   ✓       ✓
+107   LGAPQQPGPGPPPSR          0.8492      Database    -16.4376    1454.7630   ✓       ✓
+108   LGAPQQPGPGPPPSR          0.8492      Database    -16.4787    1454.7630   ✓       ✓
+109   LGAPQQPGPGPPPSR          0.8492      Database    -16.4834    1454.7630   ✓       ✓
+110   LGAPQQPGPGPPPSR          0.8492      Database    -16.5091    1454.7630   ✓       ✓
+111   LGAPQQPGPGPPPSR          0.8492      Database    -16.5129    1454.7630   ✓       ✓
+112   LGAPQQPGPGPPPSR          0.8492      Database    -16.5217    1454.7630   ✓       ✓
+113   LGAPQQPGPGPPPSR          0.8492      Database    -16.5807    1454.7630   ✓       ✓
+114   LGAPQQPGPGPPPSR          0.8492      Database    -16.6481    1454.7630   ✓       ✓
+115   LGAPQQPGPGPPPSR          0.8492      Database    -16.6518    1454.7630   ✓       ✓
+116   LGAPQQPGPGPPPSR          0.8492      Database    -16.7196    1454.7630   ✓       ✓
+117   LGAPQQPGPGPPPSR          0.8492      Database    -16.7650    1454.7630   ✓       ✓
+118   LGAPQQPGPGPPPSR          0.8492      Database    -16.7867    1454.7630   ✓       ✓
+119   LGAPQQPGPGPPPSR          0.8492      Database    -16.8736    1454.7630   ✓       ✓
+120   LGAPQQPGPGPPPSR          0.8492      Database    -16.9410    1454.7630   ✓       ✓
+121   LGAPQQPGPGPPPSR          0.8492      Database    -16.9884    1454.7630   ✓       ✓
+122   LGAPQQPGPGPPPSR          0.8492      Database    -17.0587    1454.7630   ✓       ✓
+123   LGAPQQPGPGPPPSR          0.8492      Database    -17.0979    1454.7630   ✓       ✓
+124   LGAPQQPGPGPPPSR          0.8492      Database    -17.1343    1454.7630   ✓       ✓
+125   LGAPQQPGPGPPPSR          0.8492      Database    -17.1380    1454.7630   ✓       ✓
+126   LGAPQQPGPGPPPSR          0.8492      Database    -17.1391    1454.7630   ✓       ✓
+127   LGAPQQPGPGPPPSR          0.8492      Database    -17.1642    1454.7630   ✓       ✓
+128   LGAPQQPGPGPPPSR          0.8492      Database    -17.1849    1454.7630   ✓       ✓
+129   LGAPQQPGPGPPPSR          0.8492      Database    -17.2058    1454.7630   ✓       ✓
+130   LGAPQQPGPGPPPSR          0.8492      Database    -17.2105    1454.7630   ✓       ✓
+131   LGAPQQPGPGPPPSR          0.8492      Database    -17.2191    1454.7630   ✓       ✓
+132   LGAPQQPGPGPPPSR          0.8492      Database    -17.2362    1454.7630   ✓       ✓
+133   LGAPQQPGPGPPPSR          0.8492      Database    -17.2516    1454.7630   ✓       ✓
+134   LGAPQQPGPGPPPSR          0.8492      Database    -17.2904    1454.7630   ✓       ✓
+135   LGAPQQPGPGPPPSR          0.8492      Database    -17.3032    1454.7630   ✓       ✓
+136   LGAPQQPGPGPPPSR          0.8492      Database    -17.3407    1454.7630   ✓       ✓
+137   LGAPQQPGPGPPPSR          0.8492      Database    -17.3621    1454.7630   ✓       ✓
+138   LGAPQQPGPGPPPSR          0.8492      Database    -17.3751    1454.7630   ✓       ✓
+139   LGAPQQPGPGPPPSR          0.8492      Database    -17.4029    1454.7630   ✓       ✓
+140   LGAPQQPGPGPPPSR          0.8492      Database    -17.4076    1454.7630   ✓       ✓
+141   LGAPQQPGPGPPPSR          0.8492      Database    -17.4200    1454.7630   ✓       ✓
+142   LGAPQQPGPGPPPSR          0.8492      Database    -17.4293    1454.7630   ✓       ✓
+143   LGAPQQPGPGPPPSR          0.8492      Database    -17.5137    1454.7630   ✓       ✓
+144   LGAPQQPGPGPPPSR          0.8492      Database    -17.5465    1454.7630   ✓       ✓
+145   LGAPQQPGPGPPPSR          0.8492      Database    -17.7155    1454.7630   ✓       ✓
+146   LGAPQQPGPGPPPSR          0.8492      Database    -17.7711    1454.7630   ✓       ✓
+147   LGAPQQPGPGPPPSR          0.8492      Database    -17.7858    1454.7630   ✓       ✓
+148   LGAPQQPGPGPPPSR          0.8492      Database    -17.8483    1454.7630   ✓       ✓
+149   LGAPQQPGPGPPPSR          0.8492      Database    -17.8613    1454.7630   ✓       ✓
+150   LGAPQQPGPGPPPSR          0.8492      Database    -17.8661    1454.7630   ✓       ✓
+151   LGAPQQPGPGPPPSR          0.8492      Database    -17.8913    1454.7630   ✓       ✓
+152   LGAPQQPGPGPPPSR          0.8492      Database    -17.9119    1454.7630   ✓       ✓
+153   LGAPQQPGPGPPPSR          0.8492      Database    -17.9155    1454.7630   ✓       ✓
+154   LGAPQQPGPGPPPSR          0.8492      Database    -17.9161    1454.7630   ✓       ✓
+155   LGAPQQPGPGPPPSR          0.8492      Database    -17.9296    1454.7630   ✓       ✓
+156   LGAPQQPGPGPPPSR          0.8492      Database    -17.9461    1454.7630   ✓       ✓
+157   LGAPQQPGPGPPPSR          0.8492      Database    -17.9787    1454.7630   ✓       ✓
+158   LGAPQQPGPGPPPSR          0.8492      Database    -17.9873    1454.7630   ✓       ✓
+159   LGAPQQPGPGPPPSR          0.8492      Database    -18.0174    1454.7630   ✓       ✓
+160   LGAPQQPGPGPPPSR          0.8492      Database    -18.0281    1454.7630   ✓       ✓
+161   LGAPQQPGPGPPPSR          0.8492      Database    -18.0302    1454.7630   ✓       ✓
+162   LGAPQQPGPGPPPSR          0.8492      Database    -18.0327    1454.7630   ✓       ✓
+163   LGAPQQPGPGPPPSR          0.8492      Database    -18.0409    1454.7630   ✓       ✓
+164   LGAPQQPGPGPPPSR          0.8492      Database    -18.0426    1454.7630   ✓       ✓
+165   LGAPQQPGPGPPPSR          0.8492      Database    -18.0674    1454.7630   ✓       ✓
+166   LGAPQQPGPGPPPSR          0.8492      Database    -18.0677    1454.7630   ✓       ✓
+167   LGAPQQPGPGPPPSR          0.8492      Database    -18.0892    1454.7630   ✓       ✓
+168   LGAPQQPGPGPPPSR          0.8492      Database    -18.1300    1454.7630   ✓       ✓
+169   LGAPQQPGPGPPPSR          0.8492      Database    -18.1346    1454.7630   ✓       ✓
+170   LGAPQQPGPGPPPSR          0.8492      Database    -18.1352    1454.7630   ✓       ✓
+171   LGAPQQPGPGPPPSR          0.8492      Database    -18.1385    1454.7630   ✓       ✓
+172   LGAPQQPGPGPPPSR          0.8492      Database    -18.1470    1454.7630   ✓       ✓
+173   LGAPQQPGPGPPPSR          0.8492      Database    -18.1563    1454.7630   ✓       ✓
+174   LGAPQQPGPGPPPSR          0.8492      Database    -18.1798    1454.7630   ✓       ✓
+175   LGAPQQPGPGPPPSR          0.8492      Database    -18.2735    1454.7630   ✓       ✓
+176   LGAPQQPGPGPPPSR          0.8492      Database    -18.4283    1454.7630   ✓       ✓
+177   LGAPQQPGPGPPPSR          0.8492      Database    -18.4981    1454.7630   ✓       ✓
+178   LGAPQQPGPGPPPSR          0.8492      Database    -18.5673    1454.7630   ✓       ✓
+179   LGAPQQPGPGPPPSR          0.8492      Database    -18.5754    1454.7630   ✓       ✓
+180   LGAPQQPGPGPPPSR          0.8492      Database    -18.6426    1454.7630   ✓       ✓
+181   LGAPQQPGPGPPPSR          0.8492      Database    -18.6566    1454.7630   ✓       ✓
+182   LGAPQQPGPGPPPSR          0.8492      Database    -18.6660    1454.7630   ✓       ✓
+183   LGAPQQPGPGPPPSR          0.8492      Database    -18.6884    1454.7630   ✓       ✓
+184   LGAPQQPGPGPPPSR          0.8492      Database    -18.7102    1454.7630   ✓       ✓
+185   LGAPQQPGPGPPPSR          0.8492      Database    -18.7143    1454.7630   ✓       ✓
+186   LGAPQQPGPGPPPSR          0.8492      Database    -18.7551    1454.7630   ✓       ✓
+187   LGAPQQPGPGPPPSR          0.8492      Database    -18.7598    1454.7630   ✓       ✓
+188   LGAPQQPGPGPPPSR          0.8492      Database    -18.7679    1454.7630   ✓       ✓
+189   LGAPQQPGPGPPPSR          0.8492      Database    -18.7697    1454.7630   ✓       ✓
+190   LGAPQQPGPGPPPSR          0.8492      Database    -18.7896    1454.7630   ✓       ✓
+191   LGAPQQPGPGPPPSR          0.8492      Database    -18.7907    1454.7630   ✓       ✓
+192   LGAPQQPGPGPPPSR          0.8492      Database    -18.7945    1454.7630   ✓       ✓
+193   LGAPQQPGPGPPPSR          0.8492      Database    -18.7989    1454.7630   ✓       ✓
+194   LGAPQQPGPGPPPSR          0.8492      Database    -18.8356    1454.7630   ✓       ✓
+195   LGAPQQPGPGPPPSR          0.8492      Database    -18.8492    1454.7630   ✓       ✓
+196   LGAPQQPGPGPPPSR          0.8492      Database    -18.8622    1454.7630   ✓       ✓
+197   LGAPQQPGPGPPPSR          0.8492      Database    -18.8656    1454.7630   ✓       ✓
+198   LGAPQQPGPGPPPSR          0.8492      Database    -18.8944    1454.7630   ✓       ✓
+199   LGAPQQPGPGPPPSR          0.8492      Database    -18.9068    1454.7630   ✓       ✓
+200   LGAPQQPGPGPPPSR          0.8492      Database    -18.9285    1454.7630   ✓       ✓
+201   LGAPQQPGPGPPPSR          0.8492      Database    -18.9310    1454.7630   ✓       ✓
+202   LGAPQQPGPGPPPSR          0.8492      Database    -18.9499    1454.7630   ✓       ✓
+203   LGAPQQPGPGPPPSR          0.8492      Database    -18.9820    1454.7630   ✓       ✓
+204   LGAPQQPGPGPPPSR          0.8492      Database    -18.9869    1454.7630   ✓       ✓
+205   LGAPQQPGPGPPPSR          0.8492      Database    -19.0535    1454.7630   ✓       ✓
+206   LGAPQQPGPGPPPSR          0.8492      Database    -19.1258    1454.7630   ✓       ✓
+207   LGAPQQPGPGPPPSR          0.8492      Database    -19.1554    1454.7630   ✓       ✓
+208   LGAPQQPGPGPPPSR          0.8492      Database    -19.2769    1454.7630   ✓       ✓
+209   LGAPQQPGPGPPPSR          0.8492      Database    -19.2851    1454.7630   ✓       ✓
+210   LGAPQQPGPGPPPSR          0.8492      Database    -19.2943    1454.7630   ✓       ✓
+211   LGAPQQPGPGPPPSR          0.8492      Database    -19.2992    1454.7630   ✓       ✓
+212   LGAPQQPGPGPPPSR          0.8492      Database    -19.3087    1454.7630   ✓       ✓
+213   LGAPQQPGPGPPPSR          0.8492      Database    -19.3354    1454.7630   ✓       ✓
+214   LGAPQQPGPGPPPSR          0.8492      Database    -19.3476    1454.7630   ✓       ✓
+215   LGAPQQPGPGPPPSR          0.8492      Database    -19.3930    1454.7630   ✓       ✓
+216   LGAPQQPGPGPPPSR          0.8492      Database    -19.3976    1454.7630   ✓       ✓
+217   LGAPQQPGPGPPPSR          0.8492      Database    -19.4147    1454.7630   ✓       ✓
+218   LGAPQQPGPGPPPSR          0.8492      Database    -19.4150    1454.7630   ✓       ✓
+219   LGAPQQPGPGPPPSR          0.8492      Database    -19.4155    1454.7630   ✓       ✓
+220   LGAPQQPGPGPPPSR          0.8492      Database    -19.4240    1454.7630   ✓       ✓
+221   LGAPQQPGPGPPPSR          0.8492      Database    -19.4373    1454.7630   ✓       ✓
+222   LGAPQQPGPGPPPSR          0.8492      Database    -19.4381    1454.7630   ✓       ✓
+223   LGAPQQPGPGPPPSR          0.8492      Database    -19.4458    1454.7630   ✓       ✓
+224   LGAPQQPGPGPPPSR          0.8492      Database    -19.4476    1454.7630   ✓       ✓
+225   LGAPQQPGPGPPPSR          0.8492      Database    -19.5166    1454.7630   ✓       ✓
+226   LGAPQQPGPGPPPSR          0.8492      Database    -19.5178    1454.7630   ✓       ✓
+227   LGAPQQPGPGPPPSR          0.8492      Database    -19.5259    1454.7630   ✓       ✓
+228   LGAPQQPGPGPPPSR          0.8492      Database    -19.5589    1454.7630   ✓       ✓
+229   LGAPQQPGPGPPPSR          0.8492      Database    -19.5627    1454.7630   ✓       ✓
+230   LGAPQQPGPGPPPSR          0.8492      Database    -19.5719    1454.7630   ✓       ✓
+231   LGAPQQPGPGPPPSR          0.8492      Database    -19.5762    1454.7630   ✓       ✓
+232   LGAPQQPGPGPPPSR          0.8492      Database    -19.6103    1454.7630   ✓       ✓
+233   LGAPQQPGPGPPPSR          0.8492      Database    -19.6120    1454.7630   ✓       ✓
+234   LGAPQQPGPGPPPSR          0.8492      Database    -19.6215    1454.7630   ✓       ✓
+235   LGAPQQPGPGPPPSR          0.8492      Database    -19.6437    1454.7630   ✓       ✓
+236   LGAPQQPGPGPPPSR          0.8492      Database    -19.6555    1454.7630   ✓       ✓
+237   LGAPQQPGPGPPPSR          0.8492      Database    -19.6581    1454.7630   ✓       ✓
+238   LGAPQQPGPGPPPSR          0.8492      Database    -19.6770    1454.7630   ✓       ✓
+239   LGAPQQPGPGPPPSR          0.8492      Database    -19.6845    1454.7630   ✓       ✓
+240   LGAPQQPGPGPPPSR          0.8492      Database    -19.6891    1454.7630   ✓       ✓
+241   LGAPQQPGPGPPPSR          0.8492      Database    -19.7091    1454.7630   ✓       ✓
+242   LGAPQQPGPGPPPSR          0.8492      Database    -19.7102    1454.7630   ✓       ✓
+243   LGAPQQPGPGPPPSR          0.8492      Database    -19.7139    1454.7630   ✓       ✓
+244   LGAPQQPGPGPPPSR          0.8492      Database    -19.7805    1454.7630   ✓       ✓
+245   LGAPQQPGPGPPPSR          0.8492      Database    -19.8491    1454.7630   ✓       ✓
+246   LGAPQQPGPGPPPSR          0.8492      Database    -19.8529    1454.7630   ✓       ✓
+247   LGAPQQPGPGPPPSR          0.8492      Database    -19.9243    1454.7630   ✓       ✓
+248   LGAPQQPGPGPPPSR          0.8492      Database    -19.9338    1454.7630   ✓       ✓
+249   LGAPQQPGPGPPPSR          0.8492      Database    -19.9877    1454.7630   ✓       ✓
+250   LGAPQQPGPGPPPSR          0.8492      Database    -20.0040    1454.7630   ✓       ✓
+251   LGAPQQPGPGPPPSR          0.8492      Database    -20.0121    1454.7630   ✓       ✓
+252   LGAPQQPGPGPPPSR          0.8492      Database    -20.0262    1454.7630   ✓       ✓
+253   LGAPQQPGPGPPPSR          0.8492      Database    -20.0624    1454.7630   ✓       ✓
+254   LGAPQQPGPGPPPSR          0.8492      Database    -20.0747    1454.7630   ✓       ✓
+255   LGAPQQPGPGPPPSR          0.8492      Database    -20.1247    1454.7630   ✓       ✓
+256   LGAPQQPGPGPPPSR          0.8492      Database    -20.1299    1454.7630   ✓       ✓
+257   LGAPQQPGPGPPPSR          0.8492      Database    -20.1417    1454.7630   ✓       ✓
+258   LGAPQQPGPGPPPSR          0.8492      Database    -20.1421    1454.7630   ✓       ✓
+259   LGAPQQPGPGPPPSR          0.8492      Database    -20.1511    1454.7630   ✓       ✓
+260   LGAPQQPGPGPPPSR          0.8492      Database    -20.1652    1454.7630   ✓       ✓
+261   LGAPQQPGPGPPPSR          0.8492      Database    -20.1729    1454.7630   ✓       ✓
+262   LGAPQQPGPGPPPSR          0.8492      Database    -20.1895    1454.7630   ✓       ✓
+263   LGAPQQPGPGPPPSR          0.8492      Database    -20.2140    1454.7630   ✓       ✓
+264   LGAPQQPGPGPPPSR          0.8492      Database    -20.2640    1454.7630   ✓       ✓
+265   LGAPQQPGPGPPPSR          0.8492      Database    -20.2724    1454.7630   ✓       ✓
+266   LGAPQQPGPGPPPSR          0.8492      Database    -20.2860    1454.7630   ✓       ✓
+267   LGAPQQPGPGPPPSR          0.8492      Database    -20.2990    1454.7630   ✓       ✓
+268   LGAPQQPGPGPPPSR          0.8492      Database    -20.3224    1454.7630   ✓       ✓
+269   LGAPQQPGPGPPPSR          0.8492      Database    -20.3353    1454.7630   ✓       ✓
+270   LGAPQQPGPGPPPSR          0.8492      Database    -20.3374    1454.7630   ✓       ✓
+271   LGAPQQPGPGPPPSR          0.8492      Database    -20.3391    1454.7630   ✓       ✓
+272   LGAPQQPGPGPPPSR          0.8492      Database    -20.3401    1454.7630   ✓       ✓
+273   LGAPQQPGPGPPPSR          0.8492      Database    -20.3653    1454.7630   ✓       ✓
+274   LGAPQQPGPGPPPSR          0.8492      Database    -20.3708    1454.7630   ✓       ✓
+275   LGAPQQPGPGPPPSR          0.8492      Database    -20.3849    1454.7630   ✓       ✓
+276   LGAPQQPGPGPPPSR          0.8492      Database    -20.3859    1454.7630   ✓       ✓
+277   LGAPQQPGPGPPPSR          0.8492      Database    -20.4030    1454.7630   ✓       ✓
+278   LGAPQQPGPGPPPSR          0.8492      Database    -20.4116    1454.7630   ✓       ✓
+279   LGAPQQPGPGPPPSR          0.8492      Database    -20.4162    1454.7630   ✓       ✓
+280   LGAPQQPGPGPPPSR          0.8492      Database    -20.4201    1454.7630   ✓       ✓
+281   LGAPQQPGPGPPPSR          0.8492      Database    -20.4372    1454.7630   ✓       ✓
+282   LGAPQQPGPGPPPSR          0.8492      Database    -20.4527    1454.7630   ✓       ✓
+283   LGAPQQPGPGPPPSR          0.8492      Database    -20.4573    1454.7630   ✓       ✓
+284   +42.011GAPQQPGPQPPPSR    0.6378      Prosit      -25.5417    1454.7266   ✓       
+285   +42.011GAPQQPGPQPPPSR    0.6378      Prosit      -26.2688    1454.7266   ✓       
+286   VAAPQQPGPGPPPSR          0.6373      Prosit      -25.5211    1454.7630   ✓       
+287   VAAPQQPGPGPPPSR          0.6373      Prosit      -26.2481    1454.7630   ✓       
+288   +42.011GAAPQQPGPGPPPSR   0.6286      Prosit      -25.4789    1454.7266   ✓       
+289   +42.011GAAPQQPGPGPPPSR   0.6286      Prosit      -26.2060    1454.7266   ✓       
+290   LGAPQKPGPGPPPSR          0.6101      Prosit      -11.1422    1454.7994   ✓       
+291   LGAPQKPGPGPPPSR          0.6101      Prosit      -11.8693    1454.7994   ✓       
+292   LGAPQKPGPGPPPSR          0.6101      Prosit      -14.3433    1454.7994   ✓       
+293   LGAPQKPGPGPPPSR          0.6101      Prosit      -15.0703    1454.7994   ✓       
+294   LGAPQKPGPGPPPSR          0.6101      Prosit      -15.7129    1454.7994   ✓       
+295   LGAPQKPGPGPPPSR          0.6101      Prosit      -15.8518    1454.7994   ✓       
+296   LGAPQKPGPGPPPSR          0.6101      Prosit      -16.3380    1454.7994   ✓       
+297   LGAPQKPGPGPPPSR          0.6101      Prosit      -16.4399    1454.7994   ✓       
+298   LGAPQKPGPGPPPSR          0.6101      Prosit      -16.5789    1454.7994   ✓       
+299   LGAPQKPGPGPPPSR          0.6101      Prosit      -17.0651    1454.7994   ✓       
+300   LGAPQKPGPGPPPSR          0.6101      Prosit      -17.9945    1454.7994   ✓       
+301   LGAPQKPGPGPPPSR          0.6101      Prosit      -18.7215    1454.7994   ✓       
+302   LGAPQKPGPGPPPSR          0.6101      Prosit      -18.7627    1454.7994   ✓       
+303   LGAPQKPGPGPPPSR          0.6101      Prosit      -18.9139    1454.7994   ✓       
+304   LGAPQKPGPGPPPSR          0.6101      Prosit      -19.0529    1454.7994   ✓       
+305   LGAPQKPGPGPPPSR          0.6101      Prosit      -19.4897    1454.7994   ✓       
+306   LGAPQKPGPGPPPSR          0.6101      Prosit      -19.5391    1454.7994   ✓       
+307   LGAPQKPGPGPPPSR          0.6101      Prosit      -19.6410    1454.7994   ✓       
+308   LGAPQKPGPGPPPSR          0.6101      Prosit      -19.7799    1454.7994   ✓       
+309   LGAPQKPGPGPPPSR          0.6101      Prosit      -20.1994    1454.7994   ✓       
+310   LGAPQKPGPGPPPSR          0.6101      Prosit      -20.2661    1454.7994   ✓       
+311   LGAPQKPGPGPPPSR          0.6101      Prosit      -20.3120    1454.7994   ✓       
+312   LGAPQKPGPGPPPSR          0.6101      Prosit      -20.4225    1454.7994   ✓       
+313   LGAPQQPGPGPPPS           -1.0000     NotChecked  -11.6058    1298.6619   ✗       
+314   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -12.2329    1383.6895   ✗       
+315   LGAPQQPGPGPPPS           -1.0000     NotChecked  -12.3329    1298.6619   ✗       
+316   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -12.4460    1412.7161   ✗       
+317   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -12.9600    1383.6895   ✗       
+318   LGAPAQPGPGPPPSR          -1.0000     NotChecked  -13.1077    1397.7415   ✗       
+319   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -13.1730    1412.7161   ✗       
+320   LGAPQQPGPGPPSSR          -1.0000     NotChecked  -13.1884    1444.7423   ✗       
+321   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -13.3140    1440.7474   ✗       
+322   LGAPQQPGPGPPPR           -1.0000     NotChecked  -13.3330    1367.7310   ✗       
+323   LGAPQQPGPPPPSR           -1.0000     NotChecked  -13.6692    1397.7415   ✗       
+324   LGAPAQPGPGPPPSR          -1.0000     NotChecked  -13.8347    1397.7415   ✗       
+325   LGAPQQPGPGPPSSR          -1.0000     NotChecked  -13.9155    1444.7423   ✗       
+326   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -14.0411    1440.7474   ✗       
+327   LGAPQQPGPGPPPR           -1.0000     NotChecked  -14.0601    1367.7310   ✗       
+328   LGAPQNPGPGPPPSR          -1.0000     NotChecked  -14.3701    1440.7474   ✗       
+329   LAPQQPGPGPPPSR           -1.0000     NotChecked  -14.3793    1397.7416   ✗       
+330   LGAPQQPGPPPPSR           -1.0000     NotChecked  -14.3963    1397.7415   ✗       
+331   LGAPQAPGPGPPPSR          -1.0000     NotChecked  -14.6954    1397.7415   ✗       
+332   LGAPKQPGPGPPPSR          -1.0000     Failed      -14.7627    1454.7994   ✓       
+333   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -14.7690    1384.6848   ✗       
+334   LGAPQQPGPGPPPS           -1.0000     NotChecked  -14.8069    1298.6619   ✗       
+335   LGPQQPGPGPPPSR           -1.0000     NotChecked  -14.8343    1383.7259   ✗       
+336   LGAPQSPGPGPPPSR          -1.0000     NotChecked  -14.9285    1413.7365   ✗       
+337   GGAPQQPGPGPPPSR          -1.0000     NotChecked  -15.0679    1398.7004   ✗       
+338   LGAPQNPGPGPPPSR          -1.0000     NotChecked  -15.0971    1440.7474   ✗       
+339   LAPQQPGPGPPPSR           -1.0000     NotChecked  -15.1063    1397.7416   ✗       
+340   LGAPLQPGPGPPPSR          -1.0000     NotChecked  -15.3250    1439.7885   ✗       
+341   LGAPQQPGPGPPPSK          -1.0000     NotChecked  -15.3524    1426.7569   ✗       
+342   LGAPQQPGAGPPPSR          -1.0000     NotChecked  -15.3804    1428.7474   ✗       
+343   LGAPQAPGPGPPPSR          -1.0000     NotChecked  -15.4225    1397.7415   ✗       
+344   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -15.4340    1383.6895   ✗       
+345   LGAPKQPGPGPPPSR          -1.0000     Failed      -15.4897    1454.7994   ✓       
+346   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -15.4961    1384.6848   ✗       
+347   LGAPQQPGPGPPPS           -1.0000     NotChecked  -15.5340    1298.6619   ✗       
+348   LGPQQPGPGPPPSR           -1.0000     NotChecked  -15.5614    1383.7259   ✗       
+349   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -15.6470    1412.7161   ✗       
+350   LGAPQSPGPGPPPSR          -1.0000     NotChecked  -15.6556    1413.7365   ✗       
+351   LGAPQQPGPGPPPST          -1.0000     NotChecked  -15.6831    1399.7096   ✗       
+352   LGAPQQPGPGPAPSR          -1.0000     NotChecked  -15.7383    1428.7474   ✗       
+353   GGAPQQPGPGPPPSR          -1.0000     NotChecked  -15.7950    1398.7004   ✗       
+354   LGAPQQPGPGPPPSP          -1.0000     NotChecked  -15.8680    1395.7147   ✗       
+355   LGAPQQPGPGPPGSR          -1.0000     NotChecked  -16.0184    1414.7317   ✗       
+356   LGAPLQPGPGPPPSR          -1.0000     NotChecked  -16.0520    1439.7885   ✗       
+357   LGAPQQAGPGPPPSR          -1.0000     NotChecked  -16.0788    1428.7474   ✗       
+358   LGAPQQPGPGPPPSK          -1.0000     NotChecked  -16.0794    1426.7569   ✗       
+359   LGAPQQPGAGPPPSR          -1.0000     NotChecked  -16.1075    1428.7474   ✗       
+360   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -16.1610    1383.6895   ✗       
+361   LGAPQQPGPGPPPS           -1.0000     NotChecked  -16.1765    1298.6619   ✗       
+362   LGAPAQPGPGPPPSR          -1.0000     NotChecked  -16.3087    1397.7415   ✗       
+363   LGAPQQPGPGPPPS           -1.0000     NotChecked  -16.3154    1298.6619   ✗       
+364   LGAPQQPGPGPSPSR          -1.0000     NotChecked  -16.3349    1444.7423   ✗       
+365   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -16.3741    1412.7161   ✗       
+366   LGAPQQPGPGPPSSR          -1.0000     NotChecked  -16.3895    1444.7423   ✗       
+367   LGAPQQPGPGPPPST          -1.0000     NotChecked  -16.4101    1399.7096   ✗       
+368   LGAPQQPGPGAPPSR          -1.0000     NotChecked  -16.4325    1428.7474   ✗       
+369   LGAPQQPGPGPAPSR          -1.0000     NotChecked  -16.4653    1428.7474   ✗       
+370   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -16.5151    1440.7474   ✗       
+371   LGAPQQPGPGPPPR           -1.0000     NotChecked  -16.5341    1367.7310   ✗       
+372   LGAPQQPGPGPPASR          -1.0000     NotChecked  -16.5511    1428.7474   ✗       
+373   LGAPQQPGPGPPPSP          -1.0000     NotChecked  -16.5950    1395.7147   ✗       
+374   LGAPQQPGPGPPPSD          -1.0000     NotChecked  -16.6099    1413.6888   ✗       
+375   LGAPQQPPGPPPSR           -1.0000     NotChecked  -16.6713    1397.7415   ✗       
+376   LGAPQQPGPGPPPSV          -1.0000     NotChecked  -16.6782    1397.7303   ✗       
+377   LGAPSQPGPGPPPSR          -1.0000     NotChecked  -16.7332    1413.7365   ✗       
+378   LGAPQTPGPGPPPSR          -1.0000     NotChecked  -16.7406    1427.7521   ✗       
+379   LGAPQQPGPGPPGSR          -1.0000     NotChecked  -16.7455    1414.7317   ✗       
+380   LGAPQQPGPGPPPSE          -1.0000     NotChecked  -16.7464    1427.7045   ✗       
+381   LGAPQQPGPGPPPS           -1.0000     NotChecked  -16.8016    1298.6619   ✗       
+382   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -16.8036    1383.6895   ✗       
+383   TGAPQQPGPGPPPSR          -1.0000     NotChecked  -16.8289    1442.7266   ✗       
+384   LGAPQQPGPPPPSR           -1.0000     NotChecked  -16.8703    1397.7415   ✗       
+385   LGAPQQPGPGPPPR           -1.0000     NotChecked  -16.8851    1367.7310   ✗       
+386   LGAPQQPGPGPPPS           -1.0000     NotChecked  -16.9035    1298.6619   ✗       
+387   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -16.9425    1383.6895   ✗       
+388   LGAPQLPGPGPPPSR          -1.0000     NotChecked  -16.9473    1439.7885   ✗       
+389   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -17.0166    1412.7161   ✗       
+390   LGAPAQPGPGPPPSR          -1.0000     NotChecked  -17.0358    1397.7415   ✗       
+391   LGAPQQPGPGPPPS           -1.0000     NotChecked  -17.0425    1298.6619   ✗       
+392   LGAPQQPGPGPSPSR          -1.0000     NotChecked  -17.0619    1444.7423   ✗       
+393   LGAPQQPGPGPPSSR          -1.0000     NotChecked  -17.1166    1444.7423   ✗       
+394   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -17.1556    1412.7161   ✗       
+395   LGAPQQPGPGAPPSR          -1.0000     NotChecked  -17.1595    1428.7474   ✗       
+396   LGAPQQGPGPPPSR           -1.0000     NotChecked  -17.1891    1357.7102   ✗       
+397   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -17.2421    1440.7474   ✗       
+398   LGAPQQPGPGPPPR           -1.0000     NotChecked  -17.2611    1367.7310   ✗       
+399   LGAPQQPGPGPPASR          -1.0000     NotChecked  -17.2782    1428.7474   ✗       
+400   LGAPQQPGSGPPPSR          -1.0000     NotChecked  -17.2807    1444.7423   ✗       
+401   LGAPTQPGPGPPPSR          -1.0000     NotChecked  -17.2852    1427.7521   ✗       
+402   LGAPQQPGPGPPPSD          -1.0000     NotChecked  -17.3369    1413.6888   ✗       
+403   LGAPQQPPGPPPSR           -1.0000     NotChecked  -17.3983    1397.7415   ✗       
+404   LGAPQQPGPGPPPSV          -1.0000     NotChecked  -17.4053    1397.7303   ✗       
+405   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -17.4287    1383.6895   ✗       
+406   LGAPSQPGPGPPPSR          -1.0000     NotChecked  -17.4602    1413.7365   ✗       
+407   LGAPQTPGPGPPPSR          -1.0000     NotChecked  -17.4676    1427.7521   ✗       
+408   LGAPQQPGPGPPPSE          -1.0000     NotChecked  -17.4735    1427.7045   ✗       
+409   LGAPQQPGPGPPPS           -1.0000     NotChecked  -17.5287    1298.6619   ✗       
+410   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -17.5306    1383.6895   ✗       
+411   TGAPQQPGPGPPPSR          -1.0000     NotChecked  -17.5559    1442.7266   ✗       
+412   LGAPQNPGPGPPPSR          -1.0000     NotChecked  -17.5711    1440.7474   ✗       
+413   LAPQQPGPGPPPSR           -1.0000     NotChecked  -17.5803    1397.7416   ✗       
+414   LGAPQQPGPPPPSR           -1.0000     NotChecked  -17.5973    1397.7415   ✗       
+415   LGAPQQPGPGPPPR           -1.0000     NotChecked  -17.6121    1367.7310   ✗       
+416   LGAPQQPGPGPPPAR          -1.0000     NotChecked  -17.6194    1438.7681   ✗       
+417   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -17.6418    1412.7161   ✗       
+418   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -17.6696    1383.6895   ✗       
+419   LGAPQLPGPGPPPSR          -1.0000     NotChecked  -17.6744    1439.7885   ✗       
+420   LGAPAQPGPGPPPSR          -1.0000     NotChecked  -17.6783    1397.7415   ✗       
+421   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -17.7437    1412.7161   ✗       
+422   LGAPQQPGPGPPSSR          -1.0000     NotChecked  -17.7591    1444.7423   ✗       
+423   LGAQQPGPGPPPSR           -1.0000     NotChecked  -17.7894    1357.7103   ✗       
+424   LGAPAQPGPGPPPSR          -1.0000     NotChecked  -17.8173    1397.7415   ✗       
+425   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -17.8826    1412.7161   ✗       
+426   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -17.8847    1440.7474   ✗       
+427   LGAPQAPGPGPPPSR          -1.0000     NotChecked  -17.8965    1397.7415   ✗       
+428   LGAPQQPGPGPPSR           -1.0000     NotChecked  -17.8980    1357.7102   ✗       
+429   LGAPQQPGPGPPPR           -1.0000     NotChecked  -17.9037    1367.7310   ✗       
+430   LGAPQQPGPGPPPGR          -1.0000     NotChecked  -17.9237    1424.7524   ✗       
+431   LGAPKQPGPGPPPSR          -1.0000     Failed      -17.9638    1454.7994   ✓       
+432   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -17.9701    1384.6848   ✗       
+433   LGAPQQPGSGPPPSR          -1.0000     NotChecked  -18.0078    1444.7423   ✗       
+434   LGAPTQPGPGPPPSR          -1.0000     NotChecked  -18.0122    1427.7521   ✗       
+435   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -18.0236    1440.7474   ✗       
+436   LGPQQPGPGPPPSR           -1.0000     NotChecked  -18.0354    1383.7259   ✗       
+437   LGAPQQPGPGSPPSR          -1.0000     NotChecked  -18.1219    1444.7423   ✗       
+438   LGAPQSPGPGPPPSR          -1.0000     NotChecked  -18.1296    1413.7365   ✗       
+439   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -18.1558    1383.6895   ✗       
+440   LGAPQQPGPGPPPS           -1.0000     NotChecked  -18.1970    1298.6619   ✗       
+441   LGAPQQPGPPPPSR           -1.0000     NotChecked  -18.2399    1397.7415   ✗       
+442   GGAPQQPGPGPPPSR          -1.0000     NotChecked  -18.2690    1398.7004   ✗       
+443   LGAPQNPGPGPPPSR          -1.0000     NotChecked  -18.2982    1440.7474   ✗       
+444   LGAPAQPGPGPPPSR          -1.0000     NotChecked  -18.3035    1397.7415   ✗       
+445   LAPQQPGPGPPPSR           -1.0000     NotChecked  -18.3074    1397.7416   ✗       
+446   LGAPQQPGPGPPPAR          -1.0000     NotChecked  -18.3464    1438.7681   ✗       
+447   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -18.3688    1412.7161   ✗       
+448   LGAPQQPGPPPPSR           -1.0000     NotChecked  -18.3788    1397.7415   ✗       
+449   LGAPQQPGPGPPSSR          -1.0000     NotChecked  -18.3842    1444.7423   ✗       
+450   LGAPAQPGPGPPPSR          -1.0000     NotChecked  -18.4054    1397.7415   ✗       
+451   LGAPQQPGPGGPPSR          -1.0000     NotChecked  -18.4272    1414.7317   ✗       
+452   LGAPQQPGPGPPPSN          -1.0000     NotChecked  -18.4575    1412.7048   ✗       
+453   LGAPQQPGPGPPPS           -1.0000     NotChecked  -18.4581    1298.6619   ✗       
+454   LGAPQQPGPGPPSSR          -1.0000     NotChecked  -18.4862    1444.7423   ✗       
+455   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -18.5098    1440.7474   ✗       
+456   LGAQQPGPGPPPSR           -1.0000     NotChecked  -18.5164    1357.7103   ✗       
+457   LGAPLQPGPGPPPSR          -1.0000     NotChecked  -18.5260    1439.7885   ✗       
+458   LGAPQQPGPGPPPR           -1.0000     NotChecked  -18.5288    1367.7310   ✗       
+459   LGAPAQPGPGPPPSR          -1.0000     NotChecked  -18.5443    1397.7415   ✗       
+460   LGAPQQPGPGPPPSK          -1.0000     NotChecked  -18.5534    1426.7569   ✗       
+461   LGAPQQPGAGPPPSR          -1.0000     NotChecked  -18.5815    1428.7474   ✗       
+462   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -18.6117    1440.7474   ✗       
+463   LGAPQAPGPGPPPSR          -1.0000     NotChecked  -18.6236    1397.7415   ✗       
+464   LGAPQQPGPGPPSR           -1.0000     NotChecked  -18.6251    1357.7102   ✗       
+465   LGAPQQPGPGPPPR           -1.0000     NotChecked  -18.6307    1367.7310   ✗       
+466   LGAPQQPGPGPPPGR          -1.0000     NotChecked  -18.6508    1424.7524   ✗       
+467   LGAPKQPGPGPPPSR          -1.0000     Failed      -18.6908    1454.7994   ✓       
+468   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -18.6971    1384.6848   ✗       
+469   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -18.7507    1440.7474   ✗       
+470   LGPQQPGPGPPPSR           -1.0000     NotChecked  -18.7624    1383.7259   ✗       
+471   LGAPQQPGPGSPPSR          -1.0000     NotChecked  -18.8489    1444.7423   ✗       
+472   LGAPQSPGPGPPPSR          -1.0000     NotChecked  -18.8567    1413.7365   ✗       
+473   LGAPQQPGPPPPSR           -1.0000     NotChecked  -18.8650    1397.7415   ✗       
+474   LGAPQQPGPGPPPST          -1.0000     NotChecked  -18.8841    1399.7096   ✗       
+475   LGAAQQPGPGPPPSR          -1.0000     NotChecked  -18.9032    1428.7474   ✗       
+476   LGAPQQPGPGPPPS           -1.0000     NotChecked  -18.9240    1298.6619   ✗       
+477   LGAPQQPGPGPAPSR          -1.0000     NotChecked  -18.9393    1428.7474   ✗       
+478   LGAPQNPGPGPPPSR          -1.0000     NotChecked  -18.9407    1440.7474   ✗       
+479   LGAPQQPGPPPPSR           -1.0000     NotChecked  -18.9669    1397.7415   ✗       
+480   GGAPQQPGPGPPPSR          -1.0000     NotChecked  -18.9961    1398.7004   ✗       
+481   LGAPAQPGPGPPPSR          -1.0000     NotChecked  -19.0305    1397.7415   ✗       
+482   LGAPQQPGPGPPPSP          -1.0000     NotChecked  -19.0691    1395.7147   ✗       
+483   LGAPQNPGPGPPPSR          -1.0000     NotChecked  -19.0797    1440.7474   ✗       
+484   LAPQQPGPGPPPSR           -1.0000     NotChecked  -19.0889    1397.7416   ✗       
+485   LGAPQQPGPPPPSR           -1.0000     NotChecked  -19.1058    1397.7415   ✗       
+486   LGAPQQPGPGPPSSR          -1.0000     NotChecked  -19.1113    1444.7423   ✗       
+487   LGAPQQPGPGGPPSR          -1.0000     NotChecked  -19.1542    1414.7317   ✗       
+488   LGAPQQPGPGPPPSN          -1.0000     NotChecked  -19.1845    1412.7048   ✗       
+489   LGAPQQPGPGPPPS           -1.0000     NotChecked  -19.1851    1298.6619   ✗       
+490   LGAPQQPGPGPPGSR          -1.0000     NotChecked  -19.2195    1414.7317   ✗       
+491   LGAPQQPGPGPPPS           -1.0000     NotChecked  -19.2263    1298.6619   ✗       
+492   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -19.2369    1440.7474   ✗       
+493   LGAPLQPGPGPPPSR          -1.0000     NotChecked  -19.2531    1439.7885   ✗       
+494   LGAPQQPGPGPPPR           -1.0000     NotChecked  -19.2559    1367.7310   ✗       
+495   LGAPQAPGPGPPPSR          -1.0000     NotChecked  -19.2661    1397.7415   ✗       
+496   LGAPQQAGPGPPPSR          -1.0000     NotChecked  -19.2799    1428.7474   ✗       
+497   LGAPQQPGPGPPPSK          -1.0000     NotChecked  -19.2805    1426.7569   ✗       
+498   LGAPQQPGAGPPPSR          -1.0000     NotChecked  -19.3085    1428.7474   ✗       
+499   LGAPKQPGPGPPPSR          -1.0000     Failed      -19.3333    1454.7994   ✓       
+500   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -19.3397    1384.6848   ✗       
+501   LGAPQQPGPGPPPS           -1.0000     NotChecked  -19.3776    1298.6619   ✗       
+502   LGPQQPGPGPPPSR           -1.0000     NotChecked  -19.4050    1383.7259   ✗       
+503   LGAPQAPGPGPPPSR          -1.0000     NotChecked  -19.4050    1397.7415   ✗       
+504   LGAPKQPGPGPPPSR          -1.0000     Failed      -19.4723    1454.7994   ✓       
+505   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -19.4786    1384.6848   ✗       
+506   LGAPQSPGPGPPPSR          -1.0000     NotChecked  -19.4992    1413.7365   ✗       
+507   LGAPQQPGPGPPPS           -1.0000     NotChecked  -19.5165    1298.6619   ✗       
+508   LGAPQQPGPGPSPSR          -1.0000     NotChecked  -19.5359    1444.7423   ✗       
+509   LGPQQPGPGPPPSR           -1.0000     NotChecked  -19.5439    1383.7259   ✗       
+510   LGAPQ+0.984QPGPGPPPS     -1.0000     NotChecked  -19.5656    1299.6459   ✗       
+511   LGAPQNPGPGPPPSR          -1.0000     NotChecked  -19.5659    1440.7474   ✗       
+512   LAPQQPGPGPPPSR           -1.0000     NotChecked  -19.5751    1397.7416   ✗       
+513   LGAPQQPGPPPPSR           -1.0000     NotChecked  -19.5921    1397.7415   ✗       
+514   LGAPQQPGPGPPPST          -1.0000     NotChecked  -19.6112    1399.7096   ✗       
+515   LGAAQQPGPGPPPSR          -1.0000     NotChecked  -19.6303    1428.7474   ✗       
+516   LGAPQQPGPGAPPSR          -1.0000     NotChecked  -19.6335    1428.7474   ✗       
+517   LGAPQSPGPGPPPSR          -1.0000     NotChecked  -19.6381    1413.7365   ✗       
+518   GAPQQPGPGPPPSR           -1.0000     NotChecked  -19.6386    1341.6790   ✗       
+519   LGAPQQPGPGPAPSR          -1.0000     NotChecked  -19.6664    1428.7474   ✗       
+520   LGAPQNPGPGPPPSR          -1.0000     NotChecked  -19.6678    1440.7474   ✗       
+521   LGAPQQPGPGPGPSR          -1.0000     NotChecked  -19.6970    1414.7317   ✗       
+522   LGAPQQPGPGPPASR          -1.0000     NotChecked  -19.7522    1428.7474   ✗       
+523   GGAPQQPGPGPPPSR          -1.0000     NotChecked  -19.7775    1398.7004   ✗       
+524   LGAPQQPGPGPPPSP          -1.0000     NotChecked  -19.7961    1395.7147   ✗       
+525   LGAPQNPGPGPPPSR          -1.0000     NotChecked  -19.8067    1440.7474   ✗       
+526   LGAPQQPGPGPPPSD          -1.0000     NotChecked  -19.8109    1413.6888   ✗       
+527   LAPQQPGPGPPPSR           -1.0000     NotChecked  -19.8159    1397.7416   ✗       
+528   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -19.8534    1383.6895   ✗       
+529   LGAPQQPGPGPPPSV          -1.0000     NotChecked  -19.8793    1397.7303   ✗       
+530   LGAPQAPGPGPPPSR          -1.0000     NotChecked  -19.8912    1397.7415   ✗       
+531   LGAPLQPGPGPPPSR          -1.0000     NotChecked  -19.8956    1439.7885   ✗       
+532   LGAPQQPGPGPPPSK          -1.0000     NotChecked  -19.9230    1426.7569   ✗       
+533   LGAGQQPGPGPPPSR          -1.0000     NotChecked  -19.9268    1414.7317   ✗       
+534   LGAPSQPGPGPPPSR          -1.0000     NotChecked  -19.9343    1413.7365   ✗       
+535   LGAPQTPGPGPPPSR          -1.0000     NotChecked  -19.9416    1427.7521   ✗       
+536   LGAPQQPGPGPPGSR          -1.0000     NotChecked  -19.9465    1414.7317   ✗       
+537   LGAPQQPGPGPPPSE          -1.0000     NotChecked  -19.9475    1427.7045   ✗       
+538   LGAPQQPGAGPPPSR          -1.0000     NotChecked  -19.9511    1428.7474   ✗       
+539   LGAPQQPGPGPPPS           -1.0000     NotChecked  -19.9533    1298.6619   ✗       
+540   LGAPKQPGPGPPPSR          -1.0000     Failed      -19.9585    1454.7994   ✓       
+541   LGAPAQPGPGPPPSR          -1.0000     NotChecked  -19.9599    1397.7415   ✗       
+542   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -19.9648    1384.6848   ✗       
+543   LGAPQAPGPGPPPSR          -1.0000     NotChecked  -19.9931    1397.7415   ✗       
+544   LGAPQQPGPGPPPS           -1.0000     NotChecked  -20.0027    1298.6619   ✗       
+545   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -20.0046    1383.6895   ✗       
+546   TGAPQQPGPGPPPSR          -1.0000     NotChecked  -20.0299    1442.7266   ✗       
+547   LGPQQPGPGPPPSR           -1.0000     NotChecked  -20.0301    1383.7259   ✗       
+548   LGAPLQPGPGPPPSR          -1.0000     NotChecked  -20.0346    1439.7885   ✗       
+549   LGAPQQPGPGPPSSR          -1.0000     NotChecked  -20.0407    1444.7423   ✗       
+550   LGAPKQPGPGPPPSR          -1.0000     Failed      -20.0604    1454.7994   ✓       
+551   LGAPQQPGPGPPPSK          -1.0000     NotChecked  -20.0619    1426.7569   ✗       
+552   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -20.0664    1412.7161   ✗       
+553   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -20.0667    1384.6848   ✗       
+554   LGAPQQPGPGPPPR           -1.0000     NotChecked  -20.0861    1367.7310   ✗       
+555   LGAPQQPGAGPPPSR          -1.0000     NotChecked  -20.0900    1428.7474   ✗       
+556   LGAPQQPGPGPPPS           -1.0000     NotChecked  -20.1046    1298.6619   ✗       
+557   LGAPQSPGPGPPPSR          -1.0000     NotChecked  -20.1243    1413.7365   ✗       
+558   LGPQQPGPGPPPSR           -1.0000     NotChecked  -20.1320    1383.7259   ✗       
+559   LGAPQAPGPGPPPSR          -1.0000     NotChecked  -20.1321    1397.7415   ✗       
+560   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -20.1436    1383.6895   ✗       
+561   LGAPQLPGPGPPPSR          -1.0000     NotChecked  -20.1484    1439.7885   ✗       
+562   LGAPQQPGPGPPPR           -1.0000     NotChecked  -20.1853    1367.7310   ✗       
+563   +42.011GAPQ+0.984QPGPGPPPSR-1.0000     NotChecked  -20.1927    1384.6735   ✗       
+564   LGAPQQ+0.984PGPGPPPS     -1.0000     NotChecked  -20.1981    1299.6459   ✗       
+565   LGAPKQPGPGPPPSR          -1.0000     Failed      -20.1993    1454.7994   ✓       
+566   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -20.2056    1384.6848   ✗       
+567   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -20.2177    1412.7161   ✗       
+568   LGAPQSPGPGPPPSR          -1.0000     NotChecked  -20.2263    1413.7365   ✗       
+569   LGAPQQPGPGPPPS           -1.0000     NotChecked  -20.2435    1298.6619   ✗       
+570   LGAPQQPGPGPPPST          -1.0000     NotChecked  -20.2537    1399.7096   ✗       
+571   LGAPQQPGPGPSPSR          -1.0000     NotChecked  -20.2630    1444.7423   ✗       
+572   GGAPQQPGPGPPPSR          -1.0000     NotChecked  -20.2637    1398.7004   ✗       
+573   LGPQQPGPGPPPSR           -1.0000     NotChecked  -20.2710    1383.7259   ✗       
+574   LGAPQ+0.984QPGPGPPPS     -1.0000     NotChecked  -20.2927    1299.6459   ✗       
+575   LGAPQNPGPGPPPSR          -1.0000     NotChecked  -20.2929    1440.7474   ✗       
+576   LAPQQPGPGPPPSR           -1.0000     NotChecked  -20.3021    1397.7416   ✗       
+577   LGAPQQPGPGPAPSR          -1.0000     NotChecked  -20.3089    1428.7474   ✗       
+578   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -20.3566    1412.7161   ✗       
+579   LGAPQQPGPGAPPSR          -1.0000     NotChecked  -20.3606    1428.7474   ✗       
+580   LGAPQSPGPGPPPSR          -1.0000     NotChecked  -20.3652    1413.7365   ✗       
+581   GAPQQPGPGPPPSR           -1.0000     NotChecked  -20.3656    1341.6790   ✗       
+582   LGAPQQGPGPPPSR           -1.0000     NotChecked  -20.3902    1357.7102   ✗       
+583   LGAPQQPGPGPPPST          -1.0000     NotChecked  -20.3927    1399.7096   ✗       
+584   AGAPQ+0.984QPGPGPPPSR    -1.0000     NotChecked  -20.4058    1413.7001   ✗       
+585   LGAPQQPGPGPGPSR          -1.0000     NotChecked  -20.4241    1414.7317   ✗       
+586   LGAPQQPGPGPPPSP          -1.0000     NotChecked  -20.4386    1395.7147   ✗       
+587   LGAPQQPGPGPAPSR          -1.0000     NotChecked  -20.4478    1428.7474   ✗       
+588   GGAPQQPGPGPPPSR          -1.0000     NotChecked  -20.5046    1398.7004   ✗       
+589   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -20.5804    1383.6895   ✗       
+590   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -20.6298    1383.6895   ✗       
+591   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -20.6918    1384.6848   ✗       
+592   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -20.7317    1383.6895   ✗       
+593   TGAPQQPGPGPPPSR          -1.0000     NotChecked  -20.7570    1442.7266   ✗       
+594   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -20.7935    1412.7161   ✗       
+595   +42.011GAPQQ+0.984PGPGPPPSR-1.0000     NotChecked  -20.8252    1384.6735   ✗       
+596   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -20.8428    1412.7161   ✗       
+597   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -20.8706    1383.6895   ✗       
+598   +42.011GAPQ+0.984QPGPGPPPSR-1.0000     NotChecked  -20.9198    1384.6735   ✗       
+599   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -20.9345    1440.7474   ✗       
+600   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -20.9448    1412.7161   ✗       
+601   GGAPQQPGPGPPPSR          -1.0000     NotChecked  -20.9908    1398.7004   ✗       
+602   AGAPQQ+0.984PGPGPPPSR    -1.0000     NotChecked  -21.0383    1413.7001   ✗       
+603   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -21.0837    1412.7161   ✗       
+604   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -21.0857    1440.7474   ✗       
+605   AGAPQ+0.984QPGPGPPPSR    -1.0000     NotChecked  -21.1328    1413.7001   ✗       
+606   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -21.2247    1440.7474   ✗       
+607   VGAPQ+0.984QPGPGPPPSR    -1.0000     NotChecked  -21.2738    1441.7314   ✗       
+608   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -21.2901    1383.6895   ✗       
+609   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -21.3568    1383.6895   ✗       
+610   TGAPQQPGPGPPPSR          -1.0000     NotChecked  -21.3995    1442.7266   ✗       
+611   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -21.4027    1383.6895   ✗       
+612   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -21.5032    1412.7161   ✗       
+613   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -21.5132    1383.6895   ✗       
+614   TGAPQQPGPGPPPSR          -1.0000     NotChecked  -21.5384    1442.7266   ✗       
+615   +42.011GAPQQ+0.984PGPGPPPSR-1.0000     NotChecked  -21.5523    1384.6735   ✗       
+616   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -21.5699    1412.7161   ✗       
+617   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -21.6157    1412.7161   ✗       
+618   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -21.6615    1440.7474   ✗       
+619   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -21.7109    1440.7474   ✗       
+620   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -21.7262    1412.7161   ✗       
+621   AGAPQQ+0.984PGPGPPPSR    -1.0000     NotChecked  -21.7653    1413.7001   ✗       
+622   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -21.8128    1440.7474   ✗       
+623   VGAPQQ+0.984PGPGPPPSR    -1.0000     NotChecked  -21.9063    1441.7314   ✗       
+624   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -21.9517    1440.7474   ✗       
+625   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -21.9994    1383.6895   ✗       
+626   VGAPQ+0.984QPGPGPPPSR    -1.0000     NotChecked  -22.0008    1441.7314   ✗       
+627   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -22.0172    1383.6895   ✗       
+628   TGAPQQPGPGPPPSR          -1.0000     NotChecked  -22.0246    1442.7266   ✗       
+629   TGAPQQPGPGPPPSR          -1.0000     NotChecked  -22.1266    1442.7266   ✗       
+630   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -22.1297    1383.6895   ✗       
+631   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -22.1383    1383.6895   ✗       
+632   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -22.2124    1412.7161   ✗       
+633   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -22.2302    1412.7161   ✗       
+634   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -22.2402    1383.6895   ✗       
+635   TGAPQQPGPGPPPSR          -1.0000     NotChecked  -22.2655    1442.7266   ✗       
+636   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -22.3428    1412.7161   ✗       
+637   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -22.3514    1412.7161   ✗       
+638   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -22.3712    1440.7474   ✗       
+639   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -22.3894    1384.6848   ✗       
+640   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -22.4379    1440.7474   ✗       
+641   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -22.4533    1412.7161   ✗       
+642   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -22.4838    1440.7474   ✗       
+643   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -22.5407    1384.6848   ✗       
+644   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -22.5942    1440.7474   ✗       
+645   VGAPQQ+0.984PGPGPPPSR    -1.0000     NotChecked  -22.6334    1441.7314   ✗       
+646   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -22.6796    1384.6848   ✗       
+647   GGAPQQPGPGPPPSR          -1.0000     NotChecked  -22.6884    1398.7004   ✗       
+648   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -22.7264    1383.6895   ✗       
+649   +43.006GAPQ+0.984QPGPGPPPSR-1.0000     NotChecked  -22.7288    1385.6688   ✗       
+650   TGAPQQPGPGPPPSR          -1.0000     NotChecked  -22.7517    1442.7266   ✗       
+651   GAPQQPGPGPPPSR           -1.0000     NotChecked  -22.8397    1341.6790   ✗       
+652   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -22.8654    1383.6895   ✗       
+653   +42.011GAPQKPGPGPPPSR    -1.0000     NotChecked  -22.9137    1383.7259   ✗       
+654   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -22.9395    1412.7161   ✗       
+655   GGAPQQPGPGPPPSR          -1.0000     NotChecked  -22.9786    1398.7004   ✗       
+656   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -22.9867    1383.6895   ✗       
+657   GGAPQ+0.984QPGPGPPPSR    -1.0000     NotChecked  -23.0277    1399.6844   ✗       
+658   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -23.0544    1383.6895   ✗       
+659   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -23.0784    1412.7161   ✗       
+660   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -23.0805    1440.7474   ✗       
+661   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -23.0983    1440.7474   ✗       
+662   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -23.1165    1384.6848   ✗       
+663   AGAPQKPGPGPPPSR          -1.0000     NotChecked  -23.1268    1412.7524   ✗       
+664   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -23.1658    1384.6848   ✗       
+665   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -23.1997    1412.7161   ✗       
+666   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -23.2108    1440.7474   ✗       
+667   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -23.2194    1440.7474   ✗       
+668   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -23.2675    1412.7161   ✗       
+669   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -23.2678    1384.6848   ✗       
+670   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -23.3213    1440.7474   ✗       
+671   +43.006GAPQQ+0.984PGPGPPPSR-1.0000     NotChecked  -23.3613    1385.6688   ✗       
+672   +42.011GAPQQPGPGPPPS     -1.0000     NotChecked  -23.3773    1227.5884   ✗       
+673   +42.011GAPQ+0.984QPGPGPPPSR-1.0000     NotChecked  -23.3938    1384.6735   ✗       
+674   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -23.4067    1384.6848   ✗       
+675   GGAPQQPGPGPPPSR          -1.0000     NotChecked  -23.4154    1398.7004   ✗       
+676   +43.006GAPQ+0.984QPGPGPPPSR-1.0000     NotChecked  -23.4558    1385.6688   ✗       
+677   GGAPQQPGPGPPPSR          -1.0000     NotChecked  -23.4648    1398.7004   ✗       
+678   GAPQQPGPGPPPSR           -1.0000     NotChecked  -23.5667    1341.6790   ✗       
+679   AGAPQQPGPGPPPS           -1.0000     NotChecked  -23.5904    1256.6150   ✗       
+680   AGAPQ+0.984QPGPGPPPSR    -1.0000     NotChecked  -23.6068    1413.7001   ✗       
+681   +42.011GAPQKPGPGPPPSR    -1.0000     NotChecked  -23.6408    1383.7259   ✗       
+682   GGAPQQ+0.984PGPGPPPSR    -1.0000     NotChecked  -23.6602    1399.6844   ✗       
+683   GGAPQQPGPGPPPSR          -1.0000     NotChecked  -23.7056    1398.7004   ✗       
+684   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -23.7100    1383.6895   ✗       
+685   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -23.7137    1383.6895   ✗       
+686   GGAPQ+0.984QPGPGPPPSR    -1.0000     NotChecked  -23.7548    1399.6844   ✗       
+687   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -23.7815    1383.6895   ✗       
+688   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -23.8075    1440.7474   ✗       
+689   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -23.8262    1384.6848   ✗       
+690   AGAPQKPGPGPPPSR          -1.0000     NotChecked  -23.8538    1412.7524   ✗       
+691   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -23.8929    1384.6848   ✗       
+692   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -23.9230    1412.7161   ✗       
+693   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -23.9268    1412.7161   ✗       
+694   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -23.9388    1384.6848   ✗       
+695   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -23.9464    1440.7474   ✗       
+696   +42.011GAPQRPGPGPPPSR    -1.0000     NotChecked  -23.9745    1411.7320   ✗       
+697   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -23.9945    1412.7161   ✗       
+698   VGAPQKPGPGPPPSR          -1.0000     NotChecked  -23.9948    1440.7837   ✗       
+699   +42.011GAPQQ+0.984PGPGPPPSR-1.0000     NotChecked  -24.0263    1384.6735   ✗       
+700   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -24.0492    1384.6848   ✗       
+701   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -24.0677    1440.7474   ✗       
+702   +43.006GAPQQ+0.984PGPGPPPSR-1.0000     NotChecked  -24.0884    1385.6688   ✗       
+703   +42.011GAPQQPGPGPPPS     -1.0000     NotChecked  -24.1044    1227.5884   ✗       
+704   +42.011GAPQ+0.984QPGPGPPPSR-1.0000     NotChecked  -24.1208    1384.6735   ✗       
+705   GGAPQQPGPGPPPSR          -1.0000     NotChecked  -24.1251    1398.7004   ✗       
+706   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -24.1355    1440.7474   ✗       
+707   AGAPQRPGPGPPPSR          -1.0000     NotChecked  -24.1875    1440.7586   ✗       
+708   GGAPQQPGPGPPPSR          -1.0000     NotChecked  -24.1918    1398.7004   ✗       
+709   GGAPQQPGPGPPPSR          -1.0000     NotChecked  -24.2377    1398.7004   ✗       
+710   AGAPQQ+0.984PGPGPPPSR    -1.0000     NotChecked  -24.2394    1413.7001   ✗       
+711   AGAPQQPGPGPPPS           -1.0000     NotChecked  -24.3174    1256.6150   ✗       
+712   AGAPQ+0.984QPGPGPPPSR    -1.0000     NotChecked  -24.3339    1413.7001   ✗       
+713   GAPQQPGPGPPPSR           -1.0000     NotChecked  -24.3482    1341.6790   ✗       
+714   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -24.3651    1383.6895   ✗       
+715   GGAPQQ+0.984PGPGPPPSR    -1.0000     NotChecked  -24.3873    1399.6844   ✗       
+716   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -24.4240    1383.6895   ✗       
+717   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -24.4370    1383.6895   ✗       
+718   +42.011AAPQQPGPGPPPSR    -1.0000     NotChecked  -24.4400    1397.7052   ✗       
+719   TGAPQQPGPGPPPSR          -1.0000     NotChecked  -24.4493    1442.7266   ✗       
+720   VGAPQQPGPGPPPS           -1.0000     NotChecked  -24.4584    1284.6463   ✗       
+721   VGAPQ+0.984QPGPGPPPSR    -1.0000     NotChecked  -24.4748    1441.7314   ✗       
+722   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -24.4912    1383.6895   ✗       
+723   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -24.5354    1384.6848   ✗       
+724   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -24.5532    1384.6848   ✗       
+725   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -24.5630    1383.6895   ✗       
+726   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -24.5781    1412.7161   ✗       
+727   TGAPQQPGPGPPPSR          -1.0000     NotChecked  -24.6006    1442.7266   ✗       
+728   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -24.6037    1383.6895   ✗       
+729   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -24.6084    1383.6895   ✗       
+730   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -24.6371    1412.7161   ✗       
+731   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -24.6501    1412.7161   ✗       
+732   AAAPQQPGPGPPPSR          -1.0000     NotChecked  -24.6530    1426.7317   ✗       
+733   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -24.6658    1384.6848   ✗       
+734   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -24.6744    1384.6848   ✗       
+735   +42.011GAPQRPGPGPPPSR    -1.0000     NotChecked  -24.7015    1411.7320   ✗       
+736   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -24.7042    1412.7161   ✗       
+737   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -24.7142    1383.6895   ✗       
+738   VGAPQKPGPGPPPSR          -1.0000     NotChecked  -24.7219    1440.7837   ✗       
+739   TGAPQQPGPGPPPSR          -1.0000     NotChecked  -24.7395    1442.7266   ✗       
+740   +42.011GAPQQ+0.984PGPGPPPSR-1.0000     NotChecked  -24.7533    1384.6735   ✗       
+741   +42.011GAPQ+0.984QPGPGPPPSR-1.0000     NotChecked  -24.7634    1384.6735   ✗       
+742   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -24.7760    1412.7161   ✗       
+743   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -24.7763    1384.6848   ✗       
+744   TGAPQ+0.984QPGPGPPPSR    -1.0000     NotChecked  -24.7886    1443.7106   ✗       
+745   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -24.7910    1440.7474   ✗       
+746   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -24.7948    1440.7474   ✗       
+747   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -24.8168    1412.7161   ✗       
+748   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -24.8214    1412.7161   ✗       
+749   GAPQQPGPGPPPSR           -1.0000     NotChecked  -24.8344    1341.6790   ✗       
+750   GGAPQQPGPGPPPSR          -1.0000     NotChecked  -24.8522    1398.7004   ✗       
+751   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -24.8626    1440.7474   ✗       
+752   +42.011GAPAQPGPGPPPSR    -1.0000     NotChecked  -24.8791    1326.6681   ✗       
+753   +42.011GAPQ+0.984QPGPGPPPSR-1.0000     NotChecked  -24.9023    1384.6735   ✗       
+754   AGAPQRPGPGPPPSR          -1.0000     NotChecked  -24.9146    1440.7586   ✗       
+755   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -24.9273    1412.7161   ✗       
+756   +42.011GAPQQPGPGPPSSR    -1.0000     NotChecked  -24.9599    1373.6688   ✗       
+757   GGAPQQPGPGPPPSR          -1.0000     NotChecked  -24.9647    1398.7004   ✗       
+758   AGAPQQ+0.984PGPGPPPSR    -1.0000     NotChecked  -24.9664    1413.7001   ✗       
+759   GGAPQQPGPGPPPSR          -1.0000     NotChecked  -24.9733    1398.7004   ✗       
+760   AGAPQ+0.984QPGPGPPPSR    -1.0000     NotChecked  -24.9764    1413.7001   ✗       
+761   +42.011GAPQEPGPGPPPSR    -1.0000     NotChecked  -24.9903    1384.6735   ✗       
+762   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -25.0492    1383.6895   ✗       
+763   GAPQQPGPGPPPSR           -1.0000     NotChecked  -25.0752    1341.6790   ✗       
+764   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -25.0921    1383.6895   ✗       
+765   AGAPAQPGPGPPPSR          -1.0000     NotChecked  -25.0922    1355.6946   ✗       
+766   +42.011GAPQQPGPGPPPR     -1.0000     NotChecked  -25.1045    1296.6575   ✗       
+767   VGAPQQ+0.984PGPGPPPSR    -1.0000     NotChecked  -25.1074    1441.7314   ✗       
+768   AGAPQ+0.984QPGPGPPPSR    -1.0000     NotChecked  -25.1153    1413.7001   ✗       
+769   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -25.1511    1383.6895   ✗       
+770   +42.011AAPQQPGPGPPPSR    -1.0000     NotChecked  -25.1670    1397.7052   ✗       
+771   AGAPQQPGPGPPSSR          -1.0000     NotChecked  -25.1730    1402.6953   ✗       
+772   TGAPQQPGPGPPPSR          -1.0000     NotChecked  -25.1764    1442.7266   ✗       
+773   VGAPQQPGPGPPPS           -1.0000     NotChecked  -25.1855    1284.6463   ✗       
+774   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -25.2004    1383.6895   ✗       
+775   VGAPQ+0.984QPGPGPPPSR    -1.0000     NotChecked  -25.2019    1441.7314   ✗       
+776   AGAPQEPGPGPPPSR          -1.0000     NotChecked  -25.2034    1413.7001   ✗       
+777   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -25.2182    1383.6895   ✗       
+778   TGAPQQPGPGPPPSR          -1.0000     NotChecked  -25.2257    1442.7266   ✗       
+779   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -25.2417    1383.6895   ✗       
+780   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -25.2622    1412.7161   ✗       
+781   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -25.2625    1384.6848   ✗       
+782   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -25.2900    1383.6895   ✗       
+783   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -25.3052    1412.7161   ✗       
+784   +42.011GAPQQPGPGPPESR    -1.0000     NotChecked  -25.3082    1415.6793   ✗       
+785   AGAPQQPGPGPPPR           -1.0000     NotChecked  -25.3176    1325.6840   ✗       
+786   TGAPQQPGPGPPPSR          -1.0000     NotChecked  -25.3276    1442.7266   ✗       
+787   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -25.3308    1383.6895   ✗       
+788   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -25.3354    1383.6895   ✗       
+789   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -25.3394    1383.6895   ✗       
+790   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -25.3641    1412.7161   ✗       
+791   AAAPQQPGPGPPPSR          -1.0000     NotChecked  -25.3801    1426.7317   ✗       
+792   +42.011GAPQ+0.984QPGPGPPPSR-1.0000     NotChecked  -25.3885    1384.6735   ✗       
+793   +42.011GAPQQLGPGPPPSR    -1.0000     NotChecked  -25.3896    1399.7208   ✗       
+794   +42.011GAPQQ+0.984PGPGPPPSR-1.0000     NotChecked  -25.3959    1384.6735   ✗       
+795   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -25.4014    1384.6848   ✗       
+796   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -25.4135    1412.7161   ✗       
+797   TGAPQQ+0.984PGPGPPPSR    -1.0000     NotChecked  -25.4212    1443.7106   ✗       
+798   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -25.4313    1412.7161   ✗       
+799   +42.011GAPQQPGPPPPSR     -1.0000     NotChecked  -25.4407    1326.6681   ✗       
+800   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -25.4413    1383.6895   ✗       
+801   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -25.4462    1440.7474   ✗       
+802   +43.006GAPQKPGPGPPPSR    -1.0000     NotChecked  -25.4498    1384.7211   ✗       
+803   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -25.4547    1412.7161   ✗       
+804   TGAPQQPGPGPPPSR          -1.0000     NotChecked  -25.4666    1442.7266   ✗       
+805   +42.011GAPQ+0.984QPGPGPPPSR-1.0000     NotChecked  -25.4904    1384.6735   ✗       
+806   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -25.5031    1412.7161   ✗       
+807   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -25.5051    1440.7474   ✗       
+808   TGAPQ+0.984QPGPGPPPSR    -1.0000     NotChecked  -25.5157    1443.7106   ✗       
+809   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -25.5181    1440.7474   ✗       
+810   AGAPQQPGPGPPESR          -1.0000     NotChecked  -25.5213    1444.7059   ✗       
+811   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -25.5227    1384.6848   ✗       
+812   +42.011GAPQQ+0.984PGPGPPPSR-1.0000     NotChecked  -25.5348    1384.6735   ✗       
+813   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -25.5439    1412.7161   ✗       
+814   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -25.5485    1412.7161   ✗       
+815   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -25.5524    1412.7161   ✗       
+816   GAPQQPGPGPPPSR           -1.0000     NotChecked  -25.5614    1341.6790   ✗       
+817   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -25.5723    1440.7474   ✗       
+818   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -25.5905    1384.6848   ✗       
+819   AGAPQ+0.984QPGPGPPPSR    -1.0000     NotChecked  -25.6016    1413.7001   ✗       
+820   AGAPQQLGPGPPPSR          -1.0000     NotChecked  -25.6027    1428.7474   ✗       
+821   +42.011GAPAQPGPGPPPSR    -1.0000     NotChecked  -25.6062    1326.6681   ✗       
+822   AGAPQQ+0.984PGPGPPPSR    -1.0000     NotChecked  -25.6089    1413.7001   ✗       
+823   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -25.6292    1383.6895   ✗       
+824   +42.011GAPQ+0.984QPGPGPPPSR-1.0000     NotChecked  -25.6293    1384.6735   ✗       
+825   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -25.6440    1440.7474   ✗       
+826   AGAPQQPGPPPPSR           -1.0000     NotChecked  -25.6538    1355.6946   ✗       
+827   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -25.6543    1412.7161   ✗       
+828   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -25.6848    1440.7474   ✗       
+829   +42.011GAPQQPGPGPPSSR    -1.0000     NotChecked  -25.6870    1373.6688   ✗       
+830   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -25.6895    1440.7474   ✗       
+831   GGAPQQPGPGPPPSR          -1.0000     NotChecked  -25.7004    1398.7004   ✗       
+832   AGAPQ+0.984QPGPGPPPSR    -1.0000     NotChecked  -25.7035    1413.7001   ✗       
+833   +42.011GAPQEPGPGPPPSR    -1.0000     NotChecked  -25.7174    1384.6735   ✗       
+834   AGAPQQ+0.984PGPGPPPSR    -1.0000     NotChecked  -25.7479    1413.7001   ✗       
+835   GGAPQKPGPGPPPSR          -1.0000     NotChecked  -25.7487    1398.7368   ✗       
+836   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -25.7762    1383.6895   ✗       
+837   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -25.7953    1440.7474   ✗       
+838   AGAPAQPGPGPPPSR          -1.0000     NotChecked  -25.8193    1355.6946   ✗       
+839   GGAPQQPGPGPPPSR          -1.0000     NotChecked  -25.8217    1398.7004   ✗       
+840   +42.011GAPQQPGPGPPPR     -1.0000     NotChecked  -25.8316    1296.6575   ✗       
+841   VGAPQQ+0.984PGPGPPPSR    -1.0000     NotChecked  -25.8344    1441.7314   ✗       
+842   KGAPQQPGPGPPPS           -1.0000     NotChecked  -25.8409    1313.6728   ✗       
+843   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -25.8422    1412.7161   ✗       
+844   AGAPQ+0.984QPGPGPPPSR    -1.0000     NotChecked  -25.8424    1413.7001   ✗       
+845   VGAPQ+0.984QPGPGPPPSR    -1.0000     NotChecked  -25.8444    1441.7314   ✗       
+846   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -25.8608    1383.6895   ✗       
+847   TGAPQQPGPGPPPSR          -1.0000     NotChecked  -25.8861    1442.7266   ✗       
+848   GGAPQQPGPGPPPSR          -1.0000     NotChecked  -25.8894    1398.7004   ✗       
+849   AGAPQQPGPGPPSSR          -1.0000     NotChecked  -25.9000    1402.6953   ✗       
+850   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -25.9111    1383.6895   ✗       
+851   +43.006GAPQQPGPGPPPS     -1.0000     NotChecked  -25.9134    1228.5837   ✗       
+852   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -25.9275    1383.6895   ✗       
+853   +43.006GAPQ+0.984QPGPGPPPSR-1.0000     NotChecked  -25.9298    1385.6688   ✗       
+854   AGAPQEPGPGPPPSR          -1.0000     NotChecked  -25.9304    1413.7001   ✗       
+855   TGAPQQPGPGPPPSR          -1.0000     NotChecked  -25.9528    1442.7266   ✗       
+856   VGAPAQPGPGPPPSR          -1.0000     NotChecked  -25.9602    1383.7259   ✗       
+857   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -25.9687    1383.6895   ✗       
+858   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -25.9733    1383.6895   ✗       
+859   VGAPQ+0.984QPGPGPPPSR    -1.0000     NotChecked  -25.9834    1441.7314   ✗       
+860   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -25.9893    1412.7161   ✗       
+861   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -25.9904    1383.6895   ✗       
+862   TGAPQQPGPGPPPSR          -1.0000     NotChecked  -25.9986    1442.7266   ✗       
+863   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -25.9997    1383.6895   ✗       
+864   +42.011GAPQQ+0.984PGPGPPPSR-1.0000     NotChecked  -26.0210    1384.6735   ✗       
+865   +42.011GAPQQPGPGPPESR    -1.0000     NotChecked  -26.0352    1415.6793   ✗       
+866   VGAPQQPGPGPPSSR          -1.0000     NotChecked  -26.0410    1430.7266   ✗       
+867   AGAPQQPGPGPPPR           -1.0000     NotChecked  -26.0446    1325.6840   ✗       
+868   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -26.0664    1383.6895   ✗       
+869   VGAPQEPGPGPPPSR          -1.0000     NotChecked  -26.0714    1441.7314   ✗       
+870   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.0738    1412.7161   ✗       
+871   +42.011GAPRQPGPGPPPSR    -1.0000     NotChecked  -26.0955    1411.7320   ✗       
+872   TGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.1091    1442.7266   ✗       
+873   +42.011GAPQKPGPGPPPSR    -1.0000     NotChecked  -26.1148    1383.7259   ✗       
+874   +42.011GAPQ+0.984QPGPGPPPSR-1.0000     NotChecked  -26.1156    1384.6735   ✗       
+875   +42.011GAPQQ+0.984PGPGPPPSR-1.0000     NotChecked  -26.1229    1384.6735   ✗       
+876   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.1241    1412.7161   ✗       
+877   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.1302    1440.7474   ✗       
+878   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.1406    1412.7161   ✗       
+879   +42.011GAPQNPGPGPPPSR    -1.0000     NotChecked  -26.1416    1369.6739   ✗       
+880   TGAPQQ+0.984PGPGPPPSR    -1.0000     NotChecked  -26.1482    1443.7106   ✗       
+881   +42.011APQQPGPGPPPSR     -1.0000     NotChecked  -26.1508    1326.6681   ✗       
+882   +42.011GAPQQPGPPPPSR     -1.0000     NotChecked  -26.1677    1326.6681   ✗       
+883   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.1732    1440.7474   ✗       
+884   +43.006GAPQKPGPGPPPSR    -1.0000     NotChecked  -26.1768    1384.7211   ✗       
+885   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.1818    1412.7161   ✗       
+886   VGAPQQPGPGPPPR           -1.0000     NotChecked  -26.1856    1353.7153   ✗       
+887   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.1864    1412.7161   ✗       
+888   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -26.1877    1383.6895   ✗       
+889   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.2034    1412.7161   ✗       
+890   GGAPQQPGPGPPPS           -1.0000     NotChecked  -26.2123    1242.5993   ✗       
+891   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.2128    1412.7161   ✗       
+892   GGAPQ+0.984QPGPGPPPSR    -1.0000     NotChecked  -26.2288    1399.6844   ✗       
+893   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.2322    1440.7474   ✗       
+894   AGAPQQ+0.984PGPGPPPSR    -1.0000     NotChecked  -26.2341    1413.7001   ✗       
+895   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -26.2460    1384.6848   ✗       
+896   AGAPQQPGPGPPESR          -1.0000     NotChecked  -26.2483    1444.7059   ✗       
+897   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -26.2498    1384.6848   ✗       
+898   +42.011GAPQQ+0.984PGPGPPPSR-1.0000     NotChecked  -26.2619    1384.6735   ✗       
+899   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.2795    1412.7161   ✗       
+900   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.2815    1440.7474   ✗       
+901   +42.011GAPQQPGPGPPPTR    -1.0000     NotChecked  -26.2924    1397.7052   ✗       
+902   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.2993    1440.7474   ✗       
+903   AGAPRQPGPGPPPSR          -1.0000     NotChecked  -26.3085    1440.7586   ✗       
+904   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -26.3176    1384.6848   ✗       
+905   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.3228    1440.7474   ✗       
+906   AGAPQKPGPGPPPSR          -1.0000     NotChecked  -26.3278    1412.7524   ✗       
+907   AGAPQ+0.984QPGPGPPPSR    -1.0000     NotChecked  -26.3286    1413.7001   ✗       
+908   AGAPQQ+0.984PGPGPPPSR    -1.0000     NotChecked  -26.3360    1413.7001   ✗       
+909   AGAPQNPGPGPPPSR          -1.0000     NotChecked  -26.3546    1398.7004   ✗       
+910   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -26.3562    1383.6895   ✗       
+911   AAPQQPGPGPPPSR           -1.0000     NotChecked  -26.3638    1355.6946   ✗       
+912   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.3711    1440.7474   ✗       
+913   AGAPQQPGPPPPSR           -1.0000     NotChecked  -26.3808    1355.6946   ✗       
+914   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.4008    1412.7161   ✗       
+915   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.4119    1440.7474   ✗       
+916   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.4165    1440.7474   ✗       
+917   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.4204    1440.7474   ✗       
+918   +42.011GAPQAPGPGPPPSR    -1.0000     NotChecked  -26.4669    1326.6681   ✗       
+919   VGAPQ+0.984QPGPGPPPSR    -1.0000     NotChecked  -26.4696    1441.7314   ✗       
+920   AGAPQQ+0.984PGPGPPPSR    -1.0000     NotChecked  -26.4749    1413.7001   ✗       
+921   GGAPQKPGPGPPPSR          -1.0000     NotChecked  -26.4758    1398.7368   ✗       
+922   VGAPQQ+0.984PGPGPPPSR    -1.0000     NotChecked  -26.4770    1441.7314   ✗       
+923   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -26.4859    1383.6895   ✗       
+924   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -26.5000    1383.6895   ✗       
+925   +42.011GAGPQQPGPGPPPSR   -1.0000     NotChecked  -26.5025    1440.7110   ✗       
+926   AGAPQQPGPGPPPTR          -1.0000     NotChecked  -26.5055    1426.7317   ✗       
+927   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -26.5095    1383.6895   ✗       
+928   +43.006GAPQRPGPGPPPSR    -1.0000     NotChecked  -26.5105    1412.7273   ✗       
+929   VGAPQQPGPPPPSR           -1.0000     NotChecked  -26.5218    1383.7259   ✗       
+930   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.5224    1440.7474   ✗       
+931   QGAPQQPGPGPPPS           -1.0000     NotChecked  -26.5233    1313.6364   ✗       
+932   +42.011GAPKQPGPGPPPSR    -1.0000     NotChecked  -26.5342    1383.7259   ✗       
+933   GGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.5450    1398.7004   ✗       
+934   GGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.5487    1398.7004   ✗       
+935   +42.011GAPQQPGPGPPRSR    -1.0000     NotChecked  -26.5606    1442.7379   ✗       
+936   +43.006GAPQQ+0.984PGPGPPPSR-1.0000     NotChecked  -26.5624    1385.6688   ✗       
+937   KGAPQQPGPGPPPS           -1.0000     NotChecked  -26.5679    1313.6728   ✗       
+938   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.5693    1412.7161   ✗       
+939   VGAPQ+0.984QPGPGPPPSR    -1.0000     NotChecked  -26.5715    1441.7314   ✗       
+940   +42.011GAPQQPGPGPPPS     -1.0000     NotChecked  -26.5784    1227.5884   ✗       
+941   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -26.5878    1383.6895   ✗       
+942   TGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.5953    1442.7266   ✗       
+943   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -26.5985    1383.6895   ✗       
+944   +42.011GPQQPGPGPPPSR     -1.0000     NotChecked  -26.6058    1312.6524   ✗       
+945   TGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.6131    1442.7266   ✗       
+946   +42.011LAPQQPGPGPPPSR    -1.0000     NotChecked  -26.6138    1439.7521   ✗       
+947   VGAPQQ+0.984PGPGPPPSR    -1.0000     NotChecked  -26.6159    1441.7314   ✗       
+948   GGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.6165    1398.7004   ✗       
+949   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -26.6381    1383.6895   ✗       
+950   +43.006GAPQQPGPGPPPS     -1.0000     NotChecked  -26.6404    1228.5837   ✗       
+951   +43.006GAPQ+0.984QPGPGPPPSR-1.0000     NotChecked  -26.6569    1385.6688   ✗       
+952   AGAPQAPGPGPPPSR          -1.0000     NotChecked  -26.6800    1355.6946   ✗       
+953   VGAPAQPGPGPPPSR          -1.0000     NotChecked  -26.6873    1383.7259   ✗       
+954   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.6990    1412.7161   ✗       
+955   +42.011GAPQSPGPGPPPSR    -1.0000     NotChecked  -26.7000    1342.6630   ✗       
+956   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -26.7004    1383.6895   ✗       
+957   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -26.7090    1383.6895   ✗       
+958   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.7102    1440.7474   ✗       
+959   VGAPQ+0.984QPGPGPPPSR    -1.0000     NotChecked  -26.7104    1441.7314   ✗       
+960   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.7131    1412.7161   ✗       
+961   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -26.7174    1383.6895   ✗       
+962   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.7226    1412.7161   ✗       
+963   +42.011GAPQQPGQGPPPSR    -1.0000     NotChecked  -26.7248    1414.6953   ✗       
+964   TGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.7257    1442.7266   ✗       
+965   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -26.7268    1383.6895   ✗       
+966   TGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.7342    1442.7266   ✗       
+967   AGAPKQPGPGPPPSR          -1.0000     NotChecked  -26.7472    1412.7524   ✗       
+968   +42.011GAPQQ+0.984PGPGPPPSR-1.0000     NotChecked  -26.7481    1384.6735   ✗       
+969   +42.011GQPQQPGPGPPPSR    -1.0000     NotChecked  -26.7493    1440.7110   ✗       
+970   VGAPQQPGPGPPSSR          -1.0000     NotChecked  -26.7681    1430.7266   ✗       
+971   AGAPQQPGPGPPPS           -1.0000     NotChecked  -26.7914    1256.6150   ✗       
+972   VGAPQEPGPGPPPSR          -1.0000     NotChecked  -26.7985    1441.7314   ✗       
+973   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.8009    1412.7161   ✗       
+974   GGAPQRPGPGPPPSR          -1.0000     NotChecked  -26.8095    1426.7429   ✗       
+975   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.8115    1412.7161   ✗       
+976   AGPQQPGPGPPPSR           -1.0000     NotChecked  -26.8189    1341.6790   ✗       
+977   +42.011GAPRQPGPGPPPSR    -1.0000     NotChecked  -26.8225    1411.7320   ✗       
+978   TGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.8361    1442.7266   ✗       
+979   +42.011GAPQKPGPGPPPSR    -1.0000     NotChecked  -26.8418    1383.7259   ✗       
+980   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.8512    1412.7161   ✗       
+981   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.8573    1440.7474   ✗       
+982   GGAPQQ+0.984PGPGPPPSR    -1.0000     NotChecked  -26.8613    1399.6844   ✗       
+983   +42.011GAPQNPGPGPPPSR    -1.0000     NotChecked  -26.8686    1369.6739   ✗       
+984   +42.011APQQPGPGPPPSR     -1.0000     NotChecked  -26.8778    1326.6681   ✗       
+985   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -26.9011    1384.6848   ✗       
+986   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -26.9110    1383.6895   ✗       
+987   VGAPQQPGPGPPPR           -1.0000     NotChecked  -26.9126    1353.7153   ✗       
+988   AGAPQSPGPGPPPSR          -1.0000     NotChecked  -26.9131    1371.6895   ✗       
+989   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.9135    1412.7161   ✗       
+990   +42.011GAPQQPGPGPPPSR    -1.0000     NotChecked  -26.9148    1383.6895   ✗       
+991   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.9220    1412.7161   ✗       
+992   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.9305    1412.7161   ✗       
+993   AGAPQQPGQGPPPSR          -1.0000     NotChecked  -26.9379    1443.7219   ✗       
+994   GGAPQQPGPGPPPS           -1.0000     NotChecked  -26.9394    1242.5993   ✗       
+995   AGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.9398    1412.7161   ✗       
+996   VGAPQQPGPGPPPSR          -1.0000     NotChecked  -26.9419    1440.7474   ✗       
+997   GGAPQ+0.984QPGPGPPPSR    -1.0000     NotChecked  -26.9558    1399.6844   ✗       
+998   +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -26.9601    1384.6848   ✗       
+999   AGAPQQ+0.984PGPGPPPSR    -1.0000     NotChecked  -26.9611    1413.7001   ✗       
+1000  +43.006GAPQQPGPGPPPSR    -1.0000     NotChecked  -26.9731    1384.6848   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: LGAPQQPGPGPPPSR
+Similarity: 0.8492
+De Novo Score: -0.4614
+Source: Database
+Correct: ✓
+

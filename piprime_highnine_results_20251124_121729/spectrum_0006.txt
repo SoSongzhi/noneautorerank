@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 6
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 888.9600
+Precursor charge: 2+
+Ground truth: KFGEEVWKPTIEGEK
+Ground truth (normalized): KFGEEVWKPTIEGEK
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 388
+Used for reranking: 388
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 388 (38.8%)
+Database matches: 174 (17.4%)
+Prosit predictions: 214 (21.4%)
+Failed: 0 (0.0%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.9291
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     KFGEEVWKPTLEGEK          0.9291      Database    -0.0990     1775.9094   ✓       ✓
+2     KFGEEVWKPTLEGEK          0.9291      Database    -3.2011     1775.9094   ✓       ✓
+3     KFGEEVWKPTLEGEK          0.9291      Database    -3.2726     1775.9094   ✓       ✓
+4     KFGEEVWKPTLEGEK          0.9291      Database    -5.3696     1775.9094   ✓       ✓
+5     KFGEEVWKPTLEGEK          0.9291      Database    -6.2177     1775.9094   ✓       ✓
+6     KFGEEVWKPTLEGEK          0.9291      Database    -6.3747     1775.9094   ✓       ✓
+7     KFGEEVWKPTLEGEK          0.9291      Database    -8.2228     1775.9094   ✓       ✓
+8     KFGEEVWKPTLEGEK          0.9291      Database    -8.3104     1775.9094   ✓       ✓
+9     KFGEEVWKPTLEGEK          0.9291      Database    -8.4716     1775.9094   ✓       ✓
+10    KFGEEVWKPTLEGEK          0.9291      Database    -8.5432     1775.9094   ✓       ✓
+11    KFGEEVWKPTLEGEK          0.9291      Database    -9.3197     1775.9094   ✓       ✓
+12    KFGEEVWKPTLEGEK          0.9291      Database    -9.3913     1775.9094   ✓       ✓
+13    KFGEEVWKPTLEGEK          0.9291      Database    -9.8093     1775.9094   ✓       ✓
+14    KFGEEVWKPTLEGEK          0.9291      Database    -10.0468    1775.9094   ✓       ✓
+15    KFGEEVWKPTLEGEK          0.9291      Database    -10.5770    1775.9094   ✓       ✓
+16    KFGEEVWKPTLEGEK          0.9291      Database    -11.2069    1775.9094   ✓       ✓
+17    KFGEEVWKPTLEGEK          0.9291      Database    -11.3248    1775.9094   ✓       ✓
+18    KFGEEVWKPTLEGEK          0.9291      Database    -11.3964    1775.9094   ✓       ✓
+19    KFGEEVWKPTLEGEK          0.9291      Database    -11.4124    1775.9094   ✓       ✓
+20    KFGEEVWKPTLEGEK          0.9291      Database    -11.4840    1775.9094   ✓       ✓
+21    KFGEEVWKPTLEGEK          0.9291      Database    -11.4882    1775.9094   ✓       ✓
+22    KFGEEVWKPTLEGEK          0.9291      Database    -11.6452    1775.9094   ✓       ✓
+23    KFGEEVWKPTLEGEK          0.9291      Database    -11.9129    1775.9094   ✓       ✓
+24    KFGEEVWKPTLEGEK          0.9291      Database    -12.2538    1775.9094   ✓       ✓
+25    KFGEEVWKPTLEGEK          0.9291      Database    -12.4905    1775.9094   ✓       ✓
+26    KFGEEVWKPTLEGEK          0.9291      Database    -12.4933    1775.9094   ✓       ✓
+27    KFGEEVWKPTLEGEK          0.9291      Database    -12.9113    1775.9094   ✓       ✓
+28    KFGEEVWKPTLEGEK          0.9291      Database    -12.9829    1775.9094   ✓       ✓
+29    KFGEEVWKPTLEGEK          0.9291      Database    -13.1488    1775.9094   ✓       ✓
+30    KFGEEVWKPTLEGEK          0.9291      Database    -13.2204    1775.9094   ✓       ✓
+31    KFGEEVWKPTLEGEK          0.9291      Database    -13.2365    1775.9094   ✓       ✓
+32    KFGEEVWKPTLEGEK          0.9291      Database    -13.3600    1775.9094   ✓       ✓
+33    KFGEEVWKPTLEGEK          0.9291      Database    -13.4933    1775.9094   ✓       ✓
+34    KFGEEVWKPTLEGEK          0.9291      Database    -13.5810    1775.9094   ✓       ✓
+35    KFGEEVWKPTLEGEK          0.9291      Database    -13.6599    1775.9094   ✓       ✓
+36    KFGEEVWKPTLEGEK          0.9291      Database    -13.6790    1775.9094   ✓       ✓
+37    KFGEEVWKPTLEGEK          0.9291      Database    -13.6951    1775.9094   ✓       ✓
+38    KFGEEVWKPTLEGEK          0.9291      Database    -14.0946    1775.9094   ✓       ✓
+39    KFGEEVWKPTLEGEK          0.9291      Database    -14.3089    1775.9094   ✓       ✓
+40    KFGEEVWKPTLEGEK          0.9291      Database    -14.3414    1775.9094   ✓       ✓
+41    KFGEEVWKPTLEGEK          0.9291      Database    -14.3616    1775.9094   ✓       ✓
+42    KFGEEVWKPTLEGEK          0.9291      Database    -14.3805    1775.9094   ✓       ✓
+43    KFGEEVWKPTLEGEK          0.9291      Database    -14.4290    1775.9094   ✓       ✓
+44    KFGEEVWKPTLEGEK          0.9291      Database    -14.4984    1775.9094   ✓       ✓
+45    KFGEEVWKPTLEGEK          0.9291      Database    -14.5503    1775.9094   ✓       ✓
+46    KFGEEVWKPTLEGEK          0.9291      Database    -14.5860    1775.9094   ✓       ✓
+47    KFGEEVWKPTLEGEK          0.9291      Database    -14.5903    1775.9094   ✓       ✓
+48    KFGEEVWKPTLEGEK          0.9291      Database    -14.6619    1775.9094   ✓       ✓
+49    KFGEEVWKPTLEGEK          0.9291      Database    -15.0149    1775.9094   ✓       ✓
+50    KFGEEVWKPTLEGEK          0.9291      Database    -15.0798    1775.9094   ✓       ✓
+51    KFGEEVWKPTLEGEK          0.9291      Database    -15.0865    1775.9094   ✓       ✓
+52    KFGEEVWKPTLEGEK          0.9291      Database    -15.3173    1775.9094   ✓       ✓
+53    KFGEEVWKPTLEGEK          0.9291      Database    -15.3559    1775.9094   ✓       ✓
+54    KFGEEVWKPTLEGEK          0.9291      Database    -15.4274    1775.9094   ✓       ✓
+55    KFGEEVWKPTLEGEK          0.9291      Database    -15.5925    1775.9094   ✓       ✓
+56    KFGEEVWKPTLEGEK          0.9291      Database    -15.6641    1775.9094   ✓       ✓
+57    KFGEEVWKPTLEGEK          0.9291      Database    -15.8475    1775.9094   ✓       ✓
+58    KFGEEVWKPTLEGEK          0.9291      Database    -15.9279    1775.9094   ✓       ✓
+59    KFGEEVWKPTLEGEK          0.9291      Database    -16.0849    1775.9094   ✓       ✓
+60    KFGEEVWKPTLEGEK          0.9291      Database    -16.1281    1775.9094   ✓       ✓
+61    KFGEEVWKPTLEGEK          0.9291      Database    -16.1654    1775.9094   ✓       ✓
+62    KFGEEVWKPTLEGEK          0.9291      Database    -16.2469    1775.9094   ✓       ✓
+63    KFGEEVWKPTLEGEK          0.9291      Database    -16.3224    1775.9094   ✓       ✓
+64    KFGEEVWKPTLEGEK          0.9291      Database    -16.3385    1775.9094   ✓       ✓
+65    KFGEEVWKPTLEGEK          0.9291      Database    -16.3544    1775.9094   ✓       ✓
+66    KFGEEVWKPTLEGEK          0.9291      Database    -16.4101    1775.9094   ✓       ✓
+67    KFGEEVWKPTLEGEK          0.9291      Database    -16.4341    1775.9094   ✓       ✓
+68    KFGEEVWKPTLEGEK          0.9291      Database    -16.4620    1775.9094   ✓       ✓
+69    KFGEEVWKPTLEGEK          0.9291      Database    -16.4774    1775.9094   ✓       ✓
+70    KFGEEVWKPTLEGEK          0.9291      Database    -16.5336    1775.9094   ✓       ✓
+71    KFGEEVWKPTLEGEK          0.9291      Database    -16.5954    1775.9094   ✓       ✓
+72    KFGEEVWKPTLEGEK          0.9291      Database    -16.6670    1775.9094   ✓       ✓
+73    KFGEEVWKPTLEGEK          0.9291      Database    -16.6830    1775.9094   ✓       ✓
+74    KFGEEVWKPTLEGEK          0.9291      Database    -16.6956    1775.9094   ✓       ✓
+75    KFGEEVWKPTLEGEK          0.9291      Database    -16.7546    1775.9094   ✓       ✓
+76    KFGEEVWKPTLEGEK          0.9291      Database    -16.7619    1775.9094   ✓       ✓
+77    KFGEEVWKPTLEGEK          0.9291      Database    -16.7971    1775.9094   ✓       ✓
+78    KFGEEVWKPTLEGEK          0.9291      Database    -16.8335    1775.9094   ✓       ✓
+79    KFGEEVWKPTLEGEK          0.9291      Database    -16.8687    1775.9094   ✓       ✓
+80    KFGEEVWKPTLEGEK          0.9291      Database    -17.1835    1775.9094   ✓       ✓
+81    KFGEEVWKPTLEGEK          0.9291      Database    -17.1967    1775.9094   ✓       ✓
+82    KFGEEVWKPTLEGEK          0.9291      Database    -17.1994    1775.9094   ✓       ✓
+83    KFGEEVWKPTLEGEK          0.9291      Database    -17.2682    1775.9094   ✓       ✓
+84    KFGEEVWKPTLEGEK          0.9291      Database    -17.3255    1775.9094   ✓       ✓
+85    KFGEEVWKPTLEGEK          0.9291      Database    -17.3910    1775.9094   ✓       ✓
+86    KFGEEVWKPTLEGEK          0.9291      Database    -17.4435    1775.9094   ✓       ✓
+87    KFGEEVWKPTLEGEK          0.9291      Database    -17.4636    1775.9094   ✓       ✓
+88    KFGEEVWKPTLEGEK          0.9291      Database    -17.4825    1775.9094   ✓       ✓
+89    KFGEEVWKPTLEGEK          0.9291      Database    -17.5150    1775.9094   ✓       ✓
+90    KFGEEVWKPTLEGEK          0.9291      Database    -17.5244    1775.9094   ✓       ✓
+91    KFGEEVWKPTLEGEK          0.9291      Database    -17.5311    1775.9094   ✓       ✓
+92    KFGEEVWKPTLEGEK          0.9291      Database    -17.5352    1775.9094   ✓       ✓
+93    KFGEEVWKPTLEGEK          0.9291      Database    -17.6022    1775.9094   ✓       ✓
+94    KFGEEVWKPTLEGEK          0.9291      Database    -17.6027    1775.9094   ✓       ✓
+95    KFGEEVWKPTLEGEK          0.9291      Database    -17.6524    1775.9094   ✓       ✓
+96    KFGEEVWKPTLEGEK          0.9291      Database    -17.6727    1775.9094   ✓       ✓
+97    KFGEEVWKPTLEGEK          0.9291      Database    -17.7240    1775.9094   ✓       ✓
+98    KFGEEVWKPTLEGEK          0.9291      Database    -17.7611    1775.9094   ✓       ✓
+99    KFGEEVWKPTLEGEK          0.9291      Database    -17.7639    1775.9094   ✓       ✓
+100   KFGEEVWKPTLEGEK          0.9291      Database    -17.8872    1775.9094   ✓       ✓
+101   KFGEEVWKPTLEGEK          0.9291      Database    -17.9330    1775.9094   ✓       ✓
+102   KFGEEVWKPTLEGEK          0.9291      Database    -18.0206    1775.9094   ✓       ✓
+103   KFGEEVWKPTLEGEK          0.9291      Database    -18.0315    1775.9094   ✓       ✓
+104   KFGEEVWKPTLEGEK          0.9291      Database    -18.1705    1775.9094   ✓       ✓
+105   KFGEEVWKPTLEGEK          0.9291      Database    -18.1819    1775.9094   ✓       ✓
+106   KFGEEVWKPTLEGEK          0.9291      Database    -18.1885    1775.9094   ✓       ✓
+107   KFGEEVWKPTLEGEK          0.9291      Database    -18.2535    1775.9094   ✓       ✓
+108   KFGEEVWKPTLEGEK          0.9291      Database    -18.2581    1775.9094   ✓       ✓
+109   KFGEEVWKPTLEGEK          0.9291      Database    -18.3418    1775.9094   ✓       ✓
+110   KFGEEVWKPTLEGEK          0.9291      Database    -18.3725    1775.9094   ✓       ✓
+111   KFGEEVWKPTLEGEK          0.9291      Database    -18.4194    1775.9094   ✓       ✓
+112   KFGEEVWKPTLEGEK          0.9291      Database    -18.4909    1775.9094   ✓       ✓
+113   KFGEEVWKPTLEGEK          0.9291      Database    -18.5071    1775.9094   ✓       ✓
+114   KFGEEVWKPTLEGEK          0.9291      Database    -18.5295    1775.9094   ✓       ✓
+115   KFGEEVWKPTLEGEK          0.9291      Database    -18.6092    1775.9094   ✓       ✓
+116   KFGEEVWKPTLEGEK          0.9291      Database    -18.6305    1775.9094   ✓       ✓
+117   KFGEEVWKPTLEGEK          0.9291      Database    -18.7007    1775.9094   ✓       ✓
+118   KFGEEVWKPTLEGEK          0.9291      Database    -18.7662    1775.9094   ✓       ✓
+119   KFGEEVWKPTLEGEK          0.9291      Database    -18.7883    1775.9094   ✓       ✓
+120   KFGEEVWKPTLEGEK          0.9291      Database    -18.9305    1775.9094   ✓       ✓
+121   KFGEEVWKPTLEGEK          0.9291      Database    -18.9496    1775.9094   ✓       ✓
+122   KFGEEVWKPTLEGEK          0.9291      Database    -18.9657    1775.9094   ✓       ✓
+123   KFGEEVWKPTLEGEK          0.9291      Database    -19.0300    1775.9094   ✓       ✓
+124   KFGEEVWKPTLEGEK          0.9291      Database    -19.1015    1775.9094   ✓       ✓
+125   KFGEEVWKPTLEGEK          0.9291      Database    -19.2302    1775.9094   ✓       ✓
+126   KFGEEVWKPTLEGEK          0.9291      Database    -19.2674    1775.9094   ✓       ✓
+127   KFGEEVWKPTLEGEK          0.9291      Database    -19.3017    1775.9094   ✓       ✓
+128   KFGEEVWKPTLEGEK          0.9291      Database    -19.3306    1775.9094   ✓       ✓
+129   KFGEEVWKPTLEGEK          0.9291      Database    -19.3390    1775.9094   ✓       ✓
+130   KFGEEVWKPTLEGEK          0.9291      Database    -19.3490    1775.9094   ✓       ✓
+131   KFGEEVWKPTLEGEK          0.9291      Database    -19.3551    1775.9094   ✓       ✓
+132   KFGEEVWKPTLEGEK          0.9291      Database    -19.4082    1775.9094   ✓       ✓
+133   KFGEEVWKPTLEGEK          0.9291      Database    -19.4182    1775.9094   ✓       ✓
+134   KFGEEVWKPTLEGEK          0.9291      Database    -19.4206    1775.9094   ✓       ✓
+135   KFGEEVWKPTLEGEK          0.9291      Database    -19.4565    1775.9094   ✓       ✓
+136   KFGEEVWKPTLEGEK          0.9291      Database    -19.4786    1775.9094   ✓       ✓
+137   KFGEEVWKPTLEGEK          0.9291      Database    -19.5121    1775.9094   ✓       ✓
+138   KFGEEVWKPTLEGEK          0.9291      Database    -19.5281    1775.9094   ✓       ✓
+139   KFGEEVWKPTLEGEK          0.9291      Database    -19.5362    1775.9094   ✓       ✓
+140   KFGEEVWKPTLEGEK          0.9291      Database    -19.5795    1775.9094   ✓       ✓
+141   KFGEEVWKPTLEGEK          0.9291      Database    -19.5863    1775.9094   ✓       ✓
+142   KFGEEVWKPTLEGEK          0.9291      Database    -19.6077    1775.9094   ✓       ✓
+143   KFGEEVWKPTLEGEK          0.9291      Database    -19.6120    1775.9094   ✓       ✓
+144   KFGEEVWKPTLEGEK          0.9291      Database    -19.6321    1775.9094   ✓       ✓
+145   KFGEEVWKPTLEGEK          0.9291      Database    -19.6356    1775.9094   ✓       ✓
+146   KFGEEVWKPTLEGEK          0.9291      Database    -19.6510    1775.9094   ✓       ✓
+147   KFGEEVWKPTLEGEK          0.9291      Database    -19.6996    1775.9094   ✓       ✓
+148   KFGEEVWKPTLEGEK          0.9291      Database    -19.7570    1775.9094   ✓       ✓
+149   KFGEEVWKPTLEGEK          0.9291      Database    -19.7690    1775.9094   ✓       ✓
+150   KFGEEVWKPTLEGEK          0.9291      Database    -19.7785    1775.9094   ✓       ✓
+151   KFGEEVWKPTLEGEK          0.9291      Database    -19.7977    1775.9094   ✓       ✓
+152   KFGEEVWKPTLEGEK          0.9291      Database    -19.8138    1775.9094   ✓       ✓
+153   KFGEEVWKPTLEGEK          0.9291      Database    -19.8209    1775.9094   ✓       ✓
+154   KFGEEVWKPTLEGEK          0.9291      Database    -19.8566    1775.9094   ✓       ✓
+155   KFGEEVWKPTLEGEK          0.9291      Database    -19.9355    1775.9094   ✓       ✓
+156   KFGEEVWKPTLEGEK          0.9291      Database    -19.9707    1775.9094   ✓       ✓
+157   KFGEEVWKPTLEGEK          0.9291      Database    -20.0366    1775.9094   ✓       ✓
+158   KFGEEVWKPTLEGEK          0.9291      Database    -20.1243    1775.9094   ✓       ✓
+159   KFGEEVWKPTLEGEK          0.9291      Database    -20.2133    1775.9094   ✓       ✓
+160   KFGEEVWKPTLEGEK          0.9291      Database    -20.2855    1775.9094   ✓       ✓
+161   KFGEEVWKPTLEGEK          0.9291      Database    -20.2872    1775.9094   ✓       ✓
+162   KFGEEVWKPTLEGEK          0.9291      Database    -20.3015    1775.9094   ✓       ✓
+163   KFGEEVWKPTLEGEK          0.9291      Database    -20.3571    1775.9094   ✓       ✓
+164   KFGEEVWKPTLEGEK          0.9291      Database    -20.3703    1775.9094   ✓       ✓
+165   KFGEEVWKPTLEGEK          0.9291      Database    -20.3731    1775.9094   ✓       ✓
+166   KFGEEVWKPTLEGEK          0.9291      Database    -20.3776    1775.9094   ✓       ✓
+167   KFGEEVWKPTLEGEK          0.9291      Database    -20.4275    1775.9094   ✓       ✓
+168   KFGEEVWKPTLEGEK          0.9291      Database    -20.4652    1775.9094   ✓       ✓
+169   KFGEEVWKPTLEGEK          0.9291      Database    -20.4802    1775.9094   ✓       ✓
+170   KFGEEVWKPTLEGEK          0.9291      Database    -20.4991    1775.9094   ✓       ✓
+171   KFGEEVWKPTLEGEK          0.9291      Database    -20.5247    1775.9094   ✓       ✓
+172   KFGEEVWKPTLEGEK          0.9291      Database    -22.5102    1775.9094   ✓       ✓
+173   KFGEEVWKPTLEGEK          0.9291      Database    -24.6788    1775.9094   ✓       ✓
+174   KFGEEVWKPTLEGEK          0.9291      Database    -25.5268    1775.9094   ✓       ✓
+175   KFGEQ+0.984VWKPTLEGEK    0.5691      Prosit      -8.0962     1775.9094   ✓       
+176   KFGEQ+0.984VWKPTLEGEK    0.5691      Prosit      -11.1982    1775.9094   ✓       
+177   KFGEQ+0.984VWKPTLEGEK    0.5691      Prosit      -11.2698    1775.9094   ✓       
+178   KFGEQ+0.984VWKPTLEGEK    0.5691      Prosit      -13.3668    1775.9094   ✓       
+179   KFGEQ+0.984VWKPTLEGEK    0.5691      Prosit      -14.2149    1775.9094   ✓       
+180   KFGEQ+0.984VWKPTLEGEK    0.5691      Prosit      -14.3719    1775.9094   ✓       
+181   KFGEQ+0.984VWKPTLEGEK    0.5691      Prosit      -16.2200    1775.9094   ✓       
+182   KFGEQ+0.984VWKPTLEGEK    0.5691      Prosit      -16.3076    1775.9094   ✓       
+183   KFGEQ+0.984VWKPTLEGEK    0.5691      Prosit      -16.4688    1775.9094   ✓       
+184   KFGEQ+0.984VWKPTLEGEK    0.5691      Prosit      -16.5404    1775.9094   ✓       
+185   KFGEQ+0.984VWKPTLEGEK    0.5691      Prosit      -17.3169    1775.9094   ✓       
+186   KFGEQ+0.984VWKPTLEGEK    0.5691      Prosit      -17.3885    1775.9094   ✓       
+187   KFGEQ+0.984VWKPTLEGEK    0.5691      Prosit      -17.8065    1775.9094   ✓       
+188   KFGEQ+0.984VWKPTLEGEK    0.5691      Prosit      -18.0439    1775.9094   ✓       
+189   KFGEQ+0.984VWKPTLEGEK    0.5691      Prosit      -18.5742    1775.9094   ✓       
+190   KFGEQ+0.984VWKPTLEGEK    0.5691      Prosit      -19.2040    1775.9094   ✓       
+191   KFGEQ+0.984VWKPTLEGEK    0.5691      Prosit      -19.3220    1775.9094   ✓       
+192   KFGEQ+0.984VWKPTLEGEK    0.5691      Prosit      -19.3936    1775.9094   ✓       
+193   KFGEQ+0.984VWKPTLEGEK    0.5691      Prosit      -19.4096    1775.9094   ✓       
+194   KFGEQ+0.984VWKPTLEGEK    0.5691      Prosit      -19.4812    1775.9094   ✓       
+195   KFGEQ+0.984VWKPTLEGEK    0.5691      Prosit      -19.4854    1775.9094   ✓       
+196   KFGEQ+0.984VWKPTLEGEK    0.5691      Prosit      -19.6424    1775.9094   ✓       
+197   KFGEQ+0.984VWKPTLEGEK    0.5691      Prosit      -19.9101    1775.9094   ✓       
+198   KFGEQ+0.984VWKPTLEGEK    0.5691      Prosit      -20.2510    1775.9094   ✓       
+199   KFGEQ+0.984VWKPTLEGEK    0.5691      Prosit      -20.4877    1775.9094   ✓       
+200   KFGEQ+0.984VWKPTLEGEK    0.5691      Prosit      -20.4905    1775.9094   ✓       
+201   KFGQ+0.984EVWKPTLEGEK    0.5638      Prosit      -7.2360     1775.9094   ✓       
+202   KFGQ+0.984EVWKPTLEGEK    0.5638      Prosit      -10.3380    1775.9094   ✓       
+203   KFGQ+0.984EVWKPTLEGEK    0.5638      Prosit      -10.4096    1775.9094   ✓       
+204   KFGQ+0.984EVWKPTLEGEK    0.5638      Prosit      -12.5065    1775.9094   ✓       
+205   KFGQ+0.984EVWKPTLEGEK    0.5638      Prosit      -13.3546    1775.9094   ✓       
+206   KFGQ+0.984EVWKPTLEGEK    0.5638      Prosit      -13.5116    1775.9094   ✓       
+207   KFGQ+0.984EVWKPTLEGEK    0.5638      Prosit      -15.3597    1775.9094   ✓       
+208   KFGQ+0.984EVWKPTLEGEK    0.5638      Prosit      -15.4473    1775.9094   ✓       
+209   KFGQ+0.984EVWKPTLEGEK    0.5638      Prosit      -15.6086    1775.9094   ✓       
+210   KFGQ+0.984EVWKPTLEGEK    0.5638      Prosit      -15.6801    1775.9094   ✓       
+211   KFGQ+0.984EVWKPTLEGEK    0.5638      Prosit      -16.4566    1775.9094   ✓       
+212   KFGQ+0.984EVWKPTLEGEK    0.5638      Prosit      -16.5282    1775.9094   ✓       
+213   KFGQ+0.984EVWKPTLEGEK    0.5638      Prosit      -16.9462    1775.9094   ✓       
+214   KFGQ+0.984EVWKPTLEGEK    0.5638      Prosit      -17.1837    1775.9094   ✓       
+215   KFGQ+0.984EVWKPTLEGEK    0.5638      Prosit      -17.7139    1775.9094   ✓       
+216   KFGQ+0.984EVWKPTLEGEK    0.5638      Prosit      -18.3438    1775.9094   ✓       
+217   KFGQ+0.984EVWKPTLEGEK    0.5638      Prosit      -18.4617    1775.9094   ✓       
+218   KFGQ+0.984EVWKPTLEGEK    0.5638      Prosit      -18.5333    1775.9094   ✓       
+219   KFGQ+0.984EVWKPTLEGEK    0.5638      Prosit      -18.5493    1775.9094   ✓       
+220   KFGQ+0.984EVWKPTLEGEK    0.5638      Prosit      -18.6209    1775.9094   ✓       
+221   KFGQ+0.984EVWKPTLEGEK    0.5638      Prosit      -18.6252    1775.9094   ✓       
+222   KFGQ+0.984EVWKPTLEGEK    0.5638      Prosit      -18.7822    1775.9094   ✓       
+223   KFGQ+0.984EVWKPTLEGEK    0.5638      Prosit      -19.0498    1775.9094   ✓       
+224   KFGQ+0.984EVWKPTLEGEK    0.5638      Prosit      -19.3907    1775.9094   ✓       
+225   KFGQ+0.984EVWKPTLEGEK    0.5638      Prosit      -19.6274    1775.9094   ✓       
+226   KFGQ+0.984EVWKPTLEGEK    0.5638      Prosit      -19.6302    1775.9094   ✓       
+227   KFGQ+0.984EVWKPTLEGEK    0.5638      Prosit      -20.0482    1775.9094   ✓       
+228   KFGQ+0.984EVWKPTLEGEK    0.5638      Prosit      -20.1198    1775.9094   ✓       
+229   KFGQ+0.984EVWKPTLEGEK    0.5638      Prosit      -20.2857    1775.9094   ✓       
+230   KFGQ+0.984EVWKPTLEGEK    0.5638      Prosit      -20.3573    1775.9094   ✓       
+231   KFGQ+0.984EVWKPTLEGEK    0.5638      Prosit      -20.4969    1775.9094   ✓       
+232   KFGQ+0.984EVWKPTLEGEK    0.5638      Prosit      -26.5451    1775.9094   ✓       
+233   KFGQ+0.984Q+0.984VWKPTLEGEK0.5600      Prosit      -15.2331    1775.9094   ✓       
+234   KFGQ+0.984Q+0.984VWKPTLEGEK0.5600      Prosit      -18.3352    1775.9094   ✓       
+235   KFGQ+0.984Q+0.984VWKPTLEGEK0.5600      Prosit      -18.4067    1775.9094   ✓       
+236   KFGQ+0.984Q+0.984VWKPTLEGEK0.5600      Prosit      -20.5037    1775.9094   ✓       
+237   QFGEEVWKPTLEGEK          0.5542      Prosit      -17.8420    1775.8730   ✓       
+238   QFGEEVWKPTLEGEK          0.5542      Prosit      -20.9440    1775.8730   ✓       
+239   QFGEEVWKPTLEGEK          0.5542      Prosit      -23.1126    1775.8730   ✓       
+240   QFGEEVWKPTLEGEK          0.5542      Prosit      -23.9606    1775.8730   ✓       
+241   QFGEEVWKPTLEGEK          0.5542      Prosit      -25.9657    1775.8730   ✓       
+242   QFGEEVWKPTLEGEK          0.5542      Prosit      -26.0533    1775.8730   ✓       
+243   QFGEEVWKPTLEGEK          0.5542      Prosit      -26.2146    1775.8730   ✓       
+244   QFGEEVWKPTLEGEK          0.5542      Prosit      -27.0627    1775.8730   ✓       
+245   KFGEEVWKPTLEGEQ          0.5487      Prosit      -13.3929    1775.8730   ✓       
+246   KFGEEVWKPTLEGEQ          0.5487      Prosit      -16.4949    1775.8730   ✓       
+247   KFGEEVWKPTLEGEQ          0.5487      Prosit      -16.5665    1775.8730   ✓       
+248   KFGEEVWKPTLEGEQ          0.5487      Prosit      -18.6635    1775.8730   ✓       
+249   KFGEEVWKPTLEGEQ          0.5487      Prosit      -19.5116    1775.8730   ✓       
+250   KFGEEVWKPTLEGEQ          0.5487      Prosit      -19.6686    1775.8730   ✓       
+251   QFGEQ+0.984VWKPTLEGEK    0.5414      Prosit      -25.8392    1775.8730   ✓       
+252   KFGQ+0.984EVWKPTLEGEQ    0.5382      Prosit      -20.5298    1775.8730   ✓       
+253   QFGQ+0.984EVWKPTLEGEK    0.5369      Prosit      -24.9789    1775.8730   ✓       
+254   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -6.2724     1775.9094   ✓       
+255   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -9.3745     1775.9094   ✓       
+256   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -9.4460     1775.9094   ✓       
+257   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -11.5430    1775.9094   ✓       
+258   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -12.3911    1775.9094   ✓       
+259   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -12.5481    1775.9094   ✓       
+260   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -14.3962    1775.9094   ✓       
+261   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -14.4838    1775.9094   ✓       
+262   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -14.6450    1775.9094   ✓       
+263   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -14.7166    1775.9094   ✓       
+264   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -15.4931    1775.9094   ✓       
+265   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -15.5647    1775.9094   ✓       
+266   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -15.9827    1775.9094   ✓       
+267   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -16.2202    1775.9094   ✓       
+268   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -16.7504    1775.9094   ✓       
+269   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -17.3803    1775.9094   ✓       
+270   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -17.4982    1775.9094   ✓       
+271   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -17.5698    1775.9094   ✓       
+272   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -17.5858    1775.9094   ✓       
+273   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -17.6574    1775.9094   ✓       
+274   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -17.6616    1775.9094   ✓       
+275   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -17.8186    1775.9094   ✓       
+276   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -18.0863    1775.9094   ✓       
+277   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -18.4272    1775.9094   ✓       
+278   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -18.6639    1775.9094   ✓       
+279   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -18.6667    1775.9094   ✓       
+280   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -19.0847    1775.9094   ✓       
+281   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -19.1563    1775.9094   ✓       
+282   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -19.3222    1775.9094   ✓       
+283   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -19.3938    1775.9094   ✓       
+284   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -19.4099    1775.9094   ✓       
+285   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -19.5334    1775.9094   ✓       
+286   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -19.6667    1775.9094   ✓       
+287   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -19.7544    1775.9094   ✓       
+288   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -19.8333    1775.9094   ✓       
+289   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -19.8524    1775.9094   ✓       
+290   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -20.2680    1775.9094   ✓       
+291   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -20.4823    1775.9094   ✓       
+292   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -20.5148    1775.9094   ✓       
+293   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -20.5350    1775.9094   ✓       
+294   KFGEEVWKPTLEGQ+0.984K    0.5295      Prosit      -25.5816    1775.9094   ✓       
+295   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -6.0375     1775.9094   ✓       
+296   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -9.1396     1775.9094   ✓       
+297   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -9.2111     1775.9094   ✓       
+298   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -11.3081    1775.9094   ✓       
+299   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -12.1562    1775.9094   ✓       
+300   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -12.3132    1775.9094   ✓       
+301   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -14.1613    1775.9094   ✓       
+302   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -14.2489    1775.9094   ✓       
+303   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -14.4101    1775.9094   ✓       
+304   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -14.4817    1775.9094   ✓       
+305   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -15.2582    1775.9094   ✓       
+306   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -15.3298    1775.9094   ✓       
+307   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -15.7478    1775.9094   ✓       
+308   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -15.9852    1775.9094   ✓       
+309   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -16.5155    1775.9094   ✓       
+310   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -17.1454    1775.9094   ✓       
+311   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -17.2633    1775.9094   ✓       
+312   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -17.3349    1775.9094   ✓       
+313   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -17.3509    1775.9094   ✓       
+314   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -17.4225    1775.9094   ✓       
+315   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -17.4267    1775.9094   ✓       
+316   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -17.5837    1775.9094   ✓       
+317   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -17.8514    1775.9094   ✓       
+318   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -18.1923    1775.9094   ✓       
+319   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -18.4290    1775.9094   ✓       
+320   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -18.4318    1775.9094   ✓       
+321   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -18.8498    1775.9094   ✓       
+322   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -18.9214    1775.9094   ✓       
+323   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -19.0873    1775.9094   ✓       
+324   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -19.1589    1775.9094   ✓       
+325   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -19.1750    1775.9094   ✓       
+326   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -19.2985    1775.9094   ✓       
+327   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -19.4318    1775.9094   ✓       
+328   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -19.5194    1775.9094   ✓       
+329   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -19.6175    1775.9094   ✓       
+330   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -19.6336    1775.9094   ✓       
+331   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -20.0331    1775.9094   ✓       
+332   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -20.2474    1775.9094   ✓       
+333   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -20.2799    1775.9094   ✓       
+334   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -20.3001    1775.9094   ✓       
+335   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -20.3190    1775.9094   ✓       
+336   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -20.3675    1775.9094   ✓       
+337   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -20.4369    1775.9094   ✓       
+338   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -20.4888    1775.9094   ✓       
+339   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -20.5245    1775.9094   ✓       
+340   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -20.5288    1775.9094   ✓       
+341   KFGEEVWKPTLQ+0.984GEK    0.5275      Prosit      -25.3467    1775.9094   ✓       
+342   KFGEEVWQPTLEGEK          0.5229      Prosit      -13.8381    1775.8730   ✓       
+343   KFGEEVWQPTLEGEK          0.5229      Prosit      -16.9402    1775.8730   ✓       
+344   KFGEEVWQPTLEGEK          0.5229      Prosit      -17.0117    1775.8730   ✓       
+345   KFGEEVWQPTLEGEK          0.5229      Prosit      -19.1087    1775.8730   ✓       
+346   KFGEEVWQPTLEGEK          0.5229      Prosit      -20.1138    1775.8730   ✓       
+347   KFGEEVWKPTLQ+0.984GEQ    0.5199      Prosit      -19.3314    1775.8730   ✓       
+348   KFGEEVWKPTLEGQ+0.984Q    0.5199      Prosit      -19.5663    1775.8730   ✓       
+349   KFGEQ+0.984VWKPTLEGQ+0.984K0.5088      Prosit      -14.2696    1775.9094   ✓       
+350   KFGEQ+0.984VWKPTLEGQ+0.984K0.5088      Prosit      -17.3716    1775.9094   ✓       
+351   KFGEQ+0.984VWKPTLEGQ+0.984K0.5088      Prosit      -17.4432    1775.9094   ✓       
+352   KFGEQ+0.984VWKPTLEGQ+0.984K0.5088      Prosit      -19.5402    1775.9094   ✓       
+353   KFGEQ+0.984VWKPTLEGQ+0.984K0.5088      Prosit      -20.3883    1775.9094   ✓       
+354   KFGEQ+0.984VWKPTLEGQ+0.984K0.5088      Prosit      -20.5453    1775.9094   ✓       
+355   KFGQ+0.984EVWKPTLEGQ+0.984K0.5080      Prosit      -13.4094    1775.9094   ✓       
+356   KFGQ+0.984EVWKPTLEGQ+0.984K0.5080      Prosit      -16.5114    1775.9094   ✓       
+357   KFGQ+0.984EVWKPTLEGQ+0.984K0.5080      Prosit      -16.5830    1775.9094   ✓       
+358   KFGQ+0.984EVWKPTLEGQ+0.984K0.5080      Prosit      -18.6799    1775.9094   ✓       
+359   KFGQ+0.984EVWKPTLEGQ+0.984K0.5080      Prosit      -19.5280    1775.9094   ✓       
+360   KFGQ+0.984EVWKPTLEGQ+0.984K0.5080      Prosit      -19.6850    1775.9094   ✓       
+361   QFGEEVWKPTLQ+0.984GEK    0.5050      Prosit      -23.7805    1775.8730   ✓       
+362   QFGEEVWKPTLQ+0.984GEK    0.5050      Prosit      -26.8825    1775.8730   ✓       
+363   QFGEEVWKPTLEGQ+0.984K    0.5038      Prosit      -24.0154    1775.8730   ✓       
+364   QFGEEVWKPTLEGQ+0.984K    0.5038      Prosit      -27.1174    1775.8730   ✓       
+365   KFGEQ+0.984VWKPTLQ+0.984GEK0.4854      Prosit      -14.0347    1775.9094   ✓       
+366   KFGEQ+0.984VWKPTLQ+0.984GEK0.4854      Prosit      -17.1367    1775.9094   ✓       
+367   KFGEQ+0.984VWKPTLQ+0.984GEK0.4854      Prosit      -17.2083    1775.9094   ✓       
+368   KFGEQ+0.984VWKPTLQ+0.984GEK0.4854      Prosit      -19.3053    1775.9094   ✓       
+369   KFGEQ+0.984VWKPTLQ+0.984GEK0.4854      Prosit      -20.1533    1775.9094   ✓       
+370   KFGEQ+0.984VWKPTLQ+0.984GEK0.4854      Prosit      -20.3103    1775.9094   ✓       
+371   KFGQ+0.984EVWKPTLQ+0.984GEK0.4814      Prosit      -13.1744    1775.9094   ✓       
+372   KFGQ+0.984EVWKPTLQ+0.984GEK0.4814      Prosit      -16.2765    1775.9094   ✓       
+373   KFGQ+0.984EVWKPTLQ+0.984GEK0.4814      Prosit      -16.3481    1775.9094   ✓       
+374   KFGQ+0.984EVWKPTLQ+0.984GEK0.4814      Prosit      -18.4450    1775.9094   ✓       
+375   KFGQ+0.984EVWKPTLQ+0.984GEK0.4814      Prosit      -19.2931    1775.9094   ✓       
+376   KFGQ+0.984EVWKPTLQ+0.984GEK0.4814      Prosit      -19.4501    1775.9094   ✓       
+377   KFGEEVWQPTLQ+0.984GEK    0.4757      Prosit      -19.7766    1775.8730   ✓       
+378   KFGEQ+0.984VWKPTLQ+0.984GQ+0.984K0.4755      Prosit      -20.2081    1775.9094   ✓       
+379   KFGEEVWQPTLEGQ+0.984K    0.4707      Prosit      -20.0115    1775.8730   ✓       
+380   KFGQ+0.984EVWKPTLQ+0.984GQ+0.984K0.4683      Prosit      -19.3478    1775.9094   ✓       
+381   KFGEEVWKPTLQ+0.984GQ+0.984K0.4436      Prosit      -12.2109    1775.9094   ✓       
+382   KFGEEVWKPTLQ+0.984GQ+0.984K0.4436      Prosit      -15.3130    1775.9094   ✓       
+383   KFGEEVWKPTLQ+0.984GQ+0.984K0.4436      Prosit      -15.3845    1775.9094   ✓       
+384   KFGEEVWKPTLQ+0.984GQ+0.984K0.4436      Prosit      -17.4815    1775.9094   ✓       
+385   KFGEEVWKPTLQ+0.984GQ+0.984K0.4436      Prosit      -18.3296    1775.9094   ✓       
+386   KFGEEVWKPTLQ+0.984GQ+0.984K0.4436      Prosit      -18.4866    1775.9094   ✓       
+387   KFGEEVWKPTLQ+0.984GQ+0.984K0.4436      Prosit      -20.3347    1775.9094   ✓       
+388   KFGEEVWKPTLQ+0.984GQ+0.984K0.4436      Prosit      -20.4223    1775.9094   ✓       
+389   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -11.8806    1689.8250   ✗       
+390   KFGEEVWKPTLEGLK          -1.0000     NotChecked  -12.0444    1759.9509   ✗       
+391   KFGEEVWKPTLKGEK          -1.0000     NotChecked  -12.1282    1774.9618   ✗       
+392   KFGEEVWKPTTEGEK          -1.0000     NotChecked  -12.2715    1763.8730   ✗       
+393   KFGEEVWKPTLQGEK          -1.0000     NotChecked  -12.6667    1774.9254   ✗       
+394   KFGEEVWKPTLEGK           -1.0000     NotChecked  -12.7135    1646.8668   ✗       
+395   KFGEEVWKPTLEGTK          -1.0000     NotChecked  -12.8365    1747.9145   ✗       
+396   KFGEEVWKPTVEGEK          -1.0000     NotChecked  -13.2417    1761.8937   ✗       
+397   KFGEEVWKPTLEEK           -1.0000     NotChecked  -13.3023    1718.8879   ✗       
+398   KFGEEVWKPTLEGE           -1.0000     NotChecked  -13.5180    1647.8144   ✗       
+399   KFGEEVWKPTLEGE           -1.0000     NotChecked  -13.5658    1647.8144   ✗       
+400   KFGEEVWKPTLEGEL          -1.0000     NotChecked  -13.6993    1760.8985   ✗       
+401   KFGEEVWKPVLEGEK          -1.0000     NotChecked  -13.7119    1773.9301   ✗       
+402   KFGEEVWKPTLEGQK          -1.0000     NotChecked  -13.7333    1774.9254   ✗       
+403   KFGEEVWKPTLAGEK          -1.0000     NotChecked  -13.7622    1717.9039   ✗       
+404   KFGEEVWKPTLGEK           -1.0000     NotChecked  -13.7759    1646.8668   ✗       
+405   +43.006FGEEVWKPTLEGEK    -1.0000     NotChecked  -13.7908    1690.8202   ✗       
+406   KFGEEVWKPTLEGDK          -1.0000     NotChecked  -13.8371    1761.8937   ✗       
+407   KFGEEVWKPTAEGEK          -1.0000     NotChecked  -14.0162    1733.8624   ✗       
+408   KFGEEVWKPSLEGEK          -1.0000     NotChecked  -14.0747    1761.8938   ✗       
+409   KFGEDVWKPTLEGEK          -1.0000     NotChecked  -14.1229    1761.8937   ✗       
+410   KFGEEVWKPTLGGEK          -1.0000     NotChecked  -14.1312    1703.8883   ✗       
+411   KFGEEVWKTLEGEK           -1.0000     NotChecked  -14.2890    1678.8566   ✗       
+412   KFGEQVWKPTLEGEK          -1.0000     NotChecked  -14.3687    1774.9254   ✗       
+413   KFGEEVWKPTLTGEK          -1.0000     NotChecked  -14.4443    1747.9145   ✗       
+414   KFGEEVWPPTLEGEK          -1.0000     NotChecked  -14.4826    1744.8672   ✗       
+415   KFGEEVWPTLEGEK           -1.0000     NotChecked  -14.5218    1647.8144   ✗       
+416   KFGEEVWKPTLDGEK          -1.0000     NotChecked  -14.6877    1761.8937   ✗       
+417   KFGEEVWKATLEGEK          -1.0000     NotChecked  -14.7156    1749.8937   ✗       
+418   KFGEEVWKSTLEGEK          -1.0000     NotChecked  -14.7343    1765.8887   ✗       
+419   KFGEEVWKPTLEGEG          -1.0000     NotChecked  -14.8127    1704.8359   ✗       
+420   KFGKEVWKPTLEGEK          -1.0000     NotChecked  -14.8300    1774.9618   ✗       
+421   KFGEEVWKPTSEGEK          -1.0000     NotChecked  -14.8620    1749.8574   ✗       
+422   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -14.9826    1689.8250   ✗       
+423   KFGEEVWKPTLEGK           -1.0000     NotChecked  -14.9918    1646.8668   ✗       
+424   KFGEEAWKPTLEGEK          -1.0000     NotChecked  -14.9964    1747.8781   ✗       
+425   KFGEEVWKPTLEGLK          -1.0000     NotChecked  -15.1464    1759.9509   ✗       
+426   KFGDEVWKPTLEGEK          -1.0000     NotChecked  -15.1675    1761.8937   ✗       
+427   KFGEEVWKGTLEGEK          -1.0000     NotChecked  -15.1689    1735.8781   ✗       
+428   KFGEEVWLPTLEGEK          -1.0000     NotChecked  -15.2117    1760.8985   ✗       
+429   KFGEEVWKPTLEGLK          -1.0000     NotChecked  -15.2180    1759.9509   ✗       
+430   KFGEEVWKPTLKGEK          -1.0000     NotChecked  -15.2303    1774.9618   ✗       
+431   KFGEEVWKPTLKGEK          -1.0000     NotChecked  -15.3018    1774.9618   ✗       
+432   KFGEEWKPTLEGEK           -1.0000     NotChecked  -15.3627    1676.8410   ✗       
+433   KFGEEVWKPTTEGEK          -1.0000     NotChecked  -15.3735    1763.8730   ✗       
+434   KFGELVWKPTLEGEK          -1.0000     NotChecked  -15.3814    1759.9509   ✗       
+435   KFGEVVWKPTLEGEK          -1.0000     NotChecked  -15.3955    1745.9352   ✗       
+436   KFGEEVWKPTTEGEK          -1.0000     NotChecked  -15.4451    1763.8730   ✗       
+437   KFGEEVLKPTLEGEK          -1.0000     NotChecked  -15.4866    1702.9141   ✗       
+438   KFGEKVWKPTLEGEK          -1.0000     NotChecked  -15.4957    1774.9618   ✗       
+439   KFGEEVWKPTLEGET          -1.0000     NotChecked  -15.5437    1748.8621   ✗       
+440   KFGLEVWKPTLEGEK          -1.0000     NotChecked  -15.6066    1759.9509   ✗       
+441   KFGEVWKPTLEGEK           -1.0000     NotChecked  -15.6649    1646.8668   ✗       
+442   KFGEEVWKPTLQGEK          -1.0000     NotChecked  -15.7688    1774.9254   ✗       
+443   KFGEEVWVPTLEGEK          -1.0000     NotChecked  -15.7899    1746.8828   ✗       
+444   KFGEEVWKPTLEGK           -1.0000     NotChecked  -15.8155    1646.8668   ✗       
+445   KFGEEVWKPTLQGEK          -1.0000     NotChecked  -15.8404    1774.9254   ✗       
+446   KFGEEVWKPTLEGK           -1.0000     NotChecked  -15.8871    1646.8668   ✗       
+447   KFGEEVWKPTLEGTK          -1.0000     NotChecked  -15.9386    1747.9145   ✗       
+448   KFGEEVWKPTLEGTK          -1.0000     NotChecked  -16.0101    1747.9145   ✗       
+449   KFGEEGWKPTLEGEK          -1.0000     NotChecked  -16.1656    1733.8624   ✗       
+450   FGEEVWKPTLEGEK           -1.0000     NotChecked  -16.2346    1647.8144   ✗       
+451   KFGQEVWKPTLEGEK          -1.0000     NotChecked  -16.2473    1774.9254   ✗       
+452   KFGVEVWKPTLEGEK          -1.0000     NotChecked  -16.3089    1745.9352   ✗       
+453   KFGEEVWKPTVEGEK          -1.0000     NotChecked  -16.3438    1761.8937   ✗       
+454   -17.027FGEEVWKPTLEGEK    -1.0000     NotChecked  -16.3493    1630.7879   ✗       
+455   LFGEEVWKPTLEGEK          -1.0000     NotChecked  -16.3885    1760.8985   ✗       
+456   KFGEEVWKPTLEEK           -1.0000     NotChecked  -16.4043    1718.8879   ✗       
+457   KFGEEVWKPTVEGEK          -1.0000     NotChecked  -16.4153    1761.8937   ✗       
+458   KFGEVWKPTLEGEK           -1.0000     NotChecked  -16.4728    1646.8668   ✗       
+459   KFGEEVWKPTLEEK           -1.0000     NotChecked  -16.4759    1718.8879   ✗       
+460   KFGEEVWKPTLEGE           -1.0000     NotChecked  -16.6200    1647.8144   ✗       
+461   KFGEEVWKPTLEGE           -1.0000     NotChecked  -16.6678    1647.8144   ✗       
+462   KFGEEVWKPTLEGE           -1.0000     NotChecked  -16.6916    1647.8144   ✗       
+463   KFGEEVWKPTLEGE           -1.0000     NotChecked  -16.7394    1647.8144   ✗       
+464   KFGEEVWSPTLEGEK          -1.0000     NotChecked  -16.7447    1734.8465   ✗       
+465   KFGEEVWKPTLEGEL          -1.0000     NotChecked  -16.8013    1760.8985   ✗       
+466   KFGEEVWKPVLEGEK          -1.0000     NotChecked  -16.8140    1773.9301   ✗       
+467   KFGEEVWKPTLEGQK          -1.0000     NotChecked  -16.8353    1774.9254   ✗       
+468   KLGEEVWKPTLEGEK          -1.0000     NotChecked  -16.8370    1741.9250   ✗       
+469   KFGEEVWKPTLAGEK          -1.0000     NotChecked  -16.8643    1717.9039   ✗       
+470   KFGEEVWKPTLEGEL          -1.0000     NotChecked  -16.8729    1760.8985   ✗       
+471   KFGEEVWKPTLGEK           -1.0000     NotChecked  -16.8780    1646.8668   ✗       
+472   KFGEEVWKPVLEGEK          -1.0000     NotChecked  -16.8856    1773.9301   ✗       
+473   +43.006FGEEVWKPTLEGEK    -1.0000     NotChecked  -16.8928    1690.8202   ✗       
+474   KFGEEVWKPTLEGQK          -1.0000     NotChecked  -16.9069    1774.9254   ✗       
+475   KFGEEVWKPTLAGEK          -1.0000     NotChecked  -16.9358    1717.9039   ✗       
+476   KFGEEVWKPTLEGDK          -1.0000     NotChecked  -16.9392    1761.8937   ✗       
+477   VFGEEVWKPTLEGEK          -1.0000     NotChecked  -16.9426    1746.8828   ✗       
+478   KFGEEVWKPTLGEK           -1.0000     NotChecked  -16.9495    1646.8668   ✗       
+479   KFGEEVEKPTLEGEK          -1.0000     NotChecked  -16.9657    1718.8727   ✗       
+480   KFGEEVWKPTLEGDK          -1.0000     NotChecked  -17.0107    1761.8937   ✗       
+481   KFGEEVWKPTAEGEK          -1.0000     NotChecked  -17.1182    1733.8624   ✗       
+482   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -17.1511    1689.8250   ✗       
+483   KFGEEVWKPSLEGEK          -1.0000     NotChecked  -17.1768    1761.8938   ✗       
+484   KFGEEVWKPTAEGEK          -1.0000     NotChecked  -17.1898    1733.8624   ✗       
+485   KFGEDVWKPTLEGEK          -1.0000     NotChecked  -17.2249    1761.8937   ✗       
+486   KFGEEVWKPTLGGEK          -1.0000     NotChecked  -17.2332    1703.8883   ✗       
+487   KFGEEVWKPSLEGEK          -1.0000     NotChecked  -17.2483    1761.8938   ✗       
+488   KFGEEVVKPTLEGEK          -1.0000     NotChecked  -17.2573    1688.8985   ✗       
+489   KFGEDVWKPTLEGEK          -1.0000     NotChecked  -17.2965    1761.8937   ✗       
+490   KFGEEVWKPTLGGEK          -1.0000     NotChecked  -17.3048    1703.8883   ✗       
+491   KFGEEVWKPTLEGLK          -1.0000     NotChecked  -17.3150    1759.9509   ✗       
+492   KFGEEVWKPTLKGEK          -1.0000     NotChecked  -17.3988    1774.9618   ✗       
+493   KFGEEVWKTLEGEK           -1.0000     NotChecked  -17.4626    1678.8566   ✗       
+494   KFGEQVWKPTLEGEK          -1.0000     NotChecked  -17.4707    1774.9254   ✗       
+495   KGGEEVWKPTLEGEK          -1.0000     NotChecked  -17.5312    1685.8624   ✗       
+496   KFGEEVWKPTTEGEK          -1.0000     NotChecked  -17.5421    1763.8730   ✗       
+497   KFGEQVWKPTLEGEK          -1.0000     NotChecked  -17.5423    1774.9254   ✗       
+498   KFGEEVWKPTLTGEK          -1.0000     NotChecked  -17.5463    1747.9145   ✗       
+499   KFGEEVWPPTLEGEK          -1.0000     NotChecked  -17.5846    1744.8672   ✗       
+500   KFGEEVWKPTLTGEK          -1.0000     NotChecked  -17.6179    1747.9145   ✗       
+501   KFGEEVWPTLEGEK           -1.0000     NotChecked  -17.6238    1647.8144   ✗       
+502   KFGEEVWPPTLEGEK          -1.0000     NotChecked  -17.6562    1744.8672   ✗       
+503   KFGEEVQKPTLEGEK          -1.0000     NotChecked  -17.6933    1717.8887   ✗       
+504   KFGEEVWPTLEGEK           -1.0000     NotChecked  -17.6954    1647.8144   ✗       
+505   KKGEEVWKPTLEGEK          -1.0000     NotChecked  -17.7352    1756.9359   ✗       
+506   KFGEEVWKPTLDGEK          -1.0000     NotChecked  -17.7897    1761.8937   ✗       
+507   +42.011FGEEVWKPTLQ+0.984GEK-1.0000     NotChecked  -17.8191    1689.8250   ✗       
+508   KFGEEVKKPTLEGEK          -1.0000     NotChecked  -17.8340    1717.9250   ✗       
+509   KFGEEVWKPTLDGEK          -1.0000     NotChecked  -17.8613    1761.8937   ✗       
+510   KFGEEVWKATLEGEK          -1.0000     NotChecked  -17.8893    1749.8937   ✗       
+511   KFGEEVWKSTLEGEK          -1.0000     NotChecked  -17.9079    1765.8887   ✗       
+512   KFGEEVWKPTLEGEG          -1.0000     NotChecked  -17.9147    1704.8359   ✗       
+513   KFGKEVWKPTLEGEK          -1.0000     NotChecked  -17.9320    1774.9618   ✗       
+514   KFGEEVWKPTLQGEK          -1.0000     NotChecked  -17.9373    1774.9254   ✗       
+515   KFGEEVWKPTSEGEK          -1.0000     NotChecked  -17.9640    1749.8574   ✗       
+516   KFGEEVWKPTLQ+0.984GLK    -1.0000     NotChecked  -17.9829    1759.9509   ✗       
+517   KFGEEVWKPTLEGK           -1.0000     NotChecked  -17.9840    1646.8668   ✗       
+518   KFGEEVWKPTLEGEG          -1.0000     NotChecked  -17.9863    1704.8359   ✗       
+519   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -17.9992    1689.8250   ✗       
+520   KFGKEVWKPTLEGEK          -1.0000     NotChecked  -18.0036    1774.9618   ✗       
+521   KFGEEVWKPTSEGEK          -1.0000     NotChecked  -18.0356    1749.8574   ✗       
+522   +42.011FGEEVWKPTLEGQ+0.984K-1.0000     NotChecked  -18.0540    1689.8250   ✗       
+523   KFGEEVWKPTLEGK           -1.0000     NotChecked  -18.0938    1646.8668   ✗       
+524   KFGEEAWKPTLEGEK          -1.0000     NotChecked  -18.0984    1747.8781   ✗       
+525   KFGEEVWKPTLEGTK          -1.0000     NotChecked  -18.1071    1747.9145   ✗       
+526   KTGEEVWKPTLEGEK          -1.0000     NotChecked  -18.1283    1729.8886   ✗       
+527   KEGEEVWKPTLEGEK          -1.0000     NotChecked  -18.1340    1757.8836   ✗       
+528   KFGEEVWKPTLEGLK          -1.0000     NotChecked  -18.1631    1759.9509   ✗       
+529   KFGEEVWKPTLEGK           -1.0000     NotChecked  -18.1654    1646.8668   ✗       
+530   KFGEEAWKPTLEGEK          -1.0000     NotChecked  -18.1700    1747.8781   ✗       
+531   KFGEEVC+57.021KPTLEGEK   -1.0000     NotChecked  -18.1742    1749.8607   ✗       
+532   KFGEEVSKPTLEGEK          -1.0000     NotChecked  -18.1993    1676.8621   ✗       
+533   KFGEEVWKPTTQ+0.984GEK    -1.0000     NotChecked  -18.2100    1763.8730   ✗       
+534   KFGEEVWKPTLKGEK          -1.0000     NotChecked  -18.2469    1774.9618   ✗       
+535   KFGEEVMKPTLEGEK          -1.0000     NotChecked  -18.2615    1720.8706   ✗       
+536   KFGDEVWKPTLEGEK          -1.0000     NotChecked  -18.2696    1761.8937   ✗       
+537   KMGEEVWKPTLEGEK          -1.0000     NotChecked  -18.2821    1759.8815   ✗       
+538   KVGEEVWKPTLEGEK          -1.0000     NotChecked  -18.2855    1727.9094   ✗       
+539   KFGEEVWKPTLKGQ+0.984K    -1.0000     NotChecked  -18.3016    1774.9618   ✗       
+540   KFGEEVWLPTLEGEK          -1.0000     NotChecked  -18.3137    1760.8985   ✗       
+541   KFGEEVWKPTLEGLK          -1.0000     NotChecked  -18.3201    1759.9509   ✗       
+542   KFGDEVWKPTLEGEK          -1.0000     NotChecked  -18.3411    1761.8937   ✗       
+543   KFGEEVWKGTLEGEK          -1.0000     NotChecked  -18.3425    1735.8781   ✗       
+544   KFGEEVWLPTLEGEK          -1.0000     NotChecked  -18.3853    1760.8985   ✗       
+545   KFGEEVWKPTTEGEK          -1.0000     NotChecked  -18.3902    1763.8730   ✗       
+546   KFGEEVWKPTLKGEK          -1.0000     NotChecked  -18.4039    1774.9618   ✗       
+547   KFGEEVWKPTTEGQ+0.984K    -1.0000     NotChecked  -18.4449    1763.8730   ✗       
+548   KSGEEVWKPTLEGEK          -1.0000     NotChecked  -18.4470    1715.8730   ✗       
+549   KFGEEWKPTLEGEK           -1.0000     NotChecked  -18.4647    1676.8410   ✗       
+550   KFGELVWKPTLEGEK          -1.0000     NotChecked  -18.4834    1759.9509   ✗       
+551   KFGEVVWKPTLEGEK          -1.0000     NotChecked  -18.4976    1745.9352   ✗       
+552   KFGEEVWKPTVEGEK          -1.0000     NotChecked  -18.5123    1761.8937   ✗       
+553   KFGEEVYKPTLEGEK          -1.0000     NotChecked  -18.5168    1752.8934   ✗       
+554   KFGEEWKPTLEGEK           -1.0000     NotChecked  -18.5363    1676.8410   ✗       
+555   KFGEEVWKPTTEGEK          -1.0000     NotChecked  -18.5472    1763.8730   ✗       
+556   KFGELVWKPTLEGEK          -1.0000     NotChecked  -18.5550    1759.9509   ✗       
+557   KFGEVVWKPTLEGEK          -1.0000     NotChecked  -18.5692    1745.9352   ✗       
+558   KFGEEVWKPTLEEK           -1.0000     NotChecked  -18.5728    1718.8879   ✗       
+559   KFGEEVLKPTLEGEK          -1.0000     NotChecked  -18.5886    1702.9141   ✗       
+560   KFGEKVWKPTLEGEK          -1.0000     NotChecked  -18.5977    1774.9618   ✗       
+561   KFGEEVWKPTLEGET          -1.0000     NotChecked  -18.6458    1748.8621   ✗       
+562   KFGEEVWKPTLQ+0.984GK     -1.0000     NotChecked  -18.6520    1646.8668   ✗       
+563   KFGEEVLKPTLEGEK          -1.0000     NotChecked  -18.6602    1702.9141   ✗       
+564   KFGEKVWKPTLEGEK          -1.0000     NotChecked  -18.6693    1774.9618   ✗       
+565   KFGLEVWKPTLEGEK          -1.0000     NotChecked  -18.7087    1759.9509   ✗       
+566   KFGEEVWKPTLEGET          -1.0000     NotChecked  -18.7174    1748.8621   ✗       
+567   KFGEVWKPTLEGEK           -1.0000     NotChecked  -18.7669    1646.8668   ✗       
+568   KFGEEVWKPTLQ+0.984GTK    -1.0000     NotChecked  -18.7750    1747.9145   ✗       
+569   KFGLEVWKPTLEGEK          -1.0000     NotChecked  -18.7802    1759.9509   ✗       
+570   KFGEEVWKPTLQGEK          -1.0000     NotChecked  -18.7854    1774.9254   ✗       
+571   KFGEEVWKPTLEGE           -1.0000     NotChecked  -18.7886    1647.8144   ✗       
+572   KFGEEVWKPTLEGK           -1.0000     NotChecked  -18.8321    1646.8668   ✗       
+573   KFGEEVWKPTLEGE           -1.0000     NotChecked  -18.8364    1647.8144   ✗       
+574   KFGEVWKPTLEGEK           -1.0000     NotChecked  -18.8385    1646.8668   ✗       
+575   KFGEEVWKPTLQGQ+0.984K    -1.0000     NotChecked  -18.8401    1774.9254   ✗       
+576   KFGEEVWVPTLEGEK          -1.0000     NotChecked  -18.8920    1746.8828   ✗       
+577   KFGEEVWKPTLQGEK          -1.0000     NotChecked  -18.9424    1774.9254   ✗       
+578   KFGEEVWKPTLEGTK          -1.0000     NotChecked  -18.9552    1747.9145   ✗       
+579   KFGEEVWVPTLEGEK          -1.0000     NotChecked  -18.9635    1746.8828   ✗       
+580   KFGEEVWKPTLEGEL          -1.0000     NotChecked  -18.9699    1760.8985   ✗       
+581   KFGEEVWKPVLEGEK          -1.0000     NotChecked  -18.9825    1773.9301   ✗       
+582   KFGEEVWKPTLEGK           -1.0000     NotChecked  -18.9891    1646.8668   ✗       
+583   KFGEEVWKPTLEGQK          -1.0000     NotChecked  -19.0038    1774.9254   ✗       
+584   +42.011FGQ+0.984EVWKPTLEGEK-1.0000     NotChecked  -19.0175    1689.8250   ✗       
+585   KFGEEVWKPTLAGEK          -1.0000     NotChecked  -19.0328    1717.9039   ✗       
+586   KFGEEVWKPTLGEK           -1.0000     NotChecked  -19.0465    1646.8668   ✗       
+587   +43.006FGEEVWKPTLEGEK    -1.0000     NotChecked  -19.0614    1690.8202   ✗       
+588   KFGEEVWKPTLEGDK          -1.0000     NotChecked  -19.1077    1761.8937   ✗       
+589   KFGEEVWKPTLEGTK          -1.0000     NotChecked  -19.1122    1747.9145   ✗       
+590   KFGEEVWKPTVQ+0.984GEK    -1.0000     NotChecked  -19.1802    1761.8937   ✗       
+591   KFGQ+0.984EVWKPTLEGLK    -1.0000     NotChecked  -19.1813    1759.9509   ✗       
+592   KFGEEVWKPTLQ+0.984EK     -1.0000     NotChecked  -19.2408    1718.8879   ✗       
+593   KFGQ+0.984EVWKPTLKGEK    -1.0000     NotChecked  -19.2651    1774.9618   ✗       
+594   KFGEEGWKPTLEGEK          -1.0000     NotChecked  -19.2676    1733.8624   ✗       
+595   KFGEEVWKPTAEGEK          -1.0000     NotChecked  -19.2867    1733.8624   ✗       
+596   FGEEVWKPTLEGEK           -1.0000     NotChecked  -19.3366    1647.8144   ✗       
+597   KFGEEGWKPTLEGEK          -1.0000     NotChecked  -19.3392    1733.8624   ✗       
+598   KFGEEVWKPSLEGEK          -1.0000     NotChecked  -19.3453    1761.8938   ✗       
+599   KFGQEVWKPTLEGEK          -1.0000     NotChecked  -19.3493    1774.9254   ✗       
+600   KFGEEVWKPTVEGEK          -1.0000     NotChecked  -19.3604    1761.8937   ✗       
+601   KFEEVWKPTLEGEK           -1.0000     NotChecked  -19.3652    1718.8879   ✗       
+602   KFGEDVWKPTLEGEK          -1.0000     NotChecked  -19.3935    1761.8937   ✗       
+603   KFGEEVWKPTLGGEK          -1.0000     NotChecked  -19.4018    1703.8883   ✗       
+604   KFGQ+0.984EVWKPTTEGEK    -1.0000     NotChecked  -19.4084    1763.8730   ✗       
+605   KFGVEVWKPTLEGEK          -1.0000     NotChecked  -19.4109    1745.9352   ✗       
+606   KFGEEVWKPTVEGQ+0.984K    -1.0000     NotChecked  -19.4151    1761.8937   ✗       
+607   KFGQEVWKPTLEGEK          -1.0000     NotChecked  -19.4209    1774.9254   ✗       
+608   KFGEEVWKPTLEEK           -1.0000     NotChecked  -19.4209    1718.8879   ✗       
+609   -17.027FGEEVWKPTLEGEK    -1.0000     NotChecked  -19.4513    1630.7879   ✗       
+610   KFGEEVWKPTLQ+0.984GE     -1.0000     NotChecked  -19.4565    1647.8144   ✗       
+611   KFGEEVWKPTLEQ+0.984K     -1.0000     NotChecked  -19.4757    1718.8879   ✗       
+612   KFGVEVWKPTLEGEK          -1.0000     NotChecked  -19.4825    1745.9352   ✗       
+613   LFGEEVWKPTLEGEK          -1.0000     NotChecked  -19.4905    1760.8985   ✗       
+614   KFGEEVWKPTLQ+0.984GE     -1.0000     NotChecked  -19.5043    1647.8144   ✗       
+615   KFGEEVWKPTVEGEK          -1.0000     NotChecked  -19.5174    1761.8937   ✗       
+616   -17.027KFGEEVWKPTLEGEK   -1.0000     NotChecked  -19.5229    1758.8828   ✗       
+617   KFGEEVWKTLEGEK           -1.0000     NotChecked  -19.5596    1678.8566   ✗       
+618   KFGEVWKPTLEGEK           -1.0000     NotChecked  -19.5748    1646.8668   ✗       
+619   KFGEEVWKPTLEEK           -1.0000     NotChecked  -19.5779    1718.8879   ✗       
+620   KFGEEVWKPTLEGE           -1.0000     NotChecked  -19.6367    1647.8144   ✗       
+621   KFGEEVWKPTLQ+0.984GEL    -1.0000     NotChecked  -19.6378    1760.8985   ✗       
+622   KFGEQVWKPTLEGEK          -1.0000     NotChecked  -19.6393    1774.9254   ✗       
+623   KFGEVWKPTLEGEK           -1.0000     NotChecked  -19.6464    1646.8668   ✗       
+624   KFGEEVWKPVLQ+0.984GEK    -1.0000     NotChecked  -19.6504    1773.9301   ✗       
+625   KFGEEVWKPTLQ+0.984GQK    -1.0000     NotChecked  -19.6717    1774.9254   ✗       
+626   KFGEEVWKPTLEGE           -1.0000     NotChecked  -19.6844    1647.8144   ✗       
+627   KFGEEVWKPTLEGQ+0.984     -1.0000     NotChecked  -19.6914    1647.8144   ✗       
+628   KFGEEVWKPTLTGEK          -1.0000     NotChecked  -19.7148    1747.9145   ✗       
+629   +43.006FGEEVWKPTLQ+0.984GEK-1.0000     NotChecked  -19.7293    1690.8202   ✗       
+630   KFGEEVWPPTLEGEK          -1.0000     NotChecked  -19.7532    1744.8672   ✗       
+631   KFGEEVWKPTLQ+0.984GDK    -1.0000     NotChecked  -19.7756    1761.8937   ✗       
+632   KFGEEVWPTLEGEK           -1.0000     NotChecked  -19.7923    1647.8144   ✗       
+633   KFGEEVWKPTLEGE           -1.0000     NotChecked  -19.7936    1647.8144   ✗       
+634   KFGQ+0.984EVWKPTLQGEK    -1.0000     NotChecked  -19.8037    1774.9254   ✗       
+635   KFGEEVWKPTLEGEL          -1.0000     NotChecked  -19.8179    1760.8985   ✗       
+636   KFGEEVWKPVLEGEK          -1.0000     NotChecked  -19.8306    1773.9301   ✗       
+637   KFGEEVWKPTLEGE           -1.0000     NotChecked  -19.8414    1647.8144   ✗       
+638   KFGEEVWSPTLEGEK          -1.0000     NotChecked  -19.8467    1734.8465   ✗       
+639   KFGQ+0.984EVWKPTLEGK     -1.0000     NotChecked  -19.8504    1646.8668   ✗       
+640   KFGEEVWKPTLEGQK          -1.0000     NotChecked  -19.8519    1774.9254   ✗       
+641   KFGEEVWKPTLEGQ+0.984L    -1.0000     NotChecked  -19.8727    1760.8985   ✗       
+642   +42.011FGEQ+0.984VWKPTLEGEK-1.0000     NotChecked  -19.8778    1689.8250   ✗       
+643   KFGEEVWKPTLAGEK          -1.0000     NotChecked  -19.8809    1717.9039   ✗       
+644   KFGEEVWKPVLEGQ+0.984K    -1.0000     NotChecked  -19.8853    1773.9301   ✗       
+645   KFGEEVWKPTLGEK           -1.0000     NotChecked  -19.8946    1646.8668   ✗       
+646   +43.006FGEEVWKPTLEGEK    -1.0000     NotChecked  -19.9094    1690.8202   ✗       
+647   KFGEEVWSPTLEGEK          -1.0000     NotChecked  -19.9183    1734.8465   ✗       
+648   KFGEEVWKPTLEGQ+0.984     -1.0000     NotChecked  -19.9295    1647.8144   ✗       
+649   KFGEEVWKPTLAGQ+0.984K    -1.0000     NotChecked  -19.9356    1717.9039   ✗       
+650   KLGEEVWKPTLEGEK          -1.0000     NotChecked  -19.9390    1741.9250   ✗       
+651   KFGEEVWKPTLGQ+0.984K     -1.0000     NotChecked  -19.9493    1646.8668   ✗       
+652   KFGEEVWKPTAQ+0.984GEK    -1.0000     NotChecked  -19.9547    1733.8624   ✗       
+653   KFGEEVWKPTLEGDK          -1.0000     NotChecked  -19.9558    1761.8937   ✗       
+654   KFGEEVWKPTLDGEK          -1.0000     NotChecked  -19.9583    1761.8937   ✗       
+655   +43.006FGEEVWKPTLEGQ+0.984K-1.0000     NotChecked  -19.9642    1690.8202   ✗       
+656   KFGQ+0.984EVWKPTLEGTK    -1.0000     NotChecked  -19.9734    1747.9145   ✗       
+657   KFGEEVWKPTLEGEL          -1.0000     NotChecked  -19.9749    1760.8985   ✗       
+658   KFGEEVWKATLEGEK          -1.0000     NotChecked  -19.9862    1749.8937   ✗       
+659   KFGEEVWKPVLEGEK          -1.0000     NotChecked  -19.9876    1773.9301   ✗       
+660   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -20.0043    1689.8250   ✗       
+661   KFGEEVWKSTLEGEK          -1.0000     NotChecked  -20.0049    1765.8887   ✗       
+662   KFGEEVWKPTLEGQK          -1.0000     NotChecked  -20.0089    1774.9254   ✗       
+663   KLGEEVWKPTLEGEK          -1.0000     NotChecked  -20.0106    1741.9250   ✗       
+664   KFGEEVWKPSLQ+0.984GEK    -1.0000     NotChecked  -20.0132    1761.8938   ✗       
+665   KFGEEVWKPTLAGEK          -1.0000     NotChecked  -20.0379    1717.9039   ✗       
+666   KFGEQ+0.984VWKPTLEGLK    -1.0000     NotChecked  -20.0416    1759.9509   ✗       
+667   VFGEEVWKPTLEGEK          -1.0000     NotChecked  -20.0447    1746.8828   ✗       
+668   KFGEEVWKPTLGEK           -1.0000     NotChecked  -20.0516    1646.8668   ✗       
+669   KFGEDVWKPTLQ+0.984GEK    -1.0000     NotChecked  -20.0614    1761.8937   ✗       
+670   KFGEEVEKPTLEGEK          -1.0000     NotChecked  -20.0677    1718.8727   ✗       
+671   KFGEEVWKPTLEGEG          -1.0000     NotChecked  -20.0832    1704.8359   ✗       
+672   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -20.0919    1689.8250   ✗       
+673   KFGKEVWKPTLEGEK          -1.0000     NotChecked  -20.1005    1774.9618   ✗       
+674   KFGEEVWKPTLEGDK          -1.0000     NotChecked  -20.1128    1761.8937   ✗       
+675   KFGEQ+0.984VWKPTLKGEK    -1.0000     NotChecked  -20.1254    1774.9618   ✗       
+676   KFGEEVWKPTSEGEK          -1.0000     NotChecked  -20.1325    1749.8574   ✗       
+677   KFGEEVWKPTAEGEK          -1.0000     NotChecked  -20.1348    1733.8624   ✗       
+678   KFGEEVEKPTLEGEK          -1.0000     NotChecked  -20.1393    1718.8727   ✗       
+679   KFGEEVWKPTLEGLK          -1.0000     NotChecked  -20.1682    1759.9509   ✗       
+680   KFGEEVWKPTAEGQ+0.984K    -1.0000     NotChecked  -20.1896    1733.8624   ✗       
+681   KFGEEVWKPSLEGEK          -1.0000     NotChecked  -20.1934    1761.8938   ✗       
+682   KFGEEVWKTLQ+0.984GEK     -1.0000     NotChecked  -20.2275    1678.8566   ✗       
+683   KFGEDVWKPTLEGEK          -1.0000     NotChecked  -20.2415    1761.8937   ✗       
+684   KFGEEVWKPSLEGQ+0.984K    -1.0000     NotChecked  -20.2481    1761.8938   ✗       
+685   KFGEEVWKPTLGGEK          -1.0000     NotChecked  -20.2498    1703.8883   ✗       
+686   KFGEEVWKPTLKGEK          -1.0000     NotChecked  -20.2520    1774.9618   ✗       
+687   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -20.2532    1689.8250   ✗       
+688   KFGEEVWKPTLEGLK          -1.0000     NotChecked  -20.2558    1759.9509   ✗       
+689   KFGEEVWKPTLEGK           -1.0000     NotChecked  -20.2623    1646.8668   ✗       
+690   KFGEEAWKPTLEGEK          -1.0000     NotChecked  -20.2670    1747.8781   ✗       
+691   KFGEQ+0.984VWKPTTEGEK    -1.0000     NotChecked  -20.2687    1763.8730   ✗       
+692   KFGEEVWKPTAEGEK          -1.0000     NotChecked  -20.2918    1733.8624   ✗       
+693   KFGEDVWKPTLEGQ+0.984K    -1.0000     NotChecked  -20.2963    1761.8937   ✗       
+694   KFGEEVWKPTLGGQ+0.984K    -1.0000     NotChecked  -20.3046    1703.8883   ✗       
+695   KFGEQVWKPTLQ+0.984GEK    -1.0000     NotChecked  -20.3072    1774.9254   ✗       
+696   KFGEEVWKPTLKGEK          -1.0000     NotChecked  -20.3396    1774.9618   ✗       
+697   KFGEEVWKPSLEGEK          -1.0000     NotChecked  -20.3504    1761.8938   ✗       
+698   KFGEEVVKPTLEGEK          -1.0000     NotChecked  -20.3594    1688.8985   ✗       
+699   KFGQ+0.984EVWKPTVEGEK    -1.0000     NotChecked  -20.3786    1761.8937   ✗       
+700   KFGEEVWKPTTEGEK          -1.0000     NotChecked  -20.3952    1763.8730   ✗       
+701   KFGEDVWKPTLEGEK          -1.0000     NotChecked  -20.3985    1761.8937   ✗       
+702   KFGEEVWKPTLGGEK          -1.0000     NotChecked  -20.4068    1703.8883   ✗       
+703   KFGEEVWKTLEGEK           -1.0000     NotChecked  -20.4077    1678.8566   ✗       
+704   KFGEEVWKPTLEGLK          -1.0000     NotChecked  -20.4170    1759.9509   ✗       
+705   KFGEEVWPPTLQ+0.984GEK    -1.0000     NotChecked  -20.4211    1744.8672   ✗       
+706   KFGEEVVKPTLEGEK          -1.0000     NotChecked  -20.4309    1688.8985   ✗       
+707   KFGDEVWKPTLEGEK          -1.0000     NotChecked  -20.4381    1761.8937   ✗       
+708   KFGQ+0.984EVWKPTLEEK     -1.0000     NotChecked  -20.4392    1718.8879   ✗       
+709   KFGEEVWKGTLEGEK          -1.0000     NotChecked  -20.4395    1735.8781   ✗       
+710   KFGEEVWPTLQ+0.984GEK     -1.0000     NotChecked  -20.4602    1647.8144   ✗       
+711   KFGEEVWKTLEGQ+0.984K     -1.0000     NotChecked  -20.4624    1678.8566   ✗       
+712   KFGEEVWLPTLEGEK          -1.0000     NotChecked  -20.4823    1760.8985   ✗       
+713   KFGEEVWKPTTEGEK          -1.0000     NotChecked  -20.4829    1763.8730   ✗       
+714   KFGEQVWKPTLEGEK          -1.0000     NotChecked  -20.4874    1774.9254   ✗       
+715   KFGEEVWKPTLEGLK          -1.0000     NotChecked  -20.4886    1759.9509   ✗       
+716   KFGEEVWKPTLKGEK          -1.0000     NotChecked  -20.5008    1774.9618   ✗       
+717   KFGEQVWKPTLEGQ+0.984K    -1.0000     NotChecked  -20.5421    1774.9254   ✗       
+718   +42.011FGEEVWKPTLQ+0.984GEK-1.0000     NotChecked  -20.9211    1689.8250   ✗       
+719   +43.006FGQ+0.984EVWKPTLEGEK-1.0000     NotChecked  -20.9277    1690.8202   ✗       
+720   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -21.1013    1689.8250   ✗       
+721   +42.011FGEEVWKPTLEGQ+0.984K-1.0000     NotChecked  -21.1560    1689.8250   ✗       
+722   FGEEVWKPTLEGEK           -1.0000     NotChecked  -21.5051    1647.8144   ✗       
+723   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -21.5908    1689.8250   ✗       
+724   -17.027FGEEVWKPTLEGEK    -1.0000     NotChecked  -21.6198    1630.7879   ✗       
+725   LFGEEVWKPTLEGEK          -1.0000     NotChecked  -21.6591    1760.8985   ✗       
+726   +43.006FGEQ+0.984VWKPTLEGEK-1.0000     NotChecked  -21.7880    1690.8202   ✗       
+727   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -21.8283    1689.8250   ✗       
+728   +43.006FGEEVWKPTLEGEK    -1.0000     NotChecked  -21.9145    1690.8202   ✗       
+729   +43.006FGEEVWKPTLEGEK    -1.0000     NotChecked  -22.0022    1690.8202   ✗       
+730   +42.011FGQ+0.984EVWKPTLEGEK-1.0000     NotChecked  -22.1195    1689.8250   ✗       
+731   +43.006FGEEVWKPTLEGEK    -1.0000     NotChecked  -22.1634    1690.8202   ✗       
+732   FGEEVWKPTLQ+0.984GEK     -1.0000     NotChecked  -22.1731    1647.8144   ✗       
+733   VFGEEVWKPTLEGEK          -1.0000     NotChecked  -22.2132    1746.8828   ✗       
+734   -17.027FGEEVWKPTLQ+0.984GEK-1.0000     NotChecked  -22.2878    1630.7879   ✗       
+735   LFGEEVWKPTLQ+0.984GEK    -1.0000     NotChecked  -22.3270    1760.8985   ✗       
+736   FGEEVWKPTLEGEK           -1.0000     NotChecked  -22.3532    1647.8144   ✗       
+737   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -22.3585    1689.8250   ✗       
+738   FGEEVWKPTLEGQ+0.984K     -1.0000     NotChecked  -22.4080    1647.8144   ✗       
+739   -17.027FGEEVWKPTLEGEK    -1.0000     NotChecked  -22.4679    1630.7879   ✗       
+740   LFGEEVWKPTLEGEK          -1.0000     NotChecked  -22.5071    1760.8985   ✗       
+741   -17.027FGEEVWKPTLEGQ+0.984K-1.0000     NotChecked  -22.5227    1630.7879   ✗       
+742   LFGEEVWKPTLEGQ+0.984K    -1.0000     NotChecked  -22.5619    1760.8985   ✗       
+743   -17.027KFGEEVWKPTLEGEK   -1.0000     NotChecked  -22.6249    1758.8828   ✗       
+744   +43.006FGEEVWKPTLQ+0.984GEK-1.0000     NotChecked  -22.8313    1690.8202   ✗       
+745   VFGEEVWKPTLQ+0.984GEK    -1.0000     NotChecked  -22.8811    1746.8828   ✗       
+746   +42.011FGEQ+0.984VWKPTLEGEK-1.0000     NotChecked  -22.9798    1689.8250   ✗       
+747   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -22.9884    1689.8250   ✗       
+748   +43.006FGEEVWKPTLEGEK    -1.0000     NotChecked  -23.0115    1690.8202   ✗       
+749   VFGEEVWKPTLEGEK          -1.0000     NotChecked  -23.0613    1746.8828   ✗       
+750   +43.006FGEEVWKPTLEGQ+0.984K-1.0000     NotChecked  -23.0662    1690.8202   ✗       
+751   +42.011FGEEVWKPTLQ+0.984GEK-1.0000     NotChecked  -23.0896    1689.8250   ✗       
+752   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -23.1064    1689.8250   ✗       
+753   VFGEEVWKPTLEGQ+0.984K    -1.0000     NotChecked  -23.1160    1746.8828   ✗       
+754   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -23.1940    1689.8250   ✗       
+755   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -23.2698    1689.8250   ✗       
+756   +42.011FGEEVWKPLLEGEK    -1.0000     NotChecked  -23.3021    1701.8614   ✗       
+757   +42.011FGEEVWKPTLEGQ+0.984K-1.0000     NotChecked  -23.3245    1689.8250   ✗       
+758   FGQ+0.984EVWKPTLEGEK     -1.0000     NotChecked  -23.3715    1647.8144   ✗       
+759   -17.027FGQ+0.984EVWKPTLEGEK-1.0000     NotChecked  -23.4862    1630.7879   ✗       
+760   +43.006FGEEVWKPTLEGEK    -1.0000     NotChecked  -23.5010    1690.8202   ✗       
+761   LFGQ+0.984EVWKPTLEGEK    -1.0000     NotChecked  -23.5254    1760.8985   ✗       
+762   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -23.6944    1689.8250   ✗       
+763   +43.006FGEEVWKPTLEGEK    -1.0000     NotChecked  -23.7385    1690.8202   ✗       
+764   +42.011FGEEVWKPTLEGLK    -1.0000     NotChecked  -23.8260    1673.8665   ✗       
+765   +42.011FGEEVWKPTLKGEK    -1.0000     NotChecked  -23.9098    1688.8774   ✗       
+766   +42.011FGEEVWKPTLQ+0.984GEK-1.0000     NotChecked  -23.9377    1689.8250   ✗       
+767   +42.011FGEEVWKPTLQ+0.984GQ+0.984K-1.0000     NotChecked  -23.9925    1689.8250   ✗       
+768   +43.006FGQ+0.984EVWKPTLEGEK-1.0000     NotChecked  -24.0297    1690.8202   ✗       
+769   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -24.0354    1689.8250   ✗       
+770   +42.011FGEEVWKPTTEGEK    -1.0000     NotChecked  -24.0531    1677.7886   ✗       
+771   +42.011FGEEVWKPTLEAEK    -1.0000     NotChecked  -24.0788    1703.8406   ✗       
+772   VFGQ+0.984EVWKPTLEGEK    -1.0000     NotChecked  -24.0796    1746.8828   ✗       
+773   +42.011FGEEVWKPTLEGQ+0.984K-1.0000     NotChecked  -24.1726    1689.8250   ✗       
+774   +42.011FGEEVWKPQLEGEK    -1.0000     NotChecked  -24.1886    1716.8359   ✗       
+775   +42.011FGEEVWKPRLEGEK    -1.0000     NotChecked  -24.2290    1744.8784   ✗       
+776   FGEQ+0.984VWKPTLEGEK     -1.0000     NotChecked  -24.2317    1647.8144   ✗       
+777   +43.006FGEEVWKPTLEGEK    -1.0000     NotChecked  -24.2687    1690.8202   ✗       
+778   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -24.2721    1689.8250   ✗       
+779   +42.011FGQ+0.984EVWKPTLEGEK-1.0000     NotChecked  -24.2881    1689.8250   ✗       
+780   -17.027FGEQ+0.984VWKPTLEGEK-1.0000     NotChecked  -24.3464    1630.7879   ✗       
+781   FGEEVWKPTLEGEK           -1.0000     NotChecked  -24.3583    1647.8144   ✗       
+782   +42.011FGEELWKPTLEGEK    -1.0000     NotChecked  -24.3646    1703.8406   ✗       
+783   LFGEQ+0.984VWKPTLEGEK    -1.0000     NotChecked  -24.3857    1760.8985   ✗       
+784   FGEEVWKPTLEGEK           -1.0000     NotChecked  -24.4459    1647.8144   ✗       
+785   +42.011FGEEVWKPTLQGEK    -1.0000     NotChecked  -24.4483    1688.8410   ✗       
+786   -17.027FGEEVWKPTLEGEK    -1.0000     NotChecked  -24.4730    1630.7879   ✗       
+787   +42.011FGEEVWKPTLEGK     -1.0000     NotChecked  -24.4950    1560.7824   ✗       
+788   LFGEEVWKPTLEGEK          -1.0000     NotChecked  -24.5122    1760.8985   ✗       
+789   -17.027FGEEVWKPTLEGEK    -1.0000     NotChecked  -24.5606    1630.7879   ✗       
+790   LFGEEVWKPTLEGEK          -1.0000     NotChecked  -24.5999    1760.8985   ✗       
+791   FGEEVWKPTLEGEK           -1.0000     NotChecked  -24.6072    1647.8144   ✗       
+792   +42.011FGEEVWKPTLEGTK    -1.0000     NotChecked  -24.6181    1661.8301   ✗       
+793   +42.011FGEEVWKPTLEGER    -1.0000     NotChecked  -24.6225    1717.8311   ✗       
+794   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -24.6929    1689.8250   ✗       
+795   -17.027FGEEVWKPTLEGEK    -1.0000     NotChecked  -24.7219    1630.7879   ✗       
+796   LFGEEVWKPTLEGEK          -1.0000     NotChecked  -24.7611    1760.8985   ✗       
+797   -17.027KFGEEVWKPTLEGEK   -1.0000     NotChecked  -24.7934    1758.8828   ✗       
+798   +43.006FGEQ+0.984VWKPTLEGEK-1.0000     NotChecked  -24.8900    1690.8202   ✗       
+799   +43.006FGEEVWKPTLEGEK    -1.0000     NotChecked  -24.8986    1690.8202   ✗       
+800   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -24.9303    1689.8250   ✗       
+801   VFGEQ+0.984VWKPTLEGEK    -1.0000     NotChecked  -24.9398    1746.8828   ✗       
+802   +42.011FGEEVWKPTEEGEK    -1.0000     NotChecked  -24.9448    1705.7835   ✗       
+803   +42.011FGQ+0.984EVWKPTLQ+0.984GEK-1.0000     NotChecked  -24.9560    1689.8250   ✗       
+804   +43.006FGEEVWKPTLQ+0.984GEK-1.0000     NotChecked  -24.9999    1690.8202   ✗       
+805   +42.011FGEEVWKPTLELEK    -1.0000     NotChecked  -25.0158    1745.8876   ✗       
+806   +43.006FGEEVWKPTLEGEK    -1.0000     NotChecked  -25.0166    1690.8202   ✗       
+807   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -25.0180    1689.8250   ✗       
+808   +42.011FGEEVWKPTVEGEK    -1.0000     NotChecked  -25.0233    1675.8093   ✗       
+809   VFGEEVWKPTLEGEK          -1.0000     NotChecked  -25.0664    1746.8828   ✗       
+810   +42.011FGEEVWKPTLEEK     -1.0000     NotChecked  -25.0838    1632.8035   ✗       
+811   +42.011FGEEVWRPTLEGEK    -1.0000     NotChecked  -25.0842    1717.8311   ✗       
+812   +42.011FGEEVWKPELEGEK    -1.0000     NotChecked  -25.0960    1717.8199   ✗       
+813   +43.006FGEEVWKPTLEGEK    -1.0000     NotChecked  -25.1042    1690.8202   ✗       
+814   +42.011FGQ+0.984EVWKPTLEGEK-1.0000     NotChecked  -25.1361    1689.8250   ✗       
+815   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -25.1415    1689.8250   ✗       
+816   +42.011FGEQ+0.984VWKPTLEGEK-1.0000     NotChecked  -25.1483    1689.8250   ✗       
+817   VFGEEVWKPTLEGEK          -1.0000     NotChecked  -25.1540    1746.8828   ✗       
+818   +42.011FGEEVWKPTLEGEQ    -1.0000     NotChecked  -25.1745    1689.7886   ✗       
+819   +43.006FGEEVWKPTLEGEK    -1.0000     NotChecked  -25.1800    1690.8202   ✗       
+820   +42.011FGQ+0.984EVWKPTLEGQ+0.984K-1.0000     NotChecked  -25.1909    1689.8250   ✗       
+821   +42.011FGEEVWKPTLEKEK    -1.0000     NotChecked  -25.2064    1760.8985   ✗       
+822   +43.006FGEEVWKPLLEGEK    -1.0000     NotChecked  -25.2123    1702.8566   ✗       
+823   +43.006FGEEVWKPTLEGQ+0.984K-1.0000     NotChecked  -25.2348    1690.8202   ✗       
+824   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -25.2749    1689.8250   ✗       
+825   FGEEVWKPTLQ+0.984GEK     -1.0000     NotChecked  -25.2751    1647.8144   ✗       
+826   +42.011FGEEVWKPTLEGE     -1.0000     NotChecked  -25.2996    1561.7300   ✗       
+827   VFGEEVWKPTLEGEK          -1.0000     NotChecked  -25.3152    1746.8828   ✗       
+828   +42.011FGEEVWKPTREGEK    -1.0000     NotChecked  -25.3282    1732.8420   ✗       
+829   +42.011FGEEVWKPTLEGE     -1.0000     NotChecked  -25.3473    1561.7300   ✗       
+830   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -25.3625    1689.8250   ✗       
+831   +42.011FGEEVWKPKLEGEK    -1.0000     NotChecked  -25.3768    1716.8723   ✗       
+832   -17.027FGEEVWKPTLQ+0.984GEK-1.0000     NotChecked  -25.3898    1630.7879   ✗       
+833   +42.011FGEEVWKPTLRGEK    -1.0000     NotChecked  -25.4053    1716.8835   ✗       
+834   LFGEEVWKPTLQ+0.984GEK    -1.0000     NotChecked  -25.4290    1760.8985   ✗       
+835   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -25.4414    1689.8250   ✗       
+836   FGEEVWKPTLEGEK           -1.0000     NotChecked  -25.4552    1647.8144   ✗       
+837   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -25.4606    1689.8250   ✗       
+838   -17.027KFGEEVWKPTLQ+0.984GEK-1.0000     NotChecked  -25.4614    1758.8828   ✗       
+839   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -25.4767    1689.8250   ✗       
+840   +42.011FGEEVWKPTLEGEL    -1.0000     NotChecked  -25.4808    1674.8141   ✗       
+841   +42.011FGEEVWKPVLEGEK    -1.0000     NotChecked  -25.4935    1687.8457   ✗       
+842   FGEEVWKPTLEGQ+0.984K     -1.0000     NotChecked  -25.5100    1647.8144   ✗       
+843   +42.011FGEEVWKPTLEGQK    -1.0000     NotChecked  -25.5148    1688.8410   ✗       
+844   +42.011FGEEVWKPTLEGEQ+0.984-1.0000     NotChecked  -25.5376    1690.7726   ✗       
+845   +42.011FGEEVWKPTLAGEK    -1.0000     NotChecked  -25.5438    1631.8195   ✗       
+846   +42.011FGEEVWKPTLGEK     -1.0000     NotChecked  -25.5575    1560.7824   ✗       
+847   -17.027FGEEVWKPTLEGEK    -1.0000     NotChecked  -25.5699    1630.7879   ✗       
+848   +43.006FGEEVWKPTLEGEK    -1.0000     NotChecked  -25.6047    1690.8202   ✗       
+849   LFGEEVWKPTLEGEK          -1.0000     NotChecked  -25.6092    1760.8985   ✗       
+850   +42.011FGEEVWKPTLEGDK    -1.0000     NotChecked  -25.6187    1675.8093   ✗       
+851   +42.011FGEEVWQPTLEGEK    -1.0000     NotChecked  -25.6197    1689.7886   ✗       
+852   -17.027FGEEVWKPTLEGQ+0.984K-1.0000     NotChecked  -25.6247    1630.7879   ✗       
+853   -17.027KFGEEVWKPTLEGEK   -1.0000     NotChecked  -25.6415    1758.8828   ✗       
+854   +42.011FGEEEWKPTLEGEK    -1.0000     NotChecked  -25.6421    1719.7992   ✗       
+855   LFGEEVWKPTLEGQ+0.984K    -1.0000     NotChecked  -25.6639    1760.8985   ✗       
+856   +42.011FGEEVWKPTLETEK    -1.0000     NotChecked  -25.6749    1733.8512   ✗       
+857   -17.027KFGEEVWKPTLEGQ+0.984K-1.0000     NotChecked  -25.6963    1758.8828   ✗       
+858   +43.006FGEEVWKPTLEGLK    -1.0000     NotChecked  -25.7362    1674.8617   ✗       
+859   +42.011FGEEVWKPFLEGEK    -1.0000     NotChecked  -25.7369    1735.8457   ✗       
+860   +42.011FGEEVWKPTAEGEK    -1.0000     NotChecked  -25.7977    1647.7780   ✗       
+861   +42.011FGEEVWKPTLESEK    -1.0000     NotChecked  -25.8016    1719.8356   ✗       
+862   +42.011FGEQ+0.984VWKPTLQ+0.984GEK-1.0000     NotChecked  -25.8162    1689.8250   ✗       
+863   +43.006FGEEVWKPTLKGEK    -1.0000     NotChecked  -25.8200    1689.8726   ✗       
+864   +43.006FGEEVWKPTLQ+0.984GEK-1.0000     NotChecked  -25.8479    1690.8202   ✗       
+865   +42.011FGEEVWKPSLEGEK    -1.0000     NotChecked  -25.8563    1675.8094   ✗       
+866   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -25.8762    1689.8250   ✗       
+867   +42.011FGEEVWKPNLEGEK    -1.0000     NotChecked  -25.8828    1702.8203   ✗       
+868   +43.006FGEEVWKPTLQ+0.984GQ+0.984K-1.0000     NotChecked  -25.9027    1690.8202   ✗       
+869   +42.011FGEDVWKPTLEGEK    -1.0000     NotChecked  -25.9044    1675.8093   ✗       
+870   +42.011FGEEVWKPTLGGEK    -1.0000     NotChecked  -25.9127    1617.8039   ✗       
+871   +42.011FGEEVWKPTLQ+0.984GEK-1.0000     NotChecked  -25.9428    1689.8250   ✗       
+872   FGEEVWKPTLEGEK           -1.0000     NotChecked  -25.9448    1647.8144   ✗       
+873   +43.006FGEEVWKPTLEGEK    -1.0000     NotChecked  -25.9456    1690.8202   ✗       
+874   +43.006FGEEVWKPTTEGEK    -1.0000     NotChecked  -25.9633    1678.7839   ✗       
+875   VFGEEVWKPTLQ+0.984GEK    -1.0000     NotChecked  -25.9832    1746.8828   ✗       
+876   +43.006FGEEVWKPTLEAEK    -1.0000     NotChecked  -25.9890    1704.8359   ✗       
+877   +42.011FGEQ+0.984VWKPTLEGEK-1.0000     NotChecked  -25.9964    1689.8250   ✗       
+878   +42.011FGEEVWKPTLQ+0.984GEK-1.0000     NotChecked  -26.0304    1689.8250   ✗       
+879   +42.011FGEQ+0.984VWKPTLEGQ+0.984K-1.0000     NotChecked  -26.0512    1689.8250   ✗       
+880   -17.027FGEEVWKPTLEGEK    -1.0000     NotChecked  -26.0595    1630.7879   ✗       
+881   +42.011FGEEVWKTLEGEK     -1.0000     NotChecked  -26.0706    1592.7722   ✗       
+882   +43.006FGEEVWKPTLEGQ+0.984K-1.0000     NotChecked  -26.0828    1690.8202   ✗       
+883   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -26.0904    1689.8250   ✗       
+884   LFGEEVWKPTLEGEK          -1.0000     NotChecked  -26.0987    1760.8985   ✗       
+885   +43.006FGEEVWKPQLEGEK    -1.0000     NotChecked  -26.0988    1717.8312   ✗       
+886   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -26.1230    1689.8250   ✗       
+887   +42.011FGEEVWKPTLEEEK    -1.0000     NotChecked  -26.1310    1761.8461   ✗       
+888   +43.006FGEEVWKPRLEGEK    -1.0000     NotChecked  -26.1392    1745.8737   ✗       
+889   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -26.1431    1689.8250   ✗       
+890   +42.011FGEQVWKPTLEGEK    -1.0000     NotChecked  -26.1503    1688.8410   ✗       
+891   VFGEEVWKPTLEGEK          -1.0000     NotChecked  -26.1633    1746.8828   ✗       
+892   +42.011FGEEVWKPTLEGQ+0.984K-1.0000     NotChecked  -26.1777    1689.8250   ✗       
+893   +43.006FGEEVWKPTLEGEK    -1.0000     NotChecked  -26.1823    1690.8202   ✗       
+894   FGEEVWKPTLEGEK           -1.0000     NotChecked  -26.1823    1647.8144   ✗       
+895   +42.011FGEEVWKPTLQ+0.984GEK-1.0000     NotChecked  -26.1917    1689.8250   ✗       
+896   +43.006FGQ+0.984EVWKPTLEGEK-1.0000     NotChecked  -26.1983    1690.8202   ✗       
+897   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -26.2106    1689.8250   ✗       
+898   VFGEEVWKPTLEGQ+0.984K    -1.0000     NotChecked  -26.2181    1746.8828   ✗       
+899   +42.011FGEEVWKPTKEGEK    -1.0000     NotChecked  -26.2250    1704.8359   ✗       
+900   +42.011FGEEVWKPTLTGEK    -1.0000     NotChecked  -26.2258    1661.8301   ✗       
+901   +42.011FGEEVWKPTQEGEK    -1.0000     NotChecked  -26.2295    1704.7995   ✗       
+902   +42.011FGEEVWKLTLEGEK    -1.0000     NotChecked  -26.2599    1705.8563   ✗       
+903   +42.011FGEEVWPPTLEGEK    -1.0000     NotChecked  -26.2641    1658.7828   ✗       
+904   +42.011FGEEVWKPTLEGQ+0.984K-1.0000     NotChecked  -26.2653    1689.8250   ✗       
+905   +43.006FGEELWKPTLEGEK    -1.0000     NotChecked  -26.2749    1704.8359   ✗       
+906   +42.011YGEEVWKPTLEGEK    -1.0000     NotChecked  -26.2923    1705.8199   ✗       
+907   -17.027FGEEVWKPTLEGEK    -1.0000     NotChecked  -26.2970    1630.7879   ✗       
+908   +42.011FGEEVWPTLEGEK     -1.0000     NotChecked  -26.3033    1561.7300   ✗       
+909   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -26.3319    1689.8250   ✗       
+910   LFGEEVWKPTLEGEK          -1.0000     NotChecked  -26.3362    1760.8985   ✗       
+911   +43.006FGEEVWKPTLQGEK    -1.0000     NotChecked  -26.3585    1689.8362   ✗       
+912   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -26.3718    1689.8250   ✗       
+913   +42.011FGEEVWKPLLEGEK    -1.0000     NotChecked  -26.4041    1701.8614   ✗       
+914   +43.006FGEEVWKPTLEGK     -1.0000     NotChecked  -26.4052    1561.7777   ✗       
+915   +42.011FGEEVWKPTLEGQ+0.984K-1.0000     NotChecked  -26.4266    1689.8250   ✗       
+916   +42.011FGEEVWKPTMEGEK    -1.0000     NotChecked  -26.4542    1707.7814   ✗       
+917   +42.011FGEEVWKPTLDGEK    -1.0000     NotChecked  -26.4692    1675.8093   ✗       
+918   FGQ+0.984EVWKPTLEGEK     -1.0000     NotChecked  -26.4735    1647.8144   ✗       
+919   +42.011FGEEVWKATLEGEK    -1.0000     NotChecked  -26.4972    1663.8093   ✗       
+920   +42.011FGEEVWKSTLEGEK    -1.0000     NotChecked  -26.5159    1679.8043   ✗       
+921   +42.011FGEEVWKPTLEVEK    -1.0000     NotChecked  -26.5172    1731.8719   ✗       
+922   +43.006FGEEVWKPTLEGTK    -1.0000     NotChecked  -26.5283    1662.8253   ✗       
+923   +43.006FGEEVWKPTLEGER    -1.0000     NotChecked  -26.5327    1718.8264   ✗       
+924   +42.011FGEEVWKPTLEGFK    -1.0000     NotChecked  -26.5431    1707.8508   ✗       
+925   -17.027FGQ+0.984EVWKPTLEGEK-1.0000     NotChecked  -26.5882    1630.7879   ✗       
+926   +42.011FGEEVWKPTLEGEG    -1.0000     NotChecked  -26.5942    1618.7515   ✗       
+927   +43.006FGEEVWKPTLEGEK    -1.0000     NotChecked  -26.6031    1690.8202   ✗       
+928   +42.011FGKEVWKPTLEGEK    -1.0000     NotChecked  -26.6115    1688.8774   ✗       
+929   LFGQ+0.984EVWKPTLEGEK    -1.0000     NotChecked  -26.6274    1760.8985   ✗       
+930   +42.011FGAEEVWKPTLEGEK   -1.0000     NotChecked  -26.6362    1760.8621   ✗       
+931   +42.011AFGEEVWKPTLEGEK   -1.0000     NotChecked  -26.6435    1760.8621   ✗       
+932   +42.011FGEEVWKPTSEGEK    -1.0000     NotChecked  -26.6435    1663.7730   ✗       
+933   VFGEEVWKPTLEGEK          -1.0000     NotChecked  -26.6529    1746.8828   ✗       
+934   -17.027KFGQ+0.984EVWKPTLEGEK-1.0000     NotChecked  -26.6598    1758.8828   ✗       
+935   FGEEVWKPTLEGEK           -1.0000     NotChecked  -26.7125    1647.8144   ✗       
+936   +42.011FGEEVWKPTLEGK     -1.0000     NotChecked  -26.7733    1560.7824   ✗       
+937   +42.011FGEEAWKPTLEGEK    -1.0000     NotChecked  -26.7780    1661.7937   ✗       
+938   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -26.7965    1689.8250   ✗       
+939   -17.027FGEEVWKPTLEGEK    -1.0000     NotChecked  -26.8272    1630.7879   ✗       
+940   +43.006FGEEVWKPTLEGEK    -1.0000     NotChecked  -26.8406    1690.8202   ✗       
+941   +43.006FGEEVWKPTEEGEK    -1.0000     NotChecked  -26.8551    1706.7788   ✗       
+942   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -26.8614    1689.8250   ✗       
+943   +43.006FGQ+0.984EVWKPTLQ+0.984GEK-1.0000     NotChecked  -26.8662    1690.8202   ✗       
+944   LFGEEVWKPTLEGEK          -1.0000     NotChecked  -26.8664    1760.8985   ✗       
+945   VFGEEVWKPTLEGEK          -1.0000     NotChecked  -26.8904    1746.8828   ✗       
+946   +43.006FGEEVWKPTLELEK    -1.0000     NotChecked  -26.9260    1746.8828   ✗       
+947   +42.011FGEEVWKPTLEGLK    -1.0000     NotChecked  -26.9280    1673.8665   ✗       
+948   +43.006FGEEVWKPTLEGEK    -1.0000     NotChecked  -26.9282    1690.8202   ✗       
+949   +43.006FGEEVWKPTVEGEK    -1.0000     NotChecked  -26.9335    1676.8046   ✗       
+950   +42.011FGDEVWKPTLEGEK    -1.0000     NotChecked  -26.9491    1675.8093   ✗       
+951   +42.011FGEEVWKGTLEGEK    -1.0000     NotChecked  -26.9505    1649.7937   ✗       
+952   +42.011FGEEVWKQTLEGEK    -1.0000     NotChecked  -26.9711    1720.8308   ✗       
+953   +42.011FGEEVWLPTLEGEK    -1.0000     NotChecked  -26.9933    1674.8141   ✗       
+954   +43.006FGEEVWKPTLEEK     -1.0000     NotChecked  -26.9940    1633.7988   ✗       
+955   +43.006FGEEVWRPTLEGEK    -1.0000     NotChecked  -26.9944    1718.8264   ✗       
+956   +43.006FGEEVWKPELEGEK    -1.0000     NotChecked  -27.0062    1718.8152   ✗       
+957   +42.011FGEEVWKPTLKGEK    -1.0000     NotChecked  -27.0118    1688.8774   ✗       
+958   +42.011FGQ+0.984Q+0.984VWKPTLEGEK-1.0000     NotChecked  -27.0147    1689.8250   ✗       
+959   +42.011FGEEVWKPTLQ+0.984GEK-1.0000     NotChecked  -27.0397    1689.8250   ✗       
+960   +43.006FGQ+0.984EVWKPTLEGEK-1.0000     NotChecked  -27.0464    1690.8202   ✗       
+961   +43.006FGEEVWKPTLEGEK    -1.0000     NotChecked  -27.0517    1690.8202   ✗       
+962   +43.006FGEQ+0.984VWKPTLEGEK-1.0000     NotChecked  -27.0585    1690.8202   ✗       
+963   +43.006FGEEVWKPTLEGEQ    -1.0000     NotChecked  -27.0847    1690.7839   ✗       
+964   +42.011FGEEVWKPTLQ+0.984GQ+0.984K-1.0000     NotChecked  -27.0945    1689.8250   ✗       
+965   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -27.0989    1689.8250   ✗       
+966   +43.006FGQ+0.984EVWKPTLEGQ+0.984K-1.0000     NotChecked  -27.1011    1690.8202   ✗       
+967   +43.006FGEEVWKPTLEKEK    -1.0000     NotChecked  -27.1166    1761.8937   ✗       
+968   +42.011FGEMVWKPTLEGEK    -1.0000     NotChecked  -27.1360    1691.8229   ✗       
+969   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -27.1374    1689.8250   ✗       
+970   +42.011FGQ+0.984EVWKPTLEGEK-1.0000     NotChecked  -27.1412    1689.8250   ✗       
+971   +42.011FGEEVWKVTLEGEK    -1.0000     NotChecked  -27.1437    1691.8406   ✗       
+972   +42.011FGEEWKPTLEGEK     -1.0000     NotChecked  -27.1442    1590.7566   ✗       
+973   +42.011FGEEVWKPTTEGEK    -1.0000     NotChecked  -27.1551    1677.7886   ✗       
+974   +42.011FGELVWKPTLEGEK    -1.0000     NotChecked  -27.1630    1673.8665   ✗       
+975   +42.011FGEVVWKPTLEGEK    -1.0000     NotChecked  -27.1771    1659.8508   ✗       
+976   +42.011FGEEVWKPTLEAEK    -1.0000     NotChecked  -27.1808    1703.8406   ✗       
+977   VFGQ+0.984EVWKPTLEGEK    -1.0000     NotChecked  -27.1816    1746.8828   ✗       
+978   +43.006FGEEVWKPTLEGEK    -1.0000     NotChecked  -27.1851    1690.8202   ✗       
+979   +43.006FGEEVWKPTLEGE     -1.0000     NotChecked  -27.2098    1562.7253   ✗       
+980   +42.011FGQ+0.984EVWKPTLEGEK-1.0000     NotChecked  -27.2289    1689.8250   ✗       
+981   +43.006FGEEVWKPTREGEK    -1.0000     NotChecked  -27.2385    1733.8373   ✗       
+982   +42.011FGEEVWKRTLEGEK    -1.0000     NotChecked  -27.2492    1748.8733   ✗       
+983   +43.006FGEEVWKPTLEGE     -1.0000     NotChecked  -27.2575    1562.7253   ✗       
+984   +42.011FGEEVWKTTLEGEK    -1.0000     NotChecked  -27.2668    1693.8199   ✗       
+985   +42.011FGEEVLKPTLEGEK    -1.0000     NotChecked  -27.2681    1616.8297   ✗       
+986   +43.006FGEEVWKPTLEGEK    -1.0000     NotChecked  -27.2727    1690.8202   ✗       
+987   +42.011FGEEVWKPTLEGQ+0.984K-1.0000     NotChecked  -27.2747    1689.8250   ✗       
+988   +42.011FGEKVWKPTLEGEK    -1.0000     NotChecked  -27.2772    1688.8774   ✗       
+989   +43.006FGEEVWKPKLEGEK    -1.0000     NotChecked  -27.2870    1717.8675   ✗       
+990   +42.011FGEEVWKPQLEGEK    -1.0000     NotChecked  -27.2906    1716.8359   ✗       
+991   +43.006FGEEVWKPTLRGEK    -1.0000     NotChecked  -27.3155    1717.8788   ✗       
+992   +42.011FGEEVWKPTLEGET    -1.0000     NotChecked  -27.3253    1662.7777   ✗       
+993   +42.011FGEEVWKPRLEGEK    -1.0000     NotChecked  -27.3310    1744.8784   ✗       
+994   FGEQ+0.984VWKPTLEGEK     -1.0000     NotChecked  -27.3338    1647.8144   ✗       
+995   FGEEVWKPTLEGEK           -1.0000     NotChecked  -27.3424    1647.8144   ✗       
+996   +43.006FGEEVWKPTLEGEK    -1.0000     NotChecked  -27.3517    1690.8202   ✗       
+997   +43.006FGEEVWKPTLEGEK    -1.0000     NotChecked  -27.3708    1690.8202   ✗       
+998   +42.011FGEEVWKPTLEGEK    -1.0000     NotChecked  -27.3741    1689.8250   ✗       
+999   +43.006FGEEVWKPTLEGEK    -1.0000     NotChecked  -27.3869    1690.8202   ✗       
+1000  +42.011FGLEVWKPTLEGEK    -1.0000     NotChecked  -27.3882    1673.8665   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: KFGEEVWKPTLEGEK
+Similarity: 0.9291
+De Novo Score: -0.0990
+Source: Database
+Correct: ✓
+

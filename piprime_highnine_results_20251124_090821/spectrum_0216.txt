@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 216
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 735.8486
+Precursor charge: 2+
+Ground truth: FPQIDSTSFAN+0.984SR
+Ground truth (normalized): FPQIDSTSFAN+0.984SR
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 220
+Used for reranking: 220
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 220 (22.0%)
+Database matches: 119 (11.9%)
+Prosit predictions: 82 (8.2%)
+Failed: 19 (1.9%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.6424
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     FPQLDSTSFAN+0.984SR      0.6424      Database    -0.7749     1469.6787   ✓       ✓
+2     FPQLDSTSFAN+0.984SR      0.6424      Database    -1.2999     1469.6787   ✓       ✓
+3     FPQLDSTSFAN+0.984SR      0.6424      Database    -2.4700     1469.6787   ✓       ✓
+4     FPQLDSTSFAN+0.984SR      0.6424      Database    -2.8171     1469.6787   ✓       ✓
+5     FPQLDSTSFAN+0.984SR      0.6424      Database    -2.9950     1469.6787   ✓       ✓
+6     FPQLDSTSFAN+0.984SR      0.6424      Database    -3.3421     1469.6787   ✓       ✓
+7     FPQLDSTSFAN+0.984SR      0.6424      Database    -4.5122     1469.6787   ✓       ✓
+8     FPQLDSTSFAN+0.984SR      0.6424      Database    -5.0372     1469.6787   ✓       ✓
+9     FPQLDSTSFAN+0.984SR      0.6424      Database    -8.3912     1469.6787   ✓       ✓
+10    FPQLDSTSFAN+0.984SR      0.6424      Database    -8.4216     1469.6787   ✓       ✓
+11    FPQLDSTSFAN+0.984SR      0.6424      Database    -8.9161     1469.6787   ✓       ✓
+12    FPQLDSTSFAN+0.984SR      0.6424      Database    -8.9465     1469.6787   ✓       ✓
+13    FPQLDSTSFAN+0.984SR      0.6424      Database    -10.0863    1469.6787   ✓       ✓
+14    FPQLDSTSFAN+0.984SR      0.6424      Database    -10.1167    1469.6787   ✓       ✓
+15    FPQLDSTSFAN+0.984SR      0.6424      Database    -10.4334    1469.6787   ✓       ✓
+16    FPQLDSTSFAN+0.984SR      0.6424      Database    -10.4638    1469.6787   ✓       ✓
+17    FPQLDSTSFAN+0.984SR      0.6424      Database    -10.6112    1469.6787   ✓       ✓
+18    FPQLDSTSFAN+0.984SR      0.6424      Database    -10.6416    1469.6787   ✓       ✓
+19    FPQLDSTSFAN+0.984SR      0.6424      Database    -10.9583    1469.6787   ✓       ✓
+20    FPQLDSTSFAN+0.984SR      0.6424      Database    -10.9887    1469.6787   ✓       ✓
+21    FPQLDSTSFAN+0.984SR      0.6424      Database    -11.5841    1469.6787   ✓       ✓
+22    FPQLDSTSFAN+0.984SR      0.6424      Database    -12.1090    1469.6787   ✓       ✓
+23    FPQLDSTSFAN+0.984SR      0.6424      Database    -12.1285    1469.6787   ✓       ✓
+24    FPQLDSTSFAN+0.984SR      0.6424      Database    -12.1589    1469.6787   ✓       ✓
+25    FPQLDSTSFAN+0.984SR      0.6424      Database    -12.4838    1469.6787   ✓       ✓
+26    FPQLDSTSFAN+0.984SR      0.6424      Database    -12.5218    1469.6787   ✓       ✓
+27    FPQLDSTSFAN+0.984SR      0.6424      Database    -12.6534    1469.6787   ✓       ✓
+28    FPQLDSTSFAN+0.984SR      0.6424      Database    -12.6838    1469.6787   ✓       ✓
+29    FPQLDSTSFAN+0.984SR      0.6424      Database    -13.0087    1469.6787   ✓       ✓
+30    FPQLDSTSFAN+0.984SR      0.6424      Database    -13.0467    1469.6787   ✓       ✓
+31    FPQLDSTSFAN+0.984SR      0.6424      Database    -13.2792    1469.6787   ✓       ✓
+32    FPQLDSTSFAN+0.984SR      0.6424      Database    -13.5301    1469.6787   ✓       ✓
+33    FPQLDSTSFAN+0.984SR      0.6424      Database    -13.6263    1469.6787   ✓       ✓
+34    FPQLDSTSFAN+0.984SR      0.6424      Database    -13.8041    1469.6787   ✓       ✓
+35    FPQLDSTSFAN+0.984SR      0.6424      Database    -14.0550    1469.6787   ✓       ✓
+36    FPQLDSTSFAN+0.984SR      0.6424      Database    -14.1512    1469.6787   ✓       ✓
+37    FPQLDSTSFAN+0.984SR      0.6424      Database    -14.1789    1469.6787   ✓       ✓
+38    FPQLDSTSFAN+0.984SR      0.6424      Database    -14.2169    1469.6787   ✓       ✓
+39    FPQLDSTSFAN+0.984SR      0.6424      Database    -14.3232    1469.6787   ✓       ✓
+40    FPQLDSTSFAN+0.984SR      0.6424      Database    -14.3321    1469.6787   ✓       ✓
+41    FPQLDSTSFAN+0.984SR      0.6424      Database    -14.5260    1469.6787   ✓       ✓
+42    FPQLDSTSFAN+0.984SR      0.6424      Database    -14.5640    1469.6787   ✓       ✓
+43    FPQLDSTSFAN+0.984SR      0.6424      Database    -14.7038    1469.6787   ✓       ✓
+44    FPQLDSTSFAN+0.984SR      0.6424      Database    -14.7418    1469.6787   ✓       ✓
+45    FPQLDSTSFAN+0.984SR      0.6424      Database    -15.0509    1469.6787   ✓       ✓
+46    FPQLDSTSFAN+0.984SR      0.6424      Database    -15.0889    1469.6787   ✓       ✓
+47    FPQLDSTSFAN+0.984SR      0.6424      Database    -15.2252    1469.6787   ✓       ✓
+48    FPQLDSTSFAN+0.984SR      0.6424      Database    -15.3214    1469.6787   ✓       ✓
+49    FPQLDSTSFAN+0.984SR      0.6424      Database    -15.3383    1469.6787   ✓       ✓
+50    FPQLDSTSFAN+0.984SR      0.6424      Database    -15.4345    1469.6787   ✓       ✓
+51    FPQLDSTSFAN+0.984SR      0.6424      Database    -15.5213    1469.6787   ✓       ✓
+52    FPQLDSTSFAN+0.984SR      0.6424      Database    -15.5723    1469.6787   ✓       ✓
+53    FPQLDSTSFAN+0.984SR      0.6424      Database    -15.7501    1469.6787   ✓       ✓
+54    FPQLDSTSFAN+0.984SR      0.6424      Database    -15.8126    1469.6787   ✓       ✓
+55    FPQLDSTSFAN+0.984SR      0.6424      Database    -15.8463    1469.6787   ✓       ✓
+56    FPQLDSTSFAN+0.984SR      0.6424      Database    -15.9594    1469.6787   ✓       ✓
+57    FPQLDSTSFAN+0.984SR      0.6424      Database    -16.0183    1469.6787   ✓       ✓
+58    FPQLDSTSFAN+0.984SR      0.6424      Database    -16.0272    1469.6787   ✓       ✓
+59    FPQLDSTSFAN+0.984SR      0.6424      Database    -16.0379    1469.6787   ✓       ✓
+60    FPQLDSTSFAN+0.984SR      0.6424      Database    -16.0462    1469.6787   ✓       ✓
+61    FPQLDSTSFAN+0.984SR      0.6424      Database    -16.0972    1469.6787   ✓       ✓
+62    FPQLDSTSFAN+0.984SR      0.6424      Database    -16.2211    1469.6787   ✓       ✓
+63    FPQLDSTSFAN+0.984SR      0.6424      Database    -16.2439    1469.6787   ✓       ✓
+64    FPQLDSTSFAN+0.984SR      0.6424      Database    -16.2591    1469.6787   ✓       ✓
+65    FPQLDSTSFAN+0.984SR      0.6424      Database    -16.3375    1469.6787   ✓       ✓
+66    FPQLDSTSFAN+0.984SR      0.6424      Database    -16.3654    1469.6787   ✓       ✓
+67    FPQLDSTSFAN+0.984SR      0.6424      Database    -16.3743    1469.6787   ✓       ✓
+68    FPQLDSTSFAN+0.984SR      0.6424      Database    -16.5628    1469.6787   ✓       ✓
+69    FPQLDSTSFAN+0.984SR      0.6424      Database    -16.7460    1469.6787   ✓       ✓
+70    FPQLDSTSFAN+0.984SR      0.6424      Database    -16.7688    1469.6787   ✓       ✓
+71    FPQLDSTSFAN+0.984SR      0.6424      Database    -16.7840    1469.6787   ✓       ✓
+72    FPQLDSTSFAN+0.984SR      0.6424      Database    -16.9332    1469.6787   ✓       ✓
+73    FPQLDSTSFAN+0.984SR      0.6424      Database    -16.9926    1469.6787   ✓       ✓
+74    FPQLDSTSFAN+0.984SR      0.6424      Database    -17.0334    1469.6787   ✓       ✓
+75    FPQLDSTSFAN+0.984SR      0.6424      Database    -17.1296    1469.6787   ✓       ✓
+76    FPQLDSTSFAN+0.984SR      0.6424      Database    -17.2164    1469.6787   ✓       ✓
+77    FPQLDSTSFAN+0.984SR      0.6424      Database    -17.2674    1469.6787   ✓       ✓
+78    FPQLDSTSFAN+0.984SR      0.6424      Database    -17.3805    1469.6787   ✓       ✓
+79    FPQLDSTSFAN+0.984SR      0.6424      Database    -17.4581    1469.6787   ✓       ✓
+80    FPQLDSTSFAN+0.984SR      0.6424      Database    -17.4767    1469.6787   ✓       ✓
+81    FPQLDSTSFAN+0.984SR      0.6424      Database    -17.5077    1469.6787   ✓       ✓
+82    FPQLDSTSFAN+0.984SR      0.6424      Database    -17.5176    1469.6787   ✓       ✓
+83    FPQLDSTSFAN+0.984SR      0.6424      Database    -17.5635    1469.6787   ✓       ✓
+84    FPQLDSTSFAN+0.984SR      0.6424      Database    -17.6545    1469.6787   ✓       ✓
+85    FPQLDSTSFAN+0.984SR      0.6424      Database    -17.7330    1469.6787   ✓       ✓
+86    FPQLDSTSFAN+0.984SR      0.6424      Database    -17.7413    1469.6787   ✓       ✓
+87    FPQLDSTSFAN+0.984SR      0.6424      Database    -17.7923    1469.6787   ✓       ✓
+88    FPQLDSTSFAN+0.984SR      0.6424      Database    -17.8548    1469.6787   ✓       ✓
+89    FPQLDSTSFAN+0.984SR      0.6424      Database    -17.8607    1469.6787   ✓       ✓
+90    FPQLDSTSFAN+0.984SR      0.6424      Database    -17.9390    1469.6787   ✓       ✓
+91    FPQLDSTSFAN+0.984SR      0.6424      Database    -18.0016    1469.6787   ✓       ✓
+92    FPQLDSTSFAN+0.984SR      0.6424      Database    -18.0326    1469.6787   ✓       ✓
+93    FPQLDSTSFAN+0.984SR      0.6424      Database    -18.0604    1469.6787   ✓       ✓
+94    FPQLDSTSFAN+0.984SR      0.6424      Database    -18.0694    1469.6787   ✓       ✓
+95    FPQLDSTSFAN+0.984SR      0.6424      Database    -18.0801    1469.6787   ✓       ✓
+96    FPQLDSTSFAN+0.984SR      0.6424      Database    -18.0884    1469.6787   ✓       ✓
+97    FPQLDSTSFAN+0.984SR      0.6424      Database    -18.2579    1469.6787   ✓       ✓
+98    FPQLDSTSFAN+0.984SR      0.6424      Database    -18.2861    1469.6787   ✓       ✓
+99    FPQLDSTSFAN+0.984SR      0.6424      Database    -18.3797    1469.6787   ✓       ✓
+100   FPQLDSTSFAN+0.984SR      0.6424      Database    -18.3857    1469.6787   ✓       ✓
+101   FPQLDSTSFAN+0.984SR      0.6424      Database    -18.4639    1469.6787   ✓       ✓
+102   FPQ+0.984LDSTSFANSR      0.6424      Database    -18.5052    1469.6787   ✓       
+103   FPQLDSTSFAN+0.984SR      0.6424      Database    -18.6050    1469.6787   ✓       ✓
+104   FPQLDSTSFAN+0.984SR      0.6424      Database    -18.6283    1469.6787   ✓       ✓
+105   FPQLDSTSFAN+0.984SR      0.6424      Database    -18.6877    1469.6787   ✓       ✓
+106   FPQLDSTSFAN+0.984SR      0.6424      Database    -18.7715    1469.6787   ✓       ✓
+107   FPQLDSTSFAN+0.984SR      0.6424      Database    -18.8110    1469.6787   ✓       ✓
+108   FPQLDSTSFAN+0.984SR      0.6424      Database    -18.9754    1469.6787   ✓       ✓
+109   FPQ+0.984LDSTSFANSR      0.6424      Database    -19.0301    1469.6787   ✓       
+110   FPQLDSTSFAN+0.984SR      0.6424      Database    -19.0348    1469.6787   ✓       ✓
+111   FPQLDSTSFAN+0.984SR      0.6424      Database    -19.0756    1469.6787   ✓       ✓
+112   FPQLDSTSFAN+0.984SR      0.6424      Database    -19.1532    1469.6787   ✓       ✓
+113   FPQLDSTSFAN+0.984SR      0.6424      Database    -19.1718    1469.6787   ✓       ✓
+114   FPQLDSTSFAN+0.984SR      0.6424      Database    -19.2004    1469.6787   ✓       ✓
+115   FPQLDSTSFAN+0.984SR      0.6424      Database    -19.2127    1469.6787   ✓       ✓
+116   FPQLDSTSFAN+0.984SR      0.6424      Database    -19.2308    1469.6787   ✓       ✓
+117   FPQLDSTSFAN+0.984SR      0.6424      Database    -19.2586    1469.6787   ✓       ✓
+118   FPQLDSTSFAN+0.984SR      0.6424      Database    -19.2964    1469.6787   ✓       ✓
+119   FPQLDSTSFAN+0.984SR      0.6424      Database    -19.3158    1469.6787   ✓       ✓
+120   FPQLDSTSFADSR            0.5002      Prosit      -4.9091     1469.6787   ✓       
+121   FPQLDSTSFADSR            0.5002      Prosit      -5.4340     1469.6787   ✓       
+122   FPQLDSTSFADSR            0.5002      Prosit      -6.6041     1469.6787   ✓       
+123   FPQLDSTSFADSR            0.5002      Prosit      -6.9512     1469.6787   ✓       
+124   FPQLDSTSFADSR            0.5002      Prosit      -7.1291     1469.6787   ✓       
+125   FPQLDSTSFADSR            0.5002      Prosit      -7.4762     1469.6787   ✓       
+126   FPQLDSTSFADSR            0.5002      Prosit      -8.6463     1469.6787   ✓       
+127   FPQLDSTSFADSR            0.5002      Prosit      -9.1713     1469.6787   ✓       
+128   FPQLDSTSFADSR            0.5002      Prosit      -12.5253    1469.6787   ✓       
+129   FPQLDSTSFADSR            0.5002      Prosit      -12.5557    1469.6787   ✓       
+130   FPQLDSTSFADSR            0.5002      Prosit      -13.0502    1469.6787   ✓       
+131   FPQLDSTSFADSR            0.5002      Prosit      -13.0806    1469.6787   ✓       
+132   FPQLDSTSFADSR            0.5002      Prosit      -14.2204    1469.6787   ✓       
+133   FPQLDSTSFADSR            0.5002      Prosit      -14.2508    1469.6787   ✓       
+134   FPQLDSTSFADSR            0.5002      Prosit      -14.5675    1469.6787   ✓       
+135   FPQLDSTSFADSR            0.5002      Prosit      -14.5979    1469.6787   ✓       
+136   FPQLDSTSFADSR            0.5002      Prosit      -14.7453    1469.6787   ✓       
+137   FPQLDSTSFADSR            0.5002      Prosit      -14.7757    1469.6787   ✓       
+138   FPQLDSTSFADSR            0.5002      Prosit      -15.0924    1469.6787   ✓       
+139   FPQLDSTSFADSR            0.5002      Prosit      -15.1228    1469.6787   ✓       
+140   FPQLDSTSFADSR            0.5002      Prosit      -15.7182    1469.6787   ✓       
+141   FPQLDSTSFADSR            0.5002      Prosit      -16.2431    1469.6787   ✓       
+142   FPQLDSTSFADSR            0.5002      Prosit      -16.2626    1469.6787   ✓       
+143   FPQLDSTSFADSR            0.5002      Prosit      -16.2930    1469.6787   ✓       
+144   FPQLDSTSFADSR            0.5002      Prosit      -16.6179    1469.6787   ✓       
+145   FPQLDSTSFADSR            0.5002      Prosit      -16.6559    1469.6787   ✓       
+146   FPQLDSTSFADSR            0.5002      Prosit      -16.7875    1469.6787   ✓       
+147   FPQLDSTSFADSR            0.5002      Prosit      -16.8179    1469.6787   ✓       
+148   FPQLDSTSFADSR            0.5002      Prosit      -17.1428    1469.6787   ✓       
+149   FPQLDSTSFADSR            0.5002      Prosit      -17.1808    1469.6787   ✓       
+150   FPQLDSTSFADSR            0.5002      Prosit      -17.4133    1469.6787   ✓       
+151   FPQLDSTSFADSR            0.5002      Prosit      -17.6642    1469.6787   ✓       
+152   FPQLDSTSFADSR            0.5002      Prosit      -17.7604    1469.6787   ✓       
+153   FPQLDSTSFADSR            0.5002      Prosit      -17.9382    1469.6787   ✓       
+154   FPQLDSTSFADSR            0.5002      Prosit      -18.1891    1469.6787   ✓       
+155   FPQLDSTSFADSR            0.5002      Prosit      -18.2853    1469.6787   ✓       
+156   FPQLDSTSFADSR            0.5002      Prosit      -18.3130    1469.6787   ✓       
+157   FPQLDSTSFADSR            0.5002      Prosit      -18.3510    1469.6787   ✓       
+158   FPQLDSTSFADSR            0.5002      Prosit      -18.4573    1469.6787   ✓       
+159   FPQLDSTSFADSR            0.5002      Prosit      -18.4662    1469.6787   ✓       
+160   FPQLDSTSFADSR            0.5002      Prosit      -18.6601    1469.6787   ✓       
+161   FPQLDSTSFADSR            0.5002      Prosit      -18.6981    1469.6787   ✓       
+162   FPQLDSTSFADSR            0.5002      Prosit      -18.8379    1469.6787   ✓       
+163   FPQLDSTSFADSR            0.5002      Prosit      -18.8759    1469.6787   ✓       
+164   FPQLDSTSFADSR            0.5002      Prosit      -19.1850    1469.6787   ✓       
+165   FPQLDSTSFADSR            0.5002      Prosit      -19.2230    1469.6787   ✓       
+166   FPQLN+0.984STSFADSR      0.4891      Prosit      -13.3819    1469.6787   ✓       
+167   FPQLN+0.984STSFADSR      0.4891      Prosit      -13.9069    1469.6787   ✓       
+168   FPQLN+0.984STSFADSR      0.4891      Prosit      -15.0770    1469.6787   ✓       
+169   FPQLN+0.984STSFADSR      0.4891      Prosit      -15.4241    1469.6787   ✓       
+170   FPQLN+0.984STSFADSR      0.4891      Prosit      -15.6020    1469.6787   ✓       
+171   FPQLN+0.984STSFADSR      0.4891      Prosit      -15.9491    1469.6787   ✓       
+172   FPQLN+0.984STSFADSR      0.4891      Prosit      -17.1192    1469.6787   ✓       
+173   FPQLN+0.984STSFADSR      0.4891      Prosit      -17.6441    1469.6787   ✓       
+174   MPQLDSTSFSN+0.984SR      0.4558      Prosit      -27.1675    1469.6456   ✓       
+175   MPQLDSTSFSN+0.984SR      0.4558      Prosit      -27.6924    1469.6456   ✓       
+176   FPQLDSTSAFN+0.984SR      0.4432      Prosit      -15.0634    1469.6787   ✓       
+177   FPQLDSTSAFN+0.984SR      0.4432      Prosit      -15.5883    1469.6787   ✓       
+178   FPQLDSTSAFN+0.984SR      0.4432      Prosit      -16.7585    1469.6787   ✓       
+179   FPQLDSTSAFN+0.984SR      0.4432      Prosit      -17.1056    1469.6787   ✓       
+180   FPQLDSTSAFN+0.984SR      0.4432      Prosit      -17.2834    1469.6787   ✓       
+181   FPQLDSTSAFN+0.984SR      0.4432      Prosit      -17.6305    1469.6787   ✓       
+182   FPQLDSTSAFN+0.984SR      0.4432      Prosit      -18.8007    1469.6787   ✓       
+183   FPQLDSTSAFN+0.984SR      0.4432      Prosit      -19.3256    1469.6787   ✓       
+184   MPQLDSTSYAN+0.984SR      0.4426      Prosit      -25.8143    1469.6456   ✓       
+185   MPQLDSTSYAN+0.984SR      0.4426      Prosit      -26.3393    1469.6456   ✓       
+186   MPQLDSTSYAN+0.984SR      0.4426      Prosit      -27.5094    1469.6456   ✓       
+187   FPKLDSTSFADSR            0.4400      Prosit      -17.8084    1469.7150   ✓       
+188   FPKLDSTSFADSR            0.4400      Prosit      -18.3333    1469.7150   ✓       
+189   FPKLDSTSFAN+0.984SR      0.4394      Prosit      -13.6743    1469.7150   ✓       
+190   FPKLDSTSFAN+0.984SR      0.4394      Prosit      -14.1992    1469.7150   ✓       
+191   FPKLDSTSFAN+0.984SR      0.4394      Prosit      -15.3694    1469.7150   ✓       
+192   FPKLDSTSFAN+0.984SR      0.4394      Prosit      -15.7165    1469.7150   ✓       
+193   FPKLDSTSFAN+0.984SR      0.4394      Prosit      -15.8943    1469.7150   ✓       
+194   FPKLDSTSFAN+0.984SR      0.4394      Prosit      -16.2414    1469.7150   ✓       
+195   FPKLDSTSFAN+0.984SR      0.4394      Prosit      -17.4116    1469.7150   ✓       
+196   FPKLDSTSFAN+0.984SR      0.4394      Prosit      -17.9365    1469.7150   ✓       
+197   FPQLDSTAYAN+0.984SR      0.4303      Prosit      -18.9218    1469.6787   ✓       
+198   YPQLDSTAFAN+0.984SR      0.4278      Prosit      -26.5908    1469.6787   ✓       
+199   YPQLDSTAFAN+0.984SR      0.4278      Prosit      -27.1157    1469.6787   ✓       
+200   FPQLDSTYAAN+0.984SR      0.4179      Prosit      -18.6849    1469.6787   ✓       
+201   FPQLDSTYAAN+0.984SR      0.4179      Prosit      -19.2098    1469.6787   ✓       
+202   FPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -7.6573     1393.6474   ✗       
+203   FPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -8.1822     1393.6474   ✗       
+204   FPQLDSTSFANSR            -1.0000     NotChecked  -9.0050     1468.6946   ✗       
+205   FPQLN+0.984STSFAN+0.984SR-1.0000     Failed      -9.2478     1469.6787   ✓       
+206   FPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -9.3524     1393.6474   ✗       
+207   FPQLDSTSFANSR            -1.0000     NotChecked  -9.5299     1468.6946   ✗       
+208   FPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -9.6995     1393.6474   ✗       
+209   FPQLN+0.984STSFAN+0.984SR-1.0000     Failed      -9.7728     1469.6787   ✓       
+210   FPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -9.8773     1393.6474   ✗       
+211   FPQLDSTAFAN+0.984SR      -1.0000     NotChecked  -9.8961     1453.6837   ✗       
+212   FPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -10.2244    1393.6474   ✗       
+213   FPQLDSTAFAN+0.984SR      -1.0000     NotChecked  -10.4210    1453.6837   ✗       
+214   FPQLDSTSFANSR            -1.0000     NotChecked  -10.7000    1468.6946   ✗       
+215   FPQLDSTSSAN+0.984SR      -1.0000     NotChecked  -10.8226    1409.6423   ✗       
+216   FPQLN+0.984STSFAN+0.984SR-1.0000     Failed      -10.9429    1469.6787   ✓       
+217   FPQLDSTSFANSR            -1.0000     NotChecked  -11.0471    1468.6946   ✗       
+218   FPQLDSTSFANSR            -1.0000     NotChecked  -11.2250    1468.6946   ✗       
+219   FPQLDSTSFN+0.984SR       -1.0000     NotChecked  -11.2654    1398.6416   ✗       
+220   FPQLN+0.984STSFAN+0.984SR-1.0000     Failed      -11.2900    1469.6787   ✓       
+221   FPQLDSTSSAN+0.984SR      -1.0000     NotChecked  -11.3475    1409.6423   ✗       
+222   FPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -11.3946    1393.6474   ✗       
+223   FPQLN+0.984STSFAN+0.984SR-1.0000     Failed      -11.4678    1469.6787   ✓       
+224   FPQLDSTSFANSR            -1.0000     NotChecked  -11.5721    1468.6946   ✗       
+225   FPQLDSTAFAN+0.984SR      -1.0000     NotChecked  -11.5912    1453.6837   ✗       
+226   FPQLDSTSFN+0.984SR       -1.0000     NotChecked  -11.7903    1398.6416   ✗       
+227   FPQLDSTSAADSR            -1.0000     NotChecked  -11.7914    1393.6474   ✗       
+228   FPQLN+0.984STSFAN+0.984SR-1.0000     Failed      -11.8149    1469.6787   ✓       
+229   FPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -11.9195    1393.6474   ✗       
+230   FPQLDSTAFAN+0.984SR      -1.0000     NotChecked  -11.9383    1453.6837   ✗       
+231   FPQLDSTAFAN+0.984SR      -1.0000     NotChecked  -12.1161    1453.6837   ✗       
+232   FPQLDSTSAADSR            -1.0000     NotChecked  -12.3163    1393.6474   ✗       
+233   FPQLDSTFAN+0.984SR       -1.0000     NotChecked  -12.3247    1382.6466   ✗       
+234   FPQLDSTSFASSR            -1.0000     NotChecked  -12.4524    1441.6837   ✗       
+235   FPQLDSTAFAN+0.984SR      -1.0000     NotChecked  -12.4632    1453.6837   ✗       
+236   FPQLDSTSSAN+0.984SR      -1.0000     NotChecked  -12.5177    1409.6423   ✗       
+237   FPQLNSTSFAN+0.984SR      -1.0000     NotChecked  -12.6605    1468.6946   ✗       
+238   FPQLDSTSFANSR            -1.0000     NotChecked  -12.7422    1468.6946   ✗       
+239   FPQLDSTFAN+0.984SR       -1.0000     NotChecked  -12.8496    1382.6466   ✗       
+240   FPQLDSTSSAN+0.984SR      -1.0000     NotChecked  -12.8648    1409.6423   ✗       
+241   FPQLDSTSLAN+0.984SR      -1.0000     NotChecked  -12.9089    1435.6943   ✗       
+242   FPQLDSTSFGN+0.984SR      -1.0000     NotChecked  -12.9502    1455.6630   ✗       
+243   FPQLDSTSFN+0.984SR       -1.0000     NotChecked  -12.9605    1398.6416   ✗       
+244   FPQLDSTSFASR             -1.0000     NotChecked  -12.9773    1354.6517   ✗       
+245   FPQLN+0.984STSFAN+0.984SR-1.0000     Failed      -12.9851    1469.6787   ✓       
+246   FPQLDSTSSAN+0.984SR      -1.0000     NotChecked  -13.0426    1409.6423   ✗       
+247   FPQLNSTSFAN+0.984SR      -1.0000     NotChecked  -13.1854    1468.6946   ✗       
+248   FPQLDSTSFAN+0.984SG      -1.0000     NotChecked  -13.1952    1370.5990   ✗       
+249   FPQLDSTSMAN+0.984SR      -1.0000     NotChecked  -13.2435    1453.6507   ✗       
+250   FPQLDSTSFANSR            -1.0000     NotChecked  -13.2672    1468.6946   ✗       
+251   FPQLDSTSFN+0.984SR       -1.0000     NotChecked  -13.3076    1398.6416   ✗       
+252   FPQLDSTSSAN+0.984SR      -1.0000     NotChecked  -13.3897    1409.6423   ✗       
+253   FPQLDSTSLAN+0.984SR      -1.0000     NotChecked  -13.4338    1435.6943   ✗       
+254   FPQLDSTSFGN+0.984SR      -1.0000     NotChecked  -13.4751    1455.6630   ✗       
+255   FPQLDSTSFN+0.984SR       -1.0000     NotChecked  -13.4854    1398.6416   ✗       
+256   FPQLDSTSAADSR            -1.0000     NotChecked  -13.4865    1393.6474   ✗       
+257   FPQLN+0.984STSFAN+0.984SR-1.0000     Failed      -13.5100    1469.6787   ✓       
+258   FPQLDSTAFAN+0.984SR      -1.0000     NotChecked  -13.6334    1453.6837   ✗       
+259   FPQLDSTSFAN+0.984SG      -1.0000     NotChecked  -13.7201    1370.5990   ✗       
+260   FPQLDSTSMAN+0.984SR      -1.0000     NotChecked  -13.7684    1453.6507   ✗       
+261   FPQLDSTSFAN+0.984S       -1.0000     NotChecked  -13.7857    1313.5776   ✗       
+262   FPQLDSTGFAN+0.984SR      -1.0000     NotChecked  -13.7981    1439.6681   ✗       
+263   FPQLDSTSFAN+0.984R       -1.0000     NotChecked  -13.7982    1382.6466   ✗       
+264   FPQLDSTSFAN+0.984R       -1.0000     NotChecked  -13.8072    1382.6466   ✗       
+265   FPQLDSTSFN+0.984SR       -1.0000     NotChecked  -13.8325    1398.6416   ✗       
+266   FPQLDSTSAADSR            -1.0000     NotChecked  -13.8336    1393.6474   ✗       
+267   FPQLDSTSTAN+0.984SR      -1.0000     NotChecked  -13.8660    1423.6579   ✗       
+268   FPQLDSTSEAN+0.984SR      -1.0000     NotChecked  -13.9597    1451.6528   ✗       
+269   FPQLDSTSAADSR            -1.0000     NotChecked  -14.0114    1393.6474   ✗       
+270   FPQLDSTFAN+0.984SR       -1.0000     NotChecked  -14.0198    1382.6466   ✗       
+271   FPQLDSTAFADSR            -1.0000     NotChecked  -14.0302    1453.6837   ✗       
+272   FPQLDSTSFAASR            -1.0000     NotChecked  -14.0892    1425.6888   ✗       
+273   FPQLDSTSFASSR            -1.0000     NotChecked  -14.1475    1441.6837   ✗       
+274   FPQLDSTAFAN+0.984SR      -1.0000     NotChecked  -14.1583    1453.6837   ✗       
+275   FPQLDSTSFAN+0.984GR      -1.0000     NotChecked  -14.1786    1439.6681   ✗       
+276   FPQLDSTSFAN+0.984SK      -1.0000     NotChecked  -14.2304    1441.6725   ✗       
+277   FPQLDSTSFAN+0.984S       -1.0000     NotChecked  -14.3107    1313.5776   ✗       
+278   FPQLDSTGFAN+0.984SR      -1.0000     NotChecked  -14.3230    1439.6681   ✗       
+279   FPQLNSTSFAN+0.984SR      -1.0000     NotChecked  -14.3556    1468.6946   ✗       
+280   FPQLDSTSAADSR            -1.0000     NotChecked  -14.3585    1393.6474   ✗       
+281   FPQLDSTFAN+0.984SR       -1.0000     NotChecked  -14.3669    1382.6466   ✗       
+282   FPQLDSTSTAN+0.984SR      -1.0000     NotChecked  -14.3909    1423.6579   ✗       
+283   FPQLDSTSEAN+0.984SR      -1.0000     NotChecked  -14.4846    1451.6528   ✗       
+284   FPQLDSTSFASSR            -1.0000     NotChecked  -14.4946    1441.6837   ✗       
+285   FPQLDSTFAN+0.984SR       -1.0000     NotChecked  -14.5447    1382.6466   ✗       
+286   FPQLDSTAFADSR            -1.0000     NotChecked  -14.5551    1453.6837   ✗       
+287   FPQLDSTSSAN+0.984SR      -1.0000     NotChecked  -14.5599    1409.6423   ✗       
+288   FPQLDSTSFASR             -1.0000     NotChecked  -14.5878    1354.6517   ✗       
+289   FPQLDSTSLAN+0.984SR      -1.0000     NotChecked  -14.6040    1435.6943   ✗       
+290   FPQLDSTSFAASR            -1.0000     NotChecked  -14.6141    1425.6888   ✗       
+291   FPQLDSTSFGN+0.984SR      -1.0000     NotChecked  -14.6453    1455.6630   ✗       
+292   FPQLDSTSFASR             -1.0000     NotChecked  -14.6724    1354.6517   ✗       
+293   FPQLDSTSFAGSR            -1.0000     NotChecked  -14.6822    1411.6732   ✗       
+294   FPQLNSTSFAN+0.984SR      -1.0000     NotChecked  -14.7027    1468.6946   ✗       
+295   FPQLDSTSFAN+0.984SK      -1.0000     NotChecked  -14.7553    1441.6725   ✗       
+296   FPQLNSTSFAN+0.984SR      -1.0000     NotChecked  -14.8805    1468.6946   ✗       
+297   FPQLDSTSFAN+0.984SG      -1.0000     NotChecked  -14.8903    1370.5990   ✗       
+298   FPQLDSTFAN+0.984SR       -1.0000     NotChecked  -14.8918    1382.6466   ✗       
+299   FPQLDSTSMAN+0.984SR      -1.0000     NotChecked  -14.9386    1453.6507   ✗       
+300   FPQLDSTSLAN+0.984SR      -1.0000     NotChecked  -14.9511    1435.6943   ✗       
+301   FPQLDSTSSADSR            -1.0000     NotChecked  -14.9567    1409.6423   ✗       
+302   FPQLDSTSFGN+0.984SR      -1.0000     NotChecked  -14.9924    1455.6630   ✗       
+303   FPQLDSTSFN+0.984SR       -1.0000     NotChecked  -15.0027    1398.6416   ✗       
+304   FPQLDATSFAN+0.984SR      -1.0000     NotChecked  -15.0145    1453.6837   ✗       
+305   FPQLDSTSFASR             -1.0000     NotChecked  -15.0195    1354.6517   ✗       
+306   FPQLDSTSSAN+0.984SR      -1.0000     NotChecked  -15.0848    1409.6423   ✗       
+307   FPQLDSTSFASR             -1.0000     NotChecked  -15.1127    1354.6517   ✗       
+308   FPQLDSTSLAN+0.984SR      -1.0000     NotChecked  -15.1289    1435.6943   ✗       
+309   FPQLDSTSFGN+0.984SR      -1.0000     NotChecked  -15.1702    1455.6630   ✗       
+310   FPQLDSTSFAGSR            -1.0000     NotChecked  -15.2072    1411.6732   ✗       
+311   FPQLDSTSFAPSR            -1.0000     NotChecked  -15.2226    1451.7045   ✗       
+312   FPQLNSTSFAN+0.984SR      -1.0000     NotChecked  -15.2276    1468.6946   ✗       
+313   FPQLDSTSFAN+0.984SG      -1.0000     NotChecked  -15.2374    1370.5990   ✗       
+314   FPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -15.2736    1393.6474   ✗       
+315   FPQLDSTSMAN+0.984SR      -1.0000     NotChecked  -15.2857    1453.6507   ✗       
+316   FPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -15.3040    1393.6474   ✗       
+317   FPQLDSTSFDSR             -1.0000     NotChecked  -15.3995    1398.6416   ✗       
+318   FPQLDSTSFAN+0.984SG      -1.0000     NotChecked  -15.4152    1370.5990   ✗       
+319   FPQLDSSSFAN+0.984SR      -1.0000     NotChecked  -15.4293    1455.6630   ✗       
+320   FPQLDTSFAN+0.984SR       -1.0000     NotChecked  -15.4486    1382.6466   ✗       
+321   FPQLDSTSMAN+0.984SR      -1.0000     NotChecked  -15.4635    1453.6507   ✗       
+322   FPQLDSTSLAN+0.984SR      -1.0000     NotChecked  -15.4760    1435.6943   ✗       
+323   FPQLDSTSFAN+0.984S       -1.0000     NotChecked  -15.4808    1313.5776   ✗       
+324   FPQLDSTSSADSR            -1.0000     NotChecked  -15.4816    1409.6423   ✗       
+325   FPQLDSTGFAN+0.984SR      -1.0000     NotChecked  -15.4932    1439.6681   ✗       
+326   FPQLDSTSFAN+0.984R       -1.0000     NotChecked  -15.4933    1382.6466   ✗       
+327   FPQLDSTSFAN+0.984R       -1.0000     NotChecked  -15.5023    1382.6466   ✗       
+328   FPQLDSTSFAN+0.984SN      -1.0000     NotChecked  -15.5099    1427.6205   ✗       
+329   FPQLDSTSFGN+0.984SR      -1.0000     NotChecked  -15.5173    1455.6630   ✗       
+330   FPQLDSTSFN+0.984SR       -1.0000     NotChecked  -15.5276    1398.6416   ✗       
+331   FPQLDSTSAADSR            -1.0000     NotChecked  -15.5287    1393.6474   ✗       
+332   FPQLDATSFAN+0.984SR      -1.0000     NotChecked  -15.5394    1453.6837   ✗       
+333   FPQLDSTSTAN+0.984SR      -1.0000     NotChecked  -15.5610    1423.6579   ✗       
+334   FPQLDSTSEAN+0.984SR      -1.0000     NotChecked  -15.6548    1451.6528   ✗       
+335   FPQLDSTAFADSR            -1.0000     NotChecked  -15.7253    1453.6837   ✗       
+336   FPQLDSTSFAPSR            -1.0000     NotChecked  -15.7475    1451.7045   ✗       
+337   FPQLDSTSFAN+0.984SG      -1.0000     NotChecked  -15.7623    1370.5990   ✗       
+338   FPQLDSTSFAASR            -1.0000     NotChecked  -15.7843    1425.6888   ✗       
+339   FPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -15.7985    1393.6474   ✗       
+340   FPQLDSTSMAN+0.984SR      -1.0000     NotChecked  -15.8106    1453.6507   ✗       
+341   FPQLDSTSFAN+0.984S       -1.0000     NotChecked  -15.8279    1313.5776   ✗       
+342   FPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -15.8289    1393.6474   ✗       
+343   FPQLDSTGFAN+0.984SR      -1.0000     NotChecked  -15.8403    1439.6681   ✗       
+344   FPQLDSTSFAN+0.984R       -1.0000     NotChecked  -15.8404    1382.6466   ✗       
+345   FPQLDSTSFAN+0.984R       -1.0000     NotChecked  -15.8494    1382.6466   ✗       
+346   FPQLDSTSFAN+0.984GR      -1.0000     NotChecked  -15.8737    1439.6681   ✗       
+347   FPQLDSTSAANSR            -1.0000     NotChecked  -15.8873    1392.6633   ✗       
+348   FPQLDSTSTAN+0.984SR      -1.0000     NotChecked  -15.9081    1423.6579   ✗       
+349   FPQLDSTSFDSR             -1.0000     NotChecked  -15.9244    1398.6416   ✗       
+350   FPQLDSTSFAN+0.984SK      -1.0000     NotChecked  -15.9255    1441.6725   ✗       
+351   FPQLDSSSFAN+0.984SR      -1.0000     NotChecked  -15.9542    1455.6630   ✗       
+352   FPQLSSTSFAN+0.984SR      -1.0000     NotChecked  -15.9567    1441.6837   ✗       
+353   FPQLDTSFAN+0.984SR       -1.0000     NotChecked  -15.9735    1382.6466   ✗       
+354   FPQLDSTSEAN+0.984SR      -1.0000     NotChecked  -16.0019    1451.6528   ✗       
+355   FPQLDSTSFAN+0.984S       -1.0000     NotChecked  -16.0058    1313.5776   ✗       
+356   FPQLDSTGFAN+0.984SR      -1.0000     NotChecked  -16.0181    1439.6681   ✗       
+357   FPQLDSTSFAN+0.984SN      -1.0000     NotChecked  -16.0348    1427.6205   ✗       
+358   FPQLDSTSAADSR            -1.0000     NotChecked  -16.0536    1393.6474   ✗       
+359   FPQLDSTFAN+0.984SR       -1.0000     NotChecked  -16.0620    1382.6466   ✗       
+360   FPQLDSTAFADSR            -1.0000     NotChecked  -16.0724    1453.6837   ✗       
+361   FPQLDSTSFAN+0.984SV      -1.0000     NotChecked  -16.0736    1412.6460   ✗       
+362   FPQLDSTSTAN+0.984SR      -1.0000     NotChecked  -16.0860    1423.6579   ✗       
+363   FPQLDSTSFAN+0.984ST      -1.0000     NotChecked  -16.1193    1414.6252   ✗       
+364   FPQLN+0.984STSAAN+0.984SR-1.0000     NotChecked  -16.1302    1393.6474   ✗       
+365   FPQLDSTSFAASR            -1.0000     NotChecked  -16.1314    1425.6888   ✗       
+366   FPQLDSTSEAN+0.984SR      -1.0000     NotChecked  -16.1797    1451.6528   ✗       
+367   FPQLDSTSFASSR            -1.0000     NotChecked  -16.1897    1441.6837   ✗       
+368   FPQLDSTSFAN+0.984GR      -1.0000     NotChecked  -16.2208    1439.6681   ✗       
+369   +42.011PQLDSTSFAN+0.984SR-1.0000     NotChecked  -16.2396    1364.6208   ✗       
+370   FPQLDSTAFADSR            -1.0000     NotChecked  -16.2502    1453.6837   ✗       
+371   FPQLDSTSFAN+0.984SK      -1.0000     NotChecked  -16.2726    1441.6725   ✗       
+372   FPQLDSTSFASR             -1.0000     NotChecked  -16.2829    1354.6517   ✗       
+373   FPQLDSTSFAASR            -1.0000     NotChecked  -16.3092    1425.6888   ✗       
+374   FPQLDSTSFAN+0.984S       -1.0000     NotChecked  -16.3529    1313.5776   ✗       
+375   FPQLDSTGFAN+0.984SR      -1.0000     NotChecked  -16.3652    1439.6681   ✗       
+376   FPQLTSTSFAN+0.984SR      -1.0000     NotChecked  -16.3696    1455.6994   ✗       
+377   FPQLDSTSFAGSR            -1.0000     NotChecked  -16.3773    1411.6732   ✗       
+378   FPQLNSTSFAN+0.984SR      -1.0000     NotChecked  -16.3978    1468.6946   ✗       
+379   KPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -16.4117    1450.7052   ✗       
+380   FPQLDSTSAANSR            -1.0000     NotChecked  -16.4122    1392.6633   ✗       
+381   FPQLDSTSTAN+0.984SR      -1.0000     NotChecked  -16.4331    1423.6579   ✗       
+382   FPQLDSTSFAN+0.984SK      -1.0000     NotChecked  -16.4504    1441.6725   ✗       
+383   FPQLDSTFADSR             -1.0000     NotChecked  -16.4588    1382.6466   ✗       
+384   FPQLSSTSFAN+0.984SR      -1.0000     NotChecked  -16.4816    1441.6837   ✗       
+385   FPQLDSTSEAN+0.984SR      -1.0000     NotChecked  -16.5268    1451.6528   ✗       
+386   PPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -16.5636    1419.6630   ✗       
+387   FPQLDSTFAN+0.984SR       -1.0000     NotChecked  -16.5869    1382.6466   ✗       
+388   FPQLDSTAFADSR            -1.0000     NotChecked  -16.5973    1453.6837   ✗       
+389   FPQLDSTSFAN+0.984SV      -1.0000     NotChecked  -16.5985    1412.6460   ✗       
+390   +43.006PQLDSTSFAN+0.984SR-1.0000     NotChecked  -16.6038    1365.6161   ✗       
+391   FPQLDSTSFANSR            -1.0000     NotChecked  -16.6212    1468.6946   ✗       
+392   FPQLDSTSFAN+0.984SQ      -1.0000     NotChecked  -16.6261    1441.6361   ✗       
+393   FPQLDSTSFASR             -1.0000     NotChecked  -16.6300    1354.6517   ✗       
+394   FPQLDSTSFAN+0.984SL      -1.0000     NotChecked  -16.6315    1426.6616   ✗       
+395   FPQLDSTSFAN+0.984ST      -1.0000     NotChecked  -16.6442    1414.6252   ✗       
+396   FPQLDSTSLAN+0.984SR      -1.0000     NotChecked  -16.6462    1435.6943   ✗       
+397   FPQLDSTSFANSR            -1.0000     NotChecked  -16.6516    1468.6946   ✗       
+398   FPQLDSTSSADSR            -1.0000     NotChecked  -16.6518    1409.6423   ✗       
+399   FPQLN+0.984STSAAN+0.984SR-1.0000     NotChecked  -16.6551    1393.6474   ✗       
+400   FPQLDSTSFAASR            -1.0000     NotChecked  -16.6563    1425.6888   ✗       
+401   FPQLDSTSFGN+0.984SR      -1.0000     NotChecked  -16.6875    1455.6630   ✗       
+402   FPQLDATSFAN+0.984SR      -1.0000     NotChecked  -16.7096    1453.6837   ✗       
+403   FPQLDSTSFASR             -1.0000     NotChecked  -16.7146    1354.6517   ✗       
+404   FPQLDSTSFAGSR            -1.0000     NotChecked  -16.7244    1411.6732   ✗       
+405   +42.011PQLDSTSFAN+0.984SR-1.0000     NotChecked  -16.7646    1364.6208   ✗       
+406   FPQLDSTAAAN+0.984SR      -1.0000     NotChecked  -16.7785    1377.6525   ✗       
+407   MPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -16.7886    1453.6507   ✗       
+408   FPQLNSTSFADSR            -1.0000     NotChecked  -16.7946    1468.6946   ✗       
+409   FPQLDSTSFAN+0.984SK      -1.0000     NotChecked  -16.7975    1441.6725   ✗       
+410   FPQLDSTSFASR             -1.0000     NotChecked  -16.8078    1354.6517   ✗       
+411   FPALDSTSFAN+0.984SR      -1.0000     NotChecked  -16.8084    1412.6572   ✗       
+412   FPQLN+0.984STSFAN+0.984SR-1.0000     Failed      -16.8641    1469.6787   ✓       
+413   FPQLDSTFAAN+0.984SR      -1.0000     NotChecked  -16.8769    1453.6837   ✗       
+414   FPQLTSTSFAN+0.984SR      -1.0000     NotChecked  -16.8945    1455.6994   ✗       
+415   FPQLN+0.984STSFAN+0.984SR-1.0000     Failed      -16.8945    1469.6787   ✓       
+416   FPQLDSTSFAGSR            -1.0000     NotChecked  -16.9023    1411.6732   ✗       
+417   FPQLDSTSFAPSR            -1.0000     NotChecked  -16.9177    1451.7045   ✗       
+418   FPQLNSTSFAN+0.984SR      -1.0000     NotChecked  -16.9227    1468.6946   ✗       
+419   FPQLDSTSFAN+0.984SG      -1.0000     NotChecked  -16.9325    1370.5990   ✗       
+420   KPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -16.9366    1450.7052   ✗       
+421   FPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -16.9687    1393.6474   ✗       
+422   FPQLDSTSMAN+0.984SR      -1.0000     NotChecked  -16.9808    1453.6507   ✗       
+423   FPQLDSTFADSR             -1.0000     NotChecked  -16.9837    1382.6466   ✗       
+424   FPQLDSTSSADSR            -1.0000     NotChecked  -16.9989    1409.6423   ✗       
+425   FPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -16.9991    1393.6474   ✗       
+426   FPQLDSTSLADSR            -1.0000     NotChecked  -17.0430    1435.6943   ✗       
+427   FPQLDATSFAN+0.984SR      -1.0000     NotChecked  -17.0567    1453.6837   ✗       
+428   FPQLDSTSFGDSR            -1.0000     NotChecked  -17.0843    1455.6630   ✗       
+429   PPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -17.0885    1419.6630   ✗       
+430   FGQLDSTSFAN+0.984SR      -1.0000     NotChecked  -17.0894    1429.6474   ✗       
+431   FPQLDSTSFDSR             -1.0000     NotChecked  -17.0946    1398.6416   ✗       
+432   FPQLDSSSFAN+0.984SR      -1.0000     NotChecked  -17.1244    1455.6630   ✗       
+433   +43.006PQLDSTSFAN+0.984SR-1.0000     NotChecked  -17.1287    1365.6161   ✗       
+434   FSQLDSTSFAN+0.984SR      -1.0000     NotChecked  -17.1374    1459.6579   ✗       
+435   FPQLDTSFAN+0.984SR       -1.0000     NotChecked  -17.1437    1382.6466   ✗       
+436   FPQLDSTSFANSR            -1.0000     NotChecked  -17.1461    1468.6946   ✗       
+437   FPQLDSTSFAN+0.984SQ      -1.0000     NotChecked  -17.1510    1441.6361   ✗       
+438   FPQLDSTSFASR             -1.0000     NotChecked  -17.1549    1354.6517   ✗       
+439   FPQLDSTSFAN+0.984SL      -1.0000     NotChecked  -17.1564    1426.6616   ✗       
+440   FPQ+0.984LDSTSAAN+0.984SR-1.0000     NotChecked  -17.1576    1394.6314   ✗       
+441   FPQLDSTSLAN+0.984SR      -1.0000     NotChecked  -17.1711    1435.6943   ✗       
+442   FPQLDSTSFANSR            -1.0000     NotChecked  -17.1765    1468.6946   ✗       
+443   FPQLDSTSSADSR            -1.0000     NotChecked  -17.1767    1409.6423   ✗       
+444   FPQLDSTSFAN+0.984SN      -1.0000     NotChecked  -17.2050    1427.6205   ✗       
+445   FPNLDSTSFAN+0.984SR      -1.0000     NotChecked  -17.2058    1455.6630   ✗       
+446   FPQLDSTSFGN+0.984SR      -1.0000     NotChecked  -17.2124    1455.6630   ✗       
+447   FPSLDSTSFAN+0.984SR      -1.0000     NotChecked  -17.2247    1428.6521   ✗       
+448   FPQLDATSFAN+0.984SR      -1.0000     NotChecked  -17.2345    1453.6837   ✗       
+449   FPQLDSTSFAGSR            -1.0000     NotChecked  -17.2494    1411.6732   ✗       
+450   FPQLDSTSFAPSR            -1.0000     NotChecked  -17.2648    1451.7045   ✗       
+451   FPQLDSTAAAN+0.984SR      -1.0000     NotChecked  -17.3034    1377.6525   ✗       
+452   MPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -17.3135    1453.6507   ✗       
+453   FPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -17.3158    1393.6474   ✗       
+454   FPQLNSTSFADSR            -1.0000     NotChecked  -17.3195    1468.6946   ✗       
+455   FPQLDSTSFADSG            -1.0000     NotChecked  -17.3293    1370.5990   ✗       
+456   FPQLDSTSFAN+0.984SA      -1.0000     NotChecked  -17.3312    1384.6147   ✗       
+457   FPALDSTSFAN+0.984SR      -1.0000     NotChecked  -17.3333    1412.6572   ✗       
+458   FPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -17.3462    1393.6474   ✗       
+459   FPQLDSTSMADSR            -1.0000     NotChecked  -17.3776    1453.6507   ✗       
+460   FPQLDSASFAN+0.984SR      -1.0000     NotChecked  -17.3829    1439.6681   ✗       
+461   FPQLN+0.984STSFAN+0.984SR-1.0000     Failed      -17.3890    1469.6787   ✓       
+462   FPQLDSTFAAN+0.984SR      -1.0000     NotChecked  -17.4018    1453.6837   ✗       
+463   FPQLN+0.984STSFAN+0.984SR-1.0000     Failed      -17.4194    1469.6787   ✓       
+464   FPQLDSTSFDSR             -1.0000     NotChecked  -17.4417    1398.6416   ✗       
+465   FPQLDSTSFAPSR            -1.0000     NotChecked  -17.4426    1451.7045   ✗       
+466   FPQLDSTSFAN+0.984SG      -1.0000     NotChecked  -17.4574    1370.5990   ✗       
+467   FPQLDSSSFAN+0.984SR      -1.0000     NotChecked  -17.4715    1455.6630   ✗       
+468   FPQLN+0.984STSFANSR      -1.0000     NotChecked  -17.4778    1468.6946   ✗       
+469   FPQLDTSFAN+0.984SR       -1.0000     NotChecked  -17.4908    1382.6466   ✗       
+470   FPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -17.4936    1393.6474   ✗       
+471   FPQLDSTSMAN+0.984SR      -1.0000     NotChecked  -17.5057    1453.6507   ✗       
+472   FPQLDSTAFAN+0.984SR      -1.0000     NotChecked  -17.5124    1453.6837   ✗       
+473   FPQLDSTSFAN+0.984S       -1.0000     NotChecked  -17.5230    1313.5776   ✗       
+474   FPQLDSTSSADSR            -1.0000     NotChecked  -17.5238    1409.6423   ✗       
+475   FPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -17.5240    1393.6474   ✗       
+476   FPQLDSTGFAN+0.984SR      -1.0000     NotChecked  -17.5354    1439.6681   ✗       
+477   FPQLDSTSFAN+0.984R       -1.0000     NotChecked  -17.5355    1382.6466   ✗       
+478   FPQLDSTAFAN+0.984SR      -1.0000     NotChecked  -17.5428    1453.6837   ✗       
+479   FPQLDSTSFAN+0.984R       -1.0000     NotChecked  -17.5445    1382.6466   ✗       
+480   FPQLDSTSFAN+0.984SN      -1.0000     NotChecked  -17.5521    1427.6205   ✗       
+481   FPQLDSTSLADSR            -1.0000     NotChecked  -17.5680    1435.6943   ✗       
+482   FPQLDATSFAN+0.984SR      -1.0000     NotChecked  -17.5816    1453.6837   ✗       
+483   FPQLDSTSAANSR            -1.0000     NotChecked  -17.5824    1392.6633   ✗       
+484   FPQLDSTSTAN+0.984SR      -1.0000     NotChecked  -17.6032    1423.6579   ✗       
+485   FPQLDSTSFGDSR            -1.0000     NotChecked  -17.6092    1455.6630   ✗       
+486   FGQLDSTSFAN+0.984SR      -1.0000     NotChecked  -17.6144    1429.6474   ✗       
+487   FAQLDSTSFAN+0.984SR      -1.0000     NotChecked  -17.6171    1443.6630   ✗       
+488   FPQLDSTSFDSR             -1.0000     NotChecked  -17.6195    1398.6416   ✗       
+489   FPQLDSSSFAN+0.984SR      -1.0000     NotChecked  -17.6493    1455.6630   ✗       
+490   FPQLSSTSFAN+0.984SR      -1.0000     NotChecked  -17.6518    1441.6837   ✗       
+491   FSQLDSTSFAN+0.984SR      -1.0000     NotChecked  -17.6623    1459.6579   ✗       
+492   FPQLDTSFAN+0.984SR       -1.0000     NotChecked  -17.6686    1382.6466   ✗       
+493   FPQ+0.984LDSTSAAN+0.984SR-1.0000     NotChecked  -17.6825    1394.6314   ✗       
+494   FPQLDSTSEAN+0.984SR      -1.0000     NotChecked  -17.6970    1451.6528   ✗       
+495   LPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -17.7004    1435.6943   ✗       
+496   FPQLSTSFAN+0.984SR       -1.0000     NotChecked  -17.7233    1354.6517   ✗       
+497   FPQLDSTSFAN+0.984SN      -1.0000     NotChecked  -17.7299    1427.6205   ✗       
+498   FPNLDSTSFAN+0.984SR      -1.0000     NotChecked  -17.7307    1455.6630   ✗       
+499   FPSLDSTSFAN+0.984SR      -1.0000     NotChecked  -17.7496    1428.6521   ✗       
+500   FPQLDSTAFADSR            -1.0000     NotChecked  -17.7675    1453.6837   ✗       
+501   FPQLDSTSFAN+0.984SV      -1.0000     NotChecked  -17.7687    1412.6460   ✗       
+502   VPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -17.7747    1421.6787   ✗       
+503   FPQLDSTSFAPSR            -1.0000     NotChecked  -17.7897    1451.7045   ✗       
+504   FPQLDSTSFAN+0.984ST      -1.0000     NotChecked  -17.8144    1414.6252   ✗       
+505   FPQLN+0.984STSAAN+0.984SR-1.0000     NotChecked  -17.8253    1393.6474   ✗       
+506   FPQLDSTSFAASR            -1.0000     NotChecked  -17.8265    1425.6888   ✗       
+507   FPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -17.8407    1393.6474   ✗       
+508   FPQLDSTSFADSG            -1.0000     NotChecked  -17.8543    1370.5990   ✗       
+509   FPQLDSTSFAN+0.984SA      -1.0000     NotChecked  -17.8561    1384.6147   ✗       
+510   FPQLGSTSFAN+0.984SR      -1.0000     NotChecked  -17.8668    1411.6732   ✗       
+511   FPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -17.8711    1393.6474   ✗       
+512   FPQLDSTSMADSR            -1.0000     NotChecked  -17.9025    1453.6507   ✗       
+513   FPQLDSASFAN+0.984SR      -1.0000     NotChecked  -17.9078    1439.6681   ✗       
+514   FPQLDSTSFAN+0.984GR      -1.0000     NotChecked  -17.9159    1439.6681   ✗       
+515   FPQLDSTSFADS             -1.0000     NotChecked  -17.9198    1313.5776   ✗       
+516   FPQLDSTSAANSR            -1.0000     NotChecked  -17.9295    1392.6633   ✗       
+517   FPQLDSTGFADSR            -1.0000     NotChecked  -17.9322    1439.6681   ✗       
+518   FPQLDSTSFADR             -1.0000     NotChecked  -17.9324    1382.6466   ✗       
+519   +42.011PQLDSTSFAN+0.984SR-1.0000     NotChecked  -17.9347    1364.6208   ✗       
+520   FPQLDSTSFADR             -1.0000     NotChecked  -17.9413    1382.6466   ✗       
+521   FPQLDSSFAN+0.984SR       -1.0000     NotChecked  -17.9436    1368.6310   ✗       
+522   FPQLDSTSFDSR             -1.0000     NotChecked  -17.9666    1398.6416   ✗       
+523   FPQLDSTSFAN+0.984SK      -1.0000     NotChecked  -17.9677    1441.6725   ✗       
+524   FPQLDSSSFAN+0.984SR      -1.0000     NotChecked  -17.9964    1455.6630   ✗       
+525   FPQLSSTSFAN+0.984SR      -1.0000     NotChecked  -17.9989    1441.6837   ✗       
+526   FPQLDSTSTADSR            -1.0000     NotChecked  -18.0001    1423.6579   ✗       
+527   FPQLASTSFAN+0.984SR      -1.0000     NotChecked  -18.0006    1425.6888   ✗       
+528   FPQLN+0.984STSFANSR      -1.0000     NotChecked  -18.0028    1468.6946   ✗       
+529   FPQLDTSFAN+0.984SR       -1.0000     NotChecked  -18.0157    1382.6466   ✗       
+530   FPQLDSTSASN+0.984SR      -1.0000     NotChecked  -18.0362    1409.6423   ✗       
+531   FPQLDSTAFAN+0.984SR      -1.0000     NotChecked  -18.0373    1453.6837   ✗       
+532   FPQLDSTSFAN+0.984S       -1.0000     NotChecked  -18.0479    1313.5776   ✗       
+533   FPQLDSTGFAN+0.984SR      -1.0000     NotChecked  -18.0603    1439.6681   ✗       
+534   FPQLTSTSFAN+0.984SR      -1.0000     NotChecked  -18.0647    1455.6994   ✗       
+535   FPQLDSTAFAN+0.984SR      -1.0000     NotChecked  -18.0677    1453.6837   ✗       
+536   FPQLDSTSFAN+0.984SN      -1.0000     NotChecked  -18.0770    1427.6205   ✗       
+537   FPQLDSTSEADSR            -1.0000     NotChecked  -18.0938    1451.6528   ✗       
+538   KPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -18.1068    1450.7052   ✗       
+539   FPQLDSTSAANSR            -1.0000     NotChecked  -18.1073    1392.6633   ✗       
+540   FPQLDSTSFAN+0.984SV      -1.0000     NotChecked  -18.1158    1412.6460   ✗       
+541   FPQVDSTSFAN+0.984SR      -1.0000     NotChecked  -18.1260    1455.6630   ✗       
+542   FPQLDSTAFANSR            -1.0000     NotChecked  -18.1261    1452.6997   ✗       
+543   FPQLDSTSTAN+0.984SR      -1.0000     NotChecked  -18.1282    1423.6579   ✗       
+544   FAQLDSTSFAN+0.984SR      -1.0000     NotChecked  -18.1421    1443.6630   ✗       
+545   FPQLDSTSAN+0.984SR       -1.0000     NotChecked  -18.1478    1322.6102   ✗       
+546   FPQLDSTFADSR             -1.0000     NotChecked  -18.1539    1382.6466   ✗       
+547   FPQLDSTSFAN+0.984ST      -1.0000     NotChecked  -18.1615    1414.6252   ✗       
+548   FPQLN+0.984STSAAN+0.984SR-1.0000     NotChecked  -18.1724    1393.6474   ✗       
+549   FPQLSSTSFAN+0.984SR      -1.0000     NotChecked  -18.1767    1441.6837   ✗       
+550   FPQLDSTSEAN+0.984SR      -1.0000     NotChecked  -18.2219    1451.6528   ✗       
+551   LPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -18.2253    1435.6943   ✗       
+552   FPQLSTSFAN+0.984SR       -1.0000     NotChecked  -18.2482    1354.6517   ✗       
+553   FPQSDSTSFAN+0.984SR      -1.0000     NotChecked  -18.2571    1443.6266   ✗       
+554   PPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -18.2587    1419.6630   ✗       
+555   FPQLDSTAFADSR            -1.0000     NotChecked  -18.2924    1453.6837   ✗       
+556   FPQLDSTSFAN+0.984SV      -1.0000     NotChecked  -18.2936    1412.6460   ✗       
+557   +43.006PQLDSTSFAN+0.984SR-1.0000     NotChecked  -18.2989    1365.6161   ✗       
+558   VPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -18.2996    1421.6787   ✗       
+559   FPQLDSTSFADGR            -1.0000     NotChecked  -18.3127    1439.6681   ✗       
+560   FPQLDSTSFANSR            -1.0000     NotChecked  -18.3163    1468.6946   ✗       
+561   FPQLDSTSFAN+0.984SQ      -1.0000     NotChecked  -18.3212    1441.6361   ✗       
+562   FPQLDSTSFASR             -1.0000     NotChecked  -18.3251    1354.6517   ✗       
+563   FPQLDSTSFAN+0.984SL      -1.0000     NotChecked  -18.3266    1426.6616   ✗       
+564   FPQLDSTSFAN+0.984ST      -1.0000     NotChecked  -18.3393    1414.6252   ✗       
+565   FPQLDSTSFANSR            -1.0000     NotChecked  -18.3467    1468.6946   ✗       
+566   FPQLN+0.984STSAAN+0.984SR-1.0000     NotChecked  -18.3502    1393.6474   ✗       
+567   FPQLDSTSFAASR            -1.0000     NotChecked  -18.3514    1425.6888   ✗       
+568   FPQLDSTSFADSK            -1.0000     NotChecked  -18.3645    1441.6725   ✗       
+569   FPQLN+0.984STAFAN+0.984SR-1.0000     NotChecked  -18.3690    1453.6837   ✗       
+570   FPQLGSTSFAN+0.984SR      -1.0000     NotChecked  -18.3917    1411.6732   ✗       
+571   FPQLTSTSFAN+0.984SR      -1.0000     NotChecked  -18.4118    1455.6994   ✗       
+572   FPQLDSTSFAGSR            -1.0000     NotChecked  -18.4195    1411.6732   ✗       
+573   FPQLDSTSSAN+0.984SR      -1.0000     NotChecked  -18.4388    1409.6423   ✗       
+574   FPQLDSTSFADS             -1.0000     NotChecked  -18.4448    1313.5776   ✗       
+575   FPQLDSTSAANSR            -1.0000     NotChecked  -18.4544    1392.6633   ✗       
+576   FPQLDSTGFADSR            -1.0000     NotChecked  -18.4571    1439.6681   ✗       
+577   +42.011PQLDSTSFAN+0.984SR-1.0000     NotChecked  -18.4596    1364.6208   ✗       
+578   FPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -18.4665    1393.6474   ✗       
+579   FPQLDSSFAN+0.984SR       -1.0000     NotChecked  -18.4685    1368.6310   ✗       
+580   FPQLDSTSSAN+0.984SR      -1.0000     NotChecked  -18.4692    1409.6423   ✗       
+581   FPQLDSTAAAN+0.984SR      -1.0000     NotChecked  -18.4736    1377.6525   ✗       
+582   MPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -18.4837    1453.6507   ✗       
+583   GPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -18.4841    1379.6317   ✗       
+584   FPQLNSTSFADSR            -1.0000     NotChecked  -18.4897    1468.6946   ✗       
+585   FPQLDSTSFAN+0.984SK      -1.0000     NotChecked  -18.4926    1441.6725   ✗       
+586   FPQLDSTFADSR             -1.0000     NotChecked  -18.5010    1382.6466   ✗       
+587   FPALDSTSFAN+0.984SR      -1.0000     NotChecked  -18.5035    1412.6572   ✗       
+588   FPQLSSTSFAN+0.984SR      -1.0000     NotChecked  -18.5238    1441.6837   ✗       
+589   FPQLDSTSTADSR            -1.0000     NotChecked  -18.5250    1423.6579   ✗       
+590   FPQLASTSFAN+0.984SR      -1.0000     NotChecked  -18.5256    1425.6888   ✗       
+591   FPQLN+0.984STSFAN+0.984SR-1.0000     Failed      -18.5592    1469.6787   ✓       
+592   FPQLDSTSASN+0.984SR      -1.0000     NotChecked  -18.5612    1409.6423   ✗       
+593   FPQLDSTFAAN+0.984SR      -1.0000     NotChecked  -18.5720    1453.6837   ✗       
+594   FPQLTSTSFAN+0.984SR      -1.0000     NotChecked  -18.5896    1455.6994   ✗       
+595   FPQLN+0.984STSFAN+0.984SR-1.0000     Failed      -18.5896    1469.6787   ✓       
+596   FPGLDSTSFAN+0.984SR      -1.0000     NotChecked  -18.6004    1398.6415   ✗       
+597   FPQLDSTSEADSR            -1.0000     NotChecked  -18.6187    1451.6528   ✗       
+598   KPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -18.6317    1450.7052   ✗       
+599   FPQLDSTSFAN+0.984SV      -1.0000     NotChecked  -18.6407    1412.6460   ✗       
+600   FPQVDSTSFAN+0.984SR      -1.0000     NotChecked  -18.6509    1455.6630   ✗       
+601   FPQLDSTAFANSR            -1.0000     NotChecked  -18.6510    1452.6997   ✗       
+602   FPQLDSTSFANSR            -1.0000     NotChecked  -18.6634    1468.6946   ✗       
+603   FPQLDSTSFAN+0.984SQ      -1.0000     NotChecked  -18.6683    1441.6361   ✗       
+604   FPQLDSTSAN+0.984SR       -1.0000     NotChecked  -18.6727    1322.6102   ✗       
+605   FPQLDSTSFAN+0.984SL      -1.0000     NotChecked  -18.6737    1426.6616   ✗       
+606   FPQLDSTFADSR             -1.0000     NotChecked  -18.6788    1382.6466   ✗       
+607   FPQLDSTSFAN+0.984ST      -1.0000     NotChecked  -18.6864    1414.6252   ✗       
+608   FPQLDSTSFANSR            -1.0000     NotChecked  -18.6938    1468.6946   ✗       
+609   FPQLDSTSSADSR            -1.0000     NotChecked  -18.6940    1409.6423   ✗       
+610   FPQLN+0.984STSAAN+0.984SR-1.0000     NotChecked  -18.6973    1393.6474   ✗       
+611   FPQLDSTSLADSR            -1.0000     NotChecked  -18.7381    1435.6943   ✗       
+612   FQLDSTSFAN+0.984SR       -1.0000     NotChecked  -18.7415    1372.6259   ✗       
+613   FPQLDATSFAN+0.984SR      -1.0000     NotChecked  -18.7518    1453.6837   ✗       
+614   FPQLDSTSFGDSR            -1.0000     NotChecked  -18.7794    1455.6630   ✗       
+615   FPQSDSTSFAN+0.984SR      -1.0000     NotChecked  -18.7821    1443.6266   ✗       
+616   PPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -18.7836    1419.6630   ✗       
+617   FGQLDSTSFAN+0.984SR      -1.0000     NotChecked  -18.7845    1429.6474   ✗       
+618   FPLLDSTSFAN+0.984SR      -1.0000     NotChecked  -18.8014    1454.7041   ✗       
+619   FPQLDSTAAAN+0.984SR      -1.0000     NotChecked  -18.8207    1377.6525   ✗       
+620   +43.006PQLDSTSFAN+0.984SR-1.0000     NotChecked  -18.8238    1365.6161   ✗       
+621   FSQLDSTSFAN+0.984SR      -1.0000     NotChecked  -18.8325    1459.6579   ✗       
+622   FPQLNSTSFADSR            -1.0000     NotChecked  -18.8368    1468.6946   ✗       
+623   FPQLDSTSFANSR            -1.0000     NotChecked  -18.8412    1468.6946   ✗       
+624   FPQLDSTSFAN+0.984SQ      -1.0000     NotChecked  -18.8461    1441.6361   ✗       
+625   FPQLDSTSFASR             -1.0000     NotChecked  -18.8500    1354.6517   ✗       
+626   FPALDSTSFAN+0.984SR      -1.0000     NotChecked  -18.8506    1412.6572   ✗       
+627   FPQLDSTSFAN+0.984SL      -1.0000     NotChecked  -18.8515    1426.6616   ✗       
+628   FPQ+0.984LDSTSAAN+0.984SR-1.0000     NotChecked  -18.8527    1394.6314   ✗       
+629   FPQLDSTSFANSR            -1.0000     NotChecked  -18.8716    1468.6946   ✗       
+630   FPQLDSTSFN+0.984SR       -1.0000     NotChecked  -18.8817    1398.6416   ✗       
+631   FPQLDSTSFADSK            -1.0000     NotChecked  -18.8894    1441.6725   ✗       
+632   FPQLN+0.984STAFAN+0.984SR-1.0000     NotChecked  -18.8939    1453.6837   ✗       
+633   FPNLDSTSFAN+0.984SR      -1.0000     NotChecked  -18.9009    1455.6630   ✗       
+634   FPQLN+0.984STSFAN+0.984SR-1.0000     Failed      -18.9063    1469.6787   ✓       
+635   FPQLDSTSFN+0.984SR       -1.0000     NotChecked  -18.9121    1398.6416   ✗       
+636   FPQLDSTFAAN+0.984SR      -1.0000     NotChecked  -18.9191    1453.6837   ✗       
+637   FPSLDSTSFAN+0.984SR      -1.0000     NotChecked  -18.9198    1428.6521   ✗       
+638   FPQLTSTSFAN+0.984SR      -1.0000     NotChecked  -18.9367    1455.6994   ✗       
+639   FPQLN+0.984STSFAN+0.984SR-1.0000     Failed      -18.9367    1469.6787   ✓       
+640   FPQLDSTSFAGSR            -1.0000     NotChecked  -18.9444    1411.6732   ✗       
+641   FPQLDSTSFAPSR            -1.0000     NotChecked  -18.9599    1451.7045   ✗       
+642   FPQLDSTSSAN+0.984SR      -1.0000     NotChecked  -18.9638    1409.6423   ✗       
+643   FPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -18.9914    1393.6474   ✗       
+644   FPQLDSTSSAN+0.984SR      -1.0000     NotChecked  -18.9942    1409.6423   ✗       
+645   FPQLDSTAAAN+0.984SR      -1.0000     NotChecked  -18.9985    1377.6525   ✗       
+646   MPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -19.0086    1453.6507   ✗       
+647   GPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -19.0090    1379.6317   ✗       
+648   FPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -19.0109    1393.6474   ✗       
+649   FPQLNSTSFADSR            -1.0000     NotChecked  -19.0146    1468.6946   ✗       
+650   FPQLDSTSFADSG            -1.0000     NotChecked  -19.0244    1370.5990   ✗       
+651   FPQLDSTFADSR             -1.0000     NotChecked  -19.0259    1382.6466   ✗       
+652   FPQLDSTSFAN+0.984SA      -1.0000     NotChecked  -19.0263    1384.6147   ✗       
+653   FPALDSTSFAN+0.984SR      -1.0000     NotChecked  -19.0284    1412.6572   ✗       
+654   FPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -19.0413    1393.6474   ✗       
+655   FPQLDSTSSANSR            -1.0000     NotChecked  -19.0526    1408.6583   ✗       
+656   FPQLDSTSMADSR            -1.0000     NotChecked  -19.0727    1453.6507   ✗       
+657   FPQLDSASFAN+0.984SR      -1.0000     NotChecked  -19.0779    1439.6681   ✗       
+658   FPQLN+0.984STSFAN+0.984SR-1.0000     Failed      -19.0841    1469.6787   ✓       
+659   FPQLDSTSLADSR            -1.0000     NotChecked  -19.0852    1435.6943   ✗       
+660   FPQLDSTFAAN+0.984SR      -1.0000     NotChecked  -19.0969    1453.6837   ✗       
+661   FPQLN+0.984STSFAN+0.984SR-1.0000     Failed      -19.1145    1469.6787   ✓       
+662   FPGLDSTSFAN+0.984SR      -1.0000     NotChecked  -19.1253    1398.6415   ✗       
+663   FPQLDSTSFGDSR            -1.0000     NotChecked  -19.1265    1455.6630   ✗       
+664   FGQLDSTSFAN+0.984SR      -1.0000     NotChecked  -19.1316    1429.6474   ✗       
+665   FPQLDSTSFDSR             -1.0000     NotChecked  -19.1368    1398.6416   ✗       
+666   FPQLDATSFADSR            -1.0000     NotChecked  -19.1486    1453.6837   ✗       
+667   FPQLDSSSFAN+0.984SR      -1.0000     NotChecked  -19.1666    1455.6630   ✗       
+668   FPQLN+0.984STSFANSR      -1.0000     NotChecked  -19.1729    1468.6946   ✗       
+669   FSQLDSTSFAN+0.984SR      -1.0000     NotChecked  -19.1796    1459.6579   ✗       
+670   FPQLDTSFAN+0.984SR       -1.0000     NotChecked  -19.1859    1382.6466   ✗       
+671   FPQLDSTSFANSR            -1.0000     NotChecked  -19.1883    1468.6946   ✗       
+672   FPQLDSTSFAN+0.984SQ      -1.0000     NotChecked  -19.1932    1441.6361   ✗       
+673   FPQLDSTSAFDSR            -1.0000     Failed      -19.1975    1469.6787   ✓       
+674   FPQLDSTSFAN+0.984SL      -1.0000     NotChecked  -19.1986    1426.6616   ✗       
+675   FPQ+0.984LDSTSAAN+0.984SR-1.0000     NotChecked  -19.1998    1394.6314   ✗       
+676   FPQLDSTAAN+0.984SR       -1.0000     NotChecked  -19.2070    1306.6153   ✗       
+677   FPQLDSTAFAN+0.984SR      -1.0000     NotChecked  -19.2075    1453.6837   ✗       
+678   FPQLDSTSFANSR            -1.0000     NotChecked  -19.2187    1468.6946   ✗       
+679   FPQLDSTSSADSR            -1.0000     NotChecked  -19.2189    1409.6423   ✗       
+680   FPQLDSTAFAN+0.984SR      -1.0000     NotChecked  -19.2379    1453.6837   ✗       
+681   FPQLDSTSFAN+0.984SN      -1.0000     NotChecked  -19.2471    1427.6205   ✗       
+682   FPNLDSTSFAN+0.984SR      -1.0000     NotChecked  -19.2480    1455.6630   ✗       
+683   FPQLDSTSLADSR            -1.0000     NotChecked  -19.2630    1435.6943   ✗       
+684   FQLDSTSFAN+0.984SR       -1.0000     NotChecked  -19.2664    1372.6259   ✗       
+685   FPSLDSTSFAN+0.984SR      -1.0000     NotChecked  -19.2669    1428.6521   ✗       
+686   FPQLDATSFAN+0.984SR      -1.0000     NotChecked  -19.2767    1453.6837   ✗       
+687   FPQLN+0.984STSSAN+0.984SR-1.0000     NotChecked  -19.2955    1409.6423   ✗       
+688   FPQLDSTSFGDSR            -1.0000     NotChecked  -19.3043    1455.6630   ✗       
+689   FGQLDSTSFAN+0.984SR      -1.0000     NotChecked  -19.3094    1429.6474   ✗       
+690   FAQLDSTSFAN+0.984SR      -1.0000     NotChecked  -19.3122    1443.6630   ✗       
+691   FPLLDSTSFAN+0.984SR      -1.0000     NotChecked  -19.3263    1454.7041   ✗       
+692   LPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -19.3955    1435.6943   ✗       
+693   VPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -19.4698    1421.6787   ✗       
+694   LPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -19.9204    1435.6943   ✗       
+695   VPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -19.9947    1421.6787   ✗       
+696   GPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -20.1792    1379.6317   ✗       
+697   +42.011PQLDSTSFADSR      -1.0000     NotChecked  -20.3737    1364.6208   ✗       
+698   KPQLDSTSFADSR            -1.0000     NotChecked  -20.5458    1450.7052   ✗       
+699   PPQLDSTSFADSR            -1.0000     NotChecked  -20.6977    1419.6630   ✗       
+700   GPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -20.7041    1379.6317   ✗       
+701   +43.006PQLDSTSFADSR      -1.0000     NotChecked  -20.7379    1365.6161   ✗       
+702   +42.011PQLDSTSFADSR      -1.0000     NotChecked  -20.8987    1364.6208   ✗       
+703   MPQLDSTSFADSR            -1.0000     NotChecked  -20.9227    1453.6507   ✗       
+704   KPQLDSTSFADSR            -1.0000     NotChecked  -21.0707    1450.7052   ✗       
+705   PPQLDSTSFADSR            -1.0000     NotChecked  -21.2226    1419.6630   ✗       
+706   +43.006PQLDSTSFADSR      -1.0000     NotChecked  -21.2628    1365.6161   ✗       
+707   MPQLDSTSFADSR            -1.0000     NotChecked  -21.4476    1453.6507   ✗       
+708   LPQLDSTSFADSR            -1.0000     NotChecked  -21.8345    1435.6943   ✗       
+709   VPQLDSTSFADSR            -1.0000     NotChecked  -21.9088    1421.6787   ✗       
+710   +42.011PQLDSTSFADSR      -1.0000     NotChecked  -22.0688    1364.6208   ✗       
+711   KPQLDSTSFADSR            -1.0000     NotChecked  -22.2409    1450.7052   ✗       
+712   LPQLDSTSFADSR            -1.0000     NotChecked  -22.3594    1435.6943   ✗       
+713   PPQLDSTSFADSR            -1.0000     NotChecked  -22.3928    1419.6630   ✗       
+714   +43.006PQLDSTSFADSR      -1.0000     NotChecked  -22.4330    1365.6161   ✗       
+715   VPQLDSTSFADSR            -1.0000     NotChecked  -22.4337    1421.6787   ✗       
+716   +42.011PQLDSTSFADSR      -1.0000     NotChecked  -22.5938    1364.6208   ✗       
+717   MPQLDSTSFADSR            -1.0000     NotChecked  -22.6178    1453.6507   ✗       
+718   GPQLDSTSFADSR            -1.0000     NotChecked  -22.6182    1379.6317   ✗       
+719   KPQLDSTSFADSR            -1.0000     NotChecked  -22.7658    1450.7052   ✗       
+720   PPQLDSTSFADSR            -1.0000     NotChecked  -22.9177    1419.6630   ✗       
+721   +43.006PQLDSTSFADSR      -1.0000     NotChecked  -22.9579    1365.6161   ✗       
+722   +42.011PQLDSTSAAN+0.984SR-1.0000     NotChecked  -23.1220    1288.5895   ✗       
+723   MPQLDSTSFADSR            -1.0000     NotChecked  -23.1427    1453.6507   ✗       
+724   GPQLDSTSFADSR            -1.0000     NotChecked  -23.1431    1379.6317   ✗       
+725   KPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -23.2941    1374.6739   ✗       
+726   PPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -23.4460    1343.6317   ✗       
+727   +43.006PQLDSTSAAN+0.984SR-1.0000     NotChecked  -23.4862    1289.5848   ✗       
+728   LPQLDSTSFADSR            -1.0000     NotChecked  -23.5296    1435.6943   ✗       
+729   VPQLDSTSFADSR            -1.0000     NotChecked  -23.6039    1421.6787   ✗       
+730   +42.011PQLDSTSFFN+0.984SR-1.0000     NotChecked  -23.6457    1440.6521   ✗       
+731   +42.011PQLDSTSAAN+0.984SR-1.0000     NotChecked  -23.6469    1288.5895   ✗       
+732   MPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -23.6710    1377.6194   ✗       
+733   KPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -23.8190    1374.6739   ✗       
+734   +42.011PQLDSTSFAN+0.984SR-1.0000     NotChecked  -23.8559    1364.6208   ✗       
+735   +42.011PQLDSTSFAN+0.984SR-1.0000     NotChecked  -23.8863    1364.6208   ✗       
+736   PPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -23.9709    1343.6317   ✗       
+737   +43.006PQLDSTSFFN+0.984SR-1.0000     NotChecked  -24.0099    1441.6474   ✗       
+738   +43.006PQLDSTSAAN+0.984SR-1.0000     NotChecked  -24.0111    1289.5848   ✗       
+739   KPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -24.0280    1450.7052   ✗       
+740   LPQLDSTSFADSR            -1.0000     NotChecked  -24.0545    1435.6943   ✗       
+741   KPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -24.0584    1450.7052   ✗       
+742   VPQLDSTSFADSR            -1.0000     NotChecked  -24.1288    1421.6787   ✗       
+743   +42.011PQLDSTSFFN+0.984SR-1.0000     NotChecked  -24.1706    1440.6521   ✗       
+744   PPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -24.1799    1419.6630   ✗       
+745   MPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -24.1959    1377.6194   ✗       
+746   PPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -24.2103    1419.6630   ✗       
+747   +43.006PQLDSTSFAN+0.984SR-1.0000     NotChecked  -24.2201    1365.6161   ✗       
+748   +43.006PQLDSTSFAN+0.984SR-1.0000     NotChecked  -24.2505    1365.6161   ✗       
+749   GPQLDSTSFADSR            -1.0000     NotChecked  -24.3133    1379.6317   ✗       
+750   YPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -24.3520    1409.6423   ✗       
+751   +42.011PQLDSTSFAN+0.984SR-1.0000     NotChecked  -24.3808    1364.6208   ✗       
+752   MPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -24.4049    1453.6507   ✗       
+753   +42.011PQLDSTSFAN+0.984SR-1.0000     NotChecked  -24.4112    1364.6208   ✗       
+754   MPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -24.4353    1453.6507   ✗       
+755   +42.011PQLDSTSFANSR      -1.0000     NotChecked  -24.4696    1363.6368   ✗       
+756   +43.006PQLDSTSFFN+0.984SR-1.0000     NotChecked  -24.5348    1441.6474   ✗       
+757   KPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -24.5529    1450.7052   ✗       
+758   LPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -24.5828    1359.6630   ✗       
+759   KPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -24.5833    1450.7052   ✗       
+760   KPQLDSTSFANSR            -1.0000     NotChecked  -24.6417    1449.7212   ✗       
+761   VPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -24.6571    1345.6474   ✗       
+762   PPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -24.7048    1419.6630   ✗       
+763   +42.011PQLN+0.984STSFAN+0.984SR-1.0000     NotChecked  -24.7125    1364.6208   ✗       
+764   PPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -24.7352    1419.6630   ✗       
+765   +43.006PQLDSTSFAN+0.984SR-1.0000     NotChecked  -24.7450    1365.6161   ✗       
+766   +43.006PQLDSTSFAN+0.984SR-1.0000     NotChecked  -24.7754    1365.6161   ✗       
+767   PPQLDSTSFANSR            -1.0000     NotChecked  -24.7936    1418.6790   ✗       
+768   +42.011PQLDSTSAAN+0.984SR-1.0000     NotChecked  -24.8171    1288.5895   ✗       
+769   +43.006PQLDSTSFANSR      -1.0000     NotChecked  -24.8338    1364.6320   ✗       
+770   GPQLDSTSFADSR            -1.0000     NotChecked  -24.8382    1379.6317   ✗       
+771   YPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -24.8770    1409.6423   ✗       
+772   KPQLN+0.984STSFAN+0.984SR-1.0000     NotChecked  -24.8846    1450.7052   ✗       
+773   MPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -24.9298    1453.6507   ✗       
+774   MPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -24.9602    1453.6507   ✗       
+775   KPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -24.9891    1374.6739   ✗       
+776   +42.011PQLDSTSFANSR      -1.0000     NotChecked  -24.9946    1363.6368   ✗       
+777   MPQLDSTSFANSR            -1.0000     NotChecked  -25.0186    1452.6667   ✗       
+778   PPQLN+0.984STSFAN+0.984SR-1.0000     NotChecked  -25.0365    1419.6630   ✗       
+779   +43.006PQLN+0.984STSFAN+0.984SR-1.0000     NotChecked  -25.0767    1365.6161   ✗       
+780   LPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -25.1077    1359.6630   ✗       
+781   PPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -25.1411    1343.6317   ✗       
+782   +42.011FPQLDSTSAAN+0.984SR-1.0000     NotChecked  -25.1642    1435.6579   ✗       
+783   KPQLDSTSFANSR            -1.0000     NotChecked  -25.1666    1449.7212   ✗       
+784   +43.006PQLDSTSAAN+0.984SR-1.0000     NotChecked  -25.1813    1289.5848   ✗       
+785   VPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -25.1820    1345.6474   ✗       
+786   +42.011PQLN+0.984STSFAN+0.984SR-1.0000     NotChecked  -25.2374    1364.6208   ✗       
+787   MPQLN+0.984STSFAN+0.984SR-1.0000     NotChecked  -25.2615    1453.6507   ✗       
+788   +42.011PQLDSTSYAN+0.984SR-1.0000     NotChecked  -25.2654    1380.6157   ✗       
+789   LPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -25.3167    1435.6943   ✗       
+790   PPQLDSTSFANSR            -1.0000     NotChecked  -25.3185    1418.6790   ✗       
+791   +42.011PQLDSTSFFN+0.984SR-1.0000     NotChecked  -25.3408    1440.6521   ✗       
+792   +42.011PQLDSTSAAN+0.984SR-1.0000     NotChecked  -25.3420    1288.5895   ✗       
+793   LPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -25.3471    1435.6943   ✗       
+794   +43.006PQLDSTSFANSR      -1.0000     NotChecked  -25.3587    1364.6320   ✗       
+795   +42.011PQLDSTAFAN+0.984SR-1.0000     NotChecked  -25.3608    1348.6259   ✗       
+796   MPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -25.3661    1377.6194   ✗       
+797   GPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -25.3665    1303.6004   ✗       
+798   VPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -25.3910    1421.6787   ✗       
+799   KPQLN+0.984STSFAN+0.984SR-1.0000     NotChecked  -25.4095    1450.7052   ✗       
+800   VPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -25.4214    1421.6787   ✗       
+801   KPQLDSTSYAN+0.984SR      -1.0000     NotChecked  -25.4374    1466.7001   ✗       
+802   +42.011PQLDSTFFAN+0.984SR-1.0000     NotChecked  -25.4592    1424.6572   ✗       
+803   KPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -25.5141    1374.6739   ✗       
+804   +43.006FPQLDSTSAAN+0.984SR-1.0000     NotChecked  -25.5284    1436.6532   ✗       
+805   KPQLDSTAFAN+0.984SR      -1.0000     NotChecked  -25.5328    1434.7103   ✗       
+806   MPQLDSTSFANSR            -1.0000     NotChecked  -25.5435    1452.6667   ✗       
+807   +42.011PQLDSTSFAN+0.984SR-1.0000     NotChecked  -25.5510    1364.6208   ✗       
+808   PPQLN+0.984STSFAN+0.984SR-1.0000     NotChecked  -25.5614    1419.6630   ✗       
+809   +42.011PQLDSTSFAN+0.984SR-1.0000     NotChecked  -25.5814    1364.6208   ✗       
+810   PPQLDSTSYAN+0.984SR      -1.0000     NotChecked  -25.5894    1435.6579   ✗       
+811   +43.006PQLN+0.984STSFAN+0.984SR-1.0000     NotChecked  -25.6016    1365.6161   ✗       
+812   +43.006PQLDSTSYAN+0.984SR-1.0000     NotChecked  -25.6295    1381.6110   ✗       
+813   PPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -25.6660    1343.6317   ✗       
+814   PPQLDSTAFAN+0.984SR      -1.0000     NotChecked  -25.6848    1403.6681   ✗       
+815   +42.011FPQLDSTSAAN+0.984SR-1.0000     NotChecked  -25.6891    1435.6579   ✗       
+816   +43.006PQLDSTSFFN+0.984SR-1.0000     NotChecked  -25.7050    1441.6474   ✗       
+817   +43.006PQLDSTSAAN+0.984SR-1.0000     NotChecked  -25.7062    1289.5848   ✗       
+818   KPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -25.7231    1450.7052   ✗       
+819   +43.006PQLDSTAFAN+0.984SR-1.0000     NotChecked  -25.7249    1349.6211   ✗       
+820   +42.011PQ+0.984LDSTSFAN+0.984SR-1.0000     NotChecked  -25.7399    1365.6048   ✗       
+821   KPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -25.7534    1450.7052   ✗       
+822   MPQLN+0.984STSFAN+0.984SR-1.0000     NotChecked  -25.7864    1453.6507   ✗       
+823   +42.011PQLDSTSYAN+0.984SR-1.0000     NotChecked  -25.7903    1380.6157   ✗       
+824   +43.006PQLDSTFFAN+0.984SR-1.0000     NotChecked  -25.8234    1425.6525   ✗       
+825   LPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -25.8416    1435.6943   ✗       
+826   +42.011PQLDSTSFFN+0.984SR-1.0000     NotChecked  -25.8657    1440.6521   ✗       
+827   LPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -25.8720    1435.6943   ✗       
+828   PPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -25.8750    1419.6630   ✗       
+829   +42.011PQLDSTAFAN+0.984SR-1.0000     NotChecked  -25.8857    1348.6259   ✗       
+830   GPQLDSTSFFN+0.984SR      -1.0000     NotChecked  -25.8902    1455.6630   ✗       
+831   MPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -25.8910    1377.6194   ✗       
+832   GPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -25.8914    1303.6004   ✗       
+833   PPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -25.9054    1419.6630   ✗       
+834   MPQLDSTAFAN+0.984SR      -1.0000     NotChecked  -25.9097    1437.6558   ✗       
+835   KPQ+0.984LDSTSFAN+0.984SR-1.0000     NotChecked  -25.9119    1451.6892   ✗       
+836   +43.006PQLDSTSFAN+0.984SR-1.0000     NotChecked  -25.9152    1365.6161   ✗       
+837   VPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -25.9159    1421.6787   ✗       
+838   LPQLDSTSFANSR            -1.0000     NotChecked  -25.9304    1434.7103   ✗       
+839   +43.006PQLDSTSFAN+0.984SR-1.0000     NotChecked  -25.9456    1365.6161   ✗       
+840   VPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -25.9463    1421.6787   ✗       
+841   KPQLDSTSYAN+0.984SR      -1.0000     NotChecked  -25.9623    1466.7001   ✗       
+842   +42.011PQLDSTFFAN+0.984SR-1.0000     NotChecked  -25.9841    1424.6572   ✗       
+843   VPQLDSTSFANSR            -1.0000     NotChecked  -26.0047    1420.6946   ✗       
+844   YPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -26.0471    1409.6423   ✗       
+845   +43.006FPQLDSTSAAN+0.984SR-1.0000     NotChecked  -26.0533    1436.6532   ✗       
+846   KPQLDSTAFAN+0.984SR      -1.0000     NotChecked  -26.0577    1434.7103   ✗       
+847   PPQ+0.984LDSTSFAN+0.984SR-1.0000     NotChecked  -26.0639    1420.6470   ✗       
+848   +42.011PQLDSTSFAN+0.984SR-1.0000     NotChecked  -26.0759    1364.6208   ✗       
+849   MPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -26.1000    1453.6507   ✗       
+850   GPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -26.1004    1379.6317   ✗       
+851   +43.006PQ+0.984LDSTSFAN+0.984SR-1.0000     NotChecked  -26.1040    1366.6001   ✗       
+852   +42.011PQLDSTSFAN+0.984SR-1.0000     NotChecked  -26.1063    1364.6208   ✗       
+853   PPQLDSTSYAN+0.984SR      -1.0000     NotChecked  -26.1143    1435.6579   ✗       
+854   MPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -26.1304    1453.6507   ✗       
+855   GPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -26.1308    1379.6317   ✗       
+856   +43.006PQLDSTSYAN+0.984SR-1.0000     NotChecked  -26.1545    1381.6110   ✗       
+857   +42.011PQLDSTSFANSR      -1.0000     NotChecked  -26.1647    1363.6368   ✗       
+858   LPQLN+0.984STSFAN+0.984SR-1.0000     NotChecked  -26.1733    1435.6943   ✗       
+859   PPQLDSTAFAN+0.984SR      -1.0000     NotChecked  -26.2097    1403.6681   ✗       
+860   +43.006PQLDSTSFFN+0.984SR-1.0000     NotChecked  -26.2299    1441.6474   ✗       
+861   VPQLN+0.984STSFAN+0.984SR-1.0000     NotChecked  -26.2476    1421.6787   ✗       
+862   KPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -26.2480    1450.7052   ✗       
+863   +43.006PQLDSTAFAN+0.984SR-1.0000     NotChecked  -26.2499    1349.6211   ✗       
+864   +42.011PQ+0.984LDSTSFAN+0.984SR-1.0000     NotChecked  -26.2648    1365.6048   ✗       
+865   LPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -26.2779    1359.6630   ✗       
+866   KPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -26.2784    1450.7052   ✗       
+867   +42.011PQLDSTSSAN+0.984SR-1.0000     NotChecked  -26.2873    1304.5844   ✗       
+868   MPQ+0.984LDSTSFAN+0.984SR-1.0000     NotChecked  -26.2888    1454.6348   ✗       
+869   KPQLDSTSFANSR            -1.0000     NotChecked  -26.3368    1449.7212   ✗       
+870   +43.006PQLDSTFFAN+0.984SR-1.0000     NotChecked  -26.3483    1425.6525   ✗       
+871   VPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -26.3522    1345.6474   ✗       
+872   PPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -26.3999    1419.6630   ✗       
+873   +42.011PQLN+0.984STSFAN+0.984SR-1.0000     NotChecked  -26.4076    1364.6208   ✗       
+874   GPQLDSTSFFN+0.984SR      -1.0000     NotChecked  -26.4151    1455.6630   ✗       
+875   PPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -26.4303    1419.6630   ✗       
+876   MPQLDSTAFAN+0.984SR      -1.0000     NotChecked  -26.4347    1437.6558   ✗       
+877   KPQ+0.984LDSTSFAN+0.984SR-1.0000     NotChecked  -26.4368    1451.6892   ✗       
+878   +43.006PQLDSTSFAN+0.984SR-1.0000     NotChecked  -26.4401    1365.6161   ✗       
+879   LPQLDSTSFANSR            -1.0000     NotChecked  -26.4553    1434.7103   ✗       
+880   KPQLDSTSSAN+0.984SR      -1.0000     NotChecked  -26.4593    1390.6688   ✗       
+881   +43.006PQLDSTSFAN+0.984SR-1.0000     NotChecked  -26.4705    1365.6161   ✗       
+882   PPQLDSTSFANSR            -1.0000     NotChecked  -26.4887    1418.6790   ✗       
+883   +43.006PQLDSTSFANSR      -1.0000     NotChecked  -26.5289    1364.6320   ✗       
+884   VPQLDSTSFANSR            -1.0000     NotChecked  -26.5296    1420.6946   ✗       
+885   YPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -26.5721    1409.6423   ✗       
+886   KPQLN+0.984STSFAN+0.984SR-1.0000     NotChecked  -26.5797    1450.7052   ✗       
+887   PPQ+0.984LDSTSFAN+0.984SR-1.0000     NotChecked  -26.5888    1420.6470   ✗       
+888   PPQLDSTSSAN+0.984SR      -1.0000     NotChecked  -26.6113    1359.6266   ✗       
+889   +42.011PQLDSTSFSN+0.984SR-1.0000     NotChecked  -26.6186    1380.6157   ✗       
+890   MPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -26.6249    1453.6507   ✗       
+891   GPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -26.6253    1379.6317   ✗       
+892   +43.006PQ+0.984LDSTSFAN+0.984SR-1.0000     NotChecked  -26.6290    1366.6001   ✗       
+893   +43.006PQLDSTSSAN+0.984SR-1.0000     NotChecked  -26.6514    1305.5797   ✗       
+894   MPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -26.6553    1453.6507   ✗       
+895   GPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -26.6557    1379.6317   ✗       
+896   +42.011PQLDSTSFANSR      -1.0000     NotChecked  -26.6896    1363.6368   ✗       
+897   LPQLN+0.984STSFAN+0.984SR-1.0000     NotChecked  -26.6982    1435.6943   ✗       
+898   MPQLDSTSFANSR            -1.0000     NotChecked  -26.7137    1452.6667   ✗       
+899   GPQLDSTSFANSR            -1.0000     NotChecked  -26.7141    1378.6477   ✗       
+900   LPQLDSTSYAN+0.984SR      -1.0000     NotChecked  -26.7261    1451.6892   ✗       
+901   +42.011PQLDSTSFN+0.984SR -1.0000     NotChecked  -26.7301    1293.5837   ✗       
+902   PPQLN+0.984STSFAN+0.984SR-1.0000     NotChecked  -26.7316    1419.6630   ✗       
+903   +43.006PQLN+0.984STSFAN+0.984SR-1.0000     NotChecked  -26.7718    1365.6161   ✗       
+904   VPQLN+0.984STSFAN+0.984SR-1.0000     NotChecked  -26.7725    1421.6787   ✗       
+905   KPQLDSTSFSN+0.984SR      -1.0000     NotChecked  -26.7906    1466.7001   ✗       
+906   VPQLDSTSYAN+0.984SR      -1.0000     NotChecked  -26.8004    1437.6736   ✗       
+907   LPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -26.8028    1359.6630   ✗       
+908   +42.011PQLDSTSSAN+0.984SR-1.0000     NotChecked  -26.8122    1304.5844   ✗       
+909   MPQ+0.984LDSTSFAN+0.984SR-1.0000     NotChecked  -26.8138    1454.6348   ✗       
+910   LPQLDSTAFAN+0.984SR      -1.0000     NotChecked  -26.8215    1419.6994   ✗       
+911   MPQLDSTSSAN+0.984SR      -1.0000     NotChecked  -26.8362    1393.6143   ✗       
+912   +42.011FPQLDSTSAAN+0.984SR-1.0000     NotChecked  -26.8593    1435.6579   ✗       
+913   KPQLDSTSFANSR            -1.0000     NotChecked  -26.8617    1449.7212   ✗       
+914   VPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -26.8771    1345.6474   ✗       
+915   VPQLDSTAFAN+0.984SR      -1.0000     NotChecked  -26.8959    1405.6837   ✗       
+916   KPQLDSTSFN+0.984SR       -1.0000     NotChecked  -26.9022    1379.6681   ✗       
+917   +42.011PQLN+0.984STSFAN+0.984SR-1.0000     NotChecked  -26.9325    1364.6208   ✗       
+918   PPQLDSTSFSN+0.984SR      -1.0000     NotChecked  -26.9426    1435.6579   ✗       
+919   MPQLN+0.984STSFAN+0.984SR-1.0000     NotChecked  -26.9566    1453.6507   ✗       
+920   GPQLN+0.984STSFAN+0.984SR-1.0000     NotChecked  -26.9570    1379.6317   ✗       
+921   +42.011PQLDSTSYAN+0.984SR-1.0000     NotChecked  -26.9605    1380.6157   ✗       
+922   +43.006PQLDSTSFSN+0.984SR-1.0000     NotChecked  -26.9827    1381.6110   ✗       
+923   KPQLDSTSSAN+0.984SR      -1.0000     NotChecked  -26.9842    1390.6688   ✗       
+924   LPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -27.0118    1435.6943   ✗       
+925   PPQLDSTSFANSR            -1.0000     NotChecked  -27.0136    1418.6790   ✗       
+926   LPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -27.0422    1435.6943   ✗       
+927   +42.011PQLDSTSFAN+0.984SR-1.0000     NotChecked  -27.0488    1364.6208   ✗       
+928   +43.006PQLDSTSFANSR      -1.0000     NotChecked  -27.0538    1364.6320   ✗       
+929   PPQLDSTSFN+0.984SR       -1.0000     NotChecked  -27.0541    1348.6259   ✗       
+930   +42.011PQLDSTAFAN+0.984SR-1.0000     NotChecked  -27.0559    1348.6259   ✗       
+931   GPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -27.0616    1303.6004   ✗       
+932   VPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -27.0861    1421.6787   ✗       
+933   +43.006PQLDSTSFN+0.984SR -1.0000     NotChecked  -27.0943    1294.5790   ✗       
+934   KPQLN+0.984STSFAN+0.984SR-1.0000     NotChecked  -27.1046    1450.7052   ✗       
+935   VPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -27.1165    1421.6787   ✗       
+936   KPQLDSTSYAN+0.984SR      -1.0000     NotChecked  -27.1325    1466.7001   ✗       
+937   PPQLDSTSSAN+0.984SR      -1.0000     NotChecked  -27.1362    1359.6266   ✗       
+938   +42.011PQLDSTSFSN+0.984SR-1.0000     NotChecked  -27.1435    1380.6157   ✗       
+939   +42.011PQLDSTFFAN+0.984SR-1.0000     NotChecked  -27.1543    1424.6572   ✗       
+940   +43.006PQLDSTSSAN+0.984SR-1.0000     NotChecked  -27.1763    1305.5797   ✗       
+941   LPQ+0.984LDSTSFAN+0.984SR-1.0000     NotChecked  -27.2006    1436.6783   ✗       
+942   KPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -27.2209    1450.7052   ✗       
+943   +43.006FPQLDSTSAAN+0.984SR-1.0000     NotChecked  -27.2235    1436.6532   ✗       
+944   KPQLDSTAFAN+0.984SR      -1.0000     NotChecked  -27.2279    1434.7103   ✗       
+945   MPQLDSTSFANSR            -1.0000     NotChecked  -27.2386    1452.6667   ✗       
+946   GPQLDSTSFANSR            -1.0000     NotChecked  -27.2390    1378.6477   ✗       
+947   LPQLDSTSYAN+0.984SR      -1.0000     NotChecked  -27.2510    1451.6892   ✗       
+948   +42.011PQLDSTSFN+0.984SR -1.0000     NotChecked  -27.2550    1293.5837   ✗       
+949   +42.011PQLDSTSAADSR      -1.0000     NotChecked  -27.2561    1288.5895   ✗       
+950   PPQLN+0.984STSFAN+0.984SR-1.0000     NotChecked  -27.2565    1419.6630   ✗       
+951   +42.011PQLDSTYFAN+0.984SR-1.0000     NotChecked  -27.2672    1440.6521   ✗       
+952   VPQ+0.984LDSTSFAN+0.984SR-1.0000     NotChecked  -27.2750    1422.6627   ✗       
+953   MPQLDSTSFN+0.984SR       -1.0000     NotChecked  -27.2791    1382.6136   ✗       
+954   PPQLDSTSYAN+0.984SR      -1.0000     NotChecked  -27.2845    1435.6579   ✗       
+955   +43.006PQLN+0.984STSFAN+0.984SR-1.0000     NotChecked  -27.2967    1365.6161   ✗       
+956   KPQLDSTSFSN+0.984SR      -1.0000     NotChecked  -27.3155    1466.7001   ✗       
+957   +43.006PQLDSTSYAN+0.984SR-1.0000     NotChecked  -27.3246    1381.6110   ✗       
+958   VPQLDSTSYAN+0.984SR      -1.0000     NotChecked  -27.3254    1437.6736   ✗       
+959   LPQLDSTAFAN+0.984SR      -1.0000     NotChecked  -27.3465    1419.6994   ✗       
+960   MPQLDSTSSAN+0.984SR      -1.0000     NotChecked  -27.3611    1393.6143   ✗       
+961   PPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -27.3728    1419.6630   ✗       
+962   PPQLDSTAFAN+0.984SR      -1.0000     NotChecked  -27.3799    1403.6681   ✗       
+963   +42.011FPQLDSTSAAN+0.984SR-1.0000     NotChecked  -27.3842    1435.6579   ✗       
+964   GFPQLDSTSAAN+0.984SR     -1.0000     NotChecked  -27.4087    1450.6688   ✗       
+965   +43.006PQLDSTSFAN+0.984SR-1.0000     NotChecked  -27.4130    1365.6161   ✗       
+966   +43.006PQLDSTAFAN+0.984SR-1.0000     NotChecked  -27.4200    1349.6211   ✗       
+967   VPQLDSTAFAN+0.984SR      -1.0000     NotChecked  -27.4208    1405.6837   ✗       
+968   KPQLDSTSFN+0.984SR       -1.0000     NotChecked  -27.4271    1379.6681   ✗       
+969   KPQLDSTSAADSR            -1.0000     NotChecked  -27.4282    1374.6739   ✗       
+970   +42.011PQ+0.984LDSTSFAN+0.984SR-1.0000     NotChecked  -27.4350    1365.6048   ✗       
+971   PPQLDSTSFSN+0.984SR      -1.0000     NotChecked  -27.4675    1435.6579   ✗       
+972   MPQLN+0.984STSFAN+0.984SR-1.0000     NotChecked  -27.4815    1453.6507   ✗       
+973   GPQLN+0.984STSFAN+0.984SR-1.0000     NotChecked  -27.4819    1379.6317   ✗       
+974   +42.011PQLDSTSYAN+0.984SR-1.0000     NotChecked  -27.4854    1380.6157   ✗       
+975   +43.006PQLDSTSFSN+0.984SR-1.0000     NotChecked  -27.5076    1381.6110   ✗       
+976   GPQLDSTSYAN+0.984SR      -1.0000     NotChecked  -27.5098    1395.6266   ✗       
+977   YPQLDSTSSAN+0.984SR      -1.0000     NotChecked  -27.5173    1425.6372   ✗       
+978   +43.006PQLDSTFFAN+0.984SR-1.0000     NotChecked  -27.5185    1425.6525   ✗       
+979   LPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -27.5367    1435.6943   ✗       
+980   LPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -27.5671    1435.6943   ✗       
+981   +42.011PQLDSTSFAN+0.984SR-1.0000     NotChecked  -27.5737    1364.6208   ✗       
+982   PPQLDSTSFN+0.984SR       -1.0000     NotChecked  -27.5790    1348.6259   ✗       
+983   PPQLDSTSAADSR            -1.0000     NotChecked  -27.5801    1343.6317   ✗       
+984   +42.011PQLDSTAFAN+0.984SR-1.0000     NotChecked  -27.5808    1348.6259   ✗       
+985   GPQLDSTSFFN+0.984SR      -1.0000     NotChecked  -27.5853    1455.6630   ✗       
+986   GPQLDSTSAAN+0.984SR      -1.0000     NotChecked  -27.5865    1303.6004   ✗       
+987   MPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -27.5978    1453.6507   ✗       
+988   MPQLDSTAFAN+0.984SR      -1.0000     NotChecked  -27.6048    1437.6558   ✗       
+989   GPQLDSTAFAN+0.984SR      -1.0000     NotChecked  -27.6052    1363.6368   ✗       
+990   KPQ+0.984LDSTSFAN+0.984SR-1.0000     NotChecked  -27.6070    1451.6892   ✗       
+991   VPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -27.6110    1421.6787   ✗       
+992   +43.006PQLDSTSFN+0.984SR -1.0000     NotChecked  -27.6192    1294.5790   ✗       
+993   +43.006PQLDSTSAADSR      -1.0000     NotChecked  -27.6203    1289.5848   ✗       
+994   LPQLDSTSFANSR            -1.0000     NotChecked  -27.6255    1434.7103   ✗       
+995   +43.006PQLDSTYFAN+0.984SR-1.0000     NotChecked  -27.6314    1441.6474   ✗       
+996   VPQLDSTSFAN+0.984SR      -1.0000     NotChecked  -27.6414    1421.6787   ✗       
+997   KPQLDSTSYAN+0.984SR      -1.0000     NotChecked  -27.6574    1466.7001   ✗       
+998   +42.011PQLDSTFFAN+0.984SR-1.0000     NotChecked  -27.6792    1424.6572   ✗       
+999   VPQLDSTSFANSR            -1.0000     NotChecked  -27.6998    1420.6946   ✗       
+1000  GPQLDSTFFAN+0.984SR      -1.0000     NotChecked  -27.7037    1439.6681   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: FPQLDSTSFAN+0.984SR
+Similarity: 0.6424
+De Novo Score: -0.7749
+Source: Database
+Correct: ✓
+

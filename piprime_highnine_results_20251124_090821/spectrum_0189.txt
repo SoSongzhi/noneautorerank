@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 189
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 1097.0531
+Precursor charge: 2+
+Ground truth: KVPSTTNTTSSNITSNEANVK
+Ground truth (normalized): KVPSTTNTTSSNITSNEANVK
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 37
+Used for reranking: 37
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 37 (3.7%)
+Database matches: 5 (0.5%)
+Prosit predictions: 30 (3.0%)
+Failed: 2 (0.2%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 203/1000
+Rank by similarity: 1/1000
+Similarity: 0.9481
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     KVPSTTNTTSSNLTSNEANVK    0.9481      Database    -8.4549     2192.0920   ✓       ✓
+2     KVPSTTNTTSSNLTSNEANVK    0.9481      Database    -8.6290     2192.0920   ✓       ✓
+3     KVPSTTNTTSSNLTSNEANVK    0.9481      Database    -9.0857     2192.0920   ✓       ✓
+4     KVPSTTNTTSSNLTSNEANVK    0.9481      Database    -9.2598     2192.0920   ✓       ✓
+5     KVPSTTNTTSSNLTSNEANVK    0.9481      Database    -9.6469     2192.0920   ✓       ✓
+6     KVPSTTNTTSANETSNEANVK    0.6511      Prosit      -9.6229     2192.0556   ✓       
+7     KVPSTTNTTSSQVTSNEANVK    0.6230      Prosit      -7.3499     2192.0920   ✓       
+8     KVPSTTNTTSSQVTSNEANVK    0.6230      Prosit      -7.5239     2192.0920   ✓       
+9     KVPSTTNTTSSQVTSNEANVK    0.6230      Prosit      -7.9807     2192.0920   ✓       
+10    KVPSTTNTTSSQVTSNEANVK    0.6230      Prosit      -8.1547     2192.0920   ✓       
+11    KVPSTTNTTSSQVTSNEANVK    0.6230      Prosit      -8.5418     2192.0920   ✓       
+12    KVPSTTNTTSSQVTSNEANVK    0.6230      Prosit      -8.7159     2192.0920   ✓       
+13    KVPSTTNTTSSQVTSNEANVK    0.6230      Prosit      -9.2180     2192.0920   ✓       
+14    KVPSTTNTTSSQVTSNEANVK    0.6230      Prosit      -9.3920     2192.0920   ✓       
+15    +43.006KVPSTTNTTSASLTSNEANVK0.6218      Prosit      -15.7915    2192.0920   ✓       
+16    +43.006KVPSTTNTTSATVTSNEANVK0.6177      Prosit      -14.8251    2192.0920   ✓       
+17    +43.006KVPSTTNTTSATVTSNEANVK0.6177      Prosit      -15.7908    2192.0920   ✓       
+18    +43.006VPSTTNTTSSANVTSNEANVR0.6109      Prosit      -15.1878    2192.0305   ✓       
+19    +43.006VPSTTNTTSASNVTSNEANVR0.6070      Prosit      -15.6174    2192.0305   ✓       
+20    +43.006VPSTTNTTSSAQLTSNEANVK0.6049      Prosit      -16.1206    2192.0556   ✓       
+21    KVPSTTNTTSASQTSNEANVR    0.5951      Prosit      -8.7954     2192.0669   ✓       
+22    KVPSTTNTTSASQTSNEANVR    0.5951      Prosit      -8.9694     2192.0669   ✓       
+23    KVPSTTNTTSASQTSNEANVR    0.5951      Prosit      -9.3800     2192.0669   ✓       
+24    KVPSTTNTTSASQTSNEANVR    0.5951      Prosit      -9.5541     2192.0669   ✓       
+25    KVPSTTNTTSAGSVTSNEANVK   0.5716      Prosit      -9.4929     2192.0920   ✓       
+26    KVPSTTNTTSAGSVTSNEANVK   0.5716      Prosit      -9.6670     2192.0920   ✓       
+27    KVPSTTNTTSASGVTSNEANVK   0.5690      Prosit      -7.8712     2192.0920   ✓       
+28    KVPSTTNTTSASGVTSNEANVK   0.5690      Prosit      -8.0453     2192.0920   ✓       
+29    KVPSTTNTTSSAGVTSNEANVK   0.5596      Prosit      -7.4417     2192.0920   ✓       
+30    KVPSTTNTTSSAGVTSNEANVK   0.5596      Prosit      -7.6157     2192.0920   ✓       
+31    KVPSTTNTTSSAGVTSNEANVK   0.5596      Prosit      -9.3098     2192.0920   ✓       
+32    KVPSTTNTTSSAGVTSNEANVK   0.5596      Prosit      -9.4839     2192.0920   ✓       
+33    KVPSTTNTTSAQVTSNEANSR    0.5363      Prosit      -8.9923     2192.0669   ✓       
+34    KVPSTTNTTSAQVTSNEANSR    0.5363      Prosit      -9.1663     2192.0669   ✓       
+35    VVPSTTNTTSAQVTSNEAMVR    0.5252      Prosit      -15.9142    2192.0743   ✓       
+36    KVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -5.1376     2190.0876   ✗       
+37    KVPSTTNTTSAQVTSNEANVK    -1.0000     NotChecked  -5.2172     2176.0971   ✗       
+38    KVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -5.3116     2190.0876   ✗       
+39    KVPSTTNTTSAQVTSNEANVK    -1.0000     NotChecked  -5.3912     2176.0971   ✗       
+40    KVPSTTNTTSANVTSNEANVK    -1.0000     NotChecked  -5.4690     2162.0815   ✗       
+41    KVPSTTNTTSANVTSNEANVK    -1.0000     NotChecked  -5.6431     2162.0815   ✗       
+42    KVPSTTNTTSATVTSNEANVR    -1.0000     NotChecked  -5.7844     2177.0924   ✗       
+43    KVPSTTNTTSASVTSNEANVR    -1.0000     NotChecked  -5.8976     2163.0767   ✗       
+44    KVPSTTNTTSAGVTSNEANVR    -1.0000     NotChecked  -5.9432     2133.0661   ✗       
+45    KVPSTTNTTSATVTSNEANVR    -1.0000     NotChecked  -5.9584     2177.0924   ✗       
+46    KVPSTTNTTSAQLTSNEANVK    -1.0000     NotChecked  -6.0703     2190.1128   ✗       
+47    KVPSTTNTTSASVTSNEANVR    -1.0000     NotChecked  -6.0716     2163.0767   ✗       
+48    KVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -6.1033     2190.0876   ✗       
+49    KVPSTTNTTSATVTSNEANVK    -1.0000     NotChecked  -6.1158     2149.0862   ✗       
+50    KVPSTTNTTSAGVTSNEANVR    -1.0000     NotChecked  -6.1173     2133.0661   ✗       
+51    KVPSTTNTTSAQVTSNEANVK    -1.0000     NotChecked  -6.1829     2176.0971   ✗       
+52    KVPSTTNTTSASVTSNEANVK    -1.0000     NotChecked  -6.2291     2135.0706   ✗       
+53    KVPSTTNTTSAQLTSNEANVK    -1.0000     NotChecked  -6.2444     2190.1128   ✗       
+54    KVPSTTNTTSAGVTSNEANVK    -1.0000     NotChecked  -6.2747     2105.0600   ✗       
+55    KVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -6.2773     2190.0876   ✗       
+56    KVPSTTNTTSATVTSNEANVK    -1.0000     NotChecked  -6.2899     2149.0862   ✗       
+57    KVPSTTNTTSANLTSNEANVK    -1.0000     NotChecked  -6.3222     2176.0971   ✗       
+58    KVPSTTNTTSAQVTSNEANVK    -1.0000     NotChecked  -6.3569     2176.0971   ✗       
+59    KVPSTTNTTSASVTSNEANVK    -1.0000     NotChecked  -6.4031     2135.0706   ✗       
+60    KVPSTTNTTSANVTSNEANVK    -1.0000     NotChecked  -6.4348     2162.0815   ✗       
+61    KVPSTTNTTSAGVTSNEANVK    -1.0000     NotChecked  -6.4487     2105.0600   ✗       
+62    KVPSTTNTTSANLTSNEANVK    -1.0000     NotChecked  -6.4962     2176.0971   ✗       
+63    KVPSTTNTTSANVTSNEANVK    -1.0000     NotChecked  -6.6088     2162.0815   ✗       
+64    KVPSTTNTTSATLTSNEANVR    -1.0000     NotChecked  -6.6375     2191.1080   ✗       
+65    KVPSTTNTTSATVTSNEANVR    -1.0000     NotChecked  -6.7501     2177.0924   ✗       
+66    KVPSTTNTTSASLTSNEANVR    -1.0000     NotChecked  -6.7508     2177.0924   ✗       
+67    KVPSTTNTTSAGLTSNEANVR    -1.0000     NotChecked  -6.7964     2147.0818   ✗       
+68    KVPSTTNTTSATLTSNEANVR    -1.0000     NotChecked  -6.8116     2191.1080   ✗       
+69    KVPSTTNTTSASVTSNEANVR    -1.0000     NotChecked  -6.8633     2163.0767   ✗       
+70    KVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -6.8657     2190.0876   ✗       
+71    KVPSTTNTTSAGVTSNEANVR    -1.0000     NotChecked  -6.9090     2133.0661   ✗       
+72    KVPSTTNTTSATVTSNEANVR    -1.0000     NotChecked  -6.9241     2177.0924   ✗       
+73    KVPSTTNTTSASLTSNEANVR    -1.0000     NotChecked  -6.9248     2177.0924   ✗       
+74    KVPSTTNTTSAQVTSNEANVK    -1.0000     NotChecked  -6.9453     2176.0971   ✗       
+75    KVPSTTNTTSATLTSNEANVK    -1.0000     NotChecked  -6.9690     2163.1019   ✗       
+76    KVPSTTNTTSAGLTSNEANVR    -1.0000     NotChecked  -6.9704     2147.0818   ✗       
+77    KVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -7.0057     2190.0876   ✗       
+78    KVPSTTNTTSAQLTSNEANVK    -1.0000     NotChecked  -7.0361     2190.1128   ✗       
+79    KVPSTTNTTSASVTSNEANVR    -1.0000     NotChecked  -7.0374     2163.0767   ✗       
+80    KVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -7.0397     2190.0876   ✗       
+81    KVPSTTNTTSATVTSNEANVK    -1.0000     NotChecked  -7.0816     2149.0862   ✗       
+82    KVPSTTNTTSASLTSNEANVK    -1.0000     NotChecked  -7.0822     2149.0862   ✗       
+83    KVPSTTNTTSAGVTSNEANVR    -1.0000     NotChecked  -7.0830     2133.0661   ✗       
+84    KVPSTTNTTSAQVTSNEANVK    -1.0000     NotChecked  -7.0853     2176.0971   ✗       
+85    KVPSTTNTTSAQVTSNEANVK    -1.0000     NotChecked  -7.1193     2176.0971   ✗       
+86    KVPSTTNTTSAGLTSNEANVK    -1.0000     NotChecked  -7.1279     2119.0756   ✗       
+87    KVPSTTNTTSATLTSNEANVK    -1.0000     NotChecked  -7.1430     2163.1019   ✗       
+88    KVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -7.1797     2190.0876   ✗       
+89    KVPSTTNTTSAEVTSNEANVK    -1.0000     NotChecked  -7.1924     2177.0811   ✗       
+90    KVPSTTNTTSASVTSNEANVK    -1.0000     NotChecked  -7.1948     2135.0706   ✗       
+91    KVPSTTNTTSANVTSNEANVK    -1.0000     NotChecked  -7.1972     2162.0815   ✗       
+92    KVPSTTNTTSAQLTSNEANVK    -1.0000     NotChecked  -7.2101     2190.1128   ✗       
+93    KVPSTTNTTSAGVTSNEANVK    -1.0000     NotChecked  -7.2404     2105.0600   ✗       
+94    KVPSTTNTTSATVTSNEANVK    -1.0000     NotChecked  -7.2556     2149.0862   ✗       
+95    KVPSTTNTTSASLTSNEANVK    -1.0000     NotChecked  -7.2563     2149.0862   ✗       
+96    KVPSTTNTTSAQVTSNEANVK    -1.0000     NotChecked  -7.2593     2176.0971   ✗       
+97    KVPSTTNTTSANLTSNEANVK    -1.0000     NotChecked  -7.2879     2176.0971   ✗       
+98    KVPSTTNTTSAGLTSNEANVK    -1.0000     NotChecked  -7.3019     2119.0756   ✗       
+99    KVPSTTNTTSAAVTSNEANVR    -1.0000     NotChecked  -7.3022     2147.0818   ✗       
+100   KVPSTTNTTSANVTSNEANVK    -1.0000     NotChecked  -7.3371     2162.0815   ✗       
+101   KVPSTTNTTSAEVTSNEANVK    -1.0000     NotChecked  -7.3664     2177.0811   ✗       
+102   KVPSTTNTTSASVTSNEANVK    -1.0000     NotChecked  -7.3688     2135.0706   ✗       
+103   KVPSTTNTTSANVTSNEANVK    -1.0000     NotChecked  -7.3712     2162.0815   ✗       
+104   KVPSTTNTTSAQVTSNPANVR    -1.0000     NotChecked  -7.4136     2172.1134   ✗       
+105   KVPSTTNTTSAGVTSNEANVK    -1.0000     NotChecked  -7.4145     2105.0600   ✗       
+106   KVPSTTNTTSANLTSNEANVK    -1.0000     NotChecked  -7.4620     2176.0971   ✗       
+107   KVPSTTNTTSAAVTSNEANVR    -1.0000     NotChecked  -7.4762     2147.0818   ✗       
+108   KVPSTTNTTSANVTSNEANVK    -1.0000     NotChecked  -7.5112     2162.0815   ✗       
+109   KVPSTTNTTSATVTSNEANVR    -1.0000     NotChecked  -7.5125     2177.0924   ✗       
+110   KVPSTTNTTSQVTSNEANVR     -1.0000     NotChecked  -7.5796     2133.0661   ✗       
+111   KVPSTTNTTSAQVTSNPANVR    -1.0000     NotChecked  -7.5877     2172.1134   ✗       
+112   KVPSTTNTTSSNVTSNEANVK    -1.0000     NotChecked  -7.6018     2178.0764   ✗       
+113   KVPSTTNTTSATLTSNEANVR    -1.0000     NotChecked  -7.6033     2191.1080   ✗       
+114   KVPSTTNTTSASVTSNEANVR    -1.0000     NotChecked  -7.6257     2163.0767   ✗       
+115   KVPSTTNTTSAAVTSNEANVK    -1.0000     NotChecked  -7.6337     2119.0756   ✗       
+116   KVPSTTNTTSATVTSNEANVR    -1.0000     NotChecked  -7.6525     2177.0924   ✗       
+117   KVPSTTNTTSANVTSNPANVR    -1.0000     NotChecked  -7.6655     2158.0978   ✗       
+118   KVPSTTNTTSAGVTSNEANVR    -1.0000     NotChecked  -7.6714     2133.0661   ✗       
+119   KVPSTTNTTSATVTSNEANVR    -1.0000     NotChecked  -7.6865     2177.0924   ✗       
+120   KVPSTTNTTSASLTSNEANVR    -1.0000     NotChecked  -7.7165     2177.0924   ✗       
+121   KVPSTTNTTSAQVTSNPANVK    -1.0000     NotChecked  -7.7451     2144.1073   ✗       
+122   KVPSTTNTTSQVTSNEANVR     -1.0000     NotChecked  -7.7536     2133.0661   ✗       
+123   KVPSTTNTTSAGLTSNEANVR    -1.0000     NotChecked  -7.7621     2147.0818   ✗       
+124   KVPSTTNTTSASVTSNEANVR    -1.0000     NotChecked  -7.7657     2163.0767   ✗       
+125   KVPSTTNTTSSNVTSNEANVK    -1.0000     NotChecked  -7.7758     2178.0764   ✗       
+126   KVPSTTNTTSATLTSNEANVR    -1.0000     NotChecked  -7.7773     2191.1080   ✗       
+127   KVPSTTNTTSAQTSNEANVR     -1.0000     NotChecked  -7.7835     2105.0348   ✗       
+128   KVPSTTNTTSAQLTSNEANVK    -1.0000     NotChecked  -7.7985     2190.1128   ✗       
+129   KVPSTTNTTSASVTSNEANVR    -1.0000     NotChecked  -7.7998     2163.0767   ✗       
+130   KVPSTTNTTSAAVTSNEANVK    -1.0000     NotChecked  -7.8077     2119.0756   ✗       
+131   KVPSTTNTTSAGVTSNEANVR    -1.0000     NotChecked  -7.8113     2133.0661   ✗       
+132   KVPSTTNTTSATVTSNEANVR    -1.0000     NotChecked  -7.8265     2177.0924   ✗       
+133   KVPSTTNTTSNVTSNEANVR     -1.0000     NotChecked  -7.8314     2119.0505   ✗       
+134   KVPSTTNTTSANVTSNPANVR    -1.0000     NotChecked  -7.8396     2158.0978   ✗       
+135   KVPSTTNTTSATVTSNEANVK    -1.0000     NotChecked  -7.8440     2149.0862   ✗       
+136   KVPSTTNTTSAGVTSNEANVR    -1.0000     NotChecked  -7.8454     2133.0661   ✗       
+137   KVPSTTNTTSASLTSNEANVR    -1.0000     NotChecked  -7.8905     2177.0924   ✗       
+138   KVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -7.9046     2190.0876   ✗       
+139   KVPSTTNTTSQVTSNEANVK     -1.0000     NotChecked  -7.9110     2105.0600   ✗       
+140   KVPSTTNTTSAPVTSNEANVR    -1.0000     NotChecked  -7.9172     2173.0974   ✗       
+141   KVPSTTNTTSAQVTSNPANVK    -1.0000     NotChecked  -7.9192     2144.1073   ✗       
+142   KVPSTTNTTSATLTSNEANVK    -1.0000     NotChecked  -7.9347     2163.1019   ✗       
+143   KVPSTTNTTSAGLTSNEANVR    -1.0000     NotChecked  -7.9362     2147.0818   ✗       
+144   KVPSTTNTTSAQLTSNEANVK    -1.0000     NotChecked  -7.9384     2190.1128   ✗       
+145   KVPSTTNTTSASVTSNEANVR    -1.0000     NotChecked  -7.9397     2163.0767   ✗       
+146   KVPSTTNTTSASVTSNEANVK    -1.0000     NotChecked  -7.9572     2135.0706   ✗       
+147   KVPSTTNTTSAQTSNEANVR     -1.0000     NotChecked  -7.9575     2105.0348   ✗       
+148   KVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -7.9714     2190.0876   ✗       
+149   KVPSTTNTTSAQLTSNEANVK    -1.0000     NotChecked  -7.9725     2190.1128   ✗       
+150   KVPSTTNTTSATVTSNEANVK    -1.0000     NotChecked  -7.9840     2149.0862   ✗       
+151   KVPSTTNTTSAQVTSNEANVK    -1.0000     NotChecked  -7.9842     2176.0971   ✗       
+152   KVPSTTNTTSAGVTSNEANVR    -1.0000     NotChecked  -7.9854     2133.0661   ✗       
+153   KVPSTTNTTSANVTSNPANVK    -1.0000     NotChecked  -7.9970     2130.0916   ✗       
+154   KVPSTTNTTSAGVTSNEANVK    -1.0000     NotChecked  -8.0029     2105.0600   ✗       
+155   KVPSTTNTTSNVTSNEANVR     -1.0000     NotChecked  -8.0055     2119.0505   ✗       
+156   KVPSTTNTTSATVTSNEANVK    -1.0000     NotChecked  -8.0180     2149.0862   ✗       
+157   KVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -8.0215     2190.0876   ✗       
+158   KVPSTTNTTSSSVTSNEANVR    -1.0000     NotChecked  -8.0303     2179.0716   ✗       
+159   KVPSTTNTTSAQVTSNEAPVR    -1.0000     NotChecked  -8.0368     2187.1131   ✗       
+160   KVPSTTNTTSAELTSNEANVK    -1.0000     NotChecked  -8.0456     2191.0968   ✗       
+161   KVPSTTNTTSASLTSNEANVK    -1.0000     NotChecked  -8.0480     2149.0862   ✗       
+162   KVPSTTNTTSANLTSNEANVK    -1.0000     NotChecked  -8.0503     2176.0971   ✗       
+163   KVPSTTNTTSAQVTSNEANVK    -1.0000     NotChecked  -8.0510     2176.0971   ✗       
+164   KVPSTTNTTSANVTSNEANPR    -1.0000     NotChecked  -8.0711     2188.0720   ✗       
+165   KVPSTTNTTSSGVTSNEANVR    -1.0000     NotChecked  -8.0760     2149.0611   ✗       
+166   KVPSTTNTTSQVTSNEANVK     -1.0000     NotChecked  -8.0851     2105.0600   ✗       
+167   KVPSTTNTTSAPVTSNEANVR    -1.0000     NotChecked  -8.0912     2173.0974   ✗       
+168   KVPSTTNTTSAGLTSNEANVK    -1.0000     NotChecked  -8.0936     2119.0756   ✗       
+169   KVPSTTNTTSASVTSNEANVK    -1.0000     NotChecked  -8.0972     2135.0706   ✗       
+170   KVPSTTNTTSAQVTSNEANVK    -1.0000     NotChecked  -8.1011     2176.0971   ✗       
+171   KVPSTTNTTSANVTSNEAMVK    -1.0000     NotChecked  -8.1052     2179.0790   ✗       
+172   KVPSTTNTTSATLTSNEANVK    -1.0000     NotChecked  -8.1088     2163.1019   ✗       
+173   KVPSTTNTTSAQLTSNEANVK    -1.0000     NotChecked  -8.1125     2190.1128   ✗       
+174   KVPSTTNTTSAQTSNEANVK     -1.0000     NotChecked  -8.1150     2077.0287   ✗       
+175   KVPSTTNTTSASVTSNEANVK    -1.0000     NotChecked  -8.1313     2135.0706   ✗       
+176   KVPSTTNTTSAGVTSNEANVK    -1.0000     NotChecked  -8.1428     2105.0600   ✗       
+177   KVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -8.1454     2190.0876   ✗       
+178   KVPSTTNTTSAQVTSNEANPK    -1.0000     NotChecked  -8.1507     2174.0815   ✗       
+179   KVPSTTNTTSAALTSNEANVR    -1.0000     NotChecked  -8.1554     2161.0974   ✗       
+180   KVPSTTNTTSATVTSNEANVK    -1.0000     NotChecked  -8.1580     2149.0862   ✗       
+181   KVPSTTNTTSAEVTSNEANVK    -1.0000     NotChecked  -8.1581     2177.0811   ✗       
+182   KVPSTTNTTSNVTSNEANVK     -1.0000     NotChecked  -8.1629     2091.0443   ✗       
+183   KVPSTTNTTSANVTSNPANVK    -1.0000     NotChecked  -8.1710     2130.0916   ✗       
+184   KVPSTTNTTSAGVTSNEANVK    -1.0000     NotChecked  -8.1769     2105.0600   ✗       
+185   KVPSTTNTTSANLTSNEANVK    -1.0000     NotChecked  -8.1903     2176.0971   ✗       
+186   KVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -8.1956     2190.0876   ✗       
+187   KVPSTTNTTSSSVTSNEANVR    -1.0000     NotChecked  -8.2044     2179.0716   ✗       
+188   KVPSTTNTTSAQVTSNEAPVR    -1.0000     NotChecked  -8.2108     2187.1131   ✗       
+189   KVPSTTNTTSAELTSNEANVK    -1.0000     NotChecked  -8.2196     2191.0968   ✗       
+190   KVPSTTNTTSASLTSNEANVK    -1.0000     NotChecked  -8.2220     2149.0862   ✗       
+191   KVPSTTNTTSANLTSNEANVK    -1.0000     NotChecked  -8.2244     2176.0971   ✗       
+192   KVPSTTNTTSAQVTSNEANVK    -1.0000     NotChecked  -8.2250     2176.0971   ✗       
+193   KVPSTTNTTSSNVTSNEANVK    -1.0000     NotChecked  -8.2326     2178.0764   ✗       
+194   KVPSTTNTTSANVTSNEANVK    -1.0000     NotChecked  -8.2360     2162.0815   ✗       
+195   KVPSTTNTTSANVTSNEANPR    -1.0000     NotChecked  -8.2451     2188.0720   ✗       
+196   KVPSTTNTTSSTVTSNEANVK    -1.0000     NotChecked  -8.2486     2165.0811   ✗       
+197   KVPSTTNTTSAPVTSNEANVK    -1.0000     NotChecked  -8.2486     2145.0913   ✗       
+198   KVPSTTNTTSSGVTSNEANVR    -1.0000     NotChecked  -8.2500     2149.0611   ✗       
+199   KVPSTTNTTSAQLTSNPANVR    -1.0000     NotChecked  -8.2668     2186.1291   ✗       
+200   KVPSTTNTTSAGLTSNEANVK    -1.0000     NotChecked  -8.2676     2119.0756   ✗       
+201   KVPSTTNTTSAAVTSNEANVR    -1.0000     NotChecked  -8.2679     2147.0818   ✗       
+202   KVPSTTNTTSASVTSNEANVK    -1.0000     NotChecked  -8.2712     2135.0706   ✗       
+203   KVPSTTNTTSAQVTSNEANVK    -1.0000     NotChecked  -8.2752     2176.0971   ✗       
+204   KVPSTTNTTSANVTSNEAMVK    -1.0000     NotChecked  -8.2792     2179.0790   ✗       
+205   KVPSTTNTTSANVTSNEAPVR    -1.0000     NotChecked  -8.2887     2173.0974   ✗       
+206   KVPSTTNTTSAQTSNEANVK     -1.0000     NotChecked  -8.2890     2077.0287   ✗       
+207   KVPSTTNTTSANVTSNEANVK    -1.0000     NotChecked  -8.3029     2162.0815   ✗       
+208   KVPSTTNTTSATVTSNPANVR    -1.0000     NotChecked  -8.3123     2145.1025   ✗       
+209   KVPSTTNTTSAGVTSNEANVK    -1.0000     NotChecked  -8.3168     2105.0600   ✗       
+210   KVPSTTNTTSAQVTSNEANPK    -1.0000     NotChecked  -8.3247     2174.0815   ✗       
+211   KVPSTTNTTSAALTSNEANVR    -1.0000     NotChecked  -8.3294     2161.0974   ✗       
+212   KVPSTTNTTSAEVTSNEANVK    -1.0000     NotChecked  -8.3322     2177.0811   ✗       
+213   KVPSTTNTTSNVTSNEANVK     -1.0000     NotChecked  -8.3369     2091.0443   ✗       
+214   KVPSTTNTTSANVTSNEANVK    -1.0000     NotChecked  -8.3530     2162.0815   ✗       
+215   KVPSTTNTTSSSVTSNEANVK    -1.0000     NotChecked  -8.3618     2151.0655   ✗       
+216   KVPSTTNTTSANLTSNEANVK    -1.0000     NotChecked  -8.3643     2176.0971   ✗       
+217   KVPSTTNTTSATLTSNEANVR    -1.0000     NotChecked  -8.3657     2191.1080   ✗       
+218   KVPSTTNTTSANQTSNEANVK    -1.0000     NotChecked  -8.3668     2191.0716   ✗       
+219   KVPSTTNTTSAQVTSNEAPVK    -1.0000     NotChecked  -8.3683     2159.1069   ✗       
+220   KVPSTTNTTSAQVTSNPANVR    -1.0000     NotChecked  -8.3794     2172.1134   ✗       
+221   KVPSTTNTTSANVTSNEANPK    -1.0000     NotChecked  -8.4025     2160.0658   ✗       
+222   KVPSTTNTTSSNVTSNEANVK    -1.0000     NotChecked  -8.4066     2178.0764   ✗       
+223   KVPSTTNTTSSGVTSNEANVK    -1.0000     NotChecked  -8.4074     2121.0549   ✗       
+224   KVPSTTNTTSSTVTSNEANVK    -1.0000     NotChecked  -8.4226     2165.0811   ✗       
+225   KVPSTTNTTSAPVTSNEANVK    -1.0000     NotChecked  -8.4227     2145.0913   ✗       
+226   KVPSTTNTTSASVTSNPANVR    -1.0000     NotChecked  -8.4256     2131.0869   ✗       
+227   KVPSTTNTTSQLTSNEANVR     -1.0000     NotChecked  -8.4327     2147.0818   ✗       
+228   KVPSTTNTTSAQLTSNPANVR    -1.0000     NotChecked  -8.4408     2186.1291   ✗       
+229   KVPSTTNTTSAAVTSNEANVR    -1.0000     NotChecked  -8.4420     2147.0818   ✗       
+230   KVPSTTNTTSANVTSNEAPVR    -1.0000     NotChecked  -8.4627     2173.0974   ✗       
+231   KVPSTTNTTSAGVTSNPANVR    -1.0000     NotChecked  -8.4712     2101.0763   ✗       
+232   KVPSTTNTTSANVTSNEANVK    -1.0000     NotChecked  -8.4769     2162.0815   ✗       
+233   KVPSTTNTTSTVTSNEANVR     -1.0000     NotChecked  -8.4782     2106.0552   ✗       
+234   KVPSTTNTTSASLTSNEANVR    -1.0000     NotChecked  -8.4789     2177.0924   ✗       
+235   KVPSTTNTTSATVTSNPANVR    -1.0000     NotChecked  -8.4864     2145.1025   ✗       
+236   KVPSTTNTTSAALTSNEANVK    -1.0000     NotChecked  -8.4868     2133.0913   ✗       
+237   KVPSTTNTTSATLTSNEANVR    -1.0000     NotChecked  -8.5056     2191.1080   ✗       
+238   KVPSTTNTTSANLTSNPANVR    -1.0000     NotChecked  -8.5187     2172.1134   ✗       
+239   KVPSTTNTTSAGLTSNEANVR    -1.0000     NotChecked  -8.5245     2147.0818   ✗       
+240   KVPSTTNTTSANVTSNEANVK    -1.0000     NotChecked  -8.5271     2162.0815   ✗       
+241   KVPSTTNTTSASVTSNEAMVR    -1.0000     NotChecked  -8.5338     2180.0743   ✗       
+242   KVPSTTNTTSSSVTSNEANVK    -1.0000     NotChecked  -8.5358     2151.0655   ✗       
+243   KVPSTTNTTSATLTSNEANVR    -1.0000     NotChecked  -8.5397     2191.1080   ✗       
+244   KVPSTTNTTSANQTSNEANVK    -1.0000     NotChecked  -8.5409     2191.0716   ✗       
+245   KVPSTTNTTSAQVTSNEAPVK    -1.0000     NotChecked  -8.5423     2159.1069   ✗       
+246   KVPSTTNTTSATVTSNEANVR    -1.0000     NotChecked  -8.5514     2177.0924   ✗       
+247   KVPSTTNTTSAQVTSNPANVR    -1.0000     NotChecked  -8.5534     2172.1134   ✗       
+248   KVPSTTNTTSANVTSNEANPK    -1.0000     NotChecked  -8.5766     2160.0658   ✗       
+249   KVPSTTNTTSAGVTSNEAMVR    -1.0000     NotChecked  -8.5794     2150.0637   ✗       
+250   KVPSTTNTTSSGVTSNEANVK    -1.0000     NotChecked  -8.5815     2121.0549   ✗       
+251   KVPSTTNTTSSVTSNEANVR     -1.0000     NotChecked  -8.5915     2092.0396   ✗       
+252   KVPSTTNTTSAQLTSNPANVK    -1.0000     NotChecked  -8.5983     2158.1229   ✗       
+253   KVPSTTNTTSAAVTSNEANVK    -1.0000     NotChecked  -8.5994     2119.0756   ✗       
+254   KVPSTTNTTSASVTSNPANVR    -1.0000     NotChecked  -8.5996     2131.0869   ✗       
+255   KVPSTTNTTSQLTSNEANVR     -1.0000     NotChecked  -8.6068     2147.0818   ✗       
+256   KVPSTTNTTSATVTSNEANVR    -1.0000     NotChecked  -8.6182     2177.0924   ✗       
+257   KVPSTTNTTSASLTSNEANVR    -1.0000     NotChecked  -8.6189     2177.0924   ✗       
+258   KVPSTTNTTSANVTSNEAPVK    -1.0000     NotChecked  -8.6201     2145.0913   ✗       
+259   KVPSTTNTTSAQVTSNENVR     -1.0000     NotChecked  -8.6231     2133.0661   ✗       
+260   KVPSTTNTTSANVTSNPANVR    -1.0000     NotChecked  -8.6313     2158.0978   ✗       
+261   KVPSTTNTTSGVTSNEANVR     -1.0000     NotChecked  -8.6371     2062.0290   ✗       
+262   KVPSTTNTTSATVTSNPANVK    -1.0000     NotChecked  -8.6438     2117.0964   ✗       
+263   KVPSTTNTTSAGVTSNPANVR    -1.0000     NotChecked  -8.6452     2101.0763   ✗       
+264   KVPSTTNTTSTVTSNEANVR     -1.0000     NotChecked  -8.6523     2106.0552   ✗       
+265   KVPSTTNTTSASLTSNEANVR    -1.0000     NotChecked  -8.6529     2177.0924   ✗       
+266   KVPSTTNTTSAALTSNEANVK    -1.0000     NotChecked  -8.6609     2133.0913   ✗       
+267   KVPSTTNTTSSSVTSNEANVR    -1.0000     NotChecked  -8.6611     2179.0716   ✗       
+268   KVPSTTNTTSAGLTSNEANVR    -1.0000     NotChecked  -8.6645     2147.0818   ✗       
+269   KVPSTTNTTSASVTSNEANVR    -1.0000     NotChecked  -8.6646     2163.0767   ✗       
+270   KVPSTTNTTSATVTSNEANVR    -1.0000     NotChecked  -8.6684     2177.0924   ✗       
+271   KVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -8.6787     2190.0876   ✗       
+272   KVPSTTNTTSATLTSNEANVR    -1.0000     NotChecked  -8.6797     2191.1080   ✗       
+273   KVPSTTNTTSNLTSNEANVR     -1.0000     NotChecked  -8.6846     2133.0661   ✗       
+274   KVPSTTNTTSANLTSNPANVR    -1.0000     NotChecked  -8.6927     2172.1134   ✗       
+275   KVPSTTNTTSATLTSNEANVK    -1.0000     NotChecked  -8.6971     2163.1019   ✗       
+276   KVPSTTNTTSAGLTSNEANVR    -1.0000     NotChecked  -8.6986     2147.0818   ✗       
+277   KVPSTTNTTSSGVTSNEANVR    -1.0000     NotChecked  -8.7068     2149.0611   ✗       
+278   KVPSTTNTTSASVTSNEAMVR    -1.0000     NotChecked  -8.7078     2180.0743   ✗       
+279   KVPSTTNTTSAGVTSNEANVR    -1.0000     NotChecked  -8.7102     2133.0661   ✗       
+280   KVPSTTNTTSAQVTSNPANVK    -1.0000     NotChecked  -8.7109     2144.1073   ✗       
+281   KVPSTTNTTSATVTSNEANPR    -1.0000     NotChecked  -8.7179     2175.0767   ✗       
+282   KVPSTTNTTSAQVTSNNANVR    -1.0000     NotChecked  -8.7310     2189.1036   ✗       
+283   KVPSTTNTTSASVTSNEANVR    -1.0000     NotChecked  -8.7314     2163.0767   ✗       
+284   KVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -8.7338     2190.0876   ✗       
+285   KVPSTTNTTSAQTSNEANVR     -1.0000     NotChecked  -8.7492     2105.0348   ✗       
+286   KVPSTTNTTSATVTSNEAMVK    -1.0000     NotChecked  -8.7520     2166.0838   ✗       
+287   KVPSTTNTTSAGVTSNEAMVR    -1.0000     NotChecked  -8.7534     2150.0637   ✗       
+288   KVPSTTNTTSASVTSNPANVK    -1.0000     NotChecked  -8.7570     2103.0807   ✗       
+289   KVPSTTNTTSAQVTSNEANVK    -1.0000     NotChecked  -8.7583     2176.0971   ✗       
+290   KVPSTTNTTSQLTSNEANVK     -1.0000     NotChecked  -8.7642     2119.0756   ✗       
+291   KVPSTTNTTSSVTSNEANVR     -1.0000     NotChecked  -8.7655     2092.0396   ✗       
+292   KVPSTTNTTSAPLTSNEANVR    -1.0000     NotChecked  -8.7703     2187.1131   ✗       
+293   KVPSTTNTTSAQLTSNPANVK    -1.0000     NotChecked  -8.7723     2158.1229   ✗       
+294   KVPSTTNTTSAAVTSNEANVK    -1.0000     NotChecked  -8.7734     2119.0756   ✗       
+295   KVPSTTNTTSAGVTSNEANVR    -1.0000     NotChecked  -8.7771     2133.0661   ✗       
+296   KVPSTTNTTSASVTSNEANVR    -1.0000     NotChecked  -8.7816     2163.0767   ✗       
+297   KVPSTTNTTSATVTSNEANVR    -1.0000     NotChecked  -8.7922     2177.0924   ✗       
+298   KVPSTTNTTSASLTSNEANVR    -1.0000     NotChecked  -8.7929     2177.0924   ✗       
+299   KVPSTTNTTSSNVTSNEANVK    -1.0000     NotChecked  -8.7937     2178.0764   ✗       
+300   KVPSTTNTTSANVTSNEAPVK    -1.0000     NotChecked  -8.7942     2145.0913   ✗       
+301   KVPSTTNTTSAQVTSNENVR     -1.0000     NotChecked  -8.7972     2133.0661   ✗       
+302   KVPSTTNTTSAGVTSNPANVK    -1.0000     NotChecked  -8.8027     2073.0702   ✗       
+303   KVPSTTNTTSANVTSNPANVR    -1.0000     NotChecked  -8.8053     2158.0978   ✗       
+304   KVPSTTNTTSTVTSNEANVK     -1.0000     NotChecked  -8.8097     2078.0491   ✗       
+305   KVPSTTNTTSASLTSNEANVK    -1.0000     NotChecked  -8.8104     2149.0862   ✗       
+306   KVPSTTNTTSGVTSNEANVR     -1.0000     NotChecked  -8.8111     2062.0290   ✗       
+307   KVPSTTNTTSAQVTSNEANVK    -1.0000     NotChecked  -8.8134     2176.0971   ✗       
+308   KVPSTTNTTSATVTSNPANVK    -1.0000     NotChecked  -8.8178     2117.0964   ✗       
+309   KVPSTTNTTSAGVTSNEANVR    -1.0000     NotChecked  -8.8272     2133.0661   ✗       
+310   KVPSTTNTTSAQVTSNEASVR    -1.0000     NotChecked  -8.8305     2177.0924   ✗       
+311   KVPSTTNTTSASVTSNEANPR    -1.0000     NotChecked  -8.8311     2161.0611   ✗       
+312   KVPSTTNTTSSSVTSNEANVR    -1.0000     NotChecked  -8.8352     2179.0716   ✗       
+313   KVPSTTNTTSATLTSNEANVK    -1.0000     NotChecked  -8.8371     2163.1019   ✗       
+314   KVPSTTNTTSAQLTSNEANVK    -1.0000     NotChecked  -8.8373     2190.1128   ✗       
+315   KVPSTTNTTSAGLTSNEANVR    -1.0000     NotChecked  -8.8385     2147.0818   ✗       
+316   KVPSTTNTTSAGQTSNEANVR    -1.0000     NotChecked  -8.8410     2162.0563   ✗       
+317   KVPSTTNTTSATVTSNEANVR    -1.0000     NotChecked  -8.8424     2177.0924   ✗       
+318   KVPSTTNTTSAQVTSNEAAVR    -1.0000     NotChecked  -8.8434     2161.0974   ✗       
+319   KVPSTTNTTSANLTSNPANVK    -1.0000     NotChecked  -8.8502     2144.1073   ✗       
+320   KVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -8.8527     2190.0876   ✗       
+321   KVPSTTNTTSAGLTSNEANVK    -1.0000     NotChecked  -8.8560     2119.0756   ✗       
+322   KVPSTTNTTSAQVTSNEAGVR    -1.0000     NotChecked  -8.8562     2147.0818   ✗       
+323   KVPSTTNTTSNLTSNEANVR     -1.0000     NotChecked  -8.8586     2133.0661   ✗       
+324   KVPSTTNTTSASVTSNEAMVK    -1.0000     NotChecked  -8.8653     2152.0681   ✗       
+325   KVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -8.8703     2190.0876   ✗       
+326   KVPSTTNTTSATLTSNEANVK    -1.0000     NotChecked  -8.8712     2163.1019   ✗       
+327   KVPSTTNTTSAQVTSNEAQVK    -1.0000     NotChecked  -8.8726     2190.1128   ✗       
+328   KVPSTTNTTSANVTSNENVR     -1.0000     NotChecked  -8.8750     2119.0505   ✗       
+329   KVPSTTNTTSAGVTSNEANPR    -1.0000     NotChecked  -8.8767     2131.0505   ✗       
+330   KVPSTTNTTSSTVTSNEANVK    -1.0000     NotChecked  -8.8794     2165.0811   ✗       
+331   KVPSTTNTTSSGVTSNEANVR    -1.0000     NotChecked  -8.8808     2149.0611   ✗       
+332   KVPSTTNTTSATVTSNEANVK    -1.0000     NotChecked  -8.8828     2149.0862   ✗       
+333   KVPSTTNTTSAPVTSNEANVR    -1.0000     NotChecked  -8.8829     2173.0974   ✗       
+334   KVPSTTNTTSAQVTSNPANVK    -1.0000     NotChecked  -8.8849     2144.1073   ✗       
+335   KVPSTTNTTSATVTSNEANPR    -1.0000     NotChecked  -8.8919     2175.0767   ✗       
+336   KVPSTTNTTSAQLTSNEANVK    -1.0000     NotChecked  -8.9042     2190.1128   ✗       
+337   KVPSTTNTTSAQVTSNNANVR    -1.0000     NotChecked  -8.9050     2189.1036   ✗       
+338   KVPSTTNTTSASVTSNEANVR    -1.0000     NotChecked  -8.9055     2163.0767   ✗       
+339   KVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -8.9078     2190.0876   ✗       
+340   KVPSTTNTTSAGVTSNEAMVK    -1.0000     NotChecked  -8.9109     2122.0576   ✗       
+341   KVPSTTNTTSAEVTSNEANVK    -1.0000     NotChecked  -8.9206     2177.0811   ✗       
+342   KVPSTTNTTSSVTSNEANVK     -1.0000     NotChecked  -8.9230     2064.0334   ✗       
+343   KVPSTTNTTSAQTSNEANVR     -1.0000     NotChecked  -8.9233     2105.0348   ✗       
+344   KVPSTTNTTSAGVTSNEDNVR    -1.0000     NotChecked  -8.9247     2177.0560   ✗       
+345   KVPSTTNTTSATVTSNEAMVK    -1.0000     NotChecked  -8.9261     2166.0838   ✗       
+346   KVPSTTNTTSSGLTSNEANVR    -1.0000     NotChecked  -8.9291     2163.0767   ✗       
+347   KVPSTTNTTSASVTSNPANVK    -1.0000     NotChecked  -8.9311     2103.0807   ✗       
+348   KVPSTTNTTSAQVTSNEANVK    -1.0000     NotChecked  -8.9323     2176.0971   ✗       
+349   KVPSTTNTTSATVTSNEAPVR    -1.0000     NotChecked  -8.9355     2160.1022   ✗       
+350   KVPSTTNTTSQLTSNEANVK     -1.0000     NotChecked  -8.9382     2119.0756   ✗       
+351   KVPSTTNTTSAPLTSNEANVR    -1.0000     NotChecked  -8.9443     2187.1131   ✗       
+352   KVPSTTNTTSATVTSNEANVK    -1.0000     NotChecked  -8.9497     2149.0862   ✗       
+353   KVPSTTNTTSAQVTSNEANVK    -1.0000     NotChecked  -8.9499     2176.0971   ✗       
+354   KVPSTTNTTSASLTSNEANVK    -1.0000     NotChecked  -8.9503     2149.0862   ✗       
+355   KVPSTTNTTSSAQTSNEANVR    -1.0000     Failed      -8.9505     2192.0669   ✓       
+356   KVPSTTNTTSAGVTSNEANVR    -1.0000     NotChecked  -8.9511     2133.0661   ✗       
+357   KVPSTTNTTSAQLTSNEANVK    -1.0000     NotChecked  -8.9543     2190.1128   ✗       
+358   KVPSTTNTTSAQVTSNENVK     -1.0000     NotChecked  -8.9546     2105.0600   ✗       
+359   KVPSTTNTTSAQVTSNAANVR    -1.0000     NotChecked  -8.9549     2146.0978   ✗       
+360   KVPSTTNTTSASVTSNEANVR    -1.0000     NotChecked  -8.9556     2163.0767   ✗       
+361   KVPSTTNTTSANVTSNPANVK    -1.0000     NotChecked  -8.9627     2130.0916   ✗       
+362   KVPSTTNTTSSNVTSNEANVK    -1.0000     NotChecked  -8.9678     2178.0764   ✗       
+363   KVPSTTNTTSGVTSNEANVK     -1.0000     NotChecked  -8.9686     2034.0229   ✗       
+364   KVPSTTNTTSAGVTSNPANVK    -1.0000     NotChecked  -8.9767     2073.0702   ✗       
+365   KVPSTTNTTSANVTSNNANVR    -1.0000     NotChecked  -8.9828     2175.0879   ✗       
+366   KVPSTTNTTSTVTSNEANVK     -1.0000     NotChecked  -8.9838     2078.0491   ✗       
+367   KVPSTTNTTSASLTSNEANVK    -1.0000     NotChecked  -8.9844     2149.0862   ✗       
+368   KVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -8.9873     2190.0876   ✗       
+369   KVPSTTNTTSAQVTSNEANVK    -1.0000     NotChecked  -8.9874     2176.0971   ✗       
+370   KVPSTTNTTSSSVTSNEANVK    -1.0000     NotChecked  -8.9926     2151.0655   ✗       
+371   KVPSTTNTTSAGLTSNEANVK    -1.0000     NotChecked  -8.9960     2119.0756   ✗       
+372   KVPSTTNTTSASVTSNEANVK    -1.0000     NotChecked  -8.9961     2135.0706   ✗       
+373   KVPSTTNTTSATVTSNEANVK    -1.0000     NotChecked  -8.9998     2149.0862   ✗       
+374   KVPSTTNTTSAGVTSNEANVR    -1.0000     NotChecked  -9.0013     2133.0661   ✗       
+375   KVPSTTNTTSAQVTSNEAPVR    -1.0000     NotChecked  -9.0025     2187.1131   ✗       
+376   KVPSTTNTTSAQLTSNEANPK    -1.0000     NotChecked  -9.0038     2188.0971   ✗       
+377   KVPSTTNTTSAQVTSNEASVR    -1.0000     NotChecked  -9.0045     2177.0924   ✗       
+378   KVPSTTNTTSASVTSNEANPR    -1.0000     NotChecked  -9.0051     2161.0611   ✗       
+379   KVPSTTNTTSANVTSNEANVK    -1.0000     NotChecked  -9.0101     2162.0815   ✗       
+380   KVPSTTNTTSATLTSNEANVK    -1.0000     NotChecked  -9.0111     2163.1019   ✗       
+381   KVPSTTNTTSAELTSNEANVK    -1.0000     NotChecked  -9.0113     2191.0968   ✗       
+382   KVPSTTNTTSATQTSNEANVK    -1.0000     NotChecked  -9.0136     2178.0764   ✗       
+383   KVPSTTNTTSAGQTSNEANVR    -1.0000     NotChecked  -9.0151     2162.0563   ✗       
+384   KVPSTTNTTSNLTSNEANVK     -1.0000     NotChecked  -9.0161     2105.0600   ✗       
+385   KVPSTTNTTSAQVTSNEAAVR    -1.0000     NotChecked  -9.0175     2161.0974   ✗       
+386   KVPSTTNTTSANLTSNPANVK    -1.0000     NotChecked  -9.0242     2144.1073   ✗       
+387   KVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -9.0263     2190.0876   ✗       
+388   KVPSTTNTTSAGLTSNEANVK    -1.0000     NotChecked  -9.0300     2119.0756   ✗       
+389   KVPSTTNTTSAQVTSNEAGVR    -1.0000     NotChecked  -9.0303     2147.0818   ✗       
+390   KVPSTTNTTSAAVTSNEANVR    -1.0000     NotChecked  -9.0303     2147.0818   ✗       
+391   KVPSTTNTTSANVTSNEANPR    -1.0000     NotChecked  -9.0368     2188.0720   ✗       
+392   KVPSTTNTTSSGVTSNEANVK    -1.0000     NotChecked  -9.0383     2121.0549   ✗       
+393   KVPSTTNTTSASVTSNEAMVK    -1.0000     NotChecked  -9.0393     2152.0681   ✗       
+394   KVPSTTNTTSAGVTSNEANVK    -1.0000     NotChecked  -9.0417     2105.0600   ✗       
+395   KVPSTTNTTSAQVTSNEAQVK    -1.0000     NotChecked  -9.0466     2190.1128   ✗       
+396   KVPSTTNTTSASVTSNEAPVR    -1.0000     NotChecked  -9.0487     2146.0865   ✗       
+397   KVPSTTNTTSANVTSNENVR     -1.0000     NotChecked  -9.0490     2119.0505   ✗       
+398   KVPSTTNTTSATVTSNEANPK    -1.0000     NotChecked  -9.0493     2147.0706   ✗       
+399   KVPSTTNTTSAGVTSNEANPR    -1.0000     NotChecked  -9.0508     2131.0505   ✗       
+400   KVPSTTNTTSSTVTSNEANVK    -1.0000     NotChecked  -9.0534     2165.0811   ✗       
+401   KVPSTTNTTSAPVTSNEANVR    -1.0000     NotChecked  -9.0569     2173.0974   ✗       
+402   KVPSTTNTTSAEVTSNEANVK    -1.0000     NotChecked  -9.0605     2177.0811   ✗       
+403   KVPSTTNTTSAQVTSNNANVK    -1.0000     NotChecked  -9.0624     2161.0974   ✗       
+404   KVPSTTNTTSASVTSNEANVK    -1.0000     NotChecked  -9.0629     2135.0706   ✗       
+405   KVPSTTNTTSANVTSNEANVK    -1.0000     NotChecked  -9.0653     2162.0815   ✗       
+406   KVPSTTNTTSAQVTSNEANVK    -1.0000     NotChecked  -9.0669     2176.0971   ✗       
+407   KVPSTTNTTSANVTSNEAMVK    -1.0000     NotChecked  -9.0709     2179.0790   ✗       
+408   KVPSTTNTTSAQLTSNEANVK    -1.0000     NotChecked  -9.0782     2190.1128   ✗       
+409   KVPSTTNTTSAQTSNEANVK     -1.0000     NotChecked  -9.0807     2077.0287   ✗       
+410   KVPSTTNTTSANVTSNEASVR    -1.0000     NotChecked  -9.0824     2163.0767   ✗       
+411   KVPSTTNTTSAGVTSNEAMVK    -1.0000     NotChecked  -9.0849     2122.0576   ✗       
+412   KVPSTTNTTSANLTSNEANVK    -1.0000     NotChecked  -9.0892     2176.0971   ✗       
+413   KVPSTTNTTSAGVTSNEAPVR    -1.0000     NotChecked  -9.0943     2116.0760   ✗       
+414   KVPSTTNTTSAEVTSNEANVK    -1.0000     NotChecked  -9.0946     2177.0811   ✗       
+415   KVPSTTNTTSANVTSNEAAVR    -1.0000     NotChecked  -9.0953     2147.0818   ✗       
+416   KVPSTTNTTSSVTSNEANVK     -1.0000     NotChecked  -9.0970     2064.0334   ✗       
+417   KVPSTTNTTSAGVTSNEDNVR    -1.0000     NotChecked  -9.0987     2177.0560   ✗       
+418   KVPSTTNTTSSTLTSNEANVK    -1.0000     NotChecked  -9.1017     2179.0968   ✗       
+419   KVPSTTNTTSAPLTSNEANVK    -1.0000     NotChecked  -9.1018     2159.1069   ✗       
+420   KVPSTTNTTSSGLTSNEANVR    -1.0000     NotChecked  -9.1032     2163.0767   ✗       
+421   KVPSTTNTTSAQVTSNEANVK    -1.0000     NotChecked  -9.1059     2176.0971   ✗       
+422   KVPSTTNTTSANVTSNEAGVR    -1.0000     NotChecked  -9.1081     2133.0661   ✗       
+423   KVPSTTNTTSAGVTSNEANVK    -1.0000     NotChecked  -9.1086     2105.0600   ✗       
+424   KVPSTTNTTSATVTSNEAPVR    -1.0000     NotChecked  -9.1095     2160.1022   ✗       
+425   KVPSTTNTTSASVTSNEANVK    -1.0000     NotChecked  -9.1131     2135.0706   ✗       
+426   KVPSTTNTTSAQVTSNEANPK    -1.0000     NotChecked  -9.1164     2174.0815   ✗       
+427   KVPSTTNTTSAALTSNEANVR    -1.0000     NotChecked  -9.1211     2161.0974   ✗       
+428   KVPSTTNTTSATVTSNEANVK    -1.0000     NotChecked  -9.1237     2149.0862   ✗       
+429   KVPSTTNTTSASLTSNEANVK    -1.0000     NotChecked  -9.1244     2149.0862   ✗       
+430   KVPSTTNTTSANVTSNEAQVK    -1.0000     NotChecked  -9.1245     2176.0971   ✗       
+431   KVPSTTNTTSSAQTSNEANVR    -1.0000     Failed      -9.1245     2192.0669   ✓       
+432   KVPSTTNTTSASQTSNEANVK    -1.0000     NotChecked  -9.1269     2164.0607   ✗       
+433   KVPSTTNTTSAQLTSNEANVK    -1.0000     NotChecked  -9.1283     2190.1128   ✗       
+434   KVPSTTNTTSAQVTSNENVK     -1.0000     NotChecked  -9.1286     2105.0600   ✗       
+435   KVPSTTNTTSAQVTSNAANVR    -1.0000     NotChecked  -9.1290     2146.0978   ✗       
+436   KVPSTTNTTSANVTSNPANVK    -1.0000     NotChecked  -9.1368     2130.0916   ✗       
+437   KVPSTTNTTSAQVTSNPANVR    -1.0000     NotChecked  -9.1418     2172.1134   ✗       
+438   KVPSTTNTTSANLTSNEAPVR    -1.0000     NotChecked  -9.1418     2187.1131   ✗       
+439   KVPSTTNTTSGVTSNEANVK     -1.0000     NotChecked  -9.1426     2034.0229   ✗       
+440   KVPSTTNTTSANLTSNEANVK    -1.0000     NotChecked  -9.1560     2176.0971   ✗       
+441   KVPSTTNTTSANVTSNNANVR    -1.0000     NotChecked  -9.1569     2175.0879   ✗       
+442   KVPSTTNTTSAGVTSNEANVK    -1.0000     NotChecked  -9.1587     2105.0600   ✗       
+443   KVPSTTNTTSANVTSNQANVR    -1.0000     NotChecked  -9.1610     2189.1036   ✗       
+444   KVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -9.1613     2190.0876   ✗       
+445   KVPSTTNTTSAQVTSNEASVK    -1.0000     NotChecked  -9.1620     2149.0862   ✗       
+446   KVPSTTNTTSASVTSNEANPK    -1.0000     NotChecked  -9.1626     2133.0549   ✗       
+447   KVPSTTNTTSATLTSNPANVR    -1.0000     NotChecked  -9.1655     2159.1182   ✗       
+448   KVPSTTNTTSSSVTSNEANVK    -1.0000     NotChecked  -9.1667     2151.0655   ✗       
+449   KVPSTTNTTSAGLTSNEANVK    -1.0000     NotChecked  -9.1700     2119.0756   ✗       
+450   KVPSTTNTTSAAVTSNEANVR    -1.0000     NotChecked  -9.1703     2147.0818   ✗       
+451   KVPSTTNTTSAGQTSNEANVK    -1.0000     NotChecked  -9.1725     2134.0502   ✗       
+452   KVPSTTNTTSATVTSNEANVK    -1.0000     NotChecked  -9.1739     2149.0862   ✗       
+453   KVPSTTNTTSAQVTSNEAAVK    -1.0000     NotChecked  -9.1749     2133.0913   ✗       
+454   KVPSTTNTTSAQVTSNEAPVR    -1.0000     NotChecked  -9.1766     2187.1131   ✗       
+455   KVPSTTNTTSAQLTSNEANPK    -1.0000     NotChecked  -9.1779     2188.0971   ✗       
+456   KVPSTTNTTSANVTSNEANVK    -1.0000     NotChecked  -9.1842     2162.0815   ✗       
+457   KVPSTTNTTSAELTSNEANVK    -1.0000     NotChecked  -9.1853     2191.0968   ✗       
+458   KVPSTTNTTSATQTSNEANVK    -1.0000     NotChecked  -9.1877     2178.0764   ✗       
+459   KVPSTTNTTSAQVTSNEAGVK    -1.0000     NotChecked  -9.1877     2119.0756   ✗       
+460   KVPSTTNTTSNLTSNEANVK     -1.0000     NotChecked  -9.1901     2105.0600   ✗       
+461   KVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -9.2003     2190.0876   ✗       
+462   KVPSTTNTTSANVTSNEANVK    -1.0000     NotChecked  -9.2018     2162.0815   ✗       
+463   KVPSTTNTTSAAVTSNEANVR    -1.0000     NotChecked  -9.2044     2147.0818   ✗       
+464   KVPSTTNTTSANLTSNEANVK    -1.0000     NotChecked  -9.2062     2176.0971   ✗       
+465   KVPSTTNTTSANVTSNENVK     -1.0000     NotChecked  -9.2065     2091.0443   ✗       
+466   KVPSTTNTTSANVTSNAANVR    -1.0000     NotChecked  -9.2068     2132.0821   ✗       
+467   KVPSTTNTTSAGGVTSNEANVR   -1.0000     NotChecked  -9.2071     2190.0876   ✗       
+468   KVPSTTNTTSAGVTSNEANPK    -1.0000     NotChecked  -9.2082     2103.0443   ✗       
+469   KVPSTTNTTSASVTSNEDNVK    -1.0000     NotChecked  -9.2105     2179.0604   ✗       
+470   KVPSTTNTTSANVTSNEANPR    -1.0000     NotChecked  -9.2108     2188.0720   ✗       
+471   KVPSTTNTTSSGVTSNEANVK    -1.0000     NotChecked  -9.2123     2121.0549   ✗       
+472   KVPSTTNTTSAPVTSNEANVK    -1.0000     NotChecked  -9.2144     2145.0913   ✗       
+473   KVPSTTNTTSSSLTSNEANVK    -1.0000     NotChecked  -9.2150     2165.0811   ✗       
+474   KVPSTTNTTSAQLTSNEAPVK    -1.0000     NotChecked  -9.2214     2173.1226   ✗       
+475   KVPSTTNTTSSSVTSNEANVR    -1.0000     NotChecked  -9.2223     2179.0716   ✗       
+476   KVPSTTNTTSASVTSNEAPVR    -1.0000     NotChecked  -9.2227     2146.0865   ✗       
+477   KVPSTTNTTSATVTSNEANPK    -1.0000     NotChecked  -9.2234     2147.0706   ✗       
+478   KVPSTTNTTSAQLTSNPANVR    -1.0000     NotChecked  -9.2325     2186.1291   ✗       
+479   KVPSTTNTTSAEVTSNEANVK    -1.0000     NotChecked  -9.2346     2177.0811   ✗       
+480   KVPSTTNTTSAQVTSNNANVK    -1.0000     NotChecked  -9.2365     2161.0974   ✗       
+481   KVPSTTNTTSASVTSNEANVK    -1.0000     NotChecked  -9.2370     2135.0706   ✗       
+482   KVPSTTNTTSANVTSNEANVK    -1.0000     NotChecked  -9.2393     2162.0815   ✗       
+483   KVPSTTNTTSAQVTSNQANVK    -1.0000     NotChecked  -9.2406     2175.1131   ✗       
+484   KVPSTTNTTSAQVTSNEANVK    -1.0000     NotChecked  -9.2409     2176.0971   ✗       
+485   KVPSTTNTTSANVTSNEANSR    -1.0000     NotChecked  -9.2441     2178.0512   ✗       
+486   KVPSTTNTTSANVTSNEAMVK    -1.0000     NotChecked  -9.2450     2179.0790   ✗       
+487   KVPSTTNTTSANVTSNEAPVR    -1.0000     NotChecked  -9.2544     2173.0974   ✗       
+488   KVPSTTNTTSAQTSNEANVK     -1.0000     NotChecked  -9.2547     2077.0287   ✗       
+489   KVPSTTNTTSANLTSNEANPK    -1.0000     NotChecked  -9.2557     2174.0815   ✗       
+490   KVPSTTNTTSAGVTSNEDNVK    -1.0000     NotChecked  -9.2561     2149.0498   ✗       
+491   KVPSTTNTTSANVTSNEASVR    -1.0000     NotChecked  -9.2564     2163.0767   ✗       
+492   KVPSTTNTTSSGLTSNEANVK    -1.0000     NotChecked  -9.2606     2135.0706   ✗       
+493   KVPSTTNTTSATVTSNEAPVK    -1.0000     NotChecked  -9.2670     2132.0960   ✗       
+494   KVPSTTNTTSSGVTSNEANVR    -1.0000     NotChecked  -9.2679     2149.0611   ✗       
+495   KVPSTTNTTSAGVTSNEAPVR    -1.0000     NotChecked  -9.2684     2116.0760   ✗       
+496   KVPSTTNTTSANVTSNEAAVR    -1.0000     NotChecked  -9.2693     2147.0818   ✗       
+497   KVPSTTNTTSSTLTSNEANVK    -1.0000     NotChecked  -9.2758     2179.0968   ✗       
+498   KVPSTTNTTSAPLTSNEANVK    -1.0000     NotChecked  -9.2758     2159.1069   ✗       
+499   KVPSTTNTTSATVTSNPANVR    -1.0000     NotChecked  -9.2781     2145.1025   ✗       
+500   KVPSTTNTTSASLTSNPANVR    -1.0000     NotChecked  -9.2787     2145.1025   ✗       
+501   KVPSTTNTTSAQVTSNEANVK    -1.0000     NotChecked  -9.2799     2176.0971   ✗       
+502   KVPSTTNTTSAQVTSNPANVR    -1.0000     NotChecked  -9.2818     2172.1134   ✗       
+503   KVPSTTNTTSSAQTSNEANVK    -1.0000     NotChecked  -9.2820     2164.0607   ✗       
+504   KVPSTTNTTSANVTSNEAGVR    -1.0000     NotChecked  -9.2821     2133.0661   ✗       
+505   KVPSTTNTTSAGVTSNEANVK    -1.0000     NotChecked  -9.2826     2105.0600   ✗       
+506   KVPSTTNTTSAQVTSNAANVK    -1.0000     NotChecked  -9.2864     2118.0916   ✗       
+507   KVPSTTNTTSASVTSNEANVK    -1.0000     NotChecked  -9.2871     2135.0706   ✗       
+508   KVPSTTNTTSAQVTSNEANPK    -1.0000     NotChecked  -9.2904     2174.0815   ✗       
+509   KVPSTTNTTSAALTSNEANVR    -1.0000     NotChecked  -9.2951     2161.0974   ✗       
+510   KVPSTTNTTSANVTSNEAQVK    -1.0000     NotChecked  -9.2985     2176.0971   ✗       
+511   KVPSTTNTTSASQTSNEANVK    -1.0000     NotChecked  -9.3009     2164.0607   ✗       
+512   KVPSTTNTTSANVTSNNANVK    -1.0000     NotChecked  -9.3143     2147.0818   ✗       
+513   KVPSTTNTTSAQVTSNPANVR    -1.0000     NotChecked  -9.3158     2172.1134   ✗       
+514   KVPSTTNTTSANLTSNEAPVR    -1.0000     NotChecked  -9.3159     2187.1131   ✗       
+515   KVPSTTNTTSANVTSNEANVK    -1.0000     NotChecked  -9.3188     2162.0815   ✗       
+516   KVPSTTNTTSAQVTSNEANSK    -1.0000     NotChecked  -9.3237     2164.0607   ✗       
+517   KVPSTTNTTSAGLTSNPANVR    -1.0000     NotChecked  -9.3244     2115.0920   ✗       
+518   KVPSTTNTTSATVTSNEANVR    -1.0000     NotChecked  -9.3255     2177.0924   ✗       
+519   KVPSTTNTTSANLTSNEANVK    -1.0000     NotChecked  -9.3301     2176.0971   ✗       
+520   KVPSTTNTTSTLTSNEANVR     -1.0000     NotChecked  -9.3314     2120.0709   ✗       
+521   KVPSTTNTTSANQTSNEANVK    -1.0000     NotChecked  -9.3326     2191.0716   ✗       
+522   KVPSTTNTTSAGVTSNEANVK    -1.0000     NotChecked  -9.3327     2105.0600   ✗       
+523   KVPSTTNTTSAQVTSNEAPVK    -1.0000     NotChecked  -9.3340     2159.1069   ✗       
+524   KVPSTTNTTSANVTSNQANVR    -1.0000     NotChecked  -9.3350     2189.1036   ✗       
+525   KVPSTTNTTSAQVTSNEASVK    -1.0000     NotChecked  -9.3360     2149.0862   ✗       
+526   KVPSTTNTTSASVTSNEANPK    -1.0000     NotChecked  -9.3366     2133.0549   ✗       
+527   KVPSTTNTTSATLTSNPANVR    -1.0000     NotChecked  -9.3395     2159.1182   ✗       
+528   KVPSTTNTTSAAVTSNEANVR    -1.0000     NotChecked  -9.3443     2147.0818   ✗       
+529   KVPSTTNTTSAGQTSNEANVK    -1.0000     NotChecked  -9.3465     2134.0502   ✗       
+530   KVPSTTNTTSAQVTSNEAAVK    -1.0000     NotChecked  -9.3489     2133.0913   ✗       
+531   KVPSTTNTTSANVTSNEANVK    -1.0000     NotChecked  -9.3578     2162.0815   ✗       
+532   KVPSTTNTTSAQVTSNEAGVK    -1.0000     NotChecked  -9.3617     2119.0756   ✗       
+533   KVPSTTNTTSAAVTSNEANVK    -1.0000     NotChecked  -9.3618     2119.0756   ✗       
+534   KVPSTTNTTSANVTSNEANPK    -1.0000     NotChecked  -9.3683     2160.0658   ✗       
+535   KVPSTTNTTSASVTSNEAPVK    -1.0000     NotChecked  -9.3802     2118.0804   ✗       
+536   KVPSTTNTTSANLTSNEANVK    -1.0000     NotChecked  -9.3802     2176.0971   ✗       
+537   KVPSTTNTTSANVTSNENVK     -1.0000     NotChecked  -9.3805     2091.0443   ✗       
+538   KVPSTTNTTSATVTSNEANVR    -1.0000     NotChecked  -9.3806     2177.0924   ✗       
+539   KVPSTTNTTSAQVTSPEANVR    -1.0000     NotChecked  -9.3807     2187.1131   ✗       
+540   KVPSTTNTTSANVTSNAANVR    -1.0000     NotChecked  -9.3808     2132.0821   ✗       
+541   KVPSTTNTTSAGGVTSNEANVR   -1.0000     NotChecked  -9.3811     2190.0876   ✗       
+542   KVPSTTNTTSAGVTSNEANPK    -1.0000     NotChecked  -9.3822     2103.0443   ✗       
+543   KVPSTTNTTSASVTSNEDNVK    -1.0000     NotChecked  -9.3845     2179.0604   ✗       
+544   KVPSTTNTTSAPVTSNEANVK    -1.0000     NotChecked  -9.3884     2145.0913   ✗       
+545   KVPSTTNTTSAEVTSNPANVR    -1.0000     NotChecked  -9.3889     2173.0974   ✗       
+546   KVPSTTNTTSSSLTSNEANVK    -1.0000     NotChecked  -9.3890     2165.0811   ✗       
+547   KVPSTTNTTSASVTSNPANVR    -1.0000     NotChecked  -9.3913     2131.0869   ✗       
+548   KVPSTTNTTSANVTSNPANVR    -1.0000     NotChecked  -9.3937     2158.0978   ✗       
+549   KVPSTTNTTSAQLTSNEAPVK    -1.0000     NotChecked  -9.3955     2173.1226   ✗       
+550   KVPSTTNTTSSSVTSNEANVR    -1.0000     NotChecked  -9.3963     2179.0716   ✗       
+551   KVPSTTNTTSATLTSNEANVR    -1.0000     NotChecked  -9.4045     2191.1080   ✗       
+552   KVPSTTNTTSAQLTSNPANVR    -1.0000     NotChecked  -9.4066     2186.1291   ✗       
+553   KVPSTTNTTSANVTSNEASVK    -1.0000     NotChecked  -9.4139     2135.0706   ✗       
+554   KVPSTTNTTSAQVTSNQANVK    -1.0000     NotChecked  -9.4146     2175.1131   ✗       
+555   KVPSTTNTTSANVTSNEANSR    -1.0000     NotChecked  -9.4182     2178.0512   ✗       
+556   KVPSTTNTTSAGVTSNEAPVK    -1.0000     NotChecked  -9.4258     2088.0698   ✗       
+557   KVPSTTNTTSAGVTSNELNVR    -1.0000     NotChecked  -9.4263     2175.1131   ✗       
+558   KVPSTTNTTSANVTSNEAAVK    -1.0000     NotChecked  -9.4268     2119.0756   ✗       
+559   KVPSTTNTTSANVTSNEAPVR    -1.0000     NotChecked  -9.4284     2173.0974   ✗       
+560   KVPSTTNTTSANLTSNEANPK    -1.0000     NotChecked  -9.4297     2174.0815   ✗       
+561   KVPSTTNTTSAGVTSNEDNVK    -1.0000     NotChecked  -9.4302     2149.0498   ✗       
+562   KVPSTTNTTSAGLTSNEAMVR    -1.0000     NotChecked  -9.4326     2164.0794   ✗       
+563   KVPSTTNTTSSGLTSNEANVK    -1.0000     NotChecked  -9.4346     2135.0706   ✗       
+564   KVPSTTNTTSSAVTSNEANVR    -1.0000     NotChecked  -9.4349     2163.0767   ✗       
+565   KVPSTTNTTSAGVTSNPANVR    -1.0000     NotChecked  -9.4369     2101.0763   ✗       
+566   KVPSTTNTTSASVTSNEANVR    -1.0000     NotChecked  -9.4387     2163.0767   ✗       
+567   KVPSTTNTTSANVTSNEAGVK    -1.0000     NotChecked  -9.4396     2105.0600   ✗       
+568   KVPSTTNTTSATVTSNEAQVR    -1.0000     NotChecked  -9.4398     2191.1080   ✗       
+569   KVPSTTNTTSSTVTSNEANVK    -1.0000     NotChecked  -9.4405     2165.0811   ✗       
+570   KVPSTTNTTSATVTSNEAPVK    -1.0000     NotChecked  -9.4410     2132.0960   ✗       
+571   KVPSTTNTTSSGVTSNEANVR    -1.0000     NotChecked  -9.4419     2149.0611   ✗       
+572   KVPSTTNTTSSLTSNEANVR     -1.0000     NotChecked  -9.4446     2106.0552   ✗       
+573   KVPSTTNTTSQVTSNEANVR     -1.0000     NotChecked  -9.4477     2133.0661   ✗       
+574   KVPSTTNTTSATVTSNPANVR    -1.0000     NotChecked  -9.4521     2145.1025   ✗       
+575   KVPSTTNTTSAALTSNEANVK    -1.0000     NotChecked  -9.4526     2133.0913   ✗       
+576   KVPSTTNTTSASLTSNPANVR    -1.0000     NotChecked  -9.4528     2145.1025   ✗       
+577   KVPSTTNTTSAQVTSNPANVR    -1.0000     NotChecked  -9.4558     2172.1134   ✗       
+578   KVPSTTNTTSSAQTSNEANVK    -1.0000     NotChecked  -9.4560     2164.0607   ✗       
+579   KVPSTTNTTSAQVTSNAANVK    -1.0000     NotChecked  -9.4604     2118.0916   ✗       
+580   KVPSTTNTTSSNVTSNEANVK    -1.0000     NotChecked  -9.4699     2178.0764   ✗       
+581   KVPSTTNTTSATLTSNEANVR    -1.0000     NotChecked  -9.4714     2191.1080   ✗       
+582   KVPSTTNTTSAQVTSNPANVK    -1.0000     NotChecked  -9.4733     2144.1073   ✗       
+583   KVPSTTNTTSANLTSNEAPVK    -1.0000     NotChecked  -9.4733     2159.1069   ✗       
+584   KVPSTTNTTSAQLTSNENVR     -1.0000     NotChecked  -9.4763     2147.0818   ✗       
+585   KVPSTTNTTSAGVTSNEANVR    -1.0000     NotChecked  -9.4843     2133.0661   ✗       
+586   KVPSTTNTTSANLTSNPANVR    -1.0000     NotChecked  -9.4844     2172.1134   ✗       
+587   KVPSTTNTTSANVTSNNANVK    -1.0000     NotChecked  -9.4883     2147.0818   ✗       
+588   KVPSTTNTTSGLTSNEANVR     -1.0000     NotChecked  -9.4903     2076.0447   ✗       
+589   KVPSTTNTTSANVTSNQANVK    -1.0000     NotChecked  -9.4925     2161.0974   ✗       
+590   KVPSTTNTTSANVTSNEANVK    -1.0000     NotChecked  -9.4928     2162.0815   ✗       
+591   KVPSTTNTTSASVTSNEANVR    -1.0000     NotChecked  -9.4939     2163.0767   ✗       
+592   KVPSTTNTTSATLTSNPANVK    -1.0000     NotChecked  -9.4970     2131.1120   ✗       
+593   KVPSTTNTTSAQVTSNEANSK    -1.0000     NotChecked  -9.4978     2164.0607   ✗       
+594   KVPSTTNTTSAGLTSNPANVR    -1.0000     NotChecked  -9.4984     2115.0920   ✗       
+595   KVPSTTNTTSATVTSNEANVR    -1.0000     NotChecked  -9.4995     2177.0924   ✗       
+596   KVPSTTNTTSASVTSNEAMVR    -1.0000     NotChecked  -9.4995     2180.0743   ✗       
+597   KVPSTTNTTSAAVTSNEANVK    -1.0000     NotChecked  -9.5018     2119.0756   ✗       
+598   KVPSTTNTTSTLTSNEANVR     -1.0000     NotChecked  -9.5054     2120.0709   ✗       
+599   KVPSTTNTTSANQTSNEANVK    -1.0000     NotChecked  -9.5066     2191.0716   ✗       
+600   KVPSTTNTTSAQVTSNEAPVK    -1.0000     NotChecked  -9.5080     2159.1069   ✗       
+601   KVPSTTNTTSAQTSNEANVR     -1.0000     NotChecked  -9.5116     2105.0348   ✗       
+602   KVPSTTNTTSATVTSNEANVR    -1.0000     NotChecked  -9.5171     2177.0924   ✗       
+603   KVPSTTNTTSASLTSNEANVR    -1.0000     NotChecked  -9.5178     2177.0924   ✗       
+604   KVPSTTNTTSATLTSNEANVR    -1.0000     NotChecked  -9.5215     2191.1080   ✗       
+605   KVPSTTNTTSATVTSNENVR     -1.0000     NotChecked  -9.5218     2106.0552   ✗       
+606   KVPSTTNTTSANVTSNEANVK    -1.0000     NotChecked  -9.5318     2162.0815   ✗       
+607   KVPSTTNTTSAQVTSNSANVR    -1.0000     NotChecked  -9.5330     2162.0927   ✗       
+608   KVPSTTNTTSANVTSNPANVR    -1.0000     NotChecked  -9.5336     2158.0978   ✗       
+609   KVPSTTNTTSAAVTSNEANVK    -1.0000     NotChecked  -9.5359     2119.0756   ✗       
+610   KVPSTTNTTSANVTSNAANVK    -1.0000     NotChecked  -9.5383     2104.0760   ✗       
+611   KVPSTTNTTSAGGVTSNEANVK   -1.0000     NotChecked  -9.5386     2162.0815   ✗       
+612   KVPSTTNTTSAGVTSNEANVR    -1.0000     NotChecked  -9.5395     2133.0661   ✗       
+613   KVPSTTNTTSANVTSNEANPK    -1.0000     NotChecked  -9.5423     2160.0658   ✗       
+614   KVPSTTNTTSAGVTSNEAMVR    -1.0000     NotChecked  -9.5451     2150.0637   ✗       
+615   KVPSTTNTTSSQVTSNPANVR    -1.0000     NotChecked  -9.5464     2188.1083   ✗       
+616   KVPSTTNTTSASVTSNEAQVR    -1.0000     NotChecked  -9.5530     2177.0924   ✗       
+617   KVPSTTNTTSSSVTSNEANVK    -1.0000     NotChecked  -9.5538     2151.0655   ✗       
+618   KVPSTTNTTSASVTSNEAPVK    -1.0000     NotChecked  -9.5542     2118.0804   ✗       
+619   KVPSTTNTTSATVTSNEANVR    -1.0000     NotChecked  -9.5547     2177.0924   ✗       
+620   KVPSTTNTTSAQVTSPEANVR    -1.0000     NotChecked  -9.5547     2187.1131   ✗       
+621   KVPSTTNTTSEVTSNEANVR     -1.0000     NotChecked  -9.5548     2134.0502   ✗       
+622   KVPSTTNTTSSGLTSNEANVR    -1.0000     NotChecked  -9.5599     2163.0767   ✗       
+623   KVPSTTNTTSAEVTSNPANVR    -1.0000     NotChecked  -9.5629     2173.0974   ✗       
+624   KVPSTTNTTSAGLTSNEANVR    -1.0000     NotChecked  -9.5634     2147.0818   ✗       
+625   KVPSTTNTTSAQLTSNPANVK    -1.0000     NotChecked  -9.5640     2158.1229   ✗       
+626   KVPSTTNTTSASVTSNPANVR    -1.0000     NotChecked  -9.5653     2131.0869   ✗       
+627   KVPSTTNTTSANVTSNPANVR    -1.0000     NotChecked  -9.5677     2158.0978   ✗       
+628   KVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -9.5709     2190.0876   ✗       
+629   KVPSTTNTTSATLTSNEANPR    -1.0000     NotChecked  -9.5710     2189.0924   ✗       
+630   KVPSTTNTTSANVTSNEANSK    -1.0000     NotChecked  -9.5756     2150.0451   ✗       
+631   KVPSTTNTTSASLTSNEANVR    -1.0000     NotChecked  -9.5846     2177.0924   ✗       
+632   KVPSTTNTTSANVTSNEAPVK    -1.0000     NotChecked  -9.5859     2145.0913   ✗       
+633   KVPSTTNTTSANVTSNEASVK    -1.0000     NotChecked  -9.5879     2135.0706   ✗       
+634   KVPSTTNTTSAQVTSNENVR     -1.0000     NotChecked  -9.5889     2133.0661   ✗       
+635   KVPSTTNTTSAGVTSNEAQVR    -1.0000     NotChecked  -9.5987     2147.0818   ✗       
+636   KVPSTTNTTSATVTSNELNVK    -1.0000     NotChecked  -9.5989     2191.1332   ✗       
+637   KVPSTTNTTSSGVTSNEANVK    -1.0000     NotChecked  -9.5994     2121.0549   ✗       
+638   KVPSTTNTTSAGVTSNEAPVK    -1.0000     NotChecked  -9.5999     2088.0698   ✗       
+639   KVPSTTNTTSAGVTSNELNVR    -1.0000     NotChecked  -9.6004     2175.1131   ✗       
+640   KVPSTTNTTSANVTSNEAAVK    -1.0000     NotChecked  -9.6008     2119.0756   ✗       
+641   KVPSTTNTTSATLTSNEAMVK    -1.0000     NotChecked  -9.6052     2180.0994   ✗       
+642   KVPSTTNTTSAGLTSNEAMVR    -1.0000     NotChecked  -9.6066     2164.0794   ✗       
+643   KVPSTTNTTSSAVTSNEANVR    -1.0000     NotChecked  -9.6090     2163.0767   ✗       
+644   KVPSTTNTTSATVTSNPANVK    -1.0000     NotChecked  -9.6095     2117.0964   ✗       
+645   KVPSTTNTTSASLTSNPANVK    -1.0000     NotChecked  -9.6102     2117.0964   ✗       
+646   KVPSTTNTTSAGVTSNPANVR    -1.0000     NotChecked  -9.6110     2101.0763   ✗       
+647   KVPSTTNTTSAQLTSNEANVK    -1.0000     NotChecked  -9.6114     2190.1128   ✗       
+648   KVPSTTNTTSASVTSNEANVR    -1.0000     NotChecked  -9.6127     2163.0767   ✗       
+649   KVPSTTNTTSAQVTSNPANVK    -1.0000     NotChecked  -9.6132     2144.1073   ✗       
+650   KVPSTTNTTSANVTSNEAGVK    -1.0000     NotChecked  -9.6136     2105.0600   ✗       
+651   KVPSTTNTTSATVTSNEAQVR    -1.0000     NotChecked  -9.6138     2191.1080   ✗       
+652   KVPSTTNTTSSTVTSNEANVK    -1.0000     NotChecked  -9.6146     2165.0811   ✗       
+653   KVPSTTNTTSSLTSNEANVR     -1.0000     NotChecked  -9.6187     2106.0552   ✗       
+654   KVPSTTNTTSQVTSNEANVR     -1.0000     NotChecked  -9.6217     2133.0661   ✗       
+655   KVPSTTNTTSAALTSNEANVK    -1.0000     NotChecked  -9.6266     2133.0913   ✗       
+656   KVPSTTNTTSATVTSNNANVR    -1.0000     NotChecked  -9.6296     2162.0927   ✗       
+657   KVPSTTNTTSAGLTSNEANVR    -1.0000     NotChecked  -9.6302     2147.0818   ✗       
+658   KVPSTTNTTSASVTSNEANVR    -1.0000     NotChecked  -9.6303     2163.0767   ✗       
+659   KVPSTTNTTSANVTSPEANVR    -1.0000     NotChecked  -9.6325     2173.0974   ✗       
+660   KVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -9.6327     2190.0876   ✗       
+661   KVPSTTNTTSATVTSNEANVR    -1.0000     NotChecked  -9.6341     2177.0924   ✗       
+662   KVPSTTNTTSASLTSNEANVR    -1.0000     NotChecked  -9.6347     2177.0924   ✗       
+663   KVPSTTNTTSASVTSNENVR     -1.0000     NotChecked  -9.6350     2092.0396   ✗       
+664   KVPSTTNTTSSAGVTSNPANVR   -1.0000     NotChecked  -9.6382     2188.1083   ✗       
+665   KVPSTTNTTSSNVTSNEANVK    -1.0000     NotChecked  -9.6439     2178.0764   ✗       
+666   KVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -9.6444     2190.0876   ✗       
+667   KVPSTTNTTSAPVTSNEANVR    -1.0000     NotChecked  -9.6453     2173.0974   ✗       
+668   KVPSTTNTTSATLTSNEANVR    -1.0000     NotChecked  -9.6454     2191.1080   ✗       
+669   KVPSTTNTTSAQVTSNPANVK    -1.0000     NotChecked  -9.6473     2144.1073   ✗       
+670   KVPSTTNTTSANLTSNEAPVK    -1.0000     NotChecked  -9.6473     2159.1069   ✗       
+671   KVPSTTNTTSAQLTSNENVR     -1.0000     NotChecked  -9.6503     2147.0818   ✗       
+672   KVPSTTNTTSAQVTSNEANVK    -1.0000     NotChecked  -9.6505     2176.0971   ✗       
+673   KVPSTTNTTSAQTSNEANVR     -1.0000     NotChecked  -9.6516     2105.0348   ✗       
+674   KVPSTTNTTSAGLTSNPANVK    -1.0000     NotChecked  -9.6558     2087.0858   ✗       
+675   KVPSTTNTTSATVTSNEANVK    -1.0000     NotChecked  -9.6569     2149.0862   ✗       
+676   KVPSTTNTTSAGVTSNEANVR    -1.0000     NotChecked  -9.6584     2133.0661   ✗       
+677   KVPSTTNTTSANLTSNPANVR    -1.0000     NotChecked  -9.6584     2172.1134   ✗       
+678   KVPSTTNTTSTLTSNEANVK     -1.0000     NotChecked  -9.6629     2092.0647   ✗       
+679   KVPSTTNTTSGLTSNEANVR     -1.0000     NotChecked  -9.6643     2076.0447   ✗       
+680   KVPSTTNTTSANVTSNQANVK    -1.0000     NotChecked  -9.6665     2161.0974   ✗       
+681   KVPSTTNTTSAQLTSNEANVK    -1.0000     NotChecked  -9.6666     2190.1128   ✗       
+682   KVPSTTNTTSASVTSNEANVR    -1.0000     NotChecked  -9.6679     2163.0767   ✗       
+683   KVPSTTNTTSATLTSNPANVK    -1.0000     NotChecked  -9.6710     2131.1120   ✗       
+684   KVPSTTNTTSATVTSNEANVR    -1.0000     NotChecked  -9.6731     2177.0924   ✗       
+685   KVPSTTNTTSASVTSNEAMVR    -1.0000     NotChecked  -9.6735     2180.0743   ✗       
+686   KVPSTTN+0.984TTSANVTSNEANVR-1.0000     NotChecked  -9.6746     2191.0716   ✗       
+687   KVPSTTNTTSAAVTSNEANVK    -1.0000     NotChecked  -9.6758     2119.0756   ✗       
+688   KVPSTTNTTSAGVTSNEANVR    -1.0000     NotChecked  -9.6760     2133.0661   ✗       
+689   KVPSTTNTTSAGLTSNEANVR    -1.0000     NotChecked  -9.6804     2147.0818   ✗       
+690   KVPSTTNTTSAGVTSNENVR     -1.0000     NotChecked  -9.6807     2062.0290   ✗       
+691   KVPSTTNTTSATVTSNEANPR    -1.0000     NotChecked  -9.6836     2175.0767   ✗       
+692   KVPSTTNTTSAQLTSNEASVR    -1.0000     NotChecked  -9.6837     2191.1080   ✗       
+693   KVPSTTNTTSASLTSNEANPR    -1.0000     NotChecked  -9.6843     2175.0767   ✗       
+694   KVPSTTNTTSAQTSNEANVR     -1.0000     NotChecked  -9.6857     2105.0348   ✗       
+695   VVPSTTNTTSAQVTSNEANVR    -1.0000     NotChecked  -13.2780    2175.0767   ✗       
+696   VVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -13.5299    2161.0611   ✗       
+697   VVPSTTNTTSAQVTSNEANVK    -1.0000     NotChecked  -13.6095    2147.0706   ✗       
+698   +43.006VPSTTNTTSAQVTSNEANVR-1.0000     NotChecked  -13.7690    2119.0141   ✗       
+699   VVPSTTNTTSANVTSNEANVK    -1.0000     NotChecked  -13.8614    2133.0549   ✗       
+700   +43.006VPSTTNTTSANVTSNEANVR-1.0000     NotChecked  -14.0208    2104.9985   ✗       
+701   +43.006VPSTTNTTSAQVTSNEANVK-1.0000     NotChecked  -14.1004    2091.0080   ✗       
+702   VVPSTTNTTSAQLTSNEANVR    -1.0000     NotChecked  -14.1312    2189.0924   ✗       
+703   VVPSTTNTTSATVTSNEANVR    -1.0000     NotChecked  -14.1767    2148.0658   ✗       
+704   VVPSTTNTTSAQVTSNEANVR    -1.0000     NotChecked  -14.2437    2175.0767   ✗       
+705   VVPSTTNTTSASVTSNEANVR    -1.0000     NotChecked  -14.2899    2134.0502   ✗       
+706   VVPSTTNTTSAGVTSNEANVR    -1.0000     NotChecked  -14.3356    2104.0396   ✗       
+707   +43.006VPSTTNTTSANVTSNEANVK-1.0000     NotChecked  -14.3523    2076.9923   ✗       
+708   VVPSTTNTTSANLTSNEANVR    -1.0000     NotChecked  -14.3830    2175.0767   ✗       
+709   VVPSTTNTTSAQLTSNEANVK    -1.0000     NotChecked  -14.4626    2161.0862   ✗       
+710   VVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -14.4956    2161.0611   ✗       
+711   VVPSTTNTTSATVTSNEANVK    -1.0000     NotChecked  -14.5082    2120.0597   ✗       
+712   VVPSTTNTTSAQVTSNEANVK    -1.0000     NotChecked  -14.5752    2147.0706   ✗       
+713   VPSTTNTTSAQVTSNEANVR     -1.0000     NotChecked  -14.5952    2076.0083   ✗       
+714   LVPSTTNTTSAQVTSNEANVR    -1.0000     NotChecked  -14.5976    2189.0924   ✗       
+715   VVPSTTNTTSASVTSNEANVK    -1.0000     NotChecked  -14.6214    2106.0440   ✗       
+716   +43.006VPSTTNTTSAQLTSNEANVR-1.0000     NotChecked  -14.6221    2133.0298   ✗       
+717   +43.006KVPSTTNTTSAGVTSNEANVR-1.0000     NotChecked  -14.6525    2176.0720   ✗       
+718   VVPSTTNTTSAGVTSNEANVK    -1.0000     NotChecked  -14.6670    2076.0334   ✗       
+719   +43.006VPSTTNTTSATVTSNEANVR-1.0000     NotChecked  -14.6676    2092.0032   ✗       
+720   KVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -14.6730    2190.0876   ✗       
+721   VVPSTTNTTSANLTSNEANVK    -1.0000     NotChecked  -14.7145    2147.0706   ✗       
+722   +43.006VPSTTNTTSAQVTSNEANVR-1.0000     NotChecked  -14.7347    2119.0141   ✗       
+723   KVPSTTNTTSAQVTSNEANVK    -1.0000     NotChecked  -14.7526    2176.0971   ✗       
+724   +43.006VPSTTNTTSASVTSNEANVR-1.0000     NotChecked  -14.7809    2077.9876   ✗       
+725   +43.006VPSTTNTTSAGVTSNEANVR-1.0000     NotChecked  -14.8265    2047.9770   ✗       
+726   VVPSTTNTTSANVTSNEANVK    -1.0000     NotChecked  -14.8271    2133.0549   ✗       
+727   VPSTTNTTSANVTSNEANVR     -1.0000     NotChecked  -14.8471    2061.9926   ✗       
+728   LVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -14.8495    2175.0767   ✗       
+729   +43.006VPSTTNTTSANLTSNEANVR-1.0000     NotChecked  -14.8740    2119.0141   ✗       
+730   VPSTTNTTSAQVTSNEANVK     -1.0000     NotChecked  -14.9267    2048.0021   ✗       
+731   LVPSTTNTTSAQVTSNEANVK    -1.0000     NotChecked  -14.9291    2161.0862   ✗       
+732   RVPSTTNTTSANVTSNEANVK    -1.0000     NotChecked  -14.9311    2190.0876   ✗       
+733   +43.006KVPSTTNTTSASVTSNEANVK-1.0000     NotChecked  -14.9383    2178.0764   ✗       
+734   +43.006VPSTTNTTSAQLTSNEANVK-1.0000     NotChecked  -14.9536    2105.0236   ✗       
+735   +43.006KVPSTTNTTSAGVTSNEANVK-1.0000     NotChecked  -14.9839    2148.0658   ✗       
+736   +43.006VPSTTNTTSANVTSNEANVR-1.0000     NotChecked  -14.9866    2104.9985   ✗       
+737   +43.006VPSTTNTTSATVTSNEANVK-1.0000     NotChecked  -14.9991    2063.9971   ✗       
+738   KVPSTTNTTSANVTSNEANVK    -1.0000     NotChecked  -15.0045    2162.0815   ✗       
+739   VVPSTTNTTSAQVTSNEANVR    -1.0000     NotChecked  -15.0062    2175.0767   ✗       
+740   VVPSTTNTTSATLTSNEANVR    -1.0000     NotChecked  -15.0298    2162.0815   ✗       
+741   +43.006VPSTTNTTSAQVTSNEANVK-1.0000     NotChecked  -15.0662    2091.0080   ✗       
+742   VVPSTTNTTSAQLTSNEANVR    -1.0000     NotChecked  -15.0969    2189.0924   ✗       
+743   +43.006VPSTTNTTSASVTSNEANVK-1.0000     NotChecked  -15.1123    2049.9814   ✗       
+744   +42.011VPSTTNTTSAQVTSNEANVR-1.0000     NotChecked  -15.1316    2118.0189   ✗       
+745   VVPSTTNTTSATVTSNEANVR    -1.0000     NotChecked  -15.1424    2148.0658   ✗       
+746   VVPSTTNTTSASLTSNEANVR    -1.0000     NotChecked  -15.1431    2148.0658   ✗       
+747   VVPSTTNTTSAQVTSNEANVR    -1.0000     NotChecked  -15.1461    2175.0767   ✗       
+748   +43.006VPSTTNTTSAGVTSNEANVK-1.0000     NotChecked  -15.1580    2019.9708   ✗       
+749   VPSTTNTTSANVTSNEANVK     -1.0000     NotChecked  -15.1785    2033.9865   ✗       
+750   LVPSTTNTTSANVTSNEANVK    -1.0000     NotChecked  -15.1810    2147.0706   ✗       
+751   VVPSTTNTTSAGLTSNEANVR    -1.0000     NotChecked  -15.1887    2118.0552   ✗       
+752   +43.006VPSTTNTTSANLTSNEANVK-1.0000     NotChecked  -15.2055    2091.0080   ✗       
+753   VVPSTTNTTSAEVTSNEANVR    -1.0000     NotChecked  -15.2533    2176.0607   ✗       
+754   VVPSTTNTTSASVTSNEANVR    -1.0000     NotChecked  -15.2557    2134.0502   ✗       
+755   VVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -15.2580    2161.0611   ✗       
+756   +43.006VPSTTNTTSSAQVTSNEANVK-1.0000     NotChecked  -15.2674    2178.0400   ✗       
+757   VVPSTTNTTSAGVTSNEANVR    -1.0000     NotChecked  -15.3013    2104.0396   ✗       
+758   +43.006VPSTTNTTSANVTSNEANVK-1.0000     NotChecked  -15.3180    2076.9923   ✗       
+759   KVPSTTNTTSATVTSNEANVR    -1.0000     NotChecked  -15.3198    2177.0924   ✗       
+760   VVPSTTNTTSAQVTSNEANVK    -1.0000     NotChecked  -15.3376    2147.0706   ✗       
+761   VVPSTTNTTSANLTSNEANVR    -1.0000     NotChecked  -15.3488    2175.0767   ✗       
+762   RVPSTTNTTSASVTSNEANVR    -1.0000     NotChecked  -15.3597    2191.0829   ✗       
+763   VVPSTTNTTSATLTSNEANVK    -1.0000     NotChecked  -15.3613    2134.0753   ✗       
+764   +42.011VPSTTNTTSANVTSNEANVR-1.0000     NotChecked  -15.3835    2104.0032   ✗       
+765   VVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -15.3980    2161.0611   ✗       
+766   RVPSTTNTTSAGVTSNEANVR    -1.0000     NotChecked  -15.4053    2161.0723   ✗       
+767   VVPSTTNTTSSQVTSNEANVR    -1.0000     NotChecked  -15.4107    2191.0716   ✗       
+768   VVPSTTNTTSAQLTSNEANVK    -1.0000     NotChecked  -15.4284    2161.0862   ✗       
+769   KVPSTTNTTSASVTSNEANVR    -1.0000     NotChecked  -15.4331    2163.0767   ✗       
+770   VPSTTNTTSAQLTSNEANVR     -1.0000     NotChecked  -15.4483    2090.0239   ✗       
+771   +42.011VPSTTNTTSAQVTSNEANVK-1.0000     NotChecked  -15.4631    2090.0127   ✗       
+772   VVPSTTNTTSATVTSNEANVK    -1.0000     NotChecked  -15.4739    2120.0597   ✗       
+773   VVPSTTNTTSASLTSNEANVK    -1.0000     NotChecked  -15.4746    2120.0597   ✗       
+774   VVPSTTNTTSAQVTSNEANVK    -1.0000     NotChecked  -15.4776    2147.0706   ✗       
+775   KVPSTTNTTSAGVTSNEANVR    -1.0000     NotChecked  -15.4787    2133.0661   ✗       
+776   VPSTTNTTSATVTSNEANVR     -1.0000     NotChecked  -15.4939    2048.9974   ✗       
+777   LVPSTTNTTSATVTSNEANVR    -1.0000     NotChecked  -15.4963    2162.0815   ✗       
+778   +43.006VPSTTNTTSAQVTSNEANVR-1.0000     NotChecked  -15.4971    2119.0141   ✗       
+779   VVPSTTNTTSSAGVTSNEANVR   -1.0000     NotChecked  -15.5026    2191.0716   ✗       
+780   +43.006KVPSTTNTTSAGLTSNEANVR-1.0000     NotChecked  -15.5056    2190.0876   ✗       
+781   +43.006VPSTTNTTSSANVTSNEANVK-1.0000     NotChecked  -15.5193    2164.0243   ✗       
+782   VVPSTTNTTSAGLTSNEANVK    -1.0000     NotChecked  -15.5202    2090.0491   ✗       
+783   +43.006VPSTTNTTSATLTSNEANVR-1.0000     NotChecked  -15.5208    2106.0189   ✗       
+784   VPSTTNTTSAQVTSNEANVR     -1.0000     NotChecked  -15.5609    2076.0083   ✗       
+785   LVPSTTNTTSAQVTSNEANVR    -1.0000     NotChecked  -15.5634    2189.0924   ✗       
+786   RVPSTTNTTSATVTSNEANVK    -1.0000     NotChecked  -15.5779    2177.0924   ✗       
+787   VVPSTTNTTSAEVTSNEANVK    -1.0000     NotChecked  -15.5847    2148.0546   ✗       
+788   VVPSTTNTTSASVTSNEANVK    -1.0000     NotChecked  -15.5871    2106.0440   ✗       
+789   +43.006VPSTTNTTSAQLTSNEANVR-1.0000     NotChecked  -15.5879    2133.0298   ✗       
+790   VVPSTTNTTSANVTSNEANVK    -1.0000     NotChecked  -15.5895    2133.0549   ✗       
+791   KVPSTTNTTSAQLTSNEANVK    -1.0000     NotChecked  -15.6058    2190.1128   ✗       
+792   VPSTTNTTSASVTSNEANVR     -1.0000     NotChecked  -15.6071    2034.9817   ✗       
+793   LVPSTTNTTSASVTSNEANVR    -1.0000     NotChecked  -15.6095    2148.0658   ✗       
+794   +43.006KVPSTTNTTSAGVTSNEANVR-1.0000     NotChecked  -15.6182    2176.0720   ✗       
+795   VVPSTTNTTSAGVTSNEANVK    -1.0000     NotChecked  -15.6328    2076.0334   ✗       
+796   +43.006VPSTTNTTSATVTSNEANVR-1.0000     NotChecked  -15.6334    2092.0032   ✗       
+797   +43.006VPSTTNTTSASLTSNEANVR-1.0000     NotChecked  -15.6340    2092.0032   ✗       
+798   +43.006VPSTTNTTSAQVTSNEANVR-1.0000     NotChecked  -15.6371    2119.0141   ✗       
+799   KVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -15.6388    2190.0876   ✗       
+800   KVPSTTNTTSATVTSNEANVK    -1.0000     NotChecked  -15.6513    2149.0862   ✗       
+801   VPSTTNTTSAGVTSNEANVR     -1.0000     NotChecked  -15.6527    2004.9712   ✗       
+802   LVPSTTNTTSAGVTSNEANVR    -1.0000     NotChecked  -15.6552    2118.0552   ✗       
+803   VVPSTTNTTSSNVTSNEANVR    -1.0000     NotChecked  -15.6626    2177.0560   ✗       
+804   +43.006VPSTTNTTSAGLTSNEANVR-1.0000     NotChecked  -15.6797    2061.9926   ✗       
+805   VVPSTTNTTSANLTSNEANVK    -1.0000     NotChecked  -15.6803    2147.0706   ✗       
+806   RVPSTTNTTSASVTSNEANVK    -1.0000     NotChecked  -15.6911    2163.0767   ✗       
+807   VVPSTTNTTSAAVTSNEANVR    -1.0000     NotChecked  -15.6945    2118.0552   ✗       
+808   +43.006VPSTTNTTSASQVTSNEANVK-1.0000     NotChecked  -15.6970    2178.0400   ✗       
+809   VPSTTNTTSANLTSNEANVR     -1.0000     NotChecked  -15.7002    2076.0083   ✗       
+810   LVPSTTNTTSANLTSNEANVR    -1.0000     NotChecked  -15.7027    2189.0924   ✗       
+811   +42.011VPSTTNTTSANVTSNEANVK-1.0000     NotChecked  -15.7150    2075.9971   ✗       
+812   KVPSTTNTTSAQVTSNEANVK    -1.0000     NotChecked  -15.7184    2176.0971   ✗       
+813   VVPSTTNTTSANVTSNEANVK    -1.0000     NotChecked  -15.7295    2133.0549   ✗       
+814   RVPSTTNTTSAGVTSNEANVK    -1.0000     NotChecked  -15.7368    2133.0661   ✗       
+815   VVPSTTNTTSSQVTSNEANVK    -1.0000     NotChecked  -15.7422    2163.0655   ✗       
+816   +43.006VPSTTNTTSAEVTSNEANVR-1.0000     NotChecked  -15.7442    2119.9981   ✗       
+817   +43.006VPSTTNTTSASVTSNEANVR-1.0000     NotChecked  -15.7466    2077.9876   ✗       
+818   +43.006VPSTTNTTSANVTSNEANVR-1.0000     NotChecked  -15.7490    2104.9985   ✗       
+819   VPSTTNTTSSAQVTSNEANVR    -1.0000     NotChecked  -15.7622    2163.0403   ✗       
+820   KVPSTTNTTSASVTSNEANVK    -1.0000     NotChecked  -15.7645    2135.0706   ✗       
+821   VPSTTNTTSAQLTSNEANVK     -1.0000     NotChecked  -15.7798    2062.0178   ✗       
+822   LVPSTTNTTSAQLTSNEANVK    -1.0000     NotChecked  -15.7823    2175.1019   ✗       
+823   +43.006VPSTTNTTSAGVTSNEANVR-1.0000     NotChecked  -15.7922    2047.9770   ✗       
+824   VVPSTTNTTSAQVTSNPANVR    -1.0000     NotChecked  -15.8060    2143.0869   ✗       
+825   KVPSTTNTTSAGVTSNEANVK    -1.0000     NotChecked  -15.8102    2105.0600   ✗       
+826   VPSTTNTTSANVTSNEANVR     -1.0000     NotChecked  -15.8128    2061.9926   ✗       
+827   LVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -15.8152    2175.0767   ✗       
+828   VPSTTNTTSATVTSNEANVK     -1.0000     NotChecked  -15.8253    2020.9912   ✗       
+829   LVPSTTNTTSATVTSNEANVK    -1.0000     NotChecked  -15.8278    2134.0753   ✗       
+830   +43.006VPSTTNTTSAQVTSNEANVK-1.0000     NotChecked  -15.8286    2091.0080   ✗       
+831   VVPSTTNTTSSAGVTSNEANVK   -1.0000     NotChecked  -15.8340    2163.0655   ✗       
+832   +43.006VPSTTNTTSSATVTSNEANVR-1.0000     NotChecked  -15.8346    2179.0352   ✗       
+833   +43.006KVPSTTNTTSAGLTSNEANVK-1.0000     NotChecked  -15.8371    2162.0815   ✗       
+834   +43.006VPSTTNTTSANLTSNEANVR-1.0000     NotChecked  -15.8397    2119.0141   ✗       
+835   +43.006VPSTTNTTSATLTSNEANVK-1.0000     NotChecked  -15.8523    2078.0127   ✗       
+836   KVPSTTNTTSANLTSNEANVK    -1.0000     NotChecked  -15.8577    2176.0971   ✗       
+837   VVPSTTNTTSAQLTSNEANVR    -1.0000     NotChecked  -15.8593    2189.0924   ✗       
+838   VPSTTNTTSAQVTSNEANVR     -1.0000     NotChecked  -15.8710    2076.0083   ✗       
+839   +43.006VPSTTNTTSANVTSNEANVR-1.0000     NotChecked  -15.8889    2104.9985   ✗       
+840   VPSTTNTTSAQVTSNEANVK     -1.0000     NotChecked  -15.8924    2048.0021   ✗       
+841   LVPSTTNTTSAQVTSNEANVK    -1.0000     NotChecked  -15.8948    2161.0862   ✗       
+842   RVPSTTNTTSANVTSNEANVK    -1.0000     NotChecked  -15.8968    2190.0876   ✗       
+843   +43.006VPSTTNTTSSQVTSNEANVR-1.0000     NotChecked  -15.9017    2135.0090   ✗       
+844   +43.006KVPSTTNTTSASVTSNEANVK-1.0000     NotChecked  -15.9041    2178.0764   ✗       
+845   VVPSTTNTTSATVTSNEANVR    -1.0000     NotChecked  -15.9048    2148.0658   ✗       
+846   +43.006VPSTTNTTSAQLTSNEANVK-1.0000     NotChecked  -15.9193    2105.0236   ✗       
+847   VVPSTTNTTSASGVTSNEANVR   -1.0000     NotChecked  -15.9321    2191.0716   ✗       
+848   VPSTTNTTSASVTSNEANVK     -1.0000     NotChecked  -15.9386    2006.9756   ✗       
+849   LVPSTTNTTSASVTSNEANVK    -1.0000     NotChecked  -15.9410    2120.0597   ✗       
+850   +43.006VPSTTNTTSSASVTSNEANVR-1.0000     NotChecked  -15.9479    2165.0196   ✗       
+851   +43.006VPSTTNTTSASNVTSNEANVK-1.0000     NotChecked  -15.9488    2164.0243   ✗       
+852   +43.006KVPSTTNTTSAGVTSNEANVK-1.0000     NotChecked  -15.9497    2148.0658   ✗       
+853   +43.006VPSTTNTTSATVTSNEANVK-1.0000     NotChecked  -15.9649    2063.9971   ✗       
+854   +43.006VPSTTNTTSASLTSNEANVK-1.0000     NotChecked  -15.9655    2063.9971   ✗       
+855   +43.006VPSTTNTTSAQVTSNEANVK-1.0000     NotChecked  -15.9685    2091.0080   ✗       
+856   KVPSTTNTTSANVTSNEANVK    -1.0000     NotChecked  -15.9702    2162.0815   ✗       
+857   VVPSTTNTTSQVTSNEANVR     -1.0000     NotChecked  -15.9719    2104.0396   ✗       
+858   VPSTTNTTSAGVTSNEANVK     -1.0000     NotChecked  -15.9842    1976.9650   ✗       
+859   +42.011VPSTTNTTSAQLTSNEANVR-1.0000     NotChecked  -15.9848    2132.0345   ✗       
+860   LVPSTTNTTSAGVTSNEANVK    -1.0000     NotChecked  -15.9866    2090.0491   ✗       
+861   +43.006VPSTTNTTSSAGVTSNEANVR-1.0000     NotChecked  -15.9935    2135.0090   ✗       
+862   VVPSTTNTTSSNVTSNEANVK    -1.0000     NotChecked  -15.9941    2149.0498   ✗       
+863   VVPSTTNTTSATLTSNEANVR    -1.0000     NotChecked  -15.9956    2162.0815   ✗       
+864   VVPSTTNTTSAQLTSNEANVR    -1.0000     NotChecked  -15.9993    2189.0924   ✗       
+865   +43.006VPSTTNTTSAGLTSNEANVK-1.0000     NotChecked  -16.0111    2033.9865   ✗       
+866   +43.006KVPSTTNTTSAAVTSNEANVR-1.0000     NotChecked  -16.0114    2190.0876   ✗       
+867   VPSTTNTTSSANVTSNEANVR    -1.0000     NotChecked  -16.0141    2149.0247   ✗       
+868   +42.011KVPSTTNTTSAGVTSNEANVR-1.0000     NotChecked  -16.0151    2175.0767   ✗       
+869   VVPSTTNTTSASVTSNEANVR    -1.0000     NotChecked  -16.0181    2134.0502   ✗       
+870   VVPSTTNTTSAAVTSNEANVK    -1.0000     NotChecked  -16.0260    2090.0491   ✗       
+871   +42.011VPSTTNTTSATVTSNEANVR-1.0000     NotChecked  -16.0303    2091.0080   ✗       
+872   VPSTTNTTSANLTSNEANVK     -1.0000     NotChecked  -16.0317    2048.0021   ✗       
+873   LVPSTTNTTSANLTSNEANVK    -1.0000     NotChecked  -16.0341    2161.0862   ✗       
+874   VVPSTTNTTSSQVTSNEANVR    -1.0000     NotChecked  -16.0416    2191.0716   ✗       
+875   VVPSTTNTTSATVTSNEANVR    -1.0000     NotChecked  -16.0448    2148.0658   ✗       
+876   VVPSTTNTTSANVTSNPANVR    -1.0000     NotChecked  -16.0578    2129.0712   ✗       
+877   VVPSTTNTTSAGVTSNEANVR    -1.0000     NotChecked  -16.0637    2104.0396   ✗       
+878   +43.006VPSTTNTTSAEVTSNEANVK-1.0000     NotChecked  -16.0757    2091.9920   ✗       
+879   +43.006VPSTTNTTSASVTSNEANVK-1.0000     NotChecked  -16.0781    2049.9814   ✗       
+880   +43.006VPSTTNTTSANVTSNEANVK-1.0000     NotChecked  -16.0805    2076.9923   ✗       
+881   VPSTTNTTSSAQVTSNEANVK    -1.0000     NotChecked  -16.0937    2135.0342   ✗       
+882   +42.011VPSTTNTTSAQVTSNEANVR-1.0000     NotChecked  -16.0973    2118.0189   ✗       
+883   VVPSTTNTTSAELTSNEANVR    -1.0000     NotChecked  -16.1064    2190.0764   ✗       
+884   VVPSTTNTTSASLTSNEANVR    -1.0000     NotChecked  -16.1088    2148.0658   ✗       
+885   VVPSTTNTTSANLTSNEANVR    -1.0000     NotChecked  -16.1112    2175.0767   ✗       
+886   VVPSTTNTTSAQVTSNEANVR    -1.0000     NotChecked  -16.1119    2175.0767   ✗       
+887   VPSTTNTTSANVTSNEANVR     -1.0000     NotChecked  -16.1229    2061.9926   ✗       
+888   +43.006VPSTTNTTSAGVTSNEANVK-1.0000     NotChecked  -16.1237    2019.9708   ✗       
+889   VVPSTTNTTSAQVTSNPANVK    -1.0000     NotChecked  -16.1374    2115.0807   ✗       
+890   +42.011VPSTTNTTSASVTSNEANVR-1.0000     NotChecked  -16.1435    2076.9923   ✗       
+891   VPSTTNTTSANVTSNEANVK     -1.0000     NotChecked  -16.1443    2033.9865   ✗       
+892   LVPSTTNTTSANVTSNEANVK    -1.0000     NotChecked  -16.1467    2147.0706   ✗       
+893   +43.006VPSTTNTTSSNVTSNEANVR-1.0000     NotChecked  -16.1536    2120.9934   ✗       
+894   VVPSTTNTTSAGLTSNEANVR    -1.0000     NotChecked  -16.1544    2118.0552   ✗       
+895   VVPSTTNTTSASVTSNEANVR    -1.0000     NotChecked  -16.1580    2134.0502   ✗       
+896   VVPSTTNTTSAQVTSNEANVR    -1.0000     NotChecked  -16.1620    2175.0767   ✗       
+897   VVPSTTNTTSANVTSNEAMVR    -1.0000     NotChecked  -16.1661    2178.0586   ✗       
+898   +43.006VPSTTNTTSSATVTSNEANVK-1.0000     NotChecked  -16.1661    2151.0291   ✗       
+899   +43.006VPSTTNTTSANLTSNEANVK-1.0000     NotChecked  -16.1712    2091.0080   ✗       
+900   KVPSTTNTTSATLTSNEANVR    -1.0000     NotChecked  -16.1730    2191.1080   ✗       
+901   VVPSTTNTTSAQTSNEANVR     -1.0000     NotChecked  -16.1758    2076.0083   ✗       
+902   +43.006VPSTTNTTSAAVTSNEANVR-1.0000     NotChecked  -16.1855    2061.9926   ✗       
+903   +42.011KVPSTTNTTSATVTSNEANVK-1.0000     NotChecked  -16.1877    2191.0968   ✗       
+904   +42.011VPSTTNTTSAGVTSNEANVR-1.0000     NotChecked  -16.1892    2046.9817   ✗       
+905   VVPSTTNTTSAQLTSNEANVK    -1.0000     NotChecked  -16.1908    2161.0862   ✗       
+906   VPSTTNTTSASQVTSNEANVR    -1.0000     NotChecked  -16.1917    2163.0403   ✗       
+907   VPSTTNTTSAQVTSNEANVK     -1.0000     NotChecked  -16.2025    2048.0021   ✗       
+908   VVPSTTNTTSAGVTSNEANVR    -1.0000     NotChecked  -16.2037    2104.0396   ✗       
+909   VVPSTTNTTSAQVTSNEANPR    -1.0000     NotChecked  -16.2115    2173.0611   ✗       
+910   VVPSTTNTTSAEVTSNEANVR    -1.0000     NotChecked  -16.2190    2176.0607   ✗       
+911   +43.006VPSTTNTTSANVTSNEANVK-1.0000     NotChecked  -16.2204    2076.9923   ✗       
+912   VVPSTTNTTSNVTSNEANVR     -1.0000     NotChecked  -16.2238    2090.0239   ✗       
+913   +43.006VPSTTNTTSSQVTSNEANVK-1.0000     NotChecked  -16.2332    2107.0029   ✗       
+914   VVPSTTNTTSATVTSNEANVK    -1.0000     NotChecked  -16.2363    2120.0597   ✗       
+915   +42.011VPSTTNTTSANLTSNEANVR-1.0000     NotChecked  -16.2366    2118.0189   ✗       
+916   VVPSTTNTTSAQVTSNEAMVK    -1.0000     NotChecked  -16.2457    2164.0681   ✗       
+917   VVPSTTNTTSANLTSNEANVR    -1.0000     NotChecked  -16.2512    2175.0767   ✗       
+918   RVPSTTNTTSAGLTSNEANVR    -1.0000     NotChecked  -16.2585    2175.0879   ✗       
+919   GVPSTTNTTSAQVTSNEANVR    -1.0000     NotChecked  -16.2624    2133.0298   ✗       
+920   VVPSTTNTTSASGVTSNEANVK   -1.0000     NotChecked  -16.2636    2163.0655   ✗       
+921   +43.006VPSTTNTTSASTVTSNEANVR-1.0000     NotChecked  -16.2642    2179.0352   ✗       
+922   +43.006VPSTTNTTSSASVTSNEANVK-1.0000     NotChecked  -16.2794    2137.0134   ✗       
+923   KVPSTTNTTSATVTSNEANVR    -1.0000     NotChecked  -16.2856    2177.0924   ✗       
+924   KVPSTTNTTSASLTSNEANVR    -1.0000     NotChecked  -16.2862    2177.0924   ✗       
+925   +43.006KVPSTTNTTSQVTSNEANVR-1.0000     NotChecked  -16.2888    2176.0720   ✗       
+926   VVPSTTNTTSSNVTSNEANVR    -1.0000     NotChecked  -16.2934    2177.0560   ✗       
+927   +43.006VPSTTNTTSAQVTSNPANVR-1.0000     NotChecked  -16.2969    2087.0243   ✗       
+928   +42.011KVPSTTNTTSASVTSNEANVK-1.0000     NotChecked  -16.3010    2177.0811   ✗       
+929   VVPSTTNTTSQVTSNEANVK     -1.0000     NotChecked  -16.3034    2076.0334   ✗       
+930   QVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -16.3059    2190.0512   ✗       
+931   VVPSTTNTTSSTVTSNEANVR    -1.0000     NotChecked  -16.3094    2164.0607   ✗       
+932   VVPSTTNTTSAPVTSNEANVR    -1.0000     NotChecked  -16.3095    2144.0709   ✗       
+933   +42.011VPSTTNTTSAQLTSNEANVK-1.0000     NotChecked  -16.3162    2104.0284   ✗       
+934   VPSTTNTTSAQVTSNEANVR     -1.0000     NotChecked  -16.3233    2076.0083   ✗       
+935   +43.006VPSTTNTTSSAGVTSNEANVK-1.0000     NotChecked  -16.3250    2107.0029   ✗       
+936   RVPSTTNTTSASVTSNEANVR    -1.0000     NotChecked  -16.3254    2191.0829   ✗       
+937   LVPSTTNTTSAQVTSNEANVR    -1.0000     NotChecked  -16.3258    2189.0924   ✗       
+938   VVPSTTNTTSATLTSNEANVK    -1.0000     NotChecked  -16.3271    2134.0753   ✗       
+939   VVPSTTNTTSAQLTSNEANVK    -1.0000     NotChecked  -16.3308    2161.0862   ✗       
+940   KVPSTTNTTSAGLTSNEANVR    -1.0000     NotChecked  -16.3319    2147.0818   ✗       
+941   VKVPSTTNTTSAQTSNEANVK    -1.0000     NotChecked  -16.3333    2176.0971   ✗       
+942   +43.006KVPSTTNTTSAAVTSNEANVK-1.0000     NotChecked  -16.3429    2162.0815   ✗       
+943   VPSTTNTTSSANVTSNEANVK    -1.0000     NotChecked  -16.3455    2121.0185   ✗       
+944   +42.011KVPSTTNTTSAGVTSNEANVK-1.0000     NotChecked  -16.3466    2147.0706   ✗       
+945   VPSTTNTTSATLTSNEANVR     -1.0000     NotChecked  -16.3470    2063.0130   ✗       
+946   +42.011VPSTTNTTSANVTSNEANVR-1.0000     NotChecked  -16.3492    2104.0032   ✗       
+947   LVPSTTNTTSATLTSNEANVR    -1.0000     NotChecked  -16.3495    2176.0971   ✗       
+948   VVPSTTNTTSASVTSNEANVK    -1.0000     NotChecked  -16.3495    2106.0440   ✗       
+949   +43.006VPSTTNTTSAQLTSNEANVR-1.0000     NotChecked  -16.3503    2133.0298   ✗       
+950   VVPSTTNTTSAC+57.021VTSNEANVK-1.0000     NotChecked  -16.3520    2179.0426   ✗       
+951   +42.011VPSTTNTTSATVTSNEANVK-1.0000     NotChecked  -16.3618    2063.0018   ✗       
+952   +43.006VPSTTNTTSAQVTSNEANVR-1.0000     NotChecked  -16.3619    2119.0141   ✗       
+953   VVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -16.3637    2161.0611   ✗       
+954   RVPSTTNTTSAGVTSNEANVR    -1.0000     NotChecked  -16.3710    2161.0723   ✗       
+955   +43.006VPSTTNTTSSANLTSNEANVK-1.0000     NotChecked  -16.3725    2178.0400   ✗       
+956   VVPSTTNTTSSQVTSNEANVK    -1.0000     NotChecked  -16.3730    2163.0655   ✗       
+957   VVPSTTNTTSATVTSNEANVK    -1.0000     NotChecked  -16.3763    2120.0597   ✗       
+958   +43.006VPSTTNTTSASSVTSNEANVR-1.0000     NotChecked  -16.3774    2165.0196   ✗       
+959   +43.006KVPSTTNTTSAGVTSNEANVR-1.0000     NotChecked  -16.3806    2176.0720   ✗       
+960   VKVPSTTNTTSNVTSNEANVK    -1.0000     NotChecked  -16.3812    2190.1128   ✗       
+961   QVPSTTNTTSAQVTSNEANVK    -1.0000     NotChecked  -16.3855    2176.0607   ✗       
+962   VVPSTTNTTSANVTSNPANVK    -1.0000     NotChecked  -16.3893    2101.0651   ✗       
+963   VVPSTTNTTSAGVTSNEANVK    -1.0000     NotChecked  -16.3952    2076.0334   ✗       
+964   +43.006VPSTTNTTSATVTSNEANVR-1.0000     NotChecked  -16.3958    2092.0032   ✗       
+965   KVPSTTNTTSASVTSNEANVR    -1.0000     NotChecked  -16.3988    2163.0767   ✗       
+966   KVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -16.4012    2190.0876   ✗       
+967   +43.006VPSTTNTTSAQVTSNEAMVR-1.0000     NotChecked  -16.4051    2136.0117   ✗       
+968   VVPSTTNTTSANVTSNEANVR    -1.0000     NotChecked  -16.4139    2161.0611   ✗       
+969   VPSTTNTTSAQLTSNEANVR     -1.0000     NotChecked  -16.4141    2090.0239   ✗       
+970   VVPSTTNTTSSSVTSNEANVR    -1.0000     NotChecked  -16.4227    2150.0451   ✗       
+971   +43.006VPSTTNTTSASGVTSNEANVR-1.0000     NotChecked  -16.4230    2135.0090   ✗       
+972   VVPSTTNTTSANQTSNEANVR    -1.0000     NotChecked  -16.4277    2190.0512   ✗       
+973   +42.011VPSTTNTTSAQVTSNEANVK-1.0000     NotChecked  -16.4288    2090.0127   ✗       
+974   VVPSTTNTTSAQVTSNEAPVR    -1.0000     NotChecked  -16.4291    2158.0865   ✗       
+975   RVPSTTNTTSATLTSNEANVK    -1.0000     NotChecked  -16.4311    2191.1080   ✗       
+976   VVPSTTNTTSAELTSNEANVK    -1.0000     NotChecked  -16.4379    2162.0702   ✗       
+977   VVPSTTNTTSASLTSNEANVK    -1.0000     NotChecked  -16.4403    2120.0597   ✗       
+978   VVPSTTNTTSANLTSNEANVK    -1.0000     NotChecked  -16.4427    2147.0706   ✗       
+979   VVPSTTNTTSAQVTSNEANVK    -1.0000     NotChecked  -16.4433    2147.0706   ✗       
+980   VPSTTNTTSASNVTSNEANVR    -1.0000     NotChecked  -16.4436    2149.0247   ✗       
+981   KVPSTTNTTSAGVTSNEANVR    -1.0000     NotChecked  -16.4444    2133.0661   ✗       
+982   VPSTTNTTSANVTSNEANVK     -1.0000     NotChecked  -16.4543    2033.9865   ✗       
+983   +43.006KVPSTTNTTSAQVTSNPANVK-1.0000     NotChecked  -16.4544    2187.1131   ✗       
+984   VPSTTNTTSATVTSNEANVR     -1.0000     NotChecked  -16.4596    2048.9974   ✗       
+985   VPSTTNTTSASLTSNEANVR     -1.0000     NotChecked  -16.4603    2048.9974   ✗       
+986   LVPSTTNTTSATVTSNEANVR    -1.0000     NotChecked  -16.4620    2162.0815   ✗       
+987   LVPSTTNTTSASLTSNEANVR    -1.0000     NotChecked  -16.4627    2162.0815   ✗       
+988   +43.006VPSTTNTTSQVTSNEANVR-1.0000     NotChecked  -16.4628    2047.9770   ✗       
+989   VPSTTNTTSAQVTSNEANVR     -1.0000     NotChecked  -16.4633    2076.0083   ✗       
+990   VVPSTTNTTSANVTSNEANPR    -1.0000     NotChecked  -16.4634    2159.0454   ✗       
+991   LVPSTTNTTSAQVTSNEANVR    -1.0000     NotChecked  -16.4657    2189.0924   ✗       
+992   VVPSTTNTTSSGVTSNEANVR    -1.0000     NotChecked  -16.4683    2120.0345   ✗       
+993   +43.006KVPSTTNTTSAGLTSNEANVR-1.0000     NotChecked  -16.4714    2190.0876   ✗       
+994   +42.011VPSTTNTTSASVTSNEANVK-1.0000     NotChecked  -16.4750    2048.9862   ✗       
+995   KVPSTTNTTSAQVTSNEANVK    -1.0000     NotChecked  -16.4808    2176.0971   ✗       
+996   +43.006VPSTTNTTSSNVTSNEANVK-1.0000     NotChecked  -16.4850    2092.9872   ✗       
+997   VVPSTTNTTSAGLTSNEANVK    -1.0000     NotChecked  -16.4859    2090.0491   ✗       
+998   +43.006VPSTTNTTSATLTSNEANVR-1.0000     NotChecked  -16.4865    2106.0189   ✗       
+999   VVPSTTNTTSASVTSNEANVK    -1.0000     NotChecked  -16.4895    2106.0440   ✗       
+1000  +43.006VPSTTNTTSAQLTSNEANVR-1.0000     NotChecked  -16.4902    2133.0298   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: KVPSTTNTTSSNLTSNEANVK
+Similarity: 0.9481
+De Novo Score: -9.2598
+Source: Database
+Correct: ✓
+

@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 53
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 591.2679
+Precursor charge: 3+
+Ground truth: YQVSIHESDNPDDPR
+Ground truth (normalized): YQVSIHESDNPDDPR
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 167
+Used for reranking: 167
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 167 (16.7%)
+Database matches: 167 (16.7%)
+Prosit predictions: 0 (0.0%)
+Failed: 0 (0.0%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 30/1000
+Rank by similarity: 1/1000
+Similarity: 0.7191
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     YQVSLHESDNPDDPR          0.7191      Database    -6.0865     1770.7809   ✓       ✓
+2     YQVSLHESDNPDDPR          0.7191      Database    -6.1761     1770.7809   ✓       ✓
+3     YQVSLHESDNPDDPR          0.7191      Database    -6.2740     1770.7809   ✓       ✓
+4     YQVSLHESDNPDDPR          0.7191      Database    -6.3515     1770.7809   ✓       ✓
+5     YQVSLHESDNPDDPR          0.7191      Database    -6.3636     1770.7809   ✓       ✓
+6     YQVSLHESDNPDDPR          0.7191      Database    -6.3797     1770.7809   ✓       ✓
+7     YQVSLHESDNPDDPR          0.7191      Database    -6.4411     1770.7809   ✓       ✓
+8     YQVSLHESDNPDDPR          0.7191      Database    -6.4693     1770.7809   ✓       ✓
+9     YQVSLHESDNPDDPR          0.7191      Database    -6.5390     1770.7809   ✓       ✓
+10    YQVSLHESDNPDDPR          0.7191      Database    -6.5672     1770.7809   ✓       ✓
+11    YQVSLHESDNPDDPR          0.7191      Database    -6.6286     1770.7809   ✓       ✓
+12    YQVSLHESDNPDDPR          0.7191      Database    -6.6447     1770.7809   ✓       ✓
+13    YQVSLHESDNPDDPR          0.7191      Database    -6.6568     1770.7809   ✓       ✓
+14    YQVSLHESDNPDDPR          0.7191      Database    -6.7343     1770.7809   ✓       ✓
+15    YQVSLHESDNPDDPR          0.7191      Database    -6.8322     1770.7809   ✓       ✓
+16    YQVSLHESDNPDDPR          0.7191      Database    -6.8522     1770.7809   ✓       ✓
+17    YQVSLHESDNPDDPR          0.7191      Database    -6.9218     1770.7809   ✓       ✓
+18    YQVSLHESDNPDDPR          0.7191      Database    -7.0397     1770.7809   ✓       ✓
+19    YQVSLHESDNPDDPR          0.7191      Database    -7.1172     1770.7809   ✓       ✓
+20    YQVSLHESDNPDDPR          0.7191      Database    -7.1454     1770.7809   ✓       ✓
+21    YQVSLHESDNPDDPR          0.7191      Database    -7.1652     1770.7809   ✓       ✓
+22    YQVSLHESDNPDDPR          0.7191      Database    -7.2548     1770.7809   ✓       ✓
+23    YQVSLHESDNPDDPR          0.7191      Database    -7.3047     1770.7809   ✓       ✓
+24    YQVSLHESDNPDDPR          0.7191      Database    -7.3329     1770.7809   ✓       ✓
+25    YQVSLHESDNPDDPR          0.7191      Database    -7.3527     1770.7809   ✓       ✓
+26    YQVSLHESDNPDDPR          0.7191      Database    -7.4104     1770.7809   ✓       ✓
+27    YQVSLHESDNPDDPR          0.7191      Database    -7.4375     1770.7809   ✓       ✓
+28    YQVSLHESDNPDDPR          0.7191      Database    -7.4423     1770.7809   ✓       ✓
+29    YQVSLHESDNPDDPR          0.7191      Database    -7.4585     1770.7809   ✓       ✓
+30    YQVSLHESDNPDDPR          0.7191      Database    -7.5271     1770.7809   ✓       ✓
+31    YQVSLHESDNPDDPR          0.7191      Database    -7.5481     1770.7809   ✓       ✓
+32    YQVSLHESDNPDDPR          0.7191      Database    -7.5979     1770.7809   ✓       ✓
+33    YQVSLHESDNPDDPR          0.7191      Database    -7.6250     1770.7809   ✓       ✓
+34    YQVSLHESDNPDDPR          0.7191      Database    -7.6460     1770.7809   ✓       ✓
+35    YQVSLHESDNPDDPR          0.7191      Database    -7.7025     1770.7809   ✓       ✓
+36    YQVSLHESDNPDDPR          0.7191      Database    -7.7146     1770.7809   ✓       ✓
+37    YQVSLHESDNPDDPR          0.7191      Database    -7.7308     1770.7809   ✓       ✓
+38    YQVSLHESDNPDDPR          0.7191      Database    -7.7356     1770.7809   ✓       ✓
+39    YQVSLHESDNPDDPR          0.7191      Database    -7.7751     1770.7809   ✓       ✓
+40    YQVSLHESDNPDDPR          0.7191      Database    -7.7921     1770.7809   ✓       ✓
+41    YQVSLHESDNPDDPR          0.7191      Database    -7.8204     1770.7809   ✓       ✓
+42    YQVSLHESDNPDDPR          0.7191      Database    -7.8647     1770.7809   ✓       ✓
+43    YQVSLHESDNPDDPR          0.7191      Database    -7.8900     1770.7809   ✓       ✓
+44    YQVSLHESDNPDDPR          0.7191      Database    -7.9183     1770.7809   ✓       ✓
+45    YQVSLHESDNPDDPR          0.7191      Database    -7.9309     1770.7809   ✓       ✓
+46    YQVSLHESDNPDDPR          0.7191      Database    -7.9519     1770.7809   ✓       ✓
+47    YQVSLHESDNPDDPR          0.7191      Database    -7.9626     1770.7809   ✓       ✓
+48    YQVSLHESDNPDDPR          0.7191      Database    -7.9796     1770.7809   ✓       ✓
+49    YQVSLHESDNPDDPR          0.7191      Database    -7.9958     1770.7809   ✓       ✓
+50    YQVSLHESDNPDDPR          0.7191      Database    -8.0079     1770.7809   ✓       ✓
+51    YQVSLHESDNPDDPR          0.7191      Database    -8.0401     1770.7809   ✓       ✓
+52    YQVSLHESDNPDDPR          0.7191      Database    -8.0415     1770.7809   ✓       ✓
+53    YQVSLHESDNPDDPR          0.7191      Database    -8.0522     1770.7809   ✓       ✓
+54    YQVSLHESDNPDDPR          0.7191      Database    -8.0683     1770.7809   ✓       ✓
+55    YQVSLHESDNPDDPR          0.7191      Database    -8.0854     1770.7809   ✓       ✓
+56    YQVSLHESDNPDDPR          0.7191      Database    -8.1184     1770.7809   ✓       ✓
+57    YQVSLHESDNPDDPR          0.7191      Database    -8.1297     1770.7809   ✓       ✓
+58    YQVSLHESDNPDDPR          0.7191      Database    -8.1394     1770.7809   ✓       ✓
+59    YQVSLHESDNPDDPR          0.7191      Database    -8.1579     1770.7809   ✓       ✓
+60    YQVSLHESDNPDDPR          0.7191      Database    -8.1833     1770.7809   ✓       ✓
+61    YQVSLHESDNPDDPR          0.7191      Database    -8.2032     1770.7809   ✓       ✓
+62    YQVSLHESDNPDDPR          0.7191      Database    -8.2169     1770.7809   ✓       ✓
+63    YQVSLHESDNPDDPR          0.7191      Database    -8.2241     1770.7809   ✓       ✓
+64    YQVSLHESDNPDDPR          0.7191      Database    -8.2276     1770.7809   ✓       ✓
+65    YQVSLHESDNPDDPR          0.7191      Database    -8.2290     1770.7809   ✓       ✓
+66    YQVSLHESDNPDDPR          0.7191      Database    -8.2451     1770.7809   ✓       ✓
+67    YQVSLHESDNPDDPR          0.7191      Database    -8.2558     1770.7809   ✓       ✓
+68    YQVSLHESDNPDDPR          0.7191      Database    -8.2729     1770.7809   ✓       ✓
+69    YQVSLHESDNPDDPR          0.7191      Database    -8.2827     1770.7809   ✓       ✓
+70    YQVSLHESDNPDDPR          0.7191      Database    -8.3065     1770.7809   ✓       ✓
+71    YQVSLHESDNPDDPR          0.7191      Database    -8.3172     1770.7809   ✓       ✓
+72    YQVSLHESDNPDDPR          0.7191      Database    -8.3333     1770.7809   ✓       ✓
+73    YQVSLHESDNPDDPR          0.7191      Database    -8.3347     1770.7809   ✓       ✓
+74    YQVSLHESDNPDDPR          0.7191      Database    -8.3454     1770.7809   ✓       ✓
+75    YQVSLHESDNPDDPR          0.7191      Database    -8.3723     1770.7809   ✓       ✓
+76    YQVSLHESDNPDDPR          0.7191      Database    -8.3907     1770.7809   ✓       ✓
+77    YQVSLHESDNPDDPR          0.7191      Database    -8.4044     1770.7809   ✓       ✓
+78    YQVSLHESDNPDDPR          0.7191      Database    -8.4116     1770.7809   ✓       ✓
+79    YQVSLHESDNPDDPR          0.7191      Database    -8.4229     1770.7809   ✓       ✓
+80    YQVSLHESDNPDDPR          0.7191      Database    -8.4326     1770.7809   ✓       ✓
+81    YQVSLHESDNPDDPR          0.7191      Database    -8.4682     1770.7809   ✓       ✓
+82    YQVSLHESDNPDDPR          0.7191      Database    -8.4702     1770.7809   ✓       ✓
+83    YQVSLHESDNPDDPR          0.7191      Database    -8.4940     1770.7809   ✓       ✓
+84    YQVSLHESDNPDDPR          0.7191      Database    -8.4964     1770.7809   ✓       ✓
+85    YQVSLHESDNPDDPR          0.7191      Database    -8.5101     1770.7809   ✓       ✓
+86    YQVSLHESDNPDDPR          0.7191      Database    -8.5163     1770.7809   ✓       ✓
+87    YQVSLHESDNPDDPR          0.7191      Database    -8.5208     1770.7809   ✓       ✓
+88    YQVSLHESDNPDDPR          0.7191      Database    -8.5222     1770.7809   ✓       ✓
+89    YQVSLHESDNPDDPR          0.7191      Database    -8.5408     1770.7809   ✓       ✓
+90    YQVSLHESDNPDDPR          0.7191      Database    -8.5477     1770.7809   ✓       ✓
+91    YQVSLHESDNPDDPR          0.7191      Database    -8.5598     1770.7809   ✓       ✓
+92    YQVSLHESDNPDDPR          0.7191      Database    -8.5759     1770.7809   ✓       ✓
+93    YQVSLHESDNPDDPR          0.7191      Database    -8.5916     1770.7809   ✓       ✓
+94    YQVSLHESDNPDDPR          0.7191      Database    -8.5997     1770.7809   ✓       ✓
+95    YQVSLHESDNPDDPR          0.7191      Database    -8.6059     1770.7809   ✓       ✓
+96    YQVSLHESDNPDDPR          0.7191      Database    -8.6104     1770.7809   ✓       ✓
+97    YQVSLHESDNPDDPR          0.7191      Database    -8.6373     1770.7809   ✓       ✓
+98    YQVSLHESDNPDDPR          0.7191      Database    -8.6557     1770.7809   ✓       ✓
+99    YQVSLHESDNPDDPR          0.7191      Database    -8.6655     1770.7809   ✓       ✓
+100   YQVSLHESDNPDDPR          0.7191      Database    -8.6812     1770.7809   ✓       ✓
+101   YQVSLHESDNPDDPR          0.7191      Database    -8.6839     1770.7809   ✓       ✓
+102   YQVSLHESDNPDDPR          0.7191      Database    -8.6976     1770.7809   ✓       ✓
+103   YQVSLHESDNPDDPR          0.7191      Database    -8.7038     1770.7809   ✓       ✓
+104   YQVSLHESDNPDDPR          0.7191      Database    -8.7176     1770.7809   ✓       ✓
+105   YQVSLHESDNPDDPR          0.7191      Database    -8.7283     1770.7809   ✓       ✓
+106   YQVSLHESDNPDDPR          0.7191      Database    -8.7352     1770.7809   ✓       ✓
+107   YQVSLHESDNPDDPR          0.7191      Database    -8.7614     1770.7809   ✓       ✓
+108   YQVSLHESDNPDDPR          0.7191      Database    -8.7634     1770.7809   ✓       ✓
+109   YQVSLHESDNPDDPR          0.7191      Database    -8.7791     1770.7809   ✓       ✓
+110   YQVSLHESDNPDDPR          0.7191      Database    -8.7872     1770.7809   ✓       ✓
+111   YQVSLHESDNPDDPR          0.7191      Database    -8.7934     1770.7809   ✓       ✓
+112   YQVSLHESDNPDDPR          0.7191      Database    -8.8058     1770.7809   ✓       ✓
+113   YQVSLHESDNPDDPR          0.7191      Database    -8.8095     1770.7809   ✓       ✓
+114   YQVSLHESDNPDDPR          0.7191      Database    -8.8248     1770.7809   ✓       ✓
+115   YQVSLHESDNPDDPR          0.7191      Database    -8.8340     1770.7809   ✓       ✓
+116   YQVSLHESDNPDDPR          0.7191      Database    -8.8409     1770.7809   ✓       ✓
+117   YQVSLHESDNPDDPR          0.7191      Database    -8.8530     1770.7809   ✓       ✓
+118   YQVSLHESDNPDDPR          0.7191      Database    -8.8538     1770.7809   ✓       ✓
+119   YQVSLHESDNPDDPR          0.7191      Database    -8.8566     1770.7809   ✓       ✓
+120   YQVSLHESDNPDDPR          0.7191      Database    -8.8687     1770.7809   ✓       ✓
+121   YQVSLHESDNPDDPR          0.7191      Database    -8.8848     1770.7809   ✓       ✓
+122   YQVSLHESDNPDDPR          0.7191      Database    -8.8991     1770.7809   ✓       ✓
+123   YQVSLHESDNPDDPR          0.7191      Database    -8.9051     1770.7809   ✓       ✓
+124   YQVSLHESDNPDDPR          0.7191      Database    -8.9305     1770.7809   ✓       ✓
+125   YQVSLHESDNPDDPR          0.7191      Database    -9.0986     1770.7809   ✓       ✓
+126   YQVSLHESDNPDDPR          0.7191      Database    -9.1882     1770.7809   ✓       ✓
+127   YQVSLHESDNPDDPR          0.7191      Database    -9.2861     1770.7809   ✓       ✓
+128   YQVSLHESDNPDDPR          0.7191      Database    -9.3636     1770.7809   ✓       ✓
+129   YQVSLHESDNPDDPR          0.7191      Database    -9.3757     1770.7809   ✓       ✓
+130   YQVSLHESDNPDDPR          0.7191      Database    -9.3918     1770.7809   ✓       ✓
+131   YQVSLHESDNPDDPR          0.7191      Database    -9.4532     1770.7809   ✓       ✓
+132   YQVSLHESDNPDDPR          0.7191      Database    -9.4814     1770.7809   ✓       ✓
+133   YQVSLHESDNPDDPR          0.7191      Database    -9.5511     1770.7809   ✓       ✓
+134   YQVSLHESDNPDDPR          0.7191      Database    -9.5793     1770.7809   ✓       ✓
+135   YQVSLHESDNPDDPR          0.7191      Database    -9.6407     1770.7809   ✓       ✓
+136   YQVSLHESDNPDDPR          0.7191      Database    -9.6568     1770.7809   ✓       ✓
+137   YQVSLHESDNPDDPR          0.7191      Database    -9.6689     1770.7809   ✓       ✓
+138   YQVSLHESDNPDDPR          0.7191      Database    -9.7464     1770.7809   ✓       ✓
+139   YQVSLHESDNPDDPR          0.7191      Database    -9.8443     1770.7809   ✓       ✓
+140   YQVSLHESDNPDDPR          0.7191      Database    -9.8642     1770.7809   ✓       ✓
+141   YQVSLHESDNPDDPR          0.7191      Database    -9.9339     1770.7809   ✓       ✓
+142   YQVSLHESDNPDDPR          0.7191      Database    -10.0517    1770.7809   ✓       ✓
+143   YQVSLHESDNPDDPR          0.7191      Database    -10.1292    1770.7809   ✓       ✓
+144   YQVSLHESDNPDDPR          0.7191      Database    -10.1575    1770.7809   ✓       ✓
+145   YQVSLHESDNPDDPR          0.7191      Database    -10.1773    1770.7809   ✓       ✓
+146   YQVSLHESDNPDDPR          0.7191      Database    -10.2669    1770.7809   ✓       ✓
+147   YQVSLHESDNPDDPR          0.7191      Database    -10.3167    1770.7809   ✓       ✓
+148   YQVSLHESDNPDDPR          0.7191      Database    -10.3450    1770.7809   ✓       ✓
+149   YQVSLHESDNPDDPR          0.7191      Database    -10.3648    1770.7809   ✓       ✓
+150   YQVSLHESDNPDDPR          0.7191      Database    -10.4225    1770.7809   ✓       ✓
+151   YQVSLHESDNPDDPR          0.7191      Database    -10.4496    1770.7809   ✓       ✓
+152   YQVSLHESDNPDDPR          0.7191      Database    -10.4544    1770.7809   ✓       ✓
+153   YQVSLHESDNPDDPR          0.7191      Database    -10.4705    1770.7809   ✓       ✓
+154   YQVSLHESDNPDDPR          0.7191      Database    -10.5392    1770.7809   ✓       ✓
+155   YQVSLHESDNPDDPR          0.7191      Database    -10.5601    1770.7809   ✓       ✓
+156   YQVSLHESDNPDDPR          0.7191      Database    -10.6100    1770.7809   ✓       ✓
+157   YQVSLHESDNPDDPR          0.7191      Database    -10.6371    1770.7809   ✓       ✓
+158   YQVSLHESDNPDDPR          0.7191      Database    -10.6580    1770.7809   ✓       ✓
+159   YQVSLHESDNPDDPR          0.7191      Database    -10.7146    1770.7809   ✓       ✓
+160   YQVSLHESDNPDDPR          0.7191      Database    -10.7267    1770.7809   ✓       ✓
+161   YQVSLHESDNPDDPR          0.7191      Database    -10.7428    1770.7809   ✓       ✓
+162   YQVSLHESDNPDDPR          0.7191      Database    -10.7476    1770.7809   ✓       ✓
+163   YQVSLHESDNPDDPR          0.7191      Database    -10.7872    1770.7809   ✓       ✓
+164   YQVSLHESDNPDDPR          0.7191      Database    -10.8042    1770.7809   ✓       ✓
+165   YQVSLHESDNPDDPR          0.7191      Database    -10.8324    1770.7809   ✓       ✓
+166   YQVSLHESDNPDDPR          0.7191      Database    -10.8767    1770.7809   ✓       ✓
+167   YQVSLHESDNPDDPR          0.7191      Database    -10.9021    1770.7809   ✓       ✓
+168   YQVSLHESDPDDPR           -1.0000     NotChecked  -4.7052     1656.7380   ✗       
+169   YQVSLHESDPDDPR           -1.0000     NotChecked  -4.8926     1656.7380   ✗       
+170   YQVSLHESDPDDPR           -1.0000     NotChecked  -4.9702     1656.7380   ✗       
+171   YQVSLHESDPDDPR           -1.0000     NotChecked  -4.9984     1656.7380   ✗       
+172   YQVSLHESDPDDPR           -1.0000     NotChecked  -5.1391     1656.7380   ✗       
+173   YQVSLHESDPDDPR           -1.0000     NotChecked  -5.1576     1656.7380   ✗       
+174   YQVSLHESDPDDPR           -1.0000     NotChecked  -5.1859     1656.7380   ✗       
+175   YQVSLHESDPDDPR           -1.0000     NotChecked  -5.2634     1656.7380   ✗       
+176   YQVSLHESDPDDPR           -1.0000     NotChecked  -5.3266     1656.7380   ✗       
+177   YQVSLHESDPDDPR           -1.0000     NotChecked  -5.4041     1656.7380   ✗       
+178   YQVSLHESNPDDPR           -1.0000     NotChecked  -5.4104     1655.7540   ✗       
+179   YQVSLHESDPDDPR           -1.0000     NotChecked  -5.4324     1656.7380   ✗       
+180   YQVSLHESDPDDPR           -1.0000     NotChecked  -5.4509     1656.7380   ✗       
+181   YQVSLHESDPDDPR           -1.0000     NotChecked  -5.5916     1656.7380   ✗       
+182   YQVSLHESNPDDPR           -1.0000     NotChecked  -5.5979     1655.7540   ✗       
+183   YQVSLHESDPDDPR           -1.0000     NotChecked  -5.6199     1656.7380   ✗       
+184   YQVSLHESNPDDPR           -1.0000     NotChecked  -5.6754     1655.7540   ✗       
+185   YQVSLHESDPDDPR           -1.0000     NotChecked  -5.6974     1656.7380   ✗       
+186   YQVSLHESNPDDPR           -1.0000     NotChecked  -5.7036     1655.7540   ✗       
+187   YQVSLHESDPDDPR           -1.0000     NotChecked  -5.7839     1656.7380   ✗       
+188   YQVSLHESNPDDPR           -1.0000     NotChecked  -5.8444     1655.7540   ✗       
+189   YQVSLHESNPDDPR           -1.0000     NotChecked  -5.8629     1655.7540   ✗       
+190   YQVSLHESDPDDPR           -1.0000     NotChecked  -5.8849     1656.7380   ✗       
+191   YQVSLHESNPDDPR           -1.0000     NotChecked  -5.8911     1655.7540   ✗       
+192   YQVSLHESNPDDPR           -1.0000     NotChecked  -5.9686     1655.7540   ✗       
+193   YQVSLHESDPDDPR           -1.0000     NotChecked  -5.9714     1656.7380   ✗       
+194   YQVSLHESNPDDPR           -1.0000     NotChecked  -6.0319     1655.7540   ✗       
+195   YQVSLHESDPDDPR           -1.0000     NotChecked  -6.0562     1656.7380   ✗       
+196   YQVSLHESDPDDPR           -1.0000     NotChecked  -6.0771     1656.7380   ✗       
+197   YQVSLHESNPDDPR           -1.0000     NotChecked  -6.1094     1655.7540   ✗       
+198   YQVSLHESNPDDPR           -1.0000     NotChecked  -6.1376     1655.7540   ✗       
+199   YQVSLHESNPDDPR           -1.0000     NotChecked  -6.1561     1655.7540   ✗       
+200   YQVSLHESDPDDPR           -1.0000     NotChecked  -6.2179     1656.7380   ✗       
+201   YQVSLHESDPDDPR           -1.0000     NotChecked  -6.2437     1656.7380   ✗       
+202   YQVSLHESDPDDPR           -1.0000     NotChecked  -6.2646     1656.7380   ✗       
+203   YQVSLHESNPDDPR           -1.0000     NotChecked  -6.2969     1655.7540   ✗       
+204   YQVSLHESDPDDPR           -1.0000     NotChecked  -6.3212     1656.7380   ✗       
+205   YQVSLHESNPDDPR           -1.0000     NotChecked  -6.3251     1655.7540   ✗       
+206   YQVSLHESDPDDPR           -1.0000     NotChecked  -6.3494     1656.7380   ✗       
+207   YQVSLHESDPDDPR           -1.0000     NotChecked  -6.3937     1656.7380   ✗       
+208   YQVSLHESNPDDPR           -1.0000     NotChecked  -6.4026     1655.7540   ✗       
+209   YQVSLHESDPDDPR           -1.0000     NotChecked  -6.4054     1656.7380   ✗       
+210   YQVSLHESNPDDPR           -1.0000     NotChecked  -6.4892     1655.7540   ✗       
+211   YQVSLHESDPDDPR           -1.0000     NotChecked  -6.4902     1656.7380   ✗       
+212   YQVSLHESDPDDPR           -1.0000     NotChecked  -6.5087     1656.7380   ✗       
+213   YQVSLHESDPDDPR           -1.0000     NotChecked  -6.5111     1656.7380   ✗       
+214   YQVSLHESDPDDPR           -1.0000     NotChecked  -6.5369     1656.7380   ✗       
+215   YQVSLHESDPDDPR           -1.0000     NotChecked  -6.5705     1656.7380   ✗       
+216   YQVSLHESDPDDPR           -1.0000     NotChecked  -6.5812     1656.7380   ✗       
+217   YQVSLHESNPDDPR           -1.0000     NotChecked  -6.5901     1655.7540   ✗       
+218   YQVSLHESDPDDPR           -1.0000     NotChecked  -6.6144     1656.7380   ✗       
+219   YQVSLHESDPDDPR           -1.0000     NotChecked  -6.6587     1656.7380   ✗       
+220   YQVSLHESNPDDPR           -1.0000     NotChecked  -6.6767     1655.7540   ✗       
+221   YQVSLHESDPDDPR           -1.0000     NotChecked  -6.6777     1656.7380   ✗       
+222   YQVSLHESDPDDPR           -1.0000     NotChecked  -6.6870     1656.7380   ✗       
+223   YQVSLHESDPDDPR           -1.0000     NotChecked  -6.6986     1656.7380   ✗       
+224   YQVSLHESDPDDPR           -1.0000     NotChecked  -6.7552     1656.7380   ✗       
+225   YQVSLHESDPDDPR           -1.0000     NotChecked  -6.7580     1656.7380   ✗       
+226   YQVSLHESNPDDPR           -1.0000     NotChecked  -6.7615     1655.7540   ✗       
+227   YQVSLHESNPDDPR           -1.0000     NotChecked  -6.7824     1655.7540   ✗       
+228   YQVSLHESDPDDPR           -1.0000     NotChecked  -6.7834     1656.7380   ✗       
+229   YQVSLHESDPDDPR           -1.0000     NotChecked  -6.8019     1656.7380   ✗       
+230   YQVSLHESDPDDPR           -1.0000     NotChecked  -6.8277     1656.7380   ✗       
+231   YQVSLHESDPDDPR           -1.0000     NotChecked  -6.8355     1656.7380   ✗       
+232   YQVSLHESDPDDPR           -1.0000     NotChecked  -6.8462     1656.7380   ✗       
+233   YQVSLHESDPDDPR           -1.0000     NotChecked  -6.8638     1656.7380   ✗       
+234   YQVSLHESDPDDPR           -1.0000     NotChecked  -6.8745     1656.7380   ✗       
+235   YQVSLHESDPDDPR           -1.0000     NotChecked  -6.9013     1656.7380   ✗       
+236   YQVSLHESNPDDPR           -1.0000     NotChecked  -6.9232     1655.7540   ✗       
+237   YQVSLHESDPDDPR           -1.0000     NotChecked  -6.9427     1656.7380   ✗       
+238   YQVSLHESNPDDPR           -1.0000     NotChecked  -6.9490     1655.7540   ✗       
+239   YQVSLHESDPDDPR           -1.0000     NotChecked  -6.9520     1656.7380   ✗       
+240   YQVSLHESNPDDPR           -1.0000     NotChecked  -6.9699     1655.7540   ✗       
+241   YQVSLHESDPDDPR           -1.0000     NotChecked  -6.9709     1656.7380   ✗       
+242   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.0045     1656.7380   ✗       
+243   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.0152     1656.7380   ✗       
+244   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.0230     1656.7380   ✗       
+245   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.0265     1655.7540   ✗       
+246   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.0484     1656.7380   ✗       
+247   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.0513     1656.7380   ✗       
+248   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.0547     1655.7540   ✗       
+249   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.0888     1656.7380   ✗       
+250   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.0927     1656.7380   ✗       
+251   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.0990     1655.7540   ✗       
+252   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.1107     1655.7540   ✗       
+253   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.1209     1656.7380   ✗       
+254   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.1288     1656.7380   ✗       
+255   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.1349     1656.7380   ✗       
+256   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.1395     1656.7380   ✗       
+257   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.1663     1656.7380   ✗       
+258   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.1920     1656.7380   ✗       
+259   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.1945     1656.7380   ✗       
+260   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.1955     1655.7540   ✗       
+261   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.2102     1656.7380   ✗       
+262   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.2140     1655.7540   ✗       
+263   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.2164     1655.7540   ✗       
+264   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -7.2190     1657.7220   ✗       
+265   YQVSLHESSDPDDPR          -1.0000     NotChecked  -7.2304     1743.7700   ✗       
+266   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.2359     1656.7380   ✗       
+267   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.2422     1655.7540   ✗       
+268   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.2695     1656.7380   ✗       
+269   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.2758     1655.7540   ✗       
+270   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.2802     1656.7380   ✗       
+271   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.2865     1655.7540   ✗       
+272   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.2977     1656.7380   ✗       
+273   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.3084     1656.7380   ✗       
+274   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.3163     1656.7380   ✗       
+275   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.3197     1655.7540   ✗       
+276   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.3224     1656.7380   ✗       
+277   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.3353     1656.7380   ✗       
+278   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.3538     1656.7380   ✗       
+279   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.3640     1655.7540   ✗       
+280   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.3820     1656.7380   ✗       
+281   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.3829     1655.7540   ✗       
+282   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.3859     1656.7380   ✗       
+283   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.3922     1655.7540   ✗       
+284   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.3977     1656.7380   ✗       
+285   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.4039     1655.7540   ✗       
+286   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -7.4065     1657.7220   ✗       
+287   YQVSLHESSDPDDPR          -1.0000     NotChecked  -7.4179     1743.7700   ✗       
+288   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.4281     1656.7380   ✗       
+289   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.4570     1656.7380   ✗       
+290   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.4595     1656.7380   ✗       
+291   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.4605     1655.7540   ✗       
+292   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.4633     1655.7540   ✗       
+293   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.4725     1656.7380   ✗       
+294   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.4752     1656.7380   ✗       
+295   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -7.4840     1657.7220   ✗       
+296   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.4852     1656.7380   ✗       
+297   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.4887     1655.7540   ✗       
+298   YQVSLHESSDPDDPR          -1.0000     NotChecked  -7.4954     1743.7700   ✗       
+299   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.5034     1656.7380   ✗       
+300   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.5072     1655.7540   ✗       
+301   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -7.5123     1657.7220   ✗       
+302   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.5228     1656.7380   ✗       
+303   YQVSLHESSDPDDPR          -1.0000     NotChecked  -7.5236     1743.7700   ✗       
+304   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.5330     1655.7540   ✗       
+305   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.5408     1655.7540   ✗       
+306   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.5515     1655.7540   ✗       
+307   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.5627     1656.7380   ✗       
+308   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.5689     1656.7380   ✗       
+309   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.5690     1655.7540   ✗       
+310   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.5734     1656.7380   ✗       
+311   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.5797     1655.7540   ✗       
+312   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.6003     1656.7380   ✗       
+313   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.6066     1655.7540   ✗       
+314   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.6156     1656.7380   ✗       
+315   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.6285     1656.7380   ✗       
+316   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.6442     1656.7380   ✗       
+317   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.6470     1656.7380   ✗       
+318   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.6480     1655.7540   ✗       
+319   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.6493     1656.7380   ✗       
+320   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -7.6530     1657.7220   ✗       
+321   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.6572     1655.7540   ✗       
+322   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.6600     1656.7380   ✗       
+323   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.6627     1656.7380   ✗       
+324   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.6644     1656.7380   ✗       
+325   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -7.6715     1657.7220   ✗       
+326   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.6762     1655.7540   ✗       
+327   YQVSLHESSDPDDPR          -1.0000     NotChecked  -7.6829     1743.7700   ✗       
+328   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.6909     1656.7380   ✗       
+329   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -7.6998     1657.7220   ✗       
+330   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.7098     1655.7540   ✗       
+331   YQVSLHESSDPDDPR          -1.0000     NotChecked  -7.7111     1743.7700   ✗       
+332   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.7172     1656.7380   ✗       
+333   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.7205     1655.7540   ✗       
+334   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.7283     1655.7540   ✗       
+335   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.7448     1656.7380   ✗       
+336   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.7502     1656.7380   ✗       
+337   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.7537     1655.7540   ✗       
+338   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.7564     1656.7380   ✗       
+339   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.7565     1655.7540   ✗       
+340   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.7657     1656.7380   ✗       
+341   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.7684     1656.7380   ✗       
+342   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -7.7773     1657.7220   ✗       
+343   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.7878     1656.7380   ✗       
+344   YQVSLHESSDPDDPR          -1.0000     NotChecked  -7.7886     1743.7700   ✗       
+345   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.7941     1655.7540   ✗       
+346   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.7980     1655.7540   ✗       
+347   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.8160     1656.7380   ✗       
+348   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.8262     1655.7540   ✗       
+349   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.8317     1656.7380   ✗       
+350   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.8340     1655.7540   ✗       
+351   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.8368     1656.7380   ✗       
+352   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.8402     1655.7540   ✗       
+353   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -7.8405     1657.7220   ✗       
+354   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.8447     1655.7540   ✗       
+355   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.8519     1656.7380   ✗       
+356   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.8621     1656.7380   ✗       
+357   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.8716     1655.7540   ✗       
+358   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.8782     1656.7380   ✗       
+359   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.8935     1656.7380   ✗       
+360   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.8973     1655.7540   ✗       
+361   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.8998     1655.7540   ✗       
+362   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.9047     1656.7380   ✗       
+363   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.9065     1656.7380   ✗       
+364   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.9092     1656.7380   ✗       
+365   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.9155     1655.7540   ✗       
+366   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -7.9180     1657.7220   ✗       
+367   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.9216     1656.7380   ✗       
+368   YQ+0.984VSLHESNPDDPR     -1.0000     NotChecked  -7.9243     1656.7380   ✗       
+369   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.9294     1656.7380   ✗       
+370   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.9323     1656.7380   ✗       
+371   YQVSLHESSNPDDPR          -1.0000     NotChecked  -7.9357     1742.7860   ✗       
+372   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.9374     1656.7380   ✗       
+373   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.9412     1655.7540   ✗       
+374   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.9425     1656.7380   ✗       
+375   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -7.9462     1657.7220   ✗       
+376   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.9532     1656.7380   ✗       
+377   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.9559     1656.7380   ✗       
+378   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.9576     1656.7380   ✗       
+379   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -7.9648     1657.7220   ✗       
+380   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.9748     1655.7540   ✗       
+381   YQVSLHESSDPDDPR          -1.0000     NotChecked  -7.9761     1743.7700   ✗       
+382   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.9800     1656.7380   ✗       
+383   YQVSLHESDPDDPR           -1.0000     NotChecked  -7.9822     1656.7380   ✗       
+384   YQVSLHESNPDDPR           -1.0000     NotChecked  -7.9855     1655.7540   ✗       
+385   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.0030     1655.7540   ✗       
+386   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.0098     1656.7380   ✗       
+387   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.0104     1656.7380   ✗       
+388   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.0137     1655.7540   ✗       
+389   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.0215     1655.7540   ✗       
+390   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.0277     1655.7540   ✗       
+391   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.0380     1656.7380   ✗       
+392   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.0406     1655.7540   ✗       
+393   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.0496     1656.7380   ✗       
+394   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.0591     1655.7540   ✗       
+395   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.0657     1656.7380   ✗       
+396   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.0810     1656.7380   ✗       
+397   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.0833     1656.7380   ✗       
+398   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.0873     1655.7540   ✗       
+399   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.0912     1655.7540   ✗       
+400   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.0940     1656.7380   ✗       
+401   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.0967     1656.7380   ✗       
+402   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.1030     1655.7540   ✗       
+403   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.1042     1656.7380   ✗       
+404   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -8.1055     1657.7220   ✗       
+405   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.1091     1656.7380   ✗       
+406   YQ+0.984VSLHESNPDDPR     -1.0000     NotChecked  -8.1118     1656.7380   ✗       
+407   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.1169     1656.7380   ✗       
+408   YQVSLHESSNPDDPR          -1.0000     NotChecked  -8.1231     1742.7860   ✗       
+409   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.1249     1656.7380   ✗       
+410   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.1300     1656.7380   ✗       
+411   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.1334     1655.7540   ✗       
+412   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -8.1337     1657.7220   ✗       
+413   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.1432     1656.7380   ✗       
+414   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.1451     1656.7380   ✗       
+415   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.1512     1656.7380   ✗       
+416   YQVSLHESDPDVPR           -1.0000     NotChecked  -8.1575     1640.7794   ✗       
+417   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.1623     1655.7540   ✗       
+418   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.1648     1655.7540   ✗       
+419   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.1675     1656.7380   ✗       
+420   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.1697     1656.7380   ✗       
+421   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.1714     1656.7380   ✗       
+422   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.1778     1655.7540   ✗       
+423   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.1788     1656.7380   ✗       
+424   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.1805     1655.7540   ✗       
+425   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.1866     1656.7380   ✗       
+426   YQ+0.984VSLHESNPDDPR     -1.0000     NotChecked  -8.1893     1656.7380   ✗       
+427   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.1905     1655.7540   ✗       
+428   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.1973     1656.7380   ✗       
+429   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.1979     1656.7380   ✗       
+430   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.1997     1656.7380   ✗       
+431   YQVSLHESSNPDDPR          -1.0000     NotChecked  -8.2007     1742.7860   ✗       
+432   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.2024     1656.7380   ✗       
+433   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.2087     1655.7540   ✗       
+434   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -8.2112     1657.7220   ✗       
+435   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.2148     1656.7380   ✗       
+436   YQ+0.984VSLHESNPDDPR     -1.0000     NotChecked  -8.2175     1656.7380   ✗       
+437   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.2226     1656.7380   ✗       
+438   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.2255     1656.7380   ✗       
+439   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.2281     1655.7540   ✗       
+440   YQVSLHESSNPDDPR          -1.0000     NotChecked  -8.2289     1742.7860   ✗       
+441   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.2523     1656.7380   ✗       
+442   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.2591     1656.7380   ✗       
+443   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.2680     1655.7540   ✗       
+444   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.2708     1656.7380   ✗       
+445   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.2733     1656.7380   ✗       
+446   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.2742     1655.7540   ✗       
+447   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.2754     1656.7380   ✗       
+448   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.2787     1655.7540   ✗       
+449   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.2889     1656.7380   ✗       
+450   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.2917     1656.7380   ✗       
+451   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -8.2978     1657.7220   ✗       
+452   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.3030     1656.7380   ✗       
+453   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.3056     1655.7540   ✗       
+454   YQVSLHESSDPDDPR          -1.0000     NotChecked  -8.3091     1743.7700   ✗       
+455   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.3122     1656.7380   ✗       
+456   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.3209     1655.7540   ✗       
+457   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.3307     1656.7380   ✗       
+458   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.3338     1655.7540   ✗       
+459   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.3387     1656.7380   ✗       
+460   YQVSLHESDPDVPR           -1.0000     NotChecked  -8.3450     1640.7794   ✗       
+461   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.3495     1655.7540   ✗       
+462   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.3523     1655.7540   ✗       
+463   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.3537     1656.7380   ✗       
+464   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.3546     1655.7540   ✗       
+465   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.3556     1656.7380   ✗       
+466   YQ+0.984VSLHESNPDDPR     -1.0000     NotChecked  -8.3583     1656.7380   ✗       
+467   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.3589     1656.7380   ✗       
+468   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.3652     1655.7540   ✗       
+469   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.3663     1656.7380   ✗       
+470   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.3680     1655.7540   ✗       
+471   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.3692     1656.7380   ✗       
+472   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.3696     1655.7540   ✗       
+473   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.3741     1656.7380   ✗       
+474   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.3765     1656.7380   ✗       
+475   YQ+0.984VSLHESNPDDPR     -1.0000     NotChecked  -8.3768     1656.7380   ✗       
+476   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.3872     1656.7380   ✗       
+477   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.3878     1656.7380   ✗       
+478   YQVSLHESSNPDDPR          -1.0000     NotChecked  -8.3881     1742.7860   ✗       
+479   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.3899     1656.7380   ✗       
+480   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.3962     1655.7540   ✗       
+481   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.3974     1656.7380   ✗       
+482   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -8.3987     1657.7220   ✗       
+483   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.4023     1656.7380   ✗       
+484   YQ+0.984VSLHESNPDDPR     -1.0000     NotChecked  -8.4050     1656.7380   ✗       
+485   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.4051     1656.7380   ✗       
+486   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.4101     1656.7380   ✗       
+487   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.4140     1656.7380   ✗       
+488   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.4162     1656.7380   ✗       
+489   YQVSLHESSNPDDPR          -1.0000     NotChecked  -8.4164     1742.7860   ✗       
+490   YQVSLHESDPDVPR           -1.0000     NotChecked  -8.4225     1640.7794   ✗       
+491   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.4225     1655.7540   ✗       
+492   YQVSLHESPDDPR            -1.0000     NotChecked  -8.4358     1541.7110   ✗       
+493   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.4364     1656.7380   ✗       
+494   YQVSLHESSPDDPR           -1.0000     NotChecked  -8.4381     1628.7431   ✗       
+495   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.4398     1656.7380   ✗       
+496   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.4438     1656.7380   ✗       
+497   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.4444     1656.7380   ✗       
+498   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.4466     1656.7380   ✗       
+499   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.4500     1655.7540   ✗       
+500   YQVSLHESDPDVPR           -1.0000     NotChecked  -8.4507     1640.7794   ✗       
+501   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.4555     1655.7540   ✗       
+502   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.4608     1656.7380   ✗       
+503   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.4617     1655.7540   ✗       
+504   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.4629     1656.7380   ✗       
+505   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.4710     1655.7540   ✗       
+506   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.4720     1656.7380   ✗       
+507   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.4737     1655.7540   ✗       
+508   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.4764     1656.7380   ✗       
+509   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.4798     1656.7380   ✗       
+510   YQ+0.984VSLHESNPDDPR     -1.0000     NotChecked  -8.4825     1656.7380   ✗       
+511   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -8.4853     1657.7220   ✗       
+512   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.4905     1656.7380   ✗       
+513   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.4931     1655.7540   ✗       
+514   YQVSLHESSNPDDPR          -1.0000     NotChecked  -8.4939     1742.7860   ✗       
+515   YQVSLHESSDPDDPR          -1.0000     NotChecked  -8.4966     1743.7700   ✗       
+516   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.4997     1656.7380   ✗       
+517   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.5173     1656.7380   ✗       
+518   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.5213     1655.7540   ✗       
+519   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.5241     1656.7380   ✗       
+520   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.5370     1655.7540   ✗       
+521   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.5381     1656.7380   ✗       
+522   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.5412     1656.7380   ✗       
+523   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.5421     1655.7540   ✗       
+524   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.5431     1656.7380   ✗       
+525   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.5456     1656.7380   ✗       
+526   YQ+0.984VSLHESNPDDPR     -1.0000     NotChecked  -8.5458     1656.7380   ✗       
+527   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.5523     1656.7380   ✗       
+528   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.5567     1656.7380   ✗       
+529   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.5571     1655.7540   ✗       
+530   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.5612     1656.7380   ✗       
+531   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.5640     1656.7380   ✗       
+532   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.5674     1655.7540   ✗       
+533   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -8.5701     1657.7220   ✗       
+534   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.5753     1656.7380   ✗       
+535   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.5772     1656.7380   ✗       
+536   YQVSLHESSDPDDPR          -1.0000     NotChecked  -8.5814     1743.7700   ✗       
+537   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.5822     1656.7380   ✗       
+538   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.5834     1655.7540   ✗       
+539   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.5849     1656.7380   ✗       
+540   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.5899     1656.7380   ✗       
+541   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -8.5910     1657.7220   ✗       
+542   YQVSLHESDPDVPR           -1.0000     NotChecked  -8.5915     1640.7794   ✗       
+543   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.5926     1656.7380   ✗       
+544   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.5988     1655.7540   ✗       
+545   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.6015     1656.7380   ✗       
+546   YQVSLHESSDPDDPR          -1.0000     NotChecked  -8.6023     1743.7700   ✗       
+547   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.6037     1656.7380   ✗       
+548   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.6054     1656.7380   ✗       
+549   YQVSLHESDPDVPR           -1.0000     NotChecked  -8.6100     1640.7794   ✗       
+550   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.6100     1655.7540   ✗       
+551   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.6117     1655.7540   ✗       
+552   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.6145     1655.7540   ✗       
+553   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.6187     1656.7380   ✗       
+554   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.6206     1656.7380   ✗       
+555   YQVSLHESPDDPR            -1.0000     NotChecked  -8.6233     1541.7110   ✗       
+556   YQ+0.984VSLHESNPDDPR     -1.0000     NotChecked  -8.6233     1656.7380   ✗       
+557   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.6239     1656.7380   ✗       
+558   YQVSLHESSPDDPR           -1.0000     NotChecked  -8.6256     1628.7431   ✗       
+559   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.6269     1655.7540   ✗       
+560   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.6311     1656.7380   ✗       
+561   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.6313     1656.7380   ✗       
+562   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.6319     1656.7380   ✗       
+563   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.6346     1655.7540   ✗       
+564   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.6375     1655.7540   ✗       
+565   YQVSLHESDPDVPR           -1.0000     NotChecked  -8.6382     1640.7794   ✗       
+566   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.6427     1655.7540   ✗       
+567   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.6470     1656.7380   ✗       
+568   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.6478     1655.7540   ✗       
+569   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.6488     1656.7380   ✗       
+570   YQ+0.984VSLHESNPDDPR     -1.0000     NotChecked  -8.6515     1656.7380   ✗       
+571   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.6528     1656.7380   ✗       
+572   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.6585     1655.7540   ✗       
+573   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.6595     1656.7380   ✗       
+574   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.6612     1655.7540   ✗       
+575   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.6624     1656.7380   ✗       
+576   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.6629     1655.7540   ✗       
+577   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.6673     1656.7380   ✗       
+578   YQ+0.984VSLHESNPDDPR     -1.0000     NotChecked  -8.6700     1656.7380   ✗       
+579   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.6701     1656.7380   ✗       
+580   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.6810     1656.7380   ✗       
+581   YQVSLHESSNPDDPR          -1.0000     NotChecked  -8.6814     1742.7860   ✗       
+582   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.6853     1655.7540   ✗       
+583   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.6863     1656.7380   ✗       
+584   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.6875     1655.7540   ✗       
+585   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.6931     1656.7380   ✗       
+586   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.6983     1656.7380   ✗       
+587   YQVSLHESPDDPR            -1.0000     NotChecked  -8.7008     1541.7110   ✗       
+588   YQVSLHESSPDDPR           -1.0000     NotChecked  -8.7031     1628.7431   ✗       
+589   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.7048     1656.7380   ✗       
+590   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.7073     1656.7380   ✗       
+591   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.7094     1656.7380   ✗       
+592   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.7116     1656.7380   ✗       
+593   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.7150     1655.7540   ✗       
+594   YQVSLHESDPDVPR           -1.0000     NotChecked  -8.7157     1640.7794   ✗       
+595   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.7157     1655.7540   ✗       
+596   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.7229     1656.7380   ✗       
+597   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.7256     1656.7380   ✗       
+598   YQVSLHESPDDPR            -1.0000     NotChecked  -8.7290     1541.7110   ✗       
+599   YQVSLHESSPDDPR           -1.0000     NotChecked  -8.7314     1628.7431   ✗       
+600   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -8.7318     1657.7220   ✗       
+601   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.7331     1656.7380   ✗       
+602   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.7370     1656.7380   ✗       
+603   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.7398     1656.7380   ✗       
+604   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.7431     1656.7380   ✗       
+605   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.7433     1655.7540   ✗       
+606   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.7487     1656.7380   ✗       
+607   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.7549     1655.7540   ✗       
+608   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -8.7576     1657.7220   ✗       
+609   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.7647     1656.7380   ✗       
+610   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.7667     1656.7380   ✗       
+611   YQVSLHESSDPDDPR          -1.0000     NotChecked  -8.7689     1743.7700   ✗       
+612   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.7697     1656.7380   ✗       
+613   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.7709     1655.7540   ✗       
+614   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.7774     1656.7380   ✗       
+615   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -8.7785     1657.7220   ✗       
+616   YQVSLHESDPDVPR           -1.0000     NotChecked  -8.7790     1640.7794   ✗       
+617   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.7863     1655.7540   ✗       
+618   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.7877     1656.7380   ✗       
+619   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.7885     1655.7540   ✗       
+620   YQVSLHESSDPDDPR          -1.0000     NotChecked  -8.7898     1743.7700   ✗       
+621   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.7929     1656.7380   ✗       
+622   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.7960     1656.7380   ✗       
+623   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.7992     1655.7540   ✗       
+624   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.8020     1655.7540   ✗       
+625   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.8031     1656.7380   ✗       
+626   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.8062     1656.7380   ✗       
+627   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.8081     1656.7380   ✗       
+628   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.8094     1655.7540   ✗       
+629   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.8106     1656.7380   ✗       
+630   YQ+0.984VSLHESNPDDPR     -1.0000     NotChecked  -8.8108     1656.7380   ✗       
+631   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.8143     1655.7540   ✗       
+632   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.8173     1656.7380   ✗       
+633   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.8186     1656.7380   ✗       
+634   YQVSLHESSDPDDPR          -1.0000     NotChecked  -8.8218     1743.7700   ✗       
+635   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.8221     1655.7540   ✗       
+636   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.8235     1656.7380   ✗       
+637   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.8262     1656.7380   ✗       
+638   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.8302     1655.7540   ✗       
+639   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.8314     1656.7380   ✗       
+640   YQVSLHESDDPDVPR          -1.0000     NotChecked  -8.8335     1755.8064   ✗       
+641   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.8345     1656.7380   ✗       
+642   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -8.8351     1657.7220   ✗       
+643   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.8353     1655.7540   ✗       
+644   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.8363     1656.7380   ✗       
+645   YQ+0.984VSLHESNPDDPR     -1.0000     NotChecked  -8.8390     1656.7380   ✗       
+646   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.8391     1656.7380   ✗       
+647   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.8403     1656.7380   ✗       
+648   YQVSLHESSDPDDPR          -1.0000     NotChecked  -8.8464     1743.7700   ✗       
+649   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.8484     1655.7540   ✗       
+650   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.8499     1656.7380   ✗       
+651   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.8504     1655.7540   ✗       
+652   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.8545     1656.7380   ✗       
+653   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.8549     1656.7380   ✗       
+654   YQVSLHESDPDVPR           -1.0000     NotChecked  -8.8565     1640.7794   ✗       
+655   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.8565     1655.7540   ✗       
+656   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.8576     1656.7380   ✗       
+657   YQVSLHESNPDVPR           -1.0000     NotChecked  -8.8627     1639.7954   ✗       
+658   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -8.8633     1657.7220   ✗       
+659   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.8685     1656.7380   ✗       
+660   YQVSLHESPDDPR            -1.0000     NotChecked  -8.8698     1541.7110   ✗       
+661   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.8704     1656.7380   ✗       
+662   YQVSLHESSPDDPR           -1.0000     NotChecked  -8.8721     1628.7431   ✗       
+663   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.8728     1655.7540   ✗       
+664   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.8738     1656.7380   ✗       
+665   YQVSLHESSDPDDPR          -1.0000     NotChecked  -8.8746     1743.7700   ✗       
+666   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.8750     1655.7540   ✗       
+667   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.8767     1655.7540   ✗       
+668   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.8806     1656.7380   ✗       
+669   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.8831     1656.7380   ✗       
+670   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.8840     1655.7540   ✗       
+671   YQVSLHESDPDVPR           -1.0000     NotChecked  -8.8847     1640.7794   ✗       
+672   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.8858     1656.7380   ✗       
+673   YQVSLHESPDDPR            -1.0000     NotChecked  -8.8883     1541.7110   ✗       
+674   YQVSLHESSPDDPR           -1.0000     NotChecked  -8.8906     1628.7431   ✗       
+675   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.8919     1655.7540   ✗       
+676   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.8948     1656.7380   ✗       
+677   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.8961     1656.7380   ✗       
+678   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.8969     1656.7380   ✗       
+679   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.8988     1656.7380   ✗       
+680   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.9025     1655.7540   ✗       
+681   YQVSLHESDPDVPR           -1.0000     NotChecked  -8.9032     1640.7794   ✗       
+682   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.9032     1655.7540   ✗       
+683   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.9050     1655.7540   ✗       
+684   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -8.9076     1657.7220   ✗       
+685   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.9077     1655.7540   ✗       
+686   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.9104     1656.7380   ✗       
+687   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.9120     1656.7380   ✗       
+688   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.9138     1656.7380   ✗       
+689   YQVSLHESPDDPR            -1.0000     NotChecked  -8.9165     1541.7110   ✗       
+690   YQ+0.984VSLHESNPDDPR     -1.0000     NotChecked  -8.9165     1656.7380   ✗       
+691   YQVSLHESSPDDPR           -1.0000     NotChecked  -8.9189     1628.7431   ✗       
+692   YQVSLHESSDPDDPR          -1.0000     NotChecked  -8.9190     1743.7700   ✗       
+693   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -8.9193     1657.7220   ✗       
+694   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.9201     1655.7540   ✗       
+695   YQVSLHESDDPDVPR          -1.0000     NotChecked  -8.9231     1755.8064   ✗       
+696   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.9243     1656.7380   ✗       
+697   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.9245     1656.7380   ✗       
+698   YQVSLHESN+0.984PDDPR     -1.0000     NotChecked  -8.9249     1656.7380   ✗       
+699   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.9279     1655.7540   ✗       
+700   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.9306     1656.7380   ✗       
+701   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.9308     1655.7540   ✗       
+702   YQVSLHESNPDDPR           -1.0000     NotChecked  -8.9807     1655.7540   ✗       
+703   YQVSLHESDPDDPR           -1.0000     NotChecked  -8.9834     1656.7380   ✗       
+704   YQVSLHESNPDDPR           -1.0000     NotChecked  -9.0440     1655.7540   ✗       
+705   YQVSLHESDPDDPR           -1.0000     NotChecked  -9.0682     1656.7380   ✗       
+706   YQVSLHESDPDDPR           -1.0000     NotChecked  -9.0892     1656.7380   ✗       
+707   YQVSLHESNPDDPR           -1.0000     NotChecked  -9.1215     1655.7540   ✗       
+708   YQVSLHESNPDDPR           -1.0000     NotChecked  -9.1497     1655.7540   ✗       
+709   YQVSLHESNPDDPR           -1.0000     NotChecked  -9.1682     1655.7540   ✗       
+710   YQVSLHESDPDDPR           -1.0000     NotChecked  -9.2299     1656.7380   ✗       
+711   YQVSLHESDPDDPR           -1.0000     NotChecked  -9.2557     1656.7380   ✗       
+712   YQVSLHESDPDDPR           -1.0000     NotChecked  -9.2767     1656.7380   ✗       
+713   YQVSLHESNPDDPR           -1.0000     NotChecked  -9.3090     1655.7540   ✗       
+714   YQVSLHESDPDDPR           -1.0000     NotChecked  -9.3333     1656.7380   ✗       
+715   YQVSLHESNPDDPR           -1.0000     NotChecked  -9.3372     1655.7540   ✗       
+716   YQVSLHESDPDDPR           -1.0000     NotChecked  -9.3615     1656.7380   ✗       
+717   YQVSLHESDPDDPR           -1.0000     NotChecked  -9.4058     1656.7380   ✗       
+718   YQVSLHESNPDDPR           -1.0000     NotChecked  -9.4147     1655.7540   ✗       
+719   YQVSLHESDPDDPR           -1.0000     NotChecked  -9.4174     1656.7380   ✗       
+720   YQVSLHESNPDDPR           -1.0000     NotChecked  -9.5012     1655.7540   ✗       
+721   YQVSLHESDPDDPR           -1.0000     NotChecked  -9.5022     1656.7380   ✗       
+722   YQVSLHESDPDDPR           -1.0000     NotChecked  -9.5207     1656.7380   ✗       
+723   YQVSLHESDPDDPR           -1.0000     NotChecked  -9.5232     1656.7380   ✗       
+724   YQVSLHESDPDDPR           -1.0000     NotChecked  -9.5490     1656.7380   ✗       
+725   YQVSLHESDPDDPR           -1.0000     NotChecked  -9.5826     1656.7380   ✗       
+726   YQVSLHESDPDDPR           -1.0000     NotChecked  -9.5933     1656.7380   ✗       
+727   YQVSLHESNPDDPR           -1.0000     NotChecked  -9.6022     1655.7540   ✗       
+728   YQVSLHESDPDDPR           -1.0000     NotChecked  -9.6265     1656.7380   ✗       
+729   YQVSLHESDPDDPR           -1.0000     NotChecked  -9.6708     1656.7380   ✗       
+730   YQVSLHESNPDDPR           -1.0000     NotChecked  -9.6887     1655.7540   ✗       
+731   YQVSLHESDPDDPR           -1.0000     NotChecked  -9.6897     1656.7380   ✗       
+732   YQVSLHESDPDDPR           -1.0000     NotChecked  -9.6990     1656.7380   ✗       
+733   YQVSLHESDPDDPR           -1.0000     NotChecked  -9.7107     1656.7380   ✗       
+734   YQVSLHESDPDDPR           -1.0000     NotChecked  -9.7672     1656.7380   ✗       
+735   YQVSLHESDPDDPR           -1.0000     NotChecked  -9.7701     1656.7380   ✗       
+736   YQVSLHESNPDDPR           -1.0000     NotChecked  -9.7735     1655.7540   ✗       
+737   YQVSLHESNPDDPR           -1.0000     NotChecked  -9.7944     1655.7540   ✗       
+738   YQVSLHESDPDDPR           -1.0000     NotChecked  -9.7955     1656.7380   ✗       
+739   YQVSLHESDPDDPR           -1.0000     NotChecked  -9.8140     1656.7380   ✗       
+740   YQVSLHESDPDDPR           -1.0000     NotChecked  -9.8398     1656.7380   ✗       
+741   YQVSLHESDPDDPR           -1.0000     NotChecked  -9.8476     1656.7380   ✗       
+742   YQVSLHESDPDDPR           -1.0000     NotChecked  -9.8583     1656.7380   ✗       
+743   YQVSLHESDPDDPR           -1.0000     NotChecked  -9.8758     1656.7380   ✗       
+744   YQVSLHESDPDDPR           -1.0000     NotChecked  -9.8865     1656.7380   ✗       
+745   YQVSLHESDPDDPR           -1.0000     NotChecked  -9.9134     1656.7380   ✗       
+746   YQVSLHESNPDDPR           -1.0000     NotChecked  -9.9352     1655.7540   ✗       
+747   YQVSLHESDPDDPR           -1.0000     NotChecked  -9.9547     1656.7380   ✗       
+748   YQVSLHESNPDDPR           -1.0000     NotChecked  -9.9610     1655.7540   ✗       
+749   YQVSLHESDPDDPR           -1.0000     NotChecked  -9.9640     1656.7380   ✗       
+750   YQVSLHESNPDDPR           -1.0000     NotChecked  -9.9819     1655.7540   ✗       
+751   YQVSLHESDPDDPR           -1.0000     NotChecked  -9.9830     1656.7380   ✗       
+752   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.0166    1656.7380   ✗       
+753   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.0273    1656.7380   ✗       
+754   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.0351    1656.7380   ✗       
+755   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.0385    1655.7540   ✗       
+756   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.0605    1656.7380   ✗       
+757   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.0633    1656.7380   ✗       
+758   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.0667    1655.7540   ✗       
+759   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.1009    1656.7380   ✗       
+760   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.1048    1656.7380   ✗       
+761   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.1111    1655.7540   ✗       
+762   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.1227    1655.7540   ✗       
+763   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.1330    1656.7380   ✗       
+764   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.1408    1656.7380   ✗       
+765   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.1470    1656.7380   ✗       
+766   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.1515    1656.7380   ✗       
+767   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.1784    1656.7380   ✗       
+768   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.2041    1656.7380   ✗       
+769   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.2066    1656.7380   ✗       
+770   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.2075    1655.7540   ✗       
+771   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.2223    1656.7380   ✗       
+772   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.2260    1655.7540   ✗       
+773   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.2284    1655.7540   ✗       
+774   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -10.2311    1657.7220   ✗       
+775   YQVSLHESSDPDDPR          -1.0000     NotChecked  -10.2424    1743.7700   ✗       
+776   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.2480    1656.7380   ✗       
+777   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.2542    1655.7540   ✗       
+778   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.2816    1656.7380   ✗       
+779   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.2879    1655.7540   ✗       
+780   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.2923    1656.7380   ✗       
+781   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.2986    1655.7540   ✗       
+782   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.3098    1656.7380   ✗       
+783   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.3205    1656.7380   ✗       
+784   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.3283    1656.7380   ✗       
+785   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.3317    1655.7540   ✗       
+786   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.3345    1656.7380   ✗       
+787   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.3474    1656.7380   ✗       
+788   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.3659    1656.7380   ✗       
+789   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.3761    1655.7540   ✗       
+790   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.3941    1656.7380   ✗       
+791   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.3950    1655.7540   ✗       
+792   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.3980    1656.7380   ✗       
+793   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.4043    1655.7540   ✗       
+794   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.4098    1656.7380   ✗       
+795   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.4159    1655.7540   ✗       
+796   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -10.4186    1657.7220   ✗       
+797   YQVSLHESSDPDDPR          -1.0000     NotChecked  -10.4299    1743.7700   ✗       
+798   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.4402    1656.7380   ✗       
+799   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.4691    1656.7380   ✗       
+800   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.4716    1656.7380   ✗       
+801   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.4725    1655.7540   ✗       
+802   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.4754    1655.7540   ✗       
+803   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.4845    1656.7380   ✗       
+804   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.4873    1656.7380   ✗       
+805   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -10.4961    1657.7220   ✗       
+806   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.4973    1656.7380   ✗       
+807   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.5007    1655.7540   ✗       
+808   YQVSLHESSDPDDPR          -1.0000     NotChecked  -10.5074    1743.7700   ✗       
+809   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.5155    1656.7380   ✗       
+810   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.5192    1655.7540   ✗       
+811   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -10.5243    1657.7220   ✗       
+812   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.5349    1656.7380   ✗       
+813   YQVSLHESSDPDDPR          -1.0000     NotChecked  -10.5357    1743.7700   ✗       
+814   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.5451    1655.7540   ✗       
+815   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.5529    1655.7540   ✗       
+816   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.5636    1655.7540   ✗       
+817   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.5748    1656.7380   ✗       
+818   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.5810    1656.7380   ✗       
+819   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.5811    1655.7540   ✗       
+820   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.5855    1656.7380   ✗       
+821   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.5918    1655.7540   ✗       
+822   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.6124    1656.7380   ✗       
+823   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.6186    1655.7540   ✗       
+824   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.6277    1656.7380   ✗       
+825   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.6406    1656.7380   ✗       
+826   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.6563    1656.7380   ✗       
+827   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.6591    1656.7380   ✗       
+828   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.6600    1655.7540   ✗       
+829   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.6613    1656.7380   ✗       
+830   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -10.6651    1657.7220   ✗       
+831   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.6693    1655.7540   ✗       
+832   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.6720    1656.7380   ✗       
+833   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.6748    1656.7380   ✗       
+834   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.6764    1656.7380   ✗       
+835   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -10.6836    1657.7220   ✗       
+836   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.6882    1655.7540   ✗       
+837   YQVSLHESSDPDDPR          -1.0000     NotChecked  -10.6949    1743.7700   ✗       
+838   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.7030    1656.7380   ✗       
+839   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -10.7118    1657.7220   ✗       
+840   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.7219    1655.7540   ✗       
+841   YQVSLHESSDPDDPR          -1.0000     NotChecked  -10.7232    1743.7700   ✗       
+842   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.7326    1655.7540   ✗       
+843   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.7404    1655.7540   ✗       
+844   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.7568    1656.7380   ✗       
+845   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.7623    1656.7380   ✗       
+846   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.7657    1655.7540   ✗       
+847   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.7685    1656.7380   ✗       
+848   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.7686    1655.7540   ✗       
+849   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.7778    1656.7380   ✗       
+850   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.7805    1656.7380   ✗       
+851   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -10.7893    1657.7220   ✗       
+852   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.7999    1656.7380   ✗       
+853   YQVSLHESSDPDDPR          -1.0000     NotChecked  -10.8007    1743.7700   ✗       
+854   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.8061    1655.7540   ✗       
+855   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.8101    1655.7540   ✗       
+856   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.8281    1656.7380   ✗       
+857   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.8383    1655.7540   ✗       
+858   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.8438    1656.7380   ✗       
+859   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.8461    1655.7540   ✗       
+860   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.8488    1656.7380   ✗       
+861   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.8523    1655.7540   ✗       
+862   YQ+0.984VSLHESDPDDPR     -1.0000     NotChecked  -10.8526    1657.7220   ✗       
+863   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.8568    1655.7540   ✗       
+864   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.8639    1656.7380   ✗       
+865   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.8742    1656.7380   ✗       
+866   YQVSLHESNPDDPR           -1.0000     NotChecked  -10.8836    1655.7540   ✗       
+867   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.8902    1656.7380   ✗       
+868   YQVSLHESDPDDPR           -1.0000     NotChecked  -10.9056    1656.7380   ✗       
+869   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -13.9429    1699.7438   ✗       
+870   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -14.1304    1699.7438   ✗       
+871   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -14.2079    1699.7438   ✗       
+872   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -14.2362    1699.7438   ✗       
+873   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -14.3769    1699.7438   ✗       
+874   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -14.3954    1699.7438   ✗       
+875   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -14.4237    1699.7438   ✗       
+876   +42.011YQVSLHESDPDDPR    -1.0000     NotChecked  -14.4594    1698.7485   ✗       
+877   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -14.5012    1699.7438   ✗       
+878   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -14.5644    1699.7438   ✗       
+879   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -14.6419    1699.7438   ✗       
+880   +42.011YQVSLHESDPDDPR    -1.0000     NotChecked  -14.6469    1698.7485   ✗       
+881   +43.006YQVSLHESNPDDPR    -1.0000     NotChecked  -14.6482    1698.7598   ✗       
+882   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -14.6702    1699.7438   ✗       
+883   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -14.6887    1699.7438   ✗       
+884   +42.011YQVSLHESDPDDPR    -1.0000     NotChecked  -14.7244    1698.7485   ✗       
+885   +42.011YQVSLHESDPDDPR    -1.0000     NotChecked  -14.7526    1698.7485   ✗       
+886   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -14.8294    1699.7438   ✗       
+887   +43.006YQVSLHESNPDDPR    -1.0000     NotChecked  -14.8357    1698.7598   ✗       
+888   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -14.8577    1699.7438   ✗       
+889   +42.011YQVSLHESDPDDPR    -1.0000     NotChecked  -14.8934    1698.7485   ✗       
+890   +42.011YQVSLHESDPDDPR    -1.0000     NotChecked  -14.9119    1698.7485   ✗       
+891   +43.006YQVSLHESNPDDPR    -1.0000     NotChecked  -14.9132    1698.7598   ✗       
+892   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -14.9352    1699.7438   ✗       
+893   +42.011YQVSLHESDPDDPR    -1.0000     NotChecked  -14.9401    1698.7485   ✗       
+894   +43.006YQVSLHESNPDDPR    -1.0000     NotChecked  -14.9414    1698.7598   ✗       
+895   +42.011YQVSLHESDPDDPR    -1.0000     NotChecked  -15.0176    1698.7485   ✗       
+896   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -15.0217    1699.7438   ✗       
+897   +42.011YQVSLHESDPDDPR    -1.0000     NotChecked  -15.0808    1698.7485   ✗       
+898   +43.006YQVSLHESNPDDPR    -1.0000     NotChecked  -15.0822    1698.7598   ✗       
+899   +43.006YQVSLHESNPDDPR    -1.0000     NotChecked  -15.1007    1698.7598   ✗       
+900   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -15.1227    1699.7438   ✗       
+901   +43.006YQVSLHESNPDDPR    -1.0000     NotChecked  -15.1289    1698.7598   ✗       
+902   +42.011YQVSLHESDPDDPR    -1.0000     NotChecked  -15.1584    1698.7485   ✗       
+903   +42.011YQVSLHESNPDDPR    -1.0000     NotChecked  -15.1646    1697.7645   ✗       
+904   +42.011YQVSLHESDPDDPR    -1.0000     NotChecked  -15.1866    1698.7485   ✗       
+905   +42.011YQVSLHESDPDDPR    -1.0000     NotChecked  -15.2051    1698.7485   ✗       
+906   +43.006YQVSLHESNPDDPR    -1.0000     NotChecked  -15.2064    1698.7598   ✗       
+907   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -15.2092    1699.7438   ✗       
+908   +43.006YQVSLHESNPDDPR    -1.0000     NotChecked  -15.2697    1698.7598   ✗       
+909   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -15.2940    1699.7438   ✗       
+910   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -15.3149    1699.7438   ✗       
+911   +42.011YQVSLHESDPDDPR    -1.0000     NotChecked  -15.3458    1698.7485   ✗       
+912   +43.006YQVSLHESNPDDPR    -1.0000     NotChecked  -15.3472    1698.7598   ✗       
+913   +42.011YQVSLHESNPDDPR    -1.0000     NotChecked  -15.3521    1697.7645   ✗       
+914   +42.011YQVSLHESDPDDPR    -1.0000     NotChecked  -15.3741    1698.7485   ✗       
+915   +43.006YQVSLHESNPDDPR    -1.0000     NotChecked  -15.3754    1698.7598   ✗       
+916   +43.006YQVSLHESNPDDPR    -1.0000     NotChecked  -15.3939    1698.7598   ✗       
+917   +42.011YQVSLHESNPDDPR    -1.0000     NotChecked  -15.4296    1697.7645   ✗       
+918   +42.011YQVSLHESDPDDPR    -1.0000     NotChecked  -15.4516    1698.7485   ✗       
+919   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -15.4557    1699.7438   ✗       
+920   +42.011YQVSLHESNPDDPR    -1.0000     NotChecked  -15.4579    1697.7645   ✗       
+921   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -15.4815    1699.7438   ✗       
+922   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -15.5024    1699.7438   ✗       
+923   +43.006YQVSLHESNPDDPR    -1.0000     NotChecked  -15.5347    1698.7598   ✗       
+924   +42.011YQVSLHESDPDDPR    -1.0000     NotChecked  -15.5381    1698.7485   ✗       
+925   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -15.5590    1699.7438   ✗       
+926   +43.006YQVSLHESNPDDPR    -1.0000     NotChecked  -15.5629    1698.7598   ✗       
+927   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -15.5872    1699.7438   ✗       
+928   +42.011YQVSLHESNPDDPR    -1.0000     NotChecked  -15.5986    1697.7645   ✗       
+929   +42.011YQVSLHESNPDDPR    -1.0000     NotChecked  -15.6171    1697.7645   ✗       
+930   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -15.6315    1699.7438   ✗       
+931   +42.011YQVSLHESDPDDPR    -1.0000     NotChecked  -15.6391    1698.7485   ✗       
+932   +43.006YQVSLHESNPDDPR    -1.0000     NotChecked  -15.6404    1698.7598   ✗       
+933   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -15.6432    1699.7438   ✗       
+934   +42.011YQVSLHESNPDDPR    -1.0000     NotChecked  -15.6454    1697.7645   ✗       
+935   +42.011YQVSLHESNPDDPR    -1.0000     NotChecked  -15.7229    1697.7645   ✗       
+936   +42.011YQVSLHESDPDDPR    -1.0000     NotChecked  -15.7256    1698.7485   ✗       
+937   +43.006YQVSLHESNPDDPR    -1.0000     NotChecked  -15.7270    1698.7598   ✗       
+938   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -15.7280    1699.7438   ✗       
+939   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -15.7465    1699.7438   ✗       
+940   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -15.7489    1699.7438   ✗       
+941   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -15.7747    1699.7438   ✗       
+942   +42.011YQVSLHESNPDDPR    -1.0000     NotChecked  -15.7861    1697.7645   ✗       
+943   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -15.8083    1699.7438   ✗       
+944   +42.011YQVSLHESDPDDPR    -1.0000     NotChecked  -15.8104    1698.7485   ✗       
+945   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -15.8190    1699.7438   ✗       
+946   +43.006YQVSLHESNPDDPR    -1.0000     NotChecked  -15.8279    1698.7598   ✗       
+947   +42.011YQVSLHESDPDDPR    -1.0000     NotChecked  -15.8313    1698.7485   ✗       
+948   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -15.8522    1699.7438   ✗       
+949   +42.011YQVSLHESNPDDPR    -1.0000     NotChecked  -15.8636    1697.7645   ✗       
+950   +42.011YQVSLHESNPDDPR    -1.0000     NotChecked  -15.8918    1697.7645   ✗       
+951   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -15.8965    1699.7438   ✗       
+952   +42.011YQVSLHESNPDDPR    -1.0000     NotChecked  -15.9104    1697.7645   ✗       
+953   +43.006YQVSLHESNPDDPR    -1.0000     NotChecked  -15.9145    1698.7598   ✗       
+954   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -15.9155    1699.7438   ✗       
+955   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -15.9247    1699.7438   ✗       
+956   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -15.9364    1699.7438   ✗       
+957   +42.011YQVSLHESDPDDPR    -1.0000     NotChecked  -15.9721    1698.7485   ✗       
+958   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -15.9930    1699.7438   ✗       
+959   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -15.9958    1699.7438   ✗       
+960   +42.011YQVSLHESDPDDPR    -1.0000     NotChecked  -15.9979    1698.7485   ✗       
+961   +43.006YQVSLHESNPDDPR    -1.0000     NotChecked  -15.9993    1698.7598   ✗       
+962   +42.011YQVSLHESDPDDPR    -1.0000     NotChecked  -16.0188    1698.7485   ✗       
+963   +43.006YQVSLHESNPDDPR    -1.0000     NotChecked  -16.0202    1698.7598   ✗       
+964   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -16.0212    1699.7438   ✗       
+965   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -16.0397    1699.7438   ✗       
+966   +42.011YQVSLHESNPDDPR    -1.0000     NotChecked  -16.0511    1697.7645   ✗       
+967   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -16.0655    1699.7438   ✗       
+968   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -16.0733    1699.7438   ✗       
+969   +42.011YQVSLHESDPDDPR    -1.0000     NotChecked  -16.0754    1698.7485   ✗       
+970   +42.011YQVSLHESNPDDPR    -1.0000     NotChecked  -16.0793    1697.7645   ✗       
+971   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -16.0840    1699.7438   ✗       
+972   YQVSLHESDPDDPR           -1.0000     NotChecked  -16.0977    1656.7380   ✗       
+973   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -16.1016    1699.7438   ✗       
+974   +42.011YQVSLHESDPDDPR    -1.0000     NotChecked  -16.1036    1698.7485   ✗       
+975   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -16.1122    1699.7438   ✗       
+976   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -16.1391    1699.7438   ✗       
+977   +42.011YQVSLHESDPDDPR    -1.0000     NotChecked  -16.1479    1698.7485   ✗       
+978   +42.011YQVSLHESNPDDPR    -1.0000     NotChecked  -16.1568    1697.7645   ✗       
+979   +42.011YQVSLHESDPDDPR    -1.0000     NotChecked  -16.1596    1698.7485   ✗       
+980   +43.006YQVSLHESNPDDPR    -1.0000     NotChecked  -16.1610    1698.7598   ✗       
+981   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -16.1805    1699.7438   ✗       
+982   +43.006YQVSLHESNPDDPR    -1.0000     NotChecked  -16.1868    1698.7598   ✗       
+983   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -16.1898    1699.7438   ✗       
+984   +43.006YQVSLHESNPDDPR    -1.0000     NotChecked  -16.2077    1698.7598   ✗       
+985   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -16.2087    1699.7438   ✗       
+986   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -16.2423    1699.7438   ✗       
+987   +42.011YQVSLHESNPDDPR    -1.0000     NotChecked  -16.2434    1697.7645   ✗       
+988   +42.011YQVSLHESDPDDPR    -1.0000     NotChecked  -16.2444    1698.7485   ✗       
+989   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -16.2530    1699.7438   ✗       
+990   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -16.2608    1699.7438   ✗       
+991   +42.011YQVSLHESDPDDPR    -1.0000     NotChecked  -16.2629    1698.7485   ✗       
+992   +43.006YQVSLHESNPDDPR    -1.0000     NotChecked  -16.2643    1698.7598   ✗       
+993   +42.011YQVSLHESDPDDPR    -1.0000     NotChecked  -16.2653    1698.7485   ✗       
+994   YQVSLHESDPDDPR           -1.0000     NotChecked  -16.2852    1656.7380   ✗       
+995   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -16.2862    1699.7438   ✗       
+996   +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -16.2891    1699.7438   ✗       
+997   +42.011YQVSLHESDPDDPR    -1.0000     NotChecked  -16.2911    1698.7485   ✗       
+998   +43.006YQVSLHESNPDDPR    -1.0000     NotChecked  -16.2925    1698.7598   ✗       
+999   +42.011YQVSLHESDPDDPR    -1.0000     NotChecked  -16.3248    1698.7485   ✗       
+1000  +43.006YQVSLHESDPDDPR    -1.0000     NotChecked  -16.3266    1699.7438   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: YQVSLHESDNPDDPR
+Similarity: 0.7191
+De Novo Score: -6.0865
+Source: Database
+Correct: ✓
+

@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 276
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 632.3509
+Precursor charge: 2+
+Ground truth: IAIDVEIATYR
+Ground truth (normalized): IAIDVEIATYR
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 183
+Used for reranking: 183
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 183 (18.3%)
+Database matches: 107 (10.7%)
+Prosit predictions: 73 (7.3%)
+Failed: 3 (0.3%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.6295
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     LALDVELATYR              0.6295      Database    -0.2224     1262.6870   ✓       ✓
+2     LALDVELATYR              0.6295      Database    -1.6735     1262.6870   ✓       ✓
+3     LALDVELATYR              0.6295      Database    -4.9057     1262.6870   ✓       ✓
+4     LALDVELATYR              0.6295      Database    -6.3567     1262.6870   ✓       ✓
+5     LALDVELATYR              0.6295      Database    -6.4745     1262.6870   ✓       ✓
+6     LALDVELATYR              0.6295      Database    -7.9256     1262.6870   ✓       ✓
+7     LALDVELATYR              0.6295      Database    -8.4469     1262.6870   ✓       ✓
+8     LALDVELATYR              0.6295      Database    -9.8979     1262.6870   ✓       ✓
+9     LALDVELATYR              0.6295      Database    -11.1577    1262.6870   ✓       ✓
+10    LALDVELATYR              0.6295      Database    -12.6088    1262.6870   ✓       ✓
+11    LALDVELATYR              0.6295      Database    -12.9961    1262.6870   ✓       ✓
+12    LALDVELATYR              0.6295      Database    -13.1301    1262.6870   ✓       ✓
+13    LALDVELATYR              0.6295      Database    -13.7473    1262.6870   ✓       ✓
+14    LALDVELATYR              0.6295      Database    -14.2444    1262.6870   ✓       ✓
+15    LALDVELATYR              0.6295      Database    -14.4471    1262.6870   ✓       ✓
+16    LALDVELATYR              0.6295      Database    -14.5811    1262.6870   ✓       ✓
+17    LALDVELATYR              0.6295      Database    -14.6990    1262.6870   ✓       ✓
+18    LALDVELATYR              0.6295      Database    -14.9840    1262.6870   ✓       ✓
+19    LALDVELATYR              0.6295      Database    -15.1984    1262.6870   ✓       ✓
+20    LALDVELATYR              0.6295      Database    -15.3175    1262.6870   ✓       ✓
+21    LALDVELATYR              0.6295      Database    -15.4532    1262.6870   ✓       ✓
+22    LALDVELATYR              0.6295      Database    -16.1500    1262.6870   ✓       ✓
+23    LALDVELATYR              0.6295      Database    -16.4351    1262.6870   ✓       ✓
+24    LALDVELATYR              0.6295      Database    -16.5884    1262.6870   ✓       ✓
+25    LALDVELATYR              0.6295      Database    -16.7685    1262.6870   ✓       ✓
+26    LALDVELATYR              0.6295      Database    -17.1806    1262.6870   ✓       ✓
+27    LALDVELATYR              0.6295      Database    -17.6793    1262.6870   ✓       ✓
+28    LALDVELATYR              0.6295      Database    -17.7685    1262.6870   ✓       ✓
+29    LALDVELATYR              0.6295      Database    -18.0394    1262.6870   ✓       ✓
+30    LALDVELATYR              0.6295      Database    -18.1404    1262.6870   ✓       ✓
+31    LALDVELATYR              0.6295      Database    -18.4306    1262.6870   ✓       ✓
+32    LALDVELATYR              0.6295      Database    -18.6317    1262.6870   ✓       ✓
+33    LALDVELATYR              0.6295      Database    -18.6704    1262.6870   ✓       ✓
+34    LALDVELATYR              0.6295      Database    -18.7816    1262.6870   ✓       ✓
+35    LALDVELATYR              0.6295      Database    -18.9276    1262.6870   ✓       ✓
+36    LALDVELATYR              0.6295      Database    -19.1303    1262.6870   ✓       ✓
+37    LALDVELATYR              0.6295      Database    -19.2195    1262.6870   ✓       ✓
+38    LALDVELATYR              0.6295      Database    -19.2482    1262.6870   ✓       ✓
+39    LALDVELATYR              0.6295      Database    -19.3822    1262.6870   ✓       ✓
+40    LALDVELATYR              0.6295      Database    -19.5914    1262.6870   ✓       ✓
+41    LALDVELATYR              0.6295      Database    -19.6673    1262.6870   ✓       ✓
+42    LALDVELATYR              0.6295      Database    -19.8816    1262.6870   ✓       ✓
+43    LALDVELATYR              0.6295      Database    -19.9994    1262.6870   ✓       ✓
+44    LALDVELATYR              0.6295      Database    -20.0001    1262.6870   ✓       ✓
+45    LALDVELATYR              0.6295      Database    -20.0007    1262.6870   ✓       ✓
+46    LALDVELATYR              0.6295      Database    -20.1214    1262.6870   ✓       ✓
+47    LALDVELATYR              0.6295      Database    -20.1364    1262.6870   ✓       ✓
+48    LALDVELATYR              0.6295      Database    -20.2326    1262.6870   ✓       ✓
+49    LALDVELATYR              0.6295      Database    -20.4965    1262.6870   ✓       ✓
+50    LALDVELATYR              0.6295      Database    -20.5698    1262.6870   ✓       ✓
+51    LALDVELATYR              0.6295      Database    -20.6879    1262.6870   ✓       ✓
+52    LALDVELATYR              0.6295      Database    -20.6992    1262.6870   ✓       ✓
+53    LALDVELATYR              0.6295      Database    -20.8332    1262.6870   ✓       ✓
+54    LALDVELATYR              0.6295      Database    -21.0708    1262.6870   ✓       ✓
+55    LALDVELATYR              0.6295      Database    -21.1183    1262.6870   ✓       ✓
+56    LALDVELATYR              0.6295      Database    -21.1264    1262.6870   ✓       ✓
+57    LALDVELATYR              0.6295      Database    -21.2205    1262.6870   ✓       ✓
+58    LALDVELATYR              0.6295      Database    -21.2716    1262.6870   ✓       ✓
+59    LALDVELATYR              0.6295      Database    -21.4505    1262.6870   ✓       ✓
+60    LALDVELATYR              0.6295      Database    -21.4512    1262.6870   ✓       ✓
+61    LALDVELATYR              0.6295      Database    -21.4517    1262.6870   ✓       ✓
+62    LALDVELATYR              0.6295      Database    -21.5696    1262.6870   ✓       ✓
+63    LALDVELATYR              0.6295      Database    -21.7053    1262.6870   ✓       ✓
+64    LALDVELATYR              0.6295      Database    -21.8638    1262.6870   ✓       ✓
+65    LALDVELATYR              0.6295      Database    -21.9718    1262.6870   ✓       ✓
+66    LALDVELATYR              0.6295      Database    -22.0209    1262.6870   ✓       ✓
+67    LALDVELATYR              0.6295      Database    -22.1390    1262.6870   ✓       ✓
+68    LALDVELATYR              0.6295      Database    -22.4517    1262.6870   ✓       ✓
+69    LALDVELATYR              0.6295      Database    -22.4688    1262.6870   ✓       ✓
+70    LALDVELATYR              0.6295      Database    -22.5218    1262.6870   ✓       ✓
+71    LALDVELATYR              0.6295      Database    -22.5775    1262.6870   ✓       ✓
+72    LALDVELATYR              0.6295      Database    -22.6715    1262.6870   ✓       ✓
+73    LALDVELATYR              0.6295      Database    -22.7226    1262.6870   ✓       ✓
+74    LALDVELATYR              0.6295      Database    -22.8236    1262.6870   ✓       ✓
+75    LALDVELATYR              0.6295      Database    -22.8405    1262.6870   ✓       ✓
+76    LALDVELATYR              0.6295      Database    -23.0206    1262.6870   ✓       ✓
+77    LALDVELATYR              0.6295      Database    -23.2085    1262.6870   ✓       ✓
+78    LALDVELATYR              0.6295      Database    -23.3149    1262.6870   ✓       ✓
+79    LALDVELATYR              0.6295      Database    -23.3536    1262.6870   ✓       ✓
+80    LALDVELATYR              0.6295      Database    -23.4228    1262.6870   ✓       ✓
+81    LALDVELATYR              0.6295      Database    -23.4327    1262.6870   ✓       ✓
+82    LALDVELATYR              0.6295      Database    -23.4648    1262.6870   ✓       ✓
+83    LALDVELATYR              0.6295      Database    -23.5419    1262.6870   ✓       ✓
+84    LALDVELATYR              0.6295      Database    -23.6776    1262.6870   ✓       ✓
+85    LALDVELATYR              0.6295      Database    -23.9027    1262.6870   ✓       ✓
+86    LALDVELATYR              0.6295      Database    -23.9314    1262.6870   ✓       ✓
+87    LALDVELATYR              0.6295      Database    -24.0206    1262.6870   ✓       ✓
+88    LALDVELATYR              0.6295      Database    -24.0948    1262.6870   ✓       ✓
+89    LALDVELATYR              0.6295      Database    -24.2746    1262.6870   ✓       ✓
+90    LALDVELATYR              0.6295      Database    -24.2915    1262.6870   ✓       ✓
+91    LALDVELATYR              0.6295      Database    -24.3925    1262.6870   ✓       ✓
+92    LALDVELATYR              0.6295      Database    -24.6595    1262.6870   ✓       ✓
+93    LALDVELATYR              0.6295      Database    -24.6827    1262.6870   ✓       ✓
+94    LALDVELATYR              0.6295      Database    -24.6834    1262.6870   ✓       ✓
+95    LALDVELATYR              0.6295      Database    -24.8046    1262.6870   ✓       ✓
+96    LALDVELATYR              0.6295      Database    -24.8128    1262.6870   ✓       ✓
+97    LALDVELATYR              0.6295      Database    -24.8837    1262.6870   ✓       ✓
+98    LALDVELATYR              0.6295      Database    -24.9158    1262.6870   ✓       ✓
+99    LALDVELATYR              0.6295      Database    -24.9225    1262.6870   ✓       ✓
+100   LALDVELATYR              0.6295      Database    -24.9930    1262.6870   ✓       ✓
+101   LALDVELATYR              0.6295      Database    -25.0337    1262.6870   ✓       ✓
+102   LALDVELATYR              0.6295      Database    -25.1797    1262.6870   ✓       ✓
+103   LALDVELATYR              0.6295      Database    -25.2531    1262.6870   ✓       ✓
+104   LALDVELATYR              0.6295      Database    -25.3711    1262.6870   ✓       ✓
+105   LALDVELATYR              0.6295      Database    -25.3824    1262.6870   ✓       ✓
+106   LALDVELATYR              0.6295      Database    -25.4051    1262.6870   ✓       ✓
+107   LALDVELATYR              0.6295      Database    -25.4716    1262.6870   ✓       ✓
+108   +42.011ALDVAELATYR       0.3643      Prosit      -34.0665    1262.6507   ✓       
+109   LALN+0.984VQ+0.984LATYR  0.3570      Prosit      -16.9031    1262.6870   ✓       
+110   LALN+0.984VQ+0.984LATYR  0.3570      Prosit      -18.3541    1262.6870   ✓       
+111   LALN+0.984VQ+0.984LATYR  0.3570      Prosit      -21.5863    1262.6870   ✓       
+112   LALN+0.984VQ+0.984LATYR  0.3570      Prosit      -23.0374    1262.6870   ✓       
+113   LALN+0.984VQ+0.984LATYR  0.3570      Prosit      -23.1552    1262.6870   ✓       
+114   LALN+0.984VQ+0.984LATYR  0.3570      Prosit      -24.6062    1262.6870   ✓       
+115   LALN+0.984VQ+0.984LATYR  0.3570      Prosit      -25.1275    1262.6870   ✓       
+116   LALDVQ+0.984LATYR        0.3559      Prosit      -8.4875     1262.6870   ✓       
+117   LALDVQ+0.984LATYR        0.3559      Prosit      -9.9385     1262.6870   ✓       
+118   LALDVQ+0.984LATYR        0.3559      Prosit      -13.1707    1262.6870   ✓       
+119   LALDVQ+0.984LATYR        0.3559      Prosit      -14.6217    1262.6870   ✓       
+120   LALDVQ+0.984LATYR        0.3559      Prosit      -14.7396    1262.6870   ✓       
+121   LALDVQ+0.984LATYR        0.3559      Prosit      -16.1906    1262.6870   ✓       
+122   LALDVQ+0.984LATYR        0.3559      Prosit      -16.7119    1262.6870   ✓       
+123   LALDVQ+0.984LATYR        0.3559      Prosit      -18.1630    1262.6870   ✓       
+124   LALDVQ+0.984LATYR        0.3559      Prosit      -19.4228    1262.6870   ✓       
+125   LALDVQ+0.984LATYR        0.3559      Prosit      -20.8738    1262.6870   ✓       
+126   LALDVQ+0.984LATYR        0.3559      Prosit      -21.2611    1262.6870   ✓       
+127   LALDVQ+0.984LATYR        0.3559      Prosit      -21.3951    1262.6870   ✓       
+128   LALDVQ+0.984LATYR        0.3559      Prosit      -22.0124    1262.6870   ✓       
+129   LALDVQ+0.984LATYR        0.3559      Prosit      -22.5094    1262.6870   ✓       
+130   LALDVQ+0.984LATYR        0.3559      Prosit      -22.7122    1262.6870   ✓       
+131   LALDVQ+0.984LATYR        0.3559      Prosit      -22.8462    1262.6870   ✓       
+132   LALDVQ+0.984LATYR        0.3559      Prosit      -22.9640    1262.6870   ✓       
+133   LALDVQ+0.984LATYR        0.3559      Prosit      -23.2491    1262.6870   ✓       
+134   LALDVQ+0.984LATYR        0.3559      Prosit      -23.4634    1262.6870   ✓       
+135   LALDVQ+0.984LATYR        0.3559      Prosit      -23.5825    1262.6870   ✓       
+136   LALDVQ+0.984LATYR        0.3559      Prosit      -23.7182    1262.6870   ✓       
+137   LALDVQ+0.984LATYR        0.3559      Prosit      -24.4150    1262.6870   ✓       
+138   LALDVQ+0.984LATYR        0.3559      Prosit      -24.7001    1262.6870   ✓       
+139   LALDVQ+0.984LATYR        0.3559      Prosit      -24.8534    1262.6870   ✓       
+140   LALDVQ+0.984LATYR        0.3559      Prosit      -25.0336    1262.6870   ✓       
+141   LALDVQ+0.984LATYR        0.3559      Prosit      -25.4457    1262.6870   ✓       
+142   LALN+0.984VELATYR        0.3528      Prosit      -8.6380     1262.6870   ✓       
+143   LALN+0.984VELATYR        0.3528      Prosit      -10.0891    1262.6870   ✓       
+144   LALN+0.984VELATYR        0.3528      Prosit      -13.3213    1262.6870   ✓       
+145   LALN+0.984VELATYR        0.3528      Prosit      -14.7723    1262.6870   ✓       
+146   LALN+0.984VELATYR        0.3528      Prosit      -14.8901    1262.6870   ✓       
+147   LALN+0.984VELATYR        0.3528      Prosit      -16.3412    1262.6870   ✓       
+148   LALN+0.984VELATYR        0.3528      Prosit      -16.8625    1262.6870   ✓       
+149   LALN+0.984VELATYR        0.3528      Prosit      -18.3135    1262.6870   ✓       
+150   LALN+0.984VELATYR        0.3528      Prosit      -19.5734    1262.6870   ✓       
+151   LALN+0.984VELATYR        0.3528      Prosit      -21.0244    1262.6870   ✓       
+152   LALN+0.984VELATYR        0.3528      Prosit      -21.4117    1262.6870   ✓       
+153   LALN+0.984VELATYR        0.3528      Prosit      -21.5457    1262.6870   ✓       
+154   LALN+0.984VELATYR        0.3528      Prosit      -22.1630    1262.6870   ✓       
+155   LALN+0.984VELATYR        0.3528      Prosit      -22.6600    1262.6870   ✓       
+156   LALN+0.984VELATYR        0.3528      Prosit      -22.8627    1262.6870   ✓       
+157   LALN+0.984VELATYR        0.3528      Prosit      -22.9968    1262.6870   ✓       
+158   LALN+0.984VELATYR        0.3528      Prosit      -23.1146    1262.6870   ✓       
+159   LALN+0.984VELATYR        0.3528      Prosit      -23.3997    1262.6870   ✓       
+160   LALN+0.984VELATYR        0.3528      Prosit      -23.6140    1262.6870   ✓       
+161   LALN+0.984VELATYR        0.3528      Prosit      -23.7331    1262.6870   ✓       
+162   LALN+0.984VELATYR        0.3528      Prosit      -23.8688    1262.6870   ✓       
+163   LALN+0.984VELATYR        0.3528      Prosit      -24.5656    1262.6870   ✓       
+164   LALN+0.984VELATYR        0.3528      Prosit      -24.8507    1262.6870   ✓       
+165   LALN+0.984VELATYR        0.3528      Prosit      -25.0040    1262.6870   ✓       
+166   LALN+0.984VELATYR        0.3528      Prosit      -25.1841    1262.6870   ✓       
+167   +42.011ALDVELAATYR       0.3472      Prosit      -33.4604    1262.6507   ✓       
+168   +42.011ALDVELAATYR       0.3472      Prosit      -33.6112    1262.6507   ✓       
+169   +42.011ALDVELAATYR       0.3472      Prosit      -33.6572    1262.6507   ✓       
+170   +42.011ALDVELAATYR       0.3472      Prosit      -34.4843    1262.6507   ✓       
+171   VALEVELATYR              0.3462      Prosit      -27.3540    1262.6870   ✓       
+172   VALEVELATYR              0.3462      Prosit      -28.8050    1262.6870   ✓       
+173   VALEVELATYR              0.3462      Prosit      -32.0372    1262.6870   ✓       
+174   VALEVELATYR              0.3462      Prosit      -33.4883    1262.6870   ✓       
+175   VALEVELATYR              0.3462      Prosit      -33.6061    1262.6870   ✓       
+176   VALDLELATYR              0.3442      Prosit      -27.7456    1262.6870   ✓       
+177   VALDLELATYR              0.3442      Prosit      -29.1966    1262.6870   ✓       
+178   VALDLELATYR              0.3442      Prosit      -33.9977    1262.6870   ✓       
+179   ALLDVELATYR              0.3397      Prosit      -30.0011    1262.6870   ✓       
+180   +42.011AALDVELATYR       0.3340      Prosit      -30.2010    1262.6507   ✓       
+181   VALDVELATYR              -1.0000     NotChecked  -13.0395    1248.6714   ✗       
+182   LALDVELATR               -1.0000     NotChecked  -14.4358    1099.6237   ✗       
+183   VALDVELATYR              -1.0000     NotChecked  -14.4906    1248.6714   ✗       
+184   +42.011ALDVELATYR        -1.0000     NotChecked  -14.7280    1191.6135   ✗       
+185   LALDVQLATYR              -1.0000     NotChecked  -14.9979    1261.7030   ✗       
+186   LALDVDLATYR              -1.0000     NotChecked  -15.2223    1248.6714   ✗       
+187   LALDVELATFR              -1.0000     NotChecked  -15.6811    1246.6921   ✗       
+188   LALDVELATTR              -1.0000     NotChecked  -15.7461    1200.6714   ✗       
+189   LALDVELATR               -1.0000     NotChecked  -15.8869    1099.6237   ✗       
+190   LALDVELATYK              -1.0000     NotChecked  -15.9051    1234.6809   ✗       
+191   AALDVELATYR              -1.0000     NotChecked  -15.9777    1220.6401   ✗       
+192   LALGVELATYR              -1.0000     NotChecked  -16.1565    1204.6816   ✗       
+193   +42.011ALDVELATYR        -1.0000     NotChecked  -16.1790    1191.6135   ✗       
+194   LALDVELATGR              -1.0000     NotChecked  -16.1824    1156.6452   ✗       
+195   LALDVELATQR              -1.0000     NotChecked  -16.2275    1227.6823   ✗       
+196   LALDVQLATYR              -1.0000     NotChecked  -16.4490    1261.7030   ✗       
+197   LALLVELATYR              -1.0000     NotChecked  -16.6452    1260.7442   ✗       
+198   LALDVDLATYR              -1.0000     NotChecked  -16.6734    1248.6714   ✗       
+199   LALDVELATY               -1.0000     NotChecked  -16.7382    1106.5859   ✗       
+200   LALNVELATYR              -1.0000     NotChecked  -16.7678    1261.7030   ✗       
+201   LALDVELAVYR              -1.0000     NotChecked  -16.7890    1260.7078   ✗       
+202   LALDVELATER              -1.0000     NotChecked  -16.8104    1228.6663   ✗       
+203   LLDVELATYR               -1.0000     NotChecked  -16.9042    1191.6499   ✗       
+204   LALSVELATYR              -1.0000     NotChecked  -17.0710    1234.6921   ✗       
+205   LALDVELATFR              -1.0000     NotChecked  -17.1322    1246.6921   ✗       
+206   LAADVELATYR              -1.0000     NotChecked  -17.1570    1220.6401   ✗       
+207   LALDVELATTR              -1.0000     NotChecked  -17.1971    1200.6714   ✗       
+208   LALDVELATLR              -1.0000     NotChecked  -17.1983    1212.7078   ✗       
+209   LGLDVELATYR              -1.0000     NotChecked  -17.2502    1248.6714   ✗       
+210   LALDVELATVR              -1.0000     NotChecked  -17.3443    1198.6921   ✗       
+211   LALDVELATYK              -1.0000     NotChecked  -17.3561    1234.6809   ✗       
+212   LALTVELATYR              -1.0000     NotChecked  -17.3701    1248.7078   ✗       
+213   AALDVELATYR              -1.0000     NotChecked  -17.4288    1220.6401   ✗       
+214   LALDVELATKR              -1.0000     NotChecked  -17.4382    1227.7187   ✗       
+215   LAVDVELATYR              -1.0000     NotChecked  -17.5065    1248.6714   ✗       
+216   LALGVELATYR              -1.0000     NotChecked  -17.6075    1204.6816   ✗       
+217   LALDVELATGR              -1.0000     NotChecked  -17.6334    1156.6452   ✗       
+218   LALDVELATQR              -1.0000     NotChecked  -17.6785    1227.6823   ✗       
+219   VALDVELATYR              -1.0000     NotChecked  -17.7227    1248.6714   ✗       
+220   LALDVSLATYR              -1.0000     NotChecked  -17.7727    1220.6765   ✗       
+221   LALDVKLATYR              -1.0000     NotChecked  -17.9524    1261.7394   ✗       
+222   LALDVLLATYR              -1.0000     NotChecked  -17.9762    1246.7285   ✗       
+223   LALDVLATYR               -1.0000     NotChecked  -18.0739    1133.6445   ✗       
+224   LALLVELATYR              -1.0000     NotChecked  -18.0963    1260.7442   ✗       
+225   LALDVELATY               -1.0000     NotChecked  -18.1892    1106.5859   ✗       
+226   LALNVELATYR              -1.0000     NotChecked  -18.2188    1261.7030   ✗       
+227   LALDVELAVYR              -1.0000     NotChecked  -18.2400    1260.7078   ✗       
+228   LALDVELATER              -1.0000     NotChecked  -18.2614    1228.6663   ✗       
+229   LALDAELATYR              -1.0000     NotChecked  -18.4855    1234.6557   ✗       
+230   LALSVELATYR              -1.0000     NotChecked  -18.5221    1234.6921   ✗       
+231   LAADVELATYR              -1.0000     NotChecked  -18.6081    1220.6401   ✗       
+232   LALDVELATLR              -1.0000     NotChecked  -18.6494    1212.7078   ✗       
+233   +43.006ALDVELATYR        -1.0000     NotChecked  -18.7191    1192.6088   ✗       
+234   LALDVEVATYR              -1.0000     NotChecked  -18.7827    1248.6714   ✗       
+235   LALDVELATVR              -1.0000     NotChecked  -18.7953    1198.6921   ✗       
+236   LALDVELATYT              -1.0000     NotChecked  -18.8202    1207.6336   ✗       
+237   LALTVELATYR              -1.0000     NotChecked  -18.8211    1248.7078   ✗       
+238   LALDVELATKR              -1.0000     NotChecked  -18.8893    1227.7187   ✗       
+239   LAVDVELATYR              -1.0000     NotChecked  -18.9576    1248.6714   ✗       
+240   LALDVELATR               -1.0000     NotChecked  -19.1191    1099.6237   ✗       
+241   VALDVELATYR              -1.0000     NotChecked  -19.1738    1248.6714   ✗       
+242   LALDVELATYV              -1.0000     NotChecked  -19.1756    1205.6543   ✗       
+243   LALDVSLATYR              -1.0000     NotChecked  -19.2237    1220.6765   ✗       
+244   VALDVELATYR              -1.0000     NotChecked  -19.2916    1248.6714   ✗       
+245   LALDVEPATYR              -1.0000     NotChecked  -19.3405    1246.6557   ✗       
+246   LALDVKLATYR              -1.0000     NotChecked  -19.4035    1261.7394   ✗       
+247   +42.011ALDVELATYR        -1.0000     NotChecked  -19.4112    1191.6135   ✗       
+248   LALDVLLATYR              -1.0000     NotChecked  -19.4272    1246.7285   ✗       
+249   LALDVLATYR               -1.0000     NotChecked  -19.5249    1133.6445   ✗       
+250   LALDVELATYH              -1.0000     NotChecked  -19.5904    1243.6448   ✗       
+251   LALDVQLATYR              -1.0000     NotChecked  -19.6812    1261.7030   ✗       
+252   LAPDVELATYR              -1.0000     NotChecked  -19.8440    1246.6557   ✗       
+253   LALDVDLATYR              -1.0000     NotChecked  -19.9056    1248.6714   ✗       
+254   LALDAELATYR              -1.0000     NotChecked  -19.9365    1234.6557   ✗       
+255   LALDVELATYP              -1.0000     NotChecked  -20.1540    1203.6387   ✗       
+256   +43.006ALDVELATYR        -1.0000     NotChecked  -20.1701    1192.6088   ✗       
+257   LALDVELGTYR              -1.0000     NotChecked  -20.2027    1248.6714   ✗       
+258   LALDVEVATYR              -1.0000     NotChecked  -20.2337    1248.6714   ✗       
+259   LALDVELATYT              -1.0000     NotChecked  -20.2712    1207.6336   ✗       
+260   LALDVELATFR              -1.0000     NotChecked  -20.3644    1246.6921   ✗       
+261   LALDVELATTR              -1.0000     NotChecked  -20.4293    1200.6714   ✗       
+262   LASDVELATYR              -1.0000     NotChecked  -20.5436    1236.6350   ✗       
+263   LAGDVELATYR              -1.0000     NotChecked  -20.5460    1206.6244   ✗       
+264   LALDVELATR               -1.0000     NotChecked  -20.5701    1099.6237   ✗       
+265   LALDVELTYR               -1.0000     NotChecked  -20.5754    1191.6499   ✗       
+266   LALDVELATYK              -1.0000     NotChecked  -20.5883    1234.6809   ✗       
+267   LALDVELAYR               -1.0000     NotChecked  -20.6198    1161.6394   ✗       
+268   LALDVELATYV              -1.0000     NotChecked  -20.6267    1205.6543   ✗       
+269   AALDVELATYR              -1.0000     NotChecked  -20.6610    1220.6401   ✗       
+270   VALDVELATYR              -1.0000     NotChecked  -20.7427    1248.6714   ✗       
+271   LALDVEPATYR              -1.0000     NotChecked  -20.7916    1246.6557   ✗       
+272   LALGVELATYR              -1.0000     NotChecked  -20.8397    1204.6816   ✗       
+273   +42.011ALDVELATYR        -1.0000     NotChecked  -20.8622    1191.6135   ✗       
+274   LALDVELATGR              -1.0000     NotChecked  -20.8656    1156.6452   ✗       
+275   LALDVELATQR              -1.0000     NotChecked  -20.9107    1227.6823   ✗       
+276   LALDVELATYF              -1.0000     NotChecked  -20.9411    1253.6543   ✗       
+277   +42.011ALDVELATYR        -1.0000     NotChecked  -20.9801    1191.6135   ✗       
+278   LALDVELATYH              -1.0000     NotChecked  -21.0415    1243.6448   ✗       
+279   LALDVELATYN              -1.0000     NotChecked  -21.1061    1220.6289   ✗       
+280   LALDVQLATYR              -1.0000     NotChecked  -21.1322    1261.7030   ✗       
+281   LALDVELATYL              -1.0000     NotChecked  -21.1555    1219.6700   ✗       
+282   LALDVQLATYR              -1.0000     NotChecked  -21.2500    1261.7030   ✗       
+283   VALDVELATYR              -1.0000     NotChecked  -21.2640    1248.6714   ✗       
+284   LAPDVELATYR              -1.0000     NotChecked  -21.2951    1246.6557   ✗       
+285   VALDVQ+0.984LATYR        -1.0000     NotChecked  -21.3046    1248.6714   ✗       
+286   LALLVELATYR              -1.0000     NotChecked  -21.3285    1260.7442   ✗       
+287   LALDVDLATYR              -1.0000     NotChecked  -21.3566    1248.6714   ✗       
+288   LALDVELATY               -1.0000     NotChecked  -21.4214    1106.5859   ✗       
+289   LALNVELATYR              -1.0000     NotChecked  -21.4510    1261.7030   ✗       
+290   VALN+0.984VELATYR        -1.0000     NotChecked  -21.4551    1248.6714   ✗       
+291   LALDVELAVYR              -1.0000     NotChecked  -21.4722    1260.7078   ✗       
+292   LALDVDLATYR              -1.0000     NotChecked  -21.4744    1248.6714   ✗       
+293   LALDVELATER              -1.0000     NotChecked  -21.4936    1228.6663   ✗       
+294   LLDVELATYR               -1.0000     NotChecked  -21.5875    1191.6499   ✗       
+295   LALDVELATYP              -1.0000     NotChecked  -21.6051    1203.6387   ✗       
+296   LALDVELGTYR              -1.0000     NotChecked  -21.6538    1248.6714   ✗       
+297   LALSVELATYR              -1.0000     NotChecked  -21.7542    1234.6921   ✗       
+298   LALDVELATFR              -1.0000     NotChecked  -21.8154    1246.6921   ✗       
+299   LAADVELATYR              -1.0000     NotChecked  -21.8403    1220.6401   ✗       
+300   LALDVELATTR              -1.0000     NotChecked  -21.8803    1200.6714   ✗       
+301   LALDVELATLR              -1.0000     NotChecked  -21.8816    1212.7078   ✗       
+302   LGLDVELATYR              -1.0000     NotChecked  -21.9334    1248.6714   ✗       
+303   LASDVELATYR              -1.0000     NotChecked  -21.9947    1236.6350   ✗       
+304   LAGDVELATYR              -1.0000     NotChecked  -21.9971    1206.6244   ✗       
+305   LALDVELTYR               -1.0000     NotChecked  -22.0264    1191.6499   ✗       
+306   LALDVELATVR              -1.0000     NotChecked  -22.0275    1198.6921   ✗       
+307   LALDVELATYK              -1.0000     NotChecked  -22.0394    1234.6809   ✗       
+308   LALTVELATYR              -1.0000     NotChecked  -22.0533    1248.7078   ✗       
+309   LALDVELAYR               -1.0000     NotChecked  -22.0709    1161.6394   ✗       
+310   AALDVELATYR              -1.0000     NotChecked  -22.1120    1220.6401   ✗       
+311   LALDVELATKR              -1.0000     NotChecked  -22.1215    1227.7187   ✗       
+312   LALDVELATYK              -1.0000     NotChecked  -22.1572    1234.6809   ✗       
+313   LAVDVELATYR              -1.0000     NotChecked  -22.1898    1248.6714   ✗       
+314   AALDVELATYR              -1.0000     NotChecked  -22.2298    1220.6401   ✗       
+315   LALGVELATYR              -1.0000     NotChecked  -22.2907    1204.6816   ✗       
+316   LALDVELATGR              -1.0000     NotChecked  -22.3167    1156.6452   ✗       
+317   LALDVELATQR              -1.0000     NotChecked  -22.3618    1227.6823   ✗       
+318   LALDVELATYF              -1.0000     NotChecked  -22.3921    1253.6543   ✗       
+319   LALGVELATYR              -1.0000     NotChecked  -22.4086    1204.6816   ✗       
+320   +42.011ALDVELATYR        -1.0000     NotChecked  -22.4311    1191.6135   ✗       
+321   LALDVSLATYR              -1.0000     NotChecked  -22.4559    1220.6765   ✗       
+322   LALDVELATYN              -1.0000     NotChecked  -22.5571    1220.6289   ✗       
+323   LALDVELATYL              -1.0000     NotChecked  -22.6065    1219.6700   ✗       
+324   LALDVKLATYR              -1.0000     NotChecked  -22.6356    1261.7394   ✗       
+325   LALDVLLATYR              -1.0000     NotChecked  -22.6594    1246.7285   ✗       
+326   LALDVELATR               -1.0000     NotChecked  -22.6603    1099.6237   ✗       
+327   LALDVQ+0.984LATR         -1.0000     NotChecked  -22.7009    1099.6237   ✗       
+328   LALDVQLATYR              -1.0000     NotChecked  -22.7011    1261.7030   ✗       
+329   VALDVELATYR              -1.0000     NotChecked  -22.7150    1248.6714   ✗       
+330   VALDVQ+0.984LATYR        -1.0000     NotChecked  -22.7556    1248.6714   ✗       
+331   LALDVLATYR               -1.0000     NotChecked  -22.7571    1133.6445   ✗       
+332   LALLVELATYR              -1.0000     NotChecked  -22.7795    1260.7442   ✗       
+333   LALN+0.984VELATR         -1.0000     NotChecked  -22.8514    1099.6237   ✗       
+334   LALDVELATY               -1.0000     NotChecked  -22.8724    1106.5859   ✗       
+335   LALLVELATYR              -1.0000     NotChecked  -22.8973    1260.7442   ✗       
+336   LALNVELATYR              -1.0000     NotChecked  -22.9021    1261.7030   ✗       
+337   VALN+0.984VELATYR        -1.0000     NotChecked  -22.9062    1248.6714   ✗       
+338   LALDVELAVYR              -1.0000     NotChecked  -22.9233    1260.7078   ✗       
+339   LALDVDLATYR              -1.0000     NotChecked  -22.9255    1248.6714   ✗       
+340   LALDVELATER              -1.0000     NotChecked  -22.9446    1228.6663   ✗       
+341   +42.011ALDVELATYR        -1.0000     NotChecked  -22.9524    1191.6135   ✗       
+342   LALDVELATY               -1.0000     NotChecked  -22.9903    1106.5859   ✗       
+343   +42.011ALDVQ+0.984LATYR  -1.0000     NotChecked  -22.9930    1191.6135   ✗       
+344   LALNVELATYR              -1.0000     NotChecked  -23.0199    1261.7030   ✗       
+345   LALDVELAVYR              -1.0000     NotChecked  -23.0411    1260.7078   ✗       
+346   +42.011ALN+0.984VELATYR  -1.0000     NotChecked  -23.1436    1191.6135   ✗       
+347   LLDVELATYR               -1.0000     NotChecked  -23.1563    1191.6499   ✗       
+348   LALSVELATYR              -1.0000     NotChecked  -23.2053    1234.6921   ✗       
+349   LALDVQLATYR              -1.0000     NotChecked  -23.2224    1261.7030   ✗       
+350   LAADVELATYR              -1.0000     NotChecked  -23.2913    1220.6401   ✗       
+351   LALSVELATYR              -1.0000     NotChecked  -23.3231    1234.6921   ✗       
+352   LALDVELATLR              -1.0000     NotChecked  -23.3326    1212.7078   ✗       
+353   +43.006ALDVELATYR        -1.0000     NotChecked  -23.4023    1192.6088   ✗       
+354   LAADVELATYR              -1.0000     NotChecked  -23.4091    1220.6401   ✗       
+355   LALN+0.984VQLATYR        -1.0000     NotChecked  -23.4136    1261.7030   ✗       
+356   LALDVDLATYR              -1.0000     NotChecked  -23.4468    1248.6714   ✗       
+357   LALDVEVATYR              -1.0000     NotChecked  -23.4659    1248.6714   ✗       
+358   LALDVELATVR              -1.0000     NotChecked  -23.4785    1198.6921   ✗       
+359   LGLDVELATYR              -1.0000     NotChecked  -23.5023    1248.6714   ✗       
+360   LALDVELATYT              -1.0000     NotChecked  -23.5034    1207.6336   ✗       
+361   LALTVELATYR              -1.0000     NotChecked  -23.5044    1248.7078   ✗       
+362   LALDVELATKR              -1.0000     NotChecked  -23.5725    1227.7187   ✗       
+363   LALDVELATYK              -1.0000     NotChecked  -23.6082    1234.6809   ✗       
+364   LALTVELATYR              -1.0000     NotChecked  -23.6222    1248.7078   ✗       
+365   LALN+0.984VDLATYR        -1.0000     NotChecked  -23.6380    1248.6714   ✗       
+366   LAVDVELATYR              -1.0000     NotChecked  -23.6408    1248.6714   ✗       
+367   AALDVELATYR              -1.0000     NotChecked  -23.6809    1220.6401   ✗       
+368   LAVDVELATYR              -1.0000     NotChecked  -23.7586    1248.6714   ✗       
+369   LALDVELATYV              -1.0000     NotChecked  -23.8589    1205.6543   ✗       
+370   LALGVELATYR              -1.0000     NotChecked  -23.8596    1204.6816   ✗       
+371   LALDVELATFR              -1.0000     NotChecked  -23.9056    1246.6921   ✗       
+372   LALDVSLATYR              -1.0000     NotChecked  -23.9069    1220.6765   ✗       
+373   LALDVQ+0.984LATFR        -1.0000     NotChecked  -23.9462    1246.6921   ✗       
+374   LALDVELATTR              -1.0000     NotChecked  -23.9705    1200.6714   ✗       
+375   VALDVELATYR              -1.0000     NotChecked  -23.9748    1248.6714   ✗       
+376   LALDVQ+0.984LATTR        -1.0000     NotChecked  -24.0111    1200.6714   ✗       
+377   LALDVEPATYR              -1.0000     NotChecked  -24.0237    1246.6557   ✗       
+378   LALDVSLATYR              -1.0000     NotChecked  -24.0248    1220.6765   ✗       
+379   LALDVKLATYR              -1.0000     NotChecked  -24.0867    1261.7394   ✗       
+380   LALN+0.984VELATFR        -1.0000     NotChecked  -24.0968    1246.6921   ✗       
+381   LALDVLLATYR              -1.0000     NotChecked  -24.1104    1246.7285   ✗       
+382   LALDVELATR               -1.0000     NotChecked  -24.1113    1099.6237   ✗       
+383   LALDVELATYK              -1.0000     NotChecked  -24.1295    1234.6809   ✗       
+384   LALDVQ+0.984LATR         -1.0000     NotChecked  -24.1519    1099.6237   ✗       
+385   LALN+0.984VELATTR        -1.0000     NotChecked  -24.1617    1200.6714   ✗       
+386   LALDVQ+0.984LATYK        -1.0000     NotChecked  -24.1701    1234.6809   ✗       
+387   AALDVELATYR              -1.0000     NotChecked  -24.2022    1220.6401   ✗       
+388   LALDVKLATYR              -1.0000     NotChecked  -24.2045    1261.7394   ✗       
+389   LALDVLATYR               -1.0000     NotChecked  -24.2081    1133.6445   ✗       
+390   LALDVLLATYR              -1.0000     NotChecked  -24.2283    1246.7285   ✗       
+391   AALDVQ+0.984LATYR        -1.0000     NotChecked  -24.2428    1220.6401   ✗       
+392   LALDVELATYH              -1.0000     NotChecked  -24.2737    1243.6448   ✗       
+393   LALN+0.984VELATR         -1.0000     NotChecked  -24.3025    1099.6237   ✗       
+394   LALN+0.984VELATYK        -1.0000     NotChecked  -24.3207    1234.6809   ✗       
+395   LALDVLATYR               -1.0000     NotChecked  -24.3260    1133.6445   ✗       
+396   LALLVELATYR              -1.0000     NotChecked  -24.3484    1260.7442   ✗       
+397   LALGVELATYR              -1.0000     NotChecked  -24.3809    1204.6816   ✗       
+398   AALN+0.984VELATYR        -1.0000     NotChecked  -24.3934    1220.6401   ✗       
+399   +42.011ALDVELATYR        -1.0000     NotChecked  -24.4035    1191.6135   ✗       
+400   LALDVELATGR              -1.0000     NotChecked  -24.4068    1156.6452   ✗       
+401   LALGVQ+0.984LATYR        -1.0000     NotChecked  -24.4215    1204.6816   ✗       
+402   LALDVELATY               -1.0000     NotChecked  -24.4413    1106.5859   ✗       
+403   +42.011ALDVQ+0.984LATYR  -1.0000     NotChecked  -24.4441    1191.6135   ✗       
+404   LALDVQ+0.984LATGR        -1.0000     NotChecked  -24.4474    1156.6452   ✗       
+405   LALDVELATQR              -1.0000     NotChecked  -24.4519    1227.6823   ✗       
+406   LALNVELATYR              -1.0000     NotChecked  -24.4709    1261.7030   ✗       
+407   LALDVELAVYR              -1.0000     NotChecked  -24.4921    1260.7078   ✗       
+408   LALDVQ+0.984LATQR        -1.0000     NotChecked  -24.4926    1227.6823   ✗       
+409   LAPDVELATYR              -1.0000     NotChecked  -24.5273    1246.6557   ✗       
+410   +42.011ALN+0.984VELATYR  -1.0000     NotChecked  -24.5946    1191.6135   ✗       
+411   LALN+0.984VELATGR        -1.0000     NotChecked  -24.5980    1156.6452   ✗       
+412   LALN+0.984VELATQR        -1.0000     NotChecked  -24.6431    1227.6823   ✗       
+413   LALDVQLATYR              -1.0000     NotChecked  -24.6734    1261.7030   ✗       
+414   LALDAELATYR              -1.0000     NotChecked  -24.7376    1234.6557   ✗       
+415   LALSVELATYR              -1.0000     NotChecked  -24.7742    1234.6921   ✗       
+416   LALDVELATYP              -1.0000     NotChecked  -24.8372    1203.6387   ✗       
+417   +43.006ALDVELATYR        -1.0000     NotChecked  -24.8533    1192.6088   ✗       
+418   LAADVELATYR              -1.0000     NotChecked  -24.8602    1220.6401   ✗       
+419   LALN+0.984VQLATYR        -1.0000     NotChecked  -24.8646    1261.7030   ✗       
+420   LALLVELATYR              -1.0000     NotChecked  -24.8697    1260.7442   ✗       
+421   LALDVELGTYR              -1.0000     NotChecked  -24.8860    1248.6714   ✗       
+422   LALDVDLATYR              -1.0000     NotChecked  -24.8978    1248.6714   ✗       
+423   LALLVQ+0.984LATYR        -1.0000     NotChecked  -24.9103    1260.7442   ✗       
+424   LALDVEVATYR              -1.0000     NotChecked  -24.9170    1248.6714   ✗       
+425   LALDVELATYT              -1.0000     NotChecked  -24.9545    1207.6336   ✗       
+426   LALDVELATY               -1.0000     NotChecked  -24.9626    1106.5859   ✗       
+427   +43.006ALDVELATYR        -1.0000     NotChecked  -24.9712    1192.6088   ✗       
+428   LALNVELATYR              -1.0000     NotChecked  -24.9922    1261.7030   ✗       
+429   LALDVQ+0.984LATY         -1.0000     NotChecked  -25.0032    1106.5859   ✗       
+430   LALDVELAVYR              -1.0000     NotChecked  -25.0134    1260.7078   ✗       
+431   LALNVQ+0.984LATYR        -1.0000     NotChecked  -25.0328    1261.7030   ✗       
+432   LALDVEVATYR              -1.0000     NotChecked  -25.0348    1248.6714   ✗       
+433   LALDVELATER              -1.0000     NotChecked  -25.0348    1228.6663   ✗       
+434   LALDVQ+0.984LAVYR        -1.0000     NotChecked  -25.0540    1260.7078   ✗       
+435   LALDVELATYT              -1.0000     NotChecked  -25.0723    1207.6336   ✗       
+436   LALTVELATYR              -1.0000     NotChecked  -25.0732    1248.7078   ✗       
+437   LALDVQ+0.984LATER        -1.0000     NotChecked  -25.0754    1228.6663   ✗       
+438   LALN+0.984VDLATYR        -1.0000     NotChecked  -25.0890    1248.6714   ✗       
+439   LLDVELATYR               -1.0000     NotChecked  -25.1287    1191.6499   ✗       
+440   LALN+0.984VELATY         -1.0000     NotChecked  -25.1538    1106.5859   ✗       
+441   LLDVQ+0.984LATYR         -1.0000     NotChecked  -25.1693    1191.6499   ✗       
+442   LALN+0.984VELAVYR        -1.0000     NotChecked  -25.2046    1260.7078   ✗       
+443   LAVDVELATYR              -1.0000     NotChecked  -25.2097    1248.6714   ✗       
+444   LALN+0.984VELATER        -1.0000     NotChecked  -25.2260    1228.6663   ✗       
+445   LASDVELATYR              -1.0000     NotChecked  -25.2269    1236.6350   ✗       
+446   LAGDVELATYR              -1.0000     NotChecked  -25.2293    1206.6244   ✗       
+447   LALDVELTYR               -1.0000     NotChecked  -25.2586    1191.6499   ✗       
+448   LALSVELATYR              -1.0000     NotChecked  -25.2955    1234.6921   ✗       
+449   LALDVELAYR               -1.0000     NotChecked  -25.3030    1161.6394   ✗       
+450   LALDVELATYV              -1.0000     NotChecked  -25.3099    1205.6543   ✗       
+451   LLN+0.984VELATYR         -1.0000     NotChecked  -25.3199    1191.6499   ✗       
+452   LALSVQ+0.984LATYR        -1.0000     NotChecked  -25.3361    1234.6921   ✗       
+453   LALDVELATFR              -1.0000     NotChecked  -25.3566    1246.6921   ✗       
+454   LALDVQ+0.984LATFR        -1.0000     NotChecked  -25.3972    1246.6921   ✗       
+455   LALDVELATTR              -1.0000     NotChecked  -25.4216    1200.6714   ✗       
+456   LAADVQ+0.984LATYR        -1.0000     NotChecked  -25.4221    1220.6401   ✗       
+457   LALDVELATLR              -1.0000     NotChecked  -25.4228    1212.7078   ✗       
+458   VALDVELATYR              -1.0000     NotChecked  -25.4259    1248.6714   ✗       
+459   LALDVELATYV              -1.0000     NotChecked  -25.4277    1205.6543   ✗       
+460   LALDVQ+0.984LATTR        -1.0000     NotChecked  -25.4622    1200.6714   ✗       
+461   LALDVQ+0.984LATLR        -1.0000     NotChecked  -25.4634    1212.7078   ✗       
+462   LGLDVELATYR              -1.0000     NotChecked  -25.4746    1248.6714   ✗       
+463   LALDVEPATYR              -1.0000     NotChecked  -25.4748    1246.6557   ✗       
+464   LALDVSLATYR              -1.0000     NotChecked  -25.4758    1220.6765   ✗       
+465   AALDVELATYR              -1.0000     NotChecked  -25.6532    1220.6401   ✗       
+466   +42.011ALDVELATYR        -1.0000     NotChecked  -25.6633    1191.6135   ✗       
+467   AALDVQ+0.984LATYR        -1.0000     NotChecked  -25.6938    1220.6401   ✗       
+468   AALN+0.984VELATYR        -1.0000     NotChecked  -25.8444    1220.6401   ✗       
+469   VALDVELATYR              -1.0000     NotChecked  -25.9472    1248.6714   ✗       
+470   VALDVQ+0.984LATYR        -1.0000     NotChecked  -25.9878    1248.6714   ✗       
+471   VALN+0.984VELATYR        -1.0000     NotChecked  -26.1384    1248.6714   ✗       
+472   +43.006ALDVELATYR        -1.0000     NotChecked  -26.4222    1192.6088   ✗       
+473   VALDVELATYR              -1.0000     NotChecked  -26.5644    1248.6714   ✗       
+474   AALDVELATYR              -1.0000     NotChecked  -26.9131    1220.6401   ✗       
+475   +43.006ALDVELATYR        -1.0000     NotChecked  -26.9435    1192.6088   ✗       
+476   +43.006ALDVQ+0.984LATYR  -1.0000     NotChecked  -26.9841    1192.6088   ✗       
+477   VALDVELATYR              -1.0000     NotChecked  -27.0615    1248.6714   ✗       
+478   +42.011ALDVELATYR        -1.0000     NotChecked  -27.1143    1191.6135   ✗       
+479   +43.006ALN+0.984VELATYR  -1.0000     NotChecked  -27.1347    1192.6088   ✗       
+480   VALDVELATR               -1.0000     NotChecked  -27.2529    1085.6081   ✗       
+481   VALDVELATYR              -1.0000     NotChecked  -27.3982    1248.6714   ✗       
+482   VALDVQ+0.984LATYR        -1.0000     NotChecked  -27.4388    1248.6714   ✗       
+483   VALDVELATYR              -1.0000     NotChecked  -27.5160    1248.6714   ✗       
+484   VALDVQ+0.984LATYR        -1.0000     NotChecked  -27.5567    1248.6714   ✗       
+485   VALN+0.984VELATYR        -1.0000     NotChecked  -27.5894    1248.6714   ✗       
+486   +42.011ALDVELATYR        -1.0000     NotChecked  -27.6356    1191.6135   ✗       
+487   +42.011ALDVQ+0.984LATYR  -1.0000     NotChecked  -27.6763    1191.6135   ✗       
+488   VALN+0.984VELATYR        -1.0000     NotChecked  -27.7072    1248.6714   ✗       
+489   VALDVELATYR              -1.0000     NotChecked  -27.8011    1248.6714   ✗       
+490   VALDVQLATYR              -1.0000     NotChecked  -27.8150    1247.6874   ✗       
+491   +42.011ALN+0.984VELATYR  -1.0000     NotChecked  -27.8268    1191.6135   ✗       
+492   VALDVELATYR              -1.0000     NotChecked  -28.0155    1248.6714   ✗       
+493   VALDVDLATYR              -1.0000     NotChecked  -28.0394    1234.6557   ✗       
+494   VALDVELATYR              -1.0000     NotChecked  -28.1346    1248.6714   ✗       
+495   +42.011ALDVELATYR        -1.0000     NotChecked  -28.2529    1191.6135   ✗       
+496   VALDVELATYR              -1.0000     NotChecked  -28.2703    1248.6714   ✗       
+497   AALDVELATYR              -1.0000     NotChecked  -28.3641    1220.6401   ✗       
+498   +43.006ALDVELATYR        -1.0000     NotChecked  -28.3946    1192.6088   ✗       
+499   +43.006ALDVQ+0.984LATYR  -1.0000     NotChecked  -28.4352    1192.6088   ✗       
+500   VALDVELATFR              -1.0000     NotChecked  -28.4982    1232.6765   ✗       
+501   +42.011ALDVELARYR        -1.0000     NotChecked  -28.5180    1246.6670   ✗       
+502   VALDVELATTR              -1.0000     NotChecked  -28.5632    1186.6557   ✗       
+503   +43.006ALN+0.984VELATYR  -1.0000     NotChecked  -28.5857    1192.6088   ✗       
+504   VALDVELATR               -1.0000     NotChecked  -28.7040    1085.6081   ✗       
+505   VALDVELATYK              -1.0000     NotChecked  -28.7222    1220.6652   ✗       
+506   +42.011ALDVELATYR        -1.0000     NotChecked  -28.7499    1191.6135   ✗       
+507   +42.011LLDVELATYR        -1.0000     NotChecked  -28.7514    1233.6605   ✗       
+508   +42.011ALDVELAYYR        -1.0000     NotChecked  -28.8733    1253.6292   ✗       
+509   AALDVELATYR              -1.0000     NotChecked  -28.8854    1220.6401   ✗       
+510   AALDVQ+0.984LATYR        -1.0000     NotChecked  -28.9260    1220.6401   ✗       
+511   +42.011ALDVELATR         -1.0000     NotChecked  -28.9414    1028.5502   ✗       
+512   VALDVELATYR              -1.0000     NotChecked  -28.9671    1248.6714   ✗       
+513   VALGVELATYR              -1.0000     NotChecked  -28.9736    1190.6659   ✗       
+514   VALDVELALYR              -1.0000     NotChecked  -28.9956    1260.7078   ✗       
+515   VALDVELATGR              -1.0000     NotChecked  -28.9995    1142.6295   ✗       
+516   VALDVQ+0.984LATYR        -1.0000     NotChecked  -29.0077    1248.6714   ✗       
+517   +42.011ALEVELATYR        -1.0000     NotChecked  -29.0424    1205.6292   ✗       
+518   VALDVELATQR              -1.0000     NotChecked  -29.0446    1213.6666   ✗       
+519   AALN+0.984VELATYR        -1.0000     NotChecked  -29.0766    1220.6401   ✗       
+520   +42.011ALDVELATYR        -1.0000     NotChecked  -29.0867    1191.6135   ✗       
+521   +42.011ALDVQ+0.984LATYR  -1.0000     NotChecked  -29.1273    1191.6135   ✗       
+522   VALN+0.984VELATYR        -1.0000     NotChecked  -29.1583    1248.6714   ✗       
+523   +42.011ALDVELATYR        -1.0000     NotChecked  -29.2045    1191.6135   ✗       
+524   +42.011ALDVQ+0.984LATYR  -1.0000     NotChecked  -29.2451    1191.6135   ✗       
+525   VALDVELATYR              -1.0000     NotChecked  -29.2522    1248.6714   ✗       
+526   VALDVQLATYR              -1.0000     NotChecked  -29.2661    1247.6874   ✗       
+527   +42.011ALN+0.984VELATYR  -1.0000     NotChecked  -29.2779    1191.6135   ✗       
+528   +42.011ALN+0.984VELATYR  -1.0000     NotChecked  -29.3957    1191.6135   ✗       
+529   VALDVELATYR              -1.0000     NotChecked  -29.4055    1248.6714   ✗       
+530   +42.011ALDLELATYR        -1.0000     NotChecked  -29.4341    1205.6292   ✗       
+531   VALLVELATYR              -1.0000     NotChecked  -29.4623    1246.7285   ✗       
+532   +42.011ALDVELATYR        -1.0000     NotChecked  -29.4896    1191.6135   ✗       
+533   VALDVDLATYR              -1.0000     NotChecked  -29.4905    1234.6557   ✗       
+534   ALDVELATYR               -1.0000     NotChecked  -29.5026    1149.6030   ✗       
+535   +42.011ALDVQLATYR        -1.0000     NotChecked  -29.5035    1190.6295   ✗       
+536   VALDVQ+0.984LATYR        -1.0000     NotChecked  -29.5290    1248.6714   ✗       
+537   VALDVELATY               -1.0000     NotChecked  -29.5553    1092.5703   ✗       
+538   VALNVELATYR              -1.0000     NotChecked  -29.5849    1247.6874   ✗       
+539   VALDVELATYR              -1.0000     NotChecked  -29.5856    1248.6714   ✗       
+540   VALDVELAVYR              -1.0000     NotChecked  -29.6061    1246.6921   ✗       
+541   VALDVELATER              -1.0000     NotChecked  -29.6275    1214.6507   ✗       
+542   +43.006ALDVELATYR        -1.0000     NotChecked  -29.6544    1192.6088   ✗       
+543   VALN+0.984VELATYR        -1.0000     NotChecked  -29.6796    1248.6714   ✗       
+544   +42.011ALDVELATYR        -1.0000     NotChecked  -29.7039    1191.6135   ✗       
+545   VALN+0.984VQ+0.984LATYR  -1.0000     NotChecked  -29.7202    1248.6714   ✗       
+546   VLDVELATYR               -1.0000     NotChecked  -29.7213    1177.6343   ✗       
+547   +42.011ALDVDLATYR        -1.0000     NotChecked  -29.7279    1177.5979   ✗       
+548   +42.011ALDVELATYR        -1.0000     NotChecked  -29.8230    1191.6135   ✗       
+549   VALSVELATYR              -1.0000     NotChecked  -29.8881    1220.6765   ✗       
+550   VALDVELATFR              -1.0000     NotChecked  -29.9493    1232.6765   ✗       
+551   +42.011ALDVELATYR        -1.0000     NotChecked  -29.9588    1191.6135   ✗       
+552   +42.011ALWVELATYR        -1.0000     Failed      -29.9675    1262.6659   ✓       
+553   +42.011ALDVELARYR        -1.0000     NotChecked  -29.9690    1246.6670   ✗       
+554   VAADVELATYR              -1.0000     NotChecked  -29.9741    1206.6244   ✗       
+555   VALDVELATYR              -1.0000     NotChecked  -29.9977    1248.6714   ✗       
+556   AALDVELATYR              -1.0000     NotChecked  -29.9997    1220.6401   ✗       
+557   VALDVELATTR              -1.0000     NotChecked  -30.0142    1186.6557   ✗       
+558   VALDVELATLR              -1.0000     NotChecked  -30.0154    1198.6921   ✗       
+559   VGLDVELATYR              -1.0000     NotChecked  -30.0673    1234.6557   ✗       
+560   VALDVELATVR              -1.0000     NotChecked  -30.1614    1184.6765   ✗       
+561   VALDVELATYK              -1.0000     NotChecked  -30.1732    1220.6652   ✗       
+562   VALDVMLATYR              -1.0000     NotChecked  -30.1842    1250.6693   ✗       
+563   +42.011ALDVELATFR        -1.0000     NotChecked  -30.1867    1175.6186   ✗       
+564   VALTVELATYR              -1.0000     NotChecked  -30.1872    1234.6921   ✗       
+565   AALDVELATR               -1.0000     NotChecked  -30.1911    1057.5768   ✗       
+566   +42.011ALDVELATTR        -1.0000     NotChecked  -30.2516    1129.5979   ✗       
+567   VALDVELATKR              -1.0000     NotChecked  -30.2553    1213.7030   ✗       
+568   AALEVELATYR              -1.0000     NotChecked  -30.2922    1234.6557   ✗       
+569   +42.011GALDVELATYR       -1.0000     NotChecked  -30.3047    1248.6350   ✗       
+570   VAVDVELATYR              -1.0000     NotChecked  -30.3236    1234.6557   ✗       
+571   +42.011ALDVELAYYR        -1.0000     NotChecked  -30.3243    1253.6292   ✗       
+572   AALDVELATYR              -1.0000     NotChecked  -30.3364    1220.6401   ✗       
+573   AALDVQ+0.984LATYR        -1.0000     NotChecked  -30.3770    1220.6401   ✗       
+574   +42.011ALDVELATR         -1.0000     NotChecked  -30.3924    1028.5502   ✗       
+575   +42.011ALDVELATYK        -1.0000     NotChecked  -30.4106    1163.6074   ✗       
+576   VALGVELATYR              -1.0000     NotChecked  -30.4246    1190.6659   ✗       
+577   VALDVELALYR              -1.0000     NotChecked  -30.4466    1260.7078   ✗       
+578   VALDVELATGR              -1.0000     NotChecked  -30.4505    1142.6295   ✗       
+579   AALDVELATYR              -1.0000     NotChecked  -30.4543    1220.6401   ✗       
+580   +42.011ALEVELATYR        -1.0000     NotChecked  -30.4935    1205.6292   ✗       
+581   AALDVQ+0.984LATYR        -1.0000     NotChecked  -30.4949    1220.6401   ✗       
+582   VALDVELATQR              -1.0000     NotChecked  -30.4956    1213.6666   ✗       
+583   AALN+0.984VELATYR        -1.0000     NotChecked  -30.5276    1220.6401   ✗       
+584   VALDVELATYR              -1.0000     NotChecked  -30.5856    1248.6714   ✗       
+585   VALDVSLATYR              -1.0000     NotChecked  -30.5898    1206.6608   ✗       
+586   VALDVELANYR              -1.0000     NotChecked  -30.6296    1261.6667   ✗       
+587   AALN+0.984VELATYR        -1.0000     NotChecked  -30.6454    1220.6401   ✗       
+588   +42.011ALDVELATYR        -1.0000     NotChecked  -30.6556    1191.6135   ✗       
+589   +42.011ALGVELATYR        -1.0000     NotChecked  -30.6620    1133.6081   ✗       
+590   AALDLELATYR              -1.0000     NotChecked  -30.6838    1234.6557   ✗       
+591   +42.011ALDVELALYR        -1.0000     NotChecked  -30.6840    1203.6499   ✗       
+592   +42.011ALDVELATGR        -1.0000     NotChecked  -30.6879    1085.5717   ✗       
+593   +42.011ALDVQ+0.984LATYR  -1.0000     NotChecked  -30.6962    1191.6135   ✗       
+594   +42.011ALDVELATQR        -1.0000     NotChecked  -30.7331    1156.6088   ✗       
+595   AALDVELATYR              -1.0000     NotChecked  -30.7393    1220.6401   ✗       
+596   AALDVQLATYR              -1.0000     NotChecked  -30.7533    1219.6561   ✗       
+597   VALDVKLATYR              -1.0000     NotChecked  -30.7695    1247.7238   ✗       
+598   VALDVLLATYR              -1.0000     NotChecked  -30.7933    1232.7129   ✗       
+599   +42.011ALN+0.984VELATYR  -1.0000     NotChecked  -30.8467    1191.6135   ✗       
+600   VALDVELATYR              -1.0000     NotChecked  -30.8565    1248.6714   ✗       
+601   +42.011ALDLELATYR        -1.0000     NotChecked  -30.8851    1205.6292   ✗       
+602   VALDVLATYR               -1.0000     NotChecked  -30.8910    1119.6288   ✗       
+603   VALLVELATYR              -1.0000     NotChecked  -30.9134    1246.7285   ✗       
+604   +42.011ALDVELATYR        -1.0000     NotChecked  -30.9406    1191.6135   ✗       
+605   ALDVELATYR               -1.0000     NotChecked  -30.9537    1149.6030   ✗       
+606   +42.011ALDVQLATYR        -1.0000     NotChecked  -30.9545    1190.6295   ✗       
+607   VALDVELATYR              -1.0000     NotChecked  -30.9575    1248.6714   ✗       
+608   AALDVDLATYR              -1.0000     NotChecked  -30.9777    1206.6244   ✗       
+609   VALDVQ+0.984LATYR        -1.0000     NotChecked  -30.9800    1248.6714   ✗       
+610   VALDVELATY               -1.0000     NotChecked  -31.0063    1092.5703   ✗       
+611   VALNVELATYR              -1.0000     NotChecked  -31.0359    1247.6874   ✗       
+612   VALDVELAVYR              -1.0000     NotChecked  -31.0571    1246.6921   ✗       
+613   +42.011SLDVELATYR        -1.0000     NotChecked  -31.0611    1207.6085   ✗       
+614   AALDVELATYR              -1.0000     NotChecked  -31.0728    1220.6401   ✗       
+615   VALDVELATER              -1.0000     NotChecked  -31.0785    1214.6507   ✗       
+616   +42.011ALDVELATYR        -1.0000     NotChecked  -31.0939    1191.6135   ✗       
+617   +43.006ALDVELATYR        -1.0000     NotChecked  -31.1054    1192.6088   ✗       
+618   +42.011ALDVELATGYR       -1.0000     NotChecked  -31.1154    1248.6350   ✗       
+619   VALN+0.984VELATYR        -1.0000     NotChecked  -31.1306    1248.6714   ✗       
+620   +42.011ALLVELATYR        -1.0000     NotChecked  -31.1508    1189.6707   ✗       
+621   VALN+0.984VQ+0.984LATYR  -1.0000     NotChecked  -31.1712    1248.6714   ✗       
+622   +42.011ALDVDLATYR        -1.0000     NotChecked  -31.1789    1177.5979   ✗       
+623   AALDVELATYR              -1.0000     NotChecked  -31.2085    1220.6401   ✗       
+624   +42.011ALDVQ+0.984LATYR  -1.0000     NotChecked  -31.2175    1191.6135   ✗       
+625   +42.011ALDVELAKYR        -1.0000     NotChecked  -31.2395    1218.6608   ✗       
+626   +42.011ALDVELATY         -1.0000     NotChecked  -31.2437    1035.5124   ✗       
+627   VALDVELATYR              -1.0000     NotChecked  -31.2477    1248.6714   ✗       
+628   +42.011ALNVELATYR        -1.0000     NotChecked  -31.2733    1190.6295   ✗       
+629   +42.011ALDVELATYR        -1.0000     NotChecked  -31.2741    1191.6135   ✗       
+630   +42.011ALDVELAVYR        -1.0000     NotChecked  -31.2945    1189.6343   ✗       
+631   VALDAELATYR              -1.0000     NotChecked  -31.3026    1220.6401   ✗       
+632   +42.011ALDVELATER        -1.0000     NotChecked  -31.3159    1157.5928   ✗       
+633   VALSVELATYR              -1.0000     NotChecked  -31.3392    1220.6765   ✗       
+634   +42.011ALN+0.984VELATYR  -1.0000     NotChecked  -31.3680    1191.6135   ✗       
+635   +42.011ALN+0.984VQ+0.984LATYR-1.0000     NotChecked  -31.4087    1191.6135   ✗       
+636   +42.011LDVELATYR         -1.0000     NotChecked  -31.4098    1120.5764   ✗       
+637   +42.011ALWVELATYR        -1.0000     Failed      -31.4186    1262.6659   ✓       
+638   VAADVELATYR              -1.0000     NotChecked  -31.4252    1206.6244   ✗       
+639   AALDVELATFR              -1.0000     NotChecked  -31.4364    1204.6452   ✗       
+640   VALDVELATYR              -1.0000     NotChecked  -31.4487    1248.6714   ✗       
+641   +42.011ALDVELAEYR        -1.0000     NotChecked  -31.4581    1219.6085   ✗       
+642   VALDVELATLR              -1.0000     NotChecked  -31.4665    1198.6921   ✗       
+643   +42.011AGLDVELATYR       -1.0000     NotChecked  -31.4745    1248.6350   ✗       
+644   VALDVELATYR              -1.0000     NotChecked  -31.4875    1248.6714   ✗       
+645   AALDVELATTR              -1.0000     NotChecked  -31.5014    1158.6244   ✗       
+646   +42.011ALSVELATYR        -1.0000     NotChecked  -31.5766    1163.6186   ✗       
+647   VALDVELATYR              -1.0000     NotChecked  -31.5987    1248.6714   ✗       
+648   VALDVEVATYR              -1.0000     NotChecked  -31.5998    1234.6557   ✗       
+649   VALDVELATVR              -1.0000     NotChecked  -31.6124    1184.6765   ✗       
+650   +43.006ALDVELATYR        -1.0000     NotChecked  -31.6267    1192.6088   ✗       
+651   VALDVMLATYR              -1.0000     NotChecked  -31.6353    1250.6693   ✗       
+652   VALDVELATYT              -1.0000     NotChecked  -31.6373    1193.6180   ✗       
+653   +42.011ALDVELATFR        -1.0000     NotChecked  -31.6377    1175.6186   ✗       
+654   VALTVELATYR              -1.0000     NotChecked  -31.6382    1234.6921   ✗       
+655   AALDVELATR               -1.0000     NotChecked  -31.6422    1057.5768   ✗       
+656   AALDVELATYK              -1.0000     NotChecked  -31.6604    1192.6339   ✗       
+657   +42.011AADVELATYR        -1.0000     NotChecked  -31.6626    1149.5666   ✗       
+658   +43.006ALDVQ+0.984LATYR  -1.0000     NotChecked  -31.6674    1192.6088   ✗       
+659   +42.011ALDVELATYR        -1.0000     NotChecked  -31.6862    1191.6135   ✗       
+660   +42.011ALDVELATTR        -1.0000     NotChecked  -31.7027    1129.5979   ✗       
+661   +42.011ALDVELATLR        -1.0000     NotChecked  -31.7039    1141.6343   ✗       
+662   VALDVELATKR              -1.0000     NotChecked  -31.7064    1213.7030   ✗       
+663   AALEVELATYR              -1.0000     NotChecked  -31.7432    1234.6557   ✗       
+664   VALDVELATYR              -1.0000     NotChecked  -31.7447    1248.6714   ✗       
+665   +42.011GLDVELATYR        -1.0000     NotChecked  -31.7558    1177.5979   ✗       
+666   VAVDVELATYR              -1.0000     NotChecked  -31.7747    1234.6557   ✗       
+667   +43.006ALN+0.984VELATYR  -1.0000     NotChecked  -31.8179    1192.6088   ✗       
+668   +42.011ALDVELATVR        -1.0000     NotChecked  -31.8498    1127.6186   ✗       
+669   +42.011ALDVELATYK        -1.0000     NotChecked  -31.8617    1163.6074   ✗       
+670   +42.011ALDVMLATYR        -1.0000     NotChecked  -31.8727    1193.6114   ✗       
+671   +42.011ALTVELATYR        -1.0000     NotChecked  -31.8756    1177.6343   ✗       
+672   AALDVELATYR              -1.0000     NotChecked  -31.9053    1220.6401   ✗       
+673   AALGVELATYR              -1.0000     NotChecked  -31.9118    1162.6346   ✗       
+674   KALDVELATR               -1.0000     NotChecked  -31.9136    1114.6346   ✗       
+675   AALDVELALYR              -1.0000     NotChecked  -31.9338    1232.6765   ✗       
+676   VALDVELATR               -1.0000     NotChecked  -31.9361    1085.6081   ✗       
+677   AALDVELATGR              -1.0000     NotChecked  -31.9377    1114.5982   ✗       
+678   +42.011ALDVELATKR        -1.0000     NotChecked  -31.9438    1156.6452   ✗       
+679   AALDVQ+0.984LATYR        -1.0000     NotChecked  -31.9459    1220.6401   ✗       
+680   AALDVELATQR              -1.0000     NotChecked  -31.9828    1185.6353   ✗       
+681   VALDTELATYR              -1.0000     NotChecked  -31.9857    1250.6507   ✗       
+682   VALDVELATYV              -1.0000     NotChecked  -31.9927    1191.6387   ✗       
+683   +42.011AVDVELATYR        -1.0000     NotChecked  -32.0121    1177.5979   ✗       
+684   VALDVELATYR              -1.0000     NotChecked  -32.0366    1248.6714   ✗       
+685   VALDVSLATYR              -1.0000     NotChecked  -32.0408    1206.6608   ✗       
+686   +42.011VLDVELATYR        -1.0000     NotChecked  -32.0593    1219.6448   ✗       
+687   +42.011ALDVELAQYR        -1.0000     NotChecked  -32.0776    1218.6245   ✗       
+688   VALDVELANYR              -1.0000     NotChecked  -32.0806    1261.6667   ✗       
+689   AALN+0.984VELATYR        -1.0000     NotChecked  -32.0965    1220.6401   ✗       
+690   +42.011ALGVELATYR        -1.0000     NotChecked  -32.1131    1133.6081   ✗       
+691   AALDLELATYR              -1.0000     NotChecked  -32.1349    1234.6557   ✗       
+692   +42.011ALDVELALYR        -1.0000     NotChecked  -32.1351    1203.6499   ✗       
+693   +42.011ALDVELATGR        -1.0000     NotChecked  -32.1390    1085.5717   ✗       
+694   +42.011KLDVELATYR        -1.0000     NotChecked  -32.1406    1248.6714   ✗       
+695   VALDVEPATYR              -1.0000     NotChecked  -32.1576    1232.6401   ✗       
+696   +42.011ALRVELATYR        -1.0000     NotChecked  -32.1735    1232.6877   ✗       
+697   +42.011ALDVELATQR        -1.0000     NotChecked  -32.1841    1156.6088   ✗       
+698   AALDVELATYR              -1.0000     NotChecked  -32.1904    1220.6401   ✗       
+699   VALDVELATYR              -1.0000     NotChecked  -32.1993    1248.6714   ✗       
+700   AALDVQLATYR              -1.0000     NotChecked  -32.2043    1219.6561   ✗       
+701   VALDVKLATYR              -1.0000     NotChecked  -32.2206    1247.7238   ✗       
+702   VALDVQ+0.984LATYR        -1.0000     NotChecked  -32.2399    1248.6714   ✗       
+703   +43.006ALDVELATYR        -1.0000     NotChecked  -32.2440    1192.6088   ✗       
+704   VALDVLLATYR              -1.0000     NotChecked  -32.2443    1232.7129   ✗       
+705   +42.011ALDVELATYR        -1.0000     NotChecked  -32.2740    1191.6135   ✗       
+706   +42.011ALDVSLATYR        -1.0000     NotChecked  -32.2782    1149.6030   ✗       
+707   ASLDVELATYR              -1.0000     NotChecked  -32.3108    1236.6350   ✗       
+708   +42.011ALDVELANYR        -1.0000     NotChecked  -32.3181    1204.6088   ✗       
+709   +42.011TLDVELATYR        -1.0000     NotChecked  -32.3214    1221.6241   ✗       
+710   VALDVLATYR               -1.0000     NotChecked  -32.3420    1119.6288   ✗       
+711   AALDVELATYR              -1.0000     NotChecked  -32.3437    1220.6401   ✗       
+712   VALN+0.984VELATYR        -1.0000     NotChecked  -32.3905    1248.6714   ✗       
+713   AALLVELATYR              -1.0000     NotChecked  -32.4006    1218.6972   ✗       
+714   VALDVELATYH              -1.0000     NotChecked  -32.4075    1229.6292   ✗       
+715   VALDVELATYR              -1.0000     NotChecked  -32.4085    1248.6714   ✗       
+716   AALDVDLATYR              -1.0000     NotChecked  -32.4287    1206.6244   ✗       
+717   +42.011ALDVKLATYR        -1.0000     NotChecked  -32.4580    1190.6659   ✗       
+718   AALDVQ+0.984LATYR        -1.0000     NotChecked  -32.4672    1220.6401   ✗       
+719   +42.011ALDVLLATYR        -1.0000     NotChecked  -32.4817    1175.6550   ✗       
+720   VALDVELATYR              -1.0000     NotChecked  -32.4844    1248.6714   ✗       
+721   AALDVELAKYR              -1.0000     NotChecked  -32.4892    1247.6874   ✗       
+722   AALDVELATY               -1.0000     NotChecked  -32.4935    1064.5390   ✗       
+723   VALDVQLATYR              -1.0000     NotChecked  -32.4983    1247.6874   ✗       
+724   +43.006ALDVELARYR        -1.0000     NotChecked  -32.5091    1247.6622   ✗       
+725   AALNVELATYR              -1.0000     NotChecked  -32.5231    1219.6561   ✗       
+726   AALDVELATYR              -1.0000     NotChecked  -32.5238    1220.6401   ✗       
+727   AALDVELAVYR              -1.0000     NotChecked  -32.5443    1218.6608   ✗       
+728   +42.011ALDVELATYR        -1.0000     NotChecked  -32.5450    1191.6135   ✗       
+729   AALDVELATER              -1.0000     NotChecked  -32.5657    1186.6194   ✗       
+730   +42.011ALDVELATGYR       -1.0000     NotChecked  -32.5664    1248.6350   ✗       
+731   +42.011ALDVLATYR         -1.0000     NotChecked  -32.5794    1062.5710   ✗       
+732   +42.011ALLVELATYR        -1.0000     NotChecked  -32.6018    1189.6707   ✗       
+733   AALN+0.984VELATYR        -1.0000     NotChecked  -32.6178    1220.6401   ✗       
+734   +42.011ALDVELATYR        -1.0000     NotChecked  -32.6459    1191.6135   ✗       
+735   AALN+0.984VQ+0.984LATYR  -1.0000     NotChecked  -32.6584    1220.6401   ✗       
+736   ALDVELATYR               -1.0000     NotChecked  -32.6595    1149.6030   ✗       
+737   VAPDVELATYR              -1.0000     NotChecked  -32.6611    1232.6401   ✗       
+738   +42.011ALDVQ+0.984LATYR  -1.0000     NotChecked  -32.6685    1191.6135   ✗       
+739   +42.011ALDVELAKYR        -1.0000     NotChecked  -32.6905    1218.6608   ✗       
+740   +42.011ALDVELATY         -1.0000     NotChecked  -32.6948    1035.5124   ✗       
+741   VALDVELATYR              -1.0000     NotChecked  -32.6987    1248.6714   ✗       
+742   +42.011ALDVEEATYR        -1.0000     NotChecked  -32.7073    1207.5721   ✗       
+743   AALDVELAEYR              -1.0000     NotChecked  -32.7078    1248.6350   ✗       
+744   VALDVDLATYR              -1.0000     NotChecked  -32.7227    1234.6557   ✗       
+745   +42.011ALNVELATYR        -1.0000     NotChecked  -32.7244    1190.6295   ✗       
+746   +43.006ALDVELATYR        -1.0000     NotChecked  -32.7410    1192.6088   ✗       
+747   +43.006LLDVELATYR        -1.0000     NotChecked  -32.7424    1234.6557   ✗       
+748   +42.011ALDVELAVYR        -1.0000     NotChecked  -32.7456    1189.6343   ✗       
+749   VALDAELATYR              -1.0000     NotChecked  -32.7536    1220.6401   ✗       
+750   +42.011ALDVELATER        -1.0000     NotChecked  -32.7670    1157.5928   ✗       
+751   VALDVELATYR              -1.0000     NotChecked  -32.8165    1248.6714   ✗       
+752   VALDVELATYR              -1.0000     NotChecked  -32.8172    1248.6714   ✗       
+753   VALDVELATYR              -1.0000     NotChecked  -32.8178    1248.6714   ✗       
+754   +42.011ALN+0.984VELATYR  -1.0000     NotChecked  -32.8191    1191.6135   ✗       
+755   AALSVELATYR              -1.0000     NotChecked  -32.8263    1192.6452   ✗       
+756   +42.011ALDRELATYR        -1.0000     NotChecked  -32.8458    1248.6462   ✗       
+757   +42.011ALN+0.984VQ+0.984LATYR-1.0000     NotChecked  -32.8597    1191.6135   ✗       
+758   +43.006ALDVELAYYR        -1.0000     NotChecked  -32.8644    1254.6245   ✗       
+759   AALDVELATFR              -1.0000     NotChecked  -32.8875    1204.6452   ✗       
+760   +42.011ALDVELAEYR        -1.0000     NotChecked  -32.9091    1219.6085   ✗       
+761   AAADVELATYR              -1.0000     NotChecked  -32.9123    1178.5931   ✗       
+762   +43.006ALDVELATR         -1.0000     NotChecked  -32.9325    1029.5455   ✗       
+763   AALDVELATYR              -1.0000     NotChecked  -32.9359    1220.6401   ✗       
+764   +42.011ALDVELATYR        -1.0000     NotChecked  -32.9361    1191.6135   ✗       
+765   VALDVELATYR              -1.0000     NotChecked  -32.9385    1248.6714   ✗       
+766   AALDVELATTR              -1.0000     NotChecked  -32.9524    1158.6244   ✗       
+767   VALDVELATYR              -1.0000     NotChecked  -32.9535    1248.6714   ✗       
+768   AALDVELATLR              -1.0000     NotChecked  -32.9536    1170.6608   ✗       
+769   VALDVELATYP              -1.0000     NotChecked  -32.9711    1189.6230   ✗       
+770   +42.011ALDAELATYR        -1.0000     NotChecked  -32.9910    1163.5822   ✗       
+771   AGLDVELATYR              -1.0000     NotChecked  -33.0055    1206.6244   ✗       
+772   VALDVELGTYR              -1.0000     NotChecked  -33.0198    1234.6557   ✗       
+773   +42.011ALSVELATYR        -1.0000     NotChecked  -33.0276    1163.6186   ✗       
+774   +43.006ALEVELATYR        -1.0000     NotChecked  -33.0335    1206.6244   ✗       
+775   FALDVELATR               -1.0000     NotChecked  -33.0467    1133.6081   ✗       
+776   VALDVELATYR              -1.0000     NotChecked  -33.0497    1248.6714   ✗       
+777   VALDVEVATYR              -1.0000     NotChecked  -33.0508    1234.6557   ✗       
+778   +43.006ALDVELATYR        -1.0000     NotChecked  -33.0778    1192.6088   ✗       
+779   VALDVELATYT              -1.0000     NotChecked  -33.0883    1193.6180   ✗       
+780   AALDVELATVR              -1.0000     NotChecked  -33.0996    1156.6452   ✗       
+781   +42.011PLDVELATYR        -1.0000     NotChecked  -33.1010    1217.6292   ✗       
+782   AALDVELATYK              -1.0000     NotChecked  -33.1114    1192.6339   ✗       
+783   +42.011ALDVRLATYR        -1.0000     NotChecked  -33.1120    1218.6721   ✗       
+784   +42.011AADVELATYR        -1.0000     NotChecked  -33.1136    1149.5666   ✗       
+785   +42.011ALDVEMATYR        -1.0000     NotChecked  -33.1155    1209.5700   ✗       
+786   +43.006ALDVQ+0.984LATYR  -1.0000     NotChecked  -33.1184    1192.6088   ✗       
+787   AALDVMLATYR              -1.0000     NotChecked  -33.1224    1222.6380   ✗       
+788   AALTVELATYR              -1.0000     NotChecked  -33.1254    1206.6608   ✗       
+789   +42.011ALDVELATYR        -1.0000     NotChecked  -33.1372    1191.6135   ✗       
+790   +42.011ALDVELATLR        -1.0000     NotChecked  -33.1549    1141.6343   ✗       
+791   KALDVELATFR              -1.0000     NotChecked  -33.1589    1261.7030   ✗       
+792   +42.011ALDVELATYR        -1.0000     NotChecked  -33.1759    1191.6135   ✗       
+793   VALDVELATFR              -1.0000     NotChecked  -33.1815    1232.6765   ✗       
+794   AALDVELATKR              -1.0000     NotChecked  -33.1935    1185.6717   ✗       
+795   +43.006ALDVELATYR        -1.0000     NotChecked  -33.1956    1192.6088   ✗       
+796   +42.011ALDVELARYR        -1.0000     NotChecked  -33.2012    1246.6670   ✗       
+797   KALDVELATTR              -1.0000     NotChecked  -33.2238    1215.6823   ✗       
+798   +43.006ALDVQ+0.984LATYR  -1.0000     NotChecked  -33.2362    1192.6088   ✗       
+799   +42.011ALDVERATYR        -1.0000     NotChecked  -33.2457    1234.6306   ✗       
+800   VALDVELATTR              -1.0000     NotChecked  -33.2464    1186.6557   ✗       
+801   AAVDVELATYR              -1.0000     NotChecked  -33.2618    1206.6244   ✗       
+802   +43.006ALN+0.984VELATYR  -1.0000     NotChecked  -33.2690    1192.6088   ✗       
+803   +42.011ALDVELATYR        -1.0000     NotChecked  -33.2871    1191.6135   ✗       
+804   +42.011ALDVEVATYR        -1.0000     NotChecked  -33.2882    1177.5979   ✗       
+805   +42.011ALDVELATVR        -1.0000     NotChecked  -33.3009    1127.6186   ✗       
+806   +42.011ALGDVELATYR       -1.0000     NotChecked  -33.3009    1248.6350   ✗       
+807   AVLDVELATYR              -1.0000     NotChecked  -33.3091    1248.6714   ✗       
+808   +42.011ALDVGELATYR       -1.0000     NotChecked  -33.3134    1248.6350   ✗       
+809   VALDVELATYR              -1.0000     NotChecked  -33.3135    1248.6714   ✗       
+810   +42.011ALDVEFATYR        -1.0000     NotChecked  -33.3203    1225.5979   ✗       
+811   +42.011ALDVMLATYR        -1.0000     NotChecked  -33.3237    1193.6114   ✗       
+812   +42.011ALDVELATYT        -1.0000     NotChecked  -33.3258    1136.5601   ✗       
+813   +42.011ALTVELATYR        -1.0000     NotChecked  -33.3267    1177.6343   ✗       
+814   AALDVELAQYR              -1.0000     NotChecked  -33.3273    1247.6510   ✗       
+815   VASDVELATYR              -1.0000     NotChecked  -33.3607    1222.6194   ✗       
+816   AALGVELATYR              -1.0000     NotChecked  -33.3628    1162.6346   ✗       
+817   VAGDVELATYR              -1.0000     NotChecked  -33.3631    1192.6088   ✗       
+818   KALDVELATR               -1.0000     NotChecked  -33.3646    1114.6346   ✗       
+819   +42.011ALGDVELATYR       -1.0000     NotChecked  -33.3669    1248.6350   ✗       
+820   KALDVELATYK              -1.0000     NotChecked  -33.3828    1249.6918   ✗       
+821   AALDVELALYR              -1.0000     NotChecked  -33.3848    1232.6765   ✗       
+822   +43.006ALN+0.984VELATYR  -1.0000     NotChecked  -33.3868    1192.6088   ✗       
+823   VALDVELATYR              -1.0000     NotChecked  -33.3869    1248.6714   ✗       
+824   VALDVELATR               -1.0000     NotChecked  -33.3872    1085.6081   ✗       
+825   AALDVELATGR              -1.0000     NotChecked  -33.3887    1114.5982   ✗       
+826   +42.011ALDDELATYR        -1.0000     NotChecked  -33.3891    1207.5721   ✗       
+827   VALDVELTYR               -1.0000     NotChecked  -33.3925    1177.6343   ✗       
+828   +42.011ALDVELATKR        -1.0000     NotChecked  -33.3948    1156.6452   ✗       
+829   VALDVELATYK              -1.0000     NotChecked  -33.4054    1220.6652   ✗       
+830   +42.011ALDVEQATYR        -1.0000     NotChecked  -33.4074    1206.5881   ✗       
+831   AALRVELATYR              -1.0000     NotChecked  -33.4233    1261.7143   ✗       
+832   +43.006ALDLELATYR        -1.0000     NotChecked  -33.4252    1206.6244   ✗       
+833   +42.011ALDVELATYR        -1.0000     NotChecked  -33.4331    1191.6135   ✗       
+834   AALDVELATQR              -1.0000     NotChecked  -33.4339    1185.6353   ✗       
+835   +42.011LLDVELATYR        -1.0000     NotChecked  -33.4346    1233.6605   ✗       
+836   VALDTELATYR              -1.0000     NotChecked  -33.4367    1250.6507   ✗       
+837   VALDVELAYR               -1.0000     NotChecked  -33.4369    1147.6237   ✗       
+838   VALDVELATYV              -1.0000     NotChecked  -33.4438    1191.6387   ✗       
+839   +42.011AVDVELATYR        -1.0000     NotChecked  -33.4631    1177.5979   ✗       
+840   +43.006ALDVELATYR        -1.0000     NotChecked  -33.4807    1192.6088   ✗       
+841   +43.006ALDVQLATYR        -1.0000     NotChecked  -33.4946    1191.6248   ✗       
+842   VALDVELATYR              -1.0000     NotChecked  -33.5050    1248.6714   ✗       
+843   AALDVELATYR              -1.0000     NotChecked  -33.5238    1220.6401   ✗       
+844   AALDVSLATYR              -1.0000     NotChecked  -33.5280    1178.6295   ✗       
+845   +42.011ALDVELAQYR        -1.0000     NotChecked  -33.5286    1218.6245   ✗       
+846   +42.011ALDVELAYYR        -1.0000     NotChecked  -33.5565    1253.6292   ✗       
+847   AALDVELANYR              -1.0000     NotChecked  -33.5678    1233.6354   ✗       
+848   ATLDVELATYR              -1.0000     NotChecked  -33.5712    1250.6507   ✗       
+849   VALDVEPATYR              -1.0000     NotChecked  -33.6087    1232.6401   ✗       
+850   +42.011ALRVELATYR        -1.0000     NotChecked  -33.6246    1232.6877   ✗       
+851   +42.011ALDMELATYR        -1.0000     NotChecked  -33.6246    1223.5856   ✗       
+852   +42.011ALDVELATR         -1.0000     NotChecked  -33.6246    1028.5502   ✗       
+853   KALGVELATYR              -1.0000     NotChecked  -33.6342    1219.6925   ✗       
+854   VALDVELATYR              -1.0000     NotChecked  -33.6503    1248.6714   ✗       
+855   VALGVELATYR              -1.0000     NotChecked  -33.6568    1190.6659   ✗       
+856   KALDVELATGR              -1.0000     NotChecked  -33.6601    1171.6561   ✗       
+857   +42.011ALDTELATYR        -1.0000     NotChecked  -33.6741    1193.5928   ✗       
+858   VALDVELALYR              -1.0000     NotChecked  -33.6788    1260.7078   ✗       
+859   +42.011ALDVELATYV        -1.0000     NotChecked  -33.6812    1134.5808   ✗       
+860   VALDVELATGR              -1.0000     NotChecked  -33.6827    1142.6295   ✗       
+861   VALDVQ+0.984LATYR        -1.0000     NotChecked  -33.6909    1248.6714   ✗       
+862   +43.006ALDVELATYR        -1.0000     NotChecked  -33.6950    1192.6088   ✗       
+863   KALDVELATQR              -1.0000     NotChecked  -33.7052    1242.6932   ✗       
+864   AALDVKLATYR              -1.0000     NotChecked  -33.7077    1219.6925   ✗       
+865   +43.006ALDVDLATYR        -1.0000     NotChecked  -33.7190    1178.5931   ✗       
+866   +42.011ALDFELATYR        -1.0000     NotChecked  -33.7238    1239.6135   ✗       
+867   +42.011ALDVELATYR        -1.0000     NotChecked  -33.7251    1191.6135   ✗       
+868   +42.011ALEVELATYR        -1.0000     NotChecked  -33.7257    1205.6292   ✗       
+869   VALDVELATQR              -1.0000     NotChecked  -33.7278    1213.6666   ✗       
+870   +42.011ALDVSLATYR        -1.0000     NotChecked  -33.7293    1149.6030   ✗       
+871   AALDVLLATYR              -1.0000     NotChecked  -33.7315    1204.6816   ✗       
+872   VALDVELATYF              -1.0000     NotChecked  -33.7582    1239.6387   ✗       
+873   +42.011ALDVELANYR        -1.0000     NotChecked  -33.7691    1204.6088   ✗       
+874   AALDVELATYR              -1.0000     NotChecked  -33.7947    1220.6401   ✗       
+875   RALDVELATR               -1.0000     NotChecked  -33.8010    1142.6408   ✗       
+876   +43.006ALDVELATYR        -1.0000     NotChecked  -33.8141    1192.6088   ✗       
+877   +42.011ALDKELATYR        -1.0000     NotChecked  -33.8220    1220.6401   ✗       
+878   AALDVLATYR               -1.0000     NotChecked  -33.8292    1091.5975   ✗       
+879   VALN+0.984VELATYR        -1.0000     NotChecked  -33.8415    1248.6714   ✗       
+880   +42.011ALDVEPATYR        -1.0000     NotChecked  -33.8461    1175.5822   ✗       
+881   AALLVELATYR              -1.0000     NotChecked  -33.8516    1218.6972   ✗       
+882   VALDVELATYH              -1.0000     NotChecked  -33.8586    1229.6292   ✗       
+883   +42.011ALDVEGLATYR       -1.0000     NotChecked  -33.8760    1248.6350   ✗       
+884   +42.011ALDVELATYR        -1.0000     NotChecked  -33.8877    1191.6135   ✗       
+885   VALDVELATYR              -1.0000     NotChecked  -33.8879    1248.6714   ✗       
+886   AALDVELATYR              -1.0000     NotChecked  -33.8957    1220.6401   ✗       
+887   +42.011ALDVKLATYR        -1.0000     NotChecked  -33.9090    1190.6659   ✗       
+888   AALDVQ+0.984LATYR        -1.0000     NotChecked  -33.9183    1220.6401   ✗       
+889   VALDVELATYN              -1.0000     NotChecked  -33.9232    1206.6132   ✗       
+890   +42.011ALDVQ+0.984LATYR  -1.0000     NotChecked  -33.9284    1191.6135   ✗       
+891   +42.011ALDVLLATYR        -1.0000     NotChecked  -33.9328    1175.6550   ✗       
+892   VALDVELATYR              -1.0000     NotChecked  -33.9354    1248.6714   ✗       
+893   AALDVELAKYR              -1.0000     NotChecked  -33.9403    1247.6874   ✗       
+894   VALDVELATYR              -1.0000     NotChecked  -33.9435    1248.6714   ✗       
+895   AALDVELATY               -1.0000     NotChecked  -33.9445    1064.5390   ✗       
+896   VALDVQLATYR              -1.0000     NotChecked  -33.9493    1247.6874   ✗       
+897   +43.006ALDVELATYR        -1.0000     NotChecked  -33.9498    1192.6088   ✗       
+898   AALDVEEATYR              -1.0000     NotChecked  -33.9570    1236.5986   ✗       
+899   +43.006ALDVELARYR        -1.0000     NotChecked  -33.9601    1247.6622   ✗       
+900   VALDVELATYL              -1.0000     NotChecked  -33.9726    1205.6543   ✗       
+901   AALNVELATYR              -1.0000     NotChecked  -33.9741    1219.6561   ✗       
+902   AALDVELAVYR              -1.0000     NotChecked  -33.9953    1218.6608   ✗       
+903   +42.011ARDVELATYR        -1.0000     NotChecked  -33.9996    1234.6306   ✗       
+904   AALDVELATER              -1.0000     NotChecked  -34.0167    1186.6194   ✗       
+905   +42.011ALDVLATYR         -1.0000     NotChecked  -34.0305    1062.5710   ✗       
+906   VALDVQLATYR              -1.0000     NotChecked  -34.0671    1247.6874   ✗       
+907   AALN+0.984VELATYR        -1.0000     NotChecked  -34.0688    1220.6401   ✗       
+908   +42.011ALN+0.984VELATYR  -1.0000     NotChecked  -34.0789    1191.6135   ✗       
+909   +42.011AFDVELATYR        -1.0000     NotChecked  -34.0852    1225.5979   ✗       
+910   VALDVELATYR              -1.0000     NotChecked  -34.0887    1248.6714   ✗       
+911   +42.011ALDVELATYH        -1.0000     NotChecked  -34.0960    1172.5713   ✗       
+912   +42.011ALDVELATYR        -1.0000     NotChecked  -34.0970    1191.6135   ✗       
+913   AALN+0.984VQ+0.984LATYR  -1.0000     NotChecked  -34.1094    1220.6401   ✗       
+914   VAPDVELATYR              -1.0000     NotChecked  -34.1122    1232.6401   ✗       
+915   VALLVELATYR              -1.0000     NotChecked  -34.1456    1246.7285   ✗       
+916   +42.011ALDVELLTYR        -1.0000     NotChecked  -34.1498    1233.6605   ✗       
+917   +42.011ALDVEEATYR        -1.0000     NotChecked  -34.1583    1207.5721   ✗       
+918   AALDVELAEYR              -1.0000     NotChecked  -34.1589    1248.6350   ✗       
+919   +42.011ALDVELATYR        -1.0000     NotChecked  -34.1728    1191.6135   ✗       
+920   VALDVDLATYR              -1.0000     NotChecked  -34.1737    1234.6557   ✗       
+921   +43.006ALDVELATFR        -1.0000     NotChecked  -34.1778    1176.6139   ✗       
+922   +42.011ALDVEKATYR        -1.0000     NotChecked  -34.1803    1206.6244   ✗       
+923   ALDVELATYR               -1.0000     NotChecked  -34.1859    1149.6030   ✗       
+924   +42.011ALDVQLATYR        -1.0000     NotChecked  -34.1867    1190.6295   ✗       
+925   VALDVQ+0.984LATYR        -1.0000     NotChecked  -34.2122    1248.6714   ✗       
+926   KALDVELATY               -1.0000     NotChecked  -34.2159    1121.5968   ✗       
+927   VALDVELATY               -1.0000     NotChecked  -34.2385    1092.5703   ✗       
+928   AALDAELATYR              -1.0000     NotChecked  -34.2408    1192.6088   ✗       
+929   +43.006ALDVELATTR        -1.0000     NotChecked  -34.2427    1130.5931   ✗       
+930   EALDVELATR               -1.0000     NotChecked  -34.2600    1115.5822   ✗       
+931   VALDVELATYR              -1.0000     NotChecked  -34.2676    1248.6714   ✗       
+932   VALNVELATYR              -1.0000     NotChecked  -34.2681    1247.6874   ✗       
+933   VALDVELATYR              -1.0000     NotChecked  -34.2683    1248.6714   ✗       
+934   VALDVELATYR              -1.0000     NotChecked  -34.2688    1248.6714   ✗       
+935   AALSVELATYR              -1.0000     NotChecked  -34.2774    1192.6452   ✗       
+936   KALDVELATER              -1.0000     NotChecked  -34.2881    1243.6772   ✗       
+937   VALDVELAVYR              -1.0000     NotChecked  -34.2893    1246.6921   ✗       
+938   VALDVDLATYR              -1.0000     NotChecked  -34.2915    1234.6557   ✗       
+939   +43.006GALDVELATYR       -1.0000     NotChecked  -34.2958    1249.6303   ✗       
+940   +42.011ALDRELATYR        -1.0000     NotChecked  -34.2968    1248.6462   ✗       
+941   +42.011ALDVELQTYR        -1.0000     NotChecked  -34.3093    1248.6350   ✗       
+942   VALDVELATER              -1.0000     NotChecked  -34.3107    1214.6507   ✗       
+943   +43.006ALDVELAYYR        -1.0000     NotChecked  -34.3154    1254.6245   ✗       
+944   +42.011ALDVELVTYR        -1.0000     NotChecked  -34.3314    1219.6448   ✗       
+945   Q+0.984ALDVELATR         -1.0000     NotChecked  -34.3489    1115.5822   ✗       
+946   +42.011APDVELATYR        -1.0000     NotChecked  -34.3496    1175.5822   ✗       
+947   APLDVELATYR              -1.0000     NotChecked  -34.3507    1246.6557   ✗       
+948   FALDVELATTR              -1.0000     NotChecked  -34.3569    1234.6557   ✗       
+949   AALDVRLATYR              -1.0000     NotChecked  -34.3618    1247.6986   ✗       
+950   VALN+0.984VELATYR        -1.0000     NotChecked  -34.3628    1248.6714   ✗       
+951   AAADVELATYR              -1.0000     NotChecked  -34.3634    1178.5931   ✗       
+952   AALDVEMATYR              -1.0000     NotChecked  -34.3653    1238.5965   ✗       
+953   KLDVELATYR               -1.0000     NotChecked  -34.3820    1206.6608   ✗       
+954   +43.006ALDVELATR         -1.0000     NotChecked  -34.3835    1029.5455   ✗       
+955   VALDVELATYR              -1.0000     NotChecked  -34.3867    1248.6714   ✗       
+956   AALDVELATYR              -1.0000     NotChecked  -34.3870    1220.6401   ✗       
+957   +42.011ALDVELATYR        -1.0000     NotChecked  -34.3872    1191.6135   ✗       
+958   +43.006ALDVELATYK        -1.0000     NotChecked  -34.4017    1164.6026   ✗       
+959   VALN+0.984VQ+0.984LATYR  -1.0000     NotChecked  -34.4034    1248.6714   ✗       
+960   VLDVELATYR               -1.0000     NotChecked  -34.4046    1177.6343   ✗       
+961   AALDVELATLR              -1.0000     NotChecked  -34.4047    1170.6608   ✗       
+962   +42.011ALDVDLATYR        -1.0000     NotChecked  -34.4111    1177.5979   ✗       
+963   VALDVELATYP              -1.0000     NotChecked  -34.4221    1189.6230   ✗       
+964   AALDVELATYR              -1.0000     NotChecked  -34.4257    1220.6401   ✗       
+965   +42.011ALDAELATYR        -1.0000     NotChecked  -34.4421    1163.5822   ✗       
+966   VALDVELGTYR              -1.0000     NotChecked  -34.4709    1234.6557   ✗       
+967   +43.006ALEVELATYR        -1.0000     NotChecked  -34.4846    1206.6244   ✗       
+968   FALDVELATR               -1.0000     NotChecked  -34.4977    1133.6081   ✗       
+969   +42.011ALDVELATYR        -1.0000     NotChecked  -34.5050    1191.6135   ✗       
+970   +42.011ALDVELATYR        -1.0000     NotChecked  -34.5057    1191.6135   ✗       
+971   +42.011ALDVELATYR        -1.0000     NotChecked  -34.5063    1191.6135   ✗       
+972   VALDVELATYR              -1.0000     NotChecked  -34.5224    1248.6714   ✗       
+973   AALDVELATYR              -1.0000     NotChecked  -34.5369    1220.6401   ✗       
+974   AALDVEVATYR              -1.0000     NotChecked  -34.5380    1206.6244   ✗       
+975   KALSVELATYR              -1.0000     NotChecked  -34.5488    1249.7030   ✗       
+976   AALDVELATVR              -1.0000     NotChecked  -34.5506    1156.6452   ✗       
+977   +42.011ALDVRLATYR        -1.0000     NotChecked  -34.5631    1218.6721   ✗       
+978   +42.011ALDVEMATYR        -1.0000     NotChecked  -34.5666    1209.5700   ✗       
+979   AALDVEFATYR              -1.0000     NotChecked  -34.5701    1254.6244   ✗       
+980   VALSVELATYR              -1.0000     NotChecked  -34.5713    1220.6765   ✗       
+981   AALDVMLATYR              -1.0000     NotChecked  -34.5735    1222.6380   ✗       
+982   AALDVELATYT              -1.0000     NotChecked  -34.5755    1165.5867   ✗       
+983   AALTVELATYR              -1.0000     NotChecked  -34.5764    1206.6608   ✗       
+984   KALDVELATFR              -1.0000     NotChecked  -34.6099    1261.7030   ✗       
+985   +42.011ALDVELATYR        -1.0000     NotChecked  -34.6270    1191.6135   ✗       
+986   VALDVELATFR              -1.0000     NotChecked  -34.6325    1232.6765   ✗       
+987   KAADVELATYR              -1.0000     NotChecked  -34.6348    1235.6510   ✗       
+988   AALDDELATYR              -1.0000     NotChecked  -34.6389    1236.5986   ✗       
+989   +42.011ALDVELATYR        -1.0000     NotChecked  -34.6420    1191.6135   ✗       
+990   AALDVELATKR              -1.0000     NotChecked  -34.6446    1185.6717   ✗       
+991   +43.006ALDVELATYR        -1.0000     NotChecked  -34.6466    1192.6088   ✗       
+992   +42.011ALWVELATYR        -1.0000     Failed      -34.6508    1262.6659   ✓       
+993   +42.011ALDVELARYR        -1.0000     NotChecked  -34.6523    1246.6670   ✗       
+994   +43.006ALGVELATYR        -1.0000     NotChecked  -34.6531    1134.6033   ✗       
+995   AALDVEQATYR              -1.0000     NotChecked  -34.6572    1235.6146   ✗       
+996   VAADVELATYR              -1.0000     NotChecked  -34.6574    1206.6244   ✗       
+997   +42.011ALDVELATYP        -1.0000     NotChecked  -34.6596    1132.5652   ✗       
+998   KALDVELATTR              -1.0000     NotChecked  -34.6749    1215.6823   ✗       
+999   +43.006ALDVELALYR        -1.0000     NotChecked  -34.6751    1204.6452   ✗       
+1000  KALDVELATLR              -1.0000     NotChecked  -34.6761    1227.7187   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: LALDVELATYR
+Similarity: 0.6295
+De Novo Score: -0.2224
+Source: Database
+Correct: ✓
+

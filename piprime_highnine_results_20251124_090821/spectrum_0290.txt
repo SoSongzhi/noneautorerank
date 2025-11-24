@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 290
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 635.2750
+Precursor charge: 2+
+Ground truth: DPQTM+15.995DVYER
+Ground truth (normalized): DPQTM+15.995DVYER
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 166
+Used for reranking: 166
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 166 (16.6%)
+Database matches: 82 (8.2%)
+Prosit predictions: 0 (0.0%)
+Failed: 84 (8.4%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.8119
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     DPQTM+15.995DVYER        0.8119      Database    -0.0369     1268.5343   ✓       ✓
+2     DPQTM+15.995DVYER        0.8119      Database    -3.3380     1268.5343   ✓       ✓
+3     DPQTM+15.995DVYER        0.8119      Database    -7.3002     1268.5343   ✓       ✓
+4     DPQTM+15.995DVYER        0.8119      Database    -10.6012    1268.5343   ✓       ✓
+5     DPQTM+15.995DVYER        0.8119      Database    -11.4301    1268.5343   ✓       ✓
+6     DPQTM+15.995DVYER        0.8119      Database    -12.0117    1268.5343   ✓       ✓
+7     DPQTM+15.995DVYER        0.8119      Database    -13.4448    1268.5343   ✓       ✓
+8     DPQTM+15.995DVYER        0.8119      Database    -13.6845    1268.5343   ✓       ✓
+9     DPQTM+15.995DVYER        0.8119      Database    -14.3391    1268.5343   ✓       ✓
+10    DPQTM+15.995DVYER        0.8119      Database    -14.7311    1268.5343   ✓       ✓
+11    DPQTM+15.995DVYER        0.8119      Database    -15.8960    1268.5343   ✓       ✓
+12    DPQTM+15.995DVYER        0.8119      Database    -16.1757    1268.5343   ✓       ✓
+13    DPQTM+15.995DVYER        0.8119      Database    -16.4329    1268.5343   ✓       ✓
+14    DPQTM+15.995DVYER        0.8119      Database    -16.6082    1268.5343   ✓       ✓
+15    DPQTM+15.995DVYER        0.8119      Database    -16.7459    1268.5343   ✓       ✓
+16    DPQTM+15.995DVYER        0.8119      Database    -16.8870    1268.5343   ✓       ✓
+17    DPQTM+15.995DVYER        0.8119      Database    -16.9856    1268.5343   ✓       ✓
+18    DPQTM+15.995DVYER        0.8119      Database    -17.6401    1268.5343   ✓       ✓
+19    DPQTM+15.995DVYER        0.8119      Database    -17.8541    1268.5343   ✓       ✓
+20    DPQTM+15.995DVYER        0.8119      Database    -18.6933    1268.5343   ✓       ✓
+21    DPQTM+15.995DVYER        0.8119      Database    -19.1970    1268.5343   ✓       ✓
+22    DPQTM+15.995DVYER        0.8119      Database    -19.2750    1268.5343   ✓       ✓
+23    DPQTM+15.995DVYER        0.8119      Database    -19.5847    1268.5343   ✓       ✓
+24    DPQTM+15.995DVYER        0.8119      Database    -19.7340    1268.5343   ✓       ✓
+25    DPQTM+15.995DVYER        0.8119      Database    -19.7366    1268.5343   ✓       ✓
+26    DPQTM+15.995DVYER        0.8119      Database    -19.9093    1268.5343   ✓       ✓
+27    DPQTM+15.995DVYER        0.8119      Database    -20.1881    1268.5343   ✓       ✓
+28    DPQTM+15.995DVYER        0.8119      Database    -20.7081    1268.5343   ✓       ✓
+29    DPQTM+15.995DVYER        0.8119      Database    -20.9013    1268.5343   ✓       ✓
+30    DPQTM+15.995DVYER        0.8119      Database    -20.9478    1268.5343   ✓       ✓
+31    DPQTM+15.995DVYER        0.8119      Database    -21.1552    1268.5343   ✓       ✓
+32    DPQTM+15.995DVYER        0.8119      Database    -21.6023    1268.5343   ✓       ✓
+33    DPQTM+15.995DVYER        0.8119      Database    -21.9944    1268.5343   ✓       ✓
+34    DPQTM+15.995DVYER        0.8119      Database    -22.8857    1268.5343   ✓       ✓
+35    DPQTM+15.995DVYER        0.8119      Database    -23.0377    1268.5343   ✓       ✓
+36    DPQTM+15.995DVYER        0.8119      Database    -23.0920    1268.5343   ✓       ✓
+37    DPQTM+15.995DVYER        0.8119      Database    -23.1592    1268.5343   ✓       ✓
+38    DPQTM+15.995DVYER        0.8119      Database    -23.4049    1268.5343   ✓       ✓
+39    DPQTM+15.995DVYER        0.8119      Database    -23.4074    1268.5343   ✓       ✓
+40    DPQTM+15.995DVYER        0.8119      Database    -23.6962    1268.5343   ✓       ✓
+41    DPQTM+15.995DVYER        0.8119      Database    -23.8715    1268.5343   ✓       ✓
+42    DPQTM+15.995DVYER        0.8119      Database    -24.0091    1268.5343   ✓       ✓
+43    DPQTM+15.995DVYER        0.8119      Database    -24.1502    1268.5343   ✓       ✓
+44    DPQTM+15.995DVYER        0.8119      Database    -24.2024    1268.5343   ✓       ✓
+45    DPQTM+15.995DVYER        0.8119      Database    -24.2488    1268.5343   ✓       ✓
+46    DPQTM+15.995DVYER        0.8119      Database    -24.8380    1268.5343   ✓       ✓
+47    DPQTM+15.995DVYER        0.8119      Database    -24.9034    1268.5343   ✓       ✓
+48    DPQTM+15.995DVYER        0.8119      Database    -25.0777    1268.5343   ✓       ✓
+49    DPQTM+15.995DVYER        0.8119      Database    -25.1174    1268.5343   ✓       ✓
+50    DPQTM+15.995DVYER        0.8119      Database    -25.4196    1268.5343   ✓       ✓
+51    DPQTM+15.995DVYER        0.8119      Database    -25.6593    1268.5343   ✓       ✓
+52    DPQTM+15.995DVYER        0.8119      Database    -25.7322    1268.5343   ✓       ✓
+53    DPQTM+15.995DVYER        0.8119      Database    -26.3139    1268.5343   ✓       ✓
+54    DPQTM+15.995DVYER        0.8119      Database    -26.3931    1268.5343   ✓       ✓
+55    DPQTM+15.995DVYER        0.8119      Database    -26.4603    1268.5343   ✓       ✓
+56    DPQTM+15.995DVYER        0.8119      Database    -26.8479    1268.5343   ✓       ✓
+57    DPQTM+15.995DVYER        0.8119      Database    -26.9972    1268.5343   ✓       ✓
+58    DPQTM+15.995DVYER        0.8119      Database    -26.9998    1268.5343   ✓       ✓
+59    DPQTM+15.995DVYER        0.8119      Database    -27.0924    1268.5343   ✓       ✓
+60    DPQTM+15.995DVYER        0.8119      Database    -27.1725    1268.5343   ✓       ✓
+61    DPQTM+15.995DVYER        0.8119      Database    -27.2891    1268.5343   ✓       ✓
+62    DPQTM+15.995DVYER        0.8119      Database    -27.4513    1268.5343   ✓       ✓
+63    DPQTM+15.995DVYER        0.8119      Database    -27.5688    1268.5343   ✓       ✓
+64    DPQTM+15.995DVYER        0.8119      Database    -27.7469    1268.5343   ✓       ✓
+65    DPQTM+15.995DVYER        0.8119      Database    -27.8261    1268.5343   ✓       ✓
+66    DPQTM+15.995DVYER        0.8119      Database    -27.8708    1268.5343   ✓       ✓
+67    DPQTM+15.995DVYER        0.8119      Database    -27.9867    1268.5343   ✓       ✓
+68    DPQTM+15.995DVYER        0.8119      Database    -28.0014    1268.5343   ✓       ✓
+69    DPQTM+15.995DVYER        0.8119      Database    -28.1390    1268.5343   ✓       ✓
+70    DPQTM+15.995DVYER        0.8119      Database    -28.1505    1268.5343   ✓       ✓
+71    DPQTM+15.995DVYER        0.8119      Database    -28.1646    1268.5343   ✓       ✓
+72    DPQTM+15.995DVYER        0.8119      Database    -28.2802    1268.5343   ✓       ✓
+73    DPQTM+15.995DVYER        0.8119      Database    -28.3788    1268.5343   ✓       ✓
+74    DPQTM+15.995DVYER        0.8119      Database    -28.4077    1268.5343   ✓       ✓
+75    DPQTM+15.995DVYER        0.8119      Database    -28.4184    1268.5343   ✓       ✓
+76    DPQTM+15.995DVYER        0.8119      Database    -28.5830    1268.5343   ✓       ✓
+77    DPQTM+15.995DVYER        0.8119      Database    -28.8618    1268.5343   ✓       ✓
+78    DPQTM+15.995DVYER        0.8119      Database    -29.0333    1268.5343   ✓       ✓
+79    DPQTM+15.995DVYER        0.8119      Database    -29.2473    1268.5343   ✓       ✓
+80    DPQTM+15.995DVYER        0.8119      Database    -29.3039    1268.5343   ✓       ✓
+81    DPQTM+15.995DVYER        0.8119      Database    -29.5436    1268.5343   ✓       ✓
+82    DPQTM+15.995DVYER        0.8119      Database    -29.5836    1268.5343   ✓       ✓
+83    DPQTM+15.995DVFER        -1.0000     NotChecked  -12.0204    1252.5394   ✗       
+84    DPQTM+15.995DVLER        -1.0000     NotChecked  -13.0187    1218.5550   ✗       
+85    DPQTMDVYER               -1.0000     NotChecked  -14.3712    1252.5394   ✗       
+86    NPQTM+15.995DVYER        -1.0000     NotChecked  -14.4165    1267.5503   ✗       
+87    DPQTM+15.995N+0.984VYER  -1.0000     Failed      -14.4218    1268.5343   ✓       
+88    DPKTM+15.995DVYER        -1.0000     Failed      -14.5855    1268.5707   ✓       
+89    DPQSM+15.995DVYER        -1.0000     NotChecked  -14.6838    1254.5187   ✗       
+90    DQTM+15.995DVYER         -1.0000     NotChecked  -15.3128    1171.4815   ✗       
+91    DPQTM+15.995DVFER        -1.0000     NotChecked  -15.3215    1252.5394   ✗       
+92    DPQTM+15.995DVVER        -1.0000     NotChecked  -15.4740    1204.5394   ✗       
+93    DPQTM+15.995DVYQ+0.984R  -1.0000     Failed      -15.5058    1268.5343   ✓       
+94    DPNTM+15.995DVYER        -1.0000     NotChecked  -15.5446    1254.5187   ✗       
+95    DPQTM+15.995DVYE         -1.0000     NotChecked  -15.7815    1112.4332   ✗       
+96    N+0.984PQTM+15.995DVYER  -1.0000     Failed      -15.7896    1268.5343   ✓       
+97    PPQTM+15.995DVYER        -1.0000     NotChecked  -15.8790    1250.5601   ✗       
+98    DPQTM+15.995DVYEK        -1.0000     NotChecked  -16.0812    1240.5282   ✗       
+99    DPQTM+15.995DVSER        -1.0000     NotChecked  -16.1055    1192.5030   ✗       
+100   DPQTM+15.995DVEER        -1.0000     NotChecked  -16.1390    1234.5136   ✗       
+101   TPQTM+15.995DVYER        -1.0000     NotChecked  -16.2212    1254.5550   ✗       
+102   DPQTM+15.995DVLER        -1.0000     NotChecked  -16.3198    1218.5550   ✗       
+103   DPQTM+15.995SVYER        -1.0000     NotChecked  -16.3812    1240.5394   ✗       
+104   DPQTM+15.995DVTER        -1.0000     NotChecked  -16.5553    1206.5187   ✗       
+105   DPQTM+15.995DVYDR        -1.0000     NotChecked  -16.7139    1254.5187   ✗       
+106   DPQTM+15.995DVYLR        -1.0000     NotChecked  -16.7718    1252.5758   ✗       
+107   VPQTM+15.995DVYER        -1.0000     NotChecked  -16.7844    1252.5758   ✗       
+108   DPQTM+15.995DSYER        -1.0000     NotChecked  -16.7954    1256.4979   ✗       
+109   DPQAM+15.995DVYER        -1.0000     NotChecked  -16.8504    1238.5238   ✗       
+110   DPQTM+15.995DVHER        -1.0000     NotChecked  -16.8528    1242.5299   ✗       
+111   DPQTM+15.995VYER         -1.0000     NotChecked  -17.0030    1153.5074   ✗       
+112   DPQTM+15.995DYER         -1.0000     NotChecked  -17.1054    1169.4659   ✗       
+113   DPQTM+15.995NVYER        -1.0000     NotChecked  -17.1440    1267.5503   ✗       
+114   DPSTM+15.995DVYER        -1.0000     NotChecked  -17.1703    1227.5078   ✗       
+115   DPQTM+15.995DGYER        -1.0000     NotChecked  -17.2094    1226.4874   ✗       
+116   DPDTM+15.995DVYER        -1.0000     NotChecked  -17.2105    1255.5027   ✗       
+117   DPQTM+15.995VVYER        -1.0000     NotChecked  -17.2597    1252.5758   ✗       
+118   DPATM+15.995DVYER        -1.0000     NotChecked  -17.3280    1211.5128   ✗       
+119   DPQTM+15.995DVYTR        -1.0000     NotChecked  -17.5437    1240.5394   ✗       
+120   DPQTM+15.995DVAER        -1.0000     NotChecked  -17.5645    1176.5081   ✗       
+121   DPQTM+15.995TVYER        -1.0000     NotChecked  -17.6441    1254.5550   ✗       
+122   DPQTMDVYER               -1.0000     NotChecked  -17.6722    1252.5394   ✗       
+123   NPQTM+15.995DVYER        -1.0000     NotChecked  -17.7176    1267.5503   ✗       
+124   DPQTM+15.995N+0.984VYER  -1.0000     Failed      -17.7228    1268.5343   ✓       
+125   DPKTM+15.995DVYER        -1.0000     Failed      -17.8866    1268.5707   ✓       
+126   DPQTM+15.995DVYET        -1.0000     NotChecked  -17.9408    1213.4809   ✗       
+127   DPQVM+15.995DVYER        -1.0000     NotChecked  -17.9559    1266.5551   ✗       
+128   DPQSM+15.995DVYER        -1.0000     NotChecked  -17.9848    1254.5187   ✗       
+129   DPQTM+15.995DVYEV        -1.0000     NotChecked  -18.3686    1211.5016   ✗       
+130   DPQTM+15.995DVYR         -1.0000     NotChecked  -18.4756    1139.4917   ✗       
+131   DPQTM+15.995DVYQR        -1.0000     NotChecked  -18.5514    1267.5503   ✗       
+132   DPQTM+15.995DVVER        -1.0000     NotChecked  -18.7751    1204.5394   ✗       
+133   DPQTM+15.995DVYQ+0.984R  -1.0000     Failed      -18.8068    1268.5343   ✓       
+134   DPQTM+15.995DVYSR        -1.0000     NotChecked  -18.8285    1226.5237   ✗       
+135   DPNTM+15.995DVYER        -1.0000     NotChecked  -18.8457    1254.5187   ✗       
+136   DPQTM+15.995DVYE         -1.0000     NotChecked  -19.0826    1112.4332   ✗       
+137   N+0.984PQTM+15.995DVYER  -1.0000     Failed      -19.0906    1268.5343   ✓       
+138   PPQTM+15.995DVYER        -1.0000     NotChecked  -19.1801    1250.5601   ✗       
+139   DPQTM+15.995DVYR         -1.0000     NotChecked  -19.2705    1139.4917   ✗       
+140   DPQTM+15.995DVFER        -1.0000     NotChecked  -19.2837    1252.5394   ✗       
+141   DPQTM+15.995DVYEK        -1.0000     NotChecked  -19.3823    1240.5282   ✗       
+142   DPQTM+15.995DVSER        -1.0000     NotChecked  -19.4066    1192.5030   ✗       
+143   DPQTM+15.995DVEER        -1.0000     NotChecked  -19.4401    1234.5136   ✗       
+144   TPQTM+15.995DVYER        -1.0000     NotChecked  -19.5223    1254.5550   ✗       
+145   DPQTM+15.995SVYER        -1.0000     NotChecked  -19.6823    1240.5394   ✗       
+146   DSQTM+15.995DVYER        -1.0000     NotChecked  -19.6963    1258.5136   ✗       
+147   DAQTM+15.995DVYER        -1.0000     NotChecked  -19.7201    1242.5187   ✗       
+148   DPQTFDVYER               -1.0000     Failed      -19.7298    1268.5673   ✓       
+149   DPQTM+15.995DVTER        -1.0000     NotChecked  -19.8564    1206.5187   ✗       
+150   DPQTM+15.995DVYEF        -1.0000     NotChecked  -19.8674    1259.5016   ✗       
+151   DPQTM+15.995DVYDR        -1.0000     NotChecked  -20.0149    1254.5187   ✗       
+152   DPQTSDVYER               -1.0000     NotChecked  -20.0392    1208.5309   ✗       
+153   DPQTM+15.995DVYLR        -1.0000     NotChecked  -20.0729    1252.5758   ✗       
+154   VPQTM+15.995DVYER        -1.0000     NotChecked  -20.0854    1252.5758   ✗       
+155   DPQTM+15.995DSYER        -1.0000     NotChecked  -20.0965    1256.4979   ✗       
+156   DPQAM+15.995DVYER        -1.0000     NotChecked  -20.1515    1238.5238   ✗       
+157   DPQTM+15.995DVHER        -1.0000     NotChecked  -20.1539    1242.5299   ✗       
+158   DPQTM+15.995DVYES        -1.0000     NotChecked  -20.2465    1199.4652   ✗       
+159   DPQTM+15.995DVYEL        -1.0000     NotChecked  -20.2591    1225.5173   ✗       
+160   DPQTM+15.995DVLER        -1.0000     NotChecked  -20.2819    1218.5550   ✗       
+161   DPQTM+15.995VYER         -1.0000     NotChecked  -20.3041    1153.5074   ✗       
+162   DPQTM+15.995DYER         -1.0000     NotChecked  -20.4065    1169.4659   ✗       
+163   DPQTM+15.995DVYEQ        -1.0000     NotChecked  -20.4116    1240.4918   ✗       
+164   DPQTM+15.995NVYER        -1.0000     NotChecked  -20.4451    1267.5503   ✗       
+165   DPSTM+15.995DVYER        -1.0000     NotChecked  -20.4713    1227.5078   ✗       
+166   DPQTM+15.995DGYER        -1.0000     NotChecked  -20.5105    1226.4874   ✗       
+167   DPDTM+15.995DVYER        -1.0000     NotChecked  -20.5115    1255.5027   ✗       
+168   DPQTM+15.995VVYER        -1.0000     NotChecked  -20.5608    1252.5758   ✗       
+169   DPATM+15.995DVYER        -1.0000     NotChecked  -20.6291    1211.5128   ✗       
+170   DPQTM+15.995DVYTR        -1.0000     NotChecked  -20.8447    1240.5394   ✗       
+171   DPQTM+15.995DVAER        -1.0000     NotChecked  -20.8656    1176.5081   ✗       
+172   DPQTM+15.995TVYER        -1.0000     NotChecked  -20.9452    1254.5550   ✗       
+173   DPQTM+15.995DVYET        -1.0000     NotChecked  -21.2418    1213.4809   ✗       
+174   DPQVM+15.995DVYER        -1.0000     NotChecked  -21.2569    1266.5551   ✗       
+175   DPQTLDVYER               -1.0000     NotChecked  -21.2905    1234.5830   ✗       
+176   DPQTMDVYER               -1.0000     NotChecked  -21.6344    1252.5394   ✗       
+177   DPQTM+15.995DVYEV        -1.0000     NotChecked  -21.6696    1211.5016   ✗       
+178   DPQTM+15.995N+0.984VYER  -1.0000     Failed      -21.6850    1268.5343   ✓       
+179   DPQTTDVYER               -1.0000     NotChecked  -21.7252    1222.5466   ✗       
+180   DPQTVDVYER               -1.0000     NotChecked  -21.7261    1220.5673   ✗       
+181   DPQTM+15.995DVYR         -1.0000     NotChecked  -21.7767    1139.4917   ✗       
+182   DPKTM+15.995DVYER        -1.0000     Failed      -21.8488    1268.5707   ✓       
+183   DPQTM+15.995DVYQR        -1.0000     NotChecked  -21.8525    1267.5503   ✗       
+184   DPQSM+15.995DVYER        -1.0000     NotChecked  -21.9470    1254.5187   ✗       
+185   DPQTM+15.995DVYSR        -1.0000     NotChecked  -22.1296    1226.5237   ✗       
+186   DPQTM+15.995DVYR         -1.0000     NotChecked  -22.5716    1139.4917   ✗       
+187   DQTM+15.995DVYER         -1.0000     NotChecked  -22.5761    1171.4815   ✗       
+188   DPQTM+15.995DVFER        -1.0000     NotChecked  -22.5847    1252.5394   ✗       
+189   DPQTM+15.995DVVER        -1.0000     NotChecked  -22.7373    1204.5394   ✗       
+190   DPQTM+15.995DVYQ+0.984R  -1.0000     Failed      -22.7690    1268.5343   ✓       
+191   DPNTM+15.995DVYER        -1.0000     NotChecked  -22.8078    1254.5187   ✗       
+192   DPQTFDVYER               -1.0000     Failed      -23.0309    1268.5673   ✓       
+193   DPQTM+15.995DVYE         -1.0000     NotChecked  -23.0448    1112.4332   ✗       
+194   DPQTM+15.995DVYEF        -1.0000     NotChecked  -23.1685    1259.5016   ✗       
+195   DPQTSDVYER               -1.0000     NotChecked  -23.3403    1208.5309   ✗       
+196   DPQTM+15.995DVYEK        -1.0000     NotChecked  -23.3444    1240.5282   ✗       
+197   DPQTM+15.995DVSER        -1.0000     NotChecked  -23.3687    1192.5030   ✗       
+198   DPQTM+15.995DVEER        -1.0000     NotChecked  -23.4022    1234.5136   ✗       
+199   DPQTM+15.995DVFER        -1.0000     NotChecked  -23.4136    1252.5394   ✗       
+200   DPQTM+15.995DVYES        -1.0000     NotChecked  -23.5476    1199.4652   ✗       
+201   DPQTM+15.995DVYEL        -1.0000     NotChecked  -23.5601    1225.5173   ✗       
+202   DPQTM+15.995DVLER        -1.0000     NotChecked  -23.5830    1218.5550   ✗       
+203   DPQTM+15.995SVYER        -1.0000     NotChecked  -23.6445    1240.5394   ✗       
+204   DPQTM+15.995DVYEQ        -1.0000     NotChecked  -23.7127    1240.4918   ✗       
+205   DPQTM+15.995DVTER        -1.0000     NotChecked  -23.8185    1206.5187   ✗       
+206   DPQTM+15.995DVYDR        -1.0000     NotChecked  -23.9771    1254.5187   ✗       
+207   DPQTM+15.995DVFER        -1.0000     NotChecked  -23.9952    1252.5394   ✗       
+208   DPQTM+15.995DVYLR        -1.0000     NotChecked  -24.0351    1252.5758   ✗       
+209   DPQTM+15.995DSYER        -1.0000     NotChecked  -24.0586    1256.4979   ✗       
+210   DPQAM+15.995DVYER        -1.0000     NotChecked  -24.1137    1238.5238   ✗       
+211   DPQTM+15.995DVHER        -1.0000     NotChecked  -24.1160    1242.5299   ✗       
+212   DPQTM+15.995VYER         -1.0000     NotChecked  -24.2662    1153.5074   ✗       
+213   DPQTM+15.995DYER         -1.0000     NotChecked  -24.3686    1169.4659   ✗       
+214   DPQTM+15.995NVYER        -1.0000     NotChecked  -24.4073    1267.5503   ✗       
+215   DPQTM+15.995DVLER        -1.0000     NotChecked  -24.4118    1218.5550   ✗       
+216   DPSTM+15.995DVYER        -1.0000     NotChecked  -24.4335    1227.5078   ✗       
+217   DPQTM+15.995DGYER        -1.0000     NotChecked  -24.4726    1226.4874   ✗       
+218   DPDTM+15.995DVYER        -1.0000     NotChecked  -24.4737    1255.5027   ✗       
+219   DPQTM+15.995VVYER        -1.0000     NotChecked  -24.5229    1252.5758   ✗       
+220   DPATM+15.995DVYER        -1.0000     NotChecked  -24.5913    1211.5128   ✗       
+221   DPQTLDVYER               -1.0000     NotChecked  -24.5916    1234.5830   ✗       
+222   DPQTM+15.995DVYTR        -1.0000     NotChecked  -24.8069    1240.5394   ✗       
+223   DPQTM+15.995DVAER        -1.0000     NotChecked  -24.8278    1176.5081   ✗       
+224   DPQTM+15.995TVYER        -1.0000     NotChecked  -24.9074    1254.5550   ✗       
+225   DPQTMDVYER               -1.0000     NotChecked  -24.9355    1252.5394   ✗       
+226   DPQTM+15.995N+0.984VYER  -1.0000     Failed      -24.9861    1268.5343   ✓       
+227   DPQTM+15.995DVLER        -1.0000     NotChecked  -24.9935    1218.5550   ✗       
+228   DPQTTDVYER               -1.0000     NotChecked  -25.0263    1222.5466   ✗       
+229   DPQTVDVYER               -1.0000     NotChecked  -25.0272    1220.5673   ✗       
+230   DPKTM+15.995DVYER        -1.0000     Failed      -25.1498    1268.5707   ✓       
+231   DPQTM+15.995DVYET        -1.0000     NotChecked  -25.2040    1213.4809   ✗       
+232   DPQVM+15.995DVYER        -1.0000     NotChecked  -25.2191    1266.5551   ✗       
+233   DPQSM+15.995DVYER        -1.0000     NotChecked  -25.2481    1254.5187   ✗       
+234   DPQTM+15.995DVFER        -1.0000     NotChecked  -25.4283    1252.5394   ✗       
+235   DPQTM+15.995DVYEV        -1.0000     NotChecked  -25.6318    1211.5016   ✗       
+236   DPQTM+15.995DVFER        -1.0000     NotChecked  -25.6680    1252.5394   ✗       
+237   DPQTM+15.995DVYR         -1.0000     NotChecked  -25.7388    1139.4917   ✗       
+238   DPQTMDVYER               -1.0000     NotChecked  -25.7643    1252.5394   ✗       
+239   NPQTM+15.995DVYER        -1.0000     NotChecked  -25.8097    1267.5503   ✗       
+240   DPQTM+15.995DVYQR        -1.0000     NotChecked  -25.8147    1267.5503   ✗       
+241   DPQTM+15.995N+0.984VYER  -1.0000     Failed      -25.8149    1268.5343   ✓       
+242   DPKTM+15.995DVYER        -1.0000     Failed      -25.9787    1268.5707   ✓       
+243   DPQTM+15.995DVVER        -1.0000     NotChecked  -26.0383    1204.5394   ✗       
+244   DPQTM+15.995DVYQ+0.984R  -1.0000     Failed      -26.0701    1268.5343   ✓       
+245   DPQSM+15.995DVYER        -1.0000     NotChecked  -26.0769    1254.5187   ✗       
+246   DPQTM+15.995DVYSR        -1.0000     NotChecked  -26.0918    1226.5237   ✗       
+247   DPNTM+15.995DVYER        -1.0000     NotChecked  -26.1089    1254.5187   ✗       
+248   DPETM+15.995DVFER        -1.0000     NotChecked  -26.2890    1253.5234   ✗       
+249   DPQTM+15.995DVFER        -1.0000     NotChecked  -26.3225    1252.5394   ✗       
+250   DPQTM+15.995DVYE         -1.0000     NotChecked  -26.3458    1112.4332   ✗       
+251   DPQTMDVYER               -1.0000     NotChecked  -26.3460    1252.5394   ✗       
+252   DPQTMDVFER               -1.0000     NotChecked  -26.3547    1236.5445   ✗       
+253   NPQTM+15.995DVYER        -1.0000     NotChecked  -26.3914    1267.5503   ✗       
+254   DPQTM+15.995N+0.984VYER  -1.0000     Failed      -26.3966    1268.5343   ✓       
+255   NPQTM+15.995DVFER        -1.0000     NotChecked  -26.4000    1251.5554   ✗       
+256   DPQTM+15.995N+0.984VFER  -1.0000     NotChecked  -26.4053    1252.5394   ✗       
+257   DPQTM+15.995DVLER        -1.0000     NotChecked  -26.4266    1218.5550   ✗       
+258   DPQTM+15.995DVYR         -1.0000     NotChecked  -26.5338    1139.4917   ✗       
+259   DPKTM+15.995DVYER        -1.0000     Failed      -26.5603    1268.5707   ✓       
+260   DPKTM+15.995DVFER        -1.0000     NotChecked  -26.5690    1252.5758   ✗       
+261   DPQTM+15.995DVYEK        -1.0000     NotChecked  -26.6455    1240.5282   ✗       
+262   DPQSM+15.995DVYER        -1.0000     NotChecked  -26.6586    1254.5187   ✗       
+263   DPQTM+15.995DVLER        -1.0000     NotChecked  -26.6663    1218.5550   ✗       
+264   DPQSM+15.995DVFER        -1.0000     NotChecked  -26.6673    1238.5238   ✗       
+265   DPQTM+15.995DVSER        -1.0000     NotChecked  -26.6698    1192.5030   ✗       
+266   DPQTM+15.995DVEER        -1.0000     NotChecked  -26.7033    1234.5136   ✗       
+267   DQTM+15.995DVYER         -1.0000     NotChecked  -26.7060    1171.4815   ✗       
+268   DPQTM+15.995DVFER        -1.0000     NotChecked  -26.7146    1252.5394   ✗       
+269   DPQTM+15.995DDFER        -1.0000     Failed      -26.8340    1268.4979   ✓       
+270   DPQTM+15.995DVVER        -1.0000     NotChecked  -26.8672    1204.5394   ✗       
+271   DPNTM+15.995DVYER        -1.0000     NotChecked  -26.9378    1254.5187   ✗       
+272   DPQTM+15.995SVYER        -1.0000     NotChecked  -26.9456    1240.5394   ✗       
+273   DSQTM+15.995DVYER        -1.0000     NotChecked  -26.9596    1258.5136   ✗       
+274   DAQTM+15.995DVYER        -1.0000     NotChecked  -26.9833    1242.5187   ✗       
+275   DPQTFDVYER               -1.0000     Failed      -26.9931    1268.5673   ✓       
+276   DPQTM+15.995DVTER        -1.0000     NotChecked  -27.1196    1206.5187   ✗       
+277   DPQ+0.984TM+15.995DVFER  -1.0000     NotChecked  -27.1237    1253.5234   ✗       
+278   DPQTM+15.995DVYEF        -1.0000     NotChecked  -27.1306    1259.5016   ✗       
+279   DPQTM+15.995DVYE         -1.0000     NotChecked  -27.1747    1112.4332   ✗       
+280   N+0.984PQTM+15.995DVYER  -1.0000     Failed      -27.1827    1268.5343   ✓       
+281   PPQTM+15.995DVYER        -1.0000     NotChecked  -27.2722    1250.5601   ✗       
+282   DPQTM+15.995DVYDR        -1.0000     NotChecked  -27.2782    1254.5187   ✗       
+283   DPETM+15.995DVLER        -1.0000     NotChecked  -27.2873    1219.5391   ✗       
+284   DQTM+15.995DVFER         -1.0000     NotChecked  -27.2963    1155.4866   ✗       
+285   DPQTSDVYER               -1.0000     NotChecked  -27.3024    1208.5309   ✗       
+286   DPQTM+15.995DVLER        -1.0000     NotChecked  -27.3208    1218.5550   ✗       
+287   MPQTM+15.995DVFER        -1.0000     Failed      -27.3229    1268.5529   ✓       
+288   DPQTM+15.995DVYLR        -1.0000     NotChecked  -27.3361    1252.5758   ✗       
+289   DPQTMDVLER               -1.0000     NotChecked  -27.3529    1202.5601   ✗       
+290   DPQTM+15.995DSYER        -1.0000     NotChecked  -27.3597    1256.4979   ✗       
+291   NPQTM+15.995DVLER        -1.0000     NotChecked  -27.3983    1217.5710   ✗       
+292   DPQTM+15.995N+0.984VLER  -1.0000     NotChecked  -27.4035    1218.5550   ✗       
+293   DPQAM+15.995DVYER        -1.0000     NotChecked  -27.4147    1238.5238   ✗       
+294   DPQTM+15.995DVHER        -1.0000     NotChecked  -27.4171    1242.5299   ✗       
+295   DPQTM+15.995DLFER        -1.0000     NotChecked  -27.4463    1266.5550   ✗       
+296   DPQTM+15.995DVVER        -1.0000     NotChecked  -27.4488    1204.5394   ✗       
+297   DPQTM+15.995DVYEK        -1.0000     NotChecked  -27.4743    1240.5282   ✗       
+298   DPQTM+15.995DVYQ+0.984R  -1.0000     Failed      -27.4806    1268.5343   ✓       
+299   DPQTM+15.995DVFQ+0.984R  -1.0000     NotChecked  -27.4893    1252.5394   ✗       
+300   DPQTM+15.995DVSER        -1.0000     NotChecked  -27.4986    1192.5030   ✗       
+301   DPQTM+15.995DVYES        -1.0000     NotChecked  -27.5098    1199.4652   ✗       
+302   DPNTM+15.995DVYER        -1.0000     NotChecked  -27.5194    1254.5187   ✗       
+303   DPQTM+15.995DVYEL        -1.0000     NotChecked  -27.5223    1225.5173   ✗       
+304   DPNTM+15.995DVFER        -1.0000     NotChecked  -27.5281    1238.5237   ✗       
+305   DPQTM+15.995DVER         -1.0000     NotChecked  -27.5321    1105.4710   ✗       
+306   EPQTM+15.995DVFER        -1.0000     NotChecked  -27.5340    1266.5550   ✗       
+307   DPKTM+15.995DVLER        -1.0000     NotChecked  -27.5673    1218.5914   ✗       
+308   DPQTM+15.995VYER         -1.0000     NotChecked  -27.5673    1153.5074   ✗       
+309   DPQTM+15.995EVFER        -1.0000     NotChecked  -27.5696    1266.5550   ✗       
+310   TPQTM+15.995DVYER        -1.0000     NotChecked  -27.6144    1254.5550   ✗       
+311   DPQSM+15.995DVLER        -1.0000     NotChecked  -27.6655    1204.5394   ✗       
+312   DPQTM+15.995DYER         -1.0000     NotChecked  -27.6697    1169.4659   ✗       
+313   DPQTM+15.995DVYEQ        -1.0000     NotChecked  -27.6749    1240.4918   ✗       
+314   DPQTM+15.995NVYER        -1.0000     NotChecked  -27.7084    1267.5503   ✗       
+315   DPQTM+15.995DVLER        -1.0000     NotChecked  -27.7129    1218.5550   ✗       
+316   DPSTM+15.995DVYER        -1.0000     NotChecked  -27.7346    1227.5078   ✗       
+317   DPQTM+15.995DVYE         -1.0000     NotChecked  -27.7563    1112.4332   ✗       
+318   N+0.984PQTM+15.995DVYER  -1.0000     Failed      -27.7644    1268.5343   ✓       
+319   DPQTM+15.995DVFE         -1.0000     NotChecked  -27.7650    1096.4383   ✗       
+320   YPQTM+15.995DVLER        -1.0000     NotChecked  -27.7658    1266.5914   ✗       
+321   N+0.984PQTM+15.995DVFER  -1.0000     NotChecked  -27.7731    1252.5394   ✗       
+322   DPQTM+15.995DGYER        -1.0000     NotChecked  -27.7737    1226.4874   ✗       
+323   DPQTM+15.995SVYER        -1.0000     NotChecked  -27.7744    1240.5394   ✗       
+324   DPDTM+15.995DVYER        -1.0000     NotChecked  -27.7748    1255.5027   ✗       
+325   DPQTMDVYER               -1.0000     NotChecked  -27.7791    1252.5394   ✗       
+326   DPQTM+15.995VVYER        -1.0000     NotChecked  -27.8240    1252.5758   ✗       
+327   NPQTM+15.995DVYER        -1.0000     NotChecked  -27.8244    1267.5503   ✗       
+328   DPQTM+15.995N+0.984VYER  -1.0000     Failed      -27.8297    1268.5343   ✓       
+329   DPQTM+15.995DDLER        -1.0000     NotChecked  -27.8323    1234.5136   ✗       
+330   PPQTM+15.995DVYER        -1.0000     NotChecked  -27.8539    1250.5601   ✗       
+331   PPQTM+15.995DVFER        -1.0000     NotChecked  -27.8625    1234.5652   ✗       
+332   DPQTM+15.995DVFER        -1.0000     NotChecked  -27.8795    1252.5394   ✗       
+333   DPATM+15.995DVYER        -1.0000     NotChecked  -27.8923    1211.5128   ✗       
+334   DPQTM+15.995DVTER        -1.0000     NotChecked  -27.9484    1206.5187   ✗       
+335   FPQTM+15.995DVLER        -1.0000     NotChecked  -27.9815    1250.5965   ✗       
+336   DPKTM+15.995DVYER        -1.0000     Failed      -27.9934    1268.5707   ✓       
+337   DPQTMDVYER               -1.0000     NotChecked  -28.0188    1252.5394   ✗       
+338   DPQTM+15.995DVYEK        -1.0000     NotChecked  -28.0560    1240.5282   ✗       
+339   NPQTM+15.995DVYER        -1.0000     NotChecked  -28.0642    1267.5503   ✗       
+340   DPQTM+15.995DVFEK        -1.0000     NotChecked  -28.0647    1224.5332   ✗       
+341   DPQTM+15.995N+0.984VYER  -1.0000     Failed      -28.0694    1268.5343   ✓       
+342   DPQTM+15.995DVSER        -1.0000     NotChecked  -28.0803    1192.5030   ✗       
+343   DPQSM+15.995DVYER        -1.0000     NotChecked  -28.0917    1254.5187   ✗       
+344   DPQTM+15.995DVYTR        -1.0000     NotChecked  -28.1080    1240.5394   ✗       
+345   DPQTM+15.995DVEER        -1.0000     NotChecked  -28.1138    1234.5136   ✗       
+346   DPQ+0.984TM+15.995DVLER  -1.0000     NotChecked  -28.1220    1219.5391   ✗       
+347   DPQTM+15.995DVAER        -1.0000     NotChecked  -28.1289    1176.5081   ✗       
+348   DPQTM+15.995DELER        -1.0000     NotChecked  -28.1582    1248.5292   ✗       
+349   DPQTM+15.995DVFER        -1.0000     NotChecked  -28.1592    1252.5394   ✗       
+350   VPQTM+15.995DVYER        -1.0000     NotChecked  -28.1775    1252.5758   ✗       
+351   DPQTM+15.995DSYER        -1.0000     NotChecked  -28.1885    1256.4979   ✗       
+352   TPQTM+15.995DVYER        -1.0000     NotChecked  -28.1960    1254.5550   ✗       
+353   TPQTM+15.995DVFER        -1.0000     NotChecked  -28.2047    1238.5601   ✗       
+354   DPQTM+15.995TVYER        -1.0000     NotChecked  -28.2084    1254.5550   ✗       
+355   DPKTM+15.995DVYER        -1.0000     Failed      -28.2331    1268.5707   ✓       
+356   DPQAM+15.995DVYER        -1.0000     NotChecked  -28.2436    1238.5238   ✗       
+357   DPQTM+15.995DVHER        -1.0000     NotChecked  -28.2460    1242.5299   ✗       
+358   DQTM+15.995DVLER         -1.0000     NotChecked  -28.2946    1121.5023   ✗       
+359   MPQTM+15.995DVLER        -1.0000     NotChecked  -28.3212    1234.5686   ✗       
+360   DPQTM+15.995SVYER        -1.0000     NotChecked  -28.3560    1240.5394   ✗       
+361   DPQTM+15.995SVFER        -1.0000     NotChecked  -28.3647    1224.5445   ✗       
+362   DPQTM+15.995VYER         -1.0000     NotChecked  -28.3961    1153.5074   ✗       
+363   DPQTM+15.995DVFER        -1.0000     NotChecked  -28.4164    1252.5394   ✗       
+364   DPQTM+15.995DLLER        -1.0000     NotChecked  -28.4446    1232.5707   ✗       
+365   DPQTM+15.995DVLQ+0.984R  -1.0000     NotChecked  -28.4875    1218.5550   ✗       
+366   DPQTM+15.995DYER         -1.0000     NotChecked  -28.4986    1169.4659   ✗       
+367   DPQTM+15.995DVYET        -1.0000     NotChecked  -28.5051    1213.4809   ✗       
+368   DPQVM+15.995DVYER        -1.0000     NotChecked  -28.5202    1266.5551   ✗       
+369   DPNTM+15.995DVLER        -1.0000     NotChecked  -28.5264    1204.5394   ✗       
+370   DPQTM+15.995DVTER        -1.0000     NotChecked  -28.5301    1206.5187   ✗       
+371   EPQTM+15.995DVLER        -1.0000     NotChecked  -28.5322    1232.5707   ✗       
+372   DPQTM+15.995NVYER        -1.0000     NotChecked  -28.5372    1267.5503   ✗       
+373   DPQTLDVYER               -1.0000     NotChecked  -28.5538    1234.5830   ✗       
+374   DPSTM+15.995DVYER        -1.0000     NotChecked  -28.5634    1227.5078   ✗       
+375   DPQTM+15.995EVLER        -1.0000     NotChecked  -28.5678    1232.5707   ✗       
+376   DPQTM+15.995DVFER        -1.0000     NotChecked  -28.5917    1252.5394   ✗       
+377   DPQTM+15.995DGYER        -1.0000     NotChecked  -28.6025    1226.4874   ✗       
+378   DPDTM+15.995DVYER        -1.0000     NotChecked  -28.6036    1255.5027   ✗       
+379   DPETMDVYER               -1.0000     NotChecked  -28.6398    1253.5234   ✗       
+380   DPQTM+15.995VVYER        -1.0000     NotChecked  -28.6529    1252.5758   ✗       
+381   DPRTM+15.995DVLER        -1.0000     NotChecked  -28.6771    1246.5976   ✗       
+382   NPETM+15.995DVYER        -1.0000     Failed      -28.6851    1268.5343   ✓       
+383   DPQTM+15.995DVYDR        -1.0000     NotChecked  -28.6887    1254.5187   ✗       
+384   DPQTM+15.995DVFDR        -1.0000     NotChecked  -28.6974    1238.5237   ✗       
+385   NPQTM+15.995DVYER        -1.0000     NotChecked  -28.7187    1267.5503   ✗       
+386   DQTM+15.995DVYER         -1.0000     NotChecked  -28.7207    1171.4815   ✗       
+387   DPATM+15.995DVYER        -1.0000     NotChecked  -28.7212    1211.5128   ✗       
+388   DPQTM+15.995N+0.984VYER  -1.0000     Failed      -28.7239    1268.5343   ✓       
+389   DPQTM+15.995DVFER        -1.0000     NotChecked  -28.7294    1252.5394   ✗       
+390   DPQTM+15.995DVYLR        -1.0000     NotChecked  -28.7466    1252.5758   ✗       
+391   NPQTMDVYER               -1.0000     NotChecked  -28.7508    1251.5554   ✗       
+392   DPQTM+15.995DVFLR        -1.0000     NotChecked  -28.7553    1236.5809   ✗       
+393   DPQTMN+0.984VYER         -1.0000     NotChecked  -28.7560    1252.5394   ✗       
+394   VPQTM+15.995DVYER        -1.0000     NotChecked  -28.7592    1252.5758   ✗       
+395   DPQTM+15.995DVLE         -1.0000     NotChecked  -28.7633    1062.4539   ✗       
+396   VPQTM+15.995DVFER        -1.0000     NotChecked  -28.7679    1236.5809   ✗       
+397   DPQTM+15.995DSYER        -1.0000     NotChecked  -28.7702    1256.4979   ✗       
+398   N+0.984PQTM+15.995DVLER  -1.0000     NotChecked  -28.7713    1218.5550   ✗       
+399   DPQTM+15.995DSFER        -1.0000     NotChecked  -28.7789    1240.5030   ✗       
+400   NPQTM+15.995N+0.984VYER  -1.0000     NotChecked  -28.8014    1267.5503   ✗       
+401   DPQAM+15.995DVYER        -1.0000     NotChecked  -28.8252    1238.5238   ✗       
+402   DPQTM+15.995DVHER        -1.0000     NotChecked  -28.8276    1242.5299   ✗       
+403   DPQTM+15.995MVFER        -1.0000     Failed      -28.8278    1268.5529   ✓       
+404   DPQAM+15.995DVFER        -1.0000     NotChecked  -28.8339    1222.5288   ✗       
+405   PPQTM+15.995DVLER        -1.0000     NotChecked  -28.8608    1200.5809   ✗       
+406   DPQTM+15.995DVLER        -1.0000     NotChecked  -28.8777    1218.5550   ✗       
+407   DPQTM+15.995DVVER        -1.0000     NotChecked  -28.8819    1204.5394   ✗       
+408   DPKTM+15.995DVYER        -1.0000     Failed      -28.8876    1268.5707   ✓       
+409   DPQTM+15.995DVYQ+0.984R  -1.0000     Failed      -28.9137    1268.5343   ✓       
+410   DPKTMDVYER               -1.0000     NotChecked  -28.9198    1252.5758   ✗       
+411   DPQTM+15.995DVYEV        -1.0000     NotChecked  -28.9329    1211.5016   ✗       
+412   DPESM+15.995DVYER        -1.0000     NotChecked  -28.9524    1255.5027   ✗       
+413   DPNTM+15.995DVYER        -1.0000     NotChecked  -28.9525    1254.5187   ✗       
+414   DPQTM+15.995DVAER        -1.0000     NotChecked  -28.9577    1176.5081   ✗       
+415   DQTM+15.995DVYER         -1.0000     NotChecked  -28.9604    1171.4815   ✗       
+416   NPKTM+15.995DVYER        -1.0000     NotChecked  -28.9651    1267.5867   ✗       
+417   DPQTM+15.995DVFER        -1.0000     NotChecked  -28.9691    1252.5394   ✗       
+418   DPKTM+15.995N+0.984VYER  -1.0000     Failed      -28.9704    1268.5707   ✓       
+419   DPQTM+15.995VYER         -1.0000     NotChecked  -28.9778    1153.5074   ✗       
+420   DPQSM+15.995DVYER        -1.0000     NotChecked  -28.9859    1254.5187   ✗       
+421   DPQTM+15.995VFER         -1.0000     NotChecked  -28.9865    1137.5125   ✗       
+422   DPQTTDVYER               -1.0000     NotChecked  -28.9885    1222.5466   ✗       
+423   DPQTVDVYER               -1.0000     NotChecked  -28.9894    1220.5673   ✗       
+424   DPQSMDVYER               -1.0000     NotChecked  -29.0180    1238.5238   ✗       
+425   DPQTM+15.995TVYER        -1.0000     NotChecked  -29.0373    1254.5550   ✗       
+426   DPQTM+15.995DVYR         -1.0000     NotChecked  -29.0399    1139.4917   ✗       
+427   DPQTM+15.995DVLEK        -1.0000     NotChecked  -29.0630    1190.5489   ✗       
+428   NPQSM+15.995DVYER        -1.0000     NotChecked  -29.0634    1253.5347   ✗       
+429   DPQTMDVYER               -1.0000     NotChecked  -29.0654    1252.5394   ✗       
+430   DPQSM+15.995N+0.984VYER  -1.0000     NotChecked  -29.0686    1254.5187   ✗       
+431   DPQTM+15.995DYER         -1.0000     NotChecked  -29.0802    1169.4659   ✗       
+432   DPQTM+15.995DFER         -1.0000     NotChecked  -29.0889    1153.4710   ✗       
+433   DPQHM+15.995DVLER        -1.0000     NotChecked  -29.0931    1254.5663   ✗       
+434   NPQTM+15.995DVYER        -1.0000     NotChecked  -29.1108    1267.5503   ✗       
+435   DPQTM+15.995DVYQR        -1.0000     NotChecked  -29.1158    1267.5503   ✗       
+436   DPQTM+15.995N+0.984VYER  -1.0000     Failed      -29.1160    1268.5343   ✓       
+437   DPQTM+15.995NVYER        -1.0000     NotChecked  -29.1189    1267.5503   ✗       
+438   DPQTM+15.995DVVER        -1.0000     NotChecked  -29.1216    1204.5394   ✗       
+439   DPQTM+15.995NVFER        -1.0000     NotChecked  -29.1275    1251.5554   ✗       
+440   DPSTM+15.995DVYER        -1.0000     NotChecked  -29.1451    1227.5078   ✗       
+441   DPQTM+15.995DVYQ+0.984R  -1.0000     Failed      -29.1534    1268.5343   ✓       
+442   DPSTM+15.995DVFER        -1.0000     NotChecked  -29.1538    1211.5128   ✗       
+443   DPQTM+15.995DVLER        -1.0000     NotChecked  -29.1575    1218.5550   ✗       
+444   DTQTM+15.995DVFER        -1.0000     NotChecked  -29.1831    1256.5343   ✗       
+445   DPQTM+15.995DGYER        -1.0000     NotChecked  -29.1842    1226.4874   ✗       
+446   DPQTMDDYER               -1.0000     Failed      -29.1848    1268.4979   ✓       
+447   DPDTM+15.995DVYER        -1.0000     NotChecked  -29.1853    1255.5027   ✗       
+448   DPQTM+15.995DVYE         -1.0000     NotChecked  -29.1894    1112.4332   ✗       
+449   DPNTM+15.995DVYER        -1.0000     NotChecked  -29.1922    1254.5187   ✗       
+450   DPQTM+15.995DGFER        -1.0000     NotChecked  -29.1929    1210.4924   ✗       
+451   DPDTM+15.995DVFER        -1.0000     NotChecked  -29.1939    1239.5078   ✗       
+452   N+0.984PQTM+15.995DVYER  -1.0000     Failed      -29.1975    1268.5343   ✓       
+453   TPQTM+15.995DVLER        -1.0000     NotChecked  -29.2030    1204.5758   ✗       
+454   DPKSM+15.995DVYER        -1.0000     NotChecked  -29.2324    1254.5551   ✗       
+455   DPQTM+15.995VVYER        -1.0000     NotChecked  -29.2345    1252.5758   ✗       
+456   DPQTM+15.995VVFER        -1.0000     NotChecked  -29.2432    1236.5809   ✗       
+457   DPKTM+15.995DVYER        -1.0000     Failed      -29.2797    1268.5707   ✓       
+458   PPQTM+15.995DVYER        -1.0000     NotChecked  -29.2869    1250.5601   ✗       
+459   DPATM+15.995DVYER        -1.0000     NotChecked  -29.3028    1211.5128   ✗       
+460   DPATM+15.995DVFER        -1.0000     NotChecked  -29.3115    1195.5179   ✗       
+461   DPQTM+15.995DVYET        -1.0000     NotChecked  -29.3339    1213.4809   ✗       
+462   DPQVM+15.995DVYER        -1.0000     NotChecked  -29.3490    1266.5551   ✗       
+463   DPQTM+15.995SVLER        -1.0000     NotChecked  -29.3630    1190.5601   ✗       
+464   DPQSM+15.995DVYER        -1.0000     NotChecked  -29.3780    1254.5187   ✗       
+465   DPQTM+15.995DVYSR        -1.0000     NotChecked  -29.3928    1226.5237   ✗       
+466   DPQTM+15.995DVLER        -1.0000     NotChecked  -29.4147    1218.5550   ✗       
+467   DPQTM+15.995DVYE         -1.0000     NotChecked  -29.4291    1112.4332   ✗       
+468   N+0.984PQTM+15.995DVYER  -1.0000     Failed      -29.4372    1268.5343   ✓       
+469   DPQ+0.984TMDVYER         -1.0000     NotChecked  -29.4744    1253.5234   ✗       
+470   DAQTM+15.995DVYER        -1.0000     NotChecked  -29.4883    1242.5187   ✗       
+471   DPQTM+15.995DVYEK        -1.0000     NotChecked  -29.4891    1240.5282   ✗       
+472   DPQTM+15.995DVSER        -1.0000     NotChecked  -29.5134    1192.5030   ✗       
+473   DPQTM+15.995DVYTR        -1.0000     NotChecked  -29.5185    1240.5394   ✗       
+474   NPQ+0.984TM+15.995DVYER  -1.0000     Failed      -29.5198    1268.5343   ✓       
+475   PPQTM+15.995DVYER        -1.0000     NotChecked  -29.5266    1250.5601   ✗       
+476   DPQTM+15.995DVFTR        -1.0000     NotChecked  -29.5272    1224.5445   ✗       
+477   DPQTM+15.995DVAER        -1.0000     NotChecked  -29.5393    1176.5081   ✗       
+478   DPQTM+15.995DVEER        -1.0000     NotChecked  -29.5469    1234.5136   ✗       
+479   DETM+15.995DVYER         -1.0000     NotChecked  -29.5814    1172.4656   ✗       
+480   DPQTM+15.995DVLER        -1.0000     NotChecked  -29.5900    1218.5550   ✗       
+481   DPETM+15.995DVFER        -1.0000     NotChecked  -29.5901    1253.5234   ✗       
+482   DQTM+15.995DVYER         -1.0000     NotChecked  -29.6149    1171.4815   ✗       
+483   DPQTM+15.995TVYER        -1.0000     NotChecked  -29.6189    1254.5550   ✗       
+484   DPQTM+15.995DVFER        -1.0000     NotChecked  -29.6236    1252.5394   ✗       
+485   DPQTM+15.995TVFER        -1.0000     NotChecked  -29.6276    1238.5601   ✗       
+486   TPQTM+15.995DVYER        -1.0000     NotChecked  -29.6291    1254.5550   ✗       
+487   DPTQTM+15.995DVYE        -1.0000     NotChecked  -29.6431    1213.4809   ✗       
+488   DQTMDVYER                -1.0000     NotChecked  -29.6471    1155.4866   ✗       
+489   DPQTMDVFER               -1.0000     NotChecked  -29.6557    1236.5445   ✗       
+490   MPQTMDVYER               -1.0000     Failed      -29.6737    1268.5529   ✓       
+491   NQTM+15.995DVYER         -1.0000     NotChecked  -29.6924    1170.4975   ✗       
+492   DPQTM+15.995DVLDR        -1.0000     NotChecked  -29.6956    1204.5394   ✗       
+493   DQTM+15.995N+0.984VYER   -1.0000     NotChecked  -29.6977    1171.4815   ✗       
+494   DPYTM+15.995DVLER        -1.0000     NotChecked  -29.6994    1253.5598   ✗       
+495   NPQTM+15.995DVFER        -1.0000     NotChecked  -29.7011    1251.5554   ✗       
+496   DPQTM+15.995N+0.984VFER  -1.0000     NotChecked  -29.7063    1252.5394   ✗       
+497   DPQTM+15.995DVLER        -1.0000     NotChecked  -29.7277    1218.5550   ✗       
+498   DPQTM+15.995DVYEK        -1.0000     NotChecked  -29.7288    1240.5282   ✗       
+499   VPQTM+15.995DVLER        -1.0000     NotChecked  -29.7661    1202.5965   ✗       
+500   NPQTM+15.995DVVER        -1.0000     NotChecked  -29.8536    1203.5554   ✗       
+501   TPQTM+15.995DVYER        -1.0000     NotChecked  -29.8688    1254.5550   ✗       
+502   EPQTMDVYER               -1.0000     NotChecked  -29.8847    1266.5550   ✗       
+503   NPQTM+15.995DVYQ+0.984R  -1.0000     NotChecked  -29.8854    1267.5503   ✗       
+504   NPNTM+15.995DVYER        -1.0000     NotChecked  -29.9242    1253.5346   ✗       
+505   YQTM+15.995DVYER         -1.0000     NotChecked  -30.0599    1219.5179   ✗       
+506   N+0.984PQTM+15.995DVYER  -1.0000     Failed      -30.0917    1268.5343   ✓       
+507   N+0.984PQTMDVYER         -1.0000     NotChecked  -30.1238    1252.5394   ✗       
+508   PPETM+15.995DVYER        -1.0000     NotChecked  -30.1476    1251.5441   ✗       
+509   NPQTM+15.995DVYE         -1.0000     NotChecked  -30.1612    1111.4492   ✗       
+510   N+0.984PQTM+15.995N+0.984VYER-1.0000     Failed      -30.1744    1268.5343   ✓       
+511   PPQTM+15.995DVYER        -1.0000     NotChecked  -30.1812    1250.5601   ✗       
+512   VPQTM+15.995DVYER        -1.0000     NotChecked  -30.1923    1252.5758   ✗       
+513   EPQSM+15.995DVYER        -1.0000     Failed      -30.1973    1268.5343   ✓       
+514   PPQTMDVYER               -1.0000     NotChecked  -30.2133    1234.5652   ✗       
+515   YPQTM+15.995DVVER        -1.0000     NotChecked  -30.2211    1252.5758   ✗       
+516   PPQTM+15.995N+0.984VYER  -1.0000     NotChecked  -30.2639    1250.5601   ✗       
+517   NPQTM+15.995DVYER        -1.0000     NotChecked  -30.2756    1267.5503   ✗       
+518   FQTM+15.995DVYER         -1.0000     NotChecked  -30.2756    1203.5230   ✗       
+519   N+0.984PKTM+15.995DVYER  -1.0000     Failed      -30.3382    1268.5707   ✓       
+520   PPKTM+15.995DVYER        -1.0000     NotChecked  -30.4276    1250.5965   ✗       
+521   VPQTM+15.995DVYER        -1.0000     NotChecked  -30.4320    1252.5758   ✗       
+522   N+0.984PQSM+15.995DVYER  -1.0000     NotChecked  -30.4364    1254.5187   ✗       
+523   FPQTM+15.995DVVER        -1.0000     NotChecked  -30.4368    1236.5809   ✗       
+524   NPQTM+15.995DVYEK        -1.0000     NotChecked  -30.4608    1239.5441   ✗       
+525   N+0.984PQTM+15.995DVYER  -1.0000     Failed      -30.4838    1268.5343   ✓       
+526   NPQTM+15.995DVSER        -1.0000     NotChecked  -30.4851    1191.5190   ✗       
+527   TPETM+15.995DVYER        -1.0000     NotChecked  -30.4898    1255.5391   ✗       
+528   NPQTM+15.995DVEER        -1.0000     NotChecked  -30.5186    1233.5296   ✗       
+529   TPQTM+15.995DVYER        -1.0000     NotChecked  -30.5233    1254.5550   ✗       
+530   PPQSM+15.995DVYER        -1.0000     NotChecked  -30.5259    1236.5445   ✗       
+531   YPQTM+15.995DVYE         -1.0000     NotChecked  -30.5287    1160.4696   ✗       
+532   NPQTM+15.995DVYER        -1.0000     NotChecked  -30.5553    1267.5503   ✗       
+533   TPQTMDVYER               -1.0000     NotChecked  -30.5555    1238.5601   ✗       
+534   PPQTM+15.995DVYER        -1.0000     NotChecked  -30.5733    1250.5601   ✗       
+535   TPQTM+15.995N+0.984VYER  -1.0000     NotChecked  -30.6061    1254.5550   ✗       
+536   MQTM+15.995DVYER         -1.0000     NotChecked  -30.6153    1187.4951   ✗       
+537   MPQTM+15.995DVFER        -1.0000     Failed      -30.6240    1268.5529   ✓       
+538   PPQTM+15.995DDYER        -1.0000     NotChecked  -30.6926    1266.5187   ✗       
+539   NPQTM+15.995DVLER        -1.0000     NotChecked  -30.6994    1217.5710   ✗       
+540   FPQTM+15.995DVYE         -1.0000     NotChecked  -30.7444    1144.4747   ✗       
+541   NPQTM+15.995SVYER        -1.0000     NotChecked  -30.7609    1239.5554   ✗       
+542   TPKTM+15.995DVYER        -1.0000     NotChecked  -30.7698    1254.5914   ✗       
+543   MPQTM+15.995DVVER        -1.0000     NotChecked  -30.7765    1220.5529   ✗       
+544   NPQTM+15.995DVYER        -1.0000     NotChecked  -30.8125    1267.5503   ✗       
+545   EQTM+15.995DVYER         -1.0000     NotChecked  -30.8264    1185.4972   ✗       
+546   EPQTM+15.995DVFER        -1.0000     NotChecked  -30.8350    1266.5550   ✗       
+547   YPQTM+15.995DVSER        -1.0000     NotChecked  -30.8526    1240.5394   ✗       
+548   TPQSM+15.995DVYER        -1.0000     NotChecked  -30.8681    1240.5394   ✗       
+549   TPQTM+15.995DVYER        -1.0000     NotChecked  -30.9154    1254.5550   ✗       
+550   NPQTM+15.995DVTER        -1.0000     NotChecked  -30.9349    1205.5346   ✗       
+551   PPQ+0.984TM+15.995DVYER  -1.0000     NotChecked  -30.9823    1251.5441   ✗       
+552   EPQTM+15.995DVVER        -1.0000     NotChecked  -30.9876    1218.5550   ✗       
+553   NPQTM+15.995DVYER        -1.0000     NotChecked  -30.9878    1267.5503   ✗       
+554   VPETM+15.995DVYER        -1.0000     NotChecked  -31.0530    1253.5598   ✗       
+555   EPNTM+15.995DVYER        -1.0000     Failed      -31.0581    1268.5343   ✓       
+556   N+0.984QTM+15.995DVYER   -1.0000     NotChecked  -31.0654    1171.4815   ✗       
+557   YPQTM+15.995DVLER        -1.0000     NotChecked  -31.0669    1266.5914   ✗       
+558   FPQTM+15.995DVSER        -1.0000     NotChecked  -31.0683    1224.5445   ✗       
+559   N+0.984PQTM+15.995DVFER  -1.0000     NotChecked  -31.0741    1252.5394   ✗       
+560   MPQTM+15.995DVYE         -1.0000     NotChecked  -31.0840    1128.4467   ✗       
+561   VPQTM+15.995DVYER        -1.0000     NotChecked  -31.0865    1252.5758   ✗       
+562   NPQTM+15.995DVYDR        -1.0000     NotChecked  -31.0935    1253.5346   ✗       
+563   FPQTM+15.995DVEER        -1.0000     NotChecked  -31.1018    1266.5550   ✗       
+564   VPQTMDVYER               -1.0000     NotChecked  -31.1186    1236.5809   ✗       
+565   NPQTM+15.995DVYER        -1.0000     NotChecked  -31.1255    1267.5503   ✗       
+566   NPQTM+15.995DVYLR        -1.0000     NotChecked  -31.1514    1251.5918   ✗       
+567   PQTM+15.995DVYER         -1.0000     NotChecked  -31.1549    1153.5074   ✗       
+568   PPQTM+15.995DVFER        -1.0000     NotChecked  -31.1636    1234.5652   ✗       
+569   VPQTM+15.995N+0.984VYER  -1.0000     NotChecked  -31.1692    1252.5758   ✗       
+570   NPQTM+15.995DSYER        -1.0000     NotChecked  -31.1750    1255.5139   ✗       
+571   N+0.984PQTM+15.995DVVER  -1.0000     NotChecked  -31.2267    1204.5394   ✗       
+572   NPQAM+15.995DVYER        -1.0000     NotChecked  -31.2300    1237.5397   ✗       
+573   NPQTM+15.995DVHER        -1.0000     NotChecked  -31.2324    1241.5459   ✗       
+574   N+0.984PQTM+15.995DVYQ+0.984R-1.0000     Failed      -31.2584    1268.5343   ✓       
+575   NPQTM+15.995DVYER        -1.0000     NotChecked  -31.2666    1267.5503   ✗       
+576   FPQTM+15.995DVLER        -1.0000     NotChecked  -31.2826    1250.5965   ✗       
+577   EPQTM+15.995DVYE         -1.0000     NotChecked  -31.2951    1126.4488   ✗       
+578   N+0.984PNTM+15.995DVYER  -1.0000     NotChecked  -31.2972    1254.5187   ✗       
+579   YPQTM+15.995DVTER        -1.0000     NotChecked  -31.3024    1254.5550   ✗       
+580   PPQTM+15.995DLYER        -1.0000     NotChecked  -31.3049    1264.5758   ✗       
+581   PPQTM+15.995DVVER        -1.0000     NotChecked  -31.3161    1186.5652   ✗       
+582   TPQ+0.984TM+15.995DVYER  -1.0000     NotChecked  -31.3245    1255.5391   ✗       
+583   VPKTM+15.995DVYER        -1.0000     NotChecked  -31.3330    1252.6122   ✗       
+584   PPQTM+15.995DVYQ+0.984R  -1.0000     NotChecked  -31.3479    1250.5601   ✗       
+585   NPQTM+15.995DVYER        -1.0000     NotChecked  -31.3652    1267.5503   ✗       
+586   NPQTM+15.995VYER         -1.0000     NotChecked  -31.3826    1152.5234   ✗       
+587   MPQTM+15.995DVYEK        -1.0000     NotChecked  -31.3837    1256.5417   ✗       
+588   PPNTM+15.995DVYER        -1.0000     NotChecked  -31.3867    1236.5445   ✗       
+589   MPQTM+15.995DVSER        -1.0000     NotChecked  -31.4080    1208.5166   ✗       
+590   PPQTM+15.995EVYER        -1.0000     NotChecked  -31.4282    1264.5758   ✗       
+591   VPQSM+15.995DVYER        -1.0000     NotChecked  -31.4312    1238.5601   ✗       
+592   MPQTM+15.995DVEER        -1.0000     NotChecked  -31.4415    1250.5271   ✗       
+593   VPQTM+15.995DVYER        -1.0000     NotChecked  -31.4786    1252.5758   ✗       
+594   NPQTM+15.995DYER         -1.0000     NotChecked  -31.4850    1168.4819   ✗       
+595   TQTM+15.995DVYER         -1.0000     NotChecked  -31.4971    1157.5023   ✗       
+596   TPQTM+15.995DVFER        -1.0000     NotChecked  -31.5058    1238.5601   ✗       
+597   FPQTM+15.995DVTER        -1.0000     NotChecked  -31.5181    1238.5601   ✗       
+598   NPQTM+15.995NVYER        -1.0000     NotChecked  -31.5237    1266.5663   ✗       
+599   N+0.984PQTM+15.995DVYE   -1.0000     NotChecked  -31.5342    1112.4332   ✗       
+600   NPSTM+15.995DVYER        -1.0000     NotChecked  -31.5499    1226.5237   ✗       
+601   NPQTM+15.995DGYER        -1.0000     NotChecked  -31.5890    1225.5033   ✗       
+602   NPDTM+15.995DVYER        -1.0000     NotChecked  -31.5901    1254.5187   ✗       
+603   EPQTM+15.995DVYEK        -1.0000     NotChecked  -31.5947    1254.5438   ✗       
+604   VPQTM+15.995DDYER        -1.0000     Failed      -31.5980    1268.5343   ✓       
+605   EPQTM+15.995DVSER        -1.0000     NotChecked  -31.6190    1206.5187   ✗       
+606   MPQTM+15.995DVLER        -1.0000     NotChecked  -31.6223    1234.5686   ✗       
+607   PPQTM+15.995DVYE         -1.0000     NotChecked  -31.6237    1094.4590   ✗       
+608   NPQTM+15.995VVYER        -1.0000     NotChecked  -31.6393    1251.5918   ✗       
+609   TPQTM+15.995DLYER        -1.0000     Failed      -31.6471    1268.5707   ✓       
+610   N+0.984PQTM+15.995DVYER  -1.0000     Failed      -31.6486    1268.5343   ✓       
+611   EPQTM+15.995DVEER        -1.0000     NotChecked  -31.6525    1248.5292   ✗       
+612   TPQTM+15.995DVVER        -1.0000     NotChecked  -31.6583    1190.5601   ✗       
+613   MPQTM+15.995SVYER        -1.0000     NotChecked  -31.6837    1256.5529   ✗       
+614   TPQTM+15.995DVYQ+0.984R  -1.0000     NotChecked  -31.6901    1254.5550   ✗       
+615   NPATM+15.995DVYER        -1.0000     NotChecked  -31.7076    1210.5288   ✗       
+616   TPNTM+15.995DVYER        -1.0000     NotChecked  -31.7289    1240.5394   ✗       
+617   PPQTM+15.995DVYER        -1.0000     NotChecked  -31.7381    1250.5601   ✗       
+618   YPQTM+15.995VYER         -1.0000     NotChecked  -31.7501    1201.5438   ✗       
+619   TPQTM+15.995EVYER        -1.0000     Failed      -31.7704    1268.5707   ✓       
+620   EPQTM+15.995DVLER        -1.0000     NotChecked  -31.8333    1232.5707   ✗       
+621   N+0.984PQTM+15.995DVYEK  -1.0000     NotChecked  -31.8338    1240.5282   ✗       
+622   YPQTM+15.995DYER         -1.0000     NotChecked  -31.8525    1217.5023   ✗       
+623   MPQTM+15.995DVTER        -1.0000     NotChecked  -31.8578    1222.5322   ✗       
+624   N+0.984PQTM+15.995DVSER  -1.0000     NotChecked  -31.8581    1192.5030   ✗       
+625   VPQ+0.984TM+15.995DVYER  -1.0000     NotChecked  -31.8876    1253.5598   ✗       
+626   N+0.984PQTM+15.995DVEER  -1.0000     NotChecked  -31.8916    1234.5136   ✗       
+627   EPQTM+15.995SVYER        -1.0000     NotChecked  -31.8948    1254.5550   ✗       
+628   NPQTM+15.995DVYTR        -1.0000     NotChecked  -31.9233    1239.5554   ✗       
+629   PPQTM+15.995DVYEK        -1.0000     NotChecked  -31.9233    1222.5540   ✗       
+630   N+0.984PQTM+15.995DVYER  -1.0000     Failed      -31.9283    1268.5343   ✓       
+631   NPQTM+15.995DVAER        -1.0000     NotChecked  -31.9442    1175.5241   ✗       
+632   PPQTM+15.995DVSER        -1.0000     NotChecked  -31.9476    1174.5288   ✗       
+633   FPQTM+15.995VYER         -1.0000     NotChecked  -31.9658    1185.5488   ✗       
+634   TPQTM+15.995DVYE         -1.0000     NotChecked  -31.9658    1098.4539   ✗       
+635   PPQTM+15.995DVEER        -1.0000     NotChecked  -31.9811    1216.5394   ✗       
+636   NPETM+15.995DVYER        -1.0000     Failed      -31.9862    1268.5343   ✓       
+637   PQTM+15.995DVYER         -1.0000     NotChecked  -32.0178    1153.5074   ✗       
+638   NPQTM+15.995DVYER        -1.0000     NotChecked  -32.0197    1267.5503   ✗       
+639   NPQTM+15.995TVYER        -1.0000     NotChecked  -32.0238    1253.5710   ✗       
+640   NPQTMDVYER               -1.0000     NotChecked  -32.0519    1251.5554   ✗       
+641   VQTM+15.995DVYER         -1.0000     NotChecked  -32.0603    1155.5230   ✗       
+642   FPQTM+15.995DYER         -1.0000     NotChecked  -32.0682    1201.5074   ✗       
+643   EPQTM+15.995DVTER        -1.0000     NotChecked  -32.0688    1220.5343   ✗       
+644   VPQTM+15.995DVFER        -1.0000     NotChecked  -32.0689    1236.5809   ✗       
+645   N+0.984PQTM+15.995DVLER  -1.0000     NotChecked  -32.0724    1218.5550   ✗       
+646   MPQTM+15.995DVYLR        -1.0000     Failed      -32.0743    1268.5893   ✓       
+647   YPATM+15.995DVYER        -1.0000     NotChecked  -32.0751    1259.5492   ✗       
+648   TPQTM+15.995DVYER        -1.0000     NotChecked  -32.0803    1254.5550   ✗       
+649   NPQTM+15.995N+0.984VYER  -1.0000     NotChecked  -32.1025    1267.5503   ✗       
+650   FPSTM+15.995DVYER        -1.0000     NotChecked  -32.1331    1259.5492   ✗       
+651   N+0.984PQTM+15.995SVYER  -1.0000     NotChecked  -32.1339    1240.5394   ✗       
+652   MPQAM+15.995DVYER        -1.0000     NotChecked  -32.1529    1254.5373   ✗       
+653   MPQTM+15.995DVHER        -1.0000     NotChecked  -32.1553    1258.5434   ✗       
+654   PPQTM+15.995DVLER        -1.0000     NotChecked  -32.1619    1200.5809   ✗       
+655   FPQTM+15.995DGYER        -1.0000     NotChecked  -32.1722    1258.5288   ✗       
+656   N+0.984PQTM+15.995DVYER  -1.0000     Failed      -32.1856    1268.5343   ✓       
+657   VPQTM+15.995DLYER        -1.0000     NotChecked  -32.2103    1266.5914   ✗       
+658   VPQTM+15.995DVVER        -1.0000     NotChecked  -32.2215    1188.5809   ✗       
+659   PPQTM+15.995SVYER        -1.0000     NotChecked  -32.2234    1222.5652   ✗       
+660   EPQTM+15.995DVYDR        -1.0000     Failed      -32.2274    1268.5343   ✓       
+661   NPQTM+15.995DVYER        -1.0000     NotChecked  -32.2337    1267.5503   ✗       
+662   VPQTM+15.995DVYQ+0.984R  -1.0000     NotChecked  -32.2532    1252.5758   ✗       
+663   TPQTM+15.995DVYEK        -1.0000     NotChecked  -32.2655    1226.5489   ✗       
+664   NPKTM+15.995DVYER        -1.0000     NotChecked  -32.2662    1267.5867   ✗       
+665   PPQTM+15.995DVYER        -1.0000     NotChecked  -32.2750    1250.5601   ✗       
+666   EPQTM+15.995DVYLR        -1.0000     NotChecked  -32.2854    1266.5914   ✗       
+667   TPQTM+15.995DVSER        -1.0000     NotChecked  -32.2898    1178.5237   ✗       
+668   FPATM+15.995DVYER        -1.0000     NotChecked  -32.2908    1243.5543   ✗       
+669   VPNTM+15.995DVYER        -1.0000     NotChecked  -32.2920    1238.5601   ✗       
+670   MPQTM+15.995VYER         -1.0000     NotChecked  -32.3055    1169.5209   ✗       
+671   N+0.984PQTM+15.995DVTER  -1.0000     NotChecked  -32.3079    1206.5187   ✗       
+672   YPQTM+15.995DVAER        -1.0000     NotChecked  -32.3117    1224.5445   ✗       
+673   NPQTM+15.995DVYET        -1.0000     NotChecked  -32.3204    1212.4969   ✗       
+674   TPQTM+15.995DVEER        -1.0000     NotChecked  -32.3233    1220.5343   ✗       
+675   VPQTM+15.995EVYER        -1.0000     NotChecked  -32.3335    1266.5914   ✗       
+676   NPQVM+15.995DVYER        -1.0000     NotChecked  -32.3355    1265.5710   ✗       
+677   TPQTM+15.995DVYER        -1.0000     NotChecked  -32.3600    1254.5550   ✗       
+678   N+0.984PQTM+15.995DVYER  -1.0000     Failed      -32.3609    1268.5343   ✓       
+679   EPQAM+15.995DVYER        -1.0000     NotChecked  -32.3640    1252.5394   ✗       
+680   NPQSM+15.995DVYER        -1.0000     NotChecked  -32.3645    1253.5347   ✗       
+681   EPQTM+15.995DVHER        -1.0000     NotChecked  -32.3663    1256.5455   ✗       
+682   PPQTM+15.995DVTER        -1.0000     NotChecked  -32.3974    1188.5445   ✗       
+683   MPQTM+15.995DYER         -1.0000     NotChecked  -32.4079    1185.4794   ✗       
+684   PPQTM+15.995DVYER        -1.0000     NotChecked  -32.4503    1250.5601   ✗       
+685   N+0.984PQTM+15.995DVYDR  -1.0000     NotChecked  -32.4665    1254.5187   ✗       
+686   MPSTM+15.995DVYER        -1.0000     NotChecked  -32.4728    1243.5213   ✗       
+687   N+0.984PQTM+15.995DVYER  -1.0000     Failed      -32.4985    1268.5343   ✓       
+688   TPQTM+15.995DVLER        -1.0000     NotChecked  -32.5041    1204.5758   ✗       
+689   MPQTM+15.995DGYER        -1.0000     NotChecked  -32.5119    1242.5009   ✗       
+690   EPQTM+15.995VYER         -1.0000     NotChecked  -32.5165    1167.5230   ✗       
+691   N+0.984PQTM+15.995DVYLR  -1.0000     NotChecked  -32.5245    1252.5758   ✗       
+692   FPQTM+15.995DVAER        -1.0000     NotChecked  -32.5274    1208.5496   ✗       
+693   VPQTM+15.995DVYE         -1.0000     NotChecked  -32.5290    1096.4747   ✗       
+694   N+0.984PQTM+15.995DSYER  -1.0000     NotChecked  -32.5480    1256.4979   ✗       
+695   PPQTM+15.995DVYDR        -1.0000     NotChecked  -32.5560    1236.5445   ✗       
+696   MPQTM+15.995VVYER        -1.0000     Failed      -32.5622    1268.5893   ✓       
+697   TPQTM+15.995SVYER        -1.0000     NotChecked  -32.5655    1226.5601   ✗       
+698   PPQTM+15.995DVYER        -1.0000     NotChecked  -32.5880    1250.5601   ✗       
+699   N+0.984PQAM+15.995DVYER  -1.0000     NotChecked  -32.6031    1238.5238   ✗       
+700   N+0.984PQTM+15.995DVHER  -1.0000     NotChecked  -32.6054    1242.5299   ✗       
+701   PPQTM+15.995DVYLR        -1.0000     NotChecked  -32.6139    1234.6016   ✗       
+702   TPQTM+15.995DVYER        -1.0000     NotChecked  -32.6172    1254.5550   ✗       
+703   EPQTM+15.995DYER         -1.0000     NotChecked  -32.6189    1183.4815   ✗       
+704   MPATM+15.995DVYER        -1.0000     NotChecked  -32.6305    1227.5264   ✗       
+705   PPQTM+15.995DSYER        -1.0000     NotChecked  -32.6375    1238.5237   ✗       
+706   N+0.984PQTM+15.995DVYER  -1.0000     Failed      -32.6396    1268.5343   ✓       
+707   VPQTM+15.995DVYER        -1.0000     NotChecked  -32.6434    1252.5758   ✗       
+708   EPSTM+15.995DVYER        -1.0000     NotChecked  -32.6838    1241.5234   ✗       
+709   PPQTM+15.995MVYER        -1.0000     NotChecked  -32.6864    1266.5737   ✗       
+710   YPQTM+15.995DVYET        -1.0000     NotChecked  -32.6879    1261.5173   ✗       
+711   PPQAM+15.995DVYER        -1.0000     NotChecked  -32.6925    1220.5496   ✗       
+712   PPQTM+15.995DVHER        -1.0000     NotChecked  -32.6949    1224.5557   ✗       
+713   EPQTM+15.995DGYER        -1.0000     NotChecked  -32.7229    1240.5030   ✗       
+714   PPQTM+15.995DVYER        -1.0000     NotChecked  -32.7291    1250.5601   ✗       
+715   N+0.984PQTM+15.995DVYER  -1.0000     Failed      -32.7382    1268.5343   ✓       
+716   TPQTM+15.995DVTER        -1.0000     NotChecked  -32.7396    1192.5394   ✗       
+717   NPQTM+15.995DVYEV        -1.0000     NotChecked  -32.7482    1210.5176   ✗       
+718   N+0.984PQTM+15.995VYER   -1.0000     NotChecked  -32.7556    1153.5074   ✗       
+719   EPQTM+15.995VVYER        -1.0000     NotChecked  -32.7732    1266.5914   ✗       
+720   TPQTM+15.995DVYER        -1.0000     NotChecked  -32.7925    1254.5550   ✗       
+721   NPQ+0.984TM+15.995DVYER  -1.0000     Failed      -32.8209    1268.5343   ✓       
+722   PPQTM+15.995DVYER        -1.0000     NotChecked  -32.8277    1250.5601   ✗       
+723   VPQTM+15.995DVYEK        -1.0000     NotChecked  -32.8286    1224.5696   ✗       
+724   EPATM+15.995DVYER        -1.0000     NotChecked  -32.8416    1225.5285   ✗       
+725   PPQTM+15.995VYER         -1.0000     NotChecked  -32.8451    1135.5332   ✗       
+726   MPQTM+15.995DVYTR        -1.0000     NotChecked  -32.8462    1256.5529   ✗       
+727   VPQTM+15.995DVSER        -1.0000     NotChecked  -32.8529    1176.5445   ✗       
+728   NPQTM+15.995DVYR         -1.0000     NotChecked  -32.8552    1138.5077   ✗       
+729   N+0.984PQTM+15.995DYER   -1.0000     NotChecked  -32.8580    1169.4659   ✗       
+730   MPQTM+15.995DVAER        -1.0000     NotChecked  -32.8670    1192.5216   ✗       
+731   VPQTM+15.995DVEER        -1.0000     NotChecked  -32.8864    1218.5550   ✗       
+732   N+0.984PQTM+15.995NVYER  -1.0000     NotChecked  -32.8967    1267.5503   ✗       
+733   TPQTM+15.995DVYDR        -1.0000     NotChecked  -32.8982    1240.5394   ✗       
+734   FPQTM+15.995DVYET        -1.0000     NotChecked  -32.9036    1245.5223   ✗       
+735   N+0.984PSTM+15.995DVYER  -1.0000     NotChecked  -32.9229    1227.5078   ✗       
+736   VPQTM+15.995DVYER        -1.0000     NotChecked  -32.9231    1252.5758   ✗       
+737   TPQTM+15.995DVYER        -1.0000     NotChecked  -32.9302    1254.5550   ✗       
+738   NPQTM+15.995DVYQR        -1.0000     NotChecked  -32.9311    1266.5663   ✗       
+739   PPQTM+15.995DYER         -1.0000     NotChecked  -32.9475    1151.4917   ✗       
+740   TPQTM+15.995DVYLR        -1.0000     NotChecked  -32.9561    1238.5965   ✗       
+741   N+0.984PQTM+15.995DGYER  -1.0000     NotChecked  -32.9620    1226.4874   ✗       
+742   N+0.984PDTM+15.995DVYER  -1.0000     NotChecked  -32.9631    1255.5027   ✗       
+743   MPQTMDVYER               -1.0000     Failed      -32.9748    1268.5529   ✓       
+744   TPQTM+15.995DSYER        -1.0000     NotChecked  -32.9797    1242.5187   ✗       
+745   PPQTM+15.995NVYER        -1.0000     NotChecked  -32.9862    1249.5761   ✗       
+746   N+0.984PQTM+15.995VVYER  -1.0000     NotChecked  -33.0123    1252.5758   ✗       
+747   PPSTM+15.995DVYER        -1.0000     NotChecked  -33.0124    1209.5336   ✗       
+748   TPQAM+15.995DVYER        -1.0000     NotChecked  -33.0347    1224.5445   ✗       
+749   TPQTM+15.995DVHER        -1.0000     NotChecked  -33.0371    1228.5506   ✗       
+750   PTQTM+15.995DVYER        -1.0000     NotChecked  -33.0417    1254.5550   ✗       
+751   PPQTM+15.995DGYER        -1.0000     NotChecked  -33.0515    1208.5132   ✗       
+752   PPDTM+15.995DVYER        -1.0000     NotChecked  -33.0526    1237.5285   ✗       
+753   EPQTM+15.995DVYTR        -1.0000     NotChecked  -33.0572    1254.5550   ✗       
+754   VPQTM+15.995DVLER        -1.0000     NotChecked  -33.0672    1202.5965   ✗       
+755   TPQTM+15.995DVYER        -1.0000     NotChecked  -33.0713    1254.5550   ✗       
+756   EPQTM+15.995DVAER        -1.0000     NotChecked  -33.0781    1190.5237   ✗       
+757   N+0.984PATM+15.995DVYER  -1.0000     NotChecked  -33.0807    1211.5128   ✗       
+758   PPQTM+15.995VVYER        -1.0000     NotChecked  -33.1018    1234.6016   ✗       
+759   YPQTM+15.995DVYEV        -1.0000     NotChecked  -33.1157    1259.5380   ✗       
+760   VPQTM+15.995SVYER        -1.0000     NotChecked  -33.1287    1224.5809   ✗       
+761   NPQTM+15.995DVVER        -1.0000     NotChecked  -33.1547    1203.5554   ✗       
+762   EPQTM+15.995TVYER        -1.0000     Failed      -33.1577    1268.5707   ✓       
+763   TPQTM+15.995DVYER        -1.0000     NotChecked  -33.1699    1254.5550   ✗       
+764   PPATM+15.995DVYER        -1.0000     NotChecked  -33.1701    1193.5387   ✗       
+765   VPQTM+15.995DVYER        -1.0000     NotChecked  -33.1804    1252.5758   ✗       
+766   EPQTMDVYER               -1.0000     NotChecked  -33.1858    1266.5550   ✗       
+767   NPQTM+15.995DVYQ+0.984R  -1.0000     NotChecked  -33.1865    1267.5503   ✗       
+768   TPQTM+15.995VYER         -1.0000     NotChecked  -33.1873    1139.5281   ✗       
+769   NPQTM+15.995DVYSR        -1.0000     NotChecked  -33.2082    1225.5397   ✗       
+770   YPQTM+15.995DVYR         -1.0000     NotChecked  -33.2227    1187.5281   ✗       
+771   NPNTM+15.995DVYER        -1.0000     NotChecked  -33.2253    1253.5346   ✗       
+772   MPQTM+15.995DVYET        -1.0000     NotChecked  -33.2433    1229.4944   ✗       
+773   TPQTM+15.995DYER         -1.0000     NotChecked  -33.2897    1155.4866   ✗       
+774   N+0.984PQTM+15.995DVYTR  -1.0000     NotChecked  -33.2963    1240.5394   ✗       
+775   VPQTM+15.995DVTER        -1.0000     NotChecked  -33.3027    1190.5601   ✗       
+776   N+0.984PQTM+15.995DVAER  -1.0000     NotChecked  -33.3172    1176.5081   ✗       
+777   TPQTM+15.995NVYER        -1.0000     NotChecked  -33.3283    1253.5710   ✗       
+778   FPQTM+15.995DVYEV        -1.0000     NotChecked  -33.3314    1243.5431   ✗       
+779   TPSTM+15.995DVYER        -1.0000     NotChecked  -33.3545    1213.5285   ✗       
+780   VPQTM+15.995DVYER        -1.0000     NotChecked  -33.3557    1252.5758   ✗       
+781   TTQTM+15.995DVYER        -1.0000     NotChecked  -33.3839    1258.5499   ✗       
+782   PPQTM+15.995DVYTR        -1.0000     NotChecked  -33.3858    1222.5652   ✗       
+783   N+0.984PQTM+15.995DVYER  -1.0000     Failed      -33.3928    1268.5343   ✓       
+784   TPQTM+15.995DGYER        -1.0000     NotChecked  -33.3937    1212.5081   ✗       
+785   TPDTM+15.995DVYER        -1.0000     NotChecked  -33.3947    1241.5234   ✗       
+786   N+0.984PQTM+15.995TVYER  -1.0000     NotChecked  -33.3968    1254.5550   ✗       
+787   PPQTM+15.995DVAER        -1.0000     NotChecked  -33.4067    1158.5339   ✗       
+788   N+0.984PQTMDVYER         -1.0000     NotChecked  -33.4249    1252.5394   ✗       
+789   FPQTM+15.995DVYR         -1.0000     NotChecked  -33.4384    1171.5332   ✗       
+790   TPQTM+15.995VVYER        -1.0000     NotChecked  -33.4440    1238.5965   ✗       
+791   PPETM+15.995DVYER        -1.0000     NotChecked  -33.4487    1251.5441   ✗       
+792   EPQTM+15.995DVYET        -1.0000     NotChecked  -33.4543    1227.4965   ✗       
+793   VPQTM+15.995DVYDR        -1.0000     NotChecked  -33.4613    1238.5601   ✗       
+794   NPQTM+15.995DVYE         -1.0000     NotChecked  -33.4622    1111.4492   ✗       
+795   N+0.984PQTM+15.995N+0.984VYER-1.0000     Failed      -33.4755    1268.5343   ✓       
+796   PPQTM+15.995DVYER        -1.0000     NotChecked  -33.4822    1250.5601   ✗       
+797   PPQTM+15.995TVYER        -1.0000     NotChecked  -33.4863    1236.5809   ✗       
+798   VPQTM+15.995DVYER        -1.0000     NotChecked  -33.4933    1252.5758   ✗       
+799   EPQSM+15.995DVYER        -1.0000     Failed      -33.4984    1268.5343   ✓       
+800   TPATM+15.995DVYER        -1.0000     NotChecked  -33.5123    1197.5336   ✗       
+801   PPQTMDVYER               -1.0000     NotChecked  -33.5144    1234.5652   ✗       
+802   VPQTM+15.995DVYLR        -1.0000     NotChecked  -33.5193    1236.6173   ✗       
+803   YPQTM+15.995DVVER        -1.0000     NotChecked  -33.5222    1252.5758   ✗       
+804   VPQTM+15.995DSYER        -1.0000     NotChecked  -33.5428    1240.5394   ✗       
+805   PPQTM+15.995N+0.984VYER  -1.0000     NotChecked  -33.5650    1250.5601   ✗       
+806   NPQTM+15.995DVYER        -1.0000     NotChecked  -33.5767    1267.5503   ✗       
+807   VPQTM+15.995MVYER        -1.0000     Failed      -33.5917    1268.5893   ✓       
+808   VPQAM+15.995DVYER        -1.0000     NotChecked  -33.5979    1222.5652   ✗       
+809   VPQTM+15.995DVHER        -1.0000     NotChecked  -33.6003    1226.5714   ✗       
+810   N+0.984PQTM+15.995DVYER  -1.0000     Failed      -33.6068    1268.5343   ✓       
+811   VPQTM+15.995DVYER        -1.0000     NotChecked  -33.6345    1252.5758   ✗       
+812   N+0.984PKTM+15.995DVYER  -1.0000     Failed      -33.6392    1268.5707   ✓       
+813   NPQTM+15.995DVYR         -1.0000     NotChecked  -33.6502    1138.5077   ✗       
+814   MPQTM+15.995DVYEV        -1.0000     NotChecked  -33.6711    1227.5152   ✗       
+815   N+0.984PQTM+15.995DVYET  -1.0000     NotChecked  -33.6934    1213.4809   ✗       
+816   PPQTM+15.995DVYER        -1.0000     NotChecked  -33.6962    1250.5601   ✗       
+817   N+0.984PQVM+15.995DVYER  -1.0000     NotChecked  -33.7085    1266.5551   ✗       
+818   TPQTM+15.995DVYTR        -1.0000     NotChecked  -33.7280    1226.5601   ✗       
+819   PPKTM+15.995DVYER        -1.0000     NotChecked  -33.7287    1250.5965   ✗       
+820   VPQTM+15.995DVYER        -1.0000     NotChecked  -33.7331    1252.5758   ✗       
+821   N+0.984PQSM+15.995DVYER  -1.0000     NotChecked  -33.7375    1254.5187   ✗       
+822   FPQTM+15.995DVVER        -1.0000     NotChecked  -33.7379    1236.5809   ✗       
+823   TPQTM+15.995DVAER        -1.0000     NotChecked  -33.7488    1162.5288   ✗       
+824   VPQTM+15.995VYER         -1.0000     NotChecked  -33.7504    1137.5488   ✗       
+825   NPQTM+15.995DVYEK        -1.0000     NotChecked  -33.7619    1239.5441   ✗       
+826   NPQTM+15.995DVYER        -1.0000     NotChecked  -33.7667    1267.5503   ✗       
+827   MPQTM+15.995DVYR         -1.0000     NotChecked  -33.7781    1155.5053   ✗       
+828   PPQTM+15.995DVYET        -1.0000     NotChecked  -33.7829    1195.5067   ✗       
+829   NPQTM+15.995DVSER        -1.0000     NotChecked  -33.7862    1191.5190   ✗       
+830   TPETM+15.995DVYER        -1.0000     NotChecked  -33.7909    1255.5391   ✗       
+831   FPQTM+15.995DVYSR        -1.0000     NotChecked  -33.7914    1258.5652   ✗       
+832   PPQVM+15.995DVYER        -1.0000     NotChecked  -33.7980    1248.5809   ✗       
+833   NPQTM+15.995DVEER        -1.0000     NotChecked  -33.8197    1233.5296   ✗       
+834   TPQTM+15.995DVYER        -1.0000     NotChecked  -33.8244    1254.5550   ✗       
+835   PPQSM+15.995DVYER        -1.0000     NotChecked  -33.8270    1236.5445   ✗       
+836   TPQTM+15.995TVYER        -1.0000     NotChecked  -33.8284    1240.5758   ✗       
+837   YPQTM+15.995DVYE         -1.0000     NotChecked  -33.8297    1160.4696   ✗       
+838   VPQTM+15.995DYER         -1.0000     NotChecked  -33.8528    1153.5074   ✗       
+839   TPQTMDVYER               -1.0000     NotChecked  -33.8565    1238.5601   ✗       
+840   EPQTM+15.995DVYEV        -1.0000     NotChecked  -33.8821    1225.5173   ✗       
+841   VPQTM+15.995NVYER        -1.0000     NotChecked  -33.8915    1251.5918   ✗       
+842   TPQTM+15.995N+0.984VYER  -1.0000     NotChecked  -33.9071    1254.5550   ✗       
+843   VPSTM+15.995DVYER        -1.0000     NotChecked  -33.9177    1211.5492   ✗       
+844   VTQTM+15.995DVYER        -1.0000     NotChecked  -33.9470    1256.5707   ✗       
+845   VPQTM+15.995DGYER        -1.0000     NotChecked  -33.9568    1210.5288   ✗       
+846   VPDTM+15.995DVYER        -1.0000     NotChecked  -33.9579    1239.5441   ✗       
+847   NPQTM+15.995DVYER        -1.0000     NotChecked  -33.9643    1267.5503   ✗       
+848   EPQTM+15.995DVYR         -1.0000     NotChecked  -33.9891    1153.5074   ✗       
+849   PPQTM+15.995DDYER        -1.0000     NotChecked  -33.9937    1266.5187   ✗       
+850   PPQDM+15.995DVYER        -1.0000     NotChecked  -34.0014    1264.5394   ✗       
+851   VPQTM+15.995VVYER        -1.0000     NotChecked  -34.0072    1236.6173   ✗       
+852   YPQTM+15.995DVYR         -1.0000     NotChecked  -34.0177    1187.5281   ✗       
+853   TPQTM+15.995DVYER        -1.0000     NotChecked  -34.0384    1254.5550   ✗       
+854   FPQTM+15.995DVYE         -1.0000     NotChecked  -34.0454    1144.4747   ✗       
+855   NPQTM+15.995SVYER        -1.0000     NotChecked  -34.0619    1239.5554   ✗       
+856   TPKTM+15.995DVYER        -1.0000     NotChecked  -34.0709    1254.5914   ✗       
+857   VPATM+15.995DVYER        -1.0000     NotChecked  -34.0755    1195.5543   ✗       
+858   NSQTM+15.995DVYER        -1.0000     NotChecked  -34.0760    1257.5296   ✗       
+859   MPQTM+15.995DVVER        -1.0000     NotChecked  -34.0776    1220.5529   ✗       
+860   NAQTM+15.995DVYER        -1.0000     NotChecked  -34.0997    1241.5346   ✗       
+861   NPQTFDVYER               -1.0000     NotChecked  -34.1095    1267.5833   ✗       
+862   NPQTM+15.995DVYER        -1.0000     NotChecked  -34.1136    1267.5503   ✗       
+863   NPQTM+15.995DVYER        -1.0000     NotChecked  -34.1162    1267.5503   ✗       
+864   N+0.984PQTM+15.995DVYEV  -1.0000     NotChecked  -34.1212    1211.5016   ✗       
+865   TPQTM+15.995DVYET        -1.0000     NotChecked  -34.1250    1199.5016   ✗       
+866   MPQTM+15.995DVYSR        -1.0000     NotChecked  -34.1310    1242.5373   ✗       
+867   TPQVM+15.995DVYER        -1.0000     NotChecked  -34.1402    1252.5758   ✗       
+868   YPQTM+15.995DVSER        -1.0000     NotChecked  -34.1537    1240.5394   ✗       
+869   TPQSM+15.995DVYER        -1.0000     NotChecked  -34.1691    1240.5394   ✗       
+870   PPQTM+15.995DVYEV        -1.0000     NotChecked  -34.2107    1193.5274   ✗       
+871   N+0.984PQTM+15.995DVYR   -1.0000     NotChecked  -34.2282    1139.4917   ✗       
+872   FPQTM+15.995DVYR         -1.0000     NotChecked  -34.2334    1171.5332   ✗       
+873   NPQTM+15.995DVTER        -1.0000     NotChecked  -34.2360    1205.5346   ✗       
+874   NPQTM+15.995DVYEF        -1.0000     NotChecked  -34.2470    1258.5176   ✗       
+875   PPQ+0.984TM+15.995DVYER  -1.0000     NotChecked  -34.2834    1251.5441   ✗       
+876   EPQTM+15.995DVVER        -1.0000     NotChecked  -34.2886    1218.5550   ✗       
+877   NPQTM+15.995DVYER        -1.0000     NotChecked  -34.2889    1267.5503   ✗       
+878   VPQTM+15.995DVYTR        -1.0000     NotChecked  -34.2911    1224.5809   ✗       
+879   N+0.984PQTM+15.995DVYQR  -1.0000     NotChecked  -34.3041    1267.5503   ✗       
+880   VPQTM+15.995DVAER        -1.0000     NotChecked  -34.3120    1160.5496   ✗       
+881   PPQTM+15.995DVYR         -1.0000     NotChecked  -34.3177    1121.5175   ✗       
+882   EPQTM+15.995DVYSR        -1.0000     NotChecked  -34.3421    1240.5394   ✗       
+883   TPQDM+15.995DVYER        -1.0000     Failed      -34.3435    1268.5343   ✓       
+884   VPETM+15.995DVYER        -1.0000     NotChecked  -34.3540    1253.5598   ✗       
+885   EPNTM+15.995DVYER        -1.0000     Failed      -34.3592    1268.5343   ✓       
+886   FPQTM+15.995DVSER        -1.0000     NotChecked  -34.3694    1224.5445   ✗       
+887   MPQTM+15.995DVYE         -1.0000     NotChecked  -34.3851    1128.4467   ✗       
+888   VPQTM+15.995DVYER        -1.0000     NotChecked  -34.3876    1252.5758   ✗       
+889   VPQTM+15.995TVYER        -1.0000     NotChecked  -34.3916    1238.5965   ✗       
+890   PPQTM+15.995DVYQR        -1.0000     NotChecked  -34.3936    1249.5761   ✗       
+891   NPQTM+15.995DVYDR        -1.0000     NotChecked  -34.3946    1253.5346   ✗       
+892   FPQTM+15.995DVEER        -1.0000     NotChecked  -34.4029    1266.5550   ✗       
+893   NPQTSDVYER               -1.0000     NotChecked  -34.4188    1207.5469   ✗       
+894   VPQTMDVYER               -1.0000     NotChecked  -34.4197    1236.5809   ✗       
+895   NPQTM+15.995DVYLR        -1.0000     NotChecked  -34.4525    1251.5918   ✗       
+896   VPQTM+15.995N+0.984VYER  -1.0000     NotChecked  -34.4703    1252.5758   ✗       
+897   NPQTM+15.995DSYER        -1.0000     NotChecked  -34.4761    1255.5139   ✗       
+898   N+0.984PQTM+15.995DVVER  -1.0000     NotChecked  -34.5277    1204.5394   ✗       
+899   NPQAM+15.995DVYER        -1.0000     NotChecked  -34.5311    1237.5397   ✗       
+900   NPQTM+15.995DVHER        -1.0000     NotChecked  -34.5335    1241.5459   ✗       
+901   TPQTM+15.995DVYEV        -1.0000     NotChecked  -34.5529    1197.5223   ✗       
+902   N+0.984PQTM+15.995DVYQ+0.984R-1.0000     Failed      -34.5595    1268.5343   ✓       
+903   NPQTM+15.995DVYER        -1.0000     NotChecked  -34.5677    1267.5503   ✗       
+904   MPQTM+15.995DVYR         -1.0000     NotChecked  -34.5730    1155.5053   ✗       
+905   N+0.984PQTM+15.995DVYSR  -1.0000     NotChecked  -34.5812    1226.5237   ✗       
+906   EPQTM+15.995DVYE         -1.0000     NotChecked  -34.5961    1126.4488   ✗       
+907   N+0.984PNTM+15.995DVYER  -1.0000     NotChecked  -34.5983    1254.5187   ✗       
+908   VPQTM+15.995DVYER        -1.0000     NotChecked  -34.6016    1252.5758   ✗       
+909   YPQTM+15.995DVTER        -1.0000     NotChecked  -34.6035    1254.5550   ✗       
+910   PPQTM+15.995DLYER        -1.0000     NotChecked  -34.6060    1264.5758   ✗       
+911   PPQTM+15.995DVVER        -1.0000     NotChecked  -34.6172    1186.5652   ✗       
+912   TPQ+0.984TM+15.995DVYER  -1.0000     NotChecked  -34.6256    1255.5391   ✗       
+913   NPQTM+15.995DVYES        -1.0000     NotChecked  -34.6262    1198.4812   ✗       
+914   VPKTM+15.995DVYER        -1.0000     NotChecked  -34.6340    1252.6122   ✗       
+915   NPQTM+15.995DVYEL        -1.0000     NotChecked  -34.6387    1224.5332   ✗       
+916   PPQTM+15.995DVYQ+0.984R  -1.0000     NotChecked  -34.6490    1250.5601   ✗       
+917   TPQTM+15.995DVYR         -1.0000     NotChecked  -34.6599    1125.5124   ✗       
+918   PPQTM+15.995DVYSR        -1.0000     NotChecked  -34.6706    1208.5496   ✗       
+919   NPQTM+15.995VYER         -1.0000     NotChecked  -34.6837    1152.5234   ✗       
+920   MPQTM+15.995DVYEK        -1.0000     NotChecked  -34.6848    1256.5417   ✗       
+921   PPNTM+15.995DVYER        -1.0000     NotChecked  -34.6878    1236.5445   ✗       
+922   VPQTM+15.995DVYET        -1.0000     NotChecked  -34.6882    1197.5223   ✗       
+923   VPQVM+15.995DVYER        -1.0000     NotChecked  -34.7033    1250.5965   ✗       
+924   MPQTM+15.995DVSER        -1.0000     NotChecked  -34.7091    1208.5166   ✗       
+925   PPQTM+15.995EVYER        -1.0000     NotChecked  -34.7293    1264.5758   ✗       
+926   VPQSM+15.995DVYER        -1.0000     NotChecked  -34.7323    1238.5601   ✗       
+927   TPQTM+15.995DVYQR        -1.0000     NotChecked  -34.7357    1253.5710   ✗       
+928   MPQTM+15.995DVEER        -1.0000     NotChecked  -34.7426    1250.5271   ✗       
+929   EPQTM+15.995DVYR         -1.0000     NotChecked  -34.7841    1153.5074   ✗       
+930   NPQTM+15.995DYER         -1.0000     NotChecked  -34.7861    1168.4819   ✗       
+931   YPQTSDVYER               -1.0000     NotChecked  -34.7863    1256.5673   ✗       
+932   NPQTM+15.995DVYEQ        -1.0000     NotChecked  -34.7912    1239.5078   ✗       
+933   FPQTM+15.995DVTER        -1.0000     NotChecked  -34.8192    1238.5601   ✗       
+934   NPQTM+15.995NVYER        -1.0000     NotChecked  -34.8247    1266.5663   ✗       
+935   N+0.984PQTM+15.995DVYE   -1.0000     NotChecked  -34.8352    1112.4332   ✗       
+936   NPSTM+15.995DVYER        -1.0000     NotChecked  -34.8510    1226.5237   ✗       
+937   NPQTM+15.995DGYER        -1.0000     NotChecked  -34.8901    1225.5033   ✗       
+938   NPDTM+15.995DVYER        -1.0000     NotChecked  -34.8911    1254.5187   ✗       
+939   EPQTM+15.995DVYEK        -1.0000     NotChecked  -34.8958    1254.5438   ✗       
+940   VPQTM+15.995DDYER        -1.0000     Failed      -34.8990    1268.5343   ✓       
+941   VPQDM+15.995DVYER        -1.0000     NotChecked  -34.9067    1266.5551   ✗       
+942   EPQTM+15.995DVSER        -1.0000     NotChecked  -34.9201    1206.5187   ✗       
+943   PPQTM+15.995DVYE         -1.0000     NotChecked  -34.9247    1094.4590   ✗       
+944   NPQTM+15.995VVYER        -1.0000     NotChecked  -34.9404    1251.5918   ✗       
+945   TPQTM+15.995DLYER        -1.0000     Failed      -34.9482    1268.5707   ✓       
+946   N+0.984PQTM+15.995DVYER  -1.0000     Failed      -34.9497    1268.5343   ✓       
+947   EPQTM+15.995DVEER        -1.0000     NotChecked  -34.9536    1248.5292   ✗       
+948   TPQTM+15.995DVVER        -1.0000     NotChecked  -34.9594    1190.5601   ✗       
+949   MPQTM+15.995SVYER        -1.0000     NotChecked  -34.9848    1256.5529   ✗       
+950   TPQTM+15.995DVYQ+0.984R  -1.0000     NotChecked  -34.9911    1254.5550   ✗       
+951   YPQTM+15.995DVYES        -1.0000     NotChecked  -34.9937    1247.5016   ✗       
+952   FPQTSDVYER               -1.0000     NotChecked  -35.0020    1240.5724   ✗       
+953   NPATM+15.995DVYER        -1.0000     NotChecked  -35.0087    1210.5288   ✗       
+954   TPQTM+15.995DVYSR        -1.0000     NotChecked  -35.0128    1212.5445   ✗       
+955   MAQTM+15.995DVYER        -1.0000     NotChecked  -35.0226    1258.5322   ✗       
+956   N+0.984PQTM+15.995DVYR   -1.0000     NotChecked  -35.0232    1139.4917   ✗       
+957   TPNTM+15.995DVYER        -1.0000     NotChecked  -35.0300    1240.5394   ✗       
+958   PPQTM+15.995DVYER        -1.0000     NotChecked  -35.0392    1250.5601   ✗       
+959   YPQTM+15.995VYER         -1.0000     NotChecked  -35.0512    1201.5438   ✗       
+960   TPQTM+15.995EVYER        -1.0000     Failed      -35.0714    1268.5707   ✓       
+961   PPQTM+15.995DVYR         -1.0000     NotChecked  -35.1126    1121.5175   ✗       
+962   VPQTM+15.995DVYEV        -1.0000     NotChecked  -35.1160    1195.5431   ✗       
+963   N+0.984PQTM+15.995DVYEK  -1.0000     NotChecked  -35.1349    1240.5282   ✗       
+964   YPQTM+15.995DYER         -1.0000     NotChecked  -35.1536    1217.5023   ✗       
+965   MPQTM+15.995DVTER        -1.0000     NotChecked  -35.1589    1222.5322   ✗       
+966   N+0.984PQTM+15.995DVSER  -1.0000     NotChecked  -35.1592    1192.5030   ✗       
+967   TPQTM+15.995DVYER        -1.0000     NotChecked  -35.1656    1254.5550   ✗       
+968   VPQ+0.984TM+15.995DVYER  -1.0000     NotChecked  -35.1887    1253.5598   ✗       
+969   N+0.984PQTM+15.995DVEER  -1.0000     NotChecked  -35.1927    1234.5136   ✗       
+970   EPQTM+15.995SVYER        -1.0000     NotChecked  -35.1959    1254.5550   ✗       
+971   FPQTM+15.995DVYES        -1.0000     NotChecked  -35.2094    1231.5067   ✗       
+972   FPQTM+15.995DVYEL        -1.0000     NotChecked  -35.2219    1257.5587   ✗       
+973   VPQTM+15.995DVYR         -1.0000     NotChecked  -35.2231    1123.5332   ✗       
+974   NPQTM+15.995DVYTR        -1.0000     NotChecked  -35.2244    1239.5554   ✗       
+975   PPQTM+15.995DVYEK        -1.0000     NotChecked  -35.2244    1222.5540   ✗       
+976   EAQTM+15.995DVYER        -1.0000     NotChecked  -35.2336    1256.5343   ✗       
+977   NPQTM+15.995DVAER        -1.0000     NotChecked  -35.2452    1175.5241   ✗       
+978   PPQTM+15.995DVSER        -1.0000     NotChecked  -35.2487    1174.5288   ✗       
+979   FPQTM+15.995VYER         -1.0000     NotChecked  -35.2669    1185.5488   ✗       
+980   TPQTM+15.995DVYE         -1.0000     NotChecked  -35.2669    1098.4539   ✗       
+981   NPQTM+15.995DVYER        -1.0000     NotChecked  -35.2809    1267.5503   ✗       
+982   PPQTM+15.995DVEER        -1.0000     NotChecked  -35.2822    1216.5394   ✗       
+983   VPQTM+15.995DVYQR        -1.0000     NotChecked  -35.2989    1251.5918   ✗       
+984   PPQTM+15.995DVYER        -1.0000     NotChecked  -35.3189    1250.5601   ✗       
+985   NPQTM+15.995TVYER        -1.0000     NotChecked  -35.3248    1253.5710   ✗       
+986   N+0.984PQTM+15.995DVYER  -1.0000     Failed      -35.3373    1268.5343   ✓       
+987   MPQTSDVYER               -1.0000     NotChecked  -35.3417    1224.5445   ✗       
+988   FPQTM+15.995DYER         -1.0000     NotChecked  -35.3693    1201.5074   ✗       
+989   EPQTM+15.995DVTER        -1.0000     NotChecked  -35.3699    1220.5343   ✗       
+990   MPQTM+15.995DVYLR        -1.0000     Failed      -35.3754    1268.5893   ✓       
+991   YPATM+15.995DVYER        -1.0000     NotChecked  -35.3762    1259.5492   ✗       
+992   TPQTM+15.995DVYER        -1.0000     NotChecked  -35.3813    1254.5550   ✗       
+993   PPQTM+15.995DVYER        -1.0000     NotChecked  -35.4268    1250.5601   ✗       
+994   PPQTM+15.995DVYEY        -1.0000     NotChecked  -35.4306    1257.5223   ✗       
+995   FPSTM+15.995DVYER        -1.0000     NotChecked  -35.4342    1259.5492   ✗       
+996   N+0.984PQTM+15.995SVYER  -1.0000     NotChecked  -35.4350    1240.5394   ✗       
+997   PLQTM+15.995DVYER        -1.0000     NotChecked  -35.4454    1266.5914   ✗       
+998   N+0.984SQTM+15.995DVYER  -1.0000     NotChecked  -35.4490    1258.5136   ✗       
+999   MPQAM+15.995DVYER        -1.0000     NotChecked  -35.4540    1254.5373   ✗       
+1000  TPQTM+15.995DVYR         -1.0000     NotChecked  -35.4548    1125.5124   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: DPQTM+15.995DVYER
+Similarity: 0.8119
+De Novo Score: -0.0369
+Source: Database
+Correct: ✓
+

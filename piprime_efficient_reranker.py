@@ -9,8 +9,12 @@ import numpy as np
 import pandas as pd
 import torch
 import requests
+import urllib3
 import re
 import logging
+
+# Disable SSL warnings
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 from pathlib import Path
 from sklearn.metrics.pairwise import cosine_similarity
 from pyteomics import mgf, mass
@@ -235,7 +239,7 @@ class PiPrimeEfficientReranker:
         }
 
         try:
-            response = requests.post(url, json=payload, headers={'Content-Type': 'application/json'}, timeout=30)
+            response = requests.post(url, json=payload, headers={'Content-Type': 'application/json'}, timeout=30, verify=False)
             if response.status_code != 200:
                 return None
 

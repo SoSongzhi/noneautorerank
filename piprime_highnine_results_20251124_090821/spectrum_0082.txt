@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 82
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 653.8951
+Precursor charge: 2+
+Ground truth: GTQVVIIPAGVPR
+Ground truth (normalized): GTQVVIIPAGVPR
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 244
+Used for reranking: 244
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 244 (24.4%)
+Database matches: 93 (9.3%)
+Prosit predictions: 142 (14.2%)
+Failed: 9 (0.9%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.6096
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     GTQVVLLPAGVPR            0.6096      Database    -1.3979     1305.7769   ✓       ✓
+2     GTQVVLLPAGVPR            0.6096      Database    -2.8316     1305.7769   ✓       ✓
+3     GTQVVLLPAGVPR            0.6096      Database    -3.5194     1305.7769   ✓       ✓
+4     GTQVVLLPAGVPR            0.6096      Database    -4.8048     1305.7769   ✓       ✓
+5     GTQVVLLPAGVPR            0.6096      Database    -4.9532     1305.7769   ✓       ✓
+6     GTQVVLLPAGVPR            0.6096      Database    -5.0539     1305.7769   ✓       ✓
+7     GTQVVLLPAGVPR            0.6096      Database    -5.3919     1305.7769   ✓       ✓
+8     GTQVVLLPAGVPR            0.6096      Database    -5.4765     1305.7769   ✓       ✓
+9     GTQVVLLPAGVPR            0.6096      Database    -5.7416     1305.7769   ✓       ✓
+10    GTQVVLLPAGVPR            0.6096      Database    -6.4877     1305.7769   ✓       ✓
+11    GTQVVLLPAGVPR            0.6096      Database    -6.9103     1305.7769   ✓       ✓
+12    GTQVVLLPAGVPR            0.6096      Database    -6.9264     1305.7769   ✓       ✓
+13    GTQVVLLPAGVPR            0.6096      Database    -7.1753     1305.7769   ✓       ✓
+14    GTQVVLLPAGVPR            0.6096      Database    -7.3266     1305.7769   ✓       ✓
+15    GTQVVLLPAGVPR            0.6096      Database    -7.5981     1305.7769   ✓       ✓
+16    GTQVVLLPAGVPR            0.6096      Database    -7.8660     1305.7769   ✓       ✓
+17    GTQVVLLPAGVPR            0.6096      Database    -8.4531     1305.7769   ✓       ✓
+18    GTQVVLLPAGVPR            0.6096      Database    -8.7547     1305.7769   ✓       ✓
+19    GTQVVLLPAGVPR            0.6096      Database    -8.8835     1305.7769   ✓       ✓
+20    GTQVVLLPAGVPR            0.6096      Database    -9.0319     1305.7769   ✓       ✓
+21    GTQVVLLPAGVPR            0.6096      Database    -9.1326     1305.7769   ✓       ✓
+22    GTQVVLLPAGVPR            0.6096      Database    -9.2997     1305.7769   ✓       ✓
+23    GTQVVLLPAGVPR            0.6096      Database    -9.4074     1305.7769   ✓       ✓
+24    GTQVVLLPAGVPR            0.6096      Database    -9.4353     1305.7769   ✓       ✓
+25    GTQVVLLPAGVPR            0.6096      Database    -9.4481     1305.7769   ✓       ✓
+26    GTQVVLLPAGVPR            0.6096      Database    -9.4706     1305.7769   ✓       ✓
+27    GTQVVLLPAGVPR            0.6096      Database    -9.5152     1305.7769   ✓       ✓
+28    GTQVVLLPAGVPR            0.6096      Database    -9.6566     1305.7769   ✓       ✓
+29    GTQVVLLPAGVPR            0.6096      Database    -9.8203     1305.7769   ✓       ✓
+30    GTQVVLLPAGVPR            0.6096      Database    -9.8868     1305.7769   ✓       ✓
+31    GTQVVLLPAGVPR            0.6096      Database    -9.9876     1305.7769   ✓       ✓
+32    GTQVVLLPAGVPR            0.6096      Database    -10.0580    1305.7769   ✓       ✓
+33    GTQVVLLPAGVPR            0.6096      Database    -10.1023    1305.7769   ✓       ✓
+34    GTQVVLLPAGVPR            0.6096      Database    -10.1885    1305.7769   ✓       ✓
+35    GTQVVLLPAGVPR            0.6096      Database    -10.3708    1305.7769   ✓       ✓
+36    GTQVVLLPAGVPR            0.6096      Database    -10.4944    1305.7769   ✓       ✓
+37    GTQVVLLPAGVPR            0.6096      Database    -10.5664    1305.7769   ✓       ✓
+38    GTQVVLLPAGVPR            0.6096      Database    -10.5665    1305.7769   ✓       ✓
+39    GTQVVLLPAGVPR            0.6096      Database    -10.8690    1305.7769   ✓       ✓
+40    GTQVVLLPAGVPR            0.6096      Database    -10.8763    1305.7769   ✓       ✓
+41    GTQVVLLPAGVPR            0.6096      Database    -10.9579    1305.7769   ✓       ✓
+42    GTQVVLLPAGVPR            0.6096      Database    -10.9826    1305.7769   ✓       ✓
+43    GTQVVLLPAGVPR            0.6096      Database    -11.0050    1305.7769   ✓       ✓
+44    GTQVVLLPAGVPR            0.6096      Database    -11.0903    1305.7769   ✓       ✓
+45    GTQVVLLPAGVPR            0.6096      Database    -11.2540    1305.7769   ✓       ✓
+46    GTQVVLLPAGVPR            0.6096      Database    -11.3360    1305.7769   ✓       ✓
+47    GTQVVLLPAGVPR            0.6096      Database    -11.4052    1305.7769   ✓       ✓
+48    GTQVVLLPAGVPR            0.6096      Database    -11.4213    1305.7769   ✓       ✓
+49    GTQVVLLPAGVPR            0.6096      Database    -11.4853    1305.7769   ✓       ✓
+50    GTQVVLLPAGVPR            0.6096      Database    -11.4917    1305.7769   ✓       ✓
+51    GTQVVLLPAGVPR            0.6096      Database    -11.5290    1305.7769   ✓       ✓
+52    GTQVVLLPAGVPR            0.6096      Database    -11.5569    1305.7769   ✓       ✓
+53    GTQVVLLPAGVPR            0.6096      Database    -11.6368    1305.7769   ✓       ✓
+54    GTQVVLLPAGVPR            0.6096      Database    -11.6703    1305.7769   ✓       ✓
+55    GTQVVLLPAGVPR            0.6096      Database    -11.7481    1305.7769   ✓       ✓
+56    GTQVVLLPAGVPR            0.6096      Database    -11.9231    1305.7769   ✓       ✓
+57    GTQVVLLPAGVPR            0.6096      Database    -11.9281    1305.7769   ✓       ✓
+58    GTQVVLLPAGVPR            0.6096      Database    -11.9447    1305.7769   ✓       ✓
+59    GTQVVLLPAGVPR            0.6096      Database    -12.0289    1305.7769   ✓       ✓
+60    GTQVVLLPAGVPR            0.6096      Database    -12.0724    1305.7769   ✓       ✓
+61    GTQVVLLPAGVPR            0.6096      Database    -12.1617    1305.7769   ✓       ✓
+62    GTQVVLLPAGVPR            0.6096      Database    -12.1796    1305.7769   ✓       ✓
+63    GTQVVLLPAGVPR            0.6096      Database    -12.3101    1305.7769   ✓       ✓
+64    GTQVVLLPAGVPR            0.6096      Database    -12.3352    1305.7769   ✓       ✓
+65    GTQVVLLPAGVPR            0.6096      Database    -12.4108    1305.7769   ✓       ✓
+66    GTQVVLLPAGVPR            0.6096      Database    -12.4686    1305.7769   ✓       ✓
+67    GTQVVLLPAGVPR            0.6096      Database    -12.7488    1305.7769   ✓       ✓
+68    GTQVVLLPAGVPR            0.6096      Database    -12.8334    1305.7769   ✓       ✓
+69    GTQVVLLPAGVPR            0.6096      Database    -13.0985    1305.7769   ✓       ✓
+70    GTQVVLLPAGVPR            0.6096      Database    -13.3405    1305.7769   ✓       ✓
+71    GTQVVLLPAGVPR            0.6096      Database    -13.8446    1305.7769   ✓       ✓
+72    GTQVVLLPAGVPR            0.6096      Database    -14.2672    1305.7769   ✓       ✓
+73    GTQVVLLPAGVPR            0.6096      Database    -14.2832    1305.7769   ✓       ✓
+74    GTQVVLLPAGVPR            0.6096      Database    -14.5322    1305.7769   ✓       ✓
+75    GTQVVLLPAGVPR            0.6096      Database    -14.6834    1305.7769   ✓       ✓
+76    GTQVVLLPAGVPR            0.6096      Database    -14.9550    1305.7769   ✓       ✓
+77    GTQVVLLPAGVPR            0.6096      Database    -15.0900    1305.7769   ✓       ✓
+78    GTQVVLLPAGVPR            0.6096      Database    -15.2229    1305.7769   ✓       ✓
+79    GTQVVLLPAGVPR            0.6096      Database    -15.8100    1305.7769   ✓       ✓
+80    GTQVVLLPAGVPR            0.6096      Database    -16.2403    1305.7769   ✓       ✓
+81    GTQVVLLPAGVPR            0.6096      Database    -16.3888    1305.7769   ✓       ✓
+82    GTQVVLLPAGVPR            0.6096      Database    -16.4895    1305.7769   ✓       ✓
+83    GTQVVLLPAGVPR            0.6096      Database    -16.5238    1305.7769   ✓       ✓
+84    GTQVVLLPAGVPR            0.6096      Database    -16.6566    1305.7769   ✓       ✓
+85    GTQVVLLPAGVPR            0.6096      Database    -16.7643    1305.7769   ✓       ✓
+86    GTQVVLLPAGVPR            0.6096      Database    -16.7922    1305.7769   ✓       ✓
+87    GTQVVLLPAGVPR            0.6096      Database    -16.8050    1305.7769   ✓       ✓
+88    GTQVVLLPAGVPR            0.6096      Database    -16.8274    1305.7769   ✓       ✓
+89    GTQVVLLPAGVPR            0.6096      Database    -16.8721    1305.7769   ✓       ✓
+90    GTQVVLLPAGVPR            0.6096      Database    -17.0134    1305.7769   ✓       ✓
+91    GTQVVLLPAGVPR            0.6096      Database    -17.1772    1305.7769   ✓       ✓
+92    GTQVVLLPAGVPR            0.6096      Database    -17.2116    1305.7769   ✓       ✓
+93    GTQVVLLPAGVPR            0.6096      Database    -17.2437    1305.7769   ✓       ✓
+94    GTQVVLLPNLPR             0.5078      Prosit      -7.8058     1305.7769   ✓       
+95    GTQVVLLPNLPR             0.5078      Prosit      -11.8845    1305.7769   ✓       
+96    GTQVVLLPNLPR             0.5078      Prosit      -12.4085    1305.7769   ✓       
+97    GTQVVLLPNLPR             0.5078      Prosit      -15.1627    1305.7769   ✓       
+98    GTQVVLLPLNPR             0.4500      Prosit      -12.1764    1305.7769   ✓       
+99    ATQVVLLPNVPR             0.4399      Prosit      -12.9110    1305.7769   ✓       
+100   ATQVVLLPNVPR             0.4399      Prosit      -16.9897    1305.7769   ✓       
+101   ATQVVLLPNVPR             0.4399      Prosit      -17.5136    1305.7769   ✓       
+102   GTQVVLLPQVPR             0.4278      Prosit      -4.9782     1305.7769   ✓       
+103   GTQVVLLPQVPR             0.4278      Prosit      -9.0569     1305.7769   ✓       
+104   GTQVVLLPQVPR             0.4278      Prosit      -9.5809     1305.7769   ✓       
+105   GTQVVLLPQVPR             0.4278      Prosit      -12.3351    1305.7769   ✓       
+106   GTQVVLLPQVPR             0.4278      Prosit      -16.4138    1305.7769   ✓       
+107   GTQVVLLPQVPR             0.4278      Prosit      -16.9378    1305.7769   ✓       
+108   QTQVVLLPGVPR             0.4248      Prosit      -17.1600    1305.7769   ✓       
+109   ASQVVLLPAGVPR            0.4223      Prosit      -15.9786    1305.7769   ✓       
+110   ASQVVLLPAGVPR            0.4223      Prosit      -17.4124    1305.7769   ✓       
+111   ATQVVLLPGGVPR            0.4192      Prosit      -11.2556    1305.7769   ✓       
+112   ATQVVLLPGGVPR            0.4192      Prosit      -12.6893    1305.7769   ✓       
+113   ATQVVLLPGGVPR            0.4192      Prosit      -14.6499    1305.7769   ✓       
+114   ATQVVLLPGGVPR            0.4192      Prosit      -15.3343    1305.7769   ✓       
+115   ATQVVLLPGGVPR            0.4192      Prosit      -16.2992    1305.7769   ✓       
+116   ATQVVLLPGGVPR            0.4192      Prosit      -16.7680    1305.7769   ✓       
+117   ATQVVLLPGGVPR            0.4192      Prosit      -17.1547    1305.7769   ✓       
+118   ATQVVLLPGGVPR            0.4192      Prosit      -17.1843    1305.7769   ✓       
+119   ATQVVLLPGGVPR            0.4192      Prosit      -17.7329    1305.7769   ✓       
+120   GTKVVLLPAGVPR            0.4172      Prosit      -13.6927    1305.8132   ✓       
+121   GTQVVLLPGAVPR            0.4171      Prosit      -4.4716     1305.7769   ✓       
+122   GTQVVLLPGAVPR            0.4171      Prosit      -6.5932     1305.7769   ✓       
+123   GTQVVLLPGAVPR            0.4171      Prosit      -7.7147     1305.7769   ✓       
+124   GTQVVLLPGAVPR            0.4171      Prosit      -8.5503     1305.7769   ✓       
+125   GTQVVLLPGAVPR            0.4171      Prosit      -8.7487     1305.7769   ✓       
+126   GTQVVLLPGAVPR            0.4171      Prosit      -8.8153     1305.7769   ✓       
+127   GTQVVLLPGAVPR            0.4171      Prosit      -10.2880    1305.7769   ✓       
+128   GTQVVLLPGAVPR            0.4171      Prosit      -10.6719    1305.7769   ✓       
+129   GTQVVLLPGAVPR            0.4171      Prosit      -11.5250    1305.7769   ✓       
+130   GTQVVLLPGAVPR            0.4171      Prosit      -11.6658    1305.7769   ✓       
+131   GTQVVLLPGAVPR            0.4171      Prosit      -11.7934    1305.7769   ✓       
+132   GTQVVLLPGAVPR            0.4171      Prosit      -11.8285    1305.7769   ✓       
+133   GTQVVLLPGAVPR            0.4171      Prosit      -12.2529    1305.7769   ✓       
+134   GTQVVLLPGAVPR            0.4171      Prosit      -12.3174    1305.7769   ✓       
+135   GTQVVLLPGAVPR            0.4171      Prosit      -12.4096    1305.7769   ✓       
+136   GTQVVLLPGAVPR            0.4171      Prosit      -13.9501    1305.7769   ✓       
+137   GTQVVLLPGAVPR            0.4171      Prosit      -15.0716    1305.7769   ✓       
+138   GTQVVLLPGAVPR            0.4171      Prosit      -15.9072    1305.7769   ✓       
+139   GTQVVLLPGAVPR            0.4171      Prosit      -16.1056    1305.7769   ✓       
+140   GTQVVLLPGAVPR            0.4171      Prosit      -16.1722    1305.7769   ✓       
+141   GSQVVLLPQLPR             0.4113      Prosit      -14.4539    1305.7769   ✓       
+142   GSQVVLLPAAVPR            0.4087      Prosit      -9.1947     1305.7769   ✓       
+143   GSQVVLLPAAVPR            0.4087      Prosit      -13.2734    1305.7769   ✓       
+144   GSQVVLLPAAVPR            0.4087      Prosit      -15.0111    1305.7769   ✓       
+145   GSQVVLLPAAVPR            0.4087      Prosit      -16.5516    1305.7769   ✓       
+146   GSQVVLLPAAVPR            0.4087      Prosit      -17.2321    1305.7769   ✓       
+147   AGTQVVLLPGVPR            0.4079      Prosit      -17.5118    1305.7769   ✓       
+148   GTQVVLLPGGLPR            0.4076      Prosit      -6.1504     1305.7769   ✓       
+149   GTQVVLLPGGLPR            0.4076      Prosit      -7.5841     1305.7769   ✓       
+150   GTQVVLLPGGLPR            0.4076      Prosit      -9.5448     1305.7769   ✓       
+151   GTQVVLLPGGLPR            0.4076      Prosit      -10.2291    1305.7769   ✓       
+152   GTQVVLLPGGLPR            0.4076      Prosit      -11.1940    1305.7769   ✓       
+153   GTQVVLLPGGLPR            0.4076      Prosit      -11.4595    1305.7769   ✓       
+154   GTQVVLLPGGLPR            0.4076      Prosit      -11.6628    1305.7769   ✓       
+155   GTQVVLLPGGLPR            0.4076      Prosit      -12.0496    1305.7769   ✓       
+156   GTQVVLLPGGLPR            0.4076      Prosit      -12.0791    1305.7769   ✓       
+157   GTQVVLLPGGLPR            0.4076      Prosit      -13.5073    1305.7769   ✓       
+158   GTQVVLLPGGLPR            0.4076      Prosit      -14.9410    1305.7769   ✓       
+159   GTQVVLLPGGLPR            0.4076      Prosit      -16.9016    1305.7769   ✓       
+160   NTQVVLLPAVPR             0.4024      Prosit      -16.7741    1305.7769   ✓       
+161   NTQVVLLPAVPR             0.4024      Prosit      -17.3612    1305.7769   ✓       
+162   GTNVVLLPAAVPR            0.4007      Prosit      -12.8303    1305.7769   ✓       
+163   +43.006TQVVLLPAAVPR      0.4000      Prosit      -7.9328     1305.7769   ✓       
+164   +43.006TQVVLLPAAVPR      0.4000      Prosit      -12.0115    1305.7769   ✓       
+165   +43.006TQVVLLPAAVPR      0.4000      Prosit      -13.7492    1305.7769   ✓       
+166   +43.006TQVVLLPAAVPR      0.4000      Prosit      -15.9702    1305.7769   ✓       
+167   +43.006TQVVLLPAAVPR      0.4000      Prosit      -16.5929    1305.7769   ✓       
+168   +43.006TQVVLLPAAVPR      0.4000      Prosit      -17.0293    1305.7769   ✓       
+169   +43.006TQVVLLPAAVPR      0.4000      Prosit      -17.8279    1305.7769   ✓       
+170   +43.006TQLVLLPAGVPR      0.3991      Prosit      -17.4309    1305.7769   ✓       
+171   GTNVVLLPAGLPR            0.3927      Prosit      -14.5091    1305.7769   ✓       
+172   TQVVLLPQGVPR             0.3869      Prosit      -17.8059    1305.7769   ✓       
+173   GSQVVLLPAGLPR            0.3862      Prosit      -10.8735    1305.7769   ✓       
+174   GSQVVLLPAGLPR            0.3862      Prosit      -12.3072    1305.7769   ✓       
+175   GSQVVLLPAGLPR            0.3862      Prosit      -12.9951    1305.7769   ✓       
+176   GSQVVLLPAGLPR            0.3862      Prosit      -14.2804    1305.7769   ✓       
+177   GSQVVLLPAGLPR            0.3862      Prosit      -14.4288    1305.7769   ✓       
+178   GSQVVLLPAGLPR            0.3862      Prosit      -14.5295    1305.7769   ✓       
+179   GSQVVLLPAGLPR            0.3862      Prosit      -14.8675    1305.7769   ✓       
+180   GSQVVLLPAGLPR            0.3862      Prosit      -14.9522    1305.7769   ✓       
+181   GSQVVLLPAGLPR            0.3862      Prosit      -15.2172    1305.7769   ✓       
+182   GSQVVLLPAGLPR            0.3862      Prosit      -15.9633    1305.7769   ✓       
+183   GSQVVLLPAGLPR            0.3862      Prosit      -16.1826    1305.7769   ✓       
+184   GSQVVLLPAGLPR            0.3862      Prosit      -16.3859    1305.7769   ✓       
+185   GSQVVLLPAGLPR            0.3862      Prosit      -16.4020    1305.7769   ✓       
+186   GSQVVLLPAGLPR            0.3862      Prosit      -16.6509    1305.7769   ✓       
+187   GSQVVLLPAGLPR            0.3862      Prosit      -16.8022    1305.7769   ✓       
+188   GSQVVLLPAGLPR            0.3862      Prosit      -17.0737    1305.7769   ✓       
+189   +43.006TQVVLLPAGLPR      0.3830      Prosit      -9.6116     1305.7769   ✓       
+190   +43.006TQVVLLPAGLPR      0.3830      Prosit      -11.0453    1305.7769   ✓       
+191   +43.006TQVVLLPAGLPR      0.3830      Prosit      -11.7331    1305.7769   ✓       
+192   +43.006TQVVLLPAGLPR      0.3830      Prosit      -13.0185    1305.7769   ✓       
+193   +43.006TQVVLLPAGLPR      0.3830      Prosit      -13.1669    1305.7769   ✓       
+194   +43.006TQVVLLPAGLPR      0.3830      Prosit      -13.2676    1305.7769   ✓       
+195   +43.006TQVVLLPAGLPR      0.3830      Prosit      -13.6056    1305.7769   ✓       
+196   +43.006TQVVLLPAGLPR      0.3830      Prosit      -13.6903    1305.7769   ✓       
+197   +43.006TQVVLLPAGLPR      0.3830      Prosit      -13.9553    1305.7769   ✓       
+198   +43.006TQVVLLPAGLPR      0.3830      Prosit      -14.7014    1305.7769   ✓       
+199   +43.006TQVVLLPAGLPR      0.3830      Prosit      -14.9207    1305.7769   ✓       
+200   +43.006TQVVLLPAGLPR      0.3830      Prosit      -15.1240    1305.7769   ✓       
+201   +43.006TQVVLLPAGLPR      0.3830      Prosit      -15.1401    1305.7769   ✓       
+202   +43.006TQVVLLPAGLPR      0.3830      Prosit      -15.3890    1305.7769   ✓       
+203   +43.006TQVVLLPAGLPR      0.3830      Prosit      -15.5403    1305.7769   ✓       
+204   +43.006TQVVLLPAGLPR      0.3830      Prosit      -15.8118    1305.7769   ✓       
+205   +43.006TQVVLLPAGLPR      0.3830      Prosit      -16.0797    1305.7769   ✓       
+206   +43.006TQVVLLPAGLPR      0.3830      Prosit      -16.3544    1305.7769   ✓       
+207   +43.006TQVVLLPAGLPR      0.3830      Prosit      -16.6668    1305.7769   ✓       
+208   +43.006TQVVLLPAGLPR      0.3830      Prosit      -17.0423    1305.7769   ✓       
+209   +43.006TQVVLLPAGLPR      0.3830      Prosit      -17.0972    1305.7769   ✓       
+210   +43.006TQVVLLPAGLPR      0.3830      Prosit      -17.2456    1305.7769   ✓       
+211   +43.006TQVVLLPAGLPR      0.3830      Prosit      -17.3463    1305.7769   ✓       
+212   +43.006TQVVLLPAGLPR      0.3830      Prosit      -17.5134    1305.7769   ✓       
+213   +43.006TQVVLLPAGLPR      0.3830      Prosit      -17.6211    1305.7769   ✓       
+214   +43.006TQVVLLPAGLPR      0.3830      Prosit      -17.6490    1305.7769   ✓       
+215   +43.006TQVVLLPAGLPR      0.3830      Prosit      -17.6618    1305.7769   ✓       
+216   +43.006TQVVLLPAGLPR      0.3830      Prosit      -17.6843    1305.7769   ✓       
+217   +43.006TQVVLLPAGLPR      0.3830      Prosit      -17.7289    1305.7769   ✓       
+218   +43.006TQVVLLPAGLPR      0.3830      Prosit      -17.8703    1305.7769   ✓       
+219   +43.006TQVVLLPQLPR       0.3819      Prosit      -13.1920    1305.7769   ✓       
+220   +43.006TQVVLLPQLPR       0.3819      Prosit      -17.2706    1305.7769   ✓       
+221   +43.006TQVVLLPQLPR       0.3819      Prosit      -17.7946    1305.7769   ✓       
+222   TQVVLLPGAGVPR            0.3783      Prosit      -17.2993    1305.7769   ✓       
+223   TQVVLLPGAGVPR            0.3783      Prosit      -17.5485    1305.7769   ✓       
+224   TQVVLLPAGGVPR            0.3760      Prosit      -17.2868    1305.7769   ✓       
+225   ATQVVLLPAAAPR            0.3756      Prosit      -14.7711    1305.7769   ✓       
+226   TQVVLLPANVPR             0.3737      Prosit      -15.5479    1305.7769   ✓       
+227   TQVVLLPANVPR             0.3737      Prosit      -17.6694    1305.7769   ✓       
+228   +42.011TQVVLLPAGNPR      0.3667      Prosit      -17.2739    1305.7405   ✓       
+229   +43.006TQVVLLPGALPR      0.3429      Prosit      -12.6853    1305.7769   ✓       
+230   +43.006TQVVLLPGALPR      0.3429      Prosit      -14.8069    1305.7769   ✓       
+231   +43.006TQVVLLPGALPR      0.3429      Prosit      -15.9285    1305.7769   ✓       
+232   +43.006TQVVLLPGALPR      0.3429      Prosit      -16.7640    1305.7769   ✓       
+233   +43.006TQVVLLPGALPR      0.3429      Prosit      -16.9624    1305.7769   ✓       
+234   +43.006TQVVLLPGALPR      0.3429      Prosit      -17.0291    1305.7769   ✓       
+235   +43.006SQVVLLPAALPR      0.3340      Prosit      -17.4084    1305.7769   ✓       
+236   GTQVVLLPGVPR             -1.0000     NotChecked  -2.9323     1234.7397   ✗       
+237   GTQVVLLPAVPR             -1.0000     NotChecked  -3.3710     1248.7554   ✗       
+238   GTQVVLLPAVPR             -1.0000     NotChecked  -3.9581     1248.7554   ✗       
+239   GTQVVLLPGGVPR            -1.0000     NotChecked  -4.0329     1291.7612   ✗       
+240   GTQVVLLPGVPR             -1.0000     NotChecked  -4.3661     1234.7397   ✗       
+241   GTQVVLLPGLPR             -1.0000     NotChecked  -5.0498     1248.7554   ✗       
+242   GTQVVLLPGGVPR            -1.0000     NotChecked  -5.4667     1291.7612   ✗       
+243   GTQVVLLPALPR             -1.0000     NotChecked  -5.4885     1262.7710   ✗       
+244   GTQVVLLPAVPR             -1.0000     NotChecked  -5.4926     1248.7554   ✗       
+245   GTQVVLLPNVPR             -1.0000     NotChecked  -5.6884     1291.7612   ✗       
+246   GTQVVLLPALPR             -1.0000     NotChecked  -6.0756     1262.7710   ✗       
+247   GTQVVLLPGLPR             -1.0000     NotChecked  -6.4835     1248.7554   ✗       
+248   GTQVVLLPLVPR             -1.0000     NotChecked  -6.6869     1290.8023   ✗       
+249   GTQVVLLPGVPR             -1.0000     NotChecked  -7.0110     1234.7397   ✗       
+250   GTQVVLLPAGAPR            -1.0000     NotChecked  -7.1098     1277.7456   ✗       
+251   GTQVVLLPGVPR             -1.0000     NotChecked  -7.2761     1234.7397   ✗       
+252   GTQVVLLPGVLR             -1.0000     NotChecked  -7.3634     1250.7710   ✗       
+253   GTQVVLLPGGVPR            -1.0000     NotChecked  -7.4273     1291.7612   ✗       
+254   GTQVVLLPAVPR             -1.0000     NotChecked  -7.4497     1248.7554   ✗       
+255   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -7.4941     1291.7612   ✗       
+256   GTQVVLLPGVPR             -1.0000     NotChecked  -7.5350     1234.7397   ✗       
+257   GTQVVLLPAAAPR            -1.0000     NotChecked  -7.5484     1291.7612   ✗       
+258   GTQVVLLPALPR             -1.0000     NotChecked  -7.6101     1262.7710   ✗       
+259   GTQVVLLPAVLR             -1.0000     NotChecked  -7.8021     1264.7867   ✗       
+260   GTQVVLLPVVPR             -1.0000     NotChecked  -7.9714     1276.7867   ✗       
+261   GTQVVLLPAVPR             -1.0000     NotChecked  -7.9737     1248.7554   ✗       
+262   GTQVVLLPAVPR             -1.0000     NotChecked  -8.0368     1248.7554   ✗       
+263   GTQVVLLPGGVPR            -1.0000     NotChecked  -8.1116     1291.7612   ✗       
+264   GTQVVLLPGVPR             -1.0000     NotChecked  -8.3767     1234.7397   ✗       
+265   GTQVVLLPAVLR             -1.0000     NotChecked  -8.3892     1264.7867   ✗       
+266   GTQVVLLPGNPR             -1.0000     NotChecked  -8.4219     1249.7143   ✗       
+267   GTQVVLLPGVPR             -1.0000     NotChecked  -8.4448     1234.7397   ✗       
+268   GTQVVLLPAGAPR            -1.0000     NotChecked  -8.5435     1277.7456   ✗       
+269   GTQVVLLPGAPR             -1.0000     NotChecked  -8.6442     1206.7084   ✗       
+270   GTQVVLLPGVPR             -1.0000     NotChecked  -8.7098     1234.7397   ✗       
+271   GSQVVLLPAGVPR            -1.0000     NotChecked  -8.7560     1291.7612   ✗       
+272   GTQVVLLPGVLR             -1.0000     NotChecked  -8.7972     1250.7710   ✗       
+273   GTQVVLLPLLPR             -1.0000     NotChecked  -8.8043     1304.8180   ✗       
+274   GTQVVLLPAGGPR            -1.0000     NotChecked  -8.8083     1263.7299   ✗       
+275   GTQVVLLPANPR             -1.0000     NotChecked  -8.8606     1263.7299   ✗       
+276   GTQVVLLPGVPR             -1.0000     NotChecked  -8.8610     1234.7397   ✗       
+277   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -8.9278     1291.7612   ✗       
+278   GTQVVLLPGVPR             -1.0000     NotChecked  -8.9687     1234.7397   ✗       
+279   +43.006TQVVLLPGVPR       -1.0000     NotChecked  -9.0286     1220.7241   ✗       
+280   GTQVVLLPGGVPR            -1.0000     NotChecked  -9.0765     1291.7612   ✗       
+281   GTQVVLLPAAPR             -1.0000     NotChecked  -9.0829     1220.7241   ✗       
+282   GTQVVLLPGLPR             -1.0000     NotChecked  -9.1285     1248.7554   ✗       
+283   GTQVVLLPAVPR             -1.0000     NotChecked  -9.1328     1248.7554   ✗       
+284   GTQVVLLPAVPR             -1.0000     NotChecked  -9.1874     1248.7554   ✗       
+285   GTQVVLLPAGAPR            -1.0000     NotChecked  -9.2313     1277.7456   ✗       
+286   GTQVVLLPAAGPR            -1.0000     NotChecked  -9.2470     1277.7456   ✗       
+287   GTQVVLLPGLPR             -1.0000     NotChecked  -9.3935     1248.7554   ✗       
+288   GTQVVLLPANPR             -1.0000     NotChecked  -9.4477     1263.7299   ✗       
+289   +43.006TQVVLLPAVPR       -1.0000     NotChecked  -9.4673     1234.7398   ✗       
+290   GTQVVLLPGLLR             -1.0000     NotChecked  -9.4809     1264.7867   ✗       
+291   GTQVVLLPGGVPR            -1.0000     NotChecked  -9.5454     1291.7612   ✗       
+292   GTQVVLLPALPR             -1.0000     NotChecked  -9.5672     1262.7710   ✗       
+293   GTQVVLLPAVPR             -1.0000     NotChecked  -9.5713     1248.7554   ✗       
+294   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -9.6157     1291.7612   ✗       
+295   GTQVVLLPGLPR             -1.0000     NotChecked  -9.6524     1248.7554   ✗       
+296   GTQVVLLPAAPR             -1.0000     NotChecked  -9.6700     1220.7241   ✗       
+297   GTQVVLLPGGAPR            -1.0000     NotChecked  -9.7448     1263.7299   ✗       
+298   GTQVVLLPNVPR             -1.0000     NotChecked  -9.7671     1291.7612   ✗       
+299   GTQVVLLPAVPR             -1.0000     NotChecked  -9.7745     1248.7554   ✗       
+300   GTQVVLLPGVPR             -1.0000     NotChecked  -9.8104     1234.7397   ✗       
+301   GTQVVLLPGNPR             -1.0000     NotChecked  -9.8556     1249.7143   ✗       
+302   GTQVVLLPALLR             -1.0000     NotChecked  -9.9196     1278.8023   ✗       
+303   GTQVVLLPAVLR             -1.0000     NotChecked  -9.9237     1264.7867   ✗       
+304   GTQVVLLPGGVPR            -1.0000     NotChecked  -9.9321     1291.7612   ✗       
+305   GTQVVLLPGGVPR            -1.0000     NotChecked  -9.9616     1291.7612   ✗       
+306   +43.006TQVVLLPAVPR       -1.0000     NotChecked  -10.0544    1234.7398   ✗       
+307   GTQVVLLPGAPR             -1.0000     NotChecked  -10.0780    1206.7084   ✗       
+308   GTQVVLLPVLPR             -1.0000     NotChecked  -10.0889    1290.8023   ✗       
+309   GTQVVLLPALPR             -1.0000     NotChecked  -10.0911    1262.7710   ✗       
+310   GTQVVLLPAVPR             -1.0000     NotChecked  -10.0952    1248.7554   ✗       
+311   +43.006TQVVLLPGGVPR      -1.0000     NotChecked  -10.1292    1277.7456   ✗       
+312   GTQVVLLPALPR             -1.0000     NotChecked  -10.1543    1262.7710   ✗       
+313   ATQVVLLPGVPR             -1.0000     NotChecked  -10.1550    1248.7554   ✗       
+314   GTQVVLLPGAAPR            -1.0000     NotChecked  -10.1835    1277.7456   ✗       
+315   GSQVVLLPAGVPR            -1.0000     NotChecked  -10.1898    1291.7612   ✗       
+316   GTQVVLLPAGGPR            -1.0000     NotChecked  -10.2420    1263.7299   ✗       
+317   GTQVVLLPGVPR             -1.0000     NotChecked  -10.2892    1234.7397   ✗       
+318   GSQVVLLPGVPR             -1.0000     NotChecked  -10.2905    1220.7241   ✗       
+319   GTQVVLLPNVPR             -1.0000     NotChecked  -10.2910    1291.7612   ✗       
+320   GTQVVLLPGGPR             -1.0000     NotChecked  -10.3428    1192.6928   ✗       
+321   GTQVVLLPGLPR             -1.0000     NotChecked  -10.3589    1248.7554   ✗       
+322   +43.006TQVVLLPGVPR       -1.0000     NotChecked  -10.4623    1220.7241   ✗       
+323   GTQVVLLPGLPR             -1.0000     NotChecked  -10.4941    1248.7554   ✗       
+324   GTQVVLLPALLR             -1.0000     NotChecked  -10.5067    1278.8023   ✗       
+325   GTQVVLLPGGVPR            -1.0000     NotChecked  -10.5103    1291.7612   ✗       
+326   GTQVVLLPAGAPR            -1.0000     NotChecked  -10.5167    1277.7456   ✗       
+327   GTQVVLLPGLPR             -1.0000     NotChecked  -10.5622    1248.7554   ✗       
+328   +43.006TQVVLLPGAVPR      -1.0000     NotChecked  -10.5679    1291.7612   ✗       
+329   ATQVVLLPAVPR             -1.0000     NotChecked  -10.5937    1262.7711   ✗       
+330   GTQVVLLPAGAPR            -1.0000     NotChecked  -10.6651    1277.7456   ✗       
+331   GTQVVLLPVPR              -1.0000     NotChecked  -10.6673    1177.7183   ✗       
+332   GTQVVLLPQAPR             -1.0000     NotChecked  -10.6901    1277.7456   ✗       
+333   GTQVVLLPAVPR             -1.0000     NotChecked  -10.7279    1248.7554   ✗       
+334   GSQVVLLPAVPR             -1.0000     NotChecked  -10.7292    1234.7398   ✗       
+335   GTQVVLLGPGVPR            -1.0000     NotChecked  -10.7481    1291.7612   ✗       
+336   GTQVVLLPLVPR             -1.0000     NotChecked  -10.7656    1290.8023   ✗       
+337   GTQVVLLPAGAPR            -1.0000     NotChecked  -10.7658    1277.7456   ✗       
+338   GTQVVLLPAGPR             -1.0000     NotChecked  -10.7815    1206.7084   ✗       
+339   GTQVVLLPALPR             -1.0000     NotChecked  -10.7976    1262.7710   ✗       
+340   GTQVVLLPGLPR             -1.0000     NotChecked  -10.8273    1248.7554   ✗       
+341   GSQVVLLPAGVPR            -1.0000     NotChecked  -10.8776    1291.7612   ✗       
+342   GTQVVLLPGGVPR            -1.0000     NotChecked  -10.8973    1291.7612   ✗       
+343   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -10.9010    1291.7612   ✗       
+344   GTQVVLLPGLLR             -1.0000     NotChecked  -10.9146    1264.7867   ✗       
+345   GTQVVLLPAGGPR            -1.0000     NotChecked  -10.9299    1263.7299   ✗       
+346   GTQVVLLPGVPR             -1.0000     NotChecked  -10.9698    1234.7397   ✗       
+347   GTQVVLLPGLPR             -1.0000     NotChecked  -10.9785    1248.7554   ✗       
+348   GTQVVLLPANPR             -1.0000     NotChecked  -10.9822    1263.7299   ✗       
+349   GTQVVLLPGGVPR            -1.0000     NotChecked  -11.0466    1291.7612   ✗       
+350   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -11.0494    1291.7612   ✗       
+351   +43.006TQVVLLPQVPR       -1.0000     NotChecked  -11.0745    1291.7612   ✗       
+352   GTQVVLLPGLPR             -1.0000     NotChecked  -11.0862    1248.7554   ✗       
+353   GTQVVLLPAGAPR            -1.0000     NotChecked  -11.1038    1277.7456   ✗       
+354   +43.006TQVVLLPGLPR       -1.0000     NotChecked  -11.1460    1234.7397   ✗       
+355   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -11.1502    1291.7612   ✗       
+356   GTQVVLLPGGAPR            -1.0000     NotChecked  -11.1786    1263.7299   ✗       
+357   ATQVVLLPAVPR             -1.0000     NotChecked  -11.1808    1262.7711   ✗       
+358   GTQVVLLGPAVPR            -1.0000     Failed      -11.1868    1305.7769   ✓       
+359   GTQVVLLPAGAPR            -1.0000     NotChecked  -11.1884    1277.7456   ✗       
+360   GTQVVLLPAAPR             -1.0000     NotChecked  -11.2045    1220.7241   ✗       
+361   GTQVVLLPGGVPR            -1.0000     NotChecked  -11.2271    1291.7612   ✗       
+362   GTQVVLLGPGVPR            -1.0000     NotChecked  -11.2348    1291.7612   ✗       
+363   GTQVVLLPALPR             -1.0000     NotChecked  -11.2502    1262.7710   ✗       
+364   GTQVVLLPAVPR             -1.0000     NotChecked  -11.2544    1248.7554   ✗       
+365   GTQVVLLPLVPR             -1.0000     NotChecked  -11.2895    1290.8023   ✗       
+366   GTQVVLLPALPR             -1.0000     NotChecked  -11.3049    1262.7710   ✗       
+367   GTQVVLLPAVPR             -1.0000     NotChecked  -11.3090    1248.7554   ✗       
+368   GTQVVLLPGGVPR            -1.0000     NotChecked  -11.3094    1291.7612   ✗       
+369   GTQVVLLPAVPR             -1.0000     NotChecked  -11.3150    1248.7554   ✗       
+370   GSQVVLLPAVPR             -1.0000     NotChecked  -11.3163    1234.7398   ✗       
+371   GTQVVLLPGVPR             -1.0000     NotChecked  -11.3548    1234.7397   ✗       
+372   GTQVVLLPGGVPR            -1.0000     NotChecked  -11.3659    1291.7612   ✗       
+373   GTQVVLLPAGPR             -1.0000     NotChecked  -11.3686    1206.7084   ✗       
+374   GTQVVLLPALPR             -1.0000     NotChecked  -11.3847    1262.7710   ✗       
+375   GTQVVLLPGGVPR            -1.0000     NotChecked  -11.3898    1291.7612   ✗       
+376   GSQVVLLPGGVPR            -1.0000     NotChecked  -11.3911    1277.7456   ✗       
+377   GTQVVLLPNAPR             -1.0000     NotChecked  -11.4003    1263.7299   ✗       
+378   GTQVVLLPAVPR             -1.0000     NotChecked  -11.4085    1248.7554   ✗       
+379   GTQVVLLPGVLR             -1.0000     NotChecked  -11.4421    1250.7710   ✗       
+380   GTQVVLLPGGGPR            -1.0000     NotChecked  -11.4434    1249.7143   ✗       
+381   GTQVVLLPAGAPR            -1.0000     NotChecked  -11.4535    1277.7456   ✗       
+382   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -11.4881    1291.7612   ✗       
+383   GTQVVLLPGGVPR            -1.0000     NotChecked  -11.5060    1291.7612   ✗       
+384   GTQVVLLPAGALR            -1.0000     NotChecked  -11.5408    1293.7769   ✗       
+385   +43.006TQVVLLPGGVPR      -1.0000     NotChecked  -11.5629    1277.7456   ✗       
+386   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -11.5728    1291.7612   ✗       
+387   +43.006TQVVLLPALPR       -1.0000     NotChecked  -11.5847    1248.7554   ✗       
+388   ATQVVLLPGVPR             -1.0000     NotChecked  -11.5887    1248.7554   ✗       
+389   +43.006TQVVLLPAVPR       -1.0000     NotChecked  -11.5889    1234.7398   ✗       
+390   GTQVVLLPGVPR             -1.0000     NotChecked  -11.5925    1234.7397   ✗       
+391   GTQVVLLPGVPR             -1.0000     NotChecked  -11.6137    1234.7397   ✗       
+392   GTQVVLLPPVPR             -1.0000     NotChecked  -11.6138    1274.7710   ✗       
+393   GTQVVLLPAAAPR            -1.0000     NotChecked  -11.6271    1291.7612   ✗       
+394   GTQVVLLGPAVPR            -1.0000     Failed      -11.6735    1305.7769   ✓       
+395   GTQVVLLPALPR             -1.0000     NotChecked  -11.6888    1262.7710   ✗       
+396   GTQVVLLPGVLR             -1.0000     NotChecked  -11.7071    1250.7710   ✗       
+397   GTQVVLLPGVPR             -1.0000     NotChecked  -11.7230    1234.7397   ✗       
+398   GSQVVLLPGVPR             -1.0000     NotChecked  -11.7242    1220.7241   ✗       
+399   GTQVVLLPGVPR             -1.0000     NotChecked  -11.7679    1234.7397   ✗       
+400   GTQVVLLPGGVPR            -1.0000     NotChecked  -11.7710    1291.7612   ✗       
+401   GTQVVLLGPAVPR            -1.0000     Failed      -11.7739    1305.7769   ✓       
+402   GTQVVLLPGGPR             -1.0000     NotChecked  -11.7765    1192.6928   ✗       
+403   +42.011TQVVLLPAGVPR      -1.0000     NotChecked  -11.7844    1290.7660   ✗       
+404   +43.006TQVVLLPNVPR       -1.0000     NotChecked  -11.7846    1277.7456   ✗       
+405   GTQVVLLPGLPR             -1.0000     NotChecked  -11.7927    1248.7554   ✗       
+406   GSQVVLLPGAVPR            -1.0000     NotChecked  -11.8298    1291.7612   ✗       
+407   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -11.8378    1291.7612   ✗       
+408   GTQVVLLPGVPR             -1.0000     NotChecked  -11.8787    1234.7397   ✗       
+409   GTQVVLLPAVLR             -1.0000     NotChecked  -11.8808    1264.7867   ✗       
+410   GTQVVLLPGAGPR            -1.0000     NotChecked  -11.8821    1263.7299   ✗       
+411   GTQVVLLPALPR             -1.0000     NotChecked  -11.8920    1262.7710   ✗       
+412   GTQVVLLPGLPR             -1.0000     NotChecked  -11.9279    1248.7554   ✗       
+413   GTQVVLLPGVLR             -1.0000     NotChecked  -11.9660    1250.7710   ✗       
+414   GTQVVLLPAVPR             -1.0000     NotChecked  -11.9956    1248.7554   ✗       
+415   GTQVVLLPGGVPR            -1.0000     NotChecked  -12.0299    1291.7612   ✗       
+416   GTQVVLLPAVPR             -1.0000     NotChecked  -12.0311    1248.7554   ✗       
+417   GTQVVLLPALLR             -1.0000     NotChecked  -12.0411    1278.8023   ✗       
+418   GTQVVLLPVVPR             -1.0000     NotChecked  -12.0501    1276.7867   ✗       
+419   GTQVVLLPAVPR             -1.0000     NotChecked  -12.0523    1248.7554   ✗       
+420   GTQVVLLPGQPR             -1.0000     NotChecked  -12.0524    1263.7299   ✗       
+421   GTQVVLLPAGPPR            -1.0000     NotChecked  -12.0613    1303.7612   ✗       
+422   GTQVVLLPGGVPR            -1.0000     NotChecked  -12.0704    1291.7612   ✗       
+423   GTQVVLLPGVPR             -1.0000     NotChecked  -12.1010    1234.7397   ✗       
+424   GSQVVLLPAGVPR            -1.0000     NotChecked  -12.1629    1291.7612   ✗       
+425   +43.006TQVVLLPALPR       -1.0000     NotChecked  -12.1718    1248.7554   ✗       
+426   GTQVVLLGPGVPR            -1.0000     NotChecked  -12.1819    1291.7612   ✗       
+427   GTQVVLLPAGAPR            -1.0000     NotChecked  -12.1996    1277.7456   ✗       
+428   GTQVVLLPALPR             -1.0000     NotChecked  -12.2127    1262.7710   ✗       
+429   GTQVVLLPAGGPR            -1.0000     NotChecked  -12.2152    1263.7299   ✗       
+430   +42.011TQVVLLPAAVPR      -1.0000     NotChecked  -12.2230    1304.7816   ✗       
+431   +43.006TQVVLLPGGLPR      -1.0000     NotChecked  -12.2466    1291.7612   ✗       
+432   GTQVVLLGPAVPR            -1.0000     Failed      -12.2606    1305.7769   ✓       
+433   ATQVVLLPGLPR             -1.0000     NotChecked  -12.2724    1262.7710   ✗       
+434   GTQVVLLPGAAPR            -1.0000     NotChecked  -12.3051    1277.7456   ✗       
+435   GSQVVLLPAGVPR            -1.0000     NotChecked  -12.3113    1291.7612   ✗       
+436   GTQVVLLPGGVPR            -1.0000     NotChecked  -12.3277    1291.7612   ✗       
+437   GTQVVLLPGGVPR            -1.0000     NotChecked  -12.3310    1291.7612   ✗       
+438   GSQVVLLPQVPR             -1.0000     NotChecked  -12.3364    1291.7612   ✗       
+439   GTQVVLLPAGGPR            -1.0000     NotChecked  -12.3636    1263.7299   ✗       
+440   GTQVVLLPQGPR             -1.0000     NotChecked  -12.3887    1263.7299   ✗       
+441   GTNVVLLPAGVPR            -1.0000     NotChecked  -12.3916    1291.7612   ✗       
+442   GTQVVLLPLAPR             -1.0000     NotChecked  -12.3988    1262.7710   ✗       
+443   GTQVVLLPVVLR             -1.0000     NotChecked  -12.4025    1292.8180   ✗       
+444   GTQVVLLPGVPR             -1.0000     NotChecked  -12.4035    1234.7397   ✗       
+445   GTQVVLLPAVLR             -1.0000     NotChecked  -12.4047    1264.7867   ✗       
+446   GTQVVLLPGLPR             -1.0000     NotChecked  -12.4067    1248.7554   ✗       
+447   GSQVVLLPGLPR             -1.0000     NotChecked  -12.4080    1234.7398   ✗       
+448   GSQVVLLPAGVPR            -1.0000     NotChecked  -12.4121    1291.7612   ✗       
+449   GTQVVLLPGVPR             -1.0000     NotChecked  -12.4554    1234.7397   ✗       
+450   GTQVVLLPAGGPR            -1.0000     NotChecked  -12.4644    1263.7299   ✗       
+451   GTQVVLLPAVLR             -1.0000     NotChecked  -12.4679    1264.7867   ✗       
+452   +43.006TQVVLLPGLPR       -1.0000     NotChecked  -12.5798    1234.7397   ✗       
+453   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -12.5839    1291.7612   ✗       
+454   GTQ+0.984VVLLPGVPR       -1.0000     NotChecked  -12.6893    1235.7238   ✗       
+455   +43.006TQVVLLPGAVPR      -1.0000     NotChecked  -12.6895    1291.7612   ✗       
+456   ATQVVLLPALPR             -1.0000     NotChecked  -12.7111    1276.7867   ✗       
+457   ATQVVLLPAVPR             -1.0000     NotChecked  -12.7152    1262.7711   ✗       
+458   GSQVVLLPAGVPR            -1.0000     NotChecked  -12.7500    1291.7612   ✗       
+459   +43.006TQVVLLPLVPR       -1.0000     NotChecked  -12.7831    1276.7867   ✗       
+460   TQVVLLPAGVPR             -1.0000     NotChecked  -12.7918    1248.7554   ✗       
+461   GTQVVLLPGGVPR            -1.0000     NotChecked  -12.8236    1291.7612   ✗       
+462   GSQVVLLPGGVPR            -1.0000     NotChecked  -12.8248    1277.7456   ✗       
+463   GSQVVLLPAGVPR            -1.0000     NotChecked  -12.8347    1291.7612   ✗       
+464   GTQVVLLPALPR             -1.0000     NotChecked  -12.8454    1262.7710   ✗       
+465   GSQVVLLPALPR             -1.0000     NotChecked  -12.8466    1248.7554   ✗       
+466   GTQVVLLPAVPR             -1.0000     NotChecked  -12.8495    1248.7554   ✗       
+467   GSQVVLLPAVPR             -1.0000     NotChecked  -12.8508    1234.7398   ✗       
+468   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -13.0065    1291.7612   ✗       
+469   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -13.0226    1291.7612   ✗       
+470   GTQVVLLPNVPR             -1.0000     NotChecked  -13.0453    1291.7612   ✗       
+471   GSQVVLLPNVPR             -1.0000     NotChecked  -13.0465    1277.7456   ✗       
+472   GSQVVLLPAGVPR            -1.0000     NotChecked  -13.0997    1291.7612   ✗       
+473   +43.006TQVVLLPGVPR       -1.0000     NotChecked  -13.1073    1220.7241   ✗       
+474   GTQ+0.984VVLLPAVPR       -1.0000     NotChecked  -13.1280    1249.7394   ✗       
+475   +43.006TQVVLLPAGAPR      -1.0000     NotChecked  -13.2060    1263.7299   ✗       
+476   +42.011TQVVLLPAGVPR      -1.0000     NotChecked  -13.2181    1290.7660   ✗       
+477   TQVVLLPAAVPR             -1.0000     NotChecked  -13.2305    1262.7710   ✗       
+478   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -13.2716    1291.7612   ✗       
+479   ATQVVLLPALPR             -1.0000     NotChecked  -13.2982    1276.7867   ✗       
+480   +42.011TQVVLLPGVPR       -1.0000     NotChecked  -13.3188    1219.7289   ✗       
+481   +43.006TQVVLLPGVPR       -1.0000     NotChecked  -13.3723    1220.7241   ✗       
+482   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -13.4228    1291.7612   ✗       
+483   GTQVVLLPALPR             -1.0000     NotChecked  -13.4325    1262.7710   ✗       
+484   GSQVVLLPALPR             -1.0000     NotChecked  -13.4337    1248.7554   ✗       
+485   +43.006TQVVLLPGVLR       -1.0000     NotChecked  -13.4597    1236.7554   ✗       
+486   GSQVVLLPGGLPR            -1.0000     NotChecked  -13.5085    1291.7612   ✗       
+487   +43.006TQVVLLPGGVPR      -1.0000     NotChecked  -13.5235    1277.7456   ✗       
+488   +43.006TQVVLLPAVPR       -1.0000     NotChecked  -13.5460    1234.7398   ✗       
+489   +43.006TQVVLLPGVPR       -1.0000     NotChecked  -13.6312    1220.7241   ✗       
+490   +43.006TQVVLLPAAAPR      -1.0000     NotChecked  -13.6447    1277.7456   ✗       
+491   +43.006TQVVLLPGGLPR      -1.0000     NotChecked  -13.6804    1291.7612   ✗       
+492   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -13.6944    1291.7612   ✗       
+493   ATQVVLLPGLPR             -1.0000     NotChecked  -13.7062    1262.7710   ✗       
+494   +43.006TQVVLLPALPR       -1.0000     NotChecked  -13.7063    1248.7554   ✗       
+495   GTQ+0.984VVLLPAVPR       -1.0000     NotChecked  -13.7151    1249.7394   ✗       
+496   GAQVVLLPAGVPR            -1.0000     NotChecked  -13.7187    1275.7663   ✗       
+497   +42.011TQVVLLPAVPR       -1.0000     NotChecked  -13.7575    1233.7445   ✗       
+498   GTQ+0.984VVLLPGGVPR      -1.0000     NotChecked  -13.7899    1292.7452   ✗       
+499   +43.006TQVVLLPGAVPR      -1.0000     NotChecked  -13.8110    1291.7612   ✗       
+500   GTNVVLLPAGVPR            -1.0000     NotChecked  -13.8253    1291.7612   ✗       
+501   GTQVVLLPGLPR             -1.0000     NotChecked  -13.8404    1248.7554   ✗       
+502   GSQVVLLPGLPR             -1.0000     NotChecked  -13.8417    1234.7398   ✗       
+503   GSQVVLLPAGVPR            -1.0000     NotChecked  -13.8458    1291.7612   ✗       
+504   +43.006TQVVLLPAVLR       -1.0000     NotChecked  -13.8984    1250.7711   ✗       
+505   +42.011TQVVLLPAGLPR      -1.0000     NotChecked  -13.9018    1304.7816   ✗       
+506   +43.006TQVVLLPNLPR       -1.0000     NotChecked  -13.9021    1291.7612   ✗       
+507   +42.011TQVVLLPAGVPR      -1.0000     NotChecked  -13.9059    1290.7660   ✗       
+508   ATQVVLLPLVPR             -1.0000     NotChecked  -13.9095    1304.8180   ✗       
+509   GTNVVLLPGVPR             -1.0000     NotChecked  -13.9261    1220.7241   ✗       
+510   GSQVVLLPGALPR            -1.0000     Failed      -13.9472    1305.7769   ✓       
+511   GSQVVLLPGAVPR            -1.0000     NotChecked  -13.9514    1291.7612   ✗       
+512   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -13.9622    1291.7612   ✗       
+513   GTQVVLLPLVPR             -1.0000     NotChecked  -14.0437    1290.8023   ✗       
+514   GSQVVLLPLVPR             -1.0000     NotChecked  -14.0450    1276.7867   ✗       
+515   +43.006TQVVLLPVVPR       -1.0000     NotChecked  -14.0677    1262.7711   ✗       
+516   +43.006TQVVLLPAVPR       -1.0000     NotChecked  -14.0699    1234.7398   ✗       
+517   GTQ+0.984VVLLPGVPR       -1.0000     NotChecked  -14.1230    1235.7238   ✗       
+518   +43.006TQVVLLPAVPR       -1.0000     NotChecked  -14.1331    1234.7398   ✗       
+519   GAQVVLLPAAVPR            -1.0000     NotChecked  -14.1573    1289.7820   ✗       
+520   +43.006TQVVLLPGGVPR      -1.0000     NotChecked  -14.2079    1277.7456   ✗       
+521   TQVVLLPAGVPR             -1.0000     NotChecked  -14.2256    1248.7554   ✗       
+522   ATQVVLLPGVPR             -1.0000     NotChecked  -14.2337    1248.7554   ✗       
+523   GSQVVLLPAGVPR            -1.0000     NotChecked  -14.2684    1291.7612   ✗       
+524   GSQVVLLPAGVPR            -1.0000     NotChecked  -14.2845    1291.7612   ✗       
+525   TQVVLLPGVPR              -1.0000     NotChecked  -14.3263    1177.7183   ✗       
+526   ATQVVLLPAGAPR            -1.0000     NotChecked  -14.3324    1291.7612   ✗       
+527   +42.011TQVVLLPAVPR       -1.0000     NotChecked  -14.3446    1233.7445   ✗       
+528   GTNVVLLPAVPR             -1.0000     NotChecked  -14.3648    1234.7397   ✗       
+529   GTQVVLLPGVPR             -1.0000     NotChecked  -14.3679    1234.7397   ✗       
+530   GSQVVLLPGVPR             -1.0000     NotChecked  -14.3692    1220.7241   ✗       
+531   +42.011TQVVLLPGGVPR      -1.0000     NotChecked  -14.4194    1276.7503   ✗       
+532   GTQVVLLPAGAPR            -1.0000     NotChecked  -14.4666    1277.7456   ✗       
+533   GSQVVLLPAGAPR            -1.0000     NotChecked  -14.4679    1263.7299   ✗       
+534   +43.006TQVVLLPGVPR       -1.0000     NotChecked  -14.4729    1220.7241   ✗       
+535   +43.006TQVVLLPAVLR       -1.0000     NotChecked  -14.4855    1250.7711   ✗       
+536   ATQVVLLPGVPR             -1.0000     NotChecked  -14.4987    1248.7554   ✗       
+537   GTNVVLLPAGVPR            -1.0000     NotChecked  -14.5132    1291.7612   ✗       
+538   +43.006TQVVLLPGNPR       -1.0000     NotChecked  -14.5181    1235.6986   ✗       
+539   GSQVVLLPAGVPR            -1.0000     NotChecked  -14.5335    1291.7612   ✗       
+540   +43.006TQVVLLPGVPR       -1.0000     NotChecked  -14.5410    1220.7241   ✗       
+541   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -14.5493    1291.7612   ✗       
+542   +43.006TQVVLLPGGVLR      -1.0000     NotChecked  -14.5603    1293.7769   ✗       
+543   ATQVVLLPGVLR             -1.0000     NotChecked  -14.5860    1264.7867   ✗       
+544   GTQVVLLPGVPR             -1.0000     NotChecked  -14.6329    1234.7397   ✗       
+545   GSQVVLLPGVPR             -1.0000     NotChecked  -14.6342    1220.7241   ✗       
+546   +43.006TQVVLLPAGAPR      -1.0000     NotChecked  -14.6397    1263.7299   ✗       
+547   +43.006TQVVLLPGAVPR      -1.0000     NotChecked  -14.6466    1291.7612   ✗       
+548   ATQVVLLPAVPR             -1.0000     NotChecked  -14.6723    1262.7711   ✗       
+549   GSQVVLLPAGVPR            -1.0000     NotChecked  -14.6847    1291.7612   ✗       
+550   GTQVVLLPGVLR             -1.0000     NotChecked  -14.7203    1250.7710   ✗       
+551   GSQVVLLPGVLR             -1.0000     NotChecked  -14.7216    1236.7554   ✗       
+552   +43.006TQVVLLPGAPR       -1.0000     NotChecked  -14.7405    1192.6928   ✗       
+553   +42.011TQVVLLPGVPR       -1.0000     NotChecked  -14.7526    1219.7289   ✗       
+554   ATQVVLLPGVPR             -1.0000     NotChecked  -14.7576    1248.7554   ✗       
+555   TQVVLLPAVPR              -1.0000     NotChecked  -14.7650    1191.7339   ✗       
+556   GTQVVLLPGGVPR            -1.0000     NotChecked  -14.7842    1291.7612   ✗       
+557   GSQVVLLPGGVPR            -1.0000     NotChecked  -14.7855    1277.7456   ✗       
+558   +43.006TQVVLLPGVPR       -1.0000     NotChecked  -14.8061    1220.7241   ✗       
+559   GTQVVLLPAVPR             -1.0000     NotChecked  -14.8066    1248.7554   ✗       
+560   GSQVVLLPAVPR             -1.0000     NotChecked  -14.8079    1234.7398   ✗       
+561   ATQVVLLPALPR             -1.0000     NotChecked  -14.8327    1276.7867   ✗       
+562   +43.006TQVVLLPGAVPR      -1.0000     NotChecked  -14.8450    1291.7612   ✗       
+563   +43.006SQVVLLPAGVPR      -1.0000     NotChecked  -14.8523    1277.7456   ✗       
+564   +42.011TQVVLLPGAVPR      -1.0000     NotChecked  -14.8581    1290.7660   ✗       
+565   GTQVVLLPGVPR             -1.0000     NotChecked  -14.8919    1234.7397   ✗       
+566   GSQVVLLPGVPR             -1.0000     NotChecked  -14.8931    1220.7241   ✗       
+567   +43.006TQVVLLPGVLR       -1.0000     NotChecked  -14.8934    1236.7554   ✗       
+568   GGQVVLLPAGVPR            -1.0000     NotChecked  -14.8949    1261.7507   ✗       
+569   +43.006TQVVLLPLLPR       -1.0000     NotChecked  -14.9006    1290.8023   ✗       
+570   +43.006TQVVLLPAGGPR      -1.0000     NotChecked  -14.9045    1249.7143   ✗       
+571   GTQVVLLPAAAPR            -1.0000     NotChecked  -14.9053    1291.7612   ✗       
+572   GSQVVLLPAAAPR            -1.0000     NotChecked  -14.9066    1277.7456   ✗       
+573   TQVVLLPAGLPR             -1.0000     NotChecked  -14.9093    1262.7710   ✗       
+574   +43.006TQVVLLPGAVPR      -1.0000     NotChecked  -14.9116    1291.7612   ✗       
+575   TQVVLLPAGVPR             -1.0000     NotChecked  -14.9134    1248.7554   ✗       
+576   GSQVVLLPGGLPR            -1.0000     NotChecked  -14.9423    1291.7612   ✗       
+577   GSQVVLLPAGVPR            -1.0000     NotChecked  -14.9563    1291.7612   ✗       
+578   +43.006TQVVLLPANPR       -1.0000     NotChecked  -14.9568    1249.7143   ✗       
+579   +43.006TQVVLLPGVPR       -1.0000     NotChecked  -14.9573    1220.7241   ✗       
+580   GTQVVLLPALPR             -1.0000     NotChecked  -14.9670    1262.7710   ✗       
+581   GSQVVLLPALPR             -1.0000     NotChecked  -14.9682    1248.7554   ✗       
+582   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -14.9797    1291.7612   ✗       
+583   ATQVVLLPAVLR             -1.0000     NotChecked  -15.0247    1278.8023   ✗       
+584   +43.006TQVVLLPGVPR       -1.0000     NotChecked  -15.0650    1220.7241   ✗       
+585   GSQVVLLPGAVPR            -1.0000     NotChecked  -15.0729    1291.7612   ✗       
+586   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -15.1281    1291.7612   ✗       
+587   GAQVVLLPAGVPR            -1.0000     NotChecked  -15.1524    1275.7663   ✗       
+588   +43.006TQVVLLPQVPR       -1.0000     NotChecked  -15.1532    1291.7612   ✗       
+589   GTQVVLLPAVLR             -1.0000     NotChecked  -15.1590    1264.7867   ✗       
+590   GSQVVLLPAVLR             -1.0000     NotChecked  -15.1603    1250.7711   ✗       
+591   GSQVVLLPNLPR             -1.0000     NotChecked  -15.1640    1291.7612   ✗       
+592   +43.006TQVVLLPGGVPR      -1.0000     NotChecked  -15.1728    1277.7456   ✗       
+593   +43.006TQVVLLPAAPR       -1.0000     NotChecked  -15.1792    1206.7085   ✗       
+594   +42.011TQVVLLPAGVPR      -1.0000     NotChecked  -15.1913    1290.7660   ✗       
+595   ATQVVLLPVVPR             -1.0000     NotChecked  -15.1940    1290.8023   ✗       
+596   ATQVVLLPAVPR             -1.0000     NotChecked  -15.1963    1262.7711   ✗       
+597   GSQVVLLPAGVPR            -1.0000     NotChecked  -15.2241    1291.7612   ✗       
+598   +43.006TQVVLLPGLPR       -1.0000     NotChecked  -15.2247    1234.7397   ✗       
+599   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -15.2289    1291.7612   ✗       
+600   +43.006TQVVLLPAVPR       -1.0000     NotChecked  -15.2290    1234.7398   ✗       
+601   GAQVVLLPGVPR             -1.0000     NotChecked  -15.2531    1204.7292   ✗       
+602   ATQVVLLPAVPR             -1.0000     NotChecked  -15.2594    1262.7711   ✗       
+603   +43.006TQVVLLPAVPR       -1.0000     NotChecked  -15.2837    1234.7398   ✗       
+604   +43.006SQVVLLPAAVPR      -1.0000     NotChecked  -15.2909    1291.7612   ✗       
+605   +43.006TQVVLLPAGAPR      -1.0000     NotChecked  -15.3276    1263.7299   ✗       
+606   GTQVVLLPVVPR             -1.0000     NotChecked  -15.3283    1276.7867   ✗       
+607   GSQVVLLPVVPR             -1.0000     NotChecked  -15.3296    1262.7711   ✗       
+608   GTQVVLLPAVPR             -1.0000     NotChecked  -15.3305    1248.7554   ✗       
+609   GSQVVLLPAVPR             -1.0000     NotChecked  -15.3318    1234.7398   ✗       
+610   GGQVVLLPAAVPR            -1.0000     NotChecked  -15.3336    1275.7663   ✗       
+611   +42.011TQVVLLPAGLPR      -1.0000     NotChecked  -15.3356    1304.7816   ✗       
+612   +42.011TQVVLLPAGVPR      -1.0000     NotChecked  -15.3397    1290.7660   ✗       
+613   +43.006TQVVLLPAAGPR      -1.0000     NotChecked  -15.3432    1263.7299   ✗       
+614   TQVVLLPAALPR             -1.0000     NotChecked  -15.3480    1276.7867   ✗       
+615   TQVVLLPAVPR              -1.0000     NotChecked  -15.3521    1191.7339   ✗       
+616   +42.011TQVVLLPQVPR       -1.0000     NotChecked  -15.3648    1290.7660   ✗       
+617   GTQVVLLPAVPR             -1.0000     NotChecked  -15.3937    1248.7554   ✗       
+618   GSQVVLLPAVPR             -1.0000     NotChecked  -15.3950    1234.7398   ✗       
+619   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -15.3960    1291.7612   ✗       
+620   TQVVLLPGGVPR             -1.0000     NotChecked  -15.4269    1234.7397   ✗       
+621   +42.011TQVVLLPGLPR       -1.0000     NotChecked  -15.4363    1233.7445   ✗       
+622   +42.011TQVVLLPAGVPR      -1.0000     NotChecked  -15.4404    1290.7660   ✗       
+623   GTQVVLLPGGVPR            -1.0000     NotChecked  -15.4685    1291.7612   ✗       
+624   GSQVVLLPGGVPR            -1.0000     NotChecked  -15.4698    1277.7456   ✗       
+625   +43.006TQVVLLPGLPR       -1.0000     NotChecked  -15.4898    1234.7397   ✗       
+626   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -15.5036    1291.7612   ✗       
+627   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -15.5315    1291.7612   ✗       
+628   +43.006TQVVLLPANPR       -1.0000     NotChecked  -15.5439    1249.7143   ✗       
+629   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -15.5444    1291.7612   ✗       
+630   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -15.5668    1291.7612   ✗       
+631   +43.006TQVVLLPGLLR       -1.0000     NotChecked  -15.5771    1250.7711   ✗       
+632   ATQVVLLPGVPR             -1.0000     NotChecked  -15.5993    1248.7554   ✗       
+633   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -15.6115    1291.7612   ✗       
+634   ATQVVLLPAVLR             -1.0000     NotChecked  -15.6118    1278.8023   ✗       
+635   +43.006TQVVLLPGGNPR      -1.0000     NotChecked  -15.6187    1292.7201   ✗       
+636   +43.006TQVVLLPGGLPR      -1.0000     NotChecked  -15.6410    1291.7612   ✗       
+637   +43.006TQVVLLPGGVPR      -1.0000     NotChecked  -15.6416    1277.7456   ✗       
+638   ATQVVLLPGNPR             -1.0000     NotChecked  -15.6445    1263.7299   ✗       
+639   +43.006TQVVLLPALPR       -1.0000     NotChecked  -15.6634    1248.7554   ✗       
+640   ATQVVLLPGVPR             -1.0000     NotChecked  -15.6674    1248.7554   ✗       
+641   +43.006TQVVLLPAVPR       -1.0000     NotChecked  -15.6676    1234.7398   ✗       
+642   +43.006TQVVLLPQVPR       -1.0000     NotChecked  -15.6771    1291.7612   ✗       
+643   GAQVVLLPAVPR             -1.0000     NotChecked  -15.6918    1218.7448   ✗       
+644   GTQVVLLPGVPR             -1.0000     NotChecked  -15.7335    1234.7397   ✗       
+645   GSQVVLLPGVPR             -1.0000     NotChecked  -15.7348    1220.7241   ✗       
+646   GTQVVLLPAVLR             -1.0000     NotChecked  -15.7461    1264.7867   ✗       
+647   GSQVVLLPAVLR             -1.0000     NotChecked  -15.7474    1250.7711   ✗       
+648   +43.006TQVVLLPGLPR       -1.0000     NotChecked  -15.7487    1234.7397   ✗       
+649   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -15.7528    1291.7612   ✗       
+650   TQVVLLPGVPR              -1.0000     NotChecked  -15.7600    1177.7183   ✗       
+651   ATQVVLLPAGAPR            -1.0000     NotChecked  -15.7661    1291.7612   ✗       
+652   +43.006TQVVLLPAAPR       -1.0000     NotChecked  -15.7663    1206.7085   ✗       
+653   +42.011TQVVLLPAGVPR      -1.0000     NotChecked  -15.7784    1290.7660   ✗       
+654   GTQVVLLPGNPR             -1.0000     NotChecked  -15.7788    1249.7143   ✗       
+655   GSQVVLLPGNPR             -1.0000     NotChecked  -15.7801    1235.6986   ✗       
+656   GTQVVLLPGVPR             -1.0000     NotChecked  -15.8017    1234.7397   ✗       
+657   GSQVVLLPGVPR             -1.0000     NotChecked  -15.8029    1220.7241   ✗       
+658   GSQVVLLPAGVPR            -1.0000     NotChecked  -15.8112    1291.7612   ✗       
+659   GSQVVLLPGGVLR            -1.0000     NotChecked  -15.8222    1293.7769   ✗       
+660   GAQVVLLPAGLPR            -1.0000     NotChecked  -15.8361    1289.7820   ✗       
+661   GAQVVLLPAGVPR            -1.0000     NotChecked  -15.8402    1275.7663   ✗       
+662   +43.006TQVVLLPGGAPR      -1.0000     NotChecked  -15.8411    1249.7143   ✗       
+663   +42.011TQVVLLPGGVPR      -1.0000     NotChecked  -15.8532    1276.7503   ✗       
+664   +42.011TQVVLLPAGVPR      -1.0000     NotChecked  -15.8631    1290.7660   ✗       
+665   +43.006TQVVLLPNVPR       -1.0000     NotChecked  -15.8633    1277.7456   ✗       
+666   TQVVLLPGAVPR             -1.0000     NotChecked  -15.8656    1248.7554   ✗       
+667   ATQVVLLPGAPR             -1.0000     NotChecked  -15.8669    1220.7241   ✗       
+668   +43.006TQVVLLPAVPR       -1.0000     NotChecked  -15.8708    1234.7398   ✗       
+669   +42.011TQVVLLPALPR       -1.0000     NotChecked  -15.8750    1247.7602   ✗       
+670   +42.011TQVVLLPAVPR       -1.0000     NotChecked  -15.8791    1233.7445   ✗       
+671   GTQVVLLPAGAPR            -1.0000     NotChecked  -15.9004    1277.7456   ✗       
+672   GSQVVLLPAGAPR            -1.0000     NotChecked  -15.9017    1263.7299   ✗       
+673   +43.006TQVVLLPGVPR       -1.0000     NotChecked  -15.9067    1220.7241   ✗       
+674   GSQVVLLPGAVPR            -1.0000     NotChecked  -15.9085    1291.7612   ✗       
+675   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -15.9165    1291.7612   ✗       
+676   ATQVVLLPGVPR             -1.0000     NotChecked  -15.9324    1248.7554   ✗       
+677   +43.006TQVVLLPGNPR       -1.0000     NotChecked  -15.9519    1235.6986   ✗       
+678   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -15.9831    1291.7612   ✗       
+679   +43.006TQVVLLPGGVLR      -1.0000     NotChecked  -15.9940    1293.7769   ✗       
+680   GTQVVLLPGAPR             -1.0000     NotChecked  -16.0011    1206.7084   ✗       
+681   GSQVVLLPGAPR             -1.0000     NotChecked  -16.0024    1192.6928   ✗       
+682   +43.006TQVVLLPALLR       -1.0000     NotChecked  -16.0158    1264.7867   ✗       
+683   ATQVVLLPGVLR             -1.0000     NotChecked  -16.0198    1264.7867   ✗       
+684   +43.006TQVVLLPAVLR       -1.0000     NotChecked  -16.0199    1250.7711   ✗       
+685   +42.011TQVVLLPAGLPR      -1.0000     NotChecked  -16.0234    1304.7816   ✗       
+686   +43.006TQVVLLPGGVPR      -1.0000     NotChecked  -16.0284    1277.7456   ✗       
+687   ATQVVLLPAGGPR            -1.0000     NotChecked  -16.0309    1277.7456   ✗       
+688   +43.006TQVVLLPGGVPR      -1.0000     NotChecked  -16.0579    1277.7456   ✗       
+689   GTQVVLLPGVPR             -1.0000     NotChecked  -16.0667    1234.7397   ✗       
+690   GSQVVLLPGVPR             -1.0000     NotChecked  -16.0680    1220.7241   ✗       
+691   GSQVVLLPGALPR            -1.0000     Failed      -16.0688    1305.7769   ✓       
+692   +42.011TQVVLLPNVPR       -1.0000     NotChecked  -16.0749    1276.7503   ✗       
+693   ATQVVLLPANPR             -1.0000     NotChecked  -16.0832    1277.7456   ✗       
+694   ATQVVLLPGVPR             -1.0000     NotChecked  -16.0837    1248.7554   ✗       
+695   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -16.0838    1291.7612   ✗       
+696   GSQVVLLPGAVPR            -1.0000     NotChecked  -16.1069    1291.7612   ✗       
+697   GSQVVLLPAGVPR            -1.0000     NotChecked  -16.1129    1291.7612   ✗       
+698   +42.011TQVVLLPAGVPR      -1.0000     NotChecked  -16.1281    1290.7660   ✗       
+699   GTQVVLLPGVLR             -1.0000     NotChecked  -16.1540    1250.7710   ✗       
+700   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -16.1542    1291.7612   ✗       
+701   GSQVVLLPGVLR             -1.0000     NotChecked  -16.1553    1236.7554   ✗       
+702   GTQVVLLPLLPR             -1.0000     NotChecked  -16.1612    1304.8180   ✗       
+703   GSQVVLLPLLPR             -1.0000     NotChecked  -16.1625    1290.8024   ✗       
+704   GTQVVLLPAGGPR            -1.0000     NotChecked  -16.1652    1263.7299   ✗       
+705   GSQVVLLPAGGPR            -1.0000     NotChecked  -16.1664    1249.7143   ✗       
+706   GSQVVLLPGAVPR            -1.0000     NotChecked  -16.1735    1291.7612   ✗       
+707   +43.006TQVVLLPGAPR       -1.0000     NotChecked  -16.1742    1192.6928   ✗       
+708   +43.006TQVVLLPVLPR       -1.0000     NotChecked  -16.1851    1276.7867   ✗       
+709   +43.006TQVVLLPALPR       -1.0000     NotChecked  -16.1874    1248.7554   ✗       
+710   ATQVVLLPGVPR             -1.0000     NotChecked  -16.1913    1248.7554   ✗       
+711   +43.006TQVVLLPAVPR       -1.0000     NotChecked  -16.1915    1234.7398   ✗       
+712   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -16.1986    1291.7612   ✗       
+713   TQVVLLPAGVPR             -1.0000     NotChecked  -16.1987    1248.7554   ✗       
+714   +43.006TQVVLLPNVLR       -1.0000     NotChecked  -16.2157    1293.7769   ✗       
+715   GTQVVLLPANPR             -1.0000     NotChecked  -16.2175    1263.7299   ✗       
+716   GTQVVLLPGVPR             -1.0000     NotChecked  -16.2179    1234.7397   ✗       
+717   GSQVVLLPANPR             -1.0000     NotChecked  -16.2187    1249.7143   ✗       
+718   GSQVVLLPGVPR             -1.0000     NotChecked  -16.2192    1220.7241   ✗       
+719   GSQVVLLPAGVPR            -1.0000     NotChecked  -16.2416    1291.7612   ✗       
+720   +43.006TQVVLLPALPR       -1.0000     NotChecked  -16.2505    1248.7554   ✗       
+721   GAQVVLLPAALPR            -1.0000     NotChecked  -16.2748    1303.7976   ✗       
+722   GAQVVLLPAVPR             -1.0000     NotChecked  -16.2789    1218.7448   ✗       
+723   +43.006TQVVLLPGAAPR      -1.0000     NotChecked  -16.2798    1263.7299   ✗       
+724   +43.006SQVVLLPAGVPR      -1.0000     NotChecked  -16.2860    1277.7456   ✗       
+725   +42.011TQVVLLPAAVPR      -1.0000     NotChecked  -16.3017    1304.7816   ✗       
+726   ATQVVLLPAAPR             -1.0000     NotChecked  -16.3055    1234.7397   ✗       
+727   +43.006TQVVLLPGGLPR      -1.0000     NotChecked  -16.3253    1291.7612   ✗       
+728   GTQVVLLPGVPR             -1.0000     NotChecked  -16.3256    1234.7397   ✗       
+729   GSQVVLLPGVPR             -1.0000     NotChecked  -16.3269    1220.7241   ✗       
+730   GGQVVLLPAGVPR            -1.0000     NotChecked  -16.3286    1261.7507   ✗       
+731   NTQVVLLPGVPR             -1.0000     NotChecked  -16.3354    1291.7612   ✗       
+732   +43.006TQVVLLPAGGPR      -1.0000     NotChecked  -16.3383    1249.7143   ✗       
+733   TQVVLLPAGLPR             -1.0000     NotChecked  -16.3430    1262.7710   ✗       
+734   TQVVLLPAGVPR             -1.0000     NotChecked  -16.3471    1248.7554   ✗       
+735   ATQVVLLPGLPR             -1.0000     NotChecked  -16.3511    1262.7710   ✗       
+736   GAQVVLLPGGVPR            -1.0000     NotChecked  -16.3537    1261.7507   ✗       
+737   ATQVVLLPAVPR             -1.0000     NotChecked  -16.3554    1262.7711   ✗       
+738   TQVVLLPQVPR              -1.0000     NotChecked  -16.3722    1248.7554   ✗       
+739   +43.006TQVVLLPGAVPR      -1.0000     NotChecked  -16.3843    1291.7612   ✗       
+740   +43.006GTQVVLLPGVPR      -1.0000     NotChecked  -16.3855    1277.7456   ✗       
+741   +43.006SQVVLLPGVPR       -1.0000     NotChecked  -16.3867    1206.7085   ✗       
+742   +43.006TQVVLLPNVPR       -1.0000     NotChecked  -16.3873    1277.7456   ✗       
+743   GSQVVLLPAGVPR            -1.0000     NotChecked  -16.3900    1291.7612   ✗       
+744   ATQVVLLPAVPR             -1.0000     NotChecked  -16.4101    1262.7711   ✗       
+745   GSQVVLLPQVPR             -1.0000     NotChecked  -16.4151    1291.7612   ✗       
+746   GGQVVLLPGVPR             -1.0000     NotChecked  -16.4294    1190.7135   ✗       
+747   GTQVVLLPGGVPR            -1.0000     NotChecked  -16.4334    1291.7612   ✗       
+748   GSQVVLLPGGVPR            -1.0000     NotChecked  -16.4347    1277.7456   ✗       
+749   +43.006TQVVLLPGGPR       -1.0000     NotChecked  -16.4390    1178.6771   ✗       
+750   GTQVVLLPAAPR             -1.0000     NotChecked  -16.4398    1220.7241   ✗       
+751   GSQVVLLPAAPR             -1.0000     NotChecked  -16.4411    1206.7085   ✗       
+752   TQVVLLPGLPR              -1.0000     NotChecked  -16.4438    1191.7339   ✗       
+753   TQVVLLPAGVPR             -1.0000     NotChecked  -16.4479    1248.7554   ✗       
+754   ATQVVLLPAGAPR            -1.0000     NotChecked  -16.4540    1291.7612   ✗       
+755   +43.006TQVVLLPGLPR       -1.0000     NotChecked  -16.4552    1234.7397   ✗       
+756   +42.011TQVVLLPALPR       -1.0000     NotChecked  -16.4621    1247.7602   ✗       
+757   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -16.4671    1291.7612   ✗       
+758   ATQVVLLPAAGPR            -1.0000     NotChecked  -16.4696    1291.7612   ✗       
+759   GTQVVLLPGLPR             -1.0000     NotChecked  -16.4854    1248.7554   ✗       
+760   GSQVVLLPGLPR             -1.0000     NotChecked  -16.4866    1234.7398   ✗       
+761   GTQVVLLPAVPR             -1.0000     NotChecked  -16.4897    1248.7554   ✗       
+762   GSQVVLLPAGVPR            -1.0000     NotChecked  -16.4908    1291.7612   ✗       
+763   GSQVVLLPAVPR             -1.0000     NotChecked  -16.4909    1234.7398   ✗       
+764   +42.011TQVVLLPGGLPR      -1.0000     NotChecked  -16.5369    1290.7660   ✗       
+765   GTQVVLLPAVPR             -1.0000     NotChecked  -16.5443    1248.7554   ✗       
+766   GSQVVLLPAVPR             -1.0000     NotChecked  -16.5456    1234.7398   ✗       
+767   TQVVLLPALVPR             -1.0000     NotChecked  -16.5463    1304.8180   ✗       
+768   GTQVVLLPAGAPR            -1.0000     NotChecked  -16.5882    1277.7456   ✗       
+769   GSQVVLLPAGAPR            -1.0000     NotChecked  -16.5895    1263.7299   ✗       
+770   +43.006TQVVLLPGLPR       -1.0000     NotChecked  -16.5904    1234.7397   ✗       
+771   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -16.5906    1291.7612   ✗       
+772   +43.006TQVVLLPALLR       -1.0000     NotChecked  -16.6029    1264.7867   ✗       
+773   GTQVVLLPAAGPR            -1.0000     NotChecked  -16.6039    1277.7456   ✗       
+774   GSQVVLLPAAGPR            -1.0000     NotChecked  -16.6051    1263.7299   ✗       
+775   +43.006TQVVLLPGGVPR      -1.0000     NotChecked  -16.6065    1277.7456   ✗       
+776   +43.006TQVVLLPAGAPR      -1.0000     NotChecked  -16.6129    1263.7299   ✗       
+777   ATQVVLLPGLPR             -1.0000     NotChecked  -16.6161    1262.7710   ✗       
+778   GTQVVLLPGVPR             -1.0000     NotChecked  -16.6245    1234.7397   ✗       
+779   GATQVVLLPGVPR            -1.0000     Failed      -16.6523    1305.7769   ✓       
+780   GSQVVLLPAGVPR            -1.0000     NotChecked  -16.6579    1291.7612   ✗       
+781   +43.006TQVVLLPGLPR       -1.0000     NotChecked  -16.6585    1234.7397   ✗       
+782   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -16.6626    1291.7612   ✗       
+783   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -16.6628    1291.7612   ✗       
+784   ATQVVLLPANPR             -1.0000     NotChecked  -16.6703    1277.7456   ✗       
+785   GAQVVLLPGVPR             -1.0000     NotChecked  -16.6869    1204.7292   ✗       
+786   ATQVVLLPGLLR             -1.0000     NotChecked  -16.7035    1278.8023   ✗       
+787   STQVVLLPGVPR             -1.0000     NotChecked  -16.7406    1264.7503   ✗       
+788   GTQVVLLPGLPR             -1.0000     NotChecked  -16.7504    1248.7554   ✗       
+789   GSQVVLLPGLPR             -1.0000     NotChecked  -16.7517    1234.7398   ✗       
+790   +43.006TQVVLLPAGAPR      -1.0000     NotChecked  -16.7613    1263.7299   ✗       
+791   +43.006TQVVLLPVPR        -1.0000     NotChecked  -16.7635    1163.7026   ✗       
+792   GSQVVLLPAGVPR            -1.0000     NotChecked  -16.7656    1291.7612   ✗       
+793   +43.006TQVVLLPGAVPR      -1.0000     NotChecked  -16.7682    1291.7612   ✗       
+794   TQVVLLPAGVPR             -1.0000     NotChecked  -16.7858    1248.7554   ✗       
+795   +43.006TQVVLLPQAPR       -1.0000     NotChecked  -16.7864    1263.7299   ✗       
+796   ATQVVLLPALPR             -1.0000     NotChecked  -16.7898    1276.7867   ✗       
+797   GAQVVLLPGAVPR            -1.0000     NotChecked  -16.7924    1275.7663   ✗       
+798   GSQVVLLPAGVPR            -1.0000     NotChecked  -16.7934    1291.7612   ✗       
+799   ATQVVLLPAVPR             -1.0000     NotChecked  -16.7939    1262.7711   ✗       
+800   GTQVVLLPANPR             -1.0000     NotChecked  -16.8046    1263.7299   ✗       
+801   GSQVVLLPANPR             -1.0000     NotChecked  -16.8058    1249.7143   ✗       
+802   GSQVVLLPAGVPR            -1.0000     NotChecked  -16.8063    1291.7612   ✗       
+803   +43.006GTQVVLLPAVPR      -1.0000     NotChecked  -16.8242    1291.7612   ✗       
+804   +43.006SQVVLLPAVPR       -1.0000     NotChecked  -16.8254    1220.7241   ✗       
+805   GSQVVLLPAGVPR            -1.0000     NotChecked  -16.8287    1291.7612   ✗       
+806   GTQVVLLPGLLR             -1.0000     NotChecked  -16.8378    1264.7867   ✗       
+807   GSQVVLLPGLLR             -1.0000     NotChecked  -16.8390    1250.7711   ✗       
+808   +43.006TQVVLLGPGVPR      -1.0000     NotChecked  -16.8444    1277.7456   ✗       
+809   TQVVLLPGGVPR             -1.0000     NotChecked  -16.8606    1234.7397   ✗       
+810   +43.006TQVVLLPLVPR       -1.0000     NotChecked  -16.8618    1276.7867   ✗       
+811   +43.006TQVVLLPAGAPR      -1.0000     NotChecked  -16.8621    1263.7299   ✗       
+812   GGQVVLLPAVPR             -1.0000     NotChecked  -16.8681    1204.7292   ✗       
+813   +42.011TQVVLLPGLPR       -1.0000     NotChecked  -16.8700    1233.7445   ✗       
+814   TQVVLLPAGVPR             -1.0000     NotChecked  -16.8705    1248.7554   ✗       
+815   GSQVVLLPAGVPR            -1.0000     NotChecked  -16.8734    1291.7612   ✗       
+816   +42.011TQVVLLPAGVPR      -1.0000     NotChecked  -16.8742    1290.7660   ✗       
+817   ATQVVLLPGLPR             -1.0000     NotChecked  -16.8750    1262.7710   ✗       
+818   +43.006TQVVLLPAGPR       -1.0000     NotChecked  -16.8777    1192.6928   ✗       
+819   GSQVVLLPGGNPR            -1.0000     NotChecked  -16.8806    1292.7201   ✗       
+820   TQVVLLPALPR              -1.0000     NotChecked  -16.8824    1205.7496   ✗       
+821   TQVVLLPAVPR              -1.0000     NotChecked  -16.8866    1191.7339   ✗       
+822   ATQVVLLPAAPR             -1.0000     NotChecked  -16.8927    1234.7397   ✗       
+823   +43.006TQVVLLPALPR       -1.0000     NotChecked  -16.8938    1248.7554   ✗       
+824   GTQVVLLPGGVPR            -1.0000     NotChecked  -16.9023    1291.7612   ✗       
+825   GSQVVLLPGGLPR            -1.0000     NotChecked  -16.9029    1291.7612   ✗       
+826   GSQVVLLPGGVPR            -1.0000     NotChecked  -16.9035    1277.7456   ✗       
+827   +43.006TQVVLLPGLPR       -1.0000     NotChecked  -16.9235    1234.7397   ✗       
+828   GTQVVLLPALPR             -1.0000     NotChecked  -16.9241    1262.7710   ✗       
+829   GSQVVLLPALPR             -1.0000     NotChecked  -16.9253    1248.7554   ✗       
+830   GTQVVLLPAVPR             -1.0000     NotChecked  -16.9282    1248.7554   ✗       
+831   GSQVVLLPAVPR             -1.0000     NotChecked  -16.9295    1234.7398   ✗       
+832   GSQVVLLPQVPR             -1.0000     NotChecked  -16.9390    1291.7612   ✗       
+833   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -16.9653    1291.7612   ✗       
+834   ATQVVLLPGGAPR            -1.0000     NotChecked  -16.9675    1277.7456   ✗       
+835   +43.006SQVVLLPAGLPR      -1.0000     NotChecked  -16.9697    1291.7612   ✗       
+836   +43.006SQVVLLPAGVPR      -1.0000     NotChecked  -16.9738    1277.7456   ✗       
+837   +42.011TQVVLLPGALPR      -1.0000     NotChecked  -16.9756    1304.7816   ✗       
+838   +42.011TQVVLLPGAVPR      -1.0000     NotChecked  -16.9797    1290.7660   ✗       
+839   +43.006TQVVLLPGGVPR      -1.0000     NotChecked  -16.9935    1277.7456   ✗       
+840   ATQVVLLPAVPR             -1.0000     NotChecked  -16.9972    1262.7711   ✗       
+841   GTQVVLLPGLPR             -1.0000     NotChecked  -17.0093    1248.7554   ✗       
+842   GSQVVLLPGLPR             -1.0000     NotChecked  -17.0106    1234.7398   ✗       
+843   +43.006TQVVLLPGLLR       -1.0000     NotChecked  -17.0109    1250.7711   ✗       
+844   GGQVVLLPAGLPR            -1.0000     NotChecked  -17.0123    1275.7663   ✗       
+845   GSQVVLLPAGVPR            -1.0000     NotChecked  -17.0147    1291.7612   ✗       
+846   GGQVVLLPAGVPR            -1.0000     NotChecked  -17.0165    1261.7507   ✗       
+847   +43.006TQVVLLPAGGPR      -1.0000     NotChecked  -17.0261    1249.7143   ✗       
+848   GTQVVLLPAAPR             -1.0000     NotChecked  -17.0269    1220.7241   ✗       
+849   GSQVVLLPAAPR             -1.0000     NotChecked  -17.0282    1206.7085   ✗       
+850   TQVVLLPAGLPR             -1.0000     NotChecked  -17.0309    1262.7710   ✗       
+851   ATQVVLLPGVPR             -1.0000     NotChecked  -17.0330    1248.7554   ✗       
+852   +43.006TQVVLLPGGNPR      -1.0000     NotChecked  -17.0525    1292.7201   ✗       
+853   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -17.0542    1291.7612   ✗       
+854   GTQVVLLPAVPR             -1.0000     NotChecked  -17.0632    1248.7554   ✗       
+855   +43.006TQVVLLPGVPR       -1.0000     NotChecked  -17.0660    1220.7241   ✗       
+856   +42.011TQVVLLPLVPR       -1.0000     NotChecked  -17.0734    1275.7915   ✗       
+857   +43.006TQVVLLPGLPR       -1.0000     NotChecked  -17.0747    1234.7397   ✗       
+858   ATQVVLLPGNPR             -1.0000     NotChecked  -17.0783    1263.7299   ✗       
+859   +43.006TQVVLLPANPR       -1.0000     NotChecked  -17.0784    1249.7143   ✗       
+860   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -17.0789    1291.7612   ✗       
+861   TQVVLLPNVPR              -1.0000     NotChecked  -17.0823    1234.7397   ✗       
+862   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -17.1013    1291.7612   ✗       
+863   GTQVVLLPGGAPR            -1.0000     NotChecked  -17.1017    1263.7299   ✗       
+864   GSQVVLLPGGAPR            -1.0000     NotChecked  -17.1030    1249.7143   ✗       
+865   GTQVVLLPNVPR             -1.0000     NotChecked  -17.1240    1291.7612   ✗       
+866   GSQVVLLPNVPR             -1.0000     NotChecked  -17.1252    1277.7456   ✗       
+867   GAQVVLLPAGVPR            -1.0000     NotChecked  -17.1256    1275.7663   ✗       
+868   GTQVVLLPAVPR             -1.0000     NotChecked  -17.1314    1248.7554   ✗       
+869   GSQVVLLPAVPR             -1.0000     NotChecked  -17.1327    1234.7398   ✗       
+870   TQVVLLPAGVPR             -1.0000     NotChecked  -17.1355    1248.7554   ✗       
+871   ATQVVLLPALLR             -1.0000     NotChecked  -17.1422    1292.8180   ✗       
+872   +43.006TQVVLLPGGVPR      -1.0000     NotChecked  -17.1428    1277.7456   ✗       
+873   ATQVVLLPAVLR             -1.0000     NotChecked  -17.1463    1278.8023   ✗       
+874   GTQVVLLPGVPR             -1.0000     NotChecked  -17.1673    1234.7397   ✗       
+875   GSQVVLLPGVPR             -1.0000     NotChecked  -17.1686    1220.7241   ✗       
+876   GSQVVLLPAGVPR            -1.0000     NotChecked  -17.1784    1291.7612   ✗       
+877   STQVVLLPAVPR             -1.0000     NotChecked  -17.1793    1278.7660   ✗       
+878   +43.006TQVVLLPGLPR       -1.0000     NotChecked  -17.1824    1234.7397   ✗       
+879   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -17.1865    1291.7612   ✗       
+880   GSQVVLLPGALPR            -1.0000     Failed      -17.1904    1305.7769   ✓       
+881   +43.006TQVVLLPAGAPR      -1.0000     NotChecked  -17.2000    1263.7299   ✗       
+882   GTQVVLLPGNPR             -1.0000     NotChecked  -17.2125    1249.7143   ✗       
+883   GSQVVLLPGNPR             -1.0000     NotChecked  -17.2138    1235.6986   ✗       
+884   +43.006TQVVLLPLVLR       -1.0000     NotChecked  -17.2142    1292.8180   ✗       
+885   TQVVLLPAGVLR             -1.0000     NotChecked  -17.2229    1264.7867   ✗       
+886   GSQVVLLPAGVPR            -1.0000     NotChecked  -17.2450    1291.7612   ✗       
+887   +43.006TQ+0.984VVLLPAGVPR-1.0000     NotChecked  -17.2510    1292.7452   ✗       
+888   GSQVVLLPGGVLR            -1.0000     NotChecked  -17.2559    1293.7769   ✗       
+889   GVQVVLLPAGVPR            -1.0000     NotChecked  -17.2588    1303.7976   ✗       
+890   GAQVVLLPAGLPR            -1.0000     NotChecked  -17.2698    1289.7820   ✗       
+891   GAQVVLLPAGVPR            -1.0000     NotChecked  -17.2740    1275.7663   ✗       
+892   +43.006TQVVLLPNNPR       -1.0000     NotChecked  -17.2742    1292.7201   ✗       
+893   +43.006TQVVLLPGGAPR      -1.0000     NotChecked  -17.2748    1249.7143   ✗       
+894   GTQVVLLPALLR             -1.0000     NotChecked  -17.2764    1278.8023   ✗       
+895   GSQVVLLPALLR             -1.0000     NotChecked  -17.2777    1264.7867   ✗       
+896   GTQVVLLPAVLR             -1.0000     NotChecked  -17.2806    1264.7867   ✗       
+897   GSQVVLLPAVLR             -1.0000     NotChecked  -17.2819    1250.7711   ✗       
+898   +43.006TQVVLLGPAVPR      -1.0000     NotChecked  -17.2831    1291.7612   ✗       
+899   +43.006TQVVLLPAGAPR      -1.0000     NotChecked  -17.2847    1263.7299   ✗       
+900   GTQVVLLPGGVPR            -1.0000     NotChecked  -17.2890    1291.7612   ✗       
+901   +43.006TQVVLLPGGLPR      -1.0000     NotChecked  -17.2902    1291.7612   ✗       
+902   GSQVVLLPGGVPR            -1.0000     NotChecked  -17.2903    1277.7456   ✗       
+903   +42.011TQVVLLPAGVPR      -1.0000     NotChecked  -17.2968    1290.7660   ✗       
+904   GAQVVLLPQVPR             -1.0000     NotChecked  -17.2990    1275.7663   ✗       
+905   ATQVVLLPGAPR             -1.0000     NotChecked  -17.3006    1220.7241   ✗       
+906   +43.006TQVVLLPAAPR       -1.0000     NotChecked  -17.3008    1206.7085   ✗       
+907   +42.011TQVVLLPAGLPR      -1.0000     NotChecked  -17.3087    1304.7816   ✗       
+908   TQVVLLPAAVPR             -1.0000     NotChecked  -17.3092    1262.7710   ✗       
+909   ATQVVLLPVLPR             -1.0000     NotChecked  -17.3115    1304.8180   ✗       
+910   +42.011TQVVLLPAGVPR      -1.0000     NotChecked  -17.3129    1290.7660   ✗       
+911   ATQVVLLPALPR             -1.0000     NotChecked  -17.3137    1276.7867   ✗       
+912   ATQVVLLPAVPR             -1.0000     NotChecked  -17.3179    1262.7711   ✗       
+913   GTQVVLLPGGVPR            -1.0000     NotChecked  -17.3185    1291.7612   ✗       
+914   +43.006TQVVLLPGGVPR      -1.0000     NotChecked  -17.3234    1277.7456   ✗       
+915   +43.006TQVVLLGPGVPR      -1.0000     NotChecked  -17.3311    1277.7456   ✗       
+916   +43.006TQVVLLPALPR       -1.0000     NotChecked  -17.3465    1248.7554   ✗       
+917   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -17.3503    1291.7612   ✗       
+918   +43.006TQVVLLPAVPR       -1.0000     NotChecked  -17.3506    1234.7398   ✗       
+919   ATQVVLLPALPR             -1.0000     NotChecked  -17.3769    1276.7867   ✗       
+920   +43.006TQVVLLPLVPR       -1.0000     NotChecked  -17.3857    1276.7867   ✗       
+921   +42.011TQVVLLPGVPR       -1.0000     NotChecked  -17.3975    1219.7289   ✗       
+922   VTQVVLLPGVPR             -1.0000     NotChecked  -17.4007    1276.7867   ✗       
+923   +43.006TQVVLLPALPR       -1.0000     NotChecked  -17.4011    1248.7554   ✗       
+924   +43.006TQVVLLPAVPR       -1.0000     NotChecked  -17.4053    1234.7398   ✗       
+925   +43.006TQVVLLPGGVPR      -1.0000     NotChecked  -17.4056    1277.7456   ✗       
+926   ATQVVLLPGAAPR            -1.0000     NotChecked  -17.4061    1291.7612   ✗       
+927   +43.006GTQVVLLPAVPR      -1.0000     NotChecked  -17.4113    1291.7612   ✗       
+928   +43.006SQVVLLPAVPR       -1.0000     NotChecked  -17.4125    1220.7241   ✗       
+929   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -17.4322    1291.7612   ✗       
+930   +43.006TQVVLLPGVPR       -1.0000     NotChecked  -17.4510    1220.7241   ✗       
+931   +42.011TQVVLLPAGLPR      -1.0000     NotChecked  -17.4571    1304.7816   ✗       
+932   +43.006TQVVLLPGGVPR      -1.0000     NotChecked  -17.4621    1277.7456   ✗       
+933   ATQVVLLPAGGPR            -1.0000     NotChecked  -17.4647    1277.7456   ✗       
+934   +43.006TQVVLLPAGPR       -1.0000     NotChecked  -17.4648    1192.6928   ✗       
+935   TQVVLLPALPR              -1.0000     NotChecked  -17.4695    1205.7496   ✗       
+936   TQVVLLPGQVPR             -1.0000     Failed      -17.4728    1305.7769   ✓       
+937   +43.006TQVVLLPALPR       -1.0000     NotChecked  -17.4809    1248.7554   ✗       
+938   +42.011TQVVLLPQLPR       -1.0000     NotChecked  -17.4822    1304.7816   ✗       
+939   +43.006SQVVLLPGGVPR      -1.0000     NotChecked  -17.4873    1263.7299   ✗       
+940   +42.011TQVVLLPAGAPR      -1.0000     NotChecked  -17.4963    1262.7347   ✗       
+941   +43.006TQVVLLPNAPR       -1.0000     NotChecked  -17.4965    1249.7143   ✗       
+942   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -17.5015    1291.7612   ✗       
+943   +43.006TQVVLLPAVPR       -1.0000     NotChecked  -17.5047    1234.7398   ✗       
+944   ASQVVLLPGVPR             -1.0000     NotChecked  -17.5131    1234.7398   ✗       
+945   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -17.5176    1291.7612   ✗       
+946   +43.006TQVVLLPGVLR       -1.0000     NotChecked  -17.5384    1236.7554   ✗       
+947   +43.006TQVVLLPGGGPR      -1.0000     NotChecked  -17.5396    1235.6986   ✗       
+948   TQVVLLPGGLPR             -1.0000     NotChecked  -17.5444    1248.7554   ✗       
+949   +43.006TQVVLLPAGAPR      -1.0000     NotChecked  -17.5497    1263.7299   ✗       
+950   +43.006TQVVLLPGGLPR      -1.0000     NotChecked  -17.5558    1291.7612   ✗       
+951   +42.011TQVVLLPAGLPR      -1.0000     NotChecked  -17.5579    1304.7816   ✗       
+952   +42.011TQVVLLPAGVPR      -1.0000     NotChecked  -17.5618    1290.7660   ✗       
+953   ATQVVLLPGGPR             -1.0000     NotChecked  -17.5654    1206.7084   ✗       
+954   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -17.5815    1291.7612   ✗       
+955   ATQVVLLPGLPR             -1.0000     NotChecked  -17.5815    1262.7710   ✗       
+956   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -17.5880    1291.7612   ✗       
+957   +43.006TQVVLLPGGVPR      -1.0000     NotChecked  -17.6022    1277.7456   ✗       
+958   +43.006TQVVLLPGAVPR      -1.0000     NotChecked  -17.6212    1291.7612   ✗       
+959   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -17.6252    1291.7612   ✗       
+960   +43.006TQVVLLPAGALR      -1.0000     NotChecked  -17.6371    1279.7612   ✗       
+961   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -17.6531    1291.7612   ✗       
+962   TQVVLLPAAVLR             -1.0000     NotChecked  -17.6616    1278.8023   ✗       
+963   +42.011TQVVLLPGVPR       -1.0000     NotChecked  -17.6626    1219.7289   ✗       
+964   +43.006TQVVLLPGVPR       -1.0000     NotChecked  -17.6887    1220.7241   ✗       
+965   +43.006TQVVLLPGVPR       -1.0000     NotChecked  -17.7099    1220.7241   ✗       
+966   +43.006TQVVLLPPVPR       -1.0000     NotChecked  -17.7101    1260.7554   ✗       
+967   +42.011TQVVLLPAGVPR      -1.0000     NotChecked  -17.7131    1290.7660   ✗       
+968   ATQVVLLPGLPR             -1.0000     NotChecked  -17.7167    1262.7710   ✗       
+969   +43.006TQVVLLPAAAPR      -1.0000     NotChecked  -17.7234    1277.7456   ✗       
+970   ATQVVLLPALLR             -1.0000     NotChecked  -17.7293    1292.8180   ✗       
+971   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -17.7331    1291.7612   ✗       
+972   ATQVVLLPAGAPR            -1.0000     NotChecked  -17.7393    1291.7612   ✗       
+973   +42.011TQVVLLPGVLR       -1.0000     NotChecked  -17.7499    1235.7602   ✗       
+974   +43.006TQVVLLPGGLPR      -1.0000     NotChecked  -17.7591    1291.7612   ✗       
+975   +43.006TQVVLLPGAVPR      -1.0000     NotChecked  -17.7621    1291.7612   ✗       
+976   STQVVLLPAVPR             -1.0000     NotChecked  -17.7664    1278.7660   ✗       
+977   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -17.7665    1291.7612   ✗       
+978   NTQVVLLPGVPR             -1.0000     NotChecked  -17.7692    1291.7612   ✗       
+979   +43.006TQVVLLGPAVPR      -1.0000     NotChecked  -17.7698    1291.7612   ✗       
+980   ATQVVLLPGLPR             -1.0000     NotChecked  -17.7849    1262.7710   ✗       
+981   +43.006TQVVLLPALPR       -1.0000     NotChecked  -17.7850    1248.7554   ✗       
+982   +43.006TQVVLLPGVLR       -1.0000     NotChecked  -17.8034    1236.7554   ✗       
+983   +42.011TQVVLLPGGVPR      -1.0000     NotChecked  -17.8138    1276.7503   ✗       
+984   +43.006GTQVVLLPGVPR      -1.0000     NotChecked  -17.8192    1277.7456   ✗       
+985   +43.006SQVVLLPGVPR       -1.0000     NotChecked  -17.8205    1206.7085   ✗       
+986   TQVVLLPAVVPR             -1.0000     NotChecked  -17.8309    1290.8023   ✗       
+987   +42.011TQVVLLPAVPR       -1.0000     NotChecked  -17.8362    1233.7445   ✗       
+988   VTQVVLLPAVPR             -1.0000     NotChecked  -17.8394    1290.8024   ✗       
+989   +43.006TQVVLLPAGVPR      -1.0000     NotChecked  -17.8443    1291.7612   ✗       
+990   +43.006TQVVLLPGVPR       -1.0000     NotChecked  -17.8641    1220.7241   ✗       
+991   +43.006TQVVLLPGGVPR      -1.0000     NotChecked  -17.8673    1277.7456   ✗       
+992   +43.006TQVVLLGPAVPR      -1.0000     NotChecked  -17.8702    1291.7612   ✗       
+993   +43.006TQVVLLPGGPR       -1.0000     NotChecked  -17.8728    1178.6771   ✗       
+994   TQVVLLPGLPR              -1.0000     NotChecked  -17.8775    1191.7339   ✗       
+995   TQVVLLPAGVPR             -1.0000     NotChecked  -17.8816    1248.7554   ✗       
+996   ATQVVLLPAGAPR            -1.0000     NotChecked  -17.8877    1291.7612   ✗       
+997   +43.006TQVVLLPGLPR       -1.0000     NotChecked  -17.8889    1234.7397   ✗       
+998   +43.006TQVVLLPGAVPR      -1.0000     NotChecked  -17.8897    1291.7612   ✗       
+999   ATQVVLLPVPR              -1.0000     NotChecked  -17.8899    1191.7339   ✗       
+1000  +42.011TQVVLLPAGLPR      -1.0000     NotChecked  -17.8958    1304.7816   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: GTQVVLLPAGVPR
+Similarity: 0.6096
+De Novo Score: -1.3979
+Source: Database
+Correct: ✓
+

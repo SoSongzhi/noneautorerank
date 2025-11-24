@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 241
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 644.8377
+Precursor charge: 2+
+Ground truth: GIC+57.021AIAQAESIR
+Ground truth (normalized): GIC+57.021AIAQAESIR
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 257
+Used for reranking: 257
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 257 (25.7%)
+Database matches: 169 (16.9%)
+Prosit predictions: 81 (8.1%)
+Failed: 7 (0.7%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 11/1000
+Similarity: 0.5800
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     GLC+57.021ALAKAESLR      0.6009      Prosit      -18.3704    1287.6969   ✓       
+2     GLC+57.021ALAKAESLR      0.6009      Prosit      -19.9914    1287.6969   ✓       
+3     GLC+57.021ALAKAESLR      0.6009      Prosit      -25.7052    1287.6969   ✓       
+4     GLC+57.021ALAKAESLR      0.6009      Prosit      -25.7722    1287.6969   ✓       
+5     GLC+57.021ALAKAESLR      0.6009      Prosit      -27.3262    1287.6969   ✓       
+6     GLC+57.021ALAKAESLR      0.6009      Prosit      -27.3933    1287.6969   ✓       
+7     GLC+57.021ALAKAESLR      0.6009      Prosit      -30.8740    1287.6969   ✓       
+8     AVC+57.021ALAQAESLR      0.6008      Prosit      -28.2220    1287.6605   ✓       
+9     AVC+57.021ALAQAESLR      0.6008      Prosit      -29.8430    1287.6605   ✓       
+10    AVC+57.021ALAQAESLR      0.6008      Prosit      -35.6238    1287.6605   ✓       
+11    GLC+57.021ALAQAESLR      0.5800      Database    -0.1821     1287.6605   ✓       ✓
+12    GLC+57.021ALAQAESLR      0.5800      Database    -1.8032     1287.6605   ✓       ✓
+13    GLC+57.021ALAQAESLR      0.5800      Database    -7.5169     1287.6605   ✓       ✓
+14    GLC+57.021ALAQAESLR      0.5800      Database    -7.5840     1287.6605   ✓       ✓
+15    GLC+57.021ALAQAESLR      0.5800      Database    -8.7361     1287.6605   ✓       ✓
+16    GLC+57.021ALAQAESLR      0.5800      Database    -9.1379     1287.6605   ✓       ✓
+17    GLC+57.021ALAQAESLR      0.5800      Database    -9.2050     1287.6605   ✓       ✓
+18    GLC+57.021ALAQAESLR      0.5800      Database    -10.3571    1287.6605   ✓       ✓
+19    GLC+57.021ALAQAESLR      0.5800      Database    -10.4931    1287.6605   ✓       ✓
+20    GLC+57.021ALAQAESLR      0.5800      Database    -12.1142    1287.6605   ✓       ✓
+21    GLC+57.021ALAQAESLR      0.5800      Database    -12.6857    1287.6605   ✓       ✓
+22    GLC+57.021ALAQAESLR      0.5800      Database    -13.9233    1287.6605   ✓       ✓
+23    GLC+57.021ALAQAESLR      0.5800      Database    -14.3067    1287.6605   ✓       ✓
+24    GLC+57.021ALAQAESLR      0.5800      Database    -14.9187    1287.6605   ✓       ✓
+25    GLC+57.021ALAQAESLR      0.5800      Database    -14.9623    1287.6605   ✓       ✓
+26    GLC+57.021ALAQAESLR      0.5800      Database    -15.5444    1287.6605   ✓       ✓
+27    GLC+57.021ALAQAESLR      0.5800      Database    -16.0708    1287.6605   ✓       ✓
+28    GLC+57.021ALAQAESLR      0.5800      Database    -16.0810    1287.6605   ✓       ✓
+29    GLC+57.021ALAQAESLR      0.5800      Database    -16.1379    1287.6605   ✓       ✓
+30    GLC+57.021ALAQAESLR      0.5800      Database    -16.4036    1287.6605   ✓       ✓
+31    GLC+57.021ALAQAESLR      0.5800      Database    -16.5397    1287.6605   ✓       ✓
+32    GLC+57.021ALAQAESLR      0.5800      Database    -16.5833    1287.6605   ✓       ✓
+33    GLC+57.021ALAQAESLR      0.5800      Database    -17.5149    1287.6605   ✓       ✓
+34    GLC+57.021ALAQAESLR      0.5800      Database    -17.5409    1287.6605   ✓       ✓
+35    GLC+57.021ALAQAESLR      0.5800      Database    -17.5564    1287.6605   ✓       ✓
+36    GLC+57.021ALAQAESLR      0.5800      Database    -17.6918    1287.6605   ✓       ✓
+37    GLC+57.021ALAQAESLR      0.5800      Database    -17.7020    1287.6605   ✓       ✓
+38    GLC+57.021ALAQAESLR      0.5800      Database    -17.7589    1287.6605   ✓       ✓
+39    GLC+57.021ALAQAESLR      0.5800      Database    -17.8279    1287.6605   ✓       ✓
+40    GLC+57.021ALAQAESLR      0.5800      Database    -17.8950    1287.6605   ✓       ✓
+41    GLC+57.021ALAQAESLR      0.5800      Database    -18.0246    1287.6605   ✓       ✓
+42    GLC+57.021ALAQAESLR      0.5800      Database    -18.7895    1287.6605   ✓       ✓
+43    GLC+57.021ALAQAESLR      0.5800      Database    -18.9928    1287.6605   ✓       ✓
+44    GLC+57.021ALAQAESLR      0.5800      Database    -19.0471    1287.6605   ✓       ✓
+45    GLC+57.021ALAQAESLR      0.5800      Database    -19.1274    1287.6605   ✓       ✓
+46    GLC+57.021ALAQAESLR      0.5800      Database    -19.1359    1287.6605   ✓       ✓
+47    GLC+57.021ALAQAESLR      0.5800      Database    -19.1619    1287.6605   ✓       ✓
+48    GLC+57.021ALAQAESLR      0.5800      Database    -19.1774    1287.6605   ✓       ✓
+49    GLC+57.021ALAQAESLR      0.5800      Database    -19.4489    1287.6605   ✓       ✓
+50    GLC+57.021ALAQAESLR      0.5800      Database    -19.5160    1287.6605   ✓       ✓
+51    GLC+57.021ALAQAESLR      0.5800      Database    -20.0875    1287.6605   ✓       ✓
+52    GLC+57.021ALAQAESLR      0.5800      Database    -20.1167    1287.6605   ✓       ✓
+53    GLC+57.021ALAQAESLR      0.5800      Database    -20.4105    1287.6605   ✓       ✓
+54    GLC+57.021ALAQAESLR      0.5800      Database    -20.6139    1287.6605   ✓       ✓
+55    GLC+57.021ALAQAESLR      0.5800      Database    -20.6681    1287.6605   ✓       ✓
+56    GLC+57.021ALAQAESLR      0.5800      Database    -20.7484    1287.6605   ✓       ✓
+57    GLC+57.021ALAQAESLR      0.5800      Database    -21.2397    1287.6605   ✓       ✓
+58    GLC+57.021ALAQAESLR      0.5800      Database    -21.2581    1287.6605   ✓       ✓
+59    GLC+57.021ALAQAESLR      0.5800      Database    -21.3252    1287.6605   ✓       ✓
+60    GLC+57.021ALAQAESLR      0.5800      Database    -21.7085    1287.6605   ✓       ✓
+61    GLC+57.021ALAQAESLR      0.5800      Database    -21.7377    1287.6605   ✓       ✓
+62    GLC+57.021ALAQAESLR      0.5800      Database    -22.1466    1287.6605   ✓       ✓
+63    GLC+57.021ALAQAESLR      0.5800      Database    -22.2387    1287.6605   ✓       ✓
+64    GLC+57.021ALAQAESLR      0.5800      Database    -22.2971    1287.6605   ✓       ✓
+65    GLC+57.021ALAQAESLR      0.5800      Database    -22.4773    1287.6605   ✓       ✓
+66    GLC+57.021ALAQAESLR      0.5800      Database    -22.8607    1287.6605   ✓       ✓
+67    GLC+57.021ALAQAESLR      0.5800      Database    -22.8791    1287.6605   ✓       ✓
+68    GLC+57.021ALAQAESLR      0.5800      Database    -22.9462    1287.6605   ✓       ✓
+69    GLC+57.021ALAQAESLR      0.5800      Database    -22.9967    1287.6605   ✓       ✓
+70    GLC+57.021ALAQAESLR      0.5800      Database    -23.4158    1287.6605   ✓       ✓
+71    GLC+57.021ALAQAESLR      0.5800      Database    -23.4727    1287.6605   ✓       ✓
+72    GLC+57.021ALAQAESLR      0.5800      Database    -23.4828    1287.6605   ✓       ✓
+73    GLC+57.021ALAQAESLR      0.5800      Database    -23.5163    1287.6605   ✓       ✓
+74    GLC+57.021ALAQAESLR      0.5800      Database    -23.7384    1287.6605   ✓       ✓
+75    GLC+57.021ALAQAESLR      0.5800      Database    -23.7637    1287.6605   ✓       ✓
+76    GLC+57.021ALAQAESLR      0.5800      Database    -23.8054    1287.6605   ✓       ✓
+77    GLC+57.021ALAQAESLR      0.5800      Database    -23.8597    1287.6605   ✓       ✓
+78    GLC+57.021ALAQAESLR      0.5800      Database    -23.9181    1287.6605   ✓       ✓
+79    GLC+57.021ALAQAESLR      0.5800      Database    -24.0983    1287.6605   ✓       ✓
+80    GLC+57.021ALAQAESLR      0.5800      Database    -24.2343    1287.6605   ✓       ✓
+81    GLC+57.021ALAQAESLR      0.5800      Database    -24.6177    1287.6605   ✓       ✓
+82    GLC+57.021ALAQAESLR      0.5800      Database    -24.6350    1287.6605   ✓       ✓
+83    GLC+57.021ALAQAESLR      0.5800      Database    -24.8496    1287.6605   ✓       ✓
+84    GLC+57.021ALAQAESLR      0.5800      Database    -24.8756    1287.6605   ✓       ✓
+85    GLC+57.021ALAQAESLR      0.5800      Database    -24.8911    1287.6605   ✓       ✓
+86    GLC+57.021ALAQAESLR      0.5800      Database    -24.9167    1287.6605   ✓       ✓
+87    GLC+57.021ALAQAESLR      0.5800      Database    -24.9427    1287.6605   ✓       ✓
+88    GLC+57.021ALAQAESLR      0.5800      Database    -24.9576    1287.6605   ✓       ✓
+89    GLC+57.021ALAQAESLR      0.5800      Database    -24.9582    1287.6605   ✓       ✓
+90    GLC+57.021ALAQAESLR      0.5800      Database    -25.0368    1287.6605   ✓       ✓
+91    GLC+57.021ALAQAESLR      0.5800      Database    -25.0937    1287.6605   ✓       ✓
+92    GLC+57.021ALAQAESLR      0.5800      Database    -25.1039    1287.6605   ✓       ✓
+93    GLC+57.021ALAQAESLR      0.5800      Database    -25.1373    1287.6605   ✓       ✓
+94    GLC+57.021ALAQAESLR      0.5800      Database    -25.2297    1287.6605   ✓       ✓
+95    GLC+57.021ALAQAESLR      0.5800      Database    -25.2733    1287.6605   ✓       ✓
+96    GLC+57.021ALAQAESLR      0.5800      Database    -25.3594    1287.6605   ✓       ✓
+97    GLC+57.021ALAQAESLR      0.5800      Database    -25.3847    1287.6605   ✓       ✓
+98    GLC+57.021ALAQAESLR      0.5800      Database    -25.4265    1287.6605   ✓       ✓
+99    GLC+57.021ALAQAESLR      0.5800      Database    -25.7594    1287.6605   ✓       ✓
+100   GLC+57.021ALAQAESLR      0.5800      Database    -25.8554    1287.6605   ✓       ✓
+101   GLC+57.021ALAQAESLR      0.5800      Database    -26.0688    1287.6605   ✓       ✓
+102   GLC+57.021ALAQAESLR      0.5800      Database    -26.0949    1287.6605   ✓       ✓
+103   GLC+57.021ALAQAESLR      0.5800      Database    -26.1103    1287.6605   ✓       ✓
+104   GLC+57.021ALAQAESLR      0.5800      Database    -26.1242    1287.6605   ✓       ✓
+105   GLC+57.021ALAQAESLR      0.5800      Database    -26.1913    1287.6605   ✓       ✓
+106   GLC+57.021ALAQAESLR      0.5800      Database    -26.2560    1287.6605   ✓       ✓
+107   GLC+57.021ALAQAESLR      0.5800      Database    -26.3276    1287.6605   ✓       ✓
+108   GLC+57.021ALAQAESLR      0.5800      Database    -26.3818    1287.6605   ✓       ✓
+109   GLC+57.021ALAQAESLR      0.5800      Database    -26.3920    1287.6605   ✓       ✓
+110   GLC+57.021ALAQAESLR      0.5800      Database    -26.3947    1287.6605   ✓       ✓
+111   GLC+57.021ALAQAESLR      0.5800      Database    -26.4269    1287.6605   ✓       ✓
+112   GLC+57.021ALAQAESLR      0.5800      Database    -26.4489    1287.6605   ✓       ✓
+113   GLC+57.021ALAQAESLR      0.5800      Database    -26.4621    1287.6605   ✓       ✓
+114   GLC+57.021ALAQAESLR      0.5800      Database    -26.4706    1287.6605   ✓       ✓
+115   GLC+57.021ALAQAESLR      0.5800      Database    -26.4727    1287.6605   ✓       ✓
+116   GLC+57.021ALAQAESLR      0.5800      Database    -26.4967    1287.6605   ✓       ✓
+117   GLC+57.021ALAQAESLR      0.5800      Database    -26.5121    1287.6605   ✓       ✓
+118   GLC+57.021ALAQAESLR      0.5800      Database    -26.5292    1287.6605   ✓       ✓
+119   GLC+57.021ALAQAESLR      0.5800      Database    -26.5377    1287.6605   ✓       ✓
+120   GLC+57.021ALAQAESLR      0.5800      Database    -26.5637    1287.6605   ✓       ✓
+121   GLC+57.021ALAQAESLR      0.5800      Database    -26.5786    1287.6605   ✓       ✓
+122   GLC+57.021ALAQAESLR      0.5800      Database    -26.5792    1287.6605   ✓       ✓
+123   GLC+57.021ALAQAESLR      0.5800      Database    -26.6543    1287.6605   ✓       ✓
+124   GLC+57.021ALAQAESLR      0.5800      Database    -26.7146    1287.6605   ✓       ✓
+125   GLC+57.021ALAQAESLR      0.5800      Database    -26.8507    1287.6605   ✓       ✓
+126   GLC+57.021ALAQAESLR      0.5800      Database    -26.8943    1287.6605   ✓       ✓
+127   GLC+57.021ALAQAESLR      0.5800      Database    -27.3434    1287.6605   ✓       ✓
+128   GLC+57.021ALAQAESLR      0.5800      Database    -27.3804    1287.6605   ✓       ✓
+129   GLC+57.021ALAQAESLR      0.5800      Database    -27.4514    1287.6605   ✓       ✓
+130   GLC+57.021ALAQAESLR      0.5800      Database    -27.4659    1287.6605   ✓       ✓
+131   GLC+57.021ALAQAESLR      0.5800      Database    -27.5185    1287.6605   ✓       ✓
+132   GLC+57.021ALAQAESLR      0.5800      Database    -27.5468    1287.6605   ✓       ✓
+133   GLC+57.021ALAQAESLR      0.5800      Database    -27.6814    1287.6605   ✓       ✓
+134   GLC+57.021ALAQAESLR      0.5800      Database    -27.6899    1287.6605   ✓       ✓
+135   GLC+57.021ALAQAESLR      0.5800      Database    -27.7452    1287.6605   ✓       ✓
+136   GLC+57.021ALAQAESLR      0.5800      Database    -27.9486    1287.6605   ✓       ✓
+137   GLC+57.021ALAQAESLR      0.5800      Database    -28.0028    1287.6605   ✓       ✓
+138   GLC+57.021ALAQAESLR      0.5800      Database    -28.0479    1287.6605   ✓       ✓
+139   GLC+57.021ALAQAESLR      0.5800      Database    -28.0832    1287.6605   ✓       ✓
+140   GLC+57.021ALAQAESLR      0.5800      Database    -28.0937    1287.6605   ✓       ✓
+141   GLC+57.021ALAQAESLR      0.5800      Database    -28.5846    1287.6605   ✓       ✓
+142   GLC+57.021ALAQAESLR      0.5800      Database    -28.6415    1287.6605   ✓       ✓
+143   GLC+57.021ALAQAESLR      0.5800      Database    -28.6599    1287.6605   ✓       ✓
+144   GLC+57.021ALAQAESLR      0.5800      Database    -28.9072    1287.6605   ✓       ✓
+145   GLC+57.021ALAQAESLR      0.5800      Database    -29.0724    1287.6605   ✓       ✓
+146   GLC+57.021ALAQAESLR      0.5800      Database    -29.0869    1287.6605   ✓       ✓
+147   GLC+57.021ALAQAESLR      0.5800      Database    -29.4813    1287.6605   ✓       ✓
+148   GLC+57.021ALAQAESLR      0.5800      Database    -29.5734    1287.6605   ✓       ✓
+149   GLC+57.021ALAQAESLR      0.5800      Database    -29.8120    1287.6605   ✓       ✓
+150   GLC+57.021ALAQAESLR      0.5800      Database    -30.0184    1287.6605   ✓       ✓
+151   GLC+57.021ALAQAESLR      0.5800      Database    -30.0445    1287.6605   ✓       ✓
+152   GLC+57.021ALAQAESLR      0.5800      Database    -30.0599    1287.6605   ✓       ✓
+153   GLC+57.021ALAQAESLR      0.5800      Database    -30.2056    1287.6605   ✓       ✓
+154   GLC+57.021ALAQAESLR      0.5800      Database    -30.2625    1287.6605   ✓       ✓
+155   GLC+57.021ALAQAESLR      0.5800      Database    -30.2809    1287.6605   ✓       ✓
+156   GLC+57.021ALAQAESLR      0.5800      Database    -30.3985    1287.6605   ✓       ✓
+157   GLC+57.021ALAQAESLR      0.5800      Database    -30.5282    1287.6605   ✓       ✓
+158   GLC+57.021ALAQAESLR      0.5800      Database    -30.8176    1287.6605   ✓       ✓
+159   GLC+57.021ALAQAESLR      0.5800      Database    -30.8510    1287.6605   ✓       ✓
+160   GLC+57.021ALAQAESLR      0.5800      Database    -31.0985    1287.6605   ✓       ✓
+161   GLC+57.021ALAQAESLR      0.5800      Database    -31.1402    1287.6605   ✓       ✓
+162   GLC+57.021ALAQAESLR      0.5800      Database    -31.1944    1287.6605   ✓       ✓
+163   GLC+57.021ALAQAESLR      0.5800      Database    -31.2930    1287.6605   ✓       ✓
+164   GLC+57.021ALAQAESLR      0.5800      Database    -31.4330    1287.6605   ✓       ✓
+165   GLC+57.021ALAQAESLR      0.5800      Database    -31.4964    1287.6605   ✓       ✓
+166   GLC+57.021ALAQAESLR      0.5800      Database    -31.5507    1287.6605   ✓       ✓
+167   GLC+57.021ALAQAESLR      0.5800      Database    -31.5691    1287.6605   ✓       ✓
+168   GLC+57.021ALAQAESLR      0.5800      Database    -31.6310    1287.6605   ✓       ✓
+169   GLC+57.021ALAQAESLR      0.5800      Database    -31.6395    1287.6605   ✓       ✓
+170   GLC+57.021ALAQAESLR      0.5800      Database    -31.6655    1287.6605   ✓       ✓
+171   GLC+57.021ALAQAESLR      0.5800      Database    -31.6809    1287.6605   ✓       ✓
+172   GLC+57.021ALAQAESLR      0.5800      Database    -31.9697    1287.6605   ✓       ✓
+173   GLC+57.021ALAQAESLR      0.5800      Database    -32.0195    1287.6605   ✓       ✓
+174   GLC+57.021ALAQAESLR      0.5800      Database    -32.2514    1287.6605   ✓       ✓
+175   GLC+57.021ALAQAESLR      0.5800      Database    -32.2775    1287.6605   ✓       ✓
+176   GLC+57.021ALAQAESLR      0.5800      Database    -32.2923    1287.6605   ✓       ✓
+177   GLC+57.021ALAQAESLR      0.5800      Database    -33.8746    1287.6605   ✓       ✓
+178   GLC+57.021ALAQAESLR      0.5800      Database    -35.0267    1287.6605   ✓       ✓
+179   GLC+57.021ALAQAESLR      0.5800      Database    -35.4956    1287.6605   ✓       ✓
+180   ALC+57.021AVAQAESLR      0.5791      Prosit      -32.6471    1287.6605   ✓       
+181   +42.011KC+57.021ALAQAESLR0.5585      Prosit      -32.7139    1287.6605   ✓       
+182   +42.011KC+57.021ALAQAESLR0.5585      Prosit      -34.3349    1287.6605   ✓       
+183   ALC+57.021GLAQAESLR      0.5574      Prosit      -29.8751    1287.6605   ✓       
+184   ALC+57.021GLAQAESLR      0.5574      Prosit      -31.4961    1287.6605   ✓       
+185   +42.011QC+57.021ALAQAESLR0.5520      Prosit      -33.7124    1287.6241   ✓       
+186   +42.011QC+57.021ALAQAESLR0.5520      Prosit      -35.3334    1287.6241   ✓       
+187   ALC+57.021ALANAESLR      0.5437      Prosit      -32.9880    1287.6605   ✓       
+188   ALC+57.021ALANAESLR      0.5437      Prosit      -34.6090    1287.6605   ✓       
+189   ALC+57.021ALAQGESLR      0.5427      Prosit      -31.0777    1287.6605   ✓       
+190   ALC+57.021ALAQGESLR      0.5427      Prosit      -32.6987    1287.6605   ✓       
+191   SLC+57.021ALAQAVSLR      0.5325      Prosit      -36.1171    1287.6969   ✓       
+192   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -8.5033     1287.6605   ✓       
+193   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -10.1243    1287.6605   ✓       
+194   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -15.8381    1287.6605   ✓       
+195   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -15.9051    1287.6605   ✓       
+196   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -17.0573    1287.6605   ✓       
+197   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -17.4591    1287.6605   ✓       
+198   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -17.5261    1287.6605   ✓       
+199   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -18.6783    1287.6605   ✓       
+200   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -18.8143    1287.6605   ✓       
+201   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -20.4353    1287.6605   ✓       
+202   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -21.0069    1287.6605   ✓       
+203   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -22.2445    1287.6605   ✓       
+204   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -22.6279    1287.6605   ✓       
+205   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -23.2399    1287.6605   ✓       
+206   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -23.2835    1287.6605   ✓       
+207   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -23.8655    1287.6605   ✓       
+208   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -24.3920    1287.6605   ✓       
+209   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -24.4022    1287.6605   ✓       
+210   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -24.4591    1287.6605   ✓       
+211   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -24.7248    1287.6605   ✓       
+212   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -24.8609    1287.6605   ✓       
+213   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -24.9045    1287.6605   ✓       
+214   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -25.8361    1287.6605   ✓       
+215   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -25.8621    1287.6605   ✓       
+216   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -26.0130    1287.6605   ✓       
+217   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -26.0232    1287.6605   ✓       
+218   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -26.0801    1287.6605   ✓       
+219   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -26.1490    1287.6605   ✓       
+220   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -26.2161    1287.6605   ✓       
+221   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -26.3458    1287.6605   ✓       
+222   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -27.1106    1287.6605   ✓       
+223   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -27.3140    1287.6605   ✓       
+224   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -27.3683    1287.6605   ✓       
+225   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -27.4486    1287.6605   ✓       
+226   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -27.4571    1287.6605   ✓       
+227   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -27.4831    1287.6605   ✓       
+228   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -27.7701    1287.6605   ✓       
+229   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -28.4087    1287.6605   ✓       
+230   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -29.5608    1287.6605   ✓       
+231   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -29.5793    1287.6605   ✓       
+232   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -30.0297    1287.6605   ✓       
+233   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -30.6182    1287.6605   ✓       
+234   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -31.1819    1287.6605   ✓       
+235   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -31.2003    1287.6605   ✓       
+236   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -31.3179    1287.6605   ✓       
+237   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -31.7369    1287.6605   ✓       
+238   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -31.7938    1287.6605   ✓       
+239   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -32.0595    1287.6605   ✓       
+240   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -32.2392    1287.6605   ✓       
+241   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -34.7939    1287.6605   ✓       
+242   GLC+57.021ALAQAQ+0.984SLR0.5041      Prosit      -36.4149    1287.6605   ✓       
+243   +43.006LC+57.021ALAQAETLR0.4531      Prosit      -31.0179    1287.6605   ✓       
+244   +43.006LC+57.021ALAQAETLR0.4531      Prosit      -32.6389    1287.6605   ✓       
+245   ALC+57.021ALAQAESVR      0.4379      Prosit      -29.8479    1287.6605   ✓       
+246   ALC+57.021ALAQAESVR      0.4379      Prosit      -31.4689    1287.6605   ✓       
+247   GVC+57.021ALAQAETLR      0.3951      Prosit      -29.6529    1287.6605   ✓       
+248   GVC+57.021ALAQAETLR      0.3951      Prosit      -31.2740    1287.6605   ✓       
+249   +42.011LC+57.021ALAQAESQR0.3757      Prosit      -33.1591    1287.6241   ✓       
+250   +42.011LC+57.021ALAQAESQR0.3757      Prosit      -34.7802    1287.6241   ✓       
+251   GLC+57.021ALAQAEGLR      -1.0000     NotChecked  -14.0464    1257.6500   ✗       
+252   GLC+57.021ALAQAESLK      -1.0000     NotChecked  -14.4125    1259.6544   ✗       
+253   GVC+57.021ALAQAESLR      -1.0000     NotChecked  -14.4421    1273.6449   ✗       
+254   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -15.5819    1272.6496   ✗       
+255   GLC+57.021ALAQAEGLR      -1.0000     NotChecked  -15.6674    1257.6500   ✗       
+256   GLC+57.021ALAQAEALR      -1.0000     NotChecked  -15.8069    1271.6656   ✗       
+257   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -15.8070    1273.6449   ✗       
+258   GLC+57.021ALAQAESTR      -1.0000     NotChecked  -15.8539    1275.6241   ✗       
+259   GLC+57.021ALAQAESLK      -1.0000     NotChecked  -16.0335    1259.6544   ✗       
+260   GVC+57.021ALAQAESLR      -1.0000     NotChecked  -16.0631    1273.6449   ✗       
+261   GLC+57.021ALAQAESVR      -1.0000     NotChecked  -16.0679    1273.6449   ✗       
+262   GLC+57.021GLAQAESLR      -1.0000     NotChecked  -16.0952    1273.6449   ✗       
+263   GLC+57.021ALAQAESSR      -1.0000     NotChecked  -16.3129    1261.6085   ✗       
+264   GLC+57.021ALAQAQSLR      -1.0000     NotChecked  -16.6401    1286.6765   ✗       
+265   GLC+57.021ALAQADSLR      -1.0000     NotChecked  -17.0426    1273.6449   ✗       
+266   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -17.2029    1272.6496   ✗       
+267   GLC+57.021ALAQGESLR      -1.0000     NotChecked  -17.2977    1273.6449   ✗       
+268   GLC+57.021ALAQAEALR      -1.0000     NotChecked  -17.4279    1271.6656   ✗       
+269   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -17.4280    1273.6449   ✗       
+270   GLC+57.021ALAQAESTR      -1.0000     NotChecked  -17.4749    1275.6241   ✗       
+271   GAC+57.021ALAQAESLR      -1.0000     NotChecked  -17.6742    1245.6136   ✗       
+272   GLC+57.021ALAQAESVR      -1.0000     NotChecked  -17.6889    1273.6449   ✗       
+273   GLC+57.021GLAQAESLR      -1.0000     NotChecked  -17.7162    1273.6449   ✗       
+274   GLC+57.021ALAQAESSR      -1.0000     NotChecked  -17.9339    1261.6085   ✗       
+275   GLC+57.021ALAQASSLR      -1.0000     NotChecked  -17.9580    1245.6500   ✗       
+276   GLC+57.021ALAQAVSLR      -1.0000     NotChecked  -18.1301    1257.6863   ✗       
+277   GLC+57.021ALAQAQSLR      -1.0000     NotChecked  -18.2611    1286.6765   ✗       
+278   GLC+57.021ALAQAESR       -1.0000     NotChecked  -18.3575    1174.5765   ✗       
+279   GLC+57.021ALAQALSLR      -1.0000     NotChecked  -18.4149    1271.7020   ✗       
+280   GLC+57.021ALAQAESAR      -1.0000     NotChecked  -18.4583    1245.6136   ✗       
+281   GLC+57.021ALAQAASLR      -1.0000     NotChecked  -18.5632    1229.6550   ✗       
+282   GLC+57.021ALAQADSLR      -1.0000     NotChecked  -18.6636    1273.6449   ✗       
+283   GGC+57.021ALAQAESLR      -1.0000     NotChecked  -18.8375    1231.5979   ✗       
+284   GLC+57.021AVAQAESLR      -1.0000     NotChecked  -18.8672    1273.6449   ✗       
+285   GLC+57.021ALAQGESLR      -1.0000     NotChecked  -18.9187    1273.6449   ✗       
+286   GLC+57.021ALAQESLR       -1.0000     NotChecked  -18.9686    1216.6234   ✗       
+287   LC+57.021ALAQAESLR       -1.0000     NotChecked  -19.1380    1230.6391   ✗       
+288   GLC+57.021ALANAESLR      -1.0000     NotChecked  -19.2080    1273.6449   ✗       
+289   GAC+57.021ALAQAESLR      -1.0000     NotChecked  -19.2953    1245.6136   ✗       
+290   GLC+57.021ALAAAESLR      -1.0000     NotChecked  -19.5100    1230.6391   ✗       
+291   GLC+57.021ALAQASSLR      -1.0000     NotChecked  -19.5790    1245.6500   ✗       
+292   GLC+57.021ALGQAESLR      -1.0000     NotChecked  -19.6777    1273.6449   ✗       
+293   GLC+57.021ALAQAVSLR      -1.0000     NotChecked  -19.7511    1257.6863   ✗       
+294   GLC+57.021ALQAESLR       -1.0000     NotChecked  -19.7824    1216.6234   ✗       
+295   GTC+57.021ALAQAESLR      -1.0000     NotChecked  -19.8303    1275.6241   ✗       
+296   GLC+57.021ALAQAESLS      -1.0000     NotChecked  -19.9246    1218.5914   ✗       
+297   GLC+57.021ALAQAESR       -1.0000     NotChecked  -19.9785    1174.5765   ✗       
+298   GLC+57.021ALAQAESLG      -1.0000     NotChecked  -20.0244    1188.5809   ✗       
+299   GLC+57.021ALAQALSLR      -1.0000     NotChecked  -20.0359    1271.7020   ✗       
+300   GLC+57.021ALAQAESAR      -1.0000     NotChecked  -20.0793    1245.6136   ✗       
+301   GLC+57.021ALAQAASLR      -1.0000     NotChecked  -20.1842    1229.6550   ✗       
+302   GLC+57.021ALAQAESLT      -1.0000     NotChecked  -20.2036    1232.6071   ✗       
+303   GLC+57.021ALAQAESLQ      -1.0000     NotChecked  -20.3954    1259.6180   ✗       
+304   GGC+57.021ALAQAESLR      -1.0000     NotChecked  -20.4586    1231.5979   ✗       
+305   GLC+57.021ALAQESLR       -1.0000     NotChecked  -20.5896    1216.6234   ✗       
+306   GLC+57.021ALAQAESLV      -1.0000     NotChecked  -20.7393    1230.6278   ✗       
+307   GLC+57.021ALAQAESL       -1.0000     NotChecked  -20.7458    1131.5594   ✗       
+308   LC+57.021ALAQAESLR       -1.0000     NotChecked  -20.7590    1230.6391   ✗       
+309   GLC+57.021ALANAESLR      -1.0000     NotChecked  -20.8290    1273.6449   ✗       
+310   GLC+57.021ALAAAESLR      -1.0000     NotChecked  -21.1311    1230.6391   ✗       
+311   GLC+57.021AAAQAESLR      -1.0000     NotChecked  -21.2194    1245.6136   ✗       
+312   GLC+57.021ALGQAESLR      -1.0000     NotChecked  -21.2988    1273.6449   ✗       
+313   GLC+57.021ALAQAEGLR      -1.0000     NotChecked  -21.3811    1257.6500   ✗       
+314   GLC+57.021ALQAESLR       -1.0000     NotChecked  -21.4034    1216.6234   ✗       
+315   GLC+57.021ALAQAEGLR      -1.0000     NotChecked  -21.4482    1257.6500   ✗       
+316   GTC+57.021ALAQAESLR      -1.0000     NotChecked  -21.4513    1275.6241   ✗       
+317   GLC+57.021ALALAESLR      -1.0000     NotChecked  -21.4656    1272.6860   ✗       
+318   GLC+57.021ALAQAESLS      -1.0000     NotChecked  -21.5456    1218.5914   ✗       
+319   GLC+57.021ALAQAESLG      -1.0000     NotChecked  -21.6455    1188.5809   ✗       
+320   GLC+57.021ALAQAESLK      -1.0000     NotChecked  -21.7473    1259.6544   ✗       
+321   GVC+57.021ALAQAESLR      -1.0000     NotChecked  -21.7768    1273.6449   ✗       
+322   GLC+57.021ALAQAESLK      -1.0000     NotChecked  -21.8143    1259.6544   ✗       
+323   GLC+57.021ALAQAESLT      -1.0000     NotChecked  -21.8246    1232.6071   ✗       
+324   GVC+57.021ALAQAESLR      -1.0000     NotChecked  -21.8439    1273.6449   ✗       
+325   GLRALAQAESLR             -1.0000     NotChecked  -21.9921    1283.7310   ✗       
+326   GLC+57.021ALAQAESLQ      -1.0000     NotChecked  -22.0164    1259.6180   ✗       
+327   GLGALAQAESLR             -1.0000     NotChecked  -22.0387    1184.6513   ✗       
+328   GLC+57.021ALAQAESLV      -1.0000     NotChecked  -22.3603    1230.6278   ✗       
+329   GLC+57.021ALAQAESL       -1.0000     NotChecked  -22.3668    1131.5594   ✗       
+330   GLC+57.021ALAQAQ+0.984GLR-1.0000     NotChecked  -22.3676    1257.6500   ✗       
+331   GLC+57.021ALAQAEGLR      -1.0000     NotChecked  -22.6003    1257.6500   ✗       
+332   GLMALAQAESLR             -1.0000     NotChecked  -22.6393    1258.6704   ✗       
+333   GLC+57.021ALAQAQ+0.984SLK-1.0000     NotChecked  -22.7337    1259.6544   ✗       
+334   GLSALAQAESLR             -1.0000     NotChecked  -22.7502    1214.6619   ✗       
+335   GVC+57.021ALAQAQ+0.984SLR-1.0000     NotChecked  -22.7632    1273.6449   ✗       
+336   GLKALAQAESLR             -1.0000     NotChecked  -22.9171    1255.7248   ✗       
+337   GLC+57.021ALAQAESLK      -1.0000     NotChecked  -22.9665    1259.6544   ✗       
+338   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -22.9837    1272.6496   ✗       
+339   GVC+57.021ALAQAESLR      -1.0000     NotChecked  -22.9960    1273.6449   ✗       
+340   GLC+57.021ALAQAEGLR      -1.0000     NotChecked  -23.0021    1257.6500   ✗       
+341   GLC+57.021ALAQAEGLR      -1.0000     NotChecked  -23.0692    1257.6500   ✗       
+342   GLC+57.021ALALAESLR      -1.0000     NotChecked  -23.0866    1272.6860   ✗       
+343   GLC+57.021ALAQAEALR      -1.0000     NotChecked  -23.1416    1271.6656   ✗       
+344   GLC+57.021ALAQAESTR      -1.0000     NotChecked  -23.1886    1275.6241   ✗       
+345   GLC+57.021ALAQAEALR      -1.0000     NotChecked  -23.2087    1271.6656   ✗       
+346   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -23.2088    1273.6449   ✗       
+347   GLQALAQAESLR             -1.0000     NotChecked  -23.2766    1255.6885   ✗       
+348   GLLALAQAESLR             -1.0000     NotChecked  -23.3492    1240.7139   ✗       
+349   GLC+57.021ALAQAESLK      -1.0000     NotChecked  -23.3683    1259.6544   ✗       
+350   GLHALAQAESLR             -1.0000     NotChecked  -23.3717    1264.6888   ✗       
+351   GVC+57.021ALAQAESLR      -1.0000     NotChecked  -23.3978    1273.6449   ✗       
+352   GLC+57.021ALAQAESVR      -1.0000     NotChecked  -23.4027    1273.6449   ✗       
+353   GLC+57.021GLAQAESLR      -1.0000     NotChecked  -23.4299    1273.6449   ✗       
+354   GLC+57.021ALAQAESLK      -1.0000     NotChecked  -23.4353    1259.6544   ✗       
+355   GVC+57.021ALAQAESLR      -1.0000     NotChecked  -23.4649    1273.6449   ✗       
+356   GLC+57.021GLAQAESLR      -1.0000     NotChecked  -23.4970    1273.6449   ✗       
+357   GLC+57.021ALAQA-17.027ESLR-1.0000     NotChecked  -23.5569    1270.6340   ✗       
+358   GLRALAQAESLR             -1.0000     NotChecked  -23.6131    1283.7310   ✗       
+359   GLC+57.021ALAQAESSR      -1.0000     NotChecked  -23.6476    1261.6085   ✗       
+360   GLGALAQAESLR             -1.0000     NotChecked  -23.6597    1184.6513   ✗       
+361   +42.011LC+57.021ALAQAQ+0.984SLR-1.0000     NotChecked  -23.9031    1272.6496   ✗       
+362   GLC+57.021ALAQAQSLR      -1.0000     NotChecked  -23.9748    1286.6765   ✗       
+363   GLC+57.021ALAQAQ+0.984GLR-1.0000     NotChecked  -23.9886    1257.6500   ✗       
+364   GLC+57.021ALAQAQSLR      -1.0000     NotChecked  -24.0419    1286.6765   ✗       
+365   GLC+57.021ALAQAQ+0.984ALR-1.0000     NotChecked  -24.1281    1271.6656   ✗       
+366   +43.006LC+57.021ALAQAQ+0.984SLR-1.0000     NotChecked  -24.1282    1273.6449   ✗       
+367   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -24.1359    1272.6496   ✗       
+368   GLC+57.021ALAQAQ+0.984STR-1.0000     NotChecked  -24.1751    1275.6241   ✗       
+369   GLC+57.021ALAQAEGLR      -1.0000     NotChecked  -24.2214    1257.6500   ✗       
+370   GLMALAQAESLR             -1.0000     NotChecked  -24.2603    1258.6704   ✗       
+371   GLC+57.021ALAQAQ+0.984SLK-1.0000     NotChecked  -24.3547    1259.6544   ✗       
+372   GLC+57.021ALAQAEGLR      -1.0000     NotChecked  -24.3574    1257.6500   ✗       
+373   GLC+57.021ALAQAEALR      -1.0000     NotChecked  -24.3609    1271.6656   ✗       
+374   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -24.3610    1273.6449   ✗       
+375   GLSALAQAESLR             -1.0000     NotChecked  -24.3712    1214.6619   ✗       
+376   GLC+57.021ALAQADSLR      -1.0000     NotChecked  -24.3773    1273.6449   ✗       
+377   GVC+57.021ALAQAQ+0.984SLR-1.0000     NotChecked  -24.3842    1273.6449   ✗       
+378   GLC+57.021ALAQAQ+0.984SVR-1.0000     NotChecked  -24.3891    1273.6449   ✗       
+379   GLC+57.021ALAQAESTR      -1.0000     NotChecked  -24.4079    1275.6241   ✗       
+380   GLC+57.021GLAQAQ+0.984SLR-1.0000     NotChecked  -24.4163    1273.6449   ✗       
+381   GLC+57.021ALAQADSLR      -1.0000     NotChecked  -24.4444    1273.6449   ✗       
+382   GLKALAQAESLR             -1.0000     NotChecked  -24.5381    1255.7248   ✗       
+383   GLC+57.021ALAQAESLK      -1.0000     NotChecked  -24.5875    1259.6544   ✗       
+384   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -24.6048    1272.6496   ✗       
+385   GVC+57.021ALAQAESLR      -1.0000     NotChecked  -24.6170    1273.6449   ✗       
+386   GLC+57.021ALAQAESVR      -1.0000     NotChecked  -24.6219    1273.6449   ✗       
+387   GLC+57.021ALAQGESLR      -1.0000     NotChecked  -24.6324    1273.6449   ✗       
+388   GLC+57.021ALAQAQ+0.984SSR-1.0000     NotChecked  -24.6341    1261.6085   ✗       
+389   GLC+57.021GLAQAESLR      -1.0000     NotChecked  -24.6491    1273.6449   ✗       
+390   GLC+57.021ALAQGESLR      -1.0000     NotChecked  -24.6995    1273.6449   ✗       
+391   GLC+57.021ALAQAESLK      -1.0000     NotChecked  -24.7235    1259.6544   ✗       
+392   GLC+57.021ALAQAEALR      -1.0000     NotChecked  -24.7626    1271.6656   ✗       
+393   GLC+57.021ALAQAESTR      -1.0000     NotChecked  -24.8096    1275.6241   ✗       
+394   GLC+57.021ALAQAEALR      -1.0000     NotChecked  -24.8297    1271.6656   ✗       
+395   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -24.8298    1273.6449   ✗       
+396   GLC+57.021ALAQAESSR      -1.0000     NotChecked  -24.8668    1261.6085   ✗       
+397   GLQALAQAESLR             -1.0000     NotChecked  -24.8976    1255.6885   ✗       
+398   GLLALAQAESLR             -1.0000     NotChecked  -24.9703    1240.7139   ✗       
+399   GLHALAQAESLR             -1.0000     NotChecked  -24.9927    1264.6888   ✗       
+400   GAC+57.021ALAQAESLR      -1.0000     NotChecked  -25.0090    1245.6136   ✗       
+401   GLC+57.021ALAQAESVR      -1.0000     NotChecked  -25.0237    1273.6449   ✗       
+402   GLC+57.021GLAQAESLR      -1.0000     NotChecked  -25.0509    1273.6449   ✗       
+403   GAC+57.021ALAQAESLR      -1.0000     NotChecked  -25.0761    1245.6136   ✗       
+404   GLC+57.021GLAQAESLR      -1.0000     NotChecked  -25.1180    1273.6449   ✗       
+405   GLC+57.021ALAQA-17.027ESLR-1.0000     NotChecked  -25.1779    1270.6340   ✗       
+406   GLC+57.021ALAQAQSLR      -1.0000     NotChecked  -25.1941    1286.6765   ✗       
+407   GLC+57.021ALAQAESSR      -1.0000     NotChecked  -25.2686    1261.6085   ✗       
+408   GLC+57.021ALAQASSLR      -1.0000     NotChecked  -25.2927    1245.6500   ✗       
+409   GLC+57.021ALAQASSLR      -1.0000     NotChecked  -25.3598    1245.6500   ✗       
+410   GLC+57.021ALAQAVSLR      -1.0000     NotChecked  -25.4648    1257.6863   ✗       
+411   +42.011LC+57.021ALAQAQ+0.984SLR-1.0000     NotChecked  -25.5241    1272.6496   ✗       
+412   GLC+57.021ALAQAVSLR      -1.0000     NotChecked  -25.5319    1257.6863   ✗       
+413   GLC+57.021ALAQA-17.027ESLR-1.0000     NotChecked  -25.5622    1270.6340   ✗       
+414   GLC+57.021ALAQAQSLR      -1.0000     NotChecked  -25.5958    1286.6765   ✗       
+415   GLC+57.021ALAQADSLR      -1.0000     NotChecked  -25.5965    1273.6449   ✗       
+416   GLC+57.021ALAQGQ+0.984SLR-1.0000     NotChecked  -25.6189    1273.6449   ✗       
+417   GLC+57.021ALAQAQSLR      -1.0000     NotChecked  -25.6629    1286.6765   ✗       
+418   GLC+57.021ALAQAESR       -1.0000     NotChecked  -25.6923    1174.5765   ✗       
+419   GLC+57.021AL-17.027AQAESLR-1.0000     NotChecked  -25.7351    1270.6340   ✗       
+420   GLC+57.021ALAQAQ+0.984ALR-1.0000     NotChecked  -25.7491    1271.6656   ✗       
+421   +43.006LC+57.021ALAQAQ+0.984SLR-1.0000     NotChecked  -25.7492    1273.6449   ✗       
+422   GLC+57.021ALAQALSLR      -1.0000     NotChecked  -25.7496    1271.7020   ✗       
+423   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -25.7569    1272.6496   ✗       
+424   GLC+57.021ALAQAESAR      -1.0000     NotChecked  -25.7930    1245.6136   ✗       
+425   GLC+57.021ALAQAQ+0.984STR-1.0000     NotChecked  -25.7961    1275.6241   ✗       
+426   GLC+57.021ALAQALSLR      -1.0000     NotChecked  -25.8167    1271.7020   ✗       
+427   GLC+57.021ALAQGESLR      -1.0000     NotChecked  -25.8517    1273.6449   ✗       
+428   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -25.8929    1272.6496   ✗       
+429   GLC+57.021ALAQAASLR      -1.0000     NotChecked  -25.8980    1229.6550   ✗       
+430   GLC+57.021ALAQAASLR      -1.0000     NotChecked  -25.9651    1229.6550   ✗       
+431   GLC+57.021ALAQAEGLR      -1.0000     NotChecked  -25.9784    1257.6500   ✗       
+432   GLC+57.021ALAQAEALR      -1.0000     NotChecked  -25.9819    1271.6656   ✗       
+433   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -25.9820    1273.6449   ✗       
+434   GAC+57.021ALAQAQ+0.984SLR-1.0000     NotChecked  -25.9954    1245.6136   ✗       
+435   GLC+57.021ALAQADSLR      -1.0000     NotChecked  -25.9983    1273.6449   ✗       
+436   GLC+57.021ALAQAQ+0.984SVR-1.0000     NotChecked  -26.0101    1273.6449   ✗       
+437   GLC+57.021ALAQAESTR      -1.0000     NotChecked  -26.0289    1275.6241   ✗       
+438   GLC+57.021GLAQAQ+0.984SLR-1.0000     NotChecked  -26.0373    1273.6449   ✗       
+439   GLC+57.021ALAQADSLR      -1.0000     NotChecked  -26.0654    1273.6449   ✗       
+440   GLC+57.021ALAQAEALR      -1.0000     NotChecked  -26.1179    1271.6656   ✗       
+441   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -26.1180    1273.6449   ✗       
+442   GLC+57.021ALAQAESTR      -1.0000     NotChecked  -26.1649    1275.6241   ✗       
+443   GC+57.021ALAQAESLR       -1.0000     NotChecked  -26.1723    1174.5765   ✗       
+444   GLC+57.021AVAQAESLR      -1.0000     NotChecked  -26.2019    1273.6449   ✗       
+445   GAC+57.021ALAQAESLR      -1.0000     NotChecked  -26.2282    1245.6136   ✗       
+446   GGC+57.021ALAQAESLR      -1.0000     NotChecked  -26.2394    1231.5979   ✗       
+447   GLC+57.021ALAQAESVR      -1.0000     NotChecked  -26.2429    1273.6449   ✗       
+448   GLC+57.021ALAQGESLR      -1.0000     NotChecked  -26.2535    1273.6449   ✗       
+449   GLC+57.021ALAQAQ+0.984SSR-1.0000     NotChecked  -26.2551    1261.6085   ✗       
+450   GLC+57.021AVAQAESLR      -1.0000     NotChecked  -26.2690    1273.6449   ✗       
+451   GLC+57.021GLAQAESLR      -1.0000     NotChecked  -26.2701    1273.6449   ✗       
+452   GLC+57.021ALAQESLR       -1.0000     NotChecked  -26.3034    1216.6234   ✗       
+453   GLC+57.021ALAQGESLR      -1.0000     NotChecked  -26.3205    1273.6449   ✗       
+454   GLC+57.021ALAQAESLK      -1.0000     NotChecked  -26.3445    1259.6544   ✗       
+455   GLC+57.021ALAQESLR       -1.0000     NotChecked  -26.3704    1216.6234   ✗       
+456   GLC+57.021ALAQAESVR      -1.0000     NotChecked  -26.3789    1273.6449   ✗       
+457   GLC+57.021GLAQAESLR      -1.0000     NotChecked  -26.4061    1273.6449   ✗       
+458   GLC+57.021ALAQAESSR      -1.0000     NotChecked  -26.4878    1261.6085   ✗       
+459   GLC+57.021ALAQASSLR      -1.0000     NotChecked  -26.5119    1245.6500   ✗       
+460   LC+57.021ALAQAESLR       -1.0000     NotChecked  -26.5398    1230.6391   ✗       
+461   GLC+57.021ALANAESLR      -1.0000     NotChecked  -26.5427    1273.6449   ✗       
+462   GLC+57.021ALAQAEGLR      -1.0000     NotChecked  -26.5499    1257.6500   ✗       
+463   GLC+57.021ALANAESLR      -1.0000     NotChecked  -26.6098    1273.6449   ✗       
+464   GLC+57.021ALAQAESSR      -1.0000     NotChecked  -26.6239    1261.6085   ✗       
+465   GAC+57.021ALAQAESLR      -1.0000     NotChecked  -26.6300    1245.6136   ✗       
+466   GLC+57.021ALAQAQ+0.984SR -1.0000     NotChecked  -26.6787    1174.5765   ✗       
+467   GLC+57.021ALAQAVSLR      -1.0000     NotChecked  -26.6840    1257.6863   ✗       
+468   GLC+57.021ALAKAQ+0.984SLR-1.0000     Failed      -26.6916    1287.6969   ✓       
+469   GAC+57.021ALAQAESLR      -1.0000     NotChecked  -26.6971    1245.6136   ✗       
+470   GLC+57.021ALAQAQ+0.984SAR-1.0000     NotChecked  -26.7794    1245.6136   ✗       
+471   GLC+57.021ALAQAQSLR      -1.0000     NotChecked  -26.8151    1286.6765   ✗       
+472   GLC+57.021ALAAAESLR      -1.0000     NotChecked  -26.8448    1230.6391   ✗       
+473   GLC+57.021ALAQAESR       -1.0000     NotChecked  -26.9115    1174.5765   ✗       
+474   GLC+57.021ALAAAESLR      -1.0000     NotChecked  -26.9119    1230.6391   ✗       
+475   GLC+57.021ALAQASSLR      -1.0000     NotChecked  -26.9137    1245.6500   ✗       
+476   GLC+57.021ALAQAESLK      -1.0000     NotChecked  -26.9161    1259.6544   ✗       
+477   GLC+57.021ALAQAQSLR      -1.0000     NotChecked  -26.9511    1286.6765   ✗       
+478   GLC+57.021ALAQALSLR      -1.0000     NotChecked  -26.9688    1271.7020   ✗       
+479   GLC+57.021ALAQASSLR      -1.0000     NotChecked  -26.9808    1245.6500   ✗       
+480   GLC+57.021ALAQAESAR      -1.0000     NotChecked  -27.0122    1245.6136   ✗       
+481   GLC+57.021ALGQAESLR      -1.0000     NotChecked  -27.0125    1273.6449   ✗       
+482   GLC+57.021ALAQ+0.984AEGLR-1.0000     NotChecked  -27.0726    1258.6340   ✗       
+483   GLC+57.021ALGQAESLR      -1.0000     NotChecked  -27.0796    1273.6449   ✗       
+484   GLC+57.021ALAQAVSLR      -1.0000     NotChecked  -27.0858    1257.6863   ✗       
+485   GLC+57.021ALQAESLR       -1.0000     NotChecked  -27.1172    1216.6234   ✗       
+486   GLC+57.021ALAQAASLR      -1.0000     NotChecked  -27.1172    1229.6550   ✗       
+487   GLC+57.021ALAQAVSLR      -1.0000     NotChecked  -27.1529    1257.6863   ✗       
+488   GGC+57.021ALAQAQ+0.984SLR-1.0000     NotChecked  -27.1587    1231.5979   ✗       
+489   GTC+57.021ALAQAESLR      -1.0000     NotChecked  -27.1650    1275.6241   ✗       
+490   GLC+57.021ALAQA-17.027ESLR-1.0000     NotChecked  -27.1833    1270.6340   ✗       
+491   GLC+57.021ALQAESLR       -1.0000     NotChecked  -27.1842    1216.6234   ✗       
+492   GLC+57.021AVAQAQ+0.984SLR-1.0000     NotChecked  -27.1883    1273.6449   ✗       
+493   GLC+57.021ALAQADSLR      -1.0000     NotChecked  -27.2175    1273.6449   ✗       
+494   GTC+57.021ALAQAESLR      -1.0000     NotChecked  -27.2321    1275.6241   ✗       
+495   GLC+57.021ALAQGQ+0.984SLR-1.0000     NotChecked  -27.2399    1273.6449   ✗       
+496   GLC+57.021ALAQAESLS      -1.0000     NotChecked  -27.2593    1218.5914   ✗       
+497   GLC+57.021ALAQQ+0.984SLR -1.0000     NotChecked  -27.2898    1216.6234   ✗       
+498   GLC+57.021ALAQAESR       -1.0000     NotChecked  -27.3133    1174.5765   ✗       
+499   GLC+57.021ALAQAESLS      -1.0000     NotChecked  -27.3264    1218.5914   ✗       
+500   GLC+57.021ALAQADSLR      -1.0000     NotChecked  -27.3536    1273.6449   ✗       
+501   GLC+57.021AL-17.027AQAESLR-1.0000     NotChecked  -27.3561    1270.6340   ✗       
+502   GLC+57.021ALAQAESLG      -1.0000     NotChecked  -27.3592    1188.5809   ✗       
+503   GLC+57.021ALAQALSLR      -1.0000     NotChecked  -27.3706    1271.7020   ✗       
+504   GGC+57.021ALAQAESLR      -1.0000     NotChecked  -27.3915    1231.5979   ✗       
+505   GLC+57.021ALAQAESAR      -1.0000     NotChecked  -27.4140    1245.6136   ✗       
+506   GLC+57.021AVAQAESLR      -1.0000     NotChecked  -27.4211    1273.6449   ✗       
+507   GLC+57.021ALAQAESLG      -1.0000     NotChecked  -27.4263    1188.5809   ✗       
+508   GLC+57.021ALAQALSLR      -1.0000     NotChecked  -27.4377    1271.7020   ✗       
+509   GLC+57.021ALAQ+0.984AESLK-1.0000     NotChecked  -27.4387    1260.6384   ✗       
+510   LC+57.021ALAQAQ+0.984SLR -1.0000     NotChecked  -27.4592    1230.6391   ✗       
+511   GVC+57.021ALAQ+0.984AESLR-1.0000     NotChecked  -27.4682    1274.6289   ✗       
+512   GLC+57.021ALAQGESLR      -1.0000     NotChecked  -27.4727    1273.6449   ✗       
+513   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -27.5139    1272.6496   ✗       
+514   GLC+57.021ALAQAASLR      -1.0000     NotChecked  -27.5190    1229.6550   ✗       
+515   GLC+57.021ALAQESLR       -1.0000     NotChecked  -27.5226    1216.6234   ✗       
+516   GLC+57.021ALANAQ+0.984SLR-1.0000     NotChecked  -27.5292    1273.6449   ✗       
+517   GLC+57.021ALAQAESLT      -1.0000     NotChecked  -27.5383    1232.6071   ✗       
+518   GLC+57.021ALAQAASLR      -1.0000     NotChecked  -27.5861    1229.6550   ✗       
+519   GLC+57.021ALAQAESLT      -1.0000     NotChecked  -27.6054    1232.6071   ✗       
+520   GLC+57.021ALAQGESLR      -1.0000     NotChecked  -27.6087    1273.6449   ✗       
+521   GAC+57.021ALAQAQ+0.984SLR-1.0000     NotChecked  -27.6164    1245.6136   ✗       
+522   LC+57.021ALAQAESLR       -1.0000     NotChecked  -27.6920    1230.6391   ✗       
+523   GLC+57.021ALAQAESLQ      -1.0000     NotChecked  -27.7301    1259.6180   ✗       
+524   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -27.7390    1273.6449   ✗       
+525   GC+57.021ALAQAESLR       -1.0000     NotChecked  -27.7933    1174.5765   ✗       
+526   ALC+57.021ALAQAEGLR      -1.0000     NotChecked  -27.8263    1271.6656   ✗       
+527   GAC+57.021ALAQAESLR      -1.0000     NotChecked  -27.8492    1245.6136   ✗       
+528   GGC+57.021ALAQAESLR      -1.0000     NotChecked  -27.8604    1231.5979   ✗       
+529   GLC+57.021ALAQESLR       -1.0000     NotChecked  -27.9244    1216.6234   ✗       
+530   GLC+57.021ALAQAESLV      -1.0000     NotChecked  -28.0740    1230.6278   ✗       
+531   GLC+57.021ALAQAESL       -1.0000     NotChecked  -28.0805    1131.5594   ✗       
+532   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -28.0855    1272.6496   ✗       
+533   GTC+57.021ALAQAQ+0.984SLR-1.0000     NotChecked  -28.1514    1275.6241   ✗       
+534   LC+57.021ALAQAESLR       -1.0000     NotChecked  -28.1608    1230.6391   ✗       
+535   GLC+57.021ALANAESLR      -1.0000     NotChecked  -28.1637    1273.6449   ✗       
+536   GLC+57.021ALAQAEGLR      -1.0000     NotChecked  -28.1710    1257.6500   ✗       
+537   GVC+57.021ALAQAESLR      -1.0000     NotChecked  -28.1833    1273.6449   ✗       
+538   ALC+57.021ALAQAESLK      -1.0000     NotChecked  -28.1925    1273.6700   ✗       
+539   GVC+57.021ALAQAEGLR      -1.0000     NotChecked  -28.3063    1243.6343   ✗       
+540   GLC+57.021ALAQAEALR      -1.0000     NotChecked  -28.3105    1271.6656   ✗       
+541   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -28.3106    1273.6449   ✗       
+542   GLC+57.021ALAQAESTR      -1.0000     NotChecked  -28.3575    1275.6241   ✗       
+543   GTC+57.021ALAQAESLR      -1.0000     NotChecked  -28.3842    1275.6241   ✗       
+544   GLC+57.021ALAAAESLR      -1.0000     NotChecked  -28.4658    1230.6391   ✗       
+545   GLC+57.021ALAQAESLK      -1.0000     NotChecked  -28.5371    1259.6544   ✗       
+546   GLC+57.021AAAQAESLR      -1.0000     NotChecked  -28.5542    1245.6136   ✗       
+547   GLC+57.021ALAQAESVR      -1.0000     NotChecked  -28.5715    1273.6449   ✗       
+548   GLC+57.021GLAQAESLR      -1.0000     NotChecked  -28.5987    1273.6449   ✗       
+549   +42.011LC+57.021ALAQ+0.984AESLR-1.0000     NotChecked  -28.6081    1273.6336   ✗       
+550   GLC+57.021ALGQAESLR      -1.0000     NotChecked  -28.6335    1273.6449   ✗       
+551   GVC+57.021ALAQAESLK      -1.0000     NotChecked  -28.6724    1245.6387   ✗       
+552   GLC+57.021ALQAESLR       -1.0000     NotChecked  -28.7382    1216.6234   ✗       
+553   GGC+57.021ALAQAQ+0.984SLR-1.0000     NotChecked  -28.7797    1231.5979   ✗       
+554   GLC+57.021ALAQAEGLR      -1.0000     NotChecked  -28.7829    1257.6500   ✗       
+555   GTC+57.021ALAQAESLR      -1.0000     NotChecked  -28.7860    1275.6241   ✗       
+556   GLC+57.021ALALAESLR      -1.0000     NotChecked  -28.8003    1272.6860   ✗       
+557   GLC+57.021ALAQAESSR      -1.0000     NotChecked  -28.8164    1261.6085   ✗       
+558   +43.006LC+57.021ALAQ+0.984AESLR-1.0000     NotChecked  -28.8332    1274.6289   ✗       
+559   GTC+57.021ALAQAESLR      -1.0000     NotChecked  -28.8531    1275.6241   ✗       
+560   GLC+57.021ALAQAESLS      -1.0000     NotChecked  -28.8804    1218.5914   ✗       
+561   GLC+57.021ALAQAESLG      -1.0000     NotChecked  -28.9802    1188.5809   ✗       
+562   GGC+57.021ALAQAESLR      -1.0000     NotChecked  -29.0125    1231.5979   ✗       
+563   LC+57.021ALAQAQ+0.984SLR -1.0000     NotChecked  -29.0802    1230.6391   ✗       
+564   GVC+57.021ALAQ+0.984AESLR-1.0000     NotChecked  -29.0893    1274.6289   ✗       
+565   GLC+57.021ALAQAQSLR      -1.0000     NotChecked  -29.1437    1286.6765   ✗       
+566   GLC+57.021ALAQAESLK      -1.0000     NotChecked  -29.1491    1259.6544   ✗       
+567   GLC+57.021ALAQAESLT      -1.0000     NotChecked  -29.1593    1232.6071   ✗       
+568   GVC+57.021ALAQAESLR      -1.0000     NotChecked  -29.1786    1273.6449   ✗       
+569   GVC+57.021ALAQAESLR      -1.0000     NotChecked  -29.2222    1273.6449   ✗       
+570   LC+57.021ALAQAESLR       -1.0000     NotChecked  -29.3130    1230.6391   ✗       
+571   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -29.3231    1272.6496   ✗       
+572   GLRALAQAESLR             -1.0000     NotChecked  -29.3268    1283.7310   ✗       
+573   GLC+57.021ALAQAESLQ      -1.0000     NotChecked  -29.3511    1259.6180   ✗       
+574   GLGALAQAESLR             -1.0000     NotChecked  -29.3735    1184.6513   ✗       
+575   +42.011LC+57.021ALAQAEGLR-1.0000     NotChecked  -29.4462    1242.6391   ✗       
+576   ALC+57.021ALAQAEGLR      -1.0000     NotChecked  -29.4474    1271.6656   ✗       
+577   LC+57.021ALAQAESLR       -1.0000     NotChecked  -29.4490    1230.6391   ✗       
+578   GLC+57.021ALAQADSLR      -1.0000     NotChecked  -29.5461    1273.6449   ✗       
+579   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -29.5482    1273.6449   ✗       
+580   ALC+57.021ALAQAEALR      -1.0000     NotChecked  -29.5869    1285.6813   ✗       
+581   +43.006LC+57.021ALAQAEGLR-1.0000     NotChecked  -29.6712    1243.6343   ✗       
+582   GLC+57.021ALAQAESLV      -1.0000     NotChecked  -29.6950    1230.6278   ✗       
+583   GLC+57.021ALAQAESL       -1.0000     NotChecked  -29.7015    1131.5594   ✗       
+584   GLC+57.021ALAQAQ+0.984GLR-1.0000     NotChecked  -29.7023    1257.6500   ✗       
+585   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -29.7065    1272.6496   ✗       
+586   GTC+57.021ALAQAQ+0.984SLR-1.0000     NotChecked  -29.7724    1275.6241   ✗       
+587   GLC+57.021ALAQGESLR      -1.0000     NotChecked  -29.8013    1273.6449   ✗       
+588   GVC+57.021ALAQAESLR      -1.0000     NotChecked  -29.8043    1273.6449   ✗       
+589   +42.011LC+57.021ALAQAESLK-1.0000     NotChecked  -29.8123    1244.6435   ✗       
+590   ALC+57.021ALAQAESLK      -1.0000     NotChecked  -29.8135    1273.6700   ✗       
+591   +42.011VC+57.021ALAQAESLR-1.0000     NotChecked  -29.8418    1258.6340   ✗       
+592   GVC+57.021ALAQAEGLR      -1.0000     NotChecked  -29.9273    1243.6343   ✗       
+593   GLC+57.021ALAQAEALR      -1.0000     NotChecked  -29.9315    1271.6656   ✗       
+594   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -29.9316    1273.6449   ✗       
+595   GLC+57.021ALAQAEGLR      -1.0000     NotChecked  -29.9351    1257.6500   ✗       
+596   GLMALAQAESLR             -1.0000     NotChecked  -29.9740    1258.6704   ✗       
+597   GLC+57.021ALAQAESTR      -1.0000     NotChecked  -29.9785    1275.6241   ✗       
+598   GTC+57.021ALAQAESLR      -1.0000     NotChecked  -30.0052    1275.6241   ✗       
+599   +43.006LC+57.021ALAQAESLK-1.0000     NotChecked  -30.0374    1245.6387   ✗       
+600   GVC+57.021ALAQAEALR      -1.0000     NotChecked  -30.0668    1257.6500   ✗       
+601   +43.006VC+57.021ALAQAESLR-1.0000     NotChecked  -30.0669    1259.6292   ✗       
+602   GLC+57.021ALAQAQ+0.984SLK-1.0000     NotChecked  -30.0684    1259.6544   ✗       
+603   GLSALAQAESLR             -1.0000     NotChecked  -30.0850    1214.6619   ✗       
+604   ALC+57.021ALAQAESSR      -1.0000     NotChecked  -30.0928    1275.6241   ✗       
+605   GVC+57.021ALAQAQ+0.984SLR-1.0000     NotChecked  -30.0980    1273.6449   ✗       
+606   GVC+57.021ALAQAESTR      -1.0000     NotChecked  -30.1138    1261.6085   ✗       
+607   GVC+57.021ALAQAQ+0.984SLR-1.0000     NotChecked  -30.1650    1273.6449   ✗       
+608   GLC+57.021ALAQAESVR      -1.0000     NotChecked  -30.1925    1273.6449   ✗       
+609   GLC+57.021GLAQAESLR      -1.0000     NotChecked  -30.2197    1273.6449   ✗       
+610   +42.011LC+57.021ALAQ+0.984AESLR-1.0000     NotChecked  -30.2291    1273.6336   ✗       
+611   GLKALAQAESLR             -1.0000     NotChecked  -30.2518    1255.7248   ✗       
+612   GVC+57.021ALAQAESLK      -1.0000     NotChecked  -30.2934    1245.6387   ✗       
+613   GLC+57.021ALAQAESLK      -1.0000     NotChecked  -30.3012    1259.6544   ✗       
+614   GVC+57.021ALAQAESVR      -1.0000     NotChecked  -30.3278    1259.6292   ✗       
+615   GVC+57.021ALAQAESLR      -1.0000     NotChecked  -30.3307    1273.6449   ✗       
+616   GVC+57.021ALAQAESLR      -1.0000     NotChecked  -30.3409    1273.6449   ✗       
+617   GVC+57.021GLAQAESLR      -1.0000     NotChecked  -30.3551    1259.6292   ✗       
+618   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -30.3621    1272.6496   ✗       
+619   GVC+57.021ALAQAESLR      -1.0000     NotChecked  -30.3978    1273.6449   ✗       
+620   GLC+57.021ALAQAEGLR      -1.0000     NotChecked  -30.4039    1257.6500   ✗       
+621   GLC+57.021ALALAESLR      -1.0000     NotChecked  -30.4213    1272.6860   ✗       
+622   GLC+57.021ALAQAESSR      -1.0000     NotChecked  -30.4375    1261.6085   ✗       
+623   +43.006LC+57.021ALAQ+0.984AESLR-1.0000     NotChecked  -30.4542    1274.6289   ✗       
+624   GLC+57.021ALAQASSLR      -1.0000     NotChecked  -30.4615    1245.6500   ✗       
+625   GLC+57.021ALAQAEALR      -1.0000     NotChecked  -30.5435    1271.6656   ✗       
+626   GVC+57.021ALAQAESSR      -1.0000     NotChecked  -30.5728    1247.5928   ✗       
+627   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -30.5872    1273.6449   ✗       
+628   GLQALAQAESLR             -1.0000     NotChecked  -30.6113    1255.6885   ✗       
+629   GLC+57.021ALAQAVSLR      -1.0000     NotChecked  -30.6336    1257.6863   ✗       
+630   GVC+57.021ALAQAESLR      -1.0000     NotChecked  -30.6635    1273.6449   ✗       
+631   GLLALAQAESLR             -1.0000     NotChecked  -30.6840    1240.7139   ✗       
+632   GAC+57.021ALAQ+0.984AESLR-1.0000     NotChecked  -30.7004    1246.5976   ✗       
+633   GLHALAQAESLR             -1.0000     NotChecked  -30.7064    1264.6888   ✗       
+634   GLC+57.021ALAQAQSLR      -1.0000     NotChecked  -30.7647    1286.6765   ✗       
+635   GLC+57.021ALAQAESLK      -1.0000     NotChecked  -30.7701    1259.6544   ✗       
+636   +42.011LC+57.021ALAQAETLR-1.0000     NotChecked  -30.7928    1286.6653   ✗       
+637   GVC+57.021ALAQAESLR      -1.0000     NotChecked  -30.7996    1273.6449   ✗       
+638   ALC+57.021ALAQADSLR      -1.0000     Failed      -30.8225    1287.6605   ✓       
+639   GLC+57.021GLAQAESLR      -1.0000     NotChecked  -30.8317    1273.6449   ✗       
+640   GVC+57.021ALAQAESLR      -1.0000     NotChecked  -30.8432    1273.6449   ✗       
+641   GLC+57.021ALAQAESR       -1.0000     NotChecked  -30.8611    1174.5765   ✗       
+642   GLC+57.021ALAQA-17.027ESLR-1.0000     NotChecked  -30.8917    1270.6340   ✗       
+643   GVC+57.021ALAQAQSLR      -1.0000     NotChecked  -30.9000    1272.6609   ✗       
+644   GVC+57.021ALAQAEVLR      -1.0000     NotChecked  -30.9026    1285.6813   ✗       
+645   GLC+57.021ALAQALSLR      -1.0000     NotChecked  -30.9185    1271.7020   ✗       
+646   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -30.9441    1272.6496   ✗       
+647   GLRALAQAESLR             -1.0000     NotChecked  -30.9479    1283.7310   ✗       
+648   GLC+57.021ALAQAESAR      -1.0000     NotChecked  -30.9618    1245.6136   ✗       
+649   GLGALAQAESLR             -1.0000     NotChecked  -30.9945    1184.6513   ✗       
+650   GLC+57.021ALAQAASLR      -1.0000     NotChecked  -31.0668    1229.6550   ✗       
+651   +42.011LC+57.021ALAQAEGLR-1.0000     NotChecked  -31.0672    1242.6391   ✗       
+652   LC+57.021ALAQAESLR       -1.0000     NotChecked  -31.0700    1230.6391   ✗       
+653   GLC+57.021ALAQADSLR      -1.0000     NotChecked  -31.1671    1273.6449   ✗       
+654   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -31.1692    1273.6449   ✗       
+655   GKC+57.021ALAQAEGLR      -1.0000     NotChecked  -31.1784    1272.6609   ✗       
+656   +42.011LC+57.021ALAQAEALR-1.0000     NotChecked  -31.2067    1256.6547   ✗       
+657   ALC+57.021ALAQAEALR      -1.0000     NotChecked  -31.2079    1285.6813   ✗       
+658   LC+57.021ALAQAESLR       -1.0000     NotChecked  -31.2129    1230.6391   ✗       
+659   +42.011LC+57.021ALAQAESTR-1.0000     NotChecked  -31.2537    1260.6132   ✗       
+660   +43.006LC+57.021ALAQAEGLR-1.0000     NotChecked  -31.2922    1243.6343   ✗       
+661   GVC+57.021ALAQADSLR      -1.0000     NotChecked  -31.3025    1259.6292   ✗       
+662   +42.011LC+57.021ALAQAQ+0.984SLR-1.0000     NotChecked  -31.3049    1272.6496   ✗       
+663   GVC+57.021ALAQAQ+0.984SLR-1.0000     NotChecked  -31.3172    1273.6449   ✗       
+664   GLC+57.021ALAQAQ+0.984GLR-1.0000     NotChecked  -31.3233    1257.6500   ✗       
+665   GLC+57.021AVAQAESLR      -1.0000     NotChecked  -31.3707    1273.6449   ✗       
+666   GLC+57.021ALAQAQSLR      -1.0000     NotChecked  -31.3766    1286.6765   ✗       
+667   GAC+57.021ALAQAESLR      -1.0000     NotChecked  -31.4154    1245.6136   ✗       
+668   GLC+57.021ALAQGESLR      -1.0000     NotChecked  -31.4223    1273.6449   ✗       
+669   +43.006LC+57.021ALAQAEALR-1.0000     NotChecked  -31.4318    1257.6500   ✗       
+670   +42.011LC+57.021ALAQAESLK-1.0000     NotChecked  -31.4333    1244.6435   ✗       
+671   AAC+57.021ALAQAESLR      -1.0000     NotChecked  -31.4542    1259.6292   ✗       
+672   GLC+57.021ALAQAQ+0.984ALR-1.0000     NotChecked  -31.4628    1271.6656   ✗       
+673   +42.011VC+57.021ALAQAESLR-1.0000     NotChecked  -31.4628    1258.6340   ✗       
+674   +42.011LC+57.021ALAQAESVR-1.0000     NotChecked  -31.4677    1258.6340   ✗       
+675   GLC+57.021ALAQESLR       -1.0000     NotChecked  -31.4722    1216.6234   ✗       
+676   +43.006LC+57.021ALAQAESTR-1.0000     NotChecked  -31.4788    1261.6085   ✗       
+677   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -31.4808    1272.6496   ✗       
+678   +42.011LC+57.021GLAQAESLR-1.0000     NotChecked  -31.4949    1258.6340   ✗       
+679   GLC+57.021ALAQAQ+0.984STR-1.0000     NotChecked  -31.5098    1275.6241   ✗       
+680   +43.006LC+57.021ALAQAQ+0.984SLR-1.0000     NotChecked  -31.5300    1273.6449   ✗       
+681   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -31.5377    1272.6496   ✗       
+682   GAC+57.021ALAQAEGLR      -1.0000     NotChecked  -31.5385    1215.6030   ✗       
+683   GKC+57.021ALAQAESLK      -1.0000     NotChecked  -31.5445    1274.6653   ✗       
+684   GLC+57.021ALAQAEGLR      -1.0000     NotChecked  -31.5561    1257.6500   ✗       
+685   GVC+57.021ALAQGESLR      -1.0000     NotChecked  -31.5576    1259.6292   ✗       
+686   GVC+57.021ALAEAESLR      -1.0000     NotChecked  -31.5600    1274.6289   ✗       
+687   GLMALAQAESLR             -1.0000     NotChecked  -31.5950    1258.6704   ✗       
+688   LC+57.021ALAQAESLR       -1.0000     NotChecked  -31.6416    1230.6391   ✗       
+689   +43.006LC+57.021ALAQAESLK-1.0000     NotChecked  -31.6584    1245.6387   ✗       
+690   GVC+57.021ALAQAEALR      -1.0000     NotChecked  -31.6878    1257.6500   ✗       
+691   +43.006VC+57.021ALAQAESLR-1.0000     NotChecked  -31.6879    1259.6292   ✗       
+692   GLC+57.021ALAQAQ+0.984SLK-1.0000     NotChecked  -31.6894    1259.6544   ✗       
+693   GLC+57.021ALAQAEGLR      -1.0000     NotChecked  -31.6921    1257.6500   ✗       
+694   +43.006LC+57.021ALAQAESVR-1.0000     NotChecked  -31.6928    1259.6292   ✗       
+695   GLC+57.021ALAQAEALR      -1.0000     NotChecked  -31.6956    1271.6656   ✗       
+696   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -31.7059    1273.6449   ✗       
+697   GLSALAQAESLR             -1.0000     NotChecked  -31.7060    1214.6619   ✗       
+698   GLC+57.021ALANAESLR      -1.0000     NotChecked  -31.7116    1273.6449   ✗       
+699   +42.011LC+57.021ALAQAESSR-1.0000     NotChecked  -31.7127    1246.5976   ✗       
+700   ALC+57.021ALAQAESSR      -1.0000     NotChecked  -31.7138    1275.6241   ✗       
+701   GVC+57.021ALAQAQ+0.984SLR-1.0000     NotChecked  -31.7190    1273.6449   ✗       
+702   +43.006LC+57.021GLAQAESLR-1.0000     NotChecked  -31.7200    1259.6292   ✗       
+703   GLC+57.021ALAQAQ+0.984SVR-1.0000     NotChecked  -31.7238    1273.6449   ✗       
+704   GVC+57.021ALAQAESTR      -1.0000     NotChecked  -31.7348    1261.6085   ✗       
+705   ALC+57.021ALAQASSLR      -1.0000     NotChecked  -31.7379    1259.6656   ✗       
+706   GLC+57.021ALAQAESTR      -1.0000     NotChecked  -31.7426    1275.6241   ✗       
+707   GLC+57.021GLAQAQ+0.984SLR-1.0000     NotChecked  -31.7511    1273.6449   ✗       
+708   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -31.7628    1273.6449   ✗       
+709   GVC+57.021ALAQAESLR      -1.0000     NotChecked  -31.7748    1273.6449   ✗       
+710   GLC+57.021ALAQADSLR      -1.0000     NotChecked  -31.7791    1273.6449   ✗       
+711   GVC+57.021ALAQAQ+0.984SLR-1.0000     NotChecked  -31.7861    1273.6449   ✗       
+712   GVC+57.021ALAQAESLR      -1.0000     NotChecked  -31.8008    1273.6449   ✗       
+713   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -31.8034    1272.6496   ✗       
+714   GVC+57.021ALAQAESLR      -1.0000     NotChecked  -31.8163    1273.6449   ✗       
+715   GGC+57.021ALAQ+0.984AESLR-1.0000     NotChecked  -31.8637    1232.5819   ✗       
+716   GLKALAQAESLR             -1.0000     NotChecked  -31.8728    1255.7248   ✗       
+717   GAC+57.021ALAQAESLK      -1.0000     NotChecked  -31.9046    1217.6074   ✗       
+718   ALC+57.021ALAQAVSLR      -1.0000     NotChecked  -31.9100    1271.7020   ✗       
+719   GLC+57.021ALAQAESLK      -1.0000     NotChecked  -31.9222    1259.6544   ✗       
+720   +43.006LC+57.021ALAQAESSR-1.0000     NotChecked  -31.9377    1247.5928   ✗       
+721   GVC+57.021ALAQAESVR      -1.0000     NotChecked  -31.9488    1259.6292   ✗       
+722   GVC+57.021ALAQAESLR      -1.0000     NotChecked  -31.9518    1273.6449   ✗       
+723   GLC+57.021ALAQAESVR      -1.0000     NotChecked  -31.9566    1273.6449   ✗       
+724   GVC+57.021ALAQAESLR      -1.0000     NotChecked  -31.9620    1273.6449   ✗       
+725   GLC+57.021ALAQAQ+0.984SSR-1.0000     NotChecked  -31.9688    1261.6085   ✗       
+726   GVC+57.021GLAQAESLR      -1.0000     NotChecked  -31.9761    1259.6292   ✗       
+727   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -31.9831    1272.6496   ✗       
+728   GLC+57.021GLAQAESLR      -1.0000     NotChecked  -31.9838    1273.6449   ✗       
+729   GLC+57.021ALAAAESLR      -1.0000     NotChecked  -32.0136    1230.6391   ✗       
+730   GVC+57.021ALAQAESLR      -1.0000     NotChecked  -32.0188    1273.6449   ✗       
+731   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -32.0285    1273.6449   ✗       
+732   SLC+57.021ALAQAEGLR      -1.0000     Failed      -32.0335    1287.6605   ✓       
+733   GLC+57.021ALAQGESLR      -1.0000     NotChecked  -32.0343    1273.6449   ✗       
+734   +42.011LC+57.021ALAQAQSLR-1.0000     NotChecked  -32.0399    1271.6656   ✗       
+735   +42.011LC+57.021ALAQAEVLR-1.0000     NotChecked  -32.0425    1284.6860   ✗       
+736   GLC+57.021ALAQAESLK      -1.0000     NotChecked  -32.0582    1259.6544   ✗       
+737   GLC+57.021ALAQASSLR      -1.0000     NotChecked  -32.0825    1245.6500   ✗       
+738   ALC+57.021ALAQAESR       -1.0000     NotChecked  -32.1375    1188.5921   ✗       
+739   LC+57.021ALAQ+0.984AESLR -1.0000     NotChecked  -32.1642    1231.6231   ✗       
+740   GLC+57.021ALAQAEALR      -1.0000     NotChecked  -32.1645    1271.6656   ✗       
+741   GQC+57.021ALAQAEGLR      -1.0000     NotChecked  -32.1769    1272.6245   ✗       
+742   GLC+57.021ALGQAESLR      -1.0000     NotChecked  -32.1813    1273.6449   ✗       
+743   GVC+57.021ALAQAESSR      -1.0000     NotChecked  -32.1938    1247.5928   ✗       
+744   ALC+57.021ALAQALSLR      -1.0000     NotChecked  -32.1948    1285.7176   ✗       
+745   GLC+57.021ALAQAESSR      -1.0000     NotChecked  -32.2016    1261.6085   ✗       
+746   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -32.2082    1273.6449   ✗       
+747   GVC+57.021ALAQASSLR      -1.0000     NotChecked  -32.2179    1231.6343   ✗       
+748   GLQALAQAESLR             -1.0000     NotChecked  -32.2323    1255.6885   ✗       
+749   ALC+57.021ALAQAESAR      -1.0000     NotChecked  -32.2382    1259.6292   ✗       
+750   GLC+57.021ALAQAVSLR      -1.0000     NotChecked  -32.2546    1257.6863   ✗       
+751   +43.006LC+57.021ALAQAQSLR-1.0000     NotChecked  -32.2649    1272.6609   ✗       
+752   +43.006LC+57.021ALAQAEVLR-1.0000     NotChecked  -32.2676    1285.6813   ✗       
+753   GVC+57.021ALAQAESLR      -1.0000     NotChecked  -32.2846    1273.6449   ✗       
+754   GLC+57.021ALQAESLR       -1.0000     NotChecked  -32.2860    1216.6234   ✗       
+755   ALC+57.021ALAQAASLR      -1.0000     NotChecked  -32.3432    1243.6707   ✗       
+756   +42.011LC+57.021ALAQAETLR-1.0000     NotChecked  -32.4138    1286.6653   ✗       
+757   +42.011LC+57.021ALAQADSLR-1.0000     NotChecked  -32.4424    1258.6340   ✗       
+758   ALC+57.021ALAQADSLR      -1.0000     Failed      -32.4435    1287.6605   ✓       
+759   +42.011LC+57.021ALAQAQ+0.984SLR-1.0000     NotChecked  -32.4571    1272.6496   ✗       
+760   AGC+57.021ALAQAESLR      -1.0000     NotChecked  -32.6175    1245.6136   ✗       
+761   +43.006LC+57.021ALAQADSLR-1.0000     NotChecked  -32.6674    1259.6292   ✗       
+762   +43.006LC+57.021ALAQAQ+0.984SLR-1.0000     NotChecked  -32.6821    1273.6449   ✗       
+763   +42.011LC+57.021ALAQGESLR-1.0000     NotChecked  -32.6975    1258.6340   ✗       
+764   +42.011LC+57.021ALAEAESLR-1.0000     NotChecked  -32.6998    1273.6336   ✗       
+765   ALC+57.021ALAQESLR       -1.0000     NotChecked  -32.7486    1230.6391   ✗       
+766   +42.011LC+57.021ALAQAEALR-1.0000     NotChecked  -32.8277    1256.6547   ✗       
+767   LC+57.021ALAQAESLR       -1.0000     NotChecked  -32.8339    1230.6391   ✗       
+768   +42.011LC+57.021ALAQAESTR-1.0000     NotChecked  -32.8747    1260.6132   ✗       
+769   LC+57.021ALAQAESLR       -1.0000     NotChecked  -32.8792    1230.6391   ✗       
+770   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -32.9147    1272.6496   ✗       
+771   +43.006LC+57.021ALAQGESLR-1.0000     NotChecked  -32.9226    1259.6292   ✗       
+772   +43.006LC+57.021ALAEAESLR-1.0000     NotChecked  -32.9249    1274.6289   ✗       
+773   +42.011LC+57.021ALAQAQ+0.984SLR-1.0000     NotChecked  -32.9259    1272.6496   ✗       
+774   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -32.9407    1272.6496   ✗       
+775   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -32.9561    1272.6496   ✗       
+776   LC+57.021ALAQAEGLR       -1.0000     NotChecked  -33.0022    1200.6285   ✗       
+777   +43.006LC+57.021ALAQAEALR-1.0000     NotChecked  -33.0528    1257.6500   ✗       
+778   +42.011AC+57.021ALAQAESLR-1.0000     NotChecked  -33.0740    1230.6027   ✗       
+779   AAC+57.021ALAQAESLR      -1.0000     NotChecked  -33.0752    1259.6292   ✗       
+780   +42.011LC+57.021ALAQAESVR-1.0000     NotChecked  -33.0887    1258.6340   ✗       
+781   +43.006LC+57.021ALAQAESTR-1.0000     NotChecked  -33.0998    1261.6085   ✗       
+782   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -33.1018    1272.6496   ✗       
+783   +42.011LC+57.021GLAQAESLR-1.0000     NotChecked  -33.1159    1258.6340   ✗       
+784   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -33.1397    1273.6449   ✗       
+785   +43.006LC+57.021ALAQAQ+0.984SLR-1.0000     NotChecked  -33.1510    1273.6449   ✗       
+786   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -33.1587    1272.6496   ✗       
+787   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -33.1658    1273.6449   ✗       
+788   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -33.1812    1273.6449   ✗       
+789   LC+57.021ALAQAESLR       -1.0000     NotChecked  -33.2626    1230.6391   ✗       
+790   ALC+57.021ALAAAESLR      -1.0000     NotChecked  -33.2900    1244.6547   ✗       
+791   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -33.2947    1272.6496   ✗       
+792   +43.006AC+57.021ALAQAESLR-1.0000     NotChecked  -33.2991    1231.5979   ✗       
+793   +43.006LC+57.021ALAQAESVR-1.0000     NotChecked  -33.3138    1259.6292   ✗       
+794   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -33.3269    1273.6449   ✗       
+795   +42.011LC+57.021ALAQAESSR-1.0000     NotChecked  -33.3337    1246.5976   ✗       
+796   +43.006LC+57.021GLAQAESLR-1.0000     NotChecked  -33.3410    1259.6292   ✗       
+797   +42.011LC+57.021ALAQASSLR-1.0000     NotChecked  -33.3578    1230.6391   ✗       
+798   ALC+57.021ALAQASSLR      -1.0000     NotChecked  -33.3589    1259.6656   ✗       
+799   LC+57.021ALAQAESLK       -1.0000     NotChecked  -33.3684    1202.6329   ✗       
+800   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -33.3838    1273.6449   ✗       
+801   VC+57.021ALAQAESLR       -1.0000     NotChecked  -33.3979    1216.6234   ✗       
+802   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -33.4244    1272.6496   ✗       
+803   ALC+57.021ALGQAESLR      -1.0000     Failed      -33.4577    1287.6605   ✓       
+804   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -33.5198    1273.6449   ✗       
+805   +42.011LC+57.021ALAQAVSLR-1.0000     NotChecked  -33.5298    1242.6754   ✗       
+806   ALC+57.021ALAQAVSLR      -1.0000     NotChecked  -33.5310    1271.7020   ✗       
+807   +43.006LC+57.021ALAQAESSR-1.0000     NotChecked  -33.5587    1247.5928   ✗       
+808   ALC+57.021ALQAESLR       -1.0000     NotChecked  -33.5624    1230.6391   ✗       
+809   +43.006LC+57.021ALAQASSLR-1.0000     NotChecked  -33.5828    1231.6343   ✗       
+810   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -33.6495    1273.6449   ✗       
+811   SLC+57.021ALAQAEGLR      -1.0000     Failed      -33.6545    1287.6605   ✓       
+812   +42.011LC+57.021ALAQAQSLR-1.0000     NotChecked  -33.6609    1271.6656   ✗       
+813   +42.011LC+57.021ALAQAEVLR-1.0000     NotChecked  -33.6635    1284.6860   ✗       
+814   ALC+57.021ALAQAESLS      -1.0000     NotChecked  -33.7046    1232.6071   ✗       
+815   +43.006LC+57.021ALAQAVSLR-1.0000     NotChecked  -33.7549    1243.6707   ✗       
+816   +42.011LC+57.021ALAQAESR -1.0000     NotChecked  -33.7573    1159.5656   ✗       
+817   ALC+57.021ALAQAESR       -1.0000     NotChecked  -33.7585    1188.5921   ✗       
+818   +42.011LC+57.021ALAKAESLR-1.0000     NotChecked  -33.7702    1272.6860   ✗       
+819   LC+57.021ALAQ+0.984AESLR -1.0000     NotChecked  -33.7852    1231.6231   ✗       
+820   ALC+57.021ALAQAESLG      -1.0000     NotChecked  -33.8044    1202.5965   ✗       
+821   +42.011LC+57.021ALAQALSLR-1.0000     NotChecked  -33.8147    1256.6911   ✗       
+822   ALC+57.021ALAQALSLR      -1.0000     NotChecked  -33.8159    1285.7176   ✗       
+823   +42.011LC+57.021ALAQAESAR-1.0000     NotChecked  -33.8580    1230.6027   ✗       
+824   ALC+57.021ALAQAESAR      -1.0000     NotChecked  -33.8592    1259.6292   ✗       
+825   +43.006LC+57.021ALAQAQSLR-1.0000     NotChecked  -33.8860    1272.6609   ✗       
+826   +43.006LC+57.021ALAQAEVLR-1.0000     NotChecked  -33.8886    1285.6813   ✗       
+827   LC+57.021ALAQAESLR       -1.0000     NotChecked  -33.9182    1230.6391   ✗       
+828   +42.011LC+57.021ALAQAASLR-1.0000     NotChecked  -33.9630    1214.6441   ✗       
+829   ALC+57.021ALAQAASLR      -1.0000     NotChecked  -33.9642    1243.6707   ✗       
+830   +43.006LC+57.021ALAQAESR -1.0000     NotChecked  -33.9824    1160.5608   ✗       
+831   ALC+57.021ALAQAESLT      -1.0000     NotChecked  -33.9835    1246.6227   ✗       
+832   +43.006LC+57.021ALAKAESLR-1.0000     NotChecked  -33.9953    1273.6813   ✗       
+833   +43.006LC+57.021ALAQALSLR-1.0000     NotChecked  -34.0397    1257.6863   ✗       
+834   +42.011LC+57.021ALAQADSLR-1.0000     NotChecked  -34.0634    1258.6340   ✗       
+835   +42.011LC+57.021ALAQAQ+0.984SLR-1.0000     NotChecked  -34.0781    1272.6496   ✗       
+836   +43.006LC+57.021ALAQAESAR-1.0000     NotChecked  -34.0831    1231.5979   ✗       
+837   ALC+57.021ALAQAESLQ      -1.0000     NotChecked  -34.1753    1273.6336   ✗       
+838   +43.006LC+57.021ALAQAASLR-1.0000     NotChecked  -34.1881    1215.6394   ✗       
+839   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -34.1892    1272.6496   ✗       
+840   +42.011LC+57.021ALAQAQ+0.984SLR-1.0000     NotChecked  -34.2141    1272.6496   ✗       
+841   +42.011GC+57.021ALAQAESLR-1.0000     NotChecked  -34.2373    1216.5870   ✗       
+842   AGC+57.021ALAQAESLR      -1.0000     NotChecked  -34.2385    1245.6136   ✗       
+843   +42.011LC+57.021AVAQAESLR-1.0000     NotChecked  -34.2669    1258.6340   ✗       
+844   +43.006LC+57.021ALAQADSLR-1.0000     NotChecked  -34.2884    1259.6292   ✗       
+845   +43.006LC+57.021ALAQAQ+0.984SLR-1.0000     NotChecked  -34.3031    1273.6449   ✗       
+846   +42.011LC+57.021ALAQGESLR-1.0000     NotChecked  -34.3185    1258.6340   ✗       
+847   +42.011LC+57.021ALAEAESLR-1.0000     NotChecked  -34.3209    1273.6336   ✗       
+848   LC+57.021ALAQAETLR       -1.0000     NotChecked  -34.3489    1244.6547   ✗       
+849   +42.011LC+57.021ALAQESLR -1.0000     NotChecked  -34.3684    1201.6125   ✗       
+850   ALC+57.021ALAQESLR       -1.0000     NotChecked  -34.3696    1230.6391   ✗       
+851   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -34.3926    1272.6496   ✗       
+852   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -34.4143    1273.6449   ✗       
+853   +43.006LC+57.021ALAQAQ+0.984SLR-1.0000     NotChecked  -34.4392    1273.6449   ✗       
+854   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -34.4469    1272.6496   ✗       
+855   +43.006GC+57.021ALAQAESLR-1.0000     NotChecked  -34.4624    1217.5823   ✗       
+856   +43.006LC+57.021AVAQAESLR-1.0000     NotChecked  -34.4920    1259.6292   ✗       
+857   LC+57.021ALAQAESLR       -1.0000     NotChecked  -34.5002    1230.6391   ✗       
+858   ALC+57.021ALAQAESLV      -1.0000     NotChecked  -34.5193    1244.6435   ✗       
+859   ALC+57.021ALAQAESL       -1.0000     NotChecked  -34.5258    1145.5751   ✗       
+860   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -34.5272    1272.6496   ✗       
+861   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -34.5357    1272.6496   ✗       
+862   LC+57.021ALAQAESER       -1.0000     NotChecked  -34.5420    1246.5976   ✗       
+863   +43.006LC+57.021ALAQGESLR-1.0000     NotChecked  -34.5436    1259.6292   ✗       
+864   +43.006LC+57.021ALAEAESLR-1.0000     NotChecked  -34.5459    1274.6289   ✗       
+865   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -34.5617    1272.6496   ✗       
+866   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -34.5772    1272.6496   ✗       
+867   +43.006LC+57.021ALAQESLR -1.0000     NotChecked  -34.5935    1202.6078   ✗       
+868   +42.011LC+57.021ALANAESLR-1.0000     NotChecked  -34.6078    1258.6340   ✗       
+869   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -34.6177    1273.6449   ✗       
+870   LC+57.021ALAQAEGLR       -1.0000     NotChecked  -34.6233    1200.6285   ✗       
+871   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -34.6719    1273.6449   ✗       
+872   LC+57.021SLAQAESLR       -1.0000     NotChecked  -34.6745    1246.6340   ✗       
+873   +42.011AC+57.021ALAQAESLR-1.0000     NotChecked  -34.6950    1230.6027   ✗       
+874   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -34.7523    1273.6449   ✗       
+875   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -34.7607    1273.6449   ✗       
+876   LC+57.021ALAQAEALR       -1.0000     NotChecked  -34.7628    1214.6441   ✗       
+877   LC+57.021ALAQAENLR       -1.0000     NotChecked  -34.7838    1257.6500   ✗       
+878   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -34.7868    1273.6449   ✗       
+879   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -34.8022    1273.6449   ✗       
+880   LC+57.021ALAQAESTR       -1.0000     NotChecked  -34.8098    1218.6027   ✗       
+881   LC+57.021ALAQAEN+0.984LR -1.0000     NotChecked  -34.8307    1258.6340   ✗       
+882   +43.006LC+57.021ALANAESLR-1.0000     NotChecked  -34.8328    1259.6292   ✗       
+883   LC+57.021ALAQAQ+0.984SLR -1.0000     NotChecked  -34.8610    1230.6391   ✗       
+884   +42.011LC+57.021ALAAAESLR-1.0000     NotChecked  -34.9098    1215.6282   ✗       
+885   ALC+57.021ALAAAESLR      -1.0000     NotChecked  -34.9110    1244.6547   ✗       
+886   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -34.9157    1272.6496   ✗       
+887   +43.006AC+57.021ALAQAESLR-1.0000     NotChecked  -34.9201    1231.5979   ✗       
+888   +42.011LC+57.021ALAQASSLR-1.0000     NotChecked  -34.9788    1230.6391   ✗       
+889   LC+57.021ALAQAESLK       -1.0000     NotChecked  -34.9894    1202.6329   ✗       
+890   ALC+57.021AAAQAESLR      -1.0000     NotChecked  -34.9994    1259.6292   ✗       
+891   VC+57.021ALAQAESLR       -1.0000     NotChecked  -35.0189    1216.6234   ✗       
+892   LC+57.021ALAQAESVR       -1.0000     NotChecked  -35.0238    1216.6234   ✗       
+893   LC+57.021ALAQAESLR       -1.0000     NotChecked  -35.0369    1230.6391   ✗       
+894   LC+57.021ALAQAYSLR       -1.0000     NotChecked  -35.0372    1264.6598   ✗       
+895   LC+57.021GLAQAESLR       -1.0000     NotChecked  -35.0510    1216.6234   ✗       
+896   +42.011LC+57.021ALGQAESLR-1.0000     NotChecked  -35.0775    1258.6340   ✗       
+897   ALC+57.021ALGQAESLR      -1.0000     Failed      -35.0787    1287.6605   ✓       
+898   LC+57.021ALAQAESLR       -1.0000     NotChecked  -35.0938    1230.6391   ✗       
+899   +43.006LC+57.021ALAAAESLR-1.0000     NotChecked  -35.1349    1216.6234   ✗       
+900   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -35.1408    1273.6449   ✗       
+901   +42.011LC+57.021ALAQAVSLR-1.0000     NotChecked  -35.1508    1242.6754   ✗       
+902   +42.011LC+57.021ALQAESLR -1.0000     NotChecked  -35.1822    1201.6125   ✗       
+903   ALC+57.021ALQAESLR       -1.0000     NotChecked  -35.1834    1230.6391   ✗       
+904   +43.006LC+57.021ALAQASSLR-1.0000     NotChecked  -35.2038    1231.6343   ✗       
+905   ALC+57.021ALAQAEGLR      -1.0000     NotChecked  -35.2282    1271.6656   ✗       
+906   +42.011TC+57.021ALAQAESLR-1.0000     NotChecked  -35.2300    1260.6132   ✗       
+907   ALC+57.021ALALAESLR      -1.0000     NotChecked  -35.2456    1286.7017   ✗       
+908   LC+57.021ALAQAESSR       -1.0000     NotChecked  -35.2687    1204.5870   ✗       
+909   +43.006LC+57.021ALGQAESLR-1.0000     NotChecked  -35.3026    1259.6292   ✗       
+910   +42.011LC+57.021ALAQAESLS-1.0000     NotChecked  -35.3244    1203.5805   ✗       
+911   ALC+57.021ALAQAESLS      -1.0000     NotChecked  -35.3256    1232.6071   ✗       
+912   LC+57.021ALAQAESLR       -1.0000     NotChecked  -35.3595    1230.6391   ✗       
+913   +43.006LC+57.021ALAQAVSLR-1.0000     NotChecked  -35.3759    1243.6707   ✗       
+914   +42.011LC+57.021ALAQAESR -1.0000     NotChecked  -35.3783    1159.5656   ✗       
+915   +42.011LC+57.021ALAKAESLR-1.0000     NotChecked  -35.3912    1272.6860   ✗       
+916   +43.006LC+57.021ALQAESLR -1.0000     NotChecked  -35.4073    1202.6078   ✗       
+917   +42.011LC+57.021ALAQAESLG-1.0000     NotChecked  -35.4242    1173.5700   ✗       
+918   ALC+57.021ALAQAESLG      -1.0000     NotChecked  -35.4254    1202.5965   ✗       
+919   +42.011LC+57.021ALAQALSLR-1.0000     NotChecked  -35.4357    1256.6911   ✗       
+920   +43.006TC+57.021ALAQAESLR-1.0000     NotChecked  -35.4551    1261.6085   ✗       
+921   +42.011LC+57.021ALAQAESAR-1.0000     NotChecked  -35.4790    1230.6027   ✗       
+922   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -35.4873    1272.6496   ✗       
+923   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -35.5164    1272.6496   ✗       
+924   LC+57.021TLAQAESLR       -1.0000     NotChecked  -35.5188    1260.6496   ✗       
+925   LC+57.021ALAQAESLR       -1.0000     NotChecked  -35.5392    1230.6391   ✗       
+926   +43.006LC+57.021ALAQAESLS-1.0000     NotChecked  -35.5495    1204.5758   ✗       
+927   +42.011LC+57.021ALAQAASLR-1.0000     NotChecked  -35.5840    1214.6441   ✗       
+928   ALC+57.021ALAQAESLK      -1.0000     NotChecked  -35.5943    1273.6700   ✗       
+929   LC+57.021ALAQAQSLR       -1.0000     NotChecked  -35.5960    1229.6550   ✗       
+930   LC+57.021ALAQAEVLR       -1.0000     NotChecked  -35.5986    1242.6754   ✗       
+931   +42.011LC+57.021ALAQAESLT-1.0000     NotChecked  -35.6033    1217.5962   ✗       
+932   +43.006LC+57.021ALAQAESR -1.0000     NotChecked  -35.6034    1160.5608   ✗       
+933   ALC+57.021ALAQAESLT      -1.0000     NotChecked  -35.6045    1246.6227   ✗       
+934   +43.006LC+57.021ALAKAESLR-1.0000     NotChecked  -35.6163    1273.6813   ✗       
+935   +43.006LC+57.021ALAQAESLG-1.0000     NotChecked  -35.6493    1174.5652   ✗       
+936   +43.006LC+57.021ALAQALSLR-1.0000     NotChecked  -35.6607    1257.6863   ✗       
+937   SAC+57.021ALAQAESLR      -1.0000     NotChecked  -35.6613    1275.6241   ✗       
+938   +43.006LC+57.021ALAQAESAR-1.0000     NotChecked  -35.7041    1231.5979   ✗       
+939   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -35.7124    1273.6449   ✗       
+940   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -35.7415    1273.6449   ✗       
+941   +42.011LC+57.021ALAQAESLQ-1.0000     NotChecked  -35.7951    1244.6071   ✗       
+942   ALC+57.021ALAQAESLQ      -1.0000     NotChecked  -35.7963    1273.6336   ✗       
+943   +43.006LC+57.021ALAQAASLR-1.0000     NotChecked  -35.8091    1215.6394   ✗       
+944   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -35.8103    1272.6496   ✗       
+945   ALGALAQAESLR             -1.0000     NotChecked  -35.8187    1198.6670   ✗       
+946   +43.006LC+57.021ALAQAESLT-1.0000     NotChecked  -35.8284    1218.5914   ✗       
+947   +42.011LC+57.021ALAQAESLC+57.021-1.0000     NotChecked  -35.8300    1276.5792   ✗       
+948   +42.011LC+57.021ALAQAQ+0.984SLR-1.0000     NotChecked  -35.8351    1272.6496   ✗       
+949   +42.011GC+57.021ALAQAESLR-1.0000     NotChecked  -35.8583    1216.5870   ✗       
+950   SLC+57.021ALAQASSLR      -1.0000     NotChecked  -35.9451    1275.6605   ✗       
+951   LC+57.021ALAQAETLR       -1.0000     NotChecked  -35.9699    1244.6547   ✗       
+952   +42.011LC+57.021ALAQESLR -1.0000     NotChecked  -35.9894    1201.6125   ✗       
+953   LC+57.021ALAQADSLR       -1.0000     NotChecked  -35.9984    1216.6234   ✗       
+954   +42.011LC+57.021ALAQ+0.984AESLR-1.0000     NotChecked  -36.0099    1273.6336   ✗       
+955   LC+57.021ALAQAQ+0.984SLR -1.0000     NotChecked  -36.0131    1230.6391   ✗       
+956   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -36.0136    1272.6496   ✗       
+957   +43.006LC+57.021ALAQAESLQ-1.0000     NotChecked  -36.0202    1245.6023   ✗       
+958   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -36.0353    1273.6449   ✗       
+959   +43.006LC+57.021ALAQAESLC+57.021-1.0000     NotChecked  -36.0550    1277.5744   ✗       
+960   +43.006LC+57.021ALAQAQ+0.984SLR-1.0000     NotChecked  -36.0602    1273.6449   ✗       
+961   +42.011LC+57.021ALAQAESLY-1.0000     NotChecked  -36.0639    1279.6118   ✗       
+962   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -36.0679    1272.6496   ✗       
+963   +43.006GC+57.021ALAQAESLR-1.0000     NotChecked  -36.0834    1217.5823   ✗       
+964   +42.011LC+57.021ALAQAESLV-1.0000     NotChecked  -36.1391    1215.6169   ✗       
+965   ALC+57.021ALAQAESLV      -1.0000     NotChecked  -36.1403    1244.6435   ✗       
+966   +42.011LC+57.021ALAQAESL -1.0000     NotChecked  -36.1456    1116.5485   ✗       
+967   ALC+57.021ALAQAESL       -1.0000     NotChecked  -36.1468    1145.5751   ✗       
+968   ALC+57.021ALAQAQ+0.984GLR-1.0000     NotChecked  -36.1475    1271.6656   ✗       
+969   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -36.1482    1272.6496   ✗       
+970   LC+57.021ALAQAESER       -1.0000     NotChecked  -36.1630    1246.5976   ✗       
+971   +43.006LC+57.021ALAQESLR -1.0000     NotChecked  -36.2145    1202.6078   ✗       
+972   +42.011LC+57.021ALANAESLR-1.0000     NotChecked  -36.2288    1258.6340   ✗       
+973   +43.006LC+57.021ALAQ+0.984AESLR-1.0000     NotChecked  -36.2350    1274.6289   ✗       
+974   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -36.2387    1273.6449   ✗       
+975   LC+57.021ALAQGESLR       -1.0000     NotChecked  -36.2536    1216.6234   ✗       
+976   LC+57.021ALAEAESLR       -1.0000     NotChecked  -36.2559    1231.6231   ✗       
+977   KC+57.021ALAQAESLR       -1.0000     NotChecked  -36.2700    1245.6500   ✗       
+978   +43.006LC+57.021ALAQAESLY-1.0000     NotChecked  -36.2890    1280.6071   ✗       
+979   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -36.2930    1273.6449   ✗       
+980   LC+57.021SLAQAESLR       -1.0000     NotChecked  -36.2955    1246.6340   ✗       
+981   SLC+57.021ALAQAESR       -1.0000     NotChecked  -36.3446    1204.5870   ✗       
+982   +43.006LC+57.021ALAQAESLV-1.0000     NotChecked  -36.3641    1216.6122   ✗       
+983   +43.006LC+57.021ALAQAESL -1.0000     NotChecked  -36.3707    1117.5438   ✗       
+984   +43.006LC+57.021ALAQAESLR-1.0000     NotChecked  -36.3733    1273.6449   ✗       
+985   ALC+57.021ALAQAEGLR      -1.0000     NotChecked  -36.3803    1271.6656   ✗       
+986   +42.011LC+57.021ALAQAESLR-1.0000     NotChecked  -36.3827    1272.6496   ✗       
+987   LC+57.021ALAQAEALR       -1.0000     NotChecked  -36.3838    1214.6441   ✗       
+988   LC+57.021ALAQAENLR       -1.0000     NotChecked  -36.4049    1257.6500   ✗       
+989   +42.011LC+57.021ALAQAQ+0.984SLR-1.0000     NotChecked  -36.4067    1272.6496   ✗       
+990   ALMALAQAESLR             -1.0000     NotChecked  -36.4192    1272.6860   ✗       
+991   LC+57.021ALAQAESTR       -1.0000     NotChecked  -36.4308    1218.6027   ✗       
+992   LC+57.021ALAQSESLR       -1.0000     NotChecked  -36.4366    1246.6340   ✗       
+993   SLC+57.021ALAQAESAR      -1.0000     NotChecked  -36.4453    1275.6241   ✗       
+994   LC+57.021ALAQAEN+0.984LR -1.0000     NotChecked  -36.4517    1258.6340   ✗       
+995   +43.006LC+57.021ALANAESLR-1.0000     NotChecked  -36.4539    1259.6292   ✗       
+996   LC+57.021ALAQAESLR       -1.0000     NotChecked  -36.4707    1230.6391   ✗       
+997   LC+57.021ALAQAQ+0.984SLR -1.0000     NotChecked  -36.4820    1230.6391   ✗       
+998   LC+57.021ALAQLESLR       -1.0000     NotChecked  -36.4950    1272.6860   ✗       
+999   LC+57.021ALAQAESLR       -1.0000     NotChecked  -36.4968    1230.6391   ✗       
+1000  LC+57.021ALAQAESLR       -1.0000     NotChecked  -36.5122    1230.6391   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: GLC+57.021ALAKAESLR
+Similarity: 0.6009
+De Novo Score: -30.8740
+Source: Prosit
+Correct: ✗
+

@@ -1,0 +1,1042 @@
+================================================================================
+Spectrum 130
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 770.8903
+Precursor charge: 2+
+Ground truth: HAESVASIEEEIAR
+Ground truth (normalized): HAESVASIEEEIAR
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 10
+Used for reranking: 10
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 10 (1.0%)
+Database matches: 0 (0.0%)
+Prosit predictions: 10 (1.0%)
+Failed: 0 (0.0%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✗ (not in top 1000 candidates)
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     FVLAGC+57.021LLTPM+15.995M+15.995R0.4568      Prosit      -11.4302    1539.7612   ✓       
+2     FFLSGC+57.021LPTPM+15.995VR0.4472      Prosit      -10.4638    1539.7578   ✓       
+3     VFLAGC+57.021LLTPM+15.995M+15.995R0.4321      Prosit      -9.4266     1539.7612   ✓       
+4     FFLAGC+57.021LLTPM+15.995VR0.4094      Prosit      -9.2725     1539.7942   ✓       
+5     FFLAGC+57.021LLTPM+15.995VR0.4094      Prosit      -10.9558    1539.7942   ✓       
+6     FFLAGC+57.021DLTPM+15.995PR0.4045      Prosit      -10.4347    1539.7214   ✓       
+7     VVWSGYDLTPM+15.995TR     0.3896      Prosit      -8.6441     1539.7391   ✓       
+8     VVWSGYDLTPM+15.995TR     0.3896      Prosit      -9.7701     1539.7391   ✓       
+9     FFLAGC+57.021DPTPM+15.995LR0.3795      Prosit      -11.5326    1539.7214   ✓       
+10    VVLC+57.021GYDLTPM+15.995TR0.3745      Prosit      -9.7533     1539.7425   ✓       
+11    VFLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -6.0907     1511.7112   ✗       
+12    VVLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -6.5527     1463.7112   ✗       
+13    VFLSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -6.5670     1509.7320   ✗       
+14    VFLAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -6.5899     1495.7163   ✗       
+15    VFLSGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -6.7554     1509.7683   ✗       
+16    VVWSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -6.7817     1536.7065   ✗       
+17    VVLSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -7.0290     1461.7320   ✗       
+18    VVLAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -7.0519     1447.7163   ✗       
+19    VFLAGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -7.0662     1493.7371   ✗       
+20    VVLSGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -7.2174     1461.7683   ✗       
+21    VFLSGC+57.021LLTPM+15.995VR-1.0000     NotChecked  -7.2317     1507.7891   ✗       
+22    VFLAGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -7.2546     1493.7734   ✗       
+23    VVWSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -7.2579     1534.7272   ✗       
+24    VFLSGC+57.021DLTTM+15.995TR-1.0000     NotChecked  -7.2602     1515.7061   ✗       
+25    VVWAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -7.2809     1520.7116   ✗       
+26    VVWSGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -7.4464     1534.7636   ✗       
+27    VVLAGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -7.5282     1445.7371   ✗       
+28    VVLSGC+57.021LLTPM+15.995VR-1.0000     NotChecked  -7.6937     1459.7891   ✗       
+29    VVLAGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -7.7167     1445.7734   ✗       
+30    VVLSGC+57.021DLTTM+15.995TR-1.0000     NotChecked  -7.7222     1467.7061   ✗       
+31    VFLAGC+57.021LLTPM+15.995VR-1.0000     NotChecked  -7.7309     1491.7942   ✗       
+32    VFLSGC+57.021DLTTM+15.995VR-1.0000     NotChecked  -7.7365     1513.7269   ✗       
+33    VVWAGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -7.7572     1518.7323   ✗       
+34    VFLAGC+57.021DLTTM+15.995TR-1.0000     NotChecked  -7.7594     1499.7112   ✗       
+35    VFLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -7.7740     1511.7112   ✗       
+36    VFLSGC+57.021DLTPPTR     -1.0000     NotChecked  -7.7783     1461.7286   ✗       
+37    VFLSGC+57.021DPTPM+15.995TR-1.0000     NotChecked  -7.7813     1495.6799   ✗       
+38    VFLSGC+57.021DLTPM+15.995LR-1.0000     NotChecked  -7.8012     1523.7476   ✗       
+39    VVLC+57.021GC+57.021DLTPM+15.995TR-1.0000     NotChecked  -7.8909     1536.7098   ✗       
+40    VVWSGC+57.021LLTPM+15.995VR-1.0000     NotChecked  -7.9227     1532.7843   ✗       
+41    VFLSGC+57.021LLTTM+15.995TR-1.0000     NotChecked  -7.9249     1513.7632   ✗       
+42    VVWAGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -7.9456     1518.7687   ✗       
+43    VFLSGYDLTPM+15.995TR     -1.0000     NotChecked  -7.9531     1514.7439   ✗       
+44    VFWSGC+57.021DLTPPTR     -1.0000     NotChecked  -8.0072     1534.7238   ✗       
+45    FVLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -8.0943     1511.7112   ✗       
+46    VVLAGC+57.021LLTPM+15.995VR-1.0000     NotChecked  -8.1929     1443.7942   ✗       
+47    VVLSGC+57.021DLTTM+15.995VR-1.0000     NotChecked  -8.1985     1465.7269   ✗       
+48    VVLAGC+57.021DLTTM+15.995TR-1.0000     NotChecked  -8.2215     1451.7112   ✗       
+49    VFLAGC+57.021DLTTM+15.995VR-1.0000     NotChecked  -8.2357     1497.7320   ✗       
+50    VVLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -8.2360     1463.7112   ✗       
+51    VVLSGC+57.021DLTPPTR     -1.0000     NotChecked  -8.2403     1413.7286   ✗       
+52    VVLSGC+57.021DPTPM+15.995TR-1.0000     NotChecked  -8.2433     1447.6799   ✗       
+53    VFLSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -8.2503     1509.7320   ✗       
+54    VFLSGC+57.021DLTPPVR     -1.0000     NotChecked  -8.2546     1459.7493   ✗       
+55    VFLSGC+57.021DPTPM+15.995VR-1.0000     NotChecked  -8.2576     1493.7007   ✗       
+56    VVLSGC+57.021DLTPM+15.995LR-1.0000     NotChecked  -8.2633     1475.7476   ✗       
+57    VFLAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -8.2732     1495.7163   ✗       
+58    VFLAGC+57.021DLTPPTR     -1.0000     NotChecked  -8.2775     1445.7337   ✗       
+59    VFLAGC+57.021DPTPM+15.995TR-1.0000     NotChecked  -8.2805     1479.6850   ✗       
+60    VFLAGC+57.021DLTPM+15.995LR-1.0000     NotChecked  -8.3005     1507.7527   ✗       
+61    VVLC+57.021GC+57.021DLTPM+15.995VR-1.0000     NotChecked  -8.3672     1534.7306   ✗       
+62    VVLSGC+57.021LLTTM+15.995TR-1.0000     NotChecked  -8.3869     1465.7632   ✗       
+63    VFLSGC+57.021DLTPM+15.995PR-1.0000     NotChecked  -8.3939     1507.7163   ✗       
+64    VFLSGC+57.021LLTTM+15.995VR-1.0000     NotChecked  -8.4012     1511.7840   ✗       
+65    VVLSGYDLTPM+15.995TR     -1.0000     NotChecked  -8.4151     1466.7439   ✗       
+66    VVWAGC+57.021LLTPM+15.995VR-1.0000     NotChecked  -8.4219     1516.7894   ✗       
+67    VFLAGC+57.021LLTTM+15.995TR-1.0000     NotChecked  -8.4241     1497.7683   ✗       
+68    VVWSGC+57.021DLTTM+15.995VR-1.0000     NotChecked  -8.4275     1538.7221   ✗       
+69    VFLSGYDLTPM+15.995VR     -1.0000     NotChecked  -8.4294     1512.7646   ✗       
+70    VFLSGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -8.4387     1509.7683   ✗       
+71    VFLSGC+57.021LLTPPTR     -1.0000     NotChecked  -8.4430     1459.7857   ✗       
+72    VFLSGC+57.021LPTPM+15.995TR-1.0000     NotChecked  -8.4460     1493.7370   ✗       
+73    VVWAGC+57.021DLTTM+15.995TR-1.0000     NotChecked  -8.4504     1524.7065   ✗       
+74    VFLAGYDLTPM+15.995TR     -1.0000     NotChecked  -8.4523     1498.7490   ✗       
+75    VVWSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -8.4650     1536.7065   ✗       
+76    VFLSGC+57.021LLTPM+15.995LR-1.0000     NotChecked  -8.4659     1521.8047   ✗       
+77    VVWSGC+57.021DLTPPTR     -1.0000     NotChecked  -8.4693     1486.7238   ✗       
+78    VVWSGC+57.021DPTPM+15.995TR-1.0000     NotChecked  -8.4723     1520.6752   ✗       
+79    VFWSGC+57.021DLTPPVR     -1.0000     NotChecked  -8.4835     1532.7446   ✗       
+80    VFLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -8.4860     1511.7112   ✗       
+81    VFLSC+57.021DLTPM+15.995TR-1.0000     NotChecked  -8.4894     1454.6898   ✗       
+82    VFWAGC+57.021DLTPPTR     -1.0000     NotChecked  -8.5065     1518.7289   ✗       
+83    VFLSGC+57.021ELTPM+15.995TR-1.0000     NotChecked  -8.5296     1525.7269   ✗       
+84    VVLC+57.021GC+57.021LLTPM+15.995TR-1.0000     NotChecked  -8.5556     1534.7670   ✗       
+85    FVLSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -8.5705     1509.7320   ✗       
+86    FVLAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -8.5935     1495.7163   ✗       
+87    VVWSGC+57.021LLTTM+15.995TR-1.0000     NotChecked  -8.6159     1538.7585   ✗       
+88    VFLSGYLLTPM+15.995TR     -1.0000     NotChecked  -8.6178     1512.8010   ✗       
+89    VFWSGC+57.021LLTPPTR     -1.0000     NotChecked  -8.6719     1532.7810   ✗       
+90    VVLAGC+57.021DLTTM+15.995VR-1.0000     NotChecked  -8.6978     1449.7320   ✗       
+91    HVLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -8.7036     1501.7017   ✗       
+92    VVLSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -8.7123     1461.7320   ✗       
+93    VVLSGC+57.021DLTPPVR     -1.0000     NotChecked  -8.7166     1411.7493   ✗       
+94    VFWSC+57.021DLTPM+15.995TR-1.0000     NotChecked  -8.7184     1527.6850   ✗       
+95    VVLSGC+57.021DPTPM+15.995VR-1.0000     NotChecked  -8.7196     1445.7007   ✗       
+96    VVLSGC+57.021DLTPM+15.995M+15.995R-1.0000     NotChecked  -8.7247     1509.6990   ✗       
+97    VVLAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -8.7352     1447.7163   ✗       
+98    VVLAGC+57.021DLTPPTR     -1.0000     NotChecked  -8.7396     1397.7337   ✗       
+99    HFLAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -8.7408     1533.7068   ✗       
+100   VVLAGC+57.021DPTPM+15.995TR-1.0000     NotChecked  -8.7426     1431.6850   ✗       
+101   VFLAGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -8.7495     1493.7371   ✗       
+102   VFLAGC+57.021DLTPPVR     -1.0000     NotChecked  -8.7538     1443.7544   ✗       
+103   VFLAGC+57.021DPTPM+15.995VR-1.0000     NotChecked  -8.7568     1477.7058   ✗       
+104   FVLSGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -8.7590     1509.7683   ✗       
+105   VVLAGC+57.021DLTPM+15.995LR-1.0000     NotChecked  -8.7625     1459.7527   ✗       
+106   VVLSGC+57.021DLTPM+15.995PR-1.0000     NotChecked  -8.8559     1459.7163   ✗       
+107   VVLSGC+57.021LLTTM+15.995VR-1.0000     NotChecked  -8.8632     1463.7840   ✗       
+108   VALSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -8.8662     1435.6799   ✗       
+109   VVLAGC+57.021LLTTM+15.995TR-1.0000     NotChecked  -8.8862     1449.7683   ✗       
+110   VVLSGYDLTPM+15.995VR     -1.0000     NotChecked  -8.8914     1464.7646   ✗       
+111   VFLAGC+57.021DLTPM+15.995PR-1.0000     NotChecked  -8.8931     1491.7214   ✗       
+112   VFLAGC+57.021LLTTM+15.995VR-1.0000     NotChecked  -8.9004     1495.7891   ✗       
+113   VVLSGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -8.9007     1461.7683   ✗       
+114   VVLSGC+57.021LLTPPTR     -1.0000     NotChecked  -8.9050     1411.7857   ✗       
+115   VVLSGC+57.021LPTPM+15.995TR-1.0000     NotChecked  -8.9080     1445.7370   ✗       
+116   VVLAGYDLTPM+15.995TR     -1.0000     NotChecked  -8.9144     1450.7490   ✗       
+117   VFLSGC+57.021LLTPM+15.995VR-1.0000     NotChecked  -8.9150     1507.7891   ✗       
+118   VFLSGC+57.021LLTPPVR     -1.0000     NotChecked  -8.9193     1457.8064   ✗       
+119   VFLSGC+57.021LPTPM+15.995VR-1.0000     NotChecked  -8.9223     1491.7578   ✗       
+120   VVWAGC+57.021DLTTM+15.995VR-1.0000     NotChecked  -8.9267     1522.7272   ✗       
+121   VVLSGC+57.021LLTPM+15.995LR-1.0000     NotChecked  -8.9280     1473.8047   ✗       
+122   VFLAGYDLTPM+15.995VR     -1.0000     NotChecked  -8.9286     1496.7697   ✗       
+123   VFLAGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -8.9379     1493.7734   ✗       
+124   VVWSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -8.9412     1534.7272   ✗       
+125   VFLAGC+57.021LLTPPTR     -1.0000     NotChecked  -8.9422     1443.7908   ✗       
+126   VFLSGC+57.021DLTTM+15.995TR-1.0000     NotChecked  -8.9435     1515.7061   ✗       
+127   VFLAGC+57.021LPTPM+15.995TR-1.0000     NotChecked  -8.9452     1477.7421   ✗       
+128   VVWSGC+57.021DLTPPVR     -1.0000     NotChecked  -8.9456     1484.7446   ✗       
+129   VFLSGC+57.021DLTTPTR     -1.0000     NotChecked  -8.9478     1465.7235   ✗       
+130   VVLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -8.9481     1463.7112   ✗       
+131   VVWSGC+57.021DPTPM+15.995VR-1.0000     NotChecked  -8.9486     1518.6959   ✗       
+132   VFLSGC+57.021DPTTM+15.995TR-1.0000     NotChecked  -8.9508     1499.6748   ✗       
+133   VVLSC+57.021DLTPM+15.995TR-1.0000     NotChecked  -8.9515     1406.6898   ✗       
+134   VFLSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -8.9623     1509.7320   ✗       
+135   VVWAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -8.9642     1520.7116   ✗       
+136   VFLAGC+57.021LLTPM+15.995LR-1.0000     NotChecked  -8.9652     1505.8098   ✗       
+137   VFLSGC+57.021DLTPM+15.995SR-1.0000     NotChecked  -8.9655     1497.6956   ✗       
+138   VFLSC+57.021DLTPM+15.995VR-1.0000     NotChecked  -8.9657     1452.7105   ✗       
+139   VVWAGC+57.021DLTPPTR     -1.0000     NotChecked  -8.9685     1470.7289   ✗       
+140   VFLSGC+57.021DLTTM+15.995LR-1.0000     NotChecked  -8.9707     1527.7425   ✗       
+141   VVWAGC+57.021DPTPM+15.995TR-1.0000     NotChecked  -8.9715     1504.6803   ✗       
+142   VFWAGC+57.021DLTPPVR     -1.0000     NotChecked  -8.9828     1516.7497   ✗       
+143   VFLAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -8.9853     1495.7163   ✗       
+144   VFLAC+57.021DLTPM+15.995TR-1.0000     NotChecked  -8.9887     1438.6948   ✗       
+145   VVWAGC+57.021DLTPM+15.995LR-1.0000     NotChecked  -8.9915     1532.7479   ✗       
+146   VVLSGC+57.021ELTPM+15.995TR-1.0000     NotChecked  -8.9917     1477.7269   ✗       
+147   VFLSGC+57.021ELTPM+15.995VR-1.0000     NotChecked  -9.0059     1523.7476   ✗       
+148   VFLAGC+57.021ELTPM+15.995TR-1.0000     NotChecked  -9.0289     1509.7320   ✗       
+149   VVLC+57.021GC+57.021LLTPM+15.995VR-1.0000     NotChecked  -9.0319     1532.7877   ✗       
+150   VFLSGC+57.021LLTPM+15.995PR-1.0000     NotChecked  -9.0586     1505.7734   ✗       
+151   VFLSGC+57.021DLTPM+15.995GR-1.0000     NotChecked  -9.0644     1467.6850   ✗       
+152   VFLSGC+57.021DLTPM+15.995AR-1.0000     NotChecked  -9.0681     1481.7007   ✗       
+153   FVLAGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -9.0698     1493.7371   ✗       
+154   VFLSGYDLTPM+15.995TR     -1.0000     NotChecked  -9.0791     1514.7439   ✗       
+155   VVLSGYLLTPM+15.995TR     -1.0000     NotChecked  -9.0798     1464.8010   ✗       
+156   VVWSGC+57.021DLTPM+15.995PR-1.0000     NotChecked  -9.0849     1532.7116   ✗       
+157   VVWSGC+57.021LLTTM+15.995VR-1.0000     NotChecked  -9.0922     1536.7792   ✗       
+158   VFLSGYLLTPM+15.995VR     -1.0000     NotChecked  -9.0941     1510.8218   ✗       
+159   VAWSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -9.0951     1508.6752   ✗       
+160   VVWAGC+57.021LLTTM+15.995TR-1.0000     NotChecked  -9.1151     1522.7636   ✗       
+161   VFLC+57.021GC+57.021DLTPPTR-1.0000     NotChecked  -9.1165     1534.7272   ✗       
+162   VFLAGYLLTPM+15.995TR     -1.0000     NotChecked  -9.1170     1496.8061   ✗       
+163   VVWSGYDLTPM+15.995VR     -1.0000     NotChecked  -9.1204     1537.7599   ✗       
+164   VFLSGYDLTTM+15.995TR     -1.0000     NotChecked  -9.1226     1518.7388   ✗       
+165   VVWSGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -9.1297     1534.7636   ✗       
+166   VVWSGC+57.021LLTPPTR     -1.0000     NotChecked  -9.1340     1484.7810   ✗       
+167   VVWSGC+57.021LPTPM+15.995TR-1.0000     NotChecked  -9.1370     1518.7323   ✗       
+168   VVWAGYDLTPM+15.995TR     -1.0000     NotChecked  -9.1433     1523.7442   ✗       
+169   VFWSGC+57.021LLTPPVR     -1.0000     NotChecked  -9.1482     1530.8017   ✗       
+170   VFLSGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -9.1507     1509.7683   ✗       
+171   VFLSC+57.021LLTPM+15.995TR-1.0000     NotChecked  -9.1541     1452.7469   ✗       
+172   VFLSGC+57.021DLTPVTR     -1.0000     NotChecked  -9.1580     1463.7442   ✗       
+173   VFWAGC+57.021LLTPPTR     -1.0000     NotChecked  -9.1712     1516.7860   ✗       
+174   VFWSGC+57.021DLTTPTR     -1.0000     NotChecked  -9.1767     1538.7187   ✗       
+175   VVWSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -9.1770     1536.7065   ✗       
+176   LFLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -9.1797     1525.7269   ✗       
+177   HVLSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -9.1799     1499.7225   ✗       
+178   VVWSC+57.021DLTPM+15.995TR-1.0000     NotChecked  -9.1804     1479.6850   ✗       
+179   VFWSC+57.021DLTPM+15.995VR-1.0000     NotChecked  -9.1947     1525.7057   ✗       
+180   HVLAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -9.2028     1485.7068   ✗       
+181   VVLAGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -9.2115     1445.7371   ✗       
+182   VVLAGC+57.021DLTPPVR     -1.0000     NotChecked  -9.2158     1395.7544   ✗       
+183   HFLAGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -9.2171     1531.7275   ✗       
+184   VFWAC+57.021DLTPM+15.995TR-1.0000     NotChecked  -9.2176     1511.6901   ✗       
+185   VVLAGC+57.021DPTPM+15.995VR-1.0000     NotChecked  -9.2189     1429.7058   ✗       
+186   VVLAGC+57.021DLTPM+15.995M+15.995R-1.0000     NotChecked  -9.2240     1493.7040   ✗       
+187   VFLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -9.2321     1511.7112   ✗       
+188   FVLSGC+57.021LLTPM+15.995VR-1.0000     NotChecked  -9.2352     1507.7891   ✗       
+189   FVLAGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -9.2582     1493.7734   ✗       
+190   FVLSGC+57.021DLTTM+15.995TR-1.0000     NotChecked  -9.2638     1515.7061   ✗       
+191   VVWSGYLLTPM+15.995TR     -1.0000     NotChecked  -9.3088     1537.7963   ✗       
+192   FFLSGC+57.021DLTPPTR     -1.0000     NotChecked  -9.3198     1509.7286   ✗       
+193   VALSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -9.3425     1433.7007   ✗       
+194   VVLAGC+57.021DLTPM+15.995PR-1.0000     NotChecked  -9.3552     1443.7214   ✗       
+195   VVLAGC+57.021LLTTM+15.995VR-1.0000     NotChecked  -9.3625     1447.7891   ✗       
+196   VALAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -9.3654     1419.6850   ✗       
+197   HVLSGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -9.3683     1499.7588   ✗       
+198   VVLSGC+57.021LLTPM+15.995VR-1.0000     NotChecked  -9.3770     1459.7891   ✗       
+199   VVLSGC+57.021LLTPPVR     -1.0000     NotChecked  -9.3813     1409.8064   ✗       
+200   VFWSC+57.021LLTPM+15.995TR-1.0000     NotChecked  -9.3831     1525.7421   ✗       
+201   VVLSGC+57.021LPTPM+15.995VR-1.0000     NotChecked  -9.3843     1443.7578   ✗       
+202   VFWSGC+57.021DLTPVTR     -1.0000     NotChecked  -9.3869     1536.7395   ✗       
+203   VFLSGLDLTPM+15.995TR     -1.0000     NotChecked  -9.3887     1464.7646   ✗       
+204   VVLSGC+57.021LLTPM+15.995M+15.995R-1.0000     NotChecked  -9.3894     1507.7561   ✗       
+205   VVLAGYDLTPM+15.995VR     -1.0000     NotChecked  -9.3907     1448.7697   ✗       
+206   VGLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -9.3921     1421.6643   ✗       
+207   VVLAGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -9.4000     1445.7734   ✗       
+208   VVLAGC+57.021LLTPPTR     -1.0000     NotChecked  -9.4043     1395.7908   ✗       
+209   HFLAGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -9.4055     1531.7639   ✗       
+210   VVLSGC+57.021DLTTM+15.995TR-1.0000     NotChecked  -9.4055     1467.7061   ✗       
+211   VVLAGC+57.021LPTPM+15.995TR-1.0000     NotChecked  -9.4073     1429.7421   ✗       
+212   VVLSGC+57.021DLTTPTR     -1.0000     NotChecked  -9.4098     1417.7235   ✗       
+213   VVLSGC+57.021DPTTM+15.995TR-1.0000     NotChecked  -9.4128     1451.6748   ✗       
+214   VFLAGC+57.021LLTPM+15.995VR-1.0000     NotChecked  -9.4142     1491.7942   ✗       
+215   VFLAGC+57.021LLTPPVR     -1.0000     NotChecked  -9.4185     1441.8115   ✗       
+216   VFLSGC+57.021DLTTM+15.995VR-1.0000     NotChecked  -9.4198     1513.7269   ✗       
+217   VFLAGC+57.021LPTPM+15.995VR-1.0000     NotChecked  -9.4215     1475.7629   ✗       
+218   VFLSGC+57.021DLTTPVR     -1.0000     NotChecked  -9.4241     1463.7442   ✗       
+219   VVLSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -9.4244     1461.7320   ✗       
+220   VFLSGC+57.021DPTTM+15.995VR-1.0000     NotChecked  -9.4271     1497.6956   ✗       
+221   VVLAGC+57.021LLTPM+15.995LR-1.0000     NotChecked  -9.4272     1457.8098   ✗       
+222   VVLSGC+57.021DLTPM+15.995SR-1.0000     NotChecked  -9.4275     1449.6956   ✗       
+223   VVLSC+57.021DLTPM+15.995VR-1.0000     NotChecked  -9.4278     1404.7105   ✗       
+224   VVLSGC+57.021DLTTM+15.995LR-1.0000     NotChecked  -9.4328     1479.7425   ✗       
+225   VVWAGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -9.4405     1518.7323   ✗       
+226   VFLAGC+57.021DLTTM+15.995TR-1.0000     NotChecked  -9.4427     1499.7112   ✗       
+227   VFLSGC+57.021DLTPTTR     -1.0000     NotChecked  -9.4431     1465.7235   ✗       
+228   VVWAGC+57.021DLTPPVR     -1.0000     NotChecked  -9.4448     1468.7497   ✗       
+229   VFLAGC+57.021DLTTPTR     -1.0000     NotChecked  -9.4470     1449.7286   ✗       
+230   VVLAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -9.4473     1447.7163   ✗       
+231   VVWAGC+57.021DPTPM+15.995VR-1.0000     NotChecked  -9.4478     1502.7010   ✗       
+232   VFLAGC+57.021DPTTM+15.995TR-1.0000     NotChecked  -9.4500     1483.6799   ✗       
+233   VVLAC+57.021DLTPM+15.995TR-1.0000     NotChecked  -9.4507     1390.6948   ✗       
+234   VFLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -9.4549     1511.7112   ✗       
+235   VFLAGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -9.4616     1493.7371   ✗       
+236   VFLSGC+57.021DLTPPTR     -1.0000     NotChecked  -9.4616     1461.7286   ✗       
+237   VFLSGC+57.021DPTPM+15.995TR-1.0000     NotChecked  -9.4646     1495.6799   ✗       
+238   VFLAGC+57.021DLTPM+15.995SR-1.0000     NotChecked  -9.4647     1481.7007   ✗       
+239   VFLAC+57.021DLTPM+15.995VR-1.0000     NotChecked  -9.4650     1436.7156   ✗       
+240   VVLSGC+57.021ELTPM+15.995VR-1.0000     NotChecked  -9.4680     1475.7476   ✗       
+241   VFLSGC+57.021DPTPPTR     -1.0000     NotChecked  -9.4689     1445.6973   ✗       
+242   VFLAGC+57.021DLTTM+15.995LR-1.0000     NotChecked  -9.4700     1511.7476   ✗       
+243   VFLSGC+57.021DLTPM+15.995LR-1.0000     NotChecked  -9.4845     1523.7476   ✗       
+244   VFLSGC+57.021DLTPPLR     -1.0000     NotChecked  -9.4888     1473.7650   ✗       
+245   VVLAGC+57.021ELTPM+15.995TR-1.0000     NotChecked  -9.4909     1461.7320   ✗       
+246   VFLSGC+57.021DPTPM+15.995LR-1.0000     NotChecked  -9.4918     1507.7163   ✗       
+247   VFLAGC+57.021ELTPM+15.995VR-1.0000     NotChecked  -9.5052     1507.7527   ✗       
+248   VVLSGC+57.021LLTPM+15.995PR-1.0000     NotChecked  -9.5206     1457.7734   ✗       
+249   VVLSGC+57.021DLTPM+15.995GR-1.0000     NotChecked  -9.5264     1419.6850   ✗       
+250   VVLSGC+57.021DLTPM+15.995AR-1.0000     NotChecked  -9.5301     1433.7007   ✗       
+251   VALSGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -9.5309     1433.7370   ✗       
+252   VVLC+57.021GC+57.021DLTTM+15.995VR-1.0000     NotChecked  -9.5367     1538.7255   ✗       
+253   VVLSGYDLTPM+15.995TR     -1.0000     NotChecked  -9.5411     1466.7439   ✗       
+254   VFLSGYDLTPM+15.995VR     -1.0000     NotChecked  -9.5554     1512.7646   ✗       
+255   VVLSGYLLTPM+15.995VR     -1.0000     NotChecked  -9.5561     1462.8218   ✗       
+256   VFLAGC+57.021LLTPM+15.995PR-1.0000     NotChecked  -9.5578     1489.7785   ✗       
+257   VFLSGC+57.021DLTTM+15.995PR-1.0000     NotChecked  -9.5634     1511.7112   ✗       
+258   VFLAGC+57.021DLTPM+15.995GR-1.0000     NotChecked  -9.5636     1451.6901   ✗       
+259   VFLAGC+57.021DLTPM+15.995AR-1.0000     NotChecked  -9.5673     1465.7058   ✗       
+260   VAWSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -9.5714     1506.6959   ✗       
+261   VVLC+57.021GC+57.021DLTPM+15.995TR-1.0000     NotChecked  -9.5742     1536.7098   ✗       
+262   VFLSGC+57.021DLTPLTR     -1.0000     NotChecked  -9.5750     1477.7599   ✗       
+263   VFLAGYDLTPM+15.995TR     -1.0000     NotChecked  -9.5783     1498.7490   ✗       
+264   VVLC+57.021GC+57.021DLTPPTR-1.0000     NotChecked  -9.5785     1486.7272   ✗       
+265   VVLAGYLLTPM+15.995TR     -1.0000     NotChecked  -9.5791     1448.8061   ✗       
+266   VVLC+57.021GC+57.021DPTPM+15.995TR-1.0000     NotChecked  -9.5816     1520.6785   ✗       
+267   VVWAGC+57.021DLTPM+15.995PR-1.0000     NotChecked  -9.5841     1516.7166   ✗       
+268   VVLSGYDLTTM+15.995TR     -1.0000     NotChecked  -9.5846     1470.7388   ✗       
+269   VVWAGC+57.021LLTTM+15.995VR-1.0000     NotChecked  -9.5914     1520.7843   ✗       
+270   VFLC+57.021GC+57.021DLTPPVR-1.0000     NotChecked  -9.5928     1532.7479   ✗       
+271   VFLAGYLLTPM+15.995VR     -1.0000     NotChecked  -9.5933     1494.8269   ✗       
+272   VAWAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -9.5944     1492.6803   ✗       
+273   VFLSGYDLTTM+15.995VR     -1.0000     NotChecked  -9.5989     1516.7595   ✗       
+274   VVWSGC+57.021LLTPM+15.995VR-1.0000     NotChecked  -9.6059     1532.7843   ✗       
+275   VFLSGC+57.021LLTTM+15.995TR-1.0000     NotChecked  -9.6082     1513.7632   ✗       
+276   VVWSGC+57.021LLTPPVR     -1.0000     NotChecked  -9.6103     1482.8017   ✗       
+277   VFLSGC+57.021LLTTPTR     -1.0000     NotChecked  -9.6125     1463.7806   ✗       
+278   VVLSGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -9.6128     1461.7683   ✗       
+279   VVWSGC+57.021LPTPM+15.995VR-1.0000     NotChecked  -9.6133     1516.7530   ✗       
+280   VFLSGC+57.021LPTTM+15.995TR-1.0000     NotChecked  -9.6155     1497.7319   ✗       
+281   VVLSC+57.021LLTPM+15.995TR-1.0000     NotChecked  -9.6162     1404.7469   ✗       
+282   VFWSGLDLTPM+15.995TR     -1.0000     NotChecked  -9.6177     1537.7599   ✗       
+283   VVWAGYDLTPM+15.995VR     -1.0000     NotChecked  -9.6196     1521.7650   ✗       
+284   VVLSGC+57.021DLTPVTR     -1.0000     NotChecked  -9.6200     1415.7442   ✗       
+285   VGWSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -9.6211     1494.6595   ✗       
+286   VFLAGYDLTTM+15.995TR     -1.0000     NotChecked  -9.6218     1502.7439   ✗       
+287   VFLSGC+57.021LLTPM+15.995VR-1.0000     NotChecked  -9.6270     1507.7891   ✗       
+288   VVWAGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -9.6289     1518.7687   ✗       
+289   VFLSGC+57.021LLTPM+15.995SR-1.0000     NotChecked  -9.6302     1495.7527   ✗       
+290   VFLSC+57.021LLTPM+15.995VR-1.0000     NotChecked  -9.6304     1450.7676   ✗       
+291   VVWAGC+57.021LLTPPTR     -1.0000     NotChecked  -9.6332     1468.7860   ✗       
+292   VFLSGC+57.021DLTPVVR     -1.0000     NotChecked  -9.6343     1461.7650   ✗       
+293   VFLSGC+57.021LLTTM+15.995LR-1.0000     NotChecked  -9.6354     1525.7996   ✗       
+294   VFLSGC+57.021DLTPATR     -1.0000     NotChecked  -9.6356     1435.7129   ✗       
+295   VVWAGC+57.021LPTPM+15.995TR-1.0000     NotChecked  -9.6362     1502.7374   ✗       
+296   VVWSGC+57.021DLTTPTR     -1.0000     NotChecked  -9.6388     1490.7187   ✗       
+297   VFLSGYDLTPPTR            -1.0000     NotChecked  -9.6407     1464.7613   ✗       
+298   LVLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -9.6417     1477.7269   ✗       
+299   VVWSGC+57.021DPTTM+15.995TR-1.0000     NotChecked  -9.6418     1524.6701   ✗       
+300   VFLSGYDPTPM+15.995TR     -1.0000     NotChecked  -9.6437     1498.7126   ✗       
+301   VFWAGC+57.021LLTPPVR     -1.0000     NotChecked  -9.6475     1514.8068   ✗       
+302   VFLAGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -9.6500     1493.7734   ✗       
+303   VFWSGC+57.021DLTTPVR     -1.0000     NotChecked  -9.6530     1536.7395   ✗       
+304   VVWSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -9.6533     1534.7272   ✗       
+305   VFLAC+57.021LLTPM+15.995TR-1.0000     NotChecked  -9.6534     1436.7520   ✗       
+306   VFLSGC+57.021DLTTM+15.995TR-1.0000     NotChecked  -9.6555     1515.7061   ✗       
+307   LFLSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -9.6560     1523.7476   ✗       
+308   VVWAGC+57.021LLTPM+15.995LR-1.0000     NotChecked  -9.6562     1530.8051   ✗       
+309   VVWSGC+57.021DLTPM+15.995SR-1.0000     NotChecked  -9.6565     1522.6908   ✗       
+310   VVWSC+57.021DLTPM+15.995VR-1.0000     NotChecked  -9.6567     1477.7057   ✗       
+311   VFLAGC+57.021DLTPVTR     -1.0000     NotChecked  -9.6572     1447.7493   ✗       
+312   VFLSC+57.021DLTTM+15.995TR-1.0000     NotChecked  -9.6589     1458.6847   ✗       
+313   VFLSGYDLTPM+15.995LR     -1.0000     NotChecked  -9.6636     1526.7803   ✗       
+314   VFWSGC+57.021DLTPTTR     -1.0000     NotChecked  -9.6720     1538.7187   ✗       
+315   VFWAGC+57.021DLTTPTR     -1.0000     NotChecked  -9.6760     1522.7238   ✗       
+316   VVWAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -9.6763     1520.7116   ✗       
+317   LFLAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -9.6789     1509.7320   ✗       
+318   HVLAGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -9.6791     1483.7275   ✗       
+319   VVWAC+57.021DLTPM+15.995TR-1.0000     NotChecked  -9.6797     1463.6901   ✗       
+320   VFWSGC+57.021DLTPPTR     -1.0000     NotChecked  -9.6905     1534.7238   ✗       
+321   VFWAC+57.021DLTPM+15.995VR-1.0000     NotChecked  -9.6939     1509.7108   ✗       
+322   VVLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -9.6941     1463.7112   ✗       
+323   VFWSGC+57.021DPTPPTR     -1.0000     NotChecked  -9.6978     1518.6925   ✗       
+324   VFLSGC+57.021ELTTM+15.995TR-1.0000     NotChecked  -9.6991     1529.7218   ✗       
+325   VFLSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -9.7084     1509.7320   ✗       
+326   VVWAGC+57.021ELTPM+15.995TR-1.0000     NotChecked  -9.7199     1534.7272   ✗       
+327   VVLC+57.021GC+57.021LLTTM+15.995TR-1.0000     NotChecked  -9.7251     1538.7619   ✗       
+328   VFLSGC+57.021LLTPM+15.995GR-1.0000     NotChecked  -9.7291     1465.7421   ✗       
+329   VFLAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -9.7313     1495.7163   ✗       
+330   VFLSGC+57.021LLTPM+15.995AR-1.0000     NotChecked  -9.7328     1479.7578   ✗       
+331   FVLAGC+57.021LLTPM+15.995VR-1.0000     NotChecked  -9.7345     1491.7942   ✗       
+332   VFESGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -9.7393     1527.6697   ✗       
+333   FVLSGC+57.021DLTTM+15.995VR-1.0000     NotChecked  -9.7401     1513.7269   ✗       
+334   VFLSGYLLTPM+15.995TR     -1.0000     NotChecked  -9.7438     1512.8010   ✗       
+335   VVWSGC+57.021LLTPM+15.995PR-1.0000     NotChecked  -9.7496     1530.7687   ✗       
+336   VVWSGC+57.021DLTPM+15.995GR-1.0000     NotChecked  -9.7554     1492.6803   ✗       
+337   VVWSGC+57.021DLTPM+15.995AR-1.0000     NotChecked  -9.7591     1506.6959   ✗       
+338   VAWSGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -9.7598     1506.7323   ✗       
+339   VVGLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -9.7620     1520.7327   ✗       
+340   FVLAGC+57.021DLTTM+15.995TR-1.0000     NotChecked  -9.7630     1499.7112   ✗       
+341   FVLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -9.7775     1511.7112   ✗       
+342   VFLC+57.021GC+57.021LLTPPTR-1.0000     NotChecked  -9.7812     1532.7843   ✗       
+343   FVLSGC+57.021DLTPPTR     -1.0000     NotChecked  -9.7819     1461.7286   ✗       
+344   FVLSGC+57.021DPTPM+15.995TR-1.0000     NotChecked  -9.7849     1495.6799   ✗       
+345   VVWSGYLLTPM+15.995VR     -1.0000     NotChecked  -9.7851     1535.8170   ✗       
+346   VFLSGYLLTTM+15.995TR     -1.0000     NotChecked  -9.7873     1516.7959   ✗       
+347   VFWAGC+57.021DLTPM+15.995GR-1.0000     NotChecked  -9.7926     1524.6853   ✗       
+348   FFLSGC+57.021DLTPPVR     -1.0000     NotChecked  -9.7961     1507.7493   ✗       
+349   VFWAGC+57.021DLTPM+15.995AR-1.0000     NotChecked  -9.7963     1538.7010   ✗       
+350   VVGLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -9.7971     1520.7327   ✗       
+351   FVLSGC+57.021DLTPM+15.995LR-1.0000     NotChecked  -9.8048     1523.7476   ✗       
+352   VVWAGYLLTPM+15.995TR     -1.0000     NotChecked  -9.8080     1521.8014   ✗       
+353   FFLAGC+57.021DLTPPTR     -1.0000     NotChecked  -9.8191     1493.7337   ✗       
+354   FFLAGC+57.021DPTPM+15.995TR-1.0000     NotChecked  -9.8221     1527.6850   ✗       
+355   VFLSGC+57.021LLTPVTR     -1.0000     NotChecked  -9.8227     1461.8014   ✗       
+356   VFLC+57.021C+57.021DLTPM+15.995TR-1.0000     NotChecked  -9.8277     1527.6884   ✗       
+357   VFWSGC+57.021LLTTPTR     -1.0000     NotChecked  -9.8414     1536.7759   ✗       
+358   VVWSGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -9.8417     1534.7636   ✗       
+359   VALAGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -9.8417     1417.7058   ✗       
+360   LFLSGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -9.8444     1523.7840   ✗       
+361   HVLSGC+57.021LLTPM+15.995VR-1.0000     NotChecked  -9.8446     1497.7796   ✗       
+362   VVWSC+57.021LLTPM+15.995TR-1.0000     NotChecked  -9.8451     1477.7421   ✗       
+363   VFLSGC+57.021DLTGM+15.995TR-1.0000     NotChecked  -9.8464     1471.6799   ✗       
+364   VVWSGC+57.021DLTPVTR     -1.0000     NotChecked  -9.8490     1488.7395   ✗       
+365   VVLSGLDLTPM+15.995TR     -1.0000     NotChecked  -9.8508     1416.7646   ✗       
+366   VVLSGC+57.021LDLTPPTR    -1.0000     NotChecked  -9.8551     1526.8126   ✗       
+367   VFWSC+57.021LLTPM+15.995VR-1.0000     NotChecked  -9.8594     1523.7629   ✗       
+368   VFWSGC+57.021DLTPVVR     -1.0000     NotChecked  -9.8632     1534.7602   ✗       
+369   VFWSGC+57.021DLTPATR     -1.0000     NotChecked  -9.8645     1508.7082   ✗       
+370   VFLSGLDLTPM+15.995VR     -1.0000     NotChecked  -9.8650     1462.7854   ✗       
+371   HVLAGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -9.8675     1483.7639   ✗       
+372   VGLSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -9.8684     1419.6850   ✗       
+373   VFWSGYDLTPPTR            -1.0000     NotChecked  -9.8696     1537.7565   ✗       
+374   HVLSGC+57.021DLTTM+15.995TR-1.0000     NotChecked  -9.8731     1505.6966   ✗       
+375   VVLAGC+57.021LLTPM+15.995VR-1.0000     NotChecked  -9.8762     1443.7942   ✗       
+376   VVLAGC+57.021LLTPPVR     -1.0000     NotChecked  -9.8806     1393.8115   ✗       
+377   HFLAGC+57.021LLTPM+15.995VR-1.0000     NotChecked  -9.8818     1529.7847   ✗       
+378   VVLSGC+57.021DLTTM+15.995VR-1.0000     NotChecked  -9.8818     1465.7269   ✗       
+379   VFWAC+57.021LLTPM+15.995TR-1.0000     NotChecked  -9.8823     1509.7472   ✗       
+380   VVLAGC+57.021LPTPM+15.995VR-1.0000     NotChecked  -9.8836     1427.7629   ✗       
+381   VVLSGC+57.021DLTTPVR     -1.0000     NotChecked  -9.8861     1415.7442   ✗       
+382   VFWAGC+57.021DLTPVTR     -1.0000     NotChecked  -9.8862     1520.7446   ✗       
+383   VFWSC+57.021DLTTM+15.995TR-1.0000     NotChecked  -9.8879     1531.6799   ✗       
+384   VFLAGLDLTPM+15.995TR     -1.0000     NotChecked  -9.8880     1448.7697   ✗       
+385   VVLAGC+57.021LLTPM+15.995M+15.995R-1.0000     NotChecked  -9.8887     1491.7612   ✗       
+386   VVLSGC+57.021DPTTM+15.995VR-1.0000     NotChecked  -9.8891     1449.6956   ✗       
+387   VGLAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -9.8914     1405.6694   ✗       
+388   VVLSGC+57.021DLTTM+15.995M+15.995R-1.0000     NotChecked  -9.8942     1513.6939   ✗       
+389   VFLSGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -9.8968     1509.7683   ✗       
+390   VVLAGC+57.021DLTTM+15.995TR-1.0000     NotChecked  -9.9048     1451.7112   ✗       
+391   VVLSGC+57.021DLTPTTR     -1.0000     NotChecked  -9.9051     1417.7235   ✗       
+392   VVLAGC+57.021DLTTPTR     -1.0000     NotChecked  -9.9091     1401.7286   ✗       
+393   HFLAGC+57.021DLTTM+15.995TR-1.0000     NotChecked  -9.9103     1537.7017   ✗       
+394   VFLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -9.9108     1511.7112   ✗       
+395   VVLAGC+57.021DPTTM+15.995TR-1.0000     NotChecked  -9.9121     1435.6799   ✗       
+396   VVLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -9.9169     1463.7112   ✗       
+397   VFLAGC+57.021DLTTM+15.995VR-1.0000     NotChecked  -9.9190     1497.7320   ✗       
+398   VFLSGC+57.021DLTPTVR     -1.0000     NotChecked  -9.9193     1463.7442   ✗       
+399   VVWSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -9.9231     1536.7065   ✗       
+400   VFLAGC+57.021DLTTPVR     -1.0000     NotChecked  -9.9233     1447.7493   ✗       
+401   VVLAGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -9.9236     1445.7371   ✗       
+402   VVLSGC+57.021DLTPPTR     -1.0000     NotChecked  -9.9236     1413.7286   ✗       
+403   VFLAGC+57.021DPTTM+15.995VR-1.0000     NotChecked  -9.9263     1481.7007   ✗       
+404   VVLSGC+57.021DPTPM+15.995TR-1.0000     NotChecked  -9.9266     1447.6799   ✗       
+405   VVLAGC+57.021DLTPM+15.995SR-1.0000     NotChecked  -9.9268     1433.7007   ✗       
+406   VVLAC+57.021DLTPM+15.995VR-1.0000     NotChecked  -9.9270     1388.7156   ✗       
+407   FVLSGC+57.021LLTTM+15.995TR-1.0000     NotChecked  -9.9285     1513.7632   ✗       
+408   HFLSGC+57.021DLTPPTR     -1.0000     NotChecked  -9.9291     1499.7191   ✗       
+409   VVLSGC+57.021DPTPPTR     -1.0000     NotChecked  -9.9309     1397.6973   ✗       
+410   VFLSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -9.9312     1509.7320   ✗       
+411   VVLAGC+57.021DLTTM+15.995LR-1.0000     NotChecked  -9.9320     1463.7476   ✗       
+412   HFLSGC+57.021DPTPM+15.995TR-1.0000     NotChecked  -9.9322     1533.6704   ✗       
+413   VFLSGC+57.021DLTPPVR     -1.0000     NotChecked  -9.9379     1459.7493   ✗       
+414   VFLSGC+57.021DPTPM+15.995VR-1.0000     NotChecked  -9.9409     1493.7007   ✗       
+415   VFLAGC+57.021DLTPTTR     -1.0000     NotChecked  -9.9423     1449.7286   ✗       
+416   VFLSGC+57.021DPTPPVR     -1.0000     NotChecked  -9.9452     1443.7180   ✗       
+417   VVLSGC+57.021DLTPM+15.995LR-1.0000     NotChecked  -9.9465     1475.7476   ✗       
+418   VFLSGC+57.021DLTPPM+15.995R-1.0000     NotChecked  -9.9503     1507.7163   ✗       
+419   VVLSGC+57.021DLTPPLR     -1.0000     NotChecked  -9.9509     1425.7650   ✗       
+420   VVLSGC+57.021DPTPM+15.995LR-1.0000     NotChecked  -9.9539     1459.7163   ✗       
+421   VFLAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -9.9541     1495.7163   ✗       
+422   FVLSGYDLTPM+15.995TR     -1.0000     NotChecked  -9.9567     1514.7439   ✗       
+423   VFWSGC+57.021LLTPM+15.995GR-1.0000     NotChecked  -9.9581     1538.7374   ✗       
+424   VFLAGC+57.021DLTPPTR     -1.0000     NotChecked  -9.9608     1445.7337   ✗       
+425   VFLAGC+57.021DPTPM+15.995TR-1.0000     NotChecked  -9.9638     1479.6850   ✗       
+426   VVLAGC+57.021ELTPM+15.995VR-1.0000     NotChecked  -9.9672     1459.7527   ✗       
+427   VFLAGC+57.021DPTPPTR     -1.0000     NotChecked  -9.9681     1429.7024   ✗       
+428   VFLAGC+57.021DLTPM+15.995LR-1.0000     NotChecked  -9.9838     1507.7527   ✗       
+429   FFLSGC+57.021LLTPPTR     -1.0000     NotChecked  -9.9845     1507.7857   ✗       
+430   VFLAGC+57.021DLTPPLR     -1.0000     NotChecked  -9.9881     1457.7701   ✗       
+431   VFLAGC+57.021DPTPM+15.995LR-1.0000     NotChecked  -9.9911     1491.7214   ✗       
+432   VALSGC+57.021LLTPM+15.995VR-1.0000     NotChecked  -10.0072    1431.7578   ✗       
+433   FVWSGC+57.021DLTPPTR     -1.0000     NotChecked  -10.0108    1534.7238   ✗       
+434   VVLSGYDLTPM+15.995VR     -1.0000     NotChecked  -10.0174    1464.7646   ✗       
+435   VVLAGC+57.021LLTPM+15.995PR-1.0000     NotChecked  -10.0199    1441.7785   ✗       
+436   VVLSGC+57.021DLTTM+15.995PR-1.0000     NotChecked  -10.0254    1463.7112   ✗       
+437   VVLAGC+57.021DLTPM+15.995GR-1.0000     NotChecked  -10.0257    1403.6901   ✗       
+438   VVLAGC+57.021DLTPM+15.995AR-1.0000     NotChecked  -10.0294    1417.7058   ✗       
+439   VALAGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -10.0301    1417.7421   ✗       
+440   FFLSC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.0310    1502.6898   ✗       
+441   VALSGC+57.021DLTTM+15.995TR-1.0000     NotChecked  -10.0357    1439.6748   ✗       
+442   VVLSGC+57.021DLTPLTR     -1.0000     NotChecked  -10.0370    1429.7599   ✗       
+443   VVLAGYDLTPM+15.995TR     -1.0000     NotChecked  -10.0404    1450.7490   ✗       
+444   VVLC+57.021GC+57.021DLTPM+15.995VR-1.0000     NotChecked  -10.0505    1534.7306   ✗       
+445   VFLSGC+57.021DLTPLVR     -1.0000     NotChecked  -10.0513    1475.7806   ✗       
+446   VFWSGC+57.021LLTPVTR     -1.0000     NotChecked  -10.0516    1534.7966   ✗       
+447   VFLSGLLLTPM+15.995TR     -1.0000     NotChecked  -10.0534    1462.8218   ✗       
+448   VFLAGYDLTPM+15.995VR     -1.0000     NotChecked  -10.0546    1496.7697   ✗       
+449   VVLC+57.021GC+57.021DLTPPVR-1.0000     NotChecked  -10.0548    1484.7479   ✗       
+450   VVLAGYLLTPM+15.995VR     -1.0000     NotChecked  -10.0554    1446.8269   ✗       
+451   VGLSGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -10.0568    1419.7214   ✗       
+452   VVLC+57.021GC+57.021DPTPM+15.995VR-1.0000     NotChecked  -10.0578    1518.6993   ✗       
+453   VVLSGYDLTTM+15.995VR     -1.0000     NotChecked  -10.0609    1468.7595   ✗       
+454   VFLAGC+57.021DLTTM+15.995PR-1.0000     NotChecked  -10.0626    1495.7163   ✗       
+455   VVLSGC+57.021LLTTM+15.995TR-1.0000     NotChecked  -10.0702    1465.7632   ✗       
+456   VAWAGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -10.0707    1490.7010   ✗       
+457   VFLAGC+57.021DLTPLTR     -1.0000     NotChecked  -10.0742    1461.7650   ✗       
+458   VVLSGC+57.021LLTTPTR     -1.0000     NotChecked  -10.0745    1415.7806   ✗       
+459   VFLSGC+57.021DLTPM+15.995PR-1.0000     NotChecked  -10.0772    1507.7163   ✗       
+460   VVLSGC+57.021LPTTM+15.995TR-1.0000     NotChecked  -10.0775    1449.7319   ✗       
+461   VVWSGLDLTPM+15.995TR     -1.0000     NotChecked  -10.0797    1489.7599   ✗       
+462   VFLSGC+57.021DLTPPPR     -1.0000     NotChecked  -10.0815    1457.7337   ✗       
+463   VVLAGYDLTTM+15.995TR     -1.0000     NotChecked  -10.0839    1454.7439   ✗       
+464   VFLSGC+57.021LLTTM+15.995VR-1.0000     NotChecked  -10.0845    1511.7840   ✗       
+465   VFLSGC+57.021DPTPM+15.995PR-1.0000     NotChecked  -10.0845    1491.6850   ✗       
+466   VFLSGC+57.021LLTTPVR     -1.0000     NotChecked  -10.0888    1461.8014   ✗       
+467   VVLSGC+57.021LLTPM+15.995VR-1.0000     NotChecked  -10.0891    1459.7891   ✗       
+468   VFLSGC+57.021LPTTM+15.995VR-1.0000     NotChecked  -10.0918    1495.7527   ✗       
+469   VVLSGC+57.021LLTPM+15.995SR-1.0000     NotChecked  -10.0922    1447.7527   ✗       
+470   VVLSC+57.021LLTPM+15.995VR-1.0000     NotChecked  -10.0925    1402.7676   ✗       
+471   VFWSGLDLTPM+15.995VR     -1.0000     NotChecked  -10.0940    1535.7806   ✗       
+472   VVLSGC+57.021DLTPVVR     -1.0000     NotChecked  -10.0963    1413.7650   ✗       
+473   VGWSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -10.0974    1492.6803   ✗       
+474   VVLSGC+57.021LLTTM+15.995LR-1.0000     NotChecked  -10.0975    1477.7996   ✗       
+475   VVLSGC+57.021DLTPATR     -1.0000     NotChecked  -10.0976    1387.7129   ✗       
+476   VFLAGYDLTTM+15.995VR     -1.0000     NotChecked  -10.0981    1500.7646   ✗       
+477   VVLSGYDLTPPTR            -1.0000     NotChecked  -10.1027    1416.7613   ✗       
+478   VVWAGC+57.021LLTPM+15.995VR-1.0000     NotChecked  -10.1052    1516.7894   ✗       
+479   VVLSGYDPTPM+15.995TR     -1.0000     NotChecked  -10.1057    1450.7126   ✗       
+480   VFLAGC+57.021LLTTM+15.995TR-1.0000     NotChecked  -10.1074    1497.7683   ✗       
+481   VFLSGC+57.021LLTPTTR     -1.0000     NotChecked  -10.1078    1463.7806   ✗       
+482   VVWAGC+57.021LLTPPVR     -1.0000     NotChecked  -10.1095    1466.8068   ✗       
+483   VVWSGC+57.021DLTTM+15.995VR-1.0000     NotChecked  -10.1108    1538.7221   ✗       
+484   VFLAGC+57.021LLTTPTR     -1.0000     NotChecked  -10.1117    1447.7857   ✗       
+485   VFLSGC+57.021DLTPAVR     -1.0000     NotChecked  -10.1118    1433.7337   ✗       
+486   VVLAGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -10.1120    1445.7734   ✗       
+487   VVWAGC+57.021LPTPM+15.995VR-1.0000     NotChecked  -10.1125    1500.7581   ✗       
+488   VFLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.1146    1511.7112   ✗       
+489   VFLAGC+57.021LPTTM+15.995TR-1.0000     NotChecked  -10.1147    1481.7370   ✗       
+490   VVWSGC+57.021DLTTPVR     -1.0000     NotChecked  -10.1151    1488.7395   ✗       
+491   VVLAC+57.021LLTPM+15.995TR-1.0000     NotChecked  -10.1154    1388.7520   ✗       
+492   VFWAGLDLTPM+15.995TR     -1.0000     NotChecked  -10.1169    1521.7650   ✗       
+493   VFLSGYDLTPPVR            -1.0000     NotChecked  -10.1170    1462.7820   ✗       
+494   VVLSGC+57.021DLTTM+15.995TR-1.0000     NotChecked  -10.1176    1467.7061   ✗       
+495   LVLSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -10.1180    1475.7476   ✗       
+496   VVWSGC+57.021DPTTM+15.995VR-1.0000     NotChecked  -10.1181    1522.6908   ✗       
+497   VVLAGC+57.021DLTPVTR     -1.0000     NotChecked  -10.1193    1399.7493   ✗       
+498   VFLSGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -10.1196    1509.7683   ✗       
+499   VFLSGYDPTPM+15.995VR     -1.0000     NotChecked  -10.1200    1496.7333   ✗       
+500   VGWAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.1203    1478.6646   ✗       
+501   VVLSC+57.021DLTTM+15.995TR-1.0000     NotChecked  -10.1210    1410.6847   ✗       
+502   VVLSGYDLTPM+15.995LR     -1.0000     NotChecked  -10.1257    1478.7803   ✗       
+503   VFLAGC+57.021LLTPM+15.995VR-1.0000     NotChecked  -10.1263    1491.7942   ✗       
+504   VFLSGC+57.021LLTPPTR     -1.0000     NotChecked  -10.1263    1459.7857   ✗       
+505   VFLSGC+57.021LPTPM+15.995TR-1.0000     NotChecked  -10.1293    1493.7370   ✗       
+506   VFLAGC+57.021LLTPM+15.995SR-1.0000     NotChecked  -10.1294    1479.7578   ✗       
+507   VFLAC+57.021LLTPM+15.995VR-1.0000     NotChecked  -10.1297    1434.7727   ✗       
+508   VFLSGC+57.021DLTTM+15.995VR-1.0000     NotChecked  -10.1318    1513.7269   ✗       
+509   VFLAGC+57.021DLTPVVR     -1.0000     NotChecked  -10.1335    1445.7701   ✗       
+510   VFLSGC+57.021LPTPPTR     -1.0000     NotChecked  -10.1336    1443.7544   ✗       
+511   VVWAGC+57.021DLTTM+15.995TR-1.0000     NotChecked  -10.1337    1524.7065   ✗       
+512   VVWSGC+57.021DLTPTTR     -1.0000     NotChecked  -10.1340    1490.7187   ✗       
+513   VFLAGC+57.021LLTTM+15.995LR-1.0000     NotChecked  -10.1347    1509.8047   ✗       
+514   VFLAGC+57.021DLTPATR     -1.0000     NotChecked  -10.1348    1419.7180   ✗       
+515   VFLSGC+57.021DLTTM+15.995SR-1.0000     NotChecked  -10.1350    1501.6905   ✗       
+516   VFLSC+57.021DLTTM+15.995VR-1.0000     NotChecked  -10.1352    1456.7054   ✗       
+517   VVWAGC+57.021DLTTPTR     -1.0000     NotChecked  -10.1380    1474.7238   ✗       
+518   VLLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.1393    1477.7269   ✗       
+519   VFLAGYDLTPPTR            -1.0000     NotChecked  -10.1399    1448.7664   ✗       
+520   LVLAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.1410    1461.7320   ✗       
+521   VVWAGC+57.021DPTTM+15.995TR-1.0000     NotChecked  -10.1410    1508.6752   ✗       
+522   VFLAGYDPTPM+15.995TR     -1.0000     NotChecked  -10.1429    1482.7177   ✗       
+523   VVWSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.1459    1536.7065   ✗       
+524   VFWSGC+57.021DLTPTVR     -1.0000     NotChecked  -10.1483    1536.7395   ✗       
+525   VFLSGC+57.021LLTPM+15.995LR-1.0000     NotChecked  -10.1492    1521.8047   ✗       
+526   VFWAGC+57.021DLTTPVR     -1.0000     NotChecked  -10.1523    1520.7446   ✗       
+527   VVWAGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -10.1526    1518.7323   ✗       
+528   VVWSGC+57.021DLTPPTR     -1.0000     NotChecked  -10.1526    1486.7238   ✗       
+529   VFLSGC+57.021LLTPPLR     -1.0000     NotChecked  -10.1535    1471.8221   ✗       
+530   VFLAGC+57.021DLTTM+15.995TR-1.0000     NotChecked  -10.1548    1499.7112   ✗       
+531   LFLAGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -10.1552    1507.7527   ✗       
+532   VVWSGC+57.021DPTPM+15.995TR-1.0000     NotChecked  -10.1556    1520.6752   ✗       
+533   VVWAGC+57.021DLTPM+15.995SR-1.0000     NotChecked  -10.1557    1506.6959   ✗       
+534   VVWAC+57.021DLTPM+15.995VR-1.0000     NotChecked  -10.1560    1461.7108   ✗       
+535   VFLSGC+57.021LPTPM+15.995LR-1.0000     NotChecked  -10.1565    1505.7734   ✗       
+536   VFLAC+57.021DLTTM+15.995TR-1.0000     NotChecked  -10.1582    1442.6897   ✗       
+537   VVWSGC+57.021DPTPPTR     -1.0000     NotChecked  -10.1599    1470.6925   ✗       
+538   VVWAGC+57.021DLTTM+15.995LR-1.0000     NotChecked  -10.1610    1536.7429   ✗       
+539   VVLSGC+57.021ELTTM+15.995TR-1.0000     NotChecked  -10.1612    1481.7218   ✗       
+540   VFLAGYDLTPM+15.995LR     -1.0000     NotChecked  -10.1629    1510.7854   ✗       
+541   VFWSGC+57.021DLTPPVR     -1.0000     NotChecked  -10.1668    1532.7446   ✗       
+542   VFLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.1693    1511.7112   ✗       
+543   VVLSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -10.1704    1461.7320   ✗       
+544   VFWAGC+57.021DLTPTTR     -1.0000     NotChecked  -10.1713    1522.7238   ✗       
+545   VFLSC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.1727    1454.6898   ✗       
+546   VFLSGC+57.021DLTPPTR     -1.0000     NotChecked  -10.1736    1461.7286   ✗       
+547   VFWSGC+57.021DPTPPVR     -1.0000     NotChecked  -10.1741    1516.7133   ✗       
+548   VFLSGC+57.021ELTTM+15.995VR-1.0000     NotChecked  -10.1754    1527.7425   ✗       
+549   VFLSGC+57.021DPTPM+15.995TR-1.0000     NotChecked  -10.1766    1495.6799   ✗       
+550   VFLSC+57.021DLTPPTR      -1.0000     NotChecked  -10.1770    1404.7071   ✗       
+551   VVWSGC+57.021DLTPPLR     -1.0000     NotChecked  -10.1798    1498.7602   ✗       
+552   VFLSC+57.021DPTPM+15.995TR-1.0000     NotChecked  -10.1801    1438.6585   ✗       
+553   VVWSGC+57.021DPTPM+15.995LR-1.0000     NotChecked  -10.1828    1532.7116   ✗       
+554   VFWAGC+57.021DLTPPTR     -1.0000     NotChecked  -10.1898    1518.7289   ✗       
+555   VVLSGC+57.021LLTPM+15.995GR-1.0000     NotChecked  -10.1911    1417.7421   ✗       
+556   VVLAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.1934    1447.7163   ✗       
+557   VVLC+57.021GC+57.021DLTPM+15.995PR-1.0000     NotChecked  -10.1941    1532.7149   ✗       
+558   VVLSGC+57.021LLTPM+15.995AR-1.0000     NotChecked  -10.1948    1431.7578   ✗       
+559   VVWAGC+57.021ELTPM+15.995VR-1.0000     NotChecked  -10.1961    1532.7479   ✗       
+560   VFLSGC+57.021DLTPM+15.995LR-1.0000     NotChecked  -10.1966    1523.7476   ✗       
+561   VFWAGC+57.021DPTPPTR     -1.0000     NotChecked  -10.1971    1502.6976   ✗       
+562   VFLAGC+57.021ELTTM+15.995TR-1.0000     NotChecked  -10.1984    1513.7269   ✗       
+563   VFLSC+57.021DLTPM+15.995LR-1.0000     NotChecked  -10.2000    1466.7262   ✗       
+564   VVESGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.2013    1479.6697   ✗       
+565   VVLC+57.021GC+57.021LLTTM+15.995VR-1.0000     NotChecked  -10.2014    1536.7826   ✗       
+566   VALC+57.021GC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.2044    1508.6785   ✗       
+567   VFLSGC+57.021DTTPM+15.995TR-1.0000     NotChecked  -10.2057    1499.6748   ✗       
+568   VVLSGYLLTPM+15.995TR     -1.0000     NotChecked  -10.2058    1464.8010   ✗       
+569   VFLAGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -10.2076    1493.7371   ✗       
+570   VFLSGC+57.021ELTPM+15.995TR-1.0000     NotChecked  -10.2129    1525.7269   ✗       
+571   VFESGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -10.2156    1525.6905   ✗       
+572   VFWAGC+57.021DLTPPLR     -1.0000     NotChecked  -10.2170    1530.7653   ✗       
+573   VFLSGC+57.021ELTPPTR     -1.0000     NotChecked  -10.2172    1475.7442   ✗       
+574   VFLSGYLLTPM+15.995VR     -1.0000     NotChecked  -10.2201    1510.8218   ✗       
+575   VFLSGC+57.021EPTPM+15.995TR-1.0000     NotChecked  -10.2202    1509.6956   ✗       
+576   VFLSGC+57.021LLTTM+15.995PR-1.0000     NotChecked  -10.2281    1509.7683   ✗       
+577   VFLAGC+57.021LLTPM+15.995GR-1.0000     NotChecked  -10.2283    1449.7472   ✗       
+578   VVLC+57.021GYDLTPM+15.995VR-1.0000     NotChecked  -10.2296    1537.7633   ✗       
+579   VFLAGC+57.021LLTPM+15.995AR-1.0000     NotChecked  -10.2320    1463.7629   ✗       
+580   VFLSGC+57.021DLTTM+15.995GR-1.0000     NotChecked  -10.2339    1471.6799   ✗       
+581   VAWSGC+57.021LLTPM+15.995VR-1.0000     NotChecked  -10.2361    1504.7530   ✗       
+582   VFLSGC+57.021DLTTM+15.995AR-1.0000     NotChecked  -10.2376    1485.6956   ✗       
+583   VVGLSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -10.2383    1518.7534   ✗       
+584   VFEAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.2385    1511.6748   ✗       
+585   VVLC+57.021GC+57.021LLTPM+15.995TR-1.0000     NotChecked  -10.2389    1534.7670   ✗       
+586   FVLAGC+57.021DLTTM+15.995VR-1.0000     NotChecked  -10.2393    1497.7320   ✗       
+587   VFLSGC+57.021LLTPLTR     -1.0000     NotChecked  -10.2397    1475.8170   ✗       
+588   VFLSGC+57.021ELTPM+15.995LR-1.0000     NotChecked  -10.2402    1537.7633   ✗       
+589   VFLAGYLLTPM+15.995TR     -1.0000     NotChecked  -10.2430    1496.8061   ✗       
+590   VVLC+57.021GC+57.021LLTPPTR-1.0000     NotChecked  -10.2432    1484.7843   ✗       
+591   VVLC+57.021GC+57.021LPTPM+15.995TR-1.0000     NotChecked  -10.2463    1518.7357   ✗       
+592   VVWSGYDLTPM+15.995VR     -1.0000     NotChecked  -10.2464    1537.7599   ✗       
+593   VFLSGYDLTTM+15.995TR     -1.0000     NotChecked  -10.2486    1518.7388   ✗       
+594   VVWAGC+57.021LLTPM+15.995PR-1.0000     NotChecked  -10.2488    1514.7738   ✗       
+595   VVLSGYLLTTM+15.995TR     -1.0000     NotChecked  -10.2493    1468.7959   ✗       
+596   FVLSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -10.2538    1509.7320   ✗       
+597   VVWSGC+57.021DLTTM+15.995PR-1.0000     NotChecked  -10.2544    1536.7065   ✗       
+598   VVWAGC+57.021DLTPM+15.995GR-1.0000     NotChecked  -10.2546    1476.6853   ✗       
+599   VFLSGYDLTPM+15.995PR     -1.0000     NotChecked  -10.2563    1510.7490   ✗       
+600   VFLC+57.021GC+57.021LLTPPVR-1.0000     NotChecked  -10.2575    1530.8051   ✗       
+601   FVLSGC+57.021DLTPPVR     -1.0000     NotChecked  -10.2581    1459.7493   ✗       
+602   VVWAGC+57.021DLTPM+15.995AR-1.0000     NotChecked  -10.2583    1490.7010   ✗       
+603   VAWAGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -10.2591    1490.7374   ✗       
+604   FVLSGC+57.021DPTPM+15.995VR-1.0000     NotChecked  -10.2612    1493.7007   ✗       
+605   VVGLAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.2613    1504.7378   ✗       
+606   VFLSGYLLTTM+15.995VR     -1.0000     NotChecked  -10.2636    1514.8167   ✗       
+607   VAWSGC+57.021DLTTM+15.995TR-1.0000     NotChecked  -10.2647    1512.6701   ✗       
+608   VVWSGC+57.021DLTPLTR     -1.0000     NotChecked  -10.2660    1502.7551   ✗       
+609   VVWAGYDLTPM+15.995TR     -1.0000     NotChecked  -10.2693    1523.7442   ✗       
+610   VVGLSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -10.2734    1518.7534   ✗       
+611   FVLAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.2768    1495.7163   ✗       
+612   FVLAGC+57.021DLTPPTR     -1.0000     NotChecked  -10.2811    1445.7337   ✗       
+613   VFWSGLLLTPM+15.995TR     -1.0000     NotChecked  -10.2824    1535.8170   ✗       
+614   FVLAGC+57.021DPTPM+15.995TR-1.0000     NotChecked  -10.2841    1479.6850   ✗       
+615   VVWAGYLLTPM+15.995VR     -1.0000     NotChecked  -10.2843    1519.8221   ✗       
+616   VVLSGC+57.021LLTPVTR     -1.0000     NotChecked  -10.2847    1413.8014   ✗       
+617   VGWSGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -10.2858    1492.7166   ✗       
+618   VFLC+57.021GC+57.021DLTTPTR-1.0000     NotChecked  -10.2860    1538.7221   ✗       
+619   VVLC+57.021GC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.2863    1536.7098   ✗       
+620   VFLAGYLLTTM+15.995TR     -1.0000     NotChecked  -10.2865    1500.8010   ✗       
+621   VVLC+57.021C+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.2897    1479.6884   ✗       
+622   FFLAGC+57.021DLTPPVR     -1.0000     NotChecked  -10.2954    1491.7544   ✗       
+623   VVGLAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.2964    1504.7378   ✗       
+624   FFLAGC+57.021DPTPM+15.995VR-1.0000     NotChecked  -10.2984    1525.7058   ✗       
+625   VFLSGC+57.021LLTPVVR     -1.0000     NotChecked  -10.2990    1459.8221   ✗       
+626   VVWSGC+57.021LLTTM+15.995TR-1.0000     NotChecked  -10.2992    1538.7585   ✗       
+627   FVLAGC+57.021DLTPM+15.995LR-1.0000     NotChecked  -10.3040    1507.7527   ✗       
+628   LVLSGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -10.3064    1475.7840   ✗       
+629   LFLSGC+57.021LLTPM+15.995VR-1.0000     NotChecked  -10.3207    1521.8047   ✗       
+630   LFLAGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -10.3436    1507.7891   ✗       
+631   HVLAGC+57.021LLTPM+15.995VR-1.0000     NotChecked  -10.3438    1481.7847   ✗       
+632   AFLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.3461    1483.6799   ✗       
+633   LFLSGC+57.021DLTTM+15.995TR-1.0000     NotChecked  -10.3492    1529.7218   ✗       
+634   HVLSGC+57.021DLTTM+15.995VR-1.0000     NotChecked  -10.3494    1503.7174   ✗       
+635   LVWAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.3699    1534.7272   ✗       
+636   HVLAGC+57.021DLTTM+15.995TR-1.0000     NotChecked  -10.3723    1489.7017   ✗       
+637   HFLAGC+57.021DLTTM+15.995VR-1.0000     NotChecked  -10.3866    1535.7225   ✗       
+638   HVLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.3869    1501.7017   ✗       
+639   HVLSGC+57.021DLTPPTR     -1.0000     NotChecked  -10.3912    1451.7191   ✗       
+640   HVLSGC+57.021DPTPM+15.995TR-1.0000     NotChecked  -10.3942    1485.6704   ✗       
+641   FVLSGC+57.021DLTPM+15.995PR-1.0000     NotChecked  -10.3975    1507.7163   ✗       
+642   FVLSGC+57.021LLTTM+15.995VR-1.0000     NotChecked  -10.4048    1511.7840   ✗       
+643   HFLSGC+57.021DLTPPVR     -1.0000     NotChecked  -10.4054    1497.7398   ✗       
+644   FALSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.4077    1483.6799   ✗       
+645   HFLSGC+57.021DPTPM+15.995VR-1.0000     NotChecked  -10.4085    1531.6912   ✗       
+646   GFLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.4126    1469.6643   ✗       
+647   HVLSGC+57.021DLTPM+15.995LR-1.0000     NotChecked  -10.4141    1513.7381   ✗       
+648   HFLAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.4241    1533.7068   ✗       
+649   FVLAGC+57.021LLTTM+15.995TR-1.0000     NotChecked  -10.4277    1497.7683   ✗       
+650   HFLAGC+57.021DLTPPTR     -1.0000     NotChecked  -10.4284    1483.7242   ✗       
+651   HFLAGC+57.021DPTPM+15.995TR-1.0000     NotChecked  -10.4314    1517.6755   ✗       
+652   FVLSGYDLTPM+15.995VR     -1.0000     NotChecked  -10.4330    1512.7646   ✗       
+653   FVLSGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -10.4423    1509.7683   ✗       
+654   FVLSGC+57.021LLTPPTR     -1.0000     NotChecked  -10.4466    1459.7857   ✗       
+655   FVLSGC+57.021LPTPM+15.995TR-1.0000     NotChecked  -10.4496    1493.7370   ✗       
+656   FVLAGYDLTPM+15.995TR     -1.0000     NotChecked  -10.4559    1498.7490   ✗       
+657   FFLSGC+57.021LLTPPVR     -1.0000     NotChecked  -10.4608    1505.8064   ✗       
+658   FVLSGC+57.021LLTPM+15.995LR-1.0000     NotChecked  -10.4695    1521.8047   ✗       
+659   FFLAGC+57.021LLTPPTR     -1.0000     NotChecked  -10.4838    1491.7908   ✗       
+660   FFLAGC+57.021LPTPM+15.995TR-1.0000     NotChecked  -10.4868    1525.7421   ✗       
+661   FVWSGC+57.021DLTPPVR     -1.0000     NotChecked  -10.4871    1532.7446   ✗       
+662   FFLSGC+57.021DLTTPTR     -1.0000     NotChecked  -10.4893    1513.7235   ✗       
+663   FVLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.4896    1511.7112   ✗       
+664   FVLSC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.4930    1454.6898   ✗       
+665   FFLSC+57.021DLTPM+15.995VR-1.0000     NotChecked  -10.5073    1500.7105   ✗       
+666   FVWAGC+57.021DLTPPTR     -1.0000     NotChecked  -10.5101    1518.7289   ✗       
+667   FFLAC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.5302    1486.6948   ✗       
+668   FVLSGC+57.021ELTPM+15.995TR-1.0000     NotChecked  -10.5332    1525.7269   ✗       
+669   HVLSGC+57.021LLTTM+15.995TR-1.0000     NotChecked  -10.5378    1503.7537   ✗       
+670   HVLSGYDLTPM+15.995TR     -1.0000     NotChecked  -10.5660    1504.7344   ✗       
+671   HFLAGC+57.021LLTTM+15.995TR-1.0000     NotChecked  -10.5750    1535.7588   ✗       
+672   HFLSGC+57.021LLTPPTR     -1.0000     NotChecked  -10.5939    1497.7762   ✗       
+673   HFLSGC+57.021LPTPM+15.995TR-1.0000     NotChecked  -10.5969    1531.7275   ✗       
+674   HFLAGYDLTPM+15.995TR     -1.0000     NotChecked  -10.6032    1536.7395   ✗       
+675   FFLSGC+57.021DLTPM+15.995GR-1.0000     NotChecked  -10.6059    1515.6850   ✗       
+676   FFLSGC+57.021DLTPM+15.995AR-1.0000     NotChecked  -10.6096    1529.7007   ✗       
+677   LVLAGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -10.6173    1459.7527   ✗       
+678   HVWSGC+57.021DLTPPTR     -1.0000     NotChecked  -10.6201    1524.7143   ✗       
+679   FVLSGYLLTPM+15.995TR     -1.0000     NotChecked  -10.6214    1512.8010   ✗       
+680   HFLSC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.6403    1492.6803   ✗       
+681   FVWSGC+57.021LLTPPTR     -1.0000     NotChecked  -10.6755    1532.7810   ✗       
+682   FFLSC+57.021LLTPM+15.995TR-1.0000     NotChecked  -10.6957    1500.7469   ✗       
+683   FFLSGC+57.021DLTPVTR     -1.0000     NotChecked  -10.6995    1511.7442   ✗       
+684   FVWSC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.7220    1527.6850   ✗       
+685   FVLAGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -10.7531    1493.7371   ✗       
+686   FVLAGC+57.021DLTPPVR     -1.0000     NotChecked  -10.7574    1443.7544   ✗       
+687   FVLAGC+57.021DPTPM+15.995VR-1.0000     NotChecked  -10.7604    1477.7058   ✗       
+688   LVLSGC+57.021LLTPM+15.995VR-1.0000     NotChecked  -10.7827    1473.8047   ✗       
+689   LVLAGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -10.8057    1459.7891   ✗       
+690   AVLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.8081    1435.6799   ✗       
+691   TFLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.8105    1513.6905   ✗       
+692   LVLSGC+57.021DLTTM+15.995TR-1.0000     NotChecked  -10.8112    1481.7218   ✗       
+693   LFLAGC+57.021LLTPM+15.995VR-1.0000     NotChecked  -10.8199    1505.8098   ✗       
+694   AFLSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -10.8224    1481.7007   ✗       
+695   LFLSGC+57.021DLTTM+15.995VR-1.0000     NotChecked  -10.8255    1527.7425   ✗       
+696   AFLAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.8453    1467.6850   ✗       
+697   LVWAGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -10.8462    1532.7479   ✗       
+698   LFLAGC+57.021DLTTM+15.995TR-1.0000     NotChecked  -10.8484    1513.7269   ✗       
+699   HVLAGC+57.021DLTTM+15.995VR-1.0000     NotChecked  -10.8486    1487.7225   ✗       
+700   LFLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.8630    1525.7269   ✗       
+701   HVLSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -10.8632    1499.7225   ✗       
+702   LFLSGC+57.021DLTPPTR     -1.0000     NotChecked  -10.8673    1475.7442   ✗       
+703   HVLSGC+57.021DLTPPVR     -1.0000     NotChecked  -10.8675    1449.7398   ✗       
+704   LFLSGC+57.021DPTPM+15.995TR-1.0000     NotChecked  -10.8703    1509.6956   ✗       
+705   HVLSGC+57.021DPTPM+15.995VR-1.0000     NotChecked  -10.8705    1483.6912   ✗       
+706   GVLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.8747    1421.6643   ✗       
+707   FALSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -10.8840    1481.7007   ✗       
+708   HVLAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.8861    1485.7068   ✗       
+709   GFLSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -10.8889    1467.6850   ✗       
+710   LFLSGC+57.021DLTPM+15.995LR-1.0000     NotChecked  -10.8902    1537.7633   ✗       
+711   HVLAGC+57.021DLTPPTR     -1.0000     NotChecked  -10.8904    1435.7242   ✗       
+712   HVLAGC+57.021DPTPM+15.995TR-1.0000     NotChecked  -10.8934    1469.6755   ✗       
+713   FVLAGC+57.021DLTPM+15.995PR-1.0000     NotChecked  -10.8967    1491.7214   ✗       
+714   HFLAGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -10.9004    1531.7275   ✗       
+715   FVLAGC+57.021LLTTM+15.995VR-1.0000     NotChecked  -10.9040    1495.7891   ✗       
+716   HFLAGC+57.021DLTPPVR     -1.0000     NotChecked  -10.9047    1481.7449   ✗       
+717   FALAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.9070    1467.6850   ✗       
+718   SFLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.9073    1499.6748   ✗       
+719   HFLAGC+57.021DPTPM+15.995VR-1.0000     NotChecked  -10.9077    1515.6962   ✗       
+720   GFLAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.9119    1453.6694   ✗       
+721   HVLAGC+57.021DLTPM+15.995LR-1.0000     NotChecked  -10.9134    1497.7432   ✗       
+722   FVLSGC+57.021LLTPM+15.995VR-1.0000     NotChecked  -10.9185    1507.7891   ✗       
+723   FVLSGC+57.021LLTPPVR     -1.0000     NotChecked  -10.9229    1457.8064   ✗       
+724   FVLSGC+57.021LPTPM+15.995VR-1.0000     NotChecked  -10.9259    1491.7578   ✗       
+725   FFLSGLDLTPM+15.995TR     -1.0000     NotChecked  -10.9303    1512.7646   ✗       
+726   FVLAGYDLTPM+15.995VR     -1.0000     NotChecked  -10.9322    1496.7697   ✗       
+727   FGLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.9337    1469.6643   ✗       
+728   FVLAGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -10.9415    1493.7734   ✗       
+729   FVLAGC+57.021LLTPPTR     -1.0000     NotChecked  -10.9458    1443.7908   ✗       
+730   FVLSGC+57.021DLTTM+15.995TR-1.0000     NotChecked  -10.9471    1515.7061   ✗       
+731   FVLAGC+57.021LPTPM+15.995TR-1.0000     NotChecked  -10.9488    1477.7421   ✗       
+732   FVLSGC+57.021DLTTPTR     -1.0000     NotChecked  -10.9514    1465.7235   ✗       
+733   FVLSGC+57.021DPTTM+15.995TR-1.0000     NotChecked  -10.9544    1499.6748   ✗       
+734   FFLAGC+57.021LLTPPVR     -1.0000     NotChecked  -10.9601    1489.8115   ✗       
+735   FFLAGC+57.021LPTPM+15.995VR-1.0000     NotChecked  -10.9631    1523.7629   ✗       
+736   FFLSGC+57.021DLTTPVR     -1.0000     NotChecked  -10.9656    1511.7442   ✗       
+737   FVLSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -10.9659    1509.7320   ✗       
+738   FVLAGC+57.021LLTPM+15.995LR-1.0000     NotChecked  -10.9688    1505.8098   ✗       
+739   FVLSGC+57.021DLTPM+15.995SR-1.0000     NotChecked  -10.9691    1497.6956   ✗       
+740   FVLSC+57.021DLTPM+15.995VR-1.0000     NotChecked  -10.9693    1452.7105   ✗       
+741   FVLSGC+57.021DLTTM+15.995LR-1.0000     NotChecked  -10.9743    1527.7425   ✗       
+742   FFLSGC+57.021DLTPTTR     -1.0000     NotChecked  -10.9846    1513.7235   ✗       
+743   FVWAGC+57.021DLTPPVR     -1.0000     NotChecked  -10.9863    1516.7497   ✗       
+744   FFLAGC+57.021DLTTPTR     -1.0000     NotChecked  -10.9886    1497.7286   ✗       
+745   FVLAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.9889    1495.7163   ✗       
+746   FFLAGC+57.021DPTTM+15.995TR-1.0000     NotChecked  -10.9916    1531.6799   ✗       
+747   FVLAC+57.021DLTPM+15.995TR-1.0000     NotChecked  -10.9923    1438.6948   ✗       
+748   FFLSGC+57.021DLTPPTR     -1.0000     NotChecked  -11.0031    1509.7286   ✗       
+749   FFLAGC+57.021DLTPM+15.995SR-1.0000     NotChecked  -11.0063    1529.7007   ✗       
+750   FFLAC+57.021DLTPM+15.995VR-1.0000     NotChecked  -11.0065    1484.7156   ✗       
+751   HVLSGC+57.021DLTPM+15.995PR-1.0000     NotChecked  -11.0068    1497.7068   ✗       
+752   FVLSGC+57.021ELTPM+15.995VR-1.0000     NotChecked  -11.0095    1523.7476   ✗       
+753   FFLSGC+57.021DPTPPTR     -1.0000     NotChecked  -11.0104    1493.6973   ✗       
+754   AFLSGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -11.0108    1481.7370   ✗       
+755   LFLSGC+57.021LLTTM+15.995TR-1.0000     NotChecked  -11.0139    1527.7789   ✗       
+756   HVLSGC+57.021LLTTM+15.995VR-1.0000     NotChecked  -11.0141    1501.7745   ✗       
+757   HALSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -11.0171    1473.6704   ✗       
+758   FFLSGC+57.021DLTPPLR     -1.0000     NotChecked  -11.0304    1521.7650   ✗       
+759   FVLAGC+57.021ELTPM+15.995TR-1.0000     NotChecked  -11.0325    1509.7320   ✗       
+760   LVWAGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -11.0346    1532.7843   ✗       
+761   HVLAGC+57.021LLTTM+15.995TR-1.0000     NotChecked  -11.0370    1487.7588   ✗       
+762   AVWSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -11.0371    1508.6752   ✗       
+763   LFLSGYDLTPM+15.995TR     -1.0000     NotChecked  -11.0421    1528.7595   ✗       
+764   HVLSGYDLTPM+15.995VR     -1.0000     NotChecked  -11.0423    1502.7551   ✗       
+765   HFLAGC+57.021DLTPM+15.995PR-1.0000     NotChecked  -11.0440    1529.7119   ✗       
+766   HFLAGC+57.021LLTTM+15.995VR-1.0000     NotChecked  -11.0513    1533.7796   ✗       
+767   HVLSGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -11.0516    1499.7588   ✗       
+768   HVLSGC+57.021LLTPPTR     -1.0000     NotChecked  -11.0559    1449.7762   ✗       
+769   HVLSGC+57.021LPTPM+15.995TR-1.0000     NotChecked  -11.0589    1483.7275   ✗       
+770   FVLSGC+57.021LLTPM+15.995PR-1.0000     NotChecked  -11.0622    1505.7734   ✗       
+771   HVLAGYDLTPM+15.995TR     -1.0000     NotChecked  -11.0652    1488.7395   ✗       
+772   FVLSGC+57.021DLTPM+15.995GR-1.0000     NotChecked  -11.0680    1467.6850   ✗       
+773   HFLSGC+57.021LLTPPVR     -1.0000     NotChecked  -11.0701    1495.7969   ✗       
+774   FVLSGC+57.021DLTPM+15.995AR-1.0000     NotChecked  -11.0717    1481.7007   ✗       
+775   FALSGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -11.0724    1481.7370   ✗       
+776   HFLSGC+57.021LPTPM+15.995VR-1.0000     NotChecked  -11.0732    1529.7483   ✗       
+777   GFLSGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -11.0773    1467.7214   ✗       
+778   HVLSGC+57.021LLTPM+15.995LR-1.0000     NotChecked  -11.0788    1511.7952   ✗       
+779   HFLAGYDLTPM+15.995VR     -1.0000     NotChecked  -11.0795    1534.7602   ✗       
+780   FVLSGYDLTPM+15.995TR     -1.0000     NotChecked  -11.0827    1514.7439   ✗       
+781   HFLAGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -11.0888    1531.7639   ✗       
+782   HFLAGC+57.021LLTPPTR     -1.0000     NotChecked  -11.0931    1481.7813   ✗       
+783   HFLAGC+57.021LPTPM+15.995TR-1.0000     NotChecked  -11.0961    1515.7326   ✗       
+784   HVWSGC+57.021DLTPPVR     -1.0000     NotChecked  -11.0964    1522.7351   ✗       
+785   FVLSGYLLTPM+15.995VR     -1.0000     NotChecked  -11.0977    1510.8218   ✗       
+786   HFLSGC+57.021DLTTPTR     -1.0000     NotChecked  -11.0987    1503.7140   ✗       
+787   HVLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -11.0989    1501.7017   ✗       
+788   FFLAGC+57.021LLTPM+15.995PR-1.0000     NotChecked  -11.0994    1537.7785   ✗       
+789   HFLSGC+57.021DPTTM+15.995TR-1.0000     NotChecked  -11.1017    1537.6653   ✗       
+790   HVLSC+57.021DLTPM+15.995TR-1.0000     NotChecked  -11.1024    1444.6803   ✗       
+791   GVWSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -11.1036    1494.6595   ✗       
+792   FFLAGC+57.021DLTPM+15.995GR-1.0000     NotChecked  -11.1052    1499.6901   ✗       
+793   FFLAGC+57.021DLTPM+15.995AR-1.0000     NotChecked  -11.1089    1513.7058   ✗       
+794   HFLSGC+57.021DLTPM+15.995SR-1.0000     NotChecked  -11.1164    1535.6861   ✗       
+795   FFLSGC+57.021DLTPLTR     -1.0000     NotChecked  -11.1165    1525.7599   ✗       
+796   HFLSC+57.021DLTPM+15.995VR-1.0000     NotChecked  -11.1166    1490.7010   ✗       
+797   HVWAGC+57.021DLTPPTR     -1.0000     NotChecked  -11.1194    1508.7194   ✗       
+798   FVLC+57.021GC+57.021DLTPPTR-1.0000     NotChecked  -11.1201    1534.7272   ✗       
+799   FVLAGYLLTPM+15.995TR     -1.0000     NotChecked  -11.1206    1496.8061   ✗       
+800   FVLSGYDLTTM+15.995TR     -1.0000     NotChecked  -11.1262    1518.7388   ✗       
+801   HFLAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -11.1361    1533.7068   ✗       
+802   HFLAC+57.021DLTPM+15.995TR-1.0000     NotChecked  -11.1396    1476.6853   ✗       
+803   GFWAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -11.1408    1526.6646   ✗       
+804   HVLSGC+57.021ELTPM+15.995TR-1.0000     NotChecked  -11.1425    1515.7174   ✗       
+805   FVWSGC+57.021LLTPPVR     -1.0000     NotChecked  -11.1518    1530.8017   ✗       
+806   FFLSGC+57.021LLTTPTR     -1.0000     NotChecked  -11.1540    1511.7806   ✗       
+807   FVLSGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -11.1543    1509.7683   ✗       
+808   FVLSC+57.021LLTPM+15.995TR-1.0000     NotChecked  -11.1577    1452.7469   ✗       
+809   FVLSGC+57.021DLTPVTR     -1.0000     NotChecked  -11.1616    1463.7442   ✗       
+810   FFLSC+57.021LLTPM+15.995VR-1.0000     NotChecked  -11.1720    1498.7676   ✗       
+811   FVWAGC+57.021LLTPPTR     -1.0000     NotChecked  -11.1748    1516.7860   ✗       
+812   FFLSGC+57.021DLTPVVR     -1.0000     NotChecked  -11.1758    1509.7650   ✗       
+813   FFLSGC+57.021DLTPATR     -1.0000     NotChecked  -11.1771    1483.7129   ✗       
+814   FVWSGC+57.021DLTTPTR     -1.0000     NotChecked  -11.1803    1538.7187   ✗       
+815   FFLSGYDLTPPTR            -1.0000     NotChecked  -11.1822    1512.7613   ✗       
+816   FFLAC+57.021LLTPM+15.995TR-1.0000     NotChecked  -11.1949    1484.7520   ✗       
+817   FVWSC+57.021DLTPM+15.995VR-1.0000     NotChecked  -11.1983    1525.7057   ✗       
+818   FFLAGC+57.021DLTPVTR     -1.0000     NotChecked  -11.1988    1495.7493   ✗       
+819   FFLSC+57.021DLTTM+15.995TR-1.0000     NotChecked  -11.2005    1506.6847   ✗       
+820   HFLSGC+57.021DLTPM+15.995GR-1.0000     NotChecked  -11.2153    1505.6755   ✗       
+821   HFLSGC+57.021DLTPM+15.995AR-1.0000     NotChecked  -11.2190    1519.6912   ✗       
+822   FVWAC+57.021DLTPM+15.995TR-1.0000     NotChecked  -11.2212    1511.6901   ✗       
+823   HVLSGYLLTPM+15.995TR     -1.0000     NotChecked  -11.2307    1502.7915   ✗       
+824   FVLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -11.2357    1511.7112   ✗       
+825   HFLAGYLLTPM+15.995TR     -1.0000     NotChecked  -11.2679    1534.7966   ✗       
+826   FFLSGC+57.021LLTPM+15.995GR-1.0000     NotChecked  -11.2706    1513.7421   ✗       
+827   TVLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -11.2726    1465.6905   ✗       
+828   FFLSGC+57.021LLTPM+15.995AR-1.0000     NotChecked  -11.2743    1527.7578   ✗       
+829   LVLAGC+57.021LLTPM+15.995VR-1.0000     NotChecked  -11.2820    1457.8098   ✗       
+830   AVLSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -11.2844    1433.7007   ✗       
+831   HVWSGC+57.021LLTPPTR     -1.0000     NotChecked  -11.2848    1522.7715   ✗       
+832   TFLSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -11.2868    1511.7112   ✗       
+833   LVLSGC+57.021DLTTM+15.995VR-1.0000     NotChecked  -11.2875    1479.7425   ✗       
+834   HFLSC+57.021LLTPM+15.995TR-1.0000     NotChecked  -11.3050    1490.7374   ✗       
+835   AVLAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -11.3074    1419.6850   ✗       
+836   HFLSGC+57.021DLTPVTR     -1.0000     NotChecked  -11.3089    1501.7347   ✗       
+837   TFLAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -11.3098    1497.6956   ✗       
+838   LVLAGC+57.021DLTTM+15.995TR-1.0000     NotChecked  -11.3105    1465.7269   ✗       
+839   AFLAGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -11.3216    1465.7058   ✗       
+840   LFLAGC+57.021DLTTM+15.995VR-1.0000     NotChecked  -11.3247    1511.7476   ✗       
+841   LVLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -11.3250    1477.7269   ✗       
+842   LVLSGC+57.021DLTPPTR     -1.0000     NotChecked  -11.3293    1427.7442   ✗       
+843   HVWSC+57.021DLTPM+15.995TR-1.0000     NotChecked  -11.3313    1517.6755   ✗       
+844   LVLSGC+57.021DPTPM+15.995TR-1.0000     NotChecked  -11.3323    1461.6956   ✗       
+845   LFLSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -11.3393    1523.7476   ✗       
+846   LFLSGC+57.021DLTPPVR     -1.0000     NotChecked  -11.3436    1473.7650   ✗       
+847   LFLSGC+57.021DPTPM+15.995VR-1.0000     NotChecked  -11.3466    1507.7163   ✗       
+848   GVLSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -11.3510    1419.6850   ✗       
+849   LVLSGC+57.021DLTPM+15.995LR-1.0000     NotChecked  -11.3523    1489.7633   ✗       
+850   LFLAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -11.3622    1509.7320   ✗       
+851   HVLAGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -11.3624    1483.7275   ✗       
+852   FFLSGC+57.021LLTPVTR     -1.0000     NotChecked  -11.3642    1509.8014   ✗       
+853   LFLAGC+57.021DLTPPTR     -1.0000     NotChecked  -11.3665    1459.7493   ✗       
+854   HVLAGC+57.021DLTPPVR     -1.0000     NotChecked  -11.3667    1433.7449   ✗       
+855   SVLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -11.3693    1451.6748   ✗       
+856   LFLAGC+57.021DPTPM+15.995TR-1.0000     NotChecked  -11.3696    1493.7007   ✗       
+857   HVLAGC+57.021DPTPM+15.995VR-1.0000     NotChecked  -11.3697    1467.6962   ✗       
+858   GVLAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -11.3739    1405.6694   ✗       
+859   HVLAGC+57.021DLTPM+15.995M+15.995R-1.0000     NotChecked  -11.3748    1531.6945   ✗       
+860   FALAGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -11.3833    1465.7058   ✗       
+861   SFLSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -11.3836    1497.6956   ✗       
+862   FVWSC+57.021LLTPM+15.995TR-1.0000     NotChecked  -11.3867    1525.7421   ✗       
+863   FFLSGC+57.021DLTGM+15.995TR-1.0000     NotChecked  -11.3880    1519.6799   ✗       
+864   GFLAGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -11.3882    1451.6901   ✗       
+865   LFLAGC+57.021DLTPM+15.995LR-1.0000     NotChecked  -11.3895    1521.7684   ✗       
+866   FVWSGC+57.021DLTPVTR     -1.0000     NotChecked  -11.3905    1536.7395   ✗       
+867   FVLSGLDLTPM+15.995TR     -1.0000     NotChecked  -11.3923    1464.7646   ✗       
+868   SFLAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -11.4065    1483.6799   ✗       
+869   FFLSGLDLTPM+15.995VR     -1.0000     NotChecked  -11.4066    1510.7854   ✗       
+870   FGLSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -11.4099    1467.6850   ✗       
+871   FVLAGC+57.021LLTPM+15.995VR-1.0000     NotChecked  -11.4178    1491.7942   ✗       
+872   FVLAGC+57.021LLTPPVR     -1.0000     NotChecked  -11.4221    1441.8115   ✗       
+873   FVLSGC+57.021DLTTM+15.995VR-1.0000     NotChecked  -11.4233    1513.7269   ✗       
+874   FVLAGC+57.021LPTPM+15.995VR-1.0000     NotChecked  -11.4251    1475.7629   ✗       
+875   FVLSGC+57.021DLTTPVR     -1.0000     NotChecked  -11.4277    1463.7442   ✗       
+876   FFLAGLDLTPM+15.995TR     -1.0000     NotChecked  -11.4295    1496.7697   ✗       
+877   FVLSGC+57.021DPTTM+15.995VR-1.0000     NotChecked  -11.4307    1497.6956   ✗       
+878   FGLAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -11.4329    1453.6694   ✗       
+879   FVLAGC+57.021DLTTM+15.995TR-1.0000     NotChecked  -11.4463    1499.7112   ✗       
+880   FVLSGC+57.021DLTPTTR     -1.0000     NotChecked  -11.4466    1465.7235   ✗       
+881   FVLAGC+57.021DLTTPTR     -1.0000     NotChecked  -11.4506    1449.7286   ✗       
+882   FVLAGC+57.021DPTTM+15.995TR-1.0000     NotChecked  -11.4536    1483.6799   ✗       
+883   FVLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -11.4585    1511.7112   ✗       
+884   FFLSGC+57.021DLTPTVR     -1.0000     NotChecked  -11.4609    1511.7442   ✗       
+885   FFLAGC+57.021DLTTPVR     -1.0000     NotChecked  -11.4649    1495.7493   ✗       
+886   FVLAGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -11.4651    1493.7371   ✗       
+887   FVLSGC+57.021DLTPPTR     -1.0000     NotChecked  -11.4652    1461.7286   ✗       
+888   FFLAGC+57.021DPTTM+15.995VR-1.0000     NotChecked  -11.4679    1529.7007   ✗       
+889   FVLSGC+57.021DPTPM+15.995TR-1.0000     NotChecked  -11.4682    1495.6799   ✗       
+890   FVLAGC+57.021DLTPM+15.995SR-1.0000     NotChecked  -11.4683    1481.7007   ✗       
+891   FVLAC+57.021DLTPM+15.995VR-1.0000     NotChecked  -11.4686    1436.7156   ✗       
+892   FVLSGC+57.021DPTPPTR     -1.0000     NotChecked  -11.4725    1445.6973   ✗       
+893   AVLSGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -11.4728    1433.7370   ✗       
+894   FVLAGC+57.021DLTTM+15.995LR-1.0000     NotChecked  -11.4736    1511.7476   ✗       
+895   TFLSGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -11.4752    1511.7476   ✗       
+896   LVLSGC+57.021LLTTM+15.995TR-1.0000     NotChecked  -11.4759    1479.7789   ✗       
+897   FFLSGC+57.021DLTPPVR     -1.0000     NotChecked  -11.4794    1507.7493   ✗       
+898   LFLSGC+57.021DLTPM+15.995PR-1.0000     NotChecked  -11.4829    1521.7320   ✗       
+899   FFLAGC+57.021DLTPTTR     -1.0000     NotChecked  -11.4838    1497.7286   ✗       
+900   FFLSGC+57.021DPTPPVR     -1.0000     NotChecked  -11.4867    1491.7180   ✗       
+901   AFLSGC+57.021LLTPM+15.995VR-1.0000     NotChecked  -11.4871    1479.7578   ✗       
+902   FVLSGC+57.021DLTPM+15.995LR-1.0000     NotChecked  -11.4881    1523.7476   ✗       
+903   LFLSGC+57.021LLTTM+15.995VR-1.0000     NotChecked  -11.4902    1525.7996   ✗       
+904   FVLSGC+57.021DLTPPLR     -1.0000     NotChecked  -11.4924    1473.7650   ✗       
+905   HALSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -11.4934    1471.6912   ✗       
+906   FVLSGC+57.021DPTPM+15.995LR-1.0000     NotChecked  -11.4954    1507.7163   ✗       
+907   TVWSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -11.5015    1538.6857   ✗       
+908   FFLAGC+57.021DLTPPTR     -1.0000     NotChecked  -11.5024    1493.7337   ✗       
+909   LVLSGYDLTPM+15.995TR     -1.0000     NotChecked  -11.5041    1480.7595   ✗       
+910   FFLAGC+57.021DPTPM+15.995TR-1.0000     NotChecked  -11.5054    1527.6850   ✗       
+911   HVLAGC+57.021DLTPM+15.995PR-1.0000     NotChecked  -11.5060    1481.7119   ✗       
+912   FVLAGC+57.021ELTPM+15.995VR-1.0000     NotChecked  -11.5087    1507.7527   ✗       
+913   FFLAGC+57.021DPTPPTR     -1.0000     NotChecked  -11.5097    1477.7024   ✗       
+914   AFLAGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -11.5100    1465.7421   ✗       
+915   LVWAGC+57.021LLTPM+15.995VR-1.0000     NotChecked  -11.5109    1530.8051   ✗       
+916   LFLAGC+57.021LLTTM+15.995TR-1.0000     NotChecked  -11.5132    1511.7840   ✗       
+917   HVLAGC+57.021LLTTM+15.995VR-1.0000     NotChecked  -11.5133    1485.7796   ✗       
+918   AVWSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -11.5134    1506.6959   ✗       
+919   AFLSGC+57.021DLTTM+15.995TR-1.0000     NotChecked  -11.5156    1487.6748   ✗       
+920   HALAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -11.5163    1457.6755   ✗       
+921   LFLSGYDLTPM+15.995VR     -1.0000     NotChecked  -11.5184    1526.7803   ✗       
+922   LFLSGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -11.5277    1523.7840   ✗       
+923   HVLSGC+57.021LLTPM+15.995VR-1.0000     NotChecked  -11.5279    1497.7796   ✗       
+924   FFLAGC+57.021DLTPPLR     -1.0000     NotChecked  -11.5296    1505.7701   ✗       
+925   LFLSGC+57.021LLTPPTR     -1.0000     NotChecked  -11.5320    1473.8014   ✗       
+926   HVLSGC+57.021LLTPPVR     -1.0000     NotChecked  -11.5322    1447.7969   ✗       
+927   LFLSGC+57.021LPTPM+15.995TR-1.0000     NotChecked  -11.5350    1507.7527   ✗       
+928   HVLSGC+57.021LPTPM+15.995VR-1.0000     NotChecked  -11.5352    1481.7483   ✗       
+929   AVWAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -11.5363    1492.6803   ✗       
+930   GVLSGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -11.5394    1419.7214   ✗       
+931   LVWAGC+57.021DLTTM+15.995TR-1.0000     NotChecked  -11.5394    1538.7221   ✗       
+932   HFLSGLDLTPM+15.995TR     -1.0000     NotChecked  -11.5396    1502.7551   ✗       
+933   LFLAGYDLTPM+15.995TR     -1.0000     NotChecked  -11.5413    1512.7646   ✗       
+934   HVLAGYDLTPM+15.995VR     -1.0000     NotChecked  -11.5415    1486.7602   ✗       
+935   HGLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -11.5430    1459.6548   ✗       
+936   FALSGC+57.021LLTPM+15.995VR-1.0000     NotChecked  -11.5487    1479.7578   ✗       
+937   AFWAGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -11.5506    1538.7010   ✗       
+938   HVLAGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -11.5508    1483.7639   ✗       
+939   GFLSGC+57.021LLTPM+15.995VR-1.0000     NotChecked  -11.5536    1465.7421   ✗       
+940   LFLSGC+57.021LLTPM+15.995LR-1.0000     NotChecked  -11.5549    1535.8204   ✗       
+941   HVLAGC+57.021LLTPPTR     -1.0000     NotChecked  -11.5551    1433.7813   ✗       
+942   HVLSGC+57.021DLTTM+15.995TR-1.0000     NotChecked  -11.5564    1505.6966   ✗       
+943   HVLAGC+57.021LPTPM+15.995TR-1.0000     NotChecked  -11.5582    1467.7326   ✗       
+944   LVWSGC+57.021DLTPPTR     -1.0000     NotChecked  -11.5583    1500.7395   ✗       
+945   FVLSGYDLTPM+15.995VR     -1.0000     NotChecked  -11.5590    1512.7646   ✗       
+946   HVLSGC+57.021DLTTPTR     -1.0000     NotChecked  -11.5607    1455.7140   ✗       
+947   LVWSGC+57.021DPTPM+15.995TR-1.0000     NotChecked  -11.5613    1534.6908   ✗       
+948   FVLAGC+57.021LLTPM+15.995PR-1.0000     NotChecked  -11.5614    1489.7785   ✗       
+949   HVLSGC+57.021DPTTM+15.995TR-1.0000     NotChecked  -11.5637    1489.6653   ✗       
+950   HFLAGC+57.021LLTPM+15.995VR-1.0000     NotChecked  -11.5651    1529.7847   ✗       
+951   FVLSGC+57.021DLTTM+15.995PR-1.0000     NotChecked  -11.5670    1511.7112   ✗       
+952   FVLAGC+57.021DLTPM+15.995GR-1.0000     NotChecked  -11.5672    1451.6901   ✗       
+953   HFLAGC+57.021LLTPPVR     -1.0000     NotChecked  -11.5694    1479.8020   ✗       
+954   FVLAGC+57.021DLTPM+15.995AR-1.0000     NotChecked  -11.5709    1465.7058   ✗       
+955   FALAGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -11.5717    1465.7421   ✗       
+956   SFLSGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -11.5720    1497.7320   ✗       
+957   HFLAGC+57.021LPTPM+15.995VR-1.0000     NotChecked  -11.5724    1513.7534   ✗       
+958   KVLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -11.5725    1492.7378   ✗       
+959   HFLSGC+57.021DLTTPVR     -1.0000     NotChecked  -11.5749    1501.7347   ✗       
+960   LFLSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -11.5750    1525.7269   ✗       
+961   HVLSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -11.5752    1499.7225   ✗       
+962   GFLAGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -11.5766    1451.7265   ✗       
+963   FALSGC+57.021DLTTM+15.995TR-1.0000     NotChecked  -11.5772    1487.6748   ✗       
+964   HFLSGC+57.021DPTTM+15.995VR-1.0000     NotChecked  -11.5780    1535.6861   ✗       
+965   HVLAGC+57.021LLTPM+15.995LR-1.0000     NotChecked  -11.5781    1495.8003   ✗       
+966   HVLSGC+57.021DLTPM+15.995SR-1.0000     NotChecked  -11.5784    1487.6861   ✗       
+967   LFLSC+57.021DLTPM+15.995TR-1.0000     NotChecked  -11.5785    1468.7054   ✗       
+968   FVLSGC+57.021DLTPLTR     -1.0000     NotChecked  -11.5786    1477.7599   ✗       
+969   HVLSC+57.021DLTPM+15.995VR-1.0000     NotChecked  -11.5786    1442.7010   ✗       
+970   GVWSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -11.5799    1492.6803   ✗       
+971   FVLAGYDLTPM+15.995TR     -1.0000     NotChecked  -11.5819    1498.7490   ✗       
+972   GFLSGC+57.021DLTTM+15.995TR-1.0000     NotChecked  -11.5821    1473.6592   ✗       
+973   HVLSGC+57.021DLTTM+15.995LR-1.0000     NotChecked  -11.5836    1517.7330   ✗       
+974   KFLSGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -11.5868    1538.7585   ✗       
+975   FFLSGC+57.021DLTPLVR     -1.0000     NotChecked  -11.5928    1523.7806   ✗       
+976   HFLAGC+57.021DLTTM+15.995TR-1.0000     NotChecked  -11.5936    1537.7017   ✗       
+977   HFLSGC+57.021DLTPTTR     -1.0000     NotChecked  -11.5939    1503.7140   ✗       
+978   FFLSGLLLTPM+15.995TR     -1.0000     NotChecked  -11.5950    1510.8218   ✗       
+979   LFWAGC+57.021DLTPPTR     -1.0000     NotChecked  -11.5955    1532.7446   ✗       
+980   HVWAGC+57.021DLTPPVR     -1.0000     NotChecked  -11.5957    1506.7402   ✗       
+981   FVLC+57.021GC+57.021DLTPPVR-1.0000     NotChecked  -11.5964    1532.7479   ✗       
+982   FVLAGYLLTPM+15.995VR     -1.0000     NotChecked  -11.5969    1494.8269   ✗       
+983   HFLAGC+57.021DLTTPTR     -1.0000     NotChecked  -11.5979    1487.7191   ✗       
+984   HVLAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -11.5982    1485.7068   ✗       
+985   SVWSGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -11.5983    1524.6701   ✗       
+986   FGLSGC+57.021LLTPM+15.995TR-1.0000     NotChecked  -11.5984    1467.7214   ✗       
+987   HFLAGC+57.021DPTTM+15.995TR-1.0000     NotChecked  -11.6009    1521.6704   ✗       
+988   HVLAC+57.021DLTPM+15.995TR-1.0000     NotChecked  -11.6016    1428.6853   ✗       
+989   FVLSGYDLTTM+15.995VR     -1.0000     NotChecked  -11.6025    1516.7595   ✗       
+990   GVWAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -11.6029    1478.6646   ✗       
+991   KFLAGC+57.021DLTPM+15.995TR-1.0000     NotChecked  -11.6097    1524.7429   ✗       
+992   FVLSGC+57.021LLTTM+15.995TR-1.0000     NotChecked  -11.6118    1513.7632   ✗       
+993   FAWAGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -11.6122    1538.7010   ✗       
+994   HFLAGC+57.021DLTPM+15.995VR-1.0000     NotChecked  -11.6124    1531.7275   ✗       
+995   HFLSGC+57.021DLTPPTR     -1.0000     NotChecked  -11.6124    1499.7191   ✗       
+996   HFLSGC+57.021DPTPM+15.995TR-1.0000     NotChecked  -11.6155    1533.6704   ✗       
+997   HFLAGC+57.021DLTPM+15.995SR-1.0000     NotChecked  -11.6156    1519.6912   ✗       
+998   FFLAGC+57.021DLTPLTR     -1.0000     NotChecked  -11.6158    1509.7650   ✗       
+999   HFLAC+57.021DLTPM+15.995VR-1.0000     NotChecked  -11.6159    1474.7061   ✗       
+1000  FVLSGC+57.021LLTTPTR     -1.0000     NotChecked  -11.6161    1463.7806   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: FVLAGC+57.021LLTPM+15.995M+15.995R
+Similarity: 0.4568
+De Novo Score: -11.4302
+Source: Prosit
+Correct: ✗
+

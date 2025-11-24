@@ -1,0 +1,1042 @@
+================================================================================
+Spectrum 166
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 784.1357
+Precursor charge: 3+
+Ground truth: AVPQPVPVPVPVPKPYPVIQTK
+Ground truth (normalized): AVPQPVPVPVPVPKPYPVIQTK
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 26
+Used for reranking: 26
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 26 (2.6%)
+Database matches: 0 (0.0%)
+Prosit predictions: 20 (2.0%)
+Failed: 6 (0.6%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✗ (not in top 1000 candidates)
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     SSVQPVPVPVPVPKPQLTLVLR   0.4169      Prosit      -11.9181    2349.4148   ✓       
+2     SSVQPVPVPVPVPKPLQTVLLR   0.4150      Prosit      -11.4913    2349.4148   ✓       
+3     SSVQPVPVPVPVPKPLQTLLVR   0.4126      Prosit      -11.5476    2349.4148   ✓       
+4     SSVQPVPVPVPVPKPLQTLVLR   0.4109      Prosit      -10.8006    2349.4148   ✓       
+5     SSVQPVPVPVPVPKPLQTLVLR   0.4109      Prosit      -11.5429    2349.4148   ✓       
+6     SSVQPVPVPVPVPKPLQTLVLR   0.4109      Prosit      -11.8871    2349.4148   ✓       
+7     SSVQPVPVPVPVPKPVQLLLTR   0.4086      Prosit      -12.0353    2349.4148   ✓       
+8     SSVQPVPVPVPVPKPLLQVLTR   0.4085      Prosit      -12.0850    2349.4148   ✓       
+9     SSVQPVPVPVPVPKPTQLLVLR   0.4051      Prosit      -11.7782    2349.4148   ✓       
+10    SSVQPVPVPVPVPKPQLLLVTR   0.4047      Prosit      -12.0013    2349.4148   ✓       
+11    SSVQPVPVPVPVPKPLQLLTVR   0.4045      Prosit      -11.9505    2349.4148   ✓       
+12    SSVQPVPVPVPVPKPLQLVTLR   0.4031      Prosit      -11.8942    2349.4148   ✓       
+13    SSVQPVPVPVPVPKPLLQLVTR   0.4010      Prosit      -11.3943    2349.4148   ✓       
+14    SSVQPVPVPVPVPKPLQLTVLR   0.3999      Prosit      -11.0747    2349.4148   ✓       
+15    SSVQPVPVPVPVPKPLQLTVLR   0.3999      Prosit      -11.8170    2349.4148   ✓       
+16    SSVQPVPVPVPVPKPLQSLLLR   0.3981      Prosit      -12.0745    2349.4148   ✓       
+17    SSVQPVPVPVPVPKPLQLSLLR   0.3975      Prosit      -11.9182    2349.4148   ✓       
+18    SSVQPVPVPVPVPKPLQLLLSR   0.3966      Prosit      -11.9696    2349.4148   ✓       
+19    SSVQPVPVPVPVPKPLLQTVLR   0.3924      Prosit      -11.5851    2349.4148   ✓       
+20    SSVQPVPVPVPVPKPLTQLVLR   0.3886      Prosit      -11.7965    2349.4148   ✓       
+21    SSVQPVPVPVPVPKPLQTVVLR   -1.0000     NotChecked  -10.7691    2335.3991   ✗       
+22    SSVQPVPVPVPVPKPLQTVVVR   -1.0000     NotChecked  -10.7939    2321.3835   ✗       
+23    SSVQPVPVPVPVPKPLQTVVTR   -1.0000     NotChecked  -10.7989    2323.3627   ✗       
+24    SSVQPVPVPVPVPKPLQLVVLR   -1.0000     NotChecked  -10.8227    2347.4355   ✗       
+25    SSVQPVPVPVPVPKPLQTLVVR   -1.0000     NotChecked  -10.8254    2335.3991   ✗       
+26    SSVQPVPVPVPVPKPLQTLVTR   -1.0000     NotChecked  -10.8304    2337.3784   ✗       
+27    SSVQPVPVPVPVPKPLQLVVVR   -1.0000     NotChecked  -10.8475    2333.4199   ✗       
+28    SSVQPVPVPVPVPKPLQLVVTR   -1.0000     NotChecked  -10.8524    2335.3991   ✗       
+29    SSVQPVPVPVPVPKPLQLLVVR   -1.0000     NotChecked  -10.8790    2347.4355   ✗       
+30    SSVQPVPVPVPVPKPLQLLVTR   -1.0000     Failed      -10.8839    2349.4148   ✓       
+31    SSVQPVPVPVPVPKPLQQVVVR   -1.0000     NotChecked  -10.9144    2348.3944   ✗       
+32    SSVQPVPVPVPVPKPLQTTVLR   -1.0000     NotChecked  -11.0212    2337.3784   ✗       
+33    SSVQPVPVPVPVPKPLQTTVVR   -1.0000     NotChecked  -11.0460    2323.3627   ✗       
+34    SSVQPVPVPVPVPKPLQTTVTR   -1.0000     NotChecked  -11.0509    2325.3420   ✗       
+35    SSVQPVPVPVPVPKPLQLTVVR   -1.0000     NotChecked  -11.0995    2335.3991   ✗       
+36    SSVQPVPVPVPVPKPLQLTVTR   -1.0000     NotChecked  -11.1045    2337.3784   ✗       
+37    SSVQPVPVPVPVPKPLQTSVLR   -1.0000     NotChecked  -11.1425    2323.3627   ✗       
+38    SSVQPVPVPVPVPKPLQTVVSR   -1.0000     NotChecked  -11.1623    2309.3471   ✗       
+39    SSVQPVPVPVPVPKPLQTSVVR   -1.0000     NotChecked  -11.1673    2309.3471   ✗       
+40    SSVQPVPVPVPVPKPLQTSVTR   -1.0000     NotChecked  -11.1722    2311.3264   ✗       
+41    SSVQPVPVPVPVPKPLQTLVSR   -1.0000     NotChecked  -11.1938    2323.3627   ✗       
+42    SSVQPVPVPVPVPKPLQLSVLR   -1.0000     NotChecked  -11.1960    2335.3991   ✗       
+43    SSVQPVPVPVPVPKPVQTVVLR   -1.0000     NotChecked  -11.1983    2321.3835   ✗       
+44    SSVQPVPVPVPVPKPLLTVVLR   -1.0000     NotChecked  -11.2126    2320.4246   ✗       
+45    SSVQPVPVPVPVPKPLQLVVSR   -1.0000     NotChecked  -11.2159    2321.3835   ✗       
+46    SSVQPVPVPVPVPKPLQLSVVR   -1.0000     NotChecked  -11.2208    2321.3835   ✗       
+47    SSVQPVPVPVPVPKPVQTVVVR   -1.0000     NotChecked  -11.2231    2307.3678   ✗       
+48    SSVQPVPVPVPVPKPLQLSVTR   -1.0000     NotChecked  -11.2258    2323.3627   ✗       
+49    SSVQPVPVPVPVPKPVQTVVTR   -1.0000     NotChecked  -11.2281    2309.3471   ✗       
+50    SSVQPVPVPVPVPKPVQTLVLR   -1.0000     NotChecked  -11.2298    2335.3991   ✗       
+51    SSVQPVPVPVPVPKPLLTVVVR   -1.0000     NotChecked  -11.2374    2306.4090   ✗       
+52    SSVQPVPVPVPVPKPLLTVVTR   -1.0000     NotChecked  -11.2423    2308.3882   ✗       
+53    SSVQPVPVPVPVPKPLLTLVLR   -1.0000     NotChecked  -11.2441    2334.4403   ✗       
+54    SSVQPVPVPVPVPKPLQLLVSR   -1.0000     NotChecked  -11.2474    2335.3991   ✗       
+55    SSVQPVPVPVPVPKPVQLVVLR   -1.0000     NotChecked  -11.2519    2333.4199   ✗       
+56    SSVQPVPVPVPVPKPVQTLVVR   -1.0000     NotChecked  -11.2546    2321.3835   ✗       
+57    SSVQPVPVPVPVPKPVQTLVTR   -1.0000     NotChecked  -11.2596    2323.3627   ✗       
+58    SSVQPVPVPVPVPKPLLLVVLR   -1.0000     NotChecked  -11.2662    2332.4610   ✗       
+59    SSVQPVPVPVPVPKPLLTLVVR   -1.0000     NotChecked  -11.2689    2320.4246   ✗       
+60    SSVQPVPVPVPVPKPLLTLVTR   -1.0000     NotChecked  -11.2738    2322.4039   ✗       
+61    SSVQPVPVPVPVPKPVQLVVVR   -1.0000     NotChecked  -11.2767    2319.4042   ✗       
+62    SSVQPVPVPVPVPKPVQLVVTR   -1.0000     NotChecked  -11.2816    2321.3835   ✗       
+63    SSVQPVPVPVPVPKPLQQVVSR   -1.0000     NotChecked  -11.2828    2336.3580   ✗       
+64    SSVQPVPVPVPVPKPVQLLVLR   -1.0000     NotChecked  -11.2834    2347.4355   ✗       
+65    SSVQPVPVPVPVPKPLQQSVVR   -1.0000     NotChecked  -11.2877    2336.3580   ✗       
+66    SSVQPVPVPVPVPKPLLLVVVR   -1.0000     NotChecked  -11.2909    2318.4454   ✗       
+67    SSVQPVPVPVPVPKPLQQSVTR   -1.0000     NotChecked  -11.2927    2338.3373   ✗       
+68    SSVQPVPVPVPVPKPLLLVVTR   -1.0000     NotChecked  -11.2959    2320.4246   ✗       
+69    SSVQPVPVPVPVPKPLLLLVLR   -1.0000     NotChecked  -11.2977    2346.4767   ✗       
+70    SSVQPVPVPVPVPKPVQLLVVR   -1.0000     NotChecked  -11.3082    2333.4199   ✗       
+71    SSVQPVPVPVPVPKPVQLLVTR   -1.0000     NotChecked  -11.3131    2335.3991   ✗       
+72    SSVQPVPVPVPVPKPVQQVVLR   -1.0000     NotChecked  -11.3188    2348.3944   ✗       
+73    SSVQPVPVPVPVPKPLQSVVLR   -1.0000     NotChecked  -11.3208    2321.3835   ✗       
+74    SSVQPVPVPVPVPKPLLLLVVR   -1.0000     NotChecked  -11.3224    2332.4610   ✗       
+75    SSVQPVPVPVPVPKPLQTVALR   -1.0000     NotChecked  -11.3224    2307.3678   ✗       
+76    SSVQPVPVPVPVPKPLLLLVTR   -1.0000     NotChecked  -11.3274    2334.4403   ✗       
+77    SSVQPVPVPVPVPKPLLQVVLR   -1.0000     NotChecked  -11.3331    2347.4355   ✗       
+78    SSVQPVPVPVPVPKPVQQVVVR   -1.0000     NotChecked  -11.3436    2334.3787   ✗       
+79    SSVQPVPVPVPVPKPLQSVVVR   -1.0000     NotChecked  -11.3456    2307.3678   ✗       
+80    SSVQPVPVPVPVPKPLQTVAVR   -1.0000     NotChecked  -11.3472    2293.3522   ✗       
+81    SSVQPVPVPVPVPKPVQQVVTR   -1.0000     NotChecked  -11.3485    2336.3580   ✗       
+82    SSVQPVPVPVPVPKPLQSVVTR   -1.0000     NotChecked  -11.3505    2309.3471   ✗       
+83    SSVQPVPVPVPVPKPLQTVATR   -1.0000     NotChecked  -11.3522    2295.3314   ✗       
+84    SSVQPVPVPVPVPKPLQSLVLR   -1.0000     NotChecked  -11.3523    2335.3991   ✗       
+85    SSVQPVPVPVPVPKPLQTLALR   -1.0000     NotChecked  -11.3539    2321.3835   ✗       
+86    SSVQPVPVPVPVPKPLLQVVVR   -1.0000     NotChecked  -11.3579    2333.4199   ✗       
+87    SSVQPVPVPVPVPKPLLQVVTR   -1.0000     NotChecked  -11.3628    2335.3991   ✗       
+88    SSVQPVPVPVPVPKPVQQLVVR   -1.0000     NotChecked  -11.3751    2348.3944   ✗       
+89    SSVQPVPVPVPVPKPLQLVALR   -1.0000     NotChecked  -11.3760    2319.4042   ✗       
+90    SSVQPVPVPVPVPKPLQSLVVR   -1.0000     NotChecked  -11.3771    2321.3835   ✗       
+91    SSVQPVPVPVPVPKPLQTLAVR   -1.0000     NotChecked  -11.3787    2307.3678   ✗       
+92    SSVQPVPVPVPVPKPSQTVVLR   -1.0000     NotChecked  -11.3806    2309.3471   ✗       
+93    SSVQPVPVPVPVPKPLQSLVTR   -1.0000     NotChecked  -11.3821    2323.3627   ✗       
+94    SSVQPVPVPVPVPKPLQTLATR   -1.0000     NotChecked  -11.3837    2309.3471   ✗       
+95    SSVQPVPVPVPVPKPLLQLVVR   -1.0000     NotChecked  -11.3894    2347.4355   ✗       
+96    SSVQPVPVPVPVPKPLQLVAVR   -1.0000     NotChecked  -11.4008    2305.3886   ✗       
+97    SSVQPVPVPVPVPKPSQTVVVR   -1.0000     NotChecked  -11.4053    2295.3314   ✗       
+98    SSVQPVPVPVPVPKPLQLVATR   -1.0000     NotChecked  -11.4057    2307.3678   ✗       
+99    SSVQPVPVPVPVPKPLQLLALR   -1.0000     NotChecked  -11.4075    2333.4199   ✗       
+100   SSVQPVPVPVPVPKPSQTVVTR   -1.0000     NotChecked  -11.4103    2297.3107   ✗       
+101   SSVQPVPVPVPVPKPSQTLVLR   -1.0000     NotChecked  -11.4121    2323.3627   ✗       
+102   SSVQPVPVPVPVPKPLQTTVSR   -1.0000     NotChecked  -11.4144    2311.3264   ✗       
+103   SSVQPVPVPVPVPKPLQVVVLR   -1.0000     NotChecked  -11.4196    2333.4199   ✗       
+104   SSVQPVPVPVPVPKPLQLLAVR   -1.0000     NotChecked  -11.4323    2319.4042   ✗       
+105   SSVQPVPVPVPVPKPSQLVVLR   -1.0000     NotChecked  -11.4341    2321.3835   ✗       
+106   SSVQPVPVPVPVPKPSQTLVVR   -1.0000     NotChecked  -11.4368    2309.3471   ✗       
+107   SSVQPVPVPVPVPKPLQLLATR   -1.0000     NotChecked  -11.4372    2321.3835   ✗       
+108   SSVQPVPVPVPVPKPSQTLVTR   -1.0000     NotChecked  -11.4418    2311.3264   ✗       
+109   SSVQPVPVPVPVPKPLQQVALR   -1.0000     NotChecked  -11.4429    2334.3787   ✗       
+110   SSVQPVPVPVPVPKPLQVVVVR   -1.0000     NotChecked  -11.4444    2319.4042   ✗       
+111   SSVQPVPVPVPVPKPLQVVVTR   -1.0000     NotChecked  -11.4493    2321.3835   ✗       
+112   SSVQPVPVPVPVPKPVQTTVLR   -1.0000     NotChecked  -11.4504    2323.3627   ✗       
+113   SSVQPVPVPVPVPKPLQVLVLR   -1.0000     NotChecked  -11.4511    2347.4355   ✗       
+114   SSVQPVPVPVPVPKPSQLVVVR   -1.0000     NotChecked  -11.4589    2307.3678   ✗       
+115   SSVQPVPVPVPVPKPSQLVVTR   -1.0000     NotChecked  -11.4638    2309.3471   ✗       
+116   SSVQPVPVPVPVPKPLLTTVLR   -1.0000     NotChecked  -11.4647    2322.4039   ✗       
+117   SSVQPVPVPVPVPKPSQLLVLR   -1.0000     NotChecked  -11.4656    2335.3991   ✗       
+118   SSVQPVPVPVPVPKPLQQVAVR   -1.0000     NotChecked  -11.4677    2320.3631   ✗       
+119   SSVQPVPVPVPVPKPQQTVVVR   -1.0000     NotChecked  -11.4679    2336.3580   ✗       
+120   SSVQPVPVPVPVPKPLQLTVSR   -1.0000     NotChecked  -11.4679    2323.3627   ✗       
+121   SSVQPVPVPVPVPKPLQQVATR   -1.0000     NotChecked  -11.4727    2322.3423   ✗       
+122   SSVQPVPVPVPVPKPQQTVVTR   -1.0000     NotChecked  -11.4728    2338.3373   ✗       
+123   SSVQPVPVPVPVPKPLQQLALR   -1.0000     NotChecked  -11.4744    2348.3944   ✗       
+124   SSVQPVPVPVPVPKPVQTTVVR   -1.0000     NotChecked  -11.4752    2309.3471   ✗       
+125   SSVQPVPVPVPVPKPLQVLVVR   -1.0000     NotChecked  -11.4759    2333.4199   ✗       
+126   SSVQPVPVPVPVPKPVQTTVTR   -1.0000     NotChecked  -11.4801    2311.3263   ✗       
+127   SSVQPVPVPVPVPKPLQVLVTR   -1.0000     NotChecked  -11.4808    2335.3991   ✗       
+128   SSVQPVPVPVPVPKPLLTTVVR   -1.0000     NotChecked  -11.4894    2308.3882   ✗       
+129   SSVQPVPVPVPVPKPSQLLVVR   -1.0000     NotChecked  -11.4904    2321.3835   ✗       
+130   SSVQPVPVPVPVPKPLLTTVTR   -1.0000     NotChecked  -11.4944    2310.3675   ✗       
+131   SSVQPVPVPVPVPKPSQLLVTR   -1.0000     NotChecked  -11.4953    2323.3627   ✗       
+132   SSVQPVPVPVPVPKPLQQLAVR   -1.0000     NotChecked  -11.4992    2334.3787   ✗       
+133   SSVQPVPVPVPVPKPSQQVVLR   -1.0000     NotChecked  -11.5010    2336.3580   ✗       
+134   SSVQPVPVPVPVPKPVQLTVLR   -1.0000     NotChecked  -11.5039    2335.3991   ✗       
+135   SSVQPVPVPVPVPKPLQQLATR   -1.0000     NotChecked  -11.5042    2336.3580   ✗       
+136   SSVQPVPVPVPVPKPLQTVVLR   -1.0000     NotChecked  -11.5114    2335.3991   ✗       
+137   SSVQPVPVPVPVPKPLQTVLVR   -1.0000     NotChecked  -11.5161    2335.3991   ✗       
+138   SSVQPVPVPVPVPKPLLLTVLR   -1.0000     NotChecked  -11.5182    2334.4403   ✗       
+139   SSVQPVPVPVPVPKPLQTVLTR   -1.0000     NotChecked  -11.5211    2337.3784   ✗       
+140   SSVQPVPVPVPVPKPQQLVVVR   -1.0000     NotChecked  -11.5214    2348.3944   ✗       
+141   SSVQPVPVPVPVPKPSQQVVVR   -1.0000     NotChecked  -11.5258    2322.3424   ✗       
+142   SSVQPVPVPVPVPKPVQLTVVR   -1.0000     NotChecked  -11.5287    2321.3835   ✗       
+143   SSVQPVPVPVPVPKPSQQVVTR   -1.0000     NotChecked  -11.5308    2324.3216   ✗       
+144   SSVQPVPVPVPVPKPVQLTVTR   -1.0000     NotChecked  -11.5337    2323.3627   ✗       
+145   SSVQPVPVPVPVPKPLQQTVSR   -1.0000     NotChecked  -11.5348    2338.3373   ✗       
+146   SSVQPVPVPVPVPKPLQTSVSR   -1.0000     NotChecked  -11.5357    2297.3107   ✗       
+147   SSVQPVPVPVPVPKPLQTVVVR   -1.0000     NotChecked  -11.5361    2321.3835   ✗       
+148   SSVQPVPVPVPVPKPLQTVVTR   -1.0000     NotChecked  -11.5411    2323.3627   ✗       
+149   SSVQPVPVPVPVPKPLLLTVVR   -1.0000     NotChecked  -11.5430    2320.4246   ✗       
+150   SSVQPVPVPVPVPKPLLLTVTR   -1.0000     NotChecked  -11.5479    2322.4039   ✗       
+151   SSVQPVPVPVPVPKPSQQLVVR   -1.0000     NotChecked  -11.5573    2336.3580   ✗       
+152   SSVQPVPVPVPVPKPSQQLVTR   -1.0000     NotChecked  -11.5623    2338.3373   ✗       
+153   SSVQPVPVPVPVPKPLQLVVLR   -1.0000     NotChecked  -11.5649    2347.4355   ✗       
+154   SSVQPVPVPVPVPKPLQTLVVR   -1.0000     NotChecked  -11.5677    2335.3991   ✗       
+155   SSVQPVPVPVPVPKPLQLVLVR   -1.0000     NotChecked  -11.5697    2347.4355   ✗       
+156   SSVQPVPVPVPVPKPVQTSVLR   -1.0000     NotChecked  -11.5717    2309.3471   ✗       
+157   SSVQPVPVPVPVPKPLQTLVTR   -1.0000     NotChecked  -11.5726    2337.3784   ✗       
+158   SSVQPVPVPVPVPKPLQSTVLR   -1.0000     NotChecked  -11.5729    2323.3627   ✗       
+159   SSVQPVPVPVPVPKPLQTTALR   -1.0000     NotChecked  -11.5745    2309.3471   ✗       
+160   SSVQPVPVPVPVPKPLQLVLTR   -1.0000     Failed      -11.5746    2349.4148   ✓       
+161   SSVQPVPVPVPVPKPLLTSVLR   -1.0000     NotChecked  -11.5859    2308.3882   ✗       
+162   SSVQPVPVPVPVPKPLQLSVSR   -1.0000     NotChecked  -11.5892    2309.3471   ✗       
+163   SSVQPVPVPVPVPKPLQLVVVR   -1.0000     NotChecked  -11.5897    2333.4199   ✗       
+164   SSVQPVPVPVPVPKPVQTVVSR   -1.0000     NotChecked  -11.5915    2295.3314   ✗       
+165   SSVQPVPVPVPVPKPLQLVVTR   -1.0000     NotChecked  -11.5947    2335.3991   ✗       
+166   SSVQPVPVPVPVPKPVQQTVVR   -1.0000     NotChecked  -11.5956    2336.3580   ✗       
+167   SSVQPVPVPVPVPKPVQTSVVR   -1.0000     NotChecked  -11.5964    2295.3314   ✗       
+168   SSVQPVPVPVPVPKPLQSTVVR   -1.0000     NotChecked  -11.5977    2309.3471   ✗       
+169   SSVQPVPVPVPVPKPLQTTAVR   -1.0000     NotChecked  -11.5993    2295.3314   ✗       
+170   SSVQPVPVPVPVPKPVQQTVTR   -1.0000     NotChecked  -11.6006    2338.3373   ✗       
+171   SSVQPVPVPVPVPKPVQTSVTR   -1.0000     NotChecked  -11.6014    2297.3107   ✗       
+172   SSVQPVPVPVPVPKPLQSTVTR   -1.0000     NotChecked  -11.6026    2311.3264   ✗       
+173   SSVQPVPVPVPVPKPLQTTATR   -1.0000     NotChecked  -11.6042    2297.3107   ✗       
+174   SSVQPVPVPVPVPKPLLTVVSR   -1.0000     NotChecked  -11.6058    2294.3726   ✗       
+175   SSVQPVPVPVPVPKPLLQTVVR   -1.0000     NotChecked  -11.6099    2335.3991   ✗       
+176   SSVQPVPVPVPVPKPLLTSVVR   -1.0000     NotChecked  -11.6107    2294.3726   ✗       
+177   SSVQPVPVPVPVPKPLLQTVTR   -1.0000     NotChecked  -11.6149    2337.3784   ✗       
+178   SSVQPVPVPVPVPKPLLTSVTR   -1.0000     NotChecked  -11.6157    2296.3518   ✗       
+179   SSVQPVPVPVPVPKPLQLLVVR   -1.0000     NotChecked  -11.6212    2347.4355   ✗       
+180   SSVQPVPVPVPVPKPVQTLVSR   -1.0000     NotChecked  -11.6230    2309.3471   ✗       
+181   SSVQPVPVPVPVPKPVQLSVLR   -1.0000     NotChecked  -11.6252    2321.3835   ✗       
+182   SSVQPVPVPVPVPKPLQLLVTR   -1.0000     Failed      -11.6262    2349.4148   ✓       
+183   SSVQPVPVPVPVPKPLQLTALR   -1.0000     NotChecked  -11.6281    2321.3835   ✗       
+184   SSVQPVPVPVPVPKPLQTVVAR   -1.0000     NotChecked  -11.6311    2293.3522   ✗       
+185   SSVQPVPVPVPVPKPSQTTVLR   -1.0000     NotChecked  -11.6326    2311.3264   ✗       
+186   SSVQPVPVPVPVPKPLLTLVSR   -1.0000     NotChecked  -11.6373    2308.3882   ✗       
+187   SSVQPVPVPVPVPKPLLLSVLR   -1.0000     NotChecked  -11.6395    2320.4246   ✗       
+188   SSVQPVPVPVPVPKPVLTVVLR   -1.0000     NotChecked  -11.6418    2306.4090   ✗       
+189   SSVQPVPVPVPVPKPLTTVVLR   -1.0000     NotChecked  -11.6445    2308.3882   ✗       
+190   SSVQPVPVPVPVPKPVQLVVSR   -1.0000     NotChecked  -11.6451    2307.3678   ✗       
+191   SSVQPVPVPVPVPKPVQLSVVR   -1.0000     NotChecked  -11.6500    2307.3678   ✗       
+192   SSVQPVPVPVPVPKPLQLTAVR   -1.0000     NotChecked  -11.6528    2307.3678   ✗       
+193   SSVQPVPVPVPVPKPVQLSVTR   -1.0000     NotChecked  -11.6550    2309.3471   ✗       
+194   SSVQPVPVPVPVPKPLQQSVSR   -1.0000     NotChecked  -11.6561    2324.3216   ✗       
+195   SSVQPVPVPVPVPKPLQQVVVR   -1.0000     NotChecked  -11.6566    2348.3944   ✗       
+196   SSVQPVPVPVPVPKPSQTTVVR   -1.0000     NotChecked  -11.6574    2297.3107   ✗       
+197   SSVQPVPVPVPVPKPLQLTATR   -1.0000     NotChecked  -11.6578    2309.3471   ✗       
+198   SSVQPVPVPVPVPKPLLLVVSR   -1.0000     NotChecked  -11.6593    2306.4090   ✗       
+199   SSVQPVPVPVPVPKPSQTTVTR   -1.0000     NotChecked  -11.6623    2299.2900   ✗       
+200   SSVQPVPVPVPVPKPLQTLVAR   -1.0000     NotChecked  -11.6626    2307.3678   ✗       
+201   SSVQPVPVPVPVPKPLLLSVVR   -1.0000     NotChecked  -11.6643    2306.4090   ✗       
+202   SSVQPVPVPVPVPKPVLTVVVR   -1.0000     NotChecked  -11.6666    2292.3933   ✗       
+203   SSVQPVPVPVPVPKPLLLSVTR   -1.0000     NotChecked  -11.6692    2308.3882   ✗       
+204   SSVQPVPVPVPVPKPLTTVVVR   -1.0000     NotChecked  -11.6693    2294.3726   ✗       
+205   SSVQPVPVPVPVPKPVLTVVTR   -1.0000     NotChecked  -11.6715    2294.3726   ✗       
+206   SSVQPVPVPVPVPKPLQVTVLR   -1.0000     NotChecked  -11.6716    2335.3991   ✗       
+207   SSVQPVPVPVPVPKPVLTLVLR   -1.0000     NotChecked  -11.6733    2320.4246   ✗       
+208   SSVQPVPVPVPVPKPLTTVVTR   -1.0000     NotChecked  -11.6743    2296.3518   ✗       
+209   SSVQPVPVPVPVPKPLTTLVLR   -1.0000     NotChecked  -11.6760    2322.4039   ✗       
+210   SSVQPVPVPVPVPKPVQLLVSR   -1.0000     NotChecked  -11.6766    2321.3835   ✗       
+211   SSVQPVPVPVPVPKPLQLVVAR   -1.0000     NotChecked  -11.6847    2305.3886   ✗       
+212   SSVQPVPVPVPVPKPSQLTVLR   -1.0000     NotChecked  -11.6862    2323.3627   ✗       
+213   SSVQPVPVPVPVPKPLLLLVSR   -1.0000     NotChecked  -11.6908    2320.4246   ✗       
+214   SSVQPVPVPVPVPKPVQQSVLR   -1.0000     NotChecked  -11.6922    2336.3580   ✗       
+215   SSVQPVPVPVPVPKPTQTVVLR   -1.0000     NotChecked  -11.6932    2323.3627   ✗       
+216   SSVQPVPVPVPVPKPLQSSVLR   -1.0000     NotChecked  -11.6942    2309.3471   ✗       
+217   SSVQPVPVPVPVPKPLQQTALR   -1.0000     NotChecked  -11.6950    2336.3580   ✗       
+218   SSVQPVPVPVPVPKPVLLVVLR   -1.0000     NotChecked  -11.6953    2318.4454   ✗       
+219   SSVQPVPVPVPVPKPLQTSALR   -1.0000     NotChecked  -11.6958    2295.3314   ✗       
+220   SSVQPVPVPVPVPKPLQVTVVR   -1.0000     NotChecked  -11.6964    2321.3835   ✗       
+221   SSVQPVPVPVPVPKPVLTLVVR   -1.0000     NotChecked  -11.6981    2306.4090   ✗       
+222   SSVQPVPVPVPVPKPLTLVVLR   -1.0000     NotChecked  -11.6981    2320.4246   ✗       
+223   SSVQPVPVPVPVPKPLTTLVVR   -1.0000     NotChecked  -11.7008    2308.3882   ✗       
+224   SSVQPVPVPVPVPKPLQVTVTR   -1.0000     NotChecked  -11.7014    2323.3627   ✗       
+225   SSVQPVPVPVPVPKPVLTLVTR   -1.0000     NotChecked  -11.7030    2308.3882   ✗       
+226   SSVQPVPVPVPVPKPLTTLVTR   -1.0000     NotChecked  -11.7058    2310.3675   ✗       
+227   SSVQPVPVPVPVPKPLLQSVLR   -1.0000     NotChecked  -11.7064    2335.3991   ✗       
+228   SSVQPVPVPVPVPKPSQLTVVR   -1.0000     NotChecked  -11.7109    2309.3471   ✗       
+229   SSVQPVPVPVPVPKPVQQVVSR   -1.0000     NotChecked  -11.7120    2322.3424   ✗       
+230   SSVQPVPVPVPVPKPLQSVVSR   -1.0000     NotChecked  -11.7140    2295.3315   ✗       
+231   SSVQPVPVPVPVPKPLQTVASR   -1.0000     NotChecked  -11.7156    2281.3158   ✗       
+232   SSVQPVPVPVPVPKPSQLTVTR   -1.0000     NotChecked  -11.7159    2311.3264   ✗       
+233   SSVQPVPVPVPVPKPLQLLVAR   -1.0000     NotChecked  -11.7162    2319.4042   ✗       
+234   SSVQPVPVPVPVPKPVQQSVVR   -1.0000     NotChecked  -11.7169    2322.3424   ✗       
+235   SSVQPVPVPVPVPKPTQTVVVR   -1.0000     NotChecked  -11.7179    2309.3471   ✗       
+236   SSVQPVPVPVPVPKPLQSSVVR   -1.0000     NotChecked  -11.7189    2295.3315   ✗       
+237   SSVQPVPVPVPVPKPLQQTAVR   -1.0000     NotChecked  -11.7198    2322.3423   ✗       
+238   SSVQPVPVPVPVPKPQQTTVVR   -1.0000     NotChecked  -11.7199    2338.3373   ✗       
+239   SSVQPVPVPVPVPKPVLLVVVR   -1.0000     NotChecked  -11.7201    2304.4297   ✗       
+240   SSVQPVPVPVPVPKPLQTSAVR   -1.0000     NotChecked  -11.7206    2281.3158   ✗       
+241   SSVQPVPVPVPVPKPVQQSVTR   -1.0000     NotChecked  -11.7219    2324.3216   ✗       
+242   SSVQPVPVPVPVPKPLTLVVVR   -1.0000     NotChecked  -11.7229    2306.4090   ✗       
+243   SSVQPVPVPVPVPKPTQTVVTR   -1.0000     NotChecked  -11.7229    2311.3263   ✗       
+244   SSVQPVPVPVPVPKPLQSSVTR   -1.0000     NotChecked  -11.7239    2297.3107   ✗       
+245   SSVQPVPVPVPVPKPTQTLVLR   -1.0000     NotChecked  -11.7247    2337.3784   ✗       
+246   SSVQPVPVPVPVPKPLQQTATR   -1.0000     NotChecked  -11.7247    2324.3216   ✗       
+247   SSVQPVPVPVPVPKPQQTTVTR   -1.0000     NotChecked  -11.7249    2340.3165   ✗       
+248   SSVQPVPVPVPVPKPVLLVVTR   -1.0000     NotChecked  -11.7251    2306.4090   ✗       
+249   SSVQPVPVPVPVPKPLQTSATR   -1.0000     NotChecked  -11.7255    2283.2951   ✗       
+250   SSVQPVPVPVPVPKPLLQVVSR   -1.0000     NotChecked  -11.7263    2321.3835   ✗       
+251   SSVQPVPVPVPVPKPVLLLVLR   -1.0000     NotChecked  -11.7268    2332.4610   ✗       
+252   SSVQPVPVPVPVPKPLTLVVTR   -1.0000     NotChecked  -11.7278    2308.3882   ✗       
+253   SSVQPVPVPVPVPKPLTLLVLR   -1.0000     NotChecked  -11.7296    2334.4403   ✗       
+254   SSVQPVPVPVPVPKPLLQSVVR   -1.0000     NotChecked  -11.7312    2321.3835   ✗       
+255   SSVQPVPVPVPVPKPLLQSVTR   -1.0000     NotChecked  -11.7362    2323.3627   ✗       
+256   SSVQPVPVPVPVPKPVQQLVSR   -1.0000     NotChecked  -11.7435    2336.3580   ✗       
+257   SSVQPVPVPVPVPKPLQSLVSR   -1.0000     NotChecked  -11.7455    2309.3471   ✗       
+258   SSVQPVPVPVPVPKPTQLVVLR   -1.0000     NotChecked  -11.7467    2335.3991   ✗       
+259   SSVQPVPVPVPVPKPLQTLASR   -1.0000     NotChecked  -11.7471    2295.3314   ✗       
+260   SSVQPVPVPVPVPKPLQLSALR   -1.0000     NotChecked  -11.7493    2307.3678   ✗       
+261   SSVQPVPVPVPVPKPTQTLVVR   -1.0000     NotChecked  -11.7495    2323.3627   ✗       
+262   SSVQPVPVPVPVPKPVQSVVLR   -1.0000     NotChecked  -11.7500    2307.3678   ✗       
+263   SSVQPVPVPVPVPKPLQQVVAR   -1.0000     NotChecked  -11.7516    2320.3631   ✗       
+264   SSVQPVPVPVPVPKPVLLLVVR   -1.0000     NotChecked  -11.7516    2318.4454   ✗       
+265   SSVQPVPVPVPVPKPVQTVALR   -1.0000     NotChecked  -11.7516    2293.3522   ✗       
+266   SSVQPVPVPVPVPKPSQQTVLR   -1.0000     NotChecked  -11.7531    2338.3373   ✗       
+267   SSVQPVPVPVPVPKPSQTSVLR   -1.0000     NotChecked  -11.7539    2297.3107   ✗       
+268   SSVQPVPVPVPVPKPLTLLVVR   -1.0000     NotChecked  -11.7544    2320.4246   ✗       
+269   SSVQPVPVPVPVPKPTQTLVTR   -1.0000     NotChecked  -11.7544    2325.3420   ✗       
+270   SSVQPVPVPVPVPKPVLLLVTR   -1.0000     NotChecked  -11.7566    2320.4246   ✗       
+271   SSVQPVPVPVPVPKPLLQLVSR   -1.0000     NotChecked  -11.7578    2335.3991   ✗       
+272   SSVQPVPVPVPVPKPLTLLVTR   -1.0000     NotChecked  -11.7593    2322.4039   ✗       
+273   SSVQPVPVPVPVPKPVLQVVLR   -1.0000     NotChecked  -11.7623    2333.4199   ✗       
+274   SSVQPVPVPVPVPKPLQTTVLR   -1.0000     NotChecked  -11.7634    2337.3784   ✗       
+275   SSVQPVPVPVPVPKPLLSVVLR   -1.0000     NotChecked  -11.7643    2306.4090   ✗       
+276   SSVQPVPVPVPVPKPLTQVVLR   -1.0000     NotChecked  -11.7650    2335.3991   ✗       
+277   SSVQPVPVPVPVPKPLLTVALR   -1.0000     NotChecked  -11.7659    2292.3933   ✗       
+278   SSVQPVPVPVPVPKPLQTTLVR   -1.0000     NotChecked  -11.7682    2337.3784   ✗       
+279   SSVQPVPVPVPVPKPLQLVASR   -1.0000     NotChecked  -11.7692    2293.3522   ✗       
+280   SSVQPVPVPVPVPKPTQLVVVR   -1.0000     NotChecked  -11.7715    2321.3835   ✗       
+281   SSVQPVPVPVPVPKPLQTTLTR   -1.0000     NotChecked  -11.7731    2339.3576   ✗       
+282   SSVQPVPVPVPVPKPSQTVVSR   -1.0000     NotChecked  -11.7737    2283.2951   ✗       
+283   SSVQPVPVPVPVPKPLQLSAVR   -1.0000     NotChecked  -11.7741    2293.3522   ✗       
+284   SSVQPVPVPVPVPKPVQSVVVR   -1.0000     NotChecked  -11.7748    2293.3522   ✗       
+285   SSVQPVPVPVPVPKPVQTVAVR   -1.0000     NotChecked  -11.7764    2279.3365   ✗       
+286   SSVQPVPVPVPVPKPTQLVVTR   -1.0000     NotChecked  -11.7765    2323.3627   ✗       
+287   SSVQPVPVPVPVPKPSQQTVVR   -1.0000     NotChecked  -11.7779    2324.3216   ✗       
+288   SSVQPVPVPVPVPKPSQTSVVR   -1.0000     NotChecked  -11.7787    2283.2951   ✗       
+289   SSVQPVPVPVPVPKPLQLSATR   -1.0000     NotChecked  -11.7791    2295.3314   ✗       
+290   SSVQPVPVPVPVPKPVQSVVTR   -1.0000     NotChecked  -11.7797    2295.3314   ✗       
+291   SSVQPVPVPVPVPKPVQTVATR   -1.0000     NotChecked  -11.7814    2281.3158   ✗       
+292   SSVQPVPVPVPVPKPVQSLVLR   -1.0000     NotChecked  -11.7815    2321.3835   ✗       
+293   SSVQPVPVPVPVPKPSQQTVTR   -1.0000     NotChecked  -11.7828    2326.3009   ✗       
+294   SSVQPVPVPVPVPKPLQQLVAR   -1.0000     NotChecked  -11.7831    2334.3787   ✗       
+295   SSVQPVPVPVPVPKPVQTLALR   -1.0000     NotChecked  -11.7831    2307.3678   ✗       
+296   SSVQPVPVPVPVPKPSQTSVTR   -1.0000     NotChecked  -11.7836    2285.2743   ✗       
+297   SSVQPVPVPVPVPKPFQTVVSR   -1.0000     NotChecked  -11.7868    2343.3314   ✗       
+298   SSVQPVPVPVPVPKPVLQVVVR   -1.0000     NotChecked  -11.7871    2319.4042   ✗       
+299   SSVQPVPVPVPVPKPLQTTVVR   -1.0000     NotChecked  -11.7882    2323.3627   ✗       
+300   SSVQPVPVPVPVPKPLLSVVVR   -1.0000     NotChecked  -11.7891    2292.3933   ✗       
+301   SSVQPVPVPVPVPKPLTQVVVR   -1.0000     NotChecked  -11.7898    2321.3835   ✗       
+302   SSVQPVPVPVPVPKPLLTVAVR   -1.0000     NotChecked  -11.7907    2278.3777   ✗       
+303   SSVQPVPVPVPVPKPFQTSVVR   -1.0000     NotChecked  -11.7918    2343.3314   ✗       
+304   SSVQPVPVPVPVPKPVLQVVTR   -1.0000     NotChecked  -11.7920    2321.3835   ✗       
+305   SSVQPVPVPVPVPKPLQVSVLR   -1.0000     NotChecked  -11.7929    2321.3835   ✗       
+306   SSVQPVPVPVPVPKPLQTTVTR   -1.0000     NotChecked  -11.7931    2325.3420   ✗       
+307   SSVQPVPVPVPVPKPVLQLVLR   -1.0000     NotChecked  -11.7938    2347.4355   ✗       
+308   SSVQPVPVPVPVPKPLLSVVTR   -1.0000     NotChecked  -11.7940    2294.3726   ✗       
+309   SSVQPVPVPVPVPKPLTQVVTR   -1.0000     NotChecked  -11.7947    2323.3627   ✗       
+310   SSVQPVPVPVPVPKPLLTVATR   -1.0000     NotChecked  -11.7956    2280.3569   ✗       
+311   SSVQPVPVPVPVPKPLLSLVLR   -1.0000     NotChecked  -11.7958    2320.4246   ✗       
+312   SSVQPVPVPVPVPKPFQTSVTR   -1.0000     NotChecked  -11.7967    2345.3107   ✗       
+313   SSVQPVPVPVPVPKPLLTLALR   -1.0000     NotChecked  -11.7974    2306.4090   ✗       
+314   SSVQPVPVPVPVPKPLQLLASR   -1.0000     NotChecked  -11.8007    2307.3678   ✗       
+315   SSVQPVPVPVPVPKPTQLLVVR   -1.0000     NotChecked  -11.8030    2335.3991   ✗       
+316   SSVQPVPVPVPVPKPVQLVALR   -1.0000     NotChecked  -11.8052    2305.3886   ✗       
+317   SSVQPVPVPVPVPKPSQTLVSR   -1.0000     NotChecked  -11.8052    2297.3107   ✗       
+318   SSVQPVPVPVPVPKPVQSLVVR   -1.0000     NotChecked  -11.8063    2307.3678   ✗       
+319   SSVQPVPVPVPVPKPSQLSVLR   -1.0000     NotChecked  -11.8075    2309.3471   ✗       
+320   SSVQPVPVPVPVPKPVQTLAVR   -1.0000     NotChecked  -11.8079    2293.3522   ✗       
+321   SSVQPVPVPVPVPKPTQLLVTR   -1.0000     NotChecked  -11.8080    2337.3784   ✗       
+322   SSVQPVPVPVPVPKPVQSLVTR   -1.0000     NotChecked  -11.8112    2309.3471   ✗       
+323   SSVQPVPVPVPVPKPLQVVVSR   -1.0000     NotChecked  -11.8128    2307.3678   ✗       
+324   SSVQPVPVPVPVPKPVQTLATR   -1.0000     NotChecked  -11.8129    2295.3314   ✗       
+325   SSVQPVPVPVPVPKPLFTVVVR   -1.0000     NotChecked  -11.8141    2340.3933   ✗       
+326   SSVQPVPVPVPVPKPLQQSALR   -1.0000     NotChecked  -11.8163    2322.3424   ✗       
+327   SSVQPVPVPVPVPKPQQTSVLR   -1.0000     NotChecked  -11.8164    2338.3373   ✗       
+328   SSVQPVPVPVPVPKPLQVSVVR   -1.0000     NotChecked  -11.8177    2307.3678   ✗       
+329   SSVQPVPVPVPVPKPVLQLVVR   -1.0000     NotChecked  -11.8186    2333.4199   ✗       
+330   SSVQPVPVPVPVPKPLFTVVTR   -1.0000     NotChecked  -11.8191    2342.3726   ✗       
+331   SSVQPVPVPVPVPKPLLLVALR   -1.0000     NotChecked  -11.8195    2304.4297   ✗       
+332   SSVQPVPVPVPVPKPLLSLVVR   -1.0000     NotChecked  -11.8206    2306.4090   ✗       
+333   SSVQPVPVPVPVPKPLTQLVVR   -1.0000     NotChecked  -11.8213    2335.3991   ✗       
+334   SSVQPVPVPVPVPKPLQLTLVR   -1.0000     Failed      -11.8217    2349.4148   ✓       
+335   SSVQPVPVPVPVPKPLLTLAVR   -1.0000     NotChecked  -11.8222    2292.3933   ✗       
+336   SSVQPVPVPVPVPKPLQVSVTR   -1.0000     NotChecked  -11.8227    2309.3471   ✗       
+337   SSVQPVPVPVPVPKPVLQLVTR   -1.0000     NotChecked  -11.8235    2335.3991   ✗       
+338   SSVQPVPVPVPVPKPSLTVVLR   -1.0000     NotChecked  -11.8240    2294.3726   ✗       
+339   SSVQPVPVPVPVPKPLLSLVTR   -1.0000     NotChecked  -11.8255    2308.3882   ✗       
+340   SSVQPVPVPVPVPKPLTQLVTR   -1.0000     NotChecked  -11.8262    2337.3784   ✗       
+341   SSVQPVPVPVPVPKPLLTLATR   -1.0000     NotChecked  -11.8271    2294.3726   ✗       
+342   SSVQPVPVPVPVPKPSQLVVSR   -1.0000     NotChecked  -11.8273    2295.3315   ✗       
+343   SSVQPVPVPVPVPKPLQTAVLR   -1.0000     NotChecked  -11.8279    2307.3678   ✗       
+344   SSVQPVPVPVPVPKPVQLVAVR   -1.0000     NotChecked  -11.8300    2291.3729   ✗       
+345   SSVQPVPVPVPVPKPSQLSVVR   -1.0000     NotChecked  -11.8322    2295.3315   ✗       
+346   SSVQPVPVPVPVPKPVQLVATR   -1.0000     NotChecked  -11.8349    2293.3522   ✗       
+347   SSVQPVPVPVPVPKPLQQVASR   -1.0000     NotChecked  -11.8361    2308.3267   ✗       
+348   SSVQPVPVPVPVPKPQQTVVSR   -1.0000     NotChecked  -11.8363    2324.3216   ✗       
+349   SSVQPVPVPVPVPKPVQLLALR   -1.0000     NotChecked  -11.8367    2319.4042   ✗       
+350   SSVQPVPVPVPVPKPSQLSVTR   -1.0000     NotChecked  -11.8372    2297.3107   ✗       
+351   SSVQPVPVPVPVPKPTQQVVVR   -1.0000     NotChecked  -11.8384    2336.3580   ✗       
+352   SSVQPVPVPVPVPKPLQTVTLR   -1.0000     NotChecked  -11.8406    2337.3784   ✗       
+353   SSVQPVPVPVPVPKPLQQSAVR   -1.0000     NotChecked  -11.8411    2308.3267   ✗       
+354   SSVQPVPVPVPVPKPQQTSVVR   -1.0000     NotChecked  -11.8412    2324.3216   ✗       
+355   SSVQPVPVPVPVPKPLQLTVVR   -1.0000     NotChecked  -11.8418    2335.3991   ✗       
+356   SSVQPVPVPVPVPKPTQQVVTR   -1.0000     NotChecked  -11.8434    2338.3373   ✗       
+357   SSVQPVPVPVPVPKPVQTTVSR   -1.0000     NotChecked  -11.8435    2297.3107   ✗       
+358   SSVQPVPVPVPVPKPLLLVAVR   -1.0000     NotChecked  -11.8442    2290.4141   ✗       
+359   SSVQPVPVPVPVPKPLQVLVSR   -1.0000     NotChecked  -11.8443    2321.3835   ✗       
+360   SSVQPVPVPVPVPKPLQQSATR   -1.0000     NotChecked  -11.8460    2310.3060   ✗       
+361   SSVQPVPVPVPVPKPQQTSVTR   -1.0000     NotChecked  -11.8462    2326.3009   ✗       
+362   SSVQPVPVPVPVPKPLQLTVTR   -1.0000     NotChecked  -11.8467    2337.3784   ✗       
+363   SSVQPVPVPVPVPKPVQVVVLR   -1.0000     NotChecked  -11.8488    2319.4042   ✗       
+364   SSVQPVPVPVPVPKPSLTVVVR   -1.0000     NotChecked  -11.8488    2280.3569   ✗       
+365   SSVQPVPVPVPVPKPLLLVATR   -1.0000     NotChecked  -11.8492    2292.3933   ✗       
+366   SSVQPVPVPVPVPKPLLLLALR   -1.0000     NotChecked  -11.8510    2318.4454   ✗       
+367   SSVQPVPVPVPVPKPLQTAVVR   -1.0000     NotChecked  -11.8527    2293.3522   ✗       
+368   SSVQPVPVPVPVPKPSLTVVTR   -1.0000     NotChecked  -11.8537    2282.3362   ✗       
+369   SSVQPVPVPVPVPKPSLTLVLR   -1.0000     NotChecked  -11.8555    2308.3882   ✗       
+370   SSVQPVPVPVPVPKPLQTVVLR   -1.0000     NotChecked  -11.8556    2335.3991   ✗       
+371   SSVQPVPVPVPVPKPLQTAVTR   -1.0000     NotChecked  -11.8576    2295.3314   ✗       
+372   SSVQPVPVPVPVPKPLLTTVSR   -1.0000     NotChecked  -11.8578    2296.3518   ✗       
+373   SSVQPVPVPVPVPKPSQLLVSR   -1.0000     NotChecked  -11.8588    2309.3471   ✗       
+374   SSVQPVPVPVPVPKPVQLLAVR   -1.0000     NotChecked  -11.8615    2305.3886   ✗       
+375   SSVQPVPVPVPVPKPFLTVVVR   -1.0000     NotChecked  -11.8619    2340.3933   ✗       
+376   SSVQPVPVPVPVPKPLLVVVLR   -1.0000     NotChecked  -11.8631    2318.4454   ✗       
+377   SSVQPVPVPVPVPKPLQTSLLR   -1.0000     NotChecked  -11.8647    2337.3784   ✗       
+378   SSVQPVPVPVPVPKPLQTVTVR   -1.0000     NotChecked  -11.8654    2323.3627   ✗       
+379   SSVQPVPVPVPVPKPVQLLATR   -1.0000     NotChecked  -11.8664    2307.3678   ✗       
+380   SSVQPVPVPVPVPKPFLTVVTR   -1.0000     NotChecked  -11.8669    2342.3726   ✗       
+381   SSVQPVPVPVPVPKPLQQLASR   -1.0000     NotChecked  -11.8676    2322.3424   ✗       
+382   SSVQPVPVPVPVPKPQQTLVSR   -1.0000     NotChecked  -11.8678    2338.3373   ✗       
+383   SSVQPVPVPVPVPKPLQTVTTR   -1.0000     NotChecked  -11.8703    2325.3420   ✗       
+384   SSVQPVPVPVPVPKPVQQVALR   -1.0000     NotChecked  -11.8721    2320.3631   ✗       
+385   SSVQPVPVPVPVPKPVQVVVVR   -1.0000     NotChecked  -11.8736    2305.3886   ✗       
+386   SSVQPVPVPVPVPKPLQSVALR   -1.0000     NotChecked  -11.8741    2293.3522   ✗       
+387   SSVQPVPVPVPVPKPSQQSVLR   -1.0000     NotChecked  -11.8744    2324.3216   ✗       
+388   SSVQPVPVPVPVPKPLLLLAVR   -1.0000     NotChecked  -11.8758    2304.4297   ✗       
+389   SSVQPVPVPVPVPKPSLLVVLR   -1.0000     NotChecked  -11.8776    2306.4090   ✗       
+390   SSVQPVPVPVPVPKPVQVVVTR   -1.0000     NotChecked  -11.8785    2307.3678   ✗       
+391   SSVQPVPVPVPVPKPVQVLVLR   -1.0000     NotChecked  -11.8803    2333.4199   ✗       
+392   SSVQPVPVPVPVPKPSLTLVVR   -1.0000     NotChecked  -11.8803    2294.3726   ✗       
+393   SSVQPVPVPVPVPKPLQTVVVR   -1.0000     NotChecked  -11.8804    2321.3835   ✗       
+394   SSVQPVPVPVPVPKPLLLLATR   -1.0000     NotChecked  -11.8807    2306.4090   ✗       
+395   SSVQPVPVPVPVPKPLQLAVLR   -1.0000     NotChecked  -11.8814    2319.4042   ✗       
+396   SSVQPVPVPVPVPKPLQTTVAR   -1.0000     NotChecked  -11.8832    2295.3314   ✗       
+397   SSVQPVPVPVPVPKPLQTVLSR   -1.0000     NotChecked  -11.8845    2323.3627   ✗       
+398   SSVQPVPVPVPVPKPLQTSVLR   -1.0000     NotChecked  -11.8847    2323.3627   ✗       
+399   SSVQPVPVPVPVPKPSLTLVTR   -1.0000     NotChecked  -11.8852    2296.3518   ✗       
+400   SSVQPVPVPVPVPKPLQTVVTR   -1.0000     NotChecked  -11.8853    2323.3627   ✗       
+401   SSVQPVPVPVPVPKPLLQVALR   -1.0000     NotChecked  -11.8864    2319.4042   ✗       
+402   SSVQPVPVPVPVPKPQLTVVLR   -1.0000     NotChecked  -11.8866    2335.3991   ✗       
+403   SSVQPVPVPVPVPKPLLVVVVR   -1.0000     NotChecked  -11.8878    2304.4297   ✗       
+404   SSVQPVPVPVPVPKPLQTSLVR   -1.0000     NotChecked  -11.8895    2323.3627   ✗       
+405   SSVQPVPVPVPVPKPQQLVVSR   -1.0000     NotChecked  -11.8898    2336.3580   ✗       
+406   SSVQPVPVPVPVPKPLLVVVTR   -1.0000     NotChecked  -11.8928    2306.4090   ✗       
+407   SSVQPVPVPVPVPKPVLTTVLR   -1.0000     NotChecked  -11.8938    2308.3882   ✗       
+408   SSVQPVPVPVPVPKPSQQVVSR   -1.0000     NotChecked  -11.8942    2310.3060   ✗       
+409   SSVQPVPVPVPVPKPLQTSLTR   -1.0000     NotChecked  -11.8944    2325.3420   ✗       
+410   SSVQPVPVPVPVPKPLLVLVLR   -1.0000     NotChecked  -11.8946    2332.4610   ✗       
+411   SSVQPVPVPVPVPKPQQLSVVR   -1.0000     NotChecked  -11.8948    2336.3580   ✗       
+412   SSVQPVPVPVPVPKPLTTTVLR   -1.0000     NotChecked  -11.8966    2310.3675   ✗       
+413   SSVQPVPVPVPVPKPVQQVAVR   -1.0000     NotChecked  -11.8969    2306.3474   ✗       
+414   SSVQPVPVPVPVPKPLQTLTVR   -1.0000     NotChecked  -11.8969    2337.3784   ✗       
+415   SSVQPVPVPVPVPKPVQLTVSR   -1.0000     NotChecked  -11.8971    2309.3471   ✗       
+416   SSVQPVPVPVPVPKPLQSVAVR   -1.0000     NotChecked  -11.8989    2279.3365   ✗       
+417   SSVQPVPVPVPVPKPSQQSVVR   -1.0000     NotChecked  -11.8992    2310.3060   ✗       
+418   SSVQPVPVPVPVPKPQQLSVTR   -1.0000     NotChecked  -11.8997    2338.3373   ✗       
+419   SSVQPVPVPVPVPKPVQQVATR   -1.0000     NotChecked  -11.9018    2308.3267   ✗       
+420   SSVQPVPVPVPVPKPLQTLTTR   -1.0000     NotChecked  -11.9018    2339.3576   ✗       
+421   SSVQPVPVPVPVPKPSLLVVVR   -1.0000     NotChecked  -11.9024    2292.3933   ✗       
+422   SSVQPVPVPVPVPKPVQQLALR   -1.0000     NotChecked  -11.9036    2334.3787   ✗       
+423   SSVQPVPVPVPVPKPLQSVATR   -1.0000     NotChecked  -11.9039    2281.3158   ✗       
+424   SSVQPVPVPVPVPKPSQQSVTR   -1.0000     NotChecked  -11.9041    2312.2852   ✗       
+425   SSVQPVPVPVPVPKPLQTVVSR   -1.0000     NotChecked  -11.9045    2309.3471   ✗       
+426   SSVQPVPVPVPVPKPVQVLVVR   -1.0000     NotChecked  -11.9051    2319.4042   ✗       
+427   SSVQPVPVPVPVPKPLQSLALR   -1.0000     NotChecked  -11.9056    2307.3678   ✗       
+428   SSVQPVPVPVPVPKPLQLAVVR   -1.0000     NotChecked  -11.9062    2305.3886   ✗       
+429   SSVQPVPVPVPVPKPSLLVVTR   -1.0000     NotChecked  -11.9073    2294.3726   ✗       
+430   SSVQPVPVPVPVPKPSLLLVLR   -1.0000     NotChecked  -11.9091    2320.4246   ✗       
+431   SSVQPVPVPVPVPKPLQLVVLR   -1.0000     NotChecked  -11.9092    2347.4355   ✗       
+432   SSVQPVPVPVPVPKPLQTSVVR   -1.0000     NotChecked  -11.9095    2309.3471   ✗       
+433   SSVQPVPVPVPVPKPVQVLVTR   -1.0000     NotChecked  -11.9100    2321.3835   ✗       
+434   SSVQPVPVPVPVPKPLQLAVTR   -1.0000     NotChecked  -11.9112    2307.3678   ✗       
+435   SSVQPVPVPVPVPKPLLQVAVR   -1.0000     NotChecked  -11.9112    2305.3886   ✗       
+436   SSVQPVPVPVPVPKPQLTVVVR   -1.0000     NotChecked  -11.9113    2321.3835   ✗       
+437   SSVQPVPVPVPVPKPLLLTVSR   -1.0000     NotChecked  -11.9114    2308.3882   ✗       
+438   SSVQPVPVPVPVPKPLQTLVVR   -1.0000     NotChecked  -11.9119    2335.3991   ✗       
+439   SSVQPVPVPVPVPKPLQTSVTR   -1.0000     NotChecked  -11.9144    2311.3264   ✗       
+440   SSVQPVPVPVPVPKPLQTLLSR   -1.0000     NotChecked  -11.9160    2337.3784   ✗       
+441   SSVQPVPVPVPVPKPLLQVATR   -1.0000     NotChecked  -11.9161    2307.3678   ✗       
+442   SSVQPVPVPVPVPKPQLTVVTR   -1.0000     NotChecked  -11.9163    2323.3627   ✗       
+443   SSVQPVPVPVPVPKPLQTLVTR   -1.0000     NotChecked  -11.9169    2337.3784   ✗       
+444   SSVQPVPVPVPVPKPLLQLALR   -1.0000     NotChecked  -11.9179    2333.4199   ✗       
+445   SSVQPVPVPVPVPKPVLTTVVR   -1.0000     NotChecked  -11.9186    2294.3726   ✗       
+446   SSVQPVPVPVPVPKPLQLVTVR   -1.0000     NotChecked  -11.9190    2335.3991   ✗       
+447   SSVQPVPVPVPVPKPLLVLVVR   -1.0000     NotChecked  -11.9193    2318.4454   ✗       
+448   SSVQPVPVPVPVPKPVQTVLLR   -1.0000     NotChecked  -11.9205    2335.3991   ✗       
+449   SSVQPVPVPVPVPKPLTTTVVR   -1.0000     NotChecked  -11.9214    2296.3518   ✗       
+450   SSVQPVPVPVPVPKPVLTTVTR   -1.0000     NotChecked  -11.9236    2296.3518   ✗       
+451   SSVQPVPVPVPVPKPLQLVTTR   -1.0000     NotChecked  -11.9239    2337.3784   ✗       
+452   SSVQPVPVPVPVPKPLLVLVTR   -1.0000     NotChecked  -11.9243    2320.4246   ✗       
+453   SSVQPVPVPVPVPKPSQQLVSR   -1.0000     NotChecked  -11.9257    2324.3216   ✗       
+454   SSVQPVPVPVPVPKPLTTTVTR   -1.0000     NotChecked  -11.9263    2298.3311   ✗       
+455   SSVQPVPVPVPVPKPVQQLAVR   -1.0000     NotChecked  -11.9284    2320.3631   ✗       
+456   SSVQPVPVPVPVPKPLQSLAVR   -1.0000     NotChecked  -11.9304    2293.3522   ✗       
+457   SSVQPVPVPVPVPKPSQSVVLR   -1.0000     NotChecked  -11.9322    2295.3315   ✗       
+458   SSVQPVPVPVPVPKPVQQLATR   -1.0000     NotChecked  -11.9333    2322.3423   ✗       
+459   SSVQPVPVPVPVPKPSLLLVVR   -1.0000     NotChecked  -11.9339    2306.4090   ✗       
+460   SSVQPVPVPVPVPKPSQTVALR   -1.0000     NotChecked  -11.9339    2281.3158   ✗       
+461   SSVQPVPVPVPVPKPLQLVVVR   -1.0000     NotChecked  -11.9340    2333.4199   ✗       
+462   SSVQPVPVPVPVPKPLLTVLLR   -1.0000     NotChecked  -11.9348    2334.4403   ✗       
+463   SSVQPVPVPVPVPKPLQSLATR   -1.0000     NotChecked  -11.9354    2295.3314   ✗       
+464   SSVQPVPVPVPVPKPLQTLVSR   -1.0000     NotChecked  -11.9360    2323.3627   ✗       
+465   SSVQPVPVPVPVPKPLQLTVAR   -1.0000     NotChecked  -11.9367    2307.3678   ✗       
+466   SSVQPVPVPVPVPKPLQLVLSR   -1.0000     NotChecked  -11.9381    2335.3991   ✗       
+467   SSVQPVPVPVPVPKPLQLSVLR   -1.0000     NotChecked  -11.9383    2335.3991   ✗       
+468   SSVQPVPVPVPVPKPSLLLVTR   -1.0000     NotChecked  -11.9388    2308.3882   ✗       
+469   SSVQPVPVPVPVPKPLQLVVTR   -1.0000     NotChecked  -11.9389    2335.3991   ✗       
+470   SSVQPVPVPVPVPKPLQTVAFR   -1.0000     NotChecked  -11.9401    2341.3522   ✗       
+471   SSVQPVPVPVPVPKPQLLVVLR   -1.0000     NotChecked  -11.9401    2347.4355   ✗       
+472   SSVQPVPVPVPVPKPVQTVVLR   -1.0000     NotChecked  -11.9406    2321.3835   ✗       
+473   SSVQPVPVPVPVPKPLLQLAVR   -1.0000     NotChecked  -11.9427    2319.4042   ✗       
+474   SSVQPVPVPVPVPKPQLTLVVR   -1.0000     NotChecked  -11.9428    2335.3991   ✗       
+475   SSVQPVPVPVPVPKPLQLSLVR   -1.0000     NotChecked  -11.9430    2335.3991   ✗       
+476   SSVQPVPVPVPVPKPSLQVVLR   -1.0000     NotChecked  -11.9445    2321.3835   ✗       
+477   SSVQPVPVPVPVPKPTQTTVLR   -1.0000     NotChecked  -11.9452    2325.3420   ✗       
+478   SSVQPVPVPVPVPKPVQTVLVR   -1.0000     NotChecked  -11.9453    2321.3835   ✗       
+479   SSVQPVPVPVPVPKPFQTVALR   -1.0000     NotChecked  -11.9470    2341.3522   ✗       
+480   SSVQPVPVPVPVPKPVLLTVLR   -1.0000     NotChecked  -11.9474    2320.4246   ✗       
+481   SSVQPVPVPVPVPKPLLQLATR   -1.0000     NotChecked  -11.9476    2321.3835   ✗       
+482   SSVQPVPVPVPVPKPQLTLVTR   -1.0000     NotChecked  -11.9478    2337.3784   ✗       
+483   SSVQPVPVPVPVPKPLQLSLTR   -1.0000     NotChecked  -11.9480    2337.3784   ✗       
+484   SSVQPVPVPVPVPKPLQQAVLR   -1.0000     NotChecked  -11.9484    2334.3787   ✗       
+485   SSVQPVPVPVPVPKPLTLTVLR   -1.0000     NotChecked  -11.9501    2322.4039   ✗       
+486   SSVQPVPVPVPVPKPVQTVLTR   -1.0000     NotChecked  -11.9502    2323.3627   ✗       
+487   SSVQPVPVPVPVPKPVQTLLLR   -1.0000     Failed      -11.9520    2349.4148   ✓       
+488   SSVQPVPVPVPVPKPLLTVVLR   -1.0000     NotChecked  -11.9548    2320.4246   ✗       
+489   SSVQPVPVPVPVPKPSQSVVVR   -1.0000     NotChecked  -11.9570    2281.3158   ✗       
+490   SSVQPVPVPVPVPKPLQLVVSR   -1.0000     NotChecked  -11.9581    2321.3835   ✗       
+491   SSVQPVPVPVPVPKPSQTVAVR   -1.0000     NotChecked  -11.9586    2267.3001   ✗       
+492   SSVQPVPVPVPVPKPLLTVLVR   -1.0000     NotChecked  -11.9596    2320.4246   ✗       
+493   SSVQPVPVPVPVPKPSQSVVTR   -1.0000     NotChecked  -11.9620    2283.2951   ✗       
+494   SSVQPVPVPVPVPKPLQLSVVR   -1.0000     NotChecked  -11.9630    2321.3835   ✗       
+495   SSVQPVPVPVPVPKPSQTVATR   -1.0000     NotChecked  -11.9636    2269.2794   ✗       
+496   SSVQPVPVPVPVPKPSQSLVLR   -1.0000     NotChecked  -11.9637    2309.3471   ✗       
+497   SSVQPVPVPVPVPKPVQQTVSR   -1.0000     NotChecked  -11.9640    2324.3216   ✗       
+498   SSVQPVPVPVPVPKPLLTVLTR   -1.0000     NotChecked  -11.9645    2322.4039   ✗       
+499   SSVQPVPVPVPVPKPVQTSVSR   -1.0000     NotChecked  -11.9648    2283.2951   ✗       
+500   SSVQPVPVPVPVPKPQLLVVVR   -1.0000     NotChecked  -11.9649    2333.4199   ✗       
+501   SSVQPVPVPVPVPKPVQTVVVR   -1.0000     NotChecked  -11.9653    2307.3678   ✗       
+502   SSVQPVPVPVPVPKPSQTLALR   -1.0000     NotChecked  -11.9654    2295.3314   ✗       
+503   SSVQPVPVPVPVPKPLQLLVVR   -1.0000     NotChecked  -11.9655    2347.4355   ✗       
+504   SSVQPVPVPVPVPKPLQSTVSR   -1.0000     NotChecked  -11.9660    2297.3107   ✗       
+505   SSVQPVPVPVPVPKPLLTLLLR   -1.0000     NotChecked  -11.9663    2348.4559   ✗       
+506   SSVQPVPVPVPVPKPLQTTASR   -1.0000     NotChecked  -11.9677    2283.2951   ✗       
+507   SSVQPVPVPVPVPKPLQLSVTR   -1.0000     NotChecked  -11.9680    2323.3627   ✗       
+508   SSVQPVPVPVPVPKPSLQVVVR   -1.0000     NotChecked  -11.9693    2307.3678   ✗       
+509   SSVQPVPVPVPVPKPQLLVVTR   -1.0000     NotChecked  -11.9698    2335.3991   ✗       
+510   SSVQPVPVPVPVPKPTQTTVVR   -1.0000     NotChecked  -11.9700    2311.3263   ✗       
+511   SSVQPVPVPVPVPKPFQSVVVR   -1.0000     NotChecked  -11.9701    2341.3522   ✗       
+512   SSVQPVPVPVPVPKPVQTVVTR   -1.0000     NotChecked  -11.9703    2309.3471   ✗       
+513   SSVQPVPVPVPVPKPLQLLVTR   -1.0000     Failed      -11.9704    2349.4148   ✓       
+514   SSVQPVPVPVPVPKPFQTVAVR   -1.0000     NotChecked  -11.9718    2327.3365   ✗       
+515   SSVQPVPVPVPVPKPVQTLVLR   -1.0000     NotChecked  -11.9721    2335.3991   ✗       
+516   SSVQPVPVPVPVPKPVLLTVVR   -1.0000     NotChecked  -11.9722    2306.4090   ✗       
+517   SSVQPVPVPVPVPKPLQVVALR   -1.0000     NotChecked  -11.9729    2305.3886   ✗       
+518   SSVQPVPVPVPVPKPLQQAVVR   -1.0000     NotChecked  -11.9731    2320.3631   ✗       
+519   SSVQPVPVPVPVPKPVQLVLLR   -1.0000     NotChecked  -11.9741    2347.4355   ✗       
+520   SSVQPVPVPVPVPKPSLQVVTR   -1.0000     NotChecked  -11.9742    2309.3471   ✗       
+521   SSVQPVPVPVPVPKPLTLTVVR   -1.0000     NotChecked  -11.9749    2308.3882   ✗       
+522   SSVQPVPVPVPVPKPTQTTVTR   -1.0000     NotChecked  -11.9749    2313.3056   ✗       
+523   SSVQPVPVPVPVPKPFQSVVTR   -1.0000     NotChecked  -11.9751    2343.3314   ✗       
+524   SSVQPVPVPVPVPKPSLQLVLR   -1.0000     NotChecked  -11.9760    2335.3991   ✗       
+525   SSVQPVPVPVPVPKPFQTVATR   -1.0000     NotChecked  -11.9767    2329.3158   ✗       
+526   SSVQPVPVPVPVPKPVQTLLVR   -1.0000     NotChecked  -11.9768    2335.3991   ✗       
+527   SSVQPVPVPVPVPKPVLLTVTR   -1.0000     NotChecked  -11.9771    2308.3882   ✗       
+528   SSVQPVPVPVPVPKPLQQAVTR   -1.0000     NotChecked  -11.9781    2322.3423   ✗       
+529   SSVQPVPVPVPVPKPLLQTVSR   -1.0000     NotChecked  -11.9783    2323.3627   ✗       
+530   SSVQPVPVPVPVPKPLLTSVSR   -1.0000     NotChecked  -11.9791    2282.3362   ✗       
+531   SSVQPVPVPVPVPKPLLTVVVR   -1.0000     NotChecked  -11.9796    2306.4090   ✗       
+532   SSVQPVPVPVPVPKPLTLTVTR   -1.0000     NotChecked  -11.9799    2310.3675   ✗       
+533   SSVQPVPVPVPVPKPVQTLLTR   -1.0000     NotChecked  -11.9818    2337.3784   ✗       
+534   SSVQPVPVPVPVPKPLLTVVTR   -1.0000     NotChecked  -11.9846    2308.3882   ✗       
+535   SSVQPVPVPVPVPKPLLTLVLR   -1.0000     NotChecked  -11.9863    2334.4403   ✗       
+536   SSVQPVPVPVPVPKPSQLVALR   -1.0000     NotChecked  -11.9874    2293.3522   ✗       
+537   SSVQPVPVPVPVPKPLLLVLLR   -1.0000     NotChecked  -11.9884    2346.4767   ✗       
+538   SSVQPVPVPVPVPKPSQSLVVR   -1.0000     NotChecked  -11.9885    2295.3315   ✗       
+539   SSVQPVPVPVPVPKPLQLLVSR   -1.0000     NotChecked  -11.9896    2335.3991   ✗       
+540   SSVQPVPVPVPVPKPSQTLAVR   -1.0000     NotChecked  -11.9901    2281.3158   ✗       
+541   SSVQPVPVPVPVPKPLLTLLVR   -1.0000     NotChecked  -11.9911    2334.4403   ✗       
+542   SSVQPVPVPVPVPKPSQSLVTR   -1.0000     NotChecked  -11.9935    2297.3107   ✗       
+543   SSVQPVPVPVPVPKPVQLVVLR   -1.0000     NotChecked  -11.9941    2333.4199   ✗       
+544   SSVQPVPVPVPVPKPQQSVVLR   -1.0000     NotChecked  -11.9948    2336.3580   ✗       
+545   SSVQPVPVPVPVPKPSQTLATR   -1.0000     NotChecked  -11.9951    2283.2951   ✗       
+546   SSVQPVPVPVPVPKPLLTLLTR   -1.0000     NotChecked  -11.9960    2336.4195   ✗       
+547   SSVQPVPVPVPVPKPQLLLVVR   -1.0000     NotChecked  -11.9964    2347.4355   ✗       
+548   SSVQPVPVPVPVPKPQQTVALR   -1.0000     NotChecked  -11.9964    2322.3423   ✗       
+549   SSVQPVPVPVPVPKPVQTLVVR   -1.0000     NotChecked  -11.9968    2321.3835   ✗       
+550   SSVQPVPVPVPVPKPLQVVAVR   -1.0000     NotChecked  -11.9977    2291.3729   ✗       
+551   SSVQPVPVPVPVPKPSQTVVFR   -1.0000     NotChecked  -11.9982    2343.3314   ✗       
+552   SSVQPVPVPVPVPKPTQLTVLR   -1.0000     NotChecked  -11.9988    2337.3784   ✗       
+553   SSVQPVPVPVPVPKPVQLVLVR   -1.0000     NotChecked  -11.9989    2333.4199   ✗       
+554   SSVQPVPVPVPVPKPSLQLVVR   -1.0000     NotChecked  -12.0008    2321.3835   ✗       
+555   SSVQPVPVPVPVPKPLQQVVVR   -1.0000     NotChecked  -12.0009    2348.3944   ✗       
+556   SSVQPVPVPVPVPKPVQTLVTR   -1.0000     NotChecked  -12.0018    2323.3627   ✗       
+557   SSVQPVPVPVPVPKPVQSTVLR   -1.0000     NotChecked  -12.0021    2309.3471   ✗       
+558   SSVQPVPVPVPVPKPLQVVATR   -1.0000     NotChecked  -12.0026    2293.3522   ✗       
+559   SSVQPVPVPVPVPKPFQTLAVR   -1.0000     NotChecked  -12.0033    2341.3522   ✗       
+560   SSVQPVPVPVPVPKPLQQTVAR   -1.0000     NotChecked  -12.0037    2322.3423   ✗       
+561   SSVQPVPVPVPVPKPVQTTALR   -1.0000     NotChecked  -12.0037    2295.3314   ✗       
+562   SSVQPVPVPVPVPKPVQLVLTR   -1.0000     NotChecked  -12.0038    2335.3991   ✗       
+563   SSVQPVPVPVPVPKPLQVLALR   -1.0000     NotChecked  -12.0044    2319.4042   ✗       
+564   SSVQPVPVPVPVPKPLQTSVAR   -1.0000     NotChecked  -12.0045    2281.3158   ✗       
+565   SSVQPVPVPVPVPKPSLQLVTR   -1.0000     NotChecked  -12.0057    2323.3627   ✗       
+566   SSVQPVPVPVPVPKPFQTLATR   -1.0000     NotChecked  -12.0082    2343.3314   ✗       
+567   SSVQPVPVPVPVPKPLLLVVLR   -1.0000     NotChecked  -12.0084    2332.4610   ✗       
+568   SSVQPVPVPVPVPKPLLTLVVR   -1.0000     NotChecked  -12.0111    2320.4246   ✗       
+569   SSVQPVPVPVPVPKPSQLVAVR   -1.0000     NotChecked  -12.0122    2279.3365   ✗       
+570   SSVQPVPVPVPVPKPLLLVLVR   -1.0000     NotChecked  -12.0131    2332.4610   ✗       
+571   SSVQPVPVPVPVPKPVLQTVLR   -1.0000     NotChecked  -12.0143    2335.3991   ✗       
+572   SSVQPVPVPVPVPKPVLTSVLR   -1.0000     NotChecked  -12.0151    2294.3726   ✗       
+573   SSVQPVPVPVPVPKPLLTLVTR   -1.0000     NotChecked  -12.0161    2322.4039   ✗       
+574   SSVQPVPVPVPVPKPLLSTVLR   -1.0000     NotChecked  -12.0163    2308.3882   ✗       
+575   SSVQPVPVPVPVPKPLTQTVLR   -1.0000     NotChecked  -12.0171    2337.3784   ✗       
+576   SSVQPVPVPVPVPKPSQLVATR   -1.0000     NotChecked  -12.0171    2281.3158   ✗       
+577   SSVQPVPVPVPVPKPLTTSVLR   -1.0000     NotChecked  -12.0179    2296.3518   ✗       
+578   SSVQPVPVPVPVPKPLLTTALR   -1.0000     NotChecked  -12.0180    2294.3726   ✗       
+579   SSVQPVPVPVPVPKPLLLVLTR   -1.0000     NotChecked  -12.0181    2334.4403   ✗       
+580   SSVQPVPVPVPVPKPVQLSVSR   -1.0000     NotChecked  -12.0184    2295.3315   ✗       
+581   SSVQPVPVPVPVPKPVQLVVVR   -1.0000     NotChecked  -12.0189    2319.4042   ✗       
+582   SSVQPVPVPVPVPKPSQLLALR   -1.0000     NotChecked  -12.0189    2307.3678   ✗       
+583   SSVQPVPVPVPVPKPQQSVVVR   -1.0000     NotChecked  -12.0196    2322.3424   ✗       
+584   SSVQPVPVPVPVPKPQQTVAVR   -1.0000     NotChecked  -12.0212    2308.3267   ✗       
+585   SSVQPVPVPVPVPKPLQLTASR   -1.0000     NotChecked  -12.0212    2295.3314   ✗       
+586   SSVQPVPVPVPVPKPTQLTVVR   -1.0000     NotChecked  -12.0236    2323.3627   ✗       
+587   SSVQPVPVPVPVPKPVQLVVTR   -1.0000     NotChecked  -12.0238    2321.3835   ✗       
+588   SSVQPVPVPVPVPKPQQSVVTR   -1.0000     NotChecked  -12.0245    2324.3216   ✗       
+589   SSVQPVPVPVPVPKPLQQVVSR   -1.0000     NotChecked  -12.0250    2336.3580   ✗       
+590   SSVQPVPVPVPVPKPFQLVAVR   -1.0000     NotChecked  -12.0253    2339.3729   ✗       
+591   SSVQPVPVPVPVPKPVQLLVLR   -1.0000     NotChecked  -12.0256    2347.4355   ✗       
+592   SSVQPVPVPVPVPKPSQTTVSR   -1.0000     NotChecked  -12.0258    2285.2743   ✗       
+593   SSVQPVPVPVPVPKPQQTVATR   -1.0000     NotChecked  -12.0261    2310.3060   ✗       
+594   SSVQPVPVPVPVPKPVQSTVVR   -1.0000     NotChecked  -12.0268    2295.3314   ✗       
+595   SSVQPVPVPVPVPKPQQTLALR   -1.0000     NotChecked  -12.0279    2336.3580   ✗       
+596   SSVQPVPVPVPVPKPVQTTAVR   -1.0000     NotChecked  -12.0285    2281.3158   ✗       
+597   SSVQPVPVPVPVPKPTQLTVTR   -1.0000     NotChecked  -12.0285    2325.3420   ✗       
+598   SSVQPVPVPVPVPKPLQVLAVR   -1.0000     NotChecked  -12.0292    2305.3886   ✗       
+599   SSVQPVPVPVPVPKPLQQSVVR   -1.0000     NotChecked  -12.0300    2336.3580   ✗       
+600   SSVQPVPVPVPVPKPFQLVATR   -1.0000     NotChecked  -12.0303    2341.3522   ✗       
+601   SSVQPVPVPVPVPKPVQLLLVR   -1.0000     NotChecked  -12.0304    2347.4355   ✗       
+602   SSVQPVPVPVPVPKPSQVVVLR   -1.0000     NotChecked  -12.0310    2307.3678   ✗       
+603   SSVQPVPVPVPVPKPVQSTVTR   -1.0000     NotChecked  -12.0318    2297.3107   ✗       
+604   SSVQPVPVPVPVPKPQLQVVVR   -1.0000     NotChecked  -12.0318    2348.3944   ✗       
+605   SSVQPVPVPVPVPKPLLLSVSR   -1.0000     NotChecked  -12.0327    2294.3726   ✗       
+606   SSVQPVPVPVPVPKPLLLVVVR   -1.0000     NotChecked  -12.0332    2318.4454   ✗       
+607   SSVQPVPVPVPVPKPVQTTATR   -1.0000     NotChecked  -12.0334    2283.2950   ✗       
+608   SSVQPVPVPVPVPKPLQVLATR   -1.0000     NotChecked  -12.0341    2307.3678   ✗       
+609   SSVQPVPVPVPVPKPLQQSVTR   -1.0000     NotChecked  -12.0349    2338.3373   ✗       
+610   SSVQPVPVPVPVPKPVLTVVSR   -1.0000     NotChecked  -12.0350    2280.3569   ✗       
+611   SSVQPVPVPVPVPKPLTTVVSR   -1.0000     NotChecked  -12.0377    2282.3362   ✗       
+612   SSVQPVPVPVPVPKPLLLVVTR   -1.0000     NotChecked  -12.0381    2320.4246   ✗       
+613   SSVQPVPVPVPVPKPFQTTVSR   -1.0000     NotChecked  -12.0389    2345.3107   ✗       
+614   SSVQPVPVPVPVPKPVLQTVVR   -1.0000     NotChecked  -12.0391    2321.3835   ✗       
+615   SSVQPVPVPVPVPKPLLLLVLR   -1.0000     NotChecked  -12.0399    2346.4767   ✗       
+616   SSVQPVPVPVPVPKPVLTSVVR   -1.0000     NotChecked  -12.0399    2280.3569   ✗       
+617   SSVQPVPVPVPVPKPLLSTVVR   -1.0000     NotChecked  -12.0411    2294.3726   ✗       
+618   SSVQPVPVPVPVPKPLTQTVVR   -1.0000     NotChecked  -12.0418    2323.3627   ✗       
+619   SSVQPVPVPVPVPKPLTTSVVR   -1.0000     NotChecked  -12.0427    2282.3362   ✗       
+620   SSVQPVPVPVPVPKPLLTTAVR   -1.0000     NotChecked  -12.0427    2280.3569   ✗       
+621   SSVQPVPVPVPVPKPLQSVLLR   -1.0000     NotChecked  -12.0430    2335.3991   ✗       
+622   SSVQPVPVPVPVPKPSQLLAVR   -1.0000     NotChecked  -12.0437    2293.3522   ✗       
+623   SSVQPVPVPVPVPKPVLQTVTR   -1.0000     NotChecked  -12.0440    2323.3627   ✗       
+624   SSVQPVPVPVPVPKPLLLLLVR   -1.0000     NotChecked  -12.0446    2346.4767   ✗       
+625   SSVQPVPVPVPVPKPVLTSVTR   -1.0000     NotChecked  -12.0449    2282.3362   ✗       
+626   SSVQPVPVPVPVPKPLLSTVTR   -1.0000     NotChecked  -12.0461    2296.3518   ✗       
+627   SSVQPVPVPVPVPKPLTQTVTR   -1.0000     NotChecked  -12.0468    2325.3420   ✗       
+628   SSVQPVPVPVPVPKPLTTSVTR   -1.0000     NotChecked  -12.0476    2284.3154   ✗       
+629   SSVQPVPVPVPVPKPLLTTATR   -1.0000     NotChecked  -12.0477    2282.3362   ✗       
+630   SSVQPVPVPVPVPKPSQLLATR   -1.0000     NotChecked  -12.0486    2295.3314   ✗       
+631   SSVQPVPVPVPVPKPLLLLLTR   -1.0000     NotChecked  -12.0496    2348.4559   ✗       
+632   SSVQPVPVPVPVPKPQQLVALR   -1.0000     NotChecked  -12.0500    2334.3787   ✗       
+633   SSVQPVPVPVPVPKPVQLLVVR   -1.0000     NotChecked  -12.0504    2333.4199   ✗       
+634   SSVQPVPVPVPVPKPQQSLVVR   -1.0000     NotChecked  -12.0511    2336.3580   ✗       
+635   SSVQPVPVPVPVPKPQQTLAVR   -1.0000     NotChecked  -12.0527    2322.3423   ✗       
+636   SSVQPVPVPVPVPKPSQQVALR   -1.0000     NotChecked  -12.0543    2308.3267   ✗       
+637   SSVQPVPVPVPVPKPVQLLVTR   -1.0000     NotChecked  -12.0553    2335.3991   ✗       
+638   SSVQPVPVPVPVPKPSQVVVVR   -1.0000     NotChecked  -12.0558    2293.3522   ✗       
+639   SSVQPVPVPVPVPKPQQSLVTR   -1.0000     NotChecked  -12.0560    2338.3373   ✗       
+640   SSVQPVPVPVPVPKPVQLTALR   -1.0000     NotChecked  -12.0572    2307.3678   ✗       
+641   SSVQPVPVPVPVPKPQQTLATR   -1.0000     NotChecked  -12.0576    2324.3216   ✗       
+642   SSVQPVPVPVPVPKPLQLSVAR   -1.0000     NotChecked  -12.0580    2293.3522   ✗       
+643   SSVQPVPVPVPVPKPVQTVVAR   -1.0000     NotChecked  -12.0603    2279.3365   ✗       
+644   SSVQPVPVPVPVPKPSQVVVTR   -1.0000     NotChecked  -12.0607    2295.3314   ✗       
+645   SSVQPVPVPVPVPKPVQQVVLR   -1.0000     NotChecked  -12.0610    2348.3944   ✗       
+646   SSVQPVPVPVPVPKPSQVLVLR   -1.0000     NotChecked  -12.0625    2321.3835   ✗       
+647   SSVQPVPVPVPVPKPLQSVVLR   -1.0000     NotChecked  -12.0631    2321.3835   ✗       
+648   SSVQPVPVPVPVPKPLLLLVVR   -1.0000     NotChecked  -12.0647    2332.4610   ✗       
+649   SSVQPVPVPVPVPKPLQTVALR   -1.0000     NotChecked  -12.0647    2307.3678   ✗       
+650   SSVQPVPVPVPVPKPLQVTVSR   -1.0000     NotChecked  -12.0648    2309.3471   ✗       
+651   SSVQPVPVPVPVPKPVQQVLVR   -1.0000     NotChecked  -12.0658    2348.3944   ✗       
+652   SSVQPVPVPVPVPKPLFTTVVR   -1.0000     NotChecked  -12.0662    2342.3726   ✗       
+653   SSVQPVPVPVPVPKPVLTLVSR   -1.0000     NotChecked  -12.0665    2294.3726   ✗       
+654   SSVQPVPVPVPVPKPTQTSVLR   -1.0000     NotChecked  -12.0665    2311.3264   ✗       
+655   SSVQPVPVPVPVPKPLQSVLVR   -1.0000     NotChecked  -12.0678    2321.3835   ✗       
+656   SSVQPVPVPVPVPKPVLLSVLR   -1.0000     NotChecked  -12.0687    2306.4090   ✗       
+657   SSVQPVPVPVPVPKPLTTLVSR   -1.0000     NotChecked  -12.0692    2296.3518   ✗       
+658   SSVQPVPVPVPVPKPLLLLVTR   -1.0000     NotChecked  -12.0696    2334.4403   ✗       
+659   SSVQPVPVPVPVPKPLFTTVTR   -1.0000     NotChecked  -12.0711    2344.3518   ✗       
+660   SSVQPVPVPVPVPKPLTLSVLR   -1.0000     NotChecked  -12.0714    2308.3882   ✗       
+661   SSVQPVPVPVPVPKPLLLTALR   -1.0000     NotChecked  -12.0715    2306.4090   ✗       
+662   SSVQPVPVPVPVPKPLQSVLTR   -1.0000     NotChecked  -12.0727    2323.3627   ✗       
+663   SSVQPVPVPVPVPKPVTTVVLR   -1.0000     NotChecked  -12.0737    2294.3726   ✗       
+664   SSVQPVPVPVPVPKPLLTVVAR   -1.0000     NotChecked  -12.0746    2278.3777   ✗       
+665   SSVQPVPVPVPVPKPQQLVAVR   -1.0000     NotChecked  -12.0747    2320.3631   ✗       
+666   SSVQPVPVPVPVPKPLLQVVLR   -1.0000     NotChecked  -12.0753    2347.4355   ✗       
+667   SSVQPVPVPVPVPKPSLTTVLR   -1.0000     NotChecked  -12.0761    2296.3518   ✗       
+668   SSVQPVPVPVPVPKPSQQVAVR   -1.0000     NotChecked  -12.0791    2294.3111   ✗       
+669   SSVQPVPVPVPVPKPSQLTVSR   -1.0000     NotChecked  -12.0793    2297.3107   ✗       
+670   SSVQPVPVPVPVPKPQQLVATR   -1.0000     NotChecked  -12.0797    2322.3423   ✗       
+671   SSVQPVPVPVPVPKPLLQVLVR   -1.0000     NotChecked  -12.0801    2347.4355   ✗       
+672   SSVQPVPVPVPVPKPQQLLALR   -1.0000     NotChecked  -12.0815    2348.3944   ✗       
+673   SSVQPVPVPVPVPKPVQLTAVR   -1.0000     NotChecked  -12.0820    2293.3522   ✗       
+674   SSVQPVPVPVPVPKPSQQVATR   -1.0000     NotChecked  -12.0841    2296.2903   ✗       
+675   SSVQPVPVPVPVPKPVQQSVSR   -1.0000     NotChecked  -12.0853    2310.3060   ✗       
+676   SSVQPVPVPVPVPKPVQQVVVR   -1.0000     NotChecked  -12.0858    2334.3787   ✗       
+677   SSVQPVPVPVPVPKPSQQLALR   -1.0000     NotChecked  -12.0858    2322.3424   ✗       
+678   SSVQPVPVPVPVPKPTQTVVSR   -1.0000     NotChecked  -12.0863    2297.3107   ✗       
+679   SSVQPVPVPVPVPKPVQLTATR   -1.0000     NotChecked  -12.0870    2295.3314   ✗       
+680   SSVQPVPVPVPVPKPSQVLVVR   -1.0000     NotChecked  -12.0873    2307.3678   ✗       
+681   SSVQPVPVPVPVPKPLQSSVSR   -1.0000     NotChecked  -12.0873    2283.2951   ✗       
+682   SSVQPVPVPVPVPKPLQSVVVR   -1.0000     NotChecked  -12.0878    2307.3678   ✗       
+683   SSVQPVPVPVPVPKPLQQTASR   -1.0000     NotChecked  -12.0882    2310.3060   ✗       
+684   SSVQPVPVPVPVPKPQQTTVSR   -1.0000     NotChecked  -12.0883    2326.3009   ✗       
+685   SSVQPVPVPVPVPKPVLLVVSR   -1.0000     NotChecked  -12.0885    2292.3933   ✗       
+686   SSVQPVPVPVPVPKPLQTSASR   -1.0000     NotChecked  -12.0890    2269.2794   ✗       
+687   SSVQPVPVPVPVPKPLQTVAVR   -1.0000     NotChecked  -12.0895    2293.3522   ✗       
+688   SSVQPVPVPVPVPKPTQQTVVR   -1.0000     NotChecked  -12.0905    2338.3373   ✗       
+689   SSVQPVPVPVPVPKPVQQVVTR   -1.0000     NotChecked  -12.0908    2336.3580   ✗       
+690   SSVQPVPVPVPVPKPLTLVVSR   -1.0000     NotChecked  -12.0913    2294.3726   ✗       
+691   SSVQPVPVPVPVPKPTQTSVVR   -1.0000     NotChecked  -12.0913    2297.3107   ✗       
+692   SSVQPVPVPVPVPKPVQTLVAR   -1.0000     NotChecked  -12.0918    2293.3522   ✗       
+693   SSVQPVPVPVPVPKPSQVLVTR   -1.0000     NotChecked  -12.0922    2309.3471   ✗       
+694   SSVQPVPVPVPVPKPLQTTTLR   -1.0000     NotChecked  -12.0927    2339.3576   ✗       
+695   SSVQPVPVPVPVPKPLQSVVTR   -1.0000     NotChecked  -12.0928    2309.3471   ✗       
+696   SSVQPVPVPVPVPKPVLLSVVR   -1.0000     NotChecked  -12.0935    2292.3933   ✗       
+697   SSVQPVPVPVPVPKPQQVVVLR   -1.0000     NotChecked  -12.0935    2348.3944   ✗       
+698   SSVQPVPVPVPVPKPLQTVATR   -1.0000     NotChecked  -12.0944    2295.3314   ✗       
+699   SSVQPVPVPVPVPKPLQSLVLR   -1.0000     NotChecked  -12.0946    2335.3991   ✗       
+700   SSVQPVPVPVPVPKPTQQTVTR   -1.0000     NotChecked  -12.0954    2340.3165   ✗       
+701   SSVQPVPVPVPVPKPLQTLALR   -1.0000     NotChecked  -12.0962    2321.3835   ✗       
+702   SSVQPVPVPVPVPKPLTLSVVR   -1.0000     NotChecked  -12.0962    2294.3726   ✗       
+703   SSVQPVPVPVPVPKPTQTSVTR   -1.0000     NotChecked  -12.0962    2299.2900   ✗       
+704   SSVQPVPVPVPVPKPLLLTAVR   -1.0000     NotChecked  -12.0963    2292.3933   ✗       
+705   SSVQPVPVPVPVPKPVLLSVTR   -1.0000     NotChecked  -12.0984    2294.3726   ✗       
+706   SSVQPVPVPVPVPKPVTTVVVR   -1.0000     NotChecked  -12.0985    2280.3569   ✗       
+707   SSVQPVPVPVPVPKPLQSLLVR   -1.0000     NotChecked  -12.0993    2335.3991   ✗       
+708   SSVQPVPVPVPVPKPLLQSVSR   -1.0000     NotChecked  -12.0996    2309.3471   ✗       
+709   SSVQPVPVPVPVPKPLLQVVVR   -1.0000     NotChecked  -12.1001    2333.4199   ✗       
+710   SSVQPVPVPVPVPKPVQVTVLR   -1.0000     NotChecked  -12.1008    2321.3835   ✗       
+711   SSVQPVPVPVPVPKPSLTTVVR   -1.0000     NotChecked  -12.1009    2282.3362   ✗       
+712   SSVQPVPVPVPVPKPLTLSVTR   -1.0000     NotChecked  -12.1012    2296.3518   ✗       
+713   SSVQPVPVPVPVPKPLLLTATR   -1.0000     NotChecked  -12.1012    2294.3726   ✗       
+714   SSVQPVPVPVPVPKPSQTVLLR   -1.0000     NotChecked  -12.1028    2323.3627   ✗       
+715   SSVQPVPVPVPVPKPVTTVVTR   -1.0000     NotChecked  -12.1034    2282.3362   ✗       
+716   SSVQPVPVPVPVPKPLQSLLTR   -1.0000     NotChecked  -12.1042    2337.3784   ✗       
+717   SSVQPVPVPVPVPKPLLQVVTR   -1.0000     NotChecked  -12.1050    2335.3991   ✗       
+718   SSVQPVPVPVPVPKPVTTLVLR   -1.0000     NotChecked  -12.1052    2308.3882   ✗       
+719   SSVQPVPVPVPVPKPSLTTVTR   -1.0000     NotChecked  -12.1058    2284.3154   ✗       
+720   SSVQPVPVPVPVPKPLLTLVAR   -1.0000     NotChecked  -12.1061    2292.3933   ✗       
+721   SSVQPVPVPVPVPKPQQLLAVR   -1.0000     NotChecked  -12.1062    2334.3787   ✗       
+722   SSVQPVPVPVPVPKPLQTTVLR   -1.0000     NotChecked  -12.1077    2337.3784   ✗       
+723   +43.006SVQPVPVPVPVPKPLQTVVLR-1.0000     NotChecked  -13.4400    2291.3729   ✗       
+724   +43.006SVQPVPVPVPVPKPLQTVVVR-1.0000     NotChecked  -13.4648    2277.3573   ✗       
+725   +43.006SVQPVPVPVPVPKPLQTVVTR-1.0000     NotChecked  -13.4697    2279.3365   ✗       
+726   +43.006SVQPVPVPVPVPKPLQTLVLR-1.0000     NotChecked  -13.4715    2305.3886   ✗       
+727   +43.006SVQPVPVPVPVPKPLQLVVLR-1.0000     NotChecked  -13.4936    2303.4093   ✗       
+728   +43.006SVQPVPVPVPVPKPLQTLVVR-1.0000     NotChecked  -13.4963    2291.3729   ✗       
+729   +43.006SVQPVPVPVPVPKPLQTLVTR-1.0000     NotChecked  -13.5012    2293.3522   ✗       
+730   +43.006SVQPVPVPVPVPKPLQLVVVR-1.0000     NotChecked  -13.5184    2289.3937   ✗       
+731   +43.006SVQPVPVPVPVPKPLQLVVTR-1.0000     NotChecked  -13.5233    2291.3729   ✗       
+732   +43.006SVQPVPVPVPVPKPLQLLVLR-1.0000     NotChecked  -13.5251    2317.4250   ✗       
+733   +43.006SVQPVPVPVPVPKPLQLLVVR-1.0000     NotChecked  -13.5499    2303.4093   ✗       
+734   +43.006SVQPVPVPVPVPKPLQLLVTR-1.0000     NotChecked  -13.5548    2305.3886   ✗       
+735   +43.006SVQPVPVPVPVPKPLQQVVLR-1.0000     NotChecked  -13.5605    2318.3838   ✗       
+736   +43.006SVQPVPVPVPVPKPLQQVVVR-1.0000     NotChecked  -13.5853    2304.3682   ✗       
+737   +43.006SVQPVPVPVPVPKPLQQVVTR-1.0000     NotChecked  -13.5902    2306.3474   ✗       
+738   +43.006SVQPVPVPVPVPKPLQQLVLR-1.0000     NotChecked  -13.5920    2332.3995   ✗       
+739   +43.006SVQPVPVPVPVPKPLQQLVVR-1.0000     NotChecked  -13.6168    2318.3838   ✗       
+740   +43.006SVQPVPVPVPVPKPLQQLVTR-1.0000     NotChecked  -13.6217    2320.3631   ✗       
+741   +42.011SVQPVPVPVPVPKPLQTVVLR-1.0000     NotChecked  -13.6495    2290.3777   ✗       
+742   +42.011SVQPVPVPVPVPKPLQTVVVR-1.0000     NotChecked  -13.6743    2276.3620   ✗       
+743   +42.011SVQPVPVPVPVPKPLQTVVTR-1.0000     NotChecked  -13.6792    2278.3413   ✗       
+744   +42.011SVQPVPVPVPVPKPLQTLVLR-1.0000     NotChecked  -13.6810    2304.3933   ✗       
+745   +43.006SVQPVPVPVPVPKPLQTTVLR-1.0000     NotChecked  -13.6921    2293.3522   ✗       
+746   +42.011SVQPVPVPVPVPKPLQLVVLR-1.0000     NotChecked  -13.7030    2302.4141   ✗       
+747   +42.011SVQPVPVPVPVPKPLQTLVVR-1.0000     NotChecked  -13.7058    2290.3777   ✗       
+748   +42.011SVQPVPVPVPVPKPLQTLVTR-1.0000     NotChecked  -13.7107    2292.3569   ✗       
+749   +43.006SVQPVPVPVPVPKPLQTTVVR-1.0000     NotChecked  -13.7168    2279.3365   ✗       
+750   +43.006SVQPVPVPVPVPKPLQTTVTR-1.0000     NotChecked  -13.7218    2281.3158   ✗       
+751   +42.011SVQPVPVPVPVPKPLQLVVVR-1.0000     NotChecked  -13.7278    2288.3984   ✗       
+752   +42.011SVQPVPVPVPVPKPLQLVVTR-1.0000     NotChecked  -13.7328    2290.3777   ✗       
+753   +42.011SVQPVPVPVPVPKPLQLLVLR-1.0000     NotChecked  -13.7345    2316.4297   ✗       
+754   +43.006SVQPVPVPVPVPKPLQLTVLR-1.0000     NotChecked  -13.7456    2305.3886   ✗       
+755   +42.011SVQPVPVPVPVPKPLQLLVVR-1.0000     NotChecked  -13.7593    2302.4141   ✗       
+756   +42.011SVQPVPVPVPVPKPLQLLVTR-1.0000     NotChecked  -13.7643    2304.3933   ✗       
+757   +42.011SVQPVPVPVPVPKPLQQVVLR-1.0000     NotChecked  -13.7700    2317.3886   ✗       
+758   +43.006SVQPVPVPVPVPKPLQLTVVR-1.0000     NotChecked  -13.7704    2291.3729   ✗       
+759   +43.006SVQPVPVPVPVPKPLQLTVTR-1.0000     NotChecked  -13.7754    2293.3522   ✗       
+760   +42.011SVQPVPVPVPVPKPLQQVVVR-1.0000     NotChecked  -13.7947    2303.3729   ✗       
+761   +42.011SVQPVPVPVPVPKPLQQVVTR-1.0000     NotChecked  -13.7997    2305.3522   ✗       
+762   +42.011SVQPVPVPVPVPKPLQQLVLR-1.0000     NotChecked  -13.8015    2331.4042   ✗       
+763   +43.006SVQPVPVPVPVPKPLQQTVLR-1.0000     NotChecked  -13.8126    2320.3631   ✗       
+764   +43.006SVQPVPVPVPVPKPLQTSVLR-1.0000     NotChecked  -13.8134    2279.3365   ✗       
+765   +42.011SVQPVPVPVPVPKPLQQLVVR-1.0000     NotChecked  -13.8262    2317.3886   ✗       
+766   +42.011SVQPVPVPVPVPKPLQQLVTR-1.0000     NotChecked  -13.8312    2319.3678   ✗       
+767   +43.006SVQPVPVPVPVPKPLQTVVSR-1.0000     NotChecked  -13.8332    2265.3209   ✗       
+768   +43.006SVQPVPVPVPVPKPLQQTVVR-1.0000     NotChecked  -13.8373    2306.3474   ✗       
+769   +43.006SVQPVPVPVPVPKPLQTSVVR-1.0000     NotChecked  -13.8381    2265.3209   ✗       
+770   +43.006SVQPVPVPVPVPKPLQQTVTR-1.0000     NotChecked  -13.8423    2308.3267   ✗       
+771   +43.006SVQPVPVPVPVPKPLQTSVTR-1.0000     NotChecked  -13.8431    2267.3001   ✗       
+772   +43.006SVQPVPVPVPVPKPLQTLVSR-1.0000     NotChecked  -13.8647    2279.3365   ✗       
+773   +43.006SVQPVPVPVPVPKPLQLSVLR-1.0000     NotChecked  -13.8669    2291.3729   ✗       
+774   +43.006SVQPVPVPVPVPKPVQTVVLR-1.0000     NotChecked  -13.8692    2277.3573   ✗       
+775   +43.006SVQPVPVPVPVPKPLLTVVLR-1.0000     NotChecked  -13.8835    2276.3984   ✗       
+776   +43.006SVQPVPVPVPVPKPLQLVVSR-1.0000     NotChecked  -13.8867    2277.3573   ✗       
+777   +43.006SVQPVPVPVPVPKPLQLSVVR-1.0000     NotChecked  -13.8917    2277.3573   ✗       
+778   +43.006SVQPVPVPVPVPKPVQTVVVR-1.0000     NotChecked  -13.8940    2263.3416   ✗       
+779   +43.006SVQPVPVPVPVPKPLQLSVTR-1.0000     NotChecked  -13.8966    2279.3365   ✗       
+780   +43.006SVQPVPVPVPVPKPVQTVVTR-1.0000     NotChecked  -13.8989    2265.3209   ✗       
+781   +43.006SVQPVPVPVPVPKPVQTLVLR-1.0000     NotChecked  -13.9007    2291.3729   ✗       
+782   +42.011SVQPVPVPVPVPKPLQTTVLR-1.0000     NotChecked  -13.9015    2292.3569   ✗       
+783   +43.006SVQPVPVPVPVPKPLLTVVVR-1.0000     NotChecked  -13.9083    2262.3828   ✗       
+784   +43.006SVQPVPVPVPVPKPLLTVVTR-1.0000     NotChecked  -13.9132    2264.3620   ✗       
+785   +43.006SVQPVPVPVPVPKPLLTLVLR-1.0000     NotChecked  -13.9150    2290.4141   ✗       
+786   +43.006SVQPVPVPVPVPKPLQLLVSR-1.0000     NotChecked  -13.9182    2291.3729   ✗       
+787   +43.006SVQPVPVPVPVPKPVQLVVLR-1.0000     NotChecked  -13.9228    2289.3937   ✗       
+788   +43.006SVQPVPVPVPVPKPVQTLVVR-1.0000     NotChecked  -13.9255    2277.3573   ✗       
+789   +42.011SVQPVPVPVPVPKPLQTTVVR-1.0000     NotChecked  -13.9263    2278.3413   ✗       
+790   +43.006SVQPVPVPVPVPKPVQTLVTR-1.0000     NotChecked  -13.9304    2279.3365   ✗       
+791   +42.011SVQPVPVPVPVPKPLQTTVTR-1.0000     NotChecked  -13.9313    2280.3205   ✗       
+792   +43.006SVQPVPVPVPVPKPLQQSVLR-1.0000     NotChecked  -13.9338    2306.3474   ✗       
+793   +43.006SVQPVPVPVPVPKPLLLVVLR-1.0000     NotChecked  -13.9370    2288.4348   ✗       
+794   +43.006SVQPVPVPVPVPKPLLTLVVR-1.0000     NotChecked  -13.9398    2276.3984   ✗       
+795   +43.006SVQPVPVPVPVPKPLLTLVTR-1.0000     NotChecked  -13.9447    2278.3777   ✗       
+796   +43.006SVQPVPVPVPVPKPVQLVVVR-1.0000     NotChecked  -13.9475    2275.3780   ✗       
+797   +43.006SVQPVPVPVPVPKPVQLVVTR-1.0000     NotChecked  -13.9525    2277.3573   ✗       
+798   +43.006SVQPVPVPVPVPKPLQQVVSR-1.0000     NotChecked  -13.9537    2292.3318   ✗       
+799   +43.006SVQPVPVPVPVPKPVQLLVLR-1.0000     NotChecked  -13.9543    2303.4093   ✗       
+800   +42.011SVQPVPVPVPVPKPLQLTVLR-1.0000     NotChecked  -13.9551    2304.3933   ✗       
+801   +43.006SVQPVPVPVPVPKPLQQSVVR-1.0000     NotChecked  -13.9586    2292.3318   ✗       
+802   +43.006SVQPVPVPVPVPKPLLLVVVR-1.0000     NotChecked  -13.9618    2274.4191   ✗       
+803   +43.006SVQPVPVPVPVPKPLQQSVTR-1.0000     NotChecked  -13.9636    2294.3110   ✗       
+804   +43.006SVQPVPVPVPVPKPLLLVVTR-1.0000     NotChecked  -13.9668    2276.3984   ✗       
+805   +43.006SVQPVPVPVPVPKPLLLLVLR-1.0000     NotChecked  -13.9685    2302.4504   ✗       
+806   GSVQPVPVPVPVPKPLQTVVLR   -1.0000     NotChecked  -13.9728    2305.3886   ✗       
+807   +43.006SVQPVPVPVPVPKPVQLLVVR-1.0000     NotChecked  -13.9790    2289.3937   ✗       
+808   +42.011SVQPVPVPVPVPKPLQLTVVR-1.0000     NotChecked  -13.9799    2290.3777   ✗       
+809   +43.006SVQPVPVPVPVPKPVQLLVTR-1.0000     NotChecked  -13.9840    2291.3729   ✗       
+810   +42.011SVQPVPVPVPVPKPLQLTVTR-1.0000     NotChecked  -13.9848    2292.3569   ✗       
+811   +43.006SVQPVPVPVPVPKPLQQLVSR-1.0000     NotChecked  -13.9852    2306.3474   ✗       
+812   +43.006SVQPVPVPVPVPKPVQQVVLR-1.0000     NotChecked  -13.9897    2304.3682   ✗       
+813   +43.006SVQPVPVPVPVPKPLQSVVLR-1.0000     NotChecked  -13.9917    2277.3573   ✗       
+814   +43.006SVQPVPVPVPVPKPLLLLVVR-1.0000     NotChecked  -13.9933    2288.4348   ✗       
+815   +43.006SVQPVPVPVPVPKPLQTVALR-1.0000     NotChecked  -13.9933    2263.3416   ✗       
+816   GSVQPVPVPVPVPKPLQTVVVR   -1.0000     NotChecked  -13.9976    2291.3729   ✗       
+817   +43.006SVQPVPVPVPVPKPLLLLVTR-1.0000     NotChecked  -13.9983    2290.4141   ✗       
+818   GSVQPVPVPVPVPKPLQTVVTR   -1.0000     NotChecked  -14.0026    2293.3522   ✗       
+819   +43.006SVQPVPVPVPVPKPLLQVVLR-1.0000     NotChecked  -14.0040    2303.4093   ✗       
+820   GSVQPVPVPVPVPKPLQTLVLR   -1.0000     NotChecked  -14.0044    2319.4042   ✗       
+821   +43.006SVQPVPVPVPVPKPVQQVVVR-1.0000     NotChecked  -14.0145    2290.3525   ✗       
+822   +43.006SVQPVPVPVPVPKPLQSVVVR-1.0000     NotChecked  -14.0165    2263.3416   ✗       
+823   +43.006SVQPVPVPVPVPKPLQTVAVR-1.0000     NotChecked  -14.0181    2249.3260   ✗       
+824   +43.006SVQPVPVPVPVPKPVQQVVTR-1.0000     NotChecked  -14.0194    2292.3318   ✗       
+825   +43.006SVQPVPVPVPVPKPVQQLVLR-1.0000     NotChecked  -14.0212    2318.3838   ✗       
+826   +43.006SVQPVPVPVPVPKPLQSVVTR-1.0000     NotChecked  -14.0214    2265.3209   ✗       
+827   +42.011SVQPVPVPVPVPKPLQQTVLR-1.0000     NotChecked  -14.0220    2319.3678   ✗       
+828   +42.011SVQPVPVPVPVPKPLQTSVLR-1.0000     NotChecked  -14.0228    2278.3413   ✗       
+829   +43.006SVQPVPVPVPVPKPLQTVATR-1.0000     NotChecked  -14.0231    2251.3052   ✗       
+830   +43.006SVQPVPVPVPVPKPLQSLVLR-1.0000     NotChecked  -14.0232    2291.3729   ✗       
+831   +43.006SVQPVPVPVPVPKPLQTLALR-1.0000     NotChecked  -14.0248    2277.3573   ✗       
+832   GSVQPVPVPVPVPKPLQLVVLR   -1.0000     NotChecked  -14.0264    2317.4250   ✗       
+833   +43.006SVQPVPVPVPVPKPLLQVVVR-1.0000     NotChecked  -14.0287    2289.3937   ✗       
+834   GSVQPVPVPVPVPKPLQTLVVR   -1.0000     NotChecked  -14.0291    2305.3886   ✗       
+835   +43.006SVQPVPVPVPVPKPLLQVVTR-1.0000     NotChecked  -14.0337    2291.3729   ✗       
+836   GSVQPVPVPVPVPKPLQTLVTR   -1.0000     NotChecked  -14.0341    2307.3678   ✗       
+837   ASVQPVPVPVPVPKPLQTVVLR   -1.0000     NotChecked  -14.0343    2319.4042   ✗       
+838   +43.006SVQPVPVPVPVPKPLLQLVLR-1.0000     NotChecked  -14.0355    2317.4250   ✗       
+839   +42.011SVQPVPVPVPVPKPLQTVVSR-1.0000     NotChecked  -14.0426    2264.3256   ✗       
+840   +43.006SVQPVPVPVPVPKPVQQLVVR-1.0000     NotChecked  -14.0460    2304.3682   ✗       
+841   +42.011SVQPVPVPVPVPKPLQQTVVR-1.0000     NotChecked  -14.0468    2305.3522   ✗       
+842   +43.006SVQPVPVPVPVPKPLQLVALR-1.0000     NotChecked  -14.0469    2275.3780   ✗       
+843   +42.011SVQPVPVPVPVPKPLQTSVVR-1.0000     NotChecked  -14.0476    2264.3256   ✗       
+844   +43.006SVQPVPVPVPVPKPLQSLVVR-1.0000     NotChecked  -14.0480    2277.3573   ✗       
+845   +43.006SVQPVPVPVPVPKPLQTLAVR-1.0000     NotChecked  -14.0496    2263.3416   ✗       
+846   +43.006SVQPVPVPVPVPKPVQQLVTR-1.0000     NotChecked  -14.0509    2306.3474   ✗       
+847   GSVQPVPVPVPVPKPLQLVVVR   -1.0000     NotChecked  -14.0512    2303.4093   ✗       
+848   +43.006SVQPVPVPVPVPKPSQTVVLR-1.0000     NotChecked  -14.0514    2265.3209   ✗       
+849   +42.011SVQPVPVPVPVPKPLQQTVTR-1.0000     NotChecked  -14.0517    2307.3314   ✗       
+850   +42.011SVQPVPVPVPVPKPLQTSVTR-1.0000     NotChecked  -14.0525    2266.3049   ✗       
+851   +43.006SVQPVPVPVPVPKPLQSLVTR-1.0000     NotChecked  -14.0529    2279.3365   ✗       
+852   +43.006SVQPVPVPVPVPKPLQTLATR-1.0000     NotChecked  -14.0546    2265.3209   ✗       
+853   GSVQPVPVPVPVPKPLQLVVTR   -1.0000     NotChecked  -14.0561    2305.3886   ✗       
+854   +43.006SVQPVPVPVPVPKPLQTVVFR-1.0000     NotChecked  -14.0576    2325.3573   ✗       
+855   GSVQPVPVPVPVPKPLQLLVLR   -1.0000     NotChecked  -14.0579    2331.4406   ✗       
+856   ASVQPVPVPVPVPKPLQTVVVR   -1.0000     NotChecked  -14.0591    2305.3886   ✗       
+857   +43.006SVQPVPVPVPVPKPLLQLVVR-1.0000     NotChecked  -14.0602    2303.4093   ✗       
+858   ASVQPVPVPVPVPKPLQTVVTR   -1.0000     NotChecked  -14.0640    2307.3678   ✗       
+859   +43.006SVQPVPVPVPVPKPFQTVVLR-1.0000     NotChecked  -14.0645    2325.3573   ✗       
+860   +43.006SVQPVPVPVPVPKPLLQLVTR-1.0000     NotChecked  -14.0652    2305.3886   ✗       
+861   ASVQPVPVPVPVPKPLQTLVLR   -1.0000     NotChecked  -14.0658    2333.4199   ✗       
+862   +43.006SVQPVPVPVPVPKPLQLVAVR-1.0000     NotChecked  -14.0717    2261.3624   ✗       
+863   +42.011SVQPVPVPVPVPKPLQTLVSR-1.0000     NotChecked  -14.0742    2278.3413   ✗       
+864   +43.006SVQPVPVPVPVPKPSQTVVVR-1.0000     NotChecked  -14.0762    2251.3052   ✗       
+865   +42.011SVQPVPVPVPVPKPLQLSVLR-1.0000     NotChecked  -14.0764    2290.3777   ✗       
+866   +43.006SVQPVPVPVPVPKPLQLVATR-1.0000     NotChecked  -14.0766    2263.3416   ✗       
+867   +43.006SVQPVPVPVPVPKPLQLLALR-1.0000     NotChecked  -14.0784    2289.3937   ✗       
+868   +42.011SVQPVPVPVPVPKPVQTVVLR-1.0000     NotChecked  -14.0787    2276.3620   ✗       
+869   +43.006SVQPVPVPVPVPKPSQTVVTR-1.0000     NotChecked  -14.0812    2253.2845   ✗       
+870   GSVQPVPVPVPVPKPLQLLVVR   -1.0000     NotChecked  -14.0827    2317.4250   ✗       
+871   +43.006SVQPVPVPVPVPKPSQTLVLR-1.0000     NotChecked  -14.0829    2279.3365   ✗       
+872   +43.006SVQPVPVPVPVPKPLQTTVSR-1.0000     NotChecked  -14.0852    2267.3001   ✗       
+873   GSVQPVPVPVPVPKPLQLLVTR   -1.0000     NotChecked  -14.0876    2319.4042   ✗       
+874   ASVQPVPVPVPVPKPLQLVVLR   -1.0000     NotChecked  -14.0878    2331.4406   ✗       
+875   +43.006SVQPVPVPVPVPKPLQTLVFR-1.0000     NotChecked  -14.0891    2339.3729   ✗       
+876   +43.006SVQPVPVPVPVPKPFQTVVVR-1.0000     NotChecked  -14.0893    2311.3416   ✗       
+877   +43.006SVQPVPVPVPVPKPLQVVVLR-1.0000     NotChecked  -14.0905    2289.3937   ✗       
+878   ASVQPVPVPVPVPKPLQTLVVR   -1.0000     NotChecked  -14.0906    2319.4042   ✗       
+879   +42.011SVQPVPVPVPVPKPLLTVVLR-1.0000     NotChecked  -14.0929    2275.4032   ✗       
+880   GSVQPVPVPVPVPKPLQQVVLR   -1.0000     NotChecked  -14.0933    2332.3995   ✗       
+881   +43.006SVQPVPVPVPVPKPFQTVVTR-1.0000     NotChecked  -14.0943    2313.3209   ✗       
+882   ASVQPVPVPVPVPKPLQTLVTR   -1.0000     NotChecked  -14.0955    2321.3835   ✗       
+883   +43.006SVQPVPVPVPVPKPFQTLVLR-1.0000     NotChecked  -14.0961    2339.3729   ✗       
+884   +42.011SVQPVPVPVPVPKPLQLVVSR-1.0000     NotChecked  -14.0962    2276.3620   ✗       
+885   +42.011SVQPVPVPVPVPKPLQLSVVR-1.0000     NotChecked  -14.1012    2276.3620   ✗       
+886   +43.006SVQPVPVPVPVPKPLQLLAVR-1.0000     NotChecked  -14.1032    2275.3780   ✗       
+887   +42.011SVQPVPVPVPVPKPVQTVVVR-1.0000     NotChecked  -14.1034    2262.3464   ✗       
+888   +43.006SVQPVPVPVPVPKPSQLVVLR-1.0000     NotChecked  -14.1050    2277.3573   ✗       
+889   +42.011SVQPVPVPVPVPKPLQLSVTR-1.0000     NotChecked  -14.1061    2278.3413   ✗       
+890   +43.006SVQPVPVPVPVPKPSQTLVVR-1.0000     NotChecked  -14.1077    2265.3209   ✗       
+891   +43.006SVQPVPVPVPVPKPLQLLATR-1.0000     NotChecked  -14.1081    2277.3573   ✗       
+892   +42.011SVQPVPVPVPVPKPVQTVVTR-1.0000     NotChecked  -14.1084    2264.3256   ✗       
+893   +42.011SVQPVPVPVPVPKPVQTLVLR-1.0000     NotChecked  -14.1102    2290.3777   ✗       
+894   +43.006SVQPVPVPVPVPKPLQLVVFR-1.0000     NotChecked  -14.1112    2337.3937   ✗       
+895   ASVQPVPVPVPVPKPLQLVVVR   -1.0000     NotChecked  -14.1126    2317.4250   ✗       
+896   +43.006SVQPVPVPVPVPKPSQTLVTR-1.0000     NotChecked  -14.1127    2267.3001   ✗       
+897   +43.006SVQPVPVPVPVPKPLQQVALR-1.0000     NotChecked  -14.1138    2290.3525   ✗       
+898   +43.006SVQPVPVPVPVPKPQQTVVLR-1.0000     NotChecked  -14.1140    2306.3474   ✗       
+899   +43.006SVQPVPVPVPVPKPLQVVVVR-1.0000     NotChecked  -14.1153    2275.3780   ✗       
+900   ASVQPVPVPVPVPKPLQLVVTR   -1.0000     NotChecked  -14.1176    2319.4042   ✗       
+901   +42.011SVQPVPVPVPVPKPLLTVVVR-1.0000     NotChecked  -14.1177    2261.3875   ✗       
+902   +43.006SVQPVPVPVPVPKPFQLVVLR-1.0000     NotChecked  -14.1181    2337.3937   ✗       
+903   GSVQPVPVPVPVPKPLQQVVVR   -1.0000     NotChecked  -14.1181    2318.3838   ✗       
+904   ASVQPVPVPVPVPKPLQLLVLR   -1.0000     NotChecked  -14.1193    2345.4563   ✗       
+905   +43.006SVQPVPVPVPVPKPLQVVVTR-1.0000     NotChecked  -14.1202    2277.3573   ✗       
+906   +43.006SVQPVPVPVPVPKPFQTLVVR-1.0000     NotChecked  -14.1208    2325.3573   ✗       
+907   +43.006SVQPVPVPVPVPKPVQTTVLR-1.0000     NotChecked  -14.1213    2279.3365   ✗       
+908   +43.006SVQPVPVPVPVPKPLQVLVLR-1.0000     NotChecked  -14.1220    2303.4093   ✗       
+909   +42.011SVQPVPVPVPVPKPLLTVVTR-1.0000     NotChecked  -14.1227    2263.3668   ✗       
+910   GSVQPVPVPVPVPKPLQQVVTR   -1.0000     NotChecked  -14.1231    2320.3631   ✗       
+911   +42.011SVQPVPVPVPVPKPLLTLVLR-1.0000     NotChecked  -14.1244    2289.4188   ✗       
+912   GSVQPVPVPVPVPKPLQQLVLR   -1.0000     NotChecked  -14.1248    2346.4151   ✗       
+913   +43.006SVQPVPVPVPVPKPFQTLVTR-1.0000     NotChecked  -14.1258    2327.3365   ✗       
+914   +42.011SVQPVPVPVPVPKPLQLLVSR-1.0000     NotChecked  -14.1277    2290.3777   ✗       
+915   +43.006SVQPVPVPVPVPKPSQLVVVR-1.0000     NotChecked  -14.1298    2263.3416   ✗       
+916   +42.011SVQPVPVPVPVPKPVQLVVLR-1.0000     NotChecked  -14.1322    2288.3984   ✗       
+917   +43.006SVQPVPVPVPVPKPSQLVVTR-1.0000     NotChecked  -14.1347    2265.3209   ✗       
+918   +42.011SVQPVPVPVPVPKPVQTLVVR-1.0000     NotChecked  -14.1349    2276.3620   ✗       
+919   +43.006SVQPVPVPVPVPKPLLTTVLR-1.0000     NotChecked  -14.1355    2278.3777   ✗       
+920   +43.006SVQPVPVPVPVPKPSQLLVLR-1.0000     NotChecked  -14.1365    2291.3729   ✗       
+921   +43.006SVQPVPVPVPVPKPLQQVAVR-1.0000     NotChecked  -14.1386    2276.3369   ✗       
+922   +43.006SVQPVPVPVPVPKPQQTVVVR-1.0000     NotChecked  -14.1388    2292.3318   ✗       
+923   +43.006SVQPVPVPVPVPKPLQLTVSR-1.0000     NotChecked  -14.1388    2279.3365   ✗       
+924   +42.011SVQPVPVPVPVPKPVQTLVTR-1.0000     NotChecked  -14.1399    2278.3413   ✗       
+925   +43.006SVQPVPVPVPVPKPFQLVVVR-1.0000     NotChecked  -14.1429    2323.3780   ✗       
+926   +42.011SVQPVPVPVPVPKPLQQSVLR-1.0000     NotChecked  -14.1433    2305.3522   ✗       
+927   +43.006SVQPVPVPVPVPKPLQQVATR-1.0000     NotChecked  -14.1435    2278.3161   ✗       
+928   +43.006SVQPVPVPVPVPKPQQTVVTR-1.0000     NotChecked  -14.1437    2294.3110   ✗       
+929   ASVQPVPVPVPVPKPLQLLVVR   -1.0000     NotChecked  -14.1441    2331.4406   ✗       
+930   +43.006SVQPVPVPVPVPKPLQQLALR-1.0000     NotChecked  -14.1453    2304.3682   ✗       
+931   +43.006SVQPVPVPVPVPKPQQTLVLR-1.0000     NotChecked  -14.1455    2320.3631   ✗       
+932   +43.006SVQPVPVPVPVPKPVQTTVVR-1.0000     NotChecked  -14.1460    2265.3209   ✗       
+933   +42.011SVQPVPVPVPVPKPLLLVVLR-1.0000     NotChecked  -14.1465    2287.4395   ✗       
+934   +43.006SVQPVPVPVPVPKPLQVLVVR-1.0000     NotChecked  -14.1468    2289.3937   ✗       
+935   +43.006SVQPVPVPVPVPKPFQLVVTR-1.0000     NotChecked  -14.1478    2325.3573   ✗       
+936   ASVQPVPVPVPVPKPLQLLVTR   -1.0000     NotChecked  -14.1491    2333.4199   ✗       
+937   +42.011SVQPVPVPVPVPKPLLTLVVR-1.0000     NotChecked  -14.1492    2275.4032   ✗       
+938   GSVQPVPVPVPVPKPLQQLVVR   -1.0000     NotChecked  -14.1496    2332.3995   ✗       
+939   +43.006SVQPVPVPVPVPKPVQTTVTR-1.0000     NotChecked  -14.1510    2267.3001   ✗       
+940   +43.006SVQPVPVPVPVPKPLQVLVTR-1.0000     NotChecked  -14.1517    2291.3729   ✗       
+941   +42.011SVQPVPVPVPVPKPLLTLVTR-1.0000     NotChecked  -14.1542    2277.3824   ✗       
+942   GSVQPVPVPVPVPKPLQQLVTR   -1.0000     NotChecked  -14.1546    2334.3787   ✗       
+943   ASVQPVPVPVPVPKPLQQVVLR   -1.0000     NotChecked  -14.1548    2346.4151   ✗       
+944   +42.011SVQPVPVPVPVPKPVQLVVVR-1.0000     NotChecked  -14.1570    2274.3828   ✗       
+945   +43.006SVQPVPVPVPVPKPLLTTVVR-1.0000     NotChecked  -14.1603    2264.3620   ✗       
+946   +43.006SVQPVPVPVPVPKPSQLLVVR-1.0000     NotChecked  -14.1613    2277.3573   ✗       
+947   +42.011SVQPVPVPVPVPKPVQLVVTR-1.0000     NotChecked  -14.1619    2276.3620   ✗       
+948   +43.006SVQPVPVPVPVPKPLQTVLLR-1.0000     NotChecked  -14.1622    2305.3886   ✗       
+949   +42.011SVQPVPVPVPVPKPLQQVVSR-1.0000     NotChecked  -14.1631    2291.3365   ✗       
+950   +42.011SVQPVPVPVPVPKPVQLLVLR-1.0000     NotChecked  -14.1637    2302.4141   ✗       
+951   +43.006SVQPVPVPVPVPKPLLTTVTR-1.0000     NotChecked  -14.1653    2266.3413   ✗       
+952   +43.006SVQPVPVPVPVPKPSQLLVTR-1.0000     NotChecked  -14.1662    2279.3365   ✗       
+953   +43.006SVQPVPVPVPVPKPQQLVVLR-1.0000     NotChecked  -14.1675    2318.3838   ✗       
+954   +42.011SVQPVPVPVPVPKPLQQSVVR-1.0000     NotChecked  -14.1681    2291.3365   ✗       
+955   +43.006SVQPVPVPVPVPKPLQQLAVR-1.0000     NotChecked  -14.1701    2290.3525   ✗       
+956   +43.006SVQPVPVPVPVPKPQQTLVVR-1.0000     NotChecked  -14.1703    2306.3474   ✗       
+957   +42.011SVQPVPVPVPVPKPLLLVVVR-1.0000     NotChecked  -14.1713    2273.4239   ✗       
+958   +43.006SVQPVPVPVPVPKPSQQVVLR-1.0000     NotChecked  -14.1719    2292.3318   ✗       
+959   +42.011SVQPVPVPVPVPKPLQQSVTR-1.0000     NotChecked  -14.1730    2293.3158   ✗       
+960   +43.006SVQPVPVPVPVPKPFQLLVVR-1.0000     NotChecked  -14.1744    2337.3937   ✗       
+961   +43.006SVQPVPVPVPVPKPVQLTVLR-1.0000     NotChecked  -14.1748    2291.3729   ✗       
+962   +43.006SVQPVPVPVPVPKPLQQLATR-1.0000     NotChecked  -14.1750    2292.3318   ✗       
+963   +43.006SVQPVPVPVPVPKPQQTLVTR-1.0000     NotChecked  -14.1752    2308.3267   ✗       
+964   +42.011SVQPVPVPVPVPKPLLLVVTR-1.0000     NotChecked  -14.1762    2275.4032   ✗       
+965   +42.011SVQPVPVPVPVPKPLLLLVLR-1.0000     NotChecked  -14.1780    2301.4552   ✗       
+966   +43.006SVQPVPVPVPVPKPFQLLVTR-1.0000     NotChecked  -14.1793    2339.3729   ✗       
+967   ASVQPVPVPVPVPKPLQQVVVR   -1.0000     NotChecked  -14.1795    2332.3995   ✗       
+968   +43.006SVQPVPVPVPVPKPLQTVVLR-1.0000     NotChecked  -14.1822    2291.3729   ✗       
+969   ASVQPVPVPVPVPKPLQQVVTR   -1.0000     NotChecked  -14.1845    2334.3787   ✗       
+970   +43.006SVQPVPVPVPVPKPLQTVLVR-1.0000     NotChecked  -14.1870    2291.3729   ✗       
+971   +42.011SVQPVPVPVPVPKPVQLLVVR-1.0000     NotChecked  -14.1885    2288.3984   ✗       
+972   +43.006SVQPVPVPVPVPKPLLLTVLR-1.0000     NotChecked  -14.1891    2290.4141   ✗       
+973   +43.006SVQPVPVPVPVPKPLQTVLTR-1.0000     NotChecked  -14.1919    2293.3522   ✗       
+974   +43.006SVQPVPVPVPVPKPQQLVVVR-1.0000     NotChecked  -14.1923    2304.3682   ✗       
+975   +42.011SVQPVPVPVPVPKPVQLLVTR-1.0000     NotChecked  -14.1935    2290.3777   ✗       
+976   +43.006SVQPVPVPVPVPKPLQTLLLR-1.0000     NotChecked  -14.1937    2319.4042   ✗       
+977   +42.011SVQPVPVPVPVPKPLQQLVSR-1.0000     NotChecked  -14.1946    2305.3522   ✗       
+978   +43.006SVQPVPVPVPVPKPSQQVVVR-1.0000     NotChecked  -14.1967    2278.3161   ✗       
+979   +43.006SVQPVPVPVPVPKPQQLVVTR-1.0000     NotChecked  -14.1973    2306.3474   ✗       
+980   +43.006SVQPVPVPVPVPKPQQLLVLR-1.0000     NotChecked  -14.1990    2332.3995   ✗       
+981   +42.011SVQPVPVPVPVPKPVQQVVLR-1.0000     NotChecked  -14.1991    2303.3729   ✗       
+982   +43.006SVQPVPVPVPVPKPVQLTVVR-1.0000     NotChecked  -14.1996    2277.3573   ✗       
+983   +42.011SVQPVPVPVPVPKPLQSVVLR-1.0000     NotChecked  -14.2012    2276.3620   ✗       
+984   +43.006SVQPVPVPVPVPKPSQQVVTR-1.0000     NotChecked  -14.2016    2280.2954   ✗       
+985   +42.011SVQPVPVPVPVPKPLLLLVVR-1.0000     NotChecked  -14.2028    2287.4395   ✗       
+986   +42.011SVQPVPVPVPVPKPLQTVALR-1.0000     NotChecked  -14.2028    2262.3464   ✗       
+987   +43.006SVQPVPVPVPVPKPSQQLVLR-1.0000     NotChecked  -14.2034    2306.3474   ✗       
+988   +43.006SVQPVPVPVPVPKPVQLTVTR-1.0000     NotChecked  -14.2045    2279.3365   ✗       
+989   +43.006SVQPVPVPVPVPKPLQQTVSR-1.0000     NotChecked  -14.2057    2294.3110   ✗       
+990   +43.006SVQPVPVPVPVPKPLQTSVSR-1.0000     NotChecked  -14.2065    2253.2845   ✗       
+991   +43.006SVQPVPVPVPVPKPLQTVVVR-1.0000     NotChecked  -14.2070    2277.3573   ✗       
+992   +42.011SVQPVPVPVPVPKPLLLLVTR-1.0000     NotChecked  -14.2077    2289.4188   ✗       
+993   +43.006SVQPVPVPVPVPKPFQQVVVR-1.0000     NotChecked  -14.2098    2338.3525   ✗       
+994   ASVQPVPVPVPVPKPLQQLVVR   -1.0000     NotChecked  -14.2110    2346.4151   ✗       
+995   +43.006SVQPVPVPVPVPKPLQTVVTR-1.0000     NotChecked  -14.2120    2279.3365   ✗       
+996   +42.011SVQPVPVPVPVPKPLLQVVLR-1.0000     NotChecked  -14.2134    2302.4141   ✗       
+997   +43.006SVQPVPVPVPVPKPLQTLVLR-1.0000     NotChecked  -14.2138    2305.3886   ✗       
+998   +43.006SVQPVPVPVPVPKPLLLTVVR-1.0000     NotChecked  -14.2139    2276.3984   ✗       
+999   +43.006SVQPVPVPVPVPKPFQQVVTR-1.0000     NotChecked  -14.2148    2340.3318   ✗       
+1000  +43.006SVQPVPVPVPVPKPLQLVLLR-1.0000     NotChecked  -14.2158    2317.4250   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: SSVQPVPVPVPVPKPQLTLVLR
+Similarity: 0.4169
+De Novo Score: -11.9181
+Source: Prosit
+Correct: ✗
+

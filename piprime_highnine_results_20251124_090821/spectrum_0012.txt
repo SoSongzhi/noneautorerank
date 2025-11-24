@@ -1,0 +1,1042 @@
+================================================================================
+Spectrum 12
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 1023.5525
+Precursor charge: 2+
+Ground truth: AQ+0.984IIMAANPFNRPDIFVK
+Ground truth (normalized): AQ+0.984IIMAANPFNRPDIFVK
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 9
+Used for reranking: 9
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 9 (0.9%)
+Database matches: 0 (0.0%)
+Prosit predictions: 9 (0.9%)
+Failed: 0 (0.0%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✗ (not in top 1000 candidates)
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     AQ+0.984LLMAANPLGMRGDLFVK0.5676      Prosit      -14.0330    2045.0802   ✓       
+2     AQ+0.984LLMAANPLGTRSDLFVK0.5671      Prosit      -14.1459    2045.0979   ✓       
+3     AQLLMAANPLTRPDLFFK       0.5626      Prosit      -6.8365     2045.1132   ✓       
+4     AQLLMAANPLTRPDLFFK       0.5626      Prosit      -9.4623     2045.1132   ✓       
+5     AQLLMAANPLTRPDLFFK       0.5626      Prosit      -11.9601    2045.1132   ✓       
+6     AQLLMAANPLSRPELFFK       0.5448      Prosit      -9.1847     2045.1132   ✓       
+7     AQLLMAANPLSRPELFFK       0.5448      Prosit      -14.3082    2045.1132   ✓       
+8     +43.006QLLMAANPLGC+57.021RGDLFVK0.4976      Prosit      -18.5733    2045.0550   ✓       
+9     +43.006QLLMAANPLERPDLFFK 0.4704      Prosit      -17.2335    2045.0768   ✓       
+10    AQLLMAANPLMRPDLFVK       -1.0000     NotChecked  -5.2350     2027.1060   ✗       
+11    AQLLMAANPLTRPDLFVK       -1.0000     NotChecked  -6.1235     1997.1132   ✗       
+12    AQLLMAANPLGMRPDLGVK      -1.0000     NotChecked  -6.3029     1994.0805   ✗       
+13    AQLLMAANPLGSRPDLFVK      -1.0000     NotChecked  -6.3471     2040.1190   ✗       
+14    AQLLMAANPLGMRDLFVK       -1.0000     NotChecked  -6.5441     1987.0747   ✗       
+15    AQLLMAANPLERPDLFVK       -1.0000     NotChecked  -6.6368     2025.1081   ✗       
+16    AQLLMAANPLGMRPDAFVK      -1.0000     NotChecked  -6.6859     2042.0805   ✗       
+17    AQLLMAANPLMRPDLGVK       -1.0000     NotChecked  -6.8092     1937.0591   ✗       
+18    AQLLMAANPLGMRDLFVK       -1.0000     NotChecked  -6.8380     1987.0747   ✗       
+19    AQLLMAANPLMRPELFVK       -1.0000     NotChecked  -6.8533     2041.1217   ✗       
+20    AQLLMAANPLSRPDLFVK       -1.0000     NotChecked  -6.8534     1983.0976   ✗       
+21    AQLLMAANPLMRPDLFLK       -1.0000     NotChecked  -6.9167     2041.1217   ✗       
+22    AQLLMAANPLGMRPDLGFK      -1.0000     NotChecked  -7.0158     2042.0805   ✗       
+23    AQLLMAANPLMRDLFVK        -1.0000     NotChecked  -7.0505     1930.0532   ✗       
+24    AQLLMAANPLGC+57.021RPDLGVK-1.0000     NotChecked  -7.0966     2023.0707   ✗       
+25    AQLLMAANPLGTRPDLGVK      -1.0000     NotChecked  -7.1914     1964.0877   ✗       
+26    AQLLMAANPLMRPDAFVK       -1.0000     NotChecked  -7.1922     1985.0591   ✗       
+27    AQLLMAANPLGMRDLFFK       -1.0000     NotChecked  -7.2571     2035.0747   ✗       
+28    AQLLMAANPLGC+57.021RDLFVK-1.0000     NotChecked  -7.3379     2016.0649   ✗       
+29    AQLLMAANPLMRDLFVK        -1.0000     NotChecked  -7.3443     1930.0532   ✗       
+30    AQLLMAANPLFRPDLFVK       -1.0000     NotChecked  -7.4255     2043.1339   ✗       
+31    AQLLMAANPLGTRDLFVK       -1.0000     NotChecked  -7.4327     1957.0819   ✗       
+32    AQLLMAANPLMRPDLFAK       -1.0000     NotChecked  -7.4789     1999.0747   ✗       
+33    AQLLMAANPLMRPDLGFK       -1.0000     NotChecked  -7.5222     1985.0591   ✗       
+34    AQLLMAANPLGMRDLFFK       -1.0000     NotChecked  -7.5509     2035.0747   ✗       
+35    AQLLMAANPLSRPDLFFK       -1.0000     NotChecked  -7.5663     2031.0976   ✗       
+36    AQLLMAANPLGTRPDAFVK      -1.0000     NotChecked  -7.5744     2012.0877   ✗       
+37    AQLLMAANPLC+57.021RPDLGVK-1.0000     NotChecked  -7.6029     1966.0492   ✗       
+38    AQLLMAANPLGWRDLFVK       -1.0000     NotChecked  -7.6050     2042.1135   ✗       
+39    AQLLMAANPLGMRPDLFGK      -1.0000     NotChecked  -7.6227     2042.0805   ✗       
+40    AQLLMAANPLMRSDLFVK       -1.0000     NotChecked  -7.6265     2017.0853   ✗       
+41    AQLLMAANPLGC+57.021RDLFVK-1.0000     NotChecked  -7.6317     2016.0649   ✗       
+42    AQLLMAANPLTRPDLGVK       -1.0000     NotChecked  -7.6978     1907.0662   ✗       
+43    AQLLMAANPLGERPDLGVK      -1.0000     NotChecked  -7.7047     1992.0826   ✗       
+44    AQLLMAANPLGTRDLFVK       -1.0000     NotChecked  -7.7265     1957.0819   ✗       
+45    AQLLMAANPLTRPELFVK       -1.0000     NotChecked  -7.7419     2011.1288   ✗       
+46    AQLLMAANPLMRDLFFK        -1.0000     NotChecked  -7.7634     1978.0532   ✗       
+47    AQLLMAANPLTRPDLFLK       -1.0000     NotChecked  -7.8052     2011.1288   ✗       
+48    AQLLMAANPLGARPDLFVK      -1.0000     NotChecked  -7.8154     2024.1241   ✗       
+49    AQLLMAANPLC+57.021RDLFVK -1.0000     NotChecked  -7.8442     1959.0434   ✗       
+50    AQLLMAANPLMRPDLFVK       -1.0000     NotChecked  -7.8607     2027.1060   ✗       
+51    AQLLMAANPLGTRPDLFAK      -1.0000     NotChecked  -7.8611     2026.1034   ✗       
+52    AQLLMAANPLWRPDLGVK       -1.0000     NotChecked  -7.8701     1992.0979   ✗       
+53    AQLLMAANPLGMRGDLFVK      -1.0000     NotChecked  -7.8959     2044.0962   ✗       
+54    AQLLMAANPLGWRDLFVK       -1.0000     NotChecked  -7.8989     2042.1135   ✗       
+55    AQLLMAANPLGTRPDLGFK      -1.0000     NotChecked  -7.9044     2012.0877   ✗       
+56    AQLLMAANPLMRPDAFFK       -1.0000     NotChecked  -7.9051     2033.0591   ✗       
+57    AQLLMAANPLGMRPELGVK      -1.0000     NotChecked  -7.9212     2008.0962   ✗       
+58    AQLLMAANPLGSRPDLGVK      -1.0000     NotChecked  -7.9213     1950.0721   ✗       
+59    AQLLMAANPLTRDLFVK        -1.0000     NotChecked  -7.9390     1900.0604   ✗       
+60    AQLLMAANPLGERDLFVK       -1.0000     NotChecked  -7.9460     1985.0768   ✗       
+61    AQLLMAANPLGMRPDLGLK      -1.0000     NotChecked  -7.9846     2008.0962   ✗       
+62    AQLLMAANPLC+57.021RPDAFVK-1.0000     NotChecked  -7.9859     2014.0492   ✗       
+63    AQLLMAANPLGTRSDLFVK      -1.0000     NotChecked  -8.0087     2044.1139   ✗       
+64    AQLLMAANPLGMRPDLFK       -1.0000     NotChecked  -8.0551     1985.0591   ✗       
+65    AQLLMAANPLMRDLFFK        -1.0000     NotChecked  -8.0573     1978.0532   ✗       
+66    AQLLMAANPLTRPDAFVK       -1.0000     NotChecked  -8.0808     1955.0662   ✗       
+67    AQLLMAANPLGERPDAFVK      -1.0000     NotChecked  -8.0877     2040.0826   ✗       
+68    AQLLMAANPLWRDLFVK        -1.0000     NotChecked  -8.1114     1985.0921   ✗       
+69    AQLLMAANPLGMRDLGVK       -1.0000     NotChecked  -8.1184     1897.0278   ✗       
+70    AQLLMAANPLMRPDLFGK       -1.0000     NotChecked  -8.1291     1985.0591   ✗       
+71    AQLLMAANPLC+57.021RDLFVK -1.0000     NotChecked  -8.1381     1959.0434   ✗       
+72    AQLLMAANPLGTRDLFFK       -1.0000     NotChecked  -8.1457     2005.0819   ✗       
+73    AQLLMAANPLGMRELFVK       -1.0000     NotChecked  -8.1625     2001.0904   ✗       
+74    AQLLMAANPLGSRDLFVK       -1.0000     NotChecked  -8.1626     1943.0663   ✗       
+75    AQLLMAANPLPMRPDLGVK      -1.0000     NotChecked  -8.1796     2034.1118   ✗       
+76    AQLLMAANPLERPDLGVK       -1.0000     NotChecked  -8.2111     1935.0612   ✗       
+77    AQLLMAANPLGMRDLFLK       -1.0000     NotChecked  -8.2258     2001.0904   ✗       
+78    AQLLMAANPLTRDLFVK        -1.0000     NotChecked  -8.2329     1900.0604   ✗       
+79    AQLLMAANPLGERDLFVK       -1.0000     NotChecked  -8.2398     1985.0768   ✗       
+80    AQLLMAANPLWRPDAFVK       -1.0000     NotChecked  -8.2531     2040.0979   ✗       
+81    AQLLMAANPLLRPDLFVK       -1.0000     NotChecked  -8.2541     2009.1496   ✗       
+82    AQLLMAANPLERPELFVK       -1.0000     NotChecked  -8.2551     2039.1238   ✗       
+83    AQLLMAANPLGMRPDAGVK      -1.0000     NotChecked  -8.2601     1952.0336   ✗       
+84    AQLLMAANPLC+57.021RPDLFAK-1.0000     NotChecked  -8.2727     2028.0649   ✗       
+85    AQLLMAANPLGSRPDAFVK      -1.0000     NotChecked  -8.3043     1998.0721   ✗       
+86    AQLLMAANPLC+57.021RPDLGFK-1.0000     NotChecked  -8.3159     2014.0492   ✗       
+87    AQLLMAANPLERPDLFLK       -1.0000     NotChecked  -8.3185     2039.1238   ✗       
+88    AQLLMAANPLARPDLFVK       -1.0000     NotChecked  -8.3218     1967.1026   ✗       
+89    AQLLMAANPLTRPDLFAK       -1.0000     NotChecked  -8.3675     1969.0819   ✗       
+90    AQLLMAANPLMRGDLFVK       -1.0000     NotChecked  -8.4022     1987.0747   ✗       
+91    AQLLMAANPLWRDLFVK        -1.0000     NotChecked  -8.4052     1985.0921   ✗       
+92    AQLLMAANPLTRPDLGFK       -1.0000     NotChecked  -8.4107     1955.0662   ✗       
+93    AQLLMAANPLMRPDLFVK       -1.0000     NotChecked  -8.4111     2027.1060   ✗       
+94    AQLLMAANPLGMRDLGVK       -1.0000     NotChecked  -8.4122     1897.0278   ✗       
+95    AQLLMAANPLGERPDLGFK      -1.0000     NotChecked  -8.4177     2040.0826   ✗       
+96    AQLLMAANPLPMRDLFVK       -1.0000     NotChecked  -8.4209     2027.1060   ✗       
+97    AQLLMAANPLMRPELGVK       -1.0000     NotChecked  -8.4275     1951.0747   ✗       
+98    AQLLMAANPLSRPDLGVK       -1.0000     NotChecked  -8.4276     1893.0506   ✗       
+99    AQLLMAANPLGTRDLFFK       -1.0000     NotChecked  -8.4395     2005.0819   ✗       
+100   AQLLMAANPLERDLFVK        -1.0000     NotChecked  -8.4523     1928.0554   ✗       
+101   AQLLMAANPLGMRELFVK       -1.0000     NotChecked  -8.4563     2001.0904   ✗       
+102   AQLLMAANPLGSRDLFVK       -1.0000     NotChecked  -8.4564     1943.0663   ✗       
+103   AQLLMAANPLSRPELFVK       -1.0000     NotChecked  -8.4717     1997.1132   ✗       
+104   AQLLMAANPLMRPDLGLK       -1.0000     NotChecked  -8.4909     1951.0747   ✗       
+105   AQLLMAANPLGFRPDLGVK      -1.0000     NotChecked  -8.4934     2010.1085   ✗       
+106   AQLLMAANPLGMRDAFVK       -1.0000     NotChecked  -8.5014     1945.0278   ✗       
+107   AQLLMAANPLGTRPDLFGK      -1.0000     NotChecked  -8.5113     2012.0877   ✗       
+108   AQLLMAANPLTRSDLFVK       -1.0000     NotChecked  -8.5151     1987.0925   ✗       
+109   AQLLMAANPLGMRDLFLK       -1.0000     NotChecked  -8.5197     2001.0904   ✗       
+110   AQLLMAANPLSRPDLFLK       -1.0000     NotChecked  -8.5351     1997.1132   ✗       
+111   AQLLMAANPLMRPDLLVK       -1.0000     NotChecked  -8.5441     1993.1217   ✗       
+112   AQLLMAANPLGMRPDLGAK      -1.0000     NotChecked  -8.5468     1966.0492   ✗       
+113   AQLLMAANPLC+57.021RDLFFK -1.0000     NotChecked  -8.5572     2007.0434   ✗       
+114   AQLLMAANPLMRPDLFK        -1.0000     NotChecked  -8.5614     1928.0376   ✗       
+115   AQLLMAANPLMSRPDLGVK      -1.0000     NotChecked  -8.5738     2024.0911   ✗       
+116   AQLLMAANPLWRPDLGFK       -1.0000     NotChecked  -8.5830     2040.0979   ✗       
+117   AQLLMAANPLGSRPDLFAK      -1.0000     NotChecked  -8.5910     2012.0877   ✗       
+118   AQLLMAANPLERPDAFVK       -1.0000     NotChecked  -8.5940     1983.0612   ✗       
+119   AQLLMAANPLSMRPDLGVK      -1.0000     NotChecked  -8.6173     2024.0911   ✗       
+120   AQLLMAANPLMRDLGVK        -1.0000     NotChecked  -8.6247     1840.0063   ✗       
+121   AQLLMAANPLGSRPDLGFK      -1.0000     NotChecked  -8.6342     1998.0721   ✗       
+122   AQLLMAANPLTRDLFFK        -1.0000     NotChecked  -8.6520     1948.0604   ✗       
+123   AQLLMAANPLGERDLFFK       -1.0000     NotChecked  -8.6589     2033.0768   ✗       
+124   AQLLMAANPLSRPDLFVK       -1.0000     NotChecked  -8.6615     1983.0976   ✗       
+125   AQLLMAANPLMRELFVK        -1.0000     NotChecked  -8.6688     1944.0689   ✗       
+126   AQLLMAANPLSRDLFVK        -1.0000     NotChecked  -8.6689     1886.0448   ✗       
+127   AQLLMAANPLGMRSDLGVK      -1.0000     NotChecked  -8.6944     1984.0598   ✗       
+128   AQLLMAANPLGMRPDLSVK      -1.0000     NotChecked  -8.7092     2024.0911   ✗       
+129   AQLLMAANPLPMRDLFVK       -1.0000     NotChecked  -8.7147     2027.1060   ✗       
+130   AQLLMAANPLGC+57.021RPELGVK-1.0000     NotChecked  -8.7149     2037.0863   ✗       
+131   AQLLMAANPLMLRDLFVK       -1.0000     NotChecked  -8.7234     2043.1373   ✗       
+132   AQLLMAANPLMRDLFLK        -1.0000     NotChecked  -8.7322     1944.0689   ✗       
+133   AQLLMAANPLGFRDLFVK       -1.0000     NotChecked  -8.7347     2003.1026   ✗       
+134   AQLLMAANPLGSRSDLFVK      -1.0000     NotChecked  -8.7386     2030.0983   ✗       
+135   AQLLMAANPLERDLFVK        -1.0000     NotChecked  -8.7462     1928.0554   ✗       
+136   AQLLMAANPLTRPDLFVK       -1.0000     NotChecked  -8.7493     1997.1132   ✗       
+137   AQLLMAANPLMRPDAGVK       -1.0000     NotChecked  -8.7664     1895.0121   ✗       
+138   AQLLMAANPLGMRPDLAVK      -1.0000     NotChecked  -8.7682     2008.0962   ✗       
+139   AQLLMAANPLGC+57.021RPDLGLK-1.0000     NotChecked  -8.7783     2037.0863   ✗       
+140   AQLLMAANPLGTRGDLFVK      -1.0000     NotChecked  -8.7844     2014.1034   ✗       
+141   AQLLMAANPLGMRDLFAK       -1.0000     NotChecked  -8.7881     1959.0434   ✗       
+142   AQLLMAANPLTRPDAFFK       -1.0000     NotChecked  -8.7937     2003.0662   ✗       
+143   AQLLMAANPLGMRDAFVK       -1.0000     NotChecked  -8.7952     1945.0278   ✗       
+144   AQLLMAANPLGTRPELGVK      -1.0000     NotChecked  -8.8097     1978.1034   ✗       
+145   AQLLMAANPLMRPEAFVK       -1.0000     NotChecked  -8.8105     1999.0747   ✗       
+146   AQLLMAANPLSRPDAFVK       -1.0000     NotChecked  -8.8106     1941.0506   ✗       
+147   AQLLMAANPLMSRDLFVK       -1.0000     NotChecked  -8.8151     2017.0853   ✗       
+148   AQLLMAANPLTRPDLFVR       -1.0000     NotChecked  -8.8184     2025.1193   ✗       
+149   AQLLMAANPLWRDLFFK        -1.0000     NotChecked  -8.8243     2033.0921   ✗       
+150   AQLLMAANPLGMRDLGFK       -1.0000     NotChecked  -8.8313     1945.0278   ✗       
+151   AQLLMAANPLGC+57.021RPDLFK-1.0000     NotChecked  -8.8488     2014.0492   ✗       
+152   AQLLMAANPLC+57.021RDLFFK -1.0000     NotChecked  -8.8510     2007.0434   ✗       
+153   AQLLMAANPLSMRDLFVK       -1.0000     NotChecked  -8.8586     2017.0853   ✗       
+154   AQLLMAANPLMRPDLFDK       -1.0000     NotChecked  -8.8668     2043.0645   ✗       
+155   AQLLMAANPLGTRPDLGLK      -1.0000     NotChecked  -8.8731     1978.1034   ✗       
+156   AQLLMAANPLMRPDAFLK       -1.0000     NotChecked  -8.8739     1999.0747   ✗       
+157   AQLLMAANPLGSRDLFFK       -1.0000     NotChecked  -8.8755     1991.0663   ✗       
+158   AQLLMAANPLERPDLFAK       -1.0000     NotChecked  -8.8808     1997.0768   ✗       
+159   AQLLMAANPLGMRPLFVK       -1.0000     NotChecked  -8.8952     1969.1005   ✗       
+160   AQLLMAANPLGC+57.021RDLGVK-1.0000     NotChecked  -8.9121     1926.0179   ✗       
+161   AQLLMAANPLMRDLGVK        -1.0000     NotChecked  -8.9185     1840.0063   ✗       
+162   AQLLMAANPLC+57.021RPDLFGK-1.0000     NotChecked  -8.9228     2014.0492   ✗       
+163   AQLLMAANPLERPDLGFK       -1.0000     NotChecked  -8.9240     1983.0612   ✗       
+164   AQLLMAANPLGTRPDLLVK      -1.0000     NotChecked  -8.9263     2020.1503   ✗       
+165   AQLLMAANPLGMRPDLGVK      -1.0000     NotChecked  -8.9286     1994.0805   ✗       
+166   AQLLMAANPLGMRPDAFAK      -1.0000     NotChecked  -8.9298     2014.0492   ✗       
+167   AQLLMAANPLGTRPDLFK       -1.0000     NotChecked  -8.9436     1955.0662   ✗       
+168   AQLLMAANPLTRDLFFK        -1.0000     NotChecked  -8.9458     1948.0604   ✗       
+169   AQLLMAANPLGERDLFFK       -1.0000     NotChecked  -8.9528     2033.0768   ✗       
+170   AQLLMAANPLGC+57.021RELFVK-1.0000     NotChecked  -8.9562     2030.0805   ✗       
+171   AQLLMAANPLMRELFVK        -1.0000     NotChecked  -8.9626     1944.0689   ✗       
+172   AQLLMAANPLSRDLFVK        -1.0000     NotChecked  -8.9627     1886.0448   ✗       
+173   AQLLMAANPLGSRPDLFVK      -1.0000     NotChecked  -8.9728     2040.1190   ✗       
+174   AQLLMAANPLGMRPDAGFK      -1.0000     NotChecked  -8.9730     2000.0336   ✗       
+175   AQLLMAANPLMRPSLFVK       -1.0000     NotChecked  -8.9919     1999.1111   ✗       
+176   AQLLMAANPLGMRPDLGVR      -1.0000     NotChecked  -8.9977     2022.0867   ✗       
+177   AQLLMAANPLFRPDLGVK       -1.0000     NotChecked  -8.9997     1953.0870   ✗       
+178   AQLLMAANPLGTRDLGVK       -1.0000     NotChecked  -9.0069     1867.0349   ✗       
+179   AQLLMAANPLMRDAFVK        -1.0000     NotChecked  -9.0077     1888.0063   ✗       
+180   AQLLMAANPLMLRDLFVK       -1.0000     NotChecked  -9.0172     2043.1373   ✗       
+181   AQLLMAANPLTRPDLFGK       -1.0000     NotChecked  -9.0176     1955.0662   ✗       
+182   AQLLMAANPLGC+57.021RDLFLK-1.0000     NotChecked  -9.0196     2030.0805   ✗       
+183   AQLLMAANPLGMRPDLTVK      -1.0000     NotChecked  -9.0240     2038.1067   ✗       
+184   AQLLMAANPLGERPDLFGK      -1.0000     NotChecked  -9.0246     2040.0826   ✗       
+185   AQLLMAANPLMRDLFLK        -1.0000     NotChecked  -9.0260     1944.0689   ✗       
+186   AQLLMAANPLGMRPGLFVK      -1.0000     NotChecked  -9.0262     2026.1220   ✗       
+187   AQLLMAANPLTRPDLFEK       -1.0000     NotChecked  -9.0264     2027.0874   ✗       
+188   AQLLMAANPLGMLPDLFVK      -1.0000     NotChecked  -9.0273     2041.1104   ✗       
+189   AQLLMAANPLERSDLFVK       -1.0000     NotChecked  -9.0284     2015.0874   ✗       
+190   AQLLMAANPLGFRDLFVK       -1.0000     NotChecked  -9.0285     2003.1026   ✗       
+191   AQLLMAANPLARPDLFFK       -1.0000     NotChecked  -9.0347     2015.1026   ✗       
+192   AQLLMAANPLGTRELFVK       -1.0000     NotChecked  -9.0510     1971.0975   ✗       
+193   AQLLMAANPLMRPDLGAK       -1.0000     NotChecked  -9.0531     1909.0278   ✗       
+194   AQLLMAANPLGC+57.021RPDAGVK-1.0000     NotChecked  -9.0538     1981.0237   ✗       
+195   AQLLMAANPLPTRPDLGVK      -1.0000     NotChecked  -9.0682     2004.1190   ✗       
+196   AQLLMAANPLGMRSDAFVK      -1.0000     NotChecked  -9.0774     2032.0598   ✗       
+197   AQLLMAANPLGMRDLFAK       -1.0000     NotChecked  -9.0819     1959.0434   ✗       
+198   AQLLMAANPLGMRPALFVK      -1.0000     NotChecked  -9.0911     2040.1376   ✗       
+199   AQLLMAANPLGMRPDFVK       -1.0000     NotChecked  -9.0961     1971.0434   ✗       
+200   AQLLMAANPLMRPELFAK       -1.0000     NotChecked  -9.0972     2013.0904   ✗       
+201   AQLLMAANPLSRPDLFAK       -1.0000     NotChecked  -9.0973     1955.0663   ✗       
+202   AQLLMAANPLMSRDLFVK       -1.0000     NotChecked  -9.1090     2017.0853   ✗       
+203   AQLLMAANPLGTRDLFLK       -1.0000     NotChecked  -9.1144     1971.0975   ✗       
+204   AQLLMAANPLMRGDLFFK       -1.0000     NotChecked  -9.1152     2035.0747   ✗       
+205   AQLLMAANPLMRADLFVK       -1.0000     NotChecked  -9.1153     2001.0904   ✗       
+206   AQLLMAANPLGWRPDLFK       -1.0000     NotChecked  -9.1160     2040.0979   ✗       
+207   AQLLMAANPLWRDLFFK        -1.0000     NotChecked  -9.1182     2033.0921   ✗       
+208   AQLLMAANPLGMSPDLFVK      -1.0000     NotChecked  -9.1190     2015.0584   ✗       
+209   AQLLMAANPLGMRDLGFK       -1.0000     NotChecked  -9.1252     1945.0278   ✗       
+210   AQLLMAANPLMRPELGFK       -1.0000     NotChecked  -9.1405     1999.0747   ✗       
+211   AQLLMAANPLSRPDLGFK       -1.0000     NotChecked  -9.1406     1941.0506   ✗       
+212   AQLLMAANPLGTRPDAGVK      -1.0000     NotChecked  -9.1486     1922.0408   ✗       
+213   AQLLMAANPLSMRDLFVK       -1.0000     NotChecked  -9.1524     2017.0853   ✗       
+214   AQLLMAANPLMTRPDLGVK      -1.0000     NotChecked  -9.1538     2038.1067   ✗       
+215   AQLLMAANPLERDLFFK        -1.0000     NotChecked  -9.1653     1976.0554   ✗       
+216   AQLLMAANPLGSRDLFFK       -1.0000     NotChecked  -9.1693     1991.0663   ✗       
+217   AQLLMAANPLGWRDLGVK       -1.0000     NotChecked  -9.1792     1952.0666   ✗       
+218   AQLLMAANPLWRPDLFGK       -1.0000     NotChecked  -9.1900     2040.0979   ✗       
+219   AQLLMAANPLGTRPEAFVK      -1.0000     NotChecked  -9.1927     2026.1034   ✗       
+220   AQLLMAANPLC+57.021RGDLFVK-1.0000     NotChecked  -9.1960     2016.0649   ✗       
+221   AQLLMAANPLGMRPDLGGK      -1.0000     NotChecked  -9.1970     1952.0336   ✗       
+222   AQLLMAANPLGTSRDLFVK      -1.0000     NotChecked  -9.1973     2044.1139   ✗       
+223   AQLLMAANPLMRSDLGVK       -1.0000     NotChecked  -9.2007     1927.0383   ✗       
+224   AQLLMAANPLGMRPDLGEK      -1.0000     NotChecked  -9.2057     2024.0547   ✗       
+225   AQLLMAANPLGC+57.021RDLGVK-1.0000     NotChecked  -9.2059     1926.0179   ✗       
+226   AQLLMAANPLGMRDAFFK       -1.0000     NotChecked  -9.2143     1993.0278   ✗       
+227   AQLLMAANPLMRPDLSVK       -1.0000     NotChecked  -9.2156     1967.0696   ✗       
+228   AQLLMAANPLC+57.021RPELGVK-1.0000     NotChecked  -9.2212     1980.0649   ✗       
+229   AQLLMAANPLTRSDLFFK       -1.0000     NotChecked  -9.2280     2035.0925   ✗       
+230   AQLLMAANPLGMRDLFVR       -1.0000     NotChecked  -9.2390     2015.0809   ✗       
+231   AQLLMAANPLFRDLFVK        -1.0000     NotChecked  -9.2410     1946.0812   ✗       
+232   AQLLMAANPLGSRPDLFGK      -1.0000     NotChecked  -9.2412     1998.0721   ✗       
+233   AQLLMAANPLMRSELFVK       -1.0000     NotChecked  -9.2448     2031.1009   ✗       
+234   AQLLMAANPLSRSDLFVK       -1.0000     NotChecked  -9.2449     1973.0768   ✗       
+235   AQLLMAANPLGC+57.021RELFVK-1.0000     NotChecked  -9.2500     2030.0805   ✗       
+236   AQLLMAANPLGTRPDAFLK      -1.0000     NotChecked  -9.2561     2026.1034   ✗       
+237   AQLLMAANPLMRPDLLFK       -1.0000     NotChecked  -9.2571     2041.1217   ✗       
+238   AQLLMAANPLERPDLFVK       -1.0000     NotChecked  -9.2626     2025.1081   ✗       
+239   AQLLMAANPLMRTDLFVK       -1.0000     NotChecked  -9.2736     2031.1009   ✗       
+240   AQLLMAANPLMRPDLAVK       -1.0000     NotChecked  -9.2746     1951.0747   ✗       
+241   AQLLMAANPLMRPVLFVK       -1.0000     NotChecked  -9.2778     2011.1475   ✗       
+242   AQLLMAANPLC+57.021RPDLGLK-1.0000     NotChecked  -9.2846     1980.0649   ✗       
+243   AQLLMAANPLTRGDLFVK       -1.0000     NotChecked  -9.2908     1957.0819   ✗       
+244   AQLLMAANPLMRDLFAK        -1.0000     NotChecked  -9.2944     1902.0219   ✗       
+245   AQLLMAANPLGC+57.021RDAFVK-1.0000     NotChecked  -9.2951     1974.0179   ✗       
+246   AQLLMAANPLGERGDLFVK      -1.0000     NotChecked  -9.2977     2042.0983   ✗       
+247   AQLLMAANPLTRPDLFVK       -1.0000     NotChecked  -9.2996     1997.1132   ✗       
+248   AQLLMAANPLGTRDLGVK       -1.0000     NotChecked  -9.3008     1867.0349   ✗       
+249   AQLLMAANPLMRDAFVK        -1.0000     NotChecked  -9.3015     1888.0063   ✗       
+250   AQLLMAANPLERPDAFFK       -1.0000     NotChecked  -9.3070     2031.0612   ✗       
+251   AQLLMAANPLMRSDLFLK       -1.0000     NotChecked  -9.3082     2031.1009   ✗       
+252   AQLLMAANPLMRPLLFVK       -1.0000     NotChecked  -9.3083     2025.1631   ✗       
+253   AQLLMAANPLPTRDLFVK       -1.0000     NotChecked  -9.3094     1997.1132   ✗       
+254   AQLLMAANPLGMRPDAFVK      -1.0000     NotChecked  -9.3116     2042.0805   ✗       
+255   AQLLMAANPLGC+57.021RDLFLK-1.0000     NotChecked  -9.3134     2030.0805   ✗       
+256   AQLLMAANPLTRPELGVK       -1.0000     NotChecked  -9.3161     1921.0819   ✗       
+257   AQLLMAANPLGWRPDAGVK      -1.0000     NotChecked  -9.3210     2007.0724   ✗       
+258   AQLLMAANPLGLRPDLGVK      -1.0000     NotChecked  -9.3219     1976.1241   ✗       
+259   AQLLMAANPLGERPELGVK      -1.0000     NotChecked  -9.3230     2006.0983   ✗       
+260   AQLLMAANPLMRDLGFK        -1.0000     NotChecked  -9.3377     1888.0063   ✗       
+261   AQLLMAANPLC+57.021RPDLLVK-1.0000     NotChecked  -9.3379     2022.1118   ✗       
+262   AQLLMAANPLGC+57.021RPDLGAK-1.0000     NotChecked  -9.3405     1995.0394   ✗       
+263   AQLLMAANPLGTRELFVK       -1.0000     NotChecked  -9.3449     1971.0975   ✗       
+264   AQLLMAANPLC+57.021RPDLFK -1.0000     NotChecked  -9.3552     1957.0278   ✗       
+265   AQLLMAANPLTLRPDLGVK      -1.0000     NotChecked  -9.3706     2020.1503   ✗       
+266   AQLLMAANPLGTRPSLFVK      -1.0000     NotChecked  -9.3741     2026.1397   ✗       
+267   AQLLMAANPLSRPDLFFK       -1.0000     NotChecked  -9.3744     2031.0976   ✗       
+268   AQLLMAANPLTRPDLGLK       -1.0000     NotChecked  -9.3795     1921.0819   ✗       
+269   AQLLMAANPLMRELFFK        -1.0000     NotChecked  -9.3817     1992.0689   ✗       
+270   AQLLMAANPLSRDLFFK        -1.0000     NotChecked  -9.3818     1934.0448   ✗       
+271   AQLLMAANPLFRPDAFVK       -1.0000     NotChecked  -9.3827     2001.0870   ✗       
+272   AQLLMAANPLGERPDLGLK      -1.0000     NotChecked  -9.3864     2006.0983   ✗       
+273   AQLLMAANPLGARPDLGVK      -1.0000     NotChecked  -9.3896     1934.0772   ✗       
+274   AQLLMAANPLGTRDAFVK       -1.0000     NotChecked  -9.3899     1915.0349   ✗       
+275   AQLLMAANPLMTRDLFVK       -1.0000     NotChecked  -9.3951     2031.1009   ✗       
+276   AQLLMAANPLMRPLFVK        -1.0000     NotChecked  -9.4016     1912.0791   ✗       
+277   AQLLMAANPLGMRSDLGFK      -1.0000     NotChecked  -9.4073     2032.0598   ✗       
+278   AQLLMAANPLGTRDLFLK       -1.0000     NotChecked  -9.4082     1971.0975   ✗       
+279   AQLLMAANPLC+57.021RDLGVK -1.0000     NotChecked  -9.4184     1868.9965   ✗       
+280   AQLLMAANPLTRPELFLK       -1.0000     NotChecked  -9.4236     2025.1445   ✗       
+281   AQLLMAANPLTRPDLLVK       -1.0000     NotChecked  -9.4327     1963.1288   ✗       
+282   AQLLMAANPLGARPELFVK      -1.0000     NotChecked  -9.4337     2038.1398   ✗       
+283   AQLLMAANPLMRPDLGVK       -1.0000     NotChecked  -9.4350     1937.0591   ✗       
+284   AQLLMAANPLGTRPDLGAK      -1.0000     NotChecked  -9.4354     1936.0564   ✗       
+285   AQLLMAANPLMRPDAFAK       -1.0000     NotChecked  -9.4361     1957.0278   ✗       
+286   AQLLMAANPLGMRDLFGK       -1.0000     NotChecked  -9.4382     1945.0278   ✗       
+287   AQLLMAANPLGMRDLFEK       -1.0000     NotChecked  -9.4470     2017.0489   ✗       
+288   AQLLMAANPLTRPDLFK        -1.0000     NotChecked  -9.4500     1898.0448   ✗       
+289   AQLLMAANPLGERPDLFK       -1.0000     NotChecked  -9.4569     1983.0612   ✗       
+290   AQLLMAANPLMRPDLFVK       -1.0000     NotChecked  -9.4591     2027.1060   ✗       
+291   AQLLMAANPLERDLFFK        -1.0000     NotChecked  -9.4591     1976.0554   ✗       
+292   AQLLMAANPLTSRPDLGVK      -1.0000     NotChecked  -9.4624     1994.0983   ✗       
+293   AQLLMAANPLC+57.021RELFVK -1.0000     NotChecked  -9.4625     1973.0591   ✗       
+294   AQLLMAANPLWRGDLFVK       -1.0000     NotChecked  -9.4631     2042.1135   ✗       
+295   AQLLMAANPLGMRDLFVK       -1.0000     NotChecked  -9.4638     1987.0747   ✗       
+296   AQLLMAANPLGMRGDLGVK      -1.0000     NotChecked  -9.4701     1954.0492   ✗       
+297   AQLLMAANPLGWRDLGVK       -1.0000     NotChecked  -9.4731     1952.0666   ✗       
+298   AQLLMAANPLGMRPDLGVK      -1.0000     NotChecked  -9.4790     1994.0805   ✗       
+299   AQLLMAANPLMRPELFVK       -1.0000     NotChecked  -9.4791     2041.1217   ✗       
+300   AQLLMAANPLSRPDLFVK       -1.0000     NotChecked  -9.4792     1983.0976   ✗       
+301   AQLLMAANPLMRPDAGFK       -1.0000     NotChecked  -9.4794     1943.0121   ✗       
+302   AQLLMAANPLGTRPELFAK      -1.0000     NotChecked  -9.4794     2040.1190   ✗       
+303   AQLLMAANPLGC+57.021RSDLGVK-1.0000     NotChecked  -9.4881     2013.0500   ✗       
+304   AQLLMAANPLWRPELGVK       -1.0000     NotChecked  -9.4884     2006.1135   ✗       
+305   AQLLMAANPLGTSRDLFVK      -1.0000     NotChecked  -9.4912     2044.1139   ✗       
+306   AQLLMAANPLGARPDLFLK      -1.0000     NotChecked  -9.4971     2038.1398   ✗       
+307   AQLLMAANPLGTRADLFVK      -1.0000     NotChecked  -9.4975     2028.1190   ✗       
+308   AQLLMAANPLGMRPDGFVK      -1.0000     NotChecked  -9.4979     2028.0649   ✗       
+309   AQLLMAANPLGMRPDLVK       -1.0000     NotChecked  -9.5019     1937.0591   ✗       
+310   AQLLMAANPLMRPDLGVR       -1.0000     NotChecked  -9.5040     1965.0652   ✗       
+311   AQLLMAANPLSTRPDLGVK      -1.0000     NotChecked  -9.5059     1994.0983   ✗       
+312   AQLLMAANPLGMRDAFFK       -1.0000     NotChecked  -9.5081     1993.0278   ✗       
+313   AQLLMAANPLTRDLGVK        -1.0000     NotChecked  -9.5133     1810.0135   ✗       
+314   AQLLMAANPLGSRGDLFVK      -1.0000     NotChecked  -9.5143     2000.0877   ✗       
+315   AQLLMAANPLGERDLGVK       -1.0000     NotChecked  -9.5202     1895.0299   ✗       
+316   AQLLMAANPLGTRPELGFK      -1.0000     NotChecked  -9.5227     2026.1034   ✗       
+317   AQLLMAANPLGSRPDLFVK      -1.0000     NotChecked  -9.5231     2040.1190   ✗       
+318   AQLLMAANPLSRPDAFFK       -1.0000     NotChecked  -9.5236     1989.0506   ✗       
+319   AQLLMAANPLC+57.021RDLFLK -1.0000     NotChecked  -9.5259     1973.0591   ✗       
+320   AQLLMAANPLMRPDLTVK       -1.0000     NotChecked  -9.5303     1981.0853   ✗       
+321   AQLLMAANPLERPDLFGK       -1.0000     NotChecked  -9.5309     1983.0612   ✗       
+322   AQLLMAANPLMRPGLFVK       -1.0000     NotChecked  -9.5325     1969.1005   ✗       
+323   AQLLMAANPLGMRDLFVR       -1.0000     NotChecked  -9.5328     2015.0809   ✗       
+324   AQLLMAANPLMLPDLFVK       -1.0000     NotChecked  -9.5336     1984.0890   ✗       
+325   AQLLMAANPLFRDLFVK        -1.0000     NotChecked  -9.5349     1946.0812   ✗       
+326   AQLLMAANPLGSRPELGVK      -1.0000     NotChecked  -9.5396     1964.0877   ✗       
+327   AQLLMAANPLMRPQLFVK       -1.0000     NotChecked  -9.5410     2040.1376   ✗       
+328   AQLLMAANPLMRPDLFLK       -1.0000     NotChecked  -9.5424     2041.1217   ✗       
+329   AQLLMAANPLSRPDLFVR       -1.0000     NotChecked  -9.5482     2011.1037   ✗       
+330   AQLLMAANPLMRPDLFVK       -1.0000     NotChecked  -10.3586    2027.1060   ✗       
+331   AQLLMAANPLTRPDLFVK       -1.0000     NotChecked  -11.2471    1997.1132   ✗       
+332   AQ+0.984LLMAANPLMRPDLFVK -1.0000     NotChecked  -11.3721    2028.0900   ✗       
+333   AQLLMAANPLGMRPDLGVK      -1.0000     NotChecked  -11.4264    1994.0805   ✗       
+334   AQLLMAANPLGSRPDLFVK      -1.0000     NotChecked  -11.4706    2040.1190   ✗       
+335   AQLLMAANPLGMRDLFVK       -1.0000     NotChecked  -11.6677    1987.0747   ✗       
+336   AQLLMAANPLERPDLFVK       -1.0000     NotChecked  -11.7604    2025.1081   ✗       
+337   AQLLMAANPLGMRPDAFVK      -1.0000     NotChecked  -11.8094    2042.0805   ✗       
+338   AQLLMAANPLMRPDLGVK       -1.0000     NotChecked  -11.9328    1937.0591   ✗       
+339   AQLLMAANPLGMRDLFVK       -1.0000     NotChecked  -11.9616    1987.0747   ✗       
+340   AQLLMAANPLMRPELFVK       -1.0000     NotChecked  -11.9769    2041.1217   ✗       
+341   AQLLMAANPLSRPDLFVK       -1.0000     NotChecked  -11.9770    1983.0976   ✗       
+342   AQLLMAANPLMRPDLFLK       -1.0000     NotChecked  -12.0402    2041.1217   ✗       
+343   AQLLMAANPLGMRPDLGFK      -1.0000     NotChecked  -12.1394    2042.0805   ✗       
+344   AQLLMAANPLMRDLFVK        -1.0000     NotChecked  -12.1741    1930.0532   ✗       
+345   AQLLMAANPLGC+57.021RPDLGVK-1.0000     NotChecked  -12.2202    2023.0707   ✗       
+346   AQ+0.984LLMAANPLTRPDLFVK -1.0000     NotChecked  -12.2607    1998.0972   ✗       
+347   AQLLMAANPLGTRPDLGVK      -1.0000     NotChecked  -12.3150    1964.0877   ✗       
+348   AQLLMAANPLMRPDAFVK       -1.0000     NotChecked  -12.3158    1985.0591   ✗       
+349   AQLLMAANPLGMRDLFFK       -1.0000     NotChecked  -12.3807    2035.0747   ✗       
+350   AQ+0.984LLMAANPLGMRPDLGVK-1.0000     NotChecked  -12.4400    1995.0645   ✗       
+351   AQLLMAANPLGC+57.021RDLFVK-1.0000     NotChecked  -12.4614    2016.0649   ✗       
+352   AQLLMAANPLMRDLFVK        -1.0000     NotChecked  -12.4679    1930.0532   ✗       
+353   AQ+0.984LLMAANPLGSRPDLFVK-1.0000     NotChecked  -12.4842    2041.1030   ✗       
+354   AQLLMAANPLFRPDLFVK       -1.0000     NotChecked  -12.5491    2043.1339   ✗       
+355   AQLLMAANPLGTRDLFVK       -1.0000     NotChecked  -12.5563    1957.0819   ✗       
+356   AQLLMAANPLMRPDLFAK       -1.0000     NotChecked  -12.6025    1999.0747   ✗       
+357   AQLLMAANPLMRPDLGFK       -1.0000     NotChecked  -12.6457    1985.0591   ✗       
+358   AQLLMAANPLGMRDLFFK       -1.0000     NotChecked  -12.6745    2035.0747   ✗       
+359   AQ+0.984LLMAANPLGMRDLFVK -1.0000     NotChecked  -12.6813    1988.0587   ✗       
+360   AQLLMAANPLSRPDLFFK       -1.0000     NotChecked  -12.6899    2031.0976   ✗       
+361   AQLLMAANPLGTRPDAFVK      -1.0000     NotChecked  -12.6980    2012.0877   ✗       
+362   AQLLMAANPLC+57.021RPDLGVK-1.0000     NotChecked  -12.7265    1966.0492   ✗       
+363   AQLLMAANPLGWRDLFVK       -1.0000     NotChecked  -12.7286    2042.1135   ✗       
+364   AQLLMAANPLGMRPDLFGK      -1.0000     NotChecked  -12.7463    2042.0805   ✗       
+365   AQLLMAANPLMRSDLFVK       -1.0000     NotChecked  -12.7501    2017.0853   ✗       
+366   AQLLMAANPLGC+57.021RDLFVK-1.0000     NotChecked  -12.7553    2016.0649   ✗       
+367   AQ+0.984LLMAANPLERPDLFVK -1.0000     NotChecked  -12.7740    2026.0921   ✗       
+368   AQLLMAANPLTRPDLGVK       -1.0000     NotChecked  -12.8213    1907.0662   ✗       
+369   AQ+0.984LLMAANPLGMRPDAFVK-1.0000     NotChecked  -12.8230    2043.0645   ✗       
+370   AQLLMAANPLGERPDLGVK      -1.0000     NotChecked  -12.8283    1992.0826   ✗       
+371   AQLLMAANPLGTRDLFVK       -1.0000     NotChecked  -12.8501    1957.0819   ✗       
+372   AQLLMAANPLTRPELFVK       -1.0000     NotChecked  -12.8654    2011.1288   ✗       
+373   AQLLMAANPLMRDLFFK        -1.0000     NotChecked  -12.8870    1978.0532   ✗       
+374   AQLLMAANPLTRPDLFLK       -1.0000     NotChecked  -12.9288    2011.1288   ✗       
+375   AQLLMAANPLGARPDLFVK      -1.0000     NotChecked  -12.9390    2024.1241   ✗       
+376   AQ+0.984LLMAANPLMRPDLGVK -1.0000     NotChecked  -12.9463    1938.0431   ✗       
+377   AQLLMAANPLC+57.021RDLFVK -1.0000     NotChecked  -12.9678    1959.0434   ✗       
+378   AQ+0.984LLMAANPLGMRDLFVK -1.0000     NotChecked  -12.9751    1988.0587   ✗       
+379   AQLLMAANPLMRPDLFVK       -1.0000     NotChecked  -12.9843    2027.1060   ✗       
+380   AQLLMAANPLGTRPDLFAK      -1.0000     NotChecked  -12.9847    2026.1034   ✗       
+381   AQ+0.984LLMAANPLMRPELFVK -1.0000     NotChecked  -12.9904    2042.1057   ✗       
+382   AQ+0.984LLMAANPLSRPDLFVK -1.0000     NotChecked  -12.9905    1984.0816   ✗       
+383   AQLLMAANPLWRPDLGVK       -1.0000     NotChecked  -12.9937    1992.0979   ✗       
+384   AQLLMAANPLGMRGDLFVK      -1.0000     NotChecked  -13.0194    2044.0962   ✗       
+385   AQLLMAANPLGWRDLFVK       -1.0000     NotChecked  -13.0224    2042.1135   ✗       
+386   AQLLMAANPLGTRPDLGFK      -1.0000     NotChecked  -13.0279    2012.0877   ✗       
+387   AQLLMAANPLMRPDAFFK       -1.0000     NotChecked  -13.0287    2033.0591   ✗       
+388   AQLLMAANPLGMRPELGVK      -1.0000     NotChecked  -13.0447    2008.0962   ✗       
+389   AQLLMAANPLGSRPDLGVK      -1.0000     NotChecked  -13.0448    1950.0721   ✗       
+390   AQ+0.984LLMAANPLMRPDLFLK -1.0000     NotChecked  -13.0538    2042.1057   ✗       
+391   AQLLMAANPLTRDLFVK        -1.0000     NotChecked  -13.0626    1900.0604   ✗       
+392   AQLLMAANPLGERDLFVK       -1.0000     NotChecked  -13.0696    1985.0768   ✗       
+393   AQLLMAANPLGMRPDLGLK      -1.0000     NotChecked  -13.1081    2008.0962   ✗       
+394   AQLLMAANPLC+57.021RPDAFVK-1.0000     NotChecked  -13.1095    2014.0492   ✗       
+395   AQLLMAANPLGTRSDLFVK      -1.0000     NotChecked  -13.1323    2044.1139   ✗       
+396   AQ+0.984LLMAANPLGMRPDLGFK-1.0000     NotChecked  -13.1529    2043.0645   ✗       
+397   AQLLMAANPLGMRPDLFK       -1.0000     NotChecked  -13.1787    1985.0591   ✗       
+398   AQLLMAANPLMRDLFFK        -1.0000     NotChecked  -13.1808    1978.0532   ✗       
+399   AQ+0.984LLMAANPLMRDLFVK  -1.0000     NotChecked  -13.1876    1931.0373   ✗       
+400   AQLLMAANPLTRPDAFVK       -1.0000     NotChecked  -13.2043    1955.0662   ✗       
+401   AQLLMAANPLGERPDAFVK      -1.0000     NotChecked  -13.2113    2040.0826   ✗       
+402   AQ+0.984LLMAANPLGC+57.021RPDLGVK-1.0000     NotChecked  -13.2337    2024.0547   ✗       
+403   AQLLMAANPLWRDLFVK        -1.0000     NotChecked  -13.2349    1985.0921   ✗       
+404   AQLLMAANPLGMRDLGVK       -1.0000     NotChecked  -13.2419    1897.0278   ✗       
+405   AQLLMAANPLMRPDLFGK       -1.0000     NotChecked  -13.2526    1985.0591   ✗       
+406   AQLLMAANPLC+57.021RDLFVK -1.0000     NotChecked  -13.2616    1959.0434   ✗       
+407   AQLLMAANPLGTRDLFFK       -1.0000     NotChecked  -13.2692    2005.0819   ✗       
+408   AQLLMAANPLGMRELFVK       -1.0000     NotChecked  -13.2860    2001.0904   ✗       
+409   AQLLMAANPLGSRDLFVK       -1.0000     NotChecked  -13.2861    1943.0663   ✗       
+410   AQLLMAANPLPMRPDLGVK      -1.0000     NotChecked  -13.3032    2034.1118   ✗       
+411   AQ+0.984LLMAANPLGTRPDLGVK-1.0000     NotChecked  -13.3286    1965.0717   ✗       
+412   AQ+0.984LLMAANPLMRPDAFVK -1.0000     NotChecked  -13.3293    1986.0431   ✗       
+413   AQLLMAANPLERPDLGVK       -1.0000     NotChecked  -13.3346    1935.0612   ✗       
+414   AQLLMAANPLGMRDLFLK       -1.0000     NotChecked  -13.3494    2001.0904   ✗       
+415   AQLLMAANPLTRDLFVK        -1.0000     NotChecked  -13.3565    1900.0604   ✗       
+416   AQLLMAANPLGERDLFVK       -1.0000     NotChecked  -13.3634    1985.0768   ✗       
+417   AQLLMAANPLWRPDAFVK       -1.0000     NotChecked  -13.3766    2040.0979   ✗       
+418   AQLLMAANPLLRPDLFVK       -1.0000     NotChecked  -13.3776    2009.1496   ✗       
+419   AQLLMAANPLERPELFVK       -1.0000     NotChecked  -13.3787    2039.1238   ✗       
+420   AQLLMAANPLGMRPDAGVK      -1.0000     NotChecked  -13.3836    1952.0336   ✗       
+421   AQ+0.984LLMAANPLGMRDLFFK -1.0000     NotChecked  -13.3942    2036.0587   ✗       
+422   AQLLMAANPLC+57.021RPDLFAK-1.0000     NotChecked  -13.3962    2028.0649   ✗       
+423   AQLLMAANPLGSRPDAFVK      -1.0000     NotChecked  -13.4278    1998.0721   ✗       
+424   AQLLMAANPLC+57.021RPDLGFK-1.0000     NotChecked  -13.4394    2014.0492   ✗       
+425   AQLLMAANPLERPDLFLK       -1.0000     NotChecked  -13.4421    2039.1238   ✗       
+426   AQLLMAANPLARPDLFVK       -1.0000     NotChecked  -13.4453    1967.1026   ✗       
+427   AQ+0.984LLMAANPLGC+57.021RDLFVK-1.0000     NotChecked  -13.4750    2017.0489   ✗       
+428   AQ+0.984LLMAANPLMRDLFVK  -1.0000     NotChecked  -13.4815    1931.0373   ✗       
+429   AQLLMAANPLTRPDLFAK       -1.0000     NotChecked  -13.4910    1969.0819   ✗       
+430   AQLLMAANPLMRGDLFVK       -1.0000     NotChecked  -13.5258    1987.0747   ✗       
+431   AQLLMAANPLWRDLFVK        -1.0000     NotChecked  -13.5288    1985.0921   ✗       
+432   AQLLMAANPLTRPDLGFK       -1.0000     NotChecked  -13.5343    1955.0662   ✗       
+433   AQLLMAANPLMRPDLFVK       -1.0000     NotChecked  -13.5346    2027.1060   ✗       
+434   AQLLMAANPLGMRDLGVK       -1.0000     NotChecked  -13.5358    1897.0278   ✗       
+435   AQLLMAANPLGERPDLGFK      -1.0000     NotChecked  -13.5412    2040.0826   ✗       
+436   AQLLMAANPLPMRDLFVK       -1.0000     NotChecked  -13.5444    2027.1060   ✗       
+437   AQLLMAANPLMRPELGVK       -1.0000     NotChecked  -13.5511    1951.0747   ✗       
+438   AQLLMAANPLSRPDLGVK       -1.0000     NotChecked  -13.5512    1893.0506   ✗       
+439   AQ+0.984LLMAANPLFRPDLFVK -1.0000     NotChecked  -13.5627    2044.1180   ✗       
+440   AQLLMAANPLGTRDLFFK       -1.0000     NotChecked  -13.5631    2005.0819   ✗       
+441   AQ+0.984LLMAANPLGTRDLFVK -1.0000     NotChecked  -13.5698    1958.0659   ✗       
+442   AQLLMAANPLERDLFVK        -1.0000     NotChecked  -13.5759    1928.0554   ✗       
+443   AQLLMAANPLGMRELFVK       -1.0000     NotChecked  -13.5799    2001.0904   ✗       
+444   AQLLMAANPLGSRDLFVK       -1.0000     NotChecked  -13.5800    1943.0663   ✗       
+445   AQLLMAANPLSRPELFVK       -1.0000     NotChecked  -13.5953    1997.1132   ✗       
+446   AQLLMAANPLMRPDLGLK       -1.0000     NotChecked  -13.6145    1951.0747   ✗       
+447   AQ+0.984LLMAANPLMRPDLFAK -1.0000     NotChecked  -13.6161    2000.0587   ✗       
+448   AQLLMAANPLGFRPDLGVK      -1.0000     NotChecked  -13.6170    2010.1085   ✗       
+449   AQLLMAANPLGMRDAFVK       -1.0000     NotChecked  -13.6249    1945.0278   ✗       
+450   AQLLMAANPLGTRPDLFGK      -1.0000     NotChecked  -13.6349    2012.0877   ✗       
+451   AQLLMAANPLTRSDLFVK       -1.0000     NotChecked  -13.6386    1987.0925   ✗       
+452   AQLLMAANPLGMRDLFLK       -1.0000     NotChecked  -13.6432    2001.0904   ✗       
+453   AQLLMAANPLSRPDLFLK       -1.0000     NotChecked  -13.6587    1997.1132   ✗       
+454   AQ+0.984LLMAANPLMRPDLGFK -1.0000     NotChecked  -13.6593    1986.0431   ✗       
+455   AQLLMAANPLMRPDLLVK       -1.0000     NotChecked  -13.6677    1993.1217   ✗       
+456   AQLLMAANPLGMRPDLGAK      -1.0000     NotChecked  -13.6704    1966.0492   ✗       
+457   AQLLMAANPLC+57.021RDLFFK -1.0000     NotChecked  -13.6807    2007.0434   ✗       
+458   AQLLMAANPLMRPDLFK        -1.0000     NotChecked  -13.6850    1928.0376   ✗       
+459   AQ+0.984LLMAANPLGMRDLFFK -1.0000     NotChecked  -13.6881    2036.0587   ✗       
+460   AQLLMAANPLMSRPDLGVK      -1.0000     NotChecked  -13.6974    2024.0911   ✗       
+461   AQ+0.984LLMAANPLSRPDLFFK -1.0000     NotChecked  -13.7035    2032.0816   ✗       
+462   AQLLMAANPLWRPDLGFK       -1.0000     NotChecked  -13.7066    2040.0979   ✗       
+463   AQ+0.984LLMAANPLGTRPDAFVK-1.0000     NotChecked  -13.7116    2013.0717   ✗       
+464   AQLLMAANPLGSRPDLFAK      -1.0000     NotChecked  -13.7146    2012.0877   ✗       
+465   AQLLMAANPLERPDAFVK       -1.0000     NotChecked  -13.7176    1983.0612   ✗       
+466   AQ+0.984LLMAANPLC+57.021RPDLGVK-1.0000     NotChecked  -13.7401    1967.0332   ✗       
+467   AQLLMAANPLSMRPDLGVK      -1.0000     NotChecked  -13.7409    2024.0911   ✗       
+468   AQ+0.984LLMAANPLGWRDLFVK -1.0000     NotChecked  -13.7422    2043.0976   ✗       
+469   AQLLMAANPLMRDLGVK        -1.0000     NotChecked  -13.7483    1840.0063   ✗       
+470   AQLLMAANPLGSRPDLGFK      -1.0000     NotChecked  -13.7578    1998.0721   ✗       
+471   AQ+0.984LLMAANPLGMRPDLFGK-1.0000     NotChecked  -13.7599    2043.0645   ✗       
+472   AQ+0.984LLMAANPLMRSDLFVK -1.0000     NotChecked  -13.7637    2018.0693   ✗       
+473   AQ+0.984LLMAANPLGC+57.021RDLFVK-1.0000     NotChecked  -13.7689    2017.0489   ✗       
+474   AQLLMAANPLTRDLFFK        -1.0000     NotChecked  -13.7756    1948.0604   ✗       
+475   AQLLMAANPLGERDLFFK       -1.0000     NotChecked  -13.7825    2033.0768   ✗       
+476   AQLLMAANPLSRPDLFVK       -1.0000     NotChecked  -13.7851    1983.0976   ✗       
+477   AQLLMAANPLMRELFVK        -1.0000     NotChecked  -13.7924    1944.0689   ✗       
+478   AQLLMAANPLSRDLFVK        -1.0000     NotChecked  -13.7925    1886.0448   ✗       
+479   AQLLMAANPLGMRSDLGVK      -1.0000     NotChecked  -13.8180    1984.0598   ✗       
+480   AQLLMAANPLGMRPDLSVK      -1.0000     NotChecked  -13.8328    2024.0911   ✗       
+481   AQ+0.984LLMAANPLTRPDLGVK -1.0000     NotChecked  -13.8349    1908.0503   ✗       
+482   AQLLMAANPLPMRDLFVK       -1.0000     NotChecked  -13.8383    2027.1060   ✗       
+483   AQLLMAANPLGC+57.021RPELGVK-1.0000     NotChecked  -13.8385    2037.0863   ✗       
+484   AQ+0.984LLMAANPLGERPDLGVK-1.0000     NotChecked  -13.8418    1993.0666   ✗       
+485   AQLLMAANPLMLRDLFVK       -1.0000     NotChecked  -13.8469    2043.1373   ✗       
+486   AQLLMAANPLMRDLFLK        -1.0000     NotChecked  -13.8557    1944.0689   ✗       
+487   AQLLMAANPLGFRDLFVK       -1.0000     NotChecked  -13.8582    2003.1026   ✗       
+488   AQLLMAANPLGSRSDLFVK      -1.0000     NotChecked  -13.8621    2030.0983   ✗       
+489   AQ+0.984LLMAANPLGTRDLFVK -1.0000     NotChecked  -13.8637    1958.0659   ✗       
+490   AQLLMAANPLERDLFVK        -1.0000     NotChecked  -13.8697    1928.0554   ✗       
+491   AQLLMAANPLTRPDLFVK       -1.0000     NotChecked  -13.8729    1997.1132   ✗       
+492   AQ+0.984LLMAANPLTRPELFVK -1.0000     NotChecked  -13.8790    2012.1129   ✗       
+493   AQLLMAANPLMRPDAGVK       -1.0000     NotChecked  -13.8900    1895.0121   ✗       
+494   AQLLMAANPLGMRPDLAVK      -1.0000     NotChecked  -13.8918    2008.0962   ✗       
+495   AQ+0.984LLMAANPLMRDLFFK  -1.0000     NotChecked  -13.9006    1979.0373   ✗       
+496   AQLLMAANPLGC+57.021RPDLGLK-1.0000     NotChecked  -13.9018    2037.0863   ✗       
+497   AQLLMAANPLGTRGDLFVK      -1.0000     NotChecked  -13.9080    2014.1034   ✗       
+498   AQLLMAANPLGMRDLFAK       -1.0000     NotChecked  -13.9116    1959.0434   ✗       
+499   AQLLMAANPLTRPDAFFK       -1.0000     NotChecked  -13.9173    2003.0662   ✗       
+500   AQLLMAANPLGMRDAFVK       -1.0000     NotChecked  -13.9188    1945.0278   ✗       
+501   AQLLMAANPLGTRPELGVK      -1.0000     NotChecked  -13.9333    1978.1034   ✗       
+502   AQLLMAANPLMRPEAFVK       -1.0000     NotChecked  -13.9341    1999.0747   ✗       
+503   AQLLMAANPLSRPDAFVK       -1.0000     NotChecked  -13.9342    1941.0506   ✗       
+504   AQLLMAANPLMSRDLFVK       -1.0000     NotChecked  -13.9387    2017.0853   ✗       
+505   AQLLMAANPLTRPDLFVR       -1.0000     NotChecked  -13.9419    2025.1193   ✗       
+506   AQ+0.984LLMAANPLTRPDLFLK -1.0000     NotChecked  -13.9424    2012.1129   ✗       
+507   AQLLMAANPLWRDLFFK        -1.0000     NotChecked  -13.9479    2033.0921   ✗       
+508   AQ+0.984LLMAANPLGARPDLFVK-1.0000     NotChecked  -13.9526    2025.1081   ✗       
+509   AQLLMAANPLGMRDLGFK       -1.0000     NotChecked  -13.9549    1945.0278   ✗       
+510   AQLLMAANPLGC+57.021RPDLFK-1.0000     NotChecked  -13.9724    2014.0492   ✗       
+511   AQLLMAANPLC+57.021RDLFFK -1.0000     NotChecked  -13.9746    2007.0434   ✗       
+512   AQ+0.984LLMAANPLC+57.021RDLFVK-1.0000     NotChecked  -13.9814    1960.0274   ✗       
+513   AQLLMAANPLSMRDLFVK       -1.0000     NotChecked  -13.9821    2017.0853   ✗       
+514   AQLLMAANPLMRPDLFDK       -1.0000     NotChecked  -13.9904    2043.0645   ✗       
+515   AQLLMAANPLGTRPDLGLK      -1.0000     NotChecked  -13.9967    1978.1034   ✗       
+516   AQLLMAANPLMRPDAFLK       -1.0000     NotChecked  -13.9975    1999.0747   ✗       
+517   AQ+0.984LLMAANPLMRPDLFVK -1.0000     NotChecked  -13.9979    2028.0900   ✗       
+518   AQ+0.984LLMAANPLGTRPDLFAK-1.0000     NotChecked  -13.9983    2027.0874   ✗       
+519   AQLLMAANPLGSRDLFFK       -1.0000     NotChecked  -13.9991    1991.0663   ✗       
+520   AQLLMAANPLERPDLFAK       -1.0000     NotChecked  -14.0043    1997.0768   ✗       
+521   AQ+0.984LLMAANPLWRPDLGVK -1.0000     NotChecked  -14.0072    1993.0819   ✗       
+522   AQLLMAANPLGMRPLFVK       -1.0000     NotChecked  -14.0188    1969.1005   ✗       
+523   AQLLMAANPLGC+57.021RDLGVK-1.0000     NotChecked  -14.0357    1926.0179   ✗       
+524   AQ+0.984LLMAANPLGWRDLFVK -1.0000     NotChecked  -14.0360    2043.0976   ✗       
+525   AQ+0.984LLMAANPLGTRPDLGFK-1.0000     NotChecked  -14.0415    2013.0717   ✗       
+526   AQLLMAANPLMRDLGVK        -1.0000     NotChecked  -14.0421    1840.0063   ✗       
+527   AQ+0.984LLMAANPLMRPDAFFK -1.0000     NotChecked  -14.0423    2034.0431   ✗       
+528   AQLLMAANPLC+57.021RPDLFGK-1.0000     NotChecked  -14.0464    2014.0492   ✗       
+529   AQLLMAANPLERPDLGFK       -1.0000     NotChecked  -14.0476    1983.0612   ✗       
+530   AQLLMAANPLGTRPDLLVK      -1.0000     NotChecked  -14.0499    2020.1503   ✗       
+531   AQLLMAANPLGMRPDLGVK      -1.0000     NotChecked  -14.0522    1994.0805   ✗       
+532   AQLLMAANPLGMRPDAFAK      -1.0000     NotChecked  -14.0534    2014.0492   ✗       
+533   AQ+0.984LLMAANPLGMRPELGVK-1.0000     NotChecked  -14.0583    2009.0802   ✗       
+534   AQ+0.984LLMAANPLGSRPDLGVK-1.0000     NotChecked  -14.0584    1951.0561   ✗       
+535   AQLLMAANPLGTRPDLFK       -1.0000     NotChecked  -14.0672    1955.0662   ✗       
+536   AQLLMAANPLTRDLFFK        -1.0000     NotChecked  -14.0694    1948.0604   ✗       
+537   AQ+0.984LLMAANPLTRDLFVK  -1.0000     NotChecked  -14.0762    1901.0444   ✗       
+538   AQLLMAANPLGERDLFFK       -1.0000     NotChecked  -14.0763    2033.0768   ✗       
+539   AQLLMAANPLGC+57.021RELFVK-1.0000     NotChecked  -14.0797    2030.0805   ✗       
+540   AQ+0.984LLMAANPLGERDLFVK -1.0000     NotChecked  -14.0831    1986.0608   ✗       
+541   AQLLMAANPLMRELFVK        -1.0000     NotChecked  -14.0862    1944.0689   ✗       
+542   AQLLMAANPLSRDLFVK        -1.0000     NotChecked  -14.0863    1886.0448   ✗       
+543   AQLLMAANPLGSRPDLFVK      -1.0000     NotChecked  -14.0964    2040.1190   ✗       
+544   AQLLMAANPLGMRPDAGFK      -1.0000     NotChecked  -14.0966    2000.0336   ✗       
+545   AQLLMAANPLMRPSLFVK       -1.0000     NotChecked  -14.1155    1999.1111   ✗       
+546   AQLLMAANPLGMRPDLGVR      -1.0000     NotChecked  -14.1213    2022.0867   ✗       
+547   AQ+0.984LLMAANPLGMRPDLGLK-1.0000     NotChecked  -14.1217    2009.0802   ✗       
+548   AQ+0.984LLMAANPLC+57.021RPDAFVK-1.0000     NotChecked  -14.1231    2015.0332   ✗       
+549   AQLLMAANPLFRPDLGVK       -1.0000     NotChecked  -14.1233    1953.0870   ✗       
+550   AQLLMAANPLGTRDLGVK       -1.0000     NotChecked  -14.1305    1867.0349   ✗       
+551   AQLLMAANPLMRDAFVK        -1.0000     NotChecked  -14.1313    1888.0063   ✗       
+552   AQLLMAANPLMLRDLFVK       -1.0000     NotChecked  -14.1408    2043.1373   ✗       
+553   AQLLMAANPLTRPDLFGK       -1.0000     NotChecked  -14.1412    1955.0662   ✗       
+554   AQLLMAANPLGC+57.021RDLFLK-1.0000     NotChecked  -14.1431    2030.0805   ✗       
+555   AQLLMAANPLGMRPDLTVK      -1.0000     NotChecked  -14.1475    2038.1067   ✗       
+556   AQLLMAANPLGERPDLFGK      -1.0000     NotChecked  -14.1482    2040.0826   ✗       
+557   AQLLMAANPLMRDLFLK        -1.0000     NotChecked  -14.1496    1944.0689   ✗       
+558   AQLLMAANPLGMRPGLFVK      -1.0000     NotChecked  -14.1497    2026.1220   ✗       
+559   AQLLMAANPLTRPDLFEK       -1.0000     NotChecked  -14.1500    2027.0874   ✗       
+560   AQLLMAANPLGMLPDLFVK      -1.0000     NotChecked  -14.1508    2041.1104   ✗       
+561   AQLLMAANPLERSDLFVK       -1.0000     NotChecked  -14.1519    2015.0874   ✗       
+562   AQLLMAANPLGFRDLFVK       -1.0000     NotChecked  -14.1521    2003.1026   ✗       
+563   AQLLMAANPLARPDLFFK       -1.0000     NotChecked  -14.1583    2015.1026   ✗       
+564   AQLLMAANPLGTRELFVK       -1.0000     NotChecked  -14.1746    1971.0975   ✗       
+565   AQLLMAANPLMRPDLGAK       -1.0000     NotChecked  -14.1767    1909.0278   ✗       
+566   AQLLMAANPLGC+57.021RPDAGVK-1.0000     NotChecked  -14.1774    1981.0237   ✗       
+567   AQLLMAANPLPTRPDLGVK      -1.0000     NotChecked  -14.1917    2004.1190   ✗       
+568   AQ+0.984LLMAANPLGMRPDLFK -1.0000     NotChecked  -14.1922    1986.0431   ✗       
+569   AQ+0.984LLMAANPLMRDLFFK  -1.0000     NotChecked  -14.1944    1979.0373   ✗       
+570   AQLLMAANPLGMRSDAFVK      -1.0000     NotChecked  -14.2010    2032.0598   ✗       
+571   AQLLMAANPLGMRDLFAK       -1.0000     NotChecked  -14.2055    1959.0434   ✗       
+572   AQLLMAANPLGMRPALFVK      -1.0000     NotChecked  -14.2147    2040.1376   ✗       
+573   AQ+0.984LLMAANPLTRPDAFVK -1.0000     NotChecked  -14.2179    1956.0503   ✗       
+574   AQLLMAANPLGMRPDFVK       -1.0000     NotChecked  -14.2197    1971.0434   ✗       
+575   AQLLMAANPLMRPELFAK       -1.0000     NotChecked  -14.2208    2013.0904   ✗       
+576   AQLLMAANPLSRPDLFAK       -1.0000     NotChecked  -14.2209    1955.0663   ✗       
+577   AQ+0.984LLMAANPLGERPDAFVK-1.0000     NotChecked  -14.2248    2041.0666   ✗       
+578   AQLLMAANPLMSRDLFVK       -1.0000     NotChecked  -14.2325    2017.0853   ✗       
+579   AQLLMAANPLGTRDLFLK       -1.0000     NotChecked  -14.2380    1971.0975   ✗       
+580   AQLLMAANPLMRGDLFFK       -1.0000     NotChecked  -14.2387    2035.0747   ✗       
+581   AQLLMAANPLMRADLFVK       -1.0000     NotChecked  -14.2389    2001.0904   ✗       
+582   AQLLMAANPLGWRPDLFK       -1.0000     NotChecked  -14.2395    2040.0979   ✗       
+583   AQLLMAANPLWRDLFFK        -1.0000     NotChecked  -14.2417    2033.0921   ✗       
+584   AQLLMAANPLGMSPDLFVK      -1.0000     NotChecked  -14.2426    2015.0584   ✗       
+585   AQ+0.984LLMAANPLWRDLFVK  -1.0000     NotChecked  -14.2485    1986.0761   ✗       
+586   AQLLMAANPLGMRDLGFK       -1.0000     NotChecked  -14.2487    1945.0278   ✗       
+587   AQ+0.984LLMAANPLGMRDLGVK -1.0000     NotChecked  -14.2555    1898.0118   ✗       
+588   AQLLMAANPLMRPELGFK       -1.0000     NotChecked  -14.2640    1999.0747   ✗       
+589   AQLLMAANPLSRPDLGFK       -1.0000     NotChecked  -14.2641    1941.0506   ✗       
+590   AQ+0.984LLMAANPLMRPDLFGK -1.0000     NotChecked  -14.2662    1986.0431   ✗       
+591   AQLLMAANPLGTRPDAGVK      -1.0000     NotChecked  -14.2722    1922.0408   ✗       
+592   AQ+0.984LLMAANPLC+57.021RDLFVK-1.0000     NotChecked  -14.2752    1960.0274   ✗       
+593   AQLLMAANPLSMRDLFVK       -1.0000     NotChecked  -14.2760    2017.0853   ✗       
+594   AQLLMAANPLMTRPDLGVK      -1.0000     NotChecked  -14.2774    2038.1067   ✗       
+595   AQ+0.984LLMAANPLGTRDLFFK -1.0000     NotChecked  -14.2828    2006.0659   ✗       
+596   AQLLMAANPLERDLFFK        -1.0000     NotChecked  -14.2888    1976.0554   ✗       
+597   AQLLMAANPLGSRDLFFK       -1.0000     NotChecked  -14.2929    1991.0663   ✗       
+598   AQ+0.984LLMAANPLGMRELFVK -1.0000     NotChecked  -14.2996    2002.0744   ✗       
+599   AQ+0.984LLMAANPLGSRDLFVK -1.0000     NotChecked  -14.2997    1944.0503   ✗       
+600   AQLLMAANPLGWRDLGVK       -1.0000     NotChecked  -14.3028    1952.0666   ✗       
+601   AQLLMAANPLWRPDLFGK       -1.0000     NotChecked  -14.3135    2040.0979   ✗       
+602   AQLLMAANPLGTRPEAFVK      -1.0000     NotChecked  -14.3163    2026.1034   ✗       
+603   AQ+0.984LLMAANPLPMRPDLGVK-1.0000     NotChecked  -14.3167    2035.0958   ✗       
+604   AQLLMAANPLC+57.021RGDLFVK-1.0000     NotChecked  -14.3195    2016.0649   ✗       
+605   AQLLMAANPLGMRPDLGGK      -1.0000     NotChecked  -14.3205    1952.0336   ✗       
+606   AQLLMAANPLGTSRDLFVK      -1.0000     NotChecked  -14.3209    2044.1139   ✗       
+607   AQLLMAANPLMRSDLGVK       -1.0000     NotChecked  -14.3243    1927.0383   ✗       
+608   AQLLMAANPLGMRPDLGEK      -1.0000     NotChecked  -14.3293    2024.0547   ✗       
+609   AQLLMAANPLGC+57.021RDLGVK-1.0000     NotChecked  -14.3295    1926.0179   ✗       
+610   AQLLMAANPLGMRDAFFK       -1.0000     NotChecked  -14.3379    1993.0278   ✗       
+611   AQLLMAANPLMRPDLSVK       -1.0000     NotChecked  -14.3391    1967.0696   ✗       
+612   AQLLMAANPLC+57.021RPELGVK-1.0000     NotChecked  -14.3448    1980.0649   ✗       
+613   AQ+0.984LLMAANPLERPDLGVK -1.0000     NotChecked  -14.3482    1936.0452   ✗       
+614   AQLLMAANPLTRSDLFFK       -1.0000     NotChecked  -14.3516    2035.0925   ✗       
+615   AQLLMAANPLGMRDLFVR       -1.0000     NotChecked  -14.3625    2015.0809   ✗       
+616   AQ+0.984LLMAANPLGMRDLFLK -1.0000     NotChecked  -14.3630    2002.0744   ✗       
+617   AQLLMAANPLFRDLFVK        -1.0000     NotChecked  -14.3646    1946.0812   ✗       
+618   AQLLMAANPLGSRPDLFGK      -1.0000     NotChecked  -14.3647    1998.0721   ✗       
+619   AQLLMAANPLMRSELFVK       -1.0000     NotChecked  -14.3684    2031.1009   ✗       
+620   AQLLMAANPLSRSDLFVK       -1.0000     NotChecked  -14.3685    1973.0768   ✗       
+621   AQ+0.984LLMAANPLTRDLFVK  -1.0000     NotChecked  -14.3700    1901.0444   ✗       
+622   AQLLMAANPLGC+57.021RELFVK-1.0000     NotChecked  -14.3736    2030.0805   ✗       
+623   AQ+0.984LLMAANPLGERDLFVK -1.0000     NotChecked  -14.3770    1986.0608   ✗       
+624   AQLLMAANPLGTRPDAFLK      -1.0000     NotChecked  -14.3797    2026.1034   ✗       
+625   AQLLMAANPLMRPDLLFK       -1.0000     NotChecked  -14.3806    2041.1217   ✗       
+626   AQLLMAANPLERPDLFVK       -1.0000     NotChecked  -14.3862    2025.1081   ✗       
+627   AQ+0.984LLMAANPLWRPDAFVK -1.0000     NotChecked  -14.3902    2041.0819   ✗       
+628   AQ+0.984LLMAANPLLRPDLFVK -1.0000     NotChecked  -14.3912    2010.1336   ✗       
+629   AQ+0.984LLMAANPLERPELFVK -1.0000     NotChecked  -14.3923    2040.1078   ✗       
+630   AQLLMAANPLMRTDLFVK       -1.0000     NotChecked  -14.3972    2031.1009   ✗       
+631   AQ+0.984LLMAANPLGMRPDAGVK-1.0000     NotChecked  -14.3972    1953.0176   ✗       
+632   AQLLMAANPLMRPDLAVK       -1.0000     NotChecked  -14.3981    1951.0747   ✗       
+633   AQLLMAANPLMRPVLFVK       -1.0000     NotChecked  -14.4014    2011.1475   ✗       
+634   AQLLMAANPLC+57.021RPDLGLK-1.0000     NotChecked  -14.4082    1980.0649   ✗       
+635   AQ+0.984LLMAANPLC+57.021RPDLFAK-1.0000     NotChecked  -14.4098    2029.0489   ✗       
+636   AQLLMAANPLTRGDLFVK       -1.0000     NotChecked  -14.4143    1957.0819   ✗       
+637   AQLLMAANPLMRDLFAK        -1.0000     NotChecked  -14.4180    1902.0219   ✗       
+638   AQLLMAANPLGC+57.021RDAFVK-1.0000     NotChecked  -14.4187    1974.0179   ✗       
+639   AQLLMAANPLGERGDLFVK      -1.0000     NotChecked  -14.4213    2042.0983   ✗       
+640   AQLLMAANPLTRPDLFVK       -1.0000     NotChecked  -14.4232    1997.1132   ✗       
+641   AQLLMAANPLGTRDLGVK       -1.0000     NotChecked  -14.4243    1867.0349   ✗       
+642   AQLLMAANPLMRDAFVK        -1.0000     NotChecked  -14.4251    1888.0063   ✗       
+643   AQLLMAANPLERPDAFFK       -1.0000     NotChecked  -14.4306    2031.0612   ✗       
+644   AQLLMAANPLMRSDLFLK       -1.0000     NotChecked  -14.4318    2031.1009   ✗       
+645   AQLLMAANPLMRPLLFVK       -1.0000     NotChecked  -14.4319    2025.1631   ✗       
+646   AQLLMAANPLPTRDLFVK       -1.0000     NotChecked  -14.4330    1997.1132   ✗       
+647   AQLLMAANPLGMRPDAFVK      -1.0000     NotChecked  -14.4352    2042.0805   ✗       
+648   AQLLMAANPLGC+57.021RDLFLK-1.0000     NotChecked  -14.4370    2030.0805   ✗       
+649   AQLLMAANPLTRPELGVK       -1.0000     NotChecked  -14.4396    1921.0819   ✗       
+650   AQ+0.984LLMAANPLGSRPDAFVK-1.0000     NotChecked  -14.4414    1999.0561   ✗       
+651   AQLLMAANPLGWRPDAGVK      -1.0000     NotChecked  -14.4445    2007.0724   ✗       
+652   AQLLMAANPLGLRPDLGVK      -1.0000     NotChecked  -14.4455    1976.1241   ✗       
+653   AQLLMAANPLGERPELGVK      -1.0000     NotChecked  -14.4466    2006.0983   ✗       
+654   AQ+0.984LLMAANPLC+57.021RPDLGFK-1.0000     NotChecked  -14.4530    2015.0332   ✗       
+655   AQ+0.984LLMAANPLERPDLFLK -1.0000     NotChecked  -14.4557    2040.1078   ✗       
+656   AQ+0.984LLMAANPLARPDLFVK -1.0000     NotChecked  -14.4589    1968.0867   ✗       
+657   AQLLMAANPLMRDLGFK        -1.0000     NotChecked  -14.4612    1888.0063   ✗       
+658   AQLLMAANPLC+57.021RPDLLVK-1.0000     NotChecked  -14.4614    2022.1118   ✗       
+659   AQLLMAANPLGC+57.021RPDLGAK-1.0000     NotChecked  -14.4641    1995.0394   ✗       
+660   AQLLMAANPLGTRELFVK       -1.0000     NotChecked  -14.4684    1971.0975   ✗       
+661   +43.006QLLMAANPLMRPDLFVK -1.0000     NotChecked  -15.1187    1999.0747   ✗       
+662   +43.006QLLMAANPLGTRPDLFVK-1.0000     NotChecked  -15.5009    2026.1034   ✗       
+663   +43.006QLLMAANPLC+57.021RPDLFVK-1.0000     NotChecked  -15.9124    2028.0649   ✗       
+664   +43.006QLLMAANPLTRPDLFVK -1.0000     NotChecked  -16.0073    1969.0819   ✗       
+665   +43.006QLLMAANPLGMRPDLGVK-1.0000     NotChecked  -16.1866    1966.0492   ✗       
+666   +43.006QLLMAANPLGSRPDLFVK-1.0000     NotChecked  -16.2308    2012.0877   ✗       
+667   GQLLMAANPLMRPDLFVK       -1.0000     NotChecked  -16.4233    2013.0904   ✗       
+668   +43.006QLLMAANPLGMRDLFVK -1.0000     NotChecked  -16.4279    1959.0434   ✗       
+669   +43.006QLLMAANPLERPDLFVK -1.0000     NotChecked  -16.5205    1997.0768   ✗       
+670   +43.006QLLMAANPLGMRPDAFVK-1.0000     NotChecked  -16.5696    2014.0492   ✗       
+671   +43.006QLLMAANPLMRPDLGVK -1.0000     NotChecked  -16.6929    1909.0278   ✗       
+672   +43.006QLLMAANPLTRPDLFFK -1.0000     NotChecked  -16.7202    2017.0819   ✗       
+673   +43.006QLLMAANPLGMRDLFVK -1.0000     NotChecked  -16.7217    1959.0434   ✗       
+674   +43.006QLLMAANPLMRPELFVK -1.0000     NotChecked  -16.7370    2013.0904   ✗       
+675   +43.006QLLMAANPLSRPDLFVK -1.0000     NotChecked  -16.7371    1955.0663   ✗       
+676   +43.006QLLMAANPLMRPDLFLK -1.0000     NotChecked  -16.8004    2013.0904   ✗       
+677   GQLLMAANPLGTRPDLFVK      -1.0000     NotChecked  -16.8055    2040.1190   ✗       
+678   +43.006QLLMAANPLGMRPDLFAK-1.0000     NotChecked  -16.8563    2028.0649   ✗       
+679   +43.006QLLMAANPLGMRPDLGFK-1.0000     NotChecked  -16.8995    2014.0492   ✗       
+680   +43.006QLLMAANPLMRDLFVK  -1.0000     NotChecked  -16.9342    1902.0219   ✗       
+681   +43.006QLLMAANPLGC+57.021RPDLGVK-1.0000     NotChecked  -16.9803    1995.0394   ✗       
+682   +43.006QLLMAANPLGTRPDLGVK-1.0000     NotChecked  -17.0751    1936.0564   ✗       
+683   +43.006QLLMAANPLMRPDAFVK -1.0000     NotChecked  -17.0759    1957.0278   ✗       
+684   +43.006QLLMAANPLGTRPELFVK-1.0000     NotChecked  -17.1192    2040.1190   ✗       
+685   +43.006QLLMAANPLGMRDLFFK -1.0000     NotChecked  -17.1408    2007.0434   ✗       
+686   +43.006QLLMAANPLGTRPDLFLK-1.0000     NotChecked  -17.1826    2040.1190   ✗       
+687   GQLLMAANPLC+57.021RPDLFVK-1.0000     NotChecked  -17.2170    2042.0805   ✗       
+688   +43.006QLLMAANPLGC+57.021RDLFVK-1.0000     NotChecked  -17.2216    1988.0336   ✗       
+689   +43.006QLLMAANPLMRDLFVK  -1.0000     NotChecked  -17.2280    1902.0219   ✗       
+690   +43.006QLLMAANPLGWRPDLGVK-1.0000     NotChecked  -17.2475    2021.0881   ✗       
+691   +43.006QLLMAANPLFRPDLFVK -1.0000     NotChecked  -17.3092    2015.1026   ✗       
+692   GQLLMAANPLTRPDLFVK       -1.0000     NotChecked  -17.3119    1983.0975   ✗       
+693   +43.006QLLMAANPLGTRDLFVK -1.0000     NotChecked  -17.3164    1929.0506   ✗       
+694   +43.006QLLMAANPLMRPDLFAK -1.0000     NotChecked  -17.3626    1971.0434   ✗       
+695   +43.006QLLMAANPLGC+57.021RPDAFVK-1.0000     NotChecked  -17.3633    2043.0394   ✗       
+696   +43.006QLLMAANPLMRPDLGFK -1.0000     NotChecked  -17.4059    1957.0278   ✗       
+697   +43.006QLLMAANPLGMRDLFFK -1.0000     NotChecked  -17.4346    2007.0434   ✗       
+698   +43.006QLLMAANPLSRPDLFFK -1.0000     NotChecked  -17.4501    2003.0663   ✗       
+699   +43.006QLLMAANPLGTRPDAFVK-1.0000     NotChecked  -17.4581    1984.0564   ✗       
+700   +42.011QLLMAANPLMRPDLFVK -1.0000     NotChecked  -17.4744    1998.0795   ✗       
+701   +43.006QLLMAANPLC+57.021RPDLGVK-1.0000     NotChecked  -17.4866    1938.0179   ✗       
+702   +43.006QLLMAANPLGWRDLFVK -1.0000     NotChecked  -17.4887    2014.0822   ✗       
+703   GQLLMAANPLGMRPDLGVK      -1.0000     NotChecked  -17.4912    1980.0649   ✗       
+704   +43.006QLLMAANPLGMRPDLFGK-1.0000     NotChecked  -17.5065    2014.0492   ✗       
+705   +43.006QLLMAANPLMRSDLFVK -1.0000     NotChecked  -17.5102    1989.0540   ✗       
+706   +43.006QLLMAANPLGC+57.021RDLFVK-1.0000     NotChecked  -17.5154    1988.0336   ✗       
+707   +43.006QLLMAANPLC+57.021RPELFVK-1.0000     NotChecked  -17.5307    2042.0805   ✗       
+708   GQLLMAANPLGSRPDLFVK      -1.0000     NotChecked  -17.5354    2026.1034   ✗       
+709   +43.006QLLMAANPLTRPDLGVK -1.0000     NotChecked  -17.5815    1879.0349   ✗       
+710   +43.006QLLMAANPLGERPDLGVK-1.0000     NotChecked  -17.5884    1964.0513   ✗       
+711   +43.006QLLMAANPLC+57.021RPDLFLK-1.0000     NotChecked  -17.5941    2042.0805   ✗       
+712   +43.006QLLMAANPLGTRDLFVK -1.0000     NotChecked  -17.6103    1929.0506   ✗       
+713   +43.006QLLMAANPLTRPELFVK -1.0000     NotChecked  -17.6256    1983.0975   ✗       
+714   +43.006QLLMAANPLGLRPDLFVK-1.0000     NotChecked  -17.6314    2038.1398   ✗       
+715   +43.006QLLMAANPLMRDLFFK  -1.0000     NotChecked  -17.6471    1950.0219   ✗       
+716   +43.006QLLMAANPLTRPDLFLK -1.0000     NotChecked  -17.6890    1983.0975   ✗       
+717   +43.006QLLMAANPLGC+57.021RPDLGFK-1.0000     NotChecked  -17.6932    2043.0394   ✗       
+718   +43.006QLLMAANPLGARPDLFVK-1.0000     NotChecked  -17.6991    1996.0928   ✗       
+719   +43.006QLLMAANPLC+57.021RDLFVK-1.0000     NotChecked  -17.7279    1931.0121   ✗       
+720   GQLLMAANPLGMRDLFVK       -1.0000     NotChecked  -17.7325    1973.0591   ✗       
+721   +43.006QLLMAANPLMRPDLFVK -1.0000     NotChecked  -17.7445    1999.0747   ✗       
+722   +43.006QLLMAANPLGTRPDLFAK-1.0000     NotChecked  -17.7448    1998.0721   ✗       
+723   +43.006QLLMAANPLWRPDLGVK -1.0000     NotChecked  -17.7538    1964.0666   ✗       
+724   +43.006QLLMAANPLGMRGDLFVK-1.0000     NotChecked  -17.7796    2016.0649   ✗       
+725   +43.006QLLMAANPLGWRDLFVK -1.0000     NotChecked  -17.7826    2014.0822   ✗       
+726   +43.006QLLMAANPLGTRPDLGFK-1.0000     NotChecked  -17.7881    1984.0564   ✗       
+727   +43.006QLLMAANPLMRPDAFFK -1.0000     NotChecked  -17.7889    2005.0278   ✗       
+728   +43.006QLLMAANPLGMRPELGVK-1.0000     NotChecked  -17.8049    1980.0649   ✗       
+729   +43.006QLLMAANPLGSRPDLGVK-1.0000     NotChecked  -17.8050    1922.0408   ✗       
+730   +43.006QLLMAANPLMRPDLFVR -1.0000     NotChecked  -17.8135    2027.0809   ✗       
+731   +43.006QLLMAANPLTRDLFVK  -1.0000     NotChecked  -17.8228    1872.0291   ✗       
+732   GQLLMAANPLERPDLFVK       -1.0000     NotChecked  -17.8252    2011.0925   ✗       
+733   +43.006QLLMAANPLGERDLFVK -1.0000     NotChecked  -17.8297    1957.0455   ✗       
+734   +43.006QLLMAANPLGSRPELFVK-1.0000     NotChecked  -17.8491    2026.1034   ✗       
+735   +42.011QLLMAANPLGTRPDLFVK-1.0000     NotChecked  -17.8566    2025.1081   ✗       
+736   +43.006QLLMAANPLGMRPDLGLK-1.0000     NotChecked  -17.8683    1980.0649   ✗       
+737   +43.006QLLMAANPLC+57.021RPDAFVK-1.0000     NotChecked  -17.8696    1986.0179   ✗       
+738   GQLLMAANPLGMRPDAFVK      -1.0000     NotChecked  -17.8742    2028.0649   ✗       
+739   +43.006QLLMAANPLGTRSDLFVK-1.0000     NotChecked  -17.8924    2016.0826   ✗       
+740   +43.006QLLMAANPLGSRPDLFLK-1.0000     NotChecked  -17.9125    2026.1034   ✗       
+741   +43.006QLLMAANPLGMRPDLLVK-1.0000     NotChecked  -17.9215    2022.1118   ✗       
+742   +43.006QLLMAANPLGC+57.021RDLFFK-1.0000     NotChecked  -17.9345    2036.0336   ✗       
+743   +43.006QLLMAANPLGMRPDLFK -1.0000     NotChecked  -17.9388    1957.0278   ✗       
+744   +43.006QLLMAANPLMRDLFFK  -1.0000     NotChecked  -17.9410    1950.0219   ✗       
+745   +43.006QLLMAANPLTRPDAFVK -1.0000     NotChecked  -17.9645    1927.0349   ✗       
+746   +43.006QLLMAANPLGERPDAFVK-1.0000     NotChecked  -17.9714    2012.0513   ✗       
+747   +43.006QLLMAANPLWRDLFVK  -1.0000     NotChecked  -17.9951    1957.0608   ✗       
+748   GQLLMAANPLMRPDLGVK       -1.0000     NotChecked  -17.9975    1923.0434   ✗       
+749   +43.006QLLMAANPLGMRDLGVK -1.0000     NotChecked  -18.0021    1868.9965   ✗       
+750   +43.006QLLMAANPLMRPDLFGK -1.0000     NotChecked  -18.0128    1957.0278   ✗       
+751   +43.006QLLMAANPLMRPDLFEK -1.0000     NotChecked  -18.0216    2029.0489   ✗       
+752   +43.006QLLMAANPLC+57.021RDLFVK-1.0000     NotChecked  -18.0218    1931.0121   ✗       
+753   GQLLMAANPLTRPDLFFK       -1.0000     NotChecked  -18.0248    2031.0975   ✗       
+754   GQLLMAANPLGMRDLFVK       -1.0000     NotChecked  -18.0263    1973.0591   ✗       
+755   +43.006QLLMAANPLGTRDLFFK -1.0000     NotChecked  -18.0294    1977.0506   ✗       
+756   GQLLMAANPLMRPELFVK       -1.0000     NotChecked  -18.0416    2027.1060   ✗       
+757   GQLLMAANPLSRPDLFVK       -1.0000     NotChecked  -18.0417    1969.0819   ✗       
+758   +43.006QLLMAANPLGMRELFVK -1.0000     NotChecked  -18.0462    1973.0591   ✗       
+759   +43.006QLLMAANPLGSRDLFVK -1.0000     NotChecked  -18.0463    1915.0350   ✗       
+760   +43.006QLLMAANPLPMRPDLGVK-1.0000     NotChecked  -18.0633    2006.0805   ✗       
+761   LQLLMAANPLTRPDLFVK       -1.0000     NotChecked  -18.0817    2039.1601   ✗       
+762   +43.006QLLMAANPLERPDLGVK -1.0000     NotChecked  -18.0948    1907.0299   ✗       
+763   GQLLMAANPLMRPDLFLK       -1.0000     NotChecked  -18.1050    2027.1060   ✗       
+764   +43.006QLLMAANPLGMRDLFLK -1.0000     NotChecked  -18.1095    1973.0591   ✗       
+765   +43.006QLLMAANPLTRDLFVK  -1.0000     NotChecked  -18.1166    1872.0291   ✗       
+766   +43.006QLLMAANPLGERDLFVK -1.0000     NotChecked  -18.1235    1957.0455   ✗       
+767   +43.006QLLMAANPLGTRPDLFVK-1.0000     NotChecked  -18.1267    2026.1034   ✗       
+768   +43.006QLLMAANPLWRPDAFVK -1.0000     NotChecked  -18.1368    2012.0666   ✗       
+769   +43.006QLLMAANPLLRPDLFVK -1.0000     NotChecked  -18.1378    1981.1183   ✗       
+770   +43.006QLLMAANPLERPELFVK -1.0000     NotChecked  -18.1389    2011.0925   ✗       
+771   +43.006QLLMAANPLGMRPDAGVK-1.0000     NotChecked  -18.1438    1924.0023   ✗       
+772   +43.006QLLMAANPLC+57.021RPDLFAK-1.0000     NotChecked  -18.1564    2000.0336   ✗       
+773   GQLLMAANPLGMRPDLFAK      -1.0000     NotChecked  -18.1609    2042.0805   ✗       
+774   +43.006QLLMAANPLGTRPDAFFK-1.0000     NotChecked  -18.1711    2032.0564   ✗       
+775   +43.006QLLMAANPLGMRPEAFVK-1.0000     NotChecked  -18.1879    2028.0649   ✗       
+776   +43.006QLLMAANPLGSRPDAFVK-1.0000     NotChecked  -18.1880    1970.0408   ✗       
+777   +43.006QLLMAANPLC+57.021RPDLGFK-1.0000     NotChecked  -18.1996    1986.0179   ✗       
+778   +43.006QLLMAANPLERPDLFLK -1.0000     NotChecked  -18.2022    2011.0925   ✗       
+779   GQLLMAANPLGMRPDLGFK      -1.0000     NotChecked  -18.2041    2028.0649   ✗       
+780   +43.006QLLMAANPLARPDLFVK -1.0000     NotChecked  -18.2055    1939.0713   ✗       
+781   +43.006QLLMAANPLMRSDLFFK -1.0000     NotChecked  -18.2232    2037.0540   ✗       
+782   +43.006QLLMAANPLGC+57.021RDLFFK-1.0000     NotChecked  -18.2284    2036.0336   ✗       
+783   GQLLMAANPLMRDLFVK        -1.0000     NotChecked  -18.2388    1916.0376   ✗       
+784   +43.006QLLMAANPLTRPDLFAK -1.0000     NotChecked  -18.2512    1941.0506   ✗       
+785   +43.006QLLMAANPLGMRPDAFLK-1.0000     NotChecked  -18.2513    2028.0649   ✗       
+786   +43.006QLLMAANPLGERPDLFAK-1.0000     NotChecked  -18.2581    2026.0670   ✗       
+787   LQLLMAANPLGMRPDLGVK      -1.0000     NotChecked  -18.2610    2036.1275   ✗       
+788   SQLLMAANPLMRPDLFVK       -1.0000     NotChecked  -18.2652    2043.1009   ✗       
+789   +42.011QLLMAANPLC+57.021RPDLFVK-1.0000     NotChecked  -18.2681    2027.0696   ✗       
+790   GQLLMAANPLGC+57.021RPDLGVK-1.0000     NotChecked  -18.2849    2009.0550   ✗       
+791   +43.006QLLMAANPLMRGDLFVK -1.0000     NotChecked  -18.2859    1959.0434   ✗       
+792   +43.006QLLMAANPLWRDLFVK  -1.0000     NotChecked  -18.2889    1957.0608   ✗       
+793   +43.006QLLMAANPLTRPDLGFK -1.0000     NotChecked  -18.2944    1927.0349   ✗       
+794   +43.006QLLMAANPLMRPDLFVK -1.0000     NotChecked  -18.2948    1999.0747   ✗       
+795   +43.006QLLMAANPLGMRDLGVK -1.0000     NotChecked  -18.2959    1868.9965   ✗       
+796   +43.006QLLMAANPLGC+57.021RPDLFGK-1.0000     NotChecked  -18.3002    2043.0394   ✗       
+797   +43.006QLLMAANPLGERPDLGFK-1.0000     NotChecked  -18.3014    2012.0513   ✗       
+798   +43.006QLLMAANPLC+57.021RSDLFVK-1.0000     NotChecked  -18.3040    2018.0441   ✗       
+799   +43.006QLLMAANPLPMRDLFVK -1.0000     NotChecked  -18.3046    1999.0747   ✗       
+800   +43.006QLLMAANPLMRPELGVK -1.0000     NotChecked  -18.3112    1923.0434   ✗       
+801   +43.006QLLMAANPLSRPDLGVK -1.0000     NotChecked  -18.3113    1865.0193   ✗       
+802   +43.006QLLMAANPLGTRDLFFK -1.0000     NotChecked  -18.3232    1977.0506   ✗       
+803   +43.006QLLMAANPLERDLFVK  -1.0000     NotChecked  -18.3360    1900.0241   ✗       
+804   +43.006QLLMAANPLTRPELFFK -1.0000     NotChecked  -18.3385    2031.0975   ✗       
+805   +43.006QLLMAANPLGMRELFVK -1.0000     NotChecked  -18.3400    1973.0591   ✗       
+806   +43.006QLLMAANPLGSRDLFVK -1.0000     NotChecked  -18.3401    1915.0350   ✗       
+807   +43.006QLLMAANPLSRPELFVK -1.0000     NotChecked  -18.3554    1969.0819   ✗       
+808   +42.011QLLMAANPLTRPDLFVK -1.0000     NotChecked  -18.3630    1968.0866   ✗       
+809   +43.006QLLMAANPLMLRPDLGVK-1.0000     NotChecked  -18.3658    2022.1118   ✗       
+810   +43.006QLLMAANPLGMRPSLFVK-1.0000     NotChecked  -18.3693    2028.1013   ✗       
+811   +43.006QLLMAANPLMRPDLGLK -1.0000     NotChecked  -18.3746    1923.0434   ✗       
+812   +43.006QLLMAANPLGFRPDLGVK-1.0000     NotChecked  -18.3771    1982.0772   ✗       
+813   GQLLMAANPLGTRPDLGVK      -1.0000     NotChecked  -18.3797    1950.0721   ✗       
+814   GQLLMAANPLMRPDAFVK       -1.0000     NotChecked  -18.3805    1971.0434   ✗       
+815   +43.006QLLMAANPLYRPDLFVK -1.0000     NotChecked  -18.3824    2031.0976   ✗       
+816   +43.006QLLMAANPLGMRDAFVK -1.0000     NotChecked  -18.3851    1916.9965   ✗       
+817   +43.006QLLMAANPLGTRPDLFGK-1.0000     NotChecked  -18.3950    1984.0564   ✗       
+818   +43.006QLLMAANPLTRSDLFVK -1.0000     NotChecked  -18.3988    1959.0612   ✗       
+819   +43.006QLLMAANPLGMRDLFLK -1.0000     NotChecked  -18.4034    1973.0591   ✗       
+820   +43.006QLLMAANPLGERSDLFVK-1.0000     NotChecked  -18.4057    2044.0775   ✗       
+821   +43.006QLLMAANPLGARPDLFFK-1.0000     NotChecked  -18.4121    2044.0928   ✗       
+822   +43.006QLLMAANPLMRPELFLK -1.0000     NotChecked  -18.4187    2027.1060   ✗       
+823   +43.006QLLMAANPLSRPDLFLK -1.0000     NotChecked  -18.4188    1969.0819   ✗       
+824   +43.006QLLMAANPLWRPDLFAK -1.0000     NotChecked  -18.4235    2026.0822   ✗       
+825   +43.006QLLMAANPLMRPDLLVK -1.0000     NotChecked  -18.4278    1965.0904   ✗       
+826   +43.006QLLMAANPLGMRPDLGAK-1.0000     NotChecked  -18.4305    1938.0179   ✗       
+827   +43.006QLLMAANPLC+57.021RDLFFK-1.0000     NotChecked  -18.4409    1979.0121   ✗       
+828   +43.006QLLMAANPLMRPDLFK  -1.0000     NotChecked  -18.4451    1900.0063   ✗       
+829   GQLLMAANPLGMRDLFFK       -1.0000     NotChecked  -18.4454    2021.0591   ✗       
+830   +43.006QLLMAANPLMSRPDLGVK-1.0000     NotChecked  -18.4575    1996.0598   ✗       
+831   QLLMAANPLGMRPDLFVK       -1.0000     NotChecked  -18.4646    2013.0904   ✗       
+832   +43.006QLLMAANPLWRPDLGFK -1.0000     NotChecked  -18.4667    2012.0666   ✗       
+833   +43.006QLLMAANPLGMRPELFAK-1.0000     NotChecked  -18.4746    2042.0805   ✗       
+834   +43.006QLLMAANPLGSRPDLFAK-1.0000     NotChecked  -18.4747    1984.0564   ✗       
+835   +43.006QLLMAANPLERPDAFVK -1.0000     NotChecked  -18.4778    1955.0299   ✗       
+836   +43.006QLLMAANPLGMRADLFVK-1.0000     NotChecked  -18.4927    2030.0805   ✗       
+837   +43.006QLLMAANPLSMRPDLGVK-1.0000     NotChecked  -18.5010    1996.0598   ✗       
+838   +43.006QLLMAANPLSSRPDLFVK-1.0000     NotChecked  -18.5017    2042.0983   ✗       
+839   LQLLMAANPLGMRDLFVK       -1.0000     NotChecked  -18.5022    2029.1217   ✗       
+840   +43.006QLLMAANPLMRDLGVK  -1.0000     NotChecked  -18.5084    1811.9750   ✗       
+841   +43.006QLLMAANPLGMRPELGFK-1.0000     NotChecked  -18.5178    2028.0649   ✗       
+842   +43.006QLLMAANPLGSRPDLGFK-1.0000     NotChecked  -18.5179    1970.0408   ✗       
+843   GQLLMAANPLGC+57.021RDLFVK-1.0000     NotChecked  -18.5262    2002.0492   ✗       
+844   GQLLMAANPLMRDLFVK        -1.0000     NotChecked  -18.5327    1916.0376   ✗       
+845   +43.006QLLMAANPLTRDLFFK  -1.0000     NotChecked  -18.5357    1920.0291   ✗       
+846   +43.006QLLMAANPLC+57.021RPDLFVK-1.0000     NotChecked  -18.5382    2028.0649   ✗       
+847   +42.011QLLMAANPLGMRPDLGVK-1.0000     NotChecked  -18.5423    1965.0540   ✗       
+848   +43.006QLLMAANPLGERDLFFK -1.0000     NotChecked  -18.5426    2005.0455   ✗       
+849   +43.006QLLMAANPLSRPDLFVK -1.0000     NotChecked  -18.5452    1955.0663   ✗       
+850   GQLLMAANPLGWRPDLGVK      -1.0000     NotChecked  -18.5521    2035.1037   ✗       
+851   +43.006QLLMAANPLMRELFVK  -1.0000     NotChecked  -18.5525    1916.0376   ✗       
+852   +43.006QLLMAANPLSRDLFVK  -1.0000     NotChecked  -18.5526    1858.0135   ✗       
+853   +43.006QLLMAANPLMREDLFVK -1.0000     NotChecked  -18.5627    2031.0645   ✗       
+854   +43.006QLLMAANPLWRSDLFVK -1.0000     NotChecked  -18.5711    2044.0928   ✗       
+855   +43.006QLLMAANPLGMRSDLGVK-1.0000     NotChecked  -18.5781    1956.0285   ✗       
+856   +43.006QLLMAANPLC+57.021RPDAFFK-1.0000     NotChecked  -18.5826    2034.0179   ✗       
+857   +42.011QLLMAANPLGSRPDLFVK-1.0000     NotChecked  -18.5865    2011.0925   ✗       
+858   +43.006QLLMAANPLGMRPDLSVK-1.0000     NotChecked  -18.5929    1996.0598   ✗       
+859   +43.006QLLMAANPLPMRDLFVK -1.0000     NotChecked  -18.5984    1999.0747   ✗       
+860   +43.006QLLMAANPLGC+57.021RPELGVK-1.0000     NotChecked  -18.5986    2009.0550   ✗       
+861   +43.006QLLMAANPLMLRDLFVK -1.0000     NotChecked  -18.6071    2015.1060   ✗       
+862   GQLLMAANPLFRPDLFVK       -1.0000     NotChecked  -18.6138    2029.1183   ✗       
+863   +43.006QLLMAANPLMRDLFLK  -1.0000     NotChecked  -18.6159    1916.0376   ✗       
+864   +43.006QLLMAANPLGFRDLFVK -1.0000     NotChecked  -18.6184    1975.0713   ✗       
+865   GQLLMAANPLGTRDLFVK       -1.0000     NotChecked  -18.6210    1943.0662   ✗       
+866   +43.006QLLMAANPLGSRSDLFVK-1.0000     NotChecked  -18.6223    2002.0670   ✗       
+867   +43.006QLLMAANPLERDLFVK  -1.0000     NotChecked  -18.6299    1900.0241   ✗       
+868   +43.006QLLMAANPLTRPDLFVK -1.0000     NotChecked  -18.6330    1969.0819   ✗       
+869   +43.006QLLMAANPLMRPDAGVK -1.0000     NotChecked  -18.6501    1866.9808   ✗       
+870   +43.006QLLMAANPLGMRPDLAVK-1.0000     NotChecked  -18.6519    1980.0649   ✗       
+871   +43.006QLLMAANPLGMRPVLFVK-1.0000     NotChecked  -18.6552    2040.1376   ✗       
+872   +43.006QLLMAANPLGC+57.021RPDLGLK-1.0000     NotChecked  -18.6620    2009.0550   ✗       
+873   GQLLMAANPLMRPDLFAK       -1.0000     NotChecked  -18.6672    1985.0591   ✗       
+874   +43.006QLLMAANPLGTRGDLFVK-1.0000     NotChecked  -18.6682    1986.0721   ✗       
+875   +43.006QLLMAANPLGMRDLFAK -1.0000     NotChecked  -18.6718    1931.0121   ✗       
+876   +43.006QLLMAANPLGTRPDLFVK-1.0000     NotChecked  -18.6770    2026.1034   ✗       
+877   +43.006QLLMAANPLTRPDAFFK -1.0000     NotChecked  -18.6774    1975.0349   ✗       
+878   +43.006QLLMAANPLGMRDAFVK -1.0000     NotChecked  -18.6789    1916.9965   ✗       
+879   +43.006QLLMAANPLGTRPELGVK-1.0000     NotChecked  -18.6934    1950.0721   ✗       
+880   +43.006QLLMAANPLMRPEAFVK -1.0000     NotChecked  -18.6942    1971.0434   ✗       
+881   +43.006QLLMAANPLSRPDAFVK -1.0000     NotChecked  -18.6943    1913.0193   ✗       
+882   +43.006QLLMAANPLMSRDLFVK -1.0000     NotChecked  -18.6988    1989.0540   ✗       
+883   +43.006QLLMAANPLTRPDLFVR -1.0000     NotChecked  -18.7021    1997.0880   ✗       
+884   +43.006QLLMAANPLWRDLFFK  -1.0000     NotChecked  -18.7080    2005.0608   ✗       
+885   GQLLMAANPLMRPDLGFK       -1.0000     NotChecked  -18.7105    1971.0434   ✗       
+886   +43.006QLLMAANPLGMRDLGFK -1.0000     NotChecked  -18.7150    1916.9965   ✗       
+887   +43.006QLLMAANPLGC+57.021RPDLFK-1.0000     NotChecked  -18.7325    1986.0179   ✗       
+888   +43.006QLLMAANPLC+57.021RDLFFK-1.0000     NotChecked  -18.7347    1979.0121   ✗       
+889   GQLLMAANPLGMRDLFFK       -1.0000     NotChecked  -18.7393    2021.0591   ✗       
+890   +43.006QLLMAANPLSMRDLFVK -1.0000     NotChecked  -18.7423    1989.0540   ✗       
+891   +43.006QLLMAANPLMRPDLFDK -1.0000     NotChecked  -18.7505    2015.0332   ✗       
+892   GQLLMAANPLSRPDLFFK       -1.0000     NotChecked  -18.7547    2017.0819   ✗       
+893   +43.006QLLMAANPLGTRPDLGLK-1.0000     NotChecked  -18.7568    1950.0721   ✗       
+894   +43.006QLLMAANPLMRPDAFLK -1.0000     NotChecked  -18.7576    1971.0434   ✗       
+895   +43.006QLLMAANPLGMRELFFK -1.0000     NotChecked  -18.7591    2021.0591   ✗       
+896   +43.006QLLMAANPLGSRDLFFK -1.0000     NotChecked  -18.7592    1963.0350   ✗       
+897   +43.006QLLMAANPLGFRPDAFVK-1.0000     NotChecked  -18.7601    2030.0772   ✗       
+898   GQLLMAANPLGTRPDAFVK      -1.0000     NotChecked  -18.7627    1998.0721   ✗       
+899   +43.006QLLMAANPLERPDLFAK -1.0000     NotChecked  -18.7645    1969.0455   ✗       
+900   LQLLMAANPLMRPDLGVK       -1.0000     NotChecked  -18.7673    1979.1060   ✗       
+901   +43.006QLLMAANPLGMRPLFVK -1.0000     NotChecked  -18.7790    1941.0692   ✗       
+902   +42.011QLLMAANPLGMRDLFVK -1.0000     NotChecked  -18.7836    1958.0482   ✗       
+903   GQLLMAANPLC+57.021RPDLGVK-1.0000     NotChecked  -18.7913    1952.0336   ✗       
+904   GQLLMAANPLGWRDLFVK       -1.0000     NotChecked  -18.7933    2028.0979   ✗       
+905   +43.006QLLMAANPLGC+57.021RDLGVK-1.0000     NotChecked  -18.7958    1897.9866   ✗       
+906   LQLLMAANPLGMRDLFVK       -1.0000     NotChecked  -18.7961    2029.1217   ✗       
+907   +43.006QLLMAANPLMRDLGVK  -1.0000     NotChecked  -18.8023    1811.9750   ✗       
+908   +43.006QLLMAANPLC+57.021RPDLFGK-1.0000     NotChecked  -18.8065    1986.0179   ✗       
+909   +43.006QLLMAANPLERPDLGFK -1.0000     NotChecked  -18.8077    1955.0299   ✗       
+910   +43.006QLLMAANPLGTRPDLLVK-1.0000     NotChecked  -18.8100    1992.1190   ✗       
+911   GQLLMAANPLGMRPDLFGK      -1.0000     NotChecked  -18.8111    2028.0649   ✗       
+912   LQLLMAANPLSRPDLFVK       -1.0000     NotChecked  -18.8115    2025.1445   ✗       
+913   +43.006QLLMAANPLGMRPDLGVK-1.0000     NotChecked  -18.8123    1966.0492   ✗       
+914   +43.006QLLMAANPLGMRPDAFAK-1.0000     NotChecked  -18.8135    1986.0179   ✗       
+915   GQLLMAANPLMRSDLFVK       -1.0000     NotChecked  -18.8148    2003.0696   ✗       
+916   GQLLMAANPLGC+57.021RDLFVK-1.0000     NotChecked  -18.8200    2002.0492   ✗       
+917   +43.006QLLMAANPLGTRPDLFK -1.0000     NotChecked  -18.8274    1927.0349   ✗       
+918   +43.006QLLMAANPLTRDLFFK  -1.0000     NotChecked  -18.8295    1920.0291   ✗       
+919   +43.006QLLMAANPLGERDLFFK -1.0000     NotChecked  -18.8365    2005.0455   ✗       
+920   +43.006QLLMAANPLGTSRPDLGVK-1.0000     NotChecked  -18.8398    2023.0884   ✗       
+921   +43.006QLLMAANPLGC+57.021RELFVK-1.0000     NotChecked  -18.8399    2002.0492   ✗       
+922   +43.006QLLMAANPLMSRPDAFVK-1.0000     NotChecked  -18.8405    2044.0598   ✗       
+923   +43.006QLLMAANPLMRELFVK  -1.0000     NotChecked  -18.8464    1916.0376   ✗       
+924   +43.006QLLMAANPLSRDLFVK  -1.0000     NotChecked  -18.8465    1858.0135   ✗       
+925   +43.006QLLMAANPLLRPDLFFK -1.0000     NotChecked  -18.8507    2029.1183   ✗       
+926   +43.006QLLMAANPLGSRPDLFVK-1.0000     NotChecked  -18.8565    2012.0877   ✗       
+927   +43.006QLLMAANPLGMRPDAGFK-1.0000     NotChecked  -18.8567    1972.0023   ✗       
+928   +43.006QLLMAANPLPC+57.021RPDLGVK-1.0000     NotChecked  -18.8570    2035.0707   ✗       
+929   +43.006QLLMAANPLGWRPELGVK-1.0000     NotChecked  -18.8658    2035.1037   ✗       
+930   +43.006QLLMAANPLMRPSLFVK -1.0000     NotChecked  -18.8756    1971.0798   ✗       
+931   +42.011QLLMAANPLERPDLFVK -1.0000     NotChecked  -18.8762    1996.0816   ✗       
+932   +43.006QLLMAANPLGMRPDLGVR-1.0000     NotChecked  -18.8814    1994.0554   ✗       
+933   +43.006QLLMAANPLFRPDLGVK -1.0000     NotChecked  -18.8834    1925.0557   ✗       
+934   +43.006QLLMAANPLSMRPDAFVK-1.0000     NotChecked  -18.8840    2044.0598   ✗       
+935   GQLLMAANPLTRPDLGVK       -1.0000     NotChecked  -18.8861    1893.0506   ✗       
+936   +43.006QLLMAANPLGTRDLGVK -1.0000     NotChecked  -18.8906    1839.0036   ✗       
+937   +43.006QLLMAANPLMRDAFVK  -1.0000     NotChecked  -18.8914    1859.9750   ✗       
+938   GQLLMAANPLGERPDLGVK      -1.0000     NotChecked  -18.8930    1978.0670   ✗       
+939   +43.006QLLMAANPLMLRDLFVK -1.0000     NotChecked  -18.9009    2015.1060   ✗       
+940   +43.006QLLMAANPLGSRPDAFFK-1.0000     NotChecked  -18.9009    2018.0408   ✗       
+941   +43.006QLLMAANPLTRPDLFGK -1.0000     NotChecked  -18.9014    1927.0349   ✗       
+942   +43.006QLLMAANPLGC+57.021RDLFLK-1.0000     NotChecked  -18.9033    2002.0492   ✗       
+943   +43.006QLLMAANPLGMRPDLTVK-1.0000     NotChecked  -18.9077    2010.0754   ✗       
+944   +43.006QLLMAANPLGERPDLFGK-1.0000     NotChecked  -18.9083    2012.0513   ✗       
+945   +43.006QLLMAANPLMRDLFLK  -1.0000     NotChecked  -18.9097    1916.0376   ✗       
+946   +43.006QLLMAANPLGMRPGLFVK-1.0000     NotChecked  -18.9099    1998.0907   ✗       
+947   +43.006QLLMAANPLTRPDLFEK -1.0000     NotChecked  -18.9101    1999.0561   ✗       
+948   +43.006QLLMAANPLGMLPDLFVK-1.0000     NotChecked  -18.9110    2013.0791   ✗       
+949   +43.006QLLMAANPLERSDLFVK -1.0000     NotChecked  -18.9121    1987.0561   ✗       
+950   +43.006QLLMAANPLGFRDLFVK -1.0000     NotChecked  -18.9122    1975.0713   ✗       
+951   GQLLMAANPLGTRDLFVK       -1.0000     NotChecked  -18.9149    1943.0662   ✗       
+952   +43.006QLLMAANPLARPDLFFK -1.0000     NotChecked  -18.9184    1987.0713   ✗       
+953   +42.011QLLMAANPLGMRPDAFVK-1.0000     NotChecked  -18.9253    2013.0540   ✗       
+954   +43.006QLLMAANPLGSRPDLFVR-1.0000     NotChecked  -18.9256    2040.0939   ✗       
+955   +43.006QLLMAANPLFRPELFVK -1.0000     NotChecked  -18.9275    2029.1183   ✗       
+956   +43.006QLLMAANPLGWRPDLGLK-1.0000     NotChecked  -18.9291    2035.1037   ✗       
+957   GQLLMAANPLTRPELFVK       -1.0000     NotChecked  -18.9302    1997.1132   ✗       
+958   +43.006QLLMAANPLGTRELFVK -1.0000     NotChecked  -18.9347    1943.0662   ✗       
+959   +43.006QLLMAANPLMRPDLGAK -1.0000     NotChecked  -18.9368    1880.9965   ✗       
+960   +43.006QLLMAANPLGC+57.021RPDAGVK-1.0000     NotChecked  -18.9375    1952.9924   ✗       
+961   GQLLMAANPLMRDLFFK        -1.0000     NotChecked  -18.9518    1964.0376   ✗       
+962   +43.006QLLMAANPLPTRPDLGVK-1.0000     NotChecked  -18.9519    1976.0877   ✗       
+963   +43.006QLLMAANPLGMRSDAFVK-1.0000     NotChecked  -18.9611    2004.0285   ✗       
+964   +43.006QLLMAANPLGMRDLFAK -1.0000     NotChecked  -18.9656    1931.0121   ✗       
+965   QLLMAANPLMRPDLFVK        -1.0000     NotChecked  -18.9709    1956.0689   ✗       
+966   +43.006QLLMAANPLGMRPALFVK-1.0000     NotChecked  -18.9748    2012.1063   ✗       
+967   +43.006QLLMAANPLGMRPDFVK -1.0000     NotChecked  -18.9798    1943.0121   ✗       
+968   +43.006QLLMAANPLMRPELFAK -1.0000     NotChecked  -18.9809    1985.0591   ✗       
+969   +43.006QLLMAANPLSRPDLFAK -1.0000     NotChecked  -18.9810    1927.0350   ✗       
+970   +43.006QLLMAANPLGTLRDLFVK-1.0000     NotChecked  -18.9893    2042.1347   ✗       
+971   +43.006QLLMAANPLFRPDLFLK -1.0000     NotChecked  -18.9909    2029.1183   ✗       
+972   +43.006QLLMAANPLMSRDLFVK -1.0000     NotChecked  -18.9927    1989.0540   ✗       
+973   GQLLMAANPLTRPDLFLK       -1.0000     NotChecked  -18.9936    1997.1132   ✗       
+974   +43.006QLLMAANPLGTRDLFLK -1.0000     NotChecked  -18.9981    1943.0662   ✗       
+975   +43.006QLLMAANPLMRGDLFFK -1.0000     NotChecked  -18.9989    2007.0434   ✗       
+976   +43.006QLLMAANPLMRADLFVK -1.0000     NotChecked  -18.9990    1973.0591   ✗       
+977   +43.006QLLMAANPLGWRPDLFK -1.0000     NotChecked  -18.9997    2012.0666   ✗       
+978   +43.006QLLMAANPLWRDLFFK  -1.0000     NotChecked  -19.0019    2005.0608   ✗       
+979   +43.006QLLMAANPLGMSPDLFVK-1.0000     NotChecked  -19.0027    1987.0271   ✗       
+980   GQLLMAANPLGARPDLFVK      -1.0000     NotChecked  -19.0037    2010.1085   ✗       
+981   LQLLMAANPLMRDLFVK        -1.0000     NotChecked  -19.0086    1972.1002   ✗       
+982   VQLLMAANPLTRPDLFVK       -1.0000     NotChecked  -19.0088    2025.1445   ✗       
+983   +43.006QLLMAANPLGMRDLGFK -1.0000     NotChecked  -19.0089    1916.9965   ✗       
+984   +43.006QLLMAANPLMRPELGFK -1.0000     NotChecked  -19.0242    1971.0434   ✗       
+985   +43.006QLLMAANPLSRPDLGFK -1.0000     NotChecked  -19.0243    1913.0193   ✗       
+986   +43.006QLLMAANPLGTRPDAGVK-1.0000     NotChecked  -19.0323    1894.0095   ✗       
+987   GQLLMAANPLC+57.021RDLFVK -1.0000     NotChecked  -19.0325    1945.0278   ✗       
+988   +43.006QLLMAANPLSMRDLFVK -1.0000     NotChecked  -19.0361    1989.0540   ✗       
+989   +43.006QLLMAANPLMTRPDLGVK-1.0000     NotChecked  -19.0375    2010.0754   ✗       
+990   +43.006QLLMAANPLGFRPDLFAK-1.0000     NotChecked  -19.0468    2044.0928   ✗       
+991   +42.011QLLMAANPLMRPDLGVK -1.0000     NotChecked  -19.0486    1908.0325   ✗       
+992   +43.006QLLMAANPLERDLFFK  -1.0000     NotChecked  -19.0490    1948.0241   ✗       
+993   GQLLMAANPLMRPDLFVK       -1.0000     NotChecked  -19.0491    2013.0904   ✗       
+994   GQLLMAANPLGTRPDLFAK      -1.0000     NotChecked  -19.0495    2012.0877   ✗       
+995   +43.006QLLMAANPLGMRELFFK -1.0000     NotChecked  -19.0530    2021.0591   ✗       
+996   +43.006QLLMAANPLGSRDLFFK -1.0000     NotChecked  -19.0531    1963.0350   ✗       
+997   GQLLMAANPLWRPDLGVK       -1.0000     NotChecked  -19.0584    1978.0822   ✗       
+998   +43.006QLLMAANPLTARPDLFVK-1.0000     NotChecked  -19.0603    2040.1190   ✗       
+999   +43.006QLLMAANPLGWRDLGVK -1.0000     NotChecked  -19.0630    1924.0353   ✗       
+1000  +43.006QLLMAANPLSRPELFFK -1.0000     NotChecked  -19.0684    2017.0819   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: AQ+0.984LLMAANPLGMRGDLFVK
+Similarity: 0.5676
+De Novo Score: -14.0330
+Source: Prosit
+Correct: ✗
+

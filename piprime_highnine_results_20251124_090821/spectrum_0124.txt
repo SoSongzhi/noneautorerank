@@ -1,0 +1,1042 @@
+================================================================================
+Spectrum 124
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 853.9339
+Precursor charge: 2+
+Ground truth: IIDESNVIDSGFIER
+Ground truth (normalized): IIDESNVIDSGFIER
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 57
+Used for reranking: 57
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 57 (5.7%)
+Database matches: 0 (0.0%)
+Prosit predictions: 54 (5.4%)
+Failed: 3 (0.3%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✗ (not in top 1000 candidates)
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     LLDESNVLDTFN+0.984GLR    0.3665      Prosit      -8.9671     1705.8523   ✓       
+2     FLDESNVLDSLEGLR          0.3276      Prosit      -14.6306    1705.8523   ✓       
+3     LLDESNVLN+0.984SFEGLR    0.3262      Prosit      -5.6597     1705.8523   ✓       
+4     LLDESNVLN+0.984SFEGLR    0.3262      Prosit      -9.4086     1705.8523   ✓       
+5     LLEESNVLDSFDGLR          0.3225      Prosit      -10.2693    1705.8523   ✓       
+6     LLDESNVLDFTDGLR          0.3182      Prosit      -8.9978     1705.8523   ✓       
+7     LLDESNVLDSEFGLR          0.3151      Prosit      -8.4781     1705.8523   ✓       
+8     LLDESNVLDAYEGLR          0.3126      Prosit      -7.6034     1705.8523   ✓       
+9     LLDESNVLDYAQ+0.984GLR    0.3118      Prosit      -10.0972    1705.8523   ✓       
+10    LLDESNVLDSFQ+0.984GLR    0.3108      Prosit      -5.6496     1705.8523   ✓       
+11    LLDESNVLDSFQ+0.984GLR    0.3108      Prosit      -9.3985     1705.8523   ✓       
+12    LLN+0.984ESNVLDSLYGLR    0.3104      Prosit      -10.2678    1705.8887   ✓       
+13    LLDESNVLN+0.984SFELGR    0.3095      Prosit      -10.4720    1705.8523   ✓       
+14    LLN+0.984ESNVLDSFQ+0.984GLR0.3088      Prosit      -8.4233     1705.8523   ✓       
+15    LLDESNVLDSLYGLR          0.3088      Prosit      -7.4941     1705.8887   ✓       
+16    LLDESNVLN+0.984TFDGLR    0.3074      Prosit      -9.7310     1705.8523   ✓       
+17    LLDQ+0.984SNVLDSFEGLR    0.3073      Prosit      -5.5896     1705.8523   ✓       
+18    LLDQ+0.984SNVLDSFEGLR    0.3073      Prosit      -9.3385     1705.8523   ✓       
+19    LLDESNVLDTFDGLR          0.3060      Prosit      -5.7342     1705.8523   ✓       
+20    LLDESNVLDTFDGLR          0.3060      Prosit      -9.4831     1705.8523   ✓       
+21    LLDESNVLN+0.984YAEGLR    0.3052      Prosit      -10.1073    1705.8523   ✓       
+22    LLN+0.984ESNVLN+0.984SFEGLR0.3043      Prosit      -8.4334     1705.8523   ✓       
+23    LLN+0.984ESNVLDSFELGR    0.3025      Prosit      -9.2489     1705.8523   ✓       
+24    LLN+0.984Q+0.984SNVLDSFEGLR0.3015      Prosit      -8.3633     1705.8523   ✓       
+25    LLDESNVLDTFEGVR          0.2998      Prosit      -9.8580     1705.8523   ✓       
+26    LLN+0.984ESNVLDSFEGLR    0.2990      Prosit      -4.4366     1705.8523   ✓       
+27    LLN+0.984ESNVLDSFEGLR    0.2990      Prosit      -8.1855     1705.8523   ✓       
+28    LLDQ+0.984SNVLN+0.984SFEGLR0.2988      Prosit      -9.5864     1705.8523   ✓       
+29    LLN+0.984ESNVLDAYEGLR    0.2972      Prosit      -10.3770    1705.8523   ✓       
+30    LLDESNVLDSFEGLR          0.2941      Prosit      -1.6629     1705.8523   ✓       
+31    LLDESNVLDSFEGLR          0.2941      Prosit      -5.4118     1705.8523   ✓       
+32    LLDESNVLDSFEGLR          0.2941      Prosit      -8.1889     1705.8523   ✓       
+33    LLDESNVLDSFEGLR          0.2941      Prosit      -10.3743    1705.8523   ✓       
+34    LLDESNVLDYAEGLR          0.2935      Prosit      -6.1105     1705.8523   ✓       
+35    LLDESNVLDYAEGLR          0.2935      Prosit      -9.8594     1705.8523   ✓       
+36    LLDESNVLDSFQ+0.984LGR    0.2932      Prosit      -10.4619    1705.8523   ✓       
+37    LLDQ+0.984SNVLDSFELGR    0.2918      Prosit      -10.4019    1705.8523   ✓       
+38    LLDESNVLDSFELGR          0.2917      Prosit      -6.4752     1705.8523   ✓       
+39    LLDESNVLDSFELGR          0.2917      Prosit      -10.2241    1705.8523   ✓       
+40    LLDESNVLN+0.984SFQ+0.984GLR0.2899      Prosit      -9.6464     1705.8523   ✓       
+41    LLDQ+0.984SNVLDYAEGLR    0.2862      Prosit      -10.0372    1705.8523   ✓       
+42    LLDESNVLDSYLGLR          0.2839      Prosit      -6.8600     1705.8887   ✓       
+43    LLN+0.984ESNVLDSYLGLR    0.2784      Prosit      -9.6337     1705.8887   ✓       
+44    ELDESNVLDSFLGLR          0.2780      Prosit      -16.2195    1705.8523   ✓       
+45    LLDQ+0.984SNVLDTFDGLR    0.2657      Prosit      -9.6609     1705.8523   ✓       
+46    LLN+0.984ESNVLDSFDALR    0.2498      Prosit      -9.5552     1705.8523   ✓       
+47    LLDESNVLDSFN+0.984ALR    0.2483      Prosit      -10.0144    1705.8523   ✓       
+48    LLDESNVLDSFDALR          0.2450      Prosit      -6.7815     1705.8523   ✓       
+49    LLDESNVLDSFDALR          0.2450      Prosit      -10.5304    1705.8523   ✓       
+50    LLDESNVLDSFDLAR          0.2419      Prosit      -9.2702     1705.8523   ✓       
+51    LLN+0.984ESNVLDTFDGLR    0.2404      Prosit      -8.5079     1705.8523   ✓       
+52    FLDESNVLDSADLLR          0.2252      Prosit      -16.0574    1705.8523   ✓       
+53    ALDESNVLDSFDLLR          0.2102      Prosit      -15.6973    1705.8523   ✓       
+54    GLDESNVLDSFELLR          0.2075      Prosit      -14.6587    1705.8523   ✓       
+55    LLDESNVLDSFDGLR          -1.0000     NotChecked  -1.8455     1691.8366   ✗       
+56    LLDESNVLDSAEGLR          -1.0000     NotChecked  -3.6985     1629.8210   ✗       
+57    LLDESNVLDSADGLR          -1.0000     NotChecked  -3.8811     1615.8053   ✗       
+58    LLDESNVLDSFEGGR          -1.0000     NotChecked  -4.0005     1649.7897   ✗       
+59    LLDESNVLDSFDGGR          -1.0000     NotChecked  -4.1831     1635.7740   ✗       
+60    LLDESNVLDSFLGLR          -1.0000     NotChecked  -4.3257     1689.8937   ✗       
+61    LLN+0.984ESNVLDSFDGLR    -1.0000     NotChecked  -4.6192     1691.8366   ✗       
+62    LLDESNVLDSLEGLR          -1.0000     NotChecked  -4.9291     1671.8679   ✗       
+63    LLDESNVLDAFEGLR          -1.0000     NotChecked  -5.0690     1689.8574   ✗       
+64    LLDESNVLDSFN+0.984GLR    -1.0000     NotChecked  -5.0784     1691.8366   ✗       
+65    LLDESNVLDSLDGLR          -1.0000     NotChecked  -5.1117     1657.8523   ✗       
+66    LLDESNVLDAFDGLR          -1.0000     NotChecked  -5.2516     1675.8417   ✗       
+67    LLDESNVLDSFAGLR          -1.0000     NotChecked  -5.2791     1647.8468   ✗       
+68    LLDESNVLDSAFGLR          -1.0000     NotChecked  -5.2994     1647.8468   ✗       
+69    LLDESNVLDSFDGLR          -1.0000     NotChecked  -5.5944     1691.8366   ✗       
+70    LLDESNVLDSFFGGR          -1.0000     NotChecked  -5.6014     1667.8155   ✗       
+71    LLDQ+0.984SNVLDSFDGLR    -1.0000     NotChecked  -5.7722     1691.8366   ✗       
+72    LLDESNVLDSFGGLR          -1.0000     NotChecked  -5.7997     1633.8311   ✗       
+73    LLDESNVLN+0.984SFDGLR    -1.0000     NotChecked  -5.8423     1691.8366   ✗       
+74    LLDESNVLDSPEGLR          -1.0000     NotChecked  -5.9373     1655.8366   ✗       
+75    LLDESNVLDSFSGLR          -1.0000     NotChecked  -5.9430     1663.8417   ✗       
+76    LLDESNVLDSFEGVR          -1.0000     NotChecked  -5.9693     1691.8366   ✗       
+77    LLDESNVLDSAEGGR          -1.0000     NotChecked  -6.0361     1573.7584   ✗       
+78    LLDESNVLDSPDGLR          -1.0000     NotChecked  -6.1199     1641.8210   ✗       
+79    LLDESNVLDFAEGLR          -1.0000     NotChecked  -6.1298     1689.8574   ✗       
+80    LLDESNVLDSFDGVR          -1.0000     NotChecked  -6.1519     1677.8210   ✗       
+81    LLDESNVLDSAELLR          -1.0000     NotChecked  -6.1733     1685.8836   ✗       
+82    LLDESNVLDSADGGR          -1.0000     NotChecked  -6.2186     1559.7427   ✗       
+83    LLDESNVLDSAYGLR          -1.0000     NotChecked  -6.2636     1663.8417   ✗       
+84    LLDESNVLDYADGLR          -1.0000     NotChecked  -6.2931     1691.8366   ✗       
+85    LLDESNVLDFADGLR          -1.0000     NotChecked  -6.3124     1675.8417   ✗       
+86    LLDESNVLDSADLLR          -1.0000     NotChecked  -6.3559     1671.8679   ✗       
+87    LLDESNVLDSALGLR          -1.0000     NotChecked  -6.3613     1613.8624   ✗       
+88    LLDESNVLDSTEGLR          -1.0000     NotChecked  -6.3839     1659.8315   ✗       
+89    LLN+0.984ESNVLDSAEGLR    -1.0000     NotChecked  -6.4722     1629.8210   ✗       
+90    LLDESNVLDSLFGLR          -1.0000     NotChecked  -6.5300     1689.8937   ✗       
+91    LLDESNVLDSYEGGR          -1.0000     NotChecked  -6.5348     1665.7846   ✗       
+92    LLDESNVLDSFYGGR          -1.0000     NotChecked  -6.5655     1683.8104   ✗       
+93    LLDESNVLDSTDGLR          -1.0000     NotChecked  -6.5665     1645.8159   ✗       
+94    LLDESNVLDSFEGAR          -1.0000     NotChecked  -6.6128     1663.8053   ✗       
+95    LLDESNVLDFFDGGR          -1.0000     NotChecked  -6.6144     1695.8104   ✗       
+96    LLN+0.984ESNVLDSADGLR    -1.0000     NotChecked  -6.6548     1615.8053   ✗       
+97    LLDESNVLDSFDLGR          -1.0000     NotChecked  -6.6578     1691.8366   ✗       
+98    LLDESNVLDSFLGGR          -1.0000     NotChecked  -6.6633     1633.8311   ✗       
+99    LLDESNVLDSYDGGR          -1.0000     NotChecked  -6.7174     1651.7689   ✗       
+100   LLN+0.984ESNVLDSFEGGR    -1.0000     NotChecked  -6.7741     1649.7897   ✗       
+101   LLDESNVLDSFDGAR          -1.0000     NotChecked  -6.7954     1649.7897   ✗       
+102   LLDESNVLDSEEGLR          -1.0000     NotChecked  -6.8772     1687.8265   ✗       
+103   LLDESNVLDSSEGLR          -1.0000     NotChecked  -6.8857     1645.8159   ✗       
+104   LLN+0.984ESNVLDSFDGGR    -1.0000     NotChecked  -6.9567     1635.7740   ✗       
+105   LLDESNVLDSRDGLR          -1.0000     NotChecked  -7.0582     1700.8693   ✗       
+106   LLDESNVLDSEDGLR          -1.0000     NotChecked  -7.0598     1673.8108   ✗       
+107   LLDESNVLDSSDGLR          -1.0000     NotChecked  -7.0682     1631.8002   ✗       
+108   LLN+0.984ESNVLDSFLGLR    -1.0000     NotChecked  -7.0994     1689.8937   ✗       
+109   LLDESNVLDAAEGLR          -1.0000     NotChecked  -7.1046     1613.8261   ✗       
+110   LLDESNVLDSAN+0.984GLR    -1.0000     NotChecked  -7.1140     1615.8053   ✗       
+111   LLDESNVLDSGEGLR          -1.0000     NotChecked  -7.1757     1615.8053   ✗       
+112   LLDESNVLDSLEGGR          -1.0000     NotChecked  -7.2666     1615.8053   ✗       
+113   LLDESNVLDAADGLR          -1.0000     NotChecked  -7.2872     1599.8104   ✗       
+114   LLDESNVLDSAAGLR          -1.0000     NotChecked  -7.3147     1571.8155   ✗       
+115   LLDESNVLDSGDGLR          -1.0000     NotChecked  -7.3583     1601.7897   ✗       
+116   LLDESNVLDAFEGGR          -1.0000     NotChecked  -7.4066     1633.7948   ✗       
+117   LLDESNVLDSFN+0.984GGR    -1.0000     NotChecked  -7.4159     1635.7740   ✗       
+118   LLDESNVLDSAEGLR          -1.0000     NotChecked  -7.4474     1629.8210   ✗       
+119   LLDESNVLDSLDGGR          -1.0000     NotChecked  -7.4492     1601.7897   ✗       
+120   LLDESNVLDSPFGLR          -1.0000     NotChecked  -7.5382     1673.8624   ✗       
+121   LLDESNVLDTAEGLR          -1.0000     NotChecked  -7.5872     1643.8366   ✗       
+122   LLDESNVLDAFDGGR          -1.0000     NotChecked  -7.5892     1619.7791   ✗       
+123   LLDESNVLDSLLGLR          -1.0000     NotChecked  -7.5919     1655.9094   ✗       
+124   LLDESNVLDSFAGGR          -1.0000     NotChecked  -7.6166     1591.7842   ✗       
+125   LLDQ+0.984SNVLDSAEGLR    -1.0000     NotChecked  -7.6252     1629.8210   ✗       
+126   LLDESNVLDSADGLR          -1.0000     NotChecked  -7.6300     1615.8053   ✗       
+127   LLDESNVLDSAFGGR          -1.0000     NotChecked  -7.6370     1591.7842   ✗       
+128   LLDESNVLDSAQ+0.984GLR    -1.0000     NotChecked  -7.6852     1629.8210   ✗       
+129   LLDESNVLN+0.984SAEGLR    -1.0000     NotChecked  -7.6953     1629.8210   ✗       
+130   LLN+0.984ESNVLDSLEGLR    -1.0000     NotChecked  -7.7027     1671.8679   ✗       
+131   LLDESNVLDAFLGLR          -1.0000     NotChecked  -7.7318     1673.8988   ✗       
+132   LLDESNVLDSFALLR          -1.0000     NotChecked  -7.7539     1703.9094   ✗       
+133   LLDESNVLDTADGLR          -1.0000     NotChecked  -7.7698     1629.8210   ✗       
+134   LLDESNVLDSAFLLR          -1.0000     NotChecked  -7.7742     1703.9094   ✗       
+135   LLDESNVLDAYDGLR          -1.0000     NotChecked  -7.7859     1691.8366   ✗       
+136   LLNESNVLDSFEGLR          -1.0000     NotChecked  -7.7887     1704.8683   ✗       
+137   LLDQ+0.984SNVLDSADGLR    -1.0000     NotChecked  -7.8078     1615.8053   ✗       
+138   LLDESNVLDSYAGLR          -1.0000     NotChecked  -7.8134     1663.8417   ✗       
+139   LLDESNVLDSAGGLR          -1.0000     NotChecked  -7.8353     1557.7998   ✗       
+140   LLN+0.984ESNVLDAFEGLR    -1.0000     NotChecked  -7.8427     1689.8574   ✗       
+141   LLN+0.984ESNVLDSFN+0.984GLR-1.0000     NotChecked  -7.8521     1691.8366   ✗       
+142   LLDESNVLN+0.984SADGLR    -1.0000     NotChecked  -7.8779     1615.8053   ✗       
+143   LLN+0.984ESNVLDSLDGLR    -1.0000     NotChecked  -7.8853     1657.8523   ✗       
+144   LLDESNVLDSFELR           -1.0000     NotChecked  -7.8866     1648.8308   ✗       
+145   LLDESNVLDTFEGGR          -1.0000     NotChecked  -7.8892     1663.8053   ✗       
+146   LLDESNVLDSFEGR           -1.0000     NotChecked  -7.9183     1592.7682   ✗       
+147   LLDQ+0.984SNVLDSFEGGR    -1.0000     NotChecked  -7.9272     1649.7897   ✗       
+148   LLNESNVLDSFDGLR          -1.0000     NotChecked  -7.9713     1690.8526   ✗       
+149   LLDESNVLDSASGLR          -1.0000     NotChecked  -7.9786     1587.8104   ✗       
+150   LLDESNVLDSTFGLR          -1.0000     NotChecked  -7.9848     1677.8574   ✗       
+151   LLDESNVLDSFQ+0.984GGR    -1.0000     NotChecked  -7.9871     1649.7897   ✗       
+152   LLDESNVLN+0.984SFEGGR    -1.0000     NotChecked  -7.9973     1649.7897   ✗       
+153   LLDESNVLDSAEGVR          -1.0000     NotChecked  -8.0049     1615.8053   ✗       
+154   LLN+0.984ESNVLDAFDGLR    -1.0000     NotChecked  -8.0253     1675.8417   ✗       
+155   LLN+0.984ESNVLDSFAGLR    -1.0000     NotChecked  -8.0528     1647.8468   ✗       
+156   LLDESNVLDSFDLR           -1.0000     NotChecked  -8.0692     1634.8152   ✗       
+157   LLDESNVLDTFDGGR          -1.0000     NotChecked  -8.0718     1649.7897   ✗       
+158   LLN+0.984ESNVLDSAFGLR    -1.0000     NotChecked  -8.0731     1647.8468   ✗       
+159   LLDESNVLDSFLGLR          -1.0000     NotChecked  -8.0746     1689.8937   ✗       
+160   LLDESNVLDSFDGR           -1.0000     NotChecked  -8.1009     1578.7526   ✗       
+161   LLDQ+0.984SNVLDSFDGGR    -1.0000     NotChecked  -8.1098     1635.7740   ✗       
+162   LLDESNVLDSYFGGR          -1.0000     NotChecked  -8.1357     1683.8104   ✗       
+163   LLDESNVLDSFGGGR          -1.0000     NotChecked  -8.1372     1577.7686   ✗       
+164   LLDQSNVLDSFEGLR          -1.0000     NotChecked  -8.1649     1704.8683   ✗       
+165   LLDESN+0.984VLDSFDGLR    -1.0000     NotChecked  -8.1666     1692.8206   ✗       
+166   LLDESNVLN+0.984SFDGGR    -1.0000     NotChecked  -8.1799     1635.7740   ✗       
+167   LLDESNVLDSADGVR          -1.0000     NotChecked  -8.1875     1601.7897   ✗       
+168   LLDESNVLDSFFGAR          -1.0000     NotChecked  -8.2137     1681.8311   ✗       
+169   LLDESNVLDTFLGLR          -1.0000     NotChecked  -8.2144     1703.9094   ✗       
+170   LLDESNVLDFFGGLR          -1.0000     NotChecked  -8.2310     1693.8675   ✗       
+171   LLDESNVLDFEGLR           -1.0000     NotChecked  -8.2479     1618.8203   ✗       
+172   LLDQ+0.984SNVLDSFLGLR    -1.0000     NotChecked  -8.2524     1689.8938   ✗       
+173   LLDESNVLDSFGLLR          -1.0000     NotChecked  -8.2744     1689.8937   ✗       
+174   LLDESNVLDSPEGGR          -1.0000     NotChecked  -8.2748     1599.7740   ✗       
+175   LLDESNVLDSFSGGR          -1.0000     NotChecked  -8.2806     1607.7791   ✗       
+176   LLDESNVLN+0.984SFLGLR    -1.0000     NotChecked  -8.3225     1689.8937   ✗       
+177   LLDESNVLDSYGGLR          -1.0000     NotChecked  -8.3340     1649.8261   ✗       
+178   LLDESNVLDALEGLR          -1.0000     NotChecked  -8.3352     1655.8730   ✗       
+179   LLDESNVLDSLN+0.984GLR    -1.0000     NotChecked  -8.3445     1657.8523   ✗       
+180   LLDQSNVLDSFDGLR          -1.0000     NotChecked  -8.3475     1690.8526   ✗       
+181   LLN+0.984ESNVLDSFDGLR    -1.0000     NotChecked  -8.3681     1691.8366   ✗       
+182   LLDESNVLDSFDGLR          -1.0000     NotChecked  -8.3715     1691.8366   ✗       
+183   LLN+0.984ESNVLDSFFGGR    -1.0000     NotChecked  -8.3750     1667.8155   ✗       
+184   LLDESNVLDFDGLR           -1.0000     NotChecked  -8.4305     1604.8046   ✗       
+185   LLDESNVLDYAEGGR          -1.0000     NotChecked  -8.4481     1649.7897   ✗       
+186   LLDESNVLDSPDGGR          -1.0000     NotChecked  -8.4574     1585.7584   ✗       
+187   LLDESNVLDFAEGGR          -1.0000     NotChecked  -8.4674     1633.7948   ✗       
+188   LLDESNVLDSYSGLR          -1.0000     NotChecked  -8.4774     1679.8366   ✗       
+189   LLDESNVLDAFN+0.984GLR    -1.0000     NotChecked  -8.4845     1675.8417   ✗       
+190   LLDESNVLDSSFGLR          -1.0000     NotChecked  -8.4866     1663.8417   ✗       
+191   LLDESNVLDSPYGLR          -1.0000     NotChecked  -8.5023     1689.8574   ✗       
+192   LLDESNVLDSAELGR          -1.0000     NotChecked  -8.5108     1629.8210   ✗       
+193   LLDESNVLDALDGLR          -1.0000     NotChecked  -8.5178     1641.8574   ✗       
+194   LLDESNVLDSLAGLR          -1.0000     NotChecked  -8.5452     1613.8624   ✗       
+195   LLN+0.984Q+0.984SNVLDSFDGLR-1.0000     NotChecked  -8.5459     1691.8366   ✗       
+196   LLDESNVLDFPDGLR          -1.0000     NotChecked  -8.5512     1701.8574   ✗       
+197   LLN+0.984ESNVLDSFGGLR    -1.0000     NotChecked  -8.5734     1633.8311   ✗       
+198   LLDESNVLDSPDLLR          -1.0000     NotChecked  -8.5946     1697.8836   ✗       
+199   LLDESNVLDSPLGLR          -1.0000     NotChecked  -8.6001     1639.8781   ✗       
+200   LLDESNVLDSAYGGR          -1.0000     NotChecked  -8.6011     1607.7791   ✗       
+201   LLN+0.984ESNVLN+0.984SFDGLR-1.0000     NotChecked  -8.6160     1691.8366   ✗       
+202   LLDESNVLDYADGGR          -1.0000     NotChecked  -8.6306     1635.7740   ✗       
+203   LLDESNVLDSFLGVR          -1.0000     NotChecked  -8.6321     1675.8781   ✗       
+204   LLDESNVLDSAEALR          -1.0000     NotChecked  -8.6345     1643.8366   ✗       
+205   LLDESNVLDSAEGAR          -1.0000     NotChecked  -8.6484     1587.7740   ✗       
+206   LLDESNVLDFADGGR          -1.0000     NotChecked  -8.6499     1619.7791   ✗       
+207   LLDESNVLDSLEGLR          -1.0000     NotChecked  -8.6780     1671.8679   ✗       
+208   LLDESNVLDAFAGLR          -1.0000     NotChecked  -8.6852     1631.8519   ✗       
+209   LLDESNVLDSYDGVR          -1.0000     NotChecked  -8.6862     1693.8159   ✗       
+210   LLDESNVLDSADLGR          -1.0000     NotChecked  -8.6934     1615.8053   ✗       
+211   LLDESNVLDSALGGR          -1.0000     NotChecked  -8.6989     1557.7998   ✗       
+212   LLDESNVLDAAFGLR          -1.0000     NotChecked  -8.7055     1631.8519   ✗       
+213   LLN+0.984ESNVLDSPEGLR    -1.0000     NotChecked  -8.7110     1655.8366   ✗       
+214   LLN+0.984ESNVLDSFSGLR    -1.0000     NotChecked  -8.7167     1663.8417   ✗       
+215   LLDESNVLDSTEGGR          -1.0000     NotChecked  -8.7214     1603.7689   ✗       
+216   LLN+0.984ESNVLDSFEGVR    -1.0000     NotChecked  -8.7430     1691.8366   ✗       
+217   LLDESNVLDYALGLR          -1.0000     NotChecked  -8.7733     1689.8938   ✗       
+218   LLDESNVLDSGFGLR          -1.0000     NotChecked  -8.7766     1633.8311   ✗       
+219   LLDESNVLDFALGLR          -1.0000     NotChecked  -8.7926     1673.8988   ✗       
+220   LLN+0.984ESNVLDSAEGGR    -1.0000     NotChecked  -8.8097     1573.7584   ✗       
+221   LLDESNVLDSADALR          -1.0000     NotChecked  -8.8171     1629.8210   ✗       
+222   LLDESNVLDTLEGLR          -1.0000     NotChecked  -8.8178     1685.8836   ✗       
+223   LLDESNVLDAFEGLR          -1.0000     NotChecked  -8.8179     1689.8574   ✗       
+224   LLDESNVLDSFN+0.984GLR    -1.0000     NotChecked  -8.8273     1691.8366   ✗       
+225   LLDESNVLDSADGAR          -1.0000     NotChecked  -8.8310     1573.7584   ✗       
+226   LLDESNVLDSALLLR          -1.0000     NotChecked  -8.8361     1669.9251   ✗       
+227   LLDQ+0.984SNVLDSLEGLR    -1.0000     NotChecked  -8.8558     1671.8679   ✗       
+228   LLDESNVLDSLDGLR          -1.0000     NotChecked  -8.8605     1657.8523   ✗       
+229   LLDESNVLDSLFGGR          -1.0000     NotChecked  -8.8675     1633.8311   ✗       
+230   LLN+0.984ESNVLDYAEGLR    -1.0000     Failed      -8.8842     1705.8523   ✓       
+231   LLN+0.984ESNVLDSPDGLR    -1.0000     NotChecked  -8.8935     1641.8210   ✗       
+232   LLN+0.984ESNVLDFAEGLR    -1.0000     NotChecked  -8.9035     1689.8574   ✗       
+233   LLDESNVLDSTDGGR          -1.0000     NotChecked  -8.9040     1589.7533   ✗       
+234   LLDESNVLDSAEVLR          -1.0000     NotChecked  -8.9076     1671.8679   ✗       
+235   LLDESNVLDSLQ+0.984GLR    -1.0000     NotChecked  -8.9157     1671.8679   ✗       
+236   LLN+0.984ESNVLDSFDGVR    -1.0000     NotChecked  -8.9255     1677.8210   ✗       
+237   LLDESNVLN+0.984SLEGLR    -1.0000     NotChecked  -8.9259     1671.8679   ✗       
+238   LLDESNVLDSFEAGR          -1.0000     NotChecked  -8.9365     1663.8053   ✗       
+239   LLN+0.984ESNVLDSAELLR    -1.0000     NotChecked  -8.9470     1685.8836   ✗       
+240   LLDESNVLDSTYGLR          -1.0000     NotChecked  -8.9489     1693.8523   ✗       
+241   LLN+0.984ESNVLDSADGGR    -1.0000     NotChecked  -8.9923     1559.7427   ✗       
+242   LLDQ+0.984SNVLDAFEGLR    -1.0000     NotChecked  -8.9957     1689.8574   ✗       
+243   LLDESNVLDTLDGLR          -1.0000     NotChecked  -9.0004     1671.8679   ✗       
+244   LLDESNVLDAFDGLR          -1.0000     NotChecked  -9.0005     1675.8417   ✗       
+245   LLDQ+0.984SNVLDSFN+0.984GLR-1.0000     NotChecked  -9.0051     1691.8366   ✗       
+246   LLDESNVLDAFFGGR          -1.0000     NotChecked  -9.0075     1651.8206   ✗       
+247   LLDESNVLDSFAGLR          -1.0000     NotChecked  -9.0280     1647.8468   ✗       
+248   LLN+0.984ESNVLDSAYGLR    -1.0000     NotChecked  -9.0372     1663.8417   ✗       
+249   LLDQ+0.984SNVLDSLDGLR    -1.0000     NotChecked  -9.0384     1657.8523   ✗       
+250   LLDESNVLDSTDLLR          -1.0000     NotChecked  -9.0412     1701.8785   ✗       
+251   LLDESNVLDSTLGLR          -1.0000     NotChecked  -9.0467     1643.8730   ✗       
+252   LLDESNVLDSAFGLR          -1.0000     NotChecked  -9.0483     1647.8468   ✗       
+253   LLDESNVLDAFQ+0.984GLR    -1.0000     NotChecked  -9.0557     1689.8574   ✗       
+254   LLDESNVLDSLGGLR          -1.0000     NotChecked  -9.0658     1599.8468   ✗       
+255   LLDESNVLN+0.984AFEGLR    -1.0000     NotChecked  -9.0658     1689.8574   ✗       
+256   LLN+0.984ESNVLDYADGLR    -1.0000     NotChecked  -9.0668     1691.8366   ✗       
+257   LLDESNVLDPFDGLR          -1.0000     NotChecked  -9.0732     1701.8574   ✗       
+258   LLDESNVLN+0.984SFN+0.984GLR-1.0000     NotChecked  -9.0752     1691.8366   ✗       
+259   LLN+0.984ESNVLDFADGLR    -1.0000     NotChecked  -9.0861     1675.8417   ✗       
+260   LLDESNVLDSADVLR          -1.0000     NotChecked  -9.0902     1657.8523   ✗       
+261   LLDESNVLDFFLGGR          -1.0000     NotChecked  -9.0946     1693.8675   ✗       
+262   LLDESNVLDSYYGGR          -1.0000     NotChecked  -9.0998     1699.8053   ✗       
+263   LLDESNVLN+0.984SLDGLR    -1.0000     NotChecked  -9.1085     1657.8523   ✗       
+264   LLDESNVLDSFDAGR          -1.0000     NotChecked  -9.1191     1649.7897   ✗       
+265   LLN+0.984ESNVLDSADLLR    -1.0000     NotChecked  -9.1295     1671.8679   ✗       
+266   LLN+0.984ESNVLDSALGLR    -1.0000     NotChecked  -9.1350     1613.8624   ✗       
+267   LLDESNVLDSFLLGR          -1.0000     NotChecked  -9.1380     1689.8937   ✗       
+268   LLDESNVLDSYEGAR          -1.0000     NotChecked  -9.1471     1679.8002   ✗       
+269   LLN+0.984ESNVLDSTEGLR    -1.0000     NotChecked  -9.1576     1659.8315   ✗       
+270   LLDESNVLDTFAGLR          -1.0000     NotChecked  -9.1678     1661.8624   ✗       
+271   LLDESNVLDSFYGAR          -1.0000     NotChecked  -9.1779     1697.8261   ✗       
+272   LLDQ+0.984SNVLDAFDGLR    -1.0000     NotChecked  -9.1783     1675.8417   ✗       
+273   LLDESNVLDTAFGLR          -1.0000     NotChecked  -9.1881     1661.8624   ✗       
+274   LLDESNVLDSYLGGR          -1.0000     NotChecked  -9.1976     1649.8261   ✗       
+275   LLDESNVLDAFGGLR          -1.0000     NotChecked  -9.2058     1617.8362   ✗       
+276   LLDQ+0.984SNVLDSFAGLR    -1.0000     NotChecked  -9.2058     1647.8468   ✗       
+277   LLDESNVLDSLSGLR          -1.0000     NotChecked  -9.2092     1629.8574   ✗       
+278   LLDESNVLDSFEVGR          -1.0000     NotChecked  -9.2095     1691.8366   ✗       
+279   LLDESNVLDSREGGR          -1.0000     NotChecked  -9.2131     1658.8224   ✗       
+280   LLDESNVLDSEEGGR          -1.0000     NotChecked  -9.2147     1631.7639   ✗       
+281   LLDESNVLDSSEGGR          -1.0000     NotChecked  -9.2232     1589.7533   ✗       
+282   LLDQ+0.984SNVLDSAFGLR    -1.0000     NotChecked  -9.2261     1647.8468   ✗       
+283   LLDESNVLDSLEGVR          -1.0000     NotChecked  -9.2354     1657.8523   ✗       
+284   LLDESNVLDSFEGLG          -1.0000     NotChecked  -9.2438     1606.7726   ✗       
+285   LLDESNVLN+0.984AFDGLR    -1.0000     NotChecked  -9.2484     1675.8417   ✗       
+286   LLDESNVLDSFLALR          -1.0000     NotChecked  -9.2617     1703.9094   ✗       
+287   LLDESNVLDSFLGAR          -1.0000     NotChecked  -9.2756     1647.8468   ✗       
+288   LLDESNVLN+0.984SFAGLR    -1.0000     NotChecked  -9.2759     1647.8468   ✗       
+289   LLDESNVLN+0.984SAFGLR    -1.0000     NotChecked  -9.2962     1647.8468   ✗       
+290   LLN+0.984ESNVLDSLFGLR    -1.0000     NotChecked  -9.3036     1689.8937   ✗       
+291   LLN+0.984ESNVLDSYEGGR    -1.0000     NotChecked  -9.3085     1665.7846   ✗       
+292   LLDESNVLDFSEGLR          -1.0000     Failed      -9.3170     1705.8523   ✓       
+293   LLDESNVLDSYDGAR          -1.0000     NotChecked  -9.3297     1665.7846   ✗       
+294   LLN+0.984ESNVLDSFYGGR    -1.0000     NotChecked  -9.3392     1683.8104   ✗       
+295   LLN+0.984ESNVLDSTDGLR    -1.0000     NotChecked  -9.3401     1645.8159   ✗       
+296   LLDESNVLDAPEGLR          -1.0000     NotChecked  -9.3434     1639.8417   ✗       
+297   LLDESNVLDAFSGLR          -1.0000     NotChecked  -9.3492     1647.8468   ✗       
+298   LLDESNVLDSPN+0.984GLR    -1.0000     NotChecked  -9.3527     1641.8210   ✗       
+299   LLDESNVLDSSELLR          -1.0000     NotChecked  -9.3604     1701.8785   ✗       
+300   LLDESNVLDAFEGVR          -1.0000     NotChecked  -9.3754     1675.8417   ✗       
+301   LLDESNVLDSFN+0.984GVR    -1.0000     NotChecked  -9.3847     1677.8210   ✗       
+302   LLN+0.984ESNVLDSFEGAR    -1.0000     NotChecked  -9.3865     1663.8053   ✗       
+303   LLN+0.984ESNVLDFFDGGR    -1.0000     NotChecked  -9.3880     1695.8104   ✗       
+304   LLDESNVLDSFDVGR          -1.0000     NotChecked  -9.3921     1677.8210   ✗       
+305   LLDESNVLDSRDGGR          -1.0000     NotChecked  -9.3957     1644.8067   ✗       
+306   LLDESNVLDSEDGGR          -1.0000     NotChecked  -9.3973     1617.7482   ✗       
+307   LLDESNVLDSSDGGR          -1.0000     NotChecked  -9.4058     1575.7376   ✗       
+308   LLDESNVLDSLDGVR          -1.0000     NotChecked  -9.4180     1643.8366   ✗       
+309   LLDESNVLDSFDGLG          -1.0000     NotChecked  -9.4264     1592.7570   ✗       
+310   LLN+0.984ESNVLDSFDLGR    -1.0000     NotChecked  -9.4315     1691.8366   ✗       
+311   LLN+0.984ESNVLDSFLGGR    -1.0000     NotChecked  -9.4369     1633.8311   ✗       
+312   LLDESNVLDAAEGGR          -1.0000     NotChecked  -9.4422     1557.7635   ✗       
+313   LLDESNVLDSSYGLR          -1.0000     NotChecked  -9.4507     1679.8366   ✗       
+314   LLDESNVLDSAN+0.984GGR    -1.0000     NotChecked  -9.4515     1559.7427   ✗       
+315   LLDESNVLDSFFLR           -1.0000     NotChecked  -9.4875     1666.8566   ✗       
+316   LLDESNVLDTFFGGR          -1.0000     NotChecked  -9.4901     1681.8311   ✗       
+317   LLN+0.984ESNVLDSYDGGR    -1.0000     NotChecked  -9.4911     1651.7689   ✗       
+318   LLDESNVLDFSDGLR          -1.0000     NotChecked  -9.4995     1691.8366   ✗       
+319   LLDESNVLDSGEGGR          -1.0000     NotChecked  -9.5132     1559.7427   ✗       
+320   LLDESNVLDSFFGR           -1.0000     NotChecked  -9.5192     1610.7940   ✗       
+321   LLDQ+0.984SNVLDSFDGLR    -1.0000     NotChecked  -9.5211     1691.8366   ✗       
+322   LLDESNVLDAPDGLR          -1.0000     NotChecked  -9.5260     1625.8261   ✗       
+323   LLDESNVLDYAN+0.984GLR    -1.0000     NotChecked  -9.5260     1691.8366   ✗       
+324   LLDQ+0.984SNVLDSFFGGR    -1.0000     NotChecked  -9.5281     1667.8155   ✗       
+325   LLDESNVLDSRLGLR          -1.0000     NotChecked  -9.5384     1698.9264   ✗       
+326   LLDESNVLDSELGLR          -1.0000     NotChecked  -9.5400     1671.8679   ✗       
+327   LLDESNVLDLAEGLR          -1.0000     NotChecked  -9.5408     1655.8730   ✗       
+328   LLDESNVLDSSDLLR          -1.0000     NotChecked  -9.5430     1687.8628   ✗       
+329   LLDESNVLDFAN+0.984GLR    -1.0000     NotChecked  -9.5453     1675.8417   ✗       
+330   LLDESNVLDSSLGLR          -1.0000     NotChecked  -9.5485     1629.8574   ✗       
+331   LLDESNVLDSFGGLR          -1.0000     NotChecked  -9.5486     1633.8311   ✗       
+332   LLDESNVLDSPAGLR          -1.0000     NotChecked  -9.5534     1597.8311   ✗       
+333   LLDESNVLDAFDGVR          -1.0000     NotChecked  -9.5580     1661.8261   ✗       
+334   LLN+0.984ESNVLDSFDGAR    -1.0000     NotChecked  -9.5691     1649.7897   ✗       
+335   LLDQ+0.984SNVLDSFQ+0.984GLR-1.0000     Failed      -9.5763     1705.8523   ✓       
+336   LLDESNVLDAAELLR          -1.0000     NotChecked  -9.5794     1669.8887   ✗       
+337   LLDESNVLDSFAGVR          -1.0000     NotChecked  -9.5855     1633.8311   ✗       
+338   LLDESNVLDYGEGLR          -1.0000     NotChecked  -9.5877     1691.8366   ✗       
+339   LLDESNVLDSAN+0.984LLR    -1.0000     NotChecked  -9.5887     1671.8679   ✗       
+340   LLDESNVLN+0.984SFDGLR    -1.0000     NotChecked  -9.5912     1691.8366   ✗       
+341   LLDESNVLN+0.984SFFGGR    -1.0000     NotChecked  -9.5982     1667.8155   ✗       
+342   LLDESNVLDSAFGVR          -1.0000     NotChecked  -9.6058     1633.8311   ✗       
+343   LLDESNVLDFGEGLR          -1.0000     NotChecked  -9.6070     1675.8417   ✗       
+344   LLDESNVLDAADGGR          -1.0000     NotChecked  -9.6248     1543.7478   ✗       
+345   LLDESNVLDSGELLR          -1.0000     NotChecked  -9.6505     1671.8679   ✗       
+346   LLN+0.984ESNVLDSEEGLR    -1.0000     NotChecked  -9.6509     1687.8265   ✗       
+347   LLDESNVLDSAAGGR          -1.0000     NotChecked  -9.6522     1515.7529   ✗       
+348   LLN+0.984ESNVLDSSEGLR    -1.0000     NotChecked  -9.6593     1645.8159   ✗       
+349   LLDESNVLDAAYGLR          -1.0000     NotChecked  -9.6697     1647.8468   ✗       
+350   LLDESNVLDYLEGGR          -1.0000     NotChecked  -9.6786     1691.8366   ✗       
+351   LLDESNVLDSPEGLR          -1.0000     NotChecked  -9.6862     1655.8366   ✗       
+352   LLDESNVLDTFGGLR          -1.0000     NotChecked  -9.6884     1647.8468   ✗       
+353   LLDESNVLDSFSGLR          -1.0000     NotChecked  -9.6919     1663.8417   ✗       
+354   LLDESNVLDSGDGGR          -1.0000     NotChecked  -9.6958     1545.7271   ✗       
+355   LLDESNVLDFLEGGR          -1.0000     NotChecked  -9.6979     1675.8417   ✗       
+356   LLGESNVLDSFEGLR          -1.0000     NotChecked  -9.7043     1647.8468   ✗       
+357   LLDESNVLDLADGLR          -1.0000     NotChecked  -9.7234     1641.8574   ✗       
+358   LLDQ+0.984SNVLDSFGGLR    -1.0000     NotChecked  -9.7264     1633.8312   ✗       
+359   LLDESNVLDYAAGLR          -1.0000     NotChecked  -9.7267     1647.8468   ✗       
+360   LLDESNVLDSGYGLR          -1.0000     NotChecked  -9.7407     1649.8261   ✗       
+361   LLDESNVLDSLELGR          -1.0000     NotChecked  -9.7414     1671.8679   ✗       
+362   LLDESNVLDFAAGLR          -1.0000     NotChecked  -9.7460     1631.8519   ✗       
+363   LLDESNVLDAADLLR          -1.0000     NotChecked  -9.7620     1655.8730   ✗       
+364   LLDESNVLDAALGLR          -1.0000     NotChecked  -9.7674     1597.8675   ✗       
+365   LLDQ+0.984SNVLN+0.984SFDGLR-1.0000     NotChecked  -9.7690     1691.8366   ✗       
+366   LLDESNVLDYGDGLR          -1.0000     NotChecked  -9.7703     1677.8210   ✗       
+367   LLDESNVLDSAEGLGR         -1.0000     NotChecked  -9.7849     1686.8424   ✗       
+368   LLDESNVLDSAALLR          -1.0000     NotChecked  -9.7895     1627.8781   ✗       
+369   LLDESNVLDFGDGLR          -1.0000     NotChecked  -9.7896     1661.8261   ✗       
+370   LLDESNVLDATEGLR          -1.0000     NotChecked  -9.7900     1643.8366   ✗       
+371   LLDESNVLN+0.984SFGGLR    -1.0000     NotChecked  -9.7965     1633.8311   ✗       
+372   LLDESNVLDSTN+0.984GLR    -1.0000     NotChecked  -9.7993     1645.8159   ✗       
+373   LLNESNVLDSAEGLR          -1.0000     NotChecked  -9.8243     1628.8370   ✗       
+374   LLDESNVLDTPEGLR          -1.0000     NotChecked  -9.8260     1669.8523   ✗       
+375   LLDESNVLDSLYGGR          -1.0000     NotChecked  -9.8317     1649.8261   ✗       
+376   LLDESNVLDTFSGLR          -1.0000     NotChecked  -9.8317     1677.8574   ✗       
+377   LLN+0.984ESNVLDSRDGLR    -1.0000     NotChecked  -9.8319     1700.8693   ✗       
+378   LLDESNVLDSFEGSR          -1.0000     NotChecked  -9.8322     1679.8002   ✗       
+379   LLDESNVLDSGDLLR          -1.0000     NotChecked  -9.8330     1657.8523   ✗       
+380   LLN+0.984ESNVLDSEDGLR    -1.0000     NotChecked  -9.8335     1673.8108   ✗       
+381   LLDESNVLDSGLGLR          -1.0000     NotChecked  -9.8385     1599.8468   ✗       
+382   LLN+0.984ESNVLDSSDGLR    -1.0000     NotChecked  -9.8419     1631.8002   ✗       
+383   LLDESNVLDLFEGGR          -1.0000     NotChecked  -9.8428     1675.8417   ✗       
+384   LLDESNVLDFFN+0.984GGR    -1.0000     NotChecked  -9.8472     1695.8104   ✗       
+385   LLDESNVLDFFGLR           -1.0000     NotChecked  -9.8488     1636.8461   ✗       
+386   LLDESNVLDSFEGL           -1.0000     NotChecked  -9.8543     1549.7512   ✗       
+387   LLDESNVLDYLDGGR          -1.0000     NotChecked  -9.8612     1677.8210   ✗       
+388   LLDQ+0.984SNVLDSPEGLR    -1.0000     NotChecked  -9.8640     1655.8366   ✗       
+389   LLDESNVLDSLEALR          -1.0000     NotChecked  -9.8651     1685.8836   ✗       
+390   LLDESNVLDSPDGLR          -1.0000     NotChecked  -9.8687     1641.8210   ✗       
+391   LLDQ+0.984SNVLDSFSGLR    -1.0000     NotChecked  -9.8697     1663.8417   ✗       
+392   LLDESNVLDSPFGGR          -1.0000     NotChecked  -9.8757     1617.7999   ✗       
+393   LLN+0.984ESNVLDAAEGLR    -1.0000     NotChecked  -9.8783     1613.8261   ✗       
+394   LLDESNVLDFAEGLR          -1.0000     NotChecked  -9.8787     1689.8574   ✗       
+395   LLDESNVLDSLEGAR          -1.0000     NotChecked  -9.8790     1629.8210   ✗       
+396   LLDESNVLDFLDGGR          -1.0000     NotChecked  -9.8805     1661.8261   ✗       
+397   LLDESNVLDAFELGR          -1.0000     NotChecked  -9.8813     1689.8574   ✗       
+398   LLGESNVLDSFDGLR          -1.0000     NotChecked  -9.8869     1633.8311   ✗       
+399   LLN+0.984ESNVLDSAN+0.984GLR-1.0000     NotChecked  -9.8877     1615.8053   ✗       
+400   LLDESNVLDSFN+0.984LGR    -1.0000     NotChecked  -9.8907     1691.8366   ✗       
+401   LLDQ+0.984SNVLDSFEGVR    -1.0000     NotChecked  -9.8960     1691.8366   ✗       
+402   LLDESNVLDSAELR           -1.0000     NotChecked  -9.9222     1572.7995   ✗       
+403   LLDESNVLDSPQ+0.984GLR    -1.0000     NotChecked  -9.9239     1655.8366   ✗       
+404   LLDESNVLDSLDLGR          -1.0000     NotChecked  -9.9240     1657.8523   ✗       
+405   LLDESNVLDTAEGGR          -1.0000     NotChecked  -9.9248     1587.7740   ✗       
+406   LLDESNVLDSFELR           -1.0000     NotChecked  -9.9293     1648.8308   ✗       
+407   LLDESNVLDSLLGGR          -1.0000     NotChecked  -9.9294     1599.8468   ✗       
+408   LLDESNVLN+0.984SPEGLR    -1.0000     NotChecked  -9.9341     1655.8366   ✗       
+409   LLDESNVLDALFGLR          -1.0000     NotChecked  -9.9361     1673.8988   ✗       
+410   LLDESNVLN+0.984SFSGLR    -1.0000     NotChecked  -9.9398     1663.8417   ✗       
+411   LLDESNVLDAYEGGR          -1.0000     NotChecked  -9.9409     1649.7897   ✗       
+412   LLN+0.984ESNVLDSGEGLR    -1.0000     NotChecked  -9.9494     1615.8053   ✗       
+413   LLDESNVLDSYN+0.984GGR    -1.0000     NotChecked  -9.9503     1651.7689   ✗       
+414   LLDESNVLDSAEGR           -1.0000     NotChecked  -9.9539     1516.7369   ✗       
+415   LLDESNVLDSFQ+0.984GVR    -1.0000     NotChecked  -9.9559     1691.8366   ✗       
+416   LLDQ+0.984SNVLDSAEGGR    -1.0000     NotChecked  -9.9628     1573.7584   ✗       
+417   LLDESNVLN+0.984SFEGVR    -1.0000     NotChecked  -9.9661     1691.8366   ✗       
+418   LLDESNVLDSADGLGR         -1.0000     NotChecked  -9.9675     1672.8268   ✗       
+419   LLDESNVLDAFYGGR          -1.0000     NotChecked  -9.9716     1667.8155   ✗       
+420   LLDESNVLDATDGLR          -1.0000     NotChecked  -9.9726     1629.8210   ✗       
+421   LLDESNVLDSTAGLR          -1.0000     NotChecked  -10.0000    1601.8261   ✗       
+422   LLDESNVLDAFEALR          -1.0000     NotChecked  -10.0050    1703.8730   ✗       
+423   LLNESNVLDSADGLR          -1.0000     NotChecked  -10.0069    1614.8213   ✗       
+424   LLDESNVLDTPDGLR          -1.0000     NotChecked  -10.0086    1655.8366   ✗       
+425   LLDESNVLDSAYGLR          -1.0000     NotChecked  -10.0124    1663.8417   ✗       
+426   LLDESNVLDSFDGSR          -1.0000     NotChecked  -10.0148    1665.7846   ✗       
+427   LLDESNVLDAFEGAR          -1.0000     NotChecked  -10.0189    1647.8104   ✗       
+428   LLDESN+0.984VLDSAEGLR    -1.0000     NotChecked  -10.0196    1630.8050   ✗       
+429   LLDESNVLDSAQ+0.984GGR    -1.0000     NotChecked  -10.0227    1573.7584   ✗       
+430   LLDESNVLDLFDGGR          -1.0000     NotChecked  -10.0254    1661.8261   ✗       
+431   LLDESNVLDSFN+0.984GAR    -1.0000     NotChecked  -10.0283    1649.7897   ✗       
+432   LLDESNVLDYFAGGR          -1.0000     NotChecked  -10.0286    1667.8155   ✗       
+433   LLDESNVLN+0.984SAEGGR    -1.0000     NotChecked  -10.0329    1573.7584   ✗       
+434   LLDESNVLDSFDGL           -1.0000     NotChecked  -10.0368    1535.7355   ✗       
+435   LLN+0.984ESNVLDSLEGGR    -1.0000     NotChecked  -10.0403    1615.8053   ✗       
+436   LLDESNVLDTFDGVR          -1.0000     NotChecked  -10.0406    1691.8366   ✗       
+437   LLDESNVLDYADGLR          -1.0000     NotChecked  -10.0420    1691.8366   ✗       
+438   LLDQ+0.984SNVLDSPDGLR    -1.0000     NotChecked  -10.0466    1641.8210   ✗       
+439   LLDESNVLDSLDALR          -1.0000     NotChecked  -10.0477    1671.8679   ✗       
+440   LLDESNVLDFFAGGR          -1.0000     NotChecked  -10.0479    1651.8206   ✗       
+441   LLDESNVLDYAFGGR          -1.0000     NotChecked  -10.0490    1667.8155   ✗       
+442   LLDQ+0.984SNVLDFAEGLR    -1.0000     NotChecked  -10.0565    1689.8574   ✗       
+443   LLN+0.984ESNVLDAADGLR    -1.0000     NotChecked  -10.0609    1599.8104   ✗       
+444   LLDESNVLDFADGLR          -1.0000     NotChecked  -10.0613    1675.8417   ✗       
+445   LLDESNVLDSLDGAR          -1.0000     NotChecked  -10.0616    1615.8053   ✗       
+446   LLDESNVLDTAELLR          -1.0000     NotChecked  -10.0620    1699.8992   ✗       
+447   LLDESNVLDAFDLGR          -1.0000     NotChecked  -10.0639    1675.8417   ✗       
+448   LLDESNVLDSFEGTR          -1.0000     NotChecked  -10.0671    1693.8159   ✗       
+449   LLDESNVLDFAFGGR          -1.0000     NotChecked  -10.0683    1651.8206   ✗       
+450   LLDESNVLDAFLGGR          -1.0000     NotChecked  -10.0694    1617.8362   ✗       
+451   LLDESNVLDSFEGLK          -1.0000     NotChecked  -10.0735    1677.8461   ✗       
+452   LLDESNVLDSPGGLR          -1.0000     NotChecked  -10.0740    1583.8155   ✗       
+453   LLDQ+0.984SNVLDSFDGVR    -1.0000     NotChecked  -10.0786    1677.8210   ✗       
+454   LLN+0.984ESNVLDSAAGLR    -1.0000     NotChecked  -10.0884    1571.8155   ✗       
+455   LLDESNVLDSFALGR          -1.0000     NotChecked  -10.0914    1647.8468   ✗       
+456   LLDQ+0.984SNVLDSAELLR    -1.0000     NotChecked  -10.1000    1685.8836   ✗       
+457   LLDESNVLDSADLR           -1.0000     NotChecked  -10.1048    1558.7839   ✗       
+458   LLDESNVLDSFGGVR          -1.0000     NotChecked  -10.1060    1619.8155   ✗       
+459   LLDESNVLDTADGGR          -1.0000     NotChecked  -10.1073    1573.7584   ✗       
+460   LLDESNVLDSALGLR          -1.0000     NotChecked  -10.1102    1613.8624   ✗       
+461   LLDESNVLDSAFLGR          -1.0000     NotChecked  -10.1117    1647.8468   ✗       
+462   LLDESNVLDSFDLR           -1.0000     NotChecked  -10.1119    1634.8152   ✗       
+463   LLDESNVLDFAQ+0.984GLR    -1.0000     NotChecked  -10.1165    1689.8574   ✗       
+464   LLDESNVLN+0.984SPDGLR    -1.0000     NotChecked  -10.1167    1641.8210   ✗       
+465   LLDESNVLDAYDGGR          -1.0000     NotChecked  -10.1235    1635.7740   ✗       
+466   LLNESNVLDSFEGGR          -1.0000     NotChecked  -10.1263    1648.8057   ✗       
+467   LLDESNVLN+0.984FAEGLR    -1.0000     NotChecked  -10.1266    1689.8574   ✗       
+468   LLN+0.984ESNVLDSGDGLR    -1.0000     NotChecked  -10.1319    1601.7897   ✗       
+469   LLDESNVLDSTEGLR          -1.0000     NotChecked  -10.1328    1659.8315   ✗       
+470   LLDESNVLDSADGR           -1.0000     NotChecked  -10.1365    1502.7213   ✗       
+471   LLDQ+0.984SNVLDSADGGR    -1.0000     NotChecked  -10.1453    1559.7427   ✗       
+472   LLDESNVLN+0.984SFDGVR    -1.0000     NotChecked  -10.1487    1677.8210   ✗       
+473   LLDESNVLDSYAGGR          -1.0000     NotChecked  -10.1510    1607.7791   ✗       
+474   LLDESNVLDTAYGLR          -1.0000     NotChecked  -10.1523    1677.8574   ✗       
+475   LLDESNVLDSAQ+0.984LLR    -1.0000     NotChecked  -10.1599    1685.8836   ✗       
+476   LLDESNVLN+0.984SAELLR    -1.0000     NotChecked  -10.1701    1685.8836   ✗       
+477   LLDESNVLDSAGGGR          -1.0000     NotChecked  -10.1728    1501.7372   ✗       
+478   LLN+0.984ESNVLDAFEGGR    -1.0000     NotChecked  -10.1803    1633.7948   ✗       
+479   LLDESNVLDAFDALR          -1.0000     NotChecked  -10.1876    1689.8574   ✗       
+480   LLN+0.984ESNVLDSFN+0.984GGR-1.0000     NotChecked  -10.1896    1635.7740   ✗       
+481   LLDQ+0.984SNVLDSAYGLR    -1.0000     NotChecked  -10.1903    1663.8417   ✗       
+482   LLDQSNVLDSAEGLR          -1.0000     NotChecked  -10.2005    1628.8370   ✗       
+483   LLDESNVLDAFDGAR          -1.0000     NotChecked  -10.2015    1633.7948   ✗       
+484   LLDESN+0.984VLDSADGLR    -1.0000     NotChecked  -10.2022    1616.7893   ✗       
+485   LLDESNVLDSFAALR          -1.0000     NotChecked  -10.2151    1661.8624   ✗       
+486   LLDESNVLN+0.984SADGGR    -1.0000     NotChecked  -10.2154    1559.7427   ✗       
+487   LLDESNVLDSPSGLR          -1.0000     NotChecked  -10.2174    1613.8261   ✗       
+488   LLDQ+0.984SNVLDYADGLR    -1.0000     NotChecked  -10.2198    1691.8366   ✗       
+489   LLN+0.984ESNVLDSAEGLR    -1.0000     NotChecked  -10.2211    1629.8210   ✗       
+490   LLN+0.984ESNVLDSLDGGR    -1.0000     NotChecked  -10.2229    1601.7897   ✗       
+491   LLDESNVLDSAEGLR          -1.0000     NotChecked  -10.2245    1629.8210   ✗       
+492   LLDESNVLDSFAGAR          -1.0000     NotChecked  -10.2290    1605.7999   ✗       
+493   LLDESNVLDSAFALR          -1.0000     NotChecked  -10.2354    1661.8624   ✗       
+494   LLDQ+0.984SNVLDFADGLR    -1.0000     NotChecked  -10.2391    1675.8417   ✗       
+495   LLDESNVLDSPEGVR          -1.0000     NotChecked  -10.2436    1641.8210   ✗       
+496   LLDESNVLDTADLLR          -1.0000     NotChecked  -10.2446    1685.8836   ✗       
+497   LLDESNVLDYAGGLR          -1.0000     NotChecked  -10.2473    1633.8312   ✗       
+498   LLDESNVLDSAFGAR          -1.0000     NotChecked  -10.2493    1605.7999   ✗       
+499   LLDESNVLDSFSGVR          -1.0000     NotChecked  -10.2494    1649.8261   ✗       
+500   LLDESNVLDSFDGTR          -1.0000     NotChecked  -10.2497    1679.8002   ✗       
+501   LLDESNVLDTALGLR          -1.0000     NotChecked  -10.2500    1627.8781   ✗       
+502   LLDESNVLDSFDGLK          -1.0000     NotChecked  -10.2561    1663.8305   ✗       
+503   LLDESNVLN+0.984SAYGLR    -1.0000     NotChecked  -10.2604    1663.8417   ✗       
+504   LLDESNVLDAYLGLR          -1.0000     NotChecked  -10.2662    1689.8938   ✗       
+505   LLDESNVLDFAGGLR          -1.0000     NotChecked  -10.2666    1617.8362   ✗       
+506   LLDESNVLDTTEGLR          -1.0000     NotChecked  -10.2726    1673.8472   ✗       
+507   LLDESNVLDSLFGLR          -1.0000     NotChecked  -10.2788    1689.8937   ✗       
+508   LLDESNVLDAREGLR          -1.0000     NotChecked  -10.2817    1698.8901   ✗       
+509   LLDQ+0.984SNVLDSADLLR    -1.0000     NotChecked  -10.2826    1671.8679   ✗       
+510   LLDESNVLDAEEGLR          -1.0000     NotChecked  -10.2833    1671.8315   ✗       
+511   LLDESNVLDAEGLR           -1.0000     NotChecked  -10.2835    1542.7890   ✗       
+512   LLDQ+0.984SNVLDSALGLR    -1.0000     NotChecked  -10.2880    1613.8625   ✗       
+513   LLDESNVLN+0.984YADGLR    -1.0000     NotChecked  -10.2899    1691.8366   ✗       
+514   LLDESNVLDSRN+0.984GLR    -1.0000     NotChecked  -10.2911    1700.8693   ✗       
+515   LLDESNVLDASEGLR          -1.0000     NotChecked  -10.2918    1629.8210   ✗       
+516   LLDESNVLDSEN+0.984GLR    -1.0000     NotChecked  -10.2927    1673.8108   ✗       
+517   LLDESNVLDSSN+0.984GLR    -1.0000     NotChecked  -10.3011    1631.8002   ✗       
+518   LLNESNVLDSFDGGR          -1.0000     NotChecked  -10.3089    1634.7900   ✗       
+519   LLDESNVLN+0.984FADGLR    -1.0000     NotChecked  -10.3092    1675.8417   ✗       
+520   LLDESNVLDSAGLLR          -1.0000     NotChecked  -10.3100    1613.8624   ✗       
+521   LLDQ+0.984SNVLDSTEGLR    -1.0000     NotChecked  -10.3106    1659.8315   ✗       
+522   LLN+0.984ESNVLDSPFGLR    -1.0000     NotChecked  -10.3118    1673.8624   ✗       
+523   LLDESNVLDSTDGLR          -1.0000     NotChecked  -10.3153    1645.8159   ✗       
+524   LLDESNVLDSASGGR          -1.0000     NotChecked  -10.3162    1531.7478   ✗       
+525   LLDESNVLDSLDVLR          -1.0000     NotChecked  -10.3207    1699.8992   ✗       
+526   LLDESN+0.984VLDSFEGGR    -1.0000     NotChecked  -10.3215    1650.7737   ✗       
+527   LLDESNVLDSTFGGR          -1.0000     NotChecked  -10.3223    1621.7948   ✗       
+528   LLDESNVLDYFEGR           -1.0000     NotChecked  -10.3303    1668.7995   ✗       
+529   +42.011LDESNVLDSFEGLR    -1.0000     NotChecked  -10.3355    1634.7788   ✗       
+530   LLDESNVLDFFEGR           -1.0000     NotChecked  -10.3496    1652.8046   ✗       
+531   LLDESNVLDEAEGLR          -1.0000     NotChecked  -10.3521    1671.8315   ✗       
+532   LLDESNVLN+0.984SADLLR    -1.0000     NotChecked  -10.3527    1671.8679   ✗       
+533   LLDESNVLN+0.984SALGLR    -1.0000     NotChecked  -10.3581    1613.8624   ✗       
+534   LLN+0.984ESNVLDTAEGLR    -1.0000     NotChecked  -10.3609    1643.8366   ✗       
+535   LLN+0.984ESNVLDAFDGGR    -1.0000     NotChecked  -10.3628    1619.7791   ✗       
+536   LLN+0.984ESNVLDSLLGLR    -1.0000     NotChecked  -10.3655    1655.9094   ✗       
+537   LLDESNVLDSTQ+0.984GLR    -1.0000     NotChecked  -10.3705    1659.8315   ✗       
+538   LLDESNVLN+0.984STEGLR    -1.0000     NotChecked  -10.3807    1659.8315   ✗       
+539   LLDQSNVLDSADGLR          -1.0000     NotChecked  -10.3831    1614.8213   ✗       
+540   LLN+0.984ESNVLDSFAGGR    -1.0000     NotChecked  -10.3903    1591.7842   ✗       
+541   LLDESNVLDYASGLR          -1.0000     NotChecked  -10.3906    1663.8417   ✗       
+542   LLDESNVLDSFELR           -1.0000     NotChecked  -10.3931    1648.8308   ✗       
+543   LLN+0.984Q+0.984SNVLDSAEGLR-1.0000     NotChecked  -10.3989    1629.8210   ✗       
+544   LLN+0.984ESNVLDSADGLR    -1.0000     NotChecked  -10.4037    1615.8053   ✗       
+545   LLDESNVLDSFDLGR          -1.0000     NotChecked  -10.4067    1691.8366   ✗       
+546   LLDESNVLDSADGLR          -1.0000     NotChecked  -10.4071    1615.8053   ✗       
+547   LLDESNVLDFASGLR          -1.0000     NotChecked  -10.4099    1647.8468   ✗       
+548   LLN+0.984ESNVLDSAFGGR    -1.0000     NotChecked  -10.4106    1591.7842   ✗       
+549   LLDESNVLDYAEGVR          -1.0000     NotChecked  -10.4169    1691.8366   ✗       
+550   LLDESNVLDTLFGLR          -1.0000     NotChecked  -10.4187    1703.9094   ✗       
+551   LLDESNVLDSYELR           -1.0000     NotChecked  -10.4209    1664.8257   ✗       
+552   LLDESNVLDTYEGGR          -1.0000     NotChecked  -10.4235    1679.8002   ✗       
+553   LLDESNVLDSPDGVR          -1.0000     NotChecked  -10.4262    1627.8053   ✗       
+554   LLDESNVLDFAEGVR          -1.0000     NotChecked  -10.4362    1675.8417   ✗       
+555   LLNESNVLDSFLGLR          -1.0000     NotChecked  -10.4515    1688.9097   ✗       
+556   LLDESNVLDSFYLR           -1.0000     NotChecked  -10.4516    1682.8516   ✗       
+557   LLDESNVLDSYEGR           -1.0000     NotChecked  -10.4526    1608.7631   ✗       
+558   LLDESNVLDSASLLR          -1.0000     NotChecked  -10.4534    1643.8730   ✗       
+559   LLDESNVLDTFYGGR          -1.0000     NotChecked  -10.4542    1697.8261   ✗       
+560   LLDESNVLDTTDGLR          -1.0000     NotChecked  -10.4552    1659.8315   ✗       
+561   LLDQ+0.984SNVLDSLFGLR    -1.0000     NotChecked  -10.4567    1689.8938   ✗       
+562   LLN+0.984ESNVLDSAQ+0.984GLR-1.0000     NotChecked  -10.4589    1629.8210   ✗       
+563   LLDQ+0.984SNVLDSYEGGR    -1.0000     NotChecked  -10.4615    1665.7846   ✗       
+564   LLDESNVLDARDGLR          -1.0000     NotChecked  -10.4643    1684.8744   ✗       
+565   LLDESNVLDAEDGLR          -1.0000     NotChecked  -10.4659    1657.8159   ✗       
+566   LLDESNVLDADGLR           -1.0000     NotChecked  -10.4661    1528.7733   ✗       
+567   LLN+0.984ESNVLN+0.984SAEGLR-1.0000     NotChecked  -10.4690    1629.8210   ✗       
+568   LLDESNVLDASDGLR          -1.0000     NotChecked  -10.4744    1615.8053   ✗       
+569   LLDESNVLDSAELVR          -1.0000     NotChecked  -10.4796    1671.8679   ✗       
+570   LLDESNVLDSFYGR           -1.0000     NotChecked  -10.4834    1626.7890   ✗       
+571   LLDESNVLDSFAVLR          -1.0000     NotChecked  -10.4882    1689.8937   ✗       
+572   LLDESNVLDSRAGLR          -1.0000     NotChecked  -10.4918    1656.8795   ✗       
+573   LLDQ+0.984SNVLDSFYGGR    -1.0000     NotChecked  -10.4922    1683.8104   ✗       
+574   LLDQ+0.984SNVLDSTDGLR    -1.0000     NotChecked  -10.4932    1645.8159   ✗       
+575   LLDESNVLDSEAGLR          -1.0000     NotChecked  -10.4934    1629.8210   ✗       
+576   LLDESNVLDFFDLR           -1.0000     NotChecked  -10.5005    1694.8516   ✗       
+577   LLDESNVLDTFEGAR          -1.0000     NotChecked  -10.5015    1677.8210   ✗       
+578   LLDESNVLDSSAGLR          -1.0000     NotChecked  -10.5018    1587.8104   ✗       
+579   LLDQSNVLDSFEGGR          -1.0000     NotChecked  -10.5025    1648.8057   ✗       
+580   LLDESN+0.984VLDSFDGGR    -1.0000     NotChecked  -10.5041    1636.7580   ✗       
+581   LLN+0.984ESNVLDAFLGLR    -1.0000     NotChecked  -10.5055    1673.8988   ✗       
+582   LLDESNVLDSAFVLR          -1.0000     NotChecked  -10.5085    1689.8937   ✗       
+583   LLDESNVLDYFDGR           -1.0000     NotChecked  -10.5129    1654.7839   ✗       
+584   +42.011LDESNVLDSFDGLR    -1.0000     NotChecked  -10.5181    1620.7631   ✗       
+585   LLDESNVLDAAN+0.984GLR    -1.0000     NotChecked  -10.5201    1599.8104   ✗       
+586   LLDESNVLDSTGGLR          -1.0000     NotChecked  -10.5206    1587.8104   ✗       
+587   LLDESNVLDSYQ+0.984GGR    -1.0000     NotChecked  -10.5215    1665.7846   ✗       
+588   LLDESNVLDSFEGR           -1.0000     NotChecked  -10.5265    1592.7682   ✗       
+589   LLDESNVLN+0.984SLFGLR    -1.0000     NotChecked  -10.5268    1689.8937   ✗       
+590   LLN+0.984ESNVLDSFALLR    -1.0000     NotChecked  -10.5275    1703.9094   ✗       
+591   LLDESNVLN+0.984SYEGGR    -1.0000     NotChecked  -10.5316    1665.7846   ✗       
+592   LLDESNVLDFFDGR           -1.0000     NotChecked  -10.5322    1638.7890   ✗       
+593   LLDESNVLDEADGLR          -1.0000     NotChecked  -10.5347    1657.8159   ✗       
+594   LLDESNVLDSFFAGR          -1.0000     NotChecked  -10.5374    1681.8311   ✗       
+595   +43.006LDESNVLDSFEGLR    -1.0000     NotChecked  -11.2933    1635.7740   ✗       
+596   +43.006LDESNVLDSFDGLR    -1.0000     NotChecked  -11.4759    1621.7584   ✗       
+597   +42.011LDESNVLDSFFGLR    -1.0000     NotChecked  -11.9364    1652.8046   ✗       
+598   GLDESNVLDSFEGLR          -1.0000     NotChecked  -12.1839    1649.7897   ✗       
+599   GLDESNVLDSFDGLR          -1.0000     NotChecked  -12.3665    1635.7740   ✗       
+600   +42.011LDESNVLDSAEGLR    -1.0000     NotChecked  -12.3711    1558.7475   ✗       
+601   +42.011LDESNVLDSADGLR    -1.0000     NotChecked  -12.5537    1544.7318   ✗       
+602   LFDESNVLDSAEGLR          -1.0000     NotChecked  -12.6587    1663.8053   ✗       
+603   +42.011LDESNVLDSFEGGR    -1.0000     NotChecked  -12.6731    1578.7162   ✗       
+604   +42.011LDESNVLDFFEGLR    -1.0000     NotChecked  -12.7668    1694.8152   ✗       
+605   +42.011LDESNVLDSFELLR    -1.0000     NotChecked  -12.8103    1690.8414   ✗       
+606   LFDESNVLDSADGLR          -1.0000     NotChecked  -12.8413    1649.7897   ✗       
+607   +42.011LDESNVLDSFDGGR    -1.0000     NotChecked  -12.8557    1564.7005   ✗       
+608   +42.011LDESNVLDSYEGLR    -1.0000     NotChecked  -12.8699    1650.7737   ✗       
+609   +43.006LDESNVLDSFFGLR    -1.0000     NotChecked  -12.8942    1653.7998   ✗       
+610   +42.011LDESNVLDSFYGLR    -1.0000     NotChecked  -12.9006    1668.7995   ✗       
+611   +42.011LDESNVLDYFDGLR    -1.0000     NotChecked  -12.9301    1696.7944   ✗       
+612   +42.011LDESNVLDFFDGLR    -1.0000     NotChecked  -12.9494    1680.7995   ✗       
+613   LFDESNVLDSFEGGR          -1.0000     NotChecked  -12.9606    1683.7740   ✗       
+614   +42.011LDESNVLDSFDLLR    -1.0000     NotChecked  -12.9929    1676.8257   ✗       
+615   +42.011LDESNVLDSFLGLR    -1.0000     NotChecked  -12.9983    1618.8203   ✗       
+616   ALDESNVLDSFEGLR          -1.0000     NotChecked  -13.0400    1663.8053   ✗       
+617   +42.011LDESNVLDSYDGLR    -1.0000     NotChecked  -13.0525    1636.7580   ✗       
+618   VLDESNVLDSFEGLR          -1.0000     NotChecked  -13.0588    1691.8366   ✗       
+619   +42.011LN+0.984ESNVLDSFEGLR-1.0000     NotChecked  -13.1092    1634.7788   ✗       
+620   LFDESNVLDSFDGGR          -1.0000     NotChecked  -13.1432    1669.7584   ✗       
+621   ALDESNVLDSFDGLR          -1.0000     NotChecked  -13.2225    1649.7897   ✗       
+622   VLDESNVLDSFDGLR          -1.0000     NotChecked  -13.2414    1677.8210   ✗       
+623   +42.011LN+0.984ESNVLDSFDGLR-1.0000     NotChecked  -13.2918    1620.7631   ✗       
+624   LGDESNVLDSFEGLR          -1.0000     NotChecked  -13.3047    1649.7897   ✗       
+625   +43.006LDESNVLDSAEGLR    -1.0000     NotChecked  -13.3289    1559.7427   ✗       
+626   FLDESNVLDSAEGLR          -1.0000     NotChecked  -13.4001    1663.8053   ✗       
+627   LGDESNVLDSFDGLR          -1.0000     NotChecked  -13.4873    1635.7740   ✗       
+628   +43.006LDESNVLDSADGLR    -1.0000     NotChecked  -13.5115    1545.7271   ✗       
+629   FLDESNVLDSADGLR          -1.0000     NotChecked  -13.5827    1649.7897   ✗       
+630   +42.011LDESNVLDSLEGLR    -1.0000     NotChecked  -13.6017    1600.7944   ✗       
+631   +43.006LDESNVLDSFEGGR    -1.0000     NotChecked  -13.6309    1579.7114   ✗       
+632   FLDESNVLDSFEGGR          -1.0000     NotChecked  -13.7020    1683.7740   ✗       
+633   +43.006LDESNVLDFFEGLR    -1.0000     NotChecked  -13.7246    1695.8104   ✗       
+634   +42.011LDESNVLDAFEGLR    -1.0000     NotChecked  -13.7417    1618.7839   ✗       
+635   +42.011LDESNVLDSFN+0.984GLR-1.0000     NotChecked  -13.7510    1620.7631   ✗       
+636   +43.006LDESNVLDSFELLR    -1.0000     NotChecked  -13.7681    1691.8366   ✗       
+637   +42.011LDESNVLDSLDGLR    -1.0000     NotChecked  -13.7843    1586.7788   ✗       
+638   GLDESNVLDSFFGLR          -1.0000     NotChecked  -13.7848    1667.8155   ✗       
+639   +43.006LDESNVLDSFDGGR    -1.0000     NotChecked  -13.8135    1565.6958   ✗       
+640   +43.006LDESNVLDSYEGLR    -1.0000     NotChecked  -13.8277    1651.7689   ✗       
+641   +43.006LDESNVLDSFYGLR    -1.0000     NotChecked  -13.8584    1669.7948   ✗       
+642   FLDESNVLDSFDGGR          -1.0000     NotChecked  -13.8846    1669.7584   ✗       
+643   +43.006LDESNVLDYFDGLR    -1.0000     NotChecked  -13.8879    1697.7897   ✗       
+644   +43.006LDESNVLDFFDGLR    -1.0000     NotChecked  -13.9072    1681.7948   ✗       
+645   +42.011LDESNVLDAFDGLR    -1.0000     NotChecked  -13.9242    1604.7682   ✗       
+646   +43.006LDESNVLDSFDLLR    -1.0000     NotChecked  -13.9507    1677.8210   ✗       
+647   +42.011LDESNVLDSFAGLR    -1.0000     NotChecked  -13.9517    1576.7733   ✗       
+648   +43.006LDESNVLDSFLGLR    -1.0000     NotChecked  -13.9561    1619.8155   ✗       
+649   +42.011LDESNVLDSAFGLR    -1.0000     NotChecked  -13.9720    1576.7733   ✗       
+650   +43.006LDESNVLDSYDGLR    -1.0000     NotChecked  -14.0102    1637.7533   ✗       
+651   +43.006LN+0.984ESNVLDSFEGLR-1.0000     NotChecked  -14.0670    1635.7740   ✗       
+652   +42.011LDESNVLDSFEGLR    -1.0000     NotChecked  -14.0844    1634.7788   ✗       
+653   GLDESNVLDSAEGLR          -1.0000     NotChecked  -14.2195    1573.7584   ✗       
+654   +42.011LDESNVLDTFEGLR    -1.0000     NotChecked  -14.2243    1648.7944   ✗       
+655   +43.006LN+0.984ESNVLDSFDGLR-1.0000     NotChecked  -14.2496    1621.7584   ✗       
+656   +42.011LDQ+0.984SNVLDSFEGLR-1.0000     NotChecked  -14.2622    1634.7788   ✗       
+657   +42.011LDESNVLDSFDGLR    -1.0000     NotChecked  -14.2670    1620.7631   ✗       
+658   KLDESNVLDSAEGLR          -1.0000     NotChecked  -14.2727    1644.8319   ✗       
+659   +42.011LDESNVLDSFFGGR    -1.0000     NotChecked  -14.2740    1596.7420   ✗       
+660   +42.011LDESNVLDSFQ+0.984GLR-1.0000     NotChecked  -14.3222    1634.7788   ✗       
+661   +42.011LDESNVLN+0.984SFEGLR-1.0000     NotChecked  -14.3323    1634.7788   ✗       
+662   GLDESNVLDSADGLR          -1.0000     NotChecked  -14.4021    1559.7427   ✗       
+663   +42.011LDESNVLDTFDGLR    -1.0000     NotChecked  -14.4068    1634.7788   ✗       
+664   +42.011LDQ+0.984SNVLDSFDGLR-1.0000     NotChecked  -14.4448    1620.7631   ✗       
+665   KLDESNVLDSADGLR          -1.0000     NotChecked  -14.4552    1630.8162   ✗       
+666   +42.011LDESNVLDSYFGLR    -1.0000     NotChecked  -14.4708    1668.7995   ✗       
+667   +42.011LDESNVLDSFGGLR    -1.0000     NotChecked  -14.4723    1562.7577   ✗       
+668   +42.011LDESNVLN+0.984SFDGLR-1.0000     NotChecked  -14.5149    1620.7631   ✗       
+669   GLDESNVLDSFEGGR          -1.0000     NotChecked  -14.5215    1593.7271   ✗       
+670   +43.006LDESNVLDSLEGLR    -1.0000     NotChecked  -14.5595    1601.7897   ✗       
+671   KLDESNVLDSFEGGR          -1.0000     NotChecked  -14.5746    1664.8006   ✗       
+672   +42.011LDESNVLDSPEGLR    -1.0000     NotChecked  -14.6099    1584.7631   ✗       
+673   +42.011LDESNVLDSFSGLR    -1.0000     NotChecked  -14.6157    1592.7682   ✗       
+674   ALDESNVLDSFFGLR          -1.0000     NotChecked  -14.6409    1681.8311   ✗       
+675   +42.011LDESNVLDSFEGVR    -1.0000     NotChecked  -14.6419    1620.7631   ✗       
+676   +43.006LDESNVLDAFEGLR    -1.0000     NotChecked  -14.6994    1619.7791   ✗       
+677   GLDESNVLDSFDGGR          -1.0000     NotChecked  -14.7040    1579.7114   ✗       
+678   +42.011LDESNVLDSAEGGR    -1.0000     NotChecked  -14.7087    1502.6849   ✗       
+679   +43.006LDESNVLDSFN+0.984GLR-1.0000     NotChecked  -14.7088    1621.7584   ✗       
+680   +42.011LN+0.984ESNVLDSFFGLR-1.0000     NotChecked  -14.7101    1652.8046   ✗       
+681   GLDESNVLDSYEGLR          -1.0000     NotChecked  -14.7182    1665.7846   ✗       
+682   +43.006LDESNVLDSLDGLR    -1.0000     NotChecked  -14.7421    1587.7740   ✗       
+683   GLDESNVLDSFYGLR          -1.0000     NotChecked  -14.7490    1683.8104   ✗       
+684   KLDESNVLDSFDGGR          -1.0000     NotChecked  -14.7572    1650.7849   ✗       
+685   +42.011LDESNVLDYAEGLR    -1.0000     NotChecked  -14.7831    1634.7788   ✗       
+686   +42.011LDESNVLDSPDGLR    -1.0000     NotChecked  -14.7925    1570.7475   ✗       
+687   GLDESNVLDFFDGLR          -1.0000     NotChecked  -14.7978    1695.8104   ✗       
+688   +42.011LDESNVLDFAEGLR    -1.0000     NotChecked  -14.8024    1618.7839   ✗       
+689   FLDESNVLDSLDGLR          -1.0000     NotChecked  -14.8132    1691.8366   ✗       
+690   +42.011LDESNVLDSFDGVR    -1.0000     NotChecked  -14.8245    1606.7475   ✗       
+691   GLDESNVLDSFDLLR          -1.0000     NotChecked  -14.8413    1691.8366   ✗       
+692   +42.011LDESNVLDSAELLR    -1.0000     NotChecked  -14.8459    1614.8101   ✗       
+693   GLDESNVLDSFLGLR          -1.0000     NotChecked  -14.8467    1633.8311   ✗       
+694   +43.006LDESNVLDAFDGLR    -1.0000     NotChecked  -14.8820    1605.7635   ✗       
+695   +42.011LDESNVLDSADGGR    -1.0000     NotChecked  -14.8913    1488.6692   ✗       
+696   KLDESNVLDSFLGLR          -1.0000     NotChecked  -14.8999    1704.9046   ✗       
+697   GLDESNVLDSYDGLR          -1.0000     NotChecked  -14.9008    1651.7689   ✗       
+698   +43.006LDESNVLDSFAGLR    -1.0000     NotChecked  -14.9095    1577.7686   ✗       
+699   +43.006LDESNVLDSAFGLR    -1.0000     NotChecked  -14.9298    1577.7686   ✗       
+700   +42.011LDESNVLDSAYGLR    -1.0000     NotChecked  -14.9362    1592.7682   ✗       
+701   GLN+0.984ESNVLDSFEGLR    -1.0000     NotChecked  -14.9576    1649.7897   ✗       
+702   +42.011LDESNVLDYADGLR    -1.0000     NotChecked  -14.9657    1620.7631   ✗       
+703   FLDESNVLDSFAGLR          -1.0000     NotChecked  -14.9806    1681.8312   ✗       
+704   +42.011LDESNVLDFADGLR    -1.0000     NotChecked  -14.9850    1604.7682   ✗       
+705   FLDESNVLDSAFGLR          -1.0000     NotChecked  -15.0010    1681.8312   ✗       
+706   +42.011LDESNVLDSADLLR    -1.0000     NotChecked  -15.0285    1600.7944   ✗       
+707   +42.011LDESNVLDSALGLR    -1.0000     NotChecked  -15.0339    1542.7890   ✗       
+708   +43.006LDESNVLDSFEGLR    -1.0000     NotChecked  -15.0422    1635.7740   ✗       
+709   +42.011LDESNVLDSTEGLR    -1.0000     NotChecked  -15.0565    1588.7580   ✗       
+710   ALDESNVLDSAEGLR          -1.0000     NotChecked  -15.0755    1587.7740   ✗       
+711   +42.011LDESNVLDYFEGGR    -1.0000     NotChecked  -15.0851    1654.7475   ✗       
+712   VLDESNVLDSAEGLR          -1.0000     NotChecked  -15.0944    1615.8053   ✗       
+713   +42.011LDESNVLDFFEGGR    -1.0000     NotChecked  -15.1044    1638.7526   ✗       
+714   GLN+0.984ESNVLDSFDGLR    -1.0000     NotChecked  -15.1402    1635.7740   ✗       
+715   +42.011LN+0.984ESNVLDSAEGLR-1.0000     NotChecked  -15.1448    1558.7475   ✗       
+716   +42.011LDESNVLDSFELGR    -1.0000     NotChecked  -15.1479    1634.7788   ✗       
+717   +43.006LDESNVLDTFEGLR    -1.0000     NotChecked  -15.1820    1649.7897   ✗       
+718   +42.011LDESNVLDSLFGLR    -1.0000     NotChecked  -15.2026    1618.8203   ✗       
+719   +42.011LDESNVLDSYEGGR    -1.0000     NotChecked  -15.2074    1594.7111   ✗       
+720   +43.006LDQ+0.984SNVLDSFEGLR-1.0000     NotChecked  -15.2200    1635.7740   ✗       
+721   +43.006LDESNVLDSFDGLR    -1.0000     NotChecked  -15.2248    1621.7584   ✗       
+722   +43.006LDESNVLDSFFGGR    -1.0000     NotChecked  -15.2318    1597.7373   ✗       
+723   +42.011LDESNVLDSFYGGR    -1.0000     NotChecked  -15.2381    1612.7369   ✗       
+724   +42.011LDESNVLDSTDGLR    -1.0000     NotChecked  -15.2391    1574.7424   ✗       
+725   ALDESNVLDSADGLR          -1.0000     NotChecked  -15.2581    1573.7584   ✗       
+726   +42.011LDESNVLDYFDGGR    -1.0000     NotChecked  -15.2677    1640.7318   ✗       
+727   +42.011LDESNVLDSFEALR    -1.0000     NotChecked  -15.2716    1648.7944   ✗       
+728   VLDESNVLDSADGLR          -1.0000     NotChecked  -15.2770    1601.7897   ✗       
+729   +43.006LDESNVLDSFQ+0.984GLR-1.0000     NotChecked  -15.2800    1635.7740   ✗       
+730   +42.011LDESNVLDSFEGAR    -1.0000     NotChecked  -15.2854    1592.7318   ✗       
+731   +42.011LDESNVLDFFDGGR    -1.0000     NotChecked  -15.2870    1624.7369   ✗       
+732   +43.006LDESNVLN+0.984SFEGLR-1.0000     NotChecked  -15.2901    1635.7740   ✗       
+733   FLDESNVLDSFFGGR          -1.0000     NotChecked  -15.3029    1701.7999   ✗       
+734   +42.011LN+0.984ESNVLDSADGLR-1.0000     NotChecked  -15.3274    1544.7318   ✗       
+735   +42.011LDESNVLDSFDLGR    -1.0000     NotChecked  -15.3304    1620.7631   ✗       
+736   +42.011LDESNVLDSFLGGR    -1.0000     NotChecked  -15.3359    1562.7577   ✗       
+737   +42.011LDESNVLDAFFGLR    -1.0000     NotChecked  -15.3426    1636.8097   ✗       
+738   +43.006LDESNVLDTFDGLR    -1.0000     NotChecked  -15.3646    1635.7740   ✗       
+739   ALDESNVLDSFEGGR          -1.0000     NotChecked  -15.3775    1607.7427   ✗       
+740   +42.011LDESNVLDSYDGGR    -1.0000     NotChecked  -15.3900    1580.6954   ✗       
+741   VLDESNVLDSFEGGR          -1.0000     NotChecked  -15.3964    1635.7740   ✗       
+742   +43.006LDQ+0.984SNVLDSFDGLR-1.0000     NotChecked  -15.4026    1621.7584   ✗       
+743   +42.011LDESNVLDYFLGLR    -1.0000     NotChecked  -15.4103    1694.8516   ✗       
+744   +43.006LDESNVLDSYFGLR    -1.0000     NotChecked  -15.4285    1669.7948   ✗       
+745   +42.011LDESNVLDFFLGLR    -1.0000     NotChecked  -15.4296    1678.8566   ✗       
+746   +43.006LDESNVLDSFGGLR    -1.0000     NotChecked  -15.4301    1563.7529   ✗       
+747   +42.011LDESNVLDSYYGLR    -1.0000     NotChecked  -15.4349    1684.7944   ✗       
+748   +42.011LN+0.984ESNVLDSFEGGR-1.0000     NotChecked  -15.4468    1578.7162   ✗       
+749   GLDESNVLDSLEGLR          -1.0000     NotChecked  -15.4501    1615.8053   ✗       
+750   +42.011LDESNVLDSFDALR    -1.0000     NotChecked  -15.4541    1634.7788   ✗       
+751   +42.011LDESNVLDSFDGAR    -1.0000     NotChecked  -15.4680    1578.7162   ✗       
+752   +43.006LDESNVLN+0.984SFDGLR-1.0000     NotChecked  -15.4727    1621.7584   ✗       
+753   +42.011LDESNVLDSFLLLR    -1.0000     NotChecked  -15.4731    1674.8829   ✗       
+754   +42.011LDESNVLDFYDGLR    -1.0000     NotChecked  -15.4837    1696.7944   ✗       
+755   FLDESNVLDSFGGLR          -1.0000     NotChecked  -15.5012    1667.8155   ✗       
+756   KLDESNVLDSLEGLR          -1.0000     NotChecked  -15.5032    1686.8788   ✗       
+757   +42.011LDESNVLDSYDLLR    -1.0000     NotChecked  -15.5272    1692.8206   ✗       
+758   +42.011LDESNVLDSYLGLR    -1.0000     NotChecked  -15.5327    1634.8152   ✗       
+759   +42.011LN+0.984ESNVLDFFEGLR-1.0000     NotChecked  -15.5405    1694.8152   ✗       
+760   +42.011LDESNVLDSFEVLR    -1.0000     NotChecked  -15.5446    1676.8257   ✗       
+761   +42.011LDESNVLDSREGLR    -1.0000     NotChecked  -15.5482    1643.8115   ✗       
+762   +42.011LDESNVLDSEEGLR    -1.0000     NotChecked  -15.5498    1616.7530   ✗       
+763   +42.011LDESNVLDSSEGLR    -1.0000     NotChecked  -15.5583    1574.7424   ✗       
+764   ALDESNVLDSFDGGR          -1.0000     NotChecked  -15.5601    1593.7271   ✗       
+765   +43.006LDESNVLDSPEGLR    -1.0000     NotChecked  -15.5677    1585.7584   ✗       
+766   +43.006LDESNVLDSFSGLR    -1.0000     NotChecked  -15.5735    1593.7635   ✗       
+767   ALDESNVLDSYEGLR          -1.0000     NotChecked  -15.5743    1679.8002   ✗       
+768   VLDESNVLDSFDGGR          -1.0000     NotChecked  -15.5790    1621.7584   ✗       
+769   +42.011LN+0.984ESNVLDSFELLR-1.0000     NotChecked  -15.5840    1690.8414   ✗       
+770   GLDESNVLDAFEGLR          -1.0000     NotChecked  -15.5900    1633.7948   ✗       
+771   ELDESNVLDSAEGLR          -1.0000     NotChecked  -15.5923    1645.7795   ✗       
+772   GLDESNVLDSFN+0.984GLR    -1.0000     NotChecked  -15.5994    1635.7740   ✗       
+773   +43.006LDESNVLDSFEGVR    -1.0000     NotChecked  -15.5997    1621.7584   ✗       
+774   ALDESNVLDSFYGLR          -1.0000     NotChecked  -15.6050    1697.8261   ✗       
+775   +42.011LN+0.984ESNVLDSFDGGR-1.0000     NotChecked  -15.6294    1564.7005   ✗       
+776   GLDESNVLDSLDGLR          -1.0000     NotChecked  -15.6326    1601.7897   ✗       
+777   FLDESNVLDSPEGLR          -1.0000     NotChecked  -15.6388    1689.8210   ✗       
+778   KLDESNVLDAFEGLR          -1.0000     NotChecked  -15.6432    1704.8683   ✗       
+779   +42.011LN+0.984ESNVLDSYEGLR-1.0000     NotChecked  -15.6435    1650.7737   ✗       
+780   FLDESNVLDSFSGLR          -1.0000     NotChecked  -15.6446    1697.8261   ✗       
+781   +43.006LDESNVLDSAEGGR    -1.0000     NotChecked  -15.6665    1503.6801   ✗       
+782   +43.006LN+0.984ESNVLDSFFGLR-1.0000     NotChecked  -15.6679    1653.7998   ✗       
+783   +42.011LN+0.984ESNVLDSFYGLR-1.0000     NotChecked  -15.6743    1668.7995   ✗       
+784   +42.011LDESNVLDSFFGLR    -1.0000     NotChecked  -15.6853    1652.8046   ✗       
+785   KLDESNVLDSLDGLR          -1.0000     NotChecked  -15.6858    1672.8632   ✗       
+786   ALDESNVLDSFLGLR          -1.0000     NotChecked  -15.7028    1647.8468   ✗       
+787   +42.011LN+0.984ESNVLDYFDGLR-1.0000     NotChecked  -15.7038    1696.7944   ✗       
+788   VLDESNVLDSFLGLR          -1.0000     NotChecked  -15.7216    1675.8781   ✗       
+789   +42.011LN+0.984ESNVLDFFDGLR-1.0000     NotChecked  -15.7231    1680.7995   ✗       
+790   +42.011LDESNVLDSFDVLR    -1.0000     NotChecked  -15.7272    1662.8101   ✗       
+791   +42.011LDESNVLDSRDGLR    -1.0000     NotChecked  -15.7308    1629.7958   ✗       
+792   +42.011LDESNVLDSEDGLR    -1.0000     NotChecked  -15.7324    1602.7373   ✗       
+793   FLDESNVLDSAEGGR          -1.0000     NotChecked  -15.7376    1607.7427   ✗       
+794   +42.011LDESNVLDSSDGLR    -1.0000     NotChecked  -15.7409    1560.7267   ✗       
+795   +43.006LDESNVLDYAEGLR    -1.0000     NotChecked  -15.7409    1635.7740   ✗       
+796   +43.006LDESNVLDSPDGLR    -1.0000     NotChecked  -15.7503    1571.7427   ✗       
+797   ALDESNVLDSYDGLR          -1.0000     NotChecked  -15.7569    1665.7846   ✗       
+798   +43.006LDESNVLDFAEGLR    -1.0000     NotChecked  -15.7602    1619.7791   ✗       
+799   +42.011LN+0.984ESNVLDSFDLLR-1.0000     NotChecked  -15.7666    1676.8257   ✗       
+800   +42.011LN+0.984ESNVLDSFLGLR-1.0000     NotChecked  -15.7720    1618.8203   ✗       
+801   GLDESNVLDAFDGLR          -1.0000     NotChecked  -15.7726    1619.7791   ✗       
+802   ELDESNVLDSADGLR          -1.0000     NotChecked  -15.7749    1631.7639   ✗       
+803   VLDESNVLDSYDGLR          -1.0000     NotChecked  -15.7758    1693.8159   ✗       
+804   +42.011LDESNVLDAAEGLR    -1.0000     NotChecked  -15.7772    1542.7526   ✗       
+805   +43.006LDESNVLDSFDGVR    -1.0000     NotChecked  -15.7823    1607.7427   ✗       
+806   +42.011LDESNVLDSAN+0.984GLR-1.0000     NotChecked  -15.7866    1544.7318   ✗       
+807   GLDESNVLDSFAGLR          -1.0000     NotChecked  -15.8001    1591.7842   ✗       
+808   +43.006LDESNVLDSAELLR    -1.0000     NotChecked  -15.8037    1615.8053   ✗       
+809   ALN+0.984ESNVLDSFEGLR    -1.0000     NotChecked  -15.8136    1663.8053   ✗       
+810   GLDESNVLDSAFGLR          -1.0000     NotChecked  -15.8204    1591.7842   ✗       
+811   FLDESNVLDSPDGLR          -1.0000     NotChecked  -15.8214    1675.8053   ✗       
+812   +42.011LDESNVLDTFFGLR    -1.0000     NotChecked  -15.8251    1666.8202   ✗       
+813   KLDESNVLDAFDGLR          -1.0000     NotChecked  -15.8258    1690.8526   ✗       
+814   +42.011LN+0.984ESNVLDSYDGLR-1.0000     NotChecked  -15.8261    1636.7580   ✗       
+815   VLN+0.984ESNVLDSFEGLR    -1.0000     NotChecked  -15.8325    1691.8366   ✗       
+816   +42.011LDESNVLDSGEGLR    -1.0000     NotChecked  -15.8483    1544.7318   ✗       
+817   +43.006LDESNVLDSADGGR    -1.0000     NotChecked  -15.8491    1489.6645   ✗       
+818   KLDESNVLDSFAGLR          -1.0000     NotChecked  -15.8532    1662.8577   ✗       
+819   +42.011LDQ+0.984SNVLDSFFGLR-1.0000     NotChecked  -15.8631    1652.8046   ✗       
+820   KLDESNVLDSAFGLR          -1.0000     NotChecked  -15.8736    1662.8577   ✗       
+821   +43.006LDESNVLDSAYGLR    -1.0000     NotChecked  -15.8940    1593.7635   ✗       
+822   ELDESNVLDSFEGGR          -1.0000     NotChecked  -15.8943    1665.7482   ✗       
+823   FLDESNVLDSADGGR          -1.0000     NotChecked  -15.9202    1593.7271   ✗       
+824   +43.006LDESNVLDYADGLR    -1.0000     NotChecked  -15.9235    1621.7584   ✗       
+825   GLDESNVLDSFEGLR          -1.0000     NotChecked  -15.9328    1649.7897   ✗       
+826   +42.011LDESNVLN+0.984SFFGLR-1.0000     NotChecked  -15.9332    1652.8046   ✗       
+827   +42.011LDESNVLDSLEGGR    -1.0000     NotChecked  -15.9392    1544.7318   ✗       
+828   +43.006LDESNVLDFADGLR    -1.0000     NotChecked  -15.9428    1605.7635   ✗       
+829   +42.011LDESNVLDAADGLR    -1.0000     NotChecked  -15.9598    1528.7369   ✗       
+830   FLDESNVLDSAYGLR          -1.0000     NotChecked  -15.9651    1697.8261   ✗       
+831   +43.006LDESNVLDSADLLR    -1.0000     NotChecked  -15.9863    1601.7897   ✗       
+832   +42.011LDESNVLDSAAGLR    -1.0000     NotChecked  -15.9873    1500.7420   ✗       
+833   +43.006LDESNVLDSALGLR    -1.0000     NotChecked  -15.9917    1543.7842   ✗       
+834   ALN+0.984ESNVLDSFDGLR    -1.0000     NotChecked  -15.9962    1649.7897   ✗       
+835   +42.011LDESNVLDYLEGLR    -1.0000     NotChecked  -16.0137    1676.8257   ✗       
+836   +43.006LDESNVLDSTEGLR    -1.0000     NotChecked  -16.0143    1589.7533   ✗       
+837   VLN+0.984ESNVLDSFDGLR    -1.0000     NotChecked  -16.0151    1677.8210   ✗       
+838   +42.011LDESNVLDSGDGLR    -1.0000     NotChecked  -16.0309    1530.7162   ✗       
+839   +42.011LDESNVLDFLEGLR    -1.0000     NotChecked  -16.0330    1660.8308   ✗       
+840   RLDESNVLDSAEGLR          -1.0000     NotChecked  -16.0330    1672.8380   ✗       
+841   +43.006LDESNVLDYFEGGR    -1.0000     NotChecked  -16.0429    1655.7427   ✗       
+842   +43.006LDESNVLDFFEGGR    -1.0000     NotChecked  -16.0622    1639.7478   ✗       
+843   FLDESNVLDSALGLR          -1.0000     NotChecked  -16.0629    1647.8468   ✗       
+844   GLDESNVLDTFEGLR          -1.0000     NotChecked  -16.0726    1663.8053   ✗       
+845   +42.011LDESNVLDSLELLR    -1.0000     NotChecked  -16.0765    1656.8570   ✗       
+846   ELDESNVLDSFDGGR          -1.0000     NotChecked  -16.0769    1651.7326   ✗       
+847   +42.011LDESNVLDAFEGGR    -1.0000     NotChecked  -16.0792    1562.7213   ✗       
+848   FLDESNVLDSTEGLR          -1.0000     NotChecked  -16.0854    1693.8159   ✗       
+849   +42.011LDESNVLDSFN+0.984GGR-1.0000     NotChecked  -16.0886    1564.7005   ✗       
+850   +43.006LN+0.984ESNVLDSAEGLR-1.0000     NotChecked  -16.1026    1559.7427   ✗       
+851   +43.006LDESNVLDSFELGR    -1.0000     NotChecked  -16.1056    1635.7740   ✗       
+852   GLDQ+0.984SNVLDSFEGLR    -1.0000     NotChecked  -16.1106    1649.7897   ✗       
+853   GLDESNVLDSFDGLR          -1.0000     NotChecked  -16.1154    1635.7740   ✗       
+854   +42.011LDESNVLDSAEGLR    -1.0000     NotChecked  -16.1200    1558.7475   ✗       
+855   +42.011LDESNVLDSLDGGR    -1.0000     NotChecked  -16.1218    1530.7162   ✗       
+856   GLDESNVLDSFFGGR          -1.0000     NotChecked  -16.1224    1611.7529   ✗       
+857   +43.006LDESNVLDSLFGLR    -1.0000     NotChecked  -16.1604    1619.8155   ✗       
+858   +42.011LDESNVLDYFN+0.984GLR-1.0000     NotChecked  -16.1630    1696.7944   ✗       
+859   +43.006LDESNVLDSYEGGR    -1.0000     NotChecked  -16.1652    1595.7063   ✗       
+860   +42.011LDESNVLDSLYGLR    -1.0000     NotChecked  -16.1667    1634.8152   ✗       
+861   GLDESNVLDSFQ+0.984GLR    -1.0000     NotChecked  -16.1706    1649.7897   ✗       
+862   FLN+0.984ESNVLDSAEGLR    -1.0000     NotChecked  -16.1737    1663.8053   ✗       
+863   KLDESNVLDSFFGGR          -1.0000     NotChecked  -16.1755    1682.8264   ✗       
+864   +42.011LDESNVLDLFEGLR    -1.0000     NotChecked  -16.1779    1660.8308   ✗       
+865   GLDESNVLN+0.984SFEGLR    -1.0000     NotChecked  -16.1807    1649.7897   ✗       
+866   +42.011LDESNVLDFFN+0.984GLR-1.0000     NotChecked  -16.1823    1680.7995   ✗       
+867   +43.006LDESNVLDSFYGGR    -1.0000     NotChecked  -16.1959    1613.7322   ✗       
+868   +42.011LDESNVLDYLDGLR    -1.0000     NotChecked  -16.1963    1662.8101   ✗       
+869   +43.006LDESNVLDSTDGLR    -1.0000     NotChecked  -16.1969    1575.7376   ✗       
+870   +42.011LDESNVLDSPFGLR    -1.0000     NotChecked  -16.2108    1602.7890   ✗       
+871   +42.011LDESNVLDFLDGLR    -1.0000     NotChecked  -16.2156    1646.8152   ✗       
+872   RLDESNVLDSADGLR          -1.0000     NotChecked  -16.2156    1658.8224   ✗       
+873   +42.011LDESNVLDAFELLR    -1.0000     NotChecked  -16.2164    1674.8465   ✗       
+874   +43.006LDESNVLDYFDGGR    -1.0000     NotChecked  -16.2255    1641.7271   ✗       
+875   +42.011LDESNVLDSFN+0.984LLR-1.0000     NotChecked  -16.2258    1676.8257   ✗       
+876   +43.006LDESNVLDSFEALR    -1.0000     NotChecked  -16.2293    1649.7897   ✗       
+877   FLDESNVLDSYEGGR          -1.0000     NotChecked  -16.2363    1699.7689   ✗       
+878   +42.011LDESNVLDSFFGVR    -1.0000     NotChecked  -16.2428    1638.7890   ✗       
+879   +43.006LDESNVLDSFEGAR    -1.0000     NotChecked  -16.2432    1593.7271   ✗       
+880   +43.006LDESNVLDFFDGGR    -1.0000     NotChecked  -16.2448    1625.7322   ✗       
+881   GLDESNVLDTFDGLR          -1.0000     NotChecked  -16.2552    1649.7897   ✗       
+882   +42.011LDESNVLDSLDLLR    -1.0000     NotChecked  -16.2590    1642.8414   ✗       
+883   +42.011LDESNVLDTAEGLR    -1.0000     NotChecked  -16.2598    1572.7631   ✗       
+884   +42.011LDESNVLDAFDGGR    -1.0000     NotChecked  -16.2618    1548.7056   ✗       
+885   +42.011LDESNVLDSLLGLR    -1.0000     NotChecked  -16.2645    1584.8359   ✗       
+886   FLDESNVLDSTDGLR          -1.0000     NotChecked  -16.2680    1679.8002   ✗       
+887   +42.011LDESNVLDAYEGLR    -1.0000     NotChecked  -16.2760    1634.7788   ✗       
+888   +43.006LN+0.984ESNVLDSADGLR-1.0000     NotChecked  -16.2852    1545.7271   ✗       
+889   +42.011LDESNVLDSYN+0.984GLR-1.0000     NotChecked  -16.2853    1636.7580   ✗       
+890   +43.006LDESNVLDSFDLGR    -1.0000     NotChecked  -16.2882    1621.7584   ✗       
+891   +42.011LDESNVLDSFAGGR    -1.0000     NotChecked  -16.2893    1520.7107   ✗       
+892   GLDQ+0.984SNVLDSFDGLR    -1.0000     NotChecked  -16.2932    1635.7740   ✗       
+893   +43.006LDESNVLDSFLGGR    -1.0000     NotChecked  -16.2937    1563.7529   ✗       
+894   +42.011LDQ+0.984SNVLDSAEGLR-1.0000     NotChecked  -16.2978    1558.7475   ✗       
+895   +43.006LDESNVLDAFFGLR    -1.0000     NotChecked  -16.3003    1637.8049   ✗       
+896   +42.011LDESNVLDSADGLR    -1.0000     NotChecked  -16.3026    1544.7318   ✗       
+897   ALDESNVLDSLEGLR          -1.0000     NotChecked  -16.3061    1629.8210   ✗       
+898   +42.011LDESNVLDAFYGLR    -1.0000     NotChecked  -16.3067    1652.8046   ✗       
+899   +42.011LDESNVLDSAFGGR    -1.0000     NotChecked  -16.3096    1520.7107   ✗       
+900   FLDESNVLDSFEGAR          -1.0000     NotChecked  -16.3144    1697.7897   ✗       
+901   GLDESNVLDSYFGLR          -1.0000     NotChecked  -16.3191    1683.8104   ✗       
+902   GLDESNVLDSFGGLR          -1.0000     NotChecked  -16.3207    1577.7685   ✗       
+903   VLDESNVLDSLEGLR          -1.0000     NotChecked  -16.3250    1657.8523   ✗       
+904   RLDESNVLDSFEGGR          -1.0000     NotChecked  -16.3349    1692.8067   ✗       
+905   +43.006LDESNVLDSYDGGR    -1.0000     NotChecked  -16.3478    1581.6907   ✗       
+906   FLN+0.984ESNVLDSADGLR    -1.0000     NotChecked  -16.3563    1649.7897   ✗       
+907   +42.011LDESNVLDSAQ+0.984GLR-1.0000     NotChecked  -16.3578    1558.7475   ✗       
+908   +42.011LDESNVLDLFDGLR    -1.0000     NotChecked  -16.3605    1646.8152   ✗       
+909   GLDESNVLN+0.984SFDGLR    -1.0000     NotChecked  -16.3633    1635.7740   ✗       
+910   +42.011LDESNVLDYFAGLR    -1.0000     NotChecked  -16.3637    1652.8046   ✗       
+911   FLDESNVLDSFLGGR          -1.0000     NotChecked  -16.3648    1667.8155   ✗       
+912   +42.011LDESNVLN+0.984SAEGLR-1.0000     NotChecked  -16.3679    1558.7475   ✗       
+913   +43.006LDESNVLDYFLGLR    -1.0000     NotChecked  -16.3681    1695.8468   ✗       
+914   KLDESNVLDSFGGLR          -1.0000     NotChecked  -16.3738    1648.8420   ✗       
+915   +42.011LN+0.984ESNVLDSLEGLR-1.0000     NotChecked  -16.3754    1600.7944   ✗       
+916   +42.011LDESNVLDFFAGLR    -1.0000     NotChecked  -16.3830    1636.8097   ✗       
+917   +42.011LDESNVLDYAFGLR    -1.0000     NotChecked  -16.3840    1652.8046   ✗       
+918   +43.006LDESNVLDFFLGLR    -1.0000     NotChecked  -16.3874    1679.8519   ✗       
+919   +43.006LDESNVLDSYYGLR    -1.0000     NotChecked  -16.3927    1685.7897   ✗       
+920   +42.011LDESNVLDAFDLLR    -1.0000     NotChecked  -16.3990    1660.8308   ✗       
+921   +42.011LDESNVLDFAFGLR    -1.0000     NotChecked  -16.4033    1636.8097   ✗       
+922   +42.011LDESNVLDAFLGLR    -1.0000     NotChecked  -16.4045    1602.8253   ✗       
+923   +43.006LN+0.984ESNVLDSFEGGR-1.0000     NotChecked  -16.4046    1579.7114   ✗       
+924   +43.006LDESNVLDSFDALR    -1.0000     NotChecked  -16.4119    1635.7740   ✗       
+925   FLDESNVLDSYDGGR          -1.0000     NotChecked  -16.4189    1685.7533   ✗       
+926   +42.011LDESNVLDSFEGLGR   -1.0000     NotChecked  -16.4220    1691.8002   ✗       
+927   +43.006LDESNVLDSFDGAR    -1.0000     NotChecked  -16.4258    1579.7114   ✗       
+928   +42.011LDESNVLDSFALLR    -1.0000     NotChecked  -16.4265    1632.8359   ✗       
+929   +43.006LDESNVLDSFLLLR    -1.0000     NotChecked  -16.4309    1675.8781   ✗       
+930   +43.006LDESNVLDFYDGLR    -1.0000     NotChecked  -16.4415    1697.7897   ✗       
+931   +42.011LDESNVLDTADGLR    -1.0000     NotChecked  -16.4424    1558.7475   ✗       
+932   ALDESNVLDAFEGLR          -1.0000     NotChecked  -16.4461    1647.8104   ✗       
+933   +42.011LDESNVLDSAFLLR    -1.0000     NotChecked  -16.4468    1632.8359   ✗       
+934   ALDESNVLDSFN+0.984GLR    -1.0000     NotChecked  -16.4554    1649.7897   ✗       
+935   GLDESNVLDSPEGLR          -1.0000     NotChecked  -16.4583    1599.7740   ✗       
+936   +42.011LDESNVLDAYDGLR    -1.0000     NotChecked  -16.4586    1620.7631   ✗       
+937   +42.011LNESNVLDSFEGLR    -1.0000     NotChecked  -16.4613    1633.7948   ✗       
+938   GLDESNVLDSFSGLR          -1.0000     NotChecked  -16.4640    1607.7791   ✗       
+939   VLDESNVLDAFEGLR          -1.0000     NotChecked  -16.4650    1675.8417   ✗       
+940   VLDESNVLDSFN+0.984GLR    -1.0000     NotChecked  -16.4743    1677.8210   ✗       
+941   FLN+0.984ESNVLDSFEGGR    -1.0000     NotChecked  -16.4757    1683.7740   ✗       
+942   +42.011LDQ+0.984SNVLDSADGLR-1.0000     NotChecked  -16.4804    1544.7318   ✗       
+943   +43.006LDESNVLDSYDLLR    -1.0000     NotChecked  -16.4850    1693.8159   ✗       
+944   +42.011LDESNVLDSYAGLR    -1.0000     NotChecked  -16.4860    1592.7682   ✗       
+945   ALDESNVLDSLDGLR          -1.0000     NotChecked  -16.4887    1615.8053   ✗       
+946   GLDESNVLDSFEGVR          -1.0000     NotChecked  -16.4903    1635.7740   ✗       
+947   +43.006LDESNVLDSYLGLR    -1.0000     NotChecked  -16.4904    1635.8104   ✗       
+948   FLDESNVLDSFDGAR          -1.0000     NotChecked  -16.4970    1683.7740   ✗       
+949   +43.006LN+0.984ESNVLDFFEGLR-1.0000     NotChecked  -16.4983    1695.8104   ✗       
+950   +43.006LDESNVLDSFEVLR    -1.0000     NotChecked  -16.5024    1677.8210   ✗       
+951   +43.006LDESNVLDSREGLR    -1.0000     NotChecked  -16.5060    1644.8067   ✗       
+952   VLDESNVLDSLDGLR          -1.0000     NotChecked  -16.5076    1643.8366   ✗       
+953   +43.006LDESNVLDSEEGLR    -1.0000     NotChecked  -16.5076    1617.7482   ✗       
+954   +42.011LDESNVLDSAGGLR    -1.0000     NotChecked  -16.5079    1486.7264   ✗       
+955   KLDESNVLDSPEGLR          -1.0000     NotChecked  -16.5114    1670.8475   ✗       
+956   +42.011LN+0.984ESNVLDAFEGLR-1.0000     NotChecked  -16.5153    1618.7839   ✗       
+957   +42.011LDESNVLDFFEGLR    -1.0000     NotChecked  -16.5157    1694.8152   ✗       
+958   +43.006LDESNVLDSSEGLR    -1.0000     NotChecked  -16.5161    1575.7376   ✗       
+959   KLDESNVLDSFSGLR          -1.0000     NotChecked  -16.5172    1678.8526   ✗       
+960   RLDESNVLDSFDGGR          -1.0000     NotChecked  -16.5175    1678.7911   ✗       
+961   +42.011LN+0.984ESNVLDSFN+0.984GLR-1.0000     NotChecked  -16.5247    1620.7631   ✗       
+962   +43.006LN+0.984ESNVLDSFELLR-1.0000     NotChecked  -16.5418    1691.8366   ✗       
+963   +42.011LDESNVLN+0.984SADGLR-1.0000     NotChecked  -16.5505    1544.7318   ✗       
+964   GLDESNVLDSAEGGR          -1.0000     NotChecked  -16.5571    1517.6958   ✗       
+965   +42.011LN+0.984ESNVLDSLDGLR-1.0000     NotChecked  -16.5580    1586.7788   ✗       
+966   GLN+0.984ESNVLDSFFGLR    -1.0000     NotChecked  -16.5585    1667.8155   ✗       
+967   +42.011LDESNVLDSFELR     -1.0000     NotChecked  -16.5592    1577.7573   ✗       
+968   +42.011LDESNVLDTFEGGR    -1.0000     NotChecked  -16.5618    1592.7318   ✗       
+969   +43.006LN+0.984ESNVLDSFDGGR-1.0000     NotChecked  -16.5871    1565.6958   ✗       
+970   FLDESNVLDSSEGLR          -1.0000     NotChecked  -16.5872    1679.8002   ✗       
+971   +42.011LDESNVLDSFEGR     -1.0000     NotChecked  -16.5910    1521.6947   ✗       
+972   +42.011LDQ+0.984SNVLDSFEGGR-1.0000     NotChecked  -16.5998    1578.7162   ✗       
+973   +43.006LN+0.984ESNVLDSYEGLR-1.0000     NotChecked  -16.6013    1651.7689   ✗       
+974   +42.011LDESNVLDSFDGLGR   -1.0000     NotChecked  -16.6046    1677.7846   ✗       
+975   KLDESNVLDSAEGGR          -1.0000     NotChecked  -16.6102    1588.7693   ✗       
+976   +42.011LDESNVLDSYEGLR    -1.0000     NotChecked  -16.6188    1650.7737   ✗       
+977   ALDESNVLDAFDGLR          -1.0000     NotChecked  -16.6287    1633.7948   ✗       
+978   GLDESNVLDYAEGLR          -1.0000     NotChecked  -16.6315    1649.7897   ✗       
+979   +43.006LN+0.984ESNVLDSFYGLR-1.0000     NotChecked  -16.6320    1669.7948   ✗       
+980   GLDESNVLDSPDGLR          -1.0000     NotChecked  -16.6408    1585.7584   ✗       
+981   +43.006LDESNVLDSFFGLR    -1.0000     NotChecked  -16.6431    1653.7998   ✗       
+982   +42.011LNESNVLDSFDGLR    -1.0000     NotChecked  -16.6439    1619.7791   ✗       
+983   VLDESNVLDAFDGLR          -1.0000     NotChecked  -16.6475    1661.8261   ✗       
+984   +42.011LDESNVLDSFYGLR    -1.0000     NotChecked  -16.6495    1668.7995   ✗       
+985   GLDESNVLDFAEGLR          -1.0000     NotChecked  -16.6508    1633.7948   ✗       
+986   +42.011LDESNVLDSASGLR    -1.0000     NotChecked  -16.6513    1516.7369   ✗       
+987   ALDESNVLDSFAGLR          -1.0000     NotChecked  -16.6561    1605.7999   ✗       
+988   +42.011LDESN+0.984VLDSFEGLR-1.0000     NotChecked  -16.6566    1635.7628   ✗       
+989   +42.011LDESNVLDSTFGLR    -1.0000     NotChecked  -16.6574    1606.7839   ✗       
+990   FLN+0.984ESNVLDSFDGGR    -1.0000     NotChecked  -16.6583    1669.7584   ✗       
+991   +42.011LDESNVLDSFQ+0.984GGR-1.0000     NotChecked  -16.6598    1578.7162   ✗       
+992   +43.006LN+0.984ESNVLDYFDGLR-1.0000     NotChecked  -16.6616    1697.7897   ✗       
+993   +42.011LDESNVLN+0.984SFEGGR-1.0000     NotChecked  -16.6699    1578.7162   ✗       
+994   GLDESNVLDSFDGVR          -1.0000     NotChecked  -16.6729    1621.7584   ✗       
+995   VLDESNVLDSFAGLR          -1.0000     NotChecked  -16.6750    1633.8312   ✗       
+996   ALDESNVLDSAFGLR          -1.0000     NotChecked  -16.6764    1605.7999   ✗       
+997   +42.011LDESNVLDSAEGVR    -1.0000     NotChecked  -16.6775    1544.7318   ✗       
+998   +42.011LDESNVLDYFDGLR    -1.0000     NotChecked  -16.6790    1696.7944   ✗       
+999   +43.006LN+0.984ESNVLDFFDGLR-1.0000     NotChecked  -16.6809    1681.7948   ✗       
+1000  +43.006LDESNVLDSFDVLR    -1.0000     NotChecked  -16.6850    1663.8053   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: LLDESNVLDTFN+0.984GLR
+Similarity: 0.3665
+De Novo Score: -8.9671
+Source: Prosit
+Correct: ✗
+

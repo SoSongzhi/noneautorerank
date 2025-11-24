@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 120
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 987.0108
+Precursor charge: 2+
+Ground truth: IVEYTADPVNGFNAVVHK
+Ground truth (normalized): IVEYTADPVNGFNAVVHK
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 327
+Used for reranking: 327
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 327 (32.7%)
+Database matches: 110 (11.0%)
+Prosit predictions: 202 (20.2%)
+Failed: 15 (1.5%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.8164
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     LVEYTADPVNGFNAVVHK       0.8164      Database    -2.8549     1972.0054   ✓       ✓
+2     LVEYTADPVNGFNAVVHK       0.8164      Database    -3.0684     1972.0054   ✓       ✓
+3     LVEYTADPVNGFNAVVHK       0.8164      Database    -3.1172     1972.0054   ✓       ✓
+4     LVEYTADPVNGFNAVVHK       0.8164      Database    -3.3308     1972.0054   ✓       ✓
+5     LVEYTADPVNGFNAVVHK       0.8164      Database    -3.4115     1972.0054   ✓       ✓
+6     LVEYTADPVNGFNAVVHK       0.8164      Database    -3.6738     1972.0054   ✓       ✓
+7     LVEYTADPVNGFNAVVHK       0.8164      Database    -5.4245     1972.0054   ✓       ✓
+8     LVEYTADPVNGFNAVVHK       0.8164      Database    -5.6380     1972.0054   ✓       ✓
+9     LVEYTADPVNGFNAVVHK       0.8164      Database    -5.6868     1972.0054   ✓       ✓
+10    LVEYTADPVNGFNAVVHK       0.8164      Database    -5.9003     1972.0054   ✓       ✓
+11    LVEYTADPVNGFNAVVHK       0.8164      Database    -5.9811     1972.0054   ✓       ✓
+12    LVEYTADPVNGFNAVVHK       0.8164      Database    -6.1641     1972.0054   ✓       ✓
+13    LVEYTADPVNGFNAVVHK       0.8164      Database    -6.2434     1972.0054   ✓       ✓
+14    LVEYTADPVNGFNAVVHK       0.8164      Database    -6.3776     1972.0054   ✓       ✓
+15    LVEYTADPVNGFNAVVHK       0.8164      Database    -6.4264     1972.0054   ✓       ✓
+16    LVEYTADPVNGFNAVVHK       0.8164      Database    -6.4438     1972.0054   ✓       ✓
+17    LVEYTADPVNGFNAVVHK       0.8164      Database    -6.6400     1972.0054   ✓       ✓
+18    LVEYTADPVNGFNAVVHK       0.8164      Database    -6.6573     1972.0054   ✓       ✓
+19    LVEYTADPVNGFNAVVHK       0.8164      Database    -6.7061     1972.0054   ✓       ✓
+20    LVEYTADPVNGFNAVVHK       0.8164      Database    -6.7207     1972.0054   ✓       ✓
+21    LVEYTADPVNGFNAVVHK       0.8164      Database    -6.9196     1972.0054   ✓       ✓
+22    LVEYTADPVNGFNAVVHK       0.8164      Database    -6.9830     1972.0054   ✓       ✓
+23    LVEYTADPVNGFNAVVHK       0.8164      Database    -7.0004     1972.0054   ✓       ✓
+24    LVEYTADPVNGFNAVVHK       0.8164      Database    -7.2627     1972.0054   ✓       ✓
+25    LVEYTADPVNGFNAVVHK       0.8164      Database    -7.3659     1972.0054   ✓       ✓
+26    LVEYTADPVNGFNAVVHK       0.8164      Database    -7.5795     1972.0054   ✓       ✓
+27    LVEYTADPVNGFNAVVHK       0.8164      Database    -7.6282     1972.0054   ✓       ✓
+28    LVEYTADPVNGFNAVVHK       0.8164      Database    -7.8418     1972.0054   ✓       ✓
+29    LVEYTADPVNGFNAVVHK       0.8164      Database    -7.9225     1972.0054   ✓       ✓
+30    LVEYTADPVNGFNAVVHK       0.8164      Database    -8.1848     1972.0054   ✓       ✓
+31    LVEYTADPVNGFNAVVHK       0.8164      Database    -8.7336     1972.0054   ✓       ✓
+32    LVEYTADPVNGFNAVVHK       0.8164      Database    -8.9472     1972.0054   ✓       ✓
+33    LVEYTADPVNGFNAVVHK       0.8164      Database    -8.9960     1972.0054   ✓       ✓
+34    LVEYTADPVNGFNAVVHK       0.8164      Database    -9.0133     1972.0054   ✓       ✓
+35    LVEYTADPVNGFNAVVHK       0.8164      Database    -9.2095     1972.0054   ✓       ✓
+36    LVEYTADPVNGFNAVVHK       0.8164      Database    -9.2269     1972.0054   ✓       ✓
+37    LVEYTADPVNGFNAVVHK       0.8164      Database    -9.2757     1972.0054   ✓       ✓
+38    LVEYTADPVNGFNAVVHK       0.8164      Database    -9.2902     1972.0054   ✓       ✓
+39    LVEYTADPVNGFNAVVHK       0.8164      Database    -9.4892     1972.0054   ✓       ✓
+40    LVEYTADPVNGFNAVVHK       0.8164      Database    -9.5526     1972.0054   ✓       ✓
+41    LVEYTADPVNGFNAVVHK       0.8164      Database    -9.5699     1972.0054   ✓       ✓
+42    LVEYTADPVNGFNAVVHK       0.8164      Database    -9.7529     1972.0054   ✓       ✓
+43    LVEYTADPVNGFNAVVHK       0.8164      Database    -9.8323     1972.0054   ✓       ✓
+44    LVEYTADPVNGFNAVVHK       0.8164      Database    -9.9355     1972.0054   ✓       ✓
+45    LVEYTADPVNGFNAVVHK       0.8164      Database    -9.9665     1972.0054   ✓       ✓
+46    LVEYTADPVNGFNAVVHK       0.8164      Database    -10.0153    1972.0054   ✓       ✓
+47    LVEYTADPVNGFNAVVHK       0.8164      Database    -10.1490    1972.0054   ✓       ✓
+48    LVEYTADPVNGFNAVVHK       0.8164      Database    -10.1978    1972.0054   ✓       ✓
+49    LVEYTADPVNGFNAVVHK       0.8164      Database    -10.2288    1972.0054   ✓       ✓
+50    LVEYTADPVNGFNAVVHK       0.8164      Database    -10.3095    1972.0054   ✓       ✓
+51    LVEYTADPVNGFNAVVHK       0.8164      Database    -10.4113    1972.0054   ✓       ✓
+52    LVEYTADPVNGFNAVVHK       0.8164      Database    -10.4921    1972.0054   ✓       ✓
+53    LVEYTADPVNGFNAVVHK       0.8164      Database    -10.5425    1972.0054   ✓       ✓
+54    LVEYTADPVNGFNAVVHK       0.8164      Database    -10.5719    1972.0054   ✓       ✓
+55    LVEYTADPVNGFNAVVHK       0.8164      Database    -10.6751    1972.0054   ✓       ✓
+56    LVEYTADPVNGFNAVVHK       0.8164      Database    -10.7544    1972.0054   ✓       ✓
+57    LVEYTADPVNGFNAVVHK       0.8164      Database    -10.7560    1972.0054   ✓       ✓
+58    LVEYTADPVNGFNAVVHK       0.8164      Database    -10.8048    1972.0054   ✓       ✓
+59    LVEYTADPVNGFNAVVHK       0.8164      Database    -10.8886    1972.0054   ✓       ✓
+60    LVEYTADPVNGFNAVVHK       0.8164      Database    -10.9374    1972.0054   ✓       ✓
+61    LVEYTADPVNGFNAVVHK       0.8164      Database    -10.9548    1972.0054   ✓       ✓
+62    LVEYTADPVNGFNAVVHK       0.8164      Database    -11.0184    1972.0054   ✓       ✓
+63    LVEYTADPVNGFNAVVHK       0.8164      Database    -11.0991    1972.0054   ✓       ✓
+64    LVEYTADPVNGFNAVVHK       0.8164      Database    -11.1510    1972.0054   ✓       ✓
+65    LVEYTADPVNGFNAVVHK       0.8164      Database    -11.1683    1972.0054   ✓       ✓
+66    LVEYTADPVNGFNAVVHK       0.8164      Database    -11.2171    1972.0054   ✓       ✓
+67    LVEYTADPVNGFNAVVHK       0.8164      Database    -11.2317    1972.0054   ✓       ✓
+68    LVEYTADPVNGFNAVVHK       0.8164      Database    -11.2969    1972.0054   ✓       ✓
+69    LVEYTADPVNGFNAVVHK       0.8164      Database    -11.3614    1972.0054   ✓       ✓
+70    LVEYTADPVNGFNAVVHK       0.8164      Database    -11.4307    1972.0054   ✓       ✓
+71    LVEYTADPVNGFNAVVHK       0.8164      Database    -11.4940    1972.0054   ✓       ✓
+72    LVEYTADPVNGFNAVVHK       0.8164      Database    -11.5104    1972.0054   ✓       ✓
+73    LVEYTADPVNGFNAVVHK       0.8164      Database    -11.5114    1972.0054   ✓       ✓
+74    LVEYTADPVNGFNAVVHK       0.8164      Database    -11.5587    1972.0054   ✓       ✓
+75    LVEYTADPVNGFNAVVHK       0.8164      Database    -11.5592    1972.0054   ✓       ✓
+76    LVEYTADPVNGFNAVVHK       0.8164      Database    -11.6055    1972.0054   ✓       ✓
+77    LVEYTADPVNGFNAVVHK       0.8164      Database    -11.6152    1972.0054   ✓       ✓
+78    LVEYTADPVNGFNAVVHK       0.8164      Database    -11.7723    1972.0054   ✓       ✓
+79    LVEYTADPVNGFNAVVHK       0.8164      Database    -11.7727    1972.0054   ✓       ✓
+80    LVEYTADPVNGFNAVVHK       0.8164      Database    -11.7737    1972.0054   ✓       ✓
+81    LVEYTADPVNGFNAVVHK       0.8164      Database    -11.8121    1972.0054   ✓       ✓
+82    LVEYTADPVNGFNAVVHK       0.8164      Database    -11.8191    1972.0054   ✓       ✓
+83    LVEYTADPVNGFNAVVHK       0.8164      Database    -11.8210    1972.0054   ✓       ✓
+84    LVEYTADPVNGFNAVVHK       0.8164      Database    -11.8287    1972.0054   ✓       ✓
+85    LVEYTADPVNGFNAVVHK       0.8164      Database    -11.8535    1972.0054   ✓       ✓
+86    LVEYTADPVNGFNAVVHK       0.8164      Database    -11.8679    1972.0054   ✓       ✓
+87    LVEYTADPVNGFNAVVHK       0.8164      Database    -11.8775    1972.0054   ✓       ✓
+88    LVEYTADPVNGFNAVVHK       0.8164      Database    -12.0257    1972.0054   ✓       ✓
+89    LVEYTADPVNGFNAVVHK       0.8164      Database    -12.0346    1972.0054   ✓       ✓
+90    LVEYTADPVNGFNAVVHK       0.8164      Database    -12.0745    1972.0054   ✓       ✓
+91    LVEYTADPVNGFNAVVHK       0.8164      Database    -12.0814    1972.0054   ✓       ✓
+92    LVEYTADPVNGFNAVVHK       0.8164      Database    -12.0911    1972.0054   ✓       ✓
+93    LVEYTADPVNGFNAVVHK       0.8164      Database    -12.1153    1972.0054   ✓       ✓
+94    LVEYTADPVNGFNAVVHK       0.8164      Database    -12.1158    1972.0054   ✓       ✓
+95    LVEYTADPVNGFNAVVHK       0.8164      Database    -12.1621    1972.0054   ✓       ✓
+96    LVEYTADPVNGFNAVVHK       0.8164      Database    -12.1718    1972.0054   ✓       ✓
+97    LVEYTADPVNGFNAVVHK       0.8164      Database    -12.2880    1972.0054   ✓       ✓
+98    LVEYTADPVNGFNAVVHK       0.8164      Database    -12.3225    1972.0054   ✓       ✓
+99    LVEYTADPVNGFNAVVHK       0.8164      Database    -12.3687    1972.0054   ✓       ✓
+100   LVEYTADPVNGFNAVVHK       0.8164      Database    -12.3776    1972.0054   ✓       ✓
+101   LVEYTADPVNGFNAVVHK       0.8164      Database    -12.4245    1972.0054   ✓       ✓
+102   LVEYTADPVNGFNAVVHK       0.8164      Database    -12.4341    1972.0054   ✓       ✓
+103   LVEYTADPVNGFNAVVHK       0.8164      Database    -12.5361    1972.0054   ✓       ✓
+104   LVEYTADPVNGFNAVVHK       0.8164      Database    -12.5848    1972.0054   ✓       ✓
+105   LVEYTADPVNGFNAVVHK       0.8164      Database    -12.6311    1972.0054   ✓       ✓
+106   LVEYTADPVNGFNAVVHK       0.8164      Database    -12.7984    1972.0054   ✓       ✓
+107   LVEYTADPVNGFNAVVHK       0.8164      Database    -12.8791    1972.0054   ✓       ✓
+108   LVEYTADPVNGFNAVVHK       0.8164      Database    -12.9963    1972.0054   ✓       ✓
+109   LVEYTADPVNGFNAVVHK       0.8164      Database    -15.5135    1972.0054   ✓       ✓
+110   LVEYTADPVNGFNAVVHK       0.8164      Database    -15.7758    1972.0054   ✓       ✓
+111   LVEYTADPVGGFNQVVHK       0.4387      Prosit      -12.6821    1972.0054   ✓       
+112   LVEYTADPVGGFNQVVHK       0.4387      Prosit      -12.8957    1972.0054   ✓       
+113   LVEYTADPVGGFNQVVHK       0.4387      Prosit      -12.9444    1972.0054   ✓       
+114   LVQ+0.984YTADPVNGFNAVVHK 0.4263      Prosit      -7.1398     1972.0054   ✓       
+115   LVQ+0.984YTADPVNGFNAVVHK 0.4263      Prosit      -7.3534     1972.0054   ✓       
+116   LVQ+0.984YTADPVNGFNAVVHK 0.4263      Prosit      -7.4021     1972.0054   ✓       
+117   LVQ+0.984YTADPVNGFNAVVHK 0.4263      Prosit      -7.6157     1972.0054   ✓       
+118   LVQ+0.984YTADPVNGFNAVVHK 0.4263      Prosit      -7.6964     1972.0054   ✓       
+119   LVQ+0.984YTADPVNGFNAVVHK 0.4263      Prosit      -7.9587     1972.0054   ✓       
+120   LVQ+0.984YTADPVNGFNAVVHK 0.4263      Prosit      -9.7094     1972.0054   ✓       
+121   LVQ+0.984YTADPVNGFNAVVHK 0.4263      Prosit      -9.9229     1972.0054   ✓       
+122   LVQ+0.984YTADPVNGFNAVVHK 0.4263      Prosit      -9.9717     1972.0054   ✓       
+123   LVQ+0.984YTADPVNGFNAVVHK 0.4263      Prosit      -10.1853    1972.0054   ✓       
+124   LVQ+0.984YTADPVNGFNAVVHK 0.4263      Prosit      -10.2660    1972.0054   ✓       
+125   LVQ+0.984YTADPVNGFNAVVHK 0.4263      Prosit      -10.4490    1972.0054   ✓       
+126   LVQ+0.984YTADPVNGFNAVVHK 0.4263      Prosit      -10.5283    1972.0054   ✓       
+127   LVQ+0.984YTADPVNGFNAVVHK 0.4263      Prosit      -10.6625    1972.0054   ✓       
+128   LVQ+0.984YTADPVNGFNAVVHK 0.4263      Prosit      -10.7113    1972.0054   ✓       
+129   LVQ+0.984YTADPVNGFNAVVHK 0.4263      Prosit      -10.7287    1972.0054   ✓       
+130   LVQ+0.984YTADPVNGFNAVVHK 0.4263      Prosit      -10.9249    1972.0054   ✓       
+131   LVQ+0.984YTADPVNGFNAVVHK 0.4263      Prosit      -10.9422    1972.0054   ✓       
+132   LVQ+0.984YTADPVNGFNAVVHK 0.4263      Prosit      -10.9910    1972.0054   ✓       
+133   LVQ+0.984YTADPVNGFNAVVHK 0.4263      Prosit      -11.0056    1972.0054   ✓       
+134   LVQ+0.984YTADPVNGFNAVVHK 0.4263      Prosit      -11.2046    1972.0054   ✓       
+135   LVQ+0.984YTADPVNGFNAVVHK 0.4263      Prosit      -11.2679    1972.0054   ✓       
+136   LVQ+0.984YTADPVNGFNAVVHK 0.4263      Prosit      -11.2853    1972.0054   ✓       
+137   LVQ+0.984YTADPVNGFNAVVHK 0.4263      Prosit      -11.5476    1972.0054   ✓       
+138   LVQ+0.984YTADPVNGFNAVVHK 0.4263      Prosit      -11.6508    1972.0054   ✓       
+139   LVQ+0.984YTADPVNGFNAVVHK 0.4263      Prosit      -11.8644    1972.0054   ✓       
+140   LVQ+0.984YTADPVNGFNAVVHK 0.4263      Prosit      -11.9131    1972.0054   ✓       
+141   LVQ+0.984YTADPVNGFNAVVHK 0.4263      Prosit      -12.1267    1972.0054   ✓       
+142   LVQ+0.984YTADPVNGFNAVVHK 0.4263      Prosit      -12.2074    1972.0054   ✓       
+143   LVQ+0.984YTADPVNGFNAVVHK 0.4263      Prosit      -12.4697    1972.0054   ✓       
+144   LVQ+0.984YTADPVNGFNAVVHK 0.4263      Prosit      -13.0186    1972.0054   ✓       
+145   LVEYTADPVNGGFGAVVHK      0.4247      Prosit      -12.9568    1972.0054   ✓       
+146   LVEYTADPVNGFANVVHK       0.4204      Prosit      -10.0577    1972.0054   ✓       
+147   LVEYTADPVNGFANVVHK       0.4204      Prosit      -10.2713    1972.0054   ✓       
+148   LVEYTADPVNGFANVVHK       0.4204      Prosit      -10.3200    1972.0054   ✓       
+149   LVEYTADPVNGFANVVHK       0.4204      Prosit      -10.5336    1972.0054   ✓       
+150   LVEYTADPVNGFANVVHK       0.4204      Prosit      -10.6143    1972.0054   ✓       
+151   LVEYTADPVNGFANVVHK       0.4204      Prosit      -10.8766    1972.0054   ✓       
+152   LVEYTADPVNGFANVVHK       0.4204      Prosit      -12.6273    1972.0054   ✓       
+153   LVEYTADPVNGFANVVHK       0.4204      Prosit      -12.8408    1972.0054   ✓       
+154   LVEYTADPVNGFANVVHK       0.4204      Prosit      -12.8896    1972.0054   ✓       
+155   VLEYTADPVNGFGQVVHK       0.4167      Prosit      -16.8063    1972.0054   ✓       
+156   VLEYTADPVNGFGQVVHK       0.4167      Prosit      -17.0198    1972.0054   ✓       
+157   VLEYTADPVNGFGQVVHK       0.4167      Prosit      -17.0686    1972.0054   ✓       
+158   VLEYTADPVNGFNAVVHK       0.4133      Prosit      -16.4257    1972.0054   ✓       
+159   VLEYTADPVNGFNAVVHK       0.4133      Prosit      -16.6392    1972.0054   ✓       
+160   VLEYTADPVNGFNAVVHK       0.4133      Prosit      -16.6880    1972.0054   ✓       
+161   VLEYTADPVNGFNAVVHK       0.4133      Prosit      -16.9015    1972.0054   ✓       
+162   VLEYTADPVNGFNAVVHK       0.4133      Prosit      -16.9823    1972.0054   ✓       
+163   LVEYTAN+0.984PVNGFGQVVHK 0.4058      Prosit      -10.6964    1972.0054   ✓       
+164   LVEYTAN+0.984PVNGFGQVVHK 0.4058      Prosit      -10.9100    1972.0054   ✓       
+165   LVEYTAN+0.984PVNGFGQVVHK 0.4058      Prosit      -10.9587    1972.0054   ✓       
+166   LVEYTAN+0.984PVNGFGQVVHK 0.4058      Prosit      -11.1723    1972.0054   ✓       
+167   LVEYTAN+0.984PVNGFGQVVHK 0.4058      Prosit      -11.2530    1972.0054   ✓       
+168   LVEYTAN+0.984PVNGFGQVVHK 0.4058      Prosit      -11.5153    1972.0054   ✓       
+169   VVEYTADPVNGFQAVVHK       0.4023      Prosit      -16.4442    1972.0054   ✓       
+170   VVEYTADPVNGFQAVVHK       0.4023      Prosit      -16.7065    1972.0054   ✓       
+171   LVQ+0.984YTADPVNGFGQVVHK 0.3993      Prosit      -7.5204     1972.0054   ✓       
+172   LVQ+0.984YTADPVNGFGQVVHK 0.3993      Prosit      -7.7340     1972.0054   ✓       
+173   LVQ+0.984YTADPVNGFGQVVHK 0.3993      Prosit      -7.7827     1972.0054   ✓       
+174   LVQ+0.984YTADPVNGFGQVVHK 0.3993      Prosit      -7.9963     1972.0054   ✓       
+175   LVQ+0.984YTADPVNGFGQVVHK 0.3993      Prosit      -8.0770     1972.0054   ✓       
+176   LVQ+0.984YTADPVNGFGQVVHK 0.3993      Prosit      -8.3393     1972.0054   ✓       
+177   LVQ+0.984YTADPVNGFGQVVHK 0.3993      Prosit      -10.0900    1972.0054   ✓       
+178   LVQ+0.984YTADPVNGFGQVVHK 0.3993      Prosit      -10.3035    1972.0054   ✓       
+179   LVQ+0.984YTADPVNGFGQVVHK 0.3993      Prosit      -10.3523    1972.0054   ✓       
+180   LVQ+0.984YTADPVNGFGQVVHK 0.3993      Prosit      -10.5659    1972.0054   ✓       
+181   LVQ+0.984YTADPVNGFGQVVHK 0.3993      Prosit      -10.6466    1972.0054   ✓       
+182   LVQ+0.984YTADPVNGFGQVVHK 0.3993      Prosit      -10.8296    1972.0054   ✓       
+183   LVQ+0.984YTADPVNGFGQVVHK 0.3993      Prosit      -10.9089    1972.0054   ✓       
+184   LVQ+0.984YTADPVNGFGQVVHK 0.3993      Prosit      -11.0431    1972.0054   ✓       
+185   LVQ+0.984YTADPVNGFGQVVHK 0.3993      Prosit      -11.0919    1972.0054   ✓       
+186   LVQ+0.984YTADPVNGFGQVVHK 0.3993      Prosit      -11.1093    1972.0054   ✓       
+187   LVQ+0.984YTADPVNGFGQVVHK 0.3993      Prosit      -11.3055    1972.0054   ✓       
+188   LVQ+0.984YTADPVNGFGQVVHK 0.3993      Prosit      -11.3228    1972.0054   ✓       
+189   LVQ+0.984YTADPVNGFGQVVHK 0.3993      Prosit      -11.3716    1972.0054   ✓       
+190   LVQ+0.984YTADPVNGFGQVVHK 0.3993      Prosit      -11.3862    1972.0054   ✓       
+191   LVQ+0.984YTADPVNGFGQVVHK 0.3993      Prosit      -11.5852    1972.0054   ✓       
+192   LVQ+0.984YTADPVNGFGQVVHK 0.3993      Prosit      -11.6485    1972.0054   ✓       
+193   LVQ+0.984YTADPVNGFGQVVHK 0.3993      Prosit      -11.6659    1972.0054   ✓       
+194   LVQ+0.984YTADPVNGFGQVVHK 0.3993      Prosit      -11.9282    1972.0054   ✓       
+195   LVQ+0.984YTADPVNGFGQVVHK 0.3993      Prosit      -12.0314    1972.0054   ✓       
+196   LVQ+0.984YTADPVNGFGQVVHK 0.3993      Prosit      -12.2450    1972.0054   ✓       
+197   LVQ+0.984YTADPVNGFGQVVHK 0.3993      Prosit      -12.2938    1972.0054   ✓       
+198   LVQ+0.984YTADPVNGFGQVVHK 0.3993      Prosit      -12.5073    1972.0054   ✓       
+199   LVQ+0.984YTADPVNGFGQVVHK 0.3993      Prosit      -12.5880    1972.0054   ✓       
+200   LVQ+0.984YTADPVNGFGQVVHK 0.3993      Prosit      -12.8504    1972.0054   ✓       
+201   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -3.2355     1972.0054   ✓       
+202   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -3.4491     1972.0054   ✓       
+203   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -3.4978     1972.0054   ✓       
+204   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -3.7114     1972.0054   ✓       
+205   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -3.7921     1972.0054   ✓       
+206   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -4.0544     1972.0054   ✓       
+207   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -5.8051     1972.0054   ✓       
+208   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -6.0186     1972.0054   ✓       
+209   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -6.0674     1972.0054   ✓       
+210   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -6.2809     1972.0054   ✓       
+211   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -6.3617     1972.0054   ✓       
+212   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -6.5447     1972.0054   ✓       
+213   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -6.6240     1972.0054   ✓       
+214   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -6.7582     1972.0054   ✓       
+215   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -6.8070     1972.0054   ✓       
+216   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -6.8244     1972.0054   ✓       
+217   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -7.0206     1972.0054   ✓       
+218   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -7.0379     1972.0054   ✓       
+219   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -7.0867     1972.0054   ✓       
+220   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -7.1013     1972.0054   ✓       
+221   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -7.3003     1972.0054   ✓       
+222   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -7.3636     1972.0054   ✓       
+223   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -7.3810     1972.0054   ✓       
+224   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -7.6433     1972.0054   ✓       
+225   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -7.7465     1972.0054   ✓       
+226   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -7.9601     1972.0054   ✓       
+227   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -8.0088     1972.0054   ✓       
+228   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -8.2224     1972.0054   ✓       
+229   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -8.3031     1972.0054   ✓       
+230   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -8.5654     1972.0054   ✓       
+231   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -9.1142     1972.0054   ✓       
+232   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -9.3278     1972.0054   ✓       
+233   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -9.3766     1972.0054   ✓       
+234   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -9.3939     1972.0054   ✓       
+235   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -9.5901     1972.0054   ✓       
+236   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -9.6075     1972.0054   ✓       
+237   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -9.6563     1972.0054   ✓       
+238   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -9.6708     1972.0054   ✓       
+239   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -9.8698     1972.0054   ✓       
+240   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -9.9332     1972.0054   ✓       
+241   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -9.9505     1972.0054   ✓       
+242   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -10.1335    1972.0054   ✓       
+243   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -10.2129    1972.0054   ✓       
+244   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -10.3161    1972.0054   ✓       
+245   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -10.3471    1972.0054   ✓       
+246   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -10.3959    1972.0054   ✓       
+247   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -10.5296    1972.0054   ✓       
+248   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -10.5784    1972.0054   ✓       
+249   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -10.6094    1972.0054   ✓       
+250   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -10.6901    1972.0054   ✓       
+251   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -10.7920    1972.0054   ✓       
+252   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -10.8727    1972.0054   ✓       
+253   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -10.9231    1972.0054   ✓       
+254   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -10.9525    1972.0054   ✓       
+255   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -11.0557    1972.0054   ✓       
+256   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -11.1350    1972.0054   ✓       
+257   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -11.1366    1972.0054   ✓       
+258   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -11.1854    1972.0054   ✓       
+259   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -11.2692    1972.0054   ✓       
+260   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -11.3180    1972.0054   ✓       
+261   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -11.3354    1972.0054   ✓       
+262   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -11.3990    1972.0054   ✓       
+263   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -11.4797    1972.0054   ✓       
+264   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -11.5316    1972.0054   ✓       
+265   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -11.5489    1972.0054   ✓       
+266   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -11.5977    1972.0054   ✓       
+267   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -11.6123    1972.0054   ✓       
+268   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -11.6775    1972.0054   ✓       
+269   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -11.7420    1972.0054   ✓       
+270   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -11.8113    1972.0054   ✓       
+271   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -11.8746    1972.0054   ✓       
+272   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -11.8910    1972.0054   ✓       
+273   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -11.8920    1972.0054   ✓       
+274   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -11.9393    1972.0054   ✓       
+275   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -11.9398    1972.0054   ✓       
+276   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -11.9861    1972.0054   ✓       
+277   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -11.9958    1972.0054   ✓       
+278   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -12.1529    1972.0054   ✓       
+279   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -12.1534    1972.0054   ✓       
+280   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -12.1543    1972.0054   ✓       
+281   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -12.1927    1972.0054   ✓       
+282   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -12.1997    1972.0054   ✓       
+283   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -12.2016    1972.0054   ✓       
+284   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -12.2093    1972.0054   ✓       
+285   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -12.2341    1972.0054   ✓       
+286   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -12.2485    1972.0054   ✓       
+287   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -12.2581    1972.0054   ✓       
+288   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -12.3946    1972.0054   ✓       
+289   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -12.4063    1972.0054   ✓       
+290   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -12.4152    1972.0054   ✓       
+291   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -12.4551    1972.0054   ✓       
+292   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -12.4620    1972.0054   ✓       
+293   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -12.4717    1972.0054   ✓       
+294   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -12.4959    1972.0054   ✓       
+295   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -12.4964    1972.0054   ✓       
+296   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -12.5427    1972.0054   ✓       
+297   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -12.5524    1972.0054   ✓       
+298   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -12.6082    1972.0054   ✓       
+299   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -12.6570    1972.0054   ✓       
+300   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -12.6686    1972.0054   ✓       
+301   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -12.7031    1972.0054   ✓       
+302   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -12.7493    1972.0054   ✓       
+303   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -12.7582    1972.0054   ✓       
+304   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -12.8051    1972.0054   ✓       
+305   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -12.8147    1972.0054   ✓       
+306   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -12.8705    1972.0054   ✓       
+307   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -12.9167    1972.0054   ✓       
+308   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -12.9512    1972.0054   ✓       
+309   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -12.9654    1972.0054   ✓       
+310   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -13.0117    1972.0054   ✓       
+311   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -15.8941    1972.0054   ✓       
+312   LVEYTADPVNGFGQVVHK       0.3720      Prosit      -16.1564    1972.0054   ✓       
+313   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -3.2530     1914.9840   ✗       
+314   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -3.4666     1914.9840   ✗       
+315   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -3.5154     1914.9840   ✗       
+316   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -3.7289     1914.9840   ✗       
+317   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -3.8096     1914.9840   ✗       
+318   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -4.0720     1914.9840   ✗       
+319   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -5.8226     1914.9840   ✗       
+320   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -6.0361     1914.9840   ✗       
+321   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -6.0849     1914.9840   ✗       
+322   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -6.2985     1914.9840   ✗       
+323   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -6.3792     1914.9840   ✗       
+324   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -6.3901     1928.9996   ✗       
+325   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -6.5622     1914.9840   ✗       
+326   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -6.6036     1928.9996   ✗       
+327   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -6.6415     1914.9840   ✗       
+328   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -6.6524     1928.9996   ✗       
+329   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -6.7758     1914.9840   ✗       
+330   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -6.8245     1914.9840   ✗       
+331   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -6.8419     1914.9840   ✗       
+332   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -6.8660     1928.9996   ✗       
+333   LVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -6.9207     1957.9898   ✗       
+334   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -6.9467     1928.9996   ✗       
+335   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -7.0381     1914.9840   ✗       
+336   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -7.0555     1914.9840   ✗       
+337   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -7.1042     1914.9840   ✗       
+338   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -7.1188     1914.9840   ✗       
+339   LVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -7.1342     1957.9898   ✗       
+340   LVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -7.1830     1957.9898   ✗       
+341   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -7.2090     1928.9996   ✗       
+342   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -7.3178     1914.9840   ✗       
+343   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -7.3811     1914.9840   ✗       
+344   LVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -7.3965     1957.9898   ✗       
+345   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -7.3985     1914.9840   ✗       
+346   LVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -7.4773     1957.9898   ✗       
+347   LVQ+0.984YTADPVNGFGAVVHK -1.0000     NotChecked  -7.5379     1914.9840   ✗       
+348   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -7.6608     1914.9840   ✗       
+349   LVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -7.7396     1957.9898   ✗       
+350   LVQ+0.984YTADPVNGFGAVVHK -1.0000     NotChecked  -7.7515     1914.9840   ✗       
+351   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -7.7640     1914.9840   ✗       
+352   LVQ+0.984YTADPVNGFGAVVHK -1.0000     NotChecked  -7.8003     1914.9840   ✗       
+353   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -7.9776     1914.9840   ✗       
+354   LVQ+0.984YTADPVNGFGAVVHK -1.0000     NotChecked  -8.0138     1914.9840   ✗       
+355   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -8.0264     1914.9840   ✗       
+356   LVQ+0.984YTADPVNGFGAVVHK -1.0000     NotChecked  -8.0945     1914.9840   ✗       
+357   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -8.2399     1914.9840   ✗       
+358   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -8.3206     1914.9840   ✗       
+359   LVQ+0.984YTADPVNGFGAVVHK -1.0000     NotChecked  -8.3569     1914.9840   ✗       
+360   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -8.5830     1914.9840   ✗       
+361   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -8.9596     1928.9996   ✗       
+362   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -9.1318     1914.9840   ✗       
+363   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -9.1732     1928.9996   ✗       
+364   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -9.2220     1928.9996   ✗       
+365   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -9.3453     1914.9840   ✗       
+366   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -9.3941     1914.9840   ✗       
+367   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -9.4115     1914.9840   ✗       
+368   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -9.4355     1928.9996   ✗       
+369   LVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -9.4902     1957.9898   ✗       
+370   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -9.5162     1928.9996   ✗       
+371   VEYTADPVNGFNQVVHK        -1.0000     NotChecked  -9.5170     1915.9428   ✗       
+372   VEYTADPVNGFNAVVHK        -1.0000     NotChecked  -9.5345     1858.9214   ✗       
+373   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -9.6076     1914.9840   ✗       
+374   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -9.6250     1914.9840   ✗       
+375   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -9.6738     1914.9840   ✗       
+376   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -9.6884     1914.9840   ✗       
+377   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -9.6993     1928.9996   ✗       
+378   LVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -9.7038     1957.9898   ✗       
+379   VVEYTADPVNGFNAVVHK       -1.0000     NotChecked  -9.7481     1957.9898   ✗       
+380   LVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -9.7526     1957.9898   ✗       
+381   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -9.7786     1928.9996   ✗       
+382   VEYTADPVNGFNQVVHK        -1.0000     NotChecked  -9.7793     1915.9428   ✗       
+383   VEYTADPVNGFNAVVHK        -1.0000     NotChecked  -9.7968     1858.9214   ✗       
+384   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -9.8873     1914.9840   ✗       
+385   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -9.9128     1928.9996   ✗       
+386   VEYTADPVNGFGQVVHK        -1.0000     NotChecked  -9.9151     1858.9214   ✗       
+387   VEYTADPVNGFGAVVHK        -1.0000     NotChecked  -9.9326     1801.8999   ✗       
+388   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -9.9507     1914.9840   ✗       
+389   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -9.9616     1928.9996   ✗       
+390   LVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -9.9661     1957.9898   ✗       
+391   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -9.9681     1914.9840   ✗       
+392   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -9.9790     1928.9996   ✗       
+393   VVEYTADPVNGFNAVVHK       -1.0000     NotChecked  -10.0104    1957.9898   ✗       
+394   LVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -10.0468    1957.9898   ✗       
+395   LVQ+0.984YTADPVNGFGAVVHK -1.0000     NotChecked  -10.1075    1914.9840   ✗       
+396   VVEYTADPVNGFGQVVHK       -1.0000     NotChecked  -10.1287    1957.9898   ✗       
+397   VVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -10.1462    1900.9683   ✗       
+398   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -10.1511    1914.9840   ✗       
+399   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -10.1751    1928.9996   ✗       
+400   VEYTADPVNGFGQVVHK        -1.0000     NotChecked  -10.1774    1858.9214   ✗       
+401   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -10.1925    1928.9996   ✗       
+402   VEYTADPVNGFGAVVHK        -1.0000     NotChecked  -10.1950    1801.8999   ✗       
+403   LVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -10.2298    1957.9898   ✗       
+404   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -10.2304    1914.9840   ✗       
+405   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -10.2413    1928.9996   ✗       
+406   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -10.2559    1928.9996   ✗       
+407   LEYTADPVNGFNQVVHK        -1.0000     NotChecked  -10.2851    1929.9585   ✗       
+408   LEYTADPVNGFNAVVHK        -1.0000     NotChecked  -10.3027    1872.9370   ✗       
+409   LVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -10.3092    1957.9898   ✗       
+410   LVEYTAN+0.984PVNGFNAVVHK -1.0000     Failed      -10.3158    1972.0054   ✓       
+411   LVQ+0.984YTADPVNGFGAVVHK -1.0000     NotChecked  -10.3211    1914.9840   ✗       
+412   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -10.3336    1914.9840   ✗       
+413   LLEYTADPVNGFGAVVHK       -1.0000     NotChecked  -10.3577    1928.9996   ✗       
+414   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -10.3646    1914.9840   ✗       
+415   LVQ+0.984YTADPVNGFGAVVHK -1.0000     NotChecked  -10.3698    1914.9840   ✗       
+416   VVEYTADPVNGFGQVVHK       -1.0000     NotChecked  -10.3910    1957.9898   ✗       
+417   VVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -10.4085    1900.9683   ✗       
+418   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -10.4134    1914.9840   ✗       
+419   LVEYTADPVNGFQVVHK        -1.0000     NotChecked  -10.4349    1914.9840   ✗       
+420   LVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -10.4434    1957.9898   ✗       
+421   LVEYTADPVNGFAVVHK        -1.0000     NotChecked  -10.4525    1857.9625   ✗       
+422   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -10.4548    1928.9996   ✗       
+423   LVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -10.4922    1957.9898   ✗       
+424   LVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -10.5095    1957.9898   ✗       
+425   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -10.5182    1928.9996   ✗       
+426   LVEYTAN+0.984PVNGFNAVVHK -1.0000     Failed      -10.5294    1972.0054   ✓       
+427   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -10.5356    1928.9996   ✗       
+428   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -10.5472    1914.9840   ✗       
+429   LEYTADPVNGFNQVVHK        -1.0000     NotChecked  -10.5475    1929.9585   ✗       
+430   LEYTADPVNGFNAVVHK        -1.0000     NotChecked  -10.5650    1872.9370   ✗       
+431   LVEYTAN+0.984PVNGFNAVVHK -1.0000     Failed      -10.5781    1972.0054   ✓       
+432   LVQ+0.984YTADPVNGFGAVVHK -1.0000     NotChecked  -10.5834    1914.9840   ✗       
+433   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -10.5959    1914.9840   ✗       
+434   LLEYTADPVNGFGAVVHK       -1.0000     NotChecked  -10.6201    1928.9996   ✗       
+435   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -10.6270    1914.9840   ✗       
+436   LVEYTADPVNGFQVVHK        -1.0000     NotChecked  -10.6485    1914.9840   ✗       
+437   LVQ+0.984YTADPVNGFGAVVHK -1.0000     NotChecked  -10.6641    1914.9840   ✗       
+438   LVEYTADPVNGFAVVHK        -1.0000     NotChecked  -10.6660    1857.9625   ✗       
+439   LVQ+0.984YTADPVNGFAAVVHK -1.0000     NotChecked  -10.6750    1928.9996   ✗       
+440   LEYTADPVNGFGQVVHK        -1.0000     NotChecked  -10.6833    1872.9370   ✗       
+441   LVEYTADPVNGFQVVHK        -1.0000     NotChecked  -10.6973    1914.9840   ✗       
+442   LEYTADPVNGFGAVVHK        -1.0000     NotChecked  -10.7008    1815.9155   ✗       
+443   LVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -10.7057    1957.9898   ✗       
+444   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -10.7077    1914.9840   ✗       
+445   LVEYTAN+0.984PVNGFGAVVHK -1.0000     NotChecked  -10.7139    1914.9840   ✗       
+446   LVEYTADPVNGFAVVHK        -1.0000     NotChecked  -10.7148    1857.9625   ✗       
+447   LVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -10.7231    1957.9898   ✗       
+448   LVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -10.7719    1957.9898   ✗       
+449   LVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -10.7864    1957.9898   ✗       
+450   LVEYTAN+0.984PVNGFNAVVHK -1.0000     Failed      -10.7917    1972.0054   ✓       
+451   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -10.7979    1928.9996   ✗       
+452   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -10.8095    1914.9840   ✗       
+453   LVEYTADPVNGFNGVVHK       -1.0000     NotChecked  -10.8300    1957.9898   ✗       
+454   LVQ+0.984YTADPVNGFGAVVHK -1.0000     NotChecked  -10.8471    1914.9840   ✗       
+455   LVEYTAN+0.984PVNGFNAVVHK -1.0000     Failed      -10.8724    1972.0054   ✓       
+456   LVQ+0.984YTADPVNGFAAVVHK -1.0000     NotChecked  -10.8886    1928.9996   ✗       
+457   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -10.8902    1914.9840   ✗       
+458   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -10.9011    1928.9996   ✗       
+459   LVEYTADPVNGFQVVHK        -1.0000     NotChecked  -10.9108    1914.9840   ✗       
+460   LVQ+0.984YTADPVNGFGAVVHK -1.0000     NotChecked  -10.9264    1914.9840   ✗       
+461   LVEYTAN+0.984PVNGFGAVVHK -1.0000     NotChecked  -10.9275    1914.9840   ✗       
+462   LVEYTADPVNGFAVVHK        -1.0000     NotChecked  -10.9283    1857.9625   ✗       
+463   LVQ+0.984YTADPVNGFAAVVHK -1.0000     NotChecked  -10.9373    1928.9996   ✗       
+464   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -10.9406    1914.9840   ✗       
+465   LEYTADPVNGFGQVVHK        -1.0000     NotChecked  -10.9456    1872.9370   ✗       
+466   LEYTADPVNGFGAVVHK        -1.0000     NotChecked  -10.9631    1815.9155   ✗       
+467   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -10.9700    1914.9840   ✗       
+468   LVEYTAN+0.984PVNGFGAVVHK -1.0000     NotChecked  -10.9763    1914.9840   ✗       
+469   LVEYTADPVNGFSAVVHK       -1.0000     NotChecked  -10.9763    1944.9945   ✗       
+470   LVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -10.9854    1957.9898   ✗       
+471   LVEYTADPVNGFQVVHK        -1.0000     NotChecked  -10.9915    1914.9840   ✗       
+472   LVEYTADPVNGFAVVHK        -1.0000     NotChecked  -11.0091    1857.9625   ✗       
+473   LVEYTADPVNGFGTVVHK       -1.0000     NotChecked  -11.0167    1944.9945   ✗       
+474   LVEYTADPVNGFNGVVHK       -1.0000     NotChecked  -11.0436    1957.9898   ✗       
+475   LVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -11.0488    1957.9898   ✗       
+476   LVQ+0.984YTADPVNGFGAVVHK -1.0000     NotChecked  -11.0607    1914.9840   ✗       
+477   LVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -11.0661    1957.9898   ✗       
+478   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -11.0732    1914.9840   ✗       
+479   LVEYTADPVNGFNGVVHK       -1.0000     NotChecked  -11.0924    1957.9898   ✗       
+480   LVQ+0.984YTADPVNGFGAVVHK -1.0000     NotChecked  -11.1095    1914.9840   ✗       
+481   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -11.1146    1928.9996   ✗       
+482   LVQ+0.984YTADPVNGFGAVVHK -1.0000     NotChecked  -11.1268    1914.9840   ✗       
+483   LVEYTAN+0.984PVNGFNAVVHK -1.0000     Failed      -11.1347    1972.0054   ✓       
+484   LVQ+0.984YTADPVNGFAAVVHK -1.0000     NotChecked  -11.1509    1928.9996   ✗       
+485   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -11.1525    1914.9840   ✗       
+486   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -11.1542    1914.9840   ✗       
+487   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -11.1634    1928.9996   ✗       
+488   LVEYTAN+0.984PVNGFGAVVHK -1.0000     NotChecked  -11.1898    1914.9840   ✗       
+489   LVEYTADPVNGFSAVVHK       -1.0000     NotChecked  -11.1899    1944.9945   ✗       
+490   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -11.2029    1914.9840   ✗       
+491   LVQ+0.984YTADPVNGFGNVVHK -1.0000     NotChecked  -11.2056    1957.9898   ✗       
+492   LVEYTADPVNGFGGVVHK       -1.0000     NotChecked  -11.2282    1900.9683   ✗       
+493   LVEYTADPVNGFGTVVHK       -1.0000     NotChecked  -11.2303    1944.9945   ✗       
+494   LVQ+0.984YTADPVNGFAAVVHK -1.0000     NotChecked  -11.2316    1928.9996   ✗       
+495   LVEYTADPVNGFSAVVHK       -1.0000     NotChecked  -11.2386    1944.9945   ✗       
+496   LVEYTADPVNGFQVVHK        -1.0000     NotChecked  -11.2539    1914.9840   ✗       
+497   LVEYTAN+0.984PVNGFGAVVHK -1.0000     NotChecked  -11.2705    1914.9840   ✗       
+498   LVEYTADPVNGFAVVHK        -1.0000     NotChecked  -11.2714    1857.9625   ✗       
+499   LVEYTADPVNGFGTVVHK       -1.0000     NotChecked  -11.2791    1944.9945   ✗       
+500   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -11.2868    1914.9840   ✗       
+501   LVEYTADPVNGFNGVVHK       -1.0000     NotChecked  -11.3059    1957.9898   ✗       
+502   LVQ+0.984YTADPVNGFGAVVHK -1.0000     NotChecked  -11.3230    1914.9840   ✗       
+503   LVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -11.3285    1957.9898   ✗       
+504   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -11.3355    1914.9840   ✗       
+505   LVQ+0.984YTADPVNGFGAVVHK -1.0000     NotChecked  -11.3404    1914.9840   ✗       
+506   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -11.3529    1914.9840   ✗       
+507   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -11.3770    1928.9996   ✗       
+508   LVEYTADPVNGFNGVVHK       -1.0000     NotChecked  -11.3866    1957.9898   ✗       
+509   LVQ+0.984YTADPVNGFGAVVHK -1.0000     NotChecked  -11.3891    1914.9840   ✗       
+510   LVQ+0.984YTADPVNGFGAVVHK -1.0000     NotChecked  -11.4037    1914.9840   ✗       
+511   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -11.4165    1914.9840   ✗       
+512   LVQ+0.984YTADPVNGFGNVVHK -1.0000     NotChecked  -11.4191    1957.9898   ✗       
+513   LVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -11.4317    1957.9898   ✗       
+514   LVEYTADPVNGFGGVVHK       -1.0000     NotChecked  -11.4417    1900.9683   ✗       
+515   LVEYTADPVNGFSAVVHK       -1.0000     NotChecked  -11.4522    1944.9945   ✗       
+516   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -11.4577    1928.9996   ✗       
+517   LVQ+0.984YTADPVNGFGNVVHK -1.0000     NotChecked  -11.4679    1957.9898   ✗       
+518   LVEYTADPVNGFGGVVHK       -1.0000     NotChecked  -11.4905    1900.9683   ✗       
+519   LVEYTADPVNGFGTVVHK       -1.0000     NotChecked  -11.4926    1944.9945   ✗       
+520   LVQ+0.984YTADPVNGFAAVVHK -1.0000     NotChecked  -11.4939    1928.9996   ✗       
+521   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -11.4972    1914.9840   ✗       
+522   LVEYTAN+0.984PVNGFGAVVHK -1.0000     NotChecked  -11.5329    1914.9840   ✗       
+523   LVEYTADPVNGFSAVVHK       -1.0000     NotChecked  -11.5329    1944.9945   ✗       
+524   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -11.5491    1914.9840   ✗       
+525   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -11.5665    1914.9840   ✗       
+526   LVEYTADPVNGFGTVVHK       -1.0000     NotChecked  -11.5733    1944.9945   ✗       
+527   LVEYTADPVNGNNAVVHK       -1.0000     NotChecked  -11.5835    1938.9799   ✗       
+528   LVQ+0.984YTADPVNGFGAVVHK -1.0000     NotChecked  -11.6027    1914.9840   ✗       
+529   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -11.6152    1914.9840   ✗       
+530   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -11.6298    1914.9840   ✗       
+531   LVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -11.6452    1957.9898   ✗       
+532   LVEYTADPVNGFNGVVHK       -1.0000     NotChecked  -11.6490    1957.9898   ✗       
+533   LVQ+0.984YTADPVNGFGAVVHK -1.0000     NotChecked  -11.6660    1914.9840   ✗       
+534   LVQ+0.984YTADPVNGFGNVVHK -1.0000     NotChecked  -11.6815    1957.9898   ✗       
+535   LVQ+0.984YTADPVNGFGAVVHK -1.0000     NotChecked  -11.6834    1914.9840   ✗       
+536   LVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -11.6940    1957.9898   ✗       
+537   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -11.6950    1914.9840   ✗       
+538   LVEYTADPVNGFGGVVHK       -1.0000     NotChecked  -11.7041    1900.9683   ✗       
+539   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -11.7200    1928.9996   ✗       
+540   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -11.7595    1914.9840   ✗       
+541   LVQ+0.984YTADPVNGFGNVVHK -1.0000     NotChecked  -11.7622    1957.9898   ✗       
+542   LVEYTADPVNGFGGVVHK       -1.0000     NotChecked  -11.7848    1900.9683   ✗       
+543   LVEYTADPVNGFSAVVHK       -1.0000     NotChecked  -11.7952    1944.9945   ✗       
+544   LVEYTADPVNGNNAVVHK       -1.0000     NotChecked  -11.7970    1938.9799   ✗       
+545   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -11.8288    1914.9840   ✗       
+546   LVEYTADPVNGFGTVVHK       -1.0000     NotChecked  -11.8357    1944.9945   ✗       
+547   LVEYTADPVNGNNAVVHK       -1.0000     NotChecked  -11.8458    1938.9799   ✗       
+548   LVEYTADPVNGGNQVVHK       -1.0000     NotChecked  -11.8491    1938.9799   ✗       
+549   LVEYTADPVNGGNAVVHK       -1.0000     NotChecked  -11.8666    1881.9585   ✗       
+550   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -11.8921    1914.9840   ✗       
+551   LVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -11.9075    1957.9898   ✗       
+552   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -11.9085    1914.9840   ✗       
+553   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -11.9095    1914.9840   ✗       
+554   LVQ+0.984YTADPVNGFGAVVHK -1.0000     NotChecked  -11.9457    1914.9840   ✗       
+555   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -11.9568    1914.9840   ✗       
+556   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -11.9573    1914.9840   ✗       
+557   LVEYTADPVNGNGQVVHK       -1.0000     NotChecked  -11.9641    1938.9799   ✗       
+558   LVEYTADPVNGNGAVVHK       -1.0000     NotChecked  -11.9816    1881.9585   ✗       
+559   LVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -11.9883    1957.9898   ✗       
+560   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.0037    1914.9840   ✗       
+561   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.0133    1914.9840   ✗       
+562   LVQ+0.984YTADPVNGFGNVVHK -1.0000     NotChecked  -12.0245    1957.9898   ✗       
+563   LVEYTADPVNGFGGVVHK       -1.0000     NotChecked  -12.0471    1900.9683   ✗       
+564   LVQ+0.984YTADPVNGFGAVVHK -1.0000     NotChecked  -12.0490    1914.9840   ✗       
+565   LVEYTADPVNGNNAVVHK       -1.0000     NotChecked  -12.0594    1938.9799   ✗       
+566   LVEYTADPVNGGNQVVHK       -1.0000     NotChecked  -12.0627    1938.9799   ✗       
+567   LVEYTADPVNGGNAVVHK       -1.0000     NotChecked  -12.0802    1881.9585   ✗       
+568   VEYTADPVNGFNQVVHK        -1.0000     NotChecked  -12.0865    1915.9428   ✗       
+569   LVEYTADPVN+0.984GFGAVVHK -1.0000     NotChecked  -12.0866    1915.9680   ✗       
+570   VEYTADPVNGFNAVVHK        -1.0000     NotChecked  -12.1041    1858.9214   ✗       
+571   LVEYTADPVNGGNQVVHK       -1.0000     NotChecked  -12.1114    1938.9799   ✗       
+572   LVEYTADPVNGGNAVVHK       -1.0000     NotChecked  -12.1290    1881.9585   ✗       
+573   LVEYTADPVNGNNAVVHK       -1.0000     NotChecked  -12.1401    1938.9799   ✗       
+574   LVEYTADPVNGFTAVVHK       -1.0000     NotChecked  -12.1454    1959.0102   ✗       
+575   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.1704    1914.9840   ✗       
+576   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.1709    1914.9840   ✗       
+577   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.1718    1914.9840   ✗       
+578   LVEYTADPVNGNGQVVHK       -1.0000     NotChecked  -12.1776    1938.9799   ✗       
+579   LVEYTADPVNGNGAVVHK       -1.0000     NotChecked  -12.1952    1881.9585   ✗       
+580   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.2103    1914.9840   ✗       
+581   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.2172    1914.9840   ✗       
+582   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.2192    1914.9840   ✗       
+583   LVEYTADPVNGNGQVVHK       -1.0000     NotChecked  -12.2264    1938.9799   ✗       
+584   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.2269    1914.9840   ✗       
+585   LVEYTADPVNGNGAVVHK       -1.0000     NotChecked  -12.2439    1881.9585   ✗       
+586   LVEYTADPVNGGGQVVHK       -1.0000     NotChecked  -12.2472    1881.9585   ✗       
+587   LVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -12.2506    1957.9898   ✗       
+588   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.2516    1914.9840   ✗       
+589   LVQ+0.984YTADPVNGFGAVVHK -1.0000     NotChecked  -12.2625    1914.9840   ✗       
+590   LVEYTADPVNGGGAVVHK       -1.0000     NotChecked  -12.2648    1824.9370   ✗       
+591   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.2660    1914.9840   ✗       
+592   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -12.2688    1928.9996   ✗       
+593   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.2756    1914.9840   ✗       
+594   LVEYTADPVN+0.984GFGAVVHK -1.0000     NotChecked  -12.3002    1915.9680   ✗       
+595   LVQ+0.984YTADPVNGFGAVVHK -1.0000     NotChecked  -12.3113    1914.9840   ✗       
+596   VVEYTADPVNGFNAVVHK       -1.0000     NotChecked  -12.3176    1957.9898   ✗       
+597   LVEYTADPVNGGNQVVHK       -1.0000     NotChecked  -12.3250    1938.9799   ✗       
+598   LVEYTADPVNGGNAVVHK       -1.0000     NotChecked  -12.3425    1881.9585   ✗       
+599   VEYTADPVNGFNQVVHK        -1.0000     NotChecked  -12.3489    1915.9428   ✗       
+600   LVEYTADPVN+0.984GFGAVVHK -1.0000     NotChecked  -12.3489    1915.9680   ✗       
+601   LVEYTADPVNGFTAVVHK       -1.0000     NotChecked  -12.3589    1959.0102   ✗       
+602   VEYTADPVNGFNAVVHK        -1.0000     NotChecked  -12.3664    1858.9214   ✗       
+603   LVEYTADPVNGNNAVVHK       -1.0000     NotChecked  -12.4024    1938.9799   ✗       
+604   LVEYTADPVNGGNQVVHK       -1.0000     NotChecked  -12.4057    1938.9799   ✗       
+605   LVEYTADPVNGFTAVVHK       -1.0000     NotChecked  -12.4077    1959.0102   ✗       
+606   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.4122    1914.9840   ✗       
+607   LVEYTADPVNGFLAVVHK       -1.0000     NotChecked  -12.4140    1971.0466   ✗       
+608   LVEYTADPVNGGNAVVHK       -1.0000     NotChecked  -12.4232    1881.9585   ✗       
+609   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.4238    1914.9840   ✗       
+610   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.4327    1914.9840   ✗       
+611   LVEYTADPVNGNGQVVHK       -1.0000     NotChecked  -12.4400    1938.9799   ✗       
+612   LVEYTADPVNGNGAVVHK       -1.0000     NotChecked  -12.4575    1881.9585   ✗       
+613   LVEYTADPVNGGGQVVHK       -1.0000     NotChecked  -12.4608    1881.9585   ✗       
+614   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.4726    1914.9840   ✗       
+615   LVEYTADPVNGGGAVVHK       -1.0000     NotChecked  -12.4783    1824.9370   ✗       
+616   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.4796    1914.9840   ✗       
+617   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -12.4824    1928.9996   ✗       
+618   VEYTADPVNGFGQVVHK        -1.0000     NotChecked  -12.4847    1858.9214   ✗       
+619   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.4892    1914.9840   ✗       
+620   VEYTADPVNGFGAVVHK        -1.0000     NotChecked  -12.5022    1801.8999   ✗       
+621   LVEYTADPVNGGGQVVHK       -1.0000     NotChecked  -12.5096    1881.9585   ✗       
+622   LVKYTADPVNGFNAVVHK       -1.0000     NotChecked  -12.5128    1971.0578   ✗       
+623   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.5134    1914.9840   ✗       
+624   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.5139    1914.9840   ✗       
+625   LVEYTADPVNGNGQVVHK       -1.0000     NotChecked  -12.5207    1938.9799   ✗       
+626   LVQ+0.984YTADPVNGFGAVVHK -1.0000     NotChecked  -12.5248    1914.9840   ✗       
+627   LVEYTADPVNGGGAVVHK       -1.0000     NotChecked  -12.5271    1824.9370   ✗       
+628   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -12.5312    1928.9996   ✗       
+629   LVEYTADPVNGNGAVVHK       -1.0000     NotChecked  -12.5382    1881.9585   ✗       
+630   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -12.5485    1928.9996   ✗       
+631   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.5603    1914.9840   ✗       
+632   LVEYTADPVN+0.984GFGAVVHK -1.0000     NotChecked  -12.5625    1915.9680   ✗       
+633   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.5699    1914.9840   ✗       
+634   VVEYTADPVNGFNAVVHK       -1.0000     NotChecked  -12.5799    1957.9898   ✗       
+635   LVQ+0.984YTADPVNGFGAVVHK -1.0000     NotChecked  -12.6056    1914.9840   ✗       
+636   LVEYTADPVNGFTAVVHK       -1.0000     NotChecked  -12.6213    1959.0102   ✗       
+637   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.6257    1914.9840   ✗       
+638   LVEYTADPVNGFLAVVHK       -1.0000     NotChecked  -12.6276    1971.0466   ✗       
+639   LVEYTADPVN+0.984GFGAVVHK -1.0000     NotChecked  -12.6432    1915.9680   ✗       
+640   LVEYTADPVNGFGLVVHK       -1.0000     NotChecked  -12.6524    1957.0309   ✗       
+641   LVEYTADPVNGGNQVVHK       -1.0000     NotChecked  -12.6680    1938.9799   ✗       
+642   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.6745    1914.9840   ✗       
+643   LVEYTADPVNGFLAVVHK       -1.0000     NotChecked  -12.6763    1971.0466   ✗       
+644   LVEYTADPVNGYGAVVHK       -1.0000     NotChecked  -12.6822    1930.9789   ✗       
+645   LVEYTADPVNGGNAVVHK       -1.0000     NotChecked  -12.6856    1881.9585   ✗       
+646   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.6861    1914.9840   ✗       
+647   VVEYTADPVNGFGQVVHK       -1.0000     NotChecked  -12.6982    1957.9898   ✗       
+648   LVEYTADPVGGFNAVVHK       -1.0000     NotChecked  -12.6996    1914.9840   ✗       
+649   LVEYTADPVNGFTAVVHK       -1.0000     NotChecked  -12.7020    1959.0102   ✗       
+650   VVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.7157    1900.9683   ✗       
+651   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.7206    1914.9840   ✗       
+652   LVEYTADPVNGGGQVVHK       -1.0000     NotChecked  -12.7231    1881.9585   ✗       
+653   LVKYTADPVNGFNAVVHK       -1.0000     NotChecked  -12.7264    1971.0578   ✗       
+654   LVEYTADPVNGGGAVVHK       -1.0000     NotChecked  -12.7406    1824.9370   ✗       
+655   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -12.7447    1928.9996   ✗       
+656   VEYTADPVNGFGQVVHK        -1.0000     NotChecked  -12.7470    1858.9214   ✗       
+657   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -12.7621    1928.9996   ✗       
+658   VEYTADPVNGFGAVVHK        -1.0000     NotChecked  -12.7645    1801.8999   ✗       
+659   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.7669    1914.9840   ✗       
+660   LVKYTADPVNGFNAVVHK       -1.0000     NotChecked  -12.7752    1971.0578   ✗       
+661   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.7758    1914.9840   ✗       
+662   LVEYTADPVNGNGQVVHK       -1.0000     NotChecked  -12.7830    1938.9799   ✗       
+663   LVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -12.7994    1957.9898   ✗       
+664   LVEYTADPVNGNGAVVHK       -1.0000     NotChecked  -12.8005    1881.9585   ✗       
+665   LVEYTADPVNGGGQVVHK       -1.0000     NotChecked  -12.8038    1881.9585   ✗       
+666   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -12.8108    1928.9996   ✗       
+667   LVEYTADPVNGGGAVVHK       -1.0000     NotChecked  -12.8214    1824.9370   ✗       
+668   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.8226    1914.9840   ✗       
+669   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -12.8254    1928.9996   ✗       
+670   VEYTADPVNGFNQVVHK        -1.0000     NotChecked  -12.8261    1915.9428   ✗       
+671   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.8322    1914.9840   ✗       
+672   VEYTADPVNGFNAVVHK        -1.0000     NotChecked  -12.8437    1858.9214   ✗       
+673   LEYTADPVNGFNQVVHK        -1.0000     NotChecked  -12.8547    1929.9585   ✗       
+674   LVEYTADPVNGFGLVVHK       -1.0000     NotChecked  -12.8660    1957.0309   ✗       
+675   LVQ+0.984YTADPVNGFGAVVHK -1.0000     NotChecked  -12.8679    1914.9840   ✗       
+676   LEYTADPVNGFNAVVHK        -1.0000     NotChecked  -12.8722    1872.9370   ✗       
+677   LVEYTAN+0.984PVNGFNAVVHK -1.0000     Failed      -12.8854    1972.0054   ✓       
+678   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.8880    1914.9840   ✗       
+679   LVEYTADPVNGFLAVVHK       -1.0000     NotChecked  -12.8899    1971.0466   ✗       
+680   LVKYTADPVNGFGQVVHK       -1.0000     NotChecked  -12.8934    1971.0578   ✗       
+681   LVEYTADPVNGYGAVVHK       -1.0000     NotChecked  -12.8958    1930.9789   ✗       
+682   LVEYTADPVN+0.984GFGAVVHK -1.0000     NotChecked  -12.9055    1915.9680   ✗       
+683   LVKYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.9110    1914.0363   ✗       
+684   LVEYTADPVGGFNAVVHK       -1.0000     NotChecked  -12.9132    1914.9840   ✗       
+685   LVEYTADPVNGFGLVVHK       -1.0000     NotChecked  -12.9147    1957.0309   ✗       
+686   LLEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.9273    1928.9996   ✗       
+687   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.9342    1914.9840   ✗       
+688   LVEYTADPVNGYGAVVHK       -1.0000     NotChecked  -12.9446    1930.9789   ✗       
+689   VVEYTADPVNGFGQVVHK       -1.0000     NotChecked  -12.9606    1957.9898   ✗       
+690   LVEYTADPVGGFNAVVHK       -1.0000     NotChecked  -12.9620    1914.9840   ✗       
+691   LVEYTADPVNGFTAVVHK       -1.0000     NotChecked  -12.9643    1959.0102   ✗       
+692   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.9688    1914.9840   ✗       
+693   LVEYTADPVNGFLAVVHK       -1.0000     NotChecked  -12.9706    1971.0466   ✗       
+694   VVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.9781    1900.9683   ✗       
+695   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -12.9830    1914.9840   ✗       
+696   LVKYTADPVNGFNAVVHK       -1.0000     NotChecked  -12.9887    1971.0578   ✗       
+697   LVEYTADPVNGFQVVHK        -1.0000     NotChecked  -13.0045    1914.9840   ✗       
+698   LVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -13.0130    1957.9898   ✗       
+699   LVEYTADPVNGFAVVHK        -1.0000     NotChecked  -13.0220    1857.9625   ✗       
+700   LVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -13.0244    1928.9996   ✗       
+701   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -13.0292    1914.9840   ✗       
+702   VEYTADPVNGFAQVVHK        -1.0000     NotChecked  -13.0522    1872.9370   ✗       
+703   VVEYTADPVNGFNAVVHK       -1.0000     NotChecked  -13.0572    1957.9898   ✗       
+704   VEYTADPVNGFAAVVHK        -1.0000     NotChecked  -13.0697    1815.9155   ✗       
+705   VEYTADPVNGFNQVVHK        -1.0000     NotChecked  -13.0885    1915.9428   ✗       
+706   VEYTADPVNGFNQVVHK        -1.0000     NotChecked  -13.1058    1915.9428   ✗       
+707   VEYTADPVNGFNAVVHK        -1.0000     NotChecked  -13.1060    1858.9214   ✗       
+708   VEYTADPVNGFNAVVHK        -1.0000     NotChecked  -13.1234    1858.9214   ✗       
+709   VEYTADPVNGFNNVVHK        -1.0000     NotChecked  -13.2021    1901.9272   ✗       
+710   VEYTADPVNGFGQVVHK        -1.0000     NotChecked  -13.2243    1858.9214   ✗       
+711   VEYTADPVNGFGAVVHK        -1.0000     NotChecked  -13.2418    1801.8999   ✗       
+712   VVEYTADPVNGFAQVVHK       -1.0000     Failed      -13.2657    1972.0054   ✓       
+713   VVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -13.2832    1914.9840   ✗       
+714   VEYTADPVNGFAQVVHK        -1.0000     NotChecked  -13.3145    1872.9370   ✗       
+715   VVEYTADPVNGFNAVVHK       -1.0000     NotChecked  -13.3196    1957.9898   ✗       
+716   VEYTADPVNGFAAVVHK        -1.0000     NotChecked  -13.3320    1815.9155   ✗       
+717   VVEYTADPVNGFNAVVHK       -1.0000     NotChecked  -13.3369    1957.9898   ✗       
+718   VEYTADPVNGFNQVVHK        -1.0000     NotChecked  -13.3682    1915.9428   ✗       
+719   VEYTADPVNGFNAVVHK        -1.0000     NotChecked  -13.3857    1858.9214   ✗       
+720   VVEYTADPVNGFGQVVHK       -1.0000     NotChecked  -13.4378    1957.9898   ✗       
+721   VVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -13.4554    1900.9683   ✗       
+722   VEYTADPVNGFNNVVHK        -1.0000     NotChecked  -13.4645    1901.9272   ✗       
+723   VEYTADPVNGFGQVVHK        -1.0000     NotChecked  -13.4866    1858.9214   ✗       
+724   VEYTADPVNGFGQVVHK        -1.0000     NotChecked  -13.5040    1858.9214   ✗       
+725   VEYTADPVNGFGAVVHK        -1.0000     NotChecked  -13.5041    1801.8999   ✗       
+726   VEYTADPVNGFGAVVHK        -1.0000     NotChecked  -13.5215    1801.8999   ✗       
+727   VVEYTADPVNGFAQVVHK       -1.0000     Failed      -13.5280    1972.0054   ✓       
+728   VVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -13.5456    1914.9840   ✗       
+729   +42.011VEYTADPVNGFNQVVHK -1.0000     NotChecked  -13.5798    1957.9534   ✗       
+730   +42.011VEYTADPVNGFNAVVHK -1.0000     NotChecked  -13.5974    1900.9319   ✗       
+731   VVEYTADPVNGFNAVVHK       -1.0000     NotChecked  -13.5993    1957.9898   ✗       
+732   VEYTADPVNGFGNVVHK        -1.0000     NotChecked  -13.6003    1844.9057   ✗       
+733   VVEYTADPVNGFGQVVHK       -1.0000     NotChecked  -13.7002    1957.9898   ✗       
+734   VVEYTADPVNGFGQVVHK       -1.0000     NotChecked  -13.7175    1957.9898   ✗       
+735   VVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -13.7177    1900.9683   ✗       
+736   VVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -13.7351    1900.9683   ✗       
+737   VEYTADPVNGFGQVVHK        -1.0000     NotChecked  -13.7663    1858.9214   ✗       
+738   VEYTADPVNGFGAVVHK        -1.0000     NotChecked  -13.7838    1801.8999   ✗       
+739   +42.011VEYTADPVNGFNQVVHK -1.0000     NotChecked  -13.7934    1957.9534   ✗       
+740   VQ+0.984YTADPVNGFNQVVHK  -1.0000     NotChecked  -13.8019    1915.9428   ✗       
+741   +42.011VEYTADPVNGFNAVVHK -1.0000     NotChecked  -13.8109    1900.9319   ✗       
+742   VVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -13.8138    1943.9741   ✗       
+743   VQ+0.984YTADPVNGFNAVVHK  -1.0000     NotChecked  -13.8194    1858.9214   ✗       
+744   +42.011VEYTADPVNGFNQVVHK -1.0000     NotChecked  -13.8422    1957.9534   ✗       
+745   +42.011VEYTADPVNGFNAVVHK -1.0000     NotChecked  -13.8597    1900.9319   ✗       
+746   VEYTADPVNGFGNVVHK        -1.0000     NotChecked  -13.8626    1844.9057   ✗       
+747   +42.011VEYTADPVNGFGQVVHK -1.0000     NotChecked  -13.9780    1900.9319   ✗       
+748   VVEYTADPVNGFGQVVHK       -1.0000     NotChecked  -13.9799    1957.9898   ✗       
+749   +42.011VEYTADPVNGFGAVVHK -1.0000     NotChecked  -13.9955    1843.9105   ✗       
+750   VVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -13.9974    1900.9683   ✗       
+751   VEYTADPVNGFNQVVHK        -1.0000     NotChecked  -14.0280    1915.9428   ✗       
+752   VVQ+0.984YTADPVNGFNAVVHK -1.0000     NotChecked  -14.0330    1957.9898   ✗       
+753   VEYTADPVNGFNAVVHK        -1.0000     NotChecked  -14.0455    1858.9214   ✗       
+754   +42.011VEYTADPVNGFNQVVHK -1.0000     NotChecked  -14.0557    1957.9534   ✗       
+755   VQ+0.984YTADPVNGFNQVVHK  -1.0000     NotChecked  -14.0642    1915.9428   ✗       
+756   +42.011VEYTADPVNGFNAVVHK -1.0000     NotChecked  -14.0733    1900.9319   ✗       
+757   VVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -14.0761    1943.9741   ✗       
+758   VQ+0.984YTADPVNGFNAVVHK  -1.0000     NotChecked  -14.0817    1858.9214   ✗       
+759   +42.011VEYTADPVNGFGQVVHK -1.0000     NotChecked  -14.1915    1900.9319   ✗       
+760   VQ+0.984YTADPVNGFGQVVHK  -1.0000     NotChecked  -14.2000    1858.9214   ✗       
+761   +42.011VEYTADPVNGFGAVVHK -1.0000     NotChecked  -14.2091    1843.9105   ✗       
+762   VQ+0.984YTADPVNGFGAVVHK  -1.0000     NotChecked  -14.2175    1801.8999   ✗       
+763   +42.011VEYTADPVNGFGQVVHK -1.0000     NotChecked  -14.2403    1900.9319   ✗       
+764   +42.011VEYTADPVNGFGAVVHK -1.0000     NotChecked  -14.2578    1843.9105   ✗       
+765   VVEYTADPVNGFNAVVHK       -1.0000     NotChecked  -14.2591    1957.9898   ✗       
+766   VEYTADPVNGFNQVVHK        -1.0000     NotChecked  -14.2903    1915.9428   ✗       
+767   VVQ+0.984YTADPVNGFNAVVHK -1.0000     NotChecked  -14.2953    1957.9898   ✗       
+768   VEYTADPVNGFNAVVHK        -1.0000     NotChecked  -14.3078    1858.9214   ✗       
+769   VVQ+0.984YTADPVNGFGQVVHK -1.0000     NotChecked  -14.4136    1957.9898   ✗       
+770   VEYTADPVNGFGQVVHK        -1.0000     NotChecked  -14.4261    1858.9214   ✗       
+771   VVQ+0.984YTADPVNGFGAVVHK -1.0000     NotChecked  -14.4311    1900.9683   ✗       
+772   VEYTADPVNGFGAVVHK        -1.0000     NotChecked  -14.4436    1801.8999   ✗       
+773   +42.011VEYTADPVNGFGQVVHK -1.0000     NotChecked  -14.4539    1900.9319   ✗       
+774   VQ+0.984YTADPVNGFGQVVHK  -1.0000     NotChecked  -14.4624    1858.9214   ✗       
+775   +42.011VEYTADPVNGFGAVVHK -1.0000     NotChecked  -14.4714    1843.9105   ✗       
+776   VQ+0.984YTADPVNGFGAVVHK  -1.0000     NotChecked  -14.4799    1801.8999   ✗       
+777   VVEYTADPVNGFNAVVHK       -1.0000     NotChecked  -14.5214    1957.9898   ✗       
+778   +42.011LVEYTADPVNGFGAVVHK-1.0000     NotChecked  -14.5521    1956.9945   ✗       
+779   +43.006VEYTADPVNGFNQVVHK -1.0000     NotChecked  -14.6190    1958.9486   ✗       
+780   +43.006VEYTADPVNGFNAVVHK -1.0000     NotChecked  -14.6365    1901.9272   ✗       
+781   VVEYTADPVNGFGQVVHK       -1.0000     NotChecked  -14.6397    1957.9898   ✗       
+782   VVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -14.6572    1900.9683   ✗       
+783   KVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -14.6681    1929.9949   ✗       
+784   VVQ+0.984YTADPVNGFGQVVHK -1.0000     NotChecked  -14.6759    1957.9898   ✗       
+785   VEYTADPVNGFGQVVHK        -1.0000     NotChecked  -14.6884    1858.9214   ✗       
+786   VVQ+0.984YTADPVNGFGAVVHK -1.0000     NotChecked  -14.6934    1900.9683   ✗       
+787   VEYTADPVNGFGAVVHK        -1.0000     NotChecked  -14.7060    1801.8999   ✗       
+788   +42.011LVEYTADPVNGFGAVVHK-1.0000     NotChecked  -14.8144    1956.9945   ✗       
+789   +43.006VEYTADPVNGFNQVVHK -1.0000     NotChecked  -14.8325    1958.9486   ✗       
+790   +43.006VEYTADPVNGFNAVVHK -1.0000     NotChecked  -14.8501    1901.9272   ✗       
+791   +43.006VEYTADPVNGFNQVVHK -1.0000     NotChecked  -14.8813    1958.9486   ✗       
+792   KVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -14.8816    1929.9949   ✗       
+793   +43.006VEYTADPVNGFNAVVHK -1.0000     NotChecked  -14.8988    1901.9272   ✗       
+794   VVEYTADPVNGFGQVVHK       -1.0000     NotChecked  -14.9020    1957.9898   ✗       
+795   VVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -14.9195    1900.9683   ✗       
+796   KVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -14.9304    1929.9949   ✗       
+797   VEYTADPVNGFNQVVHK        -1.0000     NotChecked  -14.9393    1915.9428   ✗       
+798   VEYTADPVNGFNAVVHK        -1.0000     NotChecked  -14.9569    1858.9214   ✗       
+799   +43.006VEYTADPVNGFGQVVHK -1.0000     NotChecked  -15.0171    1901.9272   ✗       
+800   +43.006VEYTADPVNGFGAVVHK -1.0000     NotChecked  -15.0346    1844.9057   ✗       
+801   +43.006VEYTADPVNGFNQVVHK -1.0000     NotChecked  -15.0949    1958.9486   ✗       
+802   +43.006VEYTADPVNGFNAVVHK -1.0000     NotChecked  -15.1124    1901.9272   ✗       
+803   KVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -15.1439    1929.9949   ✗       
+804   VEYTADPVNGFNQVVHK        -1.0000     NotChecked  -15.1529    1915.9428   ✗       
+805   VEYTADPVNGFNAVVHK        -1.0000     NotChecked  -15.1704    1858.9214   ✗       
+806   VEYTADPVNGFNQVVHK        -1.0000     NotChecked  -15.2017    1915.9428   ✗       
+807   VEYTADPVNGFNAVVHK        -1.0000     NotChecked  -15.2192    1858.9214   ✗       
+808   +43.006VEYTADPVNGFGQVVHK -1.0000     NotChecked  -15.2307    1901.9272   ✗       
+809   +43.006VEYTADPVNGFGAVVHK -1.0000     NotChecked  -15.2482    1844.9057   ✗       
+810   +43.006VEYTADPVNGFGQVVHK -1.0000     NotChecked  -15.2794    1901.9272   ✗       
+811   +43.006VEYTADPVNGFGAVVHK -1.0000     NotChecked  -15.2970    1844.9057   ✗       
+812   VEYTADPVNGFGQVVHK        -1.0000     NotChecked  -15.3375    1858.9214   ✗       
+813   VEYTADPVNGFGAVVHK        -1.0000     NotChecked  -15.3550    1801.8999   ✗       
+814   VEYTADPVNGFNQVVHK        -1.0000     NotChecked  -15.3957    1915.9428   ✗       
+815   VEYTADPVNGFNAVVHK        -1.0000     NotChecked  -15.4132    1858.9214   ✗       
+816   VEYTADPVNGFNQVVHK        -1.0000     NotChecked  -15.4152    1915.9428   ✗       
+817   VEYTADPVNGFNAVVHK        -1.0000     NotChecked  -15.4328    1858.9214   ✗       
+818   +43.006VEYTADPVNGFGQVVHK -1.0000     NotChecked  -15.4930    1901.9272   ✗       
+819   +43.006VEYTADPVNGFGAVVHK -1.0000     NotChecked  -15.5105    1844.9057   ✗       
+820   VEYTADPVNGFGQVVHK        -1.0000     NotChecked  -15.5510    1858.9214   ✗       
+821   VEYTADPVNGFGAVVHK        -1.0000     NotChecked  -15.5686    1801.8999   ✗       
+822   +43.006LVEYTADPVNGFGAVVHK-1.0000     NotChecked  -15.5912    1957.9898   ✗       
+823   VEYTADPVNGFGQVVHK        -1.0000     NotChecked  -15.5998    1858.9214   ✗       
+824   VEYTADPVNGFGAVVHK        -1.0000     NotChecked  -15.6173    1801.8999   ✗       
+825   VEYTADPVNGFAQVVHK        -1.0000     NotChecked  -15.6217    1872.9370   ✗       
+826   VVEYTADPVNGFNAVVHK       -1.0000     NotChecked  -15.6268    1957.9898   ✗       
+827   VEYTADPVNGFAAVVHK        -1.0000     NotChecked  -15.6393    1815.9155   ✗       
+828   VEYTADPVNGFNQVVHK        -1.0000     NotChecked  -15.6580    1915.9428   ✗       
+829   VEYTADPVNGFNQVVHK        -1.0000     NotChecked  -15.6754    1915.9428   ✗       
+830   VEYTADPVNGFNAVVHK        -1.0000     NotChecked  -15.6756    1858.9214   ✗       
+831   VEYTADPVNGFNAVVHK        -1.0000     NotChecked  -15.6929    1858.9214   ✗       
+832   VEYTADPVNGFNNVVHK        -1.0000     NotChecked  -15.7717    1901.9272   ✗       
+833   VEYTADPVNGFGQVVHK        -1.0000     NotChecked  -15.7938    1858.9214   ✗       
+834   VEYTADPVNGFGAVVHK        -1.0000     NotChecked  -15.8114    1801.8999   ✗       
+835   VEYTADPVNGFGQVVHK        -1.0000     NotChecked  -15.8134    1858.9214   ✗       
+836   VEYTADPVNGFGAVVHK        -1.0000     NotChecked  -15.8309    1801.8999   ✗       
+837   VVEYTADPVNGFAQVVHK       -1.0000     Failed      -15.8353    1972.0054   ✓       
+838   VVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -15.8528    1914.9840   ✗       
+839   +43.006LVEYTADPVNGFGAVVHK-1.0000     NotChecked  -15.8536    1957.9898   ✗       
+840   VEYTADPVNGFAQVVHK        -1.0000     NotChecked  -15.8841    1872.9370   ✗       
+841   VVEYTADPVNGFNAVVHK       -1.0000     NotChecked  -15.8891    1957.9898   ✗       
+842   VEYTADPVNGFAAVVHK        -1.0000     NotChecked  -15.9016    1815.9155   ✗       
+843   VVEYTADPVNGFNAVVHK       -1.0000     NotChecked  -15.9065    1957.9898   ✗       
+844   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -15.9116    1914.9840   ✗       
+845   VEYTADPVNGFNQVVHK        -1.0000     NotChecked  -15.9377    1915.9428   ✗       
+846   VEYTADPVNGFNAVVHK        -1.0000     NotChecked  -15.9553    1858.9214   ✗       
+847   VEYTADPVNGFNQ+0.984VVHK  -1.0000     NotChecked  -15.9820    1916.9268   ✗       
+848   VVEYTADPVNGFGQVVHK       -1.0000     NotChecked  -16.0074    1957.9898   ✗       
+849   VVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -16.0249    1900.9683   ✗       
+850   VEYTADPVNGFNNVVHK        -1.0000     NotChecked  -16.0340    1901.9272   ✗       
+851   VEYTADPVNGFGQVVHK        -1.0000     NotChecked  -16.0562    1858.9214   ✗       
+852   VEYTADPVNGFGQVVHK        -1.0000     NotChecked  -16.0735    1858.9214   ✗       
+853   VEYTADPVNGFGAVVHK        -1.0000     NotChecked  -16.0737    1801.8999   ✗       
+854   VEYTADPVNGFGAVVHK        -1.0000     NotChecked  -16.0911    1801.8999   ✗       
+855   VVEYTADPVNGFAQVVHK       -1.0000     Failed      -16.0976    1972.0054   ✓       
+856   VVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -16.1151    1914.9840   ✗       
+857   RVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -16.1353    1958.0010   ✗       
+858   +42.011VEYTADPVNGFNQVVHK -1.0000     NotChecked  -16.1494    1957.9534   ✗       
+859   +42.011VEYTADPVNGFNAVVHK -1.0000     NotChecked  -16.1669    1900.9319   ✗       
+860   VVEYTADPVNGFNAVVHK       -1.0000     NotChecked  -16.1688    1957.9898   ✗       
+861   VEYTADPVNGFGNVVHK        -1.0000     NotChecked  -16.1698    1844.9057   ✗       
+862   LVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -16.1739    1914.9840   ✗       
+863   VEYTADPVNGFQQVVHK        -1.0000     NotChecked  -16.2131    1929.9585   ✗       
+864   VEYTADPVNGFQAVVHK        -1.0000     NotChecked  -16.2306    1872.9370   ✗       
+865   VEYTADPVNGFNQ+0.984VVHK  -1.0000     NotChecked  -16.2443    1916.9268   ✗       
+866   VVEYTADPVNGFGQVVHK       -1.0000     NotChecked  -16.2697    1957.9898   ✗       
+867   VVEYTADPVNGFGQVVHK       -1.0000     NotChecked  -16.2871    1957.9898   ✗       
+868   VVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -16.2873    1900.9683   ✗       
+869   VVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -16.3046    1900.9683   ✗       
+870   VEYTADPVNGFGQVVHK        -1.0000     NotChecked  -16.3359    1858.9214   ✗       
+871   RVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -16.3489    1958.0010   ✗       
+872   VEYTADPVNGFGAVVHK        -1.0000     NotChecked  -16.3534    1801.8999   ✗       
+873   VEYTADPVNGFAQVVHK        -1.0000     NotChecked  -16.3613    1872.9370   ✗       
+874   +42.011VEYTADPVNGFNQVVHK -1.0000     NotChecked  -16.3630    1957.9534   ✗       
+875   VQ+0.984YTADPVNGFNQVVHK  -1.0000     NotChecked  -16.3715    1915.9428   ✗       
+876   VEYTADPVNGFAAVVHK        -1.0000     NotChecked  -16.3789    1815.9155   ✗       
+877   VEYTADPVNGFGQ+0.984VVHK  -1.0000     NotChecked  -16.3801    1859.9054   ✗       
+878   +42.011VEYTADPVNGFNAVVHK -1.0000     NotChecked  -16.3805    1900.9319   ✗       
+879   VVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -16.3834    1943.9741   ✗       
+880   VQ+0.984YTADPVNGFNAVVHK  -1.0000     NotChecked  -16.3890    1858.9214   ✗       
+881   RVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -16.3976    1958.0010   ✗       
+882   +42.011VEYTADPVNGFNQVVHK -1.0000     NotChecked  -16.4117    1957.9534   ✗       
+883   VEYTADPVNGFNQVVHK        -1.0000     NotChecked  -16.4150    1915.9428   ✗       
+884   +42.011VEYTADPVNGFNAVVHK -1.0000     NotChecked  -16.4293    1900.9319   ✗       
+885   VEYTADPVNGFGNVVHK        -1.0000     NotChecked  -16.4322    1844.9057   ✗       
+886   VEYTADPVNGFNAVVHK        -1.0000     NotChecked  -16.4325    1858.9214   ✗       
+887   VEYTADPVNGFQQVVHK        -1.0000     NotChecked  -16.4754    1929.9585   ✗       
+888   VEYTADPVNGFQAVVHK        -1.0000     NotChecked  -16.4929    1872.9370   ✗       
+889   TVEYTADPVNGFNAVVHK       -1.0000     NotChecked  -16.5036    1959.9690   ✗       
+890   VEYTADPVNGFNNVVHK        -1.0000     NotChecked  -16.5113    1901.9272   ✗       
+891   +42.011VEYTADPVNGFGQVVHK -1.0000     NotChecked  -16.5475    1900.9319   ✗       
+892   VVEYTADPVNGFGQVVHK       -1.0000     NotChecked  -16.5494    1957.9898   ✗       
+893   +42.011VEYTADPVNGFGAVVHK -1.0000     NotChecked  -16.5651    1843.9105   ✗       
+894   VVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -16.5669    1900.9683   ✗       
+895   VVEYTADPVNGFAQVVHK       -1.0000     Failed      -16.5749    1972.0054   ✓       
+896   AVEYTADPVNGFNAVVHK       -1.0000     NotChecked  -16.5800    1929.9585   ✗       
+897   VVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -16.5924    1914.9840   ✗       
+898   VVEYTADPVNGFGQ+0.984VVHK -1.0000     NotChecked  -16.5937    1958.9738   ✗       
+899   VEYTADPVNGFNQVVHK        -1.0000     NotChecked  -16.5975    1915.9428   ✗       
+900   VVQ+0.984YTADPVNGFNAVVHK -1.0000     NotChecked  -16.6025    1957.9898   ✗       
+901   RVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -16.6112    1958.0010   ✗       
+902   VEYTADPVNGFNAVVHK        -1.0000     NotChecked  -16.6151    1858.9214   ✗       
+903   VEYTADPVNGFAQVVHK        -1.0000     NotChecked  -16.6237    1872.9370   ✗       
+904   +42.011VEYTADPVNGFNQVVHK -1.0000     NotChecked  -16.6253    1957.9534   ✗       
+905   VQ+0.984YTADPVNGFNQVVHK  -1.0000     NotChecked  -16.6338    1915.9428   ✗       
+906   VEYTADPVNGFAQVVHK        -1.0000     NotChecked  -16.6410    1872.9370   ✗       
+907   VEYTADPVNGFAAVVHK        -1.0000     NotChecked  -16.6412    1815.9155   ✗       
+908   VEYTADPVNGFGQ+0.984VVHK  -1.0000     NotChecked  -16.6424    1859.9054   ✗       
+909   +42.011VEYTADPVNGFNAVVHK -1.0000     NotChecked  -16.6428    1900.9319   ✗       
+910   VVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -16.6457    1943.9741   ✗       
+911   VVEYTADPVNGFNAVVHK       -1.0000     NotChecked  -16.6461    1957.9898   ✗       
+912   VQ+0.984YTADPVNGFNAVVHK  -1.0000     NotChecked  -16.6513    1858.9214   ✗       
+913   VEYTADPVNGFAAVVHK        -1.0000     NotChecked  -16.6586    1815.9155   ✗       
+914   VEYTADPVNGFNQVVHK        -1.0000     NotChecked  -16.6773    1915.9428   ✗       
+915   VEYTADPVNGFN+0.984QVVHK  -1.0000     NotChecked  -16.6913    1916.9268   ✗       
+916   VEYTADPVNGFNAVVHK        -1.0000     NotChecked  -16.6949    1858.9214   ✗       
+917   VEYTADPVNGFN+0.984AVVHK  -1.0000     NotChecked  -16.7088    1859.9054   ✗       
+918   TVEYTADPVNGFNAVVHK       -1.0000     NotChecked  -16.7171    1959.9690   ✗       
+919   VEYTADPVNGFANVVHK        -1.0000     NotChecked  -16.7373    1858.9214   ✗       
+920   +42.011VEYTADPVNGFGQVVHK -1.0000     NotChecked  -16.7611    1900.9319   ✗       
+921   TVEYTADPVNGFNAVVHK       -1.0000     NotChecked  -16.7659    1959.9690   ✗       
+922   VQ+0.984YTADPVNGFGQVVHK  -1.0000     NotChecked  -16.7696    1858.9214   ✗       
+923   VEYTADPVNGFNNVVHK        -1.0000     NotChecked  -16.7736    1901.9272   ✗       
+924   +42.011VEYTADPVNGFGAVVHK -1.0000     NotChecked  -16.7786    1843.9105   ✗       
+925   VQ+0.984YTADPVNGFGAVVHK  -1.0000     NotChecked  -16.7871    1801.8999   ✗       
+926   VEYTADPVNGFNNVVHK        -1.0000     NotChecked  -16.7910    1901.9272   ✗       
+927   AVEYTADPVNGFNAVVHK       -1.0000     NotChecked  -16.7935    1929.9585   ✗       
+928   +42.011VEYTADPVNGFGQVVHK -1.0000     NotChecked  -16.8099    1900.9319   ✗       
+929   VEYTADPVNGFGQVVHK        -1.0000     NotChecked  -16.8131    1858.9214   ✗       
+930   VEYTADPVNGFFQVVHK        -1.0000     NotChecked  -16.8237    1948.9683   ✗       
+931   VLEYTADPVNGFGAVVHK       -1.0000     NotChecked  -16.8238    1914.9840   ✗       
+932   +42.011VEYTADPVNGFGAVVHK -1.0000     NotChecked  -16.8274    1843.9105   ✗       
+933   VVEYTADPVNGFNAVVHK       -1.0000     NotChecked  -16.8286    1957.9898   ✗       
+934   VEYTADPVNGFGAVVHK        -1.0000     NotChecked  -16.8307    1801.8999   ✗       
+935   VVEYTADPVNGFAQVVHK       -1.0000     Failed      -16.8372    1972.0054   ✓       
+936   VEYTADPVNGFFAVVHK        -1.0000     NotChecked  -16.8412    1891.9468   ✗       
+937   AVEYTADPVNGFNAVVHK       -1.0000     NotChecked  -16.8423    1929.9585   ✗       
+938   VVEYTADPVNGFAQVVHK       -1.0000     Failed      -16.8546    1972.0054   ✓       
+939   VVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -16.8547    1914.9840   ✗       
+940   VVEYTADPVNGFGQ+0.984VVHK -1.0000     NotChecked  -16.8560    1958.9738   ✗       
+941   VEYTADPVNGFNQVVHK        -1.0000     NotChecked  -16.8599    1915.9428   ✗       
+942   VVQ+0.984YTADPVNGFNAVVHK -1.0000     NotChecked  -16.8649    1957.9898   ✗       
+943   VVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -16.8721    1914.9840   ✗       
+944   VEYTADPVNGFNAVVHK        -1.0000     NotChecked  -16.8774    1858.9214   ✗       
+945   TVEYTADPVNGFGQVVHK       -1.0000     NotChecked  -16.8842    1959.9690   ✗       
+946   +42.011VEYTADPVNGFNQVVHK -1.0000     NotChecked  -16.8890    1957.9534   ✗       
+947   TVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -16.9017    1902.9476   ✗       
+948   VEYTADPVNGFAQVVHK        -1.0000     NotChecked  -16.9034    1872.9370   ✗       
+949   +42.011VEYTADPVNGFNAVVHK -1.0000     NotChecked  -16.9065    1900.9319   ✗       
+950   VVEYTADPVNGFNAVVHK       -1.0000     NotChecked  -16.9084    1957.9898   ✗       
+951   VEYTADPVNGFGNVVHK        -1.0000     NotChecked  -16.9094    1844.9057   ✗       
+952   VEYTADPVNGFAAVVHK        -1.0000     NotChecked  -16.9209    1815.9155   ✗       
+953   VVEYTADPVNGFN+0.984AVVHK -1.0000     NotChecked  -16.9224    1958.9738   ✗       
+954   VVEYTADPVNGFANVVHK       -1.0000     NotChecked  -16.9509    1957.9898   ✗       
+955   VEYTADPVNGFN+0.984QVVHK  -1.0000     NotChecked  -16.9536    1916.9268   ✗       
+956   AVEYTADPVNGFGQVVHK       -1.0000     NotChecked  -16.9606    1929.9585   ✗       
+957   VEYTADPVNGFN+0.984AVVHK  -1.0000     NotChecked  -16.9712    1859.9054   ✗       
+958   VEYTAN+0.984PVNGFNQVVHK  -1.0000     NotChecked  -16.9779    1915.9428   ✗       
+959   AVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -16.9781    1872.9370   ✗       
+960   TVEYTADPVNGFNAVVHK       -1.0000     NotChecked  -16.9794    1959.9690   ✗       
+961   VVQ+0.984YTADPVNGFGQVVHK -1.0000     NotChecked  -16.9831    1957.9898   ✗       
+962   VEYTAN+0.984PVNGFNAVVHK  -1.0000     NotChecked  -16.9954    1858.9214   ✗       
+963   VEYTADPVNGFGQVVHK        -1.0000     NotChecked  -16.9957    1858.9214   ✗       
+964   VEYTADPVNGFANVVHK        -1.0000     NotChecked  -16.9996    1858.9214   ✗       
+965   VVQ+0.984YTADPVNGFGAVVHK -1.0000     NotChecked  -17.0007    1900.9683   ✗       
+966   VEYTADPVNGFGAVVHK        -1.0000     NotChecked  -17.0132    1801.8999   ✗       
+967   +42.011VEYTADPVNGFGQVVHK -1.0000     NotChecked  -17.0234    1900.9319   ✗       
+968   VVEYTADPVNGFGQVVHK       -1.0000     NotChecked  -17.0267    1957.9898   ✗       
+969   VQ+0.984YTADPVNGFGQVVHK  -1.0000     NotChecked  -17.0319    1858.9214   ✗       
+970   VLEYTADPVNGFGAVVHK       -1.0000     NotChecked  -17.0373    1914.9840   ✗       
+971   +42.011VEYTADPVNGFGAVVHK -1.0000     NotChecked  -17.0410    1843.9105   ✗       
+972   VVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -17.0442    1900.9683   ✗       
+973   VQ+0.984YTADPVNGFGAVVHK  -1.0000     NotChecked  -17.0494    1801.8999   ✗       
+974   VEYTADPVNGFNNVVHK        -1.0000     NotChecked  -17.0533    1901.9272   ✗       
+975   AVEYTADPVNGFNAVVHK       -1.0000     NotChecked  -17.0559    1929.9585   ✗       
+976   VEYTADPVNGFGQVVHK        -1.0000     NotChecked  -17.0755    1858.9214   ✗       
+977   VEYTADPVNGFFQVVHK        -1.0000     NotChecked  -17.0860    1948.9683   ✗       
+978   VLEYTADPVNGFGAVVHK       -1.0000     NotChecked  -17.0861    1914.9840   ✗       
+979   VVEYTADPVNGFNAVVHK       -1.0000     NotChecked  -17.0909    1957.9898   ✗       
+980   VEYTADPVNGFGAVVHK        -1.0000     NotChecked  -17.0930    1801.8999   ✗       
+981   TVEYTADPVNGFGQVVHK       -1.0000     NotChecked  -17.0977    1959.9690   ✗       
+982   +42.011VEYTADPVNGFNQVVHK -1.0000     NotChecked  -17.1026    1957.9534   ✗       
+983   VEYTADPVNGFFAVVHK        -1.0000     NotChecked  -17.1035    1891.9468   ✗       
+984   VQ+0.984YTADPVNGFNQVVHK  -1.0000     NotChecked  -17.1111    1915.9428   ✗       
+985   VEYTADPVNGFQVVHK         -1.0000     NotChecked  -17.1145    1801.8999   ✗       
+986   +42.011VEYTADPVNGFAQVVHK -1.0000     NotChecked  -17.1150    1914.9476   ✗       
+987   TVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -17.1152    1902.9476   ✗       
+988   VVEYTADPVNGFAQVVHK       -1.0000     Failed      -17.1169    1972.0054   ✓       
+989   +42.011VEYTADPVNGFNAVVHK -1.0000     NotChecked  -17.1201    1900.9319   ✗       
+990   +42.011LVEYTADPVNGFGAVVHK-1.0000     NotChecked  -17.1217    1956.9945   ✗       
+991   VVEYTADPVNGFGNVVHK       -1.0000     NotChecked  -17.1230    1943.9741   ✗       
+992   VQ+0.984YTADPVNGFNAVVHK  -1.0000     NotChecked  -17.1286    1858.9214   ✗       
+993   VEYTADPVNGFAVVHK         -1.0000     NotChecked  -17.1321    1744.8784   ✗       
+994   +42.011VEYTADPVNGFAAVVHK -1.0000     NotChecked  -17.1326    1857.9261   ✗       
+995   VVEYTADPVNGFAAVVHK       -1.0000     NotChecked  -17.1344    1914.9840   ✗       
+996   FVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -17.1389    1948.9683   ✗       
+997   TVEYTADPVNGFGQVVHK       -1.0000     NotChecked  -17.1465    1959.9690   ✗       
+998   +42.011VEYTADPVNGFNQVVHK -1.0000     NotChecked  -17.1513    1957.9534   ✗       
+999   TVEYTADPVNGFGAVVHK       -1.0000     NotChecked  -17.1640    1902.9476   ✗       
+1000  +42.011VEYTADPVNGFNQVVHK -1.0000     NotChecked  -17.1687    1957.9534   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: LVEYTADPVNGFNAVVHK
+Similarity: 0.8164
+De Novo Score: -2.8549
+Source: Database
+Correct: ✓
+

@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 256
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 851.9478
+Precursor charge: 2+
+Ground truth: GIGTDEDTIIEIIASR
+Ground truth (normalized): GIGTDEDTIIEIIASR
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 223
+Used for reranking: 223
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 223 (22.3%)
+Database matches: 5 (0.5%)
+Prosit predictions: 197 (19.7%)
+Failed: 21 (2.1%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 28/1000
+Rank by similarity: 156/1000
+Similarity: 0.5306
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     ALGTDDDTLLELLSAR         0.6660      Prosit      -23.8069    1701.8785   ✓       
+2     +43.006LGTDEETLLELLSAR   0.6302      Prosit      -21.7462    1701.8785   ✓       
+3     SLGADEDTLLELLSAR         0.6229      Prosit      -23.7903    1701.8785   ✓       
+4     SLGTDEDALLELLSAR         0.6180      Prosit      -23.2379    1701.8785   ✓       
+5     GLGTDEN+0.984TLLELLSAR   0.6168      Prosit      -7.1287     1701.8785   ✓       
+6     GLGTDEN+0.984TLLELLSAR   0.6168      Prosit      -13.8980    1701.8785   ✓       
+7     GLGTDEN+0.984TLLELLSAR   0.6168      Prosit      -14.8573    1701.8785   ✓       
+8     GLGTDEN+0.984TLLELLSAR   0.6168      Prosit      -15.1482    1701.8785   ✓       
+9     GLGTDEN+0.984TLLELLSAR   0.6168      Prosit      -15.3557    1701.8785   ✓       
+10    GLGTDEN+0.984TLLELLSAR   0.6168      Prosit      -17.6148    1701.8785   ✓       
+11    GLGTDEN+0.984TLLELLSAR   0.6168      Prosit      -17.7812    1701.8785   ✓       
+12    GLGTDEN+0.984TLLELLSAR   0.6168      Prosit      -18.2276    1701.8785   ✓       
+13    GLGTDEN+0.984TLLELLSAR   0.6168      Prosit      -18.3117    1701.8785   ✓       
+14    GLGTDQ+0.984DTLLELLSAR   0.6132      Prosit      -4.5826     1701.8785   ✓       
+15    GLGTDQ+0.984DTLLELLSAR   0.6132      Prosit      -11.3519    1701.8785   ✓       
+16    GLGTDQ+0.984DTLLELLSAR   0.6132      Prosit      -12.3113    1701.8785   ✓       
+17    GLGTDQ+0.984DTLLELLSAR   0.6132      Prosit      -12.6021    1701.8785   ✓       
+18    GLGTDQ+0.984DTLLELLSAR   0.6132      Prosit      -12.8096    1701.8785   ✓       
+19    GLGTDQ+0.984DTLLELLSAR   0.6132      Prosit      -15.0688    1701.8785   ✓       
+20    GLGTDQ+0.984DTLLELLSAR   0.6132      Prosit      -15.2351    1701.8785   ✓       
+21    GLGTDQ+0.984DTLLELLSAR   0.6132      Prosit      -15.6816    1701.8785   ✓       
+22    GLGTDQ+0.984DTLLELLSAR   0.6132      Prosit      -15.7657    1701.8785   ✓       
+23    GLGTDQ+0.984DTLLELLSAR   0.6132      Prosit      -16.7690    1701.8785   ✓       
+24    GLGTDQ+0.984DTLLELLSAR   0.6132      Prosit      -17.7438    1701.8785   ✓       
+25    GLGTDQ+0.984DTLLELLSAR   0.6132      Prosit      -18.0080    1701.8785   ✓       
+26    GLGTDQ+0.984DTLLELLSAR   0.6132      Prosit      -18.3069    1701.8785   ✓       
+27    GLGTDQ+0.984DTLLELLSAR   0.6132      Prosit      -18.4932    1701.8785   ✓       
+28    GLGTDQ+0.984DTLLELLSAR   0.6132      Prosit      -18.8415    1701.8785   ✓       
+29    GLGTN+0.984EDTLLELLSAR   0.6108      Prosit      -5.8502     1701.8785   ✓       
+30    GLGTN+0.984EDTLLELLSAR   0.6108      Prosit      -12.6195    1701.8785   ✓       
+31    GLGTN+0.984EDTLLELLSAR   0.6108      Prosit      -13.5788    1701.8785   ✓       
+32    GLGTN+0.984EDTLLELLSAR   0.6108      Prosit      -13.8697    1701.8785   ✓       
+33    GLGTN+0.984EDTLLELLSAR   0.6108      Prosit      -14.0771    1701.8785   ✓       
+34    GLGTN+0.984EDTLLELLSAR   0.6108      Prosit      -16.3363    1701.8785   ✓       
+35    GLGTN+0.984EDTLLELLSAR   0.6108      Prosit      -16.5027    1701.8785   ✓       
+36    GLGTN+0.984EDTLLELLSAR   0.6108      Prosit      -16.9491    1701.8785   ✓       
+37    GLGTN+0.984EDTLLELLSAR   0.6108      Prosit      -17.0332    1701.8785   ✓       
+38    GLGTN+0.984EDTLLELLSAR   0.6108      Prosit      -18.0365    1701.8785   ✓       
+39    GLGTN+0.984EDTLLELLSAR   0.6108      Prosit      -19.0113    1701.8785   ✓       
+40    +43.006LGTEEDTLLELLSAR   0.6106      Prosit      -21.7302    1701.8785   ✓       
+41    GLGTDEDTLLELLTGR         0.6089      Prosit      -13.4860    1701.8785   ✓       
+42    GLGTN+0.984EN+0.984TLLELLSAR0.6067      Prosit      -12.8165    1701.8785   ✓       
+43    GLGTDQ+0.984N+0.984TLLELLSAR0.6060      Prosit      -11.5490    1701.8785   ✓       
+44    GLGTDQ+0.984N+0.984TLLELLSAR0.6060      Prosit      -18.3183    1701.8785   ✓       
+45    AVGTDEDTLLELLSAR         0.6058      Prosit      -19.9999    1701.8785   ✓       
+46    GLGTN+0.984Q+0.984N+0.984TLLELLSAR0.6050      Prosit      -17.2368    1701.8785   ✓       
+47    GLGTDEDTLLQ+0.984LLSAR   0.6044      Prosit      -5.0531     1701.8785   ✓       
+48    GLGTDEDTLLQ+0.984LLSAR   0.6044      Prosit      -11.8224    1701.8785   ✓       
+49    GLGTDEDTLLQ+0.984LLSAR   0.6044      Prosit      -12.7818    1701.8785   ✓       
+50    GLGTDEDTLLQ+0.984LLSAR   0.6044      Prosit      -13.0726    1701.8785   ✓       
+51    GLGTDEDTLLQ+0.984LLSAR   0.6044      Prosit      -13.2801    1701.8785   ✓       
+52    GLGTDEDTLLQ+0.984LLSAR   0.6044      Prosit      -15.5393    1701.8785   ✓       
+53    GLGTDEDTLLQ+0.984LLSAR   0.6044      Prosit      -15.7057    1701.8785   ✓       
+54    GLGTDEDTLLQ+0.984LLSAR   0.6044      Prosit      -16.1521    1701.8785   ✓       
+55    GLGTDEDTLLQ+0.984LLSAR   0.6044      Prosit      -16.2362    1701.8785   ✓       
+56    GLGTDEDTLLQ+0.984LLSAR   0.6044      Prosit      -17.2395    1701.8785   ✓       
+57    GLGTDEDTLLQ+0.984LLSAR   0.6044      Prosit      -18.2143    1701.8785   ✓       
+58    GLGTDEDTLLQ+0.984LLSAR   0.6044      Prosit      -18.4785    1701.8785   ✓       
+59    GLGTDEDTLLQ+0.984LLSAR   0.6044      Prosit      -18.7774    1701.8785   ✓       
+60    GLGTDEDTLLQ+0.984LLSAR   0.6044      Prosit      -18.9637    1701.8785   ✓       
+61    GLGTDEDTLLELLSAR         0.6005      Prosit      -0.1623     1701.8785   ✓       
+62    GLGTDEDTLLELLSAR         0.6005      Prosit      -6.9316     1701.8785   ✓       
+63    GLGTDEDTLLELLSAR         0.6005      Prosit      -7.8910     1701.8785   ✓       
+64    GLGTDEDTLLELLSAR         0.6005      Prosit      -8.1818     1701.8785   ✓       
+65    GLGTDEDTLLELLSAR         0.6005      Prosit      -8.3893     1701.8785   ✓       
+66    GLGTDEDTLLELLSAR         0.6005      Prosit      -10.6485    1701.8785   ✓       
+67    GLGTDEDTLLELLSAR         0.6005      Prosit      -10.8148    1701.8785   ✓       
+68    GLGTDEDTLLELLSAR         0.6005      Prosit      -11.2613    1701.8785   ✓       
+69    GLGTDEDTLLELLSAR         0.6005      Prosit      -11.3454    1701.8785   ✓       
+70    GLGTDEDTLLELLSAR         0.6005      Prosit      -12.3487    1701.8785   ✓       
+71    GLGTDEDTLLELLSAR         0.6005      Prosit      -13.3235    1701.8785   ✓       
+72    GLGTDEDTLLELLSAR         0.6005      Prosit      -13.5877    1701.8785   ✓       
+73    GLGTDEDTLLELLSAR         0.6005      Prosit      -13.8866    1701.8785   ✓       
+74    GLGTDEDTLLELLSAR         0.6005      Prosit      -14.0729    1701.8785   ✓       
+75    GLGTDEDTLLELLSAR         0.6005      Prosit      -14.4212    1701.8785   ✓       
+76    GLGTDEDTLLELLSAR         0.6005      Prosit      -14.6603    1701.8785   ✓       
+77    GLGTDEDTLLELLSAR         0.6005      Prosit      -14.9511    1701.8785   ✓       
+78    GLGTDEDTLLELLSAR         0.6005      Prosit      -15.1586    1701.8785   ✓       
+79    GLGTDEDTLLELLSAR         0.6005      Prosit      -15.1669    1701.8785   ✓       
+80    GLGTDEDTLLELLSAR         0.6005      Prosit      -15.2593    1701.8785   ✓       
+81    GLGTDEDTLLELLSAR         0.6005      Prosit      -15.2857    1701.8785   ✓       
+82    GLGTDEDTLLELLSAR         0.6005      Prosit      -15.7027    1701.8785   ✓       
+83    GLGTDEDTLLELLSAR         0.6005      Prosit      -15.9105    1701.8785   ✓       
+84    GLGTDEDTLLELLSAR         0.6005      Prosit      -16.1179    1701.8785   ✓       
+85    GLGTDEDTLLELLSAR         0.6005      Prosit      -16.4088    1701.8785   ✓       
+86    GLGTDEDTLLELLSAR         0.6005      Prosit      -16.8677    1701.8785   ✓       
+87    GLGTDEDTLLELLSAR         0.6005      Prosit      -16.9095    1701.8785   ✓       
+88    GLGTDEDTLLELLSAR         0.6005      Prosit      -17.1594    1701.8785   ✓       
+89    GLGTDEDTLLELLSAR         0.6005      Prosit      -17.4178    1701.8785   ✓       
+90    GLGTDEDTLLELLSAR         0.6005      Prosit      -17.5842    1701.8785   ✓       
+91    GLGTDEDTLLELLSAR         0.6005      Prosit      -17.7629    1701.8785   ✓       
+92    GLGTDEDTLLELLSAR         0.6005      Prosit      -17.9591    1701.8785   ✓       
+93    GLGTDEDTLLELLSAR         0.6005      Prosit      -17.9850    1701.8785   ✓       
+94    GLGTDEDTLLELLSAR         0.6005      Prosit      -18.0306    1701.8785   ✓       
+95    GLGTDEDTLLELLSAR         0.6005      Prosit      -18.1147    1701.8785   ✓       
+96    GLGTDEDTLLELLSAR         0.6005      Prosit      -18.3771    1701.8785   ✓       
+97    GLGTDEDTLLELLSAR         0.6005      Prosit      -18.4168    1701.8785   ✓       
+98    GLGTDEDTLLELLSAR         0.6005      Prosit      -18.5435    1701.8785   ✓       
+99    GLGTDEDTLLELLSAR         0.6005      Prosit      -18.6680    1701.8785   ✓       
+100   GLGTDEDTLLELLSAR         0.6005      Prosit      -18.6891    1701.8785   ✓       
+101   GLGTDEDTLLELLSAR         0.6005      Prosit      -18.8343    1701.8785   ✓       
+102   GLGTDEDTLLELLSAR         0.6005      Prosit      -18.8755    1701.8785   ✓       
+103   GLGTDEDTLLELLSAR         0.6005      Prosit      -18.9899    1701.8785   ✓       
+104   GLGTDEDTLLELLSAR         0.6005      Prosit      -19.0155    1701.8785   ✓       
+105   GLGTDEDTLLELLSAR         0.6005      Prosit      -23.2005    1701.8785   ✓       
+106   GLGTN+0.984Q+0.984DTLLELLSAR0.5987      Prosit      -10.2705    1701.8785   ✓       
+107   GLGTN+0.984Q+0.984DTLLELLSAR0.5987      Prosit      -17.0398    1701.8785   ✓       
+108   GLGTN+0.984Q+0.984DTLLELLSAR0.5987      Prosit      -17.9991    1701.8785   ✓       
+109   GLGTN+0.984Q+0.984DTLLELLSAR0.5987      Prosit      -18.2900    1701.8785   ✓       
+110   GLGTN+0.984Q+0.984DTLLELLSAR0.5987      Prosit      -18.4974    1701.8785   ✓       
+111   GLGTDEN+0.984TLLELLASR   0.5967      Prosit      -17.3663    1701.8785   ✓       
+112   GLGTDEDTLLQ+0.984LLASR   0.5938      Prosit      -15.2907    1701.8785   ✓       
+113   GLGTN+0.984Q+0.984DTLLQ+0.984LLSAR0.5933      Prosit      -15.1613    1701.8785   ✓       
+114   ALGTDEDTLLELLGSR         0.5919      Prosit      -18.4352    1701.8785   ✓       
+115   GLGTDQ+0.984DTLLELLASR   0.5894      Prosit      -14.8202    1701.8785   ✓       
+116   GLGTDQ+0.984DTLLELLTGR   0.5894      Prosit      -17.9063    1701.8785   ✓       
+117   GLGTN+0.984EDTLLELLASR   0.5869      Prosit      -16.0877    1701.8785   ✓       
+118   GLGTN+0.984EN+0.984TLLQ+0.984LLSAR0.5847      Prosit      -17.7073    1701.8785   ✓       
+119   GLGTN+0.984EDTLLQ+0.984LLSAR0.5846      Prosit      -10.7410    1701.8785   ✓       
+120   GLGTN+0.984EDTLLQ+0.984LLSAR0.5846      Prosit      -17.5103    1701.8785   ✓       
+121   GLGTN+0.984EDTLLQ+0.984LLSAR0.5846      Prosit      -18.4696    1701.8785   ✓       
+122   GLGTN+0.984EDTLLQ+0.984LLSAR0.5846      Prosit      -18.7605    1701.8785   ✓       
+123   GLGTN+0.984EDTLLQ+0.984LLSAR0.5846      Prosit      -18.9679    1701.8785   ✓       
+124   GLGTDEDTLLQ+0.984LLTGR   0.5832      Prosit      -18.3768    1701.8785   ✓       
+125   GLGTDQ+0.984DTLLQ+0.984LLSAR0.5793      Prosit      -9.4734     1701.8785   ✓       
+126   GLGTDQ+0.984DTLLQ+0.984LLSAR0.5793      Prosit      -16.2427    1701.8785   ✓       
+127   GLGTDQ+0.984DTLLQ+0.984LLSAR0.5793      Prosit      -17.2021    1701.8785   ✓       
+128   GLGTDQ+0.984DTLLQ+0.984LLSAR0.5793      Prosit      -17.4929    1701.8785   ✓       
+129   GLGTDQ+0.984DTLLQ+0.984LLSAR0.5793      Prosit      -17.7004    1701.8785   ✓       
+130   ALGTDEDTLLQ+0.984LLGSR   0.5715      Prosit      -23.3261    1701.8785   ✓       
+131   ALGTDQ+0.984DTLLELLGSR   0.5710      Prosit      -22.8555    1701.8785   ✓       
+132   +43.006LGTDEDTLLELLATR   0.5699      Prosit      -16.3076    1701.8785   ✓       
+133   +43.006LGTDEDTLLELLATR   0.5699      Prosit      -23.0769    1701.8785   ✓       
+134   +43.006LGTDEDTLLQ+0.984LLATR0.5689      Prosit      -21.1984    1701.8785   ✓       
+135   ALGTN+0.984EDTLLELLSGR   0.5649      Prosit      -23.0903    1701.8785   ✓       
+136   +43.006LGTN+0.984EDTLLELLATR0.5644      Prosit      -21.9954    1701.8785   ✓       
+137   ALGTDEDTLLELLSGR         0.5638      Prosit      -17.4025    1701.8785   ✓       
+138   +43.006LGTDQ+0.984DTLLELLATR0.5593      Prosit      -20.7279    1701.8785   ✓       
+139   +43.006LGTDEN+0.984TLLELLATR0.5531      Prosit      -23.2739    1701.8785   ✓       
+140   GLGTDEN+0.984TLLELLGTR   0.5505      Prosit      -12.7060    1701.8785   ✓       
+141   GLGTDEDTLLQ+0.984LLGTR   0.5427      Prosit      -10.6305    1701.8785   ✓       
+142   GLGTDEDTLLQ+0.984LLGTR   0.5427      Prosit      -17.3998    1701.8785   ✓       
+143   GLGTDEDTLLQ+0.984LLGTR   0.5427      Prosit      -18.3591    1701.8785   ✓       
+144   GLGTDEDTLLQ+0.984LLGTR   0.5427      Prosit      -18.6500    1701.8785   ✓       
+145   GLGTDEDTLLQ+0.984LLGTR   0.5427      Prosit      -18.8575    1701.8785   ✓       
+146   ALGTDQ+0.984DTLLELLSGR   0.5423      Prosit      -21.8228    1701.8785   ✓       
+147   ALGTDEDTLLQ+0.984LLSGR   0.5404      Prosit      -22.2933    1701.8785   ✓       
+148   GLGTDQ+0.984DTLLELLGTR   0.5372      Prosit      -10.1600    1701.8785   ✓       
+149   GLGTDQ+0.984DTLLELLGTR   0.5372      Prosit      -16.9293    1701.8785   ✓       
+150   GLGTDQ+0.984DTLLELLGTR   0.5372      Prosit      -17.8886    1701.8785   ✓       
+151   GLGTDQ+0.984DTLLELLGTR   0.5372      Prosit      -18.1795    1701.8785   ✓       
+152   GLGTDQ+0.984DTLLELLGTR   0.5372      Prosit      -18.3870    1701.8785   ✓       
+153   GLGTDQ+0.984N+0.984TLLELLGTR0.5334      Prosit      -17.1263    1701.8785   ✓       
+154   GLGTDEN+0.984TLLQ+0.984LLGTR0.5332      Prosit      -17.5968    1701.8785   ✓       
+155   GLGTN+0.984EDTLLQ+0.984LLGTR0.5310      Prosit      -16.3183    1701.8785   ✓       
+156   GLGTDEDTLLELLASR         0.5306      Database    -10.3999    1701.8785   ✓       ✓
+157   GLGTDEDTLLELLASR         0.5306      Database    -17.1692    1701.8785   ✓       ✓
+158   GLGTDEDTLLELLASR         0.5306      Database    -18.1285    1701.8785   ✓       ✓
+159   GLGTDEDTLLELLASR         0.5306      Database    -18.4194    1701.8785   ✓       ✓
+160   GLGTDEDTLLELLASR         0.5306      Database    -18.6269    1701.8785   ✓       ✓
+161   GLGTN+0.984EN+0.984TLLELLGTR0.5304      Prosit      -18.3939    1701.8785   ✓       
+162   GVGTDEDTLLELLATR         0.5281      Prosit      -17.5419    1701.8785   ✓       
+163   GLGTDQ+0.984DTLLQ+0.984LLGTR0.5281      Prosit      -15.0508    1701.8785   ✓       
+164   +43.006LGTN+0.984EDTLLELLTAR0.5256      Prosit      -20.5369    1701.8785   ✓       
+165   GLGTN+0.984EDTLLELLGTR   0.5245      Prosit      -11.4275    1701.8785   ✓       
+166   GLGTN+0.984EDTLLELLGTR   0.5245      Prosit      -18.1968    1701.8785   ✓       
+167   GLGTDEDALLELLSTR         0.5242      Prosit      -18.4739    1701.8785   ✓       
+168   GLGTN+0.984Q+0.984DTLLELLGTR0.5233      Prosit      -15.8478    1701.8785   ✓       
+169   +43.006LGTDQ+0.984DTLLELLTAR0.5220      Prosit      -19.2694    1701.8785   ✓       
+170   +43.006LGTDEDTLLELLDGR   0.5217      Prosit      -23.4921    1701.8421   ✓       
+171   SLGTDEN+0.984TLLELLGAR   0.5207      Prosit      -17.4701    1701.8785   ✓       
+172   +43.006LGTDEDTLLELLTAR   0.5186      Prosit      -14.8491    1701.8785   ✓       
+173   +43.006LGTDEDTLLELLTAR   0.5186      Prosit      -21.6184    1701.8785   ✓       
+174   +43.006LGTDEDTLLELLTAR   0.5186      Prosit      -22.8686    1701.8785   ✓       
+175   +43.006LGTDEDTLLELLTAR   0.5186      Prosit      -23.0760    1701.8785   ✓       
+176   +43.006LGTDEDTLLQ+0.984LLTAR0.5183      Prosit      -19.7399    1701.8785   ✓       
+177   SLGTDEDTLLQ+0.984LLGAR   0.5172      Prosit      -15.3945    1701.8785   ✓       
+178   SLGTDEDTLLQ+0.984LLGAR   0.5172      Prosit      -22.1638    1701.8785   ✓       
+179   SLGTDEDTLLQ+0.984LLGAR   0.5172      Prosit      -23.4140    1701.8785   ✓       
+180   SLGTDEDTLLQ+0.984LLGAR   0.5172      Prosit      -23.6215    1701.8785   ✓       
+181   +43.006LGTDEDTLLELLGDR   0.5150      Prosit      -21.7930    1701.8421   ✓       
+182   GLGTDEDTLLELLGTR         0.5135      Prosit      -5.7397     1701.8785   ✓       
+183   GLGTDEDTLLELLGTR         0.5135      Prosit      -12.5090    1701.8785   ✓       
+184   GLGTDEDTLLELLGTR         0.5135      Prosit      -13.4683    1701.8785   ✓       
+185   GLGTDEDTLLELLGTR         0.5135      Prosit      -13.7592    1701.8785   ✓       
+186   GLGTDEDTLLELLGTR         0.5135      Prosit      -13.9667    1701.8785   ✓       
+187   GLGTDEDTLLELLGTR         0.5135      Prosit      -16.2258    1701.8785   ✓       
+188   GLGTDEDTLLELLGTR         0.5135      Prosit      -16.3922    1701.8785   ✓       
+189   GLGTDEDTLLELLGTR         0.5135      Prosit      -16.8386    1701.8785   ✓       
+190   GLGTDEDTLLELLGTR         0.5135      Prosit      -18.9008    1701.8785   ✓       
+191   SLGTN+0.984EDTLLELLGAR   0.5116      Prosit      -16.1915    1701.8785   ✓       
+192   SLGTN+0.984EDTLLELLGAR   0.5116      Prosit      -22.9609    1701.8785   ✓       
+193   SVGTDEDTLLELLAAR         0.4965      Prosit      -22.3060    1701.8785   ✓       
+194   SLGTDEN+0.984TLLQ+0.984LLGAR0.4943      Prosit      -22.3609    1701.8785   ✓       
+195   SLGTDQ+0.984N+0.984TLLELLGAR0.4853      Prosit      -21.8904    1701.8785   ✓       
+196   SLGTN+0.984EN+0.984TLLELLGAR0.4831      Prosit      -23.1579    1701.8785   ✓       
+197   SLGTDQ+0.984DTLLQ+0.984LLGAR0.4821      Prosit      -19.8148    1701.8785   ✓       
+198   SLGTN+0.984Q+0.984DTLLELLGAR0.4805      Prosit      -20.6118    1701.8785   ✓       
+199   SLGTN+0.984EDTLLQ+0.984LLGAR0.4784      Prosit      -21.0823    1701.8785   ✓       
+200   SLGTDEDTLLELLAGR         0.4756      Prosit      -19.7085    1701.8785   ✓       
+201   TLGTDEDTLLELLGGR         0.4698      Prosit      -22.3663    1701.8785   ✓       
+202   +43.006LGTDEDTLLELLN+0.984GR0.4633      Prosit      -22.9118    1701.8421   ✓       
+203   GLGTDEDTLLELLGAR         -1.0000     NotChecked  -2.8544     1671.8679   ✗       
+204   GLGTDEDTLLELLAAR         -1.0000     NotChecked  -5.0750     1685.8836   ✗       
+205   GLGTDEDTLLELLSGR         -1.0000     NotChecked  -7.1465     1687.8628   ✗       
+206   GLGTDQ+0.984DTLLELLGAR   -1.0000     NotChecked  -7.2747     1671.8679   ✗       
+207   GLGTDEDTLLQ+0.984LLGAR   -1.0000     NotChecked  -7.7452     1671.8679   ✗       
+208   GLGTDEDTLLELLGSR         -1.0000     NotChecked  -8.1793     1687.8628   ✗       
+209   +43.006LGTDEDTLLELLSAR   -1.0000     NotChecked  -8.5096     1687.8628   ✗       
+210   GLGTN+0.984EDTLLELLGAR   -1.0000     NotChecked  -8.5422     1671.8679   ✗       
+211   GLGTDQ+0.984DTLLELLAAR   -1.0000     NotChecked  -9.4953     1685.8836   ✗       
+212   GLGTDEDTLLELLGAR         -1.0000     NotChecked  -9.6237     1671.8679   ✗       
+213   GVGTDEDTLLELLSAR         -1.0000     NotChecked  -9.7440     1687.8628   ✗       
+214   GLGTDEN+0.984TLLELLGAR   -1.0000     NotChecked  -9.8207     1671.8679   ✗       
+215   GLGTDEDTLLELLGGR         -1.0000     NotChecked  -9.8386     1657.8523   ✗       
+216   GLGTDEDTLLQ+0.984LLAAR   -1.0000     NotChecked  -9.9658     1685.8836   ✗       
+217   SLGTDEDTLLELLGAR         -1.0000     Failed      -10.5037    1701.8785   ✓       
+218   GLGTDEDTLLELLGAR         -1.0000     NotChecked  -10.5830    1671.8679   ✗       
+219   GLGTN+0.984EDTLLELLAAR   -1.0000     NotChecked  -10.7628    1685.8836   ✗       
+220   GLGTDEDTLLELLGAR         -1.0000     NotChecked  -10.8739    1671.8679   ✗       
+221   GLGTDEDTLLELLGAR         -1.0000     NotChecked  -11.0814    1671.8679   ✗       
+222   GTGTDEDTLLELLSAR         -1.0000     NotChecked  -11.1221    1689.8421   ✗       
+223   +43.006LGTDEDTLLELLGAR   -1.0000     NotChecked  -11.2017    1657.8523   ✗       
+224   GLGTDEDTLLELSSAR         -1.0000     NotChecked  -11.3578    1675.8264   ✗       
+225   GLGTDEDTLLELLSR          -1.0000     NotChecked  -11.4012    1630.8414   ✗       
+226   GLGTNEDTLLELLSAR         -1.0000     NotChecked  -11.5052    1700.8945   ✗       
+227   GLGTDQ+0.984DTLLELLSGR   -1.0000     NotChecked  -11.5668    1687.8628   ✗       
+228   GAGTDEDTLLELLSAR         -1.0000     NotChecked  -11.8397    1659.8315   ✗       
+229   GLGTDEDTLLELLAAR         -1.0000     NotChecked  -11.8443    1685.8836   ✗       
+230   GLGTDEN+0.984TLLQ+0.984LLSAR-1.0000     Failed      -12.0195    1701.8785   ✓       
+231   GLGTDEDTLLQ+0.984LLSGR   -1.0000     NotChecked  -12.0373    1687.8628   ✗       
+232   GLGTDEN+0.984TLLELLAAR   -1.0000     NotChecked  -12.0413    1685.8836   ✗       
+233   GLGTDEDTLLELLAGR         -1.0000     NotChecked  -12.0592    1671.8679   ✗       
+234   GLGTDQ+0.984DTLLQ+0.984LLGAR-1.0000     NotChecked  -12.1655    1671.8679   ✗       
+235   GLGTDEDTLLELLSAG         -1.0000     NotChecked  -12.2138    1602.7988   ✗       
+236   +42.011LGTDEDTLLELLSAR   -1.0000     NotChecked  -12.4156    1686.8676   ✗       
+237   GVGTDEDTLLELLGAR         -1.0000     NotChecked  -12.4361    1657.8523   ✗       
+238   GLGTDQ+0.984DTLLELLGSR   -1.0000     NotChecked  -12.5996    1687.8628   ✗       
+239   GLGTDEDTLLQLLSAR         -1.0000     NotChecked  -12.6375    1700.8945   ✗       
+240   GLGTDEDTLLELLAAR         -1.0000     NotChecked  -12.8036    1685.8836   ✗       
+241   GLGTN+0.984EDTLLELLSGR   -1.0000     NotChecked  -12.8344    1687.8628   ✗       
+242   +43.006LGTDQ+0.984DTLLELLSAR-1.0000     NotChecked  -12.9299    1687.8628   ✗       
+243   GLGTN+0.984Q+0.984DTLLELLGAR-1.0000     NotChecked  -12.9625    1671.8679   ✗       
+244   GLGTDEDTLLQ+0.984LLGSR   -1.0000     NotChecked  -13.0701    1687.8628   ✗       
+245   GLGTDEDTLLELLSAS         -1.0000     NotChecked  -13.0795    1632.8094   ✗       
+246   GLGTDEDTLLELLAAR         -1.0000     NotChecked  -13.0945    1685.8836   ✗       
+247   ALGTDEDTLLELLGAR         -1.0000     NotChecked  -13.1103    1685.8836   ✗       
+248   GLGTDEDTLLELLSAK         -1.0000     NotChecked  -13.1877    1673.8723   ✗       
+249   GLGTDEDTLLELLAAR         -1.0000     NotChecked  -13.3019    1685.8836   ✗       
+250   GLGTDEDTLLELLGAR         -1.0000     NotChecked  -13.3405    1671.8679   ✗       
+251   GLGTDQDTLLELLSAR         -1.0000     NotChecked  -13.3435    1700.8945   ✗       
+252   +43.006LGTDEDTLLQ+0.984LLSAR-1.0000     NotChecked  -13.4004    1687.8628   ✗       
+253   +43.006LGTDEDTLLELLAAR   -1.0000     NotChecked  -13.4223    1671.8679   ✗       
+254   GLGTN+0.984EDTLLQ+0.984LLGAR-1.0000     NotChecked  -13.4330    1671.8679   ✗       
+255   GLGTDEDTLLELLGAR         -1.0000     NotChecked  -13.5069    1671.8679   ✗       
+256   GLGTDDDTLLELLSAR         -1.0000     NotChecked  -13.5510    1687.8628   ✗       
+257   GLGTDEDTLLSLLSAR         -1.0000     NotChecked  -13.5805    1659.8679   ✗       
+258   GLGTDEDTLTELLSAR         -1.0000     NotChecked  -13.6141    1689.8421   ✗       
+259   GGGTDEDTLLELLSAR         -1.0000     NotChecked  -13.6990    1645.8159   ✗       
+260   GTGTDEDTLLELLGAR         -1.0000     NotChecked  -13.8142    1659.8315   ✗       
+261   GLGTN+0.984EDTLLELLGSR   -1.0000     NotChecked  -13.8672    1687.8628   ✗       
+262   GLGTDEDTLLELTSAR         -1.0000     NotChecked  -13.8702    1689.8421   ✗       
+263   GLGTDEDTLLELLSGR         -1.0000     NotChecked  -13.9159    1687.8628   ✗       
+264   GLGTDEDTLLELLGAR         -1.0000     NotChecked  -13.9533    1671.8679   ✗       
+265   GLGTDEDTLLELLSAT         -1.0000     NotChecked  -13.9947    1646.8250   ✗       
+266   GLGTDEDTLLELLGVR         -1.0000     NotChecked  -14.0192    1699.8992   ✗       
+267   GLGTDEDTLLELLGAR         -1.0000     NotChecked  -14.0374    1671.8679   ✗       
+268   GLGTDQ+0.984DTLLELLGAR   -1.0000     NotChecked  -14.0440    1671.8679   ✗       
+269   GLGTDEDTLLELSGAR         -1.0000     NotChecked  -14.0499    1645.8159   ✗       
+270   GKGTDEDTLLELLGAR         -1.0000     NotChecked  -14.0593    1686.8788   ✗       
+271   GLGTDN+0.984DTLLELLSAR   -1.0000     NotChecked  -14.0763    1687.8628   ✗       
+272   +43.006LGTDEDTLLELLGTR   -1.0000     NotChecked  -14.0870    1687.8628   ✗       
+273   GLGTDEDTLLELLGR          -1.0000     NotChecked  -14.0933    1600.8308   ✗       
+274   GLGTDENTLLELLSAR         -1.0000     NotChecked  -14.1062    1700.8945   ✗       
+275   GLGTDEN+0.984TLLELLSGR   -1.0000     NotChecked  -14.1129    1687.8628   ✗       
+276   GVGTDQ+0.984DTLLELLSAR   -1.0000     NotChecked  -14.1643    1687.8628   ✗       
+277   GLGTDEDTLVELLSAR         -1.0000     NotChecked  -14.1884    1687.8628   ✗       
+278   GLGTDEDTLSELLSAR         -1.0000     NotChecked  -14.1890    1675.8264   ✗       
+279   GLGTDEDSLLELLSAR         -1.0000     NotChecked  -14.1957    1687.8628   ✗       
+280   GLGTNEDTLLELLGAR         -1.0000     NotChecked  -14.1972    1670.8839   ✗       
+281   +43.006LGTN+0.984EDTLLELLSAR-1.0000     NotChecked  -14.1975    1687.8628   ✗       
+282   GLGTDQ+0.984N+0.984TLLELLGAR-1.0000     NotChecked  -14.2410    1671.8679   ✗       
+283   GLGTDQ+0.984DTLLELLGGR   -1.0000     NotChecked  -14.2589    1657.8523   ✗       
+284   GLGTDEDTLLELLSA          -1.0000     NotChecked  -14.2616    1545.7774   ✗       
+285   GLGTDQ+0.984DTLLQ+0.984LLAAR-1.0000     NotChecked  -14.3861    1685.8836   ✗       
+286   GLGTDEDTLLQ+0.984LLGAR   -1.0000     NotChecked  -14.5145    1671.8679   ✗       
+287   GAGTDEDTLLELLGAR         -1.0000     NotChecked  -14.5318    1629.8210   ✗       
+288   GVGTDEDTLLQ+0.984LLSAR   -1.0000     NotChecked  -14.6348    1687.8628   ✗       
+289   GLGTDEDTLLDLLSAR         -1.0000     NotChecked  -14.6422    1687.8628   ✗       
+290   GLGTSEDTLLELLSAR         -1.0000     NotChecked  -14.6496    1673.8836   ✗       
+291   GVGTDEDTLLELLAAR         -1.0000     NotChecked  -14.6566    1671.8679   ✗       
+292   GLGTDEDTLLELGSAR         -1.0000     NotChecked  -14.6933    1645.8159   ✗       
+293   GLGTDEGTLLELLSAR         -1.0000     NotChecked  -14.6964    1643.8730   ✗       
+294   GLGTDEN+0.984TLLQ+0.984LLGAR-1.0000     NotChecked  -14.7115    1671.8679   ✗       
+295   GAGTDEDTLLELLSTR         -1.0000     NotChecked  -14.7250    1689.8421   ✗       
+296   GLGTDEDTLLQ+0.984LLGGR   -1.0000     NotChecked  -14.7294    1657.8523   ✗       
+297   GLGTTEDTLLELLSAR         -1.0000     NotChecked  -14.7408    1687.8992   ✗       
+298   GLGTDEDTLLELLSGR         -1.0000     NotChecked  -14.8752    1687.8628   ✗       
+299   GLGTDEDTLLELLSAD         -1.0000     NotChecked  -14.8755    1660.8043   ✗       
+300   GLGTDEDTLLELLGAG         -1.0000     NotChecked  -14.9058    1572.7883   ✗       
+301   GLGTGEDTLLELLSAR         -1.0000     NotChecked  -14.9094    1643.8730   ✗       
+302   SLGTDQ+0.984DTLLELLGAR   -1.0000     Failed      -14.9240    1701.8785   ✓       
+303   GLGTDEDTLLELLGSR         -1.0000     NotChecked  -14.9487    1687.8628   ✗       
+304   GLGTDQ+0.984DTLLELLGAR   -1.0000     NotChecked  -15.0033    1671.8679   ✗       
+305   GLGTDEDTLLLLLSAR         -1.0000     NotChecked  -15.0185    1685.9199   ✗       
+306   GLGTEDTLLELLSAR          -1.0000     NotChecked  -15.0681    1586.8515   ✗       
+307   GLGTDEDTLLELLSAL         -1.0000     NotChecked  -15.0687    1658.8614   ✗       
+308   GLGTDEDTLLELLSTG         -1.0000     NotChecked  -15.0991    1632.8094   ✗       
+309   +42.011LGTDEDTLLELLGAR   -1.0000     NotChecked  -15.1077    1656.8570   ✗       
+310   GSGTDEDTLLELLSAR         -1.0000     NotChecked  -15.1396    1675.8264   ✗       
+311   GLGTDEN+0.984TLLELLGSR   -1.0000     NotChecked  -15.1457    1687.8628   ✗       
+312   GLGTDEDTLLTLLSAR         -1.0000     NotChecked  -15.1618    1673.8836   ✗       
+313   GLGTDEDTLLELLSGR         -1.0000     NotChecked  -15.1660    1687.8628   ✗       
+314   GLGTN+0.984Q+0.984DTLLELLAAR-1.0000     NotChecked  -15.1831    1685.8836   ✗       
+315   GLGTLEDTLLELLSAR         -1.0000     NotChecked  -15.1923    1699.9356   ✗       
+316   GLGTDEDTALELLSAR         -1.0000     NotChecked  -15.2354    1659.8315   ✗       
+317   +43.006LGTDEDTLLELLSAR   -1.0000     NotChecked  -15.2790    1687.8628   ✗       
+318   GLGTDETLLELLSAR          -1.0000     NotChecked  -15.2824    1586.8515   ✗       
+319   GLGTDKDTLLELLSAR         -1.0000     NotChecked  -15.2940    1700.9308   ✗       
+320   GLGTDQ+0.984DTLLELLGAR   -1.0000     NotChecked  -15.2942    1671.8679   ✗       
+321   GLGTN+0.984EDTLLELLGAR   -1.0000     NotChecked  -15.3115    1671.8679   ✗       
+322   GVGTDEDTLLELLGTR         -1.0000     NotChecked  -15.3214    1687.8628   ✗       
+323   GLGTDEDTLLQLLGAR         -1.0000     NotChecked  -15.3296    1670.8839   ✗       
+324   ALGTDEDTLLELLAAR         -1.0000     NotChecked  -15.3309    1699.8992   ✗       
+325   GLGTDEDTLLELLSGR         -1.0000     NotChecked  -15.3735    1687.8628   ✗       
+326   GLGTDEDTLPELLSAR         -1.0000     NotChecked  -15.3846    1685.8472   ✗       
+327   GVGTN+0.984EDTLLELLSAR   -1.0000     NotChecked  -15.4318    1687.8628   ✗       
+328   GLGTDEDTTLELLSAR         -1.0000     NotChecked  -15.4572    1689.8421   ✗       
+329   LGTDEDTLLELLSAR          -1.0000     NotChecked  -15.4719    1644.8570   ✗       
+330   GLGTDEDTLLQ+0.984LLGAR   -1.0000     NotChecked  -15.4738    1671.8679   ✗       
+331   +43.006LGTDEN+0.984TLLELLSAR-1.0000     NotChecked  -15.4760    1687.8628   ✗       
+332   +43.006LGTDEDTLLELLSGR   -1.0000     NotChecked  -15.4939    1673.8472   ✗       
+333   GLGTDQ+0.984DTLLELLGAR   -1.0000     NotChecked  -15.5017    1671.8679   ✗       
+334   GLGTN+0.984EN+0.984TLLELLGAR-1.0000     NotChecked  -15.5086    1671.8679   ✗       
+335   GLGTDETTLLELLSAR         -1.0000     NotChecked  -15.5108    1687.8992   ✗       
+336   GLGTDEDTLLELVSAR         -1.0000     NotChecked  -15.5226    1687.8628   ✗       
+337   GLGTN+0.984EDTLLELLGGR   -1.0000     NotChecked  -15.5264    1657.8523   ✗       
+338   GLGTDEDTLLEVLSAR         -1.0000     NotChecked  -15.5274    1687.8628   ✗       
+339   GTGTDQ+0.984DTLLELLSAR   -1.0000     NotChecked  -15.5424    1689.8421   ✗       
+340   GLGTDEDTLLELLAAR         -1.0000     NotChecked  -15.5611    1685.8836   ✗       
+341   GLGTDESTLLELLSAR         -1.0000     NotChecked  -15.5824    1673.8836   ✗       
+342   GLGTDEDALLELLSAR         -1.0000     NotChecked  -15.5886    1671.8679   ✗       
+343   +43.006LGTDQ+0.984DTLLELLGAR-1.0000     NotChecked  -15.6220    1657.8523   ✗       
+344   GLGTN+0.984EDTLLQ+0.984LLAAR-1.0000     NotChecked  -15.6536    1685.8836   ✗       
+345   GLGTDEDTLAELLSAR         -1.0000     NotChecked  -15.7213    1659.8315   ✗       
+346   GLGTDEDTLLELLAAR         -1.0000     NotChecked  -15.7275    1685.8836   ✗       
+347   GLGTDEDTLLQ+0.984LLGAR   -1.0000     NotChecked  -15.7647    1671.8679   ✗       
+348   GLGTDEDVLLELLSAR         -1.0000     NotChecked  -15.7689    1699.8992   ✗       
+349   GLGTDEDTLLELLGAS         -1.0000     NotChecked  -15.7716    1602.7988   ✗       
+350   GLGTDEDTVLELLSAR         -1.0000     NotChecked  -15.7737    1687.8628   ✗       
+351   GLGTDQ+0.984DTLLELSSAR   -1.0000     NotChecked  -15.7781    1675.8264   ✗       
+352   GLGTDQ+0.984DTLLELLSR    -1.0000     NotChecked  -15.8215    1630.8414   ✗       
+353   GLGTDADTLLELLSAR         -1.0000     NotChecked  -15.8287    1643.8730   ✗       
+354   GLGTDEDTLLELLGAK         -1.0000     NotChecked  -15.8798    1643.8618   ✗       
+355   GLGTDEDTLLELLSAV         -1.0000     NotChecked  -15.8888    1644.8458   ✗       
+356   GLGTDEDTLLN+0.984LLSAR   -1.0000     NotChecked  -15.9019    1687.8628   ✗       
+357   GLGTDEDTLLELLGSR         -1.0000     NotChecked  -15.9080    1687.8628   ✗       
+358   GLGTNQ+0.984DTLLELLSAR   -1.0000     NotChecked  -15.9255    1700.8945   ✗       
+359   GLGTDEDTLLELLSTS         -1.0000     NotChecked  -15.9648    1662.8200   ✗       
+360   GLGTDEDTLLQ+0.984LLGAR   -1.0000     NotChecked  -15.9722    1671.8679   ✗       
+361   GTGTDEDTLLQ+0.984LLSAR   -1.0000     NotChecked  -16.0129    1689.8421   ✗       
+362   GLGTDEDTLLELLGAR         -1.0000     NotChecked  -16.0155    1671.8679   ✗       
+363   GTGTDEDTLLELLAAR         -1.0000     NotChecked  -16.0347    1673.8472   ✗       
+364   GLGTDQDTLLELLGAR         -1.0000     NotChecked  -16.0355    1670.8839   ✗       
+365   GLGTEEDTLLELLGAR         -1.0000     NotChecked  -16.0749    1685.8836   ✗       
+366   GLGTDEDTLLALLSAR         -1.0000     NotChecked  -16.0757    1643.8730   ✗       
+367   GVGTDEDTLLELLTAR         -1.0000     Failed      -16.0834    1701.8785   ✓       
+368   GLGTDEETLLELLGAR         -1.0000     NotChecked  -16.0909    1685.8836   ✗       
+369   +43.006LGTDEDTLLQ+0.984LLGAR-1.0000     NotChecked  -16.0925    1657.8523   ✗       
+370   GLGADEDTLLELLSAR         -1.0000     NotChecked  -16.1410    1671.8679   ✗       
+371   GLGTDEDTLLELLAAR         -1.0000     NotChecked  -16.1739    1685.8836   ✗       
+372   GLGTDEDLLLELLGAR         -1.0000     NotChecked  -16.1777    1683.9043   ✗       
+373   GLGTDEDTLLELLGSR         -1.0000     NotChecked  -16.1988    1687.8628   ✗       
+374   GLGTDEDTLLESLSAR         -1.0000     NotChecked  -16.2124    1675.8264   ✗       
+375   GLGTDDDTLLELLGAR         -1.0000     NotChecked  -16.2431    1657.8523   ✗       
+376   GLGTDEDTLLQ+0.984LSSAR   -1.0000     NotChecked  -16.2486    1675.8264   ✗       
+377   GLGTDEDTLLELLAR          -1.0000     NotChecked  -16.2580    1614.8465   ✗       
+378   GAGTDQ+0.984DTLLELLSAR   -1.0000     NotChecked  -16.2600    1659.8315   ✗       
+379   GLGTDQ+0.984DTLLELLAAR   -1.0000     NotChecked  -16.2646    1685.8836   ✗       
+380   GLGTDEDTLLELSAAR         -1.0000     NotChecked  -16.2705    1659.8315   ✗       
+381   GLGTN+0.984EDTLLELLGAR   -1.0000     NotChecked  -16.2709    1671.8679   ✗       
+382   GLGTDEDTLLSLLGAR         -1.0000     NotChecked  -16.2726    1629.8573   ✗       
+383   GLGTDEDTLLELLGAR         -1.0000     NotChecked  -16.2797    1671.8679   ✗       
+384   GKGTDEDTLLELLAAR         -1.0000     NotChecked  -16.2798    1700.8945   ✗       
+385   GLGTDEDTLLQ+0.984LLSR    -1.0000     NotChecked  -16.2920    1630.8414   ✗       
+386   GLGTDEDTLTELLGAR         -1.0000     NotChecked  -16.3061    1659.8315   ✗       
+387   GLGTDEDTLLELLAR          -1.0000     NotChecked  -16.3139    1614.8465   ✗       
+388   GLGSDEDTLLELLSAR         -1.0000     NotChecked  -16.3527    1687.8628   ✗       
+389   GLGTDEDTLLELLSAN         -1.0000     NotChecked  -16.3790    1659.8203   ✗       
+390   GGGTDEDTLLELLGAR         -1.0000     NotChecked  -16.3911    1615.8053   ✗       
+391   GLGTNEDTLLQ+0.984LLSAR   -1.0000     NotChecked  -16.3960    1700.8945   ✗       
+392   GLGTDEDTLLELLGSR         -1.0000     NotChecked  -16.4063    1687.8628   ✗       
+393   GLGTDEDGLLELLSAR         -1.0000     NotChecked  -16.4070    1657.8523   ✗       
+394   GLGTNEDTLLELLAAR         -1.0000     NotChecked  -16.4178    1684.8995   ✗       
+395   GLGTDQ+0.984N+0.984TLLQ+0.984LLSAR-1.0000     Failed      -16.4398    1701.8785   ✓       
+396   GLGTDTDTLLELLSAR         -1.0000     NotChecked  -16.4517    1673.8836   ✗       
+397   GLGTDQ+0.984DTLLQ+0.984LLSGR-1.0000     NotChecked  -16.4576    1687.8628   ✗       
+398   GLGTDQ+0.984N+0.984TLLELLAAR-1.0000     NotChecked  -16.4616    1685.8836   ✗       
+399   GLGTDEDTLLSLLSTR         -1.0000     NotChecked  -16.4658    1689.8785   ✗       
+400   GLGTDQ+0.984DTLLELLAGR   -1.0000     NotChecked  -16.4795    1671.8679   ✗       
+401   GVGTDEDTLLELLSAR         -1.0000     NotChecked  -16.5133    1687.8628   ✗       
+402   +43.006LGTDEDTLLELLGSR   -1.0000     NotChecked  -16.5267    1673.8472   ✗       
+403   +43.006LGTDEDTLLELLSAR   -1.0000     NotChecked  -16.5291    1687.8628   ✗       
+404   GLGTN+0.984EDTLLELLGAR   -1.0000     NotChecked  -16.5617    1671.8679   ✗       
+405   GLGTDEDTLLELTGAR         -1.0000     NotChecked  -16.5622    1659.8315   ✗       
+406   GLGTDEDTLLELLGAR         -1.0000     NotChecked  -16.5786    1671.8679   ✗       
+407   GGGTDEDTLLELLSTR         -1.0000     NotChecked  -16.5843    1675.8264   ✗       
+408   GLGTDEN+0.984TLLELLGAR   -1.0000     NotChecked  -16.5900    1671.8679   ✗       
+409   GLGTDEDTLLELLGGR         -1.0000     NotChecked  -16.6079    1657.8523   ✗       
+410   GLGTDQ+0.984DTLLELLSAG   -1.0000     NotChecked  -16.6341    1602.7988   ✗       
+411   GLGTDEDTPLELLSAR         -1.0000     NotChecked  -16.6754    1685.8472   ✗       
+412   GLGTDEDTLLELSSSR         -1.0000     NotChecked  -16.6828    1691.8214   ✗       
+413   GLGTDEDTLLELLGAT         -1.0000     NotChecked  -16.6868    1616.8145   ✗       
+414   GTGTDEDTLLELLGTR         -1.0000     NotChecked  -16.6995    1689.8421   ✗       
+415   GVGTDEN+0.984TLLELLSAR   -1.0000     NotChecked  -16.7104    1687.8628   ✗       
+416   GVGTDEDTLLELLSGR         -1.0000     NotChecked  -16.7282    1673.8472   ✗       
+417   GAGTDEDTLLQ+0.984LLSAR   -1.0000     NotChecked  -16.7305    1659.8315   ✗       
+418   GLGTDEDTLLQ+0.984LLAAR   -1.0000     NotChecked  -16.7351    1685.8836   ✗       
+419   +43.006LGTDEDTLLELLSAR   -1.0000     NotChecked  -16.7366    1687.8628   ✗       
+420   GAGTDEDTLLELLAAR         -1.0000     NotChecked  -16.7523    1643.8366   ✗       
+421   GLGTDEDTLLELLGAR         -1.0000     NotChecked  -16.7649    1671.8679   ✗       
+422   GLGTDN+0.984DTLLELLGAR   -1.0000     NotChecked  -16.7684    1657.8523   ✗       
+423   GLGTN+0.984EDTLLELLGAR   -1.0000     NotChecked  -16.7692    1671.8679   ✗       
+424   GLGTDENTLLELLGAR         -1.0000     NotChecked  -16.7983    1670.8839   ✗       
+425   GLGTDEN+0.984TLLELLGGR   -1.0000     NotChecked  -16.8050    1657.8523   ✗       
+426   GTGTN+0.984EDTLLELLSAR   -1.0000     NotChecked  -16.8100    1689.8421   ✗       
+427   +42.011LGTDQ+0.984DTLLELLSAR-1.0000     NotChecked  -16.8359    1686.8676   ✗       
+428   GVGTDQ+0.984DTLLELLGAR   -1.0000     NotChecked  -16.8564    1657.8523   ✗       
+429   GLGTDEDTSLELLSAR         -1.0000     NotChecked  -16.8579    1675.8264   ✗       
+430   GLGTDEDTLLELLST          -1.0000     NotChecked  -16.8800    1575.7879   ✗       
+431   GLGTDEDTLVELLGAR         -1.0000     NotChecked  -16.8805    1657.8523   ✗       
+432   GLGTDEDTLSELLGAR         -1.0000     NotChecked  -16.8811    1645.8159   ✗       
+433   GLGTDEDSLLELLGAR         -1.0000     NotChecked  -16.8877    1657.8523   ✗       
+434   +43.006LGTN+0.984EDTLLELLGAR-1.0000     NotChecked  -16.8895    1657.8523   ✗       
+435   GLGTDGDTLLELLSAR         -1.0000     NotChecked  -16.8941    1629.8573   ✗       
+436   GLGTDEN+0.984TLLQ+0.984LLAAR-1.0000     NotChecked  -16.9321    1685.8836   ✗       
+437   GLGTDEDTLLELSGTR         -1.0000     NotChecked  -16.9352    1675.8264   ✗       
+438   GLGTDEDTLLQ+0.984LLAGR   -1.0000     NotChecked  -16.9500    1671.8679   ✗       
+439   GLGTDEDTLLELLGA          -1.0000     NotChecked  -16.9537    1515.7668   ✗       
+440   GLGTN+0.984EDTLLELSSAR   -1.0000     NotChecked  -17.0457    1675.8264   ✗       
+441   GLGTDQ+0.984DTLLQLLSAR   -1.0000     NotChecked  -17.0578    1700.8945   ✗       
+442   GLGTNEDTLLELLGTR         -1.0000     NotChecked  -17.0825    1700.8945   ✗       
+443   GLGTN+0.984EDTLLELLSR    -1.0000     NotChecked  -17.0891    1630.8414   ✗       
+444   GLGTDEDTLLQ+0.984LLSAG   -1.0000     NotChecked  -17.1046    1602.7988   ✗       
+445   GLGTDEDTLLELLGAR         -1.0000     NotChecked  -17.1132    1671.8679   ✗       
+446   GLGTDEDTLLELLAAG         -1.0000     NotChecked  -17.1264    1586.8039   ✗       
+447   GLGTDEDTLLELLSTA         -1.0000     NotChecked  -17.1469    1646.8250   ✗       
+448   GAGTDEDTLLELLSSR         -1.0000     NotChecked  -17.1647    1675.8264   ✗       
+449   GLGTDEDTLLETLSAR         -1.0000     NotChecked  -17.1923    1689.8421   ✗       
+450   GLGTDQ+0.984DTLLELLAAR   -1.0000     NotChecked  -17.2239    1685.8836   ✗       
+451   GLGTDEQ+0.984TLLELLGAR   -1.0000     NotChecked  -17.2349    1685.8836   ✗       
+452   GLGTN+0.984Q+0.984DTLLELLSGR-1.0000     NotChecked  -17.2547    1687.8628   ✗       
+453   SLGTDEDTLLELLGAR         -1.0000     Failed      -17.2730    1701.8785   ✓       
+454   +42.011LGTDEDTLLQ+0.984LLSAR-1.0000     NotChecked  -17.3064    1686.8676   ✗       
+455   GVGTDEDTLLQ+0.984LLGAR   -1.0000     NotChecked  -17.3269    1657.8523   ✗       
+456   +42.011LGTDEDTLLELLAAR   -1.0000     NotChecked  -17.3283    1670.8727   ✗       
+457   GLGTDEDTLLDLLGAR         -1.0000     NotChecked  -17.3342    1657.8523   ✗       
+458   GLGTSEDTLLELLGAR         -1.0000     NotChecked  -17.3417    1643.8730   ✗       
+459   GLGTDEDTLLELLGAR         -1.0000     NotChecked  -17.3523    1671.8679   ✗       
+460   GLGTDEDTLLELGGAR         -1.0000     NotChecked  -17.3853    1615.8053   ✗       
+461   GLGTDEGTLLELLGAR         -1.0000     NotChecked  -17.3885    1613.8624   ✗       
+462   GAGTDEDTLLELLGTR         -1.0000     NotChecked  -17.4170    1659.8315   ✗       
+463   GLGTTEDTLLELLGAR         -1.0000     NotChecked  -17.4329    1657.8886   ✗       
+464   GVGTDEDTLLELLSAR         -1.0000     NotChecked  -17.4726    1687.8628   ✗       
+465   SLGTDEDTLLELLGGR         -1.0000     NotChecked  -17.4879    1687.8628   ✗       
+466   GLGTDQ+0.984DTLLQ+0.984LLGSR-1.0000     NotChecked  -17.4904    1687.8628   ✗       
+467   GLGTDQ+0.984DTLLELLSAS   -1.0000     NotChecked  -17.4998    1632.8094   ✗       
+468   GLGTDQ+0.984DTLLELLAAR   -1.0000     NotChecked  -17.5148    1685.8836   ✗       
+469   GAGTN+0.984EDTLLELLSAR   -1.0000     NotChecked  -17.5275    1659.8315   ✗       
+470   ALGTDQ+0.984DTLLELLGAR   -1.0000     NotChecked  -17.5306    1685.8836   ✗       
+471   GLGTN+0.984EDTLLELLAAR   -1.0000     NotChecked  -17.5321    1685.8836   ✗       
+472   GLGTDEDTLLELLSSG         -1.0000     NotChecked  -17.5387    1618.7937   ✗       
+473   GLGTDEN+0.984TLLELLGAR   -1.0000     NotChecked  -17.5494    1671.8679   ✗       
+474   GLGTDEDTLLQLLAAR         -1.0000     NotChecked  -17.5501    1684.8995   ✗       
+475   GLGTDEDTLLELLGGR         -1.0000     NotChecked  -17.5672    1657.8523   ✗       
+476   GLGTDEDTLLELLGAD         -1.0000     NotChecked  -17.5676    1630.7937   ✗       
+477   GLGTDEDTLLELGSTR         -1.0000     NotChecked  -17.5785    1675.8264   ✗       
+478   GLGTDEGTLLELLSTR         -1.0000     NotChecked  -17.5817    1673.8836   ✗       
+479   GLGTGEDTLLELLGAR         -1.0000     NotChecked  -17.6015    1613.8624   ✗       
+480   GLGTDQ+0.984DTLLELLSAK   -1.0000     NotChecked  -17.6080    1673.8723   ✗       
+481   GLGTDEDTLLELLSGR         -1.0000     NotChecked  -17.6327    1687.8628   ✗       
+482   GLGTDEDTLLELEGAR         -1.0000     NotChecked  -17.6409    1687.8264   ✗       
+483   GLGTDEDTLLELLGAR         -1.0000     NotChecked  -17.6432    1671.8679   ✗       
+484   GLGTDEDTLLELLSR          -1.0000     NotChecked  -17.6736    1630.8414   ✗       
+485   GLGTDEDTLLQ+0.984LLAAR   -1.0000     NotChecked  -17.6944    1685.8836   ✗       
+486   GLGTDEDTLLELSTAR         -1.0000     NotChecked  -17.6973    1689.8421   ✗       
+487   GLGTDEDTLLLLLGAR         -1.0000     NotChecked  -17.7105    1655.9094   ✗       
+488   GLGTDQ+0.984DTLLELLAAR   -1.0000     NotChecked  -17.7222    1685.8836   ✗       
+489   GLGTN+0.984EDTLLQ+0.984LLSGR-1.0000     NotChecked  -17.7252    1687.8628   ✗       
+490   GLGTN+0.984EN+0.984TLLELLAAR-1.0000     NotChecked  -17.7291    1685.8836   ✗       
+491   GLGTDEDTLLELLTR          -1.0000     NotChecked  -17.7407    1644.8570   ✗       
+492   GLGTN+0.984EDTLLELLAGR   -1.0000     NotChecked  -17.7470    1671.8679   ✗       
+493   GLGTEDTLLELLGAR          -1.0000     NotChecked  -17.7602    1556.8410   ✗       
+494   GLGTDEDTLLELLSTD         -1.0000     NotChecked  -17.7608    1690.8149   ✗       
+495   GLGTDEDTLLELLGAL         -1.0000     NotChecked  -17.7608    1628.8509   ✗       
+496   GLGTDQ+0.984DTLLELLGAR   -1.0000     NotChecked  -17.7608    1671.8679   ✗       
+497   GVGTDEDTLLELLGSR         -1.0000     NotChecked  -17.7610    1673.8472   ✗       
+498   GLGTDEDTLLELLGTG         -1.0000     NotChecked  -17.7911    1602.7988   ✗       
+499   GLGTGEDTLLELLSTR         -1.0000     NotChecked  -17.7947    1673.8836   ✗       
+500   GLGTDEDTLLELLSGR         -1.0000     NotChecked  -17.7991    1687.8628   ✗       
+501   GLGVDEDTLLELLSAR         -1.0000     NotChecked  -17.8138    1699.8992   ✗       
+502   +43.006LGTDQ+0.984DTLLQ+0.984LLSAR-1.0000     NotChecked  -17.8207    1687.8628   ✗       
+503   GSGTDEDTLLELLGAR         -1.0000     NotChecked  -17.8317    1645.8159   ✗       
+504   GLGTDEN+0.984TLLELLGAR   -1.0000     NotChecked  -17.8402    1671.8679   ✗       
+505   +43.006LGTDQ+0.984DTLLELLAAR-1.0000     NotChecked  -17.8426    1671.8679   ✗       
+506   GLGTDEDTLLELLGAR         -1.0000     NotChecked  -17.8507    1671.8679   ✗       
+507   GLGTN+0.984Q+0.984DTLLQ+0.984LLGAR-1.0000     NotChecked  -17.8533    1671.8679   ✗       
+508   GLGTDEDTLLTLLGAR         -1.0000     NotChecked  -17.8538    1643.8730   ✗       
+509   GLGTDEDTLLELLGGR         -1.0000     NotChecked  -17.8581    1657.8523   ✗       
+510   GLGTDEDTLLELLGAR         -1.0000     NotChecked  -17.8589    1671.8679   ✗       
+511   GLGTLEDTLLELLGAR         -1.0000     NotChecked  -17.8844    1669.9250   ✗       
+512   GTGTDEDTLLELLSAR         -1.0000     NotChecked  -17.8914    1689.8421   ✗       
+513   GLGTN+0.984EDTLLELLSAG   -1.0000     NotChecked  -17.9016    1602.7988   ✗       
+514   GLGTDQ+0.984DTLLELLGAR   -1.0000     NotChecked  -17.9272    1671.8679   ✗       
+515   GLGTDEDTALELLGAR         -1.0000     NotChecked  -17.9274    1629.8210   ✗       
+516   GLGTDEDTLLELLGAR         -1.0000     NotChecked  -17.9514    1671.8679   ✗       
+517   GLGTEDTLLELLSTR          -1.0000     NotChecked  -17.9534    1616.8621   ✗       
+518   GLGTDEDTLLELLSTL         -1.0000     NotChecked  -17.9540    1688.8720   ✗       
+519   GLGTDEDTLLQ+0.984LLSAS   -1.0000     NotChecked  -17.9703    1632.8094   ✗       
+520   GVGTDEDTLLELLSAR         -1.0000     NotChecked  -17.9710    1687.8628   ✗       
+521   +43.006LGTDEDTLLELLGAR   -1.0000     NotChecked  -17.9710    1657.8523   ✗       
+522   GLGTDETLLELLGAR          -1.0000     NotChecked  -17.9744    1556.8410   ✗       
+523   GLGTDEDTLLELLGAR         -1.0000     NotChecked  -17.9778    1671.8679   ✗       
+524   GLGTDEDTLLQ+0.984LLAAR   -1.0000     NotChecked  -17.9853    1685.8836   ✗       
+525   GLGTDKDTLLELLGAR         -1.0000     NotChecked  -17.9860    1670.9203   ✗       
+526   GLGTDEDTLLELLAAS         -1.0000     NotChecked  -17.9922    1616.8145   ✗       
+527   +42.011LGTDEDTLLELLGTR   -1.0000     NotChecked  -17.9930    1686.8676   ✗       
+528   GLGTDQ+0.984DTLLSLLSAR   -1.0000     NotChecked  -18.0008    1659.8679   ✗       
+529   ALGTDEDTLLQ+0.984LLGAR   -1.0000     NotChecked  -18.0011    1685.8836   ✗       
+530   GLGTDEDTLDELLGAR         -1.0000     NotChecked  -18.0202    1673.8108   ✗       
+531   GLGTDQ+0.984DTLTELLSAR   -1.0000     NotChecked  -18.0344    1689.8421   ✗       
+532   GLGTDEN+0.984TLLELLGAR   -1.0000     NotChecked  -18.0477    1671.8679   ✗       
+533   GLGTDEDTLLELLGGR         -1.0000     NotChecked  -18.0656    1657.8523   ✗       
+534   GLGTDEDTLPELLGAR         -1.0000     NotChecked  -18.0767    1655.8366   ✗       
+535   GLGTDEDTLLQ+0.984LLSAK   -1.0000     NotChecked  -18.0785    1673.8723   ✗       
+536   GTGTDEN+0.984TLLELLSAR   -1.0000     NotChecked  -18.0885    1689.8421   ✗       
+537   +43.006VGTDEDTLLELLSAR   -1.0000     NotChecked  -18.0913    1673.8472   ✗       
+538   GLGTDEDTLLELLAAK         -1.0000     NotChecked  -18.1003    1657.8774   ✗       
+539   +42.011LGTN+0.984EDTLLELLSAR-1.0000     NotChecked  -18.1035    1686.8676   ✗       
+540   GTGTDEDTLLELLSGR         -1.0000     NotChecked  -18.1063    1675.8264   ✗       
+541   GGGTDQ+0.984DTLLELLSAR   -1.0000     NotChecked  -18.1193    1645.8159   ✗       
+542   GLGTDEDTALELLSTR         -1.0000     NotChecked  -18.1207    1689.8421   ✗       
+543   GVGTN+0.984EDTLLELLGAR   -1.0000     NotChecked  -18.1239    1657.8523   ✗       
+544   GLGTDEDTLLELSSAR         -1.0000     NotChecked  -18.1271    1675.8264   ✗       
+545   GLGTDEDTTLELLGAR         -1.0000     NotChecked  -18.1493    1659.8315   ✗       
+546   GLGTDEDKLLELLGAR         -1.0000     NotChecked  -18.1586    1698.9152   ✗       
+547   LGTDEDTLLELLGAR          -1.0000     NotChecked  -18.1640    1614.8465   ✗       
+548   GLGTDETLLELLSTR          -1.0000     NotChecked  -18.1677    1616.8621   ✗       
+549   +43.006LGTDEN+0.984TLLELLGAR-1.0000     NotChecked  -18.1680    1657.8523   ✗       
+550   GLGTDEDTLLELLSR          -1.0000     NotChecked  -18.1705    1630.8414   ✗       
+551   GAGTDEDTLLELLTAR         -1.0000     NotChecked  -18.1791    1673.8472   ✗       
+552   +43.006LGTDEDTLLELLGGR   -1.0000     NotChecked  -18.1859    1643.8366   ✗       
+553   GLGTDEDTLLQ+0.984LLAAR   -1.0000     NotChecked  -18.1927    1685.8836   ✗       
+554   GLGTDETTLLELLGAR         -1.0000     NotChecked  -18.2028    1657.8886   ✗       
+555   GLGTDEDTLLELN+0.984GAR   -1.0000     NotChecked  -18.2132    1673.8108   ✗       
+556   GLGTDEDTLLELVGAR         -1.0000     NotChecked  -18.2147    1657.8523   ✗       
+557   GLGTDEDTLLQLLGTR         -1.0000     NotChecked  -18.2148    1700.8945   ✗       
+558   GLGTDEDTLLEVLGAR         -1.0000     NotChecked  -18.2195    1657.8523   ✗       
+559   GLGTDEDTLLQ+0.984LLGAR   -1.0000     NotChecked  -18.2313    1671.8679   ✗       
+560   GLGTDQDTLLQ+0.984LLSAR   -1.0000     NotChecked  -18.2343    1700.8945   ✗       
+561   GTGTDQ+0.984DTLLELLGAR   -1.0000     NotChecked  -18.2345    1659.8315   ✗       
+562   GLGTDEDTLLELLAAR         -1.0000     NotChecked  -18.2361    1685.8836   ✗       
+563   GLGTDEDTLLELLSGR         -1.0000     NotChecked  -18.2455    1687.8628   ✗       
+564   GLGTDEDTLLMLLGAR         -1.0000     NotChecked  -18.2537    1673.8658   ✗       
+565   GLGTDQDTLLELLAAR         -1.0000     NotChecked  -18.2561    1684.8995   ✗       
+566   GLGTDESTLLELLGAR         -1.0000     NotChecked  -18.2744    1643.8730   ✗       
+567   GLGTNEDTLLELLSAR         -1.0000     NotChecked  -18.2745    1700.8945   ✗       
+568   GLGTDEDALLELLGAR         -1.0000     NotChecked  -18.2806    1641.8574   ✗       
+569   GLGTN+0.984Q+0.984DTLLELLGSR-1.0000     NotChecked  -18.2875    1687.8628   ✗       
+570   GLGTDQ+0.984DTLLELTSAR   -1.0000     NotChecked  -18.2905    1689.8421   ✗       
+571   GLGTEEDTLLELLAAR         -1.0000     NotChecked  -18.2955    1699.8992   ✗       
+572   GLGTDEETLLELLAAR         -1.0000     NotChecked  -18.3115    1699.8992   ✗       
+573   +43.006LGTDEDTLLQ+0.984LLAAR-1.0000     NotChecked  -18.3131    1671.8679   ✗       
+574   GLGTDEN+0.984TLLELSSAR   -1.0000     NotChecked  -18.3242    1675.8264   ✗       
+575   GLGTN+0.984EDTLLQLLSAR   -1.0000     NotChecked  -18.3253    1700.8945   ✗       
+576   GLGTDQ+0.984DTLLELLSGR   -1.0000     NotChecked  -18.3362    1687.8628   ✗       
+577   GLGTDEDTLLELSSGR         -1.0000     NotChecked  -18.3421    1661.8108   ✗       
+578   LGTDEDTLLELLSTR          -1.0000     NotChecked  -18.3572    1674.8676   ✗       
+579   GLGTDEN+0.984TLLELLSR    -1.0000     NotChecked  -18.3676    1630.8414   ✗       
+580   GLGTDQ+0.984DTLLELLGAR   -1.0000     NotChecked  -18.3736    1671.8679   ✗       
+581   GLGQ+0.984DEDTLLELLGAR   -1.0000     NotChecked  -18.3943    1699.8628   ✗       
+582   GLGTDEDTLLELLGAR         -1.0000     NotChecked  -18.3948    1671.8679   ✗       
+583   GLGTDEDTLLQ+0.984LLGAR   -1.0000     NotChecked  -18.3977    1671.8679   ✗       
+584   GLGTDEDLLLELLAAR         -1.0000     NotChecked  -18.3983    1697.9200   ✗       
+585   GLGTDEDTLLELLSS          -1.0000     NotChecked  -18.4045    1561.7723   ✗       
+586   GLGTDEDTLAELLGAR         -1.0000     NotChecked  -18.4133    1629.8210   ✗       
+587   GLGTDQ+0.984DTLLELLSAT   -1.0000     NotChecked  -18.4150    1646.8250   ✗       
+588   GLGTDQ+0.984DTLLELLGVR   -1.0000     NotChecked  -18.4395    1699.8992   ✗       
+589   GLGTDDDTLLQ+0.984LLSAR   -1.0000     NotChecked  -18.4418    1687.8628   ✗       
+590   GLGTDQ+0.984DTLLELLGAR   -1.0000     NotChecked  -18.4577    1671.8679   ✗       
+591   GLGTDEDVLLELLGAR         -1.0000     NotChecked  -18.4610    1669.8887   ✗       
+592   GLGTDDDTLLELLAAR         -1.0000     NotChecked  -18.4636    1671.8679   ✗       
+593   GLGTDEDTVLELLGAR         -1.0000     NotChecked  -18.4657    1657.8523   ✗       
+594   GLGTDEDTLLELLGAR         -1.0000     NotChecked  -18.4659    1671.8679   ✗       
+595   GLGTDQ+0.984DTLLELSGAR   -1.0000     NotChecked  -18.4702    1645.8159   ✗       
+596   GLGTNEN+0.984TLLELLSAR   -1.0000     NotChecked  -18.4715    1700.8945   ✗       
+597   GKGTDQ+0.984DTLLELLGAR   -1.0000     NotChecked  -18.4796    1686.8788   ✗       
+598   GLGTNEDTLLELLSGR         -1.0000     NotChecked  -18.4894    1686.8788   ✗       
+599   GLGTN+0.984EDTLLELLAAR   -1.0000     NotChecked  -18.4914    1685.8836   ✗       
+600   GLGTDEDTLLSLLAAR         -1.0000     NotChecked  -18.4932    1643.8730   ✗       
+601   GLGTDEDTLLELLAAR         -1.0000     NotChecked  -18.5003    1685.8836   ✗       
+602   GLGTDEDTLTQ+0.984LLSAR   -1.0000     NotChecked  -18.5049    1689.8421   ✗       
+603   +43.006LGTDQ+0.984DTLLELLGTR-1.0000     NotChecked  -18.5073    1687.8628   ✗       
+604   GLGTDEDTLLELLSSK         -1.0000     NotChecked  -18.5126    1689.8672   ✗       
+605   GLGTDEDELLELLGAR         -1.0000     NotChecked  -18.5129    1699.8628   ✗       
+606   GLGTDQ+0.984DTLLELLGR    -1.0000     NotChecked  -18.5136    1600.8308   ✗       
+607   GLGTDADTLLELLGAR         -1.0000     NotChecked  -18.5208    1613.8624   ✗       
+608   SLGTDEDTLLELLGAR         -1.0000     Failed      -18.5232    1701.8785   ✓       
+609   GLGTDQ+0.984NTLLELLSAR   -1.0000     NotChecked  -18.5265    1700.8945   ✗       
+610   GLGTDEDTLTELLAAR         -1.0000     NotChecked  -18.5267    1673.8472   ✗       
+611   GLGTDQ+0.984N+0.984TLLELLSGR-1.0000     NotChecked  -18.5332    1687.8628   ✗       
+612   GLGLDEDTLLELLGAR         -1.0000     NotChecked  -18.5426    1683.9043   ✗       
+613   GLGTDEDTLLELLTAG         -1.0000     NotChecked  -18.5532    1616.8145   ✗       
+614   GLGTDEDTLEELLGAR         -1.0000     NotChecked  -18.5603    1687.8264   ✗       
+615   GLGTDEDTLLELLGAV         -1.0000     NotChecked  -18.5809    1614.8352   ✗       
+616   GGGTDEDTLLQ+0.984LLSAR   -1.0000     NotChecked  -18.5898    1645.8159   ✗       
+617   GLGTDEDTLLN+0.984LLGAR   -1.0000     NotChecked  -18.5939    1657.8523   ✗       
+618   GLGTDEDTLLELLVGR         -1.0000     NotChecked  -18.5940    1699.8992   ✗       
+619   GLGTDEDTLLELLGAR         -1.0000     NotChecked  -18.6025    1671.8679   ✗       
+620   GLGTDEDTLAELLSTR         -1.0000     NotChecked  -18.6065    1689.8421   ✗       
+621   GLGTDQ+0.984DTLVELLSAR   -1.0000     NotChecked  -18.6087    1687.8628   ✗       
+622   GAGTDEDTLLELLSAR         -1.0000     NotChecked  -18.6090    1659.8315   ✗       
+623   GLGTDQ+0.984DTLSELLSAR   -1.0000     NotChecked  -18.6093    1675.8264   ✗       
+624   GGGTDEDTLLELLAAR         -1.0000     NotChecked  -18.6116    1629.8210   ✗       
+625   GLGTDQ+0.984DSLLELLSAR   -1.0000     NotChecked  -18.6160    1687.8628   ✗       
+626   GLGTNQ+0.984DTLLELLGAR   -1.0000     NotChecked  -18.6175    1670.8839   ✗       
+627   +43.006LGTN+0.984Q+0.984DTLLELLSAR-1.0000     NotChecked  -18.6178    1687.8628   ✗       
+628   GLGTDEDTLLELLGTS         -1.0000     NotChecked  -18.6569    1632.8094   ✗       
+629   GLGTDEDTLLELLGSR         -1.0000     NotChecked  -18.6655    1687.8628   ✗       
+630   GLGTDQ+0.984DTLLELLSA    -1.0000     NotChecked  -18.6819    1545.7774   ✗       
+631   GTGTDEDTLLQ+0.984LLGAR   -1.0000     NotChecked  -18.7050    1659.8315   ✗       
+632   GLGTDADTLLELLSTR         -1.0000     NotChecked  -18.7140    1673.8836   ✗       
+633   SLGTDEDTLLELLGAR         -1.0000     Failed      -18.7307    1701.8785   ✓       
+634   GLGTDEDTLLELDGAR         -1.0000     NotChecked  -18.7353    1673.8108   ✗       
+635   +43.006LGTDEDTLLELLASR   -1.0000     NotChecked  -18.7472    1687.8628   ✗       
+636   +42.011LGTDEDTLLELLTAR   -1.0000     NotChecked  -18.7551    1700.8832   ✗       
+637   GLGTN+0.984EDTLLQ+0.984LLGSR-1.0000     NotChecked  -18.7580    1687.8628   ✗       
+638   GLGTDEDTLLQ+0.984LTSAR   -1.0000     NotChecked  -18.7610    1689.8421   ✗       
+639   GLGTDEDTLLELLGTK         -1.0000     NotChecked  -18.7650    1673.8723   ✗       
+640   GLGTN+0.984EDTLLELLSAS   -1.0000     NotChecked  -18.7674    1632.8094   ✗       
+641   GLGTDEDTLLALLGAR         -1.0000     NotChecked  -18.7677    1613.8624   ✗       
+642   GLGTDEDTLLELLSTV         -1.0000     NotChecked  -18.7741    1674.8563   ✗       
+643   GLGTN+0.984EDTLLELLAAR   -1.0000     NotChecked  -18.7823    1685.8836   ✗       
+644   GLGTDEDTLLELTAAR         -1.0000     NotChecked  -18.7828    1673.8472   ✗       
+645   GLGTDEN+0.984TLLQ+0.984LLSAR-1.0000     Failed      -18.7888    1701.8785   ✓       
+646   GLGTDEDQLLELLGAR         -1.0000     NotChecked  -18.7980    1698.8788   ✗       
+647   ALGTN+0.984EDTLLELLGAR   -1.0000     NotChecked  -18.7981    1685.8836   ✗       
+648   GLGTDEDTLLELLAAR         -1.0000     NotChecked  -18.7992    1685.8836   ✗       
+649   GAGTDEN+0.984TLLELLSAR   -1.0000     NotChecked  -18.8060    1659.8315   ✗       
+650   GLGTDEDTLLQ+0.984LLSGR   -1.0000     NotChecked  -18.8067    1687.8628   ✗       
+651   GLGTDEDTLLELLGAR         -1.0000     NotChecked  -18.8100    1671.8679   ✗       
+652   GLGTDEN+0.984TLLELLAAR   -1.0000     NotChecked  -18.8106    1685.8836   ✗       
+653   GLGTDEDTLLELLN+0.984R    -1.0000     NotChecked  -18.8192    1658.8363   ✗       
+654   GAGTDEDTLLELLSGR         -1.0000     NotChecked  -18.8239    1645.8159   ✗       
+655   GLGTDEDTLLELLAGR         -1.0000     NotChecked  -18.8285    1671.8679   ✗       
+656   GLGTDEDTLLELLGSR         -1.0000     NotChecked  -18.8319    1687.8628   ✗       
+657   GLGADEDTLLELLGAR         -1.0000     NotChecked  -18.8331    1641.8574   ✗       
+658   GLGTDEDTLLQ+0.984LLGAR   -1.0000     NotChecked  -18.8442    1671.8679   ✗       
+659   GTGTDEDTLLELLSAR         -1.0000     NotChecked  -18.8508    1689.8421   ✗       
+660   GLGTDEDTLLELQ+0.984GAR   -1.0000     NotChecked  -18.8711    1687.8264   ✗       
+661   GLGTN+0.984EDTLLELLSAK   -1.0000     NotChecked  -18.8755    1673.8723   ✗       
+662   GLGTDEDTLLQ+0.984LLSAT   -1.0000     NotChecked  -18.8855    1646.8250   ✗       
+663   GLGTDEDTLLESLGAR         -1.0000     NotChecked  -18.9044    1645.8159   ✗       
+664   GLGTDEDTLLSLLSSR         -1.0000     NotChecked  -18.9055    1675.8628   ✗       
+665   GLGTDEDTLLELLAAT         -1.0000     NotChecked  -18.9074    1630.8301   ✗       
+666   GLGTDEDTLLQ+0.984LLGVR   -1.0000     NotChecked  -18.9100    1699.8992   ✗       
+667   GLGTDQDTLLELLGTR         -1.0000     NotChecked  -18.9208    1700.8945   ✗       
+668   GLGTDEDTLLQ+0.984LLGAR   -1.0000     NotChecked  -18.9282    1671.8679   ✗       
+669   GLGTDQ+0.984DTLLQ+0.984LLGAR-1.0000     NotChecked  -18.9348    1671.8679   ✗       
+670   GLGTDEDQ+0.984LLELLGAR   -1.0000     NotChecked  -18.9363    1699.8628   ✗       
+671   GLGTDEDTLLQ+0.984LSGAR   -1.0000     NotChecked  -18.9407    1645.8159   ✗       
+672   GKGTDEDTLLQ+0.984LLGAR   -1.0000     NotChecked  -18.9501    1686.8788   ✗       
+673   GAGTDQ+0.984DTLLELLGAR   -1.0000     NotChecked  -18.9521    1629.8210   ✗       
+674   GLGTDEDTLLALLSTR         -1.0000     NotChecked  -18.9610    1673.8836   ✗       
+675   GLGTDN+0.984DTLLQ+0.984LLSAR-1.0000     NotChecked  -18.9671    1687.8628   ✗       
+676   +43.006LGTDEDTLLQ+0.984LLGTR-1.0000     NotChecked  -18.9778    1687.8628   ✗       
+677   GLGTDEDTKLELLGAR         -1.0000     NotChecked  -18.9790    1686.8788   ✗       
+678   GLGTDEDTLLELLSAG         -1.0000     NotChecked  -18.9831    1602.7988   ✗       
+679   GLGTDEDTLLQ+0.984LLGR    -1.0000     NotChecked  -18.9841    1600.8308   ✗       
+680   GLGTDEDTLLELLAAR         -1.0000     NotChecked  -18.9855    1685.8836   ✗       
+681   GLGTDEDTLNELLGAR         -1.0000     NotChecked  -18.9866    1672.8268   ✗       
+682   GLGTDN+0.984DTLLELLAAR   -1.0000     NotChecked  -18.9890    1671.8679   ✗       
+683   GLGTN+0.984EDTLLELLAAR   -1.0000     NotChecked  -18.9898    1685.8836   ✗       
+684   +43.006LGTDEDTLLELLSAR   -1.0000     NotChecked  -18.9958    1687.8628   ✗       
+685   GLGTDENTLLQ+0.984LLSAR   -1.0000     NotChecked  -18.9970    1700.8945   ✗       
+686   GLGEDEDTLLELLGAR         -1.0000     NotChecked  -18.9971    1699.8628   ✗       
+687   GLGTDEDTLQELLGAR         -1.0000     NotChecked  -19.0024    1686.8424   ✗       
+688   GLGTDEN+0.984TLLQ+0.984LLSGR-1.0000     NotChecked  -19.0037    1687.8628   ✗       
+689   SLGTDEDTLLELLSR          -1.0000     NotChecked  -19.0506    1660.8519   ✗       
+690   +43.006LGTN+0.984EDTLLQ+0.984LLSAR-1.0000     NotChecked  -19.0883    1687.8628   ✗       
+691   +43.006LGTN+0.984EDTLLELLAAR-1.0000     NotChecked  -19.1101    1671.8679   ✗       
+692   +43.006LGTDEDTLLELLSAR   -1.0000     NotChecked  -19.1622    1687.8628   ✗       
+693   +42.011LGTDEDTLLELLSAR   -1.0000     NotChecked  -19.1850    1686.8676   ✗       
+694   +43.006LGTDEDTLLELLGAR   -1.0000     NotChecked  -19.2212    1657.8523   ✗       
+695   +42.011LGTDEN+0.984TLLELLSAR-1.0000     NotChecked  -19.3820    1686.8676   ✗       
+696   +42.011LGTDEDTLLELLSGR   -1.0000     NotChecked  -19.3999    1672.8519   ✗       
+697   +43.006LGTDEDTLLELLGAR   -1.0000     NotChecked  -19.4287    1657.8523   ✗       
+698   +43.006TGTDEDTLLELLSAR   -1.0000     NotChecked  -19.4694    1675.8264   ✗       
+699   SAGTDEDTLLELLSAR         -1.0000     NotChecked  -19.4890    1689.8421   ✗       
+700   +42.011LGTDQ+0.984DTLLELLGAR-1.0000     NotChecked  -19.5280    1656.8570   ✗       
+701   +43.006LGTDEDTLLELLSAR   -1.0000     NotChecked  -19.6086    1687.8628   ✗       
+702   +43.006LGTDEDTLLELLSAR   -1.0000     NotChecked  -19.6927    1687.8628   ✗       
+703   +43.006LGTDQ+0.984DTLLELLSAR-1.0000     NotChecked  -19.6993    1687.8628   ✗       
+704   +43.006LGTDEDTLLELSSAR   -1.0000     NotChecked  -19.7051    1661.8108   ✗       
+705   +43.006LGTDEDTLLELLSR    -1.0000     NotChecked  -19.7485    1616.8257   ✗       
+706   ALGTDQ+0.984DTLLELLAAR   -1.0000     NotChecked  -19.7512    1699.8992   ✗       
+707   +43.006LGTN+0.984EDTLLELLGTR-1.0000     NotChecked  -19.7748    1687.8628   ✗       
+708   +43.006LGTNEDTLLELLSAR   -1.0000     NotChecked  -19.8525    1686.8788   ✗       
+709   SLGTDEDTLLELLSAG         -1.0000     NotChecked  -19.8631    1632.8094   ✗       
+710   ALGTDEDTLLELLGAR         -1.0000     NotChecked  -19.8796    1685.8836   ✗       
+711   LGTDQ+0.984DTLLELLSAR    -1.0000     NotChecked  -19.8922    1644.8570   ✗       
+712   +43.006LGTDQ+0.984N+0.984TLLELLSAR-1.0000     NotChecked  -19.8963    1687.8628   ✗       
+713   +43.006LGTDQ+0.984DTLLELLSGR-1.0000     NotChecked  -19.9142    1673.8472   ✗       
+714   +43.006LGTDEDTLLELLVAR   -1.0000     NotChecked  -19.9571    1699.8992   ✗       
+715   +42.011LGTDEDTLLQ+0.984LLGAR-1.0000     NotChecked  -19.9985    1656.8570   ✗       
+716   ALGTDEN+0.984TLLELLGAR   -1.0000     NotChecked  -20.0766    1685.8836   ✗       
+717   SVGTDEDTLLELLGAR         -1.0000     NotChecked  -20.0854    1687.8628   ✗       
+718   ALGTDEDTLLELLGGR         -1.0000     NotChecked  -20.0945    1671.8679   ✗       
+719   +43.006LGTDEDTLLQ+0.984LLSAR-1.0000     NotChecked  -20.1698    1687.8628   ✗       
+720   +43.006AGTDEDTLLELLSAR   -1.0000     NotChecked  -20.1870    1645.8159   ✗       
+721   +43.006LGTDEDTLLELLAAR   -1.0000     NotChecked  -20.1916    1671.8679   ✗       
+722   +42.011LGTDEDTLLELLATR   -1.0000     NotChecked  -20.2136    1700.8832   ✗       
+723   ALGTDEDTLLQ+0.984LLAAR   -1.0000     NotChecked  -20.2217    1699.8992   ✗       
+724   LGTDEDTLLQ+0.984LLSAR    -1.0000     NotChecked  -20.3627    1644.8570   ✗       
+725   +43.006LGTDEN+0.984TLLQ+0.984LLSAR-1.0000     NotChecked  -20.3668    1687.8628   ✗       
+726   LGTDEDTLLELLAAR          -1.0000     NotChecked  -20.3845    1628.8621   ✗       
+727   +43.006LGTDEDTLLQ+0.984LLSGR-1.0000     NotChecked  -20.3847    1673.8472   ✗       
+728   +43.006LGTDEN+0.984TLLELLAAR-1.0000     NotChecked  -20.3886    1671.8679   ✗       
+729   +43.006LGTDEDTLLELLAGR   -1.0000     NotChecked  -20.4065    1657.8523   ✗       
+730   +42.011LGTDEDTLLELLGSR   -1.0000     NotChecked  -20.4326    1672.8519   ✗       
+731   +42.011LGTDEDTLLELLSAR   -1.0000     NotChecked  -20.4351    1686.8676   ✗       
+732   +43.006LGTDQ+0.984DTLLQ+0.984LLGAR-1.0000     NotChecked  -20.5128    1657.8523   ✗       
+733   +43.006LGTDEDTLLELLSAG   -1.0000     NotChecked  -20.5611    1588.7832   ✗       
+734   +42.011LGTDEDTLLELLSAR   -1.0000     NotChecked  -20.6426    1686.8676   ✗       
+735   +43.006LGTDEDTLLELLSAR   -1.0000     NotChecked  -20.6960    1687.8628   ✗       
+736   SLGTDEDTLLELLSAS         -1.0000     NotChecked  -20.7288    1662.8200   ✗       
+737   +43.006VGTDEDTLLELLGAR   -1.0000     NotChecked  -20.7834    1643.8366   ✗       
+738   +42.011LGTN+0.984EDTLLELLGAR-1.0000     NotChecked  -20.7955    1656.8570   ✗       
+739   LGTDEDTLLELLSSR          -1.0000     NotChecked  -20.7969    1660.8519   ✗       
+740   +43.006LGTDEDTLLELLGTR   -1.0000     NotChecked  -20.8563    1687.8628   ✗       
+741   +43.006LGTDQ+0.984DTLLELLGSR-1.0000     NotChecked  -20.9470    1673.8472   ✗       
+742   +43.006LGTDQ+0.984DTLLELLSAR-1.0000     NotChecked  -20.9494    1687.8628   ✗       
+743   +43.006LGTN+0.984EDTLLELLSAR-1.0000     NotChecked  -20.9668    1687.8628   ✗       
+744   +43.006LGTDEDTLLQLLSAR   -1.0000     NotChecked  -20.9848    1686.8788   ✗       
+745   SLGTDEDTLLELLGAR         -1.0000     Failed      -20.9899    1701.8785   ✓       
+746   ALGTN+0.984EDTLLELLAAR   -1.0000     NotChecked  -21.0187    1699.8992   ✗       
+747   LGTDEDTLLELLGTR          -1.0000     NotChecked  -21.0493    1644.8570   ✗       
+748   +43.006LGTDEN+0.984TLLELLGTR-1.0000     NotChecked  -21.0533    1687.8628   ✗       
+749   ALGTDEDTLLELLGAR         -1.0000     NotChecked  -21.1298    1685.8836   ✗       
+750   SLGTDEDTLLELLGAR         -1.0000     Failed      -21.1562    1701.8785   ✓       
+751   +43.006LGTDQ+0.984DTLLELLSAR-1.0000     NotChecked  -21.1569    1687.8628   ✗       
+752   LGTN+0.984EDTLLELLSAR    -1.0000     NotChecked  -21.1597    1644.8570   ✗       
+753   +43.006LGTN+0.984EN+0.984TLLELLSAR-1.0000     NotChecked  -21.1638    1687.8628   ✗       
+754   +43.006LGTN+0.984EDTLLELLSGR-1.0000     NotChecked  -21.1817    1673.8472   ✗       
+755   SLGTDEDTLLSLLSAR         -1.0000     NotChecked  -21.2299    1689.8785   ✗       
+756   +43.006LGTN+0.984Q+0.984DTLLELLGAR-1.0000     NotChecked  -21.3098    1657.8523   ✗       
+757   ALGTDEDTLLELLGAR         -1.0000     NotChecked  -21.3373    1685.8836   ✗       
+758   SGGTDEDTLLELLSAR         -1.0000     NotChecked  -21.3483    1675.8264   ✗       
+759   +43.006LGTDEDTLLQ+0.984LLGSR-1.0000     NotChecked  -21.4175    1673.8472   ✗       
+760   +43.006LGTDEDTLLQ+0.984LLSAR-1.0000     NotChecked  -21.4199    1687.8628   ✗       
+761   +43.006LGTDEDTLLELLSAS   -1.0000     NotChecked  -21.4268    1618.7937   ✗       
+762   +43.006LGTDEDTLLELLAAR   -1.0000     NotChecked  -21.4418    1671.8679   ✗       
+763   STGTDEDTLLELLGAR         -1.0000     NotChecked  -21.4635    1689.8421   ✗       
+764   +43.006LGTDEDTLLELLSAK   -1.0000     NotChecked  -21.5350    1659.8567   ✗       
+765   SLGTDEDTLLELLGAR         -1.0000     Failed      -21.6027    1701.8785   ✓       
+766   ALGTDEDTLLELSSAR         -1.0000     NotChecked  -21.6137    1689.8421   ✗       
+767   +43.006LGTDEDTLLQ+0.984LLSAR-1.0000     NotChecked  -21.6274    1687.8628   ✗       
+768   SLGTDEDTLLELLSAT         -1.0000     NotChecked  -21.6440    1676.8356   ✗       
+769   +43.006LGTDEDTLLELLAAR   -1.0000     NotChecked  -21.6492    1671.8679   ✗       
+770   ALGTDEDTLLELLSR          -1.0000     NotChecked  -21.6571    1644.8570   ✗       
+771   +43.006LGTDEDTLLELLSAR   -1.0000     NotChecked  -21.6708    1687.8628   ✗       
+772   SLGTDEDTLLELLGAR         -1.0000     Failed      -21.6867    1701.8785   ✓       
+773   +43.006LGTDEDTLLELLGAR   -1.0000     NotChecked  -21.6879    1657.8523   ✗       
+774   +43.006LGTDQDTLLELLSAR   -1.0000     NotChecked  -21.6908    1686.8788   ✗       
+775   SLGTDQ+0.984DTLLELLGAR   -1.0000     Failed      -21.6933    1701.8785   ✓       
+776   SLGTDEDTLLELSGAR         -1.0000     NotChecked  -21.6992    1675.8264   ✗       
+777   +42.011LGTDQ+0.984DTLLQ+0.984LLSAR-1.0000     NotChecked  -21.7267    1686.8676   ✗       
+778   SLGTDEDTLLELLGR          -1.0000     NotChecked  -21.7426    1630.8414   ✗       
+779   +42.011LGTDQ+0.984DTLLELLAAR-1.0000     NotChecked  -21.7486    1670.8727   ✗       
+780   +43.006LGTN+0.984EDTLLQ+0.984LLGAR-1.0000     NotChecked  -21.7803    1657.8523   ✗       
+781   LGTDEDTLLELLTAR          -1.0000     NotChecked  -21.8113    1658.8727   ✗       
+782   +43.006LGTDEN+0.984TLLELLTAR-1.0000     Failed      -21.8154    1701.8785   ✓       
+783   +43.006LGTDEDLLLELLSAR   -1.0000     NotChecked  -21.8330    1699.8992   ✗       
+784   +43.006LGTDEDTLLELLTGR   -1.0000     NotChecked  -21.8333    1687.8628   ✗       
+785   SLGTNEDTLLELLGAR         -1.0000     NotChecked  -21.8466    1700.8945   ✗       
+786   +43.006LGTDEDTLLELLGAR   -1.0000     NotChecked  -21.8542    1657.8523   ✗       
+787   +42.011LGTDEDTLLELLGAR   -1.0000     NotChecked  -21.8770    1656.8570   ✗       
+788   +43.006LGTDDDTLLELLSAR   -1.0000     NotChecked  -21.8983    1673.8472   ✗       
+789   SLGTDQ+0.984DTLLELLGGR   -1.0000     NotChecked  -21.9082    1687.8628   ✗       
+790   SLGTDEDTLLELLSA          -1.0000     NotChecked  -21.9110    1575.7879   ✗       
+791   +43.006LGTDEDTLLSLLSAR   -1.0000     NotChecked  -21.9279    1645.8523   ✗       
+792   +43.006LGTDEDTLLELLSAR   -1.0000     NotChecked  -21.9350    1687.8628   ✗       
+793   +43.006LGTDEDTLTELLSAR   -1.0000     NotChecked  -21.9614    1675.8264   ✗       
+794   +42.011VGTDEDTLLELLSAR   -1.0000     NotChecked  -21.9973    1672.8519   ✗       
+795   +43.006GGTDEDTLLELLSAR   -1.0000     NotChecked  -22.0463    1631.8002   ✗       
+796   +42.011LGTDEN+0.984TLLELLGAR-1.0000     NotChecked  -22.0740    1656.8570   ✗       
+797   +43.006LGTDEDTLLELLGLR   -1.0000     NotChecked  -22.0802    1699.8992   ✗       
+798   +42.011LGTDEDTLLELLGGR   -1.0000     NotChecked  -22.0919    1642.8414   ✗       
+799   AAGTDEDTLLELLSAR         -1.0000     NotChecked  -22.0956    1673.8472   ✗       
+800   ALGTDEDTLLELLAAR         -1.0000     NotChecked  -22.1002    1699.8992   ✗       
+801   +43.006LGTDEDTLLELLGTR   -1.0000     NotChecked  -22.1065    1687.8628   ✗       
+802   +43.006TGTDEDTLLELLGAR   -1.0000     NotChecked  -22.1615    1645.8159   ✗       
+803   SAGTDEDTLLELLGAR         -1.0000     NotChecked  -22.1811    1659.8315   ✗       
+804   +43.006LGTN+0.984EDTLLELLGSR-1.0000     NotChecked  -22.2145    1673.8472   ✗       
+805   +43.006LGTN+0.984EDTLLELLSAR-1.0000     NotChecked  -22.2170    1687.8628   ✗       
+806   +43.006LGTDEDTLLELTSAR   -1.0000     NotChecked  -22.2175    1675.8264   ✗       
+807   +42.011LGTDEDTLLQ+0.984LLAAR-1.0000     NotChecked  -22.2191    1670.8727   ✗       
+808   +43.006LGTDEDTLLELLSAR   -1.0000     NotChecked  -22.2339    1687.8628   ✗       
+809   LGTDEDTLLELLSAR          -1.0000     NotChecked  -22.2412    1644.8570   ✗       
+810   +43.006LGTDEN+0.984TLLELLSAR-1.0000     NotChecked  -22.2453    1687.8628   ✗       
+811   +43.006LGTDEDTLLELLSGR   -1.0000     NotChecked  -22.2632    1673.8472   ✗       
+812   ALGTDEN+0.984TLLELLAAR   -1.0000     NotChecked  -22.2972    1699.8992   ✗       
+813   +43.006LGTDEDTLLELLGAR   -1.0000     NotChecked  -22.3007    1657.8523   ✗       
+814   +43.006LGTDEDTLLELLGTR   -1.0000     NotChecked  -22.3140    1687.8628   ✗       
+815   ALGTDEDTLLELLAGR         -1.0000     NotChecked  -22.3151    1685.8836   ✗       
+816   +43.006LGTDEDTLLELLSAT   -1.0000     NotChecked  -22.3420    1632.8094   ✗       
+817   SLGTDEDTLLELGSAR         -1.0000     NotChecked  -22.3426    1675.8264   ✗       
+818   SLGTDEGTLLELLSAR         -1.0000     NotChecked  -22.3458    1673.8836   ✗       
+819   +43.006LGTDEDTLLELLGVR   -1.0000     NotChecked  -22.3665    1685.8836   ✗       
+820   SLGTDEDTLLQ+0.984LLGGR   -1.0000     NotChecked  -22.3787    1687.8628   ✗       
+821   +43.006LGTDEDTLLELLGAR   -1.0000     NotChecked  -22.3847    1657.8523   ✗       
+822   +43.006LGTDQ+0.984DTLLELLGAR-1.0000     NotChecked  -22.3913    1657.8523   ✗       
+823   +43.006LGTDEDTLLELSGAR   -1.0000     NotChecked  -22.3972    1631.8002   ✗       
+824   +43.006KGTDEDTLLELLGAR   -1.0000     NotChecked  -22.4066    1672.8632   ✗       
+825   +42.011LGTDQ+0.984DTLLELLGTR-1.0000     NotChecked  -22.4133    1686.8676   ✗       
+826   +43.006LGTDEDTLLELLSAR   -1.0000     NotChecked  -22.4202    1687.8628   ✗       
+827   ALGTDQ+0.984DTLLQ+0.984LLGAR-1.0000     NotChecked  -22.4214    1685.8836   ✗       
+828   +43.006LGTDN+0.984DTLLELLSAR-1.0000     NotChecked  -22.4237    1673.8472   ✗       
+829   +43.006LGTN+0.984EDTLLELLSAR-1.0000     NotChecked  -22.4244    1687.8628   ✗       
+830   LGTDEN+0.984TLLELLSAR    -1.0000     NotChecked  -22.4383    1644.8570   ✗       
+831   +43.006LGTDEDTLLELLGR    -1.0000     NotChecked  -22.4406    1586.8151   ✗       
+832   +43.006LGTDENTLLELLSAR   -1.0000     NotChecked  -22.4535    1686.8788   ✗       
+833   LGTDEDTLLELLSGR          -1.0000     NotChecked  -22.4561    1630.8414   ✗       
+834   +43.006LGTDEN+0.984TLLELLSGR-1.0000     NotChecked  -22.4602    1673.8472   ✗       
+835   ALGTDEDTLLELLSAG         -1.0000     NotChecked  -22.4697    1616.8145   ✗       
+836   +43.006VGTDQ+0.984DTLLELLSAR-1.0000     NotChecked  -22.5116    1673.8472   ✗       
+837   +42.011LGTN+0.984Q+0.984DTLLELLSAR-1.0000     NotChecked  -22.5238    1686.8676   ✗       
+838   SLGTDEDTLLELLSAD         -1.0000     NotChecked  -22.5248    1690.8149   ✗       
+839   +43.006LGTDEDTLVELLSAR   -1.0000     NotChecked  -22.5357    1673.8472   ✗       
+840   +43.006LGTDEDTLSELLSAR   -1.0000     NotChecked  -22.5364    1661.8108   ✗       
+841   +43.006LGTDEDSLLELLSAR   -1.0000     NotChecked  -22.5430    1673.8472   ✗       
+842   +43.006LGTNEDTLLELLGAR   -1.0000     NotChecked  -22.5446    1656.8682   ✗       
+843   SLGTDEDTLLELLGAG         -1.0000     NotChecked  -22.5552    1602.7988   ✗       
+844   SLGTGEDTLLELLSAR         -1.0000     NotChecked  -22.5588    1673.8836   ✗       
+845   LGTDQ+0.984DTLLELLGAR    -1.0000     NotChecked  -22.5843    1614.8465   ✗       
+846   +43.006LGTDQ+0.984N+0.984TLLELLGAR-1.0000     NotChecked  -22.5883    1657.8523   ✗       
+847   +43.006LGTDEDTLLELSSTR   -1.0000     NotChecked  -22.5904    1691.8213   ✗       
+848   +43.006LGTDQ+0.984DTLLELLGGR-1.0000     NotChecked  -22.6062    1643.8366   ✗       
+849   +43.006LGTDEDTLLELLSA    -1.0000     NotChecked  -22.6090    1531.7617   ✗       
+850   +42.011LGTDEDTLLELLASR   -1.0000     NotChecked  -22.6532    1686.8676   ✗       
+851   AVGTDEDTLLELLGAR         -1.0000     NotChecked  -22.6920    1671.8679   ✗       
+852   SLGTEDTLLELLSAR          -1.0000     NotChecked  -22.7174    1616.8621   ✗       
+853   SLGTDEDTLLELLSAL         -1.0000     NotChecked  -22.7181    1688.8720   ✗       
+854   +43.006LGTDQ+0.984DTLLQ+0.984LLAAR-1.0000     NotChecked  -22.7334    1671.8679   ✗       
+855   SLGTDEDTLLELLSTG         -1.0000     NotChecked  -22.7484    1662.8200   ✗       
+856   +43.006LGTDEDTLLELLSAR   -1.0000     NotChecked  -22.7685    1687.8628   ✗       
+857   LGTDQ+0.984DTLLELLSTR    -1.0000     NotChecked  -22.7775    1674.8676   ✗       
+858   +43.006LGTDEDTLLQ+0.984LLGAR-1.0000     NotChecked  -22.8618    1657.8523   ✗       
+859   +43.006AGTDEDTLLELLGAR   -1.0000     NotChecked  -22.8791    1615.8053   ✗       
+860   +42.011LGTDEDTLLQ+0.984LLGTR-1.0000     NotChecked  -22.8838    1686.8676   ✗       
+861   SLGTDEDTALELLSAR         -1.0000     NotChecked  -22.8847    1689.8421   ✗       
+862   LGTDEDTLLELLN+0.984AR    -1.0000     NotChecked  -22.8898    1672.8519   ✗       
+863   +43.006LGTDEQ+0.984TLLELLSAR-1.0000     Failed      -22.8902    1701.8785   ✓       
+864   +42.011LGTDEDTLLELLSAR   -1.0000     NotChecked  -22.9018    1686.8676   ✗       
+865   SLGTDETLLELLSAR          -1.0000     NotChecked  -22.9317    1616.8621   ✗       
+866   SLGTDQ+0.984DTLLELLGAR   -1.0000     Failed      -22.9435    1701.8785   ✓       
+867   SLGTDEDTLLQLLGAR         -1.0000     NotChecked  -22.9789    1700.8945   ✗       
+868   +43.006VGTDEDTLLQ+0.984LLSAR-1.0000     NotChecked  -22.9821    1673.8472   ✗       
+869   +43.006LGTDEDTLLDLLSAR   -1.0000     NotChecked  -22.9895    1673.8472   ✗       
+870   +42.011LGTN+0.984EDTLLQ+0.984LLSAR-1.0000     NotChecked  -22.9943    1686.8676   ✗       
+871   +43.006LGTSEDTLLELLSAR   -1.0000     NotChecked  -22.9970    1659.8679   ✗       
+872   +43.006VGTDEDTLLELLAAR   -1.0000     NotChecked  -23.0040    1657.8523   ✗       
+873   +42.011LGTN+0.984EDTLLELLAAR-1.0000     NotChecked  -23.0161    1670.8727   ✗       
+874   +43.006LGTDEDTLLELGSAR   -1.0000     NotChecked  -23.0406    1631.8002   ✗       
+875   +43.006LGTDEGTLLELLSAR   -1.0000     NotChecked  -23.0438    1629.8573   ✗       
+876   LGTDEDTLLQ+0.984LLGAR    -1.0000     NotChecked  -23.0548    1614.8465   ✗       
+877   +43.006LGTDEN+0.984TLLQ+0.984LLGAR-1.0000     NotChecked  -23.0589    1657.8523   ✗       
+878   +42.011LGTDEDTLLELLSAR   -1.0000     NotChecked  -23.0682    1686.8676   ✗       
+879   +43.006AGTDEDTLLELLSTR   -1.0000     NotChecked  -23.0723    1675.8264   ✗       
+880   +43.006LGTDEDTLLQ+0.984LLGGR-1.0000     NotChecked  -23.0767    1643.8366   ✗       
+881   +43.006LGTTEDTLLELLSAR   -1.0000     NotChecked  -23.0882    1673.8836   ✗       
+882   +42.011LGTDEDTLLELLGAR   -1.0000     NotChecked  -23.1272    1656.8570   ✗       
+883   SLGTDQ+0.984DTLLELLGAR   -1.0000     Failed      -23.1510    1701.8785   ✓       
+884   +43.006LGTDQ+0.984DTLLELLASR-1.0000     NotChecked  -23.1675    1687.8628   ✗       
+885   +42.011LGTDQ+0.984DTLLELLTAR-1.0000     NotChecked  -23.1754    1700.8832   ✗       
+886   SLGTN+0.984EDTLLELLGGR   -1.0000     NotChecked  -23.1758    1687.8628   ✗       
+887   ALGTN+0.984Q+0.984DTLLELLGAR-1.0000     NotChecked  -23.2184    1685.8836   ✗       
+888   +43.006LGTDEDTLLELLSAD   -1.0000     NotChecked  -23.2228    1646.7887   ✗       
+889   LGTDEDTLLQ+0.984LLSTR    -1.0000     NotChecked  -23.2480    1674.8676   ✗       
+890   +43.006LGTDEDTLLELLGAG   -1.0000     NotChecked  -23.2532    1558.7726   ✗       
+891   +43.006LGTGEDTLLELLSAR   -1.0000     NotChecked  -23.2568    1629.8573   ✗       
+892   LGTDEDTLLELLATR          -1.0000     NotChecked  -23.2698    1658.8727   ✗       
+893   +43.006LGTDEDTLLELLGSR   -1.0000     NotChecked  -23.2960    1673.8472   ✗       
+894   +43.006LGTDEDTLLELLSAR   -1.0000     NotChecked  -23.2984    1687.8628   ✗       
+895   +42.011LGTDEDTLLELLGAR   -1.0000     NotChecked  -23.3347    1656.8570   ✗       
+896   ALGTDEDTLLELLSAS         -1.0000     NotChecked  -23.3354    1646.8250   ✗       
+897   ALGTDEDTLLELLAAR         -1.0000     NotChecked  -23.3504    1699.8992   ✗       
+898   +43.006LGTDEDTLLLLLSAR   -1.0000     NotChecked  -23.3658    1671.9043   ✗       
+899   SLGTDEDTLAELLSAR         -1.0000     NotChecked  -23.3706    1689.8421   ✗       
+900   +42.011TGTDEDTLLELLSAR   -1.0000     NotChecked  -23.3754    1674.8312   ✗       
+901   LGTDEDTLLELLNAR          -1.0000     NotChecked  -23.3793    1671.8679   ✗       
+902   LLGTDEDTLLELLSR          -1.0000     NotChecked  -23.3912    1686.9040   ✗       
+903   +43.006LGTDQ+0.984DTLLQ+0.984LLGTR-1.0000     NotChecked  -23.3981    1687.8628   ✗       
+904   +43.006LGTDEDTLLELLNGR   -1.0000     NotChecked  -23.4013    1700.8581   ✗       
+905   +43.006LGTEDTLLELLSAR    -1.0000     NotChecked  -23.4154    1572.8359   ✗       
+906   +43.006LGTDEDTLLELLSAL   -1.0000     NotChecked  -23.4161    1644.8458   ✗       
+907   +43.006LGTDQ+0.984DTLLELLSAR-1.0000     NotChecked  -23.4161    1687.8628   ✗       
+908   +43.006VGTDEDTLLELLSSR   -1.0000     NotChecked  -23.4163    1689.8421   ✗       
+909   SLGTDEDTLLELLGAS         -1.0000     NotChecked  -23.4209    1632.8094   ✗       
+910   ALGTDEDTLLELLSAK         -1.0000     NotChecked  -23.4436    1687.8880   ✗       
+911   +43.006LGTDEDTLLELLSTG   -1.0000     NotChecked  -23.4464    1618.7937   ✗       
+912   LGTDEDTLLELLDAR          -1.0000     NotChecked  -23.4702    1672.8519   ✗       
+913   SLGTDQ+0.984DTLLELLSR    -1.0000     NotChecked  -23.4709    1660.8519   ✗       
+914   SLGTDADTLLELLSAR         -1.0000     NotChecked  -23.4780    1673.8836   ✗       
+915   +43.006SGTDEDTLLELLSAR   -1.0000     NotChecked  -23.4869    1661.8108   ✗       
+916   LGTDEDTLLELLGSR          -1.0000     NotChecked  -23.4889    1630.8414   ✗       
+917   LGTDEDTLLELLSAR          -1.0000     NotChecked  -23.4914    1644.8570   ✗       
+918   +43.006LGTDEN+0.984TLLELLGSR-1.0000     NotChecked  -23.4930    1673.8472   ✗       
+919   +43.006LGTDEN+0.984TLLELLSAR-1.0000     NotChecked  -23.4955    1687.8628   ✗       
+920   +43.006LGTDEDTLLELLSAR   -1.0000     NotChecked  -23.5059    1687.8628   ✗       
+921   +43.006LGTN+0.984Q+0.984DTLLQ+0.984LLSAR-1.0000     NotChecked  -23.5086    1687.8628   ✗       
+922   +43.006LGTDEDTLLTLLSAR   -1.0000     NotChecked  -23.5091    1659.8679   ✗       
+923   +43.006LGTDEDTLLELLSGR   -1.0000     NotChecked  -23.5134    1673.8472   ✗       
+924   +43.006LGTDEDTLLELLSAR   -1.0000     NotChecked  -23.5142    1687.8628   ✗       
+925   +42.011LGTDEDTLLELLSAR   -1.0000     NotChecked  -23.5146    1686.8676   ✗       
+926   SLGTDEDTLLELLGAK         -1.0000     NotChecked  -23.5291    1673.8723   ✗       
+927   +43.006LGTN+0.984Q+0.984DTLLELLAAR-1.0000     NotChecked  -23.5304    1671.8679   ✗       
+928   SLGTDEDTLLELLSAV         -1.0000     NotChecked  -23.5381    1674.8563   ✗       
+929   +43.006LGTLEDTLLELLSAR   -1.0000     NotChecked  -23.5396    1685.9199   ✗       
+930   ALGTDEDTLLELLAAR         -1.0000     NotChecked  -23.5578    1699.8992   ✗       
+931   +43.006LGTDQ+0.984DTLLELLSAR-1.0000     NotChecked  -23.5825    1687.8628   ✗       
+932   +43.006LGTDEDTALELLSAR   -1.0000     NotChecked  -23.5827    1645.8159   ✗       
+933   ALGTDEDTLLELLGAR         -1.0000     NotChecked  -23.5964    1685.8836   ✗       
+934   +42.011LGTDEDTLLELLSAR   -1.0000     NotChecked  -23.5987    1686.8676   ✗       
+935   +42.011LGTDQ+0.984DTLLELLSAR-1.0000     NotChecked  -23.6053    1686.8676   ✗       
+936   +43.006LGTDEDTLLELLSAR   -1.0000     NotChecked  -23.6067    1687.8628   ✗       
+937   +42.011LGTDEDTLLELSSAR   -1.0000     NotChecked  -23.6111    1660.8155   ✗       
+938   SLGTDEDTLLELLSTS         -1.0000     NotChecked  -23.6141    1692.8305   ✗       
+939   +42.011KGTDEDTLLELLSAR   -1.0000     Failed      -23.6205    1701.8785   ✓       
+940   +43.006LGTDETLLELLSAR    -1.0000     NotChecked  -23.6297    1572.8359   ✗       
+941   +43.006LGTDEDTLLELLSAR   -1.0000     NotChecked  -23.6330    1687.8628   ✗       
+942   +43.006LGTDEDTLLQ+0.984LLASR-1.0000     NotChecked  -23.6380    1687.8628   ✗       
+943   +43.006LGTDKDTLLELLSAR   -1.0000     NotChecked  -23.6413    1686.9152   ✗       
+944   +43.006LGTDQ+0.984DTLLELLGAR-1.0000     NotChecked  -23.6415    1657.8523   ✗       
+945   +42.011LGTDEDTLLQ+0.984LLTAR-1.0000     NotChecked  -23.6459    1700.8832   ✗       
+946   +42.011LGTDEDTLLELLSR    -1.0000     NotChecked  -23.6545    1615.8305   ✗       
+947   +43.006LGTN+0.984EDTLLELLGAR-1.0000     NotChecked  -23.6588    1657.8523   ✗       
+948   SLGTDEDTLLELLGAR         -1.0000     Failed      -23.6648    1701.8785   ✓       
+949   +43.006VGTDEDTLLELLGTR   -1.0000     NotChecked  -23.6687    1673.8472   ✗       
+950   +43.006LGTDEDTLDELLSAR   -1.0000     NotChecked  -23.6755    1689.8057   ✗       
+951   +43.006LGTDEDTLLQLLGAR   -1.0000     NotChecked  -23.6769    1656.8682   ✗       
+952   +42.011LGTN+0.984EDTLLELLGTR-1.0000     NotChecked  -23.6808    1686.8676   ✗       
+953   SLGTDQDTLLELLGAR         -1.0000     NotChecked  -23.6849    1700.8945   ✗       
+954   ALGTN+0.984EDTLLQ+0.984LLGAR-1.0000     NotChecked  -23.6889    1685.8836   ✗       
+955   LGTDEDTLLELLSAR          -1.0000     NotChecked  -23.6989    1644.8570   ✗       
+956   +43.006LGTDEN+0.984TLLELLSAR-1.0000     NotChecked  -23.7030    1687.8628   ✗       
+957   +43.006LGTDEDTLLELLSGR   -1.0000     NotChecked  -23.7208    1673.8472   ✗       
+958   SLGTDEDTLLALLSAR         -1.0000     NotChecked  -23.7250    1673.8836   ✗       
+959   +43.006LGTDEDTLPELLSAR   -1.0000     NotChecked  -23.7319    1671.8315   ✗       
+960   +42.011LGTNEDTLLELLSAR   -1.0000     NotChecked  -23.7585    1685.8836   ✗       
+961   ALGTDEDTLLELLGAR         -1.0000     NotChecked  -23.7628    1685.8836   ✗       
+962   +43.006VGTN+0.984EDTLLELLSAR-1.0000     NotChecked  -23.7792    1673.8472   ✗       
+963   +42.011LGTDQ+0.984N+0.984TLLELLSAR-1.0000     NotChecked  -23.8023    1686.8676   ✗       
+964   +43.006LGTDEDTTLELLSAR   -1.0000     NotChecked  -23.8045    1675.8264   ✗       
+965   +42.011LGTDQ+0.984DTLLELLSGR-1.0000     NotChecked  -23.8202    1672.8519   ✗       
+966   ALGTDEDTLLSLLSAR         -1.0000     NotChecked  -23.8364    1673.8836   ✗       
+967   +43.006LGTDQ+0.984DTLLELLGAR-1.0000     NotChecked  -23.8490    1657.8523   ✗       
+968   LGTN+0.984EDTLLELLGAR    -1.0000     NotChecked  -23.8518    1614.8465   ✗       
+969   +43.006LGTN+0.984EN+0.984TLLELLGAR-1.0000     NotChecked  -23.8559    1657.8523   ✗       
+970   +43.006LGTDETTLLELLSAR   -1.0000     NotChecked  -23.8581    1673.8836   ✗       
+971   +42.011LGTDEDTLLELLVAR   -1.0000     NotChecked  -23.8631    1698.9040   ✗       
+972   +43.006LGTDEDTLLELN+0.984SAR-1.0000     NotChecked  -23.8685    1689.8057   ✗       
+973   +43.006LGTDEDTLLELVSAR   -1.0000     NotChecked  -23.8699    1673.8472   ✗       
+974   +43.006LGTN+0.984EDTLLELLGGR-1.0000     NotChecked  -23.8737    1643.8366   ✗       
+975   +43.006LGTDEDTLLEVLSAR   -1.0000     NotChecked  -23.8748    1673.8472   ✗       
+976   +43.006LGTDEDTLLQ+0.984LLSAR-1.0000     NotChecked  -23.8866    1687.8628   ✗       
+977   +43.006TGTDQ+0.984DTLLELLSAR-1.0000     NotChecked  -23.8897    1675.8264   ✗       
+978   SLGTDDDTLLELLGAR         -1.0000     NotChecked  -23.8924    1687.8628   ✗       
+979   SLGTDEDTLLELLAR          -1.0000     NotChecked  -23.9073    1644.8570   ✗       
+980   +43.006LGTDEDTLLELLAAR   -1.0000     NotChecked  -23.9084    1671.8679   ✗       
+981   +43.006LGTDEDTLLMLLSAR   -1.0000     NotChecked  -23.9089    1689.8607   ✗       
+982   SAGTDQ+0.984DTLLELLSAR   -1.0000     NotChecked  -23.9093    1689.8421   ✗       
+983   SLGTDEDTLLELSAAR         -1.0000     NotChecked  -23.9198    1689.8421   ✗       
+984   SLGTDEDTLLSLLGAR         -1.0000     NotChecked  -23.9219    1659.8679   ✗       
+985   TLGTDEDTLLELLSR          -1.0000     NotChecked  -23.9289    1674.8676   ✗       
+986   SLGTDEDTLLELLGAR         -1.0000     Failed      -23.9291    1701.8785   ✓       
+987   +43.006LGTDESTLLELLSAR   -1.0000     NotChecked  -23.9297    1659.8679   ✗       
+988   +43.006LGTDEDALLELLSAR   -1.0000     NotChecked  -23.9359    1657.8523   ✗       
+989   SLGTDEDTLLQ+0.984LLSR    -1.0000     NotChecked  -23.9414    1660.8519   ✗       
+990   AGGTDEDTLLELLSAR         -1.0000     NotChecked  -23.9549    1659.8315   ✗       
+991   SLGTDEDTLTELLGAR         -1.0000     NotChecked  -23.9555    1689.8421   ✗       
+992   SLGTDEDTLLELLAR          -1.0000     NotChecked  -23.9632    1644.8570   ✗       
+993   +43.006LGTN+0.984EDTLLQ+0.984LLAAR-1.0000     NotChecked  -24.0009    1671.8679   ✗       
+994   SLGTDEDTLLELLSAN         -1.0000     NotChecked  -24.0283    1689.8309   ✗       
+995   +43.006LGTDQ+0.984DTLLELLSAR-1.0000     NotChecked  -24.0289    1687.8628   ✗       
+996   SGGTDEDTLLELLGAR         -1.0000     NotChecked  -24.0404    1645.8159   ✗       
+997   LGTN+0.984EDTLLELLSTR    -1.0000     NotChecked  -24.0450    1674.8676   ✗       
+998   +43.006LGTDEDTLLELLSAR   -1.0000     NotChecked  -24.0500    1687.8628   ✗       
+999   +43.006LGTDEDTLLQ+0.984LLSAR-1.0000     NotChecked  -24.0530    1687.8628   ✗       
+1000  SLGTDEDGLLELLSAR         -1.0000     NotChecked  -24.0563    1687.8628   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: ALGTDDDTLLELLSAR
+Similarity: 0.6660
+De Novo Score: -23.8069
+Source: Prosit
+Correct: ✗
+

@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 125
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 872.4392
+Precursor charge: 2+
+Ground truth: AFTAEQYQIIEQFR
+Ground truth (normalized): AFTAEQYQIIEQFR
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 172
+Used for reranking: 172
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 172 (17.2%)
+Database matches: 57 (5.7%)
+Prosit predictions: 112 (11.2%)
+Failed: 3 (0.3%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.8435
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     AFTAEQYQLLEQFR           0.8435      Database    -0.2551     1742.8628   ✓       ✓
+2     AFTAEQYQLLEQFR           0.8435      Database    -2.1946     1742.8628   ✓       ✓
+3     AFTAEQYQLLEQFR           0.8435      Database    -3.9647     1742.8628   ✓       ✓
+4     AFTAEQYQLLEQFR           0.8435      Database    -4.8476     1742.8628   ✓       ✓
+5     AFTAEQYQLLEQFR           0.8435      Database    -5.9042     1742.8628   ✓       ✓
+6     AFTAEQYQLLEQFR           0.8435      Database    -6.7871     1742.8628   ✓       ✓
+7     AFTAEQYQLLEQFR           0.8435      Database    -7.7886     1742.8628   ✓       ✓
+8     AFTAEQYQLLEQFR           0.8435      Database    -8.0764     1742.8628   ✓       ✓
+9     AFTAEQYQLLEQFR           0.8435      Database    -8.8719     1742.8628   ✓       ✓
+10    AFTAEQYQLLEQFR           0.8435      Database    -9.6031     1742.8628   ✓       ✓
+11    AFTAEQYQLLEQFR           0.8435      Database    -9.7281     1742.8628   ✓       ✓
+12    AFTAEQYQLLEQFR           0.8435      Database    -10.0159    1742.8628   ✓       ✓
+13    AFTAEQYQLLEQFR           0.8435      Database    -10.3989    1742.8628   ✓       ✓
+14    AFTAEQYQLLEQFR           0.8435      Database    -10.8114    1742.8628   ✓       ✓
+15    AFTAEQYQLLEQFR           0.8435      Database    -11.1489    1742.8628   ✓       ✓
+16    AFTAEQYQLLEQFR           0.8435      Database    -11.4982    1742.8628   ✓       ✓
+17    AFTAEQYQLLEQFR           0.8435      Database    -11.7859    1742.8628   ✓       ✓
+18    AFTAEQYQLLEQFR           0.8435      Database    -12.0238    1742.8628   ✓       ✓
+19    AFTAEQYQLLEQFR           0.8435      Database    -12.3384    1742.8628   ✓       ✓
+20    AFTAEQYQLLEQFR           0.8435      Database    -12.3811    1742.8628   ✓       ✓
+21    AFTAEQYQLLEQFR           0.8435      Database    -12.5815    1742.8628   ✓       ✓
+22    AFTAEQYQLLEQFR           0.8435      Database    -12.6688    1742.8628   ✓       ✓
+23    AFTAEQYQLLEQFR           0.8435      Database    -12.7964    1742.8628   ✓       ✓
+24    AFTAEQYQLLEQFR           0.8435      Database    -12.8018    1742.8628   ✓       ✓
+25    AFTAEQYQLLEQFR           0.8435      Database    -13.0884    1742.8628   ✓       ✓
+26    AFTAEQYQLLEQFR           0.8435      Database    -13.3126    1742.8628   ✓       ✓
+27    AFTAEQYQLLEQFR           0.8435      Database    -13.4377    1742.8628   ✓       ✓
+28    AFTAEQYQLLEQFR           0.8435      Database    -13.4644    1742.8628   ✓       ✓
+29    AFTAEQYQLLEQFR           0.8435      Database    -13.7254    1742.8628   ✓       ✓
+30    AFTAEQYQLLEQFR           0.8435      Database    -13.9633    1742.8628   ✓       ✓
+31    AFTAEQYQLLEQFR           0.8435      Database    -14.1084    1742.8628   ✓       ✓
+32    AFTAEQYQLLEQFR           0.8435      Database    -14.1955    1742.8628   ✓       ✓
+33    AFTAEQYQLLEQFR           0.8435      Database    -14.2447    1742.8628   ✓       ✓
+34    AFTAEQYQLLEQFR           0.8435      Database    -14.3206    1742.8628   ✓       ✓
+35    AFTAEQYQLLEQFR           0.8435      Database    -14.4186    1742.8628   ✓       ✓
+36    AFTAEQYQLLEQFR           0.8435      Database    -14.5210    1742.8628   ✓       ✓
+37    AFTAEQYQLLEQFR           0.8435      Database    -14.6083    1742.8628   ✓       ✓
+38    AFTAEQYQLLEQFR           0.8435      Database    -14.7413    1742.8628   ✓       ✓
+39    AFTAEQYQLLEQFR           0.8435      Database    -14.8584    1742.8628   ✓       ✓
+40    AFTAEQYQLLEQFR           0.8435      Database    -14.9913    1742.8628   ✓       ✓
+41    AFTAEQYQLLEQFR           0.8435      Database    -15.0158    1742.8628   ✓       ✓
+42    AFTAEQYQLLEQFR           0.8435      Database    -15.2937    1742.8628   ✓       ✓
+43    AFTAEQYQLLEQFR           0.8435      Database    -15.4029    1742.8628   ✓       ✓
+44    AFTAEQYQLLEQFR           0.8435      Database    -15.4039    1742.8628   ✓       ✓
+45    AFTAEQYQLLEQFR           0.8435      Database    -15.4591    1742.8628   ✓       ✓
+46    AFTAEQYQLLEQFR           0.8435      Database    -15.6099    1742.8628   ✓       ✓
+47    AFTAEQYQLLEQFR           0.8435      Database    -15.7333    1742.8628   ✓       ✓
+48    AFTAEQYQLLEQFR           0.8435      Database    -15.7413    1742.8628   ✓       ✓
+49    AFTAEQYQLLEQFR           0.8435      Database    -16.0479    1742.8628   ✓       ✓
+50    AFTAEQYQLLEQFR           0.8435      Database    -16.0561    1742.8628   ✓       ✓
+51    AFTAEQYQLLEQFR           0.8435      Database    -16.1842    1742.8628   ✓       ✓
+52    AFTAEQYQLLEQFR           0.8435      Database    -16.3581    1742.8628   ✓       ✓
+53    AFTAEQYQLLEQFR           0.8435      Database    -16.4055    1742.8628   ✓       ✓
+54    AFTAEQYQLLEQFR           0.8435      Database    -16.4725    1742.8628   ✓       ✓
+55    AFTAEQYQLLEQFR           0.8435      Database    -16.5059    1742.8628   ✓       ✓
+56    AFTAEQYQLLEQFR           0.8435      Database    -16.5114    1742.8628   ✓       ✓
+57    AFTAEQYQLLEQFR           0.8435      Database    -17.2332    1742.8628   ✓       ✓
+58    AFTAQ+0.984GAYQLLEQFR    0.4804      Prosit      -15.3818    1742.8628   ✓       
+59    AFTAQ+0.984GAYQLLEQFR    0.4804      Prosit      -16.1723    1742.8628   ✓       
+60    FFTAEQSQLLEQFR           0.4778      Prosit      -19.7392    1742.8628   ✓       
+61    AFTAEGAYQLLQ+0.984QFR    0.4765      Prosit      -14.9007    1742.8628   ✓       
+62    AFTAEGAYQLLQ+0.984QFR    0.4765      Prosit      -15.6912    1742.8628   ✓       
+63    FATAQ+0.984QYQLLEQFR     0.4648      Prosit      -14.3463    1742.8628   ✓       
+64    FATAQ+0.984QYQLLEQFR     0.4648      Prosit      -16.2858    1742.8628   ✓       
+65    FATAQ+0.984QYQLLEQFR     0.4648      Prosit      -18.0559    1742.8628   ✓       
+66    FATAQ+0.984QYQLLEQFR     0.4648      Prosit      -18.9388    1742.8628   ✓       
+67    AFTAEGAYQLLEQFR          0.4643      Prosit      -10.8549    1742.8628   ✓       
+68    AFTAEGAYQLLEQFR          0.4643      Prosit      -11.6455    1742.8628   ✓       
+69    AFTAEGAYQLLEQFR          0.4643      Prosit      -12.7944    1742.8628   ✓       
+70    AFTAEGAYQLLEQFR          0.4643      Prosit      -13.5850    1742.8628   ✓       
+71    AFTAEGAYQLLEQFR          0.4643      Prosit      -14.5645    1742.8628   ✓       
+72    AFTAEGAYQLLEQFR          0.4643      Prosit      -15.3550    1742.8628   ✓       
+73    AFTAEGAYQLLEQFR          0.4643      Prosit      -15.4474    1742.8628   ✓       
+74    AFTAEGAYQLLEQFR          0.4643      Prosit      -16.2379    1742.8628   ✓       
+75    AFTAEGAYQLLEQFR          0.4643      Prosit      -16.5040    1742.8628   ✓       
+76    FATAEQYQLLQ+0.984QFR     0.4570      Prosit      -13.8652    1742.8628   ✓       
+77    FATAEQYQLLQ+0.984QFR     0.4570      Prosit      -15.8047    1742.8628   ✓       
+78    FATAEQYQLLQ+0.984QFR     0.4570      Prosit      -17.5748    1742.8628   ✓       
+79    FATAEQYQLLQ+0.984QFR     0.4570      Prosit      -18.4577    1742.8628   ✓       
+80    FATAEQYQLLQ+0.984QFR     0.4570      Prosit      -19.5143    1742.8628   ✓       
+81    AFTAQ+0.984QYQLLEQFR     0.4566      Prosit      -4.7820     1742.8628   ✓       
+82    AFTAQ+0.984QYQLLEQFR     0.4566      Prosit      -6.7215     1742.8628   ✓       
+83    AFTAQ+0.984QYQLLEQFR     0.4566      Prosit      -8.4915     1742.8628   ✓       
+84    AFTAQ+0.984QYQLLEQFR     0.4566      Prosit      -9.3744     1742.8628   ✓       
+85    AFTAQ+0.984QYQLLEQFR     0.4566      Prosit      -10.4310    1742.8628   ✓       
+86    AFTAQ+0.984QYQLLEQFR     0.4566      Prosit      -11.3139    1742.8628   ✓       
+87    AFTAQQ+0.984YQLLEQFR     0.4566      Prosit      -12.0796    1742.8628   ✓       
+88    AFTAQ+0.984QYQLLEQFR     0.4566      Prosit      -12.3155    1742.8628   ✓       
+89    AFTAQ+0.984QYQLLEQFR     0.4566      Prosit      -12.6032    1742.8628   ✓       
+90    AFTAQ+0.984QYQLLEQFR     0.4566      Prosit      -13.3988    1742.8628   ✓       
+91    AFTAQQ+0.984YQLLEQFR     0.4566      Prosit      -14.0191    1742.8628   ✓       
+92    AFTAQ+0.984QYQLLEQFR     0.4566      Prosit      -14.1299    1742.8628   ✓       
+93    AFTAQ+0.984QYQLLEQFR     0.4566      Prosit      -14.2550    1742.8628   ✓       
+94    AFTAQ+0.984QYQLLEQFR     0.4566      Prosit      -14.5427    1742.8628   ✓       
+95    AFTAQ+0.984QYQLLEQFR     0.4566      Prosit      -15.3383    1742.8628   ✓       
+96    AFTAQ+0.984QYQLLEQFR     0.4566      Prosit      -15.6757    1742.8628   ✓       
+97    AFTAQQ+0.984YQLLEQFR     0.4566      Prosit      -15.7891    1742.8628   ✓       
+98    AFTAQ+0.984QYQLLEQFR     0.4566      Prosit      -16.0250    1742.8628   ✓       
+99    AFTAQ+0.984QYQLLEQFR     0.4566      Prosit      -16.3128    1742.8628   ✓       
+100   AFTAQ+0.984QYQLLEQFR     0.4566      Prosit      -16.5506    1742.8628   ✓       
+101   FATAQ+0.984QYQLLQ+0.984QFR0.4524      Prosit      -18.3921    1742.8628   ✓       
+102   AFTAQ+0.984KYQLLEQFR     0.4517      Prosit      -16.3373    1742.8992   ✓       
+103   AFTAEQYQLLQ+0.984QFR     0.4511      Prosit      -4.3009     1742.8628   ✓       
+104   AFTAEQYQLLQ+0.984QFR     0.4511      Prosit      -6.2404     1742.8628   ✓       
+105   AFTAEQYQLLQ+0.984QFR     0.4511      Prosit      -8.0104     1742.8628   ✓       
+106   AFTAEQYQLLQ+0.984QFR     0.4511      Prosit      -8.8933     1742.8628   ✓       
+107   AFTAEQYQLLQ+0.984QFR     0.4511      Prosit      -9.9499     1742.8628   ✓       
+108   AFTAEQYQLLQ+0.984QFR     0.4511      Prosit      -10.8328    1742.8628   ✓       
+109   AFTAEQYQLLQ+0.984QFR     0.4511      Prosit      -11.8344    1742.8628   ✓       
+110   AFTAEQYQLLQ+0.984QFR     0.4511      Prosit      -12.1221    1742.8628   ✓       
+111   AFTAEQYQLLQ+0.984QFR     0.4511      Prosit      -12.9177    1742.8628   ✓       
+112   AFTAEQ+0.984YQLLQQFR     0.4511      Prosit      -13.4766    1742.8628   ✓       
+113   AFTAEQYQLLQ+0.984QFR     0.4511      Prosit      -13.6488    1742.8628   ✓       
+114   AFTAEQYQLLQ+0.984QFR     0.4511      Prosit      -13.7739    1742.8628   ✓       
+115   AFTAEQYQLLQ+0.984QFR     0.4511      Prosit      -14.0616    1742.8628   ✓       
+116   AFTAEQYQLLQ+0.984QFR     0.4511      Prosit      -14.4447    1742.8628   ✓       
+117   AFTAEQYQLLQ+0.984QFR     0.4511      Prosit      -14.8572    1742.8628   ✓       
+118   AFTAEQYQLLQ+0.984QFR     0.4511      Prosit      -15.1946    1742.8628   ✓       
+119   AFTAEQ+0.984YQLLQQFR     0.4511      Prosit      -15.4160    1742.8628   ✓       
+120   AFTAEQYQLLQ+0.984QFR     0.4511      Prosit      -15.5440    1742.8628   ✓       
+121   AFTAEQYQLLQ+0.984QFR     0.4511      Prosit      -15.8317    1742.8628   ✓       
+122   AFTAEQYQLLQ+0.984QFR     0.4511      Prosit      -16.0695    1742.8628   ✓       
+123   AFTAEQYQLLQ+0.984QFR     0.4511      Prosit      -16.3842    1742.8628   ✓       
+124   AFTAEQYQLLQ+0.984QFR     0.4511      Prosit      -16.4269    1742.8628   ✓       
+125   AFTAEQYQLLQ+0.984QFR     0.4511      Prosit      -19.3394    1742.8628   ✓       
+126   AFTAQ+0.984QYQLLQ+0.984QFR0.4452      Prosit      -8.8277     1742.8628   ✓       
+127   AFTAQ+0.984QYQLLQ+0.984QFR0.4452      Prosit      -10.7672    1742.8628   ✓       
+128   AFTAQ+0.984QYQLLQ+0.984QFR0.4452      Prosit      -12.5373    1742.8628   ✓       
+129   AFTAQ+0.984QYQLLQ+0.984QFR0.4452      Prosit      -13.4202    1742.8628   ✓       
+130   AFTAQ+0.984QYQLLQ+0.984QFR0.4452      Prosit      -14.4768    1742.8628   ✓       
+131   AFTAQ+0.984QYQLLQ+0.984QFR0.4452      Prosit      -15.3597    1742.8628   ✓       
+132   AFTAQQ+0.984YQLLQ+0.984QFR0.4452      Prosit      -16.1253    1742.8628   ✓       
+133   AFTAQ+0.984QYQLLQ+0.984QFR0.4452      Prosit      -16.3612    1742.8628   ✓       
+134   AFTAKQ+0.984YQLLEQFR     0.4449      Prosit      -15.6285    1742.8992   ✓       
+135   AFTAEKYQLLQ+0.984QFR     0.4412      Prosit      -15.8562    1742.8992   ✓       
+136   AFTAQEYQLLEQFR           0.4391      Prosit      -16.2023    1742.8628   ✓       
+137   MSTAEQYQLLEQFR           0.4351      Prosit      -19.0371    1742.8298   ✓       
+138   FATAEQYQLLEQFR           0.4315      Prosit      -9.8195     1742.8628   ✓       
+139   FATAEQYQLLEQFR           0.4315      Prosit      -11.7590    1742.8628   ✓       
+140   FATAEQYQLLEQFR           0.4315      Prosit      -13.5290    1742.8628   ✓       
+141   FATAEQYQLLEQFR           0.4315      Prosit      -14.4119    1742.8628   ✓       
+142   FATAEQYQLLEQFR           0.4315      Prosit      -15.4685    1742.8628   ✓       
+143   FATAEQYQLLEQFR           0.4315      Prosit      -16.3514    1742.8628   ✓       
+144   FATAEQYQLLEQFR           0.4315      Prosit      -17.3530    1742.8628   ✓       
+145   FATAEQYQLLEQFR           0.4315      Prosit      -17.6408    1742.8628   ✓       
+146   FATAEQYQLLEQFR           0.4315      Prosit      -18.4363    1742.8628   ✓       
+147   FATAEQYQLLEQFR           0.4315      Prosit      -19.1674    1742.8628   ✓       
+148   FATAEQYQLLEQFR           0.4315      Prosit      -19.2241    1742.8628   ✓       
+149   FATAEQYQLLEQFR           0.4315      Prosit      -19.2925    1742.8628   ✓       
+150   FATAEQYQLLEQFR           0.4315      Prosit      -19.5803    1742.8628   ✓       
+151   KFTAEAYQLLEQFR           0.4272      Prosit      -15.4532    1742.8992   ✓       
+152   KFTAEAYQLLEQFR           0.4272      Prosit      -17.3927    1742.8992   ✓       
+153   KFTAEAYQLLEQFR           0.4272      Prosit      -19.1628    1742.8992   ✓       
+154   AFTAEKYQLLEQFR           0.4179      Prosit      -11.8104    1742.8992   ✓       
+155   AFTAEKYQLLEQFR           0.4179      Prosit      -13.7499    1742.8992   ✓       
+156   AFTAEKYQLLEQFR           0.4179      Prosit      -15.5200    1742.8992   ✓       
+157   AFTAEKYQLLEQFR           0.4179      Prosit      -16.4029    1742.8992   ✓       
+158   KFTAEAYQLLQ+0.984QFR     0.4172      Prosit      -19.4990    1742.8992   ✓       
+159   AFTAEAYQLLEGQFR          0.3823      Prosit      -16.0677    1742.8628   ✓       
+160   AFTAEAYQLLEGQFR          0.3823      Prosit      -16.1321    1742.8628   ✓       
+161   AFTAEAYQLLEGQFR          0.3823      Prosit      -16.2522    1742.8628   ✓       
+162   AFTAEAYQLLEGQFR          0.3823      Prosit      -16.4621    1742.8628   ✓       
+163   AFTAEGQYQLLEAFR          0.3511      Prosit      -14.6265    1742.8628   ✓       
+164   AFTAEGQYQLLEAFR          0.3511      Prosit      -15.4170    1742.8628   ✓       
+165   AFTAEGQYQLLEAFR          0.3511      Prosit      -16.5660    1742.8628   ✓       
+166   KFTAEQYQLLEAFR           0.3489      Prosit      -19.2248    1742.8992   ✓       
+167   +43.006FTAEQYQLLERFR     0.3325      Prosit      -19.4596    1742.8740   ✓       
+168   FFTAEAYQLLEQQR           0.3168      Prosit      -19.0195    1742.8628   ✓       
+169   FFTAEQYQLLEQAR           0.2864      Prosit      -17.8405    1742.8628   ✓       
+170   AATAEQYQLLEQFR           -1.0000     NotChecked  -5.0685     1666.8315   ✗       
+171   AFTAEAYQLLEQFR           -1.0000     NotChecked  -5.3883     1685.8413   ✗       
+172   AATAEQYQLLEQFR           -1.0000     NotChecked  -7.0080     1666.8315   ✗       
+173   AFTAEAYQLLEQFR           -1.0000     NotChecked  -7.3278     1685.8413   ✗       
+174   AFTAEQYQLLEQR            -1.0000     NotChecked  -7.6636     1595.7944   ✗       
+175   AFTAQQYQLLEQFR           -1.0000     NotChecked  -8.3820     1741.8788   ✗       
+176   ASTAEQYQLLEQFR           -1.0000     NotChecked  -8.4617     1682.8264   ✗       
+177   FTAEQYQLLEQFR            -1.0000     NotChecked  -8.7157     1671.8257   ✗       
+178   AATAEQ+0.984YQLLEQFR     -1.0000     NotChecked  -8.7660     1667.8155   ✗       
+179   AGTAEQYQLLEQFR           -1.0000     NotChecked  -8.7883     1652.8158   ✗       
+180   AFTAEAYQLLEQFR           -1.0000     NotChecked  -9.0978     1685.8413   ✗       
+181   AATAEQYQLLQ+0.984QFR     -1.0000     NotChecked  -9.1142     1666.8315   ✗       
+182   AFTAEQYQLLEQQR           -1.0000     NotChecked  -9.1353     1723.8529   ✗       
+183   AFTAEQYQLLEAFR           -1.0000     NotChecked  -9.1599     1685.8413   ✗       
+184   +43.006FTAEQYQLLEQFR     -1.0000     NotChecked  -9.3462     1714.8315   ✗       
+185   AFTAEQYQLLEQF            -1.0000     NotChecked  -9.3573     1586.7617   ✗       
+186   AFTAEAYQLLQ+0.984QFR     -1.0000     NotChecked  -9.4341     1685.8413   ✗       
+187   AATAQ+0.984QYQLLEQFR     -1.0000     NotChecked  -9.5953     1666.8315   ✗       
+188   ATTAEQYQLLEQFR           -1.0000     NotChecked  -9.6471     1696.8420   ✗       
+189   ATAEQYQLLEQFR            -1.0000     NotChecked  -9.6609     1595.7944   ✗       
+190   AFTAEQYQLLQQFR           -1.0000     NotChecked  -9.7790     1741.8788   ✗       
+191   AFTAQ+0.984AYQLLEQFR     -1.0000     NotChecked  -9.9151     1685.8413   ✗       
+192   AFTAEAYQLLEQFR           -1.0000     NotChecked  -9.9808     1685.8413   ✗       
+193   AATAEAYQLLEQFR           -1.0000     NotChecked  -10.2017    1609.8100   ✗       
+194   AFTAQQYQLLEQFR           -1.0000     NotChecked  -10.3215    1741.8788   ✗       
+195   GFTAEQYQLLEQFR           -1.0000     NotChecked  -10.3933    1728.8471   ✗       
+196   ASTAEQYQLLEQFR           -1.0000     NotChecked  -10.4012    1682.8264   ✗       
+197   AATAEGQYQLLEQFR          -1.0000     NotChecked  -10.5351    1723.8529   ✗       
+198   ALTAEQYQLLEQFR           -1.0000     NotChecked  -10.5867    1708.8784   ✗       
+199   AFTAEQYQLLEQFQ           -1.0000     NotChecked  -10.6373    1714.8202   ✗       
+200   FTAEQYQLLEQFR            -1.0000     NotChecked  -10.6552    1671.8257   ✗       
+201   FTAEQYQLLEQFR            -1.0000     NotChecked  -10.7012    1671.8257   ✗       
+202   AATAEQ+0.984YQLLEQFR     -1.0000     NotChecked  -10.7055    1667.8155   ✗       
+203   AGTAEQYQLLEQFR           -1.0000     NotChecked  -10.7277    1652.8158   ✗       
+204   AFTAGQYQLLEQFR           -1.0000     NotChecked  -10.7672    1670.8417   ✗       
+205   AFSAEQYQLLEQFR           -1.0000     NotChecked  -10.8233    1728.8471   ✗       
+206   AFTAEQYQLLEGFR           -1.0000     NotChecked  -10.8270    1671.8257   ✗       
+207   AFTEQYQLLEQFR            -1.0000     NotChecked  -10.8658    1671.8257   ✗       
+208   AFTAEAYQLLEQFR           -1.0000     NotChecked  -11.0373    1685.8413   ✗       
+209   AFTAEQYQLLEFR            -1.0000     NotChecked  -11.0475    1614.8042   ✗       
+210   AATAEQYQLLQ+0.984QFR     -1.0000     NotChecked  -11.0537    1666.8315   ✗       
+211   AFTAEQYQLLEAFR           -1.0000     NotChecked  -11.0994    1685.8413   ✗       
+212   AFAAEQYQLLEQFR           -1.0000     NotChecked  -11.1007    1712.8522   ✗       
+213   AFTAEQYQLLEQLR           -1.0000     NotChecked  -11.1218    1708.8784   ✗       
+214   AFTAEQYQLLELFR           -1.0000     NotChecked  -11.2543    1727.8883   ✗       
+215   +43.006FTAEQYQLLEQFR     -1.0000     NotChecked  -11.2857    1714.8315   ✗       
+216   AFTAEQYQLLEQF            -1.0000     NotChecked  -11.2968    1586.7617   ✗       
+217   AATAEGQYQLLEQFR          -1.0000     NotChecked  -11.3257    1723.8529   ✗       
+218   AFTAEQ+0.984YQLLEQR      -1.0000     NotChecked  -11.3611    1596.7784   ✗       
+219   AFTAEQYQLLEQR            -1.0000     NotChecked  -11.3731    1595.7944   ✗       
+220   AFTAEAYQLLQ+0.984QFR     -1.0000     NotChecked  -11.3736    1685.8413   ✗       
+221   AATAQ+0.984QYQLLEQFR     -1.0000     NotChecked  -11.5348    1666.8315   ✗       
+222   AFTATQYQLLEQFR           -1.0000     NotChecked  -11.5481    1714.8679   ✗       
+223   AFTASQYQLLEQFR           -1.0000     NotChecked  -11.5781    1700.8522   ✗       
+224   ATTAEQYQLLEQFR           -1.0000     NotChecked  -11.5866    1696.8420   ✗       
+225   ATAEQYQLLEQFR            -1.0000     NotChecked  -11.6004    1595.7944   ✗       
+226   AFTAEQYQLLQ+0.984QR      -1.0000     NotChecked  -11.7093    1595.7944   ✗       
+227   AFTAEQYQLLQQFR           -1.0000     NotChecked  -11.7185    1741.8788   ✗       
+228   AFTAEGYQLLEQFR           -1.0000     NotChecked  -11.7248    1671.8257   ✗       
+229   AFTADQYQLLEQFR           -1.0000     NotChecked  -11.7806    1728.8471   ✗       
+230   AFTAQ+0.984AYQLLEQFR     -1.0000     NotChecked  -11.8546    1685.8413   ✗       
+231   AFTAEQYQLLEQER           -1.0000     NotChecked  -11.8678    1724.8370   ✗       
+232   AFTAEAYQLLEQFR           -1.0000     NotChecked  -11.9202    1685.8413   ✗       
+233   AFTAKQYQLLEQFR           -1.0000     NotChecked  -11.9309    1741.9151   ✗       
+234   AFTAEQYQLLENFR           -1.0000     NotChecked  -11.9947    1728.8471   ✗       
+235   AFTAQQYQLLEQFR           -1.0000     NotChecked  -12.0916    1741.8788   ✗       
+236   AMTAEQYQLLEQFR           -1.0000     NotChecked  -12.1112    1726.8349   ✗       
+237   AATAEAYQLLEQFR           -1.0000     NotChecked  -12.1412    1609.8100   ✗       
+238   ASTAEQ+0.984YQLLEQFR     -1.0000     NotChecked  -12.1593    1683.8104   ✗       
+239   AFTAEQYQLLEQFK           -1.0000     NotChecked  -12.1890    1714.8566   ✗       
+240   AFTAQ+0.984QYQLLEQR      -1.0000     NotChecked  -12.1904    1595.7944   ✗       
+241   AFTAEQYQLLEQR            -1.0000     NotChecked  -12.2560    1595.7944   ✗       
+242   AFTAESYQLLEQFR           -1.0000     NotChecked  -12.2692    1701.8362   ✗       
+243   AFTAEQYQLLEQFG           -1.0000     NotChecked  -12.2768    1643.7831   ✗       
+244   GFTAEQYQLLEQFR           -1.0000     NotChecked  -12.3328    1728.8471   ✗       
+245   AKTAEQYQLLEQFR           -1.0000     NotChecked  -12.3414    1723.8893   ✗       
+246   AFTAEQYQLLEQMR           -1.0000     NotChecked  -12.3465    1726.8348   ✗       
+247   FTAEQ+0.984YQLLEQFR      -1.0000     NotChecked  -12.4132    1672.8097   ✗       
+248   FFTAEQYQLLEQR            -1.0000     NotChecked  -12.4146    1671.8257   ✗       
+249   AFTAQQYQLLQ+0.984QFR     -1.0000     NotChecked  -12.4278    1741.8788   ✗       
+250   AATAEGQYQLLEQFR          -1.0000     NotChecked  -12.4746    1723.8529   ✗       
+251   AATAEQYQLLEQR            -1.0000     NotChecked  -12.4769    1519.7631   ✗       
+252   AGTAEQ+0.984YQLLEQFR     -1.0000     NotChecked  -12.4858    1653.7998   ✗       
+253   ASTAEQYQLLQ+0.984QFR     -1.0000     NotChecked  -12.5075    1682.8264   ✗       
+254   ALTAEQYQLLEQFR           -1.0000     NotChecked  -12.5262    1708.8784   ✗       
+255   AFTAEQYQLLEQQ+0.984R     -1.0000     NotChecked  -12.5453    1724.8370   ✗       
+256   AFTAEQYQLLEQFQ           -1.0000     NotChecked  -12.5768    1714.8202   ✗       
+257   AATAEQYQLLEQFR           -1.0000     NotChecked  -12.6020    1666.8315   ✗       
+258   AFTAEQYQLLEQGR           -1.0000     NotChecked  -12.6076    1652.8158   ✗       
+259   FTAEQYQLLEQFR            -1.0000     NotChecked  -12.6407    1671.8257   ✗       
+260   AFTAEQYQLLEQFL           -1.0000     NotChecked  -12.6936    1699.8457   ✗       
+261   AFTAGQYQLLEQFR           -1.0000     NotChecked  -12.7067    1670.8417   ✗       
+262   AFTAEQFQLLEQFR           -1.0000     NotChecked  -12.7119    1726.8679   ✗       
+263   FTAEQYQLLQ+0.984QFR      -1.0000     NotChecked  -12.7614    1671.8257   ✗       
+264   AFSAEQYQLLEQFR           -1.0000     NotChecked  -12.7628    1728.8471   ✗       
+265   AFTAEQYQLLEGFR           -1.0000     NotChecked  -12.7665    1671.8257   ✗       
+266   AFTAEAYQLLEQR            -1.0000     NotChecked  -12.7968    1538.7729   ✗       
+267   AFTEQYQLLEQFR            -1.0000     NotChecked  -12.8053    1671.8257   ✗       
+268   AATAEQ+0.984YQLLQ+0.984QFR-1.0000     NotChecked  -12.8118    1667.8155   ✗       
+269   AFTAEQ+0.984YQLLEQQR     -1.0000     NotChecked  -12.8329    1724.8370   ✗       
+270   AGTAEQYQLLQ+0.984QFR     -1.0000     NotChecked  -12.8340    1652.8158   ✗       
+271   AFTAEQYQLLEQQR           -1.0000     NotChecked  -12.8448    1723.8529   ✗       
+272   AFTAEQ+0.984YQLLEAFR     -1.0000     NotChecked  -12.8574    1686.8253   ✗       
+273   AFTAEQYQLLEAFR           -1.0000     NotChecked  -12.8694    1685.8413   ✗       
+274   AATAEEYQLLEQFR           -1.0000     NotChecked  -12.8888    1667.8155   ✗       
+275   AATAEQYQLLEQFR           -1.0000     NotChecked  -12.8898    1666.8315   ✗       
+276   AFTAEQYQLLLQFR           -1.0000     NotChecked  -12.9086    1726.9043   ✗       
+277   AFTAEAYQLLEQFR           -1.0000     NotChecked  -12.9218    1685.8413   ✗       
+278   AFTAQQYQLLEQFR           -1.0000     NotChecked  -12.9745    1741.8788   ✗       
+279   ASTAQ+0.984QYQLLEQFR     -1.0000     NotChecked  -12.9885    1682.8264   ✗       
+280   AFAAEQYQLLEQFR           -1.0000     NotChecked  -13.0402    1712.8522   ✗       
+281   +43.006FTAEQ+0.984YQLLEQFR-1.0000     NotChecked  -13.0437    1715.8155   ✗       
+282   AFTAELYQLLEQFR           -1.0000     NotChecked  -13.0458    1727.8883   ✗       
+283   AFTAEQEQLLEQFR           -1.0000     NotChecked  -13.0526    1708.8420   ✗       
+284   ASTAEQYQLLEQFR           -1.0000     NotChecked  -13.0541    1682.8264   ✗       
+285   AFTAEQ+0.984YQLLEQF      -1.0000     NotChecked  -13.0549    1587.7457   ✗       
+286   +43.006FTAEQYQLLEQFR     -1.0000     NotChecked  -13.0557    1714.8315   ✗       
+287   AFTAEQYQLLEQF            -1.0000     NotChecked  -13.0669    1586.7617   ✗       
+288   AFTAEQYQLLEQAR           -1.0000     NotChecked  -13.0895    1666.8315   ✗       
+289   AFTAEGQYQLLEQR           -1.0000     NotChecked  -13.1302    1652.8158   ✗       
+290   AFTAEAYQLLQ+0.984QFR     -1.0000     NotChecked  -13.1436    1685.8413   ✗       
+291   AFTAEQYQLLQ+0.984QQR     -1.0000     NotChecked  -13.1811    1723.8529   ✗       
+292   AFTAEQYQLLELFR           -1.0000     NotChecked  -13.1938    1727.8883   ✗       
+293   AATAQQYQLLEQFR           -1.0000     NotChecked  -13.1954    1665.8475   ✗       
+294   AFTAEQYQLLQ+0.984AFR     -1.0000     NotChecked  -13.2056    1685.8413   ✗       
+295   AFTAEAYQLLEQFR           -1.0000     NotChecked  -13.2096    1685.8413   ✗       
+296   AFTAEQYQLLEQKR           -1.0000     NotChecked  -13.2295    1723.8893   ✗       
+297   FTAQ+0.984QYQLLEQFR      -1.0000     NotChecked  -13.2425    1671.8257   ✗       
+298   AATAEGQYQLLEQFR          -1.0000     NotChecked  -13.2651    1723.8529   ✗       
+299   AATAQ+0.984Q+0.984YQLLEQFR-1.0000     NotChecked  -13.2929    1667.8155   ✗       
+300   AGTAQ+0.984QYQLLEQFR     -1.0000     NotChecked  -13.3151    1652.8158   ✗       
+301   ATTAEQ+0.984YQLLEQFR     -1.0000     NotChecked  -13.3447    1697.8261   ✗       
+302   ATAEQ+0.984YQLLEQFR      -1.0000     NotChecked  -13.3585    1596.7784   ✗       
+303   AGTAEQYQLLEQFR           -1.0000     NotChecked  -13.3807    1652.8158   ✗       
+304   +43.006FTAEQYQLLQ+0.984QFR-1.0000     NotChecked  -13.3919    1714.8315   ✗       
+305   AFTAEQYQLLQ+0.984QF      -1.0000     NotChecked  -13.4031    1586.7617   ✗       
+306   AATAEQYQ+0.984LLEQFR     -1.0000     NotChecked  -13.4575    1667.8155   ✗       
+307   AATAEQYQLLEQ+0.984FR     -1.0000     NotChecked  -13.4844    1667.8155   ✗       
+308   AFTATQYQLLEQFR           -1.0000     NotChecked  -13.4876    1714.8679   ✗       
+309   AFTAEQYQLLQQFR           -1.0000     NotChecked  -13.4885    1741.8788   ✗       
+310   AFTAENYQLLEQFR           -1.0000     NotChecked  -13.5102    1728.8471   ✗       
+311   AFTAETYQLLEQFR           -1.0000     NotChecked  -13.5104    1715.8519   ✗       
+312   AFTAQAYQLLEQFR           -1.0000     NotChecked  -13.5152    1684.8573   ✗       
+313   AFTASQYQLLEQFR           -1.0000     NotChecked  -13.5176    1700.8522   ✗       
+314   FGTAEQYQLLEQFR           -1.0000     NotChecked  -13.5393    1728.8471   ✗       
+315   AFTAEQYQLLEQFA           -1.0000     NotChecked  -13.5642    1657.7988   ✗       
+316   ASTAEAYQLLEQFR           -1.0000     NotChecked  -13.5949    1625.8049   ✗       
+317   AFTAEQYQLLNQFR           -1.0000     NotChecked  -13.6072    1727.8631   ✗       
+318   AFTAQ+0.984AYQLLEQFR     -1.0000     NotChecked  -13.6247    1685.8413   ✗       
+319   AATAQ+0.984QYQLLQ+0.984QFR-1.0000     NotChecked  -13.6411    1666.8315   ✗       
+320   AFTAQ+0.984QYQLLEQQR     -1.0000     NotChecked  -13.6621    1723.8529   ✗       
+321   AFTAEGYQLLEQFR           -1.0000     NotChecked  -13.6643    1671.8257   ✗       
+322   AATAEQYQLLEQFR           -1.0000     NotChecked  -13.6853    1666.8315   ✗       
+323   AFTAQ+0.984QYQLLEAFR     -1.0000     NotChecked  -13.6867    1685.8413   ✗       
+324   ATTAEQYQLLQ+0.984QFR     -1.0000     NotChecked  -13.6929    1696.8420   ✗       
+325   ATAEQYQLLQ+0.984QFR      -1.0000     NotChecked  -13.7067    1595.7944   ✗       
+326   AFTADQYQLLEQFR           -1.0000     NotChecked  -13.7201    1728.8471   ✗       
+327   AFTAEQYQLLEQQR           -1.0000     NotChecked  -13.7277    1723.8529   ✗       
+328   AFTAEQYQLLKQFR           -1.0000     NotChecked  -13.7342    1741.9151   ✗       
+329   AFTAEQYQLLEAFR           -1.0000     NotChecked  -13.7523    1685.8413   ✗       
+330   AFTAEAYQ+0.984LLEQFR     -1.0000     NotChecked  -13.7773    1686.8253   ✗       
+331   AFTAEAYQLLEQ+0.984FR     -1.0000     NotChecked  -13.8042    1686.8253   ✗       
+332   AFTAEQQQLLEQFR           -1.0000     NotChecked  -13.8260    1707.8580   ✗       
+333   AFTAEQYQLLEQFN           -1.0000     NotChecked  -13.8396    1700.8046   ✗       
+334   AFTAEQYKLLEQFR           -1.0000     Failed      -13.8467    1742.8992   ✓       
+335   FTAEAYQLLEQFR            -1.0000     NotChecked  -13.8488    1614.8042   ✗       
+336   AFTAKQYQLLEQFR           -1.0000     NotChecked  -13.8704    1741.9151   ✗       
+337   +43.006FTAQ+0.984QYQLLEQFR-1.0000     NotChecked  -13.8730    1714.8315   ✗       
+338   AFTAQ+0.984QYQLLEQF      -1.0000     NotChecked  -13.8842    1586.7617   ✗       
+339   AFTAEGQYQLLEQR           -1.0000     NotChecked  -13.9207    1652.8158   ✗       
+340   AATAEQYQLLEFFR           -1.0000     NotChecked  -13.9214    1685.8413   ✗       
+341   AGTAEAYQLLEQFR           -1.0000     NotChecked  -13.9214    1595.7944   ✗       
+342   ASTAEGQYQLLEQFR          -1.0000     NotChecked  -13.9283    1739.8479   ✗       
+343   AFTAEQYQLLENFR           -1.0000     NotChecked  -13.9342    1728.8471   ✗       
+344   AATAEQYQLLEQQR           -1.0000     NotChecked  -13.9487    1647.8216   ✗       
+345   AFTAEQYQLLEQF            -1.0000     NotChecked  -13.9498    1586.7617   ✗       
+346   AFTAQ+0.984AYQLLQ+0.984QFR-1.0000     NotChecked  -13.9609    1685.8413   ✗       
+347   AATAEQYQLLEAFR           -1.0000     NotChecked  -13.9732    1609.8100   ✗       
+348   AFTAEAYQLLEQFR           -1.0000     NotChecked  -14.0051    1685.8413   ✗       
+349   AFTAEAYQLLQ+0.984QFR     -1.0000     NotChecked  -14.0265    1685.8413   ✗       
+350   AFTAQQYQLLEQFR           -1.0000     NotChecked  -14.0310    1741.8788   ✗       
+351   AMTAEQYQLLEQFR           -1.0000     NotChecked  -14.0507    1726.8349   ✗       
+352   AFTAEQYALLEQFR           -1.0000     NotChecked  -14.0627    1685.8413   ✗       
+353   GFTAEQ+0.984YQLLEQFR     -1.0000     NotChecked  -14.0909    1729.8311   ✗       
+354   ASTAEQ+0.984YQLLEQFR     -1.0000     NotChecked  -14.0988    1683.8104   ✗       
+355   GFTAEQYQLLEQFR           -1.0000     NotChecked  -14.1029    1728.8471   ✗       
+356   FFTAEQYQLLEQF            -1.0000     NotChecked  -14.1083    1662.7930   ✗       
+357   AFTAEQYQLLEQFK           -1.0000     NotChecked  -14.1285    1714.8566   ✗       
+358   +43.006ATAEQYQLLEQFR     -1.0000     NotChecked  -14.1595    1638.8002   ✗       
+359   AATAEQYQLLEQF            -1.0000     NotChecked  -14.1707    1510.7304   ✗       
+360   ATTAQ+0.984QYQLLEQFR     -1.0000     NotChecked  -14.1740    1696.8420   ✗       
+361   FTAEGQYQLLEQFR           -1.0000     NotChecked  -14.1823    1728.8471   ✗       
+362   ATAQ+0.984QYQLLEQFR      -1.0000     NotChecked  -14.1878    1595.7944   ✗       
+363   AFTAESYQLLEQFR           -1.0000     NotChecked  -14.2087    1701.8362   ✗       
+364   AFTAEQYQLLEQFG           -1.0000     NotChecked  -14.2163    1643.7831   ✗       
+365   AATAEGQ+0.984YQLLEQFR    -1.0000     NotChecked  -14.2327    1724.8370   ✗       
+366   ATTAEQYQLLEQFR           -1.0000     NotChecked  -14.2396    1696.8420   ✗       
+367   AFTAEAYQLLEFFR           -1.0000     NotChecked  -14.2412    1704.8512   ✗       
+368   AFTAEQYNLLEQFR           -1.0000     NotChecked  -14.2470    1728.8471   ✗       
+369   AATAEAYQLLQ+0.984QFR     -1.0000     NotChecked  -14.2474    1609.8100   ✗       
+370   AGTAEGQYQLLEQFR          -1.0000     NotChecked  -14.2549    1709.8373   ✗       
+371   AFTAEAYQLLEQQR           -1.0000     NotChecked  -14.2685    1666.8315   ✗       
+372   AKTAEQYQLLEQFR           -1.0000     NotChecked  -14.2809    1723.8893   ✗       
+373   ALTAEQ+0.984YQLLEQFR     -1.0000     NotChecked  -14.2843    1709.8624   ✗       
+374   AFTAEAYQLLEAFR           -1.0000     NotChecked  -14.2930    1628.8199   ✗       
+375   AFTAQ+0.984QYQLLQQFR     -1.0000     NotChecked  -14.3058    1741.8788   ✗       
+376   LATAEQYQLLEQFR           -1.0000     NotChecked  -14.3114    1708.8784   ✗       
+377   AFTAEQ+0.984YQLLEQFQ     -1.0000     NotChecked  -14.3348    1715.8043   ✗       
+378   AFTAEQYQLLEQFQ           -1.0000     NotChecked  -14.3468    1714.8202   ✗       
+379   FTAEQ+0.984YQLLEQFR      -1.0000     NotChecked  -14.3527    1672.8097   ✗       
+380   AFTAQQYQLLQ+0.984QFR     -1.0000     NotChecked  -14.3673    1741.8788   ✗       
+381   AFTAEQYQLLQQFR           -1.0000     NotChecked  -14.3714    1741.8788   ✗       
+382   FTAEQ+0.984YQLLEQFR      -1.0000     NotChecked  -14.3988    1672.8097   ✗       
+383   FTAEQYQLLEQFR            -1.0000     NotChecked  -14.4108    1671.8257   ✗       
+384   AATAEQYQLLEQFR           -1.0000     NotChecked  -14.4164    1666.8315   ✗       
+385   AGTAEQ+0.984YQLLEQFR     -1.0000     NotChecked  -14.4253    1653.7998   ✗       
+386   AARAEQYQLLEQFR           -1.0000     NotChecked  -14.4298    1721.8849   ✗       
+387   AFTAEQYQLLEQFV           -1.0000     NotChecked  -14.4379    1685.8301   ✗       
+388   GFTAEQYQLLQ+0.984QFR     -1.0000     NotChecked  -14.4391    1728.8471   ✗       
+389   ASTAEQYQLLQ+0.984QFR     -1.0000     NotChecked  -14.4469    1682.8264   ✗       
+390   AFTAGQ+0.984YQLLEQFR     -1.0000     NotChecked  -14.4648    1671.8257   ✗       
+391   AFTAGQYQLLEQFR           -1.0000     NotChecked  -14.4768    1670.8417   ✗       
+392   +43.006FTAEAYQLLEQFR     -1.0000     NotChecked  -14.4793    1657.8100   ✗       
+393   AFTAEAYQLLEQF            -1.0000     NotChecked  -14.4905    1529.7402   ✗       
+394   SATAEQYQLLEQFR           -1.0000     NotChecked  -14.4997    1682.8264   ✗       
+395   AFTAQ+0.984AYQLLEQFR     -1.0000     NotChecked  -14.5076    1685.8413   ✗       
+396   AFSAEQ+0.984YQLLEQFR     -1.0000     NotChecked  -14.5209    1729.8312   ✗       
+397   AFTAEQ+0.984YQLLEGFR     -1.0000     NotChecked  -14.5246    1672.8097   ✗       
+398   AFSAEQYQLLEQFR           -1.0000     NotChecked  -14.5329    1728.8471   ✗       
+399   AFTAEQYQLLEGFR           -1.0000     NotChecked  -14.5365    1671.8257   ✗       
+400   AATAEQYQLLEQFR           -1.0000     NotChecked  -14.5415    1666.8315   ✗       
+401   AFTAEQYQLLEQFT           -1.0000     NotChecked  -14.5486    1687.8093   ✗       
+402   AFTEQ+0.984YQLLEQFR      -1.0000     NotChecked  -14.5634    1672.8097   ✗       
+403   AFTEQYQLLEQFR            -1.0000     NotChecked  -14.5754    1671.8257   ✗       
+404   AATAEGQYQLLQ+0.984QFR    -1.0000     NotChecked  -14.5809    1723.8529   ✗       
+405   AATAEQYQLLQQFR           -1.0000     NotChecked  -14.5924    1665.8475   ✗       
+406   LFTAEAYQLLEQFR           -1.0000     NotChecked  -14.6312    1727.8883   ✗       
+407   ALTAEQYQLLQ+0.984QFR     -1.0000     NotChecked  -14.6325    1708.8784   ✗       
+408   AFTAEQYQLLEQFL           -1.0000     NotChecked  -14.6331    1699.8457   ✗       
+409   AFTAEQFQLLEQFR           -1.0000     NotChecked  -14.6514    1726.8679   ✗       
+410   AFTAEQYQLLQ+0.984QFQ     -1.0000     NotChecked  -14.6830    1714.8202   ✗       
+411   FTAEQYQLLQ+0.984QFR      -1.0000     NotChecked  -14.7009    1671.8257   ✗       
+412   ASTAEGQYQLLEQFR          -1.0000     NotChecked  -14.7189    1739.8479   ✗       
+413   AATAQ+0.984AYQLLEQFR     -1.0000     NotChecked  -14.7285    1609.8100   ✗       
+414   AFTAEAYQLLEQFR           -1.0000     NotChecked  -14.7363    1685.8413   ✗       
+415   AFTAEQ+0.984YQLLEFR      -1.0000     NotChecked  -14.7451    1615.7882   ✗       
+416   FTAEQYQLLQ+0.984QFR      -1.0000     NotChecked  -14.7470    1671.8257   ✗       
+417   AFRAEAYQLLEQFR           -1.0000     NotChecked  -14.7497    1740.8948   ✗       
+418   AATAEQ+0.984YQLLQ+0.984QFR-1.0000     NotChecked  -14.7513    1667.8155   ✗       
+419   AFTAEQYQLLEFR            -1.0000     NotChecked  -14.7571    1614.8042   ✗       
+420   AGTAEQYQLLQ+0.984QFR     -1.0000     NotChecked  -14.7735    1652.8158   ✗       
+421   ATTAEAYQLLEQFR           -1.0000     NotChecked  -14.7803    1639.8206   ✗       
+422   ATAEAYQLLEQFR            -1.0000     NotChecked  -14.7941    1538.7729   ✗       
+423   AFTAEQ+0.984YQLLEAFR     -1.0000     NotChecked  -14.7969    1686.8253   ✗       
+424   AFAAEQ+0.984YQLLEQFR     -1.0000     NotChecked  -14.7983    1713.8362   ✗       
+425   AFTAEQYQLLEAFR           -1.0000     NotChecked  -14.8089    1685.8413   ✗       
+426   AFAAEQYQLLEQFR           -1.0000     NotChecked  -14.8102    1712.8522   ✗       
+427   AFTAGQYQLLQ+0.984QFR     -1.0000     NotChecked  -14.8130    1670.8417   ✗       
+428   AFTGEQYQLLEQFR           -1.0000     NotChecked  -14.8141    1728.8471   ✗       
+429   AFTAEQ+0.984YQLLEQLR     -1.0000     NotChecked  -14.8194    1709.8624   ✗       
+430   SFTAEAYQLLEQFR           -1.0000     NotChecked  -14.8195    1701.8362   ✗       
+431   AFTAEGQYQLLEQF           -1.0000     NotChecked  -14.8239    1643.7831   ✗       
+432   AATAEEYQLLEQFR           -1.0000     NotChecked  -14.8283    1667.8155   ✗       
+433   AATAEQYQLLEQFR           -1.0000     NotChecked  -14.8293    1666.8315   ✗       
+434   AFTAEQYQLLEQLR           -1.0000     NotChecked  -14.8314    1708.8784   ✗       
+435   AFTAEQYQLLLQFR           -1.0000     NotChecked  -14.8481    1726.9043   ✗       
+436   AFTAEAYQLLEQFR           -1.0000     NotChecked  -14.8613    1685.8413   ✗       
+437   AFSAEQYQLLQ+0.984QFR     -1.0000     NotChecked  -14.8691    1728.8471   ✗       
+438   AFTAEQYQLLQ+0.984GFR     -1.0000     NotChecked  -14.8727    1671.8257   ✗       
+439   TATAEQYQLLEQFR           -1.0000     NotChecked  -14.8912    1696.8420   ✗       
+440   AFTEQYQLLQ+0.984QFR      -1.0000     NotChecked  -14.9116    1671.8257   ✗       
+441   AFTAEAYQLLQQFR           -1.0000     NotChecked  -14.9122    1684.8573   ✗       
+442   AFTAQQYQLLEQFR           -1.0000     NotChecked  -14.9140    1741.8788   ✗       
+443   GFTAQ+0.984QYQLLEQFR     -1.0000     NotChecked  -14.9202    1728.8471   ✗       
+444   ASTAQ+0.984QYQLLEQFR     -1.0000     NotChecked  -14.9280    1682.8264   ✗       
+445   AFTAEQ+0.984YQLLELFR     -1.0000     NotChecked  -14.9519    1728.8723   ✗       
+446   FATAEAYQLLEQFR           -1.0000     NotChecked  -14.9527    1685.8413   ✗       
+447   AFTAEQM+15.995QLLEQFR    -1.0000     NotChecked  -14.9561    1726.8349   ✗       
+448   AFTAEQYQLLELFR           -1.0000     NotChecked  -14.9639    1727.8883   ✗       
+449   FTAEGQYQLLEQFR           -1.0000     NotChecked  -14.9728    1728.8471   ✗       
+450   +43.006FTAEQ+0.984YQLLEQFR-1.0000     NotChecked  -14.9832    1715.8155   ✗       
+451   AFTAELYQLLEQFR           -1.0000     NotChecked  -14.9853    1727.8883   ✗       
+452   AFTAEQSQLLEQFR           -1.0000     NotChecked  -14.9882    1666.8315   ✗       
+453   AFTAEQEQLLEQFR           -1.0000     NotChecked  -14.9921    1708.8420   ✗       
+454   ASTAEQYQLLEQFR           -1.0000     NotChecked  -14.9936    1682.8264   ✗       
+455   AFTAEQ+0.984YQLLEQF      -1.0000     NotChecked  -14.9944    1587.7457   ✗       
+456   +43.006FTAEQYQLLEQFR     -1.0000     NotChecked  -14.9952    1714.8315   ✗       
+457   AFTAEQYQLLEQF            -1.0000     NotChecked  -15.0064    1586.7617   ✗       
+458   AATAEGQ+0.984YQLLEQFR    -1.0000     NotChecked  -15.0232    1724.8370   ✗       
+459   AFTAEQLQLLEQFR           -1.0000     NotChecked  -15.0348    1692.8835   ✗       
+460   AGTAEGQYQLLEQFR          -1.0000     NotChecked  -15.0454    1709.8373   ✗       
+461   AFTAEQQ+0.984QLLEQFR     -1.0000     NotChecked  -15.0455    1708.8420   ✗       
+462   AATAQ+0.984GQYQLLEQFR    -1.0000     NotChecked  -15.0620    1723.8529   ✗       
+463   AFTAEQ+0.984YQLLEQR      -1.0000     NotChecked  -15.0707    1596.7784   ✗       
+464   AFTAEAYQLLQ+0.984QFR     -1.0000     NotChecked  -15.0831    1685.8413   ✗       
+465   AFTAEQYQLLQ+0.984FR      -1.0000     NotChecked  -15.0933    1614.8042   ✗       
+466   AAFAEQYQLLEQFR           -1.0000     NotChecked  -15.0983    1712.8522   ✗       
+467   ALTAQ+0.984QYQLLEQFR     -1.0000     NotChecked  -15.1136    1708.8784   ✗       
+468   AFTAEQYQLTEQFR           -1.0000     NotChecked  -15.1213    1730.8264   ✗       
+469   ATAEGQYQLLEQFR           -1.0000     NotChecked  -15.1276    1652.8158   ✗       
+470   KATAEQYQLLEQFR           -1.0000     NotChecked  -15.1334    1723.8893   ✗       
+471   AATAQQYQLLEQFR           -1.0000     NotChecked  -15.1349    1665.8475   ✗       
+472   AFTAEQYQLLQ+0.984AFR     -1.0000     NotChecked  -15.1451    1685.8413   ✗       
+473   AFAAEQYQLLQ+0.984QFR     -1.0000     NotChecked  -15.1465    1712.8522   ✗       
+474   AFTAEAYQLLEQFR           -1.0000     NotChecked  -15.1491    1685.8413   ✗       
+475   AFTAQ+0.984QYQLLEQFQ     -1.0000     NotChecked  -15.1641    1714.8202   ✗       
+476   AFTAEQYQLLQ+0.984QLR     -1.0000     NotChecked  -15.1676    1708.8784   ✗       
+477   ALTAEQYQLLEQFR           -1.0000     NotChecked  -15.1792    1708.8784   ✗       
+478   AATAEQYQLLERFR           -1.0000     NotChecked  -15.1820    1694.8740   ✗       
+479   FTAQ+0.984QYQLLEQFR      -1.0000     NotChecked  -15.1820    1671.8257   ✗       
+480   AFTAEQMQLLEQFR           -1.0000     NotChecked  -15.1958    1710.8399   ✗       
+481   AFTAEQYQLLEQR            -1.0000     NotChecked  -15.1971    1595.7944   ✗       
+482   GATAEQYQLLEQFR           -1.0000     NotChecked  -15.2067    1652.8158   ✗       
+483   TFTAEAYQLLEQFR           -1.0000     NotChecked  -15.2110    1715.8519   ✗       
+484   AATAEQYQLLEQFR           -1.0000     NotChecked  -15.2123    1666.8315   ✗       
+485   FTAQ+0.984QYQLLEQFR      -1.0000     NotChecked  -15.2280    1671.8257   ✗       
+486   AFTAEQYQVLEQFR           -1.0000     NotChecked  -15.2290    1728.8471   ✗       
+487   AFTAEQYQLLEQFQ           -1.0000     NotChecked  -15.2297    1714.8202   ✗       
+488   AATAQ+0.984Q+0.984YQLLEQFR-1.0000     NotChecked  -15.2324    1667.8155   ✗       
+489   AFTATQ+0.984YQLLEQFR     -1.0000     NotChecked  -15.2457    1715.8519   ✗       
+490   AGTAQ+0.984QYQLLEQFR     -1.0000     NotChecked  -15.2546    1652.8158   ✗       
+491   AFTATQYQLLEQFR           -1.0000     NotChecked  -15.2577    1714.8679   ✗       
+492   AFTASQ+0.984YQLLEQFR     -1.0000     NotChecked  -15.2757    1701.8362   ✗       
+493   ATTAEQ+0.984YQLLEQFR     -1.0000     NotChecked  -15.2842    1697.8261   ✗       
+494   AFTASQYQLLEQFR           -1.0000     NotChecked  -15.2877    1700.8522   ✗       
+495   ATAEQ+0.984YQLLEQFR      -1.0000     NotChecked  -15.2980    1596.7784   ✗       
+496   AFTAEQYQLLQ+0.984LFR     -1.0000     NotChecked  -15.3001    1727.8883   ✗       
+497   AGTAEQYQLLEQFR           -1.0000     NotChecked  -15.3202    1652.8158   ✗       
+498   +43.006FTAEQYQLLQ+0.984QFR-1.0000     NotChecked  -15.3314    1714.8315   ✗       
+499   AFTAEQYQLLQ+0.984QF      -1.0000     NotChecked  -15.3426    1586.7617   ✗       
+500   AFSAQ+0.984QYQLLEQFR     -1.0000     NotChecked  -15.3502    1728.8471   ✗       
+501   AFTAQ+0.984QYQLLEGFR     -1.0000     NotChecked  -15.3538    1671.8257   ✗       
+502   AFTAGQYQLLEQFR           -1.0000     NotChecked  -15.3597    1670.8417   ✗       
+503   AATAEGQYQLLQ+0.984QFR    -1.0000     NotChecked  -15.3714    1723.8529   ✗       
+504   AFTQ+0.984QYQLLEQFR      -1.0000     NotChecked  -15.3927    1671.8257   ✗       
+505   AATAEQYQ+0.984LLEQFR     -1.0000     NotChecked  -15.3970    1667.8155   ✗       
+506   AFTAEQ+0.984YQLLQ+0.984QR-1.0000     NotChecked  -15.4069    1596.7784   ✗       
+507   AFSAEQYQLLEQFR           -1.0000     NotChecked  -15.4158    1728.8471   ✗       
+508   AFFAEAYQLLEQFR           -1.0000     NotChecked  -15.4181    1731.8621   ✗       
+509   AFTAEQYQLLQ+0.984QR      -1.0000     NotChecked  -15.4189    1595.7944   ✗       
+510   AFTAEQYQLLEGFR           -1.0000     NotChecked  -15.4194    1671.8257   ✗       
+511   AATAEQYQLLEQ+0.984FR     -1.0000     NotChecked  -15.4239    1667.8155   ✗       
+512   AFTAEQYQLLQQFR           -1.0000     NotChecked  -15.4280    1741.8788   ✗       
+513   AFTAEGYQLLEQFR           -1.0000     NotChecked  -15.4344    1671.8257   ✗       
+514   AFTAENYQLLEQFR           -1.0000     NotChecked  -15.4497    1728.8471   ✗       
+515   AFTAETYQLLEQFR           -1.0000     NotChecked  -15.4499    1715.8519   ✗       
+516   AATAEQYQLLEQFQ           -1.0000     NotChecked  -15.4506    1638.7889   ✗       
+517   AFTAQAYQLLEQFR           -1.0000     NotChecked  -15.4547    1684.8573   ✗       
+518   AFTEQYQLLEQFR            -1.0000     NotChecked  -15.4583    1671.8257   ✗       
+519   AFTADQ+0.984YQLLEQFR     -1.0000     NotChecked  -15.4782    1729.8311   ✗       
+520   FGTAEQYQLLEQFR           -1.0000     NotChecked  -15.4787    1728.8471   ✗       
+521   AFTAEEYQLLEQR            -1.0000     NotChecked  -15.4839    1596.7784   ✗       
+522   AFTAEQYQLLEQR            -1.0000     NotChecked  -15.4848    1595.7944   ✗       
+523   AFTAEQYQLAEQFR           -1.0000     NotChecked  -15.4893    1700.8158   ✗       
+524   AFTADQYQLLEQFR           -1.0000     NotChecked  -15.4902    1728.8471   ✗       
+525   AFTAEAYQLLERFR           -1.0000     NotChecked  -15.5018    1713.8838   ✗       
+526   AFTAEQYQLLEQFA           -1.0000     NotChecked  -15.5037    1657.7988   ✗       
+527   ATAEQYQLLEQFR            -1.0000     NotChecked  -15.5146    1595.7944   ✗       
+528   GFTAEAYQLLEQFR           -1.0000     NotChecked  -15.5265    1671.8257   ✗       
+529   AFTAEAYQLLEQFR           -1.0000     NotChecked  -15.5321    1685.8413   ✗       
+530   ASTAEAYQLLEQFR           -1.0000     NotChecked  -15.5344    1625.8049   ✗       
+531   AFTAEQYQLVEQFR           -1.0000     NotChecked  -15.5461    1728.8471   ✗       
+532   AFTAEQYQLLNQFR           -1.0000     NotChecked  -15.5467    1727.8631   ✗       
+533   AFTAQ+0.984AYQLLEQFR     -1.0000     NotChecked  -15.5642    1685.8413   ✗       
+534   AFTAEQ+0.984YQLLEQER     -1.0000     NotChecked  -15.5654    1725.8210   ✗       
+535   AFTAQ+0.984QYQLLEFR      -1.0000     NotChecked  -15.5744    1614.8042   ✗       
+536   AFTAEQYQLLEQER           -1.0000     NotChecked  -15.5774    1724.8370   ✗       
+537   AATAGQYQLLEQFR           -1.0000     NotChecked  -15.5806    1594.8103   ✗       
+538   AATAQ+0.984QYQLLQ+0.984QFR-1.0000     NotChecked  -15.5806    1666.8315   ✗       
+539   AFTATQYQLLQ+0.984QFR     -1.0000     NotChecked  -15.5939    1714.8679   ✗       
+540   AFTAEGQYQLLEQF           -1.0000     NotChecked  -15.6145    1643.7831   ✗       
+541   AFTAEQC+57.021QLLEQFR    -1.0000     NotChecked  -15.6237    1739.8301   ✗       
+542   AFTASQYQLLQ+0.984QFR     -1.0000     NotChecked  -15.6239    1700.8522   ✗       
+543   AATAEQYQLLEQFR           -1.0000     NotChecked  -15.6248    1666.8315   ✗       
+544   AFTAQ+0.984QYQLLEAFR     -1.0000     NotChecked  -15.6262    1685.8413   ✗       
+545   AFAAQ+0.984QYQLLEQFR     -1.0000     NotChecked  -15.6275    1712.8522   ✗       
+546   ATTAEQYQLLQ+0.984QFR     -1.0000     NotChecked  -15.6324    1696.8420   ✗       
+547   AASAEQYQLLEQFR           -1.0000     NotChecked  -15.6367    1652.8158   ✗       
+548   AFTAEQYQLLEFR            -1.0000     NotChecked  -15.6400    1614.8042   ✗       
+549   AATAEQYQLLEGFR           -1.0000     NotChecked  -15.6404    1595.7944   ✗       
+550   AFTAKQYQLLEQFR           -1.0000     NotChecked  -15.6405    1741.9151   ✗       
+551   MATAEQYQLLEQFR           -1.0000     NotChecked  -15.6439    1726.8349   ✗       
+552   ATAEQYQLLQ+0.984QFR      -1.0000     NotChecked  -15.6462    1595.7944   ✗       
+553   AFTAQ+0.984QYQLLEQLR     -1.0000     NotChecked  -15.6487    1708.8784   ✗       
+554   AFTAEQYQTLEQFR           -1.0000     NotChecked  -15.6654    1730.8264   ✗       
+555   AATAEGAYQLLEQFR          -1.0000     NotChecked  -15.6683    1666.8315   ✗       
+556   AFTAEQYQLLKQFR           -1.0000     NotChecked  -15.6737    1741.9151   ✗       
+557   AATEQYQLLEQFR            -1.0000     NotChecked  -15.6792    1595.7944   ✗       
+558   AFTAEQYQLLEAFR           -1.0000     NotChecked  -15.6918    1685.8413   ✗       
+559   AFTAEQ+0.984YQLLENFR     -1.0000     NotChecked  -15.6922    1729.8311   ✗       
+560   AFAAEQYQLLEQFR           -1.0000     NotChecked  -15.6931    1712.8522   ✗       
+561   AFTAEQYQLLENFR           -1.0000     NotChecked  -15.7042    1728.8471   ✗       
+562   AFTAEQYQLLEQLR           -1.0000     NotChecked  -15.7143    1708.8784   ✗       
+563   AFTAEAYQ+0.984LLEQFR     -1.0000     NotChecked  -15.7168    1686.8253   ✗       
+564   ALTAEAYQLLEQFR           -1.0000     NotChecked  -15.7199    1651.8570   ✗       
+565   AFTAEAYQLLEQ+0.984FR     -1.0000     NotChecked  -15.7437    1686.8253   ✗       
+566   AATAEQYQLLEGQFR          -1.0000     NotChecked  -15.7479    1723.8529   ✗       
+567   AFTAEQQQLLEQFR           -1.0000     NotChecked  -15.7655    1707.8580   ✗       
+568   AFTAEAYQLLEQFQ           -1.0000     NotChecked  -15.7704    1657.7988   ✗       
+569   AFTAEGYQLLQ+0.984QFR     -1.0000     NotChecked  -15.7706    1671.8257   ✗       
+570   AFTAEQYQLLEQFN           -1.0000     NotChecked  -15.7791    1700.8046   ✗       
+571   AFTAQ+0.984QYQLLELFR     -1.0000     NotChecked  -15.7812    1727.8883   ✗       
+572   AFTAEQYKLLEQFR           -1.0000     Failed      -15.7862    1742.8992   ✓       
+573   FTAEAYQLLEQFR            -1.0000     NotChecked  -15.7883    1614.8042   ✗       
+574   AFTAQQYQLLEQR            -1.0000     NotChecked  -15.7905    1594.8103   ✗       
+575   FFTAEQYQLLEFR            -1.0000     NotChecked  -15.7985    1690.8355   ✗       
+576   AMTAEQ+0.984YQLLEQFR     -1.0000     NotChecked  -15.8088    1727.8189   ✗       
+577   AATAEQYQLLEGQFR          -1.0000     NotChecked  -15.8123    1723.8529   ✗       
+578   +43.006FTAQ+0.984QYQLLEQFR-1.0000     NotChecked  -15.8125    1714.8315   ✗       
+579   AFTAQ+0.984QYQLLEQF      -1.0000     NotChecked  -15.8237    1586.7617   ✗       
+580   AFTADQYQLLQ+0.984QFR     -1.0000     NotChecked  -15.8264    1728.8471   ✗       
+581   FTAEAYQLLEQFR            -1.0000     NotChecked  -15.8344    1614.8042   ✗       
+582   AFTAEQYQLLELFR           -1.0000     NotChecked  -15.8468    1727.8883   ✗       
+583   AATAQ+0.984GQYQLLEQFR    -1.0000     NotChecked  -15.8525    1723.8529   ✗       
+584   AATAEQYQLLEFR            -1.0000     NotChecked  -15.8609    1538.7729   ✗       
+585   AGTAEAYQLLEQFR           -1.0000     NotChecked  -15.8609    1595.7944   ✗       
+586   ASTAEGQYQLLEQFR          -1.0000     NotChecked  -15.8678    1739.8479   ✗       
+587   ASTAEQYQLLEQR            -1.0000     NotChecked  -15.8702    1535.7580   ✗       
+588   AFTAEQ+0.984YQLLEQFK     -1.0000     NotChecked  -15.8866    1715.8406   ✗       
+589   AFTAQ+0.984Q+0.984YQLLEQR-1.0000     NotChecked  -15.8880    1596.7784   ✗       
+590   AFTAEQYQLLEQF            -1.0000     NotChecked  -15.8893    1586.7617   ✗       
+591   AFTAEQYQLLEQFK           -1.0000     NotChecked  -15.8986    1714.8566   ✗       
+592   AFTAQ+0.984QYQLLEQR      -1.0000     NotChecked  -15.9000    1595.7944   ✗       
+593   AFTAGAYQLLEQFR           -1.0000     NotChecked  -15.9004    1613.8202   ✗       
+594   AFTAQ+0.984AYQLLQ+0.984QFR-1.0000     NotChecked  -15.9004    1685.8413   ✗       
+595   AATAEQYQLLEEFR           -1.0000     NotChecked  -15.9119    1667.8155   ✗       
+596   AATAEQYQLLEAFR           -1.0000     NotChecked  -15.9127    1609.8100   ✗       
+597   AFTAEQYQLLQ+0.984QER     -1.0000     NotChecked  -15.9136    1724.8370   ✗       
+598   AAAAEQYQLLEQFR           -1.0000     NotChecked  -15.9141    1636.8209   ✗       
+599   AFTAQQYQLLEQFR           -1.0000     NotChecked  -15.9155    1741.8788   ✗       
+600   ATAEGQYQLLEQFR           -1.0000     NotChecked  -15.9181    1652.8158   ✗       
+601   AATAEQYQLLEGQFR          -1.0000     NotChecked  -15.9324    1723.8529   ✗       
+602   AATAEQYQLLEQLR           -1.0000     NotChecked  -15.9352    1632.8471   ✗       
+603   AFTAEAYQLLEQFR           -1.0000     NotChecked  -15.9446    1685.8413   ✗       
+604   AFTAEQ+0.984YQLLEQR      -1.0000     NotChecked  -15.9536    1596.7784   ✗       
+605   AFSAEAYQLLEQFR           -1.0000     NotChecked  -15.9565    1671.8257   ✗       
+606   AFTAEQYLLLEQFR           -1.0000     NotChecked  -15.9597    1727.8883   ✗       
+607   AFTAEAYQLLEGFR           -1.0000     NotChecked  -15.9602    1614.8042   ✗       
+608   AATAEQYQLLEQFR           -1.0000     NotChecked  -15.9622    1666.8315   ✗       
+609   AFTAEAYQLLQ+0.984QFR     -1.0000     NotChecked  -15.9660    1685.8413   ✗       
+610   AFTAEQ+0.984YQLLEQFG     -1.0000     NotChecked  -15.9744    1644.7671   ✗       
+611   AFTAKQYQLLQ+0.984QFR     -1.0000     NotChecked  -15.9767    1741.9152   ✗       
+612   AFTAESYQLLEQFR           -1.0000     NotChecked  -15.9787    1701.8362   ✗       
+613   AFTAEQYQLLEQFG           -1.0000     NotChecked  -15.9864    1643.7831   ✗       
+614   ASTAEQYQLLEQFR           -1.0000     NotChecked  -15.9952    1682.8264   ✗       
+615   AFTEAYQLLEQFR            -1.0000     NotChecked  -15.9990    1614.8042   ✗       
+616   AFTAEQYALLEQFR           -1.0000     NotChecked  -16.0022    1685.8413   ✗       
+617   AFTAEQYQALEQFR           -1.0000     NotChecked  -16.0225    1700.8158   ✗       
+618   GFTAEQ+0.984YQLLEQFR     -1.0000     NotChecked  -16.0304    1729.8311   ✗       
+619   AAKAEQYQLLEQFR           -1.0000     NotChecked  -16.0338    1693.8788   ✗       
+620   AKTAEQ+0.984YQLLEQFR     -1.0000     NotChecked  -16.0390    1724.8733   ✗       
+621   AFTAEQYQLLQ+0.984NFR     -1.0000     NotChecked  -16.0404    1728.8471   ✗       
+622   GFTAEQYQLLEQFR           -1.0000     NotChecked  -16.0424    1728.8471   ✗       
+623   AFTAEQ+0.984YQLLEQMR     -1.0000     NotChecked  -16.0441    1727.8189   ✗       
+624   FFTAEQYQLLEQF            -1.0000     NotChecked  -16.0478    1662.7930   ✗       
+625   AFTAEQYQ+0.984LLEQR      -1.0000     NotChecked  -16.0526    1596.7784   ✗       
+626   AFTAEQYQLLEQMR           -1.0000     NotChecked  -16.0561    1726.8348   ✗       
+627   AYTAEAYQLLEQFR           -1.0000     NotChecked  -16.0572    1701.8362   ✗       
+628   AATAEQYQLLELFR           -1.0000     NotChecked  -16.0677    1651.8570   ✗       
+629   AAEAEQYQLLEQFR           -1.0000     NotChecked  -16.0756    1694.8264   ✗       
+630   AFTAEQYQLLEQ+0.984R      -1.0000     NotChecked  -16.0795    1596.7784   ✗       
+631   AAQ+0.984AEQYQLLEQFR     -1.0000     NotChecked  -16.0818    1694.8264   ✗       
+632   +43.006ATAEQYQLLEQFR     -1.0000     NotChecked  -16.0990    1638.8002   ✗       
+633   AATAEQYQLLEQF            -1.0000     NotChecked  -16.1102    1510.7304   ✗       
+634   FFTAEQ+0.984YQLLEQR      -1.0000     NotChecked  -16.1121    1672.8097   ✗       
+635   ATTAQ+0.984QYQLLEQFR     -1.0000     NotChecked  -16.1135    1696.8420   ✗       
+636   FTAEGQYQLLEQFR           -1.0000     NotChecked  -16.1218    1728.8471   ✗       
+637   FTAEQYQLLEQR             -1.0000     NotChecked  -16.1241    1524.7573   ✗       
+638   ATAQ+0.984QYQLLEQFR      -1.0000     NotChecked  -16.1273    1595.7944   ✗       
+639   AFTAQQYQLLQ+0.984QFR     -1.0000     NotChecked  -16.1373    1741.8788   ✗       
+640   AFTATQYQLLEQFR           -1.0000     NotChecked  -16.1406    1714.8679   ✗       
+641   AATAEQYQLLEGQFR          -1.0000     NotChecked  -16.1423    1723.8529   ✗       
+642   AMTAEQYQLLQ+0.984QFR     -1.0000     NotChecked  -16.1570    1726.8349   ✗       
+643   FTAEGQYQLLEQFR           -1.0000     NotChecked  -16.1678    1728.8471   ✗       
+644   AFTASQYQLLEQFR           -1.0000     NotChecked  -16.1706    1700.8522   ✗       
+645   AATAEGQ+0.984YQLLEQFR    -1.0000     NotChecked  -16.1722    1724.8370   ✗       
+646   AATAEQ+0.984YQLLEQR      -1.0000     NotChecked  -16.1745    1520.7471   ✗       
+647   ATTAEQYQLLEQFR           -1.0000     NotChecked  -16.1791    1696.8420   ✗       
+648   AFTAEAYQLLEFR            -1.0000     NotChecked  -16.1807    1557.7827   ✗       
+649   AFTAEQYNLLEQFR           -1.0000     NotChecked  -16.1865    1728.8471   ✗       
+650   AFATAEQYQLLEQR           -1.0000     NotChecked  -16.1865    1666.8315   ✗       
+651   AATAEAYQLLQ+0.984QFR     -1.0000     NotChecked  -16.1869    1609.8100   ✗       
+652   AGTAEGQYQLLEQFR          -1.0000     NotChecked  -16.1944    1709.8373   ✗       
+653   AGTAEQYQLLEQR            -1.0000     NotChecked  -16.1967    1505.7474   ✗       
+654   AFTAQQYQLLEQFR           -1.0000     NotChecked  -16.2033    1741.8788   ✗       
+655   ASTAEQ+0.984YQLLQ+0.984QFR-1.0000     NotChecked  -16.2050    1683.8104   ✗       
+656   ALTAEQ+0.984YQLLEQFR     -1.0000     NotChecked  -16.2238    1709.8624   ✗       
+657   AFTAEAYQLLEEFR           -1.0000     NotChecked  -16.2317    1686.8253   ✗       
+658   AFTAEAYQLLEAFR           -1.0000     NotChecked  -16.2325    1628.8199   ✗       
+659   AFTAGQYQLLEQFR           -1.0000     NotChecked  -16.2338    1670.8417   ✗       
+660   AFAAEAYQLLEQFR           -1.0000     NotChecked  -16.2339    1655.8308   ✗       
+661   AFTAEQYQLLQ+0.984QFK     -1.0000     NotChecked  -16.2348    1714.8566   ✗       
+662   AFTAQ+0.984QYQLLQ+0.984QR-1.0000     NotChecked  -16.2362    1595.7944   ✗       
+663   AFTAEQ+0.984YQLLEQQ+0.984R-1.0000     NotChecked  -16.2428    1725.8210   ✗       
+664   AFTAQ+0.984QYQLLQQFR     -1.0000     NotChecked  -16.2453    1741.8788   ✗       
+665   FTAEQYQLLEQFR            -1.0000     NotChecked  -16.2492    1671.8257   ✗       
+666   LATAEQYQLLEQFR           -1.0000     NotChecked  -16.2509    1708.8784   ✗       
+667   AFTAQ+0.984GYQLLEQFR     -1.0000     NotChecked  -16.2516    1671.8257   ✗       
+668   AFTAEQYQLLEQQ+0.984R     -1.0000     NotChecked  -16.2548    1724.8370   ✗       
+669   AFTAEAYQLLEQLR           -1.0000     NotChecked  -16.2550    1651.8570   ✗       
+670   AFTAEQ+0.984YQLLEQFQ     -1.0000     NotChecked  -16.2743    1715.8043   ✗       
+671   AFTAEQYQLLEQR            -1.0000     NotChecked  -16.2804    1595.7944   ✗       
+672   ASTAEEYQLLEQFR           -1.0000     NotChecked  -16.2820    1683.8104   ✗       
+673   AFTAEAYQLLEQFR           -1.0000     NotChecked  -16.2821    1685.8413   ✗       
+674   ASTAEQYQLLEQFR           -1.0000     NotChecked  -16.2830    1682.8264   ✗       
+675   AFTAEQYQLLEQFQ           -1.0000     NotChecked  -16.2863    1714.8202   ✗       
+676   AFTAEGQYQLLEGFR          -1.0000     NotChecked  -16.2936    1728.8471   ✗       
+677   AATAEQ+0.984YQLLEQFR     -1.0000     NotChecked  -16.2996    1667.8155   ✗       
+678   AFTAEQYQLLQ+0.984QR      -1.0000     NotChecked  -16.3018    1595.7944   ✗       
+679   AFTAEQ+0.984YQLLEQGR     -1.0000     NotChecked  -16.3052    1653.7998   ✗       
+680   AFTAEQYQLLQQFR           -1.0000     NotChecked  -16.3109    1741.8788   ✗       
+681   AFTAESYQLLQ+0.984QFR     -1.0000     NotChecked  -16.3149    1701.8362   ✗       
+682   AFTAEQYQLLEQGR           -1.0000     NotChecked  -16.3171    1652.8158   ✗       
+683   AFTAEGYQLLEQFR           -1.0000     NotChecked  -16.3173    1671.8257   ✗       
+684   AGTAEQYQLLEQFR           -1.0000     NotChecked  -16.3218    1652.8158   ✗       
+685   AFTAEQYQLLQ+0.984QFG     -1.0000     NotChecked  -16.3226    1643.7831   ✗       
+686   AFTEGQYQLLEQFR           -1.0000     NotChecked  -16.3325    1728.8471   ✗       
+687   FTAEQ+0.984YQLLEQFR      -1.0000     NotChecked  -16.3383    1672.8097   ✗       
+688   FTAEQYQLLEQFR            -1.0000     NotChecked  -16.3503    1671.8257   ✗       
+689   AFKAEAYQLLEQFR           -1.0000     NotChecked  -16.3536    1712.8886   ✗       
+690   AATATQYQLLEQFR           -1.0000     NotChecked  -16.3615    1638.8366   ✗       
+691   AARAEQYQLLEQFR           -1.0000     NotChecked  -16.3693    1721.8849   ✗       
+692   AFTADQYQLLEQFR           -1.0000     NotChecked  -16.3731    1728.8471   ✗       
+693   AFTAEQYQLLEQFV           -1.0000     NotChecked  -16.3774    1685.8301   ✗       
+694   GFTAEQYQLLQ+0.984QFR     -1.0000     NotChecked  -16.3786    1728.8471   ✗       
+695   AKTAEQYQLLQ+0.984QFR     -1.0000     NotChecked  -16.3872    1723.8893   ✗       
+696   AFTAEAYQLLELFR           -1.0000     NotChecked  -16.3875    1670.8668   ✗       
+697   AFTAEQ+0.984YQLLEQFL     -1.0000     NotChecked  -16.3912    1700.8297   ✗       
+698   AATASQYQLLEQFR           -1.0000     NotChecked  -16.3915    1624.8209   ✗       
+699   AFTAEQYQLLQ+0.984QMR     -1.0000     NotChecked  -16.3923    1726.8349   ✗       
+700   AFTAQ+0.984QYQLLEQER     -1.0000     NotChecked  -16.3947    1724.8370   ✗       
+701   AFEAEAYQLLEQFR           -1.0000     NotChecked  -16.3954    1713.8362   ✗       
+702   AFQ+0.984AEAYQLLEQFR     -1.0000     NotChecked  -16.4016    1713.8362   ✗       
+703   AFTAEQYQLLEQFL           -1.0000     NotChecked  -16.4031    1699.8457   ✗       
+704   AFTAGQ+0.984YQLLEQFR     -1.0000     NotChecked  -16.4043    1671.8257   ✗       
+705   AFTAEQ+0.984FQLLEQFR     -1.0000     NotChecked  -16.4095    1727.8519   ✗       
+706   AFTAGQYQLLEQFR           -1.0000     NotChecked  -16.4162    1670.8417   ✗       
+707   +43.006FTAEAYQLLEQFR     -1.0000     NotChecked  -16.4188    1657.8100   ✗       
+708   AFTAEQFQLLEQFR           -1.0000     NotChecked  -16.4215    1726.8679   ✗       
+709   AFTAEAYQLLEQF            -1.0000     NotChecked  -16.4300    1529.7402   ✗       
+710   SATAEQYQLLEQFR           -1.0000     NotChecked  -16.4392    1682.8264   ✗       
+711   AFTAQ+0.984AYQLLEQFR     -1.0000     NotChecked  -16.4471    1685.8413   ✗       
+712   AATAEGAYQLLEQFR          -1.0000     NotChecked  -16.4588    1666.8315   ✗       
+713   FTAEQ+0.984YQLLQ+0.984QFR-1.0000     NotChecked  -16.4590    1672.8097   ✗       
+714   AFTAEQYQLLEQER           -1.0000     NotChecked  -16.4603    1724.8370   ✗       
+715   FFTAEQYQLLQ+0.984QR      -1.0000     NotChecked  -16.4603    1671.8257   ✗       
+716   AFSAEQ+0.984YQLLEQFR     -1.0000     NotChecked  -16.4604    1729.8312   ✗       
+717   AFTAEQ+0.984YQLLEGFR     -1.0000     NotChecked  -16.4641    1672.8097   ✗       
+718   AFSAEQYQLLEQFR           -1.0000     NotChecked  -16.4724    1728.8471   ✗       
+719   AFTAEQYQLLEGFR           -1.0000     NotChecked  -16.4760    1671.8257   ✗       
+720   AALAEQYQLLEQFR           -1.0000     NotChecked  -16.4838    1678.8679   ✗       
+721   AFTAEQYQLLEQFT           -1.0000     NotChecked  -16.4881    1687.8093   ✗       
+722   AFTEQ+0.984YQLLEQFR      -1.0000     NotChecked  -16.5029    1672.8097   ✗       
+723   AFTAEAYQLLEQR            -1.0000     NotChecked  -16.5063    1538.7729   ✗       
+724   AFTAEGQYQLLEFR           -1.0000     NotChecked  -16.5142    1671.8257   ✗       
+725   AFTEQYQLLEQFR            -1.0000     NotChecked  -16.5149    1671.8257   ✗       
+726   AFTAEQYQLLEFR            -1.0000     NotChecked  -16.5165    1614.8042   ✗       
+727   AATAMQYQLLEQFR           -1.0000     NotChecked  -16.5197    1668.8294   ✗       
+728   AATAEGQYQLLQ+0.984QFR    -1.0000     NotChecked  -16.5204    1723.8529   ✗       
+729   AFTAQ+0.984QYQLLENFR     -1.0000     NotChecked  -16.5215    1728.8471   ✗       
+730   AATAEQYQLLQ+0.984QR      -1.0000     NotChecked  -16.5227    1519.7631   ✗       
+731   AFTAKQYQLLEQFR           -1.0000     NotChecked  -16.5234    1741.9151   ✗       
+732   AGTAEQ+0.984YQLLQ+0.984QFR-1.0000     NotChecked  -16.5316    1653.7998   ✗       
+733   AATAEQYQLLQQFR           -1.0000     NotChecked  -16.5319    1665.8475   ✗       
+734   FTAEEYQLLEQFR            -1.0000     NotChecked  -16.5359    1672.8097   ✗       
+735   FTAEQYQLLEQFR            -1.0000     NotChecked  -16.5369    1671.8257   ✗       
+736   AATAEGYQLLEQFR           -1.0000     NotChecked  -16.5382    1595.7944   ✗       
+737   AFTAEQ+0.984YQLLEQQR     -1.0000     NotChecked  -16.5424    1724.8370   ✗       
+738   AFTAEQ+0.984YQLLEAFR     -1.0000     NotChecked  -16.5670    1686.8253   ✗       
+739   AFTAEQYQLLEAR            -1.0000     NotChecked  -16.5683    1538.7729   ✗       
+740   LFTAEAYQLLEQFR           -1.0000     NotChecked  -16.5707    1727.8883   ✗       
+741   ALTAEQYQLLQ+0.984QFR     -1.0000     NotChecked  -16.5720    1708.8784   ✗       
+742   FTAEQYQLLQ+0.984QFR      -1.0000     NotChecked  -16.6865    1671.8257   ✗       
+743   +43.006FTAEQ+0.984YQLLEQFR-1.0000     NotChecked  -16.7533    1715.8155   ✗       
+744   +43.006FTAEQYQLLEQR      -1.0000     NotChecked  -16.7546    1567.7631   ✗       
+745   SFTAEAYQLLEQFR           -1.0000     NotChecked  -16.7590    1701.8362   ✗       
+746   TATAEQYQLLEQFR           -1.0000     NotChecked  -16.8306    1696.8420   ✗       
+747   FTAQQYQLLEQFR            -1.0000     NotChecked  -16.8426    1670.8417   ✗       
+748   GFTAQ+0.984QYQLLEQFR     -1.0000     NotChecked  -16.8597    1728.8471   ✗       
+749   +43.006FTAEQYQLLEQFR     -1.0000     NotChecked  -16.8797    1714.8315   ✗       
+750   FATAEAYQLLEQFR           -1.0000     NotChecked  -16.8922    1685.8413   ✗       
+751   LFTAEQYQLLEQR            -1.0000     NotChecked  -16.9065    1637.8413   ✗       
+752   FTAEGQYQLLEQFR           -1.0000     NotChecked  -16.9123    1728.8471   ✗       
+753   FTAQ+0.984Q+0.984YQLLEQFR-1.0000     NotChecked  -16.9401    1672.8097   ✗       
+754   FFTAQ+0.984QYQLLEQR      -1.0000     NotChecked  -16.9414    1671.8257   ✗       
+755   FTAEGQYQLLEQFR           -1.0000     NotChecked  -16.9584    1728.8471   ✗       
+756   FAFTAEQYQLLEQR           -1.0000     Failed      -17.0070    1742.8628   ✓       
+757   FFTAEQYQLLEQFG           -1.0000     NotChecked  -17.0278    1719.8144   ✗       
+758   KATAEQYQLLEQFR           -1.0000     NotChecked  -17.0729    1723.8893   ✗       
+759   +43.006FTAEQ+0.984YQLLQ+0.984QFR-1.0000     NotChecked  -17.0895    1715.8155   ✗       
+760   SFTAEQYQLLEQR            -1.0000     NotChecked  -17.0948    1611.7893   ✗       
+761   +43.006FTAEQYQLLQ+0.984QFR-1.0000     NotChecked  -17.1015    1714.8315   ✗       
+762   FTAEQYQ+0.984LLEQFR      -1.0000     NotChecked  -17.1047    1672.8097   ✗       
+763   FTAEQYQLLEQ+0.984FR      -1.0000     NotChecked  -17.1316    1672.8097   ✗       
+764   GATAEQYQLLEQFR           -1.0000     NotChecked  -17.1462    1652.8158   ✗       
+765   TFTAEAYQLLEQFR           -1.0000     NotChecked  -17.1505    1715.8519   ✗       
+766   +43.006FTAEEYQLLEQFR     -1.0000     NotChecked  -17.1664    1715.8155   ✗       
+767   +43.006FTAEQYQLLEQFR     -1.0000     NotChecked  -17.1674    1714.8315   ✗       
+768   FTAQ+0.984QYQLLEQFR      -1.0000     NotChecked  -17.1675    1671.8257   ✗       
+769   FATAEQYQLLEQR            -1.0000     NotChecked  -17.2279    1595.7944   ✗       
+770   FGTAEQ+0.984YQLLEQFR     -1.0000     NotChecked  -17.2368    1729.8311   ✗       
+771   FGTAEQYQLLEQFR           -1.0000     NotChecked  -17.2488    1728.8471   ✗       
+772   FTAQ+0.984QYQLLQ+0.984QFR-1.0000     NotChecked  -17.2883    1671.8257   ✗       
+773   FTAEQYQLLEQFR            -1.0000     NotChecked  -17.3325    1671.8257   ✗       
+774   FFTAEQYQLLEQGR           -1.0000     NotChecked  -17.3586    1728.8471   ✗       
+775   ATAEQYQLLEQFR            -1.0000     NotChecked  -17.4541    1595.7944   ✗       
+776   GFTAEAYQLLEQFR           -1.0000     NotChecked  -17.4660    1671.8257   ✗       
+777   +43.006FTAQQYQLLEQFR     -1.0000     NotChecked  -17.4730    1713.8475   ✗       
+778   TFTAEQYQLLEQR            -1.0000     NotChecked  -17.4862    1625.8049   ✗       
+779   FFTAEAYQLLEQR            -1.0000     NotChecked  -17.5478    1614.8042   ✗       
+780   +43.006STAEQYQLLEQFR     -1.0000     NotChecked  -17.5527    1654.7951   ✗       
+781   FTAEQYQLLEFFR            -1.0000     NotChecked  -17.5686    1690.8355   ✗       
+782   +43.006FTAQ+0.984Q+0.984YQLLEQFR-1.0000     NotChecked  -17.5706    1715.8155   ✗       
+783   +43.006FTAQ+0.984QYQLLEQFR-1.0000     NotChecked  -17.5826    1714.8315   ✗       
+784   MATAEQYQLLEQFR           -1.0000     NotChecked  -17.5834    1726.8349   ✗       
+785   FGTAEQYQLLQ+0.984QFR     -1.0000     NotChecked  -17.5850    1728.8471   ✗       
+786   FTAEQYQLLEQQR            -1.0000     NotChecked  -17.5958    1652.8158   ✗       
+787   FTAEQYQLLEAFR            -1.0000     NotChecked  -17.6204    1614.8042   ✗       
+788   LSTAEQYQLLEQFR           -1.0000     NotChecked  -17.7046    1724.8733   ✗       
+789   KFTAEQYQLLEQR            -1.0000     NotChecked  -17.7285    1652.8522   ✗       
+790   +43.006FTAEQYQ+0.984LLEQFR-1.0000     NotChecked  -17.7352    1715.8155   ✗       
+791   +43.006FTAEQYQLLEQ+0.984FR-1.0000     NotChecked  -17.7621    1715.8155   ✗       
+792   FTAEAYQLLEQFR            -1.0000     NotChecked  -17.7739    1614.8042   ✗       
+793   GFTAEQ+0.984YQLLEQFR     -1.0000     NotChecked  -17.8004    1729.8311   ✗       
+794   GFTAEQYQLLEQR            -1.0000     NotChecked  -17.8018    1581.7787   ✗       
+795   FFTAEQ+0.984YQLLEQF      -1.0000     NotChecked  -17.8059    1663.7770   ✗       
+796   FTAEQYQLLEQF             -1.0000     NotChecked  -17.8179    1515.7246   ✗       
+797   +43.006ATAEQ+0.984YQLLEQFR-1.0000     NotChecked  -17.8571    1639.7842   ✗       
+798   +43.006GTAEQYQLLEQFR     -1.0000     NotChecked  -17.8793    1624.7845   ✗       
+799   FTAEGQ+0.984YQLLEQFR     -1.0000     NotChecked  -17.8799    1729.8311   ✗       
+800   FFTAEGQYQLLEQR           -1.0000     NotChecked  -17.8812    1728.8471   ✗       
+801   SSTAEQYQLLEQFR           -1.0000     NotChecked  -17.8929    1698.8213   ✗       
+802   FTAEAYQLLQ+0.984QFR      -1.0000     NotChecked  -17.8946    1614.8042   ✗       
+803   +43.006FTAQ+0.984QYQLLQ+0.984QFR-1.0000     NotChecked  -17.9188    1714.8315   ✗       
+804   GFTAEQYQLLEQFR           -1.0000     NotChecked  -17.9269    1728.8471   ✗       
+805   FATAQQYQLLEQFR           -1.0000     NotChecked  -17.9464    1741.8788   ✗       
+806   +43.006FTAEQYQLLEQFR     -1.0000     NotChecked  -17.9630    1714.8315   ✗       
+807   LATAEQ+0.984YQLLEQFR     -1.0000     NotChecked  -18.0089    1709.8624   ✗       
+808   LGTAEQYQLLEQFR           -1.0000     NotChecked  -18.0311    1694.8628   ✗       
+809   FTAEQYQLLEQFR            -1.0000     NotChecked  -18.0636    1671.8257   ✗       
+810   FGTAQ+0.984QYQLLEQFR     -1.0000     NotChecked  -18.0661    1728.8471   ✗       
+811   FRAEQYQLLEQFR            -1.0000     NotChecked  -18.0770    1726.8791   ✗       
+812   FTAEGQYQLLEQFR           -1.0000     NotChecked  -18.1073    1728.8471   ✗       
+813   FTAEQ+0.984YQLLEQFR      -1.0000     NotChecked  -18.1083    1672.8097   ✗       
+814   FTAEQYQLLEQR             -1.0000     NotChecked  -18.1097    1524.7573   ✗       
+815   GFTAEQ+0.984YQLLQ+0.984QFR-1.0000     NotChecked  -18.1367    1729.8311   ✗       
+816   GFTAEQYQLLQ+0.984QFR     -1.0000     NotChecked  -18.1486    1728.8471   ✗       
+817   FFTAEQYQLLQ+0.984QF      -1.0000     NotChecked  -18.1541    1662.7930   ✗       
+818   FTAEQYQLLEQFR            -1.0000     NotChecked  -18.1887    1671.8257   ✗       
+819   +43.006FTAEAYQLLEQFR     -1.0000     NotChecked  -18.1889    1657.8100   ✗       
+820   SATAEQ+0.984YQLLEQFR     -1.0000     NotChecked  -18.1973    1683.8104   ✗       
+821   +43.006FTAEQYQLLEFFR     -1.0000     NotChecked  -18.1991    1733.8413   ✗       
+822   +43.006ATAEQYQLLQ+0.984QFR-1.0000     NotChecked  -18.2053    1638.8002   ✗       
+823   GFTAEEYQLLEQFR           -1.0000     NotChecked  -18.2136    1729.8311   ✗       
+824   GFTAEQYQLLEQFR           -1.0000     NotChecked  -18.2146    1728.8471   ✗       
+825   SGTAEQYQLLEQFR           -1.0000     NotChecked  -18.2195    1668.8107   ✗       
+826   +43.006FTAEQYQLLEQQR     -1.0000     NotChecked  -18.2263    1695.8216   ✗       
+827   FTAEGQYQLLQ+0.984QFR     -1.0000     NotChecked  -18.2281    1728.8471   ✗       
+828   FTAEQYQLLEQFR            -1.0000     NotChecked  -18.2347    1671.8257   ✗       
+829   MFTAEQYQLLEQR            -1.0000     NotChecked  -18.2390    1655.7977   ✗       
+830   FTAEQYQLLQQFR            -1.0000     NotChecked  -18.2395    1670.8417   ✗       
+831   +43.006FTAEQYQLLEAFR     -1.0000     NotChecked  -18.2509    1657.8100   ✗       
+832   TSTAEQYQLLEQFR           -1.0000     NotChecked  -18.2844    1712.8369   ✗       
+833   FFTAEQYQLLEQFA           -1.0000     NotChecked  -18.3152    1733.8301   ✗       
+834   LFTAEAYQLLEQFR           -1.0000     NotChecked  -18.3407    1727.8883   ✗       
+835   FSTAEAYQLLEQFR           -1.0000     NotChecked  -18.3459    1701.8362   ✗       
+836   LATAEQYQLLQ+0.984QFR     -1.0000     NotChecked  -18.3571    1708.8784   ✗       
+837   FTAQ+0.984AYQLLEQFR      -1.0000     NotChecked  -18.3757    1614.8042   ✗       
+838   FTAEQ+0.984YQLLQ+0.984QFR-1.0000     NotChecked  -18.3985    1672.8097   ✗       
+839   LFTAEQYQLLEAFR           -1.0000     NotChecked  -18.4027    1727.8883   ✗       
+840   FTAEQ+0.984YQLLQ+0.984QFR-1.0000     NotChecked  -18.4445    1672.8097   ✗       
+841   +43.006FTAEQYQLLEQF      -1.0000     NotChecked  -18.4483    1558.7304   ✗       
+842   FTAEQYQLLQ+0.984QFR      -1.0000     NotChecked  -18.4565    1671.8257   ✗       
+843   FTAEEYQLLEQFR            -1.0000     NotChecked  -18.4754    1672.8097   ✗       
+844   FTAEQYQLLEQFR            -1.0000     NotChecked  -18.4764    1671.8257   ✗       
+845   GFTAQQYQLLEQFR           -1.0000     NotChecked  -18.5202    1727.8631   ✗       
+846   FTAEEYQLLEQFR            -1.0000     NotChecked  -18.5215    1672.8097   ✗       
+847   FTAEQYQLLEQFR            -1.0000     NotChecked  -18.5225    1671.8257   ✗       
+848   +43.006FTAEAYQLLQ+0.984QFR-1.0000     NotChecked  -18.5251    1657.8100   ✗       
+849   KSTAEQYQLLEQFR           -1.0000     NotChecked  -18.5266    1739.8842   ✗       
+850   SFTAEAYQLLEQFR           -1.0000     NotChecked  -18.5291    1701.8362   ✗       
+851   SATAEQYQLLQ+0.984QFR     -1.0000     NotChecked  -18.5455    1682.8264   ✗       
+852   SFTAEQYQLLEQQR           -1.0000     NotChecked  -18.5665    1739.8479   ✗       
+853   TATAEQ+0.984YQLLEQFR     -1.0000     NotChecked  -18.5887    1697.8261   ✗       
+854   SFTAEQYQLLEAFR           -1.0000     NotChecked  -18.5911    1701.8362   ✗       
+855   GSTAEQYQLLEQFR           -1.0000     NotChecked  -18.5999    1668.8107   ✗       
+856   LFTAEQYQLLEQF            -1.0000     NotChecked  -18.6002    1628.8086   ✗       
+857   TGTAEQYQLLEQFR           -1.0000     NotChecked  -18.6109    1682.8264   ✗       
+858   GFTAQ+0.984Q+0.984YQLLEQFR-1.0000     NotChecked  -18.6177    1729.8311   ✗       
+859   GFTAQ+0.984QYQLLEQFR     -1.0000     NotChecked  -18.6297    1728.8471   ✗       
+860   FFTAQ+0.984QYQLLEQF      -1.0000     NotChecked  -18.6352    1662.7930   ✗       
+861   FATAEAYQLLEQFR           -1.0000     NotChecked  -18.6622    1685.8413   ✗       
+862   FTAEGQ+0.984YQLLEQFR     -1.0000     NotChecked  -18.6704    1729.8311   ✗       
+863   FFTAEGQYQLLEQR           -1.0000     NotChecked  -18.6717    1728.8471   ✗       
+864   FGTAEAYQLLEQFR           -1.0000     NotChecked  -18.6724    1671.8257   ✗       
+865   LFTAEAYQLLQ+0.984QFR     -1.0000     NotChecked  -18.6769    1727.8883   ✗       
+866   +43.006ATAQ+0.984QYQLLEQFR-1.0000     NotChecked  -18.6864    1638.8002   ✗       
+867   +43.006FTAEQ+0.984YQLLEQFR-1.0000     NotChecked  -18.6928    1715.8155   ✗       
+868   +43.006FTAEQYQLLEQFR     -1.0000     NotChecked  -18.6941    1714.8315   ✗       
+869   FATAEQYQLLEQQR           -1.0000     NotChecked  -18.6997    1723.8529   ✗       
+870   FAFTAEQYQLLEQF           -1.0000     NotChecked  -18.7008    1733.8301   ✗       
+871   FTAQ+0.984GQYQLLEQFR     -1.0000     NotChecked  -18.7091    1728.8471   ✗       
+872   FATAEQYQLLEAFR           -1.0000     NotChecked  -18.7242    1685.8413   ✗       
+873   +43.006TTAEQYQLLEQFR     -1.0000     NotChecked  -18.7382    1668.8107   ✗       
+874   FFAEQYQLLEQFR            -1.0000     NotChecked  -18.7455    1717.8464   ✗       
+875   +43.006ATAEQYQLLEQFR     -1.0000     NotChecked  -18.7520    1638.8002   ✗       
+876   FTAQQYQLLEQFR            -1.0000     NotChecked  -18.7820    1670.8417   ✗       
+877   GFTAEQYQ+0.984LLEQFR     -1.0000     NotChecked  -18.7823    1729.8311   ✗       
+878   SFTAEQYQLLEQF            -1.0000     NotChecked  -18.7885    1602.7566   ✗       
+879   GFTAEQYQLLEQ+0.984FR     -1.0000     NotChecked  -18.8093    1729.8311   ✗       
+880   +43.006FTAEQYQLLEQFR     -1.0000     NotChecked  -18.8192    1714.8315   ✗       
+881   FTAQQYQLLEQFR            -1.0000     NotChecked  -18.8281    1670.8417   ✗       
+882   FTAEQYQLLERFR            -1.0000     NotChecked  -18.8291    1699.8682   ✗       
+883   KATAEQ+0.984YQLLEQFR     -1.0000     NotChecked  -18.8310    1724.8733   ✗       
+884   LATAQ+0.984QYQLLEQFR     -1.0000     NotChecked  -18.8382    1708.8784   ✗       
+885   KGTAEQYQLLEQFR           -1.0000     NotChecked  -18.8532    1709.8737   ✗       
+886   FTAEQYQLLEQFR            -1.0000     NotChecked  -18.8594    1671.8257   ✗       
+887   SFTAEAYQLLQ+0.984QFR     -1.0000     NotChecked  -18.8653    1701.8362   ✗       
+888   +43.006FTAEQYQLLQQFR     -1.0000     NotChecked  -18.8700    1713.8475   ✗       
+889   FTAQ+0.984Q+0.984YQLLEQFR-1.0000     NotChecked  -18.8796    1672.8097   ✗       
+890   LTTAEQYQLLEQFR           -1.0000     NotChecked  -18.8900    1738.8890   ✗       
+891   FTAEGQYQLLEQFR           -1.0000     NotChecked  -18.8979    1728.8471   ✗       
+892   LATAEQYQLLEQFR           -1.0000     NotChecked  -18.9038    1708.8784   ✗       
+893   GATAEQ+0.984YQLLEQFR     -1.0000     NotChecked  -18.9043    1653.7998   ✗       
+894   STAEQYQLLEQFR            -1.0000     NotChecked  -18.9078    1611.7893   ✗       
+895   TFTAEAYQLLEQFR           -1.0000     NotChecked  -18.9205    1715.8519   ✗       
+896   FATAEQYQLLEQF            -1.0000     NotChecked  -18.9217    1586.7617   ✗       
+897   FTAQ+0.984Q+0.984YQLLEQFR-1.0000     NotChecked  -18.9256    1672.8097   ✗       
+898   GGTAEQYQLLEQFR           -1.0000     NotChecked  -18.9265    1638.8002   ✗       
+899   TATAEQYQLLQ+0.984QFR     -1.0000     NotChecked  -18.9369    1696.8420   ✗       
+900   FTAQ+0.984QYQLLEQFR      -1.0000     NotChecked  -18.9376    1671.8257   ✗       
+901   GFTAQ+0.984QYQLLQ+0.984QFR-1.0000     NotChecked  -18.9659    1728.8471   ✗       
+902   FFTAEQYQLLEQFG           -1.0000     NotChecked  -18.9673    1719.8144   ✗       
+903   TFTAEQYQLLEAFR           -1.0000     NotChecked  -18.9825    1715.8519   ✗       
+904   FATAEAYQLLQ+0.984QFR     -1.0000     NotChecked  -18.9984    1685.8413   ✗       
+905   +43.006FTAQ+0.984AYQLLEQFR-1.0000     NotChecked  -19.0062    1657.8100   ✗       
+906   GFTAEQYQLLEQFR           -1.0000     NotChecked  -19.0101    1728.8471   ✗       
+907   FTAEGQYQLLQ+0.984QFR     -1.0000     NotChecked  -19.0186    1728.8471   ✗       
+908   SATAQ+0.984QYQLLEQFR     -1.0000     NotChecked  -19.0265    1682.8264   ✗       
+909   +43.006FTAEQ+0.984YQLLQ+0.984QFR-1.0000     NotChecked  -19.0290    1715.8155   ✗       
+910   +43.006FTAEQYQLLQ+0.984QFR-1.0000     NotChecked  -19.0410    1714.8315   ✗       
+911   FFTAEAYQLLEAFR           -1.0000     NotChecked  -19.0440    1704.8512   ✗       
+912   FTAEQYQ+0.984LLEQFR      -1.0000     NotChecked  -19.0442    1672.8097   ✗       
+913   FTAEQYQLLEQ+0.984FR      -1.0000     NotChecked  -19.0711    1672.8097   ✗       
+914   +43.006AFTAEAYQLLEQFR    -1.0000     NotChecked  -19.0718    1728.8471   ✗       
+915   STTAEQYQLLEQFR           -1.0000     NotChecked  -19.0784    1712.8369   ✗       
+916   FTAEQYQ+0.984LLEQFR      -1.0000     NotChecked  -19.0902    1672.8097   ✗       
+917   SATAEQYQLLEQFR           -1.0000     NotChecked  -19.0922    1682.8264   ✗       
+918   FTAEQYQLLEQFQ            -1.0000     NotChecked  -19.0978    1643.7831   ✗       
+919   +43.006FTAEEYQLLEQFR     -1.0000     NotChecked  -19.1059    1715.8155   ✗       
+920   +43.006FTAEQYQLLEQFR     -1.0000     NotChecked  -19.1069    1714.8315   ✗       
+921   FTAEQYQLLEQ+0.984FR      -1.0000     NotChecked  -19.1171    1672.8097   ✗       
+922   LFTAQ+0.984AYQLLEQFR     -1.0000     NotChecked  -19.1580    1727.8883   ✗       
+923   FGTAEQ+0.984YQLLEQFR     -1.0000     NotChecked  -19.1763    1729.8311   ✗       
+924   KATAEQYQLLQ+0.984QFR     -1.0000     NotChecked  -19.1792    1723.8893   ✗       
+925   TFTAEQYQLLEQF            -1.0000     NotChecked  -19.1800    1616.7722   ✗       
+926   FGTAEQYQLLEQFR           -1.0000     NotChecked  -19.1883    1728.8471   ✗       
+927   ATAEQ+0.984YQLLEQFR      -1.0000     NotChecked  -19.2121    1596.7784   ✗       
+928   FTAGQYQLLEQFR            -1.0000     NotChecked  -19.2277    1599.8045   ✗       
+929   FTAQ+0.984QYQLLQ+0.984QFR-1.0000     NotChecked  -19.2278    1671.8257   ✗       
+930   GTAEQYQLLEQFR            -1.0000     NotChecked  -19.2343    1581.7787   ✗       
+931   GFTAEAYQLLEQFR           -1.0000     NotChecked  -19.2361    1671.8257   ✗       
+932   FFTAEAYQLLEQF            -1.0000     NotChecked  -19.2415    1605.7715   ✗       
+933   GATAEQYQLLQ+0.984QFR     -1.0000     NotChecked  -19.2525    1652.8158   ✗       
+934   TFTAEAYQLLQ+0.984QFR     -1.0000     NotChecked  -19.2567    1715.8519   ✗       
+935   FTAEQYQLLEQFR            -1.0000     NotChecked  -19.2720    1671.8257   ✗       
+936   GFTAEQYQLLEQQR           -1.0000     NotChecked  -19.2735    1709.8373   ✗       
+937   FTAQ+0.984QYQLLQ+0.984QFR-1.0000     NotChecked  -19.2738    1671.8257   ✗       
+938   FSAEQYQLLEQFR            -1.0000     NotChecked  -19.2839    1657.8100   ✗       
+939   FTAEQYQLLEGFR            -1.0000     NotChecked  -19.2875    1600.7886   ✗       
+940   +43.006ATAEAYQLLEQFR     -1.0000     NotChecked  -19.2927    1581.7787   ✗       
+941   GFTAEQYQLLEAFR           -1.0000     NotChecked  -19.2981    1671.8257   ✗       
+942   FTAEGAYQLLEQFR           -1.0000     NotChecked  -19.3155    1671.8257   ✗       
+943   FTAEQYQLLEQFR            -1.0000     NotChecked  -19.3180    1671.8257   ✗       
+944   FTEQYQLLEQFR             -1.0000     NotChecked  -19.3264    1600.7886   ✗       
+945   MATAEQ+0.984YQLLEQFR     -1.0000     NotChecked  -19.3414    1727.8189   ✗       
+946   FATAEQYQLLQQFR           -1.0000     NotChecked  -19.3434    1741.8788   ✗       
+947   SFTAQ+0.984AYQLLEQFR     -1.0000     NotChecked  -19.3464    1701.8362   ✗       
+948   MGTAEQYQLLEQFR           -1.0000     NotChecked  -19.3637    1712.8192   ✗       
+949   FTAEQYQLLEGQFR           -1.0000     NotChecked  -19.3950    1728.8471   ✗       
+950   +43.006FTAQQYQLLEQFR     -1.0000     NotChecked  -19.4125    1713.8475   ✗       
+951   TATAQ+0.984QYQLLEQFR     -1.0000     NotChecked  -19.4180    1696.8420   ✗       
+952   KFTAEQYQLLEQF            -1.0000     NotChecked  -19.4222    1643.8195   ✗       
+953   LATAEAYQLLEQFR           -1.0000     NotChecked  -19.4445    1651.8570   ✗       
+954   FTAEQYQLLEGQFR           -1.0000     NotChecked  -19.4595    1728.8471   ✗       
+955   TTTAEQYQLLEQFR           -1.0000     NotChecked  -19.4698    1726.8526   ✗       
+956   FATAQ+0.984AYQLLEQFR     -1.0000     NotChecked  -19.4795    1685.8413   ✗       
+957   TATAEQYQLLEQFR           -1.0000     NotChecked  -19.4836    1696.8420   ✗       
+958   +43.006FTAEQYQLLEQFR     -1.0000     NotChecked  -19.4899    1714.8315   ✗       
+959   +43.006STAEQYQLLEQFR     -1.0000     NotChecked  -19.4922    1654.7951   ✗       
+960   GFTAEQYQLLEQF            -1.0000     NotChecked  -19.4955    1572.7460   ✗       
+961   FFTAEQ+0.984YQLLEFR      -1.0000     NotChecked  -19.4961    1691.8195   ✗       
+962   FTAQ+0.984GQYQLLEQFR     -1.0000     NotChecked  -19.4997    1728.8471   ✗       
+963   FTAEQYQLLEFR             -1.0000     NotChecked  -19.5081    1543.7671   ✗       
+964   +43.006FTAQ+0.984Q+0.984YQLLEQFR-1.0000     NotChecked  -19.5101    1715.8155   ✗       
+965   +43.006FTAQ+0.984QYQLLEQFR-1.0000     NotChecked  -19.5220    1714.8315   ✗       
+966   FGTAEQYQLLQ+0.984QFR     -1.0000     NotChecked  -19.5245    1728.8471   ✗       
+967   FTTAEAYQLLEQFR           -1.0000     NotChecked  -19.5313    1715.8519   ✗       
+968   FTAEAYQLLEQFR            -1.0000     NotChecked  -19.5439    1614.8042   ✗       
+969   FATAEAYQLLEQFR           -1.0000     NotChecked  -19.5451    1685.8413   ✗       
+970   FTAEQYQLLEFFR            -1.0000     NotChecked  -19.5541    1690.8355   ✗       
+971   FTAEQYQLLEEFR            -1.0000     NotChecked  -19.5591    1672.8097   ✗       
+972   FTAEQYQLLEAFR            -1.0000     NotChecked  -19.5599    1614.8042   ✗       
+973   ATAEQYQLLQ+0.984QFR      -1.0000     NotChecked  -19.5603    1595.7944   ✗       
+974   FAAEQYQLLEQFR            -1.0000     NotChecked  -19.5612    1641.8151   ✗       
+975   GFTAEAYQLLQ+0.984QFR     -1.0000     NotChecked  -19.5723    1671.8257   ✗       
+976   FFTAEGQYQLLEQF           -1.0000     NotChecked  -19.5749    1719.8144   ✗       
+977   FTAEQYQLLEGQFR           -1.0000     NotChecked  -19.5796    1728.8471   ✗       
+978   FTAEQYQLLEQQR            -1.0000     NotChecked  -19.5814    1652.8158   ✗       
+979   FTAEQYQLLEQLR            -1.0000     NotChecked  -19.5824    1637.8413   ✗       
+980   FTAEQYQLLEAFR            -1.0000     NotChecked  -19.6060    1614.8042   ✗       
+981   FTAEQYQLLEQFR            -1.0000     NotChecked  -19.6094    1671.8257   ✗       
+982   +43.006ATAEGQYQLLEQFR    -1.0000     NotChecked  -19.6261    1695.8216   ✗       
+983   SATAEAYQLLEQFR           -1.0000     NotChecked  -19.6329    1625.8049   ✗       
+984   LSTAEQYQLLEQFR           -1.0000     NotChecked  -19.6441    1724.8733   ✗       
+985   KATAQ+0.984QYQLLEQFR     -1.0000     NotChecked  -19.6602    1723.8893   ✗       
+986   +43.006FTAEQYQ+0.984LLEQFR-1.0000     NotChecked  -19.6747    1715.8155   ✗       
+987   +43.006LTAEQYQLLEQFR     -1.0000     NotChecked  -19.6777    1680.8471   ✗       
+988   FKAEQYQLLEQFR            -1.0000     NotChecked  -19.6810    1698.8730   ✗       
+989   MATAEQYQLLQ+0.984QFR     -1.0000     NotChecked  -19.6896    1726.8349   ✗       
+990   +43.006FTAEQYQLLEQ+0.984FR-1.0000     NotChecked  -19.7016    1715.8155   ✗       
+991   FTAEQYQLLELFR            -1.0000     NotChecked  -19.7149    1656.8512   ✗       
+992   FEAEQYQLLEQFR            -1.0000     NotChecked  -19.7228    1699.8206   ✗       
+993   KATAEQYQLLEQFR           -1.0000     NotChecked  -19.7259    1723.8893   ✗       
+994   +43.006FTAEQYQLLEQFQ     -1.0000     NotChecked  -19.7283    1686.7889   ✗       
+995   FQ+0.984AEQYQLLEQFR      -1.0000     NotChecked  -19.7290    1699.8206   ✗       
+996   GATAQ+0.984QYQLLEQFR     -1.0000     NotChecked  -19.7335    1652.8158   ✗       
+997   TFTAQ+0.984AYQLLEQFR     -1.0000     NotChecked  -19.7378    1715.8519   ✗       
+998   GFTAEQ+0.984YQLLEQFR     -1.0000     NotChecked  -19.7399    1729.8311   ✗       
+999   GFTAEQYQLLEQFR           -1.0000     NotChecked  -19.7413    1728.8471   ✗       
+1000  FFTAEQ+0.984YQLLEQF      -1.0000     NotChecked  -19.7454    1663.7770   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: AFTAEQYQLLEQFR
+Similarity: 0.8435
+De Novo Score: -0.2551
+Source: Database
+Correct: ✓
+

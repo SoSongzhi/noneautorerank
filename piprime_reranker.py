@@ -17,8 +17,12 @@ import pandas as pd
 import torch
 import torch.nn.functional as F
 import requests
+import urllib3
 import re
 import logging
+
+# Disable SSL warnings
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 import yaml
 import os
 import sys
@@ -380,7 +384,7 @@ class PiPrimeReranker:
         }
 
         try:
-            response = requests.post(url, json=payload, headers={'Content-Type': 'application/json'}, timeout=30)
+            response = requests.post(url, json=payload, headers={'Content-Type': 'application/json'}, timeout=30, verify=False)
             if response.status_code != 200:
                 return None
 

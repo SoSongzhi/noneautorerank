@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 131
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 775.3695
+Precursor charge: 2+
+Ground truth: TWDC+57.021ASQINIVDK
+Ground truth (normalized): TWDC+57.021ASQINIVDK
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 128
+Used for reranking: 128
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 128 (12.8%)
+Database matches: 51 (5.1%)
+Prosit predictions: 73 (7.3%)
+Failed: 4 (0.4%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 4/1000
+Similarity: 0.4598
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     TWDC+57.021ANTLNLVDK     0.4742      Prosit      -15.5836    1548.7242   ✓       
+2     TWDC+57.021ANTLNLVDK     0.4742      Prosit      -18.6114    1548.7242   ✓       
+3     TWDC+57.021ATNLNLVDK     0.4686      Prosit      -18.4537    1548.7242   ✓       
+4     TWDC+57.021ASQLNLVDK     0.4598      Database    -0.0971     1548.7242   ✓       ✓
+5     TWDC+57.021ASQLNLVDK     0.4598      Database    -3.1250     1548.7242   ✓       ✓
+6     TWDC+57.021ASQLNLVDK     0.4598      Database    -7.5885     1548.7242   ✓       ✓
+7     TWDC+57.021ASQLNLVDK     0.4598      Database    -9.0255     1548.7242   ✓       ✓
+8     TWDC+57.021ASQLNLVDK     0.4598      Database    -9.8480     1548.7242   ✓       ✓
+9     TWDC+57.021ASQLNLVDK     0.4598      Database    -10.1679    1548.7242   ✓       ✓
+10    TWDC+57.021ASQLNLVDK     0.4598      Database    -10.6163    1548.7242   ✓       ✓
+11    TWDC+57.021ASQLNLVDK     0.4598      Database    -10.8401    1548.7242   ✓       ✓
+12    TWDC+57.021ASQLNLVDK     0.4598      Database    -12.0534    1548.7242   ✓       ✓
+13    TWDC+57.021ASQLNLVDK     0.4598      Database    -12.4746    1548.7242   ✓       ✓
+14    TWDC+57.021ASQLNLVDK     0.4598      Database    -12.8758    1548.7242   ✓       ✓
+15    TWDC+57.021ASQLNLVDK     0.4598      Database    -13.1389    1548.7242   ✓       ✓
+16    TWDC+57.021ASQLNLVDK     0.4598      Database    -13.1958    1548.7242   ✓       ✓
+17    TWDC+57.021ASQLNLVDK     0.4598      Database    -13.8680    1548.7242   ✓       ✓
+18    TWDC+57.021ASQLNLVDK     0.4598      Database    -13.9649    1548.7242   ✓       ✓
+19    TWDC+57.021ASQLNLVDK     0.4598      Database    -14.0596    1548.7242   ✓       ✓
+20    TWDC+57.021ASQLNLVDK     0.4598      Database    -14.1339    1548.7242   ✓       ✓
+21    TWDC+57.021ASQLNLVDK     0.4598      Database    -14.9942    1548.7242   ✓       ✓
+22    TWDC+57.021ASQLNLVDK     0.4598      Database    -15.0834    1548.7242   ✓       ✓
+23    TWDC+57.021ASQLNLVDK     0.4598      Database    -15.5024    1548.7242   ✓       ✓
+24    TWDC+57.021ASQLNLVDK     0.4598      Database    -15.7815    1548.7242   ✓       ✓
+25    TWDC+57.021ASQLNLVDK     0.4598      Database    -16.1667    1548.7242   ✓       ✓
+26    TWDC+57.021ASQLNLVDK     0.4598      Database    -16.5169    1548.7242   ✓       ✓
+27    TWDC+57.021ASQLNLVDK     0.4598      Database    -16.5344    1548.7242   ✓       ✓
+28    TWDC+57.021ASQLNLVDK     0.4598      Database    -16.5937    1548.7242   ✓       ✓
+29    TWDC+57.021ASQLNLVDK     0.4598      Database    -16.9928    1548.7242   ✓       ✓
+30    TWDC+57.021ASQLNLVDK     0.4598      Database    -17.0875    1548.7242   ✓       ✓
+31    TWDC+57.021ASQLNLVDK     0.4598      Database    -17.1613    1548.7242   ✓       ✓
+32    TWDC+57.021ASQLNLVDK     0.4598      Database    -17.1617    1548.7242   ✓       ✓
+33    TWDC+57.021ASQLNLVDK     0.4598      Database    -17.3393    1548.7242   ✓       ✓
+34    TWDC+57.021ASQLNLVDK     0.4598      Database    -17.6593    1548.7242   ✓       ✓
+35    TWDC+57.021ASQLNLVDK     0.4598      Database    -17.8945    1548.7242   ✓       ✓
+36    TWDC+57.021ASQLNLVDK     0.4598      Database    -17.9885    1548.7242   ✓       ✓
+37    TWDC+57.021ASQLNLVDK     0.4598      Database    -18.0220    1548.7242   ✓       ✓
+38    TWDC+57.021ASQLNLVDK     0.4598      Database    -18.1113    1548.7242   ✓       ✓
+39    TWDC+57.021ASQLNLVDK     0.4598      Database    -18.1160    1548.7242   ✓       ✓
+40    TWDC+57.021ASQLNLVDK     0.4598      Database    -18.3315    1548.7242   ✓       ✓
+41    TWDC+57.021ASQLNLVDK     0.4598      Database    -18.7763    1548.7242   ✓       ✓
+42    TWDC+57.021ASQLNLVDK     0.4598      Database    -18.8094    1548.7242   ✓       ✓
+43    TWDC+57.021ASQLNLVDK     0.4598      Database    -19.0963    1548.7242   ✓       ✓
+44    TWDC+57.021ASQLNLVDK     0.4598      Database    -19.2061    1548.7242   ✓       ✓
+45    TWDC+57.021ASQLNLVDK     0.4598      Database    -19.5447    1548.7242   ✓       ✓
+46    TWDC+57.021ASQLNLVDK     0.4598      Database    -19.5506    1548.7242   ✓       ✓
+47    TWDC+57.021ASQLNLVDK     0.4598      Database    -19.5623    1548.7242   ✓       ✓
+48    TWDC+57.021ASQLNLVDK     0.4598      Database    -19.6215    1548.7242   ✓       ✓
+49    TWDC+57.021ASQLNLVDK     0.4598      Database    -19.7685    1548.7242   ✓       ✓
+50    TWDC+57.021ASQLNLVDK     0.4598      Database    -19.9188    1548.7242   ✓       ✓
+51    TWDC+57.021ASQLNLVDK     0.4598      Database    -19.9659    1548.7242   ✓       ✓
+52    TWDC+57.021ASQLNLVDK     0.4598      Database    -20.1891    1548.7242   ✓       ✓
+53    TWDC+57.021ASQLNLVDK     0.4598      Database    -20.3671    1548.7242   ✓       ✓
+54    TWDC+57.021ASQLNLVDK     0.4598      Database    -20.3841    1548.7242   ✓       ✓
+55    TWN+0.984C+57.021ASQLNLVDK0.4550      Prosit      -5.5643     1548.7242   ✓       
+56    TWN+0.984C+57.021ASQLNLVDK0.4550      Prosit      -8.5922     1548.7242   ✓       
+57    TWN+0.984C+57.021ASQLNLVDK0.4550      Prosit      -13.0557    1548.7242   ✓       
+58    TWN+0.984C+57.021ASQLNLVDK0.4550      Prosit      -14.4927    1548.7242   ✓       
+59    TWN+0.984C+57.021ASQLNLVDK0.4550      Prosit      -15.3151    1548.7242   ✓       
+60    TWN+0.984C+57.021ASQLNLVDK0.4550      Prosit      -15.6351    1548.7242   ✓       
+61    TWN+0.984C+57.021ASQLNLVDK0.4550      Prosit      -16.0835    1548.7242   ✓       
+62    TWN+0.984C+57.021ASQLNLVDK0.4550      Prosit      -16.3073    1548.7242   ✓       
+63    TWN+0.984C+57.021ASQLNLVDK0.4550      Prosit      -17.5205    1548.7242   ✓       
+64    TWN+0.984C+57.021ASQLNLVDK0.4550      Prosit      -17.9417    1548.7242   ✓       
+65    TWN+0.984C+57.021ASQLNLVDK0.4550      Prosit      -18.3430    1548.7242   ✓       
+66    TWN+0.984C+57.021ASQLNLVDK0.4550      Prosit      -18.6060    1548.7242   ✓       
+67    TWN+0.984C+57.021ASQLNLVDK0.4550      Prosit      -18.6630    1548.7242   ✓       
+68    TWN+0.984C+57.021ASQLNLVDK0.4550      Prosit      -19.3351    1548.7242   ✓       
+69    TWN+0.984C+57.021ASQLNLVDK0.4550      Prosit      -19.4321    1548.7242   ✓       
+70    TWN+0.984C+57.021ASQLNLVDK0.4550      Prosit      -19.5268    1548.7242   ✓       
+71    TWN+0.984C+57.021ASQLNLVDK0.4550      Prosit      -19.6011    1548.7242   ✓       
+72    MWDC+57.021ANALNLVDK     0.4453      Prosit      -23.0684    1548.7065   ✓       
+73    MWDC+57.021ANALNLVDK     0.4453      Prosit      -26.0963    1548.7065   ✓       
+74    MWDC+57.021AGQLNLVDK     0.4322      Prosit      -21.9527    1548.7065   ✓       
+75    MWDC+57.021AGQLNLVDK     0.4322      Prosit      -24.9805    1548.7065   ✓       
+76    MWN+0.984C+57.021AGQLNLVDK0.4173      Prosit      -27.4198    1548.7065   ✓       
+77    TWDC+57.021AGSALNLVDK    0.4014      Prosit      -11.1777    1548.7242   ✓       
+78    TWDC+57.021AGSALNLVDK    0.4014      Prosit      -11.2989    1548.7242   ✓       
+79    TWDC+57.021AGSALNLVDK    0.4014      Prosit      -12.3003    1548.7242   ✓       
+80    TWDC+57.021AGSALNLVDK    0.4014      Prosit      -14.2055    1548.7242   ✓       
+81    TWDC+57.021AGSALNLVDK    0.4014      Prosit      -14.3267    1548.7242   ✓       
+82    TWDC+57.021AGSALNLVDK    0.4014      Prosit      -15.3282    1548.7242   ✓       
+83    TWDC+57.021AGSALNLVDK    0.4014      Prosit      -18.6690    1548.7242   ✓       
+84    TWDC+57.021AGSALNLVDK    0.4014      Prosit      -18.7902    1548.7242   ✓       
+85    TWDC+57.021AGSALNLVDK    0.4014      Prosit      -19.2002    1548.7242   ✓       
+86    TWDC+57.021AGSALNLVDK    0.4014      Prosit      -19.7917    1548.7242   ✓       
+87    TWDC+57.021AGSALNLVDK    0.4014      Prosit      -20.1060    1548.7242   ✓       
+88    TWDC+57.021AGSALNLVDK    0.4014      Prosit      -20.2016    1548.7242   ✓       
+89    TWDC+57.021GASALNLVDK    0.3986      Prosit      -20.4170    1548.7242   ✓       
+90    TWN+0.984C+57.021ASALGNLVDK0.3977      Prosit      -19.5078    1548.7242   ✓       
+91    TWN+0.984C+57.021AGSALNLVDK0.3925      Prosit      -16.6448    1548.7242   ✓       
+92    TWN+0.984C+57.021AGSALNLVDK0.3925      Prosit      -16.7661    1548.7242   ✓       
+93    TWN+0.984C+57.021AGSALNLVDK0.3925      Prosit      -17.7675    1548.7242   ✓       
+94    TWN+0.984C+57.021AGSALNLVDK0.3925      Prosit      -19.6727    1548.7242   ✓       
+95    TWN+0.984C+57.021AGSALNLVDK0.3925      Prosit      -19.7939    1548.7242   ✓       
+96    TWDC+57.021ASALGNLVDK    0.3890      Prosit      -14.0406    1548.7242   ✓       
+97    TWDC+57.021ASALGNLVDK    0.3890      Prosit      -17.0684    1548.7242   ✓       
+98    TWDC+57.021ASALGNLVDK    0.3890      Prosit      -17.9015    1548.7242   ✓       
+99    TWDC+57.021ASGALNLVDK    0.3880      Prosit      -15.0998    1548.7242   ✓       
+100   TWDC+57.021ASGALNLVDK    0.3880      Prosit      -15.4527    1548.7242   ✓       
+101   TWDC+57.021ASGALNLVDK    0.3880      Prosit      -18.1277    1548.7242   ✓       
+102   TWDC+57.021ASGALNLVDK    0.3880      Prosit      -18.4806    1548.7242   ✓       
+103   TWDC+57.021ASALNGLVDK    0.3831      Prosit      -17.4755    1548.7242   ✓       
+104   TWDC+57.021ASALNGLVDK    0.3831      Prosit      -18.1761    1548.7242   ✓       
+105   TWDC+57.021ASAGLNLVDK    0.3825      Prosit      -17.1851    1548.7242   ✓       
+106   TWDC+57.021ASAGLNLVDK    0.3825      Prosit      -18.2858    1548.7242   ✓       
+107   TWDC+57.021ASAGLNLVDK    0.3825      Prosit      -20.2129    1548.7242   ✓       
+108   TWDC+57.021AGSQLGLVDK    0.3739      Prosit      -18.0518    1548.7242   ✓       
+109   TWDC+57.021AGSQLGLVDK    0.3739      Prosit      -18.1730    1548.7242   ✓       
+110   TWDC+57.021AGSQLGLVDK    0.3739      Prosit      -19.1744    1548.7242   ✓       
+111   MRDC+57.021ASQLNLVDK     0.3374      Prosit      -27.1590    1548.7388   ✓       
+112   TWDC+57.021ASQLNLVN+0.984K0.3011      Prosit      -8.0575     1548.7242   ✓       
+113   TWDC+57.021ASQLNLVN+0.984K0.3011      Prosit      -11.0853    1548.7242   ✓       
+114   TWDC+57.021ASQLNLVN+0.984K0.3011      Prosit      -15.5488    1548.7242   ✓       
+115   TWDC+57.021ASQLNLVN+0.984K0.3011      Prosit      -16.9858    1548.7242   ✓       
+116   TWDC+57.021ASQLNLVN+0.984K0.3011      Prosit      -17.8083    1548.7242   ✓       
+117   TWDC+57.021ASQLNLVN+0.984K0.3011      Prosit      -18.5766    1548.7242   ✓       
+118   TWDC+57.021ASQLNLVN+0.984K0.3011      Prosit      -18.8004    1548.7242   ✓       
+119   TWDC+57.021ASQLNLVN+0.984K0.3011      Prosit      -20.0137    1548.7242   ✓       
+120   TWDC+57.021ASALNLRDK     0.2467      Prosit      -19.3583    1548.7355   ✓       
+121   TWDC+57.021AGSALNLVN+0.984K0.2440      Prosit      -19.1380    1548.7242   ✓       
+122   TWDC+57.021AGSALNLVN+0.984K0.2440      Prosit      -19.2592    1548.7242   ✓       
+123   TWDC+57.021AGSALNLVN+0.984K0.2440      Prosit      -20.2606    1548.7242   ✓       
+124   TWDC+57.021ASQLNLVDQ     0.1049      Prosit      -17.3995    1548.6879   ✓       
+125   TWDC+57.021ASALNLVDK     -1.0000     NotChecked  -3.2763     1491.7028   ✗       
+126   TWDC+57.021ASALNLVDK     -1.0000     NotChecked  -6.3042     1491.7028   ✗       
+127   TWDC+57.021AGQLNLVDK     -1.0000     NotChecked  -8.5349     1518.7137   ✗       
+128   TWN+0.984C+57.021ASALNLVDK-1.0000     NotChecked  -8.7435     1491.7028   ✗       
+129   TWDC+57.021ASTLNLVDK     -1.0000     NotChecked  -9.2093     1521.7133   ✗       
+130   TWDC+57.021ANALNLVDK     -1.0000     NotChecked  -9.6507     1518.7137   ✗       
+131   TWDC+57.021ASNLNLVDK     -1.0000     NotChecked  -9.6830     1534.7086   ✗       
+132   TWDC+57.021ASQLGLVDK     -1.0000     NotChecked  -10.1504    1491.7028   ✗       
+133   TWDC+57.021ASVLNLVDK     -1.0000     NotChecked  -10.4822    1519.7341   ✗       
+134   TWDC+57.021ASLNLVDK      -1.0000     NotChecked  -10.5879    1420.6657   ✗       
+135   TWDC+57.021ASALNLVDK     -1.0000     NotChecked  -10.7677    1491.7028   ✗       
+136   TWDC+57.021ASALNLVN+0.984K-1.0000     NotChecked  -11.2367    1491.7028   ✗       
+137   TWDC+57.021ASQLNLVVK     -1.0000     NotChecked  -11.3590    1532.7657   ✗       
+138   TWDC+57.021AGQLNLVDK     -1.0000     NotChecked  -11.5627    1518.7137   ✗       
+139   TWDC+57.021AGALNLVDK     -1.0000     NotChecked  -11.7141    1461.6922   ✗       
+140   TWN+0.984C+57.021ASALNLVDK-1.0000     NotChecked  -11.7714    1491.7028   ✗       
+141   TWDC+57.021ASSLNLVDK     -1.0000     NotChecked  -11.8996    1507.6977   ✗       
+142   TWDC+57.021AQLNLVDK      -1.0000     NotChecked  -11.9193    1461.6922   ✗       
+143   TWDC+57.021ASQLPLVDK     -1.0000     NotChecked  -11.9430    1531.7341   ✗       
+144   TWDC+57.021ASLLNLVDK     -1.0000     NotChecked  -11.9771    1533.7497   ✗       
+145   TWDC+57.021ASQLVLVDK     -1.0000     NotChecked  -12.0214    1533.7497   ✗       
+146   TWDC+57.021ATALNLVDK     -1.0000     NotChecked  -12.0471    1505.7184   ✗       
+147   TWDC+57.021ASQLLLVDK     -1.0000     NotChecked  -12.1677    1547.7654   ✗       
+148   TWDC+57.021ASQLNPVDK     -1.0000     NotChecked  -12.1918    1532.6929   ✗       
+149   TWDC+57.021ASALNLVDK     -1.0000     NotChecked  -12.2047    1491.7028   ✗       
+150   TWDC+57.021ASTLNLVDK     -1.0000     NotChecked  -12.2371    1521.7133   ✗       
+151   TWNC+57.021ASQLNLVDK     -1.0000     NotChecked  -12.5020    1547.7402   ✗       
+152   TWDC+57.021ASQVNLVDK     -1.0000     NotChecked  -12.5794    1534.7086   ✗       
+153   TWDC+57.021ANALNLVDK     -1.0000     NotChecked  -12.6785    1518.7137   ✗       
+154   TWDC+57.021ASNLNLVDK     -1.0000     NotChecked  -12.7108    1534.7086   ✗       
+155   TWDC+57.021AAQLNLVDK     -1.0000     NotChecked  -12.7653    1532.7293   ✗       
+156   TWDC+57.021ASQLNLVK      -1.0000     NotChecked  -12.9746    1433.6973   ✗       
+157   TWDC+57.021ASALNLVDK     -1.0000     NotChecked  -13.0272    1491.7028   ✗       
+158   TWDC+57.021ASQLALVDK     -1.0000     NotChecked  -13.0469    1505.7184   ✗       
+159   TWDC+57.021ASQLNLVD      -1.0000     NotChecked  -13.1232    1420.6293   ✗       
+160   TWDC+57.021ASQLGLVDK     -1.0000     NotChecked  -13.1783    1491.7028   ✗       
+161   TWDC+57.021ASQLNLVK      -1.0000     NotChecked  -13.2320    1433.6973   ✗       
+162   +43.006WDC+57.021ASQLNLVDK-1.0000     NotChecked  -13.3101    1490.6824   ✗       
+163   TWDC+57.021ASQLNLVLK     -1.0000     NotChecked  -13.3275    1546.7814   ✗       
+164   TWDC+57.021ASALGLVDK     -1.0000     NotChecked  -13.3296    1434.6813   ✗       
+165   TWDC+57.021ASALNLVDK     -1.0000     NotChecked  -13.3471    1491.7028   ✗       
+166   TWDC+57.021ASQLNAVDK     -1.0000     NotChecked  -13.4877    1506.6773   ✗       
+167   TWDC+57.021ASQLNLVSK     -1.0000     NotChecked  -13.4978    1520.7293   ✗       
+168   TWDC+57.021ASVLNLVDK     -1.0000     NotChecked  -13.5101    1519.7341   ✗       
+169   TWN+0.984C+57.021ASQLNLVN+0.984K-1.0000     Failed      -13.5246    1548.7242   ✓       
+170   +42.011WDC+57.021ASQLNLVDK-1.0000     NotChecked  -13.5497    1489.6871   ✗       
+171   TWDC+57.021ASLNLVDK      -1.0000     NotChecked  -13.6157    1420.6657   ✗       
+172   TWDC+57.021ASQLNGVDK     -1.0000     NotChecked  -13.7209    1492.6616   ✗       
+173   TRDC+57.021ASQLNLVDK     -1.0000     NotChecked  -13.7412    1518.7460   ✗       
+174   TWDC+57.021ASALNLVDK     -1.0000     NotChecked  -13.7955    1491.7028   ✗       
+175   TWDC+57.021AQALNLVDK     -1.0000     NotChecked  -13.8302    1532.7293   ✗       
+176   TWDC+57.021ASQANLVDK     -1.0000     NotChecked  -13.8561    1506.6773   ✗       
+177   TWN+0.984C+57.021AGQLNLVDK-1.0000     NotChecked  -14.0020    1518.7137   ✗       
+178   TWDC+57.021ASQLNVVDK     -1.0000     NotChecked  -14.0160    1534.7086   ✗       
+179   TWDC+57.021ASALNLVDK     -1.0000     NotChecked  -14.0193    1491.7028   ✗       
+180   VWDC+57.021ASQLNLVDK     -1.0000     NotChecked  -14.1157    1546.7450   ✗       
+181   TWDC+57.021ASQLNLVAK     -1.0000     NotChecked  -14.1457    1504.7344   ✗       
+182   TWDC+57.021ASALNLVN+0.984K-1.0000     NotChecked  -14.2645    1491.7028   ✗       
+183   TLDC+57.021ASQLNLVDK     -1.0000     NotChecked  -14.3668    1475.7290   ✗       
+184   TWDC+57.021ASQLNLVVK     -1.0000     NotChecked  -14.3869    1532.7657   ✗       
+185   TWDC+57.021ASQGNLVDK     -1.0000     NotChecked  -14.4099    1492.6616   ✗       
+186   TWTC+57.021ASQLNLVDK     -1.0000     NotChecked  -14.4300    1534.7450   ✗       
+187   TWDC+57.021ASALNLVVK     -1.0000     NotChecked  -14.5382    1475.7442   ✗       
+188   TWDC+57.021ASQLNLADK     -1.0000     NotChecked  -14.6294    1520.6929   ✗       
+189   TWN+0.984C+57.021ASTLNLVDK-1.0000     NotChecked  -14.6765    1521.7133   ✗       
+190   TWDC+57.021AGALNLVDK     -1.0000     NotChecked  -14.7419    1461.6922   ✗       
+191   TWDC+57.021ASSLNLVDK     -1.0000     NotChecked  -14.9274    1507.6977   ✗       
+192   TWDC+57.021AQLNLVDK      -1.0000     NotChecked  -14.9471    1461.6922   ✗       
+193   TWDC+57.021ASALNQVDK     -1.0000     NotChecked  -14.9630    1506.6773   ✗       
+194   TWDC+57.021ASQLPLVDK     -1.0000     NotChecked  -14.9709    1531.7341   ✗       
+195   TWDC+57.021ASLLNLVDK     -1.0000     NotChecked  -15.0050    1533.7497   ✗       
+196   TWDC+57.021ASQLVLVDK     -1.0000     NotChecked  -15.0492    1533.7497   ✗       
+197   TWDC+57.021ATALNLVDK     -1.0000     NotChecked  -15.0749    1505.7184   ✗       
+198   TWDC+57.021ASALNLLDK     -1.0000     NotChecked  -15.0872    1505.7184   ✗       
+199   TWDC+57.021SQLNLVDK      -1.0000     NotChecked  -15.0882    1477.6871   ✗       
+200   TWDC+57.021AALNLVDK      -1.0000     NotChecked  -15.0985    1404.6707   ✗       
+201   TWDC+57.021ASALNLVEK     -1.0000     NotChecked  -15.1043    1505.7184   ✗       
+202   TWN+0.984C+57.021ANALNLVDK-1.0000     NotChecked  -15.1178    1518.7137   ✗       
+203   TWDC+57.021ASQLNLVDV     -1.0000     NotChecked  -15.1212    1519.6977   ✗       
+204   TWDC+57.021ASALPLVDK     -1.0000     NotChecked  -15.1222    1474.7126   ✗       
+205   TWDC+57.021ASALQLVDK     -1.0000     NotChecked  -15.1330    1505.7184   ✗       
+206   TWN+0.984C+57.021ASNLNLVDK-1.0000     NotChecked  -15.1501    1534.7086   ✗       
+207   TWDC+57.021ASQLLLVDK     -1.0000     NotChecked  -15.1955    1547.7654   ✗       
+208   TWDC+57.021ASALVLVDK     -1.0000     NotChecked  -15.2006    1476.7283   ✗       
+209   TWDC+57.021ASQLNPVDK     -1.0000     NotChecked  -15.2196    1532.6929   ✗       
+210   TWDC+57.021ASALNLVDK     -1.0000     NotChecked  -15.2325    1491.7028   ✗       
+211   TWDC+57.021ASALLLVDK     -1.0000     NotChecked  -15.3469    1490.7439   ✗       
+212   TWDC+57.021ASALNPVDK     -1.0000     NotChecked  -15.3710    1475.6715   ✗       
+213   TWDC+57.021ASALNLVDR     -1.0000     NotChecked  -15.4487    1519.7089   ✗       
+214   TWDC+57.021GSQLNLVDK     -1.0000     NotChecked  -15.4987    1534.7086   ✗       
+215   TWNC+57.021ASQLNLVDK     -1.0000     NotChecked  -15.5299    1547.7402   ✗       
+216   TWDC+57.021ASQVNLVDK     -1.0000     NotChecked  -15.6073    1534.7086   ✗       
+217   TWN+0.984C+57.021ASQLGLVDK-1.0000     NotChecked  -15.6176    1491.7028   ✗       
+218   TWSC+57.021ASQLNLVDK     -1.0000     NotChecked  -15.6422    1520.7293   ✗       
+219   TWDC+57.021ASALNLVDK     -1.0000     NotChecked  -15.6538    1491.7028   ✗       
+220   TWNC+57.021ASALNLVDK     -1.0000     NotChecked  -15.6812    1490.7188   ✗       
+221   TWDC+57.021ASAVNLVDK     -1.0000     NotChecked  -15.7586    1477.6871   ✗       
+222   TWC+57.021ASQLNLVDK      -1.0000     NotChecked  -15.7901    1433.6973   ✗       
+223   TWDC+57.021AAQLNLVDK     -1.0000     NotChecked  -15.7931    1532.7293   ✗       
+224   TWDC+57.021ASALNKVDK     -1.0000     NotChecked  -15.8098    1506.7137   ✗       
+225   TWDC+57.021ASALNRVDK     -1.0000     NotChecked  -15.8236    1534.7198   ✗       
+226   TWDC+57.021ASQPNLVDK     -1.0000     NotChecked  -15.9067    1532.6929   ✗       
+227   AWDC+57.021ASQLNLVDK     -1.0000     NotChecked  -15.9074    1518.7137   ✗       
+228   TWEC+57.021ASALNLVDK     -1.0000     NotChecked  -15.9325    1505.7184   ✗       
+229   TWDC+57.021ASALNNVDK     -1.0000     NotChecked  -15.9370    1492.6616   ✗       
+230   TWDC+57.021AAALNLVDK     -1.0000     NotChecked  -15.9445    1475.7079   ✗       
+231   TWN+0.984C+57.021ASVLNLVDK-1.0000     NotChecked  -15.9494    1519.7341   ✗       
+232   TWDC+57.021ASALN+0.984LVDK-1.0000     NotChecked  -15.9970    1492.6868   ✗       
+233   TWDC+57.021ASQLNLVK      -1.0000     NotChecked  -16.0024    1433.6973   ✗       
+234   TWDC+57.021AGQLNLVDK     -1.0000     NotChecked  -16.0262    1518.7137   ✗       
+235   TWDC+57.021ASALNLVDK     -1.0000     NotChecked  -16.0550    1491.7028   ✗       
+236   TWN+0.984C+57.021ASLNLVDK-1.0000     NotChecked  -16.0550    1420.6657   ✗       
+237   TWGC+57.021ASQLNLVDK     -1.0000     NotChecked  -16.0719    1490.7188   ✗       
+238   TWDC+57.021ASQLALVDK     -1.0000     NotChecked  -16.0748    1505.7184   ✗       
+239   TWDC+57.021ASALRLVDK     -1.0000     NotChecked  -16.1362    1533.7610   ✗       
+240   TWDC+57.021ASQLNLVD      -1.0000     NotChecked  -16.1510    1420.6293   ✗       
+241   TWDC+57.021ASQNLVDK      -1.0000     NotChecked  -16.1529    1435.6402   ✗       
+242   TWDC+57.021ASALNLVK      -1.0000     NotChecked  -16.1538    1376.6758   ✗       
+243   TMDC+57.021ASQLNLVDK     -1.0000     NotChecked  -16.1861    1493.6854   ✗       
+244   TWDC+57.021ASALALVDK     -1.0000     NotChecked  -16.2261    1448.6970   ✗       
+245   TWN+0.984C+57.021ASALNLVDK-1.0000     NotChecked  -16.2349    1491.7028   ✗       
+246   TWDC+57.021ASQLNLVK      -1.0000     NotChecked  -16.2598    1433.6973   ✗       
+247   TWDC+57.021ADALNLVDK     -1.0000     NotChecked  -16.2777    1519.6977   ✗       
+248   TWDC+57.021ASALNLVD      -1.0000     NotChecked  -16.3024    1363.6078   ✗       
+249   TWDC+57.021ASALNLVDK     -1.0000     NotChecked  -16.3181    1491.7028   ✗       
+250   TFDC+57.021ASQLNLVDK     -1.0000     NotChecked  -16.3350    1509.7133   ✗       
+251   +43.006WDC+57.021ASQLNLVDK-1.0000     NotChecked  -16.3380    1490.6824   ✗       
+252   TWDC+57.021ASQLNLVLK     -1.0000     NotChecked  -16.3553    1546.7814   ✗       
+253   TWDC+57.021ASALGLVDK     -1.0000     NotChecked  -16.3575    1434.6813   ✗       
+254   TWDC+57.021ASALNLVDK     -1.0000     NotChecked  -16.3750    1491.7028   ✗       
+255   TWDC+57.021ASALNLVK      -1.0000     NotChecked  -16.4112    1376.6758   ✗       
+256   TWDC+57.021ASALNLVRK     -1.0000     NotChecked  -16.4880    1532.7769   ✗       
+257   +43.006WDC+57.021ASALNLVDK-1.0000     NotChecked  -16.4893    1433.6609   ✗       
+258   TWDC+57.021AGQLNLVN+0.984K-1.0000     NotChecked  -16.4952    1518.7137   ✗       
+259   TWDC+57.021ASALNLVLK     -1.0000     NotChecked  -16.5067    1489.7599   ✗       
+260   TWDC+57.021ASQLNAVDK     -1.0000     NotChecked  -16.5156    1506.6773   ✗       
+261   TWDC+57.021ANQLGLVDK     -1.0000     NotChecked  -16.5247    1518.7137   ✗       
+262   TWDC+57.021ASQLNLVSK     -1.0000     NotChecked  -16.5257    1520.7293   ✗       
+263   TWDC+57.021ASQLNLVD      -1.0000     NotChecked  -16.5341    1420.6293   ✗       
+264   TWN+0.984C+57.021ASQLNLVN+0.984K-1.0000     Failed      -16.5525    1548.7242   ✓       
+265   TWDC+57.021AGQLNLVDK     -1.0000     NotChecked  -16.5574    1518.7137   ✗       
+266   +42.011WDC+57.021ASQLNLVDK-1.0000     NotChecked  -16.5775    1489.6871   ✗       
+267   TWDC+57.021ASALDLVDK     -1.0000     NotChecked  -16.6460    1492.6868   ✗       
+268   TWDC+57.021ASALNAVDK     -1.0000     NotChecked  -16.6669    1449.6558   ✗       
+269   TWDC+57.021ASALNLVSK     -1.0000     NotChecked  -16.6770    1463.7079   ✗       
+270   MWDC+57.021ASALNLVDK     -1.0000     NotChecked  -16.6941    1521.6956   ✗       
+271   TWDC+57.021ASTLNLVDK     -1.0000     NotChecked  -16.7006    1521.7133   ✗       
+272   TWN+0.984C+57.021ASALNLVN+0.984K-1.0000     NotChecked  -16.7038    1491.7028   ✗       
+273   TWDC+57.021ASALNLVDK     -1.0000     NotChecked  -16.7241    1491.7028   ✗       
+274   +42.011WDC+57.021ASALNLVDK-1.0000     NotChecked  -16.7289    1432.6657   ✗       
+275   TWDC+57.021ASQLNGVDK     -1.0000     NotChecked  -16.7487    1492.6616   ✗       
+276   TRDC+57.021ASQLNLVDK     -1.0000     NotChecked  -16.7691    1518.7460   ✗       
+277   TWN+0.984C+57.021ASQLNLVVK-1.0000     NotChecked  -16.8262    1532.7657   ✗       
+278   TWDC+57.021ANVLNLVDK     -1.0000     NotChecked  -16.8565    1546.7450   ✗       
+279   TWDC+57.021AQALNLVDK     -1.0000     NotChecked  -16.8580    1532.7293   ✗       
+280   TWDC+57.021ASQANLVDK     -1.0000     NotChecked  -16.8840    1506.6773   ✗       
+281   TWDC+57.021ASALNGVDK     -1.0000     NotChecked  -16.9001    1435.6402   ✗       
+282   TWDC+57.021ASALNEVDK     -1.0000     NotChecked  -16.9011    1507.6613   ✗       
+283   TRDC+57.021ASALNLVDK     -1.0000     NotChecked  -16.9204    1461.7246   ✗       
+284   TWDC+57.021AGQ+0.984LNLVDK-1.0000     NotChecked  -16.9356    1519.6977   ✗       
+285   TWDC+57.021ANLNLVDK      -1.0000     NotChecked  -16.9622    1447.6766   ✗       
+286   TWDC+57.021ASALNLDDK     -1.0000     NotChecked  -16.9782    1507.6613   ✗       
+287   TTDC+57.021ASQLNLVDK     -1.0000     NotChecked  -17.0116    1463.6926   ✗       
+288   TWN+0.984C+57.021AGQLNLVDK-1.0000     NotChecked  -17.0299    1518.7137   ✗       
+289   TWDC+57.021ASAANLVDK     -1.0000     NotChecked  -17.0353    1449.6558   ✗       
+290   TWDC+57.021ASQLNVVDK     -1.0000     NotChecked  -17.0439    1534.7086   ✗       
+291   TWDC+57.021ASALNLVDK     -1.0000     NotChecked  -17.0472    1491.7028   ✗       
+292   TWDC+57.021ANALNLVDK     -1.0000     NotChecked  -17.1420    1518.7137   ✗       
+293   VWDC+57.021ASQLNLVDK     -1.0000     NotChecked  -17.1435    1546.7450   ✗       
+294   TWDC+57.021ASALNLVDK     -1.0000     NotChecked  -17.1441    1491.7028   ✗       
+295   TWDC+57.021ASTLNLVN+0.984K-1.0000     NotChecked  -17.1696    1521.7133   ✗       
+296   TWDC+57.021ASQLNLVAK     -1.0000     NotChecked  -17.1735    1504.7344   ✗       
+297   TWDC+57.021ASNLNLVDK     -1.0000     NotChecked  -17.1743    1534.7086   ✗       
+298   TWN+0.984C+57.021AGALNLVDK-1.0000     NotChecked  -17.1812    1461.6922   ✗       
+299   TWDC+57.021ASALNVVDK     -1.0000     NotChecked  -17.1952    1477.6871   ✗       
+300   TWDC+57.021ASALNLVDK     -1.0000     NotChecked  -17.2388    1491.7028   ✗       
+301   TYDC+57.021ASQLNLVDK     -1.0000     NotChecked  -17.2561    1525.7083   ✗       
+302   TWDC+57.021ASALNLEDK     -1.0000     NotChecked  -17.2665    1521.6770   ✗       
+303   VWDC+57.021ASALNLVDK     -1.0000     NotChecked  -17.2949    1489.7235   ✗       
+304   TWDC+57.021ASALNLVDK     -1.0000     NotChecked  -17.3131    1491.7028   ✗       
+305   TWDC+57.021ASALNLVAK     -1.0000     NotChecked  -17.3249    1447.7129   ✗       
+306   TC+57.021DC+57.021ASQLNLVDK-1.0000     NotChecked  -17.3469    1522.6756   ✗       
+307   TWN+0.984C+57.021ASSLNLVDK-1.0000     NotChecked  -17.3667    1507.6977   ✗       
+308   TWN+0.984C+57.021AQLNLVDK-1.0000     NotChecked  -17.3865    1461.6922   ✗       
+309   TLDC+57.021ASQLNLVDK     -1.0000     NotChecked  -17.3946    1475.7290   ✗       
+310   TWN+0.984C+57.021ASQLPLVDK-1.0000     NotChecked  -17.4102    1531.7341   ✗       
+311   TWDC+57.021ASQGNLVDK     -1.0000     NotChecked  -17.4378    1492.6616   ✗       
+312   TWN+0.984C+57.021ASLLNLVDK-1.0000     NotChecked  -17.4443    1533.7497   ✗       
+313   TWTC+57.021ASQLNLVDK     -1.0000     NotChecked  -17.4579    1534.7450   ✗       
+314   TWDC+57.021ASQLNLVDG     -1.0000     NotChecked  -17.4879    1477.6507   ✗       
+315   TWN+0.984C+57.021ASQLVLVDK-1.0000     NotChecked  -17.4886    1533.7497   ✗       
+316   TWN+0.984C+57.021ATALNLVDK-1.0000     NotChecked  -17.5142    1505.7184   ✗       
+317   TLDC+57.021ASALNLVDK     -1.0000     NotChecked  -17.5460    1418.7075   ✗       
+318   TVDC+57.021ASQLNLVDK     -1.0000     NotChecked  -17.5655    1461.7133   ✗       
+319   TWDC+57.021ASALNLVVK     -1.0000     NotChecked  -17.5661    1475.7442   ✗       
+320   TWDC+57.021ASAGNLVDK     -1.0000     NotChecked  -17.5891    1435.6402   ✗       
+321   TWTC+57.021ASALNLVDK     -1.0000     NotChecked  -17.6092    1477.7235   ✗       
+322   TWDC+57.021ANALNLVN+0.984K-1.0000     NotChecked  -17.6110    1518.7137   ✗       
+323   TWN+0.984C+57.021ASQLLLVDK-1.0000     NotChecked  -17.6348    1547.7654   ✗       
+324   TWDC+57.021ASQLGLVDK     -1.0000     NotChecked  -17.6418    1491.7028   ✗       
+325   TWDC+57.021ASNLNLVN+0.984K-1.0000     NotChecked  -17.6433    1534.7086   ✗       
+326   TWDC+57.021AGTLNLVDK     -1.0000     NotChecked  -17.6470    1491.7028   ✗       
+327   TWDC+57.021ASQLNLADK     -1.0000     NotChecked  -17.6573    1520.6929   ✗       
+328   TWN+0.984C+57.021ASQLNPVDK-1.0000     NotChecked  -17.6590    1532.6929   ✗       
+329   TWN+0.984C+57.021ASALNLVDK-1.0000     NotChecked  -17.6719    1491.7028   ✗       
+330   TWN+0.984C+57.021ASTLNLVDK-1.0000     NotChecked  -17.7043    1521.7133   ✗       
+331   TADC+57.021ASQLNLVDK     -1.0000     NotChecked  -17.8030    1433.6820   ✗       
+332   TWDC+57.021ASALNLADK     -1.0000     NotChecked  -17.8086    1463.6715   ✗       
+333   TWDSASQLNLVDK            -1.0000     NotChecked  -17.8472    1475.7256   ✗       
+334   TWDC+57.021ASQLNLVDN+0.984-1.0000     NotChecked  -17.8781    1535.6562   ✗       
+335   TWDC+57.021ASQLNLVDT     -1.0000     NotChecked  -17.9022    1521.6769   ✗       
+336   TWDC+57.021ASVLNLVDK     -1.0000     NotChecked  -17.9736    1519.7341   ✗       
+337   TWDC+57.021ATTLNLVDK     -1.0000     NotChecked  -17.9800    1535.7290   ✗       
+338   TWDC+57.021ASQLNLVDS     -1.0000     NotChecked  -17.9855    1507.6613   ✗       
+339   TWDC+57.021ASALNQVDK     -1.0000     NotChecked  -17.9908    1506.6773   ✗       
+340   TWN+0.984C+57.021ASQVNLVDK-1.0000     NotChecked  -18.0466    1534.7086   ✗       
+341   TWDC+57.021ASAQNLVDK     -1.0000     NotChecked  -18.0512    1506.6773   ✗       
+342   TWDC+57.021ASLNLVDK      -1.0000     NotChecked  -18.0792    1420.6657   ✗       
+343   TWDC+57.021ASQLGLVN+0.984K-1.0000     NotChecked  -18.1107    1491.7028   ✗       
+344   TWDC+57.021ASALNLLDK     -1.0000     NotChecked  -18.1150    1505.7184   ✗       
+345   TWDC+57.021AGNLNLVDK     -1.0000     NotChecked  -18.1207    1504.6980   ✗       
+346   TWDC+57.021AALNLVDK      -1.0000     NotChecked  -18.1263    1404.6707   ✗       
+347   TWDC+57.021ASAENLVDK     -1.0000     NotChecked  -18.1304    1507.6613   ✗       
+348   TWDC+57.021ASALNLVEK     -1.0000     NotChecked  -18.1321    1505.7184   ✗       
+349   TWDC+57.021ASTLNLVDK     -1.0000     NotChecked  -18.1376    1521.7133   ✗       
+350   TWN+0.984C+57.021ANALNLVDK-1.0000     NotChecked  -18.1457    1518.7137   ✗       
+351   TWDC+57.021ASQLNLVDV     -1.0000     NotChecked  -18.1491    1519.6977   ✗       
+352   TWDC+57.021ASALPLVDK     -1.0000     NotChecked  -18.1501    1474.7126   ✗       
+353   TWDC+57.021ASALQLVDK     -1.0000     NotChecked  -18.1608    1505.7184   ✗       
+354   TWDC+57.021ASALNLVDK     -1.0000     NotChecked  -18.1734    1491.7028   ✗       
+355   TWN+0.984C+57.021ASNLNLVDK-1.0000     NotChecked  -18.1780    1534.7086   ✗       
+356   TWDC+57.021ASALVLVDK     -1.0000     NotChecked  -18.2284    1476.7283   ✗       
+357   TWN+0.984C+57.021AAQLNLVDK-1.0000     NotChecked  -18.2325    1532.7293   ✗       
+358   TWDC+57.021ASALNLVDK     -1.0000     NotChecked  -18.2626    1491.7028   ✗       
+359   TWDC+57.021SALNLVDK      -1.0000     NotChecked  -18.2674    1420.6657   ✗       
+360   TWDC+57.021ANSLNLVDK     -1.0000     NotChecked  -18.2739    1534.7086   ✗       
+361   TWDC+57.021AGQLNLVDK     -1.0000     NotChecked  -18.2857    1518.7137   ✗       
+362   TWDC+57.021ASALNLVDV     -1.0000     NotChecked  -18.3004    1462.6762   ✗       
+363   TWDC+57.021ASALNLVDK     -1.0000     NotChecked  -18.3010    1491.7028   ✗       
+364   TWDC+57.021ASALLLVDK     -1.0000     NotChecked  -18.3747    1490.7439   ✗       
+365   TWDC+57.021ASALNPVDK     -1.0000     NotChecked  -18.3988    1475.6715   ✗       
+366   TWN+0.984C+57.021ASQLNLVK-1.0000     NotChecked  -18.4417    1433.6973   ✗       
+367   TWDC+57.021ASVLNLVN+0.984K-1.0000     NotChecked  -18.4425    1519.7341   ✗       
+368   TWDC+57.021ASALNLNDK     -1.0000     NotChecked  -18.4544    1506.6773   ✗       
+369   TWDC+57.021ASALNLVDR     -1.0000     NotChecked  -18.4766    1519.7089   ✗       
+370   TWDC+57.021AGSLNLVDK     -1.0000     NotChecked  -18.4892    1477.6871   ✗       
+371   TWN+0.984C+57.021ASALNLVDK-1.0000     NotChecked  -18.4943    1491.7028   ✗       
+372   TWN+0.984C+57.021ASQLALVDK-1.0000     NotChecked  -18.5141    1505.7184   ✗       
+373   TWDC+57.021ASLNLVN+0.984K-1.0000     NotChecked  -18.5482    1420.6657   ✗       
+374   TWDC+57.021ASQ+0.984LGLVDK-1.0000     NotChecked  -18.5511    1492.6868   ✗       
+375   TWDC+57.021AGQLGLVDK     -1.0000     NotChecked  -18.5881    1461.6922   ✗       
+376   TWN+0.984C+57.021ASQLNLVD-1.0000     NotChecked  -18.5903    1420.6293   ✗       
+377   TWDC+57.021AGQLNLVDK     -1.0000     NotChecked  -18.6057    1518.7137   ✗       
+378   TWDC+57.021AGSLNLVDK     -1.0000     NotChecked  -18.6104    1477.6871   ✗       
+379   TWDC+57.021ASNLNLVDK     -1.0000     NotChecked  -18.6113    1534.7086   ✗       
+380   TWN+0.984C+57.021ASQLGLVDK-1.0000     NotChecked  -18.6454    1491.7028   ✗       
+381   TWSC+57.021ASQLNLVDK     -1.0000     NotChecked  -18.6701    1520.7293   ✗       
+382   TWDC+57.021GSALNLVDK     -1.0000     NotChecked  -18.6779    1477.6871   ✗       
+383   TWDC+57.021ASALNLVDK     -1.0000     NotChecked  -18.6816    1491.7028   ✗       
+384   TWN+0.984C+57.021ASQLNLVK-1.0000     NotChecked  -18.6992    1433.6973   ✗       
+385   TWNC+57.021ASALNLVDK     -1.0000     NotChecked  -18.7091    1490.7188   ✗       
+386   TWDC+57.021ASALNLVN+0.984K-1.0000     NotChecked  -18.7280    1491.7028   ✗       
+387   TWDC+57.021ASAMNLVDK     -1.0000     NotChecked  -18.7517    1509.6592   ✗       
+388   +43.006WN+0.984C+57.021ASQLNLVDK-1.0000     NotChecked  -18.7773    1490.6824   ✗       
+389   TWDC+57.021ASAVNLVDK     -1.0000     NotChecked  -18.7865    1477.6871   ✗       
+390   TWN+0.984C+57.021ASQLNLVLK-1.0000     NotChecked  -18.7946    1546.7814   ✗       
+391   TWN+0.984C+57.021ASALGLVDK-1.0000     NotChecked  -18.7968    1434.6813   ✗       
+392   TWN+0.984C+57.021ASALNLVDK-1.0000     NotChecked  -18.8143    1491.7028   ✗       
+393   TWC+57.021ASQLNLVDK      -1.0000     NotChecked  -18.8180    1433.6973   ✗       
+394   TWSC+57.021ASALNLVDK     -1.0000     NotChecked  -18.8214    1463.7079   ✗       
+395   TWDC+57.021ASALNKVDK     -1.0000     NotChecked  -18.8377    1506.7137   ✗       
+396   TWDC+57.021ASQLNLVVK     -1.0000     NotChecked  -18.8504    1532.7657   ✗       
+397   TWDC+57.021ASALNRVDK     -1.0000     NotChecked  -18.8515    1534.7198   ✗       
+398   TWDC+57.021AGVLNLVDK     -1.0000     NotChecked  -18.9200    1489.7235   ✗       
+399   TWDC+57.021ATQLGLVDK     -1.0000     NotChecked  -18.9211    1505.7184   ✗       
+400   TWDC+57.021ASQPNLVDK     -1.0000     NotChecked  -18.9346    1532.6929   ✗       
+401   AWDC+57.021ASQLNLVDK     -1.0000     NotChecked  -18.9353    1518.7137   ✗       
+402   TWN+0.984C+57.021ASQLNAVDK-1.0000     NotChecked  -18.9549    1506.6773   ✗       
+403   TWDC+57.021ASTLNLVDK     -1.0000     NotChecked  -18.9601    1521.7133   ✗       
+404   TWEC+57.021ASALNLVDK     -1.0000     NotChecked  -18.9603    1505.7184   ✗       
+405   TWDC+57.021ASALNNVDK     -1.0000     NotChecked  -18.9648    1492.6616   ✗       
+406   TWN+0.984C+57.021ASQLNLVSK-1.0000     NotChecked  -18.9650    1520.7293   ✗       
+407   TWC+57.021ASALNLVDK      -1.0000     NotChecked  -18.9693    1376.6758   ✗       
+408   TWDC+57.021AAALNLVDK     -1.0000     NotChecked  -18.9723    1475.7079   ✗       
+409   TWN+0.984C+57.021ASVLNLVDK-1.0000     NotChecked  -18.9773    1519.7341   ✗       
+410   +42.011WN+0.984C+57.021ASQLNLVDK-1.0000     NotChecked  -19.0168    1489.6871   ✗       
+411   TWDC+57.021ASALN+0.984LVDK-1.0000     NotChecked  -19.0249    1492.6868   ✗       
+412   TWDC+57.021AGLNLVDK      -1.0000     NotChecked  -19.0256    1390.6551   ✗       
+413   TWDC+57.021AGQLNLVDK     -1.0000     NotChecked  -19.0541    1518.7137   ✗       
+414   TWDC+57.021ASQLGLVDK     -1.0000     NotChecked  -19.0788    1491.7028   ✗       
+415   TWN+0.984C+57.021ASLNLVDK-1.0000     NotChecked  -19.0829    1420.6657   ✗       
+416   TWDC+57.021ASAPNLVDK     -1.0000     NotChecked  -19.0859    1475.6715   ✗       
+417   AWDC+57.021ASALNLVDK     -1.0000     NotChecked  -19.0866    1461.6922   ✗       
+418   TWGC+57.021ASQLNLVDK     -1.0000     NotChecked  -19.0997    1490.7188   ✗       
+419   TWDC+57.021ASALRLVDK     -1.0000     NotChecked  -19.1640    1533.7610   ✗       
+420   TWDC+57.021ASQNLVDK      -1.0000     NotChecked  -19.1808    1435.6402   ✗       
+421   TWDC+57.021ASALNLVK      -1.0000     NotChecked  -19.1816    1376.6758   ✗       
+422   TWN+0.984C+57.021ASQLNGVDK-1.0000     NotChecked  -19.1880    1492.6616   ✗       
+423   TWDC+57.021AGALNLVDK     -1.0000     NotChecked  -19.2054    1461.6922   ✗       
+424   TRN+0.984C+57.021ASQLNLVDK-1.0000     NotChecked  -19.2084    1518.7460   ✗       
+425   TMDC+57.021ASQLNLVDK     -1.0000     NotChecked  -19.2139    1493.6854   ✗       
+426   TWGC+57.021ASALNLVDK     -1.0000     NotChecked  -19.2511    1433.6973   ✗       
+427   TWDC+57.021ATVLNLVDK     -1.0000     NotChecked  -19.2529    1533.7497   ✗       
+428   TWDC+57.021ASALALVDK     -1.0000     NotChecked  -19.2540    1448.6970   ✗       
+429   TWDC+57.021ASTLGLVDK     -1.0000     NotChecked  -19.2626    1464.6919   ✗       
+430   TWN+0.984C+57.021ASALNLVDK-1.0000     NotChecked  -19.2627    1491.7028   ✗       
+431   TWDC+57.021AGQLNLVDK     -1.0000     NotChecked  -19.2778    1518.7137   ✗       
+432   TWDC+57.021ASTLNLVDK     -1.0000     NotChecked  -19.2801    1521.7133   ✗       
+433   TWN+0.984C+57.021AQALNLVDK-1.0000     NotChecked  -19.2973    1532.7293   ✗       
+434   TWDC+57.021ADALNLVDK     -1.0000     NotChecked  -19.3055    1519.6977   ✗       
+435   TWN+0.984C+57.021ASQANLVDK-1.0000     NotChecked  -19.3233    1506.6773   ✗       
+436   TWDC+57.021ASALNLVD      -1.0000     NotChecked  -19.3302    1363.6078   ✗       
+437   TWDC+57.021ASANLVDK      -1.0000     NotChecked  -19.3321    1378.6187   ✗       
+438   TWDC+57.021ASALNLVDK     -1.0000     NotChecked  -19.3459    1491.7028   ✗       
+439   TWDC+57.021ANQLNLVK      -1.0000     NotChecked  -19.3489    1460.7082   ✗       
+440   TWDC+57.021ATLNLVDK      -1.0000     NotChecked  -19.3586    1434.6813   ✗       
+441   TFDC+57.021ASQLNLVDK     -1.0000     NotChecked  -19.3628    1509.7133   ✗       
+442   TMDC+57.021ASALNLVDK     -1.0000     NotChecked  -19.3653    1436.6639   ✗       
+443   TWDC+57.021ASALNLN+0.984DK-1.0000     NotChecked  -19.3806    1507.6613   ✗       
+444   TWDC+57.021ASSLNLVDK     -1.0000     NotChecked  -19.3909    1507.6977   ✗       
+445   TWDC+57.021ANALNLVDK     -1.0000     NotChecked  -19.4015    1518.7137   ✗       
+446   TWDC+57.021ASVLNLVDK     -1.0000     NotChecked  -19.4106    1519.7341   ✗       
+447   TWDC+57.021AQLNLVDK      -1.0000     NotChecked  -19.4106    1461.6922   ✗       
+448   TWDC+57.021ASALNLMDK     -1.0000     NotChecked  -19.4188    1523.6748   ✗       
+449   TWDC+57.021ANQLALVDK     -1.0000     NotChecked  -19.4212    1532.7293   ✗       
+450   TWDC+57.021ASNLNLVDK     -1.0000     NotChecked  -19.4338    1534.7086   ✗       
+451   TWDC+57.021ASQLPLVDK     -1.0000     NotChecked  -19.4344    1531.7341   ✗       
+452   TWDC+57.021ASALNLVK      -1.0000     NotChecked  -19.4390    1376.6758   ✗       
+453   TWFC+57.021ASALNLVDK     -1.0000     NotChecked  -19.4464    1523.7442   ✗       
+454   TWDC+57.021ASLLNLVDK     -1.0000     NotChecked  -19.4685    1533.7497   ✗       
+455   TWN+0.984C+57.021ASQLNVVDK-1.0000     NotChecked  -19.4832    1534.7086   ✗       
+456   TWN+0.984C+57.021ASALNLVDK-1.0000     NotChecked  -19.4865    1491.7028   ✗       
+457   TWDC+57.021ANQLNLVD      -1.0000     NotChecked  -19.4975    1447.6402   ✗       
+458   TWDC+57.021ASQLVLVDK     -1.0000     NotChecked  -19.5127    1533.7497   ✗       
+459   TFDC+57.021ASALNLVDK     -1.0000     NotChecked  -19.5142    1452.6919   ✗       
+460   TWDC+57.021ASALNLVRK     -1.0000     NotChecked  -19.5158    1532.7769   ✗       
+461   TWDC+57.021ASLNLVDK      -1.0000     NotChecked  -19.5162    1420.6657   ✗       
+462   +43.006WDC+57.021ASALNLVDK-1.0000     NotChecked  -19.5172    1433.6609   ✗       
+463   TWDC+57.021AGQLNLVN+0.984K-1.0000     NotChecked  -19.5230    1518.7137   ✗       
+464   TWDC+57.021ASALNLVLK     -1.0000     NotChecked  -19.5345    1489.7599   ✗       
+465   TWDC+57.021ATALNLVDK     -1.0000     NotChecked  -19.5384    1505.7184   ✗       
+466   TWDC+57.021ANQLGLVDK     -1.0000     NotChecked  -19.5526    1518.7137   ✗       
+467   TWDC+57.021ASALNLQDK     -1.0000     NotChecked  -19.5606    1520.6929   ✗       
+468   TWDC+57.021ASQLNLVD      -1.0000     NotChecked  -19.5619    1420.6293   ✗       
+469   VWN+0.984C+57.021ASQLNLVDK-1.0000     NotChecked  -19.5828    1546.7450   ✗       
+470   TWDC+57.021AGQLNLVDK     -1.0000     NotChecked  -19.5853    1518.7137   ✗       
+471   TWDC+57.021ANQLNLVK      -1.0000     NotChecked  -19.6063    1460.7082   ✗       
+472   TWDC+57.021AGSLNLVDK     -1.0000     NotChecked  -19.6118    1477.6871   ✗       
+473   TWN+0.984C+57.021ASQLNLVAK-1.0000     NotChecked  -19.6129    1504.7344   ✗       
+474   TWDC+57.021AGGALNLVDK    -1.0000     NotChecked  -19.6154    1518.7137   ✗       
+475   TWDC+57.021ASQLLLVDK     -1.0000     NotChecked  -19.6590    1547.7654   ✗       
+476   TWDC+57.021ASALDLVDK     -1.0000     NotChecked  -19.6739    1492.6868   ✗       
+477   TWDC+57.021AGALNLVN+0.984K-1.0000     NotChecked  -19.6744    1461.6922   ✗       
+478   TWDC+57.021ASQLNPVDK     -1.0000     NotChecked  -19.6831    1532.6929   ✗       
+479   +43.006WDC+57.021ANQLNLVDK-1.0000     NotChecked  -19.6844    1517.6933   ✗       
+480   TWDC+57.021ASALNAVDK     -1.0000     NotChecked  -19.6948    1449.6558   ✗       
+481   TWDC+57.021ASALNLVDK     -1.0000     NotChecked  -19.6961    1491.7028   ✗       
+482   TWDC+57.021VSALNLVDK     -1.0000     NotChecked  -19.7030    1519.7341   ✗       
+483   TWDC+57.021ANALGLVDK     -1.0000     NotChecked  -19.7039    1461.6922   ✗       
+484   TWDC+57.021ASALNLVSK     -1.0000     NotChecked  -19.7049    1463.7079   ✗       
+485   TWDC+57.021ASALNLVD      -1.0000     NotChecked  -19.7133    1363.6078   ✗       
+486   TWDC+57.021ASALNLVDK     -1.0000     NotChecked  -19.7136    1491.7028   ✗       
+487   TWDC+57.021ANALNLVDK     -1.0000     NotChecked  -19.7215    1518.7137   ✗       
+488   MWDC+57.021ASALNLVDK     -1.0000     NotChecked  -19.7220    1521.6956   ✗       
+489   TWDC+57.021ASTLNLVDK     -1.0000     NotChecked  -19.7285    1521.7133   ✗       
+490   TWN+0.984C+57.021ASALNLVN+0.984K-1.0000     NotChecked  -19.7317    1491.7028   ✗       
+491   TWDC+57.021ASNLGLVDK     -1.0000     NotChecked  -19.7362    1477.6871   ✗       
+492   TWDC+57.021AGALNLVDK     -1.0000     NotChecked  -19.7366    1461.6922   ✗       
+493   TWDC+57.021ASALNLVDK     -1.0000     NotChecked  -19.7519    1491.7028   ✗       
+494   TWDC+57.021ASNLNLVDK     -1.0000     NotChecked  -19.7538    1534.7086   ✗       
+495   +42.011WDC+57.021ASALNLVDK-1.0000     NotChecked  -19.7567    1432.6657   ✗       
+496   TWDC+57.021ASQ+0.984LNLVVK-1.0000     NotChecked  -19.7597    1533.7497   ✗       
+497   NWDC+57.021ASALNLVDK     -1.0000     NotChecked  -19.7654    1504.6980   ✗       
+498   TWDC+57.021ASALNLVDK     -1.0000     NotChecked  -19.7729    1491.7028   ✗       
+499   LWDC+57.021ASALNLVDK     -1.0000     NotChecked  -19.7795    1503.7392   ✗       
+500   TWDC+57.021AGQLNLVVK     -1.0000     NotChecked  -19.7967    1502.7551   ✗       
+501   TWDC+57.021AGQLNLVDK     -1.0000     NotChecked  -19.8206    1518.7137   ✗       
+502   TLN+0.984C+57.021ASQLNLVDK-1.0000     NotChecked  -19.8340    1475.7290   ✗       
+503   TWN+0.984C+57.021ASQLNLVVK-1.0000     NotChecked  -19.8540    1532.7657   ✗       
+504   TWDC+57.021ASSLNLVN+0.984K-1.0000     NotChecked  -19.8599    1507.6977   ✗       
+505   TWDC+57.021ANQLNAVDK     -1.0000     NotChecked  -19.8620    1533.6882   ✗       
+506   TWDC+57.021ANQLNLVSK     -1.0000     NotChecked  -19.8721    1547.7402   ✗       
+507   TWN+0.984C+57.021ASQGNLVDK-1.0000     NotChecked  -19.8771    1492.6616   ✗       
+508   TWDC+57.021AQLNLVN+0.984K-1.0000     NotChecked  -19.8796    1461.6922   ✗       
+509   TWDC+57.021ANVLNLVDK     -1.0000     NotChecked  -19.8844    1546.7450   ✗       
+510   TWDC+57.021ASQLGLVDK     -1.0000     NotChecked  -19.9012    1491.7028   ✗       
+511   TWDC+57.021ASQLPLVN+0.984K-1.0000     NotChecked  -19.9033    1531.7341   ✗       
+512   +42.011WDC+57.021ANQLNLVDK-1.0000     NotChecked  -19.9240    1516.6980   ✗       
+513   TWDC+57.021ASALNGVDK     -1.0000     NotChecked  -19.9279    1435.6402   ✗       
+514   TWDC+57.021ASALNEVDK     -1.0000     NotChecked  -19.9290    1507.6613   ✗       
+515   TWDC+57.021ASLLNLVN+0.984K-1.0000     NotChecked  -19.9374    1533.7497   ✗       
+516   TWDC+57.021AGQLNLVDK     -1.0000     NotChecked  -19.9418    1518.7137   ✗       
+517   TRDC+57.021ASALNLVDK     -1.0000     NotChecked  -19.9483    1461.7246   ✗       
+518   TWDC+57.021ASTLNLVDK     -1.0000     NotChecked  -19.9523    1521.7133   ✗       
+519   TWDC+57.021AGQ+0.984LNLVDK-1.0000     NotChecked  -19.9634    1519.6977   ✗       
+520   EWDC+57.021ASALNLVDK     -1.0000     NotChecked  -19.9710    1519.6977   ✗       
+521   TWDC+57.021ASQLVLVN+0.984K-1.0000     NotChecked  -19.9817    1533.7497   ✗       
+522   TWDC+57.021ANLNLVDK      -1.0000     NotChecked  -19.9900    1447.6766   ✗       
+523   TWNC+57.021ASQLNLVDK     -1.0000     NotChecked  -19.9934    1547.7402   ✗       
+524   TWN+0.984C+57.021ASALNLVVK-1.0000     NotChecked  -20.0054    1475.7442   ✗       
+525   TWDC+57.021ASALNLDDK     -1.0000     NotChecked  -20.0061    1507.6613   ✗       
+526   TWDC+57.021ATALNLVN+0.984K-1.0000     NotChecked  -20.0074    1505.7184   ✗       
+527   TTDC+57.021ASQLNLVDK     -1.0000     NotChecked  -20.0395    1463.6926   ✗       
+528   TWDC+57.021ASAANLVDK     -1.0000     NotChecked  -20.0632    1449.6558   ✗       
+529   TWDC+57.021ASQVNLVDK     -1.0000     NotChecked  -20.0708    1534.7086   ✗       
+530   TWDC+57.021ANQLNGVDK     -1.0000     NotChecked  -20.0952    1519.6725   ✗       
+531   TWN+0.984C+57.021ASQLNLADK-1.0000     NotChecked  -20.0966    1520.6929   ✗       
+532   TRDC+57.021ANQLNLVDK     -1.0000     NotChecked  -20.1156    1545.7569   ✗       
+533   TWDC+57.021ASQLLLVN+0.984K-1.0000     NotChecked  -20.1280    1547.7654   ✗       
+534   TWDC+57.021ATQLNLVVK     -1.0000     NotChecked  -20.1297    1546.7813   ✗       
+535   TWDC+57.021ASQLNPVN+0.984K-1.0000     NotChecked  -20.1521    1532.6929   ✗       
+536   TWDC+57.021ASALNLVN+0.984K-1.0000     NotChecked  -20.1650    1491.7028   ✗       
+537   TWDC+57.021ANALNLVDK     -1.0000     NotChecked  -20.1698    1518.7137   ✗       
+538   TWDC+57.021ASALNLVDK     -1.0000     NotChecked  -20.1720    1491.7028   ✗       
+539   TTDC+57.021ASALNLVDK     -1.0000     NotChecked  -20.1908    1406.6711   ✗       
+540   TWDC+57.021ASTLNLVN+0.984K-1.0000     NotChecked  -20.1974    1521.7133   ✗       
+541   TWDC+57.021ASNLNLVDK     -1.0000     NotChecked  -20.2022    1534.7086   ✗       
+542   TWN+0.984C+57.021AGALNLVDK-1.0000     NotChecked  -20.2091    1461.6922   ✗       
+543   TWDC+57.021ASQLGLVDK     -1.0000     NotChecked  -20.2212    1491.7028   ✗       
+544   TWDC+57.021AGQLNQVDK     -1.0000     NotChecked  -20.2215    1533.6882   ✗       
+545   TWDC+57.021ASALNVVDK     -1.0000     NotChecked  -20.2231    1477.6871   ✗       
+546   TWDC+57.021LSALNLVDK     -1.0000     NotChecked  -20.2252    1533.7497   ✗       
+547   TWDC+57.021ANQANLVDK     -1.0000     NotChecked  -20.2304    1533.6882   ✗       
+548   TWDC+57.021ASVLNLVDK     -1.0000     NotChecked  -20.2330    1519.7341   ✗       
+549   TWDC+57.021AAQLNLVDK     -1.0000     NotChecked  -20.2567    1532.7293   ✗       
+550   TWDC+57.021ASALNLVDK     -1.0000     NotChecked  -20.2667    1491.7028   ✗       
+551   TYDC+57.021ASQLNLVDK     -1.0000     NotChecked  -20.2839    1525.7083   ✗       
+552   TWDC+57.021ASQLNLVVK     -1.0000     NotChecked  -20.2874    1532.7657   ✗       
+553   TWDC+57.021ASALNLEDK     -1.0000     NotChecked  -20.2943    1521.6770   ✗       
+554   TWDC+57.021AQ+0.984LNLVDK-1.0000     NotChecked  -20.3200    1462.6762   ✗       
+555   VWDC+57.021ASALNLVDK     -1.0000     NotChecked  -20.3227    1489.7235   ✗       
+556   TWDC+57.021AGSLNLVDK     -1.0000     NotChecked  -20.3373    1477.6871   ✗       
+557   TWDC+57.021ASLNLVDK      -1.0000     NotChecked  -20.3387    1420.6657   ✗       
+558   TWDC+57.021ASALNLVDK     -1.0000     NotChecked  -20.3405    1491.7028   ✗       
+559   TWDC+57.021ASALNLVDK     -1.0000     NotChecked  -20.3409    1491.7028   ✗       
+560   TWDC+57.021ASQ+0.984LPLVDK-1.0000     NotChecked  -20.3437    1532.7181   ✗       
+561   TWDC+57.021AGQLNLLDK     -1.0000     NotChecked  -20.3457    1532.7293   ✗       
+562   TWDC+57.021ASALNLVAK     -1.0000     NotChecked  -20.3527    1447.7129   ✗       
+563   TWDC+57.021AGQLNLVEK     -1.0000     NotChecked  -20.3628    1532.7293   ✗       
+564   TC+57.021DC+57.021ASQLNLVDK-1.0000     NotChecked  -20.3747    1522.6756   ✗       
+565   TWDC+57.021AGQLPLVDK     -1.0000     NotChecked  -20.3807    1501.7235   ✗       
+566   TWDC+57.021AGQLQLVDK     -1.0000     NotChecked  -20.3915    1532.7293   ✗       
+567   TWDC+57.021ANALNLVDK     -1.0000     NotChecked  -20.3936    1518.7137   ✗       
+568   TWN+0.984C+57.021ASSLNLVDK-1.0000     NotChecked  -20.3946    1507.6977   ✗       
+569   TWN+0.984C+57.021AQLNLVDK-1.0000     NotChecked  -20.4143    1461.6922   ✗       
+570   TWDC+57.021AGLLNLVDK     -1.0000     NotChecked  -20.4149    1503.7392   ✗       
+571   TYDC+57.021ASALNLVDK     -1.0000     NotChecked  -20.4353    1468.6868   ✗       
+572   TWDC+57.021ASQLNLVK      -1.0000     NotChecked  -20.4659    1433.6973   ✗       
+573   TWDC+57.021ASALNLVDK     -1.0000     NotChecked  -20.5185    1491.7028   ✗       
+574   TC+57.021DC+57.021ASALNLVDK-1.0000     NotChecked  -20.5261    1465.6541   ✗       
+575   TWDC+57.021ASQLALVDK     -1.0000     NotChecked  -20.5383    1505.7184   ✗       
+576   TLDC+57.021ASALNLVDK     -1.0000     NotChecked  -20.5738    1418.7075   ✗       
+577   TVDC+57.021ASQLNLVDK     -1.0000     NotChecked  -20.5934    1461.7133   ✗       
+578   +43.006WDC+57.021AGSQLNLVDK-1.0000     NotChecked  -21.2115    1547.7038   ✗       
+579   +43.006WDC+57.021ASQLNLVN+0.984K-1.0000     NotChecked  -21.2704    1490.6824   ✗       
+580   +43.006WDC+57.021AGSQLNLVDK-1.0000     NotChecked  -21.3327    1547.7038   ✗       
+581   AWN+0.984C+57.021ASQLNLVDK-1.0000     NotChecked  -21.3746    1518.7137   ✗       
+582   +42.011WDC+57.021AGSQLNLVDK-1.0000     NotChecked  -21.4510    1546.7086   ✗       
+583   +42.011WDC+57.021ASQLNLVN+0.984K-1.0000     NotChecked  -21.5100    1489.6871   ✗       
+584   +42.011WDC+57.021AGSQLNLVDK-1.0000     NotChecked  -21.5722    1546.7086   ✗       
+585   +43.006WDC+57.021ASQ+0.984LNLVDK-1.0000     NotChecked  -21.7108    1491.6664   ✗       
+586   +43.006WDC+57.021AGQLNLVDK-1.0000     NotChecked  -21.7479    1460.6718   ✗       
+587   +43.006WN+0.984C+57.021ASQLNLVDK-1.0000     NotChecked  -21.8052    1490.6824   ✗       
+588   +42.011WDC+57.021ASQ+0.984LNLVDK-1.0000     NotChecked  -21.9504    1490.6711   ✗       
+589   +43.006WN+0.984C+57.021ASALNLVDK-1.0000     NotChecked  -21.9565    1433.6609   ✗       
+590   +42.011WDC+57.021AGQLNLVDK-1.0000     NotChecked  -21.9874    1459.6766   ✗       
+591   +42.011WN+0.984C+57.021ASQLNLVDK-1.0000     NotChecked  -22.0447    1489.6871   ✗       
+592   VWDC+57.021ASQLNLVN+0.984K-1.0000     NotChecked  -22.0760    1546.7450   ✗       
+593   +43.006WDC+57.021ATQLNLVDK-1.0000     NotChecked  -22.0808    1504.6980   ✗       
+594   AWDC+57.021ASALNLVDK     -1.0000     NotChecked  -22.1145    1461.6922   ✗       
+595   MWN+0.984C+57.021ASALNLVDK-1.0000     NotChecked  -22.1613    1521.6956   ✗       
+596   +42.011WN+0.984C+57.021ASALNLVDK-1.0000     NotChecked  -22.1960    1432.6657   ✗       
+597   +43.006WDC+57.021ASQLNLVDK-1.0000     NotChecked  -22.2385    1490.6824   ✗       
+598   AWDC+57.021ANQLNLVDK     -1.0000     NotChecked  -22.2817    1545.7246   ✗       
+599   +42.011WDC+57.021ATQLNLVDK-1.0000     NotChecked  -22.3204    1503.7028   ✗       
+600   +43.006WDC+57.021AGSQLNLVDK-1.0000     NotChecked  -22.3341    1547.7038   ✗       
+601   +43.006WDC+57.021ASTLNLVDK-1.0000     NotChecked  -22.4223    1463.6715   ✗       
+602   +42.011WDC+57.021ASQLNLVDK-1.0000     NotChecked  -22.4780    1489.6871   ✗       
+603   VWDC+57.021ASQ+0.984LNLVDK-1.0000     NotChecked  -22.5164    1547.7290   ✗       
+604   VWDC+57.021AGQLNLVDK     -1.0000     NotChecked  -22.5534    1516.7344   ✗       
+605   +42.011WDC+57.021AGSQLNLVDK-1.0000     NotChecked  -22.5736    1546.7086   ✗       
+606   VWN+0.984C+57.021ASQLNLVDK-1.0000     NotChecked  -22.6107    1546.7450   ✗       
+607   +42.011WDC+57.021ASTLNLVDK-1.0000     NotChecked  -22.6618    1462.6762   ✗       
+608   +43.006WDC+57.021ANQLNLVDK-1.0000     NotChecked  -22.7123    1517.6933   ✗       
+609   VWN+0.984C+57.021ASALNLVDK-1.0000     NotChecked  -22.7620    1489.7235   ✗       
+610   NWDC+57.021ASALNLVDK     -1.0000     NotChecked  -22.7933    1504.6980   ✗       
+611   LWDC+57.021ASALNLVDK     -1.0000     NotChecked  -22.8073    1503.7392   ✗       
+612   +43.006WDC+57.021ANALNLVDK-1.0000     NotChecked  -22.8636    1460.6718   ✗       
+613   +43.006WDC+57.021ASNLNLVDK-1.0000     NotChecked  -22.8960    1476.6667   ✗       
+614   +42.011WDC+57.021ANQLNLVDK-1.0000     NotChecked  -22.9518    1516.6980   ✗       
+615   EWDC+57.021ASALNLVDK     -1.0000     NotChecked  -22.9989    1519.6977   ✗       
+616   VWDC+57.021ASQLNLVDK     -1.0000     NotChecked  -23.0440    1546.7450   ✗       
+617   +43.006WDC+57.021ASQLNLVDK-1.0000     NotChecked  -23.0609    1490.6824   ✗       
+618   +42.011WDC+57.021ANALNLVDK-1.0000     NotChecked  -23.1032    1459.6766   ✗       
+619   +42.011WDC+57.021ASNLNLVDK-1.0000     NotChecked  -23.1355    1475.6715   ✗       
+620   VWDC+57.021ASTLNLVDK     -1.0000     NotChecked  -23.2278    1519.7341   ✗       
+621   +42.011WDC+57.021ASQLNLVDK-1.0000     NotChecked  -23.3005    1489.6871   ✗       
+622   +43.006WDC+57.021ASQLGLVDK-1.0000     NotChecked  -23.3634    1433.6609   ✗       
+623   +43.006WDC+57.021ASQLNLVDK-1.0000     NotChecked  -23.3809    1490.6824   ✗       
+624   MWDC+57.021ASQLGLVDK     -1.0000     NotChecked  -23.5682    1521.6956   ✗       
+625   +42.011WDC+57.021ASQLGLVDK-1.0000     NotChecked  -23.6029    1432.6657   ✗       
+626   +42.011WDC+57.021ASQLNLVDK-1.0000     NotChecked  -23.6205    1489.6871   ✗       
+627   VWDC+57.021ANALNLVDK     -1.0000     NotChecked  -23.6692    1516.7344   ✗       
+628   +43.006WDC+57.021ASVLNLVDK-1.0000     NotChecked  -23.6952    1461.6922   ✗       
+629   VWDC+57.021ASNLNLVDK     -1.0000     NotChecked  -23.7015    1532.7293   ✗       
+630   +43.006WDC+57.021ASLNLVDK-1.0000     NotChecked  -23.8008    1362.6238   ✗       
+631   +43.006WDC+57.021AQQLNLVDK-1.0000     NotChecked  -23.8640    1531.7089   ✗       
+632   VWDC+57.021ASQLNLVDK     -1.0000     NotChecked  -23.8665    1546.7450   ✗       
+633   AWDC+57.021ASQLNLVN+0.984K-1.0000     NotChecked  -23.8677    1518.7137   ✗       
+634   +42.011WDC+57.021ASVLNLVDK-1.0000     NotChecked  -23.9348    1460.6970   ✗       
+635   +43.006TWDC+57.021ASALNLVDK-1.0000     NotChecked  -23.9807    1534.7086   ✗       
+636   MWDC+57.021ASLNLVDK      -1.0000     NotChecked  -24.0056    1450.6585   ✗       
+637   +42.011WDC+57.021ASLNLVDK-1.0000     NotChecked  -24.0404    1361.6286   ✗       
+638   +43.006WDC+57.021ASQLNLVDK-1.0000     NotChecked  -24.0531    1490.6824   ✗       
+639   +43.006WDC+57.021ASQLGNLVDK-1.0000     NotChecked  -24.0744    1547.7038   ✗       
+640   +42.011WDC+57.021AQQLNLVDK-1.0000     NotChecked  -24.1035    1530.7137   ✗       
+641   VWDC+57.021ASQLGLVDK     -1.0000     NotChecked  -24.1689    1489.7235   ✗       
+642   VWDC+57.021ASQLNLVDK     -1.0000     NotChecked  -24.1865    1546.7450   ✗       
+643   +42.011TWDC+57.021ASALNLVDK-1.0000     NotChecked  -24.2202    1533.7133   ✗       
+644   +43.006WDC+57.021AGSQLNLVDK-1.0000     NotChecked  -24.2393    1547.7038   ✗       
+645   +42.011WDC+57.021ASQLNLVDK-1.0000     NotChecked  -24.2927    1489.6871   ✗       
+646   +43.006WDC+57.021ASQLNLVN+0.984K-1.0000     NotChecked  -24.2983    1490.6824   ✗       
+647   AWDC+57.021ASQ+0.984LNLVDK-1.0000     NotChecked  -24.3081    1519.6977   ✗       
+648   +42.011WDC+57.021ASQLGNLVDK-1.0000     NotChecked  -24.3139    1546.7086   ✗       
+649   AWDC+57.021AGQLNLVDK     -1.0000     NotChecked  -24.3451    1488.7031   ✗       
+650   +43.006WDC+57.021AGSQLNLVDK-1.0000     NotChecked  -24.3605    1547.7038   ✗       
+651   +43.006WDC+57.021AGSALNLVDK-1.0000     NotChecked  -24.3907    1490.6824   ✗       
+652   AWN+0.984C+57.021ASQLNLVDK-1.0000     NotChecked  -24.4024    1518.7137   ✗       
+653   +43.006WDC+57.021ASALNLVN+0.984K-1.0000     NotChecked  -24.4496    1433.6609   ✗       
+654   +42.011WDC+57.021AGSQLNLVDK-1.0000     NotChecked  -24.4789    1546.7086   ✗       
+655   VWDC+57.021ASVLNLVDK     -1.0000     NotChecked  -24.5007    1517.7548   ✗       
+656   +43.006WDC+57.021AGSALNLVDK-1.0000     NotChecked  -24.5119    1490.6824   ✗       
+657   +42.011WDC+57.021ASQLNLVN+0.984K-1.0000     NotChecked  -24.5378    1489.6871   ✗       
+658   AWN+0.984C+57.021ASALNLVDK-1.0000     NotChecked  -24.5538    1461.6922   ✗       
+659   +43.006WDC+57.021ASQLNLVVK-1.0000     NotChecked  -24.5720    1474.7239   ✗       
+660   +42.011WDC+57.021AGSQLNLVDK-1.0000     NotChecked  -24.6001    1546.7086   ✗       
+661   VWDC+57.021ASLNLVDK      -1.0000     NotChecked  -24.6064    1418.6864   ✗       
+662   +42.011WDC+57.021AGSALNLVDK-1.0000     NotChecked  -24.6302    1489.6871   ✗       
+663   MWDC+57.021ASALNLVN+0.984K-1.0000     NotChecked  -24.6544    1521.6956   ✗       
+664   AWDC+57.021ATQLNLVDK     -1.0000     NotChecked  -24.6781    1532.7293   ✗       
+665   +42.011WDC+57.021ASALNLVN+0.984K-1.0000     NotChecked  -24.6892    1432.6657   ✗       
+666   +43.006WDC+57.021ASWLNLVDK-1.0000     Failed      -24.7216    1548.7031   ✓       
+667   +43.006WDC+57.021ASQ+0.984LNLVDK-1.0000     NotChecked  -24.7387    1491.6664   ✗       
+668   +42.011WDC+57.021AGSALNLVDK-1.0000     NotChecked  -24.7514    1489.6871   ✗       
+669   +43.006WDC+57.021AGQLNLVDK-1.0000     NotChecked  -24.7757    1460.6718   ✗       
+670   +42.011WDC+57.021ASQLNLVVK-1.0000     NotChecked  -24.8115    1473.7286   ✗       
+671   AWDC+57.021ASQLNLVDK     -1.0000     NotChecked  -24.8358    1518.7137   ✗       
+672   VWDC+57.021ASQLNLVDK     -1.0000     NotChecked  -24.8586    1546.7450   ✗       
+673   +43.006WDC+57.021AGALNLVDK-1.0000     NotChecked  -24.9271    1403.6504   ✗       
+674   +42.011WDC+57.021ASWLNLVDK-1.0000     NotChecked  -24.9611    1547.7079   ✗       
+675   +42.011WDC+57.021ASQ+0.984LNLVDK-1.0000     NotChecked  -24.9782    1490.6711   ✗       
+676   +43.006WN+0.984C+57.021ASALNLVDK-1.0000     NotChecked  -24.9844    1433.6609   ✗       
+677   +43.006WDC+57.021ASQLNQVDK-1.0000     NotChecked  -24.9968    1505.6569   ✗       
+678   +42.011WDC+57.021AGQLNLVDK-1.0000     NotChecked  -25.0152    1459.6766   ✗       
+679   AWDC+57.021ASTLNLVDK     -1.0000     NotChecked  -25.0196    1491.7028   ✗       
+680   NWDC+57.021AGQLNLVDK     -1.0000     NotChecked  -25.0240    1531.7089   ✗       
+681   LWDC+57.021AGQLNLVDK     -1.0000     NotChecked  -25.0380    1530.7501   ✗       
+682   VWDC+57.021ASQLNLVN+0.984K-1.0000     NotChecked  -25.1038    1546.7450   ✗       
+683   +43.006WDC+57.021ATQLNLVDK-1.0000     NotChecked  -25.1087    1504.6980   ✗       
+684   +43.006WDC+57.021ASSLNLVDK-1.0000     NotChecked  -25.1125    1449.6558   ✗       
+685   +43.006WDC+57.021ASQLNLLDK-1.0000     NotChecked  -25.1210    1504.6980   ✗       
+686   MWDC+57.021AGALNLVDK     -1.0000     NotChecked  -25.1319    1491.6850   ✗       
+687   +43.006WDC+57.021AQLNLVDK-1.0000     NotChecked  -25.1323    1403.6504   ✗       
+688   +43.006WDC+57.021ASGQLNLVDK-1.0000     NotChecked  -25.1336    1547.7038   ✗       
+689   +43.006WDC+57.021ASQLNLVEK-1.0000     NotChecked  -25.1380    1504.6980   ✗       
+690   +43.006WN+0.984C+57.021ANQLNLVDK-1.0000     NotChecked  -25.1516    1517.6933   ✗       
+691   +43.006WDC+57.021ASQLPLVDK-1.0000     NotChecked  -25.1560    1473.6922   ✗       
+692   +42.011WDC+57.021AGALNLVDK-1.0000     NotChecked  -25.1666    1402.6551   ✗       
+693   +43.006WDC+57.021ASQLQLVDK-1.0000     NotChecked  -25.1667    1504.6980   ✗       
+694   MWN+0.984C+57.021ASALNLVDK-1.0000     NotChecked  -25.1891    1521.6956   ✗       
+695   +43.006WDC+57.021ASLLNLVDK-1.0000     NotChecked  -25.1901    1475.7079   ✗       
+696   VWDC+57.021AGSALNLVDK    -1.0000     NotChecked  -25.1962    1546.7450   ✗       
+697   +42.011WN+0.984C+57.021ASALNLVDK-1.0000     NotChecked  -25.2239    1432.6657   ✗       
+698   EWDC+57.021AGQLNLVDK     -1.0000     NotChecked  -25.2295    1546.7086   ✗       
+699   NWN+0.984C+57.021ASALNLVDK-1.0000     NotChecked  -25.2326    1504.6980   ✗       
+700   +43.006WDC+57.021ASQLVLVDK-1.0000     NotChecked  -25.2344    1475.7079   ✗       
+701   +42.011WDC+57.021ASQLNQVDK-1.0000     NotChecked  -25.2363    1504.6616   ✗       
+702   LWN+0.984C+57.021ASALNLVDK-1.0000     NotChecked  -25.2466    1503.7392   ✗       
+703   VWDC+57.021ASALNLVN+0.984K-1.0000     NotChecked  -25.2552    1489.7235   ✗       
+704   +43.006WDC+57.021ATALNLVDK-1.0000     NotChecked  -25.2600    1447.6766   ✗       
+705   +43.006WDC+57.021ASQLNLVDK-1.0000     NotChecked  -25.2663    1490.6824   ✗       
+706   AWDC+57.021ANQLNLVDK     -1.0000     NotChecked  -25.3096    1545.7246   ✗       
+707   MWDC+57.021ASSLNLVDK     -1.0000     NotChecked  -25.3173    1537.6905   ✗       
+708   VWDC+57.021AGSALNLVDK    -1.0000     NotChecked  -25.3174    1546.7450   ✗       
+709   MWDC+57.021AQLNLVDK      -1.0000     NotChecked  -25.3371    1491.6850   ✗       
+710   +42.011WDC+57.021ATQLNLVDK-1.0000     NotChecked  -25.3482    1503.7028   ✗       
+711   +42.011WDC+57.021ASSLNLVDK-1.0000     NotChecked  -25.3521    1448.6606   ✗       
+712   +42.011WDC+57.021ASQLNLLDK-1.0000     NotChecked  -25.3605    1503.7028   ✗       
+713   +43.006WDC+57.021AGSQLNLVDK-1.0000     NotChecked  -25.3619    1547.7038   ✗       
+714   +42.011WDC+57.021AQLNLVDK-1.0000     NotChecked  -25.3718    1402.6551   ✗       
+715   +42.011WDC+57.021ASGQLNLVDK-1.0000     NotChecked  -25.3732    1546.7086   ✗       
+716   VWDC+57.021ASQLNLVVK     -1.0000     NotChecked  -25.3775    1530.7865   ✗       
+717   +42.011WDC+57.021ASQLNLVEK-1.0000     NotChecked  -25.3776    1503.7028   ✗       
+718   +43.006WDC+57.021ASQLLLVDK-1.0000     NotChecked  -25.3807    1489.7235   ✗       
+719   +42.011WN+0.984C+57.021ANQLNLVDK-1.0000     NotChecked  -25.3912    1516.6980   ✗       
+720   +42.011WDC+57.021ASQLPLVDK-1.0000     NotChecked  -25.3955    1472.6970   ✗       
+721   +43.006WDC+57.021ASQLNPVDK-1.0000     NotChecked  -25.4048    1474.6511   ✗       
+722   +42.011WDC+57.021ASQLQLVDK-1.0000     NotChecked  -25.4063    1503.7028   ✗       
+723   +43.006WDC+57.021ASALNLVDK-1.0000     NotChecked  -25.4177    1433.6609   ✗       
+724   +42.011WDC+57.021ASLLNLVDK-1.0000     NotChecked  -25.4297    1474.7126   ✗       
+725   EWN+0.984C+57.021ASALNLVDK-1.0000     NotChecked  -25.4382    1519.6977   ✗       
+726   +43.006WDC+57.021ASTLNLVDK-1.0000     NotChecked  -25.4501    1463.6715   ✗       
+727   AWDC+57.021ANALNLVDK     -1.0000     NotChecked  -25.4609    1488.7031   ✗       
+728   MWDC+57.021ATALNLVDK     -1.0000     NotChecked  -25.4648    1535.7112   ✗       
+729   +42.011WDC+57.021ASQLVLVDK-1.0000     NotChecked  -25.4739    1474.7126   ✗       
+730   +43.006WDC+57.021ASQLNLVDR-1.0000     NotChecked  -25.4825    1518.6885   ✗       
+731   +43.006WDC+57.021ASGQLNLVDK-1.0000     NotChecked  -25.4865    1547.7038   ✗       
+732   AWDC+57.021ASNLNLVDK     -1.0000     NotChecked  -25.4932    1504.6980   ✗       
+733   +42.011WDC+57.021ATALNLVDK-1.0000     NotChecked  -25.4996    1446.6813   ✗       
+734   +42.011WDC+57.021ASQLNLVDK-1.0000     NotChecked  -25.5059    1489.6871   ✗       
+735   +43.006WDC+57.021AGSALNLVDK-1.0000     NotChecked  -25.5133    1490.6824   ✗       
+736   VWDC+57.021ASQ+0.984LNLVDK-1.0000     NotChecked  -25.5442    1547.7290   ✗       
+737   VWDC+57.021AGQLNLVDK     -1.0000     NotChecked  -25.5812    1516.7344   ✗       
+738   +42.011WDC+57.021AGSQLNLVDK-1.0000     NotChecked  -25.6015    1546.7086   ✗       
+739   +42.011WDC+57.021ASQLLLVDK-1.0000     NotChecked  -25.6202    1488.7283   ✗       
+740   MWDC+57.021ASALNLVDK     -1.0000     NotChecked  -25.6225    1521.6956   ✗       
+741   +42.011WDC+57.021ASQLNPVDK-1.0000     NotChecked  -25.6443    1473.6558   ✗       
+742   +42.011WDC+57.021ASALNLVDK-1.0000     NotChecked  -25.6572    1432.6657   ✗       
+743   AWDC+57.021ASQLNLVDK     -1.0000     NotChecked  -25.6582    1518.7137   ✗       
+744   +43.006WDC+57.021ASQLNLVDK-1.0000     NotChecked  -25.6875    1490.6824   ✗       
+745   +42.011WDC+57.021ASTLNLVDK-1.0000     NotChecked  -25.6897    1462.6762   ✗       
+746   NWDC+57.021ASTLNLVDK     -1.0000     NotChecked  -25.6984    1534.7086   ✗       
+747   LWDC+57.021ASTLNLVDK     -1.0000     NotChecked  -25.7124    1533.7497   ✗       
+748   +43.006WNC+57.021ASQLNLVDK-1.0000     NotChecked  -25.7150    1489.6984   ✗       
+749   +42.011WDC+57.021ASQLNLVDR-1.0000     NotChecked  -25.7221    1517.6933   ✗       
+750   +42.011WDC+57.021ASGQLNLVDK-1.0000     NotChecked  -25.7261    1546.7086   ✗       
+751   VWDC+57.021AGALNLVDK     -1.0000     NotChecked  -25.7326    1459.7130   ✗       
+752   +42.011WDC+57.021AGSALNLVDK-1.0000     NotChecked  -25.7528    1489.6871   ✗       
+753   VWN+0.984C+57.021ASALNLVDK-1.0000     NotChecked  -25.7899    1489.7235   ✗       
+754   +43.006WDC+57.021ASQVNLVDK-1.0000     NotChecked  -25.7924    1476.6667   ✗       
+755   +43.006WDC+57.021ASQLNKVDK-1.0000     NotChecked  -25.8436    1505.6933   ✗       
+756   +43.006WDC+57.021ASQLNRVDK-1.0000     NotChecked  -25.8574    1533.6994   ✗       
+757   +43.006WDC+57.021ANALNLVDK-1.0000     NotChecked  -25.8915    1460.6718   ✗       
+758   VWDC+57.021ASSLNLVDK     -1.0000     NotChecked  -25.9181    1505.7184   ✗       
+759   +43.006WDC+57.021ASNLNLVDK-1.0000     NotChecked  -25.9238    1476.6667   ✗       
+760   +42.011WDC+57.021ASQLNLVDK-1.0000     NotChecked  -25.9271    1489.6871   ✗       
+761   VWDC+57.021AQLNLVDK      -1.0000     NotChecked  -25.9378    1459.7130   ✗       
+762   +42.011WNC+57.021ASQLNLVDK-1.0000     NotChecked  -25.9545    1488.7031   ✗       
+763   AWDC+57.021ASQLGLVDK     -1.0000     NotChecked  -25.9607    1461.6922   ✗       
+764   VWDC+57.021ASQLPLVDK     -1.0000     NotChecked  -25.9615    1529.7548   ✗       
+765   +43.006WEC+57.021ASQLNLVDK-1.0000     NotChecked  -25.9663    1504.6980   ✗       
+766   +43.006WDC+57.021ASQLNNVDK-1.0000     NotChecked  -25.9708    1491.6412   ✗       
+767   AWDC+57.021ASQLNLVDK     -1.0000     NotChecked  -25.9782    1518.7137   ✗       
+768   +43.006WDC+57.021AAQLNLVDK-1.0000     NotChecked  -25.9783    1474.6875   ✗       
+769   VWDC+57.021ASLLNLVDK     -1.0000     NotChecked  -25.9956    1531.7705   ✗       
+770   +43.006WDC+57.021ASQLN+0.984LVDK-1.0000     NotChecked  -26.0308    1491.6664   ✗       
+771   +42.011WDC+57.021ASQVNLVDK-1.0000     NotChecked  -26.0320    1475.6715   ✗       
+772   VWDC+57.021ASQLVLVDK     -1.0000     NotChecked  -26.0399    1531.7705   ✗       
+773   VWDC+57.021ATALNLVDK     -1.0000     NotChecked  -26.0656    1503.7392   ✗       
+774   VWDC+57.021ASQLNLVDK     -1.0000     NotChecked  -26.0719    1546.7450   ✗       
+775   +42.011WDC+57.021ASQLNKVDK-1.0000     NotChecked  -26.0832    1504.6980   ✗       
+776   +43.006WDC+57.021ASQLNLVDK-1.0000     NotChecked  -26.0888    1490.6824   ✗       
+777   +42.011WDC+57.021ASQLNRVDK-1.0000     NotChecked  -26.0970    1532.7042   ✗       
+778   +42.011WDC+57.021ANALNLVDK-1.0000     NotChecked  -26.1310    1459.6766   ✗       
+779   NWDC+57.021ANALNLVDK     -1.0000     NotChecked  -26.1397    1531.7089   ✗       
+780   LWDC+57.021ANALNLVDK     -1.0000     NotChecked  -26.1538    1530.7501   ✗       
+781   +42.011WDC+57.021ASNLNLVDK-1.0000     NotChecked  -26.1633    1475.6715   ✗       
+782   +43.006WDC+57.021ASQLRLVDK-1.0000     NotChecked  -26.1700    1532.7406   ✗       
+783   NWDC+57.021ASNLNLVDK     -1.0000     NotChecked  -26.1721    1547.7038   ✗       
+784   LWDC+57.021ASNLNLVDK     -1.0000     NotChecked  -26.1861    1546.7450   ✗       
+785   VWDC+57.021ASQLLLVDK     -1.0000     NotChecked  -26.1862    1545.7861   ✗       
+786   +43.006WDC+57.021ASQLNLVK-1.0000     NotChecked  -26.1876    1375.6554   ✗       
+787   +42.011WEC+57.021ASQLNLVDK-1.0000     NotChecked  -26.2058    1503.7028   ✗       
+788   VWDC+57.021ASQLNPVDK     -1.0000     NotChecked  -26.2103    1530.7137   ✗       
+789   +42.011WDC+57.021ASQLNNVDK-1.0000     NotChecked  -26.2103    1490.6460   ✗       
+790   +42.011WDC+57.021AAQLNLVDK-1.0000     NotChecked  -26.2178    1473.6922   ✗       
+791   VWDC+57.021ASALNLVDK     -1.0000     NotChecked  -26.2232    1489.7235   ✗       
+792   +43.006WDC+57.021ASALNLVDK-1.0000     NotChecked  -26.2401    1433.6609   ✗       
+793   VWDC+57.021ASTLNLVDK     -1.0000     NotChecked  -26.2556    1519.7341   ✗       
+794   +43.006WDC+57.021ASQLALVDK-1.0000     NotChecked  -26.2599    1447.6766   ✗       
+795   +42.011WDC+57.021ASQLN+0.984LVDK-1.0000     NotChecked  -26.2704    1490.6711   ✗       
+796   AWDC+57.021ASVLNLVDK     -1.0000     NotChecked  -26.2925    1489.7235   ✗       
+797   +43.006WDC+57.021ADQLNLVDK-1.0000     NotChecked  -26.3115    1518.6773   ✗       
+798   VWDC+57.021AGSALNLVDK    -1.0000     NotChecked  -26.3188    1546.7450   ✗       
+799   +42.011WDC+57.021ASQLNLVDK-1.0000     NotChecked  -26.3283    1489.6871   ✗       
+800   +43.006WDC+57.021ASQLNLVD-1.0000     NotChecked  -26.3362    1362.5874   ✗       
+801   EWDC+57.021ANALNLVDK     -1.0000     NotChecked  -26.3453    1546.7086   ✗       
+802   +43.006WDC+57.021ASQLNLVDK-1.0000     NotChecked  -26.3518    1490.6824   ✗       
+803   +43.006WDC+57.021ASQLGLVDK-1.0000     NotChecked  -26.3913    1433.6609   ✗       
+804   MWDC+57.021ASQLNLVK      -1.0000     NotChecked  -26.3924    1463.6901   ✗       
+805   AWDC+57.021ASLNLVDK      -1.0000     NotChecked  -26.3981    1390.6551   ✗       
+806   +43.006WDC+57.021ASQLNLVDK-1.0000     NotChecked  -26.4088    1490.6824   ✗       
+807   +42.011WDC+57.021ASQLRLVDK-1.0000     NotChecked  -26.4095    1531.7453   ✗       
+808   +42.011WDC+57.021ASQLNLVK-1.0000     NotChecked  -26.4271    1374.6602   ✗       
+809   MWDC+57.021ASALNLVDK     -1.0000     NotChecked  -26.4449    1521.6956   ✗       
+810   +43.006WDC+57.021ASQLNLVK-1.0000     NotChecked  -26.4450    1375.6554   ✗       
+811   MWDC+57.021ASQLALVDK     -1.0000     NotChecked  -26.4647    1535.7112   ✗       
+812   +42.011WDC+57.021ASALNLVDK-1.0000     NotChecked  -26.4797    1432.6657   ✗       
+813   VWDC+57.021ASQLNLVDK     -1.0000     NotChecked  -26.4931    1546.7450   ✗       
+814   +42.011WDC+57.021ASQLALVDK-1.0000     NotChecked  -26.4995    1446.6813   ✗       
+815   VWNC+57.021ASQLNLVDK     -1.0000     NotChecked  -26.5205    1545.7610   ✗       
+816   +43.006WDC+57.021ASQLNLVRK-1.0000     NotChecked  -26.5218    1531.7565   ✗       
+817   +43.006WDC+57.021ASQLNLVLK-1.0000     NotChecked  -26.5404    1488.7395   ✗       
+818   MWDC+57.021ASQLNLVD      -1.0000     NotChecked  -26.5410    1450.6221   ✗       
+819   +43.006WDC+57.021ASALGLVDK-1.0000     NotChecked  -26.5426    1376.6395   ✗       
+820   +42.011WDC+57.021ADQLNLVDK-1.0000     NotChecked  -26.5510    1517.6820   ✗       
+821   +43.006WDC+57.021ASALNLVDK-1.0000     NotChecked  -26.5601    1433.6609   ✗       
+822   +42.011WDC+57.021ASQLNLVD-1.0000     NotChecked  -26.5757    1361.5922   ✗       
+823   +42.011WDC+57.021ASQLNLVDK-1.0000     NotChecked  -26.5914    1489.6871   ✗       
+824   MWDC+57.021ASQLGLVDK     -1.0000     NotChecked  -26.5960    1521.6956   ✗       
+825   VWDC+57.021ASQVNLVDK     -1.0000     NotChecked  -26.5979    1532.7293   ✗       
+826   +42.011WDC+57.021ASQLGLVDK-1.0000     NotChecked  -26.6308    1432.6657   ✗       
+827   NWDC+57.021ASQLGLVDK     -1.0000     NotChecked  -26.6395    1504.6980   ✗       
+828   +42.011WDC+57.021ASQLNLVDK-1.0000     NotChecked  -26.6483    1489.6871   ✗       
+829   MWDC+57.021ASQLNLVK      -1.0000     NotChecked  -26.6498    1463.6901   ✗       
+830   AWDC+57.021ASQLNLVDK     -1.0000     NotChecked  -26.6504    1518.7137   ✗       
+831   LWDC+57.021ASQLGLVDK     -1.0000     NotChecked  -26.6535    1503.7392   ✗       
+832   +43.006WN+0.984C+57.021AGSQLNLVDK-1.0000     NotChecked  -26.6786    1547.7038   ✗       
+833   +43.006WDC+57.021ASQLDLVDK-1.0000     NotChecked  -26.6798    1491.6664   ✗       
+834   +42.011WDC+57.021ASQLNLVK-1.0000     NotChecked  -26.6845    1374.6602   ✗       
+835   VWDC+57.021ANALNLVDK     -1.0000     NotChecked  -26.6970    1516.7344   ✗       
+836   +43.006WDC+57.021ASQLNAVDK-1.0000     NotChecked  -26.7007    1448.6354   ✗       
+837   +43.006WDC+57.021ASQLNLVSK-1.0000     NotChecked  -26.7108    1462.6875   ✗       
+838   +43.006WDC+57.021ASVLNLVDK-1.0000     NotChecked  -26.7231    1461.6922   ✗       
+839   VWDC+57.021ASNLNLVDK     -1.0000     NotChecked  -26.7293    1532.7293   ✗       
+840   +43.006WN+0.984C+57.021ASQLNLVN+0.984K-1.0000     NotChecked  -26.7376    1490.6824   ✗       
+841   MWDC+57.021ASALGLVDK     -1.0000     NotChecked  -26.7474    1464.6741   ✗       
+842   +42.011WDC+57.021ASQLNLVRK-1.0000     NotChecked  -26.7613    1530.7613   ✗       
+843   MWDC+57.021ASALNLVDK     -1.0000     NotChecked  -26.7649    1521.6956   ✗       
+844   VWDC+57.021ASQLNNVDK     -1.0000     NotChecked  -26.7763    1547.7038   ✗       
+845   +42.011WDC+57.021ASQLNLVLK-1.0000     NotChecked  -26.7800    1487.7443   ✗       
+846   +42.011WDC+57.021ASALGLVDK-1.0000     NotChecked  -26.7821    1375.6442   ✗       
+847   VWDC+57.021AAQLNLVDK     -1.0000     NotChecked  -26.7838    1530.7501   ✗       
+848   +42.011WDC+57.021ASALNLVDK-1.0000     NotChecked  -26.7997    1432.6657   ✗       
+849   +43.006WN+0.984C+57.021AGSQLNLVDK-1.0000     NotChecked  -26.7999    1547.7038   ✗       
+850   +43.006WDC+57.021ASLNLVDK-1.0000     NotChecked  -26.8287    1362.6238   ✗       
+851   VWDC+57.021ASQLN+0.984LVDK-1.0000     NotChecked  -26.8363    1547.7290   ✗       
+852   EWDC+57.021ASQLGLVDK     -1.0000     NotChecked  -26.8451    1519.6977   ✗       
+853   +43.006WDC+57.021AQQLNLVDK-1.0000     NotChecked  -26.8918    1531.7089   ✗       
+854   VWDC+57.021ASQLNLVDK     -1.0000     NotChecked  -26.8943    1546.7450   ✗       
+855   AWDC+57.021ASQLNLVN+0.984K-1.0000     NotChecked  -26.8956    1518.7137   ✗       
+856   MWDC+57.021ASQLNAVDK     -1.0000     NotChecked  -26.9055    1536.6701   ✗       
+857   +42.011WN+0.984C+57.021AGSQLNLVDK-1.0000     NotChecked  -26.9182    1546.7086   ✗       
+858   +42.011WDC+57.021ASQLDLVDK-1.0000     NotChecked  -26.9194    1490.6711   ✗       
+859   +43.006WDC+57.021ASQLNGVDK-1.0000     NotChecked  -26.9338    1434.6198   ✗       
+860   +43.006WDC+57.021ASQLNEVDK-1.0000     NotChecked  -26.9349    1506.6409   ✗       
+861   +42.011WDC+57.021ASQLNAVDK-1.0000     NotChecked  -26.9403    1447.6402   ✗       
+862   +42.011WDC+57.021ASQLNLVSK-1.0000     NotChecked  -26.9503    1461.6922   ✗       
+863   +43.006RDC+57.021ASQLNLVDK-1.0000     NotChecked  -26.9542    1460.7042   ✗       
+864   +42.011WDC+57.021ASVLNLVDK-1.0000     NotChecked  -26.9626    1460.6970   ✗       
+865   NWDC+57.021ASVLNLVDK     -1.0000     NotChecked  -26.9713    1532.7293   ✗       
+866   +42.011WN+0.984C+57.021ASQLNLVN+0.984K-1.0000     NotChecked  -26.9772    1489.6871   ✗       
+867   LWDC+57.021ASVLNLVDK     -1.0000     NotChecked  -26.9853    1531.7705   ✗       
+868   AWDC+57.021AGSALNLVDK    -1.0000     NotChecked  -26.9879    1518.7137   ✗       
+869   VWDC+57.021ASQLNLVK      -1.0000     NotChecked  -26.9931    1431.7180   ✗       
+870   +43.006TWDC+57.021ASALNLVDK-1.0000     NotChecked  -27.0085    1534.7086   ✗       
+871   +43.006WDC+57.021ASQLNLDDK-1.0000     NotChecked  -27.0120    1506.6409   ✗       
+872   MWDC+57.021ASLNLVDK      -1.0000     NotChecked  -27.0335    1450.6585   ✗       
+873   +42.011WN+0.984C+57.021AGSQLNLVDK-1.0000     NotChecked  -27.0394    1546.7086   ✗       
+874   +43.006WDC+57.021AQALNLVDK-1.0000     NotChecked  -27.0432    1474.6875   ✗       
+875   VWDC+57.021ASALNLVDK     -1.0000     NotChecked  -27.0457    1489.7235   ✗       
+876   AWDC+57.021ASALNLVN+0.984K-1.0000     NotChecked  -27.0469    1461.6922   ✗       
+877   VWDC+57.021ASQLALVDK     -1.0000     NotChecked  -27.0654    1503.7392   ✗       
+878   +42.011WDC+57.021ASLNLVDK-1.0000     NotChecked  -27.0682    1361.6286   ✗       
+879   +43.006WDC+57.021ASQANLVDK-1.0000     NotChecked  -27.0691    1448.6354   ✗       
+880   NWDC+57.021ASLNLVDK      -1.0000     NotChecked  -27.0769    1433.6609   ✗       
+881   +43.006WDC+57.021ASQLNLVDK-1.0000     NotChecked  -27.0810    1490.6824   ✗       
+882   LWDC+57.021ASLNLVDK      -1.0000     NotChecked  -27.0910    1432.7021   ✗       
+883   +43.006WDC+57.021ASQLGNLVDK-1.0000     NotChecked  -27.1022    1547.7038   ✗       
+884   AWDC+57.021AGSALNLVDK    -1.0000     NotChecked  -27.1092    1518.7137   ✗       
+885   +42.011WDC+57.021AQQLNLVDK-1.0000     NotChecked  -27.1313    1530.7137   ✗       
+886   MWDC+57.021ASQLNGVDK     -1.0000     NotChecked  -27.1386    1522.6544   ✗       
+887   VWDC+57.021ASQLNLVD      -1.0000     NotChecked  -27.1417    1418.6500   ✗       
+888   VWDC+57.021ASQLNLVDK     -1.0000     NotChecked  -27.1574    1546.7450   ✗       
+889   AWDC+57.021ASQLNLVVK     -1.0000     NotChecked  -27.1693    1502.7551   ✗       
+890   +42.011WDC+57.021ASQLNGVDK-1.0000     NotChecked  -27.1734    1433.6245   ✗       
+891   +42.011WDC+57.021ASQLNEVDK-1.0000     NotChecked  -27.1745    1505.6457   ✗       
+892   EWDC+57.021ASVLNLVDK     -1.0000     NotChecked  -27.1769    1547.7290   ✗       
+893   +43.006WDC+57.021ASQLNLVDK-1.0000     NotChecked  -27.1779    1490.6824   ✗       
+894   +43.006WN+0.984C+57.021ASQ+0.984LNLVDK-1.0000     NotChecked  -27.1780    1491.6664   ✗       
+895   +42.011RDC+57.021ASQLNLVDK-1.0000     NotChecked  -27.1938    1459.7089   ✗       
+896   VWDC+57.021ASQLGLVDK     -1.0000     NotChecked  -27.1968    1489.7235   ✗       
+897   VWDC+57.021ASQLNLVDK     -1.0000     NotChecked  -27.2143    1546.7450   ✗       
+898   +43.006WN+0.984C+57.021AGQLNLVDK-1.0000     NotChecked  -27.2150    1460.6718   ✗       
+899   +43.006WDC+57.021ASQGLNLVDK-1.0000     NotChecked  -27.2189    1547.7038   ✗       
+900   +43.006WDC+57.021ASQLNVVDK-1.0000     NotChecked  -27.2290    1476.6667   ✗       
+901   +43.006WDC+57.021ASALNLVDK-1.0000     NotChecked  -27.2323    1433.6609   ✗       
+902   +42.011TWDC+57.021ASALNLVDK-1.0000     NotChecked  -27.2481    1533.7133   ✗       
+903   VWDC+57.021ASQLNLVK      -1.0000     NotChecked  -27.2505    1431.7180   ✗       
+904   +42.011WDC+57.021ASQLNLDDK-1.0000     NotChecked  -27.2515    1505.6457   ✗       
+905   +43.006WDC+57.021ASALGNLVDK-1.0000     NotChecked  -27.2536    1490.6824   ✗       
+906   +43.006WDC+57.021AWALNLVDK-1.0000     NotChecked  -27.2630    1532.7082   ✗       
+907   WWDC+57.021ASLNLVDK      -1.0000     NotChecked  -27.2661    1505.6973   ✗       
+908   +43.006WDC+57.021ASQLNLVDK-1.0000     NotChecked  -27.2726    1490.6824   ✗       
+909   MWDC+57.021ASQANLVDK     -1.0000     NotChecked  -27.2739    1536.6701   ✗       
+910   EWDC+57.021ASLNLVDK      -1.0000     NotChecked  -27.2825    1448.6606   ✗       
+911   +42.011WDC+57.021AQALNLVDK-1.0000     NotChecked  -27.2827    1473.6922   ✗       
+912   +43.006WDC+57.021ASQLNLEDK-1.0000     NotChecked  -27.3003    1520.6566   ✗       
+913   +43.006WDC+57.021AC+57.021ALNLVDK-1.0000     NotChecked  -27.3082    1506.6595   ✗       
+914   +42.011WDC+57.021ASQANLVDK-1.0000     NotChecked  -27.3087    1447.6402   ✗       
+915   +42.011WDC+57.021ASQLNLVDK-1.0000     NotChecked  -27.3205    1489.6871   ✗       
+916   AWDC+57.021ASQ+0.984LNLVDK-1.0000     NotChecked  -27.3360    1519.6977   ✗       
+917   +42.011WDC+57.021ASQLGNLVDK-1.0000     NotChecked  -27.3418    1546.7086   ✗       
+918   VWDC+57.021ASQLNLVLK     -1.0000     NotChecked  -27.3460    1544.8021   ✗       
+919   +43.006WDC+57.021ASQLNLVDK-1.0000     NotChecked  -27.3469    1490.6824   ✗       
+920   VWDC+57.021ASALGLVDK     -1.0000     NotChecked  -27.3481    1432.7021   ✗       
+921   +43.006WDC+57.021ASQLNLVAK-1.0000     NotChecked  -27.3587    1446.6926   ✗       
+922   VWDC+57.021ASALNLVDK     -1.0000     NotChecked  -27.3657    1489.7235   ✗       
+923   AWDC+57.021AGQLNLVDK     -1.0000     NotChecked  -27.3730    1488.7031   ✗       
+924   +42.011WDC+57.021ASQLNLVDK-1.0000     NotChecked  -27.4175    1489.6871   ✗       
+925   +42.011WN+0.984C+57.021ASQ+0.984LNLVDK-1.0000     NotChecked  -27.4175    1490.6711   ✗       
+926   +43.006WDC+57.021AGSALNLVDK-1.0000     NotChecked  -27.4185    1490.6824   ✗       
+927   MWDC+57.021ASALNLVDK     -1.0000     NotChecked  -27.4371    1521.6956   ✗       
+928   +42.011WN+0.984C+57.021AGQLNLVDK-1.0000     NotChecked  -27.4546    1459.6766   ✗       
+929   +42.011WDC+57.021ASQGLNLVDK-1.0000     NotChecked  -27.4584    1546.7086   ✗       
+930   +42.011WDC+57.021ASQLNVVDK-1.0000     NotChecked  -27.4685    1475.6715   ✗       
+931   +42.011WDC+57.021ASALNLVDK-1.0000     NotChecked  -27.4719    1432.6657   ✗       
+932   +43.006WDC+57.021ASALNLVN+0.984K-1.0000     NotChecked  -27.4775    1433.6609   ✗       
+933   VWDC+57.021ASQLDLVDK     -1.0000     NotChecked  -27.4854    1547.7290   ✗       
+934   +42.011WDC+57.021ASALGNLVDK-1.0000     NotChecked  -27.4931    1489.6871   ✗       
+935   +42.011WDC+57.021AWALNLVDK-1.0000     NotChecked  -27.5026    1531.7130   ✗       
+936   VWDC+57.021ASQLNAVDK     -1.0000     NotChecked  -27.5062    1504.6980   ✗       
+937   +43.006WDC+57.021ASQLNGLVDK-1.0000     NotChecked  -27.5093    1547.7038   ✗       
+938   +42.011WDC+57.021ASQLNLVDK-1.0000     NotChecked  -27.5122    1489.6871   ✗       
+939   VWDC+57.021ASQLNLVSK     -1.0000     NotChecked  -27.5163    1518.7501   ✗       
+940   AWDC+57.021AGALNLVDK     -1.0000     NotChecked  -27.5243    1431.6817   ✗       
+941   VWDC+57.021ASVLNLVDK     -1.0000     NotChecked  -27.5286    1517.7548   ✗       
+942   +43.006WDC+57.021AGSALNLVDK-1.0000     NotChecked  -27.5397    1490.6824   ✗       
+943   +42.011WDC+57.021ASQLNLEDK-1.0000     NotChecked  -27.5398    1519.6613   ✗       
+944   VWN+0.984C+57.021ASQLNLVN+0.984K-1.0000     NotChecked  -27.5431    1546.7450   ✗       
+945   +42.011WDC+57.021AC+57.021ALNLVDK-1.0000     NotChecked  -27.5478    1505.6643   ✗       
+946   +43.006WN+0.984C+57.021ATQLNLVDK-1.0000     NotChecked  -27.5480    1504.6980   ✗       
+947   MWDC+57.021ASQLNLVAK     -1.0000     NotChecked  -27.5635    1534.7272   ✗       
+948   +43.006LDC+57.021ASQLNLVDK-1.0000     NotChecked  -27.5798    1417.6871   ✗       
+949   AWN+0.984C+57.021ASALNLVDK-1.0000     NotChecked  -27.5816    1461.6922   ✗       
+950   +42.011WDC+57.021ASQLNLVDK-1.0000     NotChecked  -27.5864    1489.6871   ✗       
+951   AWDC+57.021ASQLNQVDK     -1.0000     NotChecked  -27.5940    1533.6882   ✗       
+952   +42.011WDC+57.021ASQLNLVAK-1.0000     NotChecked  -27.5982    1445.6973   ✗       
+953   +43.006WDC+57.021ASQLNLVVK-1.0000     NotChecked  -27.5998    1474.7239   ✗       
+954   +43.006WDC+57.021ASQGNLVDK-1.0000     NotChecked  -27.6229    1434.6198   ✗       
+955   VWDC+57.021ASLNLVDK      -1.0000     NotChecked  -27.6342    1418.6864   ✗       
+956   +43.006WTC+57.021ASQLNLVDK-1.0000     NotChecked  -27.6430    1476.7031   ✗       
+957   +43.006WDC+57.021ANQLNLVN+0.984K-1.0000     NotChecked  -27.6448    1517.6933   ✗       
+958   +42.011WDC+57.021AGSALNLVDK-1.0000     NotChecked  -27.6581    1489.6871   ✗       
+959   MWDC+57.021ASALNLVN+0.984K-1.0000     NotChecked  -27.6823    1521.6956   ✗       
+960   +43.006WN+0.984C+57.021ASQLNLVDK-1.0000     NotChecked  -27.7057    1490.6824   ✗       
+961   AWDC+57.021ATQLNLVDK     -1.0000     NotChecked  -27.7060    1532.7293   ✗       
+962   AWDC+57.021ASSLNLVDK     -1.0000     NotChecked  -27.7098    1477.6871   ✗       
+963   +42.011WDC+57.021ASALNLVN+0.984K-1.0000     NotChecked  -27.7170    1432.6657   ✗       
+964   AWDC+57.021ASQLNLLDK     -1.0000     NotChecked  -27.7183    1532.7293   ✗       
+965   NWDC+57.021ASALNLVN+0.984K-1.0000     NotChecked  -27.7257    1504.6980   ✗       
+966   AWDC+57.021AQLNLVDK      -1.0000     NotChecked  -27.7296    1431.6817   ✗       
+967   AWDC+57.021ASQLNLVEK     -1.0000     NotChecked  -27.7353    1532.7293   ✗       
+968   VWDC+57.021ASQLNGVDK     -1.0000     NotChecked  -27.7394    1490.6824   ✗       
+969   LWDC+57.021ASALNLVN+0.984K-1.0000     NotChecked  -27.7398    1503.7392   ✗       
+970   +42.011WDC+57.021ASQLNGLVDK-1.0000     NotChecked  -27.7488    1546.7086   ✗       
+971   AWN+0.984C+57.021ANQLNLVDK-1.0000     NotChecked  -27.7489    1545.7246   ✗       
+972   +43.006WDC+57.021ASWLNLVDK-1.0000     Failed      -27.7494    1548.7031   ✓       
+973   +43.006WDC+57.021ASALNLVVK-1.0000     NotChecked  -27.7512    1417.7024   ✗       
+974   AWDC+57.021ASQLPLVDK     -1.0000     NotChecked  -27.7533    1501.7235   ✗       
+975   VRDC+57.021ASQLNLVDK     -1.0000     NotChecked  -27.7598    1516.7668   ✗       
+976   AWDC+57.021ASQLQLVDK     -1.0000     NotChecked  -27.7640    1532.7293   ✗       
+977   +42.011WDC+57.021AGSALNLVDK-1.0000     NotChecked  -27.7793    1489.6871   ✗       
+978   MLDC+57.021ASQLNLVDK     -1.0000     NotChecked  -27.7846    1505.7218   ✗       
+979   AWDC+57.021ASLLNLVDK     -1.0000     NotChecked  -27.7874    1503.7392   ✗       
+980   +42.011WN+0.984C+57.021ATQLNLVDK-1.0000     NotChecked  -27.7876    1503.7028   ✗       
+981   +43.006WN+0.984C+57.021AGSQLNLVDK-1.0000     NotChecked  -27.8013    1547.7038   ✗       
+982   +42.011LDC+57.021ASQLNLVDK-1.0000     NotChecked  -27.8193    1416.6919   ✗       
+983   MWDC+57.021ASQGNLVDK     -1.0000     NotChecked  -27.8277    1522.6544   ✗       
+984   AWDC+57.021ASQLVLVDK     -1.0000     NotChecked  -27.8316    1503.7392   ✗       
+985   +42.011WDC+57.021ASQLNLVVK-1.0000     NotChecked  -27.8394    1473.7286   ✗       
+986   +43.006WDC+57.021ASQLNLADK-1.0000     NotChecked  -27.8424    1462.6511   ✗       
+987   +43.006WDC+57.021ASSALNLVDK-1.0000     NotChecked  -27.8479    1520.6929   ✗       
+988   NWDC+57.021ASQLNLVVK     -1.0000     NotChecked  -27.8481    1545.7610   ✗       
+989   VWDC+57.021AQALNLVDK     -1.0000     NotChecked  -27.8487    1530.7501   ✗       
+990   AWDC+57.021ATALNLVDK     -1.0000     NotChecked  -27.8573    1475.7079   ✗       
+991   LWDC+57.021ASQLNLVVK     -1.0000     NotChecked  -27.8621    1544.8021   ✗       
+992   +42.011WDC+57.021ASQGNLVDK-1.0000     NotChecked  -27.8624    1433.6245   ✗       
+993   AWDC+57.021ASQLNLVDK     -1.0000     NotChecked  -27.8636    1518.7137   ✗       
+994   VWDC+57.021ASQANLVDK     -1.0000     NotChecked  -27.8746    1504.6980   ✗       
+995   +42.011WTC+57.021ASQLNLVDK-1.0000     NotChecked  -27.8826    1475.7079   ✗       
+996   +42.011WDC+57.021ANQLNLVN+0.984K-1.0000     NotChecked  -27.8843    1516.6980   ✗       
+997   VWDC+57.021ASQLNLVDK     -1.0000     NotChecked  -27.8865    1546.7450   ✗       
+998   +43.006WN+0.984C+57.021ASTLNLVDK-1.0000     NotChecked  -27.8894    1463.6715   ✗       
+999   EWDC+57.021ASALNLVN+0.984K-1.0000     NotChecked  -27.9313    1519.6977   ✗       
+1000  +43.006WDC+57.021ASQLGNLVDK-1.0000     NotChecked  -27.9353    1547.7038   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: TWDC+57.021ANTLNLVDK
+Similarity: 0.4742
+De Novo Score: -15.5836
+Source: Prosit
+Correct: ✗
+

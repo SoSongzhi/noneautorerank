@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 246
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 616.3303
+Precursor charge: 2+
+Ground truth: GIIIYGPPGC+57.021GK
+Ground truth (normalized): GIIIYGPPGC+57.021GK
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 297
+Used for reranking: 297
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 297 (29.7%)
+Database matches: 266 (26.6%)
+Prosit predictions: 27 (2.7%)
+Failed: 4 (0.4%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.7807
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     GLLLYGPPGC+57.021GK      0.7807      Database    -0.1676     1230.6431   ✓       ✓
+2     GLLLYGPPGC+57.021GK      0.7807      Database    -2.4079     1230.6431   ✓       ✓
+3     GLLLYGPPGC+57.021GK      0.7807      Database    -2.8650     1230.6431   ✓       ✓
+4     GLLLYGPPGC+57.021GK      0.7807      Database    -5.1053     1230.6431   ✓       ✓
+5     GLLLYGPPGC+57.021GK      0.7807      Database    -7.0467     1230.6431   ✓       ✓
+6     GLLLYGPPGC+57.021GK      0.7807      Database    -8.8944     1230.6431   ✓       ✓
+7     GLLLYGPPGC+57.021GK      0.7807      Database    -9.2870     1230.6431   ✓       ✓
+8     GLLLYGPPGC+57.021GK      0.7807      Database    -9.7441     1230.6431   ✓       ✓
+9     GLLLYGPPGC+57.021GK      0.7807      Database    -10.6022    1230.6431   ✓       ✓
+10    GLLLYGPPGC+57.021GK      0.7807      Database    -10.9213    1230.6431   ✓       ✓
+11    GLLLYGPPGC+57.021GK      0.7807      Database    -11.1347    1230.6431   ✓       ✓
+12    GLLLYGPPGC+57.021GK      0.7807      Database    -11.4328    1230.6431   ✓       ✓
+13    GLLLYGPPGC+57.021GK      0.7807      Database    -11.4372    1230.6431   ✓       ✓
+14    GLLLYGPPGC+57.021GK      0.7807      Database    -11.5918    1230.6431   ✓       ✓
+15    GLLLYGPPGC+57.021GK      0.7807      Database    -11.9844    1230.6431   ✓       ✓
+16    GLLLYGPPGC+57.021GK      0.7807      Database    -12.0744    1230.6431   ✓       ✓
+17    GLLLYGPPGC+57.021GK      0.7807      Database    -12.8425    1230.6431   ✓       ✓
+18    GLLLYGPPGC+57.021GK      0.7807      Database    -13.1616    1230.6431   ✓       ✓
+19    GLLLYGPPGC+57.021GK      0.7807      Database    -13.2108    1230.6431   ✓       ✓
+20    GLLLYGPPGC+57.021GK      0.7807      Database    -13.2996    1230.6431   ✓       ✓
+21    GLLLYGPPGC+57.021GK      0.7807      Database    -13.6187    1230.6431   ✓       ✓
+22    GLLLYGPPGC+57.021GK      0.7807      Database    -13.6731    1230.6431   ✓       ✓
+23    GLLLYGPPGC+57.021GK      0.7807      Database    -13.6775    1230.6431   ✓       ✓
+24    GLLLYGPPGC+57.021GK      0.7807      Database    -13.8321    1230.6431   ✓       ✓
+25    GLLLYGPPGC+57.021GK      0.7807      Database    -13.9158    1230.6431   ✓       ✓
+26    GLLLYGPPGC+57.021GK      0.7807      Database    -14.1302    1230.6431   ✓       ✓
+27    GLLLYGPPGC+57.021GK      0.7807      Database    -14.1346    1230.6431   ✓       ✓
+28    GLLLYGPPGC+57.021GK      0.7807      Database    -14.3147    1230.6431   ✓       ✓
+29    GLLLYGPPGC+57.021GK      0.7807      Database    -14.7717    1230.6431   ✓       ✓
+30    GLLLYGPPGC+57.021GK      0.7807      Database    -15.4511    1230.6431   ✓       ✓
+31    GLLLYGPPGC+57.021GK      0.7807      Database    -15.5399    1230.6431   ✓       ✓
+32    GLLLYGPPGC+57.021GK      0.7807      Database    -15.7735    1230.6431   ✓       ✓
+33    GLLLYGPPGC+57.021GK      0.7807      Database    -15.8441    1230.6431   ✓       ✓
+34    GLLLYGPPGC+57.021GK      0.7807      Database    -15.8590    1230.6431   ✓       ✓
+35    GLLLYGPPGC+57.021GK      0.7807      Database    -15.9082    1230.6431   ✓       ✓
+36    GLLLYGPPGC+57.021GK      0.7807      Database    -16.1562    1230.6431   ✓       ✓
+37    GLLLYGPPGC+57.021GK      0.7807      Database    -16.2502    1230.6431   ✓       ✓
+38    GLLLYGPPGC+57.021GK      0.7807      Database    -16.3705    1230.6431   ✓       ✓
+39    GLLLYGPPGC+57.021GK      0.7807      Database    -16.3749    1230.6431   ✓       ✓
+40    GLLLYGPPGC+57.021GK      0.7807      Database    -16.5143    1230.6431   ✓       ✓
+41    GLLLYGPPGC+57.021GK      0.7807      Database    -16.6132    1230.6431   ✓       ✓
+42    GLLLYGPPGC+57.021GK      0.7807      Database    -17.0121    1230.6431   ✓       ✓
+43    GLLLYGPPGC+57.021GK      0.7807      Database    -17.4813    1230.6431   ✓       ✓
+44    GLLLYGPPGC+57.021GK      0.7807      Database    -17.5406    1230.6431   ✓       ✓
+45    GLLLYGPPGC+57.021GK      0.7807      Database    -17.8004    1230.6431   ✓       ✓
+46    GLLLYGPPGC+57.021GK      0.7807      Database    -18.0138    1230.6431   ✓       ✓
+47    GLLLYGPPGC+57.021GK      0.7807      Database    -18.0844    1230.6431   ✓       ✓
+48    GLLLYGPPGC+57.021GK      0.7807      Database    -18.1485    1230.6431   ✓       ✓
+49    GLLLYGPPGC+57.021GK      0.7807      Database    -18.1639    1230.6431   ✓       ✓
+50    GLLLYGPPGC+57.021GK      0.7807      Database    -18.3119    1230.6431   ✓       ✓
+51    GLLLYGPPGC+57.021GK      0.7807      Database    -18.3163    1230.6431   ✓       ✓
+52    GLLLYGPPGC+57.021GK      0.7807      Database    -18.3823    1230.6431   ✓       ✓
+53    GLLLYGPPGC+57.021GK      0.7807      Database    -18.4709    1230.6431   ✓       ✓
+54    GLLLYGPPGC+57.021GK      0.7807      Database    -18.4906    1230.6431   ✓       ✓
+55    GLLLYGPPGC+57.021GK      0.7807      Database    -18.5415    1230.6431   ✓       ✓
+56    GLLLYGPPGC+57.021GK      0.7807      Database    -18.7546    1230.6431   ✓       ✓
+57    GLLLYGPPGC+57.021GK      0.7807      Database    -18.8536    1230.6431   ✓       ✓
+58    GLLLYGPPGC+57.021GK      0.7807      Database    -18.9535    1230.6431   ✓       ✓
+59    GLLLYGPPGC+57.021GK      0.7807      Database    -19.2117    1230.6431   ✓       ✓
+60    GLLLYGPPGC+57.021GK      0.7807      Database    -19.3290    1230.6431   ✓       ✓
+61    GLLLYGPPGC+57.021GK      0.7807      Database    -19.6481    1230.6431   ✓       ✓
+62    GLLLYGPPGC+57.021GK      0.7807      Database    -19.7216    1230.6431   ✓       ✓
+63    GLLLYGPPGC+57.021GK      0.7807      Database    -20.0407    1230.6431   ✓       ✓
+64    GLLLYGPPGC+57.021GK      0.7807      Database    -20.0899    1230.6431   ✓       ✓
+65    GLLLYGPPGC+57.021GK      0.7807      Database    -20.0921    1230.6431   ✓       ✓
+66    GLLLYGPPGC+57.021GK      0.7807      Database    -20.1595    1230.6431   ✓       ✓
+67    GLLLYGPPGC+57.021GK      0.7807      Database    -20.1640    1230.6431   ✓       ✓
+68    GLLLYGPPGC+57.021GK      0.7807      Database    -20.1787    1230.6431   ✓       ✓
+69    GLLLYGPPGC+57.021GK      0.7807      Database    -20.2380    1230.6431   ✓       ✓
+70    GLLLYGPPGC+57.021GK      0.7807      Database    -20.2608    1230.6431   ✓       ✓
+71    GLLLYGPPGC+57.021GK      0.7807      Database    -20.4043    1230.6431   ✓       ✓
+72    GLLLYGPPGC+57.021GK      0.7807      Database    -20.4978    1230.6431   ✓       ✓
+73    GLLLYGPPGC+57.021GK      0.7807      Database    -20.5522    1230.6431   ✓       ✓
+74    GLLLYGPPGC+57.021GK      0.7807      Database    -20.5566    1230.6431   ✓       ✓
+75    GLLLYGPPGC+57.021GK      0.7807      Database    -20.6226    1230.6431   ✓       ✓
+76    GLLLYGPPGC+57.021GK      0.7807      Database    -20.7112    1230.6431   ✓       ✓
+77    GLLLYGPPGC+57.021GK      0.7807      Database    -20.7818    1230.6431   ✓       ✓
+78    GLLLYGPPGC+57.021GK      0.7807      Database    -20.7949    1230.6431   ✓       ✓
+79    GLLLYGPPGC+57.021GK      0.7807      Database    -20.8011    1230.6431   ✓       ✓
+80    GLLLYGPPGC+57.021GK      0.7807      Database    -20.8613    1230.6431   ✓       ✓
+81    GLLLYGPPGC+57.021GK      0.7807      Database    -21.0093    1230.6431   ✓       ✓
+82    GLLLYGPPGC+57.021GK      0.7807      Database    -21.0137    1230.6431   ✓       ✓
+83    GLLLYGPPGC+57.021GK      0.7807      Database    -21.0663    1230.6431   ✓       ✓
+84    GLLLYGPPGC+57.021GK      0.7807      Database    -21.0797    1230.6431   ✓       ✓
+85    GLLLYGPPGC+57.021GK      0.7807      Database    -21.1938    1230.6431   ✓       ✓
+86    GLLLYGPPGC+57.021GK      0.7807      Database    -21.3559    1230.6431   ✓       ✓
+87    GLLLYGPPGC+57.021GK      0.7807      Database    -21.4520    1230.6431   ✓       ✓
+88    GLLLYGPPGC+57.021GK      0.7807      Database    -21.5218    1230.6431   ✓       ✓
+89    GLLLYGPPGC+57.021GK      0.7807      Database    -21.5693    1230.6431   ✓       ✓
+90    GLLLYGPPGC+57.021GK      0.7807      Database    -21.6333    1230.6431   ✓       ✓
+91    GLLLYGPPGC+57.021GK      0.7807      Database    -21.6508    1230.6431   ✓       ✓
+92    GLLLYGPPGC+57.021GK      0.7807      Database    -21.8673    1230.6431   ✓       ✓
+93    GLLLYGPPGC+57.021GK      0.7807      Database    -21.8717    1230.6431   ✓       ✓
+94    GLLLYGPPGC+57.021GK      0.7807      Database    -21.8884    1230.6431   ✓       ✓
+95    GLLLYGPPGC+57.021GK      0.7807      Database    -21.9376    1230.6431   ✓       ✓
+96    GLLLYGPPGC+57.021GK      0.7807      Database    -22.0264    1230.6431   ✓       ✓
+97    GLLLYGPPGC+57.021GK      0.7807      Database    -22.1865    1230.6431   ✓       ✓
+98    GLLLYGPPGC+57.021GK      0.7807      Database    -22.3302    1230.6431   ✓       ✓
+99    GLLLYGPPGC+57.021GK      0.7807      Database    -22.3325    1230.6431   ✓       ✓
+100   GLLLYGPPGC+57.021GK      0.7807      Database    -22.3455    1230.6431   ✓       ✓
+101   GLLLYGPPGC+57.021GK      0.7807      Database    -22.3999    1230.6431   ✓       ✓
+102   GLLLYGPPGC+57.021GK      0.7807      Database    -22.4043    1230.6431   ✓       ✓
+103   GLLLYGPPGC+57.021GK      0.7807      Database    -22.4190    1230.6431   ✓       ✓
+104   GLLLYGPPGC+57.021GK      0.7807      Database    -22.5011    1230.6431   ✓       ✓
+105   GLLLYGPPGC+57.021GK      0.7807      Database    -22.5089    1230.6431   ✓       ✓
+106   GLLLYGPPGC+57.021GK      0.7807      Database    -22.6426    1230.6431   ✓       ✓
+107   GLLLYGPPGC+57.021GK      0.7807      Database    -22.7023    1230.6431   ✓       ✓
+108   GLLLYGPPGC+57.021GK      0.7807      Database    -22.7232    1230.6431   ✓       ✓
+109   GLLLYGPPGC+57.021GK      0.7807      Database    -22.7381    1230.6431   ✓       ✓
+110   GLLLYGPPGC+57.021GK      0.7807      Database    -22.7873    1230.6431   ✓       ✓
+111   GLLLYGPPGC+57.021GK      0.7807      Database    -22.8281    1230.6431   ✓       ✓
+112   GLLLYGPPGC+57.021GK      0.7807      Database    -22.8569    1230.6431   ✓       ✓
+113   GLLLYGPPGC+57.021GK      0.7807      Database    -22.8613    1230.6431   ✓       ✓
+114   GLLLYGPPGC+57.021GK      0.7807      Database    -22.9582    1230.6431   ✓       ✓
+115   GLLLYGPPGC+57.021GK      0.7807      Database    -23.0353    1230.6431   ✓       ✓
+116   GLLLYGPPGC+57.021GK      0.7807      Database    -23.0415    1230.6431   ✓       ✓
+117   GLLLYGPPGC+57.021GK      0.7807      Database    -23.1016    1230.6431   ✓       ✓
+118   GLLLYGPPGC+57.021GK      0.7807      Database    -23.1293    1230.6431   ✓       ✓
+119   GLLLYGPPGC+57.021GK      0.7807      Database    -23.2496    1230.6431   ✓       ✓
+120   GLLLYGPPGC+57.021GK      0.7807      Database    -23.2540    1230.6431   ✓       ✓
+121   GLLLYGPPGC+57.021GK      0.7807      Database    -23.3066    1230.6431   ✓       ✓
+122   GLLLYGPPGC+57.021GK      0.7807      Database    -23.3200    1230.6431   ✓       ✓
+123   GLLLYGPPGC+57.021GK      0.7807      Database    -23.3395    1230.6431   ✓       ✓
+124   GLLLYGPPGC+57.021GK      0.7807      Database    -23.3439    1230.6431   ✓       ✓
+125   GLLLYGPPGC+57.021GK      0.7807      Database    -23.3934    1230.6431   ✓       ✓
+126   GLLLYGPPGC+57.021GK      0.7807      Database    -23.4923    1230.6431   ✓       ✓
+127   GLLLYGPPGC+57.021GK      0.7807      Database    -23.4985    1230.6431   ✓       ✓
+128   GLLLYGPPGC+57.021GK      0.7807      Database    -23.5962    1230.6431   ✓       ✓
+129   GLLLYGPPGC+57.021GK      0.7807      Database    -23.6453    1230.6431   ✓       ✓
+130   GLLLYGPPGC+57.021GK      0.7807      Database    -23.7621    1230.6431   ✓       ✓
+131   GLLLYGPPGC+57.021GK      0.7807      Database    -23.7637    1230.6431   ✓       ✓
+132   GLLLYGPPGC+57.021GK      0.7807      Database    -23.8912    1230.6431   ✓       ✓
+133   GLLLYGPPGC+57.021GK      0.7807      Database    -23.9645    1230.6431   ✓       ✓
+134   GLLLYGPPGC+57.021GK      0.7807      Database    -24.0533    1230.6431   ✓       ✓
+135   GLLLYGPPGC+57.021GK      0.7807      Database    -24.1077    1230.6431   ✓       ✓
+136   GLLLYGPPGC+57.021GK      0.7807      Database    -24.1121    1230.6431   ✓       ✓
+137   GLLLYGPPGC+57.021GK      0.7807      Database    -24.1779    1230.6431   ✓       ✓
+138   GLLLYGPPGC+57.021GK      0.7807      Database    -24.2667    1230.6431   ✓       ✓
+139   GLLLYGPPGC+57.021GK      0.7807      Database    -24.3306    1230.6431   ✓       ✓
+140   GLLLYGPPGC+57.021GK      0.7807      Database    -24.3504    1230.6431   ✓       ✓
+141   GLLLYGPPGC+57.021GK      0.7807      Database    -24.4197    1230.6431   ✓       ✓
+142   GLLLYGPPGC+57.021GK      0.7807      Database    -24.4268    1230.6431   ✓       ✓
+143   GLLLYGPPGC+57.021GK      0.7807      Database    -24.4759    1230.6431   ✓       ✓
+144   GLLLYGPPGC+57.021GK      0.7807      Database    -24.4803    1230.6431   ✓       ✓
+145   GLLLYGPPGC+57.021GK      0.7807      Database    -24.5647    1230.6431   ✓       ✓
+146   GLLLYGPPGC+57.021GK      0.7807      Database    -24.5691    1230.6431   ✓       ✓
+147   GLLLYGPPGC+57.021GK      0.7807      Database    -24.5709    1230.6431   ✓       ✓
+148   GLLLYGPPGC+57.021GK      0.7807      Database    -24.5858    1230.6431   ✓       ✓
+149   GLLLYGPPGC+57.021GK      0.7807      Database    -24.6350    1230.6431   ✓       ✓
+150   GLLLYGPPGC+57.021GK      0.7807      Database    -24.6695    1230.6431   ✓       ✓
+151   GLLLYGPPGC+57.021GK      0.7807      Database    -24.7493    1230.6431   ✓       ✓
+152   GLLLYGPPGC+57.021GK      0.7807      Database    -24.8829    1230.6431   ✓       ✓
+153   GLLLYGPPGC+57.021GK      0.7807      Database    -24.8839    1230.6431   ✓       ✓
+154   GLLLYGPPGC+57.021GK      0.7807      Database    -24.9426    1230.6431   ✓       ✓
+155   GLLLYGPPGC+57.021GK      0.7807      Database    -24.9635    1230.6431   ✓       ✓
+156   GLLLYGPPGC+57.021GK      0.7807      Database    -24.9770    1230.6431   ✓       ✓
+157   GLLLYGPPGC+57.021GK      0.7807      Database    -25.0276    1230.6431   ✓       ✓
+158   GLLLYGPPGC+57.021GK      0.7807      Database    -25.0430    1230.6431   ✓       ✓
+159   GLLLYGPPGC+57.021GK      0.7807      Database    -25.0684    1230.6431   ✓       ✓
+160   GLLLYGPPGC+57.021GK      0.7807      Database    -25.0973    1230.6431   ✓       ✓
+161   GLLLYGPPGC+57.021GK      0.7807      Database    -25.1017    1230.6431   ✓       ✓
+162   GLLLYGPPGC+57.021GK      0.7807      Database    -25.1175    1230.6431   ✓       ✓
+163   GLLLYGPPGC+57.021GK      0.7807      Database    -25.1810    1230.6431   ✓       ✓
+164   GLLLYGPPGC+57.021GK      0.7807      Database    -25.1854    1230.6431   ✓       ✓
+165   GLLLYGPPGC+57.021GK      0.7807      Database    -25.1985    1230.6431   ✓       ✓
+166   GLLLYGPPGC+57.021GK      0.7807      Database    -25.2063    1230.6431   ✓       ✓
+167   GLLLYGPPGC+57.021GK      0.7807      Database    -25.2411    1230.6431   ✓       ✓
+168   GLLLYGPPGC+57.021GK      0.7807      Database    -25.2614    1230.6431   ✓       ✓
+169   GLLLYGPPGC+57.021GK      0.7807      Database    -25.3400    1230.6431   ✓       ✓
+170   GLLLYGPPGC+57.021GK      0.7807      Database    -25.3697    1230.6431   ✓       ✓
+171   GLLLYGPPGC+57.021GK      0.7807      Database    -25.3997    1230.6431   ✓       ✓
+172   GLLLYGPPGC+57.021GK      0.7807      Database    -25.4206    1230.6431   ✓       ✓
+173   GLLLYGPPGC+57.021GK      0.7807      Database    -25.5254    1230.6431   ✓       ✓
+174   GLLLYGPPGC+57.021GK      0.7807      Database    -25.5798    1230.6431   ✓       ✓
+175   GLLLYGPPGC+57.021GK      0.7807      Database    -25.5842    1230.6431   ✓       ✓
+176   GLLLYGPPGC+57.021GK      0.7807      Database    -25.6337    1230.6431   ✓       ✓
+177   GLLLYGPPGC+57.021GK      0.7807      Database    -25.7327    1230.6431   ✓       ✓
+178   GLLLYGPPGC+57.021GK      0.7807      Database    -25.7389    1230.6431   ✓       ✓
+179   GLLLYGPPGC+57.021GK      0.7807      Database    -25.8857    1230.6431   ✓       ✓
+180   GLLLYGPPGC+57.021GK      0.7807      Database    -26.0040    1230.6431   ✓       ✓
+181   GLLLYGPPGC+57.021GK      0.7807      Database    -26.0369    1230.6431   ✓       ✓
+182   GLLLYGPPGC+57.021GK      0.7807      Database    -26.0413    1230.6431   ✓       ✓
+183   GLLLYGPPGC+57.021GK      0.7807      Database    -26.0908    1230.6431   ✓       ✓
+184   GLLLYGPPGC+57.021GK      0.7807      Database    -26.2048    1230.6431   ✓       ✓
+185   GLLLYGPPGC+57.021GK      0.7807      Database    -26.2081    1230.6431   ✓       ✓
+186   GLLLYGPPGC+57.021GK      0.7807      Database    -26.2674    1230.6431   ✓       ✓
+187   GLLLYGPPGC+57.021GK      0.7807      Database    -26.2787    1230.6431   ✓       ✓
+188   GLLLYGPPGC+57.021GK      0.7807      Database    -26.2936    1230.6431   ✓       ✓
+189   GLLLYGPPGC+57.021GK      0.7807      Database    -26.3427    1230.6431   ✓       ✓
+190   GLLLYGPPGC+57.021GK      0.7807      Database    -26.5272    1230.6431   ✓       ✓
+191   GLLLYGPPGC+57.021GK      0.7807      Database    -26.5907    1230.6431   ✓       ✓
+192   GLLLYGPPGC+57.021GK      0.7807      Database    -26.5978    1230.6431   ✓       ✓
+193   GLLLYGPPGC+57.021GK      0.7807      Database    -26.6619    1230.6431   ✓       ✓
+194   GLLLYGPPGC+57.021GK      0.7807      Database    -26.7207    1230.6431   ✓       ✓
+195   GLLLYGPPGC+57.021GK      0.7807      Database    -26.8095    1230.6431   ✓       ✓
+196   GLLLYGPPGC+57.021GK      0.7807      Database    -26.9099    1230.6431   ✓       ✓
+197   GLLLYGPPGC+57.021GK      0.7807      Database    -27.0039    1230.6431   ✓       ✓
+198   GLLLYGPPGC+57.021GK      0.7807      Database    -27.0211    1230.6431   ✓       ✓
+199   GLLLYGPPGC+57.021GK      0.7807      Database    -27.0431    1230.6431   ✓       ✓
+200   GLLLYGPPGC+57.021GK      0.7807      Database    -27.1137    1230.6431   ✓       ✓
+201   GLLLYGPPGC+57.021GK      0.7807      Database    -27.1242    1230.6431   ✓       ✓
+202   GLLLYGPPGC+57.021GK      0.7807      Database    -27.1777    1230.6431   ✓       ✓
+203   GLLLYGPPGC+57.021GK      0.7807      Database    -27.2680    1230.6431   ✓       ✓
+204   GLLLYGPPGC+57.021GK      0.7807      Database    -27.3669    1230.6431   ✓       ✓
+205   GLLLYGPPGC+57.021GK      0.7807      Database    -27.4257    1230.6431   ✓       ✓
+206   GLLLYGPPGC+57.021GK      0.7807      Database    -27.5198    1230.6431   ✓       ✓
+207   GLLLYGPPGC+57.021GK      0.7807      Database    -27.6400    1230.6431   ✓       ✓
+208   GLLLYGPPGC+57.021GK      0.7807      Database    -27.7658    1230.6431   ✓       ✓
+209   GLLLYGPPGC+57.021GK      0.7807      Database    -27.7838    1230.6431   ✓       ✓
+210   GLLLYGPPGC+57.021GK      0.7807      Database    -27.8828    1230.6431   ✓       ✓
+211   GLLLYGPPGC+57.021GK      0.7807      Database    -28.2350    1230.6431   ✓       ✓
+212   GLLLYGPPGC+57.021GK      0.7807      Database    -28.2816    1230.6431   ✓       ✓
+213   GLLLYGPPGC+57.021GK      0.7807      Database    -28.2943    1230.6431   ✓       ✓
+214   GLLLYGPPGC+57.021GK      0.7807      Database    -28.7508    1230.6431   ✓       ✓
+215   GLLLYGPPGC+57.021GK      0.7807      Database    -28.7675    1230.6431   ✓       ✓
+216   GLLLYGPPGC+57.021GK      0.7807      Database    -28.8102    1230.6431   ✓       ✓
+217   GLLLYGPPGC+57.021GK      0.7807      Database    -28.8381    1230.6431   ✓       ✓
+218   GLLLYGPPGC+57.021GK      0.7807      Database    -28.9022    1230.6431   ✓       ✓
+219   GLLLYGPPGC+57.021GK      0.7807      Database    -28.9176    1230.6431   ✓       ✓
+220   GLLLYGPPGC+57.021GK      0.7807      Database    -29.0656    1230.6431   ✓       ✓
+221   GLLLYGPPGC+57.021GK      0.7807      Database    -29.1360    1230.6431   ✓       ✓
+222   GLLLYGPPGC+57.021GK      0.7807      Database    -29.2246    1230.6431   ✓       ✓
+223   GLLLYGPPGC+57.021GK      0.7807      Database    -29.2443    1230.6431   ✓       ✓
+224   GLLLYGPPGC+57.021GK      0.7807      Database    -29.2614    1230.6431   ✓       ✓
+225   GLLLYGPPGC+57.021GK      0.7807      Database    -29.2834    1230.6431   ✓       ✓
+226   GLLLYGPPGC+57.021GK      0.7807      Database    -29.2952    1230.6431   ✓       ✓
+227   GLLLYGPPGC+57.021GK      0.7807      Database    -29.3540    1230.6431   ✓       ✓
+228   GLLLYGPPGC+57.021GK      0.7807      Database    -29.4180    1230.6431   ✓       ✓
+229   GLLLYGPPGC+57.021GK      0.7807      Database    -29.4335    1230.6431   ✓       ✓
+230   GLLLYGPPGC+57.021GK      0.7807      Database    -29.5083    1230.6431   ✓       ✓
+231   GLLLYGPPGC+57.021GK      0.7807      Database    -29.5814    1230.6431   ✓       ✓
+232   GLLLYGPPGC+57.021GK      0.7807      Database    -29.6073    1230.6431   ✓       ✓
+233   GLLLYGPPGC+57.021GK      0.7807      Database    -29.6518    1230.6431   ✓       ✓
+234   GLLLYGPPGC+57.021GK      0.7807      Database    -29.7072    1230.6431   ✓       ✓
+235   GLLLYGPPGC+57.021GK      0.7807      Database    -29.7185    1230.6431   ✓       ✓
+236   GLLLYGPPGC+57.021GK      0.7807      Database    -29.7404    1230.6431   ✓       ✓
+237   GLLLYGPPGC+57.021GK      0.7807      Database    -29.7601    1230.6431   ✓       ✓
+238   GLLLYGPPGC+57.021GK      0.7807      Database    -29.8110    1230.6431   ✓       ✓
+239   GLLLYGPPGC+57.021GK      0.7807      Database    -29.9654    1230.6431   ✓       ✓
+240   GLLLYGPPGC+57.021GK      0.7807      Database    -30.0241    1230.6431   ✓       ✓
+241   GLLLYGPPGC+57.021GK      0.7807      Database    -30.0827    1230.6431   ✓       ✓
+242   GLLLYGPPGC+57.021GK      0.7807      Database    -30.1231    1230.6431   ✓       ✓
+243   GLLLYGPPGC+57.021GK      0.7807      Database    -30.2230    1230.6431   ✓       ✓
+244   GLLLYGPPGC+57.021GK      0.7807      Database    -30.4753    1230.6431   ✓       ✓
+245   GLLLYGPPGC+57.021GK      0.7807      Database    -30.4812    1230.6431   ✓       ✓
+246   GLLLYGPPGC+57.021GK      0.7807      Database    -30.5985    1230.6431   ✓       ✓
+247   GLLLYGPPGC+57.021GK      0.7807      Database    -30.8436    1230.6431   ✓       ✓
+248   GLLLYGPPGC+57.021GK      0.7807      Database    -30.8458    1230.6431   ✓       ✓
+249   GLLLYGPPGC+57.021GK      0.7807      Database    -30.9132    1230.6431   ✓       ✓
+250   GLLLYGPPGC+57.021GK      0.7807      Database    -30.9324    1230.6431   ✓       ✓
+251   GLLLYGPPGC+57.021GK      0.7807      Database    -30.9912    1230.6431   ✓       ✓
+252   GLLLYGPPGC+57.021GK      0.7807      Database    -30.9917    1230.6431   ✓       ✓
+253   GLLLYGPPGC+57.021GK      0.7807      Database    -31.0145    1230.6431   ✓       ✓
+254   GLLLYGPPGC+57.021GK      0.7807      Database    -31.1580    1230.6431   ✓       ✓
+255   GLLLYGPPGC+57.021GK      0.7807      Database    -31.3059    1230.6431   ✓       ✓
+256   GLLLYGPPGC+57.021GK      0.7807      Database    -31.3594    1230.6431   ✓       ✓
+257   GLLLYGPPGC+57.021GK      0.7807      Database    -31.3617    1230.6431   ✓       ✓
+258   GLLLYGPPGC+57.021GK      0.7807      Database    -31.3763    1230.6431   ✓       ✓
+259   GLLLYGPPGC+57.021GK      0.7807      Database    -31.4291    1230.6431   ✓       ✓
+260   GLLLYGPPGC+57.021GK      0.7807      Database    -31.4482    1230.6431   ✓       ✓
+261   GLLLYGPPGC+57.021GK      0.7807      Database    -31.4649    1230.6431   ✓       ✓
+262   GLLLYGPPGC+57.021GK      0.7807      Database    -31.5075    1230.6431   ✓       ✓
+263   GLLLYGPPGC+57.021GK      0.7807      Database    -31.5304    1230.6431   ✓       ✓
+264   GLLLYGPPGC+57.021GK      0.7807      Database    -31.5355    1230.6431   ✓       ✓
+265   GLLLYGPPGC+57.021GK      0.7807      Database    -31.9588    1230.6431   ✓       ✓
+266   GLLLYGPPGC+57.021GK      0.7807      Database    -33.9002    1230.6431   ✓       ✓
+267   LLLYGPPGGC+57.021GK      0.5508      Prosit      -31.6687    1230.6431   ✓       
+268   LLLYGPPGGC+57.021GK      0.5508      Prosit      -33.0324    1230.6431   ✓       
+269   LLLYGPPGGC+57.021GK      0.5508      Prosit      -33.5210    1230.6431   ✓       
+270   LLLYGPPGGC+57.021GK      0.5508      Prosit      -33.9002    1230.6431   ✓       
+271   LLLYGPPGGC+57.021GK      0.5508      Prosit      -33.9090    1230.6431   ✓       
+272   LLLYGPPGGC+57.021GK      0.5508      Prosit      -34.2524    1230.6431   ✓       
+273   LLLYGPPGGC+57.021GK      0.5508      Prosit      -34.3661    1230.6431   ✓       
+274   LLLYGPPGGC+57.021GK      0.5508      Prosit      -34.9437    1230.6431   ✓       
+275   LLLYGPPGGC+57.021GK      0.5508      Prosit      -34.9768    1230.6431   ✓       
+276   +42.011LKLYGPPGC+57.021GK0.5318      Prosit      -33.8347    1230.6431   ✓       
+277   ALLVYGPPGC+57.021GK      0.5035      Prosit      -34.2497    1230.6431   ✓       
+278   LLLYGPGPGC+57.021GK      0.5014      Prosit      -34.2535    1230.6431   ✓       
+279   +43.006LLLYAPPGC+57.021GK0.4970      Prosit      -32.5599    1230.6431   ✓       
+280   +43.006LLLYAPPGC+57.021GK0.4970      Prosit      -34.8002    1230.6431   ✓       
+281   LLLYGPPNC+57.021GK       0.4969      Prosit      -34.0844    1230.6431   ✓       
+282   AVLLYGPPGC+57.021GK      0.4960      Prosit      -30.3921    1230.6431   ✓       
+283   AVLLYGPPGC+57.021GK      0.4960      Prosit      -32.6324    1230.6431   ✓       
+284   AVLLYGPPGC+57.021GK      0.4960      Prosit      -33.0895    1230.6431   ✓       
+285   LGLLYGPPGC+57.021GK      0.4815      Prosit      -34.6941    1230.6431   ✓       
+286   GLLLYGPPGC+57.021GQ      0.4749      Prosit      -18.5571    1230.6067   ✓       
+287   GLLLYGPPGC+57.021GQ      0.4749      Prosit      -20.7975    1230.6067   ✓       
+288   GLLLYGPPGC+57.021GQ      0.4749      Prosit      -21.2545    1230.6067   ✓       
+289   GLLLYGPPGC+57.021GQ      0.4749      Prosit      -23.4949    1230.6067   ✓       
+290   GLLLYGPPGC+57.021GQ      0.4749      Prosit      -25.4362    1230.6067   ✓       
+291   GLLLYGPPGC+57.021GQ      0.4749      Prosit      -29.3108    1230.6067   ✓       
+292   GLLLYGPPGC+57.021GQ      0.4749      Prosit      -29.8267    1230.6067   ✓       
+293   +43.006LLLYGPPAC+57.021GK0.4705      Prosit      -33.1747    1230.6431   ✓       
+294   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -14.1605    1216.6274   ✗       
+295   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -14.6817    1215.6322   ✗       
+296   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -14.7945    1216.6274   ✗       
+297   GLLLYGPPC+57.021GK       -1.0000     NotChecked  -15.3003    1173.6216   ✗       
+298   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -15.7515    1173.6216   ✗       
+299   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -16.4008    1216.6274   ✗       
+300   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -16.8578    1216.6274   ✗       
+301   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -16.9220    1215.6322   ✗       
+302   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -17.0349    1216.6274   ✗       
+303   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -17.3790    1215.6322   ✗       
+304   GLLLYGPPGC+57.021K       -1.0000     NotChecked  -17.3947    1173.6216   ✗       
+305   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -17.4919    1216.6274   ✗       
+306   GLLLKGPPGC+57.021GK      -1.0000     NotChecked  -17.6659    1195.6747   ✗       
+307   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -17.9919    1173.6216   ✗       
+308   GLLLYGPPC+57.021GK       -1.0000     NotChecked  -17.9977    1173.6216   ✗       
+309   GLLVYGPPGC+57.021GK      -1.0000     NotChecked  -18.0181    1216.6274   ✗       
+310   GLLLYGPPGGGK             -1.0000     NotChecked  -18.1291    1127.6339   ✗       
+311   GLLLC+57.021GPPGC+57.021GK-1.0000     NotChecked  -18.1892    1227.6104   ✗       
+312   GGLLYGPPGC+57.021GK      -1.0000     NotChecked  -18.3075    1174.5805   ✗       
+313   GLLLFGPPGC+57.021GK      -1.0000     NotChecked  -18.4268    1214.6482   ✗       
+314   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -18.4489    1173.6216   ✗       
+315   GLLLYGPAGC+57.021GK      -1.0000     NotChecked  -18.4542    1204.6274   ✗       
+316   GLLLYPPGC+57.021GK       -1.0000     NotChecked  -18.6848    1173.6216   ✗       
+317   GLLPYGPPGC+57.021GK      -1.0000     NotChecked  -18.7178    1214.6118   ✗       
+318   GLLLYGPPGC+57.021G       -1.0000     NotChecked  -18.8033    1102.5481   ✗       
+319   GLLLYGPPGC+57.021K       -1.0000     NotChecked  -18.8244    1173.6216   ✗       
+320   GLPLYGPPGC+57.021GK      -1.0000     NotChecked  -19.0699    1214.6118   ✗       
+321   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -19.0982    1216.6274   ✗       
+322   GALLYGPPGC+57.021GK      -1.0000     NotChecked  -19.1559    1188.5961   ✗       
+323   -17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -19.4452    1156.5951   ✗       
+324   GLTLYGPPGC+57.021GK      -1.0000     NotChecked  -19.4802    1218.6067   ✗       
+325   GLVLYGPPGC+57.021GK      -1.0000     NotChecked  -19.5801    1216.6274   ✗       
+326   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -19.6194    1215.6322   ✗       
+327   GLLLYGPPGC+57.021K       -1.0000     NotChecked  -19.6351    1173.6216   ✗       
+328   GLLTYGPPGC+57.021GK      -1.0000     NotChecked  -19.6608    1218.6067   ✗       
+329   GLLLHGPPGC+57.021GK      -1.0000     NotChecked  -19.7198    1204.6387   ✗       
+330   GLLLMGPPGC+57.021GK      -1.0000     NotChecked  -19.7298    1198.6202   ✗       
+331   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -19.7323    1216.6274   ✗       
+332   GLLLYGPPGGK              -1.0000     NotChecked  -19.8739    1070.6124   ✗       
+333   GLSLYGPPGC+57.021GK      -1.0000     NotChecked  -19.8828    1204.5910   ✗       
+334   GLLLKGPPGC+57.021GK      -1.0000     NotChecked  -19.9062    1195.6747   ✗       
+335   GLLLRGPPGC+57.021GK      -1.0000     NotChecked  -19.9156    1223.6809   ✗       
+336   GLLLLGPPGC+57.021GK      -1.0000     NotChecked  -20.0249    1180.6638   ✗       
+337   GLLLYGPPGAGK             -1.0000     NotChecked  -20.0261    1141.6495   ✗       
+338   GPLLYGPPGC+57.021GK      -1.0000     NotChecked  -20.0425    1214.6118   ✗       
+339   GLLAYGPPGC+57.021GK      -1.0000     NotChecked  -20.0681    1188.5961   ✗       
+340   GLLLYGPPGMGK             -1.0000     NotChecked  -20.0872    1201.6529   ✗       
+341   GLLVYGPPGC+57.021GK      -1.0000     NotChecked  -20.2584    1216.6274   ✗       
+342   GLLLKGPPGC+57.021GK      -1.0000     NotChecked  -20.3633    1195.6747   ✗       
+343   GLLLYGPPGGGK             -1.0000     NotChecked  -20.3694    1127.6339   ✗       
+344   GLLLC+57.021GPPGC+57.021GK-1.0000     NotChecked  -20.4295    1227.6104   ✗       
+345   GLLLQGPPGC+57.021GK      -1.0000     NotChecked  -20.5383    1195.6383   ✗       
+346   GGLLYGPPGC+57.021GK      -1.0000     NotChecked  -20.5479    1174.5805   ✗       
+347   GLLLFGPPGC+57.021GK      -1.0000     NotChecked  -20.6672    1214.6482   ✗       
+348   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -20.6892    1173.6216   ✗       
+349   GLLLYGPAGC+57.021GK      -1.0000     NotChecked  -20.6946    1204.6274   ✗       
+350   GLLLVGPPGC+57.021GK      -1.0000     NotChecked  -20.7118    1166.6482   ✗       
+351   GLLVYGPPGC+57.021GK      -1.0000     NotChecked  -20.7155    1216.6274   ✗       
+352   GLLLYGPPGGK              -1.0000     NotChecked  -20.8265    1070.6124   ✗       
+353   GLLLC+57.021GPPGC+57.021GK-1.0000     NotChecked  -20.8866    1227.6104   ✗       
+354   GLLSYGPPGC+57.021GK      -1.0000     NotChecked  -20.8955    1204.5910   ✗       
+355   GLLLYPPGC+57.021GK       -1.0000     NotChecked  -20.9251    1173.6216   ✗       
+356   GLLPYGPPGC+57.021GK      -1.0000     NotChecked  -20.9581    1214.6118   ✗       
+357   G-17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -20.9873    1213.6165   ✗       
+358   GGLLYGPPGC+57.021GK      -1.0000     NotChecked  -21.0049    1174.5805   ✗       
+359   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -21.0396    1216.6274   ✗       
+360   GLLLYGPPGC+57.021G       -1.0000     NotChecked  -21.0437    1102.5481   ✗       
+361   GLLLYGPPGC+57.021K       -1.0000     NotChecked  -21.0647    1173.6216   ✗       
+362   GLLLFGPPGC+57.021GK      -1.0000     NotChecked  -21.1242    1214.6482   ✗       
+363   GLLLYGPAGC+57.021GK      -1.0000     NotChecked  -21.1516    1204.6274   ✗       
+364   GLPLYGPPGC+57.021GK      -1.0000     NotChecked  -21.3102    1214.6118   ✗       
+365   GLLLYPPGC+57.021GK       -1.0000     NotChecked  -21.3822    1173.6216   ✗       
+366   GALLYGPPGC+57.021GK      -1.0000     NotChecked  -21.3962    1188.5961   ✗       
+367   GLLPYGPPGC+57.021GK      -1.0000     NotChecked  -21.4152    1214.6118   ✗       
+368   GLLLYGPPGC+57.021G       -1.0000     NotChecked  -21.5007    1102.5481   ✗       
+369   GLLLYGPPGM+15.995GK      -1.0000     NotChecked  -21.5511    1217.6478   ✗       
+370   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -21.5608    1215.6322   ✗       
+371   GLLLYGPPGKGK             -1.0000     NotChecked  -21.6074    1198.7074   ✗       
+372   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -21.6736    1216.6274   ✗       
+373   -17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -21.6855    1156.5951   ✗       
+374   GLTLYGPPGC+57.021GK      -1.0000     NotChecked  -21.7205    1218.6067   ✗       
+375   GLPLYGPPGC+57.021GK      -1.0000     NotChecked  -21.7673    1214.6118   ✗       
+376   GLLLYGSPGC+57.021GK      -1.0000     NotChecked  -21.7817    1220.6223   ✗       
+377   GLVLYGPPGC+57.021GK      -1.0000     NotChecked  -21.8204    1216.6274   ✗       
+378   GALLYGPPGC+57.021GK      -1.0000     NotChecked  -21.8533    1188.5961   ✗       
+379   GLLTYGPPGC+57.021GK      -1.0000     NotChecked  -21.9012    1218.6067   ✗       
+380   GLLLYGPPGSGK             -1.0000     NotChecked  -21.9170    1157.6445   ✗       
+381   GLLLHGPPGC+57.021GK      -1.0000     NotChecked  -21.9601    1204.6387   ✗       
+382   GLLLMGPPGC+57.021GK      -1.0000     NotChecked  -21.9701    1198.6202   ✗       
+383   GLLLYGPPGLGK             -1.0000     NotChecked  -22.0385    1183.6965   ✗       
+384   GLLLYGPPGGK              -1.0000     NotChecked  -22.1142    1070.6124   ✗       
+385   GLSLYGPPGC+57.021GK      -1.0000     NotChecked  -22.1231    1204.5910   ✗       
+386   -17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -22.1426    1156.5951   ✗       
+387   GLLLRGPPGC+57.021GK      -1.0000     NotChecked  -22.1559    1223.6809   ✗       
+388   GLTLYGPPGC+57.021GK      -1.0000     NotChecked  -22.1776    1218.6067   ✗       
+389   GLLLYGPPC+57.021GK       -1.0000     NotChecked  -22.1794    1173.6216   ✗       
+390   GLLLLGPPGC+57.021GK      -1.0000     NotChecked  -22.2652    1180.6638   ✗       
+391   GLLLYGPPGAGK             -1.0000     NotChecked  -22.2664    1141.6495   ✗       
+392   GLVLYGPPGC+57.021GK      -1.0000     NotChecked  -22.2775    1216.6274   ✗       
+393   GPLLYGPPGC+57.021GK      -1.0000     NotChecked  -22.2829    1214.6118   ✗       
+394   GLLAYGPPGC+57.021GK      -1.0000     NotChecked  -22.3084    1188.5961   ✗       
+395   GLLLYGPPGMGK             -1.0000     NotChecked  -22.3275    1201.6529   ✗       
+396   GLLTYGPPGC+57.021GK      -1.0000     NotChecked  -22.3582    1218.6067   ✗       
+397   GLLLHGPPGC+57.021GK      -1.0000     NotChecked  -22.4172    1204.6387   ✗       
+398   GLLLMGPPGC+57.021GK      -1.0000     NotChecked  -22.4272    1198.6202   ✗       
+399   GLLLYGPPGC+57.021GN      -1.0000     NotChecked  -22.5354    1216.5910   ✗       
+400   GLLLYGPPGPGK             -1.0000     NotChecked  -22.5654    1167.6652   ✗       
+401   GLLLYGPPGGK              -1.0000     NotChecked  -22.5713    1070.6124   ✗       
+402   GLSLYGPPGC+57.021GK      -1.0000     NotChecked  -22.5802    1204.5910   ✗       
+403   GLLLKGPPGC+57.021GK      -1.0000     NotChecked  -22.6036    1195.6747   ✗       
+404   GLLLRGPPGC+57.021GK      -1.0000     NotChecked  -22.6130    1223.6809   ✗       
+405   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -22.6306    1173.6216   ✗       
+406   GLLLLGPPGC+57.021GK      -1.0000     NotChecked  -22.7223    1180.6638   ✗       
+407   GLLLYGPPGAGK             -1.0000     NotChecked  -22.7235    1141.6495   ✗       
+408   GPLLYGPPGC+57.021GK      -1.0000     NotChecked  -22.7399    1214.6118   ✗       
+409   GLLAYGPPGC+57.021GK      -1.0000     NotChecked  -22.7655    1188.5961   ✗       
+410   GLLLQGPPGC+57.021GK      -1.0000     NotChecked  -22.7786    1195.6383   ✗       
+411   GLLLYGPPGMGK             -1.0000     NotChecked  -22.7846    1201.6529   ✗       
+412   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -22.8872    1216.6274   ✗       
+413   GLLLVGPPGC+57.021GK      -1.0000     NotChecked  -22.9521    1166.6482   ✗       
+414   GLLVYGPPGC+57.021GK      -1.0000     NotChecked  -22.9558    1216.6274   ✗       
+415   GLLLYGPPGGK              -1.0000     NotChecked  -23.0668    1070.6124   ✗       
+416   GLLLC+57.021GPPGC+57.021GK-1.0000     NotChecked  -23.1269    1227.6104   ✗       
+417   GLLSYGPPGC+57.021GK      -1.0000     NotChecked  -23.1359    1204.5910   ✗       
+418   G-17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -23.2276    1213.6165   ✗       
+419   GLLLQGPPGC+57.021GK      -1.0000     NotChecked  -23.2356    1195.6383   ✗       
+420   GGLLYGPPGC+57.021GK      -1.0000     NotChecked  -23.2452    1174.5805   ✗       
+421   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -23.2799    1216.6274   ✗       
+422   GLLLFGPPGC+57.021GK      -1.0000     NotChecked  -23.3646    1214.6482   ✗       
+423   GLLLYGPAGC+57.021GK      -1.0000     NotChecked  -23.3920    1204.6274   ✗       
+424   GLLLYGPPGC+57.021GS      -1.0000     NotChecked  -23.4017    1189.5801   ✗       
+425   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -23.4084    1215.6322   ✗       
+426   GLLLVGPPGC+57.021GK      -1.0000     NotChecked  -23.4092    1166.6482   ✗       
+427   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -23.5213    1216.6274   ✗       
+428   GLLSYGPPGC+57.021GK      -1.0000     NotChecked  -23.5929    1204.5910   ✗       
+429   GLLLYGPPGC+57.021GT      -1.0000     NotChecked  -23.5938    1203.5958   ✗       
+430   GLLLYPPGC+57.021GK       -1.0000     NotChecked  -23.6225    1173.6216   ✗       
+431   GLLLYGPPGC+57.021GL      -1.0000     NotChecked  -23.6472    1215.6322   ✗       
+432   GLLPYGPPGC+57.021GK      -1.0000     NotChecked  -23.6555    1214.6118   ✗       
+433   G-17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -23.6847    1213.6165   ✗       
+434   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -23.7369    1216.6274   ✗       
+435   GLLLYGPPGC+57.021G       -1.0000     NotChecked  -23.7410    1102.5481   ✗       
+436   GLLYGPPGC+57.021GK       -1.0000     NotChecked  -23.7553    1117.5590   ✗       
+437   GLLLYGPPGM+15.995GK      -1.0000     NotChecked  -23.7914    1217.6478   ✗       
+438   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -23.8011    1215.6322   ✗       
+439   GLLLYGPPGKGK             -1.0000     NotChecked  -23.8477    1198.7074   ✗       
+440   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -23.9140    1216.6274   ✗       
+441   GLPLYGPPGC+57.021GK      -1.0000     NotChecked  -24.0076    1214.6118   ✗       
+442   GLLLYGSPGC+57.021GK      -1.0000     NotChecked  -24.0221    1220.6223   ✗       
+443   GLLLYGPPC+57.021GK       -1.0000     NotChecked  -24.0271    1173.6216   ✗       
+444   GALLYGPPGC+57.021GK      -1.0000     NotChecked  -24.0936    1188.5961   ✗       
+445   GLLLYGPPGSGK             -1.0000     NotChecked  -24.1573    1157.6445   ✗       
+446   GLLLYGPPGM+15.995GK      -1.0000     NotChecked  -24.2485    1217.6478   ✗       
+447   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -24.2581    1215.6322   ✗       
+448   GLLLYGPPGC+57.021K       -1.0000     NotChecked  -24.2738    1173.6216   ✗       
+449   GLLLYGPPGLGK             -1.0000     NotChecked  -24.2788    1183.6965   ✗       
+450   GLLLYGPPGKGK             -1.0000     NotChecked  -24.3047    1198.7074   ✗       
+451   GLLLY-17.027GPPGC+57.021GK-1.0000     NotChecked  -24.3288    1213.6165   ✗       
+452   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -24.3710    1216.6274   ✗       
+453   -17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -24.3829    1156.5951   ✗       
+454   GLTLYGPPGC+57.021GK      -1.0000     NotChecked  -24.4179    1218.6067   ✗       
+455   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -24.4783    1173.6216   ✗       
+456   GLLLYGSPGC+57.021GK      -1.0000     NotChecked  -24.4791    1220.6223   ✗       
+457   GLVLYGPPGC+57.021GK      -1.0000     NotChecked  -24.5178    1216.6274   ✗       
+458   GLLLKGPPGC+57.021GK      -1.0000     NotChecked  -24.5450    1195.6747   ✗       
+459   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -24.5950    1216.6274   ✗       
+460   GLLTYGPPGC+57.021GK      -1.0000     NotChecked  -24.5986    1218.6067   ✗       
+461   GLLLYGPPGSGK             -1.0000     NotChecked  -24.6144    1157.6445   ✗       
+462   GLLLHGPPGC+57.021GK      -1.0000     NotChecked  -24.6575    1204.6387   ✗       
+463   GLLLMGPPGC+57.021GK      -1.0000     NotChecked  -24.6675    1198.6202   ✗       
+464   GLLLYGPPGLGK             -1.0000     NotChecked  -24.7359    1183.6965   ✗       
+465   GLLLYGPPGC+57.021GN      -1.0000     NotChecked  -24.7758    1216.5910   ✗       
+466   GLLLYGPPGPGK             -1.0000     NotChecked  -24.8057    1167.6652   ✗       
+467   GLLLYGPPGGK              -1.0000     NotChecked  -24.8116    1070.6124   ✗       
+468   GLSLYGPPGC+57.021GK      -1.0000     NotChecked  -24.8205    1204.5910   ✗       
+469   GLLLRGPPGC+57.021GK      -1.0000     NotChecked  -24.8533    1223.6809   ✗       
+470   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -24.8710    1173.6216   ✗       
+471   GLLLYGPPC+57.021GK       -1.0000     NotChecked  -24.8768    1173.6216   ✗       
+472   GLLLLGPPGC+57.021GK      -1.0000     NotChecked  -24.9626    1180.6638   ✗       
+473   GLLLYGPPGAGK             -1.0000     NotChecked  -24.9638    1141.6495   ✗       
+474   GPLLYGPPGC+57.021GK      -1.0000     NotChecked  -24.9803    1214.6118   ✗       
+475   GLLAYGPPGC+57.021GK      -1.0000     NotChecked  -25.0058    1188.5961   ✗       
+476   GLLLYGPPGGGK             -1.0000     NotChecked  -25.0082    1127.6339   ✗       
+477   GLLLYGPPGMGK             -1.0000     NotChecked  -25.0249    1201.6529   ✗       
+478   GLLLC+57.021GPPGC+57.021GK-1.0000     NotChecked  -25.0683    1227.6104   ✗       
+479   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -25.1162    1215.6322   ✗       
+480   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -25.1276    1216.6274   ✗       
+481   GGLLYGPPGC+57.021GK      -1.0000     NotChecked  -25.1866    1174.5805   ✗       
+482   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -25.2291    1216.6274   ✗       
+483   GLLLYGPPGC+57.021GN      -1.0000     NotChecked  -25.2328    1216.5910   ✗       
+484   GLLLYGPPGPGK             -1.0000     NotChecked  -25.2628    1167.6652   ✗       
+485   GLLLFGPPGC+57.021GK      -1.0000     NotChecked  -25.3059    1214.6482   ✗       
+486   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -25.3280    1173.6216   ✗       
+487   GLLLYGPAGC+57.021GK      -1.0000     NotChecked  -25.3333    1204.6274   ✗       
+488   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -25.4256    1216.6274   ✗       
+489   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -25.4300    1216.6274   ✗       
+490   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -25.4354    1215.6322   ✗       
+491   GLLLQGPPGC+57.021GK      -1.0000     NotChecked  -25.4760    1195.6383   ✗       
+492   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -25.5482    1216.6274   ✗       
+493   GLLLYPPGC+57.021GK       -1.0000     NotChecked  -25.5639    1173.6216   ✗       
+494   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -25.5846    1216.6274   ✗       
+495   GLLLYGPPGC+57.021GS      -1.0000     NotChecked  -25.6420    1189.5801   ✗       
+496   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -25.6488    1215.6322   ✗       
+497   GLLLVGPPGC+57.021GK      -1.0000     NotChecked  -25.6495    1166.6482   ✗       
+498   GLLLYGPPGC+57.021G       -1.0000     NotChecked  -25.6824    1102.5481   ✗       
+499   GLLLYGPPGC+57.021K       -1.0000     NotChecked  -25.7035    1173.6216   ✗       
+500   GLLLYGPPC+57.021GK       -1.0000     NotChecked  -25.7348    1173.6216   ✗       
+501   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -25.7617    1216.6274   ✗       
+502   GLLSYGPPGC+57.021GK      -1.0000     NotChecked  -25.8332    1204.5910   ✗       
+503   GLLLYGPPGC+57.021GT      -1.0000     NotChecked  -25.8342    1203.5958   ✗       
+504   GLLLYGPPGC+57.021GL      -1.0000     NotChecked  -25.8875    1215.6322   ✗       
+505   G-17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -25.9250    1213.6165   ✗       
+506   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -25.9468    1215.6322   ✗       
+507   GLPLYGPPGC+57.021GK      -1.0000     NotChecked  -25.9490    1214.6118   ✗       
+508   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -25.9773    1216.6274   ✗       
+509   GLLYGPPGC+57.021GK       -1.0000     NotChecked  -25.9957    1117.5590   ✗       
+510   GALLYGPPGC+57.021GK      -1.0000     NotChecked  -26.0350    1188.5961   ✗       
+511   GLLLYGPPC+57.021GK       -1.0000     NotChecked  -26.0540    1173.6216   ✗       
+512   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -26.0597    1216.6274   ✗       
+513   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -26.0672    1216.6274   ✗       
+514   GLLLYGPPGC+57.021GS      -1.0000     NotChecked  -26.0991    1189.5801   ✗       
+515   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -26.1058    1215.6322   ✗       
+516   GLLLYGPPGC+57.021K       -1.0000     NotChecked  -26.1215    1173.6216   ✗       
+517   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -26.1861    1173.6216   ✗       
+518   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -26.2187    1216.6274   ✗       
+519   GLLLYGPPGC+57.021GT      -1.0000     NotChecked  -26.2912    1203.5958   ✗       
+520   -17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -26.3243    1156.5951   ✗       
+521   GLLLYGPPGC+57.021GL      -1.0000     NotChecked  -26.3446    1215.6322   ✗       
+522   GLTLYGPPGC+57.021GK      -1.0000     NotChecked  -26.3593    1218.6067   ✗       
+523   GLLLKGPPGC+57.021GK      -1.0000     NotChecked  -26.3927    1195.6747   ✗       
+524   GLLYGPPGC+57.021GK       -1.0000     NotChecked  -26.4527    1117.5590   ✗       
+525   GLVLYGPPGC+57.021GK      -1.0000     NotChecked  -26.4592    1216.6274   ✗       
+526   GLLLYGPPGM+15.995GK      -1.0000     NotChecked  -26.4888    1217.6478   ✗       
+527   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -26.4985    1215.6322   ✗       
+528   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -26.5052    1173.6216   ✗       
+529   GLLLYGPPGC+57.021K       -1.0000     NotChecked  -26.5142    1173.6216   ✗       
+530   GLLLYGPPGKGK             -1.0000     NotChecked  -26.5451    1198.7074   ✗       
+531   GLLLYGPPC+57.021GK       -1.0000     NotChecked  -26.5654    1173.6216   ✗       
+532   GLLLY-17.027GPPGC+57.021GK-1.0000     NotChecked  -26.5691    1213.6165   ✗       
+533   GLLLYGPPC+57.021GK       -1.0000     NotChecked  -26.5698    1173.6216   ✗       
+534   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -26.5884    1215.6322   ✗       
+535   GLLLHGPPGC+57.021GK      -1.0000     NotChecked  -26.5989    1204.6387   ✗       
+536   GLLLMGPPGC+57.021GK      -1.0000     NotChecked  -26.6089    1198.6202   ✗       
+537   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -26.6114    1216.6274   ✗       
+538   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -26.7013    1216.6274   ✗       
+539   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -26.7186    1173.6216   ✗       
+540   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -26.8353    1216.6274   ✗       
+541   GPLLYGPPGC+57.021GK      -1.0000     NotChecked  -26.9216    1214.6118   ✗       
+542   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -27.0167    1173.6216   ✗       
+543   GGLLYGPPGC+57.021GK      -1.0000     NotChecked  -27.0343    1174.5805   ✗       
+544   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -27.1757    1173.6216   ✗       
+545   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -27.2036    1216.6274   ✗       
+546   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -27.2924    1216.6274   ✗       
+547   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -27.3079    1173.6216   ✗       
+548   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -27.3565    1215.6322   ✗       
+549   GGLLYGPPGC+57.021GK      -1.0000     NotChecked  -27.4270    1174.5805   ✗       
+550   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -27.4694    1216.6274   ✗       
+551   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -27.5683    1173.6216   ✗       
+552   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -27.6583    1173.6216   ✗       
+553   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -27.6659    1216.6274   ✗       
+554   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -27.6703    1216.6274   ✗       
+555   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -27.6757    1215.6322   ✗       
+556   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -27.7248    1215.6322   ✗       
+557   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -27.7886    1216.6274   ✗       
+558   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -27.8136    1215.6322   ✗       
+559   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -27.8250    1216.6274   ✗       
+560   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -27.8377    1216.6274   ✗       
+561   G-17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -27.8664    1213.6165   ✗       
+562   GALLYGPPGC+57.021GK      -1.0000     NotChecked  -27.8827    1188.5961   ✗       
+563   GGLLYGPPGC+57.021GK      -1.0000     NotChecked  -27.8840    1174.5805   ✗       
+564   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -27.9087    1216.6274   ✗       
+565   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -27.9265    1216.6274   ✗       
+566   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -28.1230    1216.6274   ✗       
+567   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -28.1274    1216.6274   ✗       
+568   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -28.1327    1215.6322   ✗       
+569   GLLLYGPPGC+57.021K       -1.0000     NotChecked  -28.1484    1173.6216   ✗       
+570   -17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -28.1720    1156.5951   ✗       
+571   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -28.1871    1215.6322   ✗       
+572   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -28.2456    1216.6274   ✗       
+573   GALLYGPPGC+57.021GK      -1.0000     NotChecked  -28.2753    1188.5961   ✗       
+574   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -28.3000    1216.6274   ✗       
+575   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -28.3075    1216.6274   ✗       
+576   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -28.3462    1215.6322   ✗       
+577   GLLLKGPPGC+57.021GK      -1.0000     NotChecked  -28.4196    1195.6747   ✗       
+578   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -28.4264    1173.6216   ✗       
+579   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -28.4299    1215.6322   ✗       
+580   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -28.4590    1216.6274   ✗       
+581   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -28.5428    1216.6274   ✗       
+582   -17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -28.5646    1156.5951   ✗       
+583   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -28.6442    1215.6322   ✗       
+584   GLLLYGPPGC+57.021K       -1.0000     NotChecked  -28.6643    1173.6216   ✗       
+585   +42.011VLLYGPPGC+57.021GK-1.0000     NotChecked  -28.6745    1201.6165   ✗       
+586   GALLYGPPGC+57.021GK      -1.0000     NotChecked  -28.7324    1188.5961   ✗       
+587   GGLLYGPPGC+57.021GK      -1.0000     NotChecked  -28.7421    1174.5805   ✗       
+588   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -28.7456    1173.6216   ✗       
+589   GLLLYGPPC+57.021GK       -1.0000     NotChecked  -28.7514    1173.6216   ✗       
+590   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -28.7571    1216.6274   ✗       
+591   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -28.7646    1216.6274   ✗       
+592   GPLLYGPPGC+57.021GK      -1.0000     NotChecked  -28.7693    1214.6118   ✗       
+593   GLLVYGPPGC+57.021GK      -1.0000     NotChecked  -28.7718    1216.6274   ✗       
+594   +43.006VLLYGPPGC+57.021GK-1.0000     NotChecked  -28.7874    1202.6118   ✗       
+595   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -28.7947    1173.6216   ✗       
+596   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -28.8287    1215.6322   ✗       
+597   GLLLYGPPGGGK             -1.0000     NotChecked  -28.8828    1127.6339   ✗       
+598   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -28.8835    1173.6216   ✗       
+599   GLLLKGPPGC+57.021GK      -1.0000     NotChecked  -28.9355    1195.6747   ✗       
+600   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -28.9416    1216.6274   ✗       
+601   GLLLC+57.021GPPGC+57.021GK-1.0000     NotChecked  -28.9429    1227.6104   ✗       
+602   -17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -29.0217    1156.5951   ✗       
+603   GPLLYGPPGC+57.021GK      -1.0000     NotChecked  -29.1620    1214.6118   ✗       
+604   GLLLFGPPGC+57.021GK      -1.0000     NotChecked  -29.1805    1214.6482   ✗       
+605   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -29.2026    1173.6216   ✗       
+606   GLLLYGPAGC+57.021GK      -1.0000     NotChecked  -29.2079    1204.6274   ✗       
+607   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -29.2570    1173.6216   ✗       
+608   GLLLYGPPC+57.021GK       -1.0000     NotChecked  -29.2672    1173.6216   ✗       
+609   GGLLYGPPGC+57.021GK      -1.0000     NotChecked  -29.2746    1174.5805   ✗       
+610   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -29.2858    1215.6322   ✗       
+611   GLLVYGPPGC+57.021GK      -1.0000     NotChecked  -29.2876    1216.6274   ✗       
+612   GVLLYGPPC+57.021GK       -1.0000     NotChecked  -29.2931    1159.6060   ✗       
+613   GLLLYGPPGGGK             -1.0000     NotChecked  -29.3987    1127.6339   ✗       
+614   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -29.3987    1216.6274   ✗       
+615   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -29.4160    1173.6216   ✗       
+616   GLLLYPPGC+57.021GK       -1.0000     NotChecked  -29.4385    1173.6216   ✗       
+617   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -29.4439    1216.6274   ✗       
+618   GLLLC+57.021GPPGC+57.021GK-1.0000     NotChecked  -29.4587    1227.6104   ✗       
+619   GLLPYGPPGC+57.021GK      -1.0000     NotChecked  -29.4715    1214.6118   ✗       
+620   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -29.4997    1173.6216   ✗       
+621   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -29.5327    1216.6274   ✗       
+622   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -29.5482    1173.6216   ✗       
+623   GLLLYGPPGC+57.021G       -1.0000     NotChecked  -29.5570    1102.5481   ✗       
+624   GGLLYGPPGC+57.021GK      -1.0000     NotChecked  -29.5727    1174.5805   ✗       
+625   GLLYGPPGC+57.021GK       -1.0000     NotChecked  -29.5771    1117.5590   ✗       
+626   GLLLYGPPGC+57.021K       -1.0000     NotChecked  -29.5781    1173.6216   ✗       
+627   GALLYGPPGC+57.021GK      -1.0000     NotChecked  -29.5905    1188.5961   ✗       
+628   GPLLYGPPGC+57.021GK      -1.0000     NotChecked  -29.6190    1214.6118   ✗       
+629   GLLLFGPPGC+57.021GK      -1.0000     NotChecked  -29.6964    1214.6482   ✗       
+630   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -29.7141    1173.6216   ✗       
+631   G-17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -29.7141    1213.6165   ✗       
+632   GLLLYGPAGC+57.021GK      -1.0000     NotChecked  -29.7238    1204.6274   ✗       
+633   GGLLYGPPGC+57.021GK      -1.0000     NotChecked  -29.7317    1174.5805   ✗       
+634   VLLYGPPGC+57.021GK       -1.0000     NotChecked  -29.7444    1159.6060   ✗       
+635   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -29.7663    1216.6274   ✗       
+636   +42.011LLLYGPPC+57.021GK -1.0000     NotChecked  -29.8143    1158.6107   ✗       
+637   GLPLYGPPGC+57.021GK      -1.0000     NotChecked  -29.8236    1214.6118   ✗       
+638   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -29.8369    1216.6274   ✗       
+639   -17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -29.8798    1156.5951   ✗       
+640   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -29.8986    1173.6216   ✗       
+641   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -29.9010    1216.6274   ✗       
+642   +43.006LLLYGPPC+57.021GK -1.0000     NotChecked  -29.9272    1159.6060   ✗       
+643   GLLLYPPGC+57.021GK       -1.0000     NotChecked  -29.9543    1173.6216   ✗       
+644   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -29.9651    1215.6322   ✗       
+645   GLLPYGPPGC+57.021GK      -1.0000     NotChecked  -29.9874    1214.6118   ✗       
+646   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -30.0053    1173.6216   ✗       
+647   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -30.0539    1215.6322   ✗       
+648   GLLLYGPPGC+57.021G       -1.0000     NotChecked  -30.0729    1102.5481   ✗       
+649   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -30.0780    1216.6274   ✗       
+650   GLLLYGPPGC+57.021K       -1.0000     NotChecked  -30.0939    1173.6216   ✗       
+651   G-17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -30.1067    1213.6165   ✗       
+652   GALLYGPPGC+57.021GK      -1.0000     NotChecked  -30.1230    1188.5961   ✗       
+653   GGLLYGPPGC+57.021GK      -1.0000     NotChecked  -30.1243    1174.5805   ✗       
+654   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -30.1490    1216.6274   ✗       
+655   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -30.1668    1216.6274   ✗       
+656   -17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -30.1989    1156.5951   ✗       
+657   GGLLYGPPGC+57.021GK      -1.0000     NotChecked  -30.2143    1174.5805   ✗       
+658   GLTLYGPPGC+57.021GK      -1.0000     NotChecked  -30.2339    1218.6067   ✗       
+659   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -30.2431    1216.6274   ✗       
+660   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -30.2875    1215.6322   ✗       
+661   GLVLYGPPGC+57.021GK      -1.0000     NotChecked  -30.3338    1216.6274   ✗       
+662   GLPLYGPPGC+57.021GK      -1.0000     NotChecked  -30.3395    1214.6118   ✗       
+663   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -30.3557    1173.6216   ✗       
+664   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -30.3581    1215.6322   ✗       
+665   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -30.3633    1216.6274   ✗       
+666   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -30.3677    1216.6274   ✗       
+667   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -30.3731    1215.6322   ✗       
+668   GLLLYGPPGC+57.021K       -1.0000     NotChecked  -30.3888    1173.6216   ✗       
+669   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -30.4004    1216.6274   ✗       
+670   -17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -30.4123    1156.5951   ✗       
+671   GLLTYGPPGC+57.021GK      -1.0000     NotChecked  -30.4145    1218.6067   ✗       
+672   GALLYGPPGC+57.021GK      -1.0000     NotChecked  -30.4211    1188.5961   ✗       
+673   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -30.4222    1215.6322   ✗       
+674   GALLYGPPGC+57.021GK      -1.0000     NotChecked  -30.4255    1188.5961   ✗       
+675   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -30.4710    1216.6274   ✗       
+676   GLLLHGPPGC+57.021GK      -1.0000     NotChecked  -30.4735    1204.6387   ✗       
+677   GPLLYGPPGC+57.021GK      -1.0000     NotChecked  -30.4771    1214.6118   ✗       
+678   GLLLMGPPGC+57.021GK      -1.0000     NotChecked  -30.4835    1198.6202   ✗       
+679   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -30.4860    1216.6274   ✗       
+680   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -30.5071    1216.6274   ✗       
+681   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -30.5351    1216.6274   ✗       
+682   G-17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -30.5638    1213.6165   ✗       
+683   GALLYGPPGC+57.021GK      -1.0000     NotChecked  -30.5801    1188.5961   ✗       
+684   +42.011KLLYGPPGC+57.021GK-1.0000     Failed      -30.5941    1230.6431   ✓       
+685   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -30.6061    1216.6274   ✗       
+686   GLLLYGPPGGK              -1.0000     NotChecked  -30.6276    1070.6124   ✗       
+687   GLSLYGPPGC+57.021GK      -1.0000     NotChecked  -30.6365    1204.5910   ✗       
+688   GLLLKGPPGC+57.021GK      -1.0000     NotChecked  -30.6599    1195.6747   ✗       
+689   GLLLRGPPGC+57.021GK      -1.0000     NotChecked  -30.6693    1223.6809   ✗       
+690   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -30.6702    1215.6322   ✗       
+691   -17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -30.7103    1156.5951   ✗       
+692   -17.027GLLLYGPPGC+57.021GK-1.0000     NotChecked  -30.7147    1213.6165   ✗       
+693   GLTLYGPPGC+57.021GK      -1.0000     NotChecked  -30.7498    1218.6067   ✗       
+694   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -30.7643    1215.6322   ✗       
+695   GLLLLGPPGC+57.021GK      -1.0000     NotChecked  -30.7786    1180.6638   ✗       
+696   GLLLYGPPGAGK             -1.0000     NotChecked  -30.7798    1141.6495   ✗       
+697   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -30.7831    1216.6274   ✗       
+698   GLLAYGPPGC+57.021GK      -1.0000     NotChecked  -30.8218    1188.5961   ✗       
+699   GLLLYGPPGMGK             -1.0000     NotChecked  -30.8409    1201.6529   ✗       
+700   GLVLYGPPGC+57.021GK      -1.0000     NotChecked  -30.8497    1216.6274   ✗       
+701   -17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -30.8694    1156.5951   ✗       
+702   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -30.8772    1216.6274   ✗       
+703   LLLYGPPC+57.021GK        -1.0000     NotChecked  -30.8842    1116.6002   ✗       
+704   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -30.8845    1215.6322   ✗       
+705   GLLLYGPPGC+57.021K       -1.0000     NotChecked  -30.9046    1173.6216   ✗       
+706   +42.011VLLYGPPGC+57.021GK-1.0000     NotChecked  -30.9148    1201.6165   ✗       
+707   GLLTYGPPGC+57.021GK      -1.0000     NotChecked  -30.9304    1218.6067   ✗       
+708   GALLYGPPGC+57.021GK      -1.0000     NotChecked  -30.9727    1188.5961   ✗       
+709   GGLLYGPPGC+57.021GK      -1.0000     NotChecked  -30.9824    1174.5805   ✗       
+710   GLLLHGPPGC+57.021GK      -1.0000     NotChecked  -30.9894    1204.6387   ✗       
+711   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -30.9974    1216.6274   ✗       
+712   GLLLMGPPGC+57.021GK      -1.0000     NotChecked  -30.9993    1198.6202   ✗       
+713   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -31.0049    1216.6274   ✗       
+714   GPLLYGPPGC+57.021GK      -1.0000     NotChecked  -31.0097    1214.6118   ✗       
+715   GLLVYGPPGC+57.021GK      -1.0000     NotChecked  -31.0121    1216.6274   ✗       
+716   +43.006VLLYGPPGC+57.021GK-1.0000     NotChecked  -31.0277    1202.6118   ✗       
+717   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -31.0283    1215.6322   ✗       
+718   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -31.0350    1173.6216   ✗       
+719   GALLYGPPGC+57.021GK      -1.0000     NotChecked  -31.0627    1188.5961   ✗       
+720   GLLLKGPPGC+57.021GK      -1.0000     NotChecked  -31.1170    1195.6747   ✗       
+721   GLLLYGPPGGGK             -1.0000     NotChecked  -31.1231    1127.6339   ✗       
+722   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -31.1238    1173.6216   ✗       
+723   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -31.1273    1215.6322   ✗       
+724   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -31.1412    1216.6274   ✗       
+725   GLLLYGPPGGK              -1.0000     NotChecked  -31.1434    1070.6124   ✗       
+726   GLSLYGPPGC+57.021GK      -1.0000     NotChecked  -31.1523    1204.5910   ✗       
+727   GLLLKGPPGC+57.021GK      -1.0000     NotChecked  -31.1758    1195.6747   ✗       
+728   GLLLC+57.021GPPGC+57.021GK-1.0000     NotChecked  -31.1832    1227.6104   ✗       
+729   GLLLRGPPGC+57.021GK      -1.0000     NotChecked  -31.1851    1223.6809   ✗       
+730   GKLLYGPPC+57.021GK       -1.0000     NotChecked  -31.2127    1188.6325   ✗       
+731   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -31.2402    1216.6274   ✗       
+732   -17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -31.2620    1156.5951   ✗       
+733   GLLLQGPPGC+57.021GK      -1.0000     NotChecked  -31.2920    1195.6383   ✗       
+734   GLLLLGPPGC+57.021GK      -1.0000     NotChecked  -31.2945    1180.6638   ✗       
+735   GLLLYGPPGAGK             -1.0000     NotChecked  -31.2957    1141.6495   ✗       
+736   GPLLYGPPGC+57.021GK      -1.0000     NotChecked  -31.3077    1214.6118   ✗       
+737   GPLLYGPPGC+57.021GK      -1.0000     NotChecked  -31.3121    1214.6118   ✗       
+738   GLLAYGPPGC+57.021GK      -1.0000     NotChecked  -31.3376    1188.5961   ✗       
+739   GGLLYGPPGC+57.021GK      -1.0000     NotChecked  -31.3507    1174.5805   ✗       
+740   -17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -31.3519    1156.5951   ✗       
+741   GLLLYGPPGMGK             -1.0000     NotChecked  -31.3567    1201.6529   ✗       
+742   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -31.3574    1173.6216   ✗       
+743   +42.011VLLYGPPGC+57.021GK-1.0000     NotChecked  -31.3719    1201.6165   ✗       
+744   GVLLYGPPGC+57.021K       -1.0000     NotChecked  -31.3876    1159.6060   ✗       
+745   GLLLFGPPGC+57.021GK      -1.0000     NotChecked  -31.4209    1214.6482   ✗       
+746   G-17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -31.4218    1213.6165   ✗       
+747   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -31.4280    1173.6216   ✗       
+748   GGLLYGPPGC+57.021GK      -1.0000     NotChecked  -31.4395    1174.5805   ✗       
+749   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -31.4429    1173.6216   ✗       
+750   GLLLYGPAGC+57.021GK      -1.0000     NotChecked  -31.4483    1204.6274   ✗       
+751   GLLLVGPPGC+57.021GK      -1.0000     NotChecked  -31.4655    1166.6482   ✗       
+752   GPLLYGPPGC+57.021GK      -1.0000     NotChecked  -31.4667    1214.6118   ✗       
+753   GLLVYGPPGC+57.021GK      -1.0000     NotChecked  -31.4692    1216.6274   ✗       
+754   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -31.4741    1216.6274   ✗       
+755   +43.006VLLYGPPGC+57.021GK-1.0000     NotChecked  -31.4848    1202.6118   ✗       
+756   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -31.4921    1173.6216   ✗       
+757   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -31.5261    1215.6322   ✗       
+758   GLLVYGPPGC+57.021GK      -1.0000     NotChecked  -31.5279    1216.6274   ✗       
+759   ALLLYGPPC+57.021GK       -1.0000     NotChecked  -31.5319    1187.6373   ✗       
+760   GVLLYGPPGC+57.021GK      -1.0000     NotChecked  -31.5334    1216.6274   ✗       
+761   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -31.6390    1216.6274   ✗       
+762   KLLYGPPGC+57.021GK       -1.0000     NotChecked  -31.6640    1188.6325   ✗       
+763   LLLLYGPPC+57.021GK       -1.0000     NotChecked  -31.6869    1229.6842   ✗       
+764   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -31.7401    1173.6216   ✗       
+765   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -31.8342    1173.6216   ✗       
+766   +42.011LLLYGPPGC+57.021K -1.0000     NotChecked  -31.9088    1158.6107   ✗       
+767   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -31.9544    1173.6216   ✗       
+768   VLLYGPPGC+57.021GK       -1.0000     NotChecked  -31.9847    1159.6060   ✗       
+769   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -31.9953    1215.6322   ✗       
+770   +43.006LLLYGPPGC+57.021K -1.0000     NotChecked  -32.0217    1159.6060   ✗       
+771   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -32.0546    1215.6322   ✗       
+772   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -32.0982    1173.6216   ✗       
+773   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -32.1082    1216.6274   ✗       
+774   -17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -32.1201    1156.5951   ✗       
+775   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -32.1675    1216.6274   ✗       
+776   +42.011LLLKGPPGC+57.021GK-1.0000     NotChecked  -32.1799    1180.6638   ✗       
+777   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -32.1971    1173.6216   ✗       
+778   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -32.2456    1173.6216   ✗       
+779   +43.006LLLKGPPGC+57.021GK-1.0000     NotChecked  -32.2928    1181.6591   ✗       
+780   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -32.3145    1215.6322   ✗       
+781   LRLYGPPGC+57.021GK       -1.0000     NotChecked  -32.3873    1216.6387   ✗       
+782   LLLYGPLGC+57.021GK       -1.0000     NotChecked  -32.4178    1189.6529   ✗       
+783   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -32.4273    1216.6274   ✗       
+784   -17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -32.4392    1156.5951   ✗       
+785   VLLYGPPGC+57.021GK       -1.0000     NotChecked  -32.4418    1159.6060   ✗       
+786   +42.011LLLYAPPGC+57.021GK-1.0000     NotChecked  -32.4470    1229.6478   ✗       
+787   -17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -32.4883    1156.5951   ✗       
+788   +42.011LLLYGPPC+57.021GK -1.0000     NotChecked  -32.5117    1158.6107   ✗       
+789   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -32.5279    1215.6322   ✗       
+790   +42.011LLVYGPPGC+57.021GK-1.0000     NotChecked  -32.5321    1201.6165   ✗       
+791   -17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -32.5771    1156.5951   ✗       
+792   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -32.5960    1173.6216   ✗       
+793   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -32.5985    1215.6322   ✗       
+794   +43.006LLLYGPPC+57.021GK -1.0000     NotChecked  -32.6246    1159.6060   ✗       
+795   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -32.6408    1216.6274   ✗       
+796   +42.011LLLYGPPGGGK       -1.0000     NotChecked  -32.6432    1112.6230   ✗       
+797   +43.006LLVYGPPGC+57.021GK-1.0000     NotChecked  -32.6450    1202.6118   ✗       
+798   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -32.6625    1215.6322   ✗       
+799   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -32.6780    1215.6322   ✗       
+800   +42.011LLLC+57.021GPPGC+57.021GK-1.0000     NotChecked  -32.7032    1212.5995   ✗       
+801   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -32.7114    1216.6274   ✗       
+802   +43.006LLLYGPPGGGK       -1.0000     NotChecked  -32.7560    1113.6182   ✗       
+803   +42.011LLLYGPTGC+57.021GK-1.0000     NotChecked  -32.7738    1219.6271   ✗       
+804   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -32.7754    1216.6274   ✗       
+805   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -32.7909    1216.6274   ✗       
+806   +43.006LLLC+57.021GPPGC+57.021GK-1.0000     NotChecked  -32.8161    1213.5948   ✗       
+807   +42.011GLLYGPPGC+57.021GK-1.0000     NotChecked  -32.8216    1159.5696   ✗       
+808   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -32.8259    1215.6322   ✗       
+809   +42.011KLLYGPPGC+57.021GK-1.0000     Failed      -32.8344    1230.6431   ✓       
+810   +43.006LLLYGPTGC+57.021GK-1.0000     NotChecked  -32.8867    1220.6223   ✗       
+811   -17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -32.8963    1156.5951   ✗       
+812   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -32.8963    1215.6322   ✗       
+813   +43.006GLLYGPPGC+57.021GK-1.0000     NotChecked  -32.9345    1160.5648   ✗       
+814   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -32.9388    1216.6274   ✗       
+815   +42.011LLLFGPPGC+57.021GK-1.0000     NotChecked  -32.9409    1199.6373   ✗       
+816   -17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -32.9507    1156.5951   ✗       
+817   -17.027GLLLYGPPGC+57.021GK-1.0000     NotChecked  -32.9551    1213.6165   ✗       
+818   +42.011LLLYGPAGC+57.021GK-1.0000     NotChecked  -32.9683    1189.6165   ✗       
+819   LLLYGPPGC+57.021K        -1.0000     NotChecked  -32.9787    1116.6002   ✗       
+820   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -32.9849    1215.6322   ✗       
+821   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -33.0046    1215.6322   ✗       
+822   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -33.0092    1216.6274   ✗       
+823   +43.006LLLFGPPGC+57.021GK-1.0000     NotChecked  -33.0538    1200.6325   ✗       
+824   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -33.0555    1215.6322   ✗       
+825   +42.011LLLYGPPAC+57.021GK-1.0000     NotChecked  -33.0618    1229.6478   ✗       
+826   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -33.0652    1173.6216   ✗       
+827   +42.011LLLYGPPGC+57.021GQ-1.0000     NotChecked  -33.0712    1215.5958   ✗       
+828   +43.006LLLYGPAGC+57.021GK-1.0000     NotChecked  -33.0812    1190.6118   ✗       
+829   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -33.0978    1216.6274   ✗       
+830   -17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -33.1097    1156.5951   ✗       
+831   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -33.1175    1216.6274   ✗       
+832   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -33.1245    1173.6216   ✗       
+833   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -33.1684    1216.6274   ✗       
+834   +43.006LLLYGPPGC+57.021GQ-1.0000     NotChecked  -33.1841    1216.5910   ✗       
+835   LLLYGPPGC+57.021GR       -1.0000     NotChecked  -33.1842    1201.6278   ✗       
+836   -17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -33.1934    1156.5951   ✗       
+837   +42.011LLLYPPGC+57.021GK -1.0000     NotChecked  -33.1988    1158.6107   ✗       
+838   +42.011LLPYGPPGC+57.021GK-1.0000     NotChecked  -33.2318    1199.6009   ✗       
+839   LLLKGPPGC+57.021GK       -1.0000     NotChecked  -33.2498    1138.6533   ✗       
+840   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -33.2686    1215.6322   ✗       
+841   +42.011KLLYGPPGC+57.021GK-1.0000     Failed      -33.2915    1230.6431   ✓       
+842   +43.006LLLYPPGC+57.021GK -1.0000     NotChecked  -33.3117    1159.6060   ✗       
+843   +42.011LLLYGPPGC+57.021G -1.0000     NotChecked  -33.3174    1087.5372   ✗       
+844   +42.011LLLYGPPGC+57.021K -1.0000     NotChecked  -33.3384    1158.6107   ✗       
+845   +43.006LLPYGPPGC+57.021GK-1.0000     NotChecked  -33.3447    1200.5961   ✗       
+846   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -33.3676    1215.6322   ✗       
+847   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -33.3815    1216.6274   ✗       
+848   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -33.3843    1173.6216   ✗       
+849   +42.011LLLYGPVGC+57.021GK-1.0000     NotChecked  -33.3979    1217.6478   ✗       
+850   -17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -33.4077    1156.5951   ✗       
+851   -17.027GLLLYGPPGC+57.021GK-1.0000     NotChecked  -33.4121    1213.6165   ✗       
+852   +43.006LLLYGPPGC+57.021G -1.0000     NotChecked  -33.4303    1088.5325   ✗       
+853   -17.027VLLYGPPGC+57.021GK-1.0000     NotChecked  -33.4380    1142.5794   ✗       
+854   +43.006LLLYGPPGC+57.021K -1.0000     NotChecked  -33.4513    1159.6060   ✗       
+855   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -33.4675    1215.6322   ✗       
+856   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -33.4805    1216.6274   ✗       
+857   +43.006LLLYGPVGC+57.021GK-1.0000     NotChecked  -33.5108    1218.6431   ✗       
+858   LLLYAPPGC+57.021GK       -1.0000     NotChecked  -33.5169    1187.6373   ✗       
+859   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -33.5804    1216.6274   ✗       
+860   LLLYGPPC+57.021GK        -1.0000     NotChecked  -33.5816    1116.6002   ✗       
+861   +42.011LPLYGPPGC+57.021GK-1.0000     NotChecked  -33.5839    1199.6009   ✗       
+862   -17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -33.5922    1156.5951   ✗       
+863   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -33.5977    1173.6216   ✗       
+864   LLVYGPPGC+57.021GK       -1.0000     NotChecked  -33.6020    1159.6060   ✗       
+865   +42.011VLLYGPPGC+57.021GK-1.0000     NotChecked  -33.6122    1201.6165   ✗       
+866   ALLLYGPPGC+57.021K       -1.0000     NotChecked  -33.6264    1187.6373   ✗       
+867   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -33.6683    1173.6216   ✗       
+868   +42.011ALLYGPPGC+57.021GK-1.0000     NotChecked  -33.6700    1173.5852   ✗       
+869   +43.006LPLYGPPGC+57.021GK-1.0000     NotChecked  -33.6968    1200.5961   ✗       
+870   LLLYGPPGGGK              -1.0000     NotChecked  -33.7130    1070.6124   ✗       
+871   +43.006VLLYGPPGC+57.021GK-1.0000     NotChecked  -33.7251    1202.6118   ✗       
+872   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -33.7257    1215.6322   ✗       
+873   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -33.7324    1173.6216   ✗       
+874   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -33.7478    1173.6216   ✗       
+875   LLLC+57.021GPPGC+57.021GK-1.0000     NotChecked  -33.7731    1170.5889   ✗       
+876   LLLLYGPPGC+57.021K       -1.0000     NotChecked  -33.7813    1229.6842   ✗       
+877   +43.006ALLYGPPGC+57.021GK-1.0000     NotChecked  -33.7828    1174.5805   ✗       
+878   LLLYGPHGC+57.021GK       -1.0000     NotChecked  -33.7908    1213.6278   ✗       
+879   LLLYGPEGC+57.021GK       -1.0000     NotChecked  -33.8295    1205.6114   ✗       
+880   SLLLYGPPC+57.021GK       -1.0000     NotChecked  -33.8381    1203.6322   ✗       
+881   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -33.8386    1216.6274   ✗       
+882   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -33.8430    1215.6322   ✗       
+883   LLLYGPTGC+57.021GK       -1.0000     NotChecked  -33.8437    1177.6165   ✗       
+884   GLLYGPPGC+57.021GK       -1.0000     NotChecked  -33.8914    1117.5590   ✗       
+885   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -33.8958    1173.6216   ✗       
+886   ALLLKGPPGC+57.021GK      -1.0000     NotChecked  -33.8976    1209.6904   ✗       
+887   KLLYGPPGC+57.021GK       -1.0000     NotChecked  -33.9043    1188.6325   ✗       
+888   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -33.9559    1216.6274   ✗       
+889   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -33.9662    1173.6216   ✗       
+890   +42.011LTLYGPPGC+57.021GK-1.0000     NotChecked  -33.9942    1203.5958   ✗       
+891   LLLFGPPGC+57.021GK       -1.0000     NotChecked  -34.0107    1157.6267   ✗       
+892   LLLYGPAGC+57.021GK       -1.0000     NotChecked  -34.0382    1147.6060   ✗       
+893   -17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -34.0493    1156.5951   ✗       
+894   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -34.0548    1173.6216   ✗       
+895   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -34.0745    1173.6216   ✗       
+896   +42.011LVLYGPPGC+57.021GK-1.0000     NotChecked  -34.0942    1201.6165   ✗       
+897   +42.011LNLYGPPGC+57.021GK-1.0000     NotChecked  -34.1020    1216.5910   ✗       
+898   +43.006LTLYGPPGC+57.021GK-1.0000     NotChecked  -34.1071    1204.5910   ✗       
+899   +42.011LLLYGPPGC+57.021AK-1.0000     NotChecked  -34.1094    1229.6478   ✗       
+900   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -34.1254    1173.6216   ✗       
+901   LLLYGPPAC+57.021GK       -1.0000     NotChecked  -34.1317    1187.6373   ✗       
+902   LLLYGPPGC+57.021GQ       -1.0000     NotChecked  -34.1410    1173.5852   ✗       
+903   +42.011LLLYGPPGC+57.021K -1.0000     NotChecked  -34.1491    1158.6107   ✗       
+904   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -34.1621    1215.6322   ✗       
+905   +42.011LLTYGPPGC+57.021GK-1.0000     NotChecked  -34.1749    1203.5958   ✗       
+906   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -34.1870    1173.6216   ✗       
+907   +43.006LVLYGPPGC+57.021GK-1.0000     NotChecked  -34.2070    1202.6118   ✗       
+908   +43.006LNLYGPPGC+57.021GK-1.0000     NotChecked  -34.2149    1217.5863   ✗       
+909   +43.006LLLYGPPGC+57.021AK-1.0000     Failed      -34.2223    1230.6431   ✓       
+910   ALLLYGPPC+57.021GK       -1.0000     NotChecked  -34.2293    1187.6373   ✗       
+911   +42.011LLLHGPPGC+57.021GK-1.0000     NotChecked  -34.2338    1189.6278   ✗       
+912   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -34.2356    1215.6322   ✗       
+913   +42.011LLLMGPPGC+57.021GK-1.0000     NotChecked  -34.2438    1183.6093   ✗       
+914   LLLYPPPGC+57.021GK       -1.0000     NotChecked  -34.2551    1213.6529   ✗       
+915   +43.006LLLYGPPGC+57.021K -1.0000     NotChecked  -34.2620    1159.6060   ✗       
+916   LLLYPPGC+57.021GK        -1.0000     NotChecked  -34.2687    1116.6002   ✗       
+917   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -34.2750    1216.6274   ✗       
+918   +43.006LLTYGPPGC+57.021GK-1.0000     NotChecked  -34.2878    1204.5910   ✗       
+919   LLPYGPPGC+57.021GK       -1.0000     NotChecked  -34.3017    1157.5903   ✗       
+920   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -34.3385    1173.6216   ✗       
+921   +43.006LLLHGPPGC+57.021GK-1.0000     NotChecked  -34.3467    1190.6230   ✗       
+922   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -34.3485    1216.6274   ✗       
+923   +43.006LLLMGPPGC+57.021GK-1.0000     NotChecked  -34.3567    1184.6046   ✗       
+924   ALLLYGPPGGGK             -1.0000     NotChecked  -34.3608    1141.6495   ✗       
+925   KLLYGPPGC+57.021GK       -1.0000     NotChecked  -34.3613    1188.6325   ✗       
+926   RLLYGPPGC+57.021GK       -1.0000     NotChecked  -34.3623    1216.6387   ✗       
+927   LLLLYGPPC+57.021GK       -1.0000     NotChecked  -34.3843    1229.6842   ✗       
+928   LLLYGPPGC+57.021G        -1.0000     NotChecked  -34.3872    1045.5267   ✗       
+929   +42.011LLLYGPPGGK        -1.0000     NotChecked  -34.3879    1055.6015   ✗       
+930   +42.011LSLYGPPGC+57.021GK-1.0000     NotChecked  -34.3968    1189.5801   ✗       
+931   LLLYGPPGC+57.021K        -1.0000     NotChecked  -34.4083    1116.6002   ✗       
+932   +42.011LLLKGPPGC+57.021GK-1.0000     NotChecked  -34.4203    1180.6638   ✗       
+933   +42.011LLLRGPPGC+57.021GK-1.0000     NotChecked  -34.4296    1208.6700   ✗       
+934   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -34.4375    1173.6216   ✗       
+935   LLLYGPVGC+57.021GK       -1.0000     NotChecked  -34.4678    1175.6373   ✗       
+936   +43.006LLLYGPPGGK        -1.0000     NotChecked  -34.5008    1056.5968   ✗       
+937   +43.006LSLYGPPGC+57.021GK-1.0000     NotChecked  -34.5097    1190.5754   ✗       
+938   LLLYGPFGC+57.021GK       -1.0000     NotChecked  -34.5113    1223.6373   ✗       
+939   LLLLYGPPGGGK             -1.0000     NotChecked  -34.5157    1183.6965   ✗       
+940   +43.006LLLKGPPGC+57.021GK-1.0000     NotChecked  -34.5332    1181.6591   ✗       
+941   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -34.5374    1173.6216   ✗       
+942   +42.011LLLLGPPGC+57.021GK-1.0000     NotChecked  -34.5390    1165.6529   ✗       
+943   AGLLYGPPGC+57.021GK      -1.0000     NotChecked  -34.5392    1188.5961   ✗       
+944   +42.011LLLYGPPGAGK       -1.0000     NotChecked  -34.5402    1126.6386   ✗       
+945   +43.006LLLRGPPGC+57.021GK-1.0000     NotChecked  -34.5425    1209.6652   ✗       
+946   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -34.5548    1215.6322   ✗       
+947   +42.011PLLYGPPGC+57.021GK-1.0000     NotChecked  -34.5566    1199.6009   ✗       
+948   -17.027LLLYGPPC+57.021GK -1.0000     NotChecked  -34.5778    1099.5736   ✗       
+949   +42.011LLAYGPPGC+57.021GK-1.0000     NotChecked  -34.5821    1173.5852   ✗       
+950   +42.011LLLYGPPGMGK       -1.0000     NotChecked  -34.6012    1186.6420   ✗       
+951   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -34.6039    1215.6322   ✗       
+952   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -34.6062    1215.6322   ✗       
+953   LRLYGPPGC+57.021GK       -1.0000     NotChecked  -34.6276    1216.6387   ✗       
+954   LLLYGPPPC+57.021GK       -1.0000     NotChecked  -34.6369    1213.6529   ✗       
+955   +43.006LLLLGPPGC+57.021GK-1.0000     NotChecked  -34.6518    1166.6482   ✗       
+956   +43.006LLLYGPPGAGK       -1.0000     NotChecked  -34.6530    1127.6339   ✗       
+957   LPLYGPPGC+57.021GK       -1.0000     NotChecked  -34.6538    1157.5903   ✗       
+958   LLLYGPLGC+57.021GK       -1.0000     NotChecked  -34.6582    1189.6529   ✗       
+959   ALLLFGPPGC+57.021GK      -1.0000     NotChecked  -34.6585    1228.6638   ✗       
+960   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -34.6677    1216.6274   ✗       
+961   +43.006PLLYGPPGC+57.021GK-1.0000     NotChecked  -34.6695    1200.5961   ✗       
+962   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -34.6736    1215.6322   ✗       
+963   VLLYGPPGC+57.021GK       -1.0000     NotChecked  -34.6821    1159.6060   ✗       
+964   ALLLYGPAGC+57.021GK      -1.0000     NotChecked  -34.6859    1218.6431   ✗       
+965   +42.011LLLYAPPGC+57.021GK-1.0000     NotChecked  -34.6873    1229.6478   ✗       
+966   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -34.6927    1215.6322   ✗       
+967   +43.006LLAYGPPGC+57.021GK-1.0000     NotChecked  -34.6950    1174.5805   ✗       
+968   +43.006LLLYGPPGMGK       -1.0000     NotChecked  -34.7141    1187.6373   ✗       
+969   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -34.7168    1216.6274   ✗       
+970   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -34.7191    1216.6274   ✗       
+971   FLLYGPPGC+57.021GK       -1.0000     NotChecked  -34.7269    1207.6060   ✗       
+972   -17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -34.7287    1156.5951   ✗       
+973   ALLYGPPGC+57.021GK       -1.0000     NotChecked  -34.7398    1131.5747   ✗       
+974   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -34.7520    1215.6322   ✗       
+975   +42.011LLVYGPPGC+57.021GK-1.0000     NotChecked  -34.7724    1201.6165   ✗       
+976   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -34.7748    1215.6322   ✗       
+977   LLLYGPPLC+57.021GK       -1.0000     NotChecked  -34.7749    1229.6842   ✗       
+978   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -34.7865    1216.6274   ✗       
+979   LLYYGPPGC+57.021GK       -1.0000     NotChecked  -34.7935    1223.6009   ✗       
+980   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -34.7956    1173.6216   ✗       
+981   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -34.8056    1216.6274   ✗       
+982   -17.027LLLYGPPGC+57.021GK-1.0000     NotChecked  -34.8175    1156.5951   ✗       
+983   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -34.8649    1216.6274   ✗       
+984   +42.011LLLKGPPGC+57.021GK-1.0000     NotChecked  -34.8773    1180.6638   ✗       
+985   +42.011LLLYGPPGGGK       -1.0000     NotChecked  -34.8835    1112.6230   ✗       
+986   +43.006LLVYGPPGC+57.021GK-1.0000     NotChecked  -34.8853    1202.6118   ✗       
+987   LFLYGPPGC+57.021GK       -1.0000     NotChecked  -34.8869    1207.6060   ✗       
+988   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -34.8877    1216.6274   ✗       
+989   LKLYGPPGC+57.021GK       -1.0000     NotChecked  -34.9045    1188.6325   ✗       
+990   LLLYGPPGC+57.021GK       -1.0000     NotChecked  -34.9129    1173.6216   ✗       
+991   ALLLYPPGC+57.021GK       -1.0000     NotChecked  -34.9164    1187.6373   ✗       
+992   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -34.9183    1215.6322   ✗       
+993   +42.011LLLC+57.021GPPGC+57.021GK-1.0000     NotChecked  -34.9435    1212.5995   ✗       
+994   ALLPYGPPGC+57.021GK      -1.0000     NotChecked  -34.9494    1228.6274   ✗       
+995   +43.006LLLKGPPGC+57.021GK-1.0000     NotChecked  -34.9902    1181.6591   ✗       
+996   +43.006LLLYGPPGGGK       -1.0000     NotChecked  -34.9964    1113.6182   ✗       
+997   +42.011LLLYGPPGC+57.021GK-1.0000     NotChecked  -35.0118    1215.6322   ✗       
+998   +42.011LLLYGPTGC+57.021GK-1.0000     NotChecked  -35.0141    1219.6271   ✗       
+999   +43.006LLLYGPPGC+57.021GK-1.0000     NotChecked  -35.0312    1216.6274   ✗       
+1000  ALLLYGPPGC+57.021G       -1.0000     NotChecked  -35.0350    1116.5638   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: GLLLYGPPGC+57.021GK
+Similarity: 0.7807
+De Novo Score: -0.1676
+Source: Database
+Correct: ✓
+

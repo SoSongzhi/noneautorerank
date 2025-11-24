@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 43
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 835.8737
+Precursor charge: 2+
+Ground truth: VC+57.021TPEDMVGFTESAK
+Ground truth (normalized): VC+57.021TPEDMVGFTESAK
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 323
+Used for reranking: 323
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 323 (32.3%)
+Database matches: 165 (16.5%)
+Prosit predictions: 157 (15.7%)
+Failed: 1 (0.1%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.8173
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     VC+57.021TPEDMVGFTESAK   0.8173      Database    -0.1043     1669.7327   ✓       ✓
+2     VC+57.021TPEDMVGFTESAK   0.8173      Database    -2.6451     1669.7327   ✓       ✓
+3     VC+57.021TPEDMVGFTESAK   0.8173      Database    -3.8394     1669.7327   ✓       ✓
+4     VC+57.021TPEDMVGFTESAK   0.8173      Database    -6.3593     1669.7327   ✓       ✓
+5     VC+57.021TPEDMVGFTESAK   0.8173      Database    -6.3802     1669.7327   ✓       ✓
+6     VC+57.021TPEDMVGFTESAK   0.8173      Database    -8.2885     1669.7327   ✓       ✓
+7     VC+57.021TPEDMVGFTESAK   0.8173      Database    -8.9002     1669.7327   ✓       ✓
+8     VC+57.021TPEDMVGFTESAK   0.8173      Database    -8.9923     1669.7327   ✓       ✓
+9     VC+57.021TPEDMVGFTESAK   0.8173      Database    -10.0944    1669.7327   ✓       ✓
+10    VC+57.021TPEDMVGFTESAK   0.8173      Database    -10.8294    1669.7327   ✓       ✓
+11    VC+57.021TPEDMVGFTESAK   0.8173      Database    -11.5331    1669.7327   ✓       ✓
+12    VC+57.021TPEDMVGFTESAK   0.8173      Database    -12.0236    1669.7327   ✓       ✓
+13    VC+57.021TPEDMVGFTESAK   0.8173      Database    -12.6353    1669.7327   ✓       ✓
+14    VC+57.021TPEDMVGFTESAK   0.8173      Database    -12.7274    1669.7327   ✓       ✓
+15    VC+57.021TPEDMVGFTESAK   0.8173      Database    -12.8406    1669.7327   ✓       ✓
+16    VC+57.021TPEDMVGFTESAK   0.8173      Database    -13.3278    1669.7327   ✓       ✓
+17    VC+57.021TPEDMVGFTESAK   0.8173      Database    -13.9907    1669.7327   ✓       ✓
+18    VC+57.021TPEDMVGFTESAK   0.8173      Database    -14.1873    1669.7327   ✓       ✓
+19    VC+57.021TPEDMVGFTESAK   0.8173      Database    -14.5436    1669.7327   ✓       ✓
+20    VC+57.021TPEDMVGFTESAK   0.8173      Database    -14.5645    1669.7327   ✓       ✓
+21    VC+57.021TPEDMVGFTESAK   0.8173      Database    -14.5914    1669.7327   ✓       ✓
+22    VC+57.021TPEDMVGFTESAK   0.8173      Database    -14.7202    1669.7327   ✓       ✓
+23    VC+57.021TPEDMVGFTESAK   0.8173      Database    -14.7806    1669.7327   ✓       ✓
+24    VC+57.021TPEDMVGFTESAK   0.8173      Database    -14.9411    1669.7327   ✓       ✓
+25    VC+57.021TPEDMVGFTESAK   0.8173      Database    -15.0414    1669.7327   ✓       ✓
+26    VC+57.021TPEDMVGFTESAK   0.8173      Database    -15.2474    1669.7327   ✓       ✓
+27    VC+57.021TPEDMVGFTESAK   0.8173      Database    -15.2682    1669.7327   ✓       ✓
+28    VC+57.021TPEDMVGFTESAK   0.8173      Database    -15.3814    1669.7327   ✓       ✓
+29    VC+57.021TPEDMVGFTESAK   0.8173      Database    -15.3936    1669.7327   ✓       ✓
+30    VC+57.021TPEDMVGFTESAK   0.8173      Database    -15.6165    1669.7327   ✓       ✓
+31    VC+57.021TPEDMVGFTESAK   0.8173      Database    -15.8686    1669.7327   ✓       ✓
+32    VC+57.021TPEDMVGFTESAK   0.8173      Database    -16.2284    1669.7327   ✓       ✓
+33    VC+57.021TPEDMVGFTESAK   0.8173      Database    -16.5315    1669.7327   ✓       ✓
+34    VC+57.021TPEDMVGFTESAK   0.8173      Database    -16.7282    1669.7327   ✓       ✓
+35    VC+57.021TPEDMVGFTESAK   0.8173      Database    -17.0628    1669.7327   ✓       ✓
+36    VC+57.021TPEDMVGFTESAK   0.8173      Database    -17.0844    1669.7327   ✓       ✓
+37    VC+57.021TPEDMVGFTESAK   0.8173      Database    -17.1322    1669.7327   ✓       ✓
+38    VC+57.021TPEDMVGFTESAK   0.8173      Database    -17.1765    1669.7327   ✓       ✓
+39    VC+57.021TPEDMVGFTESAK   0.8173      Database    -17.2610    1669.7327   ✓       ✓
+40    VC+57.021TPEDMVGFTESAK   0.8173      Database    -17.3214    1669.7327   ✓       ✓
+41    VC+57.021TPEDMVGFTESAK   0.8173      Database    -17.4711    1669.7327   ✓       ✓
+42    VC+57.021TPEDMVGFTESAK   0.8173      Database    -17.4819    1669.7327   ✓       ✓
+43    VC+57.021TPEDMVGFTESAK   0.8173      Database    -17.5176    1669.7327   ✓       ✓
+44    VC+57.021TPEDMVGFTESAK   0.8173      Database    -17.5822    1669.7327   ✓       ✓
+45    VC+57.021TPEDMVGFTESAK   0.8173      Database    -17.7258    1669.7327   ✓       ✓
+46    VC+57.021TPEDMVGFTESAK   0.8173      Database    -17.7882    1669.7327   ✓       ✓
+47    VC+57.021TPEDMVGFTESAK   0.8173      Database    -17.9224    1669.7327   ✓       ✓
+48    VC+57.021TPEDMVGFTESAK   0.8173      Database    -17.9345    1669.7327   ✓       ✓
+49    VC+57.021TPEDMVGFTESAK   0.8173      Database    -18.1573    1669.7327   ✓       ✓
+50    VC+57.021TPEDMVGFTESAK   0.8173      Database    -18.2787    1669.7327   ✓       ✓
+51    VC+57.021TPEDMVGFTESAK   0.8173      Database    -18.3255    1669.7327   ✓       ✓
+52    VC+57.021TPEDMVGFTESAK   0.8173      Database    -18.3265    1669.7327   ✓       ✓
+53    VC+57.021TPEDMVGFTESAK   0.8173      Database    -18.4553    1669.7327   ✓       ✓
+54    VC+57.021TPEDMVGFTESAK   0.8173      Database    -18.5157    1669.7327   ✓       ✓
+55    VC+57.021TPEDMVGFTESAK   0.8173      Database    -18.6762    1669.7327   ✓       ✓
+56    VC+57.021TPEDMVGFTESAK   0.8173      Database    -18.7693    1669.7327   ✓       ✓
+57    VC+57.021TPEDMVGFTESAK   0.8173      Database    -18.7765    1669.7327   ✓       ✓
+58    VC+57.021TPEDMVGFTESAK   0.8173      Database    -18.9825    1669.7327   ✓       ✓
+59    VC+57.021TPEDMVGFTESAK   0.8173      Database    -18.9982    1669.7327   ✓       ✓
+60    VC+57.021TPEDMVGFTESAK   0.8173      Database    -19.0167    1669.7327   ✓       ✓
+61    VC+57.021TPEDMVGFTESAK   0.8173      Database    -19.0228    1669.7327   ✓       ✓
+62    VC+57.021TPEDMVGFTESAK   0.8173      Database    -19.0623    1669.7327   ✓       ✓
+63    VC+57.021TPEDMVGFTESAK   0.8173      Database    -19.0956    1669.7327   ✓       ✓
+64    VC+57.021TPEDMVGFTESAK   0.8173      Database    -19.1287    1669.7327   ✓       ✓
+65    VC+57.021TPEDMVGFTESAK   0.8173      Database    -19.3516    1669.7327   ✓       ✓
+66    VC+57.021TPEDMVGFTESAK   0.8173      Database    -19.5828    1669.7327   ✓       ✓
+67    VC+57.021TPEDMVGFTESAK   0.8173      Database    -19.6037    1669.7327   ✓       ✓
+68    VC+57.021TPEDMVGFTESAK   0.8173      Database    -19.6800    1669.7327   ✓       ✓
+69    VC+57.021TPEDMVGFTESAK   0.8173      Database    -19.7174    1669.7327   ✓       ✓
+70    VC+57.021TPEDMVGFTESAK   0.8173      Database    -19.7371    1669.7327   ✓       ✓
+71    VC+57.021TPEDMVGFTESAK   0.8173      Database    -19.9635    1669.7327   ✓       ✓
+72    VC+57.021TPEDMVGFTESAK   0.8173      Database    -20.0584    1669.7327   ✓       ✓
+73    VC+57.021TPEDMVGFTESAK   0.8173      Database    -20.2458    1669.7327   ✓       ✓
+74    VC+57.021TPEDMVGFTESAK   0.8173      Database    -20.2511    1669.7327   ✓       ✓
+75    VC+57.021TPEDMVGFTESAK   0.8173      Database    -20.2666    1669.7327   ✓       ✓
+76    VC+57.021TPEDMVGFTESAK   0.8173      Database    -20.4424    1669.7327   ✓       ✓
+77    VC+57.021TPEDMVGFTESAK   0.8173      Database    -20.4633    1669.7327   ✓       ✓
+78    VC+57.021TPEDMVGFTESAK   0.8173      Database    -20.8195    1669.7327   ✓       ✓
+79    VC+57.021TPEDMVGFTESAK   0.8173      Database    -20.8465    1669.7327   ✓       ✓
+80    VC+57.021TPEDMVGFTESAK   0.8173      Database    -20.8664    1669.7327   ✓       ✓
+81    VC+57.021TPEDMVGFTESAK   0.8173      Database    -20.8673    1669.7327   ✓       ✓
+82    VC+57.021TPEDMVGFTESAK   0.8173      Database    -20.9116    1669.7327   ✓       ✓
+83    VC+57.021TPEDMVGFTESAK   0.8173      Database    -20.9753    1669.7327   ✓       ✓
+84    VC+57.021TPEDMVGFTESAK   0.8173      Database    -20.9961    1669.7327   ✓       ✓
+85    VC+57.021TPEDMVGFTESAK   0.8173      Database    -21.0248    1669.7327   ✓       ✓
+86    VC+57.021TPEDMVGFTESAK   0.8173      Database    -21.0357    1669.7327   ✓       ✓
+87    VC+57.021TPEDMVGFTESAK   0.8173      Database    -21.0565    1669.7327   ✓       ✓
+88    VC+57.021TPEDMVGFTESAK   0.8173      Database    -21.1962    1669.7327   ✓       ✓
+89    VC+57.021TPEDMVGFTESAK   0.8173      Database    -21.2062    1669.7327   ✓       ✓
+90    VC+57.021TPEDMVGFTESAK   0.8173      Database    -21.2170    1669.7327   ✓       ✓
+91    VC+57.021TPEDMVGFTESAK   0.8173      Database    -21.2527    1669.7327   ✓       ✓
+92    VC+57.021TPEDMVGFTESAK   0.8173      Database    -21.2965    1669.7327   ✓       ✓
+93    VC+57.021TPEDMVGFTESAK   0.8173      Database    -21.3173    1669.7327   ✓       ✓
+94    VC+57.021TPEDMVGFTESAK   0.8173      Database    -21.5120    1669.7327   ✓       ✓
+95    VC+57.021TPEDMVGFTESAK   0.8173      Database    -21.5233    1669.7327   ✓       ✓
+96    VC+57.021TPEDMVGFTESAK   0.8173      Database    -21.5390    1669.7327   ✓       ✓
+97    VC+57.021TPEDMVGFTESAK   0.8173      Database    -21.5575    1669.7327   ✓       ✓
+98    VC+57.021TPEDMVGFTESAK   0.8173      Database    -21.5637    1669.7327   ✓       ✓
+99    VC+57.021TPEDMVGFTESAK   0.8173      Database    -21.6031    1669.7327   ✓       ✓
+100   VC+57.021TPEDMVGFTESAK   0.8173      Database    -21.6365    1669.7327   ✓       ✓
+101   VC+57.021TPEDMVGFTESAK   0.8173      Database    -21.6487    1669.7327   ✓       ✓
+102   VC+57.021TPEDMVGFTESAK   0.8173      Database    -21.6696    1669.7327   ✓       ✓
+103   VC+57.021TPEDMVGFTESAK   0.8173      Database    -21.6702    1669.7327   ✓       ✓
+104   VC+57.021TPEDMVGFTESAK   0.8173      Database    -21.7286    1669.7327   ✓       ✓
+105   VC+57.021TPEDMVGFTESAK   0.8173      Database    -21.8716    1669.7327   ✓       ✓
+106   VC+57.021TPEDMVGFTESAK   0.8173      Database    -21.8924    1669.7327   ✓       ✓
+107   VC+57.021TPEDMVGFTESAK   0.8173      Database    -22.0606    1669.7327   ✓       ✓
+108   VC+57.021TPEDMVGFTESAK   0.8173      Database    -22.1237    1669.7327   ✓       ✓
+109   VC+57.021TPEDMVGFTESAK   0.8173      Database    -22.1654    1669.7327   ✓       ✓
+110   VC+57.021TPEDMVGFTESAK   0.8173      Database    -22.1750    1669.7327   ✓       ✓
+111   VC+57.021TPEDMVGFTESAK   0.8173      Database    -22.2158    1669.7327   ✓       ✓
+112   VC+57.021TPEDMVGFTESAK   0.8173      Database    -22.2208    1669.7327   ✓       ✓
+113   VC+57.021TPEDMVGFTESAK   0.8173      Database    -22.2344    1669.7327   ✓       ✓
+114   VC+57.021TPEDMVGFTESAK   0.8173      Database    -22.2780    1669.7327   ✓       ✓
+115   VC+57.021TPEDMVGFTESAK   0.8173      Database    -22.3716    1669.7327   ✓       ✓
+116   VC+57.021TPEDMVGFTESAK   0.8173      Database    -22.5044    1669.7327   ✓       ✓
+117   VC+57.021TPEDMVGFTESAK   0.8173      Database    -22.7333    1669.7327   ✓       ✓
+118   VC+57.021TPEDMVGFTESAK   0.8173      Database    -22.7518    1669.7327   ✓       ✓
+119   VC+57.021TPEDMVGFTESAK   0.8173      Database    -22.7579    1669.7327   ✓       ✓
+120   VC+57.021TPEDMVGFTESAK   0.8173      Database    -22.7756    1669.7327   ✓       ✓
+121   VC+57.021TPEDMVGFTESAK   0.8173      Database    -22.7866    1669.7327   ✓       ✓
+122   VC+57.021TPEDMVGFTESAK   0.8173      Database    -22.7919    1669.7327   ✓       ✓
+123   VC+57.021TPEDMVGFTESAK   0.8173      Database    -22.7974    1669.7327   ✓       ✓
+124   VC+57.021TPEDMVGFTESAK   0.8173      Database    -22.8787    1669.7327   ✓       ✓
+125   VC+57.021TPEDMVGFTESAK   0.8173      Database    -22.8972    1669.7327   ✓       ✓
+126   VC+57.021TPEDMVGFTESAK   0.8173      Database    -22.9044    1669.7327   ✓       ✓
+127   VC+57.021TPEDMVGFTESAK   0.8173      Database    -22.9649    1669.7327   ✓       ✓
+128   VC+57.021TPEDMVGFTESAK   0.8173      Database    -22.9832    1669.7327   ✓       ✓
+129   VC+57.021TPEDMVGFTESAK   0.8173      Database    -23.0754    1669.7327   ✓       ✓
+130   VC+57.021TPEDMVGFTESAK   0.8173      Database    -23.1253    1669.7327   ✓       ✓
+131   VC+57.021TPEDMVGFTESAK   0.8173      Database    -23.2257    1669.7327   ✓       ✓
+132   VC+57.021TPEDMVGFTESAK   0.8173      Database    -23.3179    1669.7327   ✓       ✓
+133   VC+57.021TPEDMVGFTESAK   0.8173      Database    -23.3873    1669.7327   ✓       ✓
+134   VC+57.021TPEDMVGFTESAK   0.8173      Database    -23.4150    1669.7327   ✓       ✓
+135   VC+57.021TPEDMVGFTESAK   0.8173      Database    -23.4316    1669.7327   ✓       ✓
+136   VC+57.021TPEDMVGFTESAK   0.8173      Database    -23.4525    1669.7327   ✓       ✓
+137   VC+57.021TPEDMVGFTESAK   0.8173      Database    -23.4722    1669.7327   ✓       ✓
+138   VC+57.021TPEDMVGFTESAK   0.8173      Database    -23.4794    1669.7327   ✓       ✓
+139   VC+57.021TPEDMVGFTESAK   0.8173      Database    -23.5161    1669.7327   ✓       ✓
+140   VC+57.021TPEDMVGFTESAK   0.8173      Database    -23.5656    1669.7327   ✓       ✓
+141   VC+57.021TPEDMVGFTESAK   0.8173      Database    -23.5765    1669.7327   ✓       ✓
+142   VC+57.021TPEDMVGFTESAK   0.8173      Database    -23.5779    1669.7327   ✓       ✓
+143   VC+57.021TPEDMVGFTESAK   0.8173      Database    -23.6082    1669.7327   ✓       ✓
+144   VC+57.021TPEDMVGFTESAK   0.8173      Database    -23.6686    1669.7327   ✓       ✓
+145   VC+57.021TPEDMVGFTESAK   0.8173      Database    -23.7262    1669.7327   ✓       ✓
+146   VC+57.021TPEDMVGFTESAK   0.8173      Database    -23.7370    1669.7327   ✓       ✓
+147   VC+57.021TPEDMVGFTESAK   0.8173      Database    -23.7727    1669.7327   ✓       ✓
+148   VC+57.021TPEDMVGFTESAK   0.8173      Database    -23.7935    1669.7327   ✓       ✓
+149   VC+57.021TPEDMVGFTESAK   0.8173      Database    -23.8007    1669.7327   ✓       ✓
+150   VC+57.021TPEDMVGFTESAK   0.8173      Database    -23.8373    1669.7327   ✓       ✓
+151   VC+57.021TPEDMVGFTESAK   0.8173      Database    -23.9294    1669.7327   ✓       ✓
+152   VC+57.021TPEDMVGFTESAK   0.8173      Database    -23.9809    1669.7327   ✓       ✓
+153   VC+57.021TPEDMVGFTESAK   0.8173      Database    -23.9862    1669.7327   ✓       ✓
+154   VC+57.021TPEDMVGFTESAK   0.8173      Database    -24.0528    1669.7327   ✓       ✓
+155   VC+57.021TPEDMVGFTESAK   0.8173      Database    -24.0800    1669.7327   ✓       ✓
+156   VC+57.021TPEDMVGFTESAK   0.8173      Database    -24.1775    1669.7327   ✓       ✓
+157   VC+57.021TPEDMVGFTESAK   0.8173      Database    -24.1895    1669.7327   ✓       ✓
+158   VC+57.021TPEDMVGFTESAK   0.8173      Database    -24.2111    1669.7327   ✓       ✓
+159   VC+57.021TPEDMVGFTESAK   0.8173      Database    -24.2694    1669.7327   ✓       ✓
+160   VC+57.021TPEDMVGFTESAK   0.8173      Database    -24.2817    1669.7327   ✓       ✓
+161   VC+57.021TPEDMVGFTESAK   0.8173      Database    -25.4380    1669.7327   ✓       ✓
+162   VC+57.021TPEDMVGFTESAK   0.8173      Database    -29.1522    1669.7327   ✓       ✓
+163   VC+57.021TPEDMVGFTESAK   0.8173      Database    -31.0814    1669.7327   ✓       ✓
+164   VC+57.021TPEDMVGFTESAK   0.8173      Database    -31.6931    1669.7327   ✓       ✓
+165   VC+57.021TPEDMVGFTESAK   0.8173      Database    -31.7852    1669.7327   ✓       ✓
+166   +42.011GC+57.021TPEDMVGFTESAK0.4940      Prosit      -32.9707    1669.6964   ✓       
+167   +42.011C+57.021TPEDMVGFTESQK0.4807      Prosit      -32.1240    1669.6964   ✓       
+168   VC+57.021TPQ+0.984DMVGFTESAK0.4788      Prosit      -7.8264     1669.7327   ✓       
+169   VC+57.021TPQ+0.984DMVGFTESAK0.4788      Prosit      -10.3673    1669.7327   ✓       
+170   VC+57.021TPQ+0.984DMVGFTESAK0.4788      Prosit      -11.5615    1669.7327   ✓       
+171   VC+57.021TPQ+0.984DMVGFTESAK0.4788      Prosit      -14.0815    1669.7327   ✓       
+172   VC+57.021TPQ+0.984DMVGFTESAK0.4788      Prosit      -14.1023    1669.7327   ✓       
+173   VC+57.021TPQ+0.984DMVGFTESAK0.4788      Prosit      -16.0107    1669.7327   ✓       
+174   VC+57.021TPQ+0.984DMVGFTESAK0.4788      Prosit      -16.6223    1669.7327   ✓       
+175   VC+57.021TPQ+0.984DMVGFTESAK0.4788      Prosit      -16.7144    1669.7327   ✓       
+176   VC+57.021TPQ+0.984DMVGFTESAK0.4788      Prosit      -17.8166    1669.7327   ✓       
+177   VC+57.021TPQ+0.984DMVGFTESAK0.4788      Prosit      -18.5515    1669.7327   ✓       
+178   VC+57.021TPQ+0.984DMVGFTESAK0.4788      Prosit      -19.2553    1669.7327   ✓       
+179   VC+57.021TPQ+0.984DMVGFTESAK0.4788      Prosit      -19.7458    1669.7327   ✓       
+180   VC+57.021TPQ+0.984DMVGFTESAK0.4788      Prosit      -20.3574    1669.7327   ✓       
+181   VC+57.021TPQ+0.984DMVGFTESAK0.4788      Prosit      -20.4495    1669.7327   ✓       
+182   VC+57.021TPQ+0.984DMVGFTESAK0.4788      Prosit      -20.5627    1669.7327   ✓       
+183   VC+57.021TPQ+0.984DMVGFTESAK0.4788      Prosit      -21.0499    1669.7327   ✓       
+184   VC+57.021TPQ+0.984DMVGFTESAK0.4788      Prosit      -21.7129    1669.7327   ✓       
+185   VC+57.021TPQ+0.984DMVGFTESAK0.4788      Prosit      -21.9095    1669.7327   ✓       
+186   VC+57.021TPQ+0.984DMVGFTESAK0.4788      Prosit      -22.2657    1669.7327   ✓       
+187   VC+57.021TPQ+0.984DMVGFTESAK0.4788      Prosit      -22.2866    1669.7327   ✓       
+188   VC+57.021TPQ+0.984DMVGFTESAK0.4788      Prosit      -22.3135    1669.7327   ✓       
+189   VC+57.021TPQ+0.984DMVGFTESAK0.4788      Prosit      -22.4423    1669.7327   ✓       
+190   VC+57.021TPQ+0.984DMVGFTESAK0.4788      Prosit      -22.5028    1669.7327   ✓       
+191   VC+57.021TPQ+0.984DMVGFTESAK0.4788      Prosit      -22.6632    1669.7327   ✓       
+192   VC+57.021TPQ+0.984DMVGFTESAK0.4788      Prosit      -22.7636    1669.7327   ✓       
+193   VC+57.021TPQ+0.984DMVGFTESAK0.4788      Prosit      -22.9695    1669.7327   ✓       
+194   VC+57.021TPQ+0.984DMVGFTESAK0.4788      Prosit      -22.9904    1669.7327   ✓       
+195   VC+57.021TPQ+0.984DMVGFTESAK0.4788      Prosit      -23.1035    1669.7327   ✓       
+196   VC+57.021TPQ+0.984DMVGFTESAK0.4788      Prosit      -23.1158    1669.7327   ✓       
+197   VC+57.021TPQ+0.984DMVGFTESAK0.4788      Prosit      -23.5907    1669.7327   ✓       
+198   VC+57.021TPQ+0.984DMVGFTESAK0.4788      Prosit      -23.9506    1669.7327   ✓       
+199   VC+57.021TPQ+0.984DMVGFTESAK0.4788      Prosit      -24.2537    1669.7327   ✓       
+200   VC+57.021TPQ+0.984DMVGFTESAK0.4788      Prosit      -30.6193    1669.7327   ✓       
+201   VC+57.021TPQ+0.984DMVGFTESAK0.4788      Prosit      -33.1602    1669.7327   ✓       
+202   TC+57.021TPEDEVGFTESAK   0.4761      Prosit      -33.0299    1669.7141   ✓       
+203   VC+57.021TPQ+0.984N+0.984MVGFTESAK0.4713      Prosit      -15.4253    1669.7327   ✓       
+204   VC+57.021TPQ+0.984N+0.984MVGFTESAK0.4713      Prosit      -17.9662    1669.7327   ✓       
+205   VC+57.021TPQ+0.984N+0.984MVGFTESAK0.4713      Prosit      -19.1604    1669.7327   ✓       
+206   VC+57.021TPQ+0.984N+0.984MVGFTESAK0.4713      Prosit      -21.6804    1669.7327   ✓       
+207   VC+57.021TPQ+0.984N+0.984MVGFTESAK0.4713      Prosit      -21.7013    1669.7327   ✓       
+208   VC+57.021TPQ+0.984N+0.984MVGFTESAK0.4713      Prosit      -23.6096    1669.7327   ✓       
+209   VC+57.021TPQ+0.984N+0.984MVGFTESAK0.4713      Prosit      -24.2212    1669.7327   ✓       
+210   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -7.7032     1669.7327   ✓       
+211   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -10.2440    1669.7327   ✓       
+212   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -11.4383    1669.7327   ✓       
+213   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -13.9583    1669.7327   ✓       
+214   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -13.9791    1669.7327   ✓       
+215   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -15.8874    1669.7327   ✓       
+216   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -16.4991    1669.7327   ✓       
+217   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -16.5912    1669.7327   ✓       
+218   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -17.6934    1669.7327   ✓       
+219   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -18.4283    1669.7327   ✓       
+220   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -19.1320    1669.7327   ✓       
+221   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -19.6225    1669.7327   ✓       
+222   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -20.2342    1669.7327   ✓       
+223   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -20.3263    1669.7327   ✓       
+224   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -20.4395    1669.7327   ✓       
+225   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -20.9267    1669.7327   ✓       
+226   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -21.5896    1669.7327   ✓       
+227   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -21.7863    1669.7327   ✓       
+228   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -22.1425    1669.7327   ✓       
+229   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -22.1634    1669.7327   ✓       
+230   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -22.1903    1669.7327   ✓       
+231   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -22.3191    1669.7327   ✓       
+232   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -22.3795    1669.7327   ✓       
+233   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -22.5400    1669.7327   ✓       
+234   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -22.6403    1669.7327   ✓       
+235   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -22.8463    1669.7327   ✓       
+236   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -22.8671    1669.7327   ✓       
+237   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -22.9803    1669.7327   ✓       
+238   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -22.9925    1669.7327   ✓       
+239   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -23.2154    1669.7327   ✓       
+240   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -23.4675    1669.7327   ✓       
+241   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -23.8273    1669.7327   ✓       
+242   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -24.1304    1669.7327   ✓       
+243   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -30.4961    1669.7327   ✓       
+244   VC+57.021TPEN+0.984MVGFTESAK0.4705      Prosit      -33.0369    1669.7327   ✓       
+245   LC+57.021TPEDMVGFTDSAK   0.4543      Prosit      -31.4882    1669.7327   ✓       
+246   LC+57.021TPDDMVGFTESAK   0.4521      Prosit      -31.1794    1669.7327   ✓       
+247   LC+57.021TPEDMVGFSESAK   0.4419      Prosit      -30.0177    1669.7328   ✓       
+248   LC+57.021TPEDMVGFSESAK   0.4419      Prosit      -32.5585    1669.7328   ✓       
+249   VC+57.021TPQ+0.984N+0.984MVGFTQ+0.984SAK0.4345      Prosit      -21.9041    1669.7327   ✓       
+250   VC+57.021TPQ+0.984DMVGFTQ+0.984SAK0.4300      Prosit      -14.3052    1669.7327   ✓       
+251   VC+57.021TPQ+0.984DMVGFTQ+0.984SAK0.4300      Prosit      -16.8460    1669.7327   ✓       
+252   VC+57.021TPQ+0.984DMVGFTQ+0.984SAK0.4300      Prosit      -18.0403    1669.7327   ✓       
+253   VC+57.021TPQ+0.984DMVGFTQ+0.984SAK0.4300      Prosit      -20.5602    1669.7327   ✓       
+254   VC+57.021TPQ+0.984DMVGFTQ+0.984SAK0.4300      Prosit      -20.5811    1669.7327   ✓       
+255   VC+57.021TPQ+0.984DMVGFTQ+0.984SAK0.4300      Prosit      -22.4894    1669.7327   ✓       
+256   VC+57.021TPQ+0.984DMVGFTQ+0.984SAK0.4300      Prosit      -23.1011    1669.7327   ✓       
+257   VC+57.021TPQ+0.984DMVGFTQ+0.984SAK0.4300      Prosit      -23.1932    1669.7327   ✓       
+258   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -6.5830     1669.7327   ✓       
+259   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -9.1239     1669.7327   ✓       
+260   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -10.3181    1669.7327   ✓       
+261   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -12.8381    1669.7327   ✓       
+262   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -12.8590    1669.7327   ✓       
+263   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -14.7673    1669.7327   ✓       
+264   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -15.3789    1669.7327   ✓       
+265   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -15.4710    1669.7327   ✓       
+266   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -16.5732    1669.7327   ✓       
+267   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -17.3081    1669.7327   ✓       
+268   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -18.0119    1669.7327   ✓       
+269   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -18.5024    1669.7327   ✓       
+270   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -19.1140    1669.7327   ✓       
+271   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -19.2061    1669.7327   ✓       
+272   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -19.3193    1669.7327   ✓       
+273   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -19.8065    1669.7327   ✓       
+274   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -20.4695    1669.7327   ✓       
+275   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -20.6661    1669.7327   ✓       
+276   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -21.0223    1669.7327   ✓       
+277   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -21.0432    1669.7327   ✓       
+278   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -21.0701    1669.7327   ✓       
+279   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -21.1989    1669.7327   ✓       
+280   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -21.2594    1669.7327   ✓       
+281   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -21.4198    1669.7327   ✓       
+282   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -21.5202    1669.7327   ✓       
+283   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -21.7261    1669.7327   ✓       
+284   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -21.7470    1669.7327   ✓       
+285   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -21.8601    1669.7327   ✓       
+286   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -22.0952    1669.7327   ✓       
+287   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -22.3473    1669.7327   ✓       
+288   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -22.7072    1669.7327   ✓       
+289   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -23.0103    1669.7327   ✓       
+290   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -23.2069    1669.7327   ✓       
+291   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -23.5416    1669.7327   ✓       
+292   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -23.5632    1669.7327   ✓       
+293   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -23.6110    1669.7327   ✓       
+294   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -23.6553    1669.7327   ✓       
+295   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -23.7398    1669.7327   ✓       
+296   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -23.8002    1669.7327   ✓       
+297   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -23.9499    1669.7327   ✓       
+298   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -23.9607    1669.7327   ✓       
+299   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -23.9963    1669.7327   ✓       
+300   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -24.0610    1669.7327   ✓       
+301   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -24.2046    1669.7327   ✓       
+302   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -24.2669    1669.7327   ✓       
+303   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -29.3759    1669.7327   ✓       
+304   VC+57.021TPEDMVGFTQ+0.984SAK0.4166      Prosit      -31.9168    1669.7327   ✓       
+305   VC+57.021TPEN+0.984MVGFTQ+0.984SAK0.4163      Prosit      -14.1819    1669.7327   ✓       
+306   VC+57.021TPEN+0.984MVGFTQ+0.984SAK0.4163      Prosit      -16.7228    1669.7327   ✓       
+307   VC+57.021TPEN+0.984MVGFTQ+0.984SAK0.4163      Prosit      -17.9170    1669.7327   ✓       
+308   VC+57.021TPEN+0.984MVGFTQ+0.984SAK0.4163      Prosit      -20.4370    1669.7327   ✓       
+309   VC+57.021TPEN+0.984MVGFTQ+0.984SAK0.4163      Prosit      -20.4579    1669.7327   ✓       
+310   VC+57.021TPEN+0.984MVGFTQ+0.984SAK0.4163      Prosit      -22.3662    1669.7327   ✓       
+311   VC+57.021TPEN+0.984MVGFTQ+0.984SAK0.4163      Prosit      -22.9778    1669.7327   ✓       
+312   VC+57.021TPEN+0.984MVGFTQ+0.984SAK0.4163      Prosit      -23.0700    1669.7327   ✓       
+313   VC+57.021TPEN+0.984MVGFTQ+0.984SAK0.4163      Prosit      -24.1721    1669.7327   ✓       
+314   LC+57.021TPEDMVGFTESGK   0.4073      Prosit      -31.0897    1669.7327   ✓       
+315   VC+57.021TPQ+0.984DMVGFTESAQ0.3817      Prosit      -23.9775    1669.6964   ✓       
+316   VC+57.021TPEDMVGFTESAQ   0.3763      Prosit      -16.2553    1669.6964   ✓       
+317   VC+57.021TPEDMVGFTESAQ   0.3763      Prosit      -18.7962    1669.6964   ✓       
+318   VC+57.021TPEDMVGFTESAQ   0.3763      Prosit      -19.9904    1669.6964   ✓       
+319   VC+57.021TPEDMVGFTESAQ   0.3763      Prosit      -22.5104    1669.6964   ✓       
+320   VC+57.021TPEDMVGFTESAQ   0.3763      Prosit      -22.5313    1669.6964   ✓       
+321   VC+57.021TPEN+0.984MVGFTESAQ0.3754      Prosit      -23.8543    1669.6964   ✓       
+322   VC+57.021TPEDMVGFTQ+0.984SAQ0.3734      Prosit      -22.7341    1669.6964   ✓       
+323   VC+57.021TPENMVGFTESAK   -1.0000     NotChecked  -13.7805    1668.7487   ✗       
+324   VC+57.021TPQDMVGFTESAK   -1.0000     NotChecked  -13.9428    1668.7487   ✗       
+325   VC+57.021TPEDMVGFSESAK   -1.0000     NotChecked  -13.9893    1655.7171   ✗       
+326   VC+57.021TPEDMVGFTQSAK   -1.0000     NotChecked  -14.3871    1668.7487   ✗       
+327   VC+57.021TPADMVGFTESAK   -1.0000     NotChecked  -14.5252    1611.7273   ✗       
+328   VC+57.021TPEDMVGFTEGAK   -1.0000     NotChecked  -14.6260    1639.7222   ✗       
+329   VC+57.021TPEDMVFTESAK    -1.0000     NotChecked  -14.9303    1612.7113   ✗       
+330   VC+57.021TPEDMVGFTESGK   -1.0000     NotChecked  -15.0613    1655.7171   ✗       
+331   VC+57.021TPDDMVGFTESAK   -1.0000     NotChecked  -15.1511    1655.7171   ✗       
+332   VC+57.021TPEDMVGFTDSAK   -1.0000     NotChecked  -15.4599    1655.7171   ✗       
+333   VC+57.021TPEDMVGFTKSAK   -1.0000     NotChecked  -15.7159    1668.7851   ✗       
+334   VC+57.021TSEDMVGFTESAK   -1.0000     NotChecked  -15.7608    1659.7120   ✗       
+335   VC+57.021TPEDMVGFTTSAK   -1.0000     NotChecked  -15.8757    1641.7378   ✗       
+336   VC+57.021TPEDMVGFTASAK   -1.0000     NotChecked  -15.8935    1611.7273   ✗       
+337   VC+57.021TPEDMVGFTESK    -1.0000     NotChecked  -15.9103    1598.6956   ✗       
+338   VC+57.021TPEGMVGFTESAK   -1.0000     NotChecked  -15.9370    1611.7273   ✗       
+339   VC+57.021TPKDMVGFTESAK   -1.0000     NotChecked  -15.9625    1668.7851   ✗       
+340   +42.011C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -16.0493    1612.6749   ✗       
+341   VC+57.021TPEDMVGFTESA    -1.0000     NotChecked  -16.0588    1541.6378   ✗       
+342   VC+57.021TPESMVGFTESAK   -1.0000     NotChecked  -16.0981    1641.7378   ✗       
+343   VC+57.021TPEDMVGFTSAK    -1.0000     NotChecked  -16.1508    1540.6901   ✗       
+344   VC+57.021TPEAMVGFTESAK   -1.0000     NotChecked  -16.2093    1625.7429   ✗       
+345   VC+57.021TPENMVGFTESAK   -1.0000     NotChecked  -16.3213    1668.7487   ✗       
+346   VC+57.021TPQDMVGFTESAK   -1.0000     NotChecked  -16.4836    1668.7487   ✗       
+347   VC+57.021TPEDMVGFSESAK   -1.0000     NotChecked  -16.5302    1655.7171   ✗       
+348   VC+57.021TPEDMVGFTEAAK   -1.0000     NotChecked  -16.5608    1653.7378   ✗       
+349   VC+57.021TPEDMVGFTESAG   -1.0000     NotChecked  -16.5996    1598.6592   ✗       
+350   VC+57.021TPEDMVGFTQSAK   -1.0000     NotChecked  -16.9279    1668.7487   ✗       
+351   VC+57.021TPEDMVGFTSSAK   -1.0000     NotChecked  -16.9336    1627.7222   ✗       
+352   VC+57.021TPADMVGFTESAK   -1.0000     NotChecked  -17.0661    1611.7273   ✗       
+353   +43.006C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -17.0908    1613.6701   ✗       
+354   VC+57.021TPEDEVGFTESAK   -1.0000     NotChecked  -17.1308    1667.7349   ✗       
+355   VC+57.021TPEDMVGFGESAK   -1.0000     NotChecked  -17.1320    1625.7065   ✗       
+356   VC+57.021TPEDMVGFTEGAK   -1.0000     NotChecked  -17.1668    1639.7222   ✗       
+357   VC+57.021TAEDMVGFTESAK   -1.0000     NotChecked  -17.2094    1643.7171   ✗       
+358   VC+57.021TPEDMAGFTESAK   -1.0000     NotChecked  -17.3992    1641.7014   ✗       
+359   VC+57.021TPENMVGFTESAK   -1.0000     NotChecked  -17.5156    1668.7487   ✗       
+360   VC+57.021TPEDMVGFTESAL   -1.0000     NotChecked  -17.5977    1654.7218   ✗       
+361   VC+57.021TPEDMVGFTESGK   -1.0000     NotChecked  -17.6022    1655.7171   ✗       
+362   VC+57.021TPQDMVGFTESAK   -1.0000     NotChecked  -17.6779    1668.7487   ✗       
+363   VC+57.021TPSDMVGFTESAK   -1.0000     NotChecked  -17.6877    1627.7222   ✗       
+364   VC+57.021TPDDMVGFTESAK   -1.0000     NotChecked  -17.6919    1655.7171   ✗       
+365   VC+57.021TPEDMVGFSESAK   -1.0000     NotChecked  -17.7244    1655.7171   ✗       
+366   VC+57.021TPTDMVGFTESAK   -1.0000     NotChecked  -17.7516    1641.7378   ✗       
+367   VC+57.021TPEDSVGFTESAK   -1.0000     NotChecked  -17.9267    1625.7243   ✗       
+368   VC+57.021TPEDMVGFAESAK   -1.0000     NotChecked  -17.9780    1639.7222   ✗       
+369   VC+57.021TPEDMVGFTDSAK   -1.0000     NotChecked  -18.0007    1655.7171   ✗       
+370   VC+57.021TPEDMVGFTQSAK   -1.0000     NotChecked  -18.1222    1668.7487   ✗       
+371   AC+57.021TPEDMVGFTESAK   -1.0000     NotChecked  -18.2254    1641.7014   ✗       
+372   VC+57.021TPEDDVGFTESAK   -1.0000     NotChecked  -18.2471    1653.7192   ✗       
+373   VC+57.021TPEDMVGFTKSAK   -1.0000     NotChecked  -18.2567    1668.7851   ✗       
+374   VC+57.021TPADMVGFTESAK   -1.0000     NotChecked  -18.2603    1611.7273   ✗       
+375   VC+57.021TPGDMVGFTESAK   -1.0000     NotChecked  -18.2756    1597.7116   ✗       
+376   VC+57.021TSEDMVGFTESAK   -1.0000     NotChecked  -18.3016    1659.7120   ✗       
+377   VC+57.021TPEDMVGFTEGAK   -1.0000     NotChecked  -18.3611    1639.7222   ✗       
+378   VC+57.021TPEDMVGFTESAV   -1.0000     NotChecked  -18.3898    1640.7062   ✗       
+379   VC+57.021TPEDMVGFTTSAK   -1.0000     NotChecked  -18.4165    1641.7378   ✗       
+380   VC+57.021TPEDMVGFTASAK   -1.0000     NotChecked  -18.4343    1611.7273   ✗       
+381   VC+57.021TPEDMVGFTESK    -1.0000     NotChecked  -18.4512    1598.6956   ✗       
+382   VC+57.021TPEGMVGFTESAK   -1.0000     NotChecked  -18.4779    1611.7273   ✗       
+383   VC+57.021TPKDMVGFTESAK   -1.0000     NotChecked  -18.5033    1668.7851   ✗       
+384   +42.011C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -18.5901    1612.6749   ✗       
+385   VC+57.021TPEDMVGFTESA    -1.0000     NotChecked  -18.5996    1541.6378   ✗       
+386   VC+57.021TPEDMGGFTESAK   -1.0000     NotChecked  -18.6130    1627.6858   ✗       
+387   VC+57.021TPEDLVGFTESAK   -1.0000     NotChecked  -18.6179    1651.7763   ✗       
+388   VC+57.021TPESMVGFTESAK   -1.0000     NotChecked  -18.6390    1641.7378   ✗       
+389   VC+57.021TPEDMVFTESAK    -1.0000     NotChecked  -18.6654    1612.7113   ✗       
+390   VC+57.021TPEDMVGFTSAK    -1.0000     NotChecked  -18.6916    1540.6901   ✗       
+391   VC+57.021TPETMVGFTESAK   -1.0000     NotChecked  -18.6919    1655.7535   ✗       
+392   VC+57.021TPEAMVGFTESAK   -1.0000     NotChecked  -18.7501    1625.7429   ✗       
+393   VC+57.021TPEDMVGFTESGK   -1.0000     NotChecked  -18.7964    1655.7171   ✗       
+394   VC+57.021TPEDMVGFTESAS   -1.0000     NotChecked  -18.8420    1628.6698   ✗       
+395   VC+57.021TPEDTVGFTESAK   -1.0000     NotChecked  -18.8739    1639.7399   ✗       
+396   VC+57.021TPDDMVGFTESAK   -1.0000     NotChecked  -18.8861    1655.7171   ✗       
+397   VC+57.021TPEDMVGFTESAT   -1.0000     NotChecked  -19.0892    1642.6854   ✗       
+398   VC+57.021TPEDMVGFTEAAK   -1.0000     NotChecked  -19.1016    1653.7378   ✗       
+399   VC+57.021TPEDMVGFTESAG   -1.0000     NotChecked  -19.1404    1598.6592   ✗       
+400   VMTPEDMVGFTESAK          -1.0000     NotChecked  -19.1456    1640.7426   ✗       
+401   C+57.021TPEDMVGFTESAK    -1.0000     NotChecked  -19.1621    1570.6643   ✗       
+402   VC+57.021TPEDMVGFTDSAK   -1.0000     NotChecked  -19.1950    1655.7171   ✗       
+403   GC+57.021TPEDMVGFTESAK   -1.0000     NotChecked  -19.2476    1627.6858   ✗       
+404   VC+57.021TPEDMVGTTESAK   -1.0000     NotChecked  -19.2998    1623.7120   ✗       
+405   VC+57.021TPEDMVGFTKSAK   -1.0000     NotChecked  -19.4510    1668.7851   ✗       
+406   VC+57.021TPEDMVGFTSSAK   -1.0000     NotChecked  -19.4745    1627.7222   ✗       
+407   VC+57.021TSEDMVGFTESAK   -1.0000     NotChecked  -19.4959    1659.7120   ✗       
+408   VC+57.021TPEDMVGFTTSAK   -1.0000     NotChecked  -19.6108    1641.7378   ✗       
+409   VC+57.021TPEDMVGFTASAK   -1.0000     NotChecked  -19.6286    1611.7273   ✗       
+410   +43.006C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -19.6316    1613.6701   ✗       
+411   VC+57.021TPEDGVGFTESAK   -1.0000     NotChecked  -19.6353    1595.7137   ✗       
+412   VC+57.021TPEDMVGFTESK    -1.0000     NotChecked  -19.6454    1598.6956   ✗       
+413   VC+57.021TPEDEVGFTESAK   -1.0000     NotChecked  -19.6716    1667.7349   ✗       
+414   VC+57.021TPEGMVGFTESAK   -1.0000     NotChecked  -19.6721    1611.7273   ✗       
+415   VC+57.021TPEDMVGFGESAK   -1.0000     NotChecked  -19.6728    1625.7065   ✗       
+416   VC+57.021TPKDMVGFTESAK   -1.0000     NotChecked  -19.6976    1668.7851   ✗       
+417   VSTPEDMVGFTESAK          -1.0000     NotChecked  -19.7236    1596.7341   ✗       
+418   VC+57.021TAEDMVGFTESAK   -1.0000     NotChecked  -19.7502    1643.7171   ✗       
+419   VC+57.021TPEDMVGFTESA    -1.0000     NotChecked  -19.7939    1541.6378   ✗       
+420   VC+57.021TPESMVGFTESAK   -1.0000     NotChecked  -19.8332    1641.7378   ✗       
+421   VC+57.021TPEDMVGFTSAK    -1.0000     NotChecked  -19.8859    1540.6901   ✗       
+422   VC+57.021TPEDMAGFTESAK   -1.0000     NotChecked  -19.9400    1641.7014   ✗       
+423   VC+57.021TPEAMVGFTESAK   -1.0000     NotChecked  -19.9444    1625.7429   ✗       
+424   VC+57.021TPENMVGFTESAK   -1.0000     NotChecked  -20.0355    1668.7487   ✗       
+425   VC+57.021TPENMVGFTESAK   -1.0000     NotChecked  -20.0564    1668.7487   ✗       
+426   VC+57.021TPEDMVGGTESAK   -1.0000     NotChecked  -20.0929    1579.6858   ✗       
+427   VC+57.021TPEDMVGFTESAL   -1.0000     NotChecked  -20.1386    1654.7218   ✗       
+428   VC+57.021TPEDMVGMTESAK   -1.0000     NotChecked  -20.1513    1653.7048   ✗       
+429   VC+57.021TPQDMVGFTESAK   -1.0000     NotChecked  -20.1979    1668.7487   ✗       
+430   VC+57.021TPQDMVGFTESAK   -1.0000     NotChecked  -20.2187    1668.7487   ✗       
+431   VC+57.021TPSDMVGFTESAK   -1.0000     NotChecked  -20.2286    1627.7222   ✗       
+432   VC+57.021TPEDMVGETESAK   -1.0000     NotChecked  -20.2335    1651.7069   ✗       
+433   VC+57.021TPEDMVGFSESAK   -1.0000     NotChecked  -20.2444    1655.7171   ✗       
+434   VC+57.021TPENMVGFTQ+0.984SAK-1.0000     NotChecked  -20.2592    1668.7487   ✗       
+435   VC+57.021TPEDMVGFSESAK   -1.0000     NotChecked  -20.2653    1655.7171   ✗       
+436   VC+57.021TPEDMVGLTESAK   -1.0000     NotChecked  -20.2707    1635.7484   ✗       
+437   VC+57.021TPTDMVGFTESAK   -1.0000     NotChecked  -20.2924    1641.7378   ✗       
+438   VC+57.021TPEDMVGFTEAAK   -1.0000     NotChecked  -20.2959    1653.7378   ✗       
+439   VC+57.021TPEDMVGFTESAG   -1.0000     NotChecked  -20.3347    1598.6592   ✗       
+440   VC+57.021TPQDMVGFTQ+0.984SAK-1.0000     NotChecked  -20.4216    1668.7487   ✗       
+441   VC+57.021TPEDSVGFTESAK   -1.0000     NotChecked  -20.4676    1625.7243   ✗       
+442   VC+57.021TPEDMVGFSQ+0.984SAK-1.0000     NotChecked  -20.4681    1655.7171   ✗       
+443   VC+57.021TPEDMVGFAESAK   -1.0000     NotChecked  -20.5188    1639.7222   ✗       
+444   VQTPEDMVGFTESAK          -1.0000     NotChecked  -20.5710    1637.7607   ✗       
+445   VC+57.021TPEDMVGSTESAK   -1.0000     NotChecked  -20.6317    1609.6964   ✗       
+446   VC+57.021TPEDMVGFTQSAK   -1.0000     NotChecked  -20.6421    1668.7487   ✗       
+447   VC+57.021TPEDMVGFTQSAK   -1.0000     NotChecked  -20.6630    1668.7487   ✗       
+448   VC+57.021TPEDMVGFTSSAK   -1.0000     NotChecked  -20.6687    1627.7222   ✗       
+449   VRTPEDMVGFTESAK          -1.0000     NotChecked  -20.6970    1665.8032   ✗       
+450   AC+57.021TPEDMVGFTESAK   -1.0000     NotChecked  -20.7662    1641.7014   ✗       
+451   VC+57.021TPADMVGFTESAK   -1.0000     NotChecked  -20.7803    1611.7273   ✗       
+452   VC+57.021TPEDDVGFTESAK   -1.0000     NotChecked  -20.7879    1653.7192   ✗       
+453   VC+57.021TPADMVGFTESAK   -1.0000     NotChecked  -20.8012    1611.7273   ✗       
+454   VC+57.021TPGDMVGFTESAK   -1.0000     NotChecked  -20.8165    1597.7116   ✗       
+455   VC+57.021TPEDEVGFTESAK   -1.0000     NotChecked  -20.8659    1667.7349   ✗       
+456   VC+57.021TPEDMVGFGESAK   -1.0000     NotChecked  -20.8671    1625.7065   ✗       
+457   VC+57.021TPEDMVGFTEGAK   -1.0000     NotChecked  -20.8811    1639.7222   ✗       
+458   VC+57.021TPEDMVGFTEGAK   -1.0000     NotChecked  -20.9019    1639.7222   ✗       
+459   VC+57.021TPEDMVGFTESAV   -1.0000     NotChecked  -20.9306    1640.7062   ✗       
+460   VC+57.021TAEDMVGFTESAK   -1.0000     NotChecked  -20.9445    1643.7171   ✗       
+461   VC+57.021TPADMVGFTQ+0.984SAK-1.0000     NotChecked  -21.0040    1611.7273   ✗       
+462   VC+57.021TPEDMVGFTQ+0.984GAK-1.0000     NotChecked  -21.1047    1639.7222   ✗       
+463   VC+57.021TPEDMAGFTESAK   -1.0000     NotChecked  -21.1343    1641.7014   ✗       
+464   VC+57.021TPEDMGGFTESAK   -1.0000     NotChecked  -21.1538    1627.6858   ✗       
+465   VC+57.021TPEDLVGFTESAK   -1.0000     NotChecked  -21.1588    1651.7763   ✗       
+466   VC+57.021TPEDMVFTESAK    -1.0000     NotChecked  -21.1854    1612.7113   ✗       
+467   VC+57.021TPETMVGFTESAK   -1.0000     NotChecked  -21.2327    1655.7535   ✗       
+468   VATPEDMVGFTESAK          -1.0000     NotChecked  -21.2667    1580.7392   ✗       
+469   VC+57.021TPEDMVGFTESAL   -1.0000     NotChecked  -21.3328    1654.7218   ✗       
+470   VC+57.021TPEDMVGFTESGK   -1.0000     NotChecked  -21.3372    1655.7171   ✗       
+471   VC+57.021TPEDMVGFTESAS   -1.0000     NotChecked  -21.3828    1628.6698   ✗       
+472   VC+57.021TPDDMVGFTESAK   -1.0000     NotChecked  -21.4061    1655.7171   ✗       
+473   VC+57.021TPEDMVFTQ+0.984SAK-1.0000     NotChecked  -21.4091    1612.7113   ✗       
+474   VC+57.021TPEDTVGFTESAK   -1.0000     NotChecked  -21.4148    1639.7399   ✗       
+475   VC+57.021TPSDMVGFTESAK   -1.0000     NotChecked  -21.4228    1627.7222   ✗       
+476   VC+57.021TPDDMVGFTESAK   -1.0000     NotChecked  -21.4270    1655.7171   ✗       
+477   VC+57.021TPTDMVGFTESAK   -1.0000     NotChecked  -21.4867    1641.7378   ✗       
+478   VC+57.021TPQ+0.984NMVGFTESAK-1.0000     NotChecked  -21.5026    1668.7487   ✗       
+479   VC+57.021TPEDMVGFTQ+0.984SGK-1.0000     NotChecked  -21.5401    1655.7171   ✗       
+480   VC+57.021TPQN+0.984MVGFTESAK-1.0000     NotChecked  -21.5417    1668.7487   ✗       
+481   VC+57.021TPEN+0.984MVGFSESAK-1.0000     NotChecked  -21.5883    1655.7171   ✗       
+482   VC+57.021TPDDMVGFTQ+0.984SAK-1.0000     NotChecked  -21.6298    1655.7171   ✗       
+483   VC+57.021TPEDMVGFTESAT   -1.0000     NotChecked  -21.6300    1642.6854   ✗       
+484   VC+57.021TPEDSVGFTESAK   -1.0000     NotChecked  -21.6618    1625.7243   ✗       
+485   VMTPEDMVGFTESAK          -1.0000     NotChecked  -21.6864    1640.7426   ✗       
+486   C+57.021TPEDMVGFTESAK    -1.0000     NotChecked  -21.7029    1570.6643   ✗       
+487   VC+57.021TPQ+0.984DMVGFSESAK-1.0000     NotChecked  -21.7115    1655.7171   ✗       
+488   VC+57.021TPEDMVGFAESAK   -1.0000     NotChecked  -21.7131    1639.7222   ✗       
+489   VC+57.021TPEDMVGFTDSAK   -1.0000     NotChecked  -21.7149    1655.7171   ✗       
+490   VC+57.021TPEDMVGFTDSAK   -1.0000     NotChecked  -21.7358    1655.7171   ✗       
+491   GC+57.021TPEDMVGFTESAK   -1.0000     NotChecked  -21.7884    1627.6858   ✗       
+492   VC+57.021TPEDMVGTTESAK   -1.0000     NotChecked  -21.8406    1623.7120   ✗       
+493   VKTPEDMVGFTESAK          -1.0000     NotChecked  -21.8648    1637.7971   ✗       
+494   VTTPEDMVGFTESAK          -1.0000     NotChecked  -21.9519    1610.7498   ✗       
+495   VC+57.021TPENMVGFTESAK   -1.0000     NotChecked  -21.9647    1668.7487   ✗       
+496   VC+57.021TPEDMVGFTKSAK   -1.0000     NotChecked  -21.9710    1668.7851   ✗       
+497   VC+57.021TPEDDVGFTESAK   -1.0000     NotChecked  -21.9822    1653.7192   ✗       
+498   VC+57.021TPEN+0.984MVGFTQSAK-1.0000     NotChecked  -21.9860    1668.7487   ✗       
+499   VC+57.021TPEDMVGFTKSAK   -1.0000     NotChecked  -21.9918    1668.7851   ✗       
+500   VC+57.021TPGDMVGFTESAK   -1.0000     NotChecked  -22.0107    1597.7116   ✗       
+501   VC+57.021TSEDMVGFTESAK   -1.0000     NotChecked  -22.0159    1659.7120   ✗       
+502   VC+57.021TSEDMVGFTESAK   -1.0000     NotChecked  -22.0367    1659.7120   ✗       
+503   VC+57.021TPQ+0.984DMVGFTQSAK-1.0000     NotChecked  -22.1092    1668.7487   ✗       
+504   VC+57.021TPAN+0.984MVGFTESAK-1.0000     NotChecked  -22.1242    1611.7273   ✗       
+505   VC+57.021TPEDMVGFTESAV   -1.0000     NotChecked  -22.1249    1640.7062   ✗       
+506   VC+57.021TPQDMVGFTESAK   -1.0000     NotChecked  -22.1271    1668.7487   ✗       
+507   VC+57.021TPEDMVGFTTSAK   -1.0000     NotChecked  -22.1307    1641.7378   ✗       
+508   VC+57.021TPEDMVGFTASAK   -1.0000     NotChecked  -22.1485    1611.7273   ✗       
+509   VC+57.021TPEDMVGFTTSAK   -1.0000     NotChecked  -22.1516    1641.7378   ✗       
+510   VC+57.021TPEDMVGFTASAK   -1.0000     NotChecked  -22.1694    1611.7273   ✗       
+511   VC+57.021TPEDMVGFSESAK   -1.0000     NotChecked  -22.1736    1655.7171   ✗       
+512   VC+57.021TPEDGVGFTESAK   -1.0000     NotChecked  -22.1761    1595.7137   ✗       
+513   VC+57.021TPEDMVGFTESK    -1.0000     NotChecked  -22.1862    1598.6956   ✗       
+514   VC+57.021TPEGMVGFTESAK   -1.0000     NotChecked  -22.1921    1611.7273   ✗       
+515   VC+57.021TPEGMVGFTESAK   -1.0000     NotChecked  -22.2129    1611.7273   ✗       
+516   VC+57.021TPKDMVGFTESAK   -1.0000     NotChecked  -22.2175    1668.7851   ✗       
+517   VC+57.021TPEN+0.984MVGFTEGAK-1.0000     NotChecked  -22.2249    1639.7222   ✗       
+518   VC+57.021TPKDMVGFTESAK   -1.0000     NotChecked  -22.2384    1668.7851   ✗       
+519   VC+57.021TSEDMVGFTQ+0.984SAK-1.0000     NotChecked  -22.2395    1659.7120   ✗       
+520   VSTPEDMVGFTESAK          -1.0000     NotChecked  -22.2645    1596.7341   ✗       
+521   +42.011C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -22.3044    1612.6749   ✗       
+522   VC+57.021TPEDMVGFTESA    -1.0000     NotChecked  -22.3138    1541.6378   ✗       
+523   VC+57.021TPEDMVGFTESA    -1.0000     NotChecked  -22.3347    1541.6378   ✗       
+524   VC+57.021TPEDMGGFTESAK   -1.0000     NotChecked  -22.3481    1627.6858   ✗       
+525   VC+57.021TPQ+0.984DMVGFTEGAK-1.0000     NotChecked  -22.3481    1639.7222   ✗       
+526   VC+57.021TPEDLVGFTESAK   -1.0000     NotChecked  -22.3530    1651.7763   ✗       
+527   VC+57.021TPESMVGFTESAK   -1.0000     NotChecked  -22.3532    1641.7378   ✗       
+528   VM+15.995TPEDMVGFTESAK   -1.0000     NotChecked  -22.3633    1656.7375   ✗       
+529   VC+57.021TPESMVGFTESAK   -1.0000     NotChecked  -22.3740    1641.7378   ✗       
+530   VC+57.021TPEDMVGFTQ+0.984SK-1.0000     NotChecked  -22.3891    1598.6956   ✗       
+531   VC+57.021TPEDMVGFTSAK    -1.0000     NotChecked  -22.4059    1540.6901   ✗       
+532   VC+57.021TPEGMVGFTQ+0.984SAK-1.0000     NotChecked  -22.4158    1611.7273   ✗       
+533   VC+57.021TPEDMVGFTSAK    -1.0000     NotChecked  -22.4267    1540.6901   ✗       
+534   VC+57.021TPETMVGFTESAK   -1.0000     NotChecked  -22.4270    1655.7535   ✗       
+535   VC+57.021TPKDMVGFTQ+0.984SAK-1.0000     NotChecked  -22.4412    1668.7851   ✗       
+536   VC+57.021TPEAMVGFTESAK   -1.0000     NotChecked  -22.4644    1625.7429   ✗       
+537   VC+57.021TPEAMVGFTESAK   -1.0000     NotChecked  -22.4852    1625.7429   ✗       
+538   +42.011C+57.021TPEDMVGFTQ+0.984SAK-1.0000     NotChecked  -22.5281    1612.6749   ✗       
+539   VC+57.021TPEN+0.984MVFTESAK-1.0000     NotChecked  -22.5292    1612.7113   ✗       
+540   VC+57.021TPEDMVGFTQ+0.984SA-1.0000     NotChecked  -22.5375    1541.6378   ✗       
+541   VQ+0.984TPEDMVGFTESAK    -1.0000     NotChecked  -22.5683    1638.7447   ✗       
+542   VC+57.021TPEDMVGFTQSAK   -1.0000     NotChecked  -22.5713    1668.7487   ✗       
+543   VC+57.021TPENMVGFTESAK   -1.0000     NotChecked  -22.5764    1668.7487   ✗       
+544   VC+57.021TPESMVGFTQ+0.984SAK-1.0000     NotChecked  -22.5769    1641.7378   ✗       
+545   VC+57.021TPEDMVGFTESAS   -1.0000     NotChecked  -22.5771    1628.6698   ✗       
+546   VC+57.021TPEDTVGFTESAK   -1.0000     NotChecked  -22.6090    1639.7399   ✗       
+547   VC+57.021TPEDMVGGTESAK   -1.0000     NotChecked  -22.6338    1579.6858   ✗       
+548   VC+57.021TPQ+0.984DMVFTESAK-1.0000     NotChecked  -22.6524    1612.7113   ✗       
+549   VC+57.021TPEN+0.984MVGFTESGK-1.0000     NotChecked  -22.6602    1655.7171   ✗       
+550   VC+57.021TPENMVGFTESAK   -1.0000     NotChecked  -22.6685    1668.7487   ✗       
+551   VC+57.021TPEAMVGFTQ+0.984SAK-1.0000     NotChecked  -22.6881    1625.7429   ✗       
+552   VC+57.021TPEDMVGMTESAK   -1.0000     NotChecked  -22.6921    1653.7048   ✗       
+553   VC+57.021TPADMVGFTESAK   -1.0000     NotChecked  -22.7095    1611.7273   ✗       
+554   VC+57.021TPQDMVGFTESAK   -1.0000     NotChecked  -22.7387    1668.7487   ✗       
+555   VC+57.021TPDN+0.984MVGFTESAK-1.0000     NotChecked  -22.7500    1655.7171   ✗       
+556   VC+57.021TPEDMVGETESAK   -1.0000     NotChecked  -22.7743    1651.7069   ✗       
+557   VC+57.021TPQ+0.984DMVGFTESGK-1.0000     NotChecked  -22.7835    1655.7171   ✗       
+558   VC+57.021TPEDMVGFSESAK   -1.0000     NotChecked  -22.7852    1655.7171   ✗       
+559   VC+57.021TPENMVGFTQ+0.984SAK-1.0000     NotChecked  -22.8001    1668.7487   ✗       
+560   VC+57.021TPEDMVGFTEGAK   -1.0000     NotChecked  -22.8102    1639.7222   ✗       
+561   VC+57.021TPEDMVGLTESAK   -1.0000     NotChecked  -22.8115    1635.7484   ✗       
+562   VC+57.021TPEDMVGFTEAK    -1.0000     NotChecked  -22.8159    1582.7007   ✗       
+563   VC+57.021TPEDMVGFTESAT   -1.0000     NotChecked  -22.8243    1642.6854   ✗       
+564   VC+57.021TPQDMVGFTESAK   -1.0000     NotChecked  -22.8308    1668.7487   ✗       
+565   VC+57.021TPEDMVGFTEAAK   -1.0000     NotChecked  -22.8367    1653.7378   ✗       
+566   VC+57.021TPEDMVGFTESAG   -1.0000     NotChecked  -22.8547    1598.6592   ✗       
+567   VC+57.021TPEDMVGFTESAG   -1.0000     NotChecked  -22.8755    1598.6592   ✗       
+568   VC+57.021TPEDMVGFSESAK   -1.0000     NotChecked  -22.8774    1655.7171   ✗       
+569   VMTPEDMVGFTESAK          -1.0000     NotChecked  -22.8807    1640.7426   ✗       
+570   VC+57.021TPQDMVGFTQ+0.984SAK-1.0000     NotChecked  -22.9624    1668.7487   ✗       
+571   VC+57.021TPEDMVGFSQ+0.984SAK-1.0000     NotChecked  -23.0089    1655.7171   ✗       
+572   VC+57.021TPEDMVGTTESAK   -1.0000     NotChecked  -23.0349    1623.7120   ✗       
+573   VC+57.021TPEDMVGFTQ+0.984AAK-1.0000     NotChecked  -23.0395    1653.7378   ✗       
+574   VC+57.021TPEN+0.984MVGFTDSAK-1.0000     NotChecked  -23.0588    1655.7171   ✗       
+575   VC+57.021TPEDMVGFTQ+0.984SAG-1.0000     NotChecked  -23.0783    1598.6592   ✗       
+576   VQTPEDMVGFTESAK          -1.0000     NotChecked  -23.1118    1637.7607   ✗       
+577   VC+57.021TPEDMVFTESAK    -1.0000     NotChecked  -23.1146    1612.7113   ✗       
+578   VC+57.021TPEDMVGSTESAK   -1.0000     NotChecked  -23.1725    1609.6964   ✗       
+579   VC+57.021TPQ+0.984DMVGFTDSAK-1.0000     NotChecked  -23.1820    1655.7171   ✗       
+580   VC+57.021TPEDMVGFTQSAK   -1.0000     NotChecked  -23.1830    1668.7487   ✗       
+581   VC+57.021TPEDMVGFTSSAK   -1.0000     NotChecked  -23.1887    1627.7222   ✗       
+582   VC+57.021TPEDMVGFTSSAK   -1.0000     NotChecked  -23.2096    1627.7222   ✗       
+583   VRTPEDMVGFTESAK          -1.0000     NotChecked  -23.2378    1665.8032   ✗       
+584   VC+57.021TPEDMVGFTESGK   -1.0000     NotChecked  -23.2456    1655.7171   ✗       
+585   VC+57.021TPEDMVGFTQSAK   -1.0000     NotChecked  -23.2751    1668.7487   ✗       
+586   VC+57.021TPEN+0.984MVGFTKSAK-1.0000     NotChecked  -23.3148    1668.7851   ✗       
+587   VC+57.021TPADMVGFTESAK   -1.0000     NotChecked  -23.3211    1611.7273   ✗       
+588   VC+57.021TPDDMVGFTESAK   -1.0000     NotChecked  -23.3353    1655.7171   ✗       
+589   +43.006C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -23.3458    1613.6701   ✗       
+590   VC+57.021TSEN+0.984MVGFTESAK-1.0000     NotChecked  -23.3597    1659.7120   ✗       
+591   VC+57.021TPEDGVGFTESAK   -1.0000     NotChecked  -23.3704    1595.7137   ✗       
+592   VC+57.021TPEDEVGFTESAK   -1.0000     NotChecked  -23.3859    1667.7349   ✗       
+593   VC+57.021TPEDMVGFGESAK   -1.0000     NotChecked  -23.3871    1625.7065   ✗       
+594   VC+57.021TPEDEVGFTESAK   -1.0000     NotChecked  -23.4067    1667.7349   ✗       
+595   VC+57.021TPEDMVGFGESAK   -1.0000     NotChecked  -23.4079    1625.7065   ✗       
+596   VC+57.021TPADMVGFTESAK   -1.0000     NotChecked  -23.4133    1611.7273   ✗       
+597   VC+57.021TPEDMVGFTEGAK   -1.0000     NotChecked  -23.4219    1639.7222   ✗       
+598   VC+57.021TPQ+0.984DMVGFTKSAK-1.0000     NotChecked  -23.4380    1668.7851   ✗       
+599   VSTPEDMVGFTESAK          -1.0000     NotChecked  -23.4587    1596.7341   ✗       
+600   VC+57.021TAEDMVGFTESAK   -1.0000     NotChecked  -23.4645    1643.7171   ✗       
+601   VC+57.021TPEN+0.984MVGFTTSAK-1.0000     NotChecked  -23.4746    1641.7378   ✗       
+602   VC+57.021TSQ+0.984DMVGFTESAK-1.0000     NotChecked  -23.4829    1659.7120   ✗       
+603   VC+57.021TAEDMVGFTESAK   -1.0000     NotChecked  -23.4853    1643.7171   ✗       
+604   VC+57.021TPEN+0.984MVGFTASAK-1.0000     NotChecked  -23.4924    1611.7273   ✗       
+605   VC+57.021TPEN+0.984MVGFTESK-1.0000     NotChecked  -23.5092    1598.6956   ✗       
+606   VC+57.021TPEDMVGFTEGAK   -1.0000     NotChecked  -23.5140    1639.7222   ✗       
+607   VC+57.021TPADMVGFTQ+0.984SAK-1.0000     NotChecked  -23.5448    1611.7273   ✗       
+608   VC+57.021TPKN+0.984MVGFTESAK-1.0000     NotChecked  -23.5614    1668.7851   ✗       
+609   +43.006C+57.021TPEDMVGFTQ+0.984SAK-1.0000     NotChecked  -23.5695    1613.6701   ✗       
+610   VC+57.021TPQ+0.984DMVGFTTSAK-1.0000     NotChecked  -23.5978    1641.7378   ✗       
+611   VC+57.021TPEDEVGFTQ+0.984SAK-1.0000     NotChecked  -23.6095    1667.7349   ✗       
+612   VC+57.021TPEDMVGFGQ+0.984SAK-1.0000     NotChecked  -23.6107    1625.7065   ✗       
+613   VC+57.021TPQ+0.984DMVGFTASAK-1.0000     NotChecked  -23.6156    1611.7273   ✗       
+614   VC+57.021TPQ+0.984DMVGFTESK-1.0000     NotChecked  -23.6325    1598.6956   ✗       
+615   VC+57.021TPEDMVGFTDSAK   -1.0000     NotChecked  -23.6441    1655.7171   ✗       
+616   VC+57.021TPEDMVGFTQ+0.984GAK-1.0000     NotChecked  -23.6456    1639.7222   ✗       
+617   +42.011C+57.021TPEN+0.984MVGFTESAK-1.0000     NotChecked  -23.6482    1612.6749   ✗       
+618   VC+57.021TPEDMAGFTESAK   -1.0000     NotChecked  -23.6542    1641.7014   ✗       
+619   VC+57.021TPEN+0.984MVGFTESA-1.0000     NotChecked  -23.6577    1541.6378   ✗       
+620   VC+57.021TPQ+0.984GMVGFTESAK-1.0000     NotChecked  -23.6592    1611.7273   ✗       
+621   VC+57.021TPEDMAGFTESAK   -1.0000     NotChecked  -23.6751    1641.7014   ✗       
+622   VC+57.021TAEDMVGFTQ+0.984SAK-1.0000     NotChecked  -23.6881    1643.7171   ✗       
+623   VC+57.021TPEN+0.984MVGFTSAK-1.0000     NotChecked  -23.7497    1540.6901   ✗       
+624   VC+57.021TPENMVGFTESAK   -1.0000     NotChecked  -23.7706    1668.7487   ✗       
+625   +42.011C+57.021TPQ+0.984DMVGFTESAK-1.0000     NotChecked  -23.7714    1612.6749   ✗       
+626   VC+57.021TPQ+0.984DMVGFTESA-1.0000     NotChecked  -23.7809    1541.6378   ✗       
+627   VATPEDMVGFTESAK          -1.0000     NotChecked  -23.8075    1580.7392   ✗       
+628   VC+57.021TPEDMVFTESAK    -1.0000     NotChecked  -23.8183    1612.7113   ✗       
+629   VC+57.021TPQ+0.984SMVGFTESAK-1.0000     NotChecked  -23.8203    1641.7378   ✗       
+630   VC+57.021TPEDMVGGTESAK   -1.0000     NotChecked  -23.8280    1579.6858   ✗       
+631   VC+57.021PEDMVGFTESAK    -1.0000     NotChecked  -23.8291    1568.6851   ✗       
+632   VC+57.021TPEDMVGFTESAL   -1.0000     NotChecked  -23.8528    1654.7218   ✗       
+633   VC+57.021TPQ+0.984DMVGFTSAK-1.0000     NotChecked  -23.8730    1540.6902   ✗       
+634   VC+57.021TPEDMVGFTESAL   -1.0000     NotChecked  -23.8736    1654.7218   ✗       
+635   VC+57.021TPEDMAGFTQ+0.984SAK-1.0000     NotChecked  -23.8779    1641.7014   ✗       
+636   VC+57.021TPEDMVGMTESAK   -1.0000     NotChecked  -23.8864    1653.7048   ✗       
+637   VC+57.021TPEDMVGFTKSAK   -1.0000     NotChecked  -23.9001    1668.7851   ✗       
+638   VC+57.021TPQ+0.984AMVGFTESAK-1.0000     NotChecked  -23.9315    1625.7429   ✗       
+639   VC+57.021TPQDMVGFTESAK   -1.0000     NotChecked  -23.9330    1668.7487   ✗       
+640   VC+57.021TPSDMVGFTESAK   -1.0000     NotChecked  -23.9428    1627.7222   ✗       
+641   VC+57.021TSEDMVGFTESAK   -1.0000     NotChecked  -23.9450    1659.7120   ✗       
+642   VC+57.021TPDDMVGFTESAK   -1.0000     NotChecked  -23.9470    1655.7171   ✗       
+643   VC+57.021TPEDMVGFTESGK   -1.0000     NotChecked  -23.9493    1655.7171   ✗       
+644   VC+57.021TPSDMVGFTESAK   -1.0000     NotChecked  -23.9637    1627.7222   ✗       
+645   VC+57.021TPEDMVGETESAK   -1.0000     NotChecked  -23.9686    1651.7069   ✗       
+646   VC+57.021TPEDMVGFSESAK   -1.0000     NotChecked  -23.9795    1655.7171   ✗       
+647   VC+57.021TPENMVGFTQ+0.984SAK-1.0000     NotChecked  -23.9943    1668.7487   ✗       
+648   VC+57.021TPEDMVGLTESAK   -1.0000     NotChecked  -24.0058    1635.7484   ✗       
+649   VC+57.021TPTDMVGFTESAK   -1.0000     NotChecked  -24.0067    1641.7378   ✗       
+650   VC+57.021TPTDMVGFTESAK   -1.0000     NotChecked  -24.0275    1641.7378   ✗       
+651   VC+57.021TPDDMVGFTESAK   -1.0000     NotChecked  -24.0391    1655.7171   ✗       
+652   VC+57.021TPQ+0.984NMVGFTESAK-1.0000     NotChecked  -24.0434    1668.7487   ✗       
+653   VC+57.021TPEDMVGFTTSAK   -1.0000     NotChecked  -24.0599    1641.7378   ✗       
+654   VC+57.021TPEDMVGFTQ+0.984SAL-1.0000     NotChecked  -24.0765    1654.7218   ✗       
+655   VC+57.021TPEDMVGFTASAK   -1.0000     NotChecked  -24.0777    1611.7273   ✗       
+656   VC+57.021TPEDMVGFTQ+0.984SGK-1.0000     NotChecked  -24.0809    1655.7171   ✗       
+657   VC+57.021TPQN+0.984MVGFTESAK-1.0000     NotChecked  -24.0825    1668.7487   ✗       
+658   VC+57.021TPEDMVGFTESK    -1.0000     NotChecked  -24.0946    1598.6956   ✗       
+659   VC+57.021TPEGMVGFTESAK   -1.0000     NotChecked  -24.1213    1611.7273   ✗       
+660   VC+57.021TPEN+0.984MVGFSESAK-1.0000     NotChecked  -24.1291    1655.7171   ✗       
+661   VC+57.021TPKDMVGFTESAK   -1.0000     NotChecked  -24.1467    1668.7851   ✗       
+662   VC+57.021TPQDMVGFTQ+0.984SAK-1.0000     NotChecked  -24.1566    1668.7487   ✗       
+663   VC+57.021TPEN+0.984MVGFTEAAK-1.0000     NotChecked  -24.1597    1653.7378   ✗       
+664   VC+57.021TPSDMVGFTQ+0.984SAK-1.0000     NotChecked  -24.1665    1627.7222   ✗       
+665   VC+57.021TPDDMVGFTQ+0.984SAK-1.0000     NotChecked  -24.1706    1655.7171   ✗       
+666   VC+57.021TPEDSVGFTESAK   -1.0000     NotChecked  -24.1818    1625.7243   ✗       
+667   VC+57.021TPEN+0.984MVGFTESAG-1.0000     NotChecked  -24.1985    1598.6592   ✗       
+668   VC+57.021TPEDSVGFTESAK   -1.0000     NotChecked  -24.2027    1625.7243   ✗       
+669   VC+57.021TPEDMVGFSQ+0.984SAK-1.0000     NotChecked  -24.2032    1655.7171   ✗       
+670   VC+57.021TPTDMVGFTQ+0.984SAK-1.0000     NotChecked  -24.2304    1641.7378   ✗       
+671   VC+57.021TPEDMVGFAESAK   -1.0000     NotChecked  -24.2331    1639.7222   ✗       
+672   +42.011C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -24.2335    1612.6749   ✗       
+673   VC+57.021TPEDMVGFTESA    -1.0000     NotChecked  -24.2430    1541.6378   ✗       
+674   VC+57.021TPQ+0.984DMVGFSESAK-1.0000     NotChecked  -24.2523    1655.7171   ✗       
+675   VC+57.021TPEDMVGFAESAK   -1.0000     NotChecked  -24.2539    1639.7222   ✗       
+676   VC+57.021TPEDMVGFTDSAK   -1.0000     NotChecked  -24.2558    1655.7171   ✗       
+677   VC+57.021TPESMVGFTESAK   -1.0000     NotChecked  -24.2824    1641.7378   ✗       
+678   VC+57.021TPQ+0.984DMVGFTEAAK-1.0000     NotChecked  -24.2829    1653.7378   ✗       
+679   AC+57.021TPEDMVGFTESAK   -1.0000     NotChecked  -24.4805    1641.7014   ✗       
+680   +43.006C+57.021TPEN+0.984MVGFTESAK-1.0000     NotChecked  -24.6897    1613.6701   ✗       
+681   AC+57.021TPEDMVGFTQ+0.984SAK-1.0000     NotChecked  -24.7041    1641.7014   ✗       
+682   +43.006C+57.021TPQ+0.984DMVGFTESAK-1.0000     NotChecked  -24.8129    1613.6701   ✗       
+683   +42.011C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -24.8452    1612.6749   ✗       
+684   +42.011C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -24.9373    1612.6749   ✗       
+685   +42.011C+57.021TPEDMVGFTQ+0.984SAK-1.0000     NotChecked  -25.0689    1612.6749   ✗       
+686   +43.006C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -25.2750    1613.6701   ✗       
+687   C+57.021TPEDMVGFTESAK    -1.0000     NotChecked  -25.4172    1570.6643   ✗       
+688   GC+57.021TPEDMVGFTESAK   -1.0000     NotChecked  -25.5026    1627.6858   ✗       
+689   C+57.021TPEDMVGFTQ+0.984SAK-1.0000     NotChecked  -25.6408    1570.6643   ✗       
+690   GC+57.021TPEDMVGFTQ+0.984SAK-1.0000     NotChecked  -25.7263    1627.6858   ✗       
+691   AC+57.021TPEN+0.984MVGFTESAK-1.0000     NotChecked  -25.8243    1641.7014   ✗       
+692   +43.006C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -25.8867    1613.6701   ✗       
+693   AC+57.021TPQ+0.984DMVGFTESAK-1.0000     NotChecked  -25.9475    1641.7014   ✗       
+694   +43.006C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -25.9788    1613.6701   ✗       
+695   +43.006C+57.021TPEDMVGFTQ+0.984SAK-1.0000     NotChecked  -26.1104    1613.6701   ✗       
+696   +42.011C+57.021TPEN+0.984MVGFTESAK-1.0000     NotChecked  -26.1890    1612.6749   ✗       
+697   +42.011C+57.021TPQ+0.984DMVGFTESAK-1.0000     NotChecked  -26.3123    1612.6749   ✗       
+698   AC+57.021TPEDMVGFTESAK   -1.0000     NotChecked  -26.4096    1641.7014   ✗       
+699   C+57.021TPEN+0.984MVGFTESAK-1.0000     NotChecked  -26.7610    1570.6643   ✗       
+700   +42.011C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -26.7744    1612.6749   ✗       
+701   GC+57.021TPEN+0.984MVGFTESAK-1.0000     NotChecked  -26.8465    1627.6858   ✗       
+702   C+57.021TPQ+0.984DMVGFTESAK-1.0000     NotChecked  -26.8842    1570.6643   ✗       
+703   GC+57.021TPQ+0.984DMVGFTESAK-1.0000     NotChecked  -26.9697    1627.6858   ✗       
+704   AC+57.021TPEDMVGFTESAK   -1.0000     NotChecked  -27.0213    1641.7014   ✗       
+705   AC+57.021TPEDMVGFTESAK   -1.0000     NotChecked  -27.1134    1641.7014   ✗       
+706   +43.006C+57.021TPEN+0.984MVGFTESAK-1.0000     NotChecked  -27.2305    1613.6701   ✗       
+707   AC+57.021TPEDMVGFTQ+0.984SAK-1.0000     NotChecked  -27.2450    1641.7014   ✗       
+708   C+57.021TPEDMVGFTESAK    -1.0000     NotChecked  -27.3463    1570.6643   ✗       
+709   +43.006C+57.021TPQ+0.984DMVGFTESAK-1.0000     NotChecked  -27.3537    1613.6701   ✗       
+710   GC+57.021TPEDMVGFTESAK   -1.0000     NotChecked  -27.4318    1627.6858   ✗       
+711   +42.011C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -27.4781    1612.6749   ✗       
+712   +43.006C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -27.8159    1613.6701   ✗       
+713   C+57.021TPEDMVGFTESAK    -1.0000     NotChecked  -27.9580    1570.6643   ✗       
+714   GC+57.021TPEDMVGFTESAK   -1.0000     NotChecked  -28.0435    1627.6858   ✗       
+715   C+57.021TPEDMVGFTESAK    -1.0000     NotChecked  -28.0501    1570.6643   ✗       
+716   GC+57.021TPEDMVGFTESAK   -1.0000     NotChecked  -28.1356    1627.6858   ✗       
+717   C+57.021TPEDMVGFTQ+0.984SAK-1.0000     NotChecked  -28.1817    1570.6643   ✗       
+718   GC+57.021TPEDMVGFTQ+0.984SAK-1.0000     NotChecked  -28.2672    1627.6858   ✗       
+719   AC+57.021TPEN+0.984MVGFTESAK-1.0000     NotChecked  -28.3651    1641.7014   ✗       
+720   AC+57.021TPQ+0.984DMVGFTESAK-1.0000     NotChecked  -28.4884    1641.7014   ✗       
+721   +43.006C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -28.5196    1613.6701   ✗       
+722   +42.011C+57.021TPEDMVGFTQ+0.984SAK-1.0000     NotChecked  -28.7831    1612.6749   ✗       
+723   +42.011C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -28.7856    1612.6749   ✗       
+724   AC+57.021TPEDMVGFTESAK   -1.0000     NotChecked  -28.9505    1641.7014   ✗       
+725   +42.011C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -29.2728    1612.6749   ✗       
+726   C+57.021TPEN+0.984MVGFTESAK-1.0000     NotChecked  -29.3018    1570.6643   ✗       
+727   GC+57.021TPEN+0.984MVGFTESAK-1.0000     NotChecked  -29.3873    1627.6858   ✗       
+728   +42.011C+57.021TPEDMVGFTESAR-1.0000     NotChecked  -29.3965    1640.6810   ✗       
+729   C+57.021TPQ+0.984DMVGFTESAK-1.0000     NotChecked  -29.4251    1570.6643   ✗       
+730   GC+57.021TPQ+0.984DMVGFTESAK-1.0000     NotChecked  -29.5105    1627.6858   ✗       
+731   +42.011C+57.021TPEEMVGFTESAK-1.0000     NotChecked  -29.5222    1626.6905   ✗       
+732   AC+57.021TPEDMVGFTESAK   -1.0000     NotChecked  -29.6542    1641.7014   ✗       
+733   +42.011C+57.021TPENMVGFTESAK-1.0000     NotChecked  -29.7255    1611.6909   ✗       
+734   +43.006C+57.021TPEDMVGFTQ+0.984SAK-1.0000     NotChecked  -29.8246    1613.6701   ✗       
+735   +43.006C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -29.8271    1613.6701   ✗       
+736   +42.011C+57.021TPEDMVGFTESTK-1.0000     NotChecked  -29.8867    1642.6855   ✗       
+737   C+57.021TPEDMVGFTESAK    -1.0000     NotChecked  -29.8872    1570.6643   ✗       
+738   +42.011C+57.021TPQDMVGFTESAK-1.0000     NotChecked  -29.8878    1611.6909   ✗       
+739   TC+57.021TPEDMVGFSESAK   -1.0000     NotChecked  -29.8885    1657.6964   ✗       
+740   +42.011C+57.021TPEN+0.984MVGFTESAK-1.0000     NotChecked  -29.9033    1612.6749   ✗       
+741   +42.011C+57.021TPEDMVGFSESAK-1.0000     NotChecked  -29.9344    1598.6593   ✗       
+742   +42.011C+57.021TPEDMLGFTESAK-1.0000     NotChecked  -29.9349    1626.6905   ✗       
+743   +42.011C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -29.9357    1612.6749   ✗       
+744   GC+57.021TPEDMVGFTESAK   -1.0000     NotChecked  -29.9727    1627.6858   ✗       
+745   +42.011C+57.021TPQ+0.984DMVGFTESAK-1.0000     NotChecked  -30.0265    1612.6749   ✗       
+746   +42.011C+57.021TPEN+0.984MVGFTQ+0.984SAK-1.0000     NotChecked  -30.1270    1612.6749   ✗       
+747   +42.011C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -30.1324    1612.6749   ✗       
+748   +42.011C+57.021TPQ+0.984DMVGFTQ+0.984SAK-1.0000     NotChecked  -30.2502    1612.6749   ✗       
+749   +43.006C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -30.3142    1613.6701   ✗       
+750   +42.011C+57.021TPEDMVGFTQSAK-1.0000     NotChecked  -30.3321    1611.6909   ✗       
+751   TC+57.021TPADMVGFTESAK   -1.0000     NotChecked  -30.4244    1613.7065   ✗       
+752   +43.006C+57.021TPEDMVGFTESAR-1.0000     NotChecked  -30.4380    1641.6763   ✗       
+753   +42.011C+57.021TPADMVGFTESAK-1.0000     NotChecked  -30.4703    1554.6694   ✗       
+754   +42.011C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -30.4886    1612.6749   ✗       
+755   TC+57.021TPEDMVGFTEGAK   -1.0000     NotChecked  -30.5251    1641.7014   ✗       
+756   +42.011C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -30.5364    1612.6749   ✗       
+757   LC+57.021TPADMVGFTESAK   -1.0000     NotChecked  -30.5536    1625.7429   ✗       
+758   +43.006C+57.021TPEEMVGFTESAK-1.0000     NotChecked  -30.5637    1627.6858   ✗       
+759   +42.011C+57.021TPEDMVGFTEGAK-1.0000     NotChecked  -30.5710    1582.6643   ✗       
+760   C+57.021TPEDMVGFTESAK    -1.0000     NotChecked  -30.5909    1570.6643   ✗       
+761   +42.011C+57.021TPEDMVGFTETAK-1.0000     NotChecked  -30.6078    1626.6905   ✗       
+762   LC+57.021TPEDMVGFTEGAK   -1.0000     NotChecked  -30.6544    1653.7378   ✗       
+763   +42.011C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -30.6652    1612.6749   ✗       
+764   GC+57.021TPEDMVGFTESAK   -1.0000     NotChecked  -30.6764    1627.6858   ✗       
+765   +42.011C+57.021TPEDMVGFTQ+0.984SAK-1.0000     NotChecked  -30.7123    1612.6749   ✗       
+766   +42.011C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -30.7256    1612.6749   ✗       
+767   +43.006C+57.021TPENMVGFTESAK-1.0000     NotChecked  -30.7670    1612.6861   ✗       
+768   TC+57.021TPEDMVFTESAK    -1.0000     NotChecked  -30.8294    1614.6905   ✗       
+769   +42.011C+57.021TPEDMVFTESAK-1.0000     NotChecked  -30.8753    1555.6534   ✗       
+770   +42.011C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -30.8861    1612.6749   ✗       
+771   +43.006C+57.021TPEDMVGFTESTK-1.0000     NotChecked  -30.9282    1643.6807   ✗       
+772   +43.006C+57.021TPQDMVGFTESAK-1.0000     NotChecked  -30.9293    1612.6861   ✗       
+773   +43.006C+57.021TPEN+0.984MVGFTESAK-1.0000     NotChecked  -30.9447    1613.6701   ✗       
+774   LC+57.021TPEDMVFTESAK    -1.0000     NotChecked  -30.9587    1626.7269   ✗       
+775   AC+57.021TPEDMVGFTQ+0.984SAK-1.0000     NotChecked  -30.9592    1641.7014   ✗       
+776   TC+57.021TPEDMVGFTESGK   -1.0000     NotChecked  -30.9605    1657.6963   ✗       
+777   AC+57.021TPEDMVGFTESAK   -1.0000     NotChecked  -30.9617    1641.7014   ✗       
+778   +42.011C+57.021TPEDM+15.995VGFTESAK-1.0000     NotChecked  -30.9689    1628.6698   ✗       
+779   +43.006C+57.021TPEDMVGFSESAK-1.0000     NotChecked  -30.9758    1599.6545   ✗       
+780   +43.006C+57.021TPEDMLGFTESAK-1.0000     NotChecked  -30.9764    1627.6858   ✗       
+781   +43.006C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -30.9772    1613.6701   ✗       
+782   +42.011C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -30.9864    1612.6749   ✗       
+783   +42.011C+57.021TPEDMVGFTESGK-1.0000     NotChecked  -31.0063    1598.6592   ✗       
+784   TC+57.021TPDDMVGFTESAK   -1.0000     NotChecked  -31.0502    1657.6963   ✗       
+785   +43.006C+57.021TPQ+0.984DMVGFTESAK-1.0000     NotChecked  -31.0680    1613.6701   ✗       
+786   +42.011C+57.021TPDDMVGFTESAK-1.0000     NotChecked  -31.0961    1598.6592   ✗       
+787   MC+57.021TPADMVGFTESAK   -1.0000     NotChecked  -31.1087    1643.6993   ✗       
+788   +43.006C+57.021TPEN+0.984MVGFTQ+0.984SAK-1.0000     NotChecked  -31.1684    1613.6701   ✗       
+789   +43.006C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -31.1738    1613.6701   ✗       
+790   +42.011C+57.021TPEDMVGYTESAK-1.0000     NotChecked  -31.1879    1628.6698   ✗       
+791   +42.011C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -31.1924    1612.6749   ✗       
+792   +43.006C+57.021TPQ+0.984DMVGFTQ+0.984SAK-1.0000     NotChecked  -31.2917    1613.6701   ✗       
+793   +42.011C+57.021TPEDMVGFTQ+0.984SAK-1.0000     NotChecked  -31.3239    1612.6749   ✗       
+794   +42.011C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -31.3264    1612.6749   ✗       
+795   +42.011C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -31.3387    1612.6749   ✗       
+796   TC+57.021TPEDMVGFTDSAK   -1.0000     NotChecked  -31.3590    1657.6963   ✗       
+797   +42.011C+57.021TPQ+0.984N+0.984MVGFTESAK-1.0000     NotChecked  -31.3704    1612.6749   ✗       
+798   +43.006C+57.021TPEDMVGFTQSAK-1.0000     NotChecked  -31.3736    1612.6861   ✗       
+799   +42.011C+57.021TPEDMVGFTDSAK-1.0000     NotChecked  -31.4049    1598.6592   ✗       
+800   +42.011C+57.021TPEDMVGFTQ+0.984SAK-1.0000     NotChecked  -31.4161    1612.6749   ✗       
+801   AC+57.021TPEDMVGFTESAK   -1.0000     NotChecked  -31.4489    1641.7014   ✗       
+802   +43.006C+57.021TPADMVGFTESAK-1.0000     NotChecked  -31.5117    1555.6647   ✗       
+803   MC+57.021TPEDMVFTESAK    -1.0000     NotChecked  -31.5137    1644.6834   ✗       
+804   +43.006C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -31.5301    1613.6701   ✗       
+805   +42.011C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -31.5615    1612.6749   ✗       
+806   AC+57.021TPEDMVGFTESAR   -1.0000     Failed      -31.5726    1669.7076   ✓       
+807   +43.006C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -31.5779    1613.6701   ✗       
+808   +43.006C+57.021TPEDMVGFTEGAK-1.0000     NotChecked  -31.6125    1583.6596   ✗       
+809   +43.006C+57.021TPEDMVGFTETAK-1.0000     NotChecked  -31.6492    1627.6858   ✗       
+810   TC+57.021TSEDMVGFTESAK   -1.0000     NotChecked  -31.6599    1661.6913   ✗       
+811   +42.011C+57.021TPEDMVGFTKSAK-1.0000     NotChecked  -31.6609    1611.7273   ✗       
+812   AC+57.021TPEEMVGFTESAK   -1.0000     NotChecked  -31.6983    1655.7171   ✗       
+813   +42.011C+57.021TSEDMVGFTESAK-1.0000     NotChecked  -31.7058    1602.6542   ✗       
+814   +43.006C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -31.7067    1613.6701   ✗       
+815   +43.006C+57.021TPEDMVGFTQ+0.984SAK-1.0000     NotChecked  -31.7538    1613.6701   ✗       
+816   +43.006C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -31.7671    1613.6701   ✗       
+817   TC+57.021TPEDMVGFTTSAK   -1.0000     NotChecked  -31.7748    1643.7171   ✗       
+818   TC+57.021TPEDMVGFTASAK   -1.0000     NotChecked  -31.7926    1613.7065   ✗       
+819   TC+57.021TPEDMVGFTESK    -1.0000     NotChecked  -31.8094    1600.6749   ✗       
+820   +42.011C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -31.8136    1612.6749   ✗       
+821   +42.011C+57.021TPEDMVGFTTSAK-1.0000     NotChecked  -31.8207    1584.6800   ✗       
+822   +42.011C+57.021TPEN+0.984MVGFTESAK-1.0000     NotChecked  -31.8325    1612.6749   ✗       
+823   TC+57.021TPEGMVGFTESAK   -1.0000     NotChecked  -31.8362    1613.7065   ✗       
+824   +42.011C+57.021TPEDMVGFTASAK-1.0000     NotChecked  -31.8385    1554.6694   ✗       
+825   +42.011C+57.021TPEDMVGFTESK-1.0000     NotChecked  -31.8553    1541.6378   ✗       
+826   +42.011C+57.021TPEGMVGFTESAK-1.0000     NotChecked  -31.8820    1554.6694   ✗       
+827   C+57.021TPEDMVGFTQ+0.984SAK-1.0000     NotChecked  -31.8959    1570.6643   ✗       
+828   C+57.021TPEDMVGFTESAK    -1.0000     NotChecked  -31.8984    1570.6643   ✗       
+829   AC+57.021TPENMVGFTESAK   -1.0000     NotChecked  -31.9016    1640.7174   ✗       
+830   LC+57.021TPEDMVGFTTSAK   -1.0000     NotChecked  -31.9040    1655.7535   ✗       
+831   +42.011C+57.021TPKDMVGFTESAK-1.0000     NotChecked  -31.9075    1611.7273   ✗       
+832   +43.006C+57.021TPEDMVFTESAK-1.0000     NotChecked  -31.9168    1556.6487   ✗       
+833   LC+57.021TPEDMVGFTASAK   -1.0000     NotChecked  -31.9218    1625.7429   ✗       
+834   +43.006C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -31.9276    1613.6701   ✗       
+835   +42.011C+57.021TPEDMVGFTESAR-1.0000     NotChecked  -31.9374    1640.6810   ✗       
+836   LC+57.021TPEDMVGFTESK    -1.0000     NotChecked  -31.9387    1612.7113   ✗       
+837   +42.011C+57.021TPQ+0.984DMVGFTESAK-1.0000     NotChecked  -31.9557    1612.6749   ✗       
+838   TC+57.021TPEDMVGFTESA    -1.0000     NotChecked  -31.9579    1543.6170   ✗       
+839   LC+57.021TPEGMVGFTESAK   -1.0000     NotChecked  -31.9654    1625.7429   ✗       
+840   GC+57.021TPEDMVGFTQ+0.984SAK-1.0000     NotChecked  -31.9814    1627.6858   ✗       
+841   GC+57.021TPEDMVGFTESAK   -1.0000     NotChecked  -31.9839    1627.6858   ✗       
+842   TC+57.021TPESMVGFTESAK   -1.0000     NotChecked  -31.9972    1643.7171   ✗       
+843   +42.011C+57.021TPEDMVGFTESA-1.0000     NotChecked  -32.0038    1484.5799   ✗       
+844   +43.006C+57.021TPEDM+15.995VGFTESAK-1.0000     NotChecked  -32.0103    1629.6651   ✗       
+845   +43.006C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -32.0279    1613.6701   ✗       
+846   +42.011C+57.021TPESMVGFTESAK-1.0000     NotChecked  -32.0431    1584.6800   ✗       
+847   +43.006C+57.021TPEDMVGFTESGK-1.0000     NotChecked  -32.0478    1599.6545   ✗       
+848   TC+57.021TPEDMVGFTSAK    -1.0000     NotChecked  -32.0499    1542.6694   ✗       
+849   +42.011C+57.021TPEEMVGFTESAK-1.0000     NotChecked  -32.0630    1626.6905   ✗       
+850   AC+57.021TPQDMVGFTESAK   -1.0000     NotChecked  -32.0639    1640.7174   ✗       
+851   AC+57.021TPEN+0.984MVGFTESAK-1.0000     NotChecked  -32.0794    1641.7014   ✗       
+852   LC+57.021TPEDMVGFTESA    -1.0000     NotChecked  -32.0871    1555.6534   ✗       
+853   +42.011C+57.021TPEDMVGFTSAK-1.0000     NotChecked  -32.0958    1483.6323   ✗       
+854   TC+57.021TPEAMVGFTESAK   -1.0000     NotChecked  -32.1084    1627.7222   ✗       
+855   AC+57.021TPEDMVGFSESAK   -1.0000     NotChecked  -32.1105    1627.6858   ✗       
+856   AC+57.021TPEDMLGFTESAK   -1.0000     NotChecked  -32.1110    1655.7171   ✗       
+857   AC+57.021TPEDMVGFTESAK   -1.0000     NotChecked  -32.1118    1641.7014   ✗       
+858   LC+57.021TPESMVGFTESAK   -1.0000     NotChecked  -32.1265    1655.7535   ✗       
+859   +43.006C+57.021TPDDMVGFTESAK-1.0000     NotChecked  -32.1375    1599.6545   ✗       
+860   +42.011C+57.021TPEAMVGFTESAK-1.0000     NotChecked  -32.1543    1568.6851   ✗       
+861   +42.011C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -32.1735    1612.6749   ✗       
+862   LC+57.021TPEDMVGFTSAK    -1.0000     NotChecked  -32.1792    1554.7058   ✗       
+863   +42.011C+57.021TPEDMVGFTESAQ-1.0000     NotChecked  -32.2004    1612.6385   ✗       
+864   AC+57.021TPQ+0.984DMVGFTESAK-1.0000     NotChecked  -32.2026    1641.7014   ✗       
+865   +43.006C+57.021TPEDMVGYTESAK-1.0000     NotChecked  -32.2293    1629.6651   ✗       
+866   +43.006C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -32.2339    1613.6701   ✗       
+867   LC+57.021TPEAMVGFTESAK   -1.0000     NotChecked  -32.2377    1639.7586   ✗       
+868   +42.011C+57.021TPENMVGFTESAK-1.0000     NotChecked  -32.2663    1611.6909   ✗       
+869   AC+57.021TPEN+0.984MVGFTQ+0.984SAK-1.0000     NotChecked  -32.3030    1641.7014   ✗       
+870   AC+57.021TPEDMVGFTESAK   -1.0000     NotChecked  -32.3085    1641.7014   ✗       
+871   +43.006C+57.021TPEDMVGFTQ+0.984SAK-1.0000     NotChecked  -32.3654    1613.6701   ✗       
+872   +43.006C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -32.3679    1613.6701   ✗       
+873   +43.006C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -32.3801    1613.6701   ✗       
+874   C+57.021TPEDMVGFTESAK    -1.0000     NotChecked  -32.3856    1570.6643   ✗       
+875   +43.006C+57.021TPQ+0.984N+0.984MVGFTESAK-1.0000     NotChecked  -32.4118    1613.6701   ✗       
+876   AC+57.021TPQ+0.984DMVGFTQ+0.984SAK-1.0000     NotChecked  -32.4263    1641.7014   ✗       
+877   +42.011C+57.021TPEDMVGFTESTK-1.0000     NotChecked  -32.4275    1642.6855   ✗       
+878   +42.011C+57.021TPQDMVGFTESAK-1.0000     NotChecked  -32.4287    1611.6909   ✗       
+879   TC+57.021TPEDMVGFSESAK   -1.0000     NotChecked  -32.4293    1657.6964   ✗       
+880   +42.011C+57.021TPEN+0.984MVGFTESAK-1.0000     NotChecked  -32.4441    1612.6749   ✗       
+881   +43.006C+57.021TPEDMVGFTDSAK-1.0000     NotChecked  -32.4464    1599.6545   ✗       
+882   +43.006C+57.021TPEDMVGFTQ+0.984SAK-1.0000     NotChecked  -32.4575    1613.6701   ✗       
+883   TC+57.021TPEDMVGFTEAAK   -1.0000     NotChecked  -32.4599    1655.7171   ✗       
+884   GC+57.021TPEDMVGFTESAK   -1.0000     NotChecked  -32.4710    1627.6858   ✗       
+885   +42.011C+57.021TPEDMVGFSESAK-1.0000     NotChecked  -32.4752    1598.6593   ✗       
+886   +42.011C+57.021TPEDMVGFTESLK-1.0000     NotChecked  -32.4753    1654.7218   ✗       
+887   +42.011C+57.021TPEDMLGFTESAK-1.0000     NotChecked  -32.4757    1626.6905   ✗       
+888   +42.011C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -32.4766    1612.6749   ✗       
+889   MC+57.021TPEDMVGFTASAK   -1.0000     NotChecked  -32.4769    1643.6993   ✗       
+890   MC+57.021TPEDMVGFTESK    -1.0000     NotChecked  -32.4938    1630.6677   ✗       
+891   TC+57.021TPEDMVGFTESAG   -1.0000     NotChecked  -32.4987    1600.6385   ✗       
+892   +42.011C+57.021TPEDMVGFTEAAK-1.0000     NotChecked  -32.5058    1596.6800   ✗       
+893   AC+57.021TPEDMVGFTQSAK   -1.0000     NotChecked  -32.5082    1640.7174   ✗       
+894   C+57.021TPEDMVGFTESAR    -1.0000     NotChecked  -32.5093    1598.6705   ✗       
+895   MC+57.021TPEGMVGFTESAK   -1.0000     NotChecked  -32.5205    1643.6993   ✗       
+896   +42.011C+57.021TPEN+0.984MVGFTESAK-1.0000     NotChecked  -32.5362    1612.6749   ✗       
+897   +42.011C+57.021TPEDMVGFTESAG-1.0000     NotChecked  -32.5446    1541.6014   ✗       
+898   +42.011C+57.021TPQ+0.984DMVGFTESAK-1.0000     NotChecked  -32.5673    1612.6749   ✗       
+899   LC+57.021TPEDMVGFTEAAK   -1.0000     NotChecked  -32.5892    1667.7535   ✗       
+900   GC+57.021TPEDMVGFTESAR   -1.0000     NotChecked  -32.5948    1655.6919   ✗       
+901   +43.006C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -32.6030    1613.6701   ✗       
+902   +42.011C+57.021TPEDMVGFTESSK-1.0000     NotChecked  -32.6183    1628.6698   ✗       
+903   LC+57.021TPEDMVGFTESAG   -1.0000     NotChecked  -32.6280    1612.6749   ✗       
+904   KC+57.021TPADMVGFTESAK   -1.0000     NotChecked  -32.6288    1640.7538   ✗       
+905   C+57.021TPEEMVGFTESAK    -1.0000     NotChecked  -32.6350    1584.6800   ✗       
+906   MC+57.021TPEDMVGFTESA    -1.0000     NotChecked  -32.6422    1573.6099   ✗       
+907   AC+57.021TPADMVGFTESAK   -1.0000     NotChecked  -32.6464    1583.6960   ✗       
+908   +42.011C+57.021TPQ+0.984DMVGFTESAK-1.0000     NotChecked  -32.6595    1612.6749   ✗       
+909   AC+57.021TPEDMVGFTESAK   -1.0000     NotChecked  -32.6647    1641.7014   ✗       
+910   +42.011C+57.021TPEN+0.984MVGFTQ+0.984SAK-1.0000     NotChecked  -32.6678    1612.6749   ✗       
+911   +42.011C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -32.6732    1612.6749   ✗       
+912   +43.006C+57.021TPEDMVGFTKSAK-1.0000     NotChecked  -32.7024    1612.7225   ✗       
+913   AC+57.021TPEDMVGFTESAK   -1.0000     NotChecked  -32.7125    1641.7014   ✗       
+914   GC+57.021TPEEMVGFTESAK   -1.0000     NotChecked  -32.7205    1641.7014   ✗       
+915   KC+57.021TPEDMVGFTEGAK   -1.0000     NotChecked  -32.7296    1668.7487   ✗       
+916   MC+57.021TPEDMVGFTSAK    -1.0000     NotChecked  -32.7343    1572.6622   ✗       
+917   AC+57.021TPEDMVGFTEGAK   -1.0000     NotChecked  -32.7471    1611.6909   ✗       
+918   +43.006C+57.021TSEDMVGFTESAK-1.0000     NotChecked  -32.7473    1603.6494   ✗       
+919   +42.011C+57.021TPEDMVGFFESAK-1.0000     NotChecked  -32.7766    1658.6956   ✗       
+920   AC+57.021TPEDMVGFTETAK   -1.0000     NotChecked  -32.7839    1655.7171   ✗       
+921   +42.011C+57.021TPQ+0.984DMVGFTQ+0.984SAK-1.0000     NotChecked  -32.7910    1612.6749   ✗       
+922   MC+57.021TPEAMVGFTESAK   -1.0000     NotChecked  -32.7927    1657.7150   ✗       
+923   TC+57.021TPEDMVGFTSSAK   -1.0000     NotChecked  -32.8328    1629.7014   ✗       
+924   C+57.021TPENMVGFTESAK    -1.0000     NotChecked  -32.8383    1569.6803   ✗       
+925   AC+57.021TPEDMVGFTESAK   -1.0000     NotChecked  -32.8413    1641.7014   ✗       
+926   +43.006C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -32.8551    1613.6701   ✗       
+927   +43.006C+57.021TPEDMVGFTTSAK-1.0000     NotChecked  -32.8622    1585.6752   ✗       
+928   +42.011C+57.021TPEDMVGFTQSAK-1.0000     NotChecked  -32.8729    1611.6909   ✗       
+929   +43.006C+57.021TPEN+0.984MVGFTESAK-1.0000     NotChecked  -32.8739    1613.6701   ✗       
+930   +42.011C+57.021TPEDMVGFTSSAK-1.0000     NotChecked  -32.8787    1570.6643   ✗       
+931   +43.006C+57.021TPEDMVGFTASAK-1.0000     NotChecked  -32.8800    1555.6647   ✗       
+932   AC+57.021TPEDMVGFTQ+0.984SAK-1.0000     NotChecked  -32.8884    1641.7014   ✗       
+933   +43.006C+57.021TPEDMVGFTESK-1.0000     NotChecked  -32.8968    1542.6330   ✗       
+934   AC+57.021TPEDMVGFTESAK   -1.0000     NotChecked  -32.9017    1641.7014   ✗       
+935   +43.006C+57.021TPEGMVGFTESAK-1.0000     NotChecked  -32.9235    1555.6647   ✗       
+936   GC+57.021TPENMVGFTESAK   -1.0000     NotChecked  -32.9238    1626.7018   ✗       
+937   +43.006C+57.021TPKDMVGFTESAK-1.0000     NotChecked  -32.9490    1612.7225   ✗       
+938   LC+57.021TPEDMVGFTSSAK   -1.0000     NotChecked  -32.9620    1641.7378   ✗       
+939   TC+57.021TPADMVGFTESAK   -1.0000     NotChecked  -32.9652    1613.7065   ✗       
+940   +42.011C+57.021TPEDMVGFLESAK-1.0000     NotChecked  -32.9715    1624.7113   ✗       
+941   +43.006C+57.021TPEDMVGFTESAR-1.0000     NotChecked  -32.9788    1641.6763   ✗       
+942   +43.006C+57.021TPQ+0.984DMVGFTESAK-1.0000     NotChecked  -32.9972    1613.6701   ✗       
+943   +42.011C+57.021TPEDMVSFTESAK-1.0000     NotChecked  -32.9990    1642.6855   ✗       
+944   C+57.021TPEDMVGFTESTK    -1.0000     NotChecked  -32.9995    1600.6749   ✗       
+945   C+57.021TPQDMVGFTESAK    -1.0000     NotChecked  -33.0006    1569.6803   ✗       
+946   +42.011C+57.021TPADMVGFTESAK-1.0000     NotChecked  -33.0111    1554.6694   ✗       
+947   C+57.021TPEN+0.984MVGFTESAK-1.0000     NotChecked  -33.0161    1570.6643   ✗       
+948   +42.011C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -33.0294    1612.6749   ✗       
+949   TC+57.021TPEDMVGFGESAK   -1.0000     NotChecked  -33.0311    1627.6858   ✗       
+950   KC+57.021TPEDMVFTESAK    -1.0000     NotChecked  -33.0339    1641.7378   ✗       
+951   +43.006C+57.021TPEDMVGFTESA-1.0000     NotChecked  -33.0453    1485.5752   ✗       
+952   C+57.021TPEDMVGFSESAK    -1.0000     NotChecked  -33.0472    1556.6487   ✗       
+953   C+57.021TPEDMLGFTESAK    -1.0000     NotChecked  -33.0477    1584.6800   ✗       
+954   C+57.021TPEDMVGFTESAK    -1.0000     NotChecked  -33.0485    1570.6643   ✗       
+955   AC+57.021TPEDMVFTESAK    -1.0000     NotChecked  -33.0514    1584.6800   ✗       
+956   AC+57.021TPEDMVGFTESAK   -1.0000     NotChecked  -33.0622    1641.7014   ✗       
+957   TC+57.021TPEDMVGFTEGAK   -1.0000     NotChecked  -33.0659    1641.7014   ✗       
+958   +42.011C+57.021TPEDEVGFTESAK-1.0000     NotChecked  -33.0758    1610.6770   ✗       
+959   +42.011C+57.021TPEDMVGFGESAK-1.0000     NotChecked  -33.0770    1568.6487   ✗       
+960   +42.011C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -33.0772    1612.6749   ✗       
+961   +43.006C+57.021TPESMVGFTESAK-1.0000     NotChecked  -33.0846    1585.6752   ✗       
+962   GC+57.021TPEDMVGFTESTK   -1.0000     NotChecked  -33.0850    1657.6963   ✗       
+963   GC+57.021TPQDMVGFTESAK   -1.0000     NotChecked  -33.0861    1626.7018   ✗       
+964   LC+57.021TPADMVGFTESAK   -1.0000     NotChecked  -33.0944    1625.7429   ✗       
+965   GC+57.021TPEN+0.984MVGFTESAK-1.0000     NotChecked  -33.1016    1627.6858   ✗       
+966   +42.011C+57.021TPEDMEGFTESAK-1.0000     NotChecked  -33.1030    1642.6491   ✗       
+967   +43.006C+57.021TPEEMVGFTESAK-1.0000     NotChecked  -33.1045    1627.6858   ✗       
+968   TC+57.021TAEDMVGFTESAK   -1.0000     NotChecked  -33.1085    1645.6963   ✗       
+969   +42.011C+57.021TPEDMVGFTEGAK-1.0000     NotChecked  -33.1118    1582.6643   ✗       
+970   +42.011C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -33.1216    1612.6749   ✗       
+971   GC+57.021TPEDMVGFSESAK   -1.0000     NotChecked  -33.1326    1613.6702   ✗       
+972   GC+57.021TPEDMLGFTESAK   -1.0000     NotChecked  -33.1332    1641.7014   ✗       
+973   GC+57.021TPEDMVGFTESAK   -1.0000     NotChecked  -33.1340    1627.6858   ✗       
+974   +43.006C+57.021TPEDMVGFTSAK-1.0000     NotChecked  -33.1373    1484.6275   ✗       
+975   C+57.021TPQ+0.984DMVGFTESAK-1.0000     NotChecked  -33.1393    1570.6643   ✗       
+976   AC+57.021TPEDM+15.995VGFTESAK-1.0000     NotChecked  -33.1450    1657.6964   ✗       
+977   +42.011C+57.021TPEDMVGFTETAK-1.0000     NotChecked  -33.1486    1626.6905   ✗       
+978   +42.011C+57.021TAEDMVGFTESAK-1.0000     NotChecked  -33.1544    1586.6592   ✗       
+979   +42.011C+57.021TLEDMVGFTESAK-1.0000     NotChecked  -33.1569    1628.7062   ✗       
+980   LC+57.021TPEDMVGFGESAK   -1.0000     NotChecked  -33.1603    1639.7222   ✗       
+981   AC+57.021TPEDMVGFTESAK   -1.0000     NotChecked  -33.1625    1641.7014   ✗       
+982   AC+57.021TPEDMVGFTESGK   -1.0000     NotChecked  -33.1824    1627.6858   ✗       
+983   MC+57.021TPEDMVGFTESAG   -1.0000     NotChecked  -33.1830    1630.6313   ✗       
+984   +42.011C+57.021TPEDMVGFTMSAK-1.0000     NotChecked  -33.1848    1614.6728   ✗       
+985   LC+57.021TPEDMVGFTEGAK   -1.0000     NotChecked  -33.1952    1653.7378   ✗       
+986   +43.006C+57.021TPEAMVGFTESAK-1.0000     NotChecked  -33.1958    1569.6803   ✗       
+987   +42.011C+57.021TPEDMVGFTENAK-1.0000     NotChecked  -33.1995    1639.6858   ✗       
+988   +42.011C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -33.2060    1612.6749   ✗       
+989   +43.006C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -33.2149    1613.6701   ✗       
+990   GC+57.021TPQ+0.984DMVGFTESAK-1.0000     NotChecked  -33.2248    1627.6858   ✗       
+991   LC+57.021TAEDMVGFTESAK   -1.0000     NotChecked  -33.2377    1657.7327   ✗       
+992   C+57.021TPEN+0.984MVGFTQ+0.984SAK-1.0000     NotChecked  -33.2397    1570.6643   ✗       
+993   +43.006C+57.021TPEDMVGFTESAQ-1.0000     NotChecked  -33.2418    1613.6338   ✗       
+994   C+57.021TPEDMVGFTESAK    -1.0000     NotChecked  -33.2451    1570.6643   ✗       
+995   +42.011C+57.021TPEDMVGFTQ+0.984SAK-1.0000     NotChecked  -33.2531    1612.6749   ✗       
+996   +42.011C+57.021TPEDMVGFTESAK-1.0000     NotChecked  -33.2665    1612.6749   ✗       
+997   AC+57.021TPDDMVGFTESAK   -1.0000     NotChecked  -33.2722    1627.6858   ✗       
+998   TC+57.021TPEDMAGFTESAK   -1.0000     NotChecked  -33.2983    1643.6807   ✗       
+999   +43.006C+57.021TPENMVGFTESAK-1.0000     NotChecked  -33.3078    1612.6861   ✗       
+1000  GC+57.021TPEN+0.984MVGFTQ+0.984SAK-1.0000     NotChecked  -33.3252    1627.6858   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: VC+57.021TPEDMVGFTESAK
+Similarity: 0.8173
+De Novo Score: -0.1043
+Source: Database
+Correct: ✓
+

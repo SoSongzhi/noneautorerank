@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 183
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 511.9629
+Precursor charge: 3+
+Ground truth: VPVHNVSVVDITVR
+Ground truth (normalized): VPVHNVSVVDITVR
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 167
+Used for reranking: 167
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 167 (16.7%)
+Database matches: 12 (1.2%)
+Prosit predictions: 152 (15.2%)
+Failed: 3 (0.3%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 20/1000
+Rank by similarity: 1/1000
+Similarity: 0.8763
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     VPVHNVSVVDLTVR           0.8763      Database    -8.8970     1532.8675   ✓       ✓
+2     VPVHNVSVVDLTVR           0.8763      Database    -11.0810    1532.8675   ✓       ✓
+3     VPVHNVSVVDLTVR           0.8763      Database    -11.5745    1532.8675   ✓       ✓
+4     VPVHNVSVVDLTVR           0.8763      Database    -13.3774    1532.8675   ✓       ✓
+5     VPVHNVSVVDLTVR           0.8763      Database    -13.7585    1532.8675   ✓       ✓
+6     VPVHNVSVVDLTVR           0.8763      Database    -14.0717    1532.8675   ✓       ✓
+7     VPVHNVSVVDLTVR           0.8763      Database    -15.5614    1532.8675   ✓       ✓
+8     VPVHNVSVVDLTVR           0.8763      Database    -16.0549    1532.8675   ✓       ✓
+9     VPVHNVSVVDLTVR           0.8763      Database    -16.2557    1532.8675   ✓       ✓
+10    VPVHNVSVVDLTVR           0.8763      Database    -16.7492    1532.8675   ✓       ✓
+11    VPVHNVSVVDLTVR           0.8763      Database    -18.2389    1532.8675   ✓       ✓
+12    VPVHNVSVVDLTVR           0.8763      Database    -18.9332    1532.8675   ✓       ✓
+13    VPVHNVSVVN+0.984LLSR     0.4566      Prosit      -7.5814     1532.8675   ✓       
+14    VPVHNVSVVN+0.984LLSR     0.4566      Prosit      -9.7654     1532.8675   ✓       
+15    VPVHNVSVVN+0.984LLSR     0.4566      Prosit      -10.2589    1532.8675   ✓       
+16    VPVHNVSVVN+0.984LLSR     0.4566      Prosit      -12.0619    1532.8675   ✓       
+17    VPVHNVSVVN+0.984LLSR     0.4566      Prosit      -12.4429    1532.8675   ✓       
+18    VPVHNVSVVN+0.984LLSR     0.4566      Prosit      -12.7562    1532.8675   ✓       
+19    VPVHNVSVVN+0.984LLSR     0.4566      Prosit      -13.9404    1532.8675   ✓       
+20    VPVHNVSVVN+0.984LLSR     0.4566      Prosit      -14.2459    1532.8675   ✓       
+21    VPVHNVSVVN+0.984LLSR     0.4566      Prosit      -14.7393    1532.8675   ✓       
+22    VPVHNVSVVN+0.984LLSR     0.4566      Prosit      -14.9402    1532.8675   ✓       
+23    VPVHNVSVVN+0.984LLSR     0.4566      Prosit      -15.4337    1532.8675   ✓       
+24    VPVHNVSVVN+0.984LLSR     0.4566      Prosit      -16.1244    1532.8675   ✓       
+25    VPVHNVSVVN+0.984LLSR     0.4566      Prosit      -16.6179    1532.8675   ✓       
+26    VPVHNVSVVN+0.984LLSR     0.4566      Prosit      -16.9233    1532.8675   ✓       
+27    VPVHNVSVVN+0.984LLSR     0.4566      Prosit      -17.6177    1532.8675   ✓       
+28    VPVHNVSVVN+0.984LLSR     0.4566      Prosit      -17.6690    1532.8675   ✓       
+29    VPVHNVSVVN+0.984LLSR     0.4566      Prosit      -18.2423    1532.8675   ✓       
+30    VPVHNVSVVN+0.984LLSR     0.4566      Prosit      -18.3782    1532.8675   ✓       
+31    VPVHNVSVVN+0.984LLSR     0.4566      Prosit      -18.4208    1532.8675   ✓       
+32    VPVHNVSVVN+0.984LLSR     0.4566      Prosit      -18.8019    1532.8675   ✓       
+33    VPVHNVSVVN+0.984LLSR     0.4566      Prosit      -19.1151    1532.8675   ✓       
+34    VPVHNVSVVDLLSR           0.4429      Prosit      -0.2218     1532.8675   ✓       
+35    VPVHNVSVVDLLSR           0.4429      Prosit      -2.4058     1532.8675   ✓       
+36    VPVHNVSVVDLLSR           0.4429      Prosit      -2.8993     1532.8675   ✓       
+37    VPVHNVSVVDLLSR           0.4429      Prosit      -4.7023     1532.8675   ✓       
+38    VPVHNVSVVDLLSR           0.4429      Prosit      -5.0833     1532.8675   ✓       
+39    VPVHNVSVVDLLSR           0.4429      Prosit      -5.3966     1532.8675   ✓       
+40    VPVHNVSVVDLLSR           0.4429      Prosit      -6.5808     1532.8675   ✓       
+41    VPVHNVSVVDLLSR           0.4429      Prosit      -6.8863     1532.8675   ✓       
+42    VPVHNVSVVDLLSR           0.4429      Prosit      -7.3797     1532.8675   ✓       
+43    VPVHNVSVVDLLSR           0.4429      Prosit      -7.5806     1532.8675   ✓       
+44    VPVHNVSVVDLLSR           0.4429      Prosit      -8.0740     1532.8675   ✓       
+45    VPVHNVSVVDLLSR           0.4429      Prosit      -8.7648     1532.8675   ✓       
+46    VPVHNVSVVDLLSR           0.4429      Prosit      -9.2583     1532.8675   ✓       
+47    VPVHNVSVVDLLSR           0.4429      Prosit      -9.5637     1532.8675   ✓       
+48    VPVHNVSVVDLLSR           0.4429      Prosit      -10.2580    1532.8675   ✓       
+49    VPVHNVSVVDLLSR           0.4429      Prosit      -10.3094    1532.8675   ✓       
+50    VPVHNVSVVDLLSR           0.4429      Prosit      -10.8827    1532.8675   ✓       
+51    VPVHNVSVVDLLSR           0.4429      Prosit      -11.0186    1532.8675   ✓       
+52    VPVHNVSVVDLLSR           0.4429      Prosit      -11.0612    1532.8675   ✓       
+53    VPVHNVSVVDLLSR           0.4429      Prosit      -11.4423    1532.8675   ✓       
+54    VPVHNVSVVDLLSR           0.4429      Prosit      -11.7555    1532.8675   ✓       
+55    VPVHNVSVVDLLSR           0.4429      Prosit      -12.4934    1532.8675   ✓       
+56    VPVHNVSVVDLLSR           0.4429      Prosit      -12.6417    1532.8675   ✓       
+57    VPVHNVSVVDLLSR           0.4429      Prosit      -12.9869    1532.8675   ✓       
+58    VPVHNVSVVDLLSR           0.4429      Prosit      -13.0667    1532.8675   ✓       
+59    VPVHNVSVVDLLSR           0.4429      Prosit      -13.2026    1532.8675   ✓       
+60    VPVHNVSVVDLLSR           0.4429      Prosit      -13.2452    1532.8675   ✓       
+61    VPVHNVSVVDLLSR           0.4429      Prosit      -13.5602    1532.8675   ✓       
+62    VPVHNVSVVDLLSR           0.4429      Prosit      -13.5799    1532.8675   ✓       
+63    VPVHNVSVVDLLSR           0.4429      Prosit      -13.6961    1532.8675   ✓       
+64    VPVHNVSVVDLLSR           0.4429      Prosit      -13.7387    1532.8675   ✓       
+65    VPVHNVSVVDLLSR           0.4429      Prosit      -13.7816    1532.8675   ✓       
+66    VPVHNVSVVDLLSR           0.4429      Prosit      -13.9395    1532.8675   ✓       
+67    VPVHNVSVVDLLSR           0.4429      Prosit      -13.9480    1532.8675   ✓       
+68    VPVHNVSVVDLLSR           0.4429      Prosit      -14.0793    1532.8675   ✓       
+69    VPVHNVSVVDLLSR           0.4429      Prosit      -14.2416    1532.8675   ✓       
+70    VPVHNVSVVDLLSR           0.4429      Prosit      -14.4330    1532.8675   ✓       
+71    VPVHNVSVVDLLSR           0.4429      Prosit      -14.7898    1532.8675   ✓       
+72    VPVHNVSVVDLLSR           0.4429      Prosit      -14.8257    1532.8675   ✓       
+73    VPVHNVSVVDLLSR           0.4429      Prosit      -14.9006    1532.8675   ✓       
+74    VPVHNVSVVDLLSR           0.4429      Prosit      -15.0419    1532.8675   ✓       
+75    VPVHNVSVVDLLSR           0.4429      Prosit      -15.1709    1532.8675   ✓       
+76    VPVHNVSVVDLLSR           0.4429      Prosit      -15.3192    1532.8675   ✓       
+77    VPVHNVSVVDLLSR           0.4429      Prosit      -15.3632    1532.8675   ✓       
+78    VPVHNVSVVDLLSR           0.4429      Prosit      -15.4841    1532.8675   ✓       
+79    VPVHNVSVVDLLSR           0.4429      Prosit      -15.4991    1532.8675   ✓       
+80    VPVHNVSVVDLLSR           0.4429      Prosit      -15.7442    1532.8675   ✓       
+81    VPVHNVSVVDLLSR           0.4429      Prosit      -15.7639    1532.8675   ✓       
+82    VPVHNVSVVDLLSR           0.4429      Prosit      -15.8429    1532.8675   ✓       
+83    VPVHNVSVVDLLSR           0.4429      Prosit      -15.8801    1532.8675   ✓       
+84    VPVHNVSVVDLLSR           0.4429      Prosit      -15.9227    1532.8675   ✓       
+85    VPVHNVSVVDLLSR           0.4429      Prosit      -15.9345    1532.8675   ✓       
+86    VPVHNVSVVDLLSR           0.4429      Prosit      -15.9656    1532.8675   ✓       
+87    VPVHNVSVVDLLSR           0.4429      Prosit      -16.0575    1532.8675   ✓       
+88    VPVHNVSVVDLLSR           0.4429      Prosit      -16.1320    1532.8675   ✓       
+89    VPVHNVSVVDLLSR           0.4429      Prosit      -16.1934    1532.8675   ✓       
+90    VPVHNVSVVDLLSR           0.4429      Prosit      -16.2574    1532.8675   ✓       
+91    VPVHNVSVVDLLSR           0.4429      Prosit      -16.2633    1532.8675   ✓       
+92    VPVHNVSVVDLLSR           0.4429      Prosit      -16.4256    1532.8675   ✓       
+93    VPVHNVSVVDLLSR           0.4429      Prosit      -16.4591    1532.8675   ✓       
+94    VPVHNVSVVDLLSR           0.4429      Prosit      -16.6037    1532.8675   ✓       
+95    VPVHNVSVVDLLSR           0.4429      Prosit      -16.6170    1532.8675   ✓       
+96    VPVHNVSVVDLLSR           0.4429      Prosit      -16.6255    1532.8675   ✓       
+97    VPVHNVSVVDLLSR           0.4429      Prosit      -16.7568    1532.8675   ✓       
+98    VPVHNVSVVDLLSR           0.4429      Prosit      -16.9191    1532.8675   ✓       
+99    VPVHNVSVVDLLSR           0.4429      Prosit      -16.9738    1532.8675   ✓       
+100   VPVHNVSVVDLLSR           0.4429      Prosit      -17.0846    1532.8675   ✓       
+101   VPVHNVSVVDLLSR           0.4429      Prosit      -17.1132    1532.8675   ✓       
+102   VPVHNVSVVDLLSR           0.4429      Prosit      -17.1221    1532.8675   ✓       
+103   VPVHNVSVVDLLSR           0.4429      Prosit      -17.2259    1532.8675   ✓       
+104   VPVHNVSVVDLLSR           0.4429      Prosit      -17.2397    1532.8675   ✓       
+105   VPVHNVSVVDLLSR           0.4429      Prosit      -17.2417    1532.8675   ✓       
+106   VPVHNVSVVDLLSR           0.4429      Prosit      -17.3301    1532.8675   ✓       
+107   VPVHNVSVVDLLSR           0.4429      Prosit      -17.3776    1532.8675   ✓       
+108   VPVHNVSVVDLLSR           0.4429      Prosit      -17.4673    1532.8675   ✓       
+109   VPVHNVSVVDLLSR           0.4429      Prosit      -17.5032    1532.8675   ✓       
+110   VPVHNVSVVDLLSR           0.4429      Prosit      -17.5471    1532.8675   ✓       
+111   VPVHNVSVVDLLSR           0.4429      Prosit      -17.5780    1532.8675   ✓       
+112   VPVHNVSVVDLLSR           0.4429      Prosit      -17.6658    1532.8675   ✓       
+113   VPVHNVSVVDLLSR           0.4429      Prosit      -17.6681    1532.8675   ✓       
+114   VPVHNVSVVDLLSR           0.4429      Prosit      -17.6830    1532.8675   ✓       
+115   VPVHNVSVVDLLSR           0.4429      Prosit      -17.7194    1532.8675   ✓       
+116   VPVHNVSVVDLLSR           0.4429      Prosit      -17.8164    1532.8675   ✓       
+117   VPVHNVSVVDLLSR           0.4429      Prosit      -17.9211    1532.8675   ✓       
+118   VPVHNVSVVDLLSR           0.4429      Prosit      -18.0406    1532.8675   ✓       
+119   VPVHNVSVVDLLSR           0.4429      Prosit      -18.0604    1532.8675   ✓       
+120   VPVHNVSVVDLLSR           0.4429      Prosit      -18.1185    1532.8675   ✓       
+121   VPVHNVSVVDLLSR           0.4429      Prosit      -18.1616    1532.8675   ✓       
+122   VPVHNVSVVDLLSR           0.4429      Prosit      -18.1765    1532.8675   ✓       
+123   VPVHNVSVVDLLSR           0.4429      Prosit      -18.2415    1532.8675   ✓       
+124   VPVHNVSVVDLLSR           0.4429      Prosit      -18.2620    1532.8675   ✓       
+125   VPVHNVSVVDLLSR           0.4429      Prosit      -18.3260    1532.8675   ✓       
+126   VPVHNVSVVDLLSR           0.4429      Prosit      -18.3774    1532.8675   ✓       
+127   VPVHNVSVVDLLSR           0.4429      Prosit      -18.4285    1532.8675   ✓       
+128   VPVHNVSVVDLLSR           0.4429      Prosit      -18.4414    1532.8675   ✓       
+129   VPVHNVSVVDLLSR           0.4429      Prosit      -18.5204    1532.8675   ✓       
+130   VPVHNVSVVDLLSR           0.4429      Prosit      -18.5598    1532.8675   ✓       
+131   VPVHNVSVVDLLSR           0.4429      Prosit      -18.6120    1532.8675   ✓       
+132   VPVHNVSVVDLLSR           0.4429      Prosit      -18.6431    1532.8675   ✓       
+133   VPVHNVSVVDLLSR           0.4429      Prosit      -18.7220    1532.8675   ✓       
+134   VPVHNVSVVDLLSR           0.4429      Prosit      -18.7349    1532.8675   ✓       
+135   VPVHNVSVVDLLSR           0.4429      Prosit      -18.7547    1532.8675   ✓       
+136   VPVHNVSVVDLLSR           0.4429      Prosit      -18.7877    1532.8675   ✓       
+137   VPVHNVSVVDLLSR           0.4429      Prosit      -18.8095    1532.8675   ✓       
+138   VPVHNVSVVDLLSR           0.4429      Prosit      -18.8708    1532.8675   ✓       
+139   VPVHNVSVVDLLSR           0.4429      Prosit      -18.9408    1532.8675   ✓       
+140   VPVHNVSVVDLLSR           0.4429      Prosit      -18.9563    1532.8675   ✓       
+141   VPVHNVSVVDLLSR           0.4429      Prosit      -19.0007    1532.8675   ✓       
+142   VPVHNVSVVDLLSR           0.4429      Prosit      -19.1031    1532.8675   ✓       
+143   VPVHNVSVVDLLSR           0.4429      Prosit      -19.1228    1532.8675   ✓       
+144   VPVHNVSVVDLLSR           0.4429      Prosit      -19.1545    1532.8675   ✓       
+145   VPVHNVSVVDLLSR           0.4429      Prosit      -19.2541    1532.8675   ✓       
+146   VPVHNVSVVDLLSR           0.4429      Prosit      -19.2812    1532.8675   ✓       
+147   VPVHNVSVVDLLSR           0.4429      Prosit      -19.2972    1532.8675   ✓       
+148   VPVHNVSVVDLLSR           0.4429      Prosit      -19.3061    1532.8675   ✓       
+149   VPVHNVSVVDLLSR           0.4429      Prosit      -19.3810    1532.8675   ✓       
+150   VPVHNVSVVDLLSR           0.4429      Prosit      -19.4163    1532.8675   ✓       
+151   VPVHNVSVVDLLSR           0.4429      Prosit      -21.3385    1532.8675   ✓       
+152   VPVHNVSVVDLLSR           0.4429      Prosit      -21.8319    1532.8675   ✓       
+153   VPVHNVSVVDLLSR           0.4429      Prosit      -24.0159    1532.8675   ✓       
+154   LPVHNVSVVDLVSR           0.4376      Prosit      -22.6605    1532.8675   ✓       
+155   LPVHNVSVVDLVSR           0.4376      Prosit      -24.8445    1532.8675   ✓       
+156   LPVHNVSVVDLVSR           0.4376      Prosit      -25.3379    1532.8675   ✓       
+157   LPVHNVSVVDLSVR           0.4346      Prosit      -24.4523    1532.8675   ✓       
+158   VPVHNVSVVDLSLR           0.4320      Prosit      -13.7658    1532.8675   ✓       
+159   VPVHNVSVVDLSLR           0.4320      Prosit      -15.9498    1532.8675   ✓       
+160   VPVHNVSVVDLSLR           0.4320      Prosit      -16.4433    1532.8675   ✓       
+161   VPVHNVSVVDLSLR           0.4320      Prosit      -18.2462    1532.8675   ✓       
+162   VPVHNVSVVDLSLR           0.4320      Prosit      -18.6273    1532.8675   ✓       
+163   VPVHNVSVVDLSLR           0.4320      Prosit      -18.9405    1532.8675   ✓       
+164   VPVHNVSVVDTLVR           0.4124      Prosit      -18.2129    1532.8675   ✓       
+165   VPVHNVSVVDLTSR           -1.0000     NotChecked  -4.3725     1520.8311   ✗       
+166   VPVHNVSVVDLTSR           -1.0000     NotChecked  -6.5565     1520.8311   ✗       
+167   VPVHNVSVVDLSSR           -1.0000     NotChecked  -6.6834     1506.8154   ✗       
+168   VPVHNVSVVDLTSR           -1.0000     NotChecked  -7.0500     1520.8311   ✗       
+169   VPVHNVSVVDLTSR           -1.0000     NotChecked  -8.8529     1520.8311   ✗       
+170   VPVHNVSVVDLSSR           -1.0000     NotChecked  -8.8674     1506.8154   ✗       
+171   VPVHNVSVVDLTSR           -1.0000     NotChecked  -9.2340     1520.8311   ✗       
+172   VPVHNVSVVDLSSR           -1.0000     NotChecked  -9.3609     1506.8154   ✗       
+173   VPVHNVSVVDLVSR           -1.0000     NotChecked  -9.4160     1518.8518   ✗       
+174   VPVHNVSVVDLTSR           -1.0000     NotChecked  -9.5472     1520.8311   ✗       
+175   VPVHNVSVVDLLR            -1.0000     NotChecked  -9.5755     1445.8354   ✗       
+176   +43.006PVHNVSVVDLLSR     -1.0000     NotChecked  -10.5254    1476.8049   ✗       
+177   VPVHNVSVVDLLS            -1.0000     NotChecked  -10.7165    1376.7664   ✗       
+178   VPVHNVSVVDLTSR           -1.0000     NotChecked  -10.7315    1520.8311   ✗       
+179   VPVHNVSVVDLTSR           -1.0000     NotChecked  -11.0369    1520.8311   ✗       
+180   VPVHNVSVVDLSSR           -1.0000     NotChecked  -11.1639    1506.8154   ✗       
+181   VPVHNVSVVDLSVR           -1.0000     NotChecked  -11.2079    1518.8518   ✗       
+182   VPVHNVSVVDLTSR           -1.0000     NotChecked  -11.5304    1520.8311   ✗       
+183   VPVHNVSVVDLSSR           -1.0000     NotChecked  -11.5449    1506.8154   ✗       
+184   VPVHNVSVVDLVSR           -1.0000     NotChecked  -11.6000    1518.8518   ✗       
+185   VPVHNVSVVDLLSL           -1.0000     NotChecked  -11.6009    1489.8504   ✗       
+186   VPVHNVSVVDLTSR           -1.0000     NotChecked  -11.7312    1520.8311   ✗       
+187   VPVHNVSVVN+0.984LTSR     -1.0000     NotChecked  -11.7321    1520.8311   ✗       
+188   VPVHNVSVVDLLR            -1.0000     NotChecked  -11.7595    1445.8354   ✗       
+189   VPVHNVSVVDLSSR           -1.0000     NotChecked  -11.8582    1506.8154   ✗       
+190   VPVHNVSVVDLLSV           -1.0000     NotChecked  -11.9011    1475.8348   ✗       
+191   VPVHNVSVVDLLR            -1.0000     NotChecked  -11.9671    1445.8354   ✗       
+192   VPVHNVSVVDLLSK           -1.0000     NotChecked  -12.0737    1504.8613   ✗       
+193   VPVHNVSVVDLVSR           -1.0000     NotChecked  -12.0935    1518.8518   ✗       
+194   VPVHNVSVVDLGSR           -1.0000     NotChecked  -12.2001    1476.8049   ✗       
+195   VPVHNVSVVDLTSR           -1.0000     NotChecked  -12.2247    1520.8311   ✗       
+196   VPVHNVSVVDLLR            -1.0000     NotChecked  -12.2530    1445.8354   ✗       
+197   VPVHNVSVVDLLST           -1.0000     NotChecked  -12.3103    1477.8140   ✗       
+198   VPVHNVSVVDSLSR           -1.0000     NotChecked  -12.4747    1506.8154   ✗       
+199   +43.006PVHNVSVVDLLSR     -1.0000     NotChecked  -12.7094    1476.8049   ✗       
+200   +42.011PVHNVSVVDLLSR     -1.0000     NotChecked  -12.8360    1475.8096   ✗       
+201   VPVHNVSVVDLLS            -1.0000     NotChecked  -12.9005    1376.7664   ✗       
+202   VPVHNVSVVDLTSR           -1.0000     NotChecked  -12.9154    1520.8311   ✗       
+203   VPVHNVSVVDLSR            -1.0000     NotChecked  -13.0424    1419.7834   ✗       
+204   VPVHNVSVVDVLSR           -1.0000     NotChecked  -13.0427    1518.8518   ✗       
+205   +43.006PVHNVSVVDLLSR     -1.0000     NotChecked  -13.2029    1476.8049   ✗       
+206   VPVHNVSVVDLSSR           -1.0000     NotChecked  -13.3479    1506.8154   ✗       
+207   VPVHNVSVVDLSVR           -1.0000     NotChecked  -13.3919    1518.8518   ✗       
+208   VPVHNVSVVDLLS            -1.0000     NotChecked  -13.3940    1376.7664   ✗       
+209   VPVHNVSVVDLTSR           -1.0000     NotChecked  -13.4089    1520.8311   ✗       
+210   VPVHNVSVVDTLSR           -1.0000     NotChecked  -13.6885    1520.8311   ✗       
+211   VPVHNVSVVDLTSR           -1.0000     NotChecked  -13.7144    1520.8311   ✗       
+212   VPVHNVSVVDLTR            -1.0000     NotChecked  -13.7262    1433.7991   ✗       
+213   VPVHNVSVVDLLSF           -1.0000     NotChecked  -13.7773    1523.8348   ✗       
+214   VPVHNVSVVDLLSL           -1.0000     NotChecked  -13.7849    1489.8504   ✗       
+215   VPVHNVSVVDLSSR           -1.0000     NotChecked  -13.8413    1506.8154   ✗       
+216   VPVHNVSVVDLSVR           -1.0000     NotChecked  -13.8854    1518.8518   ✗       
+217   VPVHNVSVVDLVSR           -1.0000     NotChecked  -13.8965    1518.8518   ✗       
+218   VPVHNVSVVN+0.984LTSR     -1.0000     NotChecked  -13.9161    1520.8311   ✗       
+219   VPVHNVSVVDLVVR           -1.0000     NotChecked  -13.9405    1530.8882   ✗       
+220   VPVHNVSVVDLLSP           -1.0000     NotChecked  -13.9964    1473.8191   ✗       
+221   VPVHNVSVVSLLSR           -1.0000     NotChecked  -14.0284    1504.8726   ✗       
+222   VPVHNVSVVDLSSR           -1.0000     NotChecked  -14.0422    1506.8154   ✗       
+223   VPVHNVSVVN+0.984LSSR     -1.0000     NotChecked  -14.0430    1506.8154   ✗       
+224   VPVHNVSVVDLLR            -1.0000     NotChecked  -14.0560    1445.8354   ✗       
+225   VPVHNVSVVDLLSV           -1.0000     NotChecked  -14.0851    1475.8348   ✗       
+226   VPVHNVSVVDLLR            -1.0000     NotChecked  -14.1511    1445.8354   ✗       
+227   VPVHN+0.984VSVVDLTSR     -1.0000     NotChecked  -14.1583    1521.8151   ✗       
+228   VPVHNVSVVNLLSR           -1.0000     NotChecked  -14.1837    1531.8835   ✗       
+229   VPVHNVSVVDLLSK           -1.0000     NotChecked  -14.2577    1504.8613   ✗       
+230   VPVHNVSVVDLVSR           -1.0000     NotChecked  -14.2775    1518.8518   ✗       
+231   VPVHNVSVVDLLSL           -1.0000     NotChecked  -14.2784    1489.8504   ✗       
+232   VPVHNVSVVDPLSR           -1.0000     NotChecked  -14.3031    1516.8362   ✗       
+233   VPVHGVSVVDLLSR           -1.0000     NotChecked  -14.3489    1475.8460   ✗       
+234   VPVHSVSVVDLLSR           -1.0000     NotChecked  -14.3537    1505.8566   ✗       
+235   VPVHNVSVVDLGSR           -1.0000     NotChecked  -14.3841    1476.8049   ✗       
+236   VPVHNVSVVDLTSR           -1.0000     NotChecked  -14.4087    1520.8311   ✗       
+237   VPVHNVSVVN+0.984LTSR     -1.0000     NotChecked  -14.4096    1520.8311   ✗       
+238   VPVHNVSVVGLLSR           -1.0000     NotChecked  -14.4278    1474.8620   ✗       
+239   VPVHNVSVVDLLR            -1.0000     NotChecked  -14.4370    1445.8354   ✗       
+240   VPVHNVSVVDLLST           -1.0000     NotChecked  -14.4943    1477.8140   ✗       
+241   VPVHNVSVVDLSSR           -1.0000     NotChecked  -14.5356    1506.8154   ✗       
+242   VPVHNVSVVDLLSV           -1.0000     NotChecked  -14.5786    1475.8348   ✗       
+243   VPVHNVSVVDLVSR           -1.0000     NotChecked  -14.5908    1518.8518   ✗       
+244   VPVHNVSVVDLLR            -1.0000     NotChecked  -14.6446    1445.8354   ✗       
+245   VPVHNVSVVDLLSN           -1.0000     NotChecked  -14.6520    1490.8093   ✗       
+246   VPVHNVSVVDSLSR           -1.0000     NotChecked  -14.6587    1506.8154   ✗       
+247   PVHNVSVVDLLSR            -1.0000     NotChecked  -14.6740    1433.7991   ✗       
+248   +43.006PVHNVSVVDLTSR     -1.0000     NotChecked  -14.6761    1464.7685   ✗       
+249   VPVHNVSVVDLLR            -1.0000     NotChecked  -14.7503    1445.8354   ✗       
+250   VPVHNVSVVDLLSK           -1.0000     NotChecked  -14.7512    1504.8613   ✗       
+251   VPVHNVSVVDLLSQ           -1.0000     NotChecked  -14.8511    1504.8249   ✗       
+252   VPVHNVSVVDLTS            -1.0000     NotChecked  -14.8671    1364.7300   ✗       
+253   VPVHNVSVVDLGSR           -1.0000     NotChecked  -14.8776    1476.8049   ✗       
+254   VPVHNVSVVPLLSR           -1.0000     NotChecked  -14.8902    1514.8933   ✗       
+255   VPVHNVSVVTLLSR           -1.0000     NotChecked  -14.8922    1518.8882   ✗       
+256   VPVHNVSVVDLLST           -1.0000     NotChecked  -14.9877    1477.8140   ✗       
+257   +42.011PVHNVSVVDLLSR     -1.0000     NotChecked  -15.0200    1475.8096   ✗       
+258   VPVHNVSVVDLTSR           -1.0000     NotChecked  -15.0334    1520.8311   ✗       
+259   +43.006PVHNVSVVDLLVR     -1.0000     NotChecked  -15.0499    1488.8413   ✗       
+260   VPVHLVSVVDLLSR           -1.0000     NotChecked  -15.0969    1531.9086   ✗       
+261   VPVHNVSVVDSLSR           -1.0000     NotChecked  -15.1521    1506.8154   ✗       
+262   VPVHNVSVVDLTSR           -1.0000     NotChecked  -15.1693    1520.8311   ✗       
+263   VPVHAVSVVDLLSR           -1.0000     NotChecked  -15.1811    1489.8617   ✗       
+264   VPVHNVSVVDLLS            -1.0000     NotChecked  -15.1969    1376.7664   ✗       
+265   VPVHNVSVVDLTSR           -1.0000     NotChecked  -15.2119    1520.8311   ✗       
+266   VPVHNVSVVDLSR            -1.0000     NotChecked  -15.2264    1419.7834   ✗       
+267   VPVHNVSVVDVLSR           -1.0000     NotChecked  -15.2267    1518.8518   ✗       
+268   VPVHNVSVVDLLVS           -1.0000     NotChecked  -15.2410    1475.8348   ✗       
+269   VVHNVSVVDLLSR            -1.0000     NotChecked  -15.2436    1435.8147   ✗       
+270   +43.006PVHNVSVVDLLSR     -1.0000     NotChecked  -15.3869    1476.8049   ✗       
+271   VPVHNVSVVVLLSR           -1.0000     NotChecked  -15.4729    1516.9089   ✗       
+272   VGVHNVSVVDLLSR           -1.0000     NotChecked  -15.4746    1492.8362   ✗       
+273   VPVHNVSVPDLLSR           -1.0000     NotChecked  -15.4854    1530.8518   ✗       
+274   +42.011PVHNVSVVDLLSR     -1.0000     NotChecked  -15.5135    1475.8096   ✗       
+275   VPVHNVSVVDLLS            -1.0000     NotChecked  -15.5780    1376.7664   ✗       
+276   VPVHNVSVVDLTSR           -1.0000     NotChecked  -15.5929    1520.8311   ✗       
+277   APVHNVSVVDLLSR           -1.0000     NotChecked  -15.6652    1504.8362   ✗       
+278   VPVHNVSVVDLSVR           -1.0000     NotChecked  -15.6883    1518.8518   ✗       
+279   +43.006PVHNVSVVDLLSR     -1.0000     NotChecked  -15.7002    1476.8049   ✗       
+280   VPVHNVSVVDLSR            -1.0000     NotChecked  -15.7199    1419.7834   ✗       
+281   VPVHNVSVVDVLSR           -1.0000     NotChecked  -15.7202    1518.8518   ✗       
+282   VPVHNVSVVDLTSL           -1.0000     NotChecked  -15.7515    1477.8140   ✗       
+283   VPVHNVSVVDLVSR           -1.0000     NotChecked  -15.7750    1518.8518   ✗       
+284   VPVHNVSVVDTLSR           -1.0000     NotChecked  -15.8724    1520.8311   ✗       
+285   VPVHNVSVVDLLS            -1.0000     NotChecked  -15.8912    1376.7664   ✗       
+286   VPVHNVSVVDLTSR           -1.0000     NotChecked  -15.9062    1520.8311   ✗       
+287   VPVHNVSVVDLTR            -1.0000     NotChecked  -15.9102    1433.7991   ✗       
+288   VPVHNVAVVDLLSR           -1.0000     NotChecked  -15.9193    1516.8726   ✗       
+289   VPVHNVSVVDLLSF           -1.0000     NotChecked  -15.9613    1523.8348   ✗       
+290   VPVHNVSVDLLSR            -1.0000     NotChecked  -15.9726    1433.7991   ✗       
+291   VSVHNVSVVDLLSR           -1.0000     NotChecked  -16.0095    1522.8467   ✗       
+292   VPVHNVSVVDLSSR           -1.0000     NotChecked  -16.0253    1506.8154   ✗       
+293   VPVHNVSVVDLSR            -1.0000     NotChecked  -16.0371    1419.7834   ✗       
+294   VPVHNVSVVDLTSV           -1.0000     NotChecked  -16.0518    1463.7984   ✗       
+295   VPVHNVSVVDLSVR           -1.0000     NotChecked  -16.0694    1518.8518   ✗       
+296   VPVHNVSVVDLVSR           -1.0000     NotChecked  -16.0805    1518.8518   ✗       
+297   VPVHNVSVVDLLSL           -1.0000     NotChecked  -16.0813    1489.8504   ✗       
+298   VPVHNVSVVDLTR            -1.0000     NotChecked  -16.1178    1433.7991   ✗       
+299   VPVHNVSVVDLVVR           -1.0000     NotChecked  -16.1245    1530.8882   ✗       
+300   VPVHNVSVVDLLVL           -1.0000     NotChecked  -16.1254    1501.8868   ✗       
+301   VPVHNVSVVDLLSP           -1.0000     NotChecked  -16.1804    1473.8191   ✗       
+302   VPVHNASVVDLLSR           -1.0000     NotChecked  -16.1848    1504.8362   ✗       
+303   VPVHNVSVVSLLSR           -1.0000     NotChecked  -16.2124    1504.8726   ✗       
+304   VPVHNVSVVN+0.984LTSR     -1.0000     NotChecked  -16.2125    1520.8311   ✗       
+305   VPVHNVSVVDLTSK           -1.0000     NotChecked  -16.2244    1492.8249   ✗       
+306   VPVHNVSVVN+0.984LSSR     -1.0000     NotChecked  -16.2270    1506.8154   ✗       
+307   VPVHNVSVVDLLR            -1.0000     NotChecked  -16.2400    1445.8354   ✗       
+308   VPVHNVSVVN+0.984LTVR     -1.0000     Failed      -16.2566    1532.8675   ✓       
+309   VPVHNVVVDLLSR            -1.0000     NotChecked  -16.3157    1445.8354   ✗       
+310   VPVHN+0.984VSVVDLTSR     -1.0000     NotChecked  -16.3423    1521.8151   ✗       
+311   VPVHNVSVVDTLSR           -1.0000     NotChecked  -16.3659    1520.8311   ✗       
+312   VPVHNVSVVNLLSR           -1.0000     NotChecked  -16.3677    1531.8835   ✗       
+313   VPVHNVSVVDLLSV           -1.0000     NotChecked  -16.3816    1475.8348   ✗       
+314   VPVHNVSVVDLSVR           -1.0000     NotChecked  -16.3826    1518.8518   ✗       
+315   VPVHNVSAVDLLSR           -1.0000     NotChecked  -16.3864    1504.8362   ✗       
+316   VPVHNVSVVDLTR            -1.0000     NotChecked  -16.4037    1433.7991   ✗       
+317   VPVHNVSVVDLLV            -1.0000     NotChecked  -16.4256    1388.8028   ✗       
+318   VPVHNVSVVDLLR            -1.0000     NotChecked  -16.4475    1445.8354   ✗       
+319   VPVHNVSVVDLLSF           -1.0000     NotChecked  -16.4548    1523.8348   ✗       
+320   VPVHNVSVVDLTST           -1.0000     NotChecked  -16.4609    1465.7776   ✗       
+321   VPVHNVSVVDLLSL           -1.0000     NotChecked  -16.4624    1489.8504   ✗       
+322   VPVHN+0.984VSVVDLSSR     -1.0000     NotChecked  -16.4693    1507.7995   ✗       
+323   VPVHNVSVVDPLSR           -1.0000     NotChecked  -16.4871    1516.8362   ✗       
+324   VPVHGVSVVDLLSR           -1.0000     NotChecked  -16.5329    1475.8460   ✗       
+325   VPVHSVSVVDLLSR           -1.0000     NotChecked  -16.5377    1505.8566   ✗       
+326   VPVHNVSVVDLLSK           -1.0000     NotChecked  -16.5542    1504.8613   ✗       
+327   VPVHNVGVVDLLSR           -1.0000     NotChecked  -16.5604    1502.8569   ✗       
+328   VPVHNVSVVDLVSR           -1.0000     NotChecked  -16.5739    1518.8518   ✗       
+329   VPVHNVSVVN+0.984LTSR     -1.0000     NotChecked  -16.5936    1520.8311   ✗       
+330   VPVHNVSVVDLLVK           -1.0000     NotChecked  -16.5982    1516.8977   ✗       
+331   VPVHNVSVVGLLSR           -1.0000     NotChecked  -16.6118    1474.8620   ✗       
+332   VPVHNVSVVDLVVR           -1.0000     NotChecked  -16.6180    1530.8882   ✗       
+333   VPVHNVSVVDSTSR           -1.0000     NotChecked  -16.6253    1494.7790   ✗       
+334   VAVHNVSVVDLLSR           -1.0000     NotChecked  -16.6293    1506.8518   ✗       
+335   VPVHNVSVVDLLSP           -1.0000     NotChecked  -16.6739    1473.8191   ✗       
+336   VPVHNVSVVDLGSR           -1.0000     NotChecked  -16.6805    1476.8049   ✗       
+337   VPVHNVSSVDLLSR           -1.0000     NotChecked  -16.6982    1520.8311   ✗       
+338   VPVHNVSVVSLLSR           -1.0000     NotChecked  -16.7059    1504.8726   ✗       
+339   VPVHNVSVVDLSSR           -1.0000     NotChecked  -16.7196    1506.8154   ✗       
+340   VPVHNVSVVN+0.984LSSR     -1.0000     NotChecked  -16.7205    1506.8154   ✗       
+341   VPVHNVSVVDLGVR           -1.0000     NotChecked  -16.7246    1488.8413   ✗       
+342   VPVHNVSVVDLLR            -1.0000     NotChecked  -16.7335    1445.8354   ✗       
+343   VPVHNVSVVDLLSV           -1.0000     NotChecked  -16.7626    1475.8348   ✗       
+344   VPVHNVSVVDLVSR           -1.0000     NotChecked  -16.7748    1518.8518   ✗       
+345   VPVHNVSVVDLLSL           -1.0000     NotChecked  -16.7756    1489.8504   ✗       
+346   VPVHNVSVVN+0.984LVSR     -1.0000     NotChecked  -16.7756    1518.8518   ✗       
+347   VPVHNVSVVDLLST           -1.0000     NotChecked  -16.7907    1477.8140   ✗       
+348   VPVHNVSVVDLTSR           -1.0000     NotChecked  -16.7924    1520.8311   ✗       
+349   VPVHNVSVVDLLR            -1.0000     NotChecked  -16.8286    1445.8354   ✗       
+350   VPVHNVSVVDLLVT           -1.0000     NotChecked  -16.8347    1489.8504   ✗       
+351   VPVHN+0.984VSVVDLTSR     -1.0000     NotChecked  -16.8358    1521.8151   ✗       
+352   VPVHNVSVVDLLSN           -1.0000     NotChecked  -16.8360    1490.8093   ✗       
+353   PVHNVSVVDLLSR            -1.0000     NotChecked  -16.8580    1433.7991   ✗       
+354   +43.006PVHNVSVVDLTSR     -1.0000     NotChecked  -16.8601    1464.7685   ✗       
+355   VPVHNVSVVNLLSR           -1.0000     NotChecked  -16.8612    1531.8835   ✗       
+356   +43.006PVHNVSVVDLLSR     -1.0000     NotChecked  -16.8844    1476.8049   ✗       
+357   VPVHNVSVVN+0.984LTSR     -1.0000     NotChecked  -16.9068    1520.8311   ✗       
+358   VPVHNVSVVDLLR            -1.0000     NotChecked  -16.9343    1445.8354   ✗       
+359   VPVHNVSVVN+0.984LLR      -1.0000     NotChecked  -16.9352    1445.8354   ✗       
+360   VPVHNVSVVDLLSK           -1.0000     NotChecked  -16.9352    1504.8613   ✗       
+361   VPVHNVSVADLLSR           -1.0000     NotChecked  -16.9443    1504.8362   ✗       
+362   VPVHNVSVVDSLSR           -1.0000     NotChecked  -16.9551    1506.8154   ✗       
+363   VPVHNVSVVDPLSR           -1.0000     NotChecked  -16.9806    1516.8362   ✗       
+364   +42.011PVHNVSVVDLTSR     -1.0000     NotChecked  -16.9867    1463.7732   ✗       
+365   +43.006PVHNVSVVDLSSR     -1.0000     NotChecked  -16.9870    1450.7528   ✗       
+366   VPVHNVSVVDSLVR           -1.0000     NotChecked  -16.9991    1518.8518   ✗       
+367   VPVHGVSVVDLLSR           -1.0000     NotChecked  -17.0263    1475.8460   ✗       
+368   VPVHSVSVVDLLSR           -1.0000     NotChecked  -17.0312    1505.8566   ✗       
+369   VPVHNVSVVDLLSQ           -1.0000     NotChecked  -17.0351    1504.8249   ✗       
+370   VPVHNVSVVDLTS            -1.0000     NotChecked  -17.0511    1364.7300   ✗       
+371   VPVHNVSVVDLGSR           -1.0000     NotChecked  -17.0616    1476.8049   ✗       
+372   VPVHNVSVVPLLSR           -1.0000     NotChecked  -17.0742    1514.8933   ✗       
+373   VPVHNVSVVDLLS            -1.0000     NotChecked  -17.0754    1376.7664   ✗       
+374   VPVHNVSVVDLLSV           -1.0000     NotChecked  -17.0759    1475.8348   ✗       
+375   VPVHNVSVVTLLSR           -1.0000     NotChecked  -17.0762    1518.8882   ✗       
+376   VPVHNVSVVDLSTR           -1.0000     NotChecked  -17.0766    1520.8311   ✗       
+377   VPVHNVSVVGLLSR           -1.0000     NotChecked  -17.1053    1474.8620   ✗       
+378   VPVHNVSVVDLLR            -1.0000     NotChecked  -17.1418    1445.8354   ✗       
+379   VPVHNVSVVDLLST           -1.0000     NotChecked  -17.1717    1477.8140   ✗       
+380   VPVHNVSVVDLSS            -1.0000     NotChecked  -17.1781    1350.7143   ✗       
+381   VPVHNVSVVDVTSR           -1.0000     NotChecked  -17.1934    1506.8154   ✗       
+382   VPVHNVSVVDLTSR           -1.0000     NotChecked  -17.2174    1520.8311   ✗       
+383   +43.006PVHNVSVVDLLVR     -1.0000     NotChecked  -17.2339    1488.8413   ✗       
+384   VPVHNVSVVDLLSK           -1.0000     NotChecked  -17.2485    1504.8613   ✗       
+385   VPVHNVSVVDLVSR           -1.0000     NotChecked  -17.2683    1518.8518   ✗       
+386   VPVHLVSVVDLLSR           -1.0000     NotChecked  -17.2809    1531.9086   ✗       
+387   GPVHNVSVVDLLSR           -1.0000     NotChecked  -17.3088    1490.8205   ✗       
+388   VPVHNVSVVDLLSN           -1.0000     NotChecked  -17.3295    1490.8093   ✗       
+389   VPVHNVSVVDSLSR           -1.0000     NotChecked  -17.3361    1506.8154   ✗       
+390   VPVHNVSVVDLSSR           -1.0000     NotChecked  -17.3443    1506.8154   ✗       
+391   PVHNVSVVDLLSR            -1.0000     NotChecked  -17.3515    1433.7991   ✗       
+392   VPVHNVSVVDLTSR           -1.0000     NotChecked  -17.3533    1520.8311   ✗       
+393   +43.006PVHNVSVVDLTSR     -1.0000     NotChecked  -17.3536    1464.7685   ✗       
+394   +42.011PVHNVSVVDLLVR     -1.0000     NotChecked  -17.3605    1487.8460   ✗       
+395   VPVHAVSVVDLLSR           -1.0000     NotChecked  -17.3651    1489.8617   ✗       
+396   VPVHNVSVVDLGSR           -1.0000     NotChecked  -17.3748    1476.8049   ✗       
+397   VPVHNVSVVDLLS            -1.0000     NotChecked  -17.3809    1376.7664   ✗       
+398   VPVHNVSVVDLLR            -1.0000     NotChecked  -17.3918    1445.8354   ✗       
+399   VPVHNVSVVDLTSR           -1.0000     NotChecked  -17.3959    1520.8311   ✗       
+400   VPVHNVSVVDLLVS           -1.0000     NotChecked  -17.4250    1475.8348   ✗       
+401   VVHNVSVVDLLSR            -1.0000     NotChecked  -17.4276    1435.8147   ✗       
+402   VPVHNVSVVDLLR            -1.0000     NotChecked  -17.4278    1445.8354   ✗       
+403   VPVHNVSVVDLSSR           -1.0000     NotChecked  -17.4802    1506.8154   ✗       
+404   VPVHNVSVVDLLST           -1.0000     NotChecked  -17.4850    1477.8140   ✗       
+405   VPVHNVSVVDLSR            -1.0000     NotChecked  -17.5228    1419.7834   ✗       
+406   VPVHNVSVVDVLSR           -1.0000     NotChecked  -17.5231    1518.8518   ✗       
+407   VPVHNVSVVDLLSQ           -1.0000     NotChecked  -17.5286    1504.8249   ✗       
+408   VPVHNVSVVDLTS            -1.0000     NotChecked  -17.5446    1364.7300   ✗       
+409   VPVHNVSVVDLSVR           -1.0000     NotChecked  -17.5669    1518.8518   ✗       
+410   VPVHNVSVVDVLVR           -1.0000     NotChecked  -17.5672    1530.8882   ✗       
+411   VPVHNVSVVPLLSR           -1.0000     NotChecked  -17.5677    1514.8933   ✗       
+412   VPVHNVSVVTLLSR           -1.0000     NotChecked  -17.5697    1518.8882   ✗       
+413   +43.006PVHNVSVVDLLLR     -1.0000     NotChecked  -17.6078    1502.8569   ✗       
+414   VPVHNVSVVDSLSR           -1.0000     NotChecked  -17.6494    1506.8154   ✗       
+415   VPVKNVSVVDLLSR           -1.0000     NotChecked  -17.6495    1523.9035   ✗       
+416   VPVHNVSVVVLLSR           -1.0000     NotChecked  -17.6569    1516.9089   ✗       
+417   VGVHNVSVVDLLSR           -1.0000     NotChecked  -17.6586    1492.8362   ✗       
+418   VPVHNVSVPDLLSR           -1.0000     NotChecked  -17.6694    1530.8518   ✗       
+419   +42.011PVHNVSVVDLLSR     -1.0000     NotChecked  -17.6975    1475.8096   ✗       
+420   VPVHNVSVVDLTSR           -1.0000     NotChecked  -17.7109    1520.8311   ✗       
+421   +43.006PVHNVSVVDLLVR     -1.0000     NotChecked  -17.7274    1488.8413   ✗       
+422   VPVHNVSVVDLTSR           -1.0000     NotChecked  -17.7306    1520.8311   ✗       
+423   VPVHLVSVVDLLSR           -1.0000     NotChecked  -17.7744    1531.9086   ✗       
+424   VPVHNVSVVDLLLS           -1.0000     NotChecked  -17.7988    1489.8504   ✗       
+425   VPVHNVSVVDTTSR           -1.0000     NotChecked  -17.8391    1508.7947   ✗       
+426   VPVHNVSVVDLTSR           -1.0000     NotChecked  -17.8468    1520.8311   ✗       
+427   APVHNVSVVDLLSR           -1.0000     NotChecked  -17.8492    1504.8362   ✗       
+428   VPVHAVSVVDLLSR           -1.0000     NotChecked  -17.8586    1489.8617   ✗       
+429   VPVHNVSVVDLSVR           -1.0000     NotChecked  -17.8723    1518.8518   ✗       
+430   VPVHNVSVVDLLS            -1.0000     NotChecked  -17.8744    1376.7664   ✗       
+431   +43.006PVHNVSVVDLLSR     -1.0000     NotChecked  -17.8842    1476.8049   ✗       
+432   +43.006PVHNVSVVN+0.984LLSR-1.0000     NotChecked  -17.8851    1476.8049   ✗       
+433   VPVHNVSVVDLTSR           -1.0000     NotChecked  -17.8894    1520.8311   ✗       
+434   VPVHNVSVVDLSR            -1.0000     NotChecked  -17.9039    1419.7834   ✗       
+435   VPVHNVSVVDVLSR           -1.0000     NotChecked  -17.9042    1518.8518   ✗       
+436   VPVHNVSVVDLLVS           -1.0000     NotChecked  -17.9184    1475.8348   ✗       
+437   VPVHNVSVVDLTSF           -1.0000     NotChecked  -17.9280    1511.7984   ✗       
+438   VPVHNVSVVDLTSL           -1.0000     NotChecked  -17.9355    1477.8140   ✗       
+439   VPVHNVSVVDLVSR           -1.0000     NotChecked  -17.9590    1518.8518   ✗       
+440   VPVHNVSVVDLLSL           -1.0000     NotChecked  -17.9598    1489.8504   ✗       
+441   VPVHNSSVVDLLSR           -1.0000     NotChecked  -17.9932    1520.8311   ✗       
+442   +42.011PVHNVSVVDLLSR     -1.0000     NotChecked  -18.0108    1475.8096   ✗       
+443   VPVNVSVVDLLSR            -1.0000     NotChecked  -18.0269    1395.8086   ✗       
+444   VPVHNVSVVDLSSL           -1.0000     NotChecked  -18.0625    1463.7984   ✗       
+445   VPVHNVSVVDLLS            -1.0000     NotChecked  -18.0752    1376.7664   ✗       
+446   VPVHNVSVVN+0.984LLS      -1.0000     NotChecked  -18.0761    1376.7664   ✗       
+447   VPVHNVSVVDLTSR           -1.0000     NotChecked  -18.0902    1520.8311   ✗       
+448   VPVHNVSVVN+0.984LTSR     -1.0000     NotChecked  -18.0911    1520.8311   ✗       
+449   VPVHNVSVVDLTSR           -1.0000     NotChecked  -18.0987    1520.8311   ✗       
+450   VPVHNVAVVDLLSR           -1.0000     NotChecked  -18.1033    1516.8726   ✗       
+451   VPVHNVSVVDLTSP           -1.0000     NotChecked  -18.1471    1461.7827   ✗       
+452   VPVHNVSVVVLLSR           -1.0000     NotChecked  -18.1504    1516.9089   ✗       
+453   VPVHNVSVDLLSR            -1.0000     NotChecked  -18.1566    1433.7991   ✗       
+454   VPVHNVSVPDLLSR           -1.0000     NotChecked  -18.1629    1530.8518   ✗       
+455   VPVHNVSVVDTLSR           -1.0000     NotChecked  -18.1689    1520.8311   ✗       
+456   VPVHNVSVVSLTSR           -1.0000     NotChecked  -18.1791    1492.8362   ✗       
+457   VSVHNVSVVDLLSR           -1.0000     NotChecked  -18.1935    1522.8467   ✗       
+458   VPVHNVSVVDLTR            -1.0000     NotChecked  -18.2066    1433.7991   ✗       
+459   VPVHNVSVVDLSR            -1.0000     NotChecked  -18.2171    1419.7834   ✗       
+460   VPVHNVSVVDVLSR           -1.0000     NotChecked  -18.2174    1518.8518   ✗       
+461   VPVHNVSVVDLSR            -1.0000     NotChecked  -18.2211    1419.7834   ✗       
+462   VPVHNVSVVDLTSR           -1.0000     NotChecked  -18.2300    1520.8311   ✗       
+463   VPVHNVSVVDLTSV           -1.0000     NotChecked  -18.2358    1463.7984   ✗       
+464   VPVHNVSVVDLLSF           -1.0000     NotChecked  -18.2578    1523.8348   ✗       
+465   VPVHNVSVVDLLSV           -1.0000     NotChecked  -18.2601    1475.8348   ✗       
+466   VPVHNVSVVDLLSL           -1.0000     NotChecked  -18.2653    1489.8504   ✗       
+467   VPVHNVSVVDLTR            -1.0000     NotChecked  -18.3018    1433.7991   ✗       
+468   VPVHNVSVVDLLVL           -1.0000     NotChecked  -18.3094    1501.8868   ✗       
+469   VPVHNVSVVNLTSR           -1.0000     NotChecked  -18.3343    1519.8471   ✗       
+470   APVHNVSVVDLLSR           -1.0000     NotChecked  -18.3426    1504.8362   ✗       
+471   VPVHNVSVVDLSSV           -1.0000     NotChecked  -18.3627    1449.7827   ✗       
+472   VPVHNVSVVDLSVR           -1.0000     NotChecked  -18.3658    1518.8518   ✗       
+473   VPVHNASVVDLLSR           -1.0000     NotChecked  -18.3688    1504.8362   ✗       
+474   +43.006PVHNVSVVDLLSR     -1.0000     NotChecked  -18.3777    1476.8049   ✗       
+475   VPVHNVSVVDLTSR           -1.0000     NotChecked  -18.3922    1520.8311   ✗       
+476   VPVHNVSVVN+0.984LTSR     -1.0000     NotChecked  -18.3965    1520.8311   ✗       
+477   VPVHNVSVVDLTSK           -1.0000     NotChecked  -18.4084    1492.8249   ✗       
+478   VPVHNVSVVDLVVR           -1.0000     NotChecked  -18.4209    1530.8882   ✗       
+479   VPVHNVSVVDLSR            -1.0000     NotChecked  -18.4287    1419.7834   ✗       
+480   VPVHNVSVVDLTSL           -1.0000     NotChecked  -18.4290    1477.8140   ✗       
+481   VPVHNVSVVDLLSK           -1.0000     NotChecked  -18.4327    1504.8613   ✗       
+482   VPVHNVSVVN+0.984LTVR     -1.0000     Failed      -18.4406    1532.8675   ✓       
+483   VPVHNVSVVDLVSR           -1.0000     NotChecked  -18.4525    1518.8518   ✗       
+484   VPVHNVSVVDPTSR           -1.0000     NotChecked  -18.4538    1504.7998   ✗       
+485   VPVHNVSVVDLLSP           -1.0000     NotChecked  -18.4768    1473.8191   ✗       
+486   VPVHGVSVVDLTSR           -1.0000     NotChecked  -18.4995    1463.8096   ✗       
+487   VPVHNVVVDLLSR            -1.0000     NotChecked  -18.4997    1445.8354   ✗       
+488   VPVHSVSVVDLTSR           -1.0000     NotChecked  -18.5044    1493.8202   ✗       
+489   VPVHNVSVVSLLSR           -1.0000     NotChecked  -18.5088    1504.8726   ✗       
+490   VPVHNVSVVELSSR           -1.0000     NotChecked  -18.5095    1520.8311   ✗       
+491   VPVHNVSVVDLLVP           -1.0000     NotChecked  -18.5209    1485.8555   ✗       
+492   VPVHNVSVVN+0.984LSSR     -1.0000     NotChecked  -18.5235    1506.8154   ✗       
+493   VPVHNVSVVDLSSK           -1.0000     NotChecked  -18.5353    1478.8093   ✗       
+494   VPVHNVSVVDTLSR           -1.0000     NotChecked  -18.5499    1520.8311   ✗       
+495   VPVHNVSVVSLLVR           -1.0000     NotChecked  -18.5529    1516.9089   ✗       
+496   VPVHNVSVVDLGSR           -1.0000     NotChecked  -18.5591    1476.8049   ✗       
+497   VPVHNVSVVDLLSV           -1.0000     NotChecked  -18.5656    1475.8348   ✗       
+498   VPVHNVSVVDLSVR           -1.0000     NotChecked  -18.5666    1518.8518   ✗       
+499   VPVHNVSVVN+0.984LSVR     -1.0000     NotChecked  -18.5675    1518.8518   ✗       
+500   VPVHNVSVVDLLS            -1.0000     NotChecked  -18.5687    1376.7664   ✗       
+501   VPVHNVSAVDLLSR           -1.0000     NotChecked  -18.5704    1504.8362   ✗       
+502   VPVHNVSVVGLTSR           -1.0000     NotChecked  -18.5784    1462.8256   ✗       
+503   VPVHNVSVVDLTSR           -1.0000     NotChecked  -18.5837    1520.8311   ✗       
+504   VPVHNVSVVDLTR            -1.0000     NotChecked  -18.5877    1433.7991   ✗       
+505   VPVHNVAVVDLLSR           -1.0000     NotChecked  -18.5968    1516.8726   ✗       
+506   VPVHNVSVVDLLV            -1.0000     NotChecked  -18.6096    1388.8028   ✗       
+507   VPVHNVSVVDLLR            -1.0000     NotChecked  -18.6315    1445.8354   ✗       
+508   VPVHN+0.984VSVVDLTSR     -1.0000     NotChecked  -18.6388    1521.8151   ✗       
+509   VPVHNVSVVDLLSF           -1.0000     NotChecked  -18.6388    1523.8348   ✗       
+510   VPVHNVSVVDLTST           -1.0000     NotChecked  -18.6449    1465.7776   ✗       
+511   VPVHNVSVDLLSR            -1.0000     NotChecked  -18.6501    1433.7991   ✗       
+512   VPVHN+0.984VSVVDLSSR     -1.0000     NotChecked  -18.6533    1507.7995   ✗       
+513   VPVHNVSVVNLLSR           -1.0000     NotChecked  -18.6641    1531.8835   ✗       
+514   VPVNNVSVVDLLSR           -1.0000     NotChecked  -18.6652    1509.8515   ✗       
+515   VPVHNVSVVDLLST           -1.0000     NotChecked  -18.6692    1477.8140   ✗       
+516   VPVHNVSVVDLLL            -1.0000     NotChecked  -18.6833    1402.8184   ✗       
+517   VPVHNGSVVDLLSR           -1.0000     NotChecked  -18.7127    1490.8205   ✗       
+518   VPVHNVSVVDLSR            -1.0000     NotChecked  -18.7146    1419.7834   ✗       
+519   VPVHNVSVVDLTSV           -1.0000     NotChecked  -18.7293    1463.7984   ✗       
+520   VPVHNVSVVDLLSK           -1.0000     NotChecked  -18.7382    1504.8613   ✗       
+521   VPVHNVGVVDLLSR           -1.0000     NotChecked  -18.7444    1502.8569   ✗       
+522   VPVHNVSVVDLVSR           -1.0000     NotChecked  -18.7579    1518.8518   ✗       
+523   VPVHNVSVVDLLSL           -1.0000     NotChecked  -18.7588    1489.8504   ✗       
+524   VPVHNVSVVDLVR            -1.0000     NotChecked  -18.7698    1431.8198   ✗       
+525   VPVHNVSVVDLSST           -1.0000     NotChecked  -18.7719    1451.7620   ✗       
+526   VPVHNVSVVDLLVK           -1.0000     NotChecked  -18.7822    1516.8977   ✗       
+527   VPVHNVSVVDPLSR           -1.0000     NotChecked  -18.7835    1516.8362   ✗       
+528   VPVHNVSVVDLTR            -1.0000     NotChecked  -18.7953    1433.7991   ✗       
+529   VPVHNVSVVDLVVR           -1.0000     NotChecked  -18.8020    1530.8882   ✗       
+530   VPVHNVSVVDLTSN           -1.0000     NotChecked  -18.8027    1478.7729   ✗       
+531   VPVHNVSVVDLLVL           -1.0000     NotChecked  -18.8028    1501.8868   ✗       
+532   VPVHNVSVVDSTSR           -1.0000     NotChecked  -18.8093    1494.7790   ✗       
+533   VAVHNVSVVDLLSR           -1.0000     NotChecked  -18.8133    1506.8518   ✗       
+534   PVHNVSVVDLTSR            -1.0000     NotChecked  -18.8247    1421.7627   ✗       
+535   VPVHNVSVVDPLVR           -1.0000     NotChecked  -18.8276    1528.8726   ✗       
+536   VPVHGVSVVDLLSR           -1.0000     NotChecked  -18.8293    1475.8460   ✗       
+537   VPVHNVSVVDSLSR           -1.0000     NotChecked  -18.8336    1506.8154   ✗       
+538   VPVHSVSVVDLLSR           -1.0000     NotChecked  -18.8341    1505.8566   ✗       
+539   VPVHNVSVVDLLSP           -1.0000     NotChecked  -18.8579    1473.8191   ✗       
+540   VPVHNASVVDLLSR           -1.0000     NotChecked  -18.8623    1504.8362   ✗       
+541   VPVHNVSVVDTLSR           -1.0000     NotChecked  -18.8632    1520.8311   ✗       
+542   VPVHNVSVVDLGSR           -1.0000     NotChecked  -18.8645    1476.8049   ✗       
+543   VPVHGVSVVDLLVR           -1.0000     NotChecked  -18.8733    1487.8824   ✗       
+544   VPVHSVSVVDLLVR           -1.0000     NotChecked  -18.8782    1517.8930   ✗       
+545   VPVHNVSSVDLLSR           -1.0000     NotChecked  -18.8822    1520.8311   ✗       
+546   VPVHNVSVVSLLSR           -1.0000     NotChecked  -18.8899    1504.8726   ✗       
+547   VPVHNVSVVN+0.984LTSR     -1.0000     NotChecked  -18.8900    1520.8311   ✗       
+548   VPVHNVSVVDLTR            -1.0000     NotChecked  -18.9009    1433.7991   ✗       
+549   VPVHNVSVVDLTSK           -1.0000     NotChecked  -18.9019    1492.8249   ✗       
+550   VPVHNVSVVN+0.984LSSR     -1.0000     NotChecked  -18.9045    1506.8154   ✗       
+551   VPVHNVSVVGLLSR           -1.0000     NotChecked  -18.9082    1474.8620   ✗       
+552   VPVHNVSVVDLGVR           -1.0000     NotChecked  -18.9086    1488.8413   ✗       
+553   VPVHNVSVVDLLR            -1.0000     NotChecked  -18.9175    1445.8354   ✗       
+554   VPVHNVSVVN+0.984LTVR     -1.0000     Failed      -18.9341    1532.8675   ✓       
+555   VPVHNVSVVDSSSR           -1.0000     NotChecked  -18.9363    1480.7634   ✗       
+556   VPVHNVSVVDLLSF           -1.0000     NotChecked  -18.9521    1523.8348   ✗       
+557   VPVHNVSVVGLLVR           -1.0000     NotChecked  -18.9523    1486.8984   ✗       
+558   VPVHNVSVVDLLSL           -1.0000     NotChecked  -18.9596    1489.8504   ✗       
+559   VPVHNVSVVN+0.984LVSR     -1.0000     NotChecked  -18.9596    1518.8518   ✗       
+560   VPVHNVSVVN+0.984LLSL     -1.0000     NotChecked  -18.9605    1489.8504   ✗       
+561   VPVGNVSVVDLLSR           -1.0000     NotChecked  -18.9630    1452.8300   ✗       
+562   VPVHNVSVVDLLST           -1.0000     NotChecked  -18.9747    1477.8140   ✗       
+563   VPVHNVSVVDLTSR           -1.0000     NotChecked  -18.9764    1520.8311   ✗       
+564   VPLHNVSVVDLSSR           -1.0000     NotChecked  -18.9819    1520.8311   ✗       
+565   VPVHNVSVVDLLLV           -1.0000     NotChecked  -18.9835    1501.8868   ✗       
+566   VPVHNVVVDLLSR            -1.0000     NotChecked  -18.9932    1445.8354   ✗       
+567   VPVHNVSVVDLTSQ           -1.0000     NotChecked  -19.0018    1492.7885   ✗       
+568   VPVHNVSVVDLLVT           -1.0000     NotChecked  -19.0187    1489.8504   ✗       
+569   VPVHN+0.984VSVVDLTSR     -1.0000     NotChecked  -19.0198    1521.8151   ✗       
+570   VPVHNVSVVPLTSR           -1.0000     NotChecked  -19.0409    1502.8569   ✗       
+571   VPVHNVSVVTLTSR           -1.0000     NotChecked  -19.0429    1506.8518   ✗       
+572   VPVHNVSVVNLLSR           -1.0000     NotChecked  -19.0452    1531.8835   ✗       
+573   VPVHNVSVVDLTSR           -1.0000     NotChecked  -19.0512    1520.8311   ✗       
+574   VPVHNVSVVDLLSV           -1.0000     NotChecked  -19.0590    1475.8348   ✗       
+575   VPVHNVSVVDLSVR           -1.0000     NotChecked  -19.0601    1518.8518   ✗       
+576   VPVHNSVVDLLSR            -1.0000     NotChecked  -19.0636    1433.7991   ✗       
+577   VPVHNVSAVDLLSR           -1.0000     NotChecked  -19.0639    1504.8362   ✗       
+578   VPVQNVSVVDLLSR           -1.0000     NotChecked  -19.0649    1523.8671   ✗       
+579   +43.006PVHNVSVVDLLSR     -1.0000     NotChecked  -19.0684    1476.8049   ✗       
+580   VPVHNVSVVN+0.984LTSR     -1.0000     NotChecked  -19.0908    1520.8311   ✗       
+581   VPVHNVSVVDLLV            -1.0000     NotChecked  -19.1031    1388.8028   ✗       
+582   VPVHNVSVVDLSSR           -1.0000     NotChecked  -19.1033    1506.8154   ✗       
+583   VPVHNVSVVDLVVR           -1.0000     NotChecked  -19.1153    1530.8882   ✗       
+584   VPVHNVSVVN+0.984LLR      -1.0000     NotChecked  -19.1192    1445.8354   ✗       
+585   VPVHNVSVVDLLR            -1.0000     NotChecked  -19.1250    1445.8354   ✗       
+586   VPVHNVSVADLLSR           -1.0000     NotChecked  -19.1283    1504.8362   ✗       
+587   VPVHNVSVVDLLSN           -1.0000     NotChecked  -19.1324    1490.8093   ✗       
+588   VPVHNVSVVDLTST           -1.0000     NotChecked  -19.1384    1465.7776   ✗       
+589   VPVHNVSVVDSLSR           -1.0000     NotChecked  -19.1391    1506.8154   ✗       
+590   VPVHN+0.984VSVVDLSSR     -1.0000     NotChecked  -19.1467    1507.7995   ✗       
+591   VPVHNVSVVDLLLK           -1.0000     NotChecked  -19.1561    1530.9134   ✗       
+592   VPVHNVSVVDPLSR           -1.0000     NotChecked  -19.1646    1516.8362   ✗       
+593   +42.011PVHNVSVVDLTSR     -1.0000     NotChecked  -19.1707    1463.7732   ✗       
+594   +43.006PVHNVSVVDLSSR     -1.0000     NotChecked  -19.1710    1450.7528   ✗       
+595   VPVHNVSVVDLLSP           -1.0000     NotChecked  -19.1711    1473.8191   ✗       
+596   VPVHNVSVVDLLVN           -1.0000     NotChecked  -19.1765    1502.8457   ✗       
+597   VPVHNVSVVDSLVR           -1.0000     NotChecked  -19.1831    1518.8518   ✗       
+598   VPVHNVSVVDLTSR           -1.0000     NotChecked  -19.1926    1520.8311   ✗       
+599   +42.011PVHNVSVVDLLSR     -1.0000     NotChecked  -19.1950    1475.8096   ✗       
+600   PVHNVSVVDLLVR            -1.0000     NotChecked  -19.1985    1445.8354   ✗       
+601   +43.006PVHNVSVVDLTVR     -1.0000     NotChecked  -19.2006    1476.8049   ✗       
+602   VPVHN+0.984VSVVDLVSR     -1.0000     NotChecked  -19.2019    1519.8358   ✗       
+603   VPVHNVSVVSLLSR           -1.0000     NotChecked  -19.2031    1504.8726   ✗       
+604   VPVHGVSVVDLLSR           -1.0000     NotChecked  -19.2103    1475.8460   ✗       
+605   VPVHSVSVVDLLSR           -1.0000     NotChecked  -19.2152    1505.8566   ✗       
+606   VPVHNVSVVN+0.984LSSR     -1.0000     NotChecked  -19.2178    1506.8154   ✗       
+607   VPVHNVSVVDLLSK           -1.0000     NotChecked  -19.2317    1504.8613   ✗       
+608   VPVHNVGVVDLLSR           -1.0000     NotChecked  -19.2379    1502.8569   ✗       
+609   VPVHLVSVVDLTSR           -1.0000     NotChecked  -19.2476    1519.8722   ✗       
+610   VPVHNVSVVDLLS            -1.0000     NotChecked  -19.2594    1376.7664   ✗       
+611   VPVHNVSVVDLLSV           -1.0000     NotChecked  -19.2599    1475.8348   ✗       
+612   VPVHNVSVVDLSTR           -1.0000     NotChecked  -19.2606    1520.8311   ✗       
+613   VPVHNVSVVN+0.984LLSV     -1.0000     NotChecked  -19.2607    1475.8348   ✗       
+614   VPVHNPSVVDLLSR           -1.0000     NotChecked  -19.2680    1530.8518   ✗       
+615   VPVHNVSVVDLLVK           -1.0000     NotChecked  -19.2757    1516.8977   ✗       
+616   VPVHNVSVVDLGLR           -1.0000     NotChecked  -19.2825    1502.8569   ✗       
+617   VPVHNVSVVGLLSR           -1.0000     NotChecked  -19.2893    1474.8620   ✗       
+618   +42.011PVHNVSVVDLSSR     -1.0000     NotChecked  -19.2976    1449.7576   ✗       
+619   VPVHNVSVVDSTSR           -1.0000     NotChecked  -19.3028    1494.7790   ✗       
+620   VPVHNVSVVDLLR            -1.0000     NotChecked  -19.3258    1445.8354   ✗       
+621   VPVHNVSVVN+0.984LLR      -1.0000     NotChecked  -19.3267    1445.8354   ✗       
+622   VPVHNVSVVDLLSQ           -1.0000     NotChecked  -19.3316    1504.8249   ✗       
+623   VPVHAVSVVDLTSR           -1.0000     NotChecked  -19.3318    1477.8253   ✗       
+624   VPVHN+0.984VSVVDLTSR     -1.0000     NotChecked  -19.3331    1521.8151   ✗       
+625   VPVHNVSVVDLTS            -1.0000     NotChecked  -19.3476    1364.7300   ✗       
+626   VPVHDVSVVDLTSR           -1.0000     NotChecked  -19.3560    1521.8151   ✗       
+627   VPVHNVSVVDLGSR           -1.0000     NotChecked  -19.3580    1476.8049   ✗       
+628   VPVHNVSVVNLLSR           -1.0000     NotChecked  -19.3584    1531.8835   ✗       
+629   VPVHN+0.984VSVVDLLR      -1.0000     NotChecked  -19.3614    1446.8195   ✗       
+630   VPVHNVSVVDLSS            -1.0000     NotChecked  -19.3621    1350.7143   ✗       
+631   VPVHNVSVVPLLSR           -1.0000     NotChecked  -19.3706    1514.8933   ✗       
+632   VPVHNVSVVTLLSR           -1.0000     NotChecked  -19.3726    1518.8882   ✗       
+633   VPVHNVSVVDLLVQ           -1.0000     NotChecked  -19.3756    1516.8613   ✗       
+634   VPVHNVSSVDLLSR           -1.0000     NotChecked  -19.3757    1520.8311   ✗       
+635   VPVHNVSVVDVTSR           -1.0000     NotChecked  -19.3774    1506.8154   ✗       
+636   VPVHNVSVVDLTVS           -1.0000     NotChecked  -19.3916    1463.7984   ✗       
+637   VPVHNVSVVDLLLT           -1.0000     NotChecked  -19.3926    1503.8661   ✗       
+638   VVHNVSVVDLTSR            -1.0000     NotChecked  -19.3943    1423.7783   ✗       
+639   VPVHNVSVVDVLSR           -1.0000     NotChecked  -19.4017    1518.8518   ✗       
+640   VPVHNVSVVDLGVR           -1.0000     NotChecked  -19.4021    1488.8413   ✗       
+641   VPVHNVSVVPLLVR           -1.0000     NotChecked  -19.4147    1526.9297   ✗       
+642   VPVHNVSVVTLLVR           -1.0000     NotChecked  -19.4167    1530.9246   ✗       
+643   GPVHNVSVVDLLSR           -1.0000     NotChecked  -19.4928    1490.8205   ✗       
+644   PVHNVSVVDLLSR            -1.0000     NotChecked  -19.5355    1433.7991   ✗       
+645   +43.006PVHNVSVVDLTSR     -1.0000     NotChecked  -19.5376    1464.7685   ✗       
+646   +42.011PVHNVSVVDLLVR     -1.0000     NotChecked  -19.5445    1487.8460   ✗       
+647   +43.006PVHNVSVVDLLSR     -1.0000     NotChecked  -19.5619    1476.8049   ✗       
+648   +42.011PVHNVSVVDLTSR     -1.0000     NotChecked  -19.6642    1463.7732   ✗       
+649   +43.006PVHNVSVVDLSSR     -1.0000     NotChecked  -19.6645    1450.7528   ✗       
+650   +43.006PVHNVSVVDLVSR     -1.0000     NotChecked  -19.7197    1462.7892   ✗       
+651   +43.006PVHNVSVVDLLLR     -1.0000     NotChecked  -19.7918    1502.8569   ✗       
+652   APVHNVSVVDLTSR           -1.0000     NotChecked  -19.8158    1492.7998   ✗       
+653   PVHNVSVVDLLSR            -1.0000     NotChecked  -19.8488    1433.7991   ✗       
+654   +43.006PVHNVSVVDLTSR     -1.0000     NotChecked  -19.8508    1464.7685   ✗       
+655   +43.006PVHNVSVVDLLR      -1.0000     NotChecked  -19.8792    1389.7728   ✗       
+656   +43.006PVHNVSVVDLLVR     -1.0000     NotChecked  -19.9114    1488.8413   ✗       
+657   +42.011PVHNVSVVDLLLR     -1.0000     NotChecked  -19.9184    1501.8617   ✗       
+658   LPVHNVSVVDLSSR           -1.0000     NotChecked  -19.9279    1520.8311   ✗       
+659   GPVHNVSVVDLLSR           -1.0000     NotChecked  -19.9863    1490.8205   ✗       
+660   +42.011PVHNVSVVDLLVR     -1.0000     NotChecked  -20.0380    1487.8460   ✗       
+661   +43.006PVHNVSVVN+0.984LLSR-1.0000     NotChecked  -20.0690    1476.8049   ✗       
+662   APVHNVSVVDLLVR           -1.0000     NotChecked  -20.1896    1516.8726   ✗       
+663   +42.011PVHNVSVVDLLSR     -1.0000     NotChecked  -20.1948    1475.8096   ✗       
+664   +42.011PVHNVSVVN+0.984LLSR-1.0000     NotChecked  -20.1956    1475.8096   ✗       
+665   +43.006PVHNVSVVDLLVR     -1.0000     NotChecked  -20.2247    1488.8413   ✗       
+666   +43.006PVHNVSVVDLLLR     -1.0000     NotChecked  -20.2853    1502.8569   ✗       
+667   +43.006PVHN+0.984VSVVDLLSR-1.0000     NotChecked  -20.3113    1477.7889   ✗       
+668   APVHNVSVVDLLSR           -1.0000     NotChecked  -20.5266    1504.8362   ✗       
+669   +43.006PVHNVSVVDLLSR     -1.0000     NotChecked  -20.5617    1476.8049   ✗       
+670   +43.006PVHNVSVVN+0.984LLSR-1.0000     NotChecked  -20.5625    1476.8049   ✗       
+671   +43.006PVHNVSVVDLLSR     -1.0000     NotChecked  -20.6130    1476.8049   ✗       
+672   +42.011PVHNVSVVDLLSR     -1.0000     NotChecked  -20.6882    1475.8096   ✗       
+673   +43.006PVHNVSVVDLLNR     -1.0000     NotChecked  -20.7474    1503.8158   ✗       
+674   APVHNVSVVDLLSR           -1.0000     NotChecked  -20.8399    1504.8362   ✗       
+675   +43.006PVHNVSVVDLLTR     -1.0000     NotChecked  -20.9186    1490.8205   ✗       
+676   PVHNVSVVDLTSR            -1.0000     NotChecked  -21.0087    1421.7627   ✗       
+677   +43.006PVHNVSVVDLLS      -1.0000     NotChecked  -21.0201    1320.7038   ✗       
+678   PVHNVSVVDLLSR            -1.0000     NotChecked  -21.0330    1433.7991   ✗       
+679   +43.006PVHNVSVVDLTSR     -1.0000     NotChecked  -21.0351    1464.7685   ✗       
+680   +43.006PVHNVSVVDLLN+0.984R-1.0000     NotChecked  -21.0528    1504.7998   ✗       
+681   PVHNVSVVDLSSR            -1.0000     NotChecked  -21.1356    1407.7470   ✗       
+682   +43.006PVHNVSVVDLLSR     -1.0000     NotChecked  -21.1863    1476.8049   ✗       
+683   +43.006PVHNVSVVDLLSR     -1.0000     NotChecked  -21.3222    1476.8049   ✗       
+684   +42.011PVHNVSVVDLLSR     -1.0000     NotChecked  -21.3790    1475.8096   ✗       
+685   PVHNVSVVDLLVR            -1.0000     NotChecked  -21.3825    1445.8354   ✗       
+686   +43.006PVHNVSVVDLTVR     -1.0000     NotChecked  -21.3846    1476.8049   ✗       
+687   TPVHNVSVVDLTSR           -1.0000     NotChecked  -21.4169    1522.8103   ✗       
+688   GPVHNVSVVDLTSR           -1.0000     NotChecked  -21.4595    1478.7841   ✗       
+689   +42.011PVHNVSVVDLSSR     -1.0000     NotChecked  -21.4816    1449.7576   ✗       
+690   PVHNVSVVDLTSR            -1.0000     NotChecked  -21.5022    1421.7627   ✗       
+691   +42.011PVHNVSVVDLTVR     -1.0000     NotChecked  -21.5112    1475.8096   ✗       
+692   +43.006PVHNVSVVDLSVR     -1.0000     NotChecked  -21.5115    1462.7892   ✗       
+693   +43.006PVHNVSVVDLLDR     -1.0000     NotChecked  -21.6456    1504.7998   ✗       
+694   +43.006PVHNVSVVDLLSR     -1.0000     NotChecked  -21.7459    1476.8049   ✗       
+695   PVHNVSVVDLLLR            -1.0000     NotChecked  -21.7564    1459.8511   ✗       
+696   +43.006PVHNVSVVDLTLR     -1.0000     NotChecked  -21.7585    1490.8205   ✗       
+697   GPVHNVSVVDLLVR           -1.0000     NotChecked  -21.8333    1502.8569   ✗       
+698   +42.011PVHNVSVVDLTSR     -1.0000     NotChecked  -21.8482    1463.7732   ✗       
+699   +43.006PVHNVSVVDLSSR     -1.0000     NotChecked  -21.8485    1450.7528   ✗       
+700   +42.011PVHNVSVVDLLSR     -1.0000     NotChecked  -21.8725    1475.8096   ✗       
+701   PVHNVSVVDLLVR            -1.0000     NotChecked  -21.8760    1445.8354   ✗       
+702   +43.006PVHNVSVVDLTVR     -1.0000     NotChecked  -21.8781    1476.8049   ✗       
+703   +43.006PVHNVSVVDLVSR     -1.0000     NotChecked  -21.9036    1462.7892   ✗       
+704   +43.006PVHNVSVVDLLSL     -1.0000     NotChecked  -21.9045    1433.7878   ✗       
+705   +42.011PVHNVSVVDLSSR     -1.0000     NotChecked  -21.9751    1449.7576   ✗       
+706   APVHNVSVVDLTSR           -1.0000     NotChecked  -21.9998    1492.7998   ✗       
+707   APVHNVSVVDLLSR           -1.0000     NotChecked  -22.0241    1504.8362   ✗       
+708   +42.011PVHNVSVVDLVSR     -1.0000     NotChecked  -22.0302    1461.7940   ✗       
+709   PVHNVSVVDLLSR            -1.0000     NotChecked  -22.0328    1433.7991   ✗       
+710   PVHNVSVVN+0.984LLSR      -1.0000     NotChecked  -22.0336    1433.7991   ✗       
+711   +43.006PVHNVSVVDLTSR     -1.0000     NotChecked  -22.0348    1464.7685   ✗       
+712   +43.006PVHNVSVVN+0.984LTSR-1.0000     NotChecked  -22.0357    1464.7685   ✗       
+713   +43.006PVHNVSVVDLLSR     -1.0000     NotChecked  -22.0591    1476.8049   ✗       
+714   +43.006PVHNVSVVDLLR      -1.0000     NotChecked  -22.0632    1389.7728   ✗       
+715   +42.011PVHNVSVVDLLLR     -1.0000     NotChecked  -22.1024    1501.8617   ✗       
+716   LPVHNVSVVDLSSR           -1.0000     NotChecked  -22.1119    1520.8311   ✗       
+717   APVHNVSVVDLSSR           -1.0000     NotChecked  -22.1267    1478.7841   ✗       
+718   +42.011PVHNVSVVDLTSR     -1.0000     NotChecked  -22.1614    1463.7732   ✗       
+719   +43.006PVHNVSVVDLSSR     -1.0000     NotChecked  -22.1618    1450.7528   ✗       
+720   GPVHNVSVVDLLSR           -1.0000     NotChecked  -22.1703    1490.8205   ✗       
+721   +42.011PVHNVSVVDLLR      -1.0000     NotChecked  -22.1897    1388.7776   ✗       
+722   +43.006PVHNVSVVDLLSV     -1.0000     NotChecked  -22.2048    1419.7722   ✗       
+723   +42.011PVHNVSVVDLLVR     -1.0000     NotChecked  -22.2220    1487.8460   ✗       
+724   +43.006PVHNVSVVDLLR      -1.0000     NotChecked  -22.2707    1389.7728   ✗       
+725   +43.006PVHNVSVVELLSR     -1.0000     NotChecked  -22.3516    1490.8205   ✗       
+726   APVHNVSVVDLLVR           -1.0000     NotChecked  -22.3736    1516.8726   ✗       
+727   +43.006PVHNVSVVDLLSK     -1.0000     NotChecked  -22.3774    1448.7987   ✗       
+728   +42.011PVHNVSVVN+0.984LLSR-1.0000     NotChecked  -22.3796    1475.8096   ✗       
+729   +43.006PVHNVSVVDLVSR     -1.0000     NotChecked  -22.3971    1462.7892   ✗       
+730   +43.006PVHNVSVVDLLVR     -1.0000     NotChecked  -22.4087    1488.8413   ✗       
+731   +43.006PVHNVSVVN+0.984LLVR-1.0000     NotChecked  -22.4095    1488.8413   ✗       
+732   +43.006PVHNVSVVDLQSR     -1.0000     NotChecked  -22.4215    1491.7794   ✗       
+733   +43.006PVHNVSVVDLLLR     -1.0000     NotChecked  -22.4693    1502.8569   ✗       
+734   GPVHNVSVVDLLSR           -1.0000     NotChecked  -22.4835    1490.8205   ✗       
+735   APVHNVSVVDLTSR           -1.0000     NotChecked  -22.4933    1492.7998   ✗       
+736   +43.006PVHN+0.984VSVVDLLSR-1.0000     NotChecked  -22.4953    1477.7889   ✗       
+737   +43.006PVHNVSVVDLGSR     -1.0000     NotChecked  -22.5037    1420.7423   ✗       
+738   PVHNVSVVDLLSR            -1.0000     NotChecked  -22.5262    1433.7991   ✗       
+739   +43.006PVHNVSVVDLTSR     -1.0000     NotChecked  -22.5283    1464.7685   ✗       
+740   +42.011PVHNVSVVDLLVR     -1.0000     NotChecked  -22.5352    1487.8460   ✗       
+741   +43.006PVHNVSVVDLKSR     -1.0000     NotChecked  -22.5551    1491.8158   ✗       
+742   +43.006PVHNVSVVDLLR      -1.0000     NotChecked  -22.5566    1389.7728   ✗       
+743   +42.011PVHNVSVVDLLLR     -1.0000     NotChecked  -22.5959    1501.8617   ✗       
+744   +43.006PVHNVSVVDLQ+0.984SR-1.0000     NotChecked  -22.6015    1492.7634   ✗       
+745   LPVHNVSVVDLSSR           -1.0000     NotChecked  -22.6053    1520.8311   ✗       
+746   +43.006PVHNVSVVDLLST     -1.0000     NotChecked  -22.6139    1421.7514   ✗       
+747   +42.011PVHN+0.984VSVVDLLSR-1.0000     NotChecked  -22.6219    1476.7936   ✗       
+748   +43.006PVHNVSVVN+0.984LLSR-1.0000     NotChecked  -22.7465    1476.8049   ✗       
+749   APVHNVSVVDLLLR           -1.0000     NotChecked  -22.7475    1530.8882   ✗       
+750   +43.006PVHNVSVVDLN+0.984SR-1.0000     NotChecked  -22.7712    1478.7478   ✗       
+751   +43.006PVHNVSVVDSLSR     -1.0000     NotChecked  -22.7783    1450.7528   ✗       
+752   +43.006PVHNVSVVDLLLR     -1.0000     NotChecked  -22.7825    1502.8569   ✗       
+753   +43.006PVHNVSVVDLNSR     -1.0000     NotChecked  -22.7937    1477.7637   ✗       
+754   +43.006PVHNVSVVDLLSR     -1.0000     NotChecked  -22.7970    1476.8049   ✗       
+755   LPVHNVSVVDLLR            -1.0000     NotChecked  -22.8200    1459.8511   ✗       
+756   +43.006PLHNVSVVDLLSR     -1.0000     NotChecked  -22.8239    1490.8205   ✗       
+757   APVHNVSVVDLLVR           -1.0000     NotChecked  -22.8671    1516.8726   ✗       
+758   +42.011PVHNVSVVDLLSR     -1.0000     NotChecked  -22.8722    1475.8096   ✗       
+759   +42.011PVHNVSVVN+0.984LLSR-1.0000     NotChecked  -22.8731    1475.8096   ✗       
+760   +43.006PVHNVSVVDLLVR     -1.0000     NotChecked  -22.9021    1488.8413   ✗       
+761   +42.011PVHNVSVVDLLSR     -1.0000     NotChecked  -22.9236    1475.8096   ✗       
+762   +43.006PVHNVSVVDLLNR     -1.0000     NotChecked  -22.9314    1503.8158   ✗       
+763   +43.006PVHNVSVVDLLSR     -1.0000     NotChecked  -22.9453    1476.8049   ✗       
+764   +43.006PVHN+0.984VSVVDLLSR-1.0000     NotChecked  -22.9888    1477.7889   ✗       
+765   APVHNVSVVDLLSR           -1.0000     NotChecked  -23.0239    1504.8362   ✗       
+766   APVHNVSVVN+0.984LLSR     -1.0000     NotChecked  -23.0248    1504.8362   ✗       
+767   +42.011PVHNVSVVDLLNR     -1.0000     NotChecked  -23.0580    1502.8205   ✗       
+768   +43.006PVHNVSVVN+0.984LLSR-1.0000     NotChecked  -23.0598    1476.8049   ✗       
+769   +43.006PVHNVSVVDLLER     -1.0000     NotChecked  -23.0833    1518.8154   ✗       
+770   +43.006PVHNVSVVDLLTR     -1.0000     NotChecked  -23.1026    1490.8205   ✗       
+771   +43.006PVHNVSVVDLLS      -1.0000     NotChecked  -23.2041    1320.7038   ✗       
+772   PVHNVSVVDLLSR            -1.0000     NotChecked  -23.2170    1433.7991   ✗       
+773   +43.006PVHNVSVVDLTSR     -1.0000     NotChecked  -23.2191    1464.7685   ✗       
+774   +42.011PVHNVSVVDLLTR     -1.0000     NotChecked  -23.2292    1489.8253   ✗       
+775   +43.006PVHNVSVVDLLN+0.984R-1.0000     NotChecked  -23.2368    1504.7998   ✗       
+776   +43.006PVHNVSVVDLLSR     -1.0000     NotChecked  -23.2905    1476.8049   ✗       
+777   VPVHNVSVVDLTSR           -1.0000     NotChecked  -23.3051    1520.8311   ✗       
+778   PVHNVSVVDLSSR            -1.0000     NotChecked  -23.3196    1407.7470   ✗       
+779   +42.011PVHNVSVVDLLS      -1.0000     NotChecked  -23.3307    1319.7085   ✗       
+780   +42.011PVHNVSVVDLTSR     -1.0000     NotChecked  -23.3456    1463.7732   ✗       
+781   +43.006PVHNVSVVDLSR      -1.0000     NotChecked  -23.3460    1363.7208   ✗       
+782   +43.006PVHNVSVVDVLSR     -1.0000     NotChecked  -23.3463    1462.7892   ✗       
+783   PVHNVSVVDLTVR            -1.0000     NotChecked  -23.3492    1433.7991   ✗       
+784   +42.011PVHNVSVVDLLN+0.984R-1.0000     NotChecked  -23.3633    1503.8045   ✗       
+785   +43.006PVHNVSVVDLLSR     -1.0000     NotChecked  -23.3703    1476.8049   ✗       
+786   +43.006PVHQVSVVDLLSR     -1.0000     NotChecked  -23.3735    1490.8205   ✗       
+787   +43.006PVHNVSVVDLLNR     -1.0000     NotChecked  -23.4249    1503.8158   ✗       
+788   +42.011PVHNVSVVDLLSR     -1.0000     NotChecked  -23.4969    1475.8096   ✗       
+789   +43.006PVHNVSVVDLLSR     -1.0000     NotChecked  -23.5062    1476.8049   ✗       
+790   APVHNVSVVDLLSR           -1.0000     NotChecked  -23.5174    1504.8362   ✗       
+791   NPVHNVSVVDLSSR           -1.0000     NotChecked  -23.5865    1521.7900   ✗       
+792   +43.006PVHNVSVVDLLTR     -1.0000     NotChecked  -23.5961    1490.8205   ✗       
+793   TPVHNVSVVDLTSR           -1.0000     NotChecked  -23.6009    1522.8103   ✗       
+794   +42.011PVHNVSVVDLLSR     -1.0000     NotChecked  -23.6328    1475.8096   ✗       
+795   GPVHNVSVVDLTSR           -1.0000     NotChecked  -23.6435    1478.7841   ✗       
+796   GPVHNVSVVDLLSR           -1.0000     NotChecked  -23.6677    1490.8205   ✗       
+797   PVHNVSVVDLTSR            -1.0000     NotChecked  -23.6862    1421.7627   ✗       
+798   +42.011PVHNVSVVDLTVR     -1.0000     NotChecked  -23.6952    1475.8096   ✗       
+799   +43.006PVHNVSVVDLSVR     -1.0000     NotChecked  -23.6955    1462.7892   ✗       
+800   +43.006PVHNVSVVDLLS      -1.0000     NotChecked  -23.6976    1320.7038   ✗       
+801   +43.006PVHNVSVVDFLSR     -1.0000     NotChecked  -23.7068    1510.7892   ✗       
+802   PVHNVSVVDLLSR            -1.0000     NotChecked  -23.7105    1433.7991   ✗       
+803   +43.006PVHNVSVVDLTSR     -1.0000     NotChecked  -23.7126    1464.7685   ✗       
+804   TPVHNVSVVDLSSR           -1.0000     NotChecked  -23.7279    1508.7947   ✗       
+805   +43.006PVHNVSVVDLLN+0.984R-1.0000     NotChecked  -23.7302    1504.7998   ✗       
+806   GPVHNVSVVDLSSR           -1.0000     NotChecked  -23.7704    1464.7685   ✗       
+807   PVHNVSVVDLSSR            -1.0000     NotChecked  -23.8131    1407.7470   ✗       
+808   +42.011PVHNVSVVDLSVR     -1.0000     NotChecked  -23.8221    1461.7940   ✗       
+809   +43.006PVHNVSVVDLLDR     -1.0000     NotChecked  -23.8296    1504.7998   ✗       
+810   +43.006PVHNVSVVDLLSR     -1.0000     NotChecked  -23.8638    1476.8049   ✗       
+811   PVHNVSVVDLVSR            -1.0000     NotChecked  -23.8682    1419.7834   ✗       
+812   +43.006PVHNVSVVDLLSR     -1.0000     NotChecked  -23.8836    1476.8049   ✗       
+813   PVHNVSVVDLLLR            -1.0000     NotChecked  -23.9404    1459.8511   ✗       
+814   +43.006PVHNVSVVDLTLR     -1.0000     NotChecked  -23.9425    1490.8205   ✗       
+815   +42.011PVHNVSVVDLLDR     -1.0000     NotChecked  -23.9562    1503.8045   ✗       
+816   LPVHNVSVVDLLS            -1.0000     NotChecked  -23.9609    1390.7820   ✗       
+817   +43.006PVHNVSVVQ+0.984LLSR-1.0000     NotChecked  -23.9697    1490.8205   ✗       
+818   +43.006PVHNVSVVDTLSR     -1.0000     NotChecked  -23.9921    1464.7685   ✗       
+819   PVHNVSVVDLTSR            -1.0000     NotChecked  -23.9994    1421.7627   ✗       
+820   +43.006PVHNVSVVDLLSR     -1.0000     NotChecked  -23.9997    1476.8049   ✗       
+821   GPVHNVSVVDLLVR           -1.0000     NotChecked  -24.0173    1502.8569   ✗       
+822   PVHNVSVVDLLR             -1.0000     NotChecked  -24.0277    1346.7670   ✗       
+823   +43.006PVHNVSVVDLTR      -1.0000     NotChecked  -24.0298    1377.7365   ✗       
+824   +42.011PVHNVSVVDLLSR     -1.0000     NotChecked  -24.0565    1475.8096   ✗       
+825   PVHNVSVVDLLVR            -1.0000     NotChecked  -24.0600    1445.8354   ✗       
+826   +43.006PVHNVSVVDLTVR     -1.0000     NotChecked  -24.0621    1476.8049   ✗       
+827   +42.011PVHNVSVVDLTLR     -1.0000     NotChecked  -24.0691    1489.8253   ✗       
+828   +43.006PVHNVSVVDLSLR     -1.0000     NotChecked  -24.0694    1476.8049   ✗       
+829   +43.006PVHNVSVVDLLSF     -1.0000     NotChecked  -24.0810    1467.7722   ✗       
+830   +43.006PVHNVSVVDLLSR     -1.0000     NotChecked  -24.0852    1476.8049   ✗       
+831   +43.006PVHNVSVVDLLSL     -1.0000     NotChecked  -24.0885    1433.7878   ✗       
+832   TPVHNVSVVDLTSR           -1.0000     NotChecked  -24.0944    1522.8103   ✗       
+833   GPVHNVSVVDLTSR           -1.0000     NotChecked  -24.1369    1478.7841   ✗       
+834   +43.006PVHNLSVVDLLSR     -1.0000     NotChecked  -24.1533    1490.8205   ✗       
+835   +42.011PVHNVSVVDLSSR     -1.0000     NotChecked  -24.1591    1449.7576   ✗       
+836   +42.011PVHNVSVVDLTVR     -1.0000     NotChecked  -24.1887    1475.8096   ✗       
+837   +43.006PVHNVSVVDLSVR     -1.0000     NotChecked  -24.1890    1462.7892   ✗       
+838   APVHNVSVVDLLSR           -1.0000     NotChecked  -24.2081    1504.8362   ✗       
+839   +42.011PVHNVSVVDLVSR     -1.0000     NotChecked  -24.2142    1461.7940   ✗       
+840   +42.011PVHNVSVVDLLSL     -1.0000     NotChecked  -24.2151    1432.7926   ✗       
+841   PVHNVSVVN+0.984LLSR      -1.0000     NotChecked  -24.2176    1433.7991   ✗       
+842   +43.006PVHNVSVVN+0.984LTSR-1.0000     NotChecked  -24.2197    1464.7685   ✗       
+843   +43.006PVHNVSVVDLLSR     -1.0000     NotChecked  -24.2431    1476.8049   ✗       
+844   +43.006PVHNVSVVN+0.984LLSR-1.0000     NotChecked  -24.2440    1476.8049   ✗       
+845   +43.006PVHNVSVVDLVVR     -1.0000     NotChecked  -24.2441    1474.8256   ✗       
+846   +43.006PVHNVSVVDLLSR     -1.0000     NotChecked  -24.2516    1476.8049   ✗       
+847   +43.006PVHNVSVVDLLSP     -1.0000     NotChecked  -24.3000    1417.7565   ✗       
+848   APVHNVSVVDLSSR           -1.0000     NotChecked  -24.3107    1478.7841   ✗       
+849   +43.006PVHNVSVVDLLDR     -1.0000     NotChecked  -24.3231    1504.7998   ✗       
+850   +43.006PVHNVSVVSLLSR     -1.0000     NotChecked  -24.3320    1448.8100   ✗       
+851   APVHNVSVVDLTVR           -1.0000     NotChecked  -24.3403    1504.8362   ✗       
+852   +43.006PVHNVSVLDLLSR     -1.0000     NotChecked  -24.3450    1490.8205   ✗       
+853   +42.011PVHNVSVVDLTSR     -1.0000     NotChecked  -24.3454    1463.7732   ✗       
+854   +43.006PVHNVSVVDLSSR     -1.0000     NotChecked  -24.3458    1450.7528   ✗       
+855   +42.011PVHNVSVVN+0.984LTSR-1.0000     NotChecked  -24.3463    1463.7732   ✗       
+856   +43.006PVHNVSVVN+0.984LSSR-1.0000     NotChecked  -24.3466    1450.7528   ✗       
+857   +43.006VPVHNVSVVDLLR     -1.0000     NotChecked  -24.3596    1488.8413   ✗       
+858   +42.011PVHNVSVVDLLSR     -1.0000     NotChecked  -24.3697    1475.8096   ✗       
+859   PVHNVSVVDLLVR            -1.0000     NotChecked  -24.3732    1445.8354   ✗       
+860   +42.011PVHNVSVVDLLR      -1.0000     NotChecked  -24.3737    1388.7776   ✗       
+861   +43.006PVHNVSVVDLTVR     -1.0000     NotChecked  -24.3753    1476.8049   ✗       
+862   +43.006PVHNVSVVDLLSR     -1.0000     NotChecked  -24.3830    1476.8049   ✗       
+863   +43.006PVHNVSVVDLLSV     -1.0000     NotChecked  -24.3888    1419.7722   ✗       
+864   GPVHNVSVVDLLLR           -1.0000     NotChecked  -24.3912    1516.8726   ✗       
+865   +43.006PVHNVSLVDLLSR     -1.0000     NotChecked  -24.4287    1490.8205   ✗       
+866   PVHNVSVVDLLLR            -1.0000     NotChecked  -24.4339    1459.8511   ✗       
+867   +43.006PVHNVSVVDLTLR     -1.0000     NotChecked  -24.4360    1490.8205   ✗       
+868   +43.006PVHNVSVVDLLR      -1.0000     NotChecked  -24.4547    1389.7728   ✗       
+869   PVHN+0.984VSVVDLLSR      -1.0000     NotChecked  -24.4599    1434.7831   ✗       
+870   +43.006PVHN+0.984VSVVDLTSR-1.0000     NotChecked  -24.4619    1465.7525   ✗       
+871   +42.011PVHNVSVVDLSSR     -1.0000     NotChecked  -24.4724    1449.7576   ✗       
+872   +43.006PVHNVSVVNLLSR     -1.0000     NotChecked  -24.4873    1475.8209   ✗       
+873   GPVHNVSVVDLLVR           -1.0000     NotChecked  -24.5108    1502.8569   ✗       
+874   +42.011PVHNVSVVDLLSV     -1.0000     NotChecked  -24.5153    1418.7769   ✗       
+875   +43.006PVHNVSVVELLSR     -1.0000     NotChecked  -24.5356    1490.8205   ✗       
+876   +43.006PVHNVSVVDLLSR     -1.0000     NotChecked  -24.5452    1476.8049   ✗       
+877   +43.006PVHNVSVVDLLSK     -1.0000     NotChecked  -24.5614    1448.7987   ✗       
+878   +43.006PVHNVSVVDLVSR     -1.0000     NotChecked  -24.5811    1462.7892   ✗       
+879   +42.011PVHNVSVVDLLR      -1.0000     NotChecked  -24.5813    1388.7776   ✗       
+880   +43.006PVHNVSVVDLLSL     -1.0000     NotChecked  -24.5820    1433.7878   ✗       
+881   +43.006PVHNVSVVN+0.984LLVR-1.0000     NotChecked  -24.5935    1488.8413   ✗       
+882   +43.006PVHNVSVVDLQSR     -1.0000     NotChecked  -24.6055    1491.7794   ✗       
+883   +43.006PVHNVSVVDPLSR     -1.0000     NotChecked  -24.6067    1460.7736   ✗       
+884   +43.006PVHGVSVVDLLSR     -1.0000     NotChecked  -24.6525    1419.7834   ✗       
+885   +43.006PVHSVSVVDLLSR     -1.0000     NotChecked  -24.6573    1449.7940   ✗       
+886   +42.011PVHNVSVVELLSR     -1.0000     NotChecked  -24.6621    1489.8253   ✗       
+887   GPVHNVSVVDLLSR           -1.0000     NotChecked  -24.6675    1490.8205   ✗       
+888   GPVHNVSVVN+0.984LLSR     -1.0000     NotChecked  -24.6684    1490.8205   ✗       
+889   APVHNVSVVDLTSR           -1.0000     NotChecked  -24.6773    1492.7998   ✗       
+890   +43.006PVHNVSVVDLGSR     -1.0000     NotChecked  -24.6877    1420.7423   ✗       
+891   +42.011PVHNVSVVDLLSK     -1.0000     NotChecked  -24.6879    1447.8035   ✗       
+892   APVHNVSVVDLLSR           -1.0000     NotChecked  -24.7016    1504.8362   ✗       
+893   +42.011PVHNVSVVDLVSR     -1.0000     NotChecked  -24.7077    1461.7940   ✗       
+894   PVHNVSVVDLLSR            -1.0000     NotChecked  -24.7102    1433.7991   ✗       
+895   PVHNVSVVN+0.984LLSR      -1.0000     NotChecked  -24.7111    1433.7991   ✗       
+896   +43.006PVHNVSVVDLTSR     -1.0000     NotChecked  -24.7123    1464.7685   ✗       
+897   +43.006PVHNVSVVN+0.984LTSR-1.0000     NotChecked  -24.7132    1464.7685   ✗       
+898   +42.011PVHNVSVVDLLVR     -1.0000     NotChecked  -24.7192    1487.8460   ✗       
+899   +42.011PVHNVSVVN+0.984LLVR-1.0000     NotChecked  -24.7201    1487.8460   ✗       
+900   +43.006PVHNVSVVGLLSR     -1.0000     NotChecked  -24.7314    1418.7994   ✗       
+901   +42.011PVHNVSVVDLQSR     -1.0000     NotChecked  -24.7321    1490.7841   ✗       
+902   +43.006PVHNVSVVDLLSR     -1.0000     NotChecked  -24.7366    1476.8049   ✗       
+903   +43.006PVHNVSVVDLKSR     -1.0000     NotChecked  -24.7391    1491.8158   ✗       
+904   +43.006PVHNVSVVDLLR      -1.0000     NotChecked  -24.7406    1389.7728   ✗       
+905   PVHNVSVVDLLSR            -1.0000     NotChecked  -24.7616    1433.7991   ✗       
+906   +42.011PVHNVSVVDLLLR     -1.0000     NotChecked  -24.7799    1501.8617   ✗       
+907   +43.006PVHNVSVVDLQ+0.984SR-1.0000     NotChecked  -24.7855    1492.7634   ✗       
+908   LPVHNVSVVDLSSR           -1.0000     NotChecked  -24.7893    1520.8311   ✗       
+909   +43.006PVHNVSVVDLLST     -1.0000     NotChecked  -24.7979    1421.7514   ✗       
+910   APVHNVSVVDLSSR           -1.0000     NotChecked  -24.8042    1478.7841   ✗       
+911   +42.011PVHN+0.984VSVVDLLSR-1.0000     NotChecked  -24.8059    1476.7936   ✗       
+912   +42.011PVHNVSVVDLGSR     -1.0000     NotChecked  -24.8143    1419.7470   ✗       
+913   +43.006PVHN+0.984VSVVDLLVR-1.0000     NotChecked  -24.8358    1489.8253   ✗       
+914   +42.011PVHNVSVVDLTSR     -1.0000     NotChecked  -24.8389    1463.7732   ✗       
+915   +43.006PVHNVSVVDLSSR     -1.0000     NotChecked  -24.8393    1450.7528   ✗       
+916   LPVHNVSVVDLLSL           -1.0000     NotChecked  -24.8453    1503.8661   ✗       
+917   APVHNVSVVDLVSR           -1.0000     NotChecked  -24.8594    1490.8205   ✗       
+918   +42.011PVHNVSVVDLKSR     -1.0000     NotChecked  -24.8657    1490.8205   ✗       
+919   +42.011PVHNVSVVDLLR      -1.0000     NotChecked  -24.8672    1388.7776   ✗       
+920   +43.006PVHNVSVVDLLSV     -1.0000     NotChecked  -24.8822    1419.7722   ✗       
+921   +43.006PVHNVSVVDLVSR     -1.0000     NotChecked  -24.8944    1462.7892   ✗       
+922   PVHNVSVVDLLNR            -1.0000     NotChecked  -24.8960    1460.8100   ✗       
+923   +43.006PVHNVSVVDLTNR     -1.0000     NotChecked  -24.8981    1491.7794   ✗       
+924   +42.011PVHNVSVVDLQ+0.984SR-1.0000     NotChecked  -24.9121    1491.7682   ✗       
+925   +42.011PVHNVSVVDLLST     -1.0000     NotChecked  -24.9245    1420.7562   ✗       
+926   APVHNVSVVDLLLR           -1.0000     NotChecked  -24.9315    1530.8882   ✗       
+927   +43.006PVHNVSVVDELSR     -1.0000     NotChecked  -24.9420    1492.7634   ✗       
+928   +43.006PVHNVSVVDLLR      -1.0000     NotChecked  -24.9482    1389.7728   ✗       
+929   +43.006PVHNVSVVDLN+0.984SR-1.0000     NotChecked  -24.9552    1478.7478   ✗       
+930   +43.006PVHNVSVVDLLSN     -1.0000     NotChecked  -24.9556    1434.7467   ✗       
+931   +43.006PVHNVSVVDSLSR     -1.0000     NotChecked  -24.9623    1450.7528   ✗       
+932   +43.006PVHNVSVVDLLLR     -1.0000     NotChecked  -24.9665    1502.8569   ✗       
+933   +43.006PVHNVSVVN+0.984LLLR-1.0000     NotChecked  -24.9674    1502.8569   ✗       
+934   +43.006PVHNVSVVDLNSR     -1.0000     NotChecked  -24.9777    1477.7637   ✗       
+935   APVHNVSVVDLTSR           -1.0000     NotChecked  -24.9906    1492.7998   ✗       
+936   LPVHNVSVVDLLR            -1.0000     NotChecked  -25.0040    1459.8511   ✗       
+937   +43.006PLHNVSVVDLLSR     -1.0000     NotChecked  -25.0079    1490.8205   ✗       
+938   APVHNVSVVDLLR            -1.0000     NotChecked  -25.0189    1417.8041   ✗       
+939   +43.006PVHNVSVVELLSR     -1.0000     NotChecked  -25.0290    1490.8205   ✗       
+940   +43.006PVHNVSVVDQLSR     -1.0000     NotChecked  -25.0394    1491.7794   ✗       
+941   APVHNVSVVDLLVR           -1.0000     NotChecked  -25.0511    1516.8726   ✗       
+942   +43.006PVHNVSVVDLLR      -1.0000     NotChecked  -25.0539    1389.7728   ✗       
+943   +43.006PVHNVSVVDLLSK     -1.0000     NotChecked  -25.0548    1448.7987   ✗       
+944   +42.011PVHNVSVVN+0.984LLSR-1.0000     NotChecked  -25.0571    1475.8096   ✗       
+945   PVHNVSVVDLLTR            -1.0000     NotChecked  -25.0672    1447.8147   ✗       
+946   +43.006PVHNVSVVDLTTR     -1.0000     NotChecked  -25.0693    1478.7841   ✗       
+947   +42.011PVHNVSVVDLN+0.984SR-1.0000     NotChecked  -25.0818    1477.7525   ✗       
+948   +43.006PVHNVSVVDLLVR     -1.0000     NotChecked  -25.0861    1488.8413   ✗       
+949   +43.006PVHNVSVVN+0.984LLVR-1.0000     NotChecked  -25.0870    1488.8413   ✗       
+950   +42.011PVHNVSVVDSLSR     -1.0000     NotChecked  -25.0889    1449.7576   ✗       
+951   +42.011PVHNVSVVDLLLR     -1.0000     NotChecked  -25.0931    1501.8617   ✗       
+952   +43.006PVHNVSVVDLQSR     -1.0000     NotChecked  -25.0990    1491.7794   ✗       
+953   LPVHNVSVVDLSSR           -1.0000     NotChecked  -25.1026    1520.8311   ✗       
+954   +42.011PVHNVSVVDLNSR     -1.0000     NotChecked  -25.1043    1476.7685   ✗       
+955   +42.011PVHNVSVVDLLSR     -1.0000     NotChecked  -25.1076    1475.8096   ✗       
+956   +43.006PVHNVSVVDLLSR     -1.0000     NotChecked  -25.1293    1476.8049   ✗       
+957   +42.011PLHNVSVVDLLSR     -1.0000     NotChecked  -25.1345    1489.8253   ✗       
+958   +43.006PVHNVSVVDLLVR     -1.0000     NotChecked  -25.1375    1488.8413   ✗       
+959   LPVHNVSVVDLLSV           -1.0000     NotChecked  -25.1456    1489.8504   ✗       
+960   +43.006PVHNVSVVDLLSQ     -1.0000     NotChecked  -25.1548    1448.7623   ✗       
+961   GPVHNVSVVDLLSR           -1.0000     NotChecked  -25.1610    1490.8205   ✗       
+962   PVHNVSVVDLLS             -1.0000     NotChecked  -25.1687    1277.6980   ✗       
+963   +43.006PVHNVSVVDLTS      -1.0000     NotChecked  -25.1708    1308.6674   ✗       
+964   +43.006PVHN+0.984VSVVDLLSR-1.0000     NotChecked  -25.1728    1477.7889   ✗       
+965   +43.006PVHNVSVVDLGSR     -1.0000     NotChecked  -25.1812    1420.7423   ✗       
+966   PVHNVSVVDLTSR            -1.0000     NotChecked  -25.1837    1421.7627   ✗       
+967   +43.006PVHNVSVVPLLSR     -1.0000     NotChecked  -25.1938    1458.8307   ✗       
+968   +43.006PVHNVSVVTLLSR     -1.0000     NotChecked  -25.1958    1462.8256   ✗       
+969   PVHNVSVVDLLN+0.984R      -1.0000     NotChecked  -25.2013    1461.7940   ✗       
+970   +43.006PVHNVSVVDLTN+0.984R-1.0000     NotChecked  -25.2034    1492.7634   ✗       
+971   +43.006PVHNVSVVDLLSR     -1.0000     NotChecked  -25.2042    1476.8049   ✗       
+972   APVHNVSVVN+0.984LLSR     -1.0000     NotChecked  -25.2088    1504.8362   ✗       
+973   LPVHNVSVVDLLR            -1.0000     NotChecked  -25.2115    1459.8511   ✗       
+974   +42.011PVHNVSVVDLLVR     -1.0000     NotChecked  -25.2127    1487.8460   ✗       
+975   +43.006PVHNVSVVDLKSR     -1.0000     NotChecked  -25.2326    1491.8158   ✗       
+976   +42.011PVHNVSVVDLLNR     -1.0000     NotChecked  -25.2420    1502.8205   ✗       
+977   +43.006PVHNVSVVN+0.984LLSR-1.0000     NotChecked  -25.2438    1476.8049   ✗       
+978   +42.011PVHNVSVVDLLSR     -1.0000     NotChecked  -25.2559    1475.8096   ✗       
+979   +43.006PVHNVSVVDLLER     -1.0000     NotChecked  -25.2673    1518.8154   ✗       
+980   +43.006PVHNVSVVDLQ+0.984SR-1.0000     NotChecked  -25.2790    1492.7634   ✗       
+981   +43.006PVHNVSVVDLLST     -1.0000     NotChecked  -25.2914    1421.7514   ✗       
+982   +42.011PVHN+0.984VSVVDLLSR-1.0000     NotChecked  -25.2993    1476.7936   ✗       
+983   LPVHNVSVVDLLSK           -1.0000     NotChecked  -25.3182    1518.8770   ✗       
+984   PVHNVSVVDLLSR            -1.0000     NotChecked  -25.3349    1433.7991   ✗       
+985   +43.006PVHNVSVVDLTSR     -1.0000     NotChecked  -25.3370    1464.7685   ✗       
+986   +43.006PVHNVSVVDLLSR     -1.0000     NotChecked  -25.3455    1476.8049   ✗       
+987   +43.006PVHNVTVVDLLSR     -1.0000     NotChecked  -25.3500    1490.8205   ✗       
+988   APVHNVSVVDLLVR           -1.0000     NotChecked  -25.3644    1516.8726   ✗       
+989   +42.011PVHNVSVVN+0.984LLSR-1.0000     NotChecked  -25.3704    1475.8096   ✗       
+990   +43.006PVHNVSVVDM+15.995LSR-1.0000     NotChecked  -25.3870    1510.7562   ✗       
+991   +42.011PVHNVSVVDLLER     -1.0000     NotChecked  -25.3939    1517.8202   ✗       
+992   +43.006PVHLVSVVDLLSR     -1.0000     NotChecked  -25.4005    1475.8460   ✗       
+993   +42.011PVHNVSVVDLLTR     -1.0000     NotChecked  -25.4132    1489.8253   ✗       
+994   APVHNVSVVDLLLR           -1.0000     NotChecked  -25.4250    1530.8882   ✗       
+995   LPVHNVSVVDLGSR           -1.0000     NotChecked  -25.4445    1490.8205   ✗       
+996   +43.006PVHNVSVVDLN+0.984SR-1.0000     NotChecked  -25.4487    1478.7478   ✗       
+997   APVHN+0.984VSVVDLLSR     -1.0000     NotChecked  -25.4510    1505.8202   ✗       
+998   +43.006PVHNVSVVDSLSR     -1.0000     NotChecked  -25.4558    1450.7528   ✗       
+999   +43.006PVHNVSVVDLLLR     -1.0000     NotChecked  -25.4600    1502.8569   ✗       
+1000  PVHNVSVVDLLSR            -1.0000     NotChecked  -25.4708    1433.7991   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: VPVHNVSVVDLTVR
+Similarity: 0.8763
+De Novo Score: -8.8970
+Source: Database
+Correct: ✓
+

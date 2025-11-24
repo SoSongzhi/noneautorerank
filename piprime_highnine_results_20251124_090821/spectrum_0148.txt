@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 148
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 676.8458
+Precursor charge: 2+
+Ground truth: DFPNINFAISSK
+Ground truth (normalized): DFPNINFAISSK
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 121
+Used for reranking: 121
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 121 (12.1%)
+Database matches: 51 (5.1%)
+Prosit predictions: 60 (6.0%)
+Failed: 10 (1.0%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 60/1000
+Similarity: 0.2096
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     N+0.984MPNLNFSLSSK       0.4963      Prosit      -25.9956    1351.6442   ✓       
+2     DFPN+0.984LLFALSSK       0.4934      Prosit      -21.2017    1351.7024   ✓       
+3     DMPNLNFSLSSK             0.4760      Prosit      -21.3115    1351.6442   ✓       
+4     N+0.984FPNLNFALSSK       0.4716      Prosit      -4.6949     1351.6772   ✓       
+5     N+0.984FPNLNFALSSK       0.4716      Prosit      -13.7064    1351.6772   ✓       
+6     N+0.984FPNLNFALSSK       0.4716      Prosit      -13.7494    1351.6772   ✓       
+7     N+0.984FPNLNFALSSK       0.4716      Prosit      -14.8853    1351.6772   ✓       
+8     N+0.984FPNLNFALSSK       0.4716      Prosit      -15.2405    1351.6772   ✓       
+9     N+0.984FPNLNFALSSK       0.4716      Prosit      -16.2900    1351.6772   ✓       
+10    N+0.984FPNLNFALSSK       0.4716      Prosit      -17.3019    1351.6772   ✓       
+11    N+0.984FPNLNFALSSK       0.4716      Prosit      -17.6225    1351.6772   ✓       
+12    NFPN+0.984LNFALSSK       0.4716      Prosit      -18.9381    1351.6772   ✓       
+13    N+0.984FPNLNFALSSK       0.4716      Prosit      -19.0037    1351.6772   ✓       
+14    N+0.984FPNLNFALSSK       0.4716      Prosit      -19.7150    1351.6772   ✓       
+15    N+0.984FPNLNFALSSK       0.4716      Prosit      -20.5078    1351.6772   ✓       
+16    N+0.984FPNLNFALSSK       0.4716      Prosit      -21.1736    1351.6772   ✓       
+17    N+0.984FPNLNFALSSK       0.4716      Prosit      -21.2230    1351.6772   ✓       
+18    N+0.984FPNLNFALSSK       0.4716      Prosit      -22.3806    1351.6772   ✓       
+19    N+0.984FPNLNFALSSK       0.4716      Prosit      -22.5894    1351.6772   ✓       
+20    N+0.984FPNLNFALSSK       0.4716      Prosit      -22.7608    1351.6772   ✓       
+21    NFPNLN+0.984FALSSK       0.4716      Prosit      -22.8811    1351.6772   ✓       
+22    N+0.984FPNLNFALSSK       0.4716      Prosit      -22.9330    1351.6772   ✓       
+23    N+0.984FPNLNFALSSK       0.4716      Prosit      -23.8967    1351.6772   ✓       
+24    N+0.984FPNLNFALSSK       0.4716      Prosit      -23.9397    1351.6772   ✓       
+25    N+0.984FPNLNFALSSK       0.4716      Prosit      -24.2519    1351.6772   ✓       
+26    N+0.984FPNLNFALSSK       0.4716      Prosit      -24.2593    1351.6772   ✓       
+27    N+0.984FPNLNFALSSK       0.4716      Prosit      -24.2949    1351.6772   ✓       
+28    N+0.984FPNLNFALSSK       0.4716      Prosit      -24.7480    1351.6772   ✓       
+29    N+0.984FPNLNFALSSK       0.4716      Prosit      -25.3014    1351.6772   ✓       
+30    N+0.984FPNLNFALSSK       0.4716      Prosit      -25.3444    1351.6772   ✓       
+31    N+0.984FPNLNFALSSK       0.4716      Prosit      -25.4308    1351.6772   ✓       
+32    N+0.984FPNLNFALSSK       0.4716      Prosit      -26.3133    1351.6772   ✓       
+33    N+0.984FPNLNFALSSK       0.4716      Prosit      -26.3563    1351.6772   ✓       
+34    N+0.984FPNLNFALSSK       0.4716      Prosit      -26.4803    1351.6772   ✓       
+35    N+0.984FPNLNFALSSK       0.4716      Prosit      -26.6340    1351.6772   ✓       
+36    N+0.984FPNLNFALSSK       0.4716      Prosit      -26.6770    1351.6772   ✓       
+37    N+0.984FPNLNFALSSK       0.4716      Prosit      -26.8355    1351.6772   ✓       
+38    N+0.984FPNLNFALSSK       0.4716      Prosit      -27.1231    1351.6772   ✓       
+39    N+0.984FPNLNFALSSK       0.4716      Prosit      -27.4922    1351.6772   ✓       
+40    M+15.995DPNLNFALSSK      0.4684      Prosit      -22.9704    1351.6442   ✓       
+41    DMPNLNYALSSK             0.4664      Prosit      -20.5707    1351.6442   ✓       
+42    N+0.984MPNLNYALSSK       0.4647      Prosit      -25.2547    1351.6442   ✓       
+43    N+0.984M+15.995PNLNFALSSK0.4646      Prosit      -15.0617    1351.6442   ✓       
+44    N+0.984M+15.995PNLNFALSSK0.4646      Prosit      -24.1161    1351.6442   ✓       
+45    N+0.984M+15.995PNLNFALSSK0.4646      Prosit      -25.2520    1351.6442   ✓       
+46    N+0.984M+15.995PNLNFALSSK0.4646      Prosit      -25.6072    1351.6442   ✓       
+47    N+0.984M+15.995PNLNFALSSK0.4646      Prosit      -26.6567    1351.6442   ✓       
+48    FDPNLNFALSSK             0.4614      Prosit      -21.3815    1351.6772   ✓       
+49    NFPDLNFALSSK             0.4562      Prosit      -22.8394    1351.6772   ✓       
+50    N+0.984FPN+0.984LLFALSSK 0.4304      Prosit      -25.8858    1351.7024   ✓       
+51    DMPNENFALSSK             0.4143      Prosit      -24.1370    1351.6078   ✓       
+52    EFPNLNFGLSSK             0.3556      Prosit      -26.4292    1351.6772   ✓       
+53    Q+0.984FPNLNFGLSSK       0.3441      Prosit      -25.9562    1351.6772   ✓       
+54    EFPNLNFAVSSK             0.3309      Prosit      -25.2438    1351.6772   ✓       
+55    Q+0.984FPNVNFALSSK       0.3156      Prosit      -26.6335    1351.6772   ✓       
+56    Q+0.984FPNLNFAVSSK       0.2877      Prosit      -24.7708    1351.6772   ✓       
+57    N+0.984FPNLNFALSSQ       0.2423      Prosit      -21.4732    1351.6408   ✓       
+58    DFPNLNFALSSQ             0.2412      Prosit      -16.7891    1351.6408   ✓       
+59    DSFPNLNFALSK             0.2102      Prosit      -23.8584    1351.6772   ✓       
+60    DFPNLNFALSSK             0.2096      Database    -0.0108     1351.6772   ✓       ✓
+61    DFPNLNFALSSK             0.2096      Database    -9.0223     1351.6772   ✓       ✓
+62    DFPNLNFALSSK             0.2096      Database    -9.0653     1351.6772   ✓       ✓
+63    DFPNLNFALSSK             0.2096      Database    -9.2712     1351.6772   ✓       ✓
+64    DFPNLNFALSSK             0.2096      Database    -10.2012    1351.6772   ✓       ✓
+65    DFPNLNFALSSK             0.2096      Database    -10.5564    1351.6772   ✓       ✓
+66    DFPNLNFALSSK             0.2096      Database    -11.6059    1351.6772   ✓       ✓
+67    DFPNLNFALSSK             0.2096      Database    -12.6178    1351.6772   ✓       ✓
+68    DFPNLNFALSSK             0.2096      Database    -12.9384    1351.6772   ✓       ✓
+69    DFPNLNFALSSK             0.2096      Database    -14.3197    1351.6772   ✓       ✓
+70    DFPNLNFALSSK             0.2096      Database    -15.0309    1351.6772   ✓       ✓
+71    DFPNLNFALSSK             0.2096      Database    -15.8237    1351.6772   ✓       ✓
+72    DFPNLNFALSSK             0.2096      Database    -16.4895    1351.6772   ✓       ✓
+73    DFPNLNFALSSK             0.2096      Database    -16.5389    1351.6772   ✓       ✓
+74    DFPNLNFALSSK             0.2096      Database    -17.6965    1351.6772   ✓       ✓
+75    DFPNLNFALSSK             0.2096      Database    -17.9054    1351.6772   ✓       ✓
+76    DFPNLNFALSSK             0.2096      Database    -18.0767    1351.6772   ✓       ✓
+77    DFPNLNFALSSK             0.2096      Database    -18.2489    1351.6772   ✓       ✓
+78    DFPNLNFALSSK             0.2096      Database    -18.3257    1351.6772   ✓       ✓
+79    DFPNLNFALSSK             0.2096      Database    -19.2126    1351.6772   ✓       ✓
+80    DFPNLNFALSSK             0.2096      Database    -19.2556    1351.6772   ✓       ✓
+81    DFPNLNFALSSK             0.2096      Database    -19.4615    1351.6772   ✓       ✓
+82    DFPNLNFALSSK             0.2096      Database    -19.5678    1351.6772   ✓       ✓
+83    DFPNLNFALSSK             0.2096      Database    -19.5752    1351.6772   ✓       ✓
+84    DFPNLNFALSSK             0.2096      Database    -19.6108    1351.6772   ✓       ✓
+85    DFPNLNFALSSK             0.2096      Database    -19.8168    1351.6772   ✓       ✓
+86    DFPNLNFALSSK             0.2096      Database    -20.0639    1351.6772   ✓       ✓
+87    DFPNLNFALSSK             0.2096      Database    -20.6173    1351.6772   ✓       ✓
+88    DFPNLNFALSSK             0.2096      Database    -20.6603    1351.6772   ✓       ✓
+89    DFPNLNFALSSK             0.2096      Database    -20.7467    1351.6772   ✓       ✓
+90    DFPNLNFALSSK             0.2096      Database    -20.8663    1351.6772   ✓       ✓
+91    DFPNLNFALSSK             0.2096      Database    -21.6292    1351.6772   ✓       ✓
+92    DFPNLNFALSSK             0.2096      Database    -21.6722    1351.6772   ✓       ✓
+93    DFPNLNFALSSK             0.2096      Database    -21.7962    1351.6772   ✓       ✓
+94    DFPNLNFALSSK             0.2096      Database    -21.8781    1351.6772   ✓       ✓
+95    DFPNLNFALSSK             0.2096      Database    -21.9499    1351.6772   ✓       ✓
+96    DFPNLNFALSSK             0.2096      Database    -21.9929    1351.6772   ✓       ✓
+97    DFPNLNFALSSK             0.2096      Database    -22.1514    1351.6772   ✓       ✓
+98    DFPNLNFALSSK             0.2096      Database    -22.1988    1351.6772   ✓       ✓
+99    DFPNLNFALSSK             0.2096      Database    -22.4390    1351.6772   ✓       ✓
+100   DFPNLNFALSSK             0.2096      Database    -22.8081    1351.6772   ✓       ✓
+101   DFPNLNFALSSK             0.2096      Database    -23.1288    1351.6772   ✓       ✓
+102   DFPNLNFALSSK             0.2096      Database    -23.1633    1351.6772   ✓       ✓
+103   DFPNLNFALSSK             0.2096      Database    -23.3311    1351.6772   ✓       ✓
+104   DFPNLNFALSSK             0.2096      Database    -23.3741    1351.6772   ✓       ✓
+105   DFPNLNFALSSK             0.2096      Database    -23.4840    1351.6772   ✓       ✓
+106   DFPNLNFALSSK             0.2096      Database    -23.5800    1351.6772   ✓       ✓
+107   DFPNLNFALSSK             0.2096      Database    -24.0423    1351.6772   ✓       ✓
+108   DFPNLNFALSSK             0.2096      Database    -24.0854    1351.6772   ✓       ✓
+109   DFPNLNFALSSK             0.2096      Database    -24.2128    1351.6772   ✓       ✓
+110   DFPNLNFALSSK             0.2096      Database    -24.2913    1351.6772   ✓       ✓
+111   +42.011FPNLNFALC+57.021SK0.1715      Prosit      -26.6859    1351.6595   ✓       
+112   DMPNLNFALSSK             -1.0000     NotChecked  -7.9056     1335.6493   ✗       
+113   DPPNLNFALSSK             -1.0000     NotChecked  -8.9117     1301.6616   ✗       
+114   DM+15.995PNLNFALSSK      -1.0000     Failed      -10.3776    1351.6442   ✓       
+115   +43.006FPNLNFALSSK       -1.0000     NotChecked  -10.4456    1279.6561   ✗       
+116   NFPNLNFALSSK             -1.0000     NotChecked  -10.4547    1350.6932   ✗       
+117   +42.011FPNLNFALSSK       -1.0000     NotChecked  -10.6204    1278.6608   ✗       
+118   DSPNLNFALSSK             -1.0000     NotChecked  -11.3863    1291.6408   ✗       
+119   DAPNLNFALSSK             -1.0000     NotChecked  -11.9328    1275.6459   ✗       
+120   DDPNLNFALSSK             -1.0000     NotChecked  -12.1187    1319.6357   ✗       
+121   DLPNLNFALSSK             -1.0000     NotChecked  -12.2880    1317.6929   ✗       
+122   DFPNLNFALSK              -1.0000     NotChecked  -12.4260    1264.6452   ✗       
+123   N+0.984MPNLNFALSSK       -1.0000     NotChecked  -12.5897    1335.6493   ✗       
+124   DFPNLLFALSSK             -1.0000     NotChecked  -12.7183    1350.7184   ✗       
+125   DFPNLFALSSK              -1.0000     NotChecked  -13.3938    1237.6343   ✗       
+126   N+0.984PPNLNFALSSK       -1.0000     NotChecked  -13.5958    1301.6616   ✗       
+127   DFPNLSFALSSK             -1.0000     NotChecked  -13.6385    1324.6663   ✗       
+128   DFSNLNFALSSK             -1.0000     NotChecked  -13.8604    1341.6565   ✗       
+129   DFANLNFALSSK             -1.0000     NotChecked  -13.9637    1325.6616   ✗       
+130   DFPGLNFALSSK             -1.0000     NotChecked  -13.9765    1294.6558   ✗       
+131   DFPNLNFAVSSK             -1.0000     NotChecked  -14.0069    1337.6616   ✗       
+132   DFPNLNFALSK              -1.0000     NotChecked  -14.2061    1264.6452   ✗       
+133   DFPNLNFALSS              -1.0000     NotChecked  -14.2071    1223.5823   ✗       
+134   DFPNLNLALSSK             -1.0000     NotChecked  -14.2691    1317.6929   ✗       
+135   DFGNLNFALSSK             -1.0000     NotChecked  -14.2934    1311.6459   ✗       
+136   DFPNLNSALSSK             -1.0000     NotChecked  -14.5198    1291.6408   ✗       
+137   DFPNLNFASSSK             -1.0000     NotChecked  -14.8353    1325.6252   ✗       
+138   DFPSLNFALSSK             -1.0000     NotChecked  -14.8648    1324.6663   ✗       
+139   DFPNLNFGLSSK             -1.0000     NotChecked  -15.1923    1337.6616   ✗       
+140   DFPLLNFALSSK             -1.0000     NotChecked  -15.2140    1350.7184   ✗       
+141   DFPNLNMALSSK             -1.0000     NotChecked  -15.2887    1335.6493   ✗       
+142   DFPALNFALSSK             -1.0000     NotChecked  -15.2903    1308.6714   ✗       
+143   DFNLNFALSSK              -1.0000     NotChecked  -15.3564    1254.6245   ✗       
+144   DFPNLNEALSSK             -1.0000     NotChecked  -15.5482    1333.6514   ✗       
+145   DFPNLNFALSK              -1.0000     NotChecked  -15.5999    1264.6452   ✗       
+146   DFPNLNFLSSK              -1.0000     NotChecked  -15.6377    1280.6401   ✗       
+147   DFPNLNAALSSK             -1.0000     NotChecked  -15.8162    1275.6459   ✗       
+148   DFPNLNFALSK              -1.0000     NotChecked  -15.8268    1264.6452   ✗       
+149   DFPNLNFALASK             -1.0000     NotChecked  -15.8525    1335.6823   ✗       
+150   DFPNLNQALSSK             -1.0000     NotChecked  -15.8594    1332.6674   ✗       
+151   DFPNVNFALSSK             -1.0000     NotChecked  -15.8696    1337.6616   ✗       
+152   N+0.984SPNLNFALSSK       -1.0000     NotChecked  -16.0704    1291.6408   ✗       
+153   DFPNLNVALSSK             -1.0000     NotChecked  -16.0772    1303.6772   ✗       
+154   DFPNLNFALGSK             -1.0000     NotChecked  -16.1028    1321.6667   ✗       
+155   DFPNLNFALSAK             -1.0000     NotChecked  -16.1306    1335.6823   ✗       
+156   DMPN+0.984LNFALSSK       -1.0000     NotChecked  -16.3890    1336.6333   ✗       
+157   DFPNLNFAASSK             -1.0000     NotChecked  -16.4776    1309.6303   ✗       
+158   N+0.984APNLNFALSSK       -1.0000     NotChecked  -16.6169    1275.6459   ✗       
+159   N+0.984DPNLNFALSSK       -1.0000     NotChecked  -16.8028    1319.6357   ✗       
+160   DFPNPNFALSSK             -1.0000     NotChecked  -16.8205    1335.6459   ✗       
+161   DFPNLNFASSK              -1.0000     NotChecked  -16.8332    1238.5932   ✗       
+162   DMPNLNFALSSK             -1.0000     NotChecked  -16.9600    1335.6493   ✗       
+163   N+0.984LPNLNFALSSK       -1.0000     NotChecked  -16.9720    1317.6929   ✗       
+164   DFPNLNFALSSL             -1.0000     NotChecked  -17.0043    1336.6663   ✗       
+165   N+0.984FPNLNFALSK        -1.0000     NotChecked  -17.1100    1264.6452   ✗       
+166   DMPNLNFALSSK             -1.0000     NotChecked  -17.1660    1335.6493   ✗       
+167   DFPNLNFATSSK             -1.0000     NotChecked  -17.2500    1339.6408   ✗       
+168   DPPN+0.984LNFALSSK       -1.0000     NotChecked  -17.3952    1302.6456   ✗       
+169   N+0.984FPNLLFALSSK       -1.0000     NotChecked  -17.4024    1350.7184   ✗       
+170   DFPNLNFALSSA             -1.0000     NotChecked  -17.7166    1294.6194   ✗       
+171   DFPNLNFALSST             -1.0000     NotChecked  -17.8266    1324.6299   ✗       
+172   DPPNLNFALSSK             -1.0000     NotChecked  -17.9662    1301.6616   ✗       
+173   N+0.984FPNLFALSSK        -1.0000     NotChecked  -18.0779    1237.6343   ✗       
+174   DMPNLNFALSSK             -1.0000     NotChecked  -18.0959    1335.6493   ✗       
+175   DPPNLNFALSSK             -1.0000     NotChecked  -18.1721    1301.6616   ✗       
+176   FPPNLNFALSSK             -1.0000     NotChecked  -18.1746    1333.7030   ✗       
+177   DFPNLNFALSSN             -1.0000     NotChecked  -18.2377    1337.6252   ✗       
+178   FPNLNFALSSK              -1.0000     NotChecked  -18.2851    1236.6503   ✗       
+179   DFPNLNFALSSG             -1.0000     NotChecked  -18.3103    1280.6037   ✗       
+180   N+0.984FPNLSFALSSK       -1.0000     NotChecked  -18.3226    1324.6663   ✗       
+181   +43.006MPNLNFALSSK       -1.0000     NotChecked  -18.3404    1263.6282   ✗       
+182   NMPNLNFALSSK             -1.0000     NotChecked  -18.3494    1334.6653   ✗       
+183   DMPNLNFALSSK             -1.0000     NotChecked  -18.4511    1335.6493   ✗       
+184   +42.011MPNLNFALSSK       -1.0000     NotChecked  -18.5151    1262.6329   ✗       
+185   N+0.984FSNLNFALSSK       -1.0000     NotChecked  -18.5445    1341.6565   ✗       
+186   DFPNLNFALSSV             -1.0000     NotChecked  -18.6314    1322.6507   ✗       
+187   N+0.984FANLNFALSSK       -1.0000     NotChecked  -18.6478    1325.6616   ✗       
+188   N+0.984FPGLNFALSSK       -1.0000     NotChecked  -18.6606    1294.6558   ✗       
+189   Q+0.984MPNLNFALSSK       -1.0000     NotChecked  -18.6695    1349.6649   ✗       
+190   N+0.984FPNLNFAVSSK       -1.0000     NotChecked  -18.6910    1337.6616   ✗       
+191   N+0.984FPNLNFALSK        -1.0000     NotChecked  -18.8902    1264.6452   ✗       
+192   N+0.984FPNLNFALSS        -1.0000     NotChecked  -18.8912    1223.5823   ✗       
+193   +43.006FPN+0.984LNFALSSK -1.0000     NotChecked  -18.9291    1280.6401   ✗       
+194   N+0.984FPNLNLALSSK       -1.0000     NotChecked  -18.9532    1317.6929   ✗       
+195   N+0.984FGNLNFALSSK       -1.0000     NotChecked  -18.9775    1311.6459   ✗       
+196   DPPNLNFALSSK             -1.0000     NotChecked  -19.1020    1301.6616   ✗       
+197   +42.011FPN+0.984LNFALSSK -1.0000     NotChecked  -19.1038    1279.6449   ✗       
+198   EMPNLNFALSSK             -1.0000     NotChecked  -19.1424    1349.6649   ✗       
+199   N+0.984FPNLNSALSSK       -1.0000     NotChecked  -19.2039    1291.6408   ✗       
+200   +43.006PPNLNFALSSK       -1.0000     NotChecked  -19.3465    1229.6404   ✗       
+201   NPPNLNFALSSK             -1.0000     NotChecked  -19.3555    1300.6775   ✗       
+202   DM+15.995PNLNFALSSK      -1.0000     Failed      -19.4321    1351.6442   ✓       
+203   +43.006FPNLNFALSSK       -1.0000     NotChecked  -19.4571    1279.6561   ✗       
+204   DPPNLNFALSSK             -1.0000     NotChecked  -19.4573    1301.6616   ✗       
+205   NFPNLNFALSSK             -1.0000     NotChecked  -19.4661    1350.6932   ✗       
+206   +43.006FPNLNFALSSK       -1.0000     NotChecked  -19.5001    1279.6561   ✗       
+207   DMPNLNFALSSK             -1.0000     NotChecked  -19.5006    1335.6493   ✗       
+208   NFPNLNFALSSK             -1.0000     NotChecked  -19.5091    1350.6932   ✗       
+209   N+0.984FPNLNFASSSK       -1.0000     NotChecked  -19.5194    1325.6252   ✗       
+210   +42.011PPNLNFALSSK       -1.0000     NotChecked  -19.5212    1228.6452   ✗       
+211   N+0.984FPSLNFALSSK       -1.0000     NotChecked  -19.5489    1324.6663   ✗       
+212   +42.011FPNLNFALSSK       -1.0000     NotChecked  -19.6318    1278.6608   ✗       
+213   DM+15.995PNLNFALSSK      -1.0000     Failed      -19.6380    1351.6442   ✓       
+214   DMPNLQFALSSK             -1.0000     NotChecked  -19.6524    1349.6649   ✗       
+215   +42.011FPNLNFALSSK       -1.0000     NotChecked  -19.6748    1278.6608   ✗       
+216   Q+0.984PPNLNFALSSK       -1.0000     NotChecked  -19.6756    1315.6772   ✗       
+217   M+15.995PPNLNFALSSK      -1.0000     NotChecked  -19.7635    1333.6700   ✗       
+218   QMPNLNFALSSK             -1.0000     NotChecked  -19.8667    1348.6809   ✗       
+219   DSPN+0.984LNFALSSK       -1.0000     NotChecked  -19.8698    1292.6248   ✗       
+220   N+0.984FPNLNFGLSSK       -1.0000     NotChecked  -19.8764    1337.6616   ✗       
+221   N+0.984FPLLNFALSSK       -1.0000     NotChecked  -19.8981    1350.7184   ✗       
+222   N+0.984FPNLNMALSSK       -1.0000     NotChecked  -19.9728    1335.6493   ✗       
+223   N+0.984FPALNFALSSK       -1.0000     NotChecked  -19.9744    1308.6714   ✗       
+224   N+0.984FNLNFALSSK        -1.0000     NotChecked  -20.0405    1254.6245   ✗       
+225   EPPNLNFALSSK             -1.0000     NotChecked  -20.1486    1315.6772   ✗       
+226   N+0.984FPNLNEALSSK       -1.0000     NotChecked  -20.2323    1333.6514   ✗       
+227   N+0.984FPNLNFALSK        -1.0000     NotChecked  -20.2840    1264.6452   ✗       
+228   DMPDLNFALSSK             -1.0000     NotChecked  -20.2903    1336.6333   ✗       
+229   DMPNLNFALSK              -1.0000     NotChecked  -20.3207    1248.6173   ✗       
+230   N+0.984FPNLNFLSSK        -1.0000     NotChecked  -20.3218    1280.6401   ✗       
+231   DMPNLN+0.984FALSSK       -1.0000     NotChecked  -20.3321    1336.6333   ✗       
+232   DAPN+0.984LNFALSSK       -1.0000     NotChecked  -20.4162    1276.6299   ✗       
+233   DSPNLNFALSSK             -1.0000     NotChecked  -20.4408    1291.6408   ✗       
+234   N+0.984FPNLNAALSSK       -1.0000     NotChecked  -20.5003    1275.6459   ✗       
+235   DPPNLNFALSSK             -1.0000     NotChecked  -20.5068    1301.6616   ✗       
+236   N+0.984FPNLNFALSK        -1.0000     NotChecked  -20.5109    1264.6452   ✗       
+237   DMPNLNFALSSK             -1.0000     NotChecked  -20.5125    1335.6493   ✗       
+238   N+0.984FPNLNFALASK       -1.0000     NotChecked  -20.5366    1335.6823   ✗       
+239   N+0.984FPNLNQALSSK       -1.0000     NotChecked  -20.5435    1332.6674   ✗       
+240   N+0.984FPNVNFALSSK       -1.0000     NotChecked  -20.5537    1337.6616   ✗       
+241   DM+15.995PNLNFALSSK      -1.0000     Failed      -20.5679    1351.6442   ✓       
+242   DDPN+0.984LNFALSSK       -1.0000     NotChecked  -20.6021    1320.6198   ✗       
+243   DMPNLLFALSSK             -1.0000     NotChecked  -20.6130    1334.6904   ✗       
+244   +43.006FPNLNFALSSK       -1.0000     NotChecked  -20.6360    1279.6561   ✗       
+245   NFPNLNFALSSK             -1.0000     NotChecked  -20.6450    1350.6932   ✗       
+246   DSPNLNFALSSK             -1.0000     NotChecked  -20.6467    1291.6408   ✗       
+247   FSPNLNFALSSK             -1.0000     NotChecked  -20.6492    1323.6823   ✗       
+248   DPPNLQFALSSK             -1.0000     NotChecked  -20.6586    1315.6772   ✗       
+249   N+0.984FPNLNVALSSK       -1.0000     NotChecked  -20.7613    1303.6772   ✗       
+250   DLPN+0.984LNFALSSK       -1.0000     NotChecked  -20.7714    1318.6769   ✗       
+251   N+0.984FPNLNFALGSK       -1.0000     NotChecked  -20.7869    1321.6667   ✗       
+252   +42.011FPNLNFALSSK       -1.0000     NotChecked  -20.8107    1278.6608   ✗       
+253   +43.006M+15.995PNLNFALSSK-1.0000     NotChecked  -20.8124    1279.6231   ✗       
+254   N+0.984FPNLNFALSAK       -1.0000     NotChecked  -20.8147    1335.6823   ✗       
+255   NM+15.995PNLNFALSSK      -1.0000     NotChecked  -20.8214    1350.6602   ✗       
+256   QPPNLNFALSSK             -1.0000     NotChecked  -20.8728    1314.6932   ✗       
+257   DMPELNFALSSK             -1.0000     NotChecked  -20.9012    1350.6490   ✗       
+258   DFPN+0.984LNFALSK        -1.0000     NotChecked  -20.9094    1265.6292   ✗       
+259   DM+15.995PNLNFALSSK      -1.0000     Failed      -20.9231    1351.6442   ✓       
+260   DMPNLDFALSSK             -1.0000     NotChecked  -20.9345    1336.6333   ✗       
+261   DMPNLNFALSSK             -1.0000     NotChecked  -20.9819    1335.6493   ✗       
+262   +42.011M+15.995PNLNFALSSK-1.0000     NotChecked  -20.9871    1278.6278   ✗       
+263   DAPNLNFALSSK             -1.0000     NotChecked  -20.9872    1275.6459   ✗       
+264   +43.006FPNLNFALSSK       -1.0000     NotChecked  -20.9912    1279.6561   ✗       
+265   NFPNLNFALSSK             -1.0000     NotChecked  -21.0002    1350.6932   ✗       
+266   N+0.984MPN+0.984LNFALSSK -1.0000     NotChecked  -21.0731    1336.6333   ✗       
+267   +43.006WPNLNFALSSK       -1.0000     NotChecked  -21.1300    1318.6670   ✗       
+268   N+0.984FPNLNFAASSK       -1.0000     NotChecked  -21.1617    1309.6303   ✗       
+269   +42.011FPNLNFALSSK       -1.0000     NotChecked  -21.1659    1278.6608   ✗       
+270   DDPNLNFALSSK             -1.0000     NotChecked  -21.1731    1319.6357   ✗       
+271   DAPNLNFALSSK             -1.0000     NotChecked  -21.1931    1275.6459   ✗       
+272   FAPNLNFALSSK             -1.0000     NotChecked  -21.1956    1307.6874   ✗       
+273   DMPNLEFALSSK             -1.0000     NotChecked  -21.2065    1350.6490   ✗       
+274   DMPNLFALSSK              -1.0000     NotChecked  -21.2885    1221.6064   ✗       
+275   DPPDLNFALSSK             -1.0000     NotChecked  -21.2965    1302.6456   ✗       
+276   +42.011WPNLNFALSSK       -1.0000     NotChecked  -21.3047    1317.6717   ✗       
+277   DPPNLNFALSK              -1.0000     NotChecked  -21.3268    1214.6295   ✗       
+278   DPPNLN+0.984FALSSK       -1.0000     NotChecked  -21.3382    1302.6456   ✗       
+279   DLPNLNFALSSK             -1.0000     NotChecked  -21.3424    1317.6929   ✗       
+280   DPNLNFALSSK              -1.0000     NotChecked  -21.3791    1204.6088   ✗       
+281   DFPNLNFALSK              -1.0000     NotChecked  -21.4374    1264.6452   ✗       
+282   DFPNLNFALSK              -1.0000     NotChecked  -21.4804    1264.6452   ✗       
+283   N+0.984FPNPNFALSSK       -1.0000     NotChecked  -21.5046    1335.6459   ✗       
+284   N+0.984FPNLNFASSK        -1.0000     NotChecked  -21.5173    1238.5932   ✗       
+285   DPPNLNFALSSK             -1.0000     NotChecked  -21.5186    1301.6616   ✗       
+286   DMPNLSFALSSK             -1.0000     NotChecked  -21.5333    1308.6384   ✗       
+287   DLPNLNFALSSK             -1.0000     NotChecked  -21.5483    1317.6929   ✗       
+288   FLPNLNFALSSK             -1.0000     NotChecked  -21.5508    1349.7343   ✗       
+289   DSPNLNFALSSK             -1.0000     NotChecked  -21.5766    1291.6408   ✗       
+290   DPPNLNYALSSK             -1.0000     NotChecked  -21.5768    1317.6565   ✗       
+291   DPPNLLFALSSK             -1.0000     NotChecked  -21.6191    1300.7027   ✗       
+292   N+0.984MPNLNFALSSK       -1.0000     NotChecked  -21.6441    1335.6493   ✗       
+293   DFPNLNFALSK              -1.0000     NotChecked  -21.6863    1264.6452   ✗       
+294   N+0.984FPNLNFALSSL       -1.0000     NotChecked  -21.6884    1336.6663   ✗       
+295   FFPNLNFALSK              -1.0000     NotChecked  -21.6888    1296.6867   ✗       
+296   DMPNLNFALSTK             -1.0000     NotChecked  -21.7267    1349.6649   ✗       
+297   DFPNLLFALSSK             -1.0000     NotChecked  -21.7297    1350.7184   ✗       
+298   DMSNLNFALSSK             -1.0000     NotChecked  -21.7552    1325.6286   ✗       
+299   +43.006GFPNLNFALSSK      -1.0000     NotChecked  -21.7632    1336.6776   ✗       
+300   DFPNLLFALSSK             -1.0000     NotChecked  -21.7727    1350.7184   ✗       
+301   +43.006SPNLNFALSSK       -1.0000     NotChecked  -21.8211    1219.6197   ✗       
+302   NSPNLNFALSSK             -1.0000     NotChecked  -21.8301    1290.6568   ✗       
+303   DMANLNFALSSK             -1.0000     NotChecked  -21.8585    1309.6336   ✗       
+304   DMPGLNFALSSK             -1.0000     NotChecked  -21.8712    1278.6278   ✗       
+305   DFPN+0.984LFALSSK        -1.0000     NotChecked  -21.8772    1238.6183   ✗       
+306   DMPQLNFALSSK             -1.0000     NotChecked  -21.8821    1349.6649   ✗       
+307   DMPNLNFAVSSK             -1.0000     NotChecked  -21.9017    1321.6336   ✗       
+308   DPPELNFALSSK             -1.0000     NotChecked  -21.9074    1316.6612   ✗       
+309   DSPNLNFALSSK             -1.0000     NotChecked  -21.9319    1291.6408   ✗       
+310   N+0.984FPNLNFATSSK       -1.0000     NotChecked  -21.9341    1339.6408   ✗       
+311   +43.006FAPNLNFALSSK      -1.0000     NotChecked  -21.9360    1350.6932   ✗       
+312   +42.011GFPNLNFALSSK      -1.0000     NotChecked  -21.9379    1335.6823   ✗       
+313   DPPNLDFALSSK             -1.0000     NotChecked  -21.9407    1302.6456   ✗       
+314   DMPNQNFALSSK             -1.0000     NotChecked  -21.9605    1350.6238   ✗       
+315   DM+15.995PNLNFALSSK      -1.0000     Failed      -21.9726    1351.6442   ✓       
+316   DFPNLLFALSSK             -1.0000     NotChecked  -21.9786    1350.7184   ✗       
+317   +42.011SPNLNFALSSK       -1.0000     NotChecked  -21.9958    1218.6245   ✗       
+318   DPPNLNFALSSR             -1.0000     NotChecked  -22.0196    1329.6677   ✗       
+319   +43.006FPNLNFALSSK       -1.0000     NotChecked  -22.0407    1279.6561   ✗       
+320   NFPNLNFALSSK             -1.0000     NotChecked  -22.0497    1350.6932   ✗       
+321   N+0.984PPN+0.984LNFALSSK -1.0000     NotChecked  -22.0793    1302.6456   ✗       
+322   DMPNLNFALSK              -1.0000     NotChecked  -22.1009    1248.6173   ✗       
+323   DMPNLNFALSS              -1.0000     NotChecked  -22.1019    1207.5543   ✗       
+324   +42.011FAPNLNFALSSK      -1.0000     NotChecked  -22.1108    1349.6980   ✗       
+325   DFPN+0.984LSFALSSK       -1.0000     NotChecked  -22.1220    1325.6503   ✗       
+326   DAPNLNFALSSK             -1.0000     NotChecked  -22.1231    1275.6459   ✗       
+327   Q+0.984SPNLNFALSSK       -1.0000     NotChecked  -22.1502    1305.6565   ✗       
+328   DPPNLNFLLSSK             -1.0000     NotChecked  -22.1566    1343.7085   ✗       
+329   DMPNLNLALSSK             -1.0000     NotChecked  -22.1638    1301.6649   ✗       
+330   DMGNLNFALSSK             -1.0000     NotChecked  -22.1882    1295.6180   ✗       
+331   +43.006FPNLQFALSSK       -1.0000     NotChecked  -22.1925    1293.6717   ✗       
+332   DPPNLEFALSSK             -1.0000     NotChecked  -22.2127    1316.6612   ✗       
+333   DMPNLNFALSSK             -1.0000     NotChecked  -22.2144    1335.6493   ✗       
+334   +42.011FPNLNFALSSK       -1.0000     NotChecked  -22.2154    1278.6608   ✗       
+335   M+15.995SPNLNFALSSK      -1.0000     NotChecked  -22.2381    1323.6493   ✗       
+336   DPPNLFALSSK              -1.0000     NotChecked  -22.2946    1187.6186   ✗       
+337   DDPNLNFALSSK             -1.0000     NotChecked  -22.3090    1319.6357   ✗       
+338   DPPNLNFSLSSK             -1.0000     NotChecked  -22.3176    1317.6565   ✗       
+339   DFSN+0.984LNFALSSK       -1.0000     NotChecked  -22.3439    1342.6405   ✗       
+340   +42.011FPNLQFALSSK       -1.0000     NotChecked  -22.3672    1292.6765   ✗       
+341   +43.006APNLNFALSSK       -1.0000     NotChecked  -22.3676    1203.6248   ✗       
+342   NAPNLNFALSSK             -1.0000     NotChecked  -22.3766    1274.6619   ✗       
+343   N+0.984FPNLNFALSSA       -1.0000     NotChecked  -22.4007    1294.6194   ✗       
+344   DFPNLFALSSK              -1.0000     NotChecked  -22.4052    1237.6343   ✗       
+345   DMPNLNSALSSK             -1.0000     NotChecked  -22.4146    1275.6129   ✗       
+346   +43.006AFPNLNFALSSK      -1.0000     NotChecked  -22.4461    1350.6932   ✗       
+347   DFAN+0.984LNFALSSK       -1.0000     NotChecked  -22.4472    1326.6456   ✗       
+348   DFPNLFALSSK              -1.0000     NotChecked  -22.4482    1237.6343   ✗       
+349   DLPNLNFALSSK             -1.0000     NotChecked  -22.4783    1317.6929   ✗       
+350   DAPNLNFALSSK             -1.0000     NotChecked  -22.4783    1275.6459   ✗       
+351   DFPN+0.984LNFAVSSK       -1.0000     NotChecked  -22.4904    1338.6456   ✗       
+352   DMPNLNFALTSK             -1.0000     NotChecked  -22.4963    1349.6649   ✗       
+353   N+0.984FPNLNFALSST       -1.0000     NotChecked  -22.5107    1324.6299   ✗       
+354   DPPNLSFALSSK             -1.0000     NotChecked  -22.5394    1274.6507   ✗       
+355   +42.011APNLNFALSSK       -1.0000     NotChecked  -22.5423    1202.6295   ✗       
+356   +43.006DPNLNFALSSK       -1.0000     NotChecked  -22.5535    1247.6146   ✗       
+357   NDPNLNFALSSK             -1.0000     NotChecked  -22.5625    1318.6517   ✗       
+358   DFPNLNFALSK              -1.0000     NotChecked  -22.6163    1264.6452   ✗       
+359   +43.006FAPNLNFALSSK      -1.0000     NotChecked  -22.6199    1350.6932   ✗       
+360   +42.011AFPNLNFALSSK      -1.0000     NotChecked  -22.6208    1349.6980   ✗       
+361   ESPNLNFALSSK             -1.0000     NotChecked  -22.6232    1305.6565   ✗       
+362   +43.006YPNLNFALSSK       -1.0000     NotChecked  -22.6449    1295.6510   ✗       
+363   DFPNLSFALSSK             -1.0000     NotChecked  -22.6500    1324.6663   ✗       
+364   N+0.984PPNLNFALSSK       -1.0000     NotChecked  -22.6503    1301.6616   ✗       
+365   DMPNNNFALSSK             -1.0000     NotChecked  -22.6540    1336.6081   ✗       
+366   DFPNLFALSSK              -1.0000     NotChecked  -22.6541    1237.6343   ✗       
+367   FFPNLFALSSK              -1.0000     NotChecked  -22.6566    1269.6758   ✗       
+368   DDPNLNFALSSK             -1.0000     NotChecked  -22.6642    1319.6357   ✗       
+369   DPPNLNFALSLK             -1.0000     NotChecked  -22.6870    1327.7136   ✗       
+370   DFPN+0.984LNFALSK        -1.0000     NotChecked  -22.6896    1265.6292   ✗       
+371   DFPN+0.984LNFALSS        -1.0000     NotChecked  -22.6906    1224.5663   ✗       
+372   DFPNLSFALSSK             -1.0000     NotChecked  -22.6930    1324.6663   ✗       
+373   Q+0.984APNLNFALSSK       -1.0000     NotChecked  -22.6967    1289.6616   ✗       
+374   DGSPNLNFALSSK            -1.0000     NotChecked  -22.7039    1348.6623   ✗       
+375   +43.006LPNLNFALSSK       -1.0000     NotChecked  -22.7228    1245.6717   ✗       
+376   +42.011DPNLNFALSSK       -1.0000     NotChecked  -22.7282    1246.6194   ✗       
+377   DMPNLNFASSSK             -1.0000     NotChecked  -22.7301    1309.5973   ✗       
+378   NLPNLNFALSSK             -1.0000     NotChecked  -22.7318    1316.7088   ✗       
+379   DPPNLNFALSTK             -1.0000     NotChecked  -22.7329    1315.6772   ✗       
+380   DFPN+0.984LNLALSSK       -1.0000     NotChecked  -22.7525    1318.6769   ✗       
+381   DMPSLNFALSSK             -1.0000     NotChecked  -22.7595    1308.6384   ✗       
+382   DPSNLNFALSSK             -1.0000     NotChecked  -22.7613    1291.6408   ✗       
+383   DFGN+0.984LNFALSSK       -1.0000     NotChecked  -22.7769    1312.6299   ✗       
+384   N+0.984MPNLNFALSSK       -1.0000     NotChecked  -22.7800    1335.6493   ✗       
+385   M+15.995APNLNFALSSK      -1.0000     NotChecked  -22.7845    1307.6544   ✗       
+386   DM+15.995PNLNFALSK       -1.0000     NotChecked  -22.7927    1264.6122   ✗       
+387   +42.011FAPNLNFALSSK      -1.0000     NotChecked  -22.7946    1349.6980   ✗       
+388   DSPNLNFALSSK             -1.0000     NotChecked  -22.8188    1291.6408   ✗       
+389   +42.011YPNLNFALSSK       -1.0000     NotChecked  -22.8196    1294.6558   ✗       
+390   DPQNLNFALSSK             -1.0000     NotChecked  -22.8290    1332.6674   ✗       
+391   +43.006FPDLNFALSSK       -1.0000     NotChecked  -22.8304    1280.6401   ✗       
+392   DLPNLNFALSSK             -1.0000     NotChecked  -22.8335    1317.6929   ✗       
+393   +43.006FPNLNFALSK        -1.0000     NotChecked  -22.8607    1192.6241   ✗       
+394   DPANLNFALSSK             -1.0000     NotChecked  -22.8646    1275.6459   ✗       
+395   NFPNLNFALSK              -1.0000     NotChecked  -22.8698    1263.6612   ✗       
+396   DFSNLNFALSSK             -1.0000     NotChecked  -22.8719    1341.6565   ✗       
+397   +43.006FPNLN+0.984FALSSK -1.0000     NotChecked  -22.8721    1280.6401   ✗       
+398   DPPGLNFALSSK             -1.0000     NotChecked  -22.8773    1244.6401   ✗       
+399   Q+0.984DPNLNFALSSK       -1.0000     NotChecked  -22.8826    1333.6514   ✗       
+400   DPPQLNFALSSK             -1.0000     NotChecked  -22.8883    1315.6772   ✗       
+401   +42.011LPNLNFALSSK       -1.0000     NotChecked  -22.8975    1244.6765   ✗       
+402   DFPNLSFALSSK             -1.0000     NotChecked  -22.8989    1324.6663   ✗       
+403   DPPNLNFAVSSK             -1.0000     NotChecked  -22.9078    1287.6459   ✗       
+404   DFPNLLFALSSK             -1.0000     NotChecked  -22.9086    1350.7184   ✗       
+405   N+0.984FPNLNFALSSN       -1.0000     NotChecked  -22.9218    1337.6252   ✗       
+406   DMPNLNFALSSK             -1.0000     NotChecked  -22.9256    1335.6493   ✗       
+407   DPPNLNFALSDK             -1.0000     NotChecked  -22.9320    1329.6565   ✗       
+408   DPPNQNFALSSK             -1.0000     NotChecked  -22.9667    1316.6361   ✗       
+409   DFPNLNFALSK              -1.0000     NotChecked  -22.9715    1264.6452   ✗       
+410   DFANLNFALSSK             -1.0000     NotChecked  -22.9752    1325.6616   ✗       
+411   DSPNLNFALSSK             -1.0000     NotChecked  -22.9814    1291.6408   ✗       
+412   DM+15.995PNLNFALSSK      -1.0000     Failed      -22.9845    1351.6442   ✓       
+413   DFPGLNFALSSK             -1.0000     NotChecked  -22.9879    1294.6558   ✗       
+414   N+0.984FPNLNFALSSG       -1.0000     NotChecked  -22.9944    1280.6037   ✗       
+415   DPENLNFALSSK             -1.0000     NotChecked  -22.9973    1333.6514   ✗       
+416   DPPNLYFALSSK             -1.0000     NotChecked  -22.9997    1350.6820   ✗       
+417   DFPN+0.984LNSALSSK       -1.0000     NotChecked  -23.0033    1292.6248   ✗       
+418   +42.011FPDLNFALSSK       -1.0000     NotChecked  -23.0051    1279.6449   ✗       
+419   DFPNLNFAVSSK             -1.0000     NotChecked  -23.0184    1337.6616   ✗       
+420   DFPGLNFALSSK             -1.0000     NotChecked  -23.0309    1294.6558   ✗       
+421   +42.011FPNLNFALSK        -1.0000     NotChecked  -23.0355    1191.6288   ✗       
+422   +42.011FPNLN+0.984FALSSK -1.0000     NotChecked  -23.0468    1279.6449   ✗       
+423   Q+0.984LPNLNFALSSK       -1.0000     NotChecked  -23.0519    1331.7085   ✗       
+424   +43.006FPNLNFALSSK       -1.0000     NotChecked  -23.0526    1279.6561   ✗       
+425   DFPNLNFAVSSK             -1.0000     NotChecked  -23.0614    1337.6616   ✗       
+426   NFPNLNFALSSK             -1.0000     NotChecked  -23.0616    1350.6932   ✗       
+427   DM+15.995PNLLFALSSK      -1.0000     NotChecked  -23.0850    1350.6853   ✗       
+428   DMPNLNFGLSSK             -1.0000     NotChecked  -23.0870    1321.6336   ✗       
+429   DPPNLNFALLSK             -1.0000     NotChecked  -23.0986    1327.7136   ✗       
+430   DPPNLNFALSK              -1.0000     NotChecked  -23.1070    1214.6295   ✗       
+431   DPPNLNFALSS              -1.0000     NotChecked  -23.1080    1173.5666   ✗       
+432   DMPLLNFALSSK             -1.0000     NotChecked  -23.1087    1334.6904   ✗       
+433   DWPNLNFALSK              -1.0000     NotChecked  -23.1103    1303.6561   ✗       
+434   +43.006FPNLNYALSSK       -1.0000     NotChecked  -23.1107    1295.6510   ✗       
+435   DFSNLNFALSSK             -1.0000     NotChecked  -23.1208    1341.6565   ✗       
+436   DSPNLQFALSSK             -1.0000     NotChecked  -23.1332    1305.6565   ✗       
+437   N+0.984MPNLNFALSSK       -1.0000     NotChecked  -23.1352    1335.6493   ✗       
+438   M+15.995LPNLNFALSSK      -1.0000     NotChecked  -23.1397    1349.7013   ✗       
+439   +43.006FPNLLFALSSK       -1.0000     NotChecked  -23.1531    1278.6972   ✗       
+440   NFPNLLFALSSK             -1.0000     NotChecked  -23.1621    1349.7343   ✗       
+441   EAPNLNFALSSK             -1.0000     NotChecked  -23.1696    1289.6616   ✗       
+442   DPPNLNLALSSK             -1.0000     NotChecked  -23.1700    1267.6772   ✗       
+443   DMPNLNMALSSK             -1.0000     NotChecked  -23.1834    1319.6214   ✗       
+444   DMPALNFALSSK             -1.0000     NotChecked  -23.1851    1292.6435   ✗       
+445   Q+0.984FPNLNFALSK        -1.0000     NotChecked  -23.1899    1278.6608   ✗       
+446   DPGNLNFALSSK             -1.0000     NotChecked  -23.1943    1261.6303   ✗       
+447   DPPNLHFALSSK             -1.0000     NotChecked  -23.2008    1324.6776   ✗       
+448   DFPNLNFALSK              -1.0000     NotChecked  -23.2176    1264.6452   ✗       
+449   DFPNLNFALSS              -1.0000     NotChecked  -23.2186    1223.5823   ✗       
+450   DPPNLNFALSSK             -1.0000     NotChecked  -23.2205    1301.6616   ✗       
+451   DFANLNFALSSK             -1.0000     NotChecked  -23.2241    1325.6616   ✗       
+452   +42.011FPNLNFALSSK       -1.0000     NotChecked  -23.2273    1278.6608   ✗       
+453   DPPNLNFALSSK             -1.0000     NotChecked  -23.2276    1301.6616   ✗       
+454   DFPGLNFALSSK             -1.0000     NotChecked  -23.2369    1294.6558   ✗       
+455   FFPGLNFALSSK             -1.0000     NotChecked  -23.2393    1326.6972   ✗       
+456   DGAPNLNFALSSK            -1.0000     NotChecked  -23.2503    1332.6674   ✗       
+457   DMNLNFALSSK              -1.0000     NotChecked  -23.2511    1238.5965   ✗       
+458   DFPNLNFALSK              -1.0000     NotChecked  -23.2606    1264.6452   ✗       
+459   DFPNLNFALSS              -1.0000     NotChecked  -23.2616    1223.5823   ✗       
+460   DFPNLLFALSSK             -1.0000     NotChecked  -23.2638    1350.7184   ✗       
+461   DFPNLNFAVSSK             -1.0000     NotChecked  -23.2673    1337.6616   ✗       
+462   M+15.995FPNLNFALSK       -1.0000     NotChecked  -23.2777    1296.6536   ✗       
+463   DFPNLNLALSSK             -1.0000     NotChecked  -23.2805    1317.6929   ✗       
+464   +42.011FPNLNYALSSK       -1.0000     NotChecked  -23.2854    1294.6558   ✗       
+465   DFGNLNFALSSK             -1.0000     NotChecked  -23.3049    1311.6459   ✗       
+466   N+0.984FPNLNFALSSV       -1.0000     NotChecked  -23.3155    1322.6507   ✗       
+467   DFPN+0.984LNFASSSK       -1.0000     NotChecked  -23.3188    1326.6092   ✗       
+468   DFPNLNLALSSK             -1.0000     NotChecked  -23.3235    1317.6929   ✗       
+469   +42.011FPNLLFALSSK       -1.0000     NotChecked  -23.3278    1277.7020   ✗       
+470   DMPNLNFALSSK             -1.0000     NotChecked  -23.3361    1335.6493   ✗       
+471   QSPNLNFALSSK             -1.0000     NotChecked  -23.3474    1304.6725   ✗       
+472   EDPNLNFALSSK             -1.0000     NotChecked  -23.3555    1333.6514   ✗       
+473   +43.006FPNLNFALSSK       -1.0000     NotChecked  -23.3732    1279.6561   ✗       
+474   NFPNLNFALSSK             -1.0000     NotChecked  -23.3822    1350.6932   ✗       
+475   DPPNLNSALSSK             -1.0000     NotChecked  -23.4207    1241.6252   ✗       
+476   DAAPNLNFALSSK            -1.0000     NotChecked  -23.4232    1346.6830   ✗       
+477   +43.006FPELNFALSSK       -1.0000     NotChecked  -23.4413    1294.6558   ✗       
+478   DMPNLNEALSSK             -1.0000     NotChecked  -23.4429    1317.6235   ✗       
+479   DFPNLNFALSK              -1.0000     NotChecked  -23.4665    1264.6452   ✗       
+480   DFPNLNFALSS              -1.0000     NotChecked  -23.4675    1223.5823   ✗       
+481   FFPNLNFALSK              -1.0000     NotChecked  -23.4690    1296.6867   ✗       
+482   FFPNLNFALSS              -1.0000     NotChecked  -23.4700    1255.6237   ✗       
+483   +43.006FPNLDFALSSK       -1.0000     NotChecked  -23.4746    1280.6401   ✗       
+484   NFPNLDFALSSK             -1.0000     Failed      -23.4836    1351.6772   ✓       
+485   DMPNLNFALSK              -1.0000     NotChecked  -23.4946    1248.6173   ✗       
+486   DPPNLNFALTSK             -1.0000     NotChecked  -23.5024    1315.6772   ✗       
+487   ELPNLNFALSSK             -1.0000     NotChecked  -23.5248    1331.7085   ✗       
+488   DAPNLNFALSSK             -1.0000     NotChecked  -23.5278    1275.6459   ✗       
+489   DFPNLNLALSSK             -1.0000     NotChecked  -23.5295    1317.6929   ✗       
+490   DFPNLNSALSSK             -1.0000     NotChecked  -23.5313    1291.6408   ✗       
+491   FFPNLNLALSSK             -1.0000     NotChecked  -23.5319    1349.7343   ✗       
+492   DMPNLNFLSSK              -1.0000     NotChecked  -23.5324    1264.6122   ✗       
+493   DMPNKNFALSSK             -1.0000     NotChecked  -23.5412    1350.6602   ✗       
+494   +42.011FPNLNFALSSK       -1.0000     NotChecked  -23.5479    1278.6608   ✗       
+495   +43.006FPNLNFALSSR       -1.0000     NotChecked  -23.5535    1307.6622   ✗       
+496   DFGNLNFALSSK             -1.0000     NotChecked  -23.5538    1311.6459   ✗       
+497   FFGNLNFALSSK             -1.0000     NotChecked  -23.5563    1343.6874   ✗       
+498   DFPNLNSALSSK             -1.0000     NotChecked  -23.5743    1291.6408   ✗       
+499   DFPNLFALSSK              -1.0000     NotChecked  -23.5841    1237.6343   ✗       
+500   +42.011FPELNFALSSK       -1.0000     NotChecked  -23.6160    1293.6605   ✗       
+501   +43.006FGPNLNFALSSK      -1.0000     NotChecked  -23.6377    1336.6776   ✗       
+502   +42.011FPNLDFALSSK       -1.0000     NotChecked  -23.6493    1279.6449   ✗       
+503   DPPNNNFALSSK             -1.0000     NotChecked  -23.6602    1302.6204   ✗       
+504   EFPNLNFALSK              -1.0000     NotChecked  -23.6628    1278.6608   ✗       
+505   DFPN+0.984LNFGLSSK       -1.0000     NotChecked  -23.6758    1338.6456   ✗       
+506   DAPNLQFALSSK             -1.0000     NotChecked  -23.6796    1289.6616   ✗       
+507   +43.006FPNLNFLLSSK       -1.0000     NotChecked  -23.6905    1321.7030   ✗       
+508   DMPNLNAALSSK             -1.0000     NotChecked  -23.7109    1259.6180   ✗       
+509   DDPNLNFALSSK             -1.0000     NotChecked  -23.7137    1319.6357   ✗       
+510   DMPNLNFALSSK             -1.0000     NotChecked  -23.7185    1335.6493   ✗       
+511   DMPNLNFALSK              -1.0000     NotChecked  -23.7216    1248.6173   ✗       
+512   +42.011FPNLNFALSSR       -1.0000     NotChecked  -23.7283    1306.6670   ✗       
+513   DPPNLNFASSSK             -1.0000     NotChecked  -23.7362    1275.6095   ✗       
+514   DGFPNLNFALSK             -1.0000     NotChecked  -23.7435    1321.6667   ✗       
+515   +43.006FPNLEFALSSK       -1.0000     NotChecked  -23.7466    1294.6558   ✗       
+516   DMPNLNFALASK             -1.0000     NotChecked  -23.7472    1319.6544   ✗       
+517   DMPNLNQALSSK             -1.0000     NotChecked  -23.7542    1316.6395   ✗       
+518   DM+15.995PNLFALSSK       -1.0000     NotChecked  -23.7605    1237.6013   ✗       
+519   DMPNVNFALSSK             -1.0000     NotChecked  -23.7643    1321.6336   ✗       
+520   DPPSLNFALSSK             -1.0000     NotChecked  -23.7656    1274.6507   ✗       
+521   DSPDLNFALSSK             -1.0000     NotChecked  -23.7711    1292.6248   ✗       
+522   DFPN+0.984LNMALSSK       -1.0000     NotChecked  -23.7722    1336.6333   ✗       
+523   DFPNLNSALSSK             -1.0000     NotChecked  -23.7802    1291.6408   ✗       
+524   FFPNLNSALSSK             -1.0000     NotChecked  -23.7827    1323.6823   ✗       
+525   N+0.984PPNLNFALSSK       -1.0000     NotChecked  -23.7861    1301.6616   ✗       
+526   DSPNLNFALSK              -1.0000     NotChecked  -23.8014    1204.6088   ✗       
+527   +42.011FGPNLNFALSSK      -1.0000     NotChecked  -23.8124    1335.6823   ✗       
+528   DSPNLN+0.984FALSSK       -1.0000     NotChecked  -23.8128    1292.6248   ✗       
+529   +43.006FPNLFALSSK        -1.0000     NotChecked  -23.8286    1165.6132   ✗       
+530   DFPNLSFALSSK             -1.0000     NotChecked  -23.8288    1324.6663   ✗       
+531   NFPNLFALSSK              -1.0000     NotChecked  -23.8376    1236.6503   ✗       
+532   DFN+0.984LNFALSSK        -1.0000     NotChecked  -23.8398    1255.6085   ✗       
+533   DFPNLNFASSSK             -1.0000     NotChecked  -23.8468    1325.6252   ✗       
+534   DPPNLNFALSNK             -1.0000     NotChecked  -23.8499    1328.6725   ✗       
+535   DPNNLNFALSSK             -1.0000     NotChecked  -23.8510    1318.6517   ✗       
+536   +43.006FPNLNFSLSSK       -1.0000     NotChecked  -23.8516    1295.6510   ✗       
+537   DPPNLNFTLSSK             -1.0000     NotChecked  -23.8556    1331.6721   ✗       
+538   +42.011FPNLNFLLSSK       -1.0000     NotChecked  -23.8652    1320.7078   ✗       
+539   DDPNLQFALSSK             -1.0000     NotChecked  -23.8655    1333.6514   ✗       
+540   DFPSLNFALSSK             -1.0000     NotChecked  -23.8762    1324.6663   ✗       
+541   DLPNLNFALSSK             -1.0000     NotChecked  -23.8830    1317.6929   ✗       
+542   DFPNLNFASSSK             -1.0000     NotChecked  -23.8898    1325.6252   ✗       
+543   QAPNLNFALSSK             -1.0000     NotChecked  -23.8939    1288.6775   ✗       
+544   +43.006FGPNLNFALSSK      -1.0000     NotChecked  -23.8968    1336.6776   ✗       
+545   DMPNLNFAQSSK             -1.0000     NotChecked  -23.9131    1350.6238   ✗       
+546   DFAPNLNFALSK             -1.0000     NotChecked  -23.9164    1335.6823   ✗       
+547   DFPSLNFALSSK             -1.0000     NotChecked  -23.9192    1324.6663   ✗       
+548   +42.011FPNLEFALSSK       -1.0000     NotChecked  -23.9213    1293.6605   ✗       
+549   DPPNLNFALSSK             -1.0000     NotChecked  -23.9318    1301.6616   ✗       
+550   DAPNLNFALSSK             -1.0000     NotChecked  -23.9332    1275.6459   ✗       
+551   DFPNLFALSSK              -1.0000     NotChecked  -23.9393    1237.6343   ✗       
+552   DPPNLNFVLSSK             -1.0000     NotChecked  -23.9637    1329.6929   ✗       
+553   DMPNLNVALSSK             -1.0000     NotChecked  -23.9720    1287.6493   ✗       
+554   DPPNLNFALSSK             -1.0000     NotChecked  -23.9924    1301.6616   ✗       
+555   DSPNLNFALSSK             -1.0000     NotChecked  -23.9932    1291.6408   ✗       
+556   DMPNLNFALGSK             -1.0000     NotChecked  -23.9975    1305.6387   ✗       
+557   +42.011FPNLFALSSK        -1.0000     NotChecked  -24.0033    1164.6179   ✗       
+558   DM+15.995PNLSFALSSK      -1.0000     NotChecked  -24.0053    1324.6333   ✗       
+559   DFPNLNFALSK              -1.0000     NotChecked  -24.0210    1264.6452   ✗       
+560   DPPNLNFALESK             -1.0000     NotChecked  -24.0224    1343.6721   ✗       
+561   DMPNLNFALSAK             -1.0000     NotChecked  -24.0254    1319.6544   ✗       
+562   +42.011FPNLNFSLSSK       -1.0000     NotChecked  -24.0263    1294.6558   ✗       
+563   DFPN+0.984LNEALSSK       -1.0000     NotChecked  -24.0316    1334.6354   ✗       
+564   DLPNLQFALSSK             -1.0000     NotChecked  -24.0348    1331.7085   ✗       
+565   DFSNLNFALSSK             -1.0000     NotChecked  -24.0507    1341.6565   ✗       
+566   DSPNLNYALSSK             -1.0000     NotChecked  -24.0514    1307.6357   ✗       
+567   +42.011FGPNLNFALSSK      -1.0000     NotChecked  -24.0715    1335.6823   ✗       
+568   +43.006FPNLSFALSSK       -1.0000     NotChecked  -24.0733    1252.6452   ✗       
+569   DWPNLFALSSK              -1.0000     NotChecked  -24.0781    1276.6452   ✗       
+570   QDPNLNFALSSK             -1.0000     NotChecked  -24.0798    1332.6674   ✗       
+571   NFPNLSFALSSK             -1.0000     NotChecked  -24.0823    1323.6823   ✗       
+572   DFPN+0.984LNFALSK        -1.0000     NotChecked  -24.0833    1265.6292   ✗       
+573   DPPNLNFGLSSK             -1.0000     NotChecked  -24.0932    1287.6459   ✗       
+574   DSPNLLFALSSK             -1.0000     NotChecked  -24.0938    1290.6820   ✗       
+575   DFPNLNFASSSK             -1.0000     NotChecked  -24.0957    1325.6252   ✗       
+576   DAAPNLNFALSSK            -1.0000     NotChecked  -24.1070    1346.6830   ✗       
+577   DPPLLNFALSSK             -1.0000     NotChecked  -24.1148    1300.7027   ✗       
+578   DFPN+0.984LNFLSSK        -1.0000     NotChecked  -24.1211    1281.6241   ✗       
+579   DFPSLNFALSSK             -1.0000     NotChecked  -24.1251    1324.6663   ✗       
+580   N+0.984PPNLNFALSSK       -1.0000     NotChecked  -24.1414    1301.6616   ✗       
+581   DFANLNFALSSK             -1.0000     NotChecked  -24.1541    1325.6616   ✗       
+582   Q+0.984FPNLFALSSK        -1.0000     NotChecked  -24.1577    1251.6499   ✗       
+583   +43.006FAPNLNFALSSK      -1.0000     NotChecked  -24.1600    1350.6932   ✗       
+584   DFPGLNFALSSK             -1.0000     NotChecked  -24.1668    1294.6558   ✗       
+585   DFPNLQFALSK              -1.0000     NotChecked  -24.1728    1278.6608   ✗       
+586   DFPNLSFALSSK             -1.0000     NotChecked  -24.1841    1324.6663   ✗       
+587   N+0.984MPNLNFALSSK       -1.0000     NotChecked  -24.1847    1335.6493   ✗       
+588   DPPNLNMALSSK             -1.0000     NotChecked  -24.1896    1285.6336   ✗       
+589   DPPALNFALSSK             -1.0000     NotChecked  -24.1912    1258.6558   ✗       
+590   DFPNLNFAVSSK             -1.0000     NotChecked  -24.1973    1337.6616   ✗       
+591   DFPNLNFGLSSK             -1.0000     NotChecked  -24.2037    1337.6616   ✗       
+592   +43.006FPNLNFALSLK       -1.0000     NotChecked  -24.2209    1305.7081   ✗       
+593   DFPLLNFALSSK             -1.0000     NotChecked  -24.2254    1350.7184   ✗       
+594   DM+15.995SNLNFALSSK      -1.0000     NotChecked  -24.2272    1341.6235   ✗       
+595   M+15.995FPNLFALSSK       -1.0000     NotChecked  -24.2455    1269.6427   ✗       
+596   DFPNLNFGLSSK             -1.0000     NotChecked  -24.2468    1337.6616   ✗       
+597   DPQ+0.984NLNFALSSK       -1.0000     NotChecked  -24.2479    1333.6514   ✗       
+598   +42.011FPNLSFALSSK       -1.0000     NotChecked  -24.2480    1251.6499   ✗       
+599   QLPNLNFALSSK             -1.0000     NotChecked  -24.2491    1330.7245   ✗       
+600   DPNLNFALSSK              -1.0000     NotChecked  -24.2572    1204.6088   ✗       
+601   +43.006FPNLNFALSTK       -1.0000     NotChecked  -24.2668    1293.6717   ✗       
+602   DFPLLNFALSSK             -1.0000     NotChecked  -24.2684    1350.7184   ✗       
+603   +43.006FSNLNFALSSK       -1.0000     NotChecked  -24.2952    1269.6354   ✗       
+604   DFPN+0.984LNAALSSK       -1.0000     NotChecked  -24.2996    1276.6299   ✗       
+605   DFPNLNMALSSK             -1.0000     NotChecked  -24.3001    1335.6493   ✗       
+606   DFPALNFALSSK             -1.0000     NotChecked  -24.3018    1308.6714   ✗       
+607   NFSNLNFALSSK             -1.0000     NotChecked  -24.3042    1340.6725   ✗       
+608   DFPN+0.984LNFALSK        -1.0000     NotChecked  -24.3103    1265.6292   ✗       
+609   DFPNLLFALSSK             -1.0000     NotChecked  -24.3133    1350.7184   ✗       
+610   DAPDLNFALSSK             -1.0000     NotChecked  -24.3175    1276.6299   ✗       
+611   DM+15.995ANLNFALSSK      -1.0000     NotChecked  -24.3305    1325.6286   ✗       
+612   +42.011FAPNLNFALSSK      -1.0000     NotChecked  -24.3347    1349.6980   ✗       
+613   DFPN+0.984LNFALASK       -1.0000     NotChecked  -24.3360    1336.6663   ✗       
+614   N+0.984MPNLQFALSSK       -1.0000     NotChecked  -24.3365    1349.6649   ✗       
+615   DFPN+0.984LNQALSSK       -1.0000     NotChecked  -24.3429    1333.6514   ✗       
+616   DFPNLNMALSSK             -1.0000     NotChecked  -24.3431    1335.6493   ✗       
+617   DM+15.995PGLNFALSSK      -1.0000     NotChecked  -24.3432    1294.6227   ✗       
+618   DPPRLNFALSSK             -1.0000     NotChecked  -24.3446    1343.7197   ✗       
+619   DFPALNFALSSK             -1.0000     NotChecked  -24.3448    1308.6714   ✗       
+620   DAPNLNFALSK              -1.0000     NotChecked  -24.3479    1188.6139   ✗       
+621   DFPN+0.984VNFALSSK       -1.0000     NotChecked  -24.3531    1338.6456   ✗       
+622   DAPNLN+0.984FALSSK       -1.0000     NotChecked  -24.3593    1276.6299   ✗       
+623   +43.006FQNLNFALSSK       -1.0000     NotChecked  -24.3629    1310.6619   ✗       
+624   DFNLNFALSSK              -1.0000     NotChecked  -24.3678    1254.6245   ✗       
+625   DMPNLNFAASSK             -1.0000     NotChecked  -24.3723    1293.6023   ✗       
+626   DM+15.995PNLNFAVSSK      -1.0000     NotChecked  -24.3737    1337.6286   ✗       
+627   DSPELNFALSSK             -1.0000     NotChecked  -24.3820    1306.6405   ✗       
+628   DMPNLNFALSSK             -1.0000     NotChecked  -24.3842    1335.6493   ✗       
+629   QFPNLNFALSK              -1.0000     NotChecked  -24.3871    1277.6768   ✗       
+630   +42.011FPNLNFALSLK       -1.0000     NotChecked  -24.3957    1304.7129   ✗       
+631   +43.006FANLNFALSSK       -1.0000     NotChecked  -24.3985    1253.6404   ✗       
+632   Q+0.984FPNLSFALSSK       -1.0000     NotChecked  -24.4024    1338.6820   ✗       
+633   NFANLNFALSSK             -1.0000     NotChecked  -24.4076    1324.6775   ✗       
+634   +43.006FPGLNFALSSK       -1.0000     NotChecked  -24.4113    1222.6346   ✗       
+635   NFPGLNFALSSK             -1.0000     NotChecked  -24.4203    1293.6717   ✗       
+636   +43.006FPQLNFALSSK       -1.0000     NotChecked  -24.4222    1293.6717   ✗       
+637   +42.011FPNLNFALSTK       -1.0000     NotChecked  -24.4415    1292.6765   ✗       
+638   +43.006FPNLNFAVSSK       -1.0000     NotChecked  -24.4417    1265.6404   ✗       
+639   NFPNLNFAVSSK             -1.0000     NotChecked  -24.4507    1336.6775   ✗       
+640   +43.006FPNLNFALSDK       -1.0000     NotChecked  -24.4659    1307.6510   ✗       
+641   +42.011FSNLNFALSSK       -1.0000     NotChecked  -24.4699    1268.6401   ✗       
+642   +43.006FPNQNFALSSK       -1.0000     NotChecked  -24.5006    1294.6306   ✗       
+643   +43.006FENLNFALSSK       -1.0000     NotChecked  -24.5312    1311.6459   ✗       
+644   +43.006FPNLYFALSSK       -1.0000     NotChecked  -24.5336    1328.6765   ✗       
+645   +42.011FQNLNFALSSK       -1.0000     NotChecked  -24.5376    1309.6667   ✗       
+646   FFPALNFALSSK             -1.0000     NotChecked  -24.5532    1340.7129   ✗       
+647   N+0.984SPN+0.984LNFALSSK -1.0000     NotChecked  -24.5539    1292.6248   ✗       
+648   +42.011FANLNFALSSK       -1.0000     NotChecked  -24.5733    1252.6452   ✗       
+649   +42.011FPGLNFALSSK       -1.0000     NotChecked  -24.5860    1221.6394   ✗       
+650   +42.011FPQLNFALSSK       -1.0000     NotChecked  -24.5969    1292.6765   ✗       
+651   +42.011FPNLNFAVSSK       -1.0000     NotChecked  -24.6164    1264.6452   ✗       
+652   FFNLNFALSSK              -1.0000     NotChecked  -24.6192    1286.6659   ✗       
+653   EFPNLFALSSK              -1.0000     NotChecked  -24.6306    1251.6499   ✗       
+654   +43.006FPNLNFALLSK       -1.0000     NotChecked  -24.6325    1305.7081   ✗       
+655   +42.011FPNLNFALSDK       -1.0000     NotChecked  -24.6406    1306.6558   ✗       
+656   +43.006FPNLNFALSK        -1.0000     NotChecked  -24.6409    1192.6241   ✗       
+657   +43.006FPNLNFALSS        -1.0000     NotChecked  -24.6419    1151.5611   ✗       
+658   NFPNLNFALSK              -1.0000     NotChecked  -24.6499    1263.6612   ✗       
+659   NFPNLNFALSS              -1.0000     NotChecked  -24.6509    1222.5982   ✗       
+660   +42.011FPNQNFALSSK       -1.0000     NotChecked  -24.6753    1293.6354   ✗       
+661   +43.006FPNLNLALSSK       -1.0000     NotChecked  -24.7039    1245.6717   ✗       
+662   +42.011FENLNFALSSK       -1.0000     NotChecked  -24.7059    1310.6507   ✗       
+663   +42.011FPNLYFALSSK       -1.0000     NotChecked  -24.7083    1327.6812   ✗       
+664   NFPNLNLALSSK             -1.0000     NotChecked  -24.7129    1316.7088   ✗       
+665   Q+0.984FANLNFALSSK       -1.0000     NotChecked  -24.7277    1339.6772   ✗       
+666   +43.006FGNLNFALSSK       -1.0000     NotChecked  -24.7282    1239.6248   ✗       
+667   +43.006FPNLHFALSSK       -1.0000     NotChecked  -24.7347    1302.6721   ✗       
+668   NFGNLNFALSSK             -1.0000     NotChecked  -24.7372    1310.6619   ✗       
+669   Q+0.984FPGLNFALSSK       -1.0000     NotChecked  -24.7404    1308.6714   ✗       
+670   +43.006FPNLNFALSSK       -1.0000     NotChecked  -24.7545    1279.6561   ✗       
+671   NFPNLNFALSSK             -1.0000     NotChecked  -24.7635    1350.6932   ✗       
+672   +42.011FPNLNFALLSK       -1.0000     NotChecked  -24.8072    1304.7129   ✗       
+673   +42.011FPNLNFALSK        -1.0000     NotChecked  -24.8156    1191.6288   ✗       
+674   +42.011FPNLNFALSS        -1.0000     NotChecked  -24.8166    1150.5659   ✗       
+675   M+15.995FPGLNFALSSK      -1.0000     NotChecked  -24.8282    1326.6642   ✗       
+676   FFPNLNFALSK              -1.0000     NotChecked  -24.8627    1296.6867   ✗       
+677   EFPNLSFALSSK             -1.0000     NotChecked  -24.8754    1338.6820   ✗       
+678   +42.011FPNLNLALSSK       -1.0000     NotChecked  -24.8786    1244.6765   ✗       
+679   FFPNLNFLSSK              -1.0000     NotChecked  -24.9005    1312.6816   ✗       
+680   +42.011FGNLNFALSSK       -1.0000     NotChecked  -24.9029    1238.6295   ✗       
+681   +42.011FPNLHFALSSK       -1.0000     NotChecked  -24.9094    1301.6768   ✗       
+682   +42.011FPNLNFALSSK       -1.0000     NotChecked  -24.9292    1278.6608   ✗       
+683   +43.006FPNLNSALSSK       -1.0000     NotChecked  -24.9546    1219.6197   ✗       
+684   NFPNLNSALSSK             -1.0000     NotChecked  -24.9636    1290.6568   ✗       
+685   Q+0.984FPNLNFALSK        -1.0000     NotChecked  -24.9700    1278.6608   ✗       
+686   Q+0.984FPNLNFALSS        -1.0000     NotChecked  -24.9710    1237.5979   ✗       
+687   N+0.984MPDLNFALSSK       -1.0000     NotChecked  -24.9744    1336.6333   ✗       
+688   N+0.984MPNLNFALSK        -1.0000     NotChecked  -25.0048    1248.6173   ✗       
+689   N+0.984MPNLN+0.984FALSSK -1.0000     NotChecked  -25.0162    1336.6333   ✗       
+690   Q+0.984FPNLNLALSSK       -1.0000     NotChecked  -25.0330    1331.7085   ✗       
+691   +43.006FPNLNFALTSK       -1.0000     NotChecked  -25.0364    1293.6717   ✗       
+692   Q+0.984FGNLNFALSSK       -1.0000     NotChecked  -25.0573    1325.6616   ✗       
+693   M+15.995FPNLNFALSK       -1.0000     NotChecked  -25.0579    1296.6536   ✗       
+694   M+15.995FPNLNFALSS       -1.0000     NotChecked  -25.0589    1255.5907   ✗       
+695   FFPNLNAALSSK             -1.0000     NotChecked  -25.0790    1307.6874   ✗       
+696   FFPNLNFALSK              -1.0000     NotChecked  -25.0897    1296.6867   ✗       
+697   N+0.984APN+0.984LNFALSSK -1.0000     NotChecked  -25.1003    1276.6299   ✗       
+698   M+15.995FPNLNLALSSK      -1.0000     NotChecked  -25.1208    1349.7013   ✗       
+699   N+0.984SPNLNFALSSK       -1.0000     NotChecked  -25.1249    1291.6408   ✗       
+700   +42.011FPNLNSALSSK       -1.0000     NotChecked  -25.1293    1218.6245   ✗       
+701   M+15.995FGNLNFALSSK      -1.0000     NotChecked  -25.1452    1343.6544   ✗       
+702   +43.006FPNLNFELSSK       -1.0000     NotChecked  -25.1748    1337.6616   ✗       
+703   N+0.984PPNLNFALSSK       -1.0000     NotChecked  -25.1909    1301.6616   ✗       
+704   +43.006FPNNNFALSSK       -1.0000     NotChecked  -25.1941    1280.6149   ✗       
+705   N+0.984MPNLNFALSSK       -1.0000     NotChecked  -25.1966    1335.6493   ✗       
+706   EFANLNFALSSK             -1.0000     NotChecked  -25.2006    1339.6772   ✗       
+707   NFPNNNFALSSK             -1.0000     Failed      -25.2031    1351.6521   ✓       
+708   +42.011FPNLNFALTSK       -1.0000     NotChecked  -25.2111    1292.6765   ✗       
+709   EFPGLNFALSSK             -1.0000     NotChecked  -25.2133    1308.6714   ✗       
+710   +43.006FPNLNFASSSK       -1.0000     NotChecked  -25.2701    1253.6041   ✗       
+711   +43.006FGPNLNFALSSK      -1.0000     NotChecked  -25.2763    1336.6776   ✗       
+712   NFPNLNFASSSK             -1.0000     NotChecked  -25.2791    1324.6412   ✗       
+713   Q+0.984FPNLNSALSSK       -1.0000     NotChecked  -25.2837    1305.6565   ✗       
+714   N+0.984DPN+0.984LNFALSSK -1.0000     NotChecked  -25.2862    1320.6198   ✗       
+715   N+0.984MPNLLFALSSK       -1.0000     NotChecked  -25.2971    1334.6904   ✗       
+716   +43.006FPSLNFALSSK       -1.0000     NotChecked  -25.2996    1252.6452   ✗       
+717   NFPSLNFALSSK             -1.0000     NotChecked  -25.3086    1323.6823   ✗       
+718   +43.006FPNLNFALRSK       -1.0000     NotChecked  -25.3327    1348.7252   ✗       
+719   FFPNLNVALSSK             -1.0000     NotChecked  -25.3401    1335.7187   ✗       
+720   N+0.984PPNLQFALSSK       -1.0000     NotChecked  -25.3427    1315.6772   ✗       
+721   +42.011FPNLNFELSSK       -1.0000     NotChecked  -25.3495    1336.6663   ✗       
+722   QFPNLFALSSK              -1.0000     NotChecked  -25.3549    1250.6659   ✗       
+723   +42.011FPNNNFALSSK       -1.0000     NotChecked  -25.3688    1279.6197   ✗       
+724   M+15.995FPNLNSALSSK      -1.0000     NotChecked  -25.3716    1323.6493   ✗       
+725   +43.006FPNLNFALSNK       -1.0000     NotChecked  -25.3839    1306.6670   ✗       
+726   +43.006FNNLNFALSSK       -1.0000     NotChecked  -25.3849    1296.6462   ✗       
+727   +43.006FPNLNFTLSSK       -1.0000     NotChecked  -25.3895    1309.6666   ✗       
+728   EFPNLNFALSK              -1.0000     NotChecked  -25.4430    1278.6608   ✗       
+729   EFPNLNFALSS              -1.0000     NotChecked  -25.4440    1237.5979   ✗       
+730   +42.011FPNLNFASSSK       -1.0000     NotChecked  -25.4448    1252.6088   ✗       
+731   +42.011FGPNLNFALSSK      -1.0000     NotChecked  -25.4510    1335.6823   ✗       
+732   N+0.984LPN+0.984LNFALSSK -1.0000     NotChecked  -25.4555    1318.6769   ✗       
+733   +43.006FPNLNFALSSK       -1.0000     NotChecked  -25.4657    1279.6561   ✗       
+734   +42.011FPSLNFALSSK       -1.0000     NotChecked  -25.4743    1251.6499   ✗       
+735   NFPNLNFALSSK             -1.0000     NotChecked  -25.4747    1350.6932   ✗       
+736   +43.006FPNLNFVLSSK       -1.0000     NotChecked  -25.4977    1307.6874   ✗       
+737   EFPNLNLALSSK             -1.0000     NotChecked  -25.5059    1331.7085   ✗       
+738   +42.011FPNLNFALRSK       -1.0000     NotChecked  -25.5074    1347.7299   ✗       
+739   EFGNLNFALSSK             -1.0000     NotChecked  -25.5303    1325.6616   ✗       
+740   +43.006FPNLNFALESK       -1.0000     NotChecked  -25.5563    1321.6667   ✗       
+741   +42.011FPNLNFALSNK       -1.0000     NotChecked  -25.5586    1305.6717   ✗       
+742   +42.011FNNLNFALSSK       -1.0000     NotChecked  -25.5596    1295.6510   ✗       
+743   +42.011FPNLNFTLSSK       -1.0000     NotChecked  -25.5642    1308.6714   ✗       
+744   N+0.984MPELNFALSSK       -1.0000     NotChecked  -25.5853    1350.6490   ✗       
+745   N+0.984FPN+0.984LNFALSK  -1.0000     NotChecked  -25.5935    1265.6292   ✗       
+746   Q+0.984FPNLNFASSSK       -1.0000     NotChecked  -25.5992    1339.6408   ✗       
+747   QFPNLSFALSSK             -1.0000     NotChecked  -25.5996    1337.6980   ✗       
+748   N+0.984MPNLDFALSSK       -1.0000     NotChecked  -25.6186    1336.6333   ✗       
+749   +43.006FPNLNFGLSSK       -1.0000     NotChecked  -25.6271    1265.6404   ✗       
+750   Q+0.984FPSLNFALSSK       -1.0000     NotChecked  -25.6287    1338.6820   ✗       
+751   NFPNLNFGLSSK             -1.0000     NotChecked  -25.6361    1336.6775   ✗       
+752   +42.011FPNLNFALSSK       -1.0000     NotChecked  -25.6404    1278.6608   ✗       
+753   +43.006FPLLNFALSSK       -1.0000     NotChecked  -25.6488    1278.6972   ✗       
+754   NFPLLNFALSSK             -1.0000     NotChecked  -25.6578    1349.7343   ✗       
+755   N+0.984MPNLNFALSSK       -1.0000     NotChecked  -25.6659    1335.6493   ✗       
+756   N+0.984APNLNFALSSK       -1.0000     NotChecked  -25.6713    1275.6459   ✗       
+757   +42.011FPNLNFVLSSK       -1.0000     NotChecked  -25.6724    1306.6921   ✗       
+758   +43.006FPNLNMALSSK       -1.0000     NotChecked  -25.7235    1263.6282   ✗       
+759   +43.006FPALNFALSSK       -1.0000     NotChecked  -25.7251    1236.6503   ✗       
+760   +42.011FPNLNFALESK       -1.0000     NotChecked  -25.7310    1320.6714   ✗       
+761   NFPNLNMALSSK             -1.0000     NotChecked  -25.7325    1334.6653   ✗       
+762   NFPALNFALSSK             -1.0000     NotChecked  -25.7341    1307.6874   ✗       
+763   FFPNLNFAASSK             -1.0000     NotChecked  -25.7404    1341.6717   ✗       
+764   NFPNLNFALSSK             -1.0000     NotChecked  -25.7487    1350.6932   ✗       
+765   EFPNLNSALSSK             -1.0000     NotChecked  -25.7567    1305.6565   ✗       
+766   +43.006FQ+0.984NLNFALSSK -1.0000     NotChecked  -25.7819    1311.6459   ✗       
+767   +43.006FNLNFALSSK        -1.0000     NotChecked  -25.7912    1182.6033   ✗       
+768   NFNLNFALSSK              -1.0000     NotChecked  -25.8002    1253.6404   ✗       
+769   +42.011FPNLNFGLSSK       -1.0000     NotChecked  -25.8018    1264.6452   ✗       
+770   +42.011FPLLNFALSSK       -1.0000     NotChecked  -25.8235    1277.7020   ✗       
+771   N+0.984DPNLNFALSSK       -1.0000     NotChecked  -25.8572    1319.6357   ✗       
+772   +43.006FPRLNFALSSK       -1.0000     NotChecked  -25.8786    1321.7143   ✗       
+773   N+0.984MPNLEFALSSK       -1.0000     NotChecked  -25.8906    1350.6490   ✗       
+774   +42.011FPNLNMALSSK       -1.0000     NotChecked  -25.8982    1262.6329   ✗       
+775   +42.011FPALNFALSSK       -1.0000     NotChecked  -25.8998    1235.6550   ✗       
+776   QFANLNFALSSK             -1.0000     NotChecked  -25.9249    1338.6932   ✗       
+777   QFPGLNFALSSK             -1.0000     NotChecked  -25.9376    1307.6874   ✗       
+778   +42.011FQ+0.984NLNFALSSK -1.0000     NotChecked  -25.9566    1310.6507   ✗       
+779   +42.011FNLNFALSSK        -1.0000     NotChecked  -25.9659    1181.6081   ✗       
+780   QFPNLNFAVSSK             -1.0000     NotChecked  -25.9680    1350.6932   ✗       
+781   N+0.984MPNLFALSSK        -1.0000     NotChecked  -25.9726    1221.6064   ✗       
+782   +43.006FPNLNFQLSSK       -1.0000     NotChecked  -25.9787    1336.6776   ✗       
+783   N+0.984PPDLNFALSSK       -1.0000     NotChecked  -25.9806    1302.6456   ✗       
+784   +43.006FPNLNEALSSK       -1.0000     NotChecked  -25.9830    1261.6303   ✗       
+785   NFPNLNEALSSK             -1.0000     NotChecked  -25.9920    1332.6674   ✗       
+786   N+0.984PPNLNFALSK        -1.0000     NotChecked  -26.0109    1214.6295   ✗       
+787   N+0.984PPNLN+0.984FALSSK -1.0000     NotChecked  -26.0223    1302.6456   ✗       
+788   N+0.984LPNLNFALSSK       -1.0000     NotChecked  -26.0265    1317.6929   ✗       
+789   +43.006FPNLNFALSK        -1.0000     NotChecked  -26.0347    1192.6241   ✗       
+790   +43.006FMNLNFALSSK       -1.0000     NotChecked  -26.0381    1313.6438   ✗       
+791   NFPNLNFALSK              -1.0000     NotChecked  -26.0437    1263.6612   ✗       
+792   Q+0.984FPNLNMALSSK       -1.0000     NotChecked  -26.0526    1349.6649   ✗       
+793   +42.011FPRLNFALSSK       -1.0000     NotChecked  -26.0533    1320.7190   ✗       
+794   Q+0.984FPALNFALSSK       -1.0000     NotChecked  -26.0542    1322.6871   ✗       
+795   N+0.984DPNLNFALSSK       -1.0000     NotChecked  -26.0632    1319.6357   ✗       
+796   EFPNLNFASSSK             -1.0000     NotChecked  -26.0722    1339.6408   ✗       
+797   +43.006FPNLNFLSSK        -1.0000     NotChecked  -26.0725    1208.6190   ✗       
+798   +43.006FPNKNFALSSK       -1.0000     NotChecked  -26.0812    1294.6670   ✗       
+799   NFPNLNFLSSK              -1.0000     NotChecked  -26.0815    1279.6561   ✗       
+800   FFPNLNFASSK              -1.0000     NotChecked  -26.0961    1270.6346   ✗       
+801   EFPSLNFALSSK             -1.0000     NotChecked  -26.1016    1338.6820   ✗       
+802   Q+0.984FNLNFALSSK        -1.0000     NotChecked  -26.1203    1268.6401   ✗       
+803   N+0.984FPNLNFALSK        -1.0000     NotChecked  -26.1215    1264.6452   ✗       
+804   M+15.995FPALNFALSSK      -1.0000     NotChecked  -26.1421    1340.6799   ✗       
+805   +42.011FPNLNFQLSSK       -1.0000     NotChecked  -26.1534    1335.6823   ✗       
+806   +42.011FPNLNEALSSK       -1.0000     NotChecked  -26.1577    1260.6350   ✗       
+807   N+0.984FPNLNFALSK        -1.0000     NotChecked  -26.1645    1264.6452   ✗       
+808   QFPNLNFALSK              -1.0000     NotChecked  -26.1672    1277.6768   ✗       
+809   QFPNLNFALSS              -1.0000     NotChecked  -26.1682    1236.6139   ✗       
+810   N+0.984PPNLNFALSSK       -1.0000     NotChecked  -26.2027    1301.6616   ✗       
+811   M+15.995FNLNFALSSK       -1.0000     NotChecked  -26.2081    1286.6329   ✗       
+812   +42.011FPNLNFALSK        -1.0000     NotChecked  -26.2094    1191.6288   ✗       
+813   +42.011FMNLNFALSSK       -1.0000     NotChecked  -26.2128    1312.6486   ✗       
+814   N+0.984MPNLSFALSSK       -1.0000     NotChecked  -26.2173    1308.6384   ✗       
+815   QFPNLNLALSSK             -1.0000     NotChecked  -26.2302    1330.7245   ✗       
+816   +42.011FPNLNFLSSK        -1.0000     NotChecked  -26.2472    1207.6237   ✗       
+817   +43.006FPNLNAALSSK       -1.0000     NotChecked  -26.2510    1203.6248   ✗       
+818   QFGNLNFALSSK             -1.0000     NotChecked  -26.2545    1324.6775   ✗       
+819   +42.011FPNKNFALSSK       -1.0000     NotChecked  -26.2560    1293.6717   ✗       
+820   +43.006FPNLNFALSSK       -1.0000     NotChecked  -26.2585    1279.6561   ✗       
+821   NFPNLNAALSSK             -1.0000     NotChecked  -26.2600    1274.6619   ✗       
+822   +43.006FPNLNFALDSK       -1.0000     NotChecked  -26.2606    1307.6510   ✗       
+823   N+0.984SPNLNFALSSK       -1.0000     NotChecked  -26.2607    1291.6408   ✗       
+824   N+0.984PPNLNYALSSK       -1.0000     NotChecked  -26.2609    1317.6565   ✗       
+825   +43.006FPNLNFALSK        -1.0000     NotChecked  -26.2616    1192.6241   ✗       
+826   NFPNLNFALSSK             -1.0000     NotChecked  -26.2675    1350.6932   ✗       
+827   NFPNLNFALSK              -1.0000     NotChecked  -26.2706    1263.6612   ✗       
+828   +43.006FPNLNFALASK       -1.0000     NotChecked  -26.2873    1263.6612   ✗       
+829   +43.006FPNLNQALSSK       -1.0000     NotChecked  -26.2942    1260.6463   ✗       
+830   NFPNLNFALASK             -1.0000     NotChecked  -26.2963    1334.6983   ✗       
+831   N+0.984PPNLLFALSSK       -1.0000     NotChecked  -26.3032    1300.7027   ✗       
+832   NFPNLNQALSSK             -1.0000     NotChecked  -26.3032    1331.6834   ✗       
+833   +43.006FPNVNFALSSK       -1.0000     NotChecked  -26.3044    1265.6404   ✗       
+834   Q+0.984FPNLNEALSSK       -1.0000     NotChecked  -26.3121    1347.6670   ✗       
+835   NFPNVNFALSSK             -1.0000     NotChecked  -26.3134    1336.6775   ✗       
+836   Q+0.984FPNLNFALSK        -1.0000     NotChecked  -26.3638    1278.6608   ✗       
+837   Q+0.984FPNLNFLSSK        -1.0000     NotChecked  -26.4016    1294.6558   ✗       
+838   N+0.984MPNLNFALSTK       -1.0000     NotChecked  -26.4108    1349.6649   ✗       
+839   N+0.984FPNLLFALSSK       -1.0000     NotChecked  -26.4138    1350.7184   ✗       
+840   +42.011FPNLNAALSSK       -1.0000     NotChecked  -26.4257    1202.6295   ✗       
+841   +42.011FPNLNFALSSK       -1.0000     NotChecked  -26.4332    1278.6608   ✗       
+842   +42.011FPNLNFALDSK       -1.0000     NotChecked  -26.4354    1306.6558   ✗       
+843   +42.011FPNLNFALSK        -1.0000     NotChecked  -26.4363    1191.6288   ✗       
+844   N+0.984MSNLNFALSSK       -1.0000     NotChecked  -26.4392    1325.6286   ✗       
+845   M+15.995FPNLNFALSK       -1.0000     NotChecked  -26.4516    1296.6536   ✗       
+846   +43.006FPNLNFAQSSK       -1.0000     NotChecked  -26.4532    1294.6306   ✗       
+847   N+0.984FPNLLFALSSK       -1.0000     NotChecked  -26.4568    1350.7184   ✗       
+848   +42.011FPNLNFALASK       -1.0000     NotChecked  -26.4620    1262.6659   ✗       
+849   +42.011FPNLNQALSSK       -1.0000     NotChecked  -26.4689    1259.6510   ✗       
+850   +43.006FPNGLNFALSSK      -1.0000     NotChecked  -26.4691    1336.6776   ✗       
+851   +42.011FPNVNFALSSK       -1.0000     NotChecked  -26.4791    1264.6452   ✗       
+852   QFPNLNSALSSK             -1.0000     NotChecked  -26.4809    1304.6725   ✗       
+853   M+15.995FPNLNFLSSK       -1.0000     NotChecked  -26.4894    1312.6486   ✗       
+854   +43.006FPNLNVALSSK       -1.0000     NotChecked  -26.5120    1231.6561   ✗       
+855   NFPNLNVALSSK             -1.0000     NotChecked  -26.5210    1302.6932   ✗       
+856   EFPNLNMALSSK             -1.0000     NotChecked  -26.5256    1349.6649   ✗       
+857   EFPALNFALSSK             -1.0000     NotChecked  -26.5272    1322.6871   ✗       
+858   +43.006FPNLNFALGSK       -1.0000     NotChecked  -26.5376    1249.6455   ✗       
+859   N+0.984MANLNFALSSK       -1.0000     NotChecked  -26.5426    1309.6336   ✗       
+860   NFPNLNFALGSK             -1.0000     NotChecked  -26.5466    1320.6826   ✗       
+861   N+0.984MPGLNFALSSK       -1.0000     NotChecked  -26.5553    1278.6278   ✗       
+862   N+0.984FPN+0.984LFALSSK  -1.0000     NotChecked  -26.5613    1238.6183   ✗       
+863   +43.006FPNLNFALSAK       -1.0000     NotChecked  -26.5654    1263.6612   ✗       
+864   N+0.984MPQLNFALSSK       -1.0000     NotChecked  -26.5662    1349.6649   ✗       
+865   NFPNLNFALSAK             -1.0000     NotChecked  -26.5744    1334.6983   ✗       
+866   Q+0.984FPNLNAALSSK       -1.0000     NotChecked  -26.5801    1289.6616   ✗       
+867   +43.006FPNLNWALSSK       -1.0000     NotChecked  -26.5805    1318.6670   ✗       
+868   N+0.984MPNLNFAVSSK       -1.0000     NotChecked  -26.5858    1321.6336   ✗       
+869   Q+0.984FPNLNFALSK        -1.0000     NotChecked  -26.5907    1278.6608   ✗       
+870   N+0.984PPELNFALSSK       -1.0000     NotChecked  -26.5915    1316.6612   ✗       
+871   EFNLNFALSSK              -1.0000     NotChecked  -26.5932    1268.6401   ✗       
+872   N+0.984SPNLNFALSSK       -1.0000     NotChecked  -26.6160    1291.6408   ✗       
+873   Q+0.984FPNLNFALASK       -1.0000     NotChecked  -26.6164    1349.6980   ✗       
+874   Q+0.984FPNLNQALSSK       -1.0000     NotChecked  -26.6233    1346.6830   ✗       
+875   N+0.984PPNLDFALSSK       -1.0000     NotChecked  -26.6248    1302.6456   ✗       
+876   +42.011FPNLNFAQSSK       -1.0000     NotChecked  -26.6279    1293.6354   ✗       
+877   +43.006FPNLNFALSEK       -1.0000     NotChecked  -26.6372    1321.6667   ✗       
+878   +42.011FPNGLNFALSSK      -1.0000     NotChecked  -26.6438    1335.6823   ✗       
+879   N+0.984MPNQNFALSSK       -1.0000     NotChecked  -26.6446    1350.6238   ✗       
+880   FPPN+0.984LNFALSSK       -1.0000     NotChecked  -26.6580    1334.6871   ✗       
+881   M+15.995FPNLNAALSSK      -1.0000     NotChecked  -26.6679    1307.6544   ✗       
+882   +43.006FPNENFALSSK       -1.0000     NotChecked  -26.6770    1295.6146   ✗       
+883   M+15.995FPNLNFALSK       -1.0000     NotChecked  -26.6786    1296.6536   ✗       
+884   +43.006FPNLNFALSGSK      -1.0000     NotChecked  -26.6790    1336.6776   ✗       
+885   +42.011FPNLNVALSSK       -1.0000     NotChecked  -26.6867    1230.6608   ✗       
+886   N+0.984PPNLNFALSSR       -1.0000     NotChecked  -26.7037    1329.6677   ✗       
+887   +42.011FPNLNFALGSK       -1.0000     NotChecked  -26.7123    1248.6503   ✗       
+888   +42.011FPNLNFALSAK       -1.0000     NotChecked  -26.7401    1262.6659   ✗       
+889   +42.011FPNLNWALSSK       -1.0000     NotChecked  -26.7552    1317.6717   ✗       
+890   FPN+0.984LNFALSSK        -1.0000     NotChecked  -26.7686    1237.6343   ✗       
+891   N+0.984MPNLNFALSK        -1.0000     NotChecked  -26.7849    1248.6173   ✗       
+892   EFPNLNEALSSK             -1.0000     NotChecked  -26.7850    1347.6670   ✗       
+893   N+0.984MPNLNFALSS        -1.0000     NotChecked  -26.7860    1207.5543   ✗       
+894   QFPNLNFASSSK             -1.0000     NotChecked  -26.7964    1338.6568   ✗       
+895   N+0.984FPN+0.984LSFALSSK -1.0000     NotChecked  -26.8061    1325.6503   ✗       
+896   N+0.984APNLNFALSSK       -1.0000     NotChecked  -26.8072    1275.6459   ✗       
+897   +42.011FPNLNFALSEK       -1.0000     NotChecked  -26.8120    1320.6714   ✗       
+898   +43.006MPN+0.984LNFALSSK -1.0000     NotChecked  -26.8238    1264.6122   ✗       
+899   QFPSLNFALSSK             -1.0000     NotChecked  -26.8259    1337.6980   ✗       
+900   NMPN+0.984LNFALSSK       -1.0000     NotChecked  -26.8329    1335.6493   ✗       
+901   EFPNLNFALSK              -1.0000     NotChecked  -26.8367    1278.6608   ✗       
+902   N+0.984PPNLNFLLSSK       -1.0000     NotChecked  -26.8406    1343.7085   ✗       
+903   Q+0.984FPNLNVALSSK       -1.0000     NotChecked  -26.8411    1317.6929   ✗       
+904   N+0.984MPNLNLALSSK       -1.0000     NotChecked  -26.8479    1301.6649   ✗       
+905   +42.011FPNENFALSSK       -1.0000     NotChecked  -26.8517    1294.6194   ✗       
+906   +42.011FPNLNFALSGSK      -1.0000     NotChecked  -26.8537    1335.6823   ✗       
+907   Q+0.984FPNLNFALGSK       -1.0000     NotChecked  -26.8667    1335.6823   ✗       
+908   N+0.984MGNLNFALSSK       -1.0000     NotChecked  -26.8722    1295.6180   ✗       
+909   EFPNLNFLSSK              -1.0000     NotChecked  -26.8745    1294.6558   ✗       
+910   Q+0.984FPNLNFALSAK       -1.0000     NotChecked  -26.8945    1349.6980   ✗       
+911   N+0.984PPNLEFALSSK       -1.0000     NotChecked  -26.8967    1316.6612   ✗       
+912   N+0.984MPNLNFALSSK       -1.0000     NotChecked  -26.8985    1335.6493   ✗       
+913   +43.006FPNLNFAASSK       -1.0000     NotChecked  -26.9124    1237.6091   ✗       
+914   NFPNLNFAASSK             -1.0000     NotChecked  -26.9214    1308.6462   ✗       
+915   +43.006FPNLNFALSSK       -1.0000     NotChecked  -26.9243    1279.6561   ✗       
+916   M+15.995FPNLNVALSSK      -1.0000     NotChecked  -26.9290    1335.6857   ✗       
+917   NFPNLNFALSSK             -1.0000     NotChecked  -26.9333    1350.6932   ✗       
+918   +43.006FPNLNFALSSK       -1.0000     NotChecked  -26.9737    1279.6561   ✗       
+919   N+0.984PPNLFALSSK        -1.0000     NotChecked  -26.9787    1187.6186   ✗       
+920   FFPNLNFALSSA             -1.0000     NotChecked  -26.9795    1326.6608   ✗       
+921   NFPNLNFALSSK             -1.0000     NotChecked  -26.9827    1350.6932   ✗       
+922   N+0.984DPNLNFALSSK       -1.0000     NotChecked  -26.9931    1319.6357   ✗       
+923   +42.011MPN+0.984LNFALSSK -1.0000     NotChecked  -26.9986    1263.6169   ✗       
+924   N+0.984PPNLNFSLSSK       -1.0000     NotChecked  -27.0017    1317.6565   ✗       
+925   N+0.984FSN+0.984LNFALSSK -1.0000     NotChecked  -27.0280    1342.6405   ✗       
+926   EFPNLNAALSSK             -1.0000     NotChecked  -27.0530    1289.6616   ✗       
+927   +43.006FPNLNFAESSK       -1.0000     NotChecked  -27.0572    1295.6146   ✗       
+928   EFPNLNFALSK              -1.0000     NotChecked  -27.0637    1278.6608   ✗       
+929   +42.011FPNLNFAASSK       -1.0000     NotChecked  -27.0871    1236.6139   ✗       
+930   N+0.984FPNLFALSSK        -1.0000     NotChecked  -27.0893    1237.6343   ✗       
+931   EFPNLNFALASK             -1.0000     NotChecked  -27.0894    1349.6980   ✗       
+932   EFPNLNQALSSK             -1.0000     NotChecked  -27.0963    1346.6830   ✗       
+933   N+0.984MPNLNSALSSK       -1.0000     NotChecked  -27.0986    1275.6129   ✗       
+934   +42.011FPNLNFALSSK       -1.0000     NotChecked  -27.0990    1278.6608   ✗       
+935   EFPNVNFALSSK             -1.0000     Failed      -27.1065    1351.6772   ✓       
+936   N+0.984FAN+0.984LNFALSSK -1.0000     NotChecked  -27.1313    1326.6456   ✗       
+937   +43.006FPNMNFALSSK       -1.0000     NotChecked  -27.1318    1297.6125   ✗       
+938   N+0.984FPNLFALSSK        -1.0000     NotChecked  -27.1323    1237.6343   ✗       
+939   +42.011FPNLNFALSSK       -1.0000     NotChecked  -27.1484    1278.6608   ✗       
+940   Q+0.984MPN+0.984LNFALSSK -1.0000     NotChecked  -27.1530    1350.6490   ✗       
+941   QFPNLNFGLSSK             -1.0000     NotChecked  -27.1534    1350.6932   ✗       
+942   +43.006FPNYNFALSSK       -1.0000     NotChecked  -27.1553    1329.6354   ✗       
+943   N+0.984LPNLNFALSSK       -1.0000     NotChecked  -27.1624    1317.6929   ✗       
+944   N+0.984APNLNFALSSK       -1.0000     NotChecked  -27.1624    1275.6459   ✗       
+945   N+0.984FPN+0.984LNFAVSSK -1.0000     NotChecked  -27.1745    1338.6456   ✗       
+946   +43.006FPNQ+0.984NFALSSK -1.0000     NotChecked  -27.1758    1295.6146   ✗       
+947   N+0.984MPNLNFALTSK       -1.0000     NotChecked  -27.1804    1349.6649   ✗       
+948   FPPNLNFALSSK             -1.0000     NotChecked  -27.1860    1333.7030   ✗       
+949   N+0.984PPNLSFALSSK       -1.0000     NotChecked  -27.2235    1274.6507   ✗       
+950   +43.006FPNLNFALSSQ       -1.0000     NotChecked  -27.2239    1279.6197   ✗       
+951   FPPNLNFALSSK             -1.0000     NotChecked  -27.2290    1333.7030   ✗       
+952   +42.011FPNLNFAESSK       -1.0000     NotChecked  -27.2319    1294.6194   ✗       
+953   NFPNLNFALSSQ             -1.0000     NotChecked  -27.2329    1350.6568   ✗       
+954   Q+0.984FPNLNFAASSK       -1.0000     NotChecked  -27.2415    1323.6459   ✗       
+955   QFPNLNMALSSK             -1.0000     NotChecked  -27.2498    1348.6809   ✗       
+956   QFPALNFALSSK             -1.0000     NotChecked  -27.2514    1321.7030   ✗       
+957   +43.006FPNPNFALSSK       -1.0000     NotChecked  -27.2553    1263.6248   ✗       
+958   NFPNPNFALSSK             -1.0000     NotChecked  -27.2643    1334.6619   ✗       
+959   +43.006FPNLNFASSK        -1.0000     NotChecked  -27.2680    1166.5720   ✗       
+960   NFPNLNFASSK              -1.0000     NotChecked  -27.2770    1237.6091   ✗       
+961   N+0.984FPNLNFALSK        -1.0000     NotChecked  -27.3004    1264.6452   ✗       
+962   +42.011FPNMNFALSSK       -1.0000     NotChecked  -27.3065    1296.6173   ✗       
+963   EFPNLNVALSSK             -1.0000     NotChecked  -27.3141    1317.6929   ✗       
+964   QFNLNFALSSK              -1.0000     NotChecked  -27.3175    1267.6561   ✗       
+965   M+15.995FPNLNFAASSK      -1.0000     NotChecked  -27.3294    1341.6387   ✗       
+966   +42.011FPNYNFALSSK       -1.0000     NotChecked  -27.3300    1328.6401   ✗       
+967   N+0.984FPNLSFALSSK       -1.0000     NotChecked  -27.3341    1324.6663   ✗       
+968   N+0.984MPNNNFALSSK       -1.0000     NotChecked  -27.3381    1336.6081   ✗       
+969   FPNLNFALSSK              -1.0000     NotChecked  -27.3396    1236.6503   ✗       
+970   EFPNLNFALGSK             -1.0000     NotChecked  -27.3397    1335.6823   ✗       
+971   N+0.984DPNLNFALSSK       -1.0000     NotChecked  -27.3483    1319.6357   ✗       
+972   +42.011FPNQ+0.984NFALSSK -1.0000     NotChecked  -27.3505    1294.6194   ✗       
+973   EFPNLNFALSAK             -1.0000     NotChecked  -27.3675    1349.6980   ✗       
+974   N+0.984PPNLNFALSLK       -1.0000     NotChecked  -27.3711    1327.7136   ✗       
+975   N+0.984FPN+0.984LNFALSK  -1.0000     NotChecked  -27.3737    1265.6292   ✗       
+976   N+0.984FPN+0.984LNFALSS  -1.0000     NotChecked  -27.3747    1224.5663   ✗       
+977   N+0.984FPNLSFALSSK       -1.0000     NotChecked  -27.3771    1324.6663   ✗       
+978   N+0.984GSPNLNFALSSK      -1.0000     NotChecked  -27.3880    1348.6623   ✗       
+979   +43.006MPNLNFALSSK       -1.0000     NotChecked  -27.3948    1263.6282   ✗       
+980   +42.011FPNLNFALSSQ       -1.0000     NotChecked  -27.3986    1278.6245   ✗       
+981   NMPNLNFALSSK             -1.0000     NotChecked  -27.4038    1334.6653   ✗       
+982   N+0.984MPNLNFASSSK       -1.0000     NotChecked  -27.4142    1309.5973   ✗       
+983   N+0.984PPNLNFALSTK       -1.0000     NotChecked  -27.4170    1315.6772   ✗       
+984   +42.011FPNPNFALSSK       -1.0000     NotChecked  -27.4300    1262.6295   ✗       
+985   +43.006FPNGLNFALSSK      -1.0000     NotChecked  -27.4321    1336.6776   ✗       
+986   N+0.984FPN+0.984LNLALSSK -1.0000     NotChecked  -27.4366    1318.6769   ✗       
+987   +43.006FPNLNFALSSL       -1.0000     NotChecked  -27.4391    1264.6452   ✗       
+988   +42.011FPNLNFASSK        -1.0000     NotChecked  -27.4427    1165.5768   ✗       
+989   N+0.984MPSLNFALSSK       -1.0000     NotChecked  -27.4436    1308.6384   ✗       
+990   N+0.984PSNLNFALSSK       -1.0000     NotChecked  -27.4454    1291.6408   ✗       
+991   NFPNLNFALSSL             -1.0000     NotChecked  -27.4481    1335.6823   ✗       
+992   N+0.984FGN+0.984LNFALSSK -1.0000     NotChecked  -27.4610    1312.6299   ✗       
+993   N+0.984M+15.995PNLNFALSK -1.0000     NotChecked  -27.4768    1264.6122   ✗       
+994   N+0.984SPNLNFALSSK       -1.0000     NotChecked  -27.5028    1291.6408   ✗       
+995   QFPNLNEALSSK             -1.0000     NotChecked  -27.5093    1346.6830   ✗       
+996   N+0.984PQNLNFALSSK       -1.0000     NotChecked  -27.5131    1332.6674   ✗       
+997   N+0.984LPNLNFALSSK       -1.0000     NotChecked  -27.5176    1317.6929   ✗       
+998   N+0.984PANLNFALSSK       -1.0000     NotChecked  -27.5487    1275.6459   ✗       
+999   N+0.984FSNLNFALSSK       -1.0000     NotChecked  -27.5560    1341.6565   ✗       
+1000  QFPNLNFALSK              -1.0000     NotChecked  -27.5610    1277.6768   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: N+0.984MPNLNFSLSSK
+Similarity: 0.4963
+De Novo Score: -25.9956
+Source: Prosit
+Correct: ✗
+

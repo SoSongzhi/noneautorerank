@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 98
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 1008.9521
+Precursor charge: 2+
+Ground truth: FYVDYVDNKYEYNER
+Ground truth (normalized): FYVDYVDNKYEYNER
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 130
+Used for reranking: 130
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 130 (13.0%)
+Database matches: 15 (1.5%)
+Prosit predictions: 98 (9.8%)
+Failed: 17 (1.7%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.7029
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     FYVDYVDNKYEYNER          0.7029      Database    -1.8073     2015.8901   ✓       ✓
+2     FYVDYVDNKYEYNER          0.7029      Database    -3.9312     2015.8901   ✓       ✓
+3     FYVDYVDNKYEYNER          0.7029      Database    -6.1479     2015.8901   ✓       ✓
+4     FYVDYVDNKYEYNER          0.7029      Database    -6.4757     2015.8901   ✓       ✓
+5     FYVDYVDNKYEYNER          0.7029      Database    -7.7874     2015.8901   ✓       ✓
+6     FYVDYVDNKYEYNER          0.7029      Database    -8.2719     2015.8901   ✓       ✓
+7     FYVDYVDNKYEYNER          0.7029      Database    -8.4240     2015.8901   ✓       ✓
+8     FYVDYVDNKYEYNER          0.7029      Database    -8.5996     2015.8901   ✓       ✓
+9     FYVDYVDNKYEYNER          0.7029      Database    -9.7738     2015.8901   ✓       ✓
+10    FYVDYVDNKYEYNER          0.7029      Database    -9.9114     2015.8901   ✓       ✓
+11    FYVDYVDNKYEYNER          0.7029      Database    -10.3101    2015.8901   ✓       ✓
+12    FYVDYVDNKYEYNER          0.7029      Database    -10.8163    2015.8901   ✓       ✓
+13    FYVDYVDNKYEYNER          0.7029      Database    -11.4143    2015.8901   ✓       ✓
+14    FYVDYVDNKYEYNER          0.7029      Database    -11.8978    2015.8901   ✓       ✓
+15    FYVDYVDNKYEYNER          0.7029      Database    -11.9601    2015.8901   ✓       ✓
+16    FYVDYVN+0.984NKYQ+0.984YGGER0.5281      Prosit      -10.8874    2015.8901   ✓       
+17    FYVDYVN+0.984NKYEYGADR   0.5170      Prosit      -10.7825    2015.8901   ✓       
+18    FYVDYVN+0.984NKYEYAGDR   0.5162      Prosit      -10.9296    2015.8901   ✓       
+19    FYVDYVN+0.984NKYEYGGER   0.5104      Prosit      -3.3292     2015.8901   ✓       
+20    FYVDYVN+0.984NKYEYGGER   0.5104      Prosit      -5.4532     2015.8901   ✓       
+21    FYVDYVN+0.984NKYEYGGER   0.5104      Prosit      -6.7460     2015.8901   ✓       
+22    FYVDYVN+0.984NKYEYGGER   0.5104      Prosit      -6.8774     2015.8901   ✓       
+23    FYVDYVN+0.984NKYEYGGER   0.5104      Prosit      -6.9397     2015.8901   ✓       
+24    FYVDYVN+0.984NKYEYGGER   0.5104      Prosit      -7.0711     2015.8901   ✓       
+25    FYVDYVN+0.984NKYEYGGER   0.5104      Prosit      -7.6698     2015.8901   ✓       
+26    FYVDYVN+0.984NKYEYGGER   0.5104      Prosit      -7.9976     2015.8901   ✓       
+27    FYVDYVN+0.984NKYEYGGER   0.5104      Prosit      -8.8700     2015.8901   ✓       
+28    FYVDYVN+0.984NKYEYGGER   0.5104      Prosit      -9.0014     2015.8901   ✓       
+29    FYVDYVN+0.984NKYEYGGER   0.5104      Prosit      -9.0637     2015.8901   ✓       
+30    FYVDYVN+0.984NKYEYGGER   0.5104      Prosit      -9.1951     2015.8901   ✓       
+31    FYVDYVN+0.984NKYEYGGER   0.5104      Prosit      -9.3093     2015.8901   ✓       
+32    FYVDYVN+0.984NKYEYGGER   0.5104      Prosit      -9.7938     2015.8901   ✓       
+33    FYVDYVN+0.984NKYEYGGER   0.5104      Prosit      -9.9459     2015.8901   ✓       
+34    FYVDYVN+0.984NKYEYGGER   0.5104      Prosit      -9.9498     2015.8901   ✓       
+35    FYVDYVN+0.984NKYEYGGER   0.5104      Prosit      -10.1215    2015.8901   ✓       
+36    FYVDYVN+0.984NKYEYGGER   0.5104      Prosit      -10.6817    2015.8901   ✓       
+37    FYVDYVN+0.984NKYEYGGER   0.5104      Prosit      -11.0866    2015.8901   ✓       
+38    FYVDYVN+0.984NKYEYGGER   0.5104      Prosit      -11.2181    2015.8901   ✓       
+39    FYVDYVN+0.984NKYEYGGER   0.5104      Prosit      -11.2803    2015.8901   ✓       
+40    FYVDYVN+0.984NKYEYGGER   0.5104      Prosit      -11.2958    2015.8901   ✓       
+41    FYVDYVN+0.984NKYEYGGER   0.5104      Prosit      -11.4118    2015.8901   ✓       
+42    FYVDYVN+0.984NKYEYGGER   0.5104      Prosit      -11.4144    2015.8901   ✓       
+43    FYVDYVN+0.984NKYEYGGER   0.5104      Prosit      -11.4333    2015.8901   ✓       
+44    FYVDYVN+0.984NKYEYGGER   0.5104      Prosit      -11.5458    2015.8901   ✓       
+45    FYVDYVN+0.984NKYEYGGER   0.5104      Prosit      -11.6081    2015.8901   ✓       
+46    FYVDYVN+0.984NKYEYGGER   0.5104      Prosit      -11.7395    2015.8901   ✓       
+47    FYVDYVN+0.984NKYEYGGER   0.5104      Prosit      -11.8320    2015.8901   ✓       
+48    FYVDYVN+0.984NKYEYGGER   0.5104      Prosit      -12.0738    2015.8901   ✓       
+49    FYVDYVN+0.984NKYEYQDR    0.5029      Prosit      -8.8365     2015.8901   ✓       
+50    FYVDYVN+0.984NKYEYQDR    0.5029      Prosit      -10.9605    2015.8901   ✓       
+51    FYVDYVDNKYQ+0.984YGGER   0.5027      Prosit      -9.9938     2015.8901   ✓       
+52    FYVDYVDNKYEYGADR         0.5019      Prosit      -9.8888     2015.8901   ✓       
+53    FYVDYVDNKYEYGADR         0.5019      Prosit      -12.0128    2015.8901   ✓       
+54    FYVDYVDNKYEYGGER         0.4983      Prosit      -2.4355     2015.8901   ✓       
+55    FYVDYVDNKYEYGGER         0.4983      Prosit      -4.5595     2015.8901   ✓       
+56    FYVDYVDNKYEYGGER         0.4983      Prosit      -5.8523     2015.8901   ✓       
+57    FYVDYVDNKYEYGGER         0.4983      Prosit      -5.9838     2015.8901   ✓       
+58    FYVDYVDNKYEYGGER         0.4983      Prosit      -6.0460     2015.8901   ✓       
+59    FYVDYVDNKYEYGGER         0.4983      Prosit      -6.1775     2015.8901   ✓       
+60    FYVDYVDNKYEYGGER         0.4983      Prosit      -6.7761     2015.8901   ✓       
+61    FYVDYVDNKYEYGGER         0.4983      Prosit      -7.1039     2015.8901   ✓       
+62    FYVDYVDNKYEYGGER         0.4983      Prosit      -7.9763     2015.8901   ✓       
+63    FYVDYVDNKYEYGGER         0.4983      Prosit      -8.1077     2015.8901   ✓       
+64    FYVDYVDNKYEYGGER         0.4983      Prosit      -8.1700     2015.8901   ✓       
+65    FYVDYVDNKYEYGGER         0.4983      Prosit      -8.3014     2015.8901   ✓       
+66    FYVDYVDNKYEYGGER         0.4983      Prosit      -8.4156     2015.8901   ✓       
+67    FYVDYVDNKYEYGGER         0.4983      Prosit      -8.9001     2015.8901   ✓       
+68    FYVDYVDNKYEYGGER         0.4983      Prosit      -9.0522     2015.8901   ✓       
+69    FYVDYVDNKYEYGGER         0.4983      Prosit      -9.0561     2015.8901   ✓       
+70    FYVDYVDNKYEYGGER         0.4983      Prosit      -9.2279     2015.8901   ✓       
+71    FYVDYVDNKYEYGGER         0.4983      Prosit      -9.7880     2015.8901   ✓       
+72    FYVDYVDNKYEYGGER         0.4983      Prosit      -10.1930    2015.8901   ✓       
+73    FYVDYVDNKYEYGGER         0.4983      Prosit      -10.3244    2015.8901   ✓       
+74    FYVDYVDNKYEYGGER         0.4983      Prosit      -10.3867    2015.8901   ✓       
+75    FYVDYVDNKYEYGGER         0.4983      Prosit      -10.4021    2015.8901   ✓       
+76    FYVDYVDNKYEYGGER         0.4983      Prosit      -10.5181    2015.8901   ✓       
+77    FYVDYVDNKYEYGGER         0.4983      Prosit      -10.5207    2015.8901   ✓       
+78    FYVDYVDNKYEYGGER         0.4983      Prosit      -10.5396    2015.8901   ✓       
+79    FYVDYVDNKYEYGGER         0.4983      Prosit      -10.6522    2015.8901   ✓       
+80    FYVDYVDNKYEYGGER         0.4983      Prosit      -10.7144    2015.8901   ✓       
+81    FYVDYVDNKYEYGGER         0.4983      Prosit      -10.8458    2015.8901   ✓       
+82    FYVDYVDNKYEYGGER         0.4983      Prosit      -10.9384    2015.8901   ✓       
+83    FYVDYVDNKYEYGGER         0.4983      Prosit      -11.1801    2015.8901   ✓       
+84    FYVDYVDNKYEYGGER         0.4983      Prosit      -11.4445    2015.8901   ✓       
+85    FYVDYVDNKYEYGGER         0.4983      Prosit      -11.8324    2015.8901   ✓       
+86    FYVDYVDNKYEYGGER         0.4983      Prosit      -11.9120    2015.8901   ✓       
+87    FYVDYVDNKYEYGGER         0.4983      Prosit      -12.0261    2015.8901   ✓       
+88    FYVDYVDNKYEYGGER         0.4983      Prosit      -12.0425    2015.8901   ✓       
+89    FYVN+0.984YVDNKYEYGGER   0.4972      Prosit      -9.4626     2015.8901   ✓       
+90    FYVN+0.984YVDNKYEYGGER   0.4972      Prosit      -11.5866    2015.8901   ✓       
+91    FYVDYVDNKYEYAGDR         0.4925      Prosit      -10.0359    2015.8901   ✓       
+92    FYVN+0.984YVN+0.984NKYEYGGER0.4922      Prosit      -10.3563    2015.8901   ✓       
+93    FYVDYVDNKYEYQDR          0.4917      Prosit      -7.9428     2015.8901   ✓       
+94    FYVDYVDNKYEYQDR          0.4917      Prosit      -10.0668    2015.8901   ✓       
+95    FYVDYVN+0.984NKYEYGGRE   0.4780      Prosit      -11.0320    2015.8901   ✓       
+96    FYVDYVN+0.984NKYQ+0.984YNER0.4761      Prosit      -10.2592    2015.8901   ✓       
+97    FYVDYVN+0.984NKYEYNQ+0.984R0.4754      Prosit      -9.7190     2015.8901   ✓       
+98    FYVDYVN+0.984NKYEYNQ+0.984R0.4754      Prosit      -11.8429    2015.8901   ✓       
+99    FYVDYVN+0.984NKYEYGNEV   0.4732      Prosit      -11.4541    2015.8789   ✓       
+100   FYVN+0.984YVDNKYEYNER    0.4693      Prosit      -8.8343     2015.8901   ✓       
+101   FYVN+0.984YVDNKYEYNER    0.4693      Prosit      -10.9583    2015.8901   ✓       
+102   FYVDYVN+0.984NKYEYREN    0.4692      Prosit      -12.0217    2015.8901   ✓       
+103   FYVDYVN+0.984NKYEYGGQ+0.984R0.4629      Prosit      -10.3472    2015.8901   ✓       
+104   FYVDYVDNKYEYNQ+0.984R    0.4594      Prosit      -8.8253     2015.8901   ✓       
+105   FYVDYVDNKYEYNQ+0.984R    0.4594      Prosit      -10.9493    2015.8901   ✓       
+106   FYVDYVDNKYEYGGQ+0.984R   0.4447      Prosit      -9.4535     2015.8901   ✓       
+107   FYVDYVDNKYEYGGQ+0.984R   0.4447      Prosit      -11.5775    2015.8901   ✓       
+108   FYVDYVDNKYEYGNEV         0.4398      Prosit      -10.5604    2015.8789   ✓       
+109   FYVDYVN+0.984NKYEYNRE    0.4350      Prosit      -10.4037    2015.8901   ✓       
+110   FYVDYVDNKYEYREN          0.4216      Prosit      -11.1280    2015.8901   ✓       
+111   FYVDYVDNKYEYRNE          0.4153      Prosit      -11.6679    2015.8901   ✓       
+112   FYVDYVDNKYEYNRE          0.4099      Prosit      -9.5101     2015.8901   ✓       
+113   FYVDYVDNKYEYNRE          0.4099      Prosit      -11.6340    2015.8901   ✓       
+114   FYVDYVDNKYEYGER          -1.0000     NotChecked  -2.2418     1958.8687   ✗       
+115   FYVDYVN+0.984NKYEYNER    -1.0000     Failed      -2.7009     2015.8901   ✓       
+116   FYVDYVN+0.984NKYEYGER    -1.0000     NotChecked  -3.1355     1958.8687   ✗       
+117   FYVDYVDNKYEYGER          -1.0000     NotChecked  -4.3658     1958.8687   ✗       
+118   FYVDYVN+0.984NKYEYNER    -1.0000     Failed      -4.8249     2015.8901   ✓       
+119   FYVDYVDNKYEYNDR          -1.0000     NotChecked  -4.8660     2001.8745   ✗       
+120   FYVDYVN+0.984NKYEYGER    -1.0000     NotChecked  -5.2595     1958.8687   ✗       
+121   FYVDYVDNKYEYGDR          -1.0000     NotChecked  -5.3005     1944.8530   ✗       
+122   FYVDYVDNKYEYNR           -1.0000     NotChecked  -5.4332     1886.8475   ✗       
+123   FYVDYVDNKYEYGGDR         -1.0000     NotChecked  -5.4942     2001.8745   ✗       
+124   FYVDYVDNKYEYGNR          -1.0000     NotChecked  -5.6269     1943.8690   ✗       
+125   FYVDYVN+0.984NKYEYNDR    -1.0000     NotChecked  -5.7597     2001.8745   ✗       
+126   FYVDYVDNKYEYGR           -1.0000     NotChecked  -5.8678     1829.8261   ✗       
+127   FYVDYVDNKYEYNE           -1.0000     NotChecked  -5.8841     1859.7890   ✗       
+128   FYVDYVDNKYEYGGR          -1.0000     NotChecked  -6.0615     1886.8475   ✗       
+129   FYVDYVDNKYEYGNE          -1.0000     NotChecked  -6.0778     1916.8105   ✗       
+130   FYVDYVDNKYEYNEN          -1.0000     NotChecked  -6.1859     1973.8319   ✗       
+131   FYVDYVN+0.984NKYEYGDR    -1.0000     NotChecked  -6.1942     1944.8530   ✗       
+132   FYVDYVDNKYEYNED          -1.0000     NotChecked  -6.2087     1974.8160   ✗       
+133   FYVDYVDNKYEYGE           -1.0000     NotChecked  -6.3187     1802.7675   ✗       
+134   FYVDYVN+0.984NKYEYNR     -1.0000     NotChecked  -6.3269     1886.8475   ✗       
+135   FYVDYVN+0.984NKYEYGGDR   -1.0000     NotChecked  -6.3879     2001.8745   ✗       
+136   FYVDYVDNKYEYGGE          -1.0000     NotChecked  -6.5124     1859.7890   ✗       
+137   FYVDYVN+0.984NKYEYGNR    -1.0000     NotChecked  -6.5206     1943.8690   ✗       
+138   FYVDYVDNKYEYGER          -1.0000     NotChecked  -6.5824     1958.8687   ✗       
+139   FYVDYVDNKYEYGEN          -1.0000     NotChecked  -6.6204     1916.8105   ✗       
+140   FYVDYVDNKYEYAER          -1.0000     NotChecked  -6.6364     1972.8843   ✗       
+141   FYVDYVDNKYEYGED          -1.0000     NotChecked  -6.6432     1917.7945   ✗       
+142   FYVDYVN+0.984NKYEYGR     -1.0000     NotChecked  -6.7614     1829.8261   ✗       
+143   FYVDYVN+0.984NKYEYNE     -1.0000     NotChecked  -6.7778     1859.7890   ✗       
+144   FYVDYVDNKYEYGGEN         -1.0000     NotChecked  -6.8141     1973.8319   ✗       
+145   FYVDYVDNKYEYGGED         -1.0000     NotChecked  -6.8369     1974.8160   ✗       
+146   FYVDYVDNKYEYGER          -1.0000     NotChecked  -6.9102     1958.8687   ✗       
+147   FYVDYVN+0.984NKYEYGGR    -1.0000     NotChecked  -6.9551     1886.8475   ✗       
+148   FYVDYVN+0.984NKYEYGNE    -1.0000     NotChecked  -6.9715     1916.8105   ✗       
+149   FYVDYVDNKYEYNDR          -1.0000     NotChecked  -6.9900     2001.8745   ✗       
+150   FYVDYVN+0.984NKYEYNER    -1.0000     Failed      -7.0416     2015.8901   ✓       
+151   FYVDYVN+0.984NKYEYNEN    -1.0000     NotChecked  -7.0795     1973.8319   ✗       
+152   FYVDYVN+0.984NKYEYNED    -1.0000     NotChecked  -7.1023     1974.8160   ✗       
+153   FYVDYVN+0.984NKYEYGE     -1.0000     NotChecked  -7.2123     1802.7675   ✗       
+154   FYVDYVN+0.984NKYEYNER    -1.0000     Failed      -7.3693     2015.8901   ✓       
+155   FYVDYVN+0.984NKYEYGGE    -1.0000     NotChecked  -7.4060     1859.7890   ✗       
+156   FYVDYVDNKYEYGDR          -1.0000     NotChecked  -7.4245     1944.8530   ✗       
+157   FYVDYVN+0.984NKYEYGER    -1.0000     NotChecked  -7.4761     1958.8687   ✗       
+158   FYVDYVN+0.984NKYEYGEN    -1.0000     NotChecked  -7.5141     1916.8105   ✗       
+159   FYVDYVN+0.984NKYEYAER    -1.0000     NotChecked  -7.5301     1972.8843   ✗       
+160   FYVDYVN+0.984NKYEYGED    -1.0000     NotChecked  -7.5369     1917.7945   ✗       
+161   FYVDYVDNKYEYNR           -1.0000     NotChecked  -7.5572     1886.8475   ✗       
+162   FYVDYVDNKYEYGGDR         -1.0000     NotChecked  -7.6182     2001.8745   ✗       
+163   FYVDYVN+0.984NKYEYGGEN   -1.0000     NotChecked  -7.7078     1973.8319   ✗       
+164   FYVDYVN+0.984NKYEYGGED   -1.0000     NotChecked  -7.7306     1974.8160   ✗       
+165   FYVDYVDNKYEYGNR          -1.0000     NotChecked  -7.7509     1943.8690   ✗       
+166   FYVDYVN+0.984NKYEYGER    -1.0000     NotChecked  -7.8039     1958.8687   ✗       
+167   FYVDYVN+0.984NKYEYNDR    -1.0000     NotChecked  -7.8836     2001.8745   ✗       
+168   FYVDYVDNKYEYGR           -1.0000     NotChecked  -7.9917     1829.8261   ✗       
+169   FYVDYVDNKYEYNE           -1.0000     NotChecked  -8.0081     1859.7890   ✗       
+170   FYVDYVDNKYEYGGR          -1.0000     NotChecked  -8.1854     1886.8475   ✗       
+171   FYVDYVDNKYEYGNE          -1.0000     NotChecked  -8.2018     1916.8105   ✗       
+172   FYVDYVDNKYEYGER          -1.0000     NotChecked  -8.2219     1958.8687   ✗       
+173   FYVDYVDNKYEYNEN          -1.0000     NotChecked  -8.3098     1973.8319   ✗       
+174   FYVDYVN+0.984NKYEYGDR    -1.0000     NotChecked  -8.3182     1944.8530   ✗       
+175   FYVDYVDNKYEYNED          -1.0000     NotChecked  -8.3326     1974.8160   ✗       
+176   FYVDYVDNKYEYGE           -1.0000     NotChecked  -8.4426     1802.7675   ✗       
+177   FYVDYVN+0.984NKYEYNR     -1.0000     NotChecked  -8.4509     1886.8475   ✗       
+178   FYVDYVDNKYEYQR           -1.0000     NotChecked  -8.5101     1900.8632   ✗       
+179   FYVDYVN+0.984NKYEYGGDR   -1.0000     NotChecked  -8.5119     2001.8745   ✗       
+180   FYVDYVDNKYEYGGE          -1.0000     NotChecked  -8.6363     1859.7890   ✗       
+181   FYVDYVDNKYEYNEQ          -1.0000     NotChecked  -8.6405     1987.8476   ✗       
+182   FYVDYVN+0.984NKYEYGNR    -1.0000     NotChecked  -8.6446     1943.8690   ✗       
+183   FYVDYVN+0.984NKYEYNER    -1.0000     Failed      -8.6811     2015.8901   ✓       
+184   FYVDYVDNKYEYGQR          -1.0000     NotChecked  -8.7038     1957.8846   ✗       
+185   FYVDYVDNKYEYGER          -1.0000     NotChecked  -8.7064     1958.8687   ✗       
+186   FYVDYVDNKYEYGEN          -1.0000     NotChecked  -8.7444     1916.8105   ✗       
+187   FYVDYVDNKYEYAER          -1.0000     NotChecked  -8.7604     1972.8843   ✗       
+188   FYVDYVDNKYEYGED          -1.0000     NotChecked  -8.7672     1917.7945   ✗       
+189   FYVDYVDNKYEYNNR          -1.0000     NotChecked  -8.8115     2000.8905   ✗       
+190   FYVDYVDNKYEYNEG          -1.0000     NotChecked  -8.8360     1916.8105   ✗       
+191   FYVDYVDNKYEYGER          -1.0000     NotChecked  -8.8585     1958.8687   ✗       
+192   FYVDYVDNKYEYGER          -1.0000     NotChecked  -8.8624     1958.8687   ✗       
+193   FYVDYVN+0.984NKYEYGR     -1.0000     NotChecked  -8.8854     1829.8261   ✗       
+194   FYVDYVN+0.984NKYEYNE     -1.0000     NotChecked  -8.9018     1859.7890   ✗       
+195   FYVDYVDNKYEYNGR          -1.0000     NotChecked  -8.9034     1943.8690   ✗       
+196   FYVDYVDNKYEYGGDR         -1.0000     NotChecked  -8.9111     2001.8745   ✗       
+197   FYVDYVDNKYEYGGEN         -1.0000     NotChecked  -8.9381     1973.8319   ✗       
+198   FYVDYVDNKYEYNDE          -1.0000     NotChecked  -8.9428     1974.8160   ✗       
+199   FYVDYVDNKYEYGGED         -1.0000     NotChecked  -8.9609     1974.8160   ✗       
+200   FYVDYVDNKYEYQE           -1.0000     NotChecked  -8.9610     1873.8047   ✗       
+201   FYVDYVDNKYEYGNEG         -1.0000     NotChecked  -9.0297     1973.8319   ✗       
+202   FYVDYVDNKYEYGER          -1.0000     NotChecked  -9.0342     1958.8687   ✗       
+203   FYVDYVDNKYEYNEA          -1.0000     NotChecked  -9.0381     1930.8261   ✗       
+204   FYVDYVDNKYEYGGDR         -1.0000     NotChecked  -9.0425     2001.8745   ✗       
+205   FYVDYVDNKYEYGNR          -1.0000     NotChecked  -9.0437     1943.8690   ✗       
+206   FYVDYVDNKYEYGEQ          -1.0000     NotChecked  -9.0751     1930.8261   ✗       
+207   FYVDYVN+0.984NKYEYGGR    -1.0000     NotChecked  -9.0791     1886.8475   ✗       
+208   FYVDYVN+0.984NKYEYGNE    -1.0000     NotChecked  -9.0955     1916.8105   ✗       
+209   FYVDYVDNKYEYGNGR         -1.0000     NotChecked  -9.0971     2000.8905   ✗       
+210   FYVDYVDNKYEYGGDR         -1.0000     NotChecked  -9.1048     2001.8745   ✗       
+211   FYVDYVN+0.984NKYEYGER    -1.0000     NotChecked  -9.1156     1958.8687   ✗       
+212   FYVDYVDNKYEYNAR          -1.0000     NotChecked  -9.1337     1957.8846   ✗       
+213   FYVDYVDNKYEYGQE          -1.0000     NotChecked  -9.1547     1930.8261   ✗       
+214   FYVDYVDNKYEYNQR          -1.0000     NotChecked  -9.1640     2014.9061   ✗       
+215   FYVDYVN+0.984NKYEYNER    -1.0000     Failed      -9.1655     2015.8901   ✓       
+216   FYVDYVDNKYEYGNR          -1.0000     NotChecked  -9.1752     1943.8690   ✗       
+217   FYVDYVN+0.984NKYEYNEN    -1.0000     NotChecked  -9.2035     1973.8319   ✗       
+218   FYVDYVN+0.984NKYEYNED    -1.0000     NotChecked  -9.2263     1974.8160   ✗       
+219   FYVDYVDNKYEYGNEA         -1.0000     NotChecked  -9.2318     1987.8476   ✗       
+220   FYVDYVDNKYEYGGDR         -1.0000     NotChecked  -9.2362     2001.8745   ✗       
+221   FYVDYVDNKYEYGNR          -1.0000     NotChecked  -9.2374     1943.8690   ✗       
+222   FYVDYVDNKYEYNDN          -1.0000     NotChecked  -9.2446     1959.8163   ✗       
+223   FYVDYVDNKYEYGNR          -1.0000     NotChecked  -9.2461     1943.8690   ✗       
+224   FYVDYVDNKYEYGQ+0.984R    -1.0000     NotChecked  -9.2598     1958.8687   ✗       
+225   FYVDYVDNKYEYQEN          -1.0000     NotChecked  -9.2627     1987.8476   ✗       
+226   FYVDYVDNKYEYND           -1.0000     NotChecked  -9.2674     1845.7734   ✗       
+227   FYVDYVDNKYEYGGEQ         -1.0000     NotChecked  -9.2688     1987.8476   ✗       
+228   FYVN+0.984YVDNKYEYGER    -1.0000     NotChecked  -9.2689     1958.8687   ✗       
+229   FYVDYVDNKYEYGEG          -1.0000     NotChecked  -9.2705     1859.7890   ✗       
+230   FYVDYVDNKYEYQED          -1.0000     NotChecked  -9.2855     1988.8316   ✗       
+231   FYVDYVN+0.984NKYEYNER    -1.0000     Failed      -9.3176     2015.8901   ✓       
+232   FYVDYVDNKYEYGNAR         -1.0000     NotChecked  -9.3274     2014.9061   ✗       
+233   FYVDYVN+0.984NKYEYGE     -1.0000     NotChecked  -9.3363     1802.7675   ✗       
+234   FYVDYVDNKYEYGGR          -1.0000     NotChecked  -9.3379     1886.8475   ✗       
+235   FYVDYVDNKYQ+0.984YNER    -1.0000     Failed      -9.3655     2015.8901   ✓       
+236   FYVDYVDNKYEYGNR          -1.0000     NotChecked  -9.3689     1943.8690   ✗       
+237   FYVDYVDNKYEYGDE          -1.0000     NotChecked  -9.3774     1917.7945   ✗       
+238   FYVDYVN+0.984NKYEYQR     -1.0000     NotChecked  -9.4037     1900.8632   ✗       
+239   FYVDYVNNKYEYNER          -1.0000     NotChecked  -9.4360     2014.9061   ✗       
+240   FYVDYVDNKYEYGGNR         -1.0000     NotChecked  -9.4398     2000.8905   ✗       
+241   FYVDYVDNKYEYGND          -1.0000     NotChecked  -9.4611     1902.7948   ✗       
+242   FYVDYVDNKYEYGGEG         -1.0000     NotChecked  -9.4642     1916.8105   ✗       
+243   FYVDYVDNKYEYLER          -1.0000     NotChecked  -9.4717     2014.9313   ✗       
+244   FYVDYVDNKYEYGEA          -1.0000     NotChecked  -9.4726     1873.8047   ✗       
+245   FYVDYVDNKYEYGGR          -1.0000     NotChecked  -9.4783     1886.8475   ✗       
+246   FYVDYVN+0.984NKYEYNER    -1.0000     Failed      -9.4933     2015.8901   ✓       
+247   FYVDYVDNKYEYGNE          -1.0000     NotChecked  -9.4946     1916.8105   ✗       
+248   FYVDYVN+0.984NKYEYGGE    -1.0000     NotChecked  -9.5300     1859.7890   ✗       
+249   FYVDYVDNKYEYGGGR         -1.0000     NotChecked  -9.5316     1943.8690   ✗       
+250   FYVDYVN+0.984NKYEYNEQ    -1.0000     NotChecked  -9.5342     1987.8476   ✗       
+251   FYVDYVDNKYEYNDR          -1.0000     NotChecked  -9.5344     2001.8745   ✗       
+252   FYVDYVDNKYEYGAR          -1.0000     NotChecked  -9.5683     1900.8632   ✗       
+253   FYVDYVDNKYEYGGDE         -1.0000     NotChecked  -9.5711     1974.8160   ✗       
+254   FYVDYVN+0.984NKYEYGQR    -1.0000     NotChecked  -9.5974     1957.8846   ✗       
+255   FYVDYVDNKYEYGQR          -1.0000     NotChecked  -9.5985     1957.8846   ✗       
+256   FYVDYVN+0.984NKYEYGER    -1.0000     NotChecked  -9.6001     1958.8687   ✗       
+257   FYVDYVDNKYEYGGR          -1.0000     NotChecked  -9.6097     1886.8475   ✗       
+258   FYVDYVDNKYEYGNE          -1.0000     NotChecked  -9.6261     1916.8105   ✗       
+259   FYVDYVN+0.984NKYEYGEN    -1.0000     NotChecked  -9.6381     1916.8105   ✗       
+260   FYVDYVN+0.984NKYEYAER    -1.0000     NotChecked  -9.6540     1972.8843   ✗       
+261   FYVDYVN+0.984NKYEYGED    -1.0000     NotChecked  -9.6609     1917.7945   ✗       
+262   FYVDYVDNKYEYGGEA         -1.0000     NotChecked  -9.6663     1930.8261   ✗       
+263   FYVDYVDNKYEYGGR          -1.0000     NotChecked  -9.6720     1886.8475   ✗       
+264   FYVDYVDNKYEYGDN          -1.0000     NotChecked  -9.6791     1902.7948   ✗       
+265   FYVDYVDNKYEYGNE          -1.0000     NotChecked  -9.6883     1916.8105   ✗       
+266   FYVDYVDNKYEYADR          -1.0000     NotChecked  -9.6951     1958.8687   ✗       
+267   FYVDYVDNKYEYGD           -1.0000     NotChecked  -9.7019     1788.7519   ✗       
+268   FYVDYVN+0.984NKYEYNNR    -1.0000     NotChecked  -9.7052     2000.8905   ✗       
+269   FYVN+0.984YVN+0.984NKYEYNER-1.0000     Failed      -9.7280     2015.8901   ✓       
+270   FYVDYVN+0.984NKYEYNEG    -1.0000     NotChecked  -9.7296     1916.8105   ✗       
+271   FYVDYVN+0.984NKYEYGER    -1.0000     NotChecked  -9.7522     1958.8687   ✗       
+272   FYVDYVN+0.984NKYEYGER    -1.0000     NotChecked  -9.7561     1958.8687   ✗       
+273   FYVDYVDNKYEYGGAR         -1.0000     NotChecked  -9.7620     1957.8846   ✗       
+274   FYVDYVDNKYEYGGQR         -1.0000     NotChecked  -9.7922     2014.9061   ✗       
+275   FYVDYVN+0.984NKYEYNGR    -1.0000     NotChecked  -9.7970     1943.8690   ✗       
+276   FYVDYVDNKYQ+0.984YGER    -1.0000     NotChecked  -9.8001     1958.8687   ✗       
+277   FYVDYVDNKYEYGGR          -1.0000     NotChecked  -9.8034     1886.8475   ✗       
+278   FYVDYVN+0.984NKYEYGGDR   -1.0000     NotChecked  -9.8047     2001.8745   ✗       
+279   FYVDYVDNKYEYNRN          -1.0000     NotChecked  -9.8118     2000.8905   ✗       
+280   FYVDYVDNKYEYGNE          -1.0000     NotChecked  -9.8198     1916.8105   ✗       
+281   FYVDYVN+0.984NKYEYGGEN   -1.0000     NotChecked  -9.8318     1973.8319   ✗       
+282   FYVDYVDNKYEYNRD          -1.0000     NotChecked  -9.8346     2001.8745   ✗       
+283   FYVDYVN+0.984NKYEYNDE    -1.0000     NotChecked  -9.8365     1974.8160   ✗       
+284   FYVDYVN+0.984NKYEYGGED   -1.0000     NotChecked  -9.8545     1974.8160   ✗       
+285   FYVDYVN+0.984NKYEYQE     -1.0000     NotChecked  -9.8546     1873.8047   ✗       
+286   FYVDYVNNKYEYGER          -1.0000     NotChecked  -9.8705     1957.8846   ✗       
+287   FYVDYVDNKYEYGGDN         -1.0000     NotChecked  -9.8728     1959.8163   ✗       
+288   FYVDYVDNKYEYGGD          -1.0000     NotChecked  -9.8956     1845.7734   ✗       
+289   FYVDYVN+0.984NKYEYGNEG   -1.0000     NotChecked  -9.9233     1973.8319   ✗       
+290   FYVDYVN+0.984NKYEYGER    -1.0000     NotChecked  -9.9278     1958.8687   ✗       
+291   FYVDYVDNKYEYGGE          -1.0000     NotChecked  -9.9292     1859.7890   ✗       
+292   FYVDYVN+0.984NKYEYNEA    -1.0000     NotChecked  -9.9318     1930.8261   ✗       
+293   FYVDYVN+0.984NKYEYGGDR   -1.0000     NotChecked  -9.9362     2001.8745   ✗       
+294   FYVDYVN+0.984NKYEYGNR    -1.0000     NotChecked  -9.9374     1943.8690   ✗       
+295   FYVDYVDNKYEYGRE          -1.0000     NotChecked  -9.9446     1958.8687   ✗       
+296   FYVDYVN+0.984NKYEYGEQ    -1.0000     NotChecked  -9.9688     1930.8261   ✗       
+297   FYVDYVDNKYEYGDR          -1.0000     NotChecked  -9.9689     1944.8530   ✗       
+298   FYVDYVN+0.984NKYEYGNGR   -1.0000     NotChecked  -9.9907     2000.8905   ✗       
+299   FYVDYVN+0.984NKYEYGGDR   -1.0000     NotChecked  -9.9984     2001.8745   ✗       
+300   FYVDYVDNKYEYNEN+0.984    -1.0000     NotChecked  -10.0126    1974.8160   ✗       
+301   FYVDYVN+0.984NKYEYNAR    -1.0000     NotChecked  -10.0274    1957.8846   ✗       
+302   FYVDYVN+0.984NKYEYGQE    -1.0000     NotChecked  -10.0483    1930.8261   ✗       
+303   FYVDYVN+0.984NKYEYNQR    -1.0000     NotChecked  -10.0576    2014.9061   ✗       
+304   FYVDYVDNKYEYGGE          -1.0000     NotChecked  -10.0606    1859.7890   ✗       
+305   FYVDYVNNKYEYGGER         -1.0000     NotChecked  -10.0642    2014.9061   ✗       
+306   FYVDYVN+0.984NKYEYGNR    -1.0000     NotChecked  -10.0688    1943.8690   ✗       
+307   FYVDYVDNKYEYNR           -1.0000     NotChecked  -10.1016    1886.8475   ✗       
+308   FYVDYVDNKYEYGGE          -1.0000     NotChecked  -10.1229    1859.7890   ✗       
+309   FYVDYVN+0.984NKYEYGNEA   -1.0000     NotChecked  -10.1255    1987.8476   ✗       
+310   FYVDYVN+0.984NKYEYGGDR   -1.0000     NotChecked  -10.1299    2001.8745   ✗       
+311   FYVDYVN+0.984NKYEYGNR    -1.0000     NotChecked  -10.1311    1943.8690   ✗       
+312   FYVDYVN+0.984NKYEYNDN    -1.0000     NotChecked  -10.1383    1959.8163   ✗       
+313   FYVDYVDNKYEYGGRE         -1.0000     Failed      -10.1383    2015.8901   ✓       
+314   FYVDYVN+0.984NKYEYGNR    -1.0000     NotChecked  -10.1397    1943.8690   ✗       
+315   FYVDYVN+0.984NKYEYGQ+0.984R-1.0000     NotChecked  -10.1535    1958.8687   ✗       
+316   FYVDYVN+0.984NKYEYQEN    -1.0000     NotChecked  -10.1564    1987.8476   ✗       
+317   FYVDYVN+0.984NKYEYND     -1.0000     NotChecked  -10.1610    1845.7734   ✗       
+318   FYVDYVN+0.984NKYEYGGEQ   -1.0000     NotChecked  -10.1625    1987.8476   ✗       
+319   FYVN+0.984YVN+0.984NKYEYGER-1.0000     NotChecked  -10.1626    1958.8687   ✗       
+320   FYVDYVDNKYEYGGDR         -1.0000     NotChecked  -10.1626    2001.8745   ✗       
+321   FYVDYVN+0.984NKYEYGEG    -1.0000     NotChecked  -10.1642    1859.7890   ✗       
+322   FYVDYVDNKYEYANR          -1.0000     NotChecked  -10.1686    1957.8846   ✗       
+323   FYVDYVN+0.984NKYEYQED    -1.0000     NotChecked  -10.1792    1988.8316   ✗       
+324   FYVDYVDNKYEYGER          -1.0000     NotChecked  -10.2084    1958.8687   ✗       
+325   FYVDYVN+0.984NKYEYGNAR   -1.0000     NotChecked  -10.2211    2014.9061   ✗       
+326   FYVDYVDNKYEYNE           -1.0000     NotChecked  -10.2247    1859.7890   ✗       
+327   FYVDYVDNKYEYGGEN         -1.0000     NotChecked  -10.2309    1973.8319   ✗       
+328   FYVDYVN+0.984NKYEYGGR    -1.0000     NotChecked  -10.2316    1886.8475   ✗       
+329   FYVDYVDNKYEYGRN          -1.0000     NotChecked  -10.2464    1943.8690   ✗       
+330   FYVDYVDNKYEYGGED         -1.0000     NotChecked  -10.2537    1974.8160   ✗       
+331   FYVDYVDNKYEYGGE          -1.0000     NotChecked  -10.2543    1859.7890   ✗       
+332   FYVDYVDNKYEYAR           -1.0000     NotChecked  -10.2623    1843.8417   ✗       
+333   FYVDYVN+0.984NKYEYGNR    -1.0000     NotChecked  -10.2625    1943.8690   ✗       
+334   FYVDYVDNKYEYGRD          -1.0000     NotChecked  -10.2692    1944.8530   ✗       
+335   FYVDYVN+0.984NKYEYGDE    -1.0000     NotChecked  -10.2711    1917.7945   ✗       
+336   FYVDYVDNKYEYNEL          -1.0000     NotChecked  -10.2751    1972.8731   ✗       
+337   FYVDYVDNKYEYGNR          -1.0000     NotChecked  -10.2953    1943.8690   ✗       
+338   FYVDYVN+0.984NKYEYGGNR   -1.0000     NotChecked  -10.3334    2000.8905   ✗       
+339   FYVDYVDNKYEYNN+0.984R    -1.0000     NotChecked  -10.3403    2001.8745   ✗       
+340   FYVDYVDNKYEYGER          -1.0000     NotChecked  -10.3459    1958.8687   ✗       
+341   FYVDYVN+0.984NKYEYGND    -1.0000     NotChecked  -10.3547    1902.7948   ✗       
+342   FYVDYVN+0.984NKYEYGGEG   -1.0000     NotChecked  -10.3579    1916.8105   ✗       
+343   FYVDYVDNKYEYGGEN         -1.0000     NotChecked  -10.3624    1973.8319   ✗       
+344   FYVDYVN+0.984NKYEYLER    -1.0000     NotChecked  -10.3654    2014.9313   ✗       
+345   FYVDYVN+0.984NKYEYGEA    -1.0000     NotChecked  -10.3663    1873.8047   ✗       
+346   FYVDYVDNKYEYNEV          -1.0000     NotChecked  -10.3667    1958.8574   ✗       
+347   FYVDYVN+0.984NKYEYGGR    -1.0000     NotChecked  -10.3720    1886.8475   ✗       
+348   FYVDYVDNKYEYRR           -1.0000     NotChecked  -10.3754    1928.9057   ✗       
+349   FYVDYVDNKYEYGGED         -1.0000     NotChecked  -10.3852    1974.8160   ✗       
+350   FYVDYVN+0.984NKYEYGNE    -1.0000     NotChecked  -10.3883    1916.8105   ✗       
+351   FYVDYVDNKYEYGNE          -1.0000     NotChecked  -10.4184    1916.8105   ✗       
+352   FYVDYVDNKYEYGGEN         -1.0000     NotChecked  -10.4246    1973.8319   ✗       
+353   FYVDYVN+0.984NKYEYGGGR   -1.0000     NotChecked  -10.4253    1943.8690   ✗       
+354   FYVDYVN+0.984NKYEYNDR    -1.0000     NotChecked  -10.4280    2001.8745   ✗       
+355   FYVDYVDNKYEYGGRN         -1.0000     NotChecked  -10.4401    2000.8905   ✗       
+356   FYVDYVDNKYEYGEN+0.984    -1.0000     NotChecked  -10.4471    1917.7945   ✗       
+357   FYVDYVDNKYEYGGED         -1.0000     NotChecked  -10.4474    1974.8160   ✗       
+358   FYVDYVDNKYEYGAR          -1.0000     NotChecked  -10.4560    1900.8632   ✗       
+359   FYVDYVN+0.984NKYEYGAR    -1.0000     NotChecked  -10.4619    1900.8632   ✗       
+360   FYVDYVDNKYEYGGRD         -1.0000     NotChecked  -10.4629    2001.8745   ✗       
+361   FYVDYVN+0.984NKYEYGGDE   -1.0000     NotChecked  -10.4648    1974.8160   ✗       
+362   FYVDYVN+0.984NKYEYGQR    -1.0000     NotChecked  -10.4922    1957.8846   ✗       
+363   FYVDYVN+0.984NKYEYGGR    -1.0000     NotChecked  -10.5034    1886.8475   ✗       
+364   FYVDYVN+0.984NKYEYGNE    -1.0000     NotChecked  -10.5197    1916.8105   ✗       
+365   FYVDYVDNKYEYNEN          -1.0000     NotChecked  -10.5265    1973.8319   ✗       
+366   FYVDYVDNKYEYGR           -1.0000     NotChecked  -10.5361    1829.8261   ✗       
+367   FYVDYVDNKYEYNED          -1.0000     NotChecked  -10.5493    1974.8160   ✗       
+368   FYVDYVDNKYEYNE           -1.0000     NotChecked  -10.5525    1859.7890   ✗       
+369   FYVDYVDNKYEYGGEN         -1.0000     NotChecked  -10.5561    1973.8319   ✗       
+370   FYVDYVDN+0.984KYEYGER    -1.0000     NotChecked  -10.5594    1959.8527   ✗       
+371   FYVDYVN+0.984NKYEYGGEA   -1.0000     NotChecked  -10.5600    1930.8261   ✗       
+372   FYVDYVN+0.984NKYEYGGR    -1.0000     NotChecked  -10.5656    1886.8475   ✗       
+373   FYVDYVDNKYEYGRR          -1.0000     NotChecked  -10.5691    1985.9272   ✗       
+374   FYVDYVN+0.984NKYEYGDN    -1.0000     NotChecked  -10.5728    1902.7948   ✗       
+375   FYVDYVDNKYEYGGED         -1.0000     NotChecked  -10.5789    1974.8160   ✗       
+376   FYVDYVN+0.984NKYEYGNE    -1.0000     NotChecked  -10.5820    1916.8105   ✗       
+377   FYVDYVN+0.984NKYEYADR    -1.0000     NotChecked  -10.5888    1958.8687   ✗       
+378   FYVDYVN+0.984NKYEYGD     -1.0000     NotChecked  -10.5956    1788.7519   ✗       
+379   FYVDYVDNKYEYAGR          -1.0000     NotChecked  -10.6031    1900.8632   ✗       
+380   FYVDYVDNKYEYANE          -1.0000     NotChecked  -10.6195    1930.8261   ✗       
+381   FYVDYVDNKYEYQR           -1.0000     NotChecked  -10.6340    1900.8632   ✗       
+382   FYVDYVDNKYEYGGEN+0.984   -1.0000     NotChecked  -10.6408    1974.8160   ✗       
+383   FYVDYVN+0.984NKYEYGGAR   -1.0000     NotChecked  -10.6556    1957.8846   ✗       
+384   FYVDYVDNKYEYGE           -1.0000     NotChecked  -10.6593    1802.7675   ✗       
+385   FYVDYVN+0.984NKYEYNER    -1.0000     Failed      -10.6675    2015.8901   ✓       
+386   FYVDYVN+0.984NKYEYGGQR   -1.0000     NotChecked  -10.6859    2014.9061   ✗       
+387   FYVDYVN+0.984NKYQ+0.984YGER-1.0000     NotChecked  -10.6937    1958.8687   ✗       
+388   FFVDYVDNKYEYNER          -1.0000     NotChecked  -10.6938    1999.8952   ✗       
+389   FYVDYVN+0.984NKYEYGGR    -1.0000     NotChecked  -10.6971    1886.8475   ✗       
+390   FYVDYVN+0.984NKYEYNRN    -1.0000     NotChecked  -10.7055    2000.8905   ✗       
+391   FYVDYVDNKYEYGEL          -1.0000     NotChecked  -10.7097    1915.8516   ✗       
+392   FYVDYVDNKYEYAE           -1.0000     NotChecked  -10.7132    1816.7832   ✗       
+393   FYVDYVN+0.984NKYEYGNE    -1.0000     NotChecked  -10.7134    1916.8105   ✗       
+394   FYVDYVN+0.984NKYEYNRD    -1.0000     NotChecked  -10.7283    2001.8745   ✗       
+395   FYVDYVDNKYEYGGR          -1.0000     NotChecked  -10.7298    1886.8475   ✗       
+396   FYVDYVDNKYEYGER          -1.0000     NotChecked  -10.7447    1958.8687   ✗       
+397   FYVDYVDNKYEYGNE          -1.0000     NotChecked  -10.7462    1916.8105   ✗       
+398   FYVDYVDNKYEYNEQ          -1.0000     NotChecked  -10.7645    1987.8476   ✗       
+399   FYVDYVN+0.984NKYEYGGDN   -1.0000     NotChecked  -10.7665    1959.8163   ✗       
+400   FYVDYVDNKYEYGN+0.984R    -1.0000     NotChecked  -10.7748    1944.8530   ✗       
+401   FYVDYVN+0.984NKYEYGGD    -1.0000     NotChecked  -10.7893    1845.7734   ✗       
+402   FYVDYVDNKYEYGEV          -1.0000     NotChecked  -10.8013    1901.8360   ✗       
+403   FYVDYVN+0.984NKYEYNER    -1.0000     Failed      -10.8050    2015.8901   ✓       
+404   FYVDYVN+0.984NKYEYGGE    -1.0000     NotChecked  -10.8229    1859.7890   ✗       
+405   FYVDYVDNKYEYRE           -1.0000     NotChecked  -10.8263    1901.8472   ✗       
+406   FYVDYVDNKYEYGQR          -1.0000     NotChecked  -10.8277    1957.8846   ✗       
+407   FYVDYVN+0.984NKYEYGRE    -1.0000     NotChecked  -10.8383    1958.8687   ✗       
+408   FYVDYVDNKYEYNDR          -1.0000     NotChecked  -10.8461    2001.8745   ✗       
+409   FYVDYVDNKYEYGGE          -1.0000     NotChecked  -10.8530    1859.7890   ✗       
+410   FYVDYVDNKYEYNEN          -1.0000     NotChecked  -10.8543    1973.8319   ✗       
+411   FYVDYVN+0.984NKYEYGDR    -1.0000     NotChecked  -10.8626    1944.8530   ✗       
+412   FYVDYVDNKYEYNED          -1.0000     NotChecked  -10.8770    1974.8160   ✗       
+413   FYVDYVDNKYEYGGEL         -1.0000     NotChecked  -10.9034    1972.8731   ✗       
+414   FYVDYVN+0.984NKYEYNEN+0.984-1.0000     NotChecked  -10.9062    1974.8160   ✗       
+415   FYVDYVDNKYEYGAE          -1.0000     NotChecked  -10.9069    1873.8047   ✗       
+416   FYVDYVDNKYEYNNR          -1.0000     NotChecked  -10.9355    2000.8905   ✗       
+417   FYVDYVN+0.984NKYEYGGE    -1.0000     NotChecked  -10.9543    1859.7890   ✗       
+418   FYVDYVDNKYEYNEG          -1.0000     NotChecked  -10.9599    1916.8105   ✗       
+419   FYVDYVDNKYEYGEN          -1.0000     NotChecked  -10.9610    1916.8105   ✗       
+420   FYVDYVDNKYEYGGN+0.984R   -1.0000     NotChecked  -10.9685    2001.8745   ✗       
+421   FYVDYVDNKYEYAER          -1.0000     NotChecked  -10.9770    1972.8843   ✗       
+422   FYVDYVDNKYEYGED          -1.0000     NotChecked  -10.9838    1917.7945   ✗       
+423   FYVDYVDNKYEYGER          -1.0000     NotChecked  -10.9864    1958.8687   ✗       
+424   FYVDYVDNKYEYGE           -1.0000     NotChecked  -10.9871    1802.7675   ✗       
+425   FYVDYVDNKYEYGGEV         -1.0000     NotChecked  -10.9950    1958.8574   ✗       
+426   FYVDYVN+0.984NKYEYNR     -1.0000     NotChecked  -10.9953    1886.8475   ✗       
+427   FYVDYVDNKYEYAEN          -1.0000     NotChecked  -11.0150    1930.8261   ✗       
+428   FYVDYVN+0.984NKYEYGGE    -1.0000     NotChecked  -11.0166    1859.7890   ✗       
+429   FYVDYVDNKYEYGRE          -1.0000     NotChecked  -11.0200    1958.8687   ✗       
+430   FYVDYVDNKYEYNGR          -1.0000     NotChecked  -11.0273    1943.8690   ✗       
+431   FYVDYVDNKYEYGGDR         -1.0000     NotChecked  -11.0350    2001.8745   ✗       
+432   FYVDYVDNKYEYAED          -1.0000     NotChecked  -11.0378    1931.8101   ✗       
+433   FYVDYVDNKYEYAGE          -1.0000     NotChecked  -11.0540    1873.8047   ✗       
+434   FYVDYVN+0.984NKYEYGGDR   -1.0000     NotChecked  -11.0563    2001.8745   ✗       
+435   FYVDYVN+0.984NKYEYANR    -1.0000     NotChecked  -11.0622    1957.8846   ✗       
+436   FYVDYVDNKYEYNDE          -1.0000     NotChecked  -11.0668    1974.8160   ✗       
+437   FYVDYVDNKYEYQE           -1.0000     NotChecked  -11.0849    1873.8047   ✗       
+438   FYVDYVN+0.984NKYEYGER    -1.0000     NotChecked  -11.1021    1958.8687   ✗       
+439   FYVDYVN+0.984NKYEYNE     -1.0000     NotChecked  -11.1184    1859.7890   ✗       
+440   FYVDYVN+0.984NKYEYGGEN   -1.0000     NotChecked  -11.1246    1973.8319   ✗       
+441   FFVDYVDNKYEYGER          -1.0000     NotChecked  -11.1283    1942.8737   ✗       
+442   FYVDYVN+0.984NKYEYGRN    -1.0000     NotChecked  -11.1400    1943.8690   ✗       
+443   FYVDYVN+0.984NKYEYGGED   -1.0000     NotChecked  -11.1474    1974.8160   ✗       
+444   FYVDYVN+0.984NKYEYGGE    -1.0000     NotChecked  -11.1480    1859.7890   ✗       
+445   FYVDYVDNKYEYGNEG         -1.0000     NotChecked  -11.1536    1973.8319   ✗       
+446   FYVDYVDNKYEYGGEN         -1.0000     NotChecked  -11.1547    1973.8319   ✗       
+447   FYVDYVN+0.984NKYEYAR     -1.0000     NotChecked  -11.1560    1843.8417   ✗       
+448   FYVDYVDNKYEYER           -1.0000     NotChecked  -11.1617    1901.8472   ✗       
+449   FYVDYVDNKYEYNEA          -1.0000     NotChecked  -11.1621    1930.8261   ✗       
+450   FYVDYVN+0.984NKYEYGRD    -1.0000     NotChecked  -11.1628    1944.8530   ✗       
+451   FYVDYVDNKYEYGGDR         -1.0000     NotChecked  -11.1665    2001.8745   ✗       
+452   FYVDYVDNKYEYGNR          -1.0000     NotChecked  -11.1677    1943.8690   ✗       
+453   FYVDYVN+0.984NKYEYNEL    -1.0000     NotChecked  -11.1688    1972.8731   ✗       
+454   FYVDYVDNKYEYGGED         -1.0000     NotChecked  -11.1775    1974.8160   ✗       
+455   FYVDYVDNKYEYGGE          -1.0000     NotChecked  -11.1807    1859.7890   ✗       
+456   FYVDYVN+0.984NKYEYGNR    -1.0000     NotChecked  -11.1890    1943.8690   ✗       
+457   FYVDYVDNKYEYGEQ          -1.0000     NotChecked  -11.1991    1930.8261   ✗       
+458   FYVDYVN+0.984NKYEYNER    -1.0000     Failed      -11.2038    2015.8901   ✓       
+459   FYVDYVDNKYEYGAEN         -1.0000     NotChecked  -11.2087    1987.8476   ✗       
+460   FYVDYVDNKYEYGNGR         -1.0000     NotChecked  -11.2210    2000.8905   ✗       
+461   FYVDYVDNKYEYGGDR         -1.0000     NotChecked  -11.2287    2001.8745   ✗       
+462   FYVDYVDNKYEYGAED         -1.0000     NotChecked  -11.2315    1988.8316   ✗       
+463   FYVDYVN+0.984NKYEYNN+0.984R-1.0000     NotChecked  -11.2339    2001.8745   ✗       
+464   FYVDYVN+0.984NKYEYGER    -1.0000     NotChecked  -11.2396    1958.8687   ✗       
+465   FYVDYVDNKYEYGER          -1.0000     NotChecked  -11.2508    1958.8687   ✗       
+466   FYVDYVN+0.984NKYEYGGEN   -1.0000     NotChecked  -11.2560    1973.8319   ✗       
+467   FYVDYVDNKYEYNAR          -1.0000     NotChecked  -11.2577    1957.8846   ✗       
+468   FYVDYVN+0.984NKYEYNEV    -1.0000     NotChecked  -11.2604    1958.8574   ✗       
+469   FYVDYVN+0.984NKYEYRR     -1.0000     NotChecked  -11.2690    1928.9057   ✗       
+470   FYVDYVDNKYEYGQE          -1.0000     NotChecked  -11.2786    1930.8261   ✗       
+471   FYVDYVN+0.984NKYEYGGED   -1.0000     NotChecked  -11.2788    1974.8160   ✗       
+472   FYVDYVDNKYEYGDR          -1.0000     NotChecked  -11.2807    1944.8530   ✗       
+473   FYVDYVDNKYEYNQR          -1.0000     NotChecked  -11.2879    2014.9061   ✗       
+474   FYVDYVDNKYEYGEN          -1.0000     NotChecked  -11.2888    1916.8105   ✗       
+475   FYVDYVDNKYEYGNR          -1.0000     NotChecked  -11.2991    1943.8690   ✗       
+476   FYVDYVDNKYEYAER          -1.0000     NotChecked  -11.3048    1972.8843   ✗       
+477   FYVDYVDNKYEYGED          -1.0000     NotChecked  -11.3116    1917.7945   ✗       
+478   FYVDYVN+0.984NKYEYGNE    -1.0000     NotChecked  -11.3121    1916.8105   ✗       
+479   FYVDYVN+0.984NKYEYGGEN   -1.0000     NotChecked  -11.3183    1973.8319   ✗       
+480   FFVDYVDNKYEYGGER         -1.0000     NotChecked  -11.3220    1999.8952   ✗       
+481   FYVDYVN+0.984NKYEYGGRN   -1.0000     NotChecked  -11.3337    2000.8905   ✗       
+482   FYVDYVN+0.984NKYEYGEN+0.984-1.0000     NotChecked  -11.3408    1917.7945   ✗       
+483   FYVDYVN+0.984NKYEYGGED   -1.0000     NotChecked  -11.3411    1974.8160   ✗       
+484   FYVDYVDNKYEYNNR          -1.0000     NotChecked  -11.3448    2000.8905   ✗       
+485   FYVDYVN+0.984NKYEYGAR    -1.0000     NotChecked  -11.3497    1900.8632   ✗       
+486   FYVDYVDNKYEYGER          -1.0000     NotChecked  -11.3554    1958.8687   ✗       
+487   FYVDYVDNKYEYGNEA         -1.0000     NotChecked  -11.3558    1987.8476   ✗       
+488   FYVDYVDNKYEYAGEN         -1.0000     NotChecked  -11.3558    1987.8476   ✗       
+489   FYVDYVN+0.984NKYEYGGRD   -1.0000     NotChecked  -11.3565    2001.8745   ✗       
+490   FYVDYVDNKYEYGGDR         -1.0000     NotChecked  -11.3602    2001.8745   ✗       
+491   FYVDYVDNKYEYGNR          -1.0000     NotChecked  -11.3614    1943.8690   ✗       
+492   FYVDYVDNKYEYNDN          -1.0000     NotChecked  -11.3686    1959.8163   ✗       
+493   FYVDYVDNKYEYGNR          -1.0000     NotChecked  -11.3700    1943.8690   ✗       
+494   FYVDYVDNKYEYNKR          -1.0000     NotChecked  -11.3760    2014.9425   ✗       
+495   FYVDYVDNKYEYAGED         -1.0000     NotChecked  -11.3786    1988.8316   ✗       
+496   FYVDYVDNKYEYGQ+0.984R    -1.0000     NotChecked  -11.3838    1958.8687   ✗       
+497   FYVDYVDNKYEYQEN          -1.0000     NotChecked  -11.3867    1987.8476   ✗       
+498   FYVDYVDNKYEYND           -1.0000     NotChecked  -11.3913    1845.7734   ✗       
+499   FYVDYVDNKYEYGGEQ         -1.0000     NotChecked  -11.3928    1987.8476   ✗       
+500   FYVN+0.984YVDNKYEYGER    -1.0000     NotChecked  -11.3929    1958.8687   ✗       
+501   FYVDYVDNKYEYGEG          -1.0000     NotChecked  -11.3945    1859.7890   ✗       
+502   FYVDYVDNKYEYQED          -1.0000     NotChecked  -11.4095    1988.8316   ✗       
+503   FYVDYVDNKYEYNR           -1.0000     NotChecked  -11.4133    1886.8475   ✗       
+504   FYVDYVN+0.984NKYEYNEN    -1.0000     NotChecked  -11.4202    1973.8319   ✗       
+505   FYVDYVN+0.984NKYEYGR     -1.0000     NotChecked  -11.4298    1829.8261   ✗       
+506   FYVDYVN+0.984NKYEYNED    -1.0000     NotChecked  -11.4430    1974.8160   ✗       
+507   FYVDYVN+0.984NKYEYNE     -1.0000     NotChecked  -11.4462    1859.7890   ✗       
+508   FYVDYVN+0.984NKYEYGGEN   -1.0000     NotChecked  -11.4497    1973.8319   ✗       
+509   FYVDYVDNKYEYGNAR         -1.0000     NotChecked  -11.4514    2014.9061   ✗       
+510   FYVDYVN+0.984N+0.984KYEYGER-1.0000     NotChecked  -11.4531    1959.8527   ✗       
+511   FYVDYVDNKYEYGGR          -1.0000     NotChecked  -11.4619    1886.8475   ✗       
+512   FYVDYVN+0.984NKYEYGRR    -1.0000     NotChecked  -11.4627    1985.9272   ✗       
+513   FYVDYVN+0.984NKYEYGGED   -1.0000     NotChecked  -11.4725    1974.8160   ✗       
+514   FYVDYVDNKYEYGGDR         -1.0000     NotChecked  -11.4743    2001.8745   ✗       
+515   FYVDYVDNKYEYGGEN         -1.0000     NotChecked  -11.4825    1973.8319   ✗       
+516   FYVDYVDNKYEYNDR          -1.0000     NotChecked  -11.4827    2001.8745   ✗       
+517   FYVDYVDNKYQ+0.984YNER    -1.0000     Failed      -11.4895    2015.8901   ✓       
+518   FYVDYVDNKYEYGNR          -1.0000     NotChecked  -11.4928    1943.8690   ✗       
+519   FYVDYVN+0.984NKYEYAGR    -1.0000     NotChecked  -11.4968    1900.8632   ✗       
+520   FYVDYVDNKYEYGDE          -1.0000     NotChecked  -11.5014    1917.7945   ✗       
+521   FYVDYVDNKYEYGGED         -1.0000     NotChecked  -11.5053    1974.8160   ✗       
+522   FYVDYVN+0.984NKYEYANE    -1.0000     NotChecked  -11.5131    1930.8261   ✗       
+523   FYVDYVN+0.984NKYEYQR     -1.0000     NotChecked  -11.5277    1900.8632   ✗       
+524   FYVDYVN+0.984NKYEYGGEN+0.984-1.0000     NotChecked  -11.5345    1974.8160   ✗       
+525   FYVDYVN+0.984NKYEYGE     -1.0000     NotChecked  -11.5530    1802.7675   ✗       
+526   FYVDYVNNKYEYNER          -1.0000     NotChecked  -11.5599    2014.9061   ✗       
+527   FYVDYVDNKYEYGGNR         -1.0000     NotChecked  -11.5637    2000.8905   ✗       
+528   FYVDYVDNKYEYGND          -1.0000     NotChecked  -11.5850    1902.7948   ✗       
+529   FFVDYVN+0.984NKYEYNER    -1.0000     NotChecked  -11.5875    1999.8952   ✗       
+530   FYVDYVDNKYEYGGEG         -1.0000     NotChecked  -11.5882    1916.8105   ✗       
+531   FYVDYVDNKYEYLER          -1.0000     NotChecked  -11.5957    2014.9313   ✗       
+532   FYVDYVDNKYEYGEA          -1.0000     NotChecked  -11.5966    1873.8047   ✗       
+533   YYVDYVDNKYEYGER          -1.0000     NotChecked  -11.5976    1974.8636   ✗       
+534   FYVDYVDNKYEYGGR          -1.0000     NotChecked  -11.6022    1886.8475   ✗       
+535   FYVDYVN+0.984NKYEYGEL    -1.0000     NotChecked  -11.6034    1915.8516   ✗       
+536   FYVDYVN+0.984NKYEYAE     -1.0000     NotChecked  -11.6069    1816.7832   ✗       
+537   FYVDYVDNKYEYGNR          -1.0000     NotChecked  -11.6070    1943.8690   ✗       
+538   FYVDYVDNKYEYEE           -1.0000     NotChecked  -11.6126    1874.7887   ✗       
+539   FYVDYVDNKYEYGNE          -1.0000     NotChecked  -11.6186    1916.8105   ✗       
+540   FYVDYVN+0.984NKYEYGGR    -1.0000     NotChecked  -11.6235    1886.8475   ✗       
+541   FYVDYVN+0.984NKYEYGER    -1.0000     NotChecked  -11.6383    1958.8687   ✗       
+542   FYVDYVN+0.984NKYEYGNE    -1.0000     NotChecked  -11.6399    1916.8105   ✗       
+543   FYVDYVDNKYEYRGR          -1.0000     NotChecked  -11.6515    1985.9272   ✗       
+544   FYVDYVDNKYEYGGGR         -1.0000     NotChecked  -11.6556    1943.8690   ✗       
+545   FYVDYVN+0.984NKYEYNEQ    -1.0000     NotChecked  -11.6582    1987.8476   ✗       
+546   FYVDYVDNKYEYNDR          -1.0000     NotChecked  -11.6583    2001.8745   ✗       
+547   FYVDYVN+0.984NKYEYGN+0.984R-1.0000     NotChecked  -11.6685    1944.8530   ✗       
+548   FYVDYVDNKYEYGAR          -1.0000     NotChecked  -11.6922    1900.8632   ✗       
+549   FYVDYVN+0.984NKYEYGEV    -1.0000     NotChecked  -11.6949    1901.8360   ✗       
+550   FYVDYVDNKYEYGGDE         -1.0000     NotChecked  -11.6951    1974.8160   ✗       
+551   FYVDYVDNKYEYNDQ          -1.0000     NotChecked  -11.6993    1973.8319   ✗       
+552   FYVDYVN+0.984NKYEYNER    -1.0000     Failed      -11.7099    2015.8901   ✓       
+553   FYVDYVDNKYEYQEQ          -1.0000     NotChecked  -11.7174    2001.8632   ✗       
+554   FYVDYVN+0.984NKYEYRE     -1.0000     NotChecked  -11.7199    1901.8472   ✗       
+555   FYVDYVN+0.984NKYEYGQR    -1.0000     NotChecked  -11.7214    1957.8846   ✗       
+556   FYVDYVDNKYEYGQR          -1.0000     NotChecked  -11.7225    1957.8846   ✗       
+557   FYVDYVDNKYEYGGR          -1.0000     NotChecked  -11.7337    1886.8475   ✗       
+558   FYVDYVN+0.984NKYEYNDR    -1.0000     NotChecked  -11.7398    2001.8745   ✗       
+559   FYVDYVN+0.984NKYEYGGE    -1.0000     NotChecked  -11.7467    1859.7890   ✗       
+560   FYVDYVN+0.984NKYEYNEN    -1.0000     NotChecked  -11.7479    1973.8319   ✗       
+561   FYVDYVDNKYEYGNE          -1.0000     NotChecked  -11.7500    1916.8105   ✗       
+562   FYVDYVN+0.984NKYEYNED    -1.0000     NotChecked  -11.7707    1974.8160   ✗       
+563   FYVDYVDNKYEYNGR          -1.0000     NotChecked  -11.7794    1943.8690   ✗       
+564   FYVDYVDNKYEYGGEA         -1.0000     NotChecked  -11.7903    1930.8261   ✗       
+565   FYVDYVDNKYEYNNE          -1.0000     NotChecked  -11.7957    1973.8319   ✗       
+566   FYVDYVDNKYEYGGR          -1.0000     NotChecked  -11.7959    1886.8475   ✗       
+567   FYVDYVN+0.984NKYEYGGEL   -1.0000     NotChecked  -11.7971    1972.8731   ✗       
+568   FYVDYVN+0.984NKYEYGAE    -1.0000     NotChecked  -11.8006    1873.8047   ✗       
+569   FYVDYVDNKYEYGDN          -1.0000     NotChecked  -11.8031    1902.7948   ✗       
+570   FYVDYVDNKYEYGEE          -1.0000     NotChecked  -11.8063    1931.8101   ✗       
+571   FYVDYVDNKYEYGKR          -1.0000     NotChecked  -11.8106    1957.9210   ✗       
+572   FYVDYVDNKYEYGNE          -1.0000     NotChecked  -11.8123    1916.8105   ✗       
+573   FYVDYVDNKYEYADR          -1.0000     NotChecked  -11.8191    1958.8687   ✗       
+574   FYVDYVDNKYEYGD           -1.0000     NotChecked  -11.8259    1788.7519   ✗       
+575   FYVDYVN+0.984NKYEYNNR    -1.0000     NotChecked  -11.8292    2000.8905   ✗       
+576   FYVDYVDNKYEENER          -1.0000     NotChecked  -11.8390    1981.8694   ✗       
+577   FYVDYVDNKYENNER          -1.0000     NotChecked  -11.8399    1966.8697   ✗       
+578   FYVDYVDNKYEYGR           -1.0000     NotChecked  -11.8479    1829.8261   ✗       
+579   FYVDYVDNKYEYGER          -1.0000     NotChecked  -11.8488    1958.8687   ✗       
+580   FYVN+0.984YVN+0.984NKYEYNER-1.0000     Failed      -11.8520    2015.8901   ✓       
+581   FYVDYVN+0.984NKYEYNEG    -1.0000     NotChecked  -11.8536    1916.8105   ✗       
+582   FYVDYVN+0.984NKYEYGEN    -1.0000     NotChecked  -11.8547    1916.8105   ✗       
+583   FYVDYVN+0.984NKYEYGGN+0.984R-1.0000     NotChecked  -11.8622    2001.8745   ✗       
+584   FYVDYVDNKYEYNE           -1.0000     NotChecked  -11.8642    1859.7890   ✗       
+585   FYVDYVN+0.984NKYEYAER    -1.0000     NotChecked  -11.8707    1972.8843   ✗       
+586   FYVDYVDNKYEYER           -1.0000     NotChecked  -11.8764    1901.8472   ✗       
+587   FYVDYVN+0.984NKYEYGED    -1.0000     NotChecked  -11.8775    1917.7945   ✗       
+588   FYVDYVN+0.984NKYEYGER    -1.0000     NotChecked  -11.8801    1958.8687   ✗       
+589   FYVDYVN+0.984NKYEYGE     -1.0000     NotChecked  -11.8807    1802.7675   ✗       
+590   FYVDYVDNKYEYGGAR         -1.0000     NotChecked  -11.8859    1957.8846   ✗       
+591   FYVDYVDNKYEYQNR          -1.0000     NotChecked  -11.8884    2014.9061   ✗       
+592   FYVDYVN+0.984NKYEYGGEV   -1.0000     NotChecked  -11.8886    1958.8574   ✗       
+593   FYVN+0.984YVDNKYEYNDR    -1.0000     NotChecked  -11.8931    2001.8745   ✗       
+594   FYVDYVDNKYEYNDG          -1.0000     NotChecked  -11.8947    1902.7948   ✗       
+595   FYVDYVN+0.984NKYEYAEN    -1.0000     NotChecked  -11.9087    1930.8261   ✗       
+596   FYVDYVDNKYEYQEG          -1.0000     NotChecked  -11.9128    1930.8261   ✗       
+597   FYVDYVN+0.984NKYEYGRE    -1.0000     NotChecked  -11.9136    1958.8687   ✗       
+598   FYVDYVDNKYEYEEN          -1.0000     NotChecked  -11.9144    1988.8316   ✗       
+599   FYVDYVDNKYEYGGQR         -1.0000     NotChecked  -11.9162    2014.9061   ✗       
+600   FYVDYVDNKYEYGDR          -1.0000     NotChecked  -11.9172    1944.8530   ✗       
+601   FYVDYVN+0.984NKYEYNGR    -1.0000     NotChecked  -11.9210    1943.8690   ✗       
+602   FYVDYVDNKYEYGDR          -1.0000     NotChecked  -11.9212    1944.8530   ✗       
+603   FYVDYVDNKYQ+0.984YGER    -1.0000     NotChecked  -11.9240    1958.8687   ✗       
+604   FYVDYVDNKYEYGGR          -1.0000     NotChecked  -11.9274    1886.8475   ✗       
+605   FYVDYVN+0.984NKYEYGGDR   -1.0000     NotChecked  -11.9287    2001.8745   ✗       
+606   FYVDYVN+0.984NKYEYAED    -1.0000     NotChecked  -11.9315    1931.8101   ✗       
+607   FYVDYVDNKYEYNRN          -1.0000     NotChecked  -11.9358    2000.8905   ✗       
+608   FYVDYVDNKYEYEED          -1.0000     NotChecked  -11.9372    1989.8156   ✗       
+609   FYVDYVDNKYEYGNE          -1.0000     NotChecked  -11.9437    1916.8105   ✗       
+610   FYVDYVN+0.984NKYEYAGE    -1.0000     NotChecked  -11.9477    1873.8047   ✗       
+611   FYVDYVDNKYEYNRD          -1.0000     NotChecked  -11.9586    2001.8745   ✗       
+612   FYVDYVN+0.984NKYEYNDE    -1.0000     NotChecked  -11.9605    1974.8160   ✗       
+613   FYVDYVN+0.984NKYEYQE     -1.0000     NotChecked  -11.9786    1873.8047   ✗       
+614   FYVDYVDNKYEYQGR          -1.0000     NotChecked  -11.9802    1957.8846   ✗       
+615   FYVDYVNNKYEYGER          -1.0000     NotChecked  -11.9945    1957.8846   ✗       
+616   FYVDYVDNKYEYGGDN         -1.0000     NotChecked  -11.9968    1959.8163   ✗       
+617   FYVDYVDNKYEYGGKR         -1.0000     NotChecked  -12.0043    2014.9425   ✗       
+618   FYVDYVDNKYEYGGD          -1.0000     NotChecked  -12.0196    1845.7734   ✗       
+619   FYVDYVDNKYEYQDE          -1.0000     NotChecked  -12.0197    1988.8316   ✗       
+620   FFVDYVN+0.984NKYEYGER    -1.0000     NotChecked  -12.0220    1942.8737   ✗       
+621   FYVDYVDNKYEYGGR          -1.0000     NotChecked  -12.0416    1886.8475   ✗       
+622   FYVDYVN+0.984NKYEYGNEG   -1.0000     NotChecked  -12.0473    1973.8319   ✗       
+623   FYVDYVN+0.984NKYEYGGEN   -1.0000     NotChecked  -12.0484    1973.8319   ✗       
+624   FYVDYVDNKYEYNR           -1.0000     NotChecked  -12.0499    1886.8475   ✗       
+625   FYVDYVDNKYEYGGE          -1.0000     NotChecked  -12.0532    1859.7890   ✗       
+626   FYVDYVDNKYEYNGR          -1.0000     NotChecked  -12.0538    1943.8690   ✗       
+627   FYVDYVN+0.984NKYEYER     -1.0000     NotChecked  -12.0554    1901.8472   ✗       
+628   FYVDYVN+0.984NKYEYNEA    -1.0000     NotChecked  -12.0557    1930.8261   ✗       
+629   FYVDYVDNKYERNER          -1.0000     NotChecked  -12.0567    2008.9279   ✗       
+630   FYVDYVDNKYEYGNE          -1.0000     NotChecked  -12.0579    1916.8105   ✗       
+631   FYVDYVN+0.984NKYEYGGDR   -1.0000     NotChecked  -12.0601    2001.8745   ✗       
+632   FYVDYVN+0.984NKYEYGNR    -1.0000     NotChecked  -12.0614    1943.8690   ✗       
+633   FYVDYVDNKYEYGRE          -1.0000     NotChecked  -12.0686    1958.8687   ✗       
+634   FYVDYVDNKYEYGER          -1.0000     NotChecked  -12.0701    1958.8687   ✗       
+635   FYVDYVN+0.984NKYEYGGED   -1.0000     NotChecked  -12.0712    1974.8160   ✗       
+636   FYVDYVN+0.984NKYEYGGE    -1.0000     NotChecked  -12.0744    1859.7890   ✗       
+637   FYVDYVDNKYEYGNDG         -1.0000     NotChecked  -12.0884    1959.8163   ✗       
+638   FYVDYVN+0.984NKYEYGEQ    -1.0000     NotChecked  -12.0927    1930.8261   ✗       
+639   FYVDYVDNKYEYGDR          -1.0000     NotChecked  -12.0929    1944.8530   ✗       
+640   FYVDYVDNKYEYNDA          -1.0000     NotChecked  -12.0968    1916.8105   ✗       
+641   FYVDYVN+0.984NKYEYGAEN   -1.0000     NotChecked  -12.1024    1987.8476   ✗       
+642   FYVDYVDNKYEYRGE          -1.0000     NotChecked  -12.1024    1958.8687   ✗       
+643   FYVDYVDNKYEYGQEG         -1.0000     NotChecked  -12.1065    1987.8476   ✗       
+644   YYVDYVN+0.984NKYEYGER    -1.0000     NotChecked  -12.4913    1974.8636   ✗       
+645   +43.006YVDYVDNKYEYNER    -1.0000     NotChecked  -13.2835    1911.8275   ✗       
+646   +43.006YVDYVDNKYEYGNER   -1.0000     NotChecked  -13.4772    1968.8490   ✗       
+647   +42.011YVDYVDNKYEYNER    -1.0000     NotChecked  -13.5772    1910.8323   ✗       
+648   +43.006YVDYVDNKYEYGER    -1.0000     NotChecked  -13.7180    1854.8061   ✗       
+649   +42.011YVDYVDNKYEYGNER   -1.0000     NotChecked  -13.7709    1967.8537   ✗       
+650   +43.006YVDYVDNKYEYGGER   -1.0000     NotChecked  -13.9117    1911.8275   ✗       
+651   +42.011YVDYVDNKYEYGER    -1.0000     NotChecked  -14.0117    1853.8108   ✗       
+652   +43.006YVDYVN+0.984NKYEYNER-1.0000     NotChecked  -14.1771    1911.8275   ✗       
+653   +42.011YVDYVDNKYEYGGER   -1.0000     NotChecked  -14.2054    1910.8323   ✗       
+654   KYVDYVDNKYEYNER          -1.0000     NotChecked  -14.2284    1996.9167   ✗       
+655   +43.006YVDYVN+0.984NKYEYGNER-1.0000     NotChecked  -14.3708    1968.8490   ✗       
+656   +42.011YVDYVN+0.984NKYEYNER-1.0000     NotChecked  -14.4708    1910.8323   ✗       
+657   +43.006YVDYVN+0.984NKYEYGER-1.0000     NotChecked  -14.6117    1854.8061   ✗       
+658   LYVDYVDNKYEYNER          -1.0000     NotChecked  -14.6333    1981.9058   ✗       
+659   YYVDYVDNKYEYGDR          -1.0000     NotChecked  -14.6563    1960.8479   ✗       
+660   KYVDYVDNKYEYGER          -1.0000     NotChecked  -14.6630    1939.8952   ✗       
+661   +42.011YVDYVN+0.984NKYEYGNER-1.0000     NotChecked  -14.6645    1967.8537   ✗       
+662   YYVDYVDNKYEYNR           -1.0000     NotChecked  -14.7890    1902.8424   ✗       
+663   +43.006YVDYVN+0.984NKYEYGGER-1.0000     NotChecked  -14.8054    1911.8275   ✗       
+664   KYVDYVDNKYEYGGER         -1.0000     NotChecked  -14.8567    1996.9167   ✗       
+665   +42.011YVDYVN+0.984NKYEYGER-1.0000     NotChecked  -14.9054    1853.8108   ✗       
+666   YYVDYVDNKYEYGNR          -1.0000     NotChecked  -14.9827    1959.8639   ✗       
+667   LYVDYVDNKYEYGER          -1.0000     NotChecked  -15.0678    1924.8843   ✗       
+668   +42.011YVDYVN+0.984NKYEYGGER-1.0000     NotChecked  -15.0991    1910.8323   ✗       
+669   KYVDYVN+0.984NKYEYNER    -1.0000     NotChecked  -15.1221    1996.9167   ✗       
+670   YYVDYVDNKYEYGR           -1.0000     NotChecked  -15.2236    1845.8210   ✗       
+671   YYVDYVDNKYEYNE           -1.0000     NotChecked  -15.2399    1875.7839   ✗       
+672   LYVDYVDNKYEYGGER         -1.0000     NotChecked  -15.2615    1981.9058   ✗       
+673   AYVDYVDNKYEYNER          -1.0000     NotChecked  -15.3146    1939.8588   ✗       
+674   QYVDYVDNKYEYNER          -1.0000     NotChecked  -15.3295    1996.8803   ✗       
+675   YYVDYVDNKYEYGGR          -1.0000     NotChecked  -15.4173    1902.8424   ✗       
+676   YYVDYVDNKYEYGNE          -1.0000     NotChecked  -15.4336    1932.8054   ✗       
+677   VYVDYVDNKYEYNER          -1.0000     NotChecked  -15.4353    1967.8901   ✗       
+678   AYVDYVDNKYEYGNER         -1.0000     NotChecked  -15.5083    1996.8803   ✗       
+679   LYVDYVN+0.984NKYEYNER    -1.0000     NotChecked  -15.5269    1981.9058   ✗       
+680   EYVDYVDNKYEYNER          -1.0000     NotChecked  -15.5278    1997.8643   ✗       
+681   YYVDYVDNKYEYNEN          -1.0000     NotChecked  -15.5417    1989.8269   ✗       
+682   YYVDYVN+0.984NKYEYGDR    -1.0000     NotChecked  -15.5500    1960.8479   ✗       
+683   KYVDYVN+0.984NKYEYGER    -1.0000     NotChecked  -15.5566    1939.8952   ✗       
+684   YYVDYVDNKYEYNED          -1.0000     NotChecked  -15.5645    1990.8109   ✗       
+685   YYVDYVDNKYEYGE           -1.0000     NotChecked  -15.6745    1818.7625   ✗       
+686   YYVDYVN+0.984NKYEYNR     -1.0000     NotChecked  -15.6827    1902.8424   ✗       
+687   AYVDYVDNKYEYGER          -1.0000     NotChecked  -15.7492    1882.8374   ✗       
+688   KYVDYVN+0.984NKYEYGGER   -1.0000     NotChecked  -15.7503    1996.9167   ✗       
+689   QYVDYVDNKYEYGER          -1.0000     NotChecked  -15.7641    1939.8588   ✗       
+690   +43.006FYVDYVDNKYEYGER   -1.0000     NotChecked  -15.8420    2001.8745   ✗       
+691   YYVDYVDNKYEYGGE          -1.0000     NotChecked  -15.8682    1875.7839   ✗       
+692   VYVDYVDNKYEYGER          -1.0000     NotChecked  -15.8699    1910.8687   ✗       
+693   YYVDYVN+0.984NKYEYGNR    -1.0000     NotChecked  -15.8764    1959.8639   ✗       
+694   YYVDYVDNKYEYGER          -1.0000     NotChecked  -15.9382    1974.8636   ✗       
+695   AYVDYVDNKYEYGGER         -1.0000     NotChecked  -15.9429    1939.8588   ✗       
+696   QYVDYVDNKYEYGGER         -1.0000     NotChecked  -15.9578    1996.8803   ✗       
+697   LYVDYVN+0.984NKYEYGER    -1.0000     NotChecked  -15.9615    1924.8843   ✗       
+698   EYVDYVDNKYEYGER          -1.0000     NotChecked  -15.9623    1940.8428   ✗       
+699   YYVDYVDNKYEYGEN          -1.0000     NotChecked  -15.9762    1932.8054   ✗       
+700   YYVDYVDNKYEYAER          -1.0000     NotChecked  -15.9922    1988.8792   ✗       
+701   YYVDYVDNKYEYGED          -1.0000     NotChecked  -15.9990    1933.7894   ✗       
+702   VYVDYVDNKYEYGGER         -1.0000     NotChecked  -16.0636    1967.8901   ✗       
+703   YYVDYVN+0.984NKYEYGR     -1.0000     NotChecked  -16.1172    1845.8210   ✗       
+704   YYVDYVN+0.984NKYEYNE     -1.0000     NotChecked  -16.1336    1875.7839   ✗       
+705   +42.011FYVDYVDNKYEYGER   -1.0000     NotChecked  -16.1357    2000.8792   ✗       
+706   LYVDYVN+0.984NKYEYGGER   -1.0000     NotChecked  -16.1552    1981.9058   ✗       
+707   EYVDYVDNKYEYGGER         -1.0000     NotChecked  -16.1560    1997.8643   ✗       
+708   YYVDYVDNKYEYGGEN         -1.0000     NotChecked  -16.1699    1989.8269   ✗       
+709   YYVDYVDNKYEYGGED         -1.0000     NotChecked  -16.1927    1990.8109   ✗       
+710   AYVDYVN+0.984NKYEYNER    -1.0000     NotChecked  -16.2083    1939.8588   ✗       
+711   QYVDYVN+0.984NKYEYNER    -1.0000     NotChecked  -16.2232    1996.8803   ✗       
+712   YYVDYVDNKYEYGER          -1.0000     NotChecked  -16.2660    1974.8636   ✗       
+713   YYVDYVN+0.984NKYEYGGR    -1.0000     NotChecked  -16.3109    1902.8424   ✗       
+714   YYVDYVN+0.984NKYEYGNE    -1.0000     NotChecked  -16.3273    1932.8054   ✗       
+715   VYVDYVN+0.984NKYEYNER    -1.0000     NotChecked  -16.3290    1967.8901   ✗       
+716   +43.006YVDYVDNKYEYNDR    -1.0000     NotChecked  -16.3422    1897.8119   ✗       
+717   +43.006YVDYVDNKYEYQER    -1.0000     NotChecked  -16.3603    1925.8432   ✗       
+718   AYVDYVN+0.984NKYEYGNER   -1.0000     NotChecked  -16.4020    1996.8803   ✗       
+719   EYVDYVN+0.984NKYEYNER    -1.0000     NotChecked  -16.4215    1997.8643   ✗       
+720   YYVDYVN+0.984NKYEYNEN    -1.0000     NotChecked  -16.4353    1989.8269   ✗       
+721   YYVDYVN+0.984NKYEYNED    -1.0000     NotChecked  -16.4581    1990.8109   ✗       
+722   +43.006YVDYVDNKYEYGNDR   -1.0000     NotChecked  -16.5359    1954.8333   ✗       
+723   +43.006YVDYVDNKYEYGQER   -1.0000     NotChecked  -16.5540    1982.8646   ✗       
+724   YYVDYVN+0.984NKYEYGE     -1.0000     NotChecked  -16.5681    1818.7625   ✗       
+725   +42.011YVDYVDNKYEYNDR    -1.0000     NotChecked  -16.6359    1896.8166   ✗       
+726   AYVDYVN+0.984NKYEYGER    -1.0000     NotChecked  -16.6429    1882.8374   ✗       
+727   +42.011YVDYVDNKYEYQER    -1.0000     NotChecked  -16.6540    1924.8479   ✗       
+728   QYVDYVN+0.984NKYEYGER    -1.0000     NotChecked  -16.6577    1939.8588   ✗       
+729   +43.006FYVDYVN+0.984NKYEYGER-1.0000     NotChecked  -16.7357    2001.8745   ✗       
+730   YYVDYVN+0.984NKYEYGGE    -1.0000     NotChecked  -16.7618    1875.7839   ✗       
+731   VYVDYVN+0.984NKYEYGER    -1.0000     NotChecked  -16.7635    1910.8687   ✗       
+732   +43.006YVDYVDNKYEYGDR    -1.0000     NotChecked  -16.7767    1840.7904   ✗       
+733   +42.011YVDYVDNKYEYGNDR   -1.0000     NotChecked  -16.8296    1953.8381   ✗       
+734   YYVDYVN+0.984NKYEYGER    -1.0000     NotChecked  -16.8319    1974.8636   ✗       
+735   AYVDYVN+0.984NKYEYGGER   -1.0000     NotChecked  -16.8366    1939.8588   ✗       
+736   +42.011YVDYVDNKYEYGQER   -1.0000     NotChecked  -16.8477    1981.8694   ✗       
+737   QYVDYVN+0.984NKYEYGGER   -1.0000     NotChecked  -16.8514    1996.8803   ✗       
+738   EYVDYVN+0.984NKYEYGER    -1.0000     NotChecked  -16.8560    1940.8428   ✗       
+739   YYVDYVN+0.984NKYEYGEN    -1.0000     NotChecked  -16.8699    1932.8054   ✗       
+740   YYVDYVN+0.984NKYEYAER    -1.0000     NotChecked  -16.8859    1988.8792   ✗       
+741   YYVDYVN+0.984NKYEYGED    -1.0000     NotChecked  -16.8927    1933.7894   ✗       
+742   +43.006YVDYVDNKYEYGNER   -1.0000     NotChecked  -16.8940    1968.8490   ✗       
+743   +43.006YVDYVDNKYEYNR     -1.0000     NotChecked  -16.9094    1782.7849   ✗       
+744   VYVDYVN+0.984NKYEYGGER   -1.0000     NotChecked  -16.9572    1967.8901   ✗       
+745   +43.006YVDYVDNKYEYGGDR   -1.0000     NotChecked  -16.9704    1897.8119   ✗       
+746   +43.006YVDYVDNKYEYGNER   -1.0000     NotChecked  -17.0254    1968.8490   ✗       
+747   +42.011FYVDYVN+0.984NKYEYGER-1.0000     NotChecked  -17.0293    2000.8792   ✗       
+748   EYVDYVN+0.984NKYEYGGER   -1.0000     NotChecked  -17.0497    1997.8643   ✗       
+749   YYVDYVN+0.984NKYEYGGEN   -1.0000     NotChecked  -17.0636    1989.8269   ✗       
+750   +42.011YVDYVDNKYEYGDR    -1.0000     NotChecked  -17.0704    1839.7952   ✗       
+751   YYVDYVN+0.984NKYEYGGED   -1.0000     NotChecked  -17.0864    1990.8109   ✗       
+752   +43.006YVDYVDNKYEYGNER   -1.0000     NotChecked  -17.0877    1968.8490   ✗       
+753   +43.006YVDYVDNKYEYGNR    -1.0000     NotChecked  -17.1031    1839.8064   ✗       
+754   YYVDYVN+0.984NKYEYGER    -1.0000     NotChecked  -17.1597    1974.8636   ✗       
+755   +42.011YVDYVDNKYEYGNER   -1.0000     NotChecked  -17.1877    1967.8537   ✗       
+756   +42.011YVDYVDNKYEYNR     -1.0000     NotChecked  -17.2031    1781.7897   ✗       
+757   +43.006YVDYVDNKYEYGNER   -1.0000     NotChecked  -17.2191    1968.8490   ✗       
+758   +43.006YVDYVN+0.984NKYEYNDR-1.0000     NotChecked  -17.2359    1897.8119   ✗       
+759   +43.006YVDYVN+0.984NKYEYQER-1.0000     NotChecked  -17.2540    1925.8432   ✗       
+760   +42.011YVDYVDNKYEYGGDR   -1.0000     NotChecked  -17.2641    1896.8166   ✗       
+761   KYVDYVDNKYEYNDR          -1.0000     NotChecked  -17.2871    1982.9010   ✗       
+762   KYVDYVDNKYEYQER          -1.0000     NotChecked  -17.3053    2010.9323   ✗       
+763   +42.011YVDYVDNKYEYGNER   -1.0000     NotChecked  -17.3191    1967.8537   ✗       
+764   +43.006YVDYVDNKYEYGGER   -1.0000     NotChecked  -17.3285    1911.8275   ✗       
+765   +43.006YVDYVDNKYEYGR     -1.0000     NotChecked  -17.3440    1725.7635   ✗       
+766   YFYVDYVDNKYEYGR          -1.0000     NotChecked  -17.3475    1992.8894   ✗       
+767   +43.006YVDYVDNKYEYNE     -1.0000     NotChecked  -17.3603    1755.7264   ✗       
+768   +42.011YVDYVDNKYEYGNER   -1.0000     NotChecked  -17.3814    1967.8537   ✗       
+769   +42.011YVDYVDNKYEYGNR    -1.0000     NotChecked  -17.3968    1838.8111   ✗       
+770   +43.006YVDYVN+0.984NKYEYGNDR-1.0000     NotChecked  -17.4296    1954.8333   ✗       
+771   +43.006YVDYVN+0.984NKYEYGQER-1.0000     NotChecked  -17.4477    1982.8646   ✗       
+772   +43.006YVDYVDNKYEYGGER   -1.0000     NotChecked  -17.4600    1911.8275   ✗       
+773   +42.011YVDYVDNKYEYGNER   -1.0000     NotChecked  -17.5128    1967.8537   ✗       
+774   +43.006YVDYVDNKYEYGGER   -1.0000     NotChecked  -17.5222    1911.8275   ✗       
+775   +42.011YVDYVN+0.984NKYEYNDR-1.0000     NotChecked  -17.5295    1896.8166   ✗       
+776   +43.006YVDYVDNKYEYGGR    -1.0000     NotChecked  -17.5377    1782.7849   ✗       
+777   +42.011YVDYVN+0.984NKYEYQER-1.0000     NotChecked  -17.5477    1924.8479   ✗       
+778   +43.006YVDYVDNKYEYGNE    -1.0000     NotChecked  -17.5540    1812.7479   ✗       
+779   YYVDYVDNKYEYGER          -1.0000     NotChecked  -17.5777    1974.8636   ✗       
+780   +42.011YVDYVDNKYEYGGER   -1.0000     NotChecked  -17.6222    1910.8323   ✗       
+781   +43.006YVDYVDNKYEYNER    -1.0000     NotChecked  -17.6241    1911.8275   ✗       
+782   +42.011YVDYVDNKYEYGR     -1.0000     NotChecked  -17.6376    1724.7682   ✗       
+783   +43.006YVDYVDNKYEYGGER   -1.0000     NotChecked  -17.6537    1911.8275   ✗       
+784   +42.011YVDYVDNKYEYNE     -1.0000     NotChecked  -17.6540    1754.7312   ✗       
+785   +43.006YVDYVDNKYEYNEN    -1.0000     NotChecked  -17.6621    1869.7693   ✗       
+786   +43.006YVDYVN+0.984NKYEYGDR-1.0000     NotChecked  -17.6704    1840.7904   ✗       
+787   +43.006YVDYVDNKYEYNED    -1.0000     NotChecked  -17.6849    1870.7534   ✗       
+788   LYVDYVDNKYEYNDR          -1.0000     NotChecked  -17.6920    1967.8901   ✗       
+789   LYVDYVDNKYEYQER          -1.0000     NotChecked  -17.7101    1995.9214   ✗       
+790   KYVDYVDNKYEYGDR          -1.0000     NotChecked  -17.7217    1925.8796   ✗       
+791   +42.011YVDYVN+0.984NKYEYGNDR-1.0000     NotChecked  -17.7232    1953.8381   ✗       
+792   +42.011YVDYVN+0.984NKYEYGQER-1.0000     NotChecked  -17.7414    1981.8694   ✗       
+793   +42.011YVDYVDNKYEYGGER   -1.0000     NotChecked  -17.7537    1910.8323   ✗       
+794   YVDYVDNKYEYNER           -1.0000     NotChecked  -17.7798    1868.8217   ✗       
+795   +43.006YVDYVN+0.984NKYEYGNER-1.0000     NotChecked  -17.7877    1968.8490   ✗       
+796   +43.006YVDYVDNKYEYGE     -1.0000     NotChecked  -17.7949    1698.7049   ✗       
+797   YFYVDYVDNKYEYGE          -1.0000     NotChecked  -17.7984    1965.8309   ✗       
+798   +43.006YVDYVN+0.984NKYEYNR-1.0000     NotChecked  -17.8031    1782.7849   ✗       
+799   +42.011YVDYVDNKYEYGGER   -1.0000     NotChecked  -17.8159    1910.8323   ✗       
+800   +43.006YVDYVDNKYEYGNER   -1.0000     NotChecked  -17.8178    1968.8490   ✗       
+801   +42.011YVDYVDNKYEYGGR    -1.0000     NotChecked  -17.8313    1781.7897   ✗       
+802   +42.011YVDYVDNKYEYGNE    -1.0000     NotChecked  -17.8477    1811.7526   ✗       
+803   KYVDYVDNKYEYNR           -1.0000     NotChecked  -17.8544    1867.8741   ✗       
+804   +43.006YVDYVDNKYEYGNEN   -1.0000     NotChecked  -17.8558    1926.7908   ✗       
+805   +43.006YVDYVN+0.984NKYEYGGDR-1.0000     NotChecked  -17.8641    1897.8119   ✗       
+806   YYVDYVDNKYEYQR           -1.0000     NotChecked  -17.8659    1916.8581   ✗       
+807   +43.006YVDYVDNKYEYGNED   -1.0000     NotChecked  -17.8786    1927.7748   ✗       
+808   KYVDYVDNKYEYGGDR         -1.0000     NotChecked  -17.9154    1982.9010   ✗       
+809   +42.011YVDYVDNKYEYNER    -1.0000     NotChecked  -17.9178    1910.8323   ✗       
+810   +43.006YVDYVN+0.984NKYEYGNER-1.0000     NotChecked  -17.9191    1968.8490   ✗       
+811   +42.011YVDYVDNKYEYGGER   -1.0000     NotChecked  -17.9474    1910.8323   ✗       
+812   +43.006YVDYVDNKYEYNER    -1.0000     NotChecked  -17.9518    1911.8275   ✗       
+813   +42.011YVDYVDNKYEYNEN    -1.0000     NotChecked  -17.9558    1868.7741   ✗       
+814   +42.011YVDYVN+0.984NKYEYGDR-1.0000     NotChecked  -17.9641    1839.7952   ✗       
+815   YVDYVDNKYEYGNER          -1.0000     NotChecked  -17.9735    1925.8432   ✗       
+816   +42.011YVDYVDNKYEYNED    -1.0000     NotChecked  -17.9785    1869.7581   ✗       
+817   +43.006YVDYVN+0.984NKYEYGNER-1.0000     NotChecked  -17.9814    1968.8490   ✗       
+818   +43.006YVDYVDNKYEYGGE    -1.0000     NotChecked  -17.9886    1755.7264   ✗       
+819   YYVDYVDNKYEYNEQ          -1.0000     NotChecked  -17.9963    2003.8425   ✗       
+820   +43.006YVDYVN+0.984NKYEYGNR-1.0000     NotChecked  -17.9968    1839.8064   ✗       
+821   +43.006YVDYVDNKYEYANER   -1.0000     NotChecked  -18.0188    1982.8646   ✗       
+822   KYVDYVDNKYEYGNR          -1.0000     NotChecked  -18.0481    1924.8955   ✗       
+823   +43.006YVDYVDNKYEYGER    -1.0000     NotChecked  -18.0586    1854.8061   ✗       
+824   YYVDYVDNKYEYGQR          -1.0000     NotChecked  -18.0596    1973.8796   ✗       
+825   +42.011YVDYVN+0.984NKYEYGNER-1.0000     NotChecked  -18.0813    1967.8537   ✗       
+826   +42.011YVDYVDNKYEYGE     -1.0000     NotChecked  -18.0886    1697.7097   ✗       
+827   +43.006YVDYVDNKYEYGEN    -1.0000     NotChecked  -18.0966    1812.7479   ✗       
+828   +42.011YVDYVN+0.984NKYEYNR-1.0000     NotChecked  -18.0968    1781.7897   ✗       
+829   +42.011YVDYVDNKYEYGNER   -1.0000     NotChecked  -18.1115    1967.8537   ✗       
+830   +43.006YVDYVDNKYEYAER    -1.0000     NotChecked  -18.1126    1868.8217   ✗       
+831   +43.006YVDYVN+0.984NKYEYGNER-1.0000     NotChecked  -18.1128    1968.8490   ✗       
+832   +43.006YVDYVDNKYEYGED    -1.0000     NotChecked  -18.1194    1813.7319   ✗       
+833   LYVDYVDNKYEYGDR          -1.0000     NotChecked  -18.1265    1910.8687   ✗       
+834   +43.006YVDYVDNKYEYGNER   -1.0000     NotChecked  -18.1455    1968.8490   ✗       
+835   +42.011YVDYVDNKYEYGNEN   -1.0000     NotChecked  -18.1495    1925.7956   ✗       
+836   +42.011YVDYVN+0.984NKYEYGGDR-1.0000     NotChecked  -18.1578    1896.8166   ✗       
+837   +42.011YVDYVDNKYEYGNED   -1.0000     NotChecked  -18.1722    1926.7796   ✗       
+838   KYVDYVN+0.984NKYEYNDR    -1.0000     NotChecked  -18.1808    1982.9010   ✗       
+839   YYVDYVDNKYEYNEG          -1.0000     NotChecked  -18.1918    1932.8054   ✗       
+840   KYVDYVN+0.984NKYEYQER    -1.0000     NotChecked  -18.1989    2010.9323   ✗       
+841   +42.011YVDYVN+0.984NKYEYGNER-1.0000     NotChecked  -18.2128    1967.8537   ✗       
+842   YVDYVDNKYEYGER           -1.0000     NotChecked  -18.2143    1811.8002   ✗       
+843   YYVDYVDNKYEYGER          -1.0000     NotChecked  -18.2182    1974.8636   ✗       
+844   +43.006YVDYVN+0.984NKYEYGGER-1.0000     NotChecked  -18.2222    1911.8275   ✗       
+845   +43.006YVDYVDNKYEYRER    -1.0000     NotChecked  -18.2256    1953.8857   ✗       
+846   +43.006YVDYVN+0.984NKYEYGR-1.0000     NotChecked  -18.2376    1725.7635   ✗       
+847   YFYVDYVN+0.984NKYEYGR    -1.0000     NotChecked  -18.2412    1992.8894   ✗       
+848   +42.011YVDYVDNKYEYNER    -1.0000     NotChecked  -18.2455    1910.8323   ✗       
+849   +43.006YVDYVDNKYEYGGER   -1.0000     NotChecked  -18.2523    1911.8275   ✗       
+850   +43.006YVDYVN+0.984NKYEYNE-1.0000     NotChecked  -18.2540    1755.7264   ✗       
+851   YYVDYVDNKYEYNGR          -1.0000     NotChecked  -18.2592    1959.8639   ✗       
+852   LYVDYVDNKYEYNR           -1.0000     NotChecked  -18.2592    1852.8632   ✗       
+853   KYVDYVDNKYEYGGER         -1.0000     NotChecked  -18.2735    1996.9167   ✗       
+854   +42.011YVDYVN+0.984NKYEYGNER-1.0000     NotChecked  -18.2750    1967.8537   ✗       
+855   +42.011YVDYVDNKYEYGGE    -1.0000     NotChecked  -18.2823    1754.7312   ✗       
+856   KYVDYVDNKYEYGR           -1.0000     NotChecked  -18.2889    1810.8526   ✗       
+857   +43.006YVDYVDNKYEYGGEN   -1.0000     NotChecked  -18.2903    1869.7693   ✗       
+858   +42.011YVDYVN+0.984NKYEYGNR-1.0000     NotChecked  -18.2905    1838.8111   ✗       
+859   YYVDYVDNKYEYNDE          -1.0000     NotChecked  -18.2986    1990.8109   ✗       
+860   KYVDYVDNKYEYNE           -1.0000     NotChecked  -18.3053    1840.8156   ✗       
+861   +43.006YVDYVDNKYEYGAER   -1.0000     NotChecked  -18.3063    1925.8432   ✗       
+862   +42.011YVDYVDNKYEYANER   -1.0000     NotChecked  -18.3125    1981.8694   ✗       
+863   +43.006YVDYVDNKYEYGGED   -1.0000     NotChecked  -18.3131    1870.7534   ✗       
+864   YYVDYVDNKYEYQE           -1.0000     NotChecked  -18.3168    1889.7996   ✗       
+865   LYVDYVDNKYEYGGDR         -1.0000     NotChecked  -18.3202    1967.8901   ✗       
+866   +42.011YVDYVDNKYEYGER    -1.0000     NotChecked  -18.3523    1853.8108   ✗       
+867   +43.006YVDYVN+0.984NKYEYGGER-1.0000     NotChecked  -18.3536    1911.8275   ✗       
+868   AYVDYVDNKYEYNDR          -1.0000     NotChecked  -18.3734    1925.8432   ✗       
+869   YYVDYVDNKYEYGNEG         -1.0000     NotChecked  -18.3855    1989.8269   ✗       
+870   +43.006YVDYVDNKYEYGER    -1.0000     NotChecked  -18.3864    1854.8061   ✗       
+871   QYVDYVDNKYEYNDR          -1.0000     NotChecked  -18.3882    1982.8646   ✗       
+872   +42.011YVDYVDNKYEYGEN    -1.0000     NotChecked  -18.3903    1811.7526   ✗       
+873   AYVDYVDNKYEYQER          -1.0000     NotChecked  -18.3915    1953.8745   ✗       
+874   YYVDYVDNKYEYNEA          -1.0000     NotChecked  -18.3939    1946.8210   ✗       
+875   YYVDYVDNKYEYGNR          -1.0000     NotChecked  -18.3995    1959.8639   ✗       
+876   KYVDYVDNKYEYGGER         -1.0000     NotChecked  -18.4049    1996.9167   ✗       
+877   +42.011YVDYVDNKYEYAER    -1.0000     NotChecked  -18.4063    1867.8265   ✗       
+878   QYVDYVDNKYEYQER          -1.0000     NotChecked  -18.4064    2010.8959   ✗       
+879   +42.011YVDYVN+0.984NKYEYGNER-1.0000     NotChecked  -18.4065    1967.8537   ✗       
+880   YVDYVDNKYEYGGER          -1.0000     NotChecked  -18.4080    1868.8217   ✗       
+881   +42.011YVDYVDNKYEYGED    -1.0000     NotChecked  -18.4131    1812.7366   ✗       
+882   +43.006YVDYVN+0.984NKYEYGGER-1.0000     NotChecked  -18.4159    1911.8275   ✗       
+883   +43.006YVDYVDNKYEYGRER   -1.0000     NotChecked  -18.4193    2010.9072   ✗       
+884   YYVDYVDNKYEYGEQ          -1.0000     NotChecked  -18.4309    1946.8210   ✗       
+885   +43.006YVDYVN+0.984NKYEYGGR-1.0000     NotChecked  -18.4313    1782.7849   ✗       
+886   +42.011YVDYVDNKYEYGNER   -1.0000     NotChecked  -18.4392    1967.8537   ✗       
+887   +43.006YVDYVN+0.984NKYEYGNE-1.0000     NotChecked  -18.4477    1812.7479   ✗       
+888   LYVDYVDNKYEYGNR          -1.0000     NotChecked  -18.4529    1909.8846   ✗       
+889   +43.006YVDYVDNKYEYAGER   -1.0000     NotChecked  -18.4534    1925.8432   ✗       
+890   KYVDYVDNKYEYGGER         -1.0000     NotChecked  -18.4672    1996.9167   ✗       
+891   YYVDYVN+0.984NKYEYGER    -1.0000     NotChecked  -18.4714    1974.8636   ✗       
+892   KYVDYVDNKYEYGGR          -1.0000     NotChecked  -18.4826    1867.8741   ✗       
+893   YYVDYVDNKYEYNAR          -1.0000     NotChecked  -18.4895    1973.8796   ✗       
+894   VYVDYVDNKYEYNDR          -1.0000     NotChecked  -18.4940    1953.8745   ✗       
+895   KYVDYVDNKYEYGNE          -1.0000     NotChecked  -18.4990    1897.8370   ✗       
+896   YYVDYVDNKYEYGQE          -1.0000     NotChecked  -18.5105    1946.8210   ✗       
+897   VYVDYVDNKYEYQER          -1.0000     NotChecked  -18.5121    1981.9058   ✗       
+898   +42.011YVDYVN+0.984NKYEYGGER-1.0000     NotChecked  -18.5159    1910.8323   ✗       
+899   +43.006YVDYVN+0.984NKYEYNER-1.0000     NotChecked  -18.5178    1911.8275   ✗       
+900   +42.011YVDYVDNKYEYRER    -1.0000     NotChecked  -18.5193    1952.8905   ✗       
+901   YYVDYVDNKYEYGNR          -1.0000     NotChecked  -18.5310    1959.8639   ✗       
+902   +42.011YVDYVN+0.984NKYEYGR-1.0000     NotChecked  -18.5313    1724.7682   ✗       
+903   +42.011YVDYVDNKYEYGGER   -1.0000     NotChecked  -18.5460    1910.8323   ✗       
+904   +43.006YVDYVN+0.984NKYEYGGER-1.0000     NotChecked  -18.5473    1911.8275   ✗       
+905   +42.011YVDYVN+0.984NKYEYNE-1.0000     NotChecked  -18.5477    1754.7312   ✗       
+906   +43.006YVDYVN+0.984NKYEYNEN-1.0000     NotChecked  -18.5557    1869.7693   ✗       
+907   AYVDYVDNKYEYGNDR         -1.0000     NotChecked  -18.5671    1982.8646   ✗       
+908   KYVDYVDNKYEYNER          -1.0000     NotChecked  -18.5690    1996.9167   ✗       
+909   +43.006YVDYVN+0.984NKYEYNED-1.0000     NotChecked  -18.5785    1870.7534   ✗       
+910   +43.006YVDYVDNKYEYGGER   -1.0000     NotChecked  -18.5801    1911.8275   ✗       
+911   +42.011YVDYVDNKYEYGGEN   -1.0000     NotChecked  -18.5840    1868.7741   ✗       
+912   AYVDYVDNKYEYGQER         -1.0000     NotChecked  -18.5852    2010.8959   ✗       
+913   LYVDYVN+0.984NKYEYNDR    -1.0000     NotChecked  -18.5857    1967.8901   ✗       
+914   EYVDYVDNKYEYNDR          -1.0000     NotChecked  -18.5865    1983.8487   ✗       
+915   YYVDYVDNKYEYGNEA         -1.0000     NotChecked  -18.5876    2003.8425   ✗       
+916   YYVDYVDNKYEYGNR          -1.0000     NotChecked  -18.5932    1959.8639   ✗       
+917   KYVDYVDNKYEYGGER         -1.0000     NotChecked  -18.5986    1996.9167   ✗       
+918   +42.011YVDYVDNKYEYGAER   -1.0000     NotChecked  -18.6000    1924.8479   ✗       
+919   YYVDYVDNKYEYNDN          -1.0000     NotChecked  -18.6004    1975.8112   ✗       
+920   YYVDYVDNKYEYGNR          -1.0000     NotChecked  -18.6019    1959.8639   ✗       
+921   LYVDYVN+0.984NKYEYQER    -1.0000     NotChecked  -18.6038    1995.9214   ✗       
+922   EYVDYVDNKYEYQER          -1.0000     NotChecked  -18.6046    2011.8800   ✗       
+923   +42.011YVDYVDNKYEYGGED   -1.0000     NotChecked  -18.6068    1869.7581   ✗       
+924   KYVDYVDNKYEYNEN          -1.0000     NotChecked  -18.6070    1954.8585   ✗       
+925   KYVDYVN+0.984NKYEYGDR    -1.0000     NotChecked  -18.6154    1925.8796   ✗       
+926   YYVDYVDNKYEYGQ+0.984R    -1.0000     NotChecked  -18.6156    1974.8636   ✗       
+927   YYVDYVDNKYEYQEN          -1.0000     NotChecked  -18.6185    2003.8425   ✗       
+928   YYVDYVDNKYEYND           -1.0000     NotChecked  -18.6232    1861.7683   ✗       
+929   YYVDYVDNKYEYGGEQ         -1.0000     NotChecked  -18.6246    2003.8425   ✗       
+930   YYVN+0.984YVDNKYEYGER    -1.0000     NotChecked  -18.6247    1974.8636   ✗       
+931   YYVDYVDNKYEYGEG          -1.0000     NotChecked  -18.6263    1875.7839   ✗       
+932   KYVDYVDNKYEYNED          -1.0000     NotChecked  -18.6298    1955.8425   ✗       
+933   YYVDYVDNKYEYQED          -1.0000     NotChecked  -18.6413    2004.8265   ✗       
+934   +42.011YVDYVN+0.984NKYEYGGER-1.0000     NotChecked  -18.6473    1910.8323   ✗       
+935   YVDYVN+0.984NKYEYNER     -1.0000     NotChecked  -18.6734    1868.8217   ✗       
+936   LYVDYVDNKYEYGGER         -1.0000     NotChecked  -18.6783    1981.9058   ✗       
+937   +42.011YVDYVDNKYEYGER    -1.0000     NotChecked  -18.6801    1853.8108   ✗       
+938   VYVDYVDNKYEYGNDR         -1.0000     NotChecked  -18.6877    2010.8959   ✗       
+939   +43.006YVDYVN+0.984NKYEYGE-1.0000     NotChecked  -18.6885    1698.7049   ✗       
+940   YFYVDYVN+0.984NKYEYGE    -1.0000     NotChecked  -18.6921    1965.8309   ✗       
+941   YYVDYVDNKYEYGGR          -1.0000     NotChecked  -18.6937    1902.8424   ✗       
+942   LYVDYVDNKYEYGR           -1.0000     NotChecked  -18.6938    1795.8417   ✗       
+943   +42.011YVDYVN+0.984NKYEYGGER-1.0000     NotChecked  -18.7096    1910.8323   ✗       
+944   LYVDYVDNKYEYNE           -1.0000     NotChecked  -18.7101    1825.8047   ✗       
+945   +43.006YVDYVN+0.984NKYEYGNER-1.0000     NotChecked  -18.7115    1968.8490   ✗       
+946   +42.011YVDYVDNKYEYGRER   -1.0000     NotChecked  -18.7130    2009.9119   ✗       
+947   YYVDYVDNKYEYGNR          -1.0000     NotChecked  -18.7247    1959.8639   ✗       
+948   +42.011YVDYVN+0.984NKYEYGGR-1.0000     NotChecked  -18.7250    1781.7897   ✗       
+949   YYVDYVDNKYEYGDE          -1.0000     NotChecked  -18.7332    1933.7894   ✗       
+950   KYVDYVDNKYEYGE           -1.0000     NotChecked  -18.7398    1783.7941   ✗       
+951   +42.011YVDYVN+0.984NKYEYGNE-1.0000     NotChecked  -18.7414    1811.7526   ✗       
+952   +42.011YVDYVDNKYEYAGER   -1.0000     NotChecked  -18.7471    1924.8479   ✗       
+953   KYVDYVN+0.984NKYEYNR     -1.0000     NotChecked  -18.7480    1867.8741   ✗       
+954   +43.006YVDYVN+0.984NKYEYGNEN-1.0000     NotChecked  -18.7494    1926.7908   ✗       
+955   YYVDYVN+0.984NKYEYQR     -1.0000     NotChecked  -18.7595    1916.8581   ✗       
+956   +43.006YVDYVN+0.984NKYEYGNED-1.0000     NotChecked  -18.7722    1927.7748   ✗       
+957   KYVDYVDNKYEYGNEN         -1.0000     NotChecked  -18.8007    2011.8800   ✗       
+958   AYVDYVDNKYEYGDR          -1.0000     NotChecked  -18.8079    1868.8217   ✗       
+959   KYVDYVN+0.984NKYEYGGDR   -1.0000     NotChecked  -18.8091    1982.9010   ✗       
+960   LYVDYVDNKYEYGGER         -1.0000     NotChecked  -18.8098    1981.9058   ✗       
+961   +42.011YVDYVN+0.984NKYEYNER-1.0000     NotChecked  -18.8114    1910.8323   ✗       
+962   YYVDYVDNKYEYGND          -1.0000     NotChecked  -18.8169    1918.7897   ✗       
+963   YYVDYVDNKYEYGGEG         -1.0000     NotChecked  -18.8200    1932.8054   ✗       
+964   QYVDYVDNKYEYGDR          -1.0000     NotChecked  -18.8228    1925.8432   ✗       
+965   KYVDYVDNKYEYGNED         -1.0000     NotChecked  -18.8235    2012.8640   ✗       
+966   YYVDYVDNKYEYGEA          -1.0000     NotChecked  -18.8285    1889.7996   ✗       
+967   YYVDYVDNKYEYGGR          -1.0000     NotChecked  -18.8341    1902.8424   ✗       
+968   +42.011YVDYVN+0.984NKYEYGGER-1.0000     NotChecked  -18.8410    1910.8323   ✗       
+969   +43.006YVDYVN+0.984NKYEYNER-1.0000     NotChecked  -18.8455    1911.8275   ✗       
+970   +42.011YVDYVN+0.984NKYEYNEN-1.0000     NotChecked  -18.8494    1868.7741   ✗       
+971   YYVDYVDNKYEYGNE          -1.0000     NotChecked  -18.8504    1932.8054   ✗       
+972   YVDYVN+0.984NKYEYGNER    -1.0000     NotChecked  -18.8671    1925.8432   ✗       
+973   LYVDYVDNKYEYGGER         -1.0000     NotChecked  -18.8720    1981.9058   ✗       
+974   +42.011YVDYVN+0.984NKYEYNED-1.0000     NotChecked  -18.8722    1869.7581   ✗       
+975   +42.011YVDYVDNKYEYGGER   -1.0000     NotChecked  -18.8738    1910.8323   ✗       
+976   +43.006YVDYVN+0.984NKYEYGGE-1.0000     NotChecked  -18.8822    1755.7264   ✗       
+977   YYVDYVDNKYEYGGGR         -1.0000     NotChecked  -18.8874    1959.8639   ✗       
+978   LYVDYVDNKYEYGGR          -1.0000     NotChecked  -18.8875    1852.8632   ✗       
+979   YYVDYVN+0.984NKYEYNEQ    -1.0000     NotChecked  -18.8900    2003.8425   ✗       
+980   KYVDYVDNKYEYNER          -1.0000     NotChecked  -18.8968    1996.9167   ✗       
+981   +43.006FYVDYVDNKYEYGDR   -1.0000     NotChecked  -18.9007    1987.8588   ✗       
+982   LYVDYVDNKYEYGNE          -1.0000     NotChecked  -18.9038    1882.8261   ✗       
+983   +43.006YVDYVN+0.984NKYEYANER-1.0000     NotChecked  -18.9125    1982.8646   ✗       
+984   YYVDYVDNKYEYGAR          -1.0000     NotChecked  -18.9241    1916.8581   ✗       
+985   AYVDYVDNKYEYGNER         -1.0000     NotChecked  -18.9252    1996.8803   ✗       
+986   YYVDYVDNKYEYGGDE         -1.0000     NotChecked  -18.9269    1990.8109   ✗       
+987   VYVDYVDNKYEYGDR          -1.0000     NotChecked  -18.9286    1896.8530   ✗       
+988   KYVDYVDNKYEYGGE          -1.0000     NotChecked  -18.9335    1840.8156   ✗       
+989   AYVDYVDNKYEYNR           -1.0000     NotChecked  -18.9406    1810.8162   ✗       
+990   KYVDYVN+0.984NKYEYGNR    -1.0000     NotChecked  -18.9417    1924.8955   ✗       
+991   +43.006YVDYVN+0.984NKYEYGER-1.0000     NotChecked  -18.9523    1854.8061   ✗       
+992   YYVDYVN+0.984NKYEYGQR    -1.0000     NotChecked  -18.9532    1973.8796   ✗       
+993   YYVDYVDNKYEYGQR          -1.0000     NotChecked  -18.9543    1973.8796   ✗       
+994   QYVDYVDNKYEYNR           -1.0000     NotChecked  -18.9555    1867.8377   ✗       
+995   YYVDYVDNKYEYGGR          -1.0000     NotChecked  -18.9655    1902.8424   ✗       
+996   LYVDYVDNKYEYNER          -1.0000     NotChecked  -18.9739    1981.9058   ✗       
+997   YYVDYVDNKYEYGNE          -1.0000     NotChecked  -18.9819    1932.8054   ✗       
+998   +42.011YVDYVN+0.984NKYEYGE-1.0000     NotChecked  -18.9822    1697.7097   ✗       
+999   +43.006YVDYVN+0.984NKYEYGEN-1.0000     NotChecked  -18.9903    1812.7479   ✗       
+1000  AYVDYVDNKYEYGGDR         -1.0000     NotChecked  -19.0016    1925.8432   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: FYVDYVDNKYEYNER
+Similarity: 0.7029
+De Novo Score: -1.8073
+Source: Database
+Correct: ✓
+

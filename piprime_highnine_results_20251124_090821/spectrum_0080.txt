@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 80
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 780.8962
+Precursor charge: 2+
+Ground truth: IGNVIEGNSDSINTK
+Ground truth (normalized): IGNVIEGNSDSINTK
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 213
+Used for reranking: 213
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 213 (21.3%)
+Database matches: 124 (12.4%)
+Prosit predictions: 82 (8.2%)
+Failed: 7 (0.7%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.9229
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     LGNVLEGNSDSLNTK          0.9229      Database    -0.0154     1559.7791   ✓       ✓
+2     LGNVLEGNSDSLNTK          0.9229      Database    -4.5206     1559.7791   ✓       ✓
+3     LGNVLEGNSDSLNTK          0.9229      Database    -6.1977     1559.7791   ✓       ✓
+4     LGNVLEGNSDSLNTK          0.9229      Database    -7.4498     1559.7791   ✓       ✓
+5     LGNVLEGNSDSLNTK          0.9229      Database    -7.8764     1559.7791   ✓       ✓
+6     LGNVLEGNSDSLNTK          0.9229      Database    -8.0452     1559.7791   ✓       ✓
+7     LGNVLEGNSDSLNTK          0.9229      Database    -8.3913     1559.7791   ✓       ✓
+8     LGNVLEGNSDSLNTK          0.9229      Database    -10.7029    1559.7791   ✓       ✓
+9     LGNVLEGNSDSLNTK          0.9229      Database    -11.9550    1559.7791   ✓       ✓
+10    LGNVLEGNSDSLNTK          0.9229      Database    -12.5504    1559.7791   ✓       ✓
+11    LGNVLEGNSDSLNTK          0.9229      Database    -12.8965    1559.7791   ✓       ✓
+12    LGNVLEGNSDSLNTK          0.9229      Database    -13.2631    1559.7791   ✓       ✓
+13    LGNVLEGNSDSLNTK          0.9229      Database    -13.3001    1559.7791   ✓       ✓
+14    LGNVLEGNSDSLNTK          0.9229      Database    -13.6322    1559.7791   ✓       ✓
+15    LGNVLEGNSDSLNTK          0.9229      Database    -14.0451    1559.7791   ✓       ✓
+16    LGNVLEGNSDSLNTK          0.9229      Database    -14.0587    1559.7791   ✓       ✓
+17    LGNVLEGNSDSLNTK          0.9229      Database    -14.2276    1559.7791   ✓       ✓
+18    LGNVLEGNSDSLNTK          0.9229      Database    -14.2553    1559.7791   ✓       ✓
+19    LGNVLEGNSDSLNTK          0.9229      Database    -14.5737    1559.7791   ✓       ✓
+20    LGNVLEGNSDSLNTK          0.9229      Database    -14.7149    1559.7791   ✓       ✓
+21    LGNVLEGNSDSLNTK          0.9229      Database    -15.3108    1559.7791   ✓       ✓
+22    LGNVLEGNSDSLNTK          0.9229      Database    -15.4797    1559.7791   ✓       ✓
+23    LGNVLEGNSDSLNTK          0.9229      Database    -15.5271    1559.7791   ✓       ✓
+24    LGNVLEGNSDSLNTK          0.9229      Database    -15.5787    1559.7791   ✓       ✓
+25    LGNVLEGNSDSLNTK          0.9229      Database    -15.8258    1559.7791   ✓       ✓
+26    LGNVLEGNSDSLNTK          0.9229      Database    -15.9062    1559.7791   ✓       ✓
+27    LGNVLEGNSDSLNTK          0.9229      Database    -16.1817    1559.7791   ✓       ✓
+28    LGNVLEGNSDSLNTK          0.9229      Database    -16.2523    1559.7791   ✓       ✓
+29    LGNVLEGNSDSLNTK          0.9229      Database    -16.4212    1559.7791   ✓       ✓
+30    LGNVLEGNSDSLNTK          0.9229      Database    -17.2373    1559.7791   ✓       ✓
+31    LGNVLEGNSDSLNTK          0.9229      Database    -17.7683    1559.7791   ✓       ✓
+32    LGNVLEGNSDSLNTK          0.9229      Database    -17.8053    1559.7791   ✓       ✓
+33    LGNVLEGNSDSLNTK          0.9229      Database    -17.9293    1559.7791   ✓       ✓
+34    LGNVLEGNSDSLNTK          0.9229      Database    -17.9555    1559.7791   ✓       ✓
+35    LGNVLEGNSDSLNTK          0.9229      Database    -18.1265    1559.7791   ✓       ✓
+36    LGNVLEGNSDSLNTK          0.9229      Database    -18.1374    1559.7791   ✓       ✓
+37    LGNVLEGNSDSLNTK          0.9229      Database    -18.2705    1559.7791   ✓       ✓
+38    LGNVLEGNSDSLNTK          0.9229      Database    -18.5503    1559.7791   ✓       ✓
+39    LGNVLEGNSDSLNTK          0.9229      Database    -18.7328    1559.7791   ✓       ✓
+40    LGNVLEGNSDSLNTK          0.9229      Database    -18.7605    1559.7791   ✓       ✓
+41    LGNVLEGNSDSLNTK          0.9229      Database    -18.8588    1559.7791   ✓       ✓
+42    LGNVLEGNSDSLNTK          0.9229      Database    -19.0317    1559.7791   ✓       ✓
+43    LGNVLEGNSDSLNTK          0.9229      Database    -19.0789    1559.7791   ✓       ✓
+44    LGNVLEGNSDSLNTK          0.9229      Database    -19.2201    1559.7791   ✓       ✓
+45    LGNVLEGNSDSLNTK          0.9229      Database    -19.2947    1559.7791   ✓       ✓
+46    LGNVLEGNSDSLNTK          0.9229      Database    -19.4455    1559.7791   ✓       ✓
+47    LGNVLEGNSDSLNTK          0.9229      Database    -19.4824    1559.7791   ✓       ✓
+48    LGNVLEGNSDSLNTK          0.9229      Database    -19.6761    1559.7791   ✓       ✓
+49    LGNVLEGNSDSLNTK          0.9229      Database    -19.9849    1559.7791   ✓       ✓
+50    LGNVLEGNSDSLNTK          0.9229      Database    -20.0323    1559.7791   ✓       ✓
+51    LGNVLEGNSDSLNTK          0.9229      Database    -20.0839    1559.7791   ✓       ✓
+52    LGNVLEGNSDSLNTK          0.9229      Database    -20.1926    1559.7791   ✓       ✓
+53    LGNVLEGNSDSLNTK          0.9229      Database    -20.2275    1559.7791   ✓       ✓
+54    LGNVLEGNSDSLNTK          0.9229      Database    -20.3310    1559.7791   ✓       ✓
+55    LGNVLEGNSDSLNTK          0.9229      Database    -20.4377    1559.7791   ✓       ✓
+56    LGNVLEGNSDSLNTK          0.9229      Database    -20.6869    1559.7791   ✓       ✓
+57    LGNVLEGNSDSLNTK          0.9229      Database    -20.6976    1559.7791   ✓       ✓
+58    LGNVLEGNSDSLNTK          0.9229      Database    -20.7345    1559.7791   ✓       ✓
+59    LGNVLEGNSDSLNTK          0.9229      Database    -20.8311    1559.7791   ✓       ✓
+60    LGNVLEGNSDSLNTK          0.9229      Database    -20.8973    1559.7791   ✓       ✓
+61    LGNVLEGNSDSLNTK          0.9229      Database    -20.9264    1559.7791   ✓       ✓
+62    LGNVLEGNSDSLNTK          0.9229      Database    -21.1224    1559.7791   ✓       ✓
+63    LGNVLEGNSDSLNTK          0.9229      Database    -21.1241    1559.7791   ✓       ✓
+64    LGNVLEGNSDSLNTK          0.9229      Database    -21.1611    1559.7791   ✓       ✓
+65    LGNVLEGNSDSLNTK          0.9229      Database    -21.2268    1559.7791   ✓       ✓
+66    LGNVLEGNSDSLNTK          0.9229      Database    -21.2930    1559.7791   ✓       ✓
+67    LGNVLEGNSDSLNTK          0.9229      Database    -21.3268    1559.7791   ✓       ✓
+68    LGNVLEGNSDSLNTK          0.9229      Database    -21.3299    1559.7791   ✓       ✓
+69    LGNVLEGNSDSLNTK          0.9229      Database    -21.4796    1559.7791   ✓       ✓
+70    LGNVLEGNSDSLNTK          0.9229      Database    -21.4932    1559.7791   ✓       ✓
+71    LGNVLEGNSDSLNTK          0.9229      Database    -21.6391    1559.7791   ✓       ✓
+72    LGNVLEGNSDSLNTK          0.9229      Database    -21.6621    1559.7791   ✓       ✓
+73    LGNVLEGNSDSLNTK          0.9229      Database    -21.6760    1559.7791   ✓       ✓
+74    LGNVLEGNSDSLNTK          0.9229      Database    -21.6898    1559.7791   ✓       ✓
+75    LGNVLEGNSDSLNTK          0.9229      Database    -21.7095    1559.7791   ✓       ✓
+76    LGNVLEGNSDSLNTK          0.9229      Database    -21.7425    1559.7791   ✓       ✓
+77    LGNVLEGNSDSLNTK          0.9229      Database    -21.7611    1559.7791   ✓       ✓
+78    LGNVLEGNSDSLNTK          0.9229      Database    -21.9061    1559.7791   ✓       ✓
+79    LGNVLEGNSDSLNTK          0.9229      Database    -22.0082    1559.7791   ✓       ✓
+80    LGNVLEGNSDSLNTK          0.9229      Database    -22.0750    1559.7791   ✓       ✓
+81    LGNVLEGNSDSLNTK          0.9229      Database    -22.0886    1559.7791   ✓       ✓
+82    LGNVLEGNSDSLNTK          0.9229      Database    -22.1163    1559.7791   ✓       ✓
+83    LGNVLEGNSDSLNTK          0.9229      Database    -22.1494    1559.7791   ✓       ✓
+84    LGNVLEGNSDSLNTK          0.9229      Database    -22.2852    1559.7791   ✓       ✓
+85    LGNVLEGNSDSLNTK          0.9229      Database    -22.3241    1559.7791   ✓       ✓
+86    LGNVLEGNSDSLNTK          0.9229      Database    -22.3641    1559.7791   ✓       ✓
+87    LGNVLEGNSDSLNTK          0.9229      Database    -22.4211    1559.7791   ✓       ✓
+88    LGNVLEGNSDSLNTK          0.9229      Database    -22.4345    1559.7791   ✓       ✓
+89    LGNVLEGNSDSLNTK          0.9229      Database    -22.4347    1559.7791   ✓       ✓
+90    LGNVLEGNSDSLNTK          0.9229      Database    -22.4607    1559.7791   ✓       ✓
+91    LGNVLEGNSDSLNTK          0.9229      Database    -22.5759    1559.7791   ✓       ✓
+92    LGNVLEGNSDSLNTK          0.9229      Database    -22.6036    1559.7791   ✓       ✓
+93    LGNVLEGNSDSLNTK          0.9229      Database    -22.6313    1559.7791   ✓       ✓
+94    LGNVLEGNSDSLNTK          0.9229      Database    -22.6317    1559.7791   ✓       ✓
+95    LGNVLEGNSDSLNTK          0.9229      Database    -22.7448    1559.7791   ✓       ✓
+96    LGNVLEGNSDSLNTK          0.9229      Database    -22.7757    1559.7791   ✓       ✓
+97    LGNVLEGNSDSLNTK          0.9229      Database    -22.9616    1559.7791   ✓       ✓
+98    LGNVLEGNSDSLNTK          0.9229      Database    -23.0132    1559.7791   ✓       ✓
+99    LGNVLEGNSDSLNTK          0.9229      Database    -23.0909    1559.7791   ✓       ✓
+100   LGNVLEGNSDSLNTK          0.9229      Database    -23.3407    1559.7791   ✓       ✓
+101   LGNVLEGNSDSLNTK          0.9229      Database    -23.3640    1559.7791   ✓       ✓
+102   LGNVLEGNSDSLNTK          0.9229      Database    -23.3881    1559.7791   ✓       ✓
+103   LGNVLEGNSDSLNTK          0.9229      Database    -23.4197    1559.7791   ✓       ✓
+104   LGNVLEGNSDSLNTK          0.9229      Database    -23.4397    1559.7791   ✓       ✓
+105   LGNVLEGNSDSLNTK          0.9229      Database    -23.5369    1559.7791   ✓       ✓
+106   LGNVLEGNSDSLNTK          0.9229      Database    -23.5570    1559.7791   ✓       ✓
+107   LGNVLEGNSDSLNTK          0.9229      Database    -23.6086    1559.7791   ✓       ✓
+108   LGNVLEGNSDSLNTK          0.9229      Database    -23.6162    1559.7791   ✓       ✓
+109   LGNVLEGNSDSLNTK          0.9229      Database    -23.6868    1559.7791   ✓       ✓
+110   LGNVLEGNSDSLNTK          0.9229      Database    -23.7999    1559.7791   ✓       ✓
+111   LGNVLEGNSDSLNTK          0.9229      Database    -23.8557    1559.7791   ✓       ✓
+112   LGNVLEGNSDSLNTK          0.9229      Database    -23.9507    1559.7791   ✓       ✓
+113   LGNVLEGNSDSLNTK          0.9229      Database    -23.9547    1559.7791   ✓       ✓
+114   LGNVLEGNSDSLNTK          0.9229      Database    -23.9876    1559.7791   ✓       ✓
+115   LGNVLEGNSDSLNTK          0.9229      Database    -24.0427    1559.7791   ✓       ✓
+116   LGNVLEGNSDSLNTK          0.9229      Database    -24.1117    1559.7791   ✓       ✓
+117   LGNVLEGNSDSLNTK          0.9229      Database    -24.1379    1559.7791   ✓       ✓
+118   LGNVLEGNSDSLNTK          0.9229      Database    -24.1813    1559.7791   ✓       ✓
+119   LGNVLEGNSDSLNTK          0.9229      Database    -24.2116    1559.7791   ✓       ✓
+120   LGNVLEGNSDSLNTK          0.9229      Database    -24.2822    1559.7791   ✓       ✓
+121   LGNVLEGNSDSLNTK          0.9229      Database    -24.3089    1559.7791   ✓       ✓
+122   LGNVLEGNSDSLNTK          0.9229      Database    -24.3183    1559.7791   ✓       ✓
+123   LGNVLEGNSDSLNTK          0.9229      Database    -24.4529    1559.7791   ✓       ✓
+124   LGNVLEGNSDSLNTK          0.9229      Database    -24.5576    1559.7791   ✓       ✓
+125   NGLVLEGNSDSLNTK          0.5529      Prosit      -29.7080    1559.7791   ✓       
+126   +42.011GNAVLEGNSDSLNTK   0.5513      Prosit      -31.1634    1559.7427   ✓       
+127   GLNVLEGNSDSLNTK          0.5504      Prosit      -30.9724    1559.7791   ✓       
+128   +42.011KNVLEGNSDSLNTK    0.5498      Prosit      -24.0220    1559.7791   ✓       
+129   +42.011KNVLEGNSDSLNTK    0.5498      Prosit      -30.2044    1559.7791   ✓       
+130   +42.011KNVLEGNSDSLNTK    0.5498      Prosit      -31.4565    1559.7791   ✓       
+131   +42.011KNVLQ+0.984GNSDSLNTK0.5495      Prosit      -31.4824    1559.7791   ✓       
+132   VGNLLEGNSDSLNTK          0.5464      Prosit      -28.7610    1559.7791   ✓       
+133   +42.011GNVLEGNSWSLNTK    0.5462      Prosit      -26.6531    1559.7580   ✓       
+134   VANVLEGNSDSLNTK          0.5429      Prosit      -28.1817    1559.7791   ✓       
+135   VGNVLEGNSDTLNTK          0.5427      Prosit      -28.9034    1559.7791   ✓       
+136   VGNVLEGNTDSLNTK          0.5419      Prosit      -30.9483    1559.7791   ✓       
+137   +42.011GNVLEGANSDSLNTK   0.5399      Prosit      -29.9814    1559.7427   ✓       
+138   +42.011GNVLEAGNSDSLNTK   0.5399      Prosit      -27.5132    1559.7427   ✓       
+139   NGNVLQGNSDSLNTK          0.5375      Prosit      -30.0303    1559.7540   ✓       
+140   VGQVLEGNSDSLNTK          0.5368      Prosit      -29.1943    1559.7791   ✓       
+141   NGNVLEGNSNSLNTK          0.5315      Prosit      -30.2449    1559.7540   ✓       
+142   LGNVLEGNSN+0.984SLNTK    0.5049      Prosit      -9.0085     1559.7791   ✓       
+143   LGNVLEGNSN+0.984SLNTK    0.5049      Prosit      -13.5137    1559.7791   ✓       
+144   LGNVLEGNSN+0.984SLNTK    0.5049      Prosit      -15.1909    1559.7791   ✓       
+145   LGNVLEGNSN+0.984SLNTK    0.5049      Prosit      -16.4430    1559.7791   ✓       
+146   LGNVLEGNSN+0.984SLNTK    0.5049      Prosit      -16.8695    1559.7791   ✓       
+147   LGNVLEGNSN+0.984SLNTK    0.5049      Prosit      -17.0384    1559.7791   ✓       
+148   LGNVLEGNSN+0.984SLNTK    0.5049      Prosit      -17.3845    1559.7791   ✓       
+149   LGNVLEGNSN+0.984SLNTK    0.5049      Prosit      -19.6961    1559.7791   ✓       
+150   LGNVLEGNSN+0.984SLNTK    0.5049      Prosit      -20.9482    1559.7791   ✓       
+151   LGNVLEGNSN+0.984SLNTK    0.5049      Prosit      -21.5436    1559.7791   ✓       
+152   LGNVLEGNSN+0.984SLNTK    0.5049      Prosit      -21.8897    1559.7791   ✓       
+153   LGNVLEGNSN+0.984SLNTK    0.5049      Prosit      -22.2563    1559.7791   ✓       
+154   LGNVLEGNSN+0.984SLNTK    0.5049      Prosit      -22.2932    1559.7791   ✓       
+155   LGNVLEGNSN+0.984SLNTK    0.5049      Prosit      -22.6253    1559.7791   ✓       
+156   LGNVLEGNSN+0.984SLNTK    0.5049      Prosit      -23.0382    1559.7791   ✓       
+157   LGNVLEGNSN+0.984SLNTK    0.5049      Prosit      -23.0519    1559.7791   ✓       
+158   LGNVLEGNSN+0.984SLNTK    0.5049      Prosit      -23.2207    1559.7791   ✓       
+159   LGNVLEGNSN+0.984SLNTK    0.5049      Prosit      -23.2485    1559.7791   ✓       
+160   LGNVLEGNSN+0.984SLNTK    0.5049      Prosit      -23.5668    1559.7791   ✓       
+161   LGNVLEGNSN+0.984SLNTK    0.5049      Prosit      -23.7080    1559.7791   ✓       
+162   LGN+0.984VLEGNSNSLNTK    0.5049      Prosit      -24.2887    1559.7791   ✓       
+163   LGNVLEGNSN+0.984SLNTK    0.5049      Prosit      -24.3040    1559.7791   ✓       
+164   LGNVLEGNSN+0.984SLNTK    0.5049      Prosit      -24.4728    1559.7791   ✓       
+165   LGNVLEGNSN+0.984SLNTK    0.5049      Prosit      -24.5203    1559.7791   ✓       
+166   LGNVLEGNSN+0.984SLNTK    0.5049      Prosit      -24.5719    1559.7791   ✓       
+167   LGNVLQ+0.984GNSDSLNTK    0.5011      Prosit      -7.4758     1559.7791   ✓       
+168   LGNVLQ+0.984GNSDSLNTK    0.5011      Prosit      -11.9810    1559.7791   ✓       
+169   LGNVLQ+0.984GNSDSLNTK    0.5011      Prosit      -13.6582    1559.7791   ✓       
+170   LGNVLQ+0.984GNSDSLNTK    0.5011      Prosit      -14.9103    1559.7791   ✓       
+171   LGNVLQ+0.984GNSDSLNTK    0.5011      Prosit      -15.3368    1559.7791   ✓       
+172   LGNVLQ+0.984GNSDSLNTK    0.5011      Prosit      -15.5057    1559.7791   ✓       
+173   LGNVLQ+0.984GNSDSLNTK    0.5011      Prosit      -15.8517    1559.7791   ✓       
+174   LGNVLQ+0.984GNSDSLNTK    0.5011      Prosit      -18.1634    1559.7791   ✓       
+175   LGNVLQ+0.984GNSDSLNTK    0.5011      Prosit      -19.4155    1559.7791   ✓       
+176   LGNVLQ+0.984GNSDSLNTK    0.5011      Prosit      -20.0109    1559.7791   ✓       
+177   LGNVLQ+0.984GNSDSLNTK    0.5011      Prosit      -20.3569    1559.7791   ✓       
+178   LGNVLQ+0.984GNSDSLNTK    0.5011      Prosit      -20.7235    1559.7791   ✓       
+179   LGNVLQ+0.984GNSDSLNTK    0.5011      Prosit      -20.7605    1559.7791   ✓       
+180   LGNVLQ+0.984GNSDSLNTK    0.5011      Prosit      -21.0926    1559.7791   ✓       
+181   LGNVLQ+0.984GNSDSLNTK    0.5011      Prosit      -21.5055    1559.7791   ✓       
+182   LGNVLQ+0.984GNSDSLNTK    0.5011      Prosit      -21.5192    1559.7791   ✓       
+183   LGNVLQ+0.984GNSDSLNTK    0.5011      Prosit      -21.6880    1559.7791   ✓       
+184   LGNVLQ+0.984GNSDSLNTK    0.5011      Prosit      -21.7158    1559.7791   ✓       
+185   LGNVLQ+0.984GNSDSLNTK    0.5011      Prosit      -22.0341    1559.7791   ✓       
+186   LGNVLQ+0.984GNSDSLNTK    0.5011      Prosit      -22.1753    1559.7791   ✓       
+187   LGNVLQ+0.984GNSDSLNTK    0.5011      Prosit      -22.7713    1559.7791   ✓       
+188   LGNVLQ+0.984GNSDSLNTK    0.5011      Prosit      -22.9401    1559.7791   ✓       
+189   LGNVLQ+0.984GNSDSLNTK    0.5011      Prosit      -22.9876    1559.7791   ✓       
+190   LGNVLQ+0.984GNSDSLNTK    0.5011      Prosit      -23.0391    1559.7791   ✓       
+191   LGNVLQ+0.984GNSDSLNTK    0.5011      Prosit      -23.2862    1559.7791   ✓       
+192   LGNVLQ+0.984GNSDSLNTK    0.5011      Prosit      -23.3667    1559.7791   ✓       
+193   LGNVLQ+0.984GNSDSLNTK    0.5011      Prosit      -23.6421    1559.7791   ✓       
+194   LGNVLQ+0.984GNSDSLNTK    0.5011      Prosit      -23.7128    1559.7791   ✓       
+195   LGNVLQ+0.984GNSDSLNTK    0.5011      Prosit      -23.8816    1559.7791   ✓       
+196   LGN+0.984VLQGNSDSLNTK    0.5011      Prosit      -24.0740    1559.7791   ✓       
+197   LGNVLQ+0.984GNSN+0.984SLNTK0.4980      Prosit      -16.4689    1559.7791   ✓       
+198   LGNVLQ+0.984GNSN+0.984SLNTK0.4980      Prosit      -20.9741    1559.7791   ✓       
+199   LGNVLQ+0.984GNSN+0.984SLNTK0.4980      Prosit      -22.6513    1559.7791   ✓       
+200   LGNVLQ+0.984GNSN+0.984SLNTK0.4980      Prosit      -23.9034    1559.7791   ✓       
+201   LGNVLQ+0.984GNSN+0.984SLNTK0.4980      Prosit      -24.3299    1559.7791   ✓       
+202   LGNVLQ+0.984GNSN+0.984SLNTK0.4980      Prosit      -24.4988    1559.7791   ✓       
+203   NGNVLKGNSDSLNTK          0.4421      Prosit      -31.3408    1559.7903   ✓       
+204   VGNVLEGNSDSLQTK          0.4216      Prosit      -28.6108    1559.7791   ✓       
+205   NGNVLEGNSDSLLTK          0.4001      Prosit      -31.5256    1559.7791   ✓       
+206   LGNVLQ+0.984GNSDSLNTQ    0.3230      Prosit      -24.1789    1559.7427   ✓       
+207   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -11.8595    1488.7056   ✗       
+208   LGNVLEGNSDSVNTK          -1.0000     NotChecked  -12.8601    1545.7635   ✗       
+209   LGLVLEGNSDSLNTK          -1.0000     NotChecked  -13.2883    1558.8202   ✗       
+210   LGNVLEGNSDSLSTK          -1.0000     NotChecked  -13.3831    1532.7682   ✗       
+211   LGNVLTGNSDSLNTK          -1.0000     NotChecked  -13.4825    1531.7842   ✗       
+212   LGNVLQGNSDSLNTK          -1.0000     NotChecked  -13.6106    1558.7951   ✗       
+213   LGNVLEGNSNSLNTK          -1.0000     NotChecked  -13.8253    1558.7951   ✗       
+214   +43.006GNVLEGNSDSLNTK    -1.0000     NotChecked  -13.9654    1489.7009   ✗       
+215   LGNVLEGNSDSLGTK          -1.0000     NotChecked  -14.6149    1502.7576   ✗       
+216   LGNALEGNSDSLNTK          -1.0000     NotChecked  -14.7571    1531.7478   ✗       
+217   LGNVLKGNSDSLNTK          -1.0000     NotChecked  -14.9212    1558.8315   ✗       
+218   LGNVLEGNSDSTNTK          -1.0000     NotChecked  -14.9700    1547.7427   ✗       
+219   LGNVLEGNSDSLLTK          -1.0000     NotChecked  -15.1060    1558.8202   ✗       
+220   LGNVLEGNADSLNTK          -1.0000     NotChecked  -15.1396    1543.7842   ✗       
+221   LGNVLEGNSDSLNK           -1.0000     NotChecked  -15.1445    1458.7314   ✗       
+222   VGNVLEGNSDSLNTK          -1.0000     NotChecked  -15.1513    1545.7635   ✗       
+223   LGSVLEGNSDSLNTK          -1.0000     NotChecked  -15.1644    1532.7682   ✗       
+224   LGTVLEGNSDSLNTK          -1.0000     NotChecked  -15.5821    1546.7838   ✗       
+225   LGNVLEGNDSLNTK           -1.0000     NotChecked  -15.7917    1472.7471   ✗       
+226   LGNVLEGNSDSLNVK          -1.0000     NotChecked  -15.8108    1557.7998   ✗       
+227   LGNVLEGNSDALNTK          -1.0000     NotChecked  -15.8293    1543.7842   ✗       
+228   LGNVLEGNSDSLNSK          -1.0000     NotChecked  -15.8484    1545.7635   ✗       
+229   LGNGLEGNSDSLNTK          -1.0000     NotChecked  -15.8939    1517.7322   ✗       
+230   LGNVLEGNSDSSNTK          -1.0000     NotChecked  -15.9079    1533.7271   ✗       
+231   LGNVLEGNSSSLNTK          -1.0000     NotChecked  -15.9695    1531.7842   ✗       
+232   GGNVLEGNSDSLNTK          -1.0000     NotChecked  -15.9994    1503.7165   ✗       
+233   LGNVLEGNSSLNTK           -1.0000     NotChecked  -16.0262    1444.7522   ✗       
+234   LGNVLEGNGDSLNTK          -1.0000     NotChecked  -16.0367    1529.7685   ✗       
+235   LGNVLEGNSDSLTTK          -1.0000     NotChecked  -16.0752    1546.7838   ✗       
+236   LGNVLSGNSDSLNTK          -1.0000     NotChecked  -16.3012    1517.7685   ✗       
+237   LGNVLEGLSDSLNTK          -1.0000     NotChecked  -16.5228    1558.8202   ✗       
+238   LGNVLGGNSDSLNTK          -1.0000     NotChecked  -16.6062    1487.7580   ✗       
+239   LGNVLEGNSDSLNTQ          -1.0000     Failed      -16.7185    1559.7427   ✓       
+240   LGNVLEGNSDSLVTK          -1.0000     NotChecked  -16.7503    1544.8046   ✗       
+241   LGNVLAGNSDSLNTK          -1.0000     NotChecked  -16.8451    1501.7736   ✗       
+242   LGNVLEGNSDSLTK           -1.0000     NotChecked  -17.0255    1445.7362   ✗       
+243   LGNVLEGNSDSLNAK          -1.0000     NotChecked  -17.1583    1529.7685   ✗       
+244   LGNVLEGSSDSLNTK          -1.0000     NotChecked  -17.2357    1532.7682   ✗       
+245   LGNVLEGNSDLNTK           -1.0000     NotChecked  -17.3388    1472.7471   ✗       
+246   LGNVLEGNSDSVNTK          -1.0000     NotChecked  -17.3653    1545.7635   ✗       
+247   LGNVLEGGSDSLNTK          -1.0000     NotChecked  -17.4875    1502.7576   ✗       
+248   LGNVLEGVSDSLNTK          -1.0000     NotChecked  -17.6917    1544.8046   ✗       
+249   LGNVLEGNSDSLNT           -1.0000     NotChecked  -17.7603    1431.6841   ✗       
+250   LGLVLEGNSDSLNTK          -1.0000     NotChecked  -17.7935    1558.8202   ✗       
+251   LGNVLEGNSDSLSTK          -1.0000     NotChecked  -17.8883    1532.7682   ✗       
+252   LGNVLEGNSDGLNTK          -1.0000     NotChecked  -17.9437    1529.7685   ✗       
+253   LGNVLTGNSDSLNTK          -1.0000     NotChecked  -17.9877    1531.7842   ✗       
+254   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -18.0419    1488.7056   ✗       
+255   LGNVLEGNSDSLNTL          -1.0000     NotChecked  -18.0538    1544.7682   ✗       
+256   LGNVVEGNSDSLNTK          -1.0000     NotChecked  -18.0725    1545.7635   ✗       
+257   LGNVLQGNSDSLNTK          -1.0000     NotChecked  -18.1158    1558.7951   ✗       
+258   LGNVLEGNSNSLNTK          -1.0000     NotChecked  -18.3305    1558.7951   ✗       
+259   LGNVLEGNSASLNTK          -1.0000     NotChecked  -18.4182    1515.7893   ✗       
+260   LGNVEGNSDSLNTK           -1.0000     NotChecked  -18.8201    1446.6950   ✗       
+261   LGNVLEGNSDSVNTK          -1.0000     NotChecked  -19.0425    1545.7635   ✗       
+262   LGNVLEGNSDSLGTK          -1.0000     NotChecked  -19.1201    1502.7576   ✗       
+263   LGNVSEGNSDSLNTK          -1.0000     NotChecked  -19.2137    1533.7271   ✗       
+264   LGNALEGNSDSLNTK          -1.0000     NotChecked  -19.2623    1531.7478   ✗       
+265   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -19.2940    1488.7056   ✗       
+266   +42.011GNVLQ+0.984GNSDSLNTK-1.0000     NotChecked  -19.3200    1488.7056   ✗       
+267   LGNVLKGNSDSLNTK          -1.0000     NotChecked  -19.4264    1558.8315   ✗       
+268   LGLVLEGNSDSLNTK          -1.0000     NotChecked  -19.4707    1558.8202   ✗       
+269   LGNVLEGNSDSTNTK          -1.0000     NotChecked  -19.4752    1547.7427   ✗       
+270   LNVLEGNSDSLNTK           -1.0000     NotChecked  -19.4935    1502.7576   ✗       
+271   LGNVLEGNSDSLSTK          -1.0000     NotChecked  -19.5655    1532.7682   ✗       
+272   LGNVLEGNSDSLLTK          -1.0000     NotChecked  -19.6112    1558.8202   ✗       
+273   LGNVLEGNADSLNTK          -1.0000     NotChecked  -19.6447    1543.7842   ✗       
+274   LGNVLEGNSDSLNK           -1.0000     NotChecked  -19.6497    1458.7314   ✗       
+275   LGNVLTGNSDSLNTK          -1.0000     NotChecked  -19.6649    1531.7842   ✗       
+276   LGSVLEGNSDSLNTK          -1.0000     NotChecked  -19.6696    1532.7682   ✗       
+277   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -19.7206    1488.7056   ✗       
+278   LGNVLQGNSDSLNTK          -1.0000     NotChecked  -19.7930    1558.7951   ✗       
+279   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -19.8894    1488.7056   ✗       
+280   LGNVLEGNSNSLNTK          -1.0000     NotChecked  -20.0076    1558.7951   ✗       
+281   LGTVLEGNSDSLNTK          -1.0000     NotChecked  -20.0873    1546.7838   ✗       
+282   +43.006GNVLEGNSDSLNTK    -1.0000     NotChecked  -20.1477    1489.7009   ✗       
+283   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -20.2355    1488.7056   ✗       
+284   LGNVLEGNSDSVNTK          -1.0000     NotChecked  -20.2946    1545.7635   ✗       
+285   LGNVLEGNDSLNTK           -1.0000     NotChecked  -20.2969    1472.7471   ✗       
+286   LGNVLEGNSDSLNVK          -1.0000     NotChecked  -20.3160    1557.7998   ✗       
+287   LGNVLQ+0.984GNSDSVNTK    -1.0000     NotChecked  -20.3205    1545.7635   ✗       
+288   LGNVLEGNSDALNTK          -1.0000     NotChecked  -20.3345    1543.7842   ✗       
+289   LGNVLEGNSDSLNSK          -1.0000     NotChecked  -20.3536    1545.7635   ✗       
+290   LGNGLEGNSDSLNTK          -1.0000     NotChecked  -20.3991    1517.7322   ✗       
+291   LGNVLEGNSDSSNTK          -1.0000     NotChecked  -20.4131    1533.7271   ✗       
+292   LGNVLEGNSSSLNTK          -1.0000     NotChecked  -20.4747    1531.7842   ✗       
+293   LGNVLEGNSSLNTK           -1.0000     NotChecked  -20.5314    1444.7522   ✗       
+294   LGNVLEGNGDSLNTK          -1.0000     NotChecked  -20.5419    1529.7685   ✗       
+295   LGNVLEGNSDSLTTK          -1.0000     NotChecked  -20.5804    1546.7838   ✗       
+296   LGNVLEGNSDSLNTS          -1.0000     NotChecked  -20.7006    1518.7162   ✗       
+297   LGNVLEGNSDSVNTK          -1.0000     NotChecked  -20.7211    1545.7635   ✗       
+298   LGLVLEGNSDSLNTK          -1.0000     NotChecked  -20.7228    1558.8202   ✗       
+299   LGLVLQ+0.984GNSDSLNTK    -1.0000     NotChecked  -20.7487    1558.8202   ✗       
+300   LGNVLEGNSDSLGTK          -1.0000     NotChecked  -20.7973    1502.7576   ✗       
+301   LGNVLSGNSDSLNTK          -1.0000     NotChecked  -20.8064    1517.7685   ✗       
+302   LGNVLEGNSDSLSTK          -1.0000     NotChecked  -20.8176    1532.7682   ✗       
+303   LGNVLQ+0.984GNSDSLSTK    -1.0000     NotChecked  -20.8436    1532.7682   ✗       
+304   +42.011GNVLEGNSN+0.984SLNTK-1.0000     NotChecked  -20.8527    1488.7056   ✗       
+305   LGNVLEGNSDSLNTG          -1.0000     NotChecked  -20.8535    1488.7056   ✗       
+306   LGNVLEGNSDSLNT           -1.0000     NotChecked  -20.8551    1431.6841   ✗       
+307   LGNVLEGNSDSLNTV          -1.0000     NotChecked  -20.8655    1530.7526   ✗       
+308   LGNVLEGNSDSVNTK          -1.0000     NotChecked  -20.8900    1545.7635   ✗       
+309   LGNVLTGNSDSLNTK          -1.0000     NotChecked  -20.9170    1531.7842   ✗       
+310   LGNALEGNSDSLNTK          -1.0000     NotChecked  -20.9395    1531.7478   ✗       
+311   LGNVLEGLSDSLNTK          -1.0000     NotChecked  -21.0280    1558.8202   ✗       
+312   LGNVLQGNSDSLNTK          -1.0000     NotChecked  -21.0451    1558.7951   ✗       
+313   LGNVLKGNSDSLNTK          -1.0000     NotChecked  -21.1036    1558.8315   ✗       
+314   LGNVLGGNSDSLNTK          -1.0000     NotChecked  -21.1114    1487.7580   ✗       
+315   LGLVLEGNSDSLNTK          -1.0000     NotChecked  -21.1493    1558.8202   ✗       
+316   LGNVLEGNSDSTNTK          -1.0000     NotChecked  -21.1523    1547.7427   ✗       
+317   LGNVLEGNSDSLNTQ          -1.0000     Failed      -21.2237    1559.7427   ✓       
+318   LGNVLEGNSDSVNTK          -1.0000     NotChecked  -21.2361    1545.7635   ✗       
+319   LGNVLEGNSDSLSTK          -1.0000     NotChecked  -21.2441    1532.7682   ✗       
+320   LGNVLEGNSDSLVTK          -1.0000     NotChecked  -21.2555    1544.8046   ✗       
+321   LGNVLEGNSNSLNTK          -1.0000     NotChecked  -21.2597    1558.7951   ✗       
+322   LGNVLQ+0.984GNSNSLNTK    -1.0000     NotChecked  -21.2857    1558.7951   ✗       
+323   LGNVLEGNSDSLLTK          -1.0000     NotChecked  -21.2883    1558.8202   ✗       
+324   LGLVLEGNSDSLNTK          -1.0000     NotChecked  -21.3182    1558.8202   ✗       
+325   LGNVLEGNADSLNTK          -1.0000     NotChecked  -21.3219    1543.7842   ✗       
+326   VGNVLEGNSDSLNTK          -1.0000     NotChecked  -21.3337    1545.7635   ✗       
+327   LGNVLTGNSDSLNTK          -1.0000     NotChecked  -21.3435    1531.7842   ✗       
+328   LGSVLEGNSDSLNTK          -1.0000     NotChecked  -21.3468    1532.7682   ✗       
+329   LGNVLAGNSDSLNTK          -1.0000     NotChecked  -21.3503    1501.7736   ✗       
+330   +43.006GNVLEGNSDSLNTK    -1.0000     NotChecked  -21.3998    1489.7009   ✗       
+331   LGNVLEGNSDSLSTK          -1.0000     NotChecked  -21.4130    1532.7682   ✗       
+332   +43.006GNVLQ+0.984GNSDSLNTK-1.0000     NotChecked  -21.4258    1489.7009   ✗       
+333   LGNVLQGNSDSLNTK          -1.0000     NotChecked  -21.4716    1558.7951   ✗       
+334   LGNVLTGNSDSLNTK          -1.0000     NotChecked  -21.5124    1531.7842   ✗       
+335   LGNVLEGNSDSLTK           -1.0000     NotChecked  -21.5307    1445.7362   ✗       
+336   LGNVLQGNSDSLNTK          -1.0000     NotChecked  -21.6405    1558.7951   ✗       
+337   LGNVLEGNSDSLNAK          -1.0000     NotChecked  -21.6635    1529.7685   ✗       
+338   LGLVLEGNSDSLNTK          -1.0000     NotChecked  -21.6643    1558.8202   ✗       
+339   LGNVLEGNSNSLNTK          -1.0000     NotChecked  -21.6863    1558.7951   ✗       
+340   LGNVLEGSSDSLNTK          -1.0000     NotChecked  -21.7409    1532.7682   ✗       
+341   LGNVLEGNSDSLSTK          -1.0000     NotChecked  -21.7591    1532.7682   ✗       
+342   LGTVLEGNSDSLNTK          -1.0000     NotChecked  -21.7644    1546.7838   ✗       
+343   +43.006GNVLEGNSDSLNTK    -1.0000     NotChecked  -21.8264    1489.7009   ✗       
+344   LGNVLEGNSDLNTK           -1.0000     NotChecked  -21.8440    1472.7471   ✗       
+345   LGNVLEGNSN+0.984SVNTK    -1.0000     NotChecked  -21.8533    1545.7635   ✗       
+346   LGNVLEGNSNSLNTK          -1.0000     NotChecked  -21.8551    1558.7951   ✗       
+347   LGNVLTGNSDSLNTK          -1.0000     NotChecked  -21.8585    1531.7842   ✗       
+348   LGNVLEGNDSLNTK           -1.0000     NotChecked  -21.9741    1472.7471   ✗       
+349   LGNVLQGNSDSLNTK          -1.0000     NotChecked  -21.9866    1558.7951   ✗       
+350   LGNVLEGGSDSLNTK          -1.0000     NotChecked  -21.9927    1502.7576   ✗       
+351   +43.006GNVLEGNSDSLNTK    -1.0000     NotChecked  -21.9952    1489.7009   ✗       
+352   LGNVLEGNSDALNTK          -1.0000     NotChecked  -22.0117    1543.7842   ✗       
+353   LGNVLEGNSDSLGTK          -1.0000     NotChecked  -22.0494    1502.7576   ✗       
+354   LGNVLQ+0.984GNSDSLGTK    -1.0000     NotChecked  -22.0753    1502.7576   ✗       
+355   LGNGLEGNSDSLNTK          -1.0000     NotChecked  -22.0763    1517.7322   ✗       
+356   LGNVLEGNSDSSNTK          -1.0000     NotChecked  -22.0903    1533.7271   ✗       
+357   LGNVLEGNSSSLNTK          -1.0000     NotChecked  -22.1519    1531.7842   ✗       
+358   GGNVLEGNSDSLNTK          -1.0000     NotChecked  -22.1818    1503.7165   ✗       
+359   LGNVLEGVSDSLNTK          -1.0000     NotChecked  -22.1968    1544.8046   ✗       
+360   LGNVLEGNSNSLNTK          -1.0000     NotChecked  -22.2012    1558.7951   ✗       
+361   LGNVLEGNSSLNTK           -1.0000     NotChecked  -22.2086    1444.7522   ✗       
+362   LGNALQ+0.984GNSDSLNTK    -1.0000     NotChecked  -22.2175    1531.7478   ✗       
+363   LGNVLEGNGDSLNTK          -1.0000     NotChecked  -22.2191    1529.7685   ✗       
+364   LGNVLEGNSDSLTK           -1.0000     NotChecked  -22.2576    1445.7362   ✗       
+365   LGNVLEGNSDSLNT           -1.0000     NotChecked  -22.2655    1431.6841   ✗       
+366   LGLVLEGNSN+0.984SLNTK    -1.0000     NotChecked  -22.2815    1558.8202   ✗       
+367   +42.011GN+0.984VLEGNSDSLNTK-1.0000     NotChecked  -22.3230    1489.6896   ✗       
+368   +43.006GNVLEGNSDSLNTK    -1.0000     NotChecked  -22.3413    1489.7009   ✗       
+369   LGNVLKGNSDSLNTK          -1.0000     NotChecked  -22.3557    1558.8315   ✗       
+370   LGNVLEGNSN+0.984SLSTK    -1.0000     NotChecked  -22.3763    1532.7682   ✗       
+371   LGNVLEGNSDSTNTK          -1.0000     NotChecked  -22.4044    1547.7427   ✗       
+372   LGNVLQ+0.984GNSDSTNTK    -1.0000     NotChecked  -22.4304    1547.7427   ✗       
+373   LGNVLEGNSDGLNTK          -1.0000     NotChecked  -22.4489    1529.7685   ✗       
+374   LGNVLTGNSN+0.984SLNTK    -1.0000     NotChecked  -22.4757    1531.7842   ✗       
+375   LGNVLEGNSDSLGTK          -1.0000     NotChecked  -22.4759    1502.7576   ✗       
+376   LGNVLSGNSDSLNTK          -1.0000     NotChecked  -22.4836    1517.7685   ✗       
+377   LGNVLEGNSDSLLTK          -1.0000     NotChecked  -22.5404    1558.8202   ✗       
+378   LGNVLEGNSDSLNTL          -1.0000     NotChecked  -22.5590    1544.7682   ✗       
+379   LGNVLQ+0.984GNSDSLLTK    -1.0000     NotChecked  -22.5664    1558.8202   ✗       
+380   LGNVLEGNADSLNTK          -1.0000     NotChecked  -22.5740    1543.7842   ✗       
+381   LGNVVEGNSDSLNTK          -1.0000     NotChecked  -22.5777    1545.7635   ✗       
+382   LGNVLEGNSDSLNK           -1.0000     NotChecked  -22.5789    1458.7314   ✗       
+383   VGNVLEGNSDSLNTK          -1.0000     NotChecked  -22.5858    1545.7635   ✗       
+384   LGSVLEGNSDSLNTK          -1.0000     NotChecked  -22.5989    1532.7682   ✗       
+385   LGNVLQ+0.984GNADSLNTK    -1.0000     NotChecked  -22.6000    1543.7842   ✗       
+386   LGNVLQGNSN+0.984SLNTK    -1.0000     NotChecked  -22.6037    1558.7951   ✗       
+387   LGNVLQ+0.984GNSDSLNK     -1.0000     NotChecked  -22.6049    1458.7314   ✗       
+388   VGNVLQ+0.984GNSDSLNTK    -1.0000     NotChecked  -22.6117    1545.7635   ✗       
+389   LGNALEGNSDSLNTK          -1.0000     NotChecked  -22.6181    1531.7478   ✗       
+390   LGSVLQ+0.984GNSDSLNTK    -1.0000     NotChecked  -22.6248    1532.7682   ✗       
+391   LGNVLEGNSDSLGTK          -1.0000     NotChecked  -22.6448    1502.7576   ✗       
+392   LGNVLEGLSDSLNTK          -1.0000     NotChecked  -22.7052    1558.8202   ✗       
+393   LGNVLKGNSDSLNTK          -1.0000     NotChecked  -22.7822    1558.8315   ✗       
+394   LGNALEGNSDSLNTK          -1.0000     NotChecked  -22.7870    1531.7478   ✗       
+395   LGNVLGGNSDSLNTK          -1.0000     NotChecked  -22.7886    1487.7580   ✗       
+396   LGNVLEGNSDSTNTK          -1.0000     NotChecked  -22.8310    1547.7427   ✗       
+397   LGNVLEGNSDSLNTQ          -1.0000     Failed      -22.9009    1559.7427   ✓       
+398   LGNVLEGNSASLNTK          -1.0000     NotChecked  -22.9234    1515.7893   ✗       
+399   LGNVLEGNSDSLVTK          -1.0000     NotChecked  -22.9327    1544.8046   ✗       
+400   LGNVLKGNSDSLNTK          -1.0000     NotChecked  -22.9511    1558.8315   ✗       
+401   +43.006GNVLEGNSN+0.984SLNTK-1.0000     NotChecked  -22.9585    1489.7009   ✗       
+402   LGNVLEGNSDSLLTK          -1.0000     NotChecked  -22.9670    1558.8202   ✗       
+403   LGNVLEGNSDSLGTK          -1.0000     NotChecked  -22.9909    1502.7576   ✗       
+404   LGNVLEGNSDSTNTK          -1.0000     NotChecked  -22.9999    1547.7427   ✗       
+405   LGNVLEGNADSLNTK          -1.0000     NotChecked  -23.0006    1543.7842   ✗       
+406   LGNVLEGNSDSLNK           -1.0000     NotChecked  -23.0055    1458.7314   ✗       
+407   VGNVLEGNSDSLNTK          -1.0000     NotChecked  -23.0123    1545.7635   ✗       
+408   LGTVLEGNSDSLNTK          -1.0000     NotChecked  -23.0165    1546.7838   ✗       
+409   LGSVLEGNSDSLNTK          -1.0000     NotChecked  -23.0254    1532.7682   ✗       
+410   LGNVLAGNSDSLNTK          -1.0000     NotChecked  -23.0275    1501.7736   ✗       
+411   LGTVLQ+0.984GNSDSLNTK    -1.0000     NotChecked  -23.0425    1546.7838   ✗       
+412   LGNALEGNSDSLNTK          -1.0000     NotChecked  -23.1331    1531.7478   ✗       
+413   LGNVLEGNSDSLLTK          -1.0000     NotChecked  -23.1358    1558.8202   ✗       
+414   LGNVLEGNADSLNTK          -1.0000     NotChecked  -23.1694    1543.7842   ✗       
+415   LGNVLEGNSDSLNK           -1.0000     NotChecked  -23.1743    1458.7314   ✗       
+416   VGNVLEGNSDSLNTK          -1.0000     NotChecked  -23.1812    1545.7635   ✗       
+417   LGSVLEGNSDSLNTK          -1.0000     NotChecked  -23.1943    1532.7682   ✗       
+418   LGNVLEGNSDSLTK           -1.0000     NotChecked  -23.2079    1445.7362   ✗       
+419   LGNVLEGNDSLNTK           -1.0000     NotChecked  -23.2262    1472.7471   ✗       
+420   LGNVLEGNSDSLNVK          -1.0000     NotChecked  -23.2452    1557.7998   ✗       
+421   LGNVLQ+0.984GNDSLNTK     -1.0000     NotChecked  -23.2522    1472.7471   ✗       
+422   LGNVLEGNSDALNTK          -1.0000     NotChecked  -23.2638    1543.7842   ✗       
+423   LGNVLQ+0.984GNSDSLNVK    -1.0000     NotChecked  -23.2712    1557.7998   ✗       
+424   LGNVLEGNSDSLNSK          -1.0000     NotChecked  -23.2829    1545.7635   ✗       
+425   LGNVLQ+0.984GNSDALNTK    -1.0000     NotChecked  -23.2898    1543.7842   ✗       
+426   LGNVLKGNSDSLNTK          -1.0000     NotChecked  -23.2971    1558.8315   ✗       
+427   LGNVLQ+0.984GNSDSLNSK    -1.0000     NotChecked  -23.3088    1545.7635   ✗       
+428   LGN+0.984VLEGNSDSVNTK    -1.0000     NotChecked  -23.3236    1546.7475   ✗       
+429   LGNVEGNSDSLNTK           -1.0000     NotChecked  -23.3253    1446.6950   ✗       
+430   LGNVLEGNSDSSNTK          -1.0000     NotChecked  -23.3424    1533.7271   ✗       
+431   LGNVLEGNSDSTNTK          -1.0000     NotChecked  -23.3459    1547.7427   ✗       
+432   LGNGLQ+0.984GNSDSLNTK    -1.0000     NotChecked  -23.3543    1517.7322   ✗       
+433   LGNVLQ+0.984GNSDSSNTK    -1.0000     NotChecked  -23.3683    1533.7271   ✗       
+434   LGNVLEGNSSSLNTK          -1.0000     NotChecked  -23.4040    1531.7842   ✗       
+435   LGNVLEGSSDSLNTK          -1.0000     NotChecked  -23.4181    1532.7682   ✗       
+436   LGNVLQ+0.984GNSSSLNTK    -1.0000     NotChecked  -23.4300    1531.7842   ✗       
+437   GGNVLEGNSDSLNTK          -1.0000     NotChecked  -23.4339    1503.7165   ✗       
+438   LGTVLEGNSDSLNTK          -1.0000     NotChecked  -23.4431    1546.7838   ✗       
+439   GGNVLQ+0.984GNSDSLNTK    -1.0000     NotChecked  -23.4599    1503.7165   ✗       
+440   LGNVLEGNSSLNTK           -1.0000     NotChecked  -23.4607    1444.7522   ✗       
+441   LGNVLEGNGDSLNTK          -1.0000     NotChecked  -23.4712    1529.7685   ✗       
+442   LGNVLEGNSDSLLTK          -1.0000     NotChecked  -23.4819    1558.8202   ✗       
+443   LGNVLQ+0.984GNSSLNTK     -1.0000     NotChecked  -23.4866    1444.7522   ✗       
+444   LGNVLQ+0.984GNGDSLNTK    -1.0000     NotChecked  -23.4971    1529.7685   ✗       
+445   LGNVLEGNSDSLTTK          -1.0000     NotChecked  -23.5097    1546.7838   ✗       
+446   LGNVLEGNADSLNTK          -1.0000     NotChecked  -23.5155    1543.7842   ✗       
+447   LGNVLEGNSDSLNK           -1.0000     NotChecked  -23.5204    1458.7314   ✗       
+448   LGNVLEGNSDLNTK           -1.0000     NotChecked  -23.5212    1472.7471   ✗       
+449   VGNVLEGNSDSLNTK          -1.0000     NotChecked  -23.5272    1545.7635   ✗       
+450   LGNVLQ+0.984GNSDSLTTK    -1.0000     NotChecked  -23.5356    1546.7838   ✗       
+451   LGSVLEGNSDSLNTK          -1.0000     NotChecked  -23.5403    1532.7682   ✗       
+452   LGNVLEGNSDSVNTK          -1.0000     NotChecked  -23.5477    1545.7635   ✗       
+453   LGNVLEGNSN+0.984SLGTK    -1.0000     NotChecked  -23.6081    1502.7576   ✗       
+454   LGTVLEGNSDSLNTK          -1.0000     NotChecked  -23.6119    1546.7838   ✗       
+455   LGNVLEGNDSLNTK           -1.0000     NotChecked  -23.6527    1472.7471   ✗       
+456   LGNVLEGGSDSLNTK          -1.0000     NotChecked  -23.6699    1502.7576   ✗       
+457   LGNVLEGNSDSLNVK          -1.0000     NotChecked  -23.6718    1557.7998   ✗       
+458   LGNVLEGNSDALNTK          -1.0000     NotChecked  -23.6903    1543.7842   ✗       
+459   LGNVLEGNSDSLNSK          -1.0000     NotChecked  -23.7094    1545.7635   ✗       
+460   LGNVSEGNSDSLNTK          -1.0000     NotChecked  -23.7189    1533.7271   ✗       
+461   LGNVLSGNSDSLNTK          -1.0000     NotChecked  -23.7357    1517.7685   ✗       
+462   LGNALEGNSN+0.984SLNTK    -1.0000     NotChecked  -23.7503    1531.7478   ✗       
+463   LGNGLEGNSDSLNTK          -1.0000     NotChecked  -23.7549    1517.7322   ✗       
+464   LGNVLEGNSDSSNTK          -1.0000     NotChecked  -23.7689    1533.7271   ✗       
+465   LGNVLEGNDSLNTK           -1.0000     NotChecked  -23.8216    1472.7471   ✗       
+466   LGNVLEGNSSSLNTK          -1.0000     NotChecked  -23.8306    1531.7842   ✗       
+467   LGNVLEGNSDSLNVK          -1.0000     NotChecked  -23.8406    1557.7998   ✗       
+468   LGN+0.984VLEGNSDSLSTK    -1.0000     NotChecked  -23.8466    1533.7522   ✗       
+469   LGNVLEGNSDALNTK          -1.0000     NotChecked  -23.8592    1543.7842   ✗       
+470   GNVLEGNSDSLNTK           -1.0000     NotChecked  -23.8604    1446.6950   ✗       
+471   LGNVLEGVSDSLNTK          -1.0000     NotChecked  -23.8740    1544.8046   ✗       
+472   LGNVLEGNSDSLNSK          -1.0000     NotChecked  -23.8783    1545.7635   ✗       
+473   LGNVLEGNSSLNTK           -1.0000     NotChecked  -23.8872    1444.7522   ✗       
+474   LGNVLEGNGDSLNTK          -1.0000     NotChecked  -23.8977    1529.7685   ✗       
+475   LGNVLENSDSLNTK           -1.0000     NotChecked  -23.9031    1502.7576   ✗       
+476   LGNVLKGNSN+0.984SLNTK    -1.0000     NotChecked  -23.9143    1558.8315   ✗       
+477   LGNGLEGNSDSLNTK          -1.0000     NotChecked  -23.9238    1517.7322   ✗       
+478   LGNVLEGNSDSLTTK          -1.0000     NotChecked  -23.9362    1546.7838   ✗       
+479   LGNVLEGNSDSSNTK          -1.0000     NotChecked  -23.9378    1533.7271   ✗       
+480   LGNVLEGNSDSLNT           -1.0000     NotChecked  -23.9426    1431.6841   ✗       
+481   LGN+0.984VLTGNSDSLNTK    -1.0000     NotChecked  -23.9460    1532.7682   ✗       
+482   LGNVLEGLSDSLNTK          -1.0000     NotChecked  -23.9573    1558.8202   ✗       
+483   LGTVLEGNSDSLNTK          -1.0000     NotChecked  -23.9580    1546.7838   ✗       
+484   LGNVLEGNSN+0.984STNTK    -1.0000     NotChecked  -23.9631    1547.7427   ✗       
+485   LGLVLEGNSDSLNTK          -1.0000     NotChecked  -23.9759    1558.8202   ✗       
+486   LGNVLQ+0.984GLSDSLNTK    -1.0000     NotChecked  -23.9832    1558.8202   ✗       
+487   LGNVLEGNSSSLNTK          -1.0000     NotChecked  -23.9994    1531.7842   ✗       
+488   GGNVLEGNSDSLNTK          -1.0000     NotChecked  -24.0293    1503.7165   ✗       
+489   LGNVLGGNSDSLNTK          -1.0000     NotChecked  -24.0407    1487.7580   ✗       
+490   LGNVLEGNSSLNTK           -1.0000     NotChecked  -24.0561    1444.7522   ✗       
+491   LGNVLEGNGDSLNTK          -1.0000     NotChecked  -24.0666    1529.7685   ✗       
+492   LGNVLEGNSDSLSTK          -1.0000     NotChecked  -24.0707    1532.7682   ✗       
+493   LGNVLEGNSN+0.984SLLTK    -1.0000     NotChecked  -24.0991    1558.8202   ✗       
+494   LGNVLEGNSDSLTTK          -1.0000     NotChecked  -24.1051    1546.7838   ✗       
+495   LGNVLEGNSDGLNTK          -1.0000     NotChecked  -24.1261    1529.7685   ✗       
+496   LGNVLEGNAN+0.984SLNTK    -1.0000     NotChecked  -24.1327    1543.7842   ✗       
+497   LGNVLEGNSN+0.984SLNK     -1.0000     NotChecked  -24.1376    1458.7314   ✗       
+498   VGNVLEGNSN+0.984SLNTK    -1.0000     NotChecked  -24.1444    1545.7635   ✗       
+499   LGNVLEGNSDSLNTQ          -1.0000     Failed      -24.1530    1559.7427   ✓       
+500   LGSVLEGNSN+0.984SLNTK    -1.0000     NotChecked  -24.1575    1532.7682   ✗       
+501   LGNVLSGNSDSLNTK          -1.0000     NotChecked  -24.1622    1517.7685   ✗       
+502   LGNVLEGNDSLNTK           -1.0000     NotChecked  -24.1677    1472.7471   ✗       
+503   LGNVLTGNSDSLNTK          -1.0000     NotChecked  -24.1701    1531.7842   ✗       
+504   LGNVLEGNSDSLVTK          -1.0000     NotChecked  -24.1848    1544.8046   ✗       
+505   LGNVLEGNSDSLNVK          -1.0000     NotChecked  -24.1867    1557.7998   ✗       
+506   LGNVLEGNSDALNTK          -1.0000     NotChecked  -24.2053    1543.7842   ✗       
+507   LGNVLQ+0.984GNSDSLVTK    -1.0000     NotChecked  -24.2107    1544.8046   ✗       
+508   LGNVLEGNSDSLNSK          -1.0000     NotChecked  -24.2243    1545.7635   ✗       
+509   LGNVLEGNSDSLNTL          -1.0000     NotChecked  -24.2362    1544.7682   ✗       
+510   LGNVVEGNSDSLNTK          -1.0000     NotChecked  -24.2548    1545.7635   ✗       
+511   LGNGLEGNSDSLNTK          -1.0000     NotChecked  -24.2698    1517.7322   ✗       
+512   LGNVLAGNSDSLNTK          -1.0000     NotChecked  -24.2796    1501.7736   ✗       
+513   LGNVLEGNSDSSNTK          -1.0000     NotChecked  -24.2839    1533.7271   ✗       
+514   LGNVLQGNSDSLNTK          -1.0000     NotChecked  -24.2982    1558.7951   ✗       
+515   LGNVLSGNSDSLNTK          -1.0000     NotChecked  -24.3311    1517.7685   ✗       
+516   LGNVLEGNSSSLNTK          -1.0000     NotChecked  -24.3455    1531.7842   ✗       
+517   GGNVLEGNSDSLNTK          -1.0000     NotChecked  -24.3754    1503.7165   ✗       
+518   LGNVLEGLSDSLNTK          -1.0000     NotChecked  -24.3838    1558.8202   ✗       
+519   LGNVLEGNSSLNTK           -1.0000     NotChecked  -24.4022    1444.7522   ✗       
+520   LGNVLEGNGDSLNTK          -1.0000     NotChecked  -24.4126    1529.7685   ✗       
+521   +43.006GN+0.984VLEGNSDSLNTK-1.0000     NotChecked  -24.4288    1490.6849   ✗       
+522   LGNVLEGNSDSLTTK          -1.0000     NotChecked  -24.4512    1546.7838   ✗       
+523   LGNVLEGNSDSLTK           -1.0000     NotChecked  -24.4600    1445.7362   ✗       
+524   LGNVLGGNSDSLNTK          -1.0000     NotChecked  -24.4672    1487.7580   ✗       
+525   LGNVLQ+0.984GNSDSLTK     -1.0000     NotChecked  -24.4859    1445.7362   ✗       
+526   LGNVLEGNSNSLNTK          -1.0000     NotChecked  -24.5128    1558.7951   ✗       
+527   LGNVLEGLSDSLNTK          -1.0000     NotChecked  -24.5527    1558.8202   ✗       
+528   LGTVLEGNSN+0.984SLNTK    -1.0000     NotChecked  -24.5752    1546.7838   ✗       
+529   LGNVLEGNSDSLNTQ          -1.0000     Failed      -24.5795    1559.7427   ✓       
+530   LGNVLEGNSDSLNAK          -1.0000     NotChecked  -24.5928    1529.7685   ✗       
+531   LGNVLEGNSASLNTK          -1.0000     NotChecked  -24.6006    1515.7893   ✗       
+532   LGNVLEGNSDSLVTK          -1.0000     NotChecked  -24.6113    1544.8046   ✗       
+533   +42.011GNVLEGNSDSVNTK    -1.0000     NotChecked  -24.7043    1474.6900   ✗       
+534   +42.011ANVLEGNSDSLNTK    -1.0000     NotChecked  -24.8899    1502.7213   ✗       
+535   GGNVLEGNSN+0.984SLNTK    -1.0000     NotChecked  -24.9926    1503.7165   ✗       
+536   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -25.1073    1488.7056   ✗       
+537   +42.011GLVLEGNSDSLNTK    -1.0000     NotChecked  -25.1325    1487.7467   ✗       
+538   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -25.1442    1488.7056   ✗       
+539   +42.011GNVLEGNSDSLSTK    -1.0000     NotChecked  -25.2273    1461.6947   ✗       
+540   +42.011SNVLEGNSDSLNTK    -1.0000     NotChecked  -25.2786    1518.7162   ✗       
+541   +42.011GNVLEGNSDSLQTK    -1.0000     NotChecked  -25.3190    1502.7213   ✗       
+542   +42.011GNVLTGNSDSLNTK    -1.0000     NotChecked  -25.3267    1460.7107   ✗       
+543   +42.011NNVLEGNSDSLNTK    -1.0000     NotChecked  -25.4434    1545.7271   ✗       
+544   +42.011GNVLQGNSDSLNTK    -1.0000     NotChecked  -25.4548    1487.7216   ✗       
+545   +42.011GNLLEGNSDSLNTK    -1.0000     NotChecked  -25.4693    1502.7213   ✗       
+546   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -25.4764    1488.7056   ✗       
+547   +42.011GNVLQ+0.984GNSDSLNTK-1.0000     NotChecked  -25.5023    1488.7056   ✗       
+548   +42.011GNVLEGNSDTLNTK    -1.0000     NotChecked  -25.6116    1502.7212   ✗       
+549   VGN+0.984VLEGNSDSLNTK    -1.0000     NotChecked  -25.6147    1546.7475   ✗       
+550   +42.011GNVLEGNSNSLNTK    -1.0000     NotChecked  -25.6694    1487.7216   ✗       
+551   +42.011GRVLEGNSDSLNTK    -1.0000     NotChecked  -25.8212    1530.7638   ✗       
+552   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -25.8893    1488.7056   ✗       
+553   +42.011GQVLEGNSDSLNTK    -1.0000     NotChecked  -25.9025    1502.7213   ✗       
+554   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -25.9029    1488.7056   ✗       
+555   +42.011GEVLEGNSDSLNTK    -1.0000     NotChecked  -25.9216    1503.7053   ✗       
+556   +42.011GNVLEGN+0.984SDSLNTK-1.0000     NotChecked  -25.9682    1489.6896   ✗       
+557   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -26.0718    1488.7056   ✗       
+558   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -26.0995    1488.7056   ✗       
+559   +42.011TNVLEGNSDSLNTK    -1.0000     NotChecked  -26.3133    1532.7318   ✗       
+560   +42.011GNVLEGNSDSQNTK    -1.0000     NotChecked  -26.3770    1503.6801   ✗       
+561   +42.011DNVLEGNSDSLNTK    -1.0000     NotChecked  -26.4131    1546.7111   ✗       
+562   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -26.4179    1488.7056   ✗       
+563   +42.011GDVLEGNSDSLNTK    -1.0000     NotChecked  -26.4280    1489.6896   ✗       
+564   +42.011GKVLEGNSDSLNTK    -1.0000     NotChecked  -26.4440    1502.7576   ✗       
+565   +42.011GNVLEGNSDSLGTK    -1.0000     NotChecked  -26.4591    1431.6841   ✗       
+566   GGN+0.984VLEGNSDSLNTK    -1.0000     NotChecked  -26.4629    1504.7005   ✗       
+567   +42.011GNVLMGNSDSLNTK    -1.0000     NotChecked  -26.4725    1490.7035   ✗       
+568   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -26.5591    1488.7056   ✗       
+569   +42.011GNALEGNSDSLNTK    -1.0000     NotChecked  -26.6013    1460.6743   ✗       
+570   +42.011GNVLEGNSDSLN+0.984TK-1.0000     NotChecked  -26.6301    1489.6896   ✗       
+571   +42.011GNVLQ+0.984GNSDSLNTK-1.0000     NotChecked  -26.7544    1488.7056   ✗       
+572   +42.011GNVLKGNSDSLNTK    -1.0000     NotChecked  -26.7654    1487.7580   ✗       
+573   +42.011GNVLEGNSDSLNLK    -1.0000     NotChecked  -26.7736    1500.7420   ✗       
+574   +43.006GNVLEGNSDSVNTK    -1.0000     NotChecked  -26.8101    1475.6852   ✗       
+575   +42.011GNVLEGNSDSTNTK    -1.0000     NotChecked  -26.8142    1476.6692   ✗       
+576   +42.011GNVLEGQSDSLNTK    -1.0000     NotChecked  -26.8236    1502.7213   ✗       
+577   +42.011LNVLEGNSDSLNTK    -1.0000     NotChecked  -26.8325    1544.7682   ✗       
+578   +42.011GNVLEGDSDSLNTK    -1.0000     NotChecked  -26.8357    1489.6896   ✗       
+579   +42.011GNVLEGNSDSLLTK    -1.0000     NotChecked  -26.9501    1487.7467   ✗       
+580   +42.011GNVLEGNADSLNTK    -1.0000     NotChecked  -26.9837    1472.7107   ✗       
+581   +42.011GNVLEGNSDSLNK     -1.0000     NotChecked  -26.9886    1387.6579   ✗       
+582   +43.006ANVLEGNSDSLNTK    -1.0000     NotChecked  -26.9957    1503.7165   ✗       
+583   +42.011GSVLEGNSDSLNTK    -1.0000     NotChecked  -27.0086    1461.6947   ✗       
+584   +42.011GNVLEGNSN+0.984SLNTK-1.0000     NotChecked  -27.0350    1488.7056   ✗       
+585   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -27.1550    1488.7056   ✗       
+586   +42.011GNVLQ+0.984GNSDSLNTK-1.0000     NotChecked  -27.1810    1488.7056   ✗       
+587   +43.006GNVLEGNSDSLNTK    -1.0000     NotChecked  -27.2131    1489.7009   ✗       
+588   +43.006GLVLEGNSDSLNTK    -1.0000     NotChecked  -27.2383    1488.7420   ✗       
+589   +43.006GNVLEGNSDSLNTK    -1.0000     NotChecked  -27.2500    1489.7009   ✗       
+590   +42.011GNELEGNSDSLNTK    -1.0000     NotChecked  -27.3181    1518.6798   ✗       
+591   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -27.3239    1488.7056   ✗       
+592   +43.006GNVLEGNSDSLSTK    -1.0000     NotChecked  -27.3331    1462.6900   ✗       
+593   +42.011GNVLQ+0.984GNSDSLNTK-1.0000     NotChecked  -27.3498    1488.7056   ✗       
+594   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -27.3713    1488.7056   ✗       
+595   +43.006SNVLEGNSDSLNTK    -1.0000     NotChecked  -27.3844    1519.7114   ✗       
+596   +42.011GNVLEGNSDSLNQK    -1.0000     NotChecked  -27.3887    1515.7165   ✗       
+597   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -27.4229    1488.7056   ✗       
+598   +43.006GNVLEGNSDSLQTK    -1.0000     NotChecked  -27.4248    1503.7165   ✗       
+599   +42.011GTVLEGNSDSLNTK    -1.0000     NotChecked  -27.4263    1475.7103   ✗       
+600   +43.006GNVLTGNSDSLNTK    -1.0000     NotChecked  -27.4325    1461.7059   ✗       
+601   +43.006NNVLEGNSDSLNTK    -1.0000     NotChecked  -27.5492    1546.7223   ✗       
+602   +43.006GNVLQGNSDSLNTK    -1.0000     NotChecked  -27.5606    1488.7168   ✗       
+603   +43.006GNLLEGNSDSLNTK    -1.0000     NotChecked  -27.5751    1503.7165   ✗       
+604   +43.006GNVLEGNSDSLNTK    -1.0000     NotChecked  -27.5822    1489.7009   ✗       
+605   +43.006GNVLQ+0.984GNSDSLNTK-1.0000     NotChecked  -27.6081    1489.7009   ✗       
+606   +42.011GNTLEGNSDSLNTK    -1.0000     NotChecked  -27.6096    1490.6849   ✗       
+607   +42.011GNNLEGNSDSLNTK    -1.0000     NotChecked  -27.6101    1503.6801   ✗       
+608   +42.011GNVLEGNNDSLNTK    -1.0000     NotChecked  -27.6290    1515.7165   ✗       
+609   +42.011GNVLEGNDSLNTK     -1.0000     NotChecked  -27.6359    1401.6736   ✗       
+610   +42.011GNVLEGNSDSLGNTK   -1.0000     NotChecked  -27.6468    1545.7271   ✗       
+611   +42.011GNVLEGNSDSLNVK    -1.0000     NotChecked  -27.6549    1486.7263   ✗       
+612   +42.011GNVLEGNTDSLNTK    -1.0000     NotChecked  -27.6565    1502.7212   ✗       
+613   +42.011GNVLEGNSDSENTK    -1.0000     NotChecked  -27.6590    1504.6641   ✗       
+614   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -27.6700    1488.7056   ✗       
+615   +42.011GNVLEGNSDALNTK    -1.0000     NotChecked  -27.6735    1472.7107   ✗       
+616   +42.011GNVLEGNSDSLNSK    -1.0000     NotChecked  -27.6926    1474.6900   ✗       
+617   +42.011GNVLQ+0.984GNSDSLNTK-1.0000     NotChecked  -27.6959    1488.7056   ✗       
+618   +43.006GNVLEGNSDTLNTK    -1.0000     NotChecked  -27.7175    1503.7165   ✗       
+619   +42.011GNGLEGNSDSLNTK    -1.0000     NotChecked  -27.7381    1446.6587   ✗       
+620   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -27.7504    1488.7056   ✗       
+621   +42.011GNVLEGNSDSSNTK    -1.0000     NotChecked  -27.7521    1462.6536   ✗       
+622   +42.011GNVLEGESDSLNTK    -1.0000     NotChecked  -27.7675    1503.7053   ✗       
+623   +43.006GNVLEGNSNSLNTK    -1.0000     NotChecked  -27.7753    1488.7168   ✗       
+624   +42.011GNVLEGNVDSLNTK    -1.0000     NotChecked  -27.7830    1500.7420   ✗       
+625   +42.011GNVLEGNSSSLNTK    -1.0000     NotChecked  -27.8137    1460.7107   ✗       
+626   +42.011GNVLEGNSSLNTK     -1.0000     NotChecked  -27.8704    1373.6787   ✗       
+627   +42.011GNVLEGNGDSLNTK    -1.0000     NotChecked  -27.8809    1458.6950   ✗       
+628   +42.011GNKLEGNSDSLNTK    -1.0000     NotChecked  -27.9066    1517.7322   ✗       
+629   +42.011GNVLEGNSDSLTTK    -1.0000     NotChecked  -27.9194    1475.7103   ✗       
+630   +43.006GRVLEGNSDSLNTK    -1.0000     NotChecked  -27.9270    1531.7590   ✗       
+631   +42.011GNVLEGNSDSLNTR    -1.0000     NotChecked  -27.9286    1516.7118   ✗       
+632   +42.011GNMLEGNSDSLNTK    -1.0000     NotChecked  -27.9471    1520.6777   ✗       
+633   +43.006GNVLEGNSDSLNTK    -1.0000     NotChecked  -27.9951    1489.7009   ✗       
+634   VGNVLEGNSDSVNTK          -1.0000     NotChecked  -27.9961    1531.7478   ✗       
+635   +43.006GQVLEGNSDSLNTK    -1.0000     NotChecked  -28.0083    1503.7165   ✗       
+636   +43.006GNVLEGNSDSLNTK    -1.0000     NotChecked  -28.0087    1489.7009   ✗       
+637   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -28.0259    1488.7056   ✗       
+638   +43.006GEVLEGNSDSLNTK    -1.0000     NotChecked  -28.0274    1504.7005   ✗       
+639   +43.006GNVLEGN+0.984SDSLNTK-1.0000     NotChecked  -28.0740    1490.6849   ✗       
+640   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -28.0965    1488.7056   ✗       
+641   +42.011GGNVLEGNSDSLNTK   -1.0000     NotChecked  -28.1326    1545.7271   ✗       
+642   +42.011GNVLSGNSDSLNTK    -1.0000     NotChecked  -28.1454    1446.6950   ✗       
+643   +43.006GNVLEGNSDSLNTK    -1.0000     NotChecked  -28.1776    1489.7009   ✗       
+644   +42.011GNVLWGNSDSLNTK    -1.0000     NotChecked  -28.1943    1545.7423   ✗       
+645   +42.011GNRLEGNSDSLNTK    -1.0000     NotChecked  -28.2010    1545.7383   ✗       
+646   +43.006GNVLEGNSDSLNTK    -1.0000     NotChecked  -28.2053    1489.7009   ✗       
+647   +42.011GNVLEGNSDSLNEK    -1.0000     NotChecked  -28.2554    1516.7005   ✗       
+648   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -28.2654    1488.7056   ✗       
+649   +42.011GNVLEGNSDNLNTK    -1.0000     NotChecked  -28.2729    1515.7165   ✗       
+650   +42.011GNVLEGNSN+0.984SLNTK-1.0000     NotChecked  -28.2871    1488.7056   ✗       
+651   +42.011GNVLQ+0.984GNSN+0.984SLNTK-1.0000     NotChecked  -28.3131    1488.7056   ✗       
+652   +42.011GNVLEGNLDSLNTK    -1.0000     NotChecked  -28.3377    1514.7576   ✗       
+653   +42.011GNVLEGLSDSLNTK    -1.0000     NotChecked  -28.3670    1487.7467   ✗       
+654   VGNVLEGNSDSLNTK          -1.0000     NotChecked  -28.3990    1545.7635   ✗       
+655   +43.006TNVLEGNSDSLNTK    -1.0000     NotChecked  -28.4191    1533.7271   ✗       
+656   VGLVLEGNSDSLNTK          -1.0000     NotChecked  -28.4242    1544.8046   ✗       
+657   VGNVLEGNSDSLNTK          -1.0000     NotChecked  -28.4360    1545.7635   ✗       
+658   +42.011GNVLGGNSDSLNTK    -1.0000     NotChecked  -28.4504    1416.6845   ✗       
+659   +43.006GNVLEGNSDSQNTK    -1.0000     NotChecked  -28.4828    1504.6754   ✗       
+660   +42.011GN+0.984VLEGNSDSLNTK-1.0000     NotChecked  -28.5054    1489.6896   ✗       
+661   +43.006DNVLEGNSDSLNTK    -1.0000     NotChecked  -28.5189    1547.7063   ✗       
+662   VGNVLEGNSDSLSTK          -1.0000     NotChecked  -28.5191    1518.7526   ✗       
+663   +43.006GNVLEGNSDSLNTK    -1.0000     NotChecked  -28.5237    1489.7009   ✗       
+664   +43.006GDVLEGNSDSLNTK    -1.0000     NotChecked  -28.5339    1490.6849   ✗       
+665   +43.006GKVLEGNSDSLNTK    -1.0000     NotChecked  -28.5498    1503.7529   ✗       
+666   +42.011GNVLEGNSDSLNTQ    -1.0000     NotChecked  -28.5627    1488.6692   ✗       
+667   +43.006GNVLEGNSDSLGTK    -1.0000     NotChecked  -28.5649    1432.6794   ✗       
+668   +43.006GNVLMGNSDSLNTK    -1.0000     NotChecked  -28.5783    1491.6987   ✗       
+669   +42.011GNVLEGNSDSLVTK    -1.0000     NotChecked  -28.5945    1473.7311   ✗       
+670   VGNVLTGNSDSLNTK          -1.0000     NotChecked  -28.6185    1517.7685   ✗       
+671   +43.006GNVLEGNSDSLNTK    -1.0000     NotChecked  -28.6649    1489.7009   ✗       
+672   +42.011GNVLAGNSDSLNTK    -1.0000     NotChecked  -28.6893    1430.7001   ✗       
+673   +43.006GNALEGNSDSLNTK    -1.0000     NotChecked  -28.7071    1461.6696   ✗       
+674   +42.011GNVLEGNSN+0.984SLNTK-1.0000     NotChecked  -28.7137    1488.7056   ✗       
+675   +42.011GNVLEGNSDSKNTK    -1.0000     NotChecked  -28.7303    1503.7165   ✗       
+676   +43.006GNVLEGNSDSLN+0.984TK-1.0000     NotChecked  -28.7359    1490.6849   ✗       
+677   VGNVLQGNSDSLNTK          -1.0000     NotChecked  -28.7465    1544.7794   ✗       
+678   VGNVLEGNSDSLNTK          -1.0000     NotChecked  -28.7681    1545.7635   ✗       
+679   VGNVLQ+0.984GNSDSLNTK    -1.0000     NotChecked  -28.7941    1545.7635   ✗       
+680   GGNVLEGNSDSVNTK          -1.0000     NotChecked  -28.8442    1489.7009   ✗       
+681   +42.011GNVLEGNSESLNTK    -1.0000     NotChecked  -28.8535    1502.7213   ✗       
+682   +42.011GNVLEGNSDSLGNTK   -1.0000     NotChecked  -28.8561    1545.7271   ✗       
+683   +43.006GNVLQ+0.984GNSDSLNTK-1.0000     NotChecked  -28.8602    1489.7009   ✗       
+684   +42.011GNVLEGNSDSLGNTK   -1.0000     NotChecked  -28.8632    1545.7271   ✗       
+685   +42.011GNVLEGNSDSLTK     -1.0000     NotChecked  -28.8697    1374.6627   ✗       
+686   +43.006GNVLKGNSDSLNTK    -1.0000     NotChecked  -28.8712    1488.7532   ✗       
+687   +43.006GNVLEGNSDSLNLK    -1.0000     NotChecked  -28.8794    1501.7372   ✗       
+688   +42.011GNVLEGNSN+0.984SLNTK-1.0000     NotChecked  -28.8825    1488.7056   ✗       
+689   +43.006GNVLEGNSDSTNTK    -1.0000     NotChecked  -28.9200    1477.6645   ✗       
+690   +43.006GNVLEGQSDSLNTK    -1.0000     NotChecked  -28.9294    1503.7165   ✗       
+691   +43.006LNVLEGNSDSLNTK    -1.0000     NotChecked  -28.9383    1545.7635   ✗       
+692   +43.006GNVLEGDSDSLNTK    -1.0000     NotChecked  -28.9415    1490.6849   ✗       
+693   VGNVLEGNSNSLNTK          -1.0000     NotChecked  -28.9612    1544.7794   ✗       
+694   +42.011GNVLEGNSDELNTK    -1.0000     NotChecked  -28.9690    1530.7162   ✗       
+695   +42.011GNVLEGNSDSNNTK    -1.0000     NotChecked  -28.9777    1489.6645   ✗       
+696   +42.011GNVLEGNSDSLNAK    -1.0000     NotChecked  -29.0025    1458.6951   ✗       
+697   +42.011GNVLEGNSDSQ+0.984NTK-1.0000     NotChecked  -29.0229    1504.6641   ✗       
+698   GANVLEGNSDSLNTK          -1.0000     NotChecked  -29.0298    1517.7322   ✗       
+699   +43.006GNVLEGNSDSLLTK    -1.0000     NotChecked  -29.0560    1488.7420   ✗       
+700   +42.011GNVLEGNSDLLNTK    -1.0000     NotChecked  -29.0789    1514.7576   ✗       
+701   +42.011GNVLEGSSDSLNTK    -1.0000     NotChecked  -29.0799    1461.6947   ✗       
+702   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -29.0815    1488.7056   ✗       
+703   +43.006GNVLEGNADSLNTK    -1.0000     NotChecked  -29.0895    1473.7059   ✗       
+704   +42.011GNVLEGNSDSLKTK    -1.0000     NotChecked  -29.0932    1502.7576   ✗       
+705   +43.006GNVLEGNSDSLNK     -1.0000     NotChecked  -29.0945    1388.6532   ✗       
+706   +42.011GNGVLEGNSDSLNTK   -1.0000     NotChecked  -29.1037    1545.7271   ✗       
+707   +43.006GSVLEGNSDSLNTK    -1.0000     NotChecked  -29.1144    1462.6900   ✗       
+708   +43.006GNVLEGNSN+0.984SLNTK-1.0000     NotChecked  -29.1409    1489.7009   ✗       
+709   VGNVLEGNSDSLNTK          -1.0000     NotChecked  -29.1810    1545.7635   ✗       
+710   +42.011GNVLEGNSDLNTK     -1.0000     NotChecked  -29.1830    1401.6736   ✗       
+711   VGNVLEGNSDSLNTK          -1.0000     NotChecked  -29.1947    1545.7635   ✗       
+712   +42.011GNVLEGNSN+0.984SLNTK-1.0000     NotChecked  -29.2286    1488.7056   ✗       
+713   +42.011GNVLEGC+57.021SDSLNTK-1.0000     NotChecked  -29.2388    1534.6933   ✗       
+714   GGNVLEGNSDSLNTK          -1.0000     NotChecked  -29.2472    1503.7165   ✗       
+715   VGNVLEGN+0.984SDSLNTK    -1.0000     NotChecked  -29.2599    1546.7475   ✗       
+716   +43.006GNVLEGNSDSLNTK    -1.0000     NotChecked  -29.2608    1489.7009   ✗       
+717   +42.011GNVLEGNSDSLNMK    -1.0000     NotChecked  -29.2662    1518.6984   ✗       
+718   GGLVLEGNSDSLNTK          -1.0000     NotChecked  -29.2724    1502.7576   ✗       
+719   NGNVLEGNSDSVNTK          -1.0000     NotChecked  -29.2798    1546.7223   ✗       
+720   GGNVLEGNSDSLNTK          -1.0000     NotChecked  -29.2841    1503.7165   ✗       
+721   +43.006GNVLQ+0.984GNSDSLNTK-1.0000     NotChecked  -29.2868    1489.7009   ✗       
+722   KGNVLEGNSDSLSTK          -1.0000     NotChecked  -29.3066    1547.7791   ✗       
+723   +42.011GNVLEGGSDSLNTK    -1.0000     NotChecked  -29.3317    1431.6841   ✗       
+724   VGNVLEGNSDSLNTK          -1.0000     NotChecked  -29.3635    1545.7635   ✗       
+725   GGNVLEGNSDSLSTK          -1.0000     NotChecked  -29.3672    1476.7056   ✗       
+726   VGNVLEGNSDSLNTK          -1.0000     NotChecked  -29.3913    1545.7635   ✗       
+727   KGNVLTGNSDSLNTK          -1.0000     NotChecked  -29.4060    1546.7951   ✗       
+728   GSNVLEGNSDSLNTK          -1.0000     NotChecked  -29.4185    1533.7271   ✗       
+729   +43.006GNELEGNSDSLNTK    -1.0000     NotChecked  -29.4240    1519.6750   ✗       
+730   +43.006GNVLEGNSDSLNTK    -1.0000     NotChecked  -29.4297    1489.7009   ✗       
+731   +43.006GNVLQ+0.984GNSDSLNTK-1.0000     NotChecked  -29.4556    1489.7009   ✗       
+732   GGNVLEGNSDSLQTK          -1.0000     NotChecked  -29.4589    1517.7322   ✗       
+733   GGNVLTGNSDSLNTK          -1.0000     NotChecked  -29.4666    1475.7216   ✗       
+734   +43.006GNVLEGNSDSLNTK    -1.0000     NotChecked  -29.4771    1489.7009   ✗       
+735   +42.011GNVREGNSDSLNTK    -1.0000     NotChecked  -29.4904    1531.7227   ✗       
+736   +43.006GNVLEGNSDSLNQK    -1.0000     NotChecked  -29.4945    1516.7118   ✗       
+737   +42.011GNVMEGNSDSLNTK    -1.0000     NotChecked  -29.4947    1506.6620   ✗       
+738   +43.006GNVLEGNSDSLNTK    -1.0000     NotChecked  -29.5287    1489.7009   ✗       
+739   +43.006GTVLEGNSDSLNTK    -1.0000     NotChecked  -29.5321    1476.7056   ✗       
+740   +42.011GNVLEGVSDSLNTK    -1.0000     NotChecked  -29.5358    1473.7311   ✗       
+741   GGNVLQGNSDSLNTK          -1.0000     NotChecked  -29.5947    1502.7325   ✗       
+742   +42.011GNVLEGNSDSLNT     -1.0000     NotChecked  -29.6044    1360.6106   ✗       
+743   GGNLLEGNSDSLNTK          -1.0000     NotChecked  -29.6092    1517.7322   ✗       
+744   GGNVLEGNSDSLNTK          -1.0000     NotChecked  -29.6163    1503.7165   ✗       
+745   GGNVLQ+0.984GNSDSLNTK    -1.0000     NotChecked  -29.6422    1503.7165   ✗       
+746   +42.011GNVLEGNGSDSLNTK   -1.0000     NotChecked  -29.6513    1545.7271   ✗       
+747   VGNVLEGNSDSLNTK          -1.0000     NotChecked  -29.7096    1545.7635   ✗       
+748   +43.006GNTLEGNSDSLNTK    -1.0000     NotChecked  -29.7154    1491.6801   ✗       
+749   +43.006GNNLEGNSDSLNTK    -1.0000     NotChecked  -29.7159    1504.6754   ✗       
+750   VGDVLEGNSDSLNTK          -1.0000     NotChecked  -29.7198    1546.7475   ✗       
+751   +43.006GNVLEGNNDSLNTK    -1.0000     NotChecked  -29.7348    1516.7118   ✗       
+752   VGKVLEGNSDSLNTK          -1.0000     Failed      -29.7358    1559.8155   ✓       
+753   +43.006GNVLEGNDSLNTK     -1.0000     NotChecked  -29.7417    1402.6688   ✗       
+754   +42.011GNVLEGNSDQLNTK    -1.0000     NotChecked  -29.7501    1529.7322   ✗       
+755   VGNVLEGNSDSLGTK          -1.0000     NotChecked  -29.7509    1488.7420   ✗       
+756   GGNVLEGNSDTLNTK          -1.0000     NotChecked  -29.7515    1517.7321   ✗       
+757   +43.006GNVLEGNSDSLGNTK   -1.0000     NotChecked  -29.7527    1546.7223   ✗       
+758   +42.011GN+0.984VLEGNSDSLNTK-1.0000     NotChecked  -29.7575    1489.6896   ✗       
+759   +43.006GNVLEGNSDSLNVK    -1.0000     NotChecked  -29.7608    1487.7216   ✗       
+760   +43.006GNVLEGNTDSLNTK    -1.0000     NotChecked  -29.7623    1503.7165   ✗       
+761   VGNVLMGNSDSLNTK          -1.0000     NotChecked  -29.7642    1547.7613   ✗       
+762   +43.006GNVLEGNSDSENTK    -1.0000     NotChecked  -29.7648    1505.6594   ✗       
+763   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -29.7735    1488.7056   ✗       
+764   +43.006GNVLEGNSDSLNTK    -1.0000     NotChecked  -29.7758    1489.7009   ✗       
+765   +43.006GNVLEGNSDALNTK    -1.0000     NotChecked  -29.7793    1473.7059   ✗       
+766   +42.011GN+0.984VLQ+0.984GNSDSLNTK-1.0000     NotChecked  -29.7834    1489.6896   ✗       
+767   +42.011GNVLEGNSDGLNTK    -1.0000     NotChecked  -29.7879    1458.6950   ✗       
+768   +43.006GNVLEGNSDSLNSK    -1.0000     NotChecked  -29.7984    1475.6852   ✗       
+769   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -29.7997    1488.7056   ✗       
+770   +43.006GNVLQ+0.984GNSDSLNTK-1.0000     NotChecked  -29.8017    1489.7009   ✗       
+771   NGNVLEGNSDSLSTK          -1.0000     NotChecked  -29.8028    1533.7271   ✗       
+772   +42.011GNVLEGNSDSLGNTK   -1.0000     NotChecked  -29.8073    1545.7271   ✗       
+773   GGNVLEGNSNSLNTK          -1.0000     NotChecked  -29.8093    1502.7325   ✗       
+774   QGNVLEGNSDSLSTK          -1.0000     NotChecked  -29.8265    1547.7427   ✗       
+775   +43.006GNGLEGNSDSLNTK    -1.0000     NotChecked  -29.8439    1447.6539   ✗       
+776   VGNVLEGNSDSLNTK          -1.0000     NotChecked  -29.8508    1545.7635   ✗       
+777   +43.006GNVLEGNSDSLNTK    -1.0000     NotChecked  -29.8562    1489.7009   ✗       
+778   +43.006GNVLEGNSDSSNTK    -1.0000     NotChecked  -29.8579    1463.6488   ✗       
+779   +43.006GNVLEGESDSLNTK    -1.0000     NotChecked  -29.8734    1504.7005   ✗       
+780   +43.006GNVLEGNVDSLNTK    -1.0000     NotChecked  -29.8888    1501.7372   ✗       
+781   VGNALEGNSDSLNTK          -1.0000     NotChecked  -29.8931    1517.7322   ✗       
+782   +42.011GNVLEGNSDSLNTL    -1.0000     NotChecked  -29.8980    1473.6947   ✗       
+783   NGNVLTGNSDSLNTK          -1.0000     NotChecked  -29.9022    1532.7430   ✗       
+784   +42.011GNVVEGNSDSLNTK    -1.0000     NotChecked  -29.9166    1474.6900   ✗       
+785   +43.006GNVLEGNSSSLNTK    -1.0000     NotChecked  -29.9195    1461.7059   ✗       
+786   VGNVLEGNSDSLN+0.984TK    -1.0000     NotChecked  -29.9219    1546.7475   ✗       
+787   QGNVLTGNSDSLNTK          -1.0000     NotChecked  -29.9259    1546.7587   ✗       
+788   +42.011GNVLEGNSDSLNNK    -1.0000     NotChecked  -29.9532    1501.7009   ✗       
+789   GGRVLEGNSDSLNTK          -1.0000     NotChecked  -29.9611    1545.7747   ✗       
+790   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -29.9707    1488.7056   ✗       
+791   +43.006GNVLEGNSSLNTK     -1.0000     NotChecked  -29.9762    1374.6739   ✗       
+792   +43.006GNVLEGNGDSLNTK    -1.0000     NotChecked  -29.9867    1459.6903   ✗       
+793   +42.011GNVLEGNSDGSLNTK   -1.0000     NotChecked  -29.9971    1545.7271   ✗       
+794   +43.006GNKLEGNSDSLNTK    -1.0000     NotChecked  -30.0124    1518.7274   ✗       
+795   +43.006GNVLEGNSDSLTTK    -1.0000     NotChecked  -30.0252    1476.7056   ✗       
+796   GGNVLEGNSDSLNTK          -1.0000     NotChecked  -30.0292    1503.7165   ✗       
+797   +43.006GNVLEGNSDSLNTR    -1.0000     NotChecked  -30.0344    1517.7070   ✗       
+798   GGQVLEGNSDSLNTK          -1.0000     NotChecked  -30.0424    1517.7322   ✗       
+799   GNVLEGNSDSLNTK           -1.0000     NotChecked  -30.0428    1446.6950   ✗       
+800   VGNVLQ+0.984GNSDSLNTK    -1.0000     NotChecked  -30.0462    1545.7635   ✗       
+801   +43.006GNMLEGNSDSLNTK    -1.0000     NotChecked  -30.0529    1521.6729   ✗       
+802   VGNVLKGNSDSLNTK          -1.0000     NotChecked  -30.0571    1544.8158   ✗       
+803   GGEVLEGNSDSLNTK          -1.0000     NotChecked  -30.0615    1518.7162   ✗       
+804   VGNVLEGNSDSLNLK          -1.0000     NotChecked  -30.0654    1557.7998   ✗       
+805   VGNVLEGNSDSTNTK          -1.0000     NotChecked  -30.1059    1533.7271   ✗       
+806   GGNVLEGN+0.984SDSLNTK    -1.0000     NotChecked  -30.1081    1504.7005   ✗       
+807   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -30.1147    1488.7056   ✗       
+808   VGNVLEGQSDSLNTK          -1.0000     Failed      -30.1153    1559.7791   ✓       
+809   VGNVLEGDSDSLNTK          -1.0000     NotChecked  -30.1275    1546.7475   ✗       
+810   +43.006GNVLEGNSDSLNTK    -1.0000     NotChecked  -30.1317    1489.7009   ✗       
+811   +42.011GNVLEGNSC+57.021SLNTK-1.0000     NotChecked  -30.1445    1533.7093   ✗       
+812   +42.011GNVLEGNGSDSLNTK   -1.0000     NotChecked  -30.1658    1545.7271   ✗       
+813   +42.011GN+0.984VLEGNSDSLNTK-1.0000     NotChecked  -30.1840    1489.6896   ✗       
+814   +43.006GNVLEGNSDSLNTK    -1.0000     NotChecked  -30.2023    1489.7009   ✗       
+815   GGNVLEGNSDSLNTK          -1.0000     NotChecked  -30.2117    1503.7165   ✗       
+816   +43.006GGNVLEGNSDSLNTK   -1.0000     NotChecked  -30.2384    1546.7223   ✗       
+817   GGNVLEGNSDSLNTK          -1.0000     NotChecked  -30.2394    1503.7165   ✗       
+818   VGNVLEGNSDSLLTK          -1.0000     NotChecked  -30.2419    1544.8046   ✗       
+819   +43.006GNVLSGNSDSLNTK    -1.0000     NotChecked  -30.2512    1447.6903   ✗       
+820   +42.011GNVLEGNSASLNTK    -1.0000     NotChecked  -30.2624    1444.7158   ✗       
+821   +42.011GNVLEGNSQSLNTK    -1.0000     NotChecked  -30.2712    1501.7372   ✗       
+822   VGNVLEGNADSLNTK          -1.0000     NotChecked  -30.2755    1529.7685   ✗       
+823   VGNVLEGNSDSLNK           -1.0000     NotChecked  -30.2804    1444.7158   ✗       
+824   +43.006GNVLWGNSDSLNTK    -1.0000     NotChecked  -30.3001    1546.7376   ✗       
+825   VGSVLEGNSDSLNTK          -1.0000     NotChecked  -30.3003    1518.7526   ✗       
+826   +43.006GNRLEGNSDSLNTK    -1.0000     NotChecked  -30.3068    1546.7336   ✗       
+827   VGNVLEGNSN+0.984SLNTK    -1.0000     NotChecked  -30.3268    1545.7635   ✗       
+828   +42.011GN+0.984VLEGNSDSLNTK-1.0000     NotChecked  -30.3529    1489.6896   ✗       
+829   +43.006GNVLEGNSDSLNEK    -1.0000     NotChecked  -30.3612    1517.6958   ✗       
+830   +43.006GNVLEGNSDSLNTK    -1.0000     NotChecked  -30.3712    1489.7009   ✗       
+831   +43.006GNVLEGNSDNLNTK    -1.0000     NotChecked  -30.3787    1516.7118   ✗       
+832   +42.011GNVLEGNSDSGLNTK   -1.0000     NotChecked  -30.3838    1545.7271   ✗       
+833   +43.006GNVLEGNSN+0.984SLNTK-1.0000     NotChecked  -30.3930    1489.7009   ✗       
+834   +43.006GNVLQ+0.984GNSN+0.984SLNTK-1.0000     NotChecked  -30.4189    1489.7009   ✗       
+835   +43.006GNVLEGNLDSLNTK    -1.0000     NotChecked  -30.4435    1515.7529   ✗       
+836   VGNVLEGNSDSLNTK          -1.0000     NotChecked  -30.4468    1545.7635   ✗       
+837   GTNVLEGNSDSLNTK          -1.0000     NotChecked  -30.4532    1547.7427   ✗       
+838   VGNVLQ+0.984GNSDSLNTK    -1.0000     NotChecked  -30.4727    1545.7635   ✗       
+839   +43.006GNVLEGLSDSLNTK    -1.0000     NotChecked  -30.4728    1488.7420   ✗       
+840   GGNVLEGNSDSQNTK          -1.0000     NotChecked  -30.5169    1518.6910   ✗       
+841   +42.011GNVFEGNSDSLNTK    -1.0000     NotChecked  -30.5375    1522.6900   ✗       
+842   KGNVLEGNSDSLGTK          -1.0000     NotChecked  -30.5384    1517.7685   ✗       
+843   +43.006GNVLGGNSDSLNTK    -1.0000     NotChecked  -30.5562    1417.6797   ✗       
+844   GGNVLEGNSDSLNTK          -1.0000     NotChecked  -30.5578    1503.7165   ✗       
+845   GGDVLEGNSDSLNTK          -1.0000     NotChecked  -30.5679    1504.7005   ✗       
+846   GGKVLEGNSDSLNTK          -1.0000     NotChecked  -30.5839    1517.7685   ✗       
+847   GGNVLEGNSDSLGTK          -1.0000     NotChecked  -30.5990    1446.6950   ✗       
+848   +43.006GN+0.984VLEGNSDSLNTK-1.0000     NotChecked  -30.6112    1490.6849   ✗       
+849   GGNVLMGNSDSLNTK          -1.0000     NotChecked  -30.6124    1505.7144   ✗       
+850   VGNVLEGNSDSLNTK          -1.0000     NotChecked  -30.6156    1545.7635   ✗       
+851   VGNVLQ+0.984GNSDSLNTK    -1.0000     NotChecked  -30.6416    1545.7635   ✗       
+852   VGNVLEGNSDSLNTK          -1.0000     NotChecked  -30.6631    1545.7635   ✗       
+853   +42.011GNVEGNSDSLNTK     -1.0000     NotChecked  -30.6643    1375.6215   ✗       
+854   +43.006GNVLEGNSDSLNTQ    -1.0000     NotChecked  -30.6685    1489.6645   ✗       
+855   KGNALEGNSDSLNTK          -1.0000     NotChecked  -30.6806    1546.7587   ✗       
+856   +42.011GN+0.984VLEGNSDSLNTK-1.0000     NotChecked  -30.6989    1489.6896   ✗       
+857   GGNVLEGNSDSLNTK          -1.0000     NotChecked  -30.6990    1503.7165   ✗       
+858   +43.006GNVLEGNSDSLVTK    -1.0000     NotChecked  -30.7003    1474.7263   ✗       
+859   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -30.7029    1488.7056   ✗       
+860   VGNVLEGNSDSLNTK          -1.0000     NotChecked  -30.7147    1545.7635   ✗       
+861   VGTVLEGNSDSLNTK          -1.0000     NotChecked  -30.7180    1532.7682   ✗       
+862   EGNVLEGNSDSLSTK          -1.0000     NotChecked  -30.7300    1548.7267   ✗       
+863   GGNALEGNSDSLNTK          -1.0000     NotChecked  -30.7412    1475.6852   ✗       
+864   GGNVLEGNSDSLN+0.984TK    -1.0000     NotChecked  -30.7700    1504.7005   ✗       
+865   +43.006GNVLAGNSDSLNTK    -1.0000     NotChecked  -30.7951    1431.6954   ✗       
+866   +42.011GNVKEGNSDSLNTK    -1.0000     NotChecked  -30.8099    1503.7165   ✗       
+867   +42.011GNVLGEGNSDSLNTK   -1.0000     NotChecked  -30.8126    1545.7271   ✗       
+868   +43.006GNVLEGNSN+0.984SLNTK-1.0000     NotChecked  -30.8195    1489.7009   ✗       
+869   EGNVLTGNSDSLNTK          -1.0000     NotChecked  -30.8294    1547.7427   ✗       
+870   +43.006GNVLEGNSDSKNTK    -1.0000     NotChecked  -30.8361    1504.7118   ✗       
+871   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -30.8759    1488.7056   ✗       
+872   +42.011GNVLEGNSDSVNTK    -1.0000     NotChecked  -30.8867    1474.6900   ✗       
+873   GGNVLQ+0.984GNSDSLNTK    -1.0000     NotChecked  -30.8943    1503.7165   ✗       
+874   VGNTLEGNSDSLNTK          -1.0000     NotChecked  -30.9013    1547.7427   ✗       
+875   GGNVLKGNSDSLNTK          -1.0000     NotChecked  -30.9053    1502.7689   ✗       
+876   GGNVLEGNSDSLNLK          -1.0000     NotChecked  -30.9135    1515.7529   ✗       
+877   VGNVLEGNDSLNTK           -1.0000     NotChecked  -30.9277    1458.7314   ✗       
+878   VGNVLEGNSDSLNVK          -1.0000     NotChecked  -30.9467    1543.7842   ✗       
+879   GGNVLEGNSDSTNTK          -1.0000     NotChecked  -30.9541    1491.6801   ✗       
+880   +43.006GNVLEGNSESLNTK    -1.0000     NotChecked  -30.9593    1503.7165   ✗       
+881   VGNVLEGNSDSLNTK          -1.0000     NotChecked  -30.9617    1545.7635   ✗       
+882   +43.006GNVLEGNSDSLGNTK   -1.0000     NotChecked  -30.9620    1546.7223   ✗       
+883   GGNVLEGQSDSLNTK          -1.0000     NotChecked  -30.9635    1517.7322   ✗       
+884   +42.011LGNVLEGNSDSLGTK   -1.0000     NotChecked  -30.9643    1544.7682   ✗       
+885   VGNVLEGNSDALNTK          -1.0000     NotChecked  -30.9653    1529.7685   ✗       
+886   +43.006GNVLEGNSDSLGNTK   -1.0000     NotChecked  -30.9690    1546.7223   ✗       
+887   +43.006GNVLEGNSDSLTK     -1.0000     NotChecked  -30.9755    1375.6579   ✗       
+888   GGNVLEGDSDSLNTK          -1.0000     NotChecked  -30.9756    1504.7005   ✗       
+889   VGNVLEGNSDSLNSK          -1.0000     NotChecked  -30.9843    1531.7478   ✗       
+890   VGNVLQ+0.984GNSDSLNTK    -1.0000     NotChecked  -30.9877    1545.7635   ✗       
+891   +43.006GNVLEGNSN+0.984SLNTK-1.0000     NotChecked  -30.9884    1489.7009   ✗       
+892   VGNGLEGNSDSLNTK          -1.0000     NotChecked  -31.0298    1503.7165   ✗       
+893   NGNVLEGNSDSLGTK          -1.0000     NotChecked  -31.0346    1503.7165   ✗       
+894   VGNVLEGNSDSLNTK          -1.0000     NotChecked  -31.0422    1545.7635   ✗       
+895   VGNVLEGNSDSSNTK          -1.0000     NotChecked  -31.0439    1519.7114   ✗       
+896   +42.011GNVSEGNSDSLNTK    -1.0000     NotChecked  -31.0579    1462.6536   ✗       
+897   QGNVLEGNSDSLGTK          -1.0000     NotChecked  -31.0583    1517.7322   ✗       
+898   KGNVLEGNADSLNTK          -1.0000     NotChecked  -31.0630    1558.7951   ✗       
+899   KGNVLEGNSDSLNK           -1.0000     NotChecked  -31.0680    1473.7423   ✗       
+900   +42.011ANVLEGNSDSLNTK    -1.0000     NotChecked  -31.0723    1502.7213   ✗       
+901   VGNVLEGNVDSLNTK          -1.0000     NotChecked  -31.0748    1557.7998   ✗       
+902   +43.006GNVLEGNSDELNTK    -1.0000     NotChecked  -31.0749    1531.7114   ✗       
+903   +43.006GNVLEGNSDSNNTK    -1.0000     NotChecked  -31.0835    1490.6597   ✗       
+904   KGSVLEGNSDSLNTK          -1.0000     NotChecked  -31.0879    1547.7791   ✗       
+905   GGNVLEGNSDSLLTK          -1.0000     NotChecked  -31.0900    1502.7576   ✗       
+906   VGNVLEGNSSSLNTK          -1.0000     NotChecked  -31.1055    1517.7685   ✗       
+907   +43.006GNVLEGNSDSLNAK    -1.0000     NotChecked  -31.1083    1459.6903   ✗       
+908   GGNVLEGNADSLNTK          -1.0000     NotChecked  -31.1236    1487.7216   ✗       
+909   GGNVLEGNSDSLNK           -1.0000     NotChecked  -31.1285    1402.6688   ✗       
+910   +43.006GNVLEGNSDSQ+0.984NTK-1.0000     NotChecked  -31.1287    1505.6594   ✗       
+911   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -31.1389    1488.7056   ✗       
+912   GGSVLEGNSDSLNTK          -1.0000     NotChecked  -31.1485    1476.7056   ✗       
+913   VGNVLEGNSSLNTK           -1.0000     NotChecked  -31.1621    1430.7365   ✗       
+914   VGNVLEGNGDSLNTK          -1.0000     NotChecked  -31.1726    1515.7529   ✗       
+915   GGNVLEGNSN+0.984SLNTK    -1.0000     NotChecked  -31.1749    1503.7165   ✗       
+916   NGNALEGNSDSLNTK          -1.0000     NotChecked  -31.1768    1532.7067   ✗       
+917   +43.006GNVLEGNSDLLNTK    -1.0000     NotChecked  -31.1847    1515.7529   ✗       
+918   +43.006GNVLEGSSDSLNTK    -1.0000     NotChecked  -31.1857    1462.6900   ✗       
+919   +43.006GNVLEGNSDSLNTK    -1.0000     NotChecked  -31.1873    1489.7009   ✗       
+920   +43.006GNVLEGNSDSLKTK    -1.0000     NotChecked  -31.1990    1503.7529   ✗       
+921   QGNALEGNSDSLNTK          -1.0000     NotChecked  -31.2005    1546.7223   ✗       
+922   +43.006GNGVLEGNSDSLNTK   -1.0000     NotChecked  -31.2095    1546.7223   ✗       
+923   VGNVLEGNSDSLTTK          -1.0000     NotChecked  -31.2112    1532.7682   ✗       
+924   +43.006GNVLEGNSDLNTK     -1.0000     NotChecked  -31.2888    1402.6688   ✗       
+925   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -31.2897    1488.7056   ✗       
+926   GNVLEGNSDSLNTK           -1.0000     NotChecked  -31.2949    1446.6950   ✗       
+927   +42.011GLVLEGNSDSLNTK    -1.0000     NotChecked  -31.3149    1487.7467   ✗       
+928   +42.011GN+0.984VLEGNSN+0.984SLNTK-1.0000     NotChecked  -31.3161    1489.6896   ✗       
+929   VGNVLEGNSDSLNTK          -1.0000     NotChecked  -31.3176    1545.7635   ✗       
+930   GNVLQ+0.984GNSDSLNTK     -1.0000     NotChecked  -31.3209    1446.6950   ✗       
+931   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -31.3266    1488.7056   ✗       
+932   +43.006GNVLEGNSN+0.984SLNTK-1.0000     NotChecked  -31.3344    1489.7009   ✗       
+933   +42.011LNVLEGNSDSLNTK    -1.0000     NotChecked  -31.3377    1544.7682   ✗       
+934   +43.006GNVLEGC+57.021SDSLNTK-1.0000     NotChecked  -31.3446    1535.6886   ✗       
+935   +42.011GNVQEGNSDSLNTK    -1.0000     NotChecked  -31.3538    1503.6801   ✗       
+936   +43.006GNVLEGNSDSLNMK    -1.0000     NotChecked  -31.3720    1519.6937   ✗       
+937   VGNVLEGNSDSLNTK          -1.0000     NotChecked  -31.3883    1545.7635   ✗       
+938   NGNVLEGNSDSTNTK          -1.0000     NotChecked  -31.3896    1548.7016   ✗       
+939   +42.011GNVLEGNSDSLSTK    -1.0000     NotChecked  -31.4097    1461.6947   ✗       
+940   VGNVLSGNSDSLNTK          -1.0000     NotChecked  -31.4372    1503.7529   ✗       
+941   +43.006GNVLEGGSDSLNTK    -1.0000     NotChecked  -31.4375    1432.6794   ✗       
+942   GGNELEGNSDSLNTK          -1.0000     NotChecked  -31.4580    1533.6907   ✗       
+943   +42.011SNVLEGNSDSLNTK    -1.0000     NotChecked  -31.4610    1518.7162   ✗       
+944   GGNVLEGNSDSLNTK          -1.0000     NotChecked  -31.4638    1503.7165   ✗       
+945   GGNVLQ+0.984GNSDSLNTK    -1.0000     NotChecked  -31.4897    1503.7165   ✗       
+946   +42.011LGNVLEGNSDSLNK    -1.0000     NotChecked  -31.4938    1500.7420   ✗       
+947   +42.011GNVLEGNSDSLQTK    -1.0000     NotChecked  -31.5014    1502.7213   ✗       
+948   +42.011GNVLTGNSDSLNTK    -1.0000     NotChecked  -31.5091    1460.7107   ✗       
+949   RGNVLEGNSDSLGTK          -1.0000     NotChecked  -31.5100    1545.7747   ✗       
+950   GGNVLEGNSDSLNTK          -1.0000     NotChecked  -31.5112    1503.7165   ✗       
+951   +42.011GNVLEGNSDSLNTK    -1.0000     NotChecked  -31.5203    1488.7056   ✗       
+952   GGNVLEGNSDSLNQK          -1.0000     NotChecked  -31.5286    1530.7274   ✗       
+953   VGNVLEGNSDSLNTK          -1.0000     NotChecked  -31.5571    1545.7635   ✗       
+954   NGNVLEGNADSLNTK          -1.0000     NotChecked  -31.5592    1544.7431   ✗       
+955   GGNVLEGNSDSLNTK          -1.0000     NotChecked  -31.5628    1503.7165   ✗       
+956   NGNVLEGNSDSLNK           -1.0000     NotChecked  -31.5641    1459.6903   ✗       
+957   GGTVLEGNSDSLNTK          -1.0000     NotChecked  -31.5662    1490.7212   ✗       
+958   VGNVLEGNSN+0.984SLNTK    -1.0000     NotChecked  -31.5789    1545.7635   ✗       
+959   QGNVLEGNADSLNTK          -1.0000     NotChecked  -31.5829    1558.7587   ✗       
+960   NGSVLEGNSDSLNTK          -1.0000     NotChecked  -31.5840    1533.7271   ✗       
+961   QGNVLEGNSDSLNK           -1.0000     NotChecked  -31.5878    1473.7059   ✗       
+962   +43.006GNVREGNSDSLNTK    -1.0000     NotChecked  -31.5962    1532.7179   ✗       
+963   +43.006GNVMEGNSDSLNTK    -1.0000     NotChecked  -31.6005    1507.6573   ✗       
+964   VGNVLQ+0.984GNSN+0.984SLNTK-1.0000     NotChecked  -31.6049    1545.7635   ✗       
+965   QGSVLEGNSDSLNTK          -1.0000     NotChecked  -31.6077    1547.7427   ✗       
+966   +42.011NNVLEGNSDSLNTK    -1.0000     NotChecked  -31.6258    1545.7271   ✗       
+967   +42.011GNVLQGNSDSLNTK    -1.0000     NotChecked  -31.6371    1487.7216   ✗       
+968   +43.006GNVLEGVSDSLNTK    -1.0000     NotChecked  -31.6416    1474.7263   ✗       
+969   +42.011GNLLEGNSDSLNTK    -1.0000     NotChecked  -31.6516    1502.7213   ✗       
+970   VGNVLEGLSDSLNTK          -1.0000     NotChecked  -31.6587    1544.8046   ✗       
+971   +43.006GNVLEGNSDSLNT     -1.0000     NotChecked  -31.7102    1361.6059   ✗       
+972   KGNVLEGNDSLNTK           -1.0000     NotChecked  -31.7152    1487.7580   ✗       
+973   VGNVLGGNSDSLNTK          -1.0000     NotChecked  -31.7422    1473.7423   ✗       
+974   GGNTLEGNSDSLNTK          -1.0000     NotChecked  -31.7494    1505.6958   ✗       
+975   GGNNLEGNSDSLNTK          -1.0000     NotChecked  -31.7500    1518.6910   ✗       
+976   KGNVLEGNSDALNTK          -1.0000     NotChecked  -31.7528    1558.7951   ✗       
+977   +43.006GNVLEGNGSDSLNTK   -1.0000     NotChecked  -31.7571    1546.7223   ✗       
+978   GGNVLEGNNDSLNTK          -1.0000     NotChecked  -31.7689    1530.7274   ✗       
+979   GGNVLEGNDSLNTK           -1.0000     NotChecked  -31.7758    1416.6845   ✗       
+980   +42.011GNVLEGNSDTLNTK    -1.0000     NotChecked  -31.7940    1502.7212   ✗       
+981   GGNVLEGNSDSLNVK          -1.0000     NotChecked  -31.7948    1501.7372   ✗       
+982   GGNVLEGNTDSLNTK          -1.0000     NotChecked  -31.7964    1517.7321   ✗       
+983   VGN+0.984VLEGNSDSLNTK    -1.0000     NotChecked  -31.7971    1546.7475   ✗       
+984   GGNVLEGNSDSENTK          -1.0000     NotChecked  -31.7989    1519.6750   ✗       
+985   GGNVLEGNSDSLNTK          -1.0000     NotChecked  -31.8099    1503.7165   ✗       
+986   GGNVLEGNSDALNTK          -1.0000     NotChecked  -31.8134    1487.7216   ✗       
+987   KGNGLEGNSDSLNTK          -1.0000     NotChecked  -31.8174    1532.7431   ✗       
+988   KGNVLEGNSDSSNTK          -1.0000     NotChecked  -31.8314    1548.7380   ✗       
+989   GGNVLEGNSDSLNSK          -1.0000     NotChecked  -31.8325    1489.7009   ✗       
+990   GGNVLQ+0.984GNSDSLNTK    -1.0000     NotChecked  -31.8358    1503.7165   ✗       
+991   +42.011GNVLEGNSGDSLNTK   -1.0000     NotChecked  -31.8434    1545.7271   ✗       
+992   +42.011GNVLEGNSNSLNTK    -1.0000     NotChecked  -31.8518    1487.7216   ✗       
+993   VGNVLEGNSDSLNTQ          -1.0000     NotChecked  -31.8545    1545.7271   ✗       
+994   +43.006GNVLEGNSDQLNTK    -1.0000     NotChecked  -31.8559    1530.7274   ✗       
+995   +43.006GN+0.984VLEGNSDSLNTK-1.0000     NotChecked  -31.8633    1490.6849   ✗       
+996   GGNGLEGNSDSLNTK          -1.0000     NotChecked  -31.8780    1461.6696   ✗       
+997   +43.006GNVLEGNSDSLNTK    -1.0000     NotChecked  -31.8793    1489.7009   ✗       
+998   VGNVLEGNSDSLVTK          -1.0000     NotChecked  -31.8862    1530.7889   ✗       
+999   +43.006GN+0.984VLQ+0.984GNSDSLNTK-1.0000     NotChecked  -31.8892    1490.6849   ✗       
+1000  GNVLEGNSDSLNTK           -1.0000     NotChecked  -31.8903    1446.6950   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: LGNVLEGNSDSLNTK
+Similarity: 0.9229
+De Novo Score: -0.0154
+Source: Database
+Correct: ✓
+

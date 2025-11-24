@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 75
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 808.4213
+Precursor charge: 2+
+Ground truth: AIIVDIEPGTMDSVR
+Ground truth (normalized): AIIVDIEPGTMDSVR
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 283
+Used for reranking: 283
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 283 (28.3%)
+Database matches: 156 (15.6%)
+Prosit predictions: 126 (12.6%)
+Failed: 1 (0.1%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.7669
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     ALLVDLEPGTMDSVR          0.7669      Database    -0.0448     1614.8287   ✓       ✓
+2     ALLVDLEPGTMDSVR          0.7669      Database    -3.2564     1614.8287   ✓       ✓
+3     ALLVDLEPGTMDSVR          0.7669      Database    -6.2339     1614.8287   ✓       ✓
+4     ALLVDLEPGTMDSVR          0.7669      Database    -7.5933     1614.8287   ✓       ✓
+5     ALLVDLEPGTMDSVR          0.7669      Database    -8.5483     1614.8287   ✓       ✓
+6     ALLVDLEPGTMDSVR          0.7669      Database    -9.4455     1614.8287   ✓       ✓
+7     ALLVDLEPGTMDSVR          0.7669      Database    -10.4728    1614.8287   ✓       ✓
+8     ALLVDLEPGTMDSVR          0.7669      Database    -10.4767    1614.8287   ✓       ✓
+9     ALLVDLEPGTMDSVR          0.7669      Database    -10.4950    1614.8287   ✓       ✓
+10    ALLVDLEPGTMDSVR          0.7669      Database    -10.8050    1614.8287   ✓       ✓
+11    ALLVDLEPGTMDSVR          0.7669      Database    -10.8106    1614.8287   ✓       ✓
+12    ALLVDLEPGTMDSVR          0.7669      Database    -11.7571    1614.8287   ✓       ✓
+13    ALLVDLEPGTMDSVR          0.7669      Database    -11.7600    1614.8287   ✓       ✓
+14    ALLVDLEPGTMDSVR          0.7669      Database    -13.6844    1614.8287   ✓       ✓
+15    ALLVDLEPGTMDSVR          0.7669      Database    -13.6884    1614.8287   ✓       ✓
+16    ALLVDLEPGTMDSVR          0.7669      Database    -13.7067    1614.8287   ✓       ✓
+17    ALLVDLEPGTMDSVR          0.7669      Database    -13.7824    1614.8287   ✓       ✓
+18    ALLVDLEPGTMDSVR          0.7669      Database    -13.9698    1614.8287   ✓       ✓
+19    ALLVDLEPGTMDSVR          0.7669      Database    -14.0223    1614.8287   ✓       ✓
+20    ALLVDLEPGTMDSVR          0.7669      Database    -14.3227    1614.8287   ✓       ✓
+21    ALLVDLEPGTMDSVR          0.7669      Database    -14.5012    1614.8287   ✓       ✓
+22    ALLVDLEPGTMDSVR          0.7669      Database    -14.7374    1614.8287   ✓       ✓
+23    ALLVDLEPGTMDSVR          0.7669      Database    -14.9687    1614.8287   ✓       ✓
+24    ALLVDLEPGTMDSVR          0.7669      Database    -15.5131    1614.8287   ✓       ✓
+25    ALLVDLEPGTMDSVR          0.7669      Database    -15.7768    1614.8287   ✓       ✓
+26    ALLVDLEPGTMDSVR          0.7669      Database    -15.8865    1614.8287   ✓       ✓
+27    ALLVDLEPGTMDSVR          0.7669      Database    -16.0969    1614.8287   ✓       ✓
+28    ALLVDLEPGTMDSVR          0.7669      Database    -16.4916    1614.8287   ✓       ✓
+29    ALLVDLEPGTMDSVR          0.7669      Database    -16.6337    1614.8287   ✓       ✓
+30    ALLVDLEPGTMDSVR          0.7669      Database    -16.6619    1614.8287   ✓       ✓
+31    ALLVDLEPGTMDSVR          0.7669      Database    -16.6841    1614.8287   ✓       ✓
+32    ALLVDLEPGTMDSVR          0.7669      Database    -16.9941    1614.8287   ✓       ✓
+33    ALLVDLEPGTMDSVR          0.7669      Database    -16.9997    1614.8287   ✓       ✓
+34    ALLVDLEPGTMDSVR          0.7669      Database    -17.1814    1614.8287   ✓       ✓
+35    ALLVDLEPGTMDSVR          0.7669      Database    -17.2996    1614.8287   ✓       ✓
+36    ALLVDLEPGTMDSVR          0.7669      Database    -17.5343    1614.8287   ✓       ✓
+37    ALLVDLEPGTMDSVR          0.7669      Database    -17.7129    1614.8287   ✓       ✓
+38    ALLVDLEPGTMDSVR          0.7669      Database    -17.9462    1614.8287   ✓       ✓
+39    ALLVDLEPGTMDSVR          0.7669      Database    -17.9491    1614.8287   ✓       ✓
+40    ALLVDLEPGTMDSVR          0.7669      Database    -17.9558    1614.8287   ✓       ✓
+41    ALLVDLEPGTMDSVR          0.7669      Database    -18.0109    1614.8287   ✓       ✓
+42    ALLVDLEPGTMDSVR          0.7669      Database    -18.0213    1614.8287   ✓       ✓
+43    ALLVDLEPGTMDSVR          0.7669      Database    -18.0252    1614.8287   ✓       ✓
+44    ALLVDLEPGTMDSVR          0.7669      Database    -18.0435    1614.8287   ✓       ✓
+45    ALLVDLEPGTMDSVR          0.7669      Database    -18.3592    1614.8287   ✓       ✓
+46    ALLVDLEPGTMDSVR          0.7669      Database    -18.5798    1614.8287   ✓       ✓
+47    ALLVDLEPGTMDSVR          0.7669      Database    -18.7248    1614.8287   ✓       ✓
+48    ALLVDLEPGTMDSVR          0.7669      Database    -18.9763    1614.8287   ✓       ✓
+49    ALLVDLEPGTMDSVR          0.7669      Database    -18.9802    1614.8287   ✓       ✓
+50    ALLVDLEPGTMDSVR          0.7669      Database    -18.9885    1614.8287   ✓       ✓
+51    ALLVDLEPGTMDSVR          0.7669      Database    -18.9986    1614.8287   ✓       ✓
+52    ALLVDLEPGTMDSVR          0.7669      Database    -19.0982    1614.8287   ✓       ✓
+53    ALLVDLEPGTMDSVR          0.7669      Database    -19.3085    1614.8287   ✓       ✓
+54    ALLVDLEPGTMDSVR          0.7669      Database    -19.3142    1614.8287   ✓       ✓
+55    ALLVDLEPGTMDSVR          0.7669      Database    -19.3295    1614.8287   ✓       ✓
+56    ALLVDLEPGTMDSVR          0.7669      Database    -19.7033    1614.8287   ✓       ✓
+57    ALLVDLEPGTMDSVR          0.7669      Database    -19.8453    1614.8287   ✓       ✓
+58    ALLVDLEPGTMDSVR          0.7669      Database    -19.8735    1614.8287   ✓       ✓
+59    ALLVDLEPGTMDSVR          0.7669      Database    -19.8958    1614.8287   ✓       ✓
+60    ALLVDLEPGTMDSVR          0.7669      Database    -20.1589    1614.8287   ✓       ✓
+61    ALLVDLEPGTMDSVR          0.7669      Database    -20.2114    1614.8287   ✓       ✓
+62    ALLVDLEPGTMDSVR          0.7669      Database    -20.2606    1614.8287   ✓       ✓
+63    ALLVDLEPGTMDSVR          0.7669      Database    -20.2676    1614.8287   ✓       ✓
+64    ALLVDLEPGTMDSVR          0.7669      Database    -20.3393    1614.8287   ✓       ✓
+65    ALLVDLEPGTMDSVR          0.7669      Database    -20.5112    1614.8287   ✓       ✓
+66    ALLVDLEPGTMDSVR          0.7669      Database    -20.5118    1614.8287   ✓       ✓
+67    ALLVDLEPGTMDSVR          0.7669      Database    -20.5540    1614.8287   ✓       ✓
+68    ALLVDLEPGTMDSVR          0.7669      Database    -20.6903    1614.8287   ✓       ✓
+69    ALLVDLEPGTMDSVR          0.7669      Database    -20.7429    1614.8287   ✓       ✓
+70    ALLVDLEPGTMDSVR          0.7669      Database    -20.9047    1614.8287   ✓       ✓
+71    ALLVDLEPGTMDSVR          0.7669      Database    -20.9230    1614.8287   ✓       ✓
+72    ALLVDLEPGTMDSVR          0.7669      Database    -20.9269    1614.8287   ✓       ✓
+73    ALLVDLEPGTMDSVR          0.7669      Database    -21.1578    1614.8287   ✓       ✓
+74    ALLVDLEPGTMDSVR          0.7669      Database    -21.1675    1614.8287   ✓       ✓
+75    ALLVDLEPGTMDSVR          0.7669      Database    -21.1811    1614.8287   ✓       ✓
+76    ALLVDLEPGTMDSVR          0.7669      Database    -21.2225    1614.8287   ✓       ✓
+77    ALLVDLEPGTMDSVR          0.7669      Database    -21.2330    1614.8287   ✓       ✓
+78    ALLVDLEPGTMDSVR          0.7669      Database    -21.2369    1614.8287   ✓       ✓
+79    ALLVDLEPGTMDSVR          0.7669      Database    -21.2386    1614.8287   ✓       ✓
+80    ALLVDLEPGTMDSVR          0.7669      Database    -21.2426    1614.8287   ✓       ✓
+81    ALLVDLEPGTMDSVR          0.7669      Database    -21.2552    1614.8287   ✓       ✓
+82    ALLVDLEPGTMDSVR          0.7669      Database    -21.2609    1614.8287   ✓       ✓
+83    ALLVDLEPGTMDSVR          0.7669      Database    -21.5183    1614.8287   ✓       ✓
+84    ALLVDLEPGTMDSVR          0.7669      Database    -21.5708    1614.8287   ✓       ✓
+85    ALLVDLEPGTMDSVR          0.7669      Database    -21.7022    1614.8287   ✓       ✓
+86    ALLVDLEPGTMDSVR          0.7669      Database    -21.7915    1614.8287   ✓       ✓
+87    ALLVDLEPGTMDSVR          0.7669      Database    -21.8712    1614.8287   ✓       ✓
+88    ALLVDLEPGTMDSVR          0.7669      Database    -21.9659    1614.8287   ✓       ✓
+89    ALLVDLEPGTMDSVR          0.7669      Database    -22.0498    1614.8287   ✓       ✓
+90    ALLVDLEPGTMDSVR          0.7669      Database    -22.0756    1614.8287   ✓       ✓
+91    ALLVDLEPGTMDSVR          0.7669      Database    -22.1851    1614.8287   ✓       ✓
+92    ALLVDLEPGTMDSVR          0.7669      Database    -22.1880    1614.8287   ✓       ✓
+93    ALLVDLEPGTMDSVR          0.7669      Database    -22.1890    1614.8287   ✓       ✓
+94    ALLVDLEPGTMDSVR          0.7669      Database    -22.1919    1614.8287   ✓       ✓
+95    ALLVDLEPGTMDSVR          0.7669      Database    -22.2073    1614.8287   ✓       ✓
+96    ALLVDLEPGTMDSVR          0.7669      Database    -22.2102    1614.8287   ✓       ✓
+97    ALLVDLEPGTMDSVR          0.7669      Database    -22.2860    1614.8287   ✓       ✓
+98    ALLVDLEPGTMDSVR          0.7669      Database    -22.4733    1614.8287   ✓       ✓
+99    ALLVDLEPGTMDSVR          0.7669      Database    -22.5229    1614.8287   ✓       ✓
+100   ALLVDLEPGTMDSVR          0.7669      Database    -22.5258    1614.8287   ✓       ✓
+101   ALLVDLEPGTMDSVR          0.7669      Database    -22.5411    1614.8287   ✓       ✓
+102   ALLVDLEPGTMDSVR          0.7669      Database    -22.6807    1614.8287   ✓       ✓
+103   ALLVDLEPGTMDSVR          0.7669      Database    -22.8228    1614.8287   ✓       ✓
+104   ALLVDLEPGTMDSVR          0.7669      Database    -22.8262    1614.8287   ✓       ✓
+105   ALLVDLEPGTMDSVR          0.7669      Database    -23.0048    1614.8287   ✓       ✓
+106   ALLVDLEPGTMDSVR          0.7669      Database    -23.0617    1614.8287   ✓       ✓
+107   ALLVDLEPGTMDSVR          0.7669      Database    -23.3253    1614.8287   ✓       ✓
+108   ALLVDLEPGTMDSVR          0.7669      Database    -23.3508    1614.8287   ✓       ✓
+109   ALLVDLEPGTMDSVR          0.7669      Database    -23.3705    1614.8287   ✓       ✓
+110   ALLVDLEPGTMDSVR          0.7669      Database    -23.4350    1614.8287   ✓       ✓
+111   ALLVDLEPGTMDSVR          0.7669      Database    -23.4723    1614.8287   ✓       ✓
+112   ALLVDLEPGTMDSVR          0.7669      Database    -23.4792    1614.8287   ✓       ✓
+113   ALLVDLEPGTMDSVR          0.7669      Database    -23.4887    1614.8287   ✓       ✓
+114   ALLVDLEPGTMDSVR          0.7669      Database    -23.5510    1614.8287   ✓       ✓
+115   ALLVDLEPGTMDSVR          0.7669      Database    -23.7234    1614.8287   ✓       ✓
+116   ALLVDLEPGTMDSVR          0.7669      Database    -23.7656    1614.8287   ✓       ✓
+117   ALLVDLEPGTMDSVR          0.7669      Database    -23.9020    1614.8287   ✓       ✓
+118   ALLVDLEPGTMDSVR          0.7669      Database    -23.9546    1614.8287   ✓       ✓
+119   ALLVDLEPGTMDSVR          0.7669      Database    -24.0167    1614.8287   ✓       ✓
+120   ALLVDLEPGTMDSVR          0.7669      Database    -24.0402    1614.8287   ✓       ✓
+121   ALLVDLEPGTMDSVR          0.7669      Database    -24.1163    1614.8287   ✓       ✓
+122   ALLVDLEPGTMDSVR          0.7669      Database    -24.1347    1614.8287   ✓       ✓
+123   ALLVDLEPGTMDSVR          0.7669      Database    -24.1386    1614.8287   ✓       ✓
+124   ALLVDLEPGTMDSVR          0.7669      Database    -24.1449    1614.8287   ✓       ✓
+125   ALLVDLEPGTMDSVR          0.7669      Database    -24.1822    1614.8287   ✓       ✓
+126   ALLVDLEPGTMDSVR          0.7669      Database    -24.2000    1614.8287   ✓       ✓
+127   ALLVDLEPGTMDSVR          0.7669      Database    -24.2015    1614.8287   ✓       ✓
+128   ALLVDLEPGTMDSVR          0.7669      Database    -24.2104    1614.8287   ✓       ✓
+129   ALLVDLEPGTMDSVR          0.7669      Database    -24.2326    1614.8287   ✓       ✓
+130   ALLVDLEPGTMDSVR          0.7669      Database    -24.2803    1614.8287   ✓       ✓
+131   ALLVDLEPGTMDSVR          0.7669      Database    -24.3901    1614.8287   ✓       ✓
+132   ALLVDLEPGTMDSVR          0.7669      Database    -24.3978    1614.8287   ✓       ✓
+133   ALLVDLEPGTMDSVR          0.7669      Database    -24.4017    1614.8287   ✓       ✓
+134   ALLVDLEPGTMDSVR          0.7669      Database    -24.4200    1614.8287   ✓       ✓
+135   ALLVDLEPGTMDSVR          0.7669      Database    -24.4503    1614.8287   ✓       ✓
+136   ALLVDLEPGTMDSVR          0.7669      Database    -24.4542    1614.8287   ✓       ✓
+137   ALLVDLEPGTMDSVR          0.7669      Database    -24.4725    1614.8287   ✓       ✓
+138   ALLVDLEPGTMDSVR          0.7669      Database    -24.5483    1614.8287   ✓       ✓
+139   ALLVDLEPGTMDSVR          0.7669      Database    -24.7300    1614.8287   ✓       ✓
+140   ALLVDLEPGTMDSVR          0.7669      Database    -24.7356    1614.8287   ✓       ✓
+141   ALLVDLEPGTMDSVR          0.7669      Database    -24.7506    1614.8287   ✓       ✓
+142   ALLVDLEPGTMDSVR          0.7669      Database    -24.7546    1614.8287   ✓       ✓
+143   ALLVDLEPGTMDSVR          0.7669      Database    -24.7689    1614.8287   ✓       ✓
+144   ALLVDLEPGTMDSVR          0.7669      Database    -24.8481    1614.8287   ✓       ✓
+145   ALLVDLEPGTMDSVR          0.7669      Database    -24.9069    1614.8287   ✓       ✓
+146   ALLVDLEPGTMDSVR          0.7669      Database    -24.9139    1614.8287   ✓       ✓
+147   ALLVDLEPGTMDSVR          0.7669      Database    -24.9292    1614.8287   ✓       ✓
+148   ALLVDLEPGTMDSVR          0.7669      Database    -24.9332    1614.8287   ✓       ✓
+149   ALLVDLEPGTMDSVR          0.7669      Database    -24.9515    1614.8287   ✓       ✓
+150   ALLVDLEPGTMDSVR          0.7669      Database    -24.9952    1614.8287   ✓       ✓
+151   ALLVDLEPGTMDSVR          0.7669      Database    -25.0828    1614.8287   ✓       ✓
+152   ALLVDLEPGTMDSVR          0.7669      Database    -25.0885    1614.8287   ✓       ✓
+153   ALLVDLEPGTMDSVR          0.7669      Database    -25.1372    1614.8287   ✓       ✓
+154   ALLVDLEPGTMDSVR          0.7669      Database    -25.1654    1614.8287   ✓       ✓
+155   ALLVDLEPGTMDSVR          0.7669      Database    -25.1776    1614.8287   ✓       ✓
+156   ALLVDLEPGTMDSVR          0.7669      Database    -25.1877    1614.8287   ✓       ✓
+157   +42.011LLVDLEPGTC+57.021DSVR0.3320      Prosit      -26.9168    1614.7923   ✓       
+158   VLLVDLEPGTMDSVK          0.3084      Prosit      -26.6390    1614.8539   ✓       
+159   AVLVDLEPGTMDSLR          0.3040      Prosit      -25.1448    1614.8287   ✓       
+160   VLLVSLEPGTMDSVR          0.2896      Prosit      -25.8150    1614.8651   ✓       
+161   ALLVN+0.984LQ+0.984PGTMDSVR0.2575      Prosit      -16.2479    1614.8287   ✓       
+162   ALLVN+0.984LQ+0.984PGTMDSVR0.2575      Prosit      -19.4596    1614.8287   ✓       
+163   ALLVN+0.984LQ+0.984PGTMDSVR0.2575      Prosit      -22.4370    1614.8287   ✓       
+164   ALLVN+0.984LQ+0.984PGTMDSVR0.2575      Prosit      -23.7964    1614.8287   ✓       
+165   ALLVN+0.984LQ+0.984PGTMDSVR0.2575      Prosit      -24.7514    1614.8287   ✓       
+166   LALVDLEPGTMDSVR          0.2523      Prosit      -21.9480    1614.8287   ✓       
+167   LALVDLEPGTMDSVR          0.2523      Prosit      -25.1596    1614.8287   ✓       
+168   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -6.7150     1614.8287   ✓       
+169   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -9.9267     1614.8287   ✓       
+170   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -12.9041    1614.8287   ✓       
+171   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -14.2636    1614.8287   ✓       
+172   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -15.2186    1614.8287   ✓       
+173   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -16.1158    1614.8287   ✓       
+174   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -17.1430    1614.8287   ✓       
+175   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -17.1470    1614.8287   ✓       
+176   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -17.1653    1614.8287   ✓       
+177   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -17.4752    1614.8287   ✓       
+178   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -17.4809    1614.8287   ✓       
+179   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -18.4273    1614.8287   ✓       
+180   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -18.4302    1614.8287   ✓       
+181   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -20.3547    1614.8287   ✓       
+182   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -20.3586    1614.8287   ✓       
+183   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -20.3769    1614.8287   ✓       
+184   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -20.4527    1614.8287   ✓       
+185   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -20.6400    1614.8287   ✓       
+186   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -20.6926    1614.8287   ✓       
+187   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -20.9929    1614.8287   ✓       
+188   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -21.1715    1614.8287   ✓       
+189   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -21.4077    1614.8287   ✓       
+190   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -21.6390    1614.8287   ✓       
+191   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -22.1834    1614.8287   ✓       
+192   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -22.4471    1614.8287   ✓       
+193   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -22.5568    1614.8287   ✓       
+194   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -22.7671    1614.8287   ✓       
+195   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -23.1619    1614.8287   ✓       
+196   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -23.3040    1614.8287   ✓       
+197   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -23.3321    1614.8287   ✓       
+198   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -23.3544    1614.8287   ✓       
+199   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -23.6643    1614.8287   ✓       
+200   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -23.6700    1614.8287   ✓       
+201   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -23.8517    1614.8287   ✓       
+202   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -24.2046    1614.8287   ✓       
+203   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -24.3832    1614.8287   ✓       
+204   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -24.6164    1614.8287   ✓       
+205   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -24.6193    1614.8287   ✓       
+206   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -24.6261    1614.8287   ✓       
+207   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -24.6811    1614.8287   ✓       
+208   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -24.6916    1614.8287   ✓       
+209   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -24.6955    1614.8287   ✓       
+210   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -24.7138    1614.8287   ✓       
+211   ALLVDLQ+0.984PGTMDSVR    0.2354      Prosit      -25.0294    1614.8287   ✓       
+212   ALLVN+0.984LEPGTMDSVR    0.2058      Prosit      -9.5776     1614.8287   ✓       
+213   ALLVN+0.984LEPGTMDSVR    0.2058      Prosit      -12.7893    1614.8287   ✓       
+214   ALLVN+0.984LEPGTMDSVR    0.2058      Prosit      -15.7667    1614.8287   ✓       
+215   ALLVN+0.984LEPGTMDSVR    0.2058      Prosit      -17.1262    1614.8287   ✓       
+216   ALLVN+0.984LEPGTMDSVR    0.2058      Prosit      -18.0812    1614.8287   ✓       
+217   ALLVN+0.984LEPGTMDSVR    0.2058      Prosit      -18.9784    1614.8287   ✓       
+218   ALLVN+0.984LEPGTMDSVR    0.2058      Prosit      -20.0056    1614.8287   ✓       
+219   ALLVN+0.984LEPGTMDSVR    0.2058      Prosit      -20.0096    1614.8287   ✓       
+220   ALLVN+0.984LEPGTMDSVR    0.2058      Prosit      -20.0279    1614.8287   ✓       
+221   ALLVN+0.984LEPGTMDSVR    0.2058      Prosit      -20.3378    1614.8287   ✓       
+222   ALLVN+0.984LEPGTMDSVR    0.2058      Prosit      -20.3435    1614.8287   ✓       
+223   ALLVN+0.984LEPGTMDSVR    0.2058      Prosit      -21.2899    1614.8287   ✓       
+224   ALLVN+0.984LEPGTMDSVR    0.2058      Prosit      -21.2928    1614.8287   ✓       
+225   ALLVN+0.984LEPGTMDSVR    0.2058      Prosit      -23.2173    1614.8287   ✓       
+226   ALLVN+0.984LEPGTMDSVR    0.2058      Prosit      -23.2212    1614.8287   ✓       
+227   ALLVN+0.984LEPGTMDSVR    0.2058      Prosit      -23.2395    1614.8287   ✓       
+228   ALLVN+0.984LEPGTMDSVR    0.2058      Prosit      -23.3153    1614.8287   ✓       
+229   ALLVN+0.984LEPGTMDSVR    0.2058      Prosit      -23.5026    1614.8287   ✓       
+230   ALLVN+0.984LEPGTMDSVR    0.2058      Prosit      -23.5551    1614.8287   ✓       
+231   ALLVN+0.984LEPGTMDSVR    0.2058      Prosit      -23.8555    1614.8287   ✓       
+232   ALLVN+0.984LEPGTMDSVR    0.2058      Prosit      -24.0341    1614.8287   ✓       
+233   ALLVN+0.984LEPGTMDSVR    0.2058      Prosit      -24.2703    1614.8287   ✓       
+234   ALLVN+0.984LEPGTMDSVR    0.2058      Prosit      -24.5016    1614.8287   ✓       
+235   ALLVN+0.984LEPGTMDSVR    0.2058      Prosit      -25.0460    1614.8287   ✓       
+236   ALLVDLEPGTMN+0.984SVR    0.1722      Prosit      -7.9526     1614.8287   ✓       
+237   ALLVDLEPGTMN+0.984SVR    0.1722      Prosit      -11.1642    1614.8287   ✓       
+238   ALLVDLEPGTMN+0.984SVR    0.1722      Prosit      -14.1417    1614.8287   ✓       
+239   ALLVDLEPGTMN+0.984SVR    0.1722      Prosit      -15.5011    1614.8287   ✓       
+240   ALLVDLEPGTMN+0.984SVR    0.1722      Prosit      -16.4561    1614.8287   ✓       
+241   ALLVDLEPGTMN+0.984SVR    0.1722      Prosit      -17.3533    1614.8287   ✓       
+242   ALLVDLEPGTMN+0.984SVR    0.1722      Prosit      -18.3806    1614.8287   ✓       
+243   ALLVDLEPGTMN+0.984SVR    0.1722      Prosit      -18.3845    1614.8287   ✓       
+244   ALLVDLEPGTMN+0.984SVR    0.1722      Prosit      -18.4028    1614.8287   ✓       
+245   ALLVDLEPGTMN+0.984SVR    0.1722      Prosit      -18.7128    1614.8287   ✓       
+246   ALLVDLEPGTMN+0.984SVR    0.1722      Prosit      -18.7184    1614.8287   ✓       
+247   ALLVDLEPGTMN+0.984SVR    0.1722      Prosit      -19.6649    1614.8287   ✓       
+248   ALLVDLEPGTMN+0.984SVR    0.1722      Prosit      -19.6678    1614.8287   ✓       
+249   ALLVDLEPGTMN+0.984SVR    0.1722      Prosit      -21.5922    1614.8287   ✓       
+250   ALLVDLEPGTMN+0.984SVR    0.1722      Prosit      -21.5961    1614.8287   ✓       
+251   ALLVDLEPGTMN+0.984SVR    0.1722      Prosit      -21.6145    1614.8287   ✓       
+252   ALLVDLEPGTMN+0.984SVR    0.1722      Prosit      -21.6902    1614.8287   ✓       
+253   ALLVDLEPGTMN+0.984SVR    0.1722      Prosit      -21.8776    1614.8287   ✓       
+254   ALLVDLEPGTMN+0.984SVR    0.1722      Prosit      -21.9301    1614.8287   ✓       
+255   ALLVDLEPGTMN+0.984SVR    0.1722      Prosit      -22.2304    1614.8287   ✓       
+256   ALLVDLEPGTMN+0.984SVR    0.1722      Prosit      -22.4090    1614.8287   ✓       
+257   ALLVDLEPGTMN+0.984SVR    0.1722      Prosit      -22.6452    1614.8287   ✓       
+258   ALLVDLEPGTMN+0.984SVR    0.1722      Prosit      -22.8765    1614.8287   ✓       
+259   ALLVDLEPGTMN+0.984SVR    0.1722      Prosit      -23.4209    1614.8287   ✓       
+260   ALLVDLEPGTMN+0.984SVR    0.1722      Prosit      -23.6846    1614.8287   ✓       
+261   ALLVDLEPGTMN+0.984SVR    0.1722      Prosit      -23.7943    1614.8287   ✓       
+262   ALLVDLEPGTMN+0.984SVR    0.1722      Prosit      -24.0046    1614.8287   ✓       
+263   ALLVDLEPGTMN+0.984SVR    0.1722      Prosit      -24.3994    1614.8287   ✓       
+264   ALLVDLEPGTMN+0.984SVR    0.1722      Prosit      -24.5697    1614.8287   ✓       
+265   ALLVDLEPGTMN+0.984SVR    0.1722      Prosit      -24.5919    1614.8287   ✓       
+266   ALLVDLEPGTMN+0.984SVR    0.1722      Prosit      -24.9019    1614.8287   ✓       
+267   ALLVDLEPGTMN+0.984SVR    0.1722      Prosit      -24.9075    1614.8287   ✓       
+268   ALLVDLEPGTMN+0.984SVR    0.1722      Prosit      -25.0892    1614.8287   ✓       
+269   ALLVDLQ+0.984PGTMN+0.984SVR0.1607      Prosit      -14.6228    1614.8287   ✓       
+270   ALLVDLQ+0.984PGTMN+0.984SVR0.1607      Prosit      -17.8345    1614.8287   ✓       
+271   ALLVDLQ+0.984PGTMN+0.984SVR0.1607      Prosit      -20.8119    1614.8287   ✓       
+272   ALLVDLQ+0.984PGTMN+0.984SVR0.1607      Prosit      -22.1714    1614.8287   ✓       
+273   ALLVDLQ+0.984PGTMN+0.984SVR0.1607      Prosit      -23.1264    1614.8287   ✓       
+274   ALLVDLQ+0.984PGTMN+0.984SVR0.1607      Prosit      -24.0236    1614.8287   ✓       
+275   ALLVDLQ+0.984PGTMN+0.984SVR0.1607      Prosit      -25.0508    1614.8287   ✓       
+276   ALLVDLQ+0.984PGTMN+0.984SVR0.1607      Prosit      -25.0548    1614.8287   ✓       
+277   ALLVDLQ+0.984PGTMN+0.984SVR0.1607      Prosit      -25.0731    1614.8287   ✓       
+278   ALLVN+0.984LEPGTMN+0.984SVR0.1594      Prosit      -17.4854    1614.8287   ✓       
+279   ALLVN+0.984LEPGTMN+0.984SVR0.1594      Prosit      -20.6971    1614.8287   ✓       
+280   ALLVN+0.984LEPGTMN+0.984SVR0.1594      Prosit      -23.6745    1614.8287   ✓       
+281   ALLVN+0.984LEPGTMN+0.984SVR0.1594      Prosit      -25.0340    1614.8287   ✓       
+282   ALLVN+0.984LQ+0.984PGTMN+0.984SVR0.1341      Prosit      -24.1557    1614.8287   ✓       
+283   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -7.9057     1585.8022   ✗       
+284   +43.006LLVDLEPGTMDSVR    -1.0000     NotChecked  -8.7665     1586.7974   ✗       
+285   AALVDLEPGTMDSVR          -1.0000     NotChecked  -10.3218    1572.7818   ✗       
+286   AVLVDLEPGTMDSVR          -1.0000     NotChecked  -10.8487    1600.8131   ✗       
+287   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -11.1174    1585.8022   ✗       
+288   +43.006LLVDLEPGTMDSVR    -1.0000     NotChecked  -11.9782    1586.7974   ✗       
+289   AALVDLEPGTMDSVR          -1.0000     NotChecked  -13.5335    1572.7818   ✗       
+290   ALLVDLQPGTMDSVR          -1.0000     NotChecked  -13.7062    1613.8447   ✗       
+291   AVLVDLEPGTMDSVR          -1.0000     NotChecked  -14.0604    1600.8131   ✗       
+292   GLLVDLEPGTMDSVR          -1.0000     NotChecked  -14.2986    1600.8130   ✗       
+293   ALLADLEPGTMDSVR          -1.0000     NotChecked  -14.4362    1586.7974   ✗       
+294   +42.011LLVDLQ+0.984PGTMDSVR-1.0000     NotChecked  -14.5760    1585.8022   ✗       
+295   ALLVDLEPGTMDSV           -1.0000     NotChecked  -14.6007    1458.7276   ✗       
+296   ALLVDLKPGTMDSVR          -1.0000     NotChecked  -14.7242    1613.8811   ✗       
+297   ALVVDLEPGTMDSVR          -1.0000     NotChecked  -14.7352    1600.8131   ✗       
+298   ALLVDLEPTMDSVR           -1.0000     NotChecked  -14.8472    1557.8072   ✗       
+299   ALLVDLDPGTMDSVR          -1.0000     NotChecked  -14.9589    1600.8130   ✗       
+300   ALLVSLEPGTMDSVR          -1.0000     NotChecked  -15.0527    1586.8338   ✗       
+301   ALLVDLEPGTMDGVR          -1.0000     NotChecked  -15.1216    1584.8181   ✗       
+302   +43.006LLVDLQ+0.984PGTMDSVR-1.0000     NotChecked  -15.4368    1586.7974   ✗       
+303   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -15.4542    1585.8022   ✗       
+304   ALLVDLEPGTMDSSR          -1.0000     NotChecked  -15.4944    1602.7923   ✗       
+305   ALAVDLEPGTMDSVR          -1.0000     NotChecked  -15.7432    1572.7818   ✗       
+306   ALLVDLEPGGMDSVR          -1.0000     NotChecked  -15.7906    1570.8025   ✗       
+307   ALLVDLEPGAMDSVR          -1.0000     NotChecked  -15.8125    1584.8181   ✗       
+308   +42.011LLVDLEPGTMN+0.984SVR-1.0000     NotChecked  -15.8135    1585.8022   ✗       
+309   ALLVNLEPGTMDSVR          -1.0000     NotChecked  -15.8641    1613.8447   ✗       
+310   ALLVDLEPGTMDSVK          -1.0000     NotChecked  -15.8766    1586.8226   ✗       
+311   ALLVDVEPGTMDSVR          -1.0000     NotChecked  -15.9651    1600.8130   ✗       
+312   ALLVDLEPGSMDSVR          -1.0000     NotChecked  -15.9860    1600.8131   ✗       
+313   +43.006LLVDLEPGTMDSVR    -1.0000     NotChecked  -16.3151    1586.7974   ✗       
+314   ALLVDLEPGTMDVR           -1.0000     NotChecked  -16.3422    1527.7967   ✗       
+315   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -16.4092    1585.8022   ✗       
+316   ALVDLEPGTMDSVR           -1.0000     NotChecked  -16.5109    1501.7446   ✗       
+317   ALLVDLEPGTMDSR           -1.0000     NotChecked  -16.6530    1515.7603   ✗       
+318   +43.006LLVDLEPGTMN+0.984SVR-1.0000     NotChecked  -16.6743    1586.7974   ✗       
+319   ALLVDLPGTMDSVR           -1.0000     NotChecked  -16.7706    1485.7861   ✗       
+320   ALLVDLQPGTMDSVR          -1.0000     NotChecked  -16.9179    1613.8447   ✗       
+321   ALLVVLEPGTMDSVR          -1.0000     NotChecked  -16.9209    1598.8702   ✗       
+322   AALVDLQ+0.984PGTMDSVR    -1.0000     NotChecked  -16.9921    1572.7818   ✗       
+323   AVLVDLEPGTMDSVR          -1.0000     NotChecked  -17.0378    1600.8131   ✗       
+324   ALLVGLEPGTMDSVR          -1.0000     NotChecked  -17.0401    1556.8232   ✗       
+325   ALLVDLSPGTMDSVR          -1.0000     NotChecked  -17.0887    1572.8181   ✗       
+326   ALLVDLEPGTMDSVQ          -1.0000     NotChecked  -17.1209    1586.7862   ✗       
+327   ALLVDLEPGTMDSV           -1.0000     NotChecked  -17.1540    1458.7276   ✗       
+328   ALLVDLEPGTMNSVR          -1.0000     NotChecked  -17.1952    1613.8447   ✗       
+329   +43.006LLVDLEPGTMDSVR    -1.0000     NotChecked  -17.2701    1586.7974   ✗       
+330   ALLVTLEPGTMDSVR          -1.0000     NotChecked  -17.2833    1600.8494   ✗       
+331   ALVDLEPGTMDSVR           -1.0000     NotChecked  -17.3187    1501.7446   ✗       
+332   +42.011LLVN+0.984LEPGTMDSVR-1.0000     NotChecked  -17.4385    1585.8022   ✗       
+333   GLLVDLEPGTMDSVR          -1.0000     NotChecked  -17.5103    1600.8130   ✗       
+334   ALLVDLEPGTMDAVR          -1.0000     NotChecked  -17.5171    1598.8338   ✗       
+335   AVLVDLQ+0.984PGTMDSVR    -1.0000     NotChecked  -17.5190    1600.8131   ✗       
+336   ALLVDLEPGTMDSVS          -1.0000     NotChecked  -17.5418    1545.7596   ✗       
+337   ALLADLEPGTMDSVR          -1.0000     NotChecked  -17.6478    1586.7974   ✗       
+338   +42.011LLVDLQ+0.984PGTMDSVR-1.0000     NotChecked  -17.7876    1585.8022   ✗       
+339   ALLVDLEPGTMDSV           -1.0000     NotChecked  -17.8123    1458.7276   ✗       
+340   ALLVDLPPGTMDSVR          -1.0000     NotChecked  -17.8540    1582.8389   ✗       
+341   AALVDLEPGTMDSVR          -1.0000     NotChecked  -17.8704    1572.7818   ✗       
+342   ALLVDLEPGTMDSVT          -1.0000     NotChecked  -17.8894    1559.7753   ✗       
+343   ALLVDLEPGTMDSPR          -1.0000     NotChecked  -17.9172    1612.8130   ✗       
+344   ALLVDLKPGTMDSVR          -1.0000     NotChecked  -17.9358    1613.8811   ✗       
+345   ALLVDPEPGTMDSVR          -1.0000     NotChecked  -17.9459    1598.7974   ✗       
+346   ALVVDLEPGTMDSVR          -1.0000     NotChecked  -17.9469    1600.8131   ✗       
+347   ALLVDLEGTMDSVR           -1.0000     NotChecked  -17.9694    1517.7759   ✗       
+348   APLVDLEPGTMDSVR          -1.0000     NotChecked  -17.9876    1598.7974   ✗       
+349   ALLVDLEPTMDSVR           -1.0000     NotChecked  -18.0589    1557.8072   ✗       
+350   ALLVDLEPGTMSVR           -1.0000     NotChecked  -18.0611    1499.8018   ✗       
+351   ALLVDLDPGTMDSVR          -1.0000     NotChecked  -18.1706    1600.8130   ✗       
+352   +42.011ALVDLEPGTMDSVR    -1.0000     NotChecked  -18.1828    1543.7552   ✗       
+353   AALVDLEPGTMN+0.984SVR    -1.0000     NotChecked  -18.2296    1572.7818   ✗       
+354   ALLVSLEPGTMDSVR          -1.0000     NotChecked  -18.2643    1586.8338   ✗       
+355   ALLVDLEPGTTDSVR          -1.0000     NotChecked  -18.2714    1584.8359   ✗       
+356   ALSVDLEPGTMDSVR          -1.0000     NotChecked  -18.2938    1588.7767   ✗       
+357   +43.006LLVN+0.984LEPGTMDSVR-1.0000     NotChecked  -18.2994    1586.7974   ✗       
+358   ALLVDLEPGTMDGVR          -1.0000     NotChecked  -18.3332    1584.8181   ✗       
+359   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -18.3337    1585.8022   ✗       
+360   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -18.3376    1585.8022   ✗       
+361   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -18.3559    1585.8022   ✗       
+362   ALLSDLEPGTMDSVR          -1.0000     NotChecked  -18.3626    1602.7923   ✗       
+363   AVLVDLEPGTMDSVR          -1.0000     NotChecked  -18.3973    1600.8131   ✗       
+364   ALTVDLEPGTMDSVR          -1.0000     NotChecked  -18.4491    1602.7923   ✗       
+365   ALLVDAEPGTMDSVR          -1.0000     NotChecked  -18.4706    1572.7818   ✗       
+366   ALLVDLEPGTMASVR          -1.0000     NotChecked  -18.6287    1570.8389   ✗       
+367   ALLVDLEPGTMDSAR          -1.0000     NotChecked  -18.6331    1586.7974   ✗       
+368   +43.006LLVDLQ+0.984PGTMDSVR-1.0000     NotChecked  -18.6485    1586.7974   ✗       
+369   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -18.6659    1585.8022   ✗       
+370   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -18.6715    1585.8022   ✗       
+371   ALLVDLEPGTMDSVD          -1.0000     NotChecked  -18.6966    1573.7545   ✗       
+372   ALLVDLEPGTMDSSR          -1.0000     NotChecked  -18.7060    1602.7923   ✗       
+373   +42.011VLVDLEPGTMDSVR    -1.0000     NotChecked  -18.7096    1571.7865   ✗       
+374   AVLVDLEPGTMN+0.984SVR    -1.0000     NotChecked  -18.7565    1600.8131   ✗       
+375   AALVDLEPGTMDSVR          -1.0000     NotChecked  -18.8254    1572.7818   ✗       
+376   ALLVDLEAGTMDSVR          -1.0000     NotChecked  -18.8346    1588.8130   ✗       
+377   ALLVDLEGGTMDSVR          -1.0000     NotChecked  -18.9371    1574.7974   ✗       
+378   ALAVDLEPGTMDSVR          -1.0000     NotChecked  -18.9549    1572.7818   ✗       
+379   ALLVDLEPGGMDSVR          -1.0000     NotChecked  -19.0023    1570.8025   ✗       
+380   ALLVDLEPGTMSSVR          -1.0000     NotChecked  -19.0100    1586.8338   ✗       
+381   ALLVDLEPGAMDSVR          -1.0000     NotChecked  -19.0242    1584.8181   ✗       
+382   +42.011LLVDLEPGTMN+0.984SVR-1.0000     NotChecked  -19.0251    1585.8022   ✗       
+383   +43.006ALVDLEPGTMDSVR    -1.0000     NotChecked  -19.0436    1544.7505   ✗       
+384   ALLVNLEPGTMDSVR          -1.0000     NotChecked  -19.0758    1613.8447   ✗       
+385   ALLVDLEPGTMDSVK          -1.0000     NotChecked  -19.0883    1586.8226   ✗       
+386   ALLVDLEPGTMDSVL          -1.0000     NotChecked  -19.1250    1571.8117   ✗       
+387   ALLVDLEPGTLDSVR          -1.0000     NotChecked  -19.1495    1596.8723   ✗       
+388   ALLVDVEPGTMDSVR          -1.0000     NotChecked  -19.1768    1600.8130   ✗       
+389   ALLVDLEPGTMVSVR          -1.0000     NotChecked  -19.1780    1598.8702   ✗       
+390   +43.006LLVDLEPGTMDSVR    -1.0000     NotChecked  -19.1945    1586.7974   ✗       
+391   ALLVDLEPGSMDSVR          -1.0000     NotChecked  -19.1977    1600.8131   ✗       
+392   +43.006LLVDLEPGTMDSVR    -1.0000     NotChecked  -19.1985    1586.7974   ✗       
+393   +43.006LLVDLEPGTMDSVR    -1.0000     NotChecked  -19.2168    1586.7974   ✗       
+394   ALLVDLEPGTMDSVP          -1.0000     NotChecked  -19.2790    1555.7804   ✗       
+395   AVLVDLEPGTMDSVR          -1.0000     NotChecked  -19.3523    1600.8131   ✗       
+396   +43.006LLVDLEPGTMDSVR    -1.0000     NotChecked  -19.5267    1586.7974   ✗       
+397   +43.006LLVDLEPGTMDSVR    -1.0000     NotChecked  -19.5324    1586.7974   ✗       
+398   ALLVDLEPGTMDVR           -1.0000     NotChecked  -19.5539    1527.7967   ✗       
+399   +43.006VLVDLEPGTMDSVR    -1.0000     NotChecked  -19.5705    1572.7818   ✗       
+400   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -19.6180    1585.8022   ✗       
+401   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -19.6209    1585.8022   ✗       
+402   ALLVDLEPGMDSVR           -1.0000     NotChecked  -19.6595    1513.7810   ✗       
+403   ALVDLEPGTMDSVR           -1.0000     NotChecked  -19.7226    1501.7446   ✗       
+404   ALLVDLEPGTEDSVR          -1.0000     NotChecked  -19.8174    1612.8308   ✗       
+405   AALVN+0.984LEPGTMDSVR    -1.0000     NotChecked  -19.8547    1572.7818   ✗       
+406   ALLVDLEPGTMDSR           -1.0000     NotChecked  -19.8646    1515.7603   ✗       
+407   +43.006LLVDLEPGTMN+0.984SVR-1.0000     NotChecked  -19.8860    1586.7974   ✗       
+408   ALLVDLQPGTMDSVR          -1.0000     NotChecked  -19.8953    1613.8447   ✗       
+409   ALLVDLPGTMDSVR           -1.0000     NotChecked  -19.9823    1485.7861   ✗       
+410   ALLVVLEPGTMDSVR          -1.0000     NotChecked  -20.1326    1598.8702   ✗       
+411   ALLVDLEPGTMDSR           -1.0000     NotChecked  -20.2015    1515.7603   ✗       
+412   AALVDLQ+0.984PGTMDSVR    -1.0000     NotChecked  -20.2038    1572.7818   ✗       
+413   AVLVDLEPGTMDSVR          -1.0000     NotChecked  -20.2495    1600.8131   ✗       
+414   ALLVGLEPGTMDSVR          -1.0000     NotChecked  -20.2517    1556.8232   ✗       
+415   ALLVDLSPGTMDSVR          -1.0000     NotChecked  -20.3004    1572.8181   ✗       
+416   ALLVDLEPGVMDSVR          -1.0000     NotChecked  -20.3257    1612.8494   ✗       
+417   ALLVDLEPGTMDSVQ          -1.0000     NotChecked  -20.3326    1586.7862   ✗       
+418   ALLVDLEPGTMDSV           -1.0000     NotChecked  -20.3656    1458.7276   ✗       
+419   AVLVN+0.984LEPGTMDSVR    -1.0000     NotChecked  -20.3816    1600.8131   ✗       
+420   ALLVDLEPGTMNSVR          -1.0000     NotChecked  -20.4068    1613.8447   ✗       
+421   ALLVDLEPGTDDSVR          -1.0000     NotChecked  -20.4331    1598.8152   ✗       
+422   +43.006LLVDLEPGTMDSVR    -1.0000     NotChecked  -20.4788    1586.7974   ✗       
+423   +43.006LLVDLEPGTMDSVR    -1.0000     NotChecked  -20.4817    1586.7974   ✗       
+424   ALLVTLEPGTMDSVR          -1.0000     NotChecked  -20.4949    1600.8494   ✗       
+425   ALVDLEPGTMDSVR           -1.0000     NotChecked  -20.5304    1501.7446   ✗       
+426   ALLADLEPGTMDSVR          -1.0000     NotChecked  -20.6253    1586.7974   ✗       
+427   +42.011LLVN+0.984LEPGTMDSVR-1.0000     NotChecked  -20.6502    1585.8022   ✗       
+428   ALLVDLEPGTSDSVR          -1.0000     NotChecked  -20.6887    1570.8202   ✗       
+429   ALLVDLEPGTMDAVR          -1.0000     NotChecked  -20.7288    1598.8338   ✗       
+430   AVLVDLQ+0.984PGTMDSVR    -1.0000     NotChecked  -20.7306    1600.8131   ✗       
+431   AALVDLEPGTMDSVR          -1.0000     NotChecked  -20.7498    1572.7818   ✗       
+432   ALLVDLEPGTMDSVS          -1.0000     NotChecked  -20.7535    1545.7596   ✗       
+433   AALVDLEPGTMDSVR          -1.0000     NotChecked  -20.7721    1572.7818   ✗       
+434   ALLVDLEPGTMDSV           -1.0000     NotChecked  -20.7898    1458.7276   ✗       
+435   ALLVDLKPGTMDSVR          -1.0000     NotChecked  -20.9133    1613.8811   ✗       
+436   ALVVDLEPGTMDSVR          -1.0000     NotChecked  -20.9243    1600.8131   ✗       
+437   GLLVDLQ+0.984PGTMDSVR    -1.0000     NotChecked  -20.9689    1600.8131   ✗       
+438   ALLVDLEPGTMDVR           -1.0000     NotChecked  -21.0008    1527.7967   ✗       
+439   ALLVDLEPTMDSVR           -1.0000     NotChecked  -21.0363    1557.8072   ✗       
+440   ALLVDLPPGTMDSVR          -1.0000     NotChecked  -21.0657    1582.8389   ✗       
+441   AALVDLEPGTMDSVR          -1.0000     NotChecked  -21.0820    1572.7818   ✗       
+442   VALVDLEPGTMDSVR          -1.0000     NotChecked  -21.0842    1600.8131   ✗       
+443   AALVDLEPGTMDSVR          -1.0000     NotChecked  -21.0877    1572.7818   ✗       
+444   ALLVDLEPGTMDSVT          -1.0000     NotChecked  -21.1010    1559.7753   ✗       
+445   ALLADLQ+0.984PGTMDSVR    -1.0000     NotChecked  -21.1064    1586.7974   ✗       
+446   ALLVDLEPGTMDSPR          -1.0000     NotChecked  -21.1288    1612.8130   ✗       
+447   ALLVDLDPGTMDSVR          -1.0000     NotChecked  -21.1480    1600.8130   ✗       
+448   ALLVDPEPGTMDSVR          -1.0000     NotChecked  -21.1575    1598.7974   ✗       
+449   APLVDLEPGTMDSVR          -1.0000     NotChecked  -21.1993    1598.7974   ✗       
+450   ALLVSLEPGTMDSVR          -1.0000     NotChecked  -21.2418    1586.8338   ✗       
+451   ALLVDLQPGTMDSVR          -1.0000     NotChecked  -21.2548    1613.8447   ✗       
+452   ALLVDLQ+0.984PGTMDSV     -1.0000     NotChecked  -21.2709    1458.7276   ✗       
+453   ALLVDLEPGTMSVR           -1.0000     NotChecked  -21.2728    1499.8018   ✗       
+454   AVLVDLEPGTMDSVR          -1.0000     NotChecked  -21.2767    1600.8131   ✗       
+455   +42.011KLVDLEPGTMDSVR    -1.0000     NotChecked  -21.2903    1600.8131   ✗       
+456   AVLVDLEPGTMDSVR          -1.0000     NotChecked  -21.2989    1600.8131   ✗       
+457   ALLVDLEPGTMDGVR          -1.0000     NotChecked  -21.3107    1584.8181   ✗       
+458   +42.011LLVDLEPGTMDVVR    -1.0000     NotChecked  -21.3132    1597.8385   ✗       
+459   +42.011ALVDLEPGTMDSVR    -1.0000     NotChecked  -21.3944    1543.7552   ✗       
+460   ALVVDLQ+0.984PGTMDSVR    -1.0000     NotChecked  -21.4055    1600.8131   ✗       
+461   AALVDLEPGTMN+0.984SVR    -1.0000     NotChecked  -21.4413    1572.7818   ✗       
+462   ALLVDLEPGTTDSVR          -1.0000     NotChecked  -21.4831    1584.8359   ✗       
+463   ALSVDLEPGTMDSVR          -1.0000     NotChecked  -21.5055    1588.7767   ✗       
+464   +43.006LLVN+0.984LEPGTMDSVR-1.0000     NotChecked  -21.5110    1586.7974   ✗       
+465   ALLVDLQ+0.984PTMDSVR     -1.0000     NotChecked  -21.5175    1557.8072   ✗       
+466   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -21.5453    1585.8022   ✗       
+467   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -21.5493    1585.8022   ✗       
+468   +42.011LLVDLQPGTMDSVR    -1.0000     NotChecked  -21.5672    1584.8181   ✗       
+469   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -21.5676    1585.8022   ✗       
+470   ALLSDLEPGTMDSVR          -1.0000     NotChecked  -21.5743    1602.7923   ✗       
+471   AVLVDLEPGTMDSVR          -1.0000     NotChecked  -21.6089    1600.8131   ✗       
+472   ALLVDLQPGTMN+0.984SVR    -1.0000     NotChecked  -21.6140    1613.8447   ✗       
+473   AVLVDLEPGTMDSVR          -1.0000     NotChecked  -21.6146    1600.8131   ✗       
+474   ALTVDLEPGTMDSVR          -1.0000     NotChecked  -21.6608    1602.7923   ✗       
+475   ALLVDAEPGTMDSVR          -1.0000     NotChecked  -21.6823    1572.7818   ✗       
+476   ALLVDLEPGTMDSSR          -1.0000     NotChecked  -21.6835    1602.7923   ✗       
+477   ALLVSLQ+0.984PGTMDSVR    -1.0000     NotChecked  -21.7229    1586.8338   ✗       
+478   ALLVDLQ+0.984PGTMDGVR    -1.0000     NotChecked  -21.7918    1584.8181   ✗       
+479   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -21.8307    1585.8022   ✗       
+480   ALLVDLEPGTMASVR          -1.0000     NotChecked  -21.8403    1570.8389   ✗       
+481   ALLVDLEPGTMDSAR          -1.0000     NotChecked  -21.8448    1586.7974   ✗       
+482   GLLVDLEPGTMDSVR          -1.0000     NotChecked  -21.8472    1600.8130   ✗       
+483   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -21.8832    1585.8022   ✗       
+484   ALLVDLEPGTMDSVD          -1.0000     NotChecked  -21.9082    1573.7545   ✗       
+485   +42.011VLVDLEPGTMDSVR    -1.0000     NotChecked  -21.9213    1571.7865   ✗       
+486   ALAVDLEPGTMDSVR          -1.0000     NotChecked  -21.9323    1572.7818   ✗       
+487   AVLVDLEPGTMN+0.984SVR    -1.0000     NotChecked  -21.9682    1600.8131   ✗       
+488   ALLVDLEPGGMDSVR          -1.0000     NotChecked  -21.9797    1570.8025   ✗       
+489   ALLADLEPGTMDSVR          -1.0000     NotChecked  -21.9847    1586.7974   ✗       
+490   ALLVDLEPGAMDSVR          -1.0000     NotChecked  -22.0016    1584.8181   ✗       
+491   AALVDLEPGTMDSVR          -1.0000     NotChecked  -22.0341    1572.7818   ✗       
+492   AALVDLEPGTMDSVR          -1.0000     NotChecked  -22.0370    1572.7818   ✗       
+493   ALLVNLEPGTMDSVR          -1.0000     NotChecked  -22.0532    1613.8447   ✗       
+494   ALLVDLEPGTMDSVK          -1.0000     NotChecked  -22.0657    1586.8226   ✗       
+495   LLVDLEPGTMDSVR           -1.0000     NotChecked  -22.1028    1543.7916   ✗       
+496   +42.011LLVDLQ+0.984PGTMDSVR-1.0000     NotChecked  -22.1245    1585.8022   ✗       
+497   ALLVDLEPGTMDSV           -1.0000     NotChecked  -22.1492    1458.7276   ✗       
+498   +43.006KLVDLEPGTMDSVR    -1.0000     NotChecked  -22.1512    1601.8083   ✗       
+499   ALLVDVEPGTMDSVR          -1.0000     NotChecked  -22.1542    1600.8130   ✗       
+500   ALLVDLQ+0.984PGTMDSSR    -1.0000     NotChecked  -22.1646    1602.7923   ✗       
+501   +43.006LLVDLEPGTMDVVR    -1.0000     NotChecked  -22.1740    1598.8338   ✗       
+502   ALLVDLEPGSMDSVR          -1.0000     NotChecked  -22.1751    1600.8131   ✗       
+503   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -22.1836    1585.8022   ✗       
+504   +42.011LLVDLEPGTMDSLR    -1.0000     NotChecked  -22.2018    1599.8178   ✗       
+505   GLLVDLEPGTMN+0.984SVR    -1.0000     NotChecked  -22.2064    1600.8130   ✗       
+506   ALLVDLQPGTMDSVR          -1.0000     NotChecked  -22.2098    1613.8447   ✗       
+507   ALLVDLEPGTMSSVR          -1.0000     NotChecked  -22.2216    1586.8338   ✗       
+508   +43.006ALVDLEPGTMDSVR    -1.0000     NotChecked  -22.2553    1544.7505   ✗       
+509   ALLVDLKPGTMDSVR          -1.0000     NotChecked  -22.2727    1613.8811   ✗       
+510   ALVVDLEPGTMDSVR          -1.0000     NotChecked  -22.2837    1600.8131   ✗       
+511   +42.011LLADLEPGTMDSVR    -1.0000     NotChecked  -22.2971    1557.7709   ✗       
+512   TALVDLEPGTMDSVR          -1.0000     NotChecked  -22.3313    1602.7923   ✗       
+513   ALLVDLEPGTMDSVL          -1.0000     NotChecked  -22.3366    1571.8117   ✗       
+514   ALLADLEPGTMN+0.984SVR    -1.0000     NotChecked  -22.3440    1586.7974   ✗       
+515   ALLVDLEPGTLDSVR          -1.0000     NotChecked  -22.3611    1596.8723   ✗       
+516   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -22.3621    1585.8022   ✗       
+517   ALLVDLEPGTMVSVR          -1.0000     NotChecked  -22.3897    1598.8702   ✗       
+518   ALLVDLEPTMDSVR           -1.0000     NotChecked  -22.3958    1557.8072   ✗       
+519   +43.006LLVDLEPGTMDSVR    -1.0000     NotChecked  -22.4062    1586.7974   ✗       
+520   +43.006LLVDLEPGTMDSVR    -1.0000     NotChecked  -22.4101    1586.7974   ✗       
+521   ALAVDLQ+0.984PGTMDSVR    -1.0000     NotChecked  -22.4135    1572.7818   ✗       
+522   +43.006LLVDLQPGTMDSVR    -1.0000     NotChecked  -22.4280    1585.8134   ✗       
+523   +43.006LLVDLEPGTMDSVR    -1.0000     NotChecked  -22.4284    1586.7974   ✗       
+524   ALLVDLQ+0.984PGGMDSVR    -1.0000     NotChecked  -22.4609    1570.8025   ✗       
+525   +42.011LLVDLEPGTMDSV     -1.0000     NotChecked  -22.4616    1429.7010   ✗       
+526   ALLVDLQ+0.984PGAMDSVR    -1.0000     NotChecked  -22.4828    1584.8181   ✗       
+527   +42.011LLVDLQ+0.984PGTMN+0.984SVR-1.0000     NotChecked  -22.4838    1585.8022   ✗       
+528   ALLVDLEPGTMDSVP          -1.0000     NotChecked  -22.4906    1555.7804   ✗       
+529   ALLVDLDPGTMDSVR          -1.0000     NotChecked  -22.5074    1600.8130   ✗       
+530   ALLVDLEPGTMN+0.984SV     -1.0000     NotChecked  -22.5085    1458.7276   ✗       
+531   ALLVDLEPGTMDVR           -1.0000     NotChecked  -22.5314    1527.7967   ✗       
+532   ALLVNLQ+0.984PGTMDSVR    -1.0000     NotChecked  -22.5344    1613.8447   ✗       
+533   ALLVDLQ+0.984PGTMDSVK    -1.0000     NotChecked  -22.5469    1586.8226   ✗       
+534   AVLVDLEPGTMDSVR          -1.0000     NotChecked  -22.5610    1600.8131   ✗       
+535   AVLVDLEPGTMDSVR          -1.0000     NotChecked  -22.5639    1600.8131   ✗       
+536   +42.011LLVDLKPGTMDSVR    -1.0000     NotChecked  -22.5851    1584.8545   ✗       
+537   +42.011LVVDLEPGTMDSVR    -1.0000     NotChecked  -22.5961    1571.7865   ✗       
+538   ALLVSLEPGTMDSVR          -1.0000     NotChecked  -22.6012    1586.8338   ✗       
+539   ALLVDLKPGTMN+0.984SVR    -1.0000     NotChecked  -22.6320    1613.8811   ✗       
+540   ALLVDVQ+0.984PGTMDSVR    -1.0000     NotChecked  -22.6354    1600.8131   ✗       
+541   ALVVDLEPGTMN+0.984SVR    -1.0000     NotChecked  -22.6430    1600.8131   ✗       
+542   ALLVDLQ+0.984PGSMDSVR    -1.0000     NotChecked  -22.6563    1600.8131   ✗       
+543   ALLVDLEPGTMDGVR          -1.0000     NotChecked  -22.6701    1584.8181   ✗       
+544   +43.006LLVDLEPGTMDSVR    -1.0000     NotChecked  -22.6915    1586.7974   ✗       
+545   +42.011LLVDLEPTMDSVR     -1.0000     NotChecked  -22.7082    1528.7807   ✗       
+546   +43.006LLVDLEPGTMDSVR    -1.0000     NotChecked  -22.7440    1586.7974   ✗       
+547   ALLVDLEPTMN+0.984SVR     -1.0000     NotChecked  -22.7550    1557.8072   ✗       
+548   +43.006VLVDLEPGTMDSVR    -1.0000     NotChecked  -22.7821    1572.7818   ✗       
+549   GLLVDLEPGTMDSVR          -1.0000     NotChecked  -22.8022    1600.8130   ✗       
+550   +42.011LLVDLDPGTMDSVR    -1.0000     NotChecked  -22.8198    1571.7865   ✗       
+551   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -22.8296    1585.8022   ✗       
+552   ALLVDLEPGTMDSR           -1.0000     NotChecked  -22.8421    1515.7603   ✗       
+553   ALLVDLDPGTMN+0.984SVR    -1.0000     NotChecked  -22.8667    1600.8130   ✗       
+554   ALLVDLEPGMDSVR           -1.0000     NotChecked  -22.8712    1513.7810   ✗       
+555   +42.011LLVSLEPGTMDSVR    -1.0000     NotChecked  -22.9136    1557.8072   ✗       
+556   ALLADLEPGTMDSVR          -1.0000     NotChecked  -22.9397    1586.7974   ✗       
+557   ALLVDLPGTMDSVR           -1.0000     NotChecked  -22.9597    1485.7861   ✗       
+558   ALLVSLEPGTMN+0.984SVR    -1.0000     NotChecked  -22.9604    1586.8338   ✗       
+559   +42.011LLVDLEPGTMDGVR    -1.0000     NotChecked  -22.9825    1555.7916   ✗       
+560   +43.006LLVDLQ+0.984PGTMDSVR-1.0000     NotChecked  -22.9853    1586.7974   ✗       
+561   ALLVDLQ+0.984PGTMDVR     -1.0000     NotChecked  -23.0125    1527.7967   ✗       
+562   ALLVDLEPGTEDSVR          -1.0000     NotChecked  -23.0291    1612.8308   ✗       
+563   ALLVDLEPGTMN+0.984GVR    -1.0000     NotChecked  -23.0293    1584.8181   ✗       
+564   +42.011LLVDLEPGTM+15.995DSVR-1.0000     NotChecked  -23.0371    1601.7971   ✗       
+565   +43.006LLVDLEPGTMDSVR    -1.0000     NotChecked  -23.0444    1586.7974   ✗       
+566   +43.006LLVDLEPGTMDSLR    -1.0000     NotChecked  -23.0626    1600.8131   ✗       
+567   AALVN+0.984LEPGTMDSVR    -1.0000     NotChecked  -23.0664    1572.7818   ✗       
+568   +42.011LLVDLQ+0.984PGTMDSVR-1.0000     NotChecked  -23.0795    1585.8022   ✗       
+569   ALLVDLEPGTMDSV           -1.0000     NotChecked  -23.1042    1458.7276   ✗       
+570   ALLVDLQPGTMDSVR          -1.0000     NotChecked  -23.1070    1613.8447   ✗       
+571   ALLVVLEPGTMDSVR          -1.0000     NotChecked  -23.1100    1598.8702   ✗       
+572   +43.006LLADLEPGTMDSVR    -1.0000     NotChecked  -23.1579    1558.7661   ✗       
+573   ALVDLQ+0.984PGTMDSVR     -1.0000     NotChecked  -23.1812    1501.7446   ✗       
+574   +43.006LLVDLEPGTMDSVR    -1.0000     NotChecked  -23.2230    1586.7974   ✗       
+575   ALLVDLKPGTMDSVR          -1.0000     NotChecked  -23.2277    1613.8811   ✗       
+576   ALLVGLEPGTMDSVR          -1.0000     NotChecked  -23.2292    1556.8232   ✗       
+577   ALVVDLEPGTMDSVR          -1.0000     NotChecked  -23.2388    1600.8131   ✗       
+578   ALLVN+0.984LQPGTMDSVR    -1.0000     NotChecked  -23.2391    1613.8447   ✗       
+579   ALLVDLSPGTMDSVR          -1.0000     NotChecked  -23.2778    1572.8181   ✗       
+580   ALAVDLEPGTMDSVR          -1.0000     NotChecked  -23.2917    1572.7818   ✗       
+581   ALLVDLEPGTMDSVQ          -1.0000     NotChecked  -23.3100    1586.7862   ✗       
+582   +43.006LLVDLEPGTMDSV     -1.0000     NotChecked  -23.3224    1430.6963   ✗       
+583   ALLVDLQ+0.984PGTMDSR     -1.0000     NotChecked  -23.3232    1515.7603   ✗       
+584   ALLVDLEPGGMDSVR          -1.0000     NotChecked  -23.3391    1570.8025   ✗       
+585   ALLVDLEPGTMDSV           -1.0000     NotChecked  -23.3431    1458.7276   ✗       
+586   +43.006LLVDLQ+0.984PGTMN+0.984SVR-1.0000     NotChecked  -23.3446    1586.7974   ✗       
+587   +42.011LLVDLEPGTMDSSR    -1.0000     NotChecked  -23.3553    1573.7658   ✗       
+588   ALLVDLEPGAMDSVR          -1.0000     NotChecked  -23.3611    1584.8181   ✗       
+589   +42.011LLVDLEPGTMN+0.984SVR-1.0000     NotChecked  -23.3620    1585.8022   ✗       
+590   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -23.3740    1585.8022   ✗       
+591   ALLVDLEPGTMNSVR          -1.0000     NotChecked  -23.3843    1613.8447   ✗       
+592   ALLVDLEPGTMN+0.984SSR    -1.0000     NotChecked  -23.4021    1602.7923   ✗       
+593   +42.011LLVDLEPATMDSVR    -1.0000     NotChecked  -23.4087    1599.8178   ✗       
+594   ALLVNLEPGTMDSVR          -1.0000     NotChecked  -23.4127    1613.8447   ✗       
+595   ALLVDLEPGTMDSR           -1.0000     NotChecked  -23.4132    1515.7603   ✗       
+596   ALLVDLEPGTMDSVK          -1.0000     NotChecked  -23.4252    1586.8226   ✗       
+597   +43.006LLVDLKPGTMDSVR    -1.0000     NotChecked  -23.4459    1585.8498   ✗       
+598   +43.006LVVDLEPGTMDSVR    -1.0000     NotChecked  -23.4570    1572.7818   ✗       
+599   ALLVDLDPGTMDSVR          -1.0000     NotChecked  -23.4625    1600.8130   ✗       
+600   ALLVTLEPGTMDSVR          -1.0000     NotChecked  -23.4724    1600.8494   ✗       
+601   +42.011LLVELEPGTMDSVR    -1.0000     NotChecked  -23.4992    1599.8178   ✗       
+602   ALVDLEPGTMDSVR           -1.0000     NotChecked  -23.5078    1501.7446   ✗       
+603   ALLVDVEPGTMDSVR          -1.0000     NotChecked  -23.5136    1600.8130   ✗       
+604   ALLVDLEPGSMDSVR          -1.0000     NotChecked  -23.5346    1600.8131   ✗       
+605   ALLVDLEPGVMDSVR          -1.0000     NotChecked  -23.5373    1612.8494   ✗       
+606   ALLVSLEPGTMDSVR          -1.0000     NotChecked  -23.5562    1586.8338   ✗       
+607   +43.006LLVDLEPTMDSVR     -1.0000     NotChecked  -23.5690    1529.7759   ✗       
+608   ALLVVLQ+0.984PGTMDSVR    -1.0000     NotChecked  -23.5912    1598.8702   ✗       
+609   AVLVN+0.984LEPGTMDSVR    -1.0000     NotChecked  -23.5932    1600.8131   ✗       
+610   +42.011LAVDLEPGTMDSVR    -1.0000     NotChecked  -23.6041    1543.7552   ✗       
+611   ALLVDLEPGTMDGVR          -1.0000     NotChecked  -23.6251    1584.8181   ✗       
+612   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -23.6377    1585.8022   ✗       
+613   ALLVDLEPGTDDSVR          -1.0000     NotChecked  -23.6448    1598.8152   ✗       
+614   ALAVDLEPGTMN+0.984SVR    -1.0000     NotChecked  -23.6510    1572.7818   ✗       
+615   +42.011LLVDLEPGGMDSVR    -1.0000     NotChecked  -23.6515    1541.7759   ✗       
+616   +42.011LLVDLEPGAMDSVR    -1.0000     NotChecked  -23.6734    1555.7916   ✗       
+617   +43.006LLVDLDPGTMDSVR    -1.0000     NotChecked  -23.6807    1572.7818   ✗       
+618   +43.006LLVDLEPGTMDSVR    -1.0000     NotChecked  -23.6905    1586.7974   ✗       
+619   ALLVDLEPGGMN+0.984SVR    -1.0000     NotChecked  -23.6984    1570.8025   ✗       
+620   ALLVDLEPGTMDAVR          -1.0000     NotChecked  -23.7062    1598.8338   ✗       
+621   AVLVDLQ+0.984PGTMDSVR    -1.0000     NotChecked  -23.7081    1600.8131   ✗       
+622   ALLVGLQ+0.984PGTMDSVR    -1.0000     NotChecked  -23.7103    1556.8232   ✗       
+623   ALLVDLEPGAMN+0.984SVR    -1.0000     NotChecked  -23.7203    1584.8181   ✗       
+624   +42.011LLVNLEPGTMDSVR    -1.0000     NotChecked  -23.7250    1584.8181   ✗       
+625   AALVDLEPGTMDVVR          -1.0000     NotChecked  -23.7293    1584.8181   ✗       
+626   ALLVDLEPGTMDSVS          -1.0000     NotChecked  -23.7309    1545.7596   ✗       
+627   +42.011LLVDLEPGTMDSVK    -1.0000     NotChecked  -23.7376    1557.7960   ✗       
+628   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -23.7474    1585.8022   ✗       
+629   ALLVNLEPGTMN+0.984SVR    -1.0000     NotChecked  -23.7719    1613.8447   ✗       
+630   +43.006LLVSLEPGTMDSVR    -1.0000     NotChecked  -23.7744    1558.8025   ✗       
+631   ALLVDLEPGTMN+0.984SVK    -1.0000     NotChecked  -23.7844    1586.8226   ✗       
+632   +42.011LLVDLEPGTMDTVR    -1.0000     NotChecked  -23.7890    1599.8178   ✗       
+633   ALLVDLQ+0.984PGTMDSVQ    -1.0000     NotChecked  -23.7912    1586.7862   ✗       
+634   ALLVDLQ+0.984PGTMDSV     -1.0000     NotChecked  -23.8242    1458.7276   ✗       
+635   +42.011LLVDVEPGTMDSVR    -1.0000     NotChecked  -23.8260    1571.7865   ✗       
+636   GLLVN+0.984LEPGTMDSVR    -1.0000     NotChecked  -23.8315    1600.8130   ✗       
+637   ALLADLEPGTMDSVR          -1.0000     NotChecked  -23.8369    1586.7974   ✗       
+638   +43.006LLVDLEPGTMDGVR    -1.0000     NotChecked  -23.8433    1556.7868   ✗       
+639   +42.011LLLDLEPGTMDSVR    -1.0000     NotChecked  -23.8434    1599.8178   ✗       
+640   +42.011LLVDLEPGSMDSVR    -1.0000     NotChecked  -23.8470    1571.7865   ✗       
+641   ALLVDLQ+0.984PGTMNSVR    -1.0000     NotChecked  -23.8654    1613.8447   ✗       
+642   AALVDLEPSTMDSVR          -1.0000     NotChecked  -23.8710    1602.7923   ✗       
+643   ALLVDVEPGTMN+0.984SVR    -1.0000     NotChecked  -23.8729    1600.8130   ✗       
+644   ALLVDLEPGTMDVR           -1.0000     NotChecked  -23.8908    1527.7967   ✗       
+645   ALLVDLEPGSMN+0.984SVR    -1.0000     NotChecked  -23.8938    1600.8131   ✗       
+646   +43.006LLVDLEPGTM+15.995DSVR-1.0000     NotChecked  -23.8980    1602.7923   ✗       
+647   ALLVDLEPGTSDSVR          -1.0000     NotChecked  -23.9004    1570.8202   ✗       
+648   +43.006LLVDLQ+0.984PGTMDSVR-1.0000     NotChecked  -23.9403    1586.7974   ✗       
+649   ALLVTLQ+0.984PGTMDSVR    -1.0000     NotChecked  -23.9535    1600.8494   ✗       
+650   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -23.9578    1585.8022   ✗       
+651   AALVDLEPGTMDSVR          -1.0000     NotChecked  -23.9615    1572.7818   ✗       
+652   ALLAN+0.984LEPGTMDSVR    -1.0000     NotChecked  -23.9690    1586.7974   ✗       
+653   AALVDLQPGTMDSVR          -1.0000     NotChecked  -23.9833    1571.7977   ✗       
+654   AALVDLEPGTMDSVR          -1.0000     NotChecked  -23.9837    1572.7818   ✗       
+655   ALVDLQ+0.984PGTMDSVR     -1.0000     NotChecked  -23.9890    1501.7446   ✗       
+656   ALLVDLEPGTMDSSR          -1.0000     NotChecked  -23.9979    1602.7923   ✗       
+657   ALLVDLEPGTMDSV           -1.0000     NotChecked  -24.0014    1458.7276   ✗       
+658   ALLVDLPPGTMDSVR          -1.0000     NotChecked  -24.0431    1582.8389   ✗       
+659   ALVDLEPGTMDSVR           -1.0000     NotChecked  -24.0595    1501.7446   ✗       
+660   ALLVDLEPGTMDSVT          -1.0000     NotChecked  -24.0785    1559.7753   ✗       
+661   ALLVDLEPGTMDSPR          -1.0000     NotChecked  -24.1063    1612.8130   ✗       
+662   +42.011LLVN+0.984LQ+0.984PGTMDSVR-1.0000     NotChecked  -24.1088    1585.8022   ✗       
+663   ALLVDLKPGTMDSVR          -1.0000     NotChecked  -24.1249    1613.8811   ✗       
+664   ALLVN+0.984LEPGTMDSV     -1.0000     NotChecked  -24.1335    1458.7276   ✗       
+665   ALLVDLQPGTMDSVR          -1.0000     NotChecked  -24.1342    1613.8447   ✗       
+666   ALLVDPEPGTMDSVR          -1.0000     NotChecked  -24.1350    1598.7974   ✗       
+667   ALVVDLEPGTMDSVR          -1.0000     NotChecked  -24.1360    1600.8131   ✗       
+668   ALLVDLQPGTMDSVR          -1.0000     NotChecked  -24.1382    1613.8447   ✗       
+669   ALLVDLQPGTMDSVR          -1.0000     NotChecked  -24.1565    1613.8447   ✗       
+670   ALLVDLEGTMDSVR           -1.0000     NotChecked  -24.1585    1517.7759   ✗       
+671   APLVDLEPGTMDSVR          -1.0000     NotChecked  -24.1767    1598.7974   ✗       
+672   GLLVDLQ+0.984PGTMDSVR    -1.0000     NotChecked  -24.1806    1600.8131   ✗       
+673   ALLVDLQ+0.984PGTMDAVR    -1.0000     NotChecked  -24.1874    1598.8338   ✗       
+674   +42.011LLVDLEPGTMDVR     -1.0000     NotChecked  -24.2032    1498.7701   ✗       
+675   ALLVDLQ+0.984PGTMDSVS    -1.0000     NotChecked  -24.2121    1545.7596   ✗       
+676   ALLVDLEPGTMDVR           -1.0000     NotChecked  -24.2124    1527.7967   ✗       
+677   +43.006LLVDLEPGTMDSSR    -1.0000     NotChecked  -24.2161    1574.7610   ✗       
+678   +43.006LLVDLEPGTMN+0.984SVR-1.0000     NotChecked  -24.2229    1586.7974   ✗       
+679   +43.006LLVDLEPGTMDSVR    -1.0000     NotChecked  -24.2349    1586.7974   ✗       
+680   ALAVDLEPGTMDSVR          -1.0000     NotChecked  -24.2467    1572.7818   ✗       
+681   AALVDLEPGTMDSVR          -1.0000     NotChecked  -24.2468    1572.7818   ✗       
+682   ALLVDLEPTMDSVR           -1.0000     NotChecked  -24.2480    1557.8072   ✗       
+683   ALLVDLEPGTMN+0.984VR     -1.0000     NotChecked  -24.2500    1527.7967   ✗       
+684   ALLVDLEPGTMSVR           -1.0000     NotChecked  -24.2503    1499.8018   ✗       
+685   AVLVDLEPGTMDVVR          -1.0000     NotChecked  -24.2562    1612.8494   ✗       
+686   ALLVN+0.984LKPGTMDSVR    -1.0000     NotChecked  -24.2570    1613.8811   ✗       
+687   ALVVN+0.984LEPGTMDSVR    -1.0000     NotChecked  -24.2681    1600.8131   ✗       
+688   +43.006LLVDLEPATMDSVR    -1.0000     NotChecked  -24.2695    1600.8130   ✗       
+689   ALLVDLEPGGMDSVR          -1.0000     NotChecked  -24.2941    1570.8025   ✗       
+690   VALVDLEPGTMDSVR          -1.0000     NotChecked  -24.2958    1600.8131   ✗       
+691   AALVDLEPGTMDSVR          -1.0000     NotChecked  -24.2993    1572.7818   ✗       
+692   ALLVDLEPGAMDSVR          -1.0000     NotChecked  -24.3161    1584.8181   ✗       
+693   +42.011LLVDLEPGTMN+0.984SVR-1.0000     NotChecked  -24.3170    1585.8022   ✗       
+694   ALLADLQ+0.984PGTMDSVR    -1.0000     NotChecked  -24.3181    1586.7974   ✗       
+695   ALLVDLPGTMDSVR           -1.0000     NotChecked  -24.3192    1485.7861   ✗       
+696   +42.011LLVDLEPGTMESVR    -1.0000     NotChecked  -24.3349    1599.8178   ✗       
+697   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -24.3525    1585.8022   ✗       
+698   ALLVDLDPGTMDSVR          -1.0000     NotChecked  -24.3597    1600.8130   ✗       
+699   +43.006LLVELEPGTMDSVR    -1.0000     NotChecked  -24.3600    1600.8130   ✗       
+700   ALLVNLEPGTMDSVR          -1.0000     NotChecked  -24.3677    1613.8447   ✗       
+701   +42.011ALVDLEPGTMDSVR    -1.0000     NotChecked  -24.3719    1543.7552   ✗       
+702   ALLVN+0.984LEPTMDSVR     -1.0000     NotChecked  -24.3801    1557.8072   ✗       
+703   ALLVDLEPGTMDSVK          -1.0000     NotChecked  -24.3802    1586.8226   ✗       
+704   ALVDLEPGTMN+0.984SVR     -1.0000     NotChecked  -24.4187    1501.7446   ✗       
+705   ALLVSLEPGTMDSVR          -1.0000     NotChecked  -24.4534    1586.8338   ✗       
+706   ALLVDLEPGTTDSVR          -1.0000     NotChecked  -24.4605    1584.8359   ✗       
+707   +43.006LAVDLEPGTMDSVR    -1.0000     NotChecked  -24.4650    1544.7505   ✗       
+708   ALLVDLQPGTMDSVR          -1.0000     NotChecked  -24.4664    1613.8447   ✗       
+709   ALLVDVEPGTMDSVR          -1.0000     NotChecked  -24.4687    1600.8130   ✗       
+710   ALLVVLEPGTMDSVR          -1.0000     NotChecked  -24.4695    1598.8702   ✗       
+711   ALLVDLQPGTMDSVR          -1.0000     NotChecked  -24.4721    1613.8447   ✗       
+712   ALLVDLQ+0.984PGTMDSV     -1.0000     NotChecked  -24.4826    1458.7276   ✗       
+713   ALSVDLEPGTMDSVR          -1.0000     NotChecked  -24.4829    1588.7767   ✗       
+714   AVLVDLEPGTMDSVR          -1.0000     NotChecked  -24.4884    1600.8131   ✗       
+715   ALLVDLEPGSMDSVR          -1.0000     NotChecked  -24.4896    1600.8131   ✗       
+716   ALLVN+0.984LDPGTMDSVR    -1.0000     NotChecked  -24.4918    1600.8130   ✗       
+717   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -24.4946    1585.8022   ✗       
+718   +43.006LLVDLEPGTMDSVR    -1.0000     NotChecked  -24.4986    1586.7974   ✗       
+719   +42.011KLVDLEPGTMDSVR    -1.0000     NotChecked  -24.5020    1600.8131   ✗       
+720   AVLVDLQPGTMDSVR          -1.0000     NotChecked  -24.5102    1599.8290   ✗       
+721   AVLVDLEPGTMDSVR          -1.0000     NotChecked  -24.5106    1600.8131   ✗       
+722   +43.006LLVDLEPGGMDSVR    -1.0000     NotChecked  -24.5124    1542.7712   ✗       
+723   +42.011LLVDLEPGTMDSR     -1.0000     NotChecked  -24.5139    1486.7337   ✗       
+724   ALLVDLEPGTMDGVR          -1.0000     NotChecked  -24.5223    1584.8181   ✗       
+725   +42.011LLVDLEPGTMDVVR    -1.0000     NotChecked  -24.5248    1597.8385   ✗       
+726   +43.006LLVDLEPGAMDSVR    -1.0000     NotChecked  -24.5343    1556.7868   ✗       
+727   AALVDLQ+0.984PGTMDSVR    -1.0000     NotChecked  -24.5406    1572.7818   ✗       
+728   +42.011LLVDLEPGTMMSVR    -1.0000     NotChecked  -24.5408    1601.8157   ✗       
+729   ALLSDLEPGTMDSVR          -1.0000     NotChecked  -24.5517    1602.7923   ✗       
+730   ALLVDLQ+0.984PGTMDSVT    -1.0000     NotChecked  -24.5596    1559.7753   ✗       
+731   ALLVDLEPGTMN+0.984SR     -1.0000     NotChecked  -24.5608    1515.7603   ✗       
+732   GALVDLEPGTMDSVR          -1.0000     NotChecked  -24.5757    1558.7661   ✗       
+733   +43.006LLVNLEPGTMDSVR    -1.0000     NotChecked  -24.5859    1585.8134   ✗       
+734   AVLVDLEPGTMDSVR          -1.0000     NotChecked  -24.5864    1600.8131   ✗       
+735   ALLVDLQ+0.984PGTMDSPR    -1.0000     NotChecked  -24.5874    1612.8131   ✗       
+736   ALLVGLEPGTMDSVR          -1.0000     NotChecked  -24.5886    1556.8232   ✗       
+737   +43.006LLVDLEPGTMDSVK    -1.0000     NotChecked  -24.5984    1558.7913   ✗       
+738   AALVDLEPGTMDSVR          -1.0000     NotChecked  -24.5997    1572.7818   ✗       
+739   +43.006LLVDLEPGTMDSVR    -1.0000     NotChecked  -24.6083    1586.7974   ✗       
+740   SALVDLEPGTMDSVR          -1.0000     NotChecked  -24.6096    1588.7767   ✗       
+741   ALLVDPQ+0.984PGTMDSVR    -1.0000     NotChecked  -24.6161    1598.7974   ✗       
+742   ALVVDLQ+0.984PGTMDSVR    -1.0000     NotChecked  -24.6171    1600.8131   ✗       
+743   AALVDLEPGTMDSLR          -1.0000     NotChecked  -24.6179    1586.7974   ✗       
+744   +42.011LLVDLPGTMDSVR     -1.0000     NotChecked  -24.6316    1456.7596   ✗       
+745   ALLVDLSPGTMDSVR          -1.0000     NotChecked  -24.6372    1572.8181   ✗       
+746   ALTVDLEPGTMDSVR          -1.0000     NotChecked  -24.6382    1602.7923   ✗       
+747   ALLVDLQ+0.984GTMDSVR     -1.0000     NotChecked  -24.6397    1517.7759   ✗       
+748   +43.006LLVDLEPGTMDTVR    -1.0000     NotChecked  -24.6499    1600.8130   ✗       
+749   ALLVN+0.984LEPGTMDGVR    -1.0000     NotChecked  -24.6544    1584.8181   ✗       
+750   APLVDLQ+0.984PGTMDSVR    -1.0000     NotChecked  -24.6579    1598.7974   ✗       
+751   ALLVDAEPGTMDSVR          -1.0000     NotChecked  -24.6597    1572.7818   ✗       
+752   ALLVDLEPGTMDSVQ          -1.0000     NotChecked  -24.6695    1586.7862   ✗       
+753   ALLVDLPGTMN+0.984SVR     -1.0000     NotChecked  -24.6784    1485.7861   ✗       
+754   +43.006LLVDVEPGTMDSVR    -1.0000     NotChecked  -24.6869    1572.7818   ✗       
+755   ALLVDLEPGTMDSV           -1.0000     NotChecked  -24.7025    1458.7276   ✗       
+756   +43.006LLLDLEPGTMDSVR    -1.0000     NotChecked  -24.7043    1600.8130   ✗       
+757   +43.006LLVDLEPGSMDSVR    -1.0000     NotChecked  -24.7078    1572.7818   ✗       
+758   AALADLEPGTMDSVR          -1.0000     NotChecked  -24.7132    1544.7505   ✗       
+759   GLLVDLEPGTMDSVR          -1.0000     NotChecked  -24.7266    1600.8130   ✗       
+760   ALLVDLQ+0.984PTMDSVR     -1.0000     NotChecked  -24.7292    1557.8072   ✗       
+761   GLLVDLEPGTMDSVR          -1.0000     NotChecked  -24.7306    1600.8130   ✗       
+762   ALLVDLQ+0.984PGTMSVR     -1.0000     NotChecked  -24.7314    1499.8018   ✗       
+763   ALLVDLEPGTMNSVR          -1.0000     NotChecked  -24.7437    1613.8447   ✗       
+764   GLLVDLEPGTMDSVR          -1.0000     NotChecked  -24.7489    1600.8130   ✗       
+765   AVLVDLEPGTMDSVR          -1.0000     NotChecked  -24.7737    1600.8131   ✗       
+766   AALVDLEPGTMDSVR          -1.0000     NotChecked  -24.7783    1572.7818   ✗       
+767   +42.011LLVDLQPGTMDSVR    -1.0000     NotChecked  -24.7788    1584.8181   ✗       
+768   +42.011LLVVLEPGTMDSVR    -1.0000     NotChecked  -24.7818    1569.8436   ✗       
+769   ALLVDLEPGTMASVR          -1.0000     NotChecked  -24.8178    1570.8389   ✗       
+770   +43.006LLVDLEPGTMDSVR    -1.0000     NotChecked  -24.8186    1586.7974   ✗       
+771   ALLVDLEPGTMDSAR          -1.0000     NotChecked  -24.8222    1586.7974   ✗       
+772   ALLVDLQPGTMN+0.984SVR    -1.0000     NotChecked  -24.8257    1613.8447   ✗       
+773   AVLVDLEPGTMDSVR          -1.0000     NotChecked  -24.8262    1600.8131   ✗       
+774   ALLVVLEPGTMN+0.984SVR    -1.0000     NotChecked  -24.8287    1598.8702   ✗       
+775   ALLVTLEPGTMDSVR          -1.0000     NotChecked  -24.8318    1600.8494   ✗       
+776   ALLVDLEPGTMDVR           -1.0000     NotChecked  -24.8458    1527.7967   ✗       
+777   +42.011ALVDLQ+0.984PGTMDSVR-1.0000     NotChecked  -24.8530    1543.7552   ✗       
+778   ALVDLEPGTMDSVR           -1.0000     NotChecked  -24.8672    1501.7446   ✗       
+779   ALLADLEPGTMDSVR          -1.0000     NotChecked  -24.8681    1586.7974   ✗       
+780   AALVDLEPGTMDSV           -1.0000     NotChecked  -24.8777    1416.6806   ✗       
+781   ALLVDLEPGTMDSVD          -1.0000     NotChecked  -24.8857    1573.7545   ✗       
+782   ALLADLEPGTMDSVR          -1.0000     NotChecked  -24.8864    1586.7974   ✗       
+783   ALLVDLEPGTMDSSR          -1.0000     NotChecked  -24.8951    1602.7923   ✗       
+784   AALVDLQ+0.984PGTMN+0.984SVR-1.0000     NotChecked  -24.8999    1572.7818   ✗       
+785   +42.011LLVGLEPGTMDSVR    -1.0000     NotChecked  -24.9010    1527.7967   ✗       
+786   ALLVSLQ+0.984PGTMDSVR    -1.0000     NotChecked  -24.9346    1586.8338   ✗       
+787   ALLVDLQ+0.984PGTTDSVR    -1.0000     NotChecked  -24.9417    1584.8359   ✗       
+788   AVLVDLEPGTMN+0.984SVR    -1.0000     NotChecked  -24.9456    1600.8131   ✗       
+789   ALLVGLEPGTMN+0.984SVR    -1.0000     NotChecked  -24.9479    1556.8232   ✗       
+790   +42.011LLVDLSPGTMDSVR    -1.0000     NotChecked  -24.9496    1543.7916   ✗       
+791   ALSVDLQ+0.984PGTMDSVR    -1.0000     NotChecked  -24.9641    1588.7767   ✗       
+792   +43.006LLVN+0.984LQ+0.984PGTMDSVR-1.0000     NotChecked  -24.9697    1586.7974   ✗       
+793   +42.011LLVDLEPGTMDSVQ    -1.0000     NotChecked  -24.9818    1557.7596   ✗       
+794   +42.011LLVN+0.984LEPGTMDSVR-1.0000     NotChecked  -24.9871    1585.8022   ✗       
+795   ALLVDLSPGTMN+0.984SVR    -1.0000     NotChecked  -24.9965    1572.8181   ✗       
+796   AALVDLKPGTMDSVR          -1.0000     NotChecked  -25.0012    1571.8341   ✗       
+797   ALLVDLQ+0.984PGTMDGVR    -1.0000     NotChecked  -25.0035    1584.8181   ✗       
+798   +42.011LLVDLQ+0.984PGTMDSVR-1.0000     NotChecked  -25.0040    1585.8022   ✗       
+799   +42.011LLVDLQ+0.984PGTMDSVR-1.0000     NotChecked  -25.0079    1585.8022   ✗       
+800   AAVVDLEPGTMDSVR          -1.0000     NotChecked  -25.0123    1558.7661   ✗       
+801   ALVDLEPGTMDSVR           -1.0000     NotChecked  -25.0145    1501.7446   ✗       
+802   +42.011LLVDLEPGTMDSV     -1.0000     NotChecked  -25.0149    1429.7010   ✗       
+803   ALLVDLEAGTMDSVR          -1.0000     NotChecked  -25.0237    1588.8130   ✗       
+804   +42.011LLVDLQ+0.984PGTMDSVR-1.0000     NotChecked  -25.0262    1585.8022   ✗       
+805   ALLVN+0.984LEPGTMDSSR    -1.0000     NotChecked  -25.0272    1602.7923   ✗       
+806   ALLVDLEPGTMDSV           -1.0000     NotChecked  -25.0287    1458.7276   ✗       
+807   ALLVDLEPGTMN+0.984SVQ    -1.0000     NotChecked  -25.0287    1586.7862   ✗       
+808   ALLVDLEPGTMDSV           -1.0000     NotChecked  -25.0326    1458.7276   ✗       
+809   ALLSDLQ+0.984PGTMDSVR    -1.0000     NotChecked  -25.0329    1602.7923   ✗       
+810   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -25.0424    1585.8022   ✗       
+811   ALLVDLEPGTMDSV           -1.0000     NotChecked  -25.0509    1458.7276   ✗       
+812   +42.011LLVDLEPGTMNSVR    -1.0000     NotChecked  -25.0561    1584.8181   ✗       
+813   GLLVDLEPGTMDSVR          -1.0000     NotChecked  -25.0588    1600.8130   ✗       
+814   ALLVDLEPGTMN+0.984SV     -1.0000     NotChecked  -25.0618    1458.7276   ✗       
+815   +43.006LLVDLEPGTMDVR     -1.0000     NotChecked  -25.0640    1499.7654   ✗       
+816   GLLVDLEPGTMDSVR          -1.0000     NotChecked  -25.0645    1600.8130   ✗       
+817   ALLVDLEPGTMDAVR          -1.0000     NotChecked  -25.0656    1598.8338   ✗       
+818   AVLVDLQ+0.984PGTMDSVR    -1.0000     NotChecked  -25.0675    1600.8131   ✗       
+819   ALLVDLEPGTMDSVS          -1.0000     NotChecked  -25.0904    1545.7596   ✗       
+820   GVLVDLEPGTMDSVR          -1.0000     NotChecked  -25.1026    1586.7974   ✗       
+821   ALTVDLQ+0.984PGTMDSVR    -1.0000     NotChecked  -25.1194    1602.7923   ✗       
+822   AALVDLEPTMDSVR           -1.0000     NotChecked  -25.1243    1515.7603   ✗       
+823   ALLVDLEGGTMDSVR          -1.0000     NotChecked  -25.1262    1574.7974   ✗       
+824   AVLVDLEPGTMDSVR          -1.0000     NotChecked  -25.1266    1600.8131   ✗       
+825   ALLVDAQ+0.984PGTMDSVR    -1.0000     NotChecked  -25.1409    1572.7818   ✗       
+826   ALAVDLEPGTMDSVR          -1.0000     NotChecked  -25.1440    1572.7818   ✗       
+827   +42.011LLVTLEPGTMDSVR    -1.0000     NotChecked  -25.1442    1571.8229   ✗       
+828   ALLVDLKPGTMDSVR          -1.0000     NotChecked  -25.1522    1613.8811   ✗       
+829   ALLVDLKPGTMDSVR          -1.0000     NotChecked  -25.1561    1613.8811   ✗       
+830   ALLVDLEPGTMDSR           -1.0000     NotChecked  -25.1565    1515.7603   ✗       
+831   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -25.1605    1585.8022   ✗       
+832   ALVVDLEPGTMDSVR          -1.0000     NotChecked  -25.1632    1600.8131   ✗       
+833   ALVVDLEPGTMDSVR          -1.0000     NotChecked  -25.1671    1600.8131   ✗       
+834   ALLVDLKPGTMDSVR          -1.0000     NotChecked  -25.1744    1613.8811   ✗       
+835   +42.011LLVDMEPGTMDSVR    -1.0000     NotChecked  -25.1756    1603.7586   ✗       
+836   +43.006LLVDLEPGTMN+0.984SVR-1.0000     NotChecked  -25.1779    1586.7974   ✗       
+837   +42.011LVDLEPGTMDSVR     -1.0000     NotChecked  -25.1796    1472.7181   ✗       
+838   ALVVDLEPGTMDSVR          -1.0000     NotChecked  -25.1854    1600.8131   ✗       
+839   ALLVDLEPTMDSVR           -1.0000     NotChecked  -25.1879    1557.8072   ✗       
+840   ALLVTLEPGTMN+0.984SVR    -1.0000     NotChecked  -25.1910    1600.8494   ✗       
+841   +43.006LLVDLEPGTMESVR    -1.0000     NotChecked  -25.1958    1600.8131   ✗       
+842   VLLADLEPGTMDSVR          -1.0000     Failed      -25.1985    1614.8287   ✓       
+843   +43.006LLVDLEPGTMDSVR    -1.0000     NotChecked  -25.2134    1586.7974   ✗       
+844   +43.006ALVDLEPGTMDSVR    -1.0000     NotChecked  -25.2327    1544.7505   ✗       
+845   LLVDLEPGTMDSVR           -1.0000     NotChecked  -25.3145    1543.7916   ✗       
+846   +42.011LLVDLQ+0.984PGTMDSVR-1.0000     NotChecked  -25.3362    1585.8022   ✗       
+847   +42.011LLVDLQ+0.984PGTMDSVR-1.0000     NotChecked  -25.3418    1585.8022   ✗       
+848   +42.011LLVN+0.984LEPGTMN+0.984SVR-1.0000     NotChecked  -25.3463    1585.8022   ✗       
+849   +43.006LLVDLEPGTMDSVR    -1.0000     NotChecked  -25.3554    1586.7974   ✗       
+850   +43.006KLVDLEPGTMDSVR    -1.0000     NotChecked  -25.3628    1601.8083   ✗       
+851   VLLVDLEPGTMDSV           -1.0000     NotChecked  -25.3630    1486.7589   ✗       
+852   +43.006LLVDLEPGTMDSR     -1.0000     NotChecked  -25.3747    1487.7290   ✗       
+853   +42.011LLVDLEPGTMDAVR    -1.0000     NotChecked  -25.3780    1569.8072   ✗       
+854   +42.011VLVDLQ+0.984PGTMDSVR-1.0000     NotChecked  -25.3799    1571.7865   ✗       
+855   +43.006LLVDLEPGTMDVVR    -1.0000     NotChecked  -25.3857    1598.8338   ✗       
+856   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -25.3952    1585.8022   ✗       
+857   +43.006LLVDLEPGTMMSVR    -1.0000     NotChecked  -25.4016    1602.8109   ✗       
+858   +42.011LLVDLEPGTMDSVS    -1.0000     NotChecked  -25.4027    1516.7331   ✗       
+859   +42.011LLVDLEPGTMDLVR    -1.0000     NotChecked  -25.4067    1611.8542   ✗       
+860   +42.011LLVDLEPGTMDSLR    -1.0000     NotChecked  -25.4134    1599.8178   ✗       
+861   GLLVDLEPGTMN+0.984SVR    -1.0000     NotChecked  -25.4181    1600.8130   ✗       
+862   +42.011ELVDLEPGTMDSVR    -1.0000     NotChecked  -25.4491    1601.7607   ✗       
+863   +42.011LLVDLRPGTMDSVR    -1.0000     NotChecked  -25.4635    1612.8607   ✗       
+864   +43.006LLVDLPGTMDSVR     -1.0000     NotChecked  -25.4924    1457.7548   ✗       
+865   +42.011LLADLEPGTMDSVR    -1.0000     NotChecked  -25.5087    1557.7709   ✗       
+866   TALVDLEPGTMDSVR          -1.0000     NotChecked  -25.5430    1602.7923   ✗       
+867   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -25.5738    1585.8022   ✗       
+868   VLLVDLEPTMDSVR           -1.0000     NotChecked  -25.6096    1585.8385   ✗       
+869   +43.006LLVDLQPGTMDSVR    -1.0000     NotChecked  -25.6397    1585.8134   ✗       
+870   +43.006LLVVLEPGTMDSVR    -1.0000     NotChecked  -25.6427    1570.8389   ✗       
+871   +42.011LLVDLEPGTMDSV     -1.0000     NotChecked  -25.6732    1429.7010   ✗       
+872   +42.011Q+0.984LVDLEPGTMDSVR-1.0000     NotChecked  -25.6793    1601.7607   ✗       
+873   +42.011LLVDLQ+0.984PGTMN+0.984SVR-1.0000     NotChecked  -25.6954    1585.8022   ✗       
+874   +42.011LLVDLMPGTMDSVR    -1.0000     NotChecked  -25.7014    1587.8000   ✗       
+875   +43.006ALVDLQ+0.984PGTMDSVR-1.0000     NotChecked  -25.7139    1544.7505   ✗       
+876   +42.011LLVDLPPGTMDSVR    -1.0000     NotChecked  -25.7150    1553.8123   ✗       
+877   +42.011ALVDLEPGTMDSVR    -1.0000     NotChecked  -25.7313    1543.7552   ✗       
+878   +42.011LLVDLEPGTMDSVT    -1.0000     NotChecked  -25.7503    1530.7487   ✗       
+879   +43.006LLVGLEPGTMDSVR    -1.0000     NotChecked  -25.7618    1528.7919   ✗       
+880   +42.011LLVDLEPGTMDSPR    -1.0000     NotChecked  -25.7781    1583.7865   ✗       
+881   +42.011LLVDLKPGTMDSVR    -1.0000     NotChecked  -25.7967    1584.8545   ✗       
+882   +42.011LLVDPEPGTMDSVR    -1.0000     NotChecked  -25.8068    1569.7709   ✗       
+883   +42.011LVVDLEPGTMDSVR    -1.0000     NotChecked  -25.8078    1571.7865   ✗       
+884   +43.006LLVDLSPGTMDSVR    -1.0000     NotChecked  -25.8105    1544.7868   ✗       
+885   +42.011LLTDLEPGTMDSVR    -1.0000     NotChecked  -25.8106    1587.7814   ✗       
+886   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -25.8167    1585.8022   ✗       
+887   +42.011LLVDLEGTMDSVR     -1.0000     NotChecked  -25.8303    1488.7494   ✗       
+888   +43.006LLVDLEPGTMDSVQ    -1.0000     NotChecked  -25.8427    1558.7549   ✗       
+889   +43.006LLVN+0.984LEPGTMDSVR-1.0000     NotChecked  -25.8479    1586.7974   ✗       
+890   +42.011PLVDLEPGTMDSVR    -1.0000     NotChecked  -25.8485    1569.7709   ✗       
+891   +42.011LEVDLEPGTMDSVR    -1.0000     NotChecked  -25.8603    1601.7607   ✗       
+892   +43.006LLVDLQ+0.984PGTMDSVR-1.0000     NotChecked  -25.8648    1586.7974   ✗       
+893   +43.006LLVDLQ+0.984PGTMDSVR-1.0000     NotChecked  -25.8687    1586.7974   ✗       
+894   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -25.8718    1585.8022   ✗       
+895   +43.006LLVDLEPGTMDSV     -1.0000     NotChecked  -25.8757    1430.6963   ✗       
+896   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -25.8822    1585.8022   ✗       
+897   VLLVDLEPGTMDGVR          -1.0000     NotChecked  -25.8839    1612.8494   ✗       
+898   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -25.8862    1585.8022   ✗       
+899   +43.006LLVDLQ+0.984PGTMDSVR-1.0000     NotChecked  -25.8870    1586.7974   ✗       
+900   +43.006LLVDLEPGTMDSVR    -1.0000     NotChecked  -25.9032    1586.7974   ✗       
+901   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -25.9045    1585.8022   ✗       
+902   +43.006LLVDLEPGTMNSVR    -1.0000     NotChecked  -25.9169    1585.8134   ✗       
+903   +42.011LLVDLEPTMDSVR     -1.0000     NotChecked  -25.9198    1528.7807   ✗       
+904   +42.011LLVDLEPGTMSVR     -1.0000     NotChecked  -25.9221    1470.7752   ✗       
+905   +42.011LLVN+0.984LEPGTMDSVR-1.0000     NotChecked  -25.9421    1585.8022   ✗       
+906   +43.006LLVTLEPGTMDSVR    -1.0000     NotChecked  -26.0050    1572.8181   ✗       
+907   GLLVDLEPGTMDSVR          -1.0000     NotChecked  -26.0109    1600.8130   ✗       
+908   GLLVDLEPGTMDSVR          -1.0000     NotChecked  -26.0138    1600.8130   ✗       
+909   +43.006LLVDLEPGTMDSVR    -1.0000     NotChecked  -26.0213    1586.7974   ✗       
+910   +42.011LLVDLDPGTMDSVR    -1.0000     NotChecked  -26.0315    1571.7865   ✗       
+911   +43.006LLVDMEPGTMDSVR    -1.0000     NotChecked  -26.0364    1604.7538   ✗       
+912   +43.006LVDLEPGTMDSVR     -1.0000     NotChecked  -26.0405    1473.7133   ✗       
+913   +42.011ALVDLEPGTMN+0.984SVR-1.0000     NotChecked  -26.0906    1543.7552   ✗       
+914   +42.011LLVSLEPGTMDSVR    -1.0000     NotChecked  -26.1252    1557.8072   ✗       
+915   +42.011LLVDLEPGTTDSVR    -1.0000     NotChecked  -26.1323    1555.8093   ✗       
+916   +42.011LDVDLEPGTMDSVR    -1.0000     NotChecked  -26.1361    1587.7450   ✗       
+917   +42.011LSVDLEPGTMDSVR    -1.0000     NotChecked  -26.1547    1559.7501   ✗       
+918   +42.011LLVDLEPGTMDGVR    -1.0000     NotChecked  -26.1941    1555.7916   ✗       
+919   +43.006LLVDLQ+0.984PGTMDSVR-1.0000     NotChecked  -26.1970    1586.7974   ✗       
+920   +43.006LLVDLQ+0.984PGTMDSVR-1.0000     NotChecked  -26.2027    1586.7974   ✗       
+921   +43.006LLVN+0.984LEPGTMN+0.984SVR-1.0000     NotChecked  -26.2072    1586.7974   ✗       
+922   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -26.2201    1585.8022   ✗       
+923   +42.011LLSDLEPGTMDSVR    -1.0000     NotChecked  -26.2236    1573.7658   ✗       
+924   LLLVDLEPGTMDSV           -1.0000     NotChecked  -26.2268    1500.7745   ✗       
+925   +43.006LLVDLEPGTMDAVR    -1.0000     NotChecked  -26.2389    1570.8025   ✗       
+926   +43.006VLVDLQ+0.984PGTMDSVR-1.0000     NotChecked  -26.2407    1572.7818   ✗       
+927   +42.011LLVDLEPGTMN+0.984SVR-1.0000     NotChecked  -26.2415    1585.8022   ✗       
+928   +42.011LLVDLEPGTMN+0.984SVR-1.0000     NotChecked  -26.2454    1585.8022   ✗       
+929   +42.011LLVDLEPGTM+15.995DSVR-1.0000     NotChecked  -26.2488    1601.7971   ✗       
+930   +43.006LLVDLEPGTMDSVR    -1.0000     NotChecked  -26.2561    1586.7974   ✗       
+931   +42.011VLVDLEPGTMDSVR    -1.0000     NotChecked  -26.2582    1571.7865   ✗       
+932   +43.006LLVDLEPGTMDSVS    -1.0000     NotChecked  -26.2636    1517.7283   ✗       
+933   +42.011LLVDLEPGTMN+0.984SVR-1.0000     NotChecked  -26.2637    1585.8022   ✗       
+934   +43.006LLVDLEPGTMDLVR    -1.0000     NotChecked  -26.2675    1612.8494   ✗       
+935   +43.006LLVDLEPGTMDSLR    -1.0000     NotChecked  -26.2743    1600.8131   ✗       
+936   +42.011LLVDLQ+0.984PGTMDSVR-1.0000     NotChecked  -26.2883    1585.8022   ✗       
+937   +42.011LLVDLQ+0.984PGTMDSVR-1.0000     NotChecked  -26.2912    1585.8022   ✗       
+938   +43.006ELVDLEPGTMDSVR    -1.0000     NotChecked  -26.3099    1602.7559   ✗       
+939   +42.011LTVDLEPGTMDSVR    -1.0000     NotChecked  -26.3100    1573.7658   ✗       
+940   +43.006LLVDLRPGTMDSVR    -1.0000     NotChecked  -26.3244    1613.8559   ✗       
+941   +42.011LLVDAEPGTMDSVR    -1.0000     NotChecked  -26.3315    1543.7552   ✗       
+942   +43.006LLADLEPGTMDSVR    -1.0000     NotChecked  -26.3696    1558.7661   ✗       
+943   +43.006LLVDLEPGTMDSVR    -1.0000     NotChecked  -26.4346    1586.7974   ✗       
+944   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -26.4407    1585.8022   ✗       
+945   LLLVDLEPTMDSVR           -1.0000     NotChecked  -26.4734    1599.8542   ✗       
+946   +42.011LLVDLEPGTMASVR    -1.0000     NotChecked  -26.4896    1541.8123   ✗       
+947   +42.011LLVDLEPGTMDSAR    -1.0000     NotChecked  -26.4940    1557.7709   ✗       
+948   VLAVDLEPGTMDSVR          -1.0000     NotChecked  -26.5055    1600.8131   ✗       
+949   +43.006LLVDLEPGTMDSV     -1.0000     NotChecked  -26.5341    1430.6963   ✗       
+950   +43.006Q+0.984LVDLEPGTMDSVR-1.0000     NotChecked  -26.5401    1602.7559   ✗       
+951   VLLVDLEPGGMDSVR          -1.0000     NotChecked  -26.5529    1598.8338   ✗       
+952   +43.006LLVDLQ+0.984PGTMN+0.984SVR-1.0000     NotChecked  -26.5563    1586.7974   ✗       
+953   +42.011LLVDLEPGTMDSVD    -1.0000     NotChecked  -26.5575    1544.7280   ✗       
+954   +43.006LLVDLMPGTMDSVR    -1.0000     NotChecked  -26.5623    1588.7953   ✗       
+955   +42.011LLVDLEPGTMDSSR    -1.0000     NotChecked  -26.5669    1573.7658   ✗       
+956   +42.011LLVDLEPGTMN+0.984SVR-1.0000     NotChecked  -26.5737    1585.8022   ✗       
+957   VLLVDLEPGAMDSVR          -1.0000     NotChecked  -26.5749    1612.8494   ✗       
+958   +43.006LLVDLPPGTMDSVR    -1.0000     NotChecked  -26.5758    1554.8076   ✗       
+959   +42.011LLVDLEPGTMN+0.984SVR-1.0000     NotChecked  -26.5793    1585.8022   ✗       
+960   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -26.5857    1585.8022   ✗       
+961   +43.006ALVDLEPGTMDSVR    -1.0000     NotChecked  -26.5921    1544.7505   ✗       
+962   TLLVDLEPGTMDSV           -1.0000     NotChecked  -26.6101    1488.7381   ✗       
+963   +43.006LLVDLEPGTMDSVT    -1.0000     NotChecked  -26.6111    1531.7440   ✗       
+964   +42.011VLVDLEPGTMN+0.984SVR-1.0000     NotChecked  -26.6174    1571.7865   ✗       
+965   +42.011LLVDLEPATMDSVR    -1.0000     NotChecked  -26.6203    1599.8178   ✗       
+966   +43.006LLVDLEPGTMDSPR    -1.0000     NotChecked  -26.6389    1584.7818   ✗       
+967   +43.006LLVDLKPGTMDSVR    -1.0000     NotChecked  -26.6576    1585.8498   ✗       
+968   +43.006LLVDPEPGTMDSVR    -1.0000     NotChecked  -26.6676    1570.7661   ✗       
+969   +43.006LVVDLEPGTMDSVR    -1.0000     NotChecked  -26.6686    1572.7818   ✗       
+970   +43.006LLTDLEPGTMDSVR    -1.0000     NotChecked  -26.6714    1588.7767   ✗       
+971   +43.006LLVDLEPGTMDSVR    -1.0000     NotChecked  -26.6776    1586.7974   ✗       
+972   +42.011ALVDLEPGTMDSVR    -1.0000     NotChecked  -26.6863    1543.7552   ✗       
+973   +43.006LLVDLEGTMDSVR     -1.0000     NotChecked  -26.6912    1489.7446   ✗       
+974   +42.011LLVDLEAGTMDSVR    -1.0000     NotChecked  -26.6955    1559.7865   ✗       
+975   +43.006PLVDLEPGTMDSVR    -1.0000     NotChecked  -26.7094    1570.7661   ✗       
+976   +42.011LLVDLEPGTMDSTR    -1.0000     NotChecked  -26.7100    1587.7814   ✗       
+977   +42.011LLVELEPGTMDSVR    -1.0000     NotChecked  -26.7108    1599.8178   ✗       
+978   +43.006LEVDLEPGTMDSVR    -1.0000     NotChecked  -26.7211    1602.7559   ✗       
+979   +43.006LLVDLEPGTMDSVR    -1.0000     NotChecked  -26.7326    1586.7974   ✗       
+980   +43.006LLVDLEPGTMDSVR    -1.0000     NotChecked  -26.7431    1586.7974   ✗       
+981   +43.006LLVDLEPGTMDSVR    -1.0000     NotChecked  -26.7470    1586.7974   ✗       
+982   +43.006LLVDLEPGTMDSVR    -1.0000     NotChecked  -26.7653    1586.7974   ✗       
+983   +43.006LLVDLEPTMDSVR     -1.0000     NotChecked  -26.7807    1529.7759   ✗       
+984   +43.006LLVDLEPGTMSVR     -1.0000     NotChecked  -26.7829    1471.7705   ✗       
+985   +42.011LKVDLEPGTMDSVR    -1.0000     NotChecked  -26.7847    1600.8131   ✗       
+986   +42.011LLVDLEGGTMDSVR    -1.0000     NotChecked  -26.7980    1545.7709   ✗       
+987   +43.006LLVN+0.984LEPGTMDSVR-1.0000     NotChecked  -26.8029    1586.7974   ✗       
+988   +42.011LAVDLEPGTMDSVR    -1.0000     NotChecked  -26.8158    1543.7552   ✗       
+989   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -26.8372    1585.8022   ✗       
+990   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -26.8412    1585.8022   ✗       
+991   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -26.8494    1585.8022   ✗       
+992   TLLVDLEPTMDSVR           -1.0000     NotChecked  -26.8567    1587.8178   ✗       
+993   +42.011LLVDLEPGTMDSVR    -1.0000     NotChecked  -26.8595    1585.8022   ✗       
+994   +42.011LLVDLEPGGMDSVR    -1.0000     NotChecked  -26.8632    1541.7759   ✗       
+995   +42.011LLVDLEPGTMSSVR    -1.0000     NotChecked  -26.8709    1557.8072   ✗       
+996   +42.011LLVDLEPGAMDSVR    -1.0000     NotChecked  -26.8851    1555.7916   ✗       
+997   +43.006LLVDLDPGTMDSVR    -1.0000     NotChecked  -26.8923    1572.7818   ✗       
+998   +42.011LLVNLEPGTMDSVR    -1.0000     NotChecked  -26.9367    1584.8181   ✗       
+999   +42.011LLVDLEPGTMDSVK    -1.0000     NotChecked  -26.9492    1557.7960   ✗       
+1000  +43.006ALVDLEPGTMN+0.984SVR-1.0000     NotChecked  -26.9514    1544.7505   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: ALLVDLEPGTMDSVR
+Similarity: 0.7669
+De Novo Score: -0.0448
+Source: Database
+Correct: ✓
+

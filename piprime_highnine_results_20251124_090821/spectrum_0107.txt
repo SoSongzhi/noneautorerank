@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 107
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 464.2724
+Precursor charge: 2+
+Ground truth: GANGIIGIGR
+Ground truth (normalized): GANGIIGIGR
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 196
+Used for reranking: 196
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 196 (19.6%)
+Database matches: 161 (16.1%)
+Prosit predictions: 32 (3.2%)
+Failed: 3 (0.3%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.9785
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     GANGLLGLGR               0.9785      Database    -0.2547     926.5298    ✓       ✓
+2     GANGLLGLGR               0.9785      Database    -1.5146     926.5298    ✓       ✓
+3     GANGLLGLGR               0.9785      Database    -5.7959     926.5298    ✓       ✓
+4     GANGLLGLGR               0.9785      Database    -7.0558     926.5298    ✓       ✓
+5     GANGLLGLGR               0.9785      Database    -7.6528     926.5298    ✓       ✓
+6     GANGLLGLGR               0.9785      Database    -7.9915     926.5298    ✓       ✓
+7     GANGLLGLGR               0.9785      Database    -8.9128     926.5298    ✓       ✓
+8     GANGLLGLGR               0.9785      Database    -12.2743    926.5298    ✓       ✓
+9     GANGLLGLGR               0.9785      Database    -13.1301    926.5298    ✓       ✓
+10    GANGLLGLGR               0.9785      Database    -13.1940    926.5298    ✓       ✓
+11    GANGLLGLGR               0.9785      Database    -13.4342    926.5298    ✓       ✓
+12    GANGLLGLGR               0.9785      Database    -13.5317    926.5298    ✓       ✓
+13    GANGLLGLGR               0.9785      Database    -13.5327    926.5298    ✓       ✓
+14    GANGLLGLGR               0.9785      Database    -13.5343    926.5298    ✓       ✓
+15    GANGLLGLGR               0.9785      Database    -14.4540    926.5298    ✓       ✓
+16    GANGLLGLGR               0.9785      Database    -14.6942    926.5298    ✓       ✓
+17    GANGLLGLGR               0.9785      Database    -14.7916    926.5298    ✓       ✓
+18    GANGLLGLGR               0.9785      Database    -15.3897    926.5298    ✓       ✓
+19    GANGLLGLGR               0.9785      Database    -15.5534    926.5298    ✓       ✓
+20    GANGLLGLGR               0.9785      Database    -15.6810    926.5298    ✓       ✓
+21    GANGLLGLGR               0.9785      Database    -15.8893    926.5298    ✓       ✓
+22    GANGLLGLGR               0.9785      Database    -16.4953    926.5298    ✓       ✓
+23    GANGLLGLGR               0.9785      Database    -16.8133    926.5298    ✓       ✓
+24    GANGLLGLGR               0.9785      Database    -16.8808    926.5298    ✓       ✓
+25    GANGLLGLGR               0.9785      Database    -16.9410    926.5298    ✓       ✓
+26    GANGLLGLGR               0.9785      Database    -17.1493    926.5298    ✓       ✓
+27    GANGLLGLGR               0.9785      Database    -17.3111    926.5298    ✓       ✓
+28    GANGLLGLGR               0.9785      Database    -17.7553    926.5298    ✓       ✓
+29    GANGLLGLGR               0.9785      Database    -17.8155    926.5298    ✓       ✓
+30    GANGLLGLGR               0.9785      Database    -18.0756    926.5298    ✓       ✓
+31    GANGLLGLGR               0.9785      Database    -18.1407    926.5298    ✓       ✓
+32    GANGLLGLGR               0.9785      Database    -18.5154    926.5298    ✓       ✓
+33    GANGLLGLGR               0.9785      Database    -18.5710    926.5298    ✓       ✓
+34    GANGLLGLGR               0.9785      Database    -18.6713    926.5298    ✓       ✓
+35    GANGLLGLGR               0.9785      Database    -18.7806    926.5298    ✓       ✓
+36    GANGLLGLGR               0.9785      Database    -18.9754    926.5298    ✓       ✓
+37    GANGLLGLGR               0.9785      Database    -19.0755    926.5298    ✓       ✓
+38    GANGLLGLGR               0.9785      Database    -19.3356    926.5298    ✓       ✓
+39    GANGLLGLGR               0.9785      Database    -19.6725    926.5298    ✓       ✓
+40    GANGLLGLGR               0.9785      Database    -19.7754    926.5298    ✓       ✓
+41    GANGLLGLGR               0.9785      Database    -20.0112    926.5298    ✓       ✓
+42    GANGLLGLGR               0.9785      Database    -20.0405    926.5298    ✓       ✓
+43    GANGLLGLGR               0.9785      Database    -20.2354    926.5298    ✓       ✓
+44    GANGLLGLGR               0.9785      Database    -20.4796    926.5298    ✓       ✓
+45    GANGLLGLGR               0.9785      Database    -20.5283    926.5298    ✓       ✓
+46    GANGLLGLGR               0.9785      Database    -20.7590    926.5298    ✓       ✓
+47    GANGLLGLGR               0.9785      Database    -20.8324    926.5298    ✓       ✓
+48    GANGLLGLGR               0.9785      Database    -20.9298    926.5298    ✓       ✓
+49    GANGLLGLGR               0.9785      Database    -20.9309    926.5298    ✓       ✓
+50    GANGLLGLGR               0.9785      Database    -20.9324    926.5298    ✓       ✓
+51    GANGLLGLGR               0.9785      Database    -21.0946    926.5298    ✓       ✓
+52    GANGLLGLGR               0.9785      Database    -21.1711    926.5298    ✓       ✓
+53    GANGLLGLGR               0.9785      Database    -21.2222    926.5298    ✓       ✓
+54    GANGLLGLGR               0.9785      Database    -21.2685    926.5298    ✓       ✓
+55    GANGLLGLGR               0.9785      Database    -21.4305    926.5298    ✓       ✓
+56    GANGLLGLGR               0.9785      Database    -21.7396    926.5298    ✓       ✓
+57    GANGLLGLGR               0.9785      Database    -21.7477    926.5298    ✓       ✓
+58    GANGLLGLGR               0.9785      Database    -22.0189    926.5298    ✓       ✓
+59    GANGLLGLGR               0.9785      Database    -22.0365    926.5298    ✓       ✓
+60    GANGLLGLGR               0.9785      Database    -22.0923    926.5298    ✓       ✓
+61    GANGLLGLGR               0.9785      Database    -22.1898    926.5298    ✓       ✓
+62    GANGLLGLGR               0.9785      Database    -22.3545    926.5298    ✓       ✓
+63    GANGLLGLGR               0.9785      Database    -22.4220    926.5298    ✓       ✓
+64    GANGLLGLGR               0.9785      Database    -22.4822    926.5298    ✓       ✓
+65    GANGLLGLGR               0.9785      Database    -22.6905    926.5298    ✓       ✓
+66    GANGLLGLGR               0.9785      Database    -22.8523    926.5298    ✓       ✓
+67    GANGLLGLGR               0.9785      Database    -22.9515    926.5298    ✓       ✓
+68    GANGLLGLGR               0.9785      Database    -23.0792    926.5298    ✓       ✓
+69    GANGLLGLGR               0.9785      Database    -23.2874    926.5298    ✓       ✓
+70    GANGLLGLGR               0.9785      Database    -23.2902    926.5298    ✓       ✓
+71    GANGLLGLGR               0.9785      Database    -23.2965    926.5298    ✓       ✓
+72    GANGLLGLGR               0.9785      Database    -23.4179    926.5298    ✓       ✓
+73    GANGLLGLGR               0.9785      Database    -23.6168    926.5298    ✓       ✓
+74    GANGLLGLGR               0.9785      Database    -23.6261    926.5298    ✓       ✓
+75    GANGLLGLGR               0.9785      Database    -23.6819    926.5298    ✓       ✓
+76    GANGLLGLGR               0.9785      Database    -23.8934    926.5298    ✓       ✓
+77    GANGLLGLGR               0.9785      Database    -24.0566    926.5298    ✓       ✓
+78    GANGLLGLGR               0.9785      Database    -24.1122    926.5298    ✓       ✓
+79    GANGLLGLGR               0.9785      Database    -24.2115    926.5298    ✓       ✓
+80    GANGLLGLGR               0.9785      Database    -24.2321    926.5298    ✓       ✓
+81    GANGLLGLGR               0.9785      Database    -24.2789    926.5298    ✓       ✓
+82    GANGLLGLGR               0.9785      Database    -24.3391    926.5298    ✓       ✓
+83    GANGLLGLGR               0.9785      Database    -24.5474    926.5298    ✓       ✓
+84    GANGLLGLGR               0.9785      Database    -24.6176    926.5298    ✓       ✓
+85    GANGLLGLGR               0.9785      Database    -24.7092    926.5298    ✓       ✓
+86    GANGLLGLGR               0.9785      Database    -24.8768    926.5298    ✓       ✓
+87    GANGLLGLGR               0.9785      Database    -24.9687    926.5298    ✓       ✓
+88    GANGLLGLGR               0.9785      Database    -25.0479    926.5298    ✓       ✓
+89    GANGLLGLGR               0.9785      Database    -25.1498    926.5298    ✓       ✓
+90    GANGLLGLGR               0.9785      Database    -25.1534    926.5298    ✓       ✓
+91    GANGLLGLGR               0.9785      Database    -25.2137    926.5298    ✓       ✓
+92    GANGLLGLGR               0.9785      Database    -25.3166    926.5298    ✓       ✓
+93    GANGLLGLGR               0.9785      Database    -25.4539    926.5298    ✓       ✓
+94    GANGLLGLGR               0.9785      Database    -25.4738    926.5298    ✓       ✓
+95    GANGLLGLGR               0.9785      Database    -25.5389    926.5298    ✓       ✓
+96    GANGLLGLGR               0.9785      Database    -25.5513    926.5298    ✓       ✓
+97    GANGLLGLGR               0.9785      Database    -25.5524    926.5298    ✓       ✓
+98    GANGLLGLGR               0.9785      Database    -25.6442    926.5298    ✓       ✓
+99    GANGLLGLGR               0.9785      Database    -25.8125    926.5298    ✓       ✓
+100   GANGLLGLGR               0.9785      Database    -25.9136    926.5298    ✓       ✓
+101   GANGLLGLGR               0.9785      Database    -25.9692    926.5298    ✓       ✓
+102   GANGLLGLGR               0.9785      Database    -25.9828    926.5298    ✓       ✓
+103   GANGLLGLGR               0.9785      Database    -26.0695    926.5298    ✓       ✓
+104   GANGLLGLGR               0.9785      Database    -26.1787    926.5298    ✓       ✓
+105   GANGLLGLGR               0.9785      Database    -26.2287    926.5298    ✓       ✓
+106   GANGLLGLGR               0.9785      Database    -26.2523    926.5298    ✓       ✓
+107   GANGLLGLGR               0.9785      Database    -26.3002    926.5298    ✓       ✓
+108   GANGLLGLGR               0.9785      Database    -26.3097    926.5298    ✓       ✓
+109   GANGLLGLGR               0.9785      Database    -26.3736    926.5298    ✓       ✓
+110   GANGLLGLGR               0.9785      Database    -26.4071    926.5298    ✓       ✓
+111   GANGLLGLGR               0.9785      Database    -26.4736    926.5298    ✓       ✓
+112   GANGLLGLGR               0.9785      Database    -26.5174    926.5298    ✓       ✓
+113   GANGLLGLGR               0.9785      Database    -26.5221    926.5298    ✓       ✓
+114   GANGLLGLGR               0.9785      Database    -26.7112    926.5298    ✓       ✓
+115   GANGLLGLGR               0.9785      Database    -26.7123    926.5298    ✓       ✓
+116   GANGLLGLGR               0.9785      Database    -26.7138    926.5298    ✓       ✓
+117   GANGLLGLGR               0.9785      Database    -26.7337    926.5298    ✓       ✓
+118   GANGLLGLGR               0.9785      Database    -26.8113    926.5298    ✓       ✓
+119   GANGLLGLGR               0.9785      Database    -26.9041    926.5298    ✓       ✓
+120   GANGLLGLGR               0.9785      Database    -27.1735    926.5298    ✓       ✓
+121   GANGLLGLGR               0.9785      Database    -27.2890    926.5298    ✓       ✓
+122   GANGLLGLGR               0.9785      Database    -27.4093    926.5298    ✓       ✓
+123   GANGLLGLGR               0.9785      Database    -27.4387    926.5298    ✓       ✓
+124   GANGLLGLGR               0.9785      Database    -27.5601    926.5298    ✓       ✓
+125   GANGLLGLGR               0.9785      Database    -27.5730    926.5298    ✓       ✓
+126   GANGLLGLGR               0.9785      Database    -27.6335    926.5298    ✓       ✓
+127   GANGLLGLGR               0.9785      Database    -27.7006    926.5298    ✓       ✓
+128   GANGLLGLGR               0.9785      Database    -27.7821    926.5298    ✓       ✓
+129   GANGLLGLGR               0.9785      Database    -27.8778    926.5298    ✓       ✓
+130   GANGLLGLGR               0.9785      Database    -27.9089    926.5298    ✓       ✓
+131   GANGLLGLGR               0.9785      Database    -27.9712    926.5298    ✓       ✓
+132   GANGLLGLGR               0.9785      Database    -28.1571    926.5298    ✓       ✓
+133   GANGLLGLGR               0.9785      Database    -28.2165    926.5298    ✓       ✓
+134   GANGLLGLGR               0.9785      Database    -28.4288    926.5298    ✓       ✓
+135   GANGLLGLGR               0.9785      Database    -28.4927    926.5298    ✓       ✓
+136   GANGLLGLGR               0.9785      Database    -28.4958    926.5298    ✓       ✓
+137   GANGLLGLGR               0.9785      Database    -28.5149    926.5298    ✓       ✓
+138   GANGLLGLGR               0.9785      Database    -28.5565    926.5298    ✓       ✓
+139   GANGLLGLGR               0.9785      Database    -28.5692    926.5298    ✓       ✓
+140   GANGLLGLGR               0.9785      Database    -28.6204    926.5298    ✓       ✓
+141   GANGLLGLGR               0.9785      Database    -28.6667    926.5298    ✓       ✓
+142   GANGLLGLGR               0.9785      Database    -28.7329    926.5298    ✓       ✓
+143   GANGLLGLGR               0.9785      Database    -28.7648    926.5298    ✓       ✓
+144   GANGLLGLGR               0.9785      Database    -28.8287    926.5298    ✓       ✓
+145   GANGLLGLGR               0.9785      Database    -28.8303    926.5298    ✓       ✓
+146   GANGLLGLGR               0.9785      Database    -28.8314    926.5298    ✓       ✓
+147   GANGLLGLGR               0.9785      Database    -28.8330    926.5298    ✓       ✓
+148   GANGLLGLGR               0.9785      Database    -28.8605    926.5298    ✓       ✓
+149   GANGLLGLGR               0.9785      Database    -28.9004    926.5298    ✓       ✓
+150   GANGLLGLGR               0.9785      Database    -28.9580    926.5298    ✓       ✓
+151   GANGLLGLGR               0.9785      Database    -28.9591    926.5298    ✓       ✓
+152   GANGLLGLGR               0.9785      Database    -28.9606    926.5298    ✓       ✓
+153   GANGLLGLGR               0.9785      Database    -29.0688    926.5298    ✓       ✓
+154   GANGLLGLGR               0.9785      Database    -29.1378    926.5298    ✓       ✓
+155   GANGLLGLGR               0.9785      Database    -29.1663    926.5298    ✓       ✓
+156   GANGLLGLGR               0.9785      Database    -29.1673    926.5298    ✓       ✓
+157   GANGLLGLGR               0.9785      Database    -29.1689    926.5298    ✓       ✓
+158   GANGLLGLGR               0.9785      Database    -29.3708    926.5298    ✓       ✓
+159   GANGLLGLGR               0.9785      Database    -29.7562    926.5298    ✓       ✓
+160   GANGLLGLGR               0.9785      Database    -30.1865    926.5298    ✓       ✓
+161   GANGLLGLGR               0.9785      Database    -30.6910    926.5298    ✓       ✓
+162   AGNGLLGLGR               0.6585      Prosit      -28.6136    926.5298    ✓       
+163   AGNGLLGLGR               0.6585      Prosit      -29.8735    926.5298    ✓       
+164   AGNGLLGLGR               0.6585      Prosit      -30.8502    926.5298    ✓       
+165   +42.011GANGLAGLGR        0.6440      Prosit      -27.9810    926.4934    ✓       
+166   +43.006AQGLLGLGR         0.6361      Prosit      -26.0570    926.5298    ✓       
+167   GANGLLGGLR               0.6336      Prosit      -27.2724    926.5298    ✓       
+168   GANGLLGGLR               0.6336      Prosit      -28.5324    926.5298    ✓       
+169   +43.006GAAGLLGLGR        0.6151      Prosit      -27.5501    926.5298    ✓       
+170   GANGLGLGLR               0.6016      Prosit      -28.3861    926.5298    ✓       
+171   GANGLLLGGR               0.5936      Prosit      -28.8030    926.5298    ✓       
+172   GANGLLGLRG               0.5889      Prosit      -25.6439    926.5298    ✓       
+173   GANGLLGLRG               0.5889      Prosit      -26.9039    926.5298    ✓       
+174   QNGLLGLGR                0.5844      Prosit      -30.0381    926.5298    ✓       
+175   AANGLLGVGR               0.5762      Prosit      -30.8028    926.5298    ✓       
+176   GANGGLGLLR               0.5721      Prosit      -28.2089    926.5298    ✓       
+177   +42.011ANGQLGLGR         0.5680      Prosit      -30.2338    926.4934    ✓       
+178   +42.011GANGLLGAGR        0.5634      Prosit      -28.1204    926.4934    ✓       
+179   +42.011ANGLLGKGR         0.5575      Prosit      -29.1040    926.5298    ✓       
+180   GQNGLLGLR                0.5498      Prosit      -28.8874    926.5298    ✓       
+181   +43.006ANGLLALGR         0.5360      Prosit      -28.1222    926.5298    ✓       
+182   +42.011ANGLQGLGR         0.5303      Prosit      -29.9610    926.4934    ✓       
+183   +43.006ANALLGLGR         0.5227      Prosit      -26.1337    926.5298    ✓       
+184   GANGLLLNR                0.5216      Prosit      -29.2199    926.5298    ✓       
+185   +42.011ANGLKGLGR         0.5200      Prosit      -30.0147    926.5298    ✓       
+186   ANGLLNLGR                0.5167      Prosit      -30.7380    926.5298    ✓       
+187   +43.006AKGLLGLGR         0.5120      Prosit      -28.2902    926.5662    ✓       
+188   ANNLLGLGR                0.5074      Prosit      -29.2864    926.5298    ✓       
+189   +42.011ANGKLGLGR         0.5052      Prosit      -28.7618    926.5298    ✓       
+190   GNGLLGLKR                0.4995      Prosit      -28.7075    926.5662    ✓       
+191   GANNLLGLR                0.4895      Prosit      -28.1357    926.5298    ✓       
+192   +42.011GANGLLGLGN        0.4766      Prosit      -27.9169    926.4821    ✓       
+193   GANLLGLNR                0.4757      Prosit      -29.1160    926.5298    ✓       
+194   +43.006ANGLLGLGR         -1.0000     NotChecked  -11.9304    912.5141    ✗       
+195   GANGLLGLG                -1.0000     NotChecked  -12.6593    770.4287    ✗       
+196   +42.011ANGLLGLGR         -1.0000     NotChecked  -12.7161    911.5189    ✗       
+197   GANGLLGLR                -1.0000     NotChecked  -13.2394    869.5083    ✗       
+198   GANGLLGLG                -1.0000     NotChecked  -13.9192    770.4287    ✗       
+199   GANGLLGGGR               -1.0000     NotChecked  -14.0789    870.4672    ✗       
+200   GNGLLGLGR                -1.0000     NotChecked  -14.3496    855.4927    ✗       
+201   ANGLLGLGR                -1.0000     NotChecked  -14.3901    869.5083    ✗       
+202   GANGLLGLR                -1.0000     NotChecked  -14.4993    869.5083    ✗       
+203   GANLLGLGR                -1.0000     NotChecked  -14.5025    869.5083    ✗       
+204   GANGLLLGR                -1.0000     NotChecked  -14.6064    869.5083    ✗       
+205   GANGLLGLR                -1.0000     NotChecked  -14.9384    869.5083    ✗       
+206   GANGGLGLGR               -1.0000     NotChecked  -15.0154    870.4672    ✗       
+207   GANGLGGLGR               -1.0000     NotChecked  -15.0296    870.4672    ✗       
+208   GANGLLGLGK               -1.0000     NotChecked  -15.2457    898.5236    ✗       
+209   GANGLLGVGR               -1.0000     NotChecked  -15.2789    912.5141    ✗       
+210   GALGLLGLGR               -1.0000     NotChecked  -15.2997    925.5709    ✗       
+211   GANGLLGGGR               -1.0000     NotChecked  -15.3389    870.4672    ✗       
+212   GAGGLLGLGR               -1.0000     NotChecked  -15.3711    869.5083    ✗       
+213   GGNGLLGLGR               -1.0000     NotChecked  -15.6096    912.5141    ✗       
+214   GANGLLGLGV               -1.0000     NotChecked  -15.7024    869.4971    ✗       
+215   GANLLGLGR                -1.0000     NotChecked  -15.7625    869.5083    ✗       
+216   GANGLLLGR                -1.0000     NotChecked  -15.8664    869.5083    ✗       
+217   GANGLLGLR                -1.0000     NotChecked  -16.1984    869.5083    ✗       
+218   GANGGLGLGR               -1.0000     NotChecked  -16.2753    870.4672    ✗       
+219   GANGLGGLGR               -1.0000     NotChecked  -16.2896    870.4672    ✗       
+220   GANGLLGLGS               -1.0000     NotChecked  -16.3961    857.4607    ✗       
+221   GANGLLGLGK               -1.0000     NotChecked  -16.5057    898.5236    ✗       
+222   GANGLLGVGR               -1.0000     NotChecked  -16.5388    912.5141    ✗       
+223   GALGLLGLGR               -1.0000     NotChecked  -16.5596    925.5709    ✗       
+224   GAGGLLGLGR               -1.0000     NotChecked  -16.6310    869.5083    ✗       
+225   GANGLLGLGN               -1.0000     NotChecked  -16.7154    884.4716    ✗       
+226   GANGLAGLGR               -1.0000     NotChecked  -16.7796    884.4828    ✗       
+227   GANGLLGLGT               -1.0000     NotChecked  -16.7802    871.4763    ✗       
+228   GANGLPGLGR               -1.0000     NotChecked  -16.8421    910.4985    ✗       
+229   GANGLLGPGR               -1.0000     NotChecked  -16.8664    910.4985    ✗       
+230   GANGLLGAGR               -1.0000     NotChecked  -16.9190    884.4828    ✗       
+231   GANGLLGLGV               -1.0000     NotChecked  -16.9624    869.4971    ✗       
+232   GANGLLGLGA               -1.0000     NotChecked  -17.0464    841.4658    ✗       
+233   GANGLLGLGF               -1.0000     NotChecked  -17.1103    917.4971    ✗       
+234   GAAGLLGLGR               -1.0000     NotChecked  -17.1344    883.5240    ✗       
+235   GANGVLGLGR               -1.0000     NotChecked  -17.1851    912.5141    ✗       
+236   GANGLLGLG                -1.0000     NotChecked  -17.2705    770.4287    ✗       
+237   +43.006ANGLLGLGR         -1.0000     NotChecked  -17.4716    912.5141    ✗       
+238   GANGLVGLGR               -1.0000     NotChecked  -17.6297    912.5141    ✗       
+239   GANGLLGLGS               -1.0000     NotChecked  -17.6561    857.4607    ✗       
+240   GAVGLLGLGR               -1.0000     NotChecked  -17.8227    911.5553    ✗       
+241   GANGPLGLGR               -1.0000     NotChecked  -17.8463    910.4985    ✗       
+242   GANGLLGLGN               -1.0000     NotChecked  -17.9754    884.4716    ✗       
+243   GAGLLGLGR                -1.0000     NotChecked  -18.0369    812.4868    ✗       
+244   GANGLAGLGR               -1.0000     NotChecked  -18.0395    884.4828    ✗       
+245   GANGLLGLGT               -1.0000     NotChecked  -18.0402    871.4763    ✗       
+246   GANGLGLGR                -1.0000     NotChecked  -18.0447    813.4457    ✗       
+247   GANGLPGLGR               -1.0000     NotChecked  -18.1020    910.4985    ✗       
+248   GANGLLGPGR               -1.0000     NotChecked  -18.1264    910.4985    ✗       
+249   GANGLLGAGR               -1.0000     NotChecked  -18.1789    884.4828    ✗       
+250   GANGLLGLG                -1.0000     NotChecked  -18.2005    770.4287    ✗       
+251   GNGLLGLGR                -1.0000     NotChecked  -18.2460    855.4927    ✗       
+252   +42.011ANGLLGLGR         -1.0000     NotChecked  -18.2573    911.5189    ✗       
+253   GANGLLGLGA               -1.0000     NotChecked  -18.3063    841.4658    ✗       
+254   GANGLLGLGF               -1.0000     NotChecked  -18.3702    917.4971    ✗       
+255   GAAGLLGLGR               -1.0000     NotChecked  -18.3944    883.5240    ✗       
+256   +43.006ANGLLGLGR         -1.0000     NotChecked  -18.4073    912.5141    ✗       
+257   GANGVLGLGR               -1.0000     NotChecked  -18.4451    912.5141    ✗       
+258   GANGLLGLG                -1.0000     NotChecked  -18.5304    770.4287    ✗       
+259   GANGLVGLGR               -1.0000     NotChecked  -18.8897    912.5141    ✗       
+260   GAVGLLGLGR               -1.0000     NotChecked  -19.0827    911.5553    ✗       
+261   GANGPLGLGR               -1.0000     NotChecked  -19.1063    910.4985    ✗       
+262   +42.011ANGLLGLGR         -1.0000     NotChecked  -19.1930    911.5189    ✗       
+263   GAGLLGLGR                -1.0000     NotChecked  -19.2968    812.4868    ✗       
+264   GANGLGLGR                -1.0000     NotChecked  -19.3046    813.4457    ✗       
+265   +43.006ANGLLGLGR         -1.0000     NotChecked  -19.3285    912.5141    ✗       
+266   GANGLLGLG                -1.0000     NotChecked  -19.4604    770.4287    ✗       
+267   GNGLLGLGR                -1.0000     NotChecked  -19.5060    855.4927    ✗       
+268   GANGLLGGR                -1.0000     NotChecked  -19.6201    813.4457    ✗       
+269   GNGLLGLGR                -1.0000     NotChecked  -19.8908    855.4927    ✗       
+270   ANGLLGLGR                -1.0000     NotChecked  -19.9313    869.5083    ✗       
+271   GANLLGLGR                -1.0000     NotChecked  -20.0437    869.5083    ✗       
+272   GANGLLGLG                -1.0000     NotChecked  -20.0574    770.4287    ✗       
+273   +42.011ANGLLGLGR         -1.0000     NotChecked  -20.1142    911.5189    ✗       
+274   GANGLLLGR                -1.0000     NotChecked  -20.1477    869.5083    ✗       
+275   GANGLLGLG                -1.0000     NotChecked  -20.3961    770.4287    ✗       
+276   GANGGLGLGR               -1.0000     NotChecked  -20.5566    870.4672    ✗       
+277   GANGLGGLGR               -1.0000     NotChecked  -20.5708    870.4672    ✗       
+278   GANGLLGLR                -1.0000     NotChecked  -20.6375    869.5083    ✗       
+279   GANGLLGLGK               -1.0000     NotChecked  -20.7869    898.5236    ✗       
+280   GANGLLGVGR               -1.0000     NotChecked  -20.8201    912.5141    ✗       
+281   GALGLLGLGR               -1.0000     NotChecked  -20.8409    925.5709    ✗       
+282   ANGLLGLGR                -1.0000     NotChecked  -20.8670    869.5083    ✗       
+283   GANGLLGGR                -1.0000     NotChecked  -20.8801    813.4457    ✗       
+284   GAGGLLGLGR               -1.0000     NotChecked  -20.9123    869.5083    ✗       
+285   GANGLLGLR                -1.0000     NotChecked  -20.9762    869.5083    ✗       
+286   GGNGLLGLGR               -1.0000     NotChecked  -21.1508    912.5141    ✗       
+287   GANGLLGLGV               -1.0000     NotChecked  -21.2436    869.4971    ✗       
+288   GANLLGLGR                -1.0000     NotChecked  -21.3037    869.5083    ✗       
+289   GANGLLGLG                -1.0000     NotChecked  -21.3174    770.4287    ✗       
+290   GANGLLLGR                -1.0000     NotChecked  -21.4076    869.5083    ✗       
+291   GANGLLGGGR               -1.0000     NotChecked  -21.4770    870.4672    ✗       
+292   ANGLLGLGR                -1.0000     NotChecked  -21.7882    869.5083    ✗       
+293   GANGLLGGGR               -1.0000     NotChecked  -21.8157    870.4672    ✗       
+294   GANGGLGLGR               -1.0000     NotChecked  -21.8165    870.4672    ✗       
+295   GANGLGGLGR               -1.0000     NotChecked  -21.8308    870.4672    ✗       
+296   GANGLLGLR                -1.0000     NotChecked  -21.8975    869.5083    ✗       
+297   GANLLGLGR                -1.0000     NotChecked  -21.9006    869.5083    ✗       
+298   GANGLLGLGS               -1.0000     NotChecked  -21.9373    857.4607    ✗       
+299   GANGLLLGR                -1.0000     NotChecked  -22.0046    869.5083    ✗       
+300   GANGLLGLGK               -1.0000     NotChecked  -22.0469    898.5236    ✗       
+301   GANGLLGVGR               -1.0000     NotChecked  -22.0801    912.5141    ✗       
+302   GALGLLGLGR               -1.0000     NotChecked  -22.1009    925.5709    ✗       
+303   GAGGLLGLGR               -1.0000     NotChecked  -22.1723    869.5083    ✗       
+304   GANLLGLGR                -1.0000     NotChecked  -22.2393    869.5083    ✗       
+305   ANGLLGLGR                -1.0000     NotChecked  -22.2555    869.5083    ✗       
+306   GANGLLGLGN               -1.0000     NotChecked  -22.2566    884.4716    ✗       
+307   GANGLAGLGR               -1.0000     NotChecked  -22.3208    884.4828    ✗       
+308   GANGLLGLGT               -1.0000     NotChecked  -22.3214    871.4763    ✗       
+309   GANGLLGLR                -1.0000     NotChecked  -22.3366    869.5083    ✗       
+310   GANGLLLGR                -1.0000     NotChecked  -22.3433    869.5083    ✗       
+311   GANGLPGLGR               -1.0000     NotChecked  -22.3833    910.4985    ✗       
+312   GANGLLGPGR               -1.0000     NotChecked  -22.4076    910.4985    ✗       
+313   GANGGLGLGR               -1.0000     NotChecked  -22.4135    870.4672    ✗       
+314   GANGLGGLGR               -1.0000     NotChecked  -22.4278    870.4672    ✗       
+315   GANGLLGAGR               -1.0000     NotChecked  -22.4602    884.4828    ✗       
+316   GANGLLGLGV               -1.0000     NotChecked  -22.5036    869.4971    ✗       
+317   GANGLLGLGA               -1.0000     NotChecked  -22.5876    841.4658    ✗       
+318   GANGLLGLGK               -1.0000     NotChecked  -22.6439    898.5236    ✗       
+319   GANGLLGLGF               -1.0000     NotChecked  -22.6515    917.4971    ✗       
+320   GANGLLGLR                -1.0000     NotChecked  -22.6753    869.5083    ✗       
+321   GAAGLLGLGR               -1.0000     NotChecked  -22.6756    883.5240    ✗       
+322   GANGLLGVGR               -1.0000     NotChecked  -22.6770    912.5141    ✗       
+323   GALGLLGLGR               -1.0000     NotChecked  -22.6978    925.5709    ✗       
+324   GANGVLGLGR               -1.0000     NotChecked  -22.7263    912.5141    ✗       
+325   GANGLLGGGR               -1.0000     NotChecked  -22.7370    870.4672    ✗       
+326   GANGGLGLGR               -1.0000     NotChecked  -22.7522    870.4672    ✗       
+327   GANGLGGLGR               -1.0000     NotChecked  -22.7665    870.4672    ✗       
+328   GAGGLLGLGR               -1.0000     NotChecked  -22.7692    869.5083    ✗       
+329   GANGLLGLG                -1.0000     NotChecked  -22.8117    770.4287    ✗       
+330   GANGLLGLGK               -1.0000     NotChecked  -22.9825    898.5236    ✗       
+331   GANGLLGVGR               -1.0000     NotChecked  -23.0157    912.5141    ✗       
+332   GALGLLGLGR               -1.0000     NotChecked  -23.0365    925.5709    ✗       
+333   +43.006GANGLLGLG         -1.0000     NotChecked  -23.0750    813.4345    ✗       
+334   GANGLLGLGV               -1.0000     NotChecked  -23.1006    869.4971    ✗       
+335   GAGGLLGLGR               -1.0000     NotChecked  -23.1079    869.5083    ✗       
+336   GANLLGLGR                -1.0000     NotChecked  -23.1606    869.5083    ✗       
+337   GANGLVGLGR               -1.0000     NotChecked  -23.1709    912.5141    ✗       
+338   GANGLLGLGS               -1.0000     NotChecked  -23.1973    857.4607    ✗       
+339   GANGLLLGR                -1.0000     NotChecked  -23.2646    869.5083    ✗       
+340   GAVGLLGLGR               -1.0000     NotChecked  -23.3639    911.5553    ✗       
+341   GANGPLGLGR               -1.0000     NotChecked  -23.3875    910.4985    ✗       
+342   GANGLLGLGV               -1.0000     NotChecked  -23.4393    869.4971    ✗       
+343   GANGLLGLGN               -1.0000     NotChecked  -23.5166    884.4716    ✗       
+344   GAGLLGLGR                -1.0000     NotChecked  -23.5781    812.4868    ✗       
+345   GANGLAGLGR               -1.0000     NotChecked  -23.5807    884.4828    ✗       
+346   GANGLLGLGT               -1.0000     NotChecked  -23.5814    871.4763    ✗       
+347   GANGLGLGR                -1.0000     NotChecked  -23.5859    813.4457    ✗       
+348   GANGLLGLR                -1.0000     NotChecked  -23.5965    869.5083    ✗       
+349   GANGLPGLGR               -1.0000     NotChecked  -23.6432    910.4985    ✗       
+350   +43.006GANGLLGLR         -1.0000     NotChecked  -23.6551    912.5141    ✗       
+351   GANGLLGPGR               -1.0000     NotChecked  -23.6676    910.4985    ✗       
+352   GANGGLGLGR               -1.0000     NotChecked  -23.6735    870.4672    ✗       
+353   GANGLGGLGR               -1.0000     NotChecked  -23.6877    870.4672    ✗       
+354   +43.006AN+0.984GLLGLGR   -1.0000     NotChecked  -23.6982    913.4981    ✗       
+355   GANGLLGAGR               -1.0000     NotChecked  -23.7201    884.4828    ✗       
+356   GNGLLGLGR                -1.0000     NotChecked  -23.7872    855.4927    ✗       
+357   GANGLLGLGS               -1.0000     NotChecked  -23.7943    857.4607    ✗       
+358   GANGLLGLGA               -1.0000     NotChecked  -23.8476    841.4658    ✗       
+359   +42.011GANGLLGLG         -1.0000     NotChecked  -23.8607    812.4392    ✗       
+360   GANGLLGLGK               -1.0000     NotChecked  -23.9038    898.5236    ✗       
+361   GANGLLGLGF               -1.0000     NotChecked  -23.9114    917.4971    ✗       
+362   GAAGLLGLGR               -1.0000     NotChecked  -23.9356    883.5240    ✗       
+363   GANGLLGVGR               -1.0000     NotChecked  -23.9370    912.5141    ✗       
+364   +43.006ANGLLGLGR         -1.0000     NotChecked  -23.9485    912.5141    ✗       
+365   +43.006ANGLLGLGR         -1.0000     NotChecked  -23.9500    912.5141    ✗       
+366   GALGLLGLGR               -1.0000     NotChecked  -23.9578    925.5709    ✗       
+367   GANGVLGLGR               -1.0000     NotChecked  -23.9863    912.5141    ✗       
+368   GAGGLLGLGR               -1.0000     NotChecked  -24.0292    869.5083    ✗       
+369   GANGLLGLG                -1.0000     NotChecked  -24.0717    770.4287    ✗       
+370   GANGLLGLGN               -1.0000     NotChecked  -24.1136    884.4716    ✗       
+371   GANGLLGLGS               -1.0000     NotChecked  -24.1330    857.4607    ✗       
+372   GANGLAGLGR               -1.0000     NotChecked  -24.1777    884.4828    ✗       
+373   GANGLLGLGT               -1.0000     NotChecked  -24.1784    871.4763    ✗       
+374   GANGLPGLGR               -1.0000     NotChecked  -24.2402    910.4985    ✗       
+375   GANGLLGPGR               -1.0000     NotChecked  -24.2646    910.4985    ✗       
+376   GANGLLGAGR               -1.0000     NotChecked  -24.3171    884.4828    ✗       
+377   +43.006ANGLLGLG          -1.0000     NotChecked  -24.3350    756.4130    ✗       
+378   GANGLLGLGV               -1.0000     NotChecked  -24.3605    869.4971    ✗       
+379   GAN+0.984GLLGLG          -1.0000     NotChecked  -24.4271    771.4127    ✗       
+380   GANGLVGLGR               -1.0000     NotChecked  -24.4309    912.5141    ✗       
+381   +42.011GANGLLGLR         -1.0000     NotChecked  -24.4408    911.5189    ✗       
+382   GANGLLGLGA               -1.0000     NotChecked  -24.4445    841.4658    ✗       
+383   GANGLLGLGN               -1.0000     NotChecked  -24.4523    884.4716    ✗       
+384   +42.011AN+0.984GLLGLGR   -1.0000     NotChecked  -24.4839    912.5029    ✗       
+385   +43.006GANGLLGGGR        -1.0000     NotChecked  -24.4946    913.4730    ✗       
+386   GANGLLGLGF               -1.0000     NotChecked  -24.5084    917.4971    ✗       
+387   GANGLAGLGR               -1.0000     NotChecked  -24.5164    884.4828    ✗       
+388   GANGLLGLGT               -1.0000     NotChecked  -24.5171    871.4763    ✗       
+389   GAAGLLGLGR               -1.0000     NotChecked  -24.5326    883.5240    ✗       
+390   GANGLPGLGR               -1.0000     NotChecked  -24.5789    910.4985    ✗       
+391   GANGVLGLGR               -1.0000     NotChecked  -24.5833    912.5141    ✗       
+392   GANGLLGPGR               -1.0000     NotChecked  -24.6033    910.4985    ✗       
+393   GAVGLLGLGR               -1.0000     NotChecked  -24.6239    911.5553    ✗       
+394   GANGPLGLGR               -1.0000     NotChecked  -24.6475    910.4985    ✗       
+395   GANGLLGAGR               -1.0000     NotChecked  -24.6558    884.4828    ✗       
+396   GANGLLGLG                -1.0000     NotChecked  -24.6686    770.4287    ✗       
+397   GANGLLGLG                -1.0000     NotChecked  -24.6789    770.4287    ✗       
+398   +42.011ANGLLGLGR         -1.0000     NotChecked  -24.7342    911.5189    ✗       
+399   +42.011ANGLLGLGR         -1.0000     NotChecked  -24.7357    911.5189    ✗       
+400   +43.006GNGLLGLGR         -1.0000     NotChecked  -24.7653    898.4985    ✗       
+401   GANGLLGLGA               -1.0000     NotChecked  -24.7832    841.4658    ✗       
+402   GAGLLGLGR                -1.0000     NotChecked  -24.8381    812.4868    ✗       
+403   GANGLGLGR                -1.0000     NotChecked  -24.8459    813.4457    ✗       
+404   GANGLLGLGF               -1.0000     NotChecked  -24.8471    917.4971    ✗       
+405   +43.006ANGLLGLGR         -1.0000     NotChecked  -24.8697    912.5141    ✗       
+406   GAAGLLGLGR               -1.0000     NotChecked  -24.8712    883.5240    ✗       
+407   +43.006ANGLLGLR          -1.0000     NotChecked  -24.9151    855.4927    ✗       
+408   +43.006GANLLGLGR         -1.0000     NotChecked  -24.9182    912.5141    ✗       
+409   GANGVLGLGR               -1.0000     NotChecked  -24.9220    912.5141    ✗       
+410   GAN+0.984GLLGLR          -1.0000     NotChecked  -25.0072    870.4923    ✗       
+411   GANGLLGLG                -1.0000     NotChecked  -25.0073    770.4287    ✗       
+412   +43.006GANGLLLGR         -1.0000     NotChecked  -25.0222    912.5141    ✗       
+413   GANGLVGLGR               -1.0000     NotChecked  -25.0279    912.5141    ✗       
+414   GNGLLGLGR                -1.0000     NotChecked  -25.0472    855.4927    ✗       
+415   GANGLLGLGS               -1.0000     NotChecked  -25.0542    857.4607    ✗       
+416   +43.006ANGLLGLGR         -1.0000     NotChecked  -25.1099    912.5141    ✗       
+417   +42.011ANGLLGLG          -1.0000     NotChecked  -25.1207    755.4178    ✗       
+418   +43.006ANGLLGLGR         -1.0000     NotChecked  -25.2074    912.5141    ✗       
+419   GAVGLLGLGR               -1.0000     NotChecked  -25.2209    911.5553    ✗       
+420   GANGPLGLGR               -1.0000     NotChecked  -25.2445    910.4985    ✗       
+421   GANGLLGLR                -1.0000     NotChecked  -25.2590    869.5083    ✗       
+422   +42.011GANGLLGGGR        -1.0000     NotChecked  -25.2803    912.4777    ✗       
+423   +43.006GANGLLGLR         -1.0000     NotChecked  -25.3542    912.5141    ✗       
+424   GANGLVGLGR               -1.0000     NotChecked  -25.3666    912.5141    ✗       
+425   GANGLLGLGN               -1.0000     NotChecked  -25.3735    884.4716    ✗       
+426   +43.006GANGGLGLGR        -1.0000     NotChecked  -25.4311    913.4730    ✗       
+427   GAGLLGLGR                -1.0000     NotChecked  -25.4350    812.4868    ✗       
+428   GANGLAGLGR               -1.0000     NotChecked  -25.4377    884.4828    ✗       
+429   GANGLLGLGT               -1.0000     NotChecked  -25.4383    871.4763    ✗       
+430   GANGLGLGR                -1.0000     NotChecked  -25.4428    813.4457    ✗       
+431   +43.006GANGLGGLGR        -1.0000     NotChecked  -25.4454    913.4730    ✗       
+432   GANGLPGLGR               -1.0000     NotChecked  -25.5002    910.4985    ✗       
+433   GANGLLGPGR               -1.0000     NotChecked  -25.5245    910.4985    ✗       
+434   GANGLLGLG                -1.0000     NotChecked  -25.5347    770.4287    ✗       
+435   +42.011GNGLLGLGR         -1.0000     NotChecked  -25.5510    897.5032    ✗       
+436   GAVGLLGLGR               -1.0000     NotChecked  -25.5596    911.5553    ✗       
+437   GANGLLGAGR               -1.0000     NotChecked  -25.5771    884.4828    ✗       
+438   GANGPLGLGR               -1.0000     NotChecked  -25.5831    910.4985    ✗       
+439   GANGLLGLG                -1.0000     NotChecked  -25.5986    770.4287    ✗       
+440   +42.011ANGLLGLGR         -1.0000     NotChecked  -25.6554    911.5189    ✗       
+441   GAN+0.984GLLGLG          -1.0000     NotChecked  -25.6871    771.4127    ✗       
+442   +42.011ANGLLGLR          -1.0000     NotChecked  -25.7008    854.4974    ✗       
+443   +42.011GANLLGLGR         -1.0000     NotChecked  -25.7039    911.5189    ✗       
+444   GANGLLGLGA               -1.0000     NotChecked  -25.7045    841.4658    ✗       
+445   +43.006ANGLLGGGR         -1.0000     NotChecked  -25.7546    856.4515    ✗       
+446   GANGLLGLGF               -1.0000     NotChecked  -25.7684    917.4971    ✗       
+447   GAGLLGLGR                -1.0000     NotChecked  -25.7737    812.4868    ✗       
+448   GANGLGLGR                -1.0000     NotChecked  -25.7815    813.4457    ✗       
+449   +43.006GAGGLLGLGR        -1.0000     NotChecked  -25.7868    912.5141    ✗       
+450   GAAGLLGLGR               -1.0000     NotChecked  -25.7925    883.5240    ✗       
+451   +43.006ANGLLGLGR         -1.0000     NotChecked  -25.8054    912.5141    ✗       
+452   +42.011GANGLLLGR         -1.0000     NotChecked  -25.8079    911.5189    ✗       
+453   GANGLLGLG                -1.0000     NotChecked  -25.8388    770.4287    ✗       
+454   GANGVLGLGR               -1.0000     NotChecked  -25.8432    912.5141    ✗       
+455   GAN+0.984GLLGGGR         -1.0000     NotChecked  -25.8467    871.4512    ✗       
+456   GANGLLGLLG               -1.0000     NotChecked  -25.8528    883.5127    ✗       
+457   +42.011ANGLLGLGR         -1.0000     NotChecked  -25.8956    911.5189    ✗       
+458   GANGLLGLG                -1.0000     NotChecked  -25.9286    770.4287    ✗       
+459   GANGLLGLG                -1.0000     NotChecked  -25.9362    770.4287    ✗       
+460   GANGLLGLG                -1.0000     NotChecked  -25.9373    770.4287    ✗       
+461   GANGLLGLG                -1.0000     NotChecked  -25.9389    770.4287    ✗       
+462   +42.011ANGLLGLGR         -1.0000     NotChecked  -25.9931    911.5189    ✗       
+463   +43.006GNGLLGLGR         -1.0000     NotChecked  -26.0253    898.4985    ✗       
+464   GANGLLGGGR               -1.0000     NotChecked  -26.0985    870.4672    ✗       
+465   GANGLLGLR                -1.0000     NotChecked  -26.1148    869.5083    ✗       
+466   GN+0.984GLLGLGR          -1.0000     NotChecked  -26.1174    856.4767    ✗       
+467   +43.006GANGLLGLGV        -1.0000     NotChecked  -26.1182    912.5029    ✗       
+468   +42.011GANGLLGLR         -1.0000     NotChecked  -26.1399    911.5189    ✗       
+469   AN+0.984GLLGLGR          -1.0000     NotChecked  -26.1579    870.4923    ✗       
+470   +43.006ANLLGLGR          -1.0000     NotChecked  -26.1782    855.4927    ✗       
+471   +42.011GANGGLGLGR        -1.0000     NotChecked  -26.2168    912.4777    ✗       
+472   +42.011GANGLGGLGR        -1.0000     NotChecked  -26.2311    912.4777    ✗       
+473   GAN+0.984GLLGLR          -1.0000     NotChecked  -26.2672    870.4923    ✗       
+474   GAN+0.984LLGLGR          -1.0000     NotChecked  -26.2703    870.4923    ✗       
+475   +43.006ANGLLLGR          -1.0000     NotChecked  -26.2821    855.4927    ✗       
+476   GANGLVGLGR               -1.0000     NotChecked  -26.2878    912.5141    ✗       
+477   GANGLLGLVG               -1.0000     NotChecked  -26.3573    869.4971    ✗       
+478   GNGLLGLGR                -1.0000     NotChecked  -26.3692    855.4927    ✗       
+479   GAN+0.984GLLLGR          -1.0000     NotChecked  -26.3743    870.4923    ✗       
+480   ANGLLGLGR                -1.0000     NotChecked  -26.4082    869.5083    ✗       
+481   ANGLLGLGR                -1.0000     NotChecked  -26.4097    869.5083    ✗       
+482   GANGLLGLR                -1.0000     NotChecked  -26.4189    869.5083    ✗       
+483   GAVGLLGLGR               -1.0000     NotChecked  -26.4808    911.5553    ✗       
+484   GANGLLGGG                -1.0000     NotChecked  -26.4835    714.3661    ✗       
+485   GANGPLGLGR               -1.0000     NotChecked  -26.5044    910.4985    ✗       
+486   GANGLLGLR                -1.0000     NotChecked  -26.5164    869.5083    ✗       
+487   GANGLLGLR                -1.0000     NotChecked  -26.5190    869.5083    ✗       
+488   +42.011ANGLLGGGR         -1.0000     NotChecked  -26.5403    855.4563    ✗       
+489   +42.011GAGGLLGLGR        -1.0000     NotChecked  -26.5725    911.5189    ✗       
+490   +42.011ANGLLGLGR         -1.0000     NotChecked  -26.5911    911.5189    ✗       
+491   +43.006ANGLLGLR          -1.0000     NotChecked  -26.6141    855.4927    ✗       
+492   GANGLLLGR                -1.0000     NotChecked  -26.6261    869.5083    ✗       
+493   +43.006ANGGLGLGR         -1.0000     NotChecked  -26.6911    856.4515    ✗       
+494   GAGLLGLGR                -1.0000     NotChecked  -26.6950    812.4868    ✗       
+495   GANGLGLGR                -1.0000     NotChecked  -26.7028    813.4457    ✗       
+496   +43.006ANGLGGLGR         -1.0000     NotChecked  -26.7053    856.4515    ✗       
+497   GAN+0.984GLLGLR          -1.0000     NotChecked  -26.7063    870.4923    ✗       
+498   GANGLLGLR                -1.0000     NotChecked  -26.7252    869.5083    ✗       
+499   GNGLLGLG                 -1.0000     NotChecked  -26.7542    699.3915    ✗       
+500   GAN+0.984GGLGLGR         -1.0000     NotChecked  -26.7832    871.4512    ✗       
+501   GAQGLLGLG                -1.0000     NotChecked  -26.7859    784.4443    ✗       
+502   ANGLLGLG                 -1.0000     NotChecked  -26.7947    713.4072    ✗       
+503   GAN+0.984GLGGLGR         -1.0000     NotChecked  -26.7974    871.4512    ✗       
+504   +42.011GNGLLGLGR         -1.0000     NotChecked  -26.8110    897.5032    ✗       
+505   +43.006GANGLLGLGS        -1.0000     NotChecked  -26.8119    900.4665    ✗       
+506   +42.011AQGLLGLGR         -1.0000     NotChecked  -26.8427    925.5345    ✗       
+507   GANGLLGLG                -1.0000     NotChecked  -26.8586    770.4287    ✗       
+508   GANALLGLG                -1.0000     NotChecked  -26.8626    784.4443    ✗       
+509   +42.011GANGLLGLGV        -1.0000     NotChecked  -26.9039    911.5076    ✗       
+510   GANLLGLG                 -1.0000     NotChecked  -26.9071    713.4072    ✗       
+511   +42.011ANALLGLGR         -1.0000     NotChecked  -26.9194    925.5345    ✗       
+512   +43.006ANGLLGLGK         -1.0000     NotChecked  -26.9214    884.5080    ✗       
+513   AGANGLLGLG               -1.0000     NotChecked  -26.9232    841.4658    ✗       
+514   GANGLLGGGR               -1.0000     NotChecked  -26.9543    870.4672    ✗       
+515   +43.006ANGLLGVGR         -1.0000     NotChecked  -26.9546    898.4985    ✗       
+516   GANGLLGLR                -1.0000     NotChecked  -26.9581    869.5083    ✗       
+517   +42.011ANLLGLGR          -1.0000     NotChecked  -26.9639    854.4974    ✗       
+518   +43.006ALGLLGLGR         -1.0000     NotChecked  -26.9754    911.5553    ✗       
+519   GANGLLLG                 -1.0000     NotChecked  -27.0110    713.4072    ✗       
+520   GAN+0.984GLLGLGK         -1.0000     NotChecked  -27.0135    899.5076    ✗       
+521   GANGLLGLKG               -1.0000     NotChecked  -27.0172    898.5236    ✗       
+522   GANGLLGGR                -1.0000     NotChecked  -27.0182    813.4457    ✗       
+523   GANGLGLGR                -1.0000     NotChecked  -27.0350    813.4457    ✗       
+524   GAN+0.984GLLGVGR         -1.0000     NotChecked  -27.0467    913.4981    ✗       
+525   +43.006AGGLLGLGR         -1.0000     NotChecked  -27.0468    855.4927    ✗       
+526   GANGLGGLGR               -1.0000     NotChecked  -27.0492    870.4672    ✗       
+527   GANGLLGGR                -1.0000     NotChecked  -27.0636    813.4457    ✗       
+528   +42.011ANGLLLGR          -1.0000     NotChecked  -27.0678    854.4974    ✗       
+529   GANGLLGLG                -1.0000     NotChecked  -27.0988    770.4287    ✗       
+530   GAN+0.984GLLGGGR         -1.0000     NotChecked  -27.1067    871.4512    ✗       
+531   GANGLLGLLG               -1.0000     NotChecked  -27.1128    883.5127    ✗       
+532   GANGLLGLPG               -1.0000     NotChecked  -27.1789    867.4814    ✗       
+533   +43.006GANGLLGLGT        -1.0000     NotChecked  -27.1960    914.4821    ✗       
+534   GANGLLGLG                -1.0000     NotChecked  -27.1962    770.4287    ✗       
+535   GNGLLGLGR                -1.0000     NotChecked  -27.2251    855.4927    ✗       
+536   +43.006ANGLLGLGR         -1.0000     NotChecked  -27.2291    912.5141    ✗       
+537   GANGLLGGGR               -1.0000     NotChecked  -27.2584    870.4672    ✗       
+538   GANGLLGLGK               -1.0000     NotChecked  -27.2653    898.5236    ✗       
+539   GANGLLGLNG               -1.0000     NotChecked  -27.2727    884.4716    ✗       
+540   GANGLLGVGR               -1.0000     NotChecked  -27.2985    912.5141    ✗       
+541   GALGLLGLGR               -1.0000     NotChecked  -27.3193    925.5709    ✗       
+542   ANGLLGLGR                -1.0000     NotChecked  -27.3295    869.5083    ✗       
+543   GNGLLGLR                 -1.0000     NotChecked  -27.3343    798.4712    ✗       
+544   GANGLLGLG                -1.0000     NotChecked  -27.3430    770.4287    ✗       
+545   +43.006ANGLLGLGR         -1.0000     NotChecked  -27.3567    912.5141    ✗       
+546   GANGLLGGR                -1.0000     NotChecked  -27.3569    813.4457    ✗       
+547   GANGLLGGGR               -1.0000     NotChecked  -27.3585    870.4672    ✗       
+548   GAQGLLGLR                -1.0000     NotChecked  -27.3660    883.5240    ✗       
+549   ANGLLGLR                 -1.0000     NotChecked  -27.3748    812.4868    ✗       
+550   GGN+0.984GLLGLGR         -1.0000     NotChecked  -27.3774    913.4981    ✗       
+551   GANLLGLGR                -1.0000     NotChecked  -27.3779    869.5083    ✗       
+552   +43.006ANGLLGLGV         -1.0000     NotChecked  -27.3781    855.4814    ✗       
+553   GANGLLLLG                -1.0000     NotChecked  -27.3833    826.4913    ✗       
+554   GAGGLLGLGR               -1.0000     NotChecked  -27.3907    869.5083    ✗       
+555   +42.011ANGLLGLR          -1.0000     NotChecked  -27.3998    854.4974    ✗       
+556   GANGGLGLG                -1.0000     NotChecked  -27.4199    714.3661    ✗       
+557   GANGLGGLG                -1.0000     NotChecked  -27.4342    714.3661    ✗       
+558   GANLLGLGR                -1.0000     NotChecked  -27.4418    869.5083    ✗       
+559   GANALLGLR                -1.0000     NotChecked  -27.4427    883.5240    ✗       
+560   +43.006GANGLLGLGA        -1.0000     NotChecked  -27.4621    884.4716    ✗       
+561   GAN+0.984GLLGLGV         -1.0000     NotChecked  -27.4703    870.4811    ✗       
+562   +42.011ANGGLGLGR         -1.0000     NotChecked  -27.4768    855.4563    ✗       
+563   GANGLLLGR                -1.0000     NotChecked  -27.4819    869.5083    ✗       
+564   GANLLGLR                 -1.0000     NotChecked  -27.4872    812.4868    ✗       
+565   +42.011ANGLGGLGR         -1.0000     NotChecked  -27.4910    855.4563    ✗       
+566   GVNGLLGLG                -1.0000     NotChecked  -27.5068    798.4600    ✗       
+567   GNGLLGLGR                -1.0000     NotChecked  -27.5291    855.4927    ✗       
+568   GAN+0.984LLGLGR          -1.0000     NotChecked  -27.5303    870.4923    ✗       
+569   GNGLLGLLR                -1.0000     NotChecked  -27.5432    911.5553    ✗       
+570   GANGLLLGR                -1.0000     NotChecked  -27.5458    869.5083    ✗       
+571   GANNLLGLG                -1.0000     NotChecked  -27.5556    827.4501    ✗       
+572   +43.006ANGLLGLGR         -1.0000     NotChecked  -27.5650    912.5141    ✗       
+573   ANGLLGLGR                -1.0000     NotChecked  -27.5696    869.5083    ✗       
+574   ANGLLGLLR                -1.0000     NotChecked  -27.5837    925.5709    ✗       
+575   GANGLLLR                 -1.0000     NotChecked  -27.5911    812.4868    ✗       
+576   +42.011GANGLLGLGS        -1.0000     NotChecked  -27.5976    899.4712    ✗       
+577   GANGLLGLVG               -1.0000     NotChecked  -27.6173    869.4971    ✗       
+578   GNGLLGLGR                -1.0000     NotChecked  -27.6266    855.4927    ✗       
+579   GGNGLLGLGR               -1.0000     NotChecked  -27.6292    912.5141    ✗       
+580   GAN+0.984GLLLGR          -1.0000     NotChecked  -27.6342    870.4923    ✗       
+581   ANGLLGLGR                -1.0000     NotChecked  -27.6671    869.5083    ✗       
+582   GANGLLGLR                -1.0000     NotChecked  -27.6789    869.5083    ✗       
+583   GANLLGLGR                -1.0000     NotChecked  -27.6820    869.5083    ✗       
+584   GANGLLGVG                -1.0000     NotChecked  -27.6835    756.4130    ✗       
+585   +43.006GANGLLGLG         -1.0000     NotChecked  -27.6862    813.4345    ✗       
+586   GANLLGLLR                -1.0000     NotChecked  -27.6960    925.5709    ✗       
+587   GANVLLGLG                -1.0000     NotChecked  -27.6997    812.4756    ✗       
+588   GALGLLGLG                -1.0000     NotChecked  -27.7043    769.4698    ✗       
+589   +42.011ANGLLGLGK         -1.0000     NotChecked  -27.7071    883.5127    ✗       
+590   GANGLLGLGV               -1.0000     NotChecked  -27.7221    869.4971    ✗       
+591   +42.011ANGLLGVGR         -1.0000     NotChecked  -27.7403    897.5032    ✗       
+592   GANGLLGGG                -1.0000     NotChecked  -27.7434    714.3661    ✗       
+593   +42.011ALGLLGLGR         -1.0000     NotChecked  -27.7611    910.5600    ✗       
+594   GAGGLLGLG                -1.0000     NotChecked  -27.7757    713.4072    ✗       
+595   GANGLLGLR                -1.0000     NotChecked  -27.7763    869.5083    ✗       
+596   GANGLLGGVR               -1.0000     NotChecked  -27.7770    912.5141    ✗       
+597   GANLLGLGR                -1.0000     NotChecked  -27.7795    869.5083    ✗       
+598   GANGLLGLSG               -1.0000     NotChecked  -27.7799    857.4607    ✗       
+599   GANLLGLGR                -1.0000     NotChecked  -27.7805    869.5083    ✗       
+600   GANGLLLGR                -1.0000     NotChecked  -27.7860    869.5083    ✗       
+601   GANGLLGLG                -1.0000     NotChecked  -27.7942    770.4287    ✗       
+602   ANGLLGLGR                -1.0000     NotChecked  -27.7967    869.5083    ✗       
+603   GANGLLLLR                -1.0000     NotChecked  -27.8000    925.5709    ✗       
+604   GANGLGLGLG               -1.0000     NotChecked  -27.8060    827.4501    ✗       
+605   GANGLLGLR                -1.0000     NotChecked  -27.8139    869.5083    ✗       
+606   +42.011AGGLLGLGR         -1.0000     NotChecked  -27.8325    854.4974    ✗       
+607   GANGLLLGR                -1.0000     NotChecked  -27.8834    869.5083    ✗       
+608   GANGLLLGR                -1.0000     NotChecked  -27.8845    869.5083    ✗       
+609   GANGLLLGR                -1.0000     NotChecked  -27.8860    869.5083    ✗       
+610   GANGGLGLGR               -1.0000     NotChecked  -27.8908    870.4672    ✗       
+611   GANELLGLG                -1.0000     NotChecked  -27.9038    842.4498    ✗       
+612   GANGLGGLGR               -1.0000     NotChecked  -27.9051    870.4672    ✗       
+613   GANLLLGLG                -1.0000     NotChecked  -27.9390    826.4913    ✗       
+614   GANGGLGLGR               -1.0000     NotChecked  -27.9547    870.4672    ✗       
+615   GANGLLGLG                -1.0000     NotChecked  -27.9579    770.4287    ✗       
+616   GANGLLLLR                -1.0000     NotChecked  -27.9634    925.5709    ✗       
+617   GAN+0.984GLLGLR          -1.0000     NotChecked  -27.9662    870.4923    ✗       
+618   GANGLGGLGR               -1.0000     NotChecked  -27.9690    870.4672    ✗       
+619   GANGLLSLG                -1.0000     NotChecked  -27.9802    800.4392    ✗       
+620   +42.011GANGLLGLGT        -1.0000     NotChecked  -27.9817    913.4869    ✗       
+621   GANGLLGLR                -1.0000     NotChecked  -27.9852    869.5083    ✗       
+622   GANGGLGLR                -1.0000     NotChecked  -28.0001    813.4457    ✗       
+623   GGNGLLGLG                -1.0000     NotChecked  -28.0141    756.4130    ✗       
+624   GANGLGGLR                -1.0000     NotChecked  -28.0143    813.4457    ✗       
+625   +42.011ANGLLGLGR         -1.0000     NotChecked  -28.0148    911.5189    ✗       
+626   GAN+0.984GGLGLGR         -1.0000     NotChecked  -28.0432    871.4512    ✗       
+627   GANGLLGRG                -1.0000     NotChecked  -28.0434    813.4457    ✗       
+628   GAQGLLGLG                -1.0000     NotChecked  -28.0458    784.4443    ✗       
+629   GNGLLGLVR                -1.0000     NotChecked  -28.0477    897.5396    ✗       
+630   GANDLLGLG                -1.0000     NotChecked  -28.0525    828.4341    ✗       
+631   GAN+0.984GLGGLGR         -1.0000     NotChecked  -28.0574    871.4512    ✗       
+632   GANGLLGLFG               -1.0000     NotChecked  -28.0583    917.4971    ✗       
+633   +43.006ANGLLGLGS         -1.0000     NotChecked  -28.0718    843.4450    ✗       
+634   GANPLLGLG                -1.0000     NotChecked  -28.0806    810.4600    ✗       
+635   GANGLLGLG                -1.0000     NotChecked  -28.0856    770.4287    ✗       
+636   GVNGLLGLR                -1.0000     NotChecked  -28.0869    897.5396    ✗       
+637   ANGLLGLVR                -1.0000     NotChecked  -28.0882    911.5553    ✗       
+638   GANGLLGLR                -1.0000     NotChecked  -28.1180    869.5083    ✗       
+639   GANGLLGLGK               -1.0000     NotChecked  -28.1212    898.5236    ✗       
+640   GANALLGLG                -1.0000     NotChecked  -28.1226    784.4443    ✗       
+641   +42.011ANGLLGLGR         -1.0000     NotChecked  -28.1424    911.5189    ✗       
+642   GANRLLGLG                -1.0000     NotChecked  -28.1438    869.5083    ✗       
+643   GANGLLGVGR               -1.0000     NotChecked  -28.1543    912.5141    ✗       
+644   +42.011ANGLLGLGV         -1.0000     NotChecked  -28.1638    854.4862    ✗       
+645   GAN+0.984GLLGLGS         -1.0000     NotChecked  -28.1640    858.4447    ✗       
+646   GANLLGLG                 -1.0000     NotChecked  -28.1670    713.4072    ✗       
+647   VGANGLLGLG               -1.0000     NotChecked  -28.1687    869.4971    ✗       
+648   +43.006ANGLLGLGR         -1.0000     NotChecked  -28.1710    912.5141    ✗       
+649   GNGLLGGGR                -1.0000     NotChecked  -28.1738    799.4301    ✗       
+650   GALGLLGLGR               -1.0000     NotChecked  -28.1751    925.5709    ✗       
+651   AANGLLGLG                -1.0000     NotChecked  -28.1832    784.4443    ✗       
+652   GANGLLGLGK               -1.0000     NotChecked  -28.1851    898.5236    ✗       
+653   GANGGLGLGR               -1.0000     NotChecked  -28.1949    870.4672    ✗       
+654   GANLLGLVR                -1.0000     NotChecked  -28.2006    911.5553    ✗       
+655   GAQGLLGGGR               -1.0000     NotChecked  -28.2055    884.4828    ✗       
+656   GANGLGGLGR               -1.0000     NotChecked  -28.2091    870.4672    ✗       
+657   ANGLLGGGR                -1.0000     NotChecked  -28.2143    813.4457    ✗       
+658   GANGLLGLR                -1.0000     NotChecked  -28.2154    869.5083    ✗       
+659   GANGLLGLR                -1.0000     NotChecked  -28.2180    869.5083    ✗       
+660   GANGLLGVGR               -1.0000     NotChecked  -28.2182    912.5141    ✗       
+661   GANGLGGLLR               -1.0000     Failed      -28.2232    926.5298    ✓       
+662   GALGLLGLGR               -1.0000     NotChecked  -28.2390    925.5709    ✗       
+663   GAGGLLGLGR               -1.0000     NotChecked  -28.2465    869.5083    ✗       
+664   +42.011GANGLLGLGA        -1.0000     NotChecked  -28.2478    883.4763    ✗       
+665   GANGLLGEG                -1.0000     NotChecked  -28.2588    786.3872    ✗       
+666   GANGLLGVR                -1.0000     NotChecked  -28.2636    855.4927    ✗       
+667   ANGLLGLGR                -1.0000     NotChecked  -28.2651    869.5083    ✗       
+668   GANGLLLG                 -1.0000     NotChecked  -28.2710    713.4072    ✗       
+669   GAN+0.984GLLGLGK         -1.0000     NotChecked  -28.2735    899.5076    ✗       
+670   GANGLLGLKG               -1.0000     NotChecked  -28.2771    898.5236    ✗       
+671   GANGLLGGR                -1.0000     NotChecked  -28.2782    813.4457    ✗       
+672   GANVLLGLR                -1.0000     NotChecked  -28.2798    911.5553    ✗       
+673   SGANGLLGLG               -1.0000     NotChecked  -28.2822    857.4607    ✗       
+674   GANALLGGGR               -1.0000     NotChecked  -28.2822    884.4828    ✗       
+675   GALGLLGLR                -1.0000     NotChecked  -28.2844    868.5494    ✗       
+676   GANGGLGLGR               -1.0000     NotChecked  -28.2924    870.4672    ✗       
+677   GANGGLGLGR               -1.0000     NotChecked  -28.2934    870.4672    ✗       
+678   GANGLLGLG                -1.0000     NotChecked  -28.2939    770.4287    ✗       
+679   GANGLGLGR                -1.0000     NotChecked  -28.2950    813.4457    ✗       
+680   GANGLLLVR                -1.0000     NotChecked  -28.3045    911.5553    ✗       
+681   GANGLGGLGR               -1.0000     NotChecked  -28.3066    870.4672    ✗       
+682   GAN+0.984GLLGVGR         -1.0000     NotChecked  -28.3067    913.4981    ✗       
+683   GQNGLLGLG                -1.0000     NotChecked  -28.3073    827.4501    ✗       
+684   GANGLGGLGR               -1.0000     NotChecked  -28.3077    870.4672    ✗       
+685   GANGLGGLGR               -1.0000     NotChecked  -28.3092    870.4672    ✗       
+686   GAGGLLGLGR               -1.0000     NotChecked  -28.3104    869.5083    ✗       
+687   GANGLLGGR                -1.0000     NotChecked  -28.3235    813.4457    ✗       
+688   GANGLLVLG                -1.0000     NotChecked  -28.3264    812.4756    ✗       
+689   GANLLGGGR                -1.0000     NotChecked  -28.3267    813.4457    ✗       
+690   +42.011GAAGLLGLGR        -1.0000     NotChecked  -28.3358    925.5345    ✗       
+691   +42.011ANGLLGLGR         -1.0000     NotChecked  -28.3507    911.5189    ✗       
+692   GAGGLLGLR                -1.0000     NotChecked  -28.3558    812.4868    ✗       
+693   GANGLLGLR                -1.0000     NotChecked  -28.3744    869.5083    ✗       
+694   GARGLLGLG                -1.0000     NotChecked  -28.3785    812.4868    ✗       
+695   +43.006ANGLLGLGN         -1.0000     NotChecked  -28.3911    870.4559    ✗       
+696   GANGLLELG                -1.0000     NotChecked  -28.4127    842.4498    ✗       
+697   GANGLLGLGS               -1.0000     NotChecked  -28.4158    857.4607    ✗       
+698   GANGLLGLGK               -1.0000     NotChecked  -28.4252    898.5236    ✗       
+699   GANGLLGGR                -1.0000     NotChecked  -28.4307    813.4457    ✗       
+700   GANGLLGLPG               -1.0000     NotChecked  -28.4389    867.4814    ✗       
+701   +43.006GAGLLGLGR         -1.0000     NotChecked  -28.4526    855.4927    ✗       
+702   +43.006ANGLAGLGR         -1.0000     NotChecked  -28.4553    870.4672    ✗       
+703   +43.006ANGLLGLGT         -1.0000     NotChecked  -28.4559    857.4607    ✗       
+704   GANGLLGVGR               -1.0000     NotChecked  -28.4584    912.5141    ✗       
+705   +43.006GANGLGLGR         -1.0000     NotChecked  -28.4604    856.4515    ✗       
+706   GANGRLGLG                -1.0000     NotChecked  -28.4719    813.4457    ✗       
+707   +42.011GANGLLGLG         -1.0000     NotChecked  -28.4719    812.4392    ✗       
+708   GQGLLGLGR                -1.0000     NotChecked  -28.4762    869.5083    ✗       
+709   GAN+0.984GLLGLGN         -1.0000     NotChecked  -28.4833    885.4556    ✗       
+710   GNGLLGLGR                -1.0000     NotChecked  -28.4850    855.4927    ✗       
+711   AQGLLGLGR                -1.0000     NotChecked  -28.5167    883.5240    ✗       
+712   +43.006ANGLPGLGR         -1.0000     NotChecked  -28.5178    896.4828    ✗       
+713   GANGLLGGGR               -1.0000     NotChecked  -28.5184    870.4672    ✗       
+714   GANLLLGLR                -1.0000     NotChecked  -28.5191    925.5709    ✗       
+715   GANGLLGLGK               -1.0000     NotChecked  -28.5227    898.5236    ✗       
+716   GANGLLGLGK               -1.0000     NotChecked  -28.5238    898.5236    ✗       
+717   GANGLLGLGK               -1.0000     NotChecked  -28.5253    898.5236    ✗       
+718   GANGLLGLNG               -1.0000     NotChecked  -28.5327    884.4716    ✗       
+719   GANGLLGLR                -1.0000     NotChecked  -28.5380    869.5083    ✗       
+720   +43.006ANGLLGPGR         -1.0000     NotChecked  -28.5421    896.4828    ✗       
+721   GAN+0.984GLAGLGR         -1.0000     NotChecked  -28.5474    885.4668    ✗       
+722   GAN+0.984GLLGLGT         -1.0000     NotChecked  -28.5481    872.4603    ✗       
+723   GNALLGLGR                -1.0000     NotChecked  -28.5529    869.5083    ✗       
+724   +43.006ANGLLGLGR         -1.0000     NotChecked  -28.5565    912.5141    ✗       
+725   GANGLLGVGR               -1.0000     NotChecked  -28.5569    912.5141    ✗       
+726   GANGLLGVGR               -1.0000     NotChecked  -28.5585    912.5141    ✗       
+727   GANGLLSLR                -1.0000     NotChecked  -28.5603    899.5189    ✗       
+728   DGANGLLGLG               -1.0000     NotChecked  -28.5642    885.4556    ✗       
+729   GAGGLLGLLR               -1.0000     NotChecked  -28.5646    925.5709    ✗       
+730   GALGLLGLGR               -1.0000     NotChecked  -28.5767    925.5709    ✗       
+731   GALGLLGLGR               -1.0000     NotChecked  -28.5777    925.5709    ✗       
+732   GANGLLGLGV               -1.0000     NotChecked  -28.5779    869.4971    ✗       
+733   GALGLLGLGR               -1.0000     NotChecked  -28.5793    925.5709    ✗       
+734   ANALLGLGR                -1.0000     NotChecked  -28.5934    883.5240    ✗       
+735   GGNGLLGLR                -1.0000     NotChecked  -28.5942    855.4927    ✗       
+736   +43.006ANGLLGAGR         -1.0000     NotChecked  -28.5947    870.4672    ✗       
+737   GNLLGLGR                 -1.0000     NotChecked  -28.5974    798.4712    ✗       
+738   GANGLLGGPR               -1.0000     NotChecked  -28.5986    910.4985    ✗       
+739   GANGLLGLG                -1.0000     NotChecked  -28.6030    770.4287    ✗       
+740   GAN+0.984GLPGLGR         -1.0000     NotChecked  -28.6099    911.4825    ✗       
+741   +43.006GANGLLGLG         -1.0000     NotChecked  -28.6162    813.4345    ✗       
+742   GANGLLGRR                -1.0000     NotChecked  -28.6235    912.5253    ✗       
+743   GAQGLLGLR                -1.0000     NotChecked  -28.6259    883.5240    ✗       
+744   GAQLLGLGR                -1.0000     NotChecked  -28.6291    883.5240    ✗       
+745   GAN+0.984GLLGPGR         -1.0000     NotChecked  -28.6343    911.4825    ✗       
+746   ANLLGLGR                 -1.0000     NotChecked  -28.6379    812.4868    ✗       
+747   GANGLLGLGV               -1.0000     NotChecked  -28.6418    869.4971    ✗       
+748   GANGLLLLG                -1.0000     NotChecked  -28.6433    826.4913    ✗       
+749   GAGGLLGLGR               -1.0000     NotChecked  -28.6481    869.5083    ✗       
+750   GAGGLLGLGR               -1.0000     NotChecked  -28.6491    869.5083    ✗       
+751   GAGGLLGLGR               -1.0000     NotChecked  -28.6507    869.5083    ✗       
+752   GANPLLGLR                -1.0000     NotChecked  -28.6607    909.5396    ✗       
+753   +43.006GNGLLGLGR         -1.0000     NotChecked  -28.6617    898.4985    ✗       
+754   GANGLLGLR                -1.0000     NotChecked  -28.6657    869.5083    ✗       
+755   GLNGLLGLG                -1.0000     NotChecked  -28.6709    812.4756    ✗       
+756   GANGGLGLG                -1.0000     NotChecked  -28.6799    714.3661    ✗       
+757   GAN+0.984GLLGAGR         -1.0000     NotChecked  -28.6868    885.4668    ✗       
+758   GANGLGGLG                -1.0000     NotChecked  -28.6941    714.3661    ✗       
+759   GNGLLLGR                 -1.0000     NotChecked  -28.7014    798.4712    ✗       
+760   GANLLGLGR                -1.0000     NotChecked  -28.7018    869.5083    ✗       
+761   GANALLGLR                -1.0000     NotChecked  -28.7027    883.5240    ✗       
+762   GANGKLGLG                -1.0000     NotChecked  -28.7050    785.4396    ✗       
+763   KGANGLLGLG               -1.0000     NotChecked  -28.7106    898.5236    ✗       
+764   GANGGLGLVR               -1.0000     NotChecked  -28.7134    912.5141    ✗       
+765   +43.006ANGLLGLGA         -1.0000     NotChecked  -28.7221    827.4501    ✗       
+766   GANGLGGLVR               -1.0000     NotChecked  -28.7277    912.5141    ✗       
+767   GAN+0.984GLLGLGV         -1.0000     NotChecked  -28.7302    870.4811    ✗       
+768   GAQGLLLGR                -1.0000     NotChecked  -28.7331    883.5240    ✗       
+769   GANGLLGLGN               -1.0000     NotChecked  -28.7351    884.4716    ✗       
+770   ANGLLLGR                 -1.0000     NotChecked  -28.7419    812.4868    ✗       
+771   GANLLGLR                 -1.0000     NotChecked  -28.7471    812.4868    ✗       
+772   GANGLLGGR                -1.0000     NotChecked  -28.7626    813.4457    ✗       
+773   AANGLLGLR                -1.0000     NotChecked  -28.7633    883.5240    ✗       
+774   GVNGLLGLG                -1.0000     NotChecked  -28.7668    798.4600    ✗       
+775   +43.006ANGLLGLGF         -1.0000     NotChecked  -28.7860    903.4814    ✗       
+776   GGNGLLGLGR               -1.0000     NotChecked  -28.7891    912.5141    ✗       
+777   GANGLAGLGR               -1.0000     NotChecked  -28.7992    884.4828    ✗       
+778   GANGLLGLGT               -1.0000     NotChecked  -28.7999    871.4763    ✗       
+779   GANGLLLGR                -1.0000     NotChecked  -28.8058    869.5083    ✗       
+780   GANALLLGR                -1.0000     NotChecked  -28.8098    883.5240    ✗       
+781   +43.006AAGLLGLGR         -1.0000     NotChecked  -28.8101    869.5083    ✗       
+782   GAN+0.984GLLGLGA         -1.0000     NotChecked  -28.8142    842.4498    ✗       
+783   GANNLLGLG                -1.0000     NotChecked  -28.8155    827.4501    ✗       
+784   GANGELGLG                -1.0000     NotChecked  -28.8354    786.3872    ✗       
+785   GANGLLGER                -1.0000     NotChecked  -28.8389    885.4668    ✗       
+786   GANGGLGGGR               -1.0000     NotChecked  -28.8396    814.4046    ✗       
+787   GANGLLALG                -1.0000     NotChecked  -28.8511    784.4443    ✗       
+788   GANGLLLR                 -1.0000     NotChecked  -28.8511    812.4868    ✗       
+789   GANGLGGGGR               -1.0000     NotChecked  -28.8538    814.4046    ✗       
+790   GANLLLGR                 -1.0000     NotChecked  -28.8543    812.4868    ✗       
+791   +42.011ANGLLGLGS         -1.0000     NotChecked  -28.8575    842.4498    ✗       
+792   +43.006ANGVLGLGR         -1.0000     NotChecked  -28.8608    898.4985    ✗       
+793   GANGLPGLGR               -1.0000     NotChecked  -28.8617    910.4985    ✗       
+794   GNGLLGLPR                -1.0000     NotChecked  -28.8693    895.5240    ✗       
+795   GANGLLGLR                -1.0000     NotChecked  -28.8740    869.5083    ✗       
+796   GAN+0.984GLLGLGF         -1.0000     NotChecked  -28.8781    918.4811    ✗       
+797   GANGLLGLGV               -1.0000     NotChecked  -28.8820    869.4971    ✗       
+798   GANGLLGPGR               -1.0000     NotChecked  -28.8861    910.4985    ✗       
+799   GGNGLLGLGR               -1.0000     NotChecked  -28.8866    912.5141    ✗       
+800   GANGLLGLLV               -1.0000     NotChecked  -28.8960    925.5597    ✗       
+801   GANGLLGLG                -1.0000     NotChecked  -28.8999    770.4287    ✗       
+802   GANGLLVLR                -1.0000     NotChecked  -28.9065    911.5553    ✗       
+803   +42.011ANGLLALGR         -1.0000     NotChecked  -28.9079    925.5345    ✗       
+804   ANGLLGLPR                -1.0000     NotChecked  -28.9098    909.5396    ✗       
+805   GVNGLLGGGR               -1.0000     NotChecked  -28.9265    898.4985    ✗       
+806   GANGLLGQ+0.984G          -1.0000     NotChecked  -28.9272    786.3872    ✗       
+807   GANGLLGAGR               -1.0000     NotChecked  -28.9386    884.4828    ✗       
+808   GANLLGLGR                -1.0000     NotChecked  -28.9420    869.5083    ✗       
+809   GANGLLGVG                -1.0000     NotChecked  -28.9434    756.4130    ✗       
+810   +43.006ANGLLGLG          -1.0000     NotChecked  -28.9462    756.4130    ✗       
+811   GAN+0.984GVLGLGR         -1.0000     NotChecked  -28.9530    913.4981    ✗       
+812   GANLLGLLR                -1.0000     NotChecked  -28.9560    925.5709    ✗       
+813   +42.011ANGLLGLGR         -1.0000     NotChecked  -28.9567    911.5189    ✗       
+814   GARGLLGLR                -1.0000     NotChecked  -28.9586    911.5665    ✗       
+815   GANVLLGLG                -1.0000     NotChecked  -28.9597    812.4756    ✗       
+816   GNGLLGLNR                -1.0000     NotChecked  -28.9631    912.5141    ✗       
+817   GALGLLGLG                -1.0000     NotChecked  -28.9642    769.4698    ✗       
+818   GANGLLGLGV               -1.0000     NotChecked  -28.9794    869.4971    ✗       
+819   GANGLLGLGV               -1.0000     NotChecked  -28.9805    869.4971    ✗       
+820   GANGLLGLGV               -1.0000     NotChecked  -28.9820    869.4971    ✗       
+821   +43.006ANGLLGLGR         -1.0000     NotChecked  -28.9868    912.5141    ✗       
+822   ANGLLGLNR                -1.0000     Failed      -29.0036    926.5298    ✓       
+823   GANGLLNLG                -1.0000     NotChecked  -29.0072    827.4501    ✗       
+824   GAKGLLGLG                -1.0000     NotChecked  -29.0191    784.4807    ✗       
+825   GANLLGLPR                -1.0000     NotChecked  -29.0222    909.5396    ✗       
+826   GNGLLGLR                 -1.0000     NotChecked  -29.0334    798.4712    ✗       
+827   GAGGLLGLG                -1.0000     NotChecked  -29.0356    713.4072    ✗       
+828   GANGLLGGVR               -1.0000     NotChecked  -29.0369    912.5141    ✗       
+829   GAN+0.984GLLGLG          -1.0000     NotChecked  -29.0383    771.4127    ✗       
+830   GANLLGLGR                -1.0000     NotChecked  -29.0394    869.5083    ✗       
+831   GANGLLGLSG               -1.0000     NotChecked  -29.0398    857.4607    ✗       
+832   GANGLLLGR                -1.0000     NotChecked  -29.0459    869.5083    ✗       
+833   GANGLLGKG                -1.0000     NotChecked  -29.0472    785.4396    ✗       
+834   GANGRLGLR                -1.0000     NotChecked  -29.0520    912.5253    ✗       
+835   GANGLLLLR                -1.0000     NotChecked  -29.0600    925.5709    ✗       
+836   GAQGLLGLR                -1.0000     NotChecked  -29.0651    883.5240    ✗       
+837   GANGLGLGLG               -1.0000     NotChecked  -29.0660    827.4501    ✗       
+838   GANGLLGLGA               -1.0000     NotChecked  -29.0660    841.4658    ✗       
+839   GAGGLLGLVR               -1.0000     NotChecked  -29.0692    911.5553    ✗       
+840   GANGLLGGGK               -1.0000     NotChecked  -29.0699    842.4610    ✗       
+841   GNGLLLLGR                -1.0000     NotChecked  -29.0737    911.5553    ✗       
+842   ANGLLGLR                 -1.0000     NotChecked  -29.0739    812.4868    ✗       
+843   +42.011AKGLLGLGR         -1.0000     NotChecked  -29.0759    925.5709    ✗       
+844   GANGLLGFG                -1.0000     NotChecked  -29.1066    804.4130    ✗       
+845   GNGGLGLGR                -1.0000     NotChecked  -29.1103    799.4301    ✗       
+846   ANGLLLLGR                -1.0000     NotChecked  -29.1142    925.5709    ✗       
+847   GANVLLGGGR               -1.0000     NotChecked  -29.1193    912.5141    ✗       
+848   GAGNGLLGLG               -1.0000     NotChecked  -29.1194    827.4501    ✗       
+849   GALGLLGGGR               -1.0000     NotChecked  -29.1239    869.5083    ✗       
+850   GNGLGGLGR                -1.0000     NotChecked  -29.1245    799.4301    ✗       
+851   GANGLLLPR                -1.0000     NotChecked  -29.1261    909.5396    ✗       
+852   GANGLLGLGF               -1.0000     NotChecked  -29.1299    917.4971    ✗       
+853   GANALLGLR                -1.0000     NotChecked  -29.1418    883.5240    ✗       
+854   GAQGGLGLGR               -1.0000     NotChecked  -29.1420    884.4828    ✗       
+855   GANGLLLGR                -1.0000     NotChecked  -29.1434    869.5083    ✗       
+856   ANGGLGLGR                -1.0000     NotChecked  -29.1508    813.4457    ✗       
+857   GAAGLLGLGR               -1.0000     NotChecked  -29.1540    883.5240    ✗       
+858   GAQGLGGLGR               -1.0000     NotChecked  -29.1562    884.4828    ✗       
+859   GANELLGLG                -1.0000     NotChecked  -29.1638    842.4498    ✗       
+860   ANGLGGLGR                -1.0000     NotChecked  -29.1650    813.4457    ✗       
+861   +42.011ANGLLGLGN         -1.0000     NotChecked  -29.1768    869.4607    ✗       
+862   GANGLAGLG                -1.0000     NotChecked  -29.1841    728.3817    ✗       
+863   GANLLGLR                 -1.0000     NotChecked  -29.1862    812.4868    ✗       
+864   LGANGLLGLG               -1.0000     NotChecked  -29.1879    883.5127    ✗       
+865   GAGGLLGGGR               -1.0000     NotChecked  -29.1953    813.4457    ✗       
+866   GANLLLGLG                -1.0000     NotChecked  -29.1990    826.4913    ✗       
+867   GANGLLGGSR               -1.0000     NotChecked  -29.1995    900.4777    ✗       
+868   GANGVLGLGR               -1.0000     NotChecked  -29.2048    912.5141    ✗       
+869   GANGLLGGGR               -1.0000     NotChecked  -29.2139    870.4672    ✗       
+870   GANGGLGLGR               -1.0000     NotChecked  -29.2147    870.4672    ✗       
+871   GANGLLGLG                -1.0000     NotChecked  -29.2179    770.4287    ✗       
+872   GANAGLGLGR               -1.0000     NotChecked  -29.2187    884.4828    ✗       
+873   GANGLLLLR                -1.0000     NotChecked  -29.2234    925.5709    ✗       
+874   GANLLLLGR                -1.0000     NotChecked  -29.2266    925.5709    ✗       
+875   GANGLGGLGR               -1.0000     NotChecked  -29.2289    870.4672    ✗       
+876   GANALGGLGR               -1.0000     NotChecked  -29.2329    884.4828    ✗       
+877   VNGLLGLGR                -1.0000     NotChecked  -29.2377    897.5396    ✗       
+878   +42.011GAGLLGLGR         -1.0000     NotChecked  -29.2383    854.4974    ✗       
+879   +43.006AN+0.984GLLGLGR   -1.0000     NotChecked  -29.2394    913.4981    ✗       
+880   GANGLLSLG                -1.0000     NotChecked  -29.2402    800.4392    ✗       
+881   +42.011ANGLAGLGR         -1.0000     NotChecked  -29.2410    869.4719    ✗       
+882   +42.011ANGLLGLGT         -1.0000     NotChecked  -29.2416    856.4654    ✗       
+883   GNNLLGLGR                -1.0000     NotChecked  -29.2459    912.5141    ✗       
+884   +42.011GANGLGLGR         -1.0000     NotChecked  -29.2461    855.4563    ✗       
+885   GANGLPGLG                -1.0000     NotChecked  -29.2466    754.3974    ✗       
+886   GLNGLLGLR                -1.0000     NotChecked  -29.2510    911.5553    ✗       
+887   GTNGLLGLG                -1.0000     NotChecked  -29.2590    800.4392    ✗       
+888   GANGGLGLR                -1.0000     NotChecked  -29.2600    813.4457    ✗       
+889   GANGLLGLGS               -1.0000     NotChecked  -29.2716    857.4607    ✗       
+890   GANGLGGLR                -1.0000     NotChecked  -29.2743    813.4457    ✗       
+891   +42.011ANGLPGLGR         -1.0000     NotChecked  -29.3035    895.4876    ✗       
+892   +43.006ANGLVGLGR         -1.0000     NotChecked  -29.3054    898.4985    ✗       
+893   +42.011ANGLLGPGR         -1.0000     NotChecked  -29.3278    895.4876    ✗       
+894   +42.011ANGLLGLGR         -1.0000     NotChecked  -29.3422    911.5189    ✗       
+895   +42.011ANGLLGAGR         -1.0000     NotChecked  -29.3804    869.4719    ✗       
+896   ANGLLGLGK                -1.0000     NotChecked  -29.3811    841.5022    ✗       
+897   +42.011GANGLLGLG         -1.0000     NotChecked  -29.4019    812.4392    ✗       
+898   ANGLLGVGR                -1.0000     NotChecked  -29.4143    855.4927    ✗       
+899   VANGLLGLG                -1.0000     NotChecked  -29.4287    812.4756    ✗       
+900   ANVLLGLGR                -1.0000     NotChecked  -29.4305    911.5553    ✗       
+901   ALGLLGLGR                -1.0000     NotChecked  -29.4351    868.5494    ✗       
+902   +42.011GNGLLGLGR         -1.0000     NotChecked  -29.4474    897.5032    ✗       
+903   +43.006ANGLLGLGR         -1.0000     NotChecked  -29.4912    912.5141    ✗       
+904   +43.006AVGLLGLGR         -1.0000     NotChecked  -29.4984    897.5396    ✗       
+905   AGGLLGLGR                -1.0000     NotChecked  -29.5065    812.4868    ✗       
+906   +42.011ANGLLGLGA         -1.0000     NotChecked  -29.5078    826.4549    ✗       
+907   ANGLLGLSR                -1.0000     NotChecked  -29.5107    899.5189    ✗       
+908   +43.006ANGPLGLGR         -1.0000     NotChecked  -29.5220    896.4828    ✗       
+909   ANGLGLGLGR               -1.0000     Failed      -29.5369    926.5298    ✓       
+910   SANGLLGLG                -1.0000     NotChecked  -29.5422    800.4392    ✗       
+911   +42.011ANGLLGLGF         -1.0000     NotChecked  -29.5717    902.4862    ✗       
+912   GANGLLGLGN               -1.0000     NotChecked  -29.5909    884.4716    ✗       
+913   +42.011AAGLLGLGR         -1.0000     NotChecked  -29.5958    868.5131    ✗       
+914   AANGLLGGGR               -1.0000     NotChecked  -29.6028    884.4828    ✗       
+915   +42.011ANGVLGLGR         -1.0000     NotChecked  -29.6465    897.5032    ✗       
+916   ANGLLGLGR                -1.0000     NotChecked  -29.6536    869.5083    ✗       
+917   GANGLAGLGR               -1.0000     NotChecked  -29.6550    884.4828    ✗       
+918   GANGLLGLGT               -1.0000     NotChecked  -29.6557    871.4763    ✗       
+919   ANLLLGLGR                -1.0000     NotChecked  -29.6698    925.5709    ✗       
+920   ANGLLGLGR                -1.0000     NotChecked  -29.6888    869.5083    ✗       
+921   ANGLLSLGR                -1.0000     NotChecked  -29.7111    899.5189    ✗       
+922   +43.006AGLLGLGR          -1.0000     NotChecked  -29.7126    798.4712    ✗       
+923   GANGLPGLGR               -1.0000     NotChecked  -29.7175    910.4985    ✗       
+924   +43.006ANGLGLGR          -1.0000     NotChecked  -29.7204    799.4301    ✗       
+925   +42.011ANGLLGLG          -1.0000     NotChecked  -29.7319    755.4178    ✗       
+926   +43.006ANGDLGLGR         -1.0000     NotChecked  -29.7367    914.4570    ✗       
+927   GANGLLGPGR               -1.0000     NotChecked  -29.7419    910.4985    ✗       
+928   +43.006ANGLLGLGR         -1.0000     NotChecked  -29.7513    912.5141    ✗       
+929   +42.011ANGLLGLGR         -1.0000     NotChecked  -29.7725    911.5189    ✗       
+930   ANGLLGRGR                -1.0000     NotChecked  -29.7742    912.5253    ✗       
+931   GANGLLGAGR               -1.0000     NotChecked  -29.7944    884.4828    ✗       
+932   ANPLLGLGR                -1.0000     NotChecked  -29.8114    909.5396    ✗       
+933   ANGLLGLGR                -1.0000     NotChecked  -29.8164    869.5083    ✗       
+934   DANGLLGLG                -1.0000     NotChecked  -29.8242    828.4341    ✗       
+935   ANGLLGLGV                -1.0000     NotChecked  -29.8379    812.4756    ✗       
+936   +43.006ANGLLGLG          -1.0000     NotChecked  -29.8762    756.4130    ✗       
+937   +43.006NGLLGLGR          -1.0000     NotChecked  -29.9217    841.4770    ✗       
+938   GANGLLGLGA               -1.0000     NotChecked  -29.9218    841.4658    ✗       
+939   KANGLLGLG                -1.0000     NotChecked  -29.9705    841.5022    ✗       
+940   GANGLLGLGF               -1.0000     NotChecked  -29.9857    917.4971    ✗       
+941   ANGLLGEGR                -1.0000     NotChecked  -29.9896    885.4668    ✗       
+942   VANGLLGLR                -1.0000     NotChecked  -30.0088    911.5553    ✗       
+943   GAAGLLGLGR               -1.0000     NotChecked  -30.0099    883.5240    ✗       
+944   ANGLLGLGR                -1.0000     NotChecked  -30.0247    869.5083    ✗       
+945   +42.011AN+0.984GLLGLGR   -1.0000     NotChecked  -30.0251    912.5029    ✗       
+946   AANLLGLGR                -1.0000     NotChecked  -30.0264    883.5240    ✗       
+947   +43.006GANGLLGGR         -1.0000     NotChecked  -30.0358    856.4515    ✗       
+948   ANGLLVLGR                -1.0000     NotChecked  -30.0573    911.5553    ✗       
+949   GANGVLGLGR               -1.0000     NotChecked  -30.0606    912.5141    ✗       
+950   +42.011ANGLVGLGR         -1.0000     NotChecked  -30.0911    897.5032    ✗       
+951   ARGLLGLGR                -1.0000     NotChecked  -30.1094    911.5665    ✗       
+952   SANGLLGLR                -1.0000     NotChecked  -30.1223    899.5189    ✗       
+953   AANGLLLGR                -1.0000     NotChecked  -30.1304    883.5240    ✗       
+954   GANGLLGLG                -1.0000     NotChecked  -30.1459    770.4287    ✗       
+955   +43.006AN+0.984GLLGLGR   -1.0000     NotChecked  -30.1751    913.4981    ✗       
+956   +43.006ANGLLGLGR         -1.0000     NotChecked  -30.1911    912.5141    ✗       
+957   ANGRLGLGR                -1.0000     NotChecked  -30.2027    912.5253    ✗       
+958   +42.011ANGLLGLGR         -1.0000     NotChecked  -30.2769    911.5189    ✗       
+959   +42.011AVGLLGLGR         -1.0000     NotChecked  -30.2841    896.5444    ✗       
+960   +43.006GNGLLGLGR         -1.0000     NotChecked  -30.3066    898.4985    ✗       
+961   +42.011ANGPLGLGR         -1.0000     NotChecked  -30.3077    895.4876    ✗       
+962   LNGLLGLGR                -1.0000     NotChecked  -30.4018    911.5553    ✗       
+963   +43.006ANGLLGLGR         -1.0000     NotChecked  -30.4269    912.5141    ✗       
+964   ANGKLGLGR                -1.0000     NotChecked  -30.4358    884.5192    ✗       
+965   LANGLLGLG                -1.0000     NotChecked  -30.4479    826.4913    ✗       
+966   +43.006ANGLLGLGR         -1.0000     NotChecked  -30.4563    912.5141    ✗       
+967   +43.006GANLLGLGR         -1.0000     NotChecked  -30.4594    912.5141    ✗       
+968   AANGLLGLR                -1.0000     NotChecked  -30.4624    883.5240    ✗       
+969   +43.006GANGLLGLG         -1.0000     NotChecked  -30.4731    813.4345    ✗       
+970   +42.011AGLLGLGR          -1.0000     NotChecked  -30.4983    797.4759    ✗       
+971   GANGLVGLGR               -1.0000     NotChecked  -30.5052    912.5141    ✗       
+972   +42.011ANGLGLGR          -1.0000     NotChecked  -30.5061    798.4348    ✗       
+973   +42.011ANGDLGLGR         -1.0000     NotChecked  -30.5224    913.4617    ✗       
+974   ANGLLGLGS                -1.0000     NotChecked  -30.5315    800.4392    ✗       
+975   +42.011ANGLLGLGR         -1.0000     NotChecked  -30.5370    911.5189    ✗       
+976   AANGGLGLGR               -1.0000     NotChecked  -30.5393    884.4828    ✗       
+977   AANGLGGLGR               -1.0000     NotChecked  -30.5535    884.4828    ✗       
+978   +43.006GANGLLLGR         -1.0000     NotChecked  -30.5634    912.5141    ✗       
+979   ANGELGLGR                -1.0000     NotChecked  -30.5662    885.4668    ✗       
+980   ANGLLALGR                -1.0000     NotChecked  -30.5819    883.5240    ✗       
+981   ANGLLGLGR                -1.0000     NotChecked  -30.6307    869.5083    ✗       
+982   +43.006ANGLLGLGR         -1.0000     NotChecked  -30.6511    912.5141    ✗       
+983   ANGLLGQ+0.984GR          -1.0000     NotChecked  -30.6581    885.4668    ✗       
+984   +42.011ANGLLGLG          -1.0000     NotChecked  -30.6619    755.4178    ✗       
+985   GAVGLLGLGR               -1.0000     NotChecked  -30.6982    911.5553    ✗       
+986   +42.011NGLLGLGR          -1.0000     NotChecked  -30.7074    840.4818    ✗       
+987   GANGPLGLGR               -1.0000     NotChecked  -30.7218    910.4985    ✗       
+988   AKGLLGLGR                -1.0000     NotChecked  -30.7500    883.5603    ✗       
+989   AANGLLGLGK               -1.0000     NotChecked  -30.7696    912.5393    ✗       
+990   ANGLLGKGR                -1.0000     NotChecked  -30.7780    884.5192    ✗       
+991   +43.006ANGLLGLG          -1.0000     NotChecked  -30.8118    756.4130    ✗       
+992   +42.011GANGLLGGR         -1.0000     NotChecked  -30.8215    855.4563    ✗       
+993   ANGLLGFGR                -1.0000     NotChecked  -30.8374    903.4927    ✗       
+994   VANGLLGGGR               -1.0000     NotChecked  -30.8483    912.5141    ✗       
+995   ANGLLGLGN                -1.0000     NotChecked  -30.8508    827.4501    ✗       
+996   AAGGLLGLGR               -1.0000     NotChecked  -30.8950    883.5240    ✗       
+997   GAGLLGLGR                -1.0000     NotChecked  -30.9123    812.4868    ✗       
+998   ANGLAGLGR                -1.0000     NotChecked  -30.9150    827.4614    ✗       
+999   ANGLLGLGT                -1.0000     NotChecked  -30.9156    814.4549    ✗       
+1000  GANGLGLGR                -1.0000     NotChecked  -30.9201    813.4457    ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: GANGLLGLGR
+Similarity: 0.9785
+De Novo Score: -0.2547
+Source: Database
+Correct: ✓
+

@@ -1,0 +1,1042 @@
+================================================================================
+Spectrum 92
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 782.8246
+Precursor charge: 2+
+Ground truth: QYDPDPSADDENAK
+Ground truth (normalized): QYDPDPSADDENAK
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 84
+Used for reranking: 84
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 84 (8.4%)
+Database matches: 0 (0.0%)
+Prosit predictions: 77 (7.7%)
+Failed: 7 (0.7%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✗ (not in top 1000 candidates)
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     EYNPDPEEEDAEK            0.3437      Prosit      -14.9126    1563.6213   ✓       
+2     QYN+0.984PDPEEEDEAK      0.3353      Prosit      -9.2926     1563.6213   ✓       
+3     Q+0.984YNPDPEEEDEAK      0.3353      Prosit      -11.5928    1563.6213   ✓       
+4     Q+0.984YNPDPAEEEEDK      0.3311      Prosit      -13.2913    1563.6213   ✓       
+5     EYNPDPEEEEADK            0.3294      Prosit      -14.9378    1563.6213   ✓       
+6     Q+0.984YNPDPAEEDEEK      0.3260      Prosit      -13.2661    1563.6213   ✓       
+7     Q+0.984YNPDPEEAEEDK      0.3258      Prosit      -12.9701    1563.6213   ✓       
+8     QYN+0.984PDPEEEEDAK      0.3178      Prosit      -9.6442     1563.6213   ✓       
+9     Q+0.984YNPDPEEEEDAK      0.3178      Prosit      -11.9444    1563.6213   ✓       
+10    EYNPDPEDEEAEK            0.3154      Prosit      -14.8556    1563.6213   ✓       
+11    EYNPDPDEEEAEK            0.3123      Prosit      -14.6783    1563.6213   ✓       
+12    QYN+0.984PDPEEDEEAK      0.3113      Prosit      -9.2802     1563.6213   ✓       
+13    Q+0.984YNPDPEEDEEAK      0.3113      Prosit      -11.5804    1563.6213   ✓       
+14    EYNPDPDEEEEAK            0.3112      Prosit      -15.1679    1563.6213   ✓       
+15    Q+0.984YNPDPEEEDAEK      0.3091      Prosit      -11.1032    1563.6213   ✓       
+16    Q+0.984YNPDPEEEDAEK      0.3091      Prosit      -12.9332    1563.6213   ✓       
+17    QYN+0.984PDPEEEDAEK      0.3091      Prosit      -8.8030     1563.6213   ✓       
+18    QYN+0.984PDPEEEEADK      0.3086      Prosit      -8.8282     1563.6213   ✓       
+19    Q+0.984YNPDPEEEEADK      0.3086      Prosit      -11.1284    1563.6213   ✓       
+20    Q+0.984YNPDPEEEEADK      0.3086      Prosit      -12.9585    1563.6213   ✓       
+21    EYNPDPEEDEAEK            0.3080      Prosit      -14.9002    1563.6213   ✓       
+22    Q+0.984YN+0.984PDPEENEEAK0.3046      Prosit      -13.0598    1563.6213   ✓       
+23    QYN+0.984PDPEDEEEAK      0.3036      Prosit      -9.2355     1563.6213   ✓       
+24    Q+0.984YNPDPEDEEEAK      0.3036      Prosit      -11.5358    1563.6213   ✓       
+25    Q+0.984YNPDPEEEADEK      0.2942      Prosit      -13.2918    1563.6213   ✓       
+26    Q+0.984YN+0.984PDPEENEAEK0.2926      Prosit      -12.5702    1563.6213   ✓       
+27    Q+0.984YNPDPAEDEEEK      0.2902      Prosit      -13.2537    1563.6213   ✓       
+28    Q+0.984YNPDPEEADEEK      0.2900      Prosit      -12.9448    1563.6213   ✓       
+29    Q+0.984YNPDPDEEEEAK      0.2894      Prosit      -11.3585    1563.6213   ✓       
+30    Q+0.984YNPDPDEEEEAK      0.2894      Prosit      -13.1885    1563.6213   ✓       
+31    QYDPDPEEEEADK            0.2886      Prosit      -9.0006     1563.6213   ✓       
+32    Q+0.984YDPDPEEENAEK      0.2877      Prosit      -13.2409    1563.6213   ✓       
+33    QYN+0.984PDPEEEEGEK      0.2852      Prosit      -9.6750     1563.6213   ✓       
+34    Q+0.984YNPDPEEEEGEK      0.2852      Prosit      -11.9752    1563.6213   ✓       
+35    QYDPDPEEEDEAK            0.2846      Prosit      -9.4650     1563.6213   ✓       
+36    QYN+0.984PDPEEDEAEK      0.2820      Prosit      -8.7906     1563.6213   ✓       
+37    Q+0.984YNPDPEEDEAEK      0.2820      Prosit      -11.0908    1563.6213   ✓       
+38    Q+0.984YNPDPEEDEAEK      0.2820      Prosit      -12.9208    1563.6213   ✓       
+39    QYDPDPEEEEDAK            0.2791      Prosit      -9.8165     1563.6213   ✓       
+40    Q+0.984YNPDPDEEAEEK      0.2781      Prosit      -12.7059    1563.6213   ✓       
+41    QYDPDPEEDEAEK            0.2741      Prosit      -8.9629     1563.6213   ✓       
+42    Q+0.984YNPDPEDEAEEK      0.2728      Prosit      -12.8832    1563.6213   ✓       
+43    QYDPDPEEEEGEK            0.2725      Prosit      -9.8474     1563.6213   ✓       
+44    Q+0.984YN+0.984PDPENEEEAK0.2717      Prosit      -12.7103    1563.6213   ✓       
+45    Q+0.984YDPDPEENEEAK      0.2710      Prosit      -13.2322    1563.6213   ✓       
+46    Q+0.984YNPDPEGEEEEK      0.2707      Prosit      -13.1793    1563.6213   ✓       
+47    Q+0.984YNPDPADEEEEK      0.2706      Prosit      -13.2090    1563.6213   ✓       
+48    Q+0.984YN+0.984PDPNEEEEAK0.2688      Prosit      -12.6913    1563.6213   ✓       
+49    QYDPDPEEDEEAK            0.2672      Prosit      -9.4526     1563.6213   ✓       
+50    QYDPDPEDEEEAK            0.2670      Prosit      -9.4079     1563.6213   ✓       
+51    Q+0.984YN+0.984PDPENEEAEK0.2665      Prosit      -12.2207    1563.6213   ✓       
+52    QYDPDPDEEEAEK            0.2636      Prosit      -8.7410     1563.6213   ✓       
+53    Q+0.984YNPDPEEEGEEK      0.2633      Prosit      -13.0763    1563.6213   ✓       
+54    QYDPDPGEEEEEK            0.2628      Prosit      -9.6214     1563.6213   ✓       
+55    Q+0.984YN+0.984PDPDQEEAEK0.2624      Prosit      -13.2078    1563.6213   ✓       
+56    Q+0.984YDPDPEENEAEK      0.2622      Prosit      -12.7426    1563.6213   ✓       
+57    QYDPDPDEEEEAK            0.2622      Prosit      -9.2306     1563.6213   ✓       
+58    QYN+0.984PDPEDEEAEK      0.2620      Prosit      -8.7459     1563.6213   ✓       
+59    Q+0.984YNPDPEDEEAEK      0.2620      Prosit      -11.0462    1563.6213   ✓       
+60    Q+0.984YNPDPEDEEAEK      0.2620      Prosit      -12.8762    1563.6213   ✓       
+61    Q+0.984YNPDPEEDAEEK      0.2600      Prosit      -12.9278    1563.6213   ✓       
+62    Q+0.984YNPDPDEAEEEK      0.2599      Prosit      -12.7105    1563.6213   ✓       
+63    QYDPDPEDEEAEK            0.2588      Prosit      -8.9183     1563.6213   ✓       
+64    QYN+0.984PDPDEEEAEK      0.2587      Prosit      -8.5687     1563.6213   ✓       
+65    Q+0.984YNPDPDEEEAEK      0.2587      Prosit      -10.8689    1563.6213   ✓       
+66    Q+0.984YNPDPDEEEAEK      0.2587      Prosit      -12.6989    1563.6213   ✓       
+67    Q+0.984YNPDPEEGEEEK      0.2584      Prosit      -13.1476    1563.6213   ✓       
+68    Q+0.984YN+0.984PDPNEEEAEK0.2582      Prosit      -12.2017    1563.6213   ✓       
+69    Q+0.984YNPDPN+0.984EEEAEK0.2582      Prosit      -13.2884    1563.6213   ✓       
+70    Q+0.984YNPDPEDAEEEK      0.2570      Prosit      -12.8878    1563.6213   ✓       
+71    Q+0.984YN+0.984PDPDEQEAEK0.2568      Prosit      -13.2865    1563.6213   ✓       
+72    Q+0.984YN+0.984PDPEEEEANK0.2565      Prosit      -13.2246    1563.6213   ✓       
+73    Q+0.984YDPDPNEEEEAK      0.2564      Prosit      -12.8637    1563.6213   ✓       
+74    QYN+0.984PDPGEEEEEK      0.2494      Prosit      -9.4490     1563.6213   ✓       
+75    Q+0.984YNPDPGEEEEEK      0.2494      Prosit      -11.7493    1563.6213   ✓       
+76    Q+0.984YDPDPNEEEAEK      0.2429      Prosit      -12.3741    1563.6213   ✓       
+77    Q+0.984YN+0.984PDPDEEEAQK0.2397      Prosit      -13.2650    1563.6213   ✓       
+78    QYNPDPDEEEAEK            -1.0000     NotChecked  -7.7249     1562.6373   ✗       
+79    QYNPDPEDEEAEK            -1.0000     NotChecked  -7.9022     1562.6373   ✗       
+80    QYNPDPEEDEAEK            -1.0000     NotChecked  -7.9469     1562.6373   ✗       
+81    QYNPDPEEEDAEK            -1.0000     NotChecked  -7.9593     1562.6373   ✗       
+82    QYNPDPEEEEADK            -1.0000     NotChecked  -7.9845     1562.6373   ✗       
+83    QYNPDPEEEEAAK            -1.0000     NotChecked  -8.0181     1518.6474   ✗       
+84    QYNPDPNEEEAEK            -1.0000     NotChecked  -8.2141     1561.6532   ✗       
+85    QYNPDPDEEEEAK            -1.0000     NotChecked  -8.2146     1562.6373   ✗       
+86    QYNPDPENEEAEK            -1.0000     NotChecked  -8.2331     1561.6532   ✗       
+87    QYNPDPEDEEEAK            -1.0000     NotChecked  -8.3918     1562.6373   ✗       
+88    QYNPDPEEDEEAK            -1.0000     NotChecked  -8.4365     1562.6373   ✗       
+89    QYNPDPEEEDEAK            -1.0000     NotChecked  -8.4489     1562.6373   ✗       
+90    QYNPDPEENEAEK            -1.0000     NotChecked  -8.5826     1561.6532   ✗       
+91    QYNPDPGEEEEEK            -1.0000     NotChecked  -8.6053     1562.6373   ✗       
+92    QYNPDPDDEEAEK            -1.0000     NotChecked  -8.6931     1548.6216   ✗       
+93    QYNPDPNEEEEAK            -1.0000     NotChecked  -8.7037     1561.6532   ✗       
+94    QYNPDPENEEEAK            -1.0000     NotChecked  -8.7227     1561.6532   ✗       
+95    QYNPDPDEDEAEK            -1.0000     NotChecked  -8.7377     1548.6216   ✗       
+96    QYNPDPDEEDAEK            -1.0000     NotChecked  -8.7501     1548.6216   ✗       
+97    QYNPDPDEEEADK            -1.0000     NotChecked  -8.7753     1548.6216   ✗       
+98    QYNPDPEEEEDAK            -1.0000     NotChecked  -8.8004     1562.6373   ✗       
+99    QYNPDPDEEEAAK            -1.0000     NotChecked  -8.8089     1504.6318   ✗       
+100   QYNPDPEEEEGEK            -1.0000     NotChecked  -8.8313     1562.6373   ✗       
+101   QYN+0.984PDPEEEEAAK      -1.0000     NotChecked  -8.8618     1519.6314   ✗       
+102   QYNPDPEDDEAEK            -1.0000     NotChecked  -8.9150     1548.6216   ✗       
+103   QYNPDPEDEDAEK            -1.0000     NotChecked  -8.9274     1548.6216   ✗       
+104   QYNPDPEDEEADK            -1.0000     NotChecked  -8.9526     1548.6216   ✗       
+105   QYNPDPEEDDAEK            -1.0000     NotChecked  -8.9720     1548.6216   ✗       
+106   QYDPDPEEEDAEK            -1.0000     Failed      -8.9754     1563.6213   ✓       
+107   QYNPDPEDEEAAK            -1.0000     NotChecked  -8.9862     1504.6318   ✗       
+108   QYNPDPEEDEADK            -1.0000     NotChecked  -8.9973     1548.6216   ✗       
+109   QYNPDPEEEDADK            -1.0000     NotChecked  -9.0097     1548.6216   ✗       
+110   QYNPDPDNEEAEK            -1.0000     NotChecked  -9.0239     1547.6376   ✗       
+111   QYNPDPEEDEAAK            -1.0000     NotChecked  -9.0309     1504.6318   ✗       
+112   QYDPDPEEEEAAK            -1.0000     NotChecked  -9.0342     1519.6314   ✗       
+113   QYNPDPEEEDAAK            -1.0000     NotChecked  -9.0433     1504.6318   ✗       
+114   QYN+0.984PDPNEEEAEK      -1.0000     NotChecked  -9.0578     1562.6373   ✗       
+115   QYN+0.984PDPDEEEEAK      -1.0000     Failed      -9.0583     1563.6213   ✓       
+116   QYNPDPEENEEAK            -1.0000     NotChecked  -9.0722     1561.6532   ✗       
+117   QYN+0.984PDPENEEAEK      -1.0000     NotChecked  -9.0768     1562.6373   ✗       
+118   QYNPDPEEENAEK            -1.0000     NotChecked  -9.0809     1561.6532   ✗       
+119   QYNPDPEEEEAVK            -1.0000     NotChecked  -9.1064     1546.6787   ✗       
+120   QYNPDPNDEEAEK            -1.0000     NotChecked  -9.1822     1547.6376   ✗       
+121   QYNPDPDDEEEAK            -1.0000     NotChecked  -9.1827     1548.6216   ✗       
+122   QYNPDPGEEEAEK            -1.0000     NotChecked  -9.1997     1504.6318   ✗       
+123   QYNPDPDQEEAEK            -1.0000     NotChecked  -9.2202     1561.6532   ✗       
+124   QYNPDPNEDEAEK            -1.0000     NotChecked  -9.2268     1547.6376   ✗       
+125   QYNPDPDEDEEAK            -1.0000     NotChecked  -9.2273     1548.6216   ✗       
+126   QYDPDPNEEEAEK            -1.0000     NotChecked  -9.2301     1562.6373   ✗       
+127   QYNPDPEEEEANK            -1.0000     NotChecked  -9.2369     1561.6532   ✗       
+128   QYNPDPNEEDAEK            -1.0000     NotChecked  -9.2392     1547.6376   ✗       
+129   QYNPDPDEEDEAK            -1.0000     NotChecked  -9.2397     1548.6216   ✗       
+130   QYNPDPENDEAEK            -1.0000     NotChecked  -9.2459     1547.6376   ✗       
+131   QYDPDPENEEAEK            -1.0000     NotChecked  -9.2492     1562.6373   ✗       
+132   QYNPDPENEDAEK            -1.0000     NotChecked  -9.2583     1547.6376   ✗       
+133   QYNPDPNEEEADK            -1.0000     NotChecked  -9.2645     1547.6376   ✗       
+134   QYNPDPEEEENAK            -1.0000     NotChecked  -9.2655     1561.6532   ✗       
+135   QYNPDPSEEEAEK            -1.0000     NotChecked  -9.2679     1534.6423   ✗       
+136   QYNPDPDEEEAQK            -1.0000     NotChecked  -9.2773     1561.6532   ✗       
+137   QYNPDPENEEADK            -1.0000     NotChecked  -9.2835     1547.6376   ✗       
+138   QYNPDPNEEEAAK            -1.0000     NotChecked  -9.2981     1503.6478   ✗       
+139   QYNPDPDEQEAEK            -1.0000     NotChecked  -9.2988     1561.6532   ✗       
+140   QYNPDPENEEAAK            -1.0000     NotChecked  -9.3171     1503.6478   ✗       
+141   QYNPDPEEEESAK            -1.0000     NotChecked  -9.3567     1534.6423   ✗       
+142   QYNPDPDEEQAEK            -1.0000     NotChecked  -9.3606     1561.6532   ✗       
+143   QYNPDPEEEAAEK            -1.0000     NotChecked  -9.3655     1518.6474   ✗       
+144   QYNPDPEEAEAEK            -1.0000     NotChecked  -9.3701     1518.6474   ✗       
+145   QYNPDPDENEAEK            -1.0000     NotChecked  -9.3734     1547.6376   ✗       
+146   QYNPDPEDDEEAK            -1.0000     NotChecked  -9.4046     1548.6216   ✗       
+147   QYNPDPEDEDEAK            -1.0000     NotChecked  -9.4170     1548.6216   ✗       
+148   QYN+0.984PDPEENEAEK      -1.0000     NotChecked  -9.4263     1562.6373   ✗       
+149   QYNPDPEQDEAEK            -1.0000     NotChecked  -9.4421     1561.6532   ✗       
+150   QYNPDPEQEDAEK            -1.0000     NotChecked  -9.4545     1561.6532   ✗       
+151   QYNPDPEDEEAQK            -1.0000     NotChecked  -9.4546     1561.6532   ✗       
+152   QYNPDPEEDDEAK            -1.0000     NotChecked  -9.4616     1548.6216   ✗       
+153   QYNPDPEDQEAEK            -1.0000     NotChecked  -9.4761     1561.6532   ✗       
+154   QYNPDPEQEEADK            -1.0000     NotChecked  -9.4797     1561.6532   ✗       
+155   QYNPDPEEESAEK            -1.0000     NotChecked  -9.4921     1534.6423   ✗       
+156   QYNPDPEEDEAQK            -1.0000     NotChecked  -9.4992     1561.6532   ✗       
+157   QYNPDPEEEDAQK            -1.0000     NotChecked  -9.5116     1561.6532   ✗       
+158   QYNPDPNNEEAEK            -1.0000     NotChecked  -9.5131     1546.6536   ✗       
+159   QYNPDPEQEEAAK            -1.0000     NotChecked  -9.5133     1517.6634   ✗       
+160   QYNPDPDNEEEAK            -1.0000     NotChecked  -9.5135     1547.6376   ✗       
+161   QYNPDPEEQDAEK            -1.0000     NotChecked  -9.5332     1561.6532   ✗       
+162   QYN+0.984PDPDDEEAEK      -1.0000     NotChecked  -9.5368     1549.6056   ✗       
+163   QYNPDPEDEQAEK            -1.0000     NotChecked  -9.5379     1561.6532   ✗       
+164   QYNPDPEESEAEK            -1.0000     NotChecked  -9.5434     1534.6423   ✗       
+165   QYN+0.984PDPNEEEEAK      -1.0000     NotChecked  -9.5474     1562.6373   ✗       
+166   QYNPDPEDNEAEK            -1.0000     NotChecked  -9.5507     1547.6376   ✗       
+167   QYNPDPDEEEQAK            -1.0000     NotChecked  -9.5537     1561.6532   ✗       
+168   QYNPDPDEEEAEK            -1.0000     NotChecked  -9.5550     1562.6373   ✗       
+169   QYNPDPEEQEADK            -1.0000     NotChecked  -9.5584     1561.6532   ✗       
+170   QYNPDPDEEAEEK            -1.0000     NotChecked  -9.5620     1562.6373   ✗       
+171   QYN+0.984PDPENEEEAK      -1.0000     NotChecked  -9.5664     1562.6373   ✗       
+172   QYNPDPDEAEEEK            -1.0000     NotChecked  -9.5666     1562.6373   ✗       
+173   QYNPDPEEENEAK            -1.0000     NotChecked  -9.5705     1561.6532   ✗       
+174   QYNPDPGDEEEEK            -1.0000     NotChecked  -9.5734     1548.6216   ✗       
+175   QYN+0.984PDPDEDEAEK      -1.0000     NotChecked  -9.5814     1549.6056   ✗       
+176   QYNPDPEEDQAEK            -1.0000     NotChecked  -9.5825     1561.6532   ✗       
+177   QYNPDPEEEEALK            -1.0000     NotChecked  -9.5889     1560.6944   ✗       
+178   QYNPDPDEEEDAK            -1.0000     NotChecked  -9.5913     1548.6216   ✗       
+179   QYNPDPEEQEAAK            -1.0000     NotChecked  -9.5920     1517.6634   ✗       
+180   QYN+0.984PDPDEEDAEK      -1.0000     NotChecked  -9.5938     1549.6056   ✗       
+181   QYDPDPEENEAEK            -1.0000     NotChecked  -9.5986     1562.6373   ✗       
+182   QYNPDPEENDAEK            -1.0000     NotChecked  -9.6077     1547.6376   ✗       
+183   QYNPDPGEDEEEK            -1.0000     NotChecked  -9.6181     1548.6216   ✗       
+184   QYN+0.984PDPDEEEADK      -1.0000     NotChecked  -9.6191     1549.6056   ✗       
+185   QYNPDPEEEQADK            -1.0000     NotChecked  -9.6202     1561.6532   ✗       
+186   QYNPDPDEEEGEK            -1.0000     NotChecked  -9.6222     1548.6216   ✗       
+187   QYNPDPGEEDEEK            -1.0000     NotChecked  -9.6305     1548.6216   ✗       
+188   QYNPDPEENEADK            -1.0000     NotChecked  -9.6330     1547.6376   ✗       
+189   QYN+0.984PDPDEEEAAK      -1.0000     NotChecked  -9.6527     1505.6158   ✗       
+190   QYNPDPEEEQAAK            -1.0000     NotChecked  -9.6538     1517.6634   ✗       
+191   QYNPDPGEEEEDK            -1.0000     NotChecked  -9.6557     1548.6216   ✗       
+192   QYNPDPEEEETAK            -1.0000     NotChecked  -9.6598     1548.6580   ✗       
+193   QYNPDPEENEAAK            -1.0000     NotChecked  -9.6666     1503.6478   ✗       
+194   QYNPDPNDEEEAK            -1.0000     NotChecked  -9.6718     1547.6376   ✗       
+195   QYNPDPGEEEEAK            -1.0000     NotChecked  -9.6893     1504.6318   ✗       
+196   QYNPDPAEEEAEK            -1.0000     NotChecked  -9.6914     1518.6474   ✗       
+197   QYNPDPDDDEAEK            -1.0000     NotChecked  -9.7058     1534.6060   ✗       
+198   QYDPDPDDEEAEK            -1.0000     NotChecked  -9.7091     1549.6056   ✗       
+199   QYNPDPNQEEAEK            -1.0000     NotChecked  -9.7093     1560.6692   ✗       
+200   QYNPDPDQEEEAK            -1.0000     NotChecked  -9.7098     1561.6532   ✗       
+201   QYNPDPNEDEEAK            -1.0000     NotChecked  -9.7164     1547.6376   ✗       
+202   QYNPDPDDEDAEK            -1.0000     NotChecked  -9.7182     1534.6060   ✗       
+203   QYDPDPNEEEEAK            -1.0000     NotChecked  -9.7198     1562.6373   ✗       
+204   QYNPDPESEEAEK            -1.0000     NotChecked  -9.7274     1534.6423   ✗       
+205   QYNPDPNEEDEAK            -1.0000     NotChecked  -9.7288     1547.6376   ✗       
+206   QYNPDPEDEEQAK            -1.0000     NotChecked  -9.7309     1561.6532   ✗       
+207   QYNPDPEDEEAEK            -1.0000     NotChecked  -9.7322     1562.6373   ✗       
+208   QYNPDPENDEEAK            -1.0000     NotChecked  -9.7355     1547.6376   ✗       
+209   QYDPDPENEEEAK            -1.0000     NotChecked  -9.7388     1562.6373   ✗       
+210   QYNPDPEDEAEEK            -1.0000     NotChecked  -9.7392     1562.6373   ✗       
+211   QYNPDPDDEEADK            -1.0000     NotChecked  -9.7435     1534.6060   ✗       
+212   QYNPDPEDAEEEK            -1.0000     NotChecked  -9.7439     1562.6373   ✗       
+213   QYNPDPENEDEAK            -1.0000     NotChecked  -9.7479     1547.6376   ✗       
+214   QYDPDPDEDEAEK            -1.0000     NotChecked  -9.7538     1549.6056   ✗       
+215   QYNPDPSEEEEAK            -1.0000     NotChecked  -9.7575     1534.6423   ✗       
+216   QYN+0.984PDPEDDEAEK      -1.0000     NotChecked  -9.7587     1549.6056   ✗       
+217   QYNPDPDEDDAEK            -1.0000     NotChecked  -9.7629     1534.6060   ✗       
+218   QYDPDPDEEDAEK            -1.0000     NotChecked  -9.7662     1549.6056   ✗       
+219   QYNPDPNEEEAQK            -1.0000     NotChecked  -9.7664     1560.6692   ✗       
+220   QYNPDPEDEEDAK            -1.0000     NotChecked  -9.7686     1548.6216   ✗       
+221   QYN+0.984PDPEDEDAEK      -1.0000     NotChecked  -9.7711     1549.6056   ✗       
+222   QYNPDPEEDEQAK            -1.0000     NotChecked  -9.7756     1561.6532   ✗       
+223   QYNPDPEEDEAEK            -1.0000     NotChecked  -9.7769     1562.6373   ✗       
+224   QYNPDPDDEEAAK            -1.0000     NotChecked  -9.7771     1490.6161   ✗       
+225   QYNPDPEEDAEEK            -1.0000     NotChecked  -9.7839     1562.6373   ✗       
+226   QYNPDPENEEAQK            -1.0000     NotChecked  -9.7854     1560.6692   ✗       
+227   QYNPDPNEQEAEK            -1.0000     NotChecked  -9.7880     1560.6692   ✗       
+228   QYNPDPEEEDQAK            -1.0000     NotChecked  -9.7880     1561.6532   ✗       
+229   QYNPDPDEDEADK            -1.0000     NotChecked  -9.7881     1534.6060   ✗       
+230   QYNPDPDEQEEAK            -1.0000     NotChecked  -9.7884     1561.6532   ✗       
+231   QYNPDPEEEDAEK            -1.0000     NotChecked  -9.7893     1562.6373   ✗       
+232   QYDPDPDEEEADK            -1.0000     NotChecked  -9.7914     1549.6056   ✗       
+233   QYN+0.984PDPEDEEADK      -1.0000     NotChecked  -9.7963     1549.6056   ✗       
+234   QYNPDPEDEEGEK            -1.0000     NotChecked  -9.7994     1548.6216   ✗       
+235   QYNPDPDEEDADK            -1.0000     NotChecked  -9.8005     1534.6060   ✗       
+236   QYNPDPEEADEEK            -1.0000     NotChecked  -9.8009     1562.6373   ✗       
+237   QYNPDPENQEAEK            -1.0000     NotChecked  -9.8070     1560.6692   ✗       
+238   QYNPDPEEDEDAK            -1.0000     NotChecked  -9.8132     1548.6216   ✗       
+239   QYNPDPEEEEADK            -1.0000     NotChecked  -9.8145     1562.6373   ✗       
+240   QYN+0.984PDPEEDDAEK      -1.0000     NotChecked  -9.8158     1549.6056   ✗       
+241   QYNPDPEEEAEDK            -1.0000     NotChecked  -9.8215     1562.6373   ✗       
+242   QYNPDPDEDEAAK            -1.0000     NotChecked  -9.8217     1490.6161   ✗       
+243   QYDPDPDEEEAAK            -1.0000     NotChecked  -9.8250     1505.6158   ✗       
+244   QYNPDPEEEDDAK            -1.0000     NotChecked  -9.8256     1548.6216   ✗       
+245   QYNPDPEEAEEDK            -1.0000     NotChecked  -9.8261     1562.6373   ✗       
+246   QYN+0.984PDPEDEEAAK      -1.0000     NotChecked  -9.8299     1505.6158   ✗       
+247   QYNPDPDEEDAAK            -1.0000     NotChecked  -9.8341     1490.6161   ✗       
+248   QYN+0.984PDPEEDEADK      -1.0000     NotChecked  -9.8410     1549.6056   ✗       
+249   QYNPDPEEDEGEK            -1.0000     NotChecked  -9.8441     1548.6216   ✗       
+250   QYNPDPEEEEAAK            -1.0000     NotChecked  -9.8481     1518.6474   ✗       
+251   QYNPDPNEEQAEK            -1.0000     NotChecked  -9.8497     1560.6692   ✗       
+252   QYNPDPDEEQEAK            -1.0000     NotChecked  -9.8502     1561.6532   ✗       
+253   QYN+0.984PDPEEEDADK      -1.0000     NotChecked  -9.8534     1549.6056   ✗       
+254   QYNPDPEEEAEAK            -1.0000     NotChecked  -9.8551     1518.6474   ✗       
+255   QYNPDPEEEDGEK            -1.0000     NotChecked  -9.8565     1548.6216   ✗       
+256   QYNPDPEEAEEAK            -1.0000     NotChecked  -9.8597     1518.6474   ✗       
+257   QYNPDPNENEAEK            -1.0000     NotChecked  -9.8625     1546.6536   ✗       
+258   QYNPDPDENEEAK            -1.0000     NotChecked  -9.8630     1547.6376   ✗       
+259   QYN+0.984PDPDNEEAEK      -1.0000     NotChecked  -9.8677     1548.6216   ✗       
+260   QYNPDPENEQAEK            -1.0000     NotChecked  -9.8688     1560.6692   ✗       
+261   QYNPDPDEENAEK            -1.0000     NotChecked  -9.8717     1547.6376   ✗       
+262   QYN+0.984PDPEEDEAAK      -1.0000     NotChecked  -9.8746     1505.6158   ✗       
+263   QYNPDPENNEAEK            -1.0000     NotChecked  -9.8816     1546.6536   ✗       
+264   QYNPDPEEEEGDK            -1.0000     NotChecked  -9.8817     1548.6216   ✗       
+265   QYN+0.984PDPEEEDAAK      -1.0000     NotChecked  -9.8870     1505.6158   ✗       
+266   QYNPDPDEEEAVK            -1.0000     NotChecked  -9.8972     1532.6631   ✗       
+267   QYNPDPETEEAEK            -1.0000     NotChecked  -9.8993     1548.6580   ✗       
+268   QYNPDPGNEEEEK            -1.0000     NotChecked  -9.9043     1547.6376   ✗       
+269   QYNPDPEEEEGAK            -1.0000     NotChecked  -9.9153     1504.6318   ✗       
+270   QYN+0.984PDPEENEEAK      -1.0000     NotChecked  -9.9159     1562.6373   ✗       
+271   QYN+0.984PDPEEENAEK      -1.0000     NotChecked  -9.9246     1562.6373   ✗       
+272   QYDPDPEDDEAEK            -1.0000     NotChecked  -9.9311     1549.6056   ✗       
+273   QYNPDPEQDEEAK            -1.0000     NotChecked  -9.9317     1561.6532   ✗       
+274   QYNPDPEEEGEEK            -1.0000     NotChecked  -9.9324     1562.6373   ✗       
+275   QYNPDPTEEEAEK            -1.0000     NotChecked  -9.9360     1548.6580   ✗       
+276   QYNPDPEDDDAEK            -1.0000     NotChecked  -9.9402     1534.6060   ✗       
+277   QYDPDPEDEDAEK            -1.0000     NotChecked  -9.9435     1549.6056   ✗       
+278   QYNPDPEQEDEAK            -1.0000     NotChecked  -9.9441     1561.6532   ✗       
+279   QYNPDPGEEEQEK            -1.0000     NotChecked  -9.9444     1561.6532   ✗       
+280   QYN+0.984PDPEEEEAVK      -1.0000     NotChecked  -9.9501     1547.6627   ✗       
+281   QYNPDPEDDEADK            -1.0000     NotChecked  -9.9654     1534.6060   ✗       
+282   QYNPDPEDQEEAK            -1.0000     NotChecked  -9.9657     1561.6532   ✗       
+283   QYDPDPEDEEADK            -1.0000     NotChecked  -9.9687     1549.6056   ✗       
+284   QYNPDPEDEDADK            -1.0000     NotChecked  -9.9778     1534.6060   ✗       
+285   QYNPDPEEESEAK            -1.0000     NotChecked  -9.9817     1534.6423   ✗       
+286   QYNPDPGEEEDEK            -1.0000     NotChecked  -9.9821     1548.6216   ✗       
+287   QYDPDPEEDDAEK            -1.0000     NotChecked  -9.9881     1549.6056   ✗       
+288   QYNPDPEEETAEK            -1.0000     NotChecked  -9.9952     1548.6580   ✗       
+289   QYNPDPEDDEAAK            -1.0000     NotChecked  -9.9990     1490.6161   ✗       
+290   QYDPDPEDEEAAK            -1.0000     NotChecked  -10.0023    1505.6158   ✗       
+291   QYNPDPEETEAEK            -1.0000     NotChecked  -10.0027    1548.6580   ✗       
+292   QYNPDPNNEEEAK            -1.0000     NotChecked  -10.0027    1546.6536   ✗       
+293   QYNPDPEEGEEEK            -1.0000     NotChecked  -10.0037    1562.6373   ✗       
+294   QYNPDPEDEDAAK            -1.0000     NotChecked  -10.0114    1490.6161   ✗       
+295   QYDPDPEEDEADK            -1.0000     NotChecked  -10.0133    1549.6056   ✗       
+296   QYNPDPQDEEAEK            -1.0000     NotChecked  -10.0163    1561.6532   ✗       
+297   QYNPDPEEDDADK            -1.0000     NotChecked  -10.0224    1534.6060   ✗       
+298   QYNPDPEEQDEAK            -1.0000     NotChecked  -10.0228    1561.6532   ✗       
+299   QYDPDPEEEDADK            -1.0000     NotChecked  -10.0258    1549.6056   ✗       
+300   QYN+0.984PDPNDEEAEK      -1.0000     NotChecked  -10.0259    1548.6216   ✗       
+301   QYN+0.984PDPDDEEEAK      -1.0000     NotChecked  -10.0264    1549.6056   ✗       
+302   QYNPDPEDEQEAK            -1.0000     NotChecked  -10.0275    1561.6532   ✗       
+303   QYNPDPDEEEANK            -1.0000     NotChecked  -10.0278    1547.6376   ✗       
+304   QYNPDPEESEEAK            -1.0000     NotChecked  -10.0330    1534.6423   ✗       
+305   QYNPDPEGEEEEK            -1.0000     NotChecked  -10.0354    1562.6373   ✗       
+306   QYNPDPEAEEAEK            -1.0000     NotChecked  -10.0364    1518.6474   ✗       
+307   QYNPDPDNDEAEK            -1.0000     NotChecked  -10.0367    1533.6219   ✗       
+308   QYDPDPDNEEAEK            -1.0000     NotChecked  -10.0400    1548.6216   ✗       
+309   QYNPDPEDNEEAK            -1.0000     NotChecked  -10.0403    1547.6376   ✗       
+310   QYNPDPNEEEQAK            -1.0000     NotChecked  -10.0428    1560.6692   ✗       
+311   QYN+0.984PDPGEEEAEK      -1.0000     NotChecked  -10.0434    1505.6158   ✗       
+312   QYNPDPNEEEAEK            -1.0000     NotChecked  -10.0441    1561.6532   ✗       
+313   QYNPDPDEEEEAK            -1.0000     NotChecked  -10.0446    1562.6373   ✗       
+314   QYDPDPEEDEAAK            -1.0000     NotChecked  -10.0469    1505.6158   ✗       
+315   QYNPDPEDENAEK            -1.0000     NotChecked  -10.0490    1547.6376   ✗       
+316   QYNPDPDNEDAEK            -1.0000     NotChecked  -10.0491    1533.6219   ✗       
+317   QYNPDPNEEAEEK            -1.0000     NotChecked  -10.0511    1561.6532   ✗       
+318   QYNPDPNEAEEEK            -1.0000     NotChecked  -10.0557    1561.6532   ✗       
+319   QYNPDPEEDDAAK            -1.0000     NotChecked  -10.0560    1490.6161   ✗       
+320   QYNPDPDEEENAK            -1.0000     NotChecked  -10.0564    1547.6376   ✗       
+321   QYDPDPEEEDAAK            -1.0000     NotChecked  -10.0594    1505.6158   ✗       
+322   QYNPDPQEDEAEK            -1.0000     NotChecked  -10.0610    1561.6532   ✗       
+323   QYNPDPENEEQAK            -1.0000     NotChecked  -10.0618    1560.6692   ✗       
+324   QYNPDPENEEAEK            -1.0000     NotChecked  -10.0631    1561.6532   ✗       
+325   QYN+0.984PDPDQEEAEK      -1.0000     NotChecked  -10.0639    1562.6373   ✗       
+326   QYNPDPADEEEEK            -1.0000     NotChecked  -10.0651    1562.6373   ✗       
+327   QYNPDPENEAEEK            -1.0000     NotChecked  -10.0701    1561.6532   ✗       
+328   QYN+0.984PDPNEDEAEK      -1.0000     NotChecked  -10.0705    1548.6216   ✗       
+329   QYN+0.984PDPDEDEEAK      -1.0000     NotChecked  -10.0710    1549.6056   ✗       
+330   QYNPDPEEDQEAK            -1.0000     NotChecked  -10.0721    1561.6532   ✗       
+331   QYNPDPQEEDAEK            -1.0000     NotChecked  -10.0734    1561.6532   ✗       
+332   QYNPDPDNEEADK            -1.0000     NotChecked  -10.0743    1533.6219   ✗       
+333   QYNPDPEDEEAVK            -1.0000     NotChecked  -10.0745    1532.6631   ✗       
+334   QYNPDPENAEEEK            -1.0000     NotChecked  -10.0747    1561.6532   ✗       
+335   QYNPDPEQNEAEK            -1.0000     NotChecked  -10.0778    1560.6692   ✗       
+336   QYNPDPNEEEDAK            -1.0000     NotChecked  -10.0804    1547.6376   ✗       
+337   QYN+0.984PDPEEEEANK      -1.0000     NotChecked  -10.0806    1562.6373   ✗       
+338   QYN+0.984PDPNEEDAEK      -1.0000     NotChecked  -10.0830    1548.6216   ✗       
+339   QYN+0.984PDPDEEDEAK      -1.0000     NotChecked  -10.0834    1549.6056   ✗       
+340   QYDPDPEENEEAK            -1.0000     NotChecked  -10.0883    1562.6373   ✗       
+341   QYN+0.984PDPENDEAEK      -1.0000     NotChecked  -10.0896    1548.6216   ✗       
+342   QYNPDPEEDNAEK            -1.0000     NotChecked  -10.0937    1547.6376   ✗       
+343   QYDPDPEEENAEK            -1.0000     NotChecked  -10.0970    1562.6373   ✗       
+344   QYNPDPEENDEAK            -1.0000     NotChecked  -10.0974    1547.6376   ✗       
+345   QYNPDPQEEEADK            -1.0000     NotChecked  -10.0986    1561.6532   ✗       
+346   QYNPDPENEEDAK            -1.0000     NotChecked  -10.0994    1547.6376   ✗       
+347   QYNPDPGQEEEEK            -1.0000     NotChecked  -10.1006    1561.6532   ✗       
+348   QYN+0.984PDPENEDAEK      -1.0000     NotChecked  -10.1020    1548.6216   ✗       
+349   QYNPDPDNEEAAK            -1.0000     NotChecked  -10.1079    1489.6321   ✗       
+350   QYN+0.984PDPNEEEADK      -1.0000     NotChecked  -10.1082    1548.6216   ✗       
+351   QYN+0.984PDPEEEENAK      -1.0000     NotChecked  -10.1092    1562.6373   ✗       
+352   QYNPDPAEDEEEK            -1.0000     NotChecked  -10.1097    1562.6373   ✗       
+353   QYNPDPNEEEGEK            -1.0000     NotChecked  -10.1113    1547.6376   ✗       
+354   QYN+0.984PDPSEEEAEK      -1.0000     NotChecked  -10.1116    1535.6264   ✗       
+355   QYNPDPEEDEAVK            -1.0000     NotChecked  -10.1192    1532.6631   ✗       
+356   QYN+0.984PDPDEEEAQK      -1.0000     NotChecked  -10.1210    1562.6373   ✗       
+357   QYNPDPAEEDEEK            -1.0000     NotChecked  -10.1221    1562.6373   ✗       
+358   QYDPDPEEEEAVK            -1.0000     NotChecked  -10.1225    1547.6627   ✗       
+359   QYN+0.984PDPENEEADK      -1.0000     NotChecked  -10.1272    1548.6216   ✗       
+360   QYNPDPENEEGEK            -1.0000     NotChecked  -10.1303    1547.6376   ✗       
+361   QYNPDPEEENADK            -1.0000     NotChecked  -10.1313    1547.6376   ✗       
+362   QYNPDPEEEDAVK            -1.0000     NotChecked  -10.1316    1532.6631   ✗       
+363   QYNPDPQEEEAAK            -1.0000     NotChecked  -10.1322    1517.6634   ✗       
+364   QYNPDPEENEAQK            -1.0000     NotChecked  -10.1349    1560.6692   ✗       
+365   QYN+0.984PDPNEEEAAK      -1.0000     NotChecked  -10.1418    1504.6318   ✗       
+366   QYN+0.984PDPDEQEAEK      -1.0000     NotChecked  -10.1425    1562.6373   ✗       
+367   QYNPDPN+0.984EEEAEK      -1.0000     NotChecked  -10.1445    1562.6373   ✗       
+368   QYNPDPAEEEEDK            -1.0000     NotChecked  -10.1474    1562.6373   ✗       
+369   QYNPDPDEEESAK            -1.0000     NotChecked  -10.1476    1520.6267   ✗       
+370   QYNPDPEEEADEK            -1.0000     NotChecked  -10.1478    1562.6373   ✗       
+371   Q+0.984YNPDPEEEEAAK      -1.0000     NotChecked  -11.1620    1519.6314   ✗       
+372   Q+0.984YNPDPNEEEAEK      -1.0000     NotChecked  -11.3580    1562.6373   ✗       
+373   Q+0.984YNPDPENEEAEK      -1.0000     NotChecked  -11.3770    1562.6373   ✗       
+374   Q+0.984YNPDPEENEAEK      -1.0000     NotChecked  -11.7265    1562.6373   ✗       
+375   Q+0.984YNPDPDDEEAEK      -1.0000     NotChecked  -11.8370    1549.6056   ✗       
+376   Q+0.984YNPDPNEEEEAK      -1.0000     NotChecked  -11.8476    1562.6373   ✗       
+377   Q+0.984YNPDPENEEEAK      -1.0000     NotChecked  -11.8666    1562.6373   ✗       
+378   Q+0.984YNPDPDEDEAEK      -1.0000     NotChecked  -11.8817    1549.6056   ✗       
+379   Q+0.984YNPDPDEEDAEK      -1.0000     NotChecked  -11.8941    1549.6056   ✗       
+380   Q+0.984YNPDPDEEEADK      -1.0000     NotChecked  -11.9193    1549.6056   ✗       
+381   Q+0.984YNPDPDEEEAAK      -1.0000     NotChecked  -11.9529    1505.6158   ✗       
+382   Q+0.984YN+0.984PDPEEEEAAK-1.0000     NotChecked  -12.0057    1520.6155   ✗       
+383   Q+0.984YNPDPEDDEAEK      -1.0000     NotChecked  -12.0589    1549.6056   ✗       
+384   Q+0.984YNPDPEDEDAEK      -1.0000     NotChecked  -12.0713    1549.6056   ✗       
+385   Q+0.984YNPDPEDEEADK      -1.0000     NotChecked  -12.0966    1549.6056   ✗       
+386   Q+0.984YNPDPEEDDAEK      -1.0000     NotChecked  -12.1160    1549.6056   ✗       
+387   Q+0.984YNPDPEDEEAAK      -1.0000     NotChecked  -12.1302    1505.6158   ✗       
+388   Q+0.984YNPDPEEDEADK      -1.0000     NotChecked  -12.1412    1549.6056   ✗       
+389   Q+0.984YNPDPEEEDADK      -1.0000     NotChecked  -12.1536    1549.6056   ✗       
+390   Q+0.984YNPDPDNEEAEK      -1.0000     NotChecked  -12.1679    1548.6216   ✗       
+391   Q+0.984YNPDPEEDEAAK      -1.0000     NotChecked  -12.1748    1505.6158   ✗       
+392   Q+0.984YDPDPEEEEAAK      -1.0000     NotChecked  -12.1781    1520.6155   ✗       
+393   Q+0.984YNPDPEEEDAAK      -1.0000     NotChecked  -12.1872    1505.6158   ✗       
+394   Q+0.984YNPDPEENEEAK      -1.0000     NotChecked  -12.2161    1562.6373   ✗       
+395   Q+0.984YNPDPEEENAEK      -1.0000     NotChecked  -12.2248    1562.6373   ✗       
+396   -17.027YNPDPEEEEEEK      -1.0000     NotChecked  -12.2468    1489.5733   ✗       
+397   Q+0.984YNPDPEEEEAVK      -1.0000     NotChecked  -12.2503    1547.6627   ✗       
+398   Q+0.984YNPDPNDEEAEK      -1.0000     NotChecked  -12.3261    1548.6216   ✗       
+399   Q+0.984YNPDPDDEEEAK      -1.0000     NotChecked  -12.3266    1549.6056   ✗       
+400   Q+0.984YNPDPGEEEAEK      -1.0000     NotChecked  -12.3436    1505.6158   ✗       
+401   Q+0.984YNPDPDQEEAEK      -1.0000     NotChecked  -12.3641    1562.6373   ✗       
+402   Q+0.984YNPDPNEDEAEK      -1.0000     NotChecked  -12.3708    1548.6216   ✗       
+403   Q+0.984YNPDPDEDEEAK      -1.0000     NotChecked  -12.3713    1549.6056   ✗       
+404   Q+0.984YNPDPEEEEANK      -1.0000     NotChecked  -12.3808    1562.6373   ✗       
+405   Q+0.984YNPDPNEEDAEK      -1.0000     NotChecked  -12.3832    1548.6216   ✗       
+406   Q+0.984YNPDPDEEDEAK      -1.0000     NotChecked  -12.3837    1549.6056   ✗       
+407   Q+0.984YNPDPENDEAEK      -1.0000     NotChecked  -12.3898    1548.6216   ✗       
+408   Q+0.984YDPDPENEEAEK      -1.0000     Failed      -12.3931    1563.6213   ✓       
+409   Q+0.984YNPDPENEDAEK      -1.0000     NotChecked  -12.4022    1548.6216   ✗       
+410   Q+0.984YNPDPNEEEADK      -1.0000     NotChecked  -12.4084    1548.6216   ✗       
+411   Q+0.984YNPDPEEEENAK      -1.0000     NotChecked  -12.4094    1562.6373   ✗       
+412   Q+0.984YNPDPSEEEAEK      -1.0000     NotChecked  -12.4119    1535.6264   ✗       
+413   Q+0.984YNPDPDEEEAQK      -1.0000     NotChecked  -12.4212    1562.6373   ✗       
+414   Q+0.984YNPDPENEEADK      -1.0000     NotChecked  -12.4274    1548.6216   ✗       
+415   Q+0.984YNPDPNEEEAAK      -1.0000     NotChecked  -12.4420    1504.6318   ✗       
+416   Q+0.984YNPDPDEQEAEK      -1.0000     NotChecked  -12.4428    1562.6373   ✗       
+417   Q+0.984YNPDPENEEAAK      -1.0000     NotChecked  -12.4610    1504.6318   ✗       
+418   Q+0.984YNPDPEEEESAK      -1.0000     NotChecked  -12.5007    1535.6264   ✗       
+419   Q+0.984YNPDPDEEQAEK      -1.0000     NotChecked  -12.5045    1562.6373   ✗       
+420   Q+0.984YNPDPEEEAAEK      -1.0000     NotChecked  -12.5094    1519.6314   ✗       
+421   Q+0.984YNPDPEEAEAEK      -1.0000     NotChecked  -12.5141    1519.6314   ✗       
+422   Q+0.984YNPDPDENEAEK      -1.0000     NotChecked  -12.5174    1548.6216   ✗       
+423   Q+0.984YNPDPEDDEEAK      -1.0000     NotChecked  -12.5485    1549.6056   ✗       
+424   Q+0.984YNPDPEDEDEAK      -1.0000     NotChecked  -12.5609    1549.6056   ✗       
+425   Q+0.984YNPDPEQDEAEK      -1.0000     NotChecked  -12.5860    1562.6373   ✗       
+426   Q+0.984YNPDPEQEDAEK      -1.0000     NotChecked  -12.5985    1562.6373   ✗       
+427   Q+0.984YNPDPEDEEAQK      -1.0000     NotChecked  -12.5985    1562.6373   ✗       
+428   Q+0.984YNPDPEEDDEAK      -1.0000     NotChecked  -12.6056    1549.6056   ✗       
+429   Q+0.984YNPDPEDQEAEK      -1.0000     NotChecked  -12.6201    1562.6373   ✗       
+430   Q+0.984YNPDPEQEEADK      -1.0000     NotChecked  -12.6237    1562.6373   ✗       
+431   Q+0.984YNPDPEEESAEK      -1.0000     NotChecked  -12.6360    1535.6264   ✗       
+432   Q+0.984YNPDPEEDEAQK      -1.0000     NotChecked  -12.6432    1562.6373   ✗       
+433   Q+0.984YNPDPEEEDAQK      -1.0000     NotChecked  -12.6556    1562.6373   ✗       
+434   Q+0.984YNPDPNNEEAEK      -1.0000     NotChecked  -12.6570    1547.6376   ✗       
+435   Q+0.984YNPDPEQEEAAK      -1.0000     NotChecked  -12.6573    1518.6474   ✗       
+436   Q+0.984YNPDPDNEEEAK      -1.0000     NotChecked  -12.6575    1548.6216   ✗       
+437   Q+0.984YNPDPEEQDAEK      -1.0000     NotChecked  -12.6771    1562.6373   ✗       
+438   Q+0.984YN+0.984PDPDDEEAEK-1.0000     NotChecked  -12.6807    1550.5896   ✗       
+439   Q+0.984YNPDPEDEQAEK      -1.0000     NotChecked  -12.6818    1562.6373   ✗       
+440   Q+0.984YNPDPEESEAEK      -1.0000     NotChecked  -12.6873    1535.6264   ✗       
+441   Q+0.984YNPDPEDNEAEK      -1.0000     NotChecked  -12.6946    1548.6216   ✗       
+442   Q+0.984YNPDPDEEEQAK      -1.0000     NotChecked  -12.6976    1562.6373   ✗       
+443   Q+0.984YNPDPEEQEADK      -1.0000     NotChecked  -12.7023    1562.6373   ✗       
+444   Q+0.984YNPDPEEENEAK      -1.0000     NotChecked  -12.7144    1562.6373   ✗       
+445   Q+0.984YNPDPGDEEEEK      -1.0000     NotChecked  -12.7174    1549.6056   ✗       
+446   Q+0.984YN+0.984PDPDEDEAEK-1.0000     NotChecked  -12.7254    1550.5896   ✗       
+447   Q+0.984YNPDPEEDQAEK      -1.0000     NotChecked  -12.7265    1562.6373   ✗       
+448   Q+0.984YNPDPEEEEALK      -1.0000     NotChecked  -12.7328    1561.6784   ✗       
+449   Q+0.984YNPDPDEEEDAK      -1.0000     NotChecked  -12.7352    1549.6056   ✗       
+450   Q+0.984YNPDPEEQEAAK      -1.0000     NotChecked  -12.7359    1518.6474   ✗       
+451   Q+0.984YN+0.984PDPDEEDAEK-1.0000     NotChecked  -12.7378    1550.5896   ✗       
+452   Q+0.984YNPDPEENDAEK      -1.0000     NotChecked  -12.7517    1548.6216   ✗       
+453   Q+0.984YNPDPGEDEEEK      -1.0000     NotChecked  -12.7620    1549.6056   ✗       
+454   Q+0.984YN+0.984PDPDEEEADK-1.0000     NotChecked  -12.7630    1550.5896   ✗       
+455   Q+0.984YNPDPEEEQADK      -1.0000     NotChecked  -12.7641    1562.6373   ✗       
+456   Q+0.984YNPDPDEEEGEK      -1.0000     NotChecked  -12.7661    1549.6056   ✗       
+457   Q+0.984YNPDPGEEDEEK      -1.0000     NotChecked  -12.7744    1549.6056   ✗       
+458   Q+0.984YNPDPEENEADK      -1.0000     NotChecked  -12.7769    1548.6216   ✗       
+459   Q+0.984YN+0.984PDPDEEEAAK-1.0000     NotChecked  -12.7966    1506.5998   ✗       
+460   Q+0.984YNPDPEEEQAAK      -1.0000     NotChecked  -12.7977    1518.6474   ✗       
+461   Q+0.984YNPDPGEEEEDK      -1.0000     NotChecked  -12.7997    1549.6056   ✗       
+462   Q+0.984YNPDPEEEETAK      -1.0000     NotChecked  -12.8037    1549.6420   ✗       
+463   Q+0.984YNPDPEENEAAK      -1.0000     NotChecked  -12.8105    1504.6318   ✗       
+464   Q+0.984YNPDPNDEEEAK      -1.0000     NotChecked  -12.8157    1548.6216   ✗       
+465   Q+0.984YNPDPGEEEEAK      -1.0000     NotChecked  -12.8333    1505.6158   ✗       
+466   Q+0.984YNPDPAEEEAEK      -1.0000     NotChecked  -12.8353    1519.6314   ✗       
+467   -17.027YNPDPEEEEAEK      -1.0000     NotChecked  -12.8412    1431.5678   ✗       
+468   Q+0.984YNPDPDDDEAEK      -1.0000     NotChecked  -12.8498    1535.5900   ✗       
+469   Q+0.984YDPDPDDEEAEK      -1.0000     NotChecked  -12.8531    1550.5896   ✗       
+470   Q+0.984YNPDPNQEEAEK      -1.0000     NotChecked  -12.8533    1561.6532   ✗       
+471   Q+0.984YNPDPDQEEEAK      -1.0000     NotChecked  -12.8537    1562.6373   ✗       
+472   Q+0.984YNPDPNEDEEAK      -1.0000     NotChecked  -12.8604    1548.6216   ✗       
+473   Q+0.984YNPDPDDEDAEK      -1.0000     NotChecked  -12.8622    1535.5900   ✗       
+474   Q+0.984YNPDPESEEAEK      -1.0000     NotChecked  -12.8713    1535.6264   ✗       
+475   Q+0.984YNPDPNEEDEAK      -1.0000     NotChecked  -12.8728    1548.6216   ✗       
+476   Q+0.984YNPDPEDEEQAK      -1.0000     NotChecked  -12.8749    1562.6373   ✗       
+477   Q+0.984YNPDPENDEEAK      -1.0000     NotChecked  -12.8794    1548.6216   ✗       
+478   Q+0.984YDPDPENEEEAK      -1.0000     Failed      -12.8827    1563.6213   ✓       
+479   Q+0.984YNPDPDDEEADK      -1.0000     NotChecked  -12.8874    1535.5900   ✗       
+480   Q+0.984YNPDPENEDEAK      -1.0000     NotChecked  -12.8918    1548.6216   ✗       
+481   Q+0.984YDPDPDEDEAEK      -1.0000     NotChecked  -12.8977    1550.5896   ✗       
+482   Q+0.984YNPDPSEEEEAK      -1.0000     NotChecked  -12.9015    1535.6264   ✗       
+483   Q+0.984YN+0.984PDPEDDEAEK-1.0000     NotChecked  -12.9026    1550.5896   ✗       
+484   Q+0.984YNPDPDEDDAEK      -1.0000     NotChecked  -12.9068    1535.5900   ✗       
+485   Q+0.984YDPDPDEEDAEK      -1.0000     NotChecked  -12.9101    1550.5896   ✗       
+486   Q+0.984YNPDPNEEEAQK      -1.0000     NotChecked  -12.9104    1561.6532   ✗       
+487   Q+0.984YNPDPEDEEDAK      -1.0000     NotChecked  -12.9125    1549.6056   ✗       
+488   Q+0.984YN+0.984PDPEDEDAEK-1.0000     NotChecked  -12.9150    1550.5896   ✗       
+489   Q+0.984YNPDPEEDEQAK      -1.0000     NotChecked  -12.9195    1562.6373   ✗       
+490   Q+0.984YNPDPDDEEAAK      -1.0000     NotChecked  -12.9210    1491.6001   ✗       
+491   Q+0.984YNPDPENEEAQK      -1.0000     NotChecked  -12.9294    1561.6532   ✗       
+492   Q+0.984YNPDPNEQEAEK      -1.0000     NotChecked  -12.9319    1561.6532   ✗       
+493   Q+0.984YNPDPEEEDQAK      -1.0000     NotChecked  -12.9319    1562.6373   ✗       
+494   Q+0.984YNPDPDEDEADK      -1.0000     NotChecked  -12.9321    1535.5900   ✗       
+495   Q+0.984YNPDPDEQEEAK      -1.0000     NotChecked  -12.9324    1562.6373   ✗       
+496   Q+0.984YDPDPDEEEADK      -1.0000     NotChecked  -12.9354    1550.5896   ✗       
+497   Q+0.984YN+0.984PDPEDEEADK-1.0000     NotChecked  -12.9403    1550.5896   ✗       
+498   Q+0.984YNPDPEDEEGEK      -1.0000     NotChecked  -12.9434    1549.6056   ✗       
+499   Q+0.984YNPDPDEEDADK      -1.0000     NotChecked  -12.9445    1535.5900   ✗       
+500   Q+0.984YNPDPENQEAEK      -1.0000     NotChecked  -12.9509    1561.6532   ✗       
+501   Q+0.984YNPDPEEDEDAK      -1.0000     NotChecked  -12.9571    1549.6056   ✗       
+502   Q+0.984YN+0.984PDPEEDDAEK-1.0000     NotChecked  -12.9597    1550.5896   ✗       
+503   Q+0.984YNPDPEEEAEDK      -1.0000     Failed      -12.9655    1563.6213   ✓       
+504   Q+0.984YNPDPDEDEAAK      -1.0000     NotChecked  -12.9656    1491.6001   ✗       
+505   Q+0.984YDPDPDEEEAAK      -1.0000     NotChecked  -12.9690    1506.5998   ✗       
+506   Q+0.984YNPDPEEEDDAK      -1.0000     NotChecked  -12.9696    1549.6056   ✗       
+507   Q+0.984YN+0.984PDPEDEEAAK-1.0000     NotChecked  -12.9739    1506.5998   ✗       
+508   Q+0.984YNPDPDEEDAAK      -1.0000     NotChecked  -12.9781    1491.6001   ✗       
+509   Q+0.984YN+0.984PDPEEDEADK-1.0000     NotChecked  -12.9849    1550.5896   ✗       
+510   Q+0.984YNPDPEEDEGEK      -1.0000     NotChecked  -12.9880    1549.6056   ✗       
+511   Q+0.984YNPDPEEEEAAK      -1.0000     NotChecked  -12.9921    1519.6314   ✗       
+512   Q+0.984YNPDPNEEQAEK      -1.0000     NotChecked  -12.9937    1561.6532   ✗       
+513   Q+0.984YNPDPDEEQEAK      -1.0000     NotChecked  -12.9942    1562.6373   ✗       
+514   Q+0.984YN+0.984PDPEEEDADK-1.0000     NotChecked  -12.9973    1550.5896   ✗       
+515   Q+0.984YNPDPEEEAEAK      -1.0000     NotChecked  -12.9991    1519.6314   ✗       
+516   Q+0.984YNPDPEEEDGEK      -1.0000     NotChecked  -13.0004    1549.6056   ✗       
+517   Q+0.984YNPDPEEAEEAK      -1.0000     NotChecked  -13.0037    1519.6314   ✗       
+518   Q+0.984YNPDPNENEAEK      -1.0000     NotChecked  -13.0065    1547.6376   ✗       
+519   Q+0.984YNPDPDENEEAK      -1.0000     NotChecked  -13.0070    1548.6216   ✗       
+520   Q+0.984YN+0.984PDPDNEEAEK-1.0000     NotChecked  -13.0116    1549.6056   ✗       
+521   Q+0.984YNPDPENEQAEK      -1.0000     NotChecked  -13.0127    1561.6532   ✗       
+522   Q+0.984YNPDPDEENAEK      -1.0000     NotChecked  -13.0157    1548.6216   ✗       
+523   Q+0.984YN+0.984PDPEEDEAAK-1.0000     NotChecked  -13.0185    1506.5998   ✗       
+524   Q+0.984YNPDPENNEAEK      -1.0000     NotChecked  -13.0255    1547.6376   ✗       
+525   Q+0.984YNPDPEEEEGDK      -1.0000     NotChecked  -13.0256    1549.6056   ✗       
+526   Q+0.984YN+0.984PDPEEEDAAK-1.0000     NotChecked  -13.0309    1506.5998   ✗       
+527   -17.027YNPDPDEEEEEK      -1.0000     NotChecked  -13.0376    1475.5576   ✗       
+528   Q+0.984YNPDPDEEEAVK      -1.0000     NotChecked  -13.0412    1533.6471   ✗       
+529   Q+0.984YNPDPETEEAEK      -1.0000     NotChecked  -13.0432    1549.6420   ✗       
+530   Q+0.984YNPDPGNEEEEK      -1.0000     NotChecked  -13.0482    1548.6216   ✗       
+531   Q+0.984YNPDPEEEEGAK      -1.0000     NotChecked  -13.0592    1505.6158   ✗       
+532   Q+0.984YN+0.984PDPEEENAEK-1.0000     Failed      -13.0685    1563.6213   ✓       
+533   Q+0.984YDPDPEDDEAEK      -1.0000     NotChecked  -13.0750    1550.5896   ✗       
+534   Q+0.984YNPDPEQDEEAK      -1.0000     NotChecked  -13.0757    1562.6373   ✗       
+535   Q+0.984YNPDPTEEEAEK      -1.0000     NotChecked  -13.0800    1549.6420   ✗       
+536   Q+0.984YNPDPEDDDAEK      -1.0000     NotChecked  -13.0841    1535.5900   ✗       
+537   Q+0.984YDPDPEDEDAEK      -1.0000     NotChecked  -13.0874    1550.5896   ✗       
+538   Q+0.984YNPDPEQEDEAK      -1.0000     NotChecked  -13.0881    1562.6373   ✗       
+539   Q+0.984YNPDPGEEEQEK      -1.0000     NotChecked  -13.0884    1562.6373   ✗       
+540   -17.027YN+0.984PDPEEEEEEK-1.0000     NotChecked  -13.0905    1490.5573   ✗       
+541   Q+0.984YN+0.984PDPEEEEAVK-1.0000     NotChecked  -13.0940    1548.6468   ✗       
+542   Q+0.984YNPDPEDDEADK      -1.0000     NotChecked  -13.1093    1535.5900   ✗       
+543   Q+0.984YNPDPEDQEEAK      -1.0000     NotChecked  -13.1097    1562.6373   ✗       
+544   Q+0.984YDPDPEDEEADK      -1.0000     NotChecked  -13.1126    1550.5896   ✗       
+545   Q+0.984YNPDPEDEDADK      -1.0000     NotChecked  -13.1217    1535.5900   ✗       
+546   Q+0.984YNPDPEEESEAK      -1.0000     NotChecked  -13.1256    1535.6264   ✗       
+547   Q+0.984YNPDPGEEEDEK      -1.0000     NotChecked  -13.1260    1549.6056   ✗       
+548   Q+0.984YDPDPEEDDAEK      -1.0000     NotChecked  -13.1321    1550.5896   ✗       
+549   Q+0.984YNPDPEEETAEK      -1.0000     NotChecked  -13.1392    1549.6420   ✗       
+550   Q+0.984YNPDPEDDEAAK      -1.0000     NotChecked  -13.1429    1491.6001   ✗       
+551   Q+0.984YDPDPEDEEAAK      -1.0000     NotChecked  -13.1462    1506.5998   ✗       
+552   Q+0.984YNPDPEETEAEK      -1.0000     NotChecked  -13.1466    1549.6420   ✗       
+553   Q+0.984YNPDPNNEEEAK      -1.0000     NotChecked  -13.1466    1547.6376   ✗       
+554   Q+0.984YNPDPEDEDAAK      -1.0000     NotChecked  -13.1553    1491.6001   ✗       
+555   Q+0.984YDPDPEEDEADK      -1.0000     NotChecked  -13.1573    1550.5896   ✗       
+556   Q+0.984YNPDPQDEEAEK      -1.0000     NotChecked  -13.1603    1562.6373   ✗       
+557   Q+0.984YNPDPEEDDADK      -1.0000     NotChecked  -13.1664    1535.5900   ✗       
+558   Q+0.984YNPDPEEQDEAK      -1.0000     NotChecked  -13.1667    1562.6373   ✗       
+559   Q+0.984YDPDPEEEDADK      -1.0000     NotChecked  -13.1697    1550.5896   ✗       
+560   Q+0.984YN+0.984PDPNDEEAEK-1.0000     NotChecked  -13.1698    1549.6056   ✗       
+561   Q+0.984YN+0.984PDPDDEEEAK-1.0000     NotChecked  -13.1703    1550.5896   ✗       
+562   Q+0.984YNPDPEDEQEAK      -1.0000     NotChecked  -13.1714    1562.6373   ✗       
+563   Q+0.984YNPDPDEEEANK      -1.0000     NotChecked  -13.1717    1548.6216   ✗       
+564   Q+0.984YNPDPEESEEAK      -1.0000     NotChecked  -13.1769    1535.6264   ✗       
+565   Q+0.984YNPDPEAEEAEK      -1.0000     NotChecked  -13.1803    1519.6314   ✗       
+566   Q+0.984YNPDPDNDEAEK      -1.0000     NotChecked  -13.1806    1534.6060   ✗       
+567   Q+0.984YDPDPDNEEAEK      -1.0000     NotChecked  -13.1840    1549.6056   ✗       
+568   Q+0.984YNPDPEDNEEAK      -1.0000     NotChecked  -13.1842    1548.6216   ✗       
+569   Q+0.984YNPDPNEEEQAK      -1.0000     NotChecked  -13.1867    1561.6532   ✗       
+570   Q+0.984YN+0.984PDPGEEEAEK-1.0000     NotChecked  -13.1874    1506.5998   ✗       
+571   Q+0.984YNPDPNEEEAEK      -1.0000     NotChecked  -13.1880    1562.6373   ✗       
+572   Q+0.984YDPDPEEDEAAK      -1.0000     NotChecked  -13.1909    1506.5998   ✗       
+573   Q+0.984YNPDPEDENAEK      -1.0000     NotChecked  -13.1930    1548.6216   ✗       
+574   Q+0.984YNPDPDNEDAEK      -1.0000     NotChecked  -13.1931    1534.6060   ✗       
+575   Q+0.984YNPDPNEEAEEK      -1.0000     NotChecked  -13.1950    1562.6373   ✗       
+576   Q+0.984YNPDPNEAEEEK      -1.0000     NotChecked  -13.1996    1562.6373   ✗       
+577   Q+0.984YNPDPEEDDAAK      -1.0000     NotChecked  -13.2000    1491.6001   ✗       
+578   Q+0.984YNPDPDEEENAK      -1.0000     NotChecked  -13.2003    1548.6216   ✗       
+579   Q+0.984YDPDPEEEDAAK      -1.0000     NotChecked  -13.2033    1506.5998   ✗       
+580   Q+0.984YNPDPQEDEAEK      -1.0000     NotChecked  -13.2049    1562.6373   ✗       
+581   Q+0.984YNPDPENEEQAK      -1.0000     NotChecked  -13.2057    1561.6532   ✗       
+582   Q+0.984YNPDPENEEAEK      -1.0000     NotChecked  -13.2071    1562.6373   ✗       
+583   Q+0.984YNPDPENEAEEK      -1.0000     NotChecked  -13.2140    1562.6373   ✗       
+584   Q+0.984YN+0.984PDPNEDEAEK-1.0000     NotChecked  -13.2145    1549.6056   ✗       
+585   -17.027YNPDPEDEEEEK      -1.0000     NotChecked  -13.2149    1475.5576   ✗       
+586   Q+0.984YN+0.984PDPDEDEEAK-1.0000     NotChecked  -13.2150    1550.5896   ✗       
+587   Q+0.984YNPDPEEDQEAK      -1.0000     NotChecked  -13.2161    1562.6373   ✗       
+588   Q+0.984YNPDPQEEDAEK      -1.0000     NotChecked  -13.2173    1562.6373   ✗       
+589   Q+0.984YNPDPDNEEADK      -1.0000     NotChecked  -13.2183    1534.6060   ✗       
+590   Q+0.984YNPDPEDEEAVK      -1.0000     NotChecked  -13.2185    1533.6471   ✗       
+591   Q+0.984YNPDPENAEEEK      -1.0000     NotChecked  -13.2187    1562.6373   ✗       
+592   Q+0.984YNPDPEQNEAEK      -1.0000     NotChecked  -13.2218    1561.6532   ✗       
+593   Q+0.984YNPDPNEEEDAK      -1.0000     NotChecked  -13.2243    1548.6216   ✗       
+594   Q+0.984YN+0.984PDPNEEDAEK-1.0000     NotChecked  -13.2269    1549.6056   ✗       
+595   Q+0.984YN+0.984PDPDEEDEAK-1.0000     NotChecked  -13.2274    1550.5896   ✗       
+596   +43.006YNPDPEEEEEEK      -1.0000     NotChecked  -13.2316    1549.6056   ✗       
+597   Q+0.984YN+0.984PDPENDEAEK-1.0000     NotChecked  -13.2335    1549.6056   ✗       
+598   Q+0.984YNPDPEEDNAEK      -1.0000     NotChecked  -13.2376    1548.6216   ✗       
+599   Q+0.984YNPDPEENDEAK      -1.0000     NotChecked  -13.2413    1548.6216   ✗       
+600   Q+0.984YNPDPQEEEADK      -1.0000     NotChecked  -13.2425    1562.6373   ✗       
+601   Q+0.984YNPDPENEEDAK      -1.0000     NotChecked  -13.2434    1548.6216   ✗       
+602   Q+0.984YNPDPGQEEEEK      -1.0000     NotChecked  -13.2445    1562.6373   ✗       
+603   Q+0.984YN+0.984PDPENEDAEK-1.0000     NotChecked  -13.2459    1549.6056   ✗       
+604   Q+0.984YNPDPDNEEAAK      -1.0000     NotChecked  -13.2519    1490.6161   ✗       
+605   Q+0.984YN+0.984PDPNEEEADK-1.0000     NotChecked  -13.2521    1549.6056   ✗       
+606   Q+0.984YN+0.984PDPEEEENAK-1.0000     Failed      -13.2532    1563.6213   ✓       
+607   Q+0.984YNPDPNEEEGEK      -1.0000     NotChecked  -13.2552    1548.6216   ✗       
+608   Q+0.984YN+0.984PDPSEEEAEK-1.0000     NotChecked  -13.2556    1536.6104   ✗       
+609   -17.027YNPDPEEDEEEK      -1.0000     NotChecked  -13.2596    1475.5576   ✗       
+610   -17.027YDPDPEEEEEEK      -1.0000     NotChecked  -13.2629    1490.5573   ✗       
+611   Q+0.984YNPDPEEDEAVK      -1.0000     NotChecked  -13.2631    1533.6471   ✗       
+612   Q+0.984YDPDPEEEEAVK      -1.0000     NotChecked  -13.2664    1548.6468   ✗       
+613   Q+0.984YN+0.984PDPENEEADK-1.0000     NotChecked  -13.2711    1549.6056   ✗       
+614   -17.027YNPDPEEEDEEK      -1.0000     NotChecked  -13.2720    1475.5576   ✗       
+615   Q+0.984YNPDPENEEGEK      -1.0000     NotChecked  -13.2742    1548.6216   ✗       
+616   Q+0.984YNPDPEEENADK      -1.0000     NotChecked  -13.2752    1548.6216   ✗       
+617   Q+0.984YNPDPEEEDAVK      -1.0000     NotChecked  -13.2755    1533.6471   ✗       
+618   Q+0.984YNPDPQEEEAAK      -1.0000     NotChecked  -13.2761    1518.6474   ✗       
+619   Q+0.984YNPDPEENEAQK      -1.0000     NotChecked  -13.2789    1561.6532   ✗       
+620   Q+0.984YN+0.984PDPNEEEAAK-1.0000     NotChecked  -13.2857    1505.6158   ✗       
+621   Q+0.984YNPDPDEEESAK      -1.0000     NotChecked  -13.2915    1521.6107   ✗       
+622   -17.027YNPDPEEEEEDK      -1.0000     NotChecked  -13.2972    1475.5576   ✗       
+623   -17.027YNPDPEEEEEAK      -1.0000     NotChecked  -13.3308    1431.5678   ✗       
+624   +42.011YNPDPEEEEEEK      -1.0000     NotChecked  -13.4224    1548.6104   ✗       
+625   -17.027YNPDPNEEEEEK      -1.0000     NotChecked  -13.5268    1474.5736   ✗       
+626   -17.027YNPDPENEEEEK      -1.0000     NotChecked  -13.5458    1474.5736   ✗       
+627   -17.027YNPDPEEEEQEK      -1.0000     NotChecked  -13.5859    1488.5892   ✗       
+628   -17.027YNPDPEEEEDEK      -1.0000     NotChecked  -13.6235    1475.5576   ✗       
+629   -17.027YNPDPDEEEAEK      -1.0000     NotChecked  -13.6320    1417.5521   ✗       
+630   -17.027YN+0.984PDPEEEEAEK-1.0000     NotChecked  -13.6849    1432.5518   ✗       
+631   -17.027YNPDPEQEEEEK      -1.0000     NotChecked  -13.7420    1488.5892   ✗       
+632   -17.027YNPDPEEEEEQK      -1.0000     NotChecked  -13.7992    1488.5892   ✗       
+633   -17.027YNPDPEDEEAEK      -1.0000     NotChecked  -13.8093    1417.5521   ✗       
+634   -17.027YNPDPEEQEEEK      -1.0000     NotChecked  -13.8207    1488.5892   ✗       
+635   +43.006YNPDPEEEEAEK      -1.0000     NotChecked  -13.8260    1491.6001   ✗       
+636   -17.027YNPDPEEDEAEK      -1.0000     NotChecked  -13.8540    1417.5521   ✗       
+637   -17.027YDPDPEEEEAEK      -1.0000     NotChecked  -13.8573    1432.5518   ✗       
+638   -17.027YNPDPEEEDAEK      -1.0000     NotChecked  -13.8664    1417.5521   ✗       
+639   -17.027YN+0.984PDPDEEEEEK-1.0000     NotChecked  -13.8814    1476.5416   ✗       
+640   -17.027YNPDPEEEQEEK      -1.0000     NotChecked  -13.8825    1488.5892   ✗       
+641   -17.027YNPDPEEEEADK      -1.0000     NotChecked  -13.8916    1417.5521   ✗       
+642   -17.027YNPDPEENEEEK      -1.0000     NotChecked  -13.8953    1474.5736   ✗       
+643   -17.027YNPDPEEEEAAK      -1.0000     NotChecked  -13.9252    1373.5623   ✗       
+644   -17.027YNPDPDDEEEEK      -1.0000     NotChecked  -14.0058    1461.5420   ✗       
+645   +42.011YNPDPEEEEAEK      -1.0000     NotChecked  -14.0168    1490.6049   ✗       
+646   +43.006YNPDPDEEEEEK      -1.0000     NotChecked  -14.0225    1535.5900   ✗       
+647   -17.027YNPDPDEDEEEK      -1.0000     NotChecked  -14.0504    1461.5420   ✗       
+648   -17.027YDPDPDEEEEEK      -1.0000     NotChecked  -14.0537    1476.5416   ✗       
+649   -17.027YN+0.984PDPEDEEEEK-1.0000     NotChecked  -14.0586    1476.5416   ✗       
+650   -17.027YNPDPDEEDEEK      -1.0000     NotChecked  -14.0628    1461.5420   ✗       
+651   +43.006YN+0.984PDPEEEEEEK-1.0000     NotChecked  -14.0753    1550.5896   ✗       
+652   -17.027YNPDPEEEEEEK      -1.0000     NotChecked  -14.0768    1489.5733   ✗       
+653   -17.027YNPDPDEEEEDK      -1.0000     NotChecked  -14.0880    1461.5420   ✗       
+654   -17.027YNPDPEEEENEK      -1.0000     NotChecked  -14.0886    1474.5736   ✗       
+655   -17.027YN+0.984PDPEEDEEEK-1.0000     NotChecked  -14.1033    1476.5416   ✗       
+656   -17.027YN+0.984PDPEEEDEEK-1.0000     NotChecked  -14.1157    1476.5416   ✗       
+657   -17.027YNPDPNEEEAEK      -1.0000     NotChecked  -14.1212    1416.5681   ✗       
+658   -17.027YNPDPDEEEEAK      -1.0000     NotChecked  -14.1216    1417.5521   ✗       
+659   -17.027YNPDPENEEAEK      -1.0000     NotChecked  -14.1402    1416.5681   ✗       
+660   -17.027YN+0.984PDPEEEEEDK-1.0000     NotChecked  -14.1409    1476.5416   ✗       
+661   -17.027YN+0.984PDPEEEEEAK-1.0000     NotChecked  -14.1745    1432.5518   ✗       
+662   -17.027YNPDPEEEESEK      -1.0000     NotChecked  -14.1798    1447.5627   ✗       
+663   +43.006YNPDPEDEEEEK      -1.0000     NotChecked  -14.1997    1535.5900   ✗       
+664   +42.011YNPDPDEEEEEK      -1.0000     NotChecked  -14.2132    1534.5947   ✗       
+665   -17.027YNPDPEEEEYEK      -1.0000     NotChecked  -14.2259    1523.5940   ✗       
+666   -17.027YNPDPEDDEEEK      -1.0000     NotChecked  -14.2277    1461.5420   ✗       
+667   -17.027YDPDPEDEEEEK      -1.0000     NotChecked  -14.2310    1476.5416   ✗       
+668   -17.027YNPDPEDEDEEK      -1.0000     NotChecked  -14.2401    1461.5420   ✗       
+669   +43.006YNPDPEEDEEEK      -1.0000     NotChecked  -14.2444    1535.5900   ✗       
+670   +43.006YDPDPEEEEEEK      -1.0000     NotChecked  -14.2477    1550.5896   ✗       
+671   +43.006YNPDPEEEDEEK      -1.0000     NotChecked  -14.2568    1535.5900   ✗       
+672   -17.027YNPDPEDEEEDK      -1.0000     NotChecked  -14.2653    1461.5420   ✗       
+673   +42.011YN+0.984PDPEEEEEEK-1.0000     NotChecked  -14.2661    1549.5944   ✗       
+674   -17.027YDPDPEEDEEEK      -1.0000     NotChecked  -14.2756    1476.5416   ✗       
+675   +43.006YNPDPEEEEEDK      -1.0000     NotChecked  -14.2820    1535.5900   ✗       
+676   -17.027YNPDPEEDDEEK      -1.0000     NotChecked  -14.2847    1461.5420   ✗       
+677   -17.027YDPDPEEEDEEK      -1.0000     NotChecked  -14.2880    1476.5416   ✗       
+678   -17.027YNPDPEDEEEAK      -1.0000     NotChecked  -14.2989    1417.5521   ✗       
+679   -17.027YNPDPEEDEEDK      -1.0000     NotChecked  -14.3100    1461.5420   ✗       
+680   -17.027YDPDPEEEEEDK      -1.0000     NotChecked  -14.3133    1476.5416   ✗       
+681   +43.006YNPDPEEEEEAK      -1.0000     NotChecked  -14.3156    1491.6001   ✗       
+682   -17.027YNPDPEEEDEDK      -1.0000     NotChecked  -14.3224    1461.5420   ✗       
+683   -17.027YNPDPEQEEAEK      -1.0000     NotChecked  -14.3364    1430.5838   ✗       
+684   -17.027YNPDPDNEEEEK      -1.0000     NotChecked  -14.3366    1460.5579   ✗       
+685   -17.027YNPDPEEDEEAK      -1.0000     NotChecked  -14.3436    1417.5521   ✗       
+686   -17.027YDPDPEEEEEAK      -1.0000     NotChecked  -14.3469    1432.5518   ✗       
+687   -17.027YNPDPEEEDEAK      -1.0000     NotChecked  -14.3560    1417.5521   ✗       
+688   -17.027YNPDPQEEEEEK      -1.0000     NotChecked  -14.3609    1488.5892   ✗       
+689   -17.027YN+0.984PDPNEEEEEK-1.0000     NotChecked  -14.3705    1475.5576   ✗       
+690   -17.027YNPDPDEEEQEK      -1.0000     NotChecked  -14.3767    1474.5736   ✗       
+691   -17.027YN+0.984PDPENEEEEK-1.0000     NotChecked  -14.3895    1475.5576   ✗       
+692   +42.011YNPDPEDEEEEK      -1.0000     NotChecked  -14.3905    1534.5947   ✗       
+693   -17.027YNPDPEEEEAQK      -1.0000     NotChecked  -14.3935    1430.5838   ✗       
+694   -17.027YNPDPEEENEEK      -1.0000     NotChecked  -14.3936    1474.5736   ✗       
+695   -17.027YNPDPDEEEDEK      -1.0000     NotChecked  -14.4144    1461.5420   ✗       
+696   -17.027YNPDPEEQEAEK      -1.0000     NotChecked  -14.4151    1430.5838   ✗       
+697   -17.027YNPDPEEEEEVK      -1.0000     NotChecked  -14.4191    1459.5991   ✗       
+698   -17.027YN+0.984PDPEEEEQEK-1.0000     NotChecked  -14.4296    1489.5733   ✗       
+699   +42.011YNPDPEEDEEEK      -1.0000     NotChecked  -14.4351    1534.5947   ✗       
+700   +42.011YDPDPEEEEEEK      -1.0000     NotChecked  -14.4385    1549.5944   ✗       
+701   +42.011YNPDPEEEDEEK      -1.0000     NotChecked  -14.4476    1534.5947   ✗       
+702   -17.027YN+0.984PDPEEEEDEK-1.0000     NotChecked  -14.4672    1476.5416   ✗       
+703   +42.011YNPDPEEEEEDK      -1.0000     NotChecked  -14.4728    1534.5947   ✗       
+704   -17.027YN+0.984PDPDEEEAEK-1.0000     NotChecked  -14.4757    1418.5362   ✗       
+705   -17.027YNPDPEEEQAEK      -1.0000     NotChecked  -14.4768    1430.5838   ✗       
+706   -17.027YNPDPEEEETEK      -1.0000     NotChecked  -14.4829    1461.5783   ✗       
+707   -17.027YNPDPEENEAEK      -1.0000     NotChecked  -14.4897    1416.5681   ✗       
+708   -17.027YNPDPNDEEEEK      -1.0000     NotChecked  -14.4949    1460.5579   ✗       
+709   +42.011YNPDPEEEEEAK      -1.0000     NotChecked  -14.5064    1490.6049   ✗       
+710   +43.006YNPDPNEEEEEK      -1.0000     NotChecked  -14.5116    1534.6060   ✗       
+711   -17.027YNPDPGEEEEEK      -1.0000     NotChecked  -14.5124    1417.5521   ✗       
+712   +43.006YNPDPENEEEEK      -1.0000     NotChecked  -14.5306    1534.6060   ✗       
+713   -17.027YNPDPDQEEEEK      -1.0000     NotChecked  -14.5329    1474.5736   ✗       
+714   -17.027YNPDPNEDEEEK      -1.0000     NotChecked  -14.5395    1460.5579   ✗       
+715   -17.027YDPDPNEEEEEK      -1.0000     NotChecked  -14.5428    1475.5576   ✗       
+716   -17.027YNPDPEEEEENK      -1.0000     NotChecked  -14.5496    1474.5736   ✗       
+717   -17.027YNPDPNEEDEEK      -1.0000     NotChecked  -14.5519    1460.5579   ✗       
+718   -17.027YNPDPEEEEEMK      -1.0000     NotChecked  -14.5530    1491.5712   ✗       
+719   -17.027YNPDPEDEEQEK      -1.0000     NotChecked  -14.5540    1474.5736   ✗       
+720   -17.027YNPDPENDEEEK      -1.0000     NotChecked  -14.5586    1460.5579   ✗       
+721   -17.027YDPDPENEEEEK      -1.0000     NotChecked  -14.5619    1475.5576   ✗       
+722   +43.006YNPDPEEEEQEK      -1.0000     NotChecked  -14.5707    1548.6216   ✗       
+723   -17.027YNPDPENEDEEK      -1.0000     NotChecked  -14.5710    1460.5579   ✗       
+724   -17.027YNPDPNEEEEDK      -1.0000     NotChecked  -14.5772    1460.5579   ✗       
+725   -17.027YNPDPSEEEEEK      -1.0000     NotChecked  -14.5806    1447.5627   ✗       
+726   -17.027YN+0.984PDPEQEEEEK-1.0000     NotChecked  -14.5858    1489.5733   ✗       
+727   -17.027YNPDPDEEEEQK      -1.0000     NotChecked  -14.5900    1474.5736   ✗       
+728   -17.027YNPDPEDEEDEK      -1.0000     NotChecked  -14.5917    1461.5420   ✗       
+729   -17.027YNPDPENEEEDK      -1.0000     NotChecked  -14.5962    1460.5579   ✗       
+730   -17.027YNPDPEEDEQEK      -1.0000     NotChecked  -14.5987    1474.5736   ✗       
+731   -17.027YNPDPDDEEAEK      -1.0000     NotChecked  -14.6002    1403.5365   ✗       
+732   -17.027YDPDPEEEEQEK      -1.0000     NotChecked  -14.6020    1489.5733   ✗       
+733   +43.006YNPDPEEEEDEK      -1.0000     NotChecked  -14.6083    1535.5900   ✗       
+734   -17.027YNPDPNEEEEAK      -1.0000     NotChecked  -14.6108    1416.5681   ✗       
+735   -17.027YNPDPEEEDQEK      -1.0000     NotChecked  -14.6111    1474.5736   ✗       
+736   -17.027YNPDPDEQEEEK      -1.0000     NotChecked  -14.6115    1474.5736   ✗       
+737   +43.006YNPDPDEEEAEK      -1.0000     NotChecked  -14.6168    1477.5845   ✗       
+738   -17.027YNPDPENEEEAK      -1.0000     NotChecked  -14.6298    1416.5681   ✗       
+739   -17.027YNPDPEEDEDEK      -1.0000     NotChecked  -14.6363    1461.5420   ✗       
+740   -17.027YNPDPEEEEQDK      -1.0000     NotChecked  -14.6363    1474.5736   ✗       
+741   -17.027YDPDPEEEEDEK      -1.0000     NotChecked  -14.6396    1476.5416   ✗       
+742   -17.027YN+0.984PDPEEEEEQK-1.0000     NotChecked  -14.6429    1489.5733   ✗       
+743   -17.027YNPDPDEDEAEK      -1.0000     NotChecked  -14.6448    1403.5365   ✗       
+744   -17.027YDPDPDEEEAEK      -1.0000     NotChecked  -14.6481    1418.5362   ✗       
+745   -17.027YNPDPEEEDDEK      -1.0000     NotChecked  -14.6487    1461.5420   ✗       
+746   -17.027YN+0.984PDPEDEEAEK-1.0000     NotChecked  -14.6530    1418.5362   ✗       
+747   -17.027YNPDPDEEDAEK      -1.0000     NotChecked  -14.6572    1403.5365   ✗       
+748   -17.027YN+0.984PDPEEQEEEK-1.0000     NotChecked  -14.6644    1489.5733   ✗       
+749   +43.006YN+0.984PDPEEEEAEK-1.0000     NotChecked  -14.6697    1492.5842   ✗       
+750   -17.027YNPDPEEEEQAK      -1.0000     NotChecked  -14.6699    1430.5838   ✗       
+751   -17.027YNPDPEEEEAEK      -1.0000     NotChecked  -14.6712    1431.5678   ✗       
+752   -17.027YNPDPDEEQEEK      -1.0000     NotChecked  -14.6733    1474.5736   ✗       
+753   -17.027YNPDPEEEEDDK      -1.0000     NotChecked  -14.6739    1461.5420   ✗       
+754   -17.027YNPDPEEEAEEK      -1.0000     NotChecked  -14.6782    1431.5678   ✗       
+755   -17.027YNPDPDEEEADK      -1.0000     NotChecked  -14.6824    1403.5365   ✗       
+756   -17.027YNPDPEEAEEEK      -1.0000     NotChecked  -14.6828    1431.5678   ✗       
+757   -17.027YNPDPDENEEEK      -1.0000     NotChecked  -14.6861    1460.5579   ✗       
+758   -17.027YN+0.984PDPEEDEAEK-1.0000     NotChecked  -14.6977    1418.5362   ✗       
+759   +42.011YNPDPNEEEEEK      -1.0000     NotChecked  -14.7023    1533.6107   ✗       
+760   -17.027YNPDPEEEEDAK      -1.0000     NotChecked  -14.7075    1417.5521   ✗       
+761   -17.027YN+0.984PDPEEEDAEK-1.0000     NotChecked  -14.7101    1418.5362   ✗       
+762   -17.027YNPDPDEEEAAK      -1.0000     NotChecked  -14.7160    1359.5467   ✗       
+763   +42.011YNPDPENEEEEK      -1.0000     NotChecked  -14.7214    1533.6107   ✗       
+764   -17.027YN+0.984PDPEEEQEEK-1.0000     NotChecked  -14.7262    1489.5733   ✗       
+765   +43.006YNPDPEQEEEEK      -1.0000     NotChecked  -14.7268    1548.6216   ✗       
+766   -17.027YN+0.984PDPEEEEADK-1.0000     NotChecked  -14.7353    1418.5362   ✗       
+767   -17.027YNPDPEEEEGEK      -1.0000     NotChecked  -14.7384    1417.5521   ✗       
+768   -17.027YN+0.984PDPEENEEEK-1.0000     NotChecked  -14.7390    1475.5576   ✗       
+769   -17.027YNPDPEQDEEEK      -1.0000     NotChecked  -14.7548    1474.5736   ✗       
+770   -17.027YDPDPEQEEEEK      -1.0000     NotChecked  -14.7581    1489.5733   ✗       
+771   +42.011YNPDPEEEEQEK      -1.0000     NotChecked  -14.7615    1547.6264   ✗       
+772   -17.027YNPDPEQEDEEK      -1.0000     NotChecked  -14.7672    1474.5736   ✗       
+773   -17.027YNPDPEDEEEQK      -1.0000     NotChecked  -14.7673    1474.5736   ✗       
+774   -17.027YN+0.984PDPEEEEAAK-1.0000     NotChecked  -14.7689    1374.5463   ✗       
+775   +43.006YNPDPEEEEEQK      -1.0000     NotChecked  -14.7840    1548.6216   ✗       
+776   -17.027YNPDPEEEEC+57.021EK-1.0000     NotChecked  -14.7869    1520.5613   ✗       
+777   -17.027YNPDPEEEEEYK      -1.0000     NotChecked  -14.7880    1523.5940   ✗       
+778   -17.027YNPDPEDQEEEK      -1.0000     NotChecked  -14.7888    1474.5736   ✗       
+779   -17.027YNPDPEQEEEDK      -1.0000     NotChecked  -14.7924    1474.5736   ✗       
+780   +43.006YNPDPEDEEAEK      -1.0000     NotChecked  -14.7941    1477.5845   ✗       
+781   +42.011YNPDPEEEEDEK      -1.0000     NotChecked  -14.7991    1534.5947   ✗       
+782   -17.027YNPDPEEESEEK      -1.0000     NotChecked  -14.8048    1447.5627   ✗       
+783   +43.006YNPDPEEQEEEK      -1.0000     NotChecked  -14.8055    1548.6216   ✗       
+784   +42.011YNPDPDEEEAEK      -1.0000     NotChecked  -14.8076    1476.5892   ✗       
+785   -17.027YNPDPEEDEEQK      -1.0000     NotChecked  -14.8119    1474.5736   ✗       
+786   -17.027YDPDPEEEEEQK      -1.0000     NotChecked  -14.8152    1489.5733   ✗       
+787   -17.027YNPDPEDDEAEK      -1.0000     NotChecked  -14.8221    1403.5365   ✗       
+788   -17.027YNPDPEEEDEQK      -1.0000     NotChecked  -14.8243    1474.5736   ✗       
+789   -17.027YDPDPEDEEAEK      -1.0000     NotChecked  -14.8254    1418.5362   ✗       
+790   -17.027YNPDPNNEEEEK      -1.0000     NotChecked  -14.8258    1459.5739   ✗       
+791   -17.027YNPDPEQEEEAK      -1.0000     NotChecked  -14.8260    1430.5838   ✗       
+792   -17.027YNPDPEDEDAEK      -1.0000     NotChecked  -14.8345    1403.5365   ✗       
+793   -17.027YDPDPEEQEEEK      -1.0000     NotChecked  -14.8368    1489.5733   ✗       
+794   +43.006YNPDPEEDEAEK      -1.0000     NotChecked  -14.8388    1477.5845   ✗       
+795   +43.006YDPDPEEEEAEK      -1.0000     NotChecked  -14.8421    1492.5842   ✗       
+796   -17.027YNPDPEEQDEEK      -1.0000     NotChecked  -14.8459    1474.5736   ✗       
+797   -17.027YN+0.984PDPDDEEEEK-1.0000     NotChecked  -14.8495    1462.5260   ✗       
+798   -17.027YNPDPEDEQEEK      -1.0000     NotChecked  -14.8506    1474.5736   ✗       
+799   +43.006YNPDPEEEDAEK      -1.0000     NotChecked  -14.8512    1477.5845   ✗       
+800   -17.027YNPDPEESEEEK      -1.0000     NotChecked  -14.8561    1447.5627   ✗       
+801   -17.027YNPDPEDEEADK      -1.0000     NotChecked  -14.8597    1403.5365   ✗       
+802   +42.011YN+0.984PDPEEEEAEK-1.0000     NotChecked  -14.8605    1491.5889   ✗       
+803   -17.027YNPDPEDNEEEK      -1.0000     NotChecked  -14.8634    1460.5579   ✗       
+804   -17.027YNPDPNEEEQEK      -1.0000     NotChecked  -14.8659    1473.5896   ✗       
+805   +43.006YN+0.984PDPDEEEEEK-1.0000     NotChecked  -14.8662    1536.5740   ✗       
+806   +43.006YNPDPEEEQEEK      -1.0000     NotChecked  -14.8673    1548.6216   ✗       
+807   -17.027YNPDPDEEEEEK      -1.0000     NotChecked  -14.8677    1475.5576   ✗       
+808   -17.027YDPDPEEDEAEK      -1.0000     NotChecked  -14.8700    1418.5362   ✗       
+809   -17.027YNPDPEEQEEDK      -1.0000     NotChecked  -14.8711    1474.5736   ✗       
+810   +43.006YNPDPEEEEADK      -1.0000     NotChecked  -14.8764    1477.5845   ✗       
+811   -17.027YNPDPEEDDAEK      -1.0000     NotChecked  -14.8791    1403.5365   ✗       
+812   -17.027YNPDPDEEENEK      -1.0000     NotChecked  -14.8794    1460.5579   ✗       
+813   +43.006YNPDPEENEEEK      -1.0000     NotChecked  -14.8801    1534.6060   ✗       
+814   -17.027YDPDPEEEDAEK      -1.0000     NotChecked  -14.8824    1418.5362   ✗       
+815   -17.027YNPDPENEEQEK      -1.0000     NotChecked  -14.8849    1473.5896   ✗       
+816   -17.027YNPDPEDEEAAK      -1.0000     NotChecked  -14.8933    1359.5467   ✗       
+817   -17.027YN+0.984PDPDEDEEEK-1.0000     NotChecked  -14.8941    1462.5260   ✗       
+818   -17.027YNPDPEEDQEEK      -1.0000     NotChecked  -14.8952    1474.5736   ✗       
+819   -17.027YDPDPEEEQEEK      -1.0000     NotChecked  -14.8985    1489.5733   ✗       
+820   -17.027YNPDPEEEEELK      -1.0000     NotChecked  -14.9016    1473.6147   ✗       
+821   -17.027YNPDPNEEEDEK      -1.0000     NotChecked  -14.9035    1460.5579   ✗       
+822   -17.027YNPDPEEDEADK      -1.0000     NotChecked  -14.9044    1403.5365   ✗       
+823   -17.027YNPDPEEQEEAK      -1.0000     NotChecked  -14.9047    1430.5838   ✗       
+824   -17.027YN+0.984PDPDEEDEEK-1.0000     NotChecked  -14.9065    1462.5260   ✗       
+825   -17.027YDPDPEEEEADK      -1.0000     NotChecked  -14.9077    1418.5362   ✗       
+826   +43.006YNPDPEEEEAAK      -1.0000     NotChecked  -14.9100    1433.5947   ✗       
+827   -17.027YDPDPEENEEEK      -1.0000     NotChecked  -14.9113    1475.5576   ✗       
+828   -17.027YNPDPEEEDADK      -1.0000     NotChecked  -14.9168    1403.5365   ✗       
+829   +42.011YNPDPEQEEEEK      -1.0000     NotChecked  -14.9176    1547.6264   ✗       
+830   -17.027YNPDPEENDEEK      -1.0000     NotChecked  -14.9204    1460.5579   ✗       
+831   -17.027YN+0.984PDPEEEEEEK-1.0000     NotChecked  -14.9205    1490.5573   ✗       
+832   -17.027YNPDPENEEDEK      -1.0000     NotChecked  -14.9225    1460.5579   ✗       
+833   -17.027YNPDPDNEEAEK      -1.0000     NotChecked  -14.9310    1402.5525   ✗       
+834   -17.027YN+0.984PDPDEEEEDK-1.0000     NotChecked  -14.9318    1462.5260   ✗       
+835   -17.027YN+0.984PDPEEEENEK-1.0000     NotChecked  -14.9323    1475.5576   ✗       
+836   -17.027YNPDPEEEQEDK      -1.0000     NotChecked  -14.9329    1474.5736   ✗       
+837   -17.027YNPDPEEDEAAK      -1.0000     NotChecked  -14.9380    1359.5467   ✗       
+838   -17.027YDPDPEEEEAAK      -1.0000     NotChecked  -14.9413    1374.5463   ✗       
+839   -17.027YNPDPEENEEDK      -1.0000     NotChecked  -14.9457    1460.5579   ✗       
+840   -17.027YNPDPEEEDAAK      -1.0000     NotChecked  -14.9504    1359.5467   ✗       
+841   -17.027YNPDPQEEEAEK      -1.0000     NotChecked  -14.9553    1430.5838   ✗       
+842   -17.027YN+0.984PDPNEEEAEK-1.0000     NotChecked  -14.9649    1417.5521   ✗       
+843   -17.027YN+0.984PDPDEEEEAK-1.0000     NotChecked  -14.9654    1418.5362   ✗       
+844   -17.027YNPDPEEEQEAK      -1.0000     NotChecked  -14.9665    1430.5838   ✗       
+845   -17.027YNPDPDEEESEK      -1.0000     NotChecked  -14.9707    1433.5470   ✗       
+846   EYNPDPEEEEAAK            -1.0000     NotChecked  -14.9714    1519.6314   ✗       
+847   +42.011YNPDPEEEEEQK      -1.0000     NotChecked  -14.9747    1547.6264   ✗       
+848   -17.027YNPDPEENEEAK      -1.0000     NotChecked  -14.9793    1416.5681   ✗       
+849   -17.027YN+0.984PDPENEEAEK-1.0000     NotChecked  -14.9839    1417.5521   ✗       
+850   +42.011YNPDPEDEEAEK      -1.0000     NotChecked  -14.9849    1476.5892   ✗       
+851   -17.027YNPDPEEENAEK      -1.0000     NotChecked  -14.9880    1416.5681   ✗       
+852   +43.006YNPDPDDEEEEK      -1.0000     NotChecked  -14.9906    1521.5743   ✗       
+853   +42.011YNPDPEEQEEEK      -1.0000     NotChecked  -14.9963    1547.6264   ✗       
+854   -17.027YNPDPAEEEEEK      -1.0000     NotChecked  -15.0041    1431.5678   ✗       
+855   -17.027YNPDPEEEEEHK      -1.0000     NotChecked  -15.0049    1497.5896   ✗       
+856   -17.027YNPDPEEEEAVK      -1.0000     NotChecked  -15.0135    1401.5936   ✗       
+857   -17.027YNPDPDEEEYEK      -1.0000     NotChecked  -15.0167    1509.5784   ✗       
+858   -17.027YNPDPDDDEEEK      -1.0000     NotChecked  -15.0185    1447.5263   ✗       
+859   -17.027YDPDPDDEEEEK      -1.0000     NotChecked  -15.0218    1462.5260   ✗       
+860   -17.027YNPDPNQEEEEK      -1.0000     NotChecked  -15.0220    1473.5896   ✗       
+861   -17.027YN+0.984PDPEEEESEK-1.0000     NotChecked  -15.0235    1448.5467   ✗       
+862   +42.011YNPDPEEDEAEK      -1.0000     NotChecked  -15.0295    1476.5892   ✗       
+863   -17.027YNPDPDDEDEEK      -1.0000     NotChecked  -15.0309    1447.5263   ✗       
+864   +42.011YDPDPEEEEAEK      -1.0000     NotChecked  -15.0328    1491.5889   ✗       
+865   +43.006YNPDPDEDEEEK      -1.0000     NotChecked  -15.0352    1521.5743   ✗       
+866   +43.006YDPDPDEEEEEK      -1.0000     NotChecked  -15.0385    1536.5740   ✗       
+867   -17.027YNPDPESEEEEK      -1.0000     NotChecked  -15.0401    1447.5627   ✗       
+868   +42.011YNPDPEEEDAEK      -1.0000     NotChecked  -15.0419    1476.5892   ✗       
+869   +43.006YN+0.984PDPEDEEEEK-1.0000     NotChecked  -15.0434    1536.5740   ✗       
+870   -17.027YNPDPEDEEEEK      -1.0000     NotChecked  -15.0449    1475.5576   ✗       
+871   +43.006YNPDPDEEDEEK      -1.0000     NotChecked  -15.0476    1521.5743   ✗       
+872   -17.027YNPDPDDEEEDK      -1.0000     NotChecked  -15.0562    1447.5263   ✗       
+873   -17.027YNPDPEDEENEK      -1.0000     NotChecked  -15.0567    1460.5579   ✗       
+874   +42.011YN+0.984PDPDEEEEEK-1.0000     NotChecked  -15.0569    1535.5787   ✗       
+875   +42.011YNPDPEEEQEEK      -1.0000     NotChecked  -15.0580    1547.6264   ✗       
+876   +43.006YNPDPEEEEEEK      -1.0000     NotChecked  -15.0616    1549.6056   ✗       
+877   -17.027YDPDPDEDEEEK      -1.0000     NotChecked  -15.0665    1462.5260   ✗       
+878   +42.011YNPDPEEEEADK      -1.0000     NotChecked  -15.0672    1476.5892   ✗       
+879   -17.027YN+0.984PDPEEEEYEK-1.0000     NotChecked  -15.0696    1524.5780   ✗       
+880   +42.011YNPDPEENEEEK      -1.0000     NotChecked  -15.0708    1533.6107   ✗       
+881   -17.027YN+0.984PDPEDDEEEK-1.0000     NotChecked  -15.0714    1462.5260   ✗       
+882   +43.006YNPDPDEEEEDK      -1.0000     NotChecked  -15.0729    1521.5743   ✗       
+883   +43.006YNPDPEEEENEK      -1.0000     NotChecked  -15.0734    1534.6060   ✗       
+884   -17.027YNPDPDEDDEEK      -1.0000     NotChecked  -15.0756    1447.5263   ✗       
+885   -17.027YDPDPDEEDEEK      -1.0000     NotChecked  -15.0789    1462.5260   ✗       
+886   -17.027YNPDPNEEEEQK      -1.0000     NotChecked  -15.0791    1473.5896   ✗       
+887   -17.027YNPDPEQEEQEK      -1.0000     NotChecked  -15.0811    1487.6052   ✗       
+888   -17.027YN+0.984PDPEDEDEEK-1.0000     NotChecked  -15.0838    1462.5260   ✗       
+889   +43.006YN+0.984PDPEEDEEEK-1.0000     NotChecked  -15.0881    1536.5740   ✗       
+890   -17.027YNPDPNDEEAEK      -1.0000     NotChecked  -15.0893    1402.5525   ✗       
+891   -17.027YNPDPEEDEEEK      -1.0000     NotChecked  -15.0896    1475.5576   ✗       
+892   -17.027YNPDPDDEEEAK      -1.0000     NotChecked  -15.0898    1403.5365   ✗       
+893   -17.027YDPDPEEEEEEK      -1.0000     NotChecked  -15.0929    1490.5573   ✗       
+894   -17.027YNPDPENEEEQK      -1.0000     NotChecked  -15.0981    1473.5896   ✗       
+895   +43.006YN+0.984PDPEEEDEEK-1.0000     NotChecked  -15.1005    1536.5740   ✗       
+896   -17.027YNPDPNEQEEEK      -1.0000     NotChecked  -15.1007    1473.5896   ✗       
+897   +42.011YNPDPEEEEAAK      -1.0000     NotChecked  -15.1008    1432.5994   ✗       
+898   -17.027YNPDPDEDEEDK      -1.0000     NotChecked  -15.1008    1447.5263   ✗       
+899   -17.027YNPDPEEDENEK      -1.0000     NotChecked  -15.1014    1460.5579   ✗       
+900   -17.027YNPDPEEEDEEK      -1.0000     NotChecked  -15.1020    1475.5576   ✗       
+901   -17.027YDPDPDEEEEDK      -1.0000     NotChecked  -15.1041    1462.5260   ✗       
+902   -17.027YDPDPEEEENEK      -1.0000     NotChecked  -15.1047    1475.5576   ✗       
+903   +43.006YNPDPNEEEAEK      -1.0000     NotChecked  -15.1060    1476.6005   ✗       
+904   +43.006YNPDPDEEEEAK      -1.0000     NotChecked  -15.1064    1477.5845   ✗       
+905   -17.027YNPDPGEEEAEK      -1.0000     NotChecked  -15.1068    1359.5467   ✗       
+906   -17.027YN+0.984PDPEDEEEDK-1.0000     NotChecked  -15.1090    1462.5260   ✗       
+907   -17.027YNPDPDEEDEDK      -1.0000     NotChecked  -15.1132    1447.5263   ✗       
+908   -17.027YNPDPEEEDNEK      -1.0000     NotChecked  -15.1138    1460.5579   ✗       
+909   -17.027YNPDPEQEEDEK      -1.0000     NotChecked  -15.1188    1474.5736   ✗       
+910   -17.027YNPDPENQEEEK      -1.0000     NotChecked  -15.1197    1473.5896   ✗       
+911   +43.006YNPDPENEEAEK      -1.0000     NotChecked  -15.1250    1476.6005   ✗       
+912   +43.006YN+0.984PDPEEEEEDK-1.0000     NotChecked  -15.1257    1536.5740   ✗       
+913   -17.027YNPDPEEEEEDK      -1.0000     NotChecked  -15.1272    1475.5576   ✗       
+914   -17.027YNPDPDQEEAEK      -1.0000     NotChecked  -15.1273    1416.5681   ✗       
+915   -17.027YN+0.984PDPEEDDEEK-1.0000     NotChecked  -15.1284    1462.5260   ✗       
+916   -17.027YNPDPNEDEAEK      -1.0000     NotChecked  -15.1339    1402.5525   ✗       
+917   -17.027YNPDPDEDEEAK      -1.0000     NotChecked  -15.1344    1403.5365   ✗       
+918   -17.027YDPDPNEEEAEK      -1.0000     NotChecked  -15.1372    1417.5521   ✗       
+919   -17.027YDPDPDEEEEAK      -1.0000     NotChecked  -15.1377    1418.5362   ✗       
+920   -17.027YNPDPEEEEQQK      -1.0000     NotChecked  -15.1382    1487.6052   ✗       
+921   -17.027YNPDPEEEENDK      -1.0000     NotChecked  -15.1390    1460.5579   ✗       
+922   -17.027YN+0.984PDPEDEEEAK-1.0000     NotChecked  -15.1426    1418.5362   ✗       
+923   -17.027YNPDPEEEEANK      -1.0000     NotChecked  -15.1440    1416.5681   ✗       
+924   -17.027YNPDPNEEDAEK      -1.0000     NotChecked  -15.1463    1402.5525   ✗       
+925   -17.027YNPDPDEEDEAK      -1.0000     NotChecked  -15.1468    1403.5365   ✗       
+926   -17.027YNPDPEEEEAMK      -1.0000     NotChecked  -15.1474    1433.5657   ✗       
+927   -17.027YNPDPEDEESEK      -1.0000     NotChecked  -15.1480    1433.5470   ✗       
+928   -17.027YNPDPENDEAEK      -1.0000     NotChecked  -15.1529    1402.5525   ✗       
+929   -17.027YN+0.984PDPEEDEEDK-1.0000     NotChecked  -15.1537    1462.5260   ✗       
+930   -17.027YDPDPENEEAEK      -1.0000     NotChecked  -15.1563    1417.5521   ✗       
+931   +43.006YN+0.984PDPEEEEEAK-1.0000     NotChecked  -15.1593    1492.5842   ✗       
+932   -17.027YNPDPEEQEQEK      -1.0000     NotChecked  -15.1598    1487.6052   ✗       
+933   -17.027YNPDPEEEEEAK      -1.0000     NotChecked  -15.1608    1431.5678   ✗       
+934   -17.027YNPDPNEEQEEK      -1.0000     NotChecked  -15.1624    1473.5896   ✗       
+935   +43.006YNPDPEEEESEK      -1.0000     NotChecked  -15.1646    1507.5951   ✗       
+936   -17.027YNPDPENEDAEK      -1.0000     NotChecked  -15.1654    1402.5525   ✗       
+937   -17.027YN+0.984PDPEEEDEDK-1.0000     NotChecked  -15.1661    1462.5260   ✗       
+938   EYNPDPNEEEAEK            -1.0000     NotChecked  -15.1674    1562.6373   ✗       
+939   -17.027YNPDPNEEEADK      -1.0000     NotChecked  -15.1716    1402.5525   ✗       
+940   -17.027YNPDPEEEENAK      -1.0000     NotChecked  -15.1726    1416.5681   ✗       
+941   -17.027YNPDPSEEEAEK      -1.0000     NotChecked  -15.1750    1389.5572   ✗       
+942   -17.027YNPDPNENEEEK      -1.0000     NotChecked  -15.1752    1459.5739   ✗       
+943   -17.027YNPDPEEEEDQK      -1.0000     NotChecked  -15.1759    1474.5736   ✗       
+944   -17.027YN+0.984PDPEQEEAEK-1.0000     NotChecked  -15.1801    1431.5678   ✗       
+945   -17.027YN+0.984PDPDNEEEEK-1.0000     NotChecked  -15.1803    1461.5420   ✗       
+946   +42.011YNPDPDDEEEEK      -1.0000     NotChecked  -15.1813    1520.5791   ✗       
+947   -17.027YNPDPENEQEEK      -1.0000     NotChecked  -15.1814    1473.5896   ✗       
+948   -17.027YNPDPDEEEAQK      -1.0000     NotChecked  -15.1844    1416.5681   ✗       
+949   -17.027YNPDPDEENEEK      -1.0000     NotChecked  -15.1844    1460.5579   ✗       
+950   EYNPDPENEEAEK            -1.0000     NotChecked  -15.1864    1562.6373   ✗       
+951   -17.027YN+0.984PDPEEDEEAK-1.0000     NotChecked  -15.1873    1418.5362   ✗       
+952   -17.027YNPDPENEEADK      -1.0000     NotChecked  -15.1906    1402.5525   ✗       
+953   -17.027YNPDPEEDESEK      -1.0000     NotChecked  -15.1926    1433.5470   ✗       
+954   -17.027YNPDPEDEEYEK      -1.0000     NotChecked  -15.1940    1509.5784   ✗       
+955   -17.027YNPDPENNEEEK      -1.0000     NotChecked  -15.1943    1459.5739   ✗       
+956   -17.027YDPDPEEEESEK      -1.0000     NotChecked  -15.1959    1448.5467   ✗       
+957   -17.027YNPDPEEQEDEK      -1.0000     NotChecked  -15.1974    1474.5736   ✗       
+958   -17.027YN+0.984PDPEEEDEAK-1.0000     NotChecked  -15.1997    1418.5362   ✗       
+959   -17.027YN+0.984PDPQEEEEEK-1.0000     NotChecked  -15.2046    1489.5733   ✗       
+960   -17.027YNPDPEEEDSEK      -1.0000     NotChecked  -15.2050    1433.5470   ✗       
+961   -17.027YNPDPNEEEAAK      -1.0000     NotChecked  -15.2052    1358.5626   ✗       
+962   -17.027YNPDPDEQEAEK      -1.0000     NotChecked  -15.2059    1416.5681   ✗       
+963   -17.027YNPDPDEEEEVK      -1.0000     NotChecked  -15.2099    1445.5834   ✗       
+964   -17.027YNPDPETEEEEK      -1.0000     NotChecked  -15.2120    1461.5783   ✗       
+965   +43.006YNPDPEDDEEEK      -1.0000     NotChecked  -15.2125    1521.5743   ✗       
+966   +43.006YDPDPEDEEEEK      -1.0000     NotChecked  -15.2158    1536.5740   ✗       
+967   -17.027YN+0.984PDPDEEEQEK-1.0000     NotChecked  -15.2205    1475.5576   ✗       
+968   -17.027YNPDPEEEQQEK      -1.0000     NotChecked  -15.2216    1487.6052   ✗       
+969   -17.027YNPDPENEEAAK      -1.0000     NotChecked  -15.2242    1358.5626   ✗       
+970   +43.006YNPDPEDEDEEK      -1.0000     NotChecked  -15.2249    1521.5743   ✗       
+971   +42.011YNPDPDEDEEEK      -1.0000     NotChecked  -15.2260    1520.5791   ✗       
+972   +42.011YDPDPDEEEEEK      -1.0000     NotChecked  -15.2293    1535.5787   ✗       
+973   -17.027YNPDPEEEESDK      -1.0000     NotChecked  -15.2302    1433.5470   ✗       
+974   +42.011YN+0.984PDPEDEEEEK-1.0000     NotChecked  -15.2342    1535.5787   ✗       
+975   -17.027YNPDPEENEQEK      -1.0000     NotChecked  -15.2344    1473.5896   ✗       
+976   -17.027YN+0.984PDPEEEEAQK-1.0000     NotChecked  -15.2373    1431.5678   ✗       
+977   -17.027YN+0.984PDPEEENEEK-1.0000     NotChecked  -15.2373    1475.5576   ✗       
+978   +42.011YNPDPDEEDEEK      -1.0000     NotChecked  -15.2384    1520.5791   ✗       
+979   -17.027YNPDPEEDEYEK      -1.0000     NotChecked  -15.2387    1509.5784   ✗       
+980   -17.027YDPDPEEEEYEK      -1.0000     NotChecked  -15.2420    1524.5780   ✗       
+981   -17.027YDPDPEDDEEEK      -1.0000     NotChecked  -15.2438    1462.5260   ✗       
+982   -17.027YNPDPTEEEEEK      -1.0000     NotChecked  -15.2487    1461.5783   ✗       
+983   +43.006YNPDPEDEEEDK      -1.0000     NotChecked  -15.2501    1521.5743   ✗       
+984   -17.027YNPDPEEEDYEK      -1.0000     NotChecked  -15.2511    1509.5784   ✗       
+985   +42.011YNPDPEEEEEEK      -1.0000     NotChecked  -15.2524    1548.6104   ✗       
+986   -17.027YNPDPEDDDEEK      -1.0000     NotChecked  -15.2529    1447.5263   ✗       
+987   -17.027YDPDPEDEDEEK      -1.0000     NotChecked  -15.2562    1462.5260   ✗       
+988   -17.027YN+0.984PDPDEEEDEK-1.0000     NotChecked  -15.2581    1462.5260   ✗       
+989   -17.027YN+0.984PDPEEQEAEK-1.0000     NotChecked  -15.2588    1431.5678   ✗       
+990   -17.027YNPDPEEEQDEK      -1.0000     NotChecked  -15.2592    1474.5736   ✗       
+991   +43.006YDPDPEEDEEEK      -1.0000     NotChecked  -15.2604    1536.5740   ✗       
+992   -17.027YN+0.984PDPEEEEEVK-1.0000     NotChecked  -15.2628    1460.5831   ✗       
+993   +42.011YNPDPDEEEEDK      -1.0000     NotChecked  -15.2636    1520.5791   ✗       
+994   -17.027YNPDPEEEESAK      -1.0000     NotChecked  -15.2638    1389.5572   ✗       
+995   +42.011YNPDPEEEENEK      -1.0000     NotChecked  -15.2642    1533.6107   ✗       
+996   -17.027YNPDPDEEQAEK      -1.0000     NotChecked  -15.2677    1416.5681   ✗       
+997   +43.006YNPDPEEDDEEK      -1.0000     NotChecked  -15.2695    1521.5743   ✗       
+998   -17.027YNPDPEENEDEK      -1.0000     NotChecked  -15.2720    1460.5579   ✗       
+999   -17.027YNPDPEEEAAEK      -1.0000     NotChecked  -15.2726    1373.5623   ✗       
+1000  +43.006YDPDPEEEDEEK      -1.0000     NotChecked  -15.2729    1536.5740   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: EYNPDPEEEDAEK
+Similarity: 0.3437
+De Novo Score: -14.9126
+Source: Prosit
+Correct: ✗
+

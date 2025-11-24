@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 187
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 959.9764
+Precursor charge: 2+
+Ground truth: IC+57.021IGETMPMEIIENIR
+Ground truth (normalized): IC+57.021IGETMPMEIIENIR
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 149
+Used for reranking: 149
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 149 (14.9%)
+Database matches: 30 (3.0%)
+Prosit predictions: 108 (10.8%)
+Failed: 11 (1.1%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.9731
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     LC+57.021LGETMPMELLENLR  0.9731      Database    -0.5078     1917.9362   ✓       ✓
+2     LC+57.021LGETMPMELLENLR  0.9731      Database    -4.8105     1917.9362   ✓       ✓
+3     LC+57.021LGETMPMELLENLR  0.9731      Database    -6.3868     1917.9362   ✓       ✓
+4     LC+57.021LGETMPMELLENLR  0.9731      Database    -6.9509     1917.9362   ✓       ✓
+5     LC+57.021LGETMPMELLENLR  0.9731      Database    -8.2179     1917.9362   ✓       ✓
+6     LC+57.021LGETMPMELLENLR  0.9731      Database    -8.7727     1917.9362   ✓       ✓
+7     LC+57.021LGETMPMELLENLR  0.9731      Database    -9.1205     1917.9362   ✓       ✓
+8     LC+57.021LGETMPMELLENLR  0.9731      Database    -9.9583     1917.9362   ✓       ✓
+9     LC+57.021LGETMPMELLENLR  0.9731      Database    -10.6895    1917.9362   ✓       ✓
+10    LC+57.021LGETMPMELLENLR  0.9731      Database    -11.2536    1917.9362   ✓       ✓
+11    LC+57.021LGETMPMELLENLR  0.9731      Database    -11.6017    1917.9362   ✓       ✓
+12    LC+57.021LGETMPMELLENLR  0.9731      Database    -11.9305    1917.9362   ✓       ✓
+13    LC+57.021LGETMPMELLENLR  0.9731      Database    -12.5206    1917.9362   ✓       ✓
+14    LC+57.021LGETMPMELLENLR  0.9731      Database    -12.8299    1917.9362   ✓       ✓
+15    LC+57.021LGETMPMELLENLR  0.9731      Database    -13.0754    1917.9362   ✓       ✓
+16    LC+57.021LGETMPMELLENLR  0.9731      Database    -13.4231    1917.9362   ✓       ✓
+17    LC+57.021LGETMPMELLENLR  0.9731      Database    -13.5608    1917.9362   ✓       ✓
+18    LC+57.021LGETMPMELLENLR  0.9731      Database    -13.6897    1917.9362   ✓       ✓
+19    LC+57.021LGETMPMELLENLR  0.9731      Database    -14.0969    1917.9362   ✓       ✓
+20    LC+57.021LGETMPMELLENLR  0.9731      Database    -14.2610    1917.9362   ✓       ✓
+21    LC+57.021LGETMPMELLENLR  0.9731      Database    -14.4468    1917.9362   ✓       ✓
+22    LC+57.021LGETMPMELLENLR  0.9731      Database    -14.5867    1917.9362   ✓       ✓
+23    LC+57.021LGETMPMELLENLR  0.9731      Database    -14.6517    1917.9362   ✓       ✓
+24    LC+57.021LGETMPMELLENLR  0.9731      Database    -14.6611    1917.9362   ✓       ✓
+25    LC+57.021LGETMPMELLENLR  0.9731      Database    -14.7978    1917.9362   ✓       ✓
+26    LC+57.021LGETMPMELLENLR  0.9731      Database    -14.9269    1917.9362   ✓       ✓
+27    LC+57.021LGETMPMELLENLR  0.9731      Database    -14.9995    1917.9362   ✓       ✓
+28    LC+57.021LGETMPMELLENLR  0.9731      Database    -15.2159    1917.9362   ✓       ✓
+29    LC+57.021LGETMPMELLENLR  0.9731      Database    -15.2359    1917.9362   ✓       ✓
+30    LC+57.021LGETMPMELLENLR  0.9731      Database    -21.3473    1917.9362   ✓       ✓
+31    LC+57.021LGQ+0.984TMPMELLEGGLR0.5575      Prosit      -10.6841    1917.9362   ✓       
+32    LC+57.021LGQ+0.984TMPMELLEGGLR0.5575      Prosit      -13.3186    1917.9362   ✓       
+33    LC+57.021LGQ+0.984TMPMELLEGGLR0.5575      Prosit      -14.9868    1917.9362   ✓       
+34    LC+57.021LGETMPMQ+0.984LLEGGLR0.5536      Prosit      -12.0289    1917.9362   ✓       
+35    LC+57.021LGETMPMQ+0.984LLEGGLR0.5536      Prosit      -14.6633    1917.9362   ✓       
+36    LC+57.021LGETMPMELLQ+0.984GGLR0.5517      Prosit      -11.6245    1917.9362   ✓       
+37    LC+57.021LGETMPMELLQ+0.984GGLR0.5517      Prosit      -14.2589    1917.9362   ✓       
+38    LC+57.021LGQ+0.984TMPMELLEGAVR0.5494      Prosit      -13.9894    1917.9362   ✓       
+39    LC+57.021LGETMPMELLEGGLR 0.5474      Prosit      -5.3318     1917.9362   ✓       
+40    LC+57.021LGETMPMELLEGGLR 0.5474      Prosit      -7.9663     1917.9362   ✓       
+41    LC+57.021LGETMPMELLEGGLR 0.5474      Prosit      -9.6345     1917.9362   ✓       
+42    LC+57.021LGETMPMELLEGGLR 0.5474      Prosit      -10.3787    1917.9362   ✓       
+43    LC+57.021LGETMPMELLEGGLR 0.5474      Prosit      -11.2109    1917.9362   ✓       
+44    LC+57.021LGETMPMELLEGGLR 0.5474      Prosit      -11.6237    1917.9362   ✓       
+45    LC+57.021LGETMPMELLEGGLR 0.5474      Prosit      -11.7750    1917.9362   ✓       
+46    LC+57.021LGETMPMELLEGGLR 0.5474      Prosit      -12.2690    1917.9362   ✓       
+47    LC+57.021LGETMPMELLEGGLR 0.5474      Prosit      -13.0420    1917.9362   ✓       
+48    LC+57.021LGETMPMELLEGGLR 0.5474      Prosit      -13.5968    1917.9362   ✓       
+49    LC+57.021LGETMPMELLEGGLR 0.5474      Prosit      -13.8453    1917.9362   ✓       
+50    LC+57.021LGETMPMELLEGGLR 0.5474      Prosit      -13.9445    1917.9362   ✓       
+51    LC+57.021LGETMPMELLEGGLR 0.5474      Prosit      -14.2582    1917.9362   ✓       
+52    LC+57.021LGETMPMELLEGGLR 0.5474      Prosit      -14.4095    1917.9362   ✓       
+53    LC+57.021LGETMPMELLEGGLR 0.5474      Prosit      -14.5628    1917.9362   ✓       
+54    LC+57.021LGETMPMELLEGGLR 0.5474      Prosit      -14.6814    1917.9362   ✓       
+55    LC+57.021LGETMPMELLEGGLR 0.5474      Prosit      -14.7824    1917.9362   ✓       
+56    LC+57.021LGETMPMQ+0.984LLEGAVR0.5411      Prosit      -15.3341    1917.9362   ✓       
+57    LC+57.021LGETMPMELLEAGVR 0.5387      Prosit      -8.1789     1917.9362   ✓       
+58    LC+57.021LGETMPMELLEAGVR 0.5387      Prosit      -10.9621    1917.9362   ✓       
+59    LC+57.021LGETMPMELLEAGVR 0.5387      Prosit      -12.4816    1917.9362   ✓       
+60    LC+57.021LGETMPMELLEAGVR 0.5387      Prosit      -12.5166    1917.9362   ✓       
+61    LC+57.021LGETMPMELLEAGVR 0.5387      Prosit      -14.0579    1917.9362   ✓       
+62    LC+57.021LGETMPMELLEAGVR 0.5387      Prosit      -14.1982    1917.9362   ✓       
+63    LC+57.021LGETMPMELLEAGVR 0.5387      Prosit      -14.4675    1917.9362   ✓       
+64    LC+57.021LGETMPMELLEAGVR 0.5387      Prosit      -14.4708    1917.9362   ✓       
+65    LC+57.021LGETMPMELLEAGVR 0.5387      Prosit      -14.6221    1917.9362   ✓       
+66    LC+57.021LGETMPMELLEAGVR 0.5387      Prosit      -15.2648    1917.9362   ✓       
+67    LC+57.021LGQ+0.984TMPMELLEAGVR0.5344      Prosit      -13.5312    1917.9362   ✓       
+68    LC+57.021LGETMPMELLEGVAR 0.5309      Prosit      -14.2018    1917.9362   ✓       
+69    LC+57.021LGETMPMQ+0.984LLEAGVR0.5297      Prosit      -14.8759    1917.9362   ✓       
+70    LC+57.021LGETMPMELLEGAVR 0.5295      Prosit      -8.6371     1917.9362   ✓       
+71    LC+57.021LGETMPMELLEGAVR 0.5295      Prosit      -11.2716    1917.9362   ✓       
+72    LC+57.021LGETMPMELLEGAVR 0.5295      Prosit      -12.9398    1917.9362   ✓       
+73    LC+57.021LGETMPMELLEGAVR 0.5295      Prosit      -13.6840    1917.9362   ✓       
+74    LC+57.021LGETMPMELLEGAVR 0.5295      Prosit      -14.2827    1917.9362   ✓       
+75    LC+57.021LGETMPMELLEGAVR 0.5295      Prosit      -14.5161    1917.9362   ✓       
+76    LC+57.021LGETMPMELLEGAVR 0.5295      Prosit      -15.0803    1917.9362   ✓       
+77    GLC+57.021LGETMPMELLEGLR 0.5192      Prosit      -23.0012    1917.9362   ✓       
+78    LC+57.021LGETMPMELLQ+0.984GAVR0.5146      Prosit      -14.9297    1917.9362   ✓       
+79    LC+57.021LGETMPMQ+0.984LLENLR0.5078      Prosit      -7.2048     1917.9362   ✓       
+80    LC+57.021LGETMPMQ+0.984LLENLR0.5078      Prosit      -11.5075    1917.9362   ✓       
+81    LC+57.021LGETMPMQ+0.984LLENLR0.5078      Prosit      -13.0838    1917.9362   ✓       
+82    LC+57.021LGETMPMQ+0.984LLENLR0.5078      Prosit      -13.6479    1917.9362   ✓       
+83    LC+57.021LGETMPMQ+0.984LLENLR0.5078      Prosit      -14.9149    1917.9362   ✓       
+84    LC+57.021LGETMPMELLEGLGR 0.5028      Prosit      -15.0432    1917.9362   ✓       
+85    GC+57.021LGETMPMELLEGLLR 0.5026      Prosit      -23.1626    1917.9362   ✓       
+86    LC+57.021LGQ+0.984TMPMELLENLR0.5015      Prosit      -5.8600     1917.9362   ✓       
+87    LC+57.021LGQ+0.984TMPMELLENLR0.5015      Prosit      -10.1627    1917.9362   ✓       
+88    LC+57.021LGQ+0.984TMPMELLENLR0.5015      Prosit      -11.7390    1917.9362   ✓       
+89    LC+57.021LGQ+0.984TMPMELLENLR0.5015      Prosit      -12.3032    1917.9362   ✓       
+90    LC+57.021LGQ+0.984TMPMELLENLR0.5015      Prosit      -13.5702    1917.9362   ✓       
+91    LC+57.021LGQ+0.984TMPMELLENLR0.5015      Prosit      -14.1250    1917.9362   ✓       
+92    LC+57.021LGQ+0.984TMPMELLENLR0.5015      Prosit      -14.4727    1917.9362   ✓       
+93    LC+57.021LGQ+0.984TMPMELLENLR0.5015      Prosit      -15.3106    1917.9362   ✓       
+94    AC+57.021LGETMPMELLEGVLR 0.4985      Prosit      -24.4820    1917.9362   ✓       
+95    +42.011C+57.021LGETMPMELLEQGLR0.4983      Prosit      -22.0632    1917.8998   ✓       
+96    +42.011C+57.021LGETMPMELLEAQVR0.4887      Prosit      -21.0308    1917.8998   ✓       
+97    +42.011C+57.021LGETMPMELLEAQVR0.4887      Prosit      -23.8140    1917.8998   ✓       
+98    +42.011C+57.021LGETMPMELLEANLR0.4847      Prosit      -16.6400    1917.8998   ✓       
+99    +42.011C+57.021LGETMPMELLEANLR0.4847      Prosit      -19.4232    1917.8998   ✓       
+100   +42.011C+57.021LGETMPMELLEANLR0.4847      Prosit      -22.5190    1917.8998   ✓       
+101   +42.011C+57.021LGETMPMELLEANLR0.4847      Prosit      -22.6592    1917.8998   ✓       
+102   +42.011C+57.021LGETMPMELLEANLR0.4847      Prosit      -22.9286    1917.8998   ✓       
+103   +42.011C+57.021LGETMPMELLEANLR0.4847      Prosit      -23.0831    1917.8998   ✓       
+104   +42.011C+57.021LGETMPMELLEANLR0.4847      Prosit      -24.3501    1917.8998   ✓       
+105   +42.011C+57.021LGQ+0.984TMPMELLEGQLR0.4847      Prosit      -23.5360    1917.8998   ✓       
+106   LC+57.021LGETMPMQ+0.984LLEQVR0.4812      Prosit      -11.5956    1917.9362   ✓       
+107   +42.011C+57.021LGETMPMQ+0.984LLEANLR0.4770      Prosit      -23.3370    1917.8998   ✓       
+108   LC+57.021LGETMPMELLELNR  0.4736      Prosit      -9.7860     1917.9362   ✓       
+109   LC+57.021LGETMPMELLELNR  0.4736      Prosit      -14.0887    1917.9362   ✓       
+110   LC+57.021LGETMPMELLEVQR  0.4710      Prosit      -10.3204    1917.9362   ✓       
+111   LC+57.021LGETMPMELLEVQR  0.4710      Prosit      -14.6231    1917.9362   ✓       
+112   LC+57.021LGQ+0.984TMPMQ+0.984LLENLR0.4709      Prosit      -12.5570    1917.9362   ✓       
+113   LC+57.021LGQ+0.984TMPMELLEQVR0.4680      Prosit      -10.2509    1917.9362   ✓       
+114   LC+57.021LGQ+0.984TMPMELLEQVR0.4680      Prosit      -14.5536    1917.9362   ✓       
+115   +42.011C+57.021LGETMPMELLEAGGLR0.4679      Prosit      -24.0985    1917.8998   ✓       
+116   +42.011C+57.021LGETMPMELLQ+0.984ANLR0.4645      Prosit      -22.9326    1917.8998   ✓       
+117   LC+57.021LGETMPMELLEGNLV 0.4610      Prosit      -14.5586    1917.9250   ✓       
+118   +42.011C+57.021LGETMPMELLEGQLR0.4570      Prosit      -18.1838    1917.8998   ✓       
+119   +42.011C+57.021LGETMPMELLEGQLR0.4570      Prosit      -20.8182    1917.8998   ✓       
+120   +42.011C+57.021LGETMPMELLEGQLR0.4570      Prosit      -23.2307    1917.8998   ✓       
+121   +42.011C+57.021LGETMPMELLEGQLR0.4570      Prosit      -24.0628    1917.8998   ✓       
+122   LC+57.021LGETMPMELLQ+0.984QVR0.4554      Prosit      -11.1912    1917.9362   ✓       
+123   +42.011C+57.021LGETMPMELLEGAGLR0.4548      Prosit      -24.2473    1917.8998   ✓       
+124   LC+57.021LGQ+0.984TMPMELLQ+0.984NLR0.4533      Prosit      -12.1526    1917.9362   ✓       
+125   LC+57.021LGETMPMELLEQVR  0.4509      Prosit      -4.8986     1917.9362   ✓       
+126   LC+57.021LGETMPMELLEQVR  0.4509      Prosit      -9.2013     1917.9362   ✓       
+127   LC+57.021LGETMPMELLEQVR  0.4509      Prosit      -10.7776    1917.9362   ✓       
+128   LC+57.021LGETMPMELLEQVR  0.4509      Prosit      -11.3418    1917.9362   ✓       
+129   LC+57.021LGETMPMELLEQVR  0.4509      Prosit      -12.6088    1917.9362   ✓       
+130   LC+57.021LGETMPMELLEQVR  0.4509      Prosit      -13.1636    1917.9362   ✓       
+131   LC+57.021LGETMPMELLEQVR  0.4509      Prosit      -14.3492    1917.9362   ✓       
+132   LC+57.021LGETMPMELLEQVR  0.4509      Prosit      -15.0803    1917.9362   ✓       
+133   LC+57.021LGETMPMQ+0.984LLQ+0.984NLR0.4508      Prosit      -13.4974    1917.9362   ✓       
+134   LC+57.021LGETMPMDLLEQLR  0.4469      Prosit      -12.2228    1917.9362   ✓       
+135   +42.011C+57.021LGETMPMELLQ+0.984GQLR0.4243      Prosit      -24.4764    1917.8998   ✓       
+136   +43.006C+57.021LGETMPMELLEALLR0.4201      Prosit      -22.0820    1917.9362   ✓       
+137   +43.006LC+57.021LGETMPMELLEALR0.4098      Prosit      -22.3788    1917.9362   ✓       
+138   +42.011LC+57.021LGETMPMELLENAR0.3829      Prosit      -24.1473    1917.8998   ✓       
+139   LC+57.021LGETMPMELLENVR  -1.0000     NotChecked  -2.2619     1903.9206   ✗       
+140   LC+57.021LGETMPMELLEGLR  -1.0000     NotChecked  -2.9194     1860.9148   ✗       
+141   LC+57.021LGETMPMELLEALR  -1.0000     NotChecked  -4.4706     1874.9304   ✗       
+142   LC+57.021LGETMPMELLEGVR  -1.0000     NotChecked  -4.6735     1846.8991   ✗       
+143   LC+57.021LGETMPMELLELLR  -1.0000     NotChecked  -4.9711     1916.9774   ✗       
+144   LC+57.021LGETMPMELLEVLR  -1.0000     NotChecked  -5.0793     1902.9617   ✗       
+145   LC+57.021LGETMPMELLEAVR  -1.0000     NotChecked  -6.2247     1860.9148   ✗       
+146   LC+57.021LGETMPMELLENVR  -1.0000     NotChecked  -6.5646     1903.9206   ✗       
+147   LC+57.021LGETMPMELLELVR  -1.0000     NotChecked  -6.7252     1902.9617   ✗       
+148   LC+57.021LGETMPMELLQ+0.984NLR-1.0000     Failed      -6.8004     1917.9362   ✓       
+149   LC+57.021LGETMPMELLEVVR  -1.0000     NotChecked  -6.8334     1888.9461   ✗       
+150   LC+57.021LGETMPMELLEGGVR -1.0000     NotChecked  -7.0859     1903.9206   ✗       
+151   LC+57.021LGETMPMELLENAR  -1.0000     NotChecked  -7.2178     1875.8893   ✗       
+152   LC+57.021LGETMPMELLEGLR  -1.0000     NotChecked  -7.2221     1860.9148   ✗       
+153   LC+57.021LGQ+0.984TMPMELLENVR-1.0000     NotChecked  -7.6141     1903.9206   ✗       
+154   LC+57.021LGETMPMELLEGNR  -1.0000     NotChecked  -7.7344     1861.8736   ✗       
+155   LC+57.021LGETMPMELLENVR  -1.0000     NotChecked  -8.1409     1903.9206   ✗       
+156   LC+57.021LGETMPMELLEGQR  -1.0000     NotChecked  -8.1605     1875.8893   ✗       
+157   LC+57.021LGETMPMELLENGR  -1.0000     NotChecked  -8.1674     1861.8736   ✗       
+158   LC+57.021LGQ+0.984TMPMELLEGLR-1.0000     NotChecked  -8.2717     1860.9148   ✗       
+159   LC+57.021LGETMPMELLQ+0.984NVR-1.0000     NotChecked  -8.5545     1903.9206   ✗       
+160   LC+57.021LGETMPMELLENVR  -1.0000     NotChecked  -8.7050     1903.9206   ✗       
+161   LC+57.021LGETMPMELLEALR  -1.0000     NotChecked  -8.7733     1874.9304   ✗       
+162   LC+57.021LGETMPMELLEGLR  -1.0000     NotChecked  -8.7984     1860.9148   ✗       
+163   LC+57.021LGETMPMQ+0.984LLENVR-1.0000     NotChecked  -8.9589     1903.9206   ✗       
+164   LC+57.021LGETMPMELLEGVR  -1.0000     NotChecked  -8.9762     1846.8991   ✗       
+165   LC+57.021LGETMPMELLEGLR  -1.0000     NotChecked  -9.2113     1860.9148   ✗       
+166   LC+57.021LGETMPMELLQ+0.984GLR-1.0000     NotChecked  -9.2120     1860.9148   ✗       
+167   LC+57.021LGETMPMELLESLR  -1.0000     NotChecked  -9.2728     1890.9253   ✗       
+168   LC+57.021LGETMPMELLELLR  -1.0000     NotChecked  -9.2738     1916.9774   ✗       
+169   LC+57.021LGETMPMELLEANR  -1.0000     NotChecked  -9.2855     1875.8893   ✗       
+170   LC+57.021LGETMPMELLEGLR  -1.0000     NotChecked  -9.3626     1860.9148   ✗       
+171   LC+57.021LGETMPMELLETLR  -1.0000     NotChecked  -9.3705     1904.9410   ✗       
+172   LC+57.021LGETMPMELLEVLR  -1.0000     NotChecked  -9.3820     1902.9617   ✗       
+173   LC+57.021LGETMPMDLLENLR  -1.0000     NotChecked  -9.5861     1903.9206   ✗       
+174   LC+57.021LGETMPMQ+0.984LLEGLR-1.0000     NotChecked  -9.6164     1860.9148   ✗       
+175   LC+57.021LGETMPMELLEGAR  -1.0000     NotChecked  -9.6294     1818.8678   ✗       
+176   LC+57.021LGETMPMELLEAQR  -1.0000     NotChecked  -9.7117     1889.9049   ✗       
+177   LC+57.021LGETMPMELLEGGVR -1.0000     NotChecked  -9.7204     1903.9206   ✗       
+178   LC+57.021LGETMPMELLENTR  -1.0000     NotChecked  -9.7818     1905.8998   ✗       
+179   LC+57.021LGQ+0.984TMPMELLEALR-1.0000     NotChecked  -9.8228     1874.9304   ✗       
+180   LC+57.021LGETMPMELLEQAR  -1.0000     NotChecked  -9.8545     1889.9049   ✗       
+181   LC+57.021LGETMPMELLEVNR  -1.0000     NotChecked  -9.8943     1903.9206   ✗       
+182   LC+57.021LGETMPMELLENVR  -1.0000     NotChecked  -9.9720     1903.9206   ✗       
+183   LC+57.021LGQ+0.984TMPMELLEGVR-1.0000     NotChecked  -10.0258    1846.8991   ✗       
+184   LC+57.021LGQ+0.984TMPMELLELLR-1.0000     NotChecked  -10.3233    1916.9774   ✗       
+185   LC+57.021LGETMPMELLEALR  -1.0000     NotChecked  -10.3496    1874.9304   ✗       
+186   LC+57.021LGQ+0.984TMPMELLEVLR-1.0000     NotChecked  -10.4316    1902.9617   ✗       
+187   LC+57.021LGETMPMELLENVR  -1.0000     NotChecked  -10.5268    1903.9206   ✗       
+188   LC+57.021LGETMPMELLEAVR  -1.0000     NotChecked  -10.5274    1860.9148   ✗       
+189   LC+57.021LGETMPMELLEGVR  -1.0000     NotChecked  -10.5525    1846.8991   ✗       
+190   LC+57.021LGETMPMELLEGGR  -1.0000     NotChecked  -10.5791    1804.8522   ✗       
+191   LC+57.021LGETMPMELLEGLR  -1.0000     NotChecked  -10.6296    1860.9148   ✗       
+192   LC+57.021LGETMPMELLENR   -1.0000     NotChecked  -10.6800    1804.8522   ✗       
+193   LC+57.021LGETMPMELLQ+0.984ALR-1.0000     NotChecked  -10.7632    1874.9304   ✗       
+194   LC+57.021LGETMPMELLEQGR  -1.0000     NotChecked  -10.8042    1875.8893   ✗       
+195   LC+57.021LGETMPMELLELLR  -1.0000     NotChecked  -10.8501    1916.9774   ✗       
+196   LC+57.021LGETMPMELLEALR  -1.0000     NotChecked  -10.9137    1874.9304   ✗       
+197   LC+57.021LGETMPMELLEVLR  -1.0000     NotChecked  -10.9583    1902.9617   ✗       
+198   LC+57.021LGETMPMELLEGVR  -1.0000     NotChecked  -10.9654    1846.8991   ✗       
+199   LC+57.021LGETMPMELLQ+0.984GVR-1.0000     NotChecked  -10.9661    1846.8991   ✗       
+200   LC+57.021LGETMPMELLESVR  -1.0000     NotChecked  -11.0269    1876.9097   ✗       
+201   LC+57.021LGETMPMELLELVR  -1.0000     NotChecked  -11.0279    1902.9617   ✗       
+202   LC+57.021LGETMPMELLQ+0.984NLR-1.0000     Failed      -11.1031    1917.9362   ✓       
+203   LC+57.021LGETMPMELLEGVR  -1.0000     NotChecked  -11.1167    1846.8991   ✗       
+204   LC+57.021LGETMPMELLETVR  -1.0000     NotChecked  -11.1246    1890.9253   ✗       
+205   LC+57.021LGETMPMELLEVVR  -1.0000     NotChecked  -11.1361    1888.9461   ✗       
+206   LC+57.021LGETMPMQ+0.984LLEALR-1.0000     NotChecked  -11.1676    1874.9304   ✗       
+207   LC+57.021LGETMPMELLEAAR  -1.0000     NotChecked  -11.1806    1832.8835   ✗       
+208   LC+57.021LGETMPMELLEGLR  -1.0000     NotChecked  -11.1844    1860.9148   ✗       
+209   LC+57.021LGETMPMELLQ+0.984LLR-1.0000     NotChecked  -11.2637    1916.9774   ✗       
+210   LC+57.021LGETMPMDLLENVR  -1.0000     NotChecked  -11.3402    1889.9049   ✗       
+211   LC+57.021LGETMPMQ+0.984LLEGVR-1.0000     NotChecked  -11.3705    1846.8991   ✗       
+212   LC+57.021LGETMPMELLQ+0.984VLR-1.0000     NotChecked  -11.3719    1902.9617   ✗       
+213   LC+57.021LGETMPMELLEGGVR -1.0000     NotChecked  -11.3886    1903.9206   ✗       
+214   LC+57.021LGETMPMELLELLR  -1.0000     NotChecked  -11.4142    1916.9774   ✗       
+215   LC+57.021LGETMPMELLENAR  -1.0000     NotChecked  -11.5205    1875.8893   ✗       
+216   LC+57.021LGETMPMELLEVLR  -1.0000     NotChecked  -11.5225    1902.9617   ✗       
+217   LC+57.021LGETMPMELLEGLR  -1.0000     NotChecked  -11.5321    1860.9148   ✗       
+218   LC+57.021LGQ+0.984TMPMELLEAVR-1.0000     NotChecked  -11.5769    1860.9148   ✗       
+219   LC+57.021LGETMPMQ+0.984LLELLR-1.0000     NotChecked  -11.6681    1916.9774   ✗       
+220   LC+57.021LGETMPMELLELAR  -1.0000     NotChecked  -11.6811    1874.9304   ✗       
+221   LC+57.021LGETMPMELLENVR  -1.0000     NotChecked  -11.7124    1903.9206   ✗       
+222   LC+57.021LGETMPMQ+0.984LLEVLR-1.0000     NotChecked  -11.7763    1902.9617   ✗       
+223   LC+57.021LGETMPMELLEVAR  -1.0000     NotChecked  -11.7894    1860.9148   ✗       
+224   LC+57.021LGETMPMELLEN+0.984VR-1.0000     NotChecked  -11.8579    1904.9046   ✗       
+225   LC+57.021LGETMPMELLQNLR  -1.0000     NotChecked  -11.8911    1916.9522   ✗       
+226   LC+57.021LGQ+0.984TMPMELLENVR-1.0000     NotChecked  -11.9168    1903.9206   ✗       
+227   LC+57.021LGETMPMDLLEGLR  -1.0000     NotChecked  -11.9977    1846.8991   ✗       
+228   LC+57.021LGETMPMELLEGNR  -1.0000     NotChecked  -12.0371    1861.8736   ✗       
+229   LC+57.021LGETMPMELLEGGAR -1.0000     NotChecked  -12.0419    1875.8893   ✗       
+230   LC+57.021LGQ+0.984TMPMELLELVR-1.0000     NotChecked  -12.0774    1902.9617   ✗       
+231   LC+57.021LGETMPMELLEAVR  -1.0000     NotChecked  -12.1037    1860.9148   ✗       
+232   LC+57.021LGETMPMELLEAGR  -1.0000     NotChecked  -12.1302    1818.8678   ✗       
+233   LC+57.021LGETMPMELLEGGVR -1.0000     NotChecked  -12.1328    1903.9206   ✗       
+234   LC+57.021LGETMPMELLENLV  -1.0000     NotChecked  -12.1462    1860.9035   ✗       
+235   LC+57.021LGETMPMELLEGLR  -1.0000     NotChecked  -12.1504    1860.9148   ✗       
+236   LC+57.021LGETMPMELLEALR  -1.0000     NotChecked  -12.1807    1874.9304   ✗       
+237   LC+57.021LGQ+0.984TMPMELLEVVR-1.0000     NotChecked  -12.1857    1888.9461   ✗       
+238   LC+57.021LGETMPMELLEGTR  -1.0000     NotChecked  -12.1934    1848.8784   ✗       
+239   LC+57.021LGETMPMELLENLQ  -1.0000     NotChecked  -12.3138    1889.8937   ✗       
+240   LC+57.021LGETMPMELLENLG  -1.0000     NotChecked  -12.3496    1818.8566   ✗       
+241   LC+57.021LGETMPMELLENLA  -1.0000     NotChecked  -12.3696    1832.8722   ✗       
+242   LC+57.021LGETMPMELLEGLR  -1.0000     NotChecked  -12.3700    1860.9148   ✗       
+243   LC+57.021LGETMPMELLEGVR  -1.0000     NotChecked  -12.3837    1846.8991   ✗       
+244   LC+57.021LGQ+0.984TMPMELLEGGVR-1.0000     NotChecked  -12.4382    1903.9206   ✗       
+245   LC+57.021LGETMPMELLENVR  -1.0000     NotChecked  -12.4436    1903.9206   ✗       
+246   LC+57.021LGETMPMELLEGQR  -1.0000     NotChecked  -12.4632    1875.8893   ✗       
+247   LC+57.021LGETMPMELLENGR  -1.0000     NotChecked  -12.4701    1861.8736   ✗       
+248   LC+57.021LGETMPMELLQ+0.984AVR-1.0000     NotChecked  -12.5173    1860.9148   ✗       
+249   LC+57.021LGETMPMELLANLR  -1.0000     NotChecked  -12.5531    1859.9307   ✗       
+250   LC+57.021LGQ+0.984TMPMELLENAR-1.0000     NotChecked  -12.5701    1875.8893   ✗       
+251   LC+57.021LGQ+0.984TMPMELLEGLR-1.0000     NotChecked  -12.5744    1860.9148   ✗       
+252   LC+57.021LGETMPMELLELVR  -1.0000     NotChecked  -12.6042    1902.9617   ✗       
+253   LC+57.021LGETMPMELLELGR  -1.0000     NotChecked  -12.6307    1860.9148   ✗       
+254   LC+57.021LGETMPMELLEAVR  -1.0000     NotChecked  -12.6678    1860.9148   ✗       
+255   LC+57.021LGETMPMELLQ+0.984NLR-1.0000     Failed      -12.6794    1917.9362   ✓       
+256   LC+57.021LGETMPMELLELLR  -1.0000     NotChecked  -12.6812    1916.9774   ✗       
+257   LC+57.021LGETMPMELLEVVR  -1.0000     NotChecked  -12.7124    1888.9461   ✗       
+258   LC+57.021LGETMPMELLEALR  -1.0000     NotChecked  -12.7356    1874.9304   ✗       
+259   LC+57.021LGETMPMELLEVGR  -1.0000     NotChecked  -12.7390    1846.8991   ✗       
+260   LC+57.021LGETMPMELLEVLR  -1.0000     NotChecked  -12.7895    1902.9617   ✗       
+261   LC+57.021LGETMPMELLENVR  -1.0000     NotChecked  -12.8449    1903.9206   ✗       
+262   LC+57.021LGETMPMELLQ+0.984NVR-1.0000     NotChecked  -12.8572    1903.9206   ✗       
+263   LC+57.021LGETMPMELLENLN  -1.0000     NotChecked  -12.8956    1875.8780   ✗       
+264   LC+57.021LGETMPMELLENL   -1.0000     NotChecked  -12.8982    1761.8351   ✗       
+265   LC+57.021LGETMPMQ+0.984LLEAVR-1.0000     NotChecked  -12.9217    1860.9148   ✗       
+266   LC+57.021LGETMPMELLEGVR  -1.0000     NotChecked  -12.9385    1846.8991   ✗       
+267   LC+57.021LGETMPMELLEGGVR -1.0000     NotChecked  -12.9650    1903.9206   ✗       
+268   LC+57.021LGETMPMELLEGGGR -1.0000     NotChecked  -12.9915    1861.8736   ✗       
+269   LC+57.021LGETMPMELLENVR  -1.0000     NotChecked  -13.0077    1903.9206   ✗       
+270   LC+57.021LGETMPMELLQ+0.984LVR-1.0000     NotChecked  -13.0178    1902.9617   ✗       
+271   LC+57.021LGETMPMELLEALR  -1.0000     NotChecked  -13.0833    1874.9304   ✗       
+272   LC+57.021LGQ+0.984TMPMELLEGNR-1.0000     NotChecked  -13.0866    1861.8736   ✗       
+273   LC+57.021LGETMPMELLEGR   -1.0000     NotChecked  -13.0917    1747.8307   ✗       
+274   LC+57.021LGETMPMELLEGNR  -1.0000     NotChecked  -13.0925    1861.8736   ✗       
+275   LC+57.021LGETMPMELLENAR  -1.0000     NotChecked  -13.0968    1875.8893   ✗       
+276   LC+57.021LGETMPMELLEGLR  -1.0000     NotChecked  -13.1011    1860.9148   ✗       
+277   LC+57.021LGETMPMELLQ+0.984VVR-1.0000     NotChecked  -13.1260    1888.9461   ✗       
+278   +42.011C+57.021LGETMPMELLENLR-1.0000     NotChecked  -13.1346    1846.8627   ✗       
+279   LC+57.021LGETMPMELLEAGAR -1.0000     NotChecked  -13.1348    1889.9049   ✗       
+280   LC+57.021LGETMPMELLELVR  -1.0000     NotChecked  -13.1683    1902.9617   ✗       
+281   LC+57.021LGETMPMELLELLR  -1.0000     NotChecked  -13.2360    1916.9774   ✗       
+282   LC+57.021LGETMPMELLQ+0.984NLR-1.0000     Failed      -13.2435    1917.9362   ✓       
+283   LC+57.021LGETMPMQ+0.984LLENVR-1.0000     NotChecked  -13.2616    1903.9206   ✗       
+284   LC+57.021LGETMPMELLEVVR  -1.0000     NotChecked  -13.2766    1888.9461   ✗       
+285   LC+57.021LGETMPMELLEQR   -1.0000     NotChecked  -13.3168    1818.8678   ✗       
+286   LC+57.021LGETMPMELLEVLR  -1.0000     NotChecked  -13.3443    1902.9617   ✗       
+287   LC+57.021LGETMPMELLENVR  -1.0000     NotChecked  -13.3558    1903.9206   ✗       
+288   LC+57.021LGETMPMELLEGGVR -1.0000     NotChecked  -13.3778    1903.9206   ✗       
+289   LC+57.021LGETMPMELLQ+0.984GGVR-1.0000     NotChecked  -13.3786    1903.9206   ✗       
+290   LC+57.021LGETMPMQ+0.984LLELVR-1.0000     NotChecked  -13.4222    1902.9617   ✗       
+291   LC+57.021LGETMPMELLEGER  -1.0000     NotChecked  -13.4389    1876.8733   ✗       
+292   LC+57.021LGETMPMELLGNLR  -1.0000     NotChecked  -13.4859    1845.9151   ✗       
+293   LC+57.021LGQ+0.984TMPMELLENVR-1.0000     NotChecked  -13.4931    1903.9206   ✗       
+294   LC+57.021LGETMPMELLQ+0.984NAR-1.0000     NotChecked  -13.5104    1875.8893   ✗       
+295   LC+57.021LGQ+0.984TMPMELLEGQR-1.0000     NotChecked  -13.5128    1875.8893   ✗       
+296   LC+57.021LGETMPMELLEGLR  -1.0000     NotChecked  -13.5140    1860.9148   ✗       
+297   LC+57.021LGETMPMELLQ+0.984GLR-1.0000     NotChecked  -13.5147    1860.9148   ✗       
+298   LC+57.021LGQ+0.984TMPMELLENGR-1.0000     NotChecked  -13.5197    1861.8736   ✗       
+299   LC+57.021LGETMPMELLEGGVR -1.0000     NotChecked  -13.5291    1903.9206   ✗       
+300   LC+57.021LGETMPMQ+0.984LLEVVR-1.0000     NotChecked  -13.5304    1888.9461   ✗       
+301   LC+57.021LGETMPMDLLEALR  -1.0000     NotChecked  -13.5489    1860.9148   ✗       
+302   LC+57.021LGETMPMELLSNLR  -1.0000     NotChecked  -13.5520    1875.9257   ✗       
+303   LC+57.021LGETMPMELLESLR  -1.0000     NotChecked  -13.5755    1890.9253   ✗       
+304   LC+57.021LGETMPMELLELR   -1.0000     NotChecked  -13.5838    1803.8933   ✗       
+305   LC+57.021LGETMPMELLEANR  -1.0000     NotChecked  -13.5882    1875.8893   ✗       
+306   LC+57.021LGETMPMELLEGAAR -1.0000     NotChecked  -13.5931    1889.9049   ✗       
+307   LC+57.021LGETMPMELLEGNR  -1.0000     NotChecked  -13.6134    1861.8736   ✗       
+308   LC+57.021LGETMPMELLQNVR  -1.0000     NotChecked  -13.6452    1902.9366   ✗       
+309   LC+57.021LGETMPMELLLNLR  -1.0000     NotChecked  -13.6593    1901.9777   ✗       
+310   LC+57.021LGETMPMELLENAR  -1.0000     NotChecked  -13.6610    1875.8893   ✗       
+311   LC+57.021LGETMPMELLEGLR  -1.0000     NotChecked  -13.6653    1860.9148   ✗       
+312   LC+57.021LGETMPMELLETLR  -1.0000     NotChecked  -13.6732    1904.9410   ✗       
+313   LC+57.021LGETMPMELLENVR  -1.0000     NotChecked  -13.6846    1903.9206   ✗       
+314   LC+57.021LGETMPMELLEVLR  -1.0000     NotChecked  -13.6920    1902.9617   ✗       
+315   LC+57.021LGQTMPMELLENLR  -1.0000     NotChecked  -13.7416    1916.9522   ✗       
+316   LC+57.021LGETMPMELLEATR  -1.0000     NotChecked  -13.7446    1862.8940   ✗       
+317   LC+57.021LGETMPMDLLEGVR  -1.0000     NotChecked  -13.7518    1832.8835   ✗       
+318   LC+57.021LGETMPMQ+0.984LLEGGVR-1.0000     NotChecked  -13.7830    1903.9206   ✗       
+319   LC+57.021LGETMPMDLLENLR  -1.0000     NotChecked  -13.8888    1903.9206   ✗       
+320   LC+57.021LGETMPMELLTNLR  -1.0000     NotChecked  -13.8939    1889.9413   ✗       
+321   LC+57.021LGETMPMELLENV   -1.0000     NotChecked  -13.9003    1747.8195   ✗       
+322   LC+57.021LGETMPMELLEGVR  -1.0000     NotChecked  -13.9045    1846.8991   ✗       
+323   LC+57.021LGQ+0.984TMPMELLQ+0.984NVR-1.0000     NotChecked  -13.9067    1903.9206   ✗       
+324   LC+57.021LGETMPMQ+0.984LLENAR-1.0000     NotChecked  -13.9148    1875.8893   ✗       
+325   LC+57.021LGETMPMQ+0.984LLEGLR-1.0000     NotChecked  -13.9191    1860.9148   ✗       
+326   LC+57.021LGETMPMELLEALR  -1.0000     NotChecked  -13.9212    1874.9304   ✗       
+327   LC+57.021LGETMPMELLEGAR  -1.0000     NotChecked  -13.9321    1818.8678   ✗       
+328   LC+57.021LGETMPMELLEAVR  -1.0000     NotChecked  -13.9348    1860.9148   ✗       
+329   LC+57.021LGETMPMDLLEQVR  -1.0000     NotChecked  -13.9769    1903.9206   ✗       
+330   LC+57.021LGETMPMELLEALR  -1.0000     NotChecked  -13.9953    1874.9304   ✗       
+331   LC+57.021LGETMPMELLEGLR  -1.0000     NotChecked  -14.0133    1860.9148   ✗       
+332   LC+57.021LGETMPMELLEAQR  -1.0000     NotChecked  -14.0144    1889.9049   ✗       
+333   LC+57.021LGETMPMELLEGGVR -1.0000     NotChecked  -14.0231    1903.9206   ✗       
+334   LC+57.021LGETMPMELLEGNR  -1.0000     NotChecked  -14.0263    1861.8736   ✗       
+335   LC+57.021LGETMPMELLQ+0.984GNR-1.0000     NotChecked  -14.0270    1861.8736   ✗       
+336   LC+57.021LGETMPMELLEGQR  -1.0000     NotChecked  -14.0395    1875.8893   ✗       
+337   LC+57.021LGETMPMELLENGR  -1.0000     NotChecked  -14.0464    1861.8736   ✗       
+338   LC+57.021LGETMPMDLLELLR  -1.0000     NotChecked  -14.0494    1902.9617   ✗       
+339   LC+57.021LGQ+0.984TMPMELLENVR-1.0000     NotChecked  -14.0573    1903.9206   ✗       
+340   LC+57.021LGETMPMELLENVQ  -1.0000     NotChecked  -14.0679    1875.8780   ✗       
+341   LC+57.021LGETMPMELLEALR  -1.0000     NotChecked  -14.0798    1874.9304   ✗       
+342   LC+57.021LGETMPMN+0.984LLENLR-1.0000     NotChecked  -14.0818    1903.9206   ✗       
+343   LC+57.021LGETMPMELLEAGGR -1.0000     NotChecked  -14.0845    1875.8893   ✗       
+344   LC+57.021LGETMPMELLENTR  -1.0000     NotChecked  -14.0845    1905.8998   ✗       
+345   LC+57.021LGETMPMELLESNR  -1.0000     NotChecked  -14.0878    1891.8842   ✗       
+346   LC+57.021LGETMPMELLDNLR  -1.0000     NotChecked  -14.0908    1903.9206   ✗       
+347   LC+57.021LGETMPMELLENVG  -1.0000     NotChecked  -14.1037    1804.8409   ✗       
+348   +43.006C+57.021LGETMPMELLENLR-1.0000     NotChecked  -14.1132    1847.8580   ✗       
+349   LC+57.021LGETMPMELLENVA  -1.0000     NotChecked  -14.1237    1818.8566   ✗       
+350   LC+57.021LGETMPMELLEGVR  -1.0000     NotChecked  -14.1241    1846.8991   ✗       
+351   LC+57.021LGQ+0.984TMPMELLEALR-1.0000     NotChecked  -14.1255    1874.9304   ✗       
+352   LC+57.021LGETEPMELLENLR  -1.0000     NotChecked  -14.1269    1915.9383   ✗       
+353   LC+57.021LGKTMPMELLENLR  -1.0000     NotChecked  -14.1372    1916.9886   ✗       
+354   LC+57.021LGQ+0.984TMPMELLEGLR-1.0000     NotChecked  -14.1507    1860.9148   ✗       
+355   LC+57.021LGETMPMELLEQAR  -1.0000     NotChecked  -14.1572    1889.9049   ✗       
+356   LC+57.021LGETMPMDLLEVLR  -1.0000     NotChecked  -14.1576    1888.9461   ✗       
+357   LC+57.021LGETMPMELLEGNR  -1.0000     NotChecked  -14.1775    1861.8736   ✗       
+358   LC+57.021LGETMPMELLEANR  -1.0000     NotChecked  -14.1854    1875.8893   ✗       
+359   LC+57.021LGETMPMELLETNR  -1.0000     NotChecked  -14.1855    1905.8998   ✗       
+360   LC+57.021LGETMPMELLEVNR  -1.0000     NotChecked  -14.1970    1903.9206   ✗       
+361   LC+57.021LGETMPMEALENLR  -1.0000     NotChecked  -14.2155    1875.8893   ✗       
+362   LC+57.021LGETMPMELLELTR  -1.0000     NotChecked  -14.2451    1904.9410   ✗       
+363   LC+57.021LGETMPMELLENVR  -1.0000     NotChecked  -14.2747    1903.9206   ✗       
+364   LC+57.021LGETMPMELLQGLR  -1.0000     NotChecked  -14.3027    1859.9307   ✗       
+365   LC+57.021LGETMPMELLANVR  -1.0000     NotChecked  -14.3072    1845.9151   ✗       
+366   LC+57.021LGQ+0.984TMPMQ+0.984LLENVR-1.0000     NotChecked  -14.3111    1903.9206   ✗       
+367   LC+57.021LGQ+0.984TMPMELLEGVR-1.0000     NotChecked  -14.3285    1846.8991   ✗       
+368   LC+57.021LGETMPMELLEGLR  -1.0000     NotChecked  -14.3422    1860.9148   ✗       
+369   LC+57.021LGETMPMELLEVTR  -1.0000     NotChecked  -14.3534    1890.9253   ✗       
+370   LC+57.021LGETMPMDLLENNR  -1.0000     NotChecked  -14.4010    1904.8794   ✗       
+371   LC+57.021LGETMPMDLLEGGLR -1.0000     NotChecked  -14.4102    1903.9206   ✗       
+372   LC+57.021LGETMPMELLELLR  -1.0000     NotChecked  -14.4217    1916.9774   ✗       
+373   LC+57.021LGETMPMQ+0.984LLEGNR-1.0000     NotChecked  -14.4314    1861.8736   ✗       
+374   LC+57.021LGETMPMELLQ+0.984NVR-1.0000     NotChecked  -14.4335    1903.9206   ✗       
+375   LC+57.021LGETMPMELLELVR  -1.0000     NotChecked  -14.4353    1902.9617   ✗       
+376   LC+57.021LGETMPMELLEGQR  -1.0000     NotChecked  -14.4524    1875.8893   ✗       
+377   LC+57.021LGETMPMELLQ+0.984GQR-1.0000     NotChecked  -14.4531    1875.8893   ✗       
+378   LC+57.021LGETMPMELLENGR  -1.0000     NotChecked  -14.4593    1861.8736   ✗       
+379   LC+57.021LGETMPMELLQ+0.984NGR-1.0000     NotChecked  -14.4600    1861.8736   ✗       
+380   LC+57.021LGETMPMELLQ+0.984AGVR-1.0000     Failed      -14.4715    1917.9362   ✓       
+381   LC+57.021LGETMPMELLEAVR  -1.0000     NotChecked  -14.4897    1860.9148   ✗       
+382   LC+57.021LGETMPTELLENLR  -1.0000     NotChecked  -14.4948    1887.9434   ✗       
+383   LC+57.021LGETMPMELLQ+0.984NLR-1.0000     Failed      -14.5105    1917.9362   ✓       
+384   LC+57.021LGETMPMELLESQR  -1.0000     NotChecked  -14.5139    1905.8998   ✗       
+385   LC+57.021LGETMPMELLEVLR  -1.0000     NotChecked  -14.5299    1902.9617   ✗       
+386   LC+57.021LGETMPMELLEGAGR -1.0000     NotChecked  -14.5427    1875.8893   ✗       
+387   LC+57.021LGETMPMELLEVVR  -1.0000     NotChecked  -14.5436    1888.9461   ✗       
+388   LC+57.021LGETMPMELLEGLV  -1.0000     NotChecked  -14.5578    1803.8821   ✗       
+389   LC+57.021LGQ+0.984TMPMELLEGLR-1.0000     NotChecked  -14.5636    1860.9148   ✗       
+390   LC+57.021LGQ+0.984TMPMELLQ+0.984GLR-1.0000     NotChecked  -14.5643    1860.9148   ✗       
+391   LC+57.021LGETMPMELLENVR  -1.0000     NotChecked  -14.5840    1903.9206   ✗       
+392   LC+57.021LGETMPMELLEGQR  -1.0000     NotChecked  -14.6037    1875.8893   ✗       
+393   LC+57.021LGETMPMELLEGGTR -1.0000     NotChecked  -14.6059    1905.8998   ✗       
+394   LC+57.021LGETMPMELLENGR  -1.0000     NotChecked  -14.6106    1861.8736   ✗       
+395   LC+57.021LGQ+0.984TMPMELLESLR-1.0000     NotChecked  -14.6251    1890.9253   ✗       
+396   LC+57.021LGQ+0.984TMPMELLELLR-1.0000     NotChecked  -14.6260    1916.9774   ✗       
+397   LC+57.021LGQ+0.984TMPMELLEANR-1.0000     NotChecked  -14.6378    1875.8893   ✗       
+398   LC+57.021LGETMPMELLEAR   -1.0000     NotChecked  -14.6429    1761.8463   ✗       
+399   LC+57.021LGETMPMELLENVN  -1.0000     NotChecked  -14.6497    1861.8624   ✗       
+400   LC+57.021LGETMPMELLEALR  -1.0000     NotChecked  -14.6523    1874.9304   ✗       
+401   LC+57.021LGETMPMELLENVL  -1.0000     NotChecked  -14.6523    1860.9035   ✗       
+402   LC+57.021LGETMPMEVLENLR  -1.0000     NotChecked  -14.6726    1903.9206   ✗       
+403   LC+57.021LGETMPMELLEGGAR -1.0000     NotChecked  -14.6763    1875.8893   ✗       
+404   LC+57.021LGETMPMELLEAAAR -1.0000     NotChecked  -14.6860    1903.9206   ✗       
+405   LSLGETMPMELLENLR         -1.0000     NotChecked  -14.6882    1844.9376   ✗       
+406   LC+57.021LGQ+0.984TMPMELLEGLR-1.0000     NotChecked  -14.7148    1860.9148   ✗       
+407   LC+57.021LGQ+0.984TMPMELLETLR-1.0000     NotChecked  -14.7228    1904.9410   ✗       
+408   LC+57.021LGETMPMELLEGLQ  -1.0000     NotChecked  -14.7254    1832.8722   ✗       
+409   LC+57.021LGQ+0.984TMPMELLEVLR-1.0000     NotChecked  -14.7343    1902.9617   ✗       
+410   LC+57.021LGETMPMELLEGLG  -1.0000     NotChecked  -14.7613    1761.8351   ✗       
+411   LC+57.021LGETMPMELLEGNLG -1.0000     NotChecked  -14.7621    1875.8780   ✗       
+412   LC+57.021LGETMPMELLEGLA  -1.0000     NotChecked  -14.7812    1775.8508   ✗       
+413   LC+57.021LGETMPMELLEGNLA -1.0000     NotChecked  -14.7820    1889.8937   ✗       
+414   LC+57.021LGETMPMELLEQLV  -1.0000     NotChecked  -14.7829    1874.9192   ✗       
+415   LC+57.021LGETMPMELLEGGVR -1.0000     NotChecked  -14.7961    1903.9206   ✗       
+416   LC+57.021LGESMPMELLENLR  -1.0000     NotChecked  -14.8125    1903.9206   ✗       
+417   LC+57.021LGETMPMELLENVR  -1.0000     NotChecked  -14.8295    1903.9206   ✗       
+418   LC+57.021LGETMPMQ+0.984LLENVR-1.0000     NotChecked  -14.8379    1903.9206   ✗       
+419   LC+57.021LGETMPMELLEGVR  -1.0000     NotChecked  -14.8552    1846.8991   ✗       
+420   LC+57.021LGETMPMQ+0.984LLEGQR-1.0000     NotChecked  -14.8575    1875.8893   ✗       
+421   LC+57.021LGETMPMQ+0.984LLENGR-1.0000     NotChecked  -14.8644    1861.8736   ✗       
+422   LC+57.021LGETMPMELLENLK  -1.0000     NotChecked  -14.8689    1889.9301   ✗       
+423   LC+57.021LGETMPMELLEGGR  -1.0000     NotChecked  -14.8818    1804.8522   ✗       
+424   +42.011C+57.021LGETMPMELLENVR-1.0000     NotChecked  -14.8887    1832.8471   ✗       
+425   LC+57.021LGETMPMETLENLR  -1.0000     NotChecked  -14.9124    1905.8998   ✗       
+426   LC+57.021LGETMPMELLENAR  -1.0000     NotChecked  -14.9280    1875.8893   ✗       
+427   LC+57.021LGETMPMELLEGLR  -1.0000     NotChecked  -14.9323    1860.9148   ✗       
+428   LC+57.021LGQ+0.984TMPMDLLENLR-1.0000     NotChecked  -14.9383    1903.9206   ✗       
+429   LC+57.021LGETMPMELLEQLQ  -1.0000     NotChecked  -14.9505    1903.9093   ✗       
+430   LC+57.021LGETMPMELLAGLR  -1.0000     NotChecked  -14.9647    1802.9093   ✗       
+431   LC+57.021LGETMPMELLAGNLR -1.0000     NotChecked  -14.9655    1916.9522   ✗       
+432   LC+57.021LGQ+0.984TMPMQ+0.984LLEGLR-1.0000     NotChecked  -14.9687    1860.9148   ✗       
+433   LC+57.021LGQ+0.984TMPMELLEGAR-1.0000     NotChecked  -14.9817    1818.8678   ✗       
+434   LC+57.021LGETMPMELLENR   -1.0000     NotChecked  -14.9827    1804.8522   ✗       
+435   LC+57.021LGETMPMELLEQLG  -1.0000     NotChecked  -14.9864    1832.8722   ✗       
+436   LC+57.021LGETMPMELLEAER  -1.0000     NotChecked  -14.9901    1890.8889   ✗       
+437   LC+57.021LGETMPMELLELVR  -1.0000     NotChecked  -14.9901    1902.9617   ✗       
+438   LC+57.021LGETMPMELLQ+0.984NVR-1.0000     NotChecked  -14.9976    1903.9206   ✗       
+439   LC+57.021LGETMPMELLEQLA  -1.0000     NotChecked  -15.0063    1846.8879   ✗       
+440   LC+57.021LGETMPEELLENLR  -1.0000     NotChecked  -15.0333    1915.9383   ✗       
+441   LC+57.021LGQ+0.984TMPMELLEAQR-1.0000     NotChecked  -15.0639    1889.9049   ✗       
+442   LC+57.021LGETMPMELLQ+0.984NLR-1.0000     Failed      -15.0653    1917.9362   ✓       
+443   LC+57.021LGETMPMELLQ+0.984ALR-1.0000     NotChecked  -15.0659    1874.9304   ✗       
+444   LC+57.021LGQ+0.984TMPMELLEGGVR-1.0000     NotChecked  -15.0727    1903.9206   ✗       
+445   LC+57.021LGETMPMELLEGLR  -1.0000     NotChecked  -15.0903    1860.9148   ✗       
+446   LC+57.021LGETMPMELLQ+0.984GLR-1.0000     NotChecked  -15.0910    1860.9148   ✗       
+447   LC+57.021LGETMPMELLEVVR  -1.0000     NotChecked  -15.0984    1888.9461   ✗       
+448   LC+57.021LGETMPMELLEQGR  -1.0000     NotChecked  -15.1069    1875.8893   ✗       
+449   LC+57.021LGQ+0.984TMPMELLENTR-1.0000     NotChecked  -15.1340    1905.8998   ✗       
+450   LC+57.021LGQ+0.984TMPMELLELNR-1.0000     Failed      -15.1383    1917.9362   ✓       
+451   LC+57.021LGETMPMELLELR   -1.0000     NotChecked  -15.1434    1803.8933   ✗       
+452   LC+57.021LGETMPMQLLENLR  -1.0000     NotChecked  -15.1509    1916.9522   ✗       
+453   LC+57.021LGETMPMELLEGVGR -1.0000     NotChecked  -15.1514    1903.9206   ✗       
+454   LC+57.021LGETMPMELLESLR  -1.0000     NotChecked  -15.1518    1890.9253   ✗       
+455   LC+57.021LGETMPMELLELLR  -1.0000     NotChecked  -15.1528    1916.9774   ✗       
+456   LC+57.021LGETMPMELLEANR  -1.0000     NotChecked  -15.1646    1875.8893   ✗       
+457   LC+57.021LGETMPMEPLENLR  -1.0000     NotChecked  -15.1877    1901.9049   ✗       
+458   LC+57.021LGETMPMELLAQLR  -1.0000     NotChecked  -15.1898    1873.9464   ✗       
+459   LC+57.021LGQ+0.984TMPMELLEQAR-1.0000     NotChecked  -15.2068    1889.9049   ✗       
+460   LC+57.021LGETMPMELLEALR  -1.0000     NotChecked  -15.2164    1874.9304   ✗       
+461   LC+57.021LGETMPMLLLENLR  -1.0000     NotChecked  -15.2182    1901.9777   ✗       
+462   LC+57.021LGETMPMELLGNVR  -1.0000     NotChecked  -15.2400    1831.8994   ✗       
+463   LC+57.021LGETMPMELLEGLR  -1.0000     NotChecked  -15.2416    1860.9148   ✗       
+464   LC+57.021LGQ+0.984TMPMELLEVNR-1.0000     NotChecked  -15.2465    1903.9206   ✗       
+465   LC+57.021LGETMPMELLETLR  -1.0000     NotChecked  -15.2495    1904.9410   ✗       
+466   LC+57.021LGETMPMQ+0.984LLQ+0.984NVR-1.0000     NotChecked  -15.2515    1903.9206   ✗       
+467   LC+57.021LGETMPMELLEVR   -1.0000     NotChecked  -15.2516    1789.8776   ✗       
+468   LC+57.021LGETMPMELLEGVR  -1.0000     NotChecked  -15.2565    1846.8991   ✗       
+469   LC+57.021LGETMPMELLEVLR  -1.0000     NotChecked  -15.2610    1902.9617   ✗       
+470   LC+57.021LGETMPMELLEGVR  -1.0000     NotChecked  -15.2681    1846.8991   ✗       
+471   LC+57.021LGETMPMELLQ+0.984GVR-1.0000     NotChecked  -15.2688    1846.8991   ✗       
+472   LC+57.021LGETMPMDLLEAVR  -1.0000     NotChecked  -15.3030    1846.8991   ✗       
+473   LC+57.021LGETMPMELLSNVR  -1.0000     NotChecked  -15.3061    1861.9100   ✗       
+474   LC+57.021LGETMPMELLEGLN  -1.0000     NotChecked  -15.3073    1818.8566   ✗       
+475   LC+57.021LGETMPMELLEGL   -1.0000     NotChecked  -15.3099    1704.8136   ✗       
+476   LC+57.021LGETMPMELLEGNL  -1.0000     NotChecked  -15.3107    1818.8566   ✗       
+477   LC+57.021LGETMPMELLENVR  -1.0000     NotChecked  -15.3149    1903.9206   ✗       
+478   LC+57.021LGQ+0.984TMPMELLENVR-1.0000     NotChecked  -15.3243    1903.9206   ✗       
+479   LC+57.021LGETMPMELLESVR  -1.0000     NotChecked  -15.3296    1876.9097   ✗       
+480   LC+57.021LGETMPMELLELVR  -1.0000     NotChecked  -15.3379    1902.9617   ✗       
+481   LRLGETMPMELLENLR         -1.0000     NotChecked  -15.3442    1914.0067   ✗       
+482   LC+57.021LGETMPMELLEGGVR -1.0000     NotChecked  -15.3509    1903.9206   ✗       
+483   +42.011C+57.021LGETMPMELLEGLR-1.0000     NotChecked  -15.5462    1789.8413   ✗       
+484   +42.011C+57.021LGETMPMELLEGNLR-1.0000     NotChecked  -15.5470    1903.8842   ✗       
+485   +42.011C+57.021LGETMPMELLEQLR-1.0000     NotChecked  -15.7713    1860.8784   ✗       
+486   +43.006C+57.021LGETMPMELLENVR-1.0000     NotChecked  -15.8673    1833.8423   ✗       
+487   GC+57.021LGETMPMELLENLR  -1.0000     NotChecked  -16.2868    1861.8736   ✗       
+488   +43.006C+57.021LGETMPMELLEGLR-1.0000     NotChecked  -16.5249    1790.8365   ✗       
+489   +43.006C+57.021LGETMPMELLEGNLR-1.0000     NotChecked  -16.5257    1904.8794   ✗       
+490   +43.006C+57.021LGETMPMELLEQLR-1.0000     NotChecked  -16.7500    1861.8736   ✗       
+491   SC+57.021LGETMPMELLENLR  -1.0000     NotChecked  -17.0141    1891.8842   ✗       
+492   C+57.021LGETMPMELLENLR   -1.0000     NotChecked  -17.0446    1804.8522   ✗       
+493   +42.011C+57.021LGETMPMELLEALR-1.0000     NotChecked  -17.0974    1803.8569   ✗       
+494   +42.011C+57.021LGETMPMELLEGVR-1.0000     NotChecked  -17.3003    1775.8256   ✗       
+495   +42.011C+57.021LGETMPMELLEGNVR-1.0000     NotChecked  -17.3011    1889.8685   ✗       
+496   AC+57.021LGETMPMELLENLR  -1.0000     NotChecked  -17.4980    1875.8893   ✗       
+497   +42.011C+57.021LGETMPMELLEQVR-1.0000     NotChecked  -17.5254    1846.8627   ✗       
+498   +42.011C+57.021LGETMPMELLELLR-1.0000     NotChecked  -17.5979    1845.9039   ✗       
+499   +42.011C+57.021LGETMPMELLEVLR-1.0000     NotChecked  -17.7061    1831.8882   ✗       
+500   +42.011C+57.021LGETMPMELLENNR-1.0000     NotChecked  -17.9495    1847.8216   ✗       
+501   +42.011C+57.021LGETMPMELLEGGLR-1.0000     NotChecked  -17.9587    1846.8627   ✗       
+502   GC+57.021LGETMPMELLENVR  -1.0000     NotChecked  -18.0409    1847.8580   ✗       
+503   +43.006C+57.021LGETMPMELLEALR-1.0000     NotChecked  -18.0761    1804.8522   ✗       
+504   +42.011C+57.021LGETMPMELLEGNLR-1.0000     NotChecked  -18.1815    1903.8842   ✗       
+505   +43.006C+57.021LGETMPMELLEGVR-1.0000     NotChecked  -18.2790    1776.8209   ✗       
+506   +43.006C+57.021LGETMPMELLEGNVR-1.0000     NotChecked  -18.2798    1890.8638   ✗       
+507   +42.011C+57.021LGETMPMELLENQR-1.0000     NotChecked  -18.3757    1861.8372   ✗       
+508   +42.011C+57.021LGETMPMELLEANVR-1.0000     NotChecked  -18.3941    1903.8842   ✗       
+509   +42.011C+57.021LGQ+0.984TMPMELLENLR-1.0000     NotChecked  -18.4868    1846.8627   ✗       
+510   +43.006C+57.021LGETMPMELLEQVR-1.0000     NotChecked  -18.5041    1847.8580   ✗       
+511   +43.006C+57.021LGETMPMELLELLR-1.0000     NotChecked  -18.5766    1846.8991   ✗       
+512   +43.006C+57.021LGETMPMELLEVLR-1.0000     NotChecked  -18.6848    1832.8835   ✗       
+513   GC+57.021LGETMPMELLEGLR  -1.0000     NotChecked  -18.6985    1804.8522   ✗       
+514   SC+57.021LGETMPMELLENVR  -1.0000     NotChecked  -18.7682    1877.8685   ✗       
+515   C+57.021LGETMPMELLENVR   -1.0000     NotChecked  -18.7987    1790.8365   ✗       
+516   +42.011C+57.021LGETMPMELLEAVR-1.0000     NotChecked  -18.8515    1789.8413   ✗       
+517   GC+57.021LGETMPMELLEQLR  -1.0000     NotChecked  -18.9236    1875.8893   ✗       
+518   +43.006C+57.021LGETMPMELLENNR-1.0000     NotChecked  -18.9282    1848.8168   ✗       
+519   +43.006C+57.021LGETMPMELLEGGLR-1.0000     NotChecked  -18.9373    1847.8580   ✗       
+520   N+0.984C+57.021LGETMPMELLENVR-1.0000     NotChecked  -18.9763    1905.8634   ✗       
+521   +42.011C+57.021LGETMPMELLENLR-1.0000     NotChecked  -19.0136    1846.8627   ✗       
+522   +42.011C+57.021LGETMPMELLEAGLR-1.0000     NotChecked  -19.0516    1860.8784   ✗       
+523   +43.006C+57.021LGETMPMELLEGNLR-1.0000     NotChecked  -19.1601    1904.8794   ✗       
+524   MC+57.021LGETMPMELLEGLR  -1.0000     NotChecked  -19.2026    1878.8712   ✗       
+525   Q+0.984C+57.021LGETMPMELLEGLR-1.0000     NotChecked  -19.2236    1876.8733   ✗       
+526   AC+57.021LGETMPMELLENVR  -1.0000     NotChecked  -19.2521    1861.8736   ✗       
+527   +42.011C+57.021LGETMPMELLELVR-1.0000     NotChecked  -19.3520    1831.8882   ✗       
+528   +43.006C+57.021LGETMPMELLENQR-1.0000     NotChecked  -19.3543    1862.8325   ✗       
+529   +43.006C+57.021LGETMPMELLEANVR-1.0000     NotChecked  -19.3727    1904.8794   ✗       
+530   SC+57.021LGETMPMELLEGLR  -1.0000     NotChecked  -19.4258    1834.8627   ✗       
+531   +42.011C+57.021LGETMPMELLENGLR-1.0000     NotChecked  -19.4265    1903.8842   ✗       
+532   +42.011C+57.021LGETMPMELLQ+0.984NLR-1.0000     NotChecked  -19.4272    1846.8627   ✗       
+533   C+57.021LGETMPMELLEGLR   -1.0000     NotChecked  -19.4562    1747.8307   ✗       
+534   C+57.021LGETMPMELLEGNLR  -1.0000     NotChecked  -19.4570    1861.8736   ✗       
+535   +42.011C+57.021LGETMPMELLEVVR-1.0000     NotChecked  -19.4602    1817.8726   ✗       
+536   +43.006C+57.021LGQ+0.984TMPMELLENLR-1.0000     NotChecked  -19.4655    1847.8580   ✗       
+537   +42.011C+57.021LGETMPMELLEGALR-1.0000     NotChecked  -19.5098    1860.8784   ✗       
+538   +42.011C+57.021LGETMPMELLENLR-1.0000     NotChecked  -19.5777    1846.8627   ✗       
+539   N+0.984C+57.021LGETMPMELLEGLR-1.0000     NotChecked  -19.6338    1862.8576   ✗       
+540   SC+57.021LGETMPMELLEQLR  -1.0000     NotChecked  -19.6509    1905.8998   ✗       
+541   C+57.021LGETMPMELLEQLR   -1.0000     NotChecked  -19.6813    1818.8678   ✗       
+542   +42.011C+57.021LGETMPMELLEGGVR-1.0000     NotChecked  -19.7128    1832.8471   ✗       
+543   +43.006C+57.021LGETMPMELLEAVR-1.0000     NotChecked  -19.8302    1790.8365   ✗       
+544   +42.011C+57.021LGETMPMQ+0.984LLENLR-1.0000     NotChecked  -19.8316    1846.8627   ✗       
+545   +42.011C+57.021LGETMPMELLENAR-1.0000     NotChecked  -19.8446    1804.8158   ✗       
+546   +42.011LC+57.021LGETMPMELLEGLR-1.0000     NotChecked  -19.8489    1902.9253   ✗       
+547   AC+57.021LGETMPMELLEGLR  -1.0000     NotChecked  -19.9097    1818.8678   ✗       
+548   +42.011C+57.021LGETMPMELLEGNVR-1.0000     NotChecked  -19.9356    1889.8685   ✗       
+549   +42.011C+57.021LGETMPMELLEGQVR-1.0000     NotChecked  -19.9379    1903.8842   ✗       
+550   +43.006C+57.021LGETMPMELLENLR-1.0000     NotChecked  -19.9923    1847.8580   ✗       
+551   +42.011C+57.021LGETMPMELLEGLLR-1.0000     NotChecked  -20.0103    1902.9253   ✗       
+552   +43.006C+57.021LGETMPMELLEAGLR-1.0000     NotChecked  -20.0303    1861.8736   ✗       
+553   +42.011C+57.021LGETMPMELLEGVLR-1.0000     NotChecked  -20.1186    1888.9097   ✗       
+554   AC+57.021LGETMPMELLEQLR  -1.0000     NotChecked  -20.1348    1889.9049   ✗       
+555   +42.011C+57.021LGQ+0.984TMPMELLENVR-1.0000     NotChecked  -20.2409    1832.8471   ✗       
+556   GC+57.021LGETMPMELLEALR  -1.0000     NotChecked  -20.2497    1818.8678   ✗       
+557   +43.006C+57.021LGETMPMELLELVR-1.0000     NotChecked  -20.3307    1832.8835   ✗       
+558   +42.011C+57.021LGETMPMELLEGNR-1.0000     NotChecked  -20.3612    1790.8001   ✗       
+559   +42.011C+57.021LGETMPMELLEGNNR-1.0000     NotChecked  -20.3620    1904.8430   ✗       
+560   +43.006C+57.021LGETMPMELLENGLR-1.0000     NotChecked  -20.4051    1904.8794   ✗       
+561   +43.006C+57.021LGETMPMELLQ+0.984NLR-1.0000     NotChecked  -20.4059    1847.8580   ✗       
+562   +43.006C+57.021LGETMPMELLEVVR-1.0000     NotChecked  -20.4389    1818.8678   ✗       
+563   GC+57.021LGETMPMELLEGVR  -1.0000     NotChecked  -20.4526    1790.8365   ✗       
+564   GC+57.021LGETMPMELLEGNVR -1.0000     NotChecked  -20.4534    1904.8794   ✗       
+565   +43.006C+57.021LGETMPMELLEGALR-1.0000     NotChecked  -20.4885    1861.8736   ✗       
+566   C+57.021LGETMPMELLEANLR  -1.0000     NotChecked  -20.5500    1875.8893   ✗       
+567   +43.006C+57.021LGETMPMELLENLR-1.0000     NotChecked  -20.5564    1847.8580   ✗       
+568   +42.011C+57.021LGETMPMELLEQNR-1.0000     NotChecked  -20.5863    1861.8372   ✗       
+569   +42.011C+57.021LGETMPMELLEGGLR-1.0000     NotChecked  -20.5931    1846.8627   ✗       
+570   +42.011C+57.021LGETMPMELLEGNLR-1.0000     NotChecked  -20.5939    1903.8842   ✗       
+571   +42.011C+57.021LGETMPMELLEAALR-1.0000     NotChecked  -20.6028    1874.8940   ✗       
+572   GC+57.021LGETMPMELLEQVR  -1.0000     NotChecked  -20.6777    1861.8736   ✗       
+573   +43.006C+57.021LGETMPMELLEGGVR-1.0000     NotChecked  -20.6914    1833.8423   ✗       
+574   GC+57.021LGETMPMELLELLR  -1.0000     NotChecked  -20.7502    1860.9148   ✗       
+575   MC+57.021LGETMPMELLEALR  -1.0000     NotChecked  -20.7537    1892.8868   ✗       
+576   +42.011C+57.021LGETMPMELLENVR-1.0000     NotChecked  -20.7677    1832.8471   ✗       
+577   Q+0.984C+57.021LGETMPMELLEALR-1.0000     NotChecked  -20.7748    1890.8889   ✗       
+578   +42.011C+57.021LGETMPMELLEGQR-1.0000     NotChecked  -20.7873    1804.8158   ✗       
+579   +42.011C+57.021LGETMPMELLENGR-1.0000     NotChecked  -20.7942    1790.8001   ✗       
+580   +42.011C+57.021LGETMPMELLEAGVR-1.0000     NotChecked  -20.8057    1846.8627   ✗       
+581   +43.006C+57.021LGETMPMQ+0.984LLENLR-1.0000     NotChecked  -20.8103    1847.8580   ✗       
+582   +43.006C+57.021LGETMPMELLENAR-1.0000     NotChecked  -20.8233    1805.8110   ✗       
+583   +43.006LC+57.021LGETMPMELLEGLR-1.0000     NotChecked  -20.8276    1903.9206   ✗       
+584   +42.011C+57.021LGETMPMELLENLR-1.0000     NotChecked  -20.8447    1846.8627   ✗       
+585   GC+57.021LGETMPMELLEVLR  -1.0000     NotChecked  -20.8584    1846.8991   ✗       
+586   +42.011C+57.021LGQ+0.984TMPMELLEGLR-1.0000     NotChecked  -20.8985    1789.8413   ✗       
+587   +42.011C+57.021LGQ+0.984TMPMELLEGNLR-1.0000     NotChecked  -20.8993    1903.8842   ✗       
+588   +43.006C+57.021LGETMPMELLEGNVR-1.0000     NotChecked  -20.9142    1890.8638   ✗       
+589   +43.006C+57.021LGETMPMELLEGQVR-1.0000     NotChecked  -20.9165    1904.8794   ✗       
+590   MC+57.021LGETMPMELLEGVR  -1.0000     NotChecked  -20.9567    1864.8555   ✗       
+591   SC+57.021LGETMPMELLEALR  -1.0000     NotChecked  -20.9770    1848.8784   ✗       
+592   Q+0.984C+57.021LGETMPMELLEGVR-1.0000     NotChecked  -20.9777    1862.8576   ✗       
+593   +43.006C+57.021LGETMPMELLEGLLR-1.0000     NotChecked  -20.9890    1903.9206   ✗       
+594   C+57.021LGETMPMELLEALR   -1.0000     NotChecked  -21.0074    1761.8463   ✗       
+595   +42.011C+57.021LGETMPMELLEQQR-1.0000     NotChecked  -21.0124    1875.8529   ✗       
+596   +43.006C+57.021LGETMPMELLEGVLR-1.0000     NotChecked  -21.0972    1889.9049   ✗       
+597   GC+57.021LGETMPMELLENNR  -1.0000     NotChecked  -21.1018    1862.8325   ✗       
+598   +42.011C+57.021LGETMPMELLEALLR-1.0000     NotChecked  -21.1033    1916.9410   ✗       
+599   GC+57.021LGETMPMELLEGGLR -1.0000     NotChecked  -21.1109    1861.8736   ✗       
+600   +42.011C+57.021LGQ+0.984TMPMELLEQLR-1.0000     NotChecked  -21.1236    1860.8784   ✗       
+601   +42.011C+57.021LGETMPMELLEANVR-1.0000     NotChecked  -21.1773    1903.8842   ✗       
+602   SC+57.021LGETMPMELLEGVR  -1.0000     NotChecked  -21.1799    1820.8471   ✗       
+603   +42.011C+57.021LGETMPMELLENGVR-1.0000     NotChecked  -21.1806    1889.8685   ✗       
+604   +42.011C+57.021LGETMPMELLQ+0.984NVR-1.0000     NotChecked  -21.1813    1832.8471   ✗       
+605   N+0.984C+57.021LGETMPMELLEALR-1.0000     NotChecked  -21.1850    1876.8733   ✗       
+606   C+57.021LGETMPMELLEGVR   -1.0000     NotChecked  -21.2103    1733.8150   ✗       
+607   C+57.021LGETMPMELLEGNVR  -1.0000     NotChecked  -21.2111    1847.8580   ✗       
+608   +42.011C+57.021LGETMPMELLEAVLR-1.0000     NotChecked  -21.2115    1902.9253   ✗       
+609   +43.006C+57.021LGQ+0.984TMPMELLENVR-1.0000     NotChecked  -21.2196    1833.8423   ✗       
+610   +42.011C+57.021LGETMPMELLEGAVR-1.0000     NotChecked  -21.2639    1846.8627   ✗       
+611   +42.011C+57.021LGETMPMELLENVR-1.0000     NotChecked  -21.3318    1832.8471   ✗       
+612   +43.006C+57.021LGETMPMELLEGNR-1.0000     NotChecked  -21.3399    1791.7954   ✗       
+613   +43.006C+57.021LGETMPMELLEGNNR-1.0000     NotChecked  -21.3406    1905.8383   ✗       
+614   N+0.984C+57.021LGETMPMELLEGVR-1.0000     NotChecked  -21.3880    1848.8420   ✗       
+615   +42.011C+57.021LGETMPMELLENLR-1.0000     NotChecked  -21.3995    1846.8627   ✗       
+616   +42.011LC+57.021LGETMPMELLEALR-1.0000     NotChecked  -21.4001    1916.9410   ✗       
+617   SC+57.021LGETMPMELLEQVR  -1.0000     NotChecked  -21.4050    1891.8842   ✗       
+618   +42.011C+57.021LGETMPMELLEGLR-1.0000     NotChecked  -21.4252    1789.8413   ✗       
+619   +42.011C+57.021LGETMPMELLEGNLR-1.0000     NotChecked  -21.4260    1903.8842   ✗       
+620   C+57.021LGETMPMELLEQVR   -1.0000     NotChecked  -21.4354    1804.8522   ✗       
+621   AC+57.021LGETMPMELLEALR  -1.0000     NotChecked  -21.4609    1832.8835   ✗       
+622   SC+57.021LGETMPMELLELLR  -1.0000     NotChecked  -21.4774    1890.9253   ✗       
+623   C+57.021LGETMPMELLELLR   -1.0000     NotChecked  -21.5079    1803.8933   ✗       
+624   GC+57.021LGETMPMELLENQR  -1.0000     NotChecked  -21.5279    1876.8481   ✗       
+625   +43.006C+57.021LGETMPMELLEQNR-1.0000     NotChecked  -21.5650    1862.8325   ✗       
+626   +43.006C+57.021LGETMPMELLEGGLR-1.0000     NotChecked  -21.5718    1847.8580   ✗       
+627   +43.006C+57.021LGETMPMELLEGNLR-1.0000     NotChecked  -21.5726    1904.8794   ✗       
+628   +43.006C+57.021LGETMPMELLEAALR-1.0000     NotChecked  -21.5815    1875.8893   ✗       
+629   +42.011C+57.021LGETMPMQ+0.984LLENVR-1.0000     NotChecked  -21.5857    1832.8471   ✗       
+630   SC+57.021LGETMPMELLEVLR  -1.0000     NotChecked  -21.5857    1876.9097   ✗       
+631   +42.011LC+57.021LGETMPMELLEGVR-1.0000     NotChecked  -21.6030    1888.9097   ✗       
+632   C+57.021LGETMPMELLEVLR   -1.0000     NotChecked  -21.6161    1789.8776   ✗       
+633   GC+57.021LGQ+0.984TMPMELLENLR-1.0000     NotChecked  -21.6391    1861.8736   ✗       
+634   +42.011C+57.021LGETMPMELLEQLR-1.0000     NotChecked  -21.6503    1860.8784   ✗       
+635   AC+57.021LGETMPMELLEGVR  -1.0000     NotChecked  -21.6638    1804.8522   ✗       
+636   +43.006C+57.021LGETMPMELLENVR-1.0000     NotChecked  -21.7464    1833.8423   ✗       
+637   +42.011C+57.021LGETMPMELLENLR-1.0000     NotChecked  -21.7473    1846.8627   ✗       
+638   +42.011C+57.021LGETMPMELLEGLVR-1.0000     NotChecked  -21.7644    1888.9097   ✗       
+639   +43.006C+57.021LGETMPMELLEGQR-1.0000     NotChecked  -21.7660    1805.8110   ✗       
+640   +43.006C+57.021LGETMPMELLENGR-1.0000     NotChecked  -21.7729    1791.7954   ✗       
+641   +43.006C+57.021LGETMPMELLEAGVR-1.0000     NotChecked  -21.7844    1847.8580   ✗       
+642   N+0.984C+57.021LGETMPMELLEVLR-1.0000     NotChecked  -21.7938    1904.9046   ✗       
+643   +43.006C+57.021LGETMPMELLENLR-1.0000     NotChecked  -21.8234    1847.8580   ✗       
+644   SC+57.021LGETMPMELLENNR  -1.0000     NotChecked  -21.8291    1892.8430   ✗       
+645   +42.011C+57.021LGETMPMELLEAGLR-1.0000     NotChecked  -21.8348    1860.8784   ✗       
+646   +42.011C+57.021LGETMPMELLEGLR-1.0000     NotChecked  -21.8381    1789.8413   ✗       
+647   SC+57.021LGETMPMELLEGGLR -1.0000     NotChecked  -21.8382    1891.8842   ✗       
+648   +42.011C+57.021LGETMPMELLQ+0.984GLR-1.0000     NotChecked  -21.8388    1789.8413   ✗       
+649   +42.011C+57.021LGETMPMELLQ+0.984GNLR-1.0000     NotChecked  -21.8396    1903.8842   ✗       
+650   C+57.021LGETMPMELLENNR   -1.0000     NotChecked  -21.8595    1805.8110   ✗       
+651   C+57.021LGETMPMELLEGGLR  -1.0000     NotChecked  -21.8687    1804.8522   ✗       
+652   +42.011C+57.021LGETMPMELLEGVVR-1.0000     NotChecked  -21.8727    1874.8940   ✗       
+653   +43.006C+57.021LGQ+0.984TMPMELLEGLR-1.0000     NotChecked  -21.8772    1790.8365   ✗       
+654   +43.006C+57.021LGQ+0.984TMPMELLEGNLR-1.0000     NotChecked  -21.8779    1904.8794   ✗       
+655   AC+57.021LGETMPMELLEQVR  -1.0000     NotChecked  -21.8889    1875.8893   ✗       
+656   +42.011C+57.021LGETMPMELLESLR-1.0000     NotChecked  -21.8996    1819.8518   ✗       
+657   +42.011C+57.021LGETMPMELLEANR-1.0000     NotChecked  -21.9124    1804.8158   ✗       
+658   AC+57.021LGETMPMELLELLR  -1.0000     NotChecked  -21.9614    1874.9304   ✗       
+659   +42.011C+57.021LGETMPMELLEGLR-1.0000     NotChecked  -21.9894    1789.8413   ✗       
+660   +42.011C+57.021LGETMPMELLEGNLR-1.0000     NotChecked  -21.9902    1903.8842   ✗       
+661   +43.006C+57.021LGETMPMELLEQQR-1.0000     NotChecked  -21.9911    1876.8481   ✗       
+662   +42.011C+57.021LGQ+0.984TMPMELLEANLR-1.0000     Failed      -21.9922    1917.8998   ✓       
+663   +42.011C+57.021LGETMPMELLETLR-1.0000     NotChecked  -21.9973    1833.8675   ✗       
+664   GC+57.021LGETMPMELLEAVR  -1.0000     NotChecked  -22.0038    1804.8522   ✗       
+665   +42.011C+57.021LGETMPMELLQ+0.984QLR-1.0000     NotChecked  -22.0639    1860.8784   ✗       
+666   AC+57.021LGETMPMELLEVLR  -1.0000     NotChecked  -22.0696    1860.9148   ✗       
+667   C+57.021LGETMPMELLEGNLR  -1.0000     NotChecked  -22.0915    1861.8736   ✗       
+668   C+57.021LGETMPMELLEGQLR  -1.0000     NotChecked  -22.0938    1875.8893   ✗       
+669   +43.006C+57.021LGQ+0.984TMPMELLEQLR-1.0000     NotChecked  -22.1022    1861.8736   ✗       
+670   +42.011C+57.021LGETMPMELLEGALR-1.0000     NotChecked  -22.1443    1860.8784   ✗       
+671   +43.006C+57.021LGETMPMELLEANVR-1.0000     NotChecked  -22.1560    1904.8794   ✗       
+672   +43.006C+57.021LGETMPMELLENGVR-1.0000     NotChecked  -22.1592    1890.8638   ✗       
+673   +43.006C+57.021LGETMPMELLQ+0.984NVR-1.0000     NotChecked  -22.1600    1833.8423   ✗       
+674   GC+57.021LGETMPMELLENLR  -1.0000     NotChecked  -22.1659    1861.8736   ✗       
+675   +43.006C+57.021LGETMPMELLEAVLR-1.0000     NotChecked  -22.1902    1903.9206   ✗       
+676   GC+57.021LGETMPMELLEAGLR -1.0000     NotChecked  -22.2039    1875.8893   ✗       
+677   +42.011C+57.021LGETMPMDLLENLR-1.0000     NotChecked  -22.2129    1832.8471   ✗       
+678   +42.011C+57.021LGETMPMELLEQLR-1.0000     NotChecked  -22.2145    1860.8784   ✗       
+679   +43.006C+57.021LGETMPMELLEGAVR-1.0000     NotChecked  -22.2426    1847.8580   ✗       
+680   +42.011C+57.021LGETMPMQ+0.984LLEGLR-1.0000     NotChecked  -22.2432    1789.8413   ✗       
+681   +42.011C+57.021LGETMPMQ+0.984LLEGNLR-1.0000     NotChecked  -22.2440    1903.8842   ✗       
+682   SC+57.021LGETMPMELLENQR  -1.0000     NotChecked  -22.2552    1906.8587   ✗       
+683   +42.011C+57.021LGETMPMELLEGAR-1.0000     NotChecked  -22.2563    1747.7943   ✗       
+684   +42.011C+57.021LGETMPMELLEGNAR-1.0000     NotChecked  -22.2570    1861.8372   ✗       
+685   C+57.021LGETMPMELLENQR   -1.0000     NotChecked  -22.2857    1819.8267   ✗       
+686   C+57.021LGETMPMELLEANVR  -1.0000     NotChecked  -22.3041    1861.8736   ✗       
+687   +43.006C+57.021LGETMPMELLENVR-1.0000     NotChecked  -22.3105    1833.8423   ✗       
+688   AC+57.021LGETMPMELLENNR  -1.0000     NotChecked  -22.3130    1876.8481   ✗       
+689   AC+57.021LGETMPMELLEGGLR -1.0000     NotChecked  -22.3221    1875.8893   ✗       
+690   +42.011C+57.021LGETMPMELLEAQR-1.0000     NotChecked  -22.3385    1818.8314   ✗       
+691   +42.011C+57.021LGETMPMELLERLR-1.0000     NotChecked  -22.3461    1888.9209   ✗       
+692   +42.011C+57.021LGETMPMELLEGGVR-1.0000     NotChecked  -22.3472    1832.8471   ✗       
+693   +42.011C+57.021LGETMPMELLEGNVR-1.0000     NotChecked  -22.3480    1889.8685   ✗       
+694   +42.011C+57.021LGETMPMELLEAAVR-1.0000     NotChecked  -22.3569    1860.8784   ✗       
+695   +42.011C+57.021LGETMPMELLEGNLR-1.0000     NotChecked  -22.3655    1903.8842   ✗       
+696   SC+57.021LGQ+0.984TMPMELLENLR-1.0000     NotChecked  -22.3664    1891.8842   ✗       
+697   +43.006C+57.021LGETMPMELLENLR-1.0000     NotChecked  -22.3782    1847.8580   ✗       
+698   C+57.021LGQ+0.984TMPMELLENLR-1.0000     NotChecked  -22.3968    1804.8522   ✗       
+699   +43.006C+57.021LGETMPMELLEGLR-1.0000     NotChecked  -22.4039    1790.8365   ✗       
+700   +43.006C+57.021LGETMPMELLEGNLR-1.0000     NotChecked  -22.4047    1904.8794   ✗       
+701   +42.011C+57.021LGETMPMELLENTR-1.0000     NotChecked  -22.4086    1834.8263   ✗       
+702   +42.011C+57.021LGETMPMELLELNR-1.0000     NotChecked  -22.4129    1846.8627   ✗       
+703   +42.011C+57.021LGQ+0.984TMPMELLEALR-1.0000     NotChecked  -22.4497    1803.8569   ✗       
+704   +42.011C+57.021LGETMPMQ+0.984LLEQLR-1.0000     NotChecked  -22.4683    1860.8784   ✗       
+705   +42.011C+57.021LGETMPMELLEQAR-1.0000     NotChecked  -22.4814    1818.8314   ✗       
+706   GC+57.021LGETMPMELLELVR  -1.0000     NotChecked  -22.5043    1846.8991   ✗       
+707   MC+57.021LGETMPMELLEAVR  -1.0000     NotChecked  -22.5078    1878.8712   ✗       
+708   +42.011C+57.021LGETMPMELLEVNR-1.0000     NotChecked  -22.5211    1832.8471   ✗       
+709   Q+0.984C+57.021LGETMPMELLEAVR-1.0000     NotChecked  -22.5289    1876.8733   ✗       
+710   +43.006C+57.021LGETMPMQ+0.984LLENVR-1.0000     NotChecked  -22.5644    1833.8423   ✗       
+711   +42.011C+57.021LGETMPMELLEGQVR-1.0000     NotChecked  -22.5723    1903.8842   ✗       
+712   GC+57.021LGETMPMELLQ+0.984NLR-1.0000     NotChecked  -22.5795    1861.8736   ✗       
+713   +43.006LC+57.021LGETMPMELLEGVR-1.0000     NotChecked  -22.5817    1889.9049   ✗       
+714   +42.011C+57.021LGETMPMELLENLR-1.0000     NotChecked  -22.5852    1846.8627   ✗       
+715   +42.011C+57.021LGETMPMELLENVR-1.0000     NotChecked  -22.5988    1832.8471   ✗       
+716   GC+57.021LGETMPMELLEVVR  -1.0000     NotChecked  -22.6125    1832.8835   ✗       
+717   +43.006C+57.021LGETMPMELLEQLR-1.0000     NotChecked  -22.6290    1861.8736   ✗       
+718   +42.011C+57.021LGETMPMELLEGLLR-1.0000     NotChecked  -22.6448    1902.9253   ✗       
+719   +42.011C+57.021LGQ+0.984TMPMELLEGVR-1.0000     NotChecked  -22.6526    1775.8256   ✗       
+720   +42.011C+57.021LGQ+0.984TMPMELLEGNVR-1.0000     NotChecked  -22.6534    1889.8685   ✗       
+721   GC+57.021LGETMPMELLEGALR -1.0000     NotChecked  -22.6621    1875.8893   ✗       
+722   +43.006C+57.021LGETMPMELLENLR-1.0000     NotChecked  -22.7259    1847.8580   ✗       
+723   GC+57.021LGETMPMELLENLR  -1.0000     NotChecked  -22.7300    1861.8736   ✗       
+724   +42.011C+57.021LGETMPMELLEN+0.984LR-1.0000     NotChecked  -22.7306    1847.8467   ✗       
+725   SC+57.021LGETMPMELLEAVR  -1.0000     NotChecked  -22.7311    1834.8627   ✗       
+726   AC+57.021LGETMPMELLENQR  -1.0000     NotChecked  -22.7391    1890.8638   ✗       
+727   +43.006C+57.021LGETMPMELLEGLVR-1.0000     NotChecked  -22.7431    1889.9049   ✗       
+728   +42.011C+57.021LGETMPMELLENALR-1.0000     Failed      -22.7437    1917.8998   ✓       
+729   +42.011C+57.021LGETMPMELLEGVLR-1.0000     NotChecked  -22.7530    1888.9097   ✗       
+730   C+57.021LGETMPMELLEAVR   -1.0000     NotChecked  -22.7615    1747.8307   ✗       
+731   +42.011C+57.021LGETMPMELLEGGNR-1.0000     NotChecked  -22.7736    1847.8216   ✗       
+732   +43.006C+57.021LGETMPMELLEAGLR-1.0000     NotChecked  -22.8135    1861.8736   ✗       
+733   +43.006C+57.021LGETMPMELLEGLR-1.0000     NotChecked  -22.8168    1790.8365   ✗       
+734   +43.006C+57.021LGETMPMELLQ+0.984GLR-1.0000     NotChecked  -22.8175    1790.8365   ✗       
+735   +43.006C+57.021LGETMPMELLQ+0.984GNLR-1.0000     NotChecked  -22.8183    1904.8794   ✗       
+736   +42.011C+57.021LGETMPMELLELQR-1.0000     NotChecked  -22.8390    1860.8784   ✗       
+737   AC+57.021LGQ+0.984TMPMELLENLR-1.0000     NotChecked  -22.8503    1875.8893   ✗       
+738   +43.006C+57.021LGETMPMELLEGVVR-1.0000     NotChecked  -22.8514    1875.8893   ✗       
+739   +42.011C+57.021LGETMPMELLEALVR-1.0000     NotChecked  -22.8574    1902.9253   ✗       
+740   GC+57.021LGETMPMELLEGGVR -1.0000     NotChecked  -22.8650    1847.8580   ✗       
+741   +42.011C+57.021LGQ+0.984TMPMELLEQVR-1.0000     NotChecked  -22.8777    1846.8627   ✗       
+742   +43.006C+57.021LGETMPMELLESLR-1.0000     NotChecked  -22.8783    1820.8471   ✗       
+743   +43.006C+57.021LGETMPMELLEANR-1.0000     NotChecked  -22.8910    1805.8110   ✗       
+744   SC+57.021LGETMPMELLENLR  -1.0000     NotChecked  -22.8932    1891.8842   ✗       
+745   C+57.021LGETMPMELLENLR   -1.0000     NotChecked  -22.9236    1804.8522   ✗       
+746   SC+57.021LGETMPMELLEAGLR -1.0000     NotChecked  -22.9312    1905.8998   ✗       
+747   N+0.984C+57.021LGETMPMELLEAVR-1.0000     NotChecked  -22.9391    1862.8576   ✗       
+748   +42.011C+57.021LGETMPMELLEVQR-1.0000     NotChecked  -22.9472    1846.8627   ✗       
+749   +42.011C+57.021LGQ+0.984TMPMELLELLR-1.0000     NotChecked  -22.9501    1845.9039   ✗       
+750   C+57.021LGETMPMELLEAGLR  -1.0000     NotChecked  -22.9616    1818.8678   ✗       
+751   +42.011C+57.021LGETMPMELLEAVVR-1.0000     NotChecked  -22.9656    1888.9097   ✗       
+752   +43.006C+57.021LGETMPMELLEGLR-1.0000     NotChecked  -22.9681    1790.8365   ✗       
+753   +43.006C+57.021LGETMPMELLEGNLR-1.0000     NotChecked  -22.9688    1904.8794   ✗       
+754   +43.006C+57.021LGETMPMELLETLR-1.0000     NotChecked  -22.9760    1834.8627   ✗       
+755   +42.011C+57.021LGETMPMELLEALR-1.0000     NotChecked  -22.9764    1803.8569   ✗       
+756   GC+57.021LGETMPMQ+0.984LLENLR-1.0000     NotChecked  -22.9839    1861.8736   ✗       
+757   +42.011C+57.021LGETMPMELLEGNNR-1.0000     NotChecked  -22.9964    1904.8430   ✗       
+758   GC+57.021LGETMPMELLENAR  -1.0000     NotChecked  -22.9969    1819.8267   ✗       
+759   +42.011C+57.021LGETMPMELLEGGLR-1.0000     NotChecked  -23.0056    1846.8627   ✗       
+760   +43.006C+57.021LGETMPMELLQ+0.984QLR-1.0000     NotChecked  -23.0426    1861.8736   ✗       
+761   +42.011C+57.021LGQ+0.984TMPMELLEVLR-1.0000     NotChecked  -23.0584    1831.8882   ✗       
+762   GC+57.021LGETMPMELLEGNVR -1.0000     NotChecked  -23.0878    1904.8794   ✗       
+763   LC+57.021LGETMPMELLENVR  -1.0000     NotChecked  -23.1014    1903.9206   ✗       
+764   MC+57.021LGETMPMELLEVVR  -1.0000     NotChecked  -23.1166    1906.9025   ✗       
+765   +43.006C+57.021LGETMPMELLEGALR-1.0000     NotChecked  -23.1230    1861.8736   ✗       
+766   Q+0.984C+57.021LGETMPMELLEVVR-1.0000     NotChecked  -23.1376    1904.9046   ✗       
+767   +42.011C+57.021LGETMPMELLENVR-1.0000     NotChecked  -23.1536    1832.8471   ✗       
+768   +42.011LC+57.021LGETMPMELLEAVR-1.0000     NotChecked  -23.1542    1902.9253   ✗       
+769   +42.011C+57.021LGETMPMELLEGVR-1.0000     NotChecked  -23.1793    1775.8256   ✗       
+770   +42.011C+57.021LGETMPMELLEGNVR-1.0000     NotChecked  -23.1801    1889.8685   ✗       
+771   C+57.021LGETMPMELLEAQLR  -1.0000     NotChecked  -23.1867    1889.9049   ✗       
+772   +43.006C+57.021LGETMPMDLLENLR-1.0000     NotChecked  -23.1916    1833.8423   ✗       
+773   +43.006C+57.021LGETMPMELLEQLR-1.0000     NotChecked  -23.1932    1861.8736   ✗       
+774   +42.011C+57.021LGETMPMELLEGGQR-1.0000     NotChecked  -23.1998    1861.8372   ✗       
+775   +42.011C+57.021LGETMPMELLEGGR-1.0000     NotChecked  -23.2059    1733.7787   ✗       
+776   +42.011C+57.021LGETMPMELLEGNGR-1.0000     NotChecked  -23.2067    1847.8216   ✗       
+777   AC+57.021LGETMPMELLEAVR  -1.0000     NotChecked  -23.2150    1818.8678   ✗       
+778   +43.006C+57.021LGETMPMQ+0.984LLEGLR-1.0000     NotChecked  -23.2219    1790.8365   ✗       
+779   +43.006C+57.021LGETMPMQ+0.984LLEGNLR-1.0000     NotChecked  -23.2227    1904.8794   ✗       
+780   SC+57.021LGETMPMELLELVR  -1.0000     NotChecked  -23.2316    1876.9097   ✗       
+781   +43.006C+57.021LGETMPMELLEGAR-1.0000     NotChecked  -23.2349    1748.7896   ✗       
+782   +43.006C+57.021LGETMPMELLEGNAR-1.0000     NotChecked  -23.2357    1862.8325   ✗       
+783   +42.011C+57.021LGETMPMELLEGLR-1.0000     NotChecked  -23.2564    1789.8413   ✗       
+784   +42.011C+57.021LGETMPMELLEGNLR-1.0000     NotChecked  -23.2572    1903.8842   ✗       
+785   C+57.021LGETMPMELLELVR   -1.0000     NotChecked  -23.2620    1789.8776   ✗       
+786   GC+57.021LGETMPMELLEGVLR -1.0000     NotChecked  -23.2709    1903.9206   ✗       
+787   +42.011C+57.021LGQ+0.984TMPMELLENNR-1.0000     NotChecked  -23.3018    1847.8216   ✗       
+788   SC+57.021LGETMPMELLQ+0.984NLR-1.0000     NotChecked  -23.3068    1891.8842   ✗       
+789   +42.011C+57.021LGETMPMELLENR-1.0000     NotChecked  -23.3069    1733.7787   ✗       
+790   +42.011C+57.021LGQ+0.984TMPMELLEGGLR-1.0000     NotChecked  -23.3109    1846.8627   ✗       
+791   +43.006C+57.021LGETMPMELLEAQR-1.0000     NotChecked  -23.3172    1819.8267   ✗       
+792   +43.006C+57.021LGETMPMELLERLR-1.0000     NotChecked  -23.3248    1889.9162   ✗       
+793   +43.006C+57.021LGETMPMELLEGGVR-1.0000     NotChecked  -23.3259    1833.8423   ✗       
+794   +43.006C+57.021LGETMPMELLEGNVR-1.0000     NotChecked  -23.3267    1890.8638   ✗       
+795   C+57.021LGETMPMELLEANLR  -1.0000     NotChecked  -23.3332    1875.8893   ✗       
+796   +43.006C+57.021LGETMPMELLEAAVR-1.0000     NotChecked  -23.3356    1861.8736   ✗       
+797   C+57.021LGETMPMELLENGLR  -1.0000     NotChecked  -23.3365    1861.8736   ✗       
+798   C+57.021LGETMPMELLQ+0.984NLR-1.0000     NotChecked  -23.3372    1804.8522   ✗       
+799   SC+57.021LGETMPMELLEVVR  -1.0000     NotChecked  -23.3398    1862.8940   ✗       
+800   +43.006C+57.021LGETMPMELLEGNLR-1.0000     NotChecked  -23.3442    1904.8794   ✗       
+801   +42.011C+57.021LGETMPMELLEANAR-1.0000     NotChecked  -23.3500    1875.8529   ✗       
+802   C+57.021LGETMPMELLEVVR   -1.0000     NotChecked  -23.3703    1775.8620   ✗       
+803   AC+57.021LGETMPMELLENLR  -1.0000     NotChecked  -23.3771    1875.8893   ✗       
+804   +42.011C+57.021LGETMPMELLEAALR-1.0000     NotChecked  -23.3860    1874.8940   ✗       
+805   +43.006C+57.021LGETMPMELLENTR-1.0000     NotChecked  -23.3873    1835.8216   ✗       
+806   +42.011C+57.021LGETMPMELLEAGLR-1.0000     NotChecked  -23.3893    1860.8784   ✗       
+807   SC+57.021LGETMPMELLEGALR -1.0000     NotChecked  -23.3894    1905.8998   ✗       
+808   +42.011C+57.021LGETMPMELLQ+0.984ALR-1.0000     NotChecked  -23.3900    1803.8569   ✗       
+809   +43.006C+57.021LGETMPMELLELNR-1.0000     NotChecked  -23.3915    1847.8580   ✗       
+810   GC+57.021LGQ+0.984TMPMELLENVR-1.0000     NotChecked  -23.3932    1847.8580   ✗       
+811   +42.011C+57.021LGETMPMELLEQVR-1.0000     NotChecked  -23.4044    1846.8627   ✗       
+812   AC+57.021LGETMPMELLEAGLR -1.0000     NotChecked  -23.4151    1889.9049   ✗       
+813   C+57.021LGETMPMELLEGALR  -1.0000     NotChecked  -23.4198    1818.8678   ✗       
+814   +43.006C+57.021LGQ+0.984TMPMELLEALR-1.0000     NotChecked  -23.4283    1804.8522   ✗       
+815   +42.011C+57.021LGETMPMELLEQGR-1.0000     NotChecked  -23.4310    1804.8158   ✗       
+816   N+0.984C+57.021LGETMPMELLELVR-1.0000     NotChecked  -23.4396    1904.9046   ✗       
+817   +43.006C+57.021LGETMPMQ+0.984LLEQLR-1.0000     NotChecked  -23.4470    1861.8736   ✗       
+818   SC+57.021LGETMPMELLENLR  -1.0000     NotChecked  -23.4573    1891.8842   ✗       
+819   +43.006C+57.021LGETMPMELLEQAR-1.0000     NotChecked  -23.4600    1819.8267   ✗       
+820   +42.011C+57.021LGETMPMELLELLR-1.0000     NotChecked  -23.4769    1845.9039   ✗       
+821   +42.011C+57.021LGETMPMELLEQLR-1.0000     NotChecked  -23.4815    1860.8784   ✗       
+822   C+57.021LGETMPMELLENLR   -1.0000     NotChecked  -23.4877    1804.8522   ✗       
+823   +43.006C+57.021LGETMPMELLEVNR-1.0000     NotChecked  -23.4998    1833.8423   ✗       
+824   MC+57.021LGETMPMELLENAR  -1.0000     NotChecked  -23.5009    1893.8457   ✗       
+825   GC+57.021LGETMPMELLEGNR  -1.0000     NotChecked  -23.5135    1805.8110   ✗       
+826   Q+0.984C+57.021LGETMPMELLENAR-1.0000     NotChecked  -23.5220    1891.8478   ✗       
+827   +42.011C+57.021LGQ+0.984TMPMELLEGNLR-1.0000     NotChecked  -23.5337    1903.8842   ✗       
+828   +42.011C+57.021LGETMPMELLEALR-1.0000     NotChecked  -23.5406    1803.8569   ✗       
+829   N+0.984C+57.021LGETMPMELLEVVR-1.0000     NotChecked  -23.5479    1890.8889   ✗       
+830   +43.006C+57.021LGETMPMELLEGQVR-1.0000     NotChecked  -23.5510    1904.8794   ✗       
+831   +43.006C+57.021LGETMPMELLENLR-1.0000     NotChecked  -23.5638    1847.8580   ✗       
+832   +43.006C+57.021LGETMPMELLENVR-1.0000     NotChecked  -23.5775    1833.8423   ✗       
+833   +42.011C+57.021LGETMPMELLEVLR-1.0000     NotChecked  -23.5852    1831.8882   ✗       
+834   +42.011C+57.021LGETMPMELLEAGVR-1.0000     NotChecked  -23.5889    1846.8627   ✗       
+835   +42.011C+57.021LGETMPMELLEGVR-1.0000     NotChecked  -23.5922    1775.8256   ✗       
+836   SC+57.021LGETMPMELLEGGVR -1.0000     NotChecked  -23.5923    1877.8685   ✗       
+837   +42.011C+57.021LGETMPMELLQ+0.984GVR-1.0000     NotChecked  -23.5929    1775.8256   ✗       
+838   +42.011C+57.021LGETMPMELLQ+0.984GNVR-1.0000     NotChecked  -23.5937    1889.8685   ✗       
+839   C+57.021LGETMPMELLEGGVR  -1.0000     NotChecked  -23.6228    1790.8365   ✗       
+840   +43.006C+57.021LGETMPMELLEGLLR-1.0000     NotChecked  -23.6235    1903.9206   ✗       
+841   +43.006C+57.021LGQ+0.984TMPMELLEGVR-1.0000     NotChecked  -23.6313    1776.8209   ✗       
+842   +43.006C+57.021LGQ+0.984TMPMELLEGNVR-1.0000     NotChecked  -23.6320    1890.8638   ✗       
+843   +42.011C+57.021LGETMPMELLESVR-1.0000     NotChecked  -23.6537    1805.8362   ✗       
+844   +42.011C+57.021LGETMPMELLENER-1.0000     NotChecked  -23.6541    1862.8212   ✗       
+845   +43.006C+57.021LGETMPMELLEN+0.984LR-1.0000     NotChecked  -23.7092    1848.8420   ✗       
+846   SC+57.021LGETMPMQ+0.984LLENLR-1.0000     NotChecked  -23.7111    1891.8842   ✗       
+847   AC+57.021LGETMPMELLELVR  -1.0000     NotChecked  -23.7155    1860.9148   ✗       
+848   SC+57.021LGETMPMELLENAR  -1.0000     NotChecked  -23.7242    1849.8372   ✗       
+849   +42.011C+57.021LGQ+0.984TMPMELLENQR-1.0000     NotChecked  -23.7279    1861.8372   ✗       
+850   +43.006C+57.021LGETMPMELLEGVLR-1.0000     NotChecked  -23.7317    1889.9049   ✗       
+851   GC+57.021LGETMPMELLEQNR  -1.0000     NotChecked  -23.7386    1876.8481   ✗       
+852   C+57.021LGETMPMQ+0.984LLENLR-1.0000     NotChecked  -23.7416    1804.8522   ✗       
+853   +42.011C+57.021LGETMPMELLEGVR-1.0000     NotChecked  -23.7435    1775.8256   ✗       
+854   +42.011C+57.021LGETMPMELLEGNVR-1.0000     NotChecked  -23.7443    1889.8685   ✗       
+855   GC+57.021LGETMPMELLEGGLR -1.0000     NotChecked  -23.7454    1861.8736   ✗       
+856   +42.011C+57.021LGQ+0.984TMPMELLEANVR-1.0000     NotChecked  -23.7463    1903.8842   ✗       
+857   +42.011C+57.021LGETMPMELLETVR-1.0000     NotChecked  -23.7514    1819.8518   ✗       
+858   +43.006C+57.021LGETMPMELLEGGNR-1.0000     NotChecked  -23.7523    1848.8168   ✗       
+859   C+57.021LGETMPMELLENAR   -1.0000     NotChecked  -23.7546    1762.8052   ✗       
+860   GC+57.021LGETMPMELLEAALR -1.0000     NotChecked  -23.7551    1889.9049   ✗       
+861   LC+57.021LGETMPMELLEGLR  -1.0000     NotChecked  -23.7589    1860.9148   ✗       
+862   AC+57.021LGETMPMELLQ+0.984NLR-1.0000     NotChecked  -23.7907    1875.8893   ✗       
+863   +42.011C+57.021LGETMPMQ+0.984LLEALR-1.0000     NotChecked  -23.7944    1803.8569   ✗       
+864   N+0.984C+57.021LGETMPMELLEGGVR-1.0000     NotChecked  -23.8004    1905.8634   ✗       
+865   +42.011C+57.021LGETMPMELLEAAR-1.0000     NotChecked  -23.8074    1761.8100   ✗       
+866   +42.011C+57.021LGETMPMELLEGLR-1.0000     NotChecked  -23.8112    1789.8413   ✗       
+867   +42.011C+57.021LGETMPMELLEGNLR-1.0000     NotChecked  -23.8120    1903.8842   ✗       
+868   +42.011C+57.021LGETMPMELLEQGVR-1.0000     NotChecked  -23.8173    1903.8842   ✗       
+869   +43.006C+57.021LGETMPMELLELQR-1.0000     NotChecked  -23.8176    1861.8736   ✗       
+870   +42.011C+57.021LGETMPMELLQ+0.984QVR-1.0000     NotChecked  -23.8180    1846.8627   ✗       
+871   AC+57.021LGETMPMELLEVVR  -1.0000     NotChecked  -23.8237    1846.8991   ✗       
+872   +42.011C+57.021LGETMPMELLENNR-1.0000     NotChecked  -23.8286    1847.8216   ✗       
+873   +43.006C+57.021LGETMPMELLEALVR-1.0000     NotChecked  -23.8361    1903.9206   ✗       
+874   +42.011C+57.021LGETMPMELLEGGLR-1.0000     NotChecked  -23.8377    1846.8627   ✗       
+875   C+57.021LGETMPMELLEGNVR  -1.0000     NotChecked  -23.8456    1847.8580   ✗       
+876   C+57.021LGETMPMELLEGQVR  -1.0000     NotChecked  -23.8479    1861.8736   ✗       
+877   +43.006C+57.021LGQ+0.984TMPMELLEQVR-1.0000     NotChecked  -23.8564    1847.8580   ✗       
+878   +42.011C+57.021LGETMPMELLEAGNR-1.0000     NotChecked  -23.8666    1861.8372   ✗       
+879   AC+57.021LGETMPMELLEGALR -1.0000     NotChecked  -23.8733    1889.9049   ✗       
+880   +42.011C+57.021LGETMPMELLEALLR-1.0000     NotChecked  -23.8865    1916.9410   ✗       
+881   +42.011C+57.021LGETMPMELLELGLR-1.0000     NotChecked  -23.8898    1902.9253   ✗       
+882   +42.011C+57.021LGETMPMELLQ+0.984LLR-1.0000     NotChecked  -23.8905    1845.9039   ✗       
+883   +42.011C+57.021LGETMPMELLEGAVR-1.0000     NotChecked  -23.8984    1846.8627   ✗       
+884   GC+57.021LGETMPMELLENVR  -1.0000     NotChecked  -23.9200    1847.8580   ✗       
+885   C+57.021LGETMPMELLEGLLR  -1.0000     NotChecked  -23.9203    1860.9148   ✗       
+886   +43.006C+57.021LGETMPMELLEVQR-1.0000     NotChecked  -23.9259    1847.8580   ✗       
+887   +43.006C+57.021LGQ+0.984TMPMELLELLR-1.0000     NotChecked  -23.9288    1846.8991   ✗       
+888   N+0.984C+57.021LGETMPMELLENAR-1.0000     NotChecked  -23.9322    1877.8321   ✗       
+889   GC+57.021LGETMPMELLEGQR  -1.0000     NotChecked  -23.9396    1819.8267   ✗       
+890   AC+57.021LGETMPMELLENLR  -1.0000     NotChecked  -23.9412    1875.8893   ✗       
+891   +43.006C+57.021LGETMPMELLEAVVR-1.0000     NotChecked  -23.9443    1889.9049   ✗       
+892   GC+57.021LGETMPMELLENGR  -1.0000     NotChecked  -23.9465    1805.8110   ✗       
+893   +43.006C+57.021LGETMPMELLEALR-1.0000     NotChecked  -23.9551    1804.8522   ✗       
+894   GC+57.021LGETMPMELLEAGVR -1.0000     NotChecked  -23.9580    1861.8736   ✗       
+895   +42.011C+57.021LGETMPMDLLENVR-1.0000     NotChecked  -23.9670    1818.8314   ✗       
+896   +42.011C+57.021LGETMPMELLEQVR-1.0000     NotChecked  -23.9686    1846.8627   ✗       
+897   +43.006C+57.021LGETMPMELLEGNNR-1.0000     NotChecked  -23.9751    1905.8383   ✗       
+898   +43.006C+57.021LGETMPMELLEGGLR-1.0000     NotChecked  -23.9842    1847.8580   ✗       
+899   +42.011C+57.021LGETMPMELLEAVLR-1.0000     NotChecked  -23.9948    1902.9253   ✗       
+900   GC+57.021LGETMPMELLENLR  -1.0000     NotChecked  -23.9970    1861.8736   ✗       
+901   +42.011C+57.021LGETMPMQ+0.984LLEGVR-1.0000     NotChecked  -23.9973    1775.8256   ✗       
+902   +42.011C+57.021LGETMPMELLEVGLR-1.0000     NotChecked  -23.9980    1888.9097   ✗       
+903   +42.011C+57.021LGETMPMQ+0.984LLEGNVR-1.0000     NotChecked  -23.9981    1889.8685   ✗       
+904   +42.011C+57.021LGETMPMELLQ+0.984VLR-1.0000     NotChecked  -23.9988    1831.8882   ✗       
+905   MC+57.021LGETMPMELLEGNR  -1.0000     NotChecked  -24.0175    1879.8300   ✗       
+906   C+57.021LGETMPMELLEGVLR  -1.0000     NotChecked  -24.0286    1846.8991   ✗       
+907   +42.011C+57.021LGETMPMELLEQLR-1.0000     NotChecked  -24.0363    1860.8784   ✗       
+908   +43.006C+57.021LGQ+0.984TMPMELLEVLR-1.0000     NotChecked  -24.0371    1832.8835   ✗       
+909   Q+0.984C+57.021LGETMPMELLEGNR-1.0000     NotChecked  -24.0386    1877.8321   ✗       
+910   +42.011C+57.021LGETMPMELLELLR-1.0000     NotChecked  -24.0411    1845.9039   ✗       
+911   GC+57.021LGQ+0.984TMPMELLEGLR-1.0000     NotChecked  -24.0508    1804.8522   ✗       
+912   +42.011C+57.021LGETMPMELLEGNLR-1.0000     NotChecked  -24.0605    1903.8842   ✗       
+913   AC+57.021LGETMPMELLEGGVR -1.0000     NotChecked  -24.0762    1861.8736   ✗       
+914   +42.011C+57.021LGETMPMELLERVR-1.0000     NotChecked  -24.1002    1874.9053   ✗       
+915   +42.011C+57.021LGETMPMELLEGNVR-1.0000     NotChecked  -24.1196    1889.8685   ✗       
+916   SC+57.021LGQ+0.984TMPMELLENVR-1.0000     NotChecked  -24.1205    1877.8685   ✗       
+917   +43.006C+57.021LGETMPMELLENVR-1.0000     NotChecked  -24.1323    1833.8423   ✗       
+918   +43.006LC+57.021LGETMPMELLEAVR-1.0000     NotChecked  -24.1329    1903.9206   ✗       
+919   +42.011C+57.021LGETMPMELLEVLR-1.0000     NotChecked  -24.1493    1831.8882   ✗       
+920   C+57.021LGQ+0.984TMPMELLENVR-1.0000     NotChecked  -24.1509    1790.8365   ✗       
+921   +43.006C+57.021LGETMPMELLEGVR-1.0000     NotChecked  -24.1580    1776.8209   ✗       
+922   +43.006C+57.021LGETMPMELLEGNVR-1.0000     NotChecked  -24.1588    1890.8638   ✗       
+923   +42.011C+57.021LGETMPMELLEGLR-1.0000     NotChecked  -24.1589    1789.8413   ✗       
+924   +42.011C+57.021LGETMPMELLEGNLR-1.0000     NotChecked  -24.1597    1903.8842   ✗       
+925   GC+57.021LGETMPMELLEQQR  -1.0000     NotChecked  -24.1647    1890.8638   ✗       
+926   +43.006C+57.021LGETMPMELLEGGQR-1.0000     NotChecked  -24.1784    1862.8325   ✗       
+927   +43.006C+57.021LGETMPMELLEGGR-1.0000     NotChecked  -24.1846    1734.7739   ✗       
+928   +43.006C+57.021LGETMPMELLEGNGR-1.0000     NotChecked  -24.1853    1848.8168   ✗       
+929   AC+57.021LGETMPMQ+0.984LLENLR-1.0000     NotChecked  -24.1951    1875.8893   ✗       
+930   +42.011C+57.021LGQ+0.984TMPMELLEAVR-1.0000     NotChecked  -24.2038    1789.8413   ✗       
+931   AC+57.021LGETMPMELLENAR  -1.0000     NotChecked  -24.2081    1833.8423   ✗       
+932   +42.011C+57.021LGETMPMQ+0.984LLEQVR-1.0000     NotChecked  -24.2224    1846.8627   ✗       
+933   +42.011C+57.021LGETMPMELLENLR-1.0000     NotChecked  -24.2285    1846.8627   ✗       
+934   +43.006C+57.021LGETMPMELLEGLR-1.0000     NotChecked  -24.2351    1790.8365   ✗       
+935   +43.006C+57.021LGETMPMELLEGNLR-1.0000     NotChecked  -24.2358    1904.8794   ✗       
+936   SC+57.021LGETMPMELLEGNR  -1.0000     NotChecked  -24.2407    1835.8216   ✗       
+937   +42.011C+57.021LGETMPMELLENGNR-1.0000     NotChecked  -24.2414    1904.8430   ✗       
+938   +42.011C+57.021LGETMPMELLQ+0.984NNR-1.0000     NotChecked  -24.2422    1847.8216   ✗       
+939   +42.011C+57.021LGETMPMELLEGGLR-1.0000     NotChecked  -24.2506    1846.8627   ✗       
+940   +42.011C+57.021LGETMPMELLQ+0.984GGLR-1.0000     NotChecked  -24.2513    1846.8627   ✗       
+941   +42.011C+57.021LGETMPMELLENQR-1.0000     NotChecked  -24.2547    1861.8372   ✗       
+942   C+57.021LGETMPMELLEGNR   -1.0000     NotChecked  -24.2712    1748.7896   ✗       
+943   C+57.021LGETMPMELLEGNNR  -1.0000     NotChecked  -24.2720    1862.8325   ✗       
+944   +42.011C+57.021LGETMPMELLEANVR-1.0000     NotChecked  -24.2731    1903.8842   ✗       
+945   GC+57.021LGQ+0.984TMPMELLEQLR-1.0000     NotChecked  -24.2759    1875.8893   ✗       
+946   +43.006C+57.021LGQ+0.984TMPMELLENNR-1.0000     NotChecked  -24.2805    1848.8168   ✗       
+947   +43.006C+57.021LGETMPMELLENR-1.0000     NotChecked  -24.2855    1734.7739   ✗       
+948   +43.006C+57.021LGQ+0.984TMPMELLEGGLR-1.0000     NotChecked  -24.2896    1847.8580   ✗       
+949   +42.011C+57.021LGETMPMELLEAGQR-1.0000     NotChecked  -24.2927    1875.8529   ✗       
+950   +42.011C+57.021LGETMPMQ+0.984LLELLR-1.0000     NotChecked  -24.2949    1845.9039   ✗       
+951   +42.011C+57.021LGETMPMELLEANGR-1.0000     NotChecked  -24.2996    1861.8372   ✗       
+952   +42.011C+57.021LGETMPMELLELAR-1.0000     NotChecked  -24.3079    1803.8569   ✗       
+953   +42.011C+57.021LGETMPMELLEGSLR-1.0000     NotChecked  -24.3121    1876.8733   ✗       
+954   +42.011C+57.021LGETMPMELLEGANR-1.0000     NotChecked  -24.3248    1861.8372   ✗       
+955   N+0.984C+57.021LGQ+0.984TMPMELLENVR-1.0000     NotChecked  -24.3286    1905.8634   ✗       
+956   +43.006C+57.021LGETMPMELLEANAR-1.0000     NotChecked  -24.3287    1876.8481   ✗       
+957   GC+57.021LGETMPMELLENGVR -1.0000     NotChecked  -24.3328    1904.8794   ✗       
+958   GC+57.021LGETMPMELLQ+0.984NVR-1.0000     NotChecked  -24.3336    1847.8580   ✗       
+959   +42.011C+57.021LGETMPMELLENVR-1.0000     NotChecked  -24.3393    1832.8471   ✗       
+960   GC+57.021LGETMPMELLEAVLR -1.0000     Failed      -24.3638    1917.9362   ✓       
+961   +43.006C+57.021LGETMPMELLEAALR-1.0000     NotChecked  -24.3647    1875.8893   ✗       
+962   +42.011C+57.021LGQ+0.984TMPMELLENLR-1.0000     NotChecked  -24.3658    1846.8627   ✗       
+963   +43.006C+57.021LGETMPMELLEAGLR-1.0000     NotChecked  -24.3680    1861.8736   ✗       
+964   +43.006C+57.021LGETMPMELLQ+0.984ALR-1.0000     NotChecked  -24.3687    1804.8522   ✗       
+965   +43.006C+57.021LGETMPMELLEQVR-1.0000     NotChecked  -24.3831    1847.8580   ✗       
+966   +42.011C+57.021LGETMPMELLEQLR-1.0000     NotChecked  -24.3840    1860.8784   ✗       
+967   +42.011C+57.021LGETMPMELLENNR-1.0000     NotChecked  -24.3927    1847.8216   ✗       
+968   +42.011C+57.021LGETMPMELLEGLVR-1.0000     NotChecked  -24.3989    1888.9097   ✗       
+969   +42.011C+57.021LGETMPMELLEGGLR-1.0000     NotChecked  -24.4018    1846.8627   ✗       
+970   +42.011C+57.021LGETMPMQ+0.984LLEVLR-1.0000     NotChecked  -24.4031    1831.8882   ✗       
+971   +42.011C+57.021LGQ+0.984TMPMELLEAGLR-1.0000     NotChecked  -24.4039    1860.8784   ✗       
+972   +43.006C+57.021LGETMPMELLEQGR-1.0000     NotChecked  -24.4096    1805.8110   ✗       
+973   +42.011C+57.021LGETMPMELLEGTLR-1.0000     NotChecked  -24.4098    1890.8889   ✗       
+974   +42.011C+57.021LGETMPMELLEANVR-1.0000     NotChecked  -24.4133    1903.8842   ✗       
+975   +42.011C+57.021LGETMPMELLEVAR-1.0000     NotChecked  -24.4162    1789.8413   ✗       
+976   GC+57.021LGETMPMELLEGAVR -1.0000     NotChecked  -24.4162    1861.8736   ✗       
+977   MC+57.021LGETMPMELLEGQR  -1.0000     NotChecked  -24.4437    1893.8457   ✗       
+978   N+0.984C+57.021LGETMPMELLEGNR-1.0000     NotChecked  -24.4488    1863.8165   ✗       
+979   MC+57.021LGETMPMELLENGR  -1.0000     NotChecked  -24.4506    1879.8300   ✗       
+980   +43.006C+57.021LGETMPMELLELLR-1.0000     NotChecked  -24.4556    1846.8991   ✗       
+981   +43.006C+57.021LGETMPMELLEQLR-1.0000     NotChecked  -24.4602    1861.8736   ✗       
+982   Q+0.984C+57.021LGETMPMELLEGQR-1.0000     NotChecked  -24.4647    1891.8478   ✗       
+983   SC+57.021LGETMPMELLEQNR  -1.0000     NotChecked  -24.4658    1906.8587   ✗       
+984   Q+0.984C+57.021LGETMPMELLENGR-1.0000     NotChecked  -24.4716    1877.8321   ✗       
+985   SC+57.021LGETMPMELLEGGLR -1.0000     NotChecked  -24.4727    1891.8842   ✗       
+986   +42.011C+57.021LGETMPMELLQ+0.984GNLR-1.0000     NotChecked  -24.4741    1903.8842   ✗       
+987   GC+57.021LGETMPMELLENVR  -1.0000     NotChecked  -24.4841    1847.8580   ✗       
+988   +42.011C+57.021LGETMPMELLEN+0.984VR-1.0000     NotChecked  -24.4847    1833.8311   ✗       
+989   C+57.021LGETMPMELLEQNR   -1.0000     NotChecked  -24.4963    1819.8267   ✗       
+990   +42.011C+57.021LGETMPMELLENAVR-1.0000     NotChecked  -24.4978    1903.8842   ✗       
+991   C+57.021LGETMPMELLEGGLR  -1.0000     NotChecked  -24.5031    1804.8522   ✗       
+992   C+57.021LGETMPMELLEGNLR  -1.0000     NotChecked  -24.5039    1861.8736   ✗       
+993   +42.011C+57.021LGETMPMELLEGVVR-1.0000     NotChecked  -24.5071    1874.8940   ✗       
+994   +43.006C+57.021LGQ+0.984TMPMELLEGNLR-1.0000     NotChecked  -24.5124    1904.8794   ✗       
+995   C+57.021LGETMPMELLEAALR  -1.0000     NotChecked  -24.5128    1832.8835   ✗       
+996   +42.011C+57.021LGETMPMELLQNLR-1.0000     NotChecked  -24.5179    1845.8787   ✗       
+997   +43.006C+57.021LGETMPMELLEALR-1.0000     NotChecked  -24.5192    1804.8522   ✗       
+998   GC+57.021LGETMPMELLENLR  -1.0000     NotChecked  -24.5518    1861.8736   ✗       
+999   MC+57.021LGQ+0.984TMPMELLEGLR-1.0000     NotChecked  -24.5548    1878.8712   ✗       
+1000  +42.011C+57.021LGETMPMELLEGALR-1.0000     NotChecked  -24.5567    1860.8784   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: LC+57.021LGETMPMELLENLR
+Similarity: 0.9731
+De Novo Score: -0.5078
+Source: Database
+Correct: ✓
+

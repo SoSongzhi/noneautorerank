@@ -1,0 +1,1042 @@
+================================================================================
+Spectrum 69
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 478.8935
+Precursor charge: 3+
+Ground truth: NGFISHDEFSGPK
+Ground truth (normalized): NGFISHDEFSGPK
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 2
+Used for reranking: 2
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 2 (0.2%)
+Database matches: 0 (0.0%)
+Prosit predictions: 2 (0.2%)
+Failed: 0 (0.0%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✗ (not in top 1000 candidates)
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     +43.006DFLSHFRC+57.021PGR0.3726      Prosit      -16.7378    1433.6623   ✓       
+2     +42.011DFLSHYEC+57.021PPK0.3604      Prosit      -16.5524    1433.6286   ✓       
+3     +42.011GFLSHYRC+57.021PK -1.0000     NotChecked  -15.6710    1305.6288   ✗       
+4     +42.011DFLSHYRC+57.021PK -1.0000     NotChecked  -15.7199    1363.6343   ✗       
+5     +42.011GFLSHYRC+57.021PGK-1.0000     NotChecked  -15.7229    1362.6503   ✗       
+6     +42.011GFLSHRC+57.021PK  -1.0000     NotChecked  -15.7291    1142.5655   ✗       
+7     +42.011DFLSHYRC+57.021PGK-1.0000     NotChecked  -15.7718    1420.6558   ✗       
+8     +42.011DFLSHRC+57.021PK  -1.0000     NotChecked  -15.7780    1200.5710   ✗       
+9     +42.011GFLSHRC+57.021PGK -1.0000     NotChecked  -15.7810    1199.5870   ✗       
+10    +42.011FLSHYRC+57.021PK  -1.0000     NotChecked  -15.8100    1248.6074   ✗       
+11    +42.011GFLSHYC+57.021C+57.021PK-1.0000     NotChecked  -15.8218    1309.5584   ✗       
+12    +42.011DFLSHRC+57.021PGK -1.0000     NotChecked  -15.8299    1257.5924   ✗       
+13    +42.011GFLSHYYC+57.021PK -1.0000     NotChecked  -15.8410    1312.5910   ✗       
+14    +42.011FLSHYRC+57.021PGK -1.0000     NotChecked  -15.8619    1305.6288   ✗       
+15    +42.011FLSHRC+57.021PK   -1.0000     NotChecked  -15.8681    1085.5440   ✗       
+16    +42.011DFLSHYC+57.021C+57.021PK-1.0000     NotChecked  -15.8708    1367.5638   ✗       
+17    +42.011GFLSHYC+57.021C+57.021PGK-1.0000     NotChecked  -15.8737    1366.5798   ✗       
+18    +42.011GFLSHC+57.021C+57.021PK-1.0000     NotChecked  -15.8799    1146.4950   ✗       
+19    +42.011GFLSHYRC+57.021PR -1.0000     NotChecked  -15.8879    1333.6350   ✗       
+20    +42.011DFLSHYYC+57.021PK -1.0000     NotChecked  -15.8899    1370.5965   ✗       
+21    +42.011GFLSHYYC+57.021PGK-1.0000     NotChecked  -15.8929    1369.6125   ✗       
+22    +42.011GFLSHYC+57.021PK  -1.0000     NotChecked  -15.8991    1149.5277   ✗       
+23    +42.011FLSHRC+57.021PGK  -1.0000     NotChecked  -15.9200    1142.5655   ✗       
+24    +42.011DFLSHYC+57.021C+57.021PGK-1.0000     NotChecked  -15.9227    1424.5853   ✗       
+25    +42.011DFLSHC+57.021C+57.021PK-1.0000     NotChecked  -15.9289    1204.5005   ✗       
+26    +42.011GFLSHC+57.021C+57.021PGK-1.0000     NotChecked  -15.9318    1203.5165   ✗       
+27    +42.011DFLSHYRC+57.021PR -1.0000     NotChecked  -15.9369    1391.6405   ✗       
+28    +42.011GFLSHYRC+57.021PGR-1.0000     NotChecked  -15.9398    1390.6564   ✗       
+29    +42.011DFLSHYYC+57.021PGK-1.0000     NotChecked  -15.9418    1427.6180   ✗       
+30    +42.011GFLSHRC+57.021PR  -1.0000     NotChecked  -15.9461    1170.5716   ✗       
+31    +42.011DFLSHYC+57.021PK  -1.0000     NotChecked  -15.9481    1207.5332   ✗       
+32    +42.011GFLSHYC+57.021PGK -1.0000     NotChecked  -15.9510    1206.5492   ✗       
+33    +42.011FLSHYC+57.021C+57.021PK-1.0000     NotChecked  -15.9608    1252.5369   ✗       
+34    GFLSHYRC+57.021PK        -1.0000     NotChecked  -15.9775    1263.6183   ✗       
+35    +42.011FLSHYYC+57.021PK  -1.0000     NotChecked  -15.9800    1255.5696   ✗       
+36    +42.011DFLSHC+57.021C+57.021PGK-1.0000     NotChecked  -15.9808    1261.5220   ✗       
+37    +42.011DFLSHRC+57.021PR  -1.0000     NotChecked  -15.9950    1228.5771   ✗       
+38    +42.011GFLSHYRC+57.021PPK-1.0000     NotChecked  -15.9965    1402.6816   ✗       
+39    +42.011GFLSHRC+57.021PGR -1.0000     NotChecked  -15.9980    1227.5931   ✗       
+40    +42.011DFLSHYC+57.021PGK -1.0000     NotChecked  -16.0000    1264.5547   ✗       
+41    +43.006GFLSHYRC+57.021PK -1.0000     NotChecked  -16.0028    1306.6241   ✗       
+42    +42.011FLSHYC+57.021C+57.021PGK-1.0000     NotChecked  -16.0127    1309.5584   ✗       
+43    +42.011FLSHC+57.021C+57.021PK-1.0000     NotChecked  -16.0189    1089.4736   ✗       
+44    DFLSHYRC+57.021PK        -1.0000     NotChecked  -16.0264    1321.6237   ✗       
+45    +42.011FLSHYRC+57.021PR  -1.0000     NotChecked  -16.0269    1276.6135   ✗       
+46    GFLSHYRC+57.021PGK       -1.0000     NotChecked  -16.0294    1320.6397   ✗       
+47    +42.011FLSHYYC+57.021PGK -1.0000     NotChecked  -16.0319    1312.5910   ✗       
+48    GFLSHRC+57.021PK         -1.0000     NotChecked  -16.0356    1100.5549   ✗       
+49    +42.011FLSHYC+57.021PK   -1.0000     NotChecked  -16.0381    1092.5063   ✗       
+50    +42.011GFLSHYC+57.021C+57.021PR-1.0000     NotChecked  -16.0388    1337.5645   ✗       
+51    +42.011DFLSHRC+57.021PGR -1.0000     NotChecked  -16.0469    1285.5986   ✗       
+52    +43.006DFLSHYRC+57.021PK -1.0000     NotChecked  -16.0518    1364.6296   ✗       
+53    +42.011GFLSHRC+57.021PPK -1.0000     NotChecked  -16.0546    1239.6183   ✗       
+54    +43.006GFLSHYRC+57.021PGK-1.0000     NotChecked  -16.0547    1363.6455   ✗       
+55    +42.011GFLSHYFC+57.021PK -1.0000     NotChecked  -16.0556    1296.5961   ✗       
+56    +42.011GFLSHYYC+57.021PR -1.0000     NotChecked  -16.0580    1340.5972   ✗       
+57    +43.006GFLSHRC+57.021PK  -1.0000     NotChecked  -16.0610    1143.5607   ✗       
+58    +42.011FLSHC+57.021C+57.021PGK-1.0000     NotChecked  -16.0708    1146.4950   ✗       
+59    DFLSHYRC+57.021PGK       -1.0000     NotChecked  -16.0783    1378.6452   ✗       
+60    +42.011FLSHYRC+57.021PGR -1.0000     NotChecked  -16.0788    1333.6350   ✗       
+61    DFLSHRC+57.021PK         -1.0000     NotChecked  -16.0845    1158.5604   ✗       
+62    +42.011FLSHRC+57.021PR   -1.0000     NotChecked  -16.0851    1113.5502   ✗       
+63    GFLSHRC+57.021PGK        -1.0000     NotChecked  -16.0875    1157.5764   ✗       
+64    +42.011DFLSHYC+57.021C+57.021PR-1.0000     NotChecked  -16.0877    1395.5700   ✗       
+65    +42.011GFLSHFRC+57.021PK -1.0000     NotChecked  -16.0881    1289.6339   ✗       
+66    +42.011FLSHYC+57.021PGK  -1.0000     NotChecked  -16.0900    1149.5277   ✗       
+67    +42.011GFLSHYC+57.021C+57.021PGR-1.0000     NotChecked  -16.0907    1394.5860   ✗       
+68    +42.011GFLSHC+57.021C+57.021PR-1.0000     NotChecked  -16.0969    1174.5012   ✗       
+69    +42.011DFLSHRC+57.021PPK -1.0000     NotChecked  -16.1035    1297.6237   ✗       
+70    +43.006DFLSHYRC+57.021PGK-1.0000     NotChecked  -16.1037    1421.6510   ✗       
+71    +42.011DFLSHYFC+57.021PK -1.0000     NotChecked  -16.1046    1354.6016   ✗       
+72    +42.011DFLSHYYC+57.021PR -1.0000     NotChecked  -16.1069    1398.6027   ✗       
+73    +42.011GFLSHYFC+57.021PGK-1.0000     NotChecked  -16.1075    1353.6176   ✗       
+74    +42.011GFLSHYYC+57.021PGR-1.0000     NotChecked  -16.1099    1397.6187   ✗       
+75    +43.006DFLSHRC+57.021PK  -1.0000     NotChecked  -16.1099    1201.5662   ✗       
+76    +43.006GFLSHRC+57.021PGK -1.0000     NotChecked  -16.1129    1200.5822   ✗       
+77    +42.011GFLSHFC+57.021PK  -1.0000     NotChecked  -16.1138    1133.5328   ✗       
+78    +42.011GFLSHYC+57.021PR  -1.0000     NotChecked  -16.1161    1177.5339   ✗       
+79    FLSHYRC+57.021PK         -1.0000     NotChecked  -16.1165    1206.5968   ✗       
+80    GFLSHYC+57.021C+57.021PK -1.0000     NotChecked  -16.1283    1267.5478   ✗       
+81    +42.011FLSHYRC+57.021PPK -1.0000     NotChecked  -16.1355    1345.6601   ✗       
+82    DFLSHRC+57.021PGK        -1.0000     NotChecked  -16.1365    1215.5819   ✗       
+83    +42.011FLSHRC+57.021PGR  -1.0000     NotChecked  -16.1370    1170.5716   ✗       
+84    +42.011DFLSHFRC+57.021PK -1.0000     NotChecked  -16.1371    1347.6394   ✗       
+85    +42.011GFLSHFRC+57.021PGK-1.0000     NotChecked  -16.1400    1346.6554   ✗       
+86    +43.006FLSHYRC+57.021PK  -1.0000     NotChecked  -16.1418    1249.6026   ✗       
+87    +42.011DFLSHC+57.021C+57.021PR-1.0000     NotChecked  -16.1458    1232.5067   ✗       
+88    +42.011GFLSHYC+57.021C+57.021PPK-1.0000     NotChecked  -16.1473    1406.6111   ✗       
+89    GFLSHYYC+57.021PK        -1.0000     NotChecked  -16.1475    1270.5805   ✗       
+90    +42.011GFLSHC+57.021C+57.021PGR-1.0000     NotChecked  -16.1488    1231.5226   ✗       
+91    +43.006GFLSHYC+57.021C+57.021PK-1.0000     NotChecked  -16.1537    1310.5536   ✗       
+92    +42.011DFLSHYFC+57.021PGK-1.0000     NotChecked  -16.1565    1411.6231   ✗       
+93    +42.011GFLSHYRC+57.021K  -1.0000     NotChecked  -16.1616    1208.5761   ✗       
+94    +43.006DFLSHRC+57.021PGK -1.0000     NotChecked  -16.1618    1258.5877   ✗       
+95    +42.011DFLSHFC+57.021PK  -1.0000     NotChecked  -16.1627    1191.5383   ✗       
+96    +42.011DFLSHYC+57.021PR  -1.0000     NotChecked  -16.1650    1235.5393   ✗       
+97    +42.011GFLSHFC+57.021PGK -1.0000     NotChecked  -16.1657    1190.5543   ✗       
+98    +42.011GFLSHYYC+57.021PPK-1.0000     NotChecked  -16.1665    1409.6438   ✗       
+99    +42.011GFLSHYC+57.021PGR -1.0000     NotChecked  -16.1680    1234.5553   ✗       
+100   FLSHYRC+57.021PGK        -1.0000     NotChecked  -16.1684    1263.6183   ✗       
+101   +43.006GFLSHYYC+57.021PK -1.0000     NotChecked  -16.1729    1313.5863   ✗       
+102   FLSHRC+57.021PK          -1.0000     NotChecked  -16.1746    1043.5335   ✗       
+103   DFLSHYC+57.021C+57.021PK -1.0000     NotChecked  -16.1773    1325.5533   ✗       
+104   +42.011FLSHYC+57.021C+57.021PR-1.0000     NotChecked  -16.1778    1280.5431   ✗       
+105   +42.011GFLSHYEC+57.021PK -1.0000     NotChecked  -16.1779    1278.5703   ✗       
+106   GFLSHYC+57.021C+57.021PGK-1.0000     NotChecked  -16.1802    1324.5693   ✗       
+107   GFLSHC+57.021C+57.021PK  -1.0000     NotChecked  -16.1864    1104.4845   ✗       
+108   +42.011DFLSHFRC+57.021PGK-1.0000     NotChecked  -16.1890    1404.6609   ✗       
+109   +42.011FLSHRC+57.021PPK  -1.0000     NotChecked  -16.1936    1182.5968   ✗       
+110   +43.006FLSHYRC+57.021PGK -1.0000     NotChecked  -16.1937    1306.6241   ✗       
+111   GFLSHYRC+57.021PR        -1.0000     NotChecked  -16.1944    1291.6244   ✗       
+112   +42.011FLSHYFC+57.021PK  -1.0000     NotChecked  -16.1946    1239.5747   ✗       
+113   DFLSHYYC+57.021PK        -1.0000     NotChecked  -16.1964    1328.5860   ✗       
+114   +42.011FLSHYYC+57.021PR  -1.0000     NotChecked  -16.1970    1283.5757   ✗       
+115   +42.011DFLSHC+57.021C+57.021PGR-1.0000     NotChecked  -16.1978    1289.5281   ✗       
+116   GFLSHYYC+57.021PGK       -1.0000     NotChecked  -16.1994    1327.6019   ✗       
+117   +43.006FLSHRC+57.021PK   -1.0000     NotChecked  -16.2000    1086.5393   ✗       
+118   +43.006DFLSHYC+57.021C+57.021PK-1.0000     NotChecked  -16.2026    1368.5591   ✗       
+119   +42.011GFLSHC+57.021C+57.021PPK-1.0000     NotChecked  -16.2055    1243.5478   ✗       
+120   +43.006GFLSHYC+57.021C+57.021PGK-1.0000     NotChecked  -16.2056    1367.5751   ✗       
+121   GFLSHYC+57.021PK         -1.0000     NotChecked  -16.2056    1107.5172   ✗       
+122   +42.011DFLSHYRC+57.021K  -1.0000     NotChecked  -16.2105    1266.5815   ✗       
+123   +43.006GFLSHC+57.021C+57.021PK-1.0000     NotChecked  -16.2118    1147.4903   ✗       
+124   +42.011GFLSHYRC+57.021PPR-1.0000     NotChecked  -16.2134    1430.6877   ✗       
+125   +42.011GFLSHYRC+57.021GK -1.0000     NotChecked  -16.2135    1265.5975   ✗       
+126   +42.011DFLSHFC+57.021PGK -1.0000     NotChecked  -16.2146    1248.5597   ✗       
+127   +42.011DFLSHYC+57.021PGR -1.0000     NotChecked  -16.2169    1292.5608   ✗       
+128   +42.011GFLSHRC+57.021K   -1.0000     NotChecked  -16.2197    1045.5127   ✗       
+129   +43.006GFLSHYRC+57.021PR -1.0000     NotChecked  -16.2198    1334.6302   ✗       
+130   +42.011GFFSHYRC+57.021PK -1.0000     NotChecked  -16.2212    1339.6132   ✗       
+131   +43.006DFLSHYYC+57.021PK -1.0000     NotChecked  -16.2218    1371.5918   ✗       
+132   +42.011GFLSHYC+57.021PPK -1.0000     NotChecked  -16.2246    1246.5805   ✗       
+133   +43.006GFLSHYYC+57.021PGK-1.0000     NotChecked  -16.2248    1370.6078   ✗       
+134   FLSHRC+57.021PGK         -1.0000     NotChecked  -16.2265    1100.5549   ✗       
+135   +42.011DFLSHYEC+57.021PK -1.0000     NotChecked  -16.2269    1336.5758   ✗       
+136   +42.011FLSHFRC+57.021PK  -1.0000     NotChecked  -16.2271    1232.6124   ✗       
+137   DFLSHYC+57.021C+57.021PGK-1.0000     NotChecked  -16.2292    1382.5747   ✗       
+138   +42.011FLSHYC+57.021C+57.021PGR-1.0000     NotChecked  -16.2297    1337.5645   ✗       
+139   +42.011GFLSHYEC+57.021PGK-1.0000     NotChecked  -16.2298    1335.5918   ✗       
+140   +43.006GFLSHYC+57.021PK  -1.0000     NotChecked  -16.2310    1150.5230   ✗       
+141   DFLSHC+57.021C+57.021PK  -1.0000     NotChecked  -16.2354    1162.4900   ✗       
+142   +42.011FLSHC+57.021C+57.021PR-1.0000     NotChecked  -16.2359    1117.4797   ✗       
+143   +42.011GFLSHEC+57.021PK  -1.0000     NotChecked  -16.2361    1115.5070   ✗       
+144   GFLSHC+57.021C+57.021PGK -1.0000     NotChecked  -16.2384    1161.5059   ✗       
+145   +42.011GFLSHFC+57.021C+57.021PK-1.0000     NotChecked  -16.2390    1293.5635   ✗       
+146   DFLSHYRC+57.021PR        -1.0000     NotChecked  -16.2434    1349.6299   ✗       
+147   GFLSHYRC+57.021PGR       -1.0000     NotChecked  -16.2464    1348.6459   ✗       
+148   +42.011FLSHYFC+57.021PGK -1.0000     NotChecked  -16.2465    1296.5961   ✗       
+149   DFLSHYYC+57.021PGK       -1.0000     NotChecked  -16.2484    1385.6074   ✗       
+150   +42.011FLSHYYC+57.021PGR -1.0000     NotChecked  -16.2489    1340.5972   ✗       
+151   +43.006FLSHRC+57.021PGK  -1.0000     NotChecked  -16.2519    1143.5607   ✗       
+152   GFLSHRC+57.021PR         -1.0000     NotChecked  -16.2526    1128.5611   ✗       
+153   +42.011FLSHFC+57.021PK   -1.0000     NotChecked  -16.2528    1076.5113   ✗       
+154   +42.011DFLSHC+57.021C+57.021PPK-1.0000     NotChecked  -16.2544    1301.5533   ✗       
+155   +43.006DFLSHYC+57.021C+57.021PGK-1.0000     NotChecked  -16.2545    1425.5806   ✗       
+156   DFLSHYC+57.021PK         -1.0000     NotChecked  -16.2546    1165.5226   ✗       
+157   +42.011FLSHYC+57.021PR   -1.0000     NotChecked  -16.2551    1120.5124   ✗       
+158   GFLSHYC+57.021PGK        -1.0000     NotChecked  -16.2575    1164.5386   ✗       
+159   +42.011GFLSHFYC+57.021PK -1.0000     NotChecked  -16.2581    1296.5961   ✗       
+160   +43.006DFLSHC+57.021C+57.021PK-1.0000     NotChecked  -16.2607    1205.4958   ✗       
+161   +42.011DFLSHYRC+57.021GK -1.0000     NotChecked  -16.2624    1323.6030   ✗       
+162   +43.006GFLSHC+57.021C+57.021PGK-1.0000     NotChecked  -16.2637    1204.5118   ✗       
+163   FLSHYC+57.021C+57.021PK  -1.0000     NotChecked  -16.2673    1210.5263   ✗       
+164   +42.011DFLSHRC+57.021K   -1.0000     NotChecked  -16.2687    1103.5182   ✗       
+165   +43.006DFLSHYRC+57.021PR -1.0000     NotChecked  -16.2687    1392.6357   ✗       
+166   +42.011DFFSHYRC+57.021PK -1.0000     NotChecked  -16.2701    1397.6187   ✗       
+167   +42.011GFLSHRC+57.021PPR -1.0000     NotChecked  -16.2716    1267.6244   ✗       
+168   +42.011GFLSHRC+57.021GK  -1.0000     NotChecked  -16.2716    1102.5342   ✗       
+169   +43.006GFLSHYRC+57.021PGR-1.0000     NotChecked  -16.2717    1391.6517   ✗       
+170   +42.011GFLSHYFC+57.021PR -1.0000     NotChecked  -16.2726    1324.6023   ✗       
+171   +42.011GFFSHYRC+57.021PGK-1.0000     NotChecked  -16.2731    1396.6346   ✗       
+172   +42.011DFLSHYC+57.021PPK -1.0000     NotChecked  -16.2736    1304.5860   ✗       
+173   +43.006DFLSHYYC+57.021PGK-1.0000     NotChecked  -16.2737    1428.6132   ✗       
+174   +43.006GFLSHRC+57.021PR  -1.0000     NotChecked  -16.2779    1171.5669   ✗       
+175   +42.011DFLSHYEC+57.021PGK-1.0000     NotChecked  -16.2788    1393.5973   ✗       
+176   +42.011FLSHFRC+57.021PGK -1.0000     NotChecked  -16.2790    1289.6339   ✗       
+177   +42.011GFFSHRC+57.021PK  -1.0000     NotChecked  -16.2793    1176.5498   ✗       
+178   +43.006DFLSHYC+57.021PK  -1.0000     NotChecked  -16.2799    1208.5284   ✗       
+179   +43.006GFLSHYC+57.021PGK -1.0000     NotChecked  -16.2829    1207.5444   ✗       
+180   +42.011DFLSHEC+57.021PK  -1.0000     NotChecked  -16.2850    1173.5125   ✗       
+181   +42.011FLSHYC+57.021C+57.021PPK-1.0000     NotChecked  -16.2863    1349.5897   ✗       
+182   FLSHYYC+57.021PK         -1.0000     NotChecked  -16.2865    1213.5590   ✗       
+183   DFLSHC+57.021C+57.021PGK -1.0000     NotChecked  -16.2873    1219.5114   ✗       
+184   +42.011FLSHC+57.021C+57.021PGR-1.0000     NotChecked  -16.2878    1174.5012   ✗       
+185   +42.011DFLSHFC+57.021C+57.021PK-1.0000     NotChecked  -16.2879    1351.5689   ✗       
+186   +42.011GFLSHEC+57.021PGK -1.0000     NotChecked  -16.2880    1172.5284   ✗       
+187   +42.011GFLSHFC+57.021C+57.021PGK-1.0000     NotChecked  -16.2909    1350.5849   ✗       
+188   +43.006FLSHYC+57.021C+57.021PK-1.0000     NotChecked  -16.2927    1253.5322   ✗       
+189   DFLSHYRC+57.021PGR       -1.0000     NotChecked  -16.2953    1406.6514   ✗       
+190   +42.011FLSHYRC+57.021K   -1.0000     NotChecked  -16.3006    1151.5546   ✗       
+191   DFLSHRC+57.021PR         -1.0000     NotChecked  -16.3015    1186.5666   ✗       
+192   GFLSHYRC+57.021PPK       -1.0000     NotChecked  -16.3030    1360.6710   ✗       
+193   GFLSHRC+57.021PGR        -1.0000     NotChecked  -16.3045    1185.5825   ✗       
+194   +42.011FLSHFC+57.021PGK  -1.0000     NotChecked  -16.3047    1133.5328   ✗       
+195   +42.011GFLSHFRC+57.021PR -1.0000     NotChecked  -16.3051    1317.6401   ✗       
+196   +42.011FLSHYYC+57.021PPK -1.0000     NotChecked  -16.3055    1352.6223   ✗       
+197   DFLSHYC+57.021PGK        -1.0000     NotChecked  -16.3065    1222.5441   ✗       
+198   +42.011FLSHYC+57.021PGR  -1.0000     NotChecked  -16.3070    1177.5339   ✗       
+199   +42.011DFLSHFYC+57.021PK -1.0000     NotChecked  -16.3071    1354.6016   ✗       
+200   +42.011GFLSHFYC+57.021PGK-1.0000     NotChecked  -16.3101    1353.6176   ✗       
+201   +43.006FLSHYYC+57.021PK  -1.0000     NotChecked  -16.3119    1256.5648   ✗       
+202   +42.011GFLSHYC+57.021C+57.021K-1.0000     NotChecked  -16.3124    1212.5056   ✗       
+203   +43.006DFLSHC+57.021C+57.021PGK-1.0000     NotChecked  -16.3127    1262.5172   ✗       
+204   +42.011FLSHYEC+57.021PK  -1.0000     NotChecked  -16.3169    1221.5488   ✗       
+205   FLSHYC+57.021C+57.021PGK -1.0000     NotChecked  -16.3192    1267.5478   ✗       
+206   +42.011DFLSHRC+57.021PPR -1.0000     NotChecked  -16.3205    1325.6299   ✗       
+207   +42.011DFLSHRC+57.021GK  -1.0000     NotChecked  -16.3206    1160.5397   ✗       
+208   +42.011DFLSHYFC+57.021PR -1.0000     NotChecked  -16.3215    1382.6078   ✗       
+209   +42.011GFLSHYFC+57.021PGR-1.0000     NotChecked  -16.3245    1381.6237   ✗       
+210   FLSHC+57.021C+57.021PK   -1.0000     NotChecked  -16.3254    1047.4630   ✗       
+211   +43.006DFLSHRC+57.021PR  -1.0000     NotChecked  -16.3269    1229.5724   ✗       
+212   +42.011DFFSHRC+57.021PK  -1.0000     NotChecked  -16.3282    1234.5553   ✗       
+213   +43.006GFLSHYRC+57.021PPK-1.0000     NotChecked  -16.3283    1403.6768   ✗       
+214   +43.006GFLSHRC+57.021PGR -1.0000     NotChecked  -16.3298    1228.5884   ✗       
+215   +42.011GFLSHFC+57.021PR  -1.0000     NotChecked  -16.3307    1161.5389   ✗       
+216   +42.011GFFSHRC+57.021PGK -1.0000     NotChecked  -16.3312    1233.5713   ✗       
+217   +42.011GFLSHYYC+57.021K  -1.0000     NotChecked  -16.3316    1215.5383   ✗       
+218   +43.006DFLSHYC+57.021PGK -1.0000     NotChecked  -16.3318    1265.5499   ✗       
+219   FLSHYRC+57.021PR         -1.0000     NotChecked  -16.3334    1234.6029   ✗       
+220   +42.011DFLSHEC+57.021PGK -1.0000     NotChecked  -16.3369    1230.5339   ✗       
+221   FLSHYYC+57.021PGK        -1.0000     NotChecked  -16.3384    1270.5805   ✗       
+222   +42.011DFLSHFC+57.021C+57.021PGK-1.0000     NotChecked  -16.3398    1408.5904   ✗       
+223   +42.011GFLSHYDC+57.021PK -1.0000     NotChecked  -16.3403    1264.5547   ✗       
+224   +42.011FLSHC+57.021C+57.021PPK-1.0000     NotChecked  -16.3444    1186.5263   ✗       
+225   +43.006FLSHYC+57.021C+57.021PGK-1.0000     NotChecked  -16.3446    1310.5536   ✗       
+226   FLSHYC+57.021PK          -1.0000     NotChecked  -16.3446    1050.4957   ✗       
+227   GFLSHYC+57.021C+57.021PR -1.0000     NotChecked  -16.3453    1295.5539   ✗       
+228   +43.006FLSHC+57.021C+57.021PK-1.0000     NotChecked  -16.3508    1090.4688   ✗       
+229   DFLSHYRC+57.021PPK       -1.0000     NotChecked  -16.3519    1418.6765   ✗       
+230   +42.011FLSHYRC+57.021PPR -1.0000     NotChecked  -16.3524    1373.6663   ✗       
+231   +42.011FLSHYRC+57.021GK  -1.0000     NotChecked  -16.3525    1208.5761   ✗       
+232   DFLSHRC+57.021PGR        -1.0000     NotChecked  -16.3534    1243.5880   ✗       
+233   +42.011DFLSHFRC+57.021PR -1.0000     NotChecked  -16.3540    1375.6455   ✗       
+234   +42.011GFLSHFRC+57.021PGR-1.0000     NotChecked  -16.3570    1374.6615   ✗       
+235   GGFLSHYRC+57.021PK       -1.0000     NotChecked  -16.3582    1320.6397   ✗       
+236   +42.011FLSHRC+57.021K    -1.0000     NotChecked  -16.3587    988.4913    ✗       
+237   +43.006FLSHYRC+57.021PR  -1.0000     NotChecked  -16.3588    1277.6088   ✗       
+238   +42.011DFLSHFYC+57.021PGK-1.0000     NotChecked  -16.3590    1411.6231   ✗       
+239   +42.011FFSHYRC+57.021PK  -1.0000     NotChecked  -16.3602    1282.5917   ✗       
+240   GFLSHRC+57.021PPK        -1.0000     NotChecked  -16.3611    1197.6077   ✗       
+241   +42.011DFLSHYC+57.021C+57.021K-1.0000     NotChecked  -16.3614    1270.5111   ✗       
+242   GFLSHYFC+57.021PK        -1.0000     NotChecked  -16.3621    1254.5856   ✗       
+243   +42.011FLSHYC+57.021PPK  -1.0000     NotChecked  -16.3636    1189.5590   ✗       
+244   +43.006FLSHYYC+57.021PGK -1.0000     NotChecked  -16.3638    1313.5863   ✗       
+245   +42.011GFLSHYC+57.021C+57.021GK-1.0000     NotChecked  -16.3644    1269.5271   ✗       
+246   GFLSHYYC+57.021PR        -1.0000     NotChecked  -16.3645    1298.5866   ✗       
+247   +42.011GFLSHRC+57.021PC+57.021K-1.0000     NotChecked  -16.3676    1302.5961   ✗       
+248   +42.011FLSHYEC+57.021PGK -1.0000     NotChecked  -16.3688    1278.5703   ✗       
+249   +43.006FLSHYC+57.021PK   -1.0000     NotChecked  -16.3700    1093.5015   ✗       
+250   +42.011GFLSHC+57.021C+57.021K-1.0000     NotChecked  -16.3706    1049.4423   ✗       
+251   +43.006GFLSHYC+57.021C+57.021PR-1.0000     NotChecked  -16.3706    1338.5598   ✗       
+252   +42.011GFFSHYC+57.021C+57.021PK-1.0000     NotChecked  -16.3720    1343.5427   ✗       
+253   +42.011FLSHEC+57.021PK   -1.0000     NotChecked  -16.3751    1058.4855   ✗       
+254   FLSHC+57.021C+57.021PGK  -1.0000     NotChecked  -16.3774    1104.4845   ✗       
+255   +42.011FLSHFC+57.021C+57.021PK-1.0000     NotChecked  -16.3780    1236.5420   ✗       
+256   +42.011GFLSHYRC+57.021R  -1.0000     NotChecked  -16.3786    1236.5822   ✗       
+257   +43.006DFLSHRC+57.021PGR -1.0000     NotChecked  -16.3788    1286.5938   ✗       
+258   +42.011DFLSHFC+57.021PR  -1.0000     NotChecked  -16.3797    1219.5444   ✗       
+259   +42.011DFFSHRC+57.021PGK -1.0000     NotChecked  -16.3801    1291.5768   ✗       
+260   +42.011DFLSHYYC+57.021K  -1.0000     NotChecked  -16.3806    1273.5438   ✗       
+261   +42.011GFLSHYFC+57.021PPK-1.0000     NotChecked  -16.3811    1393.6489   ✗       
+262   +42.011GFLSHFC+57.021PGR -1.0000     NotChecked  -16.3826    1218.5604   ✗       
+263   +42.011GFLSHYYC+57.021GK -1.0000     NotChecked  -16.3835    1272.5597   ✗       
+264   FLSHYRC+57.021PGR        -1.0000     NotChecked  -16.3853    1291.6244   ✗       
+265   +43.006GFLSHRC+57.021PPK -1.0000     NotChecked  -16.3865    1240.6135   ✗       
+266   +43.006GFLSHYFC+57.021PK -1.0000     NotChecked  -16.3875    1297.5914   ✗       
+267   +42.011DFLSHYDC+57.021PK -1.0000     NotChecked  -16.3892    1322.5601   ✗       
+268   +42.011GFLSHYC+57.021K   -1.0000     NotChecked  -16.3898    1052.4750   ✗       
+269   +43.006GFLSHYYC+57.021PR -1.0000     NotChecked  -16.3898    1341.5924   ✗       
+270   +42.011GFFSHYYC+57.021PK -1.0000     NotChecked  -16.3912    1346.5754   ✗       
+271   FLSHRC+57.021PR          -1.0000     NotChecked  -16.3916    1071.5396   ✗       
+272   +42.011GFLSHYDC+57.021PGK-1.0000     NotChecked  -16.3922    1321.5761   ✗       
+273   DFLSHYC+57.021C+57.021PR -1.0000     NotChecked  -16.3942    1353.5594   ✗       
+274   GFLSHFRC+57.021PK        -1.0000     NotChecked  -16.3946    1247.6233   ✗       
+275   +42.011GFLSHYEC+57.021PR -1.0000     NotChecked  -16.3949    1306.5765   ✗       
+276   FLSHYC+57.021PGK         -1.0000     NotChecked  -16.3965    1107.5172   ✗       
+277   +42.011FLSHFYC+57.021PK  -1.0000     NotChecked  -16.3971    1239.5747   ✗       
+278   GFLSHYC+57.021C+57.021PGR-1.0000     NotChecked  -16.3972    1352.5754   ✗       
+279   +42.011GFLSHDC+57.021PK  -1.0000     NotChecked  -16.3984    1101.4913   ✗       
+280   +43.006FLSHC+57.021C+57.021PGK-1.0000     NotChecked  -16.4027    1147.4903   ✗       
+281   GFLSHC+57.021C+57.021PR  -1.0000     NotChecked  -16.4034    1132.4906   ✗       
+282   +42.011DFLSHFRC+57.021PGR-1.0000     NotChecked  -16.4059    1432.6670   ✗       
+283   GDFLSHYRC+57.021PK       -1.0000     NotChecked  -16.4071    1378.6452   ✗       
+284   DFLSHRC+57.021PPK        -1.0000     NotChecked  -16.4101    1255.6132   ✗       
+285   GGFLSHYRC+57.021PGK      -1.0000     NotChecked  -16.4101    1377.6612   ✗       
+286   +42.011FLSHRC+57.021PPR  -1.0000     NotChecked  -16.4106    1210.6029   ✗       
+287   +42.011FLSHRC+57.021GK   -1.0000     NotChecked  -16.4106    1045.5127   ✗       
+288   +43.006FLSHYRC+57.021PGR -1.0000     NotChecked  -16.4107    1334.6302   ✗       
+289   DFLSHYFC+57.021PK        -1.0000     NotChecked  -16.4111    1312.5910   ✗       
+290   +42.011FLSHYFC+57.021PR  -1.0000     NotChecked  -16.4116    1267.5808   ✗       
+291   +42.011FFSHYRC+57.021PGK -1.0000     NotChecked  -16.4121    1339.6132   ✗       
+292   +42.011DFLSHYC+57.021C+57.021GK-1.0000     NotChecked  -16.4133    1327.5325   ✗       
+293   DFLSHYYC+57.021PR        -1.0000     NotChecked  -16.4134    1356.5921   ✗       
+294   +42.011GFLSHFRC+57.021PPK-1.0000     NotChecked  -16.4136    1386.6867   ✗       
+295   GFLSHYFC+57.021PGK       -1.0000     NotChecked  -16.4141    1311.6070   ✗       
+296   GGFLSHRC+57.021PK        -1.0000     NotChecked  -16.4163    1157.5764   ✗       
+297   GFLSHYYC+57.021PGR       -1.0000     NotChecked  -16.4164    1355.6081   ✗       
+298   +42.011DFLSHRC+57.021PC+57.021K-1.0000     NotChecked  -16.4166    1360.6016   ✗       
+299   +43.006FLSHRC+57.021PR   -1.0000     NotChecked  -16.4169    1114.5454   ✗       
+300   +42.011FFSHRC+57.021PK   -1.0000     NotChecked  -16.4183    1119.5284   ✗       
+301   +42.011DFLSHC+57.021C+57.021K-1.0000     NotChecked  -16.4195    1107.4478   ✗       
+302   +43.006DFLSHYC+57.021C+57.021PR-1.0000     NotChecked  -16.4196    1396.5652   ✗       
+303   +43.006GFLSHFRC+57.021PK -1.0000     NotChecked  -16.4200    1290.6292   ✗       
+304   GFLSHFC+57.021PK         -1.0000     NotChecked  -16.4203    1091.5222   ✗       
+305   +42.011DFFSHYC+57.021C+57.021PK-1.0000     NotChecked  -16.4210    1401.5482   ✗       
+306   +43.006FLSHYC+57.021PGK  -1.0000     NotChecked  -16.4219    1150.5230   ✗       
+307   +42.011GFLSHC+57.021C+57.021PPR-1.0000     NotChecked  -16.4224    1271.5539   ✗       
+308   +42.011GFLSHC+57.021C+57.021GK-1.0000     NotChecked  -16.4225    1106.4637   ✗       
+309   +43.006GFLSHYC+57.021C+57.021PGR-1.0000     NotChecked  -16.4226    1395.5812   ✗       
+310   GFLSHYC+57.021PR         -1.0000     NotChecked  -16.4226    1135.5233   ✗       
+311   +42.011GFFSHYC+57.021C+57.021PGK-1.0000     NotChecked  -16.4239    1400.5642   ✗       
+312   +42.011FLSHEC+57.021PGK  -1.0000     NotChecked  -16.4270    1115.5070   ✗       
+313   +42.011DFLSHYRC+57.021R  -1.0000     NotChecked  -16.4275    1294.5877   ✗       
+314   +43.006GFLSHC+57.021C+57.021PR-1.0000     NotChecked  -16.4288    1175.4964   ✗       
+315   +42.011FLSHFC+57.021C+57.021PGK-1.0000     NotChecked  -16.4299    1293.5635   ✗       
+316   +42.011GFFSHC+57.021C+57.021PK-1.0000     NotChecked  -16.4301    1180.4794   ✗       
+317   +42.011GFLSHYRC+57.021GR -1.0000     NotChecked  -16.4305    1293.6037   ✗       
+318   +42.011DFLSHFC+57.021PGR -1.0000     NotChecked  -16.4316    1276.5659   ✗       
+319   +42.011DFLSHYYC+57.021GK -1.0000     NotChecked  -16.4325    1330.5652   ✗       
+320   +43.006DFLSHRC+57.021PPK -1.0000     NotChecked  -16.4354    1298.6190   ✗       
+321   +43.006DFLSHYFC+57.021PK -1.0000     NotChecked  -16.4364    1355.5969   ✗       
+322   +42.011GFLSHRC+57.021R   -1.0000     NotChecked  -16.4367    1073.5189   ✗       
+323   +42.011GFFSHYRC+57.021PR -1.0000     NotChecked  -16.4381    1367.6193   ✗       
+324   +42.011DFLSHYC+57.021K   -1.0000     NotChecked  -16.4387    1110.4804   ✗       
+325   +43.006DFLSHYYC+57.021PR -1.0000     NotChecked  -16.4388    1399.5979   ✗       
+326   +42.011GFLSHFC+57.021PPK -1.0000     NotChecked  -16.4393    1230.5856   ✗       
+327   +43.006GFLSHYFC+57.021PGK-1.0000     NotChecked  -16.4394    1354.6128   ✗       
+328   +42.011DFFSHYYC+57.021PK -1.0000     NotChecked  -16.4401    1404.5809   ✗       
+329   +42.011DFLSHYDC+57.021PGK-1.0000     NotChecked  -16.4411    1379.5816   ✗       
+330   +42.011GFLSHYC+57.021PPR -1.0000     NotChecked  -16.4416    1274.5866   ✗       
+331   +42.011GFLSHYC+57.021GK  -1.0000     NotChecked  -16.4417    1109.4964   ✗       
+332   +43.006GFLSHYYC+57.021PGR-1.0000     NotChecked  -16.4417    1398.6139   ✗       
+333   FLSHYRC+57.021PPK        -1.0000     NotChecked  -16.4420    1303.6496   ✗       
+334   +42.011GFFSHYYC+57.021PGK-1.0000     NotChecked  -16.4431    1403.5969   ✗       
+335   FLSHRC+57.021PGR         -1.0000     NotChecked  -16.4435    1128.5611   ✗       
+336   DFLSHFRC+57.021PK        -1.0000     NotChecked  -16.4436    1305.6288   ✗       
+337   +42.011DFLSHYEC+57.021PR -1.0000     NotChecked  -16.4438    1364.5819   ✗       
+338   +42.011FLSHFRC+57.021PR  -1.0000     NotChecked  -16.4441    1260.6186   ✗       
+339   +43.006GFLSHFC+57.021PK  -1.0000     NotChecked  -16.4456    1134.5281   ✗       
+340   DFLSHYC+57.021C+57.021PGR-1.0000     NotChecked  -16.4461    1410.5809   ✗       
+341   GFLSHFRC+57.021PGK       -1.0000     NotChecked  -16.4465    1304.6448   ✗       
+342   +42.011GFLSHYEC+57.021PGR-1.0000     NotChecked  -16.4468    1363.5979   ✗       
+343   +42.011DFLSHDC+57.021PK  -1.0000     NotChecked  -16.4473    1159.4968   ✗       
+344   +43.006GFLSHYC+57.021PR  -1.0000     NotChecked  -16.4480    1178.5291   ✗       
+345   +42.011FLSHYRC+57.021PC+57.021K-1.0000     NotChecked  -16.4485    1408.6380   ✗       
+346   +42.011FLSHFYC+57.021PGK -1.0000     NotChecked  -16.4491    1296.5961   ✗       
+347   +42.011GFFSHYC+57.021PK  -1.0000     NotChecked  -16.4493    1183.5121   ✗       
+348   +42.011GFLSHDC+57.021PGK -1.0000     NotChecked  -16.4503    1158.5128   ✗       
+349   +42.011FLSHYC+57.021C+57.021K-1.0000     NotChecked  -16.4514    1155.4841   ✗       
+350   DFLSHC+57.021C+57.021PR  -1.0000     NotChecked  -16.4524    1190.4961   ✗       
+351   +42.011GFLSHEC+57.021PR  -1.0000     NotChecked  -16.4530    1143.5131   ✗       
+352   GFLSHYC+57.021C+57.021PPK-1.0000     NotChecked  -16.4538    1364.6006   ✗       
+353   GFLSHC+57.021C+57.021PGR -1.0000     NotChecked  -16.4553    1189.5121   ✗       
+354   +42.011GFLSHFC+57.021C+57.021PR-1.0000     NotChecked  -16.4559    1321.5696   ✗       
+355   DFLSHYFC+57.021PGK       -1.0000     NotChecked  -16.4630    1369.6125   ✗       
+356   +42.011FLSHYFC+57.021PGR -1.0000     NotChecked  -16.4635    1324.6023   ✗       
+357   GDFLSHRC+57.021PK        -1.0000     NotChecked  -16.4652    1215.5819   ✗       
+358   DFLSHYYC+57.021PGR       -1.0000     NotChecked  -16.4653    1413.6136   ✗       
+359   +43.006FLSHYRC+57.021PPK -1.0000     NotChecked  -16.4673    1346.6554   ✗       
+360   GFLSHYRC+57.021K         -1.0000     NotChecked  -16.4681    1166.5655   ✗       
+361   GGFLSHRC+57.021PGK       -1.0000     NotChecked  -16.4682    1214.5979   ✗       
+362   +43.006FLSHRC+57.021PGR  -1.0000     NotChecked  -16.4688    1171.5669   ✗       
+363   +43.006DFLSHFRC+57.021PK -1.0000     NotChecked  -16.4689    1348.6346   ✗       
+364   DFLSHFC+57.021PK         -1.0000     NotChecked  -16.4692    1149.5277   ✗       
+365   +42.011FLSHFC+57.021PR   -1.0000     NotChecked  -16.4697    1104.5175   ✗       
+366   +42.011FFSHRC+57.021PGK  -1.0000     NotChecked  -16.4702    1176.5498   ✗       
+367   +42.011FLSHYYC+57.021K   -1.0000     NotChecked  -16.4706    1158.5168   ✗       
+368   +42.011DFLSHC+57.021C+57.021PPR-1.0000     NotChecked  -16.4714    1329.5594   ✗       
+369   +42.011DFLSHC+57.021C+57.021GK-1.0000     NotChecked  -16.4714    1164.4692   ✗       
+370   DFLSHYC+57.021PR         -1.0000     NotChecked  -16.4715    1193.5288   ✗       
+371   +43.006GFLSHFRC+57.021PGK-1.0000     NotChecked  -16.4719    1347.6506   ✗       
+372   GFLSHFC+57.021PGK        -1.0000     NotChecked  -16.4722    1148.5437   ✗       
+373   +42.011GFLSHFFC+57.021PK -1.0000     NotChecked  -16.4728    1280.6012   ✗       
+374   GFLSHYYC+57.021PPK       -1.0000     NotChecked  -16.4730    1367.6332   ✗       
+375   GFLSHYC+57.021PGR        -1.0000     NotChecked  -16.4745    1192.5448   ✗       
+376   +42.011GFLSHFYC+57.021PR -1.0000     NotChecked  -16.4751    1324.6023   ✗       
+377   +43.006DFLSHC+57.021C+57.021PR-1.0000     NotChecked  -16.4777    1233.5019   ✗       
+378   +42.011DFFSHC+57.021C+57.021PK-1.0000     NotChecked  -16.4791    1238.4849   ✗       
+379   +43.006GFLSHYC+57.021C+57.021PPK-1.0000     NotChecked  -16.4792    1407.6064   ✗       
+380   +42.011FLSHYDC+57.021PK  -1.0000     NotChecked  -16.4793    1207.5332   ✗       
+381   +42.011DFLSHYRC+57.021GR -1.0000     NotChecked  -16.4794    1351.6092   ✗       
+382   +43.006GFLSHC+57.021C+57.021PGR-1.0000     NotChecked  -16.4807    1232.5179   ✗       
+383   +42.011GFFSHC+57.021C+57.021PGK-1.0000     NotChecked  -16.4820    1237.5009   ✗       
+384   FLSHYC+57.021C+57.021PR  -1.0000     NotChecked  -16.4843    1238.5325   ✗       
+385   GFLSHYEC+57.021PK        -1.0000     NotChecked  -16.4844    1236.5597   ✗       
+386   +42.011DFLSHRC+57.021R   -1.0000     NotChecked  -16.4856    1131.5244   ✗       
+387   +42.011DFFSHYRC+57.021PR -1.0000     NotChecked  -16.4871    1425.6248   ✗       
+388   +42.011GFLSHYRC+57.021PK -1.0000     NotChecked  -16.4871    1305.6288   ✗       
+389   +42.011DFLSHFC+57.021PPK -1.0000     NotChecked  -16.4882    1288.5910   ✗       
+390   +43.006DFLSHYFC+57.021PGK-1.0000     NotChecked  -16.4884    1412.6183   ✗       
+391   +42.011GFLSHRC+57.021GR  -1.0000     NotChecked  -16.4886    1130.5403   ✗       
+392   +42.011GFFSHYRC+57.021PGR-1.0000     NotChecked  -16.4900    1424.6408   ✗       
+393   +42.011DFLSHYC+57.021PPR -1.0000     NotChecked  -16.4905    1332.5921   ✗       
+394   +42.011DFLSHYC+57.021GK  -1.0000     NotChecked  -16.4906    1167.5019   ✗       
+395   +43.006GFLSHYRC+57.021K  -1.0000     NotChecked  -16.4935    1209.5713   ✗       
+396   +43.006DFLSHFC+57.021PK  -1.0000     NotChecked  -16.4946    1192.5335   ✗       
+397   DFLSHFRC+57.021PGK       -1.0000     NotChecked  -16.4955    1362.6503   ✗       
+398   +42.011DFLSHYEC+57.021PGR-1.0000     NotChecked  -16.4958    1421.6034   ✗       
+399   +42.011FLSHFRC+57.021PGR -1.0000     NotChecked  -16.4960    1317.6401   ✗       
+400   +42.011GFFSHRC+57.021PR  -1.0000     NotChecked  -16.4963    1204.5560   ✗       
+401   +43.006DFLSHYC+57.021PR  -1.0000     NotChecked  -16.4969    1236.5346   ✗       
+402   GFLSHYRC+57.021PK        -1.0000     NotChecked  -16.4972    1263.6183   ✗       
+403   +43.006GFLSHFC+57.021PGK -1.0000     NotChecked  -16.4975    1191.5495   ✗       
+404   +42.011DFFSHYC+57.021PK  -1.0000     NotChecked  -16.4983    1241.5175   ✗       
+405   +43.006GFLSHYYC+57.021PPK-1.0000     NotChecked  -16.4984    1410.6391   ✗       
+406   +42.011DFLSHDC+57.021PGK -1.0000     NotChecked  -16.4992    1216.5183   ✗       
+407   +43.006GFLSHYC+57.021PGR -1.0000     NotChecked  -16.4999    1235.5506   ✗       
+408   FLSHRC+57.021PPK         -1.0000     NotChecked  -16.5001    1140.5862   ✗       
+409   FLSHYFC+57.021PK         -1.0000     NotChecked  -16.5011    1197.5641   ✗       
+410   +42.011GFFSHYC+57.021PGK -1.0000     NotChecked  -16.5012    1240.5335   ✗       
+411   +42.011DFLSHEC+57.021PR  -1.0000     NotChecked  -16.5020    1201.5186   ✗       
+412   DFLSHYC+57.021C+57.021PPK-1.0000     NotChecked  -16.5028    1422.6060   ✗       
+413   +42.011FLSHYC+57.021C+57.021PPR-1.0000     NotChecked  -16.5033    1377.5958   ✗       
+414   +42.011FLSHYC+57.021C+57.021GK-1.0000     NotChecked  -16.5034    1212.5056   ✗       
+415   +42.011GFLSHYEC+57.021PPK-1.0000     NotChecked  -16.5035    1375.6231   ✗       
+416   FLSHYYC+57.021PR         -1.0000     NotChecked  -16.5035    1241.5652   ✗       
+417   DFLSHC+57.021C+57.021PGR -1.0000     NotChecked  -16.5043    1247.5176   ✗       
+418   +42.011DFLSHFC+57.021C+57.021PR-1.0000     NotChecked  -16.5049    1379.5751   ✗       
+419   +42.011GFLSHEC+57.021PGR -1.0000     NotChecked  -16.5049    1200.5346   ✗       
+420   +42.011FLSHRC+57.021PC+57.021K-1.0000     NotChecked  -16.5066    1245.5747   ✗       
+421   +42.011GFLSHFC+57.021C+57.021PGR-1.0000     NotChecked  -16.5078    1378.5911   ✗       
+422   GGFLSHYC+57.021C+57.021PK-1.0000     NotChecked  -16.5090    1324.5693   ✗       
+423   +42.011FLSHC+57.021C+57.021K-1.0000     NotChecked  -16.5096    992.4208    ✗       
+424   +43.006FLSHYC+57.021C+57.021PR-1.0000     NotChecked  -16.5096    1281.5383   ✗       
+425   +43.006GFLSHYEC+57.021PK -1.0000     NotChecked  -16.5098    1279.5656   ✗       
+426   +42.011FFSHYC+57.021C+57.021PK-1.0000     NotChecked  -16.5110    1286.5213   ✗       
+427   GFLSHC+57.021C+57.021PPK -1.0000     NotChecked  -16.5120    1201.5372   ✗       
+428   DFLSHYRC+57.021K         -1.0000     NotChecked  -16.5170    1224.5710   ✗       
+429   GDFLSHRC+57.021PGK       -1.0000     NotChecked  -16.5171    1272.6033   ✗       
+430   +42.011FLSHYRC+57.021R   -1.0000     NotChecked  -16.5176    1179.5607   ✗       
+431   +42.011GFLSHC+57.021C+57.021PC+57.021K-1.0000     NotChecked  -16.5185    1306.5257   ✗       
+432   GFLSHYRC+57.021PPR       -1.0000     NotChecked  -16.5200    1388.6772   ✗       
+433   GFLSHYRC+57.021GK        -1.0000     NotChecked  -16.5200    1223.5870   ✗       
+434   +42.011FLSHYFC+57.021PPK -1.0000     NotChecked  -16.5201    1336.6274   ✗       
+435   +43.006DFLSHFRC+57.021PGK-1.0000     NotChecked  -16.5208    1405.6561   ✗       
+436   DFLSHFC+57.021PGK        -1.0000     NotChecked  -16.5211    1206.5492   ✗       
+437   +42.011FLSHFC+57.021PGR  -1.0000     NotChecked  -16.5216    1161.5390   ✗       
+438   +42.011DFLSHFFC+57.021PK -1.0000     NotChecked  -16.5217    1338.6067   ✗       
+439   DFLSHYYC+57.021PPK       -1.0000     NotChecked  -16.5220    1425.6387   ✗       
+440   +42.011FLSHYYC+57.021PPR -1.0000     NotChecked  -16.5225    1380.6285   ✗       
+441   +42.011FLSHYYC+57.021GK  -1.0000     NotChecked  -16.5225    1215.5383   ✗       
+442   DFLSHYC+57.021PGR        -1.0000     NotChecked  -16.5235    1250.5502   ✗       
+443   +42.011DFLSHFYC+57.021PR -1.0000     NotChecked  -16.5241    1382.6078   ✗       
+444   +42.011GFLSHFFC+57.021PGK-1.0000     NotChecked  -16.5247    1337.6227   ✗       
+445   +43.006FLSHRC+57.021PPK  -1.0000     NotChecked  -16.5255    1183.5920   ✗       
+446   GFLSHRC+57.021K          -1.0000     NotChecked  -16.5262    1003.5022   ✗       
+447   +43.006FLSHYFC+57.021PK  -1.0000     NotChecked  -16.5265    1240.5699   ✗       
+448   +42.011GFLSHFYC+57.021PGR-1.0000     NotChecked  -16.5270    1381.6237   ✗       
+449   GFFSHYRC+57.021PK        -1.0000     NotChecked  -16.5277    1297.6026   ✗       
+450   GGFLSHYYC+57.021PK       -1.0000     NotChecked  -16.5282    1327.6019   ✗       
+451   +42.011FLSHYC+57.021K    -1.0000     NotChecked  -16.5288    995.4535    ✗       
+452   +43.006FLSHYYC+57.021PR  -1.0000     NotChecked  -16.5288    1284.5710   ✗       
+453   +42.011GFLSHYC+57.021C+57.021R-1.0000     NotChecked  -16.5294    1240.5118   ✗       
+454   +43.006DFLSHC+57.021C+57.021PGR-1.0000     NotChecked  -16.5296    1290.5234   ✗       
+455   +42.011FFSHYYC+57.021PK  -1.0000     NotChecked  -16.5302    1289.5539   ✗       
+456   +42.011GFLSHYRC+57.021PK -1.0000     NotChecked  -16.5302    1305.6288   ✗       
+457   +42.011DFFSHC+57.021C+57.021PGK-1.0000     NotChecked  -16.5310    1295.5063   ✗       
+458   GFLSHYC+57.021PPK        -1.0000     NotChecked  -16.5311    1204.5699   ✗       
+459   +42.011FLSHYDC+57.021PGK -1.0000     NotChecked  -16.5312    1264.5547   ✗       
+460   DFLSHYEC+57.021PK        -1.0000     NotChecked  -16.5334    1294.5652   ✗       
+461   FLSHFRC+57.021PK         -1.0000     NotChecked  -16.5336    1190.6019   ✗       
+462   +42.011FLSHYEC+57.021PR  -1.0000     NotChecked  -16.5339    1249.5550   ✗       
+463   +42.011DFLSHYRC+57.021PK -1.0000     NotChecked  -16.5361    1363.6343   ✗       
+464   FLSHYC+57.021C+57.021PGR -1.0000     NotChecked  -16.5362    1295.5539   ✗       
+465   GFLSHYEC+57.021PGK       -1.0000     NotChecked  -16.5364    1293.5812   ✗       
+466   +43.006GFLSHC+57.021C+57.021PPK-1.0000     NotChecked  -16.5373    1244.5430   ✗       
+467   +42.011FLSHDC+57.021PK   -1.0000     NotChecked  -16.5374    1044.4699   ✗       
+468   +42.011DFLSHRC+57.021GR  -1.0000     NotChecked  -16.5375    1188.5458   ✗       
+469   +42.011GFLSHYC+57.021PC+57.021K-1.0000     NotChecked  -16.5377    1309.5584   ✗       
+470   +43.006DFLSHYRC+57.021K  -1.0000     NotChecked  -16.5424    1267.5768   ✗       
+471   FLSHC+57.021C+57.021PR   -1.0000     NotChecked  -16.5424    1075.4692   ✗       
+472   GFLSHEC+57.021PK         -1.0000     NotChecked  -16.5426    1073.4964   ✗       
+473   +42.011DFFSHRC+57.021PR  -1.0000     NotChecked  -16.5452    1262.5615   ✗       
+474   +42.011GFLSHRC+57.021PK  -1.0000     NotChecked  -16.5452    1142.5655   ✗       
+475   +43.006GFLSHYRC+57.021PPR-1.0000     NotChecked  -16.5453    1431.6830   ✗       
+476   +43.006GFLSHYRC+57.021GK -1.0000     NotChecked  -16.5454    1266.5928   ✗       
+477   GFLSHFC+57.021C+57.021PK -1.0000     NotChecked  -16.5455    1251.5529   ✗       
+478   +42.011GFLSHYFC+57.021K  -1.0000     NotChecked  -16.5463    1199.5434   ✗       
+479   +43.006DFLSHFC+57.021PGK -1.0000     NotChecked  -16.5465    1249.5550   ✗       
+480   +42.011GFFSHRC+57.021PGR -1.0000     NotChecked  -16.5482    1261.5775   ✗       
+481   +42.011GFLSHYYC+57.021R  -1.0000     NotChecked  -16.5486    1243.5444   ✗       
+482   +43.006DFLSHYC+57.021PGR -1.0000     NotChecked  -16.5488    1293.5561   ✗       
+483   GFLSHYRC+57.021PGK       -1.0000     NotChecked  -16.5491    1320.6397   ✗       
+484   +42.011DFFSHYC+57.021PGK -1.0000     NotChecked  -16.5502    1298.5390   ✗       
+485   +42.011GFLSHGRC+57.021PK -1.0000     NotChecked  -16.5508    1199.5870   ✗       
+486   +43.006GFLSHRC+57.021K   -1.0000     NotChecked  -16.5516    1046.5080   ✗       
+487   +42.011FLSHFRC+57.021PPK -1.0000     NotChecked  -16.5526    1329.6652   ✗       
+488   +43.006GFFSHYRC+57.021PK -1.0000     NotChecked  -16.5530    1340.6084   ✗       
+489   FLSHYFC+57.021PGK        -1.0000     NotChecked  -16.5531    1254.5856   ✗       
+490   +42.011DFLSHEC+57.021PGR -1.0000     NotChecked  -16.5539    1258.5401   ✗       
+491   GFLSHRC+57.021PK         -1.0000     NotChecked  -16.5553    1100.5549   ✗       
+492   FLSHYYC+57.021PGR        -1.0000     NotChecked  -16.5554    1298.5866   ✗       
+493   +43.006GFLSHYC+57.021PPK -1.0000     NotChecked  -16.5565    1247.5757   ✗       
+494   +42.011GFLSHYDC+57.021PR -1.0000     NotChecked  -16.5572    1292.5608   ✗       
+495   GDFLSHYC+57.021C+57.021PK-1.0000     NotChecked  -16.5580    1382.5747   ✗       
+496   +43.006DFLSHYEC+57.021PK -1.0000     NotChecked  -16.5587    1337.5710   ✗       
+497   +43.006FLSHFRC+57.021PK  -1.0000     NotChecked  -16.5590    1233.6077   ✗       
+498   FLSHFC+57.021PK          -1.0000     NotChecked  -16.5593    1034.5008   ✗       
+499   DFLSHC+57.021C+57.021PPK -1.0000     NotChecked  -16.5609    1259.5427   ✗       
+500   GGFLSHYC+57.021C+57.021PGK-1.0000     NotChecked  -16.5609    1381.5907   ✗       
+501   +42.011FLSHC+57.021C+57.021PPR-1.0000     NotChecked  -16.5614    1214.5325   ✗       
+502   +42.011FLSHC+57.021C+57.021GK-1.0000     NotChecked  -16.5615    1049.4423   ✗       
+503   +43.006FLSHYC+57.021C+57.021PGR-1.0000     NotChecked  -16.5616    1338.5598   ✗       
+504   +42.011GFLSHEC+57.021PPK -1.0000     NotChecked  -16.5616    1212.5597   ✗       
+505   FLSHYC+57.021PR          -1.0000     NotChecked  -16.5616    1078.5018   ✗       
+506   +43.006GFLSHYEC+57.021PGK-1.0000     NotChecked  -16.5617    1336.5870   ✗       
+507   +42.011FFSHYC+57.021C+57.021PGK-1.0000     NotChecked  -16.5629    1343.5427   ✗       
+508   +42.011GFLSHFC+57.021C+57.021PPK-1.0000     NotChecked  -16.5645    1390.6162   ✗       
+509   GFLSHFYC+57.021PK        -1.0000     NotChecked  -16.5647    1254.5856   ✗       
+510   GGFLSHC+57.021C+57.021PK -1.0000     NotChecked  -16.5671    1161.5059   ✗       
+511   +42.011DFLSHC+57.021C+57.021PC+57.021K-1.0000     NotChecked  -16.5674    1364.5312   ✗       
+512   +43.006FLSHC+57.021C+57.021PR-1.0000     NotChecked  -16.5678    1118.4750   ✗       
+513   +43.006GFLSHEC+57.021PK  -1.0000     NotChecked  -16.5679    1116.5022   ✗       
+514   DFLSHYRC+57.021GK        -1.0000     NotChecked  -16.5690    1281.5924   ✗       
+515   +42.011FFSHC+57.021C+57.021PK-1.0000     NotChecked  -16.5691    1123.4579   ✗       
+516   +42.011FLSHYRC+57.021GR  -1.0000     NotChecked  -16.5695    1236.5822   ✗       
+517   +43.006GFLSHFC+57.021C+57.021PK-1.0000     NotChecked  -16.5708    1294.5587   ✗       
+518   +42.011DFLSHFFC+57.021PGK-1.0000     NotChecked  -16.5736    1395.6282   ✗       
+519   GGFLSHYRC+57.021PR       -1.0000     NotChecked  -16.5751    1348.6459   ✗       
+520   DFLSHRC+57.021K          -1.0000     NotChecked  -16.5752    1061.5076   ✗       
+521   +42.011FLSHRC+57.021R    -1.0000     NotChecked  -16.5757    1016.4974   ✗       
+522   DFFSHYRC+57.021PK        -1.0000     NotChecked  -16.5766    1355.6081   ✗       
+523   +42.011FFSHYRC+57.021PR  -1.0000     NotChecked  -16.5771    1310.5979   ✗       
+524   GDFLSHYYC+57.021PK       -1.0000     NotChecked  -16.5771    1385.6074   ✗       
+525   GFLSHRC+57.021PPR        -1.0000     NotChecked  -16.5781    1225.6138   ✗       
+526   GFLSHRC+57.021GK         -1.0000     NotChecked  -16.5781    1060.5236   ✗       
+527   +42.011FLSHFC+57.021PPK  -1.0000     NotChecked  -16.5783    1173.5641   ✗       
+528   +42.011DFLSHYC+57.021C+57.021R-1.0000     NotChecked  -16.5784    1298.5172   ✗       
+529   +43.006FLSHYFC+57.021PGK -1.0000     NotChecked  -16.5784    1297.5914   ✗       
+530   +42.011GFLSHFRC+57.021K  -1.0000     NotChecked  -16.5787    1192.5811   ✗       
+531   GFLSHYFC+57.021PR        -1.0000     NotChecked  -16.5791    1282.5917   ✗       
+532   +42.011DFLSHYRC+57.021PK -1.0000     NotChecked  -16.5792    1363.6343   ✗       
+533   GFFSHYRC+57.021PGK       -1.0000     NotChecked  -16.5796    1354.6241   ✗       
+534   DFLSHYC+57.021PPK        -1.0000     NotChecked  -16.5801    1262.5754   ✗       
+535   GGFLSHYYC+57.021PGK      -1.0000     NotChecked  -16.5801    1384.6234   ✗       
+536   +42.011FLSHYC+57.021PPR  -1.0000     NotChecked  -16.5806    1217.5652   ✗       
+537   +42.011FLSHYC+57.021GK   -1.0000     NotChecked  -16.5807    1052.4750   ✗       
+538   +43.006FLSHYYC+57.021PGR -1.0000     NotChecked  -16.5807    1341.5924   ✗       
+539   +42.011GFLSHYC+57.021C+57.021GR-1.0000     NotChecked  -16.5813    1297.5332   ✗       
+540   +42.011FFSHYYC+57.021PGK -1.0000     NotChecked  -16.5821    1346.5754   ✗       
+541   +42.011GFLSHYRC+57.021PGK-1.0000     NotChecked  -16.5821    1362.6503   ✗       
+542   +42.011GFLSHFYC+57.021PPK-1.0000     NotChecked  -16.5837    1393.6489   ✗       
+543   +42.011GFLSHRC+57.021PC+57.021R-1.0000     NotChecked  -16.5846    1330.6023   ✗       
+544   +43.006FLSHFC+57.021PK   -1.0000     NotChecked  -16.5846    1077.5066   ✗       
+545   DFLSHYEC+57.021PGK       -1.0000     NotChecked  -16.5853    1351.5867   ✗       
+546   FLSHFRC+57.021PGK        -1.0000     NotChecked  -16.5855    1247.6233   ✗       
+547   GFFSHRC+57.021PK         -1.0000     NotChecked  -16.5858    1134.5393   ✗       
+548   +42.011FLSHYEC+57.021PGR -1.0000     NotChecked  -16.5858    1306.5765   ✗       
+549   +43.006DFLSHC+57.021C+57.021PPK-1.0000     NotChecked  -16.5863    1302.5485   ✗       
+550   GGFLSHYC+57.021PK        -1.0000     NotChecked  -16.5863    1164.5386   ✗       
+551   +42.011DFLSHYC+57.021PC+57.021K-1.0000     NotChecked  -16.5866    1367.5638   ✗       
+552   +43.006FLSHYC+57.021PR   -1.0000     NotChecked  -16.5870    1121.5077   ✗       
+553   +42.011GFLSHC+57.021C+57.021R-1.0000     NotChecked  -16.5875    1077.4484   ✗       
+554   +42.011FFSHYC+57.021PK   -1.0000     NotChecked  -16.5883    1126.4906   ✗       
+555   +42.011GFLSHRC+57.021PK  -1.0000     NotChecked  -16.5883    1142.5655   ✗       
+556   +42.011GFFSHYC+57.021C+57.021PR-1.0000     NotChecked  -16.5890    1371.5489   ✗       
+557   +42.011FLSHDC+57.021PGK  -1.0000     NotChecked  -16.5893    1101.4913   ✗       
+558   +43.006GFLSHFYC+57.021PK -1.0000     NotChecked  -16.5900    1297.5914   ✗       
+559   DFLSHEC+57.021PK         -1.0000     NotChecked  -16.5915    1131.5019   ✗       
+560   +42.011FLSHEC+57.021PR   -1.0000     NotChecked  -16.5920    1086.4917   ✗       
+561   FLSHYC+57.021C+57.021PPK -1.0000     NotChecked  -16.5928    1307.5791   ✗       
+562   +42.011DFLSHRC+57.021PK  -1.0000     NotChecked  -16.5942    1200.5710   ✗       
+563   +43.006DFLSHYRC+57.021GK -1.0000     NotChecked  -16.5943    1324.5983   ✗       
+564   FLSHC+57.021C+57.021PGR  -1.0000     NotChecked  -16.5943    1132.4906   ✗       
+565   DFLSHFC+57.021C+57.021PK -1.0000     NotChecked  -16.5944    1309.5584   ✗       
+566   GFLSHEC+57.021PGK        -1.0000     NotChecked  -16.5945    1130.5179   ✗       
+567   +42.011FLSHFC+57.021C+57.021PR-1.0000     NotChecked  -16.5949    1264.5481   ✗       
+568   +42.011GFLSHFEC+57.021PK -1.0000     NotChecked  -16.5951    1262.5754   ✗       
+569   +42.011DFLSHYFC+57.021K  -1.0000     NotChecked  -16.5952    1257.5488   ✗       
+570   +42.011DFFSHRC+57.021PGR -1.0000     NotChecked  -16.5971    1319.5829   ✗       
+571   GFLSHFC+57.021C+57.021PGK-1.0000     NotChecked  -16.5974    1308.5743   ✗       
+572   +42.011DFLSHYYC+57.021R  -1.0000     NotChecked  -16.5975    1301.5499   ✗       
+573   +42.011GFLSHYFC+57.021PPR-1.0000     NotChecked  -16.5981    1421.6550   ✗       
+574   +42.011GFLSHYFC+57.021GK -1.0000     NotChecked  -16.5982    1256.5648   ✗       
+575   +42.011FLSHYC+57.021C+57.021PC+57.021K-1.0000     NotChecked  -16.5993    1412.5676   ✗       
+576   +42.011DFLSHGRC+57.021PK -1.0000     NotChecked  -16.5997    1257.5924   ✗       
+577   +42.011GFLSHYYC+57.021GR -1.0000     NotChecked  -16.6005    1300.5659   ✗       
+578   +43.006DFLSHRC+57.021K   -1.0000     NotChecked  -16.6005    1104.5135   ✗       
+579   +43.006DFFSHYRC+57.021PK -1.0000     NotChecked  -16.6020    1398.6139   ✗       
+580   +42.011GFLSHGRC+57.021PGK-1.0000     NotChecked  -16.6027    1256.6084   ✗       
+581   +43.006GFLSHRC+57.021PPR -1.0000     NotChecked  -16.6034    1268.6197   ✗       
+582   +43.006GFLSHRC+57.021GK  -1.0000     NotChecked  -16.6035    1103.5294   ✗       
+583   +42.011GFLSHFC+57.021K   -1.0000     NotChecked  -16.6044    1036.4800   ✗       
+584   +43.006GFLSHYFC+57.021PR -1.0000     NotChecked  -16.6045    1325.5975   ✗       
+585   +42.011GFFSHRC+57.021PPK -1.0000     NotChecked  -16.6048    1273.6026   ✗       
+586   +43.006GFFSHYRC+57.021PGK-1.0000     NotChecked  -16.6049    1397.6299   ✗       
+587   +43.006DFLSHYC+57.021PPK -1.0000     NotChecked  -16.6054    1305.5812   ✗       
+588   +42.011GFFSHYFC+57.021PK -1.0000     NotChecked  -16.6058    1330.5805   ✗       
+589   +42.011DFLSHYDC+57.021PR -1.0000     NotChecked  -16.6062    1350.5663   ✗       
+590   +42.011GFLSHYC+57.021R   -1.0000     NotChecked  -16.6067    1080.4811   ✗       
+591   FLSHYRC+57.021K          -1.0000     NotChecked  -16.6071    1109.5440   ✗       
+592   GFLSHRC+57.021PGK        -1.0000     NotChecked  -16.6072    1157.5764   ✗       
+593   +42.011GFFSHYYC+57.021PR -1.0000     NotChecked  -16.6082    1374.5815   ✗       
+594   +42.011GFLSHYDC+57.021PGR-1.0000     NotChecked  -16.6091    1349.5823   ✗       
+595   +42.011DFLSHEC+57.021PPK -1.0000     NotChecked  -16.6105    1270.5652   ✗       
+596   +43.006DFLSHYEC+57.021PGK-1.0000     NotChecked  -16.6107    1394.5925   ✗       
+597   +43.006FLSHFRC+57.021PGK -1.0000     NotChecked  -16.6109    1290.6292   ✗       
+598   +43.006GFFSHRC+57.021PK  -1.0000     NotChecked  -16.6112    1177.5451   ✗       
+599   FLSHFC+57.021PGK         -1.0000     NotChecked  -16.6112    1091.5222   ✗       
+600   GFLSHFRC+57.021PR        -1.0000     NotChecked  -16.6116    1275.6295   ✗       
+601   +42.011FLSHFFC+57.021PK  -1.0000     NotChecked  -16.6118    1223.5798   ✗       
+602   FLSHYYC+57.021PPK        -1.0000     NotChecked  -16.6120    1310.6118   ✗       
+603   FLSHYC+57.021PGR         -1.0000     NotChecked  -16.6135    1135.5233   ✗       
+604   DFLSHFYC+57.021PK        -1.0000     NotChecked  -16.6136    1312.5910   ✗       
+605   +42.011FLSHFYC+57.021PR  -1.0000     NotChecked  -16.6141    1267.5808   ✗       
+606   +42.011GFLSHDC+57.021PR  -1.0000     NotChecked  -16.6154    1129.4975   ✗       
+607   GFLSHYRC+57.021PC+57.021K-1.0000     NotChecked  -16.6160    1423.6489   ✗       
+608   GDFLSHC+57.021C+57.021PK -1.0000     NotChecked  -16.6161    1219.5114   ✗       
+609   GFLSHFYC+57.021PGK       -1.0000     NotChecked  -16.6166    1311.6070   ✗       
+610   +43.006DFLSHEC+57.021PK  -1.0000     NotChecked  -16.6169    1174.5077   ✗       
+611   +43.006FLSHYC+57.021C+57.021PPK-1.0000     NotChecked  -16.6182    1350.5849   ✗       
+612   +42.011FLSHYYC+57.021PC+57.021K-1.0000     NotChecked  -16.6185    1415.6002   ✗       
+613   GFLSHYC+57.021C+57.021K  -1.0000     NotChecked  -16.6190    1170.4950   ✗       
+614   GGFLSHC+57.021C+57.021PGK-1.0000     NotChecked  -16.6190    1218.5274   ✗       
+615   +43.006FLSHC+57.021C+57.021PGR-1.0000     NotChecked  -16.6197    1175.4964   ✗       
+616   +43.006DFLSHFC+57.021C+57.021PK-1.0000     NotChecked  -16.6198    1352.5642   ✗       
+617   +43.006GFLSHEC+57.021PGK -1.0000     NotChecked  -16.6198    1173.5237   ✗       
+618   +42.011FFSHC+57.021C+57.021PGK-1.0000     NotChecked  -16.6210    1180.4794   ✗       
+619   +43.006GFLSHFC+57.021C+57.021PGK-1.0000     NotChecked  -16.6227    1351.5802   ✗       
+620   FLSHYEC+57.021PK         -1.0000     NotChecked  -16.6234    1179.5383   ✗       
+621   GDFLSHYRC+57.021PR       -1.0000     NotChecked  -16.6241    1406.6514   ✗       
+622   +42.011FLSHYRC+57.021PK  -1.0000     NotChecked  -16.6261    1248.6074   ✗       
+623   DFLSHRC+57.021PPR        -1.0000     NotChecked  -16.6270    1283.6193   ✗       
+624   GGFLSHYRC+57.021PGR      -1.0000     NotChecked  -16.6270    1405.6673   ✗       
+625   DFLSHRC+57.021GK         -1.0000     NotChecked  -16.6271    1118.5291   ✗       
+626   +42.011FLSHRC+57.021GR   -1.0000     NotChecked  -16.6276    1073.5189   ✗       
+627   +42.011DFLSHFRC+57.021K  -1.0000     NotChecked  -16.6277    1250.5866   ✗       
+628   DFLSHYFC+57.021PR        -1.0000     NotChecked  -16.6281    1340.5972   ✗       
+629   DFFSHYRC+57.021PGK       -1.0000     NotChecked  -16.6285    1412.6296   ✗       
+630   +42.011FFSHYRC+57.021PGR -1.0000     NotChecked  -16.6290    1367.6193   ✗       
+631   +42.011DFLSHYC+57.021C+57.021GR-1.0000     NotChecked  -16.6303    1355.5387   ✗       
+632   +42.011GFLSHFRC+57.021PPR-1.0000     NotChecked  -16.6306    1414.6928   ✗       
+633   +42.011GFLSHFRC+57.021GK -1.0000     NotChecked  -16.6307    1249.6026   ✗       
+634   GFLSHYFC+57.021PGR       -1.0000     NotChecked  -16.6310    1339.6132   ✗       
+635   +42.011DFLSHYRC+57.021PGK-1.0000     NotChecked  -16.6311    1420.6558   ✗       
+636   +43.006FLSHYRC+57.021K   -1.0000     NotChecked  -16.6325    1152.5498   ✗       
+637   GGFLSHRC+57.021PR        -1.0000     NotChecked  -16.6333    1185.5825   ✗       
+638   +42.011DFLSHRC+57.021PC+57.021R-1.0000     NotChecked  -16.6335    1388.6078   ✗       
+639   DFFSHRC+57.021PK         -1.0000     NotChecked  -16.6347    1192.5448   ✗       
+640   +42.011FFSHRC+57.021PR   -1.0000     NotChecked  -16.6353    1147.5345   ✗       
+641   GDFLSHYC+57.021PK        -1.0000     NotChecked  -16.6353    1222.5441   ✗       
+642   +42.011DFLSHC+57.021C+57.021R-1.0000     NotChecked  -16.6365    1135.4539   ✗       
+643   +43.006FLSHFC+57.021PGK  -1.0000     NotChecked  -16.6365    1134.5281   ✗       
+644   +43.006GFLSHFRC+57.021PR -1.0000     NotChecked  -16.6369    1318.6353   ✗       
+645   GFLSHFC+57.021PR         -1.0000     NotChecked  -16.6372    1119.5284   ✗       
+646   +42.011DFLSHRC+57.021PK  -1.0000     NotChecked  -16.6373    1200.5710   ✗       
+647   +43.006FLSHYYC+57.021PPK -1.0000     NotChecked  -16.6374    1353.6176   ✗       
+648   GFFSHRC+57.021PGK        -1.0000     NotChecked  -16.6377    1191.5607   ✗       
+649   +42.011DFFSHYC+57.021C+57.021PR-1.0000     NotChecked  -16.6379    1429.5543   ✗       
+650   +42.011GFLSHYC+57.021C+57.021PK-1.0000     NotChecked  -16.6380    1309.5584   ✗       
+651   GFLSHYYC+57.021K         -1.0000     NotChecked  -16.6381    1173.5277   ✗       
+652   GGFLSHYC+57.021PGK       -1.0000     NotChecked  -16.6382    1221.5601   ✗       
+653   +42.011GFFSHFRC+57.021PK -1.0000     NotChecked  -16.6383    1323.6183   ✗       
+654   +43.006FLSHYC+57.021PGR  -1.0000     NotChecked  -16.6389    1178.5291   ✗       
+655   +43.006DFLSHFYC+57.021PK -1.0000     NotChecked  -16.6390    1355.5969   ✗       
+656   +42.011GFLSHC+57.021C+57.021GR-1.0000     NotChecked  -16.6394    1134.4699   ✗       
+657   +42.011FFSHYC+57.021PGK  -1.0000     NotChecked  -16.6402    1183.5121   ✗       
+658   +42.011GFLSHRC+57.021PGK -1.0000     NotChecked  -16.6403    1199.5870   ✗       
+659   +42.011GFFSHYC+57.021C+57.021PGR-1.0000     NotChecked  -16.6409    1428.5703   ✗       
+660   +43.006GFLSHFYC+57.021PGK-1.0000     NotChecked  -16.6419    1354.6128   ✗       
+661   +42.011FLSHYEC+57.021PPK -1.0000     NotChecked  -16.6424    1318.6016   ✗       
+662   DFLSHEC+57.021PGK        -1.0000     NotChecked  -16.6434    1188.5234   ✗       
+663   +42.011FLSHEC+57.021PGR  -1.0000     NotChecked  -16.6439    1143.5131   ✗       
+664   +42.011DFLSHFEC+57.021PK -1.0000     NotChecked  -16.6440    1320.5809   ✗       
+665   +43.006GFLSHYC+57.021C+57.021K-1.0000     NotChecked  -16.6443    1213.5009   ✗       
+666   DFLSHFC+57.021C+57.021PGK-1.0000     NotChecked  -16.6463    1366.5798   ✗       
+667   GFLSHYDC+57.021PK        -1.0000     NotChecked  -16.6468    1222.5441   ✗       
+668   +42.011FLSHFC+57.021C+57.021PGR-1.0000     NotChecked  -16.6468    1321.5696   ✗       
+669   +42.011GFLSHFEC+57.021PGK-1.0000     NotChecked  -16.6470    1319.5969   ✗       
+670   +42.011GFFSHC+57.021C+57.021PR-1.0000     NotChecked  -16.6471    1208.4855   ✗       
+671   +42.011DFLSHYFC+57.021GK -1.0000     NotChecked  -16.6471    1314.5703   ✗       
+672   GFLSHYC+57.021C+57.021PK -1.0000     NotChecked  -16.6480    1267.5478   ✗       
+673   +43.006FLSHYEC+57.021PK  -1.0000     NotChecked  -16.6488    1222.5441   ✗       
+674   +42.011DFLSHYYC+57.021GR -1.0000     NotChecked  -16.6495    1358.5714   ✗       
+675   FLSHC+57.021C+57.021PPK  -1.0000     NotChecked  -16.6510    1144.5158   ✗       
+676   +42.011EFLSHYRC+57.021PK -1.0000     NotChecked  -16.6511    1377.6500   ✗       
+677   +42.011DFLSHGRC+57.021PGK-1.0000     NotChecked  -16.6516    1314.6139   ✗       
+678   +43.006DFLSHRC+57.021PPR -1.0000     NotChecked  -16.6524    1326.6251   ✗       
+679   +43.006DFLSHRC+57.021GK  -1.0000     NotChecked  -16.6524    1161.5349   ✗       
+680   +42.011DFLSHFC+57.021K   -1.0000     NotChecked  -16.6533    1094.4855   ✗       
+681   +43.006DFLSHYFC+57.021PR -1.0000     NotChecked  -16.6534    1383.6030   ✗       
+682   +42.011DFFSHRC+57.021PPK -1.0000     NotChecked  -16.6537    1331.6081   ✗       
+683   +42.011DFFSHYFC+57.021PK -1.0000     NotChecked  -16.6548    1388.5860   ✗       
+684   +42.011DFLSHYC+57.021R   -1.0000     NotChecked  -16.6557    1138.4866   ✗       
+685   +42.011GFLSHFC+57.021PPR -1.0000     NotChecked  -16.6562    1258.5917   ✗       
+686   +42.011GFLSHFC+57.021GK  -1.0000     NotChecked  -16.6563    1093.5015   ✗       
+687   +43.006GFLSHYFC+57.021PGR-1.0000     NotChecked  -16.6564    1382.6190   ✗       
+688   +42.011DFFSHYYC+57.021PR -1.0000     NotChecked  -16.6571    1432.5870   ✗       
+689   +42.011GFLSHYYC+57.021PK -1.0000     NotChecked  -16.6571    1312.5910   ✗       
+690   +42.011FLSHC+57.021C+57.021PC+57.021K-1.0000     NotChecked  -16.6575    1249.5042   ✗       
+691   +42.011GFFSHYFC+57.021PGK-1.0000     NotChecked  -16.6577    1387.6019   ✗       
+692   +42.011DFLSHYDC+57.021PGR-1.0000     NotChecked  -16.6581    1407.5878   ✗       
+693   +42.011GFLSHYC+57.021GR  -1.0000     NotChecked  -16.6586    1137.5026   ✗       
+694   FLSHYRC+57.021PPR        -1.0000     NotChecked  -16.6590    1331.6557   ✗       
+695   FLSHYRC+57.021GK         -1.0000     NotChecked  -16.6590    1166.5655   ✗       
+696   +42.011GFFSHYYC+57.021PGR-1.0000     NotChecked  -16.6601    1431.6030   ✗       
+697   +43.006DFFSHRC+57.021PK  -1.0000     NotChecked  -16.6601    1235.5506   ✗       
+698   DFLSHFRC+57.021PR        -1.0000     NotChecked  -16.6605    1333.6350   ✗       
+699   +43.006GFLSHFC+57.021PR  -1.0000     NotChecked  -16.6626    1162.5342   ✗       
+700   +43.006GFFSHRC+57.021PGK -1.0000     NotChecked  -16.6631    1234.5666   ✗       
+701   +43.006GFLSHYYC+57.021K  -1.0000     NotChecked  -16.6635    1216.5335   ✗       
+702   GFLSHFRC+57.021PGR       -1.0000     NotChecked  -16.6635    1332.6510   ✗       
+703   +42.011FLSHFFC+57.021PGK -1.0000     NotChecked  -16.6637    1280.6012   ✗       
+704   +42.011GFFSHFC+57.021PK  -1.0000     NotChecked  -16.6640    1167.5172   ✗       
+705   +42.011DFLSHDC+57.021PR  -1.0000     NotChecked  -16.6643    1187.5030   ✗       
+706   FLSHRC+57.021K           -1.0000     NotChecked  -16.6652    946.4807    ✗       
+707   DFLSHFYC+57.021PGK       -1.0000     NotChecked  -16.6655    1369.6125   ✗       
+708   +42.011GFLSHYDC+57.021PPK-1.0000     NotChecked  -16.6658    1361.6074   ✗       
+709   +42.011FLSHFYC+57.021PGR -1.0000     NotChecked  -16.6660    1324.6023   ✗       
+710   +42.011GFFSHYC+57.021PR  -1.0000     NotChecked  -16.6663    1211.5182   ✗       
+711   FFSHYRC+57.021PK         -1.0000     NotChecked  -16.6667    1240.5811   ✗       
+712   GFLSHYYC+57.021PK        -1.0000     NotChecked  -16.6672    1270.5805   ✗       
+713   +42.011GFLSHDC+57.021PGR -1.0000     NotChecked  -16.6673    1186.5189   ✗       
+714   DFLSHYC+57.021C+57.021K  -1.0000     NotChecked  -16.6679    1228.5005   ✗       
+715   GDFLSHC+57.021C+57.021PGK-1.0000     NotChecked  -16.6680    1276.5329   ✗       
+716   +42.011FLSHYC+57.021C+57.021R-1.0000     NotChecked  -16.6684    1183.4903   ✗       
+717   +42.011GFLSHYEC+57.021K  -1.0000     NotChecked  -16.6686    1181.5175   ✗       
+718   +43.006DFLSHEC+57.021PGK -1.0000     NotChecked  -16.6688    1231.5292   ✗       
+719   +42.011FLSHYRC+57.021PK  -1.0000     NotChecked  -16.6692    1248.6074   ✗       
+720   FLSHYC+57.021PPK         -1.0000     NotChecked  -16.6701    1147.5485   ✗       
+721   GFLSHYC+57.021C+57.021PPR-1.0000     NotChecked  -16.6708    1392.6067   ✗       
+722   GFLSHYC+57.021C+57.021GK -1.0000     NotChecked  -16.6709    1227.5165   ✗       
+723   +43.006DFLSHFC+57.021C+57.021PGK-1.0000     NotChecked  -16.6717    1409.5856   ✗       
+724   +43.006GFLSHYDC+57.021PK -1.0000     NotChecked  -16.6721    1265.5499   ✗       
+725   +42.011GFLSHSRC+57.021PK -1.0000     NotChecked  -16.6738    1229.5975   ✗       
+726   GFLSHRC+57.021PC+57.021K -1.0000     NotChecked  -16.6741    1260.5856   ✗       
+727   FLSHYEC+57.021PGK        -1.0000     NotChecked  -16.6754    1236.5597   ✗       
+728   +43.006FLSHC+57.021C+57.021PPK-1.0000     NotChecked  -16.6763    1187.5216   ✗       
+729   +42.011FLSHYC+57.021PC+57.021K-1.0000     NotChecked  -16.6767    1252.5369   ✗       
+730   GFLSHC+57.021C+57.021K   -1.0000     NotChecked  -16.6771    1007.4317   ✗       
+731   GFFSHYC+57.021C+57.021PK -1.0000     NotChecked  -16.6785    1301.5322   ✗       
+732   +42.011DFLSHFRC+57.021GK -1.0000     NotChecked  -16.6796    1307.6081   ✗       
+733   DFLSHYFC+57.021PGR       -1.0000     NotChecked  -16.6800    1397.6187   ✗       
+734   +42.011GFLSHYC+57.021C+57.021PK-1.0000     NotChecked  -16.6811    1309.5584   ✗       
+735   FLSHEC+57.021PK          -1.0000     NotChecked  -16.6816    1016.4750   ✗       
+736   GDFLSHRC+57.021PR        -1.0000     NotChecked  -16.6822    1243.5880   ✗       
+737   GGFLSHYRC+57.021PPK      -1.0000     NotChecked  -16.6837    1417.6925   ✗       
+738   +42.011FLSHRC+57.021PK   -1.0000     NotChecked  -16.6842    1085.5440   ✗       
+739   +43.006FLSHYRC+57.021PPR -1.0000     NotChecked  -16.6843    1374.6615   ✗       
+740   +43.006FLSHYRC+57.021GK  -1.0000     NotChecked  -16.6844    1209.5713   ✗       
+741   FLSHFC+57.021C+57.021PK  -1.0000     NotChecked  -16.6845    1194.5314   ✗       
+742   GFLSHYRC+57.021R         -1.0000     NotChecked  -16.6851    1194.5716   ✗       
+743   GGFLSHRC+57.021PGR       -1.0000     NotChecked  -16.6852    1242.6040   ✗       
+744   +42.011FLSHYFC+57.021K   -1.0000     NotChecked  -16.6853    1142.5219   ✗       
+745   +42.011FFSHYRC+57.021PPK -1.0000     NotChecked  -16.6857    1379.6445   ✗       
+746   +43.006DFLSHFRC+57.021PR -1.0000     NotChecked  -16.6859    1376.6408   ✗       
+747   DFLSHFC+57.021PR         -1.0000     NotChecked  -16.6862    1177.5339   ✗       
+748   +42.011GFLSHYLC+57.021PK -1.0000     NotChecked  -16.6865    1262.6118   ✗       
+749   DFFSHRC+57.021PGK        -1.0000     NotChecked  -16.6867    1249.5662   ✗       
+750   +42.011DFLSHYC+57.021C+57.021PK-1.0000     NotChecked  -16.6869    1367.5638   ✗       
+751   DFLSHYYC+57.021K         -1.0000     NotChecked  -16.6871    1231.5332   ✗       
+752   +42.011FFSHRC+57.021PGR  -1.0000     NotChecked  -16.6872    1204.5560   ✗       
+753   GDFLSHYC+57.021PGK       -1.0000     NotChecked  -16.6872    1279.5656   ✗       
+754   +42.011DFFSHFRC+57.021PK -1.0000     NotChecked  -16.6873    1381.6237   ✗       
+755   +42.011FLSHYYC+57.021R   -1.0000     NotChecked  -16.6876    1186.5230   ✗       
+756   GFLSHYFC+57.021PPK       -1.0000     NotChecked  -16.6877    1351.6383   ✗       
+757   +42.011DFLSHC+57.021C+57.021GR-1.0000     NotChecked  -16.6884    1192.4754   ✗       
+758   +43.006GFLSHFRC+57.021PGR-1.0000     NotChecked  -16.6889    1375.6568   ✗       
+759   GFLSHFC+57.021PGR        -1.0000     NotChecked  -16.6891    1176.5498   ✗       
+760   +42.011DFLSHRC+57.021PGK -1.0000     NotChecked  -16.6892    1257.5924   ✗       
+761   +42.011GFLSHFFC+57.021PR -1.0000     NotChecked  -16.6897    1308.6074   ✗       
+762   +42.011FLSHGRC+57.021PK  -1.0000     NotChecked  -16.6898    1142.5655   ✗       
+763   GFLSHYYC+57.021PPR       -1.0000     NotChecked  -16.6900    1395.6394   ✗       
+764   GFLSHYYC+57.021GK        -1.0000     NotChecked  -16.6901    1230.5492   ✗       
+765   +42.011GFFSHFRC+57.021PGK-1.0000     NotChecked  -16.6902    1380.6397   ✗       
+766   +43.006FLSHRC+57.021K    -1.0000     NotChecked  -16.6906    989.4865    ✗       
+767   +43.006DFLSHFYC+57.021PGK-1.0000     NotChecked  -16.6909    1412.6183   ✗       
+768   +43.006FFSHYRC+57.021PK  -1.0000     NotChecked  -16.6920    1283.5870   ✗       
+769   +43.006DFLSHYC+57.021C+57.021K-1.0000     NotChecked  -16.6933    1271.5063   ✗       
+770   +43.006FLSHYC+57.021PPK  -1.0000     NotChecked  -16.6955    1190.5543   ✗       
+771   DFLSHYDC+57.021PK        -1.0000     NotChecked  -16.6957    1280.5496   ✗       
+772   +42.011DFLSHFEC+57.021PGK-1.0000     NotChecked  -16.6959    1377.6023   ✗       
+773   +42.011DFFSHC+57.021C+57.021PR-1.0000     NotChecked  -16.6960    1266.4910   ✗       
+774   +42.011GFLSHC+57.021C+57.021PK-1.0000     NotChecked  -16.6961    1146.4950   ✗       
+775   +43.006GFLSHYC+57.021C+57.021GK-1.0000     NotChecked  -16.6962    1270.5223   ✗       
+776   +42.011FLSHYDC+57.021PR  -1.0000     NotChecked  -16.6962    1235.5393   ✗       
+777   GFLSHYC+57.021K          -1.0000     NotChecked  -16.6963    1010.4644   ✗       
+778   GFFSHYYC+57.021PK        -1.0000     NotChecked  -16.6977    1304.5648   ✗       
+779   GFLSHYDC+57.021PGK       -1.0000     NotChecked  -16.6987    1279.5656   ✗       
+780   +42.011GFFSHC+57.021C+57.021PGR-1.0000     NotChecked  -16.6990    1265.5070   ✗       
+781   +43.006GFLSHRC+57.021PC+57.021K-1.0000     NotChecked  -16.6995    1303.5914   ✗       
+782   GFLSHYC+57.021C+57.021PGK-1.0000     NotChecked  -16.6999    1324.5693   ✗       
+783   +42.011GFLSHYYC+57.021PK -1.0000     NotChecked  -16.7003    1312.5910   ✗       
+784   +42.011FLSHEC+57.021PPK  -1.0000     NotChecked  -16.7006    1155.5383   ✗       
+785   +43.006FLSHYEC+57.021PGK -1.0000     NotChecked  -16.7007    1279.5656   ✗       
+786   GFLSHYEC+57.021PR        -1.0000     NotChecked  -16.7014    1264.5659   ✗       
+787   +42.011GFLSHGC+57.021C+57.021PK-1.0000     NotChecked  -16.7016    1203.5165   ✗       
+788   +43.006GFLSHC+57.021C+57.021K-1.0000     NotChecked  -16.7024    1050.4375   ✗       
+789   +42.011FLSHFC+57.021C+57.021PPK-1.0000     NotChecked  -16.7035    1333.5948   ✗       
+790   FLSHFYC+57.021PK         -1.0000     NotChecked  -16.7037    1197.5641   ✗       
+791   +43.006GFFSHYC+57.021C+57.021PK-1.0000     NotChecked  -16.7039    1344.5380   ✗       
+792   +42.011GFLSHYRC+57.021PR -1.0000     NotChecked  -16.7041    1333.6350   ✗       
+793   GFLSHDC+57.021PK         -1.0000     NotChecked  -16.7049    1059.4808   ✗       
+794   +42.011DFLSHFC+57.021PPR -1.0000     NotChecked  -16.7052    1316.5972   ✗       
+795   +42.011DFLSHFC+57.021GK  -1.0000     NotChecked  -16.7052    1151.5070   ✗       
+796   +42.011DFLSHYYC+57.021PK -1.0000     NotChecked  -16.7061    1370.5965   ✗       
+797   GFLSHC+57.021C+57.021PK  -1.0000     NotChecked  -16.7061    1104.4845   ✗       
+798   +43.006FLSHEC+57.021PK   -1.0000     NotChecked  -16.7069    1059.4808   ✗       
+799   +42.011DFLSHYC+57.021GR  -1.0000     NotChecked  -16.7076    1195.5080   ✗       
+800   +42.011EFLSHRC+57.021PK  -1.0000     NotChecked  -16.7092    1214.5866   ✗       
+801   +43.006FLSHFC+57.021C+57.021PK-1.0000     NotChecked  -16.7098    1237.5372   ✗       
+802   +43.006GFLSHYRC+57.021R  -1.0000     NotChecked  -16.7104    1237.5775   ✗       
+803   +43.006DFLSHFC+57.021PR  -1.0000     NotChecked  -16.7115    1220.5397   ✗       
+804   +42.011GFFSHYRC+57.021K  -1.0000     NotChecked  -16.7118    1242.5604   ✗       
+805   +43.006DFFSHRC+57.021PGK -1.0000     NotChecked  -16.7120    1292.5720   ✗       
+806   +43.006DFLSHYYC+57.021K  -1.0000     NotChecked  -16.7124    1274.5390   ✗       
+807   DFLSHFRC+57.021PGR       -1.0000     NotChecked  -16.7124    1390.6564   ✗       
+808   +42.011DFFSHFC+57.021PK  -1.0000     NotChecked  -16.7129    1225.5226   ✗       
+809   +43.006GFLSHYFC+57.021PPK-1.0000     NotChecked  -16.7130    1394.6441   ✗       
+810   GFLSHYRC+57.021PR        -1.0000     NotChecked  -16.7141    1291.6244   ✗       
+811   +43.006GFLSHFC+57.021PGR -1.0000     NotChecked  -16.7145    1219.5557   ✗       
+812   +42.011DFLSHYDC+57.021PPK-1.0000     NotChecked  -16.7147    1419.6129   ✗       
+813   +42.011DFFSHYC+57.021PR  -1.0000     NotChecked  -16.7152    1269.5237   ✗       
+814   +42.011GFLSHYC+57.021PK  -1.0000     NotChecked  -16.7153    1149.5277   ✗       
+815   +43.006GFLSHYYC+57.021GK -1.0000     NotChecked  -16.7154    1273.5550   ✗       
+816   +42.011GFFSHFC+57.021PGK -1.0000     NotChecked  -16.7159    1224.5386   ✗       
+817   +42.011DFLSHDC+57.021PGR -1.0000     NotChecked  -16.7162    1244.5244   ✗       
+818   FLSHRC+57.021PPR         -1.0000     NotChecked  -16.7171    1168.5924   ✗       
+819   FLSHRC+57.021GK          -1.0000     NotChecked  -16.7171    1003.5022   ✗       
+820   +42.011DFLSHYEC+57.021K  -1.0000     NotChecked  -16.7175    1239.5230   ✗       
+821   +42.011FLSHFRC+57.021K   -1.0000     NotChecked  -16.7177    1135.5597   ✗       
+822   FLSHYFC+57.021PR         -1.0000     NotChecked  -16.7181    1225.5702   ✗       
+823   +42.011GFFSHYC+57.021PGR -1.0000     NotChecked  -16.7182    1268.5397   ✗       
+824   FFSHYRC+57.021PGK        -1.0000     NotChecked  -16.7186    1297.6026   ✗       
+825   GFLSHYYC+57.021PGK       -1.0000     NotChecked  -16.7191    1327.6019   ✗       
+826   DFLSHYC+57.021C+57.021GK -1.0000     NotChecked  -16.7198    1285.5220   ✗       
+827   GFLSHFRC+57.021PPK       -1.0000     NotChecked  -16.7201    1344.6761   ✗       
+828   +42.011FLSHYC+57.021C+57.021GR-1.0000     NotChecked  -16.7203    1240.5118   ✗       
+829   +42.011GFLSHYEC+57.021PPR-1.0000     NotChecked  -16.7204    1403.6292   ✗       
+830   +42.011GFLSHYEC+57.021GK -1.0000     NotChecked  -16.7205    1238.5390   ✗       
+831   +42.011GFLSHGYC+57.021PK -1.0000     NotChecked  -16.7208    1206.5492   ✗       
+832   +43.006DFLSHYDC+57.021PK -1.0000     NotChecked  -16.7211    1323.5554   ✗       
+833   +42.011FLSHYRC+57.021PGK -1.0000     NotChecked  -16.7211    1305.6288   ✗       
+834   +43.006GFLSHYC+57.021K   -1.0000     NotChecked  -16.7216    1053.4702   ✗       
+835   +42.011FLSHFYC+57.021PPK -1.0000     NotChecked  -16.7227    1336.6274   ✗       
+836   +42.011DFLSHSRC+57.021PK -1.0000     NotChecked  -16.7227    1287.6030   ✗       
+837   +43.006GFFSHYYC+57.021PK -1.0000     NotChecked  -16.7231    1347.5706   ✗       
+838   DFLSHRC+57.021PC+57.021K -1.0000     NotChecked  -16.7231    1318.5911   ✗       
+839   +42.011FLSHRC+57.021PC+57.021R-1.0000     NotChecked  -16.7236    1273.5808   ✗       
+840   +42.011GFLSHDC+57.021PPK -1.0000     NotChecked  -16.7239    1198.5441   ✗       
+841   +43.006GFLSHYDC+57.021PGK-1.0000     NotChecked  -16.7240    1322.5714   ✗       
+842   FFSHRC+57.021PK          -1.0000     NotChecked  -16.7248    1077.5178   ✗       
+843   GFLSHYC+57.021PK         -1.0000     NotChecked  -16.7253    1107.5172   ✗       
+844   +42.011GFLSHSRC+57.021PGK-1.0000     NotChecked  -16.7257    1286.6190   ✗       
+845   GGFLSHYC+57.021C+57.021PR-1.0000     NotChecked  -16.7260    1352.5754   ✗       
+846   DFLSHC+57.021C+57.021K   -1.0000     NotChecked  -16.7260    1065.4372   ✗       
+847   +42.011FLSHC+57.021C+57.021R-1.0000     NotChecked  -16.7265    1020.4270   ✗       
+848   +42.011GFLSHEC+57.021K   -1.0000     NotChecked  -16.7267    1018.4542   ✗       
+849   +43.006GFLSHYEC+57.021PR -1.0000     NotChecked  -16.7268    1307.5717   ✗       
+850   +42.011FLSHRC+57.021PK   -1.0000     NotChecked  -16.7273    1085.5440   ✗       
+851   DFFSHYC+57.021C+57.021PK -1.0000     NotChecked  -16.7275    1359.5376   ✗       
+852   +42.011FFSHYC+57.021C+57.021PR-1.0000     NotChecked  -16.7280    1314.5274   ✗       
+853   +42.011GFFSHYEC+57.021PK -1.0000     NotChecked  -16.7281    1312.5547   ✗       
+854   GFLSHC+57.021C+57.021PPR -1.0000     NotChecked  -16.7289    1229.5434   ✗       
+855   GFLSHC+57.021C+57.021GK  -1.0000     NotChecked  -16.7290    1064.4532   ✗       
+856   +43.006FLSHFYC+57.021PK  -1.0000     NotChecked  -16.7290    1240.5699   ✗       
+857   +42.011GFLSHFC+57.021C+57.021K-1.0000     NotChecked  -16.7296    1196.5107   ✗       
+858   +42.011DFLSHYC+57.021C+57.021PK-1.0000     NotChecked  -16.7300    1367.5638   ✗       
+859   +43.006GFLSHDC+57.021PK  -1.0000     NotChecked  -16.7303    1102.4866   ✗       
+860   GFFSHYC+57.021C+57.021PGK-1.0000     NotChecked  -16.7304    1358.5536   ✗       
+861   +42.011GFLSHYC+57.021C+57.021PGK-1.0000     NotChecked  -16.7330    1366.5798   ✗       
+862   FLSHEC+57.021PGK         -1.0000     NotChecked  -16.7335    1073.4964   ✗       
+863   DFLSHYRC+57.021R         -1.0000     NotChecked  -16.7340    1252.5771   ✗       
+864   +42.011FLSHFEC+57.021PK  -1.0000     NotChecked  -16.7341    1205.5539   ✗       
+865   GDFLSHRC+57.021PGR       -1.0000     NotChecked  -16.7341    1300.6095   ✗       
+866   +42.011DFLSHYLC+57.021PK -1.0000     NotChecked  -16.7354    1320.6173   ✗       
+867   +42.011GFLSHC+57.021C+57.021PC+57.021R-1.0000     NotChecked  -16.7354    1334.5318   ✗       
+868   FLSHFC+57.021C+57.021PGK -1.0000     NotChecked  -16.7364    1251.5529   ✗       
+869   DFLSHYFC+57.021PPK       -1.0000     NotChecked  -16.7366    1409.6438   ✗       
+870   GFFSHC+57.021C+57.021PK  -1.0000     NotChecked  -16.7366    1138.4688   ✗       
+871   GFLSHYRC+57.021GR        -1.0000     NotChecked  -16.7370    1251.5931   ✗       
+872   +42.011FLSHYFC+57.021PPR -1.0000     NotChecked  -16.7371    1364.6336   ✗       
+873   +42.011FLSHYFC+57.021GK  -1.0000     NotChecked  -16.7372    1199.5434   ✗       
+874   DFLSHFC+57.021PGR        -1.0000     NotChecked  -16.7381    1234.5553   ✗       
+875   +42.011GFLSHYLC+57.021PGK-1.0000     NotChecked  -16.7384    1319.6332   ✗       
+876   +42.011DFLSHFFC+57.021PR -1.0000     NotChecked  -16.7387    1366.6128   ✗       
+877   DFLSHYYC+57.021GK        -1.0000     NotChecked  -16.7390    1288.5547   ✗       
+878   +42.011GFLSHC+57.021C+57.021PK-1.0000     NotChecked  -16.7392    1146.4950   ✗       
+879   +42.011FLSHYYC+57.021GR  -1.0000     NotChecked  -16.7395    1243.5444   ✗       
+880   +42.011GFLSHFFC+57.021PGR-1.0000     NotChecked  -16.7417    1365.6288   ✗       
+881   +42.011FLSHGRC+57.021PGK -1.0000     NotChecked  -16.7417    1199.5870   ✗       
+882   GGFLSHRC+57.021PPK       -1.0000     NotChecked  -16.7418    1254.6292   ✗       
+883   +43.006FLSHRC+57.021PPR  -1.0000     NotChecked  -16.7424    1211.5982   ✗       
+884   +43.006FLSHRC+57.021GK   -1.0000     NotChecked  -16.7425    1046.5080   ✗       
+885   GGFLSHYFC+57.021PK       -1.0000     NotChecked  -16.7428    1311.6070   ✗       
+886   GFLSHRC+57.021R          -1.0000     NotChecked  -16.7432    1031.5083   ✗       
+887   +42.011FLSHFC+57.021K    -1.0000     NotChecked  -16.7434    979.4586    ✗       
+888   +43.006FLSHYFC+57.021PR  -1.0000     NotChecked  -16.7435    1268.5761   ✗       
+889   +42.011FFSHRC+57.021PPK  -1.0000     NotChecked  -16.7438    1216.5811   ✗       
+890   +43.006FFSHYRC+57.021PGK -1.0000     NotChecked  -16.7439    1340.6084   ✗       
+891   +42.011GFLSHLC+57.021PK  -1.0000     NotChecked  -16.7446    1099.5485   ✗       
+892   GFFSHYRC+57.021PR        -1.0000     NotChecked  -16.7446    1325.6088   ✗       
+893   +42.011FFSHYFC+57.021PK  -1.0000     NotChecked  -16.7448    1273.5590   ✗       
+894   +42.011DFLSHC+57.021C+57.021PK-1.0000     NotChecked  -16.7450    1204.5005   ✗       
+895   +43.006DFLSHYC+57.021C+57.021GK-1.0000     NotChecked  -16.7452    1328.5278   ✗       
+896   GGFLSHYYC+57.021PR       -1.0000     NotChecked  -16.7452    1355.6081   ✗       
+897   DFLSHYC+57.021K          -1.0000     NotChecked  -16.7452    1068.4699   ✗       
+898   +43.006GFLSHFRC+57.021PPK-1.0000     NotChecked  -16.7455    1387.6819   ✗       
+899   +42.011FLSHYC+57.021R    -1.0000     NotChecked  -16.7457    1023.4596   ✗       
+900   GFLSHFC+57.021PPK        -1.0000     NotChecked  -16.7458    1188.5750   ✗       
+901   DFFSHYYC+57.021PK        -1.0000     NotChecked  -16.7467    1362.5703   ✗       
+902   +42.011FFSHYYC+57.021PR  -1.0000     NotChecked  -16.7472    1317.5601   ✗       
+903   +42.011GFLSHYRC+57.021PR -1.0000     NotChecked  -16.7472    1333.6350   ✗       
+904   DFLSHYDC+57.021PGK       -1.0000     NotChecked  -16.7476    1337.5710   ✗       
+905   +42.011DFFSHC+57.021C+57.021PGR-1.0000     NotChecked  -16.7480    1323.5125   ✗       
+906   GFLSHYC+57.021PPR        -1.0000     NotChecked  -16.7481    1232.5761   ✗       
+907   +42.011FLSHYDC+57.021PGR -1.0000     NotChecked  -16.7481    1292.5608   ✗       
+908   GFLSHYC+57.021GK         -1.0000     NotChecked  -16.7482    1067.4859   ✗       
+909   +43.006DFLSHRC+57.021PC+57.021K-1.0000     NotChecked  -16.7484    1361.5969   ✗       
+910   +42.011GFLSHFYC+57.021K  -1.0000     NotChecked  -16.7488    1199.5434   ✗       
+911   +42.011DFLSHYYC+57.021PK -1.0000     NotChecked  -16.7492    1370.5965   ✗       
+912   GFFSHYYC+57.021PGK       -1.0000     NotChecked  -16.7496    1361.5863   ✗       
+913   +43.006FFSHRC+57.021PK   -1.0000     NotChecked  -16.7502    1120.5236   ✗       
+914   DFLSHYEC+57.021PR        -1.0000     NotChecked  -16.7504    1322.5714   ✗       
+915   +42.011DFLSHGC+57.021C+57.021PK-1.0000     NotChecked  -16.7506    1261.5220   ✗       
+916   FLSHFRC+57.021PR         -1.0000     NotChecked  -16.7506    1218.6080   ✗       
+917   +43.006DFLSHC+57.021C+57.021K-1.0000     NotChecked  -16.7514    1108.4430   ✗       
+918   +42.011GFLSHYYC+57.021PGK-1.0000     NotChecked  -16.7522    1369.6125   ✗       
+919   +42.011GFLSHFC+57.021PC+57.021K-1.0000     NotChecked  -16.7523    1293.5635   ✗       
+920   +43.006DFFSHYC+57.021C+57.021PK-1.0000     NotChecked  -16.7528    1402.5434   ✗       
+921   +42.011DFLSHYRC+57.021PR -1.0000     NotChecked  -16.7530    1391.6405   ✗       
+922   GFLSHYEC+57.021PGR       -1.0000     NotChecked  -16.7533    1321.5874   ✗       
+923   +42.011GFLSHGC+57.021C+57.021PGK-1.0000     NotChecked  -16.7535    1260.5380   ✗       
+924   DFLSHDC+57.021PK         -1.0000     NotChecked  -16.7538    1117.4862   ✗       
+925   +43.006GFLSHC+57.021C+57.021PPR-1.0000     NotChecked  -16.7543    1272.5492   ✗       
+926   +43.006GFLSHC+57.021C+57.021GK-1.0000     NotChecked  -16.7543    1107.4590   ✗       
+927   +42.011FLSHDC+57.021PR   -1.0000     NotChecked  -16.7544    1072.4760   ✗       
+928   +42.011GFLSHYC+57.021PC+57.021R-1.0000     NotChecked  -16.7546    1337.5645   ✗       
+929   FLSHYRC+57.021PC+57.021K -1.0000     NotChecked  -16.7550    1366.6274   ✗       
+930   FLSHFYC+57.021PGK        -1.0000     NotChecked  -16.7556    1254.5856   ✗       
+931   +42.011GFFSHC+57.021C+57.021PPK-1.0000     NotChecked  -16.7557    1277.5322   ✗       
+932   +43.006GFFSHYC+57.021C+57.021PGK-1.0000     NotChecked  -16.7558    1401.5594   ✗       
+933   GFFSHYC+57.021PK         -1.0000     NotChecked  -16.7558    1141.5015   ✗       
+934   GFLSHDC+57.021PGK        -1.0000     NotChecked  -16.7568    1116.5022   ✗       
+935   +42.011GFLSHFDC+57.021PK -1.0000     NotChecked  -16.7574    1248.5597   ✗       
+936   FLSHYC+57.021C+57.021K   -1.0000     NotChecked  -16.7580    1113.4736   ✗       
+937   GFLSHC+57.021C+57.021PGK -1.0000     NotChecked  -16.7580    1161.5059   ✗       
+938   +42.011GFLSHYC+57.021PK  -1.0000     NotChecked  -16.7584    1149.5277   ✗       
+939   +43.006FLSHEC+57.021PGK  -1.0000     NotChecked  -16.7588    1116.5022   ✗       
+940   +43.006DFLSHYRC+57.021R  -1.0000     NotChecked  -16.7594    1295.5829   ✗       
+941   GFLSHEC+57.021PR         -1.0000     NotChecked  -16.7595    1101.5026   ✗       
+942   +42.011DFFSHYRC+57.021K  -1.0000     NotChecked  -16.7607    1300.5659   ✗       
+943   +42.011EFLSHRC+57.021PGK -1.0000     NotChecked  -16.7611    1271.6081   ✗       
+944   +43.006FLSHFC+57.021C+57.021PGK-1.0000     NotChecked  -16.7617    1294.5587   ✗       
+945   +43.006GFFSHC+57.021C+57.021PK-1.0000     NotChecked  -16.7620    1181.4746   ✗       
+946   +42.011GFLSHRC+57.021PR  -1.0000     NotChecked  -16.7622    1170.5716   ✗       
+947   +43.006GFLSHYRC+57.021GR -1.0000     NotChecked  -16.7623    1294.5989   ✗       
+948   GFLSHFC+57.021C+57.021PR -1.0000     NotChecked  -16.7624    1279.5590   ✗       
+949   +42.011GFLSHYFC+57.021R  -1.0000     NotChecked  -16.7632    1227.5495   ✗       
+950   +43.006DFLSHFC+57.021PGR -1.0000     NotChecked  -16.7634    1277.5611   ✗       
+951   +42.011GFFSHYRC+57.021GK -1.0000     NotChecked  -16.7637    1299.5819   ✗       
+952   +42.011DFLSHYC+57.021PK  -1.0000     NotChecked  -16.7642    1207.5332   ✗       
+953   +43.006DFLSHYYC+57.021GK -1.0000     NotChecked  -16.7643    1331.5605   ✗       
+954   +42.011DFFSHFC+57.021PGK -1.0000     NotChecked  -16.7648    1282.5441   ✗       
+955   GFLSHYRC+57.021PGR       -1.0000     NotChecked  -16.7660    1348.6459   ✗       
+956   GFLSHYC+57.021C+57.021PC+57.021K-1.0000     NotChecked  -16.7669    1427.5785   ✗       
+957   +42.011DFFSHYC+57.021PGR -1.0000     NotChecked  -16.7671    1326.5452   ✗       
+958   +42.011GFLSHGRC+57.021PR -1.0000     NotChecked  -16.7677    1227.5931   ✗       
+959   +43.006GFLSHRC+57.021R   -1.0000     NotChecked  -16.7686    1074.5141   ✗       
+960   DFLSHFRC+57.021PPK       -1.0000     NotChecked  -16.7691    1402.6816   ✗       
+961   +42.011DFLSHYEC+57.021GK -1.0000     NotChecked  -16.7694    1296.5445   ✗       
+962   +42.011FLSHFRC+57.021PPR -1.0000     NotChecked  -16.7696    1357.6714   ✗       
+963   +42.011FLSHFRC+57.021GK  -1.0000     NotChecked  -16.7697    1192.5811   ✗       
+964   +42.011DFLSHGYC+57.021PK -1.0000     NotChecked  -16.7697    1264.5547   ✗       
+965   +42.011GFFSHRC+57.021K   -1.0000     NotChecked  -16.7699    1079.4971   ✗       
+966   +43.006GFFSHYRC+57.021PR -1.0000     NotChecked  -16.7700    1368.6146   ✗       
+967   FLSHYFC+57.021PGR        -1.0000     NotChecked  -16.7700    1282.5917   ✗       
+968   +43.006DFLSHYC+57.021K   -1.0000     NotChecked  -16.7706    1111.4757   ✗       
+969   +43.006GFLSHFC+57.021PPK -1.0000     NotChecked  -16.7711    1231.5808   ✗       
+970   +43.006DFFSHYYC+57.021PK -1.0000     NotChecked  -16.7720    1405.5761   ✗       
+971   GFLSHRC+57.021PR         -1.0000     NotChecked  -16.7723    1128.5611   ✗       
+972   +42.011GFLSHGYC+57.021PGK-1.0000     NotChecked  -16.7727    1263.5706   ✗       
+973   +42.011DFLSHDC+57.021PPK -1.0000     NotChecked  -16.7728    1256.5496   ✗       
+974   +43.006DFLSHYDC+57.021PGK-1.0000     NotChecked  -16.7730    1380.5769   ✗       
+975   +43.006GFLSHYC+57.021PPR -1.0000     NotChecked  -16.7735    1275.5819   ✗       
+976   +43.006GFLSHYC+57.021GK  -1.0000     NotChecked  -16.7735    1110.4917   ✗       
+977   +42.011DFLSHSRC+57.021PGK-1.0000     NotChecked  -16.7746    1344.6245   ✗       
+978   +42.011GFFSHYC+57.021PPK -1.0000     NotChecked  -16.7748    1280.5648   ✗       
+979   GDFLSHYC+57.021C+57.021PR-1.0000     NotChecked  -16.7749    1410.5809   ✗       
+980   +43.006GFFSHYYC+57.021PGK-1.0000     NotChecked  -16.7750    1404.5921   ✗       
+981   GGFLSHFRC+57.021PK       -1.0000     NotChecked  -16.7753    1304.6448   ✗       
+982   +42.011DFLSHEC+57.021K   -1.0000     NotChecked  -16.7756    1076.4597   ✗       
+983   +43.006DFLSHYEC+57.021PR -1.0000     NotChecked  -16.7757    1365.5772   ✗       
+984   +43.006FLSHFRC+57.021PR  -1.0000     NotChecked  -16.7759    1261.6138   ✗       
+985   FLSHFC+57.021PR          -1.0000     NotChecked  -16.7762    1062.5069   ✗       
+986   FFSHRC+57.021PGK         -1.0000     NotChecked  -16.7767    1134.5393   ✗       
+987   +42.011FLSHYC+57.021C+57.021PK-1.0000     NotChecked  -16.7770    1252.5369   ✗       
+988   +42.011DFFSHYEC+57.021PK -1.0000     NotChecked  -16.7771    1370.5601   ✗       
+989   FLSHYYC+57.021K          -1.0000     NotChecked  -16.7771    1116.5063   ✗       
+990   GFLSHYC+57.021PGK        -1.0000     NotChecked  -16.7772    1164.5386   ✗       
+991   +42.011FFSHFRC+57.021PK  -1.0000     NotChecked  -16.7773    1266.5968   ✗       
+992   DFLSHC+57.021C+57.021PPR -1.0000     NotChecked  -16.7779    1287.5489   ✗       
+993   GGFLSHYC+57.021C+57.021PGR-1.0000     NotChecked  -16.7779    1409.5969   ✗       
+994   DFLSHC+57.021C+57.021GK  -1.0000     NotChecked  -16.7779    1122.4587   ✗       
+995   +42.011FLSHC+57.021C+57.021GR-1.0000     NotChecked  -16.7784    1077.4484   ✗       
+996   +42.011DFLSHFC+57.021C+57.021K-1.0000     NotChecked  -16.7785    1254.5162   ✗       
+997   +42.011GFLSHEC+57.021PPR -1.0000     NotChecked  -16.7785    1240.5659   ✗       
+998   +42.011GFLSHEC+57.021GK  -1.0000     NotChecked  -16.7786    1075.4757   ✗       
+999   +43.006GFLSHYEC+57.021PGR-1.0000     NotChecked  -16.7787    1364.5932   ✗       
+1000  +43.006DFLSHDC+57.021PK  -1.0000     NotChecked  -16.7792    1160.4921   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: +43.006DFLSHFRC+57.021PGR
+Similarity: 0.3726
+De Novo Score: -16.7378
+Source: Prosit
+Correct: ✗
+

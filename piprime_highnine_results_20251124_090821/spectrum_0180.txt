@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 180
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 514.2235
+Precursor charge: 2+
+Ground truth: ETDDKIC+57.021F
+Ground truth (normalized): ETDDKIC+57.021F
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 83
+Used for reranking: 83
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 83 (8.3%)
+Database matches: 25 (2.5%)
+Prosit predictions: 48 (4.8%)
+Failed: 10 (1.0%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.8324
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     ETDDKLC+57.021F          0.8324      Database    -0.7390     1026.4328   ✓       ✓
+2     ETDDKLC+57.021F          0.8324      Database    -4.7348     1026.4328   ✓       ✓
+3     ETDDKLC+57.021F          0.8324      Database    -6.9100     1026.4328   ✓       ✓
+4     ETDDKLC+57.021F          0.8324      Database    -7.0567     1026.4328   ✓       ✓
+5     ETDDKLC+57.021F          0.8324      Database    -7.3797     1026.4328   ✓       ✓
+6     ETDDKLC+57.021F          0.8324      Database    -7.7773     1026.4328   ✓       ✓
+7     ETDDKLC+57.021F          0.8324      Database    -9.4916     1026.4328   ✓       ✓
+8     ETDDKLC+57.021F          0.8324      Database    -10.1864    1026.4328   ✓       ✓
+9     ETDDKLC+57.021F          0.8324      Database    -10.1962    1026.4328   ✓       ✓
+10    ETDDKLC+57.021F          0.8324      Database    -10.4428    1026.4328   ✓       ✓
+11    ETDDKLC+57.021F          0.8324      Database    -10.6983    1026.4328   ✓       ✓
+12    ETDDKLC+57.021F          0.8324      Database    -11.0526    1026.4328   ✓       ✓
+13    ETDDKLC+57.021F          0.8324      Database    -11.3755    1026.4328   ✓       ✓
+14    ETDDKLC+57.021F          0.8324      Database    -11.7731    1026.4328   ✓       ✓
+15    ETDDKLC+57.021F          0.8324      Database    -12.3191    1026.4328   ✓       ✓
+16    ETDDKLC+57.021F          0.8324      Database    -12.9256    1026.4328   ✓       ✓
+17    ETDDKLC+57.021F          0.8324      Database    -13.0432    1026.4328   ✓       ✓
+18    ETDDKLC+57.021F          0.8324      Database    -13.2277    1026.4328   ✓       ✓
+19    ETDDKLC+57.021F          0.8324      Database    -13.4874    1026.4328   ✓       ✓
+20    ETDDKLC+57.021F          0.8324      Database    -13.5507    1026.4328   ✓       ✓
+21    ETDDKLC+57.021F          0.8324      Database    -13.9483    1026.4328   ✓       ✓
+22    ETDDKLC+57.021F          0.8324      Database    -14.0950    1026.4328   ✓       ✓
+23    ETDDKLC+57.021F          0.8324      Database    -14.1920    1026.4328   ✓       ✓
+24    ETDDKLC+57.021F          0.8324      Database    -14.4180    1026.4328   ✓       ✓
+25    ETDDKLC+57.021F          0.8324      Database    -14.4386    1026.4328   ✓       ✓
+26    Q+0.984TN+0.984DKLC+57.021F0.3968      Prosit      -9.7199     1026.4328   ✓       
+27    Q+0.984TN+0.984DKLC+57.021F0.3968      Prosit      -13.7157    1026.4328   ✓       
+28    ETN+0.984N+0.984KLC+57.021F0.3881      Prosit      -11.0947    1026.4328   ✓       
+29    ETN+0.984DKLC+57.021F    0.3776      Prosit      -5.6014     1026.4328   ✓       
+30    ETN+0.984DKLC+57.021F    0.3776      Prosit      -9.5973     1026.4328   ✓       
+31    ETN+0.984DKLC+57.021F    0.3776      Prosit      -11.7725    1026.4328   ✓       
+32    ETN+0.984DKLC+57.021F    0.3776      Prosit      -11.9192    1026.4328   ✓       
+33    ETN+0.984DKLC+57.021F    0.3776      Prosit      -12.2421    1026.4328   ✓       
+34    ETN+0.984DKLC+57.021F    0.3776      Prosit      -12.6397    1026.4328   ✓       
+35    ETN+0.984DKLC+57.021F    0.3776      Prosit      -14.3541    1026.4328   ✓       
+36    MVDDKLC+57.021F          0.3660      Prosit      -7.3846     1026.4514   ✓       
+37    MVDDKLC+57.021F          0.3660      Prosit      -11.3804    1026.4514   ✓       
+38    MVDDKLC+57.021F          0.3660      Prosit      -13.5556    1026.4514   ✓       
+39    MVDDKLC+57.021F          0.3660      Prosit      -14.4229    1026.4514   ✓       
+40    DTEDKLC+57.021F          0.3614      Prosit      -10.9185    1026.4328   ✓       
+41    MVN+0.984DKLC+57.021F    0.3583      Prosit      -12.2470    1026.4514   ✓       
+42    MVDN+0.984KLC+57.021F    0.3517      Prosit      -12.8778    1026.4514   ✓       
+43    M+15.995VVDKLC+57.021F   0.3484      Prosit      -12.6307    1026.4878   ✓       
+44    LTMDKLC+57.021F          0.3482      Prosit      -10.8325    1026.4878   ✓       
+45    MTLDKLC+57.021F          0.3461      Prosit      -13.1353    1026.4878   ✓       
+46    MTDLKLC+57.021F          0.3424      Prosit      -12.7906    1026.4878   ✓       
+47    Q+0.984TDN+0.984KLC+57.021F0.3419      Prosit      -10.3507    1026.4328   ✓       
+48    Q+0.984TDN+0.984KLC+57.021F0.3419      Prosit      -14.3465    1026.4328   ✓       
+49    EDTDKLC+57.021F          0.3394      Prosit      -11.5377    1026.4328   ✓       
+50    EVDDKDC+57.021F          0.3390      Prosit      -10.8388    1026.3964   ✓       
+51    ETDN+0.984KLC+57.021F    0.3336      Prosit      -6.2322     1026.4328   ✓       
+52    ETDN+0.984KLC+57.021F    0.3336      Prosit      -10.2280    1026.4328   ✓       
+53    ETDN+0.984KLC+57.021F    0.3336      Prosit      -12.4032    1026.4328   ✓       
+54    ETDN+0.984KLC+57.021F    0.3336      Prosit      -12.5500    1026.4328   ✓       
+55    ETDN+0.984KLC+57.021F    0.3336      Prosit      -12.8729    1026.4328   ✓       
+56    ETDN+0.984KLC+57.021F    0.3336      Prosit      -13.2705    1026.4328   ✓       
+57    TLMDKLC+57.021F          0.3336      Prosit      -11.8842    1026.4878   ✓       
+58    DVMDKLC+57.021F          0.3332      Prosit      -11.6020    1026.4514   ✓       
+59    TEDDKLC+57.021F          0.3318      Prosit      -10.4847    1026.4328   ✓       
+60    TEDDKLC+57.021F          0.3318      Prosit      -14.4805    1026.4328   ✓       
+61    EDDTKLC+57.021F          0.3300      Prosit      -14.1812    1026.4328   ✓       
+62    Q+0.984TDDKLC+57.021M+15.9950.3282      Prosit      -14.2959    1026.3998   ✓       
+63    EEDSKLC+57.021F          0.3242      Prosit      -13.2218    1026.4328   ✓       
+64    +42.011STDDKLC+57.021F   0.3219      Prosit      -13.5914    1026.4328   ✓       
+65    DDDDKLC+57.021F          0.3212      Prosit      -10.3858    1026.3964   ✓       
+66    DDDDKLC+57.021F          0.3212      Prosit      -14.3816    1026.3964   ✓       
+67    EDDDKVC+57.021F          0.3131      Prosit      -14.5337    1026.3964   ✓       
+68    ESDEKLC+57.021F          0.3055      Prosit      -13.7666    1026.4328   ✓       
+69    ETDDKLC+57.021M+15.995   0.3022      Prosit      -10.1775    1026.3998   ✓       
+70    ETDDKLC+57.021M+15.995   0.3022      Prosit      -14.1733    1026.3998   ✓       
+71    M+15.995TDPKLC+57.021F   0.3022      Prosit      -14.0451    1026.4514   ✓       
+72    QTDDKNC+57.021F          0.2842      Prosit      -13.1951    1026.4077   ✓       
+73    QTDDELC+57.021F          0.2583      Prosit      -13.5087    1026.3964   ✓       
+74    EVDDKLC+57.021F          -1.0000     NotChecked  -1.6031     1024.4535   ✗       
+75    QTDDKLC+57.021F          -1.0000     NotChecked  -3.8524     1025.4488   ✗       
+76    -17.027TDDKLC+57.021F    -1.0000     NotChecked  -4.0235     880.3637    ✗       
+77    EPDDKLC+57.021F          -1.0000     NotChecked  -4.0682     1022.4379   ✗       
+78    QVDDKLC+57.021F          -1.0000     NotChecked  -4.7165     1023.4695   ✗       
+79    Q+0.984TDDKLC+57.021F    -1.0000     Failed      -4.8574     1026.4328   ✓       
+80    -17.027VDDKLC+57.021F    -1.0000     NotChecked  -4.8876     878.3844    ✗       
+81    TTDDKLC+57.021F          -1.0000     NotChecked  -5.4794     998.4379    ✗       
+82    EVDDKLC+57.021F          -1.0000     NotChecked  -5.5989     1024.4535   ✗       
+83    -17.027LDDKLC+57.021F    -1.0000     NotChecked  -5.6909     892.4001    ✗       
+84    Q+0.984VDDKLC+57.021F    -1.0000     NotChecked  -5.7215     1024.4535   ✗       
+85    DTDDKLC+57.021F          -1.0000     NotChecked  -6.0006     1012.4172   ✗       
+86    ESDDKLC+57.021F          -1.0000     NotChecked  -6.0662     1012.4172   ✗       
+87    LTDDKLC+57.021F          -1.0000     NotChecked  -6.0951     1010.4743   ✗       
+88    +42.011TDDKLC+57.021F    -1.0000     NotChecked  -6.2135     939.4008    ✗       
+89    TVDDKLC+57.021F          -1.0000     NotChecked  -6.3435     996.4586    ✗       
+90    EVN+0.984DKLC+57.021F    -1.0000     NotChecked  -6.4655     1024.4535   ✗       
+91    ETVDKLC+57.021F          -1.0000     NotChecked  -6.6737     1010.4743   ✗       
+92    EADDKLC+57.021F          -1.0000     NotChecked  -6.7461     996.4222    ✗       
+93    DVDDKLC+57.021F          -1.0000     NotChecked  -6.8647     1010.4379   ✗       
+94    LVDDKLC+57.021F          -1.0000     NotChecked  -6.9592     1008.4950   ✗       
+95    ETDLKLC+57.021F          -1.0000     NotChecked  -7.0091     1024.4899   ✗       
+96    +42.011VDDKLC+57.021F    -1.0000     NotChecked  -7.0776     937.4215    ✗       
+97    EVDN+0.984KLC+57.021F    -1.0000     NotChecked  -7.0963     1024.4535   ✗       
+98    TLDDKLC+57.021F          -1.0000     NotChecked  -7.1469     1010.4743   ✗       
+99    ETTDKLC+57.021F          -1.0000     NotChecked  -7.1525     1012.4535   ✗       
+100   QPDDKLC+57.021F          -1.0000     NotChecked  -7.1816     1021.4539   ✗       
+101   ETNDKLC+57.021F          -1.0000     NotChecked  -7.2698     1025.4488   ✗       
+102   -17.027PDDKLC+57.021F    -1.0000     NotChecked  -7.3527     876.3688    ✗       
+103   ETLDKLC+57.021F          -1.0000     NotChecked  -7.3538     1024.4899   ✗       
+104   EVVDKLC+57.021F          -1.0000     NotChecked  -7.5378     1008.4950   ✗       
+105   DLDDKLC+57.021F          -1.0000     NotChecked  -7.6680     1024.4535   ✗       
+106   LLDDKLC+57.021F          -1.0000     NotChecked  -7.7625     1022.5107   ✗       
+107   EVDDKLC+57.021F          -1.0000     NotChecked  -7.7741     1024.4535   ✗       
+108   QTDDKLC+57.021F          -1.0000     NotChecked  -7.8482     1025.4488   ✗       
+109   EVDLKLC+57.021F          -1.0000     NotChecked  -7.8732     1022.5107   ✗       
+110   +42.011LDDKLC+57.021F    -1.0000     NotChecked  -7.8809     951.4372    ✗       
+111   EVTDKLC+57.021F          -1.0000     NotChecked  -8.0165     1010.4743   ✗       
+112   -17.027TDDKLC+57.021F    -1.0000     NotChecked  -8.0193     880.3637    ✗       
+113   EPDDKLC+57.021F          -1.0000     NotChecked  -8.0640     1022.4379   ✗       
+114   EVNDKLC+57.021F          -1.0000     NotChecked  -8.1339     1023.4695   ✗       
+115   Q+0.984PDDKLC+57.021F    -1.0000     NotChecked  -8.1867     1022.4379   ✗       
+116   ETDSKLC+57.021F          -1.0000     NotChecked  -8.2166     998.4379    ✗       
+117   EVLDKLC+57.021F          -1.0000     NotChecked  -8.2179     1022.5107   ✗       
+118   EVDDKLC+57.021F          -1.0000     NotChecked  -8.2438     1024.4535   ✗       
+119   ELVDKLC+57.021F          -1.0000     NotChecked  -8.3412     1022.5107   ✗       
+120   -17.027DDDKLC+57.021F    -1.0000     NotChecked  -8.4087     894.3429    ✗       
+121   EVDDKLC+57.021F          -1.0000     NotChecked  -8.6413     1024.4535   ✗       
+122   QTDDKLC+57.021F          -1.0000     NotChecked  -8.6617     1025.4488   ✗       
+123   QVDDKLC+57.021F          -1.0000     NotChecked  -8.7123     1023.4695   ✗       
+124   QTN+0.984DKLC+57.021F    -1.0000     NotChecked  -8.7149     1025.4488   ✗       
+125   -17.027TMDKLC+57.021F    -1.0000     NotChecked  -8.7608     896.3772    ✗       
+126   TPDDKLC+57.021F          -1.0000     NotChecked  -8.8087     994.4430    ✗       
+127   ELTDKLC+57.021F          -1.0000     NotChecked  -8.8199     1024.4899   ✗       
+128   -17.027QTDDKLC+57.021F   -1.0000     NotChecked  -8.8328     1008.4222   ✗       
+129   ETDDLLC+57.021F          -1.0000     NotChecked  -8.8504     1011.4219   ✗       
+130   Q+0.984TDDKLC+57.021F    -1.0000     Failed      -8.8533     1026.4328   ✓       
+131   -17.027VDDKLC+57.021F    -1.0000     NotChecked  -8.8834     878.3844    ✗       
+132   -17.027TN+0.984DKLC+57.021F-1.0000     NotChecked  -8.8859     880.3637    ✗       
+133   ETDDSLC+57.021F          -1.0000     NotChecked  -8.9110     985.3699    ✗       
+134   EPN+0.984DKLC+57.021F    -1.0000     NotChecked  -8.9307     1022.4379   ✗       
+135   -17.027TEDKLC+57.021F    -1.0000     NotChecked  -8.9414     894.3793    ✗       
+136   ETDPKLC+57.021F          -1.0000     NotChecked  -8.9523     1008.4586   ✗       
+137   -17.027EDDKLC+57.021F    -1.0000     NotChecked  -9.0287     908.3586    ✗       
+138   EVDSKLC+57.021F          -1.0000     NotChecked  -9.0807     996.4586    ✗       
+139   QSDDKLC+57.021F          -1.0000     NotChecked  -9.1796     1011.4331   ✗       
+140   DPDDKLC+57.021F          -1.0000     NotChecked  -9.3298     1008.4222   ✗       
+141   QTDN+0.984KLC+57.021F    -1.0000     NotChecked  -9.3456     1025.4488   ✗       
+142   -17.027SDDKLC+57.021F    -1.0000     NotChecked  -9.3506     866.3480    ✗       
+143   LPDDKLC+57.021F          -1.0000     NotChecked  -9.4243     1006.4794   ✗       
+144   -17.027KDDKLC+57.021F    -1.0000     NotChecked  -9.4301     907.4110    ✗       
+145   TTDDKLC+57.021F          -1.0000     NotChecked  -9.4753     998.4379    ✗       
+146   -17.027TDN+0.984KLC+57.021F-1.0000     NotChecked  -9.5167     880.3637    ✗       
+147   QVDDKLC+57.021F          -1.0000     NotChecked  -9.5258     1023.4695   ✗       
+148   +42.011PDDKLC+57.021F    -1.0000     NotChecked  -9.5427     935.4059    ✗       
+149   ETDGKLC+57.021F          -1.0000     NotChecked  -9.5594     968.4273    ✗       
+150   EPDN+0.984KLC+57.021F    -1.0000     NotChecked  -9.5614     1022.4379   ✗       
+151   QVN+0.984DKLC+57.021F    -1.0000     NotChecked  -9.5789     1023.4695   ✗       
+152   -17.027VMDKLC+57.021F    -1.0000     NotChecked  -9.6249     894.3979    ✗       
+153   ETDKLC+57.021F           -1.0000     NotChecked  -9.6651     911.4059    ✗       
+154   -17.027LDDKLC+57.021F    -1.0000     NotChecked  -9.6867     892.4001    ✗       
+155   -17.027QVDDKLC+57.021F   -1.0000     NotChecked  -9.6969     1006.4430   ✗       
+156   EVDDLLC+57.021F          -1.0000     NotChecked  -9.7145     1009.4426   ✗       
+157   Q+0.984VDDKLC+57.021F    -1.0000     NotChecked  -9.7173     1024.4535   ✗       
+158   -17.027VN+0.984DKLC+57.021F-1.0000     NotChecked  -9.7500     878.3844    ✗       
+159   EVDDSLC+57.021F          -1.0000     NotChecked  -9.7751     983.3906    ✗       
+160   QTVDKLC+57.021F          -1.0000     NotChecked  -9.7872     1009.4903   ✗       
+161   ETDTKLC+57.021F          -1.0000     NotChecked  -9.7960     1012.4535   ✗       
+162   -17.027VEDKLC+57.021F    -1.0000     NotChecked  -9.8055     892.4001    ✗       
+163   EVDPKLC+57.021F          -1.0000     NotChecked  -9.8164     1006.4794   ✗       
+164   MPDDKLC+57.021F          -1.0000     NotChecked  -9.8497     1024.4358   ✗       
+165   QADDKLC+57.021F          -1.0000     NotChecked  -9.8595     995.4382    ✗       
+166   TDDDKLC+57.021F          -1.0000     NotChecked  -9.8647     1012.4172   ✗       
+167   ETDNKLC+57.021F          -1.0000     NotChecked  -9.8676     1025.4488   ✗       
+168   ELDSKLC+57.021F          -1.0000     NotChecked  -9.8840     1010.4743   ✗       
+169   -17.027TVDKLC+57.021F    -1.0000     NotChecked  -9.9582     864.4051    ✗       
+170   DTDDKLC+57.021F          -1.0000     NotChecked  -9.9964     1012.4172   ✗       
+171   EPVDKLC+57.021F          -1.0000     NotChecked  -10.0030    1006.4794   ✗       
+172   QTDDKLC+57.021F          -1.0000     NotChecked  -10.0234    1025.4488   ✗       
+173   -17.027ADDKLC+57.021F    -1.0000     NotChecked  -10.0306    850.3531    ✗       
+174   ESDDKLC+57.021F          -1.0000     NotChecked  -10.0620    1012.4172   ✗       
+175   LTDDKLC+57.021F          -1.0000     NotChecked  -10.0909    1010.4743   ✗       
+176   -17.027MDDKLC+57.021F    -1.0000     NotChecked  -10.1201    910.3565    ✗       
+177   QTDLKLC+57.021F          -1.0000     NotChecked  -10.1225    1023.5059   ✗       
+178   ETDDKVC+57.021F          -1.0000     NotChecked  -10.1485    1012.4172   ✗       
+179   QTDDKLC+57.021F          -1.0000     NotChecked  -10.1701    1025.4488   ✗       
+180   Q+0.984SDDKLC+57.021F    -1.0000     NotChecked  -10.1846    1012.4172   ✗       
+181   -17.027TDDKLC+57.021F    -1.0000     NotChecked  -10.1945    880.3637    ✗       
+182   +42.011TDDKLC+57.021F    -1.0000     NotChecked  -10.2093    939.4008    ✗       
+183   QVDN+0.984KLC+57.021F    -1.0000     NotChecked  -10.2097    1023.4695   ✗       
+184   TTMDKLC+57.021F          -1.0000     NotChecked  -10.2168    1014.4514   ✗       
+185   EPDDKLC+57.021F          -1.0000     NotChecked  -10.2392    1022.4379   ✗       
+186   QTTDKLC+57.021F          -1.0000     NotChecked  -10.2659    1011.4695   ✗       
+187   -17.027TDLKLC+57.021F    -1.0000     NotChecked  -10.2936    878.4208    ✗       
+188   EPDLKLC+57.021F          -1.0000     NotChecked  -10.3383    1020.4950   ✗       
+189   TVDDKLC+57.021F          -1.0000     NotChecked  -10.3393    996.4586    ✗       
+190   -17.027TDDKLC+57.021F    -1.0000     NotChecked  -10.3412    880.3637    ✗       
+191   TTN+0.984DKLC+57.021F    -1.0000     NotChecked  -10.3419    998.4379    ✗       
+192   EVDDKLC+57.021F          -1.0000     NotChecked  -10.3557    1024.4535   ✗       
+193   -17.027VDN+0.984KLC+57.021F-1.0000     NotChecked  -10.3808    878.3844    ✗       
+194   QTNDKLC+57.021F          -1.0000     NotChecked  -10.3832    1024.4648   ✗       
+195   ETDDALC+57.021F          -1.0000     NotChecked  -10.3850    969.3750    ✗       
+196   TTEDKLC+57.021F          -1.0000     NotChecked  -10.3973    1012.4535   ✗       
+197   EVDGKLC+57.021F          -1.0000     NotChecked  -10.4235    966.4481    ✗       
+198   ETDDTLC+57.021F          -1.0000     NotChecked  -10.4271    999.3855    ✗       
+199   -17.027LMDKLC+57.021F    -1.0000     NotChecked  -10.4282    908.4136    ✗       
+200   -17.027TTDKLC+57.021F    -1.0000     NotChecked  -10.4369    866.3844    ✗       
+201   EVN+0.984DKLC+57.021F    -1.0000     NotChecked  -10.4613    1024.4535   ✗       
+202   QTLDKLC+57.021F          -1.0000     NotChecked  -10.4672    1023.5059   ✗       
+203   LDDDKLC+57.021F          -1.0000     NotChecked  -10.4803    1024.4535   ✗       
+204   EPTDKLC+57.021F          -1.0000     NotChecked  -10.4817    1008.4586   ✗       
+205   ELDDLLC+57.021F          -1.0000     NotChecked  -10.5178    1023.4583   ✗       
+206   EVDKLC+57.021F           -1.0000     NotChecked  -10.5292    909.4266    ✗       
+207   -17.027LN+0.984DKLC+57.021F-1.0000     NotChecked  -10.5533    892.4001    ✗       
+208   ETDDKC+57.021F           -1.0000     NotChecked  -10.5536    913.3487    ✗       
+209   -17.027TNDKLC+57.021F    -1.0000     NotChecked  -10.5543    879.3796    ✗       
+210   ELDDSLC+57.021F          -1.0000     NotChecked  -10.5784    997.4063    ✗       
+211   Q+0.984VN+0.984DKLC+57.021F-1.0000     NotChecked  -10.5840    1024.4535   ✗       
+212   +42.011DDDKLC+57.021F    -1.0000     NotChecked  -10.5987    953.3800    ✗       
+213   EPNDKLC+57.021F          -1.0000     NotChecked  -10.5990    1021.4539   ✗       
+214   -17.027LEDKLC+57.021F    -1.0000     NotChecked  -10.6088    906.4157    ✗       
+215   ETDDGLC+57.021F          -1.0000     NotChecked  -10.6091    955.3593    ✗       
+216   ELDPKLC+57.021F          -1.0000     NotChecked  -10.6197    1020.4950   ✗       
+217   -17.027TLDKLC+57.021F    -1.0000     NotChecked  -10.6383    878.4208    ✗       
+218   QVVDKLC+57.021F          -1.0000     NotChecked  -10.6512    1007.5110   ✗       
+219   EVDTKLC+57.021F          -1.0000     NotChecked  -10.6601    1010.4743   ✗       
+220   -17.027ETDDKLC+57.021F   -1.0000     NotChecked  -10.6642    1009.4063   ✗       
+221   ETVDKLC+57.021F          -1.0000     NotChecked  -10.6696    1010.4743   ✗       
+222   EPLDKLC+57.021F          -1.0000     NotChecked  -10.6830    1020.4950   ✗       
+223   EPDDKLC+57.021F          -1.0000     NotChecked  -10.7089    1022.4379   ✗       
+224   EVDNKLC+57.021F          -1.0000     NotChecked  -10.7317    1023.4695   ✗       
+225   EADDKLC+57.021F          -1.0000     NotChecked  -10.7419    996.4222    ✗       
+226   -17.027TM+15.995DKLC+57.021F-1.0000     NotChecked  -10.7429    912.3721    ✗       
+227   Q+0.984TVDKLC+57.021F    -1.0000     NotChecked  -10.7922    1010.4743   ✗       
+228   TSDDKLC+57.021F          -1.0000     NotChecked  -10.8066    984.4222    ✗       
+229   -17.027VVDKLC+57.021F    -1.0000     NotChecked  -10.8223    862.4259    ✗       
+230   DVDDKLC+57.021F          -1.0000     NotChecked  -10.8605    1010.4379   ✗       
+231   DTN+0.984DKLC+57.021F    -1.0000     NotChecked  -10.8630    1012.4172   ✗       
+232   Q+0.984ADDKLC+57.021F    -1.0000     NotChecked  -10.8645    996.4222    ✗       
+233   TKDDKLC+57.021F          -1.0000     NotChecked  -10.8861    1025.4852   ✗       
+234   QVDDKLC+57.021F          -1.0000     NotChecked  -10.8875    1023.4695   ✗       
+235   QTDDKLC+57.021F          -1.0000     NotChecked  -10.8907    1025.4488   ✗       
+236   ETDDKLF                  -1.0000     NotChecked  -10.9058    866.4022    ✗       
+237   ESN+0.984DKLC+57.021F    -1.0000     NotChecked  -10.9286    1012.4172   ✗       
+238   ETDDKLC+57.021M          -1.0000     NotChecked  -10.9372    1010.4049   ✗       
+239   EVDDKNC+57.021F          -1.0000     NotChecked  -10.9458    1025.4124   ✗       
+240   +42.011TMDKLC+57.021F    -1.0000     NotChecked  -10.9508    955.4143    ✗       
+241   LVDDKLC+57.021F          -1.0000     NotChecked  -10.9550    1008.4950   ✗       
+242   LTN+0.984DKLC+57.021F    -1.0000     NotChecked  -10.9576    1010.4743   ✗       
+243   TTDN+0.984KLC+57.021F    -1.0000     NotChecked  -10.9727    998.4379    ✗       
+244   ESEDKLC+57.021F          -1.0000     Failed      -10.9841    1026.4328   ✓       
+245   QVDLKLC+57.021F          -1.0000     NotChecked  -10.9866    1021.5267   ✗       
+246   EVDDKLC+57.021F          -1.0000     NotChecked  -11.0029    1024.4535   ✗       
+247   ETDLKLC+57.021F          -1.0000     NotChecked  -11.0049    1024.4899   ✗       
+248   EVDDKVC+57.021F          -1.0000     NotChecked  -11.0126    1010.4379   ✗       
+249   LTEDKLC+57.021F          -1.0000     NotChecked  -11.0130    1024.4899   ✗       
+250   Q+0.984TDDKLC+57.021F    -1.0000     Failed      -11.0284    1026.4328   ✓       
+251   EVDDKLC+57.021M+15.995   -1.0000     NotChecked  -11.0416    1024.4205   ✗       
+252   EVDDKLC+57.021F          -1.0000     NotChecked  -11.0504    1024.4535   ✗       
+253   -17.027VDDKLC+57.021F    -1.0000     NotChecked  -11.0586    878.3844    ✗       
+254   EDVDKLC+57.021F          -1.0000     NotChecked  -11.0590    1024.4535   ✗       
+255   EVDDKLC+57.021F          -1.0000     NotChecked  -11.0603    1024.4535   ✗       
+256   -17.027TDDKLC+57.021F    -1.0000     NotChecked  -11.0617    880.3637    ✗       
+257   +42.011VDDKLC+57.021F    -1.0000     NotChecked  -11.0734    937.4215    ✗       
+258   +42.011TN+0.984DKLC+57.021F-1.0000     NotChecked  -11.0759    939.4008    ✗       
+259   TVMDKLC+57.021F          -1.0000     NotChecked  -11.0809    1012.4722   ✗       
+260   EVDN+0.984KLC+57.021F    -1.0000     NotChecked  -11.0921    1024.4535   ✗       
+261   EPDDKLC+57.021F          -1.0000     NotChecked  -11.1065    1022.4379   ✗       
+262   Q+0.984TDLKLC+57.021F    -1.0000     NotChecked  -11.1275    1024.4899   ✗       
+263   QVTDKLC+57.021F          -1.0000     NotChecked  -11.1300    1009.4903   ✗       
+264   +42.011TEDKLC+57.021F    -1.0000     NotChecked  -11.1314    953.4164    ✗       
+265   TLDDKLC+57.021F          -1.0000     NotChecked  -11.1427    1010.4743   ✗       
+266   ETTDKLC+57.021F          -1.0000     NotChecked  -11.1483    1012.4535   ✗       
+267   -17.027VDLKLC+57.021F    -1.0000     NotChecked  -11.1577    876.4415    ✗       
+268   -17.027TQDKLC+57.021F    -1.0000     NotChecked  -11.1627    893.3953    ✗       
+269   Q+0.984TDDKLC+57.021F    -1.0000     Failed      -11.1752    1026.4328   ✓       
+270   QPDDKLC+57.021F          -1.0000     NotChecked  -11.1774    1021.4539   ✗       
+271   -17.027LDN+0.984KLC+57.021F-1.0000     NotChecked  -11.1841    892.4001    ✗       
+272   -17.027TVDDKLC+57.021F   -1.0000     NotChecked  -11.2053    979.4321    ✗       
+273   TVN+0.984DKLC+57.021F    -1.0000     NotChecked  -11.2060    996.4586    ✗       
+274   Q+0.984VDN+0.984KLC+57.021F-1.0000     NotChecked  -11.2147    1024.4535   ✗       
+275   ETDDLC+57.021F           -1.0000     NotChecked  -11.2159    898.3378    ✗       
+276   +42.011EDDKLC+57.021F    -1.0000     NotChecked  -11.2187    967.3957    ✗       
+277   ELDGKLC+57.021F          -1.0000     NotChecked  -11.2268    980.4637    ✗       
+278   QVNDKLC+57.021F          -1.0000     NotChecked  -11.2473    1022.4855   ✗       
+279   EVDDALC+57.021F          -1.0000     NotChecked  -11.2491    967.3957    ✗       
+280   EVDDELC+57.021F          -1.0000     NotChecked  -11.2594    1025.4012   ✗       
+281   TVEDKLC+57.021F          -1.0000     NotChecked  -11.2614    1010.4743   ✗       
+282   ETNDKLC+57.021F          -1.0000     NotChecked  -11.2656    1025.4488   ✗       
+283   Q+0.984TTDKLC+57.021F    -1.0000     NotChecked  -11.2709    1012.4535   ✗       
+284   EVDDTLC+57.021F          -1.0000     NotChecked  -11.2912    997.4063    ✗       
+285   -17.027VTDKLC+57.021F    -1.0000     NotChecked  -11.3010    864.4051    ✗       
+286   DSDDKLC+57.021F          -1.0000     NotChecked  -11.3277    998.4015    ✗       
+287   QTDSKLC+57.021F          -1.0000     NotChecked  -11.3300    997.4539    ✗       
+288   QVLDKLC+57.021F          -1.0000     NotChecked  -11.3313    1021.5267   ✗       
+289   ELDKLC+57.021F           -1.0000     NotChecked  -11.3325    923.4423    ✗       
+290   -17.027PDDKLC+57.021F    -1.0000     NotChecked  -11.3485    876.3688    ✗       
+291   ETLDKLC+57.021F          -1.0000     NotChecked  -11.3496    1024.4899   ✗       
+292   Q+0.984TNDKLC+57.021F    -1.0000     NotChecked  -11.3882    1025.4488   ✗       
+293   -17.027STDDKLC+57.021F   -1.0000     NotChecked  -11.4014    967.3957    ✗       
+294   TTVDKLC+57.021F          -1.0000     NotChecked  -11.4142    982.4794    ✗       
+295   EVDDKC+57.021F           -1.0000     NotChecked  -11.4177    911.3695    ✗       
+296   -17.027VNDKLC+57.021F    -1.0000     NotChecked  -11.4183    877.4004    ✗       
+297   LSDDKLC+57.021F          -1.0000     NotChecked  -11.4223    996.4586    ✗       
+298   QLVDKLC+57.021F          -1.0000     NotChecked  -11.4546    1021.5267   ✗       
+299   ELDTKLC+57.021F          -1.0000     NotChecked  -11.4634    1024.4899   ✗       
+300   -17.027GTDDKLC+57.021F   -1.0000     NotChecked  -11.4677    937.3851    ✗       
+301   Q+0.984TLDKLC+57.021F    -1.0000     NotChecked  -11.4722    1024.4899   ✗       
+302   EVDDGLC+57.021F          -1.0000     NotChecked  -11.4732    953.3800    ✗       
+303   EAMDKLC+57.021F          -1.0000     NotChecked  -11.4834    1012.4358   ✗       
+304   TADDKLC+57.021F          -1.0000     NotChecked  -11.4865    968.4273    ✗       
+305   DTDN+0.984KLC+57.021F    -1.0000     NotChecked  -11.4938    1012.4172   ✗       
+306   -17.027TDSKLC+57.021F    -1.0000     NotChecked  -11.5011    852.3687    ✗       
+307   -17.027VLDKLC+57.021F    -1.0000     NotChecked  -11.5023    876.4415    ✗       
+308   -17.027EVDDKLC+57.021F   -1.0000     NotChecked  -11.5283    1007.4270   ✗       
+309   EVVDKLC+57.021F          -1.0000     NotChecked  -11.5336    1008.4950   ✗       
+310   +42.011SDDKLC+57.021F    -1.0000     NotChecked  -11.5406    925.3851    ✗       
+311   EPDSKLC+57.021F          -1.0000     NotChecked  -11.5458    994.4430    ✗       
+312   ESDN+0.984KLC+57.021F    -1.0000     NotChecked  -11.5594    1012.4172   ✗       
+313   EVDDKLC+57.021F          -1.0000     NotChecked  -11.5623    1024.4535   ✗       
+314   LTDN+0.984KLC+57.021F    -1.0000     NotChecked  -11.5883    1010.4743   ✗       
+315   -17.027VM+15.995DKLC+57.021F-1.0000     NotChecked  -11.6069    910.3929    ✗       
+316   EAN+0.984DKLC+57.021F    -1.0000     NotChecked  -11.6085    996.4222    ✗       
+317   +42.011KDDKLC+57.021F    -1.0000     NotChecked  -11.6201    966.4481    ✗       
+318   -17.027LVDKLC+57.021F    -1.0000     NotChecked  -11.6256    876.4415    ✗       
+319   TTDDKLC+57.021F          -1.0000     NotChecked  -11.6504    998.4379    ✗       
+320   Q+0.984VVDKLC+57.021F    -1.0000     NotChecked  -11.6563    1008.4950   ✗       
+321   DLDDKLC+57.021F          -1.0000     NotChecked  -11.6638    1024.4535   ✗       
+322   EAEDKLC+57.021F          -1.0000     NotChecked  -11.6640    1010.4379   ✗       
+323   -17.027TDDKLC+57.021PF   -1.0000     NotChecked  -11.6698    977.4164    ✗       
+324   LVMDKLC+57.021F          -1.0000     NotChecked  -11.6965    1024.5086   ✗       
+325   +42.011TDN+0.984KLC+57.021F-1.0000     NotChecked  -11.7067    939.4008    ✗       
+326   -17.027TDEKLC+57.021F    -1.0000     NotChecked  -11.7239    894.3793    ✗       
+327   DVN+0.984DKLC+57.021F    -1.0000     NotChecked  -11.7271    1010.4379   ✗       
+328   TTDLKLC+57.021F          -1.0000     NotChecked  -11.7495    996.4950    ✗       
+329   QVDDKLC+57.021F          -1.0000     NotChecked  -11.7548    1023.4695   ✗       
+330   LLDDKLC+57.021F          -1.0000     NotChecked  -11.7583    1022.5107   ✗       
+331   EVDDKLF                  -1.0000     NotChecked  -11.7699    864.4229    ✗       
+332   DVEDKLC+57.021F          -1.0000     NotChecked  -11.7826    1024.4535   ✗       
+333   TDDKLC+57.021F           -1.0000     NotChecked  -11.7972    897.3902    ✗       
+334   EVDDKLC+57.021M          -1.0000     NotChecked  -11.8013    1008.4256   ✗       
+335   +42.011VMDKLC+57.021F    -1.0000     NotChecked  -11.8149    953.4351    ✗       
+336   ELDDKVC+57.021F          -1.0000     NotChecked  -11.8159    1024.4535   ✗       
+337   LVN+0.984DKLC+57.021F    -1.0000     NotChecked  -11.8216    1008.4950   ✗       
+338   TVDN+0.984KLC+57.021F    -1.0000     NotChecked  -11.8368    996.4586    ✗       
+339   M+15.995ADDKLC+57.021F   -1.0000     NotChecked  -11.8389    1014.4151   ✗       
+340   MSDDKLC+57.021F          -1.0000     NotChecked  -11.8477    1014.4151   ✗       
+341   -17.027LDDKLC+57.021F    -1.0000     NotChecked  -11.8619    892.4001    ✗       
+342   EVDLKLC+57.021F          -1.0000     NotChecked  -11.8690    1022.5107   ✗       
+343   ETN+0.984LKLC+57.021F    -1.0000     NotChecked  -11.8715    1024.4899   ✗       
+344   +42.011LDDKLC+57.021F    -1.0000     NotChecked  -11.8767    951.4372    ✗       
+345   LVEDKLC+57.021F          -1.0000     NotChecked  -11.8771    1022.5107   ✗       
+346   -17.027TDDKHC+57.021F    -1.0000     NotChecked  -11.8901    904.3385    ✗       
+347   Q+0.984VDDKLC+57.021F    -1.0000     NotChecked  -11.8925    1024.4535   ✗       
+348   TTTDKLC+57.021F          -1.0000     NotChecked  -11.8929    984.4586    ✗       
+349   Q+0.984TDDKLC+57.021F    -1.0000     Failed      -11.8957    1026.4328   ✓       
+350   -17.027VDDKLC+57.021F    -1.0000     NotChecked  -11.9258    878.3844    ✗       
+351   QLTDKLC+57.021F          -1.0000     NotChecked  -11.9333    1023.5059   ✗       
+352   DTVDKLC+57.021F          -1.0000     NotChecked  -11.9353    996.4586    ✗       
+353   +42.011VN+0.984DKLC+57.021F-1.0000     NotChecked  -11.9400    937.4215    ✗       
+354   EVN+0.984N+0.984KLC+57.021F-1.0000     NotChecked  -11.9588    1024.4535   ✗       
+355   -17.027LDLKLC+57.021F    -1.0000     NotChecked  -11.9610    890.4572    ✗       
+356   QTDDLLC+57.021F          -1.0000     NotChecked  -11.9638    1010.4379   ✗       
+357   QPDDKLC+57.021F          -1.0000     NotChecked  -11.9910    1021.4539   ✗       
+358   Q+0.984VDLKLC+57.021F    -1.0000     NotChecked  -11.9916    1022.5107   ✗       
+359   +42.011VEDKLC+57.021F    -1.0000     NotChecked  -11.9955    951.4372    ✗       
+360   ESVDKLC+57.021F          -1.0000     NotChecked  -12.0009    996.4586    ✗       
+361   DADDKLC+57.021F          -1.0000     NotChecked  -12.0077    982.4066    ✗       
+362   -17.027TLDDKLC+57.021F   -1.0000     NotChecked  -12.0086    993.4477    ✗       
+363   TLN+0.984DKLC+57.021F    -1.0000     NotChecked  -12.0093    1010.4743   ✗       
+364   TTNDKLC+57.021F          -1.0000     NotChecked  -12.0102    997.4539    ✗       
+365   EVTDKLC+57.021F          -1.0000     NotChecked  -12.0124    1010.4743   ✗       
+366   QTDDSLC+57.021F          -1.0000     NotChecked  -12.0244    984.3859    ✗       
+367   -17.027VQDKLC+57.021F    -1.0000     NotChecked  -12.0268    891.4160    ✗       
+368   LTVDKLC+57.021F          -1.0000     NotChecked  -12.0299    994.5157    ✗       
+369   QPN+0.984DKLC+57.021F    -1.0000     NotChecked  -12.0441    1021.4539   ✗       
+370   ELDDALC+57.021F          -1.0000     NotChecked  -12.0524    981.4113    ✗       
+371   TLEDKLC+57.021F          -1.0000     NotChecked  -12.0648    1024.4899   ✗       
+372   QTDPKLC+57.021F          -1.0000     NotChecked  -12.0657    1007.4746   ✗       
+373   EVDDLC+57.021F           -1.0000     NotChecked  -12.0799    896.3586    ✗       
+374   -17.027PMDKLC+57.021F    -1.0000     NotChecked  -12.0900    892.3823    ✗       
+375   TTLDKLC+57.021F          -1.0000     NotChecked  -12.0942    996.4950    ✗       
+376   ELDDTLC+57.021F          -1.0000     NotChecked  -12.0945    1011.4219   ✗       
+377   LADDKLC+57.021F          -1.0000     NotChecked  -12.1022    980.4637    ✗       
+378   -17.027LTDKLC+57.021F    -1.0000     NotChecked  -12.1044    878.4208    ✗       
+379   EVNDKLC+57.021F          -1.0000     NotChecked  -12.1297    1023.4695   ✗       
+380   -17.027TDDLLC+57.021F    -1.0000     NotChecked  -12.1349    865.3528    ✗       
+381   Q+0.984VTDKLC+57.021F    -1.0000     NotChecked  -12.1350    1010.4743   ✗       
+382   +42.011TVDKLC+57.021F    -1.0000     NotChecked  -12.1482    923.4422    ✗       
+383   -17.027QPDDKLC+57.021F   -1.0000     NotChecked  -12.1620    1004.4273   ✗       
+384   ETVN+0.984KLC+57.021F    -1.0000     NotChecked  -12.1670    1010.4743   ✗       
+385   DTDDKLC+57.021F          -1.0000     NotChecked  -12.1716    1012.4172   ✗       
+386   EPDDLLC+57.021F          -1.0000     NotChecked  -12.1796    1007.4270   ✗       
+387   Q+0.984PDDKLC+57.021F    -1.0000     NotChecked  -12.1825    1022.4379   ✗       
+388   QVDSKLC+57.021F          -1.0000     NotChecked  -12.1941    995.4746    ✗       
+389   -17.027TDDSLC+57.021F    -1.0000     NotChecked  -12.1955    839.3007    ✗       
+390   ETDSKLC+57.021F          -1.0000     NotChecked  -12.2124    998.4379    ✗       
+391   EVLDKLC+57.021F          -1.0000     NotChecked  -12.2137    1022.5107   ✗       
+392   -17.027PN+0.984DKLC+57.021F-1.0000     NotChecked  -12.2152    876.3688    ✗       
+393   +42.011ADDKLC+57.021F    -1.0000     NotChecked  -12.2206    909.3902    ✗       
+394   ELDDKC+57.021F           -1.0000     NotChecked  -12.2210    925.3851    ✗       
+395   -17.027LNDKLC+57.021F    -1.0000     NotChecked  -12.2217    891.4160    ✗       
+396   -17.027TDPKLC+57.021F    -1.0000     NotChecked  -12.2368    862.3895    ✗       
+397   ESDDKLC+57.021F          -1.0000     NotChecked  -12.2372    1012.4172   ✗       
+398   EADN+0.984KLC+57.021F    -1.0000     NotChecked  -12.2393    996.4222    ✗       
+399   EVDDKLC+57.021F          -1.0000     NotChecked  -12.2396    1024.4535   ✗       
+400   EPDDSLC+57.021F          -1.0000     NotChecked  -12.2402    981.3750    ✗       
+401   Q+0.984VNDKLC+57.021F    -1.0000     NotChecked  -12.2523    1023.4695   ✗       
+402   -17.027SVDDKLC+57.021F   -1.0000     NotChecked  -12.2655    965.4164    ✗       
+403   LTDDKLC+57.021F          -1.0000     NotChecked  -12.2661    1010.4743   ✗       
+404   -17.027PEDKLC+57.021F    -1.0000     NotChecked  -12.2706    890.3844    ✗       
+405   DTDLKLC+57.021F          -1.0000     NotChecked  -12.2707    1010.4743   ✗       
+406   ELDDGLC+57.021F          -1.0000     NotChecked  -12.2765    967.3957    ✗       
+407   TVVDKLC+57.021F          -1.0000     NotChecked  -12.2783    980.5001    ✗       
+408   EPDPKLC+57.021F          -1.0000     NotChecked  -12.2815    1004.4637   ✗       
+409   -17.027LLDKLC+57.021F    -1.0000     NotChecked  -12.3057    890.4572    ✗       
+410   +42.011MDDKLC+57.021F    -1.0000     NotChecked  -12.3101    969.3936    ✗       
+411   DTDDKLC+57.021F          -1.0000     NotChecked  -12.3183    1012.4172   ✗       
+412   -17.027GVDDKLC+57.021F   -1.0000     NotChecked  -12.3318    935.4059    ✗       
+413   Q+0.984TDSKLC+57.021F    -1.0000     NotChecked  -12.3350    998.4379    ✗       
+414   ESDLKLC+57.021F          -1.0000     NotChecked  -12.3362    1010.4743   ✗       
+415   Q+0.984VLDKLC+57.021F    -1.0000     NotChecked  -12.3363    1022.5107   ✗       
+416   ELVDKLC+57.021F          -1.0000     NotChecked  -12.3370    1022.5107   ✗       
+417   ETDDKLC+57.021K          -1.0000     NotChecked  -12.3414    1007.4594   ✗       
+418   DVDN+0.984KLC+57.021F    -1.0000     NotChecked  -12.3579    1010.4379   ✗       
+419   -17.027VDSKLC+57.021F    -1.0000     NotChecked  -12.3651    850.3895    ✗       
+420   LTDLKLC+57.021F          -1.0000     NotChecked  -12.3652    1008.5314   ✗       
+421   +42.011TDDKLC+57.021F    -1.0000     NotChecked  -12.3845    939.4008    ✗       
+422   EDDKLC+57.021F           -1.0000     NotChecked  -12.3850    925.3851    ✗       
+423   -17.027DDDKLC+57.021F    -1.0000     NotChecked  -12.4045    894.3429    ✗       
+424   -17.027LM+15.995DKLC+57.021F-1.0000     NotChecked  -12.4103    924.4085    ✗       
+425   LTDDKLC+57.021F          -1.0000     NotChecked  -12.4129    1010.4743   ✗       
+426   DTTDKLC+57.021F          -1.0000     NotChecked  -12.4141    998.4379    ✗       
+427   LVDN+0.984KLC+57.021F    -1.0000     NotChecked  -12.4524    1008.4950   ✗       
+428   MTVDKLC+57.021F          -1.0000     NotChecked  -12.4553    1012.4722   ✗       
+429   Q+0.984LVDKLC+57.021F    -1.0000     NotChecked  -12.4596    1022.5107   ✗       
+430   ESTDKLC+57.021F          -1.0000     NotChecked  -12.4796    998.4379    ✗       
+431   +42.011TDLKLC+57.021F    -1.0000     NotChecked  -12.4836    937.4579    ✗       
+432   LTTDKLC+57.021F          -1.0000     NotChecked  -12.5086    996.4950    ✗       
+433   TVDDKLC+57.021F          -1.0000     NotChecked  -12.5145    996.4586    ✗       
+434   TTDDKLC+57.021F          -1.0000     NotChecked  -12.5177    998.4379    ✗       
+435   MADDKLC+57.021F          -1.0000     NotChecked  -12.5276    998.4201    ✗       
+436   DLN+0.984DKLC+57.021F    -1.0000     NotChecked  -12.5304    1024.4535   ✗       
+437   +42.011TDDKLC+57.021F    -1.0000     NotChecked  -12.5312    939.4008    ✗       
+438   DTNDKLC+57.021F          -1.0000     NotChecked  -12.5314    1011.4331   ✗       
+439   -17.027VDDKLC+57.021PF   -1.0000     NotChecked  -12.5339    975.4372    ✗       
+440   +42.011VDN+0.984KLC+57.021F-1.0000     NotChecked  -12.5708    937.4215    ✗       
+441   ELDDKLF                  -1.0000     NotChecked  -12.5732    878.4385    ✗       
+442   -17.027VDEKLC+57.021F    -1.0000     NotChecked  -12.5880    892.4001    ✗       
+443   ESNDKLC+57.021F          -1.0000     NotChecked  -12.5969    1011.4331   ✗       
+444   EDDSKLC+57.021F          -1.0000     NotChecked  -12.6018    1012.4172   ✗       
+445   ELDDKLC+57.021M          -1.0000     NotChecked  -12.6046    1022.4413   ✗       
+446   QTDDKLC+57.021F          -1.0000     NotChecked  -12.6050    1025.4488   ✗       
+447   TVDLKLC+57.021F          -1.0000     NotChecked  -12.6136    994.5157    ✗       
+448   DTLDKLC+57.021F          -1.0000     NotChecked  -12.6154    1010.4743   ✗       
+449   +42.011LMDKLC+57.021F    -1.0000     NotChecked  -12.6182    967.4507    ✗       
+450   TTQDKLC+57.021F          -1.0000     NotChecked  -12.6187    1011.4695   ✗       
+451   LLN+0.984DKLC+57.021F    -1.0000     NotChecked  -12.6250    1022.5107   ✗       
+452   LTNDKLC+57.021F          -1.0000     NotChecked  -12.6259    1009.4903   ✗       
+453   +42.011TTDKLC+57.021F    -1.0000     NotChecked  -12.6270    925.4215    ✗       
+454   EVN+0.984DKLC+57.021F    -1.0000     NotChecked  -12.6365    1024.4535   ✗       
+455   EVDDKLC+57.021F          -1.0000     NotChecked  -12.6372    1024.4535   ✗       
+456   TLDN+0.984KLC+57.021F    -1.0000     NotChecked  -12.6401    1010.4743   ✗       
+457   ETTN+0.984KLC+57.021F    -1.0000     NotChecked  -12.6457    1012.4535   ✗       
+458   QTDDKLC+57.021F          -1.0000     NotChecked  -12.6576    1025.4488   ✗       
+459   TVDDKLC+57.021F          -1.0000     NotChecked  -12.6613    996.4586    ✗       
+460   QTDGKLC+57.021F          -1.0000     NotChecked  -12.6728    967.4433    ✗       
+461   QPDN+0.984KLC+57.021F    -1.0000     NotChecked  -12.6749    1021.4539   ✗       
+462   EAVDKLC+57.021F          -1.0000     NotChecked  -12.6808    980.4637    ✗       
+463   ESLDKLC+57.021F          -1.0000     NotChecked  -12.6809    1010.4743   ✗       
+464   -17.027ATDDKLC+57.021F   -1.0000     NotChecked  -12.6836    951.4008    ✗       
+465   ESDDKLC+57.021F          -1.0000     NotChecked  -12.7069    1012.4172   ✗       
+466   LTLDKLC+57.021F          -1.0000     NotChecked  -12.7099    1008.5314   ✗       
+467   QTN+0.984DKLC+57.021F    -1.0000     NotChecked  -12.7107    1025.4488   ✗       
+468   -17.027LDDKLC+57.021F    -1.0000     NotChecked  -12.7292    892.4001    ✗       
+469   EVN+0.984LKLC+57.021F    -1.0000     NotChecked  -12.7356    1022.5107   ✗       
+470   +42.011LN+0.984DKLC+57.021F-1.0000     NotChecked  -12.7434    951.4372    ✗       
+471   +42.011TNDKLC+57.021F    -1.0000     NotChecked  -12.7443    938.4168    ✗       
+472   -17.027VDDKHC+57.021F    -1.0000     NotChecked  -12.7542    902.3593    ✗       
+473   -17.027TMDKLC+57.021F    -1.0000     NotChecked  -12.7566    896.3772    ✗       
+474   TVTDKLC+57.021F          -1.0000     NotChecked  -12.7570    982.4794    ✗       
+475   Q+0.984VDDKLC+57.021F    -1.0000     NotChecked  -12.7598    1024.4535   ✗       
+476   ETNN+0.984KLC+57.021F    -1.0000     NotChecked  -12.7630    1025.4488   ✗       
+477   -17.027TDDKLC+57.021F    -1.0000     NotChecked  -12.7761    880.3637    ✗       
+478   QTDKLC+57.021F           -1.0000     NotChecked  -12.7785    910.4218    ✗       
+479   +42.011LEDKLC+57.021F    -1.0000     NotChecked  -12.7988    965.4528    ✗       
+480   DVVDKLC+57.021F          -1.0000     NotChecked  -12.7994    994.4794    ✗       
+481   TPDDKLC+57.021F          -1.0000     NotChecked  -12.8045    994.4430    ✗       
+482   ELTDKLC+57.021F          -1.0000     NotChecked  -12.8157    1024.4899   ✗       
+483   EPDDKLC+57.021F          -1.0000     NotChecked  -12.8208    1022.4379   ✗       
+484   QVDDLLC+57.021F          -1.0000     NotChecked  -12.8279    1008.4586   ✗       
+485   +42.011TLDKLC+57.021F    -1.0000     NotChecked  -12.8283    937.4579    ✗       
+486   -17.027QTDDKLC+57.021F   -1.0000     NotChecked  -12.8286    1008.4222   ✗       
+487   -17.027LQDKLC+57.021F    -1.0000     NotChecked  -12.8301    905.4317    ✗       
+488   -17.027TDGKLC+57.021F    -1.0000     NotChecked  -12.8439    822.3582    ✗       
+489   ETVDKLC+57.021F          -1.0000     NotChecked  -12.8448    1010.4743   ✗       
+490   -17.027PDN+0.984KLC+57.021F-1.0000     NotChecked  -12.8459    876.3688    ✗       
+491   ETDDLLC+57.021F          -1.0000     NotChecked  -12.8462    1011.4219   ✗       
+492   ETLN+0.984KLC+57.021F    -1.0000     NotChecked  -12.8470    1024.4899   ✗       
+493   TVNDKLC+57.021F          -1.0000     NotChecked  -12.8743    995.4746    ✗       
+494   -17.027TN+0.984DKLC+57.021F-1.0000     NotChecked  -12.8817    880.3637    ✗       
+495   ELDDLC+57.021F           -1.0000     NotChecked  -12.8833    910.3742    ✗       
+496   QVDDSLC+57.021F          -1.0000     NotChecked  -12.8885    982.4066    ✗       
+497   EPDGKLC+57.021F          -1.0000     NotChecked  -12.8886    964.4324    ✗       
+498   LVVDKLC+57.021F          -1.0000     NotChecked  -12.8939    992.5365    ✗       
+499   ETDDSLC+57.021F          -1.0000     NotChecked  -12.9068    985.3699    ✗       
+500   -17.027TGDDKLC+57.021F   -1.0000     NotChecked  -12.9075    937.3851    ✗       
+501   QTDTKLC+57.021F          -1.0000     NotChecked  -12.9094    1011.4695   ✗       
+502   EADDKLC+57.021F          -1.0000     NotChecked  -12.9171    996.4222    ✗       
+503   EPN+0.984DKLC+57.021F    -1.0000     NotChecked  -12.9265    1022.4379   ✗       
+504   QVDPKLC+57.021F          -1.0000     NotChecked  -12.9298    1005.4954   ✗       
+505   +42.011TM+15.995DKLC+57.021F-1.0000     NotChecked  -12.9329    971.4092    ✗       
+506   MTTDKLC+57.021F          -1.0000     NotChecked  -12.9340    1014.4514   ✗       
+507   -17.027TEDKLC+57.021F    -1.0000     NotChecked  -12.9372    894.3793    ✗       
+508   Q+0.984LTDKLC+57.021F    -1.0000     NotChecked  -12.9383    1024.4899   ✗       
+509   ETVLKLC+57.021F          -1.0000     NotChecked  -12.9438    1008.5314   ✗       
+510   ETDPKLC+57.021F          -1.0000     NotChecked  -12.9481    1008.4586   ✗       
+511   -17.027TDKLC+57.021F     -1.0000     NotChecked  -12.9496    765.3367    ✗       
+512   ETMSKLC+57.021F          -1.0000     NotChecked  -12.9539    1014.4514   ✗       
+513   TTDSKLC+57.021F          -1.0000     NotChecked  -12.9570    970.4430    ✗       
+514   TVLDKLC+57.021F          -1.0000     NotChecked  -12.9583    994.5157    ✗       
+515   Q+0.984TDDLLC+57.021F    -1.0000     NotChecked  -12.9688    1011.4219   ✗       
+516   QTDNKLC+57.021F          -1.0000     NotChecked  -12.9810    1024.4648   ✗       
+517   ETVDKLC+57.021F          -1.0000     NotChecked  -12.9915    1010.4743   ✗       
+518   EPDKLC+57.021F           -1.0000     NotChecked  -12.9943    907.4110    ✗       
+519   QLDSKLC+57.021F          -1.0000     NotChecked  -12.9974    1009.4903   ✗       
+520   -17.027VDDLLC+57.021F    -1.0000     NotChecked  -12.9989    863.3735    ✗       
+521   +42.011VVDKLC+57.021F    -1.0000     NotChecked  -13.0123    921.4630    ✗       
+522   EADLKLC+57.021F          -1.0000     NotChecked  -13.0162    994.4794    ✗       
+523   -17.027EDDKLC+57.021F    -1.0000     NotChecked  -13.0245    908.3586    ✗       
+524   Q+0.984TDDSLC+57.021F    -1.0000     NotChecked  -13.0294    985.3699    ✗       
+525   EVVN+0.984KLC+57.021F    -1.0000     NotChecked  -13.0311    1008.4950   ✗       
+526   DVDDKLC+57.021F          -1.0000     NotChecked  -13.0357    1010.4379   ✗       
+527   DTDDKLC+57.021F          -1.0000     NotChecked  -13.0389    1012.4172   ✗       
+528   Q+0.984PN+0.984DKLC+57.021F-1.0000     NotChecked  -13.0491    1022.4379   ✗       
+529   -17.027VDDSLC+57.021F    -1.0000     NotChecked  -13.0596    837.3215    ✗       
+530   -17.027SLDDKLC+57.021F   -1.0000     NotChecked  -13.0688    979.4321    ✗       
+531   Q+0.984TDPKLC+57.021F    -1.0000     NotChecked  -13.0707    1008.4586   ✗       
+532   EVDSKLC+57.021F          -1.0000     NotChecked  -13.0765    996.4586    ✗       
+533   ETN+0.984SKLC+57.021F    -1.0000     NotChecked  -13.0790    998.4379    ✗       
+534   -17.027TDTKLC+57.021F    -1.0000     NotChecked  -13.0805    866.3844    ✗       
+535   TLVDKLC+57.021F          -1.0000     NotChecked  -13.0816    994.5157    ✗       
+536   -17.027VDPKLC+57.021F    -1.0000     NotChecked  -13.1009    860.4102    ✗       
+537   ESDDKLC+57.021F          -1.0000     NotChecked  -13.1044    1012.4172   ✗       
+538   EVN+0.984DKLC+57.021F    -1.0000     NotChecked  -13.1062    1024.4535   ✗       
+539   QPVDKLC+57.021F          -1.0000     NotChecked  -13.1164    1005.4954   ✗       
+540   EPDTKLC+57.021F          -1.0000     NotChecked  -13.1252    1008.4586   ✗       
+541   LVDDKLC+57.021F          -1.0000     NotChecked  -13.1302    1008.4950   ✗       
+542   LTDDKLC+57.021F          -1.0000     NotChecked  -13.1334    1010.4743   ✗       
+543   ETESKLC+57.021F          -1.0000     NotChecked  -13.1345    1012.4535   ✗       
+544   DVDLKLC+57.021F          -1.0000     NotChecked  -13.1348    1008.4950   ✗       
+545   -17.027GLDDKLC+57.021F   -1.0000     NotChecked  -13.1351    949.4215    ✗       
+546   DTQDKLC+57.021F          -1.0000     NotChecked  -13.1398    1025.4488   ✗       
+547   -17.027DMDKLC+57.021F    -1.0000     NotChecked  -13.1460    910.3565    ✗       
+548   -17.027TDNKLC+57.021F    -1.0000     NotChecked  -13.1521    879.3796    ✗       
+549   EATDKLC+57.021F          -1.0000     NotChecked  -13.1596    982.4430    ✗       
+550   DLDN+0.984KLC+57.021F    -1.0000     NotChecked  -13.1612    1024.4535   ✗       
+551   -17.027LDSKLC+57.021F    -1.0000     NotChecked  -13.1685    864.4051    ✗       
+552   QSDDKLC+57.021F          -1.0000     NotChecked  -13.1754    1011.4331   ✗       
+553   TTDEKLC+57.021F          -1.0000     NotChecked  -13.1799    1012.4535   ✗       
+554   ETDLKLC+57.021F          -1.0000     NotChecked  -13.1801    1024.4899   ✗       
+555   EVDDKLC+57.021F          -1.0000     NotChecked  -13.1832    1024.4535   ✗       
+556   -17.027PTDDKLC+57.021F   -1.0000     NotChecked  -13.1869    977.4164    ✗       
+557   EPDNKLC+57.021F          -1.0000     NotChecked  -13.1968    1021.4539   ✗       
+558   Q+0.984VDSKLC+57.021F    -1.0000     NotChecked  -13.1991    996.4586    ✗       
+559   ESQDKLC+57.021F          -1.0000     NotChecked  -13.2054    1025.4488   ✗       
+560   EVDDKLC+57.021K          -1.0000     NotChecked  -13.2055    1005.4801   ✗       
+561   -17.027TDDRLC+57.021F    -1.0000     NotChecked  -13.2155    908.3698    ✗       
+562   LVDLKLC+57.021F          -1.0000     NotChecked  -13.2293    1006.5521   ✗       
+563   EPDDKLC+57.021F          -1.0000     NotChecked  -13.2316    1022.4379   ✗       
+564   LTQDKLC+57.021F          -1.0000     NotChecked  -13.2343    1023.5059   ✗       
+565   EDDDLLC+57.021F          -1.0000     NotChecked  -13.2356    1025.4012   ✗       
+566   +42.011VDDKLC+57.021F    -1.0000     NotChecked  -13.2486    937.4215    ✗       
+567   +42.011TDDKLC+57.021F    -1.0000     NotChecked  -13.2518    939.4008    ✗       
+568   LLDN+0.984KLC+57.021F    -1.0000     NotChecked  -13.2558    1022.5107   ✗       
+569   -17.027TDDKDC+57.021F    -1.0000     NotChecked  -13.2592    882.3065    ✗       
+570   QTDDKVC+57.021F          -1.0000     NotChecked  -13.2619    1011.4331   ✗       
+571   EVDN+0.984KLC+57.021F    -1.0000     NotChecked  -13.2673    1024.4535   ✗       
+572   -17.027DN+0.984DKLC+57.021F-1.0000     NotChecked  -13.2712    894.3429    ✗       
+573   EANDKLC+57.021F          -1.0000     NotChecked  -13.2769    995.4382    ✗       
+574   DVTDKLC+57.021F          -1.0000     NotChecked  -13.2781    996.4586    ✗       
+575   -17.027PVDKLC+57.021F    -1.0000     NotChecked  -13.2875    860.4102    ✗       
+576   QTDDKLC+57.021M+15.995   -1.0000     NotChecked  -13.2909    1025.4158   ✗       
+577   EDDDSLC+57.021F          -1.0000     NotChecked  -13.2962    999.3491    ✗       
+578   QTDDKLC+57.021F          -1.0000     NotChecked  -13.2998    1025.4488   ✗       
+579   EPDDKDC+57.021F          -1.0000     NotChecked  -13.3039    1024.3808   ✗       
+580   M+15.995TDSKLC+57.021F   -1.0000     NotChecked  -13.3094    1016.4307   ✗       
+581   QTDDKLC+57.021F          -1.0000     NotChecked  -13.3096    1025.4488   ✗       
+582   ETVDKLC+57.021F          -1.0000     NotChecked  -13.3144    1010.4743   ✗       
+583   TLDDKLC+57.021F          -1.0000     NotChecked  -13.3179    1010.4743   ✗       
+584   MVVDKLC+57.021F          -1.0000     NotChecked  -13.3193    1010.4929   ✗       
+585   ETTDKLC+57.021F          -1.0000     NotChecked  -13.3235    1012.4535   ✗       
+586   DPDDKLC+57.021F          -1.0000     NotChecked  -13.3256    1008.4222   ✗       
+587   -17.027DEDKLC+57.021F    -1.0000     NotChecked  -13.3266    908.3586    ✗       
+588   ETDLKLC+57.021F          -1.0000     NotChecked  -13.3268    1024.4899   ✗       
+589   -17.027LDDKLC+57.021PF   -1.0000     NotChecked  -13.3372    989.4528    ✗       
+590   EDDPKLC+57.021F          -1.0000     NotChecked  -13.3375    1022.4379   ✗       
+591   QTDN+0.984KLC+57.021F    -1.0000     NotChecked  -13.3415    1025.4488   ✗       
+592   TTDDKHC+57.021F          -1.0000     NotChecked  -13.3460    1022.4127   ✗       
+593   -17.027SDDKLC+57.021F    -1.0000     NotChecked  -13.3465    866.3480    ✗       
+594   +42.011VDLKLC+57.021F    -1.0000     NotChecked  -13.3477    935.4786    ✗       
+595   QPDDKLC+57.021F          -1.0000     NotChecked  -13.3526    1021.4539   ✗       
+596   +42.011TQDKLC+57.021F    -1.0000     NotChecked  -13.3527    952.4324    ✗       
+597   -17.027TDDKEC+57.021F    -1.0000     NotChecked  -13.3549    896.3222    ✗       
+598   EALDKLC+57.021F          -1.0000     NotChecked  -13.3609    994.4794    ✗       
+599   -17.027TDDKNC+57.021F    -1.0000     NotChecked  -13.3662    881.3225    ✗       
+600   LVTDKLC+57.021F          -1.0000     NotChecked  -13.3727    994.5157    ✗       
+601   +42.011LDN+0.984KLC+57.021F-1.0000     NotChecked  -13.3741    951.4372    ✗       
+602   TVDDKLC+57.021F          -1.0000     NotChecked  -13.3818    996.4586    ✗       
+603   EADDKLC+57.021F          -1.0000     NotChecked  -13.3868    996.4222    ✗       
+604   -17.027LDEKLC+57.021F    -1.0000     NotChecked  -13.3913    906.4157    ✗       
+605   ETDDKLC+57.021L          -1.0000     NotChecked  -13.3915    992.4485    ✗       
+606   DVNDKLC+57.021F          -1.0000     NotChecked  -13.3954    1009.4539   ✗       
+607   EPDDKNC+57.021F          -1.0000     NotChecked  -13.4109    1023.3968   ✗       
+608   -17.027TDDKMC+57.021F    -1.0000     NotChecked  -13.4168    898.3201    ✗       
+609   TLDLKLC+57.021F          -1.0000     NotChecked  -13.4169    1008.5314   ✗       
+610   LPDDKLC+57.021F          -1.0000     NotChecked  -13.4202    1006.4794   ✗       
+611   ETTLKLC+57.021F          -1.0000     NotChecked  -13.4226    1010.5107   ✗       
+612   -17.027TVDDKLC+57.021F   -1.0000     NotChecked  -13.4233    979.4321    ✗       
+613   -17.027KDDKLC+57.021F    -1.0000     NotChecked  -13.4259    907.4110    ✗       
+614   -17.027TDDKVC+57.021F    -1.0000     NotChecked  -13.4330    866.3480    ✗       
+615   ETNDKLC+57.021F          -1.0000     NotChecked  -13.4408    1025.4488   ✗       
+616   ESDDKLC+57.021F          -1.0000     NotChecked  -13.4441    1012.4172   ✗       
+617   QPDLKLC+57.021F          -1.0000     NotChecked  -13.4517    1019.5110   ✗       
+618   -17.027TDDKLC+57.021M+15.995-1.0000     NotChecked  -13.4620    880.3306    ✗       
+619   TLDDKLC+57.021F          -1.0000     NotChecked  -13.4646    1010.4743   ✗       
+620   QVDDKLC+57.021F          -1.0000     NotChecked  -13.4691    1023.4695   ✗       
+621   ETTDKLC+57.021F          -1.0000     NotChecked  -13.4702    1012.4535   ✗       
+622   -17.027TDDKLC+57.021F    -1.0000     NotChecked  -13.4708    880.3637    ✗       
+623   EPDDKVC+57.021F          -1.0000     NotChecked  -13.4777    1008.4222   ✗       
+624   DTDSKLC+57.021F          -1.0000     NotChecked  -13.4782    984.4222    ✗       
+625   DVLDKLC+57.021F          -1.0000     NotChecked  -13.4795    1008.4950   ✗       
+626   -17.027TDDKLC+57.021F    -1.0000     NotChecked  -13.4807    880.3637    ✗       
+627   TVQDKLC+57.021F          -1.0000     NotChecked  -13.4827    1009.4903   ✗       
+628   -17.027DTDDKLC+57.021F   -1.0000     NotChecked  -13.4855    995.3906    ✗       
+629   LVNDKLC+57.021F          -1.0000     NotChecked  -13.4900    1007.5110   ✗       
+630   +42.011VTDKLC+57.021F    -1.0000     NotChecked  -13.4910    923.4422    ✗       
+631   QTDDALC+57.021F          -1.0000     NotChecked  -13.4984    968.3909    ✗       
+632   EVN+0.984DKLC+57.021F    -1.0000     NotChecked  -13.5038    1024.4535   ✗       
+633   -17.027TDDKC+57.021C+57.021F-1.0000     NotChecked  -13.5057    927.3102    ✗       
+634   EPDDKLC+57.021M+15.995   -1.0000     NotChecked  -13.5067    1022.4049   ✗       
+635   EVTN+0.984KLC+57.021F    -1.0000     NotChecked  -13.5098    1010.4743   ✗       
+636   -17.027TDN+0.984KLC+57.021F-1.0000     NotChecked  -13.5125    880.3637    ✗       
+637   EPDDKLC+57.021F          -1.0000     NotChecked  -13.5156    1022.4379   ✗       
+638   QVDDKLC+57.021F          -1.0000     NotChecked  -13.5216    1023.4695   ✗       
+639   -17.027PDDKLC+57.021F    -1.0000     NotChecked  -13.5237    876.3688    ✗       
+640   QTN+0.984DKLC+57.021F    -1.0000     NotChecked  -13.5242    1025.4488   ✗       
+641   ETLDKLC+57.021F          -1.0000     NotChecked  -13.5248    1024.4899   ✗       
+642   EPDDKLC+57.021F          -1.0000     NotChecked  -13.5254    1022.4379   ✗       
+643   QVDGKLC+57.021F          -1.0000     NotChecked  -13.5369    965.4641    ✗       
+644   +42.011PDDKLC+57.021F    -1.0000     NotChecked  -13.5385    935.4059    ✗       
+645   ETNLKLC+57.021F          -1.0000     NotChecked  -13.5399    1023.5059   ✗       
+646   QTDDTLC+57.021F          -1.0000     NotChecked  -13.5405    998.4015    ✗       
+647   ESDSKLC+57.021F          -1.0000     NotChecked  -13.5437    984.4222    ✗       
+648   TPMDKLC+57.021F          -1.0000     NotChecked  -13.5460    1010.4565   ✗       
+649   -17.027AVDDKLC+57.021F   -1.0000     NotChecked  -13.5477    949.4215    ✗       
+650   ETDGKLC+57.021F          -1.0000     NotChecked  -13.5552    968.4273    ✗       
+651   QTDDKLC+57.021F          -1.0000     NotChecked  -13.5562    1025.4488   ✗       
+652   EPDN+0.984KLC+57.021F    -1.0000     NotChecked  -13.5573    1022.4379   ✗       
+653   -17.027LDDKHC+57.021F    -1.0000     NotChecked  -13.5575    916.3749    ✗       
+654   TLTDKLC+57.021F          -1.0000     NotChecked  -13.5603    996.4950    ✗       
+655   LTDSKLC+57.021F          -1.0000     NotChecked  -13.5727    982.4794    ✗       
+656   LVLDKLC+57.021F          -1.0000     NotChecked  -13.5740    1006.5521   ✗       
+657   QVN+0.984DKLC+57.021F    -1.0000     NotChecked  -13.5748    1023.4695   ✗       
+658   ETNDKLC+57.021F          -1.0000     NotChecked  -13.5875    1025.4488   ✗       
+659   TTDDLLC+57.021F          -1.0000     NotChecked  -13.5908    983.4270    ✗       
+660   QPTDKLC+57.021F          -1.0000     NotChecked  -13.5951    1007.4746   ✗       
+661   DLVDKLC+57.021F          -1.0000     NotChecked  -13.6027    1008.4950   ✗       
+662   +42.011VNDKLC+57.021F    -1.0000     NotChecked  -13.6083    936.4375    ✗       
+663   Q+0.984TDDKLC+57.021F    -1.0000     Failed      -13.6100    1026.4328   ✓       
+664   -17.027TSDDKLC+57.021F   -1.0000     NotChecked  -13.6134    967.3957    ✗       
+665   -17.027VMDKLC+57.021F    -1.0000     NotChecked  -13.6207    894.3979    ✗       
+666   -17.027PDLKLC+57.021F    -1.0000     NotChecked  -13.6228    874.4259    ✗       
+667   EKDSKLC+57.021F          -1.0000     NotChecked  -13.6232    1025.4852   ✗       
+668   ETLLKLC+57.021F          -1.0000     NotChecked  -13.6239    1022.5470   ✗       
+669   EVNN+0.984KLC+57.021F    -1.0000     NotChecked  -13.6271    1023.4695   ✗       
+670   QLDDLLC+57.021F          -1.0000     NotChecked  -13.6312    1022.4743   ✗       
+671   -17.027VDDKLC+57.021F    -1.0000     NotChecked  -13.6402    878.3844    ✗       
+672   QVDKLC+57.021F           -1.0000     NotChecked  -13.6426    908.4426    ✗       
+673   ETMDSLC+57.021F          -1.0000     NotChecked  -13.6483    1001.3834   ✗       
+674   ETDLKLC+57.021F          -1.0000     NotChecked  -13.6498    1024.4899   ✗       
+675   TTDDSLC+57.021F          -1.0000     NotChecked  -13.6514    957.3749    ✗       
+676   MVDLKLC+57.021F          -1.0000     NotChecked  -13.6547    1024.5086   ✗       
+677   +42.011GTDDKLC+57.021F   -1.0000     NotChecked  -13.6577    996.4222    ✗       
+678   ETDKLC+57.021F           -1.0000     NotChecked  -13.6609    911.4059    ✗       
+679   -17.027TDDKFC+57.021F    -1.0000     NotChecked  -13.6612    914.3480    ✗       
+680   QTDDKC+57.021F           -1.0000     NotChecked  -13.6670    912.3647    ✗       
+681   -17.027TDDALC+57.021F    -1.0000     NotChecked  -13.6695    823.3058    ✗       
+682   -17.027TPDDKLC+57.021F   -1.0000     NotChecked  -13.6704    977.4164    ✗       
+683   TPN+0.984DKLC+57.021F    -1.0000     NotChecked  -13.6711    994.4430    ✗       
+684   ETLDKLC+57.021F          -1.0000     NotChecked  -13.6715    1024.4899   ✗       
+685   TLNDKLC+57.021F          -1.0000     NotChecked  -13.6776    1009.4903   ✗       
+686   Q+0.984TDGKLC+57.021F    -1.0000     NotChecked  -13.6779    968.4273    ✗       
+687   -17.027TDDELC+57.021F    -1.0000     NotChecked  -13.6798    881.3113    ✗       
+688   Q+0.984PDN+0.984KLC+57.021F-1.0000     NotChecked  -13.6799    1022.4379   ✗       
+689   ETMPKLC+57.021F          -1.0000     NotChecked  -13.6897    1024.4722   ✗       
+690   +42.011TDSKLC+57.021F    -1.0000     NotChecked  -13.6911    911.4059    ✗       
+691   QLDDSLC+57.021F          -1.0000     NotChecked  -13.6918    996.4222    ✗       
+692   +42.011VLDKLC+57.021F    -1.0000     NotChecked  -13.6924    935.4786    ✗       
+693   -17.027QVDDKLC+57.021F   -1.0000     NotChecked  -13.6927    1006.4430   ✗       
+694   TTDPKLC+57.021F          -1.0000     NotChecked  -13.6927    980.4637    ✗       
+695   -17.027QTN+0.984DKLC+57.021F-1.0000     NotChecked  -13.6953    1008.4222   ✗       
+696   LLVDKLC+57.021F          -1.0000     NotChecked  -13.6973    1006.5521   ✗       
+697   DTDEKLC+57.021F          -1.0000     Failed      -13.7010    1026.4328   ✓       
+698   -17.027VDGKLC+57.021F    -1.0000     NotChecked  -13.7080    820.3789    ✗       
+699   EVVDKLC+57.021F          -1.0000     NotChecked  -13.7088    1008.4950   ✗       
+700   EVDDLLC+57.021F          -1.0000     NotChecked  -13.7103    1009.4426   ✗       
+701   EVLN+0.984KLC+57.021F    -1.0000     NotChecked  -13.7111    1022.5107   ✗       
+702   -17.027TDDTLC+57.021F    -1.0000     NotChecked  -13.7116    853.3164    ✗       
+703   ETVDKLC+57.021F          -1.0000     NotChecked  -13.7120    1010.4743   ✗       
+704   QPNDKLC+57.021F          -1.0000     NotChecked  -13.7124    1020.4699   ✗       
+705   ETN+0.984DLLC+57.021F    -1.0000     NotChecked  -13.7128    1011.4219   ✗       
+706   EPDDALC+57.021F          -1.0000     NotChecked  -13.7142    965.3800    ✗       
+707   -17.027TDDHLC+57.021F    -1.0000     NotChecked  -13.7145    889.3276    ✗       
+708   QTDDGLC+57.021F          -1.0000     NotChecked  -13.7225    954.3753    ✗       
+709   EPDDELC+57.021F          -1.0000     NotChecked  -13.7245    1023.3855   ✗       
+710   TPEDKLC+57.021F          -1.0000     NotChecked  -13.7266    1008.4586   ✗       
+711   -17.027TDDKLC+57.021F    -1.0000     NotChecked  -13.7273    880.3637    ✗       
+712   QLDPKLC+57.021F          -1.0000     NotChecked  -13.7331    1019.5110   ✗       
+713   -17.027LTDDKLC+57.021F   -1.0000     NotChecked  -13.7336    993.4477    ✗       
+714   EVDN+0.984KLC+57.021F    -1.0000     NotChecked  -13.7370    1024.4535   ✗       
+715   -17.027VN+0.984DKLC+57.021F-1.0000     NotChecked  -13.7458    878.3844    ✗       
+716   EPDDTLC+57.021F          -1.0000     NotChecked  -13.7564    995.3906    ✗       
+717   TLLDKLC+57.021F          -1.0000     NotChecked  -13.7616    1008.5314   ✗       
+718   -17.027EMDKLC+57.021F    -1.0000     NotChecked  -13.7661    924.3721    ✗       
+719   -17.027PTDKLC+57.021F    -1.0000     NotChecked  -13.7662    862.3895    ✗       
+720   ETEDLLC+57.021F          -1.0000     NotChecked  -13.7683    1025.4376   ✗       
+721   EVDDSLC+57.021F          -1.0000     NotChecked  -13.7709    983.3906    ✗       
+722   -17.027VGDDKLC+57.021F   -1.0000     NotChecked  -13.7716    935.4059    ✗       
+723   ETN+0.984DSLC+57.021F    -1.0000     NotChecked  -13.7734    985.3699    ✗       
+724   QVDTKLC+57.021F          -1.0000     NotChecked  -13.7735    1009.4903   ✗       
+725   QTVDKLC+57.021F          -1.0000     NotChecked  -13.7830    1009.4903   ✗       
+726   Q+0.984TDKLC+57.021F     -1.0000     NotChecked  -13.7836    911.4059    ✗       
+727   EADDKLC+57.021F          -1.0000     NotChecked  -13.7844    996.4222    ✗       
+728   EVDDKLC+57.021F          -1.0000     NotChecked  -13.7897    1024.4535   ✗       
+729   ETDTKLC+57.021F          -1.0000     NotChecked  -13.7918    1012.4535   ✗       
+730   ETTDKLC+57.021F          -1.0000     NotChecked  -13.7932    1012.4535   ✗       
+731   LTDEKLC+57.021F          -1.0000     NotChecked  -13.7956    1024.4899   ✗       
+732   QPLDKLC+57.021F          -1.0000     NotChecked  -13.7964    1019.5110   ✗       
+733   +42.011VM+15.995DKLC+57.021F-1.0000     NotChecked  -13.7969    969.4300    ✗       
+734   MVTDKLC+57.021F          -1.0000     NotChecked  -13.7980    1012.4722   ✗       
+735   -17.027VEDKLC+57.021F    -1.0000     NotChecked  -13.8013    892.4001    ✗       
+736   -17.027LDDLLC+57.021F    -1.0000     NotChecked  -13.8023    877.3892    ✗       
+737   EVVLKLC+57.021F          -1.0000     NotChecked  -13.8079    1006.5521   ✗       
+738   QTDDKLC+57.021F          -1.0000     NotChecked  -13.8117    1025.4488   ✗       
+739   EVDPKLC+57.021F          -1.0000     NotChecked  -13.8122    1006.4794   ✗       
+740   ETDDKLC+57.021H          -1.0000     NotChecked  -13.8131    1016.4233   ✗       
+741   -17.027VDKLC+57.021F     -1.0000     NotChecked  -13.8137    763.3575    ✗       
+742   ETN+0.984PKLC+57.021F    -1.0000     NotChecked  -13.8148    1008.4586   ✗       
+743   +42.011LVDKLC+57.021F    -1.0000     NotChecked  -13.8156    935.4786    ✗       
+744   EVMSKLC+57.021F          -1.0000     NotChecked  -13.8180    1012.4722   ✗       
+745   TVDSKLC+57.021F          -1.0000     NotChecked  -13.8211    968.4637    ✗       
+746   ETEDSLC+57.021F          -1.0000     NotChecked  -13.8289    999.3855    ✗       
+747   Q+0.984VDDLLC+57.021F    -1.0000     NotChecked  -13.8329    1009.4426   ✗       
+748   ELVN+0.984KLC+57.021F    -1.0000     NotChecked  -13.8344    1022.5107   ✗       
+749   -17.027TDDKC+57.021F     -1.0000     NotChecked  -13.8381    767.2796    ✗       
+750   DLDDKLC+57.021F          -1.0000     NotChecked  -13.8390    1024.4535   ✗       
+751   QVDNKLC+57.021F          -1.0000     NotChecked  -13.8451    1022.4855   ✗       
+752   MPDDKLC+57.021F          -1.0000     NotChecked  -13.8455    1024.4358   ✗       
+753   QADDKLC+57.021F          -1.0000     NotChecked  -13.8553    995.4382    ✗       
+754   TDDDKLC+57.021F          -1.0000     NotChecked  -13.8605    1012.4172   ✗       
+755   -17.027TADDKLC+57.021F   -1.0000     NotChecked  -13.8611    951.4008    ✗       
+756   -17.027LDDSLC+57.021F    -1.0000     NotChecked  -13.8629    851.3371    ✗       
+757   ETDNKLC+57.021F          -1.0000     NotChecked  -13.8634    1025.4488   ✗       
+758   ETEPKLC+57.021F          -1.0000     NotChecked  -13.8702    1022.4743   ✗       
+759   ELDSKLC+57.021F          -1.0000     NotChecked  -13.8798    1010.4743   ✗       
+760   EPDDKC+57.021F           -1.0000     NotChecked  -13.8828    909.3538    ✗       
+761   -17.027PNDKLC+57.021F    -1.0000     NotChecked  -13.8835    875.3847    ✗       
+762   EAQDKLC+57.021F          -1.0000     NotChecked  -13.8853    1009.4539   ✗       
+763   -17.027EN+0.984DKLC+57.021F-1.0000     NotChecked  -13.8912    908.3586    ✗       
+764   Q+0.984VDDSLC+57.021F    -1.0000     NotChecked  -13.8935    983.3906    ✗       
+765   -17.027TDDGLC+57.021F    -1.0000     NotChecked  -13.8936    809.2902    ✗       
+766   -17.027DDN+0.984KLC+57.021F-1.0000     NotChecked  -13.9019    894.3429    ✗       
+767   DVDDKLC+57.021F          -1.0000     NotChecked  -13.9029    1010.4379   ✗       
+768   -17.027LDPKLC+57.021F    -1.0000     NotChecked  -13.9042    874.4259    ✗       
+769   EVDDKLC+57.021F          -1.0000     NotChecked  -13.9073    1024.4535   ✗       
+770   ETNDKLC+57.021F          -1.0000     NotChecked  -13.9105    1025.4488   ✗       
+771   +42.011TDEKLC+57.021F    -1.0000     NotChecked  -13.9139    953.4164    ✗       
+772   Q+0.984TDTKLC+57.021F    -1.0000     NotChecked  -13.9144    1012.4535   ✗       
+773   MVNDKLC+57.021F          -1.0000     NotChecked  -13.9154    1025.4674   ✗       
+774   EEDDSLC+57.021F          -1.0000     NotChecked  -13.9163    1013.3648   ✗       
+775   LLDDKLC+57.021F          -1.0000     NotChecked  -13.9335    1022.5107   ✗       
+776   Q+0.984VDPKLC+57.021F    -1.0000     NotChecked  -13.9348    1006.4794   ✗       
+777   DLDLKLC+57.021F          -1.0000     NotChecked  -13.9381    1022.5107   ✗       
+778   EPDDGLC+57.021F          -1.0000     NotChecked  -13.9383    951.3644    ✗       
+779   -17.027TTDDKLC+57.021F   -1.0000     NotChecked  -13.9415    981.4113    ✗       
+780   EVN+0.984SKLC+57.021F    -1.0000     NotChecked  -13.9431    996.4586    ✗       
+781   -17.027VDTKLC+57.021F    -1.0000     NotChecked  -13.9445    864.4051    ✗       
+782   EDDGKLC+57.021F          -1.0000     NotChecked  -13.9446    982.4066    ✗       
+783   -17.027EEDKLC+57.021F    -1.0000     NotChecked  -13.9466    922.3742    ✗       
+784   QVDDKDC+57.021F          -1.0000     NotChecked  -13.9522    1025.4124   ✗       
+785   -17.027TVDKLC+57.021F    -1.0000     NotChecked  -13.9540    864.4051    ✗       
+786   -17.027PLDKLC+57.021F    -1.0000     NotChecked  -13.9675    874.4259    ✗       
+787   ETDDKLC+57.021           -1.0000     NotChecked  -13.9708    879.3644    ✗       
+788   -17.027TDDKLC+57.021F    -1.0000     NotChecked  -13.9827    880.3637    ✗       
+789   Q+0.984TDNKLC+57.021F    -1.0000     NotChecked  -13.9860    1025.4488   ✗       
+790   QSDDKLC+57.021F          -1.0000     NotChecked  -13.9889    1011.4331   ✗       
+791   -17.027EPDDKLC+57.021F   -1.0000     NotChecked  -13.9934    1005.4113   ✗       
+792   ETLDKLC+57.021F          -1.0000     NotChecked  -13.9945    1024.4899   ✗       
+793   LVDDKLC+57.021F          -1.0000     NotChecked  -13.9975    1008.4950   ✗       
+794   MTDSKLC+57.021F          -1.0000     NotChecked  -13.9981    1000.4358   ✗       
+795   EVESKLC+57.021F          -1.0000     NotChecked  -13.9986    1010.4743   ✗       
+796   EPVDKLC+57.021F          -1.0000     NotChecked  -13.9988    1006.4794   ✗       
+797   MVLDKLC+57.021F          -1.0000     NotChecked  -13.9994    1024.5086   ✗       
+798   Q+0.984LDSKLC+57.021F    -1.0000     NotChecked  -14.0024    1010.4743   ✗       
+799   M+15.995TDDSLC+57.021F   -1.0000     NotChecked  -14.0038    1003.3627   ✗       
+800   DVQDKLC+57.021F          -1.0000     NotChecked  -14.0039    1023.4695   ✗       
+801   ELDDKLC+57.021K          -1.0000     NotChecked  -14.0088    1019.4957   ✗       
+802   -17.027TVDDKLC+57.021F   -1.0000     NotChecked  -14.0120    979.4321    ✗       
+803   -17.027VDNKLC+57.021F    -1.0000     NotChecked  -14.0161    877.4004    ✗       
+804   QTDDKLF                  -1.0000     NotChecked  -14.0192    865.4181    ✗       
+805   -17.027ADDKLC+57.021F    -1.0000     NotChecked  -14.0264    850.3531    ✗       
+806   EPDDKLC+57.021F          -1.0000     NotChecked  -14.0275    1022.4379   ✗       
+807   LLDLKLC+57.021F          -1.0000     NotChecked  -14.0326    1020.5678   ✗       
+808   QSN+0.984DKLC+57.021F    -1.0000     NotChecked  -14.0420    1011.4331   ✗       
+809   TVDEKLC+57.021F          -1.0000     NotChecked  -14.0440    1010.4743   ✗       
+810   EVDLKLC+57.021F          -1.0000     NotChecked  -14.0442    1022.5107   ✗       
+811   ETDLKLC+57.021F          -1.0000     NotChecked  -14.0474    1024.4899   ✗       
+812   EDDKLC+57.021F           -1.0000     NotChecked  -14.0503    925.3851    ✗       
+813   QTDDKLC+57.021M          -1.0000     NotChecked  -14.0506    1009.4209   ✗       
+814   -17.027PVDDKLC+57.021F   -1.0000     NotChecked  -14.0509    975.4372    ✗       
+815   +42.011LDDKLC+57.021F    -1.0000     NotChecked  -14.0519    951.4372    ✗       
+816   QVDDKNC+57.021F          -1.0000     NotChecked  -14.0592    1024.4284   ✗       
+817   DPMDKLC+57.021F          -1.0000     NotChecked  -14.0672    1024.4358   ✗       
+818   -17.027PM+15.995DKLC+57.021F-1.0000     NotChecked  -14.0721    908.3772    ✗       
+819   -17.027VDDRLC+57.021F    -1.0000     NotChecked  -14.0796    906.3906    ✗       
+820   +42.011TDDKHC+57.021F    -1.0000     NotChecked  -14.0801    963.3756    ✗       
+821   DLTDKLC+57.021F          -1.0000     NotChecked  -14.0815    1010.4743   ✗       
+822   -17.027SMDKLC+57.021F    -1.0000     NotChecked  -14.0880    882.3616    ✗       
+823   QSEDKLC+57.021F          -1.0000     NotChecked  -14.0975    1025.4488   ✗       
+824   LVQDKLC+57.021F          -1.0000     NotChecked  -14.0984    1021.5267   ✗       
+825   DTDDLLC+57.021F          -1.0000     NotChecked  -14.1120    997.4063    ✗       
+826   ETDDKLC+57.021P          -1.0000     NotChecked  -14.1127    976.4172    ✗       
+827   -17.027TDGDKLC+57.021F   -1.0000     NotChecked  -14.1142    937.3851    ✗       
+828   +42.011VDDKLC+57.021F    -1.0000     NotChecked  -14.1158    937.4215    ✗       
+829   -17.027MDDKLC+57.021F    -1.0000     NotChecked  -14.1160    910.3565    ✗       
+830   QVDDKLC+57.021F          -1.0000     NotChecked  -14.1163    1023.4695   ✗       
+831   QTDLKLC+57.021F          -1.0000     NotChecked  -14.1183    1023.5059   ✗       
+832   Q+0.984PVDKLC+57.021F    -1.0000     NotChecked  -14.1214    1006.4794   ✗       
+833   MLVDKLC+57.021F          -1.0000     NotChecked  -14.1227    1024.5086   ✗       
+834   -17.027VDDKDC+57.021F    -1.0000     NotChecked  -14.1233    880.3273    ✗       
+835   QVDDKVC+57.021F          -1.0000     NotChecked  -14.1260    1009.4539   ✗       
+836   EVDN+0.984KLC+57.021F    -1.0000     NotChecked  -14.1346    1024.4535   ✗       
+837   ETDDKVC+57.021F          -1.0000     NotChecked  -14.1443    1012.4172   ✗       
+838   +42.011LDLKLC+57.021F    -1.0000     NotChecked  -14.1510    949.4943    ✗       
+839   ETVSKLC+57.021F          -1.0000     NotChecked  -14.1513    982.4794    ✗       
+840   QTDN+0.984KLC+57.021F    -1.0000     NotChecked  -14.1550    1025.4488   ✗       
+841   QVDDKLC+57.021M+15.995   -1.0000     NotChecked  -14.1550    1023.4365   ✗       
+842   -17.027QSDDKLC+57.021F   -1.0000     NotChecked  -14.1600    994.4066    ✗       
+843   LPMDKLC+57.021F          -1.0000     NotChecked  -14.1617    1022.4929   ✗       
+844   QVDDKLC+57.021F          -1.0000     NotChecked  -14.1639    1023.4695   ✗       
+845   QTDDKLC+57.021F          -1.0000     NotChecked  -14.1660    1025.4488   ✗       
+846   -17.027KMDKLC+57.021F    -1.0000     NotChecked  -14.1675    923.4245    ✗       
+847   QDVDKLC+57.021F          -1.0000     NotChecked  -14.1724    1023.4695   ✗       
+848   DTDDSLC+57.021F          -1.0000     NotChecked  -14.1726    971.3542    ✗       
+849   M+15.995VDSKLC+57.021F   -1.0000     NotChecked  -14.1735    1014.4514   ✗       
+850   QVDDKLC+57.021F          -1.0000     NotChecked  -14.1737    1023.4695   ✗       
+851   LLTDKLC+57.021F          -1.0000     NotChecked  -14.1760    1008.5314   ✗       
+852   ESDDLLC+57.021F          -1.0000     NotChecked  -14.1775    997.4063    ✗       
+853   EVVDKLC+57.021F          -1.0000     NotChecked  -14.1785    1008.4950   ✗       
+854   Q+0.984SDDKLC+57.021F    -1.0000     NotChecked  -14.1804    1012.4172   ✗       
+855   TLDDKLC+57.021F          -1.0000     NotChecked  -14.1851    1010.4743   ✗       
+856   EVTDKLC+57.021F          -1.0000     NotChecked  -14.1876    1010.4743   ✗       
+857   -17.027TDDKLF            -1.0000     NotChecked  -14.1903    720.3330    ✗       
+858   ETTDKLC+57.021F          -1.0000     NotChecked  -14.1907    1012.4535   ✗       
+859   DPN+0.984DKLC+57.021F    -1.0000     NotChecked  -14.1923    1008.4222   ✗       
+860   DLNDKLC+57.021F          -1.0000     NotChecked  -14.1988    1023.4695   ✗       
+861   QVDN+0.984KLC+57.021F    -1.0000     NotChecked  -14.2055    1023.4695   ✗       
+862   LTDDLLC+57.021F          -1.0000     NotChecked  -14.2065    995.4634    ✗       
+863   QTN+0.984N+0.984KLC+57.021F-1.0000     NotChecked  -14.2081    1025.4488   ✗       
+864   TVDDKHC+57.021F          -1.0000     NotChecked  -14.2101    1020.4335   ✗       
+865   TTMDKLC+57.021F          -1.0000     NotChecked  -14.2126    1014.4514   ✗       
+866   -17.027SN+0.984DKLC+57.021F-1.0000     NotChecked  -14.2131    866.3480    ✗       
+867   DTDPKLC+57.021F          -1.0000     NotChecked  -14.2139    994.4430    ✗       
+868   +42.011VQDKLC+57.021F    -1.0000     NotChecked  -14.2168    950.4532    ✗       
+869   -17.027VDDKEC+57.021F    -1.0000     NotChecked  -14.2190    894.3429    ✗       
+870   QPDDKLC+57.021F          -1.0000     NotChecked  -14.2199    1021.4539   ✗       
+871   -17.027TDDKLC+57.021M    -1.0000     NotChecked  -14.2217    864.3357    ✗       
+872   EADSKLC+57.021F          -1.0000     NotChecked  -14.2237    968.4273    ✗       
+873   -17.027VDDKNC+57.021F    -1.0000     NotChecked  -14.2303    879.3433    ✗       
+874   TTDDKLC+57.021F          -1.0000     NotChecked  -14.2321    998.4379    ✗       
+875   EPDDKLF                  -1.0000     NotChecked  -14.2350    862.4072    ✗       
+876   ESDDSLC+57.021F          -1.0000     NotChecked  -14.2382    971.3542    ✗       
+877   -17.027TGDDKLC+57.021F   -1.0000     NotChecked  -14.2401    937.3851    ✗       
+878   DPEDKLC+57.021F          -1.0000     NotChecked  -14.2477    1022.4379   ✗       
+879   -17.027TMN+0.984KLC+57.021F-1.0000     NotChecked  -14.2541    896.3772    ✗       
+880   EVDDKLC+57.021L          -1.0000     NotChecked  -14.2556    990.4692    ✗       
+881   QTTDKLC+57.021F          -1.0000     NotChecked  -14.2617    1011.4695   ✗       
+882   EPDDKLC+57.021M          -1.0000     NotChecked  -14.2664    1006.4100   ✗       
+883   Q+0.984TDDKVC+57.021F    -1.0000     NotChecked  -14.2670    1012.4172   ✗       
+884   LTDDSLC+57.021F          -1.0000     NotChecked  -14.2671    969.4113    ✗       
+885   -17.027SEDKLC+57.021F    -1.0000     NotChecked  -14.2685    880.3637    ✗       
+886   ESDPKLC+57.021F          -1.0000     NotChecked  -14.2795    994.4430    ✗       
+887   +42.011PMDKLC+57.021F    -1.0000     NotChecked  -14.2801    951.4194    ✗       
+888   -17.027VDDKMC+57.021F    -1.0000     NotChecked  -14.2809    896.3408    ✗       
+889   DLLDKLC+57.021F          -1.0000     NotChecked  -14.2828    1022.5107   ✗       
+890   -17.027TDGDKLC+57.021F   -1.0000     NotChecked  -14.2832    937.3851    ✗       
+891   TLQDKLC+57.021F          -1.0000     NotChecked  -14.2861    1023.5059   ✗       
+892   EVTLKLC+57.021F          -1.0000     NotChecked  -14.2866    1008.5314   ✗       
+893   LPN+0.984DKLC+57.021F    -1.0000     NotChecked  -14.2868    1006.4794   ✗       
+894   -17.027VDDKLC+57.021F    -1.0000     NotChecked  -14.2873    878.3844    ✗       
+895   -17.027TDLKLC+57.021F    -1.0000     NotChecked  -14.2894    878.4208    ✗       
+896   -17.027KN+0.984DKLC+57.021F-1.0000     NotChecked  -14.2926    907.4110    ✗       
+897   LLNDKLC+57.021F          -1.0000     NotChecked  -14.2933    1021.5267   ✗       
+898   +42.011LTDKLC+57.021F    -1.0000     NotChecked  -14.2944    937.4579    ✗       
+899   ETMGKLC+57.021F          -1.0000     NotChecked  -14.2968    984.4409    ✗       
+900   -17.027VDDKVC+57.021F    -1.0000     NotChecked  -14.2971    864.3688    ✗       
+901   TTDGKLC+57.021F          -1.0000     NotChecked  -14.2999    940.4324    ✗       
+902   TPDN+0.984KLC+57.021F    -1.0000     NotChecked  -14.3019    994.4430    ✗       
+903   Q+0.984TDDKLC+57.021F    -1.0000     Failed      -14.3048    1026.4328   ✓       
+904   EVNDKLC+57.021F          -1.0000     NotChecked  -14.3049    1023.4695   ✗       
+905   ETNDKLC+57.021F          -1.0000     NotChecked  -14.3080    1025.4488   ✗       
+906   LTDPKLC+57.021F          -1.0000     NotChecked  -14.3084    992.5001    ✗       
+907   ELTN+0.984KLC+57.021F    -1.0000     NotChecked  -14.3131    1024.4899   ✗       
+908   Q+0.984TDDKLC+57.021F    -1.0000     Failed      -14.3146    1026.4328   ✓       
+909   EKDDSLC+57.021F          -1.0000     NotChecked  -14.3176    1012.4172   ✗       
+910   +42.011TDDLLC+57.021F    -1.0000     NotChecked  -14.3249    924.3899    ✗       
+911   -17.027QTDN+0.984KLC+57.021F-1.0000     NotChecked  -14.3260    1008.4222   ✗       
+912   -17.027VDDKLC+57.021M+15.995-1.0000     NotChecked  -14.3261    878.3514    ✗       
+913   QTDDLC+57.021F           -1.0000     NotChecked  -14.3293    897.3538    ✗       
+914   EPDLKLC+57.021F          -1.0000     NotChecked  -14.3341    1020.4950   ✗       
+915   -17.027VDDKLC+57.021F    -1.0000     NotChecked  -14.3349    878.3844    ✗       
+916   -17.027TDDKLC+57.021F    -1.0000     NotChecked  -14.3370    880.3637    ✗       
+917   TTN+0.984DKLC+57.021F    -1.0000     NotChecked  -14.3377    998.4379    ✗       
+918   QLDGKLC+57.021F          -1.0000     NotChecked  -14.3402    979.4797    ✗       
+919   LPEDKLC+57.021F          -1.0000     NotChecked  -14.3422    1020.4950   ✗       
+920   DVDSKLC+57.021F          -1.0000     NotChecked  -14.3422    982.4430    ✗       
+921   -17.027DVDKLC+57.021F    -1.0000     NotChecked  -14.3435    878.3844    ✗       
+922   ETDN+0.984LLC+57.021F    -1.0000     NotChecked  -14.3436    1011.4219   ✗       
+923   -17.027VDDKLC+57.021F    -1.0000     NotChecked  -14.3447    878.3844    ✗       
+924   -17.027KEDKLC+57.021F    -1.0000     NotChecked  -14.3480    921.4266    ✗       
+925   -17.027VDDKLC+57.021MF   -1.0000     NotChecked  -14.3486    1009.4249   ✗       
+926   -17.027DVDDKLC+57.021F   -1.0000     NotChecked  -14.3496    993.4113    ✗       
+927   -17.027ALDDKLC+57.021F   -1.0000     NotChecked  -14.3511    963.4372    ✗       
+928   EVDDKLC+57.021F          -1.0000     NotChecked  -14.3515    1024.4535   ✗       
+929   Q+0.984PDDKLC+57.021F    -1.0000     NotChecked  -14.3577    1022.4379   ✗       
+930   QVDDALC+57.021F          -1.0000     NotChecked  -14.3625    966.4117    ✗       
+931   -17.027VDDKC+57.021C+57.021F-1.0000     NotChecked  -14.3698    925.3310    ✗       
+932   QVDDELC+57.021F          -1.0000     NotChecked  -14.3728    1024.4172   ✗       
+933   ETVEKLC+57.021F          -1.0000     NotChecked  -14.3742    1024.4899   ✗       
+934   -17.027VDN+0.984KLC+57.021F-1.0000     NotChecked  -14.3766    878.3844    ✗       
+935   LLLDKLC+57.021F          -1.0000     NotChecked  -14.3773    1020.5678   ✗       
+936   QTNDKLC+57.021F          -1.0000     NotChecked  -14.3790    1024.4648   ✗       
+937   -17.027TN+0.984N+0.984KLC+57.021F-1.0000     NotChecked  -14.3792    880.3637    ✗       
+938   ETDDALC+57.021F          -1.0000     NotChecked  -14.3808    969.3750    ✗       
+939   +42.011TDDSLC+57.021F    -1.0000     NotChecked  -14.3855    898.3378    ✗       
+940   ETDSKLC+57.021F          -1.0000     NotChecked  -14.3876    998.4379    ✗       
+941   QVN+0.984DKLC+57.021F    -1.0000     NotChecked  -14.3883    1023.4695   ✗       
+942   EVLDKLC+57.021F          -1.0000     NotChecked  -14.3889    1022.5107   ✗       
+943   -17.027PDDKLC+57.021F    -1.0000     NotChecked  -14.3910    876.3688    ✗       
+944   ETLDKLC+57.021F          -1.0000     NotChecked  -14.3921    1024.4899   ✗       
+945   TTEDKLC+57.021F          -1.0000     NotChecked  -14.3932    1012.4535   ✗       
+946   ETMKLC+57.021F           -1.0000     NotChecked  -14.4025    927.4194    ✗       
+947   EVNLKLC+57.021F          -1.0000     NotChecked  -14.4039    1021.5267   ✗       
+948   ETDN+0.984SLC+57.021F    -1.0000     NotChecked  -14.4042    985.3699    ✗       
+949   QVDDTLC+57.021F          -1.0000     NotChecked  -14.4046    996.4222    ✗       
+950   +42.011PN+0.984DKLC+57.021F-1.0000     NotChecked  -14.4052    935.4059    ✗       
+951   TTDKLC+57.021F           -1.0000     NotChecked  -14.4056    883.4109    ✗       
+952   +42.011LNDKLC+57.021F    -1.0000     NotChecked  -14.4117    950.4532    ✗       
+953   EVDDKLC+57.021F          -1.0000     NotChecked  -14.4148    1024.4535   ✗       
+954   EVDGKLC+57.021F          -1.0000     NotChecked  -14.4193    966.4481    ✗       
+955   ETN+0.984GKLC+57.021F    -1.0000     NotChecked  -14.4219    968.4273    ✗       
+956   ETDDTLC+57.021F          -1.0000     NotChecked  -14.4229    999.3855    ✗       
+957   EPN+0.984N+0.984KLC+57.021F-1.0000     NotChecked  -14.4239    1022.4379   ✗       
+958   -17.027LMDKLC+57.021F    -1.0000     NotChecked  -14.4241    908.4136    ✗       
+959   +42.011TDPKLC+57.021F    -1.0000     NotChecked  -14.4268    921.4266    ✗       
+960   -17.027TTDKLC+57.021F    -1.0000     NotChecked  -14.4328    866.3844    ✗       
+961   -17.027TEN+0.984KLC+57.021F-1.0000     NotChecked  -14.4346    894.3793    ✗       
+962   LVDSKLC+57.021F          -1.0000     NotChecked  -14.4368    980.5001    ✗       
+963   -17.027LDDKLC+57.021F    -1.0000     NotChecked  -14.4435    892.4001    ✗       
+964   QLDKLC+57.021F           -1.0000     NotChecked  -14.4459    922.4582    ✗       
+965   EADEKLC+57.021F          -1.0000     NotChecked  -14.4465    1010.4379   ✗       
+966   EVMDLLC+57.021F          -1.0000     NotChecked  -14.4518    1025.4562   ✗       
+967   TVDDLLC+57.021F          -1.0000     NotChecked  -14.4549    981.4477    ✗       
+968   +42.011SVDDKLC+57.021F   -1.0000     NotChecked  -14.4555    1024.4535   ✗       
+969   Q+0.984PDLKLC+57.021F    -1.0000     NotChecked  -14.4568    1020.4950   ✗       
+970   +42.011PEDKLC+57.021F    -1.0000     NotChecked  -14.4606    949.4215    ✗       
+971   QTLDKLC+57.021F          -1.0000     NotChecked  -14.4630    1023.5059   ✗       
+972   Q+0.984VDDKLC+57.021F    -1.0000     NotChecked  -14.4741    1024.4535   ✗       
+973   LDDDKLC+57.021F          -1.0000     NotChecked  -14.4762    1024.4535   ✗       
+974   ETEGKLC+57.021F          -1.0000     NotChecked  -14.4773    982.4430    ✗       
+975   -17.027VSDDKLC+57.021F   -1.0000     NotChecked  -14.4775    965.4164    ✗       
+976   EPTDKLC+57.021F          -1.0000     NotChecked  -14.4775    1008.4586   ✗       
+977   EVLLKLC+57.021F          -1.0000     NotChecked  -14.4880    1020.5678   ✗       
+978   -17.027PQDKLC+57.021F    -1.0000     NotChecked  -14.4919    889.4004    ✗       
+979   +42.011LLDKLC+57.021F    -1.0000     NotChecked  -14.4957    949.4943    ✗       
+980   -17.027TDDLC+57.021F     -1.0000     NotChecked  -14.5003    752.2687    ✗       
+981   Q+0.984TDDALC+57.021F    -1.0000     NotChecked  -14.5034    969.3750    ✗       
+982   -17.027LDGKLC+57.021F    -1.0000     NotChecked  -14.5113    834.3946    ✗       
+983   ELVDKLC+57.021F          -1.0000     NotChecked  -14.5122    1022.5107   ✗       
+984   EVMDSLC+57.021F          -1.0000     NotChecked  -14.5124    999.4042    ✗       
+985   -17.027TDDKLLC+57.021F   -1.0000     NotChecked  -14.5128    993.4477    ✗       
+986   ELDDLLC+57.021F          -1.0000     NotChecked  -14.5136    1023.4583   ✗       
+987   EVDLKLC+57.021F          -1.0000     NotChecked  -14.5139    1022.5107   ✗       
+988   TVDDSLC+57.021F          -1.0000     NotChecked  -14.5155    955.3957    ✗       
+989   +42.011GVDDKLC+57.021F   -1.0000     NotChecked  -14.5218    994.4430    ✗       
+990   -17.027EDN+0.984KLC+57.021F-1.0000     NotChecked  -14.5220    908.3586    ✗       
+991   EVDKLC+57.021F           -1.0000     NotChecked  -14.5250    909.4266    ✗       
+992   -17.027VDDKFC+57.021F    -1.0000     NotChecked  -14.5252    912.3688    ✗       
+993   ETN+0.984KLC+57.021F     -1.0000     NotChecked  -14.5276    911.4059    ✗       
+994   QVDDKC+57.021F           -1.0000     NotChecked  -14.5311    910.3855    ✗       
+995   -17.027VDDALC+57.021F    -1.0000     NotChecked  -14.5335    821.3266    ✗       
+996   ETDSKLC+57.021F          -1.0000     NotChecked  -14.5343    998.4379    ✗       
+997   TTDTKLC+57.021F          -1.0000     NotChecked  -14.5364    984.4586    ✗       
+998   Q+0.984VDGKLC+57.021F    -1.0000     NotChecked  -14.5419    966.4481    ✗       
+999   -17.027VDDELC+57.021F    -1.0000     NotChecked  -14.5439    879.3320    ✗       
+1000  EPDDLC+57.021F           -1.0000     NotChecked  -14.5451    894.3429    ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: ETDDKLC+57.021F
+Similarity: 0.8324
+De Novo Score: -0.7390
+Source: Database
+Correct: ✓
+

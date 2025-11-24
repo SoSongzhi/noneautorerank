@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 190
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 846.3651
+Precursor charge: 2+
+Ground truth: STAGDTHIGGEDFDNR
+Ground truth (normalized): STAGDTHIGGEDFDNR
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 472
+Used for reranking: 472
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 472 (47.2%)
+Database matches: 285 (28.5%)
+Prosit predictions: 185 (18.5%)
+Failed: 2 (0.2%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.9401
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     STAGDTHLGGEDFDNR         0.9401      Database    -0.1750     1690.7183   ✓       ✓
+2     STAGDTHLGGEDFDNR         0.9401      Database    -2.2631     1690.7183   ✓       ✓
+3     STAGDTHLGGEDFDNR         0.9401      Database    -3.7378     1690.7183   ✓       ✓
+4     STAGDTHLGGEDFDNR         0.9401      Database    -4.2413     1690.7183   ✓       ✓
+5     STAGDTHLGGEDFDNR         0.9401      Database    -4.9162     1690.7183   ✓       ✓
+6     STAGDTHLGGEDFDNR         0.9401      Database    -5.8259     1690.7183   ✓       ✓
+7     STAGDTHLGGEDFDNR         0.9401      Database    -6.0722     1690.7183   ✓       ✓
+8     STAGDTHLGGEDFDNR         0.9401      Database    -6.3294     1690.7183   ✓       ✓
+9     STAGDTHLGGEDFDNR         0.9401      Database    -7.0043     1690.7183   ✓       ✓
+10    STAGDTHLGGEDFDNR         0.9401      Database    -7.8041     1690.7183   ✓       ✓
+11    STAGDTHLGGEDFDNR         0.9401      Database    -8.0285     1690.7183   ✓       ✓
+12    STAGDTHLGGEDFDNR         0.9401      Database    -8.1603     1690.7183   ✓       ✓
+13    STAGDTHLGGEDFDNR         0.9401      Database    -8.3032     1690.7183   ✓       ✓
+14    STAGDTHLGGEDFDNR         0.9401      Database    -8.4790     1690.7183   ✓       ✓
+15    STAGDTHLGGEDFDNR         0.9401      Database    -8.9825     1690.7183   ✓       ✓
+16    STAGDTHLGGEDFDNR         0.9401      Database    -9.6349     1690.7183   ✓       ✓
+17    STAGDTHLGGEDFDNR         0.9401      Database    -9.8922     1690.7183   ✓       ✓
+18    STAGDTHLGGEDFDNR         0.9401      Database    -10.1385    1690.7183   ✓       ✓
+19    STAGDTHLGGEDFDNR         0.9401      Database    -10.2235    1690.7183   ✓       ✓
+20    STAGDTHLGGEDFDNR         0.9401      Database    -10.3914    1690.7183   ✓       ✓
+21    STAGDTHLGGEDFDNR         0.9401      Database    -10.5671    1690.7183   ✓       ✓
+22    STAGDTHLGGEDFDNR         0.9401      Database    -10.7759    1690.7183   ✓       ✓
+23    STAGDTHLGGEDFDNR         0.9401      Database    -10.8134    1690.7183   ✓       ✓
+24    STAGDTHLGGEDFDNR         0.9401      Database    -11.0706    1690.7183   ✓       ✓
+25    STAGDTHLGGEDFDNR         0.9401      Database    -11.2088    1690.7183   ✓       ✓
+26    STAGDTHLGGEDFDNR         0.9401      Database    -11.2414    1690.7183   ✓       ✓
+27    STAGDTHLGGEDFDNR         0.9401      Database    -11.5408    1690.7183   ✓       ✓
+28    STAGDTHLGGEDFDNR         0.9401      Database    -11.5912    1690.7183   ✓       ✓
+29    STAGDTHLGGEDFDNR         0.9401      Database    -11.7231    1690.7183   ✓       ✓
+30    STAGDTHLGGEDFDNR         0.9401      Database    -11.7539    1690.7183   ✓       ✓
+31    STAGDTHLGGEDFDNR         0.9401      Database    -11.8660    1690.7183   ✓       ✓
+32    STAGDTHLGGEDFDNR         0.9401      Database    -12.0948    1690.7183   ✓       ✓
+33    STAGDTHLGGEDFDNR         0.9401      Database    -12.2266    1690.7183   ✓       ✓
+34    STAGDTHLGGEDFDNR         0.9401      Database    -12.3116    1690.7183   ✓       ✓
+35    STAGDTHLGGEDFDNR         0.9401      Database    -12.3696    1690.7183   ✓       ✓
+36    STAGDTHLGGEDFDNR         0.9401      Database    -12.5320    1690.7183   ✓       ✓
+37    STAGDTHLGGEDFDNR         0.9401      Database    -12.5453    1690.7183   ✓       ✓
+38    STAGDTHLGGEDFDNR         0.9401      Database    -12.6759    1690.7183   ✓       ✓
+39    STAGDTHLGGEDFDNR         0.9401      Database    -12.7697    1690.7183   ✓       ✓
+40    STAGDTHLGGEDFDNR         0.9401      Database    -12.8640    1690.7183   ✓       ✓
+41    STAGDTHLGGEDFDNR         0.9401      Database    -12.9015    1690.7183   ✓       ✓
+42    STAGDTHLGGEDFDNR         0.9401      Database    -13.0444    1690.7183   ✓       ✓
+43    STAGDTHLGGEDFDNR         0.9401      Database    -13.0513    1690.7183   ✓       ✓
+44    STAGDTHLGGEDFDNR         0.9401      Database    -13.2969    1690.7183   ✓       ✓
+45    STAGDTHLGGEDFDNR         0.9401      Database    -13.3295    1690.7183   ✓       ✓
+46    STAGDTHLGGEDFDNR         0.9401      Database    -13.6289    1690.7183   ✓       ✓
+47    STAGDTHLGGEDFDNR         0.9401      Database    -13.7013    1690.7183   ✓       ✓
+48    STAGDTHLGGEDFDNR         0.9401      Database    -13.7863    1690.7183   ✓       ✓
+49    STAGDTHLGGEDFDNR         0.9401      Database    -13.8420    1690.7183   ✓       ✓
+50    STAGDTHLGGEDFDNR         0.9401      Database    -13.9256    1690.7183   ✓       ✓
+51    STAGDTHLGGEDFDNR         0.9401      Database    -13.9541    1690.7183   ✓       ✓
+52    STAGDTHLGGEDFDNR         0.9401      Database    -14.2004    1690.7183   ✓       ✓
+53    STAGDTHLGGEDFDNR         0.9401      Database    -14.2898    1690.7183   ✓       ✓
+54    STAGDTHLGGEDFDNR         0.9401      Database    -14.3387    1690.7183   ✓       ✓
+55    STAGDTHLGGEDFDNR         0.9401      Database    -14.3762    1690.7183   ✓       ✓
+56    STAGDTHLGGEDFDNR         0.9401      Database    -14.4577    1690.7183   ✓       ✓
+57    STAGDTHLGGEDFDNR         0.9401      Database    -14.6201    1690.7183   ✓       ✓
+58    STAGDTHLGGEDFDNR         0.9401      Database    -14.6334    1690.7183   ✓       ✓
+59    STAGDTHLGGEDFDNR         0.9401      Database    -14.6579    1690.7183   ✓       ✓
+60    STAGDTHLGGEDFDNR         0.9401      Database    -14.7264    1690.7183   ✓       ✓
+61    STAGDTHLGGEDFDNR         0.9401      Database    -14.7641    1690.7183   ✓       ✓
+62    STAGDTHLGGEDFDNR         0.9401      Database    -14.7716    1690.7183   ✓       ✓
+63    STAGDTHLGGEDFDNR         0.9401      Database    -14.8041    1690.7183   ✓       ✓
+64    STAGDTHLGGEDFDNR         0.9401      Database    -14.8797    1690.7183   ✓       ✓
+65    STAGDTHLGGEDFDNR         0.9401      Database    -14.9647    1690.7183   ✓       ✓
+66    STAGDTHLGGEDFDNR         0.9401      Database    -15.1326    1690.7183   ✓       ✓
+67    STAGDTHLGGEDFDNR         0.9401      Database    -15.1394    1690.7183   ✓       ✓
+68    STAGDTHLGGEDFDNR         0.9401      Database    -15.2751    1690.7183   ✓       ✓
+69    STAGDTHLGGEDFDNR         0.9401      Database    -15.3077    1690.7183   ✓       ✓
+70    STAGDTHLGGEDFDNR         0.9401      Database    -15.3167    1690.7183   ✓       ✓
+71    STAGDTHLGGEDFDNR         0.9401      Database    -15.4896    1690.7183   ✓       ✓
+72    STAGDTHLGGEDFDNR         0.9401      Database    -15.5171    1690.7183   ✓       ✓
+73    STAGDTHLGGEDFDNR         0.9401      Database    -15.6071    1690.7183   ✓       ✓
+74    STAGDTHLGGEDFDNR         0.9401      Database    -15.6513    1690.7183   ✓       ✓
+75    STAGDTHLGGEDFDNR         0.9401      Database    -15.6576    1690.7183   ✓       ✓
+76    STAGDTHLGGEDFDNR         0.9401      Database    -15.7894    1690.7183   ✓       ✓
+77    STAGDTHLGGEDFDNR         0.9401      Database    -15.8202    1690.7183   ✓       ✓
+78    STAGDTHLGGEDFDNR         0.9401      Database    -15.8744    1690.7183   ✓       ✓
+79    STAGDTHLGGEDFDNR         0.9401      Database    -15.9323    1690.7183   ✓       ✓
+80    STAGDTHLGGEDFDNR         0.9401      Database    -15.9500    1690.7183   ✓       ✓
+81    STAGDTHLGGEDFDNR         0.9401      Database    -15.9826    1690.7183   ✓       ✓
+82    STAGDTHLGGEDFDNR         0.9401      Database    -16.0947    1690.7183   ✓       ✓
+83    STAGDTHLGGEDFDNR         0.9401      Database    -16.1207    1690.7183   ✓       ✓
+84    STAGDTHLGGEDFDNR         0.9401      Database    -16.1567    1690.7183   ✓       ✓
+85    STAGDTHLGGEDFDNR         0.9401      Database    -16.2387    1690.7183   ✓       ✓
+86    STAGDTHLGGEDFDNR         0.9401      Database    -16.2820    1690.7183   ✓       ✓
+87    STAGDTHLGGEDFDNR         0.9401      Database    -16.2885    1690.7183   ✓       ✓
+88    STAGDTHLGGEDFDNR         0.9401      Database    -16.3324    1690.7183   ✓       ✓
+89    STAGDTHLGGEDFDNR         0.9401      Database    -16.3779    1690.7183   ✓       ✓
+90    STAGDTHLGGEDFDNR         0.9401      Database    -16.4268    1690.7183   ✓       ✓
+91    STAGDTHLGGEDFDNR         0.9401      Database    -16.4643    1690.7183   ✓       ✓
+92    STAGDTHLGGEDFDNR         0.9401      Database    -16.4951    1690.7183   ✓       ✓
+93    STAGDTHLGGEDFDNR         0.9401      Database    -16.5983    1690.7183   ✓       ✓
+94    STAGDTHLGGEDFDNR         0.9401      Database    -16.6072    1690.7183   ✓       ✓
+95    STAGDTHLGGEDFDNR         0.9401      Database    -16.6140    1690.7183   ✓       ✓
+96    STAGDTHLGGEDFDNR         0.9401      Database    -16.6731    1690.7183   ✓       ✓
+97    STAGDTHLGGEDFDNR         0.9401      Database    -16.7423    1690.7183   ✓       ✓
+98    STAGDTHLGGEDFDNR         0.9401      Database    -16.7461    1690.7183   ✓       ✓
+99    STAGDTHLGGEDFDNR         0.9401      Database    -16.8145    1690.7183   ✓       ✓
+100   STAGDTHLGGEDFDNR         0.9401      Database    -16.8360    1690.7183   ✓       ✓
+101   STAGDTHLGGEDFDNR         0.9401      Database    -16.8439    1690.7183   ✓       ✓
+102   STAGDTHLGGEDFDNR         0.9401      Database    -16.8597    1690.7183   ✓       ✓
+103   STAGDTHLGGEDFDNR         0.9401      Database    -16.8922    1690.7183   ✓       ✓
+104   STAGDTHLGGEDFDNR         0.9401      Database    -16.9678    1690.7183   ✓       ✓
+105   STAGDTHLGGEDFDNR         0.9401      Database    -17.0528    1690.7183   ✓       ✓
+106   STAGDTHLGGEDFDNR         0.9401      Database    -17.1060    1690.7183   ✓       ✓
+107   STAGDTHLGGEDFDNR         0.9401      Database    -17.1108    1690.7183   ✓       ✓
+108   STAGDTHLGGEDFDNR         0.9401      Database    -17.1176    1690.7183   ✓       ✓
+109   STAGDTHLGGEDFDNR         0.9401      Database    -17.1561    1690.7183   ✓       ✓
+110   STAGDTHLGGEDFDNR         0.9401      Database    -17.2732    1690.7183   ✓       ✓
+111   STAGDTHLGGEDFDNR         0.9401      Database    -17.3632    1690.7183   ✓       ✓
+112   STAGDTHLGGEDFDNR         0.9401      Database    -17.3958    1690.7183   ✓       ✓
+113   STAGDTHLGGEDFDNR         0.9401      Database    -17.4048    1690.7183   ✓       ✓
+114   STAGDTHLGGEDFDNR         0.9401      Database    -17.4171    1690.7183   ✓       ✓
+115   STAGDTHLGGEDFDNR         0.9401      Database    -17.4380    1690.7183   ✓       ✓
+116   STAGDTHLGGEDFDNR         0.9401      Database    -17.4884    1690.7183   ✓       ✓
+117   STAGDTHLGGEDFDNR         0.9401      Database    -17.5193    1690.7183   ✓       ✓
+118   STAGDTHLGGEDFDNR         0.9401      Database    -17.5777    1690.7183   ✓       ✓
+119   STAGDTHLGGEDFDNR         0.9401      Database    -17.6052    1690.7183   ✓       ✓
+120   STAGDTHLGGEDFDNR         0.9401      Database    -17.6511    1690.7183   ✓       ✓
+121   STAGDTHLGGEDFDNR         0.9401      Database    -17.6952    1690.7183   ✓       ✓
+122   STAGDTHLGGEDFDNR         0.9401      Database    -17.7394    1690.7183   ✓       ✓
+123   STAGDTHLGGEDFDNR         0.9401      Database    -17.7632    1690.7183   ✓       ✓
+124   STAGDTHLGGEDFDNR         0.9401      Database    -17.7925    1690.7183   ✓       ✓
+125   STAGDTHLGGEDFDNR         0.9401      Database    -17.8526    1690.7183   ✓       ✓
+126   STAGDTHLGGEDFDNR         0.9401      Database    -17.9083    1690.7183   ✓       ✓
+127   STAGDTHLGGEDFDNR         0.9401      Database    -17.9920    1690.7183   ✓       ✓
+128   STAGDTHLGGEDFDNR         0.9401      Database    -18.0205    1690.7183   ✓       ✓
+129   STAGDTHLGGEDFDNR         0.9401      Database    -18.0381    1690.7183   ✓       ✓
+130   STAGDTHLGGEDFDNR         0.9401      Database    -18.0707    1690.7183   ✓       ✓
+131   STAGDTHLGGEDFDNR         0.9401      Database    -18.0770    1690.7183   ✓       ✓
+132   STAGDTHLGGEDFDNR         0.9401      Database    -18.1721    1690.7183   ✓       ✓
+133   STAGDTHLGGEDFDNR         0.9401      Database    -18.1829    1690.7183   ✓       ✓
+134   STAGDTHLGGEDFDNR         0.9401      Database    -18.2088    1690.7183   ✓       ✓
+135   STAGDTHLGGEDFDNR         0.9401      Database    -18.2207    1690.7183   ✓       ✓
+136   STAGDTHLGGEDFDNR         0.9401      Database    -18.2667    1690.7183   ✓       ✓
+137   STAGDTHLGGEDFDNR         0.9401      Database    -18.2891    1690.7183   ✓       ✓
+138   STAGDTHLGGEDFDNR         0.9401      Database    -18.3268    1690.7183   ✓       ✓
+139   STAGDTHLGGEDFDNR         0.9401      Database    -18.3517    1690.7183   ✓       ✓
+140   STAGDTHLGGEDFDNR         0.9401      Database    -18.3701    1690.7183   ✓       ✓
+141   STAGDTHLGGEDFDNR         0.9401      Database    -18.4291    1690.7183   ✓       ✓
+142   STAGDTHLGGEDFDNR         0.9401      Database    -18.4425    1690.7183   ✓       ✓
+143   STAGDTHLGGEDFDNR         0.9401      Database    -18.5275    1690.7183   ✓       ✓
+144   STAGDTHLGGEDFDNR         0.9401      Database    -18.5731    1690.7183   ✓       ✓
+145   STAGDTHLGGEDFDNR         0.9401      Database    -18.5832    1690.7183   ✓       ✓
+146   STAGDTHLGGEDFDNR         0.9401      Database    -18.6294    1690.7183   ✓       ✓
+147   STAGDTHLGGEDFDNR         0.9401      Database    -18.6669    1690.7183   ✓       ✓
+148   STAGDTHLGGEDFDNR         0.9401      Database    -18.6864    1690.7183   ✓       ✓
+149   STAGDTHLGGEDFDNR         0.9401      Database    -18.6953    1690.7183   ✓       ✓
+150   STAGDTHLGGEDFDNR         0.9401      Database    -18.7021    1690.7183   ✓       ✓
+151   STAGDTHLGGEDFDNR         0.9401      Database    -18.7243    1690.7183   ✓       ✓
+152   STAGDTHLGGEDFDNR         0.9401      Database    -18.7612    1690.7183   ✓       ✓
+153   STAGDTHLGGEDFDNR         0.9401      Database    -18.7927    1690.7183   ✓       ✓
+154   STAGDTHLGGEDFDNR         0.9401      Database    -18.8304    1690.7183   ✓       ✓
+155   STAGDTHLGGEDFDNR         0.9401      Database    -18.8379    1690.7183   ✓       ✓
+156   STAGDTHLGGEDFDNR         0.9401      Database    -18.8432    1690.7183   ✓       ✓
+157   STAGDTHLGGEDFDNR         0.9401      Database    -18.8704    1690.7183   ✓       ✓
+158   STAGDTHLGGEDFDNR         0.9401      Database    -18.9041    1690.7183   ✓       ✓
+159   STAGDTHLGGEDFDNR         0.9401      Database    -18.9320    1690.7183   ✓       ✓
+160   STAGDTHLGGEDFDNR         0.9401      Database    -18.9416    1690.7183   ✓       ✓
+161   STAGDTHLGGEDFDNR         0.9401      Database    -18.9484    1690.7183   ✓       ✓
+162   STAGDTHLGGEDFDNR         0.9401      Database    -18.9811    1690.7183   ✓       ✓
+163   STAGDTHLGGEDFDNR         0.9401      Database    -19.0310    1690.7183   ✓       ✓
+164   STAGDTHLGGEDFDNR         0.9401      Database    -19.0524    1690.7183   ✓       ✓
+165   STAGDTHLGGEDFDNR         0.9401      Database    -19.0623    1690.7183   ✓       ✓
+166   STAGDTHLGGEDFDNR         0.9401      Database    -19.0799    1690.7183   ✓       ✓
+167   STAGDTHLGGEDFDNR         0.9401      Database    -19.0948    1690.7183   ✓       ✓
+168   STAGDTHLGGEDFDNR         0.9401      Database    -19.1493    1690.7183   ✓       ✓
+169   STAGDTHLGGEDFDNR         0.9401      Database    -19.1941    1690.7183   ✓       ✓
+170   STAGDTHLGGEDFDNR         0.9401      Database    -19.1989    1690.7183   ✓       ✓
+171   STAGDTHLGGEDFDNR         0.9401      Database    -19.2057    1690.7183   ✓       ✓
+172   STAGDTHLGGEDFDNR         0.9401      Database    -19.2141    1690.7183   ✓       ✓
+173   STAGDTHLGGEDFDNR         0.9401      Database    -19.2442    1690.7183   ✓       ✓
+174   STAGDTHLGGEDFDNR         0.9401      Database    -19.3370    1690.7183   ✓       ✓
+175   STAGDTHLGGEDFDNR         0.9401      Database    -19.3576    1690.7183   ✓       ✓
+176   STAGDTHLGGEDFDNR         0.9401      Database    -19.3613    1690.7183   ✓       ✓
+177   STAGDTHLGGEDFDNR         0.9401      Database    -19.3696    1690.7183   ✓       ✓
+178   STAGDTHLGGEDFDNR         0.9401      Database    -19.3830    1690.7183   ✓       ✓
+179   STAGDTHLGGEDFDNR         0.9401      Database    -19.3943    1690.7183   ✓       ✓
+180   STAGDTHLGGEDFDNR         0.9401      Database    -19.3992    1690.7183   ✓       ✓
+181   STAGDTHLGGEDFDNR         0.9401      Database    -19.4676    1690.7183   ✓       ✓
+182   STAGDTHLGGEDFDNR         0.9401      Database    -19.5053    1690.7183   ✓       ✓
+183   STAGDTHLGGEDFDNR         0.9401      Database    -19.5128    1690.7183   ✓       ✓
+184   STAGDTHLGGEDFDNR         0.9401      Database    -19.5261    1690.7183   ✓       ✓
+185   STAGDTHLGGEDFDNR         0.9401      Database    -19.5453    1690.7183   ✓       ✓
+186   STAGDTHLGGEDFDNR         0.9401      Database    -19.5559    1690.7183   ✓       ✓
+187   STAGDTHLGGEDFDNR         0.9401      Database    -19.6074    1690.7183   ✓       ✓
+188   STAGDTHLGGEDFDNR         0.9401      Database    -19.6690    1690.7183   ✓       ✓
+189   STAGDTHLGGEDFDNR         0.9401      Database    -19.6834    1690.7183   ✓       ✓
+190   STAGDTHLGGEDFDNR         0.9401      Database    -19.7176    1690.7183   ✓       ✓
+191   STAGDTHLGGEDFDNR         0.9401      Database    -19.7195    1690.7183   ✓       ✓
+192   STAGDTHLGGEDFDNR         0.9401      Database    -19.7392    1690.7183   ✓       ✓
+193   STAGDTHLGGEDFDNR         0.9401      Database    -19.8513    1690.7183   ✓       ✓
+194   STAGDTHLGGEDFDNR         0.9401      Database    -19.8806    1690.7183   ✓       ✓
+195   STAGDTHLGGEDFDNR         0.9401      Database    -19.8821    1690.7183   ✓       ✓
+196   STAGDTHLGGEDFDNR         0.9401      Database    -19.9407    1690.7183   ✓       ✓
+197   STAGDTHLGGEDFDNR         0.9401      Database    -20.0163    1690.7183   ✓       ✓
+198   STAGDTHLGGEDFDNR         0.9401      Database    -20.0489    1690.7183   ✓       ✓
+199   STAGDTHLGGEDFDNR         0.9401      Database    -20.0579    1690.7183   ✓       ✓
+200   STAGDTHLGGEDFDNR         0.9401      Database    -20.1611    1690.7183   ✓       ✓
+201   STAGDTHLGGEDFDNR         0.9401      Database    -20.1824    1690.7183   ✓       ✓
+202   STAGDTHLGGEDFDNR         0.9401      Database    -20.1870    1690.7183   ✓       ✓
+203   STAGDTHLGGEDFDNR         0.9401      Database    -20.2153    1690.7183   ✓       ✓
+204   STAGDTHLGGEDFDNR         0.9401      Database    -20.2230    1690.7183   ✓       ✓
+205   STAGDTHLGGEDFDNR         0.9401      Database    -20.2246    1690.7183   ✓       ✓
+206   STAGDTHLGGEDFDNR         0.9401      Database    -20.2308    1690.7183   ✓       ✓
+207   STAGDTHLGGEDFDNR         0.9401      Database    -20.2359    1690.7183   ✓       ✓
+208   STAGDTHLGGEDFDNR         0.9401      Database    -20.2602    1690.7183   ✓       ✓
+209   STAGDTHLGGEDFDNR         0.9401      Database    -20.3050    1690.7183   ✓       ✓
+210   STAGDTHLGGEDFDNR         0.9401      Database    -20.3088    1690.7183   ✓       ✓
+211   STAGDTHLGGEDFDNR         0.9401      Database    -20.3483    1690.7183   ✓       ✓
+212   STAGDTHLGGEDFDNR         0.9401      Database    -20.3549    1690.7183   ✓       ✓
+213   STAGDTHLGGEDFDNR         0.9401      Database    -20.3773    1690.7183   ✓       ✓
+214   STAGDTHLGGEDFDNR         0.9401      Database    -20.3854    1690.7183   ✓       ✓
+215   STAGDTHLGGEDFDNR         0.9401      Database    -20.3925    1690.7183   ✓       ✓
+216   STAGDTHLGGEDFDNR         0.9401      Database    -20.3988    1690.7183   ✓       ✓
+217   STAGDTHLGGEDFDNR         0.9401      Database    -20.4066    1690.7183   ✓       ✓
+218   STAGDTHLGGEDFDNR         0.9401      Database    -20.4392    1690.7183   ✓       ✓
+219   STAGDTHLGGEDFDNR         0.9401      Database    -20.4399    1690.7183   ✓       ✓
+220   STAGDTHLGGEDFDNR         0.9401      Database    -20.5173    1690.7183   ✓       ✓
+221   STAGDTHLGGEDFDNR         0.9401      Database    -20.5294    1690.7183   ✓       ✓
+222   STAGDTHLGGEDFDNR         0.9401      Database    -20.5306    1690.7183   ✓       ✓
+223   STAGDTHLGGEDFDNR         0.9401      Database    -20.5551    1690.7183   ✓       ✓
+224   STAGDTHLGGEDFDNR         0.9401      Database    -20.5614    1690.7183   ✓       ✓
+225   STAGDTHLGGEDFDNR         0.9401      Database    -20.6156    1690.7183   ✓       ✓
+226   STAGDTHLGGEDFDNR         0.9401      Database    -20.6235    1690.7183   ✓       ✓
+227   STAGDTHLGGEDFDNR         0.9401      Database    -20.6602    1690.7183   ✓       ✓
+228   STAGDTHLGGEDFDNR         0.9401      Database    -20.6612    1690.7183   ✓       ✓
+229   STAGDTHLGGEDFDNR         0.9401      Database    -20.6687    1690.7183   ✓       ✓
+230   STAGDTHLGGEDFDNR         0.9401      Database    -20.6735    1690.7183   ✓       ✓
+231   STAGDTHLGGEDFDNR         0.9401      Database    -20.6803    1690.7183   ✓       ✓
+232   STAGDTHLGGEDFDNR         0.9401      Database    -20.7189    1690.7183   ✓       ✓
+233   STAGDTHLGGEDFDNR         0.9401      Database    -20.8042    1690.7183   ✓       ✓
+234   STAGDTHLGGEDFDNR         0.9401      Database    -20.8124    1690.7183   ✓       ✓
+235   STAGDTHLGGEDFDNR         0.9401      Database    -20.8244    1690.7183   ✓       ✓
+236   STAGDTHLGGEDFDNR         0.9401      Database    -20.8275    1690.7183   ✓       ✓
+237   STAGDTHLGGEDFDNR         0.9401      Database    -20.8359    1690.7183   ✓       ✓
+238   STAGDTHLGGEDFDNR         0.9401      Database    -20.8619    1690.7183   ✓       ✓
+239   STAGDTHLGGEDFDNR         0.9401      Database    -20.8808    1690.7183   ✓       ✓
+240   STAGDTHLGGEDFDNR         0.9401      Database    -20.8979    1690.7183   ✓       ✓
+241   STAGDTHLGGEDFDNR         0.9401      Database    -20.9047    1690.7183   ✓       ✓
+242   STAGDTHLGGEDFDNR         0.9401      Database    -20.9102    1690.7183   ✓       ✓
+243   STAGDTHLGGEDFDNR         0.9401      Database    -20.9260    1690.7183   ✓       ✓
+244   STAGDTHLGGEDFDNR         0.9401      Database    -20.9313    1690.7183   ✓       ✓
+245   STAGDTHLGGEDFDNR         0.9401      Database    -20.9586    1690.7183   ✓       ✓
+246   STAGDTHLGGEDFDNR         0.9401      Database    -20.9799    1690.7183   ✓       ✓
+247   STAGDTHLGGEDFDNR         0.9401      Database    -20.9923    1690.7183   ✓       ✓
+248   STAGDTHLGGEDFDNR         0.9401      Database    -21.0297    1690.7183   ✓       ✓
+249   STAGDTHLGGEDFDNR         0.9401      Database    -21.0366    1690.7183   ✓       ✓
+250   STAGDTHLGGEDFDNR         0.9401      Database    -21.0692    1690.7183   ✓       ✓
+251   STAGDTHLGGEDFDNR         0.9401      Database    -21.0820    1690.7183   ✓       ✓
+252   STAGDTHLGGEDFDNR         0.9401      Database    -21.1191    1690.7183   ✓       ✓
+253   STAGDTHLGGEDFDNR         0.9401      Database    -21.1405    1690.7183   ✓       ✓
+254   STAGDTHLGGEDFDNR         0.9401      Database    -21.1680    1690.7183   ✓       ✓
+255   STAGDTHLGGEDFDNR         0.9401      Database    -21.1723    1690.7183   ✓       ✓
+256   STAGDTHLGGEDFDNR         0.9401      Database    -21.1795    1690.7183   ✓       ✓
+257   STAGDTHLGGEDFDNR         0.9401      Database    -21.2138    1690.7183   ✓       ✓
+258   STAGDTHLGGEDFDNR         0.9401      Database    -21.2224    1690.7183   ✓       ✓
+259   STAGDTHLGGEDFDNR         0.9401      Database    -21.2374    1690.7183   ✓       ✓
+260   STAGDTHLGGEDFDNR         0.9401      Database    -21.2573    1690.7183   ✓       ✓
+261   STAGDTHLGGEDFDNR         0.9401      Database    -21.2898    1690.7183   ✓       ✓
+262   STAGDTHLGGEDFDNR         0.9401      Database    -21.3022    1690.7183   ✓       ✓
+263   STAGDTHLGGEDFDNR         0.9401      Database    -21.3395    1690.7183   ✓       ✓
+264   STAGDTHLGGEDFDNR         0.9401      Database    -21.3552    1690.7183   ✓       ✓
+265   STAGDTHLGGEDFDNR         0.9401      Database    -21.4143    1690.7183   ✓       ✓
+266   STAGDTHLGGEDFDNR         0.9401      Database    -21.4252    1690.7183   ✓       ✓
+267   STAGDTHLGGEDFDNR         0.9401      Database    -21.4457    1690.7183   ✓       ✓
+268   STAGDTHLGGEDFDNR         0.9401      Database    -21.4510    1690.7183   ✓       ✓
+269   STAGDTHLGGEDFDNR         0.9401      Database    -21.4577    1690.7183   ✓       ✓
+270   STAGDTHLGGEDFDNR         0.9401      Database    -21.4711    1690.7183   ✓       ✓
+271   STAGDTHLGGEDFDNR         0.9401      Database    -21.4835    1690.7183   ✓       ✓
+272   STAGDTHLGGEDFDNR         0.9401      Database    -21.4873    1690.7183   ✓       ✓
+273   STAGDTHLGGEDFDNR         0.9401      Database    -21.5043    1690.7183   ✓       ✓
+274   STAGDTHLGGEDFDNR         0.9401      Database    -21.5485    1690.7183   ✓       ✓
+275   STAGDTHLGGEDFDNR         0.9401      Database    -21.5547    1690.7183   ✓       ✓
+276   STAGDTHLGGEDFDNR         0.9401      Database    -21.5557    1690.7183   ✓       ✓
+277   STAGDTHLGGEDFDNR         0.9401      Database    -21.5851    1690.7183   ✓       ✓
+278   STAGDTHLGGEDFDNR         0.9401      Database    -21.5856    1690.7183   ✓       ✓
+279   STAGDTHLGGEDFDNR         0.9401      Database    -21.5893    1690.7183   ✓       ✓
+280   STAGDTHLGGEDFDNR         0.9401      Database    -21.6009    1690.7183   ✓       ✓
+281   STAGDTHLGGEDFDNR         0.9401      Database    -21.6334    1690.7183   ✓       ✓
+282   STAGDTHLGGEDFDNR         0.9401      Database    -22.2605    1690.7183   ✓       ✓
+283   STAGDTHLGGEDFDNR         0.9401      Database    -23.4164    1690.7183   ✓       ✓
+284   STAGDTHLGGEDFDNR         0.9401      Database    -25.1483    1690.7183   ✓       ✓
+285   STAGDTHLGGEDFDNR         0.9401      Database    -25.6475    1690.7183   ✓       ✓
+286   STAGDTHLGGQ+0.984N+0.984FDNR0.4627      Prosit      -16.8178    1690.7183   ✓       
+287   STAGDTHLGGQ+0.984N+0.984FDNR0.4627      Prosit      -18.9059    1690.7183   ✓       
+288   STAGDTHLGGQ+0.984N+0.984FDNR0.4627      Prosit      -20.3806    1690.7183   ✓       
+289   STAGDTHLGGQ+0.984N+0.984FDNR0.4627      Prosit      -20.8841    1690.7183   ✓       
+290   STAGDTHLGGQ+0.984N+0.984FDNR0.4627      Prosit      -21.5590    1690.7183   ✓       
+291   STAGN+0.984THLGGEDFDNR   0.4428      Prosit      -10.1247    1690.7183   ✓       
+292   STAGN+0.984THLGGEDFDNR   0.4428      Prosit      -12.2128    1690.7183   ✓       
+293   STAGN+0.984THLGGEDFDNR   0.4428      Prosit      -13.6875    1690.7183   ✓       
+294   STAGN+0.984THLGGEDFDNR   0.4428      Prosit      -14.1910    1690.7183   ✓       
+295   STAGN+0.984THLGGEDFDNR   0.4428      Prosit      -14.8659    1690.7183   ✓       
+296   STAGN+0.984THLGGEDFDNR   0.4428      Prosit      -15.7756    1690.7183   ✓       
+297   STAGN+0.984THLGGEDFDNR   0.4428      Prosit      -16.0219    1690.7183   ✓       
+298   STAGN+0.984THLGGEDFDNR   0.4428      Prosit      -16.2791    1690.7183   ✓       
+299   STAGN+0.984THLGGEDFDNR   0.4428      Prosit      -16.9540    1690.7183   ✓       
+300   STAGN+0.984THLGGEDFDNR   0.4428      Prosit      -17.7538    1690.7183   ✓       
+301   STAGN+0.984THLGGEDFDNR   0.4428      Prosit      -17.9782    1690.7183   ✓       
+302   STAGN+0.984THLGGEDFDNR   0.4428      Prosit      -18.1100    1690.7183   ✓       
+303   STAGN+0.984THLGGEDFDNR   0.4428      Prosit      -18.4287    1690.7183   ✓       
+304   STAGN+0.984THLGGEDFDNR   0.4428      Prosit      -18.9322    1690.7183   ✓       
+305   STAGN+0.984THLGGEDFDNR   0.4428      Prosit      -19.5846    1690.7183   ✓       
+306   STAGN+0.984THLGGEDFDNR   0.4428      Prosit      -19.8419    1690.7183   ✓       
+307   STAGN+0.984THLGGEDFDNR   0.4428      Prosit      -20.0882    1690.7183   ✓       
+308   STAGN+0.984THLGGEDFDNR   0.4428      Prosit      -20.1732    1690.7183   ✓       
+309   STAGN+0.984THLGGEDFDNR   0.4428      Prosit      -20.5168    1690.7183   ✓       
+310   STAGN+0.984THLGGEDFDNR   0.4428      Prosit      -20.7256    1690.7183   ✓       
+311   STAGN+0.984THLGGEDFDNR   0.4428      Prosit      -20.7631    1690.7183   ✓       
+312   STAGN+0.984THLGGEDFDNR   0.4428      Prosit      -21.0203    1690.7183   ✓       
+313   STAGN+0.984THLGGEDFDNR   0.4428      Prosit      -21.1585    1690.7183   ✓       
+314   STAGN+0.984THLGGEDFDNR   0.4428      Prosit      -21.1910    1690.7183   ✓       
+315   STAGN+0.984THLGGEDFDNR   0.4428      Prosit      -21.4905    1690.7183   ✓       
+316   STAGN+0.984THLGGEDFDNR   0.4428      Prosit      -21.5409    1690.7183   ✓       
+317   STAGN+0.984THLGGQ+0.984DFDNR0.4346      Prosit      -18.0115    1690.7183   ✓       
+318   STAGN+0.984THLGGQ+0.984DFDNR0.4346      Prosit      -20.0997    1690.7183   ✓       
+319   STAGN+0.984THLGGQ+0.984DFDNR0.4346      Prosit      -21.5743    1690.7183   ✓       
+320   TTAGDTHVGGEDFDNR         0.4291      Prosit      -25.4887    1690.7183   ✓       
+321   TSAGDTHLGGEDFDNR         0.4284      Prosit      -20.4148    1690.7183   ✓       
+322   TSAGDTHLGGEDFDNR         0.4284      Prosit      -22.5029    1690.7183   ✓       
+323   TSAGDTHLGGEDFDNR         0.4284      Prosit      -23.9776    1690.7183   ✓       
+324   TSAGDTHLGGEDFDNR         0.4284      Prosit      -24.4811    1690.7183   ✓       
+325   TSAGDTHLGGEDFDNR         0.4284      Prosit      -25.1560    1690.7183   ✓       
+326   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -8.0619     1690.7183   ✓       
+327   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -10.1500    1690.7183   ✓       
+328   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -11.6246    1690.7183   ✓       
+329   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -12.1282    1690.7183   ✓       
+330   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -12.8031    1690.7183   ✓       
+331   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -13.7128    1690.7183   ✓       
+332   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -13.9590    1690.7183   ✓       
+333   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -14.2163    1690.7183   ✓       
+334   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -14.8912    1690.7183   ✓       
+335   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -15.6909    1690.7183   ✓       
+336   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -15.9153    1690.7183   ✓       
+337   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -16.0472    1690.7183   ✓       
+338   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -16.1901    1690.7183   ✓       
+339   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -16.3658    1690.7183   ✓       
+340   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -16.8694    1690.7183   ✓       
+341   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -17.5218    1690.7183   ✓       
+342   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -17.7791    1690.7183   ✓       
+343   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -18.0254    1690.7183   ✓       
+344   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -18.1104    1690.7183   ✓       
+345   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -18.2782    1690.7183   ✓       
+346   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -18.4540    1690.7183   ✓       
+347   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -18.6628    1690.7183   ✓       
+348   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -18.7002    1690.7183   ✓       
+349   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -18.9575    1690.7183   ✓       
+350   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -19.0957    1690.7183   ✓       
+351   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -19.1282    1690.7183   ✓       
+352   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -19.4276    1690.7183   ✓       
+353   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -19.4781    1690.7183   ✓       
+354   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -19.6099    1690.7183   ✓       
+355   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -19.6407    1690.7183   ✓       
+356   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -19.7529    1690.7183   ✓       
+357   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -19.9816    1690.7183   ✓       
+358   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -20.1135    1690.7183   ✓       
+359   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -20.1985    1690.7183   ✓       
+360   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -20.2564    1690.7183   ✓       
+361   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -20.4188    1690.7183   ✓       
+362   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -20.4321    1690.7183   ✓       
+363   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -20.5628    1690.7183   ✓       
+364   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -20.6565    1690.7183   ✓       
+365   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -20.7509    1690.7183   ✓       
+366   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -20.7884    1690.7183   ✓       
+367   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -20.9313    1690.7183   ✓       
+368   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -20.9381    1690.7183   ✓       
+369   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -21.1838    1690.7183   ✓       
+370   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -21.2163    1690.7183   ✓       
+371   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -21.5158    1690.7183   ✓       
+372   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -21.5881    1690.7183   ✓       
+373   STAGDTHLGGQ+0.984DFDNR   0.4218      Prosit      -25.4061    1690.7183   ✓       
+374   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -8.9310     1690.7183   ✓       
+375   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -11.0191    1690.7183   ✓       
+376   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -12.4937    1690.7183   ✓       
+377   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -12.9973    1690.7183   ✓       
+378   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -13.6722    1690.7183   ✓       
+379   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -14.5819    1690.7183   ✓       
+380   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -14.8281    1690.7183   ✓       
+381   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -15.0854    1690.7183   ✓       
+382   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -15.7603    1690.7183   ✓       
+383   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -16.5600    1690.7183   ✓       
+384   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -16.7844    1690.7183   ✓       
+385   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -16.9163    1690.7183   ✓       
+386   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -17.0592    1690.7183   ✓       
+387   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -17.2349    1690.7183   ✓       
+388   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -17.7385    1690.7183   ✓       
+389   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -18.3909    1690.7183   ✓       
+390   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -18.6482    1690.7183   ✓       
+391   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -18.8945    1690.7183   ✓       
+392   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -18.9795    1690.7183   ✓       
+393   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -19.1473    1690.7183   ✓       
+394   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -19.3231    1690.7183   ✓       
+395   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -19.5319    1690.7183   ✓       
+396   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -19.5693    1690.7183   ✓       
+397   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -19.8266    1690.7183   ✓       
+398   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -19.9648    1690.7183   ✓       
+399   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -19.9973    1690.7183   ✓       
+400   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -20.2967    1690.7183   ✓       
+401   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -20.3472    1690.7183   ✓       
+402   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -20.4790    1690.7183   ✓       
+403   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -20.5099    1690.7183   ✓       
+404   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -20.6220    1690.7183   ✓       
+405   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -20.8507    1690.7183   ✓       
+406   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -20.9826    1690.7183   ✓       
+407   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -21.0676    1690.7183   ✓       
+408   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -21.1255    1690.7183   ✓       
+409   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -21.2879    1690.7183   ✓       
+410   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -21.3013    1690.7183   ✓       
+411   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -21.4319    1690.7183   ✓       
+412   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -21.5256    1690.7183   ✓       
+413   STAGDTHLGGEN+0.984FDNR   0.4060      Prosit      -21.6200    1690.7183   ✓       
+414   STAGDTHLGGQ+0.984DFN+0.984NR0.3713      Prosit      -16.2166    1690.7183   ✓       
+415   STAGDTHLGGQ+0.984DFN+0.984NR0.3713      Prosit      -18.3047    1690.7183   ✓       
+416   STAGDTHLGGQ+0.984DFN+0.984NR0.3713      Prosit      -19.7793    1690.7183   ✓       
+417   STAGDTHLGGQ+0.984DFN+0.984NR0.3713      Prosit      -20.2829    1690.7183   ✓       
+418   STAGDTHLGGQ+0.984DFN+0.984NR0.3713      Prosit      -20.9578    1690.7183   ✓       
+419   STAGDTHLGGEN+0.984FN+0.984NR0.3573      Prosit      -17.0857    1690.7183   ✓       
+420   STAGDTHLGGEN+0.984FN+0.984NR0.3573      Prosit      -19.1738    1690.7183   ✓       
+421   STAGDTHLGGEN+0.984FN+0.984NR0.3573      Prosit      -20.6484    1690.7183   ✓       
+422   STAGDTHLGGEN+0.984FN+0.984NR0.3573      Prosit      -21.1520    1690.7183   ✓       
+423   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -8.3297     1690.7183   ✓       
+424   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -10.4178    1690.7183   ✓       
+425   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -11.8925    1690.7183   ✓       
+426   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -12.3960    1690.7183   ✓       
+427   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -13.0709    1690.7183   ✓       
+428   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -13.9806    1690.7183   ✓       
+429   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -14.2269    1690.7183   ✓       
+430   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -14.4842    1690.7183   ✓       
+431   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -15.1590    1690.7183   ✓       
+432   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -15.9588    1690.7183   ✓       
+433   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -16.1832    1690.7183   ✓       
+434   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -16.3150    1690.7183   ✓       
+435   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -16.4580    1690.7183   ✓       
+436   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -16.6337    1690.7183   ✓       
+437   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -17.1372    1690.7183   ✓       
+438   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -17.7897    1690.7183   ✓       
+439   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -18.0469    1690.7183   ✓       
+440   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -18.2932    1690.7183   ✓       
+441   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -18.3782    1690.7183   ✓       
+442   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -18.5461    1690.7183   ✓       
+443   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -18.7218    1690.7183   ✓       
+444   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -18.9306    1690.7183   ✓       
+445   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -18.9681    1690.7183   ✓       
+446   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -19.2254    1690.7183   ✓       
+447   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -19.3635    1690.7183   ✓       
+448   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -19.3961    1690.7183   ✓       
+449   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -19.6955    1690.7183   ✓       
+450   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -19.7460    1690.7183   ✓       
+451   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -19.8778    1690.7183   ✓       
+452   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -19.9086    1690.7183   ✓       
+453   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -20.0207    1690.7183   ✓       
+454   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -20.2495    1690.7183   ✓       
+455   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -20.3813    1690.7183   ✓       
+456   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -20.4663    1690.7183   ✓       
+457   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -20.5243    1690.7183   ✓       
+458   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -20.6867    1690.7183   ✓       
+459   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -20.7000    1690.7183   ✓       
+460   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -20.8307    1690.7183   ✓       
+461   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -20.9244    1690.7183   ✓       
+462   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -21.0187    1690.7183   ✓       
+463   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -21.0562    1690.7183   ✓       
+464   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -21.1992    1690.7183   ✓       
+465   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -21.2060    1690.7183   ✓       
+466   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -21.4516    1690.7183   ✓       
+467   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -21.4842    1690.7183   ✓       
+468   STAGDTHLGGEDFN+0.984NR   0.3524      Prosit      -25.6740    1690.7183   ✓       
+469   STAGN+0.984THLGGEDFN+0.984NR0.3359      Prosit      -18.2794    1690.7183   ✓       
+470   STAGN+0.984THLGGEDFN+0.984NR0.3359      Prosit      -20.3675    1690.7183   ✓       
+471   SSAGDTHLGGEDFDNR         -1.0000     NotChecked  -10.4842    1676.7026   ✗       
+472   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -11.2728    1645.6968   ✗       
+473   SAGDTHLGGEDFDNR          -1.0000     NotChecked  -12.5723    1589.6706   ✗       
+474   ATAGDTHLGGEDFDNR         -1.0000     NotChecked  -12.9203    1674.7234   ✗       
+475   STAGDTHLGGEDFNNR         -1.0000     NotChecked  -13.2809    1689.7343   ✗       
+476   GTAGDTHLGGEDFDNR         -1.0000     NotChecked  -13.3534    1660.7077   ✗       
+477   +43.006TAGDTHLGGEDFDNR   -1.0000     NotChecked  -13.4360    1646.6921   ✗       
+478   STAGDTHLGGEDNDNR         -1.0000     NotChecked  -13.7497    1657.6928   ✗       
+479   SSAGDTHLGGEDFDNR         -1.0000     NotChecked  -14.0470    1676.7026   ✗       
+480   STAGDTHLGGEDFDN          -1.0000     NotChecked  -14.3929    1534.6172   ✗       
+481   SAAGDTHLGGEDFDNR         -1.0000     NotChecked  -14.4462    1660.7077   ✗       
+482   STAGDTHLGGEDFDNV         -1.0000     NotChecked  -14.5265    1633.6856   ✗       
+483   SSAGDTHLGGEDFDNR         -1.0000     NotChecked  -14.5505    1676.7026   ✗       
+484   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -14.8356    1645.6968   ✗       
+485   STAGDTHLGGENFDNR         -1.0000     NotChecked  -14.9588    1689.7343   ✗       
+486   SVAGDTHLGGEDFDNR         -1.0000     NotChecked  -14.9669    1688.7390   ✗       
+487   STAGTHLGGEDFDNR          -1.0000     NotChecked  -14.9688    1575.6913   ✗       
+488   SSAGDTHLGGEDFDNR         -1.0000     NotChecked  -15.2254    1676.7026   ✗       
+489   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -15.3392    1645.6968   ✗       
+490   STAGDTHLGGEDFNNR         -1.0000     NotChecked  -15.3691    1689.7343   ✗       
+491   STAGDTHLGGEDFDNP         -1.0000     NotChecked  -15.3839    1631.6699   ✗       
+492   STAGDTHLGGEDFDNK         -1.0000     NotChecked  -15.3997    1662.7121   ✗       
+493   SGAGDTHLGGEDFDNR         -1.0000     NotChecked  -15.4020    1646.6921   ✗       
+494   TAGDTHLGGEDFDNR          -1.0000     NotChecked  -15.4311    1603.6863   ✗       
+495   STAGDTHVGGEDFDNR         -1.0000     NotChecked  -15.5581    1676.7026   ✗       
+496   STAGDTHLGGADFDNR         -1.0000     NotChecked  -15.5584    1632.7128   ✗       
+497   STAGDTHLGGEDFDGR         -1.0000     NotChecked  -15.6277    1633.6968   ✗       
+498   STAGDTHLGGEDN+0.984DNR   -1.0000     NotChecked  -15.6673    1658.6768   ✗       
+499   STAGDTHLGGEDFDNL         -1.0000     NotChecked  -15.6799    1647.7012   ✗       
+500   STAGDTHLGGEDFDND         -1.0000     NotChecked  -15.7232    1649.6441   ✗       
+501   STAGDTHLGGEDFDR          -1.0000     NotChecked  -15.7296    1576.6754   ✗       
+502   STAGDTHLGGEDNDNR         -1.0000     NotChecked  -15.8378    1657.6928   ✗       
+503   STAGDTHLGGEFDNR          -1.0000     NotChecked  -15.8845    1575.6913   ✗       
+504   STAGDTHLGGEDFDNQ         -1.0000     NotChecked  -15.9549    1662.6758   ✗       
+505   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -16.0140    1645.6968   ✗       
+506   STAGSTHLGGEDFDNR         -1.0000     NotChecked  -16.0413    1662.7234   ✗       
+507   STGDTHLGGEDFDNR          -1.0000     NotChecked  -16.1161    1619.6812   ✗       
+508   STAGDTHLGGEDFDPR         -1.0000     NotChecked  -16.1287    1673.7281   ✗       
+509   SAGDTHLGGEDFDNR          -1.0000     NotChecked  -16.1351    1589.6706   ✗       
+510   STAGDTHLGGEDFDR          -1.0000     NotChecked  -16.3649    1576.6754   ✗       
+511   STAGATHLGGEDFDNR         -1.0000     NotChecked  -16.3709    1646.7285   ✗       
+512   SSAGDTHLGGEDFDNR         -1.0000     NotChecked  -16.3814    1676.7026   ✗       
+513   STAGDAHLGGEDFDNR         -1.0000     NotChecked  -16.4249    1660.7077   ✗       
+514   STAGDTHLGGEDFDN          -1.0000     NotChecked  -16.4810    1534.6172   ✗       
+515   ATAGDTHLGGEDFDNR         -1.0000     NotChecked  -16.4831    1674.7234   ✗       
+516   STAGDVHLGGEDFDNR         -1.0000     NotChecked  -16.5318    1688.7390   ✗       
+517   SAAGDTHLGGEDFDNR         -1.0000     NotChecked  -16.5343    1660.7077   ✗       
+518   STAGDTHLGGEDFDLR         -1.0000     NotChecked  -16.5736    1689.7594   ✗       
+519   STAGDTHLGGEDFDNV         -1.0000     NotChecked  -16.6146    1633.6856   ✗       
+520   STAGDTHLGGEDLDNR         -1.0000     NotChecked  -16.6357    1656.7339   ✗       
+521   SAGDTHLGGEDFDNR          -1.0000     NotChecked  -16.6386    1589.6706   ✗       
+522   STAGDTHLGGSDFDNR         -1.0000     NotChecked  -16.7340    1648.7077   ✗       
+523   STAGDTHLGGEDFNNR         -1.0000     NotChecked  -16.8437    1689.7343   ✗       
+524   GTAGDTHLGGEDFDNR         -1.0000     NotChecked  -16.9162    1660.7077   ✗       
+525   STAGDTHLGGKDFDNR         -1.0000     NotChecked  -16.9326    1689.7707   ✗       
+526   ATAGDTHLGGEDFDNR         -1.0000     NotChecked  -16.9866    1674.7234   ✗       
+527   +43.006TAGDTHLGGEDFDNR   -1.0000     NotChecked  -16.9988    1646.6921   ✗       
+528   STAGDTHLGGENFDNR         -1.0000     NotChecked  -17.0469    1689.7343   ✗       
+529   SVAGDTHLGGEDFDNR         -1.0000     NotChecked  -17.0550    1688.7390   ✗       
+530   STAGTHLGGEDFDNR          -1.0000     NotChecked  -17.0569    1575.6913   ✗       
+531   STAGDTHLGEDFDNR          -1.0000     NotChecked  -17.1385    1633.6968   ✗       
+532   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -17.1700    1645.6968   ✗       
+533   STAGDTHLGGEDFDNE         -1.0000     NotChecked  -17.2712    1663.6598   ✗       
+534   STAGDTHLGGEDNDNR         -1.0000     NotChecked  -17.3124    1657.6928   ✗       
+535   SAGDTHLGGEDFDNR          -1.0000     NotChecked  -17.3135    1589.6706   ✗       
+536   STAGDTHLGGEDFNNR         -1.0000     NotChecked  -17.3473    1689.7343   ✗       
+537   GTAGDTHLGGEDFDNR         -1.0000     NotChecked  -17.4197    1660.7077   ✗       
+538   STAGDTHLGGEDFDNP         -1.0000     NotChecked  -17.4720    1631.6699   ✗       
+539   STAGDTHLGGEDFDNK         -1.0000     NotChecked  -17.4878    1662.7121   ✗       
+540   SGAGDTHLGGEDFDNR         -1.0000     NotChecked  -17.4901    1646.6921   ✗       
+541   +43.006TAGDTHLGGEDFDNR   -1.0000     NotChecked  -17.5023    1646.6921   ✗       
+542   STAGTTHLGGEDFDNR         -1.0000     NotChecked  -17.5055    1676.7390   ✗       
+543   STAGNTHLGGEDFDNR         -1.0000     NotChecked  -17.5132    1689.7343   ✗       
+544   STAGDTHLGGLDFDNR         -1.0000     NotChecked  -17.5277    1674.7598   ✗       
+545   STAGDTHLGGDDFDNR         -1.0000     NotChecked  -17.5488    1676.7026   ✗       
+546   STAGDTHLGGEDFVNR         -1.0000     NotChecked  -17.5910    1674.7598   ✗       
+547   STAGLTHLGGEDFDNR         -1.0000     NotChecked  -17.6095    1688.7754   ✗       
+548   STAGDTHLGGEDMDNR         -1.0000     NotChecked  -17.6263    1674.6904   ✗       
+549   STAGDTHLGGEAFDNR         -1.0000     NotChecked  -17.6374    1646.7285   ✗       
+550   STAGDTHVGGEDFDNR         -1.0000     NotChecked  -17.6462    1676.7026   ✗       
+551   STAGDTHLGGADFDNR         -1.0000     NotChecked  -17.6465    1632.7128   ✗       
+552   STAGDTHLGGEDFDNG         -1.0000     NotChecked  -17.6529    1591.6386   ✗       
+553   ATAGDTHLGGEDFDNR         -1.0000     NotChecked  -17.6615    1674.7234   ✗       
+554   STAGDTHLGGEDFDGR         -1.0000     NotChecked  -17.7158    1633.6968   ✗       
+555   STAGDTHLGGEDN+0.984DNR   -1.0000     NotChecked  -17.7554    1658.6768   ✗       
+556   STAGDTHLGGEDFDNL         -1.0000     NotChecked  -17.7680    1647.7012   ✗       
+557   STAGDTHLGGEDFDND         -1.0000     NotChecked  -17.8113    1649.6441   ✗       
+558   STAGDTHLGGEDNDNR         -1.0000     NotChecked  -17.8160    1657.6928   ✗       
+559   STAGDTHLGGEDFDR          -1.0000     NotChecked  -17.8177    1576.6754   ✗       
+560   STAGDTHLGGEDFDN          -1.0000     NotChecked  -17.9557    1534.6172   ✗       
+561   TAGDTHLGGEDFDNR          -1.0000     NotChecked  -17.9591    1603.6863   ✗       
+562   STAGDTHLGGEFDNR          -1.0000     NotChecked  -17.9727    1575.6913   ✗       
+563   STGGDTHLGGEDFDNR         -1.0000     NotChecked  -17.9922    1676.7026   ✗       
+564   SAAGDTHLGGEDFDNR         -1.0000     NotChecked  -18.0090    1660.7077   ✗       
+565   STAGDTHLGGEDFNNR         -1.0000     NotChecked  -18.0221    1689.7343   ✗       
+566   STAGDTHLGGEDFDNQ         -1.0000     NotChecked  -18.0430    1662.6758   ✗       
+567   STAGDTHLGGEDFDNV         -1.0000     NotChecked  -18.0893    1633.6856   ✗       
+568   GTAGDTHLGGEDFDNR         -1.0000     NotChecked  -18.0946    1660.7077   ✗       
+569   SSAGDTHLGGEDFDNR         -1.0000     NotChecked  -18.1133    1676.7026   ✗       
+570   STAGSTHLGGEDFDNR         -1.0000     NotChecked  -18.1295    1662.7234   ✗       
+571   +43.006TAGDTHLGGEDFDNR   -1.0000     NotChecked  -18.1772    1646.6921   ✗       
+572   STGDTHLGGEDFDNR          -1.0000     NotChecked  -18.2043    1619.6812   ✗       
+573   STAGDTHLGGEDFDPR         -1.0000     NotChecked  -18.2168    1673.7281   ✗       
+574   STAGDTHLGGEDKDNR         -1.0000     NotChecked  -18.2778    1671.7448   ✗       
+575   SSAGDTHLGGQ+0.984DFDNR   -1.0000     NotChecked  -18.3710    1676.7026   ✗       
+576   STAGDTHLGGEDFDR          -1.0000     NotChecked  -18.4530    1576.6754   ✗       
+577   STAGATHLGGEDFDNR         -1.0000     NotChecked  -18.4591    1646.7285   ✗       
+578   STAGDTHLGGEDFDN          -1.0000     NotChecked  -18.4592    1534.6172   ✗       
+579   STAGDTHLGGEDFLNR         -1.0000     NotChecked  -18.4612    1688.7754   ✗       
+580   STAGDTHLGGEDFNR          -1.0000     NotChecked  -18.4662    1575.6913   ✗       
+581   SAGDTHLGGEDFDNR          -1.0000     NotChecked  -18.4695    1589.6706   ✗       
+582   STAGDTHLGGEDNDNR         -1.0000     NotChecked  -18.4909    1657.6928   ✗       
+583   SAAGDTHLGGEDFDNR         -1.0000     NotChecked  -18.5125    1660.7077   ✗       
+584   STAGDAHLGGEDFDNR         -1.0000     NotChecked  -18.5130    1660.7077   ✗       
+585   STAGDTHLGGENFDNR         -1.0000     NotChecked  -18.5216    1689.7343   ✗       
+586   STAGDTHAGGEDFDNR         -1.0000     NotChecked  -18.5276    1648.6713   ✗       
+587   SVAGDTHLGGEDFDNR         -1.0000     NotChecked  -18.5297    1688.7390   ✗       
+588   STAGTHLGGEDFDNR          -1.0000     NotChecked  -18.5316    1575.6913   ✗       
+589   STAGDTHLGGEDFDNV         -1.0000     NotChecked  -18.5928    1633.6856   ✗       
+590   SSAGDTHLGGEDFDNR         -1.0000     NotChecked  -18.6124    1676.7026   ✗       
+591   STAGDVHLGGEDFDNR         -1.0000     NotChecked  -18.6199    1688.7390   ✗       
+592   SSAGDTHLGGEDFN+0.984NR   -1.0000     NotChecked  -18.6389    1676.7026   ✗       
+593   STAGDTHLGGEDFDLR         -1.0000     NotChecked  -18.6618    1689.7594   ✗       
+594   STAGDTHLGGEDLDNR         -1.0000     NotChecked  -18.7238    1656.7339   ✗       
+595   SSAGDTHLGGEDFDNR         -1.0000     NotChecked  -18.7882    1676.7026   ✗       
+596   ATAGDTHLGGEDFDNR         -1.0000     NotChecked  -18.8175    1674.7234   ✗       
+597   STAGDTHLGGSDFDNR         -1.0000     NotChecked  -18.8222    1648.7077   ✗       
+598   STAGN+0.984THLGGEN+0.984FDNR-1.0000     Failed      -18.8806    1690.7183   ✓       
+599   STAGDTHGGEDFDNR          -1.0000     NotChecked  -18.9011    1577.6342   ✗       
+600   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -18.9019    1645.6968   ✗       
+601   STAGDTHLGGEDDDNR         -1.0000     NotChecked  -18.9037    1658.6768   ✗       
+602   STAGDTHLGGEDFNNR         -1.0000     NotChecked  -18.9318    1689.7343   ✗       
+603   STAGDTHLGGEDFDNP         -1.0000     NotChecked  -18.9467    1631.6699   ✗       
+604   STAGDTHLGGEDFDNK         -1.0000     NotChecked  -18.9625    1662.7121   ✗       
+605   SGAGDTHLGGEDFDNR         -1.0000     NotChecked  -18.9647    1646.6921   ✗       
+606   STAGDTHTGGEDFDNR         -1.0000     NotChecked  -18.9923    1678.6819   ✗       
+607   TAGDTHLGGEDFDNR          -1.0000     NotChecked  -18.9939    1603.6863   ✗       
+608   STAGDTHLGGKDFDNR         -1.0000     NotChecked  -19.0207    1689.7707   ✗       
+609   STAGDTHLGGENFDNR         -1.0000     NotChecked  -19.0251    1689.7343   ✗       
+610   SVAGDTHLGGEDFDNR         -1.0000     NotChecked  -19.0332    1688.7390   ✗       
+611   STAGTHLGGEDFDNR          -1.0000     NotChecked  -19.0351    1575.6913   ✗       
+612   STAGDTNLGGEDFDNR         -1.0000     NotChecked  -19.0395    1667.7023   ✗       
+613   STAGDTHLGGEDSDNR         -1.0000     NotChecked  -19.1010    1630.6819   ✗       
+614   STAGDTHVGGEDFDNR         -1.0000     NotChecked  -19.1208    1676.7026   ✗       
+615   STAGDTHLGGADFDNR         -1.0000     NotChecked  -19.1212    1632.7128   ✗       
+616   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -19.1263    1645.6968   ✗       
+617   STAGDTHLGGEDFDN          -1.0000     NotChecked  -19.1341    1534.6172   ✗       
+618   +42.011TAGDTHLGGQ+0.984DFDNR-1.0000     NotChecked  -19.1597    1645.6968   ✗       
+619   STAGDTQ+0.984LGGEDFDNR   -1.0000     NotChecked  -19.1759    1682.7020   ✗       
+620   STAGDTHLGGEDFNNR         -1.0000     NotChecked  -19.1781    1689.7343   ✗       
+621   SAAGDTHLGGEDFDNR         -1.0000     NotChecked  -19.1874    1660.7077   ✗       
+622   STAGDTHLGGEDFDGR         -1.0000     NotChecked  -19.1905    1633.6968   ✗       
+623   STAGDTHLGEDFDNR          -1.0000     NotChecked  -19.2266    1633.6968   ✗       
+624   STAGDTHLGGEDN+0.984DNR   -1.0000     NotChecked  -19.2301    1658.6768   ✗       
+625   SSAGDTHLGGEN+0.984FDNR   -1.0000     NotChecked  -19.2401    1676.7026   ✗       
+626   STAGDTHLGGEDFDNL         -1.0000     NotChecked  -19.2427    1647.7012   ✗       
+627   GTAGDTHLGGEDFDNR         -1.0000     NotChecked  -19.2506    1660.7077   ✗       
+628   STAGDTHLGGEDFDNV         -1.0000     NotChecked  -19.2677    1633.6856   ✗       
+629   STAGDTHLGGEDFDND         -1.0000     NotChecked  -19.2859    1649.6441   ✗       
+630   SSAGDTHLGGEDFDNR         -1.0000     NotChecked  -19.2917    1676.7026   ✗       
+631   STAGDTHLGGEDFDR          -1.0000     NotChecked  -19.2923    1576.6754   ✗       
+632   +43.006TAGDTHLGGEDFDNR   -1.0000     NotChecked  -19.3332    1646.6921   ✗       
+633   STAGDTHLGGEDFDNE         -1.0000     NotChecked  -19.3593    1663.6598   ✗       
+634   STAGDTQLGGEDFDNR         -1.0000     NotChecked  -19.3838    1681.7180   ✗       
+635   STAGDTN+0.984LGGEDFDNR   -1.0000     NotChecked  -19.3967    1668.6863   ✗       
+636   STAGDTHLGGEDNDNR         -1.0000     NotChecked  -19.4005    1657.6928   ✗       
+637   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -19.4011    1645.6968   ✗       
+638   +42.011TAGDTHLGGEDFN+0.984NR-1.0000     NotChecked  -19.4276    1645.6968   ✗       
+639   STAGDTHLGGEDFNNR         -1.0000     NotChecked  -19.4354    1689.7343   ✗       
+640   STAGDTHLGGEFDNR          -1.0000     NotChecked  -19.4473    1575.6913   ✗       
+641   STAGDTHLGGEDFDNP         -1.0000     NotChecked  -19.4502    1631.6699   ✗       
+642   STAGDTHLGGEDFDNK         -1.0000     NotChecked  -19.4660    1662.7121   ✗       
+643   SGAGDTHLGGEDFDNR         -1.0000     NotChecked  -19.4683    1646.6921   ✗       
+644   TAGDTHLGGEDFDNR          -1.0000     NotChecked  -19.4975    1603.6863   ✗       
+645   STAGDTHLGGEDFDNQ         -1.0000     NotChecked  -19.5176    1662.6758   ✗       
+646   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -19.5768    1645.6968   ✗       
+647   STAGTTHLGGEDFDNR         -1.0000     NotChecked  -19.5936    1676.7390   ✗       
+648   STAGNTHLGGEDFDNR         -1.0000     NotChecked  -19.6014    1689.7343   ✗       
+649   STAGSTHLGGEDFDNR         -1.0000     NotChecked  -19.6041    1662.7234   ✗       
+650   STAGDTHLGGLDFDNR         -1.0000     NotChecked  -19.6158    1674.7598   ✗       
+651   STAGDTHVGGEDFDNR         -1.0000     NotChecked  -19.6244    1676.7026   ✗       
+652   STAGDTHLGGADFDNR         -1.0000     NotChecked  -19.6247    1632.7128   ✗       
+653   STAGDTHLGGDDFDNR         -1.0000     NotChecked  -19.6369    1676.7026   ✗       
+654   STAGDTHLGGEDNDNR         -1.0000     NotChecked  -19.6468    1657.6928   ✗       
+655   STGDTHLGGEDFDNR          -1.0000     NotChecked  -19.6789    1619.6812   ✗       
+656   STAGDTHLGGEDFVNR         -1.0000     NotChecked  -19.6791    1674.7598   ✗       
+657   STAGDTHLGGEDFDPR         -1.0000     NotChecked  -19.6914    1673.7281   ✗       
+658   STAGDTHLGGEDFDGR         -1.0000     NotChecked  -19.6940    1633.6968   ✗       
+659   STAGLTHLGGEDFDNR         -1.0000     NotChecked  -19.6976    1688.7754   ✗       
+660   STAGDTHLGGENFDNR         -1.0000     NotChecked  -19.7000    1689.7343   ✗       
+661   SVAGDTHLGGEDFDNR         -1.0000     NotChecked  -19.7081    1688.7390   ✗       
+662   STAGTHLGGEDFDNR          -1.0000     NotChecked  -19.7100    1575.6913   ✗       
+663   STAGDTHLGGEDMDNR         -1.0000     NotChecked  -19.7144    1674.6904   ✗       
+664   STAGDTHLGGEAFDNR         -1.0000     NotChecked  -19.7255    1646.7285   ✗       
+665   STAGDTHLGGEDN+0.984DNR   -1.0000     NotChecked  -19.7336    1658.6768   ✗       
+666   STAGDTHLGGEDFDNG         -1.0000     NotChecked  -19.7410    1591.6386   ✗       
+667   STAGDTHLGGEDFDNL         -1.0000     NotChecked  -19.7462    1647.7012   ✗       
+668   STAGDTHLGGEDFDND         -1.0000     NotChecked  -19.7895    1649.6441   ✗       
+669   STAGDTHLGGEDFDR          -1.0000     NotChecked  -19.7959    1576.6754   ✗       
+670   STAGDTTLGGEDFDNR         -1.0000     NotChecked  -19.8492    1654.7070   ✗       
+671   STAGDTHLGGEDNDNR         -1.0000     NotChecked  -19.9041    1657.6928   ✗       
+672   STAGDTHLGGEDFDR          -1.0000     NotChecked  -19.9276    1576.6754   ✗       
+673   STAGATHLGGEDFDNR         -1.0000     NotChecked  -19.9337    1646.7285   ✗       
+674   SSAGDTHLGGEDFDNR         -1.0000     NotChecked  -19.9441    1676.7026   ✗       
+675   STAGDTHLGGEFDNR          -1.0000     NotChecked  -19.9509    1575.6913   ✗       
+676   STAGDAHLGGEDFDNR         -1.0000     NotChecked  -19.9876    1660.7077   ✗       
+677   STAGDTHLGGEDFDNQ         -1.0000     NotChecked  -20.0212    1662.6758   ✗       
+678   +42.011TAGDTHLGGEN+0.984FDNR-1.0000     NotChecked  -20.0288    1645.6968   ✗       
+679   STAGDTHLGGEDFDN          -1.0000     NotChecked  -20.0438    1534.6172   ✗       
+680   STGGDTHLGGEDFDNR         -1.0000     NotChecked  -20.0803    1676.7026   ✗       
+681   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -20.0804    1645.6968   ✗       
+682   STAGDVHLGGEDFDNR         -1.0000     NotChecked  -20.0946    1688.7390   ✗       
+683   SAAGDTHLGGEDFDNR         -1.0000     NotChecked  -20.0971    1660.7077   ✗       
+684   STAGSTHLGGEDFDNR         -1.0000     NotChecked  -20.1077    1662.7234   ✗       
+685   STAGDTHLGGEDFNNR         -1.0000     NotChecked  -20.1103    1689.7343   ✗       
+686   STAGDTHLGGEDFDNP         -1.0000     NotChecked  -20.1251    1631.6699   ✗       
+687   STAGDTHLGGEDFDLR         -1.0000     NotChecked  -20.1364    1689.7594   ✗       
+688   STAGDTHLGGEDFDNK         -1.0000     NotChecked  -20.1409    1662.7121   ✗       
+689   SGAGDTHLGGEDFDNR         -1.0000     NotChecked  -20.1432    1646.6921   ✗       
+690   TAGDTHLGGEDFDNR          -1.0000     NotChecked  -20.1723    1603.6863   ✗       
+691   STAGDTHLGGEDFDNV         -1.0000     NotChecked  -20.1774    1633.6856   ✗       
+692   STAGDTHLGGEDFDPR         -1.0000     NotChecked  -20.1950    1673.7281   ✗       
+693   STAGDTHLGGEDLDNR         -1.0000     NotChecked  -20.1984    1656.7339   ✗       
+694   SAGDTHLGGEDFDNR          -1.0000     NotChecked  -20.2014    1589.6706   ✗       
+695   STAGDTHLGGEDFDN          -1.0000     NotChecked  -20.2901    1534.6172   ✗       
+696   STAGDTHLGGSDFDNR         -1.0000     NotChecked  -20.2968    1648.7077   ✗       
+697   STAGDTHVGGEDFDNR         -1.0000     NotChecked  -20.2993    1676.7026   ✗       
+698   STAGDTHLGGADFDNR         -1.0000     NotChecked  -20.2996    1632.7128   ✗       
+699   SAAGDTHLGGEDFDNR         -1.0000     NotChecked  -20.3434    1660.7077   ✗       
+700   STAGDTHLGGEDKDNR         -1.0000     NotChecked  -20.3659    1671.7448   ✗       
+701   STAGDTHLGGEDFDGR         -1.0000     NotChecked  -20.3689    1633.6968   ✗       
+702   STAGDTHLGGEDN+0.984DNR   -1.0000     NotChecked  -20.4085    1658.6768   ✗       
+703   STAGDTHLGGEDFDNL         -1.0000     NotChecked  -20.4211    1647.7012   ✗       
+704   STAGDTHLGGEDFDNV         -1.0000     NotChecked  -20.4237    1633.6856   ✗       
+705   STAGDTHLGGEDFDR          -1.0000     NotChecked  -20.4312    1576.6754   ✗       
+706   SSAGN+0.984THLGGEDFDNR   -1.0000     NotChecked  -20.4339    1676.7026   ✗       
+707   STAGATHLGGEDFDNR         -1.0000     NotChecked  -20.4372    1646.7285   ✗       
+708   SSAGDTHLGGEDFDNR         -1.0000     NotChecked  -20.4477    1676.7026   ✗       
+709   SAGDTHLGGQ+0.984DFDNR    -1.0000     NotChecked  -20.4592    1589.6706   ✗       
+710   STAGDTHLGGEDFDND         -1.0000     NotChecked  -20.4644    1649.6441   ✗       
+711   STAGDTHLGGEDFDR          -1.0000     NotChecked  -20.4708    1576.6754   ✗       
+712   STAGDAHLGGEDFDNR         -1.0000     NotChecked  -20.4912    1660.7077   ✗       
+713   STAGDTHLGGKDFDNR         -1.0000     NotChecked  -20.4954    1689.7707   ✗       
+714   SSAGDTHLGGEDFDNR         -1.0000     NotChecked  -20.5327    1676.7026   ✗       
+715   STAGDTHLGGEDFDN          -1.0000     NotChecked  -20.5473    1534.6172   ✗       
+716   STAGDTHLGGEDFLNR         -1.0000     NotChecked  -20.5494    1688.7754   ✗       
+717   ATAGDTHLGGEDFDNR         -1.0000     NotChecked  -20.5494    1674.7234   ✗       
+718   STAGDTHLGGEDFNR          -1.0000     NotChecked  -20.5544    1575.6913   ✗       
+719   STAGDTHLGGEDNDNR         -1.0000     NotChecked  -20.5790    1657.6928   ✗       
+720   STAGDVHLGGEDFDNR         -1.0000     NotChecked  -20.5981    1688.7390   ✗       
+721   SAAGDTHLGGEDFDNR         -1.0000     NotChecked  -20.6006    1660.7077   ✗       
+722   STAGDTHLGGENFDNR         -1.0000     NotChecked  -20.6097    1689.7343   ✗       
+723   STAGDTHAGGEDFDNR         -1.0000     NotChecked  -20.6157    1648.6713   ✗       
+724   SVAGDTHLGGEDFDNR         -1.0000     NotChecked  -20.6178    1688.7390   ✗       
+725   STAGTHLGGEDFDNR          -1.0000     NotChecked  -20.6197    1575.6913   ✗       
+726   STAGDTHLGGEFDNR          -1.0000     NotChecked  -20.6257    1575.6913   ✗       
+727   STAGDTHLGGEDFDLR         -1.0000     NotChecked  -20.6399    1689.7594   ✗       
+728   STAGDTHLGGEDFDNV         -1.0000     NotChecked  -20.6809    1633.6856   ✗       
+729   STAGDTHLGGEDFDNQ         -1.0000     NotChecked  -20.6961    1662.6758   ✗       
+730   SAGDTHLGGEDFDNR          -1.0000     NotChecked  -20.7006    1589.6706   ✗       
+731   STAGDTHLGEDFDNR          -1.0000     NotChecked  -20.7013    1633.6968   ✗       
+732   STAGDTHLGGEDLDNR         -1.0000     NotChecked  -20.7020    1656.7339   ✗       
+733   SAGDTHLGGEDFN+0.984NR    -1.0000     NotChecked  -20.7270    1589.6706   ✗       
+734   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -20.7328    1645.6968   ✗       
+735   ATAGDTHLGGEDFDNR         -1.0000     NotChecked  -20.7738    1674.7234   ✗       
+736   STAGSTHLGGEDFDNR         -1.0000     NotChecked  -20.7825    1662.7234   ✗       
+737   STAGDTHLGGSDFDNR         -1.0000     NotChecked  -20.8004    1648.7077   ✗       
+738   ATAGDTHLGGQ+0.984DFDNR   -1.0000     NotChecked  -20.8072    1674.7234   ✗       
+739   STAGDTHLGGEDFDNE         -1.0000     NotChecked  -20.8340    1663.6598   ✗       
+740   STAGDTHLGGENFDNR         -1.0000     NotChecked  -20.8560    1689.7343   ✗       
+741   STGDTHLGGEDFDNR          -1.0000     NotChecked  -20.8573    1619.6812   ✗       
+742   SVAGDTHLGGEDFDNR         -1.0000     NotChecked  -20.8641    1688.7390   ✗       
+743   STAGTHLGGEDFDNR          -1.0000     NotChecked  -20.8660    1575.6913   ✗       
+744   STAGDTHLGGEDFDPR         -1.0000     NotChecked  -20.8699    1673.7281   ✗       
+745   SAGDTHLGGEDFDNR          -1.0000     NotChecked  -20.8763    1589.6706   ✗       
+746   STAGDTHLGGEDFNNR         -1.0000     NotChecked  -20.9100    1689.7343   ✗       
+747   STAGN+0.984THLGGEN+0.984FDNR-1.0000     Failed      -20.9688    1690.7183   ✓       
+748   GTAGDTHLGGEDFDNR         -1.0000     NotChecked  -20.9825    1660.7077   ✗       
+749   STAGDTHGGEDFDNR          -1.0000     NotChecked  -20.9892    1577.6342   ✗       
+750   STAGDTHLGGEDDDNR         -1.0000     NotChecked  -20.9918    1658.6768   ✗       
+751   STAGDTHLGGKDFDNR         -1.0000     NotChecked  -20.9989    1689.7707   ✗       
+752   STAGDTHLGGEDFDNP         -1.0000     NotChecked  -21.0348    1631.6699   ✗       
+753   ATAGDTHLGGEDFDNR         -1.0000     NotChecked  -21.0485    1674.7234   ✗       
+754   STAGDTHLGGEDFDNK         -1.0000     NotChecked  -21.0506    1662.7121   ✗       
+755   SGAGDTHLGGEDFDNR         -1.0000     NotChecked  -21.0528    1646.6921   ✗       
+756   +43.006TAGDTHLGGEDFDNR   -1.0000     NotChecked  -21.0651    1646.6921   ✗       
+757   STAGTTHLGGEDFDNR         -1.0000     NotChecked  -21.0683    1676.7390   ✗       
+758   ATAGDTHLGGEDFN+0.984NR   -1.0000     NotChecked  -21.0750    1674.7234   ✗       
+759   STAGNTHLGGEDFDNR         -1.0000     NotChecked  -21.0760    1689.7343   ✗       
+760   STAGDTHTGGEDFDNR         -1.0000     NotChecked  -21.0805    1678.6819   ✗       
+761   SSAGDTHLGGEDFDNR         -1.0000     NotChecked  -21.0851    1676.7026   ✗       
+762   STAGDTHLGGLDFDNR         -1.0000     NotChecked  -21.0905    1674.7598   ✗       
+763   STAGDTHLGGEDFDR          -1.0000     NotChecked  -21.1061    1576.6754   ✗       
+764   STAGDTHLGGDDFDNR         -1.0000     NotChecked  -21.1116    1676.7026   ✗       
+765   STAGATHLGGEDFDNR         -1.0000     NotChecked  -21.1121    1646.7285   ✗       
+766   STAGDTHLGGENFDNR         -1.0000     NotChecked  -21.1132    1689.7343   ✗       
+767   SVAGDTHLGGEDFDNR         -1.0000     NotChecked  -21.1213    1688.7390   ✗       
+768   SSAGDTHLGGEDFDNR         -1.0000     NotChecked  -21.1226    1676.7026   ✗       
+769   STAGTHLGGEDFDNR          -1.0000     NotChecked  -21.1232    1575.6913   ✗       
+770   STAGDTNLGGEDFDNR         -1.0000     NotChecked  -21.1276    1667.7023   ✗       
+771   STAGDTHLGGEDFNNR         -1.0000     NotChecked  -21.1344    1689.7343   ✗       
+772   STAGDTHLGGEDFVNR         -1.0000     NotChecked  -21.1538    1674.7598   ✗       
+773   STAGDTHLGGQ+0.984DFNNR   -1.0000     NotChecked  -21.1678    1689.7343   ✗       
+774   STAGLTHLGGEDFDNR         -1.0000     NotChecked  -21.1723    1688.7754   ✗       
+775   STAGDTHLGGEDSDNR         -1.0000     NotChecked  -21.1891    1630.6819   ✗       
+776   STAGDTHLGGEDMDNR         -1.0000     NotChecked  -21.1891    1674.6904   ✗       
+777   STAGDTHLGGEAFDNR         -1.0000     NotChecked  -21.2001    1646.7285   ✗       
+778   STAGDTHLGEDFDNR          -1.0000     NotChecked  -21.2048    1633.6968   ✗       
+779   GTAGDTHLGGEDFDNR         -1.0000     NotChecked  -21.2069    1660.7077   ✗       
+780   STAGDTHVGGEDFDNR         -1.0000     NotChecked  -21.2090    1676.7026   ✗       
+781   STAGDTHLGGADFDNR         -1.0000     NotChecked  -21.2093    1632.7128   ✗       
+782   STAGDTHLGGEDFDNG         -1.0000     NotChecked  -21.2156    1591.6386   ✗       
+783   STAGDTHLGGEDFDN          -1.0000     NotChecked  -21.2222    1534.6172   ✗       
+784   +42.011TAGN+0.984THLGGEDFDNR-1.0000     NotChecked  -21.2225    1645.6968   ✗       
+785   ATAGDTHLGGEDFDNR         -1.0000     NotChecked  -21.2243    1674.7234   ✗       
+786   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -21.2363    1645.6968   ✗       
+787   GTAGDTHLGGQ+0.984DFDNR   -1.0000     NotChecked  -21.2403    1660.7077   ✗       
+788   STAGDTQ+0.984LGGEDFDNR   -1.0000     NotChecked  -21.2640    1682.7020   ✗       
+789   STAGDTHLGGEDFNNR         -1.0000     NotChecked  -21.2662    1689.7343   ✗       
+790   SAAGDTHLGGEDFDNR         -1.0000     NotChecked  -21.2755    1660.7077   ✗       
+791   STAGDTHLGGEDFDGR         -1.0000     NotChecked  -21.2786    1633.6968   ✗       
+792   STAGDTHLGGEDFDNP         -1.0000     NotChecked  -21.2811    1631.6699   ✗       
+793   +43.006TAGDTHLGGEDFDNR   -1.0000     NotChecked  -21.2895    1646.6921   ✗       
+794   STAGDTHLGGEDFDNK         -1.0000     NotChecked  -21.2969    1662.7121   ✗       
+795   SGAGDTHLGGEDFDNR         -1.0000     NotChecked  -21.2991    1646.6921   ✗       
+796   STAGDTHLGGEDFDLR         -1.0000     NotChecked  -21.3148    1689.7594   ✗       
+797   STAGDTHLGGEDN+0.984DNR   -1.0000     NotChecked  -21.3182    1658.6768   ✗       
+798   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -21.3213    1645.6968   ✗       
+799   +43.006TAGDTHLGGQ+0.984DFDNR-1.0000     NotChecked  -21.3229    1646.6921   ✗       
+800   SAGDTHLGGEN+0.984FDNR    -1.0000     NotChecked  -21.3283    1589.6706   ✗       
+801   TAGDTHLGGEDFDNR          -1.0000     NotChecked  -21.3283    1603.6863   ✗       
+802   STAGDTHLGGEDFDNL         -1.0000     NotChecked  -21.3308    1647.7012   ✗       
+803   STAGDTHLGGEDFDNE         -1.0000     NotChecked  -21.3375    1663.6598   ✗       
+804   STAGDTHLGGEDFDNV         -1.0000     NotChecked  -21.3558    1633.6856   ✗       
+805   STAGDTHLGGEDFDND         -1.0000     NotChecked  -21.3741    1649.6441   ✗       
+806   STAGDTHLGGEDLDNR         -1.0000     NotChecked  -21.3769    1656.7339   ✗       
+807   STAGDTHLGGEDNDNR         -1.0000     NotChecked  -21.3787    1657.6928   ✗       
+808   SAGDTHLGGEDFDNR          -1.0000     NotChecked  -21.3798    1589.6706   ✗       
+809   STAGDTHLGGEDFDR          -1.0000     NotChecked  -21.3805    1576.6754   ✗       
+810   SSAGDTHLGGEDFDN+0.984R   -1.0000     NotChecked  -21.4070    1677.6867   ✗       
+811   STAGDTHLGGEDFNNR         -1.0000     NotChecked  -21.4092    1689.7343   ✗       
+812   STAGDTHVGGEDFDNR         -1.0000     NotChecked  -21.4553    1676.7026   ✗       
+813   STAGDTHLGGADFDNR         -1.0000     NotChecked  -21.4556    1632.7128   ✗       
+814   STAGDTQLGGEDFDNR         -1.0000     NotChecked  -21.4720    1681.7180   ✗       
+815   STAGDTHLGGSDFDNR         -1.0000     NotChecked  -21.4752    1648.7077   ✗       
+816   GTAGDTHLGGEDFDNR         -1.0000     NotChecked  -21.4817    1660.7077   ✗       
+817   STAGDTN+0.984LGGEDFDNR   -1.0000     NotChecked  -21.4848    1668.6863   ✗       
+818   GTAGDTHLGGEDFN+0.984NR   -1.0000     NotChecked  -21.5081    1660.7077   ✗       
+819   SSAGDTHLGGEDFDNR         -1.0000     NotChecked  -21.5180    1676.7026   ✗       
+820   TAGDTHLGGEDFDNR          -1.0000     NotChecked  -21.5219    1603.6863   ✗       
+821   STAGDTHLGGEDFDGR         -1.0000     NotChecked  -21.5249    1633.6968   ✗       
+822   STAGDTHLGGEFDNR          -1.0000     NotChecked  -21.5354    1575.6913   ✗       
+823   STAGDTHLGGEDFDNP         -1.0000     NotChecked  -21.5383    1631.6699   ✗       
+824   SSAGDTHLGGEDFDNR         -1.0000     NotChecked  -21.5505    1676.7026   ✗       
+825   STAGDTHLGGEDFDNK         -1.0000     NotChecked  -21.5541    1662.7121   ✗       
+826   STGGDTHLGGEDFDNR         -1.0000     NotChecked  -21.5550    1676.7026   ✗       
+827   SGAGDTHLGGEDFDNR         -1.0000     NotChecked  -21.5564    1646.6921   ✗       
+828   +43.006TAGDTHLGGEDFDNR   -1.0000     NotChecked  -21.5643    1646.6921   ✗       
+829   STAGDTHLGGEDN+0.984DNR   -1.0000     NotChecked  -21.5645    1658.6768   ✗       
+830   STAGTTHLGGEDFDNR         -1.0000     NotChecked  -21.5718    1676.7390   ✗       
+831   STAGDTHLGGEDFDNL         -1.0000     NotChecked  -21.5771    1647.7012   ✗       
+832   STAGNTHLGGEDFDNR         -1.0000     NotChecked  -21.5795    1689.7343   ✗       
+833   +42.011SAGDTHLGGEDFDNR   -1.0000     NotChecked  -21.5820    1631.6812   ✗       
+834   STAGDTHLGGEDFNNR         -1.0000     NotChecked  -21.5849    1689.7343   ✗       
+835   +43.006TAGDTHLGGEDFN+0.984NR-1.0000     NotChecked  -21.5907    1646.6921   ✗       
+836   STAGDTHLGGLDFDNR         -1.0000     NotChecked  -21.5940    1674.7598   ✗       
+837   STAGDTHLGGEDNDNR         -1.0000     NotChecked  -21.6031    1657.6928   ✗       
+838   STAGDTHLGGEDFDNQ         -1.0000     NotChecked  -21.6058    1662.6758   ✗       
+839   STAGDTHLGGDDFDNR         -1.0000     NotChecked  -21.6151    1676.7026   ✗       
+840   STAGDTHLGGEDFDND         -1.0000     NotChecked  -21.6204    1649.6441   ✗       
+841   STAGDTHLGGEDFDR          -1.0000     NotChecked  -21.6268    1576.6754   ✗       
+842   STAGDTHLGGQ+0.984DNDNR   -1.0000     NotChecked  -21.6365    1657.6928   ✗       
+843   GTAGDTHLGGEDFDNR         -1.0000     NotChecked  -21.6574    1660.7077   ✗       
+844   ATAGDTHLGGEN+0.984FDNR   -1.0000     NotChecked  -21.6763    1674.7234   ✗       
+845   ATAGDTHLGGEDFDNR         -1.0000     NotChecked  -21.7278    1674.7234   ✗       
+846   +43.006TAGDTHLGGEDFDNR   -1.0000     NotChecked  -21.7400    1646.6921   ✗       
+847   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -21.8737    1645.6968   ✗       
+848   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -21.9112    1645.6968   ✗       
+849   TAGDTHLGGEDFDNR          -1.0000     NotChecked  -22.0254    1603.6863   ✗       
+850   GTAGDTHLGGEN+0.984FDNR   -1.0000     NotChecked  -22.1094    1660.7077   ✗       
+851   GTAGDTHLGGEDFDNR         -1.0000     NotChecked  -22.1609    1660.7077   ✗       
+852   +43.006TAGDTHLGGEN+0.984FDNR-1.0000     NotChecked  -22.1920    1646.6921   ✗       
+853   +42.011TAGDTHLGGEDFDN+0.984R-1.0000     NotChecked  -22.1957    1646.6808   ✗       
+854   +43.006TAGDTHLGGEDFDNR   -1.0000     NotChecked  -22.2435    1646.6921   ✗       
+855   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -22.3066    1645.6968   ✗       
+856   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -22.3392    1645.6968   ✗       
+857   ATAGDTHLGGEDFDNR         -1.0000     NotChecked  -22.3802    1674.7234   ✗       
+858   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -22.6386    1645.6968   ✗       
+859   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -22.6891    1645.6968   ✗       
+860   TAGDTHLGGEDFDNR          -1.0000     NotChecked  -22.7003    1603.6863   ✗       
+861   +42.011TAGDTHLGGQ+0.984DFDNR-1.0000     NotChecked  -22.7225    1645.6968   ✗       
+862   GTAGDTHLGGEDFDNR         -1.0000     NotChecked  -22.8134    1660.7077   ✗       
+863   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -22.8517    1645.6968   ✗       
+864   ATAGN+0.984THLGGEDFDNR   -1.0000     NotChecked  -22.8700    1674.7234   ✗       
+865   ATAGDTHLGGEDFDNR         -1.0000     NotChecked  -22.8838    1674.7234   ✗       
+866   +43.006TAGDTHLGGEDFDNR   -1.0000     NotChecked  -22.8960    1646.6921   ✗       
+867   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -22.9638    1645.6968   ✗       
+868   ATAGDTHLGGEDFDNR         -1.0000     NotChecked  -22.9688    1674.7234   ✗       
+869   +42.011TAGDTHLGGEDFN+0.984NR-1.0000     NotChecked  -22.9903    1645.6968   ✗       
+870   TAGDTHLGGEDFDNR          -1.0000     NotChecked  -23.0602    1603.6863   ✗       
+871   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -23.1926    1645.6968   ✗       
+872   +42.011TAGDTHLGGQ+0.984DFDNR-1.0000     NotChecked  -23.2260    1645.6968   ✗       
+873   ASAGDTHLGGEDFDNR         -1.0000     NotChecked  -23.2295    1660.7077   ✗       
+874   TAGDTHLGGEDFDNR          -1.0000     NotChecked  -23.2846    1603.6863   ✗       
+875   GTAGN+0.984THLGGEDFDNR   -1.0000     NotChecked  -23.3031    1660.7077   ✗       
+876   GTAGDTHLGGEDFDNR         -1.0000     NotChecked  -23.3169    1660.7077   ✗       
+877   TAGDTHLGGQ+0.984DFDNR    -1.0000     NotChecked  -23.3180    1603.6863   ✗       
+878   +43.006TAGN+0.984THLGGEDFDNR-1.0000     NotChecked  -23.3857    1646.6921   ✗       
+879   +43.006TAGDTHLGGEDFDNR   -1.0000     NotChecked  -23.3995    1646.6921   ✗       
+880   GTAGDTHLGGEDFDNR         -1.0000     NotChecked  -23.4019    1660.7077   ✗       
+881   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -23.4674    1645.6968   ✗       
+882   +43.006TAGDTHLGGEDFDNR   -1.0000     NotChecked  -23.4845    1646.6921   ✗       
+883   +42.011TAGDTHLGGEDFN+0.984NR-1.0000     NotChecked  -23.4939    1645.6968   ✗       
+884   +42.011TAGETHLGGEDFDNR   -1.0000     NotChecked  -23.4954    1659.7125   ✗       
+885   ATAGDTHLGGEDFDNR         -1.0000     NotChecked  -23.5212    1674.7234   ✗       
+886   ATAGDTHLGGEDFDNR         -1.0000     NotChecked  -23.5587    1674.7234   ✗       
+887   TAGDTHLGGEDFDNR          -1.0000     NotChecked  -23.5594    1603.6863   ✗       
+888   TAGDTHLGGEDFN+0.984NR    -1.0000     NotChecked  -23.5859    1603.6863   ✗       
+889   +42.011TAGDTHLGGEN+0.984FDNR-1.0000     NotChecked  -23.5916    1645.6968   ✗       
+890   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -23.6298    1645.6968   ✗       
+891   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -23.6431    1645.6968   ✗       
+892   GSAGDTHLGGEDFDNR         -1.0000     NotChecked  -23.6626    1646.6921   ✗       
+893   +42.011SAGDTHLGGEDFDNR   -1.0000     NotChecked  -23.6701    1631.6812   ✗       
+894   TTAGDTHLGGEDNDNR         -1.0000     NotChecked  -23.6803    1671.7084   ✗       
+895   TAGDTHLGGEDFDNR          -1.0000     NotChecked  -23.7351    1603.6863   ✗       
+896   +43.006SAGDTHLGGEDFDNR   -1.0000     NotChecked  -23.7452    1632.6764   ✗       
+897   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -23.7738    1645.6968   ✗       
+898   ATAGDTHLGGEDFDN+0.984R   -1.0000     NotChecked  -23.8432    1675.7074   ✗       
+899   TAGDTHLGGEDFDNR          -1.0000     NotChecked  -23.8563    1603.6863   ✗       
+900   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -23.8675    1645.6968   ✗       
+901   +42.011TAGDTHLGGQ+0.984DFDNR-1.0000     NotChecked  -23.9009    1645.6968   ✗       
+902   ATAGDTHLGGEDFDNR         -1.0000     NotChecked  -23.9541    1674.7234   ✗       
+903   GTAGDTHLGGEDFDNR         -1.0000     NotChecked  -23.9543    1660.7077   ✗       
+904   ATAGDTHLGGEDFDNR         -1.0000     NotChecked  -23.9866    1674.7234   ✗       
+905   GTAGDTHLGGEDFDNR         -1.0000     NotChecked  -23.9918    1660.7077   ✗       
+906   +43.006TAGDTHLGGEDFDNR   -1.0000     NotChecked  -24.0369    1646.6921   ✗       
+907   +43.006TAGDTHLGGEDFDNR   -1.0000     NotChecked  -24.0744    1646.6921   ✗       
+908   +42.011TAGDTHLGGEN+0.984FDNR-1.0000     NotChecked  -24.0951    1645.6968   ✗       
+909   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -24.1423    1645.6968   ✗       
+910   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -24.1491    1645.6968   ✗       
+911   +42.011TAGDTHLGGEDFN+0.984NR-1.0000     NotChecked  -24.1688    1645.6968   ✗       
+912   TAGDTHLGGEN+0.984FDNR    -1.0000     NotChecked  -24.1871    1603.6863   ✗       
+913   TAGDTHLGGEDFDNR          -1.0000     NotChecked  -24.2387    1603.6863   ✗       
+914   GTAGDTHLGGEDFDN+0.984R   -1.0000     NotChecked  -24.2763    1661.6917   ✗       
+915   ATAGDTHLGGEDFDNR         -1.0000     NotChecked  -24.2861    1674.7234   ✗       
+916   TTAGDTHLGGEDFDN          -1.0000     NotChecked  -24.3235    1548.6328   ✗       
+917   ATAGDTHLGGEDFDNR         -1.0000     NotChecked  -24.3365    1674.7234   ✗       
+918   +42.011TAGDTHLGGEEFDNR   -1.0000     NotChecked  -24.3447    1659.7125   ✗       
+919   +43.006TAGDTHLGGEDFDN+0.984R-1.0000     NotChecked  -24.3589    1647.6761   ✗       
+920   ATAGDTHLGGQ+0.984DFDNR   -1.0000     NotChecked  -24.3699    1674.7234   ✗       
+921   TAAGDTHLGGEDFDNR         -1.0000     NotChecked  -24.3768    1674.7234   ✗       
+922   +42.011TAGDTHLGGEDFNNR   -1.0000     NotChecked  -24.3788    1644.7128   ✗       
+923   GTAGDTHLGGEDFDNR         -1.0000     NotChecked  -24.3872    1660.7077   ✗       
+924   GTAGDTHLGGEDFDNR         -1.0000     NotChecked  -24.4198    1660.7077   ✗       
+925   TTAGDTHLGGEDFDNV         -1.0000     NotChecked  -24.4571    1647.7012   ✗       
+926   +43.006TAGDTHLGGEDFDNR   -1.0000     NotChecked  -24.4698    1646.6921   ✗       
+927   ATAGDTHLGGEDFDNR         -1.0000     NotChecked  -24.4992    1674.7234   ✗       
+928   +43.006TAGDTHLGGEDFDNR   -1.0000     NotChecked  -24.5024    1646.6921   ✗       
+929   ATAGDTHLGGEDFDNR         -1.0000     NotChecked  -24.6113    1674.7234   ✗       
+930   ATAGDTHLGGEDFN+0.984NR   -1.0000     NotChecked  -24.6378    1674.7234   ✗       
+931   GTAGDTHLGGEDFDNR         -1.0000     NotChecked  -24.7192    1660.7077   ✗       
+932   GTAGDTHLGGEDFDNR         -1.0000     NotChecked  -24.7697    1660.7077   ✗       
+933   +42.011TAGDTHLGGEN+0.984FDNR-1.0000     NotChecked  -24.7700    1645.6968   ✗       
+934   +42.011TAGN+0.984THLGGEDFDNR-1.0000     NotChecked  -24.7853    1645.6968   ✗       
+935   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -24.7991    1645.6968   ✗       
+936   +43.006TAGDTHLGGEDFDNR   -1.0000     NotChecked  -24.8018    1646.6921   ✗       
+937   GTAGDTHLGGQ+0.984DFDNR   -1.0000     NotChecked  -24.8031    1660.7077   ✗       
+938   ATAGDTHLGGEDFDNR         -1.0000     NotChecked  -24.8401    1674.7234   ✗       
+939   +42.011TAGDTHLGGEDNDNR   -1.0000     NotChecked  -24.8475    1612.6713   ✗       
+940   +43.006TAGDTHLGGEDFDNR   -1.0000     NotChecked  -24.8523    1646.6921   ✗       
+941   ATAGDTHLGGQ+0.984DFDNR   -1.0000     NotChecked  -24.8735    1674.7234   ✗       
+942   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -24.8841    1645.6968   ✗       
+943   +43.006TAGDTHLGGQ+0.984DFDNR-1.0000     NotChecked  -24.8856    1646.6921   ✗       
+944   TAGDTHLGGEDFDNR          -1.0000     NotChecked  -24.8911    1603.6863   ✗       
+945   TTAGTHLGGEDFDNR          -1.0000     NotChecked  -24.8994    1589.7070   ✗       
+946   GTAGDTHLGGEDFDNR         -1.0000     NotChecked  -24.9323    1660.7077   ✗       
+947   +43.006TAGDTHLGGEDFDNR   -1.0000     NotChecked  -25.0149    1646.6921   ✗       
+948   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -25.0235    1645.6968   ✗       
+949   GTAGDTHLGGEDFDNR         -1.0000     NotChecked  -25.0444    1660.7077   ✗       
+950   +42.011TAGDTHLGGQ+0.984DFDNR-1.0000     NotChecked  -25.0569    1645.6968   ✗       
+951   GTAGDTHLGGEDFN+0.984NR   -1.0000     NotChecked  -25.0709    1660.7077   ✗       
+952   ATAGDTHLGGEDFDNR         -1.0000     NotChecked  -25.1148    1674.7234   ✗       
+953   +43.006TAGDTHLGGEDFDNR   -1.0000     NotChecked  -25.1270    1646.6921   ✗       
+954   ATAGDTHLGGEDFN+0.984NR   -1.0000     NotChecked  -25.1413    1674.7234   ✗       
+955   ATAGETHLGGEDFDNR         -1.0000     NotChecked  -25.1429    1688.7390   ✗       
+956   +42.011SAGDTHLGGEDFDNR   -1.0000     NotChecked  -25.1448    1631.6812   ✗       
+957   +43.006TAGDTHLGGEDFN+0.984NR-1.0000     NotChecked  -25.1535    1646.6921   ✗       
+958   ATAGDTHLGGEN+0.984FDNR   -1.0000     NotChecked  -25.2390    1674.7234   ✗       
+959   GTAGDTHLGGEDFDNR         -1.0000     NotChecked  -25.2732    1660.7077   ✗       
+960   ATAGDTHLGGEDFDNR         -1.0000     NotChecked  -25.2773    1674.7234   ✗       
+961   +42.011TAGN+0.984THLGGEDFDNR-1.0000     NotChecked  -25.2888    1645.6968   ✗       
+962   ATAGDTHLGGEDFDNR         -1.0000     NotChecked  -25.2906    1674.7234   ✗       
+963   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -25.2983    1645.6968   ✗       
+964   GTAGDTHLGGQ+0.984DFDNR   -1.0000     NotChecked  -25.3066    1660.7077   ✗       
+965   TTAGDTHLGGEDFDNP         -1.0000     NotChecked  -25.3145    1645.6856   ✗       
+966   ASAGDTHLGGEDFDNR         -1.0000     NotChecked  -25.3176    1660.7077   ✗       
+967   +42.011TAGDTHLGGEDFN+0.984NR-1.0000     NotChecked  -25.3247    1645.6968   ✗       
+968   TTAGDTHLGGEDFDNK         -1.0000     NotChecked  -25.3303    1676.7278   ✗       
+969   TGAGDTHLGGEDFDNR         -1.0000     NotChecked  -25.3326    1660.7077   ✗       
+970   +43.006TAGDTHLGGEDFDNR   -1.0000     NotChecked  -25.3558    1646.6921   ✗       
+971   TAGN+0.984THLGGEDFDNR    -1.0000     NotChecked  -25.3808    1603.6863   ✗       
+972   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -25.3876    1645.6968   ✗       
+973   +43.006TAGDTHLGGQ+0.984DFDNR-1.0000     NotChecked  -25.3892    1646.6921   ✗       
+974   TAGDTHLGGEDFDNR          -1.0000     NotChecked  -25.3946    1603.6863   ✗       
+975   ATAGDTHLGGEDFDNR         -1.0000     NotChecked  -25.4212    1674.7234   ✗       
+976   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -25.4365    1645.6968   ✗       
+977   VSAGDTHLGGEDFDNR         -1.0000     NotChecked  -25.4412    1688.7390   ✗       
+978   +42.011TAGDTHLGGEDFDNR   -1.0000     NotChecked  -25.4740    1645.6968   ✗       
+979   TAGDTHLGGEDFDNR          -1.0000     NotChecked  -25.4796    1603.6863   ✗       
+980   TTAGDTHLGGADFDNR         -1.0000     NotChecked  -25.4890    1646.7285   ✗       
+981   +42.011TAGDTHLGGEDFDN    -1.0000     NotChecked  -25.4907    1489.5957   ✗       
+982   ATAGDTHLGGEDFDNR         -1.0000     NotChecked  -25.5150    1674.7234   ✗       
+983   +42.011AAGDTHLGGEDFDNR   -1.0000     NotChecked  -25.5440    1615.6863   ✗       
+984   GTAGDTHLGGEDFDNR         -1.0000     NotChecked  -25.5480    1660.7077   ✗       
+985   ATAGDTHLGGQ+0.984DFDNR   -1.0000     NotChecked  -25.5484    1674.7234   ✗       
+986   TTAGDTHLGGEDFDGR         -1.0000     NotChecked  -25.5583    1647.7125   ✗       
+987   GTAGDTHLGGEDFN+0.984NR   -1.0000     NotChecked  -25.5745    1660.7077   ✗       
+988   GTAGETHLGGEDFDNR         -1.0000     NotChecked  -25.5760    1674.7234   ✗       
+989   TAGDTHLGGEDFDNR          -1.0000     NotChecked  -25.5882    1603.6863   ✗       
+990   TTAGDTHLGGEDN+0.984DNR   -1.0000     NotChecked  -25.5979    1672.6925   ✗       
+991   TTAGDTHLGGEDFDNL         -1.0000     NotChecked  -25.6105    1661.7169   ✗       
+992   +42.011TAGDTHLGGEDFDNV   -1.0000     NotChecked  -25.6243    1588.6641   ✗       
+993   +43.006TAGDTHLGGEDFDNR   -1.0000     NotChecked  -25.6306    1646.6921   ✗       
+994   +42.011SAGDTHLGGEDFDNR   -1.0000     NotChecked  -25.6483    1631.6812   ✗       
+995   TTAGDTHLGGEDFDND         -1.0000     NotChecked  -25.6538    1663.6598   ✗       
+996   +43.006TAGDTHLGGEDFN+0.984NR-1.0000     NotChecked  -25.6570    1646.6921   ✗       
+997   +43.006TAGETHLGGEDFDNR   -1.0000     NotChecked  -25.6586    1660.7077   ✗       
+998   TTAGDTHLGGEDFDR          -1.0000     NotChecked  -25.6602    1590.6910   ✗       
+999   +42.011LAGDTHLGGEDFDNR   -1.0000     NotChecked  -25.6610    1657.7332   ✗       
+1000  GTAGDTHLGGEN+0.984FDNR   -1.0000     NotChecked  -25.6722    1660.7077   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: STAGDTHLGGEDFDNR
+Similarity: 0.9401
+De Novo Score: -0.1750
+Source: Database
+Correct: ✓
+

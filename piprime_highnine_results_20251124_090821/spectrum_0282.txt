@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 282
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 401.8752
+Precursor charge: 3+
+Ground truth: DIDIKDEEVK
+Ground truth (normalized): DIDIKDEEVK
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 293
+Used for reranking: 293
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 293 (29.3%)
+Database matches: 41 (4.1%)
+Prosit predictions: 0 (0.0%)
+Failed: 252 (25.2%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.8873
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     DLDLKDEEVK               0.8873      Database    -0.0274     1202.6030   ✓       ✓
+2     DLDLKDEEVK               0.8873      Database    -5.3316     1202.6030   ✓       ✓
+3     DLDLKDEEVK               0.8873      Database    -10.5595    1202.6030   ✓       ✓
+4     DLDLKDEEVK               0.8873      Database    -10.9781    1202.6030   ✓       ✓
+5     DLDLKDEEVK               0.8873      Database    -12.2931    1202.6030   ✓       ✓
+6     DLDLKDEEVK               0.8873      Database    -13.3758    1202.6030   ✓       ✓
+7     DLDLKDEEVK               0.8873      Database    -13.8298    1202.6030   ✓       ✓
+8     DLDLKDEEVK               0.8873      Database    -14.3201    1202.6030   ✓       ✓
+9     DLDLKDEEVK               0.8873      Database    -15.8637    1202.6030   ✓       ✓
+10    DLDLKDEEVK               0.8873      Database    -16.2822    1202.6030   ✓       ✓
+11    DLDLKDEEVK               0.8873      Database    -16.4639    1202.6030   ✓       ✓
+12    DLDLKDEEVK               0.8873      Database    -16.4885    1202.6030   ✓       ✓
+13    DLDLKDEEVK               0.8873      Database    -16.8544    1202.6030   ✓       ✓
+14    DLDLKDEEVK               0.8873      Database    -16.8576    1202.6030   ✓       ✓
+15    DLDLKDEEVK               0.8873      Database    -17.0585    1202.6030   ✓       ✓
+16    DLDLKDEEVK               0.8873      Database    -17.5973    1202.6030   ✓       ✓
+17    DLDLKDEEVK               0.8873      Database    -17.6068    1202.6030   ✓       ✓
+18    DLDLKDEEVK               0.8873      Database    -17.6099    1202.6030   ✓       ✓
+19    DLDLKDEEVK               0.8873      Database    -18.4800    1202.6030   ✓       ✓
+20    DLDLKDEEVK               0.8873      Database    -18.6799    1202.6030   ✓       ✓
+21    DLDLKDEEVK               0.8873      Database    -19.1339    1202.6030   ✓       ✓
+22    DLDLKDEEVK               0.8873      Database    -19.5491    1202.6030   ✓       ✓
+23    DLDLKDEEVK               0.8873      Database    -19.6243    1202.6030   ✓       ✓
+24    DLDLKDEEVK               0.8873      Database    -21.3585    1202.6030   ✓       ✓
+25    DLDLKDEEVK               0.8873      Database    -21.5101    1202.6030   ✓       ✓
+26    DLDLKDEEVK               0.8873      Database    -21.7927    1202.6030   ✓       ✓
+27    DLDLKDEEVK               0.8873      Database    -22.1586    1202.6030   ✓       ✓
+28    DLDLKDEEVK               0.8873      Database    -22.1618    1202.6030   ✓       ✓
+29    DLDLKDEEVK               0.8873      Database    -22.3627    1202.6030   ✓       ✓
+30    DLDLKDEEVK               0.8873      Database    -22.5001    1202.6030   ✓       ✓
+31    DLDLKDEEVK               0.8873      Database    -22.9110    1202.6030   ✓       ✓
+32    DLDLKDEEVK               0.8873      Database    -22.9141    1202.6030   ✓       ✓
+33    DLDLKDEEVK               0.8873      Database    -23.2438    1202.6030   ✓       ✓
+34    DLDLKDEEVK               0.8873      Database    -23.7842    1202.6030   ✓       ✓
+35    DLDLKDEEVK               0.8873      Database    -23.9078    1202.6030   ✓       ✓
+36    DLDLKDEEVK               0.8873      Database    -24.3264    1202.6030   ✓       ✓
+37    DLDLKDEEVK               0.8873      Database    -24.3618    1202.6030   ✓       ✓
+38    DLDLKDEEVK               0.8873      Database    -24.7804    1202.6030   ✓       ✓
+39    DLDLKDEEVK               0.8873      Database    -24.8521    1202.6030   ✓       ✓
+40    DLDLKDEEVK               0.8873      Database    -24.8533    1202.6030   ✓       ✓
+41    DLDLKDEEVK               0.8873      Database    -25.2707    1202.6030   ✓       ✓
+42    DLN+0.984LKDEEVK         -1.0000     Failed      -4.6129     1202.6030   ✓       
+43    N+0.984LDLKDEEVK         -1.0000     Failed      -4.7231     1202.6030   ✓       
+44    DLDLKDQ+0.984EVK         -1.0000     Failed      -6.5632     1202.6030   ✓       
+45    DLDLKDEQ+0.984VK         -1.0000     Failed      -6.6154     1202.6030   ✓       
+46    DLDLKN+0.984EEVK         -1.0000     Failed      -8.4779     1202.6030   ✓       
+47    N+0.984LN+0.984LKDEEVK   -1.0000     Failed      -9.3086     1202.6030   ✓       
+48    DLN+0.984LKDEEVK         -1.0000     Failed      -9.9171     1202.6030   ✓       
+49    N+0.984LDLKDEEVK         -1.0000     Failed      -10.0273    1202.6030   ✓       
+50    VLDLKDEEVK               -1.0000     NotChecked  -10.9170    1186.6445   ✗       
+51    DVDLKDEEVK               -1.0000     NotChecked  -10.9669    1188.5874   ✗       
+52    DLN+0.984LKDQ+0.984EVK   -1.0000     Failed      -11.1487    1202.6030   ✓       
+53    DLN+0.984LKDEQ+0.984VK   -1.0000     Failed      -11.2009    1202.6030   ✓       
+54    N+0.984LDLKDQ+0.984EVK   -1.0000     Failed      -11.2589    1202.6030   ✓       
+55    N+0.984LDLKDEQ+0.984VK   -1.0000     Failed      -11.3111    1202.6030   ✓       
+56    DLDLKDQ+0.984EVK         -1.0000     Failed      -11.8674    1202.6030   ✓       
+57    DLDLKDEQ+0.984VK         -1.0000     Failed      -11.9196    1202.6030   ✓       
+58    LLDLKDEEVK               -1.0000     NotChecked  -11.9320    1200.6602   ✗       
+59    +42.011LDLKDEEVK         -1.0000     NotChecked  -12.0168    1129.5867   ✗       
+60    ALDLKDEEVK               -1.0000     NotChecked  -12.5983    1158.6132   ✗       
+61    DLSLKDEEVK               -1.0000     NotChecked  -12.7881    1174.6081   ✗       
+62    DLNLKDEEVK               -1.0000     NotChecked  -12.7981    1201.6190   ✗       
+63    SLDLKDEEVK               -1.0000     NotChecked  -12.9270    1174.6081   ✗       
+64    DLN+0.984LKN+0.984EEVK   -1.0000     Failed      -13.0634    1202.6030   ✓       
+65    DLDLKDQ+0.984Q+0.984VK   -1.0000     Failed      -13.1512    1202.6031   ✓       
+66    N+0.984LDLKN+0.984EEVK   -1.0000     Failed      -13.1736    1202.6030   ✓       
+67    DLDLKN+0.984EEVK         -1.0000     Failed      -13.7821    1202.6030   ✓       
+68    DLDLKDEEVQ               -1.0000     Failed      -14.0102    1202.5667   ✓       
+69    DADLKDEEVK               -1.0000     NotChecked  -14.0812    1160.5561   ✗       
+70    DLLLKDEEVK               -1.0000     NotChecked  -14.1129    1200.6602   ✗       
+71    DLDLKNEEVK               -1.0000     NotChecked  -14.2231    1201.6190   ✗       
+72    DLDLKDEDVK               -1.0000     NotChecked  -14.2269    1188.5874   ✗       
+73    DTDLKDEEVK               -1.0000     NotChecked  -14.2280    1190.5667   ✗       
+74    DLTLKDEEVK               -1.0000     NotChecked  -14.3341    1188.6238   ✗       
+75    DLDLQDEEVK               -1.0000     Failed      -14.4171    1202.5667   ✓       
+76    N+0.984LN+0.984LKDEEVK   -1.0000     Failed      -14.6128    1202.6030   ✓       
+77    DLDLSDEEVK               -1.0000     NotChecked  -14.7373    1161.5401   ✗       
+78    DLLKDEEVK                -1.0000     NotChecked  -14.7561    1087.5761   ✗       
+79    DLDLKEEVK                -1.0000     NotChecked  -14.9324    1087.5761   ✗       
+80    DLDLKDDEVK               -1.0000     NotChecked  -15.0095    1188.5874   ✗       
+81    DLDLKN+0.984Q+0.984EVK   -1.0000     Failed      -15.0137    1202.6030   ✓       
+82    DLDLKN+0.984EQ+0.984VK   -1.0000     Failed      -15.0659    1202.6030   ✓       
+83    DSDLKDEEVK               -1.0000     NotChecked  -15.1410    1176.5510   ✗       
+84    DLN+0.984LKDEEVK         -1.0000     Failed      -15.1450    1202.6030   ✓       
+85    DLDLKDEN+0.984VK         -1.0000     NotChecked  -15.4338    1188.5874   ✗       
+86    VLN+0.984LKDEEVK         -1.0000     NotChecked  -15.5025    1186.6445   ✗       
+87    DLDLKTEEVK               -1.0000     NotChecked  -15.5422    1188.6238   ✗       
+88    DVN+0.984LKDEEVK         -1.0000     NotChecked  -15.5524    1188.5874   ✗       
+89    DLN+0.984LKDEEVK         -1.0000     Failed      -15.5635    1202.6030   ✓       
+90    N+0.984VDLKDEEVK         -1.0000     NotChecked  -15.6625    1188.5874   ✗       
+91    DLDVKDEEVK               -1.0000     NotChecked  -15.6635    1188.5874   ✗       
+92    N+0.984LDLKDEEVK         -1.0000     Failed      -15.6737    1202.6030   ✓       
+93    N+0.984LN+0.984LKDQ+0.984EVK-1.0000     Failed      -15.8444    1202.6030   ✓       
+94    N+0.984LN+0.984LKDEQ+0.984VK-1.0000     Failed      -15.8966    1202.6030   ✓       
+95    DLDLKDEEK                -1.0000     NotChecked  -16.0543    1103.5346   ✗       
+96    DLDLKSEEVK               -1.0000     NotChecked  -16.1155    1174.6081   ✗       
+97    VLDLKDEEVK               -1.0000     NotChecked  -16.2212    1186.6445   ✗       
+98    DLDLKDEEAK               -1.0000     NotChecked  -16.2431    1174.5717   ✗       
+99    DLDLKDEQVK               -1.0000     NotChecked  -16.2446    1201.6190   ✗       
+100   DVDLKDEEVK               -1.0000     NotChecked  -16.2711    1188.5874   ✗       
+101   DLDLKDEVK                -1.0000     NotChecked  -16.4081    1073.5605   ✗       
+102   DLN+0.984LKDQ+0.984EVK   -1.0000     Failed      -16.4529    1202.6030   ✓       
+103   DLDLKDEVVK               -1.0000     NotChecked  -16.4906    1172.6289   ✗       
+104   DLN+0.984LKDEQ+0.984VK   -1.0000     Failed      -16.5051    1202.6030   ✓       
+105   LLN+0.984LKDEEVK         -1.0000     NotChecked  -16.5175    1200.6602   ✗       
+106   N+0.984LDLKDQ+0.984EVK   -1.0000     Failed      -16.5631    1202.6030   ✓       
+107   DLDLKDELVK               -1.0000     NotChecked  -16.5892    1186.6445   ✗       
+108   +42.011LN+0.984LKDEEVK   -1.0000     NotChecked  -16.6023    1129.5867   ✗       
+109   N+0.984LDLKDEQ+0.984VK   -1.0000     Failed      -16.6153    1202.6030   ✓       
+110   DLDTKDEEVK               -1.0000     NotChecked  -16.6262    1190.5667   ✗       
+111   DLDLTDEEVK               -1.0000     NotChecked  -16.6357    1175.5558   ✗       
+112   DLDLKDEEPK               -1.0000     NotChecked  -16.6393    1200.5874   ✗       
+113   DLDLDDEEVK               -1.0000     NotChecked  -16.6445    1189.5350   ✗       
+114   DLDLKDEKVK               -1.0000     NotChecked  -16.7974    1201.6554   ✗       
+115   DLN+0.984LKDEEVK         -1.0000     Failed      -16.8786    1202.6030   ✓       
+116   DLDLKDTEVK               -1.0000     NotChecked  -16.9598    1174.6081   ✗       
+117   N+0.984LDLKDEEVK         -1.0000     Failed      -16.9888    1202.6030   ✓       
+118   DLDLKDQ+0.984EVK         -1.0000     Failed      -17.0953    1202.6030   ✓       
+119   DLDLKLEEVK               -1.0000     NotChecked  -17.1137    1200.6602   ✗       
+120   DLDLKDEQ+0.984VK         -1.0000     Failed      -17.1475    1202.6030   ✓       
+121   ALN+0.984LKDEEVK         -1.0000     NotChecked  -17.1838    1158.6132   ✗       
+122   DLDLKDEEK                -1.0000     NotChecked  -17.1959    1103.5346   ✗       
+123   DLDLNDEEVK               -1.0000     NotChecked  -17.2007    1188.5510   ✗       
+124   LLDLKDEEVK               -1.0000     NotChecked  -17.2362    1200.6602   ✗       
+125   +42.011LDLKDEEVK         -1.0000     NotChecked  -17.3210    1129.5867   ✗       
+126   DLDLKDQEVK               -1.0000     NotChecked  -17.4289    1201.6190   ✗       
+127   VLDLKDQ+0.984EVK         -1.0000     NotChecked  -17.4528    1186.6445   ✗       
+128   DLDSKDEEVK               -1.0000     NotChecked  -17.4600    1176.5510   ✗       
+129   N+0.984LSLKDEEVK         -1.0000     NotChecked  -17.4837    1174.6081   ✗       
+130   N+0.984LNLKDEEVK         -1.0000     NotChecked  -17.4938    1201.6190   ✗       
+131   DVDLKDQ+0.984EVK         -1.0000     NotChecked  -17.5027    1188.5874   ✗       
+132   VLDLKDEQ+0.984VK         -1.0000     NotChecked  -17.5050    1186.6445   ✗       
+133   SLN+0.984LKDEEVK         -1.0000     NotChecked  -17.5125    1174.6081   ✗       
+134   DLDLKDQ+0.984EVK         -1.0000     Failed      -17.5138    1202.6030   ✓       
+135   DVDLKDEQ+0.984VK         -1.0000     NotChecked  -17.5549    1188.5874   ✗       
+136   DLDLKDEQ+0.984VK         -1.0000     Failed      -17.5661    1202.6030   ✓       
+137   DLDLKDN+0.984EVK         -1.0000     NotChecked  -17.6663    1188.5874   ✗       
+138   DLN+0.984LKDQ+0.984Q+0.984VK-1.0000     Failed      -17.7367    1202.6031   ✓       
+139   N+0.984LN+0.984LKN+0.984EEVK-1.0000     Failed      -17.7591    1202.6030   ✓       
+140   DLDLKDSEVK               -1.0000     NotChecked  -17.7619    1160.5925   ✗       
+141   N+0.984LDLKDQ+0.984Q+0.984VK-1.0000     Failed      -17.8469    1202.6031   ✓       
+142   DLDLKDKEVK               -1.0000     NotChecked  -17.8595    1201.6554   ✗       
+143   ALDLKDEEVK               -1.0000     NotChecked  -17.9025    1158.6132   ✗       
+144   DLN+0.984LKDEEVK         -1.0000     Failed      -17.9612    1202.6030   ✓       
+145   N+0.984LDLKDEEVK         -1.0000     Failed      -18.0714    1202.6030   ✓       
+146   DLSLKDEEVK               -1.0000     NotChecked  -18.0922    1174.6081   ✗       
+147   DLNLKDEEVK               -1.0000     NotChecked  -18.1023    1201.6190   ✗       
+148   SLDLKDEEVK               -1.0000     NotChecked  -18.2312    1174.6081   ✗       
+149   DLN+0.984LKN+0.984EEVK   -1.0000     Failed      -18.3676    1202.6030   ✓       
+150   DLN+0.984LKDEEVK         -1.0000     Failed      -18.4152    1202.6030   ✓       
+151   DLDLKDQ+0.984Q+0.984VK   -1.0000     Failed      -18.4554    1202.6031   ✓       
+152   LLDLKDQ+0.984EVK         -1.0000     NotChecked  -18.4678    1200.6602   ✗       
+153   N+0.984LDLKN+0.984EEVK   -1.0000     Failed      -18.4778    1202.6030   ✓       
+154   LLDLKDEQ+0.984VK         -1.0000     NotChecked  -18.5200    1200.6602   ✗       
+155   N+0.984LDLKDEEVK         -1.0000     Failed      -18.5254    1202.6030   ✓       
+156   +42.011LDLKDQ+0.984EVK   -1.0000     NotChecked  -18.5526    1129.5867   ✗       
+157   DLN+0.984LKDEEVQ         -1.0000     Failed      -18.5957    1202.5667   ✓       
+158   +42.011LDLKDEQ+0.984VK   -1.0000     NotChecked  -18.6048    1129.5867   ✗       
+159   DAN+0.984LKDEEVK         -1.0000     NotChecked  -18.6667    1160.5561   ✗       
+160   N+0.984LDLKDEEVQ         -1.0000     Failed      -18.7059    1202.5667   ✓       
+161   N+0.984ADLKDEEVK         -1.0000     NotChecked  -18.7769    1160.5561   ✗       
+162   DLN+0.984LKNEEVK         -1.0000     NotChecked  -18.8086    1201.6190   ✗       
+163   N+0.984LLLKDEEVK         -1.0000     NotChecked  -18.8086    1200.6602   ✗       
+164   DLN+0.984LKDEDVK         -1.0000     NotChecked  -18.8124    1188.5874   ✗       
+165   DTN+0.984LKDEEVK         -1.0000     NotChecked  -18.8135    1190.5667   ✗       
+166   DLDLKDQ+0.984EVK         -1.0000     Failed      -18.8289    1202.6030   ✓       
+167   DLDLKDEQ+0.984VK         -1.0000     Failed      -18.8812    1202.6030   ✓       
+168   DLN+0.984LKDEEVK         -1.0000     Failed      -18.9056    1202.6030   ✓       
+169   N+0.984LDLKNEEVK         -1.0000     NotChecked  -18.9187    1201.6190   ✗       
+170   N+0.984LDLKDEDVK         -1.0000     NotChecked  -18.9225    1188.5874   ✗       
+171   N+0.984TDLKDEEVK         -1.0000     NotChecked  -18.9237    1190.5667   ✗       
+172   DLN+0.984LQDEEVK         -1.0000     Failed      -19.0026    1202.5667   ✓       
+173   DLDLKN+0.984EEVK         -1.0000     Failed      -19.0099    1202.6030   ✓       
+174   N+0.984LDLKDEEVK         -1.0000     Failed      -19.0157    1202.6030   ✓       
+175   N+0.984LTLKDEEVK         -1.0000     NotChecked  -19.0297    1188.6238   ✗       
+176   N+0.984LDLQDEEVK         -1.0000     Failed      -19.1127    1202.5667   ✓       
+177   ALDLKDQ+0.984EVK         -1.0000     NotChecked  -19.1341    1158.6132   ✗       
+178   ALDLKDEQ+0.984VK         -1.0000     NotChecked  -19.1863    1158.6132   ✗       
+179   DLDLKDEEVQ               -1.0000     Failed      -19.3144    1202.5667   ✓       
+180   DLN+0.984LSDEEVK         -1.0000     NotChecked  -19.3228    1161.5401   ✗       
+181   DLSLKDQ+0.984EVK         -1.0000     NotChecked  -19.3239    1174.6081   ✗       
+182   DLNLKDQ+0.984EVK         -1.0000     NotChecked  -19.3339    1201.6190   ✗       
+183   VLDLKN+0.984EEVK         -1.0000     NotChecked  -19.3675    1186.6445   ✗       
+184   DLSLKDEQ+0.984VK         -1.0000     NotChecked  -19.3761    1174.6081   ✗       
+185   DADLKDEEVK               -1.0000     NotChecked  -19.3854    1160.5561   ✗       
+186   DLNLKDEQ+0.984VK         -1.0000     NotChecked  -19.3862    1201.6190   ✗       
+187   DLLLKDEEVK               -1.0000     NotChecked  -19.4171    1200.6602   ✗       
+188   DVDLKN+0.984EEVK         -1.0000     NotChecked  -19.4173    1188.5874   ✗       
+189   DLDLKN+0.984EEVK         -1.0000     Failed      -19.4285    1202.6030   ✓       
+190   N+0.984LDLSDEEVK         -1.0000     NotChecked  -19.4330    1161.5401   ✗       
+191   N+0.984LLKDEEVK          -1.0000     NotChecked  -19.4518    1087.5761   ✗       
+192   SLDLKDQ+0.984EVK         -1.0000     NotChecked  -19.4628    1174.6081   ✗       
+193   SLDLKDEQ+0.984VK         -1.0000     NotChecked  -19.5151    1174.6081   ✗       
+194   DLN+0.984LKEEVK          -1.0000     NotChecked  -19.5179    1087.5761   ✗       
+195   DLDLKNEEVK               -1.0000     NotChecked  -19.5273    1201.6190   ✗       
+196   DLDLKDEDVK               -1.0000     NotChecked  -19.5311    1188.5874   ✗       
+197   DTDLKDEEVK               -1.0000     NotChecked  -19.5322    1190.5667   ✗       
+198   DLN+0.984LKDDEVK         -1.0000     NotChecked  -19.5950    1188.5874   ✗       
+199   DLN+0.984LKN+0.984Q+0.984EVK-1.0000     Failed      -19.5992    1202.6030   ✓       
+200   DLDLKDEEV                -1.0000     NotChecked  -19.6229    1074.5081   ✗       
+201   N+0.984LDLKEEVK          -1.0000     NotChecked  -19.6281    1087.5761   ✗       
+202   DLTLKDEEVK               -1.0000     NotChecked  -19.6383    1188.6238   ✗       
+203   DLN+0.984LKN+0.984EQ+0.984VK-1.0000     Failed      -19.6514    1202.6030   ✓       
+204   DLDLKDEEVL               -1.0000     NotChecked  -19.6566    1187.5921   ✗       
+205   N+0.984LDLKDDEVK         -1.0000     NotChecked  -19.7052    1188.5874   ✗       
+206   N+0.984LDLKN+0.984Q+0.984EVK-1.0000     Failed      -19.7094    1202.6030   ✓       
+207   DLDLQDEEVK               -1.0000     Failed      -19.7213    1202.5667   ✓       
+208   DSN+0.984LKDEEVK         -1.0000     NotChecked  -19.7265    1176.5510   ✗       
+209   N+0.984LDLKN+0.984EQ+0.984VK-1.0000     Failed      -19.7616    1202.6030   ✓       
+210   N+0.984SDLKDEEVK         -1.0000     NotChecked  -19.8367    1176.5510   ✗       
+211   DLDLKDQ+0.984EVK         -1.0000     Failed      -19.9116    1202.6030   ✓       
+212   DLDLKDEQ+0.984VK         -1.0000     Failed      -19.9638    1202.6030   ✓       
+213   DLN+0.984LKDEN+0.984VK   -1.0000     NotChecked  -20.0193    1188.5874   ✗       
+214   DLDLKDEEVT               -1.0000     NotChecked  -20.0375    1175.5558   ✗       
+215   DLDLSDEEVK               -1.0000     NotChecked  -20.0415    1161.5401   ✗       
+216   DLLKDEEVK                -1.0000     NotChecked  -20.0603    1087.5761   ✗       
+217   DLN+0.984LKTEEVK         -1.0000     NotChecked  -20.1277    1188.6238   ✗       
+218   N+0.984LDLKDEN+0.984VK   -1.0000     NotChecked  -20.1295    1188.5874   ✗       
+219   DLDLKEEVK                -1.0000     NotChecked  -20.2366    1087.5761   ✗       
+220   N+0.984LDLKTEEVK         -1.0000     NotChecked  -20.2379    1188.6238   ✗       
+221   N+0.984VN+0.984LKDEEVK   -1.0000     NotChecked  -20.2480    1188.5874   ✗       
+222   DLN+0.984VKDEEVK         -1.0000     NotChecked  -20.2489    1188.5874   ✗       
+223   DLDLKDEEVG               -1.0000     NotChecked  -20.2551    1131.5295   ✗       
+224   N+0.984LN+0.984LKDEEVK   -1.0000     Failed      -20.2592    1202.6030   ✓       
+225   DLDLKDDEVK               -1.0000     NotChecked  -20.3137    1188.5874   ✗       
+226   DLDLKN+0.984Q+0.984EVK   -1.0000     Failed      -20.3179    1202.6030   ✓       
+227   N+0.984LDVKDEEVK         -1.0000     NotChecked  -20.3591    1188.5874   ✗       
+228   DLDLKDQ+0.984EVK         -1.0000     Failed      -20.3656    1202.6030   ✓       
+229   DLDLKN+0.984EQ+0.984VK   -1.0000     Failed      -20.3701    1202.6030   ✓       
+230   LLDLKN+0.984EEVK         -1.0000     NotChecked  -20.3825    1200.6602   ✗       
+231   DLDLKDEQ+0.984VK         -1.0000     Failed      -20.4178    1202.6030   ✓       
+232   DSDLKDEEVK               -1.0000     NotChecked  -20.4452    1176.5510   ✗       
+233   DLN+0.984LKDEEVK         -1.0000     Failed      -20.4491    1202.6030   ✓       
+234   +42.011LDLKN+0.984EEVK   -1.0000     NotChecked  -20.4673    1129.5867   ✗       
+235   DLDLKDQ+0.984EVQ         -1.0000     Failed      -20.5460    1202.5667   ✓       
+236   DLDLKDEEVN               -1.0000     NotChecked  -20.5672    1188.5510   ✗       
+237   DLDLKDEQ+0.984VQ         -1.0000     Failed      -20.5983    1202.5667   ✓       
+238   DADLKDQ+0.984EVK         -1.0000     NotChecked  -20.6170    1160.5561   ✗       
+239   DLN+0.984LKDEEK          -1.0000     NotChecked  -20.6398    1103.5346   ✗       
+240   DLLLKDQ+0.984EVK         -1.0000     NotChecked  -20.6487    1200.6602   ✗       
+241   DADLKDEQ+0.984VK         -1.0000     NotChecked  -20.6692    1160.5561   ✗       
+242   DLLLKDEQ+0.984VK         -1.0000     NotChecked  -20.7009    1200.6602   ✗       
+243   DLN+0.984LKSEEVK         -1.0000     NotChecked  -20.7010    1174.6081   ✗       
+244   DLDLKDEN+0.984VK         -1.0000     NotChecked  -20.7380    1188.5874   ✗       
+245   DLDLKN+0.984EEVK         -1.0000     Failed      -20.7436    1202.6030   ✓       
+246   N+0.984LDLKDEEK          -1.0000     NotChecked  -20.7500    1103.5346   ✗       
+247   DLDLKNQ+0.984EVK         -1.0000     NotChecked  -20.7589    1201.6190   ✗       
+248   DLDLKDQ+0.984DVK         -1.0000     NotChecked  -20.7627    1188.5874   ✗       
+249   DTDLKDQ+0.984EVK         -1.0000     NotChecked  -20.7638    1190.5667   ✗       
+250   VLN+0.984LKDEEVK         -1.0000     NotChecked  -20.8067    1186.6445   ✗       
+251   DLDLKNEQ+0.984VK         -1.0000     NotChecked  -20.8111    1201.6190   ✗       
+252   N+0.984LDLKSEEVK         -1.0000     NotChecked  -20.8112    1174.6081   ✗       
+253   DTDLKDEQ+0.984VK         -1.0000     NotChecked  -20.8160    1190.5667   ✗       
+254   DLN+0.984LKDEEAK         -1.0000     NotChecked  -20.8285    1174.5717   ✗       
+255   DLN+0.984LKDEQVK         -1.0000     NotChecked  -20.8300    1201.6190   ✗       
+256   DLDLKTEEVK               -1.0000     NotChecked  -20.8464    1188.6238   ✗       
+257   DLDLKDQ+0.984EVK         -1.0000     Failed      -20.8559    1202.6030   ✓       
+258   DVN+0.984LKDEEVK         -1.0000     NotChecked  -20.8565    1188.5874   ✗       
+259   DLN+0.984LKDEEVK         -1.0000     Failed      -20.8677    1202.6030   ✓       
+260   DLTLKDQ+0.984EVK         -1.0000     NotChecked  -20.8699    1188.6238   ✗       
+261   DLDLKDEQ+0.984VK         -1.0000     Failed      -20.9081    1202.6030   ✓       
+262   DLTLKDEQ+0.984VK         -1.0000     NotChecked  -20.9221    1188.6238   ✗       
+263   N+0.984LDLKDEEAK         -1.0000     NotChecked  -20.9387    1174.5717   ✗       
+264   N+0.984LDLKDEQVK         -1.0000     NotChecked  -20.9402    1201.6190   ✗       
+265   DLDLQDQ+0.984EVK         -1.0000     Failed      -20.9529    1202.5667   ✓       
+266   N+0.984VDLKDEEVK         -1.0000     NotChecked  -20.9667    1188.5874   ✗       
+267   DLDVKDEEVK               -1.0000     NotChecked  -20.9676    1188.5874   ✗       
+268   N+0.984LDLKDEEVK         -1.0000     Failed      -20.9779    1202.6030   ✓       
+269   DLN+0.984LKDEVK          -1.0000     NotChecked  -20.9936    1073.5605   ✗       
+270   DLDLQDEQ+0.984VK         -1.0000     Failed      -21.0051    1202.5667   ✓       
+271   ALDLKN+0.984EEVK         -1.0000     NotChecked  -21.0488    1158.6132   ✗       
+272   DLN+0.984LKDEEVK         -1.0000     Failed      -21.0494    1202.6030   ✓       
+273   DLN+0.984LKDEEVK         -1.0000     Failed      -21.0740    1202.6030   ✓       
+274   DLN+0.984LKDEVVK         -1.0000     NotChecked  -21.0761    1172.6289   ✗       
+275   N+0.984LDLKDEVK          -1.0000     NotChecked  -21.1038    1073.5605   ✗       
+276   N+0.984LN+0.984LKDQ+0.984EVK-1.0000     Failed      -21.1486    1202.6030   ✓       
+277   N+0.984LDLKDEEVK         -1.0000     Failed      -21.1596    1202.6030   ✓       
+278   DLN+0.984LKDELVK         -1.0000     NotChecked  -21.1747    1186.6445   ✗       
+279   N+0.984LDLKDEEVK         -1.0000     Failed      -21.1842    1202.6030   ✓       
+280   N+0.984LDLKDEVVK         -1.0000     NotChecked  -21.1863    1172.6289   ✗       
+281   N+0.984LN+0.984LKDEQ+0.984VK-1.0000     Failed      -21.2008    1202.6030   ✓       
+282   DLN+0.984TKDEEVK         -1.0000     NotChecked  -21.2116    1190.5667   ✗       
+283   DLN+0.984LTDEEVK         -1.0000     NotChecked  -21.2211    1175.5558   ✗       
+284   DLN+0.984LKDEEPK         -1.0000     NotChecked  -21.2248    1200.5874   ✗       
+285   DLN+0.984LDDEEVK         -1.0000     NotChecked  -21.2300    1189.5350   ✗       
+286   DLSLKN+0.984EEVK         -1.0000     NotChecked  -21.2385    1174.6081   ✗       
+287   DLNLKN+0.984EEVK         -1.0000     NotChecked  -21.2486    1201.6190   ✗       
+288   DLDLSDQ+0.984EVK         -1.0000     NotChecked  -21.2731    1161.5401   ✗       
+289   N+0.984LDLKDELVK         -1.0000     NotChecked  -21.2849    1186.6445   ✗       
+290   DLLKDQ+0.984EVK          -1.0000     NotChecked  -21.2919    1087.5761   ✗       
+291   N+0.984LDTKDEEVK         -1.0000     NotChecked  -21.3218    1190.5667   ✗       
+292   DLDLSDEQ+0.984VK         -1.0000     NotChecked  -21.3253    1161.5401   ✗       
+293   N+0.984LDLTDEEVK         -1.0000     NotChecked  -21.3313    1175.5558   ✗       
+294   N+0.984LDLKDEEPK         -1.0000     NotChecked  -21.3349    1200.5874   ✗       
+295   N+0.984LDLDDEEVK         -1.0000     NotChecked  -21.3402    1189.5350   ✗       
+296   DLLKDEQ+0.984VK          -1.0000     NotChecked  -21.3441    1087.5761   ✗       
+297   SLDLKN+0.984EEVK         -1.0000     NotChecked  -21.3775    1174.6081   ✗       
+298   DLN+0.984LKDEKVK         -1.0000     NotChecked  -21.3829    1201.6554   ✗       
+299   DLDLKSEEVK               -1.0000     NotChecked  -21.4197    1174.6081   ✗       
+300   DLN+0.984LKDEEVK         -1.0000     Failed      -21.4399    1202.6030   ✓       
+301   DLDLKQ+0.984EVK          -1.0000     NotChecked  -21.4682    1087.5761   ✗       
+302   N+0.984LDLKDEKVK         -1.0000     NotChecked  -21.4931    1201.6554   ✗       
+303   DVDLKDEEVK               -1.0000     NotChecked  -21.4989    1188.5874   ✗       
+304   DLDLKEQ+0.984VK          -1.0000     NotChecked  -21.5204    1087.5761   ✗       
+305   DLN+0.984LKDTEVK         -1.0000     NotChecked  -21.5453    1174.6081   ✗       
+306   DLDLKDEQVK               -1.0000     NotChecked  -21.5487    1201.6190   ✗       
+307   N+0.984LDLKDEEVK         -1.0000     Failed      -21.5500    1202.6030   ✓       
+308   N+0.984LDLKDEEVK         -1.0000     Failed      -21.5533    1202.6030   ✓       
+309   N+0.984LN+0.984LKDEEVK   -1.0000     Failed      -21.5743    1202.6030   ✓       
+310   DLDLKDDQ+0.984VK         -1.0000     NotChecked  -21.5975    1188.5874   ✗       
+311   DLDLKN+0.984Q+0.984Q+0.984VK-1.0000     Failed      -21.6017    1202.6031   ✓       
+312   DLN+0.984LKDEEVK         -1.0000     Failed      -21.6440    1202.6030   ✓       
+313   N+0.984LDLKDTEVK         -1.0000     NotChecked  -21.6555    1174.6081   ✗       
+314   DSDLKDQ+0.984EVK         -1.0000     NotChecked  -21.6768    1176.5510   ✗       
+315   DLN+0.984LKDQ+0.984EVK   -1.0000     Failed      -21.6807    1202.6030   ✓       
+316   DLN+0.984LKLEEVK         -1.0000     NotChecked  -21.6992    1200.6602   ✗       
+317   DLDLKDEVK                -1.0000     NotChecked  -21.7123    1073.5605   ✗       
+318   N+0.984LDLKDEEVK         -1.0000     Failed      -21.7283    1202.6030   ✓       
+319   DSDLKDEQ+0.984VK         -1.0000     NotChecked  -21.7290    1176.5510   ✗       
+320   DLN+0.984LKDEQ+0.984VK   -1.0000     Failed      -21.7330    1202.6030   ✓       
+321   N+0.984LDLKDEEVK         -1.0000     Failed      -21.7542    1202.6030   ✓       
+322   DLN+0.984LKDEEK          -1.0000     NotChecked  -21.7814    1103.5346   ✗       
+323   DLN+0.984LNDEEVK         -1.0000     NotChecked  -21.7862    1188.5510   ✗       
+324   DLDLKDEVK                -1.0000     NotChecked  -21.7948    1073.5605   ✗       
+325   N+0.984LDLKLEEVK         -1.0000     NotChecked  -21.8093    1200.6602   ✗       
+326   LLN+0.984LKDEEVK         -1.0000     NotChecked  -21.8217    1200.6602   ✗       
+327   DLDLKN+0.984EEVK         -1.0000     Failed      -21.8262    1202.6030   ✓       
+328   VVDLKDEEVK               -1.0000     NotChecked  -21.8565    1172.6289   ✗       
+329   VLDLKDEEVK               -1.0000     NotChecked  -21.8677    1186.6445   ✗       
+330   N+0.984LDLKDEEK          -1.0000     NotChecked  -21.8916    1103.5346   ✗       
+331   DLDLKDELVK               -1.0000     NotChecked  -21.8934    1186.6445   ✗       
+332   N+0.984LDLNDEEVK         -1.0000     NotChecked  -21.8964    1188.5510   ✗       
+333   +42.011LN+0.984LKDEEVK   -1.0000     NotChecked  -21.9065    1129.5867   ✗       
+334   DLDTKDEEVK               -1.0000     NotChecked  -21.9303    1190.5667   ✗       
+335   DLDLTDEEVK               -1.0000     NotChecked  -21.9399    1175.5558   ✗       
+336   DLDLDDEEVK               -1.0000     NotChecked  -21.9487    1189.5350   ✗       
+337   DLDLKDQ+0.984N+0.984VK   -1.0000     NotChecked  -21.9696    1188.5874   ✗       
+338   DLN+0.984LKDQEVK         -1.0000     NotChecked  -22.0144    1201.6190   ✗       
+339   VLN+0.984LKDQ+0.984EVK   -1.0000     NotChecked  -22.0383    1186.6445   ✗       
+340   DLN+0.984SKDEEVK         -1.0000     NotChecked  -22.0455    1176.5510   ✗       
+341   DLDLKTQ+0.984EVK         -1.0000     NotChecked  -22.0780    1188.6238   ✗       
+342   DVN+0.984LKDQ+0.984EVK   -1.0000     NotChecked  -22.0881    1188.5874   ✗       
+343   VLN+0.984LKDEQ+0.984VK   -1.0000     NotChecked  -22.0905    1186.6445   ✗       
+344   DLN+0.984LKDQ+0.984EVK   -1.0000     Failed      -22.0993    1202.6030   ✓       
+345   DLDLKDEKVK               -1.0000     NotChecked  -22.1016    1201.6554   ✗       
+346   N+0.984LDLKDQEVK         -1.0000     NotChecked  -22.1246    1201.6190   ✗       
+347   DLDLKTEQ+0.984VK         -1.0000     NotChecked  -22.1302    1188.6238   ✗       
+348   DVN+0.984LKDEQ+0.984VK   -1.0000     NotChecked  -22.1404    1188.5874   ✗       
+349   EVDLKDEEVK               -1.0000     Failed      -22.1428    1202.6030   ✓       
+350   DLN+0.984LKDEQ+0.984VK   -1.0000     Failed      -22.1516    1202.6030   ✓       
+351   N+0.984LDSKDEEVK         -1.0000     NotChecked  -22.1557    1176.5510   ✗       
+352   DLN+0.984LKDEEVK         -1.0000     Failed      -22.1828    1202.6030   ✓       
+353   DLN+0.984LKDEEVK         -1.0000     Failed      -22.1923    1202.6030   ✓       
+354   DLN+0.984LKDEEVK         -1.0000     Failed      -22.1954    1202.6030   ✓       
+355   N+0.984VDLKDQ+0.984EVK   -1.0000     NotChecked  -22.1983    1188.5874   ✗       
+356   DLDVKDQ+0.984EVK         -1.0000     NotChecked  -22.1993    1188.5874   ✗       
+357   N+0.984LDLKDQ+0.984EVK   -1.0000     Failed      -22.2095    1202.6030   ✓       
+358   N+0.984VDLKDEQ+0.984VK   -1.0000     NotChecked  -22.2506    1188.5874   ✗       
+359   DLDVKDEQ+0.984VK         -1.0000     NotChecked  -22.2515    1188.5874   ✗       
+360   DLN+0.984LKDN+0.984EVK   -1.0000     NotChecked  -22.2517    1188.5874   ✗       
+361   N+0.984LDLKDEQ+0.984VK   -1.0000     Failed      -22.2617    1202.6030   ✓       
+362   DLDLKDTEVK               -1.0000     NotChecked  -22.2640    1174.6081   ✗       
+363   DLDLKN+0.984EEVK         -1.0000     Failed      -22.2802    1202.6030   ✓       
+364   N+0.984LDLKDEEVK         -1.0000     Failed      -22.2930    1202.6030   ✓       
+365   N+0.984LDLKDEEVK         -1.0000     Failed      -22.3025    1202.6030   ✓       
+366   N+0.984LDLKDEEVK         -1.0000     Failed      -22.3056    1202.6030   ✓       
+367   Q+0.984VDLKDEEVK         -1.0000     Failed      -22.3150    1202.6030   ✓       
+368   DLN+0.984LKDSEVK         -1.0000     NotChecked  -22.3474    1160.5925   ✗       
+369   N+0.984LDLKDN+0.984EVK   -1.0000     NotChecked  -22.3619    1188.5874   ✗       
+370   DLDLKDQ+0.984EVK         -1.0000     Failed      -22.3994    1202.6030   ✓       
+371   DLDLKLEEVK               -1.0000     NotChecked  -22.4179    1200.6602   ✗       
+372   N+0.984LN+0.984LKDQ+0.984Q+0.984VK-1.0000     Failed      -22.4324    1202.6031   ✓       
+373   DLN+0.984LKDKEVK         -1.0000     NotChecked  -22.4450    1201.6554   ✗       
+374   DLDLKDEQ+0.984VK         -1.0000     Failed      -22.4517    1202.6030   ✓       
+375   N+0.984LDLKDSEVK         -1.0000     NotChecked  -22.4576    1160.5925   ✗       
+376   DLDLKN+0.984EEVQ         -1.0000     Failed      -22.4607    1202.5667   ✓       
+377   DDLKDEEVK                -1.0000     NotChecked  -22.4743    1089.5190   ✗       
+378   ALN+0.984LKDEEVK         -1.0000     NotChecked  -22.4880    1158.6132   ✗       
+379   DLDLNDEEVK               -1.0000     NotChecked  -22.5049    1188.5510   ✗       
+380   DADLKN+0.984EEVK         -1.0000     NotChecked  -22.5317    1160.5561   ✗       
+381   N+0.984LDLKDKEVK         -1.0000     NotChecked  -22.5552    1201.6554   ✗       
+382   DLLLKN+0.984EEVK         -1.0000     NotChecked  -22.5634    1200.6602   ✗       
+383   DLDLKDQ+0.984EK          -1.0000     NotChecked  -22.5901    1103.5346   ✗       
+384   DLDLKDEQ+0.984K          -1.0000     NotChecked  -22.6423    1103.5346   ✗       
+385   DLDLKSQ+0.984EVK         -1.0000     NotChecked  -22.6513    1174.6081   ✗       
+386   N+0.984LN+0.984LKDEEVK   -1.0000     Failed      -22.6569    1202.6030   ✓       
+387   DLDLKN+0.984EDVK         -1.0000     NotChecked  -22.6773    1188.5874   ✗       
+388   DTDLKN+0.984EEVK         -1.0000     NotChecked  -22.6785    1190.5667   ✗       
+389   DLDLKSEQ+0.984VK         -1.0000     NotChecked  -22.7035    1174.6081   ✗       
+390   DLDLKDQEVK               -1.0000     NotChecked  -22.7331    1201.6190   ✗       
+391   VLDLKDQ+0.984EVK         -1.0000     NotChecked  -22.7570    1186.6445   ✗       
+392   DLDSKDEEVK               -1.0000     NotChecked  -22.7642    1176.5510   ✗       
+393   DLDLKN+0.984EEVK         -1.0000     Failed      -22.7705    1202.6030   ✓       
+394   DLDLKDQ+0.984EAK         -1.0000     NotChecked  -22.7788    1174.5717   ✗       
+395   DLDLKDQ+0.984QVK         -1.0000     NotChecked  -22.7803    1201.6190   ✗       
+396   DLTLKN+0.984EEVK         -1.0000     NotChecked  -22.7845    1188.6238   ✗       
+397   N+0.984LSLKDEEVK         -1.0000     NotChecked  -22.7879    1174.6081   ✗       
+398   N+0.984LNLKDEEVK         -1.0000     NotChecked  -22.7980    1201.6190   ✗       
+399   DVDLKDQ+0.984EVK         -1.0000     NotChecked  -22.8068    1188.5874   ✗       
+400   VLDLKDEQ+0.984VK         -1.0000     NotChecked  -22.8092    1186.6445   ✗       
+401   SLN+0.984LKDEEVK         -1.0000     NotChecked  -22.8167    1174.6081   ✗       
+402   DLDLKDQ+0.984EVK         -1.0000     Failed      -22.8180    1202.6030   ✓       
+403   DLDLKDEQ+0.984AK         -1.0000     NotChecked  -22.8311    1174.5717   ✗       
+404   VDDLKDEEVK               -1.0000     NotChecked  -22.8318    1188.5874   ✗       
+405   DVDLKDEQ+0.984VK         -1.0000     NotChecked  -22.8591    1188.5874   ✗       
+406   DLDLQN+0.984EEVK         -1.0000     Failed      -22.8675    1202.5667   ✓       
+407   DLDLKDEQ+0.984VK         -1.0000     Failed      -22.8703    1202.6030   ✓       
+408   LVDLKDEEVK               -1.0000     NotChecked  -22.8714    1186.6445   ✗       
+409   LLDLKDEEVK               -1.0000     NotChecked  -22.8826    1200.6602   ✗       
+410   DLDLKDQ+0.984VK          -1.0000     NotChecked  -22.9439    1073.5605   ✗       
+411   +42.011VDLKDEEVK         -1.0000     NotChecked  -22.9563    1115.5710   ✗       
+412   +42.011LDLKDEEVK         -1.0000     NotChecked  -22.9674    1129.5867   ✗       
+413   DLDLKDN+0.984EVK         -1.0000     NotChecked  -22.9704    1188.5874   ✗       
+414   DLDLKDQ+0.984EVK         -1.0000     Failed      -22.9997    1202.6030   ✓       
+415   DLDLKDQ+0.984EVK         -1.0000     Failed      -23.0243    1202.6030   ✓       
+416   DLDLKDQ+0.984VVK         -1.0000     NotChecked  -23.0264    1172.6289   ✗       
+417   DLN+0.984LKDQ+0.984Q+0.984VK-1.0000     Failed      -23.0409    1202.6031   ✓       
+418   LLN+0.984LKDQ+0.984EVK   -1.0000     NotChecked  -23.0533    1200.6602   ✗       
+419   N+0.984LN+0.984LKN+0.984EEVK-1.0000     Failed      -23.0632    1202.6030   ✓       
+420   DLN+0.984LKDEEVK         -1.0000     Failed      -23.0655    1202.6030   ✓       
+421   DLDLKDSEVK               -1.0000     NotChecked  -23.0661    1160.5925   ✗       
+422   DLDLKDEQ+0.984VK         -1.0000     Failed      -23.0765    1202.6030   ✓       
+423   LLN+0.984LKDEQ+0.984VK   -1.0000     NotChecked  -23.1055    1200.6602   ✗       
+424   N+0.984LN+0.984LKDEEVK   -1.0000     Failed      -23.1109    1202.6030   ✓       
+425   DLDLKDQ+0.984LVK         -1.0000     NotChecked  -23.1250    1186.6445   ✗       
+426   VLELKDEEVK               -1.0000     NotChecked  -23.1286    1200.6602   ✗       
+427   +42.011LN+0.984LKDQ+0.984EVK-1.0000     NotChecked  -23.1381    1129.5867   ✗       
+428   N+0.984LDLKDQ+0.984Q+0.984VK-1.0000     Failed      -23.1511    1202.6031   ✓       
+429   DLDTKDQ+0.984EVK         -1.0000     NotChecked  -23.1620    1190.5667   ✗       
+430   DLDLKDKEVK               -1.0000     NotChecked  -23.1637    1201.6554   ✗       
+431   DLDLTDQ+0.984EVK         -1.0000     NotChecked  -23.1715    1175.5558   ✗       
+432   DLDLKDQ+0.984EPK         -1.0000     NotChecked  -23.1751    1200.5874   ✗       
+433   N+0.984LDLKDEEVK         -1.0000     Failed      -23.1757    1202.6030   ✓       
+434   DVELKDEEVK               -1.0000     Failed      -23.1785    1202.6030   ✓       
+435   DLDLDDQ+0.984EVK         -1.0000     NotChecked  -23.1803    1189.5350   ✗       
+436   VLDLKDEEVK               -1.0000     NotChecked  -23.1827    1186.6445   ✗       
+437   DLDLSN+0.984EEVK         -1.0000     NotChecked  -23.1878    1161.5401   ✗       
+438   +42.011LN+0.984LKDEQ+0.984VK-1.0000     NotChecked  -23.1903    1129.5867   ✗       
+439   DLLKN+0.984EEVK          -1.0000     NotChecked  -23.2066    1087.5761   ✗       
+440   DLDTKDEQ+0.984VK         -1.0000     NotChecked  -23.2142    1190.5667   ✗       
+441   DLDLTDEQ+0.984VK         -1.0000     NotChecked  -23.2237    1175.5558   ✗       
+442   DLDLKDEQ+0.984PK         -1.0000     NotChecked  -23.2273    1200.5874   ✗       
+443   DLDLDDEQ+0.984VK         -1.0000     NotChecked  -23.2325    1189.5350   ✗       
+444   DLN+0.984LKDEEVK         -1.0000     Failed      -23.2654    1202.6030   ✓       
+445   N+0.984LN+0.984LKDEEVQ   -1.0000     Failed      -23.2914    1202.5667   ✓       
+446   DLSLKDEEVK               -1.0000     NotChecked  -23.3201    1174.6081   ✗       
+447   DLNLKDEEVK               -1.0000     NotChecked  -23.3302    1201.6190   ✗       
+448   DLDLKDQ+0.984KVK         -1.0000     NotChecked  -23.3332    1201.6554   ✗       
+449   N+0.984AN+0.984LKDEEVK   -1.0000     NotChecked  -23.3623    1160.5561   ✗       
+450   N+0.984LDLKDEEVK         -1.0000     Failed      -23.3756    1202.6030   ✓       
+451   DLDLKDQ+0.984EVK         -1.0000     Failed      -23.3902    1202.6030   ✓       
+452   DLDLKDQ+0.984EVK         -1.0000     Failed      -23.3934    1202.6030   ✓       
+453   DLN+0.984LKDQ+0.984EVK   -1.0000     Failed      -23.4144    1202.6030   ✓       
+454   DLDLKDEQ+0.984VK         -1.0000     Failed      -23.4424    1202.6030   ✓       
+455   DLDLKDEQ+0.984VK         -1.0000     Failed      -23.4457    1202.6030   ✓       
+456   DLDLKN+0.984DEVK         -1.0000     NotChecked  -23.4600    1188.5874   ✗       
+457   DLN+0.984LKDEQ+0.984VK   -1.0000     Failed      -23.4666    1202.6030   ✓       
+458   N+0.984LN+0.984LKNEEVK   -1.0000     NotChecked  -23.5042    1201.6190   ✗       
+459   N+0.984LN+0.984LKDEDVK   -1.0000     NotChecked  -23.5080    1188.5874   ✗       
+460   N+0.984TN+0.984LKDEEVK   -1.0000     NotChecked  -23.5092    1190.5667   ✗       
+461   N+0.984LDLKDQ+0.984EVK   -1.0000     Failed      -23.5246    1202.6030   ✓       
+462   AVDLKDEEVK               -1.0000     NotChecked  -23.5377    1144.5976   ✗       
+463   DLDLKDTQ+0.984VK         -1.0000     NotChecked  -23.5478    1174.6081   ✗       
+464   ALDLKDEEVK               -1.0000     NotChecked  -23.5489    1158.6132   ✗       
+465   VEDLKDEEVK               -1.0000     Failed      -23.5707    1202.6030   ✓       
+466   N+0.984LDLKDEQ+0.984VK   -1.0000     Failed      -23.5768    1202.6030   ✓       
+467   DSDLKN+0.984EEVK         -1.0000     NotChecked  -23.5915    1176.5510   ✗       
+468   DLN+0.984LKN+0.984EEVK   -1.0000     Failed      -23.5954    1202.6030   ✓       
+469   N+0.984LN+0.984LKDEEVK   -1.0000     Failed      -23.6012    1202.6030   ✓       
+470   DLDLKDEQ+0.984VK         -1.0000     Failed      -23.6465    1202.6030   ✓       
+471   DLDLKLQ+0.984EVK         -1.0000     NotChecked  -23.6495    1200.6602   ✗       
+472   VLSLKDEEVK               -1.0000     NotChecked  -23.6777    1158.6496   ✗       
+473   DLDLKDQ+0.984Q+0.984VK   -1.0000     Failed      -23.6833    1202.6031   ✓       
+474   VLNLKDEEVK               -1.0000     NotChecked  -23.6877    1185.6605   ✗       
+475   N+0.984LN+0.984LQDEEVK   -1.0000     Failed      -23.6982    1202.5667   ✓       
+476   DLDLKLEQ+0.984VK         -1.0000     NotChecked  -23.7017    1200.6602   ✗       
+477   DLN+0.984LKDEEVK         -1.0000     Failed      -23.7194    1202.6030   ✓       
+478   ALN+0.984LKDQ+0.984EVK   -1.0000     NotChecked  -23.7196    1158.6132   ✗       
+479   DVSLKDEEVK               -1.0000     NotChecked  -23.7275    1160.5925   ✗       
+480   DLDLKDQ+0.984EK          -1.0000     NotChecked  -23.7317    1103.5346   ✗       
+481   DLDLNDQ+0.984EVK         -1.0000     NotChecked  -23.7365    1188.5510   ✗       
+482   DVNLKDEEVK               -1.0000     NotChecked  -23.7376    1187.6034   ✗       
+483   DLSLKDEEVK               -1.0000     NotChecked  -23.7387    1174.6081   ✗       
+484   DLNLKDEEVK               -1.0000     NotChecked  -23.7488    1201.6190   ✗       
+485   ALN+0.984LKDEQ+0.984VK   -1.0000     NotChecked  -23.7718    1158.6132   ✗       
+486   LLDLKDQ+0.984EVK         -1.0000     NotChecked  -23.7720    1200.6602   ✗       
+487   DLDLKDEQ+0.984K          -1.0000     NotChecked  -23.7839    1103.5346   ✗       
+488   DLDLNDEQ+0.984VK         -1.0000     NotChecked  -23.7887    1188.5510   ✗       
+489   LLDLKDEQ+0.984VK         -1.0000     NotChecked  -23.8242    1200.6602   ✗       
+490   N+0.984LDLKDEEVK         -1.0000     Failed      -23.8296    1202.6030   ✓       
+491   LDDLKDEEVK               -1.0000     Failed      -23.8468    1202.6030   ✓       
+492   +42.011LDLKDQ+0.984EVK   -1.0000     NotChecked  -23.8568    1129.5867   ✗       
+493   SVDLKDEEVK               -1.0000     NotChecked  -23.8665    1160.5925   ✗       
+494   SLDLKDEEVK               -1.0000     NotChecked  -23.8777    1174.6081   ✗       
+495   DLDLKN+0.984EN+0.984VK   -1.0000     NotChecked  -23.8843    1188.5874   ✗       
+496   DLN+0.984LKDEEVQ         -1.0000     Failed      -23.8999    1202.5667   ✓       
+497   +42.011LDLKDEQ+0.984VK   -1.0000     NotChecked  -23.9090    1129.5867   ✗       
+498   +42.011DDLKDEEVK         -1.0000     NotChecked  -23.9316    1131.5295   ✗       
+499   VLN+0.984LKN+0.984EEVK   -1.0000     NotChecked  -23.9530    1186.6445   ✗       
+500   ELSLKDEEVK               -1.0000     NotChecked  -23.9640    1188.6238   ✗       
+501   DAN+0.984LKDEEVK         -1.0000     NotChecked  -23.9709    1160.5561   ✗       
+502   DLDSKDQ+0.984EVK         -1.0000     NotChecked  -23.9958    1176.5510   ✗       
+503   DVN+0.984LKN+0.984EEVK   -1.0000     NotChecked  -24.0028    1188.5874   ✗       
+504   N+0.984LDLKDEEVQ         -1.0000     Failed      -24.0101    1202.5667   ✓       
+505   DLN+0.984LKN+0.984EEVK   -1.0000     Failed      -24.0140    1202.6030   ✓       
+506   DLDLKDQQ+0.984VK         -1.0000     NotChecked  -24.0169    1201.6190   ✗       
+507   N+0.984LN+0.984LSDEEVK   -1.0000     NotChecked  -24.0185    1161.5401   ✗       
+508   N+0.984LSLKDQ+0.984EVK   -1.0000     NotChecked  -24.0195    1174.6081   ✗       
+509   N+0.984LNLKDQ+0.984EVK   -1.0000     NotChecked  -24.0296    1201.6190   ✗       
+510   VLDLKDQ+0.984Q+0.984VK   -1.0000     NotChecked  -24.0408    1186.6445   ✗       
+511   MLSLKDEEVK               -1.0000     NotChecked  -24.0447    1190.6217   ✗       
+512   DLDSKDEQ+0.984VK         -1.0000     NotChecked  -24.0480    1176.5510   ✗       
+513   SLN+0.984LKDQ+0.984EVK   -1.0000     NotChecked  -24.0483    1174.6081   ✗       
+514   N+0.984LSLKDEQ+0.984VK   -1.0000     NotChecked  -24.0717    1174.6081   ✗       
+515   N+0.984ADLKDEEVK         -1.0000     NotChecked  -24.0810    1160.5561   ✗       
+516   N+0.984LNLKDEQ+0.984VK   -1.0000     NotChecked  -24.0818    1201.6190   ✗       
+517   DVDLKDQ+0.984Q+0.984VK   -1.0000     NotChecked  -24.0907    1188.5874   ✗       
+518   SLN+0.984LKDEQ+0.984VK   -1.0000     NotChecked  -24.1005    1174.6081   ✗       
+519   DLDLKDQ+0.984Q+0.984VK   -1.0000     Failed      -24.1019    1202.6031   ✓       
+520   DLN+0.984LKNEEVK         -1.0000     NotChecked  -24.1127    1201.6190   ✗       
+521   N+0.984LLLKDEEVK         -1.0000     NotChecked  -24.1128    1200.6602   ✗       
+522   N+0.984VDLKN+0.984EEVK   -1.0000     NotChecked  -24.1130    1188.5874   ✗       
+523   DLDVKN+0.984EEVK         -1.0000     NotChecked  -24.1139    1188.5874   ✗       
+524   DLN+0.984LKDEDVK         -1.0000     NotChecked  -24.1165    1188.5874   ✗       
+525   DTN+0.984LKDEEVK         -1.0000     NotChecked  -24.1177    1190.5667   ✗       
+526   N+0.984LDLKN+0.984EEVK   -1.0000     Failed      -24.1242    1202.6030   ✓       
+527   DLDLKDQ+0.984EVK         -1.0000     Failed      -24.1331    1202.6030   ✓       
+528   Q+0.984LSLKDEEVK         -1.0000     NotChecked  -24.1361    1188.6238   ✗       
+529   DLDLKDQ+0.984EVK         -1.0000     Failed      -24.1426    1202.6030   ✓       
+530   DLDLKDEQ+0.984VK         -1.0000     Failed      -24.1853    1202.6030   ✓       
+531   DLDLKDEQ+0.984VK         -1.0000     Failed      -24.1948    1202.6030   ✓       
+532   LDLKDEEVK                -1.0000     NotChecked  -24.1977    1087.5761   ✗       
+533   DLDLKDEQ+0.984VK         -1.0000     Failed      -24.1979    1202.6030   ✓       
+534   DLN+0.984LKDEEV          -1.0000     NotChecked  -24.2084    1074.5081   ✗       
+535   DLN+0.984LKDEEVK         -1.0000     Failed      -24.2097    1202.6030   ✓       
+536   N+0.984LN+0.984LKEEVK    -1.0000     NotChecked  -24.2136    1087.5761   ✗       
+537   N+0.984LDLKNEEVK         -1.0000     NotChecked  -24.2229    1201.6190   ✗       
+538   N+0.984LDLKDEDVK         -1.0000     NotChecked  -24.2267    1188.5874   ✗       
+539   N+0.984TDLKDEEVK         -1.0000     NotChecked  -24.2279    1190.5667   ✗       
+540   +42.011LELKDEEVK         -1.0000     NotChecked  -24.2284    1143.6023   ✗       
+541   DLN+0.984LKDEEVL         -1.0000     NotChecked  -24.2421    1187.5921   ✗       
+542   N+0.984LDLKDEEVK         -1.0000     Failed      -24.2448    1202.6030   ✓       
+543   DLDLKDN+0.984Q+0.984VK   -1.0000     NotChecked  -24.2543    1188.5874   ✗       
+544   VLDLKDEEVK               -1.0000     NotChecked  -24.2654    1186.6445   ✗       
+545   +42.011LDLKDEEVK         -1.0000     NotChecked  -24.2825    1129.5867   ✗       
+546   N+0.984LN+0.984LKDDEVK   -1.0000     NotChecked  -24.2907    1188.5874   ✗       
+547   N+0.984LN+0.984LKN+0.984Q+0.984EVK-1.0000     Failed      -24.2948    1202.6030   ✓       
+548   DLN+0.984LQDEEVK         -1.0000     Failed      -24.3067    1202.5667   ✓       
+549   DLDLKN+0.984EEVK         -1.0000     Failed      -24.3141    1202.6030   ✓       
+550   DVDLKDEEVK               -1.0000     NotChecked  -24.3152    1188.5874   ✗       
+551   N+0.984LDLKDEEV          -1.0000     NotChecked  -24.3186    1074.5081   ✗       
+552   N+0.984LDLKDEEVK         -1.0000     Failed      -24.3199    1202.6030   ✓       
+553   N+0.984LTLKDEEVK         -1.0000     NotChecked  -24.3339    1188.6238   ✗       
+554   N+0.984LN+0.984LKN+0.984EQ+0.984VK-1.0000     Failed      -24.3471    1202.6030   ✓       
+555   DLDLKDSQ+0.984VK         -1.0000     NotChecked  -24.3499    1160.5925   ✗       
+556   N+0.984LDLKDEEVL         -1.0000     NotChecked  -24.3522    1187.5921   ✗       
+557   N+0.984LDLQDEEVK         -1.0000     Failed      -24.4169    1202.5667   ✓       
+558   N+0.984SN+0.984LKDEEVK   -1.0000     NotChecked  -24.4222    1176.5510   ✗       
+559   ALDLKDQ+0.984EVK         -1.0000     NotChecked  -24.4383    1158.6132   ✗       
+560   DLDLKDKQ+0.984VK         -1.0000     NotChecked  -24.4476    1201.6554   ✗       
+561   VLMLKDEEVK               -1.0000     Failed      -24.4484    1202.6581   ✓       
+562   VLDLKEEEVK               -1.0000     NotChecked  -24.4489    1200.6602   ✗       
+563   ALDLKDEQ+0.984VK         -1.0000     NotChecked  -24.4905    1158.6132   ✗       
+564   DLN+0.984LKDQ+0.984EVK   -1.0000     Failed      -24.4970    1202.6030   ✓       
+565   DVDLKEEEVK               -1.0000     Failed      -24.4988    1202.6030   ✓       
+566   DLDLKN+0.984EEK          -1.0000     NotChecked  -24.5048    1103.5346   ✗       
+567   ADDLKDEEVK               -1.0000     NotChecked  -24.5131    1160.5561   ✗       
+568   DLDLKDEEVQ               -1.0000     Failed      -24.5423    1202.5667   ✓       
+569   DLN+0.984LKDEQ+0.984VK   -1.0000     Failed      -24.5493    1202.6030   ✓       
+570   N+0.984LDLKDQ+0.984EVK   -1.0000     Failed      -24.6072    1202.6030   ✓       
+571   DADLKDEEVK               -1.0000     NotChecked  -24.6132    1160.5561   ✗       
+572   DLN+0.984LKDEEVT         -1.0000     NotChecked  -24.6229    1175.5558   ✗       
+573   DLN+0.984LSDEEVK         -1.0000     NotChecked  -24.6270    1161.5401   ✗       
+574   DLSLKDQ+0.984EVK         -1.0000     NotChecked  -24.6280    1174.6081   ✗       
+575   DLNLKDQ+0.984EVK         -1.0000     NotChecked  -24.6381    1201.6190   ✗       
+576   DLLLKDEEVK               -1.0000     NotChecked  -24.6449    1200.6602   ✗       
+577   N+0.984LDLKDEQ+0.984VK   -1.0000     Failed      -24.6594    1202.6030   ✓       
+578   +42.011EDLKDEEVK         -1.0000     NotChecked  -24.6705    1145.5452   ✗       
+579   VLDLKN+0.984EEVK         -1.0000     NotChecked  -24.6717    1186.6445   ✗       
+580   DLSLKDEQ+0.984VK         -1.0000     NotChecked  -24.6803    1174.6081   ✗       
+581   DLNLKDEQ+0.984VK         -1.0000     NotChecked  -24.6903    1201.6190   ✗       
+582   LLSLKDEEVK               -1.0000     NotChecked  -24.6926    1172.6653   ✗       
+583   DLDLKN+0.984EEAK         -1.0000     NotChecked  -24.6935    1174.5717   ✗       
+584   DLDLKN+0.984EQVK         -1.0000     NotChecked  -24.6950    1201.6190   ✗       
+585   LLNLKDEEVK               -1.0000     NotChecked  -24.7027    1199.6762   ✗       
+586   DDSLKDEEVK               -1.0000     NotChecked  -24.7028    1176.5510   ✗       
+587   N+0.984LN+0.984LKDEN+0.984VK-1.0000     NotChecked  -24.7150    1188.5874   ✗       
+588   VLDLKDEEVK               -1.0000     NotChecked  -24.7194    1186.6445   ✗       
+589   DVDLKN+0.984EEVK         -1.0000     NotChecked  -24.7215    1188.5874   ✗       
+590   DLDLKN+0.984EEVK         -1.0000     Failed      -24.7327    1202.6030   ✓       
+591   N+0.984LDLKDEEVT         -1.0000     NotChecked  -24.7331    1175.5558   ✗       
+592   VN+0.984DLKDEEVK         -1.0000     NotChecked  -24.7357    1188.5874   ✗       
+593   N+0.984LDLSDEEVK         -1.0000     NotChecked  -24.7372    1161.5401   ✗       
+594   DLDLKNEEVK               -1.0000     NotChecked  -24.7551    1201.6190   ✗       
+595   N+0.984LLKDEEVK          -1.0000     NotChecked  -24.7560    1087.5761   ✗       
+596   DLDLKDEDVK               -1.0000     NotChecked  -24.7589    1188.5874   ✗       
+597   DTDLKDEEVK               -1.0000     NotChecked  -24.7601    1190.5667   ✗       
+598   SLDLKDQ+0.984EVK         -1.0000     NotChecked  -24.7670    1174.6081   ✗       
+599   DVDLKDEEVK               -1.0000     NotChecked  -24.7692    1188.5874   ✗       
+600   +42.011LSLKDEEVK         -1.0000     NotChecked  -24.7775    1101.5918   ✗       
+601   +42.011LNLKDEEVK         -1.0000     NotChecked  -24.7875    1128.6027   ✗       
+602   ALELKDEEVK               -1.0000     NotChecked  -24.8099    1172.6289   ✗       
+603   VLDLKDEELK               -1.0000     NotChecked  -24.8162    1200.6602   ✗       
+604   SLDLKDEQ+0.984VK         -1.0000     NotChecked  -24.8192    1174.6081   ✗       
+605   DLN+0.984LKEEVK          -1.0000     NotChecked  -24.8221    1087.5761   ✗       
+606   N+0.984LN+0.984LKTEEVK   -1.0000     NotChecked  -24.8234    1188.6238   ✗       
+607   DLN+0.984LKDEEVG         -1.0000     NotChecked  -24.8406    1131.5295   ✗       
+608   SDDLKDEEVK               -1.0000     NotChecked  -24.8418    1176.5510   ✗       
+609   DLDLKN+0.984EVK          -1.0000     NotChecked  -24.8585    1073.5605   ✗       
+610   ALDLKDEEVK               -1.0000     NotChecked  -24.8640    1158.6132   ✗       
+611   DVDLKDEELK               -1.0000     Failed      -24.8661    1202.6030   ✓       
+612   DLTLKDEEVK               -1.0000     NotChecked  -24.8661    1188.6238   ✗       
+613   DLN+0.984LKDDEVK         -1.0000     NotChecked  -24.8992    1188.5874   ✗       
+614   VLDLKDEEVQ               -1.0000     NotChecked  -24.8998    1186.6081   ✗       
+615   DLN+0.984LKN+0.984Q+0.984EVK-1.0000     Failed      -24.9034    1202.6030   ✓       
+616   DLDLKN+0.984EEVK         -1.0000     Failed      -24.9144    1202.6030   ✓       
+617   DLDLKDEEV                -1.0000     NotChecked  -24.9271    1074.5081   ✗       
+618   N+0.984LDLKEEVK          -1.0000     NotChecked  -24.9323    1087.5761   ✗       
+619   DLDLKN+0.984EVVK         -1.0000     NotChecked  -24.9411    1172.6289   ✗       
+620   N+0.984LN+0.984VKDEEVK   -1.0000     NotChecked  -24.9446    1188.5874   ✗       
+621   DLDLQDEEVK               -1.0000     Failed      -24.9491    1202.5667   ✓       
+622   DVDLKDEEVQ               -1.0000     NotChecked  -24.9497    1188.5510   ✗       
+623   N+0.984LDLKDEEVG         -1.0000     NotChecked  -24.9508    1131.5295   ✗       
+624   DLN+0.984LKDQ+0.984EVK   -1.0000     Failed      -24.9510    1202.6030   ✓       
+625   DLN+0.984LKN+0.984EQ+0.984VK-1.0000     Failed      -24.9556    1202.6030   ✓       
+626   DLDLKDEEVL               -1.0000     NotChecked  -24.9608    1187.5921   ✗       
+627   DLDLKDEEVQ               -1.0000     Failed      -24.9609    1202.5667   ✓       
+628   LLN+0.984LKN+0.984EEVK   -1.0000     NotChecked  -24.9680    1200.6602   ✗       
+629   VADLKDEEVK               -1.0000     NotChecked  -24.9708    1144.5976   ✗       
+630   VLLLKDEEVK               -1.0000     NotChecked  -25.0025    1184.7016   ✗       
+631   DLN+0.984LKDEQ+0.984VK   -1.0000     Failed      -25.0033    1202.6030   ✓       
+632   N+0.984LDLKDDEVK         -1.0000     NotChecked  -25.0094    1188.5874   ✗       
+633   N+0.984LDLKN+0.984Q+0.984EVK-1.0000     Failed      -25.0135    1202.6030   ✓       
+634   DLDLKDQ+0.984EVK         -1.0000     Failed      -25.0158    1202.6030   ✓       
+635   DSN+0.984LKDEEVK         -1.0000     NotChecked  -25.0307    1176.5510   ✗       
+636   DLDLKN+0.984ELVK         -1.0000     NotChecked  -25.0397    1186.6445   ✗       
+637   DVLLKDEEVK               -1.0000     NotChecked  -25.0523    1186.6445   ✗       
+638   +42.011LN+0.984LKN+0.984EEVK-1.0000     NotChecked  -25.0528    1129.5867   ✗       
+639   DLSLKDEEVK               -1.0000     NotChecked  -25.0538    1174.6081   ✗       
+640   LLDLKDQ+0.984Q+0.984VK   -1.0000     NotChecked  -25.0558    1200.6602   ✗       
+641   N+0.984LDLKDQ+0.984EVK   -1.0000     Failed      -25.0612    1202.6030   ✓       
+642   DLLLKDEEVK               -1.0000     NotChecked  -25.0635    1200.6602   ✗       
+643   DLNLKDEEVK               -1.0000     NotChecked  -25.0639    1201.6190   ✗       
+644   N+0.984LDLKN+0.984EQ+0.984VK-1.0000     Failed      -25.0658    1202.6030   ✓       
+645   DLDTKN+0.984EEVK         -1.0000     NotChecked  -25.0766    1190.5667   ✗       
+646   DLDLTN+0.984EEVK         -1.0000     NotChecked  -25.0861    1175.5558   ✗       
+647   DLDLKN+0.984EEPK         -1.0000     NotChecked  -25.0897    1200.5874   ✗       
+648   DLDLDN+0.984EEVK         -1.0000     NotChecked  -25.0950    1189.5350   ✗       
+649   VLDLKNEEVK               -1.0000     NotChecked  -25.1127    1185.6605   ✗       
+650   N+0.984LDLKDEQ+0.984VK   -1.0000     Failed      -25.1134    1202.6030   ✓       
+651   VLDLKDEDVK               -1.0000     NotChecked  -25.1165    1172.6289   ✗       
+652   VTDLKDEEVK               -1.0000     NotChecked  -25.1176    1174.6081   ✗       
+653   DLN+0.984LKDQ+0.984EVQ   -1.0000     Failed      -25.1315    1202.5667   ✓       
+654   SLELKDEEVK               -1.0000     NotChecked  -25.1386    1188.6238   ✗       
+655   +42.011LDLKDQ+0.984Q+0.984VK-1.0000     NotChecked  -25.1406    1129.5867   ✗       
+656   N+0.984SDLKDEEVK         -1.0000     NotChecked  -25.1409    1176.5510   ✗       
+657   DLN+0.984LKDEEVN         -1.0000     NotChecked  -25.1527    1188.5510   ✗       
+658   DVDLKNEEVK               -1.0000     NotChecked  -25.1625    1187.6034   ✗       
+659   DVDLKDEDVK               -1.0000     NotChecked  -25.1663    1174.5717   ✗       
+660   DLDLKNEEVK               -1.0000     NotChecked  -25.1737    1201.6190   ✗       
+661   DLDLKDEDVK               -1.0000     NotChecked  -25.1775    1188.5874   ✗       
+662   DLN+0.984LKDEQ+0.984VQ   -1.0000     Failed      -25.1837    1202.5667   ✓       
+663   SLDLKDEEVK               -1.0000     NotChecked  -25.1928    1174.6081   ✗       
+664   DAN+0.984LKDQ+0.984EVK   -1.0000     NotChecked  -25.2025    1160.5561   ✗       
+665   VLDLKDEEVK               -1.0000     NotChecked  -25.2097    1186.6445   ✗       
+666   DLDLKDQ+0.984EVK         -1.0000     Failed      -25.2157    1202.6030   ✓       
+667   VLTLKDEEVK               -1.0000     NotChecked  -25.2237    1172.6652   ✗       
+668   N+0.984LDLKDQ+0.984EVQ   -1.0000     Failed      -25.2417    1202.5667   ✓       
+669   DLDLKN+0.984EKVK         -1.0000     NotChecked  -25.2479    1201.6554   ✗       
+670   AEDLKDEEVK               -1.0000     NotChecked  -25.2520    1174.5717   ✗       
+671   DAN+0.984LKDEQ+0.984VK   -1.0000     NotChecked  -25.2547    1160.5561   ✗       
+672   EADLKDEEVK               -1.0000     NotChecked  -25.2571    1174.5717   ✗       
+673   DVDLKDEEVK               -1.0000     NotChecked  -25.2595    1188.5874   ✗       
+674   N+0.984LDLKDEEVN         -1.0000     NotChecked  -25.2629    1188.5510   ✗       
+675   DLDLKDEQ+0.984VK         -1.0000     Failed      -25.2680    1202.6030   ✓       
+676   DLDLSDEEVK               -1.0000     NotChecked  -25.2694    1161.5401   ✗       
+677   DVTLKDEEVK               -1.0000     NotChecked  -25.2735    1174.6081   ✗       
+678   LLDLKDEEVK               -1.0000     NotChecked  -25.2803    1200.6602   ✗       
+679   DLTLKDEEVK               -1.0000     NotChecked  -25.2847    1188.6238   ✗       
+680   DLLKDEEVK                -1.0000     NotChecked  -25.2882    1087.5761   ✗       
+681   N+0.984LDLKDEQ+0.984VQ   -1.0000     Failed      -25.2939    1202.5667   ✓       
+682   DLDLKN+0.984EEVK         -1.0000     Failed      -25.3048    1202.6030   ✓       
+683   VLDLQDEEVK               -1.0000     NotChecked  -25.3067    1186.6081   ✗       
+684   DLDLKN+0.984EEVK         -1.0000     Failed      -25.3081    1202.6030   ✓       
+685   N+0.984ADLKDQ+0.984EVK   -1.0000     NotChecked  -25.3127    1160.5561   ✗       
+686   DLN+0.984LKDEN+0.984VK   -1.0000     NotChecked  -25.3235    1188.5874   ✗       
+687   DLN+0.984LKN+0.984EEVK   -1.0000     Failed      -25.3291    1202.6030   ✓       
+688   N+0.984LN+0.984LKDEEK    -1.0000     NotChecked  -25.3355    1103.5346   ✗       
+689   MADLKDEEVK               -1.0000     NotChecked  -25.3379    1176.5696   ✗       
+690   N+0.984LLLKDQ+0.984EVK   -1.0000     NotChecked  -25.3444    1200.6602   ✗       
+691   ALSLKDEEVK               -1.0000     NotChecked  -25.3589    1130.6183   ✗       
+692   N+0.984ADLKDEQ+0.984VK   -1.0000     NotChecked  -25.3649    1160.5561   ✗       
+693   +42.011LDLKDEEVK         -1.0000     NotChecked  -25.3652    1129.5867   ✗       
+694   ALNLKDEEVK               -1.0000     NotChecked  -25.3690    1157.6292   ✗       
+695   N+0.984LLLKDEQ+0.984VK   -1.0000     NotChecked  -25.3966    1200.6602   ✗       
+696   N+0.984LN+0.984LKSEEVK   -1.0000     NotChecked  -25.3967    1174.6081   ✗       
+697   ELDLKDEDVK               -1.0000     Failed      -25.4028    1202.6030   ✓       
+698   Q+0.984ADLKDEEVK         -1.0000     NotChecked  -25.4293    1174.5717   ✗       
+699   N+0.984LDLKDEN+0.984VK   -1.0000     NotChecked  -25.4337    1188.5874   ✗       
+700   N+0.984LDLKN+0.984EEVK   -1.0000     Failed      -25.4393    1202.6030   ✓       
+701   N+0.984LDLKNQ+0.984EVK   -1.0000     NotChecked  -25.4545    1201.6190   ✗       
+702   N+0.984LDLKDQ+0.984DVK   -1.0000     NotChecked  -25.4583    1188.5874   ✗       
+703   N+0.984TDLKDQ+0.984EVK   -1.0000     NotChecked  -25.4595    1190.5667   ✗       
+704   N+0.984LDLKNEQ+0.984VK   -1.0000     NotChecked  -25.5068    1201.6190   ✗       
+705   ELTLKDEEVK               -1.0000     Failed      -25.5100    1202.6394   ✓       
+706   N+0.984TDLKDEQ+0.984VK   -1.0000     NotChecked  -25.5117    1190.5667   ✗       
+707   N+0.984LN+0.984LKDEEAK   -1.0000     NotChecked  -25.5242    1174.5717   ✗       
+708   N+0.984LN+0.984LKDEQVK   -1.0000     NotChecked  -25.5257    1201.6190   ✗       
+709   N+0.984LDLKTEEVK         -1.0000     NotChecked  -25.5421    1188.6238   ✗       
+710   +42.011LMLKDEEVK         -1.0000     NotChecked  -25.5481    1145.6002   ✗       
+711   +42.011LDLKEEEVK         -1.0000     NotChecked  -25.5487    1143.6023   ✗       
+712   N+0.984LDLKDQ+0.984EVK   -1.0000     Failed      -25.5515    1202.6030   ✓       
+713   N+0.984VN+0.984LKDEEVK   -1.0000     NotChecked  -25.5522    1188.5874   ✗       
+714   N+0.984LN+0.984LKDEEVK   -1.0000     Failed      -25.5634    1202.6030   ✓       
+715   N+0.984LTLKDQ+0.984EVK   -1.0000     NotChecked  -25.5655    1188.6238   ✗       
+716   Q+0.984LDLKDEDVK         -1.0000     Failed      -25.5750    1202.6030   ✓       
+717   SEDLKDEEVK               -1.0000     NotChecked  -25.5808    1190.5667   ✗       
+718   N+0.984LDLKDEQ+0.984VK   -1.0000     Failed      -25.6038    1202.6030   ✓       
+719   N+0.984LTLKDEQ+0.984VK   -1.0000     NotChecked  -25.6178    1188.6238   ✗       
+720   VLDLSDEEVK               -1.0000     NotChecked  -25.6269    1145.5816   ✗       
+721   ALN+0.984LKN+0.984EEVK   -1.0000     NotChecked  -25.6343    1158.6132   ✗       
+722   VLLKDEEVK                -1.0000     NotChecked  -25.6457    1071.6176   ✗       
+723   N+0.984LDLQDQ+0.984EVK   -1.0000     Failed      -25.6485    1202.5667   ✓       
+724   VLQ+0.984LKDEEVK         -1.0000     NotChecked  -25.6486    1200.6602   ✗       
+725   N+0.984LDVKDEEVK         -1.0000     NotChecked  -25.6633    1188.5874   ✗       
+726   Q+0.984LTLKDEEVK         -1.0000     Failed      -25.6822    1202.6394   ✓       
+727   LLDLKN+0.984EEVK         -1.0000     NotChecked  -25.6867    1200.6602   ✗       
+728   SLSLKDEEVK               -1.0000     NotChecked  -25.6877    1146.6132   ✗       
+729   N+0.984LN+0.984LKDEVK    -1.0000     NotChecked  -25.6892    1073.5605   ✗       
+730   SLNLKDEEVK               -1.0000     NotChecked  -25.6978    1173.6241   ✗       
+731   N+0.984LDLQDEQ+0.984VK   -1.0000     Failed      -25.7008    1202.5667   ✓       
+732   ALDLKDQ+0.984Q+0.984VK   -1.0000     NotChecked  -25.7221    1158.6132   ✗       
+733   LLDLKDEEVK               -1.0000     NotChecked  -25.7343    1200.6602   ✗       
+734   N+0.984LN+0.984LKDEEVK   -1.0000     Failed      -25.7451    1202.6030   ✓       
+735   LN+0.984DLKDEEVK         -1.0000     Failed      -25.7507    1202.6030   ✓       
+736   N+0.984LN+0.984LKDEEVK   -1.0000     Failed      -25.7697    1202.6030   ✓       
+737   +42.011LDLKN+0.984EEVK   -1.0000     NotChecked  -25.7715    1129.5867   ✗       
+738   N+0.984LN+0.984LKDEVVK   -1.0000     NotChecked  -25.7718    1172.6289   ✗       
+739   +42.011LDLKDEEVK         -1.0000     NotChecked  -25.8192    1129.5867   ✗       
+740   VLDLKEEVK                -1.0000     NotChecked  -25.8220    1071.6176   ✗       
+741   +42.011N+0.984DLKDEEVK   -1.0000     NotChecked  -25.8355    1131.5295   ✗       
+742   VLDLKKEEVK               -1.0000     NotChecked  -25.8385    1199.7125   ✗       
+743   N+0.984LN+0.984LKDELVK   -1.0000     NotChecked  -25.8704    1186.6445   ✗       
+744   VLDLKDDEVK               -1.0000     NotChecked  -25.8991    1172.6289   ✗       
+745   VLDLKN+0.984Q+0.984EVK   -1.0000     NotChecked  -25.9033    1186.6445   ✗       
+746   N+0.984LN+0.984TKDEEVK   -1.0000     NotChecked  -25.9073    1190.5667   ✗       
+747   +42.011LDLRDEEVK         -1.0000     NotChecked  -25.9108    1157.5928   ✗       
+748   ELDLSDEEVK               -1.0000     NotChecked  -25.9132    1175.5558   ✗       
+749   LLDLKDEEVQ               -1.0000     NotChecked  -25.9148    1200.6238   ✗       
+750   +42.011LDLKDEELK         -1.0000     NotChecked  -25.9160    1143.6023   ✗       
+751   N+0.984LN+0.984LTDEEVK   -1.0000     NotChecked  -25.9168    1175.5558   ✗       
+752   N+0.984LN+0.984LKDEEPK   -1.0000     NotChecked  -25.9204    1200.5874   ✗       
+753   N+0.984LN+0.984LDDEEVK   -1.0000     NotChecked  -25.9257    1189.5350   ✗       
+754   ELLKDEEVK                -1.0000     NotChecked  -25.9320    1101.5918   ✗       
+755   N+0.984LSLKN+0.984EEVK   -1.0000     NotChecked  -25.9342    1174.6081   ✗       
+756   N+0.984LNLKN+0.984EEVK   -1.0000     NotChecked  -25.9443    1201.6190   ✗       
+757   ALDLKDEEVK               -1.0000     NotChecked  -25.9466    1158.6132   ✗       
+758   VLDLKN+0.984EQ+0.984VK   -1.0000     NotChecked  -25.9555    1186.6445   ✗       
+759   SLN+0.984LKN+0.984EEVK   -1.0000     NotChecked  -25.9630    1174.6081   ✗       
+760   N+0.984LDLSDQ+0.984EVK   -1.0000     NotChecked  -25.9688    1161.5401   ✗       
+761   LADLKDEEVK               -1.0000     NotChecked  -25.9858    1158.6132   ✗       
+762   N+0.984LLKDQ+0.984EVK    -1.0000     NotChecked  -25.9876    1087.5761   ✗       
+763   MLDLSDEEVK               -1.0000     NotChecked  -25.9940    1177.5537   ✗       
+764   +42.011LDLKDEEVQ         -1.0000     NotChecked  -25.9996    1129.5503   ✗       
+765   MLLKDEEVK                -1.0000     NotChecked  -26.0128    1103.5896   ✗       
+766   LLLLKDEEVK               -1.0000     NotChecked  -26.0175    1198.7173   ✗       
+767   N+0.984LDLSDEQ+0.984VK   -1.0000     NotChecked  -26.0210    1161.5401   ✗       
+768   VSDLKDEEVK               -1.0000     NotChecked  -26.0306    1160.5925   ✗       
+769   N+0.984LLKDEQ+0.984VK    -1.0000     NotChecked  -26.0398    1087.5761   ✗       
+770   SLDLKDQ+0.984Q+0.984VK   -1.0000     NotChecked  -26.0508    1174.6081   ✗       
+771   N+0.984LDLKDEEVK         -1.0000     Failed      -26.0542    1202.6030   ✓       
+772   +42.011ADLKDEEVK         -1.0000     NotChecked  -26.0706    1087.5397   ✗       
+773   N+0.984LN+0.984LKDEKVK   -1.0000     NotChecked  -26.0786    1201.6554   ✗       
+774   Q+0.984LDLSDEEVK         -1.0000     NotChecked  -26.0854    1175.5558   ✗       
+775   +42.011LLLKDEEVK         -1.0000     NotChecked  -26.1023    1127.6438   ✗       
+776   Q+0.984LLKDEEVK          -1.0000     NotChecked  -26.1042    1101.5918   ✗       
+777   ELDLKEEVK                -1.0000     NotChecked  -26.1083    1101.5918   ✗       
+778   N+0.984LDLKSEEVK         -1.0000     NotChecked  -26.1154    1174.6081   ✗       
+779   LLDLKNEEVK               -1.0000     NotChecked  -26.1276    1199.6762   ✗       
+780   ALMLKDEEVK               -1.0000     NotChecked  -26.1296    1174.6268   ✗       
+781   ALDLKEEEVK               -1.0000     NotChecked  -26.1302    1172.6289   ✗       
+782   LLDLKDEDVK               -1.0000     NotChecked  -26.1315    1186.6445   ✗       
+783   LTDLKDEEVK               -1.0000     NotChecked  -26.1326    1188.6238   ✗       
+784   N+0.984LN+0.984LKDEEVK   -1.0000     Failed      -26.1355    1202.6030   ✓       
+785   N+0.984LDLKQ+0.984EVK    -1.0000     NotChecked  -26.1639    1087.5761   ✗       
+786   ELDLKDDEVK               -1.0000     Failed      -26.1854    1202.6030   ✓       
+787   MLDLKEEVK                -1.0000     NotChecked  -26.1891    1103.5896   ✗       
+788   +42.011LDLKNEEVK         -1.0000     NotChecked  -26.2125    1128.6027   ✗       
+789   VLDEKDEEVK               -1.0000     Failed      -26.2142    1202.6030   ✓       
+790   N+0.984LDLKEQ+0.984VK    -1.0000     NotChecked  -26.2161    1087.5761   ✗       
+791   +42.011LDLKDEDVK         -1.0000     NotChecked  -26.2163    1115.5710   ✗       
+792   +42.011TDLKDEEVK         -1.0000     NotChecked  -26.2174    1117.5503   ✗       
+793   LLDLKDEEVK               -1.0000     NotChecked  -26.2246    1200.6602   ✗       
+794   LLTLKDEEVK               -1.0000     NotChecked  -26.2386    1186.6809   ✗       
+795   N+0.984LN+0.984LKDTEVK   -1.0000     NotChecked  -26.2410    1174.6081   ✗       
+796   N+0.984LDLKDEQVK         -1.0000     NotChecked  -26.2444    1201.6190   ✗       
+797   VLDDKDEEVK               -1.0000     NotChecked  -26.2504    1188.5874   ✗       
+798   SLDLKDEEVK               -1.0000     NotChecked  -26.2754    1174.6081   ✗       
+799   Q+0.984LDLKEEVK          -1.0000     NotChecked  -26.2805    1101.5918   ✗       
+800   N+0.984LDLKDDQ+0.984VK   -1.0000     NotChecked  -26.2932    1188.5874   ✗       
+801   N+0.984LDLKN+0.984Q+0.984Q+0.984VK-1.0000     Failed      -26.2974    1202.6031   ✓       
+802   +42.011LDLKDEEVK         -1.0000     NotChecked  -26.3095    1129.5867   ✗       
+803   N+0.984LN+0.984LKDEEVK   -1.0000     Failed      -26.3138    1202.6030   ✓       
+804   ESDLKDEEVK               -1.0000     NotChecked  -26.3170    1190.5667   ✗       
+805   LLDLQDEEVK               -1.0000     NotChecked  -26.3216    1200.6238   ✗       
+806   VLDLKDEN+0.984VK         -1.0000     NotChecked  -26.3234    1172.6289   ✗       
+807   +42.011LTLKDEEVK         -1.0000     NotChecked  -26.3235    1115.6074   ✗       
+808   N+0.984LN+0.984LKDEEVK   -1.0000     Failed      -26.3397    1202.6030   ✓       
+809   ALDLKN+0.984EEVK         -1.0000     NotChecked  -26.3530    1158.6132   ✗       
+810   Q+0.984LDLKDDEVK         -1.0000     Failed      -26.3576    1202.6030   ✓       
+811   N+0.984SDLKDQ+0.984EVK   -1.0000     NotChecked  -26.3725    1176.5510   ✗       
+812   N+0.984LN+0.984LKLEEVK   -1.0000     NotChecked  -26.3948    1200.6602   ✗       
+813   MSDLKDEEVK               -1.0000     NotChecked  -26.3977    1192.5646   ✗       
+814   ALDLKDEEVK               -1.0000     NotChecked  -26.4006    1158.6132   ✗       
+815   +42.011LDLQDEEVK         -1.0000     NotChecked  -26.4065    1129.5503   ✗       
+816   N+0.984LDLKDEVK          -1.0000     NotChecked  -26.4079    1073.5605   ✗       
+817   AN+0.984DLKDEEVK         -1.0000     NotChecked  -26.4170    1160.5561   ✗       
+818   N+0.984SDLKDEQ+0.984VK   -1.0000     NotChecked  -26.4247    1176.5510   ✗       
+819   VLDLKTEEVK               -1.0000     NotChecked  -26.4318    1172.6652   ✗       
+820   VVN+0.984LKDEEVK         -1.0000     NotChecked  -26.4420    1172.6289   ✗       
+821   VLN+0.984LKDEEVK         -1.0000     NotChecked  -26.4531    1186.6445   ✗       
+822   SLMLKDEEVK               -1.0000     NotChecked  -26.4584    1190.6217   ✗       
+823   SLDLKEEEVK               -1.0000     NotChecked  -26.4590    1188.6238   ✗       
+824   N+0.984LN+0.984LKDEEK    -1.0000     NotChecked  -26.4771    1103.5346   ✗       
+825   N+0.984LN+0.984LNDEEVK   -1.0000     NotChecked  -26.4818    1188.5510   ✗       
+826   N+0.984LDLKDEEVK         -1.0000     Failed      -26.4884    1202.6030   ✓       
+827   Q+0.984SDLKDEEVK         -1.0000     NotChecked  -26.4891    1190.5667   ✗       
+828   N+0.984LDLKDEVK          -1.0000     NotChecked  -26.4905    1073.5605   ✗       
+829   ALDLRDEEVK               -1.0000     NotChecked  -26.4923    1186.6194   ✗       
+830   ALDLKDEELK               -1.0000     NotChecked  -26.4975    1172.6289   ✗       
+831   N+0.984LDLKN+0.984EEVK   -1.0000     Failed      -26.5219    1202.6030   ✓       
+832   VLDVKDEEVK               -1.0000     NotChecked  -26.5531    1172.6289   ✗       
+833   ALDLKDEEVQ               -1.0000     NotChecked  -26.5811    1158.5768   ✗       
+834   N+0.984LDLKDELVK         -1.0000     NotChecked  -26.5891    1186.6445   ✗       
+835   ELDLKDEN+0.984VK         -1.0000     Failed      -26.6098    1202.6030   ✓       
+836   N+0.984LDTKDEEVK         -1.0000     NotChecked  -26.6260    1190.5667   ✗       
+837   N+0.984LDLTDEEVK         -1.0000     NotChecked  -26.6355    1175.5558   ✗       
+838   LLDLSDEEVK               -1.0000     NotChecked  -26.6419    1159.5972   ✗       
+839   N+0.984LDLDDEEVK         -1.0000     NotChecked  -26.6444    1189.5350   ✗       
+840   AADLKDEEVK               -1.0000     NotChecked  -26.6521    1116.5663   ✗       
+841   LLLKDEEVK                -1.0000     NotChecked  -26.6607    1085.6332   ✗       
+842   VLDLKDEHVK               -1.0000     NotChecked  -26.6647    1194.6608   ✗       
+843   N+0.984LDLKDQ+0.984N+0.984VK-1.0000     NotChecked  -26.6653    1188.5874   ✗       
+844   SLDLKN+0.984EEVK         -1.0000     NotChecked  -26.6817    1174.6081   ✗       
+845   ALLLKDEEVK               -1.0000     NotChecked  -26.6838    1156.6703   ✗       
+846   N+0.984LN+0.984LKDQEVK   -1.0000     NotChecked  -26.7101    1201.6190   ✗       
+847   ELDLKTEEVK               -1.0000     Failed      -26.7181    1202.6394   ✓       
+848   +42.011LDLSDEEVK         -1.0000     NotChecked  -26.7267    1088.5237   ✗       
+849   EVN+0.984LKDEEVK         -1.0000     Failed      -26.7283    1202.6030   ✓       
+850   SLDLKDEEVK               -1.0000     NotChecked  -26.7294    1174.6081   ✗       
+851   N+0.984LN+0.984SKDEEVK   -1.0000     NotChecked  -26.7412    1176.5510   ✗       
+852   +42.011LLKDEEVK          -1.0000     NotChecked  -26.7455    1014.5597   ✗       
+853   SN+0.984DLKDEEVK         -1.0000     NotChecked  -26.7457    1176.5510   ✗       
+854   +42.011LQ+0.984LKDEEVK   -1.0000     NotChecked  -26.7484    1143.6023   ✗       
+855   +42.011GLDLKDEEVK        -1.0000     NotChecked  -26.7589    1186.6081   ✗       
+856   +42.011MDLKDEEVK         -1.0000     NotChecked  -26.7690    1147.5431   ✗       
+857   N+0.984LDLKTQ+0.984EVK   -1.0000     NotChecked  -26.7737    1188.6238   ✗       
+858   Q+0.984LDLKDEN+0.984VK   -1.0000     Failed      -26.7819    1202.6030   ✓       
+859   N+0.984VN+0.984LKDQ+0.984EVK-1.0000     NotChecked  -26.7838    1188.5874   ✗       
+860   ALDLKNEEVK               -1.0000     NotChecked  -26.7939    1157.6292   ✗       
+861   N+0.984LN+0.984LKDQ+0.984EVK-1.0000     Failed      -26.7950    1202.6030   ✓       
+862   N+0.984LDLKDEKVK         -1.0000     NotChecked  -26.7973    1201.6554   ✗       
+863   ALDLKDEDVK               -1.0000     NotChecked  -26.7977    1144.5976   ✗       
+864   ATDLKDEEVK               -1.0000     NotChecked  -26.7989    1146.5768   ✗       
+865   SLDLRDEEVK               -1.0000     Failed      -26.8210    1202.6143   ✓       
+866   N+0.984LDLKTEQ+0.984VK   -1.0000     NotChecked  -26.8259    1188.6238   ✗       
+867   SLDLKDEELK               -1.0000     NotChecked  -26.8262    1188.6238   ✗       
+868   N+0.984VN+0.984LKDEQ+0.984VK-1.0000     NotChecked  -26.8360    1188.5874   ✗       
+869   LLDLKEEVK                -1.0000     NotChecked  -26.8370    1085.6332   ✗       
+870   ELDVKDEEVK               -1.0000     Failed      -26.8394    1202.6030   ✓       
+871   N+0.984LN+0.984LKDEQ+0.984VK-1.0000     Failed      -26.8472    1202.6030   ✓       
+872   N+0.984LDLKDEEVK         -1.0000     Failed      -26.8542    1202.6030   ✓       
+873   N+0.984LDLKDEEVK         -1.0000     Failed      -26.8575    1202.6030   ✓       
+874   SLDLKDEEVK               -1.0000     NotChecked  -26.8768    1174.6081   ✗       
+875   N+0.984LN+0.984LKDEEVK   -1.0000     Failed      -26.8785    1202.6030   ✓       
+876   N+0.984LN+0.984LKDEEVK   -1.0000     Failed      -26.8880    1202.6030   ✓       
+877   Q+0.984LDLKTEEVK         -1.0000     Failed      -26.8903    1202.6394   ✓       
+878   ALDLKDEEVK               -1.0000     NotChecked  -26.8909    1158.6132   ✗       
+879   N+0.984LN+0.984LKDEEVK   -1.0000     Failed      -26.8911    1202.6030   ✓       
+880   N+0.984LDVKDQ+0.984EVK   -1.0000     NotChecked  -26.8949    1188.5874   ✗       
+881   Q+0.984VN+0.984LKDEEVK   -1.0000     Failed      -26.9004    1202.6030   ✓       
+882   ALTLKDEEVK               -1.0000     NotChecked  -26.9049    1144.6339   ✗       
+883   SLDLKDEEVQ               -1.0000     NotChecked  -26.9099    1174.5717   ✗       
+884   LLDLKDDEVK               -1.0000     NotChecked  -26.9141    1186.6445   ✗       
+885   VLDLEDEEVK               -1.0000     NotChecked  -26.9174    1187.5921   ✗       
+886   LLDLKN+0.984Q+0.984EVK   -1.0000     NotChecked  -26.9183    1200.6602   ✗       
+887   +42.011LDLKEEVK          -1.0000     NotChecked  -26.9218    1014.5597   ✗       
+888   +42.011LDLKKEEVK         -1.0000     NotChecked  -26.9383    1142.6547   ✗       
+889   VLDLKDEEK                -1.0000     NotChecked  -26.9439    1087.5761   ✗       
+890   N+0.984LDVKDEQ+0.984VK   -1.0000     NotChecked  -26.9471    1188.5874   ✗       
+891   N+0.984LN+0.984LKDN+0.984EVK-1.0000     NotChecked  -26.9474    1188.5874   ✗       
+892   N+0.984LDLKDTEVK         -1.0000     NotChecked  -26.9597    1174.6081   ✗       
+893   +42.011WDLKDEEVK         -1.0000     Failed      -26.9700    1202.5819   ✓       
+894   LLDLKN+0.984EQ+0.984VK   -1.0000     NotChecked  -26.9705    1200.6602   ✗       
+895   N+0.984LDLKN+0.984EEVK   -1.0000     Failed      -26.9759    1202.6030   ✓       
+896   SADLKDEEVK               -1.0000     NotChecked  -26.9808    1132.5612   ✗       
+897   ALDLQDEEVK               -1.0000     NotChecked  -26.9879    1158.5768   ✗       
+898   +42.011LDLKDDEVK         -1.0000     NotChecked  -26.9989    1115.5710   ✗       
+899   +42.011LDLKN+0.984Q+0.984EVK-1.0000     NotChecked  -27.0031    1129.5867   ✗       
+900   VLDLKSEEVK               -1.0000     NotChecked  -27.0051    1158.6496   ✗       
+901   Q+0.984LDVKDEEVK         -1.0000     Failed      -27.0115    1202.6030   ✓       
+902   SLLLKDEEVK               -1.0000     NotChecked  -27.0125    1172.6653   ✗       
+903   N+0.984LDLKDEEVK         -1.0000     Failed      -27.0325    1202.6030   ✓       
+904   N+0.984LN+0.984LKDSEVK   -1.0000     NotChecked  -27.0431    1160.5925   ✗       
+905   LSDLKDEEVK               -1.0000     NotChecked  -27.0456    1174.6081   ✗       
+906   +42.011LDLKN+0.984EQ+0.984VK-1.0000     NotChecked  -27.0553    1129.5867   ✗       
+907   N+0.984LDLKDEEVK         -1.0000     Failed      -27.0584    1202.6030   ✓       
+908   N+0.984LDLKLEEVK         -1.0000     NotChecked  -27.1135    1200.6602   ✗       
+909   SLDLKNEEVK               -1.0000     NotChecked  -27.1227    1173.6241   ✗       
+910   SLDLKDEDVK               -1.0000     NotChecked  -27.1265    1160.5925   ✗       
+911   STDLKDEEVK               -1.0000     NotChecked  -27.1276    1162.5717   ✗       
+912   +42.011SDLKDEEVK         -1.0000     NotChecked  -27.1304    1103.5346   ✗       
+913   VLDLKDEEAK               -1.0000     NotChecked  -27.1327    1158.6132   ✗       
+914   VLDLKDEQVK               -1.0000     NotChecked  -27.1342    1185.6605   ✗       
+915   N+0.984LN+0.984LKDKEVK   -1.0000     NotChecked  -27.1407    1201.6554   ✗       
+916   N+0.984LDLKN+0.984EEVQ   -1.0000     Failed      -27.1564    1202.5667   ✓       
+917   VVDLKDEEVK               -1.0000     NotChecked  -27.1607    1172.6289   ✗       
+918   VLDLKDEEVK               -1.0000     NotChecked  -27.1718    1186.6445   ✗       
+919   N+0.984LDLKDEEVK         -1.0000     Failed      -27.1958    1202.6030   ✓       
+920   N+0.984LDLNDEEVK         -1.0000     NotChecked  -27.2005    1188.5510   ✗       
+921   SLDLKDEEVK               -1.0000     NotChecked  -27.2197    1174.6081   ✗       
+922   N+0.984ADLKN+0.984EEVK   -1.0000     NotChecked  -27.2273    1160.5561   ✗       
+923   ELDLKDEEK                -1.0000     NotChecked  -27.2302    1117.5503   ✗       
+924   SLTLKDEEVK               -1.0000     NotChecked  -27.2337    1160.6289   ✗       
+925   +42.011LDLKDEEEK         -1.0000     NotChecked  -27.2370    1159.5608   ✗       
+926   N+0.984LLLKN+0.984EEVK   -1.0000     NotChecked  -27.2590    1200.6602   ✗       
+927   LLDDKDEEVK               -1.0000     Failed      -27.2654    1202.6030   ✓       
+928   N+0.984LDLKDQ+0.984EK    -1.0000     NotChecked  -27.2858    1103.5346   ✗       
+929   ELDLKSEEVK               -1.0000     NotChecked  -27.2914    1188.6238   ✗       
+930   VLDLKDEVK                -1.0000     NotChecked  -27.2977    1057.6019   ✗       
+931   ALDLSDEEVK               -1.0000     NotChecked  -27.3082    1117.5503   ✗       
+932   MLDLKDEEK                -1.0000     NotChecked  -27.3110    1119.5482   ✗       
+933   +42.011LDEKDEEVK         -1.0000     NotChecked  -27.3140    1145.5452   ✗       
+934   SLDLQDEEVK               -1.0000     NotChecked  -27.3167    1174.5717   ✗       
+935   ALLKDEEVK                -1.0000     NotChecked  -27.3270    1043.5863   ✗       
+936   ALQ+0.984LKDEEVK         -1.0000     NotChecked  -27.3299    1172.6289   ✗       
+937   N+0.984LDLKDEQ+0.984K    -1.0000     NotChecked  -27.3380    1103.5346   ✗       
+938   LLDLKDEN+0.984VK         -1.0000     NotChecked  -27.3384    1186.6445   ✗       
+939   VLN+0.984LKDQ+0.984EVK   -1.0000     NotChecked  -27.3425    1186.6445   ✗       
+940   N+0.984LDLKSQ+0.984EVK   -1.0000     NotChecked  -27.3470    1174.6081   ✗       
+941   +42.011LDDKDEEVK         -1.0000     NotChecked  -27.3502    1131.5295   ✗       
+942   AMDLKDEEVK               -1.0000     NotChecked  -27.3505    1176.5696   ✗       
+943   VLDLKDEEVK               -1.0000     NotChecked  -27.3535    1186.6445   ✗       
+944   MLDLKSEEVK               -1.0000     NotChecked  -27.3722    1190.6217   ✗       
+945   N+0.984LDLKN+0.984EDVK   -1.0000     NotChecked  -27.3730    1188.5874   ✗       
+946   N+0.984TDLKN+0.984EEVK   -1.0000     NotChecked  -27.3742    1190.5667   ✗       
+947   VLDLKDEEVK               -1.0000     NotChecked  -27.3781    1186.6445   ✗       
+948   VLDLKDEVVK               -1.0000     NotChecked  -27.3802    1156.6703   ✗       
+949   VLN+0.984LKDEQ+0.984VK   -1.0000     NotChecked  -27.3947    1186.6445   ✗       
+950   N+0.984LDLKSEQ+0.984VK   -1.0000     NotChecked  -27.3992    1174.6081   ✗       
+951   Q+0.984LDLKDEEK          -1.0000     NotChecked  -27.4024    1117.5503   ✗       
+952   VDN+0.984LKDEEVK         -1.0000     NotChecked  -27.4173    1188.5874   ✗       
+953   ELDLKDEEAK               -1.0000     NotChecked  -27.4190    1188.5874   ✗       
+954   +42.011LDLKDEN+0.984VK   -1.0000     NotChecked  -27.4232    1115.5710   ✗       
+955   N+0.984LDLKDQEVK         -1.0000     NotChecked  -27.4288    1201.6190   ✗       
+956   LLDLKTEEVK               -1.0000     NotChecked  -27.4468    1186.6809   ✗       
+957   EVDLKDEEVK               -1.0000     Failed      -27.4470    1202.6030   ✓       
+958   +42.011ALDLKDEEVK        -1.0000     NotChecked  -27.4471    1200.6238   ✗       
+959   LVN+0.984LKDEEVK         -1.0000     NotChecked  -27.4569    1186.6445   ✗       
+960   N+0.984LDSKDEEVK         -1.0000     NotChecked  -27.4599    1176.5510   ✗       
+961   Q+0.984LDLKSEEVK         -1.0000     NotChecked  -27.4636    1188.6238   ✗       
+962   N+0.984LDLKN+0.984EEVK   -1.0000     Failed      -27.4662    1202.6030   ✓       
+963   LLN+0.984LKDEEVK         -1.0000     NotChecked  -27.4681    1200.6602   ✗       
+964   N+0.984LDLKDQ+0.984EAK   -1.0000     NotChecked  -27.4745    1174.5717   ✗       
+965   N+0.984LDLKDQ+0.984QVK   -1.0000     NotChecked  -27.4760    1201.6190   ✗       
+966   VLDLKDELVK               -1.0000     NotChecked  -27.4788    1170.6860   ✗       
+967   N+0.984LTLKN+0.984EEVK   -1.0000     NotChecked  -27.4802    1188.6238   ✗       
+968   MLDLKDEEAK               -1.0000     NotChecked  -27.4997    1190.5853   ✗       
+969   N+0.984VDLKDQ+0.984EVK   -1.0000     NotChecked  -27.5025    1188.5874   ✗       
+970   ALDLKEEVK                -1.0000     NotChecked  -27.5033    1043.5863   ✗       
+971   N+0.984LDLKDQ+0.984EVK   -1.0000     Failed      -27.5137    1202.6030   ✓       
+972   VLDTKDEEVK               -1.0000     NotChecked  -27.5158    1174.6081   ✗       
+973   ALDLKKEEVK               -1.0000     NotChecked  -27.5198    1171.6812   ✗       
+974   VLDLTDEEVK               -1.0000     NotChecked  -27.5253    1159.5972   ✗       
+975   N+0.984LDLKDEQ+0.984AK   -1.0000     NotChecked  -27.5267    1174.5717   ✗       
+976   VLDLKDEEPK               -1.0000     NotChecked  -27.5289    1184.6289   ✗       
+977   +42.011LDLKTEEVK         -1.0000     NotChecked  -27.5316    1115.6074   ✗       
+978   VLDLDDEEVK               -1.0000     NotChecked  -27.5341    1173.5765   ✗       
+979   +42.011VN+0.984LKDEEVK   -1.0000     NotChecked  -27.5417    1115.5710   ✗       
+980   +42.011LN+0.984LKDEEVK   -1.0000     NotChecked  -27.5529    1129.5867   ✗       
+981   VLDLQ+0.984DEEVK         -1.0000     NotChecked  -27.5532    1187.5922   ✗       
+982   N+0.984VDLKDEQ+0.984VK   -1.0000     NotChecked  -27.5547    1188.5874   ✗       
+983   N+0.984LDLQN+0.984EEVK   -1.0000     Failed      -27.5632    1202.5667   ✓       
+984   N+0.984LDLKDEQ+0.984VK   -1.0000     Failed      -27.5659    1202.6030   ✓       
+985   LLDVKDEEVK               -1.0000     NotChecked  -27.5680    1186.6445   ✗       
+986   ALDLKDDEVK               -1.0000     NotChecked  -27.5804    1144.5976   ✗       
+987   ELDLKDEVK                -1.0000     NotChecked  -27.5840    1087.5761   ✗       
+988   ALDLKN+0.984Q+0.984EVK   -1.0000     NotChecked  -27.5846    1158.6132   ✗       
+989   Q+0.984LDLKDEEAK         -1.0000     NotChecked  -27.5911    1188.5874   ✗       
+990   N+0.984LDLKDEEVK         -1.0000     Failed      -27.6067    1202.6030   ✓       
+991   N+0.984LDLKDEEVK         -1.0000     Failed      -27.6098    1202.6030   ✓       
+992   Q+0.984VDLKDEEVK         -1.0000     Failed      -27.6191    1202.6030   ✓       
+993   VLDKKDEEVK               -1.0000     NotChecked  -27.6267    1201.6554   ✗       
+994   ALDLKN+0.984EQ+0.984VK   -1.0000     NotChecked  -27.6368    1158.6132   ✗       
+995   SLDLSDEEVK               -1.0000     NotChecked  -27.6369    1133.5452   ✗       
+996   N+0.984LDLKDQ+0.984VK    -1.0000     NotChecked  -27.6395    1073.5605   ✗       
+997   +42.011LDVKDEEVK         -1.0000     NotChecked  -27.6528    1115.5710   ✗       
+998   VLDLKDHEVK               -1.0000     NotChecked  -27.6541    1194.6608   ✗       
+999   SLLKDEEVK                -1.0000     NotChecked  -27.6557    1059.5812   ✗       
+1000  SLQ+0.984LKDEEVK         -1.0000     NotChecked  -27.6586    1188.6238   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: DLDLKDEEVK
+Similarity: 0.8873
+De Novo Score: -0.0274
+Source: Database
+Correct: ✓
+

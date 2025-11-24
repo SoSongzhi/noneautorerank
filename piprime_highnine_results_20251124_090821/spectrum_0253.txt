@@ -1,0 +1,1047 @@
+================================================================================
+Spectrum 253
+================================================================================
+
+Spectrum Information:
+--------------------------------------------------------------------------------
+Precursor m/z: 538.7907
+Precursor charge: 2+
+Ground truth: PAVTEYIQR
+Ground truth (normalized): PAVTEYIQR
+
+Beam Search Results:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 188
+Used for reranking: 188
+
+Candidate Statistics:
+--------------------------------------------------------------------------------
+Total candidates: 1000
+Passed mass check: 188 (18.8%)
+Database matches: 123 (12.3%)
+Prosit predictions: 63 (6.3%)
+Failed: 2 (0.2%)
+
+Ground Truth Analysis:
+--------------------------------------------------------------------------------
+Ground truth found: ✓
+Rank in beam search: 1/1000
+Rank by similarity: 1/1000
+Similarity: 0.5255
+Source: Database
+Passed mass check: ✓
+
+All 1000 Candidates (sorted by similarity):
+------------------------------------------------------------------------------------------------------------------------
+Rank  Peptide                  Similarity  Source      BeamScore   Mass        Pass    Correct
+------------------------------------------------------------------------------------------------------------------------
+1     PAVTEYLQR                0.5255      Database    -0.8606     1075.5662   ✓       ✓
+2     PAVTEYLQR                0.5255      Database    -1.2394     1075.5662   ✓       ✓
+3     PAVTEYLQR                0.5255      Database    -1.7713     1075.5662   ✓       ✓
+4     PAVTEYLQR                0.5255      Database    -2.1501     1075.5662   ✓       ✓
+5     PAVTEYLQR                0.5255      Database    -8.5590     1075.5662   ✓       ✓
+6     PAVTEYLQR                0.5255      Database    -8.9378     1075.5662   ✓       ✓
+7     PAVTEYLQR                0.5255      Database    -9.4697     1075.5662   ✓       ✓
+8     PAVTEYLQR                0.5255      Database    -9.6619     1075.5662   ✓       ✓
+9     PAVTEYLQR                0.5255      Database    -9.8485     1075.5662   ✓       ✓
+10    PAVTEYLQR                0.5255      Database    -10.5726    1075.5662   ✓       ✓
+11    PAVTEYLQR                0.5255      Database    -11.7569    1075.5662   ✓       ✓
+12    PAVTEYLQR                0.5255      Database    -11.8820    1075.5662   ✓       ✓
+13    PAVTEYLQR                0.5255      Database    -12.1357    1075.5662   ✓       ✓
+14    PAVTEYLQR                0.5255      Database    -12.2608    1075.5662   ✓       ✓
+15    PAVTEYLQR                0.5255      Database    -12.6676    1075.5662   ✓       ✓
+16    PAVTEYLQR                0.5255      Database    -12.7927    1075.5662   ✓       ✓
+17    PAVTEYLQR                0.5255      Database    -13.0464    1075.5662   ✓       ✓
+18    PAVTEYLQR                0.5255      Database    -13.1715    1075.5662   ✓       ✓
+19    PAVTEYLQR                0.5255      Database    -13.6664    1075.5662   ✓       ✓
+20    PAVTEYLQR                0.5255      Database    -14.0452    1075.5662   ✓       ✓
+21    PAVTEYLQR                0.5255      Database    -14.5771    1075.5662   ✓       ✓
+22    PAVTEYLQR                0.5255      Database    -14.9559    1075.5662   ✓       ✓
+23    PAVTEYLQR                0.5255      Database    -15.7798    1075.5662   ✓       ✓
+24    PAVTEYLQR                0.5255      Database    -16.1586    1075.5662   ✓       ✓
+25    PAVTEYLQR                0.5255      Database    -16.6186    1075.5662   ✓       ✓
+26    PAVTEYLQR                0.5255      Database    -16.6905    1075.5662   ✓       ✓
+27    PAVTEYLQR                0.5255      Database    -16.9974    1075.5662   ✓       ✓
+28    PAVTEYLQR                0.5255      Database    -17.0693    1075.5662   ✓       ✓
+29    PAVTEYLQR                0.5255      Database    -17.3603    1075.5662   ✓       ✓
+30    PAVTEYLQR                0.5255      Database    -17.5143    1075.5662   ✓       ✓
+31    PAVTEYLQR                0.5255      Database    -17.5293    1075.5662   ✓       ✓
+32    PAVTEYLQR                0.5255      Database    -17.8931    1075.5662   ✓       ✓
+33    PAVTEYLQR                0.5255      Database    -17.9081    1075.5662   ✓       ✓
+34    PAVTEYLQR                0.5255      Database    -18.2710    1075.5662   ✓       ✓
+35    PAVTEYLQR                0.5255      Database    -18.3930    1075.5662   ✓       ✓
+36    PAVTEYLQR                0.5255      Database    -18.5048    1075.5662   ✓       ✓
+37    PAVTEYLQR                0.5255      Database    -18.7262    1075.5662   ✓       ✓
+38    PAVTEYLQR                0.5255      Database    -18.8836    1075.5662   ✓       ✓
+39    PAVTEYLQR                0.5255      Database    -19.1051    1075.5662   ✓       ✓
+40    PAVTEYLQR                0.5255      Database    -19.4155    1075.5662   ✓       ✓
+41    PAVTEYLQR                0.5255      Database    -19.4553    1075.5662   ✓       ✓
+42    PAVTEYLQR                0.5255      Database    -19.5804    1075.5662   ✓       ✓
+43    PAVTEYLQR                0.5255      Database    -19.7943    1075.5662   ✓       ✓
+44    PAVTEYLQR                0.5255      Database    -19.8341    1075.5662   ✓       ✓
+45    PAVTEYLQR                0.5255      Database    -19.9592    1075.5662   ✓       ✓
+46    PAVTEYLQR                0.5255      Database    -19.9888    1075.5662   ✓       ✓
+47    PAVTEYLQR                0.5255      Database    -20.3660    1075.5662   ✓       ✓
+48    PAVTEYLQR                0.5255      Database    -20.3676    1075.5662   ✓       ✓
+49    PAVTEYLQR                0.5255      Database    -20.4911    1075.5662   ✓       ✓
+50    PAVTEYLQR                0.5255      Database    -20.5582    1075.5662   ✓       ✓
+51    PAVTEYLQR                0.5255      Database    -20.6833    1075.5662   ✓       ✓
+52    PAVTEYLQR                0.5255      Database    -20.7448    1075.5662   ✓       ✓
+53    PAVTEYLQR                0.5255      Database    -20.8699    1075.5662   ✓       ✓
+54    PAVTEYLQR                0.5255      Database    -20.8995    1075.5662   ✓       ✓
+55    PAVTEYLQR                0.5255      Database    -21.2783    1075.5662   ✓       ✓
+56    PAVTEYLQR                0.5255      Database    -21.2864    1075.5662   ✓       ✓
+57    PAVTEYLQR                0.5255      Database    -21.3648    1075.5662   ✓       ✓
+58    PAVTEYLQR                0.5255      Database    -21.4689    1075.5662   ✓       ✓
+59    PAVTEYLQR                0.5255      Database    -21.5940    1075.5662   ✓       ✓
+60    PAVTEYLQR                0.5255      Database    -21.6653    1075.5662   ✓       ✓
+61    PAVTEYLQR                0.5255      Database    -21.6857    1075.5662   ✓       ✓
+62    PAVTEYLQR                0.5255      Database    -21.7436    1075.5662   ✓       ✓
+63    PAVTEYLQR                0.5255      Database    -22.0645    1075.5662   ✓       ✓
+64    PAVTEYLQR                0.5255      Database    -22.1972    1075.5662   ✓       ✓
+65    PAVTEYLQR                0.5255      Database    -22.2755    1075.5662   ✓       ✓
+66    PAVTEYLQR                0.5255      Database    -22.4677    1075.5662   ✓       ✓
+67    PAVTEYLQR                0.5255      Database    -22.5760    1075.5662   ✓       ✓
+68    PAVTEYLQR                0.5255      Database    -22.5964    1075.5662   ✓       ✓
+69    PAVTEYLQR                0.5255      Database    -22.6543    1075.5662   ✓       ✓
+70    PAVTEYLQR                0.5255      Database    -22.7783    1075.5662   ✓       ✓
+71    PAVTEYLQR                0.5255      Database    -22.9752    1075.5662   ✓       ✓
+72    PAVTEYLQR                0.5255      Database    -23.1571    1075.5662   ✓       ✓
+73    PAVTEYLQR                0.5255      Database    -23.3567    1075.5662   ✓       ✓
+74    PAVTEYLQR                0.5255      Database    -23.3784    1075.5662   ✓       ✓
+75    PAVTEYLQR                0.5255      Database    -23.5631    1075.5662   ✓       ✓
+76    PAVTEYLQR                0.5255      Database    -23.6890    1075.5662   ✓       ✓
+77    PAVTEYLQR                0.5255      Database    -23.7355    1075.5662   ✓       ✓
+78    PAVTEYLQR                0.5255      Database    -23.9419    1075.5662   ✓       ✓
+79    PAVTEYLQR                0.5255      Database    -24.0678    1075.5662   ✓       ✓
+80    PAVTEYLQR                0.5255      Database    -24.1860    1075.5662   ✓       ✓
+81    PAVTEYLQR                0.5255      Database    -24.2674    1075.5662   ✓       ✓
+82    PAVTEYLQR                0.5255      Database    -24.3169    1075.5662   ✓       ✓
+83    PAVTEYLQR                0.5255      Database    -24.4738    1075.5662   ✓       ✓
+84    PAVTEYLQR                0.5255      Database    -24.5627    1075.5662   ✓       ✓
+85    PAVTEYLQR                0.5255      Database    -24.5648    1075.5662   ✓       ✓
+86    PAVTEYLQR                0.5255      Database    -24.5811    1075.5662   ✓       ✓
+87    PAVTEYLQR                0.5255      Database    -24.6462    1075.5662   ✓       ✓
+88    PAVTEYLQR                0.5255      Database    -24.6878    1075.5662   ✓       ✓
+89    PAVTEYLQR                0.5255      Database    -24.6958    1075.5662   ✓       ✓
+90    PAVTEYLQR                0.5255      Database    -24.8526    1075.5662   ✓       ✓
+91    PAVTEYLQR                0.5255      Database    -24.9415    1075.5662   ✓       ✓
+92    PAVTEYLQR                0.5255      Database    -25.0666    1075.5662   ✓       ✓
+93    PAVTEYLQR                0.5255      Database    -25.0967    1075.5662   ✓       ✓
+94    PAVTEYLQR                0.5255      Database    -25.2127    1075.5662   ✓       ✓
+95    PAVTEYLQR                0.5255      Database    -25.2276    1075.5662   ✓       ✓
+96    PAVTEYLQR                0.5255      Database    -25.4199    1075.5662   ✓       ✓
+97    PAVTEYLQR                0.5255      Database    -25.4734    1075.5662   ✓       ✓
+98    PAVTEYLQR                0.5255      Database    -25.4755    1075.5662   ✓       ✓
+99    PAVTEYLQR                0.5255      Database    -25.4918    1075.5662   ✓       ✓
+100   PAVTEYLQR                0.5255      Database    -25.5915    1075.5662   ✓       ✓
+101   PAVTEYLQR                0.5255      Database    -25.5985    1075.5662   ✓       ✓
+102   PAVTEYLQR                0.5255      Database    -25.6065    1075.5662   ✓       ✓
+103   PAVTEYLQR                0.5255      Database    -25.8522    1075.5662   ✓       ✓
+104   PAVTEYLQR                0.5255      Database    -25.9773    1075.5662   ✓       ✓
+105   PAVTEYLQR                0.5255      Database    -26.0914    1075.5662   ✓       ✓
+106   PAVTEYLQR                0.5255      Database    -26.2031    1075.5662   ✓       ✓
+107   PAVTEYLQR                0.5255      Database    -26.3156    1075.5662   ✓       ✓
+108   PAVTEYLQR                0.5255      Database    -26.3306    1075.5662   ✓       ✓
+109   PAVTEYLQR                0.5255      Database    -26.4246    1075.5662   ✓       ✓
+110   PAVTEYLQR                0.5255      Database    -26.5819    1075.5662   ✓       ✓
+111   PAVTEYLQR                0.5255      Database    -26.6168    1075.5662   ✓       ✓
+112   PAVTEYLQR                0.5255      Database    -26.6761    1075.5662   ✓       ✓
+113   PAVTEYLQR                0.5255      Database    -26.8012    1075.5662   ✓       ✓
+114   PAVTEYLQR                0.5255      Database    -26.8034    1075.5662   ✓       ✓
+115   PAVTEYLQR                0.5255      Database    -27.0549    1075.5662   ✓       ✓
+116   PAVTEYLQR                0.5255      Database    -27.1138    1075.5662   ✓       ✓
+117   PAVTEYLQR                0.5255      Database    -27.1800    1075.5662   ✓       ✓
+118   PAVTEYLQR                0.5255      Database    -27.3060    1075.5662   ✓       ✓
+119   PAVTEYLQR                0.5255      Database    -27.4926    1075.5662   ✓       ✓
+120   PAVTEYLQR                0.5255      Database    -27.5149    1075.5662   ✓       ✓
+121   PAVTEYLQR                0.5255      Database    -27.5868    1075.5662   ✓       ✓
+122   PAVTEYLQR                0.5255      Database    -27.6400    1075.5662   ✓       ✓
+123   PAVTEYLQR                0.5255      Database    -27.6872    1075.5662   ✓       ✓
+124   +42.011PAVTSYLQR         0.5005      Prosit      -35.6683    1075.5662   ✓       
+125   PAVTQ+0.984YLQR          0.4836      Prosit      -8.6826     1075.5662   ✓       
+126   PAVTQ+0.984YLQR          0.4836      Prosit      -9.0614     1075.5662   ✓       
+127   PAVTQ+0.984YLQR          0.4836      Prosit      -9.5933     1075.5662   ✓       
+128   PAVTQ+0.984YLQR          0.4836      Prosit      -9.9721     1075.5662   ✓       
+129   PAVTQ+0.984YLQR          0.4836      Prosit      -16.3810    1075.5662   ✓       
+130   PAVTQ+0.984YLQR          0.4836      Prosit      -16.7598    1075.5662   ✓       
+131   PAVTQ+0.984YLQR          0.4836      Prosit      -17.2917    1075.5662   ✓       
+132   PAVTQ+0.984YLQR          0.4836      Prosit      -17.4839    1075.5662   ✓       
+133   PAVTQ+0.984YLQR          0.4836      Prosit      -17.6705    1075.5662   ✓       
+134   PAVTQ+0.984YLQR          0.4836      Prosit      -18.3946    1075.5662   ✓       
+135   PAVTQ+0.984YLQR          0.4836      Prosit      -19.5789    1075.5662   ✓       
+136   PAVTQ+0.984YLQR          0.4836      Prosit      -19.7040    1075.5662   ✓       
+137   PAVTQ+0.984YLQR          0.4836      Prosit      -19.9577    1075.5662   ✓       
+138   PAVTQ+0.984YLQR          0.4836      Prosit      -20.0828    1075.5662   ✓       
+139   PAVTQ+0.984YLQR          0.4836      Prosit      -20.4896    1075.5662   ✓       
+140   PAVTQ+0.984YLQR          0.4836      Prosit      -20.6147    1075.5662   ✓       
+141   PAVTQ+0.984YLQR          0.4836      Prosit      -20.8684    1075.5662   ✓       
+142   PAVTQ+0.984YLQR          0.4836      Prosit      -20.9935    1075.5662   ✓       
+143   PAVTQ+0.984YLQR          0.4836      Prosit      -21.4884    1075.5662   ✓       
+144   PAVTQ+0.984YLQR          0.4836      Prosit      -21.8672    1075.5662   ✓       
+145   PAVTQ+0.984YLQR          0.4836      Prosit      -22.3991    1075.5662   ✓       
+146   PAVTQ+0.984YLQR          0.4836      Prosit      -22.7779    1075.5662   ✓       
+147   PAVTQ+0.984YLQR          0.4836      Prosit      -23.6018    1075.5662   ✓       
+148   PAVTQ+0.984YLQR          0.4836      Prosit      -23.9806    1075.5662   ✓       
+149   PAVTQ+0.984YLQR          0.4836      Prosit      -24.4406    1075.5662   ✓       
+150   PAVTQ+0.984YLQR          0.4836      Prosit      -24.5125    1075.5662   ✓       
+151   PAVTQ+0.984YLQR          0.4836      Prosit      -24.8194    1075.5662   ✓       
+152   PAVTQ+0.984YLQR          0.4836      Prosit      -24.8913    1075.5662   ✓       
+153   PAVTQ+0.984YLQR          0.4836      Prosit      -25.1822    1075.5662   ✓       
+154   PAVTQ+0.984YLQR          0.4836      Prosit      -25.3363    1075.5662   ✓       
+155   PAVTQ+0.984YLQR          0.4836      Prosit      -25.3513    1075.5662   ✓       
+156   PAVTQ+0.984YLQR          0.4836      Prosit      -25.7151    1075.5662   ✓       
+157   PAVTQ+0.984YLQR          0.4836      Prosit      -25.7301    1075.5662   ✓       
+158   PAVTQ+0.984YLQR          0.4836      Prosit      -26.0929    1075.5662   ✓       
+159   PAVTQ+0.984YLQR          0.4836      Prosit      -26.2150    1075.5662   ✓       
+160   PAVTQ+0.984YLQR          0.4836      Prosit      -26.3267    1075.5662   ✓       
+161   PAVTQ+0.984YLQR          0.4836      Prosit      -26.5482    1075.5662   ✓       
+162   PAVTQ+0.984YLQR          0.4836      Prosit      -26.7056    1075.5662   ✓       
+163   PAVTQ+0.984YLQR          0.4836      Prosit      -26.9270    1075.5662   ✓       
+164   PAVTQ+0.984YLQR          0.4836      Prosit      -27.2374    1075.5662   ✓       
+165   PAVTQ+0.984YLQR          0.4836      Prosit      -27.2772    1075.5662   ✓       
+166   PAVTQ+0.984YLQR          0.4836      Prosit      -27.4023    1075.5662   ✓       
+167   PAVTQ+0.984YLQR          0.4836      Prosit      -27.6163    1075.5662   ✓       
+168   PAVTQ+0.984YLQR          0.4836      Prosit      -27.6560    1075.5662   ✓       
+169   PAVTEYLKR                0.4641      Prosit      -16.6274    1075.6026   ✓       
+170   PAVTEYLKR                0.4641      Prosit      -17.0062    1075.6026   ✓       
+171   PAVTEYLKR                0.4641      Prosit      -17.5381    1075.6026   ✓       
+172   PAVTEYLKR                0.4641      Prosit      -17.9169    1075.6026   ✓       
+173   PAVTEYLKR                0.4641      Prosit      -25.4287    1075.6026   ✓       
+174   PAVTEYLKR                0.4641      Prosit      -26.3394    1075.6026   ✓       
+175   PAVTEYLKR                0.4641      Prosit      -27.5237    1075.6026   ✓       
+176   PAVTEYLKR                0.4641      Prosit      -27.6488    1075.6026   ✓       
+177   PAVTQ+0.984YLKR          0.4617      Prosit      -24.4494    1075.6026   ✓       
+178   PAVTQ+0.984YLKR          0.4617      Prosit      -24.8282    1075.6026   ✓       
+179   PAVTQ+0.984YLKR          0.4617      Prosit      -25.3601    1075.6026   ✓       
+180   PAVTQ+0.984YLKR          0.4617      Prosit      -25.7389    1075.6026   ✓       
+181   APVTEYLQR                0.4526      Prosit      -33.3195    1075.5662   ✓       
+182   APVTEYLQR                0.4526      Prosit      -33.6983    1075.5662   ✓       
+183   APVTEYLQR                0.4526      Prosit      -34.4103    1075.5662   ✓       
+184   QPAVTEYLR                0.4395      Prosit      -34.0992    1075.5662   ✓       
+185   QPAVTEYLR                0.4395      Prosit      -34.9285    1075.5662   ✓       
+186   QPAVTEYLR                0.4395      Prosit      -35.0100    1075.5662   ✓       
+187   PAVTQYLQR                -1.0000     NotChecked  -14.2128    1074.5822   ✗       
+188   PAVTQYLQR                -1.0000     NotChecked  -14.5916    1074.5822   ✗       
+189   PAVTQYLQR                -1.0000     NotChecked  -15.1235    1074.5822   ✗       
+190   PAVTQYLQR                -1.0000     NotChecked  -15.5023    1074.5822   ✗       
+191   PAVTEYLR                 -1.0000     NotChecked  -15.6583    947.5076    ✗       
+192   PAVTEYLGR                -1.0000     NotChecked  -15.6838    1004.5291   ✗       
+193   PAVTEYLAR                -1.0000     NotChecked  -15.7685    1018.5447   ✗       
+194   PAVTEQLQR                -1.0000     NotChecked  -16.0338    1040.5615   ✗       
+195   PAVTEYLR                 -1.0000     NotChecked  -16.0372    947.5076    ✗       
+196   PAVTEYLGR                -1.0000     NotChecked  -16.0626    1004.5291   ✗       
+197   PAVTEYLAR                -1.0000     NotChecked  -16.1473    1018.5447   ✗       
+198   PAVTEYLQK                -1.0000     NotChecked  -16.1808    1047.5601   ✗       
+199   PAVTERLQR                -1.0000     NotChecked  -16.2305    1068.6040   ✗       
+200   PAVTEYLNR                -1.0000     NotChecked  -16.3185    1061.5506   ✗       
+201   PAVTEQLQR                -1.0000     NotChecked  -16.4127    1040.5615   ✗       
+202   PAVTYLQR                 -1.0000     NotChecked  -16.4492    946.5236    ✗       
+203   PAVTEYLR                 -1.0000     NotChecked  -16.4876    947.5076    ✗       
+204   PAVTEELQR                -1.0000     NotChecked  -16.5119    1041.5455   ✗       
+205   PAVTEYLQK                -1.0000     NotChecked  -16.5597    1047.5601   ✗       
+206   PAVTEYLR                 -1.0000     NotChecked  -16.5691    947.5076    ✗       
+207   PAVTEYLQ                 -1.0000     NotChecked  -16.5915    919.4651    ✗       
+208   PAVTEYLGR                -1.0000     NotChecked  -16.5945    1004.5291   ✗       
+209   PAVTERLQR                -1.0000     NotChecked  -16.6093    1068.6040   ✗       
+210   PAVTENLQR                -1.0000     NotChecked  -16.6396    1026.5458   ✗       
+211   PAVTELLQR                -1.0000     NotChecked  -16.6589    1025.5869   ✗       
+212   PAVTEFLQR                -1.0000     NotChecked  -16.6659    1059.5713   ✗       
+213   PAVTEYLAR                -1.0000     NotChecked  -16.6792    1018.5447   ✗       
+214   PGVTEYLQR                -1.0000     NotChecked  -16.6901    1061.5506   ✗       
+215   PAVTEYLNR                -1.0000     NotChecked  -16.6973    1061.5506   ✗       
+216   PAVTYLQR                 -1.0000     NotChecked  -16.8280    946.5236    ✗       
+217   PAVTEYLR                 -1.0000     NotChecked  -16.8664    947.5076    ✗       
+218   PAVTEELQR                -1.0000     NotChecked  -16.8907    1041.5455   ✗       
+219   PAVTEQLQR                -1.0000     NotChecked  -16.9445    1040.5615   ✗       
+220   PAVTEYLR                 -1.0000     NotChecked  -16.9479    947.5076    ✗       
+221   PAVTEYLQ                 -1.0000     NotChecked  -16.9703    919.4651    ✗       
+222   PAVTELQR                 -1.0000     NotChecked  -16.9719    912.5029    ✗       
+223   PAVTEYLGR                -1.0000     NotChecked  -16.9733    1004.5291   ✗       
+224   PAVTENLQR                -1.0000     NotChecked  -17.0184    1026.5458   ✗       
+225   PAVTELLQR                -1.0000     NotChecked  -17.0377    1025.5869   ✗       
+226   PAVTEFLQR                -1.0000     NotChecked  -17.0447    1059.5713   ✗       
+227   PAVTEYLAR                -1.0000     NotChecked  -17.0580    1018.5447   ✗       
+228   PGVTEYLQR                -1.0000     NotChecked  -17.0689    1061.5506   ✗       
+229   AAVTEYLQR                -1.0000     NotChecked  -17.0766    1049.5506   ✗       
+230   PAVTEYLQK                -1.0000     NotChecked  -17.0915    1047.5601   ✗       
+231   PAVTERLQR                -1.0000     NotChecked  -17.1412    1068.6040   ✗       
+232   PAVTEKLQR                -1.0000     NotChecked  -17.2282    1040.5978   ✗       
+233   PAVTEYLNR                -1.0000     NotChecked  -17.2292    1061.5506   ✗       
+234   PAVTEQLQR                -1.0000     NotChecked  -17.3234    1040.5615   ✗       
+235   PAVTELQR                 -1.0000     NotChecked  -17.3507    912.5029    ✗       
+236   PAVTYLQR                 -1.0000     NotChecked  -17.3599    946.5236    ✗       
+237   PAVTEYLR                 -1.0000     NotChecked  -17.3983    947.5076    ✗       
+238   PAVTEALQR                -1.0000     NotChecked  -17.4013    983.5400    ✗       
+239   PAVTEYVQR                -1.0000     NotChecked  -17.4110    1061.5506   ✗       
+240   PAVTEELQR                -1.0000     NotChecked  -17.4226    1041.5455   ✗       
+241   PAVTEYLQK                -1.0000     NotChecked  -17.4704    1047.5601   ✗       
+242   PVTEYLQR                 -1.0000     NotChecked  -17.4823    1004.5291   ✗       
+243   PAVTEYLQ                 -1.0000     NotChecked  -17.5022    919.4651    ✗       
+244   PAVTERLQR                -1.0000     NotChecked  -17.5200    1068.6040   ✗       
+245   PAVTTYLQR                -1.0000     NotChecked  -17.5388    1047.5713   ✗       
+246   PAVTENLQR                -1.0000     NotChecked  -17.5503    1026.5458   ✗       
+247   PAVTELLQR                -1.0000     NotChecked  -17.5696    1025.5869   ✗       
+248   PAVTEFLQR                -1.0000     NotChecked  -17.5766    1059.5713   ✗       
+249   PAVTEKLQR                -1.0000     NotChecked  -17.6070    1040.5978   ✗       
+250   PAVTEYLNR                -1.0000     NotChecked  -17.6080    1061.5506   ✗       
+251   PAVTDYLQR                -1.0000     NotChecked  -17.6664    1061.5506   ✗       
+252   PAVTYLQR                 -1.0000     NotChecked  -17.7387    946.5236    ✗       
+253   PAVTEYTQR                -1.0000     NotChecked  -17.7467    1063.5298   ✗       
+254   PAVTNYLQR                -1.0000     NotChecked  -17.7496    1060.5665   ✗       
+255   PAVSEYLQR                -1.0000     NotChecked  -17.7555    1061.5506   ✗       
+256   PAVTEYLR                 -1.0000     NotChecked  -17.7771    947.5076    ✗       
+257   PAVTEALQR                -1.0000     NotChecked  -17.7801    983.5400    ✗       
+258   PAVTEYVQR                -1.0000     NotChecked  -17.7898    1061.5506   ✗       
+259   PAVTEELQR                -1.0000     NotChecked  -17.8014    1041.5455   ✗       
+260   PVTEYLQR                 -1.0000     NotChecked  -17.8155    1004.5291   ✗       
+261   PAVTEYLQ                 -1.0000     NotChecked  -17.8810    919.4651    ✗       
+262   PAVTELQR                 -1.0000     NotChecked  -17.8826    912.5029    ✗       
+263   PAVTTYLQR                -1.0000     NotChecked  -17.9176    1047.5713   ✗       
+264   PAVTSYLQR                -1.0000     NotChecked  -17.9209    1033.5556   ✗       
+265   PAVTENLQR                -1.0000     NotChecked  -17.9291    1026.5458   ✗       
+266   PAVTELLQR                -1.0000     NotChecked  -17.9484    1025.5869   ✗       
+267   PAVTEFLQR                -1.0000     NotChecked  -17.9554    1059.5713   ✗       
+268   AAVTEYLQR                -1.0000     NotChecked  -17.9873    1049.5506   ✗       
+269   PAVTDYLQR                -1.0000     NotChecked  -18.0452    1061.5506   ✗       
+270   PAVTEYTQR                -1.0000     NotChecked  -18.1255    1063.5298   ✗       
+271   PAVTNYLQR                -1.0000     NotChecked  -18.1284    1060.5665   ✗       
+272   PAVSEYLQR                -1.0000     NotChecked  -18.1343    1061.5506   ✗       
+273   PAVTEKLQR                -1.0000     NotChecked  -18.1389    1040.5978   ✗       
+274   PVTEYLQR                 -1.0000     NotChecked  -18.1944    1004.5291   ✗       
+275   +42.011AVTEYLQR          -1.0000     NotChecked  -18.2292    1020.5240   ✗       
+276   PAVTELQR                 -1.0000     NotChecked  -18.2614    912.5029    ✗       
+277   PAVTSYLQR                -1.0000     NotChecked  -18.2997    1033.5556   ✗       
+278   PAVTEALQR                -1.0000     NotChecked  -18.3120    983.5400    ✗       
+279   PAVTEYVQR                -1.0000     NotChecked  -18.3217    1061.5506   ✗       
+280   PAVTEYAQR                -1.0000     NotChecked  -18.3346    1033.5193   ✗       
+281   PAVTKYLQR                -1.0000     NotChecked  -18.3681    1074.6186   ✗       
+282   PAVTTYLQR                -1.0000     NotChecked  -18.4495    1047.5713   ✗       
+283   PAVTEKLQR                -1.0000     NotChecked  -18.5177    1040.5978   ✗       
+284   PAVTDYLQR                -1.0000     NotChecked  -18.5771    1061.5506   ✗       
+285   PAVTEYTQR                -1.0000     NotChecked  -18.6574    1063.5298   ✗       
+286   PAVTNYLQR                -1.0000     NotChecked  -18.6603    1060.5665   ✗       
+287   PAVSEYLQR                -1.0000     NotChecked  -18.6662    1061.5506   ✗       
+288   PAVTEALQR                -1.0000     NotChecked  -18.6908    983.5400    ✗       
+289   PAVTEYVQR                -1.0000     NotChecked  -18.7005    1061.5506   ✗       
+290   PAVTEYAQR                -1.0000     NotChecked  -18.7134    1033.5193   ✗       
+291   PAVTKYLQR                -1.0000     NotChecked  -18.7469    1074.6186   ✗       
+292   PAVTEYLQL                -1.0000     NotChecked  -18.7521    1032.5492   ✗       
+293   PAVTTYLQR                -1.0000     NotChecked  -18.8283    1047.5713   ✗       
+294   PAVTSYLQR                -1.0000     NotChecked  -18.8316    1033.5556   ✗       
+295   PAVTDYLQR                -1.0000     NotChecked  -18.9559    1061.5506   ✗       
+296   PAVTEYTQR                -1.0000     NotChecked  -19.0362    1063.5298   ✗       
+297   PAVTNYLQR                -1.0000     NotChecked  -19.0391    1060.5665   ✗       
+298   PAVSEYLQR                -1.0000     NotChecked  -19.0450    1061.5506   ✗       
+299   PAVTEYLQL                -1.0000     NotChecked  -19.1309    1032.5492   ✗       
+300   +42.011AVTEYLQR          -1.0000     NotChecked  -19.1399    1020.5240   ✗       
+301   PAVEYLQR                 -1.0000     NotChecked  -19.1952    974.5185    ✗       
+302   PAVTSYLQR                -1.0000     NotChecked  -19.2104    1033.5556   ✗       
+303   PAVTEYAQR                -1.0000     NotChecked  -19.2453    1033.5193   ✗       
+304   PAVTKYLQR                -1.0000     NotChecked  -19.2788    1074.6186   ✗       
+305   PAVGEYLQR                -1.0000     NotChecked  -19.4362    1031.5400   ✗       
+306   PAVEYLQR                 -1.0000     NotChecked  -19.5740    974.5185    ✗       
+307   PAVTEYAQR                -1.0000     NotChecked  -19.6241    1033.5193   ✗       
+308   PAATEYLQR                -1.0000     NotChecked  -19.6463    1047.5349   ✗       
+309   PAVTKYLQR                -1.0000     NotChecked  -19.6576    1074.6186   ✗       
+310   PAVTEYLQL                -1.0000     NotChecked  -19.6628    1032.5492   ✗       
+311   PAVGEYLQR                -1.0000     NotChecked  -19.8150    1031.5400   ✗       
+312   PATEYLQR                 -1.0000     NotChecked  -19.8275    976.4978    ✗       
+313   PAVTEYLQV                -1.0000     NotChecked  -19.8477    1018.5335   ✗       
+314   +43.006AVTEYLQR          -1.0000     NotChecked  -19.8552    1021.5193   ✗       
+315   PAVAEYLQR                -1.0000     NotChecked  -19.8646    1045.5556   ✗       
+316   PAATEYLQR                -1.0000     NotChecked  -20.0251    1047.5349   ✗       
+317   PAVVEYLQR                -1.0000     NotChecked  -20.0316    1073.5869   ✗       
+318   PAVTEYLQL                -1.0000     NotChecked  -20.0416    1032.5492   ✗       
+319   PAGTEYLQR                -1.0000     NotChecked  -20.0965    1033.5193   ✗       
+320   PAVEYLQR                 -1.0000     NotChecked  -20.1059    974.5185    ✗       
+321   PAPTEYLQR                -1.0000     NotChecked  -20.1483    1073.5506   ✗       
+322   PATEYLQR                 -1.0000     NotChecked  -20.2063    976.4978    ✗       
+323   PAVTEYLQV                -1.0000     NotChecked  -20.2265    1018.5335   ✗       
+324   PAVAEYLQR                -1.0000     NotChecked  -20.2434    1045.5556   ✗       
+325   PAVGEYLQR                -1.0000     NotChecked  -20.3469    1031.5400   ✗       
+326   PAVVEYLQR                -1.0000     NotChecked  -20.4104    1073.5869   ✗       
+327   PAGTEYLQR                -1.0000     NotChecked  -20.4753    1033.5193   ✗       
+328   PAVEYLQR                 -1.0000     NotChecked  -20.4847    974.5185    ✗       
+329   PAPTEYLQR                -1.0000     NotChecked  -20.5271    1073.5506   ✗       
+330   PAATEYLQR                -1.0000     NotChecked  -20.5570    1047.5349   ✗       
+331   PAVTEYLQA                -1.0000     NotChecked  -20.6234    990.5022    ✗       
+332   PAVGEYLQR                -1.0000     NotChecked  -20.7257    1031.5400   ✗       
+333   PATEYLQR                 -1.0000     NotChecked  -20.7382    976.4978    ✗       
+334   PAVTEYLQV                -1.0000     NotChecked  -20.7584    1018.5335   ✗       
+335   +43.006AVTEYLQR          -1.0000     NotChecked  -20.7659    1021.5193   ✗       
+336   PAVAEYLQR                -1.0000     NotChecked  -20.7753    1045.5556   ✗       
+337   PAVTEYLQG                -1.0000     NotChecked  -20.8655    976.4866    ✗       
+338   PAATEYLQR                -1.0000     NotChecked  -20.9358    1047.5349   ✗       
+339   PAVVEYLQR                -1.0000     NotChecked  -20.9423    1073.5869   ✗       
+340   PAVTEYLQA                -1.0000     NotChecked  -21.0022    990.5022    ✗       
+341   PAGTEYLQR                -1.0000     NotChecked  -21.0072    1033.5193   ✗       
+342   PAPTEYLQR                -1.0000     NotChecked  -21.0590    1073.5506   ✗       
+343   PATEYLQR                 -1.0000     NotChecked  -21.1170    976.4978    ✗       
+344   PAVTEYLQV                -1.0000     NotChecked  -21.1372    1018.5335   ✗       
+345   PAVAEYLQR                -1.0000     NotChecked  -21.1541    1045.5556   ✗       
+346   PAVTEYLQG                -1.0000     NotChecked  -21.2443    976.4866    ✗       
+347   PAVVEYLQR                -1.0000     NotChecked  -21.3211    1073.5869   ✗       
+348   PAVTEYLQT                -1.0000     NotChecked  -21.3277    1020.5128   ✗       
+349   PAGTEYLQR                -1.0000     NotChecked  -21.3860    1033.5193   ✗       
+350   PAPTEYLQR                -1.0000     NotChecked  -21.4378    1073.5506   ✗       
+351   PAVTEYLQA                -1.0000     NotChecked  -21.5341    990.5022    ✗       
+352   PAVTEYLQT                -1.0000     NotChecked  -21.7065    1020.5128   ✗       
+353   PAVTEYLQG                -1.0000     NotChecked  -21.7762    976.4866    ✗       
+354   PAVTQYLQR                -1.0000     NotChecked  -21.9111    1074.5822   ✗       
+355   PAVTEYLQA                -1.0000     NotChecked  -21.9129    990.5022    ✗       
+356   PAVTEYLQG                -1.0000     NotChecked  -22.1550    976.4866    ✗       
+357   PAVTEYLQN                -1.0000     NotChecked  -22.1605    1033.5080   ✗       
+358   PAVTEYLQS                -1.0000     NotChecked  -22.2210    1006.4971   ✗       
+359   PAVTEYLQT                -1.0000     NotChecked  -22.2384    1020.5128   ✗       
+360   PAVTQYLQR                -1.0000     NotChecked  -22.2899    1074.5822   ✗       
+361   PAVTEYLQN                -1.0000     NotChecked  -22.5393    1033.5080   ✗       
+362   PAVTEYLQS                -1.0000     NotChecked  -22.5998    1006.4971   ✗       
+363   PAVTEYLQT                -1.0000     NotChecked  -22.6172    1020.5128   ✗       
+364   PAVTQYLQR                -1.0000     NotChecked  -22.8218    1074.5822   ✗       
+365   PAVTQYLQR                -1.0000     NotChecked  -23.0141    1074.5822   ✗       
+366   PAVTEYLQN                -1.0000     NotChecked  -23.0712    1033.5080   ✗       
+367   PAVTEYLQS                -1.0000     NotChecked  -23.1317    1006.4971   ✗       
+368   PAVTQYLQR                -1.0000     NotChecked  -23.2006    1074.5822   ✗       
+369   PAVTEYLQN                -1.0000     NotChecked  -23.4500    1033.5080   ✗       
+370   PAVTQ+0.984YLR           -1.0000     NotChecked  -23.4803    947.5076    ✗       
+371   PAVTQ+0.984YLGR          -1.0000     NotChecked  -23.5058    1004.5291   ✗       
+372   PAVTEYLQS                -1.0000     NotChecked  -23.5105    1006.4971   ✗       
+373   PAVTQ+0.984YLAR          -1.0000     NotChecked  -23.5904    1018.5447   ✗       
+374   PAVTEQLQR                -1.0000     NotChecked  -23.7322    1040.5615   ✗       
+375   PAVTQ+0.984QLQR          -1.0000     NotChecked  -23.8558    1040.5615   ✗       
+376   PAVTQ+0.984YLR           -1.0000     NotChecked  -23.8591    947.5076    ✗       
+377   PAVTEYLQK                -1.0000     NotChecked  -23.8792    1047.5601   ✗       
+378   PAVTQ+0.984YLGR          -1.0000     NotChecked  -23.8846    1004.5291   ✗       
+379   PAVTQYLQR                -1.0000     NotChecked  -23.9248    1074.5822   ✗       
+380   PAVTERLQR                -1.0000     NotChecked  -23.9289    1068.6040   ✗       
+381   PAVTQ+0.984YLAR          -1.0000     NotChecked  -23.9693    1018.5447   ✗       
+382   PAVTQ+0.984YLQK          -1.0000     NotChecked  -24.0028    1047.5601   ✗       
+383   PAVTQ+0.984RLQR          -1.0000     NotChecked  -24.0525    1068.6040   ✗       
+384   PAVTEQLQR                -1.0000     NotChecked  -24.1110    1040.5615   ✗       
+385   PAVTQ+0.984YLNR          -1.0000     NotChecked  -24.1405    1061.5506   ✗       
+386   PAVTYLQR                 -1.0000     NotChecked  -24.1475    946.5236    ✗       
+387   PAVTEELQR                -1.0000     NotChecked  -24.2102    1041.5455   ✗       
+388   PAVTQ+0.984QLQR          -1.0000     NotChecked  -24.2346    1040.5615   ✗       
+389   PAVTEYLQK                -1.0000     NotChecked  -24.2580    1047.5601   ✗       
+390   PAVTEYLQ                 -1.0000     NotChecked  -24.2898    919.4651    ✗       
+391   PAVTERLQR                -1.0000     NotChecked  -24.3077    1068.6040   ✗       
+392   PAVTQ+0.984YLR           -1.0000     NotChecked  -24.3096    947.5076    ✗       
+393   PAVTQ+0.984ELQR          -1.0000     NotChecked  -24.3338    1041.5455   ✗       
+394   PAVTENLQR                -1.0000     NotChecked  -24.3380    1026.5458   ✗       
+395   PAVTELLQR                -1.0000     NotChecked  -24.3572    1025.5869   ✗       
+396   PAVTEFLQR                -1.0000     NotChecked  -24.3643    1059.5713   ✗       
+397   PAVTQ+0.984YLQK          -1.0000     NotChecked  -24.3816    1047.5601   ✗       
+398   PGVTEYLQR                -1.0000     NotChecked  -24.3884    1061.5506   ✗       
+399   PAVTQ+0.984YLR           -1.0000     NotChecked  -24.3910    947.5076    ✗       
+400   PAVTQ+0.984YLQ           -1.0000     NotChecked  -24.4135    919.4651    ✗       
+401   PAVTQ+0.984YLGR          -1.0000     NotChecked  -24.4165    1004.5291   ✗       
+402   PAVTQ+0.984RLQR          -1.0000     NotChecked  -24.4313    1068.6040   ✗       
+403   PAVTEYLR                 -1.0000     NotChecked  -24.4596    947.5076    ✗       
+404   PAVTQ+0.984NLQR          -1.0000     NotChecked  -24.4616    1026.5458   ✗       
+405   PAVTQ+0.984LLQR          -1.0000     NotChecked  -24.4808    1025.5869   ✗       
+406   PAVTEYLGR                -1.0000     NotChecked  -24.4851    1004.5291   ✗       
+407   PAVTQ+0.984FLQR          -1.0000     NotChecked  -24.4879    1059.5713   ✗       
+408   PAVTQ+0.984YLAR          -1.0000     NotChecked  -24.5011    1018.5447   ✗       
+409   PGVTQ+0.984YLQR          -1.0000     NotChecked  -24.5120    1061.5506   ✗       
+410   PAVTQ+0.984YLNR          -1.0000     NotChecked  -24.5193    1061.5506   ✗       
+411   PAVTYLQR                 -1.0000     NotChecked  -24.5263    946.5236    ✗       
+412   PAVTEYLAR                -1.0000     NotChecked  -24.5697    1018.5447   ✗       
+413   PAVTEELQR                -1.0000     NotChecked  -24.5890    1041.5455   ✗       
+414   PAVTEQLQR                -1.0000     NotChecked  -24.6429    1040.5615   ✗       
+415   PAVTEYLQ                 -1.0000     NotChecked  -24.6687    919.4651    ✗       
+416   PAVTELQR                 -1.0000     NotChecked  -24.6702    912.5029    ✗       
+417   PAVTQ+0.984YLR           -1.0000     NotChecked  -24.6884    947.5076    ✗       
+418   PAVTQ+0.984ELQR          -1.0000     NotChecked  -24.7126    1041.5455   ✗       
+419   PAVTENLQR                -1.0000     NotChecked  -24.7168    1026.5458   ✗       
+420   PAVTELLQR                -1.0000     NotChecked  -24.7360    1025.5869   ✗       
+421   PAVTEFLQR                -1.0000     NotChecked  -24.7431    1059.5713   ✗       
+422   PAVTQ+0.984QLQR          -1.0000     NotChecked  -24.7665    1040.5615   ✗       
+423   PGVTEYLQR                -1.0000     NotChecked  -24.7672    1061.5506   ✗       
+424   PAVTQ+0.984YLR           -1.0000     NotChecked  -24.7698    947.5076    ✗       
+425   AAVTEYLQR                -1.0000     NotChecked  -24.7749    1049.5506   ✗       
+426   PAVTEYLQK                -1.0000     NotChecked  -24.7899    1047.5601   ✗       
+427   PAVTQ+0.984YLQ           -1.0000     NotChecked  -24.7923    919.4651    ✗       
+428   PAVTQ+0.984LQR           -1.0000     NotChecked  -24.7938    912.5029    ✗       
+429   PAVTQ+0.984YLGR          -1.0000     NotChecked  -24.7953    1004.5291   ✗       
+430   PAVTEQLQR                -1.0000     NotChecked  -24.8351    1040.5615   ✗       
+431   PAVTERLQR                -1.0000     NotChecked  -24.8396    1068.6040   ✗       
+432   PAVTQ+0.984NLQR          -1.0000     NotChecked  -24.8404    1026.5458   ✗       
+433   PAVTQ+0.984LLQR          -1.0000     NotChecked  -24.8596    1025.5869   ✗       
+434   PAVTQ+0.984FLQR          -1.0000     NotChecked  -24.8667    1059.5713   ✗       
+435   PAVTQ+0.984YLAR          -1.0000     NotChecked  -24.8800    1018.5447   ✗       
+436   PGVTQ+0.984YLQR          -1.0000     NotChecked  -24.8909    1061.5506   ✗       
+437   AAVTQ+0.984YLQR          -1.0000     NotChecked  -24.8986    1049.5506   ✗       
+438   PAVTQ+0.984YLQK          -1.0000     NotChecked  -24.9135    1047.5601   ✗       
+439   PAVTEKLQR                -1.0000     NotChecked  -24.9266    1040.5978   ✗       
+440   PAVTQ+0.984RLQR          -1.0000     NotChecked  -24.9632    1068.6040   ✗       
+441   PAVTEYQR                 -1.0000     NotChecked  -24.9749    962.4821    ✗       
+442   PAVTEYLQK                -1.0000     NotChecked  -24.9821    1047.5601   ✗       
+443   PAVTEQLQR                -1.0000     NotChecked  -25.0217    1040.5615   ✗       
+444   PAVTERLQR                -1.0000     NotChecked  -25.0318    1068.6040   ✗       
+445   PAVTELQR                 -1.0000     NotChecked  -25.0490    912.5029    ✗       
+446   PAVTQ+0.984KLQR          -1.0000     NotChecked  -25.0502    1040.5978   ✗       
+447   PAVTQ+0.984YLNR          -1.0000     NotChecked  -25.0512    1061.5506   ✗       
+448   PAVTYLQR                 -1.0000     NotChecked  -25.0582    946.5236    ✗       
+449   PAVTEALQR                -1.0000     NotChecked  -25.0996    983.5400    ✗       
+450   PAVTQYLQR                -1.0000     NotChecked  -25.1091    1074.5822   ✗       
+451   PAVTEYVQR                -1.0000     NotChecked  -25.1093    1061.5506   ✗       
+452   PAVTEYLNR                -1.0000     NotChecked  -25.1198    1061.5506   ✗       
+453   PAVTEELQR                -1.0000     NotChecked  -25.1209    1041.5455   ✗       
+454   PAVTQ+0.984QLQR          -1.0000     NotChecked  -25.1453    1040.5615   ✗       
+455   PAVTEYLQK                -1.0000     NotChecked  -25.1687    1047.5601   ✗       
+456   PAVTQ+0.984LQR           -1.0000     NotChecked  -25.1726    912.5029    ✗       
+457   PVTEYLQR                 -1.0000     NotChecked  -25.1807    1004.5291   ✗       
+458   PAVTEYLQ                 -1.0000     NotChecked  -25.2005    919.4651    ✗       
+459   PAVTERLQR                -1.0000     NotChecked  -25.2184    1068.6040   ✗       
+460   PAVTQ+0.984YLR           -1.0000     NotChecked  -25.2203    947.5076    ✗       
+461   PAVTQ+0.984ALQR          -1.0000     NotChecked  -25.2232    983.5400    ✗       
+462   PAVTQ+0.984YVQR          -1.0000     NotChecked  -25.2330    1061.5506   ✗       
+463   PAVTQYLQR                -1.0000     NotChecked  -25.2342    1074.5822   ✗       
+464   PAVTTYLQR                -1.0000     NotChecked  -25.2372    1047.5713   ✗       
+465   PAVTQ+0.984ELQR          -1.0000     NotChecked  -25.2445    1041.5455   ✗       
+466   PAVTENLQR                -1.0000     NotChecked  -25.2487    1026.5458   ✗       
+467   PAVTYLQR                 -1.0000     NotChecked  -25.2504    946.5236    ✗       
+468   PAVTELLQR                -1.0000     NotChecked  -25.2679    1025.5869   ✗       
+469   PAVTEFLQR                -1.0000     NotChecked  -25.2750    1059.5713   ✗       
+470   PAVTEYLR                 -1.0000     NotChecked  -25.2889    947.5076    ✗       
+471   PAVTQ+0.984YLQK          -1.0000     NotChecked  -25.2923    1047.5601   ✗       
+472   PVTQ+0.984YLQR           -1.0000     NotChecked  -25.3043    1004.5291   ✗       
+473   PAVTEKLQR                -1.0000     NotChecked  -25.3054    1040.5978   ✗       
+474   PAVTEELQR                -1.0000     NotChecked  -25.3131    1041.5455   ✗       
+475   PAVTQ+0.984YLQ           -1.0000     NotChecked  -25.3242    919.4651    ✗       
+476   PAVTQ+0.984RLQR          -1.0000     NotChecked  -25.3420    1068.6040   ✗       
+477   PAVTEYQR                 -1.0000     NotChecked  -25.3537    962.4821    ✗       
+478   PAVTDYLQR                -1.0000     NotChecked  -25.3647    1061.5506   ✗       
+479   PAVTEYLR                 -1.0000     NotChecked  -25.3703    947.5076    ✗       
+480   PAVTQ+0.984NLQR          -1.0000     NotChecked  -25.3723    1026.5458   ✗       
+481   PAVTQ+0.984LLQR          -1.0000     NotChecked  -25.3915    1025.5869   ✗       
+482   PAVTEYLQ                 -1.0000     NotChecked  -25.3928    919.4651    ✗       
+483   PAVTEYLGR                -1.0000     NotChecked  -25.3958    1004.5291   ✗       
+484   PAVTQ+0.984FLQR          -1.0000     NotChecked  -25.3986    1059.5713   ✗       
+485   PAVTQ+0.984KLQR          -1.0000     NotChecked  -25.4290    1040.5978   ✗       
+486   PAVTQ+0.984YLNR          -1.0000     NotChecked  -25.4300    1061.5506   ✗       
+487   PAVTYLQR                 -1.0000     NotChecked  -25.4370    946.5236    ✗       
+488   PAVTENLQR                -1.0000     NotChecked  -25.4409    1026.5458   ✗       
+489   PAVTEYTQR                -1.0000     NotChecked  -25.4451    1063.5298   ✗       
+490   PAVTNYLQR                -1.0000     NotChecked  -25.4479    1060.5665   ✗       
+491   PAVSEYLQR                -1.0000     NotChecked  -25.4539    1061.5506   ✗       
+492   PAVTELLQR                -1.0000     NotChecked  -25.4601    1025.5869   ✗       
+493   PAVTEFLQR                -1.0000     NotChecked  -25.4672    1059.5713   ✗       
+494   PAVTEALQR                -1.0000     NotChecked  -25.4784    983.5400    ✗       
+495   PAVTEYLAR                -1.0000     NotChecked  -25.4805    1018.5447   ✗       
+496   PAVTQYLQR                -1.0000     NotChecked  -25.4879    1074.5822   ✗       
+497   PAVTEYVQR                -1.0000     NotChecked  -25.4881    1061.5506   ✗       
+498   PAVTEELQR                -1.0000     NotChecked  -25.4997    1041.5455   ✗       
+499   PVTEYLQR                 -1.0000     NotChecked  -25.5139    1004.5291   ✗       
+500   PAVTQ+0.984YTQR          -1.0000     NotChecked  -25.5687    1063.5298   ✗       
+501   PAVSQ+0.984YLQR          -1.0000     NotChecked  -25.5775    1061.5506   ✗       
+502   PAVTEYLQ                 -1.0000     NotChecked  -25.5794    919.4651    ✗       
+503   PAVTELQR                 -1.0000     NotChecked  -25.5809    912.5029    ✗       
+504   PAVTQ+0.984YLR           -1.0000     NotChecked  -25.5991    947.5076    ✗       
+505   PAVTQ+0.984ALQR          -1.0000     NotChecked  -25.6020    983.5400    ✗       
+506   PAVTQ+0.984YVQR          -1.0000     NotChecked  -25.6118    1061.5506   ✗       
+507   PAVTQYLQR                -1.0000     NotChecked  -25.6130    1074.5822   ✗       
+508   PAVTTYLQR                -1.0000     NotChecked  -25.6160    1047.5713   ✗       
+509   PAVTSYLQR                -1.0000     NotChecked  -25.6193    1033.5556   ✗       
+510   PAVTQ+0.984ELQR          -1.0000     NotChecked  -25.6233    1041.5455   ✗       
+511   PAVTENLQR                -1.0000     NotChecked  -25.6275    1026.5458   ✗       
+512   PVTQ+0.984YLQR           -1.0000     NotChecked  -25.6375    1004.5291   ✗       
+513   PAVTELLQR                -1.0000     NotChecked  -25.6467    1025.5869   ✗       
+514   PAVTEFLQR                -1.0000     NotChecked  -25.6538    1059.5713   ✗       
+515   AAVTEYLQR                -1.0000     NotChecked  -25.6856    1049.5506   ✗       
+516   PAVTQ+0.984YLQ           -1.0000     NotChecked  -25.7030    919.4651    ✗       
+517   PAVTQ+0.984LQR           -1.0000     NotChecked  -25.7045    912.5029    ✗       
+518   PAVTDYLQR                -1.0000     NotChecked  -25.7436    1061.5506   ✗       
+519   PAVTEQLQR                -1.0000     NotChecked  -25.7458    1040.5615   ✗       
+520   PAVTQ+0.984NLQR          -1.0000     NotChecked  -25.7511    1026.5458   ✗       
+521   PAVTQ+0.984LLQR          -1.0000     NotChecked  -25.7703    1025.5869   ✗       
+522   PAVTELQR                 -1.0000     NotChecked  -25.7731    912.5029    ✗       
+523   PAVTQ+0.984FLQR          -1.0000     NotChecked  -25.7774    1059.5713   ✗       
+524   AAVTQ+0.984YLQR          -1.0000     NotChecked  -25.8093    1049.5506   ✗       
+525   PAVTEYTQR                -1.0000     NotChecked  -25.8239    1063.5298   ✗       
+526   PAVTNYLQR                -1.0000     NotChecked  -25.8267    1060.5665   ✗       
+527   PAVSEYLQR                -1.0000     NotChecked  -25.8327    1061.5506   ✗       
+528   PAVTEKLQR                -1.0000     NotChecked  -25.8373    1040.5978   ✗       
+529   AVTEYLQR                 -1.0000     NotChecked  -25.8779    978.5134    ✗       
+530   PAVTEYQR                 -1.0000     NotChecked  -25.8856    962.4821    ✗       
+531   PVTEYLQR                 -1.0000     NotChecked  -25.8927    1004.5291   ✗       
+532   PAVTEYLQK                -1.0000     NotChecked  -25.8928    1047.5601   ✗       
+533   +42.011AVTEYLQR          -1.0000     NotChecked  -25.9275    1020.5240   ✗       
+534   PAVTERLQR                -1.0000     NotChecked  -25.9425    1068.6040   ✗       
+535   PAVTQ+0.984YTQR          -1.0000     NotChecked  -25.9475    1063.5298   ✗       
+536   PAVSQ+0.984YLQR          -1.0000     NotChecked  -25.9563    1061.5506   ✗       
+537   PAVTELQR                 -1.0000     NotChecked  -25.9597    912.5029    ✗       
+538   PAVTQ+0.984KLQR          -1.0000     NotChecked  -25.9609    1040.5978   ✗       
+539   PAVTSYLQR                -1.0000     NotChecked  -25.9981    1033.5556   ✗       
+540   PAVTEALQR                -1.0000     NotChecked  -26.0103    983.5400    ✗       
+541   PVTQ+0.984YLQR           -1.0000     NotChecked  -26.0163    1004.5291   ✗       
+542   PAVTQYLQR                -1.0000     NotChecked  -26.0198    1074.5822   ✗       
+543   PAVTEYVQR                -1.0000     NotChecked  -26.0200    1061.5506   ✗       
+544   PAVTEKLQR                -1.0000     NotChecked  -26.0295    1040.5978   ✗       
+545   PAVTEYLNR                -1.0000     NotChecked  -26.0305    1061.5506   ✗       
+546   PAVTEYAQR                -1.0000     NotChecked  -26.0329    1033.5193   ✗       
+547   +42.011AVTQ+0.984YLQR    -1.0000     NotChecked  -26.0512    1020.5240   ✗       
+548   PAVTKYLQR                -1.0000     NotChecked  -26.0665    1074.6186   ✗       
+549   PAVTQ+0.984LQR           -1.0000     NotChecked  -26.0833    912.5029    ✗       
+550   PAVTQ+0.984ALQR          -1.0000     NotChecked  -26.1339    983.5400    ✗       
+551   PAVTQ+0.984YVQR          -1.0000     NotChecked  -26.1437    1061.5506   ✗       
+552   PAVTQYLQR                -1.0000     NotChecked  -26.1449    1074.5822   ✗       
+553   PAVTTYLQR                -1.0000     NotChecked  -26.1479    1047.5713   ✗       
+554   PAVTQ+0.984YAQR          -1.0000     NotChecked  -26.1565    1033.5193   ✗       
+555   PAVTYLQR                 -1.0000     NotChecked  -26.1611    946.5236    ✗       
+556   PAVTEYLR                 -1.0000     NotChecked  -26.1996    947.5076    ✗       
+557   PAVTEALQR                -1.0000     NotChecked  -26.2025    983.5400    ✗       
+558   PAVTEYVQR                -1.0000     NotChecked  -26.2123    1061.5506   ✗       
+559   PAVTEKLQR                -1.0000     NotChecked  -26.2161    1040.5978   ✗       
+560   PAVTEELQR                -1.0000     NotChecked  -26.2238    1041.5455   ✗       
+561   PAVTEYQR                 -1.0000     NotChecked  -26.2644    962.4821    ✗       
+562   PAVTDYLQR                -1.0000     NotChecked  -26.2754    1061.5506   ✗       
+563   PAVTEYLQ                 -1.0000     NotChecked  -26.3035    919.4651    ✗       
+564   PAVTQ+0.984KLQR          -1.0000     NotChecked  -26.3397    1040.5978   ✗       
+565   PAVTTYLQR                -1.0000     NotChecked  -26.3401    1047.5713   ✗       
+566   PAVTENLQR                -1.0000     NotChecked  -26.3516    1026.5458   ✗       
+567   PAVTEYTQR                -1.0000     NotChecked  -26.3558    1063.5298   ✗       
+568   PAVTNYLQR                -1.0000     NotChecked  -26.3586    1060.5665   ✗       
+569   PAVSEYLQR                -1.0000     NotChecked  -26.3646    1061.5506   ✗       
+570   PAVTELLQR                -1.0000     NotChecked  -26.3708    1025.5869   ✗       
+571   PAVTEFLQR                -1.0000     NotChecked  -26.3779    1059.5713   ✗       
+572   PAVTEALQR                -1.0000     NotChecked  -26.3891    983.5400    ✗       
+573   PAVTQYLQR                -1.0000     NotChecked  -26.3986    1074.5822   ✗       
+574   PAVTEYVQR                -1.0000     NotChecked  -26.3989    1061.5506   ✗       
+575   PAVTEYAQR                -1.0000     NotChecked  -26.4117    1033.5193   ✗       
+576   PAVTKYLQR                -1.0000     NotChecked  -26.4453    1074.6186   ✗       
+577   PAVTEYLQL                -1.0000     NotChecked  -26.4505    1032.5492   ✗       
+578   PAVTDYLQR                -1.0000     NotChecked  -26.4677    1061.5506   ✗       
+579   PAVTQ+0.984YTQR          -1.0000     NotChecked  -26.4794    1063.5298   ✗       
+580   PAVSQ+0.984YLQR          -1.0000     NotChecked  -26.4882    1061.5506   ✗       
+581   PAVTQ+0.984ALQR          -1.0000     NotChecked  -26.5127    983.5400    ✗       
+582   PAVTQ+0.984YVQR          -1.0000     NotChecked  -26.5225    1061.5506   ✗       
+583   PAVTQYLQR                -1.0000     NotChecked  -26.5237    1074.5822   ✗       
+584   PAVTTYLQR                -1.0000     NotChecked  -26.5267    1047.5713   ✗       
+585   PAVTSYLQR                -1.0000     NotChecked  -26.5300    1033.5556   ✗       
+586   PAVTQ+0.984YAQR          -1.0000     NotChecked  -26.5353    1033.5193   ✗       
+587   PAVTEYTQR                -1.0000     NotChecked  -26.5480    1063.5298   ✗       
+588   PAVTNYLQR                -1.0000     NotChecked  -26.5508    1060.5665   ✗       
+589   PAVTEYLR                 -1.0000     NotChecked  -26.5546    947.5076    ✗       
+590   PAVSEYLQR                -1.0000     NotChecked  -26.5568    1061.5506   ✗       
+591   PAVTQ+0.984YLQL          -1.0000     NotChecked  -26.5741    1032.5492   ✗       
+592   PAVTEYLGR                -1.0000     NotChecked  -26.5801    1004.5291   ✗       
+593   PAVTDYLQR                -1.0000     NotChecked  -26.6543    1061.5506   ✗       
+594   PAVTEYLAR                -1.0000     NotChecked  -26.6647    1018.5447   ✗       
+595   PAVTEYLR                 -1.0000     NotChecked  -26.6797    947.5076    ✗       
+596   PAVTELQR                 -1.0000     NotChecked  -26.6838    912.5029    ✗       
+597   PAVTEYLGR                -1.0000     NotChecked  -26.7052    1004.5291   ✗       
+598   PAVTSYLQR                -1.0000     NotChecked  -26.7222    1033.5556   ✗       
+599   PAVTEYTQR                -1.0000     NotChecked  -26.7346    1063.5298   ✗       
+600   PAVTNYLQR                -1.0000     NotChecked  -26.7374    1060.5665   ✗       
+601   PAVSEYLQR                -1.0000     NotChecked  -26.7434    1061.5506   ✗       
+602   AVTEYLQR                 -1.0000     NotChecked  -26.7886    978.5134    ✗       
+603   PAVTEYLAR                -1.0000     NotChecked  -26.7899    1018.5447   ✗       
+604   PAVTEYLQL                -1.0000     NotChecked  -26.8293    1032.5492   ✗       
+605   +42.011AVTEYLQR          -1.0000     NotChecked  -26.8382    1020.5240   ✗       
+606   PAVTQ+0.984YTQR          -1.0000     NotChecked  -26.8582    1063.5298   ✗       
+607   PAVSQ+0.984YLQR          -1.0000     NotChecked  -26.8670    1061.5506   ✗       
+608   PAVEYLQR                 -1.0000     NotChecked  -26.8936    974.5185    ✗       
+609   PAVTSYLQR                -1.0000     NotChecked  -26.9088    1033.5556   ✗       
+610   PAVTEYLR                 -1.0000     NotChecked  -26.9334    947.5076    ✗       
+611   PAVTEKLQR                -1.0000     NotChecked  -26.9402    1040.5978   ✗       
+612   PAVTEYAQR                -1.0000     NotChecked  -26.9436    1033.5193   ✗       
+613   PAVTQ+0.984YLQL          -1.0000     NotChecked  -26.9529    1032.5492   ✗       
+614   PAVTEYLGR                -1.0000     NotChecked  -26.9589    1004.5291   ✗       
+615   +42.011AVTQ+0.984YLQR    -1.0000     NotChecked  -26.9619    1020.5240   ✗       
+616   PAVTKYLQR                -1.0000     NotChecked  -26.9772    1074.6186   ✗       
+617   PAVQ+0.984YLQR           -1.0000     NotChecked  -27.0172    974.5185    ✗       
+618   PAVTQYLQR                -1.0000     NotChecked  -27.0186    1074.5822   ✗       
+619   +42.011AVTEYLQR          -1.0000     NotChecked  -27.0305    1020.5240   ✗       
+620   PAVTEYLAR                -1.0000     NotChecked  -27.0436    1018.5447   ✗       
+621   PAVTEQLQR                -1.0000     NotChecked  -27.0552    1040.5615   ✗       
+622   PAVTEYLR                 -1.0000     NotChecked  -27.0585    947.5076    ✗       
+623   PAVTQ+0.984YAQR          -1.0000     NotChecked  -27.0672    1033.5193   ✗       
+624   PAVTEYLQK                -1.0000     NotChecked  -27.0771    1047.5601   ✗       
+625   PAVTEYLGR                -1.0000     NotChecked  -27.0840    1004.5291   ✗       
+626   PAVTEALQR                -1.0000     NotChecked  -27.1132    983.5400    ✗       
+627   PAVTEYVQR                -1.0000     NotChecked  -27.1230    1061.5506   ✗       
+628   PAVGEYLQR                -1.0000     NotChecked  -27.1346    1031.5400   ✗       
+629   PAVTEYAQR                -1.0000     NotChecked  -27.1358    1033.5193   ✗       
+630   PAVTEYLAR                -1.0000     NotChecked  -27.1687    1018.5447   ✗       
+631   PAVTKYLQR                -1.0000     NotChecked  -27.1694    1074.6186   ✗       
+632   PAVTEYLQK                -1.0000     NotChecked  -27.2022    1047.5601   ✗       
+633   PAVTEYLNR                -1.0000     NotChecked  -27.2148    1061.5506   ✗       
+634   PAVTTYLQR                -1.0000     NotChecked  -27.2508    1047.5713   ✗       
+635   PAVTERLQR                -1.0000     NotChecked  -27.2519    1068.6040   ✗       
+636   PAVGQ+0.984YLQR          -1.0000     NotChecked  -27.2582    1031.5400   ✗       
+637   PAVEYLQR                 -1.0000     NotChecked  -27.2724    974.5185    ✗       
+638   PAVTEYAQR                -1.0000     NotChecked  -27.3224    1033.5193   ✗       
+639   PAVTEYLNR                -1.0000     NotChecked  -27.3399    1061.5506   ✗       
+640   PAATEYLQR                -1.0000     NotChecked  -27.3447    1047.5349   ✗       
+641   PAVTYLQR                 -1.0000     NotChecked  -27.3454    946.5236    ✗       
+642   PAVTKYLQR                -1.0000     NotChecked  -27.3560    1074.6186   ✗       
+643   PAVTEYLQL                -1.0000     NotChecked  -27.3612    1032.5492   ✗       
+644   PAVTDYLQR                -1.0000     NotChecked  -27.3784    1061.5506   ✗       
+645   PAVTEYLR                 -1.0000     NotChecked  -27.3839    947.5076    ✗       
+646   PAVQ+0.984YLQR           -1.0000     NotChecked  -27.3960    974.5185    ✗       
+647   PAVTQYLQR                -1.0000     NotChecked  -27.3974    1074.5822   ✗       
+648   PAVTEQLQR                -1.0000     NotChecked  -27.4340    1040.5615   ✗       
+649   PAVTQ+0.984YAQR          -1.0000     NotChecked  -27.4460    1033.5193   ✗       
+650   PAVTEYLQK                -1.0000     NotChecked  -27.4559    1047.5601   ✗       
+651   PAVTEYTQR                -1.0000     NotChecked  -27.4587    1063.5298   ✗       
+652   PAVTNYLQR                -1.0000     NotChecked  -27.4615    1060.5665   ✗       
+653   PAVTEYLR                 -1.0000     NotChecked  -27.4653    947.5076    ✗       
+654   PAVSEYLQR                -1.0000     NotChecked  -27.4675    1061.5506   ✗       
+655   PAATQ+0.984YLQR          -1.0000     NotChecked  -27.4683    1047.5349   ✗       
+656   PAVTYLQR                 -1.0000     NotChecked  -27.4705    946.5236    ✗       
+657   PAVTQ+0.984YLQL          -1.0000     NotChecked  -27.4848    1032.5492   ✗       
+658   PAVTEYLQ                 -1.0000     NotChecked  -27.4878    919.4651    ✗       
+659   PAVTEYLGR                -1.0000     NotChecked  -27.4908    1004.5291   ✗       
+660   PAVTEYLR                 -1.0000     NotChecked  -27.5090    947.5076    ✗       
+661   PAVGEYLQR                -1.0000     NotChecked  -27.5134    1031.5400   ✗       
+662   PATEYLQR                 -1.0000     NotChecked  -27.5258    976.4978    ✗       
+663   PAVTEELQR                -1.0000     NotChecked  -27.5332    1041.5455   ✗       
+664   PAVTEYLQV                -1.0000     NotChecked  -27.5461    1018.5335   ✗       
+665   PAVTEYLQL                -1.0000     NotChecked  -27.5534    1032.5492   ✗       
+666   +43.006AVTEYLQR          -1.0000     NotChecked  -27.5535    1021.5193   ✗       
+667   PAVAEYLQR                -1.0000     NotChecked  -27.5630    1045.5556   ✗       
+668   PAVTEYLAR                -1.0000     NotChecked  -27.5754    1018.5447   ✗       
+669   PAVTEYLQK                -1.0000     NotChecked  -27.5810    1047.5601   ✗       
+670   PGVTEYLQR                -1.0000     NotChecked  -27.5863    1061.5506   ✗       
+671   PAVTEYLR                 -1.0000     NotChecked  -27.5904    947.5076    ✗       
+672   PAVTEYLNR                -1.0000     NotChecked  -27.5936    1061.5506   ✗       
+673   PAVTEYLQ                 -1.0000     NotChecked  -27.6129    919.4651    ✗       
+674   PAVTEYLGR                -1.0000     NotChecked  -27.6159    1004.5291   ✗       
+675   PAVTERLQR                -1.0000     NotChecked  -27.6307    1068.6040   ✗       
+676   PAVTSYLQR                -1.0000     NotChecked  -27.6329    1033.5556   ✗       
+677   PAVGQ+0.984YLQR          -1.0000     NotChecked  -27.6370    1031.5400   ✗       
+678   PATQ+0.984YLQR           -1.0000     NotChecked  -27.6494    976.4978    ✗       
+679   PAVTENLQR                -1.0000     NotChecked  -27.6610    1026.5458   ✗       
+680   PAVTQ+0.984YLQV          -1.0000     NotChecked  -27.6697    1018.5335   ✗       
+681   +43.006AVTQ+0.984YLQR    -1.0000     NotChecked  -27.6771    1021.5193   ✗       
+682   PAVTELLQR                -1.0000     NotChecked  -27.6802    1025.5869   ✗       
+683   PAVAQ+0.984YLQR          -1.0000     NotChecked  -27.6866    1045.5556   ✗       
+684   PAVTEFLQR                -1.0000     NotChecked  -27.6873    1059.5713   ✗       
+685   PAVTEYLAR                -1.0000     NotChecked  -27.7006    1018.5447   ✗       
+686   +42.011AVTEYLQR          -1.0000     NotChecked  -27.9412    1020.5240   ✗       
+687   AAVTEYLQR                -1.0000     NotChecked  -27.9729    1049.5506   ✗       
+688   AAVTEYLQR                -1.0000     NotChecked  -28.0980    1049.5506   ✗       
+689   +43.006AVTEYLQR          -1.0000     NotChecked  -28.4642    1021.5193   ✗       
+690   +43.006AVTQ+0.984YLQR    -1.0000     NotChecked  -28.5878    1021.5193   ✗       
+691   +43.006AVTEYLQR          -1.0000     NotChecked  -28.6564    1021.5193   ✗       
+692   AAVTEYLQR                -1.0000     NotChecked  -28.8836    1049.5506   ✗       
+693   AAVTEYLQR                -1.0000     NotChecked  -29.0087    1049.5506   ✗       
+694   +42.011AVTEYLQR          -1.0000     NotChecked  -29.1255    1020.5240   ✗       
+695   +42.011AVTEYLQR          -1.0000     NotChecked  -29.2506    1020.5240   ✗       
+696   +43.006AVTEYLQR          -1.0000     NotChecked  -29.5671    1021.5193   ✗       
+697   AAVTEYLQR                -1.0000     NotChecked  -29.8824    1049.5506   ✗       
+698   +42.011AVTEYLQR          -1.0000     NotChecked  -30.0362    1020.5240   ✗       
+699   +42.011AVTEYLQR          -1.0000     NotChecked  -30.1613    1020.5240   ✗       
+700   AAVTQYLQR                -1.0000     NotChecked  -30.4287    1048.5665   ✗       
+701   +43.006AVTEYLQR          -1.0000     NotChecked  -30.7514    1021.5193   ✗       
+702   AAVTEYLQR                -1.0000     NotChecked  -30.7931    1049.5506   ✗       
+703   +43.006AVTEYLQR          -1.0000     NotChecked  -30.8765    1021.5193   ✗       
+704   +42.011AVTEYLQR          -1.0000     NotChecked  -31.0350    1020.5240   ✗       
+705   AAVTQYLQR                -1.0000     NotChecked  -31.3394    1048.5665   ✗       
+706   +42.011AVTQYLQR          -1.0000     NotChecked  -31.5813    1019.5400   ✗       
+707   +43.006AVTEYLQR          -1.0000     NotChecked  -31.6621    1021.5193   ✗       
+708   +43.006AVTEYLQR          -1.0000     NotChecked  -31.7872    1021.5193   ✗       
+709   AAVTEYLR                 -1.0000     NotChecked  -31.8743    921.4920    ✗       
+710   AAVTEYLGR                -1.0000     NotChecked  -31.8997    978.5134    ✗       
+711   +42.011AVTEYLQR          -1.0000     NotChecked  -31.9457    1020.5240   ✗       
+712   AAVTEYLAR                -1.0000     NotChecked  -31.9844    992.5291    ✗       
+713   AAVTEYLQR                -1.0000     NotChecked  -31.9958    1049.5506   ✗       
+714   AAVTEYLQ+0.984R          -1.0000     NotChecked  -32.1618    1050.5346   ✗       
+715   AAVTEQLQR                -1.0000     NotChecked  -32.2498    1014.5458   ✗       
+716   APAVTEYLR                -1.0000     NotChecked  -32.2531    1018.5447   ✗       
+717   APAVTEYLGR               -1.0000     Failed      -32.2786    1075.5662   ✓       
+718   AAVTEYLQK                -1.0000     NotChecked  -32.3968    1021.5444   ✗       
+719   AAVTERLQR                -1.0000     NotChecked  -32.4464    1042.5883   ✗       
+720   +42.011AVTQYLQR          -1.0000     NotChecked  -32.4920    1019.5400   ✗       
+721   AAVTEYLFR                -1.0000     NotChecked  -32.5318    1068.5604   ✗       
+722   AAVTEYLNR                -1.0000     NotChecked  -32.5345    1035.5349   ✗       
+723   AALTEYLQR                -1.0000     NotChecked  -32.5709    1063.5662   ✗       
+724   AAVTQ+0.984YLQR          -1.0000     NotChecked  -32.5969    1049.5506   ✗       
+725   +43.006AVTEYLQR          -1.0000     NotChecked  -32.6610    1021.5193   ✗       
+726   AAVTYLQR                 -1.0000     NotChecked  -32.6651    920.5080    ✗       
+727   AAVTEYLR                 -1.0000     NotChecked  -32.7036    921.4920    ✗       
+728   AAVTEELQR                -1.0000     NotChecked  -32.7278    1015.5298   ✗       
+729   AAVTEYLR                 -1.0000     NotChecked  -32.7850    921.4920    ✗       
+730   AAVTEYLQ                 -1.0000     NotChecked  -32.8074    893.4494    ✗       
+731   AAVTEYLGR                -1.0000     NotChecked  -32.8104    978.5134    ✗       
+732   AAVTEYLQR                -1.0000     NotChecked  -32.8345    1049.5506   ✗       
+733   AAVTEYLKR                -1.0000     NotChecked  -32.8434    1049.5869   ✗       
+734   AAVTENLQR                -1.0000     NotChecked  -32.8556    1000.5302   ✗       
+735   AAVTELLQR                -1.0000     NotChecked  -32.8748    999.5713    ✗       
+736   AAVTEFLQR                -1.0000     NotChecked  -32.8819    1033.5556   ✗       
+737   AAVTEYLAR                -1.0000     NotChecked  -32.8951    992.5291    ✗       
+738   AGVTEYLQR                -1.0000     NotChecked  -32.9060    1035.5349   ✗       
+739   AAVTEYLQR                -1.0000     NotChecked  -32.9065    1049.5506   ✗       
+740   +42.011AVTEYLR           -1.0000     NotChecked  -33.0269    892.4654    ✗       
+741   APAVTYLQR                -1.0000     NotChecked  -33.0439    1017.5607   ✗       
+742   +42.011AVTEYLGR          -1.0000     NotChecked  -33.0523    949.4869    ✗       
+743   AAVTEYLQ+0.984R          -1.0000     NotChecked  -33.0725    1050.5346   ✗       
+744   APAVTEYLR                -1.0000     NotChecked  -33.0824    1018.5447   ✗       
+745   +42.011AVTEYLAR          -1.0000     NotChecked  -33.1370    963.5025    ✗       
+746   AAVTEYNQR                -1.0000     NotChecked  -33.1455    1050.5094   ✗       
+747   +42.011AVTEYLQR          -1.0000     NotChecked  -33.1484    1020.5240   ✗       
+748   AAVTEQLQR                -1.0000     NotChecked  -33.1605    1014.5458   ✗       
+749   APAVTEYLR                -1.0000     NotChecked  -33.1638    1018.5447   ✗       
+750   APAVTEYLQ                -1.0000     NotChecked  -33.1862    990.5022    ✗       
+751   AAVTELQR                 -1.0000     NotChecked  -33.1878    886.4872    ✗       
+752   APAVTEYLGR               -1.0000     Failed      -33.1893    1075.5662   ✓       
+753   +43.006AVTQYLQR          -1.0000     NotChecked  -33.2073    1020.5352   ✗       
+754   AAVTEYLER                -1.0000     NotChecked  -33.2141    1050.5346   ✗       
+755   AAVTEYLQK                -1.0000     NotChecked  -33.3075    1021.5444   ✗       
+756   +42.011AVTEYLQ+0.984R    -1.0000     NotChecked  -33.3144    1021.5080   ✗       
+757   AAVTERLQR                -1.0000     NotChecked  -33.3571    1042.5883   ✗       
+758   +42.011AVTEQLQR          -1.0000     NotChecked  -33.4024    985.5193    ✗       
+759   +42.011PAVTEYLR          -1.0000     NotChecked  -33.4057    989.5182    ✗       
+760   +42.011PAVTEYLGR         -1.0000     NotChecked  -33.4312    1046.5397   ✗       
+761   AAVTEYLFR                -1.0000     NotChecked  -33.4425    1068.5604   ✗       
+762   AAVTEKLQR                -1.0000     NotChecked  -33.4442    1014.5822   ✗       
+763   AAVTEYLNR                -1.0000     NotChecked  -33.4452    1035.5349   ✗       
+764   AALTEYLQR                -1.0000     NotChecked  -33.4816    1063.5662   ✗       
+765   AAVTEYQQR                -1.0000     NotChecked  -33.4925    1064.5251   ✗       
+766   AAVTQ+0.984YLQR          -1.0000     NotChecked  -33.5076    1049.5506   ✗       
+767   +42.011PAVTEYLAR         -1.0000     NotChecked  -33.5158    1060.5553   ✗       
+768   +42.011AVTEYLQK          -1.0000     NotChecked  -33.5494    992.5179    ✗       
+769   APAVTELQR                -1.0000     NotChecked  -33.5666    983.5400    ✗       
+770   +43.006AVTEYLQR          -1.0000     NotChecked  -33.5717    1021.5193   ✗       
+771   AAVTYLQR                 -1.0000     NotChecked  -33.5758    920.5080    ✗       
+772   AVTEYLQR                 -1.0000     NotChecked  -33.5762    978.5134    ✗       
+773   +42.011AVTERLQR          -1.0000     NotChecked  -33.5990    1013.5618   ✗       
+774   AAVTEYLR                 -1.0000     NotChecked  -33.6143    921.4920    ✗       
+775   AAVTEALQR                -1.0000     NotChecked  -33.6172    957.5243    ✗       
+776   AAVTEYVQR                -1.0000     NotChecked  -33.6269    1035.5349   ✗       
+777   AAVTEELQR                -1.0000     NotChecked  -33.6385    1015.5298   ✗       
+778   +42.011AVTEYLFR          -1.0000     NotChecked  -33.6844    1039.5338   ✗       
+779   +42.011AVTEYLNR          -1.0000     NotChecked  -33.6871    1006.5084   ✗       
+780   AVTQ+0.984YLQR           -1.0000     NotChecked  -33.6998    978.5134    ✗       
+781   AAVTEYLQ                 -1.0000     NotChecked  -33.7181    893.4494    ✗       
+782   QAVTEYLR                 -1.0000     NotChecked  -33.7204    978.5134    ✗       
+783   +42.011ALTEYLQR          -1.0000     NotChecked  -33.7235    1034.5397   ✗       
+784   AAVTEYLQR                -1.0000     NotChecked  -33.7303    1049.5506   ✗       
+785   AAVTEYLQR                -1.0000     NotChecked  -33.7452    1049.5506   ✗       
+786   QAVTEYLGR                -1.0000     NotChecked  -33.7459    1035.5349   ✗       
+787   +42.011AVTQ+0.984YLQR    -1.0000     NotChecked  -33.7495    1020.5240   ✗       
+788   AAVTEYLKR                -1.0000     NotChecked  -33.7541    1049.5869   ✗       
+789   AAVTTYLQR                -1.0000     NotChecked  -33.7548    1021.5556   ✗       
+790   AAVTENLQR                -1.0000     NotChecked  -33.7663    1000.5302   ✗       
+791   AAVTELLQR                -1.0000     NotChecked  -33.7855    999.5713    ✗       
+792   AAVTEFLQR                -1.0000     NotChecked  -33.7926    1033.5556   ✗       
+793   +42.011AVTYLQR           -1.0000     NotChecked  -33.8177    891.4814    ✗       
+794   QAVTEYLAR                -1.0000     NotChecked  -33.8306    1049.5506   ✗       
+795   +42.011AVTEYLR           -1.0000     NotChecked  -33.8562    892.4654    ✗       
+796   +42.011AVTEELQR          -1.0000     NotChecked  -33.8804    986.5033    ✗       
+797   AAVTDYLQR                -1.0000     NotChecked  -33.8823    1035.5349   ✗       
+798   +42.011AVTEYLR           -1.0000     NotChecked  -33.9376    892.4654    ✗       
+799   APAVTYLQR                -1.0000     NotChecked  -33.9546    1017.5607   ✗       
+800   +42.011AVTEYLQ           -1.0000     NotChecked  -33.9600    864.4229    ✗       
+801   AAVTEYTQR                -1.0000     NotChecked  -33.9626    1037.5142   ✗       
+802   +42.011AVTEYLGR          -1.0000     NotChecked  -33.9631    949.4869    ✗       
+803   AAVTNYLQR                -1.0000     NotChecked  -33.9655    1034.5509   ✗       
+804   AAVSEYLQR                -1.0000     NotChecked  -33.9715    1035.5349   ✗       
+805   +42.011AVTEYLQR          -1.0000     NotChecked  -33.9871    1020.5240   ✗       
+806   APAVTEYLR                -1.0000     NotChecked  -33.9931    1018.5447   ✗       
+807   +42.011AVTEYLKR          -1.0000     NotChecked  -33.9960    1020.5604   ✗       
+808   APAVTEALQR               -1.0000     NotChecked  -33.9960    1054.5771   ✗       
+809   +42.011AVTENLQR          -1.0000     NotChecked  -34.0082    971.5036    ✗       
+810   +42.011AVTELLQR          -1.0000     NotChecked  -34.0274    970.5447    ✗       
+811   AVTEYLQR                 -1.0000     NotChecked  -34.0315    978.5134    ✗       
+812   +42.011AVTEFLQR          -1.0000     NotChecked  -34.0345    1004.5291   ✗       
+813   +42.011AVTEYLAR          -1.0000     NotChecked  -34.0477    963.5025    ✗       
+814   AAVTEYNQR                -1.0000     NotChecked  -34.0562    1050.5094   ✗       
+815   +42.011GVTEYLQR          -1.0000     NotChecked  -34.0586    1006.5084   ✗       
+816   +42.011AVTEYLQR          -1.0000     NotChecked  -34.0591    1020.5240   ✗       
+817   +42.011AVTRYLQR          -1.0000     NotChecked  -34.0919    1047.5825   ✗       
+818   QAVTEQLQR                -1.0000     NotChecked  -34.0959    1071.5673   ✗       
+819   APAVTEYLQ                -1.0000     NotChecked  -34.0969    990.5022    ✗       
+820   AAVTELQR                 -1.0000     NotChecked  -34.0985    886.4872    ✗       
+821   +43.006AVTQYLQR          -1.0000     NotChecked  -34.1180    1020.5352   ✗       
+822   AAVTEYLER                -1.0000     NotChecked  -34.1248    1050.5346   ✗       
+823   AAVTSYLQR                -1.0000     NotChecked  -34.1369    1007.5400   ✗       
+824   +42.011PAVTYLQR          -1.0000     NotChecked  -34.1965    988.5342    ✗       
+825   +42.011AVTEYLQ+0.984R    -1.0000     NotChecked  -34.2251    1021.5080   ✗       
+826   +42.011PAVTEYLR          -1.0000     NotChecked  -34.2350    989.5182    ✗       
+827   +42.011AVTEYNQR          -1.0000     NotChecked  -34.2981    1021.4829   ✗       
+828   +42.011AVTEQLQR          -1.0000     NotChecked  -34.3131    985.5193    ✗       
+829   +42.011PAVTEYLR          -1.0000     NotChecked  -34.3164    989.5182    ✗       
+830   +42.011PAVTEYLQ          -1.0000     NotChecked  -34.3388    961.4757    ✗       
+831   +42.011AVTELQR           -1.0000     NotChecked  -34.3404    857.4607    ✗       
+832   +42.011PAVTEYLGR         -1.0000     NotChecked  -34.3419    1046.5397   ✗       
+833   AAVTEKLQR                -1.0000     NotChecked  -34.3549    1014.5822   ✗       
+834   +42.011AVTEYLER          -1.0000     NotChecked  -34.3667    1021.5080   ✗       
+835   +42.011PAVTENLQR         -1.0000     NotChecked  -34.3870    1068.5564   ✗       
+836   AAVTEYQQR                -1.0000     NotChecked  -34.4032    1064.5251   ✗       
+837   +42.011PAVTELLQR         -1.0000     NotChecked  -34.4062    1067.5975   ✗       
+838   +42.011AVTEYFQR          -1.0000     NotChecked  -34.4195    1054.5084   ✗       
+839   ASVTEYLQR                -1.0000     NotChecked  -34.4222    1065.5455   ✗       
+840   +42.011PAVTEYLAR         -1.0000     NotChecked  -34.4265    1060.5553   ✗       
+841   +42.011AVTEYLQK          -1.0000     NotChecked  -34.4601    992.5179    ✗       
+842   +42.011PVTEYLQR          -1.0000     NotChecked  -34.4721    1046.5397   ✗       
+843   APAVTELQR                -1.0000     NotChecked  -34.4773    983.5400    ✗       
+844   AVTEYLQR                 -1.0000     NotChecked  -34.4869    978.5134    ✗       
+845   +42.011AVTERLQR          -1.0000     NotChecked  -34.5098    1013.5618   ✗       
+846   QAVTYLQR                 -1.0000     NotChecked  -34.5112    977.5294    ✗       
+847   AAVTEALQR                -1.0000     NotChecked  -34.5279    957.5243    ✗       
+848   AAVTEYVQR                -1.0000     NotChecked  -34.5376    1035.5349   ✗       
+849   QAVTEYLR                 -1.0000     NotChecked  -34.5497    978.5134    ✗       
+850   AAVTEYAQR                -1.0000     NotChecked  -34.5505    1007.5036   ✗       
+851   QAVTEELQR                -1.0000     NotChecked  -34.5739    1072.5513   ✗       
+852   AAVTKYLQR                -1.0000     NotChecked  -34.5841    1048.6029   ✗       
+853   +42.011AVTEYLFR          -1.0000     NotChecked  -34.5951    1039.5338   ✗       
+854   +42.011AVTEKLQR          -1.0000     NotChecked  -34.5968    985.5556    ✗       
+855   +42.011AVTEYLNR          -1.0000     NotChecked  -34.5978    1006.5084   ✗       
+856   AVTQ+0.984YLQR           -1.0000     NotChecked  -34.6105    978.5134    ✗       
+857   QAVTEYLR                 -1.0000     NotChecked  -34.6311    978.5134    ✗       
+858   +42.011ALTEYLQR          -1.0000     NotChecked  -34.6342    1034.5397   ✗       
+859   +42.011AVTEYQQR          -1.0000     NotChecked  -34.6451    1035.4985   ✗       
+860   +43.006AVTEYLR           -1.0000     NotChecked  -34.6529    893.4607    ✗       
+861   QAVTEYLQ                 -1.0000     NotChecked  -34.6536    950.4709    ✗       
+862   QAVTEYLGR                -1.0000     NotChecked  -34.6566    1035.5349   ✗       
+863   +42.011AVTQ+0.984YLQR    -1.0000     NotChecked  -34.6602    1020.5240   ✗       
+864   AAVTTYLQR                -1.0000     NotChecked  -34.6655    1021.5556   ✗       
+865   +43.006AVTEYLGR          -1.0000     NotChecked  -34.6783    950.4821    ✗       
+866   QAVTENLQR                -1.0000     NotChecked  -34.7017    1057.5516   ✗       
+867   +42.011PAVTELQR          -1.0000     NotChecked  -34.7192    954.5134    ✗       
+868   AAVTEYLQR                -1.0000     NotChecked  -34.7207    1049.5506   ✗       
+869   QAVTELLQR                -1.0000     NotChecked  -34.7209    1056.5928   ✗       
+870   +42.011AVTYLQR           -1.0000     NotChecked  -34.7284    891.4814    ✗       
+871   +42.011AVTEYLQR          -1.0000     NotChecked  -34.7288    1020.5240   ✗       
+872   QAVTEYLAR                -1.0000     NotChecked  -34.7413    1049.5506   ✗       
+873   AAVTEYMQR                -1.0000     NotChecked  -34.7567    1067.5070   ✗       
+874   +43.006AVTEYLAR          -1.0000     NotChecked  -34.7630    964.4978    ✗       
+875   +42.011AVTEYLR           -1.0000     NotChecked  -34.7669    892.4654    ✗       
+876   +42.011AVTEALQR          -1.0000     NotChecked  -34.7698    928.4978    ✗       
+877   +43.006AVTEYLQR          -1.0000     NotChecked  -34.7744    1021.5193   ✗       
+878   +42.011AVTEYVQR          -1.0000     NotChecked  -34.7795    1006.5084   ✗       
+879   +42.011AVTEELQR          -1.0000     NotChecked  -34.7911    986.5033    ✗       
+880   AAVTDYLQR                -1.0000     NotChecked  -34.7930    1035.5349   ✗       
+881   +42.011AVTEYRQR          -1.0000     NotChecked  -34.8081    1063.5411   ✗       
+882   +42.011PVTEYLQR          -1.0000     NotChecked  -34.8509    1046.5397   ✗       
+883   +42.011AVTQ+0.984YLQR    -1.0000     NotChecked  -34.8524    1020.5240   ✗       
+884   +42.011AVTEYLQ           -1.0000     NotChecked  -34.8707    864.4229    ✗       
+885   AAVTEYTQR                -1.0000     NotChecked  -34.8734    1037.5142   ✗       
+886   AAVTNYLQR                -1.0000     NotChecked  -34.8762    1034.5509   ✗       
+887   AAVSEYLQR                -1.0000     NotChecked  -34.8822    1035.5349   ✗       
+888   +42.011AVTEYLQR          -1.0000     NotChecked  -34.8829    1020.5240   ✗       
+889   QPAVTYLQR                -1.0000     NotChecked  -34.8901    1074.5822   ✗       
+890   VAVTEYLR                 -1.0000     NotChecked  -34.8941    949.5233    ✗       
+891   +42.011AVTEYLQR          -1.0000     NotChecked  -34.8978    1020.5240   ✗       
+892   +42.011AVTEYLKR          -1.0000     NotChecked  -34.9067    1020.5604   ✗       
+893   APAVTEALQR               -1.0000     NotChecked  -34.9067    1054.5771   ✗       
+894   +42.011AVTTYLQR          -1.0000     NotChecked  -34.9074    992.5291    ✗       
+895   +42.011AVTENLQR          -1.0000     NotChecked  -34.9189    971.5036    ✗       
+896   VAVTEYLGR                -1.0000     NotChecked  -34.9196    1006.5447   ✗       
+897   +42.011AVTELLQR          -1.0000     NotChecked  -34.9381    970.5447    ✗       
+898   +43.006AVTEYLQ+0.984R    -1.0000     NotChecked  -34.9404    1022.5033   ✗       
+899   AAVTEYLQR                -1.0000     NotChecked  -34.9422    1049.5506   ✗       
+900   +42.011AVTEFLQR          -1.0000     NotChecked  -34.9452    1004.5291   ✗       
+901   AAVTEYLQL                -1.0000     NotChecked  -34.9681    1006.5335   ✗       
+902   +42.011AVTRYLQR          -1.0000     NotChecked  -35.0026    1047.5825   ✗       
+903   VAVTEYLAR                -1.0000     NotChecked  -35.0043    1020.5604   ✗       
+904   QAVTEQLQR                -1.0000     NotChecked  -35.0066    1071.5673   ✗       
+905   +43.006AVTEQLQR          -1.0000     NotChecked  -35.0284    986.5145    ✗       
+906   +43.006PAVTEYLR          -1.0000     NotChecked  -35.0317    990.5134    ✗       
+907   QPAVTEYLQ                -1.0000     NotChecked  -35.0324    1047.5237   ✗       
+908   QAVTELQR                 -1.0000     NotChecked  -35.0339    943.5087    ✗       
+909   +42.011AVTDYLQR          -1.0000     NotChecked  -35.0349    1006.5084   ✗       
+910   AAVTSYLQR                -1.0000     NotChecked  -35.0476    1007.5400   ✗       
+911   +43.006PAVTEYLGR         -1.0000     NotChecked  -35.0571    1047.5349   ✗       
+912   +42.011PAVTYLQR          -1.0000     NotChecked  -35.1072    988.5342    ✗       
+913   +42.011AVTEYTQR          -1.0000     NotChecked  -35.1152    1008.4876   ✗       
+914   +42.011AVTNYLQR          -1.0000     NotChecked  -35.1181    1005.5243   ✗       
+915   +42.011AVSEYLQR          -1.0000     NotChecked  -35.1241    1006.5084   ✗       
+916   +43.006PAVTEYLAR         -1.0000     NotChecked  -35.1418    1061.5506   ✗       
+917   +42.011PAVTEYLR          -1.0000     NotChecked  -35.1457    989.5182    ✗       
+918   +42.011PAVTEALQR         -1.0000     NotChecked  -35.1486    1025.5506   ✗       
+919   +43.006AVTEYLQK          -1.0000     NotChecked  -35.1754    993.5131    ✗       
+920   +42.011VTEYLQR           -1.0000     NotChecked  -35.1841    949.4869    ✗       
+921   HAVTEYLR                 -1.0000     NotChecked  -35.1945    987.5138    ✗       
+922   +42.011AVTEYNQR          -1.0000     NotChecked  -35.2088    1021.4829   ✗       
+923   HAVTEYLGR                -1.0000     NotChecked  -35.2200    1044.5352   ✗       
+924   +43.006AVTERLQR          -1.0000     NotChecked  -35.2250    1014.5570   ✗       
+925   +42.011PAVTEYLQ          -1.0000     NotChecked  -35.2496    961.4757    ✗       
+926   +42.011AVTELQR           -1.0000     NotChecked  -35.2511    857.4607    ✗       
+927   VAVTEQLQR                -1.0000     NotChecked  -35.2696    1042.5771   ✗       
+928   VPAVTEYLR                -1.0000     NotChecked  -35.2729    1046.5760   ✗       
+929   +42.011AVTEYLER          -1.0000     NotChecked  -35.2774    1021.5080   ✗       
+930   +42.011AVTSYLQR          -1.0000     NotChecked  -35.2895    978.5134    ✗       
+931   QAVTEKLQR                -1.0000     NotChecked  -35.2903    1071.6037   ✗       
+932   +42.011PAVTENLQR         -1.0000     NotChecked  -35.2977    1068.5564   ✗       
+933   HAVTEYLAR                -1.0000     NotChecked  -35.3046    1058.5509   ✗       
+934   +43.006AVTEYLFR          -1.0000     NotChecked  -35.3103    1040.5291   ✗       
+935   +43.006AVTEYLNR          -1.0000     NotChecked  -35.3131    1007.5036   ✗       
+936   +42.011PAVTELLQR         -1.0000     NotChecked  -35.3169    1067.5975   ✗       
+937   +42.011AVTEYFQR          -1.0000     NotChecked  -35.3302    1054.5084   ✗       
+938   +43.006ALTEYLQR          -1.0000     NotChecked  -35.3495    1035.5349   ✗       
+939   LAVTEYLR                 -1.0000     NotChecked  -35.3638    963.5389    ✗       
+940   +43.006AVTQ+0.984YLQR    -1.0000     NotChecked  -35.3755    1021.5193   ✗       
+941   LAVTEYLGR                -1.0000     NotChecked  -35.3893    1020.5604   ✗       
+942   AAVEYLQR                 -1.0000     NotChecked  -35.4112    948.5029    ✗       
+943   QPAVTELQR                -1.0000     NotChecked  -35.4128    1040.5615   ✗       
+944   VAVTEYLQK                -1.0000     NotChecked  -35.4166    1049.5757   ✗       
+945   QAVTYLQR                 -1.0000     NotChecked  -35.4219    977.5294    ✗       
+946   +43.006AVTYLQR           -1.0000     NotChecked  -35.4437    892.4767    ✗       
+947   QAVTEYLR                 -1.0000     NotChecked  -35.4604    978.5134    ✗       
+948   AAVTEYAQR                -1.0000     NotChecked  -35.4612    1007.5036   ✗       
+949   NAVTEYLR                 -1.0000     NotChecked  -35.4633    964.4978    ✗       
+950   QAVTEALQR                -1.0000     NotChecked  -35.4633    1014.5458   ✗       
+951   VAVTERLQR                -1.0000     NotChecked  -35.4663    1070.6196   ✗       
+952   LAVTEYLAR                -1.0000     NotChecked  -35.4739    1034.5760   ✗       
+953   +43.006AVTEYLR           -1.0000     NotChecked  -35.4821    893.4607    ✗       
+954   QAVTEELQR                -1.0000     NotChecked  -35.4846    1072.5513   ✗       
+955   NAVTEYLGR                -1.0000     NotChecked  -35.4888    1021.5193   ✗       
+956   AAVTKYLQR                -1.0000     NotChecked  -35.4948    1048.6029   ✗       
+957   +43.006AVTEELQR          -1.0000     NotChecked  -35.5064    987.4985    ✗       
+958   +42.011AVTEKLQR          -1.0000     NotChecked  -35.5075    985.5556    ✗       
+959   +42.011AVTEYYQR          -1.0000     NotChecked  -35.5409    1070.5033   ✗       
+960   VAVTEYLNR                -1.0000     NotChecked  -35.5543    1063.5662   ✗       
+961   +42.011AVTEYQQR          -1.0000     NotChecked  -35.5558    1035.4985   ✗       
+962   +42.011PVTEYLQR          -1.0000     NotChecked  -35.5629    1046.5397   ✗       
+963   +43.006AVTEYLR           -1.0000     NotChecked  -35.5636    893.4607    ✗       
+964   QAVTEYLQ                 -1.0000     NotChecked  -35.5643    950.4709    ✗       
+965   RAVTEYLR                 -1.0000     NotChecked  -35.5708    1006.5560   ✗       
+966   NAVTEYLAR                -1.0000     NotChecked  -35.5735    1035.5349   ✗       
+967   +42.011SVTEYLQR          -1.0000     NotChecked  -35.5748    1036.5189   ✗       
+968   +43.006AVTEYLQ           -1.0000     NotChecked  -35.5860    865.4181    ✗       
+969   +43.006AVTEYLGR          -1.0000     NotChecked  -35.5890    950.4821    ✗       
+970   RAVTEYLGR                -1.0000     NotChecked  -35.5963    1063.5774   ✗       
+971   QAVTENLQR                -1.0000     NotChecked  -35.6124    1057.5516   ✗       
+972   +43.006AVTEYLQR          -1.0000     NotChecked  -35.6131    1021.5193   ✗       
+973   +43.006AVTEYLKR          -1.0000     NotChecked  -35.6220    1021.5556   ✗       
+974   +42.011PAVTELQR          -1.0000     NotChecked  -35.6299    954.5134    ✗       
+975   AAVTEYLQR                -1.0000     NotChecked  -35.6314    1049.5506   ✗       
+976   QAVTELLQR                -1.0000     NotChecked  -35.6316    1056.5928   ✗       
+977   +43.006AVTENLQR          -1.0000     NotChecked  -35.6342    972.4989    ✗       
+978   +42.011AVTEYLQR          -1.0000     NotChecked  -35.6395    1020.5240   ✗       
+979   AAVGEYLQR                -1.0000     NotChecked  -35.6522    1005.5243   ✗       
+980   +43.006AVTELLQR          -1.0000     NotChecked  -35.6534    971.5400    ✗       
+981   +43.006AVTEFLQR          -1.0000     NotChecked  -35.6605    1005.5243   ✗       
+982   AAVTEYMQR                -1.0000     NotChecked  -35.6674    1067.5070   ✗       
+983   AAVTEYLQR                -1.0000     NotChecked  -35.6712    1049.5506   ✗       
+984   +43.006AVTEYLAR          -1.0000     NotChecked  -35.6737    964.4978    ✗       
+985   +42.011AVTEALQR          -1.0000     NotChecked  -35.6805    928.4978    ✗       
+986   +43.006GVTEYLQR          -1.0000     NotChecked  -35.6846    1007.5036   ✗       
+987   VAVTYLQR                 -1.0000     NotChecked  -35.6849    948.5393    ✗       
+988   +43.006AVTEYLQR          -1.0000     NotChecked  -35.6851    1021.5193   ✗       
+989   +42.011AVTEYVQR          -1.0000     NotChecked  -35.6902    1006.5084   ✗       
+990   +42.011AVTEYAQR          -1.0000     NotChecked  -35.7031    978.4771    ✗       
+991   +43.006AVTRYLQR          -1.0000     NotChecked  -35.7179    1048.5778   ✗       
+992   +42.011AVTEYRQR          -1.0000     NotChecked  -35.7188    1063.5411   ✗       
+993   VAVTEYLR                 -1.0000     NotChecked  -35.7234    949.5233    ✗       
+994   +42.011AVTKYLQR          -1.0000     NotChecked  -35.7367    1019.5764   ✗       
+995   LAVTEQLQR                -1.0000     NotChecked  -35.7393    1056.5928   ✗       
+996   LPAVTEYLR                -1.0000     NotChecked  -35.7426    1060.5917   ✗       
+997   VAVTEELQR                -1.0000     NotChecked  -35.7476    1043.5611   ✗       
+998   +42.011AVTQ+0.984YLQR    -1.0000     NotChecked  -35.7631    1020.5240   ✗       
+999   APAVEYLQR                -1.0000     NotChecked  -35.7900    1045.5556   ✗       
+1000  AAVTQ+0.984YLQR          -1.0000     NotChecked  -35.7948    1049.5506   ✗       
+
+Reranking Result:
+--------------------------------------------------------------------------------
+Top-1 Peptide: PAVTEYLQR
+Similarity: 0.5255
+De Novo Score: -0.8606
+Source: Database
+Correct: ✓
+
