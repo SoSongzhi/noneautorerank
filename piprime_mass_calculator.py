@@ -46,14 +46,30 @@ def mass_cal_piprime(sequence: str) -> Tuple[float, List[str]]:
     使用PiPrime的方式计算peptide质量
     这是从pi-PrimeNovo/PrimeNovo/denovo/model.py复制的mass_cal函数
     
+    支持多种修饰格式：
+    - PiPrime格式: C+57.021, M+15.995, N+0.984
+    - MGF格式: C(+57.02), M(+15.99), N(+.98)
+    
     Args:
-        sequence: peptide序列字符串，例如 "SISC+57.021TYDDDTYR"
+        sequence: peptide序列字符串，例如 "SISC+57.021TYDDDTYR" 或 "SISM(+15.99)TYDDDTYR"
         
     Returns:
         (total_mass, tokens): 总质量和token列表
     """
     # 将I替换为L（PiPrime将它们视为相同）
     sequence = sequence.replace("I", "L")
+    
+    # 标准化修饰格式：将MGF格式转换为PiPrime格式
+    # M(+15.99) -> M+15.995
+    # N(+.98) -> N+0.984
+    # Q(+.98) -> Q+0.984
+    # C(+57.02) -> C+57.021
+    sequence = re.sub(r'M\(\+15\.99\d*\)', 'M+15.995', sequence)
+    sequence = re.sub(r'N\(\+\.98\d*\)', 'N+0.984', sequence)
+    sequence = re.sub(r'N\(\+0\.98\d*\)', 'N+0.984', sequence)
+    sequence = re.sub(r'Q\(\+\.98\d*\)', 'Q+0.984', sequence)
+    sequence = re.sub(r'Q\(\+0\.98\d*\)', 'Q+0.984', sequence)
+    sequence = re.sub(r'C\(\+57\.02\d*\)', 'C+57.021', sequence)
     
     # 按照大写字母分割序列，保留修饰
     sequence = re.split(r"(?<=.)(?=[A-Z])", sequence)

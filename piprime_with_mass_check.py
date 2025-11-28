@@ -710,16 +710,24 @@ class PiPrimeWithMassCheck:
         """
         将PiPrime的修饰格式转换为pyteomics格式
         
-        PiPrime格式: C+57.021, M+15.995, N+0.984
-        Pyteomics格式: C[+57.021], M[+15.995], N[+0.984]
+        支持的输入格式:
+        - PiPrime格式: C+57.021, M+15.995, N+0.984
+        - MGF括号格式: C(+57.02), M(+15.99), N(+.98)
+        
+        输出格式:
+        - Pyteomics格式: C[+57.021], M[+15.995], N[+0.984]
         
         注意：PiPrime中C+57.021是整体token，质量已经包含了C和修饰
         但pyteomics需要分开处理，所以我们需要：
-        1. 识别修饰的氨基酸（如C+57.021）
+        1. 识别修饰的氨基酸（如C+57.021或C(+57.02)）
         2. 转换为pyteomics格式（C[+57.021]）
         3. pyteomics会自动处理：C的质量 + 修饰质量
         """
         import re
+        from piprime_mass_calculator import normalize_sequence_format
+        
+        # 首先标准化格式：将MGF格式转换为PiPrime格式
+        peptide = normalize_sequence_format(peptide)
         
         # 匹配修饰的氨基酸：字母后跟+或-和数字
         # 例如：C+57.021, M+15.995, N+0.984, Q+0.984
