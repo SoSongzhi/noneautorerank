@@ -19,52 +19,61 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-MANIFEST
 
-# PyTorch
-*.pth
-*.pt
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
 
-# Model files (large)
-*.ckpt
-*.pkl
-*.h5
-*.hdf5
-
-# Data files
-*.csv
-*.tsv
-*.json
-*.jsonl
-*.parquet
-
-# Test results
-test_results/
-results/
-output/
-logs/
-
-# IDE
+# IDEs
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model files (too large for git)
+*.ckpt
+*.pth
+*.pt
+*.h5
+*.pkl
+*.pickle
+
+# Data files (too large for git)
+*.mgf
+*.mzML
+*.mzXML
+*.raw
+*.d/
+
+# Results and outputs
+piprime_highnine_results_*/
+fastest_beam_search_results_*/
+mass_filter_results/
+mouse_result/
+piprime_highnine_results_*/
+
+# Test data (optional - uncomment if you want to exclude)
+# testdata/
+# test_data/
+
+# Database files
+database/
+massive_data/
+massive_ftp_data/
+
+# Logs
+*.log
+
 # OS
 .DS_Store
 Thumbs.db
 
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# Environmental variables
-.env
-.venv
-env/
-venv/
-
 # Temporary files
 *.tmp
 *.temp
-*.log

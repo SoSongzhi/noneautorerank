@@ -186,6 +186,13 @@ class PiPrimeEfficientReranker:
     def load_precomputed_index(self, index_file):
         """加载预计算索引"""
         logger.info(f"Loading precomputed index: {index_file}")
+        
+        # Handle numpy compatibility issues
+        import sys
+        import numpy.core._multiarray_umath as _multiarray_umath
+        sys.modules['numpy._core'] = sys.modules['numpy.core']
+        sys.modules['numpy._core._multiarray_umath'] = _multiarray_umath
+        
         with open(index_file, 'rb') as f:
             self.precomputed_index = pickle.load(f)
         logger.info(f"Loaded {len(self.precomputed_index)} unique sequences")
