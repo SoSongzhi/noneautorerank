@@ -1,0 +1,80 @@
+# 改进的训练配置
+# 针对当前训练效果不佳的问题进行优化
+
+# 模型配置
+model:
+  encoder_dim: 512
+  embedding_dim: 256              # 最终embedding维度
+  pooling: 'cls'                  # 'cls', 'mean', 'max', 'attention'
+  freeze_encoder: true            # 初始冻结encoder
+  projection_layers: 3            # Projection head层数
+
+# 训练配置
+training:
+  epochs: 200                     # 增加训练轮数
+  batch_size: 128
+  learning_rate: 0.00003          # 降低学习率，避免破坏预训练特征
+  freeze_epochs: 5                # 减少冻结时间，更早fine-tune
+  weight_decay: 0.0001
+  grad_clip: 1.0                  # 梯度裁剪
+  
+  # 学习率调度
+  scheduler: 'cosine'             # 使用cosine退火
+  warmup_epochs: 5
+  
+  # 损失权重
+  triplet_weight: 0.3             # 从1.0降到0.3，减少triplet的影响
+  contrastive_weight: 2.0         # 从1.0升到2.0，增加contrastive的影响
+  
+  # Triplet loss
+  triplet_margin: 0.2             # 从0.5降到0.2，减少推开的力度
+  triplet_mining: 'hard'          # 'hard', 'semi-hard', 'all', None
+  
+  # Contrastive loss
+  temperature: 0.05               # 从0.07降到0.05，让相似度更集中
+  contrastive_type: 'infonce'     # 'infonce', 'supcon'
+
+# 数据配置
+data:
+  data_path: 'data/training_data.pkl'  # 默认数据路径
+  train_split: 0.8
+  val_split: 0.2
+  num_workers: 4
+  pin_memory: true
+  mode: 'triplet'                 # 'triplet' or 'contrastive'
+  
+  # 数据增强参数（减弱增强强度）
+  augmentation: true
+  augmentation_params:
+    noise_std: 0.01               # 从0.02降到0.01
+    intensity_scale_range: [0.95, 1.05]  # 从[0.8, 1.2]缩小
+    peak_dropout_rate: 0.05       # 从0.1降到0.05
+    mass_shift_range: [-0.001, 0.001]  # 从[-0.01, 0.01]缩小
+
+# PiPrime预训练模型
+pretrained:
+  use_pretrained: true
+  checkpoint_path: null           # 如果为null，创建新的encoder
+  load_encoder_only: true
+
+# 保存和日志
+output:
+  save_dir: './checkpoints'
+  log_dir: './logs'
+  save_interval: 5                # 每N个epoch保存一次
+  eval_interval: 1                # 每N个epoch评估一次
+  log_interval: 10                # 每N个batch打印一次
+
+# 评估配置
+evaluation:
+  metrics:
+    - 'similarity'                # 相似度指标
+    - 'recall_at_k'              # Recall@K
+    - 'mrr'                      # Mean Reciprocal Rank
+  recall_k_values: [1, 5, 10, 20]
+  sample_size: 1000               # 评估时采样的样本数
+
+# 其他
+device: 'cuda'                    # 'cuda' or 'cpu'
+seed: 42
+mixed_precision: false            # 是否使用混合精度训练

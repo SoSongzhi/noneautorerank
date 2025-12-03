@@ -1,0 +1,101 @@
+# Configuration for Stage 2: Mixed Training (Database + Prosit)
+# This config is for transfer learning from database-pretrained model
+
+# Model configuration
+model:
+  encoder_dim: 512
+  projection_dim: 128
+  dropout: 0.1
+  use_batch_norm: true
+
+# Data configuration
+data:
+  data_path: 'data/mixed_spectra.pkl'
+  max_peaks: 200
+  
+  # Augmentation (reduced for mixed training)
+  augmentation: true
+  augmentation_params:
+    intensity_noise: 0.05      # Reduced noise
+    mz_shift: 0.01             # Reduced shift
+    peak_dropout: 0.05         # Reduced dropout
+  
+  # Mixed dataset specific
+  same_source_prob: 0.7        # Probability of same-source positive
+  use_weighted_sampling: true  # Use weighted sampling
+  database_weight: 2.0         # Weight for database samples
+  prosit_weight: 1.0           # Weight for Prosit samples
+
+# Training configuration
+training:
+  epochs: 50
+  batch_size: 32
+  learning_rate: 0.00001       # Smaller LR to preserve learned features
+  weight_decay: 0.0001
+  
+  # Encoder fine-tuning
+  freeze_epochs: 0             # Don't freeze, allow adaptation
+  freeze_encoder: false        # Start with unfrozen encoder
+  
+  # Loss weights (balanced for mixed data)
+  triplet_weight: 0.3
+  contrastive_weight: 2.0
+  triplet_margin: 0.15         # Slightly relaxed margin
+  temperature: 0.05
+  
+  # Optimization
+  optimizer: 'adamw'
+  scheduler: 'cosine'
+  warmup_epochs: 5
+  min_lr: 0.000001
+  
+  # Gradient clipping
+  max_grad_norm: 1.0
+
+# Pretrained model
+pretrained:
+  use_pretrained: true
+  checkpoint_path: 'checkpoints/stage1_database/best_model.pth'
+  load_projection_head: true   # Load projection head too
+  strict: false                # Allow partial loading
+
+# Validation
+validation:
+  val_ratio: 0.1
+  eval_every: 5                # Evaluate every 5 epochs
+  save_best: true
+  
+  # Source-specific evaluation
+  eval_by_source: true         # Evaluate database and Prosit separately
+  
+  # Metrics
+  metrics:
+    - 'same_peptide_similarity'
+    - 'different_peptide_similarity'
+    - 'separation'
+    - 'top1_accuracy'
+    - 'top5_accuracy'
+
+# Checkpointing
+checkpoint:
+  save_every: 10
+  keep_last_n: 3
+  save_best_only: false
+
+# Logging
+logging:
+  log_dir: 'logs/stage2_mixed'
+  log_every: 10
+  use_tensorboard: true
+  
+  # Log source-specific metrics
+  log_source_metrics: true
+
+# Hardware
+device: 'cuda'
+num_workers: 4
+pin_memory: true
+
+# Reproducibility
+seed: 42
+deterministic: false
