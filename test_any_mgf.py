@@ -94,11 +94,11 @@ class PiPrimeHighNineReranker:
         self.piprime_config = load_piprime_config()
         
         # 加载HighNine reranker
-        logger.info(f"Loading HighNine index: {index_file}")
         self.reranker = PiPrimeEfficientReranker(
             piprime_model=self.piprime_model,
             piprime_config=self.piprime_config
         )
+        logger.info(f"Loading HighNine index: {index_file}")
         self.reranker.load_precomputed_index(index_file)
         
         logger.info("✅ Initialization complete")
@@ -277,8 +277,8 @@ def main():
     parser.add_argument('--index', type=str, 
                        default=r'D:\reference_dataset\reference_dataset.mgf.efficient_index.pkl',
                        help='HighNine索引文件路径')
-    parser.add_argument('--output_interval', type=int, default=500,
-                       help='每N个谱图输出一次统计（默认：500）')
+    parser.add_argument('--output_interval', type=int, default=100,
+                       help='每N个谱图输出一次统计（默认：100）')
     
     args = parser.parse_args()
     
