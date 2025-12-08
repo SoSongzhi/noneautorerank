@@ -307,118 +307,7 @@ class Spec2Pep(pl.LightningModule, ModelMixin):
         #     for i, (prob, idx) in enumerate(zip(top_probs, top_indices)):
         #         aa = self.decoder._idx2aa.get(idx.item(), f"idx_{idx.item()}")
 
-        # ============ 打印概率矩阵 ============
-        print("\n" + "="*80)
-        print("📊 PROBABILITY MATRIX 信息")
-        print("="*80)
-        
-        # 1. 原始 output_logits
-        print(f"\n1️⃣ 原始 output_logits shape: {output_logits.shape}")
-        print(f"   - Batch size: {output_logits.shape[0]}")
-        print(f"   - Sequence length: {output_logits.shape[1]}")
-        print(f"   - Vocab size: {output_logits.shape[2]}")
-        
-        # 2. Softmax 概率 (Beam Search 使用)
-        softmax_probs = F.softmax(output_logits, -1)
-        print(f"\n2️⃣ Softmax 概率矩阵 (Beam Search 使用):")
-        print(f"   Shape: {softmax_probs.shape}")
-        print(f"   Min: {softmax_probs.min().item():.6f}")
-        print(f"   Max: {softmax_probs.max().item():.6f}")
-        print(f"   Mean: {softmax_probs.mean().item():.6f}")
-        
-        # 3. Log-Softmax 概率 (DP 使用)
-        log_softmax_probs = F.log_softmax(output_logits, -1)
-        print(f"\n3️⃣ Log-Softmax 概率矩阵 (DP 使用):")
-        print(f"   Shape: {log_softmax_probs.shape}")
-        print(f"   Min: {log_softmax_probs.min().item():.6f}")
-        print(f"   Max: {log_softmax_probs.max().item():.6f}")
-        print(f"   Mean: {log_softmax_probs.mean().item():.6f}")
-        
-        # 4. 打印第一个 spectrum 的完整矩阵
-        print(f"\n4️⃣ 第一个 spectrum 的完整概率矩阵:")
-        print(f"   Softmax 矩阵 (前5个时间步, 前10个token):")
-        print(softmax_probs[0, :5, :10].cpu().numpy())
-        
-        print(f"\n   Log-Softmax 矩阵 (前5个时间步, 前10个token):")
-        print(log_softmax_probs[0, :5, :10].cpu().numpy())
-        
-        # 5. 保存完整矩阵到文件
-        import numpy as np
-        np.save('softmax_probs_matrix.npy', softmax_probs.cpu().numpy())
-        np.save('log_softmax_probs_matrix.npy', log_softmax_probs.cpu().numpy())
-        print(f"\n💾 完整矩阵已保存:")
-        print(f"   - softmax_probs_matrix.npy")
-        print(f"   - log_softmax_probs_matrix.npy")
-        
-        # 6. 显示 top-k tokens 和它们的概率
-        print(f"\n5️⃣ 每个时间步的 Top-5 tokens 及其概率:")
-        for t in range(min(5, softmax_probs.shape[1])):
-            topk_probs, topk_indices = torch.topk(softmax_probs[0, t, :], k=5)
-            print(f"   时间步 {t}:")
-            for i, (prob, idx) in enumerate(zip(topk_probs, topk_indices)):
-                token_name = self.decoder._idx2aa.get(idx.item(), f"Token_{idx.item()}")
-                print(f"      {i+1}. {token_name:15s} prob={prob.item():.6f} (log={torch.log(prob).item():.4f})")
-        
-        print("="*80)
-        print("\n")
-        # ============ 结束打印 ============
-        
-
-        # ============ 打印概率矩阵 ============
-        print("\n" + "="*80)
-        print("📊 PROBABILITY MATRIX 信息")
-        print("="*80)
-        
-        # 1. 原始 output_logits
-        print(f"\n1️⃣ 原始 output_logits shape: {output_logits.shape}")
-        print(f"   - Batch size: {output_logits.shape[0]}")
-        print(f"   - Sequence length: {output_logits.shape[1]}")
-        print(f"   - Vocab size: {output_logits.shape[2]}")
-        
-        # 2. Softmax 概率 (Beam Search 使用)
-        softmax_probs = F.softmax(output_logits, -1)
-        print(f"\n2️⃣ Softmax 概率矩阵 (Beam Search 使用):")
-        print(f"   Shape: {softmax_probs.shape}")
-        print(f"   Min: {softmax_probs.min().item():.6f}")
-        print(f"   Max: {softmax_probs.max().item():.6f}")
-        print(f"   Mean: {softmax_probs.mean().item():.6f}")
-        
-        # 3. Log-Softmax 概率 (DP 使用)
-        log_softmax_probs = F.log_softmax(output_logits, -1)
-        print(f"\n3️⃣ Log-Softmax 概率矩阵 (DP 使用):")
-        print(f"   Shape: {log_softmax_probs.shape}")
-        print(f"   Min: {log_softmax_probs.min().item():.6f}")
-        print(f"   Max: {log_softmax_probs.max().item():.6f}")
-        print(f"   Mean: {log_softmax_probs.mean().item():.6f}")
-        
-        # 4. 打印第一个 spectrum 的完整矩阵
-        print(f"\n4️⃣ 第一个 spectrum 的完整概率矩阵:")
-        print(f"   Softmax 矩阵 (前5个时间步, 前10个token):")
-        print(softmax_probs[0, :5, :10].cpu().numpy())
-        
-        print(f"\n   Log-Softmax 矩阵 (前5个时间步, 前10个token):")
-        print(log_softmax_probs[0, :5, :10].cpu().numpy())
-        
-        # 5. 保存完整矩阵到文件
-        import numpy as np
-        np.save('softmax_probs_matrix.npy', softmax_probs.cpu().numpy())
-        np.save('log_softmax_probs_matrix.npy', log_softmax_probs.cpu().numpy())
-        print(f"\n💾 完整矩阵已保存:")
-        print(f"   - softmax_probs_matrix.npy")
-        print(f"   - log_softmax_probs_matrix.npy")
-        
-        # 6. 显示 top-k tokens 和它们的概率
-        print(f"\n5️⃣ 每个时间步的 Top-5 tokens 及其概率:")
-        for t in range(min(5, softmax_probs.shape[1])):
-            topk_probs, topk_indices = torch.topk(softmax_probs[0, t, :], k=5)
-            print(f"   时间步 {t}:")
-            for i, (prob, idx) in enumerate(zip(topk_probs, topk_indices)):
-                token_name = self.decoder._idx2aa.get(idx.item(), f"Token_{idx.item()}")
-                print(f"      {i+1}. {token_name:15s} prob={prob.item():.6f} (log={torch.log(prob).item():.4f})")
-        
-        print("="*80)
-        print("\n")
-        # ============ 结束打印 ============
+        # Debug output removed for cleaner execution
         
         #         print(f"     #{i+1}: {aa:15s} prob={prob.item():.6f}")
         # print("="*80 + "\n")
@@ -548,7 +437,7 @@ class Spec2Pep(pl.LightningModule, ModelMixin):
                         
                     else:
                         #ctc_customized_mass_control = CTCMassControl(self.decoder )
-                        print("I am CUDA program")
+                        # print("I am CUDA program")  # Debug output removed
                         temp = mass_con.knapDecode(logits, mass, self.mass_control_tol)
                         # knapscores = torch.exp(_)
                         # indTemp = torch.tensor(temp)

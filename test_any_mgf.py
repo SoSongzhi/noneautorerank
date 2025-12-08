@@ -6,10 +6,12 @@
 
 使用方法:
 python test_any_mgf.py <mgf_file_path> [--num_spectra N]
+python test_any_mgf.py <mgf_file_path> --analyze  # 分析peptide分布
 
 示例:
 python test_any_mgf.py "C:\\Users\\research\\Desktop\\Alldata\\high9-massfilter\\high.mouse.PXD004948_mass_filtered.mgf"
 python test_any_mgf.py "testdata/high_nine_validation_1000_converted.mgf" --num_spectra 100
+python test_any_mgf.py "data.mgf" --analyze  # 只分析peptide分布
 """
 
 import sys
@@ -85,7 +87,7 @@ class PiPrimeHighNineReranker:
         # 创建PiPrime predictor
         self.piprime_predictor = PiPrimeWithMassCheck(
             self.piprime_model,
-            precursor_mass_tol=50,
+            precursor_mass_tol=100,
             isotope_error_range=(0, 1),
             beam_width=100
         )
@@ -104,7 +106,7 @@ class PiPrimeHighNineReranker:
         logger.info("✅ Initialization complete")
     
     def process_single_spectrum(
-        self, 
+        self,
         mz_array: np.ndarray,
         intensity_array: np.ndarray,
         precursor_mz: float,
@@ -115,8 +117,8 @@ class PiPrimeHighNineReranker:
         """处理单个谱图"""
         # Step 1: 预处理谱图
         peaks = process_peaks(
-            mz_array, intensity_array, 
-            precursor_mz, precursor_charge, 
+            mz_array, intensity_array,
+            precursor_mz, precursor_charge,
             self.piprime_config
         )
         peaks = peaks.to(self.device)
@@ -138,6 +140,28 @@ class PiPrimeHighNineReranker:
             )
             log_prob_matrix = F.log_softmax(output_logits[0], dim=-1)
         
+        # Step 2.5: 获取PMC结果（动态规划，保证满足precursor mass）
+        pmc_result = None
+        with torch.no_grad():
+            pmc_peptides, pmc_scores = self.piprime_model.forward(
+                peaks.unsqueeze(0),
+                precursors,
+                [""]  # dummy true_peps
+            )
+            
+            if pmc_peptides and len(pmc_peptides[0]) > 0:
+                pmc_peptide = "".join(pmc_peptides[0])
+                pmc_score = pmc_scores[0].item() if torch.is_tensor(pmc_scores[0]) else pmc_scores[0]
+                
+                # PMC结果保证满足precursor mass
+                pmc_result = {
+                    'peptide': pmc_peptide,
+                    'score': pmc_score,
+                    'mass': precursor_mass,  # PMC保证质量匹配
+                    'passes_mass_check': True,
+                    'source': 'PMC'
+                }
+        
         # Step 3: Fastest beam search with mass filtering
         candidates_raw, timing_stats = fastest_beam_search(
             self.piprime_predictor,
@@ -152,6 +176,15 @@ class PiPrimeHighNineReranker:
         candidates_all = []
         candidates_passed = []
         
+        # 首先添加PMC结果（如果有）
+        if pmc_result:
+            candidates_all.append(pmc_result)
+            candidates_passed.append({
+                'peptide': pmc_result['peptide'],
+                'score': pmc_result['score']
+            })
+        
+        # 然后添加Beam Search结果
         for peptide, score, mass, passes in candidates_raw:
             cand_dict = {
                 'peptide': peptide,
@@ -169,15 +202,30 @@ class PiPrimeHighNineReranker:
         
         # Step 4: 智能重排序策略
         if not candidates_passed:
-            result = {
-                'peptide': '',
-                'similarity': -1.0,
-                'denovo_score': 0.0,
-                'source': 'Failed',
-                'is_correct': False
-            }
-            similarity_dict = {}
-            source_dict = {}
+            # 兜底策略：如果没有通过质量检查的候选，使用第一个候选（无论是否通过）
+            if candidates_all:
+                # 使用第一个候选（PMC或Beam Search第一名）
+                fallback_cand = candidates_all[0]
+                result = {
+                    'peptide': fallback_cand['peptide'],
+                    'similarity': -1.0,
+                    'denovo_score': fallback_cand['score'],
+                    'source': f"{fallback_cand.get('source', 'BeamSearch')}_Fallback",
+                    'is_correct': False
+                }
+                similarity_dict = {}
+                source_dict = {}
+            else:
+                # 极端情况：完全没有候选
+                result = {
+                    'peptide': '',
+                    'similarity': -1.0,
+                    'denovo_score': 0.0,
+                    'source': 'Failed',
+                    'is_correct': False
+                }
+                similarity_dict = {}
+                source_dict = {}
         else:
             # Substep 4.1: 查询数据库中的所有候选（快速O(1)查找）
             result_db, similarity_dict_db, source_dict_db = self.reranker.rerank_with_external_embedding(
@@ -252,8 +300,72 @@ class PiPrimeHighNineReranker:
         result['num_candidates_total'] = len(candidates_all)
         result['num_candidates_passed'] = len([c for c in candidates_all if c['passes_mass_check']])
         result['timing_stats'] = timing_stats
+        result['has_pmc'] = pmc_result is not None
         
         return result
+
+
+def analyze_peptide_distribution(mgf_file):
+    """分析MGF文件中peptide和spectrum的分布"""
+    import re
+    from collections import Counter
+    
+    logger.info(f"Analyzing peptide distribution in: {mgf_file}")
+    
+    peptides = []
+    with mgf.MGF(mgf_file) as reader:
+        for spec in reader:
+            seq = spec['params'].get('seq', '')
+            if seq:
+                # 清理peptide序列
+                peptide = seq.upper().strip()
+                peptide = re.sub(r'\[.*?\]|\(.*?\)', '', peptide)
+                peptide = ''.join(c for c in peptide if c.isalpha())
+                if len(peptide) >= 6:
+                    peptides.append(peptide)
+    
+    if not peptides:
+        logger.error("No peptides found in MGF file")
+        return
+    
+    peptide_counts = Counter(peptides)
+    total = len(peptides)
+    unique = len(peptide_counts)
+    single = sum(1 for c in peptide_counts.values() if c == 1)
+    multi = sum(1 for c in peptide_counts.values() if c > 1)
+    multi_spectra = sum(c for c in peptide_counts.values() if c > 1)
+    
+    print("\n" + "="*80)
+    print(f"Analysis of: {Path(mgf_file).name}")
+    print("="*80)
+    print()
+    print(f"Total spectra: {total:,}")
+    print(f"Unique peptides: {unique:,}")
+    print(f"Avg spectra per peptide: {total/unique:.2f}")
+    print()
+    print("Peptide-Spectrum Relationship:")
+    print("-"*80)
+    print(f"Peptides with 1 spectrum: {single:,} ({single/unique*100:.2f}%)")
+    print(f"  -> Spectra count: {single:,} ({single/total*100:.2f}%)")
+    print()
+    print(f"Peptides with >1 spectrum: {multi:,} ({multi/unique*100:.2f}%)")
+    print(f"  -> Spectra count: {multi_spectra:,} ({multi_spectra/total*100:.2f}%)")
+    print()
+    
+    # Distribution
+    count_dist = Counter(peptide_counts.values())
+    print("Distribution (spectra per peptide):")
+    print("-"*80)
+    for count in sorted(count_dist.keys())[:15]:
+        num_peptides = count_dist[count]
+        print(f"{count} spectra: {num_peptides:,} peptides ({num_peptides/unique*100:.2f}%)")
+    
+    print()
+    print("Top 10 peptides:")
+    print("-"*80)
+    for i, (pep, cnt) in enumerate(peptide_counts.most_common(10), 1):
+        print(f"{i}. {pep}: {cnt} spectra")
+    print("="*80)
 
 
 def main():
@@ -266,6 +378,7 @@ def main():
   python test_any_mgf.py "C:\\path\\to\\file.mgf"
   python test_any_mgf.py "testdata/test.mgf" --num_spectra 100
   python test_any_mgf.py "data.mgf" --model custom_model.ckpt --index custom_index.pkl
+  python test_any_mgf.py "data.mgf" --analyze  # 只分析peptide分布
         """
     )
     
@@ -279,8 +392,18 @@ def main():
                        help='HighNine索引文件路径')
     parser.add_argument('--output_interval', type=int, default=100,
                        help='每N个谱图输出一次统计（默认：100）')
+    parser.add_argument('--analyze', action='store_true',
+                       help='只分析peptide分布，不运行预测')
     
     args = parser.parse_args()
+    
+    # 如果只是分析模式
+    if args.analyze:
+        if not os.path.exists(args.mgf_file):
+            logger.error(f"❌ MGF file not found: {args.mgf_file}")
+            return
+        analyze_peptide_distribution(args.mgf_file)
+        return
     
     # 配置
     mgf_file = args.mgf_file

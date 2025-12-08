@@ -184,47 +184,157 @@ def check_mass_match(peptide_mass: float, precursor_mass: float, tolerance: floa
     return mass_diff <= tolerance
 
 
+def calculate_precursor_mz_from_mass(peptide_mass: float, charge: int) -> float:
+    """
+    从peptide质量和电荷计算precursor m/z
+    
+    公式: m/z = (peptide_mass + proton_mass * charge) / charge
+    
+    Args:
+        peptide_mass: peptide质量（含水）
+        charge: 电荷数
+        
+    Returns:
+        precursor m/z值
+    """
+    proton_mass = 1.007276
+    precursor_mz = (peptide_mass + proton_mass * charge) / charge
+    return precursor_mz
+
+
+def peptide_to_precursor_info(peptide: str, charge: int = 2) -> dict:
+    """
+    计算peptide的完整precursor信息
+    
+    Args:
+        peptide: peptide序列
+        charge: 电荷数（默认2）
+        
+    Returns:
+        包含所有计算结果的字典
+    """
+    # 计算质量
+    peptide_mass_with_water = calculate_peptide_mass_piprime(peptide, add_water=True)
+    peptide_mass_no_water = peptide_mass_with_water - H2O_MASS
+    
+    # 计算m/z
+    precursor_mz = calculate_precursor_mz_from_mass(peptide_mass_with_water, charge)
+    
+    # 计算precursor mass（用于验证）
+    precursor_mass = calculate_precursor_mass_from_mz(precursor_mz, charge)
+    
+    return {
+        'peptide': peptide,
+        'charge': charge,
+        'peptide_mass_no_water': peptide_mass_no_water,
+        'peptide_mass_with_water': peptide_mass_with_water,
+        'precursor_mz': precursor_mz,
+        'precursor_mass': precursor_mass,
+        'mass_error': abs(peptide_mass_with_water - precursor_mass)
+    }
+
+
 if __name__ == "__main__":
-    # 测试
-    print("=" * 80)
-    print("PiPrime质量计算测试")
-    print("=" * 80)
+    import sys
+    import argparse
     
-    test_cases = [
-        "SISC+57.021TYDDDTYR",  # 包含C+57.021
-        "M+15.995PEPTLDE",       # 包含M+15.995
-        "PEPN+0.984TLDE",        # 包含N+0.984
-        "PEPTLDE",               # 普通序列
-    ]
+    parser = argparse.ArgumentParser(
+        description='Calculate precursor mass and m/z from peptide sequence',
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  python piprime_mass_calculator.py PEPTIDE
+  python piprime_mass_calculator.py PEPTIDE --charge 3
+  python piprime_mass_calculator.py "SISC+57.021TYDDDTYR" --charge 2
+  python piprime_mass_calculator.py "M+15.995PEPTLDE" --charge 3
+  python piprime_mass_calculator.py --test  # Run tests
+        """
+    )
     
-    for seq in test_cases:
-        mass, tokens = mass_cal_piprime(seq)
-        mass_with_water = mass + H2O_MASS
-        print(f"\n序列: {seq}")
-        print(f"  Tokens: {tokens}")
-        print(f"  质量（不含水）: {mass:.6f} Da")
-        print(f"  质量（含水）: {mass_with_water:.6f} Da")
+    parser.add_argument('peptide', nargs='?', help='Peptide sequence')
+    parser.add_argument('-c', '--charge', type=int, default=2,
+                       help='Precursor charge (default: 2)')
+    parser.add_argument('--test', action='store_true',
+                       help='Run test cases')
+    parser.add_argument('--show-mods', action='store_true',
+                       help='Show supported modifications')
     
-    print("\n" + "=" * 80)
-    print("Precursor质量计算测试")
-    print("=" * 80)
+    args = parser.parse_args()
     
-    # 测试precursor质量计算
-    precursor_mz = 748.3033
-    precursor_charge = 2
-    precursor_mass = calculate_precursor_mass_from_mz(precursor_mz, precursor_charge)
-    print(f"\nPrecursor m/z: {precursor_mz}")
-    print(f"Precursor charge: {precursor_charge}")
-    print(f"Precursor mass: {precursor_mass:.6f} Da")
+    if args.show_mods:
+        print("\n" + "="*80)
+        print("Supported Amino Acids and Modifications")
+        print("="*80)
+        print("\nStandard Amino Acids:")
+        standard_aa = ['G', 'A', 'S', 'P', 'V', 'T', 'L', 'I', 'N', 'D', 'Q', 'K', 'E', 'M', 'H', 'F', 'R', 'Y', 'W']
+        for aa in standard_aa:
+            if aa in AA2MAS:
+                print(f"  {aa}: {AA2MAS[aa]:.6f} Da")
+        
+        print("\nCommon Modifications:")
+        mods = [
+            ('C+57.021', 'Carbamidomethylation'),
+            ('M+15.995', 'Oxidation'),
+            ('N+0.984', 'Deamidation'),
+            ('Q+0.984', 'Deamidation'),
+        ]
+        for mod, name in mods:
+            if mod in AA2MAS:
+                print(f"  {mod}: {AA2MAS[mod]:.6f} Da ({name})")
+        print(f"\nWater mass (H2O): {H2O_MASS:.6f} Da")
+        print("="*80)
+        sys.exit(0)
     
-    # 测试质量匹配
-    peptide_seq = "SISC+57.021TYDDDTYR"
-    peptide_mass = calculate_peptide_mass_piprime(peptide_seq)
-    is_match = check_mass_match(peptide_mass, precursor_mass, tolerance=0.1)
-    print(f"\nPeptide: {peptide_seq}")
-    print(f"Peptide mass (含水): {peptide_mass:.6f} Da")
-    print(f"Peptide mass (不含水): {peptide_mass - H2O_MASS:.6f} Da")
-    print(f"Precursor mass (含水): {precursor_mass:.6f} Da")
-    print(f"Precursor mass (不含水): {precursor_mass - H2O_MASS:.6f} Da")
-    print(f"Mass match (±0.1 Da): {is_match}")
-    print(f"Mass difference (不含水): {abs((peptide_mass - H2O_MASS) - (precursor_mass - H2O_MASS)):.6f} Da")
+    if args.test:
+        # 测试
+        print("=" * 80)
+        print("PiPrime Mass Calculator - Test Cases")
+        print("=" * 80)
+        
+        test_cases = [
+            ("PEPTIDE", 2),
+            ("SISC+57.021TYDDDTYR", 2),
+            ("M+15.995PEPTLDE", 3),
+            ("PEPN+0.984TLDE", 2),
+        ]
+        
+        for seq, charge in test_cases:
+            info = peptide_to_precursor_info(seq, charge)
+            print(f"\nPeptide: {seq}")
+            print(f"  Charge: {charge}+")
+            print(f"  Peptide mass (no water): {info['peptide_mass_no_water']:.6f} Da")
+            print(f"  Peptide mass (with water): {info['peptide_mass_with_water']:.6f} Da")
+            print(f"  Precursor m/z: {info['precursor_mz']:.6f}")
+            print(f"  Precursor mass: {info['precursor_mass']:.6f} Da")
+        
+        print("\n" + "=" * 80)
+        sys.exit(0)
+    
+    if args.peptide:
+        # 计算单个peptide
+        try:
+            info = peptide_to_precursor_info(args.peptide, args.charge)
+            
+            print("\n" + "="*80)
+            print(f"Peptide: {info['peptide']}")
+            print("="*80)
+            print(f"Charge: {info['charge']}+")
+            print(f"\nMass Calculations:")
+            print(f"  Peptide mass (no water): {info['peptide_mass_no_water']:.6f} Da")
+            print(f"  Peptide mass (with water): {info['peptide_mass_with_water']:.6f} Da")
+            print(f"\nPrecursor Calculations:")
+            print(f"  Precursor m/z: {info['precursor_mz']:.6f}")
+            print(f"  Precursor mass: {info['precursor_mass']:.6f} Da")
+            print(f"\nVerification:")
+            print(f"  Mass error: {info['mass_error']:.9f} Da")
+            print("="*80 + "\n")
+            
+        except Exception as e:
+            print(f"Error: {e}", file=sys.stderr)
+            sys.exit(1)
+    else:
+        parser.print_help()
+        print("\nExamples:")
+        print("  python piprime_mass_calculator.py PEPTIDE")
+        print("  python piprime_mass_calculator.py 'SISC+57.021TYDDDTYR' --charge 2")
+        print("  python piprime_mass_calculator.py --test")
