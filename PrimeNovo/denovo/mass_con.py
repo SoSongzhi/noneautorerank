@@ -210,7 +210,7 @@ def knapDecode(prob, preMass, tol):
     grid_size = cp.float32(grid_size)
     tol = cp.float32(tol)
     # print(preMass)
-    prob = torch.where(prob < -20.0, -20.0, prob)
+    prob = torch.where(prob < -20.0, torch.tensor(-20.0, dtype=prob.dtype, device=prob.device), prob)
     #print(prob)
     #print(prob.min())
     prob = prob - prob.min() + 0.1
