@@ -339,7 +339,8 @@ class PiPrimeEfficientReranker:
         precursor_mz,
         precursor_charge,
         use_prosit=True,
-        top_k=3
+        top_k=3,
+        exclude_perfect_match=True  # 新增参数：是否排除完美匹配（similarity=1.0）
     ):
         """
         使用外部提供的spectrum embedding进行重排序
@@ -358,6 +359,8 @@ class PiPrimeEfficientReranker:
             是否使用Prosit预测（默认True）
         top_k : int
             取Top-K个相似度的平均值（默认3）
+        exclude_perfect_match : bool
+            是否排除完美匹配（similarity=1.0）以避免自匹配（默认True）
             
         Returns:
         --------
@@ -426,6 +429,25 @@ class PiPrimeEfficientReranker:
                     )[0][0]
                     similarities.append(sim)
                 
+                # 🔥 新增：只有当只有1个谱图且similarity=1.0时，才排除（真正的自匹配）
+                if exclude_perfect_match and len(ref_spectra) == 1 and len(similarities) == 1:
+                    if abs(similarities[0] - 1.0) < 1e-6:
+                        # 这是唯一的谱图且完美匹配，排除它
+                        result_dict = {
+                            'peptide': peptide,
+                            'denovo_score': denovo_score,
+                            'similarity': -1.0,
+                            'matched_count': 0,
+                            'source': 'SelfMatch'  # 自匹配
+                        }
+                        results.append(result_dict)
+                        similarity_cache[peptide] = {
+                            'similarity': -1.0,
+                            'matched_count': 0,
+                            'source': 'SelfMatch'
+                        }
+                        continue
+                
                 # 取Top-K相似度的平均值
                 top_k_similarities = sorted(similarities, reverse=True)[:top_k]
                 final_similarity = np.mean(top_k_similarities)
@@ -434,7 +456,7 @@ class PiPrimeEfficientReranker:
                     'peptide': peptide,
                     'denovo_score': denovo_score,
                     'similarity': final_similarity,
-                    'matched_count': len(ref_spectra),
+                    'matched_count': len(similarities),  # 注意：这里是过滤后的数量
                     'all_similarities': similarities,
                     'top_k_similarities': top_k_similarities,
                     'source': 'Database'
@@ -444,7 +466,7 @@ class PiPrimeEfficientReranker:
                 # 缓存结果（不包括all_similarities和top_k_similarities以节省内存）
                 similarity_cache[peptide] = {
                     'similarity': final_similarity,
-                    'matched_count': len(ref_spectra),
+                    'matched_count': len(similarities),
                     'source': 'Database'
                 }
             
